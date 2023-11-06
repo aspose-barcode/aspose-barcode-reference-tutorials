@@ -23,7 +23,7 @@ is_root: true
 ### [Patch Code Configuration](./patch-code-configuration/)
 
 ### [Supplemental Barcode Data](./supplemental-barcode-data/)
-
+Learn how to generate and customize supplemental barcode data using Aspose.BarCode for .NET with our step-by-step tutorials. Enhance your barcode skills today!
 ### [Aztec Barcode Encoding](./aztec-barcode-encoding/)
 
 ### [Compact PDF417 Encoding](./compact-pdf417-encoding/)
