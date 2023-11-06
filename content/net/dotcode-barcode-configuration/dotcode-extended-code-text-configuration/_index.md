@@ -20,7 +20,7 @@ namespace Aspose.BarCode.Examples.CSharp.BarcodeGeneration
     {
         public static void Run()
         {
-            string path = GetFolder();
+            string path = "Your Directory Path";
             System.Console.WriteLine("DotCodeExtendedCodetext:");
 
             //create codetext

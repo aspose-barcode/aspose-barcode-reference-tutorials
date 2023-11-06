@@ -20,7 +20,7 @@ namespace Aspose.BarCode.Examples.CSharp.BarcodeGeneration
     {
 		public static void Run()
         {
-            string path = GetFolder();
+            string path = "Your Directory Path";
             System.Console.WriteLine(" Gs1CouponUpcaCode128:");
 
             BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "123456789012(8110)ASPOSE");

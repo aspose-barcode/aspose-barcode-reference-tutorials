@@ -20,7 +20,7 @@ namespace Aspose.BarCode.Examples.CSharp.BarcodeGeneration
     {
 		public static void Run()
         {
-            string path = GetFolder();
+            string path = "Your Directory Path";
             System.Console.WriteLine("Gs1DataMatrixExample:");
 
             BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.GS1DataMatrix, "(01)12345678901231(21)ASPOSE(30)9876");

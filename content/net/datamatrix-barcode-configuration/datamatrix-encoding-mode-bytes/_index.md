@@ -23,7 +23,7 @@ namespace Aspose.BarCode.Examples.CSharp.BarcodeGeneration
     {
 		public static void Run()
         {
-            string path = GetFolder();
+            string path = "Your Directory Path";
             System.Console.WriteLine("DataMatrixEncodeModeBytes:");
 
             byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };

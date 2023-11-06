@@ -20,7 +20,7 @@ namespace Aspose.BarCode.Examples.CSharp.BarcodeGeneration
     {
 		public static void Run()
         {
-            string path = GetFolder();
+            string path = "Your Directory Path";
             System.Console.WriteLine("ITF14BorderThickness:");
 
             BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");

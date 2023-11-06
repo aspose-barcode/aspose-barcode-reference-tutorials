@@ -22,7 +22,7 @@ namespace Aspose.BarCode.Examples.CSharp.BarcodeGeneration
     {
 		public static void Run()
         {
-            string path = GetFolder();
+            string path = "Your Directory Path";
             Console.WriteLine("DataMatrixExtendedCodetext:");
 
             //create codetext
