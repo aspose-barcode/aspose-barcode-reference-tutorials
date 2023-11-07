@@ -19,7 +19,7 @@ is_root: true
 ### [ITF-14 Barcode Customization](./itf-14-barcode-customization/)
 
 ### [One-Dimensional Barcode Types](./one-dimensional-barcode-types/)
-
+Learn how to create various one-dimensional barcodes in .NET using Aspose.BarCode. Step-by-step guides for barcode generation and customization.
 ### [Patch Code Configuration](./patch-code-configuration/)
 Generate Patch Code barcodes easily with Aspose.BarCode for .NET. Learn how to configure and customize Patch Code formats with Aspose.BarCode tutorials.
 ### [Supplemental Barcode Data](./supplemental-barcode-data/)
