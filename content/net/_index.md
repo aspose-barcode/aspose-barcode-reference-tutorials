@@ -17,7 +17,7 @@ is_root: true
 ### [GS1 Barcode Encoding](./gs1-barcode-encoding/)
 
 ### [ITF-14 Barcode Customization](./itf-14-barcode-customization/)
-
+Learn to customize ITF-14 barcode border thickness and types with Aspose.BarCode for .NET. Optimize your packaging and labeling effortlessly.
 ### [One-Dimensional Barcode Types](./one-dimensional-barcode-types/)
 Learn how to create various one-dimensional barcodes in .NET using Aspose.BarCode. Step-by-step guides for barcode generation and customization.
 ### [Patch Code Configuration](./patch-code-configuration/)
