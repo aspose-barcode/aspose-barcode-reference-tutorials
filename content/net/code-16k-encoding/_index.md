@@ -9,5 +9,7 @@ url: /net/code-16k-encoding/
 ---
 
 ## Code 16K Encoding Tutorials
-### [Code 16K Aspect Ratio Customization](./code-16k-aspect-ratio-customization/)
+### [Customize Code 16K Barcode Aspect Ratios](./code-16k-aspect-ratio-customization/)
+Learn how to customize Code 16K barcode aspect ratios using Aspose.BarCode for .NET. Create precise barcodes for your applications.
 ### [Code 16K Quiet Zone Settings](./code-16k-quiet-zone-settings/)
+Master Code 16K Quiet Zones with Aspose.BarCode for .NET. Customize barcode settings for reliable scanning.
