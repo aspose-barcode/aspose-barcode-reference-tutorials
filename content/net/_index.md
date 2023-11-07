@@ -21,7 +21,7 @@ is_root: true
 ### [One-Dimensional Barcode Types](./one-dimensional-barcode-types/)
 
 ### [Patch Code Configuration](./patch-code-configuration/)
-
+Generate Patch Code barcodes easily with Aspose.BarCode for .NET. Learn how to configure and customize Patch Code formats with Aspose.BarCode tutorials.
 ### [Supplemental Barcode Data](./supplemental-barcode-data/)
 Learn how to generate and customize supplemental barcode data using Aspose.BarCode for .NET with our step-by-step tutorials. Enhance your barcode skills today!
 ### [Aztec Barcode Encoding](./aztec-barcode-encoding/)
