@@ -15,7 +15,7 @@ is_root: true
 ### [Code 16K Encoding](./code-16k-encoding/)
 
 ### [GS1 Barcode Encoding](./gs1-barcode-encoding/)
-
+Explore GS1 barcode encoding tutorials for Aspose.BarCode in .NET. Create GS1 Code 128, UPC-A, and DataMatrix barcodes with ease. Get started now!
 ### [ITF-14 Barcode Customization](./itf-14-barcode-customization/)
 Learn to customize ITF-14 barcode border thickness and types with Aspose.BarCode for .NET. Optimize your packaging and labeling effortlessly.
 ### [One-Dimensional Barcode Types](./one-dimensional-barcode-types/)
