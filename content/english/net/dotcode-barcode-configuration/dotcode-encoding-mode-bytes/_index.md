@@ -2,7 +2,7 @@
 title: DotCode Encoding Mode (Bytes) with Aspose.BarCode for .NET
 linktitle: DotCode Encoding Mode (Bytes)
 second_title: Aspose.BarCode .NET API
-description: Learn DotCode Encoding with Aspose.BarCode for .NET: Step-by-step guide to generate barcodes.
+description: Learn DotCode Encoding with Aspose.BarCode for .NET Step-by-step guide to generate barcodes.
 type: docs
 weight: 12
 url: /net/dotcode-barcode-configuration/dotcode-encoding-mode-bytes/
