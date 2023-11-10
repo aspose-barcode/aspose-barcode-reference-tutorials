@@ -40,7 +40,7 @@ These namespaces provide the necessary classes and methods for working with barc
 
 In this step, we'll walk you through the process of configuring DataMatrix extended code text.
 
-### Step 2: Define the Directory Path
+## Step 2: Define the Directory Path
 
 You need to specify the directory path where you want to save the generated DataMatrix barcode. Replace `"Your Directory Path"` with the actual path on your system.
 
@@ -48,7 +48,7 @@ You need to specify the directory path where you want to save the generated Data
 string path = "Your Directory Path";
 ```
 
-### Step 3: Create the Codetext
+## Step 3: Create the Codetext
 
 To create the codetext for the DataMatrix barcode, you'll use the `DataMatrixExtCodetextBuilder`. This builder allows you to add various types of codetext with different encodings.
 
@@ -62,7 +62,7 @@ codetextBuilder.AddCodetextWithEncodeMode(DataMatrixEncodeMode.Text, "abcde");
 
 This code configures the codetext with a mix of different encodings.
 
-### Step 4: Generate Codetext
+## Step 4: Generate Codetext
 
 After configuring the codetext, generate the DataMatrix codetext string.
 
@@ -70,7 +70,7 @@ After configuring the codetext, generate the DataMatrix codetext string.
 string codetext = codetextBuilder.GetExtendedCodetext();
 ```
 
-### Step 5: Generate DataMatrix Barcode
+## Step 5: Generate DataMatrix Barcode
 
 Now, create the DataMatrix barcode using the generated codetext. You can also set various parameters for the barcode, such as X dimension and code text display.
 
@@ -87,7 +87,7 @@ using (var generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
 
 This code generates and saves the DataMatrix barcode image with the specified settings.
 
-### Step 6: Try to Recognize
+## Step 6: Try to Recognize
 
 To ensure the barcode can be recognized, you can use the `BarCodeReader` class to read the barcode.
 

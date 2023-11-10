@@ -16,7 +16,7 @@ Before we begin, there are a few prerequisites you need to have in place:
 
 ### 1. Install Aspose.BarCode for .NET
 
-Make sure you have Aspose.BarCode for .NET installed on your system. You can download it from the official website [here](https://releases.aspose.com/barcode/net/).
+Make sure you have Aspose.BarCode for .NET installed on your system. You can download it from the website [here](https://releases.aspose.com/barcode/net/).
 
 ### 2. Create a .NET Project
 
@@ -91,7 +91,7 @@ Congratulations! You've successfully customized the aspect ratio of a One-Dimens
 
 In this tutorial, we've explored how to customize the aspect ratio of a One-Dimensional DataBar using Aspose.BarCode for .NET. With the power of customization and precision, you can achieve barcode designs tailored to your specific needs. Whether it's for inventory management or product labeling, Aspose.BarCode for .NET empowers you to create barcodes with ease.
 
-Have any questions or need further assistance? Check out the [official documentation](https://reference.aspose.com/barcode/net/) or visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for support.
+Have any questions or need further assistance? Check out the [documentation](https://reference.aspose.com/barcode/net/) or visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for support.
 
 ## FAQs
 
@@ -109,7 +109,7 @@ While you can adjust the aspect ratio, extreme changes may affect the barcode's 
 
 ### 4. Where can I find more tutorials and examples for Aspose.BarCode for .NET?
 
-You can explore a wide range of tutorials and examples in the [official documentation](https://reference.aspose.com/barcode/net/).
+You can explore a wide range of tutorials and examples in the [documentation](https://reference.aspose.com/barcode/net/).
 
 ### 5. How do I obtain a temporary license for Aspose.BarCode for .NET?
 

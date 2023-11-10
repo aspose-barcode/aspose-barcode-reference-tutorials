@@ -15,10 +15,10 @@ In the world of software development, incorporating barcode generation into your
 Before we embark on our journey with Aspose.BarCode for .NET, you need to ensure that you have the following prerequisites in place:
 
 ### 1. Visual Studio
-You should have Visual Studio installed on your development machine. If not, you can download it from the [official website](https://visualstudio.microsoft.com/).
+You should have Visual Studio installed on your development machine. If not, you can download it from the [website](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.BarCode for .NET
-You must have the Aspose.BarCode for .NET library. You can download it from the [official website](https://releases.aspose.com/barcode/net/). You can obtain a free trial version from [here](https://releases.aspose.com/).
+You must have the Aspose.BarCode for .NET library. You can download it from the [website](https://releases.aspose.com/barcode/net/). You can obtain a free trial version from [here](https://releases.aspose.com/).
 
 ### 3. .NET Framework
 Your development environment should be equipped with the .NET Framework. Make sure you're using a compatible version of the framework.
@@ -113,8 +113,8 @@ Remember, practice is key. Experiment with different barcode types and customiza
 
 ## FAQs
 
-### 1. Where can I find the official documentation for Aspose.BarCode for .NET?
-You can find the official documentation at [https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
+### 1. Where can I find the documentation for Aspose.BarCode for .NET?
+You can find the documentation at [https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
 
 ### 2. How can I obtain a temporary license for Aspose.BarCode for .NET?
 You can get a temporary license from [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
@@ -126,4 +126,4 @@ Yes, Aspose.BarCode for .NET is compatible with the latest .NET Framework versio
 Yes, you can customize various parameters such as color, size, and text appearance to meet your specific needs.
 
 ### 5. Is there a community or forum for Aspose.BarCode for .NET support?
-Yes, you can seek support and join discussions on the official Aspose.BarCode forum at [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+Yes, you can seek support and join discussions on the Aspose.BarCode forum at [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).

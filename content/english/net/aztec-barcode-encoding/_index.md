@@ -8,7 +8,7 @@ weight: 28
 url: /net/aztec-barcode-encoding/
 ---
 
-# Introduction
+## Introduction
 
 Are you ready to dive into the world of Aztec Barcode Encoding? Aspose.BarCode for .NET opens the gateway to creating unique and flexible barcodes tailored to your needs. Let's explore some key tutorials that will empower you to harness the full potential of Aztec Barcode Encoding.
 

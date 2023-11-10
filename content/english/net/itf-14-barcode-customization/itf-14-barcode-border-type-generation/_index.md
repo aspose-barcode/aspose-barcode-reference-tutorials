@@ -14,7 +14,7 @@ In this tutorial, we will guide you through the process of generating ITF-14 bar
 
 Before we dive into the barcode generation process, ensure you have the following prerequisites in place:
 
-1. Aspose.BarCode for .NET: You need to have Aspose.BarCode for .NET installed. You can download it from the [official website](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET: You need to have Aspose.BarCode for .NET installed. You can download it from the [website](https://releases.aspose.com/barcode/net/).
 
 2. Development Environment: Make sure you have a development environment set up, which can be a .NET project in your preferred IDE.
 
@@ -105,7 +105,7 @@ Yes, Aspose.BarCode provides extensive customization options, including the abil
 Yes, Aspose.BarCode for .NET is compatible with various .NET frameworks, including .NET Core and .NET Standard, in addition to traditional .NET Framework.
 
 ### Where can I find comprehensive documentation for Aspose.BarCode for .NET?
-You can refer to the official documentation [here](https://reference.aspose.com/barcode/net/) for detailed information and examples on using Aspose.BarCode.
+You can refer to the documentation [here](https://reference.aspose.com/barcode/net/) for detailed information and examples on using Aspose.BarCode.
 
 ### Is there a free trial version of Aspose.BarCode available?
 Yes, you can access a free trial version of Aspose.BarCode for .NET from [here](https://releases.aspose.com/).

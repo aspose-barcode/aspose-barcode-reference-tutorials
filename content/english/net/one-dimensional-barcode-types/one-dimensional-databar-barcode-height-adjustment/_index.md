@@ -33,11 +33,9 @@ Before diving into the code, you need to import the necessary namespaces. This a
 using Aspose.BarCode;
 ```
 
-## Step-by-Step Guide
-
 We will now break down the process of adjusting the height of a One-Dimensional Databar barcode into multiple steps.
 
-### Step 2: Initialize the Barcode Generator
+## Step 2: Initialize the Barcode Generator
 
 First, we need to initialize the Barcode Generator with the barcode type and data you want to encode.
 
@@ -46,7 +44,7 @@ First, we need to initialize the Barcode Generator with the barcode type and dat
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarOmniDirectional, "(01)12345678901231");
 ```
 
-### Step 3: Set X-Dimension
+## Step 3: Set X-Dimension
 
 The X-Dimension represents the width of the barcode elements. You can set the X-Dimension in pixels.
 
@@ -55,7 +53,7 @@ The X-Dimension represents the width of the barcode elements. You can set the X-
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-### Step 4: Adjust Bar Height
+## Step 4: Adjust Bar Height
 
 Now, let's change the height of the barcode. This is the main focus of this tutorial.
 
@@ -75,7 +73,7 @@ By following these steps, you can create One-Dimensional Databar barcodes with v
 
 ## Conclusion
 
-In this tutorial, we've explored how to adjust the height of a One-Dimensional Databar barcode using Aspose.BarCode for .NET. This can be incredibly useful in scenarios where barcode customization is required. Remember to consult the [official documentation](https://reference.aspose.com/barcode/net/) for more details and advanced features of Aspose.BarCode for .NET.
+In this tutorial, we've explored how to adjust the height of a One-Dimensional Databar barcode using Aspose.BarCode for .NET. This can be incredibly useful in scenarios where barcode customization is required. Remember to consult the [documentation](https://reference.aspose.com/barcode/net/) for more details and advanced features of Aspose.BarCode for .NET.
 
 Now, you are well-equipped to fine-tune barcode properties, ensuring that they meet your specific needs. Feel free to experiment and adapt these techniques to your projects and requirements.
 

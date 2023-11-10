@@ -15,7 +15,7 @@ When it comes to generating barcodes in .NET applications, Aspose.BarCode for .N
 Before you begin, make sure you have the following prerequisites in place:
 
 - A development environment with .NET Framework or .NET Core.
-- Aspose.BarCode for .NET installed. You can download it from the official website [here](https://releases.aspose.com/barcode/net/).
+- Aspose.BarCode for .NET installed. You can download it from the website [here](https://releases.aspose.com/barcode/net/).
 - A code editor of your choice.
 
 Now that we have the prerequisites covered, let's dive into the process of adjusting the height of a one-dimensional barcode.
@@ -69,7 +69,7 @@ If you have any questions or encounter issues, you can seek help from the Aspose
 ## FAQs
 
 ### What barcode types are supported by Aspose.BarCode for .NET?
-Aspose.BarCode for .NET supports a wide range of barcode types, including Code128, QR Code, DataMatrix, and many more. You can find a comprehensive list in the official documentation.
+Aspose.BarCode for .NET supports a wide range of barcode types, including Code128, QR Code, DataMatrix, and many more. You can find a comprehensive list in the documentation.
 
 ### Can I adjust the width of a one-dimensional barcode as well?
 Yes, you can adjust the width of a one-dimensional barcode using Aspose.BarCode for .NET. The process is similar to adjusting the height, and you have full control over the barcode's dimensions.
@@ -81,5 +81,5 @@ Yes, you can explore Aspose.BarCode for .NET with a free trial. You can download
 Yes, Aspose.BarCode for .NET supports various image formats, including PNG, JPEG, and TIFF. You can choose the format that best suits your application's requirements.
 
 ### Where can I find detailed documentation for Aspose.BarCode for .NET?
-You can refer to the official documentation [here](https://reference.aspose.com/barcode/net/) for in-depth information on using Aspose.BarCode in your .NET projects.
+You can refer to the documentation [here](https://reference.aspose.com/barcode/net/) for in-depth information on using Aspose.BarCode in your .NET projects.
 

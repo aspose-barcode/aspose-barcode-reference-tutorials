@@ -29,9 +29,7 @@ using Aspose.BarCode.Generation;
 
 With the namespaces in place, you can now start using Aspose.BarCode for .NET.
 
-## Aztec Symbol Mode
-
-### Step 1: Setting up the Barcode Generator
+## Step 1: Setting up the Barcode Generator
 
 Begin by initializing the Barcode Generator with the Aztec encoding type and providing the code text. Here's how to do it:
 
@@ -44,7 +42,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Åspóse.Barcód
 
 In this step, we have set up the generator and provided the code text for encoding.
 
-### Step 2: Setting the Symbol Mode to Auto
+## Step 2: Setting the Symbol Mode to Auto
 
 Now, let's set the Aztec Symbol Mode to "Auto" and save the barcode image as a PNG file. Here's how you can do it:
 
@@ -55,7 +53,7 @@ gen.Save($"{path}AztecSymbolModeAuto.png", BarCodeImageFormat.Png);
 
 This step ensures that the Aztec Symbol Mode is automatically determined, and the resulting barcode image is saved.
 
-### Step 3: Setting the Symbol Mode to FullRange
+## Step 3: Setting the Symbol Mode to FullRange
 
 If you want to specify the Aztec Symbol Mode as "FullRange," you can do so with the following code:
 
@@ -66,7 +64,7 @@ gen.Save($"{path}AztecSymbolModeFullRange.png", BarCodeImageFormat.Png);
 
 This will create a barcode with the FullRange Aztec Symbol Mode.
 
-### Step 4: Setting the Symbol Mode to Compact
+## Step 4: Setting the Symbol Mode to Compact
 
 To create a barcode with the Aztec Symbol Mode set to "Compact," use the following code:
 
@@ -77,7 +75,7 @@ gen.Save($"{path}AztecSymbolModeCompact.png", BarCodeImageFormat.Png);
 
 This step configures the barcode to be generated with the Compact Aztec Symbol Mode.
 
-### Step 5: Setting the Symbol Mode to Rune
+## Step 5: Setting the Symbol Mode to Rune
 
 Finally, if you want to use the "Rune" Aztec Symbol Mode, you can do so by setting it as follows:
 

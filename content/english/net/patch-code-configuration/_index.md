@@ -10,7 +10,7 @@ url: /net/patch-code-configuration/
 
 In the realm of document management, Patch Code barcodes play a vital role in streamlining processes and ensuring data accuracy. With Aspose.BarCode for .NET, you can master the art of configuring and customizing these barcodes effortlessly. In this comprehensive tutorial, we'll walk you through the essential aspects of Patch Code configuration, setting up, and customization.
 
-### Understanding Patch Code Format Configuration
+## Understanding Patch Code Format Configuration
 
 Patch Code barcodes are a powerful tool for organizing and categorizing documents. With Aspose.BarCode for .NET, you can easily generate Patch Code barcodes that are compatible with a variety of document management systems. Let's delve into the key steps:
 
@@ -22,7 +22,7 @@ Patch Code barcodes are a powerful tool for organizing and categorizing document
 
 4. Integration: Discover how to integrate Patch Code barcodes into your document management system or applications. Aspose.BarCode for .NET offers flexibility and compatibility.
 
-### Patch Code Set Customization
+## Patch Code Set Customization
 
 Customizing Patch Code sets is an essential skill for those who want to optimize barcode usage in their .NET applications. Aspose.BarCode empowers you to take full control over your barcodes:
 

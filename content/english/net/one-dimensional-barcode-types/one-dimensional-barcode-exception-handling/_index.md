@@ -95,14 +95,14 @@ Exception handling is a critical aspect of any barcode generation project, ensur
 ### What is Aspose.BarCode for .NET?
 Aspose.BarCode for .NET is a powerful library that enables .NET developers to generate and manipulate barcodes in their applications. It supports a wide range of barcode symbologies and provides numerous features for barcode customization.
 
-### Where can I find the official documentation for Aspose.BarCode for .NET?
+### Where can I find the documentation for Aspose.BarCode for .NET?
 You can access the documentation for Aspose.BarCode for .NET [here](https://reference.aspose.com/barcode/net/). It contains comprehensive information, tutorials, and examples to help you get started.
 
 ### Is there a free trial available for Aspose.BarCode for .NET?
 Yes, you can try Aspose.BarCode for .NET for free. Simply download the trial version [here](https://releases.aspose.com/).
 
 ### How can I purchase a license for Aspose.BarCode for .NET?
-To purchase a license for Aspose.BarCode for .NET, visit the official purchase page [here](https://purchase.aspose.com/buy).
+To purchase a license for Aspose.BarCode for .NET, visit the purchase page [here](https://purchase.aspose.com/buy).
 
 ### Where can I seek help and support for Aspose.BarCode for .NET?
 If you have any questions or need assistance, you can visit the Aspose.BarCode for .NET support forum [here](https://forum.aspose.com/c/barcode/13). The community and support team are there to help you with your queries.

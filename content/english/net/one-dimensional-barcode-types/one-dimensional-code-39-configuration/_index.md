@@ -16,9 +16,9 @@ Barcodes play a crucial role in modern businesses, from tracking inventory to en
 
 Before we dive into the world of barcode generation with Aspose.BarCode for .NET, there are a few prerequisites you should have in place:
 
-1. .NET Development Environment: You should have a working knowledge of the .NET framework and have a development environment set up. If you're new to .NET, consider exploring the official .NET documentation: [Microsoft .NET Documentation](https://docs.microsoft.com/en-us/dotnet/).
+1. .NET Development Environment: You should have a working knowledge of the .NET framework and have a development environment set up. If you're new to .NET, consider exploring the .NET documentation: [Microsoft .NET Documentation](https://docs.microsoft.com/en-us/dotnet/).
 
-2. Aspose.BarCode for .NET: Download and install Aspose.BarCode for .NET. You can find the library and documentation on the official Aspose website: [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/) and [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).
+2. Aspose.BarCode for .NET: Download and install Aspose.BarCode for .NET. You can find the library and documentation on the Aspose website: [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/) and [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).
 
 Now that we've covered the prerequisites, let's move on to the main steps of creating one-dimensional Code 39 barcodes using Aspose.BarCode for .NET.
 

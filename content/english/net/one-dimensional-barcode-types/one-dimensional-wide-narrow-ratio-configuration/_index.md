@@ -18,7 +18,7 @@ Before we dive into the world of barcodes with Aspose.BarCode for .NET, you need
    - Ensure you have Visual Studio installed on your system to work with .NET applications.
    
 ### 2. Aspose.BarCode for .NET Library
-   - You must have the Aspose.BarCode for .NET library installed. You can download it from the [official website](https://releases.aspose.com/barcode/net/).
+   - You must have the Aspose.BarCode for .NET library installed. You can download it from the [website](https://releases.aspose.com/barcode/net/).
 
 ### 3. License Key (Optional)
    - If you have a license key, it can be used to unlock additional features of the library. You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
@@ -84,14 +84,14 @@ gen.Save($"{path}WideNarrow5Code39.png", BarCodeImageFormat.Png);
 
 Now you have successfully created one-dimensional barcodes with different wide-narrow ratios using Aspose.BarCode for .NET. This library provides you with the flexibility to generate barcodes tailored to your specific requirements.
 
-# Conclusion
+## Conclusion
 
 Aspose.BarCode for .NET is a versatile library that simplifies barcode generation and customization in your .NET applications. In this tutorial, we covered the basics of creating one-dimensional barcodes with wide-narrow ratio configuration. With the ability to fine-tune various parameters, you can create barcodes that perfectly suit your needs.
 
 ## Frequently Asked Questions
 
 ### 1. How can I obtain a license for Aspose.BarCode for .NET?
-You can purchase a license from the [official Aspose website](https://purchase.aspose.com/buy).
+You can purchase a license from the [Aspose website](https://purchase.aspose.com/buy).
 
 ### 2. Can I use Aspose.BarCode for .NET without a license?
 Yes, you can use it with a temporary license, which provides limited functionality.

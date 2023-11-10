@@ -18,7 +18,7 @@ Before we dive into the world of ITF-14 Barcode Quiet Zone Configuration using A
 
 1. Visual Studio and .NET Framework: Ensure that you have Visual Studio installed and a basic understanding of the .NET framework.
 
-2. Aspose.BarCode for .NET: Download and install Aspose.BarCode for .NET from the [official website](https://releases.aspose.com/barcode/net/).
+2. Aspose.BarCode for .NET: Download and install Aspose.BarCode for .NET from the [website](https://releases.aspose.com/barcode/net/).
 
 3. Your Development Environment: Have a development environment set up and ready for coding.
 

@@ -85,7 +85,7 @@ In this tutorial, we have explored how to generate Patch Code barcodes using Asp
 Aspose.BarCode for .NET is a powerful library that allows .NET developers to generate and read various types of barcodes, including Patch Codes, QR codes, and more.
 
 ### Where can I download Aspose.BarCode for .NET?
-You can download Aspose.BarCode for .NET from the official [Aspose website](https://releases.aspose.com/barcode/net/).
+You can download Aspose.BarCode for .NET from the [Aspose website](https://releases.aspose.com/barcode/net/).
 
 ### Is Aspose.BarCode for .NET suitable for document management systems?
 Yes, Aspose.BarCode for .NET is well-suited for document management systems, as it can generate Patch Code barcodes used for document identification and organization.

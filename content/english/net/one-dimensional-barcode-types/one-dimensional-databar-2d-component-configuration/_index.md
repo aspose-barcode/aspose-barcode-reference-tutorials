@@ -14,7 +14,7 @@ In the world of data encoding and barcoding, the Aspose.BarCode for .NET library
 
 Before we delve into the details of configuring the One-Dimensional Databar 2D component, there are a few prerequisites to keep in mind:
 
-1. Installation: Ensure you have Aspose.BarCode for .NET installed in your development environment. If not, you can download it from the official website [here](https://releases.aspose.com/barcode/net/).
+1. Installation: Ensure you have Aspose.BarCode for .NET installed in your development environment. If not, you can download it from the website [here](https://releases.aspose.com/barcode/net/).
 
 2. Basic Understanding: A basic knowledge of C# and .NET development is recommended for this tutorial.
 
@@ -74,7 +74,7 @@ With these steps completed, you've successfully configured the One-Dimensional D
 
 ## Conclusion
 
-In this tutorial, we've explored the process of configuring the One-Dimensional Databar 2D component using Aspose.BarCode for .NET. This versatile library empowers developers to generate and customize barcodes with ease, and we've covered the essential steps to get you started. Remember to check out the official documentation for more details and options: [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
+In this tutorial, we've explored the process of configuring the One-Dimensional Databar 2D component using Aspose.BarCode for .NET. This versatile library empowers developers to generate and customize barcodes with ease, and we've covered the essential steps to get you started. Remember to check out the documentation for more details and options: [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
 If you're looking for a reliable barcode generation solution in .NET, Aspose.BarCode is a powerful choice. Feel free to experiment and adapt these steps to your specific needs, and start creating your own custom barcodes today!
 
@@ -87,7 +87,7 @@ If you're looking for a reliable barcode generation solution in .NET, Aspose.Bar
 - Absolutely! You can adjust the barcode's size, color, and various other visual properties to suit your needs.
 
 ### Are there any licensing options available for Aspose.BarCode for .NET?
-- Yes, Aspose offers licensing options to meet different requirements. You can explore them on the official website.
+- Yes, Aspose offers licensing options to meet different requirements. You can explore them on the website.
 
 ### Is Aspose.BarCode suitable for both beginners and experienced developers?
 - Aspose.BarCode is designed to be user-friendly, making it suitable for both beginners and experienced developers.

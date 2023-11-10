@@ -16,7 +16,7 @@ Before we dive into configuring the GS1 Coupon Supplement Space with Aspose.BarC
 
 1. Visual Studio: You should have Visual Studio installed on your system. Aspose.BarCode for .NET is primarily used within the Visual Studio development environment.
 
-2. Aspose.BarCode for .NET: Make sure you have Aspose.BarCode for .NET installed. You can download it from the official [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
+2. Aspose.BarCode for .NET: Make sure you have Aspose.BarCode for .NET installed. You can download it from the [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
 
 3. .NET Framework: You need to be familiar with the .NET framework and C# programming language to effectively use this library.
 
@@ -76,10 +76,10 @@ The GS1 Coupon Supplement Space is used to add extra space around a barcode, mak
 Yes, you can easily customize the width of the GS1 Coupon Supplement Space using the library, as demonstrated in this tutorial.
 
 ### Where can I find additional documentation and support for Aspose.BarCode for .NET?
-You can refer to the official [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) for more information and visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for support.
+You can refer to the [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) for more information and visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for support.
 
 ### Is Aspose.BarCode for .NET suitable for both beginners and experienced developers?
 Aspose.BarCode for .NET caters to developers of all levels. It offers a user-friendly interface for beginners and advanced customization options for experienced developers.
 
 ### Can I obtain a temporary license for Aspose.BarCode for .NET to evaluate its features?
-Yes, you can request a temporary license for Aspose.BarCode for .NET from the [official website](https://purchase.aspose.com/temporary-license/).
+Yes, you can request a temporary license for Aspose.BarCode for .NET from the [website](https://purchase.aspose.com/temporary-license/).

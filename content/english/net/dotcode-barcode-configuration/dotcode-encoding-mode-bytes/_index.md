@@ -56,9 +56,7 @@ using System.Text;
 
 Now that you've set up your project and imported the required namespaces, you're ready to dive into the DotCode Encoding Mode.
 
-## DotCode Encoding Mode (Bytes)
-
-### Step 1: Define Your Directory Path
+## Step 1: Define Your Directory Path
 
 Begin by specifying the directory path where you want to save the generated barcode image.
 
@@ -66,7 +64,7 @@ Begin by specifying the directory path where you want to save the generated barc
 string path = "Your Directory Path";
 ```
 
-### Step 2: Create DotCodeEncodeModeBytes
+## Step 2: Create DotCodeEncodeModeBytes
 
 In this step, you'll create the DotCodeEncodeModeBytes. We'll encode an array of bytes into a barcode.
 
@@ -74,7 +72,7 @@ In this step, you'll create the DotCodeEncodeModeBytes. We'll encode an array of
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 ```
 
-### Step 3: Encode Array to String
+## Step 3: Encode Array to String
 
 To generate the barcode, you need to convert the byte array into a string. This step is essential for barcode generation.
 
@@ -85,7 +83,7 @@ foreach (byte bval in encodedArr)
 var codetext = strBld.ToString();
 ```
 
-### Step 4: Initialize BarcodeGenerator
+## Step 4: Initialize BarcodeGenerator
 
 Now, create an instance of the BarcodeGenerator and specify the barcode type (DotCode) and the codetext.
 
@@ -93,7 +91,7 @@ Now, create an instance of the BarcodeGenerator and specify the barcode type (Do
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 ```
 
-### Step 5: Set Barcode Parameters
+## Step 5: Set Barcode Parameters
 
 Configure the barcode parameters, such as XDimension in pixels and DotCodeEncodeMode to Bytes.
 
@@ -102,7 +100,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 10;
 gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
 ```
 
-### Step 6: Save Barcode Image
+## Step 6: Save Barcode Image
 
 Finally, save the generated barcode image to the specified directory path in PNG format.
 

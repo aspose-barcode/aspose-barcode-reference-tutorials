@@ -63,7 +63,7 @@ That's it! You've successfully generated a GS1 DataMatrix barcode using Aspose.B
 
 In conclusion, Aspose.BarCode for .NET is a powerful tool for generating various types of barcodes, including GS1 DataMatrix. With the simple and efficient steps outlined in this tutorial, you can easily integrate barcode generation into your .NET applications.
 
-For more information and detailed documentation, please refer to the [official Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
+For more information and detailed documentation, please refer to the [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
 
 ## Frequently Asked Questions
 

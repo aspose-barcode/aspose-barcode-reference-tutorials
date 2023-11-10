@@ -16,7 +16,7 @@ Before diving into the world of barcode generation with Aspose.BarCode for .NET,
 
 1. Visual Studio: You need a working installation of Visual Studio to write and run your .NET applications.
 
-2. Aspose.BarCode for .NET: Download and install Aspose.BarCode for .NET from the official website. You can find the download link [here](https://releases.aspose.com/barcode/net/).
+2. Aspose.BarCode for .NET: Download and install Aspose.BarCode for .NET from the website. You can find the download link [here](https://releases.aspose.com/barcode/net/).
 
 3. .NET Framework: Ensure you have the appropriate .NET Framework installed on your development machine.
 
@@ -79,14 +79,14 @@ With these simple steps, you can generate one-dimensional barcodes with either f
 
 ## Conclusion
 
-Aspose.BarCode for .NET is a powerful and flexible tool that simplifies the process of barcode generation in your .NET applications. With a few easy-to-follow steps, you can create stunning barcodes for various purposes, from inventory management to product labeling. Explore the official documentation [here](https://reference.aspose.com/barcode/net/) for more details and features.
+Aspose.BarCode for .NET is a powerful and flexible tool that simplifies the process of barcode generation in your .NET applications. With a few easy-to-follow steps, you can create stunning barcodes for various purposes, from inventory management to product labeling. Explore the documentation [here](https://reference.aspose.com/barcode/net/) for more details and features.
 
 Incorporate Aspose.BarCode for .NET into your projects and take full control of your barcode generation needs. Whether you need one-dimensional or two-dimensional barcodes, this library has you covered!
 
 ### Frequently Asked Questions
 
 ### What barcode formats are supported by Aspose.BarCode for .NET?
-Aspose.BarCode for .NET supports a wide range of barcode formats, including Code128, QR Code, DataMatrix, and many more. Refer to the official documentation for the complete list of supported formats.
+Aspose.BarCode for .NET supports a wide range of barcode formats, including Code128, QR Code, DataMatrix, and many more. Refer to the documentation for the complete list of supported formats.
 
 ### Can I customize the appearance of the generated barcodes?
 Yes, you can fully customize the appearance of your barcodes, including size, color, and encoding. Aspose.BarCode for .NET provides extensive customization options.

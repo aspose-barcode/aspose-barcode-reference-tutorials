@@ -43,11 +43,9 @@ In your C# code file, include the Aspose.BarCode namespace to access the Barcode
 using Aspose.BarCode.Generation;
 ```
 
-## DotCode Structured Append Mode Configuration
-
 Now, let's get into the heart of DotCode Structured Append Mode configuration. We will break down the process into multiple steps to make it easier to grasp.
 
-### Step 1: Define the Directory Path
+## Step 1: Define the Directory Path
 
 Start by defining the directory path where you want to save the generated barcode image. Replace `"Your Directory Path"` with the actual path.
 
@@ -55,7 +53,7 @@ Start by defining the directory path where you want to save the generated barcod
 string path = "Your Directory Path";
 ```
 
-### Step 2: Create a BarcodeGenerator
+## Step 2: Create a BarcodeGenerator
 
 Create an instance of the BarcodeGenerator class, specifying the encoding type and data. In this case, we're using DotCode with the data "Aspose."
 
@@ -66,7 +64,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"
 }
 ```
 
-### Step 3: Set the X-Dimension
+## Step 3: Set the X-Dimension
 
 You can set the X-Dimension (the size of the barcode's elements in pixels) to your desired value. For example:
 
@@ -74,7 +72,7 @@ You can set the X-Dimension (the size of the barcode's elements in pixels) to yo
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-### Step 4: Configure DotCode Structured Append Mode
+## Step 4: Configure DotCode Structured Append Mode
 
 Now, it's time to configure the DotCode Structured Append Mode. This is where the magic happens. Set the BarcodeId and BarcodesCount to define the structured append mode.
 
@@ -83,7 +81,7 @@ gen.Parameters.Barcode.DotCode.DotCodeStructuredAppendModeBarcodeId = 3;
 gen.Parameters.Barcode.DotCode.DotCodeStructuredAppendModeBarcodesCount = 5;
 ```
 
-### Step 5: Save the Generated Barcode Image
+## Step 5: Save the Generated Barcode Image
 
 Finally, save the generated barcode image to the directory path you defined earlier in step 1. You can specify the image format as PNG.
 

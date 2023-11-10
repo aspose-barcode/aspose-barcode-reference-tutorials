@@ -15,8 +15,8 @@ In today's digital age, barcodes have become an integral part of our lives, simp
 ## Prerequisites:
 
 Before we dive into creating Code 93 barcodes, there are a few prerequisites you need to have in place:
-1. Visual Studio: Make sure you have Visual Studio installed on your system. You can download it from the official website.
-2. Aspose.BarCode for .NET: You should have Aspose.BarCode for .NET installed. You can download it from the official website.
+1. Visual Studio: Make sure you have Visual Studio installed on your system. You can download it from the website.
+2. Aspose.BarCode for .NET: You should have Aspose.BarCode for .NET installed. You can download it from the website.
 3. Basic knowledge of C#: Familiarity with C# programming language will be beneficial.
 
 Now that you have the necessary prerequisites, we can move on to the step-by-step guide.
@@ -89,16 +89,16 @@ In conclusion, Aspose.BarCode for .NET simplifies the generation of barcodes in 
 ## Frequently Asked Questions (FAQs):
 
 ### Q: Where can I find the documentation for Aspose.BarCode for .NET?
-A: You can find the official documentation at [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
+A: You can find the documentation at [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
 ### Q: How do I download Aspose.BarCode for .NET?
-A: You can download Aspose.BarCode for .NET from the official website at [Aspose.BarCode for .NET Download](https://releases.aspose.com/barcode/net/).
+A: You can download Aspose.BarCode for .NET from the website at [Aspose.BarCode for .NET Download](https://releases.aspose.com/barcode/net/).
 
 ### Q: Is there a free trial available for Aspose.BarCode for .NET?
 A: Yes, you can get a free trial of Aspose.BarCode for .NET from [here](https://releases.aspose.com/).
 
 ### Q: How can I purchase a license for Aspose.BarCode for .NET?
-A: You can purchase a license from the official purchase page at [Aspose.BarCode for .NET Purchase](https://purchase.aspose.com/buy).
+A: You can purchase a license from the purchase page at [Aspose.BarCode for .NET Purchase](https://purchase.aspose.com/buy).
 
 ### Q: Where can I get support or ask questions about Aspose.BarCode for .NET?
 A: You can find a community forum for support and discussions at [Aspose.BarCode for .NET Support](https://forum.aspose.com/c/barcode/13).
