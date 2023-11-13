@@ -23,7 +23,7 @@ public class GenerateBarcodeWithEmptyBars {
 	public static void main(String[] args) throws IOException {
 		//ExStart: GenerateBarcodeWithEmptyBars
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(GenerateBarcodeWithEmptyBars.class) + "BarcodeImage/BasicFeatures/";
+		String dataDir = "Your Document Directory";
 		
 		//Create an instance of BarcodeGenerator and initialize it with CodeText and Symbology
 		BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "TEXT");

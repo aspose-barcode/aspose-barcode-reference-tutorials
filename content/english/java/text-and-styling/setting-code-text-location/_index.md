@@ -24,7 +24,7 @@ public class CodeTextLocation {
 
 		// ExStart: CodeTextLocation
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(CodeTextLocation.class) + "Barcode/BasicFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Create instance of BarcodeGenerator, specify codetext and symbology in the
 		// constructor

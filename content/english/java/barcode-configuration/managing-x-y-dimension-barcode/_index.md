@@ -27,7 +27,7 @@ public class ManageXAndYDimension {
 	public static void setXDimension() throws IOException {
 		// ExStart: setXDimension
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(ManageXAndYDimension.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
 
@@ -42,7 +42,7 @@ public class ManageXAndYDimension {
 	public static void setYDimension() throws IOException {
 		// ExStart: setYDimension
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(ManageXAndYDimension.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.PDF_417, "12345678");
 

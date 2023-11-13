@@ -29,7 +29,7 @@ public class RotateBarcodeImage {
     public static void main(String[] args) throws IOException {
 		//ExStart: RotateBarcodeImage
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(RotateBarcodeImage.class) + "BarcodeImage/BasicFeatures/";
+		String dataDir = "Your Document Directory";
 		
 		BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_39_EXTENDED,"1234567");
 		

@@ -29,7 +29,7 @@ public class ApplyingChecksumForCodaBar {
 		// ExStart: ApplyingChecksumForCodaBar
 
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(ApplyingChecksumValidation.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Generation
 		// Instantiate BarcodeGenerator object

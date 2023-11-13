@@ -22,7 +22,7 @@ public class SetBarsHeight {
 	public static void main(String[] args) throws IOException {
 		// ExStart: SetBarsHeight
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(SetBarsHeight.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Instantiate barcode object
 		BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");

@@ -22,7 +22,7 @@ public class ColorizeBarcodeImage {
     public static void main(String[] args) throws IOException {
 		//ExStart: ColorizeBarcodeImage
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(ColorizeBarcodeImage.class) + "BarcodeImage/BasicFeatures/";
+		String dataDir = "Your Document Directory";
 		
 		BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128,"1234567");
 		

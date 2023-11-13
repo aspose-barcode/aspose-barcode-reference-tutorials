@@ -28,7 +28,7 @@ import com.aspose.words.NodeType;
 public class RecognitionFromWord {
 	public static void main(String[] args) {
 		try {
-			String dataDir = Utils.getDataDir(RecognitionFromWord.class) + "TechnicalArticles/";
+			String dataDir = "Your Document Directory";
 
 			// Generate barcode image
 			BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);

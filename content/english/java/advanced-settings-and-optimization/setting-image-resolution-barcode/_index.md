@@ -29,7 +29,7 @@ public class BarcodeImageResolution {
 	public static void main(String[] args) throws IOException {
 		// ExStart: BarcodeImageResolution
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(BarcodeImageResolution.class) + "BarcodeImage/UtilityFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Instantiate barcode object, Set the symbology type to code128 and Set the
 		// Code text for the barcode

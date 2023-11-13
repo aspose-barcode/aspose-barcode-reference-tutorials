@@ -22,7 +22,7 @@ public class WideNarrowRatio {
 	public static void main(String[] args) throws IOException {
 		// ExStart: WideNarrowRatio
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(WideNarrowRatio.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Instantiate barcode object
 		// Create instance of BarcodeGenerator, specify codetext and symbology in the

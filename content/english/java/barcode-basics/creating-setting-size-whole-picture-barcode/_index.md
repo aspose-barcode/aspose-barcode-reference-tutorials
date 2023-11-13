@@ -28,7 +28,7 @@ public class CreateAndSetSizeForWholePictureWithBarcode {
 
 	public static void main(String[] args) throws IOException {
 		// ExStart: CreateAndSetSizeForWholePictureWithBarcode
-		String dataDir = Utils.getDataDir(CreateAndSetSizeForWholePictureWithBarcode.class) + "TechnicalArticles/";
+		String dataDir = "Your Document Directory";
 		// Generate the bar code
 		BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.PDF_417);
 

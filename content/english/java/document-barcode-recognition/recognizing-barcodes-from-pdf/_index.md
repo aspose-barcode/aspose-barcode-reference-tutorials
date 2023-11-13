@@ -42,7 +42,7 @@ public class RecognitionFromPDF {
 			com.aspose.pdf.License licBarCode = new com.aspose.pdf.License();
 			licBarCode.setLicense("Aspose.Pdf.Java.lic");
 
-			String dataDir = Utils.getDataDir(RecognitionFromPDF.class) + "TechnicalArticles/";
+			String dataDir = "Your Document Directory";
 			String strPdfDoc = dataDir + "output1.pdf";
 			String strBarCodeImage = "";
 

@@ -25,7 +25,7 @@ public class RecognizePdf417BarcodeWithTurkishCharacters {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// ExStart: RecognizePdf417BarcodeWithTurkishCharacters
-		String dataDir = Utils.getDataDir(RecognizePdf417BarcodeWithTurkishCharacters.class) + "TechnicalArticles/";
+		String dataDir = "Your Document Directory";
 		// Load barcode image
 		BarCodeReader reader = new BarCodeReader(dataDir + "barcode.png", DecodeType.PDF_417);
 

@@ -29,7 +29,7 @@ public class SetCodeText {
 	public static void main(String[] args) throws IOException {
 		// ExStart: SetCodeText
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(SetCodeText.class) + "Barcode/BasicFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Create instance of BarcodeGenerator, specify codetext and symbology in the
 		// constructor

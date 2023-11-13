@@ -27,7 +27,7 @@ public class ReadAndSortBarcodesInSpecificOrder {
 
 	public static void main(String[] args) {
 		// ExStart: ReadAndSortBarcodesInSpecificOrder
-		String dataDir = Utils.getDataDir(ReadAndSortBarcodesInSpecificOrder.class) + "TechnicalArticles/";
+		String dataDir = "Your Document Directory";
 		String path = dataDir + "barcode.png";
 		List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 

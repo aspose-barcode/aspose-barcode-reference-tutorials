@@ -28,7 +28,7 @@ public class AddBarcodeToPDFDocument {
 
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddBarcodeToPDFDocument.class) + "TechnicalArticles/";
+		String dataDir = "Your Document Directory";
 		// ExStart: AddBarcodeImageToPDFDocument
 		// Instantiate linear barcode object, Set the Code text and symbology type for the barcode
 		BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, "1234567");

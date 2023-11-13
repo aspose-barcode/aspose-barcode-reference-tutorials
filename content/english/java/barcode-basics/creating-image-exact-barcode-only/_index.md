@@ -24,7 +24,7 @@ public class CreateAnImageWithExactBarcodeOnly {
 
 	public static void main(String[] args) throws IOException {
 		// ExStart: CreateAnImageWithExactBarcodeOnly
-		String dataDir = Utils.getDataDir(CreateAnImageWithExactBarcodeOnly.class) + "TechnicalArticles/";
+		String dataDir = "Your Document Directory";
 		// Generate the barcode
 		BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128);
 

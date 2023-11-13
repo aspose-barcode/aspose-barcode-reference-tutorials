@@ -22,7 +22,7 @@ public class ApplyingChecksumValidation {
 	public static void main(String[] args) {
 		// ExStart: ApplyingChecksumValidation
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(ApplyingChecksumValidation.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 		
 		// Create an instance of BarCodeReader class and load an existing
 		// oncecode barcode.

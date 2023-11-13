@@ -23,7 +23,7 @@ public class SupplementData {
 		// ExStart: SupplementData
 
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(SupplementData.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Create instance of BarcodeGenerator, specify codetext and symbology in the
 		// constructor

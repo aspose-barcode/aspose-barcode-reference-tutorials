@@ -26,7 +26,7 @@ import java.io.UnsupportedEncodingException;
 public class RecognitionUnicode {
 	public static void main(String[] args) throws IOException {
 
-		String dataDir = Utils.getDataDir(Pdf417BarcodeWithTurkishCharacters.class) + "TechnicalArticles/";
+		String dataDir = "Your Document Directory";
 
 		try {
 			License lic = new License();

@@ -22,7 +22,7 @@ public class SaveBarcodeImagesToDifferentFormats {
 	public static void main(String[] args) throws IOException {
 		// ExStart: SaveBarcodeImagesToDifferentFormats
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(SaveBarcodeImagesToDifferentFormats.class) + "BarcodeImage/UtilityFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Instantiate barcode object, Set the symbology type to code128 and Set the
 		// Code text for the barcode

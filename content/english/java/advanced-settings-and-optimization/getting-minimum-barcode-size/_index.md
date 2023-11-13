@@ -22,7 +22,7 @@ public class GetMinimumBarCodeSize {
 	public static void main(String[] args) throws IOException {
 		// ExStart: GetMinimumBarCodeSize
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(BarcodeCustomSize.class) + "BarcodeImage/UtilityFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Instantiate barcode object, Set the symbology type to code128 and Set the
 		// Code text for the barcode

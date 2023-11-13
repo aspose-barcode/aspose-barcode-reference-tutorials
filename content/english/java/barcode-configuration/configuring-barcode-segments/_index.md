@@ -24,7 +24,7 @@ public class BarcodeWithSegments {
 		// ExStart: BarcodeWithSegments
 
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(SupplementData.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.DATABAR_EXPANDED_STACKED,
 				"(01)98898765432106(3202)012345(15)991231");

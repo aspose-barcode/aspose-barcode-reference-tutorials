@@ -23,7 +23,7 @@ public class GenerateAustraliaPostBarcode {
 	public static void main(String[] args) throws IOException {
 		// ExStart: GenerateAustraliaPostBarcode
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(GenerateAustraliaPostBarcode.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Create instance of BarcodeGenerator, specify code-text and Symbology in the
 		// constructor

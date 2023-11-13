@@ -23,7 +23,7 @@ public class BarcodeCustomSize {
 		// ExStart: BarcodeCustomSize
 
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(BarcodeCustomSize.class) + "BarcodeImage/UtilityFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Instantiate barcode object, Set the Code text for the barcode and the
 		// symbology type to Code39Standard

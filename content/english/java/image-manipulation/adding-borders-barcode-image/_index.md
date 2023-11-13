@@ -22,7 +22,7 @@ public class BarcodeImageBorders {
 	public static void main(String[] args) throws IOException {
 		// ExStart: BarcodeImageBorders
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(BarcodeImageBorders.class) + "BarcodeImage/BasicFeatures/";
+		String dataDir = "Your Document Directory";
 
 		// Instantiate Barcode object, Set the Symbology type to code128 and Set the
 		// Code text for the barcode

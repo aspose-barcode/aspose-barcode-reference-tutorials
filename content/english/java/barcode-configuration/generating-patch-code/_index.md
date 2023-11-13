@@ -36,7 +36,7 @@ public class GenerateAPatchCode {
 	public static void generatePatchCode() throws IOException {
 		// ExStart: generatePatchCode
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(GenerateAPatchCode.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.PATCH_CODE, "Patch T");
 		
@@ -47,7 +47,7 @@ public class GenerateAPatchCode {
 	public static void setPatchFormat() throws IOException {
 		// ExStart: setPatchFormat
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(GenerateAPatchCode.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.PATCH_CODE, "Patch T");
 		generator.getParameters().getBarcode().getPatchCode().setPatchFormat(PatchFormat.US_LETTER);
@@ -89,7 +89,7 @@ public class GenerateAPatchCode {
 
 		// save Patch code frame
 		File outputfile = new File(
-				Utils.getDataDir(GenerateAPatchCode.class) + "Barcode/AdvancedFeatures/" + "patch-code-frame.png");
+				"Your Document Directory";
 		ImageIO.write(frameImg, "png", outputfile);
 		// ExEnd: generateWholePage
 	}

@@ -22,7 +22,7 @@ public class AlwaysShowChecksum {
 	public static void main(String[] args) throws IOException {
 		// ExStart: AlwaysShowChecksum
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(Checksum.class) + "Barcode/AdvancedFeatures/";
+		String dataDir = "Your Document Directory";
 
 		BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345");
 		generator.getParameters().getBarcode().setChecksumAlwaysShow(true);

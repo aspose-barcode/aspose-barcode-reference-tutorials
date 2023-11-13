@@ -41,7 +41,7 @@ public class RenderBarcodeToGraphicsObject {
 class MyBarCode extends java.awt.Canvas {
 	public void paint(Graphics g) {
 		// The path to the resource directory.
-		String dataDir = Utils.getDataDir(MyBarCode.class) + "BarcodeImage/RenderingFeatures/";
+		String dataDir = "Your Document Directory";
 		String fileName = dataDir + "barcode.png";
 		
 		BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
