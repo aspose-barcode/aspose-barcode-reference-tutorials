@@ -19,7 +19,7 @@ is_root: true
 ### [Barcode Configuration](./barcode-configuration/)
 
 ### [Text and Styling](./text-and-styling/)
-
+Enhance barcode visuals in Java effortlessly with Aspose.BarCode. Learn to add captions for improved user experience. Customize code text in dynamic barcodes.
 ### [Symbology and Format](./symbology-and-format/)
 
 ### [Image Manipulation](./image-manipulation/)
