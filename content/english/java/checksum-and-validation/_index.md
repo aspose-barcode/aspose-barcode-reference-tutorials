@@ -9,6 +9,6 @@ url: /java/checksum-and-validation/
 ---
 
 ## Checksum and Validation Tutorials
-### [Always Showing Checksum in Java](./always-showing-checksum-java/)
-### [Applying Checksum for CodaBar in Java](./applying-checksum-codabar-java/)
-### [Applying Checksum Validation in Java](./applying-checksum-validation-java/)
+### [Always Showing Checksum in Java](./always-showing-checksum/)
+### [Applying Checksum for CodaBar in Java](./applying-checksum-codabar/)
+### [Applying Checksum Validation in Java](./applying-checksum-validation/)

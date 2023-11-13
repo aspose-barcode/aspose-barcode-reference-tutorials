@@ -9,9 +9,9 @@ url: /java/image-manipulation/
 ---
 
 ## Image Manipulation Tutorials
-### [Adding Borders to Barcode Image in Java](./adding-borders-barcode-image-java/)
-### [Setting Margins for Barcode Image in Java](./setting-margins-barcode-image-java/)
-### [Adjusting Image Quality for Barcode in Java](./adjusting-image-quality-barcode-java/)
-### [Colorizing Barcode Image in Java](./colorizing-barcode-image-java/)
-### [Generating Barcode with Empty Bars in Java](./generating-barcode-empty-bars-java/)
-### [Rotating Barcode Image in Java](./rotating-barcode-image-java/)
+### [Adding Borders to Barcode Image in Java](./adding-borders-barcode-image/)
+### [Setting Margins for Barcode Image in Java](./setting-margins-barcode-image/)
+### [Adjusting Image Quality for Barcode in Java](./adjusting-image-quality-barcode/)
+### [Colorizing Barcode Image in Java](./colorizing-barcode-image/)
+### [Generating Barcode with Empty Bars in Java](./generating-barcode-empty-bars/)
+### [Rotating Barcode Image in Java](./rotating-barcode-image/)

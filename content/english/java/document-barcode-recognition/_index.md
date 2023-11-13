@@ -9,7 +9,7 @@ url: /java/document-barcode-recognition/
 ---
 
 ## Document Barcode Recognition Tutorials
-### [Reading and Sorting Barcodes in Specific Order in Java](./reading-sorting-barcodes-specific-order-java/)
-### [Recognizing Barcodes from PDF in Java](./recognizing-barcodes-from-pdf-java/)
-### [Recognizing Barcodes from Word Documents in Java](./recognizing-barcodes-from-word-java/)
-### [Recognizing Unicode Barcodes in Java](./recognizing-unicode-barcodes-java/)
+### [Reading and Sorting Barcodes in Specific Order in Java](./reading-sorting-barcodes-specific-order/)
+### [Recognizing Barcodes from PDF in Java](./recognizing-barcodes-from-pdf/)
+### [Recognizing Barcodes from Word Documents in Java](./recognizing-barcodes-from-word/)
+### [Recognizing Unicode Barcodes in Java](./recognizing-unicode-barcodes/)

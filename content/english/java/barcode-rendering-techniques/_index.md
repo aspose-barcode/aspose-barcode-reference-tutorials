@@ -9,7 +9,7 @@ url: /java/barcode-rendering-techniques/
 ---
 
 ## Barcode Rendering Techniques Tutorials
-### [Rendering Barcode to Graphics Object in Java](./rendering-barcode-graphics-object-java/)
-### [Rendering Barcode to Image Instance in Java](./rendering-barcode-image-instance-java/)
-### [Rendering Barcode to Printer in Java](./rendering-barcode-printer-java/)
-### [Rendering Barcode to Servlet in Java](./rendering-barcode-servlet-java/)
+### [Rendering Barcode to Graphics Object in Java](./rendering-barcode-graphics-object/)
+### [Rendering Barcode to Image Instance in Java](./rendering-barcode-image-instance/)
+### [Rendering Barcode to Printer in Java](./rendering-barcode-printer/)
+### [Rendering Barcode to Servlet in Java](./rendering-barcode-servlet/)

@@ -9,6 +9,6 @@ url: /java/symbology-and-format/
 ---
 
 ## Symbology and Format Tutorials
-### [Specifying Symbology for Barcode in Java](./specifying-symbology-barcode-java/)
-### [Fetching and Recognizing Barcode in Java](./fetching-recognizing-barcode-java/)
-### [Generating and Saving Barcode in Java](./generating-saving-barcode-java/)
+### [Specifying Symbology for Barcode in Java](./specifying-symbology-barcode/)
+### [Fetching and Recognizing Barcode in Java](./fetching-recognizing-barcode/)
+### [Generating and Saving Barcode in Java](./generating-saving-barcode/)
