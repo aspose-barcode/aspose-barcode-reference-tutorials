@@ -23,7 +23,7 @@ Enhance barcode visuals in Java effortlessly with Aspose.BarCode. Learn to add c
 ### [Symbology and Format](./symbology-and-format/)
 Enhance your Java applications with Aspose.BarCode tutorials! Master specifying symbology, fetch and recognize barcodes, and effortlessly generate and save dynamic barcodes.
 ### [Image Manipulation](./image-manipulation/)
-
+Explore Java barcode image manipulation with Aspose.BarCode tutorials. Enhance, customize, and create visually appealing barcodes effortlessly.
 ### [Barcode Rendering Techniques](./barcode-rendering-techniques/)
 
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
