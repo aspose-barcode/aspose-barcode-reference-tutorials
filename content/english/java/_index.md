@@ -13,7 +13,7 @@ is_root: true
 ### [Document Barcode Recognition](./document-barcode-recognition/)
 
 ### [Multilingual Support](./multilingual-support/)
-
+Unlock the power of multilingual support with our tutorials on recognizing PDF417 barcodes. Dive into Java coding with Aspose.BarCode for seamless integration.
 ### [Checksum and Validation](./checksum-and-validation/)
 
 ### [Barcode Configuration](./barcode-configuration/)
