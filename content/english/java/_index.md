@@ -21,7 +21,7 @@ is_root: true
 ### [Text and Styling](./text-and-styling/)
 Enhance barcode visuals in Java effortlessly with Aspose.BarCode. Learn to add captions for improved user experience. Customize code text in dynamic barcodes.
 ### [Symbology and Format](./symbology-and-format/)
-
+Enhance your Java applications with Aspose.BarCode tutorials! Master specifying symbology, fetch and recognize barcodes, and effortlessly generate and save dynamic barcodes.
 ### [Image Manipulation](./image-manipulation/)
 
 ### [Barcode Rendering Techniques](./barcode-rendering-techniques/)
