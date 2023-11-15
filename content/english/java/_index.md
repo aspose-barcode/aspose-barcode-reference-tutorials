@@ -11,7 +11,7 @@ is_root: true
 ### [Barcode Basics](./barcode-basics/)
 
 ### [Document Barcode Recognition](./document-barcode-recognition/)
-
+Unlock the power of barcode recognition in Java with Aspose.BarCode! Learn to seamlessly integrate, read, and sort barcodes from PDFs, Word documents, and Unicode sets.
 ### [Multilingual Support](./multilingual-support/)
 Unlock the power of multilingual support with our tutorials on recognizing PDF417 barcodes. Dive into Java coding with Aspose.BarCode for seamless integration.
 ### [Checksum and Validation](./checksum-and-validation/)

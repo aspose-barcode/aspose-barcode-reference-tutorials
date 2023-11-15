@@ -2,98 +2,115 @@
 title: Recognizing Barcodes from PDF in Java
 linktitle: Recognizing Barcodes from PDF
 second_title: Aspose.BarCode Java API
-description: 
+description: Learn how to recognize barcodes from PDFs in Java using Aspose.BarCode. Step-by-step guide with code examples. Boost your data management efficiency!
 type: docs
 weight: 11
 url: /java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
 
-## Complete Source Code
-```java
-package com.aspose.barcode.examples.technical_articles;
+## Introduction
 
-//ExStart: RecognitionFromPDF
+Welcome to our step-by-step guide on recognizing barcodes from PDFs using Aspose.BarCode for Java. Barcodes play a crucial role in data management and organization, and with Aspose.BarCode, the process becomes seamless. In this tutorial, we will walk you through the entire process, from setting up the necessary prerequisites to implementing the code for barcode recognition in a PDF file.
+
+## Prerequisites
+
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+
+1. Aspose.BarCode for Java License: Obtain and set up a valid license for Aspose.BarCode for Java. You can acquire a license from [Aspose Purchase](https://purchase.aspose.com/buy).
+
+2. Aspose.PDF License: Additionally, set up a license for Aspose.PDF, which is required for working with PDF files. You can apply for a license [here](https://purchase.aspose.com/temporary-license/).
+
+3. Download Aspose.BarCode for Java: Download the Aspose.BarCode library from [here](https://releases.aspose.com/barcode/java/).
+
+Now that you have the necessary prerequisites, let's proceed to import the required packages and begin our tutorial.
+
+## Import Packages
+
+In your Java project, include the Aspose.BarCode and Aspose.PDF packages. Here's a sample code snippet to get you started:
+
+```java
 import com.aspose.barcode.*;
 import com.aspose.barcode.License;
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.BaseDecodeType;
 import com.aspose.barcode.barcoderecognition.DecodeType;
-import com.aspose.barcode.examples.ApplyALicense;
-import com.aspose.barcode.examples.Utils;
-import com.aspose.barcode.examples.barcode_recognition.advanced_features.BarcodeOrientation;
-import com.aspose.barcode.generation.BarcodeGenerator;
-
-import java.awt.image.BufferedImage;
-import java.io.File;
-
-import javax.imageio.ImageIO;
-
 import com.aspose.pdf.*;
 import com.aspose.pdf.facades.PdfExtractor;
-
-public class RecognitionFromPDF {
-	public static void main(String[] args) {
-		try {
-			// Set license for Barcode
-			ApplyALicense.applyALicense();
-
-			// Set license for PDF
-			com.aspose.pdf.License licBarCode = new com.aspose.pdf.License();
-			licBarCode.setLicense("Aspose.Pdf.Java.lic");
-
-			String dataDir = "Your Document Directory";
-			String strPdfDoc = dataDir + "output1.pdf";
-			String strBarCodeImage = "";
-
-			// Generate barcode and add to PDF file
-			BarcodeGenerator builder = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);
-			builder.setCodeText("test123");
-			String strBarCodeImageSave = dataDir + "input_image1.jpg";
-			builder.save(strBarCodeImageSave);
-
-			Document pdf1 = new Document();
-			// Get the page you want to add the image to
-			Page page = pdf1.getPages().add();
-
-			// Load image
-			BufferedImage originalImage = ImageIO.read(new File(strBarCodeImageSave));
-
-			// Add an image to the Images collection of the page resources
-			page.getResources().getImages().add(originalImage);
-
-			// Save the Pdf
-			pdf1.save(strPdfDoc);
-
-			// Instantiate PdfExtractor object
-			PdfExtractor extractor = new PdfExtractor();
-
-			// Bind the input PDF document to extractor
-			extractor.bindPdf(strPdfDoc);
-
-			// Extract images from the input PDF document
-			extractor.extractImage();
-			String suffix = ".jpg";
-			int imageCount = 1;
-			while (extractor.hasNextImage()) {
-				System.out.println("Extracting image " + imageCount);
-				strBarCodeImage = "tmpbarcode" + imageCount + suffix;
-				extractor.getNextImage(strBarCodeImage);
-
-				// Recognize barcode from image
-				BarCodeReader reader = new BarCodeReader(strBarCodeImage, DecodeType.CODE_39_EXTENDED);
-				
-				for (BarCodeResult result : reader.readBarCodes()) {
-					System.out.println("CodeText: " + result.getCodeText());
-					System.out.println("Symbology type: " + result.getCodeType());
-				}
-				
-				imageCount++;
-			}
-		} catch (Exception ex) {
-			System.out.println(ex.getMessage());
-		}
-	}
-}
-//ExEnd: RecognitionFromPDF
+import java.awt.image.BufferedImage;
+import java.io.File;
+import javax.imageio.ImageIO;
 ```
+
+## Step 1: Generate Barcode and Add to PDF
+
+```java
+BarcodeGenerator builder = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_39_STANDARD);
+builder.setCodeText("test123");
+String strBarCodeImageSave = dataDir + "input_image1.jpg";
+builder.save(strBarCodeImageSave);
+```
+
+## Step 2: Create PDF and Add Barcode Image
+
+```java
+Document pdf1 = new Document();
+Page page = pdf1.getPages().add();
+BufferedImage originalImage = ImageIO.read(new File(strBarCodeImageSave));
+page.getResources().getImages().add(originalImage);
+pdf1.save(strPdfDoc);
+```
+
+## Step 3: Extract Images from PDF
+
+```java
+PdfExtractor extractor = new PdfExtractor();
+extractor.bindPdf(strPdfDoc);
+extractor.extractImage();
+```
+
+## Step 4: Recognize Barcode from Extracted Images
+
+```java
+String suffix = ".jpg";
+int imageCount = 1;
+
+while (extractor.hasNextImage()) {
+    System.out.println("Extracting image " + imageCount);
+    strBarCodeImage = "tmpbarcode" + imageCount + suffix;
+    extractor.getNextImage(strBarCodeImage);
+
+    BarCodeReader reader = new BarCodeReader(strBarCodeImage, DecodeType.CODE_39_EXTENDED);
+
+    for (BarCodeResult result : reader.readBarCodes()) {
+        System.out.println("CodeText: " + result.getCodeText());
+        System.out.println("Symbology type: " + result.getCodeType());
+    }
+
+    imageCount++;
+}
+```
+
+Repeat these steps as needed, adjusting filenames and paths accordingly.
+
+## Conclusion
+
+Congratulations! You have successfully learned how to recognize barcodes from PDFs using Aspose.BarCode for Java. This tutorial aimed to provide a comprehensive guide while maintaining simplicity and clarity. Feel free to explore more features and functionalities offered by Aspose.BarCode in the official [documentation](https://reference.aspose.com/barcode/java/).
+
+## Frequently Asked Questions (FAQs)
+
+### Q: Can I use Aspose.BarCode for Java without a license?
+While Aspose.BarCode can be used without a license, it is recommended to obtain one for full functionality and to comply with licensing terms.
+
+### Q: How can I get a temporary license for Aspose.BarCode for Java?
+You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q: Are there any limitations on the barcode types supported by Aspose.BarCode?
+Aspose.BarCode supports a wide range of barcode types. Refer to the documentation for a complete list.
+
+### Q: Is there a trial version available for Aspose.BarCode for Java?
+Yes, you can download the trial version from [here](https://releases.aspose.com/).
+
+### Q: Where can I seek support or ask questions about Aspose.BarCode for Java?
+Visit the Aspose.BarCode [forum](https://forum.aspose.com/c/barcode/13) for support and discussions.
+
