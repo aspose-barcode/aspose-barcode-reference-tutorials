@@ -26,8 +26,8 @@ In your Java project, import the necessary namespaces to access Aspose.BarCode c
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.QualitySettings;
-import com.aspose.barcode.examples.ApplyALicense;
-import com.aspose.barcode.examples.Utils;
+
+
 ```
 
 ## Step 1: Set the Resource Directory

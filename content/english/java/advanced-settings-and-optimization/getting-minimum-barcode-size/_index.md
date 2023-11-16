@@ -26,7 +26,7 @@ Now, let's jump into the coding part.
 In your Java code, start by importing the necessary namespaces:
 
 ```java
-import com.aspose.barcode.examples.Utils;
+
 import com.aspose.barcode.generation.AutoSizeMode;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```

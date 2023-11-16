@@ -26,7 +26,7 @@ Ensure you have the necessary namespaces imported in your Java class:
 ```java
 import com.aspose.barcode.generation.AutoSizeMode;
 import com.aspose.barcode.generation.BarcodeGenerator;
-import com.aspose.barcode.examples.Utils;
+
 ```
 
 ## Step 1: Set the Path to the Resource Directory

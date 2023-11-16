@@ -27,7 +27,7 @@ To begin with, import the necessary namespaces to facilitate the integration of 
 // Import Aspose.BarCode namespaces
 import com.aspose.pdf.*;
 import com.aspose.pdf.facades.*;
-import com.aspose.barcode.examples.Utils;
+
 import com.aspose.barcode.generation.*;
 import com.aspose.barcode.*;
 import java.io.FileInputStream;

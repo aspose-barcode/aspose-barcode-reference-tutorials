@@ -26,7 +26,7 @@ In your Java project, import the necessary namespaces to access the functionalit
 ```java
 import java.io.IOException;
 
-import com.aspose.barcode.examples.Utils;
+
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 

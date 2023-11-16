@@ -15,7 +15,7 @@ package com.aspose.barcode.examples.barcode.advanced_features;
 import java.io.IOException;
 
 import com.aspose.barcode.EncodeTypes;
-import com.aspose.barcode.examples.Utils;
+
 import com.aspose.barcode.generation.BarcodeGenerator;
 
 public class GenerateAustraliaPostBarcode {

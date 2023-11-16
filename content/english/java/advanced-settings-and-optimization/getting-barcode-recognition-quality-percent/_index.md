@@ -28,8 +28,8 @@ In this step, you'll import the necessary namespaces to use Aspose.BarCode in yo
 ```java
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
-import com.aspose.barcode.examples.ApplyALicense;
-import com.aspose.barcode.examples.Utils;
+
+
 ```
 
 Now, let's break down the provided example into multiple steps to guide you through the process of getting barcode recognition quality in percent using Aspose.BarCode for Java.

@@ -31,8 +31,8 @@ import java.awt.Point;
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
-import com.aspose.barcode.examples.ApplyALicense;
-import com.aspose.barcode.examples.Utils;
+
+
 ```
 
 ## Step 1: Initialize BarCodeReader Object

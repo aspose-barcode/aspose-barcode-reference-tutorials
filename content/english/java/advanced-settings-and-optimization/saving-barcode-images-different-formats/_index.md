@@ -27,7 +27,7 @@ To kickstart the barcode generation process, import the necessary namespaces in 
 import java.io.IOException;
 
 import com.aspose.barcode.*;
-import com.aspose.barcode.examples.Utils;
+
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 

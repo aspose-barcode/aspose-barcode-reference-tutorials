@@ -34,8 +34,8 @@ import javax.imageio.ImageIO;
 
 import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.EncodeTypes;
-import com.aspose.barcode.examples.Utils;
-import com.aspose.barcode.examples.TwoD_barcodes.basic_features.SetAztecSymbolMode;
+
+
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 

@@ -36,8 +36,8 @@ import javax.imageio.ImageIO;
 
 import com.aspose.barcode.BaseEncodeType;
 import com.aspose.barcode.EncodeTypes;
-import com.aspose.barcode.examples.ApplyALicense;
-import com.aspose.barcode.examples.Utils;
+
+
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 

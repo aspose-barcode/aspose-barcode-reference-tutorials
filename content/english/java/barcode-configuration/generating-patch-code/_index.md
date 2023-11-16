@@ -22,7 +22,7 @@ import javax.imageio.ImageIO;
 import com.aspose.barcode.generation.PatchFormat;
 import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.MarginsF;
-import com.aspose.barcode.examples.Utils;
+
 import com.aspose.barcode.generation.BarcodeGenerator;
 
 public class GenerateAPatchCode {
