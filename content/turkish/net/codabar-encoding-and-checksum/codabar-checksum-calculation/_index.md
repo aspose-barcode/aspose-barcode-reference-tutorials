@@ -13,7 +13,7 @@ Codabar, çeşitli uygulamalar için yaygın olarak kullanılan popüler bir bar
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1.  Aspose.BarCode for .NET: Geliştirme ortamınızda Aspose.BarCode for .NET'in kurulu olması gerekir. Henüz yapmadıysanız adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET: Geliştirme ortamınızda Aspose.BarCode for .NET'in kurulu olması gerekir. Henüz yapmadıysanız adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/barcode/net/).
 
 2. C# Geliştirme Ortamı: Kurulmuş ve kullanıma hazır bir C# geliştirme ortamınız olmalıdır.
 
@@ -74,7 +74,7 @@ Bu adımlarla Aspose.BarCode for .NET'i kullanarak farklı sağlama toplamların
 
 Bu eğitimde, Aspose.BarCode for .NET'i kullanarak Codabar barkodları için farklı türdeki sağlama toplamlarını hesaplama adımlarını ele aldık. Bu sağlama toplamları, Codabar sembolojisinde kodlanmış verilerin doğruluğunu ve güvenilirliğini sağlamada çok önemli bir rol oynar. Bu adımları izleyerek ve Codabar barkodlarınızı özelleştirerek uygulamanızın özel gereksinimlerini karşılayabilirsiniz.
 
-Herhangi bir sorunuz varsa veya herhangi bir sorunla karşılaşırsanız Aspose.BarCode topluluğundan yardım istemekten çekinmeyin.[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13).
+ Herhangi bir sorunuz varsa veya herhangi bir sorunla karşılaşırsanız Aspose.BarCode topluluğundan yardım istemekten çekinmeyin.[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13).
 
 ## SSS'ler
 

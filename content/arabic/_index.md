@@ -35,4 +35,20 @@ is_root: true
 
 
 
+## Aspose.Barcode لدروس جافا
+{{% alert color="primary" %}}
+ انغمس في العالم الديناميكي لبرمجة Java باستخدام برامج تعليمية شاملة وأمثلة على Aspose.BarCode لـ Java. سواء كنت مطورًا متمرسًا يتطلع إلى تحسين مهاراتك أو وافدًا جديدًا حريصًا على استكشاف مجال تكامل الباركود، فإن هذه السلسلة من البرامج التعليمية تقدم دليلاً شاملاً. من الأساسية[أساسيات الباركود](./java/barcode-basics/) إلى مواضيع متقدمة مثل[الإعدادات المتقدمة والتحسين](./java/advanced-settings-and-optimization/)، تم تصميم كل برنامج تعليمي لتزويدك بالمعرفة اللازمة للتكامل السلس والتخصيص والتعرف على الرموز الشريطية في تطبيقات Java. ارفع مستوى رحلتك في البرمجة واطلق العنان للإمكانات الهائلة لـ Aspose.BarCode، وإتقان فن معالجة الباركود من خلال إرشادات خطوة بخطوة وأمثلة عملية.
+{{% /alert %}}
 
+وهذه روابط لبعض الموارد المفيدة:
+
+- [أساسيات الباركود](./java/barcode-basics/)
+- [التعرف على الباركود للوثيقة](./java/document-barcode-recognition/)
+- [دعم متعدد اللغات](./java/multilingual-support/)
+- [المجموع الاختباري والتحقق من الصحة](./java/checksum-and-validation/)
+- [تكوين الباركود](./java/barcode-configuration/)
+- [النص والتصميم](./java/text-and-styling/)
+- [الرمز والشكل](./java/symbology-and-format/)
+- [معالجة الصور](./java/image-manipulation/)
+- [تقنيات عرض الباركود](./java/barcode-rendering-techniques/)
+- [الإعدادات المتقدمة والتحسين](./java/advanced-settings-and-optimization/)

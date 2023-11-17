@@ -34,7 +34,7 @@ url: /zh/net/patch-code-configuration/patch-code-set-customization/
 启动 Visual Studio 并打开要在其中使用 Aspose.BarCode 的 .NET 项目。
 
 ### 第 2 步：添加参考文献
-在解决方案资源管理器中右键单击您的项目，选择“添加”>“引用”，然后导航到您之前下载的 Aspose.BarCode 库。
+在解决方案资源管理器中右键单击您的项目，选择“添加”>“参考”，然后导航到您之前下载的 Aspose.BarCode 库。
 
 ### 第 3 步：导入命名空间
 在代码文件的顶部添加以下命名空间：

@@ -51,7 +51,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspo
     // Ställ in streckkodens X-dimension (storlek) i pixlar
     gen.Parameters.Barcode.XDimension.Pixels = 4;
     
-    // Ställ in kodningsläget på ASCII
+    // Ställ in kodningsläget till ASCII
     gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
     
     // Spara streckkoden som en PNG-bild

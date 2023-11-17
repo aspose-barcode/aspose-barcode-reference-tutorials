@@ -14,7 +14,7 @@ Si está buscando una solución confiable para crear códigos de barras GS1 Data
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-1.  Aspose.BarCode para .NET: Debe tener instalado Aspose.BarCode para .NET. Si aún no lo has hecho, puedes[descarguelo aqui](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode para .NET: Debe tener instalado Aspose.BarCode para .NET. Si aún no lo has hecho, puedes[descarguelo aqui](https://releases.aspose.com/barcode/net/).
 
 2. Entorno de desarrollo: debe tener un entorno de desarrollo .NET configurado en su sistema.
 

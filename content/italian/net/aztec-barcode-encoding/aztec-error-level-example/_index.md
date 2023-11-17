@@ -22,7 +22,7 @@ Con questi prerequisiti in atto, sei pronto per iniziare a generare codici a bar
 
 ## Importazione di spazi dei nomi
 
- Nel tuo progetto C#, devi importare gli spazi dei nomi necessari dalla libreria Aspose.BarCode. Lo spazio dei nomi principale da includere è`Aspose.BarCode`.
+Nel tuo progetto C#, devi importare gli spazi dei nomi necessari dalla libreria Aspose.BarCode. Lo spazio dei nomi principale da includere è`Aspose.BarCode`.
 
 Ecco come importare lo spazio dei nomi richiesto:
 

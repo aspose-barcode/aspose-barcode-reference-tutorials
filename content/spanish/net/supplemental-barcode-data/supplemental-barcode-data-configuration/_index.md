@@ -8,7 +8,7 @@ weight: 10
 url: /es/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
 
-En el mundo de la generación y personalización de códigos de barras, Aspose.BarCode para .NET se destaca como una herramienta poderosa y versátil. Si es un desarrollador experimentado o recién está comenzando, esta guía paso a paso lo guiará a través del proceso de configuración de datos de códigos de barras complementarios utilizando Aspose.BarCode para .NET. 
+En el mundo de la generación y personalización de códigos de barras, Aspose.BarCode para .NET se destaca como una herramienta potente y versátil. Si es un desarrollador experimentado o recién está comenzando, esta guía paso a paso lo guiará a través del proceso de configuración de datos de códigos de barras complementarios utilizando Aspose.BarCode para .NET. 
 
 ## Requisitos previos
 

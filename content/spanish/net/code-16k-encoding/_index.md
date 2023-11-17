@@ -20,7 +20,7 @@ En este tutorial, lo guiaremos a través del proceso de personalización de las 
 
 ### Sumérgete en el mundo de la personalización
 
-A medida que profundice en el tutorial, descubrirá el poder de Aspose.BarCode para .NET al proporcionar una interfaz fácil de usar para la personalización. Dígale adiós a los códigos de barras universales: con nuestra guía, podrá crear códigos de barras que no solo cumplan sino que superen sus expectativas.
+A medida que profundice en el tutorial, descubrirá el poder de Aspose.BarCode para .NET al proporcionar una interfaz fácil de usar para la personalización. Dígale adiós a los códigos de barras únicos: con nuestra guía, podrá crear códigos de barras que no solo cumplan sino que superen sus expectativas.
 
 Prepárese para dar rienda suelta a su creatividad y mejorar el atractivo visual de sus códigos de barras. Desde ajustar dimensiones hasta experimentar con diferentes proporciones, las posibilidades son infinitas. Entendemos que cada proyecto es único y este tutorial garantiza que tenga las herramientas para hacer que sus códigos de barras Code 16K sean tan únicos como lo exige su aplicación.
 
@@ -43,4 +43,4 @@ Código maestro de zonas silenciosas de 16K con Aspose.BarCode para .NET. Person
 
 ## Conclusión
 
-medida que finalice estos tutoriales de codificación de Code 16K, obtendrá una comprensión profunda de cómo personalizar las relaciones de aspecto de los códigos de barras y la configuración de la zona silenciosa usando Aspose.BarCode para .NET. Ya sea que esté desarrollando aplicaciones para el comercio minorista, la logística o cualquier otra industria, estas habilidades elevarán la funcionalidad y el atractivo visual de sus códigos de barras.
+medida que finalice estos tutoriales de codificación de Code 16K, obtendrá un conocimiento profundo de cómo personalizar las relaciones de aspecto de los códigos de barras y la configuración de la zona silenciosa utilizando Aspose.BarCode para .NET. Ya sea que esté desarrollando aplicaciones para el comercio minorista, la logística o cualquier otra industria, estas habilidades elevarán la funcionalidad y el atractivo visual de sus códigos de barras.

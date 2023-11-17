@@ -60,7 +60,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
- Burada bir oluşturuyoruz`BarcodeGenerator` örneğini seçin ve bir DataMatrix barkodu oluşturmak istediğimizi belirtin. Biz de ayarladık`XDimension` (barkod çubuklarının genişliği) 4 piksele kadar. Buradaki en önemli adım,`IsReaderProgramming` bayrak vermek`true`verinin okuyucu programlaması için kodlandığını belirtir.
+ Burada bir oluşturuyoruz`BarcodeGenerator` örneğini seçin ve bir DataMatrix barkodu oluşturmak istediğimizi belirtin. Biz de ayarladık`XDimension` (barkod çubuklarının genişliği) 4 piksele kadar. Buradaki en önemli adım,`IsReaderProgramming` bayrak vermek`true`, verinin okuyucu programlaması için kodlandığını belirtir.
 
 ## 3. Adım: Barkod Görüntüsü Oluşturun
 

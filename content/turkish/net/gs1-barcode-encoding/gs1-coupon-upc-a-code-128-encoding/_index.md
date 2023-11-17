@@ -105,7 +105,7 @@ Aspose.BarCode for .NET, tüm barkod oluşturma ihtiyaçlarınız için çok yö
  Evet, Aspose.BarCode for .NET hem kişisel hem de ticari projeler için uygundur. Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ### S: Aspose.BarCode for .NET'in ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/). Bir satın alma işlemi yapmadan önce kütüphanenin özelliklerini test etmenize olanak tanır.
+Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/). Bir satın alma işlemi yapmadan önce kütüphanenin özelliklerini test etmenize olanak tanır.
 
 ### S: Aspose.BarCode for .NET için nasıl geçici lisans alabilirim?
  Değerlendirme veya test amacıyla geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

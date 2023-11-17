@@ -85,7 +85,7 @@ gen.Save($"{path}PatchCodeA4WithQR.png", BarCodeImageFormat.Png);
 Aspose.BarCode для .NET — это мощная библиотека, которая позволяет разработчикам .NET создавать и считывать различные типы штрих-кодов, включая коды исправлений, QR-коды и многое другое.
 
 ### Где я могу скачать Aspose.BarCode для .NET?
- Вы можете скачать Aspose.BarCode для .NET с сайта[Веб-сайт Aspose](https://releases.aspose.com/barcode/net/).
+Вы можете скачать Aspose.BarCode для .NET с сайта[Веб-сайт Aspose](https://releases.aspose.com/barcode/net/).
 
 ### Подходит ли Aspose.BarCode для .NET для систем управления документами?
 Да, Aspose.BarCode для .NET хорошо подходит для систем управления документами, поскольку он может генерировать штрих-коды Patch Code, используемые для идентификации и организации документов.

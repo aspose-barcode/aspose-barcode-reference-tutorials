@@ -15,7 +15,7 @@ url: /zh/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customizat
 
 1. Visual Studio：您需要在计算机上安装 Visual Studio。
 
-2.  Aspose.BarCode for .NET：您应该安装 Aspose.BarCode for .NET。如果您还没有，您可以下载[这里](https://releases.aspose.com/barcode/net/).
+2.  Aspose.BarCode for .NET：您应该安装Aspose.BarCode for .NET。如果您还没有，您可以下载[这里](https://releases.aspose.com/barcode/net/).
 
 3. .NET Framework：您的开发环境应该支持.NET Framework。
 
@@ -73,7 +73,7 @@ A1：是的，Aspose.BarCode for .NET 允许您自定义各种条形码类型的
 
 ### 问题 2：Aspose.BarCode for .NET 是否有免费试用版？
 
-A2：是的，您可以免费试用 Aspose.BarCode for .NET[这里](https://releases.aspose.com/).
+ A2：是的，您可以免费试用 Aspose.BarCode for .NET[这里](https://releases.aspose.com/).
 
 ### Q3：在哪里可以购买 Aspose.BarCode for .NET 的许可证？
 

@@ -20,7 +20,7 @@ Bevor wir uns mit dem Code befassen, stellen Sie sicher, dass die folgenden Vora
 
 Nachdem Sie nun die notwendigen Voraussetzungen geschaffen haben, fahren wir mit dem Codierungsteil fort.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Um zu beginnen, müssen Sie die relevanten Namespaces für Aspose.BarCode importieren. Fügen Sie am Anfang Ihres .NET-Projekts die folgenden Codezeilen hinzu:
 

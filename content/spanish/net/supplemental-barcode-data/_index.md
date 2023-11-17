@@ -16,7 +16,7 @@ Si es un desarrollador de .NET y busca mejorar sus habilidades con los códigos 
 
 Comencemos profundizando en el ámbito de la configuración de datos de códigos de barras suplementarios. Aspose.BarCode para .NET le ofrece las herramientas para generar códigos de barras suplementarios sin esfuerzo, brindándole un control total sobre los códigos de barras EAN-2 y EAN-5. Pero, ¿cómo empezar? 
 
-Primero, descargue e instale Aspose.BarCode para .NET. Puede explorar una prueba gratuita para probar las aguas y ver las potentes funciones en acción. Una vez que esté configurado, siga nuestra guía paso a paso, que lo guiará a través del proceso, asegurándose de que domine la configuración de datos de códigos de barras adicionales con facilidad.
+Primero, descargue e instale Aspose.BarCode para .NET. Puede explorar una prueba gratuita para probar las aguas y ver las potentes funciones en acción. Una vez que esté configurado, siga nuestra guía paso a paso, que lo guiará a través del proceso, asegurándose de que domine la configuración de datos de códigos de barras complementarios con facilidad.
 
 Al final de esta sección, tendrá una comprensión sólida de cómo crear códigos de barras EAN-2 y EAN-5, lo que lo convertirá en un desarrollador .NET más versátil.
 

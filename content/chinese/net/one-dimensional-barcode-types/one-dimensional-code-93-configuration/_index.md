@@ -16,7 +16,7 @@ url: /zh/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration
 
 在我们深入创建 Code 93 条形码之前，您需要满足一些先决条件：
 1. Visual Studio：确保您的系统上安装了 Visual Studio。您可以从网站下载。
-2. Aspose.BarCode for .NET：您应该安装 Aspose.BarCode for .NET。您可以从网站下载。
+2. Aspose.BarCode for .NET：您应该安装Aspose.BarCode for .NET。您可以从网站下载。
 3. C# 基础知识：熟悉 C# 编程语言将会很有帮助。
 
 现在您已经具备了必要的先决条件，我们可以继续阅读分步指南。

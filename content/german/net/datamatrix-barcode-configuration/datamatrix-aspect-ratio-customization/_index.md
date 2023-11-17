@@ -73,7 +73,7 @@ A1: Ja, mit Aspose.BarCode für .NET können Sie das Seitenverhältnis verschied
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.BarCode für .NET?
 
-A2: Ja, Sie können auf eine kostenlose Testversion von Aspose.BarCode für .NET zugreifen[Hier](https://releases.aspose.com/).
+ A2: Ja, Sie können auf eine kostenlose Testversion von Aspose.BarCode für .NET zugreifen[Hier](https://releases.aspose.com/).
 
 ### F3: Wo kann ich eine Lizenz für Aspose.BarCode für .NET erwerben?
 

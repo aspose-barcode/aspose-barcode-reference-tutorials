@@ -45,7 +45,7 @@ Domine el arte de generar y personalizar datos de códigos de barras complementa
 
 ## Codificación de códigos de barras aztecas
 
-Libere el potencial de la codificación de códigos de barras Aztec con Aspose.BarCode para .NET. Personalice relaciones de aspecto, cree códigos aztecas codificados en texto y domine los modos de símbolos con nuestros completos tutoriales.
+Libere el potencial de la codificación de códigos de barras Aztec con Aspose.BarCode para .NET. Personalice proporciones de aspecto, cree códigos aztecas codificados en texto y domine los modos de símbolos con nuestros completos tutoriales.
 
 ## Codificación PDF417 compacta
 

@@ -126,4 +126,4 @@ Sì, Aspose.BarCode per .NET è compatibile con le ultime versioni di .NET Frame
 Sì, puoi personalizzare vari parametri come colore, dimensione e aspetto del testo per soddisfare le tue esigenze specifiche.
 
 ### 5. Esiste una comunità o un forum per il supporto di Aspose.BarCode per .NET?
- Sì, puoi cercare supporto e partecipare alle discussioni sul forum Aspose.BarCode all'indirizzo[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+ Sì, puoi chiedere supporto e partecipare alle discussioni sul forum Aspose.BarCode all'indirizzo[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).

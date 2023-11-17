@@ -57,7 +57,7 @@ En este paso, hemos configurado el código de barras DataMatrix con los parámet
 
 ## Paso 2: leer el código de barras estructurado de DataMatrix
 
-Ahora que ha generado el código de barras, es hora de leer su información. Usaremos la biblioteca Aspose.BarCode para decodificar los datos del código de barras.
+Ahora que ha generado el código de barras, es momento de leer su información. Usaremos la biblioteca Aspose.BarCode para decodificar los datos del código de barras.
 
 ```csharp
     using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -99,4 +99,4 @@ R1: El anexo estructurado de DataMatrix es una función que le permite dividir u
 
 ### P5: ¿Aspose.BarCode para .NET admite otros tipos de códigos de barras?
 
-R5: Sí, Aspose.BarCode para .NET admite una amplia gama de tipos de códigos de barras, incluidos códigos QR, Código 128, EAN-13 y muchos más. Puedes explorar la documentación completa.[aquí](https://reference.aspose.com/barcode/net/) para ver la lista completa de tipos de códigos de barras admitidos.
+ R5: Sí, Aspose.BarCode para .NET admite una amplia gama de tipos de códigos de barras, incluidos códigos QR, Código 128, EAN-13 y muchos más. Puedes explorar la documentación completa.[aquí](https://reference.aspose.com/barcode/net/) para ver la lista completa de tipos de códigos de barras admitidos.

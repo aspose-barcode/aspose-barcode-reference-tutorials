@@ -97,9 +97,9 @@ Bu eğitimde Aspose.BarCode for .NET'i kullanarak DotCode Satır ve Sütun konfi
 
 Cevap1: DotCode, sağlık ve ilaç endüstrilerinde küçük ambalaj etiketlerindeki büyük miktarda veriyi kodlamak için sıklıkla kullanılan bir 2D barkod sembolojisidir.
 
-### S2: DotCode barkodlarının görünümünü Aspose.BarCode for .NET ile özelleştirebilir miyim?
+### S2: Aspose.BarCode for .NET ile DotCode barkodlarının görünümünü özelleştirebilir miyim?
 
-C2: Evet, özel marka gereksinimlerinizi karşılamak için barkodun görünümünü renkler, yazı tipleri ve daha fazlası dahil olmak üzere özelleştirebilirsiniz.
+C2: Evet, barkodun görünümünü, renkler, yazı tipleri ve daha fazlası dahil olmak üzere, özel marka gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz.
 
 ### S3: Aspose.BarCode for .NET çeşitli .NET Framework sürümleriyle uyumlu mudur?
 

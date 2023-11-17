@@ -13,7 +13,7 @@ url: /ru/net/datamatrix-barcode-reading/datamatrix-versions/
 
 Прежде чем мы углубимся в код, убедитесь, что у вас есть следующие предварительные условия:
 - Среда разработки с поддержкой .NET.
-- Копия Aspose.BarCode для .NET, которую можно загрузить с сайта[эта ссылка](https://releases.aspose.com/barcode/net/).
+-  Копия Aspose.BarCode для .NET, которую можно загрузить с сайта[эта ссылка](https://releases.aspose.com/barcode/net/).
 - Базовые знания C# и .NET framework.
 
 Теперь давайте рассмотрим версии DataMatrix и способы их создания с помощью Aspose.BarCode для .NET.

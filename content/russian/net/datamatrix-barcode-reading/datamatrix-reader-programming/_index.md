@@ -60,7 +60,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
- Здесь мы создаем`BarcodeGenerator` и указываем, что мы хотим сгенерировать штрих-код DataMatrix. Мы также установили`XDimension` (ширина полос штрих-кода) до 4 пикселей. Ключевым шагом здесь является установка`IsReaderProgramming` пометить`true`указывая, что данные закодированы для программирования считывателя.
+ Здесь мы создаем`BarcodeGenerator` и указываем, что мы хотим сгенерировать штрих-код DataMatrix. Мы также установили`XDimension` (ширина полос штрих-кода) до 4 пикселей. Ключевым шагом здесь является установка`IsReaderProgramming` пометить`true`, указывая, что данные закодированы для программирования считывателя.
 
 ## Шаг 3. Создайте изображение штрих-кода
 

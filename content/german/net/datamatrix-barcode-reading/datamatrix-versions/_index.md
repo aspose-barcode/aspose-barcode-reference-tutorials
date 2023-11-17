@@ -13,7 +13,7 @@ Wenn Sie nach einer zuverlässigen Lösung zum Generieren von DataMatrix-Barcode
 
 Bevor wir uns mit dem Code befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Eine Entwicklungsumgebung mit .NET-Unterstützung.
-- Eine Kopie von Aspose.BarCode für .NET, die Sie hier herunterladen können[dieser Link](https://releases.aspose.com/barcode/net/).
+-  Eine Kopie von Aspose.BarCode für .NET, die Sie hier herunterladen können[dieser Link](https://releases.aspose.com/barcode/net/).
 - Grundkenntnisse in C# und dem .NET Framework.
 
 Sehen wir uns nun die DataMatrix-Versionen an und wie man sie mit Aspose.BarCode für .NET generiert.
@@ -103,7 +103,7 @@ Nachdem Sie nun gelernt haben, wie Sie mit Aspose.BarCode für .NET DataMatrix-B
 
 ## Abschluss
 
-Aspose.BarCode für .NET vereinfacht den Prozess der Generierung von DataMatrix-Barcodes in Ihren .NET-Anwendungen. Mit dieser Schritt-für-Schritt-Anleitung können Sie Barcodes mit verschiedenen Versionen und ECC-Typen erstellen und so Flexibilität und Anpassung an Ihre spezifischen Anforderungen bieten.
+Aspose.BarCode für .NET vereinfacht den Prozess der Generierung von DataMatrix-Barcodes in Ihren .NET-Anwendungen. Mit dieser Schritt-für-Schritt-Anleitung können Sie Barcodes mit unterschiedlichen Versionen und ECC-Typen erstellen und so Flexibilität und Anpassung an Ihre spezifischen Anforderungen bieten.
 
  Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, die zu besuchen[Aspose.BarCode für .NET-Dokumentation](https://reference.aspose.com/barcode/net/) oder schauen Sie sich die an[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13) zur Unterstützung.
 

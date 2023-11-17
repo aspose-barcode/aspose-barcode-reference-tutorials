@@ -111,10 +111,10 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext
     // Установите размер X для штрих-кода (отрегулируйте по мере необходимости).
     gen.Parameters.Barcode.XDimension.Pixels = 10;
 
-    //Установите режим кодирования DotCode на ExtendedCodetext.
+    // Установите режим кодирования DotCode на ExtendedCodetext.
     gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
 
-    // Сохраните созданное изображение штрих-кода.
+    //Сохраните созданное изображение штрих-кода.
     gen.Save($"{path}DotCodeExtendedCodetext.png", BarCodeImageFormat.Png);
 }
 ```
@@ -125,7 +125,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext
 
 Aspose.BarCode для .NET — мощный инструмент, упрощающий создание штрих-кодов. В этом руководстве мы сосредоточились на создании расширенного текста кода DotCode, который необходим в различных отраслях, особенно там, где требуется многоязычная и специализированная кодировка символов. Следуя шагам, описанным выше, вы можете легко создать расширенный текст кода DotCode для ваших конкретных нужд.
 
- Если вам нужна дополнительная помощь или у вас есть вопросы, не стесняйтесь посетить[Документация Aspose.BarCode для .NET](https://reference.aspose.com/barcode/net/) или пообщайтесь с сообществом на[Форум поддержки Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+ Если вам нужна дополнительная информация или у вас есть вопросы, не стесняйтесь посетить[Документация Aspose.BarCode для .NET](https://reference.aspose.com/barcode/net/) или пообщайтесь с сообществом на[Форум поддержки Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ## Часто задаваемые вопросы
 

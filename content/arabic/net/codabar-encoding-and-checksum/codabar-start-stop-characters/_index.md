@@ -94,7 +94,7 @@ gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.D;
 
 ## الخطوة 4: احفظ صور الباركود التي تم إنشاؤها
 
-بمجرد قيامك بتكوين منشئ الباركود بالإعدادات المطلوبة، يمكنك حفظ صور الباركود Codabar التي تم إنشاؤها في الدليل المحدد باستخدام الكود التالي:
+بمجرد قيامك بتكوين منشئ الباركود بالإعدادات المطلوبة، يمكنك حفظ صور باركود Codabar التي تم إنشاؤها في الدليل المحدد باستخدام الكود التالي:
 
 ```csharp
 gen.Save($"{path}CodabarStartAStopA.png", BarCodeImageFormat.Png);

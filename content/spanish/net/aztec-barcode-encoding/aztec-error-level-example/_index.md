@@ -22,7 +22,7 @@ Con estos requisitos previos implementados, está listo para comenzar a generar 
 
 ## Importando espacios de nombres
 
- En su proyecto C#, necesita importar los espacios de nombres necesarios de la biblioteca Aspose.BarCode. El espacio de nombres principal a incluir es`Aspose.BarCode`.
+En su proyecto C#, necesita importar los espacios de nombres necesarios de la biblioteca Aspose.BarCode. El espacio de nombres principal a incluir es`Aspose.BarCode`.
 
 Así es como puede importar el espacio de nombres requerido:
 

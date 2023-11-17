@@ -13,7 +13,7 @@ url: /tr/net/datamatrix-barcode-reading/datamatrix-versions/
 
 Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - .NET desteğine sahip bir geliştirme ortamı.
-- Aspose.BarCode for .NET'in bir kopyasını şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/barcode/net/).
+-  Aspose.BarCode for .NET'in bir kopyasını şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/barcode/net/).
 - C# ve .NET çerçevesi hakkında temel bilgi.
 
 Şimdi DataMatrix sürümlerini ve bunların Aspose.BarCode for .NET kullanılarak nasıl oluşturulacağını inceleyelim.

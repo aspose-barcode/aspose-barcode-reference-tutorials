@@ -14,7 +14,7 @@ url: /zh/net/gs1-barcode-encoding/gs1-datamatrix-example/
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
-1.  Aspose.BarCode for .NET：您需要安装Aspose.BarCode for .NET。如果您还没有，您可以[在这里下载](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET：您需要安装Aspose.BarCode for .NET。如果您还没有，您可以[在这里下载](https://releases.aspose.com/barcode/net/).
 
 2. 开发环境：您的系统上应该设置有.NET 开发环境。
 

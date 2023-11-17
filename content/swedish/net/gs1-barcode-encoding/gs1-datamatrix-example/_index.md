@@ -14,7 +14,7 @@ Om du letar efter en pålitlig lösning för att skapa GS1 DataMatrix-streckkode
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.BarCode för .NET: Du måste ha Aspose.BarCode för .NET installerat. Om du inte redan har gjort det kan du[ladda ner den här](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode för .NET: Du måste ha Aspose.BarCode för .NET installerat. Om du inte redan har gjort det kan du[ladda ner den här](https://releases.aspose.com/barcode/net/).
 
 2. Utvecklingsmiljö: Du bör ha en .NET-utvecklingsmiljö inställd på ditt system.
 
@@ -84,6 +84,6 @@ Ja, Aspose.BarCode för .NET låter dig spara genererade streckkoder i olika bil
 
 ## Slutsats
 
-I den här handledningen undersökte vi hur man genererar GS1 DataMatrix-streckkoder med Aspose.BarCode för .NET. Med rätt verktyg och några enkla steg kan du förbättra dina .NET-applikationer med förmågan att skapa streckkoder effektivt. Oavsett om du arbetar inom detaljhandeln, sjukvården eller någon bransch som kräver generering av streckkoder, är Aspose.BarCode för .NET en värdefull tillgång för din utvecklingsverktygslåda.
+den här handledningen undersökte vi hur man genererar GS1 DataMatrix-streckkoder med Aspose.BarCode för .NET. Med rätt verktyg och några enkla steg kan du förbättra dina .NET-applikationer med förmågan att skapa streckkoder effektivt. Oavsett om du arbetar inom detaljhandeln, sjukvården eller någon bransch som kräver generering av streckkoder, är Aspose.BarCode för .NET en värdefull tillgång för din utvecklingsverktygslåda.
 
 Så fortsätt, ge det ett försök och effektivisera din process för att generera streckkoder med Aspose.BarCode för .NET. Dina produkter och dataidentifiering har blivit mycket enklare.

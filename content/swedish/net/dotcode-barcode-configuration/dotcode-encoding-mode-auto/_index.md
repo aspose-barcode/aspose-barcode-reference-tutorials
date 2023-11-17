@@ -54,7 +54,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "犬Righ
 }
 ```
 
-- Vi skapar en instans av`BarcodeGenerator` och ange kodningstypen som`EncodeTypes.DotCode`.
+-  Vi skapar en instans av`BarcodeGenerator`och ange kodningstypen som`EncodeTypes.DotCode`.
 -  Den andra parametern i konstruktorn är den data du vill koda. I det här exemplet har vi använt strängen`"犬Right狗"`, men du kan ersätta den med dina data.
 
 ## Steg 3: Anpassa DotCode-parametrar

@@ -13,7 +13,7 @@ Codabar è una simbologia di codici a barre popolare ampiamente utilizzata per v
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-1.  Aspose.BarCode per .NET: è necessario avere Aspose.BarCode per .NET installato nel proprio ambiente di sviluppo. Se non l'hai già fatto, puoi scaricarlo da[Qui](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode per .NET: è necessario avere Aspose.BarCode per .NET installato nel proprio ambiente di sviluppo. Se non l'hai già fatto, puoi scaricarlo da[Qui](https://releases.aspose.com/barcode/net/).
 
 2. Ambiente di sviluppo C#: è necessario disporre di un ambiente di sviluppo C# configurato e pronto all'uso.
 
@@ -74,7 +74,7 @@ Con questi passaggi, hai generato con successo codici a barre Codabar con checks
 
 In questo tutorial, abbiamo trattato i passaggi per calcolare diversi tipi di checksum per i codici a barre Codabar utilizzando Aspose.BarCode per .NET. Questi checksum svolgono un ruolo cruciale nel garantire l'accuratezza e l'affidabilità dei dati codificati nella simbologia Codabar. Seguendo questi passaggi e personalizzando i codici a barre Codabar, puoi soddisfare i requisiti specifici della tua applicazione.
 
-Se hai domande o riscontri problemi, non esitare a chiedere assistenza alla comunità Aspose.BarCode su[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+ Se hai domande o riscontri problemi, non esitare a chiedere assistenza alla comunità Aspose.BarCode su[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ## Domande frequenti
 

@@ -13,7 +13,7 @@ Codabar est une symbologie de codes-barres populaire largement utilisée pour di
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1.  Aspose.BarCode pour .NET : Vous devez avoir Aspose.BarCode pour .NET installé dans votre environnement de développement. Si ce n'est pas déjà fait, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode pour .NET : Vous devez avoir Aspose.BarCode pour .NET installé dans votre environnement de développement. Si ce n'est pas déjà fait, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/barcode/net/).
 
 2. Environnement de développement C# : vous devez disposer d'un environnement de développement C# configuré et prêt à fonctionner.
 
@@ -74,7 +74,7 @@ Avec ces étapes, vous avez généré avec succès des codes-barres Codabar avec
 
 Dans ce didacticiel, nous avons couvert les étapes permettant de calculer différents types de sommes de contrôle pour les codes-barres Codabar à l'aide d'Aspose.BarCode pour .NET. Ces sommes de contrôle jouent un rôle crucial pour garantir l'exactitude et la fiabilité des données codées dans la symbologie Codabar. En suivant ces étapes et en personnalisant vos codes-barres Codabar, vous pouvez répondre aux exigences spécifiques de votre application.
 
-Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à demander de l'aide à la communauté Aspose.BarCode sur le site[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+ Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à demander de l'aide à la communauté Aspose.BarCode sur le site[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ## FAQ
 

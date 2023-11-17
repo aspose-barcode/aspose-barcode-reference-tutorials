@@ -13,7 +13,7 @@ url: /zh/net/datamatrix-barcode-reading/datamatrix-versions/
 
 在我们深入研究代码之前，请确保您具备以下先决条件：
 - 具有 .NET 支持的开发环境。
-- Aspose.BarCode for .NET 的副本，您可以从以下位置下载[这个链接](https://releases.aspose.com/barcode/net/).
+-  Aspose.BarCode for .NET 的副本，您可以从以下位置下载[这个链接](https://releases.aspose.com/barcode/net/).
 - C# 和 .NET 框架的基础知识。
 
 现在，让我们探索 DataMatrix 版本以及如何使用 Aspose.BarCode for .NET 生成它们。

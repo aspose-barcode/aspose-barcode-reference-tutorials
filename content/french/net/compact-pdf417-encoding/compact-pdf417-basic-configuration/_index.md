@@ -38,7 +38,7 @@ Maintenant que vous avez importé les espaces de noms nécessaires, vous êtes p
 
 Dans cette section, nous décomposerons le processus de création d'un code-barres Compact PDF417 en plusieurs étapes. Chaque étape est expliquée en détail.
 
-## Étape 1 : définir le chemin
+## Étape 1 : Définir le chemin
 
 Commencez par définir le chemin du répertoire dans lequel vous souhaitez enregistrer l'image du code-barres générée.
 

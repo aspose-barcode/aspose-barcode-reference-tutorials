@@ -2,7 +2,7 @@
 title: Manejo de excepciones de códigos de barras unidimensionales
 linktitle: Manejo de excepciones de códigos de barras unidimensionales
 second_title: API Aspose.BarCode .NET
-description: Aprenda a manejar excepciones mientras genera códigos de barras unidimensionales utilizando Aspose.BarCode para .NET. Esta guía paso a paso garantiza soluciones de códigos de barras tolerantes a errores. ¡Empieza ahora!
+description: Aprenda a manejar excepciones mientras genera códigos de barras unidimensionales usando Aspose.BarCode para .NET. Esta guía paso a paso garantiza soluciones de códigos de barras tolerantes a errores. ¡Empieza ahora!
 type: docs
 weight: 21
 url: /es/net/one-dimensional-barcode-types/one-dimensional-barcode-exception-handling/
@@ -49,7 +49,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 ## Paso 3: Manejo de excepciones: texto del código correcto
 
- Exploremos el manejo de excepciones en el contexto de un texto de código correcto con verificación de corrección. Estableceremos el`ThrowExceptionWhenCodeTextIncorrect` propiedad a`true`.
+Exploremos el manejo de excepciones en el contexto de un texto de código correcto con verificación de corrección. Estableceremos el`ThrowExceptionWhenCodeTextIncorrect` propiedad a`true`.
 
 ```csharp
 gen.CodeText = "12345";

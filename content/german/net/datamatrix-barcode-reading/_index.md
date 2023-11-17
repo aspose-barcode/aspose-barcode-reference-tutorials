@@ -8,7 +8,7 @@ weight: 31
 url: /de/net/datamatrix-barcode-reading/
 ---
 
-Wenn Sie in die Welt des Lesens von DataMatrix-Barcodes eintauchen und das volle Potenzial von Aspose.BarCode für .NET ausschöpfen möchten, sind Sie hier genau richtig. In diesem umfassenden Leitfaden führen wir Sie durch wichtige Tutorials, die die Programmierung von DataMatrix-Readern, die Konfiguration strukturierter Anhänge und die Kunst der Generierung von DataMatrix-Barcodes in Ihren .NET-Anwendungen behandeln.
+Wenn Sie in die Welt des Lesens von DataMatrix-Barcodes eintauchen und das volle Potenzial von Aspose.BarCode für .NET ausschöpfen möchten, sind Sie hier genau richtig. In diesem umfassenden Leitfaden führen wir Sie durch wichtige Tutorials, die die Programmierung von DataMatrix-Lesegeräten, die Konfiguration strukturierter Anhänge und die Kunst der Generierung von DataMatrix-Barcodes in Ihren .NET-Anwendungen behandeln.
 
 ## DataMatrix Reader-Programmierung: Eine Reise in die nahtlose Integration
 

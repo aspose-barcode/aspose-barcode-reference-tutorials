@@ -73,7 +73,7 @@ S1: Ja, Aspose.BarCode för .NET låter dig anpassa bildförhållandet för olik
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.BarCode för .NET?
 
-S2: Ja, du kan få tillgång till en gratis testversion av Aspose.BarCode för .NET[här](https://releases.aspose.com/).
+ S2: Ja, du kan få tillgång till en gratis testversion av Aspose.BarCode för .NET[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag köpa en licens för Aspose.BarCode för .NET?
 

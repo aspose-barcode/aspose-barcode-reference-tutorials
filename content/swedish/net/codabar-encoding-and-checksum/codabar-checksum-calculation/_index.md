@@ -13,7 +13,7 @@ Codabar är en populär streckkodssymbologi som används flitigt för olika appl
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.BarCode för .NET: Du måste ha Aspose.BarCode för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner det från[här](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode för .NET: Du måste ha Aspose.BarCode för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner det från[här](https://releases.aspose.com/barcode/net/).
 
 2. C#-utvecklingsmiljö: Du bör ha en C#-utvecklingsmiljö inrättad och redo att gå.
 
@@ -50,7 +50,7 @@ gen.Save($"{path}CodabarChecksumNone.png", BarCodeImageFormat.Png);
 
 ## Steg 3: Generera Codabar-streckkod med Mod10 Checksum
 
-I det här steget genererar vi en Codabar-streckkod med Mod10 checksumma. Detta ger ett extra lager av dataintegritet. 
+det här steget genererar vi en Codabar-streckkod med Mod10 checksumma. Detta ger ett extra lager av dataintegritet. 
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
@@ -74,7 +74,7 @@ Med dessa steg har du framgångsrikt genererat Codabar-streckkoder med olika kon
 
 I den här handledningen har vi gått igenom stegen för att beräkna olika typer av kontrollsummor för Codabar-streckkoder med Aspose.BarCode för .NET. Dessa kontrollsummor spelar en avgörande roll för att säkerställa noggrannheten och tillförlitligheten hos kodade data i Codabar-symbolologi. Genom att följa dessa steg och anpassa dina Codabar-streckkoder kan du uppfylla de specifika kraven för din applikation.
 
-Om du har några frågor eller stöter på några problem får du gärna söka hjälp från Aspose.BarCode-communityt på[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
+ Om du har några frågor eller stöter på några problem får du gärna söka hjälp från Aspose.BarCode-communityt på[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
 
 ## FAQ's
 

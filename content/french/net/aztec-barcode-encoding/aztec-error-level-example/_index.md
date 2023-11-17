@@ -22,7 +22,7 @@ Une fois ces conditions préalables en place, vous êtes prêt à commencer à g
 
 ## Importation d'espaces de noms
 
- Dans votre projet C#, vous devez importer les espaces de noms nécessaires depuis la bibliothèque Aspose.BarCode. L'espace de noms principal à inclure est`Aspose.BarCode`.
+Dans votre projet C#, vous devez importer les espaces de noms nécessaires depuis la bibliothèque Aspose.BarCode. L'espace de noms principal à inclure est`Aspose.BarCode`.
 
 Voici comment importer l'espace de noms requis :
 

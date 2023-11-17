@@ -107,4 +107,4 @@ A4: È possibile utilizzare Aspose.BarCode per .NET nelle applicazioni Web incor
 
 ### Q5: Dove posso ottenere una licenza temporanea per Aspose.BarCode per .NET?
 
- R5: Se hai bisogno di una licenza temporanea per scopi di test o valutazione, puoi ottenerne una da[Qui](https://purchase.aspose.com/temporary-license/).
+R5: Se hai bisogno di una licenza temporanea per scopi di test o valutazione, puoi ottenerne una da[Qui](https://purchase.aspose.com/temporary-license/).

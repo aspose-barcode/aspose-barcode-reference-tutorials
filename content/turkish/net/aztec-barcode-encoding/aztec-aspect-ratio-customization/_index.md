@@ -107,4 +107,4 @@ Cevap4: Aspose.BarCode for .NET'i, bu eğitimde verilen masaüstü uygulama örn
 
 ### S5: Aspose.BarCode for .NET için nereden geçici lisans alabilirim?
 
- Cevap5: Test veya değerlendirme amacıyla geçici bir lisansa ihtiyacınız varsa, şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+Cevap5: Test veya değerlendirme amacıyla geçici bir lisansa ihtiyacınız varsa, şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).

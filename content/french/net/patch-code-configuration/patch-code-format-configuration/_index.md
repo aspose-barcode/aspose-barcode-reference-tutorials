@@ -35,7 +35,7 @@ using Aspose.BarCode.Generation;
 
 Maintenant que nos prérequis et nos espaces de noms sont en place, décomposons l'exemple fourni en plusieurs étapes.
 
-## Étape 1 : définir le chemin
+## Étape 1 : Définir le chemin
 
 Tout d’abord, définissez le chemin où vous souhaitez enregistrer les images de codes-barres Patch Code générées. Vous pouvez définir le chemin du répertoire comme ceci :
 
@@ -85,7 +85,7 @@ Dans ce didacticiel, nous avons exploré comment générer des codes-barres Patc
 Aspose.BarCode for .NET est une bibliothèque puissante qui permet aux développeurs .NET de générer et de lire différents types de codes-barres, notamment les codes de patch, les codes QR, etc.
 
 ### Où puis-je télécharger Aspose.BarCode pour .NET ?
- Vous pouvez télécharger Aspose.BarCode pour .NET à partir du[Site Aspose](https://releases.aspose.com/barcode/net/).
+Vous pouvez télécharger Aspose.BarCode pour .NET à partir du[Site Aspose](https://releases.aspose.com/barcode/net/).
 
 ### Aspose.BarCode for .NET est-il adapté aux systèmes de gestion de documents ?
 Oui, Aspose.BarCode pour .NET est bien adapté aux systèmes de gestion de documents, car il peut générer des codes-barres Patch Code utilisés pour l'identification et l'organisation des documents.
@@ -93,5 +93,5 @@ Oui, Aspose.BarCode pour .NET est bien adapté aux systèmes de gestion de docum
 ### Puis-je essayer Aspose.BarCode pour .NET avant d'acheter ?
  Oui, vous pouvez accéder à un essai gratuit d'Aspose.BarCode pour .NET à partir de[ici](https://releases.aspose.com/).
 
-### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
+### Où puis-je obtenir de l'assistance pour Aspose.BarCode pour .NET ?
  Si vous avez des questions ou avez besoin d'aide, vous pouvez visiter le forum de support Aspose.BarCode for .NET.[ici](https://forum.aspose.com/c/barcode/13).

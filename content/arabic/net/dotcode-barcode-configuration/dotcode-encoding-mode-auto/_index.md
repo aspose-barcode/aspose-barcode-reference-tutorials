@@ -54,7 +54,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "犬Righ
 }
 ```
 
-- نقوم بإنشاء مثيل لـ`BarcodeGenerator` وحدد نوع الترميز كـ`EncodeTypes.DotCode`.
+-  نقوم بإنشاء مثيل لـ`BarcodeGenerator`وحدد نوع الترميز كـ`EncodeTypes.DotCode`.
 -  المعلمة الثانية في المنشئ هي البيانات التي تريد تشفيرها. في هذا المثال، استخدمنا السلسلة`"犬Right狗"`ولكن يمكنك استبدالها ببياناتك.
 
 ## الخطوة 3: تخصيص معلمات DotCode

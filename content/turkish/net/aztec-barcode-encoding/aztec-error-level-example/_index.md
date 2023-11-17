@@ -22,7 +22,7 @@ Bu önkoşulları yerine getirdiğinizde Aspose.BarCode for .NET ile Aztek hata 
 
 ## Ad Alanlarını İçe Aktarma
 
- C# projenizde gerekli ad alanlarını Aspose.BarCode kütüphanesinden içe aktarmanız gerekir. Dahil edilecek birincil ad alanı:`Aspose.BarCode`.
+C# projenizde gerekli ad alanlarını Aspose.BarCode kütüphanesinden içe aktarmanız gerekir. Dahil edilecek birincil ad alanı:`Aspose.BarCode`.
 
 Gerekli ad alanını şu şekilde içe aktarabilirsiniz:
 

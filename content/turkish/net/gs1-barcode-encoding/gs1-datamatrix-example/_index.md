@@ -14,7 +14,7 @@ url: /tr/net/gs1-barcode-encoding/gs1-datamatrix-example/
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1.  Aspose.BarCode for .NET: Aspose.BarCode for .NET'in kurulu olması gerekir. Henüz yapmadıysanız, yapabilirsiniz[buradan indir](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET: Aspose.BarCode for .NET'in kurulu olması gerekir. Henüz yapmadıysanız, yapabilirsiniz[buradan indir](https://releases.aspose.com/barcode/net/).
 
 2. Geliştirme Ortamı: Sisteminizde .NET geliştirme ortamının kurulu olması gerekmektedir.
 

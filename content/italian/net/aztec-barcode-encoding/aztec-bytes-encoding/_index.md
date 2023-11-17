@@ -53,7 +53,7 @@ byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 
 ## Passaggio 3: codificare l'array in una stringa
 
- Per codificare l'array di byte come una stringa, creiamo a`StringBuilder` e scorrere i valori dei byte, convertendoli in caratteri e aggiungendoli al generatore di stringhe.
+ Per codificare l'array di byte come una stringa, creiamo a`StringBuilder` scorrere i valori dei byte, convertendoli in caratteri e aggiungendoli al generatore di stringhe.
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -96,7 +96,7 @@ Con questi passaggi, hai codificato con successo i dati utilizzando Aztec Bytes 
 
 In questo tutorial, abbiamo imparato come eseguire la codifica byte azteca utilizzando Aspose.BarCode per .NET. Questa potente libreria semplifica la generazione e il riconoscimento dei codici a barre, rendendola uno strumento prezioso per varie applicazioni. Se hai bisogno di codificare dati o decodificare codici a barre esistenti, Aspose.BarCode per .NET ti copre.
 
- Se hai domande o riscontri problemi mentre lavori con Aspose.BarCode, non esitare a chiedere assistenza sul[Forum di supporto Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+Se hai domande o riscontri problemi mentre lavori con Aspose.BarCode, non esitare a chiedere assistenza sul[Forum di supporto Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ## Domande frequenti
 

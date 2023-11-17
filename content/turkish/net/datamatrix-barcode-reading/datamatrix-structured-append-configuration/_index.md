@@ -83,7 +83,7 @@ Bu kılavuzu takip ederek Aspose.BarCode for .NET ile DataMatrix yapılandırıl
 
 ### S1: DataMatrix yapılandırılmış ekleme nedir ve neden kullanılır?
 
-Cevap1: DataMatrix yapılandırılmış ekleme, büyük miktarda veriyi birden çok küçük barkoda bölmenize olanak tanıyan bir özelliktir. Bu, özellikle tek bir barkod için sınırlı alana sahip olduğunuzda veya verileri verimli bir şekilde düzenlemeniz gerektiğinde kullanışlıdır. Lojistik, sağlık ve imalat gibi sektörlerde yaygın olarak kullanılır.
+Cevap1: DataMatrix yapılandırılmış ekleme, büyük miktarda veriyi birden fazla küçük barkoda bölmenize olanak tanıyan bir özelliktir. Bu, özellikle tek bir barkod için sınırlı alana sahip olduğunuzda veya verileri verimli bir şekilde düzenlemeniz gerektiğinde kullanışlıdır. Lojistik, sağlık ve imalat gibi sektörlerde yaygın olarak kullanılır.
 
 ### S2: Aspose.BarCode for .NET'i açık kaynak projemde kullanabilir miyim?
 
@@ -99,4 +99,4 @@ Cevap1: DataMatrix yapılandırılmış ekleme, büyük miktarda veriyi birden �
 
 ### S5: Aspose.BarCode for .NET diğer barkod türlerini destekliyor mu?
 
-Cevap5: Evet, Aspose.BarCode for .NET; QR kodları, Code 128, EAN-13 ve çok daha fazlasını içeren çok çeşitli barkod türlerini destekler. Belgelerin tamamını inceleyebilirsiniz[Burada](https://reference.aspose.com/barcode/net/) Desteklenen barkod türlerinin tam listesini görmek için.
+ Cevap5: Evet, Aspose.BarCode for .NET; QR kodları, Code 128, EAN-13 ve çok daha fazlasını içeren çok çeşitli barkod türlerini destekler. Belgelerin tamamını inceleyebilirsiniz[Burada](https://reference.aspose.com/barcode/net/) Desteklenen barkod türlerinin tam listesini görmek için.

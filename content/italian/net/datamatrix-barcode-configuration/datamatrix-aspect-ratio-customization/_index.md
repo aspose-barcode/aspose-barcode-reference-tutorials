@@ -73,7 +73,7 @@ A1: Sì, Aspose.BarCode per .NET ti consente di personalizzare le proporzioni di
 
 ### Q2: È disponibile una prova gratuita per Aspose.BarCode per .NET?
 
-A2: Sì, puoi accedere a una prova gratuita di Aspose.BarCode per .NET[Qui](https://releases.aspose.com/).
+ A2: Sì, puoi accedere a una prova gratuita di Aspose.BarCode per .NET[Qui](https://releases.aspose.com/).
 
 ### Q3: Dove posso acquistare una licenza per Aspose.BarCode per .NET?
 

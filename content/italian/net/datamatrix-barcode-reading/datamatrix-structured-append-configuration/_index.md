@@ -99,4 +99,4 @@ R1: L'aggiunta strutturata DataMatrix è una funzionalità che consente di suddi
 
 ### Q5: Aspose.BarCode per .NET supporta altri tipi di codici a barre?
 
-A5: Sì, Aspose.BarCode per .NET supporta un'ampia gamma di tipi di codici a barre, inclusi codici QR, codice 128, EAN-13 e molti altri. Puoi esplorare la documentazione completa[Qui](https://reference.aspose.com/barcode/net/) per visualizzare l'elenco completo dei tipi di codici a barre supportati.
+ A5: Sì, Aspose.BarCode per .NET supporta un'ampia gamma di tipi di codici a barre, inclusi codici QR, codice 128, EAN-13 e molti altri. Puoi esplorare la documentazione completa[Qui](https://reference.aspose.com/barcode/net/) per visualizzare l'elenco completo dei tipi di codici a barre supportati.

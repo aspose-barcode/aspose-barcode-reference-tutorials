@@ -22,7 +22,7 @@ Bevor Sie mit Aspose.BarCode für .NET in die Welt der Barcode-Generierung einta
 
 Nachdem Sie nun die Voraussetzungen erfüllt haben, kommen wir zum spannenden Teil.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Um Aspose.BarCode für .NET verwenden zu können, müssen Sie die erforderlichen Namespaces in Ihr Projekt importieren. Folge diesen Schritten:
 

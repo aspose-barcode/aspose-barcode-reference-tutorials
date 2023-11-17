@@ -95,8 +95,8 @@ Aspose.BarCode per .NET offre un'ampia gamma di funzionalità e opzioni di perso
 
 ## Domande frequenti
 
-### cosa serve il codice a barre ITF-14?
-I codici a barre ITF-14 vengono utilizzati principalmente per l'imballaggio e l'etichettatura dei prodotti nel settore della vendita al dettaglio. Codificano informazioni come il GTIN (Global Trade Item Number) del prodotto e si trovano comunemente su cartoni e pallet.
+### A cosa serve il codice a barre ITF-14?
+codici a barre ITF-14 vengono utilizzati principalmente per l'imballaggio e l'etichettatura dei prodotti nel settore della vendita al dettaglio. Codificano informazioni come il GTIN (Global Trade Item Number) del prodotto e si trovano comunemente su cartoni e pallet.
 
 ### Posso personalizzare l'aspetto dei codici a barre ITF-14 con Aspose.BarCode?
 Sì, Aspose.BarCode offre ampie opzioni di personalizzazione, inclusa la possibilità di modificare il tipo di bordo, il colore e molti altri aspetti visivi del codice a barre.

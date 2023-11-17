@@ -56,7 +56,7 @@ Yukarıdaki kodda "12345678901231" verilerini içeren bir ITF-14 barkodu oluştu
 
 ### Adım 4: X Boyutunun Ayarlanması
 
-X Boyutu barkod çubuklarının genişliğini temsil eder. Bu örnekte bunu 2 piksele ayarlayacağız.
+Boyutu barkod çubuklarının genişliğini temsil eder. Bu örnekte bunu 2 piksele ayarlayacağız.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;

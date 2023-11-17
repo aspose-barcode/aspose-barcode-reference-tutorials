@@ -73,7 +73,7 @@ Cevap1: Evet, Aspose.BarCode for .NET yalnızca DataMatrix'in değil, çeşitli 
 
 ### S2: Aspose.BarCode for .NET'in ücretsiz deneme sürümü mevcut mu?
 
-Cevap2: Evet, Aspose.BarCode for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+ Cevap2: Evet, Aspose.BarCode for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.BarCode for .NET lisansını nereden satın alabilirim?
 

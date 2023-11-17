@@ -73,7 +73,7 @@ A1 : Oui, Aspose.BarCode pour .NET vous permet de personnaliser le rapport haute
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.BarCode pour .NET ?
 
-A2 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.BarCode pour .NET[ici](https://releases.aspose.com/).
+ A2 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.BarCode pour .NET[ici](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je acheter une licence pour Aspose.BarCode pour .NET ?
 
