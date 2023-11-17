@@ -111,10 +111,10 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext
     // Ställ in X-dimensionen för streckkoden (justera efter behov).
     gen.Parameters.Barcode.XDimension.Pixels = 10;
 
-    //Ställ in DotCode-kodningsläget till ExtendedCodetext.
+    // Ställ in DotCode-kodningsläget till ExtendedCodetext.
     gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
 
-    // Spara den genererade streckkodsbilden.
+    //Spara den genererade streckkodsbilden.
     gen.Save($"{path}DotCodeExtendedCodetext.png", BarCodeImageFormat.Png);
 }
 ```

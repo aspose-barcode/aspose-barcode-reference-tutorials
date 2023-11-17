@@ -21,7 +21,7 @@ Explore el poder de Aspose.BarCode mientras lo guiamos a través de todo el proc
 ## Caracteres de inicio/parada de Codabar
 La historia no termina con sumas de verificación. Aprenda cómo agregar una capa de sofisticación a sus códigos de barras Codabar con caracteres de inicio y fin. Aspose.BarCode para .NET permite a los desarrolladores crear códigos de barras con precisión y nuestro tutorial desglosa el proceso paso a paso.
 
-¿Por qué molestarse con los caracteres de inicio y parada? Desempeñan un papel crucial al señalar el comienzo y el final de los datos de los códigos de barras. Dominar su implementación garantiza que sus códigos de barras Codabar no sólo sean precisos sino que también cumplan con los estándares de la industria.
+¿Por qué molestarse con los caracteres de inicio y fin? Desempeñan un papel crucial al señalar el comienzo y el final de los datos de los códigos de barras. Dominar su implementación garantiza que sus códigos de barras Codabar no sólo sean precisos sino que también cumplan con los estándares de la industria.
 
 En este tutorial, desmitificamos las complejidades que rodean los caracteres de inicio y parada, haciéndolo accesible para desarrolladores de todos los orígenes. Mejore su juego de creación de códigos de barras e impresione a sus usuarios con códigos de barras que no solo funcionan perfectamente sino que también cumplen con las mejores prácticas.
 

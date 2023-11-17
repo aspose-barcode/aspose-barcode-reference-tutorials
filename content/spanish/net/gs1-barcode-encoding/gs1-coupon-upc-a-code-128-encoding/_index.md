@@ -105,7 +105,7 @@ Aspose.BarCode para .NET proporciona una solución versátil y fácil de usar pa
  Sí, Aspose.BarCode para .NET es adecuado tanto para proyectos personales como comerciales. Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
 
 ### P: ¿Hay una prueba gratuita disponible para Aspose.BarCode para .NET?
- Sí, puedes acceder a una versión de prueba gratuita.[aquí](https://releases.aspose.com/). Le permite probar las funciones de la biblioteca antes de realizar una compra.
+Sí, puedes acceder a una versión de prueba gratuita.[aquí](https://releases.aspose.com/). Le permite probar las funciones de la biblioteca antes de realizar una compra.
 
 ### P: ¿Cómo puedo obtener una licencia temporal de Aspose.BarCode para .NET?
  Si necesita una licencia temporal para fines de evaluación o prueba, puede obtener una[aquí](https://purchase.aspose.com/temporary-license/).

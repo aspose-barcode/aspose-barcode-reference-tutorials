@@ -99,4 +99,4 @@ A4：如果您需要临时许可证用于评估或测试目的，您可以从以
 
 ### Q5：Aspose.BarCode for .NET 支持其他条形码类型吗？
 
-A5：是的，Aspose.BarCode for .NET 支持多种条形码类型，包括 QR 码、Code 128、EAN-13 等等。您可以浏览完整的文档[这里](https://reference.aspose.com/barcode/net/)查看支持的条形码类型的完整列表。
+ A5：是的，Aspose.BarCode for .NET 支持多种条形码类型，包括 QR 码、Code 128、EAN-13 等等。您可以浏览完整的文档[这里](https://reference.aspose.com/barcode/net/)查看支持的条形码类型的完整列表。

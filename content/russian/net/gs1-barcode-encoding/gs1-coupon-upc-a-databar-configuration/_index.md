@@ -17,7 +17,7 @@ url: /ru/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 Прежде чем мы погрузимся в мир настройки панели данных GS1 Coupon UPC-A с помощью Aspose.BarCode для .NET, давайте убедимся, что у вас есть необходимые инструменты и знания:
 
 1. Настройка среды:
-   - Убедитесь, что у вас установлен Aspose.BarCode для .NET. Если нет, вы можете скачать его с сайта[Страница Aspose.BarCode для .NET](https://releases.aspose.com/barcode/net/).
+   -  Убедитесь, что у вас установлен Aspose.BarCode для .NET. Если нет, вы можете скачать его с сайта[Страница Aspose.BarCode для .NET](https://releases.aspose.com/barcode/net/).
 
 2. Знание .NET:
    - Знание C# и .NET Framework является обязательным.
@@ -57,7 +57,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Save($"{path}Gs1CouponUpcaDatabar.png", BarCodeImageFormat.Png);
 ```
 
- В этом фрагменте кода мы сначала инициализируем`BarcodeGenerator` объект с типом и данными штрих-кода. Затем мы указываем XDimension (ширину полос штрих-кода) и сохраняем штрих-код в виде PNG-изображения в указанном вами каталоге.
+ В этом фрагменте кода мы сначала инициализируем`BarcodeGenerator`объект с типом и данными штрих-кода. Затем мы указываем XDimension (ширину полос штрих-кода) и сохраняем штрих-код в виде PNG-изображения в указанном вами каталоге.
 
 Поздравляем! Вы успешно создали панель данных купона GS1 UPC-A с помощью Aspose.BarCode для .NET.
 
@@ -75,7 +75,7 @@ Aspose.BarCode для .NET упрощает процесс настройки п
 GS1 Coupon UPC-A Databar — это стандарт штрих-кода, используемый для кодирования данных в купонах и рекламных акциях. Это обеспечивает эффективное и точное отслеживание скидок и предложений.
 
 ### Где я могу скачать Aspose.BarCode для .NET?
- Вы можете скачать Aspose.BarCode для .NET с сайта[страница загрузки](https://releases.aspose.com/barcode/net/).
+Вы можете скачать Aspose.BarCode для .NET с сайта[страница загрузки](https://releases.aspose.com/barcode/net/).
 
 ### Доступна ли бесплатная пробная версия?
  Да, вы можете получить бесплатную пробную версию Aspose.BarCode для .NET на сайте[здесь](https://releases.aspose.com/).

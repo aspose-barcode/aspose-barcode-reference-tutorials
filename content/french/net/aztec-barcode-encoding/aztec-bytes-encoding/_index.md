@@ -53,7 +53,7 @@ byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 
 ## Étape 3 : Encoder le tableau en chaîne
 
- Pour coder le tableau d'octets sous forme de chaîne, nous créons un`StringBuilder` et parcourez les valeurs d'octets, en les convertissant en caractères et en les ajoutant au générateur de chaînes.
+ Pour coder le tableau d'octets sous forme de chaîne, nous créons un`StringBuilder`et parcourez les valeurs d'octets, en les convertissant en caractères et en les ajoutant au générateur de chaînes.
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -96,7 +96,7 @@ Avec ces étapes, vous avez réussi à encoder des données à l’aide d’Azte
 
 Dans ce didacticiel, nous avons appris à effectuer le codage d'octets aztèques à l'aide d'Aspose.BarCode pour .NET. Cette puissante bibliothèque simplifie la génération et la reconnaissance de codes-barres, ce qui en fait un outil précieux pour diverses applications. Que vous ayez besoin d'encoder des données ou de décoder des codes-barres existants, Aspose.BarCode for .NET est là pour vous.
 
- Si vous avez des questions ou rencontrez des problèmes lorsque vous travaillez avec Aspose.BarCode, n'hésitez pas à demander de l'aide sur le[Forum d'assistance Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+Si vous avez des questions ou rencontrez des problèmes lorsque vous travaillez avec Aspose.BarCode, n'hésitez pas à demander de l'aide sur le[Forum d'assistance Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ## FAQ
 

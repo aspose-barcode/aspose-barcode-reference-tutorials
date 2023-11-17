@@ -8,7 +8,7 @@ weight: 20
 url: /es/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
 
-¿Está buscando generar códigos de barras profesionales y personalizables en sus aplicaciones .NET? ¡No busque más! Aspose.BarCode para .NET está aquí para agilizar su proceso de creación de códigos de barras, ofreciendo una multitud de características y opciones de personalización para satisfacer sus necesidades específicas. En este completo tutorial, lo guiaremos a través de los conceptos básicos del uso de Aspose.BarCode para .NET, desde la importación de espacios de nombres hasta la generación de barras rellenas unidimensionales. ¡Empecemos!
+¿Está buscando generar códigos de barras profesionales y personalizables en sus aplicaciones .NET? ¡No busque más! Aspose.BarCode para .NET está aquí para agilizar su proceso de creación de códigos de barras, ofreciendo una multitud de funciones y opciones de personalización para satisfacer sus necesidades específicas. En este completo tutorial, lo guiaremos a través de los conceptos básicos del uso de Aspose.BarCode para .NET, desde la importación de espacios de nombres hasta la generación de barras rellenas unidimensionales. ¡Empecemos!
 
 ## Requisitos previos
 

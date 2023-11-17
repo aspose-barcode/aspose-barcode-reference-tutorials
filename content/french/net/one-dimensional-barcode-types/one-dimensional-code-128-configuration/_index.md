@@ -106,5 +106,5 @@ Bien qu'Aspose.BarCode se concentre principalement sur les codes-barres unidimen
 ### Existe-t-il un essai gratuit disponible ?
  Oui, vous pouvez essayer Aspose.BarCode pour .NET gratuitement en téléchargeant la version d'essai[ici](https://releases.aspose.com/).
 
-### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
+### Où puis-je obtenir de l'assistance pour Aspose.BarCode pour .NET ?
  Vous pouvez demander de l'aide et partager vos expériences sur le forum Aspose.BarCode for .NET.[ici](https://forum.aspose.com/c/barcode/13).

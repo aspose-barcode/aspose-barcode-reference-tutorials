@@ -53,7 +53,7 @@ byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 
 ## Schritt 3: Codieren Sie das Array in einen String
 
- Um das Byte-Array als Zeichenfolge zu kodieren, erstellen wir eine`StringBuilder` und durchlaufen Sie die Bytewerte, konvertieren Sie sie in Zeichen und hängen Sie sie an den String-Builder an.
+ Um das Byte-Array als Zeichenfolge zu kodieren, erstellen wir eine`StringBuilder`und durchlaufen Sie die Bytewerte, konvertieren Sie sie in Zeichen und hängen Sie sie an den String-Builder an.
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -96,7 +96,7 @@ Mit diesen Schritten haben Sie Daten erfolgreich mit Aztec Bytes Encoding mit As
 
 In diesem Tutorial haben wir gelernt, wie man Aztec Bytes Encoding mit Aspose.BarCode für .NET durchführt. Diese leistungsstarke Bibliothek vereinfacht die Barcode-Generierung und -Erkennung und macht sie zu einem wertvollen Werkzeug für verschiedene Anwendungen. Egal, ob Sie Daten kodieren oder vorhandene Barcodes dekodieren müssen, Aspose.BarCode für .NET ist für Sie da.
 
- Wenn Sie bei der Arbeit mit Aspose.BarCode Fragen haben oder auf Probleme stoßen, zögern Sie nicht, Hilfe zu suchen[Aspose.BarCode-Supportforum](https://forum.aspose.com/c/barcode/13).
+Wenn Sie bei der Arbeit mit Aspose.BarCode Fragen haben oder auf Probleme stoßen, zögern Sie nicht, Hilfe zu suchen[Aspose.BarCode-Supportforum](https://forum.aspose.com/c/barcode/13).
 
 ## FAQs
 

@@ -14,7 +14,7 @@ url: /zh/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 
 在我们深入研究代码之前，请确保您具备以下先决条件：
 
-1.  Aspose.BarCode for .NET：您应该安装 Aspose.BarCode for .NET。如果您还没有，您可以从以下位置下载[这里](https://releases.aspose.com/barcode/net/).
+1.  Aspose.BarCode for .NET：您应该安装Aspose.BarCode for .NET。如果您还没有，您可以从以下位置下载[这里](https://releases.aspose.com/barcode/net/).
 
 2. 您的目录路径：替换`"Your Directory Path"`在代码示例中包含要保存生成的条形码图像的实际路径。
 

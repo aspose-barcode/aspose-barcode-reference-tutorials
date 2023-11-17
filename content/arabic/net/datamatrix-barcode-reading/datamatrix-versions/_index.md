@@ -13,7 +13,7 @@ url: /ar/net/datamatrix-barcode-reading/datamatrix-versions/
 
 قبل أن نتعمق في الكود، تأكد من توفر المتطلبات الأساسية التالية:
 - بيئة تطوير بدعم .NET.
-- نسخة من Aspose.BarCode for .NET، والتي يمكنك تنزيلها من[هذا الرابط](https://releases.aspose.com/barcode/net/).
+-  نسخة من Aspose.BarCode for .NET، والتي يمكنك تنزيلها من[هذا الرابط](https://releases.aspose.com/barcode/net/).
 - المعرفة الأساسية بـ C# وإطار عمل .NET.
 
 الآن، دعنا نستكشف إصدارات DataMatrix وكيفية إنشائها باستخدام Aspose.BarCode لـ .NET.

@@ -40,7 +40,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231")
 
 ## Adım 2: Barkod için X Boyutunu Ayarlayın
 
-Boyutu barkod çubuklarının genişliğini temsil eder. X Boyutunu piksel cinsinden şu şekilde ayarlayabilirsiniz:
+X Boyutu barkod çubuklarının genişliğini temsil eder. X Boyutunu piksel cinsinden şu şekilde ayarlayabilirsiniz:
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;

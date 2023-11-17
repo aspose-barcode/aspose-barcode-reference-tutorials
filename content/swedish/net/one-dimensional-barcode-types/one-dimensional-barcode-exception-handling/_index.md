@@ -49,7 +49,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 ## Steg 3: Undantagshantering - Korrigera kodtext
 
- Låt oss utforska undantagshantering i samband med en korrekt kodtext med korrigeringskontroll. Vi kommer att ställa in`ThrowExceptionWhenCodeTextIncorrect` egendom till`true`.
+Låt oss utforska undantagshantering i samband med en korrekt kodtext med korrigeringskontroll. Vi kommer att ställa in`ThrowExceptionWhenCodeTextIncorrect` egendom till`true`.
 
 ```csharp
 gen.CodeText = "12345";

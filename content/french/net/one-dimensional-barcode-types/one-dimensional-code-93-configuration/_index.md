@@ -30,7 +30,7 @@ using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## Étape 1 : Définir le chemin du répertoire
+## Étape 1 : définir le chemin du répertoire
 
 Avant de créer le code-barres Code 93, nous devons spécifier le répertoire dans lequel nous souhaitons enregistrer les images de codes-barres générées. Remplacez « Votre chemin de répertoire » par le chemin d’accès au répertoire souhaité.
 

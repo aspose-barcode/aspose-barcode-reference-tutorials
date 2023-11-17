@@ -81,7 +81,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 }
 ```
 
-在这最后一步中，我们使用`BarCodeReader`从生成的图像中读取条形码。我们指定需要 DataMatrix 条形码。然后代码读取条形码并打印，无论它是否是读取器可编程的。
+在这最后一步中，我们使用`BarCodeReader`从生成的图像中读取条形码。我们指定需要 DataMatrix 条形码。然后代码读取条形码并打印，无论它是否是阅读器可编程的。
 
 现在您已经完全了解了示例的分解。您可以在 .NET 应用程序中实现此代码，以轻松执行 DataMatrix 读取器编程。
 

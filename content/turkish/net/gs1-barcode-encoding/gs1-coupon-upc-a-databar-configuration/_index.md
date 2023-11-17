@@ -17,7 +17,7 @@ url: /tr/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 Aspose.BarCode for .NET ile GS1 Coupon UPC-A Databar yapılandırması dünyasına dalmadan önce, gerekli araçlara ve bilgiye sahip olduğunuzdan emin olalım:
 
 1. Ortam Kurulumu:
-   - Aspose.BarCode for .NET'in kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Aspose.BarCode for .NET sayfası](https://releases.aspose.com/barcode/net/).
+   -  Aspose.BarCode for .NET'in kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Aspose.BarCode for .NET sayfası](https://releases.aspose.com/barcode/net/).
 
 2. .NET Bilgisi:
    - C# ve .NET çerçevesine aşinalık çok önemlidir.
@@ -57,7 +57,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Save($"{path}Gs1CouponUpcaDatabar.png", BarCodeImageFormat.Png);
 ```
 
- Bu kod parçacığında ilk olarak bir başlangıç değeri oluşturuyoruz.`BarcodeGenerator` Barkod türü ve verileri içeren nesne. Daha sonra XDimension'ı (barkod çubuklarının genişliği) belirliyoruz ve barkodu PNG görüntüsü olarak belirlediğiniz dizine kaydediyoruz.
+ Bu kod parçacığında ilk olarak bir başlangıç değeri oluşturuyoruz.`BarcodeGenerator`Barkod türü ve verileri içeren nesne. Daha sonra XDimension'ı (barkod çubuklarının genişliği) belirliyoruz ve barkodu PNG görüntüsü olarak belirlediğiniz dizine kaydediyoruz.
 
 Tebrikler! Aspose.BarCode for .NET'i kullanarak başarılı bir şekilde GS1 Kupon UPC-A Veri Çubuğu oluşturdunuz.
 
@@ -75,7 +75,7 @@ Aspose.BarCode for .NET, GS1 Coupon UPC-A Databar yapılandırma sürecini basit
 GS1 Kupon UPC-A Veri Çubuğu, kuponlar ve promosyonlardaki verileri kodlamak için kullanılan bir barkod standardıdır. İndirim ve tekliflerin etkin ve doğru takibini sağlar.
 
 ### Aspose.BarCode for .NET'i nereden indirebilirim?
- Aspose.BarCode for .NET'i şu adresten indirebilirsiniz:[indirme sayfası](https://releases.aspose.com/barcode/net/).
+Aspose.BarCode for .NET'i şu adresten indirebilirsiniz:[indirme sayfası](https://releases.aspose.com/barcode/net/).
 
 ### Ücretsiz deneme mevcut mu?
  Evet, Aspose.BarCode for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).

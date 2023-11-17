@@ -49,7 +49,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 ## Étape 3 : Gestion des exceptions – Corriger le texte du code
 
- Explorons la gestion des exceptions dans le contexte d'un texte de code correct avec vérification des corrections. Nous fixerons le`ThrowExceptionWhenCodeTextIncorrect` propriété à`true`.
+Explorons la gestion des exceptions dans le contexte d'un texte de code correct avec vérification des corrections. Nous fixerons le`ThrowExceptionWhenCodeTextIncorrect` propriété à`true`.
 
 ```csharp
 gen.CodeText = "12345";

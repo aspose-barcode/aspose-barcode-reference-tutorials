@@ -13,7 +13,7 @@ Si vous recherchez une solution fiable pour générer des codes-barres DataMatri
 
 Avant de plonger dans le code, assurez-vous que les conditions préalables suivantes sont en place :
 - Un environnement de développement avec support .NET.
-- Une copie d'Aspose.BarCode pour .NET, que vous pouvez télécharger à partir de[ce lien](https://releases.aspose.com/barcode/net/).
+-  Une copie d'Aspose.BarCode pour .NET, que vous pouvez télécharger à partir de[ce lien](https://releases.aspose.com/barcode/net/).
 - Connaissance de base de C# et du framework .NET.
 
 Explorons maintenant les versions DataMatrix et comment les générer à l'aide d'Aspose.BarCode pour .NET.

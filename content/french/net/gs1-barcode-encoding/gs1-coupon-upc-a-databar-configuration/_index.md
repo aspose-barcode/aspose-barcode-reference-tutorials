@@ -17,7 +17,7 @@ Cherchez-vous à exploiter la puissance de la configuration de la barre de donn�
 Avant de plonger dans le monde de la configuration de la barre de données GS1 Coupon UPC-A avec Aspose.BarCode pour .NET, assurons-nous que vous disposez des outils et des connaissances nécessaires :
 
 1. Configuration de l'environnement :
-   - Assurez-vous que Aspose.BarCode pour .NET est installé. Sinon, vous pouvez le télécharger depuis le[Page Aspose.BarCode pour .NET](https://releases.aspose.com/barcode/net/).
+   -  Assurez-vous que Aspose.BarCode pour .NET est installé. Sinon, vous pouvez le télécharger depuis le[Page Aspose.BarCode pour .NET](https://releases.aspose.com/barcode/net/).
 
 2. Connaissance .NET :
    - La connaissance de C# et du framework .NET est essentielle.
@@ -57,7 +57,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Save($"{path}Gs1CouponUpcaDatabar.png", BarCodeImageFormat.Png);
 ```
 
- Dans cet extrait de code, nous initialisons d'abord un`BarcodeGenerator` objet avec le type de code-barres et les données. Ensuite, nous spécifions la XDimension (la largeur des barres du code-barres) et enregistrons le code-barres sous forme d'image PNG dans votre répertoire désigné.
+ Dans cet extrait de code, nous initialisons d'abord un`BarcodeGenerator`objet avec le type de code-barres et les données. Ensuite, nous spécifions la XDimension (la largeur des barres du code-barres) et enregistrons le code-barres sous forme d'image PNG dans votre répertoire désigné.
 
 Toutes nos félicitations! Vous avez généré avec succès une barre de données UPC-A de coupon GS1 à l'aide d'Aspose.BarCode pour .NET.
 
@@ -75,7 +75,7 @@ Aspose.BarCode pour .NET simplifie le processus de configuration de la barre de 
 GS1 Coupon UPC-A Databar est une norme de code-barres utilisée pour encoder les données dans les coupons et les promotions. Il garantit un suivi efficace et précis des remises et des offres.
 
 ### Où puis-je télécharger Aspose.BarCode pour .NET ?
- Vous pouvez télécharger Aspose.BarCode pour .NET à partir du[page de téléchargement](https://releases.aspose.com/barcode/net/).
+Vous pouvez télécharger Aspose.BarCode pour .NET à partir du[page de téléchargement](https://releases.aspose.com/barcode/net/).
 
 ### Existe-t-il un essai gratuit disponible ?
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.BarCode pour .NET à partir de[ici](https://releases.aspose.com/).
@@ -83,6 +83,6 @@ GS1 Coupon UPC-A Databar est une norme de code-barres utilisée pour encoder les
 ### Comment puis-je obtenir un permis temporaire ?
  Si vous avez besoin d'une licence temporaire, vous pouvez trouver les détails[ici](https://purchase.aspose.com/temporary-license/).
 
-### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
+### Où puis-je obtenir de l'assistance pour Aspose.BarCode pour .NET ?
  Pour toute assistance technique ou question, vous pouvez visiter le[Forum de support Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
 

@@ -45,7 +45,7 @@ string path = "Your Directory Path";
 
 ## 2. Adım: AztecBytesEncoding'i başlatın
 
- Adı verilen bir bayt dizisini başlatarak başlıyoruz.`encodedArr` bazı örnek bayt değerleriyle.
+ Adı verilen bir bayt dizisini başlatarak başlıyoruz.`encodedArr` bazı örnek bayt değerleri ile.
 
 ```csharp
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
@@ -53,7 +53,7 @@ byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 
 ## Adım 3: Diziyi bir Dizeye Kodlayın
 
- Bayt dizisini bir dize olarak kodlamak için bir oluştururuz.`StringBuilder` ve bayt değerlerini yineleyerek bunları karakterlere dönüştürün ve dize oluşturucuya ekleyin.
+ Bayt dizisini bir dize olarak kodlamak için bir oluştururuz.`StringBuilder`ve bayt değerlerini yineleyerek bunları karakterlere dönüştürün ve dize oluşturucuya ekleyin.
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -96,7 +96,7 @@ Bu adımlarla, Aspose.BarCode for .NET ile Aztek Bayt Kodlama kullanarak veriler
 
 Bu eğitimde Aspose.BarCode for .NET kullanarak Aztek Bayt Kodlamanın nasıl gerçekleştirileceğini öğrendik. Bu güçlü kitaplık, barkod oluşturmayı ve tanımayı basitleştirerek onu çeşitli uygulamalar için değerli bir araç haline getirir. Verileri kodlamanız veya mevcut barkodları çözmeniz gerekip gerekmediği, Aspose.BarCode for .NET ihtiyacınızı karşılar.
 
- Aspose.BarCode ile çalışırken herhangi bir sorunuz olursa veya sorunlarla karşılaşırsanız, şu adreste yardım aramaktan çekinmeyin:[Aspose.BarCode destek forumu](https://forum.aspose.com/c/barcode/13).
+Aspose.BarCode ile çalışırken herhangi bir sorunuz olursa veya sorunlarla karşılaşırsanız, şu adreste yardım aramaktan çekinmeyin:[Aspose.BarCode destek forumu](https://forum.aspose.com/c/barcode/13).
 
 ## SSS'ler
 

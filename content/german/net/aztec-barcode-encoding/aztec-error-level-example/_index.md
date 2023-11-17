@@ -20,9 +20,9 @@ Bevor wir uns mit der Generierung von Aztec-Fehlerbarcodes mit Aspose.BarCode be
 
 Wenn diese Voraussetzungen erfüllt sind, können Sie mit der Generierung von Aztec-Fehlerbarcodes mit Aspose.BarCode für .NET beginnen.
 
-## Namespaces importieren
+## Namensräume importieren
 
- In Ihrem C#-Projekt müssen Sie die erforderlichen Namespaces aus der Aspose.BarCode-Bibliothek importieren. Der einzuschließende primäre Namespace ist`Aspose.BarCode`.
+In Ihrem C#-Projekt müssen Sie die erforderlichen Namespaces aus der Aspose.BarCode-Bibliothek importieren. Der einzuschließende primäre Namespace ist`Aspose.BarCode`.
 
 So können Sie den erforderlichen Namespace importieren:
 

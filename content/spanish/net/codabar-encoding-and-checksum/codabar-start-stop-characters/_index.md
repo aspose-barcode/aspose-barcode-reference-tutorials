@@ -58,7 +58,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 Aquí, hemos configurado la dimensión X en 2 píxeles, pero puedes ajustarla según tus requisitos específicos.
 
-## Paso 3: definir los caracteres de inicio y finalización
+## Paso 3: definir los caracteres de inicio y fin
 
 Los códigos de barras Codabar tienen diferentes símbolos de inicio y finalización, incluidos A, B, C y D. Dependiendo de sus necesidades, puede configurar estos símbolos en consecuencia. Veamos cada caso:
 

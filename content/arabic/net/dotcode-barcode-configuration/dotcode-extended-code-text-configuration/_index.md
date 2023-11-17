@@ -111,10 +111,10 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext
     // قم بتعيين البعد X للرمز الشريطي (اضبطه حسب الحاجة).
     gen.Parameters.Barcode.XDimension.Pixels = 10;
 
-    //اضبط وضع ترميز DotCode على ExtendedCodetext.
+    // اضبط وضع ترميز DotCode على ExtendedCodetext.
     gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
 
-    // احفظ صورة الباركود التي تم إنشاؤها.
+    //احفظ صورة الباركود التي تم إنشاؤها.
     gen.Save($"{path}DotCodeExtendedCodetext.png", BarCodeImageFormat.Png);
 }
 ```

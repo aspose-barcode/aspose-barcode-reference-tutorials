@@ -47,7 +47,7 @@ Se till att ersätta "Din katalogsökväg" med den faktiska sökvägen där du v
 
 ## Steg 2: Initiera streckkodsgeneratorn
 
- Skapa en instans av`BarcodeGenerator` klass för att börja generera streckkoder för patchkoder. Ange streckkodstypen, dvs`EncodeTypes.PatchCode` i det här fallet och en unik kodtext, till exempel "Patch I."
+ Skapa en instans av`BarcodeGenerator` klass för att börja generera streckkoder för patchkoder. Ange streckkodstyp, dvs`EncodeTypes.PatchCode` i det här fallet och en unik kodtext, till exempel "Patch I."
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.PatchCode, "Patch I");
@@ -85,7 +85,7 @@ I den här handledningen har vi utforskat hur man genererar streckkoder för pat
 Aspose.BarCode för .NET är ett kraftfullt bibliotek som låter .NET-utvecklare generera och läsa olika typer av streckkoder, inklusive patchkoder, QR-koder och mer.
 
 ### Var kan jag ladda ner Aspose.BarCode för .NET?
- Du kan ladda ner Aspose.BarCode för .NET från[Aspose hemsida](https://releases.aspose.com/barcode/net/).
+Du kan ladda ner Aspose.BarCode för .NET från[Aspose hemsida](https://releases.aspose.com/barcode/net/).
 
 ### Är Aspose.BarCode för .NET lämplig för dokumenthanteringssystem?
 Ja, Aspose.BarCode för .NET är väl lämpad för dokumenthanteringssystem, eftersom det kan generera streckkoder för patchkoder som används för dokumentidentifiering och organisation.

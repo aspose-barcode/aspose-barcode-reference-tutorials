@@ -20,7 +20,7 @@ Aspose.BarCode for .NET ile barkod dünyasına dalmadan önce aşağıdaki önko
 ### 2. Aspose.BarCode for .NET Kütüphanesi
    -  Aspose.BarCode for .NET kütüphanesinin kurulu olması gerekir. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/barcode/net/).
 
-### 3. Lisans Anahtarı (İsteğe bağlı)
+### 3. Lisans Anahtarı (İsteğe Bağlı)
    -  Lisans anahtarınız varsa kitaplığın ek özelliklerinin kilidini açmak için kullanılabilir. adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 Artık önkoşulları yerine getirdiğinize göre, Aspose.BarCode for .NET'i kullanarak geniş-dar oran konfigürasyonuna sahip tek boyutlu barkodlar oluşturmaya geçelim.

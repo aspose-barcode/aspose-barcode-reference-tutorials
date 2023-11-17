@@ -14,7 +14,7 @@ Se stai cercando una soluzione affidabile per creare codici a barre GS1 DataMatr
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-1.  Aspose.BarCode per .NET: è necessario avere Aspose.BarCode per .NET installato. Se non l'hai già fatto, puoi[scaricalo qui](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode per .NET: è necessario avere Aspose.BarCode per .NET installato. Se non l'hai già fatto, puoi[scaricalo qui](https://releases.aspose.com/barcode/net/).
 
 2. Ambiente di sviluppo: dovresti avere un ambiente di sviluppo .NET configurato sul tuo sistema.
 

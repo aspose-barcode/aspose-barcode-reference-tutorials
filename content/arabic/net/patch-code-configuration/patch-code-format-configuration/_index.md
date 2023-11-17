@@ -85,7 +85,7 @@ gen.Save($"{path}PatchCodeA4WithQR.png", BarCodeImageFormat.Png);
 Aspose.BarCode for .NET هي مكتبة قوية تتيح لمطوري .NET إنشاء وقراءة أنواع مختلفة من الرموز الشريطية، بما في ذلك رموز التصحيح ورموز QR والمزيد.
 
 ### أين يمكنني تنزيل Aspose.BarCode لـ .NET؟
- يمكنك تنزيل Aspose.BarCode لـ .NET من[موقع أسبوز](https://releases.aspose.com/barcode/net/).
+يمكنك تنزيل Aspose.BarCode لـ .NET من[موقع أسبوز](https://releases.aspose.com/barcode/net/).
 
 ### هل Aspose.BarCode for .NET مناسب لأنظمة إدارة المستندات؟
 نعم، يعد Aspose.BarCode for .NET مناسبًا تمامًا لأنظمة إدارة المستندات، حيث يمكنه إنشاء رموز شريطية لرمز التصحيح المستخدمة لتحديد المستندات وتنظيمها.

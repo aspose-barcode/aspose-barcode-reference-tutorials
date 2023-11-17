@@ -19,7 +19,7 @@ Bevor wir in die Welt der ergänzenden Barcode-Daten eintauchen, stellen Sie sic
 - Grundkenntnisse der C#-Programmierung.
 - Ein Verzeichnis, in dem Sie die generierten Barcode-Bilder speichern können.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Stellen Sie zunächst sicher, dass in Ihrem C#-Code die erforderlichen Namespaces für die Arbeit mit Aspose.BarCode für .NET enthalten sind. Importieren Sie die erforderlichen Namespaces am Anfang Ihrer C#-Datei:
 

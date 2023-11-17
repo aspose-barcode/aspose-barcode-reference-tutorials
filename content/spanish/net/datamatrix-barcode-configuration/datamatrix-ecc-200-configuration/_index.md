@@ -72,7 +72,7 @@ Aquí generamos el código de barras y lo guardamos como una imagen PNG. Puede e
 
 En esta guía paso a paso, lo guiamos a través del proceso de configuración de Aspose.BarCode para .NET, importando los espacios de nombres necesarios y generando un código de barras DataMatrix ECC 200. A medida que profundice en el mundo de la generación de códigos de barras, descubrirá infinitas posibilidades para mejorar sus aplicaciones .NET.
 
- Si tiene alguna pregunta o encuentra problemas, no dude en buscar ayuda en el[Foro Aspose.BarCode](https://forum.aspose.com/c/barcode/13). Si es un desarrollador experimentado o recién está comenzando su viaje, Aspose.BarCode para .NET es su herramienta de referencia para todo lo relacionado con códigos de barras.
+ Si tiene alguna pregunta o encuentra algún problema, no dude en buscar ayuda en el[Foro Aspose.BarCode](https://forum.aspose.com/c/barcode/13). Si es un desarrollador experimentado o recién está comenzando su viaje, Aspose.BarCode para .NET es su herramienta de referencia para todo lo relacionado con códigos de barras.
 
 ## Preguntas frecuentes
 

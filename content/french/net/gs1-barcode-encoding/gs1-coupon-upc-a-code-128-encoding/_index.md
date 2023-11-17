@@ -47,7 +47,7 @@ Guide étape par étape - Génération du coupon GGS1 Code à barres UPC-A 128
 
 Explorons le processus étape par étape de génération d'un code-barres GGS1 Coupon UPC-A Code 128 à l'aide d'Aspose.BarCode pour .NET. Dans cet exemple, nous décomposerons le code en étapes gérables pour une compréhension claire.
 
-## Étape 1 : Définir le chemin du répertoire
+## Étape 1 : définir le chemin du répertoire
 
 Commencez par définir le chemin du répertoire dans lequel vous souhaitez enregistrer l'image du code-barres générée.
 
@@ -105,7 +105,7 @@ Aspose.BarCode for .NET fournit une solution polyvalente et conviviale pour tous
  Oui, Aspose.BarCode for .NET convient aux projets personnels et commerciaux. Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
 
 ### Q : Existe-t-il un essai gratuit disponible pour Aspose.BarCode pour .NET ?
- Oui, vous pouvez accéder à une version d'essai gratuite[ici](https://releases.aspose.com/). Il permet de tester les fonctionnalités de la bibliothèque avant de procéder à un achat.
+Oui, vous pouvez accéder à une version d'essai gratuite[ici](https://releases.aspose.com/). Il permet de tester les fonctionnalités de la bibliothèque avant de procéder à un achat.
 
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.BarCode pour .NET ?
  Si vous avez besoin d'une licence temporaire à des fins d'évaluation ou de test, vous pouvez en obtenir une.[ici](https://purchase.aspose.com/temporary-license/).

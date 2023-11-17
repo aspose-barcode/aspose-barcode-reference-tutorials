@@ -54,7 +54,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "犬Righ
 }
 ```
 
-- Bir örneğini oluşturuyoruz`BarcodeGenerator` ve kodlama türünü şu şekilde belirtin:`EncodeTypes.DotCode`.
+-  Bir örneğini oluşturuyoruz`BarcodeGenerator`ve kodlama türünü şu şekilde belirtin:`EncodeTypes.DotCode`.
 -  Yapıcıdaki ikinci parametre kodlamak istediğiniz veridir. Bu örnekte dizeyi kullandık`"犬Right狗"`, ancak bunu verilerinizle değiştirebilirsiniz.
 
 ## 3. Adım: DotCode Parametrelerini Özelleştirin

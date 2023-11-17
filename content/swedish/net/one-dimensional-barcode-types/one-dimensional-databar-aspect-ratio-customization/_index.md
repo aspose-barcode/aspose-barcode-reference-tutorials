@@ -91,7 +91,7 @@ Grattis! Du har framgångsrikt anpassat bildförhållandet för en endimensionel
 
 den här handledningen har vi utforskat hur man anpassar bildförhållandet för en endimensionell datafält med Aspose.BarCode för .NET. Med kraften i anpassning och precision kan du skapa streckkodsdesigner skräddarsydda för dina specifika behov. Oavsett om det är för lagerhantering eller produktmärkning, ger Aspose.BarCode för .NET dig möjlighet att skapa streckkoder med lätthet.
 
- Har du några frågor eller behöver du mer hjälp? Kolla in[dokumentation](https://reference.aspose.com/barcode/net/) eller besöka[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) för support.
+ Har du frågor eller behöver ytterligare hjälp? Kolla in[dokumentation](https://reference.aspose.com/barcode/net/) eller besöka[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) för support.
 
 ## Vanliga frågor
 

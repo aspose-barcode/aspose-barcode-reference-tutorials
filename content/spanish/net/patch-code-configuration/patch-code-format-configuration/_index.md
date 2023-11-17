@@ -85,7 +85,7 @@ En este tutorial, hemos explorado cómo generar códigos de barras de código de
 Aspose.BarCode para .NET es una poderosa biblioteca que permite a los desarrolladores de .NET generar y leer varios tipos de códigos de barras, incluidos códigos de parche, códigos QR y más.
 
 ### ¿Dónde puedo descargar Aspose.BarCode para .NET?
- Puede descargar Aspose.BarCode para .NET desde[Aspose sitio web](https://releases.aspose.com/barcode/net/).
+Puede descargar Aspose.BarCode para .NET desde[Aspose sitio web](https://releases.aspose.com/barcode/net/).
 
 ### ¿Aspose.BarCode para .NET es adecuado para sistemas de gestión de documentos?
 Sí, Aspose.BarCode para .NET es muy adecuado para sistemas de gestión de documentos, ya que puede generar códigos de barras de código de parche utilizados para la identificación y organización de documentos.

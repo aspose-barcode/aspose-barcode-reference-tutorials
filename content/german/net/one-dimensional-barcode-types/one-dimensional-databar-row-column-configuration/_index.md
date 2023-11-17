@@ -28,7 +28,7 @@ Auf Ihrem Computer sollte eine .NET-Entwicklungsumgebung eingerichtet sein. Dazu
 
  Sie benötigen eine gültige Lizenz, um Aspose.BarCode für .NET in Ihren Anwendungen verwenden zu können. Sie können eine Lizenz oder eine temporäre Lizenz erhalten bei[Hier](https://purchase.aspose.com/buy) oder[Hier](https://purchase.aspose.com/temporary-license/).
 
-## Namespaces importieren
+## Namensräume importieren
 
 Um mit Aspose.BarCode für .NET zu beginnen, müssen Sie die erforderlichen Namespaces in Ihr Projekt importieren. Diese Namespaces bieten Zugriff auf die Funktionen zur Barcode-Generierung. Befolgen Sie diese Schritte, um die erforderlichen Namespaces zu importieren:
 

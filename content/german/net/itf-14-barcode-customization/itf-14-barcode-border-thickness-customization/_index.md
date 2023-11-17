@@ -22,7 +22,7 @@ Bevor wir mit dem Anpassungsprozess beginnen, stellen Sie sicher, dass die folge
 
 Nachdem wir nun alle Voraussetzungen erfüllt haben, können wir mit der Anpassung der Randstärke des ITF-14-Barcodes fortfahren.
 
-## Namespaces importieren
+## Namensräume importieren
 
 In diesem ersten Schritt importieren wir die notwendigen Namespaces, um auf die benötigten Klassen und Methoden zuzugreifen.
 

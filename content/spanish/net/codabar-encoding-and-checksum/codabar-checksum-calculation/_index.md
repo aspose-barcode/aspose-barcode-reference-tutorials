@@ -13,7 +13,7 @@ Codabar es una simbología de código de barras popular que se usa ampliamente p
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-1.  Aspose.BarCode para .NET: Debe tener Aspose.BarCode para .NET instalado en su entorno de desarrollo. Si aún no lo has hecho, puedes descargarlo desde[aquí](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode para .NET: Debe tener Aspose.BarCode para .NET instalado en su entorno de desarrollo. Si aún no lo has hecho, puedes descargarlo desde[aquí](https://releases.aspose.com/barcode/net/).
 
 2. Entorno de desarrollo de C#: debe tener un entorno de desarrollo de C# configurado y listo para funcionar.
 
@@ -74,7 +74,7 @@ Con estos pasos, habrá generado con éxito códigos de barras Codabar con difer
 
 En este tutorial, cubrimos los pasos para calcular diferentes tipos de sumas de verificación para códigos de barras Codabar usando Aspose.BarCode para .NET. Estas sumas de verificación desempeñan un papel crucial para garantizar la precisión y confiabilidad de los datos codificados en la simbología Codabar. Si sigue estos pasos y personaliza sus códigos de barras Codabar, podrá cumplir con los requisitos específicos de su aplicación.
 
-Si tiene alguna pregunta o encuentra algún problema, no dude en buscar ayuda de la comunidad Aspose.BarCode en el[Foro Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+ Si tiene alguna pregunta o encuentra algún problema, no dude en buscar ayuda de la comunidad Aspose.BarCode en el[Foro Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ## Preguntas frecuentes
 

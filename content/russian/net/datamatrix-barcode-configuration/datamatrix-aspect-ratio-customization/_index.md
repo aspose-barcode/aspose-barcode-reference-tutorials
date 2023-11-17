@@ -73,7 +73,7 @@ gen.Save($"{path}DataMatrixAspectRatio0.5.png", BarCodeImageFormat.Png);
 
 ### Вопрос 2. Существует ли бесплатная пробная версия Aspose.BarCode для .NET?
 
-О2: Да, вы можете получить доступ к бесплатной пробной версии Aspose.BarCode для .NET.[здесь](https://releases.aspose.com/).
+ О2: Да, вы можете получить доступ к бесплатной пробной версии Aspose.BarCode для .NET.[здесь](https://releases.aspose.com/).
 
 ### Вопрос 3. Где я могу приобрести лицензию на Aspose.BarCode для .NET?
 

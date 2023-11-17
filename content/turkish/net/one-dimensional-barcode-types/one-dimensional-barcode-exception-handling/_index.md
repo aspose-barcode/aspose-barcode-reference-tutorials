@@ -49,7 +49,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 ## 3. Adım: İstisna İşleme - Doğru Kod Metnini
 
- Düzeltme kontrolüyle doğru kod metni bağlamında istisna yönetimini inceleyelim. biz ayarlayacağız`ThrowExceptionWhenCodeTextIncorrect` mülkiyet`true`.
+Düzeltme kontrolüyle doğru kod metni bağlamında istisna yönetimini inceleyelim. biz ayarlayacağız`ThrowExceptionWhenCodeTextIncorrect` mülkiyet`true`.
 
 ```csharp
 gen.CodeText = "12345";

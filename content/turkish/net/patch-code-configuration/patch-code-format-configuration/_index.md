@@ -85,7 +85,7 @@ Bu eğitimde Aspose.BarCode for .NET kullanarak Yama Kodu barkodlarının nasıl
 Aspose.BarCode for .NET, .NET geliştiricilerinin Yama Kodları, QR kodları ve daha fazlasını içeren çeşitli türde barkodlar oluşturmasına ve okumasına olanak tanıyan güçlü bir kitaplıktır.
 
 ### Aspose.BarCode for .NET'i nereden indirebilirim?
- Aspose.BarCode for .NET'i şu adresten indirebilirsiniz:[Web sitesi](https://releases.aspose.com/barcode/net/).
+Aspose.BarCode for .NET'i şu adresten indirebilirsiniz:[Web sitesi](https://releases.aspose.com/barcode/net/).
 
 ### Aspose.BarCode for .NET belge yönetim sistemlerine uygun mu?
 Evet, Aspose.BarCode for .NET belge tanımlama ve düzenleme için kullanılan Yama Kodu barkodlarını oluşturabildiğinden belge yönetim sistemleri için çok uygundur.

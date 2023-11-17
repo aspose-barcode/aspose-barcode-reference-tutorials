@@ -123,7 +123,7 @@ Recuerde, la práctica es clave. Experimente con diferentes tipos de códigos de
 Sí, Aspose.BarCode para .NET es compatible con las últimas versiones de .NET Framework.
 
 ### 4. ¿Puedo personalizar aún más la apariencia de las imágenes de códigos de barras?
-Sí, puede personalizar varios parámetros, como el color, el tamaño y la apariencia del texto, para satisfacer sus necesidades específicas.
+Sí, puedes personalizar varios parámetros, como el color, el tamaño y la apariencia del texto, para satisfacer tus necesidades específicas.
 
 ### 5. ¿Existe una comunidad o foro para el soporte de Aspose.BarCode para .NET?
  Sí, puede buscar soporte y unirse a discusiones en el foro Aspose.BarCode en[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).

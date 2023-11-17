@@ -35,4 +35,20 @@ Estos son enlaces a algunos recursos útiles:
 
 
 
+## Aspose.Barcode para tutoriales de Java
+{{% alert color="primary" %}}
+ Sumérgete en el mundo dinámico de la codificación Java con tutoriales completos y ejemplos de Aspose.BarCode para Java. Si es un desarrollador experimentado que busca mejorar sus habilidades o un recién llegado ansioso por explorar el ámbito de la integración de códigos de barras, esta serie de tutoriales ofrece una guía integral. Desde lo fundamental[Conceptos básicos de códigos de barras](./java/barcode-basics/) a temas avanzados como[Configuración avanzada y optimización](./java/advanced-settings-and-optimization/), cada tutorial está diseñado para brindarle el conocimiento necesario para una perfecta integración, personalización y reconocimiento de códigos de barras en aplicaciones Java. Mejore su viaje de codificación y libere el vasto potencial de Aspose.BarCode, dominando el arte de la manipulación de códigos de barras con orientación paso a paso y ejemplos prácticos.
+{{% /alert %}}
 
+Estos son enlaces a algunos recursos útiles:
+
+- [Conceptos básicos de códigos de barras](./java/barcode-basics/)
+- [Reconocimiento de códigos de barras de documentos](./java/document-barcode-recognition/)
+- [Soporte multilingüe](./java/multilingual-support/)
+- [Suma de comprobación y validación](./java/checksum-and-validation/)
+- [Configuración de código de barras](./java/barcode-configuration/)
+- [Texto y estilo](./java/text-and-styling/)
+- [Simbología y formato](./java/symbology-and-format/)
+- [Manipulación de imagen](./java/image-manipulation/)
+- [Técnicas de representación de códigos de barras](./java/barcode-rendering-techniques/)
+- [Configuración avanzada y optimización](./java/advanced-settings-and-optimization/)

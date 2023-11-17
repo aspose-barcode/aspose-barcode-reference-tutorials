@@ -60,7 +60,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
- Aquí creamos un`BarcodeGenerator` instancia y especificar que queremos generar un código de barras DataMatrix. También fijamos el`XDimension` (ancho de las barras del código de barras) a 4 píxeles. El paso clave aquí es establecer el`IsReaderProgramming` bandera a`true`lo que indica que los datos están codificados para la programación del lector.
+ Aquí creamos un`BarcodeGenerator` instancia y especificar que queremos generar un código de barras DataMatrix. También fijamos el`XDimension` (ancho de las barras del código de barras) a 4 píxeles. El paso clave aquí es establecer el`IsReaderProgramming` bandera a`true`, lo que indica que los datos están codificados para la programación del lector.
 
 ## Paso 3: generar imagen de código de barras
 

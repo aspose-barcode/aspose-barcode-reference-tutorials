@@ -13,7 +13,7 @@ Codabar 是一种流行的条形码符号系统，广泛用于各种应用。 Co
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
-1.  Aspose.BarCode for .NET：您需要在开发环境中安装Aspose.BarCode for .NET。如果您还没有，您可以从以下位置下载[这里](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET：您需要在开发环境中安装Aspose.BarCode for .NET。如果您还没有，您可以从以下位置下载[这里](https://releases.aspose.com/barcode/net/).
 
 2. C# 开发环境：您应该已设置并准备好 C# 开发环境。
 

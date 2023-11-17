@@ -24,7 +24,7 @@ Bevor Sie mit Aspose.BarCode für .NET in die Welt der Barcode-Generierung einta
 
 3. Grundlegende C#-Kenntnisse: Vertrautheit mit der Programmiersprache C# ist ein Muss, da Sie Code zum Generieren von Barcodes schreiben.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Nachdem Sie nun die Voraussetzungen erfüllt haben, ist es an der Zeit, die notwendigen Namespaces für die Arbeit mit Aspose.BarCode für .NET zu verstehen.
 
@@ -105,7 +105,7 @@ Aspose.BarCode für .NET bietet eine vielseitige und benutzerfreundliche Lösung
  Ja, Aspose.BarCode für .NET eignet sich sowohl für private als auch für kommerzielle Projekte. Sie können eine Lizenz erwerben[Hier](https://purchase.aspose.com/buy).
 
 ### F: Gibt es eine kostenlose Testversion für Aspose.BarCode für .NET?
- Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/). Damit können Sie die Funktionen der Bibliothek testen, bevor Sie einen Kauf tätigen.
+Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/). Damit können Sie die Funktionen der Bibliothek testen, bevor Sie einen Kauf tätigen.
 
 ### F: Wie kann ich eine temporäre Lizenz für Aspose.BarCode für .NET erhalten?
  Wenn Sie zu Evaluierungs- oder Testzwecken eine temporäre Lizenz benötigen, können Sie eine erwerben[Hier](https://purchase.aspose.com/temporary-license/).

@@ -23,7 +23,7 @@ Bevor Sie in den DotCode-Kodierungsmodus (Auto) eintauchen, stellen Sie sicher, 
 
 Nachdem Sie nun die Voraussetzungen geschaffen haben, tauchen wir ein in die Welt des DotCode-Kodierungsmodus.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Um mit Aspose.BarCode für .NET arbeiten zu können, müssen Sie die erforderlichen Namespaces importieren. So können Sie es machen:
 
@@ -54,7 +54,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "犬Righ
 }
 ```
 
-- Wir erstellen eine Instanz von`BarcodeGenerator` und geben Sie den Codierungstyp als an`EncodeTypes.DotCode`.
+-  Wir erstellen eine Instanz von`BarcodeGenerator`und geben Sie den Codierungstyp als an`EncodeTypes.DotCode`.
 -  Der zweite Parameter im Konstruktor sind die Daten, die Sie kodieren möchten. In diesem Beispiel haben wir die Zeichenfolge verwendet`"犬Right狗"`, aber Sie können es durch Ihre Daten ersetzen.
 
 ## Schritt 3: Passen Sie die DotCode-Parameter an

@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /de/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
-Wenn Sie als Entwickler die strukturierte Append-Konfiguration von DataMatrix in Ihren .NET-Anwendungen implementieren möchten, ist Aspose.BarCode für .NET Ihre Lösung der Wahl. In dieser Schritt-für-Schritt-Anleitung erkunden wir die Besonderheiten der Verwendung dieser leistungsstarken Bibliothek zum Generieren und Lesen strukturierter DataMatrix-Barcodes. Wir unterteilen jedes Beispiel in mehrere leicht verständliche Schritte, um sicherzustellen, dass Sie die Konzepte gründlich verstehen. Am Ende dieses Tutorials sind Sie in der Lage, Aspose.BarCode für .NET zu verwenden, um effektiv mit strukturierten DataMatrix-Anhangkonfigurationen zu arbeiten.
+Wenn Sie als Entwickler die strukturierte DataMatrix-Append-Konfiguration in Ihren .NET-Anwendungen implementieren möchten, ist Aspose.BarCode für .NET Ihre Lösung der Wahl. In dieser Schritt-für-Schritt-Anleitung erkunden wir die Besonderheiten der Verwendung dieser leistungsstarken Bibliothek zum Generieren und Lesen strukturierter DataMatrix-Barcodes. Wir unterteilen jedes Beispiel in mehrere leicht verständliche Schritte, um sicherzustellen, dass Sie die Konzepte gründlich verstehen. Am Ende dieses Tutorials sind Sie in der Lage, Aspose.BarCode für .NET zu verwenden, um effektiv mit strukturierten DataMatrix-Anhangkonfigurationen zu arbeiten.
 
 ## Voraussetzungen
 
@@ -99,4 +99,4 @@ A1: Das strukturierte Anhängen von DataMatrix ist eine Funktion, mit der Sie ei
 
 ### F5: Unterstützt Aspose.BarCode für .NET andere Barcode-Typen?
 
-A5: Ja, Aspose.BarCode für .NET unterstützt eine Vielzahl von Barcode-Typen, darunter QR-Codes, Code 128, EAN-13 und viele mehr. Sie können die vollständige Dokumentation durchsuchen[Hier](https://reference.aspose.com/barcode/net/) um die vollständige Liste der unterstützten Barcode-Typen anzuzeigen.
+ A5: Ja, Aspose.BarCode für .NET unterstützt eine Vielzahl von Barcode-Typen, darunter QR-Codes, Code 128, EAN-13 und viele mehr. Sie können die vollständige Dokumentation durchsuchen[Hier](https://reference.aspose.com/barcode/net/) um die vollständige Liste der unterstützten Barcode-Typen anzuzeigen.

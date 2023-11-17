@@ -14,7 +14,7 @@ Si vous recherchez une solution fiable pour créer des codes-barres GS1 DataMatr
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1.  Aspose.BarCode pour .NET : Vous devez avoir installé Aspose.BarCode pour .NET. Si ce n'est pas déjà fait, vous pouvez[Télécharger les ici](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode pour .NET : Vous devez avoir installé Aspose.BarCode pour .NET. Si ce n'est pas déjà fait, vous pouvez[Télécharger les ici](https://releases.aspose.com/barcode/net/).
 
 2. Environnement de développement : vous devez disposer d'un environnement de développement .NET configuré sur votre système.
 
@@ -79,7 +79,7 @@ Oui, Aspose.BarCode for .NET vous permet d'enregistrer les codes-barres génér�
 ### Ai-je besoin d’une licence pour utiliser Aspose.BarCode pour .NET ?
  Oui, une licence valide est requise pour une utilisation commerciale d’Aspose.BarCode pour .NET. Vous pouvez obtenir une licence auprès du[Site Aspose](https://purchase.aspose.com/buy).
 
-### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
+### Où puis-je obtenir de l'assistance pour Aspose.BarCode pour .NET ?
  Vous pouvez trouver des réponses à vos questions et demander de l'aide dans le[Forum Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
 
 ## Conclusion

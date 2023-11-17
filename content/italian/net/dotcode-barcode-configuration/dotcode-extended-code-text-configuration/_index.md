@@ -111,10 +111,10 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext
     // Imposta la dimensione X del codice a barre (regolala secondo necessità).
     gen.Parameters.Barcode.XDimension.Pixels = 10;
 
-    //Imposta la modalità di codifica DotCode su ExtendedCodetext.
+    // Imposta la modalità di codifica DotCode su ExtendedCodetext.
     gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
 
-    // Salva l'immagine del codice a barre generata.
+    //Salva l'immagine del codice a barre generata.
     gen.Save($"{path}DotCodeExtendedCodetext.png", BarCodeImageFormat.Png);
 }
 ```

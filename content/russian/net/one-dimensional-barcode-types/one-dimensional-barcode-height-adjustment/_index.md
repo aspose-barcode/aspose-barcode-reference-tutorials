@@ -15,7 +15,7 @@ url: /ru/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjust
 Прежде чем начать, убедитесь, что у вас есть следующие предварительные условия:
 
 - Среда разработки с .NET Framework или .NET Core.
--  Aspose.BarCode для .NET установлен. Вы можете скачать его с сайта[здесь](https://releases.aspose.com/barcode/net/).
+-  Установлен Aspose.BarCode для .NET. Вы можете скачать его с сайта[здесь](https://releases.aspose.com/barcode/net/).
 - Редактор кода на ваш выбор.
 
 Теперь, когда у нас есть все необходимые условия, давайте углубимся в процесс настройки высоты одномерного штрих-кода.

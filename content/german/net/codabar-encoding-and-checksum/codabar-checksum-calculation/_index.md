@@ -13,7 +13,7 @@ Codabar ist eine beliebte Barcode-Symbologie, die häufig für verschiedene Anwe
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.BarCode für .NET: Sie müssen Aspose.BarCode für .NET in Ihrer Entwicklungsumgebung installiert haben. Wenn Sie es noch nicht getan haben, können Sie es hier herunterladen[Hier](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode für .NET: Sie müssen Aspose.BarCode für .NET in Ihrer Entwicklungsumgebung installiert haben. Wenn Sie es noch nicht getan haben, können Sie es hier herunterladen[Hier](https://releases.aspose.com/barcode/net/).
 
 2. C#-Entwicklungsumgebung: Sie sollten eine C#-Entwicklungsumgebung eingerichtet und einsatzbereit haben.
 
@@ -74,7 +74,7 @@ Mit diesen Schritten haben Sie mit Aspose.BarCode für .NET erfolgreich Codabar-
 
 In diesem Tutorial haben wir die Schritte zum Berechnen verschiedener Arten von Prüfsummen für Codabar-Barcodes mit Aspose.BarCode für .NET behandelt. Diese Prüfsummen spielen eine entscheidende Rolle bei der Gewährleistung der Genauigkeit und Zuverlässigkeit der codierten Daten in der Codabar-Symbologie. Indem Sie diese Schritte befolgen und Ihre Codabar-Barcodes individuell anpassen, können Sie die spezifischen Anforderungen Ihrer Anwendung erfüllen.
 
-Wenn Sie Fragen haben oder auf Probleme stoßen, wenden Sie sich bitte an die Aspose.BarCode-Community unter[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13).
+ Wenn Sie Fragen haben oder auf Probleme stoßen, wenden Sie sich bitte an die Aspose.BarCode-Community unter[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13).
 
 ## FAQs
 

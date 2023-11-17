@@ -49,7 +49,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 ## Schritt 3: Ausnahmebehandlung – Korrigieren Sie den Codetext
 
- Lassen Sie uns die Ausnahmebehandlung im Kontext eines korrekten Codetexts mit Korrekturprüfung untersuchen. Wir werden das einstellen`ThrowExceptionWhenCodeTextIncorrect` Eigentum zu`true`.
+Lassen Sie uns die Ausnahmebehandlung im Kontext eines korrekten Codetexts mit Korrekturprüfung untersuchen. Wir werden das einstellen`ThrowExceptionWhenCodeTextIncorrect` Eigentum zu`true`.
 
 ```csharp
 gen.CodeText = "12345";

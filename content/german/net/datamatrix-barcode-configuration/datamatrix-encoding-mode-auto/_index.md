@@ -19,7 +19,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Vora
 
 Wenn diese Voraussetzungen erfüllt sind, können Sie mit der Generierung des DataMatrix-Modus (Auto) beginnen.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Importieren Sie zunächst die erforderlichen Namespaces in Ihren C#-Code, um die Aspose.BarCode-Bibliothek zugänglich zu machen:
 

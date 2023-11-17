@@ -28,7 +28,7 @@ url: /ru/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuratio
 
 В вашем проекте C# вам необходимо импортировать необходимые пространства имен для работы с Aspose.BarCode для .NET. Вот как это сделать:
 
-### Шаг 1. Импортируйте пространства имен
+### Шаг 1. Импортируйте пространства имен
 
 ```csharp
 using Aspose.BarCode;

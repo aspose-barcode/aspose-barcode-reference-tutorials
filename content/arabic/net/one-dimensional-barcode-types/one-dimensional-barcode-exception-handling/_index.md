@@ -49,7 +49,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 ## الخطوة 3: معالجة الاستثناءات - نص الكود الصحيح
 
- دعنا نستكشف معالجة الاستثناءات في سياق نص التعليمات البرمجية الصحيح مع التحقق من التصحيح. سوف نقوم بتعيين`ThrowExceptionWhenCodeTextIncorrect` الملكية ل`true`.
+دعنا نستكشف معالجة الاستثناءات في سياق نص التعليمات البرمجية الصحيح مع التحقق من التصحيح. سوف نقوم بتعيين`ThrowExceptionWhenCodeTextIncorrect` الملكية ل`true`.
 
 ```csharp
 gen.CodeText = "12345";

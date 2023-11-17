@@ -107,4 +107,4 @@ A4：您可以通过将 Aspose.BarCode for .NET 合并到您的代码中来在 W
 
 ### Q5：哪里可以获得 Aspose.BarCode for .NET 的临时许可证？
 
- A5：如果您需要临时许可证用于测试或评估目的，您可以从以下位置获取临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+A5：如果您需要临时许可证用于测试或评估目的，您可以从以下位置获取临时许可证：[这里](https://purchase.aspose.com/temporary-license/).

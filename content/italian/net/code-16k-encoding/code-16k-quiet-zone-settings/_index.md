@@ -33,7 +33,7 @@ using Aspose.BarCode.Generation;
 
 Ora che ci siamo occupati degli spazi dei nomi, suddividiamo il tutorial principale in più passaggi.
 
-## Passaggio 1: inizializza l'ambiente
+## Passaggio 1: inizializza il tuo ambiente
 
 Il primo passaggio prevede la configurazione dell'ambiente per funzionare con Aspose.BarCode per .NET. Assicurati di avere la libreria Aspose.BarCode correttamente referenziata nel tuo progetto.
 

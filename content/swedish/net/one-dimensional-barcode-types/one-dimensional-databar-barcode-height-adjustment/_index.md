@@ -83,7 +83,7 @@ Nu är du väl rustad att finjustera streckkodsegenskaperna och se till att de u
 Ja, du kan ändra X-Dimension, vilket påverkar bredden på staplarna. Se steg 3 i denna handledning för detaljer.
 
 ### Finns det andra streckkodstyper jag kan arbeta med i Aspose.BarCode för .NET?
-Absolut, Aspose.BarCode för .NET stöder ett brett utbud av streckkodstyper, inklusive QR-koder, UPC-A, Code 12 och många fler. Se dokumentationen för en fullständig lista.
+Absolut, Aspose.BarCode för .NET stöder ett brett utbud av streckkodstyper, inklusive QR-koder, UPC-A, Code 12 och många fler. Se dokumentationen för en komplett lista.
 
 ### Hur kan jag generera streckkoder i olika format, som SVG eller JPEG?
  Aspose.BarCode för .NET ger alternativ för att spara streckkoder i olika format, inklusive PNG, JPEG, SVG och mer. Du kan ange önskat format i`gen.Save()` metod.

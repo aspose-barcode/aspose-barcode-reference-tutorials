@@ -22,7 +22,7 @@ Med dessa förutsättningar på plats är du redo att börja generera Aztec-fels
 
 ## Importera namnområden
 
- I ditt C#-projekt måste du importera de nödvändiga namnrymden från Aspose.BarCode-biblioteket. Det primära namnområdet som ska inkluderas är`Aspose.BarCode`.
+ ditt C#-projekt måste du importera de nödvändiga namnrymden från Aspose.BarCode-biblioteket. Det primära namnområdet som ska inkluderas är`Aspose.BarCode`.
 
 Så här kan du importera det nödvändiga namnutrymmet:
 

@@ -13,7 +13,7 @@ Om du letar efter en pålitlig lösning för att generera DataMatrix-streckkoder
 
 Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
 - En utvecklingsmiljö med .NET-stöd.
-- En kopia av Aspose.BarCode för .NET, som du kan ladda ner från[den här länken](https://releases.aspose.com/barcode/net/).
+-  En kopia av Aspose.BarCode för .NET, som du kan ladda ner från[den här länken](https://releases.aspose.com/barcode/net/).
 - Grundläggande kunskaper i C# och .NET-ramverket.
 
 Låt oss nu utforska DataMatrix-versionerna och hur man genererar dem med Aspose.BarCode för .NET.

@@ -15,7 +15,7 @@ url: /es/net/aztec-barcode-encoding/aztec-code-text-encoding/
 
 Antes de embarcarnos en este emocionante viaje, deberá cumplir algunos requisitos previos:
 
-1.  Aspose.BarCode para .NET: asegúrese de haber instalado esta potente biblioteca. Puedes encontrar la documentación en[Documentación de Aspose.BarCode para .NET](https://reference.aspose.com/barcode/net/).
+1.  Aspose.BarCode para .NET: asegúrese de haber instalado esta poderosa biblioteca. Puedes encontrar la documentación en[Documentación de Aspose.BarCode para .NET](https://reference.aspose.com/barcode/net/).
 
 2. Visual Studio: debe tener Visual Studio instalado en su sistema para crear y ejecutar sus aplicaciones .NET.
 

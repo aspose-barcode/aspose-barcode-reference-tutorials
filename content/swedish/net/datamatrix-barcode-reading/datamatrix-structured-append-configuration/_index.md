@@ -99,4 +99,4 @@ S1: DataMatrix strukturerad append är en funktion som låter dig dela upp en st
 
 ### F5: Stöder Aspose.BarCode for .NET andra streckkodstyper?
 
-S5: Ja, Aspose.BarCode för .NET stöder ett brett utbud av streckkodstyper, inklusive QR-koder, kod 128, EAN-13 och många fler. Du kan utforska hela dokumentationen[här](https://reference.aspose.com/barcode/net/) för att se hela listan över streckkodstyper som stöds.
+ S5: Ja, Aspose.BarCode för .NET stöder ett brett utbud av streckkodstyper, inklusive QR-koder, kod 128, EAN-13 och många fler. Du kan utforska hela dokumentationen[här](https://reference.aspose.com/barcode/net/) för att se hela listan över streckkodstyper som stöds.

@@ -95,7 +95,7 @@ A1 : Le code-barres Aztec est couramment utilisé pour encoder des données dans
 
 ### Q2 : Puis-je personnaliser les données codées dans un code-barres aztèque ?
 
-A2 : Oui, vous pouvez personnaliser les données codées dans un code-barres aztèque, vous permettant de stocker des informations telles que du texte, des URL, etc.
+A2 : Oui, vous pouvez personnaliser les données codées dans un code-barres aztèque, vous permettant de stocker des informations telles que du texte, des URL, etc.
 
 ### Q3 : Aspose.BarCode pour .NET est-il compatible avec différentes versions de .NET ?
 
@@ -107,4 +107,4 @@ A4 : Vous pouvez utiliser Aspose.BarCode pour .NET dans des applications Web en
 
 ### Q5 : Où puis-je obtenir une licence temporaire pour Aspose.BarCode pour .NET ?
 
- A5 : Si vous avez besoin d'une licence temporaire à des fins de test ou d'évaluation, vous pouvez en obtenir une auprès de[ici](https://purchase.aspose.com/temporary-license/).
+A5 : Si vous avez besoin d'une licence temporaire à des fins de test ou d'évaluation, vous pouvez en obtenir une auprès de[ici](https://purchase.aspose.com/temporary-license/).

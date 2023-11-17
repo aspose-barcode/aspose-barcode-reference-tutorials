@@ -52,7 +52,7 @@ string path = "Your Directory Path";
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
 ```
 
-koden ovan har vi skapat en ITF-14 streckkod med data "12345678901231." Du kan ersätta denna data med din egen.
+I koden ovan har vi skapat en ITF-14 streckkod med data "12345678901231." Du kan ersätta denna data med din egen.
 
 ### Steg 4: Ställa in X-Dimension
 

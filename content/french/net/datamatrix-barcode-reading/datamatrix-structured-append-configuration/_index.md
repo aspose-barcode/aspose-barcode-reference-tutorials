@@ -99,4 +99,4 @@ A1 : L'ajout structuré DataMatrix est une fonctionnalité qui vous permet de 
 
 ### Q5 : Aspose.BarCode for .NET prend-il en charge d'autres types de codes-barres ?
 
-A5 : Oui, Aspose.BarCode for .NET prend en charge un large éventail de types de codes-barres, notamment les codes QR, le code 128, l'EAN-13 et bien d'autres. Vous pouvez explorer la documentation complète[ici](https://reference.aspose.com/barcode/net/) pour voir la liste complète des types de codes-barres pris en charge.
+ A5 : Oui, Aspose.BarCode for .NET prend en charge un large éventail de types de codes-barres, notamment les codes QR, le code 128, l'EAN-13 et bien d'autres. Vous pouvez explorer la documentation complète[ici](https://reference.aspose.com/barcode/net/) pour voir la liste complète des types de codes-barres pris en charge.

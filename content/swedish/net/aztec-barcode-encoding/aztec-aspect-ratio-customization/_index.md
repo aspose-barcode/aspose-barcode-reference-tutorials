@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /sv/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
-I den här handledningen kommer vi att fördjupa oss i att anpassa bildförhållandet för aztekiska streckkoder med Aspose.BarCode för .NET. Aztec streckkoder är tvådimensionella streckkoder som vanligtvis används för att koda data, och med Aspose.BarCode kan du enkelt skapa och anpassa dessa streckkoder för att passa dina specifika krav.
+den här handledningen kommer vi att fördjupa oss i att anpassa bildförhållandet för aztekiska streckkoder med Aspose.BarCode för .NET. Aztec streckkoder är tvådimensionella streckkoder som vanligtvis används för att koda data, och med Aspose.BarCode kan du enkelt skapa och anpassa dessa streckkoder för att passa dina specifika krav.
 
 ## Förutsättningar
 
@@ -107,4 +107,4 @@ S4: Du kan använda Aspose.BarCode för .NET i webbapplikationer genom att infog
 
 ### F5: Var kan jag få en tillfällig licens för Aspose.BarCode för .NET?
 
- S5: Om du behöver en tillfällig licens för test- eller utvärderingsändamål kan du få en från[här](https://purchase.aspose.com/temporary-license/).
+S5: Om du behöver en tillfällig licens för test- eller utvärderingsändamål kan du få en från[här](https://purchase.aspose.com/temporary-license/).

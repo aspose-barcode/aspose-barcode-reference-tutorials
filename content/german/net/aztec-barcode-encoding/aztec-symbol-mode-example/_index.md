@@ -19,7 +19,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 
 Nachdem Sie nun fertig sind, tauchen wir ein in die Beispiele für den Azteken-Symbolmodus.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Zunächst müssen Sie die erforderlichen Namespaces importieren, um mit Aspose.BarCode für .NET arbeiten zu können. Öffnen Sie Ihr Visual Studio-Projekt und fügen Sie oben in Ihrer Codedatei die folgenden using-Anweisungen hinzu:
 

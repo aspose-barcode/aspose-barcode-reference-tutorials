@@ -43,7 +43,7 @@ En su archivo de código C#, incluya el espacio de nombres Aspose.BarCode para a
 using Aspose.BarCode.Generation;
 ```
 
-Ahora, entremos en el corazón de la configuración del modo de adición estructurada de DotCode. Dividiremos el proceso en varios pasos para que sea más fácil de comprender.
+Ahora, entremos en el corazón de la configuración del modo de adición estructurada de DotCode. Dividiremos el proceso en varios pasos para que sea más fácil de entender.
 
 ## Paso 1: definir la ruta del directorio
 

@@ -66,7 +66,7 @@ Generera anpassade DotCode streckkoder utan ansträngning med Aspose.BarCode fö
 Utforska de enorma funktionerna hos Aspose.BarCode för .NET genom våra tutorials, så att du kan bli skicklig i streckkodsgenerering och anpassning. Förbättra dina färdigheter och skapa exakta, pålitliga streckkoder för olika applikationer.
 ## Aspose.BarCode för .NET Tutorials
 ### [Codabar-kodning och kontrollsumma](./codabar-encoding-and-checksum/)
-Optimera Codabar-streckkoder i .NET med Aspose.BarCode! Masterkontrollsummaberäkning för exakta data. Skapa enkelt med start/stopp-tecken med våra handledningar.
+Optimera Codabar-streckkoder i .NET med Aspose.BarCode! Huvudkontrollsummaberäkning för exakta data. Skapa enkelt med start/stopp-tecken med våra handledningar.
 ### [Kodablock F-kodning](./codablock-f-encoding/)
 Lås upp Codablock F-kodningens potential med Aspose.BarCode för .NET. Anpassa bildförhållandet, konfigurera rader och kolumner för exakta 2D-streckkoder.
 ### [Kod 16K-kodning](./code-16k-encoding/)

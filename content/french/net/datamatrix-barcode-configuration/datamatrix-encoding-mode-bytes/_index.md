@@ -102,7 +102,7 @@ Dans ce didacticiel, nous avons expliqué comment utiliser Aspose.BarCode pour .
 
 ## FAQ
 
-### Q1 : Qu'est-ce que le mode d'encodage DataMatrix ?
+### Q1 : Qu'est-ce que le mode d'encodage DataMatrix ?
 
 A1 : Le mode de codage DataMatrix est une méthode utilisée pour coder les données dans un format de code-barres 2D. Il propose diverses options de codage, notamment le mode Octets, adapté au codage de données binaires.
 

@@ -10,14 +10,14 @@ url: /ar/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 
 ## مقدمة
 
-هل تتطلع إلى الاستفادة من قوة تكوين GS1 Coupon UPC-A Databar في تطبيقات .NET الخاصة بك؟ أنت في المكان الصحيح. Aspose.BarCode for .NET هو رفيقك الموثوق به لإنشاء الرموز الشريطية بسهولة. في هذا الدليل الشامل، سنرشدك خلال خطوات إنشاء رموز شريطية لشريط بيانات GS1 Coupon UPC-A، وإزالة الغموض عن العملية والتأكد من إمكانية دمج هذه الوظيفة بسلاسة في مشاريعك.
+هل تتطلع إلى الاستفادة من قوة تكوين GS1 Coupon UPC-A Databar في تطبيقات .NET الخاصة بك؟ أنت في المكان الصحيح. Aspose.BarCode for .NET هو رفيقك الموثوق به لإنشاء الرموز الشريطية بسهولة. في هذا الدليل الشامل، سنرشدك عبر خطوات إنشاء رموز شريطية لشريط بيانات GS1 Coupon UPC-A، وإزالة الغموض عن العملية والتأكد من إمكانية دمج هذه الوظيفة بسلاسة في مشاريعك.
 
 ## المتطلبات الأساسية
 
 قبل أن نتعمق في عالم تكوين GS1 Coupon UPC-A Databar باستخدام Aspose.BarCode لـ .NET، دعنا نتأكد من أن لديك الأدوات والمعرفة اللازمة:
 
 1. إعداد البيئة:
-   - تأكد من تثبيت Aspose.BarCode لـ .NET. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[Aspose.BarCode لصفحة .NET](https://releases.aspose.com/barcode/net/).
+   -  تأكد من تثبيت Aspose.BarCode لـ .NET. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[Aspose.BarCode لصفحة .NET](https://releases.aspose.com/barcode/net/).
 
 2. المعرفة الصافية:
    - يعد الإلمام بـ C# وإطار عمل .NET أمرًا ضروريًا.
@@ -57,7 +57,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Save($"{path}Gs1CouponUpcaDatabar.png", BarCodeImageFormat.Png);
 ```
 
- في مقتطف التعليمات البرمجية هذا، نقوم أولاً بتهيئة ملف`BarcodeGenerator` كائن مع نوع الباركود والبيانات. بعد ذلك، نحدد XDimension (عرض أشرطة الباركود) ونحفظ الباركود كصورة PNG في الدليل المخصص لك.
+ في مقتطف التعليمات البرمجية هذا، نقوم أولاً بتهيئة ملف`BarcodeGenerator`كائن مع نوع الباركود والبيانات. بعد ذلك، نحدد XDimension (عرض أشرطة الباركود) ونحفظ الباركود كصورة PNG في الدليل المخصص لك.
 
 تهانينا! لقد نجحت في إنشاء شريط بيانات GS1 Coupon UPC-A باستخدام Aspose.BarCode لـ .NET.
 
@@ -75,7 +75,7 @@ gen.Save($"{path}Gs1CouponUpcaDatabar.png", BarCodeImageFormat.Png);
 GS1 Coupon UPC-A Databar هو معيار للرمز الشريطي يستخدم لتشفير البيانات في القسائم والعروض الترويجية. ويضمن تتبع فعال ودقيق للخصومات والعروض.
 
 ### أين يمكنني تنزيل Aspose.BarCode لـ .NET؟
- يمكنك تنزيل Aspose.BarCode لـ .NET من[صفحة التحميل](https://releases.aspose.com/barcode/net/).
+يمكنك تنزيل Aspose.BarCode لـ .NET من[صفحة التحميل](https://releases.aspose.com/barcode/net/).
 
 ### هل هناك نسخة تجريبية مجانية متاحة؟
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.BarCode لـ .NET من[هنا](https://releases.aspose.com/).

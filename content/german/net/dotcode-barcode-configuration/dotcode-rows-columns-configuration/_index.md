@@ -82,7 +82,7 @@ gen.Parameters.Barcode.DotCode.Rows = 26;
 gen.Save($"{path}DotCodeRows26Columns29.png", BarCodeImageFormat.Png);
 ```
 
-Glückwunsch! Sie haben DotCode-Zeilen und -Spalten erfolgreich mit Aspose.BarCode für .NET konfiguriert. Entdecken Sie gerne weitere Optionen und Funktionen von Aspose.BarCode, um Ihre Fähigkeiten zur Barcode-Generierung weiter zu verbessern.
+Glückwunsch! Sie haben DotCode-Zeilen und -Spalten erfolgreich mit Aspose.BarCode für .NET konfiguriert. Entdecken Sie gerne weitere Optionen und Funktionen von Aspose.BarCode, um Ihre Möglichkeiten zur Barcode-Generierung weiter zu verbessern.
 
 ## Abschluss
 
