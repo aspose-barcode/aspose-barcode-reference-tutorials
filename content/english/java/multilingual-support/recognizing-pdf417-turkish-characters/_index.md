@@ -32,13 +32,11 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Step-by-Step Guide
-
-### Step 1: Set Up Your Project
+## Step 1: Set Up Your Project
 
 Create a new Java project and include the Aspose.BarCode library. If you haven't downloaded it yet, visit [this link](https://releases.aspose.com/barcode/java/) for the download.
 
-### Step 2: Load Barcode Image
+## Step 2: Load Barcode Image
 
 Define the path to your resource directory and load the barcode image:
 
@@ -47,7 +45,7 @@ String dataDir = "Your Document Directory";
 BarCodeReader reader = new BarCodeReader(dataDir + "barcode.png", DecodeType.PDF_417);
 ```
 
-### Step 3: Read Barcode
+## Step 3: Read Barcode
 
 Use the BarCodeReader to read the barcode:
 

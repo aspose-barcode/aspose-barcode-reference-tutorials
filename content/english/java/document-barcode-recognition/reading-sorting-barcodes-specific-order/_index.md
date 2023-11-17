@@ -37,11 +37,9 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-## Step-by-Step Guide
-
 Now, let's break down the code into a step-by-step guide:
 
-### Step 1: Set up the Resource Directory
+## Step 1: Set up the Resource Directory
 
 ```java
 // The path to the resource directory.
@@ -50,7 +48,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the actual path to your document directory.
 
-### Step 2: Specify Barcode Image Path and Initialize Reader
+## Step 2: Specify Barcode Image Path and Initialize Reader
 
 ```java
 String path = dataDir + "barcode.png";
@@ -60,7 +58,7 @@ List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-### Step 3: Read Barcodes and Store Results
+## Step 3: Read Barcodes and Store Results
 
 ```java
 // Iterate through barcodes and store results
@@ -69,7 +67,7 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-### Step 4: Define Comparator for Sorting
+## Step 4: Define Comparator for Sorting
 
 ```java
 // Define a comparator for sorting barcodes based on code text
@@ -81,14 +79,14 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-### Step 5: Sort Barcodes
+## Step 5: Sort Barcodes
 
 ```java
 // Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
-### Step 6: Display Sorted Barcodes
+## Step 6: Display Sorted Barcodes
 
 ```java
 // Display sorted barcodes with their coordinates

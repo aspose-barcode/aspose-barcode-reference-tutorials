@@ -1,11 +1,11 @@
 ---
-title: Creating an Image with Exact Barcode Only in Java with Aspose.BarCode
-linktitle: Creating an Image with Exact Barcode Only
+title: Creating an Image with Exact Barcode in Java
+linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 description: Creating an Image with Exact barcode generation in Java with Aspose.BarCode. Create custom barcodes easily. Explore documentation, download, and get support.
 type: docs
 weight: 12
-url: /java/barcode-basics/creating-image-exact-barcode-only/
+url: /java/barcode-basics/creating-image-exact-barcode/
 ---
 In the vast landscape of Java programming, mastering barcode generation is a valuable skill that can find applications in various domains. Whether you are creating inventory systems, retail applications, or any solution that involves product identification, the ability to generate accurate and reliable barcodes is crucial. This tutorial will guide you through the process using Aspose.BarCode for Java, a powerful library that simplifies barcode generation.
 
@@ -33,15 +33,13 @@ import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Creating an Image with Exact Barcode
-
 Now, let's break down the process of creating an image with an exact barcode into simple steps.
 
-### Step 1: Set Up Your Project
+## Step 1: Set Up Your Project
 
 Start by creating a new Java project in your preferred IDE and add the Aspose.BarCode library to your project's classpath.
 
-### Step 2: Initialize the Barcode Generator
+## Step 2: Initialize the Barcode Generator
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128);
@@ -49,7 +47,7 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128);
 
 Initialize the barcode generator with the desired barcode type. In this example, we are using CODE_128, but Aspose.BarCode supports various barcode symbologies.
 
-### Step 3: Set the Code Text
+## Step 3: Set the Code Text
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("123456");
@@ -57,7 +55,7 @@ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayTex
 
 Specify the code text that you want to encode in the barcode. Adjust this according to your specific use case.
 
-### Step 4: Generate the Barcode Image
+## Step 4: Generate the Barcode Image
 
 ```java
 BufferedImage image = generator.generateBarCodeImage();
@@ -65,7 +63,7 @@ BufferedImage image = generator.generateBarCodeImage();
 
 Generate the barcode image using the configured parameters.
 
-### Step 5: Save the Image
+## Step 5: Save the Image
 
 ```java
 File outputfile = new File(dataDir + "custombarcode.png");

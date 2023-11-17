@@ -34,13 +34,11 @@ import com.aspose.barcode.barcoderecognition.ChecksumValidation;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Step-by-Step Guide: Applying Checksum Validation in Java
-
-### Step 1: Set Up Your Project
+## Step 1: Set Up Your Project
 
 Begin by creating a new Java project and adding the Aspose.BarCode library to your project's dependencies.
 
-### Step 2: Initialize BarCodeReader
+## Step 2: Initialize BarCodeReader
 
 Create an instance of the BarCodeReader class and load an existing one-code barcode from your document directory.
 
@@ -49,7 +47,7 @@ String dataDir = "Your Document Directory";
 BarCodeReader reader = new BarCodeReader(dataDir + "onecode.png", DecodeType.ONE_CODE);
 ```
 
-### Step 3: Turn Off Checksum Validation
+## Step 3: Turn Off Checksum Validation
 
 Set the ChecksumValidation property to Off to disable checksum validation.
 
@@ -57,7 +55,7 @@ Set the ChecksumValidation property to Off to disable checksum validation.
 reader.setChecksumValidation(ChecksumValidation.OFF);
 ```
 
-### Step 4: Read BarCodes
+## Step 4: Read BarCodes
 
 Utilize a loop to iterate through the barcodes and retrieve information.
 

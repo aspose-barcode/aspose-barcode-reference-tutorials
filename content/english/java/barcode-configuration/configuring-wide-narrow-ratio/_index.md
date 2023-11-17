@@ -1,5 +1,5 @@
 ---
-title: Configuring Wide-Narrow Ratio in Java
+title: Configuring Wide-Narrow Ratio in Java with Aspose.BarCode
 linktitle: Configuring Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
 description: Learn how to configure wide-narrow ratio in Java barcodes using Aspose.BarCode. Follow our step-by-step guide for seamless customization.
@@ -7,7 +7,6 @@ type: docs
 weight: 17
 url: /java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
-# Configuring Wide-Narrow Ratio in Java with Aspose.BarCode
 
 ## Introduction
 
@@ -29,11 +28,9 @@ To get started, import the necessary packages into your Java project. This inclu
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Example Breakdown
-
 Let's break down the example code into multiple steps to understand each part of the process.
 
-### Step 1: Set Document Directory
+## Step 1: Set Document Directory
 
 ```java
 // The path to the resource directory.
@@ -42,7 +39,7 @@ String dataDir = "Your Document Directory";
 
 Ensure you set the path to the directory where you want to save the generated barcode image.
 
-### Step 2: Instantiate Barcode Object
+## Step 2: Instantiate Barcode Object
 
 ```java
 // Instantiate barcode object
@@ -52,7 +49,7 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567
 
 Create a BarcodeGenerator object and specify the codetext and symbology (CODE_128 in this case) for the barcode.
 
-### Step 3: Set Wide-Narrow Ratio
+## Step 3: Set Wide-Narrow Ratio
 
 ```java
 // Set the wide to narrow ratio for the barcode
@@ -61,7 +58,7 @@ generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 
 Use the setWideNarrowRatio method to configure the wide to narrow ratio for the barcode. Adjust the ratio according to your requirements.
 
-### Step 4: Save Image to Disk
+## Step 4: Save Image to Disk
 
 ```java
 // Save the image to disk in PNG format

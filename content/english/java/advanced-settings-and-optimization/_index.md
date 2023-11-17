@@ -8,7 +8,7 @@ weight: 29
 url: /java/advanced-settings-and-optimization/
 ---
 
-# Introduction
+## Introduction
 
 Are you ready to take your Java barcode generation skills to the next level? Dive into the world of advanced settings and optimization with Aspose.BarCode. In this comprehensive tutorial, we'll guide you through the intricacies of configuring custom sizes, optimizing image resolution, and mastering various settings for efficient barcode generation in Java.
 

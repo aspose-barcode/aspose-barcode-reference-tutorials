@@ -30,9 +30,7 @@ In your Java project, import the necessary packages for Aspose.BarCode:
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step-by-Step Guide
-
-### Step 1: Set the Document Directory
+## Step 1: Set the Document Directory
 
 ```java
 // The path to the resource directory.
@@ -41,7 +39,7 @@ String dataDir = "Your Document Directory";
 
 Ensure you replace "Your Document Directory" with the actual path to your resource directory.
 
-### Step 2: Generate Barcode
+## Step 2: Generate Barcode
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_39_EXTENDED, "1234567");
@@ -49,7 +47,7 @@ BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_39_EXTENDED, "123456
 
 Create a BarcodeGenerator object with the desired barcode type (CODE_39_EXTENDED) and the data you want to encode ("1234567").
 
-### Step 3: Rotate the Barcode Image
+## Step 3: Rotate the Barcode Image
 
 ```java
 bb.getParameters().setRotationAngle(180);
@@ -57,7 +55,7 @@ bb.getParameters().setRotationAngle(180);
 
 Rotate the barcode image clockwise for 180 degrees to create an upside-down effect. Adjust the angle as needed.
 
-### Step 4: Save the Image
+## Step 4: Save the Image
 
 ```java
 bb.save(dataDir + "barcode-image-rotate.jpg");

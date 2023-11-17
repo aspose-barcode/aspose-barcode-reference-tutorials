@@ -29,9 +29,7 @@ import com.aspose.barcode.BarcodeGenerator;
 import com.aspose.barcode.EncodeTypes;
 ```
 
-## Step-by-Step Guide
-
-### 1. Set Up Your Document Directory
+## 1. Set Up Your Document Directory
 
 ```java
 // The path to the resource directory.
@@ -40,7 +38,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the actual path to your document directory.
 
-### 2. Create Barcode Generator Instance
+## 2. Create Barcode Generator Instance
 
 ```java
 // Create instance of BarcodeGenerator, specify codetext and symbology in the constructor
@@ -49,7 +47,7 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, 
 
 This step initializes the barcode generator with the CODE_39_STANDARD symbology and a sample codetext "Test-123."
 
-### 3. Save the Generated Barcode
+## 3. Save the Generated Barcode
 
 ```java
 generator.save(dataDir + "Code39Standard.jpg");

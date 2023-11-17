@@ -20,7 +20,7 @@ Have you ever wondered how to seamlessly embed barcodes into your PDF documents 
 
 Unlock the potential of creating and setting the size for the whole picture with barcodes in Java. Aspose.BarCode simplifies the process, allowing you to customize size, encoding, and appearance effortlessly. This tutorial guides you through the steps, ensuring that you have full control over the visual aspects of your barcode, making your Java applications not only functional but visually appealing.
 
-## Creating an Image with Exact Barcode Only in Java
+## Creating an Image with Exact Barcode in Java
 
 Tailor your Java applications with precision by creating an image with exact barcode generation using Aspose.BarCode. This tutorial delves into the details, providing insights into creating custom barcodes with ease. Explore the documentation, download resources, and get support as you embark on a journey to make your Java projects stand out.
 
@@ -34,7 +34,7 @@ In conclusion, these tutorials serve as your comprehensive guide to mastering ba
 Enhance your Java applications with Aspose.BarCode A step-by-step guide to adding barcodes to PDF documents.
 ### [Creating and Setting Size for Whole Picture with Barcode in Java](./creating-setting-size-whole-picture-barcode/)
 Explore creating and setting size for whole picture in Java with Aspose.BarCode. Customize size, encoding, and appearance effortlessly.
-### [Creating an Image with Exact Barcode Only in Java](./creating-image-exact-barcode-only/)
+### [Creating an Image with Exact Barcode in Java](./creating-image-exact-barcode/)
 Creating an Image with Exact barcode generation in Java with Aspose.BarCode. Create custom barcodes easily. Explore documentation, download, and get support.
 ### [Barcode Orientation Detection in Java](./detecting-barcode-orientation/)
 Enhance your Java applications with barcode recognition using Aspose.BarCode for Java. Follow our step-by-step guide to effortlessly detect barcode orientation.

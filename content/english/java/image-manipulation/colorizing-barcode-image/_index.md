@@ -29,11 +29,9 @@ import java.awt.Color;
 import com.aspose.barcode.BarcodeGenerator;
 ```
 
-## Step-by-Step Guide
-
 Let's break down the process of colorizing a barcode image into simple, easy-to-follow steps:
 
-### Step 1: Set the Document Directory
+## Step 1: Set the Document Directory
 
 Begin by defining the path to your document directory. This is where the colorized barcode image will be saved.
 
@@ -41,7 +39,7 @@ Begin by defining the path to your document directory. This is where the coloriz
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Initialize Barcode Generator
+## Step 2: Initialize Barcode Generator
 
 Create an instance of the `BarcodeGenerator` class, specifying the barcode type (in this example, CODE_128) and the data to be encoded ("1234567").
 
@@ -49,7 +47,7 @@ Create an instance of the `BarcodeGenerator` class, specifying the barcode type 
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-### Step 3: Set Background Color
+## Step 3: Set Background Color
 
 Customize the background color of the barcode by setting the `BackColor` parameter.
 
@@ -57,7 +55,7 @@ Customize the background color of the barcode by setting the `BackColor` paramet
 bb.getParameters().setBackColor(Color.YELLOW);
 ```
 
-### Step 4: Set Foreground Color
+## Step 4: Set Foreground Color
 
 Enhance the visual appeal by specifying the foreground color of the barcode using the `BarColor` parameter.
 
@@ -65,7 +63,7 @@ Enhance the visual appeal by specifying the foreground color of the barcode usin
 bb.getParameters().getBarcode().setBarColor(Color.BLUE);
 ```
 
-### Step 5: Set Border Color
+## Step 5: Set Border Color
 
 Add a border to the barcode and define its color using the `setColor` method for the `Border` parameter.
 
@@ -73,7 +71,7 @@ Add a border to the barcode and define its color using the `setColor` method for
 bb.getParameters().getBorder().setColor(Color.RED);
 ```
 
-### Step 6: Set Code Text Color
+## Step 6: Set Code Text Color
 
 Personalize the color of the code text within the barcode by configuring the `CodeTextParameters` color.
 
@@ -81,7 +79,7 @@ Personalize the color of the code text within the barcode by configuring the `Co
 bb.getParameters().getBarcode().getCodeTextParameters().setColor(Color.RED);
 ```
 
-### Step 7: Save the Colorized Barcode Image
+## Step 7: Save the Colorized Barcode Image
 
 Save the colorized barcode image to the specified directory.
 

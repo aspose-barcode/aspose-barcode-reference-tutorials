@@ -33,7 +33,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 Now, let's break down the steps involved in adjusting image quality using Aspose.BarCode for Java:
 
-### Step 1: Set the Resource Directory
+## Step 1: Set the Resource Directory
 
 Define the path to your resource directory using the variable `dataDir`.
 
@@ -41,7 +41,7 @@ Define the path to your resource directory using the variable `dataDir`.
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Create Barcode Instance
+## Step 2: Create Barcode Instance
 
 Initialize the `BarcodeGenerator` with the desired barcode type (here, CODE_128) and data.
 
@@ -49,7 +49,7 @@ Initialize the `BarcodeGenerator` with the desired barcode type (here, CODE_128)
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-### Step 3: Adjust Resolution
+## Step 3: Adjust Resolution
 
 Fine-tune the barcode image quality by setting the resolution. In this example, a resolution of 400 is set.
 
@@ -57,7 +57,7 @@ Fine-tune the barcode image quality by setting the resolution. In this example, 
 bb.getParameters().setResolution(400);
 ```
 
-### Step 4: Save the Image
+## Step 4: Save the Image
 
 Save the generated barcode image to the specified directory.
 

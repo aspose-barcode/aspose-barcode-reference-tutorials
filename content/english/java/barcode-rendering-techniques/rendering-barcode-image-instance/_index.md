@@ -32,11 +32,9 @@ import java.awt.Image;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Rendering Barcode to Image Instance in Java
-
 Now, let's break down the example provided into multiple steps:
 
-### Step 1: Create BarcodeGenerator Instance
+## Step 1: Create BarcodeGenerator Instance
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
@@ -44,7 +42,7 @@ BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 
 In this step, we initialize a `BarcodeGenerator` instance, specifying the barcode type (in this case, CODE_128) and the data to be encoded ("12345678").
 
-### Step 2: Generate Barcode Image
+## Step 2: Generate Barcode Image
 
 ```java
 Image image = bb.generateBarCodeImage();
@@ -73,32 +71,3 @@ You can buy a license [here](https://purchase.aspose.com/buy).
 ### Is there a temporary license option available?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-## Search Engine Optimized Description (160 characters)
-
-Explore the power of Aspose.BarCode for Java! Effortlessly generate barcodes in various types using this robust library. Download now!
-
-## Search Engine Optimized Title (60 characters)
-
-"Barcode Generation in Java: Aspose.BarCode Unleashed!"
-## Complete Source Code
-```java
-package com.aspose.barcode.examples.barcode_image.rendering_features;
-
-import java.awt.Image;
-
-import com.aspose.barcode.generation.BarcodeGenerator;
-
-public class RenderBarcodeToImageInstance {
-
-	public static void main(String[] args) {
-		//ExStart: RenderBarcodeToImageInstance
-		BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
-		
-		// Generate bar code image
-		Image image = bb.generateBarCodeImage();
-		//ExEnd: RenderBarcodeToImageInstance
-	}
-
-}
-
-```

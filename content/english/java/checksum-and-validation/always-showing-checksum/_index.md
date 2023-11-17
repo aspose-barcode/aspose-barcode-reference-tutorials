@@ -35,9 +35,7 @@ import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step-by-Step Guide
-
-### Step 1: Set the Resource Directory
+## Step 1: Set the Resource Directory
 
 Define the path to your resource directory where you want to store the generated barcode image.
 
@@ -45,7 +43,7 @@ Define the path to your resource directory where you want to store the generated
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Create Barcode Generator
+## Step 2: Create Barcode Generator
 
 Initialize the `BarcodeGenerator` object with the desired barcode type (here, CODE_128) and the data to be encoded (in this case, "12345").
 
@@ -53,7 +51,7 @@ Initialize the `BarcodeGenerator` object with the desired barcode type (here, CO
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345");
 ```
 
-### Step 3: Enable Checksum Always Show
+## Step 3: Enable Checksum Always Show
 
 Activate the "Always Show Checksum" feature for the barcode by accessing the barcode parameters.
 
@@ -61,7 +59,7 @@ Activate the "Always Show Checksum" feature for the barcode by accessing the bar
 generator.getParameters().getBarcode().setChecksumAlwaysShow(true);
 ```
 
-### Step 4: Save the Barcode Image
+## Step 4: Save the Barcode Image
 
 Save the generated barcode image to the specified directory.
 

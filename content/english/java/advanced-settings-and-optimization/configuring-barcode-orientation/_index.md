@@ -30,9 +30,7 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 
 ```
 
-## Configuring Barcode Orientation
-
-### Step 1: Set the Document Directory
+## Step 1: Set the Document Directory
 
 ```java
 // The path to the resource directory.
@@ -41,7 +39,7 @@ String dataDir = "Your Document Directory";
 
 Ensure to replace "Your Document Directory" with the actual path to your resource directory.
 
-### Step 2: Read Code39 Barcode from Image
+## Step 2: Read Code39 Barcode from Image
 
 ```java
 // Read code39 barcode from image
@@ -51,7 +49,7 @@ BarCodeReader reader = new BarCodeReader(image, DecodeType.CODE_39_STANDARD);
 
 Specify the path to the image containing the Code39 barcode. This step initializes the BarCodeReader class with the provided image and sets the barcode type to CODE_39_STANDARD.
 
-### Step 3: Automatic Barcode Orientation Detection
+## Step 3: Automatic Barcode Orientation Detection
 
 ```java
 // Barcode orientation is detected automatically
@@ -59,7 +57,7 @@ Specify the path to the image containing the Code39 barcode. This step initializ
 
 Aspose.BarCode for Java automatically detects the orientation of the barcode, streamlining the configuration process.
 
-### Step 4: Recognize Barcodes in the Image
+## Step 4: Recognize Barcodes in the Image
 
 ```java
 // Try to recognize all possible barcodes in the image
