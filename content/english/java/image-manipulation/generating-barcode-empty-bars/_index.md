@@ -18,7 +18,7 @@ Before we embark on the barcode generation journey, make sure you have the follo
 
 1. Java Development Environment: Ensure you have a Java development environment set up on your machine.
 
-2. Aspose.BarCode for Java Library: Download and install the Aspose.BarCode for Java library from the [official download page](https://releases.aspose.com/barcode/java/).
+2. Aspose.BarCode for Java Library: Download and install the Aspose.BarCode for Java library from the [download page](https://releases.aspose.com/barcode/java/).
 
 3. Document Directory: Create a directory on your system to store the generated barcode image.
 

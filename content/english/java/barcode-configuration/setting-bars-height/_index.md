@@ -18,7 +18,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 
 - Java Development Environment: Make sure you have a working Java development environment set up on your machine.
 
-- Aspose.BarCode for Java: Download and install Aspose.BarCode for Java from the official [download link](https://releases.aspose.com/barcode/java/).
+- Aspose.BarCode for Java: Download and install Aspose.BarCode for Java from the [download link](https://releases.aspose.com/barcode/java/).
 
 ## Import Packages
 

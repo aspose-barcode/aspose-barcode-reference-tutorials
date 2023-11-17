@@ -18,7 +18,7 @@ Before diving into the code, ensure you have the following prerequisites:
 
 - Java Development Kit (JDK): Aspose.BarCode for Java requires a functioning JDK. You can download the latest version [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-- Aspose.BarCode Library: Make sure you have the Aspose.BarCode library. You can obtain it from the official [download link](https://releases.aspose.com/barcode/java/).
+- Aspose.BarCode Library: Make sure you have the Aspose.BarCode library. You can obtain it from the [download link](https://releases.aspose.com/barcode/java/).
 
 ## Import Packages
 
@@ -112,10 +112,10 @@ In this tutorial, we've explored how to leverage Aspose.BarCode for Java to read
 ## FAQs
 
 ### Q: Where can I find the Aspose.BarCode for Java documentation?
-The official documentation is available [here](https://reference.aspose.com/barcode/java/).
+The documentation is available [here](https://reference.aspose.com/barcode/java/).
 
 ### Q: How can I download Aspose.BarCode for Java?
-You can download it from the official [download link](https://releases.aspose.com/barcode/java/).
+You can download it from the [download link](https://releases.aspose.com/barcode/java/).
 
 ### Q: Is there a free trial available?
 Yes, you can explore a free trial [here](https://releases.aspose.com/).

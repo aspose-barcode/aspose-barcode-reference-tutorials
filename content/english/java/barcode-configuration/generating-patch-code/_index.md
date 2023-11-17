@@ -18,7 +18,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 
 - Java Development Environment: Ensure that you have a Java development environment set up on your machine.
 
-- Aspose.BarCode for Java: Download and install Aspose.BarCode for Java from the [official download link](https://releases.aspose.com/barcode/java/).
+- Aspose.BarCode for Java: Download and install Aspose.BarCode for Java from the [download link](https://releases.aspose.com/barcode/java/).
 
 ## Import Packages
 
@@ -91,10 +91,10 @@ By following this step-by-step guide, you've learned how to generate a Patch Cod
 ## FAQs
 
 ### Can I use Aspose.BarCode for Java in commercial projects?
-Yes, Aspose.BarCode for Java is a commercial product. You can obtain a license from [Aspose's official purchase page](https://purchase.aspose.com/buy).
+Yes, Aspose.BarCode for Java is a commercial product. You can obtain a license from [Aspose's purchase page](https://purchase.aspose.com/buy).
 
 ### Is there a free trial available for Aspose.BarCode for Java?
-Yes, you can download a free trial from [Aspose's official release page](https://releases.aspose.com/).
+Yes, you can download a free trial from [Aspose's release page](https://releases.aspose.com/).
 
 ### How can I get support for Aspose.BarCode for Java?
 Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for community support and discussions.
@@ -102,6 +102,6 @@ Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for comm
 ### Are temporary licenses available for Aspose.BarCode for Java?
 Yes, you can obtain a temporary license from [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### Where can I find the official documentation for Aspose.BarCode for Java?
-The official documentation is available at [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/).
+### Where can I find the documentation for Aspose.BarCode for Java?
+The documentation is available at [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/).
 

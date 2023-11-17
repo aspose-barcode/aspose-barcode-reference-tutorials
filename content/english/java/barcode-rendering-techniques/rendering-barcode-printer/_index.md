@@ -90,7 +90,7 @@ Make the frame visible, showcasing the rendered barcode.
 
 ## Conclusion
 
-Congratulations! You've successfully rendered a barcode to a printer in Java using Aspose.BarCode. This tutorial covered the essential steps to integrate barcode generation into your Java application. Explore more features and customization options in the [official documentation](https://reference.aspose.com/barcode/java/).
+Congratulations! You've successfully rendered a barcode to a printer in Java using Aspose.BarCode. This tutorial covered the essential steps to integrate barcode generation into your Java application. Explore more features and customization options in the [documentation](https://reference.aspose.com/barcode/java/).
 
 ## Frequently Asked Questions (FAQs)
 

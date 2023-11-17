@@ -89,6 +89,6 @@ Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) to conne
 Yes, you can explore the features of Aspose.BarCode by accessing the [free trial](https://releases.aspose.com/).
 
 ### Where can I find detailed documentation?
-Refer to the [official documentation](https://reference.aspose.com/barcode/java/) for in-depth information on Aspose.BarCode for Java.
+Refer to the [documentation](https://reference.aspose.com/barcode/java/) for in-depth information on Aspose.BarCode for Java.
 
 

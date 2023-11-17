@@ -83,7 +83,7 @@ Yes, Aspose.BarCode for Java is a commercial product. You can purchase a license
 Yes, you can access a free trial [here](https://releases.aspose.com/).
 
 ### Where can I find documentation for Aspose.BarCode for Java?
-The official documentation is available [here](https://reference.aspose.com/barcode/java/).
+The documentation is available [here](https://reference.aspose.com/barcode/java/).
 
 ### How can I get support for Aspose.BarCode for Java?
 You can seek support in the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).

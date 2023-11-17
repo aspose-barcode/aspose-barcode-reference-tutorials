@@ -15,9 +15,9 @@ Aspose.BarCode for Java is a robust Java API that allows developers to integrate
 
 Before we embark on the journey of setting the size unit for a barcode image, ensure you have the following prerequisites in place:
 
-1. Java Development Kit (JDK): Aspose.BarCode for Java requires a functioning JDK installed on your development machine. You can download the latest JDK from the official Oracle website.
+1. Java Development Kit (JDK): Aspose.BarCode for Java requires a functioning JDK installed on your development machine. You can download the latest JDK from the Oracle website.
 
-2. Aspose.BarCode for Java Library: Obtain the Aspose.BarCode for Java library by downloading it from the official Aspose website. The library is available in both free trial and licensed versions.
+2. Aspose.BarCode for Java Library: Obtain the Aspose.BarCode for Java library by downloading it from the Aspose website. The library is available in both free trial and licensed versions.
 
 3. Integrated Development Environment (IDE): Choose your preferred Java IDE, such as Eclipse or IntelliJ IDEA, for a seamless development experience.
 

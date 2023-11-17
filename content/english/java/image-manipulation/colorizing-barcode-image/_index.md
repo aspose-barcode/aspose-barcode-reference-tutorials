@@ -18,7 +18,7 @@ Before we embark on this colorful journey, ensure you have the following prerequ
 
 - Java Development Environment: Make sure you have a Java development environment set up on your machine.
 
-- Aspose.BarCode for Java: Download and install Aspose.BarCode for Java from the [official download page](https://releases.aspose.com/barcode/java/).
+- Aspose.BarCode for Java: Download and install Aspose.BarCode for Java from the [download page](https://releases.aspose.com/barcode/java/).
 
 ## Import Packages
 
@@ -107,7 +107,7 @@ Yes, you can explore the features of Aspose.BarCode by obtaining a free trial fr
 Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for community support and discussions.
 
 ### Where can I find detailed documentation for Aspose.BarCode?
-Refer to the official documentation [here](https://reference.aspose.com/barcode/java/) for in-depth information and examples.
+Refer to the documentation [here](https://reference.aspose.com/barcode/java/) for in-depth information and examples.
 
 ### How do I purchase a license for Aspose.BarCode for Java?
 You can securely purchase a license [here](https://purchase.aspose.com/buy) to unlock the full potential of Aspose.BarCode.

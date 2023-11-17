@@ -118,7 +118,7 @@ Absolutely. Aspose.BarCode supports a wide range of barcode symbologies, giving 
 Certainly. You can modify the border color programmatically based on specific conditions in your application.
 
 ### How can I integrate Aspose.BarCode into my Java project?
-Follow the [official documentation](https://reference.aspose.com/barcode/java/) for detailed instructions on integrating Aspose.BarCode into your Java project.
+Follow the [documentation](https://reference.aspose.com/barcode/java/) for detailed instructions on integrating Aspose.BarCode into your Java project.
 
 ### Is there a trial version of Aspose.BarCode available?
 Yes, you can explore the features of Aspose.BarCode by downloading the [free trial version](https://releases.aspose.com/).

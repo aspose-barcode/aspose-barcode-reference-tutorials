@@ -16,7 +16,7 @@ In the ever-evolving landscape of Java programming, incorporating barcode genera
 
 Before delving into the tutorial, ensure you have the following prerequisites in place:
 
-1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download the latest version from [Java's official website](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download the latest version from [Java's website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Aspose.BarCode for Java: Download and install the Aspose.BarCode library. You can find the necessary files at [Aspose.BarCode for Java - Download](https://releases.aspose.com/barcode/java/).
 
@@ -54,7 +54,7 @@ This step involves calling the `generateBarCodeImage()` method on the `BarcodeGe
 
 ## Conclusion
 
-Congratulations! You've successfully rendered a barcode to an image instance using Aspose.BarCode for Java. This tutorial only scratches the surface of what this powerful library can accomplish. Explore the [official documentation](https://reference.aspose.com/barcode/java/) for more in-depth insights and functionalities.
+Congratulations! You've successfully rendered a barcode to an image instance using Aspose.BarCode for Java. This tutorial only scratches the surface of what this powerful library can accomplish. Explore the [documentation](https://reference.aspose.com/barcode/java/) for more in-depth insights and functionalities.
 
 ## FAQs
 

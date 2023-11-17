@@ -17,7 +17,7 @@ As technology continues to advance, incorporating barcodes into Java application
 Before diving into the tutorial, ensure you have the following in place:
 
 - Java Development Environment: Make sure you have a Java development environment set up on your machine.
-- Aspose.BarCode for Java Library: Download and install the Aspose.BarCode library from the [official download link](https://releases.aspose.com/barcode/java/).
+- Aspose.BarCode for Java Library: Download and install the Aspose.BarCode library from the [download link](https://releases.aspose.com/barcode/java/).
 - Document Directory: Identify or create a directory where you want to save the barcode image.
 
 ## Import Packages
@@ -98,5 +98,5 @@ Visit the Aspose.BarCode [support forum](https://forum.aspose.com/c/barcode/13) 
 Yes, you can explore the free trial version of Aspose.BarCode from [this link](https://releases.aspose.com/).
 
 ### How can I purchase the full version of Aspose.BarCode for Java?
-You can purchase the full version of Aspose.BarCode for Java from the [official purchase page](https://purchase.aspose.com/buy).
+You can purchase the full version of Aspose.BarCode for Java from the [purchase page](https://purchase.aspose.com/buy).
 

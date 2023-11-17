@@ -95,7 +95,7 @@ Yes, you can customize the font family, size, and color of both the caption abov
 Absolutely! Aspose.BarCode supports a wide range of symbologies, ensuring flexibility in barcode generation.
 
 ### How can I integrate Aspose.BarCode into my Java project?
-You can follow the official documentation [here](https://reference.aspose.com/barcode/java/) for detailed integration steps.
+You can follow the documentation [here](https://reference.aspose.com/barcode/java/) for detailed integration steps.
 
 ### Is there a free trial available for Aspose.BarCode for Java?
 Yes, you can access the free trial [here](https://releases.aspose.com/) to explore the features before making a purchase.

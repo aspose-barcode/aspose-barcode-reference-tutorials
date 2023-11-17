@@ -87,6 +87,6 @@ Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for
 ### Can I obtain a temporary license for testing purposes?
 Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Where can I find the official documentation?
-The official documentation is available [here](https://reference.aspose.com/barcode/java/).
+### Where can I find the documentation?
+The documentation is available [here](https://reference.aspose.com/barcode/java/).
 

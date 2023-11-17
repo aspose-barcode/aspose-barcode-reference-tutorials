@@ -95,7 +95,7 @@ Repeat these steps as needed, adjusting filenames and paths accordingly.
 
 ## Conclusion
 
-Congratulations! You have successfully learned how to recognize barcodes from PDFs using Aspose.BarCode for Java. This tutorial aimed to provide a comprehensive guide while maintaining simplicity and clarity. Feel free to explore more features and functionalities offered by Aspose.BarCode in the official [documentation](https://reference.aspose.com/barcode/java/).
+Congratulations! You have successfully learned how to recognize barcodes from PDFs using Aspose.BarCode for Java. This tutorial aimed to provide a comprehensive guide while maintaining simplicity and clarity. Feel free to explore more features and functionalities offered by Aspose.BarCode in the [documentation](https://reference.aspose.com/barcode/java/).
 
 ## Frequently Asked Questions (FAQs)
 

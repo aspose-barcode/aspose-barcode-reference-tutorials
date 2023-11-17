@@ -16,7 +16,7 @@ Before we embark on this coding journey, ensure you have the following prerequis
 
 - Java Development Kit (JDK): Aspose.BarCode for Java requires a compatible JDK installed on your system. You can download the latest JDK from [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-- Aspose.BarCode for Java Library: Obtain the Aspose.BarCode for Java library by visiting the [official download page](https://releases.aspose.com/barcode/java/). Follow the installation instructions to integrate it into your Java project.
+- Aspose.BarCode for Java Library: Obtain the Aspose.BarCode for Java library by visiting the [download page](https://releases.aspose.com/barcode/java/). Follow the installation instructions to integrate it into your Java project.
 
 - Integrated Development Environment (IDE): Choose a Java IDE of your preference, such as Eclipse, IntelliJ, or NetBeans.
 
@@ -60,7 +60,7 @@ generator.save(dataDir + "codeTextForegroundColor.jpg");
 Congratulations! You've successfully customized the code text foreground color in your Java barcode using Aspose.BarCode.
 
 ## Conclusion
-In this tutorial, we've explored a fundamental customization aspect of Aspose.BarCode for Java – setting the code text foreground color. As you continue your journey with barcode integration, refer to the [official documentation](https://reference.aspose.com/barcode/java/) for comprehensive guidance.
+In this tutorial, we've explored a fundamental customization aspect of Aspose.BarCode for Java – setting the code text foreground color. As you continue your journey with barcode integration, refer to the [documentation](https://reference.aspose.com/barcode/java/) for comprehensive guidance.
 
 ## Frequently Asked Questions (FAQs)
 

@@ -18,7 +18,7 @@ Welcome to our step-by-step guide on configuring the wide-narrow ratio in Java u
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
 - Java Development Kit (JDK): Ensure that you have Java installed on your system.
-- Aspose.BarCode for Java: Download and install the Aspose.BarCode library from the [official download link](https://releases.aspose.com/barcode/java/).
+- Aspose.BarCode for Java: Download and install the Aspose.BarCode library from the [download link](https://releases.aspose.com/barcode/java/).
 
 ## Import Packages
 
@@ -86,7 +86,7 @@ A: Simply change the symbology type in the BarcodeGenerator constructor, e.g., E
 A: Yes, you can access the free trial version [here](https://releases.aspose.com/).
 
 ### Q: Where can I find detailed documentation for Aspose.BarCode?
-A: Refer to the official documentation [here](https://reference.aspose.com/barcode/java/).
+A: Refer to the documentation [here](https://reference.aspose.com/barcode/java/).
 
 ### Q: How to get support for Aspose.BarCode?
 A: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for support and discussions.

@@ -18,7 +18,7 @@ Before we dive into the tutorial, ensure you have the following prerequisites in
 
 1. Java Development Kit (JDK): Aspose.BarCode for Java requires a working Java environment. Install the latest version of JDK from [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2. Aspose.BarCode for Java Library: Download and install the Aspose.BarCode for Java library from the official [download link](https://releases.aspose.com/barcode/java/).
+2. Aspose.BarCode for Java Library: Download and install the Aspose.BarCode for Java library from the [download link](https://releases.aspose.com/barcode/java/).
 
 Now that we have the prerequisites covered, let's proceed with the tutorial.
 
@@ -85,7 +85,7 @@ Repeat these steps for seamless integration of start and stop symbols into your 
 
 Congratulations! You've successfully learned how to set start and stop symbols for Codabar barcodes using Aspose.BarCode for Java. This capability adds a layer of customization to your barcode generation, enhancing the flexibility of your applications.
 
-Feel free to explore more features and customization options provided by Aspose.BarCode for Java in the [official documentation](https://reference.aspose.com/barcode/java/).
+Feel free to explore more features and customization options provided by Aspose.BarCode for Java in the [documentation](https://reference.aspose.com/barcode/java/).
 
 ## Frequently Asked Questions
 
