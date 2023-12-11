@@ -98,7 +98,7 @@ defaultContentLang = 'en'
 ignoreFiles = ["(?i:readme.md)", '\.spin$']
 
 # Image processing configuration.
-[barcode]
+[imaging]
 resampleFilter = "CatmullRom"
 quality = 75
 anchor = "smart"
@@ -176,7 +176,7 @@ footer_about_disable = false
 
 [minify]
   disableCSS = false
-  disablebarcode = false
+  disableHTML = false
   disableJS = false
   disableJSON = false
   disableSVG = false
@@ -186,7 +186,7 @@ footer_about_disable = false
     [minify.tdewolff.css]
       decimals = -1
       keepCSS2 = true
-    [minify.tdewolff.barcode]
+    [minify.tdewolff.html]
       keepConditionalComments = true
       keepDefaultAttrVals = true
       keepDocumentTags = true
