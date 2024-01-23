@@ -42,7 +42,7 @@ BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 
  En este paso, inicializamos un`BarcodeGenerator` ejemplo, especificando el tipo de código de barras (en este caso, CODE_128) y los datos a codificar ("12345678").
 
-## Paso 2: generar imagen de código de barras
+## Paso 2: Generar imagen de código de barras
 
 ```java
 Image image = bb.generateBarCodeImage();

@@ -69,7 +69,7 @@ Genere códigos de barras DataBar unidimensionales dinámicos con configuración
 ### [Configuración de barras rellenas unidimensionales](./one-dimensional-filled-bars-configuration/)
 Aprenda cómo generar códigos de barras en .NET con Aspose.BarCode para .NET. Este completo tutorial cubre todo, desde la importación de espacios de nombres hasta la creación de códigos de barras unidimensionales. 
 ### [Manejo de excepciones de códigos de barras unidimensionales](./one-dimensional-barcode-exception-handling/)
-Aprenda a manejar excepciones mientras genera códigos de barras unidimensionales usando Aspose.BarCode para .NET. Esta guía paso a paso garantiza soluciones de códigos de barras tolerantes a errores. ¡Empieza ahora!
+Aprenda a manejar excepciones mientras genera códigos de barras unidimensionales utilizando Aspose.BarCode para .NET. Esta guía paso a paso garantiza soluciones de códigos de barras tolerantes a errores. ¡Empieza ahora!
 ### [Configuración unidimensional de relación ancha-estrecha](./one-dimensional-wide-narrow-ratio-configuration/)
 Genere códigos de barras personalizados fácilmente con Aspose.BarCode para .NET. Guía paso a paso para la configuración unidimensional de relación ancha-estrecha.
 

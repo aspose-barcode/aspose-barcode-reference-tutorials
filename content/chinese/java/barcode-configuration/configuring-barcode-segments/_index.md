@@ -18,7 +18,7 @@ Aspose.BarCode for Java 是一个多功能库，有助于在 Java 应用程序�
 
 在我们开始此编码之旅之前，请确保您具备以下先决条件：
 
-1.  Java 开发工具包 (JDK)：Aspose.BarCode for Java 需要在您的计算机上安装有效的 JDK。您可以从以下位置下载最新的 JDK[甲骨文网站](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  Java 开发工具包 (JDK)：Aspose.BarCode for Java 需要在您的计算机上安装可用的 JDK。您可以从以下位置下载最新的 JDK[甲骨文网站](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Aspose.BarCode 库：从以下位置下载并安装 Aspose.BarCode for Java 库[下载链接](https://releases.aspose.com/barcode/java/).
 

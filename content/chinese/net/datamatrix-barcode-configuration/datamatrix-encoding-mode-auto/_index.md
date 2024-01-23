@@ -98,6 +98,6 @@ A1：DataMatrix编码模式“Auto”允许Aspose.BarCode库自动为所提供�
 
  A4：是的，您可以通过免费试用版探索 Aspose.BarCode[这个链接](https://releases.aspose.com/).
 
-### 问题 5：DataMatrix 条形码有哪些可用的编码选项？
+### Q5：DataMatrix 条码有哪些可用的编码选项？
 
 A5：Aspose.BarCode for .NET 提供多种编码选项，包括 UTF-8、ASCII 等。您可以在创建条形码时选择所需的编码。

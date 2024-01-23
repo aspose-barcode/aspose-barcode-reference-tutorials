@@ -10,7 +10,7 @@ url: /tr/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration
 
 ## giriiş
 
-Günümüzün dijital çağında barkodlar, envanter yönetimi, ürün etiketleme ve daha fazlası gibi çeşitli süreçleri basitleştirerek hayatımızın ayrılmaz bir parçası haline geldi. Aspose.BarCode for .NET, geliştiricilerin uygulamalarında zahmetsizce barkod oluşturmasına ve barkodlarla çalışmasına olanak tanıyan güçlü bir araçtır. Bu adım adım kılavuzda Aspose.BarCode for .NET kullanarak tek boyutlu Code 93 barkodlarının nasıl oluşturulacağını keşfedeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size süreç boyunca kullanıcı dostu bir şekilde yol gösterecektir. Başlayalım!
+Günümüzün dijital çağında barkodlar, envanter yönetimi, ürün etiketleme ve daha fazlası gibi çeşitli süreçleri basitleştirerek hayatımızın ayrılmaz bir parçası haline geldi. Aspose.BarCode for .NET, geliştiricilerin uygulamalarında zahmetsizce barkod oluşturmasına ve barkodlarla çalışmasına olanak tanıyan güçlü bir araçtır. Bu adım adım kılavuzda Aspose.BarCode for .NET kullanarak tek boyutlu Code 93 barkodlarının nasıl oluşturulacağını inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size süreç boyunca kullanıcı dostu bir şekilde yol gösterecektir. Başlayalım!
 
 ## Önkoşullar:
 
@@ -89,7 +89,7 @@ Sonuç olarak Aspose.BarCode for .NET, uygulamalarınızda barkod oluşturmayı 
 ## Sıkça Sorulan Sorular (SSS):
 
 ### S: Aspose.BarCode for .NET belgelerini nerede bulabilirim?
- C: Belgeleri şu adreste bulabilirsiniz:[Aspose.BarCode for .NET Belgelendirmesi](https://reference.aspose.com/barcode/net/).
+ C: Belgeleri şu adreste bulabilirsiniz:[Aspose.BarCode for .NET Belgeleri](https://reference.aspose.com/barcode/net/).
 
 ### S: Aspose.BarCode for .NET'i nasıl indirebilirim?
  C: Aspose.BarCode for .NET'i şu adresteki web sitesinden indirebilirsiniz:[Aspose.BarCode for .NET İndirme](https://releases.aspose.com/barcode/net/).

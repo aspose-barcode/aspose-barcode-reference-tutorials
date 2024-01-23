@@ -58,7 +58,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcó
 
 Qui stiamo creando un codice a barre Compact PDF417.
 
-## Passaggio 3: configurare i parametri del codice a barre
+## Passaggio 3: configurazione dei parametri del codice a barre
 
 Ora puoi impostare vari parametri per personalizzare il codice a barre. In questo esempio, imposteremo la dimensione X in pixel, il numero di colonne e specificheremo che si tratta di un codice a barre Compact PDF417.
 

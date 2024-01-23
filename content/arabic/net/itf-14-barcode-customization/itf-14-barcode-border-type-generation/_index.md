@@ -102,7 +102,7 @@ gen.Save($"{path}ITF14BorderFrameOut.png", BarCodeImageFormat.Png);
 نعم، يوفر Aspose.BarCode خيارات تخصيص واسعة النطاق، بما في ذلك القدرة على تغيير نوع حدود الرمز الشريطي ولونه والعديد من الجوانب المرئية الأخرى.
 
 ### هل Aspose.BarCode متوافق مع أطر عمل .NET الأخرى؟
-نعم، يتوافق Aspose.BarCode for .NET مع أطر عمل .NET المختلفة، بما في ذلك .NET Core و.NET Standard، بالإضافة إلى .NET Framework التقليدي.
+نعم، Aspose.BarCode for .NET متوافق مع أطر عمل .NET المختلفة، بما في ذلك .NET Core و.NET Standard، بالإضافة إلى .NET Framework التقليدي.
 
 ### أين يمكنني العثور على وثائق شاملة لـ Aspose.BarCode لـ .NET؟
  يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/barcode/net/) للحصول على معلومات تفصيلية وأمثلة حول استخدام Aspose.BarCode.

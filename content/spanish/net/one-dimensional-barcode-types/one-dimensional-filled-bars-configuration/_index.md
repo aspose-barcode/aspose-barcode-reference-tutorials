@@ -59,7 +59,7 @@ En esta sección, demostraremos cómo crear códigos de barras unidimensionales 
    ```
 
 ### Paso 3: configurar barras rellenas
-    Establezca la XDimension en píxeles y especifique si desea barras rellenas. Para barras rellenas, configúrelo en`true` , y para barras vacías, configúrelo en`false`.
+    Establezca la dimensión X en píxeles y especifique si desea barras rellenas. Para barras rellenas, configúrelo en`true` , y para barras vacías, configúrelo en`false`.
 
    ```csharp
    gen.Parameters.Barcode.XDimension.Pixels = 2;
@@ -79,7 +79,7 @@ Con estos sencillos pasos, puede generar códigos de barras unidimensionales con
 
 ## Conclusión
 
-Aspose.BarCode para .NET es una herramienta poderosa y flexible que simplifica el proceso de generación de códigos de barras en sus aplicaciones .NET. Con unos pocos pasos fáciles de seguir, puede crear impresionantes códigos de barras para diversos fines, desde la gestión de inventario hasta el etiquetado de productos. Explora la documentación[aquí](https://reference.aspose.com/barcode/net/) para más detalles y características.
+Aspose.BarCode para .NET es una herramienta potente y flexible que simplifica el proceso de generación de códigos de barras en sus aplicaciones .NET. Con unos pocos pasos fáciles de seguir, puede crear impresionantes códigos de barras para diversos fines, desde la gestión de inventario hasta el etiquetado de productos. Explora la documentación[aquí](https://reference.aspose.com/barcode/net/) para más detalles y características.
 
 Incorpore Aspose.BarCode para .NET en sus proyectos y tome el control total de sus necesidades de generación de códigos de barras. Ya sea que necesite códigos de barras unidimensionales o bidimensionales, ¡esta biblioteca lo tiene cubierto!
 

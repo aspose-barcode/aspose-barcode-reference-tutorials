@@ -28,7 +28,7 @@ Avant de plonger dans le monde de la configuration de la zone silencieuse des co
 
 Dans votre projet C#, vous devez importer les espaces de noms nécessaires pour travailler avec Aspose.BarCode pour .NET. Voici comment procéder :
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.BarCode;

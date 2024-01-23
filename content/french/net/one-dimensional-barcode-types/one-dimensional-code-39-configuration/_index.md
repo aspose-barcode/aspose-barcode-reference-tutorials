@@ -22,7 +22,7 @@ Avant de plonger dans le monde de la génération de codes-barres avec Aspose.Ba
 
 Maintenant que nous avons couvert les prérequis, passons aux principales étapes de création de codes-barres Code 39 unidimensionnels à l'aide d'Aspose.BarCode pour .NET.
 
-## Étape 1 : Importer des espaces de noms
+## Étape 1 : Importer les espaces de noms
 Pour commencer à travailler avec Aspose.BarCode pour .NET, vous devrez importer les espaces de noms nécessaires dans votre projet. Ajoutez les lignes suivantes à votre code :
 
 ```csharp

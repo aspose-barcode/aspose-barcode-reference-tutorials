@@ -118,5 +118,5 @@ La gestion des exceptions est cruciale. Assurez-vous de mettre en œuvre une ges
 ### Aspose.BarCode est-il adapté aux applications à grande échelle ?
 Oui, Aspose.BarCode est conçu pour gérer des applications à grande échelle, offrant des performances et une fiabilité élevées.
 
-### Des licences temporaires sont-elles disponibles à des fins de test ?
+### Des licences temporaires sont-elles disponibles à des fins de tests ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests et d’évaluation.

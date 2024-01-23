@@ -94,7 +94,7 @@ Oui, vous pouvez entièrement personnaliser l’apparence de vos codes-barres, n
 ### Existe-t-il un essai gratuit disponible pour Aspose.BarCode pour .NET ?
 Oui, vous pouvez essayer Aspose.BarCode pour .NET en téléchargeant la version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 
-### Où puis-je obtenir de l'assistance pour Aspose.BarCode pour .NET ?
+### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
  Si vous avez des questions ou avez besoin d'aide, visitez le forum de support Aspose.BarCode for .NET.[ici](https://forum.aspose.com/c/barcode/13).
 
 ### Puis-je acheter une licence temporaire pour Aspose.BarCode pour .NET ?

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /zh/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
-在本教程中，我们将深入研究使用 Aspose.BarCode for .NET 自定义 Aztec 条形码的宽高比。 Aztec 条形码是通常用于编码数据的二维条形码，通过 Aspose.BarCode，您可以轻松创建和自定义这些条形码以满足您的特定要求。
+在本教程中，我们将深入研究使用 Aspose.BarCode for .NET 自定义 Aztec 条形码的纵横比。 Aztec 条形码是通常用于编码数据的二维条形码，通过 Aspose.BarCode，您可以轻松创建和自定义这些条形码以满足您的特定要求。
 
 ## 先决条件
 

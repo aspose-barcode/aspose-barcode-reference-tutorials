@@ -84,7 +84,7 @@ gen.Save($"{path}ITF14BorderSize15Pixels.png", BarCodeImageFormat.Png);
 
 I dessa rader ställer vi in kanttjockleken till 5 pixlar och sparar streckkodsbilden. Sedan ändrar vi tjockleken till 15 pixlar och sparar en annan bild. Du kan justera kanttjockleken efter dina krav.
 
-Grattis! Du har framgångsrikt anpassat gränstjockleken för en ITF-14 streckkod med Aspose.BarCode för .NET.
+Grattis! Du har framgångsrikt anpassat gränstjockleken för en ITF-14-streckkod med Aspose.BarCode för .NET.
 
 ## Slutsats
 

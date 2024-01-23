@@ -2,7 +2,7 @@
 title: Configuración de código de barras
 linktitle: Configuración de código de barras
 second_title: API de Java Aspose.BarCode
-description: Genere fácilmente códigos de barras personalizados en Java con Aspose.BarCode. Aumente la eficiencia y la facilidad de uso para los desarrolladores con nuestros versátiles tutoriales.
+description: Genere fácilmente códigos de barras personalizados en Java con Aspose.BarCode. Aumente la eficiencia y la facilidad de uso para los desarrolladores con nuestros tutoriales versátiles.
 type: docs
 weight: 24
 url: /es/java/barcode-configuration/
@@ -22,7 +22,7 @@ Genere códigos de parche de manera eficiente en Java con Aspose.BarCode. Siga n
 
 Navegue por el mundo de Australia Post Barcodes sin esfuerzo utilizando Aspose.BarCode en Java. Nuestro tutorial paso a paso garantiza una integración perfecta, lo que facilita la generación de códigos de barras. ¡Aumente la eficiencia con cada escaneo!
 
-## Gestión de dimensiones X e Y de código de barras en Java
+## Gestión de dimensiones X e Y de códigos de barras en Java
 
 ¡Desbloquee el poder de Aspose.BarCode para Java! Aprenda a gestionar sin esfuerzo las dimensiones X e Y con nuestra guía detallada. Mejore la precisión y el atractivo visual, haciendo que su aplicación se destaque.
 
@@ -50,7 +50,7 @@ Genere códigos de barras personalizados en Java sin esfuerzo con Aspose.BarCode
 Genere códigos de parche sin esfuerzo en Java con Aspose.BarCode. Siga nuestra guía paso a paso para una generación eficiente de códigos de barras.
 ### [Generando código de barras de Australia Post en Java](./generating-australia-post-barcode/)
 Genere códigos de barras de Australia Post sin esfuerzo en Java usando Aspose.BarCode. Siga nuestro tutorial paso a paso para una integración perfecta.
-### [Gestión de dimensiones X e Y de código de barras en Java](./managing-x-y-dimension-barcode/)
+### [Gestión de dimensiones X e Y de códigos de barras en Java](./managing-x-y-dimension-barcode/)
 ¡Explore el poder de Aspose.BarCode para Java! Aprenda a gestionar las dimensiones X e Y sin esfuerzo con nuestra guía paso a paso. Aumente la precisión y el atractivo visual.
 ### [Configuración de la altura de las barras en Java](./setting-bars-height/)
 Genere y personalice códigos de barras sin esfuerzo en Java con Aspose.BarCode. Establezca la altura de la barra, elija tipos y mejore las capacidades de su aplicación.

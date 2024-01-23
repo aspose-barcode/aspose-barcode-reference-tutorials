@@ -34,7 +34,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 ## 第1步：设置资源目录
 
-首先定义资源目录的路径。这是保存生成的条形码图像的位置。
+首先定义资源目录的路径。这是生成的条形码图像的保存位置。
 
 ```java
 String dataDir = "Your Document Directory";

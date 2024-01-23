@@ -91,7 +91,7 @@ A1: Codablock F — это двухмерная символика штрих-к
 
 ### Вопрос 4: Как получить временную лицензию на Aspose.BarCode?
 
- О4: Вы можете получить временную лицензию на[здесь](https://purchase.aspose.com/temporary-license/).
+ A4: Вы можете получить временную лицензию на[здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Вопрос 5: Где я могу приобрести полную лицензию на Aspose.BarCode для .NET?
 

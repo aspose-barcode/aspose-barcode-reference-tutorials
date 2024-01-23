@@ -1,5 +1,5 @@
 ---
-title: Beherrschen Sie die Barcode-Regionsextraktion in Java mit Aspose.BarCode
+title: Beherrschen der Barcode-Regionsextraktion in Java mit Aspose.BarCode
 linktitle: Extrahieren von Barcode-Regionsinformationen aus dem Bild
 second_title: Aspose.BarCode Java API
 description: Entdecken Sie Aspose.BarCode für Java, eine leistungsstarke Bibliothek zum mühelosen Extrahieren von Barcode-Regionsdetails. Erweitern Sie Ihre Java-Anwendungen präzise.

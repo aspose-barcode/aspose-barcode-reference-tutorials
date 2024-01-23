@@ -81,7 +81,7 @@ Cette ligne génère l'image du code-barres en fonction des paramètres que nous
 }
 ```
 
- Dans cette dernière étape, nous utilisons le`BarCodeReader` pour lire le code-barres de l'image générée. Nous précisons que nous attendons un code barre DataMatrix. Le code lit ensuite le code-barres et l'imprime s'il est programmable ou non par le lecteur.
+ Dans cette dernière étape, nous utilisons le`BarCodeReader` pour lire le code-barres de l'image générée. Nous précisons que nous attendons un code barre DataMatrix. Le code lit ensuite le code-barres et l'imprime, qu'il soit programmable ou non par le lecteur.
 
 Vous avez maintenant une compréhension complète de la répartition de l’exemple. Vous pouvez implémenter ce code dans votre application .NET pour effectuer la programmation du lecteur DataMatrix sans effort.
 

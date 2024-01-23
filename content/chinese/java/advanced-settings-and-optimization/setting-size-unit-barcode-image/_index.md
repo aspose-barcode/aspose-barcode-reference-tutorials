@@ -36,7 +36,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 现在，让我们将设置条形码图像尺寸单位的过程分解为简单易懂的步骤。
 
-## 步骤一：定义资源目录
+## 第 1 步：定义资源目录
 
 ```java
 //资源目录的路径。
@@ -77,7 +77,7 @@ bb.save(dataDir + "barcode-size-unit.jpg");
 
 ## 结论
 
-总之，Aspose.BarCode for Java 提供了一种无缝且高效的方法来在 Java 应用程序中操作条形码图像。通过遵循本分步指南，您已经了解了如何设置条形码图像的大小单位，为您的 Java 开发工作打开了无数可能性的大门。
+总之，Aspose.BarCode for Java 提供了一种无缝且高效的方法来在 Java 应用程序中操作条形码图像。通过遵循本分步指南，您已经了解了如何设置条形码图像的大小单位，从而为您的 Java 开发工作打开了无数可能性的大门。
 
 ## 常见问题解答
 

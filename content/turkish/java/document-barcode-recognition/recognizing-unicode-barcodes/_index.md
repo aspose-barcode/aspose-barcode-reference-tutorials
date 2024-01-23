@@ -45,7 +45,7 @@ String dataDir = "Your Document Directory";
 
 ## Adım 2: Aspose.BarCode Lisansını Ayarlayın
 
-Kütüphanenin tüm potansiyelini açığa çıkarmak için Aspose.BarCode lisansınızı yükleyin.
+Kütüphanenin tüm potansiyelini ortaya çıkarmak için Aspose.BarCode lisansınızı yükleyin.
 
 ```java
 try {

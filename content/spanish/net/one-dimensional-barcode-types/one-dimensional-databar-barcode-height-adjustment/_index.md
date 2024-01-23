@@ -44,7 +44,7 @@ Primero, necesitamos inicializar el Generador de códigos de barras con el tipo 
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarOmniDirectional, "(01)12345678901231");
 ```
 
-## Paso 3: establecer la dimensión X
+## Paso 3: Establecer la dimensión X
 
 La dimensión X representa el ancho de los elementos del código de barras. Puede configurar la dimensión X en píxeles.
 

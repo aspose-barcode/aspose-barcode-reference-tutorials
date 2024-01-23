@@ -21,7 +21,7 @@ DotCode Satırlar ve Sütunlar yapılandırmasının teknik yönlerine dalmadan 
 
 3. IDE: Kodlama için tercih ettiğiniz Entegre Geliştirme Ortamını (IDE) seçin. Visual Studio şiddetle tavsiye edilir, ancak istediğiniz herhangi bir IDE'yi kullanabilirsiniz.
 
-4. Temel C# Bilgisi: Bu eğitimdeki kod örneklerini anlamak için C# programlamaya aşina olmak çok önemlidir.
+4. Temel C# Bilgisi: C# programlamaya aşina olmak, bu eğitimdeki kod örneklerini anlamak için çok önemlidir.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -97,11 +97,11 @@ Bu eğitimde Aspose.BarCode for .NET'i kullanarak DotCode Satır ve Sütun konfi
 
 Cevap1: DotCode, sağlık ve ilaç endüstrilerinde küçük ambalaj etiketlerindeki büyük miktarda veriyi kodlamak için sıklıkla kullanılan bir 2D barkod sembolojisidir.
 
-### S2: Aspose.BarCode for .NET ile DotCode barkodlarının görünümünü özelleştirebilir miyim?
+### S2: DotCode barkodlarının görünümünü Aspose.BarCode for .NET ile özelleştirebilir miyim?
 
-C2: Evet, barkodun görünümünü, renkler, yazı tipleri ve daha fazlası dahil olmak üzere, özel marka gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz.
+C2: Evet, özel marka gereksinimlerinizi karşılamak için barkodun görünümünü renkler, yazı tipleri ve daha fazlası dahil olmak üzere özelleştirebilirsiniz.
 
-### S3: Aspose.BarCode for .NET çeşitli .NET Framework sürümleriyle uyumlu mudur?
+### S3: Aspose.BarCode for .NET çeşitli .NET Framework sürümleriyle uyumlu mu?
 
 Cevap3: Aspose.BarCode birden fazla .NET Framework sürümünü destekleyerek geniş bir uygulama yelpazesiyle uyumluluk sağlar.
 

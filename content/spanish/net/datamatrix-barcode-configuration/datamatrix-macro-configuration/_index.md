@@ -61,7 +61,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPO
 }
 ```
 
- En este fragmento de código, comenzamos definiendo una ruta de directorio para guardar la imagen del código de barras generada. Luego creamos una instancia de`BarcodeGenerator` con el tipo de codificación deseado (DataMatrix) y el valor ("ASPOSE"). Puede reemplazar "ASPOSE" con sus datos para codificar.
+ En este fragmento de código, comenzamos definiendo una ruta de directorio para guardar la imagen del código de barras generada. Luego creamos una instancia de`BarcodeGenerator` con el tipo de codificación deseado (DataMatrix) y valor ("ASPOSE"). Puede reemplazar "ASPOSE" con sus datos para codificar.
 
 ## Paso 3: personalizar los parámetros del código de barras
 

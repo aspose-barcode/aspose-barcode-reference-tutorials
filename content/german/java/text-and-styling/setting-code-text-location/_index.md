@@ -10,7 +10,7 @@ url: /de/java/text-and-styling/setting-code-text-location/
 
 ## Einführung
 
-In der riesigen Welt der Java-Programmierung ist die Erstellung und Verwaltung von Barcodes eine entscheidende Aufgabe in verschiedenen Anwendungen, von Inventarsystemen bis hin zur Logistik. Aspose.BarCode für Java zeichnet sich als leistungsstarkes Tool zur nahtlosen Generierung von Barcodes aus. In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit der Einrichtung und Verwendung von Aspose.BarCode zur mühelosen Generierung von Barcodes.
+In der riesigen Welt der Java-Programmierung ist die Erstellung und Verwaltung von Barcodes eine entscheidende Aufgabe in verschiedenen Anwendungen, von Lagersystemen bis hin zur Logistik. Aspose.BarCode für Java zeichnet sich als leistungsstarkes Tool zur nahtlosen Generierung von Barcodes aus. In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit der Einrichtung und Verwendung von Aspose.BarCode zur mühelosen Generierung von Barcodes.
 
 ## Voraussetzungen
 

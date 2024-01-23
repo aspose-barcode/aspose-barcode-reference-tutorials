@@ -68,7 +68,7 @@ generator.save(dataDir + "Codabar_Mod10.png");
 Теперь давайте реализуем часть распознавания штрих-кода CodaBar с помощью контрольной суммы.
 
 ```java
-// Инициализировать объект читателя
+// Инициализировать объект чтения
 BarCodeReader reader = new BarCodeReader(dataDir + "Codabar_Mod10.png", DecodeType.CODABAR);
 
 // Установите для свойства ChecksumValidation устройства чтения значение On.

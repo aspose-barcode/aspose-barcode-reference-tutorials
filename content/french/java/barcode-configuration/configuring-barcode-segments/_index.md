@@ -18,7 +18,7 @@ Aspose.BarCode for Java est une bibliothèque polyvalente qui facilite la géné
 
 Avant de nous lancer dans ce voyage de codage, assurez-vous d'avoir les conditions préalables suivantes en place :
 
-1.  Kit de développement Java (JDK) : Aspose.BarCode pour Java nécessite un JDK fonctionnel installé sur votre ordinateur. Vous pouvez télécharger le dernier JDK depuis[Le site d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  Kit de développement Java (JDK) : Aspose.BarCode pour Java nécessite un JDK fonctionnel installé sur votre ordinateur. Vous pouvez télécharger le dernier JDK depuis[Le site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2.  Bibliothèque Aspose.BarCode : téléchargez et installez la bibliothèque Aspose.BarCode pour Java à partir du[lien de téléchargement](https://releases.aspose.com/barcode/java/).
 

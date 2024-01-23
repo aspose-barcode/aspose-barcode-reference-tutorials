@@ -53,7 +53,7 @@ Asegúrese de reemplazar "Su directorio de documentos" con la ruta real a su dir
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
- Aquí, creamos una instancia de la`BarcodeGenerator` clase, especificando el tipo de simbología como CODE_128 y configurando el texto del código para el código de barras.
+ Aquí creamos una instancia del`BarcodeGenerator` clase, especificando el tipo de simbología como CODE_128 y configurando el texto del código para el código de barras.
 
 ## Paso 3: establecer la altura de la barra
 
@@ -77,7 +77,7 @@ Repita estos pasos y habrá configurado correctamente la unidad de tamaño para 
 
 ## Conclusión
 
-En conclusión, Aspose.BarCode para Java proporciona una forma sencilla y eficiente de manipular imágenes de códigos de barras en aplicaciones Java. Al seguir esta guía paso a paso, habrá aprendido cómo configurar la unidad de tamaño para una imagen de código de barras, lo que abre la puerta a una infinidad de posibilidades en sus esfuerzos de desarrollo de Java.
+En conclusión, Aspose.BarCode para Java proporciona una forma sencilla y eficiente de manipular imágenes de códigos de barras en aplicaciones Java. Siguiendo esta guía paso a paso, habrá aprendido cómo configurar la unidad de tamaño para una imagen de código de barras, lo que abre la puerta a una infinidad de posibilidades en sus esfuerzos de desarrollo de Java.
 
 ## Preguntas frecuentes
 

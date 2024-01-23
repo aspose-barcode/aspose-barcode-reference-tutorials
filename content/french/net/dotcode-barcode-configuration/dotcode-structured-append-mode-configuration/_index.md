@@ -53,7 +53,7 @@ Passons maintenant au cœur de la configuration du mode d'ajout structuré DotCo
 string path = "Your Directory Path";
 ```
 
-## Étape 2 : Créer un BarcodeGenerator
+## Étape 2 : Créer un générateur de codes-barres
 
 Créez une instance de la classe BarcodeGenerator, en spécifiant le type d'encodage et les données. Dans ce cas, nous utilisons DotCode avec les données « Aspose ».
 

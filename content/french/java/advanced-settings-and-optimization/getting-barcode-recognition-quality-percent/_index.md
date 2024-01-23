@@ -32,7 +32,7 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 
 ```
 
-Maintenant, décomposons l'exemple fourni en plusieurs étapes pour vous guider tout au long du processus d'obtention de la qualité de reconnaissance des codes-barres en pourcentage à l'aide d'Aspose.BarCode for Java.
+Maintenant, décomposons l'exemple fourni en plusieurs étapes pour vous guider tout au long du processus d'obtention de la qualité de reconnaissance des codes-barres en pourcentage à l'aide d'Aspose.BarCode pour Java.
 
 ## Étape 1 : Définir le chemin du répertoire de ressources
 

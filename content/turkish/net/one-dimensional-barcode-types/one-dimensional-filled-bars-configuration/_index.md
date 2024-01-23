@@ -92,7 +92,7 @@ Aspose.BarCode for .NET, Code128, QR Code, DataMatrix ve çok daha fazlasını i
 Evet, barkodlarınızın görünümünü boyut, renk ve kodlama dahil olmak üzere tamamen özelleştirebilirsiniz. Aspose.BarCode for .NET kapsamlı özelleştirme seçenekleri sunar.
 
 ### Aspose.BarCode for .NET'in ücretsiz deneme sürümü mevcut mu?
-Evet, Aspose.BarCode for .NET adresinden ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).
+Evet, Aspose.BarCode for .NET'i adresinden ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### Aspose.BarCode for .NET için nereden destek alabilirim?
  Sorularınız varsa veya yardıma ihtiyacınız varsa Aspose.BarCode for .NET destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/barcode/13).

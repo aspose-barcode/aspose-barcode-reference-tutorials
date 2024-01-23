@@ -99,7 +99,7 @@ generator.Parameters.Barcode.DataMatrix.DataMatrixVersion = DataMatrixVersion.EC
 generator.Save($"{path}DataMatrixRows29Columns29Ecc140.png", BarCodeImageFormat.Png);
 ```
 
-Nu när du har lärt dig hur du genererar DataMatrix-streckkoder med Aspose.BarCode för .NET, kan du enkelt integrera den här funktionen i dina .NET-applikationer.
+Nu när du har lärt dig hur du genererar DataMatrix-streckkoder med Aspose.BarCode för .NET, kan du enkelt integrera denna funktion i dina .NET-applikationer.
 
 ## Slutsats
 

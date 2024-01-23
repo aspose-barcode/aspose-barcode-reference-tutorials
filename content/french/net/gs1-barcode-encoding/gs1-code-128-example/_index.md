@@ -51,7 +51,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.GS1Code128, "(01)1234567
 
 Ce code initialise un générateur de codes-barres avec le type et les données spécifiés.
 
-## Étape 3 : Personnaliser les paramètres du code-barres
+## Étape 3 : Personnaliser les paramètres du code-barres
 Aspose.BarCode for .NET vous permet de personnaliser divers paramètres du code-barres, tels que XDimension (la largeur de l'élément étroit dans le code-barres). Dans cet exemple, nous définissons la XDimension sur 2 pixels :
 
 ```csharp

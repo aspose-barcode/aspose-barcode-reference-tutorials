@@ -72,7 +72,7 @@ Slutligen sparar du den genererade streckkodsbilden med angivet filnamn och form
 
 ## Slutsats
 
-I den här handledningen har vi utforskat hur man anpassar DotCode-bildförhållandet med Aspose.BarCode för .NET. Med den här funktionen kan du skapa streckkoder som uppfyller dina specifika krav, oavsett om det gäller förpackning, fraktetiketter eller någon annan applikation. Genom att följa stegen som beskrivs här kan du utnyttja kraften i Aspose.BarCode för att generera anpassade DotCode-streckkoder utan ansträngning.
+I den här handledningen har vi utforskat hur man anpassar DotCode-bildförhållandet med Aspose.BarCode för .NET. Den här funktionen låter dig skapa streckkoder som uppfyller dina specifika krav, oavsett om det gäller förpackning, fraktetiketter eller någon annan applikation. Genom att följa stegen som beskrivs här kan du utnyttja kraften i Aspose.BarCode för att generera anpassade DotCode-streckkoder utan ansträngning.
 
 Låt oss nu ta upp några vanliga frågor om DotCode-anpassning:
 

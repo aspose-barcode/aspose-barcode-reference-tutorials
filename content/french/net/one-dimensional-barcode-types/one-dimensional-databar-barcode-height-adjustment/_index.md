@@ -28,7 +28,7 @@ Maintenant que nous avons couvert les prérequis, passons au guide étape par é
 
 Avant de plonger dans le code, vous devez importer les espaces de noms nécessaires. Cela vous permet d'accéder aux classes et méthodes nécessaires pour travailler avec Aspose.BarCode pour .NET.
 
-## Étape 1 : Importer des espaces de noms
+## Étape 1 : Importer les espaces de noms
 ```csharp
 using Aspose.BarCode;
 ```

@@ -67,7 +67,7 @@ generator.save(dataDir + "codeTextForegroundColor.jpg");
 ### 我可以使用 Aspose.BarCode for Java 自定义条形码的其他方面吗？
 是的，Aspose.BarCode 提供了广泛的自定义选项，包括符号系统选择、大小调整和文本字体自定义。
 
-### Aspose.BarCode 是否与不同的 Java IDE 兼容？
+### Aspose.BarCode 与不同的 Java IDE 兼容吗？
 绝对地。 Aspose.BarCode 与 Eclipse、IntelliJ 和 NetBeans 等流行的 Java IDE 无缝集成。
 
 ### 我在哪里可以获得 Aspose.BarCode 相关查询的支持？

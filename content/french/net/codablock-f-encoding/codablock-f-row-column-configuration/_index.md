@@ -62,7 +62,7 @@ gen.Parameters.Barcode.Codablock.Rows = 4;
 gen.Save($"{path}CodablockFRow4.png", BarCodeImageFormat.Png);
 ```
 
-## Étape 4 : Définir les colonnes et les lignes CodablockF
+## Étape 4 : Définir les colonnes et les lignes CodablockF
 
 Dans cette étape, nous définirons simultanément les colonnes et les lignes pour créer un code-barres Codablock F avec une configuration spécifique.
 

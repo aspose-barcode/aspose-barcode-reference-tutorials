@@ -98,7 +98,7 @@ gen.Save($"{path}OneCSCode128ShowChecksum.png", BarCodeImageFormat.Png);
 نعم، Aspose.BarCode for .NET متوافق مع كل من .NET Framework و.NET Core.
 
 ### هل يمكنني تخصيص مظهر الباركود الذي تم إنشاؤه؟
-قطعاً! يتيح لك Aspose.BarCode تخصيص جوانب مختلفة من الباركود، بما في ذلك الحجم واللون وموضع النص.
+قطعاً! Aspose.BarCode يسمح لك بتخصيص جوانب مختلفة من الباركود، بما في ذلك الحجم واللون وموضع النص.
 
 ### هل Aspose.BarCode مناسب لإنشاء رموز QR؟
 بينما يركز Aspose.BarCode بشكل أساسي على الرموز الشريطية أحادية البعد، يمكنك استخدام Aspose.BarCode لـ .NET لإنشاء رموز QR أيضًا.

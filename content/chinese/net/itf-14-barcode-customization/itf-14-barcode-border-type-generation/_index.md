@@ -87,7 +87,7 @@ gen.Save($"{path}ITF14BorderFrameOut.png", BarCodeImageFormat.Png);
 
 ## 结论
 
-在本教程中，我们探索了如何使用 Aspose.BarCode for .NET 生成具有不同边框类型的 ITF-14 条形码。通过按照提供的步骤操作，您可以创建满足您的包装和标签需求的自定义条形码。
+在本教程中，我们探索了如何使用 Aspose.BarCode for .NET 生成具有不同边框类型的 ITF-14 条形码。通过按照提供的步骤操作，您可以根据您的包装和标签需求创建自定义条形码。
 
 Aspose.BarCode for .NET 为条形码生成提供了广泛的功能和自定义选项，使其成为各行业开发人员的宝贵工具。
 

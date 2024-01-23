@@ -26,7 +26,7 @@ Maintenant que nous avons réglé nos prérequis, passons à la personnalisation
 
 Dans cette première étape, nous importerons les espaces de noms nécessaires pour accéder aux classes et méthodes requises.
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.BarCode;

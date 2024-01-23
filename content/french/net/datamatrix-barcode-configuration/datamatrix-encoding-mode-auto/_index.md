@@ -32,7 +32,7 @@ using System.Drawing;
 
 Maintenant, décomposons l'exemple en plusieurs étapes pour créer le mode DataMatrix (Auto).
 
-## Étape 1 : définir le chemin du répertoire
+## Étape 1 : Définir le chemin du répertoire
 
  Tout d’abord, spécifiez le chemin du répertoire dans lequel vous souhaitez enregistrer vos images de codes-barres générées. Remplacer`"Your Directory Path"` avec le chemin du répertoire réel :
 

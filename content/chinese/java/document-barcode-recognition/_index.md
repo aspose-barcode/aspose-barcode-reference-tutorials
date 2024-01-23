@@ -20,7 +20,7 @@ url: /zh/java/document-barcode-recognition/
 
 ## 用Java识别Word文档中的条形码
 
-当我们演示将条形码识别从 Word 文档无缝集成到您的 Java 应用程序时，您将发现无限可能的世界。按照我们的教程来发现 Aspose.BarCode 的简单性和强大功能。增强您的文档处理能力并使条形码识别成为您的 Java 项目不可或缺的一部分。
+当我们演示将条形码识别从 Word 文档无缝集成到您的 Java 应用程序中时，您将发现无限可能的世界。按照我们的教程来发现 Aspose.BarCode 的简单性和强大功能。增强您的文档处理能力并使条形码识别成为您的 Java 项目不可或缺的一部分。
 
 ## 在 Java 中识别 Unicode 条形码
 

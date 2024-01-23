@@ -10,7 +10,7 @@ url: /zh/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 
 ## 介绍
 
-在 Java 开发领域，创建和渲染条形码是各种应用程序的常见要求。 Aspose.BarCode for Java 简化了这一过程，提供了轻松生成和渲染条形码的强大功能。在本教程中，我们将深入研究使用 Aspose.BarCode 在 Java 中将条形码渲染为图形对象的实际情况。
+在 Java 开发领域，创建和渲染条形码是各种应用程序的常见需求。 Aspose.BarCode for Java 简化了这一过程，提供了轻松生成和渲染条形码的强大功能。在本教程中，我们将深入研究使用 Aspose.BarCode 在 Java 中将条形码渲染为图形对象的实际情况。
 
 ## 先决条件
 

@@ -83,7 +83,7 @@ Cevap3: Bazı kodlama bilgileri yararlı olsa da Aspose.BarCode for .NET, hem ye
 
 ### S4: Aspose.BarCode for .NET ile oluşturulan barkodların görünümünü özelleştirebilir miyim?
 
-Cevap4: Evet, markalama ve uygulama gereksinimlerinize uyum sağlamak için barkodun boyut, renkler ve metin gibi çeşitli yönlerini özelleştirebilirsiniz.
+C4: Evet, markalama ve uygulama gereksinimlerinize uyum sağlamak için barkodun boyut, renkler ve metin gibi çeşitli yönlerini özelleştirebilirsiniz.
 
 ### S5: Aspose.BarCode for .NET'in ücretsiz deneme sürümü mevcut mu?
 

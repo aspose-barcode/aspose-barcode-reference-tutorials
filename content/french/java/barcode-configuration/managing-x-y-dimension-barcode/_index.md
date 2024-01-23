@@ -10,7 +10,7 @@ url: /fr/java/barcode-configuration/managing-x-y-dimension-barcode/
 
 ## Introduction
 
-Dans le domaine de la programmation Java, la gestion efficace des dimensions X et Y des codes-barres est un aspect crucial de la création d'images de codes-barres précises et visuellement attrayantes. Ce guide étape par étape vous guidera tout au long du processus d'utilisation d'Aspose.BarCode for Java, une puissante bibliothèque conçue pour simplifier la génération de codes-barres.
+Dans le domaine de la programmation Java, la gestion efficace des dimensions X et Y des codes-barres est un aspect crucial de la création d'images de codes-barres précises et visuellement attrayantes. Ce guide étape par étape vous guidera tout au long du processus d'utilisation d'Aspose.BarCode for Java, une bibliothèque puissante conçue pour simplifier la génération de codes-barres.
 
 ## Conditions préalables
 

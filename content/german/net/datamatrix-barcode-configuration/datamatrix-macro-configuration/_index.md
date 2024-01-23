@@ -65,7 +65,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPO
 
 ## Schritt 3: Passen Sie die Barcode-Parameter an
 
-Vor dem Generieren des Barcodes können Sie verschiedene Parameter anpassen, wie z. B. die XDimension (Größe der einzelnen Module) und MacroCharacters (in diesem Fall auf Macro05 eingestellt).
+Vor dem Generieren des Barcodes können Sie verschiedene Parameter anpassen, z. B. die XDimension (Größe der einzelnen Module) und MacroCharacters (in diesem Fall auf Macro05 eingestellt).
 
 ## Schritt 4: Speichern Sie den Barcode
 

@@ -10,7 +10,7 @@ url: /fr/java/image-manipulation/generating-barcode-empty-bars/
 
 ## Introduction
 
-Dans le monde dynamique du développement logiciel, l'intégration de capacités de génération de codes-barres dans les applications Java est devenue une exigence courante. Aspose.BarCode for Java se distingue comme une solution robuste, offrant aux développeurs un ensemble d'outils puissants pour créer différents types de codes-barres. Dans ce didacticiel, nous aborderons le processus de génération d'un code-barres avec des barres vides à l'aide d'Aspose.BarCode pour Java.
+Dans le monde dynamique du développement logiciel, l’intégration de capacités de génération de codes-barres dans les applications Java est devenue une exigence courante. Aspose.BarCode for Java se distingue comme une solution robuste, offrant aux développeurs un ensemble d'outils puissants pour créer différents types de codes-barres. Dans ce didacticiel, nous aborderons le processus de génération d'un code-barres avec des barres vides à l'aide d'Aspose.BarCode pour Java.
 
 ## Conditions préalables
 

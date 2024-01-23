@@ -13,7 +13,7 @@ Sblocca tutto il potenziale dell'integrazione dei codici a barre nelle tue appli
 
 ## Nozioni di base sui codici a barre
 
- Nel mondo dello sviluppo Java, comprendere le nozioni di base è fondamentale. Nostro[Nozioni di base sui codici a barre](./barcode-basics/) Il tutorial fornisce una guida completa per sfruttare la potenza dei codici a barre nelle tue applicazioni. Dall'integrazione perfetta alla personalizzazione e al riconoscimento, questo tutorial è il tuo punto di partenza per migliorare le tue capacità di codifica.
+ Nel mondo dello sviluppo Java, comprendere le nozioni di base è fondamentale. Nostro[Nozioni di base sui codici a barre](./barcode-basics/) Il tutorial fornisce una guida completa per sfruttare la potenza dei codici a barre nelle tue applicazioni. Dall'integrazione perfetta alla personalizzazione e al riconoscimento, questo tutorial è la tua via d'accesso per migliorare le tue capacità di codifica.
 
 ## Riconoscimento dei codici a barre dei documenti
 

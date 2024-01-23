@@ -99,7 +99,7 @@ Aspose.BarCode est conçu pour fonctionner avec différentes versions de Java. A
 ### Puis-je personnaliser l'apparence du code-barres généré ?
 Oui, Aspose.BarCode propose des options de personnalisation étendues, vous permettant de contrôler l'apparence des codes-barres générés.
 
-### Des licences temporaires sont-elles disponibles à des fins de test ?
+### Des licences temporaires sont-elles disponibles à des fins de tests ?
  Oui, vous pouvez obtenir une licence temporaire pour Aspose.BarCode auprès de[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Où puis-je trouver une assistance et des ressources supplémentaires ?

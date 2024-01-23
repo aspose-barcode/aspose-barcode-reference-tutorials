@@ -45,7 +45,7 @@ string path = "Your Directory Path";
 
 ## 2. Adım: AztecBytesEncoding'i başlatın
 
- Adı verilen bir bayt dizisini başlatarak başlıyoruz.`encodedArr` bazı örnek bayt değerleri ile.
+ Adı verilen bir bayt dizisini başlatarak başlıyoruz.`encodedArr` bazı örnek bayt değerleriyle.
 
 ```csharp
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };

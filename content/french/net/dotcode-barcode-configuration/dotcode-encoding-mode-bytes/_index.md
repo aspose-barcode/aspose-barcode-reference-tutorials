@@ -128,7 +128,7 @@ A1 : Le mode d'encodage DotCode est une méthode d'encodage de données dans u
 
  A3 : Vous pouvez obtenir une licence temporaire pour effectuer des tests auprès de[ici](https://purchase.aspose.com/temporary-license/).
 
-### Q4 : Puis-je personnaliser l’apparence des codes-barres DotCode avec Aspose.BarCode pour .NET ?
+### Q4 : Puis-je personnaliser l’apparence des codes-barres DotCode avec Aspose.BarCode for .NET ?
 
 A4 : Oui, Aspose.BarCode pour .NET offre une large gamme de paramètres pour personnaliser l'apparence des codes-barres, notamment la taille, la couleur, etc.
 

@@ -18,7 +18,7 @@ Aspose.BarCode for .NET ile barkod oluşturma dünyasına dalmadan önce, yerine
 
 1.  .NET Geliştirme Ortamı: .NET çerçevesi hakkında çalışma bilgisine sahip olmanız ve bir geliştirme ortamı kurmuş olmanız gerekir. .NET'te yeniyseniz .NET belgelerini incelemeyi düşünün:[Microsoft .NET Belgeleri](https://docs.microsoft.com/en-us/dotnet/).
 
-2. Aspose.BarCode for .NET: Aspose.BarCode for .NET'i indirip yükleyin. Kütüphaneyi ve belgeleri Aspose web sitesinde bulabilirsiniz:[Aspose.BarCode for .NET Belgelendirmesi](https://reference.aspose.com/barcode/net/) Ve[.NET için Aspose.BarCode'u indirin](https://releases.aspose.com/barcode/net/).
+2. Aspose.BarCode for .NET: Aspose.BarCode for .NET'i indirip yükleyin. Kütüphaneyi ve belgeleri Aspose web sitesinde bulabilirsiniz:[Aspose.BarCode for .NET Belgeleri](https://reference.aspose.com/barcode/net/) Ve[.NET için Aspose.BarCode'u indirin](https://releases.aspose.com/barcode/net/).
 
 Artık önkoşulları ele aldığımıza göre, Aspose.BarCode for .NET kullanarak tek boyutlu Code 39 barkodları oluşturmanın ana adımlarına geçelim.
 

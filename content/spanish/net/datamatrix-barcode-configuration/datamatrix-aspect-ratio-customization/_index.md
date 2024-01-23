@@ -39,7 +39,7 @@ Cree un nuevo proyecto en Visual Studio o abra uno existente. Asegúrese de habe
 
 ## Paso 2: Inicializar un generador de códigos de barras
 
- Para trabajar con códigos de barras DataMatrix, necesita inicializar un`BarcodeGenerator` objeto. Puede elegir el tipo de codificación y proporcionar los datos que desea codificar. En este ejemplo, utilizamos el tipo de codificación DataMatrix con los datos "Åspóse.Barcóde©":
+ Para trabajar con códigos de barras DataMatrix, debe inicializar un`BarcodeGenerator` objeto. Puede elegir el tipo de codificación y proporcionar los datos que desea codificar. En este ejemplo, utilizamos el tipo de codificación DataMatrix con los datos "Åspóse.Barcóde©":
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åspóse.Barcóde©"))

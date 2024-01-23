@@ -47,7 +47,7 @@ Guide étape par étape - Génération du coupon GGS1 Code à barres UPC-A 128
 
 Explorons le processus étape par étape de génération d'un code-barres GGS1 Coupon UPC-A Code 128 à l'aide d'Aspose.BarCode pour .NET. Dans cet exemple, nous décomposerons le code en étapes gérables pour une compréhension claire.
 
-## Étape 1 : définir le chemin du répertoire
+## Étape 1 : Définir le chemin du répertoire
 
 Commencez par définir le chemin du répertoire dans lequel vous souhaitez enregistrer l'image du code-barres générée.
 
@@ -67,7 +67,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "1
 
 Vous pouvez remplacer les données par les vôtres si nécessaire.
 
-## Étape 3 : Personnaliser les paramètres du code-barres
+## Étape 3 : Personnaliser les paramètres du code-barres
 
 Vous pouvez affiner divers paramètres de votre code-barres, tels que la dimension X (taille de la plus petite barre), le format de l'image, etc. Dans cet exemple, nous définissons la dimension X sur 2 pixels.
 

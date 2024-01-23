@@ -67,7 +67,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPO
 
 Barkodu oluşturmadan önce, XDimension (bireysel modüllerin boyutu) ve MacroCharacters (bu durumda Macro05 olarak ayarlanmıştır) gibi çeşitli parametreleri özelleştirebilirsiniz.
 
-## Adım 4: Barkodu kaydedin
+## 4. Adım: Barkodu kaydedin
 
 Oluşturulan DataMatrix barkodunu belirtilen dizin yoluna PNG görseli olarak kaydediyoruz.
 

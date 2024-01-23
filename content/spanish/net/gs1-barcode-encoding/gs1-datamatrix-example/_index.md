@@ -22,7 +22,7 @@ Ahora que tiene listos los requisitos previos, comencemos a generar códigos de 
 
 ## Importar espacios de nombres
 
-Primero, debe importar los espacios de nombres necesarios para trabajar con Aspose.BarCode para .NET. Estos espacios de nombres proporcionarán acceso a las capacidades de generación de códigos de barras.
+Primero, necesita importar los espacios de nombres necesarios para trabajar con Aspose.BarCode para .NET. Estos espacios de nombres proporcionarán acceso a las capacidades de generación de códigos de barras.
 
 ```csharp
 using Aspose.BarCode;

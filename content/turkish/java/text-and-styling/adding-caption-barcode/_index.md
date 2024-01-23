@@ -10,7 +10,7 @@ url: /tr/java/text-and-styling/adding-caption-barcode/
 
 ## giriiş
 
-Java programlama alanında barkodların kullanılması yaygın bir gerekliliktir ve Aspose.BarCode for Java bu görev için sağlam bir çözüm sunar. Barkodlara başlık eklemek, barkodların bilgilendiriciliğini artırır, onları daha kullanıcı dostu ve görsel olarak çekici hale getirir. Bu eğitim, Aspose.BarCode'u kullanarak Java'daki barkodlara başlık ekleme sürecinde size rehberlik edecektir.
+Java programlama alanında barkodların kullanılması yaygın bir gerekliliktir ve Aspose.BarCode for Java bu görev için sağlam bir çözüm sağlar. Barkodlara başlık eklemek, barkodların bilgilendiriciliğini artırır, onları daha kullanıcı dostu ve görsel olarak çekici hale getirir. Bu eğitim, Aspose.BarCode'u kullanarak Java'daki barkodlara başlık ekleme sürecinde size rehberlik edecektir.
 
 ## Önkoşullar
 
