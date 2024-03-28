@@ -85,7 +85,7 @@ Das Konfigurieren der Barcode-Ausrichtung in Java mit Aspose.BarCode ist ein unk
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.BarCode für Java?
 
-A3: Ja, Sie können die Funktionen von Aspose.BarCode erkunden, indem Sie eine kostenlose Testversion erwerben[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können die Funktionen von Aspose.BarCode erkunden, indem Sie eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich temporäre Lizenzen für Aspose.BarCode für Java erhalten?
 

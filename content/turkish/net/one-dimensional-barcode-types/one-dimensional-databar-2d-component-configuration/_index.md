@@ -74,7 +74,7 @@ Bu adımları tamamladıktan sonra Aspose.BarCode for .NET'i kullanarak Tek Boyu
 
 ## Çözüm
 
- Bu eğitimde, Aspose.BarCode for .NET kullanarak Tek Boyutlu Veri Çubuğu 2D bileşenini yapılandırma sürecini inceledik. Bu çok yönlü kitaplık, geliştiricilerin barkodları kolaylıkla oluşturmasına ve özelleştirmesine olanak tanır ve başlamanız için gerekli adımları ele aldık. Daha fazla ayrıntı ve seçenek için belgelere göz atmayı unutmayın:[Aspose.BarCode for .NET Belgelendirmesi](https://reference.aspose.com/barcode/net/).
+ Bu eğitimde, Aspose.BarCode for .NET kullanarak Tek Boyutlu Veri Çubuğu 2D bileşenini yapılandırma sürecini inceledik. Bu çok yönlü kitaplık, geliştiricilerin barkodları kolaylıkla oluşturmasına ve özelleştirmesine olanak tanır ve başlamanız için gerekli adımları ele aldık. Daha fazla ayrıntı ve seçenek için belgelere göz atmayı unutmayın:[Aspose.BarCode for .NET Belgeleri](https://reference.aspose.com/barcode/net/).
 
 .NET'te güvenilir bir barkod oluşturma çözümü arıyorsanız Aspose.BarCode güçlü bir seçimdir. Bu adımları denemekten ve özel ihtiyaçlarınıza uyarlamaktan çekinmeyin ve bugün kendi özel barkodlarınızı oluşturmaya başlayın!
 

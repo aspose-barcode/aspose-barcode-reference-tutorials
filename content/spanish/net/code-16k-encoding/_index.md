@@ -20,7 +20,7 @@ En este tutorial, lo guiaremos a través del proceso de personalización de las 
 
 ### Sumérgete en el mundo de la personalización
 
-A medida que profundice en el tutorial, descubrirá el poder de Aspose.BarCode para .NET al proporcionar una interfaz fácil de usar para la personalización. Dígale adiós a los códigos de barras únicos: con nuestra guía, podrá crear códigos de barras que no solo cumplan sino que superen sus expectativas.
+A medida que profundice en el tutorial, descubrirá el poder de Aspose.BarCode para .NET al proporcionar una interfaz fácil de usar para la personalización. Dígale adiós a los códigos de barras universales: con nuestra guía, podrá crear códigos de barras que no solo cumplan sino que superen sus expectativas.
 
 Prepárese para dar rienda suelta a su creatividad y mejorar el atractivo visual de sus códigos de barras. Desde ajustar dimensiones hasta experimentar con diferentes proporciones, las posibilidades son infinitas. Entendemos que cada proyecto es único y este tutorial garantiza que tenga las herramientas para hacer que sus códigos de barras Code 16K sean tan únicos como lo exige su aplicación.
 

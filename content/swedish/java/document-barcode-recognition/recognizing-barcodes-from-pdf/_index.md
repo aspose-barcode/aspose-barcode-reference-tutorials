@@ -95,7 +95,7 @@ Upprepa dessa steg vid behov, justera filnamn och sökvägar därefter.
 
 ## Slutsats
 
- Grattis! Du har framgångsrikt lärt dig hur du känner igen streckkoder från PDF-filer med Aspose.BarCode för Java. Denna handledning syftade till att ge en omfattande guide samtidigt som enkelheten och tydligheten bibehålls. Känn dig fri att utforska fler funktioner och funktioner som erbjuds av Aspose.BarCode i[dokumentation](https://reference.aspose.com/barcode/java/).
+ Grattis! Du har framgångsrikt lärt dig hur du känner igen streckkoder från PDF-filer med Aspose.BarCode för Java. Denna handledning syftade till att ge en omfattande guide samtidigt som enkelheten och tydligheten bibehålls. Utforska gärna fler funktioner och funktioner som erbjuds av Aspose.BarCode i[dokumentation](https://reference.aspose.com/barcode/java/).
 
 ## Vanliga frågor (FAQs)
 

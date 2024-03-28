@@ -57,7 +57,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åsp
 
  En el fragmento de código anterior, primero creamos una instancia de`BarcodeGenerator` clase, especificando el tipo de código de barras como DataMatrix. También configuramos el valor del código de barras en "Åspóse.Barcóde©" como ejemplo.
 
-Luego personalizamos el código de barras configurando XDimension en píxeles y el tipo DataMatrix ECC en ECC 140. Finalmente, guardamos la imagen del código de barras generada en la ruta del directorio especificada.
+Luego personalizamos el código de barras configurando XDimension en píxeles y el tipo ECC de DataMatrix en ECC 140. Finalmente, guardamos la imagen del código de barras generada en la ruta del directorio especificada.
 
 ¡Felicidades! Ha generado con éxito un código de barras DataMatrix ECC 000-140 utilizando Aspose.BarCode para .NET.
 

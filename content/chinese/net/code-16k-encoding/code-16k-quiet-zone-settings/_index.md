@@ -81,7 +81,7 @@ gen.Save($"{path}Code16KQuietZoneL20R20.png", BarCodeImageFormat.Png);
 
 ## 结论
 
-在这个综合教程中，我们揭开了使用 Aspose.BarCode for .NET 掌握 Code 16K Quiet Zone 设置的过程。了解条码生成中安静区域的重要性对于确保扫描可靠性至关重要。有了这些知识，您就可以根据特定要求定制 Code 16K 条形码，确保它们无缝地适合您的应用程序。
+在这个综合教程中，我们揭开了使用 Aspose.BarCode for .NET 掌握 Code 16K Quiet Zone 设置的过程。了解条码生成中安静区域的重要性对于确保扫描可靠性至关重要。有了这些知识，您可以根据特定要求定制 Code 16K 条码，确保它们无缝地适合您的应用程序。
 
 当您踏上条形码创建之旅时，请记住精确度和对细节的关注是关键。如果您有任何疑问或遇到任何问题，请随时寻求 Aspose.BarCode 社区的支持[这里](https://forum.aspose.com/c/barcode/13).
 

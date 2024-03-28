@@ -131,7 +131,7 @@ Aspose.BarCode för .NET är ett kraftfullt verktyg som förenklar generering av
 
 ### F1: Vad används DotCode till?
 
-S1: DotCode används för att koda både text och binär data och används ofta i branscher som sjukvård och logistik för spårnings- och datakodningsändamål.
+A1: DotCode används för att koda både text- och binärdata och används ofta i branscher som sjukvård och logistik för spårnings- och datakodningsändamål.
 
 ### F2: Kan jag anpassa utseendet på DotCode-streckkoder?
 

@@ -88,7 +88,7 @@ Nu när du framgångsrikt har lärt dig hur du hanterar undantag när du arbetar
 
 ## Slutsats
 
-Undantagshantering är en kritisk aspekt av alla streckkodsgenereringsprojekt, vilket säkerställer att din applikation elegant kan hantera oväntade scenarier. Med Aspose.BarCode för .NET kan du tryggt generera och hantera endimensionella streckkoder, inklusive undantagshantering vid behov. Detta robusta bibliotek förenklar processen, så att du kan fokusera på din applikations kärnfunktioner.
+Undantagshantering är en kritisk aspekt av alla streckkodsgenereringsprojekt, vilket säkerställer att din applikation graciöst kan hantera oväntade scenarier. Med Aspose.BarCode för .NET kan du tryggt generera och hantera endimensionella streckkoder, inklusive undantagshantering vid behov. Detta robusta bibliotek förenklar processen, så att du kan fokusera på din applikations kärnfunktioner.
 
 ## Vanliga frågor (FAQs)
 

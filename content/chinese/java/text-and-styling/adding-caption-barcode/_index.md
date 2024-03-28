@@ -10,7 +10,7 @@ url: /zh/java/text-and-styling/adding-caption-barcode/
 
 ## 介绍
 
-在 Java 编程领域，合并条形码是一种常见的需要，Aspose.BarCode for Java 为该任务提供了强大的解决方案。向条形码添加标题可以增强其信息量，使它们更加用户友好且更具视觉吸引力。本教程将指导您完成使用 Aspose.BarCode 在 Java 中向条形码添加标题的过程。
+在 Java 编程领域，合并条形码是一种常见的需求，Aspose.BarCode for Java 为该任务提供了强大的解决方案。向条形码添加标题可以增强其信息量，使它们更加用户友好且更具视觉吸引力。本教程将指导您完成使用 Aspose.BarCode 在 Java 中向条形码添加标题的过程。
 
 ## 先决条件
 

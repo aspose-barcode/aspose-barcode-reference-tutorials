@@ -81,7 +81,7 @@ bb.getParameters().getBarcode().getCodeTextParameters().setColor(Color.RED);
 
 ## Passaggio 7: salva l'immagine del codice a barre colorato
 
-Salva l'immagine del codice a barre colorato nella directory specificata.
+Salva l'immagine del codice a barre colorata nella directory specificata.
 
 ```java
 bb.save(dataDir + "colorizeBarcode.png");

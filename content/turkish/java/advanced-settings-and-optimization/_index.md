@@ -50,7 +50,7 @@ Aspose.BarCode ile Java'da barkod tanımayı hızlandırın. Adım adım kılavu
 
 ## Java'da Tek Bir Görüntü Üzerinde Çoklu Barkod Oluşturma
 
-Aspose.BarCode for Java'yı kullanarak tek bir görüntü üzerinde zahmetsizce birden fazla barkod oluşturun. Eğitimimiz, sorunsuz entegrasyon için adım adım bir kılavuz sunarak uygulamalarınızda çoklu barkod oluşturmanın tüm potansiyelini açığa çıkarmanıza olanak tanır.
+Aspose.BarCode for Java'yı kullanarak tek bir görüntü üzerinde zahmetsizce birden fazla barkod oluşturun. Eğitimimiz, kusursuz entegrasyon için adım adım bir kılavuz sunarak uygulamalarınızda çoklu barkod oluşturmanın tüm potansiyelini ortaya çıkarmanıza olanak tanır.
 
 ## Java'daki Bir Görüntüden Olası Tüm 1D Barkodları Alma
 

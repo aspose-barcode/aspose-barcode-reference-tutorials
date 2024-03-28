@@ -2,7 +2,7 @@
 title: Symbologie und Format
 linktitle: Symbologie und Format
 second_title: Aspose.BarCode Java API
-description: Erweitern Sie Ihre Java-Anwendungen mit Aspose.BarCode-Tutorials! Meistern Sie die Spezifizierung der Symbologie, rufen Sie Barcodes ab und erkennen Sie sie und generieren und speichern Sie mühelos dynamische Barcodes.
+description: Erweitern Sie Ihre Java-Anwendungen mit Aspose.BarCode-Tutorials! Meistern Sie die Angabe der Symbologie, rufen Sie Barcodes ab und erkennen Sie sie und generieren und speichern Sie mühelos dynamische Barcodes.
 type: docs
 weight: 26
 url: /de/java/symbology-and-format/

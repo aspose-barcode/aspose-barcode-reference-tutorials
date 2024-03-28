@@ -10,7 +10,7 @@ url: /es/java/barcode-configuration/setting-start-stop-symbols/
 
 ## Introducción
 
-¡Bienvenido a nuestra guía completa sobre cómo configurar símbolos de inicio y parada usando Aspose.BarCode para Java! En este tutorial, profundizaremos en el proceso de generación de códigos de barras con símbolos de inicio y parada específicos utilizando la potente biblioteca Java de Aspose.BarCode. Si es un desarrollador experimentado o recién comienza, esta guía paso a paso le brindará el conocimiento para utilizar Aspose.BarCode de manera eficiente para sus necesidades de generación de códigos de barras.
+¡Bienvenido a nuestra guía completa sobre cómo configurar símbolos de inicio y parada usando Aspose.BarCode para Java! En este tutorial, profundizaremos en el proceso de generación de códigos de barras con símbolos de inicio y parada específicos utilizando la poderosa biblioteca Java de Aspose.BarCode. Si es un desarrollador experimentado o recién comienza, esta guía paso a paso le brindará el conocimiento para utilizar Aspose.BarCode de manera eficiente para sus necesidades de generación de códigos de barras.
 
 ## Requisitos previos
 
@@ -59,7 +59,7 @@ BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes
 generator.getParameters().getBarcode().getCodabar().setCodabarStartSymbol(CodabarSymbol.A);
 ```
 
- Utilizar el`setCodabarStartSymbol` Método para configurar el símbolo de inicio de Codabar. En este ejemplo, lo configuramos en 'A'.
+ Utilizar el`setCodabarStartSymbol` método para configurar el símbolo de inicio de Codabar. En este ejemplo, lo configuramos en 'A'.
 
 ## Paso 4: Establecer el símbolo de parada de Codabar
 

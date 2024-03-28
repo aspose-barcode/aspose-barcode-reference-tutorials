@@ -100,7 +100,7 @@ Aspose.BarCode está diseñado para funcionar con varias versiones de Java. Aseg
 Sí, Aspose.BarCode ofrece amplias opciones de personalización, lo que le permite controlar la apariencia de los códigos de barras generados.
 
 ### ¿Hay licencias temporales disponibles para fines de prueba?
- Sí, puede obtener una licencia temporal para Aspose.BarCode en[aquí](https://purchase.aspose.com/temporary-license/).
+ Sí, puede obtener una licencia temporal para Aspose.BarCode desde[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Dónde puedo encontrar apoyo y recursos adicionales?
  Visita el[Foro Aspose.BarCode](https://forum.aspose.com/c/barcode/13) para apoyo y debates de la comunidad.

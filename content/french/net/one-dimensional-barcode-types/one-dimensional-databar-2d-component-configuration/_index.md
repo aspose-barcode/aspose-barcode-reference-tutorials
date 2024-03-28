@@ -16,7 +16,7 @@ Avant d'entrer dans les détails de la configuration du composant One-Dimensiona
 
 1. Installation : assurez-vous que Aspose.BarCode for .NET est installé dans votre environnement de développement. Sinon, vous pouvez le télécharger sur le site[ici](https://releases.aspose.com/barcode/net/).
 
-2. Compréhension de base : une connaissance de base du développement C# et .NET est recommandée pour ce didacticiel.
+2. Compréhension de base : une connaissance de base du développement C# et .NET est recommandée pour ce didacticiel.
 
 3. Environnement de développement : vous devez disposer d'un environnement de développement, comprenant Visual Studio ou tout autre éditeur de code de votre choix.
 

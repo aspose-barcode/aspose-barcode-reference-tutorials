@@ -55,7 +55,7 @@ Que vous soyez un développeur Java débutant ou expérimenté, ces didacticiels
 
 ##  Aspose.BarCode pour les didacticiels Java
 ### [Bases des codes-barres](./barcode-basics/)
-Libérez la puissance des codes-barres dans vos applications Java ! Plongez dans les didacticiels Aspose.BarCode pour une intégration, une personnalisation et une reconnaissance transparentes. Élevez vos compétences en codage dès aujourd’hui.
+Libérez la puissance des codes-barres dans vos applications Java ! Plongez dans les didacticiels Aspose.BarCode pour une intégration, une personnalisation et une reconnaissance transparentes. Élevez vos compétences en codage dès aujourd'hui.
 ### [Reconnaissance de codes-barres de documents](./document-barcode-recognition/)
 Libérez la puissance de la reconnaissance des codes-barres en Java avec Aspose.BarCode ! Apprenez à intégrer, lire et trier de manière transparente les codes-barres à partir de fichiers PDF, de documents Word et d'ensembles Unicode.
 ### [Prise en charge multilingue](./multilingual-support/)

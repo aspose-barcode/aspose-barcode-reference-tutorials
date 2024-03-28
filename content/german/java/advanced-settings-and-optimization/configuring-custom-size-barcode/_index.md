@@ -99,7 +99,7 @@ A1: Ja, Aspose.BarCode für Java unterstützt verschiedene Symbologietypen, soda
 
 ### F2: Gibt es eine Testversion?
 
- A2: Ja, Sie können die Funktionen von Aspose.BarCode erkunden, indem Sie eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+ A2: Ja, Sie können die Funktionen von Aspose.BarCode erkunden, indem Sie eine kostenlose Testversion erwerben[Hier](https://releases.aspose.com/).
 
 ### F3: Wo finde ich eine ausführliche Dokumentation?
 

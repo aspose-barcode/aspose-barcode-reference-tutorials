@@ -39,7 +39,7 @@ Inicialice un objeto BarcodeGenerator con el tipo de codificación y los datos d
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "123456");
 ```
 
-## Paso 2: generar imagen de código de barras
+## Paso 2: Generar imagen de código de barras
 
 Genere la imagen del código de barras y guárdela en ByteArrayOutputStream.
 

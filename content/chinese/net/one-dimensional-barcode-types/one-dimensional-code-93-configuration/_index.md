@@ -58,7 +58,7 @@ gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 
 ## 第 4 步：保存条形码图像
 
-现在我们已经配置了条形码，是时候生成并将其作为图像保存在指定目录中了。在本例中，我们将其保存为 PNG 图像。
+现在我们已经配置了条形码，是时候生成它并将其保存为指定目录中的图像了。在本例中，我们将其保存为 PNG 图像。
 
 ```csharp
 gen.Save($"{path}OneCSCode93WithChecksum.png", BarCodeImageFormat.Png);

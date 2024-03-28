@@ -42,7 +42,7 @@ import com.aspose.barcode.EncodeTypes;
 
 Cree un nuevo proyecto Java en su entorno de desarrollo integrado (IDE) preferido y asegúrese de que la biblioteca Aspose.BarCode se agregue a las dependencias de su proyecto.
 
-## Paso 2: generar imagen de código de barras
+## Paso 2: Generar imagen de código de barras
 
 Cree una instancia de un objeto de código de barras lineal, establezca el texto del código y especifique el tipo de simbología para el código de barras. Guarde la imagen del código de barras generada en la ubicación deseada.
 

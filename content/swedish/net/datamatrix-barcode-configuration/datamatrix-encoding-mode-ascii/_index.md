@@ -51,7 +51,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspo
     // Ställ in streckkodens X-dimension (storlek) i pixlar
     gen.Parameters.Barcode.XDimension.Pixels = 4;
     
-    // Ställ in kodningsläget till ASCII
+    // Ställ in kodningsläget på ASCII
     gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
     
     // Spara streckkoden som en PNG-bild
@@ -65,7 +65,7 @@ Och det är allt! Du har framgångsrikt kodat data med ASCII-läget i en DataMat
 
 den här handledningen har vi utforskat hur man använder Aspose.BarCode för .NET för att skapa DataMatrix-streckkoder i ASCII-läge. Med rätt förutsättningar och dessa lätta att följa steg kan du nu generera ASCII-kodade DataMatrix-streckkoder utan ansträngning. Oavsett om du skapar lageretiketter, fraktetiketter eller något annat program som kräver datakodning, har Aspose.BarCode för .NET dig täckt.
 
-Experimentera gärna med olika data och kodningslägen för att möta dina specifika behov. När du utforskar ytterligare kommer du att upptäcka att Aspose.BarCode erbjuder ett brett utbud av funktioner och anpassningsalternativ för att förbättra din upplevelse av streckkodsgenerering.
+Experimentera gärna med olika data och kodningslägen för att möta dina specifika behov. När du utforskar vidare kommer du att upptäcka att Aspose.BarCode erbjuder ett brett utbud av funktioner och anpassningsalternativ för att förbättra din upplevelse av streckkodsgenerering.
 
  Om du har några frågor eller behöver hjälp, tveka inte att besöka[Aspose.BarCode för .NET-dokumentation](https://reference.aspose.com/barcode/net/) eller nå ut till samhället på[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
 

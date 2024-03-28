@@ -2,7 +2,7 @@
 title: 使用 Aspose.BarCode 在 Java 中对条形码图像进行着色
 linktitle: 条形码图像着色
 second_title: Aspose.BarCode Java API
-description: 了解如何使用 Aspose.BarCode 轻松地在 Java 中为条形码图像着色。按照我们的分步指南获得充满活力且具有视觉吸引力的结果。
+description: 了解如何使用 Aspose.BarCode 在 Java 中轻松地为条形码图像着色。按照我们的分步指南获得充满活力且具有视觉吸引力的结果。
 type: docs
 weight: 13
 url: /zh/java/image-manipulation/colorizing-barcode-image/

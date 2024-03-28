@@ -81,7 +81,7 @@ Den här raden genererar streckkodsbilden baserat på inställningarna vi konfig
 }
 ```
 
- I det här sista steget använder vi`BarCodeReader` för att läsa streckkoden från den genererade bilden. Vi anger att vi förväntar oss en DataMatrix-streckkod. Koden läser sedan streckkoden och skriver ut om den är läsarprogrammerbar eller inte.
+ I detta sista steg använder vi`BarCodeReader` för att läsa streckkoden från den genererade bilden. Vi anger att vi förväntar oss en DataMatrix-streckkod. Koden läser sedan streckkoden och skriver ut om den är läsarprogrammerbar eller inte.
 
 Nu har du en fullständig förståelse för exemplets uppdelning. Du kan implementera den här koden i din .NET-applikation för att utföra DataMatrix-läsarprogrammering utan ansträngning.
 

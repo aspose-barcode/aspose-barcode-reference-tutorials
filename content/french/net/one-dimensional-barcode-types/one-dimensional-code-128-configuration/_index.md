@@ -36,7 +36,7 @@ using Aspose.BarCode.Generation;
 
 Créons maintenant des codes-barres Code 128 à l'aide d'Aspose.BarCode pour .NET. Nous passerons en revue chaque étape en détail, en veillant à ce que vous ayez une compréhension claire du processus.
 
-### Étape 2 : Définir le chemin
+### Étape 2 : définir le chemin
 
 Tout d’abord, définissez le chemin d’accès au répertoire dans lequel vous souhaitez enregistrer les images de codes-barres générées.
 
@@ -106,5 +106,5 @@ Bien qu'Aspose.BarCode se concentre principalement sur les codes-barres unidimen
 ### Existe-t-il un essai gratuit disponible ?
  Oui, vous pouvez essayer Aspose.BarCode pour .NET gratuitement en téléchargeant la version d'essai[ici](https://releases.aspose.com/).
 
-### Où puis-je obtenir de l'assistance pour Aspose.BarCode pour .NET ?
+### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
  Vous pouvez demander de l'aide et partager vos expériences sur le forum Aspose.BarCode for .NET.[ici](https://forum.aspose.com/c/barcode/13).

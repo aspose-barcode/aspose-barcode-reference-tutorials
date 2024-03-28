@@ -87,7 +87,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPO
 
 ### Вопрос 1. Что такое Aspose.BarCode для .NET?
 
-A1: Aspose.BarCode для .NET — это мощная библиотека, которая позволяет разработчикам .NET генерировать и распознавать штрих-коды в различных форматах, включая DataMatrix, QR-коды и т. д.
+A1: Aspose.BarCode для .NET — это мощная библиотека, которая позволяет разработчикам .NET генерировать и распознавать штрих-коды в различных форматах, включая DataMatrix, QR-коды и другие.
 
 ### Вопрос 2. Почему мне следует использовать штрих-коды DataMatrix?
 

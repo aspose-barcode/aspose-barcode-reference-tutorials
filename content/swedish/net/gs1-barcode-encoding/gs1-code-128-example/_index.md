@@ -52,7 +52,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.GS1Code128, "(01)1234567
 Denna kod initierar en streckkodsgenerator med angiven typ och data.
 
 ## Steg 3: Anpassa streckkodsparametrar
-Aspose.BarCode för .NET låter dig anpassa olika parametrar för streckkoden, såsom XDimension (bredden på det smala elementet i streckkoden). I det här exemplet ställer vi in XDimension till 2 pixlar:
+Aspose.BarCode för .NET låter dig anpassa olika parametrar för streckkoden, till exempel XDimension (bredden på det smala elementet i streckkoden). I det här exemplet ställer vi in XDimension till 2 pixlar:
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;

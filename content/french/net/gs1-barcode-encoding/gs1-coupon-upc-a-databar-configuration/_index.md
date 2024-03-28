@@ -83,6 +83,6 @@ Vous pouvez télécharger Aspose.BarCode pour .NET à partir du[page de téléch
 ### Comment puis-je obtenir un permis temporaire ?
  Si vous avez besoin d'une licence temporaire, vous pouvez trouver les détails[ici](https://purchase.aspose.com/temporary-license/).
 
-### Où puis-je obtenir de l'assistance pour Aspose.BarCode pour .NET ?
+### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
  Pour toute assistance technique ou question, vous pouvez visiter le[Forum de support Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
 

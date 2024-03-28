@@ -63,9 +63,9 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPO
 
  Dans cet extrait de code, nous commençons par définir un chemin de répertoire pour enregistrer l'image de code-barres générée. Nous créons ensuite une instance de`BarcodeGenerator` avec le type d'encodage (DataMatrix) et la valeur ("ASPOSE") souhaités. Vous pouvez remplacer "ASPOSE" par vos données à encoder.
 
-## Étape 3 : Personnaliser les paramètres du code-barres
+## Étape 3 : Personnaliser les paramètres du code-barres
 
-Avant de générer le code-barres, vous pouvez personnaliser divers paramètres, tels que la XDimension (taille des modules individuels) et les MacroCharacters (qui, dans ce cas, sont définis sur Macro05).
+Avant de générer le code-barres, vous pouvez personnaliser divers paramètres, tels que la XDimension (taille des modules individuels) et les MacroCharacters (qui, dans ce cas, est défini sur Macro05).
 
 ## Étape 4 : Enregistrez le code-barres
 

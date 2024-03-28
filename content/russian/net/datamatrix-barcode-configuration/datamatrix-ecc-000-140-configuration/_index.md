@@ -50,7 +50,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åsp
     // Установите DataMatrix ECC на 140.
     gen.Parameters.Barcode.DataMatrix.DataMatrixEcc = DataMatrixEccType.Ecc140;
 
-    // Сохраните сгенерированное изображение штрих-кода.
+    // Сохраните созданное изображение штрих-кода.
     gen.Save($"{path}DataMatrixEcc000140.png", BarCodeImageFormat.Png);
 }
 ```

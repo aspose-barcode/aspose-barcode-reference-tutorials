@@ -73,7 +73,7 @@ Zusammenfassend bietet Aspose.BarCode für Java eine nahtlose Lösung zur Verbes
 
 A1: Aspose.BarCode unterstützt eine Vielzahl von Barcode-Typen und gewährleistet so die Kompatibilität mit verschiedenen Industriestandards.
 
-### F2: Kann ich Aspose.BarCode für kommerzielle Zwecke nutzen?
+### F2: Kann ich Aspose.BarCode für kommerzielle Zwecke verwenden?
 
  A2: Ja, Sie können Aspose.BarCode sowohl für persönliche als auch für kommerzielle Projekte verwenden. Einzelheiten zur Lizenzierung finden Sie unter[Hier](https://purchase.aspose.com/buy).
 

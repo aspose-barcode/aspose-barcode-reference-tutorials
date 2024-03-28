@@ -57,7 +57,7 @@ En este paso, hemos configurado el código de barras DataMatrix con los parámet
 
 ## Paso 2: leer el código de barras estructurado de DataMatrix
 
-Ahora que ha generado el código de barras, es momento de leer su información. Usaremos la biblioteca Aspose.BarCode para decodificar los datos del código de barras.
+Ahora que ha generado el código de barras, es hora de leer su información. Usaremos la biblioteca Aspose.BarCode para decodificar los datos del código de barras.
 
 ```csharp
     using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))

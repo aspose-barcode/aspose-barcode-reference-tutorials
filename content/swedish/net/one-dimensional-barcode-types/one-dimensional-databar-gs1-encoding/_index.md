@@ -40,7 +40,7 @@ System.Console.WriteLine("OneDDatabarGS1Encoding:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "");
 ```
 
-## Steg 2: Skapa en streckkod med GS1-kodning
+## Steg 2: Generera en streckkod med GS1-kodning
 
 Nu kommer vi att ställa in kodtexten med GS1Encoding check och spara den genererade streckkodsbilden. 
 

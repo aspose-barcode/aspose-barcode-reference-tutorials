@@ -58,7 +58,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 Ici, nous avons défini la dimension X sur 2 pixels, mais vous pouvez l'ajuster en fonction de vos besoins spécifiques.
 
-## Étape 3 : Définir les caractères de début et d'arrêt
+## Étape 3 : Définir les caractères de début et d’arrêt
 
 Les codes-barres Codabar comportent différents symboles de début et d'arrêt, notamment A, B, C et D. En fonction de vos besoins, vous pouvez définir ces symboles en conséquence. Regardons chaque cas :
 

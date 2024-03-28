@@ -10,7 +10,7 @@ url: /zh/java/text-and-styling/setting-code-text-location/
 
 ## 介绍
 
-在广阔的 Java 编程世界中，创建和管理条形码是从库存系统到物流等各种应用程序中的一项关键任务。 Aspose.BarCode for Java 作为无缝生成条形码的强大工具而脱颖而出。在本分步指南中，我们将深入研究设置和利用 Aspose.BarCode 轻松生成条形码的过程。
+在 Java 编程的广阔世界中，创建和管理条形码是从库存系统到物流等各种应用程序中的一项关键任务。 Aspose.BarCode for Java 作为无缝生成条形码的强大工具而脱颖而出。在本分步指南中，我们将深入研究设置和利用 Aspose.BarCode 轻松生成条形码的过程。
 
 ## 先决条件
 

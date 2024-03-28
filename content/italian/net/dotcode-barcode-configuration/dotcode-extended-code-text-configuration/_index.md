@@ -13,7 +13,7 @@ Nel campo della generazione e gestione dei codici a barre, Aspose.BarCode per .N
 
 ## Prerequisiti
 
-Prima di addentrarci nella guida passo passo, ci sono alcuni prerequisiti che devi possedere per seguire in modo efficace:
+Prima di addentrarci nella guida passo passo, ci sono alcuni prerequisiti che devi possedere per seguirli in modo efficace:
 
 1.  Aspose.BarCode per .NET: assicurati di avere la libreria Aspose.BarCode per .NET installata e pronta. In caso contrario, puoi scaricarlo da[Aspose.BarCode per la documentazione .NET](https://reference.aspose.com/barcode/net/).
 

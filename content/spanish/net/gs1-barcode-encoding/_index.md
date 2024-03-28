@@ -29,7 +29,7 @@ La codificación GS1 Coupon UPC-A Code 128 es un aspecto fundamental de la gener
 
 Independientemente de su industria, la codificación GS1 Coupon UPC-A Code 128 es una habilidad valiosa. Libere su potencial con Aspose.BarCode para .NET y cree códigos de barras con confianza.
 
-## Configuración de la barra de datos del Cupón GS1 UPC-A
+## Configuración de la barra de datos del cupón GS1 UPC-A
 
 La configuración de la barra de datos es esencial para manejar códigos de barras GS1 Coupon UPC-A, y Aspose.BarCode para .NET simplifica este proceso. Nuestro tutorial lo guiará en la creación de estos códigos de barras con facilidad, haciéndolos accesibles a profesionales en diversos campos.
 
@@ -49,7 +49,7 @@ Aprenda a crear códigos de barras GS1 Code 128 con Aspose.BarCode para .NET. Gu
 Aprenda cómo configurar el Espacio Suplementario de Cupones GS1 usando Aspose.BarCode para .NET. Siga nuestra guía paso a paso para dominar esta función.
 ### [Cupón GS1 Código UPC-A Codificación 128](./gs1-coupon-upc-a-code-128-encoding/)
 Genere códigos de barras fácilmente con Aspose.BarCode para .NET: su solución integral de generación de códigos de barras. ¡Empiece hoy!
-### [Configuración de la barra de datos del Cupón GS1 UPC-A](./gs1-coupon-upc-a-databar-configuration/)
+### [Configuración de la barra de datos del cupón GS1 UPC-A](./gs1-coupon-upc-a-databar-configuration/)
 Aprenda la configuración de la barra de datos GS1 Coupon UPC-A con Aspose.BarCode para .NET. Crea códigos de barras fácilmente. ¡Empieza ahora!
 ### [Ejemplo de matriz de datos GS1](./gs1-datamatrix-example/)
 Aprenda a crear códigos de barras GS1 DataMatrix en .NET usando Aspose.BarCode. Genere códigos de barras con facilidad y eficiencia en solo unos pocos pasos.

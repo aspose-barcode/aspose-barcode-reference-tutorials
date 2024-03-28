@@ -15,11 +15,11 @@ Aspose.BarCode for .NET'i kullanarak Aztek Kod Metin Kodlamanın büyüleyici d�
 
 Bu heyecan verici yolculuğa çıkmadan önce birkaç ön koşulun yerine getirilmesi gerekir:
 
-1.  Aspose.BarCode for .NET: Bu güçlü kütüphaneyi kurduğunuzdan emin olun. Belgeleri şu adreste bulabilirsiniz:[Aspose.BarCode for .NET Belgelendirmesi](https://reference.aspose.com/barcode/net/).
+1.  Aspose.BarCode for .NET: Bu güçlü kütüphaneyi kurduğunuzdan emin olun. Belgeleri şu adreste bulabilirsiniz:[Aspose.BarCode for .NET Belgeleri](https://reference.aspose.com/barcode/net/).
 
 2. Visual Studio: .NET uygulamalarınızı oluşturup çalıştırabilmeniz için sisteminizde Visual Studio'nun kurulu olması gerekmektedir.
 
-3. Temel C# Bilgisi: C# programlamaya aşina olmak avantajlı olacaktır, ancak herkesin takip edebilmesini sağlamak için ayrıntılı açıklamalar sunacağız.
+3. Temel C# Bilgisi: Herkesin takip edebilmesi için ayrıntılı açıklamalar sunsak da, C# programlamaya aşina olmak avantajlı olacaktır.
 
 Artık önkoşulları ele aldığımıza göre Aztek Kod Metin Kodlaması ile çalışma adımlarına geçelim.
 
@@ -87,7 +87,7 @@ Tebrikler! Aspose.BarCode for .NET'i kullanarak metin kodlamalı bir Aztek kodun
 
 Bu eğitimde Aspose.BarCode for .NET ile Aztek Kod Metin Kodlamanın büyüleyici dünyasını keşfettik. Önkoşulları ele aldık, gerekli ad alanlarını içe aktardık ve metni kodlayan Aztek kodları oluşturmak için her adımı ayrıntılı olarak ele aldık. Artık bu bilgiyi Aztek kodlarını .NET uygulamalarınıza entegre etmek ve çeşitli kullanım durumları için bunların gücünden yararlanmak için kullanabilirsiniz.
 
- adresindeki belgeleri incelemekten çekinmeyin.[Aspose.BarCode for .NET Belgelendirmesi](https://reference.aspose.com/barcode/net/) Daha fazla bilgi ve gelişmiş özellikler için. Mutlu kodlama!
+ adresindeki belgeleri incelemekten çekinmeyin.[Aspose.BarCode for .NET Belgeleri](https://reference.aspose.com/barcode/net/) Daha fazla bilgi ve gelişmiş özellikler için. Mutlu kodlama!
 
 ## SSS'ler
 

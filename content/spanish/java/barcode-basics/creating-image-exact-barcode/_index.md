@@ -47,7 +47,7 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128);
 
 Inicialice el generador de códigos de barras con el tipo de código de barras deseado. En este ejemplo, utilizamos CODE_128, pero Aspose.BarCode admite varias simbologías de códigos de barras.
 
-## Paso 3: establezca el texto del código
+## Paso 3: configurar el texto del código
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("123456");

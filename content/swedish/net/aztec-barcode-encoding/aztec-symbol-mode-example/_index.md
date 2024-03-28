@@ -44,7 +44,7 @@ I det här steget har vi ställt in generatorn och tillhandahållit kodtexten f�
 
 ## Steg 2: Ställ in symbolläget på Auto
 
-Låt oss nu ställa in Aztec Symbol Mode till "Auto" och spara streckkodsbilden som en PNG-fil. Så här kan du göra det:
+Låt oss nu ställa in det aztekiska symbolläget till "Auto" och spara streckkodsbilden som en PNG-fil. Så här kan du göra det:
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Auto;

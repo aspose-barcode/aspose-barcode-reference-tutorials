@@ -73,7 +73,7 @@ generator.getParameters().getBarcode().getPadding().getTop().setPixels(0);
 ## Steg 5: Generera Buffered Image
 
 ```java
-// Skaffa BufferedImage med endast den exakta streckkoden
+// Skaffa BufferedImage endast med den exakta streckkoden
 BufferedImage img = generator.generateBarCodeImage();
 ```
 

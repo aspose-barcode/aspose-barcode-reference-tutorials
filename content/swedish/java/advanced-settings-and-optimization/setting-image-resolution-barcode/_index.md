@@ -85,7 +85,7 @@ S1: Ja, Aspose.BarCode tillhandahåller olika anpassningsalternativ, inklusive s
 
  A2: Absolut! Aspose.BarCode erbjuder kommersiella licenser för företag. Du kan köpa en licens[här](https://purchase.aspose.com/buy).
 
-### F3: Finns det några gratis testalternativ tillgängliga?
+### F3: Finns det några gratis provversioner tillgängliga?
 
  S3: Ja, du kan utforska funktionerna i Aspose.BarCode genom att ladda ner den kostnadsfria testversionen[här](https://releases.aspose.com/).
 

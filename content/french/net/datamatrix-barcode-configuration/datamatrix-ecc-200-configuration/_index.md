@@ -70,7 +70,7 @@ Toutes nos félicitations! Vous avez configuré et généré avec succès un cod
 
 ## Conclusion
 
-Dans ce guide étape par étape, nous vous avons guidé tout au long du processus de configuration d'Aspose.BarCode pour .NET, d'importation des espaces de noms nécessaires et de génération d'un code-barres DataMatrix ECC 200. En approfondissant le monde de la génération de codes-barres, vous découvrirez des possibilités infinies pour améliorer vos applications .NET.
+Dans ce guide étape par étape, nous vous avons guidé tout au long du processus de configuration d'Aspose.BarCode pour .NET, d'importation des espaces de noms nécessaires et de génération d'un code-barres DataMatrix ECC 200. En approfondissant votre connaissance du monde de la génération de codes-barres, vous découvrirez des possibilités infinies pour améliorer vos applications .NET.
 
  Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à demander de l'aide sur le[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13). Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours, Aspose.BarCode for .NET est votre outil incontournable pour tout ce qui concerne les codes-barres.
 

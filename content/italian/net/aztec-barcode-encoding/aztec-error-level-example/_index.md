@@ -53,7 +53,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 4;
 
 ## Passaggio 3: scelta della modalità simbolo azteco
 
- I codici a barre aztechi hanno diverse modalità di simboli. In questo passaggio impostiamo la modalità simbolo su`FullRange`.
+ I codici a barre aztechi hanno diverse modalità di simbolo. In questo passaggio impostiamo la modalità simbolo su`FullRange`.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.FullRange;

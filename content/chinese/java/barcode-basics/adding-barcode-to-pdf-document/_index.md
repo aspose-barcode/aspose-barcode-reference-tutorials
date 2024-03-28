@@ -92,7 +92,7 @@ A2：当然。 Aspose.BarCode 支持多种条形码符号体系，确保灵活�
 
 ### Q4：我可以在哪里寻求 Aspose.BarCode 相关查询的帮助和支持？
 
- A4：[Aspose.BarCode 论坛](https://forum.aspose.com/c/barcode/13)是寻求帮助和参与 Aspose 社区的宝贵资源。
+ A4: 的[Aspose.BarCode 论坛](https://forum.aspose.com/c/barcode/13)是寻求帮助和参与 Aspose 社区的宝贵资源。
 
 ### Q5：我可以在购买前免费试用 Aspose.BarCode for Java 吗？
 

@@ -55,7 +55,7 @@ bb.getParameters().getBarcode().getPadding().getRight().setPixels(2f);
 För att ställa in den vänstra marginalen för streckkodsbilden, använd följande kod:
 
 ```java
-// Ställ in vänster marginal i pixlar
+// Ställ in vänstermarginal i pixlar
 bb.getParameters().getBarcode().getPadding().getLeft().setPixels(2f);
 ```
 

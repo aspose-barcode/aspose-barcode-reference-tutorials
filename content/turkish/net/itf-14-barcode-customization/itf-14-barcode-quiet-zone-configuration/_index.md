@@ -14,7 +14,7 @@ Barkodlar günümüz dünyasında lojistik, perakende ve üretim gibi çeşitli 
 
 ## Önkoşullar
 
-Aspose.BarCode for .NET'i kullanarak ITF-14 Barkod Sessiz Bölge Yapılandırması dünyasına dalmadan önce aşağıdaki önkoşullara sahip olmanız gerekir:
+Aspose.BarCode for .NET'i kullanarak ITF-14 Barkod Sessiz Bölge Yapılandırması dünyasına dalmadan önce, aşağıdaki önkoşullara sahip olmanız gerekir:
 
 1. Visual Studio ve .NET Framework: Visual Studio'nun yüklü olduğundan ve .NET çerçevesine ilişkin temel bilgilere sahip olduğunuzdan emin olun.
 

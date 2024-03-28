@@ -77,7 +77,7 @@ File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// İfadeyi yürüt
+// Bildirimi yürüt
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 

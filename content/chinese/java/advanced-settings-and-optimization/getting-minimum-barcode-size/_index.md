@@ -76,7 +76,7 @@ javax.imageio.ImageIO.write(bb.generateBarCodeImage(), "PNG", new java.io.File(d
 
 ### Q1：我可以使用Aspose.BarCode for Java自定义其他类型条形码的大小吗？
 
-A1：当然！ Aspose.BarCode支持多种符号系统，允许您自定义不同条形码类型的大小。
+A1：当然！ Aspose.BarCode支持多种符号系统，允许您自定义不同条形码类型的尺寸。
 
 ### Q2：Aspose.BarCode适合企业级应用吗？
 

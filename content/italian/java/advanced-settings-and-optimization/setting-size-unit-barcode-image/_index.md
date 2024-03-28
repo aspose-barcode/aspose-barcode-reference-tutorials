@@ -53,7 +53,7 @@ Assicurati di sostituire "La tua directory dei documenti" con il percorso effett
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
- Qui creiamo un'istanza di`BarcodeGenerator` classe, specificando il tipo di simbologia come CODE_128 e impostando il testo del codice per il codice a barre.
+ Qui creiamo un'istanza di`BarcodeGenerator` class, specificando il tipo di simbologia come CODE_128 e impostando il testo del codice per il codice a barre.
 
 ## Passaggio 3: impostare l'altezza della barra
 

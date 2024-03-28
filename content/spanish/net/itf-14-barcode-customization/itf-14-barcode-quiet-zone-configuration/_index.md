@@ -76,7 +76,7 @@ gen.Save($"{path}ITF14QuietZone30.png", BarCodeImageFormat.Png);
 
 En este paso final, establecemos el coeficiente de zona tranquila de la ITF. La zona silenciosa garantiza que el código de barras se pueda escanear correctamente. Proporcionamos dos ejemplos, uno con una zona silenciosa de 10 veces la XDimension y otro con 30 veces la XDimension. Guardamos ambas imágenes de códigos de barras en formato PNG.
 
-Si sigue estos pasos, puede configurar eficazmente las zonas silenciosas de código de barras ITF-14 utilizando Aspose.BarCode para .NET. Estas configuraciones son cruciales para garantizar que sus códigos de barras sean legibles y cumplan con los estándares de la industria.
+Si sigue estos pasos, puede configurar eficazmente las zonas silenciosas de códigos de barras ITF-14 utilizando Aspose.BarCode para .NET. Estas configuraciones son cruciales para garantizar que sus códigos de barras sean legibles y cumplan con los estándares de la industria.
 
 ## Conclusión:
 

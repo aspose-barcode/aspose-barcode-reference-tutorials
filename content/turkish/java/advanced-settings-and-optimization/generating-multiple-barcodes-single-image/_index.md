@@ -122,7 +122,7 @@ Tebrikler! Aspose.BarCode for Java'yı kullanarak tek bir görüntü üzerinde b
 
 ### S1: Oluşturulan görüntüdeki barkodların görünümünü ayrı ayrı özelleştirebilir miyim?
 
-Cevap1: Evet, Aspose.BarCode, barkod görünümü için kapsamlı özelleştirme seçenekleri sunarak her barkodun stilini tercihlerinize göre uyarlamanıza olanak tanır.
+C1: Evet, Aspose.BarCode, barkod görünümü için kapsamlı özelleştirme seçenekleri sunarak her barkodun stilini tercihlerinize göre uyarlamanıza olanak tanır.
 
 ### S2: Aspose.BarCode farklı barkod sembolojileriyle uyumlu mudur?
 

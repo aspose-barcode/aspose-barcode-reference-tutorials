@@ -13,7 +13,7 @@ url: /ru/java/advanced-settings-and-optimization/configuring-barcode-orientation
 
 ## Предварительные условия
 
-Прежде чем углубляться в настройку ориентации штрих-кода с помощью Aspose.BarCode для Java, убедитесь, что у вас есть следующие предварительные условия:
+Прежде чем погрузиться в настройку ориентации штрих-кода с помощью Aspose.BarCode для Java, убедитесь, что у вас есть следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
 -  Библиотека Aspose.BarCode для Java, которую вы можете скачать[здесь](https://releases.aspose.com/barcode/java/).

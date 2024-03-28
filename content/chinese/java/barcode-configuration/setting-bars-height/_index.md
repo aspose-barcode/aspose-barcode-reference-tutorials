@@ -66,7 +66,7 @@ generator.save(dataDir + "barsHeight.jpg");
 ### 我可以在 Aspose.BarCode for Java 中自定义条形码类型吗？
 绝对地！ Aspose.BarCode支持各种条形码类型，允许您选择最适合您的应用程序的。
 
-### Aspose.BarCode 是否与不同的 Java IDE 兼容？
+### Aspose.BarCode 与不同的 Java IDE 兼容吗？
 是的，Aspose.BarCode 与 Eclipse 和 IntelliJ 等流行的 Java 集成开发环境 (IDE) 无缝集成。
 
 ### 我可以生成包含数字和字母数字值的条形码吗？

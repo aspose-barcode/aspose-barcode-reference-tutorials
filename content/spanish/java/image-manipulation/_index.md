@@ -44,6 +44,6 @@ Aprenda a configurar márgenes para imágenes de códigos de barras en Java usan
 ### [Colorear la imagen del código de barras en Java](./colorizing-barcode-image/)
 Aprenda a colorear imágenes de códigos de barras en Java sin esfuerzo usando Aspose.BarCode. Siga nuestra guía paso a paso para obtener resultados vibrantes y visualmente atractivos.
 ### [Generando código de barras con barras vacías en Java](./generating-barcode-empty-bars/)
-Genere códigos de barras con barras vacías sin esfuerzo en Java usando Aspose.BarCode. Personalice la apariencia e intégrela sin problemas. ¡Explora el tutorial ahora!
+Genere códigos de barras con barras vacías sin esfuerzo en Java usando Aspose.BarCode. Personalice la apariencia e integre perfectamente. ¡Explora el tutorial ahora!
 ### [Imagen de código de barras giratoria en Java](./rotating-barcode-image/)
 Aprenda a rotar imágenes de códigos de barras en Java sin esfuerzo usando Aspose.BarCode. Una guía completa paso a paso para desarrolladores de Java.

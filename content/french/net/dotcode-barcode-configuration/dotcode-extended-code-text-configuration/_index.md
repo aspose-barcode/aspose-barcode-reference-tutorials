@@ -123,7 +123,7 @@ Et c'est tout! Vous avez généré avec succès le texte de code étendu DotCode
 
 ## Conclusion
 
-Aspose.BarCode for .NET est un outil puissant qui simplifie la génération de codes-barres. Dans ce didacticiel, nous nous sommes concentrés sur la génération de texte de code étendu DotCode, essentiel dans diverses industries, en particulier lorsqu'un codage de caractères multilingue et spécialisé est requis. En suivant les étapes décrites ci-dessus, vous pouvez facilement créer du texte de code étendu DotCode pour vos besoins spécifiques.
+Aspose.BarCode for .NET est un outil puissant qui simplifie la génération de codes-barres. Dans ce didacticiel, nous nous sommes concentrés sur la génération de texte de code étendu DotCode, qui est essentiel dans diverses industries, en particulier lorsqu'un codage de caractères multilingue et spécialisé est requis. En suivant les étapes décrites ci-dessus, vous pouvez facilement créer du texte de code étendu DotCode pour vos besoins spécifiques.
 
  Si vous avez besoin de conseils supplémentaires ou si vous avez des questions, n'hésitez pas à visiter le[Documentation Aspose.BarCode pour .NET](https://reference.aspose.com/barcode/net/) ou s'engager avec la communauté sur le[Forum d'assistance Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 

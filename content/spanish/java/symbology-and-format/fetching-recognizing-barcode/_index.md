@@ -2,7 +2,7 @@
 title: Obtener y reconocer códigos de barras en Java
 linktitle: Obtener y reconocer códigos de barras
 second_title: API de Java Aspose.BarCode
-description:Integre Aspose.BarCode para Java sin esfuerzo: busque y reconozca códigos de barras de una base de datos. Descárguelo ahora para disfrutar de una experiencia de integración perfecta de códigos de barras.
+description: Integre Aspose.BarCode para Java sin esfuerzo busque y reconozca códigos de barras de una base de datos. Descárguelo ahora para disfrutar de una experiencia de integración perfecta de códigos de barras.
 type: docs
 weight: 11
 url: /es/java/symbology-and-format/fetching-recognizing-barcode/

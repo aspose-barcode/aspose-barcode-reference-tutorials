@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /es/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
-En el mundo de la generación y reconocimiento de códigos de barras, Aspose.BarCode para .NET se presenta como una herramienta potente y versátil. Con su sólido conjunto de características y capacidades, permite a los desarrolladores crear, manipular y leer códigos de barras sin esfuerzo. Entre los muchos modos de codificación que ofrece, el modo de codificación DataMatrix que utiliza Bytes es una característica destacada. En esta guía paso a paso, lo guiaremos a través del proceso de uso de Aspose.BarCode para .NET para codificar datos en formato DataMatrix usando el modo Bytes.
+En el mundo de la generación y reconocimiento de códigos de barras, Aspose.BarCode para .NET se presenta como una herramienta poderosa y versátil. Con su sólido conjunto de características y capacidades, permite a los desarrolladores crear, manipular y leer códigos de barras sin esfuerzo. Entre los muchos modos de codificación que ofrece, el modo de codificación DataMatrix que utiliza Bytes es una característica destacada. En esta guía paso a paso, lo guiaremos a través del proceso de uso de Aspose.BarCode para .NET para codificar datos en formato DataMatrix usando el modo Bytes.
 
 ## Requisitos previos
 
