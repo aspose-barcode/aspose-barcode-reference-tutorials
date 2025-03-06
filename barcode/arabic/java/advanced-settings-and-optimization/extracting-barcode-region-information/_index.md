@@ -3,10 +3,16 @@ title: إتقان استخراج منطقة الرمز الشريطي في Java 
 linktitle: استخراج معلومات منطقة الباركود من الصورة
 second_title: Aspose.BarCode جافا API
 description: استكشف Aspose.BarCode for Java، وهي مكتبة قوية لاستخراج تفاصيل منطقة الرمز الشريطي دون عناء. قم بتحسين تطبيقات Java الخاصة بك بدقة.
-type: docs
 weight: 17
 url: /ar/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان استخراج منطقة الرمز الشريطي في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 في عالم برمجة Java الديناميكي، تعد معالجة معلومات الباركود مهمة شائعة وحاسمة. يظهر Aspose.BarCode for Java كأداة قوية لتبسيط هذه العملية، حيث يقدم حلولاً فعالة لاستخراج معلومات منطقة الرمز الشريطي من الصور. في هذا البرنامج التعليمي، سوف نتعمق في عملية استخدام Aspose.BarCode خطوة بخطوة لاستخراج تفاصيل منطقة الرمز الشريطي في بيئة Java.
@@ -98,3 +104,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode؟
 
  ج5: إذا كنت بحاجة إلى ترخيص مؤقت، قم بزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للمزيد من المعلومات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

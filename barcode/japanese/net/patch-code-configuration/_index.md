@@ -3,10 +3,16 @@ title: パッチコードの構成
 linktitle: パッチコードの構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用してパッチ コード バーコードを簡単に生成します。 Aspose.BarCode チュートリアルを使用してパッチ コード形式を構成およびカスタマイズする方法を学びます。
-type: docs
 weight: 26
 url: /ja/net/patch-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# パッチコードの構成
+
 
 ドキュメント管理の分野では、パッチ コード バーコードはプロセスを合理化し、データの正確性を確保する上で重要な役割を果たします。 Aspose.BarCode for .NET を使用すると、これらのバーコードの構成とカスタマイズの技術を簡単に習得できます。この包括的なチュートリアルでは、パッチ コードの構成、セットアップ、カスタマイズの重要な側面について説明します。
 
@@ -40,3 +46,9 @@ Aspose.BarCode for .NET を使用して、バーコード カスタマイズの�
 Aspose.BarCode for .NET を使用してパッチ コード バーコードを簡単に生成します。パッチ コード バーコードを作成し、ドキュメント管理システムを強化する手順を学びます。今すぐライブラリをダウンロードしてください!
 ### [パッチコードセットのカスタマイズ](./patch-code-set-customization/)
 Aspose.BarCode を使用して .NET でバーコードを生成する方法を学びます。バーコードを簡単にカスタマイズしてアプリケーションに統合します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

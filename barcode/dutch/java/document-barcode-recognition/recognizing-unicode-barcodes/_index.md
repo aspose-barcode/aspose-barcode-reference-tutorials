@@ -3,10 +3,16 @@ title: Unicode-streepjescodes herkennen in Java
 linktitle: Unicode-streepjescodes herkennen
 second_title: Aspose.BarCode Java-API
 description: Ontdek de wereld van Unicode-barcodeherkenning in Java met Aspose.BarCode. Volg onze stapsgewijze handleiding om diverse tekensets naadloos in uw toepassingen te integreren.
-type: docs
 weight: 13
 url: /nl/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unicode-streepjescodes herkennen in Java
+
 
 ## Invoering
 
@@ -127,3 +133,9 @@ Ja, voor Aspose.BarCode is een geldige licentie vereist. Je kunt er een verkrijg
 
 ### Ondersteuning nodig of vragen?
  Bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: GS1-kupong UPC-A-kod 128-kodning
 linktitle: GS1-kupong UPC-A-kod 128-kodning
 second_title: Aspose.BarCode .NET API
 description: Generera streckkoder enkelt med Aspose.BarCode för .NET - Din omfattande lösning för streckkodsgenerering. Kom igång idag!
-type: docs
 weight: 12
 url: /sv/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1-kupong UPC-A-kod 128-kodning
+
 
 ## Introduktion
 
@@ -115,3 +121,9 @@ Absolut. Aspose.BarCode för .NET tillhandahåller olika parametrar och inställ
 
 ### F: Finns det några andra kodningstyper som stöds av Aspose.BarCode för .NET?
 Ja, Aspose.BarCode för .NET stöder ett brett utbud av kodningstyper, inklusive UPC-A, Code 128, QR-koder och många fler. Du hittar hela listan i dokumentationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

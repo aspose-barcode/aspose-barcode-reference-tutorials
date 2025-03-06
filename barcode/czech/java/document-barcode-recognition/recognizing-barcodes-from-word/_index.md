@@ -3,10 +3,16 @@ title: Snadné rozpoznávání čárových kódů z dokumentů aplikace Word
 linktitle: Rozpoznávání čárových kódů z dokumentů aplikace Word
 second_title: Aspose.BarCode Java API
 description: Prozkoumejte bezproblémovou integraci rozpoznávání čárových kódů do vašich aplikací Java s Aspose.BarCode. Podle tohoto návodu rozpoznáte čárové kódy z dokumentů aplikace Word.
-type: docs
 weight: 12
 url: /cs/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Snadné rozpoznávání čárových kódů z dokumentů aplikace Word
+
 
 ## Úvod
 
@@ -111,3 +117,10 @@ Pro jakoukoli pomoc nebo dotazy navštivte fórum Aspose.BarCode[tady](https://f
 
 ### Otázka: Kde najdu dokumentaci k Aspose.BarCode for Java?
  Podívejte se na komplexní dokumentaci[tady](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

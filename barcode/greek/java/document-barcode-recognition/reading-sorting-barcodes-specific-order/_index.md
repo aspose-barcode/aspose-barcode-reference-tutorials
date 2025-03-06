@@ -3,10 +3,16 @@ title: Ανάγνωση και ταξινόμηση γραμμωτών κωδί�
 linktitle: Ανάγνωση και ταξινόμηση γραμμωτών κωδίκων με συγκεκριμένη σειρά
 second_title: Aspose.BarCode Java API
 description: Βελτιώστε τις εφαρμογές σας Java με το Aspose.BarCode! Μάθετε να διαβάζετε και να ταξινομείτε τους γραμμωτούς κώδικες αποτελεσματικά. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 10
 url: /el/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάγνωση και ταξινόμηση γραμμωτών κωδίκων με συγκεκριμένη σειρά σε Java
+
 
 ## Εισαγωγή
 
@@ -123,3 +129,10 @@ for (FoundBarCodes barcode : found) {
 
 ### Ε: Πού μπορώ να αναζητήσω υποστήριξη ή να κάνω ερωτήσεις;
  Επισκεφθείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

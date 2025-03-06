@@ -3,10 +3,16 @@ title: DotCode バーコード構成
 linktitle: DotCode バーコード構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode .NET を使用して、カスタマイズされた DotCode バーコードを簡単に生成します。アスペクト比、エンコード モード、拡張コード テキスト、リーダーの初期化について学びます。
-type: docs
 weight: 32
 url: /ja/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode バーコード構成
+
 
 ## 導入
 Aspose.BarCode for .NET を使用して DotCode バーコードの世界に飛び込みましょう。私たちのチュートリアルはさまざまな側面をカバーしており、カスタマイズされたバーコードを簡単に作成できるようにします。アスペクト比のカスタマイズ、エンコード モード (自動およびバイト)、拡張コード テキスト構成、リーダーの初期化、行と列の構成、構造化追加モードなどの側面を調べます。ステップバイステップのガイドに従って各構成をマスターし、正確でカスタマイズ可能な 2D バーコードを確実に生成します。初心者でも経験豊富な開発者でも、当社のチュートリアルは、さまざまなアプリケーション向けに効率的な DotCode バーコードを作成するための貴重な洞察を提供します。包括的なドキュメントを参照し、ライブラリをダウンロードし、一時ライセンスを取得して、バーコード生成の旅を始めましょう。 Aspose.BarCode for .NET はプロセスを簡素化し、バーコードをシームレスに生成し、アプリケーションに簡単に統合できるようにします。このチュートリアル シリーズに参加して、バーコード作成スキルを向上させ、バーコード テクノロジーの最前線に留まりましょう。|
@@ -48,3 +54,9 @@ Aspose.BarCode for .NET を使用して DotCode Reader を初期化する方法�
 Aspose.BarCode for .NET を使用して DotCode の行と列を構成する方法を学びます。正確でカスタマイズ可能な 2D バーコードを簡単に生成します。
 ### [DotCode 構造化追加モードの構成](./dotcode-structured-append-mode-configuration/)
 Aspose.BarCode for .NET を使用して DotCode Structured Append Mode を構成し、効率的なバーコードを作成する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

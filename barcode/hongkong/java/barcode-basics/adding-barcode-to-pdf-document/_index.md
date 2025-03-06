@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中為 PDF 文件添加條碼
 linktitle: 將條碼新增至 PDF 文檔
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 增強您的 Java 應用程式 將條碼新增至 PDF 文件的逐步指南。
-type: docs
 weight: 10
 url: /zh-hant/java/barcode-basics/adding-barcode-to-pdf-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中為 PDF 文件添加條碼
+
 ## 介紹
 
 在不斷發展的 Java 開發環境中，將條碼合併到 PDF 文件中已成為資料管理和識別的重要方面。 Aspose.BarCode for Java 是一款功能強大的工具，可將條碼產生無縫整合到 Java 應用程式中。在本教學中，我們將引導您完成使用 Aspose.BarCode for Java 將條碼新增至 PDF 文件的過程。
@@ -97,3 +103,9 @@ A2：當然。 Aspose.BarCode 支援多種條碼符號體系，確保靈活地�
 ### Q5：我可以在購買前免費試用 Aspose.BarCode for Java 嗎？
 
  A5：是的，您可以從 Aspose.BarCode for Java 下載免費試用版[發布頁面](https://releases.aspose.com/)探索其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

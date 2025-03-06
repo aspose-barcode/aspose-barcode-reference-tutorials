@@ -3,10 +3,16 @@ title: การปรับแต่งอัตราส่วนภาพ Dat
 linktitle: การปรับแต่งอัตราส่วนภาพ DataMatrix
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีปรับแต่งอัตราส่วนบาร์โค้ด DataMatrix โดยใช้ Aspose.BarCode สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการสร้างบาร์โค้ด
-type: docs
 weight: 10
 url: /th/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การปรับแต่งอัตราส่วนภาพ DataMatrix ด้วย Aspose.BarCode สำหรับ .NET
+
 คุณต้องการสร้างบาร์โค้ด DataMatrix ด้วยอัตราส่วนภาพที่กำหนดเองโดยใช้ Aspose.BarCode สำหรับ .NET หรือไม่? คุณอยู่ในสถานที่ที่เหมาะสม ในบทช่วยสอนแบบทีละขั้นตอนนี้ เราจะแสดงให้คุณเห็นวิธีการบรรลุเป้าหมายนี้ Aspose.BarCode สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้คุณสามารถสร้างและจัดการบาร์โค้ดได้อย่างง่ายดาย เราจะเริ่มต้นด้วยการแนะนำข้อกำหนดเบื้องต้นและเนมสเปซที่คุณต้องการ จากนั้นเราจะเจาะลึกตัวอย่างต่างๆ
 
 ## ข้อกำหนดเบื้องต้น
@@ -86,3 +92,9 @@ A4: ใช่ Aspose.BarCode สำหรับ .NET เข้ากันได
 ### คำถามที่ 5: ฉันสามารถสร้างบาร์โค้ดในรูปแบบที่แตกต่างกันด้วย Aspose.BarCode สำหรับ .NET ได้หรือไม่
 
 A5: ใช่ Aspose.BarCode สำหรับ .NET รองรับการสร้างบาร์โค้ดในรูปแบบต่างๆ รวมถึง PNG, JPEG และอื่นๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 코드 16K 바코드 종횡비 사
 linktitle: 코드 16K 종횡비 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 Code 16K 바코드 종횡비를 사용자 정의하는 방법을 알아보세요. 귀하의 애플리케이션에 맞는 정확한 바코드를 생성하십시오.
-type: docs
 weight: 10
 url: /ko/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 코드 16K 바코드 종횡비 사용자 정의
+
 바코드 생성 세계에서는 정확성과 맞춤화가 핵심입니다. .NET용 Aspose.BarCode는 개발자에게 Code 16K 바코드의 종횡비를 사용자 정의하는 기능을 포함하여 바코드를 생성하고 조작할 수 있는 강력한 도구 세트를 제공합니다. 이 단계별 가이드에서는 .NET용 Aspose.BarCode를 사용하여 다양한 종횡비의 Code 16K 바코드를 생성하는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 관계없이 프로세스를 간단하고 이해하기 쉬운 단계로 나누어 보겠습니다.
 
 ## 전제 조건
@@ -97,3 +103,10 @@ A3: 물론이죠. .NET용 Aspose.BarCode는 다목적이며 .NET 기술을 사�
 ### Q5: .NET용 Aspose.BarCode에 대한 무료 평가판이 있습니까?
 
  A5: 예, 다음에서 무료 평가판을 다운로드하여 .NET용 Aspose.BarCode를 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/). 이를 통해 구매하기 전에 제품의 특징과 기능을 살펴볼 수 있습니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

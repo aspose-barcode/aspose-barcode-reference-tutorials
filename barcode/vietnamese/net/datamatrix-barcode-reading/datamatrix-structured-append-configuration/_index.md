@@ -3,10 +3,16 @@ title: Cấu hình nối thêm có cấu trúc DataMatrix với Aspose.BarCode c
 linktitle: Cấu hình nối thêm có cấu trúc DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo và đọc cấu hình nối thêm có cấu trúc DataMatrix trong .NET bằng cách sử dụng Aspose.BarCode để tổ chức dữ liệu hiệu quả cao.
-type: docs
 weight: 11
 url: /vi/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình nối thêm có cấu trúc DataMatrix với Aspose.BarCode cho .NET
+
 Nếu bạn là nhà phát triển đang muốn triển khai cấu hình nối thêm có cấu trúc DataMatrix trong các ứng dụng .NET của mình thì Aspose.BarCode cho .NET là giải pháp phù hợp cho bạn. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá chi tiết về cách sử dụng thư viện mạnh mẽ này để tạo và đọc mã vạch DataMatrix có cấu trúc. Chúng tôi sẽ chia mỗi ví dụ thành nhiều bước dễ thực hiện để đảm bảo rằng bạn nắm bắt các khái niệm một cách kỹ lưỡng. Đến cuối hướng dẫn này, bạn sẽ được trang bị để sử dụng Aspose.BarCode cho .NET để làm việc với các cấu hình nối thêm có cấu trúc DataMatrix một cách hiệu quả.
 
 ## Điều kiện tiên quyết
@@ -100,3 +106,9 @@ Câu trả lời 1: Phần bổ sung có cấu trúc DataMatrix là một tính 
 ### Câu hỏi 5: Aspose.BarCode cho .NET có hỗ trợ các loại mã vạch khác không?
 
  Câu trả lời 5: Có, Aspose.BarCode for .NET hỗ trợ nhiều loại mã vạch, bao gồm mã QR, Mã 128, EAN-13, v.v. Bạn có thể khám phá tài liệu đầy đủ[đây](https://reference.aspose.com/barcode/net/) để xem danh sách đầy đủ các loại mã vạch được hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

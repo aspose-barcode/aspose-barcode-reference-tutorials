@@ -3,10 +3,16 @@ title: A Step-by-Step Guide with GS1 Code 128 Example
 linktitle: GS1 Code 128 Example
 second_title: Aspose.BarCode .NET API
 description: Learn how to create GS1 Code 128 barcodes with Aspose.BarCode for .NET. Step-by-step guide for barcode generation in C#. Get started now!
-type: docs
 weight: 10
 url: /net/gs1-barcode-encoding/gs1-code-128-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Step-by-Step Guide with GS1 Code 128 Example
+
 
 ## Introduction
 
@@ -89,3 +95,10 @@ You can buy a license at [https://purchase.aspose.com/buy](https://purchase.aspo
 
 ### Need help or have questions? Where can I find support?
 For support and community discussions, visit [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

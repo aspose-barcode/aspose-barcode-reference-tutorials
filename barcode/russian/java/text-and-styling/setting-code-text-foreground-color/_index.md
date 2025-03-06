@@ -3,10 +3,16 @@ title: Установка цвета переднего плана текста 
 linktitle: Настройка цвета текста кода
 second_title: API Aspose.BarCode Java
 description: Легко создавайте динамические штрих-коды на Java с помощью Aspose.BarCode. С легкостью настройте цвет переднего плана текста кода, используя наше пошаговое руководство.
-type: docs
 weight: 11
 url: /ru/java/text-and-styling/setting-code-text-foreground-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установка цвета переднего плана текста кода в Java с помощью Aspose.BarCode
+
 
 ## Введение
 В постоянно развивающейся сфере разработки программного обеспечения решающее значение имеет включение надежных функций штрих-кодов в ваши приложения Java. Aspose.BarCode для Java предоставляет комплексное решение, позволяющее разработчикам с легкостью создавать, распознавать и манипулировать штрих-кодами. В этом уроке мы углубимся в конкретный аспект настройки штрих-кода: настройку цвета переднего плана текста кода.
@@ -79,3 +85,10 @@ generator.save(dataDir + "codeTextForegroundColor.jpg");
 ### Как я могу приобрести лицензию на Aspose.BarCode для Java?
  Отправляйтесь в[страница покупки](https://purchase.aspose.com/buy) приобрести лицензию и раскрыть весь потенциал Aspose.BarCode.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

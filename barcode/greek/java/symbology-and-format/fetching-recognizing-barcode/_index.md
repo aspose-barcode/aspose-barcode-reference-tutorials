@@ -3,10 +3,16 @@ title: Λήψη και αναγνώριση γραμμικού κώδικα σε
 linktitle: Λήψη και αναγνώριση γραμμωτού κώδικα
 second_title: Aspose.BarCode Java API
 description: Ενσωματώστε το Aspose.BarCode για Java χωρίς κόπο - λάβετε και αναγνωρίστε γραμμικούς κώδικες από μια βάση δεδομένων. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης γραμμικού κώδικα.
-type: docs
 weight: 11
 url: /el/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λήψη και αναγνώριση γραμμικού κώδικα σε Java
+
 
 ## Εισαγωγή
 
@@ -120,3 +126,10 @@ System.out.println(ex.getMessage());
 
 ### Διατίθενται προσωρινές άδειες για δοκιμαστικούς σκοπούς;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για σκοπούς δοκιμών και αξιολόγησης.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configurando código de barras com segmentos em Java
 linktitle: Configurando código de barras com segmentos
 second_title: API Java Aspose.BarCode
 description: Gere códigos de barras personalizados em Java sem esforço com Aspose.BarCode. Versátil, eficiente e amigável ao desenvolvedor.
-type: docs
 weight: 10
 url: /pt/java/barcode-configuration/configuring-barcode-segments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando código de barras com segmentos em Java
+
 
 No cenário em constante evolução da tecnologia, a necessidade de soluções robustas de códigos de barras tornou-se imperativa. Aspose.BarCode for Java se destaca como uma ferramenta poderosa que simplifica a geração e personalização de códigos de barras. Neste tutorial, nos aprofundaremos na configuração de códigos de barras com segmentos usando Aspose.BarCode para Java. Este guia passo a passo irá equipá-lo com o conhecimento para integrar perfeitamente a funcionalidade de código de barras em seus aplicativos Java.
 
@@ -86,3 +92,10 @@ Certamente. Aspose.BarCode para Java foi projetado para integração perfeita em
 
 ### Existe um teste gratuito disponível?
  Sim, explore os recursos do Aspose.BarCode acessando o[teste grátis](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

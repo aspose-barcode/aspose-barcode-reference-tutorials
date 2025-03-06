@@ -3,10 +3,16 @@ title: Áp dụng tổng kiểm tra cho CodaBar trong Java
 linktitle: Áp dụng tổng kiểm tra cho CodaBar
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách áp dụng tổng kiểm tra cho CodaBar trong Java bằng Aspose.BarCode. Tạo và nhận dạng mã vạch dễ dàng với hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng tổng kiểm tra cho CodaBar trong Java
+
 
 ## Giới thiệu
 
@@ -107,3 +113,9 @@ Có, Aspose.BarCode cung cấp các tùy chọn tùy chỉnh mở rộng, cho ph
 
 ### Có bản dùng thử miễn phí không?
  Có, bạn có thể khám phá các tính năng của Aspose.BarCode bằng cách tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

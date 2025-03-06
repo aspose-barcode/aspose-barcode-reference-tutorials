@@ -3,10 +3,16 @@ title: A vonalkód szimbológiájának megadása Java nyelven
 linktitle: A vonalkód szimbológiájának megadása
 second_title: Aspose.BarCode Java API
 description: Dinamikus vonalkódok létrehozása Java nyelven az Aspose.BarCode segítségével. Könnyű integráció, sokoldalú testreszabás és robusztus funkciók minden vonalkód-szükséglethez.
-type: docs
 weight: 10
 url: /hu/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A vonalkód szimbológiájának megadása Java nyelven
+
 
 ## Bevezetés
 
@@ -77,3 +83,10 @@ Teljesen! Az Aspose.BarCode számos testreszabási lehetőséget kínál, lehet�
 
 ### Hogyan kaphatok támogatást az Aspose.BarCode-hoz?
  Meglátogatni a[Aspose.BarCode fórum](https://forum.aspose.com/c/barcode/13) hogy segítséget kérjen a közösségtől és az Aspose szakértőitől.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

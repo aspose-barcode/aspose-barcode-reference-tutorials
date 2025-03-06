@@ -3,10 +3,16 @@ title: Randen toevoegen aan streepjescodeafbeelding in Java
 linktitle: Randen toevoegen aan streepjescodeafbeelding
 second_title: Aspose.BarCode Java-API
 description: Verbeter streepjescodeafbeeldingen in Java met Aspose.BarCode door aanpasbare randen toe te voegen. Volg deze stapsgewijze handleiding om een visueel aantrekkelijke barcodeoplossing te realiseren.
-type: docs
 weight: 10
 url: /nl/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Randen toevoegen aan streepjescodeafbeelding in Java
+
 
 ## Invoering
 
@@ -122,3 +128,10 @@ Zeker. U kunt de randkleur programmatisch wijzigen op basis van specifieke omsta
 
 ### Is er een proefversie van Aspose.BarCode beschikbaar?
  Ja, u kunt de functies van Aspose.BarCode verkennen door het bestand[gratis proefversie](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

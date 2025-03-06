@@ -3,10 +3,16 @@ title: Các loại mã vạch một chiều
 linktitle: Các loại mã vạch một chiều
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo các mã vạch một chiều khác nhau trong .NET bằng Aspose.BarCode. Hướng dẫn từng bước để tạo và tùy chỉnh mã vạch.
-type: docs
 weight: 25
 url: /vi/net/one-dimensional-barcode-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các loại mã vạch một chiều
+
 
 ## Giới thiệu
 
@@ -78,3 +84,9 @@ Tạo mã vạch tùy chỉnh dễ dàng với Aspose.BarCode cho .NET. Hướng
 Trong loạt bài hướng dẫn này, chúng ta đã đi sâu vào thế giới của các loại mã vạch một chiều, tập trung vào cấu hình và tùy chỉnh của chúng. Với Aspose.BarCode cho .NET, quy trình này được thực hiện đơn giản, đảm bảo rằng bạn có thể tạo mã vạch phù hợp với nhu cầu của mình. Vì vậy, cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này sẽ giúp bạn khai thác sức mạnh của mã vạch một chiều trong các dự án .NET của mình. Hãy bắt đầu ngay bây giờ và giải phóng tiềm năng của công nghệ mã vạch!
 
 Với bài viết này, bạn không chỉ có được kiến thức về các loại mã vạch một chiều khác nhau mà còn có thể tự tin triển khai chúng trong các dự án của mình. Chúc mừng mã hóa!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

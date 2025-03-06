@@ -3,10 +3,16 @@ title: Tek Boyutlu Kod 128 Yapılandırması
 linktitle: Tek Boyutlu Kod 128 Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode'u kullanarak .NET'te tek boyutlu Code 128 barkodlarını nasıl oluşturacağınızı öğrenin. Sorunsuz barkod entegrasyonu için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tek Boyutlu Kod 128 Yapılandırması
+
 
 Uygulamalarınızda barkod oluşturmak için güçlü bir araç arayan bir .NET geliştiricisiyseniz, Aspose.BarCode for .NET sizin için çözümdür. Bu kapsamlı kılavuz, Aspose.BarCode for .NET'in tek boyutlu Code 128 barkodları oluşturma yeteneklerinden yararlanma sürecinde size yol gösterecektir ve hem yeni başlayanlar hem de deneyimli geliştiriciler için tasarlanmıştır. 
 
@@ -108,3 +114,10 @@ Aspose.BarCode öncelikle tek boyutlu barkodlara odaklanırken, Aspose.BarCode f
 
 ### Aspose.BarCode for .NET için nereden destek alabilirim?
  Aspose.BarCode for .NET forumunda yardım arayabilir ve deneyimlerinizi paylaşabilirsiniz.[Burada](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

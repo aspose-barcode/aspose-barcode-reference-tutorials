@@ -3,10 +3,16 @@ title: Marges instellen voor streepjescodeafbeeldingen in Java
 linktitle: Marges instellen voor streepjescodeafbeelding
 second_title: Aspose.BarCode Java-API
 description: Leer hoe u marges voor streepjescodeafbeeldingen in Java instelt met Aspose.BarCode. Pas de afstand aan voor naadloze integratie in uw toepassing
-type: docs
 weight: 11
 url: /nl/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Marges instellen voor streepjescodeafbeeldingen in Java
+
 
 ## Invoering
 
@@ -99,3 +105,10 @@ Aspose.BarCode is primair ontworpen voor Java, maar er zijn versies beschikbaar 
 
 ### Hoe kan ik de volledige versie van Aspose.BarCode voor Java aanschaffen?
  U kunt de volledige versie van Aspose.BarCode voor Java aanschaffen bij de[aankooppagina](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

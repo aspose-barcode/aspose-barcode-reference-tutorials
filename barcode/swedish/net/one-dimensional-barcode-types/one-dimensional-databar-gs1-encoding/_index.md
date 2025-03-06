@@ -3,10 +3,16 @@ title: Endimensionell datafält GS1-kodning
 linktitle: Endimensionell datafält GS1-kodning
 second_title: Aspose.BarCode .NET API
 description: Lär dig att skapa Databar GS1-kodade streckkoder i .NET med Aspose.BarCode. Generera streckkoder med lätthet. Följ vår steg-för-steg-guide.
-type: docs
 weight: 18
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Endimensionell datafält GS1-kodning
+
 
 I den här handledningen går vi igenom processen att skapa endimensionella Databar GS1-kodade streckkoder med hjälp av Aspose.BarCode for .NET-biblioteket. Oavsett om du vill generera streckkoder med GS1-kodning eller utan den, så har vi dig täckt. Den här steg-för-steg-guiden hjälper dig att förstå förutsättningarna, importera namnrymder och demonstrera varje exempel för att enkelt skapa Databar GS1-kodade streckkoder.
 
@@ -101,3 +107,10 @@ Ja, du kan anpassa utseendet på streckkoderna som genereras med Aspose.BarCode 
 
 ### 5. Hur kan jag köpa en licens för Aspose.BarCode för .NET?
  För att köpa en licens för Aspose.BarCode för .NET, besök[köpsidan](https://purchase.aspose.com/buy) på Asposes hemsida.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

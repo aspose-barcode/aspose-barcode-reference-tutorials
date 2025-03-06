@@ -3,10 +3,16 @@ title: Pengkodean Kode Batang Aztec
 linktitle: Pengkodean Kode Batang Aztec
 second_title: Aspose.BarCode .NET API
 description: Buka potensi Aztec Barcode Encoding dengan Aspose.BarCode untuk .NET. Sesuaikan rasio aspek, buat kode Aztec yang dikodekan teks, dan kuasai Mode Simbol.
-type: docs
 weight: 28
 url: /id/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengkodean Kode Batang Aztec
+
 
 ## Perkenalan
 
@@ -44,3 +50,9 @@ Temukan kehebatan Pengodean Teks Kode Aztec dengan Aspose.BarCode untuk .NET. Pe
 Pelajari cara membuat kode batang kesalahan Aztec dengan tingkat kesalahan berbeda menggunakan Aspose.BarCode untuk .NET. Panduan komprehensif untuk pembuatan barcode.
 ### [Menguasai Mode Simbol Aztec](./aztec-symbol-mode-example/)
 Jelajahi Mode Simbol Aztec di Aspose.BarCode untuk .NET dan pelajari cara membuat kode batang serbaguna dengan mudah. Dapatkan pengalaman langsung dengan mode Otomatis, FullRange, Compact, dan Rune dalam tutorial komprehensif ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

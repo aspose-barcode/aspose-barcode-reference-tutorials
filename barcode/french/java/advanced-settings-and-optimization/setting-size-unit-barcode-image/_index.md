@@ -3,10 +3,16 @@ title: Définition de l'unité de taille pour l'image de code-barres en Java ave
 linktitle: Définition de l'unité de taille pour l'image du code-barres
 second_title: API Java Aspose.BarCode
 description: Découvrez la puissance d'Aspose.BarCode pour Java dans la définition d'unités de taille précises pour les images de codes-barres. Intégration sans effort, performances robustes et possibilités de personnalisation infinies.
-type: docs
 weight: 15
 url: /fr/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de l'unité de taille pour l'image de code-barres en Java avec Aspose.BarCode
+
 ## Introduction
 
 Aspose.BarCode for Java est une API Java robuste qui permet aux développeurs d'intégrer sans effort des capacités de génération et de reconnaissance de codes-barres dans leurs applications Java. Que vous développiez un système d'inventaire sophistiqué, une application de vente au détail ou tout autre logiciel nécessitant une fonctionnalité de code-barres, Aspose.BarCode s'avère être un choix fiable et efficace.
@@ -100,3 +106,9 @@ A2 : Absolument. Aspose.BarCode for Java offre des options de personnalisation �
 ### Q5 : Quelles sont les symbologies de codes-barres prises en charge dans Aspose.BarCode pour Java ?
 
 A5 : Aspose.BarCode for Java prend en charge un large éventail de symbologies de codes-barres, notamment CODE_128, QR_CODE, UPC_A et bien d'autres.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

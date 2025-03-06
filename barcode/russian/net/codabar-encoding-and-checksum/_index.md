@@ -3,10 +3,16 @@ title: Кодирование Codabar и контрольная сумма
 linktitle: Кодирование Codabar и контрольная сумма
 second_title: API Aspose.BarCode .NET
 description: Оптимизируйте штрих-коды Codabar в .NET с помощью Aspose.BarCode! Основной расчет контрольной суммы для точных данных. Создавайте легко, используя символы запуска/остановки, с помощью наших руководств.
-type: docs
 weight: 20
 url: /ru/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Кодирование Codabar и контрольная сумма
+
 ## Введение
 
 Вы разработчик и хотите раскрыть секреты кодирования Codabar и расчета контрольной суммы в .NET? Не смотрите дальше! В этой статье рассматриваются тонкости Codabar, предоставляя вам подробные руководства по вычислению контрольной суммы Codabar и использованию символов начала/стоп в Aspose.BarCode для .NET.
@@ -34,3 +40,9 @@ url: /ru/net/codabar-encoding-and-checksum/
 Узнайте, как рассчитать контрольные суммы Codabar в .NET с помощью Aspose.BarCode. Повысьте точность данных в штрих-кодах Codabar. Получите пошаговое руководство.
 ### [Символы запуска/остановки Codabar](./codabar-start-stop-characters/)
 Узнайте, как создавать штрих-коды Codabar со стартовыми и стоповыми символами с помощью Aspose.BarCode для .NET. Пошаговое руководство для разработчиков.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

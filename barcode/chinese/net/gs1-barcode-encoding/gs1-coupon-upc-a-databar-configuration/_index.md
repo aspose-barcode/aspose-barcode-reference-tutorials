@@ -3,10 +3,16 @@ title: GS1 优惠券 UPC-A 数据栏配置
 linktitle: GS1 优惠券 UPC-A 数据栏配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 了解 GS1 Coupon UPC-A Databar 配置。轻松创建条形码。现在就开始！
-type: docs
 weight: 13
 url: /zh/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 优惠券 UPC-A 数据栏配置
+
 
 ## 介绍
 
@@ -86,3 +92,10 @@ GS1 Coupon UPC-A Databar 是一种条形码标准，用于对优惠券和促销�
 ### 在哪里可以获得 Aspose.BarCode for .NET 支持？
 如需任何技术帮助或疑问，您可以访问[Aspose.BarCode for .NET 支持论坛](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

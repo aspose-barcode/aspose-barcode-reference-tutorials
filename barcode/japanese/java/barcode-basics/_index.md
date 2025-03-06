@@ -3,10 +3,16 @@ title: バーコードの基本
 linktitle: バーコードの基本
 second_title: Aspose.BarCode Java API
 description: Java アプリケーションでバーコードの力を解き放ちましょう!シームレスな統合、カスタマイズ、認識については、Aspose.BarCode チュートリアルを詳しく見てみましょう。
-type: docs
 weight: 20
 url: /ja/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# バーコードの基本
+
 
 ## 導入
 
@@ -38,3 +44,9 @@ Aspose.BarCode を使用して、Java で画像全体のサイズを作成およ
 Aspose.BarCode を使用して Java で正確なバーコードを生成する画像を作成します。カスタムバーコードを簡単に作成できます。ドキュメントを参照し、ダウンロードし、サポートを受けてください。
 ### [Java でのバーコードの向きの検出](./detecting-barcode-orientation/)
 Aspose.BarCode for Java を使用して、バーコード認識で Java アプリケーションを強化します。ステップバイステップのガイドに従って、バーコードの方向を簡単に検出します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

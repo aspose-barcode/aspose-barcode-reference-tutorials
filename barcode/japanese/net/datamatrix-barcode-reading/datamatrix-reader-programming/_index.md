@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用した DataMatrix リーダー プログ
 linktitle: DataMatrix リーダーのプログラミング
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用した DataMatrix リーダー プログラミングを探索します。この包括的なガイドでは、.NET アプリケーションで DataMatrix バーコードを生成および読み取る方法を学習します。
-type: docs
 weight: 10
 url: /ja/net/datamatrix-barcode-reading/datamatrix-reader-programming/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用した DataMatrix リーダー プログラミング
+
 Aspose.BarCode for .NET を使用して、DataMatrix バーコード リーダー プログラミングの世界を解き放つ準備はできていますか?シームレスなデータ統合とバーコード処理に興味がある場合、このチュートリアルはその人に合わせて作成されます。このステップバイステップ ガイドでは、バーコードの生成、読み取り、操作を簡素化する強力な .NET ライブラリである Aspose.BarCode を使用した DataMatrix バーコード リーダー プログラミングについて詳しく説明します。 
 
 ## 前提条件
@@ -112,3 +118,9 @@ A2: Aspose.BarCode for .NET は、.NET アプリケーションでのバーコ�
 ### Q5: Aspose.BarCode は最新の .NET Framework と互換性がありますか?
 
 A5: はい、Aspose.BarCode for .NET は、最新のものを含むさまざまなバージョンの .NET Framework と互換性があるように設計されています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

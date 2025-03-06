@@ -3,10 +3,16 @@ title: Java での開始および停止シンボルの設定
 linktitle: スタートシンボルとストップシンボルの設定
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して、Java で特定の開始記号と停止記号を含むカスタマイズされた Codabar バーコードを生成します。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での開始および停止シンボルの設定
+
 
 ## 導入
 
@@ -104,3 +110,10 @@ generator.save(dataDir + "startAndStopSymbols.png");
 ### Aspose.BarCode for Java でサポートされるバーコード シンボルは他にもありますか?
 はい、Aspose.BarCode は幅広いバーコード シンボルをサポートしています。完全なリストについては、ドキュメントを参照してください。
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

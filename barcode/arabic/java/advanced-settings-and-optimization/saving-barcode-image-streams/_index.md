@@ -3,10 +3,16 @@ title: حفظ صورة الباركود في التدفقات في Java باست
 linktitle: حفظ صورة الباركود في التدفقات
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية ديناميكية بسهولة باستخدام Aspose.BarCode لـ Java. اتبع دليلنا خطوة بخطوة لحفظ صور الباركود في التدفقات.
-type: docs
 weight: 14
 url: /ar/java/advanced-settings-and-optimization/saving-barcode-image-streams/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ صورة الباركود في التدفقات في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 في المشهد الديناميكي لبرمجة Java، تعد الحاجة إلى إنشاء باركود فعال أمرًا بالغ الأهمية. يبرز Aspose.BarCode for Java كحل قوي، حيث يوفر تكاملًا سلسًا لإنشاء الرمز الشريطي بتنسيقات مختلفة. سيرشدك هذا البرنامج التعليمي خلال عملية حفظ صور الباركود إلى التدفقات باستخدام Aspose.BarCode لـ Java.
@@ -77,3 +83,9 @@ generator.save(outStream, BarCodeImageFormat.JPEG);
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.BarCode؟
 
  ج5: نعم، يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

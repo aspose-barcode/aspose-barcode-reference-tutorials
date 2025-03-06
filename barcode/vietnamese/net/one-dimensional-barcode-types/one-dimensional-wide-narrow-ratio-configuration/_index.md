@@ -3,10 +3,16 @@ title: Cấu hình tỷ lệ rộng-hẹp một chiều
 linktitle: Cấu hình tỷ lệ rộng-hẹp một chiều
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch tùy chỉnh dễ dàng với Aspose.BarCode cho .NET. Hướng dẫn từng bước cho cấu hình tỷ lệ rộng-hẹp một chiều.
-type: docs
 weight: 22
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình tỷ lệ rộng-hẹp một chiều
+
 
 Bạn đang muốn tạo và tùy chỉnh mã vạch một cách dễ dàng trong các ứng dụng .NET của mình? Đừng tìm đâu xa! Aspose.BarCode for .NET là một thư viện mạnh mẽ giúp việc tạo và tùy chỉnh mã vạch trở nên dễ dàng. Trong hướng dẫn từng bước này, chúng tôi sẽ đi sâu vào cách khai thác sức mạnh của Aspose.BarCode cho .NET để tạo mã vạch với cấu hình tỷ lệ rộng-hẹp.
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET hỗ trợ nhiều loại ký hiệu mã vạch, bao g�
 
 ### 5. Làm cách nào tôi có thể nhận được hỗ trợ hoặc đặt câu hỏi về Aspose.BarCode cho .NET?
  Bạn có thể ghé thăm[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để được hỗ trợ và thảo luận.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

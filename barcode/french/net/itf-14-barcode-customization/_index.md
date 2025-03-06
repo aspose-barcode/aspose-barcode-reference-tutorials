@@ -3,10 +3,16 @@ title: Personnalisation du code-barres ITF-14
 linktitle: Personnalisation du code-barres ITF-14
 second_title: API Aspose.BarCode .NET
 description: Apprenez à personnaliser l’épaisseur et les types de bordures de codes-barres ITF-14 avec Aspose.BarCode for .NET. Optimisez votre emballage et votre étiquetage sans effort.
-type: docs
 weight: 24
 url: /fr/net/itf-14-barcode-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisation du code-barres ITF-14
+
 Si vous recherchez un guide complet sur la personnalisation des codes-barres ITF-14 pour vos besoins d'emballage et d'étiquetage, vous êtes au bon endroit. Dans cet article, nous explorerons divers aspects de la personnalisation à l'aide d'Aspose.BarCode pour .NET. Que vous soyez nouveau dans la génération de codes-barres ou un professionnel chevronné, ces didacticiels simplifieront le processus pour vous. Plongeons dans le monde de la personnalisation des codes-barres ITF-14 !
 
 ## Personnalisation de l'épaisseur de la bordure du code-barres ITF-14
@@ -28,3 +34,9 @@ Personnalisez l'épaisseur de la bordure du code-barres ITF-14 avec Aspose.BarCo
 Découvrez comment créer des codes-barres ITF-14 avec différents types de bordures à l'aide d'Aspose.BarCode for .NET. Personnalisez facilement votre emballage et votre étiquetage.
 ### [Configuration de la zone silencieuse du code-barres ITF-14](./itf-14-barcode-quiet-zone-configuration/)
 Découvrez comment configurer les zones silencieuses de code-barres ITF-14 avec Aspose.BarCode for .NET. Garantissez la lisibilité et la conformité sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

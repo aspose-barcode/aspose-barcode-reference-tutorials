@@ -3,10 +3,16 @@ title: 緊湊型 PDF417 編碼
 linktitle: 緊湊型 PDF417 編碼
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 輕鬆產生緊湊型 PDF417 條碼。請按照我們的逐步指南進行高效率編碼，並附有程式碼範例。
-type: docs
 weight: 29
 url: /zh-hant/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 緊湊型 PDF417 編碼
+
 
 ## 介紹
 
@@ -33,3 +39,9 @@ url: /zh-hant/net/compact-pdf417-encoding/
 ## 緊湊型 PDF417 編碼教程
 ### [建立緊湊型 PDF417 條碼](./compact-pdf417-basic-configuration/)
 了解如何使用 Aspose.BarCode for .NET 產生 Compact PDF417 條碼。包含逐步說明和程式碼範例的綜合指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

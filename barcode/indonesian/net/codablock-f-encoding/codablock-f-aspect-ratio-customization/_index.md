@@ -3,10 +3,16 @@ title: Sesuaikan Rasio Aspek Codablock F dengan Aspose.BarCode untuk .NET
 linktitle: Kustomisasi Rasio Aspek Codablock F
 second_title: Aspose.BarCode .NET API
 description: Kustomisasi Rasio Aspek Master Codablock F dengan Aspose.BarCode untuk .NET. Buat kode batang presisi yang disesuaikan dengan kebutuhan Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/net/codablock-f-encoding/codablock-f-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Rasio Aspek Codablock F dengan Aspose.BarCode untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk membuka kekuatan penyesuaian kode batang Codablock F menggunakan Aspose.BarCode untuk .NET? Dalam tutorial komprehensif ini, kami akan membawa Anda melalui proses langkah demi langkah penyesuaian rasio aspek Codablock F, memberi Anda pengetahuan dan alat untuk menghasilkan kode batang dengan presisi dan kemahiran. Baik Anda seorang pengembang, penggemar kode batang, atau seseorang yang ingin menjelajahi kemampuan Aspose.BarCode, panduan ini siap membantu Anda.
@@ -96,3 +102,9 @@ A3: Ya, Aspose.BarCode kompatibel dengan berbagai kerangka .NET, sehingga cocok 
 ### Q5: Di mana saya dapat membeli lisensi penuh Aspose.BarCode untuk .NET?
 
  A5: Anda dapat membeli lisensi penuh dari[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

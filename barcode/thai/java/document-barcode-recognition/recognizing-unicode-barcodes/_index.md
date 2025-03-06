@@ -3,10 +3,16 @@ title: การรับรู้บาร์โค้ด Unicode ใน Java
 linktitle: การรับรู้บาร์โค้ด Unicode
 second_title: Aspose.BarCode Java API
 description: สำรวจโลกของการจดจำบาร์โค้ด Unicode ใน Java ด้วย Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผสานรวมชุดอักขระที่หลากหลายเข้ากับแอปพลิเคชันของคุณได้อย่างราบรื่น
-type: docs
 weight: 13
 url: /th/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรับรู้บาร์โค้ด Unicode ใน Java
+
 
 ## การแนะนำ
 
@@ -127,3 +133,9 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ### ต้องการความช่วยเหลือหรือมีคำถาม?
  เยี่ยมชม[ฟอรั่ม Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

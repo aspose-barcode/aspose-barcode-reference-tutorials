@@ -3,10 +3,16 @@ title: Générer un code à barres avec des barres vides en Java
 linktitle: Générer un code-barres avec des barres vides
 second_title: API Java Aspose.BarCode
 description: Générez facilement des codes-barres avec des barres vides en Java à l'aide d'Aspose.BarCode. Personnalisez l’apparence et intégrez-la de manière transparente. Explorez le tutoriel maintenant !
-type: docs
 weight: 14
 url: /fr/java/image-manipulation/generating-barcode-empty-bars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer un code à barres avec des barres vides en Java
+
 
 ## Introduction
 
@@ -90,3 +96,9 @@ Absolument! Aspose.BarCode offre de nombreuses options de personnalisation, vous
 
 ### Où puis-je trouver une documentation détaillée pour Aspose.BarCode ?
  La documentation complète est disponible[ici](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

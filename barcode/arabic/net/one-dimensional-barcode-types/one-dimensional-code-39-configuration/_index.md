@@ -3,10 +3,16 @@ title: تكوين الكود 39 أحادي البعد
 linktitle: تكوين الكود 39 أحادي البعد
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء رموز شريطية Code 39 أحادية البعد في .NET باستخدام Aspose.BarCode. دليل خطوة بخطوة للمطورين.
-type: docs
 weight: 11
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الكود 39 أحادي البعد
+
 
 ## مقدمة
 
@@ -72,3 +78,9 @@ gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 
 ### س: أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.BarCode for .NET؟
  ج: يمكنك العثور على إجابات لأسئلتك وطلب الدعم على منتدى Aspose.BarCode:[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

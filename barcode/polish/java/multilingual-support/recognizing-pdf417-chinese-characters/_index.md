@@ -3,10 +3,16 @@ title: Rozpoznawanie kodu kreskowego PDF417 z chińskimi znakami w Javie
 linktitle: Rozpoznawanie kodu kreskowego PDF417 z chińskimi znakami
 second_title: Aspose.BarCode API Java
 description: Dowiedz się, jak rozpoznawać kody kreskowe PDF417 zawierające chińskie znaki w Javie za pomocą Aspose.BarCode. Skorzystaj z naszego obszernego samouczka, aby uzyskać bezproblemową integrację.
-type: docs
 weight: 10
 url: /pl/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznawanie kodu kreskowego PDF417 z chińskimi znakami w Javie
+
 
 ## Wstęp
 
@@ -89,3 +95,10 @@ Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/t
 
 ### Gdzie mogę znaleźć dokumentację?
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

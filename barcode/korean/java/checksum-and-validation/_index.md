@@ -3,10 +3,16 @@ title: 체크섬 및 검증
 linktitle: 체크섬 및 검증
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 데이터 무결성을 강화하세요. 쉽게 바코드를 생성하고, 항상 체크섬을 표시하고, CodaBar 및 일반 체크섬 검증을 마스터하세요.
-type: docs
 weight: 23
 url: /ko/java/checksum-and-validation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 체크섬 및 검증
+
 
 
 끊임없이 진화하는 소프트웨어 개발 환경에서는 데이터 무결성을 보장하는 것이 무엇보다 중요합니다. Java용 Aspose.BarCode로 제공되는 이 튜토리얼 시리즈는 체크섬 및 유효성 검사의 복잡성을 공개합니다. 신뢰성과 단순성이 결합된 바코드의 세계를 만나보세요.
@@ -31,3 +37,9 @@ Aspose.BarCode for Java를 사용하여 손쉽게 바코드를 생성하세요. 
 Aspose.BarCode를 사용하여 Java에서 CodaBar에 대한 체크섬을 적용하는 방법을 알아보세요. 이 단계별 가이드를 통해 손쉽게 바코드를 생성하고 인식하세요.
 ### [Java에서 체크섬 유효성 검사 적용](./applying-checksum-validation/)
 Aspose.BarCode를 사용하여 Java에서 손쉽게 마스터 바코드 검증을 수행하세요. 체크섬 유효성 검사를 위한 단계별 가이드입니다. 소프트웨어의 데이터 무결성을 강화하십시오!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Получение и распознавание штрих-кода в J
 linktitle: Получение и распознавание штрих-кода
 second_title: API Aspose.BarCode Java
 description: Легко интегрируйте Aspose.BarCode для Java — извлекайте и распознавайте штрих-коды из базы данных. Загрузите сейчас и получите беспрепятственную интеграцию со штрих-кодами.
-type: docs
 weight: 11
 url: /ru/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получение и распознавание штрих-кода в Java
+
 
 ## Введение
 
@@ -120,3 +126,10 @@ System.out.println(ex.getMessage());
 
 ### Доступны ли временные лицензии для целей тестирования?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для целей тестирования и оценки.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.BarCode を使用して Java でバーコードにキャプショ�
 linktitle: バーコードにキャプションを追加する
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java でバーコードのビジュアルを強化する方法を学びます。キャプションを簡単に追加して、ユーザー エクスペリエンスを向上させます。
-type: docs
 weight: 10
 url: /ja/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode を使用して Java でバーコードにキャプションを追加する
+
 
 ## 導入
 
@@ -102,3 +108,9 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 ### 問題が発生した場合や質問がある場合、どこに助けを求めればよいですか?
  Aspose.BarCode コミュニティ フォーラム[ここ](https://forum.aspose.com/c/barcode/13)はサポートとディスカッションのための優れたリソースです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

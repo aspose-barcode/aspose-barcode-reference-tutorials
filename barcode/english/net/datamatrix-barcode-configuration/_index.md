@@ -3,10 +3,16 @@ title: Generate DataMatrix Barcodes Like a Pro with Aspose.BarCode.
 linktitle: DataMatrix Barcode Configuration
 second_title: Aspose.BarCode .NET API
 description: Generate DataMatrix barcodes effortlessly with Aspose.BarCode for .NET. Customize aspect ratios, ECC modes, encoding, and more. Boost efficiency in barcode creation.
-type: docs
 weight: 30
 url: /net/datamatrix-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generate DataMatrix Barcodes Like a Pro with Aspose.BarCode.
+
 
 
 Welcome to our comprehensive tutorial series on DataMatrix barcode configuration using Aspose.BarCode for .NET. Whether you're a seasoned developer or just starting, these step-by-step guides will empower you to generate and customize DataMatrix barcodes seamlessly.
@@ -69,3 +75,9 @@ Learn DataMatrix Encoding Mode (C40) with Aspose.BarCode for .NET. Create custom
 Learn to configure DataMatrix extended code text using Aspose.BarCode for .NET. Generate, recognize, and integrate barcodes in your .NET applications.
 ### [Master DataMatrix Macro Configuration](./datamatrix-macro-configuration/)
 Learn how to configure DataMatrix Macro barcodes with Aspose.BarCode for .NET. Generate, customize, and recognize DataMatrix barcodes in your .NET applications.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ρύθμιση ύψους ράβδων σε Java
 linktitle: Ρύθμιση ύψους ράβδων
 second_title: Aspose.BarCode Java API
 description: Δημιουργήστε και προσαρμόστε γραμμικούς κώδικες χωρίς κόπο σε Java με το Aspose.BarCode. Ορίστε το ύψος της γραμμής, επιλέξτε τύπους και βελτιώστε τις δυνατότητες της εφαρμογής σας.
-type: docs
 weight: 14
 url: /el/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση ύψους ράβδων σε Java
+
 
 ## Εισαγωγή
 
@@ -78,3 +84,10 @@ generator.save(dataDir + "barsHeight.jpg");
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.BarCode για Java;
  Επισκεφθείτε το φόρουμ Aspose.BarCode[εδώ](https://forum.aspose.com/c/barcode/13) για κοινοτική υποστήριξη και συζητήσεις.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

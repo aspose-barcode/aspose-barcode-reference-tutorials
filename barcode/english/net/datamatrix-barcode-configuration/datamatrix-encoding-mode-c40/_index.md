@@ -3,10 +3,16 @@ title: Master DataMatrix Encoding Mode (C40) with Aspose.BarCode for .NET
 linktitle: DataMatrix Encoding Mode (C40)
 second_title: Aspose.BarCode .NET API
 description: Learn DataMatrix Encoding Mode (C40) with Aspose.BarCode for .NET. Create custom barcodes efficiently. Explore step-by-step guide.
-type: docs
 weight: 16
 url: /net/datamatrix-barcode-configuration/datamatrix-encoding-mode-c40/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master DataMatrix Encoding Mode (C40) with Aspose.BarCode for .NET
+
 ## Introduction
 
 In the world of barcode generation, precision and versatility are crucial. Whether you are working on inventory management, shipping, or any application that involves data encoding, DataMatrix barcodes are a popular choice. With Aspose.BarCode for .NET, you have a powerful tool at your disposal to create, customize, and encode barcodes efficiently.
@@ -104,3 +110,10 @@ A4: Yes, you can explore a free trial of Aspose.BarCode for .NET by visiting [th
 ### Q5: Where can I get support for Aspose.BarCode for .NET?
 
 A5: You can find a supportive community and access support for Aspose.BarCode for .NET on the [Aspose forum](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

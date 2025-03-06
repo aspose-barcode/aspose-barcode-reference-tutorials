@@ -3,10 +3,16 @@ title: Penyesuaian Tinggi Barcode Databar Satu Dimensi
 linktitle: Penyesuaian Tinggi Barcode Databar Satu Dimensi
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara menyesuaikan tinggi kode batang Databar Satu Dimensi dengan Aspose.BarCode untuk .NET. Buat kode batang khusus dalam beberapa langkah sederhana. Jelajahi kekuatan penyesuaian kode batang.
-type: docs
 weight: 17
 url: /id/net/one-dimensional-barcode-types/one-dimensional-databar-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penyesuaian Tinggi Barcode Databar Satu Dimensi
+
 
 Dalam bidang pembuatan dan manipulasi barcode, presisi dan kontrol atas elemen barcode sangatlah penting. Aspose.BarCode untuk .NET memberdayakan pengembang dengan kemampuan untuk menyempurnakan properti kode batang, seperti menyesuaikan ketinggian. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menyesuaikan ketinggian kode batang Databar Satu Dimensi menggunakan Aspose.BarCode untuk .NET. Tutorial ini akan merinci setiap langkah, memastikan bahwa Anda dapat dengan mudah mengikutinya, bahkan jika Anda baru dalam pembuatan kode batang. Ayo selami!
 
@@ -93,3 +99,10 @@ Ya, Aspose.BarCode untuk .NET dirancang untuk otomatisasi dalam aplikasi .NET. A
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.BarCode untuk .NET?
  Ya, Anda bisa mendapatkan uji coba gratis Aspose.BarCode untuk .NET[Di Sini](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

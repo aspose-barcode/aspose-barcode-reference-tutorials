@@ -3,10 +3,16 @@ title: Eendimensionale Code 39-configuratie
 linktitle: Eendimensionale Code 39-configuratie
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u eendimensionale Code 39-barcodes kunt genereren in .NET met Aspose.BarCode. Stapsgewijze handleiding voor ontwikkelaars.
-type: docs
 weight: 11
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eendimensionale Code 39-configuratie
+
 
 ## Invoering
 
@@ -72,3 +78,9 @@ A: Absoluut, u kunt verschillende aspecten van de streepjescode aanpassen, inclu
 
 ### Vraag: Waar kan ik ondersteuning krijgen of vragen stellen over Aspose.BarCode voor .NET?
  A: U kunt antwoorden op uw vragen vinden en ondersteuning zoeken op het Aspose.BarCode-forum:[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

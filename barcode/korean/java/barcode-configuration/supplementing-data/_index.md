@@ -3,10 +3,16 @@ title: Java로 데이터 보완
 linktitle: 데이터 보충
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 동적 바코드를 만드는 방법을 알아보세요. EAN_13 기호로 데이터를 보완하기 위한 단계별 가이드입니다.
-type: docs
 weight: 16
 url: /ko/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java로 데이터 보완
+
 
 ## 소개
 
@@ -96,3 +102,10 @@ generator.save(dataDir + "supplementData.jpg");
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

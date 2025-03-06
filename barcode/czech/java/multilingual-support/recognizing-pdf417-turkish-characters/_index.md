@@ -3,10 +3,16 @@ title: Rozpoznávání čárového kódu PDF417 s tureckými znaky v Javě
 linktitle: Rozpoznávání čárového kódu PDF417 s tureckými znaky
 second_title: Aspose.BarCode Java API
 description: Naučte se, jak rozpoznat čárové kódy PDF417 s tureckými znaky v Javě pomocí Aspose.BarCode. Snadná integrace a výkonné možnosti dekódování.
-type: docs
 weight: 11
 url: /cs/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznávání čárového kódu PDF417 s tureckými znaky v Javě
+
 
 ## Úvod
 
@@ -79,3 +85,10 @@ Ano, Aspose.BarCode podporuje širokou škálu typů čárových kódů, včetn�
 
 ### Mohu během vývoje použít dočasnou licenci?
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurowanie współczynnika szeroki-wąski w Javie za pomocą Aspose.B
 linktitle: Konfigurowanie proporcji szeroki-wąski
 second_title: Aspose.BarCode API Java
 description: Dowiedz się, jak skonfigurować współczynnik szeroki-wąski w kodach kreskowych Java przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną personalizację.
-type: docs
 weight: 17
 url: /pl/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurowanie współczynnika szeroki-wąski w Javie za pomocą Aspose.BarCode
+
 
 ## Wstęp
 
@@ -87,3 +93,9 @@ O: Po prostu zmień typ symboliki w konstruktorze BarcodeGenerator, np. EncodeTy
 
 ### P: Jak uzyskać wsparcie dla Aspose.BarCode?
  O: Odwiedź forum Aspose.BarCode[Tutaj](https://forum.aspose.com/c/barcode/13) za wsparcie i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

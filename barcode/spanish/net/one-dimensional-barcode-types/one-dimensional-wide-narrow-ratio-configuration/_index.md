@@ -3,10 +3,16 @@ title: Configuración unidimensional de relación ancha-estrecha
 linktitle: Configuración unidimensional de relación ancha-estrecha
 second_title: API Aspose.BarCode .NET
 description: Genere códigos de barras personalizados fácilmente con Aspose.BarCode para .NET. Guía paso a paso para la configuración unidimensional de relación ancha-estrecha.
-type: docs
 weight: 22
 url: /es/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración unidimensional de relación ancha-estrecha
+
 
 ¿Está buscando generar y personalizar códigos de barras sin esfuerzo en sus aplicaciones .NET? ¡No busque más! Aspose.BarCode para .NET es una biblioteca sólida que facilita la generación y personalización de códigos de barras. En esta guía paso a paso, profundizaremos en cómo aprovechar el poder de Aspose.BarCode para .NET para crear códigos de barras con una configuración de relación amplia-estrecha.
 
@@ -104,3 +110,10 @@ Aspose.BarCode para .NET admite una amplia gama de simbologías de códigos de b
 
 ### 5. ¿Cómo puedo obtener soporte o hacer preguntas sobre Aspose.BarCode para .NET?
  Puedes visitar el[Foro Aspose.BarCode](https://forum.aspose.com/c/barcode/13) para apoyo y discusiones.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

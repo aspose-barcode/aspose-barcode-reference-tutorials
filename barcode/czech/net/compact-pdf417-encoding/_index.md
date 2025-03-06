@@ -3,10 +3,16 @@ title: Kompaktní kódování PDF417
 linktitle: Kompaktní kódování PDF417
 second_title: Aspose.BarCode .NET API
 description: Vytvářejte kompaktní čárové kódy PDF417 bez námahy pomocí Aspose.BarCode pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní kódování, doplněného o příklady kódu.
-type: docs
 weight: 29
 url: /cs/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompaktní kódování PDF417
+
 
 ## Úvod
 
@@ -33,3 +39,9 @@ Závěrem lze říci, že zvládnutí kompaktního kódování PDF417 je v dneš
 ## Kompaktní výukové programy kódování PDF417
 ### [Vytváření kompaktních čárových kódů PDF417](./compact-pdf417-basic-configuration/)
 Naučte se generovat kompaktní čárové kódy PDF417 pomocí Aspose.BarCode pro .NET. Komplexní průvodce s pokyny krok za krokem a příklady kódu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

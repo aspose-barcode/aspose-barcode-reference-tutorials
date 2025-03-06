@@ -3,10 +3,16 @@ title: Java에서 세그먼트로 바코드 구성
 linktitle: 세그먼트로 바코드 구성
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 손쉽게 맞춤형 바코드를 생성하세요. 다양하고 효율적이며 개발자 친화적입니다.
-type: docs
 weight: 10
 url: /ko/java/barcode-configuration/configuring-barcode-segments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 세그먼트로 바코드 구성
+
 
 끊임없이 발전하는 기술 환경에서 강력한 바코드 솔루션의 필요성이 필수적이 되었습니다. Aspose.BarCode for Java는 바코드 생성 및 사용자 정의를 단순화하는 강력한 도구입니다. 이 튜토리얼에서는 Java용 Aspose.BarCode를 사용하여 세그먼트로 바코드를 구성하는 방법을 살펴보겠습니다. 이 단계별 가이드는 바코드 기능을 Java 애플리케이션에 원활하게 통합하는 데 필요한 지식을 제공합니다.
 
@@ -86,3 +92,10 @@ generator.save(dataDir + "6segments.png");
 
 ### 무료 평가판이 제공되나요?
  예, Aspose.BarCode에 액세스하여 기능을 살펴보세요.[무료 시험판](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

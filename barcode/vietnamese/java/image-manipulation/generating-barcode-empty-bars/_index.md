@@ -3,10 +3,16 @@ title: Tạo mã vạch với các thanh trống trong Java
 linktitle: Tạo mã vạch với các thanh trống
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch với các thanh trống một cách dễ dàng trong Java bằng Aspose.BarCode. Tùy chỉnh giao diện và tích hợp liền mạch. Hãy khám phá hướng dẫn ngay bây giờ!
-type: docs
 weight: 14
 url: /vi/java/image-manipulation/generating-barcode-empty-bars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã vạch với các thanh trống trong Java
+
 
 ## Giới thiệu
 
@@ -90,3 +96,9 @@ Tuyệt đối! Aspose.BarCode cung cấp nhiều tùy chọn để tùy chỉnh
 
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.BarCode ở đâu?
  Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

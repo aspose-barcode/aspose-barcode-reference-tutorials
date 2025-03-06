@@ -3,10 +3,16 @@ title: تقديم الرمز الشريطي إلى مثيل الصورة في Ja
 linktitle: تقديم الباركود إلى مثيل الصورة
 second_title: Aspose.BarCode جافا API
 description: اكتشف قوة Aspose.BarCode لـ Java! يمكنك بسهولة إنشاء رموز شريطية بأنواع مختلفة باستخدام هذه المكتبة القوية.
-type: docs
 weight: 11
 url: /ar/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم الرمز الشريطي إلى مثيل الصورة في Java
+
 
 ## مقدمة
 
@@ -70,3 +76,10 @@ Image image = bb.generateBarCodeImage();
 
 ### هل هناك خيار ترخيص مؤقت متاح؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

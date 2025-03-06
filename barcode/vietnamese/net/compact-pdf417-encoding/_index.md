@@ -3,10 +3,16 @@ title: Mã hóa PDF417 nhỏ gọn
 linktitle: Mã hóa PDF417 nhỏ gọn
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch Compact PDF417 dễ dàng với Aspose.BarCode cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để mã hóa hiệu quả, hoàn chỉnh với các ví dụ về mã.
-type: docs
 weight: 29
 url: /vi/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa PDF417 nhỏ gọn
+
 
 ## Giới thiệu
 
@@ -33,3 +39,9 @@ Tóm lại, thành thạo mã hóa Compact PDF417 là một kỹ năng có giá 
 ## Hướng dẫn mã hóa PDF417 nhỏ gọn
 ### [Tạo mã vạch PDF417 nhỏ gọn](./compact-pdf417-basic-configuration/)
 Tìm hiểu cách tạo mã vạch Compact PDF417 bằng Aspose.BarCode cho .NET. Hướng dẫn toàn diện với hướng dẫn từng bước và ví dụ về mã.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

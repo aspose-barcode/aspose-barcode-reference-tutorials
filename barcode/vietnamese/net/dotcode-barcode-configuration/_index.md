@@ -3,10 +3,16 @@ title: Cấu hình mã vạch DotCode
 linktitle: Cấu hình mã vạch DotCode
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch DotCode tùy chỉnh dễ dàng với Aspose.BarCode .NET. Tìm hiểu tỷ lệ khung hình, chế độ mã hóa, văn bản mã mở rộng và khởi tạo trình đọc.
-type: docs
 weight: 32
 url: /vi/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình mã vạch DotCode
+
 
 ## Giới thiệu
 Đi sâu vào thế giới mã vạch DotCode với Aspose.BarCode cho .NET. Hướng dẫn của chúng tôi bao gồm nhiều khía cạnh khác nhau, giúp bạn tạo mã vạch phù hợp một cách dễ dàng. Khám phá các khía cạnh như tùy chỉnh tỷ lệ khung hình, chế độ mã hóa (Tự động và Byte), cấu hình văn bản mã mở rộng, khởi tạo trình đọc, cấu hình hàng và cột cũng như chế độ nối thêm có cấu trúc. Thực hiện theo hướng dẫn từng bước của chúng tôi để nắm vững từng cấu hình, đảm bảo tạo mã vạch 2D chính xác và có thể tùy chỉnh. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, hướng dẫn của chúng tôi đều cung cấp những hiểu biết có giá trị về cách tạo mã vạch DotCode hiệu quả cho các ứng dụng đa dạng. Khám phá tài liệu toàn diện của chúng tôi, tải xuống thư viện và nhận giấy phép tạm thời để bắt đầu hành trình tạo mã vạch của bạn. Aspose.BarCode for .NET đơn giản hóa quy trình, cho phép bạn tạo mã vạch một cách liền mạch và tích hợp chúng vào ứng dụng của bạn một cách dễ dàng. Hãy tham gia cùng chúng tôi trong loạt bài hướng dẫn này để nâng cao kỹ năng tạo mã vạch của bạn và luôn đi đầu trong công nghệ mã vạch.|
@@ -48,3 +54,9 @@ Tìm hiểu cách khởi tạo DotCode Reader bằng Aspose.BarCode cho .NET. T�
 Tìm hiểu cách định cấu hình Hàng và Cột DotCode bằng Aspose.BarCode cho .NET. Tạo mã vạch 2D chính xác và có thể tùy chỉnh một cách dễ dàng.
 ### [Cấu hình chế độ nối thêm có cấu trúc DotCode](./dotcode-structured-append-mode-configuration/)
 Tìm hiểu cách định cấu hình Chế độ nối thêm có cấu trúc DotCode với Aspose.BarCode cho .NET và tạo mã vạch hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

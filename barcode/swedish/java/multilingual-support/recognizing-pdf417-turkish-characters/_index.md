@@ -3,10 +3,16 @@ title: Känner igen PDF417 streckkod med turkiska tecken i Java
 linktitle: Känner igen PDF417 streckkod med turkiska tecken
 second_title: Aspose.BarCode Java API
 description: Lär dig hur du känner igen PDF417-streckkoder med turkiska tecken i Java med Aspose.BarCode. Enkel integration och kraftfulla avkodningsmöjligheter.
-type: docs
 weight: 11
 url: /sv/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Känner igen PDF417 streckkod med turkiska tecken i Java
+
 
 ## Introduktion
 
@@ -79,3 +85,10 @@ Ja, Aspose.BarCode stöder ett brett utbud av streckkodstyper, inklusive PDF417.
 
 ### Kan jag använda en tillfällig licens under utveckling?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

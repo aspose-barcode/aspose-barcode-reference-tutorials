@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode에서 시작/중지 문자를 사용하여 Codabar
 linktitle: Codabar 시작/중지 문자
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 시작 및 중지 문자가 있는 Codabar 바코드를 만드는 방법을 알아보세요. 개발자를 위한 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/codabar-encoding-and-checksum/codabar-start-stop-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode에서 시작/중지 문자를 사용하여 Codabar 바코드 생성
+
 ## 소개
 
 .NET용 Aspose.BarCode 사용에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 Codabar 시작/중지 문자의 세계를 살펴보고 그 중요성과 .NET용 Aspose.BarCode를 사용하여 효과적으로 구현하는 방법을 탐구합니다. 숙련된 개발자이든 코딩 여정을 막 시작하든 관계없이 이 단계별 가이드는 시작 및 중지 문자가 있는 Codabar 바코드 생성 기술을 익히는 데 도움이 됩니다.
@@ -132,3 +138,9 @@ A3: Codabar 바코드는 주로 숫자 데이터 인코딩에 사용되며 영�
 ### Q5: Aspose.BarCode for .NET과 관련된 문제에 대해 어디서 도움을 구하거나 논의할 수 있습니까?
 
  A5: 다음을 방문할 수 있습니다.[.NET 지원 포럼용 Aspose.BarCode](https://forum.aspose.com/c/barcode/13) 도움을 구하고 문제나 질문에 대해 논의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

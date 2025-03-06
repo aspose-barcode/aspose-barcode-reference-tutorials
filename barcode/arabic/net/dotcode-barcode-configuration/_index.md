@@ -3,10 +3,16 @@ title: تكوين الباركود DotCode
 linktitle: تكوين الباركود DotCode
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء رموز شريطية DotCode مخصصة بسهولة باستخدام Aspose.BarCode .NET. تعرف على نسبة العرض إلى الارتفاع وأوضاع التشفير ونص التعليمات البرمجية الموسع وتهيئة القارئ.
-type: docs
 weight: 32
 url: /ar/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الباركود DotCode
+
 
 ## مقدمة
 انغمس في عالم رموز DotCode الشريطية باستخدام Aspose.BarCode لـ .NET. تغطي برامجنا التعليمية جوانب مختلفة، مما يتيح لك إنشاء رموز شريطية مخصصة دون عناء. استكشف جوانب مثل تخصيص نسبة العرض إلى الارتفاع، وأوضاع التشفير (تلقائي وبايت)، وتكوين نص التعليمات البرمجية الموسع، وتهيئة القارئ، وتكوين الصفوف والأعمدة، ووضع الإلحاق المنظم. اتبع إرشاداتنا خطوة بخطوة لإتقان كل تكوين، مما يضمن إنشاء باركود ثنائي الأبعاد دقيق وقابل للتخصيص. سواء كنت مبتدئًا أو مطورًا ذا خبرة، توفر برامجنا التعليمية رؤى قيمة حول إنشاء رموز شريطية DotCode فعالة لتطبيقات متنوعة. استكشف وثائقنا الشاملة، وقم بتنزيل المكتبة، واحصل على تراخيص مؤقتة لبدء رحلة إنشاء الباركود الخاصة بك. يعمل Aspose.BarCode for .NET على تبسيط العملية، مما يسمح لك بإنشاء الرموز الشريطية بسلاسة ودمجها في تطبيقاتك بسهولة. انضم إلينا في هذه السلسلة التعليمية لتعزيز مهاراتك في إنشاء الباركود والبقاء في طليعة تكنولوجيا الباركود.|
@@ -48,3 +54,9 @@ url: /ar/net/dotcode-barcode-configuration/
 تعرف على كيفية تكوين صفوف وأعمدة DotCode باستخدام Aspose.BarCode لـ .NET. قم بإنشاء رموز شريطية ثنائية الأبعاد دقيقة وقابلة للتخصيص بسهولة.
 ### [تكوين وضع الإلحاق المنظم لـ DotCode](./dotcode-structured-append-mode-configuration/)
 تعرف على كيفية تكوين وضع الإلحاق المنظم لـ DotCode باستخدام Aspose.BarCode لـ .NET وإنشاء رموز شريطية فعالة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

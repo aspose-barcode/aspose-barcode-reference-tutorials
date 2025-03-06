@@ -3,10 +3,16 @@ title: Konfigurasi Baris dan Kolom Databar Satu Dimensi
 linktitle: Konfigurasi Baris dan Kolom Databar Satu Dimensi
 second_title: Aspose.BarCode .NET API
 description: Hasilkan kode batang DataBar satu dimensi dinamis dengan konfigurasi baris dan kolom di .NET menggunakan Aspose.BarCode untuk .NET. Kustomisasi menjadi mudah!
-type: docs
 weight: 19
 url: /id/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Baris dan Kolom Databar Satu Dimensi
+
 
 Di dunia digital saat ini, barcode memainkan peran penting dalam berbagai industri, mulai dari manajemen inventaris hingga pelabelan produk. Sebagai pengembang, Anda mungkin memerlukan alat canggih untuk membuat dan menyesuaikan kode batang di aplikasi .NET Anda. Aspose.BarCode for .NET adalah perpustakaan serbaguna yang memungkinkan Anda membuat, menyesuaikan, dan memanipulasi kode batang satu dimensi dan dua dimensi dengan mudah.
 
@@ -112,3 +118,10 @@ Sangat! Aspose.BarCode untuk .NET serbaguna dan dapat digunakan di berbagai apli
  Ya, dokumentasinya[Di Sini](https://reference.aspose.com/barcode/net/)memberikan contoh kode terperinci dan contoh proyek untuk membantu Anda memulai.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

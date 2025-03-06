@@ -3,10 +3,16 @@ title: توليد رمز التصحيح في جافا
 linktitle: توليد رمز التصحيح
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز التصحيح بسهولة في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لإنشاء الباركود بكفاءة.
-type: docs
 weight: 11
 url: /ar/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# توليد رمز التصحيح في جافا
+
 
 ## مقدمة
 
@@ -104,3 +110,10 @@ public static void generateWholePage() throws IOException {
 
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.BarCode لـ Java؟
  الوثائق متاحة في[Aspose.BarCode لوثائق جافا](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

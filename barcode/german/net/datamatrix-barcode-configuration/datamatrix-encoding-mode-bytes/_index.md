@@ -3,10 +3,16 @@ title: DataMatrix-Kodierung in Bytes mit Aspose.BarCode für .NET
 linktitle: DataMatrix-Kodierungsmodus (Bytes)
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie Daten im DataMatrix-Format im Byte-Modus mit Aspose.BarCode für .NET kodieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung zur Barcode-Generierung und -Erkennung.
-type: docs
 weight: 15
 url: /de/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DataMatrix-Kodierung in Bytes mit Aspose.BarCode für .NET
+
 In der Welt der Barcode-Generierung und -Erkennung gilt Aspose.BarCode für .NET als leistungsstarkes und vielseitiges Tool. Mit seinen robusten Funktionen und Fähigkeiten ermöglicht es Entwicklern, Barcodes mühelos zu erstellen, zu bearbeiten und zu lesen. Unter den vielen angebotenen Kodierungsmodi ist der DataMatrix-Kodierungsmodus mit Bytes eine herausragende Funktion. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Verwendung von Aspose.BarCode für .NET zum Kodieren von Daten im DataMatrix-Format im Byte-Modus.
 
 ## Voraussetzungen
@@ -121,3 +127,9 @@ A4: Ja, Aspose.BarCode für .NET ist für die kommerzielle Nutzung geeignet. Sie
 ### F5: Kann ich eine temporäre Lizenz für Aspose.BarCode für .NET verwenden?
 
  A5: Ja, Sie können eine temporäre Lizenz für Aspose.BarCode für .NET erhalten von[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

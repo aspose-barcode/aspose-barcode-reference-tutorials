@@ -3,10 +3,16 @@ title: Obtenir la taille minimale du code à barres en Java avec Aspose.BarCode
 linktitle: Obtenir la taille minimale du code à barres
 second_title: API Java Aspose.BarCode
 description: Apprenez à créer des codes à barres de taille minimale en Java à l'aide d'Aspose.BarCode. Suivez notre guide étape par étape pour une génération de codes-barres efficace et optimisée en termes d'espace.
-type: docs
 weight: 12
 url: /fr/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir la taille minimale du code à barres en Java avec Aspose.BarCode
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape pour obtenir la taille minimale du code à barres en Java à l'aide d'Aspose.BarCode. Si vous souhaitez optimiser vos images BarCode pour gagner de l'espace ou répondre à des exigences d'affichage spécifiques, ce didacticiel est fait pour vous. Aspose.BarCode for Java fournit un ensemble puissant de fonctionnalités et, dans ce didacticiel, nous nous concentrerons sur la personnalisation de la taille de votre code-barres au minimum.
@@ -93,3 +99,9 @@ A2 : Oui, Aspose.BarCode est largement utilisé dans les applications d'entrepri
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.BarCode pour Java ?
 
  A5 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.BarCode en téléchargeant le[essai gratuit](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

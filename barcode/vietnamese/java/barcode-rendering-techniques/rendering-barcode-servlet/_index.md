@@ -3,10 +3,16 @@ title: Hiển thị mã vạch tới Servlet trong Java
 linktitle: Hiển thị mã vạch cho Servlet
 second_title: API Java Aspose.BarCode
 description: Dễ dàng tạo và hiển thị mã vạch trong Java Servlets với Aspose.BarCode. Tùy chỉnh các loại, tích hợp dễ dàng. Khám phá các khả năng!
-type: docs
 weight: 13
 url: /vi/java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị mã vạch tới Servlet trong Java
+
 
 ## Giới thiệu
 
@@ -102,3 +108,9 @@ Chắc chắn! Bạn có thể truy cập phiên bản dùng thử miễn phí[�
 
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.BarCode?
  Để có được giấy phép tạm thời, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

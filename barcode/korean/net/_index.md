@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose.BarCode의 종합 튜토리얼 및 예
 linktitle: .NET 튜토리얼용 Aspose.BarCode
-type: docs
 weight: 10
 url: /ko/net/
 description: 포괄적인 튜토리얼을 통해 Aspose.BarCode for .NET의 잠재력을 발휘해보세요! Codabar 인코딩을 마스터하고, Codablock F를 사용자 정의하고, Code 16K를 살펴보세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode의 종합 튜토리얼 및 예
+
 
 
 .NET용 Aspose.BarCode는 개발자가 다양한 바코드 유형을 정확하고 쉽게 생성하고 사용자 정의할 수 있도록 지원합니다. Codabar 인코딩을 탐구하든 Aztec Barcode와 같은 고급 옵션을 탐색하든 우리의 튜토리얼은 모든 것을 다룹니다.
@@ -91,3 +96,9 @@ Aspose.BarCode를 사용하여 .NET에서 다양한 1차원 바코드를 만드�
 .NET용 Aspose.BarCode를 사용하여 DataMatrix 바코드를 쉽게 생성하고 읽을 수 있습니다. DataMatrix 리더 프로그래밍 및 구조화된 추가 구성에 대해 알아보세요.
 ### [DotCode 바코드 구성](./dotcode-barcode-configuration/)
 Aspose.BarCode .NET을 사용하여 맞춤형 DotCode 바코드를 손쉽게 생성하세요. 종횡비, 인코딩 모드, 확장 코드 텍스트 및 리더 초기화에 대해 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

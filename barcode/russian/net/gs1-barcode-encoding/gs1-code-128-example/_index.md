@@ -3,10 +3,16 @@ title: Пошаговое руководство с примером кода GS
 linktitle: Пример кода GS1 128
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как создавать штрих-коды GS1 Code 128 с помощью Aspose.BarCode для .NET. Пошаговое руководство по созданию штрих-кода на C#. Начать сейчас!
-type: docs
 weight: 10
 url: /ru/net/gs1-barcode-encoding/gs1-code-128-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Пошаговое руководство с примером кода GS1 128
+
 
 ## Введение
 
@@ -89,3 +95,9 @@ gen.Save($"{path}GS1Code128Example.png", BarCodeImageFormat.Png);
 
 ### Нужна помощь или есть вопросы? Где я могу найти поддержку?
 Для поддержки и обсуждения в сообществе посетите[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

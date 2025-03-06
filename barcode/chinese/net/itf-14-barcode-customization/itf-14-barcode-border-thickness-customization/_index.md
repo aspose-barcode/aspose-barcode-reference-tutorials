@@ -3,10 +3,16 @@ title: ITF-14条码边框厚度定制
 linktitle: ITF-14条码边框厚度定制
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 自定义 ITF-14 条形码边框厚度。无缝条形码生成的分步指南。
-type: docs
 weight: 10
 url: /zh/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14条码边框厚度定制
+
 
 您是否希望使用 Aspose.BarCode for .NET 通过可定制的边框厚度来增强条形码生成？如果是这样，那么您来对地方了。在本分步指南中，我们将引导您完成修改 ITF-14 条形码边框厚度的过程。只需几个简单的步骤，您就可以为条形码实现所需的边框厚度，无论是用于产品标签还是库存管理。让我们开始吧！
 
@@ -108,3 +114,9 @@ Aspose.BarCode for .NET 与多种 .NET 框架兼容，使其适用于不同的�
 
 ### 如何获得 Aspose.BarCode for .NET 的临时许可证？
 您可以从以下地点获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

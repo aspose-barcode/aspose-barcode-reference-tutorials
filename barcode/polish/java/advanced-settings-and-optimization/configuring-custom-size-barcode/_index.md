@@ -3,10 +3,16 @@ title: Konfigurowanie kodów kreskowych o niestandardowych rozmiarach w Javie za
 linktitle: Konfigurowanie niestandardowego rozmiaru kodu kreskowego
 second_title: Aspose.BarCode API Java
 description: Odkryj prostotę konfigurowania kodów kreskowych o niestandardowych rozmiarach w Javie za pomocą Aspose.BarCode. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby uzyskać precyzyjną konfigurację.
-type: docs
 weight: 10
 url: /pl/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurowanie kodów kreskowych o niestandardowych rozmiarach w Javie za pomocą Aspose.BarCode
+
 ## Wstęp
 
 Jeśli jesteś programistą Java i chcesz bezproblemowo konfigurować kody kreskowe o niestandardowych rozmiarach, Aspose.BarCode dla Java jest idealnym rozwiązaniem. Ten samouczek przeprowadzi Cię przez proces konfigurowania niestandardowego rozmiaru kodów kreskowych, zapewniając elastyczność i precyzję w zastosowaniach.
@@ -112,3 +118,9 @@ O1: Tak, Aspose.BarCode dla Java obsługuje różne typy symboliki, dzięki czem
 ### P5: Czy dostępna jest opcja licencji tymczasowej?
 
  Odpowiedź 5: Tak, możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ITF-14 Barkod Kenarlık Tipi Oluşturma
 linktitle: ITF-14 Barkod Kenarlık Tipi Oluşturma
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak farklı kenarlık türlerine sahip ITF-14 barkodlarını nasıl oluşturacağınızı öğrenin. Ambalajınızı ve etiketlemenizi kolaylıkla özelleştirin.
-type: docs
 weight: 11
 url: /tr/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 Barkod Kenarlık Tipi Oluşturma
+
 
 Bu eğitimde, Aspose.BarCode for .NET'i kullanarak farklı kenarlık türlerine sahip ITF-14 barkodları oluşturma sürecinde size rehberlik edeceğiz. Aspose.BarCode, çeşitli formatlardaki barkodları oluşturmanıza, değiştirmenize ve tanımanıza olanak tanıyan güçlü bir kütüphanedir. Bu özel örnekte ITF-14 barkodlarına ve bunların kenar türlerinin nasıl kontrol edileceğine odaklanacağız. ITF-14 barkodları yaygın olarak paketleme ve etiketleme amacıyla kullanılır.
 
@@ -109,3 +115,10 @@ Evet, Aspose.BarCode for .NET, geleneksel .NET Framework'e ek olarak .NET Core v
 
 ### Aspose.BarCode'un ücretsiz deneme sürümü mevcut mu?
 Evet, Aspose.BarCode for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

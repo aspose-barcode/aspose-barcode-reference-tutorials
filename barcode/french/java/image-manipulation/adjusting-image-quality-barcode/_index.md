@@ -3,10 +3,16 @@ title: Ajustement de la qualité de l'image pour le code-barres en Java
 linktitle: Ajustement de la qualité de l'image pour le code-barres
 second_title: API Java Aspose.BarCode
 description: Libérez la puissance d’Aspose.BarCode pour Java ! Générez des codes-barres de haute qualité en toute transparence. Explorez le didacticiel maintenant.
-type: docs
 weight: 12
 url: /fr/java/image-manipulation/adjusting-image-quality-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustement de la qualité de l'image pour le code-barres en Java
+
 
 ## Introduction
 
@@ -87,3 +93,10 @@ Oui, Aspose.BarCode s'intègre de manière transparente à diverses bibliothèqu
 
 ### Où puis-je trouver une documentation complète sur Aspose.BarCode pour Java ?
  Se référer au[Documentation](https://reference.aspose.com/barcode/java/) pour des informations approfondies.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

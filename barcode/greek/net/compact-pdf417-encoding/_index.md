@@ -3,10 +3,16 @@ title: Συμπαγής κωδικοποίηση PDF417
 linktitle: Συμπαγής κωδικοποίηση PDF417
 second_title: Aspose.BarCode .NET API
 description: Δημιουργήστε γραμμικούς κώδικες Compact PDF417 χωρίς κόπο με το Aspose.BarCode για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική κωδικοποίηση, με παραδείγματα κώδικα.
-type: docs
 weight: 29
 url: /el/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συμπαγής κωδικοποίηση PDF417
+
 
 ## Εισαγωγή
 
@@ -33,3 +39,9 @@ url: /el/net/compact-pdf417-encoding/
 ## Compact PDF417 Encoding Tutorials
 ### [Δημιουργία συμπαγών γραμμωτών κωδικών PDF417](./compact-pdf417-basic-configuration/)
 Μάθετε πώς να δημιουργείτε γραμμικούς κώδικες Compact PDF417 χρησιμοποιώντας το Aspose.BarCode για .NET. Πλήρης οδηγός με οδηγίες βήμα προς βήμα και παραδείγματα κώδικα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

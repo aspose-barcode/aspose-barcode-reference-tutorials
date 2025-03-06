@@ -3,10 +3,16 @@ title: Hinzufügen von Rändern zu Barcode-Bildern in Java
 linktitle: Hinzufügen von Rändern zum Barcode-Bild
 second_title: Aspose.BarCode Java API
 description: Verbessern Sie Barcode-Bilder in Java mit Aspose.BarCode, indem Sie anpassbare Rahmen hinzufügen. Befolgen Sie diese Schritt-für-Schritt-Anleitung, um eine optisch ansprechende Barcode-Lösung zu erhalten.
-type: docs
 weight: 10
 url: /de/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hinzufügen von Rändern zu Barcode-Bildern in Java
+
 
 ## Einführung
 
@@ -122,3 +128,10 @@ Sicherlich. Sie können die Rahmenfarbe programmgesteuert basierend auf bestimmt
 
 ### Gibt es eine Testversion von Aspose.BarCode?
  Ja, Sie können die Funktionen von Aspose.BarCode erkunden, indem Sie das herunterladen[kostenlose Testversion](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

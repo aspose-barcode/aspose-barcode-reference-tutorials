@@ -3,10 +3,16 @@ title: Mengatur Simbol Mulai dan Berhenti di Java
 linktitle: Mengatur Simbol Mulai dan Berhenti
 second_title: Aspose.BarCode Java API
 description: Hasilkan kode batang Codabar yang disesuaikan dengan simbol mulai dan berhenti tertentu di Java menggunakan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 15
 url: /id/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Simbol Mulai dan Berhenti di Java
+
 
 ## Perkenalan
 
@@ -104,3 +110,10 @@ Selamat! Anda telah berhasil mempelajari cara menyetel simbol mulai dan berhenti
 ### Apakah ada lebih banyak simbologi kode batang yang didukung oleh Aspose.BarCode untuk Java?
 Ya, Aspose.BarCode mendukung berbagai simbologi barcode. Lihat dokumentasi untuk daftar lengkap.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

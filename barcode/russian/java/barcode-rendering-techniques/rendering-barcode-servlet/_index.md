@@ -3,10 +3,16 @@ title: Рендеринг штрих-кода в сервлет на Java
 linktitle: Рендеринг штрих-кода в сервлет
 second_title: API Aspose.BarCode Java
 description: Легко создавайте и отображайте штрих-коды в сервлетах Java с помощью Aspose.BarCode. Настраивайте типы, легко интегрируйте. Исследуйте возможности!
-type: docs
 weight: 13
 url: /ru/java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг штрих-кода в сервлет на Java
+
 
 ## Введение
 
@@ -102,3 +108,9 @@ public class RenderBarcodeToServlet extends HttpServlet {
 
 ### Как получить временную лицензию на Aspose.BarCode?
  Чтобы получить временную лицензию, посетите[эта ссылка](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

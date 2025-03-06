@@ -3,10 +3,16 @@ title: Personnalisez le rapport hauteur/largeur du code-barres aztèque avec Asp
 linktitle: Personnalisation du rapport hauteur/largeur aztèque
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment personnaliser les proportions des codes-barres aztèques à l'aide d'Aspose.BarCode pour .NET. Créez des codes-barres uniques et flexibles pour vos applications .NET.
-type: docs
 weight: 10
 url: /fr/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisez le rapport hauteur/largeur du code-barres aztèque avec Aspose.BarCode pour .NET
+
 Dans ce didacticiel, nous aborderons la personnalisation du rapport hauteur/largeur des codes-barres aztèques à l'aide d'Aspose.BarCode pour .NET. Les codes-barres aztèques sont des codes-barres bidimensionnels couramment utilisés pour encoder des données, et avec Aspose.BarCode, vous pouvez facilement créer et personnaliser ces codes-barres pour répondre à vos besoins spécifiques.
 
 ## Conditions préalables
@@ -108,3 +114,9 @@ A4 : Vous pouvez utiliser Aspose.BarCode pour .NET dans des applications Web en
 ### Q5 : Où puis-je obtenir une licence temporaire pour Aspose.BarCode pour .NET ?
 
 A5 : Si vous avez besoin d'une licence temporaire à des fins de test ou d'évaluation, vous pouvez en obtenir une auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

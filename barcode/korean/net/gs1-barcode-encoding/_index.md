@@ -3,10 +3,16 @@ title: GS1 바코드 인코딩
 linktitle: GS1 바코드 인코딩
 second_title: Aspose.BarCode .NET API
 description: .NET에서 Aspose.BarCode에 대한 GS1 바코드 인코딩 튜토리얼을 살펴보세요. GS1 코드 128, UPC-A 및 DataMatrix 바코드를 쉽게 생성하세요. 지금 시작하세요!
-type: docs
 weight: 23
 url: /ko/net/gs1-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 바코드 인코딩
+
 
 ## 소개
 오늘날 빠르게 변화하는 비즈니스 및 상거래 세계에서 효율적이고 정확한 바코드 인코딩의 필요성은 그 어느 때보다 중요합니다. GS1 바코드는 제품 식별 및 추적성의 표준이며 바코드 생성을 마스터하는 것은 귀중한 기술입니다. GS1 바코드의 세계를 탐구하고 싶다면 바로 이곳에 오셨습니다.
@@ -53,3 +59,9 @@ GS1 DataMatrix 바코드는 제품 식별 및 추적성에 있어 중요한 부�
 .NET용 Aspose.BarCode를 사용하여 GS1 쿠폰 UPC-A 데이터바 구성을 알아보세요. 바코드를 쉽게 생성하세요. 지금 시작하세요!
 ### [GS1 DataMatrix 예](./gs1-datamatrix-example/)
 Aspose.BarCode를 사용하여 .NET에서 GS1 DataMatrix 바코드를 생성하는 방법을 알아보세요. 단 몇 단계만 거치면 쉽고 효율적으로 바코드를 생성할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

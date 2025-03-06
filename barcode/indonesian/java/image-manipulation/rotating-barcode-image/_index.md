@@ -3,10 +3,16 @@ title: Memutar Gambar Barcode di Java
 linktitle: Memutar Gambar Barcode
 second_title: Aspose.BarCode Java API
 description: Pelajari cara memutar gambar barcode di Java dengan mudah menggunakan Aspose.BarCode. Panduan langkah demi langkah yang komprehensif untuk pengembang Java.
-type: docs
 weight: 15
 url: /id/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memutar Gambar Barcode di Java
+
 
 ## Perkenalan
 
@@ -85,3 +91,10 @@ Ya, Anda dapat menyesuaikan sudut rotasi pada Langkah 3 ke nilai apa pun yang di
 
 ### T: Dapatkah saya membuat kode batang untuk jenis pengkodean yang berbeda?
 Tentu saja, sesuaikan saja EncodeTypes di Langkah 2 berdasarkan kebutuhan Anda.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

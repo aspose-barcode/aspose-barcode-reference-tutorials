@@ -3,10 +3,16 @@ title: Personalizando a proporção do DataMatrix com Aspose.BarCode para .NET
 linktitle: Personalização da proporção do DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Aprenda como personalizar as proporções do código de barras DataMatrix usando Aspose.BarCode for .NET. Guia passo a passo para geração de código de barras.
-type: docs
 weight: 10
 url: /pt/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalizando a proporção do DataMatrix com Aspose.BarCode para .NET
+
 Você deseja gerar códigos de barras DataMatrix com proporção personalizada usando Aspose.BarCode for .NET? Você está no lugar certo. Neste tutorial passo a passo, mostraremos como fazer isso. Aspose.BarCode for .NET é uma biblioteca poderosa que permite criar e manipular códigos de barras facilmente. Começaremos apresentando os pré-requisitos e namespaces necessários e depois nos aprofundaremos nos exemplos.
 
 ## Pré-requisitos
@@ -86,3 +92,9 @@ A4: Sim, Aspose.BarCode for .NET é compatível com várias versões do .NET Fra
 ### Q5: Posso gerar códigos de barras em diferentes formatos com Aspose.BarCode for .NET?
 
 A5: Sim, Aspose.BarCode for .NET suporta a geração de códigos de barras em vários formatos, incluindo PNG, JPEG e muito mais.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

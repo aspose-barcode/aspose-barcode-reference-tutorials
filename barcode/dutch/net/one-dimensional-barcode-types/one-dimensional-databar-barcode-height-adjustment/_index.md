@@ -3,10 +3,16 @@ title: Eendimensionale hoogteaanpassing van de databarbarcode
 linktitle: Eendimensionale hoogteaanpassing van de databarbarcode
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u de hoogte van de ééndimensionale databarbarcode kunt aanpassen met Aspose.BarCode voor .NET. Maak in een paar eenvoudige stappen aangepaste streepjescodes. Ontdek de kracht van het aanpassen van streepjescodes.
-type: docs
 weight: 17
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-databar-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eendimensionale hoogteaanpassing van de databarbarcode
+
 
 Op het gebied van het genereren en manipuleren van streepjescodes zijn precisie en controle over streepjescode-elementen cruciaal. Aspose.BarCode voor .NET geeft ontwikkelaars de mogelijkheid om de eigenschappen van barcodes te verfijnen, zoals het aanpassen van de hoogte. In deze stapsgewijze handleiding onderzoeken we hoe u de hoogte van een eendimensionale databar-barcode kunt aanpassen met Aspose.BarCode voor .NET. In deze tutorial wordt elke stap uitgelegd, zodat u deze gemakkelijk kunt volgen, zelfs als u nog niet bekend bent met het genereren van streepjescodes. Laten we erin duiken!
 
@@ -93,3 +99,10 @@ Ja, Aspose.BarCode voor .NET is ontworpen voor automatisering in .NET-toepassing
 
 ### Is er een proefversie beschikbaar voor Aspose.BarCode voor .NET?
  Ja, u kunt een gratis proefversie van Aspose.BarCode voor .NET krijgen[hier](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

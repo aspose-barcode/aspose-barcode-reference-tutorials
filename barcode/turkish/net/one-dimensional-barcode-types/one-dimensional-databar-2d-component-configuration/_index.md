@@ -3,10 +3,16 @@ title: Tek Boyutlu Veri Çubuğu 2B Bileşen Yapılandırması
 linktitle: Tek Boyutlu Veri Çubuğu 2B Bileşen Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile Tek Boyutlu Veri Çubuğu 2D barkodları oluşturun. Yapılandırma ve özelleştirme için adım adım kılavuzumuzu izleyin. Bugün benzersiz barkodlar oluşturmaya başlayın!
-type: docs
 weight: 15
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tek Boyutlu Veri Çubuğu 2B Bileşen Yapılandırması
+
 
 Veri kodlama ve barkodlama dünyasında Aspose.BarCode for .NET kütüphanesi güvenilir ve çok yönlü bir araç olarak duruyor. Bu güçlü .NET bileşeni, geliştiricilere barkodları zahmetsizce oluşturma, değiştirme ve özelleştirme olanağı sağlar. Tek Boyutlu Veri Çubuğu 2B Bileşen Yapılandırması için bu kitaplığın potansiyelinden yararlanmak istiyorsanız doğru yerdesiniz. Bu adım adım kılavuzda, Aspose.BarCode for .NET kullanarak Databar 2D bileşenleriyle sorunsuz bir şekilde çalışabilmenizi sağlamak için süreci ayrıntılı olarak ele alacağız.
 
@@ -94,3 +100,9 @@ Bu adımları tamamladıktan sonra Aspose.BarCode for .NET'i kullanarak Tek Boyu
 
 ### Aspose.BarCode for .NET ile ilgili nereden destek ve yardım alabilirim?
 -  Yardım isteyebilir ve toplulukla etkileşime geçebilirsiniz.[Aspose.BarCode for .NET destek forumu](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

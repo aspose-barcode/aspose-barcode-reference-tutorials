@@ -3,10 +3,16 @@ title: Cấu hình mã vá
 linktitle: Cấu hình mã vá
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch Patch Code dễ dàng với Aspose.BarCode cho .NET. Tìm hiểu cách định cấu hình và tùy chỉnh các định dạng Mã vá bằng hướng dẫn Aspose.BarCode.
-type: docs
 weight: 26
 url: /vi/net/patch-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình mã vá
+
 
 Trong lĩnh vực quản lý tài liệu, mã vạch Patch Code đóng một vai trò quan trọng trong việc hợp lý hóa các quy trình và đảm bảo độ chính xác của dữ liệu. Với Aspose.BarCode cho .NET, bạn có thể nắm vững nghệ thuật định cấu hình và tùy chỉnh các mã vạch này một cách dễ dàng. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các khía cạnh thiết yếu của cấu hình, thiết lập và tùy chỉnh Patch Code.
 
@@ -40,3 +46,9 @@ Khám phá thế giới tùy chỉnh mã vạch và kiểm soát việc quản l
 Tạo mã vạch Patch Code dễ dàng với Aspose.BarCode cho .NET. Tìm hiểu các bước để tạo mã vạch Patch Code và nâng cao hệ thống quản lý tài liệu của bạn. Tải thư viện ngay bây giờ!
 ### [Tùy chỉnh bộ mã vá](./patch-code-set-customization/)
 Tìm hiểu cách tạo mã vạch trong .NET bằng Aspose.BarCode. Tùy chỉnh và tích hợp mã vạch vào ứng dụng của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

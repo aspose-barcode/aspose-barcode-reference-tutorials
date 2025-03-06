@@ -3,10 +3,16 @@ title: Rozpoznawanie kodu kreskowego PDF417 ze znakami tureckimi w Javie
 linktitle: Rozpoznawanie kodu kreskowego PDF417 ze znakami tureckimi
 second_title: Aspose.BarCode API Java
 description: Dowiedz się, jak rozpoznawać kody kreskowe PDF417 ze znakami tureckimi w Javie za pomocą Aspose.BarCode. Łatwa integracja i potężne możliwości dekodowania.
-type: docs
 weight: 11
 url: /pl/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznawanie kodu kreskowego PDF417 ze znakami tureckimi w Javie
+
 
 ## Wstęp
 
@@ -79,3 +85,10 @@ Tak, Aspose.BarCode obsługuje szeroką gamę typów kodów kreskowych, w tym PD
 
 ### Czy mogę używać licencji tymczasowej podczas programowania?
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

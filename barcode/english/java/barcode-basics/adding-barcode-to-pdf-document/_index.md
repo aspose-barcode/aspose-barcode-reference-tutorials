@@ -3,10 +3,16 @@ title: Adding Barcode to PDF Document in Java with Aspose.BarCode
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 description: Enhance your Java applications with Aspose.BarCode A step-by-step guide to adding barcodes to PDF documents.
-type: docs
 weight: 10
 url: /java/barcode-basics/adding-barcode-to-pdf-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Barcode to PDF Document in Java with Aspose.BarCode
+
 ## Introduction
 
 In the ever-evolving landscape of Java development, incorporating barcodes into PDF documents has become a crucial aspect of data management and identification. Aspose.BarCode for Java stands out as a powerful tool for seamlessly integrating barcode generation into your Java applications. In this tutorial, we'll guide you through the process of adding a barcode to a PDF document using Aspose.BarCode for Java.
@@ -97,3 +103,10 @@ A4: The [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) is a valua
 ### Q5: Can I try Aspose.BarCode for Java for free before making a purchase?
 
 A5: Yes, you can download a free trial version of Aspose.BarCode for Java from the [release page](https://releases.aspose.com/) to explore its features and capabilities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PDF417 vonalkód felismerése kínai karakterekkel Java nyelven
 linktitle: PDF417 vonalkód felismerése kínai karakterekkel
 second_title: Aspose.BarCode Java API
 description: Fedezze fel, hogyan ismerheti fel a kínai karaktereket tartalmazó PDF417 vonalkódokat Java nyelven az Aspose.BarCode segítségével. Kövesse átfogó oktatóanyagunkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF417 vonalkód felismerése kínai karakterekkel Java nyelven
+
 
 ## Bevezetés
 
@@ -89,3 +95,10 @@ Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-li
 
 ### Hol találom a dokumentációt?
  A dokumentáció elérhető[itt](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Рендеринг штрих-кода в графический объе
 linktitle: Рендеринг штрих-кода в графический объект
 second_title: API Aspose.BarCode Java
 description: Легко создавайте штрих-коды на Java с помощью Aspose.BarCode. Следуйте этому пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг штрих-кода в графический объект в Java
+
 
 ## Введение
 
@@ -111,3 +117,10 @@ class MyBarCode extends java.awt.Canvas {
 
 ### Куда я могу обратиться за помощью, если у меня возникнут проблемы?
  Посетите форум Aspose.BarCode[здесь](https://forum.aspose.com/c/barcode/13) для поддержки.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Кодировка купона GS1 UPC-A 128
 linktitle: Кодировка купона GS1 UPC-A 128
 second_title: API Aspose.BarCode .NET
 description: Легко создавайте штрих-коды с помощью Aspose.BarCode for .NET — вашего комплексного решения для создания штрих-кодов. Начните сегодня!
-type: docs
 weight: 12
 url: /ru/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Кодировка купона GS1 UPC-A 128
+
 
 ## Введение
 
@@ -115,3 +121,9 @@ Aspose.BarCode для .NET предоставляет универсальное
 
 ### Вопрос: Поддерживаются ли Aspose.BarCode для .NET какие-либо другие типы кодирования?
 Да, Aspose.BarCode для .NET поддерживает широкий спектр типов кодирования, включая UPC-A, Code 128, QR-коды и многие другие. Полный список вы можете найти в документации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

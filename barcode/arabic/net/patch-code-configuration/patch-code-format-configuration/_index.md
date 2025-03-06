@@ -3,10 +3,16 @@ title: إنشاء باركود كود التصحيح باستخدام Aspose.Bar
 linktitle: تكوين تنسيق رمز التصحيح
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء رموز شريطية لرموز التصحيح بسهولة باستخدام Aspose.BarCode لـ .NET. تعرف على خطوات إنشاء رموز شريطية لرمز التصحيح وتحسين نظام إدارة المستندات لديك. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 10
 url: /ar/net/patch-code-configuration/patch-code-format-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء باركود كود التصحيح باستخدام Aspose.BarCode لـ .NET
+
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء باركود رمز التصحيح باستخدام Aspose.BarCode لـ .NET. رموز التصحيح هي رموز شريطية ثنائية الأبعاد تُستخدم عادةً في إدارة المستندات والأرشفة. يعمل Aspose.BarCode على تبسيط عملية إنشاء رموز شريطية لرمز التصحيح في تطبيقات .NET الخاصة بك. في هذا الدليل، سنغطي المقدمة والمتطلبات الأساسية واستيراد مساحات الأسماء وشرح تفصيلي للمثال الذي قدمته خطوة بخطوة.
 
@@ -95,3 +101,10 @@ Aspose.BarCode for .NET هي مكتبة قوية تتيح لمطوري .NET إن
 
 ### أين يمكنني الحصول على الدعم لـ Aspose.BarCode لـ .NET؟
  إذا كانت لديك أية أسئلة أو كنت بحاجة إلى المساعدة، فيمكنك زيارة منتدى دعم Aspose.BarCode for .NET[هنا](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Egyedi méretű vonalkódok konfigurálása Java nyelven az Aspose.BarCod
 linktitle: Egyéni méret konfigurálása vonalkódhoz
 second_title: Aspose.BarCode Java API
 description: Fedezze fel az egyedi méretű vonalkódok Java nyelven történő konfigurálásának egyszerűségét az Aspose.BarCode segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat a pontos konfigurációhoz.
-type: docs
 weight: 10
 url: /hu/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyedi méretű vonalkódok konfigurálása Java nyelven az Aspose.BarCode segítségével
+
 ## Bevezetés
 
 Ha Ön Java-fejlesztő, aki az egyedi méretű vonalkódok zökkenőmentes konfigurálását szeretné elérni, az Aspose.BarCode for Java a legjobb megoldás. Ez az oktatóanyag végigvezeti Önt a vonalkódok egyéni méretének konfigurálásán, így biztosítva az alkalmazások rugalmasságát és pontosságát.
@@ -112,3 +118,9 @@ Ebben az oktatóanyagban bemutattuk az egyéni méretű vonalkód Java nyelven a
 ### 5. kérdés: Rendelkezésre áll ideiglenes licencelési lehetőség?
 
  V5: Igen, szerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

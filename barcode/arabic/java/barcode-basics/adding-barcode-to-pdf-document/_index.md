@@ -3,10 +3,16 @@ title: إضافة الرمز الشريطي إلى مستند PDF في Java با
 linktitle: إضافة الباركود إلى وثيقة PDF
 second_title: Aspose.BarCode جافا API
 description: قم بتحسين تطبيقات Java الخاصة بك باستخدام Aspose.BarCode دليل خطوة بخطوة لإضافة الرموز الشريطية إلى مستندات PDF.
-type: docs
 weight: 10
 url: /ar/java/barcode-basics/adding-barcode-to-pdf-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة الرمز الشريطي إلى مستند PDF في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 في المشهد المتطور باستمرار لتطوير Java، أصبح دمج الرموز الشريطية في مستندات PDF جانبًا حاسمًا في إدارة البيانات وتحديد هويتها. يبرز Aspose.BarCode for Java كأداة قوية لدمج إنشاء الباركود بسلاسة في تطبيقات Java الخاصة بك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة رمز شريطي إلى مستند PDF باستخدام Aspose.BarCode لـ Java.
@@ -97,3 +103,9 @@ mender.close();
 ### س5: هل يمكنني تجربة Aspose.BarCode لـ Java مجانًا قبل إجراء عملية الشراء؟
 
  ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.BarCode لـ Java من[صفحة الإصدار](https://releases.aspose.com/) للتعرف على مميزاته وإمكانياته.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

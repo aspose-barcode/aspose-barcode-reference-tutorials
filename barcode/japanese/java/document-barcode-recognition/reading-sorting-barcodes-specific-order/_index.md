@@ -3,10 +3,16 @@ title: Java でバーコードを特定の順序で読み取り、並べ替え�
 linktitle: バーコードを特定の順序で読み取り、並べ替える
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode で Java アプリケーションを強化しましょう!バーコードを効率的に読み取り、分類する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でバーコードを特定の順序で読み取り、並べ替える
+
 
 ## 導入
 
@@ -123,3 +129,10 @@ for (FoundBarCodes barcode : found) {
 
 ### Q: どこにサポートを求めたり、質問したりできますか?
 サポートフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

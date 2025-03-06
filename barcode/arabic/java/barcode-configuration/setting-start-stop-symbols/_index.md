@@ -3,10 +3,16 @@ title: ضبط رموز البدء والإيقاف في Java
 linktitle: ضبط رموز البدء والإيقاف
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية Codabar مخصصة مع رموز بداية وإيقاف محددة في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 15
 url: /ar/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط رموز البدء والإيقاف في Java
+
 
 ## مقدمة
 
@@ -104,3 +110,10 @@ generator.save(dataDir + "startAndStopSymbols.png");
 ### هل هناك المزيد من رموز الباركود التي يدعمها Aspose.BarCode لـ Java؟
 نعم، يدعم Aspose.BarCode مجموعة واسعة من رموز الباركود. الرجوع إلى الوثائق للحصول على قائمة كاملة.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

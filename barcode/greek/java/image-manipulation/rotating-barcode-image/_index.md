@@ -3,10 +3,16 @@ title: Περιστρεφόμενη εικόνα γραμμικού κώδικα
 linktitle: Περιστρεφόμενη εικόνα γραμμικού κώδικα
 second_title: Aspose.BarCode Java API
 description: Μάθετε πώς να περιστρέφετε εικόνες γραμμικού κώδικα σε Java χωρίς κόπο χρησιμοποιώντας το Aspose.BarCode. Ένας αναλυτικός οδηγός βήμα προς βήμα για προγραμματιστές Java.
-type: docs
 weight: 15
 url: /el/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περιστρεφόμενη εικόνα γραμμικού κώδικα σε Java
+
 
 ## Εισαγωγή
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### Ε: Μπορώ να δημιουργήσω γραμμωτούς κώδικες για διαφορετικούς τύπους κωδικοποίησης;
 Οπωσδήποτε, απλώς προσαρμόστε τους EncodeTypes στο Βήμα 2 με βάση τις απαιτήσεις σας.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

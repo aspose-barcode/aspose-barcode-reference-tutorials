@@ -3,10 +3,16 @@ title: Java에서 바코드 생성 및 저장
 linktitle: 바코드 생성 및 저장
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 손쉽게 바코드를 생성하고 저장하세요. 원활하게 통합하고, 모양을 사용자 정의하고, 광범위한 바코드 지원을 누려보세요.
-type: docs
 weight: 12
 url: /ko/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드 생성 및 저장
+
 
 ## 소개
 
@@ -108,3 +114,9 @@ A: 예, Aspose.BarCode는 CODE_39_STANDARD, CODE_128, QR 등을 포함한 다양
 
 ### Q: Aspose.BarCode에 대한 지원을 받으려면 어떻게 해야 합니까?
  A: 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/barcode/13) 도움이나 문의사항이 있으면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

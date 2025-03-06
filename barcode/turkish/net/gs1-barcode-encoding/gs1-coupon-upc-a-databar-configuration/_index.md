@@ -3,10 +3,16 @@ title: GS1 Kupon UPC-A Veri Çubuğu Yapılandırması
 linktitle: GS1 Kupon UPC-A Veri Çubuğu Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile GS1 Coupon UPC-A Databar yapılandırmasını öğrenin. Kolayca barkod oluşturun. Şimdi başla!
-type: docs
 weight: 13
 url: /tr/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 Kupon UPC-A Veri Çubuğu Yapılandırması
+
 
 ## giriiş
 
@@ -86,3 +92,10 @@ Aspose.BarCode for .NET'i şu adresten indirebilirsiniz:[indirme sayfası](https
 ### Aspose.BarCode for .NET için nereden destek alabilirim?
  Her türlü teknik yardım veya sorularınız için şu adresi ziyaret edebilirsiniz:[Aspose.BarCode for .NET destek forumu](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

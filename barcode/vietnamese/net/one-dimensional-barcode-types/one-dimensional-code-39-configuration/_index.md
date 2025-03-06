@@ -3,10 +3,16 @@ title: Cấu hình mã một chiều 39
 linktitle: Cấu hình mã một chiều 39
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch Code 39 một chiều trong .NET bằng Aspose.BarCode. Hướng dẫn từng bước dành cho nhà phát triển.
-type: docs
 weight: 11
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình mã một chiều 39
+
 
 ## Giới thiệu
 
@@ -72,3 +78,9 @@ Trả lời: Hoàn toàn có thể, bạn có thể tùy chỉnh các khía cạ
 
 ### Câu hỏi: Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi về Aspose.BarCode cho .NET ở đâu?
  Trả lời: Bạn có thể tìm thấy câu trả lời cho câu hỏi của mình và tìm kiếm sự hỗ trợ trên diễn đàn Aspose.BarCode:[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

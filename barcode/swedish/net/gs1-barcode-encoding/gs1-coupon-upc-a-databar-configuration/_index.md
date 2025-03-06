@@ -3,10 +3,16 @@ title: GS1-kupong UPC-A-datafältskonfiguration
 linktitle: GS1-kupong UPC-A-datafältskonfiguration
 second_title: Aspose.BarCode .NET API
 description: Lär dig GS1 Coupon UPC-A Databar-konfiguration med Aspose.BarCode för .NET. Skapa streckkoder enkelt. Börja nu!
-type: docs
 weight: 13
 url: /sv/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1-kupong UPC-A-datafältskonfiguration
+
 
 ## Introduktion
 
@@ -86,3 +92,10 @@ Du kan ladda ner Aspose.BarCode för .NET från[nedladdningssida](https://releas
 ### Var kan jag få support för Aspose.BarCode för .NET?
  För teknisk hjälp eller frågor kan du besöka[Aspose.BarCode för .NET supportforum](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

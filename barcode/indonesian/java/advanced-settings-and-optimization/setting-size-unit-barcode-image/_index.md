@@ -3,10 +3,16 @@ title: Mengatur Satuan Ukuran untuk Gambar Barcode di Java dengan Aspose.BarCode
 linktitle: Mengatur Satuan Ukuran untuk Gambar Barcode
 second_title: Aspose.BarCode Java API
 description: Temukan kecanggihan Aspose.BarCode untuk Java dalam menetapkan satuan ukuran yang tepat untuk gambar barcode. Integrasi yang mudah, kinerja tangguh, dan kemungkinan penyesuaian tanpa batas.
-type: docs
 weight: 15
 url: /id/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Satuan Ukuran untuk Gambar Barcode di Java dengan Aspose.BarCode
+
 ## Perkenalan
 
 Aspose.BarCode untuk Java adalah Java API tangguh yang memungkinkan pengembang mengintegrasikan kemampuan pembuatan dan pengenalan kode batang ke dalam aplikasi Java mereka dengan mudah. Baik Anda sedang mengembangkan sistem inventaris canggih, aplikasi ritel, atau perangkat lunak lain yang memerlukan fungsionalitas kode batang, Aspose.BarCode terbukti menjadi pilihan yang andal dan efisien.
@@ -100,3 +106,9 @@ A2: Tentu saja. Aspose.BarCode untuk Java menawarkan opsi penyesuaian yang luas,
 ### Q5: Apa saja simbologi kode batang yang didukung di Aspose.BarCode untuk Java?
 
 A5: Aspose.BarCode untuk Java mendukung berbagai simbologi barcode, termasuk CODE_128, QR_CODE, UPC_A, dan banyak lagi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

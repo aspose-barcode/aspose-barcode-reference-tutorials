@@ -3,10 +3,16 @@ title: Codabar-Kodierung und Prüfsumme
 linktitle: Codabar-Kodierung und Prüfsumme
 second_title: Aspose.BarCode .NET-API
 description: Optimieren Sie Codabar-Barcodes in .NET mit Aspose.BarCode! Master-Prüfsummenberechnung für präzise Daten. Erstellen Sie mit unseren Tutorials mühelos Start-/Stoppzeichen.
-type: docs
 weight: 20
 url: /de/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codabar-Kodierung und Prüfsumme
+
 ## Einführung
 
 Sind Sie ein Entwickler, der die Geheimnisse der Codabar-Kodierung und Prüfsummenberechnung in .NET lüften möchte? Suchen Sie nicht weiter! Dieser Artikel befasst sich mit den Feinheiten von Codabar und bietet Ihnen umfassende Tutorials zur Berechnung der Codabar-Prüfsumme und zur Verwendung von Start-/Stoppzeichen mit Aspose.BarCode für .NET.
@@ -34,3 +40,9 @@ Zusammenfassend lässt sich sagen, dass Codabar-Codierung und Prüfsummenberechn
 Erfahren Sie, wie Sie Codabar-Prüfsummen in .NET mit Aspose.BarCode berechnen. Verbessern Sie die Datengenauigkeit in Codabar-Barcodes. Erhalten Sie eine Schritt-für-Schritt-Anleitung.
 ### [Codabar-Start-/Stoppzeichen](./codabar-start-stop-characters/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Codabar-Barcodes mit Start- und Stoppzeichen erstellen. Eine Schritt-für-Schritt-Anleitung für Entwickler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

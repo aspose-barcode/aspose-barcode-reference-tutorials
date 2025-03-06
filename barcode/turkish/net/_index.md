@@ -1,12 +1,17 @@
 ---
 title: Aspose.BarCode for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
 linktitle: .NET Eğitimleri için Aspose.BarCode
-type: docs
 weight: 10
 url: /tr/net/
 description: Kapsamlı eğitimlerle Aspose.BarCode for .NET'in potansiyelini ortaya çıkarın! Codabar kodlamasında ustalaşın, Codablock F'yi özelleştirin, Code 16K'yı keşfedin ve daha fazlasını yapın.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
+
 
 
 Aspose.BarCode for .NET, geliştiricilerin çeşitli barkod türlerini hassas ve kolay bir şekilde oluşturmasına ve özelleştirmesine olanak tanır. İster Codabar kodlamasını derinlemesine inceleyin, ister Aztek Barkodu gibi gelişmiş seçenekleri keşfedin, eğitimlerimiz hepsini kapsar.
@@ -91,3 +96,9 @@ Aspose.BarCode for .NET ile DataMatrix barkodlarını zahmetsizce oluşturun. En
 Aspose.BarCode for .NET ile DataMatrix barkodlarını zahmetsizce oluşturun ve okuyun. DataMatrix okuyucu programlamayı ve yapılandırılmış ekleme yapılandırmasını derinlemesine inceleyin.
 ### [DotCode Barkod Yapılandırması](./dotcode-barcode-configuration/)
 Aspose.BarCode .NET ile özelleştirilmiş DotCode barkodlarını zahmetsizce oluşturun. En boy oranını, kodlama modlarını, genişletilmiş kod metnini ve okuyucu başlatmayı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

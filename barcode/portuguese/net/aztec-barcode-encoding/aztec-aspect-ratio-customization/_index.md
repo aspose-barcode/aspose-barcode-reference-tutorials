@@ -3,10 +3,16 @@ title: Personalize a proporção do código de barras asteca com Aspose.BarCode 
 linktitle: Personalização da proporção de aspecto asteca
 second_title: API Aspose.BarCode .NET
 description: Aprenda como personalizar as proporções do código de barras asteca usando Aspose.BarCode for .NET. Crie códigos de barras exclusivos e flexíveis para seus aplicativos .NET.
-type: docs
 weight: 10
 url: /pt/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalize a proporção do código de barras asteca com Aspose.BarCode para .NET
+
 Neste tutorial, nos aprofundaremos na personalização da proporção dos códigos de barras astecas usando Aspose.BarCode para .NET. Os códigos de barras astecas são códigos de barras bidimensionais comumente usados para codificação de dados e, com Aspose.BarCode, você pode criar e personalizar facilmente esses códigos de barras para atender às suas necessidades específicas.
 
 ## Pré-requisitos
@@ -108,3 +114,9 @@ A4: Você pode usar Aspose.BarCode for .NET em aplicativos da web incorporando-o
 ### Q5: Onde posso obter uma licença temporária para Aspose.BarCode for .NET?
 
 R5: Se precisar de uma licença temporária para fins de teste ou avaliação, você poderá obter uma em[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

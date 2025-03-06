@@ -3,10 +3,16 @@ title: ITF-14 تكوين المنطقة الهادئة للرمز الشريطي
 linktitle: ITF-14 تكوين المنطقة الهادئة للرمز الشريطي
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تكوين المناطق الهادئة للرمز الشريطي ITF-14 باستخدام Aspose.BarCode لـ .NET. ضمان سهولة القراءة والامتثال دون عناء.
-type: docs
 weight: 12
 url: /ar/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 تكوين المنطقة الهادئة للرمز الشريطي
+
 
 ## مقدمة
 
@@ -99,3 +105,10 @@ gen.Save($"{path}ITF14QuietZone30.png", BarCodeImageFormat.Png);
 ### أين يمكنني الحصول على المساعدة والدعم بخصوص Aspose.BarCode لـ .NET؟
  للمساعدة يمكنك زيارة[Aspose.BarCode لمنتدى .NET](https://forum.aspose.com/c/barcode/13)، حيث يمكنك طرح الأسئلة والعثور على موارد مفيدة.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

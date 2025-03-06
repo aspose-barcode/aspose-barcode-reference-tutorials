@@ -3,10 +3,16 @@ title: 在 Java 中為 CodaBar 應用校驗和
 linktitle: 為 CodaBar 應用校驗和
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中套用 CodaBar 的校驗和。使用此逐步指南輕鬆產生和識別條碼。
-type: docs
 weight: 11
 url: /zh-hant/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中為 CodaBar 應用校驗和
+
 
 ## 介紹
 
@@ -107,3 +113,9 @@ Aspose.BarCode 設計用於各種 Java 版本。確保檢查文件以了解相�
 
 ### 有免費試用嗎？
 是的，您可以透過下載免費試用版來探索 Aspose.BarCode 的功能[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

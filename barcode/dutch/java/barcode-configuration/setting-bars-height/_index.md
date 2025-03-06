@@ -3,10 +3,16 @@ title: Staafhoogte instellen in Java
 linktitle: Hoogte van de staven instellen
 second_title: Aspose.BarCode Java-API
 description: Genereer en pas barcodes moeiteloos aan in Java met Aspose.BarCode. Stel de staafhoogte in, kies typen en verbeter de mogelijkheden van uw toepassing.
-type: docs
 weight: 14
 url: /nl/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Staafhoogte instellen in Java
+
 
 ## Invoering
 
@@ -78,3 +84,10 @@ Zeker! Aspose.BarCode ondersteunt het coderen van zowel numerieke als alfanumeri
 ### Waar kan ik ondersteuning vinden voor Aspose.BarCode voor Java?
  Bezoek het Aspose.BarCode-forum[hier](https://forum.aspose.com/c/barcode/13) voor gemeenschapsondersteuning en discussies.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

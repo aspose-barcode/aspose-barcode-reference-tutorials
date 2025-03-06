@@ -3,10 +3,16 @@ title: Start és Stop szimbólumok beállítása Java nyelven
 linktitle: Start és Stop szimbólumok beállítása
 second_title: Aspose.BarCode Java API
 description: Az Aspose.BarCode segítségével személyre szabott Codabar vonalkódokat generálhat speciális kezdő- és leállítási szimbólumokkal Java nyelven. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 15
 url: /hu/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Start és Stop szimbólumok beállítása Java nyelven
+
 
 ## Bevezetés
 
@@ -104,3 +110,10 @@ Gratulálunk! Sikeresen megtanulta, hogyan állíthat be kezdő és leállító 
 ### Vannak további vonalkód-szimbólumok, amelyeket az Aspose.BarCode for Java támogat?
 Igen, az Aspose.BarCode a vonalkód szimbólumok széles skáláját támogatja. A teljes listát a dokumentációban találja.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

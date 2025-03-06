@@ -3,10 +3,16 @@ title: Adding Borders to Barcode Image in Java
 linktitle: Adding Borders to Barcode Image
 second_title: Aspose.BarCode Java API
 description: Enhance barcode images in Java with Aspose.BarCode by adding customizable borders. Follow this step-by-step guide to achieve a visually appealing barcode solution.
-type: docs
 weight: 10
 url: /java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Borders to Barcode Image in Java
+
 
 ## Introduction
 
@@ -123,3 +129,10 @@ Follow the [documentation](https://reference.aspose.com/barcode/java/) for detai
 ### Is there a trial version of Aspose.BarCode available?
 Yes, you can explore the features of Aspose.BarCode by downloading the [free trial version](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

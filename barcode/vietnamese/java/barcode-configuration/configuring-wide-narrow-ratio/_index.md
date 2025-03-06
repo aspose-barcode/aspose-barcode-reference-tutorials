@@ -3,10 +3,16 @@ title: Định cấu hình Tỷ lệ Rộng-Hẹp trong Java với Aspose.BarCod
 linktitle: Định cấu hình tỷ lệ rộng-hẹp
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách định cấu hình tỷ lệ rộng-hẹp trong mã vạch Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh liền mạch.
-type: docs
 weight: 17
 url: /vi/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình Tỷ lệ Rộng-Hẹp trong Java với Aspose.BarCode
+
 
 ## Giới thiệu
 
@@ -87,3 +93,9 @@ Trả lời: Chỉ cần thay đổi loại ký hiệu trong hàm tạo BarcodeG
 
 ### Câu hỏi: Làm cách nào để nhận được hỗ trợ cho Aspose.BarCode?
  Trả lời: Truy cập diễn đàn Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

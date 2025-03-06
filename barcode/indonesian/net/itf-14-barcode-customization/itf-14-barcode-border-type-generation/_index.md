@@ -3,10 +3,16 @@ title: Pembuatan Tipe Batas Barcode ITF-14
 linktitle: Pembuatan Tipe Batas Barcode ITF-14
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang ITF-14 dengan tipe batas berbeda menggunakan Aspose.BarCode untuk .NET. Sesuaikan kemasan dan pelabelan Anda dengan mudah.
-type: docs
 weight: 11
 url: /id/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pembuatan Tipe Batas Barcode ITF-14
+
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan kode batang ITF-14 dengan tipe batas berbeda menggunakan Aspose.BarCode untuk .NET. Aspose.BarCode adalah perpustakaan canggih yang memungkinkan Anda membuat, memanipulasi, dan mengenali kode batang dalam berbagai format. Dalam contoh spesifik ini, kami akan fokus pada barcode ITF-14 dan cara mengontrol tipe perbatasannya. Barcode ITF-14 umumnya digunakan untuk keperluan pengemasan dan pelabelan.
 
@@ -109,3 +115,10 @@ Ya, Aspose.BarCode untuk .NET kompatibel dengan berbagai kerangka .NET, termasuk
 
 ### Apakah ada versi uji coba gratis Aspose.BarCode yang tersedia?
 Ya, Anda dapat mengakses versi uji coba gratis Aspose.BarCode untuk .NET dari[Di Sini](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

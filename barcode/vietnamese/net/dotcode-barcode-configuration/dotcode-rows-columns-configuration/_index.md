@@ -3,10 +3,16 @@ title: Cấu hình hàng và cột DotCode với Aspose.BarCode cho .NET
 linktitle: Cấu hình hàng và cột DotCode
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách định cấu hình Hàng và Cột DotCode bằng Aspose.BarCode cho .NET. Tạo mã vạch 2D chính xác và có thể tùy chỉnh một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình hàng và cột DotCode với Aspose.BarCode cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới tạo mã vạch bằng Aspose.BarCode cho .NET! Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào lĩnh vực hấp dẫn của việc định cấu hình Hàng và Cột DotCode bằng Aspose.BarCode. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình tạo mã vạch, hướng dẫn này sẽ hướng dẫn bạn qua các bước thiết yếu, điều kiện tiên quyết và không gian tên để giúp bạn bắt đầu trên con đường thành thạo cấu hình Hàng và Cột DotCode.
@@ -112,3 +118,9 @@ Câu trả lời 4: Aspose.BarCode hỗ trợ nhiều loại mã vạch, bao g�
 ### Câu hỏi 5: Tôi có thể tìm thêm hướng dẫn và ví dụ về Aspose.BarCode cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể khám phá các hướng dẫn và ví dụ bổ sung trong phần[Tài liệu Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

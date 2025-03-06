@@ -3,10 +3,16 @@ title: Rozpoznávání čárového kódu PDF417 s čínskými znaky v Javě
 linktitle: Rozpoznávání čárového kódu PDF417 s čínskými znaky
 second_title: Aspose.BarCode Java API
 description: Objevte, jak rozpoznat čárové kódy PDF417 s čínskými znaky v Javě pomocí Aspose.BarCode. Postupujte podle našeho komplexního návodu pro bezproblémovou integraci.
-type: docs
 weight: 10
 url: /cs/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznávání čárového kódu PDF417 s čínskými znaky v Javě
+
 
 ## Úvod
 
@@ -89,3 +95,10 @@ Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/tempor
 
 ### Kde najdu dokumentaci?
  Dokumentace je k dispozici[tady](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

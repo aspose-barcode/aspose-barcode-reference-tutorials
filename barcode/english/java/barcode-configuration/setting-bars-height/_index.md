@@ -3,10 +3,16 @@ title: Setting Bars Height in Java
 linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
 description: Generate and customize barcodes effortlessly in Java with Aspose.BarCode. Set bar height, choose types, and enhance your application's capabilities.
-type: docs
 weight: 14
 url: /java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Bars Height in Java
+
 
 ## Introduction
 
@@ -79,3 +85,10 @@ Yes, you can explore the features of Aspose.BarCode by obtaining a free trial [h
 Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for community support and discussions.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

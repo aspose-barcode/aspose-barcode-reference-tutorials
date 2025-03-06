@@ -3,10 +3,16 @@ title: Указание символов для штрих-кода в Java
 linktitle: Определение символов для штрих-кода
 second_title: API Aspose.BarCode Java
 description: Создавайте динамические штрих-коды на Java с помощью Aspose.BarCode. Простая интеграция, универсальная настройка и надежные функции для удовлетворения всех ваших потребностей в штрих-кодах.
-type: docs
 weight: 10
 url: /ru/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Указание символов для штрих-кода в Java
+
 
 ## Введение
 
@@ -77,3 +83,10 @@ Aspose.BarCode упрощает генерацию штрих-кода на Java
 
 ### Как я могу получить поддержку Aspose.BarCode?
  Посетить[Форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13) чтобы получить помощь от сообщества и экспертов Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

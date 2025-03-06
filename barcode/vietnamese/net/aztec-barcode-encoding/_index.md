@@ -3,10 +3,16 @@ title: Mã hóa mã vạch Aztec
 linktitle: Mã hóa mã vạch Aztec
 second_title: API Aspose.BarCode .NET
 description: Khai phá tiềm năng của Mã hóa mã vạch Aztec bằng Aspose.BarCode cho .NET. Tùy chỉnh tỷ lệ khung hình, tạo mã Aztec được mã hóa văn bản và làm chủ các Chế độ Biểu tượng.
-type: docs
 weight: 28
 url: /vi/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa mã vạch Aztec
+
 
 ## Giới thiệu
 
@@ -44,3 +50,9 @@ Khám phá sức mạnh của Mã hóa văn bản mã Aztec với Aspose.BarCode
 Tìm hiểu cách tạo mã vạch lỗi Aztec với các mức lỗi khác nhau bằng Aspose.BarCode cho .NET. Hướng dẫn toàn diện để tạo mã vạch.
 ### [Làm chủ chế độ biểu tượng Aztec](./aztec-symbol-mode-example/)
 Khám phá Chế độ biểu tượng Aztec trong Aspose.BarCode cho .NET và tìm hiểu cách tạo mã vạch linh hoạt một cách dễ dàng. Thực hành các chế độ Tự động, FullRange, Nhỏ gọn và Rune trong hướng dẫn toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

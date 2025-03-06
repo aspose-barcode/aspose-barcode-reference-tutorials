@@ -3,10 +3,16 @@ title: Définition de la résolution d'image pour le code-barres en Java avec As
 linktitle: Définition de la résolution de l'image pour le code-barres
 second_title: API Java Aspose.BarCode
 description: Générez facilement des codes-barres de définition d'image en Java avec Aspose.BarCode. Personnalisez les paramètres pour plus de clarté et de précision.
-type: docs
 weight: 11
 url: /fr/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la résolution d'image pour le code-barres en Java avec Aspose.BarCode
+
 ## Introduction
 
 Dans le monde dynamique du développement de logiciels, la création et la gestion de codes-barres sont une exigence courante. Aspose.BarCode for Java est une bibliothèque puissante qui simplifie le processus de génération et de personnalisation de codes-barres. Dans ce didacticiel, nous nous concentrerons sur un aspect crucial de la définition de la résolution de l'image lors de la création de codes-barres. Nous passerons en revue chaque étape, en fournissant des explications claires et des exemples utilisant Aspose.BarCode pour Java.
@@ -96,3 +102,9 @@ A1 : Oui, Aspose.BarCode propose diverses options de personnalisation, notamment
 ### Q5 : Qu'est-ce qu'une licence temporaire et quand dois-je l'utiliser ?
 
  A5 : Une licence temporaire vous permet d'utiliser Aspose.BarCode pour une durée limitée. Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/) pour des projets à court terme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

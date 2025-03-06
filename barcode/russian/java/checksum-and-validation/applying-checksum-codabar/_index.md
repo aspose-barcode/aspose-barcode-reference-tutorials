@@ -3,10 +3,16 @@ title: Применение контрольной суммы для CodaBar в 
 linktitle: Применение контрольной суммы для CodaBar
 second_title: API Aspose.BarCode Java
 description: Узнайте, как применить контрольную сумму для CodaBar в Java с помощью Aspose.BarCode. Создавайте и распознавайте штрих-коды без особых усилий с помощью этого пошагового руководства.
-type: docs
 weight: 11
 url: /ru/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение контрольной суммы для CodaBar в Java
+
 
 ## Введение
 
@@ -107,3 +113,9 @@ Aspose.BarCode предназначен для работы с различны�
 
 ### Доступна ли бесплатная пробная версия?
  Да, вы можете изучить возможности Aspose.BarCode, загрузив бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

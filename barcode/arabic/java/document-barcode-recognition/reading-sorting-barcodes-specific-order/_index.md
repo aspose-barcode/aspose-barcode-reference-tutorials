@@ -3,10 +3,16 @@ title: قراءة وفرز الباركود بترتيب معين في جافا
 linktitle: قراءة وفرز الباركود بترتيب معين
 second_title: Aspose.BarCode جافا API
 description: قم بتحسين تطبيقات Java الخاصة بك باستخدام Aspose.BarCode! تعلم قراءة وفرز الباركود بكفاءة. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة وفرز الباركود بترتيب معين في جافا
+
 
 ## مقدمة
 
@@ -123,3 +129,10 @@ for (FoundBarCodes barcode : found) {
 
 ### س: أين يمكنني طلب الدعم أو طرح الأسئلة؟
  قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

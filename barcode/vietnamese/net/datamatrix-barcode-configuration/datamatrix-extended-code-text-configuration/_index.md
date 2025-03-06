@@ -3,10 +3,16 @@ title: Định cấu hình văn bản mã DataMatrix bằng Aspose.BarCode cho .
 linktitle: Cấu hình văn bản mã mở rộng DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách định cấu hình văn bản mã mở rộng DataMatrix bằng Aspose.BarCode cho .NET. Tạo, nhận dạng và tích hợp mã vạch trong các ứng dụng .NET của bạn.
-type: docs
 weight: 17
 url: /vi/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình văn bản mã DataMatrix bằng Aspose.BarCode cho .NET
+
 Trong thế giới phát triển phần mềm, tích hợp mã vạch đã trở thành một nhu cầu thiết yếu cho các ứng dụng khác nhau. Với sự trợ giúp của các thư viện như Aspose.BarCode for .NET, bạn có thể dễ dàng tạo và nhận dạng mã vạch trong các ứng dụng .NET của mình. Hướng dẫn này sẽ hướng dẫn bạn quy trình định cấu hình văn bản mã mở rộng DataMatrix bằng cách sử dụng Aspose.BarCode cho .NET. Trước khi đi sâu vào chi tiết, chúng ta hãy xem xét các điều kiện tiên quyết cho hướng dẫn này.
 
 ## Điều kiện tiên quyết
@@ -128,3 +134,9 @@ Câu trả lời 2: Bạn có thể truy cập tài liệu về Aspose.BarCode c
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi về Aspose.BarCode cho .NET ở đâu?
 
  Câu trả lời 5: Đối với bất kỳ hỗ trợ hoặc câu hỏi nào liên quan đến Aspose.BarCode cho .NET, bạn có thể truy cập diễn đàn Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

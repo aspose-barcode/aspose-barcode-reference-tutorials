@@ -3,10 +3,16 @@ title: قم بتكوين صفوف وأعمدة Codablock F في Aspose.BarCode �
 linktitle: Codablock F تكوين الصف والعمود
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تكوين صفوف وأعمدة Codablock F في Aspose.BarCode لـ .NET. إنشاء رموز شريطية ثنائية الأبعاد مخصصة لمختلف التطبيقات.
-type: docs
 weight: 11
 url: /ar/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتكوين صفوف وأعمدة Codablock F في Aspose.BarCode لـ .NET
+
 في هذا الدليل التفصيلي، سنستكشف كيفية تكوين إعدادات الصف والعمود في Codablock F باستخدام Aspose.BarCode لـ .NET. Codablock F عبارة عن رمز شريطي ثنائي الأبعاد يُستخدم في العديد من التطبيقات، بما في ذلك ملصقات الشحن والتغليف. سنقوم بتقسيم كل مثال إلى خطوات متعددة لضمان فهم واضح وشامل للعملية.
 
 ## المتطلبات الأساسية
@@ -100,3 +106,9 @@ A1: Codablock F عبارة عن رموز شريطية ثنائية الأبعا�
 ### س5: كيف يمكنني الحصول على دعم Aspose.BarCode لـ .NET؟
 
  ج5: إذا كانت لديك أية أسئلة أو كنت بحاجة إلى مساعدة، فيمكنك زيارة منتدى Aspose.BarCode for .NET[هنا](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

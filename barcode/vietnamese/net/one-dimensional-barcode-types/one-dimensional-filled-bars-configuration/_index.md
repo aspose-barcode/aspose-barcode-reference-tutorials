@@ -3,10 +3,16 @@ title: Cấu hình thanh đầy một chiều
 linktitle: Cấu hình thanh đầy một chiều
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch trong .NET bằng Aspose.BarCode cho .NET. Hướng dẫn toàn diện này bao gồm mọi thứ từ nhập không gian tên đến tạo mã vạch một chiều.
-type: docs
 weight: 20
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình thanh đầy một chiều
+
 
 Bạn đang muốn tạo mã vạch chuyên nghiệp và có thể tùy chỉnh trong các ứng dụng .NET của mình? Đừng tìm đâu xa! Aspose.BarCode for .NET sẵn sàng hợp lý hóa quy trình tạo mã vạch của bạn, cung cấp vô số tính năng và tùy chọn tùy chỉnh để đáp ứng nhu cầu cụ thể của bạn. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn những kiến thức cơ bản về cách sử dụng Aspose.BarCode cho .NET, từ nhập vùng tên đến tạo thanh điền một chiều. Bắt đầu nào!
 
@@ -99,3 +105,9 @@ Có, bạn có thể dùng thử Aspose.BarCode for .NET bằng cách tải xu�
 
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.BarCode cho .NET không?
  Có, bạn có thể xin giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/), cho phép bạn sử dụng thư viện trong một khoảng thời gian giới hạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

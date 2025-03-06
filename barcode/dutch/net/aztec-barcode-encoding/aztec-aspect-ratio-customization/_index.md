@@ -3,10 +3,16 @@ title: Pas de Aztec Barcode-beeldverhouding aan met Aspose.BarCode voor .NET
 linktitle: Azteekse aanpassing van de beeldverhouding
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u de beeldverhoudingen van Azteekse streepjescodes kunt aanpassen met Aspose.BarCode voor .NET. Creëer unieke, flexibele barcodes voor uw .NET-toepassingen.
-type: docs
 weight: 10
 url: /nl/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas de Aztec Barcode-beeldverhouding aan met Aspose.BarCode voor .NET
+
 In deze zelfstudie gaan we dieper in op het aanpassen van de beeldverhouding van Azteekse streepjescodes met Aspose.BarCode voor .NET. Azteekse barcodes zijn tweedimensionale barcodes die vaak worden gebruikt voor het coderen van gegevens. Met Aspose.BarCode kunt u deze barcodes eenvoudig maken en aanpassen aan uw specifieke vereisten.
 
 ## Vereisten
@@ -108,3 +114,9 @@ A4: U kunt Aspose.BarCode voor .NET in webtoepassingen gebruiken door het in uw 
 ### V5: Waar kan ik een tijdelijke licentie krijgen voor Aspose.BarCode voor .NET?
 
 A5: Als u een tijdelijke licentie nodig heeft voor test- of evaluatiedoeleinden, kunt u deze verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

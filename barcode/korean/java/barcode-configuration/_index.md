@@ -3,10 +3,16 @@ title: 바코드 구성
 linktitle: 바코드 구성
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 맞춤형 바코드를 손쉽게 생성하세요. 다양한 튜토리얼을 통해 효율성과 개발자 친화성을 높이세요.
-type: docs
 weight: 24
 url: /ko/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 바코드 구성
+
 
 Java로 원활한 바코드 생성의 세계에 오신 것을 환영합니다! 숙련된 개발자이거나 이제 막 시작하는 개발자라면 Aspose.BarCode 구성 튜토리얼을 통해 바코드 구성의 복잡한 과정을 쉽게 안내할 수 있습니다.
 
@@ -60,3 +66,9 @@ Aspose.BarCode를 사용하여 Java에서 특정 시작 및 중지 기호가 있
 Aspose.BarCode를 사용하여 Java에서 동적 바코드를 만드는 방법을 알아보세요. EAN_13 기호로 데이터를 보완하기 위한 단계별 가이드입니다.
 ### [Java에서 Wide-Narrow 비율 구성](./configuring-wide-narrow-ratio/)
 Aspose.BarCode를 사용하여 Java 바코드에서 넓은-좁은 비율을 구성하는 방법을 알아보세요. 원활한 사용자 정의를 위해 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

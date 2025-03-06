@@ -3,10 +3,16 @@ title: Rendu du code-barres en objet graphique en Java
 linktitle: Rendu du code-barres vers un objet graphique
 second_title: API Java Aspose.BarCode
 description: Générez des codes-barres sans effort en Java à l'aide d'Aspose.BarCode. Suivez ce guide étape par étape pour une intégration transparente.
-type: docs
 weight: 10
 url: /fr/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu du code-barres en objet graphique en Java
+
 
 ## Introduction
 
@@ -111,3 +117,10 @@ Oui, Aspose.BarCode prend en charge un large éventail de types de codes-barres,
 
 ### Où puis-je demander de l'aide si je rencontre des problèmes ?
  Visitez le forum Aspose.BarCode[ici](https://forum.aspose.com/c/barcode/13) pour le soutien.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जीएस1 कूपन यूपीसी-ए कोड 128 एन्
 linktitle: जीएस1 कूपन यूपीसी-ए कोड 128 एन्कोडिंग
 second_title: Aspose.BarCode .NET API
 description: .NET के लिए Aspose.BarCode के साथ आसानी से बारकोड जेनरेट करें - आपका व्यापक बारकोड जेनरेशन समाधान। आज से शुरुआत करें!
-type: docs
 weight: 12
 url: /hi/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जीएस1 कूपन यूपीसी-ए कोड 128 एन्कोडिंग
+
 
 ## परिचय
 
@@ -115,3 +121,9 @@ gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
 
 ### प्रश्न: क्या .NET के लिए Aspose.BarCode द्वारा समर्थित कोई अन्य एन्कोडिंग प्रकार हैं?
 हाँ, .NET के लिए Aspose.BarCode एन्कोडिंग प्रकारों की एक विस्तृत श्रृंखला का समर्थन करता है, जिसमें UPC-A, कोड 128, QR कोड और कई अन्य शामिल हैं। आप दस्तावेज़ीकरण में पूरी सूची पा सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: GS1 쿠폰 보충공간 구성
 linktitle: GS1 쿠폰 보충공간 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 GS1 쿠폰 보충 공간을 구성하는 방법을 알아보세요. 이 기능을 익히려면 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/gs1-barcode-encoding/gs1-coupon-supplement-space-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 쿠폰 보충공간 구성
+
 
 소프트웨어 개발 세계에서는 바코드를 생성하고 관리하는 것이 일반적인 작업입니다. 바코드는 재고 관리부터 소매, 심지어 의료까지 다양한 애플리케이션에 필수적입니다. Aspose.BarCode for .NET은 바코드를 쉽게 생성하고 읽을 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 GS1 쿠폰 보충 공간을 구성하는 구체적인 기능을 살펴보겠습니다. 이 기능을 효과적으로 사용하는 방법을 확실하게 이해할 수 있도록 프로세스를 단계별로 안내해 드립니다.
 
@@ -83,3 +89,9 @@ GS1 쿠폰 보충 공간은 바코드 주위에 추가 공간을 추가하여 �
 
 ### 기능을 평가하기 위해 .NET용 Aspose.BarCode의 임시 라이센스를 얻을 수 있습니까?
  예, 다음에서 Aspose.BarCode for .NET에 대한 임시 라이선스를 요청할 수 있습니다.[웹사이트](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.BarCode का उपयोग करके जावा में
 linktitle: बारकोड में कैप्शन जोड़ना
 second_title: Aspose.BarCode जावा एपीआई
 description: जानें कि Aspose.BarCode के साथ जावा में बारकोड विज़ुअल को कैसे बढ़ाया जाए। बेहतर उपयोगकर्ता अनुभव के लिए सहजता से कैप्शन जोड़ें।
-type: docs
 weight: 10
 url: /hi/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode का उपयोग करके जावा में बारकोड में कैप्शन जोड़ना
+
 
 ## परिचय
 
@@ -102,3 +108,9 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 ### यदि मुझे कोई समस्या आती है या मेरे कोई प्रश्न हैं तो मैं कहाँ सहायता माँग सकता हूँ?
  Aspose.BarCode सामुदायिक मंच[यहाँ](https://forum.aspose.com/c/barcode/13) समर्थन और चर्चा के लिए एक उत्कृष्ट संसाधन है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

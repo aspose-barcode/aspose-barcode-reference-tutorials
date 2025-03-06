@@ -3,10 +3,16 @@ title: Configuration d'ajout structuré DataMatrix avec Aspose.BarCode pour .NET
 linktitle: Configuration d'ajout structuré DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment créer et lire la configuration d'ajout structuré DataMatrix dans .NET à l'aide d'Aspose.BarCode pour une organisation des données à haute efficacité.
-type: docs
 weight: 11
 url: /fr/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration d'ajout structuré DataMatrix avec Aspose.BarCode pour .NET
+
 Si vous êtes un développeur cherchant à implémenter la configuration d'ajout structuré DataMatrix dans vos applications .NET, Aspose.BarCode for .NET est votre solution incontournable. Dans ce guide étape par étape, nous explorerons les tenants et les aboutissants de l'utilisation de cette puissante bibliothèque pour générer et lire des codes-barres DataMatrix structurés. Nous décomposerons chaque exemple en plusieurs étapes faciles à suivre, en veillant à ce que vous compreniez parfaitement les concepts. À la fin de ce didacticiel, vous serez en mesure d'utiliser Aspose.BarCode for .NET pour travailler efficacement avec les configurations d'ajout structuré DataMatrix.
 
 ## Conditions préalables
@@ -100,3 +106,9 @@ A1 : L'ajout structuré DataMatrix est une fonctionnalité qui vous permet de 
 ### Q5 : Aspose.BarCode for .NET prend-il en charge d'autres types de codes-barres ?
 
  A5 : Oui, Aspose.BarCode for .NET prend en charge un large éventail de types de codes-barres, notamment les codes QR, le code 128, l'EAN-13 et bien d'autres. Vous pouvez explorer la documentation complète[ici](https://reference.aspose.com/barcode/net/) pour voir la liste complète des types de codes-barres pris en charge.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mã hóa GS1 thanh dữ liệu một chiều
 linktitle: Mã hóa GS1 thanh dữ liệu một chiều
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch được mã hóa Databar GS1 trong .NET bằng Aspose.BarCode. Tạo mã vạch một cách dễ dàng. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 18
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa GS1 thanh dữ liệu một chiều
+
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo mã vạch mã hóa Databar GS1 một chiều bằng thư viện Aspose.BarCode cho .NET. Cho dù bạn đang tìm cách tạo mã vạch có hoặc không có mã hóa GS1, chúng tôi đều sẵn sàng hỗ trợ bạn. Hướng dẫn từng bước này sẽ giúp bạn hiểu các điều kiện tiên quyết, nhập vùng tên và trình bày từng ví dụ để tạo mã vạch mã hóa Databar GS1 một cách dễ dàng.
 
@@ -101,3 +107,10 @@ Có, bạn có thể tùy chỉnh giao diện của mã vạch được tạo b�
 
 ### 5. Làm cách nào tôi có thể mua giấy phép Aspose.BarCode cho .NET?
  Để mua giấy phép cho Aspose.BarCode cho .NET, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy) trên trang web Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

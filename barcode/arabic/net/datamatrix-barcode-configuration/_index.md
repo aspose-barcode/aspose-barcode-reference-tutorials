@@ -3,10 +3,16 @@ title: أنشئ باركود DataMatrix مثل المحترفين باستخدا
 linktitle: تكوين DataMatrix الباركود
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء رموز شريطية DataMatrix بسهولة باستخدام Aspose.BarCode لـ .NET. قم بتخصيص نسب العرض إلى الارتفاع وأوضاع ECC والتشفير والمزيد. تعزيز الكفاءة في إنشاء الباركود.
-type: docs
 weight: 30
 url: /ar/net/datamatrix-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أنشئ باركود DataMatrix مثل المحترفين باستخدام Aspose.BarCode.
+
 
 
 مرحبًا بك في سلسلتنا التعليمية الشاملة حول تكوين الرمز الشريطي DataMatrix باستخدام Aspose.BarCode لـ .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، ستمكنك هذه الأدلة خطوة بخطوة من إنشاء رموز DataMatrix الشريطية وتخصيصها بسلاسة.
@@ -69,3 +75,9 @@ url: /ar/net/datamatrix-barcode-configuration/
 تعرف على كيفية تكوين نص التعليمات البرمجية الممتد لـ DataMatrix باستخدام Aspose.BarCode لـ .NET. إنشاء الرموز الشريطية والتعرف عليها ودمجها في تطبيقات .NET الخاصة بك.
 ### [تكوين ماكرو DataMatrix الرئيسي](./datamatrix-macro-configuration/)
 تعرف على كيفية تكوين الرموز الشريطية DataMatrix Macro باستخدام Aspose.BarCode لـ .NET. قم بإنشاء وتخصيص والتعرف على الرموز الشريطية DataMatrix في تطبيقات .NET الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

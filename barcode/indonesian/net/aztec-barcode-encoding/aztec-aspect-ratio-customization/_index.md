@@ -3,10 +3,16 @@ title: Sesuaikan Rasio Aspek Kode Batang Aztec dengan Aspose.BarCode untuk .NET
 linktitle: Kustomisasi Rasio Aspek Aztec
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara menyesuaikan rasio aspek kode batang Aztec menggunakan Aspose.BarCode untuk .NET. Buat kode batang yang unik dan fleksibel untuk aplikasi .NET Anda.
-type: docs
 weight: 10
 url: /id/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Rasio Aspek Kode Batang Aztec dengan Aspose.BarCode untuk .NET
+
 Dalam tutorial ini, kita akan mempelajari penyesuaian rasio aspek kode batang Aztec menggunakan Aspose.BarCode untuk .NET. Kode batang Aztec adalah kode batang dua dimensi yang biasa digunakan untuk menyandikan data, dan dengan Aspose.BarCode, Anda dapat dengan mudah membuat dan menyesuaikan kode batang ini agar sesuai dengan kebutuhan spesifik Anda.
 
 ## Prasyarat
@@ -108,3 +114,9 @@ A4: Anda dapat menggunakan Aspose.BarCode untuk .NET di aplikasi web dengan mema
 ### Q5: Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.BarCode untuk .NET?
 
 A5: Jika Anda memerlukan lisensi sementara untuk tujuan pengujian atau evaluasi, Anda dapat memperolehnya dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

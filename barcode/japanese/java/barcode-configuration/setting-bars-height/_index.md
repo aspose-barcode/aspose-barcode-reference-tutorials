@@ -3,10 +3,16 @@ title: Java でバーの高さを設定する
 linktitle: バーの高さの設定
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用すると、Java でバーコードを簡単に生成およびカスタマイズできます。バーの高さを設定し、タイプを選択し、アプリケーションの機能を強化します。
-type: docs
 weight: 14
 url: /ja/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でバーの高さを設定する
+
 
 ## 導入
 
@@ -78,3 +84,10 @@ generator.save(dataDir + "barsHeight.jpg");
 ### Aspose.BarCode for Java のサポートはどこで見つけられますか?
  Aspose.BarCode フォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/barcode/13)コミュニティのサポートとディスカッションのために。
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

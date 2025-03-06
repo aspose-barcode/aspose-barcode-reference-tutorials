@@ -3,10 +3,16 @@ title: Дополнительные данные штрих-кода
 linktitle: Дополнительные данные штрих-кода
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как генерировать и настраивать дополнительные данные штрих-кода с помощью Aspose.BarCode для .NET, с помощью наших пошаговых руководств. Совершенствуйте свои навыки работы со штрих-кодом сегодня!
-type: docs
 weight: 27
 url: /ru/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Дополнительные данные штрих-кода
+
 
 ## Введение
 
@@ -37,3 +43,9 @@ url: /ru/net/supplemental-barcode-data/
 Сгенерируйте дополнительные данные штрих-кода с помощью Aspose.BarCode для .NET. Легко настраивайте штрих-коды EAN-2 и EAN-5. Пошаговое руководство для разработчиков .NET.
 ### [Дополнительная настройка пространства штрих-кода](./supplemental-barcode-space-customization/)
 Легко настраивайте штрих-коды с помощью Aspose.BarCode для .NET. Управляйте X-размером и дополняйте пространство. Попробуйте бесплатную пробную версию!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

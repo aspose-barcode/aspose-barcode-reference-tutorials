@@ -3,10 +3,16 @@ title: Pengenalan Barcode yang Mudah dari Dokumen Word
 linktitle: Mengenali Barcode dari Dokumen Word
 second_title: Aspose.BarCode Java API
 description: Jelajahi integrasi pengenalan kode batang ke dalam aplikasi Java Anda dengan Aspose.BarCode. Ikuti tutorial ini untuk mengenali barcode dari dokumen Word.
-type: docs
 weight: 12
 url: /id/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengenalan Barcode yang Mudah dari Dokumen Word
+
 
 ## Perkenalan
 
@@ -111,3 +117,10 @@ Untuk bantuan atau pertanyaan apa pun, kunjungi forum Aspose.BarCode[Di Sini](ht
 
 ### T: Di mana saya dapat menemukan dokumentasi Aspose.BarCode untuk Java?
  Lihat dokumentasi komprehensif[Di Sini](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

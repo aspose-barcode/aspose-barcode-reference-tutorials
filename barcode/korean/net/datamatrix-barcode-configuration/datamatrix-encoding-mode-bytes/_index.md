@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 바이트 단위로 DataMatrix 인
 linktitle: DataMatrix 인코딩 모드(바이트)
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode와 함께 바이트 모드를 사용하여 DataMatrix 형식으로 데이터를 인코딩하는 방법을 알아보세요. 바코드 생성 및 인식에 대한 단계별 가이드를 따르십시오.
-type: docs
 weight: 15
 url: /ko/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 바이트 단위로 DataMatrix 인코딩
+
 바코드 생성 및 인식 분야에서 .NET용 Aspose.BarCode는 강력하고 다재다능한 도구입니다. 강력한 기능 세트를 통해 개발자는 바코드를 손쉽게 생성, 조작 및 읽을 수 있습니다. 제공되는 많은 인코딩 모드 중에서 바이트를 사용하는 DataMatrix 인코딩 모드는 눈에 띄는 기능입니다. 이 단계별 가이드에서는 .NET용 Aspose.BarCode를 사용하여 바이트 모드를 사용하여 DataMatrix 형식으로 데이터를 인코딩하는 과정을 안내합니다.
 
 ## 전제 조건
@@ -121,3 +127,9 @@ A4: 예, .NET용 Aspose.BarCode는 상업용으로 적합합니다. 다음에서
 ### Q5: .NET용 Aspose.BarCode에 대한 임시 라이선스를 사용할 수 있습니까?
 
  A5: 예, 다음에서 .NET용 Aspose.BarCode에 대한 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tìm nạp và nhận dạng mã vạch trong Java
 linktitle: Tìm nạp và nhận dạng mã vạch
 second_title: API Java Aspose.BarCode
 description: Tích hợp Aspose.BarCode cho Java một cách dễ dàng - tìm nạp và nhận dạng mã vạch từ cơ sở dữ liệu. Tải xuống ngay để có trải nghiệm tích hợp mã vạch liền mạch.
-type: docs
 weight: 11
 url: /vi/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tìm nạp và nhận dạng mã vạch trong Java
+
 
 ## Giới thiệu
 
@@ -120,3 +126,10 @@ Có, Aspose.BarCode được thiết kế để xử lý các ứng dụng quy m
 
 ### Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configurando a orientação do código de barras com Aspose.BarCode para 
 linktitle: Configurando a orientação do código de barras
 second_title: API Java Aspose.BarCode
 description: Explore o poder do Aspose.BarCode para Java na configuração da orientação do código de barras. Um guia abrangente para integração e reconhecimento perfeitos em seus aplicativos Java.
-type: docs
 weight: 16
 url: /pt/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando a orientação do código de barras com Aspose.BarCode para Java
+
 ## Introdução
 
 No cenário em constante evolução da tecnologia digital, os códigos de barras tornaram-se uma parte omnipresente da nossa vida quotidiana, facilitando transações contínuas e uma gestão eficiente de dados. Aspose.BarCode for Java surge como uma ferramenta poderosa para lidar com geração e reconhecimento de código de barras em aplicações Java. Este tutorial se aprofundará em um aspecto específico da configuração do código de barras – orientação de códigos de barras em Java.
@@ -94,3 +100,9 @@ A3: Sim, você pode explorar os recursos do Aspose.BarCode obtendo uma avaliaç�
 ### Q5: Onde posso procurar suporte ou interagir com a comunidade Aspose.BarCode?
 
  A5: O[Fórum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) é um recurso valioso para buscar apoio e interagir com a comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

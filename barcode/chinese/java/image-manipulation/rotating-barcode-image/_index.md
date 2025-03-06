@@ -3,10 +3,16 @@ title: 在 Java 中旋转条形码图像
 linktitle: 旋转条形码图像
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中轻松旋转条形码图像。面向 Java 开发人员的全面分步指南。
-type: docs
 weight: 15
 url: /zh/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中旋转条形码图像
+
 
 ## 介绍
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### 问：我可以生成不同编码类型的条形码吗？
 当然，只需根据您的要求调整步骤 2 中的 EncodeTypes 即可。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

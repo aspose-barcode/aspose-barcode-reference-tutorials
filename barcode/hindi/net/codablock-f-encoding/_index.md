@@ -3,10 +3,16 @@ title: कोडब्लॉक एफ एन्कोडिंग
 linktitle: कोडब्लॉक एफ एन्कोडिंग
 second_title: Aspose.BarCode .NET API
 description: .NET के लिए Aspose.BarCode के साथ कोडब्लॉक F एन्कोडिंग की क्षमता को अनलॉक करें। पहलू अनुपात को अनुकूलित करें, सटीक 2डी बारकोड के लिए पंक्तियों और स्तंभों को कॉन्फ़िगर करें।
-type: docs
 weight: 21
 url: /hi/net/codablock-f-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कोडब्लॉक एफ एन्कोडिंग
+
 
 कोडब्लॉक एफ एन्कोडिंग ट्यूटोरियल की दुनिया में आपका स्वागत है, जहां हम .NET के लिए Aspose.BarCode का उपयोग करके सटीक और अनुकूलित 2D बारकोड बनाने की कला को उजागर करते हैं। इस व्यापक मार्गदर्शिका में, हम आपको दो आवश्यक पहलुओं के बारे में बताएंगे: कोडब्लॉक एफ पहलू अनुपात को अनुकूलित करें और कोडब्लॉक एफ पंक्तियों और स्तंभों को कॉन्फ़िगर करें।
 
@@ -28,3 +34,9 @@ url: /hi/net/codablock-f-encoding/
 .NET के लिए Aspose.BarCode के साथ मास्टर कोडब्लॉक एफ पहलू अनुपात अनुकूलन। अपनी आवश्यकताओं के अनुरूप सहजता से सटीक बारकोड बनाएं।
 ### [कोडब्लॉक एफ पंक्तियों और स्तंभों को कॉन्फ़िगर करें](./codablock-f-row-column-configuration/)
 जानें कि .NET के लिए Aspose.BarCode में कोडब्लॉक F पंक्तियों और स्तंभों को कैसे कॉन्फ़िगर करें। विभिन्न अनुप्रयोगों के लिए अनुकूलित 2डी बारकोड बनाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

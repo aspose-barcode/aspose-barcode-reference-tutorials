@@ -3,10 +3,16 @@ title: Mengonfigurasi Rasio Lebar-Sempit di Java dengan Aspose.BarCode
 linktitle: Mengonfigurasi Rasio Lebar-Sempit
 second_title: Aspose.BarCode Java API
 description: Pelajari cara mengonfigurasi rasio lebar-sempit di kode batang Java menggunakan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk penyesuaian yang lancar.
-type: docs
 weight: 17
 url: /id/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Rasio Lebar-Sempit di Java dengan Aspose.BarCode
+
 
 ## Perkenalan
 
@@ -87,3 +93,9 @@ A: Cukup ubah tipe simbologi di konstruktor BarcodeGenerator, misalnya EncodeTyp
 
 ### T: Bagaimana cara mendapatkan dukungan untuk Aspose.BarCode?
  J: Kunjungi forum Aspose.BarCode[Di Sini](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

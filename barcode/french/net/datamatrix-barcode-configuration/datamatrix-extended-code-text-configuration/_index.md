@@ -3,10 +3,16 @@ title: Configuration du texte du code DataMatrix avec Aspose.BarCode pour .NET
 linktitle: Configuration du texte de code étendu DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Apprenez à configurer le texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET. Générez, reconnaissez et intégrez des codes-barres dans vos applications .NET.
-type: docs
 weight: 17
 url: /fr/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration du texte du code DataMatrix avec Aspose.BarCode pour .NET
+
 Dans le monde du développement de logiciels, l’intégration des codes-barres est devenue une nécessité cruciale pour diverses applications. Avec l'aide de bibliothèques comme Aspose.BarCode for .NET, vous pouvez facilement générer et reconnaître des codes-barres dans vos applications .NET. Ce didacticiel vous guidera tout au long du processus de configuration du texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET. Avant d’entrer dans les détails, jetons un coup d’œil aux prérequis de ce guide.
 
 ## Conditions préalables
@@ -128,3 +134,9 @@ A2 : Vous pouvez accéder à la documentation d'Aspose.BarCode pour .NET[ici](h
 ### Q5 : Où puis-je obtenir de l'aide ou poser des questions sur Aspose.BarCode pour .NET ?
 
  A5 : Pour toute assistance ou question relative à Aspose.BarCode pour .NET, vous pouvez visiter le forum Aspose.BarCode[ici](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

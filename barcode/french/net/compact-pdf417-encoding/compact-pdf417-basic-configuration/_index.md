@@ -3,10 +3,16 @@ title: Création de codes-barres PDF417 compacts avec Aspose.BarCode pour .NET
 linktitle: Configuration de base du PDF417 compact
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment générer des codes-barres Compact PDF417 à l'aide d'Aspose.BarCode pour .NET. Guide complet avec des instructions étape par étape et des exemples de code.
-type: docs
 weight: 10
 url: /fr/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de codes-barres PDF417 compacts avec Aspose.BarCode pour .NET
+
 ## Introduction
 
 Si vous êtes un développeur cherchant à générer des images de codes-barres dans vos applications .NET, Aspose.BarCode for .NET est un outil puissant qui peut vous aider à y parvenir. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de création de codes-barres Compact PDF417 à l'aide d'Aspose.BarCode for .NET. Compact PDF417 est une symbologie de codes-barres bidimensionnelle efficace largement utilisée pour diverses applications, notamment la logistique, la gestion des stocks, etc. À la fin de ce didacticiel, vous serez en mesure de créer et de personnaliser des codes-barres Compact PDF417 pour répondre à vos besoins spécifiques. Allons-y et commençons !
@@ -107,3 +113,9 @@ A2 : Aspose.BarCode prend en charge un large éventail de types de codes-barres
 ### Q5 : Existe-t-il des ressources ou de la documentation supplémentaires disponibles pour Aspose.BarCode pour .NET ?
 
  A5 : Oui, vous pouvez trouver une documentation détaillée[ici](https://reference.aspose.com/barcode/net/) pour vous aider à explorer et à utiliser les fonctionnalités d'Aspose.BarCode pour .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

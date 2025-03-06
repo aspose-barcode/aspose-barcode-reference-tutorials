@@ -3,10 +3,16 @@ title: Создавайте штрих-коды DataMatrix как професс
 linktitle: Конфигурация штрих-кода DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Создавайте штрих-коды DataMatrix без особых усилий с помощью Aspose.BarCode для .NET. Настраивайте соотношения сторон, режимы ECC, кодировку и многое другое. Повысьте эффективность создания штрих-кодов.
-type: docs
 weight: 30
 url: /ru/net/datamatrix-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создавайте штрих-коды DataMatrix как профессионал с помощью Aspose.BarCode.
+
 
 
 Добро пожаловать в нашу обширную серию руководств по настройке штрих-кода DataMatrix с использованием Aspose.BarCode для .NET. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, эти пошаговые руководства помогут вам легко создавать и настраивать штрих-коды DataMatrix.
@@ -69,3 +75,9 @@ url: /ru/net/datamatrix-barcode-configuration/
 Научитесь настраивать текст расширенного кода DataMatrix с помощью Aspose.BarCode для .NET. Создавайте, распознавайте и интегрируйте штрих-коды в свои приложения .NET.
 ### [Конфигурация основного макроса DataMatrix](./datamatrix-macro-configuration/)
 Узнайте, как настроить штрих-коды DataMatrix Macro с помощью Aspose.BarCode для .NET. Создавайте, настраивайте и распознавайте штрих-коды DataMatrix в своих приложениях .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

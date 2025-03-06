@@ -3,10 +3,16 @@ title: Configuration du mode d'ajout structuré DotCode avec Aspose.BarCode pour
 linktitle: Configuration du mode d'ajout structuré DotCode
 second_title: API Aspose.BarCode .NET
 description: Apprenez à configurer le mode d'ajout structuré DotCode avec Aspose.BarCode pour .NET et à créer des codes-barres efficaces.
-type: docs
 weight: 16
 url: /fr/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration du mode d'ajout structuré DotCode avec Aspose.BarCode pour .NET
+
 ## Introduction
 
 Dans le monde en évolution rapide du codage des données et de la génération de codes-barres, la précision et l’efficacité sont primordiales. Aspose.BarCode for .NET apparaît comme le champion, offrant une suite complète de fonctionnalités pour répondre aux demandes des développeurs et des entreprises. Dans ce didacticiel, nous approfondirons la puissante configuration du mode d'ajout structuré DotCode, une solution polyvalente d'encodage de codes-barres fournie par Aspose.BarCode pour .NET.
@@ -120,3 +126,9 @@ A4 : La technologie DotCode est largement utilisée dans des secteurs tels que 
 ### Q5 : Comment puis-je garantir la sécurité de mes codes-barres générés avec Aspose.BarCode for .NET ?
 
 A5 : Aspose.BarCode for .NET offre diverses fonctionnalités de sécurité pour protéger vos codes-barres générés, telles que le cryptage et le filigrane. Vous pouvez explorer ces options dans la documentation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

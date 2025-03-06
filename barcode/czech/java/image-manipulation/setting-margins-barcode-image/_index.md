@@ -3,10 +3,16 @@ title: Nastavení okrajů pro obrázek čárového kódu v Javě
 linktitle: Nastavení okrajů pro obrázek čárového kódu
 second_title: Aspose.BarCode Java API
 description: Naučte se, jak nastavit okraje pro obrázky čárových kódů v Javě pomocí Aspose.BarCode. Přizpůsobte si prostor pro bezproblémovou integraci do vaší aplikace
-type: docs
 weight: 11
 url: /cs/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení okrajů pro obrázek čárového kódu v Javě
+
 
 ## Úvod
 
@@ -99,3 +105,10 @@ Aspose.BarCode je primárně navržen pro Javu, ale jsou k dispozici verze pro j
 
 ### Jak si mohu zakoupit plnou verzi Aspose.BarCode pro Java?
  Můžete si zakoupit plnou verzi Aspose.BarCode pro Java z[nákupní stránku](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

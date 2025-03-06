@@ -3,10 +3,16 @@ title: إنشاء رموز شريطية متعددة على صورة واحدة 
 linktitle: إنشاء رموز شريطية متعددة على صورة واحدة
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية متعددة على صورة واحدة بسهولة باستخدام Aspose.BarCode لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 19
 url: /ar/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء رموز شريطية متعددة على صورة واحدة في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 في عالم برمجة Java الديناميكي، يعد إنشاء الرموز الشريطية وإدارتها بكفاءة أمرًا بالغ الأهمية لمختلف التطبيقات. يعمل Aspose.BarCode for Java على تبسيط هذه العملية، مما يسمح للمطورين بإنشاء رموز شريطية متعددة على صورة واحدة بسلاسة. سيرشدك هذا البرنامج التعليمي خلال خطوات تحقيق ذلك باستخدام Aspose.BarCode في بيئة Java.
@@ -139,3 +145,9 @@ ImageIO.write(resultBitmap, "png", outputfile);
 ### س5: هل هناك أي خيارات تجريبية متاحة لـ Aspose.BarCode؟
 
  ج5: بالتأكيد! يمكنك استكشاف ميزات Aspose.BarCode من خلال الحصول على ترخيص تجريبي مجاني[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

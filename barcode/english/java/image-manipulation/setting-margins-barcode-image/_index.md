@@ -3,10 +3,16 @@ title: Setting Margins for Barcode Image in Java
 linktitle: Setting Margins for Barcode Image
 second_title: Aspose.BarCode Java API
 description: Learn how to set margins for barcode images in Java using Aspose.BarCode. Customize spacing for seamless integration into your application
-type: docs
 weight: 11
 url: /java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Margins for Barcode Image in Java
+
 
 ## Introduction
 
@@ -100,3 +106,10 @@ Yes, you can explore the free trial version of Aspose.BarCode from [this link](h
 ### How can I purchase the full version of Aspose.BarCode for Java?
 You can purchase the full version of Aspose.BarCode for Java from the [purchase page](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

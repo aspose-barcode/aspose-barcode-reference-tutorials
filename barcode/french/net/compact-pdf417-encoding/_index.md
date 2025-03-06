@@ -3,10 +3,16 @@ title: Encodage PDF417 compact
 linktitle: Encodage PDF417 compact
 second_title: API Aspose.BarCode .NET
 description: Générez facilement des codes-barres Compact PDF417 avec Aspose.BarCode for .NET. Suivez notre guide étape par étape pour un encodage efficace, accompagné d'exemples de code.
-type: docs
 weight: 29
 url: /fr/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage PDF417 compact
+
 
 ## Introduction
 
@@ -33,3 +39,9 @@ En conclusion, maîtriser l’encodage Compact PDF417 est une compétence préci
 ## Tutoriels d'encodage Compact PDF417
 ### [Création de codes-barres PDF417 compacts](./compact-pdf417-basic-configuration/)
 Découvrez comment générer des codes-barres Compact PDF417 à l'aide d'Aspose.BarCode pour .NET. Guide complet avec des instructions étape par étape et des exemples de code.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

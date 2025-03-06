@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 Java의 바코드에 캡션 추가
 linktitle: 바코드에 캡션 추가
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 바코드 시각적 기능을 향상시키는 방법을 알아보세요. 향상된 사용자 경험을 위해 캡션을 손쉽게 추가하세요.
-type: docs
 weight: 10
 url: /ko/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 Java의 바코드에 캡션 추가
+
 
 ## 소개
 
@@ -102,3 +108,9 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 ### 문제가 발생하거나 질문이 있는 경우 어디서 도움을 받을 수 있나요?
  Aspose.BarCode 커뮤니티 포럼[여기](https://forum.aspose.com/c/barcode/13) 지원과 토론을 위한 훌륭한 리소스입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

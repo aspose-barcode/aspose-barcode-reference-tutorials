@@ -3,10 +3,16 @@ title: Aspose.BarCode ile Java'da Özel Boyutlu Barkodları Yapılandırma
 linktitle: Barkod için Özel Boyutu Yapılandırma
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode ile Java'da özel boyutlu barkodları yapılandırmanın kolaylığını keşfedin. Hassas yapılandırma için adım adım eğitimimizi izleyin.
-type: docs
 weight: 10
 url: /tr/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode ile Java'da Özel Boyutlu Barkodları Yapılandırma
+
 ## giriiş
 
 Özel boyutlu barkodları sorunsuz bir şekilde yapılandırmak isteyen bir Java geliştiricisiyseniz Aspose.BarCode for Java, başvuracağınız çözümdür. Bu eğitim, uygulamalarınızda esneklik ve hassasiyet sağlayarak barkodlarınız için özel bir boyut yapılandırma sürecinde size yol gösterecektir.
@@ -112,3 +118,9 @@ Cevap1: Evet, Aspose.BarCode for Java çeşitli semboloji türlerini destekleyer
 ### S5: Geçici bir lisans seçeneği mevcut mu?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

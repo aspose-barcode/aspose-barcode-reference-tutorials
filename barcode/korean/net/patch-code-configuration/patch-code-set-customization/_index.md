@@ -3,10 +3,16 @@ title: 패치 코드 세트 사용자 정의
 linktitle: 패치 코드 세트 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode를 사용하여 .NET에서 바코드를 생성하는 방법을 알아보세요. 바코드를 손쉽게 사용자 정의하고 애플리케이션에 통합하세요.
-type: docs
 weight: 11
 url: /ko/net/patch-code-configuration/patch-code-set-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 패치 코드 세트 사용자 정의
+
 
 소프트웨어 개발 세계에서는 바코드 생성을 애플리케이션에 통합하는 것이 중요한 요구 사항일 수 있습니다. Aspose.BarCode for .NET은 .NET 애플리케이션 내에서 다양한 바코드 유형을 생성하기 위한 강력한 솔루션을 제공합니다. 이 단계별 가이드에서는 전제 조건을 다루고, 네임스페이스를 가져오고, 각 예제를 여러 단계로 분류하여 .NET용 Aspose.BarCode의 복잡한 부분을 자세히 살펴보겠습니다. 이 튜토리얼이 끝나면 이 강력한 라이브러리를 사용하기 위한 탄탄한 기반을 갖게 될 것입니다.
 
@@ -127,3 +133,9 @@ Aspose.BarCode for .NET은 .NET 애플리케이션 내에서 바코드 생성을
 
 ### 5. .NET용 Aspose.BarCode 지원을 위한 커뮤니티나 포럼이 있습니까?
  예, Aspose.BarCode 포럼에서 지원을 구하고 토론에 참여할 수 있습니다.[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

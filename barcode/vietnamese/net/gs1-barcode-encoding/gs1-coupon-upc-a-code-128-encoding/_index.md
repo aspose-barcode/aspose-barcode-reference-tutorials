@@ -3,10 +3,16 @@ title: Phiếu giảm giá GS1 Mã UPC-A 128
 linktitle: Phiếu giảm giá GS1 Mã UPC-A 128
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch dễ dàng với Aspose.BarCode for .NET - Giải pháp tạo mã vạch toàn diện của bạn. Bắt đầu từ hôm nay!
-type: docs
 weight: 12
 url: /vi/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phiếu giảm giá GS1 Mã UPC-A 128
+
 
 ## Giới thiệu
 
@@ -115,3 +121,9 @@ Tuyệt đối. Aspose.BarCode for .NET cung cấp nhiều tham số và cài đ
 
 ### Câu hỏi: Có loại mã hóa nào khác được Aspose.BarCode hỗ trợ cho .NET không?
 Có, Aspose.BarCode for .NET hỗ trợ nhiều loại mã hóa, bao gồm UPC-A, Code 128, mã QR, v.v. Bạn có thể tìm thấy danh sách đầy đủ trong tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

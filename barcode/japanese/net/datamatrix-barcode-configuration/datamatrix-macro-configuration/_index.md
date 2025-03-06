@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用したマスター DataMatrix マクロ�
 linktitle: データマトリックスマクロ構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して DataMatrix マクロ バーコードを構成する方法を学びます。 .NET アプリケーションで DataMatrix バーコードを生成、カスタマイズ、認識します。
-type: docs
 weight: 18
 url: /ja/net/datamatrix-barcode-configuration/datamatrix-macro-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用したマスター DataMatrix マクロ構成
+
 ## 導入
 
 デジタル世界が進化し続ける中、企業は業務を合理化するために効率的なデータ エンコード方法に依存しています。そのような方法の 1 つは、コンパクトなスペース内に豊富な情報を保存できる 2D バーコードである DataMatrix です。 .NET アプリケーションで DataMatrix の機能を活用するには、Aspose.BarCode for .NET のような堅牢なツールが必要です。このステップバイステップ ガイドでは、Aspose.BarCode を使用した DataMatrix 構成を詳しく説明し、より深く理解するために各側面を分析します。このチュートリアルを終了するまでに、DataMatrix バーコードの生成と読み取りに習熟できるようになります。
@@ -104,3 +110,9 @@ A4: はい、以下から無料トライアルをダウンロードできます�
 ### Q5: Aspose.BarCode for .NET のサポートはどこで入手できますか?
 
 A5: ご質問がある場合、またはサポートが必要な場合は、次の場所にある Aspose.BarCode for .NET フォーラムにアクセスしてください。[サポートフォーラム](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

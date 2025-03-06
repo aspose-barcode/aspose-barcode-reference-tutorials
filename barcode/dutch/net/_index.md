@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.BarCode voor .NET
 linktitle: Aspose.BarCode voor .NET-zelfstudies
-type: docs
 weight: 10
 url: /nl/net/
 description: Ontgrendel het potentieel van Aspose.BarCode voor .NET met uitgebreide tutorials! Beheers Codabar-codering, pas Codablock F aan, verken Code 16K en meer.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.BarCode voor .NET
+
 
 
 Aspose.BarCode voor .NET stelt ontwikkelaars in staat om met precisie en gemak verschillende soorten streepjescodes te creëren en aan te passen. Of u zich nu verdiept in Codabar-codering of geavanceerde opties zoals Aztec Barcode verkent, onze tutorials behandelen het allemaal.
@@ -91,3 +96,9 @@ Genereer moeiteloos DataMatrix-barcodes met Aspose.BarCode voor .NET. Pas beeldv
 Genereer en lees DataMatrix-barcodes moeiteloos met Aspose.BarCode voor .NET. Duik in het programmeren van DataMatrix-lezers en de gestructureerde append-configuratie.
 ### [DotCode-streepjescodeconfiguratie](./dotcode-barcode-configuration/)
 Genereer moeiteloos aangepaste DotCode-barcodes met Aspose.BarCode .NET. Leer de beeldverhouding, coderingsmodi, uitgebreide codetekst en initialisatie van de lezer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

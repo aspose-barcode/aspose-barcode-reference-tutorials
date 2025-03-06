@@ -3,10 +3,16 @@ title: 在 Java 中将条形码渲染为图形对象
 linktitle: 将条形码渲染为图形对象
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中轻松生成条形码。请遵循此分步指南以实现无缝集成。
-type: docs
 weight: 10
 url: /zh/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中将条形码渲染为图形对象
+
 
 ## 介绍
 
@@ -111,3 +117,10 @@ class MyBarCode extends java.awt.Canvas {
 
 ### 如果遇到问题，我可以到哪里寻求帮助？
 访问 Aspose.BarCode 论坛[这里](https://forum.aspose.com/c/barcode/13)为了支持。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

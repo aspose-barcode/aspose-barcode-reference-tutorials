@@ -3,10 +3,16 @@ title: تكوين مكون ثنائي الأبعاد لشريط البيانات
 linktitle: تكوين مكون ثنائي الأبعاد لشريط البيانات أحادي البعد
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء رموز شريطية ثنائية الأبعاد لشريط البيانات أحادية البعد باستخدام Aspose.BarCode لـ .NET. اتبع دليلنا خطوة بخطوة للتكوين والتخصيص. ابدأ في إنشاء رموز شريطية فريدة اليوم!
-type: docs
 weight: 15
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين مكون ثنائي الأبعاد لشريط البيانات أحادي البعد
+
 
 في عالم تشفير البيانات والتشفير الشريطي، تعد مكتبة Aspose.BarCode for .NET بمثابة أداة موثوقة ومتعددة الاستخدامات. يوفر مكون .NET القوي هذا للمطورين الوسائل اللازمة لإنشاء الرموز الشريطية ومعالجتها وتخصيصها بسهولة. إذا كنت تتطلع إلى الاستفادة من إمكانات هذه المكتبة لتكوين المكونات أحادية البعد لشريط البيانات ثنائي الأبعاد، فأنت في المكان الصحيح. في هذا الدليل التفصيلي خطوة بخطوة، سنقوم بتفصيل العملية للتأكد من أنه يمكنك العمل بسلاسة مع مكونات Databar 2D باستخدام Aspose.BarCode for .NET.
 
@@ -94,3 +100,9 @@ gen.Save($"{path}Databar2DComponentEnabled.png", BarCodeImageFormat.Png);
 
 ### أين يمكنني الحصول على الدعم والمساعدة فيما يتعلق بـ Aspose.BarCode لـ .NET؟
 -  يمكنك طلب المساعدة والتفاعل مع المجتمع على[Aspose.BarCode لمنتدى دعم .NET](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

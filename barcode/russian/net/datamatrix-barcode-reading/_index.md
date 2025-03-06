@@ -3,10 +3,16 @@ title: Чтение штрих-кода DataMatrix
 linktitle: Чтение штрих-кода DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Легко создавайте и читайте штрих-коды DataMatrix с помощью Aspose.BarCode для .NET. Погрузитесь в программирование считывателей DataMatrix и конфигурацию структурированного добавления.
-type: docs
 weight: 31
 url: /ru/net/datamatrix-barcode-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение штрих-кода DataMatrix
+
 
 Если вы хотите окунуться в мир чтения штрих-кодов DataMatrix и раскрыть весь потенциал Aspose.BarCode для .NET, вы попали в нужное место. В этом подробном руководстве мы познакомим вас с основными учебными пособиями, которые охватывают программирование считывателя DataMatrix, настройку структурированного добавления и искусство создания штрих-кодов DataMatrix в ваших .NET-приложениях.
 
@@ -30,3 +36,9 @@ url: /ru/net/datamatrix-barcode-reading/
 Узнайте, как создавать и читать конфигурацию структурированного добавления DataMatrix в .NET с помощью Aspose.BarCode для высокоэффективной организации данных.
 ### [Генерация штрих-кодов DataMatrix](./datamatrix-versions/)
 Узнайте, как генерировать штрих-коды DataMatrix в .NET с помощью Aspose.BarCode для .NET. Пользовательские размеры, поддержка ECC и многое другое.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

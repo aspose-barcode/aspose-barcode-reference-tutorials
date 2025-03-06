@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용한 DotCode 판독기 초기화
 linktitle: DotCode 리더 초기화
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DotCode Reader를 초기화하는 방법을 알아보세요. 다양한 애플리케이션에 맞게 DotCode 바코드를 쉽게 생성하세요.
-type: docs
 weight: 14
 url: /ko/net/dotcode-barcode-configuration/dotcode-reader-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용한 DotCode 판독기 초기화
+
 ## 소개
 
 강력한 바코드 생성 및 인식 기능을 .NET 애플리케이션에 통합하고 싶으십니까? Aspose.BarCode for .NET은 다양한 바코드 유형을 쉽게 생성, 관리 및 읽을 수 있는 강력한 라이브러리입니다. 이 단계별 가이드에서는 .NET용 Aspose.BarCode의 특정 기능인 DotCode Reader 초기화를 자세히 살펴보겠습니다.
@@ -100,3 +106,9 @@ A3: 물론이죠! .NET용 Aspose.BarCode는 특정 요구 사항에 맞게 바�
 ### Q5: 테스트 목적으로 사용할 수 있는 .NET용 Aspose.BarCode의 무료 평가판이 있습니까?
 
  A5: 예, 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/) 구매하기 전에 .NET용 Aspose.BarCode의 기능을 테스트합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

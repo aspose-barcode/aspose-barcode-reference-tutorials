@@ -3,10 +3,16 @@ title: Aspose.BarCode を使用して Java で単一の画像に複数のバー�
 linktitle: 単一の画像上で複数のバーコードを生成する
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode for Java を使用して、単一の画像上に複数のバーコードを簡単に生成します。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 19
 url: /ja/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode を使用して Java で単一の画像に複数のバーコードを生成する
+
 ## 導入
 
 Java プログラミングの動的な世界では、さまざまなアプリケーションにとってバーコードを効率的に作成および管理することが重要です。 Aspose.BarCode for Java はこのプロセスを簡素化し、開発者が 1 つの画像上に複数のバーコードをシームレスに生成できるようにします。このチュートリアルでは、Java 環境で Aspose.BarCode を使用してこれを実現する手順を説明します。
@@ -139,3 +145,9 @@ A2: もちろんです！このチュートリアルで説明するように、A
 ### Q5: Aspose.BarCode に利用できる試用オプションはありますか?
 
  A5：確かに！無料試用ライセンスを取得すると、Aspose.BarCode の機能を試すことができます[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

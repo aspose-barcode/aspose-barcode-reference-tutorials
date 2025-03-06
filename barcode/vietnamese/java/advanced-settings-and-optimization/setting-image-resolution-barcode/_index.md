@@ -3,10 +3,16 @@ title: Đặt độ phân giải hình ảnh cho mã vạch trong Java bằng As
 linktitle: Đặt độ phân giải hình ảnh cho mã vạch
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch Cài đặt độ phân giải hình ảnh dễ dàng trong Java với Aspose.BarCode. Tùy chỉnh cài đặt để rõ ràng và chính xác.
-type: docs
 weight: 11
 url: /vi/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt độ phân giải hình ảnh cho mã vạch trong Java bằng Aspose.BarCode
+
 ## Giới thiệu
 
 Trong thế giới phát triển phần mềm năng động, việc tạo và xử lý mã vạch là một yêu cầu chung. Aspose.BarCode for Java là một thư viện mạnh mẽ giúp đơn giản hóa quá trình tạo và tùy chỉnh mã vạch. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một khía cạnh quan trọng của độ phân giải hình ảnh cài đặt tạo mã vạch. Chúng tôi sẽ hướng dẫn từng bước, cung cấp giải thích và ví dụ rõ ràng bằng cách sử dụng Aspose.BarCode cho Java.
@@ -96,3 +102,9 @@ Câu trả lời 1: Có, Aspose.BarCode cung cấp nhiều tùy chọn tùy ch�
 ### Câu hỏi 5: Giấy phép tạm thời là gì và khi nào tôi nên sử dụng nó?
 
  Câu trả lời 5: Giấy phép tạm thời cho phép bạn sử dụng Aspose.BarCode trong một khoảng thời gian giới hạn. Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho các dự án ngắn hạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tillämpa kontrollsumma för CodaBar i Java
 linktitle: Tillämpar kontrollsumma för CodaBar
 second_title: Aspose.BarCode Java API
 description: Lär dig hur du tillämpar kontrollsumma för CodaBar i Java med Aspose.BarCode. Generera och känna igen streckkoder utan ansträngning med denna steg-för-steg-guide.
-type: docs
 weight: 11
 url: /sv/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tillämpa kontrollsumma för CodaBar i Java
+
 
 ## Introduktion
 
@@ -107,3 +113,9 @@ Ja, Aspose.BarCode erbjuder omfattande anpassningsalternativ, så att du kan kon
 
 ### Finns det en gratis provperiod?
  Ja, du kan utforska funktionerna i Aspose.BarCode genom att ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

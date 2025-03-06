@@ -3,10 +3,16 @@ title: Java でトルコ語文字を含む PDF417 バーコードを認識する
 linktitle: トルコ文字を含む PDF417 バーコードの認識
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java でトルコ語文字を含む PDF417 バーコードを認識する方法を学びます。簡単な統合と強力なデコード機能。
-type: docs
 weight: 11
 url: /ja/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でトルコ語文字を含む PDF417 バーコードを認識する
+
 
 ## 導入
 
@@ -79,3 +85,10 @@ Aspose.BarCode for Java を使用すると、トルコ語文字を含む PDF417 
 
 ### 開発中に一時ライセンスを使用できますか?
 はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

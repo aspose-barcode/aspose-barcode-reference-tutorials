@@ -3,10 +3,16 @@ title: Java 中始終顯示校驗和
 linktitle: 始終顯示校驗和
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode for Java 輕鬆產生條碼。在此逐步指南中了解如何始終顯示校驗和以增強資料完整性。
-type: docs
 weight: 10
 url: /zh-hant/java/checksum-and-validation/always-showing-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 中始終顯示校驗和
+
 
 ## 介紹
 
@@ -90,3 +96,10 @@ generator.save(dataDir + "checksum.jpg");
 ### Q：如何取得 Aspose.BarCode for Java 的臨時授權？
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

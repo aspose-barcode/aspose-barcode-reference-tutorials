@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET ile Kompakt PDF417 Barkodları Oluşturma
 linktitle: Kompakt PDF417 Temel Yapılandırma
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak Kompakt PDF417 barkodlarını nasıl oluşturacağınızı öğrenin. Adım adım talimatlar ve kod örnekleri içeren kapsamlı kılavuz.
-type: docs
 weight: 10
 url: /tr/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile Kompakt PDF417 Barkodları Oluşturma
+
 ## giriiş
 
 .NET uygulamalarınızda barkod görüntüleri oluşturmak isteyen bir geliştiriciyseniz Aspose.BarCode for .NET tam da bunu başarmanıza yardımcı olabilecek güçlü bir araçtır. Bu adım adım kılavuzda, Aspose.BarCode for .NET'i kullanarak Kompakt PDF417 barkodları oluşturma sürecinde size yol göstereceğiz. Kompakt PDF417, lojistik, envanter yönetimi ve daha fazlasını içeren çeşitli uygulamalar için yaygın olarak kullanılan etkili bir iki boyutlu barkod sembolojisidir. Bu eğitimin sonunda Kompakt PDF417 barkodlarını özel ihtiyaçlarınıza uyacak şekilde oluşturup özelleştirebileceksiniz. Hadi dalalım ve başlayalım!
@@ -107,3 +113,9 @@ Cevap2: Aspose.BarCode, QR Code, Code 39, Code 128 ve daha fazlasını içeren �
 ### S5: Aspose.BarCode for .NET için herhangi bir ek kaynak veya belge mevcut mu?
 
  A5: Evet, ayrıntılı belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/barcode/net/) Aspose.BarCode for .NET'in özelliklerini keşfetmenize ve kullanmanıza yardımcı olmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

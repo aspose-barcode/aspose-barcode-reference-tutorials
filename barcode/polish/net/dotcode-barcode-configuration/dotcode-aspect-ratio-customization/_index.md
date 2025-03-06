@@ -3,10 +3,16 @@ title: Dostosuj współczynnik proporcji DotCode za pomocą Aspose.BarCode dla .
 linktitle: Dostosowanie współczynnika kształtu DotCode
 second_title: Aspose.BarCode .NET API
 description: Dowiedz się, jak dostosować współczynnik proporcji kodu kreskowego DotCode za pomocą Aspose.BarCode dla .NET. Bez wysiłku twórz dostosowane kody kreskowe do swoich aplikacji.
-type: docs
 weight: 10
 url: /pl/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj współczynnik proporcji DotCode za pomocą Aspose.BarCode dla .NET
+
 ## Wstęp
 
 Jeśli jesteś programistą .NET i chcesz tworzyć wysoce konfigurowalne kody kreskowe w swoich aplikacjach, Aspose.BarCode dla .NET jest idealnym rozwiązaniem. W tym samouczku zagłębimy się w jedną z jego zaawansowanych funkcji – dostosowywanie proporcji DotCode. Kody kreskowe DotCode są szeroko stosowane w takich branżach jak opieka zdrowotna, usługi pocztowe i produkcja do kodowania informacji. Dostosowując proporcje, możesz dostosować kod kreskowy do swoich konkretnych potrzeb. Zacznijmy!
@@ -97,3 +103,9 @@ O4: Tak, Aspose.BarCode dla .NET może być używany zarówno w aplikacjach inte
 ### P5: Gdzie mogę znaleźć więcej informacji i dokumentacji na temat Aspose.BarCode dla .NET?
 
 Odpowiedź 5: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/barcode/net/) w celu uzyskania kompleksowych wskazówek i przykładów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

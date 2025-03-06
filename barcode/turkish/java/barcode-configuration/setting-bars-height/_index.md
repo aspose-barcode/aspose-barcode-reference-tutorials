@@ -3,10 +3,16 @@ title: Java'da Çubuk Yüksekliğini Ayarlama
 linktitle: Çubuk Yüksekliğini Ayarlama
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode ile Java'da barkodları zahmetsizce oluşturun ve özelleştirin. Çubuk yüksekliğini ayarlayın, türleri seçin ve uygulamanızın yeteneklerini geliştirin.
-type: docs
 weight: 14
 url: /tr/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Çubuk Yüksekliğini Ayarlama
+
 
 ## giriiş
 
@@ -78,3 +84,10 @@ Kesinlikle! Aspose.BarCode, barkodlarda hem sayısal hem de alfasayısal veriler
 ### Aspose.BarCode for Java desteğini nerede bulabilirim?
  Aspose.BarCode forumunu ziyaret edin[Burada](https://forum.aspose.com/c/barcode/13) topluluk desteği ve tartışmalar için.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

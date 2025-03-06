@@ -3,10 +3,16 @@ title: Detectie van streepjescodeoriëntatie in Java met Aspose.BarCode
 linktitle: Detectie van streepjescodeoriëntatie
 second_title: Aspose.BarCode Java-API
 description: Verbeter uw Java-applicaties met barcodeherkenning met Aspose.BarCode voor Java. Volg onze stapsgewijze handleiding om moeiteloos de oriëntatie van de streepjescode te detecteren.
-type: docs
 weight: 13
 url: /nl/java/barcode-basics/detecting-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detectie van streepjescodeoriëntatie in Java met Aspose.BarCode
+
 ## Invoering
 
 Wilt u uw Java-applicaties uitbreiden met krachtige mogelijkheden voor streepjescodeherkenning? Aspose.BarCode voor Java is de perfecte oplossing voor ontwikkelaars die op zoek zijn naar een naadloze integratie van de functionaliteit voor het lezen van streepjescodes in hun projecten. In deze stapsgewijze handleiding zullen we ons concentreren op het detecteren van de streepjescodeoriëntatie in Java met behulp van Aspose.BarCode.
@@ -86,3 +92,9 @@ A1: Ja, Aspose.BarCode voor Java is compatibel met Java 8 en latere versies.
 ### Vraag 5: Zijn er voorbeeldcodes beschikbaar voor verschillende barcodebewerkingen?
 
  A5: Ontdek de[Aspose.BarCode-documentatie](https://reference.aspose.com/barcode/java/) voor uitgebreide codevoorbeelden en voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

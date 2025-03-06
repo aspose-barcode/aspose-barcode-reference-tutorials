@@ -3,10 +3,16 @@ title: Customize DotCode Aspect Ratio with Aspose.BarCode for .NET
 linktitle: DotCode Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
 description: Learn to customize DotCode barcode aspect ratio using Aspose.BarCode for .NET. Create tailored barcodes for your applications effortlessly.
-type: docs
 weight: 10
 url: /net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize DotCode Aspect Ratio with Aspose.BarCode for .NET
+
 ## Introduction
 
 If you're a .NET developer looking to create highly customizable barcodes in your applications, Aspose.BarCode for .NET is the perfect solution. In this tutorial, we will delve into one of its advanced features – customizing the DotCode aspect ratio. DotCode barcodes are widely used in industries such as healthcare, postal services, and manufacturing for encoding information. By tweaking the aspect ratio, you can tailor your barcode to your specific needs. Let's get started!
@@ -97,3 +103,10 @@ A4: Yes, Aspose.BarCode for .NET can be used in both web and desktop application
 ### Q5: Where can I find more information and documentation on Aspose.BarCode for .NET?
 
 A5: You can explore the documentation [here](https://reference.aspose.com/barcode/net/) for comprehensive guidance and examples.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

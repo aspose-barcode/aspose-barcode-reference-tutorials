@@ -3,10 +3,16 @@ title: Настройка текста кода в Java
 linktitle: Настройка текста кода
 second_title: API Aspose.BarCode Java
 description: Легко создавайте штрих-коды на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для эффективной настройки текста кода.
-type: docs
 weight: 13
 url: /ru/java/text-and-styling/setting-code-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка текста кода в Java
+
 
 ## Введение
 
@@ -80,3 +86,9 @@ generator.save(dataDir + "setCodeText.jpg");
 
 ### Могу ли я использовать временную лицензию в целях тестирования?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recognizing Unicode Barcodes in Java
 linktitle: Recognizing Unicode Barcodes
 second_title: Aspose.BarCode Java API
 description: Explore the world of Unicode barcode recognition in Java with Aspose.BarCode. Follow our step-by-step guide to seamlessly integrate diverse character sets into your applications.
-type: docs
 weight: 13
 url: /java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recognizing Unicode Barcodes in Java
+
 
 ## Introduction
 
@@ -127,3 +133,10 @@ Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-
 
 ### Need support or have questions?
 Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

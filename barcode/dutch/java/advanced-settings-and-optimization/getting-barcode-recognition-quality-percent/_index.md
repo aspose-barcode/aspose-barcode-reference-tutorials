@@ -3,10 +3,16 @@ title: Kwaliteit van streepjescodeherkenning in procenten verkrijgen in Java met
 linktitle: Kwaliteit van streepjescodeherkenning in procenten verkrijgen
 second_title: Aspose.BarCode Java-API
 description: Kwaliteit van streepjescodeherkenning verkrijgen in Java met Aspose.BarCode. Volg onze stap-voor-stap handleiding voor een optimaal resultaat.
-type: docs
 weight: 21
 url: /nl/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kwaliteit van streepjescodeherkenning in procenten verkrijgen in Java met Aspose.BarCode
+
 ## Invoering
 
 Als u de streepjescodeherkenningskwaliteit van uw Java-toepassing wilt verkrijgen, is Aspose.BarCode het perfecte hulpmiddel voor de klus. In deze zelfstudie begeleiden we u door het proces waarmee u in een paar eenvoudige stappen een optimale kwaliteit van streepjescodeherkenning kunt bereiken met behulp van Aspose.BarCode voor Java.
@@ -88,3 +94,9 @@ A3: Verkrijg een tijdelijke licentie voor testen van[hier](https://purchase.aspo
 ### V5: Zijn er codevoorbeelden beschikbaar in de documentatie?
 
  A5: Ja, u kunt uitgebreide codevoorbeelden vinden in de documentatie[hier](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

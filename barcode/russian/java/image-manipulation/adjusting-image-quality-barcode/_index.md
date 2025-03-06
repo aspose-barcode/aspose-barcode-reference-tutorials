@@ -3,10 +3,16 @@ title: Настройка качества изображения штрих-к�
 linktitle: Настройка качества изображения для штрих-кода
 second_title: API Aspose.BarCode Java
 description: Раскройте возможности Aspose.BarCode для Java! Создавайте высококачественные штрих-коды без проблем. Изучите руководство прямо сейчас.
-type: docs
 weight: 12
 url: /ru/java/image-manipulation/adjusting-image-quality-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка качества изображения штрих-кода в Java
+
 
 ## Введение
 
@@ -87,3 +93,10 @@ bb.save(dataDir + "barcode-image-quality.jpg");
 
 ### Где я могу найти подробную документацию по Aspose.BarCode для Java?
  Обратитесь к[документация](https://reference.aspose.com/barcode/java/) для более глубокого понимания.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

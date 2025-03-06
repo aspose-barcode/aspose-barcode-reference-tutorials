@@ -3,10 +3,16 @@ title: Đặt đơn vị kích thước cho hình ảnh mã vạch trong Java v�
 linktitle: Thiết lập đơn vị kích thước cho hình ảnh mã vạch
 second_title: API Java Aspose.BarCode
 description: Khám phá sức mạnh của Aspose.BarCode cho Java trong việc thiết lập đơn vị kích thước chính xác cho hình ảnh mã vạch. Tích hợp dễ dàng, hiệu suất mạnh mẽ và khả năng tùy chỉnh vô tận.
-type: docs
 weight: 15
 url: /vi/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt đơn vị kích thước cho hình ảnh mã vạch trong Java với Aspose.BarCode
+
 ## Giới thiệu
 
 Aspose.BarCode for Java là một API Java mạnh mẽ cho phép các nhà phát triển tích hợp khả năng tạo và nhận dạng mã vạch vào các ứng dụng Java của họ một cách dễ dàng. Cho dù bạn đang phát triển một hệ thống kiểm kê phức tạp, một ứng dụng bán lẻ hay bất kỳ phần mềm nào khác yêu cầu chức năng mã vạch, Aspose.BarCode đều chứng tỏ là một lựa chọn đáng tin cậy và hiệu quả.
@@ -100,3 +106,9 @@ A2: Chắc chắn rồi. Aspose.BarCode for Java cung cấp các tùy chọn tù
 ### Câu hỏi 5: Các ký hiệu mã vạch được hỗ trợ trong Aspose.BarCode cho Java là gì?
 
 Câu trả lời 5: Aspose.BarCode for Java hỗ trợ nhiều loại ký hiệu mã vạch, bao gồm CODE_128, QR_CODE, UPC_A, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

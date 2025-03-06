@@ -3,10 +3,16 @@ title: Configurando margens para imagem de código de barras em Java
 linktitle: Configurando margens para imagem de código de barras
 second_title: API Java Aspose.BarCode
 description: Aprenda como definir margens para imagens de código de barras em Java usando Aspose.BarCode. Personalize o espaçamento para integração perfeita em seu aplicativo
-type: docs
 weight: 11
 url: /pt/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando margens para imagem de código de barras em Java
+
 
 ## Introdução
 
@@ -99,3 +105,10 @@ Aspose.BarCode foi projetado principalmente para Java, mas existem versões disp
 
 ### Como posso adquirir a versão completa do Aspose.BarCode para Java?
  Você pode comprar a versão completa do Aspose.BarCode para Java no site[página de compra](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering Document Barcode Recognition with Aspose.BarCode
 linktitle: Document Barcode Recognition
 second_title: Aspose.BarCode Java API
 description: Unlock the power of barcode recognition in Java with Aspose.BarCode! Learn to seamlessly integrate, read, and sort barcodes from PDFs, Word documents, and Unicode sets.
-type: docs
 weight: 21
 url: /java/document-barcode-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Document Barcode Recognition with Aspose.BarCode
+
 
 Are you ready to elevate your Java applications to new heights? Look no further! In this comprehensive guide, we'll delve into the fascinating realm of barcode recognition using Aspose.BarCode. Whether you're a seasoned developer or just starting, these tutorials are your key to unlocking the full potential of Java-based barcode integration.
 
@@ -36,3 +42,9 @@ Learn how to recognize barcodes from PDFs in Java using Aspose.BarCode. Step-by-
 Explore the seamless integration of barcode recognition into your Java applications with Aspose.BarCode. Follow this tutorial to recognize barcodes from Word documents.
 ### [Recognizing Unicode Barcodes in Java](./recognizing-unicode-barcodes/)
 Explore the world of Unicode barcode recognition in Java with Aspose.BarCode. Follow our step-by-step guide to seamlessly integrate diverse character sets into your applications.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

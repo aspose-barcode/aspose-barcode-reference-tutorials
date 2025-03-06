@@ -3,10 +3,16 @@ title: Genereer DataMatrix-streepjescodes met Aspose.BarCode voor .NET
 linktitle: DataMatrix-versies
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u DataMatrix-barcodes kunt genereren in .NET met behulp van Aspose.BarCode voor .NET. Aangepaste afmetingen, ECC-ondersteuning en meer.
-type: docs
 weight: 12
 url: /nl/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Genereer DataMatrix-streepjescodes met Aspose.BarCode voor .NET
+
 Als u op zoek bent naar een betrouwbare oplossing om DataMatrix-barcodes te genereren in uw .NET-toepassingen, dan is Aspose.BarCode voor .NET de juiste keuze. In deze stapsgewijze handleiding leiden we u door het proces van het gebruik van Aspose.BarCode voor .NET om DataMatrix-barcodes te maken. We splitsen elk voorbeeld op in meerdere stappen, zodat u het gemakkelijk kunt volgen.
 
 ## Vereisten
@@ -128,3 +134,9 @@ A2: Ja, u kunt de afmetingen van DataMatrix-barcodes aanpassen door het aantal r
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.BarCode voor .NET?
 
  A5: Ga naar om een tijdelijke licentie voor Aspose.BarCode voor .NET te verkrijgen[deze link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

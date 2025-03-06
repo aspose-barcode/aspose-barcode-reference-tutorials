@@ -3,10 +3,16 @@ title: Cấu hình thành phần 2D thanh dữ liệu một chiều
 linktitle: Cấu hình thành phần 2D thanh dữ liệu một chiều
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch 2D thanh dữ liệu một chiều với Aspose.BarCode cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để định cấu hình và tùy chỉnh. Bắt đầu tạo mã vạch độc đáo ngay hôm nay!
-type: docs
 weight: 15
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình thành phần 2D thanh dữ liệu một chiều
+
 
 Trong thế giới mã hóa dữ liệu và mã vạch, thư viện Aspose.BarCode cho .NET là một công cụ đáng tin cậy và linh hoạt. Thành phần .NET mạnh mẽ này cung cấp cho các nhà phát triển phương tiện để tạo, thao tác và tùy chỉnh mã vạch một cách dễ dàng. Nếu bạn đang tìm cách khai thác tiềm năng của thư viện này cho Cấu hình thành phần 2D của thanh dữ liệu một chiều thì bạn đã đến đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ chia nhỏ quy trình để đảm bảo bạn có thể làm việc liền mạch với các thành phần Databar 2D bằng Aspose.BarCode cho .NET.
 
@@ -94,3 +100,9 @@ Nếu bạn đang tìm kiếm giải pháp tạo mã vạch đáng tin cậy tro
 
 ### Tôi có thể nhận hỗ trợ và trợ giúp với Aspose.BarCode cho .NET ở đâu?
 -  Bạn có thể tìm kiếm sự giúp đỡ và tham gia với cộng đồng tại[Diễn đàn hỗ trợ Aspose.BarCode cho .NET](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

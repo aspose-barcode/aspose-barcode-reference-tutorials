@@ -3,10 +3,16 @@ title: Tạo dữ liệu mã vạch bổ sung với Aspose.BarCode cho .NET
 linktitle: Cấu hình dữ liệu mã vạch bổ sung
 second_title: API Aspose.BarCode .NET
 description: Tạo dữ liệu mã vạch bổ sung với Aspose.BarCode cho .NET. Tùy chỉnh mã vạch EAN-2 và EAN-5 một cách dễ dàng. Hướng dẫn từng bước dành cho nhà phát triển .NET.
-type: docs
 weight: 10
 url: /vi/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo dữ liệu mã vạch bổ sung với Aspose.BarCode cho .NET
+
 
 Trong thế giới tạo và tùy chỉnh mã vạch, Aspose.BarCode for .NET nổi bật như một công cụ mạnh mẽ và linh hoạt. Cho dù bạn là nhà phát triển có kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình định cấu hình dữ liệu mã vạch bổ sung bằng Aspose.BarCode cho .NET. 
 
@@ -110,3 +116,10 @@ Có, nó hỗ trợ nhiều loại mã vạch khác nhau, bao gồm EAN-13, Mã 
 
 ### Tôi có thể tùy chỉnh giao diện của mã vạch được tạo không?
 Hoàn toàn có thể, bạn có thể tùy chỉnh kích thước, màu sắc và các khía cạnh khác của mã vạch để đáp ứng yêu cầu của bạn.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

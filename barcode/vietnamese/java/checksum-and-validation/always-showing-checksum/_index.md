@@ -3,10 +3,16 @@ title: Luôn hiển thị tổng kiểm tra trong Java
 linktitle: Luôn hiển thị tổng kiểm tra
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch bằng Aspose.BarCode cho Java một cách dễ dàng. Tìm hiểu cách luôn hiển thị tổng kiểm tra để nâng cao tính toàn vẹn dữ liệu trong hướng dẫn từng bước này.
-type: docs
 weight: 10
 url: /vi/java/checksum-and-validation/always-showing-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Luôn hiển thị tổng kiểm tra trong Java
+
 
 ## Giới thiệu
 
@@ -90,3 +96,10 @@ Trong hướng dẫn này, chúng ta đã khám phá quy trình liền mạch đ
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.BarCode cho Java?
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

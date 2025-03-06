@@ -3,10 +3,16 @@ title: تعديل ارتفاع الباركود لشريط البيانات أح
 linktitle: تعديل ارتفاع الباركود لشريط البيانات أحادي البعد
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية ضبط ارتفاع الرمز الشريطي لشريط البيانات أحادي البعد باستخدام Aspose.BarCode لـ .NET. قم بإنشاء رموز شريطية مخصصة في بضع خطوات بسيطة. اكتشف قوة تخصيص الباركود.
-type: docs
 weight: 17
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-databar-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل ارتفاع الباركود لشريط البيانات أحادي البعد
+
 
 في مجال إنشاء الباركود ومعالجته، تعد الدقة والتحكم في عناصر الباركود أمرًا بالغ الأهمية. يعمل Aspose.BarCode for .NET على تمكين المطورين من تحسين خصائص الرموز الشريطية، مثل ضبط الارتفاع. في هذا الدليل التفصيلي، سنستكشف كيفية ضبط ارتفاع الرمز الشريطي لشريط البيانات أحادي البعد باستخدام Aspose.BarCode لـ .NET. سيقوم هذا البرنامج التعليمي بتفصيل كل خطوة، مما يضمن أنه يمكنك المتابعة بسهولة، حتى لو كنت جديدًا في مجال إنشاء الباركود. دعونا الغوص في!
 
@@ -93,3 +99,10 @@ gen.Save($"{path}DatabarBarHeight60Pixels.png", BarCodeImageFormat.Png);
 
 ### هل هناك إصدار تجريبي متاح لـ Aspose.BarCode لـ .NET؟
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.BarCode لـ .NET[هنا](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

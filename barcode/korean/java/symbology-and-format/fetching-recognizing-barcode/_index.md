@@ -3,10 +3,16 @@ title: Java에서 바코드 가져오기 및 인식
 linktitle: 바코드 가져오기 및 인식
 second_title: Aspose.BarCode 자바 API
 description: Java용 Aspose.BarCode를 손쉽게 통합하세요. 데이터베이스에서 바코드를 가져오고 인식하세요. 원활한 바코드 통합 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 11
 url: /ko/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드 가져오기 및 인식
+
 
 ## 소개
 
@@ -120,3 +126,10 @@ System.out.println(ex.getMessage());
 
 ### 테스트 목적으로 임시 라이센스를 사용할 수 있습니까?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

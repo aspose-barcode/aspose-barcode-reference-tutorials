@@ -3,10 +3,16 @@ title: การแสดงบาร์โค้ดเป็นอินสแ�
 linktitle: การแสดงบาร์โค้ดไปยังอินสแตนซ์รูปภาพ
 second_title: Aspose.BarCode Java API
 description: สำรวจพลังของ Aspose.BarCode สำหรับ Java! สร้างบาร์โค้ดประเภทต่างๆ ได้อย่างง่ายดายโดยใช้ไลบรารีที่มีประสิทธิภาพนี้
-type: docs
 weight: 11
 url: /th/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแสดงบาร์โค้ดเป็นอินสแตนซ์รูปภาพใน Java
+
 
 ## การแนะนำ
 
@@ -70,3 +76,10 @@ Image image = bb.generateBarCodeImage();
 
 ### มีตัวเลือกใบอนุญาตชั่วคราวหรือไม่?
  ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

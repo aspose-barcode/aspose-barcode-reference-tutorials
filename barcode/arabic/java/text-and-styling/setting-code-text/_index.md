@@ -3,10 +3,16 @@ title: إعداد نص التعليمات البرمجية في جافا
 linktitle: إعداد نص الرمز
 second_title: Aspose.BarCode جافا API
 description: أنشئ رموزًا شريطية بسهولة في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لتخصيص نص التعليمات البرمجية بشكل فعال.
-type: docs
 weight: 13
 url: /ar/java/text-and-styling/setting-code-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعداد نص التعليمات البرمجية في جافا
+
 
 ## مقدمة
 
@@ -80,3 +86,9 @@ generator.save(dataDir + "setCodeText.jpg");
 
 ### هل يمكنني استخدام ترخيص مؤقت لأغراض الاختبار؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

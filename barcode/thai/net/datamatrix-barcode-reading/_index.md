@@ -3,10 +3,16 @@ title: การอ่านบาร์โค้ด DataMatrix
 linktitle: การอ่านบาร์โค้ด DataMatrix
 second_title: Aspose.BarCode .NET API
 description: สร้างและอ่านบาร์โค้ด DataMatrix ได้อย่างง่ายดายด้วย Aspose.BarCode สำหรับ .NET เจาะลึกการเขียนโปรแกรมอ่าน DataMatrix และการกำหนดค่าส่วนต่อท้ายที่มีโครงสร้าง
-type: docs
 weight: 31
 url: /th/net/datamatrix-barcode-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การอ่านบาร์โค้ด DataMatrix
+
 
 หากคุณกำลังมองหาที่จะเจาะลึกเข้าไปในโลกของการอ่านบาร์โค้ด DataMatrix และปลดปล่อยศักยภาพสูงสุดของ Aspose.BarCode สำหรับ .NET คุณมาถูกที่แล้ว ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำบทช่วยสอนที่จำเป็นซึ่งครอบคลุมถึงการเขียนโปรแกรมเครื่องอ่าน DataMatrix การกำหนดค่าส่วนต่อท้ายที่มีโครงสร้าง และศิลปะของการสร้างบาร์โค้ด DataMatrix ในแอปพลิเคชัน .NET ของคุณ
 
@@ -30,3 +36,9 @@ url: /th/net/datamatrix-barcode-reading/
 เรียนรู้วิธีสร้างและอ่านการกำหนดค่าผนวกที่มีโครงสร้าง DataMatrix ใน .NET โดยใช้ Aspose.BarCode เพื่อการจัดระเบียบข้อมูลที่มีประสิทธิภาพสูง
 ### [สร้างบาร์โค้ด DataMatrix](./datamatrix-versions/)
 เรียนรู้วิธีสร้างบาร์โค้ด DataMatrix ใน .NET โดยใช้ Aspose.BarCode สำหรับ .NET มิติข้อมูลที่กำหนดเอง การรองรับ ECC และอื่นๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

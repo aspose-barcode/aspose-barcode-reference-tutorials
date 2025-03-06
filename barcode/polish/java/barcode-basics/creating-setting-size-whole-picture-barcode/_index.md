@@ -3,10 +3,16 @@ title: Tworzenie i ustawianie rozmiaru całego obrazu za pomocą kodu kreskowego
 linktitle: Tworzenie i ustawianie rozmiaru całego obrazu za pomocą kodu kreskowego
 second_title: Aspose.BarCode API Java
 description: Poznaj tworzenie i ustawianie rozmiaru całego obrazu w Javie za pomocą Aspose.BarCode. Dostosuj rozmiar, kodowanie i wygląd bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie i ustawianie rozmiaru całego obrazu za pomocą kodu kreskowego w Javie
+
 ## Wstęp
 
 W dziedzinie programowania w języku Java potrzeba włączania dynamicznych kodów kreskowych do aplikacji jest najważniejsza. Aspose.BarCode dla Java to potężne narzędzie, które upraszcza ten proces, oferując wszechstronność i łatwość użycia. Ten samouczek poprowadzi Cię przez proces tworzenia i dostosowywania kodów kreskowych, skupiając się na praktycznym przykładzie – ustawieniu rozmiaru całego obrazu za pomocą kodu kreskowego.
@@ -112,3 +118,9 @@ Podsumowując, Aspose.BarCode dla Java oferuje bezproblemowe rozwiązanie do int
 ### P5: Czy istnieje możliwość uzyskania licencji tymczasowej?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

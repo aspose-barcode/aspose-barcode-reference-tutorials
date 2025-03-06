@@ -3,10 +3,16 @@ title: تخصيص الباركود ITF-14
 linktitle: تخصيص الباركود ITF-14
 second_title: Aspose.BarCode .NET API
 description: تعلم كيفية تخصيص سُمك حدود الرمز الشريطي ITF-14 وأنواعها باستخدام Aspose.BarCode لـ .NET. قم بتحسين التعبئة والتغليف ووضع العلامات الخاصة بك دون عناء.
-type: docs
 weight: 24
 url: /ar/net/itf-14-barcode-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص الباركود ITF-14
+
 إذا كنت تبحث عن دليل شامل حول تخصيص الرموز الشريطية ITF-14 لاحتياجات التغليف والملصقات الخاصة بك، فأنت في المكان الصحيح. في هذه المقالة، سنستكشف جوانب التخصيص المختلفة باستخدام Aspose.BarCode لـ .NET. سواء كنت جديدًا في مجال إنشاء الباركود أو محترفًا متمرسًا، ستعمل هذه البرامج التعليمية على تبسيط العملية بالنسبة لك. دعونا نتعمق في عالم تخصيص الباركود ITF-14!
 
 ## ITF-14 تخصيص سمك حدود الباركود
@@ -28,3 +34,9 @@ url: /ar/net/itf-14-barcode-customization/
 تعرف على كيفية إنشاء رموز شريطية ITF-14 بأنواع مختلفة من الحدود باستخدام Aspose.BarCode لـ .NET. قم بتخصيص التعبئة والتغليف ووضع العلامات الخاصة بك بسهولة.
 ### [ITF-14 تكوين المنطقة الهادئة للرمز الشريطي](./itf-14-barcode-quiet-zone-configuration/)
 تعرف على كيفية تكوين المناطق الهادئة للرمز الشريطي ITF-14 باستخدام Aspose.BarCode لـ .NET. ضمان سهولة القراءة والامتثال دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

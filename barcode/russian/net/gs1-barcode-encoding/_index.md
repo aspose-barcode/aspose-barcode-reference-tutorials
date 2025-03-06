@@ -3,10 +3,16 @@ title: Кодирование штрих-кода GS1
 linktitle: Кодирование штрих-кода GS1
 second_title: API Aspose.BarCode .NET
 description: Ознакомьтесь с учебными пособиями по кодированию штрих-кодов GS1 для Aspose.BarCode в .NET. С легкостью создавайте штрих-коды GS1 Code 128, UPC-A и DataMatrix. Начать сейчас!
-type: docs
 weight: 23
 url: /ru/net/gs1-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Кодирование штрих-кода GS1
+
 
 ## Введение
 В современном быстро меняющемся мире бизнеса и коммерции потребность в эффективном и точном кодировании штрих-кодов становится более важной, чем когда-либо. Штрих-коды GS1 являются стандартом идентификации и отслеживания продукции, и умение их создавать является ценным навыком. Если вы хотите окунуться в мир штрих-кодов GS1, вы попали по адресу.
@@ -53,3 +59,9 @@ url: /ru/net/gs1-barcode-encoding/
 Изучите конфигурацию панели данных купона GS1 UPC-A с помощью Aspose.BarCode для .NET. Легко создавайте штрих-коды. Начать сейчас!
 ### [Пример матрицы данных GS1](./gs1-datamatrix-example/)
 Узнайте, как создавать штрих-коды GS1 DataMatrix в .NET с помощью Aspose.BarCode. Создавайте штрих-коды легко и эффективно всего за несколько шагов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

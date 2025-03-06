@@ -3,10 +3,16 @@ title: Eendimensionale gegevensbalkrij- en kolomconfiguratie
 linktitle: Eendimensionale gegevensbalkrij- en kolomconfiguratie
 second_title: Aspose.BarCode .NET API
 description: Genereer dynamische eendimensionale DataBar-barcodes met rij- en kolomconfiguratie in .NET met behulp van Aspose.BarCode voor .NET. Aanpassing gemakkelijk gemaakt!
-type: docs
 weight: 19
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eendimensionale gegevensbalkrij- en kolomconfiguratie
+
 
 In de digitale wereld van vandaag spelen barcodes een cruciale rol in verschillende industrieën, van voorraadbeheer tot productetikettering. Als ontwikkelaar heeft u mogelijk een krachtig hulpmiddel nodig om streepjescodes in uw .NET-toepassingen te genereren en aan te passen. Aspose.BarCode voor .NET is een veelzijdige bibliotheek waarmee u eenvoudig eendimensionale en tweedimensionale barcodes kunt maken, aanpassen en manipuleren.
 
@@ -112,3 +118,10 @@ Absoluut! Aspose.BarCode voor .NET is veelzijdig en kan worden gebruikt in versc
  Ja, de documentatie[hier](https://reference.aspose.com/barcode/net/)biedt gedetailleerde codevoorbeelden en voorbeeldprojecten om u op weg te helpen.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

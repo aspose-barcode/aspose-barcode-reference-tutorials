@@ -3,10 +3,16 @@ title: Membuat Barcode PDF417 Ringkas dengan Aspose.BarCode untuk .NET
 linktitle: Konfigurasi Dasar PDF417 Ringkas
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang Compact PDF417 menggunakan Aspose.BarCode untuk .NET. Panduan komprehensif dengan petunjuk langkah demi langkah dan contoh kode.
-type: docs
 weight: 10
 url: /id/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Barcode PDF417 Ringkas dengan Aspose.BarCode untuk .NET
+
 ## Perkenalan
 
 Jika Anda seorang pengembang yang ingin membuat gambar kode batang di aplikasi .NET Anda, Aspose.BarCode for .NET adalah alat canggih yang dapat membantu Anda mencapai hal tersebut. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses pembuatan kode batang Compact PDF417 menggunakan Aspose.BarCode untuk .NET. Compact PDF417 adalah simbologi barcode dua dimensi efisien yang banyak digunakan untuk berbagai aplikasi, termasuk logistik, manajemen inventaris, dan banyak lagi. Di akhir tutorial ini, Anda akan dapat membuat dan menyesuaikan barcode Compact PDF417 untuk memenuhi kebutuhan spesifik Anda. Mari selami dan mulai!
@@ -107,3 +113,9 @@ A2: Aspose.BarCode mendukung berbagai jenis kode batang, termasuk Kode QR, Kode 
 ### Q5: Apakah ada sumber daya atau dokumentasi tambahan yang tersedia untuk Aspose.BarCode untuk .NET?
 
  A5: Ya, Anda dapat menemukan dokumentasi detailnya[Di Sini](https://reference.aspose.com/barcode/net/) untuk membantu Anda menjelajahi dan memanfaatkan fitur Aspose.BarCode untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

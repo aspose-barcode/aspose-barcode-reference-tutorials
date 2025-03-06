@@ -3,10 +3,16 @@ title: 在 Java 中指定條碼的符號系統
 linktitle: 指定條碼的符號系統
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中產生動態條碼。輕鬆整合、多功能自訂和強大的功能可滿足您的所有條碼需求。
-type: docs
 weight: 10
 url: /zh-hant/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中指定條碼的符號系統
+
 
 ## 介紹
 
@@ -77,3 +83,10 @@ Aspose.BarCode 簡化了 Java 中的條碼生成，使所有技能水平的開�
 
 ### 我如何獲得 Aspose.BarCode 的支援？
 參觀[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13)獲得社區和 Aspose 專家的幫助。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

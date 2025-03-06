@@ -3,10 +3,16 @@ title: Настройка толщины границы штрих-кода ITF-
 linktitle: Настройка толщины границы штрих-кода ITF-14
 second_title: API Aspose.BarCode .NET
 description: Настройте толщину границы штрих-кода ITF-14 с помощью Aspose.BarCode для .NET. Пошаговое руководство по созданию бесшовного штрих-кода.
-type: docs
 weight: 10
 url: /ru/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка толщины границы штрих-кода ITF-14
+
 
 Вы хотите улучшить генерацию штрих-кодов за счет настраиваемой толщины границ с помощью Aspose.BarCode для .NET? Если да, то вы находитесь в правильном месте. В этом пошаговом руководстве мы покажем вам процесс изменения толщины границы штрих-кода ITF-14. С помощью нескольких простых шагов вы можете добиться желаемой толщины рамки для своих штрих-кодов, будь то маркировка продуктов или управление запасами. Давайте начнем!
 
@@ -108,3 +114,9 @@ Aspose.BarCode для .NET совместим с широким спектром
 
 ### Как я могу получить временную лицензию на Aspose.BarCode для .NET?
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

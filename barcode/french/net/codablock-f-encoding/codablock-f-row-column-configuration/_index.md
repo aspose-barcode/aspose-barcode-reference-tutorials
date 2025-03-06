@@ -3,10 +3,16 @@ title: Configurer les lignes et colonnes Codablock F dans Aspose.BarCode pour .N
 linktitle: Configuration des lignes et colonnes Codablock F
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment configurer les lignes et colonnes Codablock F dans Aspose.BarCode pour .NET. Créez des codes-barres 2D personnalisés pour diverses applications.
-type: docs
 weight: 11
 url: /fr/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurer les lignes et colonnes Codablock F dans Aspose.BarCode pour .NET
+
 Dans ce guide étape par étape, nous explorerons comment configurer les paramètres de ligne et de colonne Codablock F à l'aide d'Aspose.BarCode pour .NET. Codablock F est une symbologie de codes-barres 2D utilisée pour diverses applications, notamment les étiquettes d'expédition et les emballages. Nous décomposerons chaque exemple en plusieurs étapes pour garantir une compréhension claire et complète du processus.
 
 ## Conditions préalables
@@ -100,3 +106,9 @@ A3 : Oui, Aspose.BarCode for .NET est compatible avec divers frameworks .NET, ce
 ### Q5 : Comment puis-je obtenir une assistance pour Aspose.BarCode pour .NET ?
 
  A5 : Si vous avez des questions ou avez besoin d'aide, vous pouvez visiter le forum Aspose.BarCode for .NET[ici](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

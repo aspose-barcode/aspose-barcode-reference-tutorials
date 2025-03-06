@@ -3,10 +3,16 @@ title: إضافة حدود لصورة الباركود في جافا
 linktitle: إضافة حدود لصورة الباركود
 second_title: Aspose.BarCode جافا API
 description: قم بتحسين صور الباركود في Java باستخدام Aspose.BarCode عن طريق إضافة حدود قابلة للتخصيص. اتبع هذا الدليل التفصيلي خطوة بخطوة للوصول إلى حل باركود جذاب بصريًا.
-type: docs
 weight: 10
 url: /ar/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة حدود لصورة الباركود في جافا
+
 
 ## مقدمة
 
@@ -122,3 +128,10 @@ bb.save(dataDir + "barcode-image-borders.jpg");
 
 ### هل تتوفر نسخة تجريبية من Aspose.BarCode؟
  نعم، يمكنك استكشاف ميزات Aspose.BarCode عن طريق تنزيل الملف[نسخة تجريبية مجانية](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

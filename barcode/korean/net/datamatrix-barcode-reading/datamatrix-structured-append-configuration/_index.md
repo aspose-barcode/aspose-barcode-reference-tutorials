@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용한 DataMatrix 구조적 추가 구성
 linktitle: DataMatrix 구조화된 추가 구성
 second_title: Aspose.BarCode .NET API
 description: 고효율 데이터 구성을 위해 Aspose.BarCode를 사용하여 .NET에서 DataMatrix 구조화된 추가 구성을 만들고 읽는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용한 DataMatrix 구조적 추가 구성
+
 .NET 애플리케이션에서 DataMatrix 구조화된 추가 구성을 구현하려는 개발자라면 .NET용 Aspose.BarCode가 적합한 솔루션입니다. 이 단계별 가이드에서는 이 강력한 라이브러리를 사용하여 구조화된 DataMatrix 바코드를 생성하고 읽는 방법을 자세히 살펴보겠습니다. 각 예를 따라하기 쉬운 여러 단계로 나누어 개념을 철저하게 이해할 수 있도록 하겠습니다. 이 튜토리얼이 끝나면 .NET용 Aspose.BarCode를 사용하여 DataMatrix 구조화된 추가 구성을 효과적으로 작업할 수 있게 됩니다.
 
 ## 전제 조건
@@ -100,3 +106,9 @@ A1: DataMatrix 구조화된 추가는 많은 양의 데이터를 여러 개의 �
 ### Q5: .NET용 Aspose.BarCode는 다른 바코드 유형을 지원합니까?
 
  A5: 예, .NET용 Aspose.BarCode는 QR 코드, Code 128, EAN-13 등을 포함한 광범위한 바코드 유형을 지원합니다. 전체 문서를 탐색할 수 있습니다.[여기](https://reference.aspose.com/barcode/net/) 지원되는 바코드 유형의 전체 목록을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

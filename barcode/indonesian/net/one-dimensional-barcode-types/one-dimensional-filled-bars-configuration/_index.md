@@ -3,10 +3,16 @@ title: Konfigurasi Batang Berisi Satu Dimensi
 linktitle: Konfigurasi Batang Berisi Satu Dimensi
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang di .NET dengan Aspose.BarCode untuk .NET. Tutorial komprehensif ini mencakup semuanya mulai dari mengimpor namespace hingga membuat kode batang satu dimensi.
-type: docs
 weight: 20
 url: /id/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Batang Berisi Satu Dimensi
+
 
 Apakah Anda ingin menghasilkan kode batang yang profesional dan dapat disesuaikan dalam aplikasi .NET Anda? Tidak perlu mencari lagi! Aspose.BarCode for .NET hadir untuk menyederhanakan proses pembuatan barcode Anda, menawarkan banyak fitur dan opsi penyesuaian untuk memenuhi kebutuhan spesifik Anda. Dalam tutorial komprehensif ini, kami akan memandu Anda melalui dasar-dasar penggunaan Aspose.BarCode untuk .NET, mulai dari mengimpor namespace hingga membuat bilah terisi satu dimensi. Mari kita mulai!
 
@@ -99,3 +105,9 @@ Ya, Anda dapat mencoba Aspose.BarCode untuk .NET dengan mengunduh versi uji coba
 
 ### Bisakah saya membeli lisensi sementara untuk Aspose.BarCode untuk .NET?
  Ya, Anda bisa mendapatkan lisensi sementara dari[Link ini](https://purchase.aspose.com/temporary-license/), yang memungkinkan Anda menggunakan perpustakaan untuk jangka waktu terbatas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

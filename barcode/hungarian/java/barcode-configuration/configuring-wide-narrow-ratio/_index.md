@@ -3,10 +3,16 @@ title: A széles-keskeny arány konfigurálása Java nyelven az Aspose.BarCode s
 linktitle: A széles-keskeny arány konfigurálása
 second_title: Aspose.BarCode Java API
 description: Ismerje meg, hogyan konfigurálhat széles-keskeny arányt Java vonalkódokban az Aspose.BarCode használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes testreszabás érdekében.
-type: docs
 weight: 17
 url: /hu/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A széles-keskeny arány konfigurálása Java nyelven az Aspose.BarCode segítségével
+
 
 ## Bevezetés
 
@@ -87,3 +93,9 @@ V: Egyszerűen módosítsa a szimbólumtípust a BarcodeGenerator konstruktorban
 
 ### K: Hogyan kaphat támogatást az Aspose.BarCode-hoz?
  V: Látogassa meg az Aspose.BarCode fórumot[itt](https://forum.aspose.com/c/barcode/13) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تكوين ذو نسبة واسعة وضيقة أحادية البعد
 linktitle: تكوين ذو نسبة واسعة وضيقة أحادية البعد
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء رموز شريطية مخصصة بسهولة باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة لتكوين نسبة واسعة وضيقة أحادية البعد.
-type: docs
 weight: 22
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين ذو نسبة واسعة وضيقة أحادية البعد
+
 
 هل تتطلع إلى إنشاء رموز شريطية وتخصيصها بسهولة في تطبيقات .NET الخاصة بك؟ لا مزيد من البحث! Aspose.BarCode for .NET هي مكتبة قوية تجعل إنشاء الباركود وتخصيصه أمرًا سهلاً. في هذا الدليل التفصيلي، سنتعمق في كيفية تسخير قوة Aspose.BarCode لـ .NET لإنشاء رموز شريطية بتكوين نسبة واسعة وضيقة.
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET هي مكتبة متعددة الاستخدامات تع
 
 ### 5. كيف يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.BarCode for .NET؟
  يمكنك زيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للدعم والمناقشات.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

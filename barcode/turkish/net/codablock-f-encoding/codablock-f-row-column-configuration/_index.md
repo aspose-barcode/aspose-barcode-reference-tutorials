@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET'te Codablock F Satırlarını ve Sütunlarını Y
 linktitle: Codablock F Satır ve Sütun Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'te Codablock F satırlarını ve sütunlarını nasıl yapılandıracağınızı öğrenin. Çeşitli uygulamalar için özelleştirilmiş 2D barkodlar oluşturun.
-type: docs
 weight: 11
 url: /tr/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET'te Codablock F Satırlarını ve Sütunlarını Yapılandırma
+
 Bu adım adım kılavuzda, Aspose.BarCode for .NET kullanarak Codablock F satır ve sütun ayarlarının nasıl yapılandırılacağını inceleyeceğiz. Codablock F, nakliye etiketleri ve paketleme dahil olmak üzere çeşitli uygulamalar için kullanılan bir 2D barkod sembolojisidir. Sürecin açık ve kapsamlı bir şekilde anlaşılmasını sağlamak için her örneği birden fazla adıma ayıracağız.
 
 ## Önkoşullar
@@ -100,3 +106,9 @@ Cevap3: Evet, Aspose.BarCode for .NET çeşitli .NET çerçeveleriyle uyumludur,
 ### S5: Aspose.BarCode for .NET desteğini nasıl alabilirim?
 
  Cevap5: Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa Aspose.BarCode for .NET forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

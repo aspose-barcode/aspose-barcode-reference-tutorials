@@ -3,10 +3,16 @@ title: Création et définition de la taille de l'image entière avec code-barre
 linktitle: Création et définition de la taille de l'image entière avec code-barres
 second_title: API Java Aspose.BarCode
 description: Explorez la création et la définition de la taille de l'image entière en Java avec Aspose.BarCode. Personnalisez facilement la taille, l’encodage et l’apparence.
-type: docs
 weight: 11
 url: /fr/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création et définition de la taille de l'image entière avec code-barres en Java
+
 ## Introduction
 
 Dans le domaine du développement Java, la nécessité d'incorporer des codes-barres dynamiques dans les applications est primordiale. Aspose.BarCode for Java est un outil puissant qui simplifie ce processus, offrant polyvalence et facilité d'utilisation. Ce tutoriel vous guidera dans la création et la personnalisation de codes-barres, en se concentrant sur un exemple pratique : définir la taille de l'image entière avec le code-barres.
@@ -112,3 +118,9 @@ En conclusion, Aspose.BarCode for Java offre une solution transparente pour int�
 ### Q5 : Existe-t-il une option pour une licence temporaire ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tek Boyutlu Kod 39 Yapılandırması
 linktitle: Tek Boyutlu Kod 39 Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode ile .NET'te tek boyutlu Code 39 barkodlarının nasıl oluşturulacağını öğrenin. Geliştiriciler için adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tek Boyutlu Kod 39 Yapılandırması
+
 
 ## giriiş
 
@@ -72,3 +78,9 @@ C: Kesinlikle barkodun boyut, renkler ve yazı tipleri dahil olmak üzere çeşi
 
 ### S: Aspose.BarCode for .NET hakkında nereden destek alabilirim veya soru sorabilirim?
  C: Aspose.BarCode forumunda sorularınızın yanıtlarını bulabilir ve destek arayabilirsiniz:[Aspose.BarCode Forumu](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

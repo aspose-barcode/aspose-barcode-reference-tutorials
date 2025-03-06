@@ -3,10 +3,16 @@ title: Moeiteloze barcodeherkenning vanuit Word-documenten
 linktitle: Herkennen van streepjescodes uit Word-documenten
 second_title: Aspose.BarCode Java-API
 description: Ontdek de naadloze integratie van barcodeherkenning in uw Java-applicaties met Aspose.BarCode. Volg deze tutorial om streepjescodes uit Word-documenten te herkennen.
-type: docs
 weight: 12
 url: /nl/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Moeiteloze barcodeherkenning vanuit Word-documenten
+
 
 ## Invoering
 
@@ -111,3 +117,10 @@ Bezoek het Aspose.BarCode-forum voor hulp of vragen[hier](https://forum.aspose.c
 
 ### Vraag: Waar kan ik de documentatie voor Aspose.BarCode voor Java vinden?
  Raadpleeg de uitgebreide documentatie[hier](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

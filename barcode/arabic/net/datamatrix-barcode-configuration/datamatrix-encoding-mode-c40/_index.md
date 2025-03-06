@@ -3,10 +3,16 @@ title: وضع تشفير DataMatrix الرئيسي (C40) مع Aspose.BarCode ل�
 linktitle: وضع تشفير DataMatrix (C40)
 second_title: Aspose.BarCode .NET API
 description: تعرف على وضع تشفير DataMatrix (C40) باستخدام Aspose.BarCode لـ .NET. إنشاء رموز شريطية مخصصة بكفاءة. اكتشف الدليل التفصيلي.
-type: docs
 weight: 16
 url: /ar/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-c40/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# وضع تشفير DataMatrix الرئيسي (C40) مع Aspose.BarCode لـ .NET
+
 ## مقدمة
 
 في عالم إنشاء الباركود، تعد الدقة وتعدد الاستخدامات أمرًا بالغ الأهمية. سواء كنت تعمل على إدارة المخزون، أو الشحن، أو أي تطبيق يتضمن تشفير البيانات، فإن رموز DataMatrix الشريطية تعد خيارًا شائعًا. مع Aspose.BarCode for .NET، لديك أداة قوية تحت تصرفك لإنشاء الرموز الشريطية وتخصيصها وترميزها بكفاءة.
@@ -104,3 +110,9 @@ A1: وضع تشفير DataMatrix (C40) هو وضع ترميز الأحرف ال�
 ### س5: أين يمكنني الحصول على دعم Aspose.BarCode لـ .NET؟
 
 ج5: يمكنك العثور على مجتمع داعم والوصول إلى الدعم الخاص بـ Aspose.BarCode لـ .NET على[منتدى Aspose](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

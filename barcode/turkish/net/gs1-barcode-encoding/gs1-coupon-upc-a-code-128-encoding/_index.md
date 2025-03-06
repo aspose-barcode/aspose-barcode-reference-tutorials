@@ -3,10 +3,16 @@ title: GS1 Kuponu UPC-A Kodu 128 Kodlama
 linktitle: GS1 Kuponu UPC-A Kodu 128 Kodlama
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile barkodları kolayca oluşturun - Kapsamlı barkod oluşturma çözümünüz. Bu gün başlayacağım!
-type: docs
 weight: 12
 url: /tr/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 Kuponu UPC-A Kodu 128 Kodlama
+
 
 ## giriiş
 
@@ -115,3 +121,9 @@ Kesinlikle. Aspose.BarCode for .NET, barkodlarınızın görünümünü ve davra
 
 ### S: Aspose.BarCode for .NET tarafından desteklenen başka kodlama türleri var mı?
 Evet, Aspose.BarCode for .NET, UPC-A, Code 128, QR kodları ve çok daha fazlasını içeren çok çeşitli kodlama türlerini destekler. Tam listeyi belgelerde bulabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

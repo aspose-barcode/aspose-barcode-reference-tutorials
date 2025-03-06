@@ -3,10 +3,16 @@ title: Одномерная конфигурация кода 128
 linktitle: Одномерная конфигурация кода 128
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как генерировать одномерные штрих-коды Code 128 в .NET с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для бесшовной интеграции штрих-кодов.
-type: docs
 weight: 10
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Одномерная конфигурация кода 128
+
 
 Если вы .NET-разработчик и ищете мощный инструмент для создания штрих-кодов в своих приложениях, Aspose.BarCode для .NET — ваше идеальное решение. Это подробное руководство проведет вас через процесс использования возможностей Aspose.BarCode для .NET для создания одномерных штрих-кодов Code 128. Оно предназначено как для начинающих, так и для опытных разработчиков. 
 
@@ -108,3 +114,10 @@ Aspose.BarCode для .NET предоставляет мощное и удобн
 
 ### Где я могу получить поддержку Aspose.BarCode для .NET?
  Вы можете обратиться за помощью и поделиться своим опытом на форуме Aspose.BarCode for .NET.[здесь](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 代码 16K 编码
 linktitle: 代码 16K 编码
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 探索 Code 16K 编码教程。自定义条形码长宽比和安静区设置，以便在您的应用程序中进行精确、可靠的扫描。
-type: docs
 weight: 22
 url: /zh/net/code-16k-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 代码 16K 编码
+
 
 ## 介绍
 
@@ -44,3 +50,9 @@ url: /zh/net/code-16k-encoding/
 ## 结论
 
 当您完成这些 Code 16K 编码教程时，您将深入了解如何使用 Aspose.BarCode for .NET 自定义条形码长宽比和安静区域设置。无论您是为零售、物流还是任何其他行业开发应用程序，这些技能都将提升条形码的功能和视觉吸引力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إنشاء كود أحادي البعد 93 باركود
 linktitle: تكوين الكود 93 أحادي البعد
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء رموز شريطية Code 93 باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة لإنشاء الباركود.
-type: docs
 weight: 12
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء كود أحادي البعد 93 باركود
+
 
 ## مقدمة
 
@@ -102,3 +108,10 @@ catch (Exception e)
 
 ### س: أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.BarCode for .NET؟
  ج: يمكنك العثور على منتدى مجتمعي للحصول على الدعم والمناقشات على[Aspose.BarCode لدعم .NET](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

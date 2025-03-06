@@ -3,10 +3,16 @@ title: ITF-14 vonalkód szegélyvastagság testreszabása
 linktitle: ITF-14 vonalkód szegélyvastagság testreszabása
 second_title: Aspose.BarCode .NET API
 description: Testreszabhatja az ITF-14 vonalkód szegélyvastagságát az Aspose.BarCode for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes vonalkód generáláshoz.
-type: docs
 weight: 10
 url: /hu/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 vonalkód szegélyvastagság testreszabása
+
 
 vonalkód-generálást személyre szabható szegélyvastagsággal szeretné javítani az Aspose.BarCode for .NET használatával? Ha igen, akkor jó helyen jár. Ebben a lépésenkénti útmutatóban végigvezetjük az ITF-14 vonalkód szegélyvastagságának módosításának folyamatán. Néhány egyszerű lépéssel elérheti a vonalkódok kívánt szegélyvastagságát, legyen szó termékcímkézésről vagy készletkezelésről. Kezdjük el!
 
@@ -108,3 +114,9 @@ A korlátozások a vonalkód-generálási követelményektől függően változh
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for .NET számára?
  Ideiglenes jogosítványt kaphat[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

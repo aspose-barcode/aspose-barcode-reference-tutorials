@@ -3,10 +3,16 @@ title: ITF-14 바코드 사용자 정의
 linktitle: ITF-14 바코드 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 ITF-14 바코드 테두리 두께 및 유형을 사용자 정의하는 방법을 알아보세요. 포장과 라벨링을 손쉽게 최적화하세요.
-type: docs
 weight: 24
 url: /ko/net/itf-14-barcode-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 바코드 사용자 정의
+
 포장 및 라벨링 요구 사항에 맞게 ITF-14 바코드를 사용자 정의하는 방법에 대한 포괄적인 가이드를 찾고 있다면 올바른 위치에 있습니다. 이 기사에서는 .NET용 Aspose.BarCode를 사용하여 다양한 사용자 정의 측면을 살펴보겠습니다. 바코드 생성이 처음이시든 숙련된 전문가이시든 이 튜토리얼은 프로세스를 단순화시켜 드립니다. ITF-14 바코드 맞춤화의 세계를 탐험해 보세요!
 
 ## ITF-14 바코드 테두리 두께 사용자 정의
@@ -28,3 +34,9 @@ Aspose.BarCode for .NET을 작업 흐름에 통합하면 시간과 노력을 절
 .NET용 Aspose.BarCode를 사용하여 다양한 테두리 유형으로 ITF-14 바코드를 만드는 방법을 알아보세요. 포장과 라벨링을 쉽게 맞춤화하세요.
 ### [ITF-14 바코드 여백 영역 구성](./itf-14-barcode-quiet-zone-configuration/)
 .NET용 Aspose.BarCode를 사용하여 ITF-14 바코드 여백 영역을 구성하는 방법을 알아보세요. 쉽게 가독성과 규정 준수를 보장합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java'da Barkodun X ve Y Boyutlarını Yönetme
 linktitle: Barkodun X ve Y Boyutlarını Yönetme
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode for Java'nın gücünü keşfedin! Adım adım kılavuzumuzla X ve Y boyutlarını zahmetsizce yönetmeyi öğrenin. Doğruluğu ve görsel çekiciliği artırın.
-type: docs
 weight: 13
 url: /tr/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Barkodun X ve Y Boyutlarını Yönetme
+
 
 ## giriiş
 
@@ -90,3 +96,10 @@ Aspose.BarCode for Java kullanarak barkod oluşturmada X ve Y boyutlarını etki
 
 ### Aspose.BarCode for Java için geçici bir lisans alabilir miyim?
 Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

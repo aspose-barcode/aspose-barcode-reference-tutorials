@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.BarCode का उपयोग करके 
 linktitle: पैच कोड प्रारूप कॉन्फ़िगरेशन
 second_title: Aspose.BarCode .NET API
 description: .NET के लिए Aspose.BarCode के साथ आसानी से पैच कोड बारकोड जेनरेट करें। पैच कोड बारकोड बनाने और अपने दस्तावेज़ प्रबंधन सिस्टम को बेहतर बनाने के चरण जानें। अभी लाइब्रेरी डाउनलोड करें!
-type: docs
 weight: 10
 url: /hi/net/patch-code-configuration/patch-code-format-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.BarCode का उपयोग करके पैच कोड बारकोड बनाना
+
 
 इस ट्यूटोरियल में, हम जानेंगे कि .NET के लिए Aspose.BarCode का उपयोग करके पैच कोड बारकोड कैसे जेनरेट किया जाए। पैच कोड द्वि-आयामी बारकोड होते हैं जिनका उपयोग आमतौर पर दस्तावेज़ प्रबंधन और संग्रह में किया जाता है। Aspose.BarCode आपके .NET अनुप्रयोगों में पैच कोड बारकोड बनाने की प्रक्रिया को सरल बनाता है। इस गाइड में, हम परिचय, पूर्वापेक्षाएँ, नामस्थान आयात करना और आपके द्वारा प्रदान किए गए उदाहरण का चरण-दर-चरण विवरण शामिल करेंगे।
 
@@ -95,3 +101,10 @@ gen.Save($"{path}PatchCodeA4WithQR.png", BarCodeImageFormat.Png);
 
 ### मुझे .NET के लिए Aspose.BarCode के लिए समर्थन कहाँ से मिल सकता है?
  यदि आपके कोई प्रश्न हैं या सहायता की आवश्यकता है, तो आप .NET समर्थन फोरम के लिए Aspose.BarCode पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

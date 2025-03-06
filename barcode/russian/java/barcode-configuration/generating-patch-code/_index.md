@@ -3,10 +3,16 @@ title: Генерация кода исправления в Java
 linktitle: Генерация кода исправления
 second_title: API Aspose.BarCode Java
 description: Легко создавайте коды исправлений на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для эффективного создания штрих-кода.
-type: docs
 weight: 11
 url: /ru/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация кода исправления в Java
+
 
 ## Введение
 
@@ -104,3 +110,10 @@ public static void generateWholePage() throws IOException {
 
 ### Где я могу найти документацию по Aspose.BarCode для Java?
  Документация доступна по адресу[Документация Aspose.BarCode для Java](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

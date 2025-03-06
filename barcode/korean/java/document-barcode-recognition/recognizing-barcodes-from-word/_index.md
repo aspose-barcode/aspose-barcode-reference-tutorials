@@ -3,10 +3,16 @@ title: Word 문서에서 간편한 바코드 인식
 linktitle: Word 문서에서 바코드 인식
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 바코드 인식을 Java 애플리케이션에 완벽하게 통합하는 방법을 살펴보세요. 이 튜토리얼을 따라 Word 문서에서 바코드를 인식하세요.
-type: docs
 weight: 12
 url: /ko/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Word 문서에서 간편한 바코드 인식
+
 
 ## 소개
 
@@ -111,3 +117,10 @@ for (Shape shape : shapes) {
 
 ### Q: Java용 Aspose.BarCode에 대한 설명서는 어디에서 찾을 수 있습니까?
  종합 문서를 참조하세요.[여기](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

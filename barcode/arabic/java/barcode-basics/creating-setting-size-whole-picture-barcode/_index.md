@@ -3,10 +3,16 @@ title: إنشاء وتحديد حجم الصورة بأكملها باستخدا
 linktitle: إنشاء وتحديد حجم الصورة بأكملها باستخدام الباركود
 second_title: Aspose.BarCode جافا API
 description: استكشف إنشاء وتعيين حجم الصورة بأكملها في Java باستخدام Aspose.BarCode. قم بتخصيص الحجم والتشفير والمظهر بسهولة.
-type: docs
 weight: 11
 url: /ar/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء وتحديد حجم الصورة بأكملها باستخدام الباركود في Java
+
 ## مقدمة
 
 في مجال تطوير Java، تعد الحاجة إلى دمج الرموز الشريطية الديناميكية في التطبيقات أمرًا بالغ الأهمية. يعد Aspose.BarCode for Java أداة قوية تعمل على تبسيط هذه العملية، مما يوفر تنوعًا وسهولة في الاستخدام. سيرشدك هذا البرنامج التعليمي خلال إنشاء الرموز الشريطية وتخصيصها، مع التركيز على مثال عملي - تحديد حجم الصورة بأكملها باستخدام الرمز الشريطي.
@@ -112,3 +118,9 @@ ImageIO.write(img, "png", outputfile);
 ### س5: هل هناك خيار للترخيص المؤقت؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

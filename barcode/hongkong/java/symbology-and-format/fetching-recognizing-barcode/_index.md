@@ -3,10 +3,16 @@ title: Java 取得並識別條碼
 linktitle: 取得並識別條碼
 second_title: Aspose.BarCode Java API
 description: 輕鬆整合 Aspose.BarCode for Java - 從資料庫取得並識別條碼。立即下載以獲得無縫條碼整合體驗。
-type: docs
 weight: 11
 url: /zh-hant/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 取得並識別條碼
+
 
 ## 介紹
 
@@ -120,3 +126,10 @@ System.out.println(ex.getMessage());
 
 ### 臨時許可證是否可用於測試目的？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

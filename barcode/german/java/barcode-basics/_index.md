@@ -3,10 +3,16 @@ title: Barcode-Grundlagen
 linktitle: Barcode-Grundlagen
 second_title: Aspose.BarCode Java API
 description: Nutzen Sie die Leistungsfähigkeit von Barcodes in Ihren Java-Anwendungen! Tauchen Sie ein in die Aspose.BarCode-Tutorials für nahtlose Integration, Anpassung und Erkennung.
-type: docs
 weight: 20
 url: /de/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Barcode-Grundlagen
+
 
 ## Einführung
 
@@ -38,3 +44,9 @@ Entdecken Sie das Erstellen und Festlegen der Größe eines Gesamtbilds in Java 
 Erstellen eines Bildes mit exakter Barcode-Generierung in Java mit Aspose.BarCode. Erstellen Sie ganz einfach benutzerdefinierte Barcodes. Entdecken Sie die Dokumentation, laden Sie sie herunter und erhalten Sie Support.
 ### [Barcode-Ausrichtungserkennung in Java](./detecting-barcode-orientation/)
 Erweitern Sie Ihre Java-Anwendungen mit Barcode-Erkennung mit Aspose.BarCode für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um die Barcode-Ausrichtung mühelos zu erkennen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

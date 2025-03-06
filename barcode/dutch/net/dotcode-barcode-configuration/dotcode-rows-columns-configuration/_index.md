@@ -3,10 +3,16 @@ title: DotCode-rijen en -kolommen configureren met Aspose.BarCode voor .NET
 linktitle: Configuratie van DotCode-rijen en -kolommen
 second_title: Aspose.BarCode .NET API
 description: Leer DotCode-rijen en -kolommen configureren met Aspose.BarCode voor .NET. Genereer moeiteloos nauwkeurige en aanpasbare 2D-barcodes.
-type: docs
 weight: 15
 url: /nl/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode-rijen en -kolommen configureren met Aspose.BarCode voor .NET
+
 ## Invoering
 
 Welkom in de wereld van het genereren van streepjescodes met Aspose.BarCode voor .NET! In deze uitgebreide handleiding duiken we in de fascinerende wereld van het configureren van DotCode-rijen en -kolommen met Aspose.BarCode. Of u nu een doorgewinterde ontwikkelaar bent of net begint aan uw reis met het genereren van streepjescodes, deze tutorial leidt u door de essentiële stappen, vereisten en naamruimten om u op weg te helpen bij het beheersen van de DotCode-rijen en -kolommen-configuratie.
@@ -112,3 +118,9 @@ A4: Aspose.BarCode ondersteunt een grote verscheidenheid aan barcodetypen, waaro
 ### V5: Waar kan ik meer tutorials en voorbeelden vinden voor Aspose.BarCode voor .NET?
 
  A5: U kunt aanvullende zelfstudies en voorbeelden bekijken in de[Aspose.BarCode-documentatie](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

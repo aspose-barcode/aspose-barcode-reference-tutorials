@@ -3,10 +3,16 @@ title: ข้อมูลบาร์โค้ดเสริม
 linktitle: ข้อมูลบาร์โค้ดเสริม
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีสร้างและปรับแต่งข้อมูลบาร์โค้ดเสริมโดยใช้ Aspose.BarCode สำหรับ .NET พร้อมบทช่วยสอนทีละขั้นตอนของเรา พัฒนาทักษะบาร์โค้ดของคุณวันนี้!
-type: docs
 weight: 27
 url: /th/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ข้อมูลบาร์โค้ดเสริม
+
 
 ## การแนะนำ
 
@@ -37,3 +43,9 @@ url: /th/net/supplemental-barcode-data/
 สร้างข้อมูลบาร์โค้ดเสริมด้วย Aspose.BarCode สำหรับ .NET ปรับแต่งบาร์โค้ด EAN-2 และ EAN-5 ได้อย่างง่ายดาย คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา .NET
 ### [การปรับแต่งพื้นที่บาร์โค้ดเพิ่มเติม](./supplemental-barcode-space-customization/)
 ปรับแต่งบาร์โค้ดได้อย่างง่ายดายด้วย Aspose.BarCode สำหรับ .NET ควบคุม X-Dimension และพื้นที่เสริม ลองทดลองใช้ฟรี!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

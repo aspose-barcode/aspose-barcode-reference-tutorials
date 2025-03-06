@@ -3,10 +3,16 @@ title: Strukturierte DataMatrix-Append-Konfiguration mit Aspose.BarCode für .NE
 linktitle: Strukturierte DataMatrix-Append-Konfiguration
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.BarCode eine strukturierte DataMatrix-Anhängekonfiguration in .NET für eine hocheffiziente Datenorganisation erstellen und lesen.
-type: docs
 weight: 11
 url: /de/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Strukturierte DataMatrix-Append-Konfiguration mit Aspose.BarCode für .NET
+
 Wenn Sie als Entwickler die strukturierte DataMatrix-Append-Konfiguration in Ihren .NET-Anwendungen implementieren möchten, ist Aspose.BarCode für .NET Ihre Lösung der Wahl. In dieser Schritt-für-Schritt-Anleitung erkunden wir die Besonderheiten der Verwendung dieser leistungsstarken Bibliothek zum Generieren und Lesen strukturierter DataMatrix-Barcodes. Wir unterteilen jedes Beispiel in mehrere leicht verständliche Schritte, um sicherzustellen, dass Sie die Konzepte gründlich verstehen. Am Ende dieses Tutorials sind Sie in der Lage, Aspose.BarCode für .NET zu verwenden, um effektiv mit strukturierten DataMatrix-Anhangkonfigurationen zu arbeiten.
 
 ## Voraussetzungen
@@ -100,3 +106,9 @@ A1: Das strukturierte Anhängen von DataMatrix ist eine Funktion, mit der Sie ei
 ### F5: Unterstützt Aspose.BarCode für .NET andere Barcode-Typen?
 
  A5: Ja, Aspose.BarCode für .NET unterstützt eine Vielzahl von Barcode-Typen, darunter QR-Codes, Code 128, EAN-13 und viele mehr. Sie können die vollständige Dokumentation durchsuchen[Hier](https://reference.aspose.com/barcode/net/) um die vollständige Liste der unterstützten Barcode-Typen anzuzeigen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

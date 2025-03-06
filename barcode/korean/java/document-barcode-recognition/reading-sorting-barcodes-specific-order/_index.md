@@ -3,10 +3,16 @@ title: Java에서 특정 순서로 바코드 읽기 및 정렬
 linktitle: 특정 순서로 바코드 읽기 및 정렬
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode로 Java 애플리케이션을 강화하세요! 바코드를 효율적으로 읽고 정렬하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 특정 순서로 바코드 읽기 및 정렬
+
 
 ## 소개
 
@@ -123,3 +129,10 @@ for (FoundBarCodes barcode : found) {
 
 ### Q: 어디서 지원을 받거나 질문을 할 수 있나요?
  지원 포럼 방문[여기](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

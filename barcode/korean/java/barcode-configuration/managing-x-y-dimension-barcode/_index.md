@@ -3,10 +3,16 @@ title: Java에서 바코드의 X 및 Y 치수 관리
 linktitle: 바코드의 X, Y 치수 관리
 second_title: Aspose.BarCode 자바 API
 description: Java용 Aspose.BarCode의 강력한 기능을 살펴보세요! 단계별 가이드를 통해 X 및 Y 치수를 손쉽게 관리하는 방법을 알아보세요. 정확성과 시각적 매력을 향상시킵니다.
-type: docs
 weight: 13
 url: /ko/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드의 X 및 Y 치수 관리
+
 
 ## 소개
 
@@ -90,3 +96,10 @@ Aspose.BarCode for Java를 사용하여 바코드 생성 시 X 및 Y 치수를 �
 
 ### Java용 Aspose.BarCode에 대한 임시 라이센스를 얻을 수 있습니까?
 네, 임시면허증을 받으실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

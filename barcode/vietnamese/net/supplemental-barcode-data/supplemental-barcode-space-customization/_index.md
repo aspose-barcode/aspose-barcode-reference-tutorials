@@ -3,10 +3,16 @@ title: Tăng cường tùy chỉnh mã vạch bổ sung với Aspose.BarCode
 linktitle: Tùy chỉnh không gian mã vạch bổ sung
 second_title: API Aspose.BarCode .NET
 description: Tùy chỉnh mã vạch dễ dàng với Aspose.BarCode for .NET. Kiểm soát kích thước X và không gian bổ sung. Hãy thử dùng thử miễn phí!
-type: docs
 weight: 11
 url: /vi/net/supplemental-barcode-data/supplemental-barcode-space-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tăng cường tùy chỉnh mã vạch bổ sung với Aspose.BarCode
+
 
 Trong bối cảnh công nghệ mã vạch không ngừng phát triển, khả năng tùy chỉnh là chìa khóa thành công. Là một người viết nội dung thành thạo và có chuyên môn về viết SEO, tôi ở đây để hướng dẫn bạn khai thác sức mạnh của Aspose.BarCode cho .NET. Hướng dẫn từng bước này sẽ giúp bạn đạt được mức độ tùy chỉnh mà bạn mong muốn cho mã vạch của mình, đảm bảo rằng chúng đáp ứng các thông số kỹ thuật chính xác của bạn.
 
@@ -103,3 +109,9 @@ Aspose.BarCode for .NET hỗ trợ nhiều định dạng mã vạch, bao gồm 
 
 ### Tôi có thể sử dụng Aspose.BarCode cho .NET trong các dự án thương mại của mình không?
 Có, Aspose.BarCode for .NET phù hợp cho cả mục đích sử dụng cá nhân và thương mại. Bạn có thể mua giấy phép để sử dụng nó trong các dự án của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

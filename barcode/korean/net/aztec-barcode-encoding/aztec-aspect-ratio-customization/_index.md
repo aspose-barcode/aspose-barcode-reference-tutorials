@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 Aztec 바코드 종횡비 사용�
 linktitle: 아즈텍 종횡비 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 Aztec 바코드 종횡비를 사용자 정의하는 방법을 알아보세요. .NET 애플리케이션을 위한 고유하고 유연한 바코드를 만드십시오.
-type: docs
 weight: 10
 url: /ko/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 Aztec 바코드 종횡비 사용자 정의
+
 이 튜토리얼에서는 .NET용 Aspose.BarCode를 사용하여 Aztec 바코드의 종횡비를 사용자 정의하는 방법을 살펴보겠습니다. Aztec 바코드는 데이터 인코딩에 일반적으로 사용되는 2차원 바코드이며 Aspose.BarCode를 사용하면 특정 요구 사항에 맞게 이러한 바코드를 쉽게 생성하고 사용자 정의할 수 있습니다.
 
 ## 전제 조건
@@ -108,3 +114,9 @@ A4: 이 튜토리얼에서 제공하는 데스크톱 애플리케이션 예제�
 ### Q5: .NET용 Aspose.BarCode의 임시 라이선스는 어디서 구할 수 있나요?
 
 A5: 테스트 또는 평가 목적으로 임시 라이선스가 필요한 경우 다음에서 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

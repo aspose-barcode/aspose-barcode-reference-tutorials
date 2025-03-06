@@ -3,10 +3,16 @@ title: Rendering Barcode to Servlet in Java
 linktitle: Rendering Barcode to Servlet
 second_title: Aspose.BarCode Java API
 description: Effortlessly generate and render barcodes in Java Servlets with Aspose.BarCode. Customize types, integrate easily. Explore the possibilities!
-type: docs
 weight: 13
 url: /java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendering Barcode to Servlet in Java
+
 
 ## Introduction
 
@@ -102,3 +108,10 @@ Certainly! You can access a free trial version [here](https://releases.aspose.co
 
 ### How do I obtain a temporary license for Aspose.BarCode?
 To obtain a temporary license, visit [this link](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

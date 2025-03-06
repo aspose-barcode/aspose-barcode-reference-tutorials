@@ -3,10 +3,16 @@ title: Java에서 패치 코드 생성
 linktitle: 패치 코드 생성
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 패치 코드를 손쉽게 생성하세요. 효율적인 바코드 생성을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 패치 코드 생성
+
 
 ## 소개
 
@@ -104,3 +110,10 @@ public static void generateWholePage() throws IOException {
 
 ### Java용 Aspose.BarCode에 대한 설명서는 어디에서 찾을 수 있나요?
  문서는 다음에서 구할 수 있습니다.[Java 문서용 Aspose.BarCode](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

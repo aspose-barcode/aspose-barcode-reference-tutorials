@@ -3,10 +3,16 @@ title: 1차원 광폭-협폭 구성
 linktitle: 1차원 광폭-협폭 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 맞춤형 바코드를 쉽게 생성하세요. 1차원 광폭-협폭 비율 구성을 위한 단계별 가이드입니다.
-type: docs
 weight: 22
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 광폭-협폭 구성
+
 
 .NET 애플리케이션에서 손쉽게 바코드를 생성하고 사용자 정의하고 싶으십니까? 더 이상 보지 마세요! Aspose.BarCode for .NET은 바코드 생성 및 사용자 정의를 쉽게 만들어주는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.BarCode for .NET의 기능을 활용하여 넓고 좁은 비율 구성의 바코드를 만드는 방법을 살펴보겠습니다.
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET은 .NET 애플리케이션에서 바코드 생성 및 �
 
 ### 5. Aspose.BarCode for .NET에 대한 지원을 받거나 질문하려면 어떻게 해야 합니까?
  당신은 방문 할 수 있습니다[Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13) 지원과 토론을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

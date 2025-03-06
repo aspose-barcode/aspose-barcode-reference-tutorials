@@ -3,10 +3,16 @@ title: Passen Sie die Seitenverhältnisse von Code-16K-Barcodes mit Aspose.BarCo
 linktitle: Code 16K-Anpassung des Seitenverhältnisses
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie die Seitenverhältnisse von Code 16K-Barcodes mit Aspose.BarCode für .NET anpassen. Erstellen Sie präzise Barcodes für Ihre Anwendungen.
-type: docs
 weight: 10
 url: /de/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie die Seitenverhältnisse von Code-16K-Barcodes mit Aspose.BarCode für .NET an
+
 In der Welt der Barcode-Generierung sind Präzision und individuelle Anpassung von entscheidender Bedeutung. Aspose.BarCode für .NET bietet Entwicklern ein leistungsstarkes Toolset zum Erstellen und Bearbeiten von Barcodes, einschließlich der Möglichkeit, das Seitenverhältnis von Code 16K-Barcodes anzupassen. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.BarCode für .NET Code 16K-Barcodes mit unterschiedlichen Seitenverhältnissen generieren. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, wir unterteilen den Prozess in einfache, leicht verständliche Schritte.
 
 ## Voraussetzungen
@@ -97,3 +103,10 @@ A3: Absolut. Aspose.BarCode für .NET ist vielseitig und kann sowohl in Web- als
 ### F5: Gibt es eine kostenlose Testversion für Aspose.BarCode für .NET?
 
  A5: Ja, Sie können Aspose.BarCode für .NET ausprobieren, indem Sie die kostenlose Testversion von herunterladen[Hier](https://releases.aspose.com/). Auf diese Weise können Sie die Merkmale und Funktionen erkunden, bevor Sie einen Kauf tätigen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

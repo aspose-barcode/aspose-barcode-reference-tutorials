@@ -3,10 +3,16 @@ title: Melengkapi Data di Java
 linktitle: Melengkapi Data
 second_title: Aspose.BarCode Java API
 description: Pelajari cara membuat barcode dinamis di Java menggunakan Aspose.BarCode. Panduan langkah demi langkah untuk melengkapi data dengan simbologi EAN_13.
-type: docs
 weight: 16
 url: /id/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Melengkapi Data di Java
+
 
 ## Perkenalan
 
@@ -96,3 +102,10 @@ Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

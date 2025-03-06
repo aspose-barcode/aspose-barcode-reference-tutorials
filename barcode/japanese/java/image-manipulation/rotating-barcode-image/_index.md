@@ -3,10 +3,16 @@ title: Java でのバーコード画像の回転
 linktitle: 回転バーコード画像
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java でバーコード画像を簡単に回転する方法を学びます。 Java 開発者向けの包括的なステップバイステップ ガイド。
-type: docs
 weight: 15
 url: /ja/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのバーコード画像の回転
+
 
 ## 導入
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### Q: さまざまなエンコーディング タイプのバーコードを生成できますか?
 もちろん、要件に基づいてステップ 2 で EncodeTypes を調整するだけです。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

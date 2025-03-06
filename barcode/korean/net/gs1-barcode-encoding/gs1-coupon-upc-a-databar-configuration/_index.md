@@ -3,10 +3,16 @@ title: GS1 쿠폰 UPC-A 데이터바 구성
 linktitle: GS1 쿠폰 UPC-A 데이터바 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 GS1 쿠폰 UPC-A 데이터바 구성을 알아보세요. 바코드를 쉽게 생성하세요. 지금 시작하세요!
-type: docs
 weight: 13
 url: /ko/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 쿠폰 UPC-A 데이터바 구성
+
 
 ## 소개
 
@@ -86,3 +92,10 @@ GS1 Coupon UPC-A Databar는 쿠폰 및 프로모션의 데이터를 인코딩하
 ### .NET용 Aspose.BarCode에 대한 지원은 어디서 받을 수 있나요?
  기술 지원이나 문의사항이 있는 경우[.NET 지원 포럼용 Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

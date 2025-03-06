@@ -3,10 +3,16 @@ title: การกำหนดค่ารหัสแพทช์
 linktitle: การกำหนดค่ารหัสแพทช์
 second_title: Aspose.BarCode .NET API
 description: สร้างบาร์โค้ด Patch Code ได้อย่างง่ายดายด้วย Aspose.BarCode สำหรับ .NET เรียนรู้วิธีกำหนดค่าและปรับแต่งรูปแบบรหัสแพทช์ด้วยบทช่วยสอน Aspose.BarCode
-type: docs
 weight: 26
 url: /th/net/patch-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่ารหัสแพทช์
+
 
 ในด้านการจัดการเอกสาร บาร์โค้ด Patch Code มีบทบาทสำคัญในการเพิ่มประสิทธิภาพกระบวนการและรับรองความถูกต้องของข้อมูล ด้วย Aspose.BarCode สำหรับ .NET คุณสามารถเชี่ยวชาญศิลปะในการกำหนดค่าและปรับแต่งบาร์โค้ดเหล่านี้ได้อย่างง่ายดาย ในบทช่วยสอนที่ครอบคลุมนี้ เราจะแนะนำคุณผ่านแง่มุมที่สำคัญของการกำหนดค่า Patch Code การตั้งค่า และการปรับแต่ง
 
@@ -40,3 +46,9 @@ url: /th/net/patch-code-configuration/
 สร้างบาร์โค้ด Patch Code ได้อย่างง่ายดายด้วย Aspose.BarCode สำหรับ .NET เรียนรู้ขั้นตอนในการสร้างบาร์โค้ดรหัสแพทช์และปรับปรุงระบบการจัดการเอกสารของคุณ ดาวน์โหลดห้องสมุดทันที!
 ### [การปรับแต่งชุดรหัสแพทช์](./patch-code-set-customization/)
 เรียนรู้วิธีสร้างบาร์โค้ดใน .NET โดยใช้ Aspose.BarCode ปรับแต่งและรวมบาร์โค้ดเข้ากับแอปพลิเคชันของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Génération de codes-barres d'erreur aztèques avec Aspose.BarCode pour 
 linktitle: Exemple de niveau d'erreur aztèque
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment générer des codes-barres d'erreur aztèques avec différents niveaux d'erreur à l'aide d'Aspose.BarCode pour .NET. Guide complet pour la création de codes-barres.
-type: docs
 weight: 13
 url: /fr/net/aztec-barcode-encoding/aztec-error-level-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Génération de codes-barres d'erreur aztèques avec Aspose.BarCode pour .NET
+
 Dans ce didacticiel étape par étape, nous plongerons dans le monde de la génération de codes-barres à l'aide d'Aspose.BarCode pour .NET. Aspose.BarCode est une bibliothèque puissante qui vous permet de créer et de reconnaître des codes-barres 1D et 2D. Cet article vous guidera tout au long du processus de génération de codes-barres d'erreur aztèques avec différents niveaux de correction d'erreur. Nous décomposerons chaque exemple en plusieurs étapes pour garantir une compréhension claire et complète.
 
 ## Conditions préalables
@@ -102,3 +108,9 @@ A3 : Oui, Aspose.BarCode for .NET prend en charge un large éventail de formats 
 ### Q5 : Où puis-je trouver la documentation d'Aspose.BarCode pour .NET ?
 
  A5 : Vous pouvez accéder à la documentation complète d'Aspose.BarCode pour .NET[ici](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Encodage de codes-barres aztèques
 linktitle: Encodage de codes-barres aztèques
 second_title: API Aspose.BarCode .NET
 description: Libérez le potentiel du codage de codes-barres aztèques avec Aspose.BarCode pour .NET. Personnalisez les proportions, créez des codes aztèques codés en texte et maîtrisez les modes de symboles.
-type: docs
 weight: 28
 url: /fr/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage de codes-barres aztèques
+
 
 ## Introduction
 
@@ -44,3 +50,9 @@ Découvrez la puissance de l'encodage de texte en code aztèque avec Aspose.BarC
 Découvrez comment générer des codes-barres d'erreur aztèques avec différents niveaux d'erreur à l'aide d'Aspose.BarCode pour .NET. Guide complet pour la création de codes-barres.
 ### [Maîtriser le mode symbole aztèque](./aztec-symbol-mode-example/)
 Explorez le mode symbole aztèque dans Aspose.BarCode pour .NET et apprenez à générer facilement des codes-barres polyvalents. Découvrez les modes Auto, FullRange, Compact et Rune dans ce didacticiel complet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

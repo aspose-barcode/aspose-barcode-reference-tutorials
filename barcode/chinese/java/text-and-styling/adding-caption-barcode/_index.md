@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中向条形码添加标题
 linktitle: 为条形码添加标题
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中增强条形码视觉效果。轻松添加字幕以改善用户体验。
-type: docs
 weight: 10
 url: /zh/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中向条形码添加标题
+
 
 ## 介绍
 
@@ -102,3 +108,9 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 ### 如果我遇到问题或有疑问，可以在哪里寻求帮助？
  Aspose.BarCode 社区论坛[这里](https://forum.aspose.com/c/barcode/13)是支持和讨论的绝佳资源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

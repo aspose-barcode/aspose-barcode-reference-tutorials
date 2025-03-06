@@ -3,10 +3,16 @@ title: Känner igen Unicode-streckkoder i Java
 linktitle: Känner igen Unicode-streckkoder
 second_title: Aspose.BarCode Java API
 description: Utforska världen av Unicode-streckkodsigenkänning i Java med Aspose.BarCode. Följ vår steg-för-steg-guide för att sömlöst integrera olika teckenuppsättningar i dina applikationer.
-type: docs
 weight: 13
 url: /sv/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Känner igen Unicode-streckkoder i Java
+
 
 ## Introduktion
 
@@ -127,3 +133,9 @@ Ja, en giltig licens krävs för Aspose.BarCode. Du kan få en[här](https://pur
 
 ### Behöver du support eller har frågor?
  Besök[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Réglage de la hauteur du code-barres de la barre de données unidimensio
 linktitle: Réglage de la hauteur du code-barres de la barre de données unidimensionnelle
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment ajuster la hauteur du code-barres de la barre de données unidimensionnelle avec Aspose.BarCode pour .NET. Créez des codes-barres personnalisés en quelques étapes simples. Découvrez la puissance de la personnalisation des codes-barres.
-type: docs
 weight: 17
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-databar-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Réglage de la hauteur du code-barres de la barre de données unidimensionnelle
+
 
 Dans le domaine de la génération et de la manipulation de codes-barres, la précision et le contrôle des éléments des codes-barres sont cruciaux. Aspose.BarCode for .NET donne aux développeurs la possibilité d'affiner les propriétés des codes-barres, telles que l'ajustement de la hauteur. Dans ce guide étape par étape, nous explorerons comment ajuster la hauteur d'un code-barres de barre de données unidimensionnelle à l'aide d'Aspose.BarCode pour .NET. Ce didacticiel détaillera chaque étape, garantissant que vous pourrez facilement suivre, même si vous débutez dans la génération de codes-barres. Allons-y !
 
@@ -93,3 +99,10 @@ Oui, Aspose.BarCode for .NET est conçu pour l'automatisation dans les applicati
 
 ### Existe-t-il une version d'essai disponible pour Aspose.BarCode pour .NET ?
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.BarCode pour .NET[ici](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

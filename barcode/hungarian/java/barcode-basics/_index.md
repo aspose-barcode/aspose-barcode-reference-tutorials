@@ -3,10 +3,16 @@ title: Vonalkód alapjai
 linktitle: Vonalkód alapjai
 second_title: Aspose.BarCode Java API
 description: Fedezze fel a vonalkódok erejét Java-alkalmazásaiban! Merüljön el az Aspose.BarCode oktatóanyagokban a zökkenőmentes integráció, testreszabás és felismerés érdekében.
-type: docs
 weight: 20
 url: /hu/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vonalkód alapjai
+
 
 ## Bevezetés
 
@@ -38,3 +44,9 @@ Fedezze fel a teljes kép létrehozásának és méretének beállítását Java
 Kép létrehozása pontos vonalkód generálással Java nyelven az Aspose.BarCode segítségével. Egyszerűen hozhat létre egyedi vonalkódokat. Fedezze fel a dokumentációt, töltse le és kérjen támogatást.
 ### [Vonalkód orientáció észlelése Java nyelven](./detecting-barcode-orientation/)
 Javítsa Java-alkalmazásait vonalkód-felismeréssel az Aspose.BarCode for Java segítségével. Kövesse lépésenkénti útmutatónkat a vonalkód tájolásának könnyű észleléséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

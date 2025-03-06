@@ -3,10 +3,16 @@ title: Konfigurasikan Baris & Kolom Codablock F di Aspose.BarCode untuk .NET
 linktitle: Konfigurasi Baris dan Kolom Codablock F
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara mengonfigurasi baris dan kolom Codablock F di Aspose.BarCode untuk .NET. Buat kode batang 2D khusus untuk berbagai aplikasi.
-type: docs
 weight: 11
 url: /id/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasikan Baris & Kolom Codablock F di Aspose.BarCode untuk .NET
+
 Dalam panduan langkah demi langkah ini, kita akan mempelajari cara mengonfigurasi pengaturan baris dan kolom Codablock F menggunakan Aspose.BarCode untuk .NET. Codablock F adalah simbologi barcode 2D yang digunakan untuk berbagai aplikasi, termasuk label pengiriman dan kemasan. Kami akan membagi setiap contoh menjadi beberapa langkah untuk memastikan pemahaman proses yang jelas dan komprehensif.
 
 ## Prasyarat
@@ -100,3 +106,9 @@ A3: Ya, Aspose.BarCode untuk .NET kompatibel dengan berbagai kerangka kerja .NET
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.BarCode untuk .NET?
 
  A5: Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum Aspose.BarCode untuk .NET[Di Sini](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

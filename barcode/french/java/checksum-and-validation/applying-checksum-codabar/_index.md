@@ -3,10 +3,16 @@ title: Application de la somme de contrôle pour CodaBar en Java
 linktitle: Application de la somme de contrôle pour CodaBar
 second_title: API Java Aspose.BarCode
 description: Découvrez comment appliquer la somme de contrôle pour CodaBar en Java à l'aide d'Aspose.BarCode. Générez et reconnaissez des codes-barres sans effort avec ce guide étape par étape.
-type: docs
 weight: 11
 url: /fr/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Application de la somme de contrôle pour CodaBar en Java
+
 
 ## Introduction
 
@@ -107,3 +113,9 @@ Oui, Aspose.BarCode propose des options de personnalisation étendues, vous perm
 
 ### Existe-t-il un essai gratuit disponible ?
  Oui, vous pouvez explorer les fonctionnalités d'Aspose.BarCode en téléchargeant l'essai gratuit depuis[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

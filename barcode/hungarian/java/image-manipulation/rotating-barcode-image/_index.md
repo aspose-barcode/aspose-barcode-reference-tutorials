@@ -3,10 +3,16 @@ title: Forgó vonalkód kép Java nyelven
 linktitle: Forgó vonalkód kép
 second_title: Aspose.BarCode Java API
 description: Tanulja meg, hogyan lehet könnyedén forgatni vonalkódképeket Java nyelven az Aspose.BarCode segítségével. Átfogó, lépésről lépésre útmutató Java fejlesztők számára.
-type: docs
 weight: 15
 url: /hu/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Forgó vonalkód kép Java nyelven
+
 
 ## Bevezetés
 
@@ -85,3 +91,10 @@ Igen, az elforgatási szöget a 3. lépésben tetszőleges értékre állíthatj
 
 ### K: Létrehozhatok vonalkódokat különböző kódolási típusokhoz?
 Mindenképpen állítsa be az EncodeTypes-t a 2. lépésben az Ön igényei szerint.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

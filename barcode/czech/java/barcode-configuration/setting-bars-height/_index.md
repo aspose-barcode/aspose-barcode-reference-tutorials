@@ -3,10 +3,16 @@ title: Nastavení výšky pruhů v Javě
 linktitle: Nastavení výšky tyčí
 second_title: Aspose.BarCode Java API
 description: Vytvářejte a přizpůsobujte čárové kódy bez námahy v Javě pomocí Aspose.BarCode. Nastavte výšku pruhu, vyberte typy a rozšiřte možnosti své aplikace.
-type: docs
 weight: 14
 url: /cs/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení výšky pruhů v Javě
+
 
 ## Úvod
 
@@ -78,3 +84,10 @@ Rozhodně! Aspose.BarCode podporuje kódování číselných i alfanumerických 
 ### Kde najdu podporu pro Aspose.BarCode pro Javu?
  Navštivte fórum Aspose.BarCode[tady](https://forum.aspose.com/c/barcode/13) za podporu komunity a diskuze.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

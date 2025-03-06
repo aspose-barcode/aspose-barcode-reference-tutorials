@@ -3,10 +3,16 @@ title: Generazione del codice a barre Australia Post in Java
 linktitle: Generazione del codice a barre Australia Post
 second_title: API Java Aspose.BarCode
 description: Genera codici a barre Australia Post senza sforzo in Java utilizzando Aspose.BarCode. Segui il nostro tutorial passo passo per un'integrazione perfetta.
-type: docs
 weight: 12
 url: /it/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generazione del codice a barre Australia Post in Java
+
 
 ## introduzione
 
@@ -88,3 +94,9 @@ Assolutamente! Aspose.BarCode offre ampie opzioni di personalizzazione per l'asp
 
 ### Come posso ottenere una licenza temporanea per Aspose.BarCode?
  È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

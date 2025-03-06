@@ -3,10 +3,16 @@ title: Ek Barkod Verileri
 linktitle: Ek Barkod Verileri
 second_title: Aspose.BarCode .NET API'si
 description: Adım adım eğitimlerimizle Aspose.BarCode for .NET kullanarak ek barkod verilerinin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Bugün barkod becerilerinizi geliştirin!
-type: docs
 weight: 27
 url: /tr/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ek Barkod Verileri
+
 
 ## giriiş
 
@@ -37,3 +43,9 @@ Bu makalede, hem yapılandırma hem de alan özelleştirme açısından ek barko
 Aspose.BarCode for .NET ile ek barkod verileri oluşturun. EAN-2 ve EAN-5 barkodlarını zahmetsizce özelleştirin. .NET geliştiricileri için adım adım kılavuz.
 ### [Ek Barkod Alanı Özelleştirmesi](./supplemental-barcode-space-customization/)
 Aspose.BarCode for .NET ile barkodları kolayca özelleştirin. X-Dimension'ı ve ek alanı kontrol edin. Ücretsiz denemeyi deneyin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

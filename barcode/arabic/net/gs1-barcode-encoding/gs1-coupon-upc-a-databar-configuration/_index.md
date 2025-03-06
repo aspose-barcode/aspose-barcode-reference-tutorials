@@ -3,10 +3,16 @@ title: قسيمة GS1 تكوين شريط البيانات UPC-A
 linktitle: قسيمة GS1 تكوين شريط البيانات UPC-A
 second_title: Aspose.BarCode .NET API
 description: تعرف على تكوين شريط بيانات GS1 Coupon UPC-A باستخدام Aspose.BarCode لـ .NET. إنشاء الباركود بسهولة. نبدأ الآن!
-type: docs
 weight: 13
 url: /ar/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قسيمة GS1 تكوين شريط البيانات UPC-A
+
 
 ## مقدمة
 
@@ -86,3 +92,10 @@ GS1 Coupon UPC-A Databar هو معيار للرمز الشريطي يستخدم 
 ### أين يمكنني الحصول على الدعم لـ Aspose.BarCode لـ .NET؟
  للحصول على أي مساعدة فنية أو استفسارات، يمكنك زيارة[Aspose.BarCode لمنتدى دعم .NET](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

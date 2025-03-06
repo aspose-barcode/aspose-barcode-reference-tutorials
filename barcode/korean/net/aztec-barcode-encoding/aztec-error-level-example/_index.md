@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 아즈텍 오류 바코드 생성
 linktitle: 아즈텍 오류 수준 예
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 다양한 오류 수준으로 Aztec 오류 바코드를 생성하는 방법을 알아보세요. 바코드 생성을 위한 종합 가이드입니다.
-type: docs
 weight: 13
 url: /ko/net/aztec-barcode-encoding/aztec-error-level-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 아즈텍 오류 바코드 생성
+
 이 단계별 튜토리얼에서는 .NET용 Aspose.BarCode를 사용하여 바코드 생성의 세계를 탐구합니다. Aspose.BarCode는 1D 및 2D 바코드를 모두 생성하고 인식할 수 있는 강력한 라이브러리입니다. 이 문서에서는 다양한 오류 수정 수준으로 Aztec 오류 바코드를 생성하는 과정을 안내합니다. 명확하고 포괄적인 이해를 보장하기 위해 각 예를 여러 단계로 나누어 보겠습니다.
 
 ## 전제 조건
@@ -102,3 +108,9 @@ A3: 예, .NET용 Aspose.BarCode는 QR 코드, DataMatrix 등을 포함한 광범
 ### Q5: .NET용 Aspose.BarCode에 대한 설명서는 어디에서 찾을 수 있습니까?
 
  A5: .NET용 Aspose.BarCode에 대한 포괄적인 문서에 액세스할 수 있습니다.[여기](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

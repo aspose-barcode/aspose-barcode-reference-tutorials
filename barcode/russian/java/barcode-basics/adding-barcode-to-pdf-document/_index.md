@@ -3,10 +3,16 @@ title: Добавление штрих-кода в PDF-документ на Jav
 linktitle: Добавление штрих-кода в PDF-документ
 second_title: API Aspose.BarCode Java
 description: Улучшите свои Java-приложения с помощью Aspose.BarCode. Пошаговое руководство по добавлению штрих-кодов в PDF-документы.
-type: docs
 weight: 10
 url: /ru/java/barcode-basics/adding-barcode-to-pdf-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление штрих-кода в PDF-документ на Java с помощью Aspose.BarCode
+
 ## Введение
 
 В постоянно меняющемся мире разработки Java включение штрих-кодов в PDF-документы стало решающим аспектом управления и идентификации данных. Aspose.BarCode for Java выделяется как мощный инструмент для плавной интеграции генерации штрих-кода в ваши Java-приложения. В этом уроке мы покажем вам процесс добавления штрих-кода в PDF-документ с помощью Aspose.BarCode для Java.
@@ -97,3 +103,9 @@ mender.close();
 ### Вопрос 5: Могу ли я бесплатно попробовать Aspose.BarCode для Java перед покупкой?
 
  О5: Да, вы можете загрузить бесплатную пробную версию Aspose.BarCode для Java с сайта[страница выпуска](https://releases.aspose.com/) изучить его особенности и возможности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Создание одномерного кода 93 штрих-кода
 linktitle: Одномерная конфигурация кода 93
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как создавать штрих-коды Code 93 с помощью Aspose.BarCode для .NET. Пошаговое руководство по созданию штрих-кода.
-type: docs
 weight: 12
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание одномерного кода 93 штрих-кода
+
 
 ## Введение
 
@@ -102,3 +108,10 @@ catch (Exception e)
 
 ### Вопрос: Где я могу получить поддержку или задать вопросы об Aspose.BarCode для .NET?
  О: Вы можете найти форум сообщества для поддержки и обсуждений по адресу[Поддержка Aspose.BarCode для .NET](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

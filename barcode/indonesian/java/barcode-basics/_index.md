@@ -3,10 +3,16 @@ title: Dasar-dasar Kode Batang
 linktitle: Dasar-dasar Kode Batang
 second_title: Aspose.BarCode Java API
 description: Buka kekuatan barcode di aplikasi Java Anda! Pelajari tutorial Aspose.BarCode untuk integrasi, penyesuaian, dan pengenalan yang lancar.
-type: docs
 weight: 20
 url: /id/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dasar-dasar Kode Batang
+
 
 ## Perkenalan
 
@@ -38,3 +44,9 @@ Jelajahi pembuatan dan pengaturan ukuran untuk keseluruhan gambar di Java dengan
 Membuat Gambar dengan pembuatan barcode yang tepat di Java dengan Aspose.BarCode. Buat kode batang khusus dengan mudah. Jelajahi dokumentasi, unduh, dan dapatkan dukungan.
 ### [Deteksi Orientasi Barcode di Java](./detecting-barcode-orientation/)
 Sempurnakan aplikasi Java Anda dengan pengenalan kode batang menggunakan Aspose.BarCode untuk Java. Ikuti panduan langkah demi langkah kami untuk mendeteksi orientasi kode batang dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

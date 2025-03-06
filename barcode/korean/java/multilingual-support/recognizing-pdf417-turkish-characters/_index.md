@@ -3,10 +3,16 @@ title: Java에서 터키어 문자로 PDF417 바코드 인식
 linktitle: 터키어 문자로 PDF417 바코드 인식
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 터키어 문자가 포함된 PDF417 바코드를 인식하는 방법을 알아보세요. 간편한 통합과 강력한 디코딩 기능.
-type: docs
 weight: 11
 url: /ko/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 터키어 문자로 PDF417 바코드 인식
+
 
 ## 소개
 
@@ -79,3 +85,10 @@ Java용 Aspose.BarCode를 사용하면 터키어 문자가 포함된 PDF417 바�
 
 ### 개발 중에 임시 라이선스를 사용할 수 있나요?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

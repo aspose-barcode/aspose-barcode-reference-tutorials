@@ -3,10 +3,16 @@ title: Codabar 인코딩 및 체크섬
 linktitle: Codabar 인코딩 및 체크섬
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode를 사용하여 .NET에서 Codabar 바코드를 최적화하세요! 정확한 데이터를 위한 마스터 체크섬 계산. 튜토리얼을 통해 시작/중지 문자를 사용하여 손쉽게 만들어 보세요.
-type: docs
 weight: 20
 url: /ko/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codabar 인코딩 및 체크섬
+
 ## 소개
 
 .NET에서 Codabar 인코딩 및 체크섬 계산의 비밀을 밝히려는 개발자이신가요? 더 이상 보지 마세요! 이 기사에서는 Codabar 체크섬 계산 및 .NET용 Aspose.BarCode에서 시작/중지 문자 사용에 대한 포괄적인 튜토리얼을 제공하여 Codabar의 복잡한 부분을 자세히 설명합니다.
@@ -34,3 +40,9 @@ url: /ko/net/codabar-encoding-and-checksum/
 Aspose.BarCode를 사용하여 .NET에서 Codabar 체크섬을 계산하는 방법을 알아보세요. Codabar 바코드의 데이터 정확성을 향상시킵니다. 단계별 안내를 받으세요.
 ### [Codabar 시작/중지 문자](./codabar-start-stop-characters/)
 .NET용 Aspose.BarCode를 사용하여 시작 및 중지 문자가 있는 Codabar 바코드를 만드는 방법을 알아보세요. 개발자를 위한 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java 中旋轉條碼圖像
 linktitle: 旋轉條碼影像
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中輕鬆旋轉條碼影像。面向 Java 開發人員的全面逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中旋轉條碼圖像
+
 
 ## 介紹
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### Q：我可以產生不同編碼類型的條碼嗎？
 當然，只需根據您的要求調整步驟 2 中的 EncodeTypes 即可。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

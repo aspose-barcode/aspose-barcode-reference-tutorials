@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用した DotCode の行と列の構成
 linktitle: DotCode の行と列の構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して DotCode の行と列を構成する方法を学びます。正確でカスタマイズ可能な 2D バーコードを簡単に生成します。
-type: docs
 weight: 15
 url: /ja/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用した DotCode の行と列の構成
+
 ## 導入
 
 Aspose.BarCode for .NET を使用したバーコード生成の世界へようこそ!この包括的なガイドでは、Aspose.BarCode を使用して DotCode の行と列を構成するという興味深い領域について詳しく説明します。経験豊富な開発者であっても、バーコード生成を始めたばかりであっても、このチュートリアルでは、DotCode の行と列の構成をマスターするための重要な手順、前提条件、名前空間について説明します。
@@ -112,3 +118,9 @@ A4: Aspose.BarCode は、QR コード、Code 128、DataMatrix など、さまざ
 ### Q5: Aspose.BarCode for .NET のその他のチュートリアルと例はどこで見つけられますか?
 
  A5: 追加のチュートリアルと例については、[Aspose.BarCode ドキュメント](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

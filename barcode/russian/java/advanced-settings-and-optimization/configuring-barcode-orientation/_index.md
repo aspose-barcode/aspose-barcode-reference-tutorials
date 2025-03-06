@@ -3,10 +3,16 @@ title: Настройка ориентации штрих-кода с помощ
 linktitle: Настройка ориентации штрих-кода
 second_title: API Aspose.BarCode Java
 description: Изучите возможности Aspose.BarCode для Java в настройке ориентации штрих-кода. Полное руководство по плавной интеграции и распознаванию ваших Java-приложений.
-type: docs
 weight: 16
 url: /ru/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка ориентации штрих-кода с помощью Aspose.BarCode для Java
+
 ## Введение
 
 В постоянно развивающемся мире цифровых технологий штрих-коды стали повсеместной частью нашей повседневной жизни, обеспечивая бесперебойные транзакции и эффективное управление данными. Aspose.BarCode для Java представляет собой мощный инструмент для создания и распознавания штрих-кодов в приложениях Java. В этом руководстве будет рассмотрен конкретный аспект настройки штрих-кода — ориентация штрих-кодов в Java.
@@ -94,3 +100,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 ### Вопрос 5: Где я могу обратиться за поддержкой или пообщаться с сообществом Aspose.BarCode?
 
  A5:[Форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13) является ценным ресурсом для поиска поддержки и взаимодействия с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

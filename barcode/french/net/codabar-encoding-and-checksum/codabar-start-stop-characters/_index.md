@@ -3,10 +3,16 @@ title: Générer des codes-barres Codabar avec des caractères de démarrage/arr
 linktitle: Caractères de démarrage/arrêt de Codabar
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment créer des codes-barres Codabar avec des caractères de début et de fin à l'aide d'Aspose.BarCode pour .NET. Un guide étape par étape pour les développeurs.
-type: docs
 weight: 11
 url: /fr/net/codabar-encoding-and-checksum/codabar-start-stop-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer des codes-barres Codabar avec des caractères de démarrage/arrêt dans Aspose.BarCode pour .NET
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur l'utilisation d'Aspose.BarCode pour .NET. Dans ce didacticiel, nous plongerons dans le monde des caractères de démarrage/arrêt de Codabar, en explorant leur signification et comment les implémenter efficacement à l'aide d'Aspose.BarCode pour .NET. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours de codage, ce guide étape par étape vous aidera à maîtriser l'art de générer des codes-barres Codabar avec des caractères de début et d'arrêt.
@@ -132,3 +138,9 @@ R3 : Les codes-barres Codabar sont principalement utilisés pour le codage de 
 ### Q5 : Où puis-je demander de l'aide ou discuter des problèmes liés à Aspose.BarCode for .NET ?
 
  A5 : Vous pouvez visiter le[Forum de support Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13) pour demander de l'aide et discuter de tout problème ou question que vous pourriez avoir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

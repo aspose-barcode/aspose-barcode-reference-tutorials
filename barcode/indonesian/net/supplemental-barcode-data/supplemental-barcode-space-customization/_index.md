@@ -3,10 +3,16 @@ title: Tingkatkan Kustomisasi Barcode Tambahan dengan Aspose.BarCode
 linktitle: Kustomisasi Ruang Barcode Tambahan
 second_title: Aspose.BarCode .NET API
 description: Sesuaikan kode batang dengan mudah dengan Aspose.BarCode untuk .NET. Kontrol Dimensi X dan ruang tambahan. Coba uji coba gratis!
-type: docs
 weight: 11
 url: /id/net/supplemental-barcode-data/supplemental-barcode-space-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tingkatkan Kustomisasi Barcode Tambahan dengan Aspose.BarCode
+
 
 Dalam lanskap teknologi barcode yang terus berkembang, penyesuaian adalah kunci kesuksesan. Sebagai penulis konten mahir dengan keahlian dalam penulisan SEO, saya di sini untuk memandu Anda dalam memanfaatkan kekuatan Aspose.BarCode untuk .NET. Tutorial langkah demi langkah ini akan membantu Anda mencapai tingkat penyesuaian yang Anda inginkan untuk kode batang Anda, memastikan bahwa kode tersebut memenuhi spesifikasi persis Anda.
 
@@ -103,3 +109,9 @@ Aspose.BarCode untuk .NET mendukung berbagai format kode batang, termasuk EAN, Q
 
 ### Bisakah saya menggunakan Aspose.BarCode untuk .NET di proyek komersial saya?
 Ya, Aspose.BarCode untuk .NET cocok untuk penggunaan pribadi dan komersial. Anda dapat membeli lisensi untuk menggunakannya dalam proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

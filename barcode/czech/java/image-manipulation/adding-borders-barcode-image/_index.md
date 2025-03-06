@@ -3,10 +3,16 @@ title: Přidání okrajů k obrázku čárového kódu v Javě
 linktitle: Přidání okrajů k obrázku čárového kódu
 second_title: Aspose.BarCode Java API
 description: Vylepšete obrázky čárových kódů v Javě pomocí Aspose.BarCode přidáním přizpůsobitelných hranic. Postupujte podle tohoto podrobného průvodce, abyste dosáhli vizuálně přitažlivého řešení čárových kódů.
-type: docs
 weight: 10
 url: /cs/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání okrajů k obrázku čárového kódu v Javě
+
 
 ## Úvod
 
@@ -122,3 +128,10 @@ Rozhodně. Barvu ohraničení můžete upravit programově na základě konkrét
 
 ### Je k dispozici zkušební verze Aspose.BarCode?
  Ano, funkce Aspose.BarCode můžete prozkoumat stažením souboru[zkušební verze zdarma](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

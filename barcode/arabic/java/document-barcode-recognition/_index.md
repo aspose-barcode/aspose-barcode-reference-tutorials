@@ -3,10 +3,16 @@ title: إتقان التعرف على الباركود للمستندات باس
 linktitle: التعرف على الباركود للوثيقة
 second_title: Aspose.BarCode جافا API
 description: أطلق العنان لقوة التعرف على الرمز الشريطي في Java باستخدام Aspose.BarCode! تعلم كيفية دمج الرموز الشريطية وقراءتها وفرزها بسلاسة من ملفات PDF ومستندات Word ومجموعات Unicode.
-type: docs
 weight: 21
 url: /ar/java/document-barcode-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان التعرف على الباركود للمستندات باستخدام Aspose.BarCode
+
 
 هل أنت مستعد لرفع مستوى تطبيقات Java الخاصة بك إلى آفاق جديدة؟ لا مزيد من البحث! في هذا الدليل الشامل، سوف نتعمق في عالم التعرف على الباركود الرائع باستخدام Aspose.BarCode. سواء كنت مطورًا متمرسًا أو بدأت للتو، فإن هذه البرامج التعليمية هي مفتاحك لفتح الإمكانات الكاملة لتكامل الباركود المستند إلى Java.
 
@@ -36,3 +42,9 @@ url: /ar/java/document-barcode-recognition/
 استكشف التكامل السلس للتعرف على الرمز الشريطي في تطبيقات Java الخاصة بك باستخدام Aspose.BarCode. اتبع هذا البرنامج التعليمي للتعرف على الرموز الشريطية من مستندات Word.
 ### [التعرف على الباركود Unicode في جافا](./recognizing-unicode-barcodes/)
 استكشف عالم التعرف على الرمز الشريطي Unicode في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لدمج مجموعات الأحرف المتنوعة في تطبيقاتك بسلاسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

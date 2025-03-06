@@ -3,10 +3,16 @@ title: One-Dimensional Filled Bars Configuration
 linktitle: One-Dimensional Filled Bars Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate barcodes in .NET with Aspose.BarCode for .NET. This comprehensive tutorial covers everything from importing namespaces to creating one-dimensional barcodes. 
-type: docs
 weight: 20
 url: /net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# One-Dimensional Filled Bars Configuration
+
 
 Are you looking to generate professional and customizable barcodes in your .NET applications? Look no further! Aspose.BarCode for .NET is here to streamline your barcode creation process, offering a multitude of features and customization options to meet your specific needs. In this comprehensive tutorial, we will walk you through the basics of using Aspose.BarCode for .NET, from importing namespaces to generating one-dimensional filled bars. Let's get started!
 
@@ -99,3 +105,10 @@ If you have any questions or need assistance, visit the Aspose.BarCode for .NET 
 
 ### Can I purchase a temporary license for Aspose.BarCode for .NET?
 Yes, you can obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/), which allows you to use the library for a limited period.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

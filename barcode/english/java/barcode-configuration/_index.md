@@ -3,10 +3,16 @@ title: Barcode Configuration
 linktitle: Barcode Configuration
 second_title: Aspose.BarCode Java API
 description: Effortlessly generate customized barcodes in Java with Aspose.BarCode. Boost efficiency and developer-friendliness with our versatile tutorials.
-type: docs
 weight: 24
 url: /java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Barcode Configuration
+
 
 Welcome to the world of seamless barcode generation in Java! Whether you're a seasoned developer or just getting started, our Aspose.BarCode Configuration Tutorials are here to guide you through the intricacies of configuring barcodes with ease.
 
@@ -60,3 +66,9 @@ Generate customized Codabar barcodes with specific start and stop symbols in Jav
 Learn how to create dynamic barcodes in Java using Aspose.BarCode. Step-by-step guide for supplementing data with EAN_13 symbology.
 ### [Configuring Wide-Narrow Ratio in Java](./configuring-wide-narrow-ratio/)
 Learn how to configure wide-narrow ratio in Java barcodes using Aspose.BarCode. Follow our step-by-step guide for seamless customization.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

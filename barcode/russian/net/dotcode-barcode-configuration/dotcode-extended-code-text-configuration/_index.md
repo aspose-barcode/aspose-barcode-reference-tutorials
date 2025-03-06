@@ -3,10 +3,16 @@ title: Конфигурация расширенного текста кода D
 linktitle: Конфигурация расширенного текста кода DotCode
 second_title: API Aspose.BarCode .NET
 description: С легкостью создавайте текстовую конфигурацию расширенного кода DotCode, используя Aspose.BarCode для .NET. Следуйте нашему пошаговому руководству для эффективного создания штрих-кода.
-type: docs
 weight: 13
 url: /ru/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конфигурация расширенного текста кода DotCode с помощью Aspose.BarCode для .NET
+
 ## Введение
 
 В области создания и управления штрих-кодами Aspose.BarCode для .NET выделяется как универсальное и эффективное решение. Если вам нужно создать штрих-коды для продуктов, инвентаря или любого другого приложения, Aspose.BarCode for .NET поможет вам. В этом подробном руководстве мы сосредоточимся на создании текстовой конфигурации расширенного кода DotCode с использованием Aspose.BarCode для .NET. DotCode — это двумерный матричный штрих-код, который может кодировать как текстовые, так и двоичные данные, что делает его ценным инструментом в различных отраслях.
@@ -148,3 +154,9 @@ A1: DotCode используется для кодирования как тек
 ### Вопрос 5. Подходит ли Aspose.BarCode для .NET для создания штрих-кодов корпоративного уровня?
 
 О5: Конечно, Aspose.BarCode для .NET предназначен для удовлетворения потребностей создания штрих-кодов как в небольших масштабах, так и на уровне предприятия, предлагая масштабируемость и надежность.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Roterende streepjescodeafbeelding in Java
 linktitle: Roterende streepjescodeafbeelding
 second_title: Aspose.BarCode Java-API
 description: Leer hoe u moeiteloos streepjescodeafbeeldingen in Java kunt roteren met Aspose.BarCode. Een uitgebreide stapsgewijze handleiding voor Java-ontwikkelaars.
-type: docs
 weight: 15
 url: /nl/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Roterende streepjescodeafbeelding in Java
+
 
 ## Invoering
 
@@ -85,3 +91,10 @@ Ja, u kunt de rotatiehoek in stap 3 aanpassen naar elke gewenste waarde.
 
 ### Vraag: Kan ik streepjescodes genereren voor verschillende coderingstypen?
 Absoluut, pas gewoon de EncodeTypes in stap 2 aan op basis van uw vereisten.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

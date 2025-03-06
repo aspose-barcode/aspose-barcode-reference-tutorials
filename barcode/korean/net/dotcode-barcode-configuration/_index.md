@@ -3,10 +3,16 @@ title: DotCode 바코드 구성
 linktitle: DotCode 바코드 구성
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode .NET을 사용하여 맞춤형 DotCode 바코드를 손쉽게 생성하세요. 종횡비, 인코딩 모드, 확장 코드 텍스트 및 리더 초기화에 대해 알아보세요.
-type: docs
 weight: 32
 url: /ko/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode 바코드 구성
+
 
 ## 소개
 .NET용 Aspose.BarCode를 사용하여 DotCode 바코드의 세계에 빠져보세요. 우리의 튜토리얼은 다양한 측면을 다루며 맞춤형 바코드를 쉽게 만들 수 있도록 지원합니다. 종횡비 사용자 정의, 인코딩 모드(자동 및 바이트), 확장 코드 텍스트 구성, 판독기 초기화, 행 및 열 구성, 구조화된 추가 모드와 같은 측면을 살펴보세요. 당사의 단계별 가이드에 따라 각 구성을 익히고 정확하고 사용자 정의 가능한 2D 바코드 생성을 보장하세요. 초보자이든 숙련된 개발자이든 당사의 튜토리얼은 다양한 애플리케이션을 위한 효율적인 DotCode 바코드 생성에 대한 귀중한 통찰력을 제공합니다. 포괄적인 문서를 살펴보고, 라이브러리를 다운로드하고, 임시 라이센스를 획득하여 바코드 생성 여정을 시작해 보세요. .NET용 Aspose.BarCode는 프로세스를 단순화하여 바코드를 원활하게 생성하고 이를 애플리케이션에 쉽게 통합할 수 있도록 해줍니다. 이 튜토리얼 시리즈에 참여하여 바코드 생성 기술을 향상하고 바코드 기술의 선두에 서십시오.|
@@ -48,3 +54,9 @@ url: /ko/net/dotcode-barcode-configuration/
 .NET용 Aspose.BarCode를 사용하여 DotCode 행 및 열을 구성하는 방법을 알아보세요. 정확하고 사용자 정의 가능한 2D 바코드를 손쉽게 생성하세요.
 ### [DotCode 구조화된 추가 모드 구성](./dotcode-structured-append-mode-configuration/)
 .NET용 Aspose.BarCode를 사용하여 DotCode 구조적 추가 모드를 구성하고 효율적인 바코드를 만드는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

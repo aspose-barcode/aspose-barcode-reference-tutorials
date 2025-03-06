@@ -3,10 +3,16 @@ title: Barcode Orientation Detection in Java with Aspose.BarCode
 linktitle: Detecting Barcode Orientation
 second_title: Aspose.BarCode Java API
 description: Enhance your Java applications with barcode recognition using Aspose.BarCode for Java. Follow our step-by-step guide to effortlessly detect barcode orientation.
-type: docs
 weight: 13
 url: /java/barcode-basics/detecting-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Barcode Orientation Detection in Java with Aspose.BarCode
+
 ## Introduction
 
 Are you looking to enhance your Java applications with powerful barcode recognition capabilities? Aspose.BarCode for Java is the perfect solution for developers seeking seamless integration of barcode reading functionality into their projects. In this step-by-step guide, we will focus on detecting barcode orientation in Java using Aspose.BarCode.
@@ -86,3 +92,10 @@ A4: Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for 
 ### Q5: Are there any sample codes available for different barcode operations?
 
 A5: Explore the [Aspose.BarCode documentation](https://reference.aspose.com/barcode/java/) for comprehensive code samples and examples.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

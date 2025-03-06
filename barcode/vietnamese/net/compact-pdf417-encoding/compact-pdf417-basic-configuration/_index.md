@@ -3,10 +3,16 @@ title: Tạo mã vạch PDF417 nhỏ gọn với Aspose.BarCode cho .NET
 linktitle: Cấu hình cơ bản PDF417 nhỏ gọn
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch Compact PDF417 bằng Aspose.BarCode cho .NET. Hướng dẫn toàn diện với hướng dẫn từng bước và ví dụ về mã.
-type: docs
 weight: 10
 url: /vi/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã vạch PDF417 nhỏ gọn với Aspose.BarCode cho .NET
+
 ## Giới thiệu
 
 Nếu bạn là nhà phát triển đang tìm cách tạo hình ảnh mã vạch trong các ứng dụng .NET của mình thì Aspose.BarCode for .NET là một công cụ mạnh mẽ có thể giúp bạn đạt được điều đó. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình tạo mã vạch Compact PDF417 bằng Aspose.BarCode cho .NET. Compact PDF417 là hệ thống ký hiệu mã vạch hai chiều hiệu quả được sử dụng rộng rãi cho nhiều ứng dụng khác nhau, bao gồm hậu cần, quản lý hàng tồn kho, v.v. Đến cuối hướng dẫn này, bạn sẽ có thể tạo và tùy chỉnh mã vạch Compact PDF417 để phù hợp với nhu cầu cụ thể của mình. Hãy đi sâu vào và bắt đầu!
@@ -107,3 +113,9 @@ Câu trả lời 2: Aspose.BarCode hỗ trợ nhiều loại mã vạch, bao g�
 ### Câu hỏi 5: Có bất kỳ tài nguyên hoặc tài liệu bổ sung nào có sẵn cho Aspose.BarCode cho .NET không?
 
  A5: Có, bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/barcode/net/) để giúp bạn khám phá và sử dụng các tính năng của Aspose.BarCode cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

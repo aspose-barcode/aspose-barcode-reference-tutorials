@@ -3,10 +3,16 @@ title: Generazione del tipo di bordo del codice a barre ITF-14
 linktitle: Generazione del tipo di bordo del codice a barre ITF-14
 second_title: API Aspose.BarCode .NET
 description: Scopri come creare codici a barre ITF-14 con diversi tipi di bordo utilizzando Aspose.BarCode per .NET. Personalizza facilmente il tuo imballaggio ed etichettatura.
-type: docs
 weight: 11
 url: /it/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generazione del tipo di bordo del codice a barre ITF-14
+
 
 In questo tutorial, ti guideremo attraverso il processo di generazione di codici a barre ITF-14 con diversi tipi di bordo utilizzando Aspose.BarCode per .NET. Aspose.BarCode è una potente libreria che ti consente di creare, manipolare e riconoscere codici a barre in vari formati. In questo esempio specifico, ci concentreremo sui codici a barre ITF-14 e su come controllarne i tipi di bordo. I codici a barre ITF-14 sono comunemente usati per scopi di imballaggio ed etichettatura.
 
@@ -109,3 +115,10 @@ Sì, Aspose.BarCode per .NET è compatibile con vari framework .NET, inclusi .NE
 
 ### È disponibile una versione di prova gratuita di Aspose.BarCode?
 Sì, puoi accedere a una versione di prova gratuita di Aspose.BarCode per .NET da[Qui](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

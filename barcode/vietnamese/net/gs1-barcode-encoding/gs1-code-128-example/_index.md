@@ -3,10 +3,16 @@ title: Hướng dẫn từng bước với ví dụ về Mã GS1 128
 linktitle: Ví dụ mã GS1 128
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch GS1 Code 128 bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước tạo mã vạch trong C#. Bắt đầu ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/net/gs1-barcode-encoding/gs1-code-128-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn từng bước với ví dụ về Mã GS1 128
+
 
 ## Giới thiệu
 
@@ -89,3 +95,9 @@ Trong hướng dẫn từng bước này, chúng tôi đã giới thiệu cho b�
 
 ### Cần giúp hoặc có câu hỏi? Tôi có thể tìm sự hỗ trợ ở đâu?
 Để được hỗ trợ và thảo luận cộng đồng, hãy truy cập[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

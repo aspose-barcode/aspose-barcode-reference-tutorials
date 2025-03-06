@@ -3,10 +3,16 @@ title: Codabar エンコーディングとチェックサム
 linktitle: Codabar エンコーディングとチェックサム
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode を使用して .NET の Codabar バーコードを最適化します。正確なデータを得るためにチェックサム計算をマスターします。チュートリアルでスタート/ストップ文字を使用して簡単に作成します。
-type: docs
 weight: 20
 url: /ja/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codabar エンコーディングとチェックサム
+
 ## 導入
 
 あなたは、.NET での Codabar エンコーディングとチェックサム計算の秘密を解き明かそうとしている開発者ですか?これ以上探さない！この記事では、Codabar の複雑さを掘り下げ、Codabar のチェックサム計算と、Aspose.BarCode for .NET でのスタート/ストップ文字の使用に関する包括的なチュートリアルを提供します。
@@ -34,3 +40,9 @@ url: /ja/net/codabar-encoding-and-checksum/
 Aspose.BarCode を使用して .NET で Codabar チェックサムを計算する方法を学びます。 Codabar バーコードのデータ精度を向上させます。段階的なガイダンスが得られます。
 ### [Codabar のスタート/ストップ文字](./codabar-start-stop-characters/)
 Aspose.BarCode for .NET を使用して、スタート文字とストップ文字を含む Codabar バーコードを作成する方法を学びます。開発者向けのステップバイステップのガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

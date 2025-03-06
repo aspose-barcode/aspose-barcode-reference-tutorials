@@ -3,10 +3,16 @@ title: التعرف على الباركود Unicode في جافا
 linktitle: التعرف على الباركود يونيكود
 second_title: Aspose.BarCode جافا API
 description: استكشف عالم التعرف على الرمز الشريطي Unicode في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لدمج مجموعات الأحرف المتنوعة في تطبيقاتك بسلاسة.
-type: docs
 weight: 13
 url: /ar/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الباركود Unicode في جافا
+
 
 ## مقدمة
 
@@ -127,3 +133,9 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ### هل تحتاج إلى دعم أو لديك أسئلة؟
  قم بزيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

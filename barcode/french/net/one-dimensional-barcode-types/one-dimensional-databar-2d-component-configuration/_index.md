@@ -3,10 +3,16 @@ title: Configuration des composants 2D de la barre de données unidimensionnelle
 linktitle: Configuration des composants 2D de la barre de données unidimensionnelle
 second_title: API Aspose.BarCode .NET
 description: Générez des codes-barres 2D de barre de données unidimensionnelles avec Aspose.BarCode pour .NET. Suivez notre guide étape par étape pour la configuration et la personnalisation. Commencez à créer des codes-barres uniques dès aujourd'hui !
-type: docs
 weight: 15
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration des composants 2D de la barre de données unidimensionnelle
+
 
 Dans le monde du codage de données et du codage à barres, la bibliothèque Aspose.BarCode for .NET se présente comme un outil fiable et polyvalent. Ce puissant composant .NET offre aux développeurs les moyens de générer, manipuler et personnaliser des codes-barres sans effort. Si vous souhaitez exploiter le potentiel de cette bibliothèque pour la configuration des composants 2D de la barre de données unidimensionnelle, vous êtes au bon endroit. Dans ce guide étape par étape, nous détaillerons le processus pour garantir que vous pouvez travailler de manière transparente avec les composants Databar 2D à l'aide d'Aspose.BarCode pour .NET.
 
@@ -94,3 +100,9 @@ Si vous recherchez une solution fiable de génération de codes-barres dans .NET
 
 ### Où puis-je obtenir de l’aide et de l’assistance concernant Aspose.BarCode for .NET ?
 -  Vous pouvez demander de l'aide et interagir avec la communauté au[Forum de support Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

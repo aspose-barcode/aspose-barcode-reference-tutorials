@@ -3,10 +3,16 @@ title: Eindimensionale Breit-Schmal-Verhältnis-Konfiguration
 linktitle: Eindimensionale Breit-Schmal-Verhältnis-Konfiguration
 second_title: Aspose.BarCode .NET-API
 description: Generieren Sie ganz einfach individuelle Barcodes mit Aspose.BarCode für .NET. Schritt-für-Schritt-Anleitung für die eindimensionale Breit-Schmal-Verhältniskonfiguration.
-type: docs
 weight: 22
 url: /de/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eindimensionale Breit-Schmal-Verhältnis-Konfiguration
+
 
 Möchten Sie Barcodes mühelos in Ihren .NET-Anwendungen generieren und anpassen? Suchen Sie nicht weiter! Aspose.BarCode für .NET ist eine robuste Bibliothek, die die Erstellung und Anpassung von Barcodes zum Kinderspiel macht. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie die Leistungsfähigkeit von Aspose.BarCode für .NET nutzen können, um Barcodes mit einer Wide-Narrow-Verhältniskonfiguration zu erstellen.
 
@@ -104,3 +110,10 @@ Aspose.BarCode für .NET unterstützt eine Vielzahl von Barcode-Symbologien, dar
 
 ### 5. Wie kann ich Unterstützung erhalten oder Fragen zu Aspose.BarCode für .NET stellen?
  Sie können die besuchen[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13) für Unterstützung und Diskussionen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java에서 항상 체크섬 표시
 linktitle: 항상 체크섬 표시
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode for Java를 사용하여 손쉽게 바코드를 생성하세요. 이 단계별 가이드에서 향상된 데이터 무결성을 위해 항상 체크섬을 표시하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/checksum-and-validation/always-showing-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 항상 체크섬 표시
+
 
 ## 소개
 
@@ -90,3 +96,10 @@ generator.save(dataDir + "checksum.jpg");
 ### Q: Java용 Aspose.BarCode에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

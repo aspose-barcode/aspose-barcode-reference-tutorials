@@ -3,10 +3,16 @@ title: Barcode ophalen en herkennen in Java
 linktitle: Barcode ophalen en herkennen
 second_title: Aspose.BarCode Java-API
 description: Integreer Aspose.BarCode voor Java moeiteloos - haal streepjescodes op uit een database en herken deze. Download nu voor een naadloze ervaring met barcodeintegratie.
-type: docs
 weight: 11
 url: /nl/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Barcode ophalen en herkennen in Java
+
 
 ## Invoering
 
@@ -120,3 +126,10 @@ Ja, Aspose.BarCode is ontworpen voor grootschalige toepassingen en biedt hoge pr
 
 ### Zijn er tijdelijke licenties beschikbaar voor testdoeleinden?
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor test- en evaluatiedoeleinden.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

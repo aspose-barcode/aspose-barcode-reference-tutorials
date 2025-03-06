@@ -3,10 +3,16 @@ title: ITF-14 تخصيص سمك حدود الباركود
 linktitle: ITF-14 تخصيص سمك حدود الباركود
 second_title: Aspose.BarCode .NET API
 description: قم بتخصيص سمك حدود الرمز الشريطي ITF-14 باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة لإنشاء الباركود بشكل سلس.
-type: docs
 weight: 10
 url: /ar/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 تخصيص سمك حدود الباركود
+
 
 هل تتطلع إلى تحسين إنشاء الباركود الخاص بك بسمك حدود قابل للتخصيص باستخدام Aspose.BarCode لـ .NET؟ إذا كان الأمر كذلك، فأنت في المكان الصحيح. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تعديل سمك حدود الرمز الشريطي ITF-14. من خلال بضع خطوات بسيطة، يمكنك تحقيق سمك الحدود المطلوب للرموز الشريطية الخاصة بك، سواء كان ذلك لتصنيف المنتجات أو إدارة المخزون. هيا بنا نبدأ!
 
@@ -108,3 +114,9 @@ Aspose.BarCode for .NET متوافق مع مجموعة واسعة من أطر ع
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode لـ .NET؟
  يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adatok kiegészítése Java nyelven
 linktitle: Kiegészítő adatok
 second_title: Aspose.BarCode Java API
 description: Ismerje meg, hogyan hozhat létre dinamikus vonalkódokat Java nyelven az Aspose.BarCode segítségével. Útmutató lépésről lépésre az adatok EAN_13 szimbólummal való kiegészítéséhez.
-type: docs
 weight: 16
 url: /hu/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adatok kiegészítése Java nyelven
+
 
 ## Bevezetés
 
@@ -96,3 +102,10 @@ Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.co
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

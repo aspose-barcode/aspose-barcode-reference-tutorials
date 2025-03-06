@@ -3,10 +3,16 @@ title: Рендеринг штрих-кода в экземпляр изобра
 linktitle: Рендеринг штрих-кода в экземпляр изображения
 second_title: API Aspose.BarCode Java
 description: Откройте для себя возможности Aspose.BarCode для Java! С легкостью создавайте штрих-коды различных типов с помощью этой надежной библиотеки.
-type: docs
 weight: 11
 url: /ru/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг штрих-кода в экземпляр изображения в Java
+
 
 ## Введение
 
@@ -70,3 +76,10 @@ Image image = bb.generateBarCodeImage();
 
 ### Доступна ли опция временной лицензии?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

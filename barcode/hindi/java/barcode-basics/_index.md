@@ -3,10 +3,16 @@ title: बारकोड मूल बातें
 linktitle: बारकोड मूल बातें
 second_title: Aspose.BarCode जावा एपीआई
 description: अपने जावा अनुप्रयोगों में बारकोड की शक्ति को अनलॉक करें! निर्बाध एकीकरण, अनुकूलन और पहचान के लिए Aspose.BarCode ट्यूटोरियल में गोता लगाएँ।
-type: docs
 weight: 20
 url: /hi/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# बारकोड मूल बातें
+
 
 ## परिचय
 
@@ -38,3 +44,9 @@ Aspose.BarCode के साथ जावा में संपूर्ण च
 Aspose.BarCode के साथ जावा में सटीक बारकोड जनरेशन के साथ एक छवि बनाना। आसानी से कस्टम बारकोड बनाएं। दस्तावेज़ देखें, डाउनलोड करें और सहायता प्राप्त करें।
 ### [जावा में बारकोड ओरिएंटेशन डिटेक्शन](./detecting-barcode-orientation/)
 Java के लिए Aspose.BarCode का उपयोग करके बारकोड पहचान के साथ अपने जावा एप्लिकेशन को बेहतर बनाएं। बारकोड ओरिएंटेशन का आसानी से पता लगाने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

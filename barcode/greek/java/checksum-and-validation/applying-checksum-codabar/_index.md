@@ -3,10 +3,16 @@ title: Εφαρμογή αθροίσματος ελέγχου για CodaBar σ�
 linktitle: Εφαρμογή αθροίσματος ελέγχου για το CodaBar
 second_title: Aspose.BarCode Java API
 description: Μάθετε πώς να εφαρμόζετε το άθροισμα ελέγχου για το CodaBar σε Java χρησιμοποιώντας το Aspose.BarCode. Δημιουργήστε και αναγνωρίστε γραμμωτούς κώδικες χωρίς κόπο με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή αθροίσματος ελέγχου για CodaBar σε Java
+
 
 ## Εισαγωγή
 
@@ -107,3 +113,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### Υπάρχει δωρεάν δοκιμή διαθέσιμη;
  Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.BarCode κατεβάζοντας τη δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

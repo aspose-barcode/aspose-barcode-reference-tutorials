@@ -3,10 +3,16 @@ title: Đặt vị trí văn bản mã trong Java
 linktitle: Vị trí văn bản mã cài đặt
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch động dễ dàng trong Java với Aspose.BarCode. Làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh văn bản mã và nâng cao chức năng ứng dụng của bạn.
-type: docs
 weight: 12
 url: /vi/java/text-and-styling/setting-code-text-location/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt vị trí văn bản mã trong Java
+
 
 ## Giới thiệu
 
@@ -88,3 +94,10 @@ Chỉ cần thêm tệp JAR Aspose.BarCode vào đường dẫn lớp của dự
 
 ### Câu hỏi: Tôi có thể tìm trợ giúp hoặc hỗ trợ cho Aspose.BarCode ở đâu?
  Tham quan[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để được cộng đồng hỗ trợ và giúp đỡ.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

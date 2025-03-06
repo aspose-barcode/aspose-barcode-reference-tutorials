@@ -3,10 +3,16 @@ title: Конфигурация штрих-кода
 linktitle: Конфигурация штрих-кода
 second_title: API Aspose.BarCode Java
 description: Легко создавайте индивидуальные штрих-коды на Java с помощью Aspose.BarCode. Повысьте эффективность и удобство для разработчиков с помощью наших универсальных руководств.
-type: docs
 weight: 24
 url: /ru/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конфигурация штрих-кода
+
 
 Добро пожаловать в мир бесшовной генерации штрих-кодов на Java! Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, наши руководства по настройке Aspose.BarCode помогут вам с легкостью разобраться в тонкостях настройки штрих-кодов.
 
@@ -60,3 +66,9 @@ url: /ru/java/barcode-configuration/
 Узнайте, как создавать динамические штрих-коды на Java с помощью Aspose.BarCode. Пошаговое руководство по дополнению данных символикой EAN_13.
 ### [Настройка соотношения «широкий-узкий» в Java](./configuring-wide-narrow-ratio/)
 Узнайте, как настроить соотношение «широкий-узкий» в штрих-кодах Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для плавной настройки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

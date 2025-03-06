@@ -3,10 +3,16 @@ title: Générer plusieurs codes-barres sur une seule image en Java avec Aspose.
 linktitle: Générer plusieurs codes-barres sur une seule image
 second_title: API Java Aspose.BarCode
 description: Générez facilement plusieurs codes-barres sur une seule image à l’aide d’Aspose.BarCode pour Java. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 19
 url: /fr/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer plusieurs codes-barres sur une seule image en Java avec Aspose.BarCode
+
 ## Introduction
 
 Dans le monde dynamique de la programmation Java, la création et la gestion efficaces de codes-barres sont cruciales pour diverses applications. Aspose.BarCode for Java simplifie ce processus, permettant aux développeurs de générer de manière transparente plusieurs codes-barres sur une seule image. Ce didacticiel vous guidera à travers les étapes pour y parvenir en utilisant Aspose.BarCode dans un environnement Java.
@@ -139,3 +145,9 @@ A2 : Absolument ! Aspose.BarCode prend en charge un large éventail de symbologi
 ### Q5 : Existe-t-il des options d'essai disponibles pour Aspose.BarCode ?
 
  A5 : Certainement ! Vous pouvez explorer les fonctionnalités d'Aspose.BarCode en obtenant une licence d'essai gratuite[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

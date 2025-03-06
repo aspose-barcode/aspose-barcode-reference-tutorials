@@ -3,10 +3,16 @@ title: アステカのバーコードエンコーディング
 linktitle: アステカのバーコードエンコーディング
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して、Aztec バーコード エンコーディングの可能性を解き放ちます。アスペクト比をカスタマイズし、テキストでエンコードされたアステカ コードを作成し、シンボル モードをマスターします。
-type: docs
 weight: 28
 url: /ja/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# アステカのバーコードエンコーディング
+
 
 ## 導入
 
@@ -44,3 +50,9 @@ Aspose.BarCode for .NET を使用して、Aztec コード テキスト エンコ
 Aspose.BarCode for .NET を使用して、さまざまなエラー レベルの Aztec エラー バーコードを生成する方法を学びます。バーコード作成のための包括的なガイド。
 ### [アステカシンボルモードをマスターする](./aztec-symbol-mode-example/)
 Aspose.BarCode for .NET の Aztec Symbol Mode を探索し、多用途のバーコードを簡単に生成する方法を学びましょう。この包括的なチュートリアルで、Auto、FullRange、Compact、Rune モードを実際に試してみましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

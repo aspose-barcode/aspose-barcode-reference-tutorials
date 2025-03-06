@@ -3,10 +3,16 @@ title: Java'da Barkod Görüntüsünü Döndürme
 linktitle: Dönen Barkod Görüntüsü
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode'u kullanarak Java'da barkod görüntülerini zahmetsizce nasıl döndüreceğinizi öğrenin. Java geliştiricileri için kapsamlı, adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Barkod Görüntüsünü Döndürme
+
 
 ## giriiş
 
@@ -85,3 +91,10 @@ Evet, 3. Adımda dönüş açısını istediğiniz herhangi bir değere ayarlaya
 
 ### S: Farklı kodlama türleri için barkodlar oluşturabilir miyim?
 Kesinlikle, gereksinimlerinize göre Adım 2'deki EncodeTypes'ı ayarlayın.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

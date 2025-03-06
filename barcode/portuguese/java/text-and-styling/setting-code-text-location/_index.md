@@ -3,10 +3,16 @@ title: Configurando a localização do texto do código em Java
 linktitle: Configurando a localização do texto do código
 second_title: API Java Aspose.BarCode
 description: Gere códigos de barras dinâmicos sem esforço em Java com Aspose.BarCode. Siga nosso guia passo a passo para personalizar o texto do código e elevar a funcionalidade do seu aplicativo.
-type: docs
 weight: 12
 url: /pt/java/text-and-styling/setting-code-text-location/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando a localização do texto do código em Java
+
 
 ## Introdução
 
@@ -88,3 +94,10 @@ Basta adicionar os arquivos JAR Aspose.BarCode ao classpath do seu projeto e voc
 
 ### P: Onde posso procurar ajuda ou suporte para Aspose.BarCode?
  Visite a[Fórum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) para apoio e assistência comunitária.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vonalkód konfiguráció
 linktitle: Vonalkód konfiguráció
 second_title: Aspose.BarCode Java API
 description: Könnyedén generálhat testreszabott vonalkódokat Java nyelven az Aspose.BarCode segítségével. Növelje a hatékonyságot és a fejlesztőbarátságot sokoldalú oktatóanyagainkkal.
-type: docs
 weight: 24
 url: /hu/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vonalkód konfiguráció
+
 
 Üdvözöljük a zökkenőmentes vonalkódgenerálás világában Java nyelven! Akár tapasztalt fejlesztő, akár csak most kezdi, az Aspose.BarCode konfigurálási oktatóprogramjaink segítségével végigvezeti Önt a vonalkódok egyszerű konfigurálásának bonyolultságain.
 
@@ -60,3 +66,9 @@ Az Aspose.BarCode segítségével személyre szabott Codabar vonalkódokat gener
 Ismerje meg, hogyan hozhat létre dinamikus vonalkódokat Java nyelven az Aspose.BarCode segítségével. Útmutató lépésről lépésre az adatok EAN_13 szimbólummal való kiegészítéséhez.
 ### [A széles-keskeny arány konfigurálása Java-ban](./configuring-wide-narrow-ratio/)
 Ismerje meg, hogyan konfigurálhat széles-keskeny arányt Java vonalkódokban az Aspose.BarCode használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes testreszabás érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

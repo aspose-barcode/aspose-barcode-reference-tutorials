@@ -3,10 +3,16 @@ title: 用Java识别带有土耳其字符的PDF417条码
 linktitle: 识别带有土耳其字符的 PDF417 条形码
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中识别带有土耳其字符的 PDF417 条形码。集成方便，解码能力强大。
-type: docs
 weight: 11
 url: /zh/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用Java识别带有土耳其字符的PDF417条码
+
 
 ## 介绍
 
@@ -79,3 +85,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### 我可以在开发过程中使用临时许可证吗？
 是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DotCode Rows and Columns Configuration with Aspose.BarCode for .NET
 linktitle: DotCode Rows and Columns Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn to configure DotCode Rows and Columns with Aspose.BarCode for .NET. Generate precise and customizable 2D barcodes effortlessly.
-type: docs
 weight: 15
 url: /net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode Rows and Columns Configuration with Aspose.BarCode for .NET
+
 ## Introduction
 
 Welcome to the world of barcode generation using Aspose.BarCode for .NET! In this comprehensive guide, we will delve into the fascinating realm of configuring DotCode Rows and Columns with Aspose.BarCode. Whether you're a seasoned developer or just starting your journey with barcode generation, this tutorial will walk you through the essential steps, prerequisites, and namespaces to get you started on your way to mastering DotCode Rows and Columns configuration.
@@ -112,3 +118,10 @@ A4: Aspose.BarCode supports a wide variety of barcode types, including QR Code, 
 ### Q5: Where can I find more tutorials and examples for Aspose.BarCode for .NET?
 
 A5: You can explore additional tutorials and examples in the [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

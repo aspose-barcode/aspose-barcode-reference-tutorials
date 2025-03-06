@@ -3,10 +3,16 @@ title: Data Barcode Tambahan
 linktitle: Data Barcode Tambahan
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat dan menyesuaikan data kode batang tambahan menggunakan Aspose.BarCode untuk .NET dengan tutorial langkah demi langkah kami. Tingkatkan keterampilan kode batang Anda hari ini!
-type: docs
 weight: 27
 url: /id/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Data Barcode Tambahan
+
 
 ## Perkenalan
 
@@ -37,3 +43,9 @@ Pada artikel ini, kami telah memberi Anda peta jalan untuk menguasai data kode b
 Hasilkan data kode batang tambahan dengan Aspose.BarCode untuk .NET. Sesuaikan kode batang EAN-2 dan EAN-5 dengan mudah. Panduan langkah demi langkah untuk pengembang .NET.
 ### [Kustomisasi Ruang Barcode Tambahan](./supplemental-barcode-space-customization/)
 Sesuaikan kode batang dengan mudah dengan Aspose.BarCode untuk .NET. Kontrol Dimensi X dan ruang tambahan. Coba uji coba gratis!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

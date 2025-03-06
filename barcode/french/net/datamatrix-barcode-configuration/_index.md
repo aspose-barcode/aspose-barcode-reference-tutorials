@@ -3,10 +3,16 @@ title: Générez des codes-barres DataMatrix comme un pro avec Aspose.BarCode.
 linktitle: Configuration du code-barres DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Générez des codes-barres DataMatrix sans effort avec Aspose.BarCode pour .NET. Personnalisez les proportions, les modes ECC, l'encodage et bien plus encore. Augmentez l’efficacité de la création de codes-barres.
-type: docs
 weight: 30
 url: /fr/net/datamatrix-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générez des codes-barres DataMatrix comme un pro avec Aspose.BarCode.
+
 
 
 Bienvenue dans notre série complète de didacticiels sur la configuration des codes-barres DataMatrix à l'aide d'Aspose.BarCode pour .NET. Que vous soyez un développeur chevronné ou débutant, ces guides étape par étape vous permettront de générer et de personnaliser des codes-barres DataMatrix de manière transparente.
@@ -69,3 +75,9 @@ Apprenez le mode de codage DataMatrix (C40) avec Aspose.BarCode pour .NET. Crée
 Apprenez à configurer le texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET. Générez, reconnaissez et intégrez des codes-barres dans vos applications .NET.
 ### [Configuration des macros DataMatrix principales](./datamatrix-macro-configuration/)
 Découvrez comment configurer les codes-barres DataMatrix Macro avec Aspose.BarCode pour .NET. Générez, personnalisez et reconnaissez les codes-barres DataMatrix dans vos applications .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

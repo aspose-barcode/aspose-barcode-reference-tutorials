@@ -3,10 +3,16 @@ title: DataMatrix 结构化附加配置与 Aspose.BarCode for .NET
 linktitle: DataMatrix 结构化附加配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode 在 .NET 中创建和读取 DataMatrix 结构化附加配置，以实现高效的数据组织。
-type: docs
 weight: 11
 url: /zh/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DataMatrix 结构化附加配置与 Aspose.BarCode for .NET
+
 如果您是一名开发人员，希望在 .NET 应用程序中实现 DataMatrix 结构化附加配置，Aspose.BarCode for .NET 是您的首选解决方案。在本分步指南中，我们将探讨使用这个强大的库生成和读取结构化 DataMatrix 条形码的细节。我们将每个示例分解为多个易于遵循的步骤，确保您彻底掌握这些概念。在本教程结束时，您将能够使用 Aspose.BarCode for .NET 有效地处理 DataMatrix 结构化附加配置。
 
 ## 先决条件
@@ -100,3 +106,9 @@ A4：如果您需要临时许可证用于评估或测试目的，您可以从以
 ### Q5：Aspose.BarCode for .NET 支持其他条形码类型吗？
 
  A5：是的，Aspose.BarCode for .NET 支持多种条形码类型，包括 QR 码、Code 128、EAN-13 等等。您可以浏览完整的文档[这里](https://reference.aspose.com/barcode/net/)查看支持的条形码类型的完整列表。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

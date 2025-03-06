@@ -3,10 +3,16 @@ title: ITF-14 Barcode Border Thickness Customization
 linktitle: ITF-14 Barcode Border Thickness Customization
 second_title: Aspose.BarCode .NET API
 description: Customize ITF-14 barcode border thickness with Aspose.BarCode for .NET. Step-by-step guide for seamless barcode generation.
-type: docs
 weight: 10
 url: /net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 Barcode Border Thickness Customization
+
 
 Are you looking to enhance your barcode generation with customizable border thickness using Aspose.BarCode for .NET? If so, you're in the right place. In this step-by-step guide, we will walk you through the process of modifying the border thickness of an ITF-14 barcode. With a few simple steps, you can achieve the desired border thickness for your barcodes, whether it's for product labeling or inventory management. Let's get started!
 
@@ -108,3 +114,10 @@ The limitations may vary depending on the specific barcode generation requiremen
 
 ### How can I obtain a temporary license for Aspose.BarCode for .NET?
 You can get a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

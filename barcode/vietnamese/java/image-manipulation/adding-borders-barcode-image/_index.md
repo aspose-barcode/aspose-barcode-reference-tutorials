@@ -3,10 +3,16 @@ title: Thêm đường viền vào hình ảnh mã vạch trong Java
 linktitle: Thêm đường viền vào hình ảnh mã vạch
 second_title: API Java Aspose.BarCode
 description: Nâng cao hình ảnh mã vạch trong Java bằng Aspose.BarCode bằng cách thêm các đường viền có thể tùy chỉnh. Hãy làm theo hướng dẫn từng bước này để có được giải pháp mã vạch hấp dẫn về mặt hình ảnh.
-type: docs
 weight: 10
 url: /vi/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm đường viền vào hình ảnh mã vạch trong Java
+
 
 ## Giới thiệu
 
@@ -122,3 +128,10 @@ Chắc chắn. Bạn có thể sửa đổi màu đường viền theo chương 
 
 ### Có phiên bản dùng thử của Aspose.BarCode không?
  Có, bạn có thể khám phá các tính năng của Aspose.BarCode bằng cách tải xuống[phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

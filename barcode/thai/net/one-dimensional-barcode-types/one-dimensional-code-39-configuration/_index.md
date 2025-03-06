@@ -3,10 +3,16 @@ title: การกำหนดค่าโค้ดหนึ่งมิติ 
 linktitle: การกำหนดค่าโค้ดหนึ่งมิติ 39
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีสร้างบาร์โค้ด Code 39 หนึ่งมิติใน .NET ด้วย Aspose.BarCode คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
-type: docs
 weight: 11
 url: /th/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าโค้ดหนึ่งมิติ 39
+
 
 ## การแนะนำ
 
@@ -72,3 +78,9 @@ gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 
 ### ถาม: ฉันจะรับการสนับสนุนหรือถามคำถามเกี่ยวกับ Aspose.BarCode สำหรับ .NET ได้ที่ไหน
  ตอบ: คุณสามารถค้นหาคำตอบสำหรับคำถามของคุณและขอรับการสนับสนุนได้ที่ฟอรัม Aspose.BarCode:[ฟอรั่ม Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

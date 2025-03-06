@@ -3,10 +3,16 @@ title: Tô màu hình ảnh mã vạch trong Java với Aspose.BarCode
 linktitle: Tô màu hình ảnh mã vạch
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách tô màu hình ảnh mã vạch trong Java một cách dễ dàng bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được kết quả sống động và hấp dẫn về mặt hình ảnh.
-type: docs
 weight: 13
 url: /vi/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tô màu hình ảnh mã vạch trong Java với Aspose.BarCode
+
 
 ## Giới thiệu
 
@@ -109,3 +115,10 @@ Có, Aspose.BarCode hỗ trợ nhiều định dạng mã vạch, bao gồm CODE
 
 ### Làm cách nào để mua giấy phép cho Aspose.BarCode cho Java?
  Bạn có thể mua giấy phép một cách an toàn[đây](https://purchase.aspose.com/buy) để mở khóa toàn bộ tiềm năng của Aspose.BarCode.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

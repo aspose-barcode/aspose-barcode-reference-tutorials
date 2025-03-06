@@ -3,10 +3,16 @@ title: Recognizing PDF417 Barcode with Turkish Characters in Java
 linktitle: Recognizing PDF417 Barcode with Turkish Characters
 second_title: Aspose.BarCode Java API
 description: Learn how to recognize PDF417 barcodes with Turkish characters in Java using Aspose.BarCode. Easy integration and powerful decoding capabilities.
-type: docs
 weight: 11
 url: /java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recognizing PDF417 Barcode with Turkish Characters in Java
+
 
 ## Introduction
 
@@ -80,3 +86,10 @@ Visit the [Aspose.BarCode Forum](https://forum.aspose.com/c/barcode/13) to get c
 ### Can I use a temporary license during development?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

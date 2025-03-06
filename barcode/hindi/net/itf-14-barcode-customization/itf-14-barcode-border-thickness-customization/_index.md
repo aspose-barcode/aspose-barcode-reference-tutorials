@@ -3,10 +3,16 @@ title: आईटीएफ-14 बारकोड सीमा मोटाई अ
 linktitle: आईटीएफ-14 बारकोड सीमा मोटाई अनुकूलन
 second_title: Aspose.BarCode .NET API
 description: .NET के लिए Aspose.BarCode के साथ ITF-14 बारकोड बॉर्डर मोटाई को अनुकूलित करें। निर्बाध बारकोड जनरेशन के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 10
 url: /hi/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# आईटीएफ-14 बारकोड सीमा मोटाई अनुकूलन
+
 
 क्या आप .NET के लिए Aspose.BarCode का उपयोग करके अनुकूलन योग्य बॉर्डर मोटाई के साथ अपनी बारकोड पीढ़ी को बढ़ाना चाह रहे हैं? यदि हां, तो आप सही जगह पर हैं। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको ITF-14 बारकोड की बॉर्डर मोटाई को संशोधित करने की प्रक्रिया के बारे में बताएंगे। कुछ सरल चरणों के साथ, आप अपने बारकोड के लिए वांछित बॉर्डर मोटाई प्राप्त कर सकते हैं, चाहे वह उत्पाद लेबलिंग के लिए हो या इन्वेंट्री प्रबंधन के लिए। आएँ शुरू करें!
 
@@ -108,3 +114,9 @@ ITF-14 बारकोड प्रारूप का उपयोग आमत
 
 ### मैं .NET के लिए Aspose.BarCode के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

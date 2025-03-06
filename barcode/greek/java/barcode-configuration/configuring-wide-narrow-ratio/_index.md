@@ -3,10 +3,16 @@ title: Διαμόρφωση Wide-Narrow Ratio σε Java με Aspose.BarCode
 linktitle: Διαμόρφωση ευρείας-στενής αναλογίας
 second_title: Aspose.BarCode Java API
 description: Μάθετε πώς να διαμορφώνετε την ευρεία στενή αναλογία σε γραμμωτούς κώδικες Java χρησιμοποιώντας το Aspose.BarCode. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη προσαρμογή.
-type: docs
 weight: 17
 url: /el/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμόρφωση Wide-Narrow Ratio σε Java με Aspose.BarCode
+
 
 ## Εισαγωγή
 
@@ -87,3 +93,9 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.BarCode;
  Α: Επισκεφθείτε το φόρουμ Aspose.BarCode[εδώ](https://forum.aspose.com/c/barcode/13) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

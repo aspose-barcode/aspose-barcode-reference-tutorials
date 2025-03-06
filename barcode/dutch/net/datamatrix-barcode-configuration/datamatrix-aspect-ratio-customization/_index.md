@@ -3,10 +3,16 @@ title: DataMatrix-beeldverhouding aanpassen met Aspose.BarCode voor .NET
 linktitle: Aanpassing van de beeldverhouding van DataMatrix
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u de aspectverhoudingen van DataMatrix-barcodes kunt aanpassen met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het genereren van streepjescodes.
-type: docs
 weight: 10
 url: /nl/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DataMatrix-beeldverhouding aanpassen met Aspose.BarCode voor .NET
+
 Wilt u DataMatrix-barcodes genereren met een aangepaste beeldverhouding met behulp van Aspose.BarCode voor .NET? U bent op de juiste plaats. In deze stapsgewijze tutorial laten we u zien hoe u dit kunt bereiken. Aspose.BarCode voor .NET is een krachtige bibliotheek waarmee u eenvoudig streepjescodes kunt maken en manipuleren. We beginnen met het introduceren van de vereisten en naamruimten die u nodig hebt, en daarna duiken we in de voorbeelden.
 
 ## Vereisten
@@ -86,3 +92,9 @@ A4: Ja, Aspose.BarCode voor .NET is compatibel met verschillende .NET Framework-
 ### V5: Kan ik streepjescodes in verschillende formaten genereren met Aspose.BarCode voor .NET?
 
 A5: Ja, Aspose.BarCode voor .NET ondersteunt het genereren van streepjescodes in verschillende formaten, waaronder PNG, JPEG en meer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

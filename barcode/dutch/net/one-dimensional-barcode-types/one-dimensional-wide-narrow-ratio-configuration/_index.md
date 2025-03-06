@@ -3,10 +3,16 @@ title: Eendimensionale configuratie met brede en smalle verhoudingen
 linktitle: Eendimensionale configuratie met brede en smalle verhoudingen
 second_title: Aspose.BarCode .NET API
 description: Genereer eenvoudig aangepaste barcodes met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor eendimensionale configuratie van breed-nauw verhoudingen.
-type: docs
 weight: 22
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eendimensionale configuratie met brede en smalle verhoudingen
+
 
 Wilt u moeiteloos barcodes genereren en aanpassen in uw .NET-toepassingen? Zoek niet verder! Aspose.BarCode voor .NET is een robuuste bibliotheek waarmee het genereren en aanpassen van streepjescodes een fluitje van een cent is. In deze stapsgewijze handleiding gaan we dieper in op hoe we de kracht van Aspose.BarCode voor .NET kunnen benutten om streepjescodes te maken met een configuratie met een brede en smalle verhouding.
 
@@ -104,3 +110,10 @@ Aspose.BarCode voor .NET ondersteunt een breed scala aan barcodesymbologieën, w
 
 ### 5. Hoe kan ik ondersteuning krijgen of vragen stellen over Aspose.BarCode voor .NET?
  U kunt een bezoek brengen aan de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) voor ondersteuning en discussies.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

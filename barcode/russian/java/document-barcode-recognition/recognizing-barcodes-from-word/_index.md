@@ -3,10 +3,16 @@ title: Легкое распознавание штрих-кодов из док
 linktitle: Распознавание штрих-кодов из документов Word
 second_title: API Aspose.BarCode Java
 description: Откройте для себя беспрепятственную интеграцию распознавания штрих-кодов в ваши Java-приложения с помощью Aspose.BarCode. Следуйте этому руководству, чтобы распознавать штрих-коды в документах Word.
-type: docs
 weight: 12
 url: /ru/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Легкое распознавание штрих-кодов из документов Word
+
 
 ## Введение
 
@@ -111,3 +117,10 @@ for (Shape shape : shapes) {
 
 ### Вопрос: Где я могу найти документацию по Aspose.BarCode для Java?
  Обратитесь к подробной документации[здесь](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

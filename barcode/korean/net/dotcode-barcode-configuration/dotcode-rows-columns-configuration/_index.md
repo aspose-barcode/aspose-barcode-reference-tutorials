@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용한 DotCode 행 및 열 구성
 linktitle: DotCode 행 및 열 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DotCode 행 및 열을 구성하는 방법을 알아보세요. 정확하고 사용자 정의 가능한 2D 바코드를 손쉽게 생성하세요.
-type: docs
 weight: 15
 url: /ko/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용한 DotCode 행 및 열 구성
+
 ## 소개
 
 .NET용 Aspose.BarCode를 사용하여 바코드 생성의 세계에 오신 것을 환영합니다! 이 포괄적인 가이드에서는 Aspose.BarCode를 사용하여 DotCode 행 및 열을 구성하는 흥미로운 영역을 탐구합니다. 노련한 개발자이거나 바코드 생성을 시작하는 여정을 시작하는 사람이라면 이 튜토리얼에서는 DotCode 행 및 열 구성을 마스터하는 데 도움이 되는 필수 단계, 전제 조건 및 네임스페이스를 안내합니다.
@@ -112,3 +118,9 @@ A4: Aspose.BarCode는 QR Code, Code 128, DataMatrix 등 다양한 바코드 유�
 ### Q5: .NET용 Aspose.BarCode에 대한 추가 자습서와 예제는 어디에서 찾을 수 있습니까?
 
  A5: 다음에서 추가 튜토리얼과 예제를 탐색할 수 있습니다.[Aspose.BarCode 문서](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

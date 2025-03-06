@@ -3,10 +3,16 @@ title: تكوين القضبان المملوءة أحادية البعد
 linktitle: تكوين القضبان المملوءة أحادية البعد
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء الرموز الشريطية في .NET باستخدام Aspose.BarCode لـ .NET. يغطي هذا البرنامج التعليمي الشامل كل شيء بدءًا من استيراد مساحات الأسماء وحتى إنشاء رموز شريطية أحادية البعد.
-type: docs
 weight: 20
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين القضبان المملوءة أحادية البعد
+
 
 هل تتطلع إلى إنشاء رموز شريطية احترافية وقابلة للتخصيص في تطبيقات .NET الخاصة بك؟ لا مزيد من البحث! يتوفر Aspose.BarCode for .NET لتبسيط عملية إنشاء الرمز الشريطي لديك، حيث يوفر العديد من الميزات وخيارات التخصيص لتلبية احتياجاتك الخاصة. في هذا البرنامج التعليمي الشامل، سنوجهك عبر أساسيات استخدام Aspose.BarCode لـ .NET، بدءًا من استيراد مساحات الأسماء وحتى إنشاء أشرطة مملوءة أحادية البعد. هيا بنا نبدأ!
 
@@ -99,3 +105,9 @@ url: /ar/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configura
 
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.BarCode لـ .NET؟
  نعم يمكنك الحصول على ترخيص مؤقت من[هذا الرابط](https://purchase.aspose.com/temporary-license/)، والذي يسمح لك باستخدام المكتبة لفترة محدودة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

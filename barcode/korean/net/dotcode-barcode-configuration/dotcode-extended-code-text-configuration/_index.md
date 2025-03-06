@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용한 DotCode 확장 코드 텍스트 구�
 linktitle: DotCode 확장 코드 텍스트 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DotCode 확장 코드 텍스트 구성을 쉽게 생성하세요. 효율적인 바코드 생성을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용한 DotCode 확장 코드 텍스트 구성
+
 ## 소개
 
 바코드 생성 및 관리 영역에서 Aspose.BarCode for .NET은 다재다능하고 효율적인 솔루션으로 돋보입니다. 제품, 재고 또는 기타 애플리케이션에 대한 바코드를 생성해야 하는 경우 Aspose.BarCode for .NET을 사용하면 됩니다. 이 포괄적인 튜토리얼에서는 .NET용 Aspose.BarCode를 사용하여 DotCode 확장 코드 텍스트 구성을 생성하는 데 중점을 둘 것입니다. DotCode는 텍스트 데이터와 바이너리 데이터를 모두 인코딩할 수 있는 2차원 매트릭스 바코드로, 다양한 산업 분야에서 유용한 도구입니다.
@@ -148,3 +154,9 @@ A3: 예, .NET용 Aspose.BarCode는 광범위한 .NET 프레임워크와 호환�
 ### Q5: Aspose.BarCode for .NET은 기업 수준 바코드 생성에 적합합니까?
 
 A5: 물론입니다. .NET용 Aspose.BarCode는 소규모 및 기업 수준 바코드 생성 요구 사항을 모두 충족하도록 설계되어 확장성과 안정성을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

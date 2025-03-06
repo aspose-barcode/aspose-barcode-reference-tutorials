@@ -3,10 +3,16 @@ title: Java에서 바코드를 이미지 인스턴스로 렌더링
 linktitle: 바코드를 이미지 인스턴스로 렌더링
 second_title: Aspose.BarCode 자바 API
 description: Java용 Aspose.BarCode의 강력한 기능을 살펴보세요! 이 강력한 라이브러리를 사용하여 다양한 유형의 바코드를 쉽게 생성할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드를 이미지 인스턴스로 렌더링
+
 
 ## 소개
 
@@ -70,3 +76,10 @@ Image image = bb.generateBarCodeImage();
 
 ### 임시 라이센스 옵션을 사용할 수 있나요?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

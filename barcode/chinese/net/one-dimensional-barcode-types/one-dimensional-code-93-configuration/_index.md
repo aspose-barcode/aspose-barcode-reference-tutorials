@@ -3,10 +3,16 @@ title: 创建一维 Code 93 条形码
 linktitle: 一维代码 93 配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 创建 Code 93 条形码。条形码生成的分步指南。
-type: docs
 weight: 12
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建一维 Code 93 条形码
+
 
 ## 介绍
 
@@ -102,3 +108,10 @@ catch (Exception e)
 
 ### 问：我在哪里可以获得有关 Aspose.BarCode for .NET 的支持或提出问题？
 答：您可以在以下位置找到支持和讨论的社区论坛：[Aspose.BarCode for .NET 支持](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

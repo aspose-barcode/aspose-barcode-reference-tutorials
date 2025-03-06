@@ -3,10 +3,16 @@ title: Pengkodean Kode UPC-A Kupon GS1 128
 linktitle: Pengkodean Kode UPC-A Kupon GS1 128
 second_title: Aspose.BarCode .NET API
 description: Hasilkan kode batang dengan mudah menggunakan Aspose.BarCode untuk .NET - Solusi pembuatan kode batang komprehensif Anda. Mulailah hari ini!
-type: docs
 weight: 12
 url: /id/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengkodean Kode UPC-A Kupon GS1 128
+
 
 ## Perkenalan
 
@@ -115,3 +121,9 @@ Sangat. Aspose.BarCode untuk .NET menyediakan berbagai parameter dan pengaturan 
 
 ### T: Apakah ada tipe pengkodean lain yang didukung oleh Aspose.BarCode untuk .NET?
 Ya, Aspose.BarCode untuk .NET mendukung berbagai jenis pengkodean, termasuk UPC-A, Kode 128, kode QR, dan banyak lagi. Anda dapat menemukan daftar lengkapnya di dokumentasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

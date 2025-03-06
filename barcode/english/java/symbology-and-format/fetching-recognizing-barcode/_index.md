@@ -3,10 +3,16 @@ title: Fetching and Recognizing Barcode in Java
 linktitle: Fetching and Recognizing Barcode
 second_title: Aspose.BarCode Java API
 description: Integrate Aspose.BarCode for Java effortlessly - fetch and recognize barcodes from a database. Download now for a seamless barcode integration experience.
-type: docs
 weight: 11
 url: /java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fetching and Recognizing Barcode in Java
+
 
 ## Introduction
 
@@ -121,3 +127,10 @@ Yes, Aspose.BarCode is designed to handle large-scale applications, providing hi
 ### Are temporary licenses available for testing purposes?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

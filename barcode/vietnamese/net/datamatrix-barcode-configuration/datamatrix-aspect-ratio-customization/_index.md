@@ -3,10 +3,16 @@ title: Tùy chỉnh tỷ lệ khung hình DataMatrix với Aspose.BarCode cho .N
 linktitle: Tùy chỉnh tỷ lệ khung hình DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tùy chỉnh tỷ lệ khung hình mã vạch DataMatrix bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước để tạo mã vạch.
-type: docs
 weight: 10
 url: /vi/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh tỷ lệ khung hình DataMatrix với Aspose.BarCode cho .NET
+
 Bạn đang muốn tạo mã vạch DataMatrix với tỷ lệ khung hình tùy chỉnh bằng Aspose.BarCode cho .NET? Bạn đang ở đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách đạt được điều này. Aspose.BarCode for .NET là một thư viện mạnh mẽ cho phép bạn tạo và thao tác mã vạch một cách dễ dàng. Chúng tôi sẽ bắt đầu bằng cách giới thiệu các điều kiện tiên quyết và không gian tên mà bạn cần, sau đó chúng tôi sẽ đi sâu vào các ví dụ.
 
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Câu trả lời 4: Có, Aspose.BarCode cho .NET tương thích với nhiều ph
 ### Câu hỏi 5: Tôi có thể tạo mã vạch ở các định dạng khác nhau bằng Aspose.BarCode cho .NET không?
 
 Câu trả lời 5: Có, Aspose.BarCode for .NET hỗ trợ tạo mã vạch ở nhiều định dạng khác nhau, bao gồm PNG, JPEG, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

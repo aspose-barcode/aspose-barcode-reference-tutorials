@@ -3,10 +3,16 @@ title: Recupero e riconoscimento del codice a barre in Java
 linktitle: Recupero e riconoscimento del codice a barre
 second_title: API Java Aspose.BarCode
 description: Integra Aspose.BarCode per Java senza sforzo recupera e riconosci i codici a barre da un database. Scaricalo ora per un'esperienza di integrazione perfetta dei codici a barre.
-type: docs
 weight: 11
 url: /it/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recupero e riconoscimento del codice a barre in Java
+
 
 ## introduzione
 
@@ -120,3 +126,10 @@ Sì, Aspose.BarCode è progettato per gestire applicazioni su larga scala, forne
 
 ### Sono disponibili licenze temporanee a scopo di test?
  Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test e valutazione.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

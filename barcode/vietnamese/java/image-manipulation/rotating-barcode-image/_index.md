@@ -3,10 +3,16 @@ title: Xoay hình ảnh mã vạch trong Java
 linktitle: Hình ảnh mã vạch xoay
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách xoay hình ảnh mã vạch trong Java một cách dễ dàng bằng Aspose.BarCode. Hướng dẫn từng bước toàn diện dành cho nhà phát triển Java.
-type: docs
 weight: 15
 url: /vi/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xoay hình ảnh mã vạch trong Java
+
 
 ## Giới thiệu
 
@@ -85,3 +91,10 @@ Có, bạn có thể điều chỉnh góc xoay ở Bước 3 theo bất kỳ gi�
 
 ### Câu hỏi: Tôi có thể tạo mã vạch cho các loại mã hóa khác nhau không?
 Tuyệt đối, chỉ cần điều chỉnh EncodeTypes ở Bước 2 dựa trên yêu cầu của bạn.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การจัดการขนาด X และ Y ของบาร�
 linktitle: การจัดการขนาด X และ Y ของบาร์โค้ด
 second_title: Aspose.BarCode Java API
 description: สำรวจพลังของ Aspose.BarCode สำหรับ Java! เรียนรู้การจัดการมิติ X และ Y ได้อย่างง่ายดายด้วยคำแนะนำทีละขั้นตอนของเรา เพิ่มความแม่นยำและดึงดูดสายตา
-type: docs
 weight: 13
 url: /th/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการขนาด X และ Y ของบาร์โค้ดใน Java
+
 
 ## การแนะนำ
 
@@ -90,3 +96,10 @@ public static void setYDimension() throws IOException {
 
 ### ฉันสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode สำหรับ Java ได้หรือไม่
 ใช่ คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

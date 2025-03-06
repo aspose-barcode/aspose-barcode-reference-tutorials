@@ -3,10 +3,16 @@ title: Настройка текста кода DataMatrix с помощью Asp
 linktitle: Конфигурация расширенного текста кода DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Научитесь настраивать текст расширенного кода DataMatrix с помощью Aspose.BarCode для .NET. Создавайте, распознавайте и интегрируйте штрих-коды в свои приложения .NET.
-type: docs
 weight: 17
 url: /ru/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка текста кода DataMatrix с помощью Aspose.BarCode для .NET
+
 В мире разработки программного обеспечения интеграция штрих-кодов стала насущной необходимостью для различных приложений. С помощью таких библиотек, как Aspose.BarCode для .NET, вы можете легко создавать и распознавать штрих-коды в своих .NET-приложениях. В этом руководстве вы узнаете, как настроить текст расширенного кода DataMatrix с помощью Aspose.BarCode для .NET. Прежде чем мы углубимся в детали, давайте взглянем на необходимые условия для этого руководства.
 
 ## Предварительные условия
@@ -128,3 +134,9 @@ A2: Вы можете получить доступ к документации 
 ### Вопрос 5: Где я могу получить поддержку или задать вопросы об Aspose.BarCode для .NET?
 
  О5: Для получения поддержки или вопросов, связанных с Aspose.BarCode для .NET, вы можете посетить форум Aspose.BarCode.[здесь](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

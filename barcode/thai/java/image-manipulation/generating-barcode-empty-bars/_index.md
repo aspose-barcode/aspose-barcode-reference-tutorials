@@ -3,10 +3,16 @@ title: การสร้างบาร์โค้ดด้วยแถบว�
 linktitle: การสร้างบาร์โค้ดด้วยแถบว่าง
 second_title: Aspose.BarCode Java API
 description: สร้างบาร์โค้ดด้วยแถบว่างได้อย่างง่ายดายใน Java โดยใช้ Aspose.BarCode ปรับแต่งรูปลักษณ์และบูรณาการได้อย่างลงตัว สำรวจบทช่วยสอนทันที!
-type: docs
 weight: 14
 url: /th/java/image-manipulation/generating-barcode-empty-bars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างบาร์โค้ดด้วยแถบว่างใน Java
+
 
 ## การแนะนำ
 
@@ -90,3 +96,9 @@ generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 
 ### ฉันจะหาเอกสารโดยละเอียดของ Aspose.BarCode ได้ที่ไหน
  มีเอกสารประกอบครบถ้วน[ที่นี่](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

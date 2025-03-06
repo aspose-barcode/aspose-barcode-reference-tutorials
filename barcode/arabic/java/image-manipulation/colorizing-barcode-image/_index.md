@@ -3,10 +3,16 @@ title: تلوين صور الباركود في Java باستخدام Aspose.BarC
 linktitle: تلوين صورة الباركود
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية تلوين صور الباركود في Java بسهولة باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة للحصول على نتائج نابضة بالحياة وجذابة بصريًا.
-type: docs
 weight: 13
 url: /ar/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تلوين صور الباركود في Java باستخدام Aspose.BarCode
+
 
 ## مقدمة
 
@@ -109,3 +115,10 @@ bb.save(dataDir + "colorizeBarcode.png");
 
 ### كيف يمكنني شراء ترخيص Aspose.BarCode لـ Java؟
  يمكنك شراء ترخيص بشكل آمن[هنا](https://purchase.aspose.com/buy) لفتح الإمكانات الكاملة لـ Aspose.BarCode.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

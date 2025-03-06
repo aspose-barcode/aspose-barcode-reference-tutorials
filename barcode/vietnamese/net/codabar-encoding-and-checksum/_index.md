@@ -3,10 +3,16 @@ title: Mã hóa và tổng kiểm tra Codabar
 linktitle: Mã hóa và tổng kiểm tra Codabar
 second_title: API Aspose.BarCode .NET
 description: Tối ưu hóa mã vạch Codabar trong .NET với Aspose.BarCode! Tính toán tổng kiểm tra tổng thể cho dữ liệu chính xác. Tạo dễ dàng bằng cách sử dụng các ký tự bắt đầu/dừng theo hướng dẫn của chúng tôi.
-type: docs
 weight: 20
 url: /vi/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa và tổng kiểm tra Codabar
+
 ## Giới thiệu
 
 Bạn có phải là nhà phát triển đang tìm cách khám phá những bí mật về mã hóa Codabar và tính toán tổng kiểm tra trong .NET không? Đừng tìm đâu xa! Bài viết này đi sâu vào những điểm phức tạp của Codabar, cung cấp cho bạn các hướng dẫn toàn diện về cách tính tổng kiểm tra Codabar và cách sử dụng các ký tự bắt đầu/dừng với Aspose.BarCode cho .NET.
@@ -34,3 +40,9 @@ Tóm lại, mã hóa Codabar và tính toán tổng kiểm tra là những kỹ 
 Tìm hiểu cách tính tổng kiểm tra Codabar trong .NET bằng Aspose.BarCode. Nâng cao độ chính xác của dữ liệu trong mã vạch Codabar. Nhận hướng dẫn từng bước.
 ### [Ký tự bắt đầu/dừng của Codabar](./codabar-start-stop-characters/)
 Tìm hiểu cách tạo mã vạch Codabar với các ký tự bắt đầu và kết thúc bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

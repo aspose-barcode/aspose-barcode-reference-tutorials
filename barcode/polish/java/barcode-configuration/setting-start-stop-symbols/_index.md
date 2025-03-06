@@ -3,10 +3,16 @@ title: Ustawianie symboli Start i Stop w Javie
 linktitle: Ustawianie symboli startu i stopu
 second_title: Aspose.BarCode API Java
 description: Generuj niestandardowe kody kreskowe Codabar z określonymi symbolami początku i końca w Javie za pomocą Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 15
 url: /pl/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie symboli Start i Stop w Javie
+
 
 ## Wstęp
 
@@ -104,3 +110,10 @@ Gratulacje! Pomyślnie nauczyłeś się ustawiać symbole początku i końca dla
 ### Czy Aspose.BarCode dla Java obsługuje więcej symboli kodów kreskowych?
 Tak, Aspose.BarCode obsługuje szeroką gamę symboliki kodów kreskowych. Pełną listę można znaleźć w dokumentacji.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

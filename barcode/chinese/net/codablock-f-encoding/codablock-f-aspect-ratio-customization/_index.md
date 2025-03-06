@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 自定义 Codablock F 纵横比
 linktitle: Codablock F 纵横比定制
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 掌握 Codablock F 纵横比定制。轻松创建适合您需求的精确条形码。
-type: docs
 weight: 10
 url: /zh/net/codablock-f-encoding/codablock-f-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 自定义 Codablock F 纵横比
+
 ## 介绍
 
 您准备好使用 Aspose.BarCode for .NET 释放自定义 Codablock F 条形码的强大功能了吗？在这个综合教程中，我们将带您逐步完成 Codablock F 宽高比定制的过程，为您提供精确而巧妙地生成条形码的知识和工具。无论您是开发人员、条形码爱好者，还是想要探索 Aspose.BarCode 功能的人，本指南都能满足您的需求。
@@ -96,3 +102,9 @@ A3：是的，Aspose.BarCode兼容各种.NET框架，适合不同的开发环境
 ### Q5：在哪里可以购买 Aspose.BarCode for .NET 的完整许可证？
 
  A5：您可以从以下位置购买完整许可证：[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавление подписи к штрих-коду в Java с и�
 linktitle: Добавление подписи к штрих-коду
 second_title: API Aspose.BarCode Java
 description: Узнайте, как улучшить визуальные эффекты штрих-кодов на Java с помощью Aspose.BarCode. Легко добавляйте подписи для улучшения пользовательского опыта.
-type: docs
 weight: 10
 url: /ru/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление подписи к штрих-коду в Java с использованием Aspose.BarCode
+
 
 ## Введение
 
@@ -102,3 +108,9 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 ### Куда я могу обратиться за помощью, если у меня возникнут проблемы или вопросы?
  Форум сообщества Aspose.BarCode[здесь](https://forum.aspose.com/c/barcode/13) является отличным ресурсом для поддержки и дискуссий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

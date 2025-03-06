@@ -3,10 +3,16 @@ title: Java 获取并识别条形码
 linktitle: 获取并识别条形码
 second_title: Aspose.BarCode Java API
 description: 轻松集成 Aspose.BarCode for Java - 从数据库获取并识别条形码。立即下载以获得无缝条形码集成体验。
-type: docs
 weight: 11
 url: /zh/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 获取并识别条形码
+
 
 ## 介绍
 
@@ -120,3 +126,10 @@ System.out.println(ex.getMessage());
 
 ### 临时许可证是否可用于测试目的？
 是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

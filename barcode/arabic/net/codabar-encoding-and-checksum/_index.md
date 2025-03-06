@@ -3,10 +3,16 @@ title: ترميز Codabar والمجموع الاختباري
 linktitle: ترميز Codabar والمجموع الاختباري
 second_title: Aspose.BarCode .NET API
 description: قم بتحسين رموز Codabar الشريطية في .NET باستخدام Aspose.BarCode! حساب المجموع الاختباري الرئيسي للحصول على بيانات دقيقة. أنشئ بسهولة باستخدام أحرف البدء/الإيقاف من خلال برامجنا التعليمية.
-type: docs
 weight: 20
 url: /ar/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز Codabar والمجموع الاختباري
+
 ## مقدمة
 
 هل أنت مطور يسعى إلى كشف أسرار تشفير Codabar وحساب المجموع الاختباري في .NET؟ لا مزيد من البحث! تتعمق هذه المقالة في تعقيدات Codabar، وتوفر لك برامج تعليمية شاملة حول حساب المجموع الاختباري لـ Codabar واستخدام أحرف البدء/الإيقاف مع Aspose.BarCode لـ .NET.
@@ -34,3 +40,9 @@ url: /ar/net/codabar-encoding-and-checksum/
 تعرف على كيفية حساب المجموع الاختباري لـ Codabar في .NET باستخدام Aspose.BarCode. تعزيز دقة البيانات في الباركود Codabar. احصل على إرشادات خطوة بخطوة.
 ### [أحرف بدء/إيقاف Codabar](./codabar-start-stop-characters/)
 تعرف على كيفية إنشاء رموز شريطية Codabar بأحرف البداية والإيقاف باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة للمطورين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

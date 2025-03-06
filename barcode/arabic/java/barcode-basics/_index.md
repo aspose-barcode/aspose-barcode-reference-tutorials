@@ -3,10 +3,16 @@ title: أساسيات الباركود
 linktitle: أساسيات الباركود
 second_title: Aspose.BarCode جافا API
 description: أطلق العنان لقوة الرموز الشريطية في تطبيقات Java الخاصة بك! انغمس في البرامج التعليمية لـ Aspose.BarCode لتحقيق التكامل والتخصيص والتعرف بسلاسة.
-type: docs
 weight: 20
 url: /ar/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أساسيات الباركود
+
 
 ## مقدمة
 
@@ -38,3 +44,9 @@ url: /ar/java/barcode-basics/
 إنشاء صورة مع إنشاء باركود دقيق في Java باستخدام Aspose.BarCode. إنشاء رموز شريطية مخصصة بسهولة. استكشف الوثائق وقم بتنزيلها واحصل على الدعم.
 ### [كشف اتجاه الباركود في جافا](./detecting-barcode-orientation/)
 قم بتحسين تطبيقات Java الخاصة بك من خلال التعرف على الرمز الشريطي باستخدام Aspose.BarCode لـ Java. اتبع دليلنا خطوة بخطوة لاكتشاف اتجاه الرمز الشريطي بسهولة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

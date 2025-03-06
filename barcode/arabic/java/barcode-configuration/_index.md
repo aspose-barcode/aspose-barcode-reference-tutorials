@@ -3,10 +3,16 @@ title: تكوين الباركود
 linktitle: تكوين الباركود
 second_title: Aspose.BarCode جافا API
 description: يمكنك بسهولة إنشاء رموز شريطية مخصصة في Java باستخدام Aspose.BarCode. يمكنك تعزيز الكفاءة وسهولة التطوير من خلال برامجنا التعليمية المتنوعة.
-type: docs
 weight: 24
 url: /ar/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الباركود
+
 
 مرحبًا بك في عالم إنشاء الباركود بسلاسة في Java! سواء كنت مطورًا متمرسًا أو بدأت للتو، فإن البرامج التعليمية لتكوين Aspose.BarCode موجودة هنا لإرشادك عبر تعقيدات تكوين الرموز الشريطية بسهولة.
 
@@ -60,3 +66,9 @@ url: /ar/java/barcode-configuration/
 تعرف على كيفية إنشاء رموز شريطية ديناميكية في Java باستخدام Aspose.BarCode. دليل خطوة بخطوة لتكملة البيانات باستخدام رموز EAN_13.
 ### [تكوين نسبة واسعة وضيقة في جافا](./configuring-wide-narrow-ratio/)
 تعرف على كيفية تكوين نسبة واسعة وضيقة في رموز Java الشريطية باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة للتخصيص السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: แสดง Checksum ใน Java เสมอ
 linktitle: แสดงเช็คซัมเสมอ
 second_title: Aspose.BarCode Java API
 description: สร้างบาร์โค้ดด้วย Aspose.BarCode สำหรับ Java ได้อย่างง่ายดาย เรียนรู้วิธีแสดงเช็คซัมเพื่อความสมบูรณ์ของข้อมูลที่ได้รับการปรับปรุงอยู่เสมอในคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 10
 url: /th/java/checksum-and-validation/always-showing-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แสดง Checksum ใน Java เสมอ
+
 
 ## การแนะนำ
 
@@ -90,3 +96,10 @@ generator.save(dataDir + "checksum.jpg");
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode สำหรับ Java ได้อย่างไร
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

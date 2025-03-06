@@ -3,10 +3,16 @@ title: Απόδοση γραμμικού κώδικα σε Servlet σε Java
 linktitle: Απόδοση γραμμικού κώδικα στο Servlet
 second_title: Aspose.BarCode Java API
 description: Δημιουργήστε και αποδώστε γραμμικούς κώδικες χωρίς κόπο σε Java Servlets με το Aspose.BarCode. Προσαρμόστε τύπους, ενσωματώστε εύκολα. Εξερευνήστε τις δυνατότητες!
-type: docs
 weight: 13
 url: /el/java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Απόδοση γραμμικού κώδικα σε Servlet σε Java
+
 
 ## Εισαγωγή
 
@@ -102,3 +108,9 @@ public class RenderBarcodeToServlet extends HttpServlet {
 
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.BarCode;
  Για να αποκτήσετε προσωρινή άδεια, επισκεφθείτε[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ITF-14 Aanpassing van de randdikte van streepjescodes
 linktitle: ITF-14 Aanpassing van de randdikte van streepjescodes
 second_title: Aspose.BarCode .NET API
 description: Pas de randdikte van de ITF-14-barcodes aan met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het naadloos genereren van barcodes.
-type: docs
 weight: 10
 url: /nl/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 Aanpassing van de randdikte van streepjescodes
+
 
 Wilt u uw barcodegeneratie verbeteren met aanpasbare randdikte met behulp van Aspose.BarCode voor .NET? Als dat zo is, bent u hier aan het juiste adres. In deze stapsgewijze handleiding leiden we u door het proces van het wijzigen van de randdikte van een ITF-14-barcode. Met een paar eenvoudige stappen kunt u de gewenste randdikte voor uw barcodes bereiken, of het nu gaat om productetikettering of voorraadbeheer. Laten we beginnen!
 
@@ -108,3 +114,9 @@ De beperkingen kunnen variëren afhankelijk van de specifieke vereisten voor het
 
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.BarCode voor .NET?
  U kunt een tijdelijke licentie verkrijgen via[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

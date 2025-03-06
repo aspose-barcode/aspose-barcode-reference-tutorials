@@ -3,10 +3,16 @@ title: 아즈텍 바코드 인코딩
 linktitle: 아즈텍 바코드 인코딩
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 Aztec 바코드 인코딩의 잠재력을 활용해 보세요. 종횡비를 사용자 정의하고, 텍스트로 인코딩된 Aztec 코드를 만들고, 기호 모드를 마스터하세요.
-type: docs
 weight: 28
 url: /ko/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 아즈텍 바코드 인코딩
+
 
 ## 소개
 
@@ -44,3 +50,9 @@ Aztec 바코드의 종횡비를 사용자 정의하고 싶었던 적이 있습�
 .NET용 Aspose.BarCode를 사용하여 다양한 오류 수준으로 Aztec 오류 바코드를 생성하는 방법을 알아보세요. 바코드 생성을 위한 종합 가이드입니다.
 ### [아즈텍 기호 모드 마스터하기](./aztec-symbol-mode-example/)
 .NET용 Aspose.BarCode에서 Aztec 기호 모드를 탐색하고 다양한 바코드를 쉽게 생성하는 방법을 알아보세요. 이 종합 튜토리얼에서 Auto, FullRange, Compact 및 Rune 모드를 직접 사용해 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

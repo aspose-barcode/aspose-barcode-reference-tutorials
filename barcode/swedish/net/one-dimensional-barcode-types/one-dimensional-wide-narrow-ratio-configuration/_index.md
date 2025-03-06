@@ -3,10 +3,16 @@ title: Endimensionell Wide-Narrow Ratio Configuration
 linktitle: Endimensionell Wide-Narrow Ratio Configuration
 second_title: Aspose.BarCode .NET API
 description: Generera anpassade streckkoder enkelt med Aspose.BarCode för .NET. Steg-för-steg-guide för endimensionell bred-smal konfiguration.
-type: docs
 weight: 22
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Endimensionell Wide-Narrow Ratio Configuration
+
 
 Vill du skapa och anpassa streckkoder utan ansträngning i dina .NET-applikationer? Kolla inte vidare! Aspose.BarCode för .NET är ett robust bibliotek som gör generering och anpassning av streckkoder till en lek. I den här steg-för-steg-guiden kommer vi att fördjupa oss i hur man kan utnyttja kraften i Aspose.BarCode för .NET för att skapa streckkoder med en konfiguration med brett och smalt förhållande.
 
@@ -104,3 +110,10 @@ Aspose.BarCode för .NET stöder ett brett utbud av streckkodssymboler, inklusiv
 
 ### 5. Hur kan jag få support eller ställa frågor om Aspose.BarCode för .NET?
  Du kan besöka[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) för stöd och diskussioner.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

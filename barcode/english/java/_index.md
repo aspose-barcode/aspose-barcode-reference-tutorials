@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials & Examples of Aspose.BarCode for Java
 linktitle: Aspose.BarCode for Java Tutorials
-type: docs
 weight: 10
 url: /java/
 description: Elevate your Java coding skills with Aspose.BarCode tutorials. Unlock seamless integration, customization, and recognition. Dive into the power of barcodes today.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials & Examples of Aspose.BarCode for Java
+
 ## Introduction
 
 Unlock the full potential of barcode integration in your Java applications with Comprehensive Tutorials & Examples of Aspose.BarCode for Java. Whether you're a seasoned developer or just starting, these tutorials cover everything you need to know to master the art of barcode manipulation.
@@ -74,3 +79,9 @@ Explore Java barcode image manipulation with Aspose.BarCode tutorials. Enhance, 
 Effortlessly create and integrate barcodes in Java with Aspose.BarCode. Explore step-by-step tutorials for rendering barcodes to graphics, images, printers, and servlets.
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 Unlock the potential of Java barcode generation with Aspose.BarCode. Configure custom sizes, optimize image resolution, and master barcode settings for seamless integration. Elevate your Java applications effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfiguration von DotCode-Zeilen und -Spalten mit Aspose.BarCode für .NE
 linktitle: Konfiguration von DotCode-Zeilen und -Spalten
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie DotCode-Zeilen und -Spalten mit Aspose.BarCode für .NET konfigurieren. Generieren Sie mühelos präzise und anpassbare 2D-Barcodes.
-type: docs
 weight: 15
 url: /de/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfiguration von DotCode-Zeilen und -Spalten mit Aspose.BarCode für .NET
+
 ## Einführung
 
 Willkommen in der Welt der Barcode-Generierung mit Aspose.BarCode für .NET! In diesem umfassenden Leitfaden tauchen wir in die faszinierende Welt der Konfiguration von DotCode-Zeilen und -Spalten mit Aspose.BarCode ein. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst mit der Barcode-Generierung beginnen, führt Sie dieses Tutorial durch die wesentlichen Schritte, Voraussetzungen und Namespaces, um Ihnen den Einstieg in die Beherrschung der Konfiguration von DotCode-Zeilen und -Spalten zu erleichtern.
@@ -112,3 +118,9 @@ A4: Aspose.BarCode unterstützt eine Vielzahl von Barcode-Typen, darunter unter 
 ### F5: Wo finde ich weitere Tutorials und Beispiele für Aspose.BarCode für .NET?
 
  A5: Weitere Tutorials und Beispiele finden Sie im[Aspose.BarCode-Dokumentation](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

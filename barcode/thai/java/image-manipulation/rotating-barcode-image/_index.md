@@ -3,10 +3,16 @@ title: การหมุนภาพบาร์โค้ดใน Java
 linktitle: หมุนภาพบาร์โค้ด
 second_title: Aspose.BarCode Java API
 description: เรียนรู้วิธีหมุนภาพบาร์โค้ดใน Java ได้อย่างง่ายดายโดยใช้ Aspose.BarCode คำแนะนำทีละขั้นตอนที่ครอบคลุมสำหรับนักพัฒนา Java
-type: docs
 weight: 15
 url: /th/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การหมุนภาพบาร์โค้ดใน Java
+
 
 ## การแนะนำ
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### ถาม: ฉันสามารถสร้างบาร์โค้ดสำหรับการเข้ารหัสประเภทต่างๆ ได้หรือไม่
 แน่นอน เพียงปรับ EncodeTypes ในขั้นตอนที่ 2 ตามความต้องการของคุณ
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

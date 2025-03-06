@@ -3,10 +3,16 @@ title: Impostazione dei simboli di avvio e arresto in Java
 linktitle: Impostazione dei simboli di avvio e arresto
 second_title: API Java Aspose.BarCode
 description: Genera codici a barre Codabar personalizzati con simboli di inizio e fine specifici in Java utilizzando Aspose.BarCode. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 15
 url: /it/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione dei simboli di avvio e arresto in Java
+
 
 ## introduzione
 
@@ -104,3 +110,10 @@ Congratulazioni! Hai imparato con successo come impostare i simboli di inizio e 
 ### Ci sono più simbologie di codici a barre supportate da Aspose.BarCode per Java?
 Sì, Aspose.BarCode supporta un'ampia gamma di simbologie di codici a barre. Fare riferimento alla documentazione per un elenco completo.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

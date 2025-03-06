@@ -3,10 +3,16 @@ title: Generate DataMatrix Mode (Auto) with Aspose.BarCode for .NET
 linktitle: DataMatrix Encoding Mode (Auto)
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate DataMatrix Mode (Auto) with Aspose.BarCode for .NET. This step-by-step guide covers everything from prerequisites to reading barcodes.
-type: docs
 weight: 14
 url: /net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generate DataMatrix Mode (Auto) with Aspose.BarCode for .NET
+
 As the digital age continues to evolve, the need for efficient data encoding methods becomes increasingly crucial. DataMatrix Mode (Auto) are one such solution, allowing you to store information in a compact and reliable format. In this step-by-step guide, we'll explore how to generate DataMatrix Mode (Auto) effortlessly using the Aspose.BarCode for .NET library. Whether you're a seasoned developer or a newcomer, this tutorial will walk you through the process, making it easy to get started.
 
 ## Prerequisites
@@ -101,3 +107,10 @@ A4: Yes, you can explore Aspose.BarCode with a free trial from [this link](https
 ### Q5: What encoding options are available for DataMatrix barcodes?
 
 A5: Aspose.BarCode for .NET offers various encoding options, including UTF-8, ASCII, and more. You can select the desired encoding when creating the barcode.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

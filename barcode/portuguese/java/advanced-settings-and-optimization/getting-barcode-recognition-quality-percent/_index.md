@@ -3,10 +3,16 @@ title: Obtendo qualidade de reconhecimento de código de barras em porcentagem e
 linktitle: Obtendo qualidade de reconhecimento de código de barras em porcentagem
 second_title: API Java Aspose.BarCode
 description: Obtendo qualidade de reconhecimento de código de barras em Java com Aspose.BarCode. Siga nosso guia passo a passo para obter os melhores resultados.
-type: docs
 weight: 21
 url: /pt/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtendo qualidade de reconhecimento de código de barras em porcentagem em Java com Aspose.BarCode
+
 ## Introdução
 
 Se você deseja obter a qualidade de reconhecimento de código de barras do seu aplicativo Java, Aspose.BarCode é a ferramenta perfeita para o trabalho. Neste tutorial, orientaremos você no processo de obtenção da qualidade ideal de reconhecimento de código de barras em algumas etapas simples usando Aspose.BarCode para Java.
@@ -88,3 +94,9 @@ A3: Obtenha uma licença temporária para testes de[aqui](https://purchase.aspos
 ### P5: Há algum exemplo de código disponível na documentação?
 
  A5: Sim, você pode encontrar exemplos de código abrangentes na documentação[aqui](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

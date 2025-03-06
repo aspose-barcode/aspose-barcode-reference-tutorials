@@ -3,10 +3,16 @@ title: Gerando código de barras postal da Austrália em Java
 linktitle: Gerando código de barras postal da Austrália
 second_title: API Java Aspose.BarCode
 description: Gere códigos de barras postais da Austrália sem esforço em Java usando Aspose.BarCode. Siga nosso tutorial passo a passo para uma integração perfeita.
-type: docs
 weight: 12
 url: /pt/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerando código de barras postal da Austrália em Java
+
 
 ## Introdução
 
@@ -88,3 +94,9 @@ Absolutamente! Aspose.BarCode oferece amplas opções de personalização para a
 
 ### Como obtenho uma licença temporária para Aspose.BarCode?
  Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

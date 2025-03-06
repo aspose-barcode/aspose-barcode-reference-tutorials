@@ -3,10 +3,16 @@ title: Générer et enregistrer un code-barres en Java
 linktitle: Générer et enregistrer un code-barres
 second_title: API Java Aspose.BarCode
 description: Générez et enregistrez des codes-barres sans effort en Java avec Aspose.BarCode. Intégrez-le de manière transparente, personnalisez son apparence et bénéficiez d'une prise en charge étendue des codes-barres.
-type: docs
 weight: 12
 url: /fr/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer et enregistrer un code-barres en Java
+
 
 ## Introduction
 
@@ -108,3 +114,9 @@ R : Oui, Aspose.BarCode prend en charge différents types de codes-barres, notam
 
 ### Q : Comment puis-je obtenir de l'assistance pour Aspose.BarCode ?
  R : Visitez le forum d'assistance[ici](https://forum.aspose.com/c/barcode/13) pour toute aide ou question.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

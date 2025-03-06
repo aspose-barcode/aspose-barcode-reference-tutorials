@@ -3,10 +3,16 @@ title: Configuring DataMatrix Code Text with Aspose.BarCode for .NET
 linktitle: DataMatrix Extended Code Text Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn to configure DataMatrix extended code text using Aspose.BarCode for .NET. Generate, recognize, and integrate barcodes in your .NET applications.
-type: docs
 weight: 17
 url: /net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring DataMatrix Code Text with Aspose.BarCode for .NET
+
 In the world of software development, barcode integration has become a pivotal necessity for various applications. With the help of libraries like Aspose.BarCode for .NET, you can easily generate and recognize barcodes in your .NET applications. This tutorial will walk you through the process of configuring DataMatrix extended code text using Aspose.BarCode for .NET. Before we dive into the details, let's take a look at the prerequisites for this guide.
 
 ## Prerequisites
@@ -128,3 +134,10 @@ A4: If you need a temporary license for testing or evaluation purposes, you can 
 ### Q5: Where can I get support or ask questions about Aspose.BarCode for .NET?
 
 A5: For any support or questions related to Aspose.BarCode for .NET, you can visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

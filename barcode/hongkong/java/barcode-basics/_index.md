@@ -3,10 +3,16 @@ title: 條碼基礎知識
 linktitle: 條碼基礎知識
 second_title: Aspose.BarCode Java API
 description: 在您的 Java 應用程式中釋放條碼的力量！深入研究 Aspose.BarCode 教程以實現無縫整合、自訂和識別。
-type: docs
 weight: 20
 url: /zh-hant/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 條碼基礎知識
+
 
 ## 介紹
 
@@ -38,3 +44,9 @@ url: /zh-hant/java/barcode-basics/
 使用 Aspose.BarCode 在 Java 中建立具有精確條碼產生的影像。輕鬆建立自訂條碼。瀏覽文件、下載並取得支援。
 ### [Java 中的條碼方向偵測](./detecting-barcode-orientation/)
 使用 Aspose.BarCode for Java 透過條碼識別增強您的 Java 應用程式。按照我們的逐步指南輕鬆偵測條碼方向。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

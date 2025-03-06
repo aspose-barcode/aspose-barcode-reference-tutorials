@@ -3,10 +3,16 @@ title: Mengatur Ketinggian Bar di Java
 linktitle: Mengatur Tinggi Batang
 second_title: Aspose.BarCode Java API
 description: Hasilkan dan sesuaikan kode batang dengan mudah di Java dengan Aspose.BarCode. Tetapkan tinggi bilah, pilih jenis, dan tingkatkan kemampuan aplikasi Anda.
-type: docs
 weight: 14
 url: /id/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Ketinggian Bar di Java
+
 
 ## Perkenalan
 
@@ -78,3 +84,10 @@ Tentu! Aspose.BarCode mendukung pengkodean data numerik dan alfanumerik dalam ko
 ### Di mana saya dapat menemukan dukungan untuk Aspose.BarCode untuk Java?
  Kunjungi forum Aspose.BarCode[Di Sini](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi komunitas.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

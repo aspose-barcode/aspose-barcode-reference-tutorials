@@ -3,10 +3,16 @@ title: Java でオーストラリア郵便バーコードを生成する
 linktitle: オーストラリア郵便バーコードの生成
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java でオーストラリア郵便バーコードを簡単に生成します。シームレスな統合については、段階的なチュートリアルに従ってください。
-type: docs
 weight: 12
 url: /ja/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でオーストラリア郵便バーコードを生成する
+
 
 ## 導入
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### Aspose.BarCode の一時ライセンスを取得するにはどうすればよいですか?
 仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ITF-14 Generatie van streepjescoderandtypes
 linktitle: ITF-14 Generatie van streepjescoderandtypes
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u ITF-14-barcodes met verschillende randtypen kunt maken met Aspose.BarCode voor .NET. Pas uw verpakking en etikettering eenvoudig aan.
-type: docs
 weight: 11
 url: /nl/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 Generatie van streepjescoderandtypes
+
 
 In deze zelfstudie begeleiden we u bij het genereren van ITF-14-barcodes met verschillende randtypen met behulp van Aspose.BarCode voor .NET. Aspose.BarCode is een krachtige bibliotheek waarmee u streepjescodes in verschillende formaten kunt maken, manipuleren en herkennen. In dit specifieke voorbeeld zullen we ons concentreren op ITF-14-barcodes en hoe u hun randtypes kunt controleren. ITF-14-barcodes worden vaak gebruikt voor verpakkings- en etiketteringsdoeleinden.
 
@@ -109,3 +115,10 @@ Ja, Aspose.BarCode voor .NET is compatibel met verschillende .NET-frameworks, wa
 
 ### Is er een gratis proefversie van Aspose.BarCode beschikbaar?
 Ja, u heeft toegang tot een gratis proefversie van Aspose.BarCode voor .NET vanaf[hier](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

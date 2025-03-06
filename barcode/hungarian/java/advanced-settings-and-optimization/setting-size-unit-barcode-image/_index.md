@@ -3,10 +3,16 @@ title: Mértékegység beállítása vonalkód képhez Java nyelven az Aspose.Ba
 linktitle: A vonalkód kép méretének beállítása
 second_title: Aspose.BarCode Java API
 description: Fedezze fel az Aspose.BarCode for Java erejét a vonalkódképek pontos méretegységeinek beállításában. Könnyed integráció, robusztus teljesítmény és végtelen testreszabási lehetőségek.
-type: docs
 weight: 15
 url: /hu/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mértékegység beállítása vonalkód képhez Java nyelven az Aspose.BarCode segítségével
+
 ## Bevezetés
 
 Az Aspose.BarCode for Java egy robusztus Java API, amely lehetővé teszi a fejlesztők számára, hogy könnyedén integrálják a vonalkód-előállítási és -felismerési képességeket Java-alkalmazásaikba. Függetlenül attól, hogy kifinomult leltári rendszert, kiskereskedelmi alkalmazást vagy bármely más, vonalkód-funkcionalitást igénylő szoftvert fejleszt, az Aspose.BarCode megbízható és hatékony választásnak bizonyul.
@@ -100,3 +106,9 @@ A2: Abszolút. Az Aspose.BarCode for Java kiterjedt testreszabási lehetőségek
 ### 5. kérdés: Melyek az Aspose.BarCode for Java által támogatott vonalkód-szimbólumok?
 
 5. válasz: Az Aspose.BarCode for Java a vonalkód-szimbólumok széles skáláját támogatja, beleértve a CODE_128, QR_CODE, UPC_A és még sok mást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

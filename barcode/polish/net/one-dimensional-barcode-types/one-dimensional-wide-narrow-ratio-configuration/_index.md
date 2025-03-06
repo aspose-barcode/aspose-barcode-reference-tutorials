@@ -3,10 +3,16 @@ title: Konfiguracja jednowymiarowego szerokiego i wąskiego współczynnika
 linktitle: Konfiguracja jednowymiarowego szerokiego i wąskiego współczynnika
 second_title: Aspose.BarCode .NET API
 description: Z łatwością generuj niestandardowe kody kreskowe za pomocą Aspose.BarCode dla .NET. Przewodnik krok po kroku dotyczący konfiguracji jednowymiarowego współczynnika szerokiego i wąskiego.
-type: docs
 weight: 22
 url: /pl/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfiguracja jednowymiarowego szerokiego i wąskiego współczynnika
+
 
 Czy chcesz bez wysiłku generować i dostosowywać kody kreskowe w aplikacjach .NET? Nie szukaj dalej! Aspose.BarCode dla .NET to solidna biblioteka, która sprawia, że generowanie i dostosowywanie kodów kreskowych jest dziecinnie proste. W tym przewodniku krok po kroku zagłębimy się w sposób wykorzystania mocy Aspose.BarCode dla .NET do tworzenia kodów kreskowych z konfiguracją szerokiego i wąskiego współczynnika.
 
@@ -104,3 +110,10 @@ Aspose.BarCode dla .NET obsługuje szeroką gamę symboli kodów kreskowych, w t
 
 ### 5. Jak mogę uzyskać pomoc lub zadać pytania dotyczące Aspose.BarCode dla .NET?
  Możesz odwiedzić[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) za wsparcie i dyskusje.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

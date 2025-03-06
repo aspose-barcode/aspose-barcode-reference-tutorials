@@ -3,10 +3,16 @@ title: Példa lépésről lépésre a GS1 128-as kóddal
 linktitle: GS1 kód 128 Példa
 second_title: Aspose.BarCode .NET API
 description: Ismerje meg, hogyan hozhat létre GS1 Code 128 vonalkódokat az Aspose.BarCode for .NET segítségével. Lépésről lépésre útmutató vonalkód generálásához C# nyelven. Kezd el most!
-type: docs
 weight: 10
 url: /hu/net/gs1-barcode-encoding/gs1-code-128-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Példa lépésről lépésre a GS1 128-as kóddal
+
 
 ## Bevezetés
 
@@ -89,3 +95,9 @@ Ebben a lépésről lépésre bemutatott útmutatóban bemutattuk az Aspose.BarC
 
 ### Segítségre van szüksége vagy kérdései vannak? Hol találok támogatást?
 Támogatásért és közösségi megbeszélésekért látogasson el ide[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

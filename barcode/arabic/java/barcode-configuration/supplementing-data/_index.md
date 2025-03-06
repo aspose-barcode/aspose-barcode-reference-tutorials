@@ -3,10 +3,16 @@ title: تكملة البيانات في جافا
 linktitle: تكملة البيانات
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية إنشاء رموز شريطية ديناميكية في Java باستخدام Aspose.BarCode. دليل خطوة بخطوة لتكملة البيانات باستخدام رموز EAN_13.
-type: docs
 weight: 16
 url: /ar/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكملة البيانات في جافا
+
 
 ## مقدمة
 
@@ -96,3 +102,10 @@ generator.save(dataDir + "supplementData.jpg");
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

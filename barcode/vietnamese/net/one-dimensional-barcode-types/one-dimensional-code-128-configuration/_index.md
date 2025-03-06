@@ -3,10 +3,16 @@ title: Cấu hình mã một chiều 128
 linktitle: Cấu hình mã một chiều 128
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch Code 128 một chiều trong .NET bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp mã vạch liền mạch.
-type: docs
 weight: 10
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình mã một chiều 128
+
 
 Nếu bạn là nhà phát triển .NET đang tìm kiếm một công cụ mạnh mẽ để tạo mã vạch trong ứng dụng của mình thì Aspose.BarCode for .NET là giải pháp phù hợp cho bạn. Hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình khai thác các khả năng của Aspose.BarCode cho .NET để tạo mã vạch Code 128 một chiều và được thiết kế cho cả người mới bắt đầu và nhà phát triển có kinh nghiệm. 
 
@@ -108,3 +114,10 @@ Mặc dù Aspose.BarCode chủ yếu tập trung vào mã vạch một chiều, 
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.BarCode cho .NET ở đâu?
  Bạn có thể tìm kiếm trợ giúp và chia sẻ kinh nghiệm của mình trên diễn đàn Aspose.BarCode for .NET[đây](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

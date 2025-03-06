@@ -3,10 +3,16 @@ title: تكوين الرموز الشريطية ذات الحجم المخصص �
 linktitle: تكوين الحجم المخصص للرمز الشريطي
 second_title: Aspose.BarCode جافا API
 description: اكتشف بساطة تكوين الرموز الشريطية ذات الحجم المخصص في Java باستخدام Aspose.BarCode. اتبع برنامجنا التعليمي خطوة بخطوة للتكوين الدقيق.
-type: docs
 weight: 10
 url: /ar/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الرموز الشريطية ذات الحجم المخصص في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 إذا كنت أحد مطوري برامج Java وتتطلع إلى تكوين رموز شريطية ذات أحجام مخصصة بسلاسة، فإن Aspose.BarCode for Java هو الحل الأمثل لك. سيرشدك هذا البرنامج التعليمي خلال عملية تكوين حجم مخصص للرموز الشريطية الخاصة بك، مما يضمن المرونة والدقة في تطبيقاتك.
@@ -112,3 +118,9 @@ generator.save(dataDir + "barcode-custom-size.jpg");
 ### س5: هل يتوفر خيار ترخيص مؤقت؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

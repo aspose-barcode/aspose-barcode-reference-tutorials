@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用した DataMatrix コード テキスト
 linktitle: DataMatrix 拡張コードテキスト構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して DataMatrix 拡張コード テキストを構成する方法を学びます。バーコードを生成、認識し、.NET アプリケーションに統合します。
-type: docs
 weight: 17
 url: /ja/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用した DataMatrix コード テキストの構成
+
 ソフトウェア開発の世界では、バーコードの統合はさまざまなアプリケーションにとって極めて重要な要素となっています。 Aspose.BarCode for .NET などのライブラリを利用すると、.NET アプリケーションでバーコードを簡単に生成して認識できます。このチュートリアルでは、Aspose.BarCode for .NET を使用して DataMatrix 拡張コード テキストを構成するプロセスについて説明します。詳細に入る前に、このガイドの前提条件を見てみましょう。
 
 ## 前提条件
@@ -128,3 +134,9 @@ A2: Aspose.BarCode for .NET のドキュメントにアクセスできます。[
 ### Q5: Aspose.BarCode for .NET に関するサポートや質問はどこで受けられますか?
 
  A5: Aspose.BarCode for .NET に関するサポートや質問については、Aspose.BarCode フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

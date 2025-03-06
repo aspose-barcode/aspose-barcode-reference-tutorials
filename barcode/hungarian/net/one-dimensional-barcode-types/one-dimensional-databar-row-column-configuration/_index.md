@@ -3,10 +3,16 @@ title: Egydimenziós adatsorok és oszlopok konfigurációja
 linktitle: Egydimenziós adatsorok és oszlopok konfigurációja
 second_title: Aspose.BarCode .NET API
 description: Dinamikus egydimenziós DataBar vonalkódok létrehozása sor- és oszlopkonfigurációval a .NET-ben az Aspose.BarCode for .NET használatával. A testreszabás egyszerű!
-type: docs
 weight: 19
 url: /hu/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egydimenziós adatsorok és oszlopok konfigurációja
+
 
 mai digitális világban a vonalkódok döntő szerepet játszanak a különböző iparágakban, a készletkezeléstől a termékcímkézésig. Fejlesztőként szüksége lehet egy hatékony eszközre a vonalkódok generálásához és testreszabásához .NET-alkalmazásaiban. Az Aspose.BarCode for .NET egy sokoldalú könyvtár, amely lehetővé teszi egydimenziós és kétdimenziós vonalkódok egyszerű létrehozását, testreszabását és kezelését.
 
@@ -112,3 +118,10 @@ Teljesen! Az Aspose.BarCode for .NET sokoldalú, és különféle .NET-alkalmaz�
  Igen, a dokumentáció[itt](https://reference.aspose.com/barcode/net/)részletes kódpéldákat és mintaprojekteket kínál az induláshoz.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.BarCode cho .NET
 linktitle: Hướng dẫn Aspose.BarCode cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Khai phá tiềm năng của Aspose.BarCode cho .NET bằng các hướng dẫn toàn diện! Làm chủ mã hóa Codabar, tùy chỉnh Codablock F, khám phá Mã 16K, v.v.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.BarCode cho .NET
+
 
 
 Aspose.BarCode for .NET trao quyền cho các nhà phát triển tạo và tùy chỉnh các loại mã vạch khác nhau một cách chính xác và dễ dàng. Cho dù bạn đang tìm hiểu sâu về mã hóa Codabar hay khám phá các tùy chọn nâng cao như Mã vạch Aztec, hướng dẫn của chúng tôi đều đề cập đến tất cả.
@@ -91,3 +96,9 @@ Tạo mã vạch DataMatrix dễ dàng với Aspose.BarCode cho .NET. Tùy chỉ
 Tạo và đọc mã vạch DataMatrix dễ dàng với Aspose.BarCode for .NET. Đi sâu vào lập trình trình đọc DataMatrix và cấu hình nối thêm có cấu trúc.
 ### [Cấu hình mã vạch DotCode](./dotcode-barcode-configuration/)
 Tạo mã vạch DotCode tùy chỉnh dễ dàng với Aspose.BarCode .NET. Tìm hiểu tỷ lệ khung hình, chế độ mã hóa, văn bản mã mở rộng và khởi tạo trình đọc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

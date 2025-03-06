@@ -3,10 +3,16 @@ title: Configurando códigos de barras de tamanho personalizado em Java com Aspo
 linktitle: Configurando tamanho personalizado para código de barras
 second_title: API Java Aspose.BarCode
 description: Explore a simplicidade de configurar códigos de barras de tamanhos personalizados em Java com Aspose.BarCode. Siga nosso tutorial passo a passo para uma configuração precisa.
-type: docs
 weight: 10
 url: /pt/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando códigos de barras de tamanho personalizado em Java com Aspose.BarCode
+
 ## Introdução
 
 Se você é um desenvolvedor Java que deseja configurar códigos de barras de tamanhos personalizados de maneira integrada, Aspose.BarCode for Java é a solução ideal. Este tutorial orientará você no processo de configuração de um tamanho personalizado para seus códigos de barras, garantindo flexibilidade e precisão em suas aplicações.
@@ -112,3 +118,9 @@ A1: Sim, Aspose.BarCode for Java suporta vários tipos de simbologia, permitindo
 ### P5: Existe uma opção de licença temporária disponível?
 
  A5: Sim, você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

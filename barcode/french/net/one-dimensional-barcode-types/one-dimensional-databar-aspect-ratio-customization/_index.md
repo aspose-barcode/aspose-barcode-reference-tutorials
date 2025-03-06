@@ -3,10 +3,16 @@ title: Personnalisation du rapport hauteur/largeur de la barre de données unidi
 linktitle: Personnalisation du rapport hauteur/largeur de la barre de données unidimensionnelle
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment personnaliser les proportions d’une barre de données unidimensionnelle dans .NET à l’aide d’Aspose.BarCode. Améliorez la précision et la conception des codes-barres.
-type: docs
 weight: 16
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisation du rapport hauteur/largeur de la barre de données unidimensionnelle
+
 
 Dans le monde du code-barres, la précision et la personnalisation sont essentielles pour obtenir les résultats souhaités. En tant que rédacteur SEO expérimenté, je suis là pour vous guider tout au long du processus de personnalisation des proportions d'une barre de données unidimensionnelle à l'aide d'Aspose.BarCode pour .NET. Nous décomposerons ce processus complexe en étapes gérables, en veillant à ce que vous compreniez parfaitement le concept. Alors, plongeons-nous !
 
@@ -116,3 +122,10 @@ Bien que vous puissiez ajuster le rapport hauteur/largeur, des changements extr�
  Si vous avez besoin d'une licence temporaire pour des tests ou une évaluation, vous pouvez en obtenir une[ici](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

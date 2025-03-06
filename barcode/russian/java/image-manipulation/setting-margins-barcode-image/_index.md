@@ -3,10 +3,16 @@ title: Установка полей для изображения штрих-к
 linktitle: Настройка полей для изображения штрих-кода
 second_title: API Aspose.BarCode Java
 description: Узнайте, как установить поля для изображений штрих-кода в Java с помощью Aspose.BarCode. Настройте интервал для плавной интеграции в ваше приложение.
-type: docs
 weight: 11
 url: /ru/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установка полей для изображения штрих-кода в Java
+
 
 ## Введение
 
@@ -99,3 +105,10 @@ Aspose.BarCode в первую очередь разработан для Java, 
 
 ### Как я могу приобрести полную версию Aspose.BarCode для Java?
  Вы можете приобрести полную версию Aspose.BarCode для Java на сайте[страница покупки](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

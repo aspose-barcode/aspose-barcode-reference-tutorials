@@ -3,10 +3,16 @@ title: Java에서 시작 및 중지 기호 설정
 linktitle: 시작 및 중지 기호 설정
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 특정 시작 및 중지 기호가 있는 맞춤형 Codabar 바코드를 생성하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 15
 url: /ko/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 시작 및 중지 기호 설정
+
 
 ## 소개
 
@@ -104,3 +110,10 @@ generator.save(dataDir + "startAndStopSymbols.png");
 ### Aspose.BarCode for Java에서 지원하는 더 많은 바코드 기호가 있습니까?
 예, Aspose.BarCode는 광범위한 바코드 기호를 지원합니다. 전체 목록은 설명서를 참조하세요.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Настройка соотношения сторон DataMatrix с по
 linktitle: Настройка соотношения сторон DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как настроить пропорции штрих-кода DataMatrix с помощью Aspose.BarCode для .NET. Пошаговое руководство по созданию штрих-кода.
-type: docs
 weight: 10
 url: /ru/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка соотношения сторон DataMatrix с помощью Aspose.BarCode для .NET
+
 Вы хотите генерировать штрих-коды DataMatrix с настраиваемым соотношением сторон, используя Aspose.BarCode для .NET? Вы находитесь в правильном месте. В этом пошаговом уроке мы покажем вам, как этого добиться. Aspose.BarCode for .NET — это мощная библиотека, которая позволяет легко создавать и манипулировать штрих-кодами. Мы начнем с представления необходимых вам предварительных условий и пространств имен, а затем углубимся в примеры.
 
 ## Предварительные условия
@@ -86,3 +92,9 @@ gen.Save($"{path}DataMatrixAspectRatio0.5.png", BarCodeImageFormat.Png);
 ### Вопрос 5: Могу ли я генерировать штрих-коды в разных форматах с помощью Aspose.BarCode для .NET?
 
 О5: Да, Aspose.BarCode для .NET поддерживает создание штрих-кодов в различных форматах, включая PNG, JPEG и другие.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

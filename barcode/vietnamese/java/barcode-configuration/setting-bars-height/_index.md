@@ -3,10 +3,16 @@ title: Đặt chiều cao thanh trong Java
 linktitle: Đặt chiều cao thanh
 second_title: API Java Aspose.BarCode
 description: Tạo và tùy chỉnh mã vạch dễ dàng trong Java với Aspose.BarCode. Đặt chiều cao thanh, chọn loại và nâng cao khả năng của ứng dụng của bạn.
-type: docs
 weight: 14
 url: /vi/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt chiều cao thanh trong Java
+
 
 ## Giới thiệu
 
@@ -78,3 +84,10 @@ Chắc chắn! Aspose.BarCode hỗ trợ mã hóa cả dữ liệu số và ch�
 ### Tôi có thể tìm hỗ trợ cho Aspose.BarCode cho Java ở đâu?
  Truy cập diễn đàn Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13) để được cộng đồng hỗ trợ và thảo luận.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

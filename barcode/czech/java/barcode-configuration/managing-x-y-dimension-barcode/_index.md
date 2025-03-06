@@ -3,10 +3,16 @@ title: Správa rozměrů X a Y čárového kódu v Javě
 linktitle: Správa rozměrů X a Y čárového kódu
 second_title: Aspose.BarCode Java API
 description: Prozkoumejte sílu Aspose.BarCode for Java! Naučte se bez námahy spravovat rozměry X a Y pomocí našeho podrobného průvodce. Zvyšte přesnost a vizuální přitažlivost.
-type: docs
 weight: 13
 url: /cs/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa rozměrů X a Y čárového kódu v Javě
+
 
 ## Úvod
 
@@ -90,3 +96,10 @@ Efektivní správa rozměrů X a Y při generování čárových kódů pomocí 
 
 ### Mohu získat dočasnou licenci pro Aspose.BarCode for Java?
 Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

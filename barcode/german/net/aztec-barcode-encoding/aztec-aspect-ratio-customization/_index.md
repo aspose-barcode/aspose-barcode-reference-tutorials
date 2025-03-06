@@ -3,10 +3,16 @@ title: Passen Sie das Seitenverhältnis des Aztec-Barcodes mit Aspose.BarCode f�
 linktitle: Anpassung des aztekischen Seitenverhältnisses
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie die Seitenverhältnisse von Aztec-Barcodes mit Aspose.BarCode für .NET anpassen. Erstellen Sie einzigartige, flexible Barcodes für Ihre .NET-Anwendungen.
-type: docs
 weight: 10
 url: /de/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie das Seitenverhältnis des Aztec-Barcodes mit Aspose.BarCode für .NET an
+
 In diesem Tutorial befassen wir uns mit der Anpassung des Seitenverhältnisses von Aztec-Barcodes mithilfe von Aspose.BarCode für .NET. Aztec-Barcodes sind zweidimensionale Barcodes, die häufig zum Kodieren von Daten verwendet werden. Mit Aspose.BarCode können Sie diese Barcodes ganz einfach erstellen und an Ihre spezifischen Anforderungen anpassen.
 
 ## Voraussetzungen
@@ -108,3 +114,9 @@ A4: Sie können Aspose.BarCode für .NET in Webanwendungen verwenden, indem Sie 
 ### F5: Wo kann ich eine temporäre Lizenz für Aspose.BarCode für .NET erhalten?
 
 A5: Wenn Sie zu Test- oder Evaluierungszwecken eine temporäre Lizenz benötigen, können Sie diese bei erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

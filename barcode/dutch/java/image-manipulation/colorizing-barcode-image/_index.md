@@ -3,10 +3,16 @@ title: Kleur streepjescodeafbeeldingen in Java in met Aspose.BarCode
 linktitle: Barcodeafbeelding inkleuren
 second_title: Aspose.BarCode Java-API
 description: Leer hoe u moeiteloos streepjescodeafbeeldingen in Java kunt inkleuren met Aspose.BarCode. Volg onze stapsgewijze handleiding voor levendige en visueel aantrekkelijke resultaten.
-type: docs
 weight: 13
 url: /nl/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kleur streepjescodeafbeeldingen in Java in met Aspose.BarCode
+
 
 ## Invoering
 
@@ -109,3 +115,10 @@ Ja, Aspose.BarCode ondersteunt een breed scala aan barcodeformaten, waaronder on
 
 ### Hoe koop ik een licentie voor Aspose.BarCode voor Java?
  U kunt veilig een licentie aanschaffen[hier](https://purchase.aspose.com/buy) om het volledige potentieel van Aspose.BarCode te ontsluiten.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

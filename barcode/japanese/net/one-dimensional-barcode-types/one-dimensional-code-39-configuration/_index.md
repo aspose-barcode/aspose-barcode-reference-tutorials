@@ -3,10 +3,16 @@ title: 一次元コード 39 の構成
 linktitle: 一次元コード 39 の構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode を使用して .NET で 1 次元の Code 39 バーコードを生成する方法を学びます。開発者向けのステップバイステップのガイド。
-type: docs
 weight: 11
 url: /ja/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一次元コード 39 の構成
+
 
 ## 導入
 
@@ -72,3 +78,9 @@ A: もちろん、サイズ、色、フォントなど、バーコードのさ�
 
 ### Q: Aspose.BarCode for .NET に関するサポートや質問はどこで受けられますか?
  A: Aspose.BarCode フォーラムで質問への回答を見つけ、サポートを求めることができます。[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

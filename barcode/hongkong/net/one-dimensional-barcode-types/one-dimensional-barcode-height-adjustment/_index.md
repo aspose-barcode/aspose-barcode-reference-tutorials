@@ -3,10 +3,16 @@ title: 一維條碼高度調整
 linktitle: 一維條碼高度調整
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode 在 .NET 中調整一維條碼的高度以進行精確自訂。輕鬆創建完美的條碼！
-type: docs
 weight: 13
 url: /zh-hant/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一維條碼高度調整
+
 
 當涉及在 .NET 應用程式中產生條碼時，Aspose.BarCode for .NET 是一個功能強大且多功能的工具，可以簡化該過程。無論您是為庫存管理、零售還是任何其他應用程式建立條碼，對條碼屬性的精確控制都是至關重要的。這些屬性之一是一維條碼的高度。在本逐步指南中，我們將引導您完成使用 Aspose.BarCode for .NET 調整一維條碼高度的過程。
 
@@ -82,3 +88,10 @@ Aspose.BarCode for .NET 支援多種條碼類型，包括 Code128、QR 碼、Dat
 
 ### 在哪裡可以找到 Aspose.BarCode for .NET 的詳細文件？
 你可以參考文檔[這裡](https://reference.aspose.com/barcode/net/)有關在 .NET 專案中使用 Aspose.BarCode 的深入資訊。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

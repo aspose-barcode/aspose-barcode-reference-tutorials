@@ -3,10 +3,16 @@ title: ترميز الباركود ازتيك
 linktitle: ترميز الباركود ازتيك
 second_title: Aspose.BarCode .NET API
 description: أطلق العنان لإمكانات تشفير الرمز الشريطي Aztec باستخدام Aspose.BarCode لـ .NET. قم بتخصيص نسب العرض إلى الارتفاع، وإنشاء رموز Aztec مشفرة بالنص، وإتقان أوضاع الرمز.
-type: docs
 weight: 28
 url: /ar/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز الباركود ازتيك
+
 
 ## مقدمة
 
@@ -44,3 +50,9 @@ url: /ar/net/aztec-barcode-encoding/
 تعرف على كيفية إنشاء رموز شريطية لخطأ Aztec بمستويات خطأ مختلفة باستخدام Aspose.BarCode لـ .NET. الدليل الشامل لإنشاء الباركود.
 ### [إتقان وضع رمز الأزتك](./aztec-symbol-mode-example/)
 استكشف وضع رمز Aztec في Aspose.BarCode لـ .NET وتعرف على كيفية إنشاء رموز شريطية متعددة الاستخدامات بسهولة. احصل على التدريب العملي على الأوضاع Auto وFullRange وCompact وRune في هذا البرنامج التعليمي الشامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

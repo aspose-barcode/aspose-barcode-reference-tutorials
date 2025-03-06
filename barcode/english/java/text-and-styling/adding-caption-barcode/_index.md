@@ -3,10 +3,16 @@ title: Adding Caption to Barcode in Java Using Aspose.BarCode
 linktitle: Adding Caption to Barcode
 second_title: Aspose.BarCode Java API
 description: Learn how to enhance barcode visuals in Java with Aspose.BarCode. Add captions effortlessly for improved user experience.
-type: docs
 weight: 10
 url: /java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Caption to Barcode in Java Using Aspose.BarCode
+
 
 ## Introduction
 
@@ -102,3 +108,10 @@ Yes, you can access the free trial [here](https://releases.aspose.com/) to explo
 
 ### Where can I seek help if I encounter issues or have questions?
 The Aspose.BarCode community forum [here](https://forum.aspose.com/c/barcode/13) is an excellent resource for support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

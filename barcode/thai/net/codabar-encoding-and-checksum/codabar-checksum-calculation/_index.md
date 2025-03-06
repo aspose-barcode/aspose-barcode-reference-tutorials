@@ -3,10 +3,16 @@ title: การคำนวณการตรวจสอบ Codabar ใน Asp
 linktitle: การคำนวณเช็คซัม Codabar
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีการคำนวณเช็คซัมของ Codabar ใน .NET โดยใช้ Aspose.BarCode เพิ่มความแม่นยำของข้อมูลในบาร์โค้ด Codabar รับคำแนะนำทีละขั้นตอน
-type: docs
 weight: 10
 url: /th/net/codabar-encoding-and-checksum/codabar-checksum-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การคำนวณการตรวจสอบ Codabar ใน Aspose.BarCode สำหรับ .NET
+
 Codabar คือสัญลักษณ์บาร์โค้ดยอดนิยมที่ใช้กันอย่างแพร่หลายสำหรับการใช้งานต่างๆ สิ่งสำคัญประการหนึ่งของ Codabar คือการคำนวณเช็คซัม ซึ่งรับประกันความถูกต้องและความน่าเชื่อถือของข้อมูลที่เข้ารหัส ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการคำนวณเช็คซัมประเภทต่างๆ สำหรับบาร์โค้ด Codabar โดยใช้ Aspose.BarCode สำหรับ .NET
 
 ## ข้อกำหนดเบื้องต้น
@@ -97,3 +103,9 @@ gen.Save($"{path}CodabarChecksumMod16.png", BarCodeImageFormat.Png);
 ### คำถามที่ 5: ฉันจะหาเอกสารฉบับสมบูรณ์สำหรับ Aspose.BarCode สำหรับ .NET ได้ที่ไหน
 
  A5: คุณสามารถเข้าถึงเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

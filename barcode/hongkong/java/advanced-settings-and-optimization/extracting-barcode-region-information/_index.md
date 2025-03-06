@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 掌握 Java 中的條碼區域擷取
 linktitle: 從影像中提取條碼區域訊息
 second_title: Aspose.BarCode Java API
 description: 探索 Aspose.BarCode for Java，這是一個功能強大的程式庫，可輕鬆提取條碼區域詳細資訊。精確增強您的 Java 應用程式。
-type: docs
 weight: 17
 url: /zh-hant/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 掌握 Java 中的條碼區域擷取
+
 ## 介紹
 
 在 Java 程式設計的動態世界中，操作條碼資訊是一項常見且關鍵的任務。 Aspose.BarCode for Java 成為簡化此過程的強大工具，為從影像中提取條碼區域資訊提供了有效的解決方案。在本教程中，我們將深入研究在 Java 環境中使用 Aspose.BarCode 提取條碼區域詳細資訊的逐步過程。
@@ -98,3 +104,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 ### Q5：如何取得Aspose.BarCode的臨時授權？
 
  A5：如果您需要臨時許可證，請訪問[這個連結](https://purchase.aspose.com/temporary-license/)了解更多。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

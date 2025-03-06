@@ -3,10 +3,16 @@ title: Απόδοση γραμμικού κώδικα σε παρουσία ει
 linktitle: Απόδοση γραμμικού κώδικα σε παράδειγμα εικόνας
 second_title: Aspose.BarCode Java API
 description: Εξερευνήστε τη δύναμη του Aspose.BarCode για Java! Δημιουργήστε χωρίς κόπο γραμμικούς κώδικες σε διάφορους τύπους χρησιμοποιώντας αυτήν την ισχυρή βιβλιοθήκη.
-type: docs
 weight: 11
 url: /el/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Απόδοση γραμμικού κώδικα σε παρουσία εικόνας σε Java
+
 
 ## Εισαγωγή
 
@@ -70,3 +76,10 @@ Image image = bb.generateBarCodeImage();
 
 ### Υπάρχει διαθέσιμη επιλογή προσωρινής άδειας;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

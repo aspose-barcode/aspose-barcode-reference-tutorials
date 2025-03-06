@@ -3,10 +3,16 @@ title: Aspose.BarCode を使用した Java でのバーコード方向の検出
 linktitle: バーコードの向きの検出
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode for Java を使用して、バーコード認識で Java アプリケーションを強化します。ステップバイステップのガイドに従って、バーコードの方向を簡単に検出します。
-type: docs
 weight: 13
 url: /ja/java/barcode-basics/detecting-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode を使用した Java でのバーコード方向の検出
+
 ## 導入
 
 強力なバーコード認識機能を使用して Java アプリケーションを強化したいと考えていますか? Aspose.BarCode for Java は、バーコード読み取り機能をプロジェクトにシームレスに統合したい開発者にとって最適なソリューションです。このステップバイステップ ガイドでは、Aspose.BarCode を使用した Java でのバーコードの方向の検出に焦点を当てます。
@@ -86,3 +92,9 @@ A1: はい、Aspose.BarCode for Java は Java 8 以降のバージョンと互�
 ### Q5: さまざまなバーコード操作に使用できるサンプル コードはありますか?
 
  A5: を探索してください。[Aspose.BarCode ドキュメント](https://reference.aspose.com/barcode/java/)包括的なコードサンプルと例については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

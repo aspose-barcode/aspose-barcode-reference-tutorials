@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET ile DataMatrix Kod Metnini Yapılandırma
 linktitle: DataMatrix Genişletilmiş Kod Metni Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak DataMatrix genişletilmiş kod metnini yapılandırmayı öğrenin. .NET uygulamalarınızda barkodlar oluşturun, tanıyın ve entegre edin.
-type: docs
 weight: 17
 url: /tr/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile DataMatrix Kod Metnini Yapılandırma
+
 Yazılım geliştirme dünyasında barkod entegrasyonu çeşitli uygulamalar için önemli bir gereklilik haline geldi. Aspose.BarCode for .NET gibi kütüphanelerin yardımıyla, .NET uygulamalarınızda kolayca barkod oluşturabilir ve tanıyabilirsiniz. Bu eğitim, Aspose.BarCode for .NET'i kullanarak DataMatrix genişletilmiş kod metnini yapılandırma sürecinde size yol gösterecektir. Ayrıntılara dalmadan önce bu kılavuzun önkoşullarına bir göz atalım.
 
 ## Önkoşullar
@@ -128,3 +134,9 @@ Cevap2: Aspose.BarCode for .NET belgelerine erişebilirsiniz[Burada](https://ref
 ### S5: Aspose.BarCode for .NET hakkında nereden destek alabilirim veya soru sorabilirim?
 
  Cevap5: Aspose.BarCode for .NET ile ilgili her türlü destek veya sorularınız için Aspose.BarCode forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

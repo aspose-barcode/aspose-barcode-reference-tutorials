@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 创建补丁代码条形码
 linktitle: 补丁码格式配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 轻松生成补丁代码条形码。了解创建补丁代码条形码和增强文档管理系统的步骤。立即下载库！
-type: docs
 weight: 10
 url: /zh/net/patch-code-configuration/patch-code-format-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 创建补丁代码条形码
+
 
 在本教程中，我们将探讨如何使用 Aspose.BarCode for .NET 生成补丁代码条形码。补丁码是二维条形码，通常用于文档管理和归档。 Aspose.BarCode 简化了在 .NET 应用程序中创建补丁代码条形码的过程。在本指南中，我们将介绍您提供的示例的简介、先决条件、导入命名空间以及逐步细分。
 
@@ -95,3 +101,10 @@ Aspose.BarCode for .NET 是一个功能强大的库，允许 .NET 开发人员�
 
 ### 在哪里可以获得 Aspose.BarCode for .NET 支持？
 如果您有任何疑问或需要帮助，可以访问 Aspose.BarCode for .NET 支持论坛[这里](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

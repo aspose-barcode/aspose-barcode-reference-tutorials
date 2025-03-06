@@ -3,10 +3,16 @@ title: Компактное кодирование PDF417
 linktitle: Компактное кодирование PDF417
 second_title: API Aspose.BarCode .NET
 description: Легко создавайте штрих-коды Compact PDF417 с помощью Aspose.BarCode для .NET. Следуйте нашему пошаговому руководству по эффективному кодированию, дополненному примерами кода.
-type: docs
 weight: 29
 url: /ru/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Компактное кодирование PDF417
+
 
 ## Введение
 
@@ -33,3 +39,9 @@ url: /ru/net/compact-pdf417-encoding/
 ## Компактные учебные пособия по кодированию PDF417
 ### [Создание компактных штрих-кодов PDF417](./compact-pdf417-basic-configuration/)
 Узнайте, как генерировать штрих-коды Compact PDF417 с помощью Aspose.BarCode для .NET. Подробное руководство с пошаговыми инструкциями и примерами кода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

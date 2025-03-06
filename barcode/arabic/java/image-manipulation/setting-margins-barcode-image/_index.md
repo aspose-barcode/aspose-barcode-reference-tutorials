@@ -3,10 +3,16 @@ title: ضبط الهوامش لصورة الباركود في Java
 linktitle: ضبط الهوامش لصورة الباركود
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية تعيين الهوامش لصور الباركود في Java باستخدام Aspose.BarCode. قم بتخصيص التباعد لتحقيق التكامل السلس في تطبيقك
-type: docs
 weight: 11
 url: /ar/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط الهوامش لصورة الباركود في Java
+
 
 ## مقدمة
 
@@ -99,3 +105,10 @@ bb.save(dataDir + "barcode-image-margins.jpg");
 
 ### كيف يمكنني شراء النسخة الكاملة من Aspose.BarCode لـ Java؟
  يمكنك شراء الإصدار الكامل من Aspose.BarCode لـ Java من[صفحة الشراء](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

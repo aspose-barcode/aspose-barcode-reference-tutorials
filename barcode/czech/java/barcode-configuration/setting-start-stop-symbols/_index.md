@@ -3,10 +3,16 @@ title: Nastavení symbolů Start a Stop v Javě
 linktitle: Nastavení symbolů Start a Stop
 second_title: Aspose.BarCode Java API
 description: Generujte přizpůsobené čárové kódy Codabar se specifickými symboly začátku a konce v Javě pomocí Aspose.BarCode. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 15
 url: /cs/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení symbolů Start a Stop v Javě
+
 
 ## Úvod
 
@@ -104,3 +110,10 @@ Gratulujeme! Úspěšně jste se naučili, jak nastavit start a stop symboly pro
 ### Podporuje Aspose.BarCode pro Javu více symbolik čárových kódů?
 Ano, Aspose.BarCode podporuje širokou škálu symbolik čárových kódů. Úplný seznam naleznete v dokumentaci.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

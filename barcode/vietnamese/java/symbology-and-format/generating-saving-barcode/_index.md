@@ -3,10 +3,16 @@ title: Tạo và lưu mã vạch trong Java
 linktitle: Tạo và lưu mã vạch
 second_title: API Java Aspose.BarCode
 description: Tạo và lưu mã vạch dễ dàng trong Java với Aspose.BarCode. Tích hợp liền mạch, tùy chỉnh giao diện và tận hưởng hỗ trợ mã vạch mở rộng.
-type: docs
 weight: 12
 url: /vi/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và lưu mã vạch trong Java
+
 
 ## Giới thiệu
 
@@ -108,3 +114,9 @@ Trả lời: Có, Aspose.BarCode hỗ trợ nhiều loại mã vạch khác nhau
 
 ### Câu hỏi: Làm cách nào để tôi nhận được hỗ trợ cho Aspose.BarCode?
  A: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/barcode/13) cho bất kỳ sự trợ giúp hoặc thắc mắc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

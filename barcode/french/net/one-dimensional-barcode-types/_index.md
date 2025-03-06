@@ -3,10 +3,16 @@ title: Types de codes-barres unidimensionnels
 linktitle: Types de codes-barres unidimensionnels
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment créer divers codes-barres unidimensionnels dans .NET à l'aide d'Aspose.BarCode. Guides étape par étape pour la génération et la personnalisation de codes-barres.
-type: docs
 weight: 25
 url: /fr/net/one-dimensional-barcode-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Types de codes-barres unidimensionnels
+
 
 ## Introduction
 
@@ -78,3 +84,9 @@ Générez facilement des codes-barres personnalisés avec Aspose.BarCode pour .N
 Dans cette série de didacticiels, nous avons plongé dans le monde des types de codes-barres unidimensionnels, en nous concentrant sur leur configuration et leur personnalisation. Avec Aspose.BarCode pour .NET, le processus est simplifié, garantissant que vous pouvez créer des codes-barres adaptés à vos besoins. Ainsi, que vous soyez un développeur chevronné ou débutant, ces didacticiels vous permettront d'exploiter la puissance des codes-barres unidimensionnels dans vos projets .NET. Commencez dès maintenant et libérez le potentiel de la technologie des codes-barres !
 
 Avec cet article, vous acquerrez non seulement des connaissances sur les différents types de codes-barres unidimensionnels, mais vous aurez également la confiance nécessaire pour les mettre en œuvre dans vos projets. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

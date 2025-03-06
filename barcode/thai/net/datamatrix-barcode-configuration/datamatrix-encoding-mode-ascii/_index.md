@@ -3,10 +3,16 @@ title: การเข้ารหัส DataMatrix หลักใน ASCII ด
 linktitle: โหมดการเข้ารหัส DataMatrix (ASCII)
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีการสร้างบาร์โค้ด DataMatrix ในโหมด ASCII โดยใช้ Aspose.BarCode สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
-type: docs
 weight: 13
 url: /th/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเข้ารหัส DataMatrix หลักใน ASCII ด้วย Aspose.BarCode สำหรับ .NET
+
 ## การแนะนำ
 
 คุณพร้อมที่จะดำดิ่งสู่โลกของบาร์โค้ด DataMatrix และเรียนรู้วิธีการเข้ารหัสข้อมูลโดยใช้โหมด ASCII ด้วย Aspose.BarCode สำหรับ .NET แล้วหรือยัง? ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นเส้นทางการเขียนโค้ด คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทั้งหมดทีละขั้นตอน ในฐานะนักเขียน SEO ที่เชี่ยวชาญ ฉันมาที่นี่เพื่อให้แน่ใจว่าคุณได้รับข้อมูลทั้งหมดที่คุณต้องการอย่างชัดเจนและน่าดึงดูด
@@ -90,3 +96,9 @@ A3: ใช่ Aspose.BarCode มีพารามิเตอร์ที่ห
 ### คำถามที่ 5: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.BarCode สำหรับ .NET ได้ที่ไหน
 
  A5: คุณสามารถซื้อใบอนุญาตได้จากเว็บไซต์ Aspose[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

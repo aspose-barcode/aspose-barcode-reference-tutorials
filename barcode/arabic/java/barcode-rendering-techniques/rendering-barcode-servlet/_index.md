@@ -3,10 +3,16 @@ title: تقديم الباركود إلى Servlet في Java
 linktitle: تقديم الباركود إلى Servlet
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء وعرض الرموز الشريطية بسهولة في Java Servlets باستخدام Aspose.BarCode. تخصيص الأنواع، والتكامل بسهولة. استكشاف الاحتمالات!
-type: docs
 weight: 13
 url: /ar/java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم الباركود إلى Servlet في Java
+
 
 ## مقدمة
 
@@ -102,3 +108,9 @@ public class RenderBarcodeToServlet extends HttpServlet {
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode؟
  للحصول على ترخيص مؤقت، قم بزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

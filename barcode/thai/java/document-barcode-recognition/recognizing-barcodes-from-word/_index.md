@@ -3,10 +3,16 @@ title: การรับรู้บาร์โค้ดจากเอกส�
 linktitle: การรับรู้บาร์โค้ดจากเอกสาร Word
 second_title: Aspose.BarCode Java API
 description: สำรวจการบูรณาการการจดจำบาร์โค้ดเข้ากับแอปพลิเคชัน Java ของคุณด้วย Aspose.BarCode ได้อย่างราบรื่น ทำตามบทช่วยสอนนี้เพื่อจดจำบาร์โค้ดจากเอกสาร Word
-type: docs
 weight: 12
 url: /th/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรับรู้บาร์โค้ดจากเอกสาร Word ได้อย่างง่ายดาย
+
 
 ## การแนะนำ
 
@@ -111,3 +117,10 @@ for (Shape shape : shapes) {
 
 ### ถาม: ฉันจะหาเอกสารสำหรับ Aspose.BarCode สำหรับ Java ได้ที่ไหน
  โปรดดูเอกสารประกอบที่ครอบคลุม[ที่นี่](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

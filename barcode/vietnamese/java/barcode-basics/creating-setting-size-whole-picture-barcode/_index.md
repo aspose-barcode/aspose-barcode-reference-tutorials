@@ -3,10 +3,16 @@ title: Tạo và thiết lập kích thước cho toàn bộ hình ảnh bằng 
 linktitle: Tạo và cài đặt kích thước cho toàn bộ hình ảnh bằng mã vạch
 second_title: API Java Aspose.BarCode
 description: Khám phá việc tạo và cài đặt kích thước cho toàn bộ ảnh trong Java với Aspose.BarCode. Tùy chỉnh kích thước, mã hóa và giao diện một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và thiết lập kích thước cho toàn bộ hình ảnh bằng mã vạch trong Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, nhu cầu kết hợp mã vạch động vào các ứng dụng là điều tối quan trọng. Aspose.BarCode for Java là một công cụ mạnh mẽ giúp đơn giản hóa quy trình này, mang lại tính linh hoạt và dễ sử dụng. Hướng dẫn này sẽ hướng dẫn bạn cách tạo và tùy chỉnh mã vạch, tập trung vào một ví dụ thực tế – đặt kích thước cho toàn bộ hình ảnh bằng mã vạch.
@@ -112,3 +118,9 @@ Tóm lại, Aspose.BarCode for Java cung cấp một giải pháp liền mạch 
 ### Câu hỏi 5: Có lựa chọn nào cho giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

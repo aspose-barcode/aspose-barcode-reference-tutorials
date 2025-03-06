@@ -3,10 +3,16 @@ title: بيانات الباركود التكميلية
 linktitle: بيانات الباركود التكميلية
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء بيانات باركود تكميلية وتخصيصها باستخدام Aspose.BarCode لـ .NET من خلال برامجنا التعليمية خطوة بخطوة. تعزيز مهارات الباركود الخاص بك اليوم!
-type: docs
 weight: 27
 url: /ar/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# بيانات الباركود التكميلية
+
 
 ## مقدمة
 
@@ -37,3 +43,9 @@ url: /ar/net/supplemental-barcode-data/
 قم بإنشاء بيانات باركود تكميلية باستخدام Aspose.BarCode لـ .NET. قم بتخصيص الرموز الشريطية EAN-2 وEAN-5 بسهولة. دليل خطوة بخطوة لمطوري .NET.
 ### [تخصيص مساحة الباركود التكميلي](./supplemental-barcode-space-customization/)
 قم بتخصيص الرموز الشريطية بسهولة باستخدام Aspose.BarCode لـ .NET. التحكم في البعد X والمساحة الإضافية. جرب النسخة التجريبية المجانية!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

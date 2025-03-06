@@ -3,10 +3,16 @@ title: X- en Y-dimensies van streepjescode beheren in Java
 linktitle: X- en Y-afmetingen van streepjescode beheren
 second_title: Aspose.BarCode Java-API
 description: Ontdek de kracht van Aspose.BarCode voor Java! Leer moeiteloos X- en Y-dimensies beheren met onze stapsgewijze handleiding. Verbeter de nauwkeurigheid en visuele aantrekkingskracht.
-type: docs
 weight: 13
 url: /nl/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# X- en Y-dimensies van streepjescode beheren in Java
+
 
 ## Invoering
 
@@ -90,3 +96,10 @@ Het effectief beheren van de X- en Y-dimensies bij het genereren van streepjesco
 
 ### Kan ik een tijdelijke licentie verkrijgen voor Aspose.BarCode voor Java?
 Ja, u kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 校验和和验证
 linktitle: 校验和和验证
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 增强 Java 中的数据完整性。轻松生成条形码，始终显示校验和，并掌握 CodaBar 和常规校验和验证。
-type: docs
 weight: 23
 url: /zh/java/checksum-and-validation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 校验和和验证
+
 
 
 在不断发展的软件开发领域，确保数据完整性至关重要。本教程系列由 Aspose.BarCode for Java 提供支持，揭示了校验和和验证的复杂性。深入了解条形码的世界，在这里，可靠性与简单性相结合。
@@ -31,3 +37,9 @@ CodaBar 是一种广泛使用的线性条形码符号系统，需要在 Java 中
 了解如何使用 Aspose.BarCode 在 Java 中应用 CodaBar 的校验和。使用此分步指南轻松生成和识别条形码。
 ### [在 Java 中应用校验和验证](./applying-checksum-validation/)
 使用 Aspose.BarCode 轻松掌握 Java 中的条形码验证。校验和验证的分步指南。提高软件的数据完整性！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

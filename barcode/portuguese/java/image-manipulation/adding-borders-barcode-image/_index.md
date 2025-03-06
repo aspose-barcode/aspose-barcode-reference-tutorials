@@ -3,10 +3,16 @@ title: Adicionando bordas à imagem de código de barras em Java
 linktitle: Adicionando bordas à imagem de código de barras
 second_title: API Java Aspose.BarCode
 description: Aprimore imagens de código de barras em Java com Aspose.BarCode adicionando bordas personalizáveis. Siga este guia passo a passo para obter uma solução de código de barras visualmente atraente.
-type: docs
 weight: 10
 url: /pt/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando bordas à imagem de código de barras em Java
+
 
 ## Introdução
 
@@ -122,3 +128,10 @@ Certamente. Você pode modificar a cor da borda programaticamente com base em co
 
 ### Existe uma versão de teste do Aspose.BarCode disponível?
  Sim, você pode explorar os recursos do Aspose.BarCode baixando o[versão de teste gratuita](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

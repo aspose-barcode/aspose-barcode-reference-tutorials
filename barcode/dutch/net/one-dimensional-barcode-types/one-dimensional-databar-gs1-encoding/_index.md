@@ -3,10 +3,16 @@ title: Eendimensionale databar GS1-codering
 linktitle: Eendimensionale databar GS1-codering
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u Databar GS1-gecodeerde barcodes kunt maken in .NET met behulp van Aspose.BarCode. Genereer eenvoudig streepjescodes. Volg onze stapsgewijze handleiding.
-type: docs
 weight: 18
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eendimensionale databar GS1-codering
+
 
 In deze zelfstudie leiden we u door het proces van het maken van eendimensionale Databar GS1-gecodeerde barcodes met behulp van de Aspose.BarCode voor .NET-bibliotheek. Of u nu barcodes wilt genereren met of zonder GS1-codering, wij hebben de oplossing voor u. Deze stapsgewijze handleiding helpt u de vereisten te begrijpen, naamruimten te importeren en elk voorbeeld te demonstreren om eenvoudig Databar GS1-gecodeerde barcodes te maken.
 
@@ -101,3 +107,10 @@ Ja, u kunt het uiterlijk aanpassen van de streepjescodes die zijn gegenereerd me
 
 ### 5. Hoe kan ik een licentie kopen voor Aspose.BarCode voor .NET?
  Om een licentie voor Aspose.BarCode voor .NET te kopen, gaat u naar de[aankooppagina](https://purchase.aspose.com/buy) op de Aspose-website.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

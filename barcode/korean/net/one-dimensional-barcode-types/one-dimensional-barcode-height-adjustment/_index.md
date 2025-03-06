@@ -3,10 +3,16 @@ title: 1차원 바코드 높이 조정
 linktitle: 1차원 바코드 높이 조정
 second_title: Aspose.BarCode .NET API
 description: 정확한 사용자 정의를 위해 Aspose.BarCode를 사용하여 .NET에서 1차원 바코드 높이를 조정하는 방법을 알아보세요. 손쉽게 완벽한 바코드를 만들어보세요!
-type: docs
 weight: 13
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 바코드 높이 조정
+
 
 .NET 애플리케이션에서 바코드를 생성할 때 Aspose.BarCode for .NET은 프로세스를 간소화할 수 있는 강력하고 다재다능한 도구입니다. 재고 관리, 소매 또는 기타 응용 프로그램을 위한 바코드를 생성하는 경우 바코드 속성에 대한 정밀한 제어가 필수적입니다. 이러한 속성 중 하나는 1차원 바코드의 높이입니다. 이 단계별 가이드에서는 .NET용 Aspose.BarCode를 사용하여 1차원 바코드의 높이를 조정하는 과정을 안내합니다.
 
@@ -82,3 +88,10 @@ gen.Save($"{path}BarHeight80Code128.png", BarCodeImageFormat.Png);
 
 ### .NET용 Aspose.BarCode에 대한 자세한 문서는 어디서 찾을 수 있나요?
  문서를 참고하시면 됩니다[여기](https://reference.aspose.com/barcode/net/) .NET 프로젝트에서 Aspose.BarCode를 사용하는 방법에 대한 자세한 정보를 확인하세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

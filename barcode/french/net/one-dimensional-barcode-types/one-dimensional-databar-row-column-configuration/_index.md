@@ -3,10 +3,16 @@ title: Configuration des lignes et des colonnes de la barre de données unidimen
 linktitle: Configuration des lignes et des colonnes de la barre de données unidimensionnelle
 second_title: API Aspose.BarCode .NET
 description: Générez des codes-barres DataBar unidimensionnels dynamiques avec une configuration de lignes et de colonnes dans .NET à l'aide d'Aspose.BarCode pour .NET. La personnalisation simplifiée !
-type: docs
 weight: 19
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration des lignes et des colonnes de la barre de données unidimensionnelle
+
 
 Dans le monde numérique d'aujourd'hui, les codes-barres jouent un rôle crucial dans divers secteurs, de la gestion des stocks à l'étiquetage des produits. En tant que développeur, vous aurez peut-être besoin d'un outil puissant pour générer et personnaliser des codes-barres dans vos applications .NET. Aspose.BarCode for .NET est une bibliothèque polyvalente qui vous permet de créer, personnaliser et manipuler facilement des codes-barres unidimensionnels et bidimensionnels.
 
@@ -112,3 +118,10 @@ Absolument! Aspose.BarCode pour .NET est polyvalent et peut être utilisé dans 
  Oui, la documentation[ici](https://reference.aspose.com/barcode/net/)fournit des exemples de code détaillés et des exemples de projets pour vous aider à démarrer.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

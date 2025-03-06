@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中设置条形码图像的大小单位
 linktitle: 设置条码图像的尺寸单位
 second_title: Aspose.BarCode Java API
 description: 了解 Aspose.BarCode for Java 在为条形码图像设置精确尺寸单位方面的强大功能。轻松集成、强大的性能和无限的定制可能性。
-type: docs
 weight: 15
 url: /zh/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中设置条形码图像的大小单位
+
 ## 介绍
 
 Aspose.BarCode for Java 是一个强大的 Java API，允许开发人员轻松地将条形码生成和识别功能集成到他们的 Java 应用程序中。无论您是开发复杂的库存系统、零售应用程序还是任何其他需要条形码功能的软件，Aspose.BarCode 都被证明是可靠且高效的选择。
@@ -100,3 +106,9 @@ A2：当然。 Aspose.BarCode for Java 提供了广泛的自定义选项，允�
 ### Q5：Aspose.BarCode for Java 支持哪些条形码符号？
 
 A5：Aspose.BarCode for Java 支持多种条形码符号，包括 CODE_128、QR_CODE、UPC_A 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

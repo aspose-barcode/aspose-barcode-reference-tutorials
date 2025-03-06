@@ -3,10 +3,16 @@ title: Konfigurace jednorozměrných plněných tyčí
 linktitle: Konfigurace jednorozměrných plněných tyčí
 second_title: Aspose.BarCode .NET API
 description: Naučte se generovat čárové kódy v .NET pomocí Aspose.BarCode pro .NET. Tento komplexní výukový program pokrývá vše od importu jmenných prostorů až po vytváření jednorozměrných čárových kódů.
-type: docs
 weight: 20
 url: /cs/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace jednorozměrných plněných tyčí
+
 
 Hledáte generování profesionálních a přizpůsobitelných čárových kódů ve svých aplikacích .NET? Už nehledejte! Aspose.BarCode for .NET je zde pro zefektivnění procesu vytváření čárových kódů a nabízí množství funkcí a možností přizpůsobení, aby vyhovovaly vašim specifickým potřebám. V tomto komplexním tutoriálu vás provedeme základy používání Aspose.BarCode pro .NET, od importu jmenných prostorů až po generování jednorozměrných vyplněných pruhů. Začněme!
 
@@ -99,3 +105,9 @@ Ano, můžete vyzkoušet Aspose.BarCode for .NET stažením bezplatné zkušebn�
 
 ### Mohu si zakoupit dočasnou licenci pro Aspose.BarCode pro .NET?
  Ano, můžete získat dočasnou licenci od[tento odkaz](https://purchase.aspose.com/temporary-license/), který umožňuje používat knihovnu po omezenou dobu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

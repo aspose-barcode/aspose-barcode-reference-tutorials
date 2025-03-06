@@ -3,10 +3,16 @@ title: Конфигурация одномерных заполненных ст
 linktitle: Конфигурация одномерных заполненных столбцов
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как генерировать штрих-коды в .NET с помощью Aspose.BarCode для .NET. Это подробное руководство охватывает все от импорта пространств имен до создания одномерных штрих-кодов.
-type: docs
 weight: 20
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конфигурация одномерных заполненных столбцов
+
 
 Вы хотите создавать профессиональные и настраиваемые штрих-коды в своих приложениях .NET? Не смотрите дальше! Aspose.BarCode для .NET призван упростить процесс создания штрих-кодов, предлагая множество функций и возможностей настройки для удовлетворения ваших конкретных потребностей. В этом подробном руководстве мы познакомим вас с основами использования Aspose.BarCode для .NET, от импорта пространств имен до создания одномерных заполненных полос. Давайте начнем!
 
@@ -99,3 +105,9 @@ Aspose.BarCode для .NET поддерживает широкий спектр 
 
 ### Могу ли я приобрести временную лицензию на Aspose.BarCode для .NET?
  Да, вы можете получить временную лицензию от[эта ссылка](https://purchase.aspose.com/temporary-license/), что позволяет пользоваться библиотекой ограниченный период.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

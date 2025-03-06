@@ -3,10 +3,16 @@ title: Word Belgelerinden Zahmetsiz Barkod Tanıma
 linktitle: Word Belgelerinden Barkodları Tanıma
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode ile barkod tanımanın Java uygulamalarınıza kusursuz entegrasyonunu keşfedin. Word belgelerinden barkodları tanımak için bu eğiticiyi izleyin.
-type: docs
 weight: 12
 url: /tr/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Word Belgelerinden Zahmetsiz Barkod Tanıma
+
 
 ## giriiş
 
@@ -111,3 +117,10 @@ Yardım veya sorularınız için Aspose.BarCode forumunu ziyaret edin[Burada](ht
 
 ### S: Aspose.BarCode for Java belgelerini nerede bulabilirim?
  Kapsamlı belgelere bakın[Burada](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

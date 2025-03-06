@@ -3,10 +3,16 @@ title: Kiegészítő vonalkód adatok
 linktitle: Kiegészítő vonalkód adatok
 second_title: Aspose.BarCode .NET API
 description: Ismerje meg, hogyan hozhat létre és szabhat testre kiegészítő vonalkódadatokat az Aspose.BarCode for .NET használatával lépésről lépésre bemutatott oktatóanyagainkból. Fejlessze vonalkód-készségeit még ma!
-type: docs
 weight: 27
 url: /hu/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiegészítő vonalkód adatok
+
 
 ## Bevezetés
 
@@ -37,3 +43,9 @@ Ebben a cikkben útitervet adunk a kiegészítő vonalkódadatok elsajátítás�
 Hozzon létre kiegészítő vonalkód adatokat az Aspose.BarCode for .NET segítségével. Az EAN-2 és EAN-5 vonalkódok könnyedén testreszabhatók. Lépésről lépésre útmutató .NET fejlesztőknek.
 ### [Kiegészítő vonalkód-terület testreszabása](./supplemental-barcode-space-customization/)
 Testreszabhatja a vonalkódokat egyszerűen az Aspose.BarCode for .NET segítségével. Irányítsd az X-Dimenziót és pótold a helyet. Próbáld ki az ingyenes próbaverziót!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

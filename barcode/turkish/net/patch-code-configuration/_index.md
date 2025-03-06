@@ -3,10 +3,16 @@ title: Yama Kodu Yapılandırması
 linktitle: Yama Kodu Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile kolayca Yama Kodu barkodları oluşturun. Aspose.BarCode eğitimleriyle Yama Kodu formatlarını nasıl yapılandıracağınızı ve özelleştireceğinizi öğrenin.
-type: docs
 weight: 26
 url: /tr/net/patch-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Yama Kodu Yapılandırması
+
 
 Belge yönetimi alanında Yama Kodu barkodları, süreçlerin kolaylaştırılmasında ve veri doğruluğunun sağlanmasında hayati bir rol oynar. Aspose.BarCode for .NET ile bu barkodları zahmetsizce yapılandırma ve özelleştirme sanatında ustalaşabilirsiniz. Bu kapsamlı eğitimde size Yama Kodu yapılandırması, kurulumu ve özelleştirmesinin temel yönlerini anlatacağız.
 
@@ -40,3 +46,9 @@ Aspose.BarCode for .NET ile barkod özelleştirme dünyasını keşfedin ve belg
 Aspose.BarCode for .NET ile Yama Kodu barkodlarını zahmetsizce oluşturun. Yama Kodu barkodları oluşturma ve belge yönetim sisteminizi geliştirme adımlarını öğrenin. Kütüphaneyi şimdi indirin!
 ### [Yama Kodu Seti Özelleştirmesi](./patch-code-set-customization/)
 Aspose.BarCode'u kullanarak .NET'te nasıl barkod oluşturulacağını öğrenin. Barkodları zahmetsizce özelleştirin ve uygulamalarınıza entegre edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

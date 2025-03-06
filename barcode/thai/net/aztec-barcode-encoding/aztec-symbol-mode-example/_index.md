@@ -3,10 +3,16 @@ title: การเรียนรู้โหมดสัญลักษณ์ 
 linktitle: ตัวอย่างโหมดสัญลักษณ์แอซเท็ก
 second_title: Aspose.BarCode .NET API
 description: สำรวจโหมดสัญลักษณ์ Aztec ใน Aspose.BarCode สำหรับ .NET และเรียนรู้วิธีสร้างบาร์โค้ดอเนกประสงค์ได้อย่างง่ายดาย ทดลองโหมด Auto, FullRange, Compact และ Rune ในบทช่วยสอนที่ครอบคลุมนี้
-type: docs
 weight: 14
 url: /th/net/aztec-barcode-encoding/aztec-symbol-mode-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้โหมดสัญลักษณ์ Aztec ด้วย Aspose.BarCode สำหรับ .NET
+
 หากคุณต้องการรวมความสามารถในการสร้างบาร์โค้ดอันทรงพลังเข้ากับแอปพลิเคชัน .NET ของคุณ Aspose.BarCode สำหรับ .NET เป็นโซลูชันที่ยอดเยี่ยม ในบทช่วยสอนนี้ เราจะเจาะลึกโหมดสัญลักษณ์ Aztec และสำรวจตัวเลือกต่างๆ โดยใช้ Aspose.BarCode สำหรับ .NET เราจะครอบคลุมข้อกำหนดเบื้องต้น นำเข้าเนมสเปซ และแบ่งแต่ละตัวอย่างออกเป็นหลายขั้นตอนเพื่อแนะนำคุณตลอดกระบวนการ
 
 ## ข้อกำหนดเบื้องต้น
@@ -114,3 +120,9 @@ A3: ได้ คุณสามารถดาวน์โหลด Aspose.BarC
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode สำหรับ .NET ได้อย่างไร
 
  A5: คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode สำหรับ .NET ได้โดยไปที่[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

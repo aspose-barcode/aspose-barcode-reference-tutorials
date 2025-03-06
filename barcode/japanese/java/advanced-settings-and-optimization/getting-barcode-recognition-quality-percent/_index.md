@@ -3,10 +3,16 @@ title: Aspose.BarCode を使用して Java でバーコード認識品質をパ�
 linktitle: バーコード認識品質をパーセントで取得する
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java でバーコード認識品質を取得します。最適な結果を得るには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 21
 url: /ja/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode を使用して Java でバーコード認識品質をパーセントで取得する
+
 ## 導入
 
 Java アプリケーションのバーコード認識品質を向上させたい場合、Aspose.BarCode はその仕事に最適なツールです。このチュートリアルでは、Aspose.BarCode for Java を使用して、いくつかの簡単な手順で最適なバーコード認識品質を達成するプロセスを説明します。
@@ -88,3 +94,9 @@ A3: テスト用の一時ライセンスを次のサイトから取得します�
 ### Q5: ドキュメントにコード例はありますか?
 
  A5: はい、ドキュメントに包括的なコード例が記載されています。[ここ](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

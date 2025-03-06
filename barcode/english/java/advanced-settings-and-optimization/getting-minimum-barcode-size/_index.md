@@ -3,10 +3,16 @@ title: Getting Minimum BarCode Size in Java with Aspose.BarCode
 linktitle: Getting Minimum BarCode Size
 second_title: Aspose.BarCode Java API
 description: Learn how to create Minimum sized BarCodes in Java using Aspose.BarCode. Follow our step-by-step guide for efficient and space-optimized BarCode generation.
-type: docs
 weight: 12
 url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Getting Minimum BarCode Size in Java with Aspose.BarCode
+
 ## Introduction
 
 Welcome to our step-by-step guide on getting the minimum BarCode size in Java using Aspose.BarCode. If you're looking to optimize your BarCode images for space efficiency or specific display requirements, this tutorial is for you. Aspose.BarCode for Java provides a powerful set of features, and in this tutorial, we'll focus on customizing the size of your BarCode to the minimum.
@@ -93,3 +99,10 @@ A4: Visit the Aspose.BarCode [forum](https://forum.aspose.com/c/barcode/13) for 
 ### Q5: Is there a trial version available for Aspose.BarCode for Java?
 
 A5: Yes, you can explore the features of Aspose.BarCode by downloading the [free trial](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

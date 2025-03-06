@@ -3,10 +3,16 @@ title: تكوين اتجاه الرمز الشريطي باستخدام Aspose.B
 linktitle: تكوين اتجاه الباركود
 second_title: Aspose.BarCode جافا API
 description: اكتشف قوة Aspose.BarCode لـ Java في تكوين اتجاه الرمز الشريطي. دليل شامل للتكامل والتعرف السلس في تطبيقات Java الخاصة بك.
-type: docs
 weight: 16
 url: /ar/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين اتجاه الرمز الشريطي باستخدام Aspose.BarCode لـ Java
+
 ## مقدمة
 
 في مشهد التكنولوجيا الرقمية المتطور باستمرار، أصبحت الرموز الشريطية جزءًا لا يتجزأ من حياتنا اليومية، مما يسهل المعاملات السلسة وإدارة البيانات بكفاءة. يظهر Aspose.BarCode for Java كأداة قوية للتعامل مع إنشاء الباركود والتعرف عليه في تطبيقات Java. سوف يتعمق هذا البرنامج التعليمي في جانب محدد من تكوين الباركود - توجيه الباركود في Java.
@@ -94,3 +100,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 ### س5: أين يمكنني طلب الدعم أو التفاعل مع مجتمع Aspose.BarCode؟
 
  ج5: ال[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) يعد مصدرًا قيمًا للحصول على الدعم والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

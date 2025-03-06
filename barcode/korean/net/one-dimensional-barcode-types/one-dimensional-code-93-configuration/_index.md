@@ -3,10 +3,16 @@ title: 1차원 코드 93 바코드 생성
 linktitle: 1차원 코드 93 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 Code 93 바코드를 생성하는 방법을 알아보세요. 바코드 생성을 위한 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 코드 93 바코드 생성
+
 
 ## 소개
 
@@ -102,3 +108,10 @@ catch (Exception e)
 
 ### Q: Aspose.BarCode for .NET에 대한 지원을 받거나 질문을 할 수 있는 곳은 어디입니까?
  A: 다음에서 지원과 토론을 위한 커뮤니티 포럼을 찾을 수 있습니다.[.NET 지원을 위한 Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

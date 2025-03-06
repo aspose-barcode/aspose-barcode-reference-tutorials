@@ -3,10 +3,16 @@ title: Jenis Barcode Satu Dimensi
 linktitle: Jenis Barcode Satu Dimensi
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat berbagai kode batang satu dimensi di .NET menggunakan Aspose.BarCode. Panduan langkah demi langkah untuk pembuatan dan penyesuaian kode batang.
-type: docs
 weight: 25
 url: /id/net/one-dimensional-barcode-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jenis Barcode Satu Dimensi
+
 
 ## Perkenalan
 
@@ -78,3 +84,9 @@ Hasilkan kode batang khusus dengan mudah menggunakan Aspose.BarCode untuk .NET. 
 Dalam seri tutorial ini, kita telah mempelajari dunia tipe barcode satu dimensi, dengan fokus pada konfigurasi dan penyesuaiannya. Dengan Aspose.BarCode untuk .NET, prosesnya menjadi sederhana, memastikan bahwa Anda dapat membuat kode batang yang disesuaikan dengan kebutuhan Anda. Jadi, apakah Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberdayakan Anda untuk memanfaatkan kekuatan kode batang satu dimensi dalam proyek .NET Anda. Mulailah sekarang dan keluarkan potensi teknologi barcode!
 
 Dengan artikel ini, Anda tidak hanya akan memperoleh pengetahuan tentang berbagai jenis barcode satu dimensi tetapi juga memiliki kepercayaan diri untuk menerapkannya dalam proyek Anda. Selamat membuat kode!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

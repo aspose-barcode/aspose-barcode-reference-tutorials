@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용한 DotCode 구조적 추가 모드 구�
 linktitle: DotCode 구조화된 추가 모드 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DotCode 구조적 추가 모드를 구성하고 효율적인 바코드를 만드는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용한 DotCode 구조적 추가 모드 구성
+
 ## 소개
 
 빠르게 변화하는 데이터 인코딩 및 바코드 생성 세계에서는 정확성과 효율성이 무엇보다 중요합니다. .NET용 Aspose.BarCode는 개발자와 기업 모두의 요구를 충족할 수 있는 포괄적인 기능 제품군을 제공하는 챔피언으로 부상했습니다. 이 튜토리얼에서는 Aspose.BarCode for .NET에서 제공하는 다목적 바코드 인코딩 솔루션인 강력한 DotCode 구조적 추가 모드 구성에 대해 자세히 살펴보겠습니다.
@@ -120,3 +126,9 @@ A4: DotCode 기술은 효율적인 데이터 인코딩 및 디코딩이 중요�
 ### Q5: Aspose.BarCode for .NET을 사용하여 생성된 바코드의 보안을 어떻게 보장합니까?
 
 A5: .NET용 Aspose.BarCode는 생성된 바코드를 보호하기 위해 암호화 및 워터마킹과 같은 다양한 보안 기능을 제공합니다. 설명서에서 이러한 옵션을 살펴볼 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

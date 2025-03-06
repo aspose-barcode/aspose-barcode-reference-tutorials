@@ -3,10 +3,16 @@ title: Aspose.BarCode के साथ जावा में वाइड-न�
 linktitle: वाइड-संकीर्ण अनुपात को कॉन्फ़िगर करना
 second_title: Aspose.BarCode जावा एपीआई
 description: Aspose.BarCode का उपयोग करके जावा बारकोड में वाइड-संकीर्ण अनुपात को कॉन्फ़िगर करने का तरीका जानें। निर्बाध अनुकूलन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 17
 url: /hi/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode के साथ जावा में वाइड-नैरो अनुपात कॉन्फ़िगर करना
+
 
 ## परिचय
 
@@ -87,3 +93,9 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 ### प्रश्न: Aspose.BarCode के लिए समर्थन कैसे प्राप्त करें?
  उत्तर: Aspose.BarCode फोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/barcode/13) समर्थन और चर्चा के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

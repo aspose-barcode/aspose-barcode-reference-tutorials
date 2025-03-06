@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET ile Aztek Barkod En Boy Oranını Özelleştirin
 linktitle: Aztek En Boy Oranı Özelleştirmesi
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak Aztek barkod en boy oranlarını nasıl özelleştireceğinizi öğrenin. .NET uygulamalarınız için benzersiz, esnek barkodlar oluşturun.
-type: docs
 weight: 10
 url: /tr/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile Aztek Barkod En Boy Oranını Özelleştirin
+
 Bu eğitimde Aspose.BarCode for .NET kullanarak Aztek barkodlarının en boy oranını özelleştirmeyi inceleyeceğiz. Aztek barkodları, verileri kodlamak için yaygın olarak kullanılan iki boyutlu barkodlardır ve Aspose.BarCode ile bu barkodları özel gereksinimlerinize uyacak şekilde kolayca oluşturabilir ve özelleştirebilirsiniz.
 
 ## Önkoşullar
@@ -108,3 +114,9 @@ Cevap4: Aspose.BarCode for .NET'i, bu eğitimde verilen masaüstü uygulama örn
 ### S5: Aspose.BarCode for .NET için nereden geçici lisans alabilirim?
 
 Cevap5: Test veya değerlendirme amacıyla geçici bir lisansa ihtiyacınız varsa, şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

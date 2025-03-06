@@ -3,10 +3,16 @@ title: Personnalisez le rapport hauteur/largeur de DotCode avec Aspose.BarCode p
 linktitle: Personnalisation du rapport hauteur/largeur DotCode
 second_title: API Aspose.BarCode .NET
 description: Apprenez à personnaliser les proportions des codes-barres DotCode à l'aide d'Aspose.BarCode pour .NET. Créez sans effort des codes-barres sur mesure pour vos applications.
-type: docs
 weight: 10
 url: /fr/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisez le rapport hauteur/largeur de DotCode avec Aspose.BarCode pour .NET
+
 ## Introduction
 
 Si vous êtes un développeur .NET cherchant à créer des codes-barres hautement personnalisables dans vos applications, Aspose.BarCode for .NET est la solution parfaite. Dans ce didacticiel, nous aborderons l'une de ses fonctionnalités avancées : la personnalisation du rapport hauteur/largeur de DotCode. Les codes-barres DotCode sont largement utilisés dans des secteurs tels que les soins de santé, les services postaux et l'industrie manufacturière pour coder des informations. En modifiant le rapport hauteur/largeur, vous pouvez adapter votre code-barres à vos besoins spécifiques. Commençons!
@@ -97,3 +103,9 @@ A4 : Oui, Aspose.BarCode for .NET peut être utilisé dans des applications We
 ### Q5 : Où puis-je trouver plus d’informations et de documentation sur Aspose.BarCode pour .NET ?
 
 A5 : Vous pouvez explorer la documentation[ici](https://reference.aspose.com/barcode/net/) pour des conseils complets et des exemples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

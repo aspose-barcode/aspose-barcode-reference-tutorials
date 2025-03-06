@@ -3,10 +3,16 @@ title: Настройка соотношения широкого и узког�
 linktitle: Настройка соотношения «широкий-узкий»
 second_title: API Aspose.BarCode Java
 description: Узнайте, как настроить соотношение «широкий-узкий» в штрих-кодах Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для плавной настройки.
-type: docs
 weight: 17
 url: /ru/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка соотношения широкого и узкого в Java с помощью Aspose.BarCode
+
 
 ## Введение
 
@@ -87,3 +93,9 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 ### Вопрос: Как получить поддержку Aspose.BarCode?
  О: Посетите форум Aspose.BarCode.[здесь](https://forum.aspose.com/c/barcode/13) за поддержку и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

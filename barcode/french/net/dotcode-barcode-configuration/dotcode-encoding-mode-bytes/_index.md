@@ -3,10 +3,16 @@ title: Mode d'encodage DotCode (octets) avec Aspose.BarCode pour .NET
 linktitle: Mode de codage DotCode (octets)
 second_title: API Aspose.BarCode .NET
 description: Apprenez l'encodage DotCode avec Aspose.BarCode pour .NET Guide étape par étape pour générer des codes-barres.
-type: docs
 weight: 12
 url: /fr/net/dotcode-barcode-configuration/dotcode-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mode d'encodage DotCode (octets) avec Aspose.BarCode pour .NET
+
 ## Introduction
 
 Êtes-vous prêt à libérer la puissance du mode de codage DotCode (octets) dans vos applications .NET ? Cherchez pas plus loin! Aspose.BarCode for .NET est votre solution incontournable pour générer et manipuler des codes-barres. Dans ce guide étape par étape, nous aborderons le mode de codage DotCode (octets), expliquant chaque aspect de manière exhaustive. Que vous soyez un développeur chevronné ou débutant, nous avons ce qu'il vous faut. Plongeons et explorons le monde fascinant de DotCode Encoding.
@@ -135,3 +141,9 @@ A4 : Oui, Aspose.BarCode pour .NET offre une large gamme de paramètres pour pe
 ### Q5 : Aspose.BarCode est-il compatible avec les applications .NET Core ?
 
 A5 : Oui, Aspose.BarCode pour .NET est compatible avec les applications .NET Framework et .NET Core.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

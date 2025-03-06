@@ -3,10 +3,16 @@ title: ITF-14 바코드 테두리 유형 생성
 linktitle: ITF-14 바코드 테두리 유형 생성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 다양한 테두리 유형으로 ITF-14 바코드를 만드는 방법을 알아보세요. 포장과 라벨링을 쉽게 맞춤화하세요.
-type: docs
 weight: 11
 url: /ko/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 바코드 테두리 유형 생성
+
 
 이 튜토리얼에서는 .NET용 Aspose.BarCode를 사용하여 다양한 테두리 유형의 ITF-14 바코드를 생성하는 과정을 안내합니다. Aspose.BarCode는 다양한 형식의 바코드를 생성, 조작 및 인식할 수 있는 강력한 라이브러리입니다. 이 특정 예에서는 ITF-14 바코드와 해당 테두리 유형을 제어하는 방법에 중점을 둡니다. ITF-14 바코드는 일반적으로 포장 및 라벨링 목적으로 사용됩니다.
 
@@ -109,3 +115,10 @@ ITF-14 바코드는 주로 소매 업계의 제품 포장 및 라벨링에 사�
 
 ### Aspose.BarCode의 무료 평가판이 있습니까?
 예, 다음에서 .NET용 Aspose.BarCode의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

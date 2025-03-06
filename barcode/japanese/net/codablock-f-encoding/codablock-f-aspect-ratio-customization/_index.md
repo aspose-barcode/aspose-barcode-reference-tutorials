@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用して Codablock F アスペクト比を
 linktitle: Codablock F アスペクト比のカスタマイズ
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して Codablock F アスペクト比のカスタマイズをマスターします。ニーズに合わせた正確なバーコードを簡単に作成できます。
-type: docs
 weight: 10
 url: /ja/net/codablock-f-encoding/codablock-f-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用して Codablock F アスペクト比をカスタマイズする
+
 ## 導入
 
 Aspose.BarCode for .NET を使用して Codablock F バーコードをカスタマイズする能力を解放する準備はできていますか?この包括的なチュートリアルでは、Codablock F のアスペクト比カスタマイズのプロセスを段階的に説明し、正確かつ精緻にバーコードを生成するための知識とツールを提供します。開発者であっても、バーコード愛好家であっても、Aspose.BarCode の機能を探索したいと考えている人であっても、このガイドは役に立ちます。
@@ -96,3 +102,9 @@ A3: はい、Aspose.BarCode はさまざまな .NET フレームワークと互�
 ### Q5: Aspose.BarCode for .NET のフル ライセンスはどこで購入できますか?
 
  A5: フルライセンスは以下から購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

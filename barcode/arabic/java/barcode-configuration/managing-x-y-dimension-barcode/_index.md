@@ -3,10 +3,16 @@ title: إدارة أبعاد X وY للرمز الشريطي في Java
 linktitle: إدارة أبعاد X و Y للباركود
 second_title: Aspose.BarCode جافا API
 description: اكتشف قوة Aspose.BarCode لـ Java! تعلم كيفية إدارة أبعاد X وY بسهولة من خلال دليلنا المفصّل خطوة بخطوة. تعزيز الدقة والجاذبية البصرية.
-type: docs
 weight: 13
 url: /ar/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة أبعاد X وY للرمز الشريطي في Java
+
 
 ## مقدمة
 
@@ -90,3 +96,10 @@ public static void setYDimension() throws IOException {
 
 ### هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode لـ Java؟
 نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा में यूनिकोड बारकोड को �
 linktitle: यूनिकोड बारकोड को पहचानना
 second_title: Aspose.BarCode जावा एपीआई
 description: Aspose.BarCode के साथ जावा में यूनिकोड बारकोड पहचान की दुनिया का अन्वेषण करें। अपने अनुप्रयोगों में विविध वर्ण सेटों को सहजता से एकीकृत करने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 13
 url: /hi/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में यूनिकोड बारकोड को पहचानना
+
 
 ## परिचय
 
@@ -127,3 +133,9 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ### समर्थन चाहिए या प्रश्न हैं?
  दौरा करना[Aspose.BarCode फोरम](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

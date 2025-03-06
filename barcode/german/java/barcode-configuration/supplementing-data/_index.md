@@ -3,10 +3,16 @@ title: Daten in Java ergänzen
 linktitle: Daten ergänzen
 second_title: Aspose.BarCode Java API
 description: Erfahren Sie, wie Sie mit Aspose.BarCode dynamische Barcodes in Java erstellen. Schritt-für-Schritt-Anleitung zum Ergänzen von Daten mit der EAN_13-Symbologie.
-type: docs
 weight: 16
 url: /de/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Daten in Java ergänzen
+
 
 ## Einführung
 
@@ -96,3 +102,10 @@ Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

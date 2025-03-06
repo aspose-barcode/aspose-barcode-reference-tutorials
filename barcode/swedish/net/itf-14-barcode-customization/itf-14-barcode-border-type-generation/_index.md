@@ -3,10 +3,16 @@ title: ITF-14 Generering av streckkodsgränstyp
 linktitle: ITF-14 Generering av streckkodsgränstyp
 second_title: Aspose.BarCode .NET API
 description: Lär dig hur du skapar ITF-14 streckkoder med olika gränstyper med Aspose.BarCode för .NET. Anpassa din förpackning och märkning med lätthet.
-type: docs
 weight: 11
 url: /sv/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 Generering av streckkodsgränstyp
+
 
 I den här handledningen kommer vi att guida dig genom processen att generera ITF-14-streckkoder med olika gränstyper med Aspose.BarCode för .NET. Aspose.BarCode är ett kraftfullt bibliotek som låter dig skapa, manipulera och känna igen streckkoder i olika format. I detta specifika exempel kommer vi att fokusera på ITF-14 streckkoder och hur man kontrollerar deras kanttyper. ITF-14 streckkoder används ofta för förpacknings- och märkningsändamål.
 
@@ -109,3 +115,10 @@ Ja, Aspose.BarCode för .NET är kompatibelt med olika .NET-ramverk, inklusive .
 
 ### Finns det en gratis testversion av Aspose.BarCode tillgänglig?
 Ja, du kan få tillgång till en gratis testversion av Aspose.BarCode för .NET från[här](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

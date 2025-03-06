@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 추가 바코드 사용자 정의 향상
 linktitle: 보충 바코드 공간 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 바코드를 쉽게 사용자 정의하세요. X-Dimension과 보충 공간을 제어합니다. 무료 평가판을 사용해 보세요!
-type: docs
 weight: 11
 url: /ko/net/supplemental-barcode-data/supplemental-barcode-space-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 추가 바코드 사용자 정의 향상
+
 
 끊임없이 진화하는 바코드 기술 환경에서 맞춤화는 성공의 열쇠입니다. SEO 작성에 대한 전문 지식을 갖춘 능숙한 콘텐츠 작성자로서 저는 여러분에게 Aspose.BarCode for .NET의 강력한 기능을 활용하는 방법을 안내하기 위해 왔습니다. 이 단계별 튜토리얼은 바코드에 대해 원하는 사용자 정의 수준을 달성하고 바코드가 정확한 사양을 충족하는지 확인하는 데 도움이 됩니다.
 
@@ -103,3 +109,9 @@ gen.Save($"{path}SupplementSpace40Pixels.png", BarCodeImageFormat.Png);
 
 ### 상업용 프로젝트에서 .NET용 Aspose.BarCode를 사용할 수 있습니까?
 예, .NET용 Aspose.BarCode는 개인용 및 상업용 모두에 적합합니다. 라이센스를 구매하여 프로젝트에 사용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

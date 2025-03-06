@@ -3,10 +3,16 @@ title: ITF-14 Barcode Border Type Generation
 linktitle: ITF-14 Barcode Border Type Generation
 second_title: Aspose.BarCode .NET API
 description: Learn how to create ITF-14 barcodes with different border types using Aspose.BarCode for .NET. Customize your packaging and labeling with ease.
-type: docs
 weight: 11
 url: /net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 Barcode Border Type Generation
+
 
 In this tutorial, we will guide you through the process of generating ITF-14 barcodes with different border types using Aspose.BarCode for .NET. Aspose.BarCode is a powerful library that allows you to create, manipulate, and recognize barcodes in various formats. In this specific example, we will focus on ITF-14 barcodes and how to control their border types. ITF-14 barcodes are commonly used for packaging and labeling purposes.
 
@@ -110,3 +116,10 @@ You can refer to the documentation [here](https://reference.aspose.com/barcode/n
 ### Is there a free trial version of Aspose.BarCode available?
 Yes, you can access a free trial version of Aspose.BarCode for .NET from [here](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

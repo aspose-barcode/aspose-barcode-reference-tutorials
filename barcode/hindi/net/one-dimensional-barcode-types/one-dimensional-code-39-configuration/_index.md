@@ -3,10 +3,16 @@ title: एक-आयामी कोड 39 कॉन्फ़िगरेशन
 linktitle: एक-आयामी कोड 39 कॉन्फ़िगरेशन
 second_title: Aspose.BarCode .NET API
 description: जानें कि Aspose.BarCode के साथ .NET में एक-आयामी कोड 39 बारकोड कैसे जनरेट करें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका.
-type: docs
 weight: 11
 url: /hi/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# एक-आयामी कोड 39 कॉन्फ़िगरेशन
+
 
 ## परिचय
 
@@ -72,3 +78,9 @@ gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 
 ### प्रश्न: मुझे .NET के लिए Aspose.BarCode के बारे में कहां से सहायता मिल सकती है या प्रश्न पूछ सकते हैं?
  उत्तर: आप Aspose.BarCode फोरम पर अपने प्रश्नों के उत्तर पा सकते हैं और समर्थन प्राप्त कर सकते हैं:[Aspose.बारकोड फोरम](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

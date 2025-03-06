@@ -3,10 +3,16 @@ title: Szegélyek hozzáadása a vonalkód képhez Java nyelven
 linktitle: Szegélyek hozzáadása a vonalkód képhez
 second_title: Aspose.BarCode Java API
 description: Javítsa a vonalkódképeket Java nyelven az Aspose.BarCode segítségével testreszabható szegélyek hozzáadásával. Kövesse ezt a lépésről lépésre szóló útmutatót a tetszetős vonalkód-megoldás eléréséhez.
-type: docs
 weight: 10
 url: /hu/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szegélyek hozzáadása a vonalkód képhez Java nyelven
+
 
 ## Bevezetés
 
@@ -122,3 +128,10 @@ Biztosan. A szegély színét programozottan módosíthatja az alkalmazás konkr
 
 ### Elérhető az Aspose.BarCode próbaverziója?
  Igen, felfedezheti az Aspose.BarCode szolgáltatásait, ha letölti a[ingyenes próbaverzió](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

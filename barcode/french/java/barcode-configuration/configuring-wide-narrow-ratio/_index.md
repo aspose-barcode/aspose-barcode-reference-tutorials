@@ -3,10 +3,16 @@ title: Configuration du rapport large-étroit en Java avec Aspose.BarCode
 linktitle: Configuration du rapport large-étroit
 second_title: API Java Aspose.BarCode
 description: Découvrez comment configurer le rapport large-étroit dans les codes-barres Java à l'aide d'Aspose.BarCode. Suivez notre guide étape par étape pour une personnalisation transparente.
-type: docs
 weight: 17
 url: /fr/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration du rapport large-étroit en Java avec Aspose.BarCode
+
 
 ## Introduction
 
@@ -87,3 +93,9 @@ R : Modifiez simplement le type de symbologie dans le constructeur BarcodeGener
 
 ### Q : Comment obtenir de l'aide pour Aspose.BarCode ?
  R : Visitez le forum Aspose.BarCode[ici](https://forum.aspose.com/c/barcode/13) pour du soutien et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

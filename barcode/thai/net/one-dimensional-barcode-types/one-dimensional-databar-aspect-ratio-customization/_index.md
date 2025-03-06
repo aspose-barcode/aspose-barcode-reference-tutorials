@@ -3,10 +3,16 @@ title: การปรับแต่งอัตราส่วนภาพ Dat
 linktitle: การปรับแต่งอัตราส่วนภาพ Databar หนึ่งมิติ
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีปรับแต่งอัตราส่วนกว้างยาว DataBar หนึ่งมิติใน .NET โดยใช้ Aspose.BarCode เพิ่มความแม่นยำและการออกแบบบาร์โค้ด
-type: docs
 weight: 16
 url: /th/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การปรับแต่งอัตราส่วนภาพ Databar หนึ่งมิติ
+
 
 ในโลกของบาร์โค้ด ความแม่นยำและการปรับแต่งเป็นกุญแจสำคัญในการบรรลุผลลัพธ์ที่ต้องการ ในฐานะนักเขียน SEO ที่มีประสบการณ์ ฉันมาที่นี่เพื่อแนะนำคุณตลอดกระบวนการปรับแต่งอัตราส่วนภาพของ DataBar หนึ่งมิติโดยใช้ Aspose.BarCode สำหรับ .NET เราจะแบ่งกระบวนการที่ซับซ้อนนี้เป็นขั้นตอนที่สามารถจัดการได้ เพื่อให้มั่นใจว่าคุณจะเข้าใจแนวคิดได้อย่างถี่ถ้วน เอาล่ะ มาดำดิ่งกันเถอะ!
 
@@ -116,3 +122,10 @@ gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
  หากคุณต้องการใบอนุญาตชั่วคราวสำหรับการทดสอบหรือการประเมินผล คุณสามารถขอรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

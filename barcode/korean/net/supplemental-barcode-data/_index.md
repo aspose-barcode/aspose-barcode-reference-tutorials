@@ -3,10 +3,16 @@ title: 보충 바코드 데이터
 linktitle: 보충 바코드 데이터
 second_title: Aspose.BarCode .NET API
 description: 단계별 튜토리얼을 통해 .NET용 Aspose.BarCode를 사용하여 추가 바코드 데이터를 생성하고 사용자 정의하는 방법을 알아보세요. 오늘 바코드 기술을 향상해보세요!
-type: docs
 weight: 27
 url: /ko/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 보충 바코드 데이터
+
 
 ## 소개
 
@@ -37,3 +43,9 @@ url: /ko/net/supplemental-barcode-data/
 .NET용 Aspose.BarCode를 사용하여 보충 바코드 데이터를 생성합니다. EAN-2 및 EAN-5 바코드를 손쉽게 사용자 정의하세요. .NET 개발자를 위한 단계별 가이드입니다.
 ### [보충 바코드 공간 사용자 정의](./supplemental-barcode-space-customization/)
 .NET용 Aspose.BarCode를 사용하여 바코드를 쉽게 사용자 정의하세요. X-Dimension과 보충 공간을 제어합니다. 무료 평가판을 사용해 보세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

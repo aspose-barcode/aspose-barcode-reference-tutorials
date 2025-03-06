@@ -3,10 +3,16 @@ title: 1차원 채워진 막대 구성
 linktitle: 1차원 채워진 막대 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 .NET에서 바코드를 생성하는 방법을 알아보세요. 이 포괄적인 튜토리얼은 네임스페이스 가져오기부터 1차원 바코드 생성까지 모든 것을 다룹니다.
-type: docs
 weight: 20
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 채워진 막대 구성
+
 
 .NET 애플리케이션에서 전문적이고 사용자 정의 가능한 바코드를 생성하고 싶으십니까? 더 이상 보지 마세요! .NET용 Aspose.BarCode는 바코드 생성 프로세스를 간소화하고 특정 요구 사항을 충족하는 다양한 기능과 사용자 정의 옵션을 제공합니다. 이 포괄적인 튜토리얼에서는 네임스페이스 가져오기부터 채워진 1차원 막대 생성까지 .NET용 Aspose.BarCode 사용의 기본 사항을 안내합니다. 시작하자!
 
@@ -99,3 +105,9 @@ Aspose.BarCode for .NET을 프로젝트에 통합하고 바코드 생성 요구 
 
 ### .NET용 Aspose.BarCode의 임시 라이선스를 구입할 수 있나요?
  예, 다음에서 임시 라이센스를 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/), 제한된 기간 동안 도서관을 사용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

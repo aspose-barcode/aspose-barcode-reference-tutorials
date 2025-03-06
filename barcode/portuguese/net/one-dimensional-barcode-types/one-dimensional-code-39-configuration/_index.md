@@ -3,10 +3,16 @@ title: Configuração do Código Unidimensional 39
 linktitle: Configuração do Código Unidimensional 39
 second_title: API Aspose.BarCode .NET
 description: Aprenda como gerar códigos de barras Code 39 unidimensionais em .NET com Aspose.BarCode. Guia passo a passo para desenvolvedores.
-type: docs
 weight: 11
 url: /pt/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuração do Código Unidimensional 39
+
 
 ## Introdução
 
@@ -72,3 +78,9 @@ R: Com certeza, você pode personalizar vários aspectos do código de barras, i
 
 ### P: Onde posso obter suporte ou fazer perguntas sobre o Aspose.BarCode for .NET?
  R: Você pode encontrar respostas para suas perguntas e buscar suporte no fórum Aspose.BarCode:[Fórum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: One-Dimensional Barcode Types
 linktitle: One-Dimensional Barcode Types
 second_title: Aspose.BarCode .NET API
 description: Learn how to create various one-dimensional barcodes in .NET using Aspose.BarCode. Step-by-step guides for barcode generation and customization.
-type: docs
 weight: 25
 url: /net/one-dimensional-barcode-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# One-Dimensional Barcode Types
+
 
 ## Introduction
 
@@ -78,3 +84,10 @@ Generate customized barcodes easily with Aspose.BarCode for .NET. Step-by-step g
 In this tutorial series, we've delved into the world of one-dimensional barcode types, focusing on their configuration and customization. With Aspose.BarCode for .NET, the process is made simple, ensuring that you can create barcodes tailored to your needs. So, whether you're a seasoned developer or just starting, these tutorials will empower you to harness the power of one-dimensional barcodes in your .NET projects. Get started now and unleash the potential of barcode technology!
 
 With this article, you'll not only gain knowledge about various one-dimensional barcode types but also have the confidence to implement them in your projects. Happy coding!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

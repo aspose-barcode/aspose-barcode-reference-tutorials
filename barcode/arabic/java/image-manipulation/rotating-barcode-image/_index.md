@@ -3,10 +3,16 @@ title: تدوير صورة الباركود في جافا
 linktitle: تدوير صورة الباركود
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية تدوير صور الباركود في Java بسهولة باستخدام Aspose.BarCode. دليل شامل خطوة بخطوة لمطوري Java.
-type: docs
 weight: 15
 url: /ar/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تدوير صورة الباركود في جافا
+
 
 ## مقدمة
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### س: هل يمكنني إنشاء رموز شريطية لأنواع ترميز مختلفة؟
 بالتأكيد، ما عليك سوى ضبط EncodeTypes في الخطوة 2 بناءً على متطلباتك.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

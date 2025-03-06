@@ -3,10 +3,16 @@ title: Quản lý kích thước X và Y của mã vạch trong Java
 linktitle: Quản lý kích thước X và Y của mã vạch
 second_title: API Java Aspose.BarCode
 description: Khám phá sức mạnh của Aspose.BarCode cho Java! Tìm hiểu cách quản lý kích thước X và Y một cách dễ dàng với hướng dẫn từng bước của chúng tôi. Tăng cường độ chính xác và sự hấp dẫn trực quan.
-type: docs
 weight: 13
 url: /vi/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý kích thước X và Y của mã vạch trong Java
+
 
 ## Giới thiệu
 
@@ -90,3 +96,10 @@ Quản lý hiệu quả các kích thước X và Y trong việc tạo mã vạc
 
 ### Tôi có thể xin giấy phép tạm thời cho Aspose.BarCode cho Java không?
 Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

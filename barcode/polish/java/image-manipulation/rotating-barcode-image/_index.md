@@ -3,10 +3,16 @@ title: Obracanie obrazu kodu kreskowego w Javie
 linktitle: Obrotowy obraz kodu kreskowego
 second_title: Aspose.BarCode API Java
 description: Dowiedz się, jak bez wysiłku obracać obrazy kodów kreskowych w Javie, używając Aspose.BarCode. Kompleksowy przewodnik krok po kroku dla programistów Java.
-type: docs
 weight: 15
 url: /pl/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obracanie obrazu kodu kreskowego w Javie
+
 
 ## Wstęp
 
@@ -85,3 +91,10 @@ Tak, możesz ustawić kąt obrotu w kroku 3 na dowolną żądaną wartość.
 
 ### P: Czy mogę generować kody kreskowe dla różnych typów kodowania?
 Absolutnie, po prostu dostosuj EncodeTypes w kroku 2 w oparciu o swoje wymagania.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

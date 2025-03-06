@@ -3,10 +3,16 @@ title: Nhận dạng mã vạch Unicode trong Java
 linktitle: Nhận dạng mã vạch Unicode
 second_title: API Java Aspose.BarCode
 description: Khám phá thế giới nhận dạng mã vạch Unicode trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch các bộ ký tự đa dạng vào ứng dụng của bạn.
-type: docs
 weight: 13
 url: /vi/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng mã vạch Unicode trong Java
+
 
 ## Giới thiệu
 
@@ -127,3 +133,9 @@ Có, cần có giấy phép hợp lệ cho Aspose.BarCode. Bạn có thể có �
 
 ### Cần hỗ trợ hoặc có thắc mắc?
  Tham quan[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ضبط وحدة الحجم لصورة الباركود في Java باست
 linktitle: ضبط وحدة الحجم لصورة الباركود
 second_title: Aspose.BarCode جافا API
 description: اكتشف قوة Aspose.BarCode لـ Java في تحديد وحدات الحجم الدقيقة لصور الباركود. تكامل سهل وأداء قوي وإمكانيات تخصيص لا حصر لها.
-type: docs
 weight: 15
 url: /ar/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط وحدة الحجم لصورة الباركود في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 Aspose.BarCode for Java عبارة عن واجهة برمجة تطبيقات Java قوية تسمح للمطورين بدمج إمكانات إنشاء الباركود والتعرف عليه في تطبيقات Java الخاصة بهم دون عناء. سواء كنت تقوم بتطوير نظام مخزون متطور، أو تطبيق بيع بالتجزئة، أو أي برنامج آخر يتطلب وظيفة الرمز الشريطي، يثبت Aspose.BarCode أنه خيار موثوق وفعال.
@@ -100,3 +106,9 @@ A1: نعم، يدعم Aspose.BarCode for Java كلاً من إمكانيات إ�
 ### س5: ما هي رموز الباركود المدعومة في Aspose.BarCode for Java؟
 
 ج5: يدعم Aspose.BarCode for Java نطاقًا واسعًا من رموز الرموز الشريطية، بما في ذلك CODE_128 وQR_CODE وUPC_A وغيرها الكثير.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

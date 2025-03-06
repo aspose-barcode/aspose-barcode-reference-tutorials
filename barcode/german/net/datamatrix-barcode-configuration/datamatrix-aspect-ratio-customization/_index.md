@@ -3,10 +3,16 @@ title: Anpassen des DataMatrix-Seitenverhältnisses mit Aspose.BarCode für .NET
 linktitle: Anpassung des DataMatrix-Seitenverhältnisses
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie die Seitenverhältnisse von DataMatrix-Barcodes mit Aspose.BarCode für .NET anpassen. Schritt-für-Schritt-Anleitung zur Barcode-Generierung.
-type: docs
 weight: 10
 url: /de/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassen des DataMatrix-Seitenverhältnisses mit Aspose.BarCode für .NET
+
 Möchten Sie mit Aspose.BarCode für .NET DataMatrix-Barcodes mit einem benutzerdefinierten Seitenverhältnis generieren? Hier sind Sie richtig. In dieser Schritt-für-Schritt-Anleitung zeigen wir Ihnen, wie Sie dies erreichen. Aspose.BarCode für .NET ist eine leistungsstarke Bibliothek, mit der Sie Barcodes einfach erstellen und bearbeiten können. Wir beginnen mit der Einführung der Voraussetzungen und Namespaces, die Sie benötigen, und gehen dann auf die Beispiele ein.
 
 ## Voraussetzungen
@@ -86,3 +92,9 @@ A4: Ja, Aspose.BarCode für .NET ist mit verschiedenen .NET Framework-Versionen 
 ### F5: Kann ich mit Aspose.BarCode für .NET Barcodes in verschiedenen Formaten generieren?
 
 A5: Ja, Aspose.BarCode für .NET unterstützt die Generierung von Barcodes in verschiedenen Formaten, einschließlich PNG, JPEG und mehr.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

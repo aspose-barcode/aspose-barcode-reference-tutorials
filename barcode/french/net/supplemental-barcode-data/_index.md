@@ -3,10 +3,16 @@ title: Données supplémentaires sur les codes-barres
 linktitle: Données supplémentaires sur les codes-barres
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment générer et personnaliser des données de codes-barres supplémentaires à l'aide d'Aspose.BarCode for .NET grâce à nos didacticiels étape par étape. Améliorez vos compétences en matière de codes-barres dès aujourd'hui !
-type: docs
 weight: 27
 url: /fr/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Données supplémentaires sur les codes-barres
+
 
 ## Introduction
 
@@ -37,3 +43,9 @@ Dans cet article, nous vous avons fourni une feuille de route pour maîtriser le
 Générez des données de codes-barres supplémentaires avec Aspose.BarCode pour .NET. Personnalisez les codes-barres EAN-2 et EAN-5 sans effort. Guide étape par étape pour les développeurs .NET.
 ### [Personnalisation supplémentaire de l’espace des codes-barres](./supplemental-barcode-space-customization/)
 Personnalisez facilement les codes-barres avec Aspose.BarCode pour .NET. Contrôlez X-Dimension et complétez l’espace. Essayez l'essai gratuit !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

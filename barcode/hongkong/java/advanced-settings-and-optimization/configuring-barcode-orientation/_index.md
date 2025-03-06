@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for Java 設定條碼方向
 linktitle: 配置條碼方向
 second_title: Aspose.BarCode Java API
 description: 探索 Aspose.BarCode for Java 在配置條碼方向方面的強大功能。 Java 應用程式中無縫整合和識別的綜合指南。
-type: docs
 weight: 16
 url: /zh-hant/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for Java 設定條碼方向
+
 ## 介紹
 
 在不斷發展的數位科技領域，條碼已成為我們日常生活中無所不在的一部分，促進無縫交易和高效的資料管理。 Aspose.BarCode for Java 成為處理 Java 應用程式中條碼產生和識別的強大工具。本教學將深入研究條碼配置的一個特定面向—在 Java 中定向條碼。
@@ -94,3 +100,9 @@ A3：是的，您可以透過免費試用來探索Aspose.BarCode的功能[這裡
 ### Q5：我可以在哪裡尋求支援或與 Aspose.BarCode 社群互動？
 
  A5: 的[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13)是尋求支持和參與社區的寶貴資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

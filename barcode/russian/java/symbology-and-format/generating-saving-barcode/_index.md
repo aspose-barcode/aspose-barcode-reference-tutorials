@@ -3,10 +3,16 @@ title: Создание и сохранение штрих-кода в Java
 linktitle: Создание и сохранение штрих-кода
 second_title: API Aspose.BarCode Java
 description: Легко создавайте и сохраняйте штрих-коды на Java с помощью Aspose.BarCode. Беспрепятственная интеграция, настройка внешнего вида и обширная поддержка штрих-кодов.
-type: docs
 weight: 12
 url: /ru/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание и сохранение штрих-кода в Java
+
 
 ## Введение
 
@@ -108,3 +114,9 @@ con.close();
 
 ### Вопрос: Как мне получить поддержку Aspose.BarCode?
  О: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/barcode/13) для любой помощи или вопросов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

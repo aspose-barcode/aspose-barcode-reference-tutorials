@@ -3,10 +3,16 @@ title: إنشاء بيانات باركود تكميلية باستخدام Aspo
 linktitle: تكوين بيانات الباركود التكميلي
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء بيانات باركود تكميلية باستخدام Aspose.BarCode لـ .NET. قم بتخصيص الرموز الشريطية EAN-2 وEAN-5 بسهولة. دليل خطوة بخطوة لمطوري .NET.
-type: docs
 weight: 10
 url: /ar/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء بيانات باركود تكميلية باستخدام Aspose.BarCode لـ .NET
+
 
 في عالم إنشاء الباركود وتخصيصه، يبرز Aspose.BarCode for .NET كأداة قوية ومتعددة الاستخدامات. سواء كنت مطورًا ذا خبرة أو بدأت للتو، سيرشدك هذا الدليل خطوة بخطوة خلال عملية تكوين بيانات الرمز الشريطي الإضافية باستخدام Aspose.BarCode for .NET. 
 
@@ -110,3 +116,10 @@ gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 
 ### هل يمكنني تخصيص مظهر الباركود الذي تم إنشاؤه؟
 بالتأكيد، يمكنك تخصيص الأبعاد والألوان والجوانب الأخرى للرموز الشريطية لتلبية متطلباتك.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

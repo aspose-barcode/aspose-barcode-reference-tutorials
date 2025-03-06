@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 DataMatrix 코드 텍스트 구성
 linktitle: DataMatrix 확장 코드 텍스트 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DataMatrix 확장 코드 텍스트를 구성하는 방법을 알아보세요. .NET 애플리케이션에서 바코드를 생성, 인식 및 통합합니다.
-type: docs
 weight: 17
 url: /ko/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 DataMatrix 코드 텍스트 구성
+
 소프트웨어 개발 세계에서 바코드 통합은 다양한 애플리케이션에 있어 중추적인 필수 요소가 되었습니다. .NET용 Aspose.BarCode와 같은 라이브러리의 도움으로 .NET 애플리케이션에서 바코드를 쉽게 생성하고 인식할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.BarCode를 사용하여 DataMatrix 확장 코드 텍스트를 구성하는 과정을 안내합니다. 세부 사항을 살펴보기 전에 이 가이드의 전제 조건을 살펴보겠습니다.
 
 ## 전제 조건
@@ -128,3 +134,9 @@ A2: .NET용 Aspose.BarCode 설명서에 액세스할 수 있습니다.[여기](h
 ### Q5: Aspose.BarCode for .NET에 대한 지원을 받거나 질문을 할 수 있는 곳은 어디입니까?
 
  A5: .NET용 Aspose.BarCode와 관련된 지원이나 질문이 있는 경우 Aspose.BarCode 포럼을 방문하세요.[여기](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

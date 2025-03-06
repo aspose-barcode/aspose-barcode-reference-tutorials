@@ -3,10 +3,16 @@ title: Tạo loại đường viền mã vạch ITF-14
 linktitle: Tạo loại đường viền mã vạch ITF-14
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch ITF-14 với các loại đường viền khác nhau bằng Aspose.BarCode cho .NET. Tùy chỉnh bao bì và ghi nhãn của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo loại đường viền mã vạch ITF-14
+
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo mã vạch ITF-14 với các loại đường viền khác nhau bằng Aspose.BarCode cho .NET. Aspose.BarCode là một thư viện mạnh mẽ cho phép bạn tạo, thao tác và nhận dạng mã vạch ở nhiều định dạng khác nhau. Trong ví dụ cụ thể này, chúng tôi sẽ tập trung vào mã vạch ITF-14 và cách kiểm soát các loại đường viền của chúng. Mã vạch ITF-14 thường được sử dụng cho mục đích đóng gói và dán nhãn.
 
@@ -109,3 +115,10 @@ Có, Aspose.BarCode cho .NET tương thích với nhiều khung .NET khác nhau,
 
 ### Có phiên bản dùng thử miễn phí của Aspose.BarCode không?
 Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.BarCode cho .NET từ[đây](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

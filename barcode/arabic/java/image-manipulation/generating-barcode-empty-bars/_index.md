@@ -3,10 +3,16 @@ title: توليد الباركود مع أشرطة فارغة في جافا
 linktitle: توليد الباركود مع أشرطة فارغة
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية بأشرطة فارغة بسهولة في Java باستخدام Aspose.BarCode. تخصيص المظهر والتكامل بسلاسة. استكشاف البرنامج التعليمي الآن!
-type: docs
 weight: 14
 url: /ar/java/image-manipulation/generating-barcode-empty-bars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# توليد الباركود مع أشرطة فارغة في جافا
+
 
 ## مقدمة
 
@@ -90,3 +96,9 @@ generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 
 ### أين يمكنني العثور على وثائق مفصلة عن Aspose.BarCode؟
  الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

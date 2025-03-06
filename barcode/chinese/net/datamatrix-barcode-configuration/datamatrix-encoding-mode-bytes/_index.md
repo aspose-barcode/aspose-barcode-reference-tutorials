@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 以字节为单位进行 DataMatrix 编码
 linktitle: DataMatrix 编码模式（字节）
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 的字节模式对 DataMatrix 格式的数据进行编码。请遵循我们的条形码生成和识别分步指南。
-type: docs
 weight: 15
 url: /zh/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 以字节为单位进行 DataMatrix 编码
+
 在条形码生成和识别领域，Aspose.BarCode for .NET 是一个强大且多功能的工具。凭借其强大的特性和功能集，它使开发人员能够轻松创建、操作和读取条形码。在它提供的众多编码模式中，使用字节的 DataMatrix 编码模式是一个突出的功能。在本分步指南中，我们将引导您完成使用 Aspose.BarCode for .NET 以字节模式对 DataMatrix 格式的数据进行编码的过程。
 
 ## 先决条件
@@ -121,3 +127,9 @@ A4：是的，Aspose.BarCode for .NET适合商业用途。您可以从以下位�
 ### Q5：我可以使用 Aspose.BarCode for .NET 的临时许可证吗？
 
  A5：是的，您可以从以下位置获取 Aspose.BarCode for .NET 的临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

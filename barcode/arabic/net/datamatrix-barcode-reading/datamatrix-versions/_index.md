@@ -3,10 +3,16 @@ title: قم بإنشاء باركود DataMatrix باستخدام Aspose.BarCode
 linktitle: إصدارات داتا ماتريكس
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء رموز شريطية DataMatrix في .NET باستخدام Aspose.BarCode لـ .NET. الأبعاد المخصصة ودعم ECC والمزيد.
-type: docs
 weight: 12
 url: /ar/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء باركود DataMatrix باستخدام Aspose.BarCode لـ .NET
+
 إذا كنت تبحث عن حل موثوق لإنشاء رموز شريطية DataMatrix في تطبيقات .NET الخاصة بك، فإن Aspose.BarCode for .NET هو الحل الأمثل. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية استخدام Aspose.BarCode لـ .NET لإنشاء رموز DataMatrix الشريطية. سنقوم بتقسيم كل مثال إلى خطوات متعددة، مما يضمن أنه يمكنك المتابعة بسهولة.
 
 ## المتطلبات الأساسية
@@ -128,3 +134,9 @@ A1: يعد ECC (رمز تصحيح الخطأ) مكونًا حيويًا للرم
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode لـ .NET؟
 
  ج5: للحصول على ترخيص مؤقت لـ Aspose.BarCode لـ .NET، قم بزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

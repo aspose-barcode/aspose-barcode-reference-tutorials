@@ -3,10 +3,16 @@ title: DataMatrix-codering in bytes met Aspose.BarCode voor .NET
 linktitle: DataMatrix-coderingsmodus (bytes)
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u gegevens codeert in DataMatrix-indeling met behulp van de Bytes-modus met Aspose.BarCode voor .NET. Volg onze stapsgewijze handleiding voor het genereren en herkennen van streepjescodes.
-type: docs
 weight: 15
 url: /nl/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DataMatrix-codering in bytes met Aspose.BarCode voor .NET
+
 In de wereld van het genereren en herkennen van streepjescodes is Aspose.BarCode voor .NET een krachtig en veelzijdig hulpmiddel. Dankzij de robuuste reeks functies en mogelijkheden kunnen ontwikkelaars moeiteloos streepjescodes maken, manipuleren en lezen. Van de vele coderingsmodi die het biedt, is de DataMatrix-coderingsmodus met behulp van bytes een opvallende functie. In deze stapsgewijze handleiding leiden we u door het proces van het gebruik van Aspose.BarCode voor .NET om gegevens in het DataMatrix-formaat te coderen met behulp van de Bytes-modus.
 
 ## Vereisten
@@ -121,3 +127,9 @@ A4: Ja, Aspose.BarCode voor .NET is geschikt voor commercieel gebruik. U kunt ee
 ### V5: Kan ik een tijdelijke licentie gebruiken voor Aspose.BarCode voor .NET?
 
  A5: Ja, u kunt een tijdelijke licentie voor Aspose.BarCode voor .NET verkrijgen via[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

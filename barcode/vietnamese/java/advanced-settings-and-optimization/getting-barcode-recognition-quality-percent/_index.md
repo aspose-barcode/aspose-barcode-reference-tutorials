@@ -3,10 +3,16 @@ title: Nhận chất lượng nhận dạng mã vạch theo phần trăm trong J
 linktitle: Nhận chất lượng nhận dạng mã vạch theo phần trăm
 second_title: API Java Aspose.BarCode
 description: Nhận chất lượng nhận dạng mã vạch trong Java với Aspose.BarCode. Thực hiện theo hướng dẫn từng bước của chúng tôi để có kết quả tối ưu.
-type: docs
 weight: 21
 url: /vi/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận chất lượng nhận dạng mã vạch theo phần trăm trong Java với Aspose.BarCode
+
 ## Giới thiệu
 
 Nếu bạn đang mong muốn có được chất lượng nhận dạng mã vạch cho ứng dụng Java của mình thì Aspose.BarCode là công cụ hoàn hảo cho công việc này. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đạt được chất lượng nhận dạng mã vạch tối ưu bằng một vài bước đơn giản bằng cách sử dụng Aspose.BarCode cho Java.
@@ -88,3 +94,9 @@ Câu trả lời 3: Xin giấy phép tạm thời để thử nghiệm từ[đâ
 ### Câu hỏi 5: Có bất kỳ ví dụ mã nào có sẵn trong tài liệu không?
 
  Câu trả lời 5: Có, bạn có thể tìm thấy các ví dụ mã đầy đủ trong tài liệu[đây](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

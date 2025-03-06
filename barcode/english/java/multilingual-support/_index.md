@@ -3,10 +3,16 @@ title: Multilingual Support
 linktitle: Multilingual Support
 second_title: Aspose.BarCode Java API
 description: Unlock the power of multilingual support with our tutorials on recognizing PDF417 barcodes. Dive into Java coding with Aspose.BarCode for seamless integration.
-type: docs
 weight: 22
 url: /java/multilingual-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Multilingual Support
+
 
 ## Introduction
 Welcome to our comprehensive guide on recognizing PDF417 barcodes with multilingual support in Java. Whether you're delving into the realm of Chinese or Turkish characters, this tutorial, centered around Aspose.BarCode, is your key to unlocking seamless integration and powerful decoding capabilities.
@@ -32,3 +38,10 @@ Why settle for less when you can decode PDF417 barcodes with Turkish characters 
 The tutorial takes you through each step, breaking down complex coding processes into digestible nuggets. Embrace the simplicity of integration while unleashing the potential of multilingual support.
 
 In conclusion, our multilingual support tutorials for recognizing PDF417 barcodes in Java offer more than just code. They provide a journey—a journey through seamless integration, powerful decoding, and the limitless possibilities that arise when you embrace multilingualism in your coding endeavors. So, dive in, explore, and elevate your coding experience with Aspose.BarCode.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nhận dạng mã vạch PDF417 với các ký tự tiếng Thổ Nhĩ K�
 linktitle: Nhận dạng mã vạch PDF417 với các ký tự Thổ Nhĩ Kỳ
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách nhận dạng mã vạch PDF417 bằng các ký tự tiếng Thổ Nhĩ Kỳ trong Java bằng Aspose.BarCode. Tích hợp dễ dàng và khả năng giải mã mạnh mẽ.
-type: docs
 weight: 11
 url: /vi/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng mã vạch PDF417 với các ký tự tiếng Thổ Nhĩ Kỳ trong Java
+
 
 ## Giới thiệu
 
@@ -79,3 +85,10 @@ Có, Aspose.BarCode hỗ trợ nhiều loại mã vạch, bao gồm PDF417.
 
 ### Tôi có thể sử dụng giấy phép tạm thời trong quá trình phát triển không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

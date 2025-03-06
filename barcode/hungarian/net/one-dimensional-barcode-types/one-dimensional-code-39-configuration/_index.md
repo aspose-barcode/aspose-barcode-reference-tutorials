@@ -3,10 +3,16 @@ title: Egydimenziós kód 39 konfiguráció
 linktitle: Egydimenziós kód 39 konfiguráció
 second_title: Aspose.BarCode .NET API
 description: Ismerje meg, hogyan hozhat létre egydimenziós Code 39 vonalkódokat .NET-ben az Aspose.BarCode segítségével. Lépésről lépésre útmutató fejlesztőknek.
-type: docs
 weight: 11
 url: /hu/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egydimenziós kód 39 konfiguráció
+
 
 ## Bevezetés
 
@@ -72,3 +78,9 @@ V: Természetesen testreszabhatja a vonalkód különböző aspektusait, beleér
 
 ### K: Hol kaphatok támogatást, vagy hol tehetek fel kérdéseket az Aspose.BarCode for .NET-ről?
  V: Válaszokat találhat kérdéseire, és támogatást kérhet az Aspose.BarCode fórumon:[Aspose.BarCode fórum](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

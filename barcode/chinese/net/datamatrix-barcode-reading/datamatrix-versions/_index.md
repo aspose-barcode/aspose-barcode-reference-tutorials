@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 生成 DataMatrix 条形码
 linktitle: 数据矩阵版本
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 在 .NET 中生成 DataMatrix 条形码。自定义尺寸、ECC 支持等等。
-type: docs
 weight: 12
 url: /zh/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 生成 DataMatrix 条形码
+
 如果您正在寻找可靠的解决方案来在 .NET 应用程序中生成 DataMatrix 条形码，Aspose.BarCode for .NET 就是您的最佳选择。在本分步指南中，我们将引导您完成使用 Aspose.BarCode for .NET 创建 DataMatrix 条形码的过程。我们将把每个示例分解为多个步骤，确保您可以轻松地遵循。
 
 ## 先决条件
@@ -128,3 +134,9 @@ A2：是的，您可以通过设置行数和列数来自定义 DataMatrix 条形
 ### Q5：如何获得 Aspose.BarCode for .NET 的临时许可证？
 
  A5：要获取 Aspose.BarCode for .NET 的临时许可证，请访问[这个链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurasi Kode Batang DotCode
 linktitle: Konfigurasi Kode Batang DotCode
 second_title: Aspose.BarCode .NET API
 description: Hasilkan kode batang DotCode yang disesuaikan dengan mudah menggunakan Aspose.BarCode .NET. Pelajari rasio aspek, mode pengkodean, teks kode yang diperluas, dan inisialisasi pembaca.
-type: docs
 weight: 32
 url: /id/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Kode Batang DotCode
+
 
 ## Perkenalan
 Selami dunia kode batang DotCode dengan Aspose.BarCode untuk .NET. Tutorial kami mencakup berbagai aspek, memberdayakan Anda untuk membuat kode batang yang disesuaikan dengan mudah. Jelajahi aspek seperti penyesuaian rasio aspek, mode pengkodean (Otomatis dan Byte), konfigurasi teks kode yang diperluas, inisialisasi pembaca, konfigurasi baris dan kolom, dan mode penambahan terstruktur. Ikuti panduan langkah demi langkah kami untuk menguasai setiap konfigurasi, memastikan pembuatan kode batang 2D yang tepat dan dapat disesuaikan. Apakah Anda seorang pemula atau pengembang berpengalaman, tutorial kami memberikan wawasan berharga dalam membuat kode batang DotCode yang efisien untuk beragam aplikasi. Jelajahi dokumentasi komprehensif kami, unduh perpustakaan, dan dapatkan lisensi sementara untuk memulai perjalanan pembuatan kode batang Anda. Aspose.BarCode untuk .NET menyederhanakan proses, memungkinkan Anda membuat kode batang dengan lancar dan mengintegrasikannya ke dalam aplikasi Anda dengan mudah. Bergabunglah bersama kami dalam seri tutorial ini untuk meningkatkan keterampilan pembuatan kode batang Anda dan tetap menjadi yang terdepan dalam teknologi kode batang.|
@@ -48,3 +54,9 @@ Pelajari cara menginisialisasi DotCode Reader menggunakan Aspose.BarCode untuk .
 Pelajari cara mengonfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode untuk .NET. Hasilkan kode batang 2D yang tepat dan dapat disesuaikan dengan mudah.
 ### [Konfigurasi Mode Penambahan Terstruktur DotCode](./dotcode-structured-append-mode-configuration/)
 Pelajari cara mengonfigurasi Mode Penambahan Terstruktur DotCode dengan Aspose.BarCode untuk .NET dan membuat kode batang yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

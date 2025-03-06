@@ -3,10 +3,16 @@ title: Προσαρμόστε την αναλογία διαστάσεων DotCo
 linktitle: Προσαρμογή αναλογίας διαστάσεων DotCode
 second_title: Aspose.BarCode .NET API
 description: Μάθετε να προσαρμόζετε την αναλογία γραμμικού κώδικα DotCode χρησιμοποιώντας το Aspose.BarCode για .NET. Δημιουργήστε προσαρμοσμένους γραμμωτούς κώδικες για τις εφαρμογές σας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε την αναλογία διαστάσεων DotCode με το Aspose.BarCode για .NET
+
 ## Εισαγωγή
 
 Εάν είστε προγραμματιστής .NET που θέλει να δημιουργήσει γραμμικούς κώδικες υψηλής προσαρμογής στις εφαρμογές σας, το Aspose.BarCode για .NET είναι η τέλεια λύση. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε ένα από τα προηγμένα χαρακτηριστικά του - την προσαρμογή της αναλογίας διαστάσεων DotCode. Οι γραμμωτοί κώδικες DotCode χρησιμοποιούνται ευρέως σε βιομηχανίες όπως η υγειονομική περίθαλψη, οι ταχυδρομικές υπηρεσίες και η κατασκευή για την κωδικοποίηση πληροφοριών. Προσαρμόζοντας την αναλογία διαστάσεων, μπορείτε να προσαρμόσετε τον γραμμωτό κώδικα στις συγκεκριμένες ανάγκες σας. Ας αρχίσουμε!
@@ -97,3 +103,9 @@ A4: Ναι, το Aspose.BarCode for .NET μπορεί να χρησιμοποι�
 ### Ε5: Πού μπορώ να βρω περισσότερες πληροφορίες και τεκμηρίωση για το Aspose.BarCode για .NET;
 
 A5: Μπορείτε να εξερευνήσετε την τεκμηρίωση[εδώ](https://reference.aspose.com/barcode/net/) για ολοκληρωμένη καθοδήγηση και παραδείγματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

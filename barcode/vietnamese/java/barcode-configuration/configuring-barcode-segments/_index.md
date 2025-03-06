@@ -3,10 +3,16 @@ title: Định cấu hình mã vạch với các phân đoạn trong Java
 linktitle: Định cấu hình mã vạch với phân đoạn
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch tùy chỉnh trong Java một cách dễ dàng với Aspose.BarCode. Đa năng, hiệu quả và thân thiện với nhà phát triển.
-type: docs
 weight: 10
 url: /vi/java/barcode-configuration/configuring-barcode-segments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình mã vạch với các phân đoạn trong Java
+
 
 Trong bối cảnh công nghệ ngày càng phát triển, nhu cầu về các giải pháp mã vạch mạnh mẽ đã trở nên cấp thiết. Aspose.BarCode for Java nổi bật như một công cụ mạnh mẽ giúp đơn giản hóa việc tạo và tùy chỉnh mã vạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách định cấu hình mã vạch với các phân đoạn bằng Aspose.BarCode cho Java. Hướng dẫn từng bước này sẽ trang bị cho bạn kiến thức để tích hợp liền mạch chức năng mã vạch vào các ứng dụng Java của bạn.
 
@@ -86,3 +92,10 @@ Chắc chắn. Aspose.BarCode for Java được thiết kế để tích hợp l
 
 ### Có bản dùng thử miễn phí không?
  Có, hãy khám phá các tính năng của Aspose.BarCode bằng cách truy cập[dùng thử miễn phí](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

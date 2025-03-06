@@ -3,10 +3,16 @@ title: Buscando e reconhecendo código de barras em Java
 linktitle: Buscando e reconhecendo código de barras
 second_title: API Java Aspose.BarCode
 description: Integre Aspose.BarCode para Java sem esforço - busque e reconheça códigos de barras de um banco de dados. Baixe agora para uma experiência perfeita de integração de código de barras.
-type: docs
 weight: 11
 url: /pt/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buscando e reconhecendo código de barras em Java
+
 
 ## Introdução
 
@@ -120,3 +126,10 @@ Sim, o Aspose.BarCode foi projetado para lidar com aplicações de grande escala
 
 ### Estão disponíveis licenças temporárias para fins de teste?
  Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste e avaliação.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

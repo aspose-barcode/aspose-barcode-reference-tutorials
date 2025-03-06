@@ -3,10 +3,16 @@ title: Menentukan Simbologi untuk Barcode di Java
 linktitle: Menentukan Simbologi untuk Barcode
 second_title: Aspose.BarCode Java API
 description: Hasilkan kode batang dinamis di Java dengan Aspose.BarCode. Integrasi yang mudah, penyesuaian serbaguna, dan fitur canggih untuk semua kebutuhan kode batang Anda.
-type: docs
 weight: 10
 url: /id/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menentukan Simbologi untuk Barcode di Java
+
 
 ## Perkenalan
 
@@ -77,3 +83,10 @@ Sangat! Aspose.BarCode menyediakan berbagai opsi penyesuaian, memungkinkan Anda 
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.BarCode?
  Mengunjungi[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) untuk mendapatkan bantuan dari masyarakat dan pakar Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

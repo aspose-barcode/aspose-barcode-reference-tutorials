@@ -3,10 +3,16 @@ title: Tạo nhiều mã vạch trên một hình ảnh trong Java bằng Aspose
 linktitle: Tạo nhiều mã vạch trên một hình ảnh
 second_title: API Java Aspose.BarCode
 description: Tạo nhiều mã vạch trên một hình ảnh một cách dễ dàng bằng Aspose.BarCode cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 19
 url: /vi/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo nhiều mã vạch trên một hình ảnh trong Java bằng Aspose.BarCode
+
 ## Giới thiệu
 
 Trong thế giới năng động của lập trình Java, việc tạo và quản lý mã vạch một cách hiệu quả là rất quan trọng đối với các ứng dụng khác nhau. Aspose.BarCode for Java đơn giản hóa quy trình này, cho phép các nhà phát triển tạo nhiều mã vạch trên một hình ảnh một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn các bước để đạt được điều này bằng cách sử dụng Aspose.BarCode trong môi trường Java.
@@ -139,3 +145,9 @@ A2: Chắc chắn rồi! Aspose.BarCode hỗ trợ nhiều loại ký hiệu, ba
 ### Câu hỏi 5: Có bất kỳ tùy chọn dùng thử nào cho Aspose.BarCode không?
 
  A5: Chắc chắn rồi! Bạn có thể khám phá các tính năng của Aspose.BarCode bằng cách lấy giấy phép dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

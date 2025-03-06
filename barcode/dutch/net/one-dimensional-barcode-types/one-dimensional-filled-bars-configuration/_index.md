@@ -3,10 +3,16 @@ title: Configuratie met ééndimensionale gevulde staven
 linktitle: Configuratie met ééndimensionale gevulde staven
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u streepjescodes kunt genereren in .NET met Aspose.BarCode voor .NET. Deze uitgebreide tutorial behandelt alles, van het importeren van naamruimten tot het maken van eendimensionale streepjescodes.
-type: docs
 weight: 20
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuratie met ééndimensionale gevulde staven
+
 
 Wilt u professionele en aanpasbare barcodes genereren in uw .NET-toepassingen? Zoek niet verder! Aspose.BarCode voor .NET is er om uw proces voor het maken van streepjescodes te stroomlijnen en biedt een groot aantal functies en aanpassingsopties om aan uw specifieke behoeften te voldoen. In deze uitgebreide zelfstudie leiden we u door de basisprincipes van het gebruik van Aspose.BarCode voor .NET, van het importeren van naamruimten tot het genereren van eendimensionaal gevulde staven. Laten we beginnen!
 
@@ -99,3 +105,9 @@ Ja, u kunt Aspose.BarCode voor .NET uitproberen door de gratis proefversie te do
 
 ### Kan ik een tijdelijke licentie kopen voor Aspose.BarCode voor .NET?
  Ja, u kunt een tijdelijke licentie verkrijgen via[deze link](https://purchase.aspose.com/temporary-license/), waarmee u gedurende een beperkte periode gebruik kunt maken van de bibliotheek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

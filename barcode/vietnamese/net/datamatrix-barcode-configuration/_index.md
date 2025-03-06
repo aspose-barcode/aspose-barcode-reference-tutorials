@@ -3,10 +3,16 @@ title: Tạo mã vạch DataMatrix như một chuyên gia với Aspose.BarCode.
 linktitle: Cấu hình mã vạch DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch DataMatrix dễ dàng với Aspose.BarCode cho .NET. Tùy chỉnh tỷ lệ khung hình, chế độ ECC, mã hóa, v.v. Tăng hiệu quả trong việc tạo mã vạch.
-type: docs
 weight: 30
 url: /vi/net/datamatrix-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã vạch DataMatrix như một chuyên gia với Aspose.BarCode.
+
 
 
 Chào mừng bạn đến với loạt bài hướng dẫn toàn diện của chúng tôi về cấu hình mã vạch DataMatrix bằng Aspose.BarCode cho .NET. Cho dù bạn là nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu, những hướng dẫn từng bước này sẽ giúp bạn tạo và tùy chỉnh mã vạch DataMatrix một cách liền mạch.
@@ -69,3 +75,9 @@ Tìm hiểu Chế độ mã hóa DataMatrix (C40) với Aspose.BarCode cho .NET.
 Tìm hiểu cách định cấu hình văn bản mã mở rộng DataMatrix bằng Aspose.BarCode cho .NET. Tạo, nhận dạng và tích hợp mã vạch trong các ứng dụng .NET của bạn.
 ### [Cấu hình macro DataMatrix chính](./datamatrix-macro-configuration/)
 Tìm hiểu cách định cấu hình mã vạch DataMatrix Macro bằng Aspose.BarCode cho .NET. Tạo, tùy chỉnh và nhận dạng mã vạch DataMatrix trong các ứng dụng .NET của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

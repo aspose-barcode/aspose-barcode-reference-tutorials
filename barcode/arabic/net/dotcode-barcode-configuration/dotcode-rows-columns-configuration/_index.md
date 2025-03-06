@@ -3,10 +3,16 @@ title: تكوين صفوف وأعمدة DotCode باستخدام Aspose.BarCode 
 linktitle: تكوين صفوف وأعمدة DotCode
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تكوين صفوف وأعمدة DotCode باستخدام Aspose.BarCode لـ .NET. قم بإنشاء رموز شريطية ثنائية الأبعاد دقيقة وقابلة للتخصيص بسهولة.
-type: docs
 weight: 15
 url: /ar/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين صفوف وأعمدة DotCode باستخدام Aspose.BarCode لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في عالم إنشاء الباركود باستخدام Aspose.BarCode لـ .NET! في هذا الدليل الشامل، سوف نتعمق في المجال الرائع لتكوين صفوف وأعمدة DotCode باستخدام Aspose.BarCode. سواء كنت مطورًا متمرسًا أو بدأت رحلتك مع إنشاء الرمز الشريطي للتو، سيرشدك هذا البرنامج التعليمي عبر الخطوات الأساسية والمتطلبات الأساسية ومساحات الأسماء لتبدأ في طريقك لإتقان تكوين صفوف وأعمدة DotCode.
@@ -112,3 +118,9 @@ A1: DotCode هو رمز شريطي ثنائي الأبعاد يُستخدم غا
 ### س5: أين يمكنني العثور على المزيد من البرامج التعليمية والأمثلة حول Aspose.BarCode for .NET؟
 
  ج5: يمكنك استكشاف البرامج التعليمية والأمثلة الإضافية في[وثائق Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

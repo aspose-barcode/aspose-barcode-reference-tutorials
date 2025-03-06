@@ -3,10 +3,16 @@ title: Codificación PDF417 compacta
 linktitle: Codificación PDF417 compacta
 second_title: API Aspose.BarCode .NET
 description: Genere códigos de barras Compact PDF417 sin esfuerzo con Aspose.BarCode para .NET. Siga nuestra guía paso a paso para una codificación eficiente, completa con ejemplos de código.
-type: docs
 weight: 29
 url: /es/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codificación PDF417 compacta
+
 
 ## Introducción
 
@@ -33,3 +39,9 @@ En conclusión, dominar la codificación Compact PDF417 es una habilidad valiosa
 ## Tutoriales de codificación PDF417 compactos
 ### [Creación de códigos de barras PDF417 compactos](./compact-pdf417-basic-configuration/)
 Aprenda a generar códigos de barras Compact PDF417 utilizando Aspose.BarCode para .NET. Guía completa con instrucciones paso a paso y ejemplos de código.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

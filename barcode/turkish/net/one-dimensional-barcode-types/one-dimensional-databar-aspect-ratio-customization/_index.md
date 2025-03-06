@@ -3,10 +3,16 @@ title: Tek Boyutlu Veri Çubuğu En Boy Oranı Özelleştirmesi
 linktitle: Tek Boyutlu Veri Çubuğu En Boy Oranı Özelleştirmesi
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode'u kullanarak .NET'te Tek Boyutlu DataBar en boy oranlarını nasıl özelleştireceğinizi öğrenin. Barkod hassasiyetini ve tasarımını geliştirin.
-type: docs
 weight: 16
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tek Boyutlu Veri Çubuğu En Boy Oranı Özelleştirmesi
+
 
 Barkodlama dünyasında hassasiyet ve kişiselleştirme, istenen sonuçlara ulaşmanın anahtarıdır. Deneyimli bir SEO yazarı olarak, Aspose.BarCode for .NET'i kullanarak Tek Boyutlu DataBar'ın en boy oranını özelleştirme sürecinde size rehberlik etmek için buradayım. Konsepti iyice kavramanızı sağlamak için bu karmaşık süreci yönetilebilir adımlara ayıracağız. O halde hadi dalalım!
 
@@ -116,3 +122,10 @@ En boy oranını ayarlayabilirsiniz ancak aşırı değişiklikler barkodun tara
  Test veya değerlendirme için geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

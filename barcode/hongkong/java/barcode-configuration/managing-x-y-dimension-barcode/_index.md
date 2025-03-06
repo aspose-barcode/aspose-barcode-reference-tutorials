@@ -3,10 +3,16 @@ title: 在 Java 中管理條碼的 X 和 Y 維度
 linktitle: 管理條碼的 X 和 Y 尺寸
 second_title: Aspose.BarCode Java API
 description: 探索 Aspose.BarCode for Java 的強大功能！透過我們的逐步指南，學習輕鬆管理 X 和 Y 尺寸。提高準確性和視覺吸引力。
-type: docs
 weight: 13
 url: /zh-hant/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中管理條碼的 X 和 Y 維度
+
 
 ## 介紹
 
@@ -90,3 +96,10 @@ public static void setYDimension() throws IOException {
 
 ### 我可以獲得 Aspose.BarCode for Java 的臨時授權嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

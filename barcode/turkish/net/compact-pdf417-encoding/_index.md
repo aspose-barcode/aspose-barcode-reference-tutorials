@@ -3,10 +3,16 @@ title: Kompakt PDF417 Kodlama
 linktitle: Kompakt PDF417 Kodlama
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile Kompakt PDF417 barkodlarını zahmetsizce oluşturun. Etkili kodlama için kod örnekleriyle tamamlanan adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 29
 url: /tr/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompakt PDF417 Kodlama
+
 
 ## giriiş
 
@@ -33,3 +39,9 @@ Sonuç olarak, Kompakt PDF417 kodlamasında uzmanlaşmak günümüzün teknoloji
 ## Kompakt PDF417 Kodlama Eğitimleri
 ### [Kompakt PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET'i kullanarak Kompakt PDF417 barkodlarını nasıl oluşturacağınızı öğrenin. Adım adım talimatlar ve kod örnekleri içeren kapsamlı kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

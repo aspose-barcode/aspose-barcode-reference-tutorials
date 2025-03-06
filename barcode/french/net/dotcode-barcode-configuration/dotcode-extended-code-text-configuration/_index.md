@@ -3,10 +3,16 @@ title: Configuration de texte de code étendu DotCode avec Aspose.BarCode pour .
 linktitle: Configuration du texte de code étendu DotCode
 second_title: API Aspose.BarCode .NET
 description: Générez facilement une configuration de texte de code étendu DotCode à l'aide d'Aspose.BarCode pour .NET. Suivez notre guide étape par étape pour une création efficace de codes-barres.
-type: docs
 weight: 13
 url: /fr/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration de texte de code étendu DotCode avec Aspose.BarCode pour .NET
+
 ## Introduction
 
 Dans le domaine de la génération et de la gestion de codes-barres, Aspose.BarCode for .NET s'impose comme une solution polyvalente et efficace. Que vous ayez besoin de générer des codes-barres pour des produits, des stocks ou toute autre application, Aspose.BarCode for .NET est là pour vous. Dans ce didacticiel complet, nous nous concentrerons sur la génération d'une configuration de texte de code étendu DotCode à l'aide d'Aspose.BarCode pour .NET. DotCode est un code-barres matriciel bidimensionnel capable de coder des données textuelles et binaires, ce qui en fait un outil précieux dans diverses industries.
@@ -148,3 +154,9 @@ A3 : Oui, Aspose.BarCode for .NET est compatible avec un large éventail de fram
 ### Q5 : Aspose.BarCode for .NET est-il adapté à la génération de codes-barres au niveau de l'entreprise ?
 
 A5 : Absolument, Aspose.BarCode for .NET est conçu pour répondre aux besoins de génération de codes-barres à petite échelle et au niveau de l'entreprise, offrant évolutivité et fiabilité.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

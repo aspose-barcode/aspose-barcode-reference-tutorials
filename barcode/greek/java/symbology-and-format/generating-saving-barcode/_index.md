@@ -3,10 +3,16 @@ title: Δημιουργία και αποθήκευση γραμμικού κώ�
 linktitle: Δημιουργία και αποθήκευση Barcode
 second_title: Aspose.BarCode Java API
 description: Δημιουργήστε και αποθηκεύστε γραμμικούς κώδικες χωρίς κόπο σε Java με το Aspose.BarCode. Ενσωματώστε απρόσκοπτα, προσαρμόστε την εμφάνιση και απολαύστε εκτεταμένη υποστήριξη γραμμικού κώδικα.
-type: docs
 weight: 12
 url: /el/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία και αποθήκευση γραμμικού κώδικα σε Java
+
 
 ## Εισαγωγή
 
@@ -108,3 +114,9 @@ con.close();
 
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.BarCode;
  Α: Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/barcode/13) για οποιαδήποτε βοήθεια ή απορία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

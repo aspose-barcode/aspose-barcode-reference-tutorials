@@ -3,10 +3,16 @@ title: Uzupełnianie danych w Javie
 linktitle: Uzupełnianie danych
 second_title: Aspose.BarCode API Java
 description: Dowiedz się, jak tworzyć dynamiczne kody kreskowe w Javie przy użyciu Aspose.BarCode. Przewodnik krok po kroku dotyczący uzupełniania danych o symbolikę EAN_13.
-type: docs
 weight: 16
 url: /pl/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzupełnianie danych w Javie
+
 
 ## Wstęp
 
@@ -96,3 +102,10 @@ Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://rele
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

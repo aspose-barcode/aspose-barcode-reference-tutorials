@@ -3,10 +3,16 @@ title: Gerando um código de patch em Java
 linktitle: Gerando um código de patch
 second_title: API Java Aspose.BarCode
 description: Gere códigos de patch sem esforço em Java com Aspose.BarCode. Siga nosso guia passo a passo para geração eficiente de código de barras.
-type: docs
 weight: 11
 url: /pt/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerando um código de patch em Java
+
 
 ## Introdução
 
@@ -104,3 +110,10 @@ Seguindo este guia passo a passo, você aprendeu como gerar um Patch Code em Jav
 
 ### Onde posso encontrar a documentação do Aspose.BarCode para Java?
  A documentação está disponível em[Documentação Aspose.BarCode para Java](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nhận dạng mã vạch từ PDF trong Java
 linktitle: Nhận dạng mã vạch từ PDF
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách nhận dạng mã vạch từ tệp PDF trong Java bằng Aspose.BarCode. Hướng dẫn từng bước với các ví dụ về mã. Tăng hiệu quả quản lý dữ liệu của bạn!
-type: docs
 weight: 11
 url: /vi/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng mã vạch từ PDF trong Java
+
 
 ## Giới thiệu
 
@@ -113,3 +119,10 @@ Aspose.BarCode hỗ trợ nhiều loại mã vạch. Tham khảo tài liệu đ�
 
 ### Câu hỏi: Tôi có thể tìm kiếm hỗ trợ hoặc đặt câu hỏi về Aspose.BarCode cho Java ở đâu?
  Truy cập Aspose.BarCode[diễn đàn](https://forum.aspose.com/c/barcode/13) để được hỗ trợ và thảo luận.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

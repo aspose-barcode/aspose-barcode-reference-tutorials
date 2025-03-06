@@ -3,10 +3,16 @@ title: One-Dimensional Code 128 Configuration
 linktitle: One-Dimensional Code 128 Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate one-dimensional Code 128 barcodes in .NET using Aspose.BarCode. Follow our step-by-step guide for seamless barcode integration.
-type: docs
 weight: 10
 url: /net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# One-Dimensional Code 128 Configuration
+
 
 If you're a .NET developer looking for a powerful tool to generate barcodes in your applications, Aspose.BarCode for .NET is your go-to solution. This comprehensive guide will walk you through the process of harnessing the capabilities of Aspose.BarCode for .NET to create one-dimensional Code 128 barcodes, and it's designed for both beginners and experienced developers. 
 
@@ -109,3 +115,10 @@ Yes, you can try Aspose.BarCode for .NET for free by downloading the trial versi
 ### Where can I get support for Aspose.BarCode for .NET?
 You can seek help and share your experiences on the Aspose.BarCode for .NET forum [here](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

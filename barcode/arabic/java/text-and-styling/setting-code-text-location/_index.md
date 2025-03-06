@@ -3,10 +3,16 @@ title: تحديد موقع نص الرمز في Java
 linktitle: تحديد موقع نص الرمز
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية ديناميكية بسهولة في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لتخصيص نص التعليمات البرمجية ورفع مستوى وظائف التطبيق الخاص بك.
-type: docs
 weight: 12
 url: /ar/java/text-and-styling/setting-code-text-location/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد موقع نص الرمز في Java
+
 
 ## مقدمة
 
@@ -88,3 +94,10 @@ generator.save(dataDir + "codetextAbove.png");
 
 ### س: أين يمكنني طلب المساعدة أو الدعم بخصوص Aspose.BarCode؟
  قم بزيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) لدعم المجتمع ومساعدته.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

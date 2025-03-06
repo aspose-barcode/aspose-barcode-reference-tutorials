@@ -3,10 +3,16 @@ title: Всегда показывает контрольную сумму в Ja
 linktitle: Всегда показывает контрольную сумму
 second_title: API Aspose.BarCode Java
 description: Создавайте штрих-коды с помощью Aspose.BarCode для Java без особых усилий. Узнайте, как всегда отображать контрольные суммы для повышения целостности данных, в этом пошаговом руководстве.
-type: docs
 weight: 10
 url: /ru/java/checksum-and-validation/always-showing-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Всегда показывает контрольную сумму в Java
+
 
 ## Введение
 
@@ -90,3 +96,10 @@ generator.save(dataDir + "checksum.jpg");
 ### Вопрос: Как я могу получить временную лицензию на Aspose.BarCode для Java?
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

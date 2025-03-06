@@ -3,10 +3,16 @@ title: Reconnaissance sans effort des codes-barres à partir de documents Word
 linktitle: Reconnaître les codes-barres des documents Word
 second_title: API Java Aspose.BarCode
 description: Découvrez l'intégration transparente de la reconnaissance de codes-barres dans vos applications Java avec Aspose.BarCode. Suivez ce tutoriel pour reconnaître les codes-barres des documents Word.
-type: docs
 weight: 12
 url: /fr/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reconnaissance sans effort des codes-barres à partir de documents Word
+
 
 ## Introduction
 
@@ -111,3 +117,10 @@ Pour toute assistance ou question, visitez le forum Aspose.BarCode[ici](https://
 
 ### Q : Où puis-je trouver la documentation d'Aspose.BarCode pour Java ?
  Se référer à la documentation complète[ici](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

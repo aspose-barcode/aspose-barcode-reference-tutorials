@@ -3,10 +3,16 @@ title: Προσαρμόστε την αναλογία διαστάσεων γρ�
 linktitle: Προσαρμογή αναλογίας διαστάσεων Αζτέκων
 second_title: Aspose.BarCode .NET API
 description: Μάθετε πώς να προσαρμόζετε τις αναλογίες διαστάσεων γραμμικού κώδικα των Αζτέκων χρησιμοποιώντας το Aspose.BarCode για .NET. Δημιουργήστε μοναδικούς, ευέλικτους γραμμωτούς κώδικες για τις εφαρμογές σας .NET.
-type: docs
 weight: 10
 url: /el/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε την αναλογία διαστάσεων γραμμικού κώδικα των Αζτέκων με το Aspose.BarCode για .NET
+
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην προσαρμογή της αναλογίας διαστάσεων των γραμμωτών κωδίκων των Αζτέκων χρησιμοποιώντας το Aspose.BarCode για .NET. Οι γραμμωτοί κώδικες των Αζτέκων είναι δισδιάστατοι γραμμικοί κώδικες που χρησιμοποιούνται συνήθως για την κωδικοποίηση δεδομένων και με το Aspose.BarCode, μπορείτε εύκολα να δημιουργήσετε και να προσαρμόσετε αυτούς τους γραμμωτούς κώδικες για να ταιριάζουν στις συγκεκριμένες απαιτήσεις σας.
 
 ## Προαπαιτούμενα
@@ -108,3 +114,9 @@ A4: Μπορείτε να χρησιμοποιήσετε το Aspose.BarCode γ�
 ### Ε5: Πού μπορώ να λάβω μια προσωρινή άδεια χρήσης για το Aspose.BarCode για .NET;
 
 A5: Εάν χρειάζεστε μια προσωρινή άδεια για σκοπούς δοκιμών ή αξιολόγησης, μπορείτε να αποκτήσετε μια από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

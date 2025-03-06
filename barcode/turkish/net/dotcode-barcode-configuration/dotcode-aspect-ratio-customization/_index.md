@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET ile DotCode En Boy Oranını Özelleştirin
 linktitle: DotCode En Boy Oranı Özelleştirmesi
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak DotCode barkod en boy oranını özelleştirmeyi öğrenin. Uygulamalarınız için özel barkodları zahmetsizce oluşturun.
-type: docs
 weight: 10
 url: /tr/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile DotCode En Boy Oranını Özelleştirin
+
 ## giriiş
 
 Uygulamalarınızda son derece özelleştirilebilir barkodlar oluşturmak isteyen bir .NET geliştiricisiyseniz, Aspose.BarCode for .NET mükemmel bir çözümdür. Bu eğitimde, gelişmiş özelliklerinden biri olan DotCode en boy oranını özelleştirmeyi inceleyeceğiz. DotCode barkodları sağlık hizmetleri, posta hizmetleri ve üretim gibi sektörlerde bilgileri kodlamak için yaygın olarak kullanılmaktadır. En boy oranını değiştirerek barkodunuzu özel ihtiyaçlarınıza göre uyarlayabilirsiniz. Başlayalım!
@@ -97,3 +103,9 @@ Cevap4: Evet, Aspose.BarCode for .NET, barkod oluşturmak ve işlemek için hem 
 ### S5: Aspose.BarCode for .NET hakkında daha fazla bilgi ve belgeyi nerede bulabilirim?
 
 A5: Belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/barcode/net/) Kapsamlı rehberlik ve örnekler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

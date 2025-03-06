@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用した DataMatrix アスペクト比の�
 linktitle: DataMatrix アスペクト比のカスタマイズ
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して DataMatrix バーコードのアスペクト比をカスタマイズする方法を学びます。バーコード生成のステップバイステップガイド。
-type: docs
 weight: 10
 url: /ja/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用した DataMatrix アスペクト比のカスタマイズ
+
 Aspose.BarCode for .NET を使用して、カスタマイズされたアスペクト比で DataMatrix バーコードを生成したいと考えていますか?あなたは正しい場所にいます。このステップバイステップのチュートリアルでは、これを達成する方法を説明します。 Aspose.BarCode for .NET は、バーコードを簡単に作成および操作できる強力なライブラリです。まず、必要な前提条件と名前空間を紹介し、次に例を見ていきます。
 
 ## 前提条件
@@ -86,3 +92,9 @@ A4: はい、Aspose.BarCode for .NET はさまざまな .NET Framework バージ
 ### Q5: Aspose.BarCode for .NET を使用して、さまざまな形式のバーコードを生成できますか?
 
 A5: はい、Aspose.BarCode for .NET は、PNG、JPEG などのさまざまな形式でのバーコードの生成をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 一维宽窄比配置
 linktitle: 一维宽窄比配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 轻松生成自定义条形码。一维宽窄比配置的分步指南。
-type: docs
 weight: 22
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一维宽窄比配置
+
 
 您是否希望在 .NET 应用程序中轻松生成和自定义条形码？别再犹豫了！ Aspose.BarCode for .NET 是一个强大的库，使条形码生成和自定义变得轻而易举。在本分步指南中，我们将深入研究如何利用 Aspose.BarCode for .NET 的强大功能来创建具有宽窄比配置的条形码。
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET 支持多种条形码符号，包括 QR 码、Code 39 �
 
 ### 5. 如何获得有关 Aspose.BarCode for .NET 的支持或提出问题？
 您可以访问[Aspose.BarCode 论坛](https://forum.aspose.com/c/barcode/13)以寻求支持和讨论。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

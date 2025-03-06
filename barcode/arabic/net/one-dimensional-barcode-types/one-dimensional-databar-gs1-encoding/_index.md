@@ -3,10 +3,16 @@ title: ترميز شريط البيانات أحادي البعد GS1
 linktitle: ترميز شريط البيانات أحادي البعد GS1
 second_title: Aspose.BarCode .NET API
 description: تعلم كيفية إنشاء رموز شريطية مشفرة لـ Databar GS1 في .NET باستخدام Aspose.BarCode. إنشاء الباركود بكل سهولة. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز شريط البيانات أحادي البعد GS1
+
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء رموز شريطية مشفرة أحادية البعد لـ Databar GS1 باستخدام مكتبة Aspose.BarCode for .NET. سواء كنت تتطلع إلى إنشاء رموز شريطية باستخدام تشفير GS1 أو بدونه، فلدينا كل ما تحتاجه. سيساعدك هذا الدليل التفصيلي خطوة بخطوة على فهم المتطلبات الأساسية واستيراد مساحات الأسماء وتوضيح كل مثال لإنشاء رموز شريطية مشفرة لـ Databar GS1 بسهولة.
 
@@ -101,3 +107,10 @@ catch (Exception e)
 
 ### 5. كيف يمكنني شراء ترخيص Aspose.BarCode لـ .NET؟
  لشراء ترخيص Aspose.BarCode لـ .NET، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) على موقع Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

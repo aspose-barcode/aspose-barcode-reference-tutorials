@@ -3,10 +3,16 @@ title: Распознавание штрих-кодов из PDF в Java
 linktitle: Распознавание штрих-кодов из PDF
 second_title: API Aspose.BarCode Java
 description: Узнайте, как распознавать штрих-коды в PDF-файлах на Java с помощью Aspose.BarCode. Пошаговое руководство с примерами кода. Повысьте эффективность управления данными!
-type: docs
 weight: 11
 url: /ru/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Распознавание штрих-кодов из PDF в Java
+
 
 ## Введение
 
@@ -113,3 +119,10 @@ Aspose.BarCode поддерживает широкий спектр типов �
 
 ### Вопрос: Где я могу обратиться за поддержкой или задать вопросы об Aspose.BarCode для Java?
  Посетите Aspose.BarCode[Форум](https://forum.aspose.com/c/barcode/13) за поддержку и обсуждения.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DotCode Encoding Mode (Auto) in Aspose.BarCode for .NET
 linktitle: DotCode Encoding Mode (Auto)
 second_title: Aspose.BarCode .NET API
 description: Explore DotCode Encoding Mode (Auto) in Aspose.BarCode for .NET, a powerful tool for barcode generation. Learn how to generate DotCode barcodes step by step. Check out the documentation, download the library, and get temporary licenses.
-type: docs
 weight: 11
 url: /net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode Encoding Mode (Auto) in Aspose.BarCode for .NET
+
 When it comes to barcode generation in .NET, Aspose.BarCode for .NET stands out as a versatile and powerful tool. Whether you're an experienced developer or a novice looking to implement barcode generation, this tutorial will guide you through the DotCode Encoding Mode. We will break down each step to ensure you grasp the concept thoroughly.
 
 ## Prerequisites
@@ -104,3 +110,10 @@ A4: Aspose.BarCode for .NET supports a wide range of barcode types, including QR
 ### Q5: How can I get support for Aspose.BarCode for .NET?
 
 A5: If you have any questions or need assistance, you can visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) to seek help and guidance from the community and experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

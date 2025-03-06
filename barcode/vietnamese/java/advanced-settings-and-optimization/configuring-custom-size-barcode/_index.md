@@ -3,10 +3,16 @@ title: Định cấu hình mã vạch có kích thước tùy chỉnh trong Java
 linktitle: Định cấu hình kích thước tùy chỉnh cho mã vạch
 second_title: API Java Aspose.BarCode
 description: Khám phá sự đơn giản của việc định cấu hình mã vạch có kích thước tùy chỉnh trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để cấu hình chính xác.
-type: docs
 weight: 10
 url: /vi/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình mã vạch có kích thước tùy chỉnh trong Java bằng Aspose.BarCode
+
 ## Giới thiệu
 
 Nếu bạn là nhà phát triển Java đang tìm cách định cấu hình mã vạch có kích thước tùy chỉnh một cách liền mạch thì Aspose.BarCode for Java là giải pháp phù hợp cho bạn. Hướng dẫn này sẽ hướng dẫn bạn quy trình định cấu hình kích thước tùy chỉnh cho mã vạch của bạn, đảm bảo tính linh hoạt và độ chính xác trong ứng dụng của bạn.
@@ -112,3 +118,9 @@ Câu trả lời 1: Có, Aspose.BarCode cho Java hỗ trợ nhiều loại ký h
 ### Câu hỏi 5: Có sẵn tùy chọn giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

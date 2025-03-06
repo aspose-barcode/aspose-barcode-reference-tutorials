@@ -3,10 +3,16 @@ title: Java에서 유니코드 바코드 인식
 linktitle: 유니코드 바코드 인식
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 유니코드 바코드 인식의 세계를 탐험해보세요. 다양한 문자 세트를 귀하의 애플리케이션에 원활하게 통합하려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 13
 url: /ko/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 유니코드 바코드 인식
+
 
 ## 소개
 
@@ -127,3 +133,9 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ### 지원이 필요하거나 질문이 있으신가요?
  방문하다[Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

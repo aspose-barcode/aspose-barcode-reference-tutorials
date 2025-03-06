@@ -3,10 +3,16 @@ title: 在 Java 中將條碼渲染為圖像實例
 linktitle: 將條碼渲染為圖像實例
 second_title: Aspose.BarCode Java API
 description: 探索 Aspose.BarCode for Java 的強大功能！使用這個強大的庫輕鬆產生各種類型的條碼。
-type: docs
 weight: 11
 url: /zh-hant/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中將條碼渲染為圖像實例
+
 
 ## 介紹
 
@@ -70,3 +76,10 @@ Image image = bb.generateBarCodeImage();
 
 ### 是否有可用的臨時許可證選項？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

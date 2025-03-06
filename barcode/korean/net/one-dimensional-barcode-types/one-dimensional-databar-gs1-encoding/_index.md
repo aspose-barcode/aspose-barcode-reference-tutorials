@@ -3,10 +3,16 @@ title: 1차원 데이터바 GS1 인코딩
 linktitle: 1차원 데이터바 GS1 인코딩
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode를 사용하여 .NET에서 Databar GS1 인코딩 바코드를 만드는 방법을 알아보세요. 쉽게 바코드를 생성하세요. 단계별 가이드를 따르세요.
-type: docs
 weight: 18
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 데이터바 GS1 인코딩
+
 
 이 튜토리얼에서는 .NET 라이브러리용 Aspose.BarCode를 사용하여 1차원 Databar GS1 인코딩 바코드를 생성하는 과정을 안내합니다. GS1 인코딩을 사용하거나 사용하지 않고 바코드를 생성하려는 경우, 우리가 도와드리겠습니다. 이 단계별 가이드는 전제 조건을 이해하고, 네임스페이스를 가져오고, Databar GS1 인코딩 바코드를 쉽게 생성하기 위한 각 예를 시연하는 데 도움이 됩니다.
 
@@ -101,3 +107,10 @@ GS1 인코딩은 올바른 데이터 구조와 식별을 보장하기 위해 바
 
 ### 5. .NET용 Aspose.BarCode 라이선스를 어떻게 구매할 수 있나요?
  .NET용 Aspose.BarCode 라이선스를 구매하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) Aspose 웹 사이트에서.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

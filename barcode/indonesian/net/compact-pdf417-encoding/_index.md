@@ -3,10 +3,16 @@ title: Pengkodean PDF417 yang ringkas
 linktitle: Pengkodean PDF417 yang ringkas
 second_title: Aspose.BarCode .NET API
 description: Hasilkan kode batang Compact PDF417 dengan mudah menggunakan Aspose.BarCode untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengkodean yang efisien, lengkap dengan contoh kode.
-type: docs
 weight: 29
 url: /id/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengkodean PDF417 yang ringkas
+
 
 ## Perkenalan
 
@@ -33,3 +39,9 @@ Kesimpulannya, menguasai pengkodean Compact PDF417 adalah keterampilan yang berh
 ## Tutorial Pengkodean PDF417 Ringkas
 ### [Membuat Barcode PDF417 Ringkas](./compact-pdf417-basic-configuration/)
 Pelajari cara membuat kode batang Compact PDF417 menggunakan Aspose.BarCode untuk .NET. Panduan komprehensif dengan petunjuk langkah demi langkah dan contoh kode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

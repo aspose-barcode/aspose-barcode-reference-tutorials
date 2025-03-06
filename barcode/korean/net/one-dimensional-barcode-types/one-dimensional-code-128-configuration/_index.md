@@ -3,10 +3,16 @@ title: 1차원 코드 128 구성
 linktitle: 1차원 코드 128 구성
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode를 사용하여 .NET에서 1차원 Code 128 바코드를 생성하는 방법을 알아보세요. 원활한 바코드 통합을 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 10
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 코드 128 구성
+
 
 애플리케이션에서 바코드를 생성하는 강력한 도구를 찾고 있는 .NET 개발자라면 .NET용 Aspose.BarCode가 적합한 솔루션입니다. 이 포괄적인 가이드는 .NET용 Aspose.BarCode의 기능을 활용하여 1차원 Code 128 바코드를 생성하는 과정을 안내하며 초보자와 숙련된 개발자 모두를 위해 설계되었습니다. 
 
@@ -108,3 +114,10 @@ Aspose.BarCode는 주로 1차원 바코드에 중점을 두지만 .NET용 Aspose
 
 ### .NET용 Aspose.BarCode에 대한 지원은 어디서 받을 수 있나요?
  Aspose.BarCode for .NET 포럼에서 도움을 구하고 경험을 공유할 수 있습니다.[여기](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

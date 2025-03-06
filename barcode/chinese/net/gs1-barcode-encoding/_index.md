@@ -3,10 +3,16 @@ title: GS1 条码编码
 linktitle: GS1 条码编码
 second_title: Aspose.BarCode .NET API
 description: 探索 .NET 中 Aspose.BarCode 的 GS1 条形码编码教程。轻松创建 GS1 Code 128、UPC-A 和 DataMatrix 条形码。现在就开始！
-type: docs
 weight: 23
 url: /zh/net/gs1-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 条码编码
+
 
 ## 介绍
 在当今快节奏的商业世界中，对高效、准确的条形码编码的需求比以往任何时候都更加重要。 GS1 条形码是产品识别和可追溯性的标准，掌握其创建是一项宝贵的技能。如果您想深入了解 GS1 条形码的世界，那么您来对地方了。
@@ -53,3 +59,9 @@ GS1 DataMatrix 条形码是产品识别和可追溯性的重要组成部分。 A
 使用 Aspose.BarCode for .NET 了解 GS1 Coupon UPC-A Databar 配置。轻松创建条形码。现在就开始！
 ### [GS1 数据矩阵示例](./gs1-datamatrix-example/)
 了解如何使用 Aspose.BarCode 在 .NET 中创建 GS1 DataMatrix 条形码。只需几个步骤即可轻松高效地生成条形码。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

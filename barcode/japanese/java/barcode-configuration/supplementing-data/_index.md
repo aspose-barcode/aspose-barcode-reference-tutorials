@@ -3,10 +3,16 @@ title: Java でのデータの補足
 linktitle: データの補足
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java で動的バーコードを作成する方法を学びます。 EAN_13 シンボルを使用してデータを補足するためのステップバイステップのガイド。
-type: docs
 weight: 16
 url: /ja/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのデータの補足
+
 
 ## 導入
 
@@ -96,3 +102,10 @@ generator.save(dataDir + "supplementData.jpg");
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

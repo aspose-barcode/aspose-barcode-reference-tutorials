@@ -3,10 +3,16 @@ title: Cấu hình thanh dữ liệu UPC-A của phiếu giảm giá GS1
 linktitle: Cấu hình thanh dữ liệu UPC-A của phiếu giảm giá GS1
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cấu hình Thanh dữ liệu UPC-A của GS1 Coupon với Aspose.BarCode cho .NET. Tạo mã vạch dễ dàng. Bắt đầu ngay bây giờ!
-type: docs
 weight: 13
 url: /vi/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình thanh dữ liệu UPC-A của phiếu giảm giá GS1
+
 
 ## Giới thiệu
 
@@ -86,3 +92,10 @@ Bạn có thể tải xuống Aspose.BarCode cho .NET từ[trang tải xuống](
 ### Tôi có thể nhận hỗ trợ cho Aspose.BarCode cho .NET ở đâu?
  Đối với bất kỳ hỗ trợ kỹ thuật hoặc thắc mắc nào, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose.BarCode cho .NET](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

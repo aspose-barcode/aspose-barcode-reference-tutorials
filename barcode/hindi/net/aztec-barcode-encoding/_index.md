@@ -3,10 +3,16 @@ title: एज़्टेक बारकोड एन्कोडिंग
 linktitle: एज़्टेक बारकोड एन्कोडिंग
 second_title: Aspose.BarCode .NET API
 description: .NET के लिए Aspose.BarCode के साथ एज़्टेक बारकोड एन्कोडिंग की क्षमता को अनलॉक करें। पहलू अनुपात को अनुकूलित करें, टेक्स्ट-एन्कोडेड एज़्टेक कोड बनाएं और प्रतीक मोड में महारत हासिल करें।
-type: docs
 weight: 28
 url: /hi/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# एज़्टेक बारकोड एन्कोडिंग
+
 
 ## परिचय
 
@@ -44,3 +50,9 @@ url: /hi/net/aztec-barcode-encoding/
 .NET के लिए Aspose.BarCode का उपयोग करके विभिन्न त्रुटि स्तरों के साथ एज़्टेक त्रुटि बारकोड उत्पन्न करना सीखें। बारकोड निर्माण के लिए व्यापक मार्गदर्शिका।
 ### [एज़्टेक प्रतीक मोड में महारत हासिल करना](./aztec-symbol-mode-example/)
 .NET के लिए Aspose.BarCode में एज़्टेक सिंबल मोड का अन्वेषण करें और सीखें कि आसानी से बहुमुखी बारकोड कैसे उत्पन्न करें। इस व्यापक ट्यूटोरियल में ऑटो, फुलरेंज, कॉम्पैक्ट और रूण मोड का अनुभव प्राप्त करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

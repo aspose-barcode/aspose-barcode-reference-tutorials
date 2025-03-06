@@ -3,10 +3,16 @@ title: Генерация нескольких штрих-кодов на одн
 linktitle: Создание нескольких штрих-кодов на одном изображении
 second_title: API Aspose.BarCode Java
 description: Легко создавайте несколько штрих-кодов на одном изображении, используя Aspose.BarCode для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 19
 url: /ru/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация нескольких штрих-кодов на одном изображении в Java с помощью Aspose.BarCode
+
 ## Введение
 
 В динамичном мире программирования на Java эффективное создание и управление штрих-кодами имеет решающее значение для различных приложений. Aspose.BarCode для Java упрощает этот процесс, позволяя разработчикам беспрепятственно создавать несколько штрих-кодов на одном изображении. В этом руководстве вы узнаете, как добиться этого с помощью Aspose.BarCode в среде Java.
@@ -139,3 +145,9 @@ ImageIO.write(resultBitmap, "png", outputfile);
 ### Вопрос 5: Существуют ли какие-либо пробные варианты для Aspose.BarCode?
 
  А5: Конечно! Вы можете изучить возможности Aspose.BarCode, получив бесплатную пробную лицензию.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

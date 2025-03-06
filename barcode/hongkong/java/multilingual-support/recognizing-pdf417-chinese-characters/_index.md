@@ -3,10 +3,16 @@ title: Java識別PDF417漢字條碼
 linktitle: 識別PDF417漢字條碼
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中識別帶有中文字元的 PDF417 條碼。請遵循我們的無縫整合綜合教程。
-type: docs
 weight: 10
 url: /zh-hant/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java識別PDF417漢字條碼
+
 
 ## 介紹
 
@@ -89,3 +95,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### 我在哪裡可以找到文件？
 文件可用[這裡](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

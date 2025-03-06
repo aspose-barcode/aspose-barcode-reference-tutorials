@@ -3,10 +3,16 @@ title: Wide-Narrow Ratio configureren in Java met Aspose.BarCode
 linktitle: De breed-nauwverhouding configureren
 second_title: Aspose.BarCode Java-API
 description: Leer hoe u de breed-nauwverhouding in Java-barcodes configureert met Aspose.BarCode. Volg onze stapsgewijze handleiding voor naadloos maatwerk.
-type: docs
 weight: 17
 url: /nl/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wide-Narrow Ratio configureren in Java met Aspose.BarCode
+
 
 ## Invoering
 
@@ -87,3 +93,9 @@ A: Wijzig eenvoudigweg het symbologietype in de BarcodeGenerator-constructor, bi
 
 ### Vraag: Hoe krijg ik ondersteuning voor Aspose.BarCode?
  A: Bezoek het Aspose.BarCode-forum[hier](https://forum.aspose.com/c/barcode/13) voor ondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

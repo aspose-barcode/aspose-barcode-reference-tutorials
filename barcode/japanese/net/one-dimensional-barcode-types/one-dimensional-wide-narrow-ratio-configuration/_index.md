@@ -3,10 +3,16 @@ title: 1 次元のワイド/ナロー比構成
 linktitle: 1 次元のワイド/ナロー比構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して、カスタマイズされたバーコードを簡単に生成します。 1 次元のワイド/ナロー比構成のステップバイステップ ガイド。
-type: docs
 weight: 22
 url: /ja/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1 次元のワイド/ナロー比構成
+
 
 .NET アプリケーションでバーコードを簡単に生成およびカスタマイズしたいと考えていますか?これ以上探さない！ Aspose.BarCode for .NET は、バーコードの生成とカスタマイズを簡単にする堅牢なライブラリです。このステップバイステップ ガイドでは、Aspose.BarCode for .NET の機能を活用して、ワイド/ナロー比構成のバーコードを作成する方法を詳しく説明します。
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET は、QR コード、Code 39 などを含む幅広いバ
 
 ### 5. Aspose.BarCode for .NET についてサポートを受けたり、質問したりするにはどうすればよいですか?
 訪問できます。[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13)サポートとディスカッションのため。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

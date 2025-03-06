@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials and Examples of Aspose.BarCode for .NET 
 linktitle: Aspose.BarCode for .NET Tutorials
-type: docs
 weight: 10
 url: /net/
 description: Unlock the potential of Aspose.BarCode for .NET with comprehensive tutorials! Master Codabar encoding, customize Codablock F, explore Code 16K, and more. 
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials and Examples of Aspose.BarCode for .NET
+
 
 
 Aspose.BarCode for .NET empowers developers to create and customize various barcode types with precision and ease. Whether you're delving into Codabar encoding or exploring advanced options like Aztec Barcode, our tutorials cover it all.
@@ -91,3 +96,9 @@ Generate DataMatrix barcodes effortlessly with Aspose.BarCode for .NET. Customiz
 Generate and read DataMatrix barcodes effortlessly with Aspose.BarCode for .NET. Dive into DataMatrix reader programming and structured append configuration.
 ### [DotCode Barcode Configuration](./dotcode-barcode-configuration/)
 Generate customized DotCode barcodes effortlessly with Aspose.BarCode .NET. Learn aspect ratio, encoding modes, extended code text, and reader initialization.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

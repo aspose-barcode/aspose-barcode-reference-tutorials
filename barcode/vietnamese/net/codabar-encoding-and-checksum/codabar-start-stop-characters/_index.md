@@ -3,10 +3,16 @@ title: Tạo mã vạch Codabar với các ký tự bắt đầu/dừng trong As
 linktitle: Ký tự bắt đầu/dừng của Codabar
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch Codabar với các ký tự bắt đầu và kết thúc bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
-type: docs
 weight: 11
 url: /vi/net/codabar-encoding-and-checksum/codabar-start-stop-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã vạch Codabar với các ký tự bắt đầu/dừng trong Aspose.BarCode cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách sử dụng Aspose.BarCode cho .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới của các ký tự bắt đầu/dừng Codabar, khám phá tầm quan trọng của chúng và cách triển khai chúng một cách hiệu quả bằng cách sử dụng Aspose.BarCode cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình viết mã, hướng dẫn từng bước này sẽ giúp bạn nắm vững nghệ thuật tạo mã vạch Codabar với các ký tự bắt đầu và kết thúc.
@@ -132,3 +138,9 @@ Câu trả lời 3: Mã vạch Codabar chủ yếu được sử dụng để m�
 ### Câu hỏi 5: Tôi có thể tìm trợ giúp hoặc thảo luận các vấn đề liên quan đến Aspose.BarCode cho .NET ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose.BarCode cho .NET](https://forum.aspose.com/c/barcode/13) để tìm kiếm sự giúp đỡ và thảo luận về bất kỳ vấn đề hoặc câu hỏi nào bạn có thể có.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

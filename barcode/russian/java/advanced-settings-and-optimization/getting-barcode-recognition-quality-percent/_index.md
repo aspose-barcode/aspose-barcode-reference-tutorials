@@ -3,10 +3,16 @@ title: Получение качества распознавания штрих
 linktitle: Получение качества распознавания штрих-кода в процентах
 second_title: API Aspose.BarCode Java
 description: Получение качества распознавания штрих-кода на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для достижения оптимальных результатов.
-type: docs
 weight: 21
 url: /ru/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получение качества распознавания штрих-кода в процентах на Java с помощью Aspose.BarCode
+
 ## Введение
 
 Если вы хотите добиться высокого качества распознавания штрих-кодов в своем Java-приложении, Aspose.BarCode — идеальный инструмент для этой работы. В этом руководстве мы проведем вас через процесс достижения оптимального качества распознавания штрих-кода за несколько простых шагов с использованием Aspose.BarCode для Java.
@@ -88,3 +94,9 @@ A3: Получите временную лицензию на тестирова
 ### Вопрос 5. Есть ли в документации примеры кода?
 
  О5: Да, подробные примеры кода можно найти в документации.[здесь](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

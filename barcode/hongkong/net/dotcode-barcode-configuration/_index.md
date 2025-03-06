@@ -3,10 +3,16 @@ title: DotCode 條碼配置
 linktitle: DotCode 條碼配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode .NET 輕鬆產生客製化的 DotCode 條碼。了解寬高比、編碼模式、擴展代碼文字和閱讀器初始化。
-type: docs
 weight: 32
 url: /zh-hant/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode 條碼配置
+
 
 ## 介紹
 使用 Aspose.BarCode for .NET 深入了解 DotCode 條碼的世界。我們的教程涵蓋各個方面，使您能夠輕鬆創建自訂的條碼。探索寬高比自訂、編碼模式（自動和位元組）、擴展程式碼文字配置、閱讀器初始化、行和列配置以及結構化附加模式等方面。遵循我們的逐步指南來掌握每個配置，確保產生精確且可自訂的二維條碼。無論您是初學者還是經驗豐富的開發人員，我們的教程都提供了為各種應用創建高效 DotCode 條碼的寶貴見解。探索我們全面的文件、下載庫並取得臨時授權以啟動您的條碼產生之旅。 Aspose.BarCode for .NET 簡化了流程，使您能夠無縫生成條碼並將其輕鬆整合到您的應用程式中。加入我們的本教學系列，以提高您的條碼創建技能並保持在條碼技術的最前沿。|
@@ -48,3 +54,9 @@ url: /zh-hant/net/dotcode-barcode-configuration/
 學習使用 Aspose.BarCode for .NET 配置 DotCode 行和列。輕鬆產生精確且可自訂的二維條碼。
 ### [DotCode 結構化追加模式配置](./dotcode-structured-append-mode-configuration/)
 了解如何使用 Aspose.BarCode for .NET 配置 DotCode 結構化追加模式並建立高效的條碼。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

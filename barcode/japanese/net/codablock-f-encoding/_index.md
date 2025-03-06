@@ -3,10 +3,16 @@ title: Codablock F エンコーディング
 linktitle: Codablock F エンコーディング
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET で Codablock F エンコーディングの可能性を解き放ちます。アスペクト比をカスタマイズし、行と列を構成して正確な 2D バーコードを作成します。
-type: docs
 weight: 21
 url: /ja/net/codablock-f-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codablock F エンコーディング
+
 
 Codablock F エンコード チュートリアルの世界へようこそ。ここでは、Aspose.BarCode for .NET を使用して正確でカスタマイズされた 2D バーコードを作成する技術をわかりやすく説明します。この包括的なガイドでは、Codablock F のアスペクト比のカスタマイズと Codablock F の行と列の構成という 2 つの重要な側面について説明します。
 
@@ -28,3 +34,9 @@ Codablock F の行と列の構成をマスターすることで、さまざま�
 Aspose.BarCode for .NET を使用して Codablock F アスペクト比のカスタマイズをマスターします。ニーズに合わせた正確なバーコードを簡単に作成できます。
 ### [Codablock F の行と列を構成する](./codablock-f-row-column-configuration/)
 Aspose.BarCode for .NET で Codablock F の行と列を構成する方法を学びます。さまざまなアプリケーション向けにカスタマイズされた 2D バーコードを作成します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

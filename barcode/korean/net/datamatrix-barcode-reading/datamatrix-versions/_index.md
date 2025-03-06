@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 DataMatrix 바코드 생성
 linktitle: DataMatrix 버전
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 .NET에서 DataMatrix 바코드를 생성하는 방법을 알아보세요. 맞춤 측정기준, ECC 지원 등
-type: docs
 weight: 12
 url: /ko/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 DataMatrix 바코드 생성
+
 .NET 애플리케이션에서 DataMatrix 바코드를 생성하기 위한 안정적인 솔루션을 찾고 있다면 .NET용 Aspose.BarCode를 선택하세요. 이 단계별 가이드에서는 .NET용 Aspose.BarCode를 사용하여 DataMatrix 바코드를 만드는 과정을 안내합니다. 각 예를 여러 단계로 나누어서 쉽게 따라할 수 있도록 하겠습니다.
 
 ## 전제 조건
@@ -128,3 +134,9 @@ A2: 예, 튜토리얼에 설명된 대로 행과 열 수를 설정하여 DataMat
 ### Q5: .NET용 Aspose.BarCode의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: .NET용 Aspose.BarCode에 대한 임시 라이선스를 얻으려면 다음을 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

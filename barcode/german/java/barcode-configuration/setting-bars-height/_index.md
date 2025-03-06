@@ -3,10 +3,16 @@ title: Festlegen der Balkenhöhe in Java
 linktitle: Einstellen der Balkenhöhe
 second_title: Aspose.BarCode Java API
 description: Generieren und passen Sie Barcodes mühelos in Java mit Aspose.BarCode an. Legen Sie die Balkenhöhe fest, wählen Sie Typen aus und erweitern Sie die Funktionen Ihrer Anwendung.
-type: docs
 weight: 14
 url: /de/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen der Balkenhöhe in Java
+
 
 ## Einführung
 
@@ -78,3 +84,10 @@ Sicherlich! Aspose.BarCode unterstützt die Kodierung sowohl numerischer als auc
 ### Wo finde ich Unterstützung für Aspose.BarCode für Java?
  Besuchen Sie das Aspose.BarCode-Forum[Hier](https://forum.aspose.com/c/barcode/13) für Community-Unterstützung und Diskussionen.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

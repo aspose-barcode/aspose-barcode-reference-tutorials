@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 Java에서 Wide-Narrow 비율 구성
 linktitle: 광각 비율 구성
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java 바코드에서 넓은-좁은 비율을 구성하는 방법을 알아보세요. 원활한 사용자 정의를 위해 단계별 가이드를 따르십시오.
-type: docs
 weight: 17
 url: /ko/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 Java에서 Wide-Narrow 비율 구성
+
 
 ## 소개
 
@@ -87,3 +93,9 @@ A: 예, Aspose.BarCode는 다양한 Java 프레임워크와 원활하게 작동�
 
 ### Q: Aspose.BarCode에 대한 지원을 받으려면 어떻게 해야 합니까?
  A: Aspose.BarCode 포럼을 방문하세요.[여기](https://forum.aspose.com/c/barcode/13) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

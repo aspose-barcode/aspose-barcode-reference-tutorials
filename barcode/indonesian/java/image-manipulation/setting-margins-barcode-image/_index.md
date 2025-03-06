@@ -3,10 +3,16 @@ title: Mengatur Margin untuk Gambar Barcode di Java
 linktitle: Menetapkan Margin untuk Gambar Barcode
 second_title: Aspose.BarCode Java API
 description: Pelajari cara mengatur margin untuk gambar barcode di Java menggunakan Aspose.BarCode. Sesuaikan jarak untuk integrasi yang lancar ke dalam aplikasi Anda
-type: docs
 weight: 11
 url: /id/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Margin untuk Gambar Barcode di Java
+
 
 ## Perkenalan
 
@@ -99,3 +105,10 @@ Aspose.BarCode terutama dirancang untuk Java, tetapi ada versi yang tersedia unt
 
 ### Bagaimana cara membeli versi lengkap Aspose.BarCode untuk Java?
  Anda dapat membeli versi lengkap Aspose.BarCode untuk Java dari[halaman pembelian](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

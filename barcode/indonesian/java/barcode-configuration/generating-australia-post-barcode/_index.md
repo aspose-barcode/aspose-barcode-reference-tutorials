@@ -3,10 +3,16 @@ title: Menghasilkan Barcode Pos Australia di Jawa
 linktitle: Menghasilkan Barcode Pos Australia
 second_title: Aspose.BarCode Java API
 description: Hasilkan Barcode Australia Post dengan mudah di Java menggunakan Aspose.BarCode. Ikuti tutorial langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menghasilkan Barcode Pos Australia di Jawa
+
 
 ## Perkenalan
 
@@ -88,3 +94,9 @@ Sangat! Aspose.BarCode menyediakan opsi penyesuaian ekstensif untuk tampilan bar
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.BarCode?
  Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

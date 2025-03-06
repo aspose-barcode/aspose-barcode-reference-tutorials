@@ -3,10 +3,16 @@ title: Lưu hình ảnh mã vạch vào luồng trong Java bằng Aspose.BarCode
 linktitle: Lưu hình ảnh mã vạch vào luồng
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch động dễ dàng với Aspose.BarCode cho Java. Làm theo hướng dẫn từng bước của chúng tôi để lưu hình ảnh mã vạch vào luồng.
-type: docs
 weight: 14
 url: /vi/java/advanced-settings-and-optimization/saving-barcode-image-streams/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu hình ảnh mã vạch vào luồng trong Java bằng Aspose.BarCode
+
 ## Giới thiệu
 
 Trong bối cảnh năng động của lập trình Java, nhu cầu tạo mã vạch hiệu quả là điều tối quan trọng. Aspose.BarCode for Java nổi bật như một giải pháp mạnh mẽ, cung cấp khả năng tích hợp liền mạch để tạo mã vạch ở nhiều định dạng khác nhau. Hướng dẫn này sẽ hướng dẫn bạn quy trình lưu hình ảnh mã vạch vào luồng bằng Aspose.BarCode cho Java.
@@ -77,3 +83,9 @@ A2: Chắc chắn rồi! Aspose.BarCode cung cấp một loạt các tùy chọn
 ### Câu hỏi 5: Có giấy phép tạm thời cho Aspose.BarCode không?
 
  Câu trả lời 5: Có, có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

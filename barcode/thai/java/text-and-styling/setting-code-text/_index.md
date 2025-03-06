@@ -3,10 +3,16 @@ title: การตั้งค่าข้อความโค้ดใน Jav
 linktitle: การตั้งค่าข้อความรหัส
 second_title: Aspose.BarCode Java API
 description: สร้างบาร์โค้ดได้อย่างง่ายดายใน Java ด้วย Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการปรับแต่งข้อความโค้ดที่มีประสิทธิภาพ
-type: docs
 weight: 13
 url: /th/java/text-and-styling/setting-code-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การตั้งค่าข้อความโค้ดใน Java
+
 
 ## การแนะนำ
 
@@ -80,3 +86,9 @@ generator.save(dataDir + "setCodeText.jpg");
 
 ### ฉันสามารถใช้ใบอนุญาตชั่วคราวเพื่อการทดสอบได้หรือไม่
  ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

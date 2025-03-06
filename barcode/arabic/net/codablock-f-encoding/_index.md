@@ -3,10 +3,16 @@ title: ترميز Codablock F
 linktitle: ترميز Codablock F
 second_title: Aspose.BarCode .NET API
 description: أطلق العنان لإمكانات تشفير Codablock F باستخدام Aspose.BarCode لـ .NET. قم بتخصيص نسبة العرض إلى الارتفاع، وتكوين الصفوف والأعمدة للحصول على رموز شريطية دقيقة ثنائية الأبعاد.
-type: docs
 weight: 21
 url: /ar/net/codablock-f-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز Codablock F
+
 
 مرحبًا بك في عالم دروس تشفير Codablock F، حيث نزيل الغموض عن فن إنشاء رموز شريطية دقيقة ومخصصة ثنائية الأبعاد باستخدام Aspose.BarCode لـ .NET. في هذا الدليل الشامل، سنوجهك عبر جانبين أساسيين: تخصيص نسبة العرض إلى الارتفاع في Codablock F وتكوين الصفوف والأعمدة في Codablock F.
 
@@ -28,3 +34,9 @@ url: /ar/net/codablock-f-encoding/
 تخصيص Codablock F لنسبة العرض إلى الارتفاع باستخدام Aspose.BarCode لـ .NET. قم بإنشاء رموز شريطية دقيقة مصممة خصيصًا لتلبية احتياجاتك بسهولة.
 ### [تكوين صفوف وأعمدة Codablock F](./codablock-f-row-column-configuration/)
 تعرف على كيفية تكوين صفوف وأعمدة Codablock F في Aspose.BarCode لـ .NET. إنشاء رموز شريطية ثنائية الأبعاد مخصصة لمختلف التطبيقات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

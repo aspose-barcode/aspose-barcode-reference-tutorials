@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用したコンパクト PDF417 バーコ�
 linktitle: コンパクトPDF417の基本構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して Compact PDF417 バーコードを生成する方法を学びます。段階的な手順とコード例を含む包括的なガイド。
-type: docs
 weight: 10
 url: /ja/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用したコンパクト PDF417 バーコードの作成
+
 ## 導入
 
 .NET アプリケーションでバーコード イメージを生成したい開発者にとって、Aspose.BarCode for .NET は、まさにそれを実現するのに役立つ強力なツールです。このステップバイステップ ガイドでは、Aspose.BarCode for .NET を使用して Compact PDF417 バーコードを作成するプロセスを説明します。 Compact PDF417 は、物流、在庫管理などのさまざまなアプリケーションに広く使用されている効率的な 2 次元バーコード シンボルです。このチュートリアルを完了すると、特定のニーズに合わせて Compact PDF417 バーコードを作成およびカスタマイズできるようになります。早速始めてみましょう！
@@ -107,3 +113,9 @@ A2: Aspose.BarCode は、QR コード、Code 39、Code 128 などを含む幅広
 ### Q5: Aspose.BarCode for .NET で利用できる追加のリソースやドキュメントはありますか?
 
  A5: はい、詳細なドキュメントを見つけることができます。[ここ](https://reference.aspose.com/barcode/net/) Aspose.BarCode for .NET の機能を探索して利用するのに役立ちます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

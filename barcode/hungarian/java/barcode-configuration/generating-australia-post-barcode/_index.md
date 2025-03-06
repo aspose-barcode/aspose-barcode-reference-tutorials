@@ -3,10 +3,16 @@ title: Ausztrália postai vonalkód generálása Java nyelven
 linktitle: Ausztrália postai vonalkód generálása
 second_title: Aspose.BarCode Java API
 description: Az Aspose.BarCode segítségével könnyedén generálhat Australia Post vonalkódokat Java nyelven. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 12
 url: /hu/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ausztrália postai vonalkód generálása Java nyelven
+
 
 ## Bevezetés
 
@@ -88,3 +94,9 @@ Teljesen! Az Aspose.BarCode kiterjedt testreszabási lehetőségeket kínál a v
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode számára?
  Ideiglenes jogosítványt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

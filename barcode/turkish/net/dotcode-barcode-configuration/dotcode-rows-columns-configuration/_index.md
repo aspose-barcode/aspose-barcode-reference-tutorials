@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET ile DotCode Satır ve Sütun Yapılandırması
 linktitle: DotCode Satırları ve Sütunları Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile DotCode Satırlarını ve Sütunlarını yapılandırmayı öğrenin. Zahmetsizce hassas ve özelleştirilebilir 2D barkodlar oluşturun.
-type: docs
 weight: 15
 url: /tr/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile DotCode Satır ve Sütun Yapılandırması
+
 ## giriiş
 
 Aspose.BarCode for .NET'i kullanarak barkod oluşturma dünyasına hoş geldiniz! Bu kapsamlı kılavuzda Aspose.BarCode ile DotCode Satırlarını ve Sütunlarını yapılandırmanın büyüleyici dünyasına değineceğiz. İster deneyimli bir geliştirici olun ister barkod oluşturma yolculuğunuza yeni başlıyor olun, bu eğitim size DotCode Satırları ve Sütunları yapılandırmasında uzmanlaşmaya başlamanıza yardımcı olacak temel adımlar, ön koşullar ve ad alanları konusunda yol gösterecektir.
@@ -112,3 +118,9 @@ Cevap4: Aspose.BarCode, aralarında QR Code, Code 128 ve DataMatrix'in de bulund
 ### S5: Aspose.BarCode for .NET için daha fazla eğitim ve örneği nerede bulabilirim?
 
  Cevap5: Ek eğitimleri ve örnekleri inceleyebilirsiniz.[Aspose.BarCode belgeleri](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

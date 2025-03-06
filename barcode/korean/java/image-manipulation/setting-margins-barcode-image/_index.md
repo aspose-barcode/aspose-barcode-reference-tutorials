@@ -3,10 +3,16 @@ title: Java에서 바코드 이미지의 여백 설정
 linktitle: 바코드 이미지의 여백 설정
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 바코드 이미지의 여백을 설정하는 방법을 알아보세요. 애플리케이션에 원활하게 통합되도록 간격을 맞춤화하세요.
-type: docs
 weight: 11
 url: /ko/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드 이미지의 여백 설정
+
 
 ## 소개
 
@@ -99,3 +105,10 @@ Aspose.BarCode는 주로 Java용으로 설계되었지만 .NET과 같은 다른 
 
 ### Java용 Aspose.BarCode 정식 버전을 어떻게 구매할 수 있나요?
  Java용 Aspose.BarCode 정식 버전은 다음 사이트에서 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

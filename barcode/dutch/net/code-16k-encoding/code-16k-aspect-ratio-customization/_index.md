@@ -3,10 +3,16 @@ title: Pas code-breedteverhoudingen van 16K barcodes aan met Aspose.BarCode voor
 linktitle: Code 16K aspectverhouding aanpassen
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u de aspectverhoudingen van Code 16K-barcodes kunt aanpassen met Aspose.BarCode voor .NET. Creëer nauwkeurige barcodes voor uw toepassingen.
-type: docs
 weight: 10
 url: /nl/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas code-breedteverhoudingen van 16K barcodes aan met Aspose.BarCode voor .NET
+
 In de wereld van het genereren van barcodes zijn precisie en maatwerk essentieel. Aspose.BarCode voor .NET biedt ontwikkelaars een krachtige toolset voor het maken en manipuleren van barcodes, inclusief de mogelijkheid om de beeldverhouding van Code 16K-barcodes aan te passen. In deze stapsgewijze handleiding onderzoeken we hoe u Code 16K-barcodes met verschillende beeldverhoudingen kunt genereren met behulp van Aspose.BarCode voor .NET. Of je nu een doorgewinterde ontwikkelaar bent of net begint, we splitsen het proces op in eenvoudige, begrijpelijke stappen.
 
 ## Vereisten
@@ -97,3 +103,10 @@ A3: Absoluut. Aspose.BarCode voor .NET is veelzijdig en kan worden gebruikt in z
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor .NET?
 
  A5: Ja, u kunt Aspose.BarCode voor .NET uitproberen door de gratis proefversie te downloaden van[hier](https://releases.aspose.com/). Hierdoor kunt u de kenmerken en functionaliteit ervan verkennen voordat u een aankoop doet.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

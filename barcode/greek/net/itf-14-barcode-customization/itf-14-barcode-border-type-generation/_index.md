@@ -3,10 +3,16 @@ title: Δημιουργία τύπου περιγράμματος γραμμικ
 linktitle: Δημιουργία τύπου περιγράμματος γραμμικού κώδικα ITF-14
 second_title: Aspose.BarCode .NET API
 description: Μάθετε πώς να δημιουργείτε γραμμικούς κώδικες ITF-14 με διαφορετικούς τύπους περιγράμματος χρησιμοποιώντας το Aspose.BarCode για .NET. Προσαρμόστε τη συσκευασία και την ετικέτα σας με ευκολία.
-type: docs
 weight: 11
 url: /el/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία τύπου περιγράμματος γραμμικού κώδικα ITF-14
+
 
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας γραμμωτών κωδίκων ITF-14 με διαφορετικούς τύπους περιγράμματος χρησιμοποιώντας το Aspose.BarCode για .NET. Το Aspose.BarCode είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να δημιουργείτε, να χειρίζεστε και να αναγνωρίζετε γραμμικούς κώδικες σε διάφορες μορφές. Σε αυτό το συγκεκριμένο παράδειγμα, θα επικεντρωθούμε στους γραμμικούς κώδικες ITF-14 και στον τρόπο ελέγχου των τύπων συνόρων τους. Οι γραμμικοί κώδικες ITF-14 χρησιμοποιούνται συνήθως για σκοπούς συσκευασίας και επισήμανσης.
 
@@ -109,3 +115,10 @@ gen.Save($"{path}ITF14BorderFrameOut.png", BarCodeImageFormat.Png);
 
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμαστική έκδοση του Aspose.BarCode;
 Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.BarCode για .NET από[εδώ](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

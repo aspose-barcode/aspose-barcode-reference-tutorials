@@ -3,10 +3,16 @@ title: एक-आयामी चौड़ा-संकीर्ण अनुप
 linktitle: एक-आयामी चौड़ा-संकीर्ण अनुपात विन्यास
 second_title: Aspose.BarCode .NET API
 description: .NET के लिए Aspose.BarCode के साथ आसानी से अनुकूलित बारकोड जेनरेट करें। एक-आयामी चौड़े-संकीर्ण अनुपात कॉन्फ़िगरेशन के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 22
 url: /hi/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# एक-आयामी चौड़ा-संकीर्ण अनुपात विन्यास
+
 
 क्या आप अपने .NET अनुप्रयोगों में आसानी से बारकोड उत्पन्न और अनुकूलित करना चाहते हैं? आगे कोई तलाश नहीं करें! .NET के लिए Aspose.BarCode एक मजबूत लाइब्रेरी है जो बारकोड निर्माण और अनुकूलन को आसान बनाती है। इस चरण-दर-चरण मार्गदर्शिका में, हम विस्तृत-संकीर्ण अनुपात कॉन्फ़िगरेशन के साथ बारकोड बनाने के लिए .NET के लिए Aspose.BarCode की शक्ति का उपयोग कैसे करें, इस पर विस्तार से चर्चा करेंगे।
 
@@ -104,3 +110,10 @@ gen.Save($"{path}WideNarrow5Code39.png", BarCodeImageFormat.Png);
 
 ### 5. मैं .NET के लिए Aspose.BarCode के बारे में समर्थन कैसे प्राप्त कर सकता हूं या प्रश्न कैसे पूछ सकता हूं?
  आप विजिट कर सकते हैं[Aspose.BarCode फोरम](https://forum.aspose.com/c/barcode/13) समर्थन और चर्चा के लिए.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

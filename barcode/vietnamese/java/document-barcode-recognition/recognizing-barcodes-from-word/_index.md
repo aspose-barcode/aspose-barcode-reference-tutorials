@@ -3,10 +3,16 @@ title: Nhận dạng mã vạch dễ dàng từ tài liệu Word
 linktitle: Nhận dạng mã vạch từ tài liệu Word
 second_title: API Java Aspose.BarCode
 description: Khám phá sự tích hợp liền mạch của nhận dạng mã vạch vào các ứng dụng Java của bạn với Aspose.BarCode. Hãy làm theo hướng dẫn này để nhận dạng mã vạch từ tài liệu Word.
-type: docs
 weight: 12
 url: /vi/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng mã vạch dễ dàng từ tài liệu Word
+
 
 ## Giới thiệu
 
@@ -111,3 +117,10 @@ Nếu có bất kỳ trợ giúp hoặc thắc mắc nào, hãy truy cập diễ
 
 ### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.BarCode cho Java ở đâu?
  Tham khảo tài liệu đầy đủ[đây](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

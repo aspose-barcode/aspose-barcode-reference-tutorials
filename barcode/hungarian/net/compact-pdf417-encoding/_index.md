@@ -3,10 +3,16 @@ title: Kompakt PDF417 kódolás
 linktitle: Kompakt PDF417 kódolás
 second_title: Aspose.BarCode .NET API
 description: Az Aspose.BarCode for .NET segítségével könnyedén generálhat kompakt PDF417 vonalkódokat. Kövesse lépésenkénti útmutatónkat a hatékony kódolás érdekében, kódpéldákkal kiegészítve.
-type: docs
 weight: 29
 url: /hu/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompakt PDF417 kódolás
+
 
 ## Bevezetés
 
@@ -33,3 +39,9 @@ Az alapokon túl tippeket és trükköket osztunk meg a hatékonyság maximaliz�
 ## Kompakt PDF417 kódolási oktatóanyagok
 ### [Kompakt PDF417 vonalkódok létrehozása](./compact-pdf417-basic-configuration/)
 Ismerje meg, hogyan hozhat létre kompakt PDF417 vonalkódokat az Aspose.BarCode for .NET használatával. Átfogó útmutató lépésenkénti utasításokkal és kódpéldákkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DotCode Barkod Yapılandırması
 linktitle: DotCode Barkod Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode .NET ile özelleştirilmiş DotCode barkodlarını zahmetsizce oluşturun. En boy oranını, kodlama modlarını, genişletilmiş kod metnini ve okuyucu başlatmayı öğrenin.
-type: docs
 weight: 32
 url: /tr/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode Barkod Yapılandırması
+
 
 ## giriiş
 Aspose.BarCode for .NET ile DotCode barkodlarının dünyasına dalın. Eğitimlerimiz çeşitli hususları kapsamakta ve size özel barkodları zahmetsizce oluşturmanıza olanak sağlamaktadır. En boy oranı özelleştirme, kodlama modları (Otomatik ve Bayt), genişletilmiş kod metni yapılandırması, okuyucu başlatma, satır ve sütun yapılandırması ve yapılandırılmış ekleme modu gibi özellikleri keşfedin. Hassas ve özelleştirilebilir 2D barkod oluşturmayı garantileyerek her konfigürasyonda uzmanlaşmak için adım adım kılavuzlarımızı izleyin. İster yeni başlayan ister deneyimli bir geliştirici olun, eğitimlerimiz çeşitli uygulamalar için verimli DotCode barkodları oluşturmaya yönelik değerli bilgiler sağlar. Barkod oluşturma yolculuğunuzu başlatmak için kapsamlı belgelerimizi inceleyin, kitaplığı indirin ve geçici lisanslar edinin. Aspose.BarCode for .NET süreci basitleştirerek barkodları sorunsuz bir şekilde oluşturmanıza ve bunları uygulamalarınıza kolaylıkla entegre etmenize olanak tanır. Barkod oluşturma becerilerinizi geliştirmek ve barkod teknolojisinde ön sıralarda yer almak için bu eğitim serisinde bize katılın.|
@@ -48,3 +54,9 @@ Aspose.BarCode for .NET'i kullanarak DotCode Reader'ı nasıl başlatacağınız
 Aspose.BarCode for .NET ile DotCode Satırlarını ve Sütunlarını yapılandırmayı öğrenin. Zahmetsizce hassas ve özelleştirilebilir 2D barkodlar oluşturun.
 ### [DotCode Yapılandırılmış Ekleme Modu Yapılandırması](./dotcode-structured-append-mode-configuration/)
 DotCode Yapılandırılmış Ekleme Modunu Aspose.BarCode for .NET ile yapılandırmayı ve verimli barkodlar oluşturmayı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

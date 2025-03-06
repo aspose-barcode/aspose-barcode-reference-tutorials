@@ -3,10 +3,16 @@ title: Warnai Gambar Barcode di Java dengan Aspose.BarCode
 linktitle: Mewarnai Gambar Barcode
 second_title: Aspose.BarCode Java API
 description: Pelajari cara mewarnai gambar barcode di Java dengan mudah menggunakan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk hasil yang cerah dan menarik secara visual.
-type: docs
 weight: 13
 url: /id/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Warnai Gambar Barcode di Java dengan Aspose.BarCode
+
 
 ## Perkenalan
 
@@ -109,3 +115,10 @@ Ya, Aspose.BarCode mendukung berbagai format barcode, antara lain CODE_128, QR C
 
 ### Bagaimana cara membeli lisensi Aspose.BarCode untuk Java?
  Anda dapat membeli lisensi dengan aman[Di Sini](https://purchase.aspose.com/buy) untuk membuka potensi penuh Aspose.BarCode.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

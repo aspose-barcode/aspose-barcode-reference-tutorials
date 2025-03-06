@@ -3,10 +3,16 @@ title: Création d'une image avec un code-barres exact en Java
 linktitle: Créer une image avec un code-barres exact
 second_title: API Java Aspose.BarCode
 description: Création d'une image avec génération exacte de codes-barres en Java avec Aspose.BarCode. Créez facilement des codes-barres personnalisés. Explorez la documentation, téléchargez-la et obtenez de l'aide.
-type: docs
 weight: 12
 url: /fr/java/barcode-basics/creating-image-exact-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création d'une image avec un code-barres exact en Java
+
 Dans le vaste paysage de la programmation Java, maîtriser la génération de codes-barres est une compétence précieuse qui peut trouver des applications dans divers domaines. Que vous créiez des systèmes d'inventaire, des applications de vente au détail ou toute autre solution impliquant l'identification de produits, la capacité à générer des codes-barres précis et fiables est cruciale. Ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.BarCode for Java, une bibliothèque puissante qui simplifie la génération de codes-barres.
 
 ## Conditions préalables
@@ -99,3 +105,9 @@ A2 : Absolument ! Aspose.BarCode fournit des options étendues pour personnalise
 ### Q5 : Où puis-je acheter une licence pour Aspose.BarCode ?
 
  A5 : Pour acquérir une licence, visitez le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

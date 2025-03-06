@@ -3,10 +3,16 @@ title: Membuat Kode Satu Dimensi 93 Barcode
 linktitle: Konfigurasi Kode Satu Dimensi 93
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang Kode 93 dengan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pembuatan kode batang.
-type: docs
 weight: 12
 url: /id/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Kode Satu Dimensi 93 Barcode
+
 
 ## Perkenalan
 
@@ -102,3 +108,10 @@ Kesimpulannya, Aspose.BarCode untuk .NET menyederhanakan pembuatan kode batang d
 
 ### T: Di mana saya bisa mendapatkan dukungan atau mengajukan pertanyaan tentang Aspose.BarCode untuk .NET?
  J: Anda dapat menemukan forum komunitas untuk dukungan dan diskusi di[Aspose.BarCode untuk Dukungan .NET](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

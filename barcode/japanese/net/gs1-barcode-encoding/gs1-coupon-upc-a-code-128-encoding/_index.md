@@ -3,10 +3,16 @@ title: GS1 クーポン UPC-A コード 128 エンコーディング
 linktitle: GS1 クーポン UPC-A コード 128 エンコーディング
 second_title: Aspose.BarCode .NET API
 description: 包括的なバーコード生成ソリューションである Aspose.BarCode for .NET を使用してバーコードを簡単に生成します。今日から始めましょう！
-type: docs
 weight: 12
 url: /ja/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 クーポン UPC-A コード 128 エンコーディング
+
 
 ## 導入
 
@@ -115,3 +121,9 @@ Aspose.BarCode for .NET は、バーコード生成のあらゆるニーズに�
 
 ### Q: Aspose.BarCode for .NET でサポートされている他のエンコード タイプはありますか?
 はい、Aspose.BarCode for .NET は、UPC-A、Code 128、QR コードなどを含む幅広いエンコード タイプをサポートしています。完全なリストはドキュメントにあります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

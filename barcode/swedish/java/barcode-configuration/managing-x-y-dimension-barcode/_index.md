@@ -3,10 +3,16 @@ title: Hantera X- och Y-dimensioner för streckkoder i Java
 linktitle: Hantera X- och Y-mått för streckkoder
 second_title: Aspose.BarCode Java API
 description: Utforska kraften i Aspose.BarCode för Java! Lär dig hantera X- och Y-dimensioner utan ansträngning med vår steg-för-steg-guide. Öka noggrannheten och visuellt tilltalande.
-type: docs
 weight: 13
 url: /sv/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera X- och Y-dimensioner för streckkoder i Java
+
 
 ## Introduktion
 
@@ -90,3 +96,10 @@ Att effektivt hantera X- och Y-dimensioner i streckkodsgenerering med Aspose.Bar
 
 ### Kan jag få en tillfällig licens för Aspose.BarCode för Java?
 Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

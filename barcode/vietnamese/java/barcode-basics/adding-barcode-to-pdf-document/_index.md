@@ -3,10 +3,16 @@ title: Thêm mã vạch vào tài liệu PDF bằng Java bằng Aspose.BarCode
 linktitle: Thêm mã vạch vào tài liệu PDF
 second_title: API Java Aspose.BarCode
 description: Nâng cao các ứng dụng Java của bạn với Aspose.BarCode Hướng dẫn từng bước để thêm mã vạch vào tài liệu PDF.
-type: docs
 weight: 10
 url: /vi/java/barcode-basics/adding-barcode-to-pdf-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm mã vạch vào tài liệu PDF bằng Java bằng Aspose.BarCode
+
 ## Giới thiệu
 
 Trong bối cảnh phát triển Java ngày càng phát triển, việc kết hợp mã vạch vào tài liệu PDF đã trở thành một khía cạnh quan trọng trong việc quản lý và nhận dạng dữ liệu. Aspose.BarCode for Java nổi bật như một công cụ mạnh mẽ để tích hợp liền mạch việc tạo mã vạch vào các ứng dụng Java của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm mã vạch vào tài liệu PDF bằng Aspose.BarCode cho Java.
@@ -97,3 +103,9 @@ A2: Chắc chắn rồi. Aspose.BarCode hỗ trợ nhiều loại ký hiệu mã
 ### Câu hỏi 5: Tôi có thể dùng thử miễn phí Aspose.BarCode cho Java trước khi mua hàng không?
 
  Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.BarCode cho Java từ[trang phát hành](https://releases.aspose.com/) để khám phá các tính năng và khả năng của nó.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

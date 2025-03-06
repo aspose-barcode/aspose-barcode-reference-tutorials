@@ -3,10 +3,16 @@ title: 一维 Databar GS1 编码
 linktitle: 一维 Databar GS1 编码
 second_title: Aspose.BarCode .NET API
 description: 学习使用 Aspose.BarCode 在 .NET 中创建 Databar GS1 编码条形码。轻松生成条形码。请遵循我们的分步指南。
-type: docs
 weight: 18
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一维 Databar GS1 编码
+
 
 在本教程中，我们将引导您完成使用 Aspose.BarCode for .NET 库创建一维 Databar GS1 编码条形码的过程。无论您想要生成带 GS1 编码还是不带 GS1 编码的条形码，我们都能满足您的需求。本分步指南将帮助您了解先决条件、导入命名空间并演示每个示例，以轻松创建 Databar GS1 编码条形码。
 
@@ -101,3 +107,10 @@ GS1 编码是条形码中使用的标准，用于确保正确的数据结构和�
 
 ### 5. 如何购买 Aspose.BarCode for .NET 的许可证？
 要购买 Aspose.BarCode for .NET 的许可证，请访问[购买页面](https://purchase.aspose.com/buy)在 Aspose 网站上。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

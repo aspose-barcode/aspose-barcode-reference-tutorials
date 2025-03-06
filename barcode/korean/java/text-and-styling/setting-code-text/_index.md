@@ -3,10 +3,16 @@ title: Java에서 코드 텍스트 설정
 linktitle: 코드 텍스트 설정
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 손쉽게 바코드를 생성하세요. 효율적인 코드 텍스트 사용자 정의를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/text-and-styling/setting-code-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 코드 텍스트 설정
+
 
 ## 소개
 
@@ -80,3 +86,9 @@ generator.save(dataDir + "setCodeText.jpg");
 
 ### 테스트 목적으로 임시 라이센스를 사용할 수 있습니까?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

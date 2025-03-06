@@ -3,10 +3,16 @@ title: Hämta och känna igen streckkoder i Java
 linktitle: Hämta och känna igen streckkod
 second_title: Aspose.BarCode Java API
 description: Integrera Aspose.BarCode för Java utan ansträngning - hämta och känna igen streckkoder från en databas. Ladda ner nu för en sömlös streckkodsintegrationsupplevelse.
-type: docs
 weight: 11
 url: /sv/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta och känna igen streckkoder i Java
+
 
 ## Introduktion
 
@@ -120,3 +126,10 @@ Ja, Aspose.BarCode är designad för att hantera storskaliga applikationer, vilk
 
 ### Finns tillfälliga licenser tillgängliga för teständamål?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för test- och utvärderingsändamål.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

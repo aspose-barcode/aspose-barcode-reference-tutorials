@@ -3,10 +3,16 @@ title: Setting Size Unit for Barcode Image in Java with Aspose.BarCode
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 description: Discover the power of Aspose.BarCode for Java in setting precise size units for barcode images. Effortless integration, robust performance, and endless customization possibilities.
-type: docs
 weight: 15
 url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Size Unit for Barcode Image in Java with Aspose.BarCode
+
 ## Introduction
 
 Aspose.BarCode for Java is a robust Java API that allows developers to integrate barcode generation and recognition capabilities into their Java applications effortlessly. Whether you are developing a sophisticated inventory system, a retail application, or any other software requiring barcode functionality, Aspose.BarCode proves to be a reliable and efficient choice.
@@ -100,3 +106,10 @@ A4: The Aspose.BarCode community forum is the ideal place for seeking support. V
 ### Q5: What are the supported barcode symbologies in Aspose.BarCode for Java?
 
 A5: Aspose.BarCode for Java supports a wide range of barcode symbologies, including CODE_128, QR_CODE, UPC_A, and many more.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Personalice la relación de aspecto de DotCode con Aspose.BarCode para .N
 linktitle: Personalización de la relación de aspecto de DotCode
 second_title: API Aspose.BarCode .NET
 description: Aprenda a personalizar la relación de aspecto del código de barras DotCode utilizando Aspose.BarCode para .NET. Cree códigos de barras personalizados para sus aplicaciones sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalice la relación de aspecto de DotCode con Aspose.BarCode para .NET
+
 ## Introducción
 
 Si es un desarrollador de .NET y busca crear códigos de barras altamente personalizables en sus aplicaciones, Aspose.BarCode para .NET es la solución perfecta. En este tutorial, profundizaremos en una de sus funciones avanzadas: personalizar la relación de aspecto de DotCode. Los códigos de barras DotCode se utilizan ampliamente en industrias como la atención médica, los servicios postales y la fabricación para codificar información. Al ajustar la relación de aspecto, puede adaptar su código de barras a sus necesidades específicas. ¡Empecemos!
@@ -97,3 +103,9 @@ R4: Sí, Aspose.BarCode para .NET se puede utilizar tanto en aplicaciones web co
 ### P5: ¿Dónde puedo encontrar más información y documentación sobre Aspose.BarCode para .NET?
 
 A5: Puedes explorar la documentación.[aquí](https://reference.aspose.com/barcode/net/) para obtener orientación completa y ejemplos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

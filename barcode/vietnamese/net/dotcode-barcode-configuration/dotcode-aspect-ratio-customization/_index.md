@@ -3,10 +3,16 @@ title: Tùy chỉnh tỷ lệ khung hình DotCode với Aspose.BarCode cho .NET
 linktitle: Tùy chỉnh tỷ lệ khung hình DotCode
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tùy chỉnh tỷ lệ khung hình mã vạch DotCode bằng Aspose.BarCode cho .NET. Tạo mã vạch phù hợp cho ứng dụng của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh tỷ lệ khung hình DotCode với Aspose.BarCode cho .NET
+
 ## Giới thiệu
 
 Nếu bạn là nhà phát triển .NET đang tìm cách tạo mã vạch có khả năng tùy chỉnh cao trong ứng dụng của mình thì Aspose.BarCode for .NET là giải pháp hoàn hảo. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một trong những tính năng nâng cao của nó – tùy chỉnh tỷ lệ khung hình DotCode. Mã vạch DotCode được sử dụng rộng rãi trong các ngành như chăm sóc sức khỏe, dịch vụ bưu chính và sản xuất để mã hóa thông tin. Bằng cách điều chỉnh tỷ lệ khung hình, bạn có thể điều chỉnh mã vạch theo nhu cầu cụ thể của mình. Bắt đầu nào!
@@ -97,3 +103,9 @@ Câu trả lời 4: Có, Aspose.BarCode cho .NET có thể được sử dụng 
 ### Câu hỏi 5: Tôi có thể tìm thêm thông tin và tài liệu về Aspose.BarCode cho .NET ở đâu?
 
 A5: Bạn có thể khám phá tài liệu[đây](https://reference.aspose.com/barcode/net/) để được hướng dẫn đầy đủ và có ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

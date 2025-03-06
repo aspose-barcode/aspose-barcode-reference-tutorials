@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用した補足バーコード データの
 linktitle: 補足的なバーコードデータ構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して補足バーコード データを生成します。 EAN-2 および EAN-5 バーコードを簡単にカスタマイズします。 .NET 開発者向けのステップバイステップ ガイド。
-type: docs
 weight: 10
 url: /ja/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用した補足バーコード データの作成
+
 
 バーコードの生成とカスタマイズの世界では、Aspose.BarCode for .NET は強力で多用途のツールとして際立っています。経験豊富な開発者でも、初心者でも、このステップバイステップのガイドでは、Aspose.BarCode for .NET を使用して補足バーコード データを構成するプロセスを説明します。 
 
@@ -110,3 +116,10 @@ Aspose.BarCode for .NET は、バーコードの生成とカスタマイズの�
 
 ### 生成されたバーコードの外観をカスタマイズできますか?
 もちろん、要件に合わせてバーコードの寸法、色、その他の側面をカスタマイズできます。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

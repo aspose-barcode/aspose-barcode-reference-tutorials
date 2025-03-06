@@ -3,10 +3,16 @@ title: Gerenciando dimensões X e Y de código de barras em Java
 linktitle: Gerenciando dimensões X e Y do código de barras
 second_title: API Java Aspose.BarCode
 description: Explore o poder do Aspose.BarCode para Java! Aprenda a gerenciar dimensões X e Y sem esforço com nosso guia passo a passo. Aumente a precisão e o apelo visual.
-type: docs
 weight: 13
 url: /pt/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciando dimensões X e Y de código de barras em Java
+
 
 ## Introdução
 
@@ -90,3 +96,10 @@ O gerenciamento eficaz das dimensões X e Y na geração de código de barras us
 
 ### Posso obter uma licença temporária para Aspose.BarCode for Java?
 Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

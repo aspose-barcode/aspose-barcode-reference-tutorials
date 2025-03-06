@@ -3,10 +3,16 @@ title: Encodage Codabar et somme de contrôle
 linktitle: Encodage Codabar et somme de contrôle
 second_title: API Aspose.BarCode .NET
 description: Optimisez les codes-barres Codabar dans .NET avec Aspose.BarCode ! Calcul de la somme de contrôle principale pour des données précises. Créez sans effort en utilisant des caractères start/stop avec nos tutoriels.
-type: docs
 weight: 20
 url: /fr/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage Codabar et somme de contrôle
+
 ## Introduction
 
 Êtes-vous un développeur cherchant à percer les secrets du codage Codabar et du calcul de la somme de contrôle dans .NET ? Cherchez pas plus loin! Cet article plonge dans les subtilités de Codabar, vous proposant des didacticiels complets sur le calcul de la somme de contrôle Codabar et l'utilisation des caractères de démarrage/arrêt avec Aspose.BarCode pour .NET.
@@ -34,3 +40,9 @@ En conclusion, l’encodage Codabar et le calcul de la somme de contrôle sont d
 Découvrez comment calculer les sommes de contrôle Codabar dans .NET à l'aide d'Aspose.BarCode. Améliorez la précision des données dans les codes-barres Codabar. Obtenez des conseils étape par étape.
 ### [Caractères de démarrage/arrêt de Codabar](./codabar-start-stop-characters/)
 Découvrez comment créer des codes-barres Codabar avec des caractères de début et de fin à l'aide d'Aspose.BarCode pour .NET. Un guide étape par étape pour les développeurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

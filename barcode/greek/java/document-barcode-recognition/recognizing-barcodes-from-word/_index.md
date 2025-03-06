@@ -3,10 +3,16 @@ title: Εύκολη αναγνώριση barcode από έγγραφα Word
 linktitle: Αναγνώριση barcodes από έγγραφα Word
 second_title: Aspose.BarCode Java API
 description: Εξερευνήστε την απρόσκοπτη ενσωμάτωση της αναγνώρισης barcode στις εφαρμογές σας Java με το Aspose.BarCode. Ακολουθήστε αυτό το σεμινάριο για να αναγνωρίσετε γραμμωτούς κώδικες από έγγραφα του Word.
-type: docs
 weight: 12
 url: /el/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εύκολη αναγνώριση barcode από έγγραφα Word
+
 
 ## Εισαγωγή
 
@@ -111,3 +117,10 @@ for (Shape shape : shapes) {
 
 ### Ε: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.BarCode για Java;
  Ανατρέξτε στην πλήρη τεκμηρίωση[εδώ](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

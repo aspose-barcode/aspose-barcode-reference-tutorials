@@ -3,10 +3,16 @@ title: Установка символов запуска и остановки 
 linktitle: Установка символов запуска и остановки
 second_title: API Aspose.BarCode Java
 description: Создавайте индивидуальные штрих-коды Codabar с определенными символами начала и остановки на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 15
 url: /ru/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установка символов запуска и остановки в Java
+
 
 ## Введение
 
@@ -104,3 +110,10 @@ generator.save(dataDir + "startAndStopSymbols.png");
 ### Поддерживаются ли Aspose.BarCode для Java дополнительные символы штрих-кода?
 Да, Aspose.BarCode поддерживает широкий спектр символов штрих-кодов. Полный список см. в документации.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

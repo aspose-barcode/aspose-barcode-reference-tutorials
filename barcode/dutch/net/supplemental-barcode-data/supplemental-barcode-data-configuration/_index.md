@@ -3,10 +3,16 @@ title: Aanvullende streepjescodegegevens maken met Aspose.BarCode voor .NET
 linktitle: Aanvullende configuratie van streepjescodegegevens
 second_title: Aspose.BarCode .NET API
 description: Genereer aanvullende barcodegegevens met Aspose.BarCode voor .NET. Pas moeiteloos EAN-2- en EAN-5-barcodes aan. Stapsgewijze handleiding voor .NET-ontwikkelaars.
-type: docs
 weight: 10
 url: /nl/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aanvullende streepjescodegegevens maken met Aspose.BarCode voor .NET
+
 
 In de wereld van het genereren en aanpassen van streepjescodes onderscheidt Aspose.BarCode voor .NET zich als een krachtig en veelzijdig hulpmiddel. Of u nu een ervaren ontwikkelaar bent of net begint, deze stapsgewijze handleiding leidt u door het proces van het configureren van aanvullende barcodegegevens met Aspose.BarCode voor .NET. 
 
@@ -110,3 +116,10 @@ Ja, het ondersteunt verschillende soorten streepjescodes, waaronder EAN-13, QR-c
 
 ### Kan ik het uiterlijk van de gegenereerde barcodes aanpassen?
 Absoluut, u kunt de afmetingen, kleuren en andere aspecten van de streepjescodes aanpassen aan uw wensen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

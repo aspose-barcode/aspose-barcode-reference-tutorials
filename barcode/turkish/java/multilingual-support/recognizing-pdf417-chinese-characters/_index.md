@@ -3,10 +3,16 @@ title: Java'da Çince Karakterlerle PDF417 Barkodunu Tanıma
 linktitle: Çince Karakterlerle PDF417 Barkodunu Tanıma
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode kullanarak Java'da Çince karakterli PDF417 barkodlarını nasıl tanıyacağınızı keşfedin. Sorunsuz entegrasyon için kapsamlı eğitimimizi takip edin.
-type: docs
 weight: 10
 url: /tr/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Çince Karakterlerle PDF417 Barkodunu Tanıma
+
 
 ## giriiş
 
@@ -89,3 +95,10 @@ Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary
 
 ### Belgeleri nerede bulabilirim?
  Belgeler mevcut[Burada](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

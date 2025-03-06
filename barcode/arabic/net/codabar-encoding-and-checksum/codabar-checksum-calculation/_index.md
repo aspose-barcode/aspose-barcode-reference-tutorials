@@ -3,10 +3,16 @@ title: حساب المجموع الاختباري لـ Codabar في Aspose.BarCo
 linktitle: حساب المجموع الاختباري Codabar
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية حساب المجموع الاختباري لـ Codabar في .NET باستخدام Aspose.BarCode. تعزيز دقة البيانات في الباركود Codabar. احصل على إرشادات خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/codabar-encoding-and-checksum/codabar-checksum-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حساب المجموع الاختباري لـ Codabar في Aspose.BarCode لـ .NET
+
 Codabar هو رمز شريطي شائع يُستخدم على نطاق واسع في العديد من التطبيقات. أحد الجوانب المهمة في Codabar هو حساب المجموع الاختباري، الذي يضمن دقة وموثوقية المعلومات المشفرة. في هذا البرنامج التعليمي، سنرشدك خلال خطوات حساب الأنواع المختلفة من المجاميع الاختبارية لرموز Codabar الشريطية باستخدام Aspose.BarCode لـ .NET.
 
 ## المتطلبات الأساسية
@@ -97,3 +103,9 @@ A1: Codabar هو رمز شريطي خطي يُستخدم بشكل شائع في 
 ### س5: أين يمكنني العثور على الوثائق الكاملة لـ Aspose.BarCode for .NET؟
 
  ج5: يمكنك الوصول إلى الوثائق الشاملة[هنا](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

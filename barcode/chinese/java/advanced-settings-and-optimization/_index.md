@@ -3,10 +3,16 @@ title: 高级设置和优化
 linktitle: 高级设置和优化
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 释放 Java 条形码生成的潜力。配置自定义尺寸、优化图像分辨率并掌握条形码设置以实现无缝集成。
-type: docs
 weight: 29
 url: /zh/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高级设置和优化
+
 
 ## 介绍
 
@@ -86,3 +92,9 @@ Aspose.BarCode for Java 成为一个强大的库，可以轻松提取条形码�
 探索 Aspose.BarCode for Java 轻松解码一维条形码的强大功能。立即下载，无缝集成到您的 Java 应用程序中。
 ### [在 Java 中获取条形码识别质量百分比](./getting-barcode-recognition-quality-percent/)
 使用 Aspose.BarCode 在 Java 中获得条形码识别质量。请遵循我们的分步指南以获得最佳结果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

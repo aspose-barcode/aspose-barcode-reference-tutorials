@@ -3,10 +3,16 @@ title: 1次元データバーの2Dコンポーネント構成
 linktitle: 1次元データバーの2Dコンポーネント構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して 1 次元データバー 2D バーコードを生成します。構成とカスタマイズについては、ステップバイステップのガイドに従ってください。今すぐユニークなバーコードの作成を始めましょう!
-type: docs
 weight: 15
 url: /ja/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1次元データバーの2Dコンポーネント構成
+
 
 データ エンコードとバーコーディングの世界では、Aspose.BarCode for .NET ライブラリは信頼性が高く多用途のツールとして機能します。この強力な .NET コンポーネントは、開発者にバーコードを簡単に生成、操作、カスタマイズする手段を提供します。このライブラリの可能性を 1 次元データバー 2D コンポーネント構成に活用したい場合は、ここが正しい場所です。このステップバイステップ ガイドでは、Aspose.BarCode for .NET を使用して Databar 2D コンポーネントをシームレスに操作できるようにするためのプロセスを詳しく説明します。
 
@@ -94,3 +100,9 @@ gen.Save($"{path}Databar2DComponentEnabled.png", BarCodeImageFormat.Png);
 
 ### Aspose.BarCode for .NET のサポートと支援はどこで受けられますか?
 - で助けを求めたり、コミュニティに参加したりできます。[Aspose.BarCode for .NET サポート フォーラム](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

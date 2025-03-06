@@ -3,10 +3,16 @@ title: การใช้ Checksum สำหรับ CodaBar ใน Java
 linktitle: การใช้ Checksum สำหรับ CodaBar
 second_title: Aspose.BarCode Java API
 description: เรียนรู้วิธีใช้เช็คซัมสำหรับ CodaBar ใน Java โดยใช้ Aspose.BarCode สร้างและจดจำบาร์โค้ดได้อย่างง่ายดายด้วยคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 11
 url: /th/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้ Checksum สำหรับ CodaBar ใน Java
+
 
 ## การแนะนำ
 
@@ -107,3 +113,9 @@ Aspose.BarCode ได้รับการออกแบบมาเพื่�
 
 ### มีการทดลองใช้ฟรีหรือไม่?
  ได้ คุณสามารถสำรวจคุณสมบัติของ Aspose.BarCode ได้ด้วยการดาวน์โหลดรุ่นทดลองใช้ฟรีจาก[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

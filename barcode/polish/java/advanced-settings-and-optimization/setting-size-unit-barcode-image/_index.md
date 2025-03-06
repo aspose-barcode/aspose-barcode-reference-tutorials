@@ -3,10 +3,16 @@ title: Ustawianie jednostki rozmiaru obrazu kodu kreskowego w Javie za pomocą A
 linktitle: Ustawianie jednostki rozmiaru obrazu kodu kreskowego
 second_title: Aspose.BarCode API Java
 description: Odkryj moc Aspose.BarCode dla Java w ustawianiu precyzyjnych jednostek rozmiaru obrazów kodów kreskowych. Łatwa integracja, solidna wydajność i nieograniczone możliwości dostosowywania.
-type: docs
 weight: 15
 url: /pl/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie jednostki rozmiaru obrazu kodu kreskowego w Javie za pomocą Aspose.BarCode
+
 ## Wstęp
 
 Aspose.BarCode for Java to solidny interfejs API języka Java, który umożliwia programistom bezproblemową integrację funkcji generowania i rozpoznawania kodów kreskowych z aplikacjami Java. Niezależnie od tego, czy tworzysz wyrafinowany system inwentaryzacji, aplikację detaliczną, czy inne oprogramowanie wymagające funkcjonalności kodów kreskowych, Aspose.BarCode okazuje się niezawodnym i wydajnym wyborem.
@@ -100,3 +106,9 @@ A2: Absolutnie. Aspose.BarCode dla Java oferuje szerokie opcje dostosowywania, u
 ### P5: Jakie symbole kodów kreskowych są obsługiwane w Aspose.BarCode dla Java?
 
 O5: Aspose.BarCode dla Java obsługuje szeroką gamę symboli kodów kreskowych, w tym CODE_128, QR_CODE, UPC_A i wiele innych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

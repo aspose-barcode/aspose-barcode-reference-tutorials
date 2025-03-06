@@ -3,10 +3,16 @@ title: Enkel streckkodsigenkänning från Word-dokument
 linktitle: Känna igen streckkoder från Word-dokument
 second_title: Aspose.BarCode Java API
 description: Utforska den sömlösa integrationen av streckkodsigenkänning i dina Java-applikationer med Aspose.BarCode. Följ den här handledningen för att känna igen streckkoder från Word-dokument.
-type: docs
 weight: 12
 url: /sv/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enkel streckkodsigenkänning från Word-dokument
+
 
 ## Introduktion
 
@@ -111,3 +117,10 @@ För all hjälp eller frågor, besök Aspose.BarCode-forumet[här](https://forum
 
 ### F: Var kan jag hitta dokumentationen för Aspose.BarCode för Java?
  Se den omfattande dokumentationen[här](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Integrazione dei dati in Java
 linktitle: Integrazione dei dati
 second_title: API Java Aspose.BarCode
 description: Scopri come creare codici a barre dinamici in Java utilizzando Aspose.BarCode. Guida passo passo per integrare i dati con la simbologia EAN_13.
-type: docs
 weight: 16
 url: /it/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrazione dei dati in Java
+
 
 ## introduzione
 
@@ -96,3 +102,10 @@ Sì, puoi accedere a una versione di prova gratuita[Qui](https://releases.aspose
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

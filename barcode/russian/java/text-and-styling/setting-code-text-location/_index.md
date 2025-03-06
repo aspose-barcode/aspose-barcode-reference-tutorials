@@ -3,10 +3,16 @@ title: Настройка местоположения текста кода в 
 linktitle: Настройка местоположения текста кода
 second_title: API Aspose.BarCode Java
 description: Легко создавайте динамические штрих-коды на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству по настройке текста кода и повышению функциональности вашего приложения.
-type: docs
 weight: 12
 url: /ru/java/text-and-styling/setting-code-text-location/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка местоположения текста кода в Java
+
 
 ## Введение
 
@@ -88,3 +94,10 @@ generator.save(dataDir + "codetextAbove.png");
 
 ### Вопрос: Где я могу получить помощь или поддержку по Aspose.BarCode?
  Посетить[Форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13) за общественную поддержку и помощь.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

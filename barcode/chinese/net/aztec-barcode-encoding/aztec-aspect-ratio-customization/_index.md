@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 自定义 Aztec 条形码纵横比
 linktitle: 阿兹特克纵横比定制
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 自定义 Aztec 条形码长宽比。为您的 .NET 应用程序创建独特、灵活的条形码。
-type: docs
 weight: 10
 url: /zh/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 自定义 Aztec 条形码纵横比
+
 在本教程中，我们将深入研究使用 Aspose.BarCode for .NET 自定义 Aztec 条形码的纵横比。 Aztec 条形码是通常用于编码数据的二维条形码，通过 Aspose.BarCode，您可以轻松创建和自定义这些条形码以满足您的特定要求。
 
 ## 先决条件
@@ -108,3 +114,9 @@ A4：您可以通过将 Aspose.BarCode for .NET 合并到您的代码中来在 W
 ### Q5：哪里可以获得 Aspose.BarCode for .NET 的临时许可证？
 
 A5：如果您需要临时许可证用于测试或评估目的，您可以从以下位置获取临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

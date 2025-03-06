@@ -3,10 +3,16 @@ title: Đọc mã vạch DataMatrix
 linktitle: Đọc mã vạch DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Tạo và đọc mã vạch DataMatrix dễ dàng với Aspose.BarCode cho .NET. Đi sâu vào lập trình trình đọc DataMatrix và cấu hình nối thêm có cấu trúc.
-type: docs
 weight: 31
 url: /vi/net/datamatrix-barcode-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc mã vạch DataMatrix
+
 
 Nếu bạn đang muốn tìm hiểu sâu hơn về thế giới đọc mã vạch DataMatrix và phát huy toàn bộ tiềm năng của Aspose.BarCode cho .NET, thì bạn đã đến đúng nơi. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các hướng dẫn cần thiết bao gồm lập trình trình đọc DataMatrix, cấu hình phần bổ sung có cấu trúc và nghệ thuật tạo mã vạch DataMatrix trong các ứng dụng .NET của bạn.
 
@@ -30,3 +36,9 @@ Khám phá lập trình trình đọc DataMatrix với Aspose.BarCode cho .NET. 
 Tìm hiểu cách tạo và đọc cấu hình nối thêm có cấu trúc DataMatrix trong .NET bằng cách sử dụng Aspose.BarCode để tổ chức dữ liệu hiệu quả cao.
 ### [Tạo mã vạch DataMatrix](./datamatrix-versions/)
 Tìm hiểu cách tạo mã vạch DataMatrix trong .NET bằng Aspose.BarCode cho .NET. Thứ nguyên tùy chỉnh, hỗ trợ ECC, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

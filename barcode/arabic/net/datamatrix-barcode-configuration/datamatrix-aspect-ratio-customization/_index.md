@@ -3,10 +3,16 @@ title: تخصيص نسبة أبعاد DataMatrix باستخدام Aspose.BarCode
 linktitle: تخصيص نسبة العرض إلى الارتفاع DataMatrix
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تخصيص نسب العرض إلى الارتفاع للرمز الشريطي DataMatrix باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة لإنشاء الباركود.
-type: docs
 weight: 10
 url: /ar/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص نسبة أبعاد DataMatrix باستخدام Aspose.BarCode لـ .NET
+
 هل تتطلع إلى إنشاء رموز شريطية DataMatrix بنسبة عرض إلى ارتفاع مخصصة باستخدام Aspose.BarCode لـ .NET؟ أنت في المكان الصحيح. في هذا البرنامج التعليمي خطوة بخطوة، سنوضح لك كيفية تحقيق ذلك. Aspose.BarCode for .NET هي مكتبة قوية تتيح لك إنشاء الرموز الشريطية ومعالجتها بسهولة. سنبدأ بتقديم المتطلبات الأساسية ومساحات الأسماء التي تحتاجها، ثم سنتعمق في الأمثلة.
 
 ## المتطلبات الأساسية
@@ -86,3 +92,9 @@ A1: نعم، يسمح لك Aspose.BarCode for .NET بتخصيص نسبة الع�
 ### س5: هل يمكنني إنشاء رموز شريطية بتنسيقات مختلفة باستخدام Aspose.BarCode لـ .NET؟
 
 ج5: نعم، يدعم Aspose.BarCode for .NET إنشاء رموز شريطية بتنسيقات مختلفة، بما في ذلك PNG وJPEG والمزيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

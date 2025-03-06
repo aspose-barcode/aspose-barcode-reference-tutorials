@@ -3,10 +3,16 @@ title: التعرف على الباركود من PDF في جافا
 linktitle: التعرف على الباركود من PDF
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية التعرف على الرموز الشريطية من ملفات PDF في Java باستخدام Aspose.BarCode. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية. تعزيز كفاءة إدارة البيانات الخاصة بك!
-type: docs
 weight: 11
 url: /ar/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الباركود من PDF في جافا
+
 
 ## مقدمة
 
@@ -113,3 +119,10 @@ while (extractor.hasNextImage()) {
 
 ### س: أين يمكنني طلب الدعم أو طرح الأسئلة حول Aspose.BarCode for Java؟
  قم بزيارة Aspose.BarCode[المنتدى](https://forum.aspose.com/c/barcode/13) للدعم والمناقشات.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

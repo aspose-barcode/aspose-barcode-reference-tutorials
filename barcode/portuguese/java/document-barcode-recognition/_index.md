@@ -3,10 +3,16 @@ title: Dominando o reconhecimento de código de barras de documentos com Aspose.
 linktitle: Reconhecimento de código de barras de documentos
 second_title: API Java Aspose.BarCode
 description: Desbloqueie o poder do reconhecimento de código de barras em Java com Aspose.BarCode! Aprenda a integrar, ler e classificar perfeitamente códigos de barras de PDFs, documentos do Word e conjuntos Unicode.
-type: docs
 weight: 21
 url: /pt/java/document-barcode-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando o reconhecimento de código de barras de documentos com Aspose.BarCode
+
 
 Você está pronto para elevar seus aplicativos Java a novos patamares? Não procure mais! Neste guia completo, mergulharemos no fascinante reino do reconhecimento de código de barras usando Aspose.BarCode. Quer você seja um desenvolvedor experiente ou esteja apenas começando, estes tutoriais são a chave para desbloquear todo o potencial da integração de código de barras baseado em Java.
 
@@ -36,3 +42,9 @@ Aprenda como reconhecer códigos de barras de PDFs em Java usando Aspose.BarCode
 Explore a integração perfeita do reconhecimento de código de barras em seus aplicativos Java com Aspose.BarCode. Siga este tutorial para reconhecer códigos de barras de documentos do Word.
 ### [Reconhecendo códigos de barras Unicode em Java](./recognizing-unicode-barcodes/)
 Explore o mundo do reconhecimento de código de barras Unicode em Java com Aspose.BarCode. Siga nosso guia passo a passo para integrar perfeitamente diversos conjuntos de caracteres em seus aplicativos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

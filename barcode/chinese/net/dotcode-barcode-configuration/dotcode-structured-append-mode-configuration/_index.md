@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 进行 DotCode 结构化追加模式配置
 linktitle: DotCode 结构化追加模式配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 配置 DotCode 结构化追加模式并创建高效的条形码。
-type: docs
 weight: 16
 url: /zh/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 进行 DotCode 结构化追加模式配置
+
 ## 介绍
 
 在快节奏的数据编码和条形码生成领域，精度和效率至关重要。 Aspose.BarCode for .NET 成为冠军，提供了一整套功能来满足开发人员和企业的需求。在本教程中，我们将深入研究强大的 DotCode 结构化附加模式配置，这是 Aspose.BarCode for .NET 提供的多功能条形码编码解决方案。
@@ -120,3 +126,9 @@ A4：DotCode技术广泛应用于医疗、物流、制造等行业，高效的�
 ### 问题 5：如何确保使用 Aspose.BarCode for .NET 生成的条形码的安全性？
 
 A5：Aspose.BarCode for .NET 提供各种安全功能来保护您生成的条形码，例如加密和水印。您可以在文档中探索这些选项。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

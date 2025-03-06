@@ -3,10 +3,16 @@ title: Одномерная панель данных Кодировка GS1
 linktitle: Одномерная панель данных Кодировка GS1
 second_title: API Aspose.BarCode .NET
 description: Научитесь создавать штрих-коды в кодировке Databar GS1 в .NET с помощью Aspose.BarCode. Легко создавайте штрих-коды. Следуйте нашему пошаговому руководству.
-type: docs
 weight: 18
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Одномерная панель данных Кодировка GS1
+
 
 В этом уроке мы познакомим вас с процессом создания одномерных штрих-кодов Databar GS1 с использованием библиотеки Aspose.BarCode для .NET. Хотите ли вы генерировать штрих-коды с кодировкой GS1 или без нее, мы предоставим вам всю необходимую информацию. Это пошаговое руководство поможет вам понять предварительные требования, импортировать пространства имен и продемонстрировать каждый пример для простого создания штрих-кодов в кодировке Databar GS1.
 
@@ -101,3 +107,10 @@ catch (Exception e)
 
 ### 5. Как я могу приобрести лицензию на Aspose.BarCode для .NET?
  Чтобы приобрести лицензию на Aspose.BarCode для .NET, посетите[страница покупки](https://purchase.aspose.com/buy) на сайте Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

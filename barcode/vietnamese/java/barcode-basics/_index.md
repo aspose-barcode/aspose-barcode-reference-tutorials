@@ -3,10 +3,16 @@ title: Khái niệm cơ bản về mã vạch
 linktitle: Khái niệm cơ bản về mã vạch
 second_title: API Java Aspose.BarCode
 description: Khai phá sức mạnh của mã vạch trong ứng dụng Java của bạn! Đi sâu vào các hướng dẫn của Aspose.BarCode để tích hợp, tùy chỉnh và nhận dạng liền mạch.
-type: docs
 weight: 20
 url: /vi/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khái niệm cơ bản về mã vạch
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Khám phá việc tạo và cài đặt kích thước cho toàn bộ ảnh tron
 Tạo một hình ảnh với khả năng tạo mã vạch chính xác trong Java bằng Aspose.BarCode. Tạo mã vạch tùy chỉnh dễ dàng. Khám phá tài liệu, tải xuống và nhận hỗ trợ.
 ### [Phát hiện định hướng mã vạch trong Java](./detecting-barcode-orientation/)
 Nâng cao ứng dụng Java của bạn bằng tính năng nhận dạng mã vạch bằng Aspose.BarCode for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để dễ dàng phát hiện hướng mã vạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Définition de la hauteur des barres en Java
 linktitle: Réglage de la hauteur des barres
 second_title: API Java Aspose.BarCode
 description: Générez et personnalisez des codes-barres sans effort en Java avec Aspose.BarCode. Définissez la hauteur des barres, choisissez les types et améliorez les capacités de votre application.
-type: docs
 weight: 14
 url: /fr/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la hauteur des barres en Java
+
 
 ## Introduction
 
@@ -78,3 +84,10 @@ Certainement! Aspose.BarCode prend en charge le codage des données numériques 
 ### Où puis-je trouver de l’assistance pour Aspose.BarCode pour Java ?
  Visitez le forum Aspose.BarCode[ici](https://forum.aspose.com/c/barcode/13) pour le soutien et les discussions de la communauté.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

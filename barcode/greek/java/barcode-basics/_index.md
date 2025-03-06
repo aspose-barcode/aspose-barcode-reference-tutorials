@@ -3,10 +3,16 @@ title: Βασικά στοιχεία γραμμωτού κώδικα
 linktitle: Βασικά στοιχεία γραμμωτού κώδικα
 second_title: Aspose.BarCode Java API
 description: Ξεκλειδώστε τη δύναμη των barcodes στις εφαρμογές σας Java! Βουτήξτε στα μαθήματα Aspose.BarCode για απρόσκοπτη ενσωμάτωση, προσαρμογή και αναγνώριση.
-type: docs
 weight: 20
 url: /el/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Βασικά στοιχεία γραμμωτού κώδικα
+
 
 ## Εισαγωγή
 
@@ -38,3 +44,9 @@ url: /el/java/barcode-basics/
 Δημιουργία εικόνας με παραγωγή ακριβούς γραμμικού κώδικα σε Java με Aspose.BarCode. Δημιουργήστε εύκολα προσαρμοσμένους γραμμωτούς κώδικες. Εξερευνήστε την τεκμηρίωση, πραγματοποιήστε λήψη και λάβετε υποστήριξη.
 ### [Ανίχνευση προσανατολισμού γραμμικού κώδικα σε Java](./detecting-barcode-orientation/)
 Βελτιώστε τις εφαρμογές σας Java με αναγνώριση γραμμωτού κώδικα χρησιμοποιώντας το Aspose.BarCode για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να εντοπίσετε εύκολα τον προσανατολισμό του γραμμικού κώδικα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

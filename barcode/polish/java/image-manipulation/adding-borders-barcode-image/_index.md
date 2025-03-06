@@ -3,10 +3,16 @@ title: Dodawanie obramowań do obrazu kodu kreskowego w Javie
 linktitle: Dodawanie obramowań do obrazu kodu kreskowego
 second_title: Aspose.BarCode API Java
 description: Ulepsz obrazy kodów kreskowych w Javie za pomocą Aspose.BarCode, dodając konfigurowalne obramowania. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać atrakcyjne wizualnie rozwiązanie w zakresie kodów kreskowych.
-type: docs
 weight: 10
 url: /pl/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie obramowań do obrazu kodu kreskowego w Javie
+
 
 ## Wstęp
 
@@ -122,3 +128,10 @@ Z pewnością. Kolor obramowania można programowo modyfikować w oparciu o okre
 
 ### Czy dostępna jest wersja próbna Aspose.BarCode?
  Tak, możesz poznać funkcje Aspose.BarCode, pobierając plik[bezpłatna wersja próbna](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

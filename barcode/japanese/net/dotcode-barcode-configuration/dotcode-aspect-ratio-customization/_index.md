@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用して DotCode のアスペクト比を�
 linktitle: DotCode アスペクト比のカスタマイズ
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して DotCode バーコードのアスペクト比をカスタマイズする方法を学びます。アプリケーションに合わせてカスタマイズしたバーコードを簡単に作成できます。
-type: docs
 weight: 10
 url: /ja/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用して DotCode のアスペクト比をカスタマイズする
+
 ## 導入
 
 アプリケーションで高度にカスタマイズ可能なバーコードを作成したい .NET 開発者にとって、Aspose.BarCode for .NET は完璧なソリューションです。このチュートリアルでは、その高度な機能の 1 つである DotCode のアスペクト比のカスタマイズについて詳しく説明します。 DotCode バーコードは、医療、郵便サービス、製造などの業界で情報をエンコードするために広く使用されています。アスペクト比を調整することで、バーコードを特定のニーズに合わせて調整できます。始めましょう！
@@ -97,3 +103,9 @@ A4: はい、Aspose.BarCode for .NET は Web アプリケーションとデス�
 ### Q5: Aspose.BarCode for .NET に関する詳細情報とドキュメントはどこで入手できますか?
 
 A5: ドキュメントを参照してください。[ここ](https://reference.aspose.com/barcode/net/)包括的なガイダンスと例を参照してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

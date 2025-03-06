@@ -3,10 +3,16 @@ title: GS1 DataMatrix Example
 linktitle: GS1 DataMatrix Example
 second_title: Aspose.BarCode .NET API
 description: Learn how to create GS1 DataMatrix barcodes in .NET using Aspose.BarCode. Generate barcodes with ease and efficiency in just a few steps.
-type: docs
 weight: 14
 url: /net/gs1-barcode-encoding/gs1-datamatrix-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 DataMatrix Example
+
 
 If you are looking for a reliable solution to create GS1 DataMatrix barcodes in your .NET applications, Aspose.BarCode for .NET is here to simplify the process. This powerful library offers a wide range of features and functionalities to generate various types of barcodes, including GS1 DataMatrix. In this step-by-step guide, we will walk you through the process of generating GS1 DataMatrix barcodes using Aspose.BarCode for .NET.
 
@@ -88,3 +94,10 @@ In this tutorial, we explored how to generate GS1 DataMatrix barcodes using Aspo
 
 So, go ahead, give it a try, and streamline your barcode generation process with Aspose.BarCode for .NET. Your products and data identification just got a lot easier.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

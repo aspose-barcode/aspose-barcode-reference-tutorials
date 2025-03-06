@@ -3,10 +3,16 @@ title: Grootte-eenheid instellen voor streepjescodeafbeelding in Java met Aspose
 linktitle: Grootte-eenheid voor streepjescodeafbeelding instellen
 second_title: Aspose.BarCode Java-API
 description: Ontdek de kracht van Aspose.BarCode voor Java bij het instellen van nauwkeurige maateenheden voor barcodeafbeeldingen. Moeiteloze integratie, robuuste prestaties en eindeloze aanpassingsmogelijkheden.
-type: docs
 weight: 15
 url: /nl/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grootte-eenheid instellen voor streepjescodeafbeelding in Java met Aspose.BarCode
+
 ## Invoering
 
 Aspose.BarCode voor Java is een robuuste Java API waarmee ontwikkelaars moeiteloos mogelijkheden voor het genereren en herkennen van streepjescodes in hun Java-applicaties kunnen integreren. Of u nu een geavanceerd voorraadsysteem, een winkeltoepassing of andere software ontwikkelt die barcodefunctionaliteit vereist, Aspose.BarCode blijkt een betrouwbare en efficiënte keuze te zijn.
@@ -100,3 +106,9 @@ A2: Absoluut. Aspose.BarCode voor Java biedt uitgebreide aanpassingsmogelijkhede
 ### V5: Wat zijn de ondersteunde streepjescodesymbologieën in Aspose.BarCode voor Java?
 
 A5: Aspose.BarCode voor Java ondersteunt een breed scala aan streepjescodesymbologieën, waaronder CODE_128, QR_CODE, UPC_A en nog veel meer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

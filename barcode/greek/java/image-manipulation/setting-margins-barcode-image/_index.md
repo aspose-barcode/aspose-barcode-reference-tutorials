@@ -3,10 +3,16 @@ title: Ρύθμιση περιθωρίων για εικόνα γραμμικο�
 linktitle: Ρύθμιση περιθωρίων για εικόνα γραμμικού κώδικα
 second_title: Aspose.BarCode Java API
 description: Μάθετε πώς να ορίζετε περιθώρια για εικόνες γραμμικού κώδικα σε Java χρησιμοποιώντας το Aspose.BarCode. Προσαρμόστε το διάστημα για απρόσκοπτη ενσωμάτωση στην εφαρμογή σας
-type: docs
 weight: 11
 url: /el/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση περιθωρίων για εικόνα γραμμικού κώδικα σε Java
+
 
 ## Εισαγωγή
 
@@ -99,3 +105,10 @@ bb.save(dataDir + "barcode-image-margins.jpg");
 
 ### Πώς μπορώ να αγοράσω την πλήρη έκδοση του Aspose.BarCode για Java;
  Μπορείτε να αγοράσετε την πλήρη έκδοση του Aspose.BarCode για Java από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

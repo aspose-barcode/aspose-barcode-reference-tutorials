@@ -3,10 +3,16 @@ title: Java'da Başlatma ve Durdurma Sembollerini Ayarlama
 linktitle: Başlatma ve Durdurma Sembollerini Ayarlama
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode'u kullanarak Java'da belirli başlatma ve durdurma sembolleriyle özelleştirilmiş Codabar barkodları oluşturun. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 15
 url: /tr/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Başlatma ve Durdurma Sembollerini Ayarlama
+
 
 ## giriiş
 
@@ -104,3 +110,10 @@ Tebrikler! Aspose.BarCode for Java'yı kullanarak Codabar barkodları için baş
 ### Aspose.BarCode for Java'nın desteklediği başka barkod sembolojileri var mı?
 Evet, Aspose.BarCode çok çeşitli barkod sembolojilerini destekler. Tam liste için belgelere bakın.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

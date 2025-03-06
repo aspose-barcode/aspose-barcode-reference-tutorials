@@ -3,10 +3,16 @@ title: Java로 호주 우편 바코드 생성
 linktitle: 호주 우편 바코드 생성
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java로 Australia Post 바코드를 손쉽게 생성하세요. 원활한 통합을 위해 단계별 튜토리얼을 따르세요.
-type: docs
 weight: 12
 url: /ko/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java로 호주 우편 바코드 생성
+
 
 ## 소개
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### Aspose.BarCode에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

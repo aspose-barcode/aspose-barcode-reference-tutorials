@@ -3,10 +3,16 @@ title: Chỉ định ký hiệu cho mã vạch trong Java
 linktitle: Chỉ định ký hiệu cho mã vạch
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch động trong Java với Aspose.BarCode. Tích hợp dễ dàng, tùy chỉnh linh hoạt và các tính năng mạnh mẽ đáp ứng mọi nhu cầu về mã vạch của bạn.
-type: docs
 weight: 10
 url: /vi/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định ký hiệu cho mã vạch trong Java
+
 
 ## Giới thiệu
 
@@ -77,3 +83,10 @@ Tuyệt đối! Aspose.BarCode cung cấp nhiều tùy chọn tùy chỉnh, cho 
 
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.BarCode?
  Tham quan[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

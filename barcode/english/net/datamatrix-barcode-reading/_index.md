@@ -3,10 +3,16 @@ title: DataMatrix Barcode Reading
 linktitle: DataMatrix Barcode Reading
 second_title: Aspose.BarCode .NET API
 description: Generate and read DataMatrix barcodes effortlessly with Aspose.BarCode for .NET. Dive into DataMatrix reader programming and structured append configuration.
-type: docs
 weight: 31
 url: /net/datamatrix-barcode-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DataMatrix Barcode Reading
+
 
 If you're looking to delve into the world of DataMatrix barcode reading and unleash the full potential of Aspose.BarCode for .NET, you've landed in the right place. In this comprehensive guide, we'll walk you through essential tutorials that cover DataMatrix reader programming, structured append configuration, and the art of generating DataMatrix barcodes in your .NET applications.
 
@@ -30,3 +36,9 @@ Explore DataMatrix reader programming with Aspose.BarCode for .NET. Learn how to
 Learn how to create and read DataMatrix structured append configuration in .NET using Aspose.BarCode for high-efficiency data organization.
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 Learn how to generate DataMatrix barcodes in .NET using Aspose.BarCode for .NET. Custom dimensions, ECC support, and more.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

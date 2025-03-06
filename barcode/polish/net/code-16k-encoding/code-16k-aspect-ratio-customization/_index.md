@@ -3,10 +3,16 @@ title: Dostosuj współczynniki proporcji kodu kreskowego Code 16K za pomocą As
 linktitle: Dostosowywanie współczynnika kształtu Code 16K
 second_title: Aspose.BarCode .NET API
 description: Dowiedz się, jak dostosować proporcje kodu kreskowego Code 16K za pomocą Aspose.BarCode dla .NET. Twórz precyzyjne kody kreskowe dla swoich aplikacji.
-type: docs
 weight: 10
 url: /pl/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj współczynniki proporcji kodu kreskowego Code 16K za pomocą Aspose.BarCode dla .NET
+
 świecie generowania kodów kreskowych kluczowa jest precyzja i personalizacja. Aspose.BarCode dla .NET zapewnia programistom potężny zestaw narzędzi do tworzenia i manipulowania kodami kreskowymi, w tym możliwość dostosowania proporcji kodów kreskowych Code 16K. W tym przewodniku krok po kroku odkryjemy, jak wygenerować kody kreskowe Code 16K o różnych proporcjach przy użyciu Aspose.BarCode dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, podzielimy proces na proste, zrozumiałe etapy.
 
 ## Warunki wstępne
@@ -97,3 +103,10 @@ A3: Absolutnie. Aspose.BarCode dla .NET jest wszechstronny i może być używany
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode dla .NET?
 
  O5: Tak, możesz wypróbować Aspose.BarCode dla .NET, pobierając bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/). Dzięki temu możesz zapoznać się z jego funkcjami i funkcjonalnością przed dokonaniem zakupu.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

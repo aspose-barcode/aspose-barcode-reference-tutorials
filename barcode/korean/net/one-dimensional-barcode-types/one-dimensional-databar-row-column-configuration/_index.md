@@ -3,10 +3,16 @@ title: 1차원 데이터바 행 및 열 구성
 linktitle: 1차원 데이터바 행 및 열 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 .NET에서 행 및 열 구성으로 동적 1차원 DataBar 바코드를 생성합니다. 사용자 정의가 쉬워졌습니다!
-type: docs
 weight: 19
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 데이터바 행 및 열 구성
+
 
 오늘날의 디지털 세계에서 바코드는 재고 관리부터 제품 라벨링까지 다양한 산업에서 중요한 역할을 합니다. 개발자로서 .NET 애플리케이션에서 바코드를 생성하고 사용자 정의하려면 강력한 도구가 필요할 수 있습니다. Aspose.BarCode for .NET은 1차원 및 2차원 바코드를 쉽게 생성, 사용자 정의 및 조작할 수 있는 다목적 라이브러리입니다.
 
@@ -112,3 +118,10 @@ Aspose.BarCode for .NET은 .NET 개발자가 다양한 애플리케이션에 맞
  예, 문서[여기](https://reference.aspose.com/barcode/net/)시작하는 데 도움이 되는 자세한 코드 예제와 샘플 프로젝트를 제공합니다.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

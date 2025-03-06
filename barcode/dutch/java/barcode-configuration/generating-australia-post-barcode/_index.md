@@ -3,10 +3,16 @@ title: Australia Post-streepjescode genereren in Java
 linktitle: Australia Post-streepjescode genereren
 second_title: Aspose.BarCode Java-API
 description: Genereer moeiteloos Australia Post-streepjescodes in Java met Aspose.BarCode. Volg onze stap-voor-stap handleiding voor een naadloze integratie.
-type: docs
 weight: 12
 url: /nl/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Australia Post-streepjescode genereren in Java
+
 
 ## Invoering
 
@@ -88,3 +94,9 @@ Absoluut! Aspose.BarCode biedt uitgebreide aanpassingsmogelijkheden voor het uit
 
 ### Hoe verkrijg ik een tijdelijke licentie voor Aspose.BarCode?
  U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Grootte voor hele afbeelding maken en instellen met streepjescode in Java
 linktitle: Grootte voor hele afbeelding met streepjescode maken en instellen
 second_title: Aspose.BarCode Java-API
 description: Ontdek het maken en instellen van de grootte voor een hele afbeelding in Java met Aspose.BarCode. Pas het formaat, de codering en het uiterlijk moeiteloos aan.
-type: docs
 weight: 11
 url: /nl/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grootte voor hele afbeelding maken en instellen met streepjescode in Java
+
 ## Invoering
 
 Op het gebied van Java-ontwikkeling is de noodzaak om dynamische barcodes in applicaties te integreren van het grootste belang. Aspose.BarCode voor Java is een krachtige tool die dit proces vereenvoudigt en veelzijdigheid en gebruiksgemak biedt. Deze tutorial begeleidt u bij het maken en aanpassen van streepjescodes, waarbij de nadruk ligt op een praktisch voorbeeld: het instellen van de grootte voor de hele afbeelding met de streepjescode.
@@ -112,3 +118,9 @@ Kortom, Aspose.BarCode voor Java biedt een naadloze oplossing voor het integrere
 ### Vraag 5: Is er een optie voor een tijdelijke licentie?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

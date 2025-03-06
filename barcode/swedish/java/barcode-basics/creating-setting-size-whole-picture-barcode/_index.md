@@ -3,10 +3,16 @@ title: Skapa och ställa in storlek för hela bilden med streckkod i Java
 linktitle: Skapa och ställa in storlek för hela bilden med streckkod
 second_title: Aspose.BarCode Java API
 description: Utforska att skapa och ställa in storlek för hela bilden i Java med Aspose.BarCode. Anpassa storlek, kodning och utseende utan ansträngning.
-type: docs
 weight: 11
 url: /sv/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa och ställa in storlek för hela bilden med streckkod i Java
+
 ## Introduktion
 
 Inom området för Java-utveckling är behovet av att införliva dynamiska streckkoder i applikationer av största vikt. Aspose.BarCode för Java är ett kraftfullt verktyg som förenklar denna process och erbjuder mångsidighet och användarvänlighet. Denna handledning guidar dig genom skapandet och anpassningen av streckkoder, med fokus på ett praktiskt exempel – ställ in storleken för hela bilden med streckkoden.
@@ -112,3 +118,9 @@ Sammanfattningsvis erbjuder Aspose.BarCode för Java en sömlös lösning för a
 ### F5: Finns det ett alternativ för en tillfällig licens?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET で Codablock F の行と列を構成する
 linktitle: Codablock F の行と列の構成
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET で Codablock F の行と列を構成する方法を学びます。さまざまなアプリケーション向けにカスタマイズされた 2D バーコードを作成します。
-type: docs
 weight: 11
 url: /ja/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET で Codablock F の行と列を構成する
+
 このステップバイステップ ガイドでは、Aspose.BarCode for .NET を使用して Codablock F の行と列の設定を構成する方法を説明します。 Codablock F は、配送ラベルや梱包などのさまざまなアプリケーションに使用される 2D バーコード シンボルです。プロセスを明確かつ包括的に理解できるように、各例を複数のステップに分けて説明します。
 
 ## 前提条件
@@ -100,3 +106,9 @@ A3: はい、Aspose.BarCode for .NET はさまざまな .NET フレームワー�
 ### Q5: Aspose.BarCode for .NET のサポートを受けるにはどうすればよいですか?
 
  A5: ご質問がある場合、またはサポートが必要な場合は、Aspose.BarCode for .NET フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

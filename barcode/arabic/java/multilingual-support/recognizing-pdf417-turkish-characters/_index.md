@@ -3,10 +3,16 @@ title: التعرف على الباركود PDF417 مع الأحرف الترك�
 linktitle: التعرف على الباركود PDF417 بالأحرف التركية
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية التعرف على باركود PDF417 بأحرف تركية في Java باستخدام Aspose.BarCode. سهولة التكامل وقدرات فك التشفير القوية.
-type: docs
 weight: 11
 url: /ar/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الباركود PDF417 مع الأحرف التركية في جافا
+
 
 ## مقدمة
 
@@ -79,3 +85,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### هل يمكنني استخدام ترخيص مؤقت أثناء التطوير؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: GS1 kupon UPC-A 128 kódolás
 linktitle: GS1 kupon UPC-A 128 kódolás
 second_title: Aspose.BarCode .NET API
 description: Létrehoz vonalkódokat egyszerűen az Aspose.BarCode for .NET segítségével – az átfogó vonalkódgeneráló megoldással. Kezdje el még ma!
-type: docs
 weight: 12
 url: /hu/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 kupon UPC-A 128 kódolás
+
 
 ## Bevezetés
 
@@ -115,3 +121,9 @@ Teljesen. Az Aspose.BarCode for .NET különféle paramétereket és beállítá
 
 ### K: Vannak más kódolási típusok, amelyeket az Aspose.BarCode támogat a .NET számára?
 Igen, az Aspose.BarCode for .NET kódolási típusok széles skáláját támogatja, beleértve a UPC-A-t, a Code 128-at, a QR-kódokat és még sok mást. A teljes listát a dokumentációban találja.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

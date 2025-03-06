@@ -3,10 +3,16 @@ title: Đặt văn bản mã trong Java
 linktitle: Văn bản mã cài đặt
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch dễ dàng trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh văn bản mã hiệu quả.
-type: docs
 weight: 13
 url: /vi/java/text-and-styling/setting-code-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt văn bản mã trong Java
+
 
 ## Giới thiệu
 
@@ -80,3 +86,9 @@ Chúc mừng! Bạn đã tạo thành công mã vạch có văn bản mã tùy c
 
 ### Tôi có thể sử dụng giấy phép tạm thời cho mục đích thử nghiệm không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

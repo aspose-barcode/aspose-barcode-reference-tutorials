@@ -3,10 +3,16 @@ title: Code 16K エンコーディング
 linktitle: Code 16K エンコーディング
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用した Code 16K エンコード チュートリアルをご覧ください。バーコードのアスペクト比とクワイエット ゾーン設定をカスタマイズして、アプリケーションで正確で信頼性の高いスキャンを実現します。
-type: docs
 weight: 22
 url: /ja/net/code-16k-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Code 16K エンコーディング
+
 
 ## 導入
 
@@ -44,3 +50,9 @@ Aspose.BarCode for .NET を使用したマスター コード 16K クワイエ�
 ## 結論
 
 これらの Code 16K エンコード チュートリアルを終えると、Aspose.BarCode for .NET を使用してバーコードのアスペクト比とクワイエット ゾーン設定をカスタマイズする方法を深く理解できるようになります。小売、物流、またはその他の業界向けのアプリケーションを開発している場合でも、これらのスキルはバーコードの機能と視覚的な魅力を向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

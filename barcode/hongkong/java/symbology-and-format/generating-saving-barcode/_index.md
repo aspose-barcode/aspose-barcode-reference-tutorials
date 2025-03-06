@@ -3,10 +3,16 @@ title: 用 Java 產生和保存條碼
 linktitle: 產生並儲存條碼
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中輕鬆產生並保存條碼。無縫整合、自訂外觀並享受廣泛的條碼支援。
-type: docs
 weight: 12
 url: /zh-hant/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用 Java 產生和保存條碼
+
 
 ## 介紹
 
@@ -108,3 +114,9 @@ con.close();
 
 ### Q：如何獲得對 Aspose.BarCode 的支援？
 答：造訪支援論壇[這裡](https://forum.aspose.com/c/barcode/13)如有任何幫助或疑問。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

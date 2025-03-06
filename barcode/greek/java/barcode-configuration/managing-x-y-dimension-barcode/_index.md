@@ -3,10 +3,16 @@ title: Διαχείριση διαστάσεων X και Y του γραμμω�
 linktitle: Διαχείριση των διαστάσεων Χ και Υ του γραμμωτού κώδικα
 second_title: Aspose.BarCode Java API
 description: Εξερευνήστε τη δύναμη του Aspose.BarCode για Java! Μάθετε να διαχειρίζεστε τις διαστάσεις X και Y χωρίς κόπο με τον αναλυτικό οδηγό μας. Ενισχύστε την ακρίβεια και την οπτική γοητεία.
-type: docs
 weight: 13
 url: /el/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση διαστάσεων X και Y του γραμμωτού κώδικα σε Java
+
 
 ## Εισαγωγή
 
@@ -90,3 +96,10 @@ public static void setYDimension() throws IOException {
 
 ### Μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.BarCode για Java;
 Ναι, μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

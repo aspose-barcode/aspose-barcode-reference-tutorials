@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 전문가처럼 DataMatrix 바코드를 �
 linktitle: DataMatrix 바코드 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DataMatrix 바코드를 손쉽게 생성하세요. 종횡비, ECC 모드, 인코딩 등을 사용자 정의하세요. 바코드 생성 효율성을 높입니다.
-type: docs
 weight: 30
 url: /ko/net/datamatrix-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 전문가처럼 DataMatrix 바코드를 생성하세요.
+
 
 
 .NET용 Aspose.BarCode를 사용한 DataMatrix 바코드 구성에 대한 포괄적인 튜토리얼 시리즈에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드를 통해 DataMatrix 바코드를 원활하게 생성하고 사용자 정의할 수 있습니다.
@@ -69,3 +75,9 @@ Aspose.BarCode를 사용하여 .NET에서 DataMatrix ECC 200 바코드를 생성
 .NET용 Aspose.BarCode를 사용하여 DataMatrix 확장 코드 텍스트를 구성하는 방법을 알아보세요. .NET 애플리케이션에서 바코드를 생성, 인식 및 통합합니다.
 ### [마스터 DataMatrix 매크로 구성](./datamatrix-macro-configuration/)
 .NET용 Aspose.BarCode를 사용하여 DataMatrix 매크로 바코드를 구성하는 방법을 알아보세요. .NET 애플리케이션에서 DataMatrix 바코드를 생성, 사용자 정의 및 인식합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Symboliek opgeven voor streepjescode in Java
 linktitle: Symboliek voor streepjescode opgeven
 second_title: Aspose.BarCode Java-API
 description: Genereer dynamische barcodes in Java met Aspose.BarCode. Eenvoudige integratie, veelzijdige aanpassingen en robuuste functies voor al uw barcodebehoeften.
-type: docs
 weight: 10
 url: /nl/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Symboliek opgeven voor streepjescode in Java
+
 
 ## Invoering
 
@@ -77,3 +83,10 @@ Absoluut! Aspose.BarCode biedt een reeks aanpassingsopties, waarmee u de grootte
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.BarCode?
  Bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) om hulp te krijgen van de gemeenschap en Aspose-experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

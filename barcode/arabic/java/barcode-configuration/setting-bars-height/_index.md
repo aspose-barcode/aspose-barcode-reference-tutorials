@@ -3,10 +3,16 @@ title: ضبط ارتفاع القضبان في جافا
 linktitle: ضبط ارتفاع القضبان
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء وتخصيص الرموز الشريطية بسهولة في Java باستخدام Aspose.BarCode. قم بتعيين ارتفاع الشريط واختيار الأنواع وتعزيز قدرات التطبيق الخاص بك.
-type: docs
 weight: 14
 url: /ar/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط ارتفاع القضبان في جافا
+
 
 ## مقدمة
 
@@ -78,3 +84,10 @@ generator.save(dataDir + "barsHeight.jpg");
 ### أين يمكنني العثور على الدعم لـ Aspose.BarCode لـ Java؟
  قم بزيارة منتدى Aspose.BarCode[هنا](https://forum.aspose.com/c/barcode/13) لدعم المجتمع والمناقشات.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Генерация типа границы штрих-кода ITF-14
 linktitle: Генерация типа границы штрих-кода ITF-14
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как создавать штрих-коды ITF-14 с различными типами границ, используя Aspose.BarCode для .NET. С легкостью настройте упаковку и маркировку по своему вкусу.
-type: docs
 weight: 11
 url: /ru/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация типа границы штрих-кода ITF-14
+
 
 В этом уроке мы покажем вам процесс создания штрих-кодов ITF-14 с различными типами границ с использованием Aspose.BarCode для .NET. Aspose.BarCode — мощная библиотека, которая позволяет создавать, манипулировать и распознавать штрих-коды в различных форматах. В этом конкретном примере мы сосредоточимся на штрих-кодах ITF-14 и на том, как управлять типами их границ. Штрих-коды ITF-14 обычно используются для упаковки и маркировки.
 
@@ -109,3 +115,10 @@ Aspose.BarCode для .NET предлагает широкий спектр фу
 
 ### Доступна ли бесплатная пробная версия Aspose.BarCode?
 Да, вы можете получить доступ к бесплатной пробной версии Aspose.BarCode для .NET на сайте[здесь](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

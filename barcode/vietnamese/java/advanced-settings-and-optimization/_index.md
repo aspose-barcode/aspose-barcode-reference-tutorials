@@ -3,10 +3,16 @@ title: Cài đặt và tối ưu hóa nâng cao
 linktitle: Cài đặt và tối ưu hóa nâng cao
 second_title: API Java Aspose.BarCode
 description: Mở khóa tiềm năng tạo mã vạch Java với Aspose.BarCode. Định cấu hình kích thước tùy chỉnh, tối ưu hóa độ phân giải hình ảnh và cài đặt mã vạch chính để tích hợp liền mạch.
-type: docs
 weight: 29
 url: /vi/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cài đặt và tối ưu hóa nâng cao
+
 
 ## Giới thiệu
 
@@ -86,3 +92,9 @@ Tạo nhiều mã vạch trên một hình ảnh một cách dễ dàng bằng A
 Khám phá sức mạnh của Aspose.BarCode cho Java trong việc giải mã mã vạch 1D một cách dễ dàng. Tải xuống ngay để tích hợp liền mạch vào các ứng dụng Java của bạn.
 ### [Nhận chất lượng nhận dạng mã vạch theo phần trăm trong Java](./getting-barcode-recognition-quality-percent/)
 Nhận chất lượng nhận dạng mã vạch trong Java với Aspose.BarCode. Thực hiện theo hướng dẫn từng bước của chúng tôi để có kết quả tối ưu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

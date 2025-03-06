@@ -3,10 +3,16 @@ title: Dostosuj współczynnik proporcji kodu kreskowego Aztec za pomocą Aspose
 linktitle: Dostosowywanie proporcji Azteków
 second_title: Aspose.BarCode .NET API
 description: Dowiedz się, jak dostosować proporcje kodu kreskowego Aztec za pomocą Aspose.BarCode dla .NET. Twórz unikalne, elastyczne kody kreskowe dla aplikacji .NET.
-type: docs
 weight: 10
 url: /pl/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj współczynnik proporcji kodu kreskowego Aztec za pomocą Aspose.BarCode dla .NET
+
 tym samouczku zajmiemy się dostosowywaniem proporcji kodów kreskowych Aztec za pomocą Aspose.BarCode dla .NET. Kody kreskowe Aztec to dwuwymiarowe kody kreskowe powszechnie używane do kodowania danych, a dzięki Aspose.BarCode możesz łatwo tworzyć i dostosowywać te kody kreskowe do swoich specyficznych wymagań.
 
 ## Warunki wstępne
@@ -108,3 +114,9 @@ O4: Możesz używać Aspose.BarCode dla .NET w aplikacjach internetowych, włąc
 ### P5: Gdzie mogę uzyskać tymczasową licencję na Aspose.BarCode dla .NET?
 
 Odpowiedź 5: Jeśli potrzebujesz tymczasowej licencji do celów testowania lub oceny, możesz ją uzyskać od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การกำหนดค่าแถบข้อมูล UPC-A คู
 linktitle: การกำหนดค่าแถบข้อมูล UPC-A คูปอง GS1
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้การกำหนดค่า Databar UPC-A ของคูปอง GS1 ด้วย Aspose.BarCode สำหรับ .NET สร้างบาร์โค้ดได้อย่างง่ายดาย เริ่มตอนนี้เลย!
-type: docs
 weight: 13
 url: /th/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าแถบข้อมูล UPC-A คูปอง GS1
+
 
 ## การแนะนำ
 
@@ -86,3 +92,10 @@ GS1 Coupon UPC-A Databar เป็นมาตรฐานบาร์โค้�
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ .NET ได้ที่ไหน
  สำหรับความช่วยเหลือทางเทคนิคหรือข้อสงสัย คุณสามารถไปที่[Aspose.BarCode สำหรับฟอรัมสนับสนุน .NET](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

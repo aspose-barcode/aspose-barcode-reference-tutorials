@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 產生 Aztec 錯誤條碼
 linktitle: 阿茲特克錯誤等級範例
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 產生具有不同錯誤等級的 Aztec 錯誤條碼。條碼建立綜合指南。
-type: docs
 weight: 13
 url: /zh-hant/net/aztec-barcode-encoding/aztec-error-level-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 產生 Aztec 錯誤條碼
+
 在本逐步教程中，我們將深入研究使用 Aspose.BarCode for .NET 產生條碼的世界。 Aspose.BarCode 是一個功能強大的函式庫，可讓您建立和識別一維和二維條碼。本文將引導您完成產生具有不同糾錯等級的 Aztec 錯誤條碼的過程。我們將把每個範例分解為多個步驟，以確保清晰、全面的理解。
 
 ## 先決條件
@@ -102,3 +108,9 @@ A3：是的，Aspose.BarCode for .NET 支援多種條碼格式，包括 QR 碼�
 ### Q5：在哪裡可以找到 Aspose.BarCode for .NET 的文件？
 
  A5：您可以存取 Aspose.BarCode for .NET 的綜合文檔[這裡](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

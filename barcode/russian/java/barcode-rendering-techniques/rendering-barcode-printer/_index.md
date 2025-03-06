@@ -3,10 +3,16 @@ title: Отображение штрих-кода на принтере в Java
 linktitle: Отображение штрих-кода на принтере
 second_title: API Aspose.BarCode Java
 description: Легко создавайте и отображайте штрих-коды на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 12
 url: /ru/java/barcode-rendering-techniques/rendering-barcode-printer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Отображение штрих-кода на принтере в Java
+
 
 ## Введение
 
@@ -109,3 +115,10 @@ f.setVisible(true);
 ### Доступна ли бесплатная пробная версия Aspose.BarCode?
  Да, вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

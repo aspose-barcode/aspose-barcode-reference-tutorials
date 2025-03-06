@@ -3,10 +3,16 @@ title: Mengambil dan Mengenali Barcode di Java
 linktitle: Mengambil dan Mengenali Barcode
 second_title: Aspose.BarCode Java API
 description: Integrasikan Aspose.BarCode untuk Java dengan mudah - ambil dan kenali kode batang dari database. Unduh sekarang untuk pengalaman integrasi kode batang yang lancar.
-type: docs
 weight: 11
 url: /id/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengambil dan Mengenali Barcode di Java
+
 
 ## Perkenalan
 
@@ -120,3 +126,10 @@ Ya, Aspose.BarCode dirancang untuk menangani aplikasi berskala besar, memberikan
 
 ### Apakah lisensi sementara tersedia untuk tujuan pengujian?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

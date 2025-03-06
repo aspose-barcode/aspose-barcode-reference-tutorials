@@ -3,10 +3,16 @@ title: 一維條碼類型
 linktitle: 一維條碼類型
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode 在 .NET 中建立各種一維條碼。條碼產生和自訂的逐步指南。
-type: docs
 weight: 25
 url: /zh-hant/net/one-dimensional-barcode-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一維條碼類型
+
 
 ## 介紹
 
@@ -78,3 +84,9 @@ url: /zh-hant/net/one-dimensional-barcode-types/
 在本教程系列中，我們深入研究了一維條碼類型的世界，重點關注它們的配置和自訂。使用 Aspose.BarCode for .NET，流程變得簡單，確保您可以建立適合您需求的條碼。因此，無論您是經驗豐富的開發人員還是新手，這些教學課程都將幫助您在 .NET 專案中利用一維條碼的強大功能。立即開始，釋放條碼技術的潛力！
 
 透過本文，您不僅將獲得有關各種一維條碼類型的知識，而且還有信心在您的專案中實施它們。快樂編碼！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

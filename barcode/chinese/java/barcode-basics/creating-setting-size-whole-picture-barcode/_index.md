@@ -3,10 +3,16 @@ title: 在Java中使用条形码创建整张图片并设置大小
 linktitle: 使用条形码创建和设置整张图片的尺寸
 second_title: Aspose.BarCode Java API
 description: 探索使用 Aspose.BarCode 在 Java 中创建和设置整个图片的大小。轻松定制尺寸、编码和外观。
-type: docs
 weight: 11
 url: /zh/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Java中使用条形码创建整张图片并设置大小
+
 ## 介绍
 
 在 Java 开发领域，将动态条形码合并到应用程序中的需求至关重要。 Aspose.BarCode for Java 是一个功能强大的工具，可以简化此过程，提供多功能性和易用性。本教程将指导您完成条形码的创建和自定义，重点介绍一个实际示例 - 使用条形码设置整个图像的尺寸。
@@ -112,3 +118,9 @@ ImageIO.write(img, "png", outputfile);
 ### Q5：是否可以选择临时许可证？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

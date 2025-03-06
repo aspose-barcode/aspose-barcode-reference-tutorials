@@ -3,10 +3,16 @@ title: عرض المجموع الاختباري دائمًا في Java
 linktitle: عرض المجموع الاختباري دائمًا
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية باستخدام Aspose.BarCode لـ Java بسهولة. تعرف على كيفية عرض المجاميع الاختبارية دائمًا لتحسين تكامل البيانات في هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/checksum-and-validation/always-showing-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض المجموع الاختباري دائمًا في Java
+
 
 ## مقدمة
 
@@ -90,3 +96,10 @@ generator.save(dataDir + "checksum.jpg");
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode لـ Java؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

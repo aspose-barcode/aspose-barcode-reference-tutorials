@@ -3,10 +3,16 @@ title: Generera Australia Post Streckkod i Java
 linktitle: Genererar Australiens poststreckkod
 second_title: Aspose.BarCode Java API
 description: Generera streckkoder från Australien utan ansträngning i Java med Aspose.BarCode. Följ vår steg-för-steg handledning för sömlös integration.
-type: docs
 weight: 12
 url: /sv/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generera Australia Post Streckkod i Java
+
 
 ## Introduktion
 
@@ -88,3 +94,9 @@ Absolut! Aspose.BarCode ger omfattande anpassningsalternativ för streckkodsutse
 
 ### Hur får jag en tillfällig licens för Aspose.BarCode?
  Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

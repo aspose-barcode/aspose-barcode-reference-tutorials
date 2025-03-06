@@ -3,10 +3,16 @@ title: Văn bản và Kiểu dáng
 linktitle: Văn bản và Kiểu dáng
 second_title: API Java Aspose.BarCode
 description: Dễ dàng nâng cao hình ảnh mã vạch trong Java với Aspose.BarCode. Tìm hiểu cách thêm chú thích để cải thiện trải nghiệm người dùng. Tùy chỉnh văn bản mã trong mã vạch động.
-type: docs
 weight: 25
 url: /vi/java/text-and-styling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Văn bản và Kiểu dáng
+
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tận dụng Aspose.BarCode cho Java để nâng cao hình ảnh mã vạch và tùy chỉnh văn bản mã một cách hiệu quả. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này sẽ giúp bạn tạo mã vạch động một cách dễ dàng.
 
@@ -37,3 +43,9 @@ Tạo mã vạch động trong Java một cách dễ dàng với Aspose.BarCode.
 Tạo mã vạch động dễ dàng trong Java với Aspose.BarCode. Làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh văn bản mã và nâng cao chức năng ứng dụng của bạn.
 ### [Đặt văn bản mã trong Java](./setting-code-text/)
 Tạo mã vạch dễ dàng trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh văn bản mã hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

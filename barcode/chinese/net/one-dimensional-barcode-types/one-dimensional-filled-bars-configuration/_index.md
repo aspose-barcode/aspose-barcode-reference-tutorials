@@ -3,10 +3,16 @@ title: 一维填充条配置
 linktitle: 一维填充条配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 在 .NET 中生成条形码。这个综合教程涵盖了从导入命名空间到创建一维条形码的所有内容。
-type: docs
 weight: 20
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一维填充条配置
+
 
 您是否希望在 .NET 应用程序中生成专业且可定制的条形码？别再犹豫了！ Aspose.BarCode for .NET 可以简化您的条形码创建过程，提供多种功能和自定义选项来满足您的特定需求。在这个综合教程中，我们将引导您了解使用 Aspose.BarCode for .NET 的基础知识，从导入命名空间到生成一维填充条。让我们开始吧！
 
@@ -99,3 +105,9 @@ Aspose.BarCode for .NET 支持多种条形码格式，包括 Code128、QR Code�
 
 ### 我可以购买 Aspose.BarCode for .NET 的临时许可证吗？
 是的，您可以从以下地址获得临时许可证[这个链接](https://purchase.aspose.com/temporary-license/)，允许您在有限的时间内使用图书馆。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

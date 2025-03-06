@@ -3,10 +3,16 @@ title: Aspose.BarCode ile Java'da Barkod Görüntüsü için Boyut Biriminin Aya
 linktitle: Barkod Görüntüsü için Boyut Biriminin Ayarlanması
 second_title: Aspose.BarCode Java API'si
 description: Barkod görüntüleri için kesin boyut birimleri ayarlama konusunda Aspose.BarCode for Java'nın gücünü keşfedin. Zahmetsiz entegrasyon, güçlü performans ve sonsuz özelleştirme olanakları.
-type: docs
 weight: 15
 url: /tr/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode ile Java'da Barkod Görüntüsü için Boyut Biriminin Ayarlanması
+
 ## giriiş
 
 Aspose.BarCode for Java, geliştiricilerin barkod oluşturma ve tanıma özelliklerini Java uygulamalarına zahmetsizce entegre etmelerine olanak tanıyan güçlü bir Java API'sidir. İster gelişmiş bir envanter sistemi, ister bir perakende uygulaması veya barkod işlevselliği gerektiren başka bir yazılım geliştiriyor olun, Aspose.BarCode güvenilir ve verimli bir seçim olduğunu kanıtlıyor.
@@ -100,3 +106,9 @@ A2: Kesinlikle. Aspose.BarCode for Java, barkod görüntülerinin görünümün�
 ### S5: Aspose.BarCode for Java'da desteklenen barkod sembolleri nelerdir?
 
 Cevap5: Aspose.BarCode for Java, CODE_128, QR_CODE, UPC_A ve çok daha fazlasını içeren çok çeşitli barkod sembolojilerini destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.BarCode cho Java
 linktitle: Hướng dẫn Aspose.BarCode cho Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Nâng cao kỹ năng mã hóa Java của bạn với các hướng dẫn Aspose.BarCode. Mở khóa khả năng tích hợp, tùy chỉnh và nhận dạng liền mạch. Hãy đi sâu vào sức mạnh của mã vạch ngay hôm nay.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.BarCode cho Java
+
 ## Giới thiệu
 
 Mở khóa toàn bộ tiềm năng tích hợp mã vạch trong các ứng dụng Java của bạn với Hướng dẫn toàn diện & Ví dụ về Aspose.BarCode cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này bao gồm mọi thứ bạn cần biết để nắm vững nghệ thuật thao tác mã vạch.
@@ -74,3 +79,9 @@ Khám phá thao tác hình ảnh mã vạch Java với hướng dẫn Aspose.Bar
 Dễ dàng tạo và tích hợp mã vạch trong Java với Aspose.BarCode. Khám phá hướng dẫn từng bước để hiển thị mã vạch cho đồ họa, hình ảnh, máy in và máy chủ.
 ### [Cài đặt và tối ưu hóa nâng cao](./advanced-settings-and-optimization/)
 Mở khóa tiềm năng tạo mã vạch Java với Aspose.BarCode. Định cấu hình kích thước tùy chỉnh, tối ưu hóa độ phân giải hình ảnh và cài đặt mã vạch chính để tích hợp liền mạch. Nâng cao ứng dụng Java của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

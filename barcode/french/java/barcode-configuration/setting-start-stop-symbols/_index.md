@@ -3,10 +3,16 @@ title: Définition des symboles de démarrage et d'arrêt en Java
 linktitle: Définition des symboles de démarrage et d'arrêt
 second_title: API Java Aspose.BarCode
 description: Générez des codes-barres Codabar personnalisés avec des symboles de début et d'arrêt spécifiques en Java à l'aide d'Aspose.BarCode. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 15
 url: /fr/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition des symboles de démarrage et d'arrêt en Java
+
 
 ## Introduction
 
@@ -104,3 +110,10 @@ Toutes nos félicitations! Vous avez appris avec succès comment définir des sy
 ### Existe-t-il d'autres symbologies de codes-barres prises en charge par Aspose.BarCode pour Java ?
 Oui, Aspose.BarCode prend en charge un large éventail de symbologies de codes-barres. Reportez-vous à la documentation pour une liste complète.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

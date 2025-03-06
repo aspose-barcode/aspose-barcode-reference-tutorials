@@ -3,10 +3,16 @@ title: تكوين نص كود DataMatrix باستخدام Aspose.BarCode لـ .N
 linktitle: DataMatrix تكوين نص التعليمات البرمجية الموسعة
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تكوين نص التعليمات البرمجية الممتد لـ DataMatrix باستخدام Aspose.BarCode لـ .NET. إنشاء الرموز الشريطية والتعرف عليها ودمجها في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 17
 url: /ar/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين نص كود DataMatrix باستخدام Aspose.BarCode لـ .NET
+
 في عالم تطوير البرمجيات، أصبح تكامل الباركود ضرورة محورية لمختلف التطبيقات. بمساعدة مكتبات مثل Aspose.BarCode for .NET، يمكنك بسهولة إنشاء الرموز الشريطية والتعرف عليها في تطبيقات .NET الخاصة بك. سيرشدك هذا البرنامج التعليمي خلال عملية تكوين نص التعليمات البرمجية الممتد لـ DataMatrix باستخدام Aspose.BarCode لـ .NET. قبل أن نتعمق في التفاصيل، دعونا نلقي نظرة على المتطلبات الأساسية لهذا الدليل.
 
 ## المتطلبات الأساسية
@@ -128,3 +134,9 @@ A2: يمكنك الوصول إلى وثائق Aspose.BarCode لـ .NET[هنا](h
 ### س5: أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.BarCode for .NET؟
 
  ج5: للحصول على أي دعم أو أسئلة تتعلق بـ Aspose.BarCode for .NET، يمكنك زيارة منتدى Aspose.BarCode[هنا](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

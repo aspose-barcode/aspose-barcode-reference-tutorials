@@ -3,10 +3,16 @@ title: 바코드를 Java의 그래픽 객체로 렌더링
 linktitle: 바코드를 그래픽 개체로 렌더링
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 손쉽게 바코드를 생성하세요. 원활한 통합을 위해 이 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 바코드를 Java의 그래픽 객체로 렌더링
+
 
 ## 소개
 
@@ -111,3 +117,10 @@ class MyBarCode extends java.awt.Canvas {
 
 ### 문제가 발생하면 어디서 도움을 받을 수 있나요?
  Aspose.BarCode 포럼을 방문하세요.[여기](https://forum.aspose.com/c/barcode/13) 지원을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

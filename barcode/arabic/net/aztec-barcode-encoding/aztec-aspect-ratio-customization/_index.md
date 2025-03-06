@@ -3,10 +3,16 @@ title: قم بتخصيص نسبة العرض إلى الارتفاع للرمز 
 linktitle: تخصيص نسبة الارتفاع إلى الارتفاع في الأزتيك
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تخصيص نسب العرض إلى الارتفاع للرمز الشريطي Aztec باستخدام Aspose.BarCode لـ .NET. قم بإنشاء رموز شريطية فريدة ومرنة لتطبيقات .NET الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتخصيص نسبة العرض إلى الارتفاع للرمز الشريطي Aztec باستخدام Aspose.BarCode لـ .NET
+
 في هذا البرنامج التعليمي، سوف نتعمق في تخصيص نسبة العرض إلى الارتفاع للرموز الشريطية Aztec باستخدام Aspose.BarCode لـ .NET. الرموز الشريطية Aztec هي رموز شريطية ثنائية الأبعاد تُستخدم بشكل شائع لتشفير البيانات، ومع Aspose.BarCode، يمكنك بسهولة إنشاء هذه الرموز الشريطية وتخصيصها لتناسب متطلباتك المحددة.
 
 ## المتطلبات الأساسية
@@ -108,3 +114,9 @@ A1: يتم استخدام الرمز الشريطي Aztec بشكل شائع لت
 ### س5: أين يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode لـ .NET؟
 
 ج5: إذا كنت بحاجة إلى ترخيص مؤقت لأغراض الاختبار أو التقييم، فيمكنك الحصول عليه من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo mã vạch bưu điện Úc bằng Java
 linktitle: Tạo mã vạch bưu điện Úc
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch bưu chính Australia dễ dàng bằng Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã vạch bưu điện Úc bằng Java
+
 
 ## Giới thiệu
 
@@ -88,3 +94,9 @@ Tuyệt đối! Aspose.BarCode cung cấp các tùy chọn tùy chỉnh mở r�
 
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.BarCode?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

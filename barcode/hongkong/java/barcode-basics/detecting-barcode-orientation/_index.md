@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中偵測條碼方向
 linktitle: 偵測條碼方向
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode for Java 透過條碼識別增強您的 Java 應用程式。按照我們的逐步指南輕鬆偵測條碼方向。
-type: docs
 weight: 13
 url: /zh-hant/java/barcode-basics/detecting-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中偵測條碼方向
+
 ## 介紹
 
 您是否希望透過強大的條碼識別功能來增強您的 Java 應用程式？對於尋求將條碼讀取功能無縫整合到其專案中的開發人員來說，Aspose.BarCode for Java 是完美的解決方案。在本逐步指南中，我們將重點放在使用 Aspose.BarCode 來偵測 Java 中的條碼方向。
@@ -86,3 +92,9 @@ A3：從以下機構取得臨時許可證[這裡](https://purchase.aspose.com/te
 ### Q5：有針對不同條碼操作的範例程式碼嗎？
 
  A5：探索[Aspose.BarCode 文檔](https://reference.aspose.com/barcode/java/)取得全面的程式碼範例和範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

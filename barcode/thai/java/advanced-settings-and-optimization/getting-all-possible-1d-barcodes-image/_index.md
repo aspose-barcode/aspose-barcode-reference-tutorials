@@ -3,10 +3,16 @@ title: รับบาร์โค้ด 1D ที่เป็นไปได้
 linktitle: รับบาร์โค้ด 1D ที่เป็นไปได้ทั้งหมดจากรูปภาพ
 second_title: Aspose.BarCode Java API
 description: สำรวจพลังของ Aspose.BarCode สำหรับ Java ในการถอดรหัสบาร์โค้ด 1D ได้อย่างง่ายดาย ดาวน์โหลดเดี๋ยวนี้เพื่อการผสานรวมเข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
-type: docs
 weight: 20
 url: /th/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับบาร์โค้ด 1D ที่เป็นไปได้ทั้งหมดจากรูปภาพใน Java ด้วย Aspose.BarCode
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.BarCode สำหรับ Java เครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาสามารถถอดรหัสและอ่านบาร์โค้ด 1D ต่างๆ ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการรับบาร์โค้ด 1D ที่เป็นไปได้ทั้งหมดจากรูปภาพโดยใช้ Aspose.BarCode สำหรับ Java ในตอนท้ายของคู่มือนี้ คุณจะมีความเข้าใจอย่างครอบคลุมเกี่ยวกับวิธีการใช้ประโยชน์จากไลบรารี Java นี้สำหรับการจดจำบาร์โค้ด
@@ -93,3 +99,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 ### คำถามที่ 5: มีเวอร์ชันทดลองใช้งานฟรีหรือไม่
 
  A5: ใช่ คุณสามารถสำรวจเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/) เพื่อสัมผัสความสามารถของ Aspose.BarCode สำหรับ Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

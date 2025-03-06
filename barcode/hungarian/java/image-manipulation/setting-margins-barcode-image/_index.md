@@ -3,10 +3,16 @@ title: Margók beállítása vonalkód-képhez Java nyelven
 linktitle: Margók beállítása vonalkód képhez
 second_title: Aspose.BarCode Java API
 description: Ismerje meg, hogyan állíthat be margót a vonalkódos képekhez Java nyelven az Aspose.BarCode segítségével. Szabja testre a térközt az alkalmazásba való zökkenőmentes integráció érdekében
-type: docs
 weight: 11
 url: /hu/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Margók beállítása vonalkód-képhez Java nyelven
+
 
 ## Bevezetés
 
@@ -99,3 +105,10 @@ Az Aspose.BarCode elsősorban Java-hoz készült, de vannak verziók más progra
 
 ### Hogyan vásárolhatom meg az Aspose.BarCode for Java teljes verzióját?
  Megvásárolhatja az Aspose.BarCode for Java teljes verzióját a[vásárlási oldal](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

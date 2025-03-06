@@ -3,10 +3,16 @@ title: Кодирование DataMatrix в байтах с помощью Aspos
 linktitle: Режим кодирования DataMatrix (байты)
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как кодировать данные в формате DataMatrix, используя режим Bytes с помощью Aspose.BarCode для .NET. Следуйте нашему пошаговому руководству по созданию и распознаванию штрих-кода.
-type: docs
 weight: 15
 url: /ru/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Кодирование DataMatrix в байтах с помощью Aspose.BarCode для .NET
+
 В мире генерации и распознавания штрих-кодов Aspose.BarCode для .NET представляет собой мощный и универсальный инструмент. Благодаря надежному набору функций и возможностей он позволяет разработчикам легко создавать, манипулировать и считывать штрих-коды. Среди множества предлагаемых режимов кодирования режим кодирования DataMatrix с использованием байтов является выдающейся функцией. В этом пошаговом руководстве мы покажем вам процесс использования Aspose.BarCode для .NET для кодирования данных в формате DataMatrix с использованием режима Bytes.
 
 ## Предварительные условия
@@ -121,3 +127,9 @@ A1: Режим кодирования DataMatrix — это метод, испо
 ### Вопрос 5: Могу ли я использовать временную лицензию на Aspose.BarCode для .NET?
 
  О5: Да, вы можете получить временную лицензию на Aspose.BarCode для .NET на сайте[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

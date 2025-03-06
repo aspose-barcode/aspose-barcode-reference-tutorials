@@ -3,10 +3,16 @@ title: Reconocimiento de códigos de barras de PDF en Java
 linktitle: Reconocimiento de códigos de barras desde PDF
 second_title: API de Java Aspose.BarCode
 description: Aprenda a reconocer códigos de barras de archivos PDF en Java usando Aspose.BarCode. Guía paso a paso con ejemplos de código. ¡Aumente la eficiencia de su gestión de datos!
-type: docs
 weight: 11
 url: /es/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reconocimiento de códigos de barras de PDF en Java
+
 
 ## Introducción
 
@@ -113,3 +119,10 @@ Aspose.BarCode admite una amplia gama de tipos de códigos de barras. Consulte l
 
 ### P: ¿Dónde puedo buscar soporte o hacer preguntas sobre Aspose.BarCode para Java?
  Visite Aspose.BarCode[foro](https://forum.aspose.com/c/barcode/13) para apoyo y discusiones.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

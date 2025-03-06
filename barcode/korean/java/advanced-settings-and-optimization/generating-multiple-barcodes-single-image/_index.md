@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 Java의 단일 이미지에 여러 바코�
 linktitle: 단일 이미지에 여러 바코드 생성
 second_title: Aspose.BarCode 자바 API
 description: Java용 Aspose.BarCode를 사용하여 단일 이미지에 여러 바코드를 손쉽게 생성하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 19
 url: /ko/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 Java의 단일 이미지에 여러 바코드 생성
+
 ## 소개
 
 Java 프로그래밍의 역동적인 세계에서 바코드를 효율적으로 생성하고 관리하는 것은 다양한 애플리케이션에 매우 중요합니다. Java용 Aspose.BarCode는 이 프로세스를 단순화하여 개발자가 단일 이미지에 여러 바코드를 원활하게 생성할 수 있도록 합니다. 이 튜토리얼은 Java 환경에서 Aspose.BarCode를 사용하여 이를 달성하는 단계를 안내합니다.
@@ -139,3 +145,9 @@ A2: 물론이죠! Aspose.BarCode는 이 튜토리얼에서 설명한 대로 CODE
 ### Q5: Aspose.BarCode에 사용할 수 있는 평가판 옵션이 있습니까?
 
  A5: 물론이죠! 무료 평가판 라이선스를 획득하여 Aspose.BarCode의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

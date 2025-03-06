@@ -3,10 +3,16 @@ title: Lectura de códigos de barras DataMatrix
 linktitle: Lectura de códigos de barras DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Genere y lea códigos de barras DataMatrix sin esfuerzo con Aspose.BarCode para .NET. Sumérgete en la programación del lector DataMatrix y la configuración de anexos estructurados.
-type: docs
 weight: 31
 url: /es/net/datamatrix-barcode-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lectura de códigos de barras DataMatrix
+
 
 Si está buscando profundizar en el mundo de la lectura de códigos de barras DataMatrix y liberar todo el potencial de Aspose.BarCode para .NET, ha llegado al lugar correcto. En esta guía completa, lo guiaremos a través de tutoriales esenciales que cubren la programación del lector DataMatrix, la configuración de anexos estructurados y el arte de generar códigos de barras DataMatrix en sus aplicaciones .NET.
 
@@ -30,3 +36,9 @@ Explore la programación del lector DataMatrix con Aspose.BarCode para .NET. Apr
 Aprenda a crear y leer la configuración de anexos estructurados de DataMatrix en .NET usando Aspose.BarCode para una organización de datos de alta eficiencia.
 ### [Generar códigos de barras DataMatrix](./datamatrix-versions/)
 Aprenda a generar códigos de barras DataMatrix en .NET usando Aspose.BarCode para .NET. Dimensiones personalizadas, soporte ECC y más.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

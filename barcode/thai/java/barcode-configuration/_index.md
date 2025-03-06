@@ -3,10 +3,16 @@ title: การกำหนดค่าบาร์โค้ด
 linktitle: การกำหนดค่าบาร์โค้ด
 second_title: Aspose.BarCode Java API
 description: สร้างบาร์โค้ดแบบกำหนดเองใน Java ได้อย่างง่ายดายด้วย Aspose.BarCode เพิ่มประสิทธิภาพและความเป็นมิตรกับนักพัฒนาด้วยบทช่วยสอนที่หลากหลายของเรา
-type: docs
 weight: 24
 url: /th/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าบาร์โค้ด
+
 
 ยินดีต้อนรับสู่โลกแห่งการสร้างบาร์โค้ดที่ไร้รอยต่อใน Java! ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทช่วยสอนการกำหนดค่า Aspose.BarCode ของเราพร้อมให้คำแนะนำคุณเกี่ยวกับความซับซ้อนของการกำหนดค่าบาร์โค้ดได้อย่างง่ายดาย
 
@@ -60,3 +66,9 @@ url: /th/java/barcode-configuration/
 เรียนรู้วิธีสร้างบาร์โค้ดแบบไดนามิกใน Java โดยใช้ Aspose.BarCode คำแนะนำทีละขั้นตอนสำหรับการเสริมข้อมูลด้วยสัญลักษณ์ EAN_13
 ### [การกำหนดค่าอัตราส่วน Wide-Narrow ใน Java](./configuring-wide-narrow-ratio/)
 เรียนรู้วิธีกำหนดค่าอัตราส่วนกว้าง-แคบในบาร์โค้ด Java โดยใช้ Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการปรับแต่งที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

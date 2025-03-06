@@ -3,10 +3,16 @@ title: Kompakte PDF417-Kodierung
 linktitle: Kompakte PDF417-Kodierung
 second_title: Aspose.BarCode .NET-API
 description: Generieren Sie mühelos kompakte PDF417-Barcodes mit Aspose.BarCode für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Codierung, komplett mit Codebeispielen.
-type: docs
 weight: 29
 url: /de/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompakte PDF417-Kodierung
+
 
 ## Einführung
 
@@ -33,3 +39,9 @@ Zusammenfassend lässt sich sagen, dass die Beherrschung der Compact PDF417-Kodi
 ## Kompakte Tutorials zur PDF417-Kodierung
 ### [Erstellen kompakter PDF417-Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET kompakte PDF417-Barcodes generieren. Umfassende Anleitung mit Schritt-für-Schritt-Anleitungen und Codebeispielen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

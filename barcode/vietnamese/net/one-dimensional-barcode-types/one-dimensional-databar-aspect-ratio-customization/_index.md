@@ -3,10 +3,16 @@ title: Tùy chỉnh tỷ lệ khung hình của thanh dữ liệu một chiều
 linktitle: Tùy chỉnh tỷ lệ khung hình của thanh dữ liệu một chiều
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tùy chỉnh tỷ lệ khung hình DataBar một chiều trong .NET bằng Aspose.BarCode. Nâng cao độ chính xác và thiết kế mã vạch.
-type: docs
 weight: 16
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh tỷ lệ khung hình của thanh dữ liệu một chiều
+
 
 Trong thế giới mã vạch, độ chính xác và khả năng tùy chỉnh là chìa khóa để đạt được kết quả mong muốn. Là một người viết SEO có kinh nghiệm, tôi ở đây để hướng dẫn bạn quy trình tùy chỉnh tỷ lệ khung hình của DataBar một chiều bằng cách sử dụng Aspose.BarCode cho .NET. Chúng tôi sẽ chia quy trình phức tạp này thành các bước có thể quản lý được, đảm bảo rằng bạn nắm bắt khái niệm một cách kỹ lưỡng. Vì vậy, hãy đi sâu vào!
 
@@ -116,3 +122,10 @@ Mặc dù bạn có thể điều chỉnh tỷ lệ khung hình nhưng những t
  Nếu bạn cần giấy phép tạm thời để thử nghiệm hoặc đánh giá, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

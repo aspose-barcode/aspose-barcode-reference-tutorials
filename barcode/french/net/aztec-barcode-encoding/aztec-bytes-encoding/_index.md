@@ -3,10 +3,16 @@ title: Codage d'octets aztèques avec Aspose.BarCode pour .NET
 linktitle: Codage des octets aztèques
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment effectuer le codage d'octets aztèques avec Aspose.BarCode pour .NET. Guide étape par étape, prérequis et exemples de code inclus.
-type: docs
 weight: 11
 url: /fr/net/aztec-barcode-encoding/aztec-bytes-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codage d'octets aztèques avec Aspose.BarCode pour .NET
+
 Dans ce didacticiel complet, nous explorerons comment effectuer le codage d'octets aztèques à l'aide d'Aspose.BarCode pour .NET. Le codage aztèque est une méthode populaire pour coder diverses données dans un code-barres bidimensionnel. Nous vous guiderons étape par étape tout au long du processus, en commençant par les prérequis et l'importation des espaces de noms. Alors, commençons!
 
 ## Conditions préalables
@@ -119,3 +125,9 @@ A4 : Oui, vous pouvez utiliser Aspose.BarCode pour des applications personnelle
 ### Q5 : Aspose.BarCode prend-il en charge d'autres types de codes-barres ?
 
 A5 : Oui, Aspose.BarCode prend en charge un large éventail de types de codes-barres, notamment les codes QR, le code 128, l'UPC et bien d'autres.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

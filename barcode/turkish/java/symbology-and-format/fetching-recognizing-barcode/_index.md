@@ -3,10 +3,16 @@ title: Java'da Barkod Alma ve Tanıma
 linktitle: Barkodu Alma ve Tanıma
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode for Java'yı zahmetsizce entegre edin - bir veritabanından barkodları alın ve tanıyın. Sorunsuz bir barkod entegrasyon deneyimi için hemen indirin.
-type: docs
 weight: 11
 url: /tr/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Barkod Alma ve Tanıma
+
 
 ## giriiş
 
@@ -120,3 +126,10 @@ Evet, Aspose.BarCode büyük ölçekli uygulamaları yönetmek üzere tasarlanm�
 
 ### Test amaçlı geçici lisanslar mevcut mu?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

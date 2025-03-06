@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中配置自定义尺寸的条形码
 linktitle: 配置条形码的自定义尺寸
 second_title: Aspose.BarCode Java API
 description: 探索使用 Aspose.BarCode 在 Java 中配置自定义尺寸条形码的简单性。请按照我们的分步教程进行精确配置。
-type: docs
 weight: 10
 url: /zh/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中配置自定义尺寸的条形码
+
 ## 介绍
 
 如果您是一名 Java 开发人员，希望无缝配置自定义尺寸的条形码，Aspose.BarCode for Java 是您的首选解决方案。本教程将引导您完成为条形码配置自定义尺寸的过程，确保应用程序的灵活性和精度。
@@ -112,3 +118,9 @@ A1：是的，Aspose.BarCode for Java 支持各种符号系统类型，允许您
 ### Q5：是否有可用的临时许可证选项？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

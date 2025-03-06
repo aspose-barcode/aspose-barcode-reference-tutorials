@@ -3,10 +3,16 @@ title: 阿兹特克条形码编码
 linktitle: 阿兹特克条形码编码
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 释放 Aztec 条形码编码的潜力。自定义宽高比、创建文本编码的 Aztec 代码并掌握符号模式。
-type: docs
 weight: 28
 url: /zh/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 阿兹特克条形码编码
+
 
 ## 介绍
 
@@ -44,3 +50,9 @@ url: /zh/net/aztec-barcode-encoding/
 了解如何使用 Aspose.BarCode for .NET 生成具有不同错误级别的 Aztec 错误条形码。条形码创建综合指南。
 ### [掌握阿兹特克符号模式](./aztec-symbol-mode-example/)
 探索 Aspose.BarCode for .NET 中的 Aztec 符号模式，并了解如何轻松生成通用条形码。在这个综合教程中亲身体验自动、全范围、紧凑和符文模式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

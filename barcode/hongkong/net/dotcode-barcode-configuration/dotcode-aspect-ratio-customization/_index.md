@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 自訂 DotCode 縱橫比
 linktitle: DotCode 縱橫比定制
 second_title: Aspose.BarCode .NET API
 description: 了解使用 Aspose.BarCode for .NET 自訂 DotCode 條碼長寬比。輕鬆為您的應用程式建立客製化條碼。
-type: docs
 weight: 10
 url: /zh-hant/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 自訂 DotCode 縱橫比
+
 ## 介紹
 
 如果您是 .NET 開發人員，希望在應用程式中建立高度可自訂的條碼，那麼 Aspose.BarCode for .NET 是完美的解決方案。在本教程中，我們將深入研究其高級功能之一 - 自訂 DotCode 寬高比。 DotCode 條碼廣泛應用於醫療保健、郵政服務和製造業等行業，用於編碼資訊。透過調整縱橫比，您可以根據您的特定需求自訂條碼。讓我們開始吧！
@@ -97,3 +103,9 @@ A4：是的，Aspose.BarCode for .NET 可以在 Web 和桌面應用程式中使�
 ### Q5：在哪裡可以找到有關 Aspose.BarCode for .NET 的更多資訊和文件？
 
 A5：您可以探索文檔[這裡](https://reference.aspose.com/barcode/net/)獲取全面的指導和範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

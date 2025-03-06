@@ -3,10 +3,16 @@ title: Dostosowywanie współczynnika proporcji DataMatrix za pomocą Aspose.Bar
 linktitle: Dostosowywanie współczynnika proporcji DataMatrix
 second_title: Aspose.BarCode .NET API
 description: Dowiedz się, jak dostosować współczynniki proporcji kodu kreskowego DataMatrix za pomocą Aspose.BarCode dla .NET. Przewodnik krok po kroku dotyczący generowania kodów kreskowych.
-type: docs
 weight: 10
 url: /pl/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosowywanie współczynnika proporcji DataMatrix za pomocą Aspose.BarCode dla .NET
+
 Czy chcesz generować kody kreskowe DataMatrix o niestandardowych proporcjach przy użyciu Aspose.BarCode dla .NET? Jesteś we właściwym miejscu. W tym samouczku krok po kroku pokażemy, jak to osiągnąć. Aspose.BarCode dla .NET to potężna biblioteka, która umożliwia łatwe tworzenie i manipulowanie kodami kreskowymi. Zaczniemy od przedstawienia wymagań wstępnych i przestrzeni nazw, których potrzebujesz, a następnie przejdziemy do przykładów.
 
 ## Warunki wstępne
@@ -86,3 +92,9 @@ O4: Tak, Aspose.BarCode dla .NET jest kompatybilny z różnymi wersjami .NET Fra
 ### P5: Czy mogę generować kody kreskowe w różnych formatach za pomocą Aspose.BarCode dla .NET?
 
 O5: Tak, Aspose.BarCode dla .NET obsługuje generowanie kodów kreskowych w różnych formatach, w tym PNG, JPEG i innych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

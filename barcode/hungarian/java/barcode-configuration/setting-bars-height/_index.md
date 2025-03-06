@@ -3,10 +3,16 @@ title: A rudak magasságának beállítása Java nyelven
 linktitle: A rudak magasságának beállítása
 second_title: Aspose.BarCode Java API
 description: Az Aspose.BarCode segítségével könnyedén generálhat és testreszabhat vonalkódokat Java nyelven. Állítsa be a sáv magasságát, válasszon típusokat, és javítsa alkalmazásai képességeit.
-type: docs
 weight: 14
 url: /hu/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A rudak magasságának beállítása Java nyelven
+
 
 ## Bevezetés
 
@@ -78,3 +84,10 @@ Biztosan! Az Aspose.BarCode támogatja a numerikus és alfanumerikus adatok kód
 ### Hol találok támogatást az Aspose.BarCode for Java számára?
  Látogassa meg az Aspose.BarCode fórumot[itt](https://forum.aspose.com/c/barcode/13) közösségi támogatásra és beszélgetésekre.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

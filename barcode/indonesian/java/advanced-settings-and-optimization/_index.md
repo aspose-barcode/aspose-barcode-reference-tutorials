@@ -3,10 +3,16 @@ title: Pengaturan dan Pengoptimalan Lanjutan
 linktitle: Pengaturan dan Pengoptimalan Lanjutan
 second_title: Aspose.BarCode Java API
 description: Buka potensi pembuatan kode batang Java dengan Aspose.BarCode. Konfigurasikan ukuran khusus, optimalkan resolusi gambar, dan pengaturan kode batang utama untuk integrasi yang lancar.
-type: docs
 weight: 29
 url: /id/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengaturan dan Pengoptimalan Lanjutan
+
 
 ## Perkenalan
 
@@ -86,3 +92,9 @@ Hasilkan beberapa kode batang pada satu gambar dengan mudah menggunakan Aspose.B
 Jelajahi kekuatan Aspose.BarCode untuk Java dalam mendekode kode batang 1D dengan mudah. Unduh sekarang untuk integrasi yang lancar ke dalam aplikasi Java Anda.
 ### [Mendapatkan Kualitas Pengenalan Barcode dalam Persen di Java](./getting-barcode-recognition-quality-percent/)
 Mendapatkan kualitas pengenalan barcode di Java dengan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk hasil optimal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

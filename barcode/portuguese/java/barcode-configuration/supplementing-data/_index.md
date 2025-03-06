@@ -3,10 +3,16 @@ title: Complementando Dados em Java
 linktitle: Suplementando Dados
 second_title: API Java Aspose.BarCode
 description: Aprenda como criar códigos de barras dinâmicos em Java usando Aspose.BarCode. Guia passo a passo para complementar dados com simbologia EAN_13.
-type: docs
 weight: 16
 url: /pt/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Complementando Dados em Java
+
 
 ## Introdução
 
@@ -96,3 +102,10 @@ Sim, você pode acessar uma versão de avaliação gratuita[aqui](https://releas
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

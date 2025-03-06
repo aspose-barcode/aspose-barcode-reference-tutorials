@@ -3,10 +3,16 @@ title: Bổ sung dữ liệu trong Java
 linktitle: Bổ sung dữ liệu
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách tạo mã vạch động trong Java bằng Aspose.BarCode. Hướng dẫn từng bước để bổ sung dữ liệu bằng mã vạch EAN_13.
-type: docs
 weight: 16
 url: /vi/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bổ sung dữ liệu trong Java
+
 
 ## Giới thiệu
 
@@ -96,3 +102,10 @@ Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](http
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

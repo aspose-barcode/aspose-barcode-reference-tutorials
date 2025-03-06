@@ -3,10 +3,16 @@ title: Nhận dạng mã vạch PDF417 có ký tự tiếng Trung trong Java
 linktitle: Nhận dạng mã vạch PDF417 có ký tự tiếng Trung
 second_title: API Java Aspose.BarCode
 description: Khám phá cách nhận dạng mã vạch PDF417 có ký tự tiếng Trung trong Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn toàn diện của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng mã vạch PDF417 có ký tự tiếng Trung trong Java
+
 
 ## Giới thiệu
 
@@ -89,3 +95,10 @@ Có, bạn có thể nhận được giấy phép tạm thời[đây](https://pu
 
 ### Tôi có thể tìm tài liệu ở đâu?
  Tài liệu có sẵn[đây](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

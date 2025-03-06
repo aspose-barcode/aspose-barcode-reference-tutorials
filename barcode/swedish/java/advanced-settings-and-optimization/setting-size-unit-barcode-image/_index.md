@@ -3,10 +3,16 @@ title: Ställa in storleksenhet för streckkodsbild i Java med Aspose.BarCode
 linktitle: Ställa in storleksenhet för streckkodsbild
 second_title: Aspose.BarCode Java API
 description: Upptäck kraften i Aspose.BarCode för Java när det gäller att ställa in exakta storleksenheter för streckkodsbilder. Enkel integration, robust prestanda och oändliga anpassningsmöjligheter.
-type: docs
 weight: 15
 url: /sv/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in storleksenhet för streckkodsbild i Java med Aspose.BarCode
+
 ## Introduktion
 
 Aspose.BarCode för Java är ett robust Java API som gör det möjligt för utvecklare att integrera streckkodsgenerering och -igenkänning i sina Java-applikationer utan ansträngning. Oavsett om du utvecklar ett sofistikerat inventeringssystem, en detaljhandelsapplikation eller någon annan programvara som kräver streckkodsfunktionalitet, visar Aspose.BarCode sig vara ett pålitligt och effektivt val.
@@ -100,3 +106,9 @@ A2: Absolut. Aspose.BarCode för Java erbjuder omfattande anpassningsalternativ,
 ### F5: Vilka är de streckkodssymboler som stöds i Aspose.BarCode för Java?
 
 S5: Aspose.BarCode för Java stöder ett brett utbud av streckkodssymboler, inklusive CODE_128, QR_CODE, UPC_A och många fler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

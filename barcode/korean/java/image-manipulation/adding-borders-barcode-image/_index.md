@@ -3,10 +3,16 @@ title: Java의 바코드 이미지에 테두리 추가
 linktitle: 바코드 이미지에 테두리 추가
 second_title: Aspose.BarCode 자바 API
 description: 사용자 정의 가능한 테두리를 추가하여 Aspose.BarCode를 사용하여 Java에서 바코드 이미지를 향상하세요. 시각적으로 매력적인 바코드 솔루션을 얻으려면 이 단계별 가이드를 따르십시오.
-type: docs
 weight: 10
 url: /ko/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 바코드 이미지에 테두리 추가
+
 
 ## 소개
 
@@ -122,3 +128,10 @@ bb.save(dataDir + "barcode-image-borders.jpg");
 
 ### Aspose.BarCode의 평가판 버전이 있습니까?
  예, Aspose.BarCode를 다운로드하여 기능을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

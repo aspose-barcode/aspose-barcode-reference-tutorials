@@ -3,10 +3,16 @@ title: 一維 Code 39 配置
 linktitle: 一維 Code 39 配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode 在 .NET 中產生一維 Code 39 條碼。開發人員的分步指南。
-type: docs
 weight: 11
 url: /zh-hant/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一維 Code 39 配置
+
 
 ## 介紹
 
@@ -72,3 +78,9 @@ gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 
 ### Q：我可以在哪裡獲得有關 Aspose.BarCode for .NET 的支援或提出問題？
 答：您可以在 Aspose.BarCode 論壇上找到問題的答案並尋求支援：[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

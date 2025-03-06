@@ -3,10 +3,16 @@ title: Java에서 빈 막대가 있는 바코드 생성
 linktitle: 빈 막대가 있는 바코드 생성
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 빈 막대가 있는 바코드를 손쉽게 생성하세요. 외관을 맞춤화하고 원활하게 통합하세요. 지금 튜토리얼을 살펴보세요!
-type: docs
 weight: 14
 url: /ko/java/image-manipulation/generating-barcode-empty-bars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 빈 막대가 있는 바코드 생성
+
 
 ## 소개
 
@@ -90,3 +96,9 @@ Java 애플리케이션에서 이 단계를 반복하면 Aspose.BarCode for Java
 
 ### Aspose.BarCode에 대한 자세한 문서는 어디서 찾을 수 있나요?
  포괄적인 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

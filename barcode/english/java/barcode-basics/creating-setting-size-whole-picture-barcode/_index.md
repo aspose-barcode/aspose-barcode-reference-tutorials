@@ -3,10 +3,16 @@ title: Creating and Setting Size for Whole Picture with Barcode in Java
 linktitle: Creating and Setting Size for Whole Picture with Barcode
 second_title: Aspose.BarCode Java API
 description: Explore creating and setting size for whole picture in Java with Aspose.BarCode. Customize size, encoding, and appearance effortlessly.
-type: docs
 weight: 11
 url: /java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating and Setting Size for Whole Picture with Barcode in Java
+
 ## Introduction
 
 In the realm of Java development, the need for incorporating dynamic barcodes into applications is paramount. Aspose.BarCode for Java is a powerful tool that simplifies this process, offering versatility and ease of use. This tutorial will guide you through the creation and customization of barcodes, focusing on a practical example – setting the size for the entire image with the barcode.
@@ -112,3 +118,10 @@ A4: You can purchase the library [here](https://purchase.aspose.com/buy).
 ### Q5: Is there an option for a temporary license?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

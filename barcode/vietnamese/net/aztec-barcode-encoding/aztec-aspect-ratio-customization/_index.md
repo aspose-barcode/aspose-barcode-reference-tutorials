@@ -3,10 +3,16 @@ title: Tùy chỉnh Tỷ lệ khung hình mã vạch Aztec với Aspose.BarCode 
 linktitle: Tùy chỉnh tỷ lệ khung hình Aztec
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tùy chỉnh tỷ lệ khung hình mã vạch Aztec bằng Aspose.BarCode cho .NET. Tạo mã vạch linh hoạt, độc đáo cho các ứng dụng .NET của bạn.
-type: docs
 weight: 10
 url: /vi/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh Tỷ lệ khung hình mã vạch Aztec với Aspose.BarCode cho .NET
+
 Trong hướng dẫn này, chúng tôi sẽ đi sâu vào việc tùy chỉnh tỷ lệ khung hình của mã vạch Aztec bằng Aspose.BarCode cho .NET. Mã vạch Aztec là mã vạch hai chiều thường được sử dụng để mã hóa dữ liệu và với Aspose.BarCode, bạn có thể dễ dàng tạo và tùy chỉnh các mã vạch này cho phù hợp với yêu cầu cụ thể của mình.
 
 ## Điều kiện tiên quyết
@@ -108,3 +114,9 @@ Câu trả lời 4: Bạn có thể sử dụng Aspose.BarCode cho .NET trong c�
 ### Câu hỏi 5: Tôi có thể lấy giấy phép tạm thời cho Aspose.BarCode cho .NET ở đâu?
 
 Câu trả lời 5: Nếu bạn cần giấy phép tạm thời cho mục đích thử nghiệm hoặc đánh giá, bạn có thể lấy giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

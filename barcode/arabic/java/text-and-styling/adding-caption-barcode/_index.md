@@ -3,10 +3,16 @@ title: إضافة تسمية توضيحية إلى الباركود في Java ب
 linktitle: إضافة تسمية توضيحية إلى الباركود
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية تحسين صور الباركود في Java باستخدام Aspose.BarCode. أضف التسميات التوضيحية بسهولة لتحسين تجربة المستخدم.
-type: docs
 weight: 10
 url: /ar/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة تسمية توضيحية إلى الباركود في Java باستخدام Aspose.BarCode
+
 
 ## مقدمة
 
@@ -102,3 +108,9 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 ### أين يمكنني طلب المساعدة إذا واجهت مشكلات أو كانت لدي أسئلة؟
  منتدى المجتمع Aspose.BarCode[هنا](https://forum.aspose.com/c/barcode/13) هو مورد ممتاز للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

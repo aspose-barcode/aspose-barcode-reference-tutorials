@@ -3,10 +3,16 @@ title: Egydimenziós széles-keskeny arány konfiguráció
 linktitle: Egydimenziós széles-keskeny arány konfiguráció
 second_title: Aspose.BarCode .NET API
 description: Az Aspose.BarCode for .NET segítségével egyszerűen hozhat létre testreszabott vonalkódokat. Lépésről lépésre útmutató az egydimenziós széles-keskeny arány konfigurációhoz.
-type: docs
 weight: 22
 url: /hu/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egydimenziós széles-keskeny arány konfiguráció
+
 
 Egyszerűen szeretne vonalkódokat generálni és testreszabni .NET-alkalmazásaiban? Ne keressen tovább! Az Aspose.BarCode for .NET egy robusztus könyvtár, amely a vonalkód generálását és testreszabását könnyűvé teszi. Ebben a lépésről lépésre bemutatjuk, hogyan lehet kihasználni az Aspose.BarCode for .NET erejét széles-szűk arányú konfigurációjú vonalkódok létrehozásához.
 
@@ -104,3 +110,10 @@ Az Aspose.BarCode for .NET a vonalkód-szimbólumok széles skáláját támogat
 
 ### 5. Hogyan kaphatok támogatást, vagy hogyan tehetek fel kérdéseket az Aspose.BarCode for .NET-ről?
  Meglátogathatja a[Aspose.BarCode fórum](https://forum.aspose.com/c/barcode/13) támogatásért és megbeszélésekért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

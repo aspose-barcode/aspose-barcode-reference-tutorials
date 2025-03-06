@@ -3,10 +3,16 @@ title: قم بإنشاء وضع DataMatrix (تلقائي) باستخدام Aspos
 linktitle: وضع تشفير DataMatrix (تلقائي)
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء وضع DataMatrix (تلقائي) باستخدام Aspose.BarCode لـ .NET. يغطي هذا الدليل التفصيلي كل شيء بدءًا من المتطلبات الأساسية وحتى قراءة الرموز الشريطية.
-type: docs
 weight: 14
 url: /ar/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء وضع DataMatrix (تلقائي) باستخدام Aspose.BarCode لـ .NET
+
 مع استمرار تطور العصر الرقمي، أصبحت الحاجة إلى أساليب فعالة لتشفير البيانات أمرًا بالغ الأهمية بشكل متزايد. يعد وضع DataMatrix (تلقائي) أحد هذه الحلول، مما يسمح لك بتخزين المعلومات بتنسيق مضغوط وموثوق. في هذا الدليل التفصيلي، سنستكشف كيفية إنشاء وضع DataMatrix (تلقائي) بسهولة باستخدام مكتبة Aspose.BarCode for .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا البرنامج التعليمي خلال العملية، مما يسهل عليك البدء.
 
 ## المتطلبات الأساسية
@@ -101,3 +107,9 @@ A1: يسمح وضع ترميز DataMatrix "تلقائي" لمكتبة Aspose.Bar
 ### س5: ما هي خيارات الترميز المتوفرة لرموز DataMatrix الشريطية؟
 
 ج5: يوفر Aspose.BarCode for .NET خيارات ترميز متعددة، بما في ذلك UTF-8 وASCII والمزيد. يمكنك تحديد الترميز المطلوب عند إنشاء الباركود.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

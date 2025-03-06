@@ -3,10 +3,16 @@ title: Thêm chú thích vào mã vạch trong Java bằng Aspose.BarCode
 linktitle: Thêm chú thích vào mã vạch
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách nâng cao hình ảnh mã vạch trong Java bằng Aspose.BarCode. Thêm chú thích dễ dàng để cải thiện trải nghiệm người dùng.
-type: docs
 weight: 10
 url: /vi/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm chú thích vào mã vạch trong Java bằng Aspose.BarCode
+
 
 ## Giới thiệu
 
@@ -102,3 +108,9 @@ Tuyệt đối! Aspose.BarCode hỗ trợ nhiều loại ký hiệu, đảm bả
 
 ### Tôi có thể tìm kiếm trợ giúp ở đâu nếu gặp vấn đề hoặc có thắc mắc?
  Diễn đàn cộng đồng Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13) là một nguồn tài nguyên tuyệt vời để hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

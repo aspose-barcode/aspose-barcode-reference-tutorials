@@ -3,10 +3,16 @@ title: Konfigurasi Kode Batang
 linktitle: Konfigurasi Kode Batang
 second_title: Aspose.BarCode Java API
 description: Buat kode batang khusus dengan mudah di Java dengan Aspose.BarCode. Tingkatkan efisiensi dan keramahan pengembang dengan tutorial serbaguna kami.
-type: docs
 weight: 24
 url: /id/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Kode Batang
+
 
 Selamat datang di dunia pembuatan kode batang tanpa hambatan di Java! Baik Anda seorang pengembang berpengalaman atau baru memulai, Tutorial Konfigurasi Aspose.BarCode kami ada di sini untuk memandu Anda melalui seluk-beluk mengonfigurasi kode batang dengan mudah.
 
@@ -60,3 +66,9 @@ Hasilkan kode batang Codabar yang disesuaikan dengan simbol mulai dan berhenti t
 Pelajari cara membuat barcode dinamis di Java menggunakan Aspose.BarCode. Panduan langkah demi langkah untuk melengkapi data dengan simbologi EAN_13.
 ### [Mengonfigurasi Rasio Lebar-Sempit di Java](./configuring-wide-narrow-ratio/)
 Pelajari cara mengonfigurasi rasio lebar-sempit di kode batang Java menggunakan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk penyesuaian yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

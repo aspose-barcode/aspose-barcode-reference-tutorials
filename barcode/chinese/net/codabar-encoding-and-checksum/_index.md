@@ -3,10 +3,16 @@ title: Codabar 编码和校验和
 linktitle: Codabar 编码和校验和
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode 优化 .NET 中的 Codabar 条形码！掌握精确数据的校验和计算。通过我们的教程，使用开始/停止字符轻松创建。
-type: docs
 weight: 20
 url: /zh/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codabar 编码和校验和
+
 ## 介绍
 
 您是一名寻求解开 .NET 中 Codabar 编码和校验和计算秘密的开发人员吗？别再犹豫了！本文深入探讨 Codabar 的复杂性，为您提供有关 Codabar 校验和计算以及在 Aspose.BarCode for .NET 中使用开始/结束字符的综合教程。
@@ -34,3 +40,9 @@ url: /zh/net/codabar-encoding-and-checksum/
 了解如何使用 Aspose.BarCode 在 .NET 中计算 Codabar 校验和。提高 Codabar 条形码的数据准确性。获得分步指导。
 ### [库德巴起始/终止字符](./codabar-start-stop-characters/)
 了解如何使用 Aspose.BarCode for .NET 创建带有开始和结束字符的 Codabar 条形码。开发人员的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

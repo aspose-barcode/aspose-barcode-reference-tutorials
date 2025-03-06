@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 掌握 Aztec 符号模式
 linktitle: 阿兹特克符号模式示例
 second_title: Aspose.BarCode .NET API
 description: 探索 Aspose.BarCode for .NET 中的 Aztec 符号模式，并了解如何轻松生成通用条形码。在这个综合教程中亲身体验自动、全范围、紧凑和符文模式。
-type: docs
 weight: 14
 url: /zh/net/aztec-barcode-encoding/aztec-symbol-mode-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 掌握 Aztec 符号模式
+
 如果您希望将强大的条形码生成功能合并到您的 .NET 应用程序中，Aspose.BarCode for .NET 是一个绝佳的解决方案。在本教程中，我们将深入研究 Aztec 符号模式，并使用 Aspose.BarCode for .NET 探索其各种选项。我们将介绍先决条件、导入命名空间，并将每个示例分解为多个步骤来指导您完成整个过程。
 
 ## 先决条件
@@ -114,3 +120,9 @@ A3：是的，您可以下载 Aspose.BarCode for .NET 的免费试用版[这里]
 ### Q5：如何获得 Aspose.BarCode for .NET 的临时许可证？
 
  A5：您可以通过访问获取 Aspose.BarCode for .NET 的临时许可证[这个链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

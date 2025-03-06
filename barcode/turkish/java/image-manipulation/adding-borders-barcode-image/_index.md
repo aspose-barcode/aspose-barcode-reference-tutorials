@@ -3,10 +3,16 @@ title: Java'da Barkod Görüntüsüne Kenarlık Ekleme
 linktitle: Barkod Görüntüsüne Kenarlık Ekleme
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode ile özelleştirilebilir kenarlıklar ekleyerek Java'daki barkod görüntülerini geliştirin. Görsel olarak çekici bir barkod çözümü elde etmek için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 10
 url: /tr/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Barkod Görüntüsüne Kenarlık Ekleme
+
 
 ## giriiş
 
@@ -122,3 +128,10 @@ Kesinlikle. Kenarlık rengini uygulamanızdaki belirli koşullara göre programl
 
 ### Aspose.BarCode'un deneme sürümü mevcut mu?
  Evet, Aspose.BarCode'un özelliklerini indirerek keşfedebilirsiniz.[ücretsiz deneme sürümü](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

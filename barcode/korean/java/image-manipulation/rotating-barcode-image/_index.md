@@ -3,10 +3,16 @@ title: Java에서 바코드 이미지 회전
 linktitle: 바코드 이미지 회전
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 바코드 이미지를 쉽게 회전하는 방법을 알아보세요. Java 개발자를 위한 포괄적인 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드 이미지 회전
+
 
 ## 소개
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### Q: 다양한 인코딩 유형에 대한 바코드를 생성할 수 있습니까?
 물론, 요구 사항에 따라 2단계에서 EncodeType을 조정하세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nozioni di base sui codici a barre
 linktitle: Nozioni di base sui codici a barre
 second_title: API Java Aspose.BarCode
 description: Sfrutta tutta la potenza dei codici a barre nelle tue applicazioni Java! Immergiti nei tutorial Aspose.BarCode per una perfetta integrazione, personalizzazione e riconoscimento.
-type: docs
 weight: 20
 url: /it/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nozioni di base sui codici a barre
+
 
 ## introduzione
 
@@ -38,3 +44,9 @@ Esplora la creazione e l'impostazione delle dimensioni dell'intera immagine in J
 Creazione di un'immagine con generazione esatta di codici a barre in Java con Aspose.BarCode. Crea facilmente codici a barre personalizzati. Esplora la documentazione, scarica e ottieni supporto.
 ### [Rilevamento dell'orientamento del codice a barre in Java](./detecting-barcode-orientation/)
 Migliora le tue applicazioni Java con il riconoscimento dei codici a barre utilizzando Aspose.BarCode per Java. Segui la nostra guida passo passo per rilevare facilmente l'orientamento del codice a barre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

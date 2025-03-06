@@ -3,10 +3,16 @@ title: One-Dimensional Wide-Narrow Ratio Configuration
 linktitle: One-Dimensional Wide-Narrow Ratio Configuration
 second_title: Aspose.BarCode .NET API
 description: Generate customized barcodes easily with Aspose.BarCode for .NET. Step-by-step guide for one-dimensional wide-narrow ratio configuration.
-type: docs
 weight: 22
 url: /net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# One-Dimensional Wide-Narrow Ratio Configuration
+
 
 Are you looking to generate and customize barcodes effortlessly in your .NET applications? Look no further! Aspose.BarCode for .NET is a robust library that makes barcode generation and customization a breeze. In this step-by-step guide, we will delve into how to harness the power of Aspose.BarCode for .NET to create barcodes with a wide-narrow ratio configuration.
 
@@ -105,3 +111,10 @@ Aspose.BarCode for .NET supports a wide range of barcode symbologies, including 
 ### 5. How can I get support or ask questions about Aspose.BarCode for .NET?
 You can visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for support and discussions.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

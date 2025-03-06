@@ -3,10 +3,16 @@ title: การสร้างบาร์โค้ดโพสต์ออส�
 linktitle: การสร้างบาร์โค้ดโพสต์ออสเตรเลีย
 second_title: Aspose.BarCode Java API
 description: สร้างบาร์โค้ด Post Australia ได้อย่างง่ายดายใน Java โดยใช้ Aspose.BarCode ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 12
 url: /th/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างบาร์โค้ดโพสต์ออสเตรเลียใน Java
+
 
 ## การแนะนำ
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode ได้อย่างไร
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

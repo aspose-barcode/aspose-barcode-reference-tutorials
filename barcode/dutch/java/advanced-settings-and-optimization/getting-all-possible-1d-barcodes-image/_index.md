@@ -3,10 +3,16 @@ title: Alle mogelijke 1D-barcodes uit een afbeelding in Java halen met Aspose.Ba
 linktitle: Alle mogelijke 1D-barcodes uit een afbeelding halen
 second_title: Aspose.BarCode Java-API
 description: Ontdek de kracht van Aspose.BarCode voor Java bij het moeiteloos decoderen van 1D-barcodes. Download nu voor naadloze integratie in uw Java-applicaties.
-type: docs
 weight: 20
 url: /nl/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alle mogelijke 1D-barcodes uit een afbeelding in Java halen met Aspose.BarCode
+
 ## Invoering
 
 Welkom in de wereld van Aspose.BarCode voor Java, een krachtige tool waarmee ontwikkelaars moeiteloos verschillende 1D-barcodes kunnen decoderen en lezen. In deze tutorial duiken we in het proces om alle mogelijke 1D-barcodes uit een afbeelding te halen met behulp van Aspose.BarCode voor Java. Aan het einde van deze handleiding heeft u een uitgebreid inzicht in hoe u deze Java-bibliotheek kunt gebruiken voor streepjescodeherkenning.
@@ -93,3 +99,9 @@ A1: Ja, Aspose.BarCode voor Java is ontworpen voor commercieel gebruik en biedt 
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
  A5: Ja, u kunt de gratis proefversie verkennen[hier](https://releases.aspose.com/) om de mogelijkheden van Aspose.BarCode voor Java te ervaren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

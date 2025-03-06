@@ -3,10 +3,16 @@ title: PDF417 vonalkód felismerése török karakterekkel Java nyelven
 linktitle: PDF417 vonalkód felismerése török karakterekkel
 second_title: Aspose.BarCode Java API
 description: Tanulja meg, hogyan ismerheti fel a török karaktereket tartalmazó PDF417 vonalkódokat Java nyelven az Aspose.BarCode segítségével. Könnyű integráció és hatékony dekódolási lehetőségek.
-type: docs
 weight: 11
 url: /hu/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF417 vonalkód felismerése török karakterekkel Java nyelven
+
 
 ## Bevezetés
 
@@ -79,3 +85,10 @@ Igen, az Aspose.BarCode a vonalkódtípusok széles skáláját támogatja, bele
 
 ### Használhatok ideiglenes licencet a fejlesztés során?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

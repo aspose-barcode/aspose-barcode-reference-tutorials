@@ -3,10 +3,16 @@ title: توليد أستراليا بوست الباركود في جاوة
 linktitle: توليد أستراليا بوست الباركود
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز باركود للبريد الأسترالي بسهولة في Java باستخدام Aspose.BarCode. اتبع البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 12
 url: /ar/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# توليد أستراليا بوست الباركود في جاوة
+
 
 ## مقدمة
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

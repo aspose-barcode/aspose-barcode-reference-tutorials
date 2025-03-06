@@ -3,10 +3,16 @@ title: قسيمة GS1 كود UPC-A ترميز 128
 linktitle: قسيمة GS1 كود UPC-A ترميز 128
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء الرموز الشريطية بسهولة باستخدام Aspose.BarCode for .NET - الحل الشامل لإنشاء الرموز الشريطية. ابدأ اليوم!
-type: docs
 weight: 12
 url: /ar/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قسيمة GS1 كود UPC-A ترميز 128
+
 
 ## مقدمة
 
@@ -115,3 +121,9 @@ gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
 
 ### س: هل هناك أي أنواع ترميز أخرى يدعمها Aspose.BarCode لـ .NET؟
 نعم، يدعم Aspose.BarCode for .NET نطاقًا واسعًا من أنواع الترميز، بما في ذلك UPC-A، وCode 128، ورموز QR، وغيرها الكثير. يمكنك العثور على القائمة الكاملة في الوثائق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

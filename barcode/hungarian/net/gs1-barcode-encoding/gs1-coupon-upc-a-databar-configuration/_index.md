@@ -3,10 +3,16 @@ title: GS1 kupon UPC-A adatsor konfiguráció
 linktitle: GS1 kupon UPC-A adatsor konfiguráció
 second_title: Aspose.BarCode .NET API
 description: Ismerje meg a GS1 kupon UPC-A adattár konfigurációját az Aspose.BarCode segítségével .NET-hez. Hozzon létre vonalkódokat egyszerűen. Kezd el most!
-type: docs
 weight: 13
 url: /hu/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 kupon UPC-A adatsor konfiguráció
+
 
 ## Bevezetés
 
@@ -86,3 +92,10 @@ Az Aspose.BarCode for .NET letölthető a[letöltési oldal](https://releases.as
 ### Hol kaphatok támogatást az Aspose.BarCode for .NET-hez?
  Bármilyen technikai segítségért vagy kérdésért keresse fel a[Aspose.BarCode a .NET támogatási fórumhoz](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

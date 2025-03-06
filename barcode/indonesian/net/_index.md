@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.BarCode untuk .NET
 linktitle: Aspose.BarCode untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Buka potensi Aspose.BarCode untuk .NET dengan tutorial komprehensif! Kuasai pengkodean Codabar, sesuaikan Codablock F, jelajahi Kode 16K, dan banyak lagi.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.BarCode untuk .NET
+
 
 
 Aspose.BarCode untuk .NET memberdayakan pengembang untuk membuat dan menyesuaikan berbagai jenis kode batang dengan presisi dan mudah. Baik Anda mempelajari pengkodean Codabar atau menjelajahi opsi lanjutan seperti Aztec Barcode, tutorial kami mencakup semuanya.
@@ -91,3 +96,9 @@ Hasilkan kode batang DataMatrix dengan mudah menggunakan Aspose.BarCode untuk .N
 Hasilkan dan baca kode batang DataMatrix dengan mudah menggunakan Aspose.BarCode untuk .NET. Selami pemrograman pembaca DataMatrix dan konfigurasi penambahan terstruktur.
 ### [Konfigurasi Kode Batang DotCode](./dotcode-barcode-configuration/)
 Hasilkan kode batang DotCode yang disesuaikan dengan mudah menggunakan Aspose.BarCode .NET. Pelajari rasio aspek, mode pengkodean, teks kode yang diperluas, dan inisialisasi pembaca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

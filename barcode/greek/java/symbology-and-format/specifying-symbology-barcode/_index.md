@@ -3,10 +3,16 @@ title: Καθορισμός συμβολολογίας για γραμμωτό �
 linktitle: Καθορισμός συμβολολογίας για γραμμωτό κώδικα
 second_title: Aspose.BarCode Java API
 description: Δημιουργήστε δυναμικούς γραμμωτούς κώδικες σε Java με το Aspose.BarCode. Εύκολη ενσωμάτωση, ευέλικτη προσαρμογή και ισχυρές δυνατότητες για όλες τις ανάγκες σας για γραμμωτό κώδικα.
-type: docs
 weight: 10
 url: /el/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορισμός συμβολολογίας για γραμμωτό κώδικα σε Java
+
 
 ## Εισαγωγή
 
@@ -77,3 +83,10 @@ generator.save(dataDir + "Code39Standard.jpg");
 
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.BarCode;
  Επισκέψου το[Φόρουμ Aspose.BarCode](https://forum.aspose.com/c/barcode/13) για να λάβετε βοήθεια από την κοινότητα και τους ειδικούς της Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

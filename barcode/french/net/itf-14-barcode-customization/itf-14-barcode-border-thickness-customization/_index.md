@@ -3,10 +3,16 @@ title: Personnalisation de l'épaisseur de la bordure du code-barres ITF-14
 linktitle: Personnalisation de l'épaisseur de la bordure du code-barres ITF-14
 second_title: API Aspose.BarCode .NET
 description: Personnalisez l'épaisseur de la bordure du code-barres ITF-14 avec Aspose.BarCode pour .NET. Guide étape par étape pour une génération transparente de codes-barres.
-type: docs
 weight: 10
 url: /fr/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisation de l'épaisseur de la bordure du code-barres ITF-14
+
 
 Cherchez-vous à améliorer votre génération de codes-barres avec une épaisseur de bordure personnalisable à l'aide d'Aspose.BarCode for .NET ? Si c'est le cas, vous êtes au bon endroit. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de modification de l'épaisseur de la bordure d'un code-barres ITF-14. En quelques étapes simples, vous pouvez obtenir l'épaisseur de bordure souhaitée pour vos codes-barres, que ce soit pour l'étiquetage des produits ou la gestion des stocks. Commençons!
 
@@ -108,3 +114,9 @@ Les limitations peuvent varier en fonction des exigences spécifiques de génér
 
 ### Comment puis-je obtenir une licence temporaire pour Aspose.BarCode pour .NET ?
  Vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

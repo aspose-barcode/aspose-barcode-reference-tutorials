@@ -3,10 +3,16 @@ title: 在 Java 中设置条形高度
 linktitle: 设置条形高度
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中轻松生成和自定义条形码。设置条形高度、选择类型并增强应用程序的功能。
-type: docs
 weight: 14
 url: /zh/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中设置条形高度
+
 
 ## 介绍
 
@@ -78,3 +84,10 @@ generator.save(dataDir + "barsHeight.jpg");
 ### 在哪里可以找到 Aspose.BarCode for Java 的支持？
 访问 Aspose.BarCode 论坛[这里](https://forum.aspose.com/c/barcode/13)以获得社区支持和讨论。
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

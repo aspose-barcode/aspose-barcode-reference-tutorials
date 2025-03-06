@@ -3,10 +3,16 @@ title: Azték vonalkód kódolás
 linktitle: Azték vonalkód kódolás
 second_title: Aspose.BarCode .NET API
 description: Oldja fel az azték vonalkód kódolásban rejlő lehetőségeket az Aspose.BarCode segítségével .NET-hez. Testreszabhatja a képarányokat, hozzon létre szöveges kódolású azték kódokat, és sajátítsa el a szimbólummódokat.
-type: docs
 weight: 28
 url: /hu/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Azték vonalkód kódolás
+
 
 ## Bevezetés
 
@@ -44,3 +50,9 @@ Fedezze fel az azték kódok szövegkódolásának erejét az Aspose.BarCode for
 Ismerje meg, hogyan hozhat létre különböző hibaszintű azték hibavonalkódokat az Aspose.BarCode for .NET segítségével. Átfogó útmutató a vonalkód létrehozásához.
 ### [Az azték szimbólummód elsajátítása](./aztec-symbol-mode-example/)
 Fedezze fel az Azték szimbólum módot az Aspose.BarCode for .NET-ben, és tanulja meg, hogyan hozhat létre könnyedén sokoldalú vonalkódokat. Ebben az átfogó oktatóanyagban ismerkedjen meg az Auto, Full Range, Compact és Rune módokkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 自定义 DataMatrix 纵横比
 linktitle: DataMatrix 宽高比定制
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 自定义 DataMatrix 条形码长宽比。条形码生成的分步指南。
-type: docs
 weight: 10
 url: /zh/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 自定义 DataMatrix 纵横比
+
 您是否希望使用 Aspose.BarCode for .NET 生成具有自定义宽高比的 DataMatrix 条形码？您来对地方了。在本分步教程中，我们将向您展示如何实现这一目标。 Aspose.BarCode for .NET 是一个功能强大的库，可让您轻松创建和操作条形码。我们将首先介绍您需要的先决条件和命名空间，然后我们将深入研究示例。
 
 ## 先决条件
@@ -86,3 +92,9 @@ A4：是的，Aspose.BarCode for .NET 与各种.NET Framework 版本兼容，为
 ### Q5：我可以使用 Aspose.BarCode for .NET 生成不同格式的条形码吗？
 
 A5：是的，Aspose.BarCode for .NET 支持生成各种格式的条形码，包括 PNG、JPEG 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

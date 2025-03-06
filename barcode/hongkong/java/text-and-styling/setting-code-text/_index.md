@@ -3,10 +3,16 @@ title: 在 Java 中設定程式碼文本
 linktitle: 設定代碼文字
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中輕鬆產生條碼。請按照我們的逐步指南進行高效率的程式碼文字自訂。
-type: docs
 weight: 13
 url: /zh-hant/java/text-and-styling/setting-code-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中設定程式碼文本
+
 
 ## 介紹
 
@@ -80,3 +86,9 @@ generator.save(dataDir + "setCodeText.jpg");
 
 ### 我可以使用臨時許可證進行測試嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

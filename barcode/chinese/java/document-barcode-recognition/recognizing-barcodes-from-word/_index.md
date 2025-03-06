@@ -3,10 +3,16 @@ title: 轻松识别 Word 文档中的条形码
 linktitle: 识别Word文档中的条形码
 second_title: Aspose.BarCode Java API
 description: 探索使用 Aspose.BarCode 将条形码识别无缝集成到您的 Java 应用程序中。按照本教程识别 Word 文档中的条形码。
-type: docs
 weight: 12
 url: /zh/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 轻松识别 Word 文档中的条形码
+
 
 ## 介绍
 
@@ -111,3 +117,10 @@ for (Shape shape : shapes) {
 
 ### 问：在哪里可以找到 Aspose.BarCode for Java 的文档？
 请参阅综合文档[这里](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

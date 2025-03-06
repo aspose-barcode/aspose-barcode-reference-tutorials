@@ -3,10 +3,16 @@ title: ضبط دقة الصورة للرمز الشريطي في Java باستخ
 linktitle: ضبط دقة الصورة للرمز الشريطي
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية لإعداد دقة الصورة بسهولة في Java باستخدام Aspose.BarCode. تخصيص الإعدادات للوضوح والدقة.
-type: docs
 weight: 11
 url: /ar/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط دقة الصورة للرمز الشريطي في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير البرمجيات، يعد إنشاء الرموز الشريطية والتعامل معها متطلبًا شائعًا. Aspose.BarCode for Java هي مكتبة قوية تعمل على تبسيط عملية إنشاء الباركود وتخصيصه. في هذا البرنامج التعليمي، سوف نركز على جانب مهم من إعدادات دقة الصورة الخاصة بإنشاء الرمز الشريطي. سنتناول كل خطوة، ونقدم تفسيرات وأمثلة واضحة باستخدام Aspose.BarCode لـ Java.
@@ -96,3 +102,9 @@ bb.save(dataDir + "barcode-image-resolution.jpg");
 ### س5: ما هو الترخيص المؤقت ومتى يجب استخدامه؟
 
  ج5: يسمح لك الترخيص المؤقت باستخدام Aspose.BarCode لمدة محدودة. الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للمشاريع قصيرة المدى.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

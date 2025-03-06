@@ -3,10 +3,16 @@ title: Java でバーコード画像に枠線を追加する
 linktitle: バーコード画像に枠線を追加する
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用してカスタマイズ可能な境界線を追加することで、Java のバーコード イメージを強化します。このステップバイステップのガイドに従って、視覚的に魅力的なバーコード ソリューションを実現してください。
-type: docs
 weight: 10
 url: /ja/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でバーコード画像に枠線を追加する
+
 
 ## 導入
 
@@ -122,3 +128,10 @@ bb.save(dataDir + "barcode-image-borders.jpg");
 
 ### Aspose.BarCode の試用版は利用可能ですか?
 はい、Aspose.BarCode をダウンロードすると、その機能を調べることができます。[無料試用版](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

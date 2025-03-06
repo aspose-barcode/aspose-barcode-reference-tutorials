@@ -3,10 +3,16 @@ title: Konfigurasi Kode Satu Dimensi 128
 linktitle: Konfigurasi Kode Satu Dimensi 128
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang Kode 128 satu dimensi di .NET menggunakan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk integrasi kode batang yang lancar.
-type: docs
 weight: 10
 url: /id/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Kode Satu Dimensi 128
+
 
 Jika Anda seorang pengembang .NET yang mencari alat canggih untuk menghasilkan kode batang di aplikasi Anda, Aspose.BarCode untuk .NET adalah solusi tepat Anda. Panduan komprehensif ini akan memandu Anda melalui proses memanfaatkan kemampuan Aspose.BarCode untuk .NET untuk membuat kode batang Kode 128 satu dimensi, dan dirancang untuk pemula dan pengembang berpengalaman. 
 
@@ -108,3 +114,10 @@ Meskipun Aspose.BarCode terutama berfokus pada kode batang satu dimensi, Anda ju
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.BarCode untuk .NET?
  Anda dapat mencari bantuan dan berbagi pengalaman Anda di forum Aspose.BarCode untuk .NET[Di Sini](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

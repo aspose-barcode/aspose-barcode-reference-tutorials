@@ -3,10 +3,16 @@ title: Mã hóa DataMatrix theo byte với Aspose.BarCode cho .NET
 linktitle: Chế độ mã hóa DataMatrix (Byte)
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách mã hóa dữ liệu ở định dạng DataMatrix bằng chế độ Byte với Aspose.BarCode cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo và nhận dạng mã vạch.
-type: docs
 weight: 15
 url: /vi/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa DataMatrix theo byte với Aspose.BarCode cho .NET
+
 Trong thế giới tạo và nhận dạng mã vạch, Aspose.BarCode for .NET là một công cụ mạnh mẽ và linh hoạt. Với bộ tính năng và khả năng mạnh mẽ, nó cho phép các nhà phát triển tạo, thao tác và đọc mã vạch một cách dễ dàng. Trong số nhiều chế độ mã hóa mà nó cung cấp, Chế độ mã hóa DataMatrix sử dụng Byte là một tính năng nổi bật. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.BarCode cho .NET để mã hóa dữ liệu ở định dạng DataMatrix bằng chế độ Byte.
 
 ## Điều kiện tiên quyết
@@ -121,3 +127,9 @@ Câu trả lời 4: Có, Aspose.BarCode for .NET phù hợp cho mục đích s�
 ### Câu hỏi 5: Tôi có thể sử dụng giấy phép tạm thời cho Aspose.BarCode cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời cho Aspose.BarCode cho .NET từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

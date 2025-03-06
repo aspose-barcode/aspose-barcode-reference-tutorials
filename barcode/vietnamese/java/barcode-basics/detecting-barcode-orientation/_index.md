@@ -3,10 +3,16 @@ title: Phát hiện định hướng mã vạch trong Java với Aspose.BarCode
 linktitle: Phát hiện hướng mã vạch
 second_title: API Java Aspose.BarCode
 description: Nâng cao ứng dụng Java của bạn bằng tính năng nhận dạng mã vạch bằng Aspose.BarCode for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để dễ dàng phát hiện hướng mã vạch.
-type: docs
 weight: 13
 url: /vi/java/barcode-basics/detecting-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phát hiện định hướng mã vạch trong Java với Aspose.BarCode
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao các ứng dụng Java của mình bằng khả năng nhận dạng mã vạch mạnh mẽ? Aspose.BarCode for Java là giải pháp hoàn hảo cho các nhà phát triển đang tìm kiếm sự tích hợp liền mạch chức năng đọc mã vạch vào dự án của họ. Trong hướng dẫn từng bước này, chúng tôi sẽ tập trung vào việc phát hiện hướng mã vạch trong Java bằng Aspose.BarCode.
@@ -86,3 +92,9 @@ Câu trả lời 1: Có, Aspose.BarCode cho Java tương thích với Java 8 và
 ### Câu hỏi 5: Có sẵn mã mẫu nào cho các hoạt động mã vạch khác nhau không?
 
  A5: Khám phá[Tài liệu Aspose.BarCode](https://reference.aspose.com/barcode/java/) để biết các mẫu và ví dụ mã toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

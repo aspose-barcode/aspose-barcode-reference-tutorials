@@ -3,10 +3,16 @@ title: Lấy tất cả các mã vạch 1D có thể có từ một hình ảnh 
 linktitle: Lấy tất cả các mã vạch 1D có thể có từ một hình ảnh
 second_title: API Java Aspose.BarCode
 description: Khám phá sức mạnh của Aspose.BarCode cho Java trong việc giải mã mã vạch 1D một cách dễ dàng. Tải xuống ngay để tích hợp liền mạch vào các ứng dụng Java của bạn.
-type: docs
 weight: 20
 url: /vi/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lấy tất cả các mã vạch 1D có thể có từ một hình ảnh trong Java bằng Aspose.BarCode
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.BarCode cho Java, một công cụ mạnh mẽ cho phép các nhà phát triển giải mã và đọc các mã vạch 1D khác nhau một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lấy tất cả mã vạch 1D có thể có từ một hình ảnh bằng Aspose.BarCode cho Java. Đến cuối hướng dẫn này, bạn sẽ hiểu toàn diện về cách tận dụng thư viện Java này để nhận dạng mã vạch.
@@ -93,3 +99,9 @@ Câu trả lời 1: Có, Aspose.BarCode for Java được thiết kế cho mục
 ### Câu 5: Có phiên bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) để trải nghiệm các khả năng của Aspose.BarCode cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

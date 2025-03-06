@@ -3,10 +3,16 @@ title: Java에서 바코드 기호 지정
 linktitle: 바코드 기호 지정
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 동적 바코드를 생성합니다. 모든 바코드 요구 사항에 맞는 손쉬운 통합, 다양한 사용자 정의 및 강력한 기능을 제공합니다.
-type: docs
 weight: 10
 url: /ko/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드 기호 지정
+
 
 ## 소개
 
@@ -77,3 +83,10 @@ Aspose.BarCode는 Java에서 바코드 생성을 단순화하여 모든 기술 �
 
 ### Aspose.BarCode에 대한 지원은 어떻게 받을 수 있나요?
  방문하다[Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13) 커뮤니티와 Aspose 전문가의 도움을 받으세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

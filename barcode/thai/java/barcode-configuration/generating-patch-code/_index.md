@@ -3,10 +3,16 @@ title: การสร้างรหัสแพทช์ใน Java
 linktitle: การสร้างรหัสแพทช์
 second_title: Aspose.BarCode Java API
 description: สร้างรหัสแพทช์ได้อย่างง่ายดายใน Java ด้วย Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างบาร์โค้ดอย่างมีประสิทธิภาพ
-type: docs
 weight: 11
 url: /th/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างรหัสแพทช์ใน Java
+
 
 ## การแนะนำ
 
@@ -104,3 +110,10 @@ public static void generateWholePage() throws IOException {
 
 ### ฉันจะหาเอกสารประกอบสำหรับ Aspose.BarCode สำหรับ Java ได้ที่ไหน
  เอกสารมีอยู่ที่[Aspose.BarCode สำหรับเอกสาร Java](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

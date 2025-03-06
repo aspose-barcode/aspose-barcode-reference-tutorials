@@ -3,10 +3,16 @@ title: Javaでバーコード画像の余白を設定する
 linktitle: バーコード画像の余白を設定する
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java でバーコード画像の余白を設定する方法を学びます。スペースをカスタマイズしてアプリケーションにシームレスに統合
-type: docs
 weight: 11
 url: /ja/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Javaでバーコード画像の余白を設定する
+
 
 ## 導入
 
@@ -99,3 +105,10 @@ Aspose.BarCode は主に Java 用に設計されていますが、.NET などの
 
 ### Aspose.BarCode for Java のフルバージョンを購入するにはどうすればよいですか?
  Aspose.BarCode for Java のフルバージョンは、次のサイトから購入できます。[購入ページ](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

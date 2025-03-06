@@ -3,10 +3,16 @@ title: Creación de datos de códigos de barras complementarios con Aspose.BarCo
 linktitle: Configuración de datos de códigos de barras suplementarios
 second_title: API Aspose.BarCode .NET
 description: Genere datos de códigos de barras complementarios con Aspose.BarCode para .NET. Personalice códigos de barras EAN-2 y EAN-5 sin esfuerzo. Guía paso a paso para desarrolladores .NET.
-type: docs
 weight: 10
 url: /es/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creación de datos de códigos de barras complementarios con Aspose.BarCode para .NET
+
 
 En el mundo de la generación y personalización de códigos de barras, Aspose.BarCode para .NET se destaca como una herramienta potente y versátil. Si es un desarrollador experimentado o recién está comenzando, esta guía paso a paso lo guiará a través del proceso de configuración de datos de códigos de barras complementarios utilizando Aspose.BarCode para .NET. 
 
@@ -110,3 +116,10 @@ Sí, admite varios tipos de códigos de barras, incluidos EAN-13, Código QR, C�
 
 ### ¿Puedo personalizar la apariencia de los códigos de barras generados?
 Por supuesto, puede personalizar las dimensiones, los colores y otros aspectos de los códigos de barras para satisfacer sus necesidades.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

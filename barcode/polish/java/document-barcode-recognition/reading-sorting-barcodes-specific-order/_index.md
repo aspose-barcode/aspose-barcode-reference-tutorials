@@ -3,10 +3,16 @@ title: Odczytywanie i sortowanie kodów kreskowych w określonej kolejności w J
 linktitle: Odczytywanie i sortowanie kodów kreskowych w określonej kolejności
 second_title: Aspose.BarCode API Java
 description: Ulepsz swoje aplikacje Java za pomocą Aspose.BarCode! Naucz się efektywnie czytać i sortować kody kreskowe. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 10
 url: /pl/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odczytywanie i sortowanie kodów kreskowych w określonej kolejności w Javie
+
 
 ## Wstęp
 
@@ -123,3 +129,10 @@ tym samouczku omówiliśmy, jak wykorzystać Aspose.BarCode dla języka Java do 
 
 ### P: Gdzie mogę szukać wsparcia lub zadać pytania?
  Odwiedź forum pomocy[Tutaj](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

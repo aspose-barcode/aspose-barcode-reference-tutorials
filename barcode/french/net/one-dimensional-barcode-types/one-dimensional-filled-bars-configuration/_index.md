@@ -3,10 +3,16 @@ title: Configuration des barres remplies unidimensionnelles
 linktitle: Configuration des barres remplies unidimensionnelles
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment générer des codes-barres dans .NET avec Aspose.BarCode for .NET. Ce didacticiel complet couvre tout, de l'importation d'espaces de noms à la création de codes-barres unidimensionnels.
-type: docs
 weight: 20
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration des barres remplies unidimensionnelles
+
 
 Cherchez-vous à générer des codes-barres professionnels et personnalisables dans vos applications .NET ? Cherchez pas plus loin! Aspose.BarCode for .NET est là pour rationaliser votre processus de création de codes-barres, offrant une multitude de fonctionnalités et d'options de personnalisation pour répondre à vos besoins spécifiques. Dans ce didacticiel complet, nous vous expliquerons les bases de l'utilisation d'Aspose.BarCode pour .NET, de l'importation d'espaces de noms à la génération de barres remplies unidimensionnelles. Commençons!
 
@@ -99,3 +105,9 @@ Oui, vous pouvez essayer Aspose.BarCode pour .NET en téléchargeant la version 
 
 ### Puis-je acheter une licence temporaire pour Aspose.BarCode pour .NET ?
  Oui, vous pouvez obtenir une licence temporaire auprès de[ce lien](https://purchase.aspose.com/temporary-license/), qui vous permet d'utiliser la bibliothèque pendant une durée limitée.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

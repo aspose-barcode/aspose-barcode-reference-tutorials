@@ -3,10 +3,16 @@ title: Konfiguracja jednowymiarowych prętów wypełnionych
 linktitle: Konfiguracja jednowymiarowych prętów wypełnionych
 second_title: Aspose.BarCode .NET API
 description: Dowiedz się, jak generować kody kreskowe w .NET za pomocą Aspose.BarCode dla .NET. Ten kompleksowy samouczek obejmuje wszystko, od importowania przestrzeni nazw po tworzenie jednowymiarowych kodów kreskowych.
-type: docs
 weight: 20
 url: /pl/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfiguracja jednowymiarowych prętów wypełnionych
+
 
 Czy chcesz generować profesjonalne i konfigurowalne kody kreskowe w aplikacjach .NET? Nie szukaj dalej! Aspose.BarCode dla .NET jest tutaj, aby usprawnić proces tworzenia kodów kreskowych, oferując wiele funkcji i opcji dostosowywania, aby spełnić Twoje specyficzne potrzeby. W tym kompleksowym samouczku przeprowadzimy Cię przez podstawy korzystania z Aspose.BarCode dla .NET, od importowania przestrzeni nazw po generowanie jednowymiarowych wypełnionych słupków. Zacznijmy!
 
@@ -99,3 +105,9 @@ Tak, możesz wypróbować Aspose.BarCode dla .NET, pobierając bezpłatną wersj
 
 ### Czy mogę kupić tymczasową licencję na Aspose.BarCode dla .NET?
  Tak, możesz uzyskać licencję tymczasową od[ten link](https://purchase.aspose.com/temporary-license/), co pozwala na korzystanie z biblioteki przez ograniczony czas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

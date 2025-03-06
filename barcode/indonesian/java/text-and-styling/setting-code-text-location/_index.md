@@ -3,10 +3,16 @@ title: Mengatur Lokasi Teks Kode di Java
 linktitle: Mengatur Lokasi Teks Kode
 second_title: Aspose.BarCode Java API
 description: Hasilkan kode batang dinamis dengan mudah di Java dengan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk penyesuaian teks kode dan tingkatkan fungsionalitas aplikasi Anda.
-type: docs
 weight: 12
 url: /id/java/text-and-styling/setting-code-text-location/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Lokasi Teks Kode di Java
+
 
 ## Perkenalan
 
@@ -88,3 +94,10 @@ Cukup tambahkan file JAR Aspose.BarCode ke classpath proyek Anda, dan Anda siap 
 
 ### T: Di mana saya dapat mencari bantuan atau dukungan untuk Aspose.BarCode?
  Mengunjungi[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) untuk dukungan dan bantuan masyarakat.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

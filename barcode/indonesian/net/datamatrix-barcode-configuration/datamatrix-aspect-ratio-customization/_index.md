@@ -3,10 +3,16 @@ title: Menyesuaikan Rasio Aspek DataMatrix dengan Aspose.BarCode untuk .NET
 linktitle: Kustomisasi Rasio Aspek DataMatrix
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara menyesuaikan rasio aspek kode batang DataMatrix menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pembuatan kode batang.
-type: docs
 weight: 10
 url: /id/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Rasio Aspek DataMatrix dengan Aspose.BarCode untuk .NET
+
 Apakah Anda ingin membuat kode batang DataMatrix dengan rasio aspek yang disesuaikan menggunakan Aspose.BarCode untuk .NET? Anda berada di tempat yang tepat. Dalam tutorial langkah demi langkah ini, kami akan menunjukkan cara mencapainya. Aspose.BarCode for .NET adalah perpustakaan canggih yang memungkinkan Anda membuat dan memanipulasi kode batang dengan mudah. Kita akan mulai dengan memperkenalkan prasyarat dan namespace yang Anda perlukan, lalu kita akan mendalami contohnya.
 
 ## Prasyarat
@@ -86,3 +92,9 @@ A4: Ya, Aspose.BarCode untuk .NET kompatibel dengan berbagai versi .NET Framewor
 ### Q5: Bisakah saya membuat kode batang dalam format berbeda dengan Aspose.BarCode untuk .NET?
 
 A5: Ya, Aspose.BarCode untuk .NET mendukung pembuatan kode batang dalam berbagai format, termasuk PNG, JPEG, dan lainnya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

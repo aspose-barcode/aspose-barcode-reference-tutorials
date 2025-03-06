@@ -3,10 +3,16 @@ title: Generating a Patch Code in Java
 linktitle: Generating a Patch Code
 second_title: Aspose.BarCode Java API
 description: Generate Patch Codes effortlessly in Java with Aspose.BarCode. Follow our step-by-step guide for efficient barcode generation.
-type: docs
 weight: 11
 url: /java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generating a Patch Code in Java
+
 
 ## Introduction
 
@@ -105,3 +111,10 @@ Yes, you can obtain a temporary license from [Aspose's temporary license page](h
 ### Where can I find the documentation for Aspose.BarCode for Java?
 The documentation is available at [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

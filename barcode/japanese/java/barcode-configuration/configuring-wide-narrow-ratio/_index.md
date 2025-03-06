@@ -3,10 +3,16 @@ title: Aspose.BarCode を使用した Java でのワイド/ナロー比の構成
 linktitle: ワイド/ナロー比の構成
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java バーコードの幅狭比を構成する方法を学習します。シームレスなカスタマイズについては、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 17
 url: /ja/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode を使用した Java でのワイド/ナロー比の構成
+
 
 ## 導入
 
@@ -87,3 +93,9 @@ A: BarcodeGenerator コンストラクターのシンボル タイプ (EncodeTyp
 
 ### Q: Aspose.BarCode のサポートを受けるにはどうすればよいですか?
  A: Aspose.BarCode フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/barcode/13)サポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

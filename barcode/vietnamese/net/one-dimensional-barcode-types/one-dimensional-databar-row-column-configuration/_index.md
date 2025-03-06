@@ -3,10 +3,16 @@ title: Cấu hình hàng và cột thanh dữ liệu một chiều
 linktitle: Cấu hình hàng và cột thanh dữ liệu một chiều
 second_title: API Aspose.BarCode .NET
 description: Tạo mã vạch DataBar một chiều động với cấu hình hàng và cột trong .NET bằng Aspose.BarCode cho .NET. Tùy chỉnh được thực hiện dễ dàng!
-type: docs
 weight: 19
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình hàng và cột thanh dữ liệu một chiều
+
 
 Trong thế giới kỹ thuật số ngày nay, mã vạch đóng một vai trò quan trọng trong các ngành công nghiệp khác nhau, từ quản lý hàng tồn kho đến ghi nhãn sản phẩm. Là nhà phát triển, bạn có thể cần một công cụ mạnh mẽ để tạo và tùy chỉnh mã vạch trong ứng dụng .NET của mình. Aspose.BarCode for .NET là một thư viện linh hoạt cho phép bạn tạo, tùy chỉnh và thao tác mã vạch một chiều và hai chiều một cách dễ dàng.
 
@@ -112,3 +118,10 @@ Tuyệt đối! Aspose.BarCode for .NET rất linh hoạt và có thể được
  Vâng, tài liệu[đây](https://reference.aspose.com/barcode/net/)cung cấp các ví dụ mã chi tiết và các dự án mẫu để giúp bạn bắt đầu.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

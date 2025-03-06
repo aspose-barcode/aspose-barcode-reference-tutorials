@@ -3,10 +3,16 @@ title: Lectura y clasificación de códigos de barras en un orden específico en
 linktitle: Lectura y clasificación de códigos de barras en un orden específico
 second_title: API de Java Aspose.BarCode
 description: ¡Mejore sus aplicaciones Java con Aspose.BarCode! Aprenda a leer y ordenar códigos de barras de manera eficiente. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 10
 url: /es/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lectura y clasificación de códigos de barras en un orden específico en Java
+
 
 ## Introducción
 
@@ -123,3 +129,10 @@ En este tutorial, exploramos cómo aprovechar Aspose.BarCode para Java para leer
 
 ### P: ¿Dónde puedo buscar ayuda o hacer preguntas?
  Visita el foro de soporte[aquí](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

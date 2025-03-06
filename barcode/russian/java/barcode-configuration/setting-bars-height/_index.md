@@ -3,10 +3,16 @@ title: Настройка высоты баров в Java
 linktitle: Настройка высоты полос
 second_title: API Aspose.BarCode Java
 description: Легко создавайте и настраивайте штрих-коды на Java с помощью Aspose.BarCode. Устанавливайте высоту панели, выбирайте типы и расширяйте возможности своего приложения.
-type: docs
 weight: 14
 url: /ru/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка высоты баров в Java
+
 
 ## Введение
 
@@ -78,3 +84,10 @@ generator.save(dataDir + "barsHeight.jpg");
 ### Где я могу найти поддержку Aspose.BarCode для Java?
  Посетите форум Aspose.BarCode[здесь](https://forum.aspose.com/c/barcode/13) за поддержку сообщества и обсуждения.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

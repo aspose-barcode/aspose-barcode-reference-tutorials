@@ -3,10 +3,16 @@ title: Genere códigos de barras DataMatrix con Aspose.BarCode para .NET
 linktitle: Versiones de DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Aprenda a generar códigos de barras DataMatrix en .NET usando Aspose.BarCode para .NET. Dimensiones personalizadas, soporte ECC y más.
-type: docs
 weight: 12
 url: /es/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Genere códigos de barras DataMatrix con Aspose.BarCode para .NET
+
 Si está buscando una solución confiable para generar códigos de barras DataMatrix en sus aplicaciones .NET, Aspose.BarCode para .NET es el camino a seguir. En esta guía paso a paso, lo guiaremos a través del proceso de uso de Aspose.BarCode para .NET para crear códigos de barras DataMatrix. Dividiremos cada ejemplo en varios pasos, asegurándonos de que pueda seguirlo con facilidad.
 
 ## Requisitos previos
@@ -128,3 +134,9 @@ R2: Sí, puede personalizar las dimensiones de los códigos de barras DataMatrix
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.BarCode para .NET?
 
  R5: Para obtener una licencia temporal de Aspose.BarCode para .NET, visite[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configuration de la zone silencieuse du code-barres ITF-14
 linktitle: Configuration de la zone silencieuse du code-barres ITF-14
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment configurer les zones silencieuses de code-barres ITF-14 avec Aspose.BarCode for .NET. Garantissez la lisibilité et la conformité sans effort.
-type: docs
 weight: 12
 url: /fr/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration de la zone silencieuse du code-barres ITF-14
+
 
 ## Introduction
 
@@ -99,3 +105,10 @@ Aspose.BarCode for .NET propose une version d'essai gratuite, mais pour un usage
 ### Où puis-je obtenir de l’aide et du support pour Aspose.BarCode for .NET ?
  Pour obtenir de l'aide, vous pouvez visiter le[Forum Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13), où vous pouvez poser des questions et trouver des ressources utiles.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

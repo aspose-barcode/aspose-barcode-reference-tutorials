@@ -3,10 +3,16 @@ title: Adicionando legenda ao código de barras em Java usando Aspose.BarCode
 linktitle: Adicionando legenda ao código de barras
 second_title: API Java Aspose.BarCode
 description: Aprenda como aprimorar o visual do código de barras em Java com Aspose.BarCode. Adicione legendas sem esforço para melhorar a experiência do usuário.
-type: docs
 weight: 10
 url: /pt/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando legenda ao código de barras em Java usando Aspose.BarCode
+
 
 ## Introdução
 
@@ -102,3 +108,9 @@ Absolutamente! Aspose.BarCode suporta uma ampla gama de simbologias, garantindo 
 
 ### Onde posso procurar ajuda se tiver problemas ou dúvidas?
  O fórum da comunidade Aspose.BarCode[aqui](https://forum.aspose.com/c/barcode/13) é um excelente recurso para suporte e discussões.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

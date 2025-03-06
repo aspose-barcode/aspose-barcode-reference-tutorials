@@ -3,10 +3,16 @@ title: إنشاء رموز شريطية لخطأ Aztec باستخدام Aspose.B
 linktitle: مثال على مستوى الخطأ الأزتيكي
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء رموز شريطية لخطأ Aztec بمستويات خطأ مختلفة باستخدام Aspose.BarCode لـ .NET. الدليل الشامل لإنشاء الباركود.
-type: docs
 weight: 13
 url: /ar/net/aztec-barcode-encoding/aztec-error-level-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء رموز شريطية لخطأ Aztec باستخدام Aspose.BarCode لـ .NET
+
 في هذا البرنامج التعليمي خطوة بخطوة، سوف نتعمق في عالم إنشاء الباركود باستخدام Aspose.BarCode for .NET. Aspose.BarCode هي مكتبة قوية تمكنك من إنشاء والتعرف على الرموز الشريطية أحادية وثنائية الأبعاد. سترشدك هذه المقالة خلال عملية إنشاء رموز شريطية لخطأ Aztec بمستويات مختلفة لتصحيح الأخطاء. سنقوم بتقسيم كل مثال إلى خطوات متعددة لضمان فهم واضح وشامل.
 
 ## المتطلبات الأساسية
@@ -102,3 +108,9 @@ A1: يضمن تصحيح الأخطاء في الرموز الشريطية Aztec 
 ### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.BarCode لـ .NET؟
 
  ج5: يمكنك الوصول إلى الوثائق الشاملة الخاصة بـ Aspose.BarCode لـ .NET[هنا](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

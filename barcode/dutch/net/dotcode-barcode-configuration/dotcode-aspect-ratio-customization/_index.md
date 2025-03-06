@@ -3,10 +3,16 @@ title: Pas de DotCode-beeldverhouding aan met Aspose.BarCode voor .NET
 linktitle: DotCode-beeldverhouding aanpassen
 second_title: Aspose.BarCode .NET API
 description: Leer hoe u de beeldverhouding van de DotCode-barcode kunt aanpassen met Aspose.BarCode voor .NET. Creëer moeiteloos op maat gemaakte barcodes voor uw toepassingen.
-type: docs
 weight: 10
 url: /nl/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas de DotCode-beeldverhouding aan met Aspose.BarCode voor .NET
+
 ## Invoering
 
 Als u een .NET-ontwikkelaar bent en op zoek bent naar zeer aanpasbare barcodes in uw toepassingen, dan is Aspose.BarCode voor .NET de perfecte oplossing. In deze tutorial zullen we ingaan op een van de geavanceerde functies: het aanpassen van de DotCode-beeldverhouding. DotCode-barcodes worden veel gebruikt in sectoren zoals de gezondheidszorg, de postdiensten en de productie voor het coderen van informatie. Door de beeldverhouding aan te passen, kunt u uw streepjescode aanpassen aan uw specifieke behoeften. Laten we beginnen!
@@ -97,3 +103,9 @@ A4: Ja, Aspose.BarCode voor .NET kan zowel in web- als desktoptoepassingen worde
 ### V5: Waar kan ik meer informatie en documentatie vinden over Aspose.BarCode voor .NET?
 
 A5: U kunt de documentatie verkennen[hier](https://reference.aspose.com/barcode/net/) voor uitgebreide richtlijnen en voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

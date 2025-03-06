@@ -3,10 +3,16 @@ title: Настройка набора патч-кодов
 linktitle: Настройка набора патч-кодов
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как генерировать штрих-коды в .NET с помощью Aspose.BarCode. Легко настраивайте и интегрируйте штрих-коды в свои приложения.
-type: docs
 weight: 11
 url: /ru/net/patch-code-configuration/patch-code-set-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка набора патч-кодов
+
 
 В мире разработки программного обеспечения включение генерации штрих-кода в ваши приложения может стать решающим требованием. Aspose.BarCode для .NET предлагает надежное решение для генерации различных типов штрих-кодов в ваших .NET-приложениях. В этом пошаговом руководстве мы углубимся в тонкости Aspose.BarCode для .NET, рассмотрим его предварительные требования, импортируем пространства имен и разобьем каждый пример на несколько шагов. К концу этого руководства у вас будет прочная основа для использования этой мощной библиотеки.
 
@@ -127,3 +133,9 @@ Aspose.BarCode for .NET — это мощная библиотека, котор
 
 ### 5. Существует ли сообщество или форум для поддержки Aspose.BarCode для .NET?
  Да, вы можете обратиться за поддержкой и присоединиться к обсуждениям на форуме Aspose.BarCode по адресу[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET ile DataMatrix Barkodları Oluşturun
 linktitle: DataMatrix Sürümleri
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak .NET'te DataMatrix barkodlarını nasıl oluşturacağınızı öğrenin. Özel boyutlar, ECC desteği ve daha fazlası.
-type: docs
 weight: 12
 url: /tr/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile DataMatrix Barkodları Oluşturun
+
 .NET uygulamalarınızda DataMatrix barkodları oluşturmak için güvenilir bir çözüm arıyorsanız Aspose.BarCode for .NET doğru yoldur. Bu adım adım kılavuzda, DataMatrix barkodları oluşturmak için Aspose.BarCode for .NET'i kullanma sürecinde size yol göstereceğiz. Kolayca takip edebilmenizi sağlamak için her örneği birden fazla adıma ayıracağız.
 
 ## Önkoşullar
@@ -128,3 +134,9 @@ Cevap2: Evet, eğitimde gösterildiği gibi satır ve sütun sayısını ayarlay
 ### S5: Aspose.BarCode for .NET için nasıl geçici lisans alabilirim?
 
  Cevap5: Aspose.BarCode for .NET için geçici bir lisans almak için şu adresi ziyaret edin:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

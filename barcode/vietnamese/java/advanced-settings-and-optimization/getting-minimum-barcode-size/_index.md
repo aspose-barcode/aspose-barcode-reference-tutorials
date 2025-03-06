@@ -3,10 +3,16 @@ title: Nhận kích thước mã vạch tối thiểu trong Java với Aspose.Ba
 linktitle: Lấy kích thước mã vạch tối thiểu
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách tạo Mã vạch có kích thước tối thiểu trong Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo Mã vạch hiệu quả và tối ưu hóa không gian.
-type: docs
 weight: 12
 url: /vi/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận kích thước mã vạch tối thiểu trong Java với Aspose.BarCode
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách nhận kích thước Mã vạch tối thiểu trong Java bằng Aspose.BarCode. Nếu bạn đang tìm cách tối ưu hóa hình ảnh Mã vạch để đạt hiệu quả về không gian hoặc các yêu cầu hiển thị cụ thể thì hướng dẫn này là dành cho bạn. Aspose.BarCode for Java cung cấp một bộ tính năng mạnh mẽ và trong hướng dẫn này, chúng tôi sẽ tập trung vào việc tùy chỉnh kích thước Mã vạch của bạn ở mức tối thiểu.
@@ -93,3 +99,9 @@ Câu trả lời 2: Có, Aspose.BarCode được sử dụng rộng rãi trong c
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.BarCode cho Java không?
 
  Câu trả lời 5: Có, bạn có thể khám phá các tính năng của Aspose.BarCode bằng cách tải xuống[dùng thử miễn phí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

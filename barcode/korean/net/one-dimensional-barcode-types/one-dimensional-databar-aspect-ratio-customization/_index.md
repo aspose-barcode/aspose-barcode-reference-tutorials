@@ -3,10 +3,16 @@ title: 1차원 데이터바 종횡비 사용자 정의
 linktitle: 1차원 데이터바 종횡비 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode를 사용하여 .NET에서 1차원 DataBar 종횡비를 사용자 정의하는 방법을 알아보세요. 바코드 정밀도와 디자인을 향상시킵니다.
-type: docs
 weight: 16
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 데이터바 종횡비 사용자 정의
+
 
 바코드 세계에서는 원하는 결과를 얻기 위해서는 정밀도와 맞춤화가 핵심입니다. 숙련된 SEO 작가로서 저는 .NET용 Aspose.BarCode를 사용하여 1차원 DataBar의 종횡비를 사용자 정의하는 과정을 안내하려고 왔습니다. 우리는 이 복잡한 프로세스를 관리 가능한 단계로 나누어 귀하가 개념을 철저하게 이해할 수 있도록 하겠습니다. 그럼, 뛰어 들어 봅시다!
 
@@ -116,3 +122,10 @@ gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
  테스트 또는 평가를 위해 임시 라이선스가 필요한 경우, 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Känner igen PDF417 streckkod med kinesiska tecken i Java
 linktitle: Känner igen PDF417 streckkod med kinesiska tecken
 second_title: Aspose.BarCode Java API
 description: Upptäck hur du känner igen PDF417-streckkoder med kinesiska tecken i Java med Aspose.BarCode. Följ vår omfattande handledning för sömlös integration.
-type: docs
 weight: 10
 url: /sv/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Känner igen PDF417 streckkod med kinesiska tecken i Java
+
 
 ## Introduktion
 
@@ -89,3 +95,10 @@ Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary
 
 ### Var kan jag hitta dokumentationen?
  Dokumentationen finns tillgänglig[här](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

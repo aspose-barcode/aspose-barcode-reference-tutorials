@@ -3,10 +3,16 @@ title: Image Manipulation
 linktitle: Image Manipulation
 second_title: Aspose.BarCode Java API
 description: Explore Java barcode image manipulation with Aspose.BarCode tutorials. Enhance, customize, and create visually appealing barcodes effortlessly.
-type: docs
 weight: 27
 url: /java/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Image Manipulation
+
 ## Introduction
 Welcome to the realm of Image Manipulation Tutorials, where we unravel the intricacies of barcode image enhancement using Aspose.BarCode in the Java programming language. In this series, we will delve into the art of refining barcode images, exploring techniques such as adding customizable borders, setting margins for seamless integration, adjusting image quality for optimal results, colorizing for vibrancy, generating barcodes with empty bars for unique appearances, and effortlessly rotating barcode images. Whether you're a seasoned Java developer seeking to elevate your barcode solutions or a newcomer eager to explore the possibilities, our step-by-step guides promise to demystify the process, ensuring visually appealing and professional outcomes. Join us on this journey as we unlock the full potential of Aspose.BarCode, making barcode manipulation an accessible and rewarding endeavor for all.
 
@@ -47,3 +53,9 @@ Learn how to colorize barcode images in Java effortlessly using Aspose.BarCode. 
 Generate barcodes with empty bars effortlessly in Java using Aspose.BarCode. Customize appearance and integrate seamlessly. Explore the tutorial now!
 ### [Rotating Barcode Image in Java](./rotating-barcode-image/)
 Learn how to rotate barcode images in Java effortlessly using Aspose.BarCode. A comprehensive step-by-step guide for Java developers.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

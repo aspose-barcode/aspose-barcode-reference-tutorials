@@ -3,10 +3,16 @@ title: Μονοδιάστατος Κωδικός 39 Διαμόρφωση
 linktitle: Μονοδιάστατος Κωδικός 39 Διαμόρφωση
 second_title: Aspose.BarCode .NET API
 description: Μάθετε πώς να δημιουργείτε μονοδιάστατους γραμμωτούς κώδικες Code 39 σε .NET με Aspose.BarCode. Οδηγός βήμα προς βήμα για προγραμματιστές.
-type: docs
 weight: 11
 url: /el/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μονοδιάστατος Κωδικός 39 Διαμόρφωση
+
 
 ## Εισαγωγή
 
@@ -72,3 +78,9 @@ gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 
 ### Ε: Πού μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το Aspose.BarCode για .NET;
  Α: Μπορείτε να βρείτε απαντήσεις στις ερωτήσεις σας και να αναζητήσετε υποστήριξη στο φόρουμ Aspose.BarCode:[Aspose.BarCode Forum](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

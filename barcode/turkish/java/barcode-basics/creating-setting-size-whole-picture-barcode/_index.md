@@ -3,10 +3,16 @@ title: Java'da Barkodlu Resmin Tamamı için Boyut Oluşturma ve Ayarlama
 linktitle: Barkodlu Resmin Tamamı İçin Boyut Oluşturma ve Ayarlama
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode ile Java'da resmin tamamı için boyut oluşturmayı ve ayarlamayı keşfedin. Boyutu, kodlamayı ve görünümü zahmetsizce özelleştirin.
-type: docs
 weight: 11
 url: /tr/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Barkodlu Resmin Tamamı için Boyut Oluşturma ve Ayarlama
+
 ## giriiş
 
 Java geliştirme alanında, dinamik barkodları uygulamalara dahil etme ihtiyacı çok önemlidir. Aspose.BarCode for Java, bu süreci basitleştiren, çok yönlülük ve kullanım kolaylığı sunan güçlü bir araçtır. Bu eğitim, pratik bir örneğe odaklanarak barkodların oluşturulması ve özelleştirilmesi konusunda size rehberlik edecektir: barkodlu görüntünün tamamının boyutunu ayarlama.
@@ -112,3 +118,9 @@ Sonuç olarak Aspose.BarCode for Java, dinamik barkodları Java uygulamalarını
 ### S5: Geçici lisans seçeneği var mı?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Μονοδιάστατη διαμόρφωση ευρείας-στενής
 linktitle: Μονοδιάστατη διαμόρφωση ευρείας-στενής αναλογίας
 second_title: Aspose.BarCode .NET API
 description: Δημιουργήστε εύκολα προσαρμοσμένους γραμμικούς κώδικες με το Aspose.BarCode για .NET. Οδηγός βήμα προς βήμα για μονοδιάστατη διαμόρφωση ευρείας-στενής αναλογίας.
-type: docs
 weight: 22
 url: /el/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μονοδιάστατη διαμόρφωση ευρείας-στενής αναλογίας
+
 
 Ψάχνετε να δημιουργήσετε και να προσαρμόσετε γραμμικούς κώδικες χωρίς κόπο στις εφαρμογές σας .NET; Μην ψάχνετε άλλο! Το Aspose.BarCode for .NET είναι μια ισχυρή βιβλιοθήκη που κάνει τη δημιουργία και την προσαρμογή γραμμικού κώδικα παιχνιδάκι. Σε αυτόν τον οδηγό βήμα προς βήμα, θα εμβαθύνουμε στο πώς να αξιοποιήσετε τη δύναμη του Aspose.BarCode για .NET για τη δημιουργία γραμμωτών κωδίκων με διαμόρφωση μεγάλης στενής αναλογίας.
 
@@ -104,3 +110,10 @@ gen.Save($"{path}WideNarrow5Code39.png", BarCodeImageFormat.Png);
 
 ### 5. Πώς μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το Aspose.BarCode για .NET;
  Μπορείτε να επισκεφθείτε το[Φόρουμ Aspose.BarCode](https://forum.aspose.com/c/barcode/13) για υποστήριξη και συζητήσεις.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

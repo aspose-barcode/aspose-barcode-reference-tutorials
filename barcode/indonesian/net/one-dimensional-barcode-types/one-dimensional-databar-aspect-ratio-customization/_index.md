@@ -3,10 +3,16 @@ title: Kustomisasi Rasio Aspek Databar Satu Dimensi
 linktitle: Kustomisasi Rasio Aspek Databar Satu Dimensi
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara menyesuaikan rasio aspek DataBar Satu Dimensi di .NET menggunakan Aspose.BarCode. Meningkatkan presisi dan desain kode batang.
-type: docs
 weight: 16
 url: /id/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kustomisasi Rasio Aspek Databar Satu Dimensi
+
 
 Dalam dunia barcode, presisi dan penyesuaian adalah kunci untuk mencapai hasil yang diinginkan. Sebagai penulis SEO berpengalaman, saya di sini untuk memandu Anda melalui proses penyesuaian rasio aspek DataBar Satu Dimensi menggunakan Aspose.BarCode untuk .NET. Kami akan membagi proses rumit ini menjadi langkah-langkah yang dapat dikelola, memastikan Anda memahami konsepnya secara menyeluruh. Jadi, mari selami!
 
@@ -116,3 +122,10 @@ Meskipun Anda dapat menyesuaikan rasio aspek, perubahan ekstrem dapat memengaruh
  Jika Anda memerlukan lisensi sementara untuk pengujian atau evaluasi, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Khởi tạo DotCode Reader với Aspose.BarCode cho .NET
 linktitle: Khởi tạo trình đọc DotCode
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách khởi tạo DotCode Reader bằng Aspose.BarCode cho .NET. Tạo mã vạch DotCode dễ dàng cho các ứng dụng khác nhau.
-type: docs
 weight: 14
 url: /vi/net/dotcode-barcode-configuration/dotcode-reader-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khởi tạo DotCode Reader với Aspose.BarCode cho .NET
+
 ## Giới thiệu
 
 Bạn đang tìm cách tích hợp khả năng tạo và nhận dạng mã vạch mạnh mẽ vào các ứng dụng .NET của mình? Aspose.BarCode for .NET là một thư viện mạnh mẽ cho phép bạn dễ dàng tạo, quản lý và đọc các loại mã vạch khác nhau. Trong hướng dẫn từng bước này, chúng tôi sẽ đi sâu vào một tính năng cụ thể của Aspose.BarCode cho .NET: Khởi tạo DotCode Reader.
@@ -100,3 +106,9 @@ A3: Chắc chắn rồi! Aspose.BarCode for .NET cung cấp nhiều tùy chọn 
 ### Câu hỏi 5: Có sẵn phiên bản dùng thử miễn phí của Aspose.BarCode cho .NET cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) để kiểm tra khả năng của Aspose.BarCode cho .NET trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

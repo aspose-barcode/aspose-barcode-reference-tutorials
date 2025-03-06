@@ -3,10 +3,16 @@ title: Codablock F 編碼
 linktitle: Codablock F 編碼
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 釋放 Codablock F 編碼的潛力。自訂寬高比，配置行和列以獲得精確的二維條碼。
-type: docs
 weight: 21
 url: /zh-hant/net/codablock-f-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codablock F 編碼
+
 
 歡迎來到 Codablock F 編碼教學的世界，在這裡我們將揭開使用 Aspose.BarCode for .NET 創建精確且客製化的 2D 條碼的藝術的神秘面紗。在本綜合指南中，我們將引導您了解兩個基本面向：自訂 Codablock F 縱橫比和設定 Codablock F 行和列。
 
@@ -28,3 +34,9 @@ url: /zh-hant/net/codablock-f-encoding/
 使用 Aspose.BarCode for .NET 掌握 Codablock F 縱橫比客製化。輕鬆建立適合您需求的精確條碼。
 ### [配置 Codablock F 行和列](./codablock-f-row-column-configuration/)
 了解如何在 Aspose.BarCode for .NET 中設定 Codablock F 行和列。為各種應用創建客製化的二維條碼。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

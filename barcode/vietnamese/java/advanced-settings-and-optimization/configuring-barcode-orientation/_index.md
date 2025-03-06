@@ -3,10 +3,16 @@ title: Định cấu hình định hướng mã vạch bằng Aspose.BarCode cho
 linktitle: Định cấu hình hướng mã vạch
 second_title: API Java Aspose.BarCode
 description: Khám phá sức mạnh của Aspose.BarCode cho Java trong việc định cấu hình hướng mã vạch. Hướng dẫn toàn diện để tích hợp và nhận dạng liền mạch trong các ứng dụng Java của bạn.
-type: docs
 weight: 16
 url: /vi/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình định hướng mã vạch bằng Aspose.BarCode cho Java
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ kỹ thuật số ngày càng phát triển, mã vạch đã trở thành một phần phổ biến trong cuộc sống hàng ngày của chúng ta, tạo điều kiện cho các giao dịch liền mạch và quản lý dữ liệu hiệu quả. Aspose.BarCode for Java nổi lên như một công cụ mạnh mẽ để xử lý việc tạo và nhận dạng mã vạch trong các ứng dụng Java. Hướng dẫn này sẽ đi sâu vào một khía cạnh cụ thể của cấu hình mã vạch – mã vạch định hướng trong Java.
@@ -94,3 +100,9 @@ Câu trả lời 3: Có, bạn có thể khám phá các tính năng của Aspos
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ hoặc tương tác với cộng đồng Aspose.BarCode ở đâu?
 
  A5: Cái[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) là một nguồn tài nguyên quý giá để tìm kiếm sự hỗ trợ và gắn kết với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

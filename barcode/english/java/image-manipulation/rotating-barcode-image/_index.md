@@ -3,10 +3,16 @@ title: Rotating Barcode Image in Java
 linktitle: Rotating Barcode Image
 second_title: Aspose.BarCode Java API
 description: Learn how to rotate barcode images in Java effortlessly using Aspose.BarCode. A comprehensive step-by-step guide for Java developers.
-type: docs
 weight: 15
 url: /java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rotating Barcode Image in Java
+
 
 ## Introduction
 
@@ -86,3 +92,10 @@ Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for comm
 ### Q: Can I generate barcodes for different encoding types?
 Absolutely, just adjust the EncodeTypes in Step 2 based on your requirements.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

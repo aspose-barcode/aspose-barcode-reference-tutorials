@@ -3,10 +3,16 @@ title: Configuration du code à barres DotCode
 linktitle: Configuration du code à barres DotCode
 second_title: API Aspose.BarCode .NET
 description: Générez facilement des codes-barres DotCode personnalisés avec Aspose.BarCode .NET. Apprenez les proportions, les modes d'encodage, le texte de code étendu et l'initialisation du lecteur.
-type: docs
 weight: 32
 url: /fr/net/dotcode-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration du code à barres DotCode
+
 
 ## Introduction
 Plongez dans le monde des codes-barres DotCode avec Aspose.BarCode pour .NET. Nos tutoriels couvrent divers aspects, vous permettant de créer sans effort des codes-barres sur mesure. Explorez des aspects tels que la personnalisation des proportions, les modes d'encodage (Auto et Octets), la configuration étendue du texte de code, l'initialisation du lecteur, la configuration des lignes et des colonnes et le mode d'ajout structuré. Suivez nos guides étape par étape pour maîtriser chaque configuration, garantissant une génération de codes-barres 2D précise et personnalisable. Que vous soyez débutant ou développeur expérimenté, nos didacticiels fournissent des informations précieuses sur la création de codes-barres DotCode efficaces pour diverses applications. Explorez notre documentation complète, téléchargez la bibliothèque et obtenez des licences temporaires pour démarrer votre parcours de génération de codes-barres. Aspose.BarCode for .NET simplifie le processus, vous permettant de générer des codes-barres de manière transparente et de les intégrer facilement dans vos applications. Rejoignez-nous dans cette série de didacticiels pour améliorer vos compétences en matière de création de codes-barres et rester à la pointe de la technologie des codes-barres.|
@@ -48,3 +54,9 @@ Découvrez comment initialiser DotCode Reader à l'aide d'Aspose.BarCode pour .N
 Apprenez à configurer les lignes et les colonnes DotCode avec Aspose.BarCode pour .NET. Générez sans effort des codes-barres 2D précis et personnalisables.
 ### [Configuration du mode d'ajout structuré DotCode](./dotcode-structured-append-mode-configuration/)
 Apprenez à configurer le mode d'ajout structuré DotCode avec Aspose.BarCode pour .NET et à créer des codes-barres efficaces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

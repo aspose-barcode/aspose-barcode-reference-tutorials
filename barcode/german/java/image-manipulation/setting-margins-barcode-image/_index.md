@@ -3,10 +3,16 @@ title: Festlegen von Rändern für Barcode-Bilder in Java
 linktitle: Festlegen von Rändern für Barcode-Bilder
 second_title: Aspose.BarCode Java API
 description: Erfahren Sie, wie Sie mit Aspose.BarCode Ränder für Barcode-Bilder in Java festlegen. Passen Sie die Abstände für eine nahtlose Integration in Ihre Anwendung an
-type: docs
 weight: 11
 url: /de/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen von Rändern für Barcode-Bilder in Java
+
 
 ## Einführung
 
@@ -99,3 +105,10 @@ Aspose.BarCode wurde hauptsächlich für Java entwickelt, es sind jedoch Version
 
 ### Wie kann ich die Vollversion von Aspose.BarCode für Java erwerben?
  Sie können die Vollversion von Aspose.BarCode für Java unter kaufen[Kaufseite](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Дополнение данных в Java
 linktitle: Дополнение данных
 second_title: API Aspose.BarCode Java
 description: Узнайте, как создавать динамические штрих-коды на Java с помощью Aspose.BarCode. Пошаговое руководство по дополнению данных символикой EAN_13.
-type: docs
 weight: 16
 url: /ru/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Дополнение данных в Java
+
 
 ## Введение
 
@@ -96,3 +102,10 @@ generator.save(dataDir + "supplementData.jpg");
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 Java에서 바코드 영역 추출 마스�
 linktitle: 이미지에서 바코드 영역 정보 추출
 second_title: Aspose.BarCode 자바 API
 description: 바코드 영역 세부 정보를 쉽게 추출할 수 있는 강력한 라이브러리인 Aspose.BarCode for Java를 살펴보세요. Java 애플리케이션을 정밀하게 강화하세요.
-type: docs
 weight: 17
 url: /ko/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 Java에서 바코드 영역 추출 마스터하기
+
 ## 소개
 
 Java 프로그래밍의 역동적인 세계에서 바코드 정보를 조작하는 것은 일반적이고 중요한 작업입니다. Aspose.BarCode for Java는 이 프로세스를 단순화하는 강력한 도구로 등장하여 이미지에서 바코드 영역 정보를 추출하기 위한 효율적인 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.BarCode를 사용하여 Java 환경에서 바코드 영역 세부 정보를 추출하는 단계별 프로세스를 살펴보겠습니다.
@@ -98,3 +104,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 ### Q5: Aspose.BarCode에 대한 임시 라이선스를 얻으려면 어떻게 해야 합니까?
 
  A5: 임시 라이센스가 필요한 경우 다음을 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/) 자세한 내용은.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

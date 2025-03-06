@@ -3,10 +3,16 @@ title: ترميز DataMatrix بالبايت باستخدام Aspose.BarCode لـ
 linktitle: وضع تشفير DataMatrix (بايت)
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تشفير البيانات بتنسيق DataMatrix باستخدام وضع Bytes مع Aspose.BarCode لـ .NET. اتبع دليلنا خطوة بخطوة لإنشاء الباركود والتعرف عليه.
-type: docs
 weight: 15
 url: /ar/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز DataMatrix بالبايت باستخدام Aspose.BarCode لـ .NET
+
 في عالم إنشاء الباركود والتعرف عليه، يمثل Aspose.BarCode for .NET أداة قوية ومتعددة الاستخدامات. بفضل مجموعته القوية من الميزات والإمكانيات، فإنه يمكّن المطورين من إنشاء الرموز الشريطية ومعالجتها وقراءتها دون عناء. من بين العديد من أوضاع التشفير التي يقدمها، يعد وضع تشفير DataMatrix باستخدام Bytes ميزة بارزة. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية استخدام Aspose.BarCode لـ .NET لترميز البيانات بتنسيق DataMatrix باستخدام وضع Bytes.
 
 ## المتطلبات الأساسية
@@ -121,3 +127,9 @@ A1: وضع ترميز DataMatrix هو أسلوب يستخدم لترميز ال�
 ### س5: هل يمكنني استخدام ترخيص مؤقت لـ Aspose.BarCode لـ .NET؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.BarCode لـ .NET من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

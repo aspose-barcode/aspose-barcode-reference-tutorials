@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 建立補充條碼數據
 linktitle: 補充條碼資料配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 產生補充條碼資料。輕鬆自訂 EAN-2 和 EAN-5 條碼。 .NET 開發人員的分步指南。
-type: docs
 weight: 10
 url: /zh-hant/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 建立補充條碼數據
+
 
 在條碼產生和自訂領域，Aspose.BarCode for .NET 是一款功能強大且多功能的工具。無論您是經驗豐富的開發人員還是剛起步，本逐步指南都會引導您完成使用 Aspose.BarCode for .NET 設定補充條碼資料的過程。 
 
@@ -110,3 +116,10 @@ Aspose.BarCode for .NET 是一個強大的條碼產生和自訂工具。在本�
 
 ### 我可以自訂產生的條碼的外觀嗎？
 當然，您可以自訂條碼的尺寸、顏色和其他方面來滿足您的要求。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

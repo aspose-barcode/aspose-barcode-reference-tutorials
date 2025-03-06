@@ -3,10 +3,16 @@ title: تكوين الكود 128 أحادي البعد
 linktitle: تكوين الكود 128 أحادي البعد
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء باركود Code 128 أحادي البعد في .NET باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لتكامل الباركود بسلاسة.
-type: docs
 weight: 10
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الكود 128 أحادي البعد
+
 
 إذا كنت مطور .NET وتبحث عن أداة قوية لإنشاء الرموز الشريطية في تطبيقاتك، فإن Aspose.BarCode for .NET هو الحل الأمثل لك. سيرشدك هذا الدليل الشامل خلال عملية تسخير إمكانيات Aspose.BarCode لـ .NET لإنشاء رموز باركود Code 128 أحادية البعد، وهي مصممة لكل من المطورين المبتدئين وذوي الخبرة. 
 
@@ -108,3 +114,10 @@ gen.Save($"{path}OneCSCode128ShowChecksum.png", BarCodeImageFormat.Png);
 
 ### أين يمكنني الحصول على الدعم لـ Aspose.BarCode لـ .NET؟
  يمكنك طلب المساعدة ومشاركة تجاربك على منتدى Aspose.BarCode for .NET[هنا](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

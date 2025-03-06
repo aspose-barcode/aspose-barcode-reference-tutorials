@@ -3,10 +3,16 @@ title: Specifying Symbology for Barcode in Java
 linktitle: Specifying Symbology for Barcode
 second_title: Aspose.BarCode Java API
 description: Generate dynamic barcodes in Java with Aspose.BarCode. Easy integration, versatile customization, and robust features for all your barcode needs.
-type: docs
 weight: 10
 url: /java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specifying Symbology for Barcode in Java
+
 
 ## Introduction
 
@@ -78,3 +84,10 @@ Refer to the documentation [here](https://reference.aspose.com/barcode/java/) fo
 ### How can I get support for Aspose.BarCode?
 Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) to get assistance from the community and Aspose experts.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rendu du code-barres vers une instance d'image en Java
 linktitle: Rendu du code-barres vers une instance d'image
 second_title: API Java Aspose.BarCode
 description: Explorez la puissance d'Aspose.BarCode pour Java ! Générez sans effort des codes-barres de différents types à l’aide de cette bibliothèque robuste.
-type: docs
 weight: 11
 url: /fr/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu du code-barres vers une instance d'image en Java
+
 
 ## Introduction
 
@@ -70,3 +76,10 @@ Oui, Aspose.BarCode prend en charge un large éventail de types de codes-barres,
 
 ### Existe-t-il une option de licence temporaire disponible ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

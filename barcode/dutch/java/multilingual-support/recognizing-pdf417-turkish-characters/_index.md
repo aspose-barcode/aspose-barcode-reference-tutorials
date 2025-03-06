@@ -3,10 +3,16 @@ title: Herkennen van PDF417-streepjescode met Turkse karakters in Java
 linktitle: Herkennen van PDF417-streepjescode met Turkse karakters
 second_title: Aspose.BarCode Java-API
 description: Leer hoe u PDF417-barcodes met Turkse tekens in Java kunt herkennen met behulp van Aspose.BarCode. Eenvoudige integratie en krachtige decoderingsmogelijkheden.
-type: docs
 weight: 11
 url: /nl/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herkennen van PDF417-streepjescode met Turkse karakters in Java
+
 
 ## Invoering
 
@@ -79,3 +85,10 @@ Ja, Aspose.BarCode ondersteunt een breed scala aan barcodetypen, waaronder PDF41
 
 ### Kan ik tijdens de ontwikkeling een tijdelijke licentie gebruiken?
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

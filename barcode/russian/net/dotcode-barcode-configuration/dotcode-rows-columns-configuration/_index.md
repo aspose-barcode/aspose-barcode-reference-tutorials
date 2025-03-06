@@ -3,10 +3,16 @@ title: Конфигурация строк и столбцов DotCode с пом
 linktitle: Конфигурация строк и столбцов DotCode
 second_title: API Aspose.BarCode .NET
 description: Научитесь настраивать строки и столбцы DotCode с помощью Aspose.BarCode для .NET. Создавайте точные и настраиваемые 2D-штрих-коды без особых усилий.
-type: docs
 weight: 15
 url: /ru/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конфигурация строк и столбцов DotCode с помощью Aspose.BarCode для .NET
+
 ## Введение
 
 Добро пожаловать в мир генерации штрих-кодов с помощью Aspose.BarCode для .NET! В этом подробном руководстве мы углубимся в увлекательную область настройки строк и столбцов DotCode с помощью Aspose.BarCode. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь в области создания штрих-кодов, это руководство проведет вас через основные шаги, предварительные требования и пространства имен, которые помогут вам начать освоение конфигурации строк и столбцов DotCode.
@@ -112,3 +118,9 @@ A4: Aspose.BarCode поддерживает широкий спектр типо
 ### Вопрос 5. Где я могу найти дополнительные руководства и примеры для Aspose.BarCode для .NET?
 
  A5: Вы можете изучить дополнительные руководства и примеры в разделе[Документация Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

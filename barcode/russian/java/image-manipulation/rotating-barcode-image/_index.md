@@ -3,10 +3,16 @@ title: Вращение изображения штрих-кода в Java
 linktitle: Вращающееся изображение штрих-кода
 second_title: API Aspose.BarCode Java
 description: Узнайте, как легко вращать изображения штрих-кодов в Java с помощью Aspose.BarCode. Полное пошаговое руководство для разработчиков Java.
-type: docs
 weight: 15
 url: /ru/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вращение изображения штрих-кода в Java
+
 
 ## Введение
 
@@ -85,3 +91,10 @@ bb.save(dataDir + "barcode-image-rotate.jpg");
 
 ### Вопрос: Могу ли я генерировать штрих-коды для разных типов кодировки?
 Конечно, просто настройте EncodeTypes на шаге 2 в соответствии с вашими требованиями.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

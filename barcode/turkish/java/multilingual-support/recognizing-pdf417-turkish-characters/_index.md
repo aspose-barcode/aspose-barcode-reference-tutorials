@@ -3,10 +3,16 @@ title: Java'da Türkçe Karakterli PDF417 Barkodunu Tanıma
 linktitle: Türkçe Karakterli PDF417 Barkodu Tanıma
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode kullanarak Java'da Türkçe karakterli PDF417 barkodlarını nasıl tanıyacağınızı öğrenin. Kolay entegrasyon ve güçlü kod çözme yetenekleri.
-type: docs
 weight: 11
 url: /tr/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Türkçe Karakterli PDF417 Barkodunu Tanıma
+
 
 ## giriiş
 
@@ -79,3 +85,10 @@ Evet, Aspose.BarCode, PDF417 dahil çok çeşitli barkod türlerini destekler.
 
 ### Geliştirme sırasında geçici bir lisans kullanabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

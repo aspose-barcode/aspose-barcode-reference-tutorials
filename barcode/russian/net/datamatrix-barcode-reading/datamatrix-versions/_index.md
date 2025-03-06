@@ -3,10 +3,16 @@ title: Создавайте штрих-коды DataMatrix с помощью Asp
 linktitle: Версии DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как генерировать штрих-коды DataMatrix в .NET с помощью Aspose.BarCode для .NET. Пользовательские размеры, поддержка ECC и многое другое.
-type: docs
 weight: 12
 url: /ru/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создавайте штрих-коды DataMatrix с помощью Aspose.BarCode для .NET
+
 Если вы ищете надежное решение для создания штрих-кодов DataMatrix в ваших .NET-приложениях, вам подойдет Aspose.BarCode for .NET. В этом пошаговом руководстве мы покажем вам процесс использования Aspose.BarCode для .NET для создания штрих-кодов DataMatrix. Мы разобьем каждый пример на несколько шагов, чтобы вы могли легко следовать им.
 
 ## Предварительные условия
@@ -128,3 +134,9 @@ A1: ECC (код исправления ошибок) — это жизненно
 ### Вопрос 5: Как я могу получить временную лицензию на Aspose.BarCode для .NET?
 
  A5: Чтобы получить временную лицензию на Aspose.BarCode для .NET, посетите[эта ссылка](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

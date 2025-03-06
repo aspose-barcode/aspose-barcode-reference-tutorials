@@ -3,10 +3,16 @@ title: Kustomisasi Ketebalan Batas Barcode ITF-14
 linktitle: Kustomisasi Ketebalan Batas Barcode ITF-14
 second_title: Aspose.BarCode .NET API
 description: Sesuaikan ketebalan batas barcode ITF-14 dengan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pembuatan kode batang yang lancar.
-type: docs
 weight: 10
 url: /id/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kustomisasi Ketebalan Batas Barcode ITF-14
+
 
 Apakah Anda ingin menyempurnakan pembuatan kode batang dengan ketebalan tepian yang dapat disesuaikan menggunakan Aspose.BarCode untuk .NET? Jika demikian, Anda berada di tempat yang tepat. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses memodifikasi ketebalan tepi barcode ITF-14. Dengan beberapa langkah sederhana, Anda dapat mencapai ketebalan batas yang diinginkan untuk kode batang Anda, baik untuk pelabelan produk atau manajemen inventaris. Mari kita mulai!
 
@@ -108,3 +114,9 @@ Batasannya mungkin berbeda-beda, bergantung pada persyaratan pembuatan kode bata
 
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.BarCode untuk .NET?
  Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

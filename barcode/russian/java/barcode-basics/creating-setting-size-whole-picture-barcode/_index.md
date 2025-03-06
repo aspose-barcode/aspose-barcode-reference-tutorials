@@ -3,10 +3,16 @@ title: Создание и настройка размера всего изоб
 linktitle: Создание и настройка размера всего изображения со штрих-кодом
 second_title: API Aspose.BarCode Java
 description: Изучите создание и настройку размера всего изображения в Java с помощью Aspose.BarCode. Настраивайте размер, кодировку и внешний вид без особых усилий.
-type: docs
 weight: 11
 url: /ru/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание и настройка размера всего изображения со штрих-кодом в Java
+
 ## Введение
 
 В области разработки Java необходимость включения динамических штрих-кодов в приложения имеет первостепенное значение. Aspose.BarCode для Java — мощный инструмент, который упрощает этот процесс, предлагая универсальность и простоту использования. В этом руководстве вы узнаете, как создавать и настраивать штрих-коды, уделяя особое внимание практическому примеру — настройке размера всего изображения со штрих-кодом.
@@ -112,3 +118,9 @@ ImageIO.write(img, "png", outputfile);
 ### В5: Есть ли возможность получить временную лицензию?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

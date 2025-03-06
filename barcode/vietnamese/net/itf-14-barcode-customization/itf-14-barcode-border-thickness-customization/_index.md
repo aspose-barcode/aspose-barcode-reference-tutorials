@@ -3,10 +3,16 @@ title: Tùy chỉnh độ dày đường viền mã vạch ITF-14
 linktitle: Tùy chỉnh độ dày đường viền mã vạch ITF-14
 second_title: API Aspose.BarCode .NET
 description: Tùy chỉnh độ dày đường viền mã vạch ITF-14 bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước để tạo mã vạch liền mạch.
-type: docs
 weight: 10
 url: /vi/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh độ dày đường viền mã vạch ITF-14
+
 
 Bạn đang tìm cách nâng cao khả năng tạo mã vạch của mình với độ dày đường viền có thể tùy chỉnh bằng Aspose.BarCode cho .NET? Nếu vậy, bạn đang ở đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình sửa đổi độ dày đường viền của mã vạch ITF-14. Với một vài bước đơn giản, bạn có thể đạt được độ dày đường viền mong muốn cho mã vạch của mình, cho dù đó là để dán nhãn sản phẩm hay quản lý hàng tồn kho. Bắt đầu nào!
 
@@ -108,3 +114,9 @@ Các giới hạn có thể khác nhau tùy thuộc vào yêu cầu tạo mã v�
 
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.BarCode cho .NET?
  Bạn có thể nhận được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

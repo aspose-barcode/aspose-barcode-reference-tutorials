@@ -3,10 +3,16 @@ title: Membuat Data Barcode Tambahan dengan Aspose.BarCode untuk .NET
 linktitle: Konfigurasi Data Barcode Tambahan
 second_title: Aspose.BarCode .NET API
 description: Hasilkan data kode batang tambahan dengan Aspose.BarCode untuk .NET. Sesuaikan kode batang EAN-2 dan EAN-5 dengan mudah. Panduan langkah demi langkah untuk pengembang .NET.
-type: docs
 weight: 10
 url: /id/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Data Barcode Tambahan dengan Aspose.BarCode untuk .NET
+
 
 Dalam dunia pembuatan dan penyesuaian kode batang, Aspose.BarCode untuk .NET menonjol sebagai alat yang ampuh dan serbaguna. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah ini akan memandu Anda melalui proses mengonfigurasi data kode batang tambahan menggunakan Aspose.BarCode untuk .NET. 
 
@@ -110,3 +116,10 @@ Ya, mendukung berbagai jenis barcode, termasuk EAN-13, QR Code, Code 128, dan ba
 
 ### Bisakah saya menyesuaikan tampilan kode batang yang dihasilkan?
 Tentu saja, Anda dapat menyesuaikan dimensi, warna, dan aspek lain dari kode batang untuk memenuhi kebutuhan Anda.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DataMatrix 条码读取
 linktitle: DataMatrix 条码读取
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 轻松生成和读取 DataMatrix 条形码。深入研究 DataMatrix 读卡器编程和结构化附加配置。
-type: docs
 weight: 31
 url: /zh/net/datamatrix-barcode-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DataMatrix 条码读取
+
 
 如果您希望深入研究 DataMatrix 条形码读取的世界并释放 Aspose.BarCode for .NET 的全部潜力，那么您来对地方了。在本综合指南中，我们将引导您完成基本教程，其中涵盖 DataMatrix 读取器编程、结构化附加配置以及在 .NET 应用程序中生成 DataMatrix 条形码的艺术。
 
@@ -30,3 +36,9 @@ url: /zh/net/datamatrix-barcode-reading/
 了解如何使用 Aspose.BarCode 在 .NET 中创建和读取 DataMatrix 结构化附加配置，以实现高效的数据组织。
 ### [生成 DataMatrix 条形码](./datamatrix-versions/)
 了解如何使用 Aspose.BarCode for .NET 在 .NET 中生成 DataMatrix 条形码。自定义尺寸、ECC 支持等等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Läsa och sortera streckkoder i specifik ordning i Java
 linktitle: Läsa och sortera streckkoder i specifik ordning
 second_title: Aspose.BarCode Java API
 description: Förbättra dina Java-applikationer med Aspose.BarCode! Lär dig att läsa och sortera streckkoder effektivt. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 10
 url: /sv/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Läsa och sortera streckkoder i specifik ordning i Java
+
 
 ## Introduktion
 
@@ -123,3 +129,10 @@ den här handledningen har vi utforskat hur man använder Aspose.BarCode för Ja
 
 ### F: Var kan jag söka stöd eller ställa frågor?
  Besök supportforumet[här](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

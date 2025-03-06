@@ -3,10 +3,16 @@ title: Anpassa DotCode Aspect Ratio med Aspose.BarCode för .NET
 linktitle: DotCode Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
 description: Lär dig att anpassa DotCode streckkodsförhållande med Aspose.BarCode för .NET. Skapa skräddarsydda streckkoder för dina applikationer utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassa DotCode Aspect Ratio med Aspose.BarCode för .NET
+
 ## Introduktion
 
 Om du är en .NET-utvecklare som vill skapa mycket anpassningsbara streckkoder i dina applikationer, är Aspose.BarCode för .NET den perfekta lösningen. I den här handledningen kommer vi att fördjupa oss i en av dess avancerade funktioner – att anpassa DotCode-bildförhållandet. DotCode-streckkoder används ofta i branscher som sjukvård, posttjänster och tillverkning för att koda information. Genom att justera bildförhållandet kan du skräddarsy din streckkod efter dina specifika behov. Låt oss börja!
@@ -97,3 +103,9 @@ S4: Ja, Aspose.BarCode för .NET kan användas i både webb- och skrivbordsappli
 ### F5: Var kan jag hitta mer information och dokumentation om Aspose.BarCode för .NET?
 
 S5: Du kan utforska dokumentationen[här](https://reference.aspose.com/barcode/net/) för omfattande vägledning och exempel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

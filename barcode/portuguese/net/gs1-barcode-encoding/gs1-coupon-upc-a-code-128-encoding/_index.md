@@ -3,10 +3,16 @@ title: Codificação do código 128 do cupom GS1 UPC-A
 linktitle: Codificação do código 128 do cupom GS1 UPC-A
 second_title: API Aspose.BarCode .NET
 description: Gere códigos de barras facilmente com Aspose.BarCode for .NET - Sua solução abrangente de geração de código de barras. Comece hoje!
-type: docs
 weight: 12
 url: /pt/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codificação do código 128 do cupom GS1 UPC-A
+
 
 ## Introdução
 
@@ -115,3 +121,9 @@ Absolutamente. Aspose.BarCode for .NET fornece vários parâmetros e configuraç
 
 ### P: Existem outros tipos de codificação suportados pelo Aspose.BarCode for .NET?
 Sim, Aspose.BarCode for .NET oferece suporte a uma ampla variedade de tipos de codificação, incluindo UPC-A, Code 128, códigos QR e muito mais. Você pode encontrar a lista completa na documentação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

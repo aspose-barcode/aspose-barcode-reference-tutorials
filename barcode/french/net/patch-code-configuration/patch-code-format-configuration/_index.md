@@ -3,10 +3,16 @@ title: Création de codes-barres de code de correctif à l'aide d'Aspose.BarCode
 linktitle: Configuration du format du code de correctif
 second_title: API Aspose.BarCode .NET
 description: Générez facilement des codes-barres Patch Code avec Aspose.BarCode pour .NET. Découvrez les étapes pour créer des codes-barres Patch Code et améliorer votre système de gestion de documents. Téléchargez la bibliothèque maintenant !
-type: docs
 weight: 10
 url: /fr/net/patch-code-configuration/patch-code-format-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de codes-barres de code de correctif à l'aide d'Aspose.BarCode pour .NET
+
 
 Dans ce didacticiel, nous explorerons comment générer des codes-barres Patch Code à l'aide d'Aspose.BarCode pour .NET. Les codes patch sont des codes-barres bidimensionnels généralement utilisés dans la gestion et l'archivage de documents. Aspose.BarCode simplifie le processus de création de codes-barres Patch Code dans vos applications .NET. Dans ce guide, nous couvrirons l'introduction, les prérequis, l'importation d'espaces de noms et une présentation étape par étape de l'exemple que vous avez fourni.
 
@@ -95,3 +101,10 @@ Oui, Aspose.BarCode pour .NET est bien adapté aux systèmes de gestion de docum
 
 ### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
  Si vous avez des questions ou avez besoin d'aide, vous pouvez visiter le forum de support Aspose.BarCode for .NET.[ici](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

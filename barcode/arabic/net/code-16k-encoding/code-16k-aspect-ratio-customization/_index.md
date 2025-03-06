@@ -3,10 +3,16 @@ title: قم بتخصيص نسب العرض إلى الارتفاع للرمز ا
 linktitle: كود تخصيص نسبة العرض إلى الارتفاع 16K
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تخصيص نسب العرض إلى الارتفاع للرمز الشريطي Code 16K باستخدام Aspose.BarCode لـ .NET. إنشاء رموز شريطية دقيقة لتطبيقاتك.
-type: docs
 weight: 10
 url: /ar/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتخصيص نسب العرض إلى الارتفاع للرمز الشريطي 16 كيلو بايت باستخدام Aspose.BarCode لـ .NET
+
 في عالم إنشاء الباركود، تعد الدقة والتخصيص أمرًا أساسيًا. يوفر Aspose.BarCode for .NET للمطورين مجموعة أدوات قوية لإنشاء الرموز الشريطية ومعالجتها، بما في ذلك القدرة على تخصيص نسبة العرض إلى الارتفاع للرموز الشريطية Code 16K. في هذا الدليل التفصيلي، سنستكشف كيفية إنشاء رموز شريطية Code 16K بنسب عرض إلى ارتفاع مختلفة باستخدام Aspose.BarCode لـ .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، فسنقوم بتقسيم العملية إلى خطوات بسيطة وسهلة الفهم.
 
 ## المتطلبات الأساسية
@@ -97,3 +103,10 @@ A1: تحدد نسبة العرض إلى الارتفاع للرمز الشريط
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.BarCode لـ .NET؟
 
  ج5: نعم، يمكنك تجربة Aspose.BarCode for .NET عن طريق تنزيل الإصدار التجريبي المجاني من[هنا](https://releases.aspose.com/). يتيح لك ذلك استكشاف ميزاته ووظائفه قبل إجراء عملية الشراء.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

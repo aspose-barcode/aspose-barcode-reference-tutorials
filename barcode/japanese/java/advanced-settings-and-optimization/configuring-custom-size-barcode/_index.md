@@ -3,10 +3,16 @@ title: Aspose.BarCode を使用した Java でのカスタム サイズのバー
 linktitle: バーコードのカスタム サイズの構成
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して、Java でカスタム サイズのバーコードを簡単に構成できることを確認してください。正確な構成については、ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 10
 url: /ja/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode を使用した Java でのカスタム サイズのバーコードの構成
+
 ## 導入
 
 カスタム サイズのバーコードをシームレスに構成したいと考えている Java 開発者にとって、Aspose.BarCode for Java は頼りになるソリューションです。このチュートリアルでは、バーコードのカスタム サイズを構成して、アプリケーションの柔軟性と精度を確保するプロセスについて説明します。
@@ -112,3 +118,9 @@ A1: はい、Aspose.BarCode for Java はさまざまなシンボル タイプを
 ### Q5: 一時ライセンスのオプションは利用できますか?
 
  A5: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テスト目的のため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

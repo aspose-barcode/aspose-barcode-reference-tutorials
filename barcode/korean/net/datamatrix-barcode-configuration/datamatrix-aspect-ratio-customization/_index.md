@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 DataMatrix 종횡비 사용자 정
 linktitle: DataMatrix 종횡비 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DataMatrix 바코드 종횡비를 사용자 정의하는 방법을 알아보세요. 바코드 생성을 위한 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 DataMatrix 종횡비 사용자 정의
+
 .NET용 Aspose.BarCode를 사용하여 사용자 정의된 종횡비로 DataMatrix 바코드를 생성하려고 하시나요? 당신은 바로 이곳에 있습니다. 이 단계별 튜토리얼에서는 이를 달성하는 방법을 보여 드리겠습니다. Aspose.BarCode for .NET은 바코드를 쉽게 생성하고 조작할 수 있는 강력한 라이브러리입니다. 먼저 필요한 전제 조건과 네임스페이스를 소개한 다음 예제를 자세히 살펴보겠습니다.
 
 ## 전제 조건
@@ -86,3 +92,9 @@ A4: 예, .NET용 Aspose.BarCode는 다양한 .NET Framework 버전과 호환되�
 ### Q5: .NET용 Aspose.BarCode를 사용하여 다양한 형식의 바코드를 생성할 수 있습니까?
 
 A5: 예, .NET용 Aspose.BarCode는 PNG, JPEG 등을 포함한 다양한 형식의 바코드 생성을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

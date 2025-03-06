@@ -3,10 +3,16 @@ title: Ställa in start- och stoppsymboler i Java
 linktitle: Ställa in start- och stoppsymboler
 second_title: Aspose.BarCode Java API
 description: Generera anpassade Codabar-streckkoder med specifika start- och stoppsymboler i Java med Aspose.BarCode. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 15
 url: /sv/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in start- och stoppsymboler i Java
+
 
 ## Introduktion
 
@@ -104,3 +110,10 @@ Grattis! Du har framgångsrikt lärt dig hur du ställer in start- och stoppsymb
 ### Finns det fler streckkodssymboler som stöds av Aspose.BarCode för Java?
 Ja, Aspose.BarCode stöder ett brett utbud av streckkodssymboler. Se dokumentationen för en fullständig lista.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

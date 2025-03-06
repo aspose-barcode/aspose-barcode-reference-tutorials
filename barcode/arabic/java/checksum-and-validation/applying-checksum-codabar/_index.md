@@ -3,10 +3,16 @@ title: تطبيق المجموع الاختباري لـ CodaBar في Java
 linktitle: تطبيق المجموع الاختباري لCodaBar
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية تطبيق المجموع الاختباري لـ CodaBar في Java باستخدام Aspose.BarCode. يمكنك إنشاء الرموز الشريطية والتعرف عليها بسهولة باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق المجموع الاختباري لـ CodaBar في Java
+
 
 ## مقدمة
 
@@ -107,3 +113,9 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### هل هناك نسخة تجريبية مجانية متاحة؟
  نعم، يمكنك استكشاف ميزات Aspose.BarCode عن طريق تنزيل النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

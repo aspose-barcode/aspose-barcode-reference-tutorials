@@ -3,10 +3,16 @@ title: Java でのバーコードのシンボルの指定
 linktitle: バーコードのシンボルの指定
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用して Java で動的バーコードを生成します。簡単な統合、多彩なカスタマイズ、あらゆるバーコードのニーズに対応する堅牢な機能。
-type: docs
 weight: 10
 url: /ja/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのバーコードのシンボルの指定
+
 
 ## 導入
 
@@ -77,3 +83,10 @@ Aspose.BarCode は Java でのバーコード生成を簡素化し、あらゆ�
 
 ### Aspose.BarCode のサポートを受けるにはどうすればよいですか?
 訪問[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13)コミュニティや Aspose の専門家から支援を受けることができます。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

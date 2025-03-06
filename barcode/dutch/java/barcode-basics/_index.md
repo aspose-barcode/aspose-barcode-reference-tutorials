@@ -3,10 +3,16 @@ title: Basisprincipes van streepjescodes
 linktitle: Basisprincipes van streepjescodes
 second_title: Aspose.BarCode Java-API
 description: Ontgrendel de kracht van barcodes in uw Java-applicaties! Duik in de Aspose.BarCode-tutorials voor naadloze integratie, maatwerk en herkenning.
-type: docs
 weight: 20
 url: /nl/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Basisprincipes van streepjescodes
+
 
 ## Invoering
 
@@ -38,3 +44,9 @@ Ontdek het maken en instellen van de grootte voor een hele afbeelding in Java me
 Een afbeelding maken met exacte generatie van streepjescodes in Java met Aspose.BarCode. Maak eenvoudig aangepaste streepjescodes. Documentatie verkennen, downloaden en ondersteuning krijgen.
 ### [Detectie van streepjescodeoriëntatie in Java](./detecting-barcode-orientation/)
 Verbeter uw Java-applicaties met barcodeherkenning met Aspose.BarCode voor Java. Volg onze stapsgewijze handleiding om moeiteloos de oriëntatie van de streepjescode te detecteren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 增強補充條碼定制
 linktitle: 補充條碼空間定制
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 輕鬆自訂條碼。控制X尺寸並補充空間。嘗試免費試用！
-type: docs
 weight: 11
 url: /zh-hant/net/supplemental-barcode-data/supplemental-barcode-space-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 增強補充條碼定制
+
 
 在不斷發展的條碼技術領域，客製化是成功的關鍵。作為精通 SEO 寫作的內容編寫者，我將指導您利用 Aspose.BarCode for .NET 的強大功能。本逐步教學將幫助您實現條碼所需的客製化級別，確保它們符合您的確切規格。
 
@@ -103,3 +109,9 @@ Aspose.BarCode for .NET 支援多種條碼格式，包括 EAN、QR、Code39 等�
 
 ### 我可以在我的商業專案中使用 Aspose.BarCode for .NET 嗎？
 是的，Aspose.BarCode for .NET 適合個人和商業用途。您可以購買許可證以在您的專案中使用它。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

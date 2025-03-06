@@ -3,10 +3,16 @@ title: Grundläggande om streckkoder
 linktitle: Grundläggande om streckkoder
 second_title: Aspose.BarCode Java API
 description: Lås upp kraften med streckkoder i dina Java-applikationer! Dyk in i Aspose.BarCode-handledningar för sömlös integration, anpassning och igenkänning.
-type: docs
 weight: 20
 url: /sv/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grundläggande om streckkoder
+
 
 ## Introduktion
 
@@ -38,3 +44,9 @@ Utforska att skapa och ställa in storlek för hela bilden i Java med Aspose.Bar
 Skapa en bild med Exakt streckkodsgenerering i Java med Aspose.BarCode. Skapa enkelt anpassade streckkoder. Utforska dokumentation, ladda ner och få support.
 ### [Detektion av streckkodsorientering i Java](./detecting-barcode-orientation/)
 Förbättra dina Java-applikationer med streckkodsigenkänning med Aspose.BarCode för Java. Följ vår steg-för-steg-guide för att enkelt upptäcka streckkodens orientering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

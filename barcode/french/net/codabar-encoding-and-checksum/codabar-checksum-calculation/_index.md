@@ -3,10 +3,16 @@ title: Calcul de la somme de contrôle Codabar dans Aspose.BarCode pour .NET
 linktitle: Calcul de la somme de contrôle Codabar
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment calculer les sommes de contrôle Codabar dans .NET à l'aide d'Aspose.BarCode. Améliorez la précision des données dans les codes-barres Codabar. Obtenez des conseils étape par étape.
-type: docs
 weight: 10
 url: /fr/net/codabar-encoding-and-checksum/codabar-checksum-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calcul de la somme de contrôle Codabar dans Aspose.BarCode pour .NET
+
 Codabar est une symbologie de codes-barres populaire largement utilisée pour diverses applications. Un aspect important de Codabar est le calcul de la somme de contrôle, qui garantit l'exactitude et la fiabilité des informations codées. Dans ce didacticiel, nous vous guiderons à travers les étapes de calcul de différents types de sommes de contrôle pour les codes-barres Codabar à l'aide d'Aspose.BarCode for .NET.
 
 ## Conditions préalables
@@ -97,3 +103,9 @@ A4 : Oui, Aspose.BarCode for .NET est compatible avec divers frameworks .NET, ce
 ### Q5 : Où puis-je trouver la documentation complète d’Aspose.BarCode pour .NET ?
 
  A5 : Vous pouvez accéder à la documentation complète[ici](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

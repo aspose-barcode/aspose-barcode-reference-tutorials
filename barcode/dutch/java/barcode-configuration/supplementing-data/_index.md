@@ -3,10 +3,16 @@ title: Gegevens aanvullen in Java
 linktitle: Gegevens aanvullen
 second_title: Aspose.BarCode Java-API
 description: Leer hoe u dynamische streepjescodes in Java kunt maken met Aspose.BarCode. Stapsgewijze handleiding voor het aanvullen van gegevens met EAN_13-symboliek.
-type: docs
 weight: 16
 url: /nl/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gegevens aanvullen in Java
+
 
 ## Invoering
 
@@ -96,3 +102,10 @@ Ja, u heeft toegang tot een gratis proefversie[hier](https://releases.aspose.com
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

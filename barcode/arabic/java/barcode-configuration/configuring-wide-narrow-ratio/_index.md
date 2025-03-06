@@ -3,10 +3,16 @@ title: تكوين النسبة الواسعة والضيقة في Java باست�
 linktitle: تكوين نسبة واسعة وضيقة
 second_title: Aspose.BarCode جافا API
 description: تعرف على كيفية تكوين نسبة واسعة وضيقة في رموز Java الشريطية باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة للتخصيص السلس.
-type: docs
 weight: 17
 url: /ar/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين النسبة الواسعة والضيقة في Java باستخدام Aspose.BarCode
+
 
 ## مقدمة
 
@@ -87,3 +93,9 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 ### س: كيف يمكن الحصول على الدعم لـ Aspose.BarCode؟
  ج: قم بزيارة منتدى Aspose.BarCode[هنا](https://forum.aspose.com/c/barcode/13) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

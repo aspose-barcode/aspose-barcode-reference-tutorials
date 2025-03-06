@@ -3,10 +3,16 @@ title: Konfigurace jednorozměrného širokoúhlého poměru
 linktitle: Konfigurace jednorozměrného širokoúhlého poměru
 second_title: Aspose.BarCode .NET API
 description: Snadno generujte přizpůsobené čárové kódy pomocí Aspose.BarCode pro .NET. Průvodce krok za krokem pro jednorozměrnou konfiguraci širokého a úzkého poměru.
-type: docs
 weight: 22
 url: /cs/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace jednorozměrného širokoúhlého poměru
+
 
 Chcete snadno generovat a přizpůsobovat čárové kódy ve svých aplikacích .NET? Už nehledejte! Aspose.BarCode for .NET je robustní knihovna, díky které je generování a přizpůsobení čárových kódů hračkou. V tomto podrobném průvodci se ponoříme do toho, jak využít sílu Aspose.BarCode pro .NET k vytvoření čárových kódů s konfigurací širokého a úzkého poměru.
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET podporuje širokou škálu symbolik čárových kódů, 
 
 ### 5. Jak mohu získat podporu nebo se ptát na Aspose.BarCode pro .NET?
  Můžete navštívit[Fórum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) za podporu a diskuze.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

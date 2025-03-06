@@ -3,10 +3,16 @@ title: Hiển thị mã vạch cho đối tượng đồ họa trong Java
 linktitle: Hiển thị mã vạch cho đối tượng đồ họa
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch dễ dàng trong Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị mã vạch cho đối tượng đồ họa trong Java
+
 
 ## Giới thiệu
 
@@ -111,3 +117,10 @@ Có, Aspose.BarCode hỗ trợ nhiều loại mã vạch, bao gồm CODE_128, M�
 
 ### Tôi có thể tìm kiếm trợ giúp ở đâu nếu gặp vấn đề?
  Truy cập diễn đàn Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13) để hỗ trợ.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

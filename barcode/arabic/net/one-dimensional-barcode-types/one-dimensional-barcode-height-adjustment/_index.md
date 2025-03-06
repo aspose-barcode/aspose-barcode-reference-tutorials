@@ -3,10 +3,16 @@ title: تعديل ارتفاع الباركود أحادي البعد
 linktitle: تعديل ارتفاع الباركود أحادي البعد
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية ضبط ارتفاع الرموز الشريطية أحادية البعد في .NET باستخدام Aspose.BarCode للتخصيص الدقيق. قم بإنشاء رموز شريطية مثالية دون عناء!
-type: docs
 weight: 13
 url: /ar/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل ارتفاع الباركود أحادي البعد
+
 
 عندما يتعلق الأمر بإنشاء رموز شريطية في تطبيقات .NET، فإن Aspose.BarCode for .NET هي أداة قوية ومتعددة الاستخدامات يمكنها تبسيط العملية. سواء كنت تقوم بإنشاء رموز شريطية لإدارة المخزون أو البيع بالتجزئة أو أي تطبيق آخر، فإن التحكم الدقيق في خصائص الرمز الشريطي أمر ضروري. إحدى هذه الخصائص هي ارتفاع الباركود أحادي البعد. في هذا الدليل التفصيلي، سنرشدك خلال عملية ضبط ارتفاع الرمز الشريطي أحادي البعد باستخدام Aspose.BarCode for .NET.
 
@@ -82,3 +88,10 @@ gen.Save($"{path}BarHeight80Code128.png", BarCodeImageFormat.Png);
 
 ### أين يمكنني العثور على وثائق مفصلة عن Aspose.BarCode لـ .NET؟
  يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/barcode/net/) للحصول على معلومات تفصيلية حول استخدام Aspose.BarCode في مشاريع .NET الخاصة بك.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

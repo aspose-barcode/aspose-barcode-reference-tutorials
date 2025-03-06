@@ -3,10 +3,16 @@ title: ITF-14 条形码边框类型生成
 linktitle: ITF-14 条形码边框类型生成
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 创建具有不同边框类型的 ITF-14 条形码。轻松定制您的包装和标签。
-type: docs
 weight: 11
 url: /zh/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 条形码边框类型生成
+
 
 在本教程中，我们将指导您完成使用 Aspose.BarCode for .NET 生成具有不同边框类型的 ITF-14 条形码的过程。 Aspose.BarCode 是一个功能强大的库，允许您创建、操作和识别各种格式的条形码。在这个具体示例中，我们将重点关注 ITF-14 条形码以及如何控制其边框类型。 ITF-14 条形码通常用于包装和标签目的。
 
@@ -109,3 +115,10 @@ ITF-14 条形码主要用于零售行业的产品包装和标签。它们对产�
 
 ### 是否有 Aspose.BarCode 的免费试用版？
 是的，您可以访问 Aspose.BarCode for .NET 的免费试用版：[这里](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ترميز DataMatrix الرئيسي في ASCII باستخدام Aspose.B
 linktitle: وضع ترميز DataMatrix (ASCII)
 second_title: Aspose.BarCode .NET API
 description: تعلم كيفية إنشاء رموز شريطية DataMatrix في وضع ASCII باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة للمطورين.
-type: docs
 weight: 13
 url: /ar/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز DataMatrix الرئيسي في ASCII باستخدام Aspose.BarCode لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد للتعمق في عالم الرموز الشريطية DataMatrix ومعرفة كيفية تشفير البيانات باستخدام وضع ASCII مع Aspose.BarCode for .NET؟ سواء كنت مطورًا متمرسًا أو بدأت للتو رحلة البرمجة، فسيرشدك هذا الدليل الشامل خلال العملية بأكملها خطوة بخطوة. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث (SEO)، فأنا هنا للتأكد من حصولك على جميع المعلومات التي تحتاجها بطريقة واضحة وجذابة.
@@ -90,3 +96,9 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspo
 ### س5: أين يمكنني شراء ترخيص Aspose.BarCode لـ .NET؟
 
  ج5: يمكنك شراء ترخيص من موقع Aspose[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

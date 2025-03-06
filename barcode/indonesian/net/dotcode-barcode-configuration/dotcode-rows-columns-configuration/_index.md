@@ -3,10 +3,16 @@ title: Konfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode untuk .NET
 linktitle: Konfigurasi Baris dan Kolom DotCode
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara mengonfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode untuk .NET. Hasilkan kode batang 2D yang tepat dan dapat disesuaikan dengan mudah.
-type: docs
 weight: 15
 url: /id/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode untuk .NET
+
 ## Perkenalan
 
 Selamat datang di dunia pembuatan kode batang menggunakan Aspose.BarCode untuk .NET! Dalam panduan komprehensif ini, kita akan mempelajari dunia menarik dalam mengonfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan Anda dengan pembuatan kode batang, tutorial ini akan memandu Anda melalui langkah-langkah penting, prasyarat, dan ruang nama untuk membantu Anda mulai menguasai konfigurasi Baris dan Kolom DotCode.
@@ -112,3 +118,9 @@ A4: Aspose.BarCode mendukung berbagai jenis kode batang, antara lain Kode QR, Ko
 ### Q5: Di mana saya dapat menemukan lebih banyak tutorial dan contoh Aspose.BarCode untuk .NET?
 
  A5: Anda dapat menjelajahi tutorial dan contoh tambahan di[Dokumentasi Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

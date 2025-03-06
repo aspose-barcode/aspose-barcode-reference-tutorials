@@ -3,10 +3,16 @@ title: Konfigurace Wide-Narrow Ratio v Javě pomocí Aspose.BarCode
 linktitle: Konfigurace Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
 description: Naučte se konfigurovat široký-úzký poměr v čárových kódech Java pomocí Aspose.BarCode. Postupujte podle našeho podrobného průvodce pro bezproblémové přizpůsobení.
-type: docs
 weight: 17
 url: /cs/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace Wide-Narrow Ratio v Javě pomocí Aspose.BarCode
+
 
 ## Úvod
 
@@ -87,3 +93,9 @@ Odpověď: Jednoduše změňte typ symboliky v konstruktoru BarcodeGenerator, na
 
 ### Otázka: Jak získat podporu pro Aspose.BarCode?
  Odpověď: Navštivte fórum Aspose.BarCode[tady](https://forum.aspose.com/c/barcode/13) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

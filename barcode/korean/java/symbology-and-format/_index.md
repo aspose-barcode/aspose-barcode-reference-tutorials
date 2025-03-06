@@ -3,10 +3,16 @@ title: 기호 및 형식
 linktitle: 기호 및 형식
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode 튜토리얼을 통해 Java 애플리케이션을 강화하세요! 기호 지정을 마스터하고, 바코드를 가져와 인식하고, 동적 바코드를 손쉽게 생성 및 저장하세요.
-type: docs
 weight: 26
 url: /ko/java/symbology-and-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 기호 및 형식
+
 ## 소개
 
 Aspose.BarCode 튜토리얼을 통해 Java 애플리케이션 개발의 역동적인 세계로의 혁신적인 여정을 시작하세요. 이 기사에서는 기호 사양, 바코드 가져오기 및 인식, 간편한 바코드 생성 및 저장의 복잡성을 설명합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 단계별 가이드는 복잡성을 명확하게 하여 원활한 통합 경험을 보장할 것을 약속합니다. Aspose.BarCode의 다양한 사용자 정의, 강력한 기능 및 광범위한 지원을 통해 Java 애플리케이션을 향상시키세요. 바코드 숙달 영역을 탐색하여 프로세스를 단순화하는 동시에 Java용 Aspose.BarCode의 잠재력을 최대한 활용하는 데 참여하세요.
@@ -38,3 +44,9 @@ Aspose.BarCode를 사용하여 Java에서 동적 바코드를 생성합니다. �
 Java용 Aspose.BarCode를 손쉽게 통합하세요. 데이터베이스에서 바코드를 가져오고 인식하세요. 원활한 바코드 통합 경험을 위해 지금 다운로드하세요.
 ### [Java에서 바코드 생성 및 저장](./generating-saving-barcode/)
 Aspose.BarCode를 사용하여 Java에서 손쉽게 바코드를 생성하고 저장하세요. 원활하게 통합하고, 모양을 사용자 정의하고, 광범위한 바코드 지원을 누려보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

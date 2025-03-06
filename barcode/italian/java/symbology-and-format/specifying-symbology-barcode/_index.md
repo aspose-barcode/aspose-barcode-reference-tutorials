@@ -3,10 +3,16 @@ title: Specifica della simbologia per il codice a barre in Java
 linktitle: Specifica della simbologia per il codice a barre
 second_title: API Java Aspose.BarCode
 description: Genera codici a barre dinamici in Java con Aspose.BarCode. Integrazione semplice, personalizzazione versatile e funzionalità robuste per tutte le esigenze relative ai codici a barre.
-type: docs
 weight: 10
 url: /it/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specifica della simbologia per il codice a barre in Java
+
 
 ## introduzione
 
@@ -77,3 +83,10 @@ Assolutamente! Aspose.BarCode offre una gamma di opzioni di personalizzazione, c
 
 ### Come posso ottenere supporto per Aspose.BarCode?
  Visitare il[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) per ottenere assistenza dalla comunità e dagli esperti di Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

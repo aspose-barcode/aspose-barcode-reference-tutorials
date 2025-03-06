@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 配置 DataMatrix 代码文本
 linktitle: DataMatrix 扩展代码文本配置
 second_title: Aspose.BarCode .NET API
 description: 了解使用 Aspose.BarCode for .NET 配置 DataMatrix 扩展代码文本。在 .NET 应用程序中生成、识别和集成条形码。
-type: docs
 weight: 17
 url: /zh/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 配置 DataMatrix 代码文本
+
 在软件开发领域，条形码集成已成为各种应用程序的关键必需品。借助 Aspose.BarCode for .NET 等库，您可以在 .NET 应用程序中轻松生成和识别条形码。本教程将引导您完成使用 Aspose.BarCode for .NET 配置 DataMatrix 扩展代码文本的过程。在深入了解详细信息之前，让我们先看一下本指南的先决条件。
 
 ## 先决条件
@@ -128,3 +134,9 @@ A2：您可以访问 Aspose.BarCode for .NET 的文档[这里](https://reference
 ### Q5：我在哪里可以获得有关 Aspose.BarCode for .NET 的支持或提出问题？
 
  A5：有关 Aspose.BarCode for .NET 的任何支持或问题，您可以访问 Aspose.BarCode 论坛[这里](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

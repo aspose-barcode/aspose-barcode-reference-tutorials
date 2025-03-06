@@ -3,10 +3,16 @@ title: Tổng kiểm tra và xác thực
 linktitle: Tổng kiểm tra và xác thực
 second_title: API Java Aspose.BarCode
 description: Nâng cao tính toàn vẹn dữ liệu trong Java với Aspose.BarCode. Tạo mã vạch dễ dàng, luôn hiển thị tổng kiểm tra, đồng thời làm chủ CodaBar và xác thực tổng kiểm tra chung.
-type: docs
 weight: 23
 url: /vi/java/checksum-and-validation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tổng kiểm tra và xác thực
+
 
 
 Trong bối cảnh phát triển phần mềm ngày càng phát triển, việc đảm bảo tính toàn vẹn dữ liệu là điều tối quan trọng. Loạt bài hướng dẫn này, được cung cấp bởi Aspose.BarCode cho Java, tiết lộ những điểm phức tạp của tổng kiểm tra và xác thực. Đi sâu vào thế giới mã vạch, nơi độ tin cậy đáp ứng sự đơn giản.
@@ -31,3 +37,9 @@ Tạo mã vạch bằng Aspose.BarCode cho Java một cách dễ dàng. Tìm hi�
 Tìm hiểu cách áp dụng tổng kiểm tra cho CodaBar trong Java bằng Aspose.BarCode. Tạo và nhận dạng mã vạch dễ dàng với hướng dẫn từng bước này.
 ### [Áp dụng xác thực tổng kiểm tra trong Java](./applying-checksum-validation/)
 Xác thực mã vạch thành thạo trong Java một cách dễ dàng với Aspose.BarCode. Hướng dẫn từng bước để xác thực tổng kiểm tra. Tăng cường tính toàn vẹn dữ liệu của phần mềm của bạn!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

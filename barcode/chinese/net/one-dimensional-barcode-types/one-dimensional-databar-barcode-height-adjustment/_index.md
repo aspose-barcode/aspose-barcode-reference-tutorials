@@ -3,10 +3,16 @@ title: 一维Databar条码高度调整
 linktitle: 一维Databar条码高度调整
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 调整一维 Databar 条形码高度。只需几个简单的步骤即可创建自定义条形码。探索条形码定制的力量。
-type: docs
 weight: 17
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-databar-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一维Databar条码高度调整
+
 
 在条形码生成和操作领域，对条形码元素的精度和控制至关重要。 Aspose.BarCode for .NET 使开发人员能够微调条形码的属性，例如调整高度。在本分步指南中，我们将探讨如何使用 Aspose.BarCode for .NET 调整一维 Databar 条形码的高度。本教程将分解每个步骤，确保即使您是条形码生成新手，也可以轻松遵循。让我们深入了解吧！
 
@@ -93,3 +99,10 @@ gen.Save($"{path}DatabarBarHeight60Pixels.png", BarCodeImageFormat.Png);
 
 ### Aspose.BarCode for .NET 有试用版吗？
 是的，您可以免费试用 Aspose.BarCode for .NET[这里](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

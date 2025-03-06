@@ -3,10 +3,16 @@ title: Representación de código de barras en servlet en Java
 linktitle: Representación de código de barras en servlet
 second_title: API de Java Aspose.BarCode
 description: Genere y represente códigos de barras sin esfuerzo en servlets Java con Aspose.BarCode. Personalice los tipos, integre fácilmente. ¡Explora las posibilidades!
-type: docs
 weight: 13
 url: /es/java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Representación de código de barras en servlet en Java
+
 
 ## Introducción
 
@@ -102,3 +108,9 @@ Sí, Aspose.BarCode está diseñado para ser compatible con varios entornos Java
 
 ### ¿Cómo obtengo una licencia temporal para Aspose.BarCode?
  Para obtener una licencia temporal, visite[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

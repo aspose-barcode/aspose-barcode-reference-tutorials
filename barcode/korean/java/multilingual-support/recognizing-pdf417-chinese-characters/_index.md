@@ -3,10 +3,16 @@ title: Java에서 한자로 PDF417 바코드 인식
 linktitle: 한자로 PDF417 바코드 인식
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 중국어 문자가 포함된 PDF417 바코드를 인식하는 방법을 알아보세요. 원활한 통합을 위해 포괄적인 튜토리얼을 따르십시오.
-type: docs
 weight: 10
 url: /ko/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 한자로 PDF417 바코드 인식
+
 
 ## 소개
 
@@ -89,3 +95,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### 문서는 어디서 찾을 수 있나요?
  문서를 사용할 수 있습니다[여기](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

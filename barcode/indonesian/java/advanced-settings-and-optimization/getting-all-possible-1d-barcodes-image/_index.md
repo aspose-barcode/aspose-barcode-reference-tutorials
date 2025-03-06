@@ -3,10 +3,16 @@ title: Mendapatkan Semua Kemungkinan Barcode 1D dari Gambar di Java dengan Aspos
 linktitle: Mendapatkan Semua Kemungkinan Barcode 1D dari Sebuah Gambar
 second_title: Aspose.BarCode Java API
 description: Jelajahi kekuatan Aspose.BarCode untuk Java dalam mendekode kode batang 1D dengan mudah. Unduh sekarang untuk integrasi yang lancar ke dalam aplikasi Java Anda.
-type: docs
 weight: 20
 url: /id/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendapatkan Semua Kemungkinan Barcode 1D dari Gambar di Java dengan Aspose.BarCode
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.BarCode untuk Java, alat canggih yang memberdayakan pengembang untuk memecahkan kode dan membaca berbagai kode batang 1D dengan mudah. Dalam tutorial ini, kita akan mendalami proses mendapatkan semua kemungkinan kode batang 1D dari sebuah gambar menggunakan Aspose.BarCode untuk Java. Di akhir panduan ini, Anda akan memiliki pemahaman komprehensif tentang cara memanfaatkan pustaka Java ini untuk pengenalan kode batang.
@@ -93,3 +99,9 @@ A1: Ya, Aspose.BarCode untuk Java dirancang untuk penggunaan komersial, menawark
 ### Q5: Apakah tersedia versi uji coba gratis?
 
  A5: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.BarCode untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

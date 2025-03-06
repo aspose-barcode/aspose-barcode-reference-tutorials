@@ -3,10 +3,16 @@ title: Настройка соотношения сторон одномерно
 linktitle: Настройка соотношения сторон одномерной панели данных
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как настроить соотношения сторон одномерной панели данных в .NET с помощью Aspose.BarCode. Повысьте точность и дизайн штрих-кода.
-type: docs
 weight: 16
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка соотношения сторон одномерной панели данных
+
 
 В мире штрих-кодирования точность и индивидуализация являются ключом к достижению желаемых результатов. Как опытный специалист по SEO, я здесь, чтобы провести вас через процесс настройки соотношения сторон одномерной панели данных с помощью Aspose.BarCode для .NET. Мы разобьем этот сложный процесс на выполнимые шаги, чтобы вы полностью усвоили концепцию. Итак, давайте погрузимся!
 
@@ -116,3 +122,10 @@ gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
  Если вам нужна временная лицензия для тестирования или оценки, вы можете получить ее[здесь](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

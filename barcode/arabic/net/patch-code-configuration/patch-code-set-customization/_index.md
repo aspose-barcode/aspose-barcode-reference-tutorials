@@ -3,10 +3,16 @@ title: تخصيص مجموعة رموز التصحيح
 linktitle: تخصيص مجموعة رموز التصحيح
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء الرموز الشريطية في .NET باستخدام Aspose.BarCode. قم بتخصيص ودمج الرموز الشريطية في تطبيقاتك دون عناء.
-type: docs
 weight: 11
 url: /ar/net/patch-code-configuration/patch-code-set-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص مجموعة رموز التصحيح
+
 
 في عالم تطوير البرمجيات، يمكن أن يكون دمج إنشاء الباركود في تطبيقاتك مطلبًا بالغ الأهمية. يوفر Aspose.BarCode for .NET حلاً قويًا لإنشاء أنواع مختلفة من الرموز الشريطية داخل تطبيقات .NET الخاصة بك. في هذا الدليل التفصيلي، سنتعمق في تعقيدات Aspose.BarCode for .NET، ونغطي متطلباته الأساسية، ونستورد مساحات الأسماء، ونقسم كل مثال إلى خطوات متعددة. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك أساس متين لاستخدام هذه المكتبة القوية.
 
@@ -127,3 +133,9 @@ Aspose.BarCode for .NET هي مكتبة قوية تعمل على تبسيط عم
 
 ### 5. هل يوجد مجتمع أو منتدى لـ Aspose.BarCode لدعم .NET؟
  نعم، يمكنك طلب الدعم والانضمام إلى المناقشات في منتدى Aspose.BarCode على[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

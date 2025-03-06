@@ -3,10 +3,16 @@ title: Ацтекское кодирование штрих-кода
 linktitle: Ацтекское кодирование штрих-кода
 second_title: API Aspose.BarCode .NET
 description: Раскройте потенциал ацтекского кодирования штрих-кодов с помощью Aspose.BarCode для .NET. Настраивайте пропорции, создавайте ацтекские коды с текстовой кодировкой и осваивайте режимы символов.
-type: docs
 weight: 28
 url: /ru/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ацтекское кодирование штрих-кода
+
 
 ## Введение
 
@@ -44,3 +50,9 @@ url: /ru/net/aztec-barcode-encoding/
 Узнайте, как генерировать штрих-коды ошибок Aztec с различными уровнями ошибок, используя Aspose.BarCode для .NET. Полное руководство по созданию штрих-кода.
 ### [Освоение режима ацтекских символов](./aztec-symbol-mode-example/)
 Изучите режим ацтекских символов в Aspose.BarCode для .NET и узнайте, как с легкостью создавать универсальные штрих-коды. В этом подробном руководстве вы познакомитесь с режимами «Авто», «Полный диапазон», «Компактный» и «Руна».
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfiguracja wierszy i kolumn DotCode za pomocą Aspose.BarCode dla .NET
 linktitle: Konfiguracja wierszy i kolumn DotCode
 second_title: Aspose.BarCode .NET API
 description: Dowiedz się, jak skonfigurować wiersze i kolumny DotCode za pomocą Aspose.BarCode dla .NET. Bez wysiłku generuj precyzyjne i konfigurowalne kody kreskowe 2D.
-type: docs
 weight: 15
 url: /pl/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfiguracja wierszy i kolumn DotCode za pomocą Aspose.BarCode dla .NET
+
 ## Wstęp
 
 Witamy w świecie generowania kodów kreskowych przy użyciu Aspose.BarCode dla .NET! W tym obszernym przewodniku zagłębimy się w fascynującą dziedzinę konfigurowania wierszy i kolumn DotCode za pomocą Aspose.BarCode. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z generowaniem kodów kreskowych, ten samouczek przeprowadzi Cię przez niezbędne kroki, wymagania wstępne i przestrzenie nazw, aby rozpocząć drogę do opanowania konfiguracji wierszy i kolumn DotCode.
@@ -112,3 +118,9 @@ O4: Aspose.BarCode obsługuje szeroką gamę typów kodów kreskowych, w tym mi�
 ### P5: Gdzie mogę znaleźć więcej samouczków i przykładów Aspose.BarCode dla .NET?
 
  Odpowiedź 5: Możesz zapoznać się z dodatkowymi samouczkami i przykładami w[Dokumentacja Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Encodage de codes-barres GS1
 linktitle: Encodage de codes-barres GS1
 second_title: API Aspose.BarCode .NET
 description: Explorez les didacticiels de codage de codes-barres GS1 pour Aspose.BarCode dans .NET. Créez facilement des codes-barres GS1 Code 128, UPC-A et DataMatrix. Commencez maintenant!
-type: docs
 weight: 23
 url: /fr/net/gs1-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage de codes-barres GS1
+
 
 ## Introduction
 Dans le monde en évolution rapide des affaires et du commerce d'aujourd'hui, le besoin d'un codage de codes-barres efficace et précis est plus crucial que jamais. Les codes-barres GS1 constituent la norme en matière d'identification et de traçabilité des produits, et maîtriser leur création est une compétence précieuse. Si vous souhaitez vous plonger dans le monde des codes-barres GS1, vous êtes au bon endroit.
@@ -53,3 +59,9 @@ Générez facilement des codes-barres avec Aspose.BarCode for .NET - Votre solut
 Découvrez la configuration de la barre de données UPC-A du coupon GS1 avec Aspose.BarCode pour .NET. Créez facilement des codes-barres. Commencez maintenant!
 ### [Exemple GS1 DataMatrix](./gs1-datamatrix-example/)
 Découvrez comment créer des codes-barres GS1 DataMatrix dans .NET à l'aide d'Aspose.BarCode. Générez des codes-barres facilement et efficacement en quelques étapes seulement.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

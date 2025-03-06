@@ -3,10 +3,16 @@ title: การแสดงบาร์โค้ดเป็น Servlet ใน 
 linktitle: การแสดงบาร์โค้ดเป็น Servlet
 second_title: Aspose.BarCode Java API
 description: สร้างและเรนเดอร์บาร์โค้ดใน Java Servlets ได้อย่างง่ายดายด้วย Aspose.BarCode ปรับแต่งประเภท บูรณาการได้อย่างง่ายดาย สำรวจความเป็นไปได้!
-type: docs
 weight: 13
 url: /th/java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแสดงบาร์โค้ดเป็น Servlet ใน Java
+
 
 ## การแนะนำ
 
@@ -102,3 +108,9 @@ public class RenderBarcodeToServlet extends HttpServlet {
 
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode ได้อย่างไร
  หากต้องการขอรับใบอนุญาตชั่วคราว โปรดไปที่[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

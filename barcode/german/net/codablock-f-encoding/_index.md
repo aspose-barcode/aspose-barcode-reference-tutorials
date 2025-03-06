@@ -3,10 +3,16 @@ title: Codablock F-Kodierung
 linktitle: Codablock F-Kodierung
 second_title: Aspose.BarCode .NET-API
 description: Nutzen Sie das Potenzial der Codablock F-Kodierung mit Aspose.BarCode für .NET. Passen Sie das Seitenverhältnis an, konfigurieren Sie Zeilen und Spalten für präzise 2D-Barcodes.
-type: docs
 weight: 21
 url: /de/net/codablock-f-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codablock F-Kodierung
+
 
 Willkommen in der Welt der Codablock F-Codierungs-Tutorials, in denen wir die Kunst der Erstellung präziser und benutzerdefinierter 2D-Barcodes mit Aspose.BarCode für .NET entmystifizieren. In diesem umfassenden Leitfaden führen wir Sie durch zwei wesentliche Aspekte: Anpassen des Codablock F-Seitenverhältnisses und Konfigurieren von Codablock F-Zeilen und -Spalten.
 
@@ -28,3 +34,9 @@ Zusammenfassend bieten unsere Tutorials zur Codablock F-Codierung einen praktisc
 Meistern Sie die Anpassung des Codablock F-Seitenverhältnisses mit Aspose.BarCode für .NET. Erstellen Sie mühelos präzise Barcodes, die auf Ihre Bedürfnisse zugeschnitten sind.
 ### [Konfigurieren Sie Codablock F-Zeilen und -Spalten](./codablock-f-row-column-configuration/)
 Erfahren Sie, wie Sie Codablock F-Zeilen und -Spalten in Aspose.BarCode für .NET konfigurieren. Erstellen Sie individuelle 2D-Barcodes für verschiedene Anwendungen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

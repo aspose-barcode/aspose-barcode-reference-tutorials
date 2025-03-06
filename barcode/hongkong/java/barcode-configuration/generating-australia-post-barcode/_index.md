@@ -3,10 +3,16 @@ title: 用 Java 產生澳洲郵政條碼
 linktitle: 產生澳洲郵政條碼
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中輕鬆產生澳洲郵政條碼。請按照我們的逐步教學進行無縫整合。
-type: docs
 weight: 12
 url: /zh-hant/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用 Java 產生澳洲郵政條碼
+
 
 ## 介紹
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### 如何獲得 Aspose.BarCode 的臨時許可證？
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

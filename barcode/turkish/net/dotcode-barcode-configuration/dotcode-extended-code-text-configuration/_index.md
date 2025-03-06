@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET ile DotCode Genişletilmiş Kod Metni Yapılandı
 linktitle: DotCode Genişletilmiş Kod Metni Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak DotCode Genişletilmiş Kod Metni Yapılandırmasını kolaylıkla oluşturun. Verimli barkod oluşturmak için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET ile DotCode Genişletilmiş Kod Metni Yapılandırması
+
 ## giriiş
 
 Barkod oluşturma ve yönetimi alanında Aspose.BarCode for .NET çok yönlü ve etkili bir çözüm olarak öne çıkıyor. Ürünler, envanter veya başka herhangi bir uygulama için barkod oluşturmanız gerekiyorsa, Aspose.BarCode for .NET ihtiyacınızı karşılar. Bu kapsamlı eğitimde Aspose.BarCode for .NET'i kullanarak DotCode Genişletilmiş Kod Metni Yapılandırması oluşturmaya odaklanacağız. DotCode, hem metinsel hem de ikili verileri kodlayabilen iki boyutlu bir matris barkoddur ve bu da onu çeşitli endüstrilerde değerli bir araç haline getirir.
@@ -148,3 +154,9 @@ C3: Evet, Aspose.BarCode for .NET çok çeşitli .NET çerçeveleriyle uyumludur
 ### S5: Aspose.BarCode for .NET kurumsal düzeyde barkod oluşturmaya uygun mu?
 
 Cevap5: Aspose.BarCode for .NET kesinlikle hem küçük ölçekli hem de kurumsal düzeyde barkod oluşturma ihtiyaçlarını karşılayacak şekilde tasarlanmış olup ölçeklenebilirlik ve güvenilirlik sunar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

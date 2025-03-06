@@ -3,10 +3,16 @@ title: Konfigurace datové lišty UPC-A kupónu GS1
 linktitle: Konfigurace datové lišty UPC-A kupónu GS1
 second_title: Aspose.BarCode .NET API
 description: Naučte se konfiguraci GS1 Coupon UPC-A Databar pomocí Aspose.BarCode pro .NET. Snadno vytvářejte čárové kódy. Začněte hned!
-type: docs
 weight: 13
 url: /cs/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace datové lišty UPC-A kupónu GS1
+
 
 ## Úvod
 
@@ -86,3 +92,10 @@ Aspose.BarCode pro .NET si můžete stáhnout z[stránka ke stažení](https://r
 ### Kde mohu získat podporu pro Aspose.BarCode pro .NET?
  V případě jakékoli technické pomoci nebo dotazů můžete navštívit[Fórum podpory Aspose.BarCode for .NET](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

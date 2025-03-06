@@ -3,10 +3,16 @@ title: Könnyű vonalkód felismerés Word dokumentumokból
 linktitle: Vonalkódok felismerése Word dokumentumokból
 second_title: Aspose.BarCode Java API
 description: Fedezze fel a vonalkód-felismerés zökkenőmentes integrációját Java-alkalmazásaiba az Aspose.BarCode segítségével. Kövesse ezt az oktatóanyagot a vonalkódok Word dokumentumokból való felismeréséhez.
-type: docs
 weight: 12
 url: /hu/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Könnyű vonalkód felismerés Word dokumentumokból
+
 
 ## Bevezetés
 
@@ -111,3 +117,10 @@ Bármilyen segítségre vagy kérdésre keresse fel az Aspose.BarCode fórumot[i
 
 ### K: Hol találom az Aspose.BarCode for Java dokumentációját?
  Tekintse meg az átfogó dokumentációt[itt](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

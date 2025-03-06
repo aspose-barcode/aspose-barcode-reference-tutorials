@@ -3,10 +3,16 @@ title: Tek Boyutlu Veri Çubuğu Satırı ve Sütun Yapılandırması
 linktitle: Tek Boyutlu Veri Çubuğu Satırı ve Sütun Yapılandırması
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET'i kullanarak .NET'te satır ve sütun konfigürasyonuna sahip dinamik tek boyutlu DataBar barkodları oluşturun. Özelleştirme artık çok kolay!
-type: docs
 weight: 19
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tek Boyutlu Veri Çubuğu Satırı ve Sütun Yapılandırması
+
 
 Günümüzün dijital dünyasında barkodlar, envanter yönetiminden ürün etiketlemeye kadar çeşitli sektörlerde önemli bir rol oynamaktadır. Bir geliştirici olarak, .NET uygulamalarınızda barkod oluşturmak ve özelleştirmek için güçlü bir araca ihtiyacınız olabilir. Aspose.BarCode for .NET, tek boyutlu ve iki boyutlu barkodları kolaylıkla oluşturmanıza, özelleştirmenize ve değiştirmenize olanak tanıyan çok yönlü bir kitaplıktır.
 
@@ -112,3 +118,10 @@ Kesinlikle! Aspose.BarCode for .NET çok yönlüdür ve web uygulamaları da dah
  Evet, belgeler[Burada](https://reference.aspose.com/barcode/net/)başlamanıza yardımcı olacak ayrıntılı kod örnekleri ve örnek projeler sağlar.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การเข้ารหัส Codablock F
 linktitle: การเข้ารหัส Codablock F
 second_title: Aspose.BarCode .NET API
 description: ปลดล็อกศักยภาพการเข้ารหัส Codablock F ด้วย Aspose.BarCode สำหรับ .NET ปรับแต่งอัตราส่วนภาพ กำหนดค่าแถวและคอลัมน์สำหรับบาร์โค้ด 2D ที่แม่นยำ
-type: docs
 weight: 21
 url: /th/net/codablock-f-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเข้ารหัส Codablock F
+
 
 ยินดีต้อนรับสู่โลกของบทช่วยสอนการเข้ารหัส Codablock F ซึ่งเราจะไขปริศนาแห่งศิลปะของการสร้างบาร์โค้ด 2 มิติที่แม่นยำและปรับแต่งเองได้โดยใช้ Aspose.BarCode สำหรับ .NET ในคู่มือที่ครอบคลุมนี้ เราจะอธิบายประเด็นสำคัญสองประเด็นให้คุณทราบ: ปรับแต่งอัตราส่วนภาพของ Codablock F และกำหนดค่าแถวและคอลัมน์ของ Codablock F
 
@@ -28,3 +34,9 @@ url: /th/net/codablock-f-encoding/
 การปรับแต่งอัตราส่วนภาพ Master Codablock F ด้วย Aspose.BarCode สำหรับ .NET สร้างบาร์โค้ดที่แม่นยำซึ่งปรับแต่งตามความต้องการของคุณได้อย่างง่ายดาย
 ### [กำหนดค่าแถวและคอลัมน์ Codablock F](./codablock-f-row-column-configuration/)
 เรียนรู้วิธีกำหนดค่าแถวและคอลัมน์ Codablock F ใน Aspose.BarCode สำหรับ .NET สร้างบาร์โค้ด 2D แบบกำหนดเองสำหรับการใช้งานต่างๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

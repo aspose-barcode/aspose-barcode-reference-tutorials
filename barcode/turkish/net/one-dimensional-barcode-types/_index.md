@@ -3,10 +3,16 @@ title: Tek Boyutlu Barkod Çeşitleri
 linktitle: Tek Boyutlu Barkod Çeşitleri
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode kullanarak .NET'te çeşitli tek boyutlu barkodların nasıl oluşturulacağını öğrenin. Barkod oluşturma ve özelleştirme için adım adım kılavuzlar.
-type: docs
 weight: 25
 url: /tr/net/one-dimensional-barcode-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tek Boyutlu Barkod Çeşitleri
+
 
 ## giriiş
 
@@ -78,3 +84,9 @@ Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. T
 Bu eğitim serisinde, konfigürasyon ve özelleştirmelerine odaklanarak tek boyutlu barkod türlerinin dünyasına daldık. Aspose.BarCode for .NET ile süreç basitleştirilerek ihtiyaçlarınıza uygun barkodlar oluşturabilmenizi sağlar. Dolayısıyla, ister deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitimler .NET projelerinizde tek boyutlu barkodların gücünden yararlanmanıza yardımcı olacaktır. Şimdi başlayın ve barkod teknolojisinin potansiyelini ortaya çıkarın!
 
 Bu makaleyle yalnızca çeşitli tek boyutlu barkod türleri hakkında bilgi edinmekle kalmayacak, aynı zamanda bunları projelerinizde uygulama konusunda özgüven sahibi olacaksınız. Mutlu kodlama!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Supplementing Data in Java
 linktitle: Supplementing Data
 second_title: Aspose.BarCode Java API
 description: Learn how to create dynamic barcodes in Java using Aspose.BarCode. Step-by-step guide for supplementing data with EAN_13 symbology.
-type: docs
 weight: 16
 url: /java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supplementing Data in Java
+
 
 ## Introduction
 
@@ -97,3 +103,10 @@ You can purchase Aspose.BarCode for Java [here](https://purchase.aspose.com/buy)
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

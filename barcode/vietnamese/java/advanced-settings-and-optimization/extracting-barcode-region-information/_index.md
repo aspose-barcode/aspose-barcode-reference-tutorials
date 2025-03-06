@@ -3,10 +3,16 @@ title: Làm chủ việc trích xuất vùng mã vạch trong Java với Aspose.
 linktitle: Trích xuất thông tin vùng mã vạch từ hình ảnh
 second_title: API Java Aspose.BarCode
 description: Khám phá Aspose.BarCode cho Java một thư viện mạnh mẽ để trích xuất chi tiết vùng mã vạch một cách dễ dàng. Nâng cao độ chính xác của các ứng dụng Java của bạn.
-type: docs
 weight: 17
 url: /vi/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ việc trích xuất vùng mã vạch trong Java với Aspose.BarCode
+
 ## Giới thiệu
 
 Trong thế giới năng động của lập trình Java, thao tác thông tin mã vạch là một nhiệm vụ phổ biến và quan trọng. Aspose.BarCode for Java nổi lên như một công cụ mạnh mẽ giúp đơn giản hóa quy trình này, cung cấp các giải pháp hiệu quả để trích xuất thông tin vùng mã vạch từ hình ảnh. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình từng bước sử dụng Aspose.BarCode để trích xuất chi tiết vùng mã vạch trong môi trường Java.
@@ -98,3 +104,9 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá quy trình t
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.BarCode?
 
  Câu trả lời 5: Nếu bạn cần giấy phép tạm thời, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/) để biết thêm thông tin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

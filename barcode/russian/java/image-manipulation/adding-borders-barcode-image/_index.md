@@ -3,10 +3,16 @@ title: Добавление границ к изображению штрих-к
 linktitle: Добавление границ к изображению штрих-кода
 second_title: API Aspose.BarCode Java
 description: Улучшите изображения штрих-кодов в Java с помощью Aspose.BarCode, добавив настраиваемые границы. Следуйте этому пошаговому руководству, чтобы создать визуально привлекательное решение для штрих-кодов.
-type: docs
 weight: 10
 url: /ru/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление границ к изображению штрих-кода в Java
+
 
 ## Введение
 
@@ -122,3 +128,10 @@ bb.save(dataDir + "barcode-image-borders.jpg");
 
 ### Доступна ли пробная версия Aspose.BarCode?
  Да, вы можете изучить возможности Aspose.BarCode, загрузив[бесплатная пробная версия](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

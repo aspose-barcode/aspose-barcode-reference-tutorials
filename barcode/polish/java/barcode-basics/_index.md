@@ -3,10 +3,16 @@ title: Podstawy kodów kreskowych
 linktitle: Podstawy kodów kreskowych
 second_title: Aspose.BarCode API Java
 description: Odblokuj moc kodów kreskowych w swoich aplikacjach Java! Zapoznaj się z samouczkami Aspose.BarCode, aby uzyskać bezproblemową integrację, dostosowywanie i rozpoznawanie.
-type: docs
 weight: 20
 url: /pl/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podstawy kodów kreskowych
+
 
 ## Wstęp
 
@@ -38,3 +44,9 @@ Poznaj tworzenie i ustawianie rozmiaru całego obrazu w Javie za pomocą Aspose.
 Tworzenie obrazu z dokładnym generowaniem kodów kreskowych w Javie za pomocą Aspose.BarCode. Z łatwością twórz niestandardowe kody kreskowe. Przeglądaj dokumentację, pobieraj i uzyskaj pomoc.
 ### [Wykrywanie orientacji kodu kreskowego w Javie](./detecting-barcode-orientation/)
 Ulepsz swoje aplikacje Java dzięki rozpoznawaniu kodów kreskowych za pomocą Aspose.BarCode dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku wykryć orientację kodu kreskowego.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

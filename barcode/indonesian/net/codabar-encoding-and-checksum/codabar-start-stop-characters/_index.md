@@ -3,10 +3,16 @@ title: Hasilkan Kode Batang Codabar dengan Karakter Mulai/Hentikan di Aspose.Bar
 linktitle: Karakter Mulai/Hentikan Codabar
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang Codabar dengan karakter mulai dan berhenti menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pengembang.
-type: docs
 weight: 11
 url: /id/net/codabar-encoding-and-checksum/codabar-start-stop-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hasilkan Kode Batang Codabar dengan Karakter Mulai/Hentikan di Aspose.BarCode untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang penggunaan Aspose.BarCode untuk .NET. Dalam tutorial ini, kita akan mendalami dunia karakter start/stop Codabar, menjelajahi signifikansinya dan cara mengimplementasikannya secara efektif menggunakan Aspose.BarCode untuk .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan pengkodean, panduan langkah demi langkah ini akan membantu Anda menguasai seni membuat kode batang Codabar dengan karakter mulai dan berhenti.
@@ -132,3 +138,9 @@ A3: Kode batang Codabar terutama digunakan untuk pengkodean data numerik dan mem
 ### Q5: Di mana saya dapat mencari bantuan atau mendiskusikan masalah terkait Aspose.BarCode untuk .NET?
 
  A5: Anda dapat mengunjungi[Aspose.BarCode untuk forum dukungan .NET](https://forum.aspose.com/c/barcode/13) untuk mencari bantuan dan mendiskusikan masalah atau pertanyaan apa pun yang mungkin Anda miliki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

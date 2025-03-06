@@ -3,10 +3,16 @@ title: Tạo mã vạch DataMatrix bằng Aspose.BarCode cho .NET
 linktitle: Phiên bản DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch DataMatrix trong .NET bằng Aspose.BarCode cho .NET. Thứ nguyên tùy chỉnh, hỗ trợ ECC, v.v.
-type: docs
 weight: 12
 url: /vi/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã vạch DataMatrix bằng Aspose.BarCode cho .NET
+
 Nếu bạn đang tìm kiếm một giải pháp đáng tin cậy để tạo mã vạch DataMatrix trong các ứng dụng .NET của mình thì Aspose.BarCode cho .NET là lựa chọn phù hợp. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.BarCode cho .NET để tạo mã vạch DataMatrix. Chúng tôi sẽ chia mỗi ví dụ thành nhiều bước để đảm bảo rằng bạn có thể làm theo một cách dễ dàng.
 
 ## Điều kiện tiên quyết
@@ -128,3 +134,9 @@ Câu trả lời 2: Có, bạn có thể tùy chỉnh kích thước của mã v
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.BarCode cho .NET?
 
  Câu trả lời 5: Để nhận giấy phép tạm thời cho Aspose.BarCode cho .NET, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

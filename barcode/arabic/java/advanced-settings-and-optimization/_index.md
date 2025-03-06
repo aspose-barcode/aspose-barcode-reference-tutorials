@@ -3,10 +3,16 @@ title: الإعدادات المتقدمة والتحسين
 linktitle: الإعدادات المتقدمة والتحسين
 second_title: Aspose.BarCode جافا API
 description: أطلق العنان لإمكانات إنشاء باركود Java باستخدام Aspose.BarCode. قم بتكوين الأحجام المخصصة وتحسين دقة الصورة وإعدادات الباركود الرئيسية لتحقيق التكامل السلس.
-type: docs
 weight: 29
 url: /ar/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الإعدادات المتقدمة والتحسين
+
 
 ## مقدمة
 
@@ -86,3 +92,9 @@ url: /ar/java/advanced-settings-and-optimization/
 اكتشف قوة Aspose.BarCode لـ Java في فك رموز الباركود 1D دون عناء. قم بالتنزيل الآن للتكامل السلس مع تطبيقات Java الخاصة بك.
 ### [الحصول على جودة التعرف على الباركود بنسبة مئوية في Java](./getting-barcode-recognition-quality-percent/)
 الحصول على جودة التعرف على الباركود في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة للحصول على أفضل النتائج.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

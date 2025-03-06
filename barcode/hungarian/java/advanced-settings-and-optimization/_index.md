@@ -3,10 +3,16 @@ title: Speciális beállítások és optimalizálás
 linktitle: Speciális beállítások és optimalizálás
 second_title: Aspose.BarCode Java API
 description: Az Aspose.BarCode segítségével tárja fel a Java vonalkód generálásában rejlő lehetőségeket. Konfigurálja az egyéni méreteket, optimalizálja a képfelbontást és a fő vonalkód-beállításokat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 29
 url: /hu/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speciális beállítások és optimalizálás
+
 
 ## Bevezetés
 
@@ -86,3 +92,9 @@ Az Aspose.BarCode for Java segítségével könnyedén generálhat több vonalk�
 Fedezze fel az Aspose.BarCode for Java erejét az 1D vonalkódok könnyed dekódolásában. Töltse le most a Java-alkalmazásokba való zökkenőmentes integráció érdekében.
 ### [A vonalkód-felismerés minőségének elérése százalékban a Java nyelven](./getting-barcode-recognition-quality-percent/)
 A vonalkód felismerési minőség elérése Java nyelven az Aspose.BarCode segítségével. Kövesse lépésről lépésre útmutatónkat az optimális eredmény érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

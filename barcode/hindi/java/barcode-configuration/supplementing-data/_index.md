@@ -3,10 +3,16 @@ title: जावा में डेटा का पूरक
 linktitle: पूरक डेटा
 second_title: Aspose.BarCode जावा एपीआई
 description: Aspose.BarCode का उपयोग करके जावा में डायनामिक बारकोड बनाना सीखें। EAN_13 सहजीवन के साथ डेटा के पूरक के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 16
 url: /hi/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में डेटा का पूरक
+
 
 ## परिचय
 
@@ -96,3 +102,10 @@ generator.save(dataDir + "supplementData.jpg");
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 추가 바코드 데이터 생성
 linktitle: 보충 바코드 데이터 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 보충 바코드 데이터를 생성합니다. EAN-2 및 EAN-5 바코드를 손쉽게 사용자 정의하세요. .NET 개발자를 위한 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 추가 바코드 데이터 생성
+
 
 바코드 생성 및 사용자 정의 분야에서 Aspose.BarCode for .NET은 강력하고 다재다능한 도구로 돋보입니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 .NET용 Aspose.BarCode를 사용하여 보충 바코드 데이터를 구성하는 과정을 안내합니다. 
 
@@ -110,3 +116,10 @@ Aspose.BarCode for .NET은 바코드 생성 및 사용자 정의를 위한 강�
 
 ### 생성된 바코드의 모양을 사용자 정의할 수 있습니까?
 물론, 요구 사항에 맞게 바코드의 치수, 색상 및 기타 측면을 사용자 정의할 수 있습니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

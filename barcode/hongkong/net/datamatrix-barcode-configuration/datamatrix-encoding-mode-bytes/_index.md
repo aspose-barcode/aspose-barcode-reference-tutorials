@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 以位元組為單位進行 DataMatrix 編
 linktitle: DataMatrix 編碼模式（位元組）
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 的位元組模式對 DataMatrix 格式的資料進行編碼。請遵循我們的條碼產生和識別逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 以位元組為單位進行 DataMatrix 編碼
+
 在條碼產生和識別領域，Aspose.BarCode for .NET 是一個強大且多功能的工具。憑藉其強大的特性和功能集，它使開發人員能夠輕鬆創建、操作和讀取條碼。在它提供的眾多編碼模式中，使用位元組的 DataMatrix 編碼模式是一個突出的功能。在本逐步指南中，我們將引導您完成使用 Aspose.BarCode for .NET 以位元組模式對 DataMatrix 格式的資料進行編碼的過程。
 
 ## 先決條件
@@ -121,3 +127,9 @@ A4：是的，Aspose.BarCode for .NET適合商業用途。您可以從以下位�
 ### Q5：我可以使用 Aspose.BarCode for .NET 的臨時授權嗎？
 
  A5：是的，您可以從以下位置取得 Aspose.BarCode for .NET 的臨時授權：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

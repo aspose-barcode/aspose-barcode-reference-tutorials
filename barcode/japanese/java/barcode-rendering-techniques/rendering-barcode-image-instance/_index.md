@@ -3,10 +3,16 @@ title: Java でのバーコードから画像インスタンスへのレンダ�
 linktitle: バーコードを画像インスタンスにレンダリングする
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode for Java の威力を体験してください。この堅牢なライブラリを使用して、さまざまなタイプのバーコードを簡単に生成します。
-type: docs
 weight: 11
 url: /ja/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのバーコードから画像インスタンスへのレンダリング
+
 
 ## 導入
 
@@ -70,3 +76,10 @@ Image image = bb.generateBarCodeImage();
 
 ### 利用可能な一時ライセンスのオプションはありますか?
 はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Генерация штрих-кода с пустыми полосами
 linktitle: Генерация штрих-кода с пустыми полосами
 second_title: API Aspose.BarCode Java
 description: Легко создавайте штрих-коды с пустыми полосами на Java с помощью Aspose.BarCode. Настройте внешний вид и легко интегрируйте. Изучите руководство прямо сейчас!
-type: docs
 weight: 14
 url: /ru/java/image-manipulation/generating-barcode-empty-bars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация штрих-кода с пустыми полосами в Java
+
 
 ## Введение
 
@@ -90,3 +96,9 @@ generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 
 ### Где я могу найти подробную документацию по Aspose.BarCode?
  Полная документация доступна[здесь](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

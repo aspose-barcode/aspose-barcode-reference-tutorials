@@ -3,10 +3,16 @@ title: DataMatrix Structured Append Configuration with Aspose.BarCode for .NET
 linktitle: DataMatrix Structured Append Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to create and read DataMatrix structured append configuration in .NET using Aspose.BarCode for high-efficiency data organization.
-type: docs
 weight: 11
 url: /net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DataMatrix Structured Append Configuration with Aspose.BarCode for .NET
+
 If you're a developer looking to implement DataMatrix structured append configuration in your .NET applications, Aspose.BarCode for .NET is your go-to solution. In this step-by-step guide, we'll explore the ins and outs of using this powerful library to generate and read structured DataMatrix barcodes. We'll break down each example into multiple easy-to-follow steps, ensuring that you grasp the concepts thoroughly. By the end of this tutorial, you'll be equipped to use Aspose.BarCode for .NET to work with DataMatrix structured append configurations effectively.
 
 ## Prerequisites
@@ -100,3 +106,10 @@ A4: If you need a temporary license for evaluation or testing purposes, you can 
 ### Q5: Does Aspose.BarCode for .NET support other barcode types?
 
 A5: Yes, Aspose.BarCode for .NET supports a wide range of barcode types, including QR codes, Code 128, EAN-13, and many more. You can explore the full documentation [here](https://reference.aspose.com/barcode/net/) to see the complete list of supported barcode types.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

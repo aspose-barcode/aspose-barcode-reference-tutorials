@@ -3,10 +3,16 @@ title: Aspose.BarCode ile Java'da Geniş Dar Oranı Yapılandırma
 linktitle: Geniş-Dar Oranını Yapılandırma
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode'u kullanarak Java barkodlarında geniş-dar oranı nasıl yapılandıracağınızı öğrenin. Sorunsuz özelleştirme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 17
 url: /tr/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode ile Java'da Geniş Dar Oranı Yapılandırma
+
 
 ## giriiş
 
@@ -87,3 +93,9 @@ C: BarcodeGenerator yapıcısındaki semboloji türünü değiştirmeniz yeterli
 
 ### S: Aspose.BarCode için nasıl destek alınır?
  C: Aspose.BarCode forumunu ziyaret edin[Burada](https://forum.aspose.com/c/barcode/13) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cấu hình vùng yên tĩnh mã vạch ITF-14
 linktitle: Cấu hình vùng yên tĩnh mã vạch ITF-14
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách định cấu hình vùng yên tĩnh của mã vạch ITF-14 với Aspose.BarCode cho .NET. Đảm bảo khả năng đọc và tuân thủ dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình vùng yên tĩnh mã vạch ITF-14
+
 
 ## Giới thiệu
 
@@ -99,3 +105,10 @@ Aspose.BarCode for .NET cung cấp phiên bản dùng thử miễn phí, nhưng 
 ### Tôi có thể nhận trợ giúp và hỗ trợ cho Aspose.BarCode cho .NET ở đâu?
  Để được hỗ trợ, bạn có thể truy cập[Aspose.BarCode cho diễn đàn .NET](https://forum.aspose.com/c/barcode/13), nơi bạn có thể đặt câu hỏi và tìm các tài nguyên hữu ích.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

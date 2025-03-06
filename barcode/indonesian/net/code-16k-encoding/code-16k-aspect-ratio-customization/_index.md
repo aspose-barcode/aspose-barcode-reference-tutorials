@@ -3,10 +3,16 @@ title: Sesuaikan Rasio Aspek Kode Batang 16K dengan Aspose.BarCode untuk .NET
 linktitle: Kustomisasi Rasio Aspek Kode 16K
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara menyesuaikan rasio aspek kode batang Kode 16K menggunakan Aspose.BarCode untuk .NET. Buat kode batang yang tepat untuk aplikasi Anda.
-type: docs
 weight: 10
 url: /id/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Rasio Aspek Kode Batang 16K dengan Aspose.BarCode untuk .NET
+
 Dalam dunia pembuatan kode batang, presisi dan penyesuaian adalah kuncinya. Aspose.BarCode for .NET memberi pengembang seperangkat alat canggih untuk membuat dan memanipulasi kode batang, termasuk kemampuan untuk menyesuaikan rasio aspek kode batang Kode 16K. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara membuat kode batang Kode 16K dengan rasio aspek berbeda menggunakan Aspose.BarCode untuk .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai, kami akan membagi prosesnya menjadi langkah-langkah sederhana dan mudah dipahami.
 
 ## Prasyarat
@@ -97,3 +103,10 @@ A3: Tentu saja. Aspose.BarCode untuk .NET serbaguna dan dapat digunakan di aplik
 ### Q5: Apakah tersedia uji coba gratis untuk Aspose.BarCode untuk .NET?
 
  A5: Ya, Anda dapat mencoba Aspose.BarCode untuk .NET dengan mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/). Ini memungkinkan Anda menjelajahi fitur dan fungsinya sebelum melakukan pembelian.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Personalização da proporção da barra de dados unidimensional
 linktitle: Personalização da proporção da barra de dados unidimensional
 second_title: API Aspose.BarCode .NET
 description: Aprenda como personalizar proporções de aspecto DataBar unidimensional em .NET usando Aspose.BarCode. Melhore a precisão e o design do código de barras.
-type: docs
 weight: 16
 url: /pt/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalização da proporção da barra de dados unidimensional
+
 
 No mundo do código de barras, a precisão e a personalização são fundamentais para alcançar os resultados desejados. Como um escritor experiente de SEO, estou aqui para orientá-lo no processo de personalização da proporção de um DataBar unidimensional usando Aspose.BarCode para .NET. Dividiremos esse processo intrincado em etapas gerenciáveis, garantindo que você compreenda o conceito completamente. Então, vamos mergulhar!
 
@@ -116,3 +122,10 @@ Embora você possa ajustar a proporção, mudanças extremas podem afetar a capa
  Se precisar de uma licença temporária para teste ou avaliação, você pode obter uma[aqui](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

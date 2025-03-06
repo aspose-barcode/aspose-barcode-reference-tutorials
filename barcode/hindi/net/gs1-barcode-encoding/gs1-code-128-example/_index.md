@@ -3,10 +3,16 @@ title: जीएस1 कोड 128 उदाहरण के साथ चरण
 linktitle: जीएस1 कोड 128 उदाहरण
 second_title: Aspose.BarCode .NET API
 description: जानें कि .NET के लिए Aspose.BarCode के साथ GS1 कोड 128 बारकोड कैसे बनाएं। C# में बारकोड जनरेशन के लिए चरण-दर-चरण मार्गदर्शिका। अब शुरू हो जाओ!
-type: docs
 weight: 10
 url: /hi/net/gs1-barcode-encoding/gs1-code-128-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जीएस1 कोड 128 उदाहरण के साथ चरण-दर-चरण मार्गदर्शिका
+
 
 ## परिचय
 
@@ -89,3 +95,9 @@ gen.Save($"{path}GS1Code128Example.png", BarCodeImageFormat.Png);
 
 ### क्या मदद की ज़रूरत है या कोई सवाल है? मुझे समर्थन कहां मिल सकता है?
 समर्थन और सामुदायिक चर्चा के लिए, यहाँ जाएँ[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

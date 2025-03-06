@@ -3,10 +3,16 @@ title: Advanced Settings and Optimization
 linktitle: Advanced Settings and Optimization
 second_title: Aspose.BarCode Java API
 description: Unlock the potential of Java barcode generation with Aspose.BarCode. Configure custom sizes, optimize image resolution, and master barcode settings for seamless integration.
-type: docs
 weight: 29
 url: /java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Settings and Optimization
+
 
 ## Introduction
 
@@ -86,3 +92,9 @@ Generate multiple barcodes on a single image effortlessly using Aspose.BarCode f
 Explore the power of Aspose.BarCode for Java in decoding 1D barcodes effortlessly. Download now for seamless integration into your Java applications.
 ### [Getting Barcode Recognition Quality in Percent in Java](./getting-barcode-recognition-quality-percent/)
 Getting barcode recognition quality in Java with Aspose.BarCode. Follow our step-by-step guide for optimal results.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

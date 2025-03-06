@@ -3,10 +3,16 @@ title: Раскрасьте изображения штрих-кода в Java �
 linktitle: Раскрашивание изображения штрих-кода
 second_title: API Aspose.BarCode Java
 description: Узнайте, как легко раскрашивать изображения штрих-кодов на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству, чтобы получить яркие и визуально привлекательные результаты.
-type: docs
 weight: 13
 url: /ru/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Раскрасьте изображения штрих-кода в Java с помощью Aspose.BarCode
+
 
 ## Введение
 
@@ -109,3 +115,10 @@ Aspose.BarCode упрощает процесс генерации штрих-к�
 
 ### Как приобрести лицензию на Aspose.BarCode для Java?
  Вы можете безопасно приобрести лицензию[здесь](https://purchase.aspose.com/buy) чтобы раскрыть весь потенциал Aspose.BarCode.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

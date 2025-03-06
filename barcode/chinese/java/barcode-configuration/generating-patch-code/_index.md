@@ -3,10 +3,16 @@ title: 在 Java 中生成补丁代码
 linktitle: 生成补丁代码
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中轻松生成补丁代码。请按照我们的分步指南进行高效的条形码生成。
-type: docs
 weight: 11
 url: /zh/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中生成补丁代码
+
 
 ## 介绍
 
@@ -104,3 +110,10 @@ public static void generateWholePage() throws IOException {
 
 ### 在哪里可以找到 Aspose.BarCode for Java 的文档？
 该文档位于[Aspose.BarCode for Java 文档](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java でのバーコードの X および Y 次元の管理
 linktitle: バーコードの X および Y 寸法の管理
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode for Java の威力を体験してください。ステップバイステップのガイドで、X と Y の寸法を簡単に管理する方法を学びましょう。精度と見た目の魅力を高めます。
-type: docs
 weight: 13
 url: /ja/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのバーコードの X および Y 次元の管理
+
 
 ## 導入
 
@@ -90,3 +96,10 @@ Aspose.BarCode for Java を使用してバーコード生成で X 次元と Y �
 
 ### Aspose.BarCode for Java の一時ライセンスを取得できますか?
 はい、仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

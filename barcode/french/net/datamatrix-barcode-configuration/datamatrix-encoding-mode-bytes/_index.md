@@ -3,10 +3,16 @@ title: Encodage DataMatrix en octets avec Aspose.BarCode pour .NET
 linktitle: Mode de codage DataMatrix (octets)
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment encoder des données au format DataMatrix en utilisant le mode Octets avec Aspose.BarCode pour .NET. Suivez notre guide étape par étape pour la génération et la reconnaissance de codes-barres.
-type: docs
 weight: 15
 url: /fr/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage DataMatrix en octets avec Aspose.BarCode pour .NET
+
 Dans le monde de la génération et de la reconnaissance de codes-barres, Aspose.BarCode for .NET se présente comme un outil puissant et polyvalent. Grâce à son ensemble robuste de fonctionnalités et de capacités, il permet aux développeurs de créer, manipuler et lire des codes-barres sans effort. Parmi les nombreux modes de codage proposés, le mode de codage DataMatrix utilisant des octets est une fonctionnalité remarquable. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'utilisation d'Aspose.BarCode for .NET pour encoder des données au format DataMatrix à l'aide du mode Octets.
 
 ## Conditions préalables
@@ -121,3 +127,9 @@ A4 : Oui, Aspose.BarCode pour .NET convient à un usage commercial. Vous pouvez
 ### Q5 : Puis-je utiliser une licence temporaire pour Aspose.BarCode pour .NET ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire pour Aspose.BarCode for .NET auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

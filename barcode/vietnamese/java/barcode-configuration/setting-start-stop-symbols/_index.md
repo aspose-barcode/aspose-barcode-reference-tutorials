@@ -3,10 +3,16 @@ title: Đặt ký hiệu bắt đầu và dừng trong Java
 linktitle: Đặt ký hiệu bắt đầu và dừng
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch Codabar tùy chỉnh với các ký hiệu bắt đầu và kết thúc cụ thể trong Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 15
 url: /vi/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt ký hiệu bắt đầu và dừng trong Java
+
 
 ## Giới thiệu
 
@@ -104,3 +110,10 @@ Chúc mừng! Bạn đã học thành công cách đặt ký hiệu bắt đầu
 ### Có thêm ký hiệu mã vạch nào được Aspose.BarCode cho Java hỗ trợ không?
 Có, Aspose.BarCode hỗ trợ nhiều loại ký hiệu mã vạch. Tham khảo tài liệu để có danh sách đầy đủ.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

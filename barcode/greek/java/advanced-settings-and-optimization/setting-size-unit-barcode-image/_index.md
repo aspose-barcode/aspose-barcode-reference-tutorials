@@ -3,10 +3,16 @@ title: Ρύθμιση μονάδας μεγέθους για εικόνα Barcod
 linktitle: Ρύθμιση μονάδας μεγέθους για εικόνα γραμμικού κώδικα
 second_title: Aspose.BarCode Java API
 description: Ανακαλύψτε τη δύναμη του Aspose.BarCode για Java στον καθορισμό μονάδων ακριβούς μεγέθους για εικόνες γραμμικού κώδικα. Αβίαστη ενσωμάτωση, ισχυρή απόδοση και ατελείωτες δυνατότητες προσαρμογής.
-type: docs
 weight: 15
 url: /el/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση μονάδας μεγέθους για εικόνα Barcode σε Java με Aspose.BarCode
+
 ## Εισαγωγή
 
 Το Aspose.BarCode for Java είναι ένα ισχυρό Java API που επιτρέπει στους προγραμματιστές να ενσωματώνουν τις δυνατότητες δημιουργίας και αναγνώρισης γραμμωτού κώδικα στις εφαρμογές Java χωρίς κόπο. Είτε αναπτύσσετε ένα εξελιγμένο σύστημα απογραφής, μια εφαρμογή λιανικής ή οποιοδήποτε άλλο λογισμικό που απαιτεί λειτουργικότητα γραμμικού κώδικα, το Aspose.BarCode αποδεικνύεται μια αξιόπιστη και αποτελεσματική επιλογή.
@@ -100,3 +106,9 @@ A1: Ναι, το Aspose.BarCode για Java υποστηρίζει δυνατό�
 ### Ε5: Ποιες είναι οι υποστηριζόμενες συμβολολογίες γραμμικού κώδικα στο Aspose.BarCode για Java;
 
 A5: Το Aspose.BarCode για Java υποστηρίζει ένα ευρύ φάσμα συμβόλων γραμμικού κώδικα, συμπεριλαμβανομένων των CODE_128, QR_CODE, UPC_A και πολλών άλλων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

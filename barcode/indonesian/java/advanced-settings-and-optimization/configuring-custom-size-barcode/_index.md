@@ -3,10 +3,16 @@ title: Mengonfigurasi Barcode Berukuran Khusus di Java dengan Aspose.BarCode
 linktitle: Mengonfigurasi Ukuran Khusus untuk Barcode
 second_title: Aspose.BarCode Java API
 description: Jelajahi kesederhanaan mengonfigurasi kode batang berukuran khusus di Java dengan Aspose.BarCode. Ikuti tutorial langkah demi langkah kami untuk konfigurasi yang tepat.
-type: docs
 weight: 10
 url: /id/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Barcode Berukuran Khusus di Java dengan Aspose.BarCode
+
 ## Perkenalan
 
 Jika Anda seorang pengembang Java yang ingin mengonfigurasi kode batang berukuran khusus dengan lancar, Aspose.BarCode untuk Java adalah solusi tepat Anda. Tutorial ini akan memandu Anda melalui proses mengonfigurasi ukuran khusus untuk kode batang Anda, memastikan fleksibilitas dan presisi dalam aplikasi Anda.
@@ -112,3 +118,9 @@ A1: Ya, Aspose.BarCode untuk Java mendukung berbagai jenis simbologi, memungkink
 ### Q5: Apakah tersedia opsi lisensi sementara?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

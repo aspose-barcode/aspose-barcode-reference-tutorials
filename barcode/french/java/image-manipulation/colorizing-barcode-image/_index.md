@@ -3,10 +3,16 @@ title: Coloriser les images de codes-barres en Java avec Aspose.BarCode
 linktitle: Colorisation de l'image du code-barres
 second_title: API Java Aspose.BarCode
 description: Apprenez à coloriser des images de codes-barres en Java sans effort à l'aide d'Aspose.BarCode. Suivez notre guide étape par étape pour des résultats éclatants et visuellement attrayants.
-type: docs
 weight: 13
 url: /fr/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coloriser les images de codes-barres en Java avec Aspose.BarCode
+
 
 ## Introduction
 
@@ -109,3 +115,10 @@ Oui, Aspose.BarCode prend en charge un large éventail de formats de codes-barre
 
 ### Comment acheter une licence pour Aspose.BarCode pour Java ?
  Vous pouvez acheter une licence en toute sécurité[ici](https://purchase.aspose.com/buy) pour libérer tout le potentiel d’Aspose.BarCode.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

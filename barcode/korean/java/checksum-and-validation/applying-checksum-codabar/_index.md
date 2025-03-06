@@ -3,10 +3,16 @@ title: Java에서 CodaBar에 체크섬 적용
 linktitle: CodaBar에 체크섬 적용
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 CodaBar에 대한 체크섬을 적용하는 방법을 알아보세요. 이 단계별 가이드를 통해 손쉽게 바코드를 생성하고 인식하세요.
-type: docs
 weight: 11
 url: /ko/java/checksum-and-validation/applying-checksum-codabar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 CodaBar에 체크섬 적용
+
 
 ## 소개
 
@@ -107,3 +113,9 @@ Aspose.BarCode는 다양한 Java 버전에서 작동하도록 설계되었습니
 
 ### 무료 평가판이 제공되나요?
  예, 다음에서 무료 평가판을 다운로드하여 Aspose.BarCode의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

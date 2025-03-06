@@ -3,10 +3,16 @@ title: Menambahkan Batas pada Gambar Barcode di Java
 linktitle: Menambahkan Batas pada Gambar Barcode
 second_title: Aspose.BarCode Java API
 description: Sempurnakan gambar kode batang di Java dengan Aspose.BarCode dengan menambahkan batas yang dapat disesuaikan. Ikuti panduan langkah demi langkah ini untuk mendapatkan solusi barcode yang menarik secara visual.
-type: docs
 weight: 10
 url: /id/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Batas pada Gambar Barcode di Java
+
 
 ## Perkenalan
 
@@ -122,3 +128,10 @@ Tentu. Anda dapat mengubah warna batas secara terprogram berdasarkan kondisi spe
 
 ### Apakah ada versi uji coba Aspose.BarCode yang tersedia?
  Ya, Anda dapat menjelajahi fitur Aspose.BarCode dengan mengunduh[versi percobaan gratis](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurasi Rasio Lebar-Sempit Satu Dimensi
 linktitle: Konfigurasi Rasio Lebar-Sempit Satu Dimensi
 second_title: Aspose.BarCode .NET API
 description: Hasilkan kode batang khusus dengan mudah menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk konfigurasi rasio lebar-sempit satu dimensi.
-type: docs
 weight: 22
 url: /id/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Rasio Lebar-Sempit Satu Dimensi
+
 
 Apakah Anda ingin membuat dan menyesuaikan kode batang dengan mudah di aplikasi .NET Anda? Tidak perlu mencari lagi! Aspose.BarCode for .NET adalah perpustakaan tangguh yang memudahkan pembuatan dan penyesuaian kode batang. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara memanfaatkan kekuatan Aspose.BarCode untuk .NET untuk membuat kode batang dengan konfigurasi rasio lebar-sempit.
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET mendukung berbagai simbologi barcode, termasuk QR Code, 
 
 ### 5. Bagaimana saya bisa mendapatkan dukungan atau mengajukan pertanyaan tentang Aspose.BarCode untuk .NET?
  Anda dapat mengunjungi[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

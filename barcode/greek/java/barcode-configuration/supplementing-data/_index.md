@@ -3,10 +3,16 @@ title: Συμπλήρωση δεδομένων σε Java
 linktitle: Συμπληρωματικά Δεδομένα
 second_title: Aspose.BarCode Java API
 description: Μάθετε πώς να δημιουργείτε δυναμικούς γραμμικούς κώδικες σε Java χρησιμοποιώντας το Aspose.BarCode. Οδηγός βήμα προς βήμα για τη συμπλήρωση δεδομένων με συμβολολογία EAN_13.
-type: docs
 weight: 16
 url: /el/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συμπλήρωση δεδομένων σε Java
+
 
 ## Εισαγωγή
 
@@ -96,3 +102,10 @@ generator.save(dataDir + "supplementData.jpg");
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

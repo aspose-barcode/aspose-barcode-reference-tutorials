@@ -3,10 +3,16 @@ title: Réglage unidimensionnel de la hauteur du code-barres
 linktitle: Réglage unidimensionnel de la hauteur du code-barres
 second_title: API Aspose.BarCode .NET
 description: Apprenez à ajuster la hauteur des codes-barres unidimensionnels dans .NET avec Aspose.BarCode pour une personnalisation précise. Créez des codes-barres parfaits sans effort !
-type: docs
 weight: 13
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Réglage unidimensionnel de la hauteur du code-barres
+
 
 Lorsqu'il s'agit de générer des codes-barres dans des applications .NET, Aspose.BarCode for .NET est un outil puissant et polyvalent qui peut rationaliser le processus. Que vous créiez des codes-barres pour la gestion des stocks, la vente au détail ou toute autre application, un contrôle précis des propriétés du code-barres est essentiel. L'une de ces propriétés est la hauteur du code-barres unidimensionnel. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'ajustement de la hauteur d'un code-barres unidimensionnel à l'aide d'Aspose.BarCode for .NET.
 
@@ -82,3 +88,10 @@ Oui, Aspose.BarCode pour .NET prend en charge divers formats d'image, notamment 
 
 ### Où puis-je trouver une documentation détaillée pour Aspose.BarCode pour .NET ?
  Vous pouvez vous référer à la documentation[ici](https://reference.aspose.com/barcode/net/) pour des informations détaillées sur l’utilisation d’Aspose.BarCode dans vos projets .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

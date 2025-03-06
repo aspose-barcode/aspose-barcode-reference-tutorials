@@ -3,10 +3,16 @@ title: تقديم الباركود إلى كائن الرسومات في جاف�
 linktitle: تقديم الباركود إلى كائن الرسومات
 second_title: Aspose.BarCode جافا API
 description: أنشئ رموزًا شريطية بسهولة في Java باستخدام Aspose.BarCode. اتبع هذا الدليل خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 10
 url: /ar/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم الباركود إلى كائن الرسومات في جافا
+
 
 ## مقدمة
 
@@ -111,3 +117,10 @@ class MyBarCode extends java.awt.Canvas {
 
 ### أين يمكنني طلب المساعدة إذا واجهت مشاكل؟
  قم بزيارة منتدى Aspose.BarCode[هنا](https://forum.aspose.com/c/barcode/13) للدعم.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.BarCode for .NET 中設定 Codablock F 行和列
 linktitle: Codablock F 行和列配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何在 Aspose.BarCode for .NET 中設定 Codablock F 行和列。為各種應用創建客製化的二維條碼。
-type: docs
 weight: 11
 url: /zh-hant/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.BarCode for .NET 中設定 Codablock F 行和列
+
 在本逐步指南中，我們將探索如何使用 Aspose.BarCode for .NET 設定 Codablock F 行和列設定。 Codablock F 是一種二維條碼符號系統，用於各種應用，包括運輸標籤和包裝。我們將每個範例分解為多個步驟，以確保對流程有清晰、全面的理解。
 
 ## 先決條件
@@ -100,3 +106,9 @@ A3：是的，Aspose.BarCode for .NET 與各種.NET 框架相容，使其適用�
 ### Q5：如何獲得 Aspose.BarCode for .NET 支援？
 
  A5：如果您有任何疑問或需要協助，您可以造訪 Aspose.BarCode for .NET 論壇[這裡](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Setting Start and Stop Symbols in Java
 linktitle: Setting Start and Stop Symbols
 second_title: Aspose.BarCode Java API
 description: Generate customized Codabar barcodes with specific start and stop symbols in Java using Aspose.BarCode. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 15
 url: /java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Start and Stop Symbols in Java
+
 
 ## Introduction
 
@@ -105,3 +111,10 @@ If needed, you can acquire a temporary license [here](https://purchase.aspose.co
 Yes, Aspose.BarCode supports a wide range of barcode symbologies. Refer to the documentation for a complete list.
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

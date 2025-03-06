@@ -3,10 +3,16 @@ title: जावा में ऑस्ट्रेलिया पोस्ट 
 linktitle: ऑस्ट्रेलिया पोस्ट बारकोड जनरेट करना
 second_title: Aspose.BarCode जावा एपीआई
 description: Aspose.BarCode का उपयोग करके जावा में आसानी से ऑस्ट्रेलिया पोस्ट बारकोड जेनरेट करें। निर्बाध एकीकरण के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-type: docs
 weight: 12
 url: /hi/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में ऑस्ट्रेलिया पोस्ट बारकोड जनरेट करना
+
 
 ## परिचय
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### मैं Aspose.BarCode के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
  आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

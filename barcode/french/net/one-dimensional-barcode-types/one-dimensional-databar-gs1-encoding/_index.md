@@ -3,10 +3,16 @@ title: Encodage GS1 de barre de données unidimensionnelle
 linktitle: Encodage GS1 de barre de données unidimensionnelle
 second_title: API Aspose.BarCode .NET
 description: Apprenez à créer des codes à barres codés Databar GS1 dans .NET à l'aide d'Aspose.BarCode. Générez facilement des codes-barres. Suivez notre guide étape par étape.
-type: docs
 weight: 18
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage GS1 de barre de données unidimensionnelle
+
 
 Dans ce didacticiel, nous vous guiderons tout au long du processus de création de codes-barres codés Databar GS1 unidimensionnels à l'aide de la bibliothèque Aspose.BarCode for .NET. Que vous cherchiez à générer des codes-barres avec ou sans encodage GS1, nous avons ce qu'il vous faut. Ce guide étape par étape vous aidera à comprendre les conditions préalables, à importer des espaces de noms et à démontrer chaque exemple pour créer facilement des codes-barres codés Databar GS1.
 
@@ -101,3 +107,10 @@ Oui, vous pouvez personnaliser l'apparence des codes-barres générés avec Aspo
 
 ### 5. Comment puis-je acheter une licence pour Aspose.BarCode pour .NET ?
  Pour acheter une licence pour Aspose.BarCode pour .NET, visitez le[page d'achat](https://purchase.aspose.com/buy) sur le site Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

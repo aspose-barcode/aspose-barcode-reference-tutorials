@@ -3,10 +3,16 @@ title: การแสดงบาร์โค้ดเป็นวัตถุ�
 linktitle: การแสดงบาร์โค้ดไปยังวัตถุกราฟิก
 second_title: Aspose.BarCode Java API
 description: สร้างบาร์โค้ดได้อย่างง่ายดายใน Java โดยใช้ Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการผสานรวมที่ราบรื่น
-type: docs
 weight: 10
 url: /th/java/barcode-rendering-techniques/rendering-barcode-graphics-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแสดงบาร์โค้ดเป็นวัตถุกราฟิกใน Java
+
 
 ## การแนะนำ
 
@@ -111,3 +117,10 @@ class MyBarCode extends java.awt.Canvas {
 
 ### ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันประสบปัญหา
  เยี่ยมชมฟอรั่ม Aspose.BarCode[ที่นี่](https://forum.aspose.com/c/barcode/13) สำหรับการสนับสนุน
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

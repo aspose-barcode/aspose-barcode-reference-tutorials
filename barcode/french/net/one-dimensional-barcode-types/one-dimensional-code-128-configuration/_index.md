@@ -3,10 +3,16 @@ title: Configuration du code unidimensionnel 128
 linktitle: Configuration du code unidimensionnel 128
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment générer des codes-barres Code 128 unidimensionnels dans .NET à l’aide d’Aspose.BarCode. Suivez notre guide étape par étape pour une intégration transparente des codes-barres.
-type: docs
 weight: 10
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration du code unidimensionnel 128
+
 
 Si vous êtes un développeur .NET à la recherche d'un outil puissant pour générer des codes-barres dans vos applications, Aspose.BarCode for .NET est votre solution incontournable. Ce guide complet vous guidera tout au long du processus d'exploitation des capacités d'Aspose.BarCode for .NET pour créer des codes-barres Code 128 unidimensionnels. Il est conçu pour les développeurs débutants et expérimentés. 
 
@@ -108,3 +114,10 @@ Bien qu'Aspose.BarCode se concentre principalement sur les codes-barres unidimen
 
 ### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
  Vous pouvez demander de l'aide et partager vos expériences sur le forum Aspose.BarCode for .NET.[ici](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

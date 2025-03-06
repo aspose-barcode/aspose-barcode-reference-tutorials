@@ -3,10 +3,16 @@ title: Générer un code de correctif en Java
 linktitle: Générer un code de correctif
 second_title: API Java Aspose.BarCode
 description: Générez facilement des codes de correctifs en Java avec Aspose.BarCode. Suivez notre guide étape par étape pour une génération efficace de codes-barres.
-type: docs
 weight: 11
 url: /fr/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer un code de correctif en Java
+
 
 ## Introduction
 
@@ -104,3 +110,10 @@ En suivant ce guide étape par étape, vous avez appris à générer un code de 
 
 ### Où puis-je trouver la documentation d’Aspose.BarCode pour Java ?
  La documentation est disponible sur[Documentation Aspose.BarCode pour Java](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo Chế độ DataMatrix (Tự động) với Aspose.BarCode cho .NET
 linktitle: Chế độ mã hóa DataMatrix (Tự động)
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo Chế độ DataMatrix (Tự động) bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ từ điều kiện tiên quyết đến đọc mã vạch.
-type: docs
 weight: 14
 url: /vi/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo Chế độ DataMatrix (Tự động) với Aspose.BarCode cho .NET
+
 Khi thời đại kỹ thuật số tiếp tục phát triển, nhu cầu về các phương pháp mã hóa dữ liệu hiệu quả ngày càng trở nên quan trọng. Chế độ DataMatrix (Tự động) là một trong những giải pháp như vậy, cho phép bạn lưu trữ thông tin ở định dạng nhỏ gọn và đáng tin cậy. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách tạo Chế độ DataMatrix (Tự động) một cách dễ dàng bằng cách sử dụng thư viện Aspose.BarCode cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ hướng dẫn bạn qua quy trình, giúp bạn bắt đầu dễ dàng.
 
 ## Điều kiện tiên quyết
@@ -101,3 +107,9 @@ Câu trả lời 1: Chế độ mã hóa DataMatrix "Tự động" cho phép th�
 ### Câu hỏi 5: Có những tùy chọn mã hóa nào cho mã vạch DataMatrix?
 
 Câu trả lời 5: Aspose.BarCode cho .NET cung cấp nhiều tùy chọn mã hóa khác nhau, bao gồm UTF-8, ASCII, v.v. Bạn có thể chọn mã hóa mong muốn khi tạo mã vạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

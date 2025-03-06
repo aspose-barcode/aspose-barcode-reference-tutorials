@@ -3,10 +3,16 @@ title: Управление размерами X и Y штрих-кода в Jav
 linktitle: Управление размерами X и Y штрих-кода
 second_title: API Aspose.BarCode Java
 description: Откройте для себя возможности Aspose.BarCode для Java! Научитесь легко управлять размерами X и Y с помощью нашего пошагового руководства. Повысьте точность и визуальную привлекательность.
-type: docs
 weight: 13
 url: /ru/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление размерами X и Y штрих-кода в Java
+
 
 ## Введение
 
@@ -90,3 +96,10 @@ public static void setYDimension() throws IOException {
 
 ### Могу ли я получить временную лицензию на Aspose.BarCode для Java?
 Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

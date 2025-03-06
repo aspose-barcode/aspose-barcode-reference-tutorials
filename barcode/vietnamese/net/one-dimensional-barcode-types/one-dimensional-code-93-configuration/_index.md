@@ -3,10 +3,16 @@ title: Tạo mã vạch 93 mã một chiều
 linktitle: Cấu hình mã một chiều 93
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách tạo mã vạch Code 93 bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước để tạo mã vạch.
-type: docs
 weight: 12
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã vạch 93 mã một chiều
+
 
 ## Giới thiệu
 
@@ -102,3 +108,10 @@ Tóm lại, Aspose.BarCode for .NET đơn giản hóa việc tạo mã vạch tr
 
 ### Câu hỏi: Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi về Aspose.BarCode cho .NET ở đâu?
  Đáp: Bạn có thể tìm thấy một diễn đàn cộng đồng để được hỗ trợ và thảo luận tại[Aspose.BarCode để hỗ trợ .NET](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

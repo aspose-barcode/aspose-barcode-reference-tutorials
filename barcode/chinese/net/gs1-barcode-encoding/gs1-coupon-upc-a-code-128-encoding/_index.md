@@ -3,10 +3,16 @@ title: GS1 优惠券 UPC-A 代码 128 编码
 linktitle: GS1 优惠券 UPC-A 代码 128 编码
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 轻松生成条形码 - 您的综合条形码生成解决方案。今天就开始吧！
-type: docs
 weight: 12
 url: /zh/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 优惠券 UPC-A 代码 128 编码
+
 
 ## 介绍
 
@@ -115,3 +121,9 @@ Aspose.BarCode for .NET 提供了一个多功能且用户友好的解决方案�
 
 ### 问：Aspose.BarCode for .NET 是否支持任何其他编码类型？
 是的，Aspose.BarCode for .NET 支持多种编码类型，包括 UPC-A、Code 128、QR 码等等。您可以在文档中找到完整列表。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

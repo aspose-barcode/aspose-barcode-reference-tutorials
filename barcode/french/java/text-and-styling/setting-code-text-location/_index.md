@@ -3,10 +3,16 @@ title: Définition de l'emplacement du texte du code en Java
 linktitle: Emplacement du texte du code de réglage
 second_title: API Java Aspose.BarCode
 description: Générez facilement des codes-barres dynamiques en Java avec Aspose.BarCode. Suivez notre guide étape par étape pour la personnalisation du texte du code et améliorez les fonctionnalités de votre application.
-type: docs
 weight: 12
 url: /fr/java/text-and-styling/setting-code-text-location/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de l'emplacement du texte du code en Java
+
 
 ## Introduction
 
@@ -88,3 +94,10 @@ Ajoutez simplement les fichiers JAR Aspose.BarCode au chemin de classe de votre 
 
 ### Q : Où puis-je demander de l'aide ou du support pour Aspose.BarCode ?
  Visiter le[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) pour le soutien et l’assistance de la communauté.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

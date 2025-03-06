@@ -3,10 +3,16 @@ title: Расширенные настройки и оптимизация
 linktitle: Расширенные настройки и оптимизация
 second_title: API Aspose.BarCode Java
 description: Раскройте потенциал генерации штрих-кодов Java с помощью Aspose.BarCode. Настройте нестандартные размеры, оптимизируйте разрешение изображения и настройте параметры штрих-кода для бесшовной интеграции.
-type: docs
 weight: 29
 url: /ru/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные настройки и оптимизация
+
 
 ## Введение
 
@@ -86,3 +92,9 @@ Aspose.BarCode для Java представляет собой мощную би
 Исследуйте возможности Aspose.BarCode для Java, позволяющие легко декодировать 1D-штрих-коды. Загрузите сейчас для полной интеграции с вашими Java-приложениями.
 ### [Получение качества распознавания штрих-кода в процентах в Java](./getting-barcode-recognition-quality-percent/)
 Получение качества распознавания штрих-кода на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для достижения оптимальных результатов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

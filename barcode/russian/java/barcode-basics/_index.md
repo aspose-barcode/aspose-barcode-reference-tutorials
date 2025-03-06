@@ -3,10 +3,16 @@ title: Основы штрих-кода
 linktitle: Основы штрих-кода
 second_title: API Aspose.BarCode Java
 description: Раскройте возможности штрих-кодов в своих Java-приложениях! Погрузитесь в руководства по Aspose.BarCode для плавной интеграции, настройки и распознавания.
-type: docs
 weight: 20
 url: /ru/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Основы штрих-кода
+
 
 ## Введение
 
@@ -38,3 +44,9 @@ url: /ru/java/barcode-basics/
 Создание изображения с точной генерацией штрих-кода на Java с помощью Aspose.BarCode. Легко создавайте собственные штрих-коды. Изучите документацию, загрузите и получите поддержку.
 ### [Обнаружение ориентации штрих-кода в Java](./detecting-barcode-orientation/)
 Расширьте возможности своих Java-приложений за счет распознавания штрих-кодов с помощью Aspose.BarCode для Java. Следуйте нашему пошаговому руководству, чтобы легко определить ориентацию штрих-кода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

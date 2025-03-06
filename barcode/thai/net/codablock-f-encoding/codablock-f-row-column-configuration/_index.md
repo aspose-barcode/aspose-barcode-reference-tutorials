@@ -3,10 +3,16 @@ title: กำหนดค่าแถวและคอลัมน์ Codablock
 linktitle: การกำหนดค่าแถวและคอลัมน์ Codablock F
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีกำหนดค่าแถวและคอลัมน์ Codablock F ใน Aspose.BarCode สำหรับ .NET สร้างบาร์โค้ด 2D แบบกำหนดเองสำหรับการใช้งานต่างๆ
-type: docs
 weight: 11
 url: /th/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำหนดค่าแถวและคอลัมน์ Codablock F ใน Aspose.BarCode สำหรับ .NET
+
 ในคำแนะนำทีละขั้นตอนนี้ เราจะสำรวจวิธีกำหนดค่าการตั้งค่าแถวและคอลัมน์ Codablock F โดยใช้ Aspose.BarCode สำหรับ .NET Codablock F คือสัญลักษณ์บาร์โค้ด 2 มิติที่ใช้สำหรับการใช้งานที่หลากหลาย รวมถึงฉลากการจัดส่งและบรรจุภัณฑ์ เราจะแบ่งแต่ละตัวอย่างออกเป็นหลายขั้นตอนเพื่อให้แน่ใจว่ามีความเข้าใจกระบวนการที่ชัดเจนและครอบคลุม
 
 ## ข้อกำหนดเบื้องต้น
@@ -100,3 +106,9 @@ A3: ใช่ Aspose.BarCode สำหรับ .NET เข้ากันได
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ .NET ได้อย่างไร
 
  A5: หากคุณมีคำถามหรือต้องการความช่วยเหลือ คุณสามารถไปที่ฟอรัม Aspose.BarCode สำหรับ .NET[ที่นี่](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

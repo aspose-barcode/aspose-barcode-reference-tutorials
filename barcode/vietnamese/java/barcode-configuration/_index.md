@@ -3,10 +3,16 @@ title: Cấu hình mã vạch
 linktitle: Cấu hình mã vạch
 second_title: API Java Aspose.BarCode
 description: Dễ dàng tạo mã vạch tùy chỉnh trong Java với Aspose.BarCode. Tăng cường hiệu quả và sự thân thiện với nhà phát triển với các hướng dẫn linh hoạt của chúng tôi.
-type: docs
 weight: 24
 url: /vi/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình mã vạch
+
 
 Chào mừng bạn đến với thế giới tạo mã vạch liền mạch trong Java! Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, Hướng dẫn cấu hình Aspose.BarCode của chúng tôi luôn sẵn sàng hướng dẫn bạn vượt qua những điều phức tạp trong việc định cấu hình mã vạch một cách dễ dàng.
 
@@ -60,3 +66,9 @@ Tạo mã vạch Codabar tùy chỉnh với các ký hiệu bắt đầu và k�
 Tìm hiểu cách tạo mã vạch động trong Java bằng Aspose.BarCode. Hướng dẫn từng bước để bổ sung dữ liệu bằng mã vạch EAN_13.
 ### [Định cấu hình tỷ lệ rộng-hẹp trong Java](./configuring-wide-narrow-ratio/)
 Tìm hiểu cách định cấu hình tỷ lệ rộng-hẹp trong mã vạch Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

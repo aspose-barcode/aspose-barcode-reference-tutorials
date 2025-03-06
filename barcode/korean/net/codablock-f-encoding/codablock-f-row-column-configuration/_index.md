@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode에서 Codablock F 행 및 열 구성
 linktitle: Codablock F 행 및 열 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode에서 Codablock F 행과 열을 구성하는 방법을 알아보세요. 다양한 애플리케이션을 위한 맞춤형 2D 바코드를 생성합니다.
-type: docs
 weight: 11
 url: /ko/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode에서 Codablock F 행 및 열 구성
+
 이 단계별 가이드에서는 .NET용 Aspose.BarCode를 사용하여 Codablock F 행 및 열 설정을 구성하는 방법을 살펴보겠습니다. Codablock F는 배송 라벨 및 포장을 포함한 다양한 응용 분야에 사용되는 2D 바코드 기호입니다. 프로세스를 명확하고 포괄적으로 이해할 수 있도록 각 예를 여러 단계로 나누어 보겠습니다.
 
 ## 전제 조건
@@ -100,3 +106,9 @@ A3: 예, .NET용 Aspose.BarCode는 다양한 .NET 프레임워크와 호환되�
 ### Q5: .NET용 Aspose.BarCode에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 질문이 있거나 도움이 필요하면 Aspose.BarCode for .NET 포럼을 방문하세요.[여기](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

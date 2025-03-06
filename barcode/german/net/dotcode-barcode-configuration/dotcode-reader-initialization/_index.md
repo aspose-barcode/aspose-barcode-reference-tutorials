@@ -3,10 +3,16 @@ title: DotCode Reader-Initialisierung mit Aspose.BarCode für .NET
 linktitle: Initialisierung des DotCode-Readers
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie DotCode Reader mit Aspose.BarCode für .NET initialisieren. Erstellen Sie ganz einfach DotCode-Barcodes für verschiedene Anwendungen.
-type: docs
 weight: 14
 url: /de/net/dotcode-barcode-configuration/dotcode-reader-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DotCode Reader-Initialisierung mit Aspose.BarCode für .NET
+
 ## Einführung
 
 Möchten Sie leistungsstarke Funktionen zur Barcode-Generierung und -Erkennung in Ihre .NET-Anwendungen integrieren? Aspose.BarCode für .NET ist eine robuste Bibliothek, mit der Sie verschiedene Barcode-Typen einfach erstellen, verwalten und lesen können. In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit einer bestimmten Funktion von Aspose.BarCode für .NET: der Initialisierung des DotCode-Readers.
@@ -100,3 +106,9 @@ A3: Auf jeden Fall! Aspose.BarCode für .NET bietet zahlreiche Anpassungsoptione
 ### F5: Gibt es zu Testzwecken eine kostenlose Testversion von Aspose.BarCode für .NET?
 
  A5: Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/) um die Fähigkeiten von Aspose.BarCode für .NET zu testen, bevor Sie einen Kauf tätigen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

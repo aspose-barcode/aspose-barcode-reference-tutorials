@@ -3,10 +3,16 @@ title: Somme de contrôle et validation
 linktitle: Somme de contrôle et validation
 second_title: API Java Aspose.BarCode
 description: Améliorez l'intégrité des données en Java avec Aspose.BarCode. Générez des codes-barres sans effort, affichez toujours les sommes de contrôle et maîtrisez CodaBar et la validation générale des sommes de contrôle.
-type: docs
 weight: 23
 url: /fr/java/checksum-and-validation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Somme de contrôle et validation
+
 
 
 Dans le paysage en constante évolution du développement de logiciels, garantir l’intégrité des données est primordial. Cette série de didacticiels, optimisée par Aspose.BarCode pour Java, dévoile les subtilités des sommes de contrôle et de la validation. Plongez dans le monde des codes-barres, où fiabilité rencontre simplicité.
@@ -31,3 +37,9 @@ Générez des codes-barres avec Aspose.BarCode pour Java sans effort. Découvrez
 Découvrez comment appliquer la somme de contrôle pour CodaBar en Java à l'aide d'Aspose.BarCode. Générez et reconnaissez des codes-barres sans effort avec ce guide étape par étape.
 ### [Application de la validation de la somme de contrôle en Java](./applying-checksum-validation/)
 Maîtrisez la validation des codes-barres en Java sans effort avec Aspose.BarCode. Guide étape par étape pour la validation de la somme de contrôle. Boostez l'intégrité des données de votre logiciel !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

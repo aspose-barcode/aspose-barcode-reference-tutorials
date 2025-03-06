@@ -3,10 +3,16 @@ title: Compacte PDF417-codering
 linktitle: Compacte PDF417-codering
 second_title: Aspose.BarCode .NET API
 description: Genereer moeiteloos compacte PDF417-barcodes met Aspose.BarCode voor .NET. Volg onze stapsgewijze handleiding voor efficiënte codering, compleet met codevoorbeelden.
-type: docs
 weight: 29
 url: /nl/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compacte PDF417-codering
+
 
 ## Invoering
 
@@ -33,3 +39,9 @@ Concluderend: het beheersen van Compact PDF417-codering is een waardevolle vaard
 ## Compacte PDF417-coderingshandleidingen
 ### [Compacte PDF417-streepjescodes maken](./compact-pdf417-basic-configuration/)
 Leer hoe u Compact PDF417-barcodes kunt genereren met Aspose.BarCode voor .NET. Uitgebreide handleiding met stapsgewijze instructies en codevoorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

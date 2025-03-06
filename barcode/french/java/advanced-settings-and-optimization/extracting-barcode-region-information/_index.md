@@ -3,10 +3,16 @@ title: Maîtriser l'extraction de régions de codes-barres en Java avec Aspose.B
 linktitle: Extraction des informations sur la région du code-barres à partir de l'image
 second_title: API Java Aspose.BarCode
 description: Explorez Aspose.BarCode for Java, une bibliothèque puissante permettant d'extraire sans effort les détails de la région des codes-barres. Améliorez vos applications Java avec précision.
-type: docs
 weight: 17
 url: /fr/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser l'extraction de régions de codes-barres en Java avec Aspose.BarCode
+
 ## Introduction
 
 Dans le monde dynamique de la programmation Java, la manipulation des informations des codes-barres est une tâche courante et cruciale. Aspose.BarCode for Java apparaît comme un outil puissant pour simplifier ce processus, offrant des solutions efficaces pour extraire des informations sur la région des codes-barres à partir d'images. Dans ce didacticiel, nous aborderons le processus étape par étape d'utilisation d'Aspose.BarCode pour extraire les détails de la région du code-barres dans un environnement Java.
@@ -98,3 +104,9 @@ Dans ce guide complet, nous avons exploré le processus d'extraction des informa
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.BarCode ?
 
  A5 : Si vous avez besoin d'un permis temporaire, visitez[ce lien](https://purchase.aspose.com/temporary-license/) pour plus d'informations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

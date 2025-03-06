@@ -3,10 +3,16 @@ title: Hiển thị mã vạch cho máy in trong Java
 linktitle: Hiển thị mã vạch cho máy in
 second_title: API Java Aspose.BarCode
 description: Tạo và hiển thị mã vạch dễ dàng trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/barcode-rendering-techniques/rendering-barcode-printer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị mã vạch cho máy in trong Java
+
 
 ## Giới thiệu
 
@@ -109,3 +115,10 @@ Tuyệt đối. Aspose.BarCode hỗ trợ nhiều loại mã vạch, chẳng h�
 ### Có bản dùng thử miễn phí cho Aspose.BarCode không?
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Δημιουργία και ρύθμιση μεγέθους για ολό
 linktitle: Δημιουργία και ρύθμιση μεγέθους για ολόκληρη εικόνα με γραμμωτό κώδικα
 second_title: Aspose.BarCode Java API
 description: Εξερευνήστε τη δημιουργία και τη ρύθμιση μεγέθους για ολόκληρη την εικόνα σε Java με το Aspose.BarCode. Προσαρμόστε το μέγεθος, την κωδικοποίηση και την εμφάνιση χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία και ρύθμιση μεγέθους για ολόκληρη εικόνα με γραμμωτό κώδικα σε Java
+
 ## Εισαγωγή
 
 Στη σφαίρα της ανάπτυξης Java, η ανάγκη για ενσωμάτωση δυναμικών γραμμωτών κωδίκων στις εφαρμογές είναι πρωταρχικής σημασίας. Το Aspose.BarCode για Java είναι ένα ισχυρό εργαλείο που απλοποιεί αυτή τη διαδικασία, προσφέροντας ευελιξία και ευκολία στη χρήση. Αυτό το σεμινάριο θα σας καθοδηγήσει στη δημιουργία και την προσαρμογή γραμμωτών κωδίκων, εστιάζοντας σε ένα πρακτικό παράδειγμα – ορίζοντας το μέγεθος για ολόκληρη την εικόνα με τον γραμμωτό κώδικα.
@@ -112,3 +118,9 @@ ImageIO.write(img, "png", outputfile);
 ### Ε5: Υπάρχει επιλογή για προσωρινή άδεια;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

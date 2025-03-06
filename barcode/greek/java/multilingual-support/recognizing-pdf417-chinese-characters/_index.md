@@ -3,10 +3,16 @@ title: Αναγνώριση γραμμικού κώδικα PDF417 με κινέ
 linktitle: Αναγνώριση γραμμικού κώδικα PDF417 με κινέζικους χαρακτήρες
 second_title: Aspose.BarCode Java API
 description: Ανακαλύψτε πώς να αναγνωρίζετε γραμμωτούς κώδικες PDF417 με κινεζικούς χαρακτήρες σε Java χρησιμοποιώντας το Aspose.BarCode. Ακολουθήστε το περιεκτικό μας σεμινάριο για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 10
 url: /el/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αναγνώριση γραμμικού κώδικα PDF417 με κινέζικους χαρακτήρες σε Java
+
 
 ## Εισαγωγή
 
@@ -89,3 +95,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### Πού μπορώ να βρω την τεκμηρίωση;
  Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

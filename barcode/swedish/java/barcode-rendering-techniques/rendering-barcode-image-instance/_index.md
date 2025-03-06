@@ -3,10 +3,16 @@ title: Återge streckkod till bildinstans i Java
 linktitle: Återge streckkod till bildinstans
 second_title: Aspose.BarCode Java API
 description: Utforska kraften i Aspose.BarCode för Java! Generera enkelt streckkoder i olika typer med detta robusta bibliotek.
-type: docs
 weight: 11
 url: /sv/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Återge streckkod till bildinstans i Java
+
 
 ## Introduktion
 
@@ -70,3 +76,10 @@ Ja, Aspose.BarCode stöder ett brett utbud av streckkodstyper, inklusive CODE_12
 
 ### Finns det ett tillfälligt licensalternativ?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configurando símbolos de início e parada em Java
 linktitle: Configurando símbolos de início e parada
 second_title: API Java Aspose.BarCode
 description: Gere códigos de barras Codabar personalizados com símbolos de início e parada específicos em Java usando Aspose.BarCode. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 15
 url: /pt/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando símbolos de início e parada em Java
+
 
 ## Introdução
 
@@ -104,3 +110,10 @@ Parabéns! Você aprendeu com sucesso como definir símbolos de início e parada
 ### Existem mais simbologias de código de barras suportadas pelo Aspose.BarCode for Java?
 Sim, Aspose.BarCode suporta uma ampla variedade de simbologias de códigos de barras. Consulte a documentação para obter uma lista completa.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configuration de la barre de données UPC-A du coupon GS1
 linktitle: Configuration de la barre de données UPC-A du coupon GS1
 second_title: API Aspose.BarCode .NET
 description: Découvrez la configuration de la barre de données UPC-A du coupon GS1 avec Aspose.BarCode pour .NET. Créez facilement des codes-barres. Commencez maintenant!
-type: docs
 weight: 13
 url: /fr/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration de la barre de données UPC-A du coupon GS1
+
 
 ## Introduction
 
@@ -86,3 +92,10 @@ Vous pouvez télécharger Aspose.BarCode pour .NET à partir du[page de téléch
 ### Où puis-je obtenir de l'aide pour Aspose.BarCode pour .NET ?
  Pour toute assistance technique ou question, vous pouvez visiter le[Forum de support Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengenali Barcode PDF417 dengan Karakter Turki di Jawa
 linktitle: Mengenali Barcode PDF417 dengan Karakter Turki
 second_title: Aspose.BarCode Java API
 description: Pelajari cara mengenali kode batang PDF417 dengan karakter Turki di Java menggunakan Aspose.BarCode. Integrasi yang mudah dan kemampuan decoding yang kuat.
-type: docs
 weight: 11
 url: /id/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengenali Barcode PDF417 dengan Karakter Turki di Jawa
+
 
 ## Perkenalan
 
@@ -79,3 +85,10 @@ Ya, Aspose.BarCode mendukung berbagai jenis kode batang, termasuk PDF417.
 
 ### Bisakah saya menggunakan lisensi sementara selama pengembangan?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

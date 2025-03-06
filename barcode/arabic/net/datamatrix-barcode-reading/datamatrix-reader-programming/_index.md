@@ -3,10 +3,16 @@ title: برمجة قارئ DataMatrix باستخدام Aspose.BarCode لـ .NET
 linktitle: برمجة قارئ البيانات DataMatrix
 second_title: Aspose.BarCode .NET API
 description: استكشف برمجة قارئ DataMatrix باستخدام Aspose.BarCode لـ .NET. تعرف على كيفية إنشاء وقراءة الرموز الشريطية DataMatrix في تطبيقات .NET الخاصة بك باستخدام هذا الدليل الشامل.
-type: docs
 weight: 10
 url: /ar/net/datamatrix-barcode-reading/datamatrix-reader-programming/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برمجة قارئ DataMatrix باستخدام Aspose.BarCode لـ .NET
+
 هل أنت مستعد لفتح عالم برمجة قارئ الباركود DataMatrix باستخدام Aspose.BarCode لـ .NET؟ إذا كان لديك ميل إلى التكامل السلس للبيانات ومعالجة الباركود، فهذا البرنامج التعليمي مصمم خصيصًا لك. في هذا الدليل التفصيلي، سنتعمق في برمجة قارئ الباركود DataMatrix باستخدام Aspose.BarCode، وهي مكتبة .NET قوية تعمل على تبسيط إنشاء الباركود وقراءته ومعالجته. 
 
 ## المتطلبات الأساسية
@@ -112,3 +118,9 @@ A1: تتضمن برمجة قارئ DataMatrix ترميز البيانات بتن
 ### س 5: هل Aspose.BarCode متوافق مع أحدث إصدار من .NET Framework؟
 
 ج5: نعم، تم تصميم Aspose.BarCode for .NET ليكون متوافقًا مع الإصدارات المختلفة من .NET Framework، بما في ذلك الإصدارات الأحدث.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

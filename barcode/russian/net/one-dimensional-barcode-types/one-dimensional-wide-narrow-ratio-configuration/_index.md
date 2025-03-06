@@ -3,10 +3,16 @@ title: Одномерная конфигурация с широким и узк
 linktitle: Одномерная конфигурация с широким и узким соотношением
 second_title: API Aspose.BarCode .NET
 description: Легко создавайте индивидуальные штрих-коды с помощью Aspose.BarCode для .NET. Пошаговое руководство по одномерной конфигурации с широким и узким соотношением сторон.
-type: docs
 weight: 22
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Одномерная конфигурация с широким и узким соотношением
+
 
 Вы хотите легко создавать и настраивать штрих-коды в своих приложениях .NET? Не смотрите дальше! Aspose.BarCode для .NET — это надежная библиотека, которая упрощает создание и настройку штрих-кодов. В этом пошаговом руководстве мы углубимся в то, как использовать возможности Aspose.BarCode для .NET для создания штрих-кодов с конфигурацией широко-узкого соотношения.
 
@@ -104,3 +110,10 @@ Aspose.BarCode для .NET поддерживает широкий спектр 
 
 ### 5. Как я могу получить поддержку или задать вопросы об Aspose.BarCode для .NET?
  Вы можете посетить[Форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13) за поддержку и обсуждения.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

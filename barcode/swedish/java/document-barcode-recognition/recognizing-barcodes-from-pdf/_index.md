@@ -3,10 +3,16 @@ title: Känner igen streckkoder från PDF i Java
 linktitle: Känner igen streckkoder från PDF
 second_title: Aspose.BarCode Java API
 description: Lär dig hur du känner igen streckkoder från PDF-filer i Java med Aspose.BarCode. Steg-för-steg guide med kodexempel. Öka din datahanteringseffektivitet!
-type: docs
 weight: 11
 url: /sv/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Känner igen streckkoder från PDF i Java
+
 
 ## Introduktion
 
@@ -113,3 +119,10 @@ Aspose.BarCode stöder ett brett utbud av streckkodstyper. Se dokumentationen f�
 
 ### F: Var kan jag söka support eller ställa frågor om Aspose.BarCode för Java?
  Besök Aspose.BarCode[forum](https://forum.aspose.com/c/barcode/13) för stöd och diskussioner.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

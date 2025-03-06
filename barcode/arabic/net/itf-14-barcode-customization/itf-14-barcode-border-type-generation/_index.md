@@ -3,10 +3,16 @@ title: ITF-14 إنشاء نوع حدود الباركود
 linktitle: ITF-14 إنشاء نوع حدود الباركود
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء رموز شريطية ITF-14 بأنواع مختلفة من الحدود باستخدام Aspose.BarCode لـ .NET. قم بتخصيص التعبئة والتغليف ووضع العلامات الخاصة بك بسهولة.
-type: docs
 weight: 11
 url: /ar/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 إنشاء نوع حدود الباركود
+
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء باركود ITF-14 بأنواع مختلفة من الحدود باستخدام Aspose.BarCode لـ .NET. Aspose.BarCode هي مكتبة قوية تتيح لك إنشاء الرموز الشريطية ومعالجتها والتعرف عليها بتنسيقات مختلفة. في هذا المثال المحدد، سنركز على الباركود ITF-14 وكيفية التحكم في أنواع حدودها. تُستخدم الرموز الشريطية ITF-14 بشكل شائع لأغراض التعبئة والتغليف ووضع العلامات.
 
@@ -109,3 +115,10 @@ gen.Save($"{path}ITF14BorderFrameOut.png", BarCodeImageFormat.Png);
 
 ### هل تتوفر نسخة تجريبية مجانية من Aspose.BarCode؟
 نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.BarCode لـ .NET من[هنا](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

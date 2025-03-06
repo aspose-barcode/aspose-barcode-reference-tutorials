@@ -3,10 +3,16 @@ title: Word दस्तावेज़ों से सरल बारको�
 linktitle: Word दस्तावेज़ों से बारकोड को पहचानना
 second_title: Aspose.BarCode जावा एपीआई
 description: Aspose.BarCode के साथ अपने जावा अनुप्रयोगों में बारकोड पहचान के निर्बाध एकीकरण का अन्वेषण करें। Word दस्तावेज़ों से बारकोड पहचानने के लिए इस ट्यूटोरियल का अनुसरण करें।
-type: docs
 weight: 12
 url: /hi/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Word दस्तावेज़ों से सरल बारकोड पहचान
+
 
 ## परिचय
 
@@ -111,3 +117,10 @@ for (Shape shape : shapes) {
 
 ### प्रश्न: मैं जावा के लिए Aspose.BarCode के लिए दस्तावेज़ कहां पा सकता हूं?
  व्यापक दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

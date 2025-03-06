@@ -3,10 +3,16 @@ title: Sesuaikan Rasio Aspek DotCode dengan Aspose.BarCode untuk .NET
 linktitle: Kustomisasi Rasio Aspek DotCode
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara menyesuaikan rasio aspek kode batang DotCode menggunakan Aspose.BarCode untuk .NET. Buat kode batang yang disesuaikan untuk aplikasi Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Rasio Aspek DotCode dengan Aspose.BarCode untuk .NET
+
 ## Perkenalan
 
 Jika Anda seorang pengembang .NET yang ingin membuat kode batang yang dapat disesuaikan dalam aplikasi Anda, Aspose.BarCode untuk .NET adalah solusi sempurna. Dalam tutorial ini, kita akan mempelajari salah satu fitur lanjutannya – menyesuaikan rasio aspek DotCode. Barcode DotCode banyak digunakan di industri seperti layanan kesehatan, layanan pos, dan manufaktur untuk pengkodean informasi. Dengan mengubah rasio aspek, Anda dapat menyesuaikan kode batang dengan kebutuhan spesifik Anda. Mari kita mulai!
@@ -97,3 +103,9 @@ A4: Ya, Aspose.BarCode untuk .NET dapat digunakan di aplikasi web dan desktop un
 ### Q5: Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut tentang Aspose.BarCode untuk .NET?
 
 A5: Anda dapat menjelajahi dokumentasinya[Di Sini](https://reference.aspose.com/barcode/net/) untuk panduan dan contoh yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

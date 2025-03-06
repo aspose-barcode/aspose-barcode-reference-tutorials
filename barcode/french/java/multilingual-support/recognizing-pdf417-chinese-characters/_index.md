@@ -3,10 +3,16 @@ title: Reconnaissance du code-barres PDF417 avec des caractères chinois en Java
 linktitle: Reconnaissance du code-barres PDF417 avec des caractères chinois
 second_title: API Java Aspose.BarCode
 description: Découvrez comment reconnaître les codes-barres PDF417 avec des caractères chinois en Java à l'aide d'Aspose.BarCode. Suivez notre tutoriel complet pour une intégration transparente.
-type: docs
 weight: 10
 url: /fr/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reconnaissance du code-barres PDF417 avec des caractères chinois en Java
+
 
 ## Introduction
 
@@ -89,3 +95,10 @@ Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com
 
 ### Où puis-je trouver la documentation ?
  La documentation est disponible[ici](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

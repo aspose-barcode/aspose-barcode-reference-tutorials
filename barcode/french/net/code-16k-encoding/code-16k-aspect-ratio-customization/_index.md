@@ -3,10 +3,16 @@ title: Personnalisez les proportions des codes-barres Code 16K avec Aspose.BarCo
 linktitle: Personnalisation du rapport hauteur/largeur du code 16K
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment personnaliser les proportions des codes-barres Code 16K à l'aide d'Aspose.BarCode pour .NET. Créez des codes-barres précis pour vos applications.
-type: docs
 weight: 10
 url: /fr/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisez les proportions des codes-barres Code 16K avec Aspose.BarCode pour .NET
+
 Dans le monde de la génération de codes-barres, la précision et la personnalisation sont essentielles. Aspose.BarCode for .NET fournit aux développeurs un ensemble d'outils puissants pour créer et manipuler des codes-barres, y compris la possibilité de personnaliser le rapport hauteur/largeur des codes-barres Code 16K. Dans ce guide étape par étape, nous explorerons comment générer des codes-barres Code 16K avec différents rapports hauteur/largeur à l'aide d'Aspose.BarCode pour .NET. Que vous soyez un développeur chevronné ou tout juste débutant, nous décomposerons le processus en étapes simples et compréhensibles.
 
 ## Conditions préalables
@@ -97,3 +103,10 @@ A3 : Absolument. Aspose.BarCode pour .NET est polyvalent et peut être utilisé 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.BarCode pour .NET ?
 
  A5 : Oui, vous pouvez essayer Aspose.BarCode pour .NET en téléchargeant la version d'essai gratuite à partir de[ici](https://releases.aspose.com/). Cela vous permet d’explorer ses caractéristiques et fonctionnalités avant de faire un achat.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

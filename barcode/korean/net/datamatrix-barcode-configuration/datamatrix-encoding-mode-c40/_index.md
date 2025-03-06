@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용한 마스터 DataMatrix 인코딩 모드
 linktitle: DataMatrix 인코딩 모드(C40)
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DataMatrix 인코딩 모드(C40)를 알아보세요. 맞춤형 바코드를 효율적으로 생성하세요. 단계별 가이드를 살펴보세요.
-type: docs
 weight: 16
 url: /ko/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-c40/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용한 마스터 DataMatrix 인코딩 모드(C40)
+
 ## 소개
 
 바코드 생성 세계에서는 정확성과 다양성이 매우 중요합니다. 재고 관리, 배송 또는 데이터 인코딩과 관련된 모든 애플리케이션 작업을 수행할 때 DataMatrix 바코드는 널리 사용되는 선택입니다. .NET용 Aspose.BarCode를 사용하면 바코드를 효율적으로 생성, 사용자 정의 및 인코딩할 수 있는 강력한 도구를 사용할 수 있습니다.
@@ -104,3 +110,9 @@ A3: 예, .NET용 Aspose.BarCode는 광범위한 .NET 버전과 호환되므로 �
 ### Q5: .NET용 Aspose.BarCode에 대한 지원은 어디서 받을 수 있습니까?
 
 A5: 다음에서 .NET용 Aspose.BarCode에 대한 지원 커뮤니티와 액세스 지원을 찾을 수 있습니다.[포럼을 Aspose](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

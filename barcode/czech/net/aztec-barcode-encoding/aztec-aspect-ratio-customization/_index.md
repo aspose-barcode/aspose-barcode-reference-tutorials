@@ -3,10 +3,16 @@ title: Přizpůsobte si poměr stran aztéckého čárového kódu pomocí Aspos
 linktitle: Aztécké přizpůsobení poměru stran
 second_title: Aspose.BarCode .NET API
 description: Naučte se, jak upravit poměr stran aztéckého čárového kódu pomocí Aspose.BarCode for .NET. Vytvářejte jedinečné, flexibilní čárové kódy pro své aplikace .NET.
-type: docs
 weight: 10
 url: /cs/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přizpůsobte si poměr stran aztéckého čárového kódu pomocí Aspose.BarCode pro .NET
+
 tomto tutoriálu se ponoříme do přizpůsobení poměru stran aztéckých čárových kódů pomocí Aspose.BarCode pro .NET. Aztécké čárové kódy jsou dvourozměrné čárové kódy běžně používané pro kódování dat a pomocí Aspose.BarCode můžete tyto čárové kódy snadno vytvářet a upravovat tak, aby vyhovovaly vašim specifickým požadavkům.
 
 ## Předpoklady
@@ -108,3 +114,9 @@ Odpověď 4: Aspose.BarCode for .NET můžete použít ve webových aplikacích 
 ### Q5: Kde mohu získat dočasnou licenci pro Aspose.BarCode pro .NET?
 
 A5: Pokud potřebujete dočasnou licenci pro účely testování nebo hodnocení, můžete ji získat od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

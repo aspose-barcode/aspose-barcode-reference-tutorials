@@ -3,10 +3,16 @@ title: Java에서 코드 텍스트 위치 설정
 linktitle: 코드 텍스트 위치 설정
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 동적 바코드를 손쉽게 생성하세요. 코드 텍스트 사용자 정의를 위한 단계별 가이드를 따르고 애플리케이션 기능을 향상시키세요.
-type: docs
 weight: 12
 url: /ko/java/text-and-styling/setting-code-text-location/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 코드 텍스트 위치 설정
+
 
 ## 소개
 
@@ -88,3 +94,10 @@ Aspose.BarCode JAR 파일을 프로젝트의 클래스 경로에 추가하기만
 
 ### Q: Aspose.BarCode에 대한 도움이나 지원은 어디서 구할 수 있나요?
  방문하다[Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13) 지역 사회 지원 및 지원을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

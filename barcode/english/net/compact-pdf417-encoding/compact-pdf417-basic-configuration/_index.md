@@ -3,10 +3,16 @@ title: Creating Compact PDF417 Barcodes with Aspose.BarCode for .NET
 linktitle: Compact PDF417 Basic Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Comprehensive guide with step-by-step instructions and code examples.
-type: docs
 weight: 10
 url: /net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Compact PDF417 Barcodes with Aspose.BarCode for .NET
+
 ## Introduction
 
 If you're a developer looking to generate barcode images in your .NET applications, Aspose.BarCode for .NET is a powerful tool that can help you achieve just that. In this step-by-step guide, we will walk you through the process of creating Compact PDF417 barcodes using Aspose.BarCode for .NET. Compact PDF417 is an efficient two-dimensional barcode symbology widely used for various applications, including logistics, inventory management, and more. By the end of this tutorial, you will be able to create and customize Compact PDF417 barcodes to suit your specific needs. Let's dive in and get started!
@@ -107,3 +113,10 @@ A4: You can purchase a license for Aspose.BarCode for .NET from the website [her
 ### Q5: Are there any additional resources or documentation available for Aspose.BarCode for .NET?
 
 A5: Yes, you can find detailed documentation [here](https://reference.aspose.com/barcode/net/) to help you explore and utilize the features of Aspose.BarCode for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

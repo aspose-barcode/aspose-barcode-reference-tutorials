@@ -3,10 +3,16 @@ title: Ställa in marginaler för streckkodsbild i Java
 linktitle: Ställa in marginaler för streckkodsbild
 second_title: Aspose.BarCode Java API
 description: Lär dig hur du ställer in marginaler för streckkodsbilder i Java med Aspose.BarCode. Anpassa avstånd för sömlös integration i din applikation
-type: docs
 weight: 11
 url: /sv/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in marginaler för streckkodsbild i Java
+
 
 ## Introduktion
 
@@ -99,3 +105,10 @@ Aspose.BarCode är i första hand designad för Java, men det finns versioner ti
 
 ### Hur kan jag köpa den fullständiga versionen av Aspose.BarCode för Java?
  Du kan köpa den fullständiga versionen av Aspose.BarCode för Java från[köpsidan](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

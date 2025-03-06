@@ -3,10 +3,16 @@ title: 코드 16K 인코딩
 linktitle: 코드 16K 인코딩
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 Code 16K 인코딩 튜토리얼을 살펴보세요. 애플리케이션에서 정확하고 안정적인 스캐닝을 위해 바코드 종횡비와 여백(Quiet Zone) 설정을 사용자 정의하세요.
-type: docs
 weight: 22
 url: /ko/net/code-16k-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 코드 16K 인코딩
+
 
 ## 소개
 
@@ -44,3 +50,9 @@ Code 16K Quiet Zones 마스터링은 안정적인 바코드 스캐닝에 매우 
 ## 결론
 
 Code 16K 인코딩 튜토리얼을 마무리하면 .NET용 Aspose.BarCode를 사용하여 바코드 종횡비 및 여백 설정을 사용자 정의하는 방법에 대한 깊은 이해를 얻게 될 것입니다. 소매, 물류 또는 기타 산업 분야의 애플리케이션을 개발하든 관계없이 이러한 기술을 사용하면 바코드의 기능과 시각적 매력이 향상됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java'da Barkod Görüntüsü için Kenar Boşluklarını Ayarlama
 linktitle: Barkod Görüntüsü için Kenar Boşluklarını Ayarlama
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode'u kullanarak Java'da barkod görüntüleri için kenar boşluklarını nasıl ayarlayacağınızı öğrenin. Uygulamanıza kusursuz entegrasyon için aralığı özelleştirin
-type: docs
 weight: 11
 url: /tr/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Barkod Görüntüsü için Kenar Boşluklarını Ayarlama
+
 
 ## giriiş
 
@@ -99,3 +105,10 @@ Aspose.BarCode öncelikli olarak Java için tasarlanmıştır ancak .NET gibi di
 
 ### Aspose.BarCode for Java'nın tam sürümünü nasıl satın alabilirim?
  Aspose.BarCode for Java'nın tam sürümünü şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

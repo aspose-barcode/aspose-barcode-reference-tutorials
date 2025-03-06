@@ -3,10 +3,16 @@ title: Imagen de código de barras giratoria en Java
 linktitle: Imagen de código de barras giratoria
 second_title: API de Java Aspose.BarCode
 description: Aprenda a rotar imágenes de códigos de barras en Java sin esfuerzo usando Aspose.BarCode. Una guía completa paso a paso para desarrolladores de Java.
-type: docs
 weight: 15
 url: /es/java/image-manipulation/rotating-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imagen de código de barras giratoria en Java
+
 
 ## Introducción
 
@@ -85,3 +91,10 @@ Sí, puede ajustar el ángulo de rotación en el Paso 3 a cualquier valor desead
 
 ### P: ¿Puedo generar códigos de barras para diferentes tipos de codificación?
 Por supuesto, simplemente ajuste los EncodeTypes en el Paso 2 según sus requisitos.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

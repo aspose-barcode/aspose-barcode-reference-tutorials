@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 DotCode 종횡비 사용자 정의
 linktitle: DotCode 종횡비 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 DotCode 바코드 종횡비를 사용자 정의하는 방법을 알아보세요. 귀하의 응용 분야에 맞는 맞춤형 바코드를 쉽게 만드십시오.
-type: docs
 weight: 10
 url: /ko/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 DotCode 종횡비 사용자 정의
+
 ## 소개
 
 애플리케이션에서 고도로 사용자 정의 가능한 바코드를 생성하려는 .NET 개발자라면 Aspose.BarCode for .NET이 완벽한 솔루션입니다. 이 튜토리얼에서는 고급 기능 중 하나인 DotCode 종횡비를 사용자 정의하는 방법을 살펴보겠습니다. DotCode 바코드는 의료, 우편 서비스, 제조 등의 산업에서 정보 인코딩을 위해 널리 사용됩니다. 종횡비를 조정하여 바코드를 특정 요구 사항에 맞게 조정할 수 있습니다. 시작하자!
@@ -97,3 +103,9 @@ A4: 예, .NET용 Aspose.BarCode는 웹 및 데스크톱 애플리케이션 모�
 ### Q5: .NET용 Aspose.BarCode에 대한 자세한 정보와 문서는 어디에서 찾을 수 있습니까?
 
 A5: 문서를 탐색할 수 있습니다.[여기](https://reference.aspose.com/barcode/net/) 포괄적인 지침과 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

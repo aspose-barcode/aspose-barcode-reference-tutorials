@@ -3,10 +3,16 @@ title: Aspose.BarCode로 문서 바코드 인식 마스터하기
 linktitle: 문서 바코드 인식
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 바코드 인식 기능을 활용해 보세요! PDF, Word 문서 및 유니코드 세트의 바코드를 원활하게 통합하고 읽고 정렬하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/java/document-barcode-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode로 문서 바코드 인식 마스터하기
+
 
 Java 애플리케이션을 새로운 차원으로 끌어올릴 준비가 되셨습니까? 더 이상 보지 마세요! 이 포괄적인 가이드에서는 Aspose.BarCode를 사용하여 바코드 인식의 매혹적인 영역을 탐구합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 관계없이 이 튜토리얼은 Java 기반 바코드 통합의 잠재력을 최대한 활용하는 열쇠입니다.
 
@@ -36,3 +42,9 @@ Aspose.BarCode를 사용하여 Java에서 PDF의 바코드를 인식하는 방�
 Aspose.BarCode를 사용하여 바코드 인식을 Java 애플리케이션에 완벽하게 통합하는 방법을 살펴보세요. 이 튜토리얼을 따라 Word 문서에서 바코드를 인식하세요.
 ### [Java에서 유니코드 바코드 인식](./recognizing-unicode-barcodes/)
 Aspose.BarCode를 사용하여 Java에서 유니코드 바코드 인식의 세계를 탐험해보세요. 다양한 문자 세트를 귀하의 애플리케이션에 원활하게 통합하려면 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ställa in staplarnas höjd i Java
 linktitle: Ställa in staplarnas höjd
 second_title: Aspose.BarCode Java API
 description: Generera och anpassa streckkoder utan ansträngning i Java med Aspose.BarCode. Ställ in stapelhöjd, välj typer och förbättra din applikations kapacitet.
-type: docs
 weight: 14
 url: /sv/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in staplarnas höjd i Java
+
 
 ## Introduktion
 
@@ -78,3 +84,10 @@ Säkert! Aspose.BarCode stöder kodning av både numeriska och alfanumeriska dat
 ### Var kan jag hitta support för Aspose.BarCode för Java?
  Besök Aspose.BarCode-forumet[här](https://forum.aspose.com/c/barcode/13) för samhällsstöd och diskussioner.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

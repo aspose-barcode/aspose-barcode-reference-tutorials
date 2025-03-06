@@ -3,10 +3,16 @@ title: Čtení a řazení čárových kódů ve specifickém pořadí v Javě
 linktitle: Čtení a třídění čárových kódů ve specifickém pořadí
 second_title: Aspose.BarCode Java API
 description: Vylepšete své Java aplikace pomocí Aspose.BarCode! Naučte se efektivně číst a třídit čárové kódy. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 10
 url: /cs/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Čtení a řazení čárových kódů ve specifickém pořadí v Javě
+
 
 ## Úvod
 
@@ -123,3 +129,10 @@ tomto tutoriálu jsme prozkoumali, jak využít Aspose.BarCode pro Java ke čten
 
 ### Otázka: Kde mohu hledat podporu nebo se ptát?
  Navštivte fórum podpory[tady](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

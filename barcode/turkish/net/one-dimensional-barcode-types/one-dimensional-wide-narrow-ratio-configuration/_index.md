@@ -3,10 +3,16 @@ title: Tek Boyutlu Geniş-Dar Oranlı Yapılandırma
 linktitle: Tek Boyutlu Geniş-Dar Oranlı Yapılandırma
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. Tek boyutlu geniş-dar oranlı yapılandırma için adım adım kılavuz.
-type: docs
 weight: 22
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tek Boyutlu Geniş-Dar Oranlı Yapılandırma
+
 
 .NET uygulamalarınızda barkodları zahmetsizce oluşturup özelleştirmek mi istiyorsunuz? Başka yerde arama! Aspose.BarCode for .NET, barkod oluşturmayı ve özelleştirmeyi çocuk oyuncağı haline getiren güçlü bir kütüphanedir. Bu adım adım kılavuzda, geniş-dar oran konfigürasyonuna sahip barkodlar oluşturmak için Aspose.BarCode for .NET'in gücünden nasıl yararlanacağımızı inceleyeceğiz.
 
@@ -104,3 +110,10 @@ Aspose.BarCode for .NET, QR Code, Code 39 ve çok daha fazlasını içeren çok 
 
 ### 5. Aspose.BarCode for .NET hakkında nasıl destek alabilirim veya soru sorabilirim?
  Ziyaret edebilirsiniz[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13) Destek ve tartışmalar için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

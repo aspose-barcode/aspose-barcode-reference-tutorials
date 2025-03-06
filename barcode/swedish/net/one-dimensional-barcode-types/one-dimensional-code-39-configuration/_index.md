@@ -3,10 +3,16 @@ title: Endimensionell kod 39 Konfiguration
 linktitle: Endimensionell kod 39 Konfiguration
 second_title: Aspose.BarCode .NET API
 description: Lär dig hur du genererar endimensionella Code 39-streckkoder i .NET med Aspose.BarCode. Steg-för-steg-guide för utvecklare.
-type: docs
 weight: 11
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Endimensionell kod 39 Konfiguration
+
 
 ## Introduktion
 
@@ -72,3 +78,9 @@ S: Absolut, du kan anpassa olika aspekter av streckkoden, inklusive storlek, fä
 
 ### F: Var kan jag få support eller ställa frågor om Aspose.BarCode för .NET?
  S: Du kan hitta svar på dina frågor och söka support på Aspose.BarCode-forumet:[Aspose.BarCode Forum](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

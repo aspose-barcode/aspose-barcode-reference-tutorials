@@ -3,10 +3,16 @@ title: การเข้ารหัส Databar GS1 หนึ่งมิติ
 linktitle: การเข้ารหัส Databar GS1 หนึ่งมิติ
 second_title: Aspose.BarCode .NET API
 description: เรียนรู้วิธีสร้างบาร์โค้ดที่เข้ารหัส Databar GS1 ใน .NET โดยใช้ Aspose.BarCode สร้างบาร์โค้ดได้อย่างง่ายดาย ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา
-type: docs
 weight: 18
 url: /th/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเข้ารหัส Databar GS1 หนึ่งมิติ
+
 
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการสร้างบาร์โค้ดที่เข้ารหัส Databar GS1 หนึ่งมิติโดยใช้ Aspose.BarCode สำหรับไลบรารี .NET ไม่ว่าคุณกำลังมองหาการสร้างบาร์โค้ดที่มีการเข้ารหัส GS1 หรือไม่มีก็ตาม เราก็ช่วยคุณได้ คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณเข้าใจข้อกำหนดเบื้องต้น นำเข้าเนมสเปซ และสาธิตแต่ละตัวอย่างเพื่อสร้างบาร์โค้ดที่เข้ารหัส Databar GS1 ได้อย่างง่ายดาย
 
@@ -101,3 +107,10 @@ catch (Exception e)
 
 ### 5. ฉันจะซื้อใบอนุญาตสำหรับ Aspose.BarCode สำหรับ .NET ได้อย่างไร
  หากต้องการซื้อใบอนุญาตสำหรับ Aspose.BarCode สำหรับ .NET โปรดไปที่[หน้าซื้อ](https://purchase.aspose.com/buy) บนเว็บไซต์ Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

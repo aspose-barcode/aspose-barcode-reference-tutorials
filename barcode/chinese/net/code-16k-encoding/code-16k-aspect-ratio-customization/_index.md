@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 自定义代码 16K 条码长宽比
 linktitle: 代码16K长宽比定制
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 自定义 Code 16K 条形码长宽比。为您的应用创建精确的条形码。
-type: docs
 weight: 10
 url: /zh/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 自定义代码 16K 条码长宽比
+
 在条形码生成领域，精度和定制是关键。 Aspose.BarCode for .NET 为开发人员提供了强大的工具集来创建和操作条形码，包括自定义 Code 16K 条形码的纵横比的能力。在本分步指南中，我们将探索如何使用 Aspose.BarCode for .NET 生成具有不同宽高比的 Code 16K 条形码。无论您是经验丰富的开发人员还是新手，我们都会将该过程分解为简单易懂的步骤。
 
 ## 先决条件
@@ -97,3 +103,10 @@ A3：当然。 Aspose.BarCode for .NET 用途广泛，可用于使用 .NET 技�
 ### Q5：Aspose.BarCode for .NET 有免费试用版吗？
 
  A5：是的，您可以通过下载免费试用版来尝试 Aspose.BarCode for .NET[这里](https://releases.aspose.com/)。这使您可以在购买之前探索其特性和功能。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

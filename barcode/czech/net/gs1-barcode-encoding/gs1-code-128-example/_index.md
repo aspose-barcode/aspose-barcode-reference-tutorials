@@ -3,10 +3,16 @@ title: Průvodce krok za krokem s příkladem GS1 Code 128
 linktitle: GS1 Kód 128 Příklad
 second_title: Aspose.BarCode .NET API
 description: Naučte se vytvářet čárové kódy GS1 Code 128 pomocí Aspose.BarCode for .NET. Podrobný průvodce pro generování čárových kódů v C#. Začněte hned!
-type: docs
 weight: 10
 url: /cs/net/gs1-barcode-encoding/gs1-code-128-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Průvodce krok za krokem s příkladem GS1 Code 128
+
 
 ## Úvod
 
@@ -89,3 +95,9 @@ tomto podrobném průvodci jsme vám představili Aspose.BarCode pro .NET a vysv
 
 ### Potřebujete pomoc nebo máte otázky? Kde najdu podporu?
 Pro podporu a komunitní diskuse navštivte[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

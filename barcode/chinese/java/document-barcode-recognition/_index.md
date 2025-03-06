@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 掌握文档条形码识别
 linktitle: 文件条码识别
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 释放 Java 中条形码识别的强大功能！了解如何无缝集成、读取 PDF、Word 文档和 Unicode 集中的条形码并对其进行排序。
-type: docs
 weight: 21
 url: /zh/java/document-barcode-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 掌握文档条形码识别
+
 
 您准备好将您的 Java 应用程序提升到新的高度了吗？别再犹豫了！在本综合指南中，我们将深入研究使用 Aspose.BarCode 进行条形码识别的迷人领域。无论您是经验丰富的开发人员还是新手，这些教程都是释放基于 Java 的条形码集成全部潜力的关键。
 
@@ -36,3 +42,9 @@ url: /zh/java/document-barcode-recognition/
 探索使用 Aspose.BarCode 将条形码识别无缝集成到您的 Java 应用程序中。按照本教程识别 Word 文档中的条形码。
 ### [在 Java 中识别 Unicode 条形码](./recognizing-unicode-barcodes/)
 使用 Aspose.BarCode 探索 Java 中的 Unicode 条形码识别世界。按照我们的分步指南将不同的字符集无缝集成到您的应用程序中。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

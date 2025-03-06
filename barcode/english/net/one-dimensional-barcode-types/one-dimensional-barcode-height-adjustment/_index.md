@@ -3,10 +3,16 @@ title: One-Dimensional Barcode Height Adjustment
 linktitle: One-Dimensional Barcode Height Adjustment
 second_title: Aspose.BarCode .NET API
 description: Learn how to adjust the height of one-dimensional barcodes in .NET with Aspose.BarCode for precise customization. Create perfect barcodes effortlessly!
-type: docs
 weight: 13
 url: /net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# One-Dimensional Barcode Height Adjustment
+
 
 When it comes to generating barcodes in .NET applications, Aspose.BarCode for .NET is a powerful and versatile tool that can streamline the process. Whether you are creating barcodes for inventory management, retail, or any other application, precise control over the barcode's properties is essential. One of these properties is the height of the one-dimensional barcode. In this step-by-step guide, we will walk you through the process of adjusting the height of a one-dimensional barcode using Aspose.BarCode for .NET.
 
@@ -83,3 +89,10 @@ Yes, Aspose.BarCode for .NET supports various image formats, including PNG, JPEG
 ### Where can I find detailed documentation for Aspose.BarCode for .NET?
 You can refer to the documentation [here](https://reference.aspose.com/barcode/net/) for in-depth information on using Aspose.BarCode in your .NET projects.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

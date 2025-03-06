@@ -3,10 +3,16 @@ title: 바코드 기본 사항
 linktitle: 바코드 기본 사항
 second_title: Aspose.BarCode 자바 API
 description: Java 애플리케이션에서 바코드의 강력한 기능을 활용해 보세요! 원활한 통합, 사용자 정의 및 인식을 위해 Aspose.BarCode 튜토리얼을 살펴보세요.
-type: docs
 weight: 20
 url: /ko/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 바코드 기본 사항
+
 
 ## 소개
 
@@ -38,3 +44,9 @@ Aspose.BarCode를 사용하여 Java에서 전체 그림의 크기 생성 및 설
 Aspose.BarCode를 사용하여 Java에서 정확한 바코드 생성이 가능한 이미지를 생성합니다. 맞춤형 바코드를 쉽게 생성하세요. 설명서를 살펴보고 다운로드하고 지원을 받으세요.
 ### [Java의 바코드 방향 감지](./detecting-barcode-orientation/)
 Aspose.BarCode for Java를 사용하여 바코드 인식으로 Java 애플리케이션을 강화하세요. 바코드 방향을 쉽게 감지하려면 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

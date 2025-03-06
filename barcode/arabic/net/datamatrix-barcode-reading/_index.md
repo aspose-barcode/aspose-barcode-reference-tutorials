@@ -3,10 +3,16 @@ title: قراءة الباركود DataMatrix
 linktitle: قراءة الباركود DataMatrix
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء وقراءة باركود DataMatrix دون عناء باستخدام Aspose.BarCode for .NET. انغمس في برمجة قارئ DataMatrix وتكوين الإلحاق المنظم.
-type: docs
 weight: 31
 url: /ar/net/datamatrix-barcode-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة الباركود DataMatrix
+
 
 إذا كنت تتطلع إلى التعمق في عالم قراءة الباركود DataMatrix وإطلاق العنان للإمكانات الكاملة لـ Aspose.BarCode لـ .NET، فقد وصلت إلى المكان الصحيح. في هذا الدليل الشامل، سنوجهك عبر البرامج التعليمية الأساسية التي تغطي برمجة قارئ DataMatrix، وتكوين الإلحاق المنظم، وفن إنشاء رموز DataMatrix الشريطية في تطبيقات .NET الخاصة بك.
 
@@ -30,3 +36,9 @@ url: /ar/net/datamatrix-barcode-reading/
 تعرف على كيفية إنشاء وقراءة تكوين الإلحاق المنظم لـ DataMatrix في .NET باستخدام Aspose.BarCode لتنظيم البيانات عالي الكفاءة.
 ### [إنشاء باركود DataMatrix](./datamatrix-versions/)
 تعرف على كيفية إنشاء رموز شريطية DataMatrix في .NET باستخدام Aspose.BarCode لـ .NET. الأبعاد المخصصة ودعم ECC والمزيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

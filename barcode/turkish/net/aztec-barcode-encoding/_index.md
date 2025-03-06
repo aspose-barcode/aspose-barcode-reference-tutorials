@@ -3,10 +3,16 @@ title: Aztek Barkod Kodlama
 linktitle: Aztek Barkod Kodlama
 second_title: Aspose.BarCode .NET API'si
 description: Aspose.BarCode for .NET ile Aztek Barkod Kodlamanın potansiyelini ortaya çıkarın. En boy oranlarını özelleştirin, metin kodlu Aztek kodları oluşturun ve Sembol Modlarında uzmanlaşın.
-type: docs
 weight: 28
 url: /tr/net/aztec-barcode-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aztek Barkod Kodlama
+
 
 ## giriiş
 
@@ -44,3 +50,9 @@ Aspose.BarCode for .NET ile Aztek Kod Metin Kodlamanın gücünü keşfedin. .NE
 Aspose.BarCode for .NET'i kullanarak farklı hata seviyelerine sahip Aztek hata barkodlarını nasıl oluşturacağınızı öğrenin. Barkod oluşturmaya yönelik kapsamlı kılavuz.
 ### [Aztek Sembol Modunda Ustalaşmak](./aztec-symbol-mode-example/)
 Aspose.BarCode for .NET'te Aztek Sembol Modu'nu keşfedin ve çok yönlü barkodları kolaylıkla nasıl oluşturacağınızı öğrenin. Bu kapsamlı eğitimde Auto, FullRange, Compact ve Rune modlarını uygulamalı olarak öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

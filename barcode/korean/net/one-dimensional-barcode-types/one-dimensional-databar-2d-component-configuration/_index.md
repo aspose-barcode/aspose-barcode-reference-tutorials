@@ -3,10 +3,16 @@ title: 1차원 데이터바 2D 구성요소 구성
 linktitle: 1차원 데이터바 2D 구성요소 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 1차원 데이터바 2D 바코드를 생성합니다. 구성 및 사용자 정의에 대한 단계별 가이드를 따르십시오. 지금 바로 고유한 바코드 만들기를 시작해 보세요!
-type: docs
 weight: 15
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 데이터바 2D 구성요소 구성
+
 
 데이터 인코딩 및 바코드 세계에서 .NET용 Aspose.BarCode 라이브러리는 안정적이고 다양한 도구로 자리잡고 있습니다. 이 강력한 .NET 구성 요소는 개발자에게 바코드를 손쉽게 생성, 조작 및 사용자 정의할 수 있는 수단을 제공합니다. 1차원 Databar 2D 구성 요소 구성을 위해 이 라이브러리의 잠재력을 활용하려는 경우 올바른 위치에 있습니다. 이 단계별 가이드에서는 .NET용 Aspose.BarCode를 사용하여 Databar 2D 구성 요소로 원활하게 작업할 수 있도록 프로세스를 분석합니다.
 
@@ -94,3 +100,9 @@ gen.Save($"{path}Databar2DComponentEnabled.png", BarCodeImageFormat.Png);
 
 ### .NET용 Aspose.BarCode에 대한 지원은 어디서 받을 수 있나요?
 -  다음에서 도움을 구하고 지역사회에 참여할 수 있습니다.[.NET 지원 포럼용 Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

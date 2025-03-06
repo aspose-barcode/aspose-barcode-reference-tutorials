@@ -3,10 +3,16 @@ title: Rendu du code-barres sur l'imprimante en Java
 linktitle: Rendu du code-barres vers l'imprimante
 second_title: API Java Aspose.BarCode
 description: Générez et restituez des codes-barres sans effort en Java avec Aspose.BarCode. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 12
 url: /fr/java/barcode-rendering-techniques/rendering-barcode-printer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu du code-barres sur l'imprimante en Java
+
 
 ## Introduction
 
@@ -109,3 +115,10 @@ Absolument. Aspose.BarCode prend en charge un large éventail de types de codes-
 ### Existe-t-il un essai gratuit disponible pour Aspose.BarCode ?
  Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

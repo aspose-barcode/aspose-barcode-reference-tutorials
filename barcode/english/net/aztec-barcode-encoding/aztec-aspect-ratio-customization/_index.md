@@ -3,10 +3,16 @@ title: Customize Aztec Barcode Aspect Ratio with Aspose.BarCode for .NET
 linktitle: Aztec Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
 description: Learn how to customize Aztec barcode aspect ratios using Aspose.BarCode for .NET. Create unique, flexible barcodes for your .NET applications.
-type: docs
 weight: 10
 url: /net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize Aztec Barcode Aspect Ratio with Aspose.BarCode for .NET
+
 In this tutorial, we will delve into customizing the aspect ratio of Aztec barcodes using Aspose.BarCode for .NET. Aztec barcodes are two-dimensional barcodes commonly used for encoding data, and with Aspose.BarCode, you can easily create and customize these barcodes to suit your specific requirements.
 
 ## Prerequisites
@@ -108,3 +114,10 @@ A4: You can use Aspose.BarCode for .NET in web applications by incorporating it 
 ### Q5: Where can I get a temporary license for Aspose.BarCode for .NET?
 
 A5: If you need a temporary license for testing or evaluation purposes, you can obtain one from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

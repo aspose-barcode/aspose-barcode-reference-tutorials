@@ -3,10 +3,16 @@ title: Đọc và sắp xếp mã vạch theo thứ tự cụ thể trong Java
 linktitle: Đọc và sắp xếp mã vạch theo thứ tự cụ thể
 second_title: API Java Aspose.BarCode
 description: Nâng cao ứng dụng Java của bạn với Aspose.BarCode! Học cách đọc và sắp xếp mã vạch hiệu quả. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc và sắp xếp mã vạch theo thứ tự cụ thể trong Java
+
 
 ## Giới thiệu
 
@@ -123,3 +129,10 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tận dụng Aspose
 
 ### Hỏi: Tôi có thể tìm kiếm sự hỗ trợ hoặc đặt câu hỏi ở đâu?
  Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

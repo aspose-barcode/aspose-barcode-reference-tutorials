@@ -3,10 +3,16 @@ title: 컴팩트 PDF417 인코딩
 linktitle: 컴팩트 PDF417 인코딩
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 컴팩트 PDF417 바코드를 손쉽게 생성하세요. 코드 예제가 포함된 효율적인 인코딩을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 29
 url: /ko/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 컴팩트 PDF417 인코딩
+
 
 ## 소개
 
@@ -33,3 +39,9 @@ url: /ko/net/compact-pdf417-encoding/
 ## 컴팩트 PDF417 인코딩 자습서
 ### [컴팩트 PDF417 바코드 생성](./compact-pdf417-basic-configuration/)
 .NET용 Aspose.BarCode를 사용하여 컴팩트 PDF417 바코드를 생성하는 방법을 알아보세요. 단계별 지침과 코드 예제가 포함된 종합 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

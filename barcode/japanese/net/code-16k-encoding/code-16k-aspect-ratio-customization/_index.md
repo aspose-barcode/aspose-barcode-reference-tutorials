@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用してコード 16K バーコードの�
 linktitle: コード 16K アスペクト比のカスタマイズ
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して Code 16K バーコードのアスペクト比をカスタマイズする方法を学びます。アプリケーション用の正確なバーコードを作成します。
-type: docs
 weight: 10
 url: /ja/net/code-16k-encoding/code-16k-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用してコード 16K バーコードのアスペクト比をカスタマイズする
+
 バーコード生成の世界では、精度とカスタマイズが重要です。 Aspose.BarCode for .NET は、Code 16K バーコードのアスペクト比をカスタマイズする機能など、バーコードを作成および操作するための強力なツールセットを開発者に提供します。このステップバイステップ ガイドでは、Aspose.BarCode for .NET を使用して、さまざまなアスペクト比の Code 16K バーコードを生成する方法を説明します。経験豊富な開発者でも、初心者でも、プロセスをシンプルでわかりやすい手順に分けて説明します。
 
 ## 前提条件
@@ -97,3 +103,10 @@ A3: もちろんです。 Aspose.BarCode for .NET は多用途であり、.NET �
 ### Q5: Aspose.BarCode for .NET の無料トライアルはありますか?
 
  A5: はい、以下から無料試用版をダウンロードして、Aspose.BarCode for .NET を試すことができます。[ここ](https://releases.aspose.com/)。これにより、購入する前にその特徴や機能を調べることができます。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

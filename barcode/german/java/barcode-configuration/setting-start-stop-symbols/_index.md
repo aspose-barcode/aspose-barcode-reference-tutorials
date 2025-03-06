@@ -3,10 +3,16 @@ title: Festlegen von Start- und Stoppsymbolen in Java
 linktitle: Festlegen von Start- und Stoppsymbolen
 second_title: Aspose.BarCode Java API
 description: Generieren Sie mit Aspose.BarCode benutzerdefinierte Codabar-Barcodes mit spezifischen Start- und Stoppsymbolen in Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 15
 url: /de/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen von Start- und Stoppsymbolen in Java
+
 
 ## Einführung
 
@@ -104,3 +110,10 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.BarCode für Jav
 ### Werden von Aspose.BarCode für Java weitere Barcode-Symbologien unterstützt?
 Ja, Aspose.BarCode unterstützt eine breite Palette von Barcode-Symbologien. Eine vollständige Liste finden Sie in der Dokumentation.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

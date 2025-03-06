@@ -3,10 +3,16 @@ title: 在Java中为条形码图像添加边框
 linktitle: 为条形码图像添加边框
 second_title: Aspose.BarCode Java API
 description: 通过添加可自定义边框，使用 Aspose.BarCode 增强 Java 中的条形码图像。按照此分步指南来实现具有视觉吸引力的条形码解决方案。
-type: docs
 weight: 10
 url: /zh/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Java中为条形码图像添加边框
+
 
 ## 介绍
 
@@ -122,3 +128,10 @@ bb.save(dataDir + "barcode-image-borders.jpg");
 
 ### 是否有 Aspose.BarCode 的试用版？
 是的，您可以通过下载来探索 Aspose.BarCode 的功能[免费试用版](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

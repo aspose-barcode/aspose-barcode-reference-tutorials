@@ -3,10 +3,16 @@ title: Passen Sie das DotCode-Seitenverhältnis mit Aspose.BarCode für .NET an
 linktitle: Anpassung des DotCode-Seitenverhältnisses
 second_title: Aspose.BarCode .NET-API
 description: Erfahren Sie, wie Sie das Seitenverhältnis von DotCode-Barcodes mit Aspose.BarCode für .NET anpassen. Erstellen Sie mühelos maßgeschneiderte Barcodes für Ihre Anwendungen.
-type: docs
 weight: 10
 url: /de/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie das DotCode-Seitenverhältnis mit Aspose.BarCode für .NET an
+
 ## Einführung
 
 Wenn Sie ein .NET-Entwickler sind und in Ihren Anwendungen hochgradig anpassbare Barcodes erstellen möchten, ist Aspose.BarCode für .NET die perfekte Lösung. In diesem Tutorial befassen wir uns mit einer seiner erweiterten Funktionen – dem Anpassen des DotCode-Seitenverhältnisses. DotCode-Barcodes werden in Branchen wie dem Gesundheitswesen, der Post und der Fertigung häufig zur Kodierung von Informationen verwendet. Durch Anpassen des Seitenverhältnisses können Sie Ihren Barcode an Ihre spezifischen Bedürfnisse anpassen. Lass uns anfangen!
@@ -97,3 +103,9 @@ A4: Ja, Aspose.BarCode für .NET kann sowohl in Web- als auch in Desktop-Anwendu
 ### F5: Wo finde ich weitere Informationen und Dokumentation zu Aspose.BarCode für .NET?
 
 A5: Sie können die Dokumentation durchsuchen[Hier](https://reference.aspose.com/barcode/net/) für umfassende Anleitungen und Beispiele.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

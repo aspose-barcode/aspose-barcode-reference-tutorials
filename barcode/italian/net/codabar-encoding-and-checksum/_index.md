@@ -3,10 +3,16 @@ title: Codifica Codabar e checksum
 linktitle: Codifica Codabar e checksum
 second_title: API Aspose.BarCode .NET
 description: Ottimizza i codici a barre Codabar in .NET con Aspose.BarCode! Calcolo del checksum principale per dati precisi. Crea senza sforzo utilizzando i caratteri di avvio/arresto con i nostri tutorial.
-type: docs
 weight: 20
 url: /it/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codifica Codabar e checksum
+
 ## introduzione
 
 Sei uno sviluppatore che cerca di svelare i segreti della codifica Codabar e del calcolo del checksum in .NET? Non guardare oltre! Questo articolo approfondisce le complessità di Codabar, fornendo tutorial completi sul calcolo del checksum Codabar e sull'uso dei caratteri start/stop con Aspose.BarCode per .NET.
@@ -34,3 +40,9 @@ In conclusione, la codifica Codabar e il calcolo del checksum sono competenze vi
 Scopri come calcolare i checksum Codabar in .NET utilizzando Aspose.BarCode. Migliora la precisione dei dati nei codici a barre Codabar. Ottieni una guida passo passo.
 ### [Caratteri di avvio/arresto Codabar](./codabar-start-stop-characters/)
 Scopri come creare codici a barre Codabar con caratteri di inizio e fine utilizzando Aspose.BarCode per .NET. Una guida passo passo per gli sviluppatori.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 一維資料欄長寬比定制
 linktitle: 一維資料欄長寬比定制
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode 在 .NET 中自訂一維 DataBar 縱橫比。提高條碼精度和設計。
-type: docs
 weight: 16
 url: /zh-hant/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一維資料欄長寬比定制
+
 
 在條碼領域，精度和自訂是實現預期結果的關鍵。作為一名經驗豐富的 SEO 作家，我在這裡指導您完成使用 Aspose.BarCode for .NET 自訂一維 DataBar 的縱橫比的過程。我們將把這個複雜的流程分解為可管理的步驟，確保您徹底掌握這個概念。那麼，讓我們深入了解一下吧！
 
@@ -116,3 +122,10 @@ gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
 如果您需要臨時許可證進行測試或評估，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

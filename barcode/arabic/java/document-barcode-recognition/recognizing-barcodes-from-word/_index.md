@@ -3,10 +3,16 @@ title: التعرف على الباركود بسهولة من مستندات Wor
 linktitle: التعرف على الباركود من مستندات Word
 second_title: Aspose.BarCode جافا API
 description: استكشف التكامل السلس للتعرف على الرمز الشريطي في تطبيقات Java الخاصة بك باستخدام Aspose.BarCode. اتبع هذا البرنامج التعليمي للتعرف على الرموز الشريطية من مستندات Word.
-type: docs
 weight: 12
 url: /ar/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الباركود بسهولة من مستندات Word
+
 
 ## مقدمة
 
@@ -111,3 +117,10 @@ for (Shape shape : shapes) {
 
 ### س: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.BarCode لـ Java؟
  الرجوع إلى الوثائق الشاملة[هنا](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

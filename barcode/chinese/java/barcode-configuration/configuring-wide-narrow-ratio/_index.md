@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中配置宽窄比
 linktitle: 配置宽窄比
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 条形码中配置宽窄比。请按照我们的分步指南进行无缝定制。
-type: docs
 weight: 17
 url: /zh/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中配置宽窄比
+
 
 ## 介绍
 
@@ -87,3 +93,9 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 ### 问：如何获得 Aspose.BarCode 的支持？
 答：访问 Aspose.BarCode 论坛[这里](https://forum.aspose.com/c/barcode/13)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

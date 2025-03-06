@@ -3,10 +3,16 @@ title: Testreszabhatja az azték vonalkód képarányát az Aspose.BarCode segí
 linktitle: Azték képarány testreszabása
 second_title: Aspose.BarCode .NET API
 description: Ismerje meg, hogyan szabhatja testre az azték vonalkód képarányait az Aspose.BarCode for .NET használatával. Készítsen egyedi, rugalmas vonalkódokat .NET-alkalmazásaihoz.
-type: docs
 weight: 10
 url: /hu/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabhatja az azték vonalkód képarányát az Aspose.BarCode segítségével a .NET-hez
+
 Ebben az oktatóanyagban az azték vonalkódok képarányának testreszabásával foglalkozunk az Aspose.BarCode for .NET használatával. Az azték vonalkódok kétdimenziós vonalkódok, amelyeket gyakran használnak adatok kódolására, és az Aspose.BarCode segítségével könnyedén létrehozhatja és testreszabhatja ezeket a vonalkódokat az Ön egyedi igényei szerint.
 
 ## Előfeltételek
@@ -108,3 +114,9 @@ Most, hogy megtanulta az azték vonalkódok képarányának beállítását, tov
 ### 5. kérdés: Hol szerezhetek ideiglenes licencet az Aspose.BarCode .NET-hez?
 
 5. válasz: Ha tesztelési vagy értékelési célból ideiglenes licencre van szüksége, beszerezhet egyet a webhelyen[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

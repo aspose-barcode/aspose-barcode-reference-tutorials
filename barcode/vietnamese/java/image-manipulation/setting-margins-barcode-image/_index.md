@@ -3,10 +3,16 @@ title: Đặt lề cho hình ảnh mã vạch trong Java
 linktitle: Đặt lề cho hình ảnh mã vạch
 second_title: API Java Aspose.BarCode
 description: Tìm hiểu cách đặt lề cho hình ảnh mã vạch trong Java bằng Aspose.BarCode. Tùy chỉnh khoảng cách để tích hợp liền mạch vào ứng dụng của bạn
-type: docs
 weight: 11
 url: /vi/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt lề cho hình ảnh mã vạch trong Java
+
 
 ## Giới thiệu
 
@@ -99,3 +105,10 @@ Aspose.BarCode được thiết kế chủ yếu cho Java, nhưng có sẵn các
 
 ### Làm cách nào tôi có thể mua phiên bản đầy đủ của Aspose.BarCode cho Java?
  Bạn có thể mua phiên bản đầy đủ của Aspose.BarCode cho Java từ[trang mua hàng](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

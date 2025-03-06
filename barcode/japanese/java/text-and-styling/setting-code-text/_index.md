@@ -3,10 +3,16 @@ title: Javaでのコードテキストの設定
 linktitle: コードテキストの設定
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode を使用すると、Java でバーコードを簡単に生成できます。コードテキストを効率的にカスタマイズするには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/java/text-and-styling/setting-code-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Javaでのコードテキストの設定
+
 
 ## 導入
 
@@ -80,3 +86,9 @@ generator.save(dataDir + "setCodeText.jpg");
 
 ### テスト目的で一時ライセンスを使用できますか?
 はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

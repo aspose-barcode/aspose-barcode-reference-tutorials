@@ -3,10 +3,16 @@ title: Vonalkód lekérése és felismerése Java nyelven
 linktitle: Vonalkód lekérése és felismerése
 second_title: Aspose.BarCode Java API
 description: Könnyedén integrálhatja az Aspose.BarCode for Java-t – kérheti le és ismerheti fel a vonalkódokat egy adatbázisból. Töltse le most a zökkenőmentes vonalkód-integrációs élményért.
-type: docs
 weight: 11
 url: /hu/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vonalkód lekérése és felismerése Java nyelven
+
 
 ## Bevezetés
 
@@ -120,3 +126,10 @@ Igen, az Aspose.BarCode nagyméretű alkalmazások kezelésére készült, nagy 
 
 ### Vannak ideiglenes licencek tesztelési célokra?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

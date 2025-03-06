@@ -3,10 +3,16 @@ title: 1차원 바코드 유형
 linktitle: 1차원 바코드 유형
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode를 사용하여 .NET에서 다양한 1차원 바코드를 만드는 방법을 알아보세요. 바코드 생성 및 사용자 정의를 위한 단계별 가이드입니다.
-type: docs
 weight: 25
 url: /ko/net/one-dimensional-barcode-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 1차원 바코드 유형
+
 
 ## 소개
 
@@ -78,3 +84,9 @@ Aspose.BarCode를 사용하여 .NET에서 Databar GS1 인코딩 바코드를 만
 이 튜토리얼 시리즈에서는 구성 및 사용자 정의에 중점을 두고 1차원 바코드 유형의 세계를 탐구했습니다. .NET용 Aspose.BarCode를 사용하면 프로세스가 간단해지며 필요에 맞는 바코드를 만들 수 있습니다. 따라서 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 자습서를 통해 .NET 프로젝트에서 1차원 바코드의 강력한 기능을 활용할 수 있습니다. 지금 시작하여 바코드 기술의 잠재력을 발휘해보세요!
 
 이 기사를 통해 다양한 1차원 바코드 유형에 대한 지식을 얻을 수 있을 뿐만 아니라 이를 프로젝트에 구현할 수 있다는 자신감도 갖게 됩니다. 즐거운 코딩하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Code 16K Encodage
 linktitle: Code 16K Encodage
 second_title: API Aspose.BarCode .NET
 description: Explorez les didacticiels d'encodage Code 16K avec Aspose.BarCode pour .NET. Personnalisez les proportions des codes-barres et les paramètres de zone silencieuse pour une lecture précise et fiable dans vos applications.
-type: docs
 weight: 22
 url: /fr/net/code-16k-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Code 16K Encodage
+
 
 ## Introduction
 
@@ -44,3 +50,9 @@ Master Code 16K Zones silencieuses avec Aspose.BarCode pour .NET. Personnalisez 
 ## Conclusion
 
 En terminant ces didacticiels d'encodage Code 16K, vous comprendrez en profondeur comment personnaliser les proportions des codes-barres et les paramètres de zone silencieuse à l'aide d'Aspose.BarCode pour .NET. Que vous développiez des applications pour la vente au détail, la logistique ou tout autre secteur, ces compétences amélioreront la fonctionnalité et l'attrait visuel de vos codes-barres.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 고급 설정 및 최적화
 linktitle: 고급 설정 및 최적화
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java 바코드 생성의 잠재력을 활용해 보세요. 원활한 통합을 위해 사용자 정의 크기를 구성하고 이미지 해상도를 최적화하며 마스터 바코드 설정을 수행합니다.
-type: docs
 weight: 29
 url: /ko/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 설정 및 최적화
+
 
 ## 소개
 
@@ -86,3 +92,9 @@ Java용 Aspose.BarCode를 사용하여 단일 이미지에 여러 바코드를 �
 1D 바코드를 쉽게 디코딩할 수 있는 Aspose.BarCode for Java의 기능을 살펴보세요. Java 애플리케이션에 완벽하게 통합하려면 지금 다운로드하세요.
 ### [Java에서 바코드 인식 품질을 백분율로 얻기](./getting-barcode-recognition-quality-percent/)
 Aspose.BarCode를 사용하여 Java에서 바코드 인식 품질을 얻습니다. 최적의 결과를 얻으려면 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

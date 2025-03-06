@@ -3,10 +3,16 @@ title: Menguasai Pengenalan Barcode Dokumen dengan Aspose.BarCode
 linktitle: Pengenalan Barcode Dokumen
 second_title: Aspose.BarCode Java API
 description: Buka kekuatan pengenalan kode batang di Java dengan Aspose.BarCode! Pelajari cara mengintegrasikan, membaca, dan mengurutkan kode batang dari PDF, dokumen Word, dan kumpulan Unicode dengan lancar.
-type: docs
 weight: 21
 url: /id/java/document-barcode-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Pengenalan Barcode Dokumen dengan Aspose.BarCode
+
 
 Apakah Anda siap untuk meningkatkan aplikasi Java Anda ke tingkat yang lebih tinggi? Tidak perlu mencari lagi! Dalam panduan komprehensif ini, kita akan mempelajari dunia pengenalan kode batang yang menarik menggunakan Aspose.BarCode. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini adalah kunci Anda untuk membuka potensi penuh integrasi kode batang berbasis Java.
 
@@ -36,3 +42,9 @@ Pelajari cara mengenali kode batang dari PDF di Java menggunakan Aspose.BarCode.
 Jelajahi integrasi pengenalan kode batang ke dalam aplikasi Java Anda dengan Aspose.BarCode. Ikuti tutorial ini untuk mengenali barcode dari dokumen Word.
 ### [Mengenali Barcode Unicode di Java](./recognizing-unicode-barcodes/)
 Jelajahi dunia pengenalan kode batang Unicode di Java dengan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk mengintegrasikan beragam rangkaian karakter ke dalam aplikasi Anda dengan lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

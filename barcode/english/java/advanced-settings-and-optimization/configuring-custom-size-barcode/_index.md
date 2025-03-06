@@ -3,10 +3,16 @@ title: Configuring Custom Sized Barcodes in Java with Aspose.BarCode
 linktitle: Configuring Custom Size for Barcode
 second_title: Aspose.BarCode Java API
 description: Explore the simplicity of configuring custom sized barcodes in Java with Aspose.BarCode. Follow our step-by-step tutorial for precise configuration.
-type: docs
 weight: 10
 url: /java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring Custom Sized Barcodes in Java with Aspose.BarCode
+
 ## Introduction
 
 If you're a Java developer looking to configuring custom sized barcodes seamlessly, Aspose.BarCode for Java is your go-to solution. This tutorial will walk you through the process of configuring a custom size for your barcodes, ensuring flexibility and precision in your applications.
@@ -112,3 +118,10 @@ A4: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13)
 ### Q5: Is there a temporary license option available?
 
 A5: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

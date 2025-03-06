@@ -3,10 +3,16 @@ title: ITF-14 条码静区配置
 linktitle: ITF-14 条码静区配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 配置 ITF-14 条形码静区。轻松确保可读性和合规性。
-type: docs
 weight: 12
 url: /zh/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 条码静区配置
+
 
 ## 介绍
 
@@ -99,3 +105,10 @@ Aspose.BarCode for .NET 提供免费试用版，但对于商业用途，您需�
 ### 在哪里可以获得 Aspose.BarCode for .NET 的帮助和支持？
 如需帮助，您可以访问[Aspose.BarCode for .NET 论坛](https://forum.aspose.com/c/barcode/13)，您可以在其中提出问题并找到有用的资源。
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

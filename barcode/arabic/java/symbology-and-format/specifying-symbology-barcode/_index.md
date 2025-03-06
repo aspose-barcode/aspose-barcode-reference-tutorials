@@ -3,10 +3,16 @@ title: تحديد رموز الباركود في Java
 linktitle: تحديد الرموز للباركود
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء رموز شريطية ديناميكية في Java باستخدام Aspose.BarCode. تكامل سهل وتخصيص متعدد الاستخدامات وميزات قوية لجميع احتياجات الباركود الخاصة بك.
-type: docs
 weight: 10
 url: /ar/java/symbology-and-format/specifying-symbology-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد رموز الباركود في Java
+
 
 ## مقدمة
 
@@ -77,3 +83,10 @@ generator.save(dataDir + "Code39Standard.jpg");
 
 ### كيف يمكنني الحصول على الدعم لـ Aspose.BarCode؟
  قم بزيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للحصول على المساعدة من المجتمع وخبراء Aspose.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

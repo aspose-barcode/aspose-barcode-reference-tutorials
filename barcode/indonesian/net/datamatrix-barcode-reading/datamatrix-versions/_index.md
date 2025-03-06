@@ -3,10 +3,16 @@ title: Hasilkan Barcode DataMatrix dengan Aspose.BarCode untuk .NET
 linktitle: Versi DataMatrix
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang DataMatrix di .NET menggunakan Aspose.BarCode untuk .NET. Dimensi khusus, dukungan ECC, dan banyak lagi.
-type: docs
 weight: 12
 url: /id/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hasilkan Barcode DataMatrix dengan Aspose.BarCode untuk .NET
+
 Jika Anda mencari solusi andal untuk menghasilkan kode batang DataMatrix di aplikasi .NET Anda, Aspose.BarCode untuk .NET adalah jawabannya. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses penggunaan Aspose.BarCode untuk .NET untuk membuat kode batang DataMatrix. Kami akan membagi setiap contoh menjadi beberapa langkah, memastikan Anda dapat mengikutinya dengan mudah.
 
 ## Prasyarat
@@ -128,3 +134,9 @@ A2: Ya, Anda dapat menyesuaikan dimensi barcode DataMatrix dengan mengatur jumla
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.BarCode untuk .NET?
 
  A5: Untuk mendapatkan lisensi sementara Aspose.BarCode untuk .NET, kunjungi[Link ini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

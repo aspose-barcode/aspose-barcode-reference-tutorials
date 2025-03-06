@@ -3,10 +3,16 @@ title: التعرف على الباركود PDF417 مع الأحرف الصين�
 linktitle: التعرف على الباركود PDF417 بالأحرف الصينية
 second_title: Aspose.BarCode جافا API
 description: اكتشف كيفية التعرف على الباركود PDF417 بأحرف صينية في Java باستخدام Aspose.BarCode. اتبع برنامجنا التعليمي الشامل لتحقيق التكامل السلس.
-type: docs
 weight: 10
 url: /ar/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الباركود PDF417 مع الأحرف الصينية في جافا
+
 
 ## مقدمة
 
@@ -89,3 +95,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### أين يمكنني العثور على الوثائق؟
  الوثائق متاحة[هنا](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

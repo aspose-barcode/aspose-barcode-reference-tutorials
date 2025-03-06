@@ -3,10 +3,16 @@ title: Configuración de filas y columnas DotCode con Aspose.BarCode para .NET
 linktitle: Configuración de filas y columnas de DotCode
 second_title: API Aspose.BarCode .NET
 description: Aprenda a configurar filas y columnas DotCode con Aspose.BarCode para .NET. Genere códigos de barras 2D precisos y personalizables sin esfuerzo.
-type: docs
 weight: 15
 url: /es/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de filas y columnas DotCode con Aspose.BarCode para .NET
+
 ## Introducción
 
 ¡Bienvenido al mundo de la generación de códigos de barras utilizando Aspose.BarCode para .NET! En esta guía completa, profundizaremos en el fascinante ámbito de la configuración de filas y columnas DotCode con Aspose.BarCode. Si es un desarrollador experimentado o recién comienza su viaje con la generación de códigos de barras, este tutorial lo guiará a través de los pasos, requisitos previos y espacios de nombres esenciales para comenzar a dominar la configuración de filas y columnas de DotCode.
@@ -112,3 +118,9 @@ R4: Aspose.BarCode admite una amplia variedad de tipos de códigos de barras, in
 ### P5: ¿Dónde puedo encontrar más tutoriales y ejemplos de Aspose.BarCode para .NET?
 
  R5: Puede explorar tutoriales y ejemplos adicionales en el[Documentación de Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

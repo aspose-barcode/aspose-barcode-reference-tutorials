@@ -3,10 +3,16 @@ title: जावा में सर्वलेट को बारकोड �
 linktitle: सर्वलेट को बारकोड प्रस्तुत करना
 second_title: Aspose.BarCode जावा एपीआई
 description: Aspose.BarCode के साथ जावा सर्वलेट्स में आसानी से बारकोड उत्पन्न और प्रस्तुत करें। प्रकार अनुकूलित करें, आसानी से एकीकृत करें। संभावनाओं का अन्वेषण करें!
-type: docs
 weight: 13
 url: /hi/java/barcode-rendering-techniques/rendering-barcode-servlet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में सर्वलेट को बारकोड रेंडर करना
+
 
 ## परिचय
 
@@ -102,3 +108,9 @@ public class RenderBarcodeToServlet extends HttpServlet {
 
 ### मैं Aspose.BarCode के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
  अस्थायी लाइसेंस प्राप्त करने के लिए, यहाँ जाएँ[इस लिंक](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

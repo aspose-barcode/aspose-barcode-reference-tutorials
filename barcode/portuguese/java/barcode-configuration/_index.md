@@ -3,10 +3,16 @@ title: Configuração de código de barras
 linktitle: Configuração de código de barras
 second_title: API Java Aspose.BarCode
 description: Gere facilmente códigos de barras personalizados em Java com Aspose.BarCode. Aumente a eficiência e a facilidade de desenvolvimento com nossos versáteis tutoriais.
-type: docs
 weight: 24
 url: /pt/java/barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuração de código de barras
+
 
 Bem-vindo ao mundo da geração contínua de códigos de barras em Java! Quer você seja um desenvolvedor experiente ou apenas começando, nossos tutoriais de configuração Aspose.BarCode estão aqui para guiá-lo através das complexidades da configuração de códigos de barras com facilidade.
 
@@ -60,3 +66,9 @@ Gere códigos de barras Codabar personalizados com símbolos de início e parada
 Aprenda como criar códigos de barras dinâmicos em Java usando Aspose.BarCode. Guia passo a passo para complementar dados com simbologia EAN_13.
 ### [Configurando a proporção ampla-estreita em Java](./configuring-wide-narrow-ratio/)
 Aprenda como configurar a proporção ampla-estreita em códigos de barras Java usando Aspose.BarCode. Siga nosso guia passo a passo para uma personalização perfeita.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

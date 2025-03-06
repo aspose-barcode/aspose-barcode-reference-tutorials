@@ -3,10 +3,16 @@ title: 在 Java 中配置带分段的条形码
 linktitle: 配置带段的条形码
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 轻松生成 Java 中的自定义条形码。多功能、高效且对开发人员友好。
-type: docs
 weight: 10
 url: /zh/java/barcode-configuration/configuring-barcode-segments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中配置带分段的条形码
+
 
 在不断发展的技术领域，对强大的条码解决方案的需求已势在必行。 Aspose.BarCode for Java 是一款功能强大的工具，可简化条形码生成和定制。在本教程中，我们将深入研究使用 Aspose.BarCode for Java 配置带段的条形码。本分步指南将为您提供将条形码功能无缝集成到 Java 应用程序中的知识。
 
@@ -86,3 +92,10 @@ generator.save(dataDir + "6segments.png");
 
 ### 有免费试用吗？
 是的，通过访问 Aspose.BarCode 来探索其功能[免费试用](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

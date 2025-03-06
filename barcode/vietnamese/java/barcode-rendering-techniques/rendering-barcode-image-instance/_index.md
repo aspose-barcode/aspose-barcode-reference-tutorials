@@ -3,10 +3,16 @@ title: Hiển thị mã vạch thành phiên bản hình ảnh trong Java
 linktitle: Hiển thị mã vạch thành phiên bản hình ảnh
 second_title: API Java Aspose.BarCode
 description: Khám phá sức mạnh của Aspose.BarCode cho Java! Dễ dàng tạo mã vạch ở nhiều loại khác nhau bằng thư viện mạnh mẽ này.
-type: docs
 weight: 11
 url: /vi/java/barcode-rendering-techniques/rendering-barcode-image-instance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị mã vạch thành phiên bản hình ảnh trong Java
+
 
 ## Giới thiệu
 
@@ -70,3 +76,10 @@ Có, Aspose.BarCode hỗ trợ nhiều loại mã vạch, bao gồm CODE_128, M�
 
 ### Có sẵn tùy chọn giấy phép tạm thời không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: جلب والتعرف على الباركود في جافا
 linktitle: جلب والتعرف على الباركود
 second_title: Aspose.BarCode جافا API
 description: قم بدمج Aspose.BarCode لـ Java بسهولة - جلب الرموز الشريطية والتعرف عليها من قاعدة البيانات. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة للرموز الشريطية.
-type: docs
 weight: 11
 url: /ar/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# جلب والتعرف على الباركود في جافا
+
 
 ## مقدمة
 
@@ -120,3 +126,10 @@ System.out.println(ex.getMessage());
 
 ### هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

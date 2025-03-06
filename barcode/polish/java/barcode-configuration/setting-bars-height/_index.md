@@ -3,10 +3,16 @@ title: Ustawianie wysokości słupków w Javie
 linktitle: Ustawianie wysokości słupków
 second_title: Aspose.BarCode API Java
 description: Generuj i dostosowuj kody kreskowe bez wysiłku w Javie za pomocą Aspose.BarCode. Ustaw wysokość paska, wybierz typy i zwiększ możliwości swojej aplikacji.
-type: docs
 weight: 14
 url: /pl/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie wysokości słupków w Javie
+
 
 ## Wstęp
 
@@ -78,3 +84,10 @@ Z pewnością! Aspose.BarCode obsługuje kodowanie zarówno danych numerycznych,
 ### Gdzie mogę znaleźć wsparcie dla Aspose.BarCode dla Java?
  Odwiedź forum Aspose.BarCode[Tutaj](https://forum.aspose.com/c/barcode/13) za wsparcie społeczności i dyskusje.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

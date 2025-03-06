@@ -3,10 +3,16 @@ title: Mühelose Barcode-Erkennung aus Word-Dokumenten
 linktitle: Erkennen von Barcodes aus Word-Dokumenten
 second_title: Aspose.BarCode Java API
 description: Entdecken Sie die nahtlose Integration der Barcode-Erkennung in Ihre Java-Anwendungen mit Aspose.BarCode. Befolgen Sie dieses Tutorial, um Barcodes aus Word-Dokumenten zu erkennen.
-type: docs
 weight: 12
 url: /de/java/document-barcode-recognition/recognizing-barcodes-from-word/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mühelose Barcode-Erkennung aus Word-Dokumenten
+
 
 ## Einführung
 
@@ -111,3 +117,10 @@ Wenn Sie Hilfe oder Fragen haben, besuchen Sie das Aspose.BarCode-Forum[Hier](ht
 
 ### F: Wo finde ich die Dokumentation für Aspose.BarCode für Java?
  Beachten Sie die umfassende Dokumentation[Hier](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

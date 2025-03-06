@@ -3,10 +3,16 @@ title: Δημιουργία ταχυδρομικού γραμμικού κώδι
 linktitle: Δημιουργία ταχυδρομικού γραμμικού κώδικα της Αυστραλίας
 second_title: Aspose.BarCode Java API
 description: Δημιουργήστε ταχυδρομικούς κώδικες Αυστραλίας χωρίς κόπο σε Java χρησιμοποιώντας το Aspose.BarCode. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 12
 url: /el/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία ταχυδρομικού γραμμικού κώδικα της Αυστραλίας στην Java
+
 
 ## Εισαγωγή
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.BarCode;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تكوين الإلحاق المنظم لـ DataMatrix باستخدام A
 linktitle: تكوين الإلحاق المنظم لـ DataMatrix
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية إنشاء وقراءة تكوين الإلحاق المنظم لـ DataMatrix في .NET باستخدام Aspose.BarCode لتنظيم البيانات عالي الكفاءة.
-type: docs
 weight: 11
 url: /ar/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الإلحاق المنظم لـ DataMatrix باستخدام Aspose.BarCode لـ .NET
+
 إذا كنت مطورًا يتطلع إلى تنفيذ تكوين الإلحاق المنظم لـ DataMatrix في تطبيقات .NET الخاصة بك، فإن Aspose.BarCode for .NET هو الحل الأمثل لك. في هذا الدليل التفصيلي، سنستكشف خصوصيات وعموميات استخدام هذه المكتبة القوية لإنشاء وقراءة الرموز الشريطية DataMatrix المنظمة. سنقوم بتقسيم كل مثال إلى عدة خطوات سهلة المتابعة، مما يضمن استيعابك للمفاهيم بدقة. بحلول نهاية هذا البرنامج التعليمي، ستكون جاهزًا لاستخدام Aspose.BarCode لـ .NET للعمل مع تكوينات الإلحاق المنظمة لـ DataMatrix بشكل فعال.
 
 ## المتطلبات الأساسية
@@ -100,3 +106,9 @@ A1: يعد الإلحاق المنظم لـ DataMatrix ميزة تسمح لك ب
 ### س 5: هل يدعم Aspose.BarCode for .NET أنواع الرموز الشريطية الأخرى؟
 
  ج5: نعم، يدعم Aspose.BarCode for .NET نطاقًا واسعًا من أنواع الرموز الشريطية، بما في ذلك رموز QR والرمز 128 وEAN-13 وغيرها الكثير. يمكنك استكشاف الوثائق الكاملة[هنا](https://reference.aspose.com/barcode/net/) للاطلاع على القائمة الكاملة لأنواع الباركود المدعومة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

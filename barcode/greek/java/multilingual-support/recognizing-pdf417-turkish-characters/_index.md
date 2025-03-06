@@ -3,10 +3,16 @@ title: Αναγνώριση γραμμικού κώδικα PDF417 με τουρ
 linktitle: Αναγνώριση γραμμικού κώδικα PDF417 με τουρκικούς χαρακτήρες
 second_title: Aspose.BarCode Java API
 description: Μάθετε πώς να αναγνωρίζετε γραμμωτούς κώδικες PDF417 με τουρκικούς χαρακτήρες σε Java χρησιμοποιώντας το Aspose.BarCode. Εύκολη ενσωμάτωση και ισχυρές δυνατότητες αποκωδικοποίησης.
-type: docs
 weight: 11
 url: /el/java/multilingual-support/recognizing-pdf417-turkish-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αναγνώριση γραμμικού κώδικα PDF417 με τουρκικούς χαρακτήρες σε Java
+
 
 ## Εισαγωγή
 
@@ -79,3 +85,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### Μπορώ να χρησιμοποιήσω μια προσωρινή άδεια κατά την ανάπτυξη;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Personalizza le proporzioni del codice a barre azteco con Aspose.BarCode 
 linktitle: Personalizzazione delle proporzioni azteche
 second_title: API Aspose.BarCode .NET
 description: Scopri come personalizzare le proporzioni del codice a barre azteco utilizzando Aspose.BarCode per .NET. Crea codici a barre unici e flessibili per le tue applicazioni .NET.
-type: docs
 weight: 10
 url: /it/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalizza le proporzioni del codice a barre azteco con Aspose.BarCode per .NET
+
 In questo tutorial, approfondiremo la personalizzazione delle proporzioni dei codici a barre aztechi utilizzando Aspose.BarCode per .NET. I codici a barre aztechi sono codici a barre bidimensionali comunemente utilizzati per la codifica dei dati e con Aspose.BarCode puoi facilmente creare e personalizzare questi codici a barre per soddisfare le tue esigenze specifiche.
 
 ## Prerequisiti
@@ -108,3 +114,9 @@ A4: È possibile utilizzare Aspose.BarCode per .NET nelle applicazioni Web incor
 ### Q5: Dove posso ottenere una licenza temporanea per Aspose.BarCode per .NET?
 
 R5: Se hai bisogno di una licenza temporanea per scopi di test o valutazione, puoi ottenerne una da[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

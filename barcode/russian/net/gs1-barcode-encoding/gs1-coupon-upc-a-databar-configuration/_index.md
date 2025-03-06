@@ -3,10 +3,16 @@ title: Купон GS1 Конфигурация панели данных UPC-A
 linktitle: Купон GS1 Конфигурация панели данных UPC-A
 second_title: API Aspose.BarCode .NET
 description: Изучите конфигурацию панели данных купона GS1 UPC-A с помощью Aspose.BarCode для .NET. Легко создавайте штрих-коды. Начать сейчас!
-type: docs
 weight: 13
 url: /ru/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Купон GS1 Конфигурация панели данных UPC-A
+
 
 ## Введение
 
@@ -86,3 +92,10 @@ GS1 Coupon UPC-A Databar — это стандарт штрих-кода, исп
 ### Где я могу получить поддержку Aspose.BarCode для .NET?
  Для получения технической помощи или вопросов вы можете посетить[Форум поддержки Aspose.BarCode для .NET](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cấu hình không gian bổ sung phiếu giảm giá GS1
 linktitle: Cấu hình không gian bổ sung phiếu giảm giá GS1
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách định cấu hình Không gian bổ sung phiếu giảm giá GS1 bằng Aspose.BarCode cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để làm chủ tính năng này.
-type: docs
 weight: 11
 url: /vi/net/gs1-barcode-encoding/gs1-coupon-supplement-space-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình không gian bổ sung phiếu giảm giá GS1
+
 
 Trong thế giới phát triển phần mềm, việc tạo và quản lý mã vạch là một nhiệm vụ phổ biến. Mã vạch rất cần thiết cho nhiều ứng dụng, từ quản lý hàng tồn kho đến bán lẻ và thậm chí cả trong chăm sóc sức khỏe. Aspose.BarCode for .NET là một thư viện mạnh mẽ cho phép bạn tạo và đọc mã vạch một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá tính năng cụ thể của việc định cấu hình Không gian bổ sung phiếu giảm giá GS1. Chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình, đảm bảo bạn hiểu rõ về cách sử dụng tính năng này một cách hiệu quả.
 
@@ -83,3 +89,9 @@ Aspose.BarCode for .NET phục vụ các nhà phát triển ở mọi cấp đ�
 
 ### Tôi có thể xin giấy phép tạm thời cho Aspose.BarCode cho .NET để đánh giá các tính năng của nó không?
  Có, bạn có thể yêu cầu giấy phép tạm thời cho Aspose.BarCode for .NET từ[trang mạng](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

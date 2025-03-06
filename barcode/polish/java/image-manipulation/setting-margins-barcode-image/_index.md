@@ -3,10 +3,16 @@ title: Ustawianie marginesów obrazu kodu kreskowego w Javie
 linktitle: Ustawianie marginesów obrazu kodu kreskowego
 second_title: Aspose.BarCode API Java
 description: Dowiedz się, jak ustawić marginesy dla obrazów kodów kreskowych w Javie przy użyciu Aspose.BarCode. Dostosuj odstępy, aby zapewnić bezproblemową integrację z aplikacją
-type: docs
 weight: 11
 url: /pl/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie marginesów obrazu kodu kreskowego w Javie
+
 
 ## Wstęp
 
@@ -99,3 +105,10 @@ Aspose.BarCode jest przeznaczony głównie dla języka Java, ale dostępne są w
 
 ### Jak mogę kupić pełną wersję Aspose.BarCode dla Java?
  Pełną wersję Aspose.BarCode dla Java można kupić w witrynie[strona zakupu](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

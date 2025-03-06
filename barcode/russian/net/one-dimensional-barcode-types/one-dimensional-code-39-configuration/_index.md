@@ -3,10 +3,16 @@ title: Одномерная конфигурация кода 39
 linktitle: Одномерная конфигурация кода 39
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как генерировать одномерные штрих-коды Code 39 в .NET с помощью Aspose.BarCode. Пошаговое руководство для разработчиков.
-type: docs
 weight: 11
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Одномерная конфигурация кода 39
+
 
 ## Введение
 
@@ -72,3 +78,9 @@ gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 
 ### Вопрос: Где я могу получить поддержку или задать вопросы об Aspose.BarCode для .NET?
  О: Вы можете найти ответы на свои вопросы и обратиться за поддержкой на форуме Aspose.BarCode:[Форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

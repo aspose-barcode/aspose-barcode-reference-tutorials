@@ -3,10 +3,16 @@ title: การกำหนดค่าอัตราส่วน Wide-Narrow 
 linktitle: การกำหนดค่าอัตราส่วนกว้าง-แคบ
 second_title: Aspose.BarCode Java API
 description: เรียนรู้วิธีกำหนดค่าอัตราส่วนกว้าง-แคบในบาร์โค้ด Java โดยใช้ Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการปรับแต่งที่ราบรื่น
-type: docs
 weight: 17
 url: /th/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าอัตราส่วน Wide-Narrow ใน Java ด้วย Aspose.BarCode
+
 
 ## การแนะนำ
 
@@ -87,3 +93,9 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 ### ถาม: จะรับการสนับสนุนสำหรับ Aspose.BarCode ได้อย่างไร
  ตอบ: เยี่ยมชมฟอรั่ม Aspose.BarCode[ที่นี่](https://forum.aspose.com/c/barcode/13) สำหรับการสนับสนุนและการอภิปราย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

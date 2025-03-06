@@ -3,10 +3,16 @@ title: การกำหนดค่าส่วนประกอบ Databar 2
 linktitle: การกำหนดค่าส่วนประกอบ Databar 2D หนึ่งมิติ
 second_title: Aspose.BarCode .NET API
 description: สร้างบาร์โค้ด 2D Databar หนึ่งมิติด้วย Aspose.BarCode สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราสำหรับการกำหนดค่าและการปรับแต่ง เริ่มสร้างบาร์โค้ดที่ไม่ซ้ำใครวันนี้!
-type: docs
 weight: 15
 url: /th/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าส่วนประกอบ Databar 2D หนึ่งมิติ
+
 
 ในโลกของการเข้ารหัสข้อมูลและบาร์โค้ด ไลบรารี Aspose.BarCode สำหรับ .NET ถือเป็นเครื่องมือที่เชื่อถือได้และใช้งานได้หลากหลาย ส่วนประกอบ .NET อันทรงพลังนี้ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และปรับแต่งบาร์โค้ดได้อย่างง่ายดาย หากคุณต้องการควบคุมศักยภาพของไลบรารีนี้สำหรับการกำหนดค่าส่วนประกอบ 2D Databar หนึ่งมิติ แสดงว่าคุณมาถูกที่แล้ว ในคำแนะนำทีละขั้นตอนนี้ เราจะแจกแจงขั้นตอนเพื่อให้แน่ใจว่าคุณสามารถทำงานกับส่วนประกอบ Databar 2D ได้อย่างราบรื่นโดยใช้ Aspose.BarCode สำหรับ .NET
 
@@ -94,3 +100,9 @@ gen.Save($"{path}Databar2DComponentEnabled.png", BarCodeImageFormat.Png);
 
 ### ฉันจะรับการสนับสนุนและความช่วยเหลือเกี่ยวกับ Aspose.BarCode สำหรับ .NET ได้ที่ไหน
 -  คุณสามารถขอความช่วยเหลือและมีส่วนร่วมกับชุมชนได้ที่[Aspose.BarCode สำหรับฟอรัมสนับสนุน .NET](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

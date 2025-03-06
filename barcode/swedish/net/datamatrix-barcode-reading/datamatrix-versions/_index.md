@@ -3,10 +3,16 @@ title: Generera DataMatrix-streckkoder med Aspose.BarCode för .NET
 linktitle: DataMatrix-versioner
 second_title: Aspose.BarCode .NET API
 description: Lär dig hur du genererar DataMatrix-streckkoder i .NET med Aspose.BarCode för .NET. Anpassade mått, ECC-stöd och mer.
-type: docs
 weight: 12
 url: /sv/net/datamatrix-barcode-reading/datamatrix-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generera DataMatrix-streckkoder med Aspose.BarCode för .NET
+
 Om du letar efter en pålitlig lösning för att generera DataMatrix-streckkoder i dina .NET-applikationer är Aspose.BarCode för .NET rätt väg att gå. I den här steg-för-steg-guiden går vi igenom processen med att använda Aspose.BarCode för .NET för att skapa DataMatrix-streckkoder. Vi delar upp varje exempel i flera steg, så att du enkelt kan följa med.
 
 ## Förutsättningar
@@ -128,3 +134,9 @@ S2: Ja, du kan anpassa dimensionerna för DataMatrix-streckkoder genom att stäl
 ### F5: Hur kan jag få en tillfällig licens för Aspose.BarCode för .NET?
 
  S5: För att få en tillfällig licens för Aspose.BarCode för .NET, besök[den här länken](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

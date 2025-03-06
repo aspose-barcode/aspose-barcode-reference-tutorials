@@ -3,10 +3,16 @@ title: Agregar título al código de barras en Java usando Aspose.BarCode
 linktitle: Agregar título al código de barras
 second_title: API de Java Aspose.BarCode
 description: Aprenda cómo mejorar las imágenes de códigos de barras en Java con Aspose.BarCode. Agregue subtítulos sin esfuerzo para mejorar la experiencia del usuario.
-type: docs
 weight: 10
 url: /es/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar título al código de barras en Java usando Aspose.BarCode
+
 
 ## Introducción
 
@@ -102,3 +108,9 @@ Sí, puede personalizar la familia de fuentes, el tamaño y el color del título
 
 ### ¿Dónde puedo buscar ayuda si tengo problemas o tengo preguntas?
  El foro de la comunidad Aspose.BarCode[aquí](https://forum.aspose.com/c/barcode/13) es un excelente recurso de apoyo y debates.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

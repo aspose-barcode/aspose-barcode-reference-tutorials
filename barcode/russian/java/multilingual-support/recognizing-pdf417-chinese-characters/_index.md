@@ -3,10 +3,16 @@ title: Распознавание штрих-кода PDF417 с китайски
 linktitle: Распознавание штрих-кода PDF417 с китайскими иероглифами
 second_title: API Aspose.BarCode Java
 description: Узнайте, как распознавать штрих-коды PDF417 с китайскими иероглифами в Java с помощью Aspose.BarCode. Следуйте нашему подробному руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Распознавание штрих-кода PDF417 с китайскими иероглифами в Java
+
 
 ## Введение
 
@@ -89,3 +95,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### Где я могу найти документацию?
  Документация доступна[здесь](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

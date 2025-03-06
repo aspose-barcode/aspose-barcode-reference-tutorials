@@ -3,10 +3,16 @@ title: ITF-14 바코드 여백 영역 구성
 linktitle: ITF-14 바코드 여백 영역 구성
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용하여 ITF-14 바코드 여백 영역을 구성하는 방법을 알아보세요. 쉽게 가독성과 규정 준수를 보장합니다.
-type: docs
 weight: 12
 url: /ko/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ITF-14 바코드 여백 영역 구성
+
 
 ## 소개
 
@@ -99,3 +105,10 @@ Aspose.BarCode for .NET은 무료 평가판을 제공하지만 상업적인 용�
 ### .NET용 Aspose.BarCode에 대한 도움말과 지원은 어디서 얻을 수 있나요?
  도움이 필요하시면[.NET 포럼용 Aspose.BarCode](https://forum.aspose.com/c/barcode/13)에서 질문을 하고 유용한 리소스를 찾을 수 있습니다.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

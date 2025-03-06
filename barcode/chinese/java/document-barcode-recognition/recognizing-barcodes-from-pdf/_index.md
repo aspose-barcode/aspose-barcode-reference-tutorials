@@ -3,10 +3,16 @@ title: 用Java识别PDF中的条形码
 linktitle: 识别 PDF 中的条形码
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中识别 PDF 中的条形码。带有代码示例的分步指南。提高您的数据管理效率！
-type: docs
 weight: 11
 url: /zh/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用Java识别PDF中的条形码
+
 
 ## 介绍
 
@@ -113,3 +119,10 @@ Aspose.BarCode 支持多种条形码类型。请参阅文档以获取完整列�
 
 ### 问：我可以在哪里寻求有关 Aspose.BarCode for Java 的支持或提出问题？
 访问 Aspose.BarCode[论坛](https://forum.aspose.com/c/barcode/13)以寻求支持和讨论。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

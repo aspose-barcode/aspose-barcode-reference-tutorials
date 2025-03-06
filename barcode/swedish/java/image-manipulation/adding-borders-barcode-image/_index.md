@@ -3,10 +3,16 @@ title: Lägga till gränser till streckkodsbild i Java
 linktitle: Lägga till kanter till streckkodsbild
 second_title: Aspose.BarCode Java API
 description: Förbättra streckkodsbilder i Java med Aspose.BarCode genom att lägga till anpassningsbara ramar. Följ denna steg-för-steg-guide för att uppnå en visuellt tilltalande streckkodslösning.
-type: docs
 weight: 10
 url: /sv/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägga till gränser till streckkodsbild i Java
+
 
 ## Introduktion
 
@@ -122,3 +128,10 @@ Säkert. Du kan ändra kantfärgen programmatiskt baserat på specifika förhål
 
 ### Finns det en testversion av Aspose.BarCode tillgänglig?
  Ja, du kan utforska funktionerna i Aspose.BarCode genom att ladda ner[gratis testversion](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

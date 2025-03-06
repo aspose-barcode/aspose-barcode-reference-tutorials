@@ -3,10 +3,16 @@ title: Java용 Aspose.BarCode를 사용하여 바코드 방향 구성
 linktitle: 바코드 방향 구성
 second_title: Aspose.BarCode 자바 API
 description: 바코드 방향 구성에서 Java용 Aspose.BarCode의 강력한 기능을 살펴보세요. Java 애플리케이션의 원활한 통합 및 인식을 위한 포괄적인 가이드입니다.
-type: docs
 weight: 16
 url: /ko/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.BarCode를 사용하여 바코드 방향 구성
+
 ## 소개
 
 끊임없이 진화하는 디지털 기술 환경에서 바코드는 우리 일상 생활의 어느 곳에나 존재하며 원활한 거래와 효율적인 데이터 관리를 촉진합니다. Aspose.BarCode for Java는 Java 애플리케이션에서 바코드 생성 및 인식을 처리하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 바코드 구성의 특정 측면(Java에서 바코드 방향 지정)을 자세히 살펴봅니다.
@@ -94,3 +100,9 @@ A3: 예, 무료 평가판을 통해 Aspose.BarCode의 기능을 탐색할 수 �
 ### Q5: Aspose.BarCode 커뮤니티에서 지원을 구하거나 상호 작용할 수 있는 곳은 어디입니까?
 
  A5:[Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13) 지원을 구하고 지역사회에 참여하기 위한 귀중한 자원입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

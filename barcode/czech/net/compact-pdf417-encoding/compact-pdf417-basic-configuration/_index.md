@@ -3,10 +3,16 @@ title: Vytváření kompaktních čárových kódů PDF417 pomocí Aspose.BarCod
 linktitle: Kompaktní základní konfigurace PDF417
 second_title: Aspose.BarCode .NET API
 description: Naučte se generovat kompaktní čárové kódy PDF417 pomocí Aspose.BarCode pro .NET. Komplexní průvodce s pokyny krok za krokem a příklady kódu.
-type: docs
 weight: 10
 url: /cs/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření kompaktních čárových kódů PDF417 pomocí Aspose.BarCode pro .NET
+
 ## Úvod
 
 Pokud jste vývojář, který chce generovat obrázky čárových kódů ve svých aplikacích .NET, Aspose.BarCode for .NET je výkonný nástroj, který vám může pomoci dosáhnout právě toho. V tomto podrobném průvodci vás provedeme procesem vytváření kompaktních čárových kódů PDF417 pomocí Aspose.BarCode for .NET. Compact PDF417 je efektivní dvourozměrná symbolika čárových kódů široce používaná pro různé aplikace, včetně logistiky, řízení zásob a dalších. Na konci tohoto tutoriálu budete schopni vytvořit a přizpůsobit čárové kódy Compact PDF417 tak, aby vyhovovaly vašim specifickým potřebám. Pojďme se ponořit a začít!
@@ -107,3 +113,9 @@ Odpověď 2: Aspose.BarCode podporuje širokou škálu typů čárových kódů,
 ### Q5: Existují nějaké další zdroje nebo dokumentace k dispozici pro Aspose.BarCode pro .NET?
 
  A5: Ano, můžete najít podrobnou dokumentaci[tady](https://reference.aspose.com/barcode/net/) které vám pomohou prozkoumat a využít funkce Aspose.BarCode pro .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

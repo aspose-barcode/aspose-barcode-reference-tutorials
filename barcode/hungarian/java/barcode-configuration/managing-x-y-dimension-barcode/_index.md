@@ -3,10 +3,16 @@ title: A vonalkód X és Y dimenzióinak kezelése Java nyelven
 linktitle: A vonalkód X és Y dimenzióinak kezelése
 second_title: Aspose.BarCode Java API
 description: Fedezze fel az Aspose.BarCode for Java erejét! Ismerje meg az X és Y méretek könnyed kezelését lépésről lépésre. Növelje a pontosságot és a vizuális vonzerőt.
-type: docs
 weight: 13
 url: /hu/java/barcode-configuration/managing-x-y-dimension-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A vonalkód X és Y dimenzióinak kezelése Java nyelven
+
 
 ## Bevezetés
 
@@ -90,3 +96,10 @@ Az X és Y dimenziók hatékony kezelése a vonalkód generálás során az Aspo
 
 ### Kaphatok ideiglenes licencet az Aspose.BarCode for Java számára?
 Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ترميز PDF417 المضغوط
 linktitle: ترميز PDF417 المضغوط
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء رموز شريطية مضغوطة بتنسيق PDF417 بسهولة باستخدام Aspose.BarCode لـ .NET. اتبع دليلنا خطوة بخطوة للتشفير الفعال، مع استكماله بأمثلة التعليمات البرمجية.
-type: docs
 weight: 29
 url: /ar/net/compact-pdf417-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز PDF417 المضغوط
+
 
 ## مقدمة
 
@@ -33,3 +39,9 @@ url: /ar/net/compact-pdf417-encoding/
 ## دروس ترميز PDF417 المدمجة
 ### [إنشاء باركود PDF417 مضغوط](./compact-pdf417-basic-configuration/)
 تعرف على كيفية إنشاء رموز شريطية مضغوطة PDF417 باستخدام Aspose.BarCode لـ .NET. دليل شامل يتضمن تعليمات خطوة بخطوة وأمثلة على التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

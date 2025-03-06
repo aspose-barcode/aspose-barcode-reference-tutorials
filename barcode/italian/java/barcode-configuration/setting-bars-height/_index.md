@@ -3,10 +3,16 @@ title: Impostazione dell'altezza delle barre in Java
 linktitle: Impostazione dell'altezza delle barre
 second_title: API Java Aspose.BarCode
 description: Genera e personalizza codici a barre senza sforzo in Java con Aspose.BarCode. Imposta l'altezza della barra, scegli i tipi e migliora le capacità della tua applicazione.
-type: docs
 weight: 14
 url: /it/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione dell'altezza delle barre in Java
+
 
 ## introduzione
 
@@ -78,3 +84,10 @@ Certamente! Aspose.BarCode supporta la codifica di dati sia numerici che alfanum
 ### Dove posso trovare supporto per Aspose.BarCode per Java?
  Visita il forum Aspose.BarCode[Qui](https://forum.aspose.com/c/barcode/13) per il supporto e le discussioni della comunità.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

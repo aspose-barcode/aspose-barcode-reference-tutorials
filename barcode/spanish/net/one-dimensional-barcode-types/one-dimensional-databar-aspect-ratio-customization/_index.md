@@ -3,10 +3,16 @@ title: Personalización de la relación de aspecto de la barra de datos unidimen
 linktitle: Personalización de la relación de aspecto de la barra de datos unidimensional
 second_title: API Aspose.BarCode .NET
 description: Aprenda a personalizar las proporciones de aspecto de la barra de datos unidimensional en .NET usando Aspose.BarCode. Mejore la precisión y el diseño de los códigos de barras.
-type: docs
 weight: 16
 url: /es/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalización de la relación de aspecto de la barra de datos unidimensional
+
 
 En el mundo de los códigos de barras, la precisión y la personalización son claves para lograr los resultados deseados. Como escritor experimentado en SEO, estoy aquí para guiarlo a través del proceso de personalización de la relación de aspecto de una barra de datos unidimensional usando Aspose.BarCode para .NET. Dividiremos este complejo proceso en pasos manejables, asegurándonos de que comprenda el concepto a fondo. Entonces, ¡sumergámonos!
 
@@ -116,3 +122,10 @@ Si bien puedes ajustar la relación de aspecto, los cambios extremos pueden afec
  Si necesita una licencia temporal para realizar pruebas o evaluaciones, puede obtener una[aquí](https://purchase.aspose.com/temporary-license/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

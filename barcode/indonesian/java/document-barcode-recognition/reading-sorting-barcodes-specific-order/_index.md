@@ -3,10 +3,16 @@ title: Membaca dan Menyortir Barcode dalam Urutan Tertentu di Java
 linktitle: Membaca dan Menyortir Barcode dalam Urutan Tertentu
 second_title: Aspose.BarCode Java API
 description: Sempurnakan aplikasi Java Anda dengan Aspose.BarCode! Belajar membaca dan mengurutkan barcode secara efisien. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membaca dan Menyortir Barcode dalam Urutan Tertentu di Java
+
 
 ## Perkenalan
 
@@ -123,3 +129,10 @@ Dalam tutorial ini, kita telah mempelajari cara memanfaatkan Aspose.BarCode untu
 
 ### T: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan?
  Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

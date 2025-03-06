@@ -3,10 +3,16 @@ title: قم بتخصيص نسبة العرض إلى الارتفاع Codablock F
 linktitle: Codablock F تخصيص نسبة العرض إلى الارتفاع
 second_title: Aspose.BarCode .NET API
 description: تخصيص Codablock F لنسبة العرض إلى الارتفاع باستخدام Aspose.BarCode لـ .NET. قم بإنشاء رموز شريطية دقيقة مصممة خصيصًا لتلبية احتياجاتك بسهولة.
-type: docs
 weight: 10
 url: /ar/net/codablock-f-encoding/codablock-f-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتخصيص نسبة العرض إلى الارتفاع Codablock F باستخدام Aspose.BarCode لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد لإطلاق العنان لقوة تخصيص الرموز الشريطية Codablock F باستخدام Aspose.BarCode لـ .NET؟ في هذا البرنامج التعليمي الشامل، سنأخذك خلال عملية تخصيص نسبة العرض إلى الارتفاع Codablock F خطوة بخطوة، مما يوفر لك المعرفة والأدوات اللازمة لإنشاء الرموز الشريطية بدقة وجودة. سواء كنت مطورًا، أو من عشاق الباركود، أو شخصًا يتطلع إلى استكشاف إمكانيات Aspose.BarCode، فإن هذا الدليل يوفر لك كل ما تحتاجه.
@@ -96,3 +102,9 @@ A1: Codablock F عبارة عن رمز شريطي ثنائي الأبعاد يُ
 ### س5: أين يمكنني شراء ترخيص كامل لـ Aspose.BarCode لـ .NET؟
 
  ج5: يمكنك شراء ترخيص كامل من[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

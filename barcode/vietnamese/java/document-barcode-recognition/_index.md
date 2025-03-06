@@ -3,10 +3,16 @@ title: Làm chủ khả năng nhận dạng mã vạch tài liệu với Aspose.
 linktitle: Nhận dạng mã vạch tài liệu
 second_title: API Java Aspose.BarCode
 description: Khai phá sức mạnh của nhận dạng mã vạch trong Java với Aspose.BarCode! Tìm hiểu cách tích hợp, đọc và sắp xếp liền mạch mã vạch từ các tệp PDF, tài liệu Word và bộ Unicode.
-type: docs
 weight: 21
 url: /vi/java/document-barcode-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ khả năng nhận dạng mã vạch tài liệu với Aspose.BarCode
+
 
 Bạn đã sẵn sàng nâng ứng dụng Java của mình lên một tầm cao mới chưa? Đừng tìm đâu xa! Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào lĩnh vực nhận dạng mã vạch hấp dẫn bằng Aspose.BarCode. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này là chìa khóa giúp bạn khai phá toàn bộ tiềm năng của việc tích hợp mã vạch dựa trên Java.
 
@@ -36,3 +42,9 @@ Tìm hiểu cách nhận dạng mã vạch từ tệp PDF trong Java bằng Aspo
 Khám phá sự tích hợp liền mạch của nhận dạng mã vạch vào các ứng dụng Java của bạn với Aspose.BarCode. Hãy làm theo hướng dẫn này để nhận dạng mã vạch từ tài liệu Word.
 ### [Nhận dạng mã vạch Unicode trong Java](./recognizing-unicode-barcodes/)
 Khám phá thế giới nhận dạng mã vạch Unicode trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch các bộ ký tự đa dạng vào ứng dụng của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

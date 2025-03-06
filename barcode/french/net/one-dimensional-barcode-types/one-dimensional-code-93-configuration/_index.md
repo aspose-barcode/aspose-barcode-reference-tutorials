@@ -3,10 +3,16 @@ title: Création de codes-barres unidimensionnels Code 93
 linktitle: Configuration du code unidimensionnel 93
 second_title: API Aspose.BarCode .NET
 description: Découvrez comment créer des codes-barres Code 93 avec Aspose.BarCode pour .NET. Guide étape par étape pour la génération de codes-barres.
-type: docs
 weight: 12
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de codes-barres unidimensionnels Code 93
+
 
 ## Introduction
 
@@ -102,3 +108,10 @@ En conclusion, Aspose.BarCode for .NET simplifie la génération de codes-barres
 
 ### Q : Où puis-je obtenir de l'aide ou poser des questions sur Aspose.BarCode pour .NET ?
  R : Vous pouvez trouver un forum communautaire pour obtenir de l'aide et des discussions sur[Prise en charge d'Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

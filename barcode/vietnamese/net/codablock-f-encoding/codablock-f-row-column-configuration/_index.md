@@ -3,10 +3,16 @@ title: Định cấu hình Hàng & Cột Codablock F trong Aspose.BarCode cho .N
 linktitle: Cấu hình hàng và cột Codablock F
 second_title: API Aspose.BarCode .NET
 description: Tìm hiểu cách định cấu hình các hàng và cột Codablock F trong Aspose.BarCode cho .NET. Tạo mã vạch 2D tùy chỉnh cho các ứng dụng khác nhau.
-type: docs
 weight: 11
 url: /vi/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình Hàng & Cột Codablock F trong Aspose.BarCode cho .NET
+
 Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách định cấu hình cài đặt hàng và cột Codablock F bằng Aspose.BarCode cho .NET. Codablock F là hệ thống ký hiệu mã vạch 2D được sử dụng cho nhiều ứng dụng khác nhau, bao gồm nhãn vận chuyển và bao bì. Chúng tôi sẽ chia mỗi ví dụ thành nhiều bước để đảm bảo sự hiểu biết rõ ràng và toàn diện về quy trình.
 
 ## Điều kiện tiên quyết
@@ -100,3 +106,9 @@ Câu trả lời 3: Có, Aspose.BarCode cho .NET tương thích với nhiều kh
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.BarCode cho .NET?
 
  Câu trả lời 5: Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ, bạn có thể truy cập diễn đàn Aspose.BarCode for .NET[đây](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การเสริมข้อมูลใน Java
 linktitle: การเสริมข้อมูล
 second_title: Aspose.BarCode Java API
 description: เรียนรู้วิธีสร้างบาร์โค้ดแบบไดนามิกใน Java โดยใช้ Aspose.BarCode คำแนะนำทีละขั้นตอนสำหรับการเสริมข้อมูลด้วยสัญลักษณ์ EAN_13
-type: docs
 weight: 16
 url: /th/java/barcode-configuration/supplementing-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเสริมข้อมูลใน Java
+
 
 ## การแนะนำ
 
@@ -96,3 +102,10 @@ generator.save(dataDir + "supplementData.jpg");
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

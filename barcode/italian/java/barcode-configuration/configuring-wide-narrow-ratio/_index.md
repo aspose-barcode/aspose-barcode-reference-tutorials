@@ -3,10 +3,16 @@ title: Configurazione del rapporto Wide-Narrow in Java con Aspose.BarCode
 linktitle: Configurazione del rapporto largo-stretto
 second_title: API Java Aspose.BarCode
 description: Scopri come configurare il rapporto largo-stretto nei codici a barre Java utilizzando Aspose.BarCode. Segui la nostra guida passo passo per una personalizzazione senza soluzione di continuità.
-type: docs
 weight: 17
 url: /it/java/barcode-configuration/configuring-wide-narrow-ratio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurazione del rapporto Wide-Narrow in Java con Aspose.BarCode
+
 
 ## introduzione
 
@@ -87,3 +93,9 @@ R: Cambia semplicemente il tipo di simbologia nel costruttore BarcodeGenerator, 
 
 ### D: Come ottenere supporto per Aspose.BarCode?
  R: Visita il forum Aspose.BarCode[Qui](https://forum.aspose.com/c/barcode/13) per supporto e discussioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

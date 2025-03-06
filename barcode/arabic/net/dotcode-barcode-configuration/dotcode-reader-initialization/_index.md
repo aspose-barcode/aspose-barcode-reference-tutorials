@@ -3,10 +3,16 @@ title: تهيئة قارئ DotCode باستخدام Aspose.BarCode لـ .NET
 linktitle: تهيئة قارئ DotCode
 second_title: Aspose.BarCode .NET API
 description: تعرف على كيفية تهيئة DotCode Reader باستخدام Aspose.BarCode لـ .NET. قم بإنشاء رموز شريطية DotCode بسهولة لمختلف التطبيقات.
-type: docs
 weight: 14
 url: /ar/net/dotcode-barcode-configuration/dotcode-reader-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تهيئة قارئ DotCode باستخدام Aspose.BarCode لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى دمج إمكانات إنشاء الرمز الشريطي والتعرف عليه القوية في تطبيقات .NET الخاصة بك؟ Aspose.BarCode for .NET هي مكتبة قوية تتيح لك إنشاء أنواع مختلفة من الرموز الشريطية وإدارتها وقراءتها بسهولة. في هذا الدليل التفصيلي خطوة بخطوة، سوف نتعمق في ميزة محددة لـ Aspose.BarCode لـ .NET: تهيئة قارئ DotCode.
@@ -100,3 +106,9 @@ A1: DotCode هو رمز شريطي ثنائي الأبعاد يُستخدم في
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.BarCode لـ .NET لأغراض الاختبار؟
 
  ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/) لاختبار قدرات Aspose.BarCode لـ .NET قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

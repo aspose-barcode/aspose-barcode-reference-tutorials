@@ -3,10 +3,16 @@ title: Endimensionell kod 128-konfiguration
 linktitle: Endimensionell kod 128-konfiguration
 second_title: Aspose.BarCode .NET API
 description: Lär dig hur du genererar endimensionella Code 128-streckkoder i .NET med Aspose.BarCode. Följ vår steg-för-steg-guide för sömlös streckkodsintegration.
-type: docs
 weight: 10
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Endimensionell kod 128-konfiguration
+
 
 Om du är en .NET-utvecklare som letar efter ett kraftfullt verktyg för att generera streckkoder i dina applikationer, är Aspose.BarCode för .NET din bästa lösning. Den här omfattande guiden leder dig genom processen att utnyttja kapaciteten hos Aspose.BarCode för .NET för att skapa endimensionella Code 128-streckkoder, och den är designad för både nybörjare och erfarna utvecklare. 
 
@@ -108,3 +114,10 @@ Medan Aspose.BarCode främst fokuserar på endimensionella streckkoder, kan du a
 
 ### Var kan jag få support för Aspose.BarCode för .NET?
  Du kan söka hjälp och dela dina erfarenheter på Aspose.BarCode for .NET-forumet[här](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

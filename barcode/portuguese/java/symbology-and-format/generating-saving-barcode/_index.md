@@ -3,10 +3,16 @@ title: Gerando e salvando código de barras em Java
 linktitle: Gerando e salvando código de barras
 second_title: API Java Aspose.BarCode
 description: Gere e salve códigos de barras sem esforço em Java com Aspose.BarCode. Integre-se perfeitamente, personalize a aparência e aproveite amplo suporte a códigos de barras.
-type: docs
 weight: 12
 url: /pt/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerando e salvando código de barras em Java
+
 
 ## Introdução
 
@@ -108,3 +114,9 @@ R: Absolutamente! Aspose.BarCode oferece amplas opções de personalização par
 
 ### P: Como obtenho suporte para Aspose.BarCode?
  R: Visite o fórum de suporte[aqui](https://forum.aspose.com/c/barcode/13) para qualquer assistência ou dúvida.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo mã bản vá trong Java
 linktitle: Tạo mã bản vá
 second_title: API Java Aspose.BarCode
 description: Tạo mã vá dễ dàng trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo mã vạch hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/barcode-configuration/generating-patch-code/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mã bản vá trong Java
+
 
 ## Giới thiệu
 
@@ -104,3 +110,10 @@ Bằng cách làm theo hướng dẫn từng bước này, bạn đã học đư
 
 ### Tôi có thể tìm tài liệu về Aspose.BarCode cho Java ở đâu?
  Tài liệu có sẵn tại[Aspose.BarCode cho tài liệu Java](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Одномерная панель данных. Конфигурация 
 linktitle: Одномерная панель данных. Конфигурация 2D-компонентов.
 second_title: API Aspose.BarCode .NET
 description: Создавайте 2D-штрих-коды одномерной панели данных с помощью Aspose.BarCode для .NET. Следуйте нашему пошаговому руководству по настройке и настройке. Начните создавать уникальные штрих-коды сегодня!
-type: docs
 weight: 15
 url: /ru/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Одномерная панель данных. Конфигурация 2D-компонентов.
+
 
 В мире кодирования данных и штрих-кодирования библиотека Aspose.BarCode for .NET является надежным и универсальным инструментом. Этот мощный компонент .NET предоставляет разработчикам возможность легко создавать, манипулировать и настраивать штрих-коды. Если вы хотите использовать потенциал этой библиотеки для конфигурации 2D-компонентов одномерной панели данных, вы попали по адресу. В этом пошаговом руководстве мы разберем процесс, чтобы вы могли беспрепятственно работать с компонентами Databar 2D с помощью Aspose.BarCode для .NET.
 
@@ -94,3 +100,9 @@ gen.Save($"{path}Databar2DComponentEnabled.png", BarCodeImageFormat.Png);
 
 ### Где я могу получить поддержку и помощь по Aspose.BarCode для .NET?
 -  Вы можете обратиться за помощью и пообщаться с сообществом на[Форум поддержки Aspose.BarCode для .NET](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 一維資料欄行和列配置
 linktitle: 一維資料欄行和列配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 在 .NET 中產生具有行和列配置的動態一維 DataBar 條碼。客製化變簡單！
-type: docs
 weight: 19
 url: /zh-hant/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一維資料欄行和列配置
+
 
 在當今的數位世界中，條碼在從庫存管理到產品標籤的各個行業中發揮著至關重要的作用。作為開發人員，您可能需要一個強大的工具來在 .NET 應用程式中產生和自訂條碼。 Aspose.BarCode for .NET 是一個多功能函式庫，可讓您輕鬆建立、自訂和操作一維和二維條碼。
 
@@ -112,3 +118,10 @@ Aspose.BarCode for .NET 是一個功能強大的程式庫，可讓.NET 開發人
 是的，文檔[這裡](https://reference.aspose.com/barcode/net/)提供詳細的程式碼範例和範例專案來幫助您入門。
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

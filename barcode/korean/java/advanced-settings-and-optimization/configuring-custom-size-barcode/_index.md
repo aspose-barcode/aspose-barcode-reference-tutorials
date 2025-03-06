@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 Java에서 사용자 정의 크기 바코�
 linktitle: 바코드에 대한 사용자 정의 크기 구성
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 사용자 정의 크기 바코드를 구성하는 단순성을 살펴보세요. 정확한 구성을 위해 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 10
 url: /ko/java/advanced-settings-and-optimization/configuring-custom-size-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 Java에서 사용자 정의 크기 바코드 구성
+
 ## 소개
 
 사용자 정의 크기의 바코드를 원활하게 구성하려는 Java 개발자라면 Java용 Aspose.BarCode가 적합한 솔루션입니다. 이 튜토리얼에서는 바코드의 사용자 정의 크기를 구성하여 애플리케이션의 유연성과 정밀도를 보장하는 과정을 안내합니다.
@@ -112,3 +118,9 @@ A1: 예, Java용 Aspose.BarCode는 다양한 기호 유형을 지원하므로 �
 ### Q5: 임시 라이센스 옵션을 사용할 수 있습니까?
 
  A5: 예, 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

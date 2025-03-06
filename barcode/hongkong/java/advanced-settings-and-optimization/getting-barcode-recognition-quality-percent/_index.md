@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中取得條碼識別品質百分比
 linktitle: 取得條碼識別品質百分比
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 在 Java 中獲得條碼識別品質。請遵循我們的逐步指南以獲得最佳結果。
-type: docs
 weight: 21
 url: /zh-hant/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中取得條碼識別品質百分比
+
 ## 介紹
 
 如果您希望獲得 Java 應用程式的條碼識別質量，Aspose.BarCode 是完成這項工作的完美工具。在本教程中，我們將指導您使用 Aspose.BarCode for Java 透過幾個簡單的步驟來實現最佳條碼識別品質。
@@ -88,3 +94,9 @@ A3：從以下機構取得臨時測試許可證[這裡](https://purchase.aspose.
 ### Q5：文件中有可用的程式碼範例嗎？
 
  A5：是的，您可以在文件中找到全面的程式碼範例[這裡](https://reference.aspose.com/barcode/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

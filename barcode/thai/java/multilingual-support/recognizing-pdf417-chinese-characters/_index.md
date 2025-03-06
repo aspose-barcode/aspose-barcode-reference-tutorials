@@ -3,10 +3,16 @@ title: การรับรู้บาร์โค้ด PDF417 ด้วย�
 linktitle: จดจำบาร์โค้ด PDF417 ด้วยตัวอักษรจีน
 second_title: Aspose.BarCode Java API
 description: ค้นพบวิธีการจดจำบาร์โค้ด PDF417 ด้วยตัวอักษรจีนในภาษา Java โดยใช้ Aspose.BarCode ปฏิบัติตามบทช่วยสอนที่ครอบคลุมของเราเพื่อการบูรณาการอย่างราบรื่น
-type: docs
 weight: 10
 url: /th/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรับรู้บาร์โค้ด PDF417 ด้วยตัวอักษรจีนใน Java
+
 
 ## การแนะนำ
 
@@ -89,3 +95,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### ฉันจะหาเอกสารได้ที่ไหน?
  เอกสารก็มีให้[ที่นี่](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

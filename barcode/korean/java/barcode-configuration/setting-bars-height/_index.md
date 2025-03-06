@@ -3,10 +3,16 @@ title: Java에서 막대 높이 설정
 linktitle: 바 높이 설정
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 손쉽게 바코드를 생성하고 사용자 정의하세요. 막대 높이를 설정하고, 유형을 선택하고, 애플리케이션의 기능을 강화하세요.
-type: docs
 weight: 14
 url: /ko/java/barcode-configuration/setting-bars-height/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 막대 높이 설정
+
 
 ## 소개
 
@@ -78,3 +84,10 @@ generator.save(dataDir + "barsHeight.jpg");
 ### Java용 Aspose.BarCode에 대한 지원은 어디서 찾을 수 있나요?
  Aspose.BarCode 포럼을 방문하세요.[여기](https://forum.aspose.com/c/barcode/13) 커뮤니티 지원 및 토론을 위해.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

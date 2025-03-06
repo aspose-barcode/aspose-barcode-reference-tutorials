@@ -3,10 +3,16 @@ title: Codabar-kodning och kontrollsumma
 linktitle: Codabar-kodning och kontrollsumma
 second_title: Aspose.BarCode .NET API
 description: Optimera Codabar-streckkoder i .NET med Aspose.BarCode! Huvudkontrollsummaberäkning för exakta data. Skapa enkelt med start/stopp-tecken med våra handledningar.
-type: docs
 weight: 20
 url: /sv/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codabar-kodning och kontrollsumma
+
 ## Introduktion
 
 Är du en utvecklare som vill låsa upp hemligheterna med Codabar-kodning och checksummaberäkning i .NET? Kolla inte vidare! Den här artikeln fördjupar sig i Codabars krångligheter och ger dig omfattande handledningar om beräkning av Codabar-kontrollsumma och användning av start/stopp-tecken med Aspose.BarCode för .NET.
@@ -34,3 +40,9 @@ Sammanfattningsvis är Codabar-kodning och kontrollsummaberäkning viktiga färd
 Lär dig hur du beräknar Codabar-kontrollsummor i .NET med Aspose.BarCode. Förbättra datanoggrannheten i Codabar-streckkoder. Få steg-för-steg-vägledning.
 ### [Codabar Start/Stop-tecken](./codabar-start-stop-characters/)
 Lär dig hur du skapar Codabar-streckkoder med start- och stopptecken med Aspose.BarCode för .NET. En steg-för-steg-guide för utvecklare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

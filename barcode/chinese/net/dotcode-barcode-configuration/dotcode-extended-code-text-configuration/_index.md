@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 进行 DotCode 扩展代码文本配置
 linktitle: DotCode 扩展代码文本配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 轻松生成 DotCode 扩展代码文本配置。请按照我们的分步指南进行高效的条形码创建。
-type: docs
 weight: 13
 url: /zh/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 进行 DotCode 扩展代码文本配置
+
 ## 介绍
 
 在条形码生成和管理领域，Aspose.BarCode for .NET 是一种多功能且高效的解决方案。无论您需要为产品、库存还是任何其他应用程序生成条形码，Aspose.BarCode for .NET 都能满足您的需求。在这个综合教程中，我们将重点关注使用 Aspose.BarCode for .NET 生成 DotCode 扩展代码文本配置。 DotCode 是一种二维矩阵条形码，可以对文本和二进制数据进行编码，使其成为各个行业的宝贵工具。
@@ -148,3 +154,9 @@ A3：是的，Aspose.BarCode for .NET 与广泛的 .NET 框架兼容，确保灵
 ### Q5：Aspose.BarCode for .NET适合企业级条码生成吗？
 
 A5：当然，Aspose.BarCode for .NET 旨在满足小规模和企业级条码生成的需求，提供可扩展性和可靠性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

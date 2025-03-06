@@ -3,10 +3,16 @@ title: Προσθήκη περιγραμμάτων στην εικόνα γρα�
 linktitle: Προσθήκη περιγραμμάτων στην εικόνα γραμμικού κώδικα
 second_title: Aspose.BarCode Java API
 description: Βελτιώστε τις εικόνες γραμμικού κώδικα σε Java με το Aspose.BarCode προσθέτοντας προσαρμόσιμα περιγράμματα. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να επιτύχετε μια οπτικά ελκυστική λύση γραμμικού κώδικα.
-type: docs
 weight: 10
 url: /el/java/image-manipulation/adding-borders-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη περιγραμμάτων στην εικόνα γραμμικού κώδικα σε Java
+
 
 ## Εισαγωγή
 
@@ -122,3 +128,10 @@ bb.save(dataDir + "barcode-image-borders.jpg");
 
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.BarCode;
  Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.BarCode κατεβάζοντας το[δωρεάν δοκιμαστική έκδοση](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

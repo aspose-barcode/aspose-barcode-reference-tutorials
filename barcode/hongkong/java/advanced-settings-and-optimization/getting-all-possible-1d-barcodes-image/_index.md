@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 從 Java 影像中取得所有可能的一維條碼
 linktitle: 從影像中取得所有可能的一維條碼
 second_title: Aspose.BarCode Java API
 description: 探索 Aspose.BarCode for Java 輕鬆解碼一維條碼的強大功能。立即下載，無縫整合到您的 Java 應用程式中。
-type: docs
 weight: 20
 url: /zh-hant/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 從 Java 影像中取得所有可能的一維條碼
+
 ## 介紹
 
 歡迎來到 Aspose.BarCode for Java 的世界，這是一個功能強大的工具，使開發人員能夠輕鬆解碼和讀取各種一維條碼。在本教程中，我們將深入研究使用 Aspose.BarCode for Java 從圖像中獲取所有可能的一維條碼的過程。讀完本指南後，您將全面了解如何利用此 Java 程式庫進行條碼辨識。
@@ -93,3 +99,9 @@ A1：是的，Aspose.BarCode for Java 專為商業用途而設計，為專業應
 ### Q5: 有免費試用版嗎？
 
  A5：是的，您可以探索免費試用版[這裡](https://releases.aspose.com/)體驗 Aspose.BarCode for Java 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تعزيز التخصيص الإضافي للرمز الشريطي باس
 linktitle: تخصيص مساحة الباركود التكميلي
 second_title: Aspose.BarCode .NET API
 description: قم بتخصيص الرموز الشريطية بسهولة باستخدام Aspose.BarCode لـ .NET. التحكم في البعد X والمساحة الإضافية. جرب النسخة التجريبية المجانية!
-type: docs
 weight: 11
 url: /ar/net/supplemental-barcode-data/supplemental-barcode-space-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعزيز التخصيص الإضافي للرمز الشريطي باستخدام Aspose.BarCode
+
 
 في المشهد المتطور باستمرار لتكنولوجيا الباركود، يعد التخصيص هو مفتاح النجاح. باعتباري كاتب محتوى ماهرًا ولدي خبرة في كتابة تحسين محركات البحث، فأنا هنا لإرشادك خلال تسخير قوة Aspose.BarCode لـ .NET. سيساعدك هذا البرنامج التعليمي خطوة بخطوة على تحقيق مستوى التخصيص الذي تريده للرموز الشريطية الخاصة بك، مما يضمن أنها تلبي مواصفاتك الدقيقة.
 
@@ -103,3 +109,9 @@ gen.Save($"{path}SupplementSpace40Pixels.png", BarCodeImageFormat.Png);
 
 ### هل يمكنني استخدام Aspose.BarCode لـ .NET في مشاريعي التجارية؟
 نعم، Aspose.BarCode for .NET مناسب للاستخدام الشخصي والتجاري. يمكنك شراء ترخيص لاستخدامه في مشاريعك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

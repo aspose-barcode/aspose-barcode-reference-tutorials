@@ -3,10 +3,16 @@ title: Προσθήκη λεζάντας στον γραμμωτό κώδικα 
 linktitle: Προσθήκη λεζάντας στον γραμμωτό κώδικα
 second_title: Aspose.BarCode Java API
 description: Μάθετε πώς να βελτιώσετε τα γραφικά του γραμμικού κώδικα σε Java με το Aspose.BarCode. Προσθέστε υπότιτλους χωρίς κόπο για βελτιωμένη εμπειρία χρήστη.
-type: docs
 weight: 10
 url: /el/java/text-and-styling/adding-caption-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη λεζάντας στον γραμμωτό κώδικα σε Java χρησιμοποιώντας το Aspose.BarCode
+
 
 ## Εισαγωγή
 
@@ -102,3 +108,9 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 ### Πού μπορώ να αναζητήσω βοήθεια εάν αντιμετωπίζω προβλήματα ή έχω ερωτήσεις;
  Το φόρουμ κοινότητας Aspose.BarCode[εδώ](https://forum.aspose.com/c/barcode/13) είναι μια εξαιρετική πηγή υποστήριξης και συζητήσεων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

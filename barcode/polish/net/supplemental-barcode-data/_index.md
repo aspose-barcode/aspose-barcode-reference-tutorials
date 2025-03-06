@@ -3,10 +3,16 @@ title: Dodatkowe dane kodu kreskowego
 linktitle: Dodatkowe dane kodu kreskowego
 second_title: Aspose.BarCode .NET API
 description: Dowiedz się, jak generować i dostosowywać dodatkowe dane kodów kreskowych za pomocą Aspose.BarCode dla .NET, korzystając z naszych samouczków krok po kroku. Popraw swoje umiejętności kodowania kreskowego już dziś!
-type: docs
 weight: 27
 url: /pl/net/supplemental-barcode-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodatkowe dane kodu kreskowego
+
 
 ## Wstęp
 
@@ -37,3 +43,9 @@ tym artykule przedstawiliśmy plan działania dotyczący opanowania dodatkowych 
 Wygeneruj dodatkowe dane kodu kreskowego za pomocą Aspose.BarCode dla .NET. Dostosuj kody kreskowe EAN-2 i EAN-5 bez wysiłku. Przewodnik krok po kroku dla programistów .NET.
 ### [Dodatkowa personalizacja przestrzeni na kod kreskowy](./supplemental-barcode-space-customization/)
 Dostosuj łatwo kody kreskowe za pomocą Aspose.BarCode dla .NET. Kontroluj wymiar X i uzupełniaj przestrzeń. Wypróbuj bezpłatną wersję próbną!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

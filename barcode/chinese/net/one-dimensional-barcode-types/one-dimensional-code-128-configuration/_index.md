@@ -3,10 +3,16 @@ title: 一维码128配置
 linktitle: 一维码128配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode 在 .NET 中生成一维 Code 128 条形码。请遵循我们的无缝条形码集成分步指南。
-type: docs
 weight: 10
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 一维码128配置
+
 
 如果您是一名 .NET 开发人员，正在寻找一个强大的工具来在应用程序中生成条形码，那么 Aspose.BarCode for .NET 是您的首选解决方案。本综合指南将引导您完成利用 Aspose.BarCode for .NET 的功能创建一维 Code 128 条形码的过程，它是为初学者和经验丰富的开发人员设计的。 
 
@@ -108,3 +114,10 @@ Aspose.BarCode for .NET 为 .NET 应用程序中的条形码生成提供了强�
 
 ### 在哪里可以获得 Aspose.BarCode for .NET 支持？
 您可以在 Aspose.BarCode for .NET 论坛上寻求帮助并分享您的经验[这里](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

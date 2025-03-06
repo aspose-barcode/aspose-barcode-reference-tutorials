@@ -3,10 +3,16 @@ title: Konfigurasi Komponen 2D Databar Satu Dimensi
 linktitle: Konfigurasi Komponen 2D Databar Satu Dimensi
 second_title: Aspose.BarCode .NET API
 description: Hasilkan kode batang 2D Databar Satu Dimensi dengan Aspose.BarCode untuk .NET. Ikuti panduan langkah demi langkah kami untuk konfigurasi dan penyesuaian. Mulailah membuat barcode unik hari ini!
-type: docs
 weight: 15
 url: /id/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Komponen 2D Databar Satu Dimensi
+
 
 Dalam dunia pengkodean data dan barcode, perpustakaan Aspose.BarCode untuk .NET berdiri sebagai alat yang andal dan serbaguna. Komponen .NET yang kuat ini memberi pengembang sarana untuk menghasilkan, memanipulasi, dan menyesuaikan kode batang dengan mudah. Jika Anda ingin memanfaatkan potensi perpustakaan ini untuk Konfigurasi Komponen 2D Databar Satu Dimensi, Anda berada di tempat yang tepat. Dalam panduan langkah demi langkah ini, kami akan menguraikan prosesnya untuk memastikan Anda dapat bekerja dengan lancar dengan komponen Databar 2D menggunakan Aspose.BarCode untuk .NET.
 
@@ -94,3 +100,9 @@ Jika Anda mencari solusi pembuatan kode batang yang andal di .NET, Aspose.BarCod
 
 ### Di mana saya bisa mendapatkan dukungan dan bantuan dengan Aspose.BarCode untuk .NET?
 -  Anda dapat mencari bantuan dan terlibat dengan komunitas di[Aspose.BarCode untuk forum dukungan .NET](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

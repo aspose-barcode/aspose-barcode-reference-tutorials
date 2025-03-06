@@ -3,10 +3,16 @@ title: Ký hiệu và định dạng
 linktitle: Ký hiệu và định dạng
 second_title: API Java Aspose.BarCode
 description: Nâng cao ứng dụng Java của bạn với hướng dẫn Aspose.BarCode! Nắm vững cách chỉ định ký hiệu, tìm nạp và nhận dạng mã vạch, đồng thời dễ dàng tạo và lưu mã vạch động.
-type: docs
 weight: 26
 url: /vi/java/symbology-and-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ký hiệu và định dạng
+
 ## Giới thiệu
 
 Bắt tay vào hành trình biến đổi vào thế giới phát triển ứng dụng Java năng động với các hướng dẫn Aspose.BarCode. Trong bài viết này, chúng tôi làm sáng tỏ sự phức tạp của đặc tả mã vạch, tìm nạp và nhận dạng mã vạch cũng như việc tạo và lưu mã vạch một cách dễ dàng. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước của chúng tôi hứa hẹn sẽ làm sáng tỏ những vấn đề phức tạp, đảm bảo trải nghiệm tích hợp liền mạch. Nâng cao các ứng dụng Java của bạn với khả năng tùy chỉnh linh hoạt, các tính năng mạnh mẽ và hỗ trợ rộng rãi của Aspose.BarCode. Hãy tham gia cùng chúng tôi khi chúng tôi điều hướng qua lĩnh vực làm chủ mã vạch, đơn giản hóa quy trình đồng thời khai thác toàn bộ tiềm năng của Aspose.BarCode cho Java.
@@ -38,3 +44,9 @@ Tạo mã vạch động trong Java với Aspose.BarCode. Tích hợp dễ dàng
 Tích hợp Aspose.BarCode cho Java một cách dễ dàng - tìm nạp và nhận dạng mã vạch từ cơ sở dữ liệu. Tải xuống ngay để có trải nghiệm tích hợp mã vạch liền mạch.
 ### [Tạo và lưu mã vạch trong Java](./generating-saving-barcode/)
 Tạo và lưu mã vạch dễ dàng trong Java với Aspose.BarCode. Tích hợp liền mạch, tùy chỉnh giao diện và tận hưởng hỗ trợ mã vạch mở rộng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

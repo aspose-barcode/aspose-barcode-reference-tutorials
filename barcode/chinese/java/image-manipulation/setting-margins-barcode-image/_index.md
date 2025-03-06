@@ -3,10 +3,16 @@ title: 在 Java 中设置条码图像的边距
 linktitle: 设置条形码图像的边距
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中设置条形码图像的边距。自定义间距以无缝集成到您的应用程序中
-type: docs
 weight: 11
 url: /zh/java/image-manipulation/setting-margins-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中设置条码图像的边距
+
 
 ## 介绍
 
@@ -99,3 +105,10 @@ Aspose.BarCode 主要是为 Java 设计的，但也有适用于其他编程语�
 
 ### 如何购买完整版的 Aspose.BarCode for Java？
 您可以从 Aspose.BarCode for Java 购买完整版本[购买页面](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

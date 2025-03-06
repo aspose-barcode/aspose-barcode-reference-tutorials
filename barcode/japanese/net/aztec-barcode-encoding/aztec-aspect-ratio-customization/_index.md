@@ -3,10 +3,16 @@ title: Aspose.BarCode for .NET を使用して Aztec バーコードのアスペ
 linktitle: アステカのアスペクト比のカスタマイズ
 second_title: Aspose.BarCode .NET API
 description: Aspose.BarCode for .NET を使用して Aztec バーコードのアスペクト比をカスタマイズする方法を学びます。 .NET アプリケーション用にユニークで柔軟なバーコードを作成します。
-type: docs
 weight: 10
 url: /ja/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET を使用して Aztec バーコードのアスペクト比をカスタマイズする
+
 このチュートリアルでは、Aspose.BarCode for .NET を使用した Aztec バーコードのアスペクト比のカスタマイズについて詳しく説明します。 Aztec バーコードは、データのエンコードに一般的に使用される 2 次元バーコードであり、Aspose.BarCode を使用すると、特定の要件に合わせてこれらのバーコードを簡単に作成およびカスタマイズできます。
 
 ## 前提条件
@@ -108,3 +114,9 @@ A4: このチュートリアルで提供されているデスクトップ アプ
 ### Q5: Aspose.BarCode for .NET の一時ライセンスはどこで入手できますか?
 
 A5: テストまたは評価の目的で一時ライセンスが必要な場合は、次のサイトから取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

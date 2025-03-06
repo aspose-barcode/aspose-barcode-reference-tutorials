@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 像专业人士一样生成 DataMatrix 条形码。
 linktitle: DataMatrix 条码配置
 second_title: Aspose.BarCode .NET API
 description: 使用 Aspose.BarCode for .NET 轻松生成 DataMatrix 条形码。自定义宽高比、ECC 模式、编码等。提高条形码创建效率。
-type: docs
 weight: 30
 url: /zh/net/datamatrix-barcode-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 像专业人士一样生成 DataMatrix 条形码。
+
 
 
 欢迎来到我们关于使用 Aspose.BarCode for .NET 配置 DataMatrix 条码的综合教程系列。无论您是经验丰富的开发人员还是新手，这些分步指南都将帮助您无缝生成和自定义 DataMatrix 条形码。
@@ -69,3 +75,9 @@ url: /zh/net/datamatrix-barcode-configuration/
 了解使用 Aspose.BarCode for .NET 配置 DataMatrix 扩展代码文本。在 .NET 应用程序中生成、识别和集成条形码。
 ### [主 DataMatrix 宏配置](./datamatrix-macro-configuration/)
 了解如何使用 Aspose.BarCode for .NET 配置 DataMatrix Macro 条形码。在 .NET 应用程序中生成、自定义和识别 DataMatrix 条形码。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurasi Kode Satu Dimensi 39
 linktitle: Konfigurasi Kode Satu Dimensi 39
 second_title: Aspose.BarCode .NET API
 description: Pelajari cara membuat kode batang Kode 39 satu dimensi di .NET dengan Aspose.BarCode. Panduan langkah demi langkah untuk pengembang.
-type: docs
 weight: 11
 url: /id/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Kode Satu Dimensi 39
+
 
 ## Perkenalan
 
@@ -72,3 +78,9 @@ J: Tentu saja, Anda dapat menyesuaikan berbagai aspek kode batang, termasuk ukur
 
 ### T: Di mana saya bisa mendapatkan dukungan atau mengajukan pertanyaan tentang Aspose.BarCode untuk .NET?
  J: Anda dapat menemukan jawaban atas pertanyaan Anda dan mencari dukungan di forum Aspose.BarCode:[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

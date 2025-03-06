@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 建立緊湊型 PDF417 條碼
 linktitle: 緊湊型PDF417基本配置
 second_title: Aspose.BarCode .NET API
 description: 了解如何使用 Aspose.BarCode for .NET 產生 Compact PDF417 條碼。包含逐步說明和程式碼範例的綜合指南。
-type: docs
 weight: 10
 url: /zh-hant/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 建立緊湊型 PDF417 條碼
+
 ## 介紹
 
 如果您是希望在 .NET 應用程式中產生條碼映像的開發人員，Aspose.BarCode for .NET 是一個功能強大的工具，可以幫助您實現這一目標。在本逐步指南中，我們將引導您完成使用 Aspose.BarCode for .NET 建立 Compact PDF417 條碼的過程。 Compact PDF417 是一種高效能的二維條碼符號系統，廣泛用於各種應用，包括物流、庫存管理等。在本教程結束時，您將能夠建立和自訂 Compact PDF417 條碼以滿足您的特定需求。讓我們深入了解並開始吧！
@@ -107,3 +113,9 @@ A2：Aspose.BarCode支援多種條碼類型，包括QR Code、Code 39、Code 128
 ### Q5：Aspose.BarCode for .NET 是否有其他資源或文件可用？
 
  A5：是的，您可以找到詳細的文檔[這裡](https://reference.aspose.com/barcode/net/)幫助您探索並利用 Aspose.BarCode for .NET 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

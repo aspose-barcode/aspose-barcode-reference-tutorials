@@ -3,10 +3,16 @@ title: Đặt màu nền trước của văn bản mã trong Java bằng Aspose.
 linktitle: Đặt màu nền trước của văn bản mã
 second_title: API Java Aspose.BarCode
 description: Tạo mã vạch động trong Java một cách dễ dàng với Aspose.BarCode. Tùy chỉnh màu nền trước của văn bản mã một cách dễ dàng bằng cách sử dụng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 11
 url: /vi/java/text-and-styling/setting-code-text-foreground-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt màu nền trước của văn bản mã trong Java bằng Aspose.BarCode
+
 
 ## Giới thiệu
 Trong bối cảnh phát triển phần mềm ngày càng phát triển, việc kết hợp chức năng mã vạch mạnh mẽ vào các ứng dụng Java của bạn là rất quan trọng. Aspose.BarCode for Java cung cấp một giải pháp liền mạch, cho phép các nhà phát triển tạo, nhận dạng và thao tác mã vạch một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể của việc tùy chỉnh mã vạch: đặt màu nền trước của văn bản mã.
@@ -79,3 +85,10 @@ Tuyệt đối. Aspose.BarCode tích hợp liền mạch với các IDE Java ph�
 ### Làm cách nào tôi có thể mua giấy phép cho Aspose.BarCode cho Java?
  Đi đến[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép và phát huy toàn bộ tiềm năng của Aspose.BarCode.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

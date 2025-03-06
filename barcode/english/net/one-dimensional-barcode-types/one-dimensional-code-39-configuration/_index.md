@@ -3,10 +3,16 @@ title: One-Dimensional Code 39 Configuration
 linktitle: One-Dimensional Code 39 Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate one-dimensional Code 39 barcodes in .NET with Aspose.BarCode. Step-by-step guide for developers.
-type: docs
 weight: 11
 url: /net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# One-Dimensional Code 39 Configuration
+
 
 ## Introduction
 
@@ -72,3 +78,10 @@ A: Absolutely, you can customize various aspects of the barcode, including size,
 
 ### Q: Where can I get support or ask questions about Aspose.BarCode for .NET?
 A: You can find answers to your questions and seek support on the Aspose.BarCode forum: [Aspose.BarCode Forum](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

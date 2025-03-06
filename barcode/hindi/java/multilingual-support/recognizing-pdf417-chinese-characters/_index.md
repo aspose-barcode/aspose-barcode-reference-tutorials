@@ -3,10 +3,16 @@ title: जावा में चीनी अक्षरों के सा�
 linktitle: चीनी अक्षरों के साथ PDF417 बारकोड को पहचानना
 second_title: Aspose.BarCode जावा एपीआई
 description: Aspose.BarCode का उपयोग करके जावा में चीनी अक्षरों वाले PDF417 बारकोड को पहचानने का तरीका जानें। निर्बाध एकीकरण के लिए हमारे व्यापक ट्यूटोरियल का अनुसरण करें।
-type: docs
 weight: 10
 url: /hi/java/multilingual-support/recognizing-pdf417-chinese-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में चीनी अक्षरों के साथ PDF417 बारकोड को पहचानना
+
 
 ## परिचय
 
@@ -89,3 +95,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 ### मुझे दस्तावेज़ कहां मिल सकता है?
  दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/barcode/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 条码基础知识
 linktitle: 条码基础知识
 second_title: Aspose.BarCode Java API
 description: 在您的 Java 应用程序中释放条形码的力量！深入研究 Aspose.BarCode 教程以实现无缝集成、自定义和识别。
-type: docs
 weight: 20
 url: /zh/java/barcode-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 条码基础知识
+
 
 ## 介绍
 
@@ -38,3 +44,9 @@ url: /zh/java/barcode-basics/
 使用 Aspose.BarCode 在 Java 中创建具有精确条形码生成的图像。轻松创建自定义条形码。浏览文档、下载并获取支持。
 ### [Java 中的条形码方向检测](./detecting-barcode-orientation/)
 使用 Aspose.BarCode for Java 通过条形码识别增强您的 Java 应用程序。按照我们的分步指南轻松检测条形码方向。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

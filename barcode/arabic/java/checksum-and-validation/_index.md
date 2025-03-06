@@ -3,10 +3,16 @@ title: المجموع الاختباري والتحقق من الصحة
 linktitle: المجموع الاختباري والتحقق من الصحة
 second_title: Aspose.BarCode جافا API
 description: تعزيز تكامل البيانات في Java باستخدام Aspose.BarCode. أنشئ رموزًا شريطية بسهولة، واعرض دائمًا المجاميع الاختبارية، وأتقن CodaBar والتحقق من صحة المجموع الاختباري العام.
-type: docs
 weight: 23
 url: /ar/java/checksum-and-validation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# المجموع الاختباري والتحقق من الصحة
+
 
 
 في المشهد المتطور باستمرار لتطوير البرمجيات، يعد ضمان سلامة البيانات أمرًا بالغ الأهمية. تكشف هذه السلسلة التعليمية، المدعومة بواسطة Aspose.BarCode for Java، عن تعقيدات المجاميع الاختبارية والتحقق من الصحة. انغمس في عالم الرموز الشريطية، حيث تلتقي الموثوقية بالبساطة.
@@ -31,3 +37,9 @@ url: /ar/java/checksum-and-validation/
 تعرف على كيفية تطبيق المجموع الاختباري لـ CodaBar في Java باستخدام Aspose.BarCode. يمكنك إنشاء الرموز الشريطية والتعرف عليها بسهولة باستخدام هذا الدليل التفصيلي خطوة بخطوة.
 ### [تطبيق التحقق من صحة المجموع الاختباري في جافا](./applying-checksum-validation/)
 التحقق من صحة الرمز الشريطي الرئيسي في Java بسهولة باستخدام Aspose.BarCode. دليل خطوة بخطوة للتحقق من صحة المجموع الاختباري. تعزيز سلامة بيانات البرنامج الخاص بك!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

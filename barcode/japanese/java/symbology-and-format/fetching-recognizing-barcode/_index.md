@@ -3,10 +3,16 @@ title: Java でのバーコードの取得と認識
 linktitle: バーコードの取得と認識
 second_title: Aspose.BarCode Java API
 description: Aspose.BarCode for Java を簡単に統合 - データベースからバーコードを取得して認識します。今すぐダウンロードして、シームレスなバーコード統合エクスペリエンスを体験してください。
-type: docs
 weight: 11
 url: /ja/java/symbology-and-format/fetching-recognizing-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのバーコードの取得と認識
+
 
 ## 導入
 
@@ -120,3 +126,10 @@ System.out.println(ex.getMessage());
 
 ### 一時ライセンスはテスト目的で利用できますか?
 はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

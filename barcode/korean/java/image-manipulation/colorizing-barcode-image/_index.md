@@ -3,10 +3,16 @@ title: Aspose.BarCode를 사용하여 Java에서 바코드 이미지 색상화
 linktitle: 바코드 이미지 색상화
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 바코드 이미지를 쉽게 색상화하는 방법을 알아보세요. 생생하고 시각적으로 매력적인 결과를 얻으려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 13
 url: /ko/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode를 사용하여 Java에서 바코드 이미지 색상화
+
 
 ## 소개
 
@@ -109,3 +115,10 @@ Aspose.BarCode는 Java에서 바코드 생성 프로세스를 단순화하여 �
 
 ### Java용 Aspose.BarCode 라이선스를 어떻게 구매하나요?
  라이센스를 안전하게 구매할 수 있습니다[여기](https://purchase.aspose.com/buy) Aspose.BarCode의 잠재력을 최대한 활용하세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

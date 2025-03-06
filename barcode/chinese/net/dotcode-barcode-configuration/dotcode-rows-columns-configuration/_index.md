@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode for .NET 进行 DotCode 行和列配置
 linktitle: DotCode 行和列配置
 second_title: Aspose.BarCode .NET API
 description: 学习使用 Aspose.BarCode for .NET 配置 DotCode 行和列。轻松生成精确且可定制的二维条形码。
-type: docs
 weight: 15
 url: /zh/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode for .NET 进行 DotCode 行和列配置
+
 ## 介绍
 
 欢迎来到使用 Aspose.BarCode for .NET 生成条形码的世界！在本综合指南中，我们将深入研究使用 Aspose.BarCode 配置 DotCode 行和列的迷人领域。无论您是经验丰富的开发人员还是刚刚开始条形码生成之旅，本教程都将引导您完成基本步骤、先决条件和命名空间，以帮助您开始掌握 DotCode 行和列配置。
@@ -112,3 +118,9 @@ A4：Aspose.BarCode 支持多种条形码类型，包括 QR Code、Code 128 和 
 ### Q5：在哪里可以找到更多 Aspose.BarCode for .NET 教程和示例？
 
  A5：您可以在以下位置探索其他教程和示例[Aspose.BarCode 文档](https://reference.aspose.com/barcode/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

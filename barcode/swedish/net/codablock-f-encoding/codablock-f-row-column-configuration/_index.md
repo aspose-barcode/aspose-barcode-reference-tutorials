@@ -3,10 +3,16 @@ title: Konfigurera Codablock F rader och kolumner i Aspose.BarCode för .NET
 linktitle: Kodablock F Rad- och kolumnkonfiguration
 second_title: Aspose.BarCode .NET API
 description: Lär dig hur du konfigurerar Codablock F-rader och kolumner i Aspose.BarCode för .NET. Skapa anpassade 2D-streckkoder för olika applikationer.
-type: docs
 weight: 11
 url: /sv/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurera Codablock F rader och kolumner i Aspose.BarCode för .NET
+
 I denna steg-för-steg-guide kommer vi att utforska hur man konfigurerar Codablock F rad- och kolumninställningar med Aspose.BarCode för .NET. Codablock F är en 2D streckkodssymbolik som används för olika applikationer, inklusive fraktetiketter och förpackningar. Vi kommer att dela upp varje exempel i flera steg för att säkerställa en tydlig och heltäckande förståelse av processen.
 
 ## Förutsättningar
@@ -100,3 +106,9 @@ S3: Ja, Aspose.BarCode för .NET är kompatibel med olika .NET-ramverk, vilket g
 ### F5: Hur kan jag få support för Aspose.BarCode för .NET?
 
  S5: Om du har några frågor eller behöver hjälp kan du besöka Aspose.BarCode for .NET-forumet[här](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

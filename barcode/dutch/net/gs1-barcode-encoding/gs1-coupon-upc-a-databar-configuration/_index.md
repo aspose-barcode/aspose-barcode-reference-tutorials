@@ -3,10 +3,16 @@ title: GS1 Coupon UPC-A Databar-configuratie
 linktitle: GS1 Coupon UPC-A Databar-configuratie
 second_title: Aspose.BarCode .NET API
 description: Leer GS1 Coupon UPC-A Databar-configuratie met Aspose.BarCode voor .NET. Maak eenvoudig streepjescodes. Begin nu!
-type: docs
 weight: 13
 url: /nl/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# GS1 Coupon UPC-A Databar-configuratie
+
 
 ## Invoering
 
@@ -86,3 +92,10 @@ GS1 Coupon UPC-A Databar is een barcodestandaard die wordt gebruikt voor het cod
 ### Waar kan ik ondersteuning krijgen voor Aspose.BarCode voor .NET?
  Voor technische assistentie of vragen kunt u terecht op de[Aspose.BarCode voor .NET-ondersteuningsforum](https://forum.aspose.com/c/barcode/13).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

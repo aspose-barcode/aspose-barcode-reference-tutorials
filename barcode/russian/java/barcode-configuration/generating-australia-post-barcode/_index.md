@@ -3,10 +3,16 @@ title: Генерация штрих-кода почты Австралии на
 linktitle: Создание штрих-кода почты Австралии
 second_title: API Aspose.BarCode Java
 description: Легко создавайте штрих-коды почты Австралии на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 12
 url: /ru/java/barcode-configuration/generating-australia-post-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация штрих-кода почты Австралии на Java
+
 
 ## Введение
 
@@ -88,3 +94,9 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 ### Как получить временную лицензию на Aspose.BarCode?
  Вы можете приобрести временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

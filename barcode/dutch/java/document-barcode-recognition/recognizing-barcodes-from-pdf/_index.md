@@ -3,10 +3,16 @@ title: Herkennen van streepjescodes uit PDF in Java
 linktitle: Herkennen van streepjescodes uit PDF
 second_title: Aspose.BarCode Java-API
 description: Leer hoe u streepjescodes uit PDF's in Java kunt herkennen met Aspose.BarCode. Stapsgewijze handleiding met codevoorbeelden. Verhoog de efficiëntie van uw gegevensbeheer!
-type: docs
 weight: 11
 url: /nl/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herkennen van streepjescodes uit PDF in Java
+
 
 ## Invoering
 
@@ -113,3 +119,10 @@ Aspose.BarCode ondersteunt een breed scala aan barcodetypen. Raadpleeg de docume
 
 ### Vraag: Waar kan ik ondersteuning zoeken of vragen stellen over Aspose.BarCode voor Java?
  Bezoek Aspose.BarCode[forum](https://forum.aspose.com/c/barcode/13) voor ondersteuning en discussies.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

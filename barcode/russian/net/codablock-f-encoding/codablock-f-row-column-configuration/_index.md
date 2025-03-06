@@ -3,10 +3,16 @@ title: Настройте строки и столбцы Codablock F в Aspose.B
 linktitle: Конфигурация строк и столбцов Codablock F
 second_title: API Aspose.BarCode .NET
 description: Узнайте, как настроить строки и столбцы Codablock F в Aspose.BarCode для .NET. Создавайте индивидуальные 2D-штрих-коды для различных приложений.
-type: docs
 weight: 11
 url: /ru/net/codablock-f-encoding/codablock-f-row-column-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте строки и столбцы Codablock F в Aspose.BarCode для .NET
+
 В этом пошаговом руководстве мы рассмотрим, как настроить параметры строк и столбцов Codablock F с помощью Aspose.BarCode для .NET. Codablock F — это двухмерная символика штрих-кода, используемая для различных применений, включая транспортные этикетки и упаковку. Мы разобьем каждый пример на несколько этапов, чтобы обеспечить четкое и полное понимание процесса.
 
 ## Предварительные условия
@@ -100,3 +106,9 @@ A1: Codablock F — это двухмерная символика штрих-к
 ### Вопрос 5: Как я могу получить поддержку Aspose.BarCode для .NET?
 
  О5: Если у вас есть какие-либо вопросы или вам нужна помощь, вы можете посетить форум Aspose.BarCode for .NET.[здесь](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

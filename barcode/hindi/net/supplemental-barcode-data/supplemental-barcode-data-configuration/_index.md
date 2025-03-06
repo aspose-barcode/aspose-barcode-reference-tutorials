@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.BarCode के साथ पूरक बा
 linktitle: पूरक बारकोड डेटा कॉन्फ़िगरेशन
 second_title: Aspose.BarCode .NET API
 description: .NET के लिए Aspose.BarCode के साथ पूरक बारकोड डेटा जेनरेट करें। EAN-2 और EAN-5 बारकोड को सहजता से अनुकूलित करें। .NET डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 10
 url: /hi/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.BarCode के साथ पूरक बारकोड डेटा बनाना
+
 
 बारकोड निर्माण और अनुकूलन की दुनिया में, .NET के लिए Aspose.BarCode एक शक्तिशाली और बहुमुखी उपकरण के रूप में सामने आता है। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह चरण-दर-चरण मार्गदर्शिका आपको .NET के लिए Aspose.BarCode का उपयोग करके पूरक बारकोड डेटा को कॉन्फ़िगर करने की प्रक्रिया के बारे में बताएगी। 
 
@@ -110,3 +116,10 @@ gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 
 ### क्या मैं जेनरेट किए गए बारकोड के स्वरूप को अनुकूलित कर सकता हूँ?
 बिल्कुल, आप अपनी आवश्यकताओं को पूरा करने के लिए बारकोड के आयाम, रंग और अन्य पहलुओं को अनुकूलित कर सकते हैं।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

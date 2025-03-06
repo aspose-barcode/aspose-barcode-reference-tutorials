@@ -3,10 +3,16 @@ title: Pengkodean Codabar dan Checksum
 linktitle: Pengkodean Codabar dan Checksum
 second_title: Aspose.BarCode .NET API
 description: Optimalkan barcode Codabar di .NET dengan Aspose.BarCode! Perhitungan master checksum untuk data yang akurat. Buat dengan mudah menggunakan karakter start/stop dengan tutorial kami.
-type: docs
 weight: 20
 url: /id/net/codabar-encoding-and-checksum/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengkodean Codabar dan Checksum
+
 ## Perkenalan
 
 Apakah Anda seorang pengembang yang ingin membuka rahasia pengkodean Codabar dan penghitungan checksum di .NET? Tidak perlu mencari lagi! Artikel ini mendalami seluk-beluk Codabar, memberi Anda tutorial komprehensif tentang perhitungan checksum Codabar dan penggunaan karakter start/stop dengan Aspose.BarCode untuk .NET.
@@ -34,3 +40,9 @@ Kesimpulannya, pengkodean Codabar dan penghitungan checksum adalah keterampilan 
 Pelajari cara menghitung checksum Codabar di .NET menggunakan Aspose.BarCode. Meningkatkan akurasi data dalam barcode Codabar. Dapatkan panduan langkah demi langkah.
 ### [Karakter Mulai/Hentikan Codabar](./codabar-start-stop-characters/)
 Pelajari cara membuat kode batang Codabar dengan karakter mulai dan berhenti menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pengembang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

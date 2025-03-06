@@ -3,10 +3,16 @@ title: Java'da Barkodları Belirli Sırayla Okumak ve Sıralamak
 linktitle: Barkodları Belirli Sırayla Okumak ve Sıralamak
 second_title: Aspose.BarCode Java API'si
 description: Aspose.BarCode ile Java uygulamalarınızı geliştirin! Barkodları verimli bir şekilde okumayı ve sıralamayı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Barkodları Belirli Sırayla Okumak ve Sıralamak
+
 
 ## giriiş
 
@@ -123,3 +129,10 @@ Bu eğitimde, barkodları belirli bir sıraya göre okumak ve sıralamak için A
 
 ### S: Nereden destek alabilirim veya soru sorabilirim?
  Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

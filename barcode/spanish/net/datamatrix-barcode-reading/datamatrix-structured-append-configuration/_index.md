@@ -3,10 +3,16 @@ title: Configuración de anexos estructurados de DataMatrix con Aspose.BarCode p
 linktitle: Configuración de anexos estructurados de DataMatrix
 second_title: API Aspose.BarCode .NET
 description: Aprenda a crear y leer la configuración de anexos estructurados de DataMatrix en .NET usando Aspose.BarCode para una organización de datos de alta eficiencia.
-type: docs
 weight: 11
 url: /es/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de anexos estructurados de DataMatrix con Aspose.BarCode para .NET
+
 Si es un desarrollador que busca implementar la configuración de anexos estructurados de DataMatrix en sus aplicaciones .NET, Aspose.BarCode para .NET es su solución preferida. En esta guía paso a paso, exploraremos los pormenores del uso de esta poderosa biblioteca para generar y leer códigos de barras estructurados DataMatrix. Dividiremos cada ejemplo en varios pasos fáciles de seguir, asegurándonos de que comprenda los conceptos a fondo. Al final de este tutorial, estará equipado para usar Aspose.BarCode para .NET para trabajar con configuraciones de anexos estructurados de DataMatrix de manera efectiva.
 
 ## Requisitos previos
@@ -100,3 +106,9 @@ R1: El anexo estructurado de DataMatrix es una función que le permite dividir u
 ### P5: ¿Aspose.BarCode para .NET admite otros tipos de códigos de barras?
 
  R5: Sí, Aspose.BarCode para .NET admite una amplia gama de tipos de códigos de barras, incluidos códigos QR, Código 128, EAN-13 y muchos más. Puedes explorar la documentación completa.[aquí](https://reference.aspose.com/barcode/net/) para ver la lista completa de tipos de códigos de barras admitidos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Aspose.BarCode for .NET 的综合教程和示例
 linktitle: Aspose.BarCode for .NET 教程
-type: docs
 weight: 10
 url: /zh/net/
 description: 通过全面的教程释放 Aspose.BarCode for .NET 的潜力！掌握 Codabar 编码、自定义 Codablock F、探索 Code 16K 等等。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.BarCode for .NET 的综合教程和示例
+
 
 
 Aspose.BarCode for .NET 使开发人员能够精确轻松地创建和自定义各种条形码类型。无论您是深入研究 Codabar 编码还是探索 Aztec 条形码等高级选项，我们的教程都涵盖了所有内容。
@@ -91,3 +96,9 @@ Aspose.BarCode for .NET 使开发人员能够精确轻松地创建和自定义�
 使用 Aspose.BarCode for .NET 轻松生成和读取 DataMatrix 条形码。深入研究 DataMatrix 读卡器编程和结构化附加配置。
 ### [DotCode 条形码配置](./dotcode-barcode-configuration/)
 使用 Aspose.BarCode .NET 轻松生成定制的 DotCode 条形码。了解宽高比、编码模式、扩展代码文本和阅读器初始化。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

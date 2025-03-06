@@ -3,10 +3,16 @@ title: .NET용 Aspose.BarCode를 사용하여 Codablock F 종횡비 사용자 �
 linktitle: Codablock F 화면 비율 사용자 정의
 second_title: Aspose.BarCode .NET API
 description: .NET용 Aspose.BarCode를 사용한 마스터 Codablock F 화면 비율 사용자 정의. 귀하의 필요에 맞는 정확한 바코드를 손쉽게 생성하십시오.
-type: docs
 weight: 10
 url: /ko/net/codablock-f-encoding/codablock-f-aspect-ratio-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.BarCode를 사용하여 Codablock F 종횡비 사용자 정의
+
 ## 소개
 
 .NET용 Aspose.BarCode를 사용하여 Codablock F 바코드를 사용자 정의하는 기능을 활용할 준비가 되셨습니까? 이 포괄적인 튜토리얼에서는 Codablock F 종횡비 사용자 정의의 단계별 프로세스를 안내하여 정확하고 정교하게 바코드를 생성할 수 있는 지식과 도구를 제공합니다. 개발자, 바코드 매니아 또는 Aspose.BarCode의 기능을 탐색하려는 사람이라면 이 가이드를 통해 도움을 받을 수 있습니다.
@@ -96,3 +102,9 @@ A3: 예, Aspose.BarCode는 다양한 .NET 프레임워크와 호환되므로 다
 ### Q5: .NET용 Aspose.BarCode의 정식 라이센스는 어디서 구입할 수 있나요?
 
  A5: 정식 라이센스는 다음에서 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إنشاء وحفظ الباركود في جافا
 linktitle: توليد وحفظ الباركود
 second_title: Aspose.BarCode جافا API
 description: قم بإنشاء وحفظ الرموز الشريطية بسهولة في Java باستخدام Aspose.BarCode. يمكنك التكامل بسلاسة وتخصيص المظهر والاستمتاع بدعم واسع النطاق للرموز الشريطية.
-type: docs
 weight: 12
 url: /ar/java/symbology-and-format/generating-saving-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء وحفظ الباركود في جافا
+
 
 ## مقدمة
 
@@ -108,3 +114,9 @@ con.close();
 
 ### س: كيف يمكنني الحصول على الدعم لـ Aspose.BarCode؟
  ج: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/barcode/13) لأية مساعدة أو استفسار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

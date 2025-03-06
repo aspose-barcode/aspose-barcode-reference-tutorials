@@ -3,10 +3,16 @@ title: Распознавание штрих-кодов Unicode в Java
 linktitle: Распознавание штрих-кодов Unicode
 second_title: API Aspose.BarCode Java
 description: Исследуйте мир распознавания штрих-кодов Unicode на Java с помощью Aspose.BarCode. Следуйте нашему пошаговому руководству, чтобы легко интегрировать разнообразные наборы символов в ваши приложения.
-type: docs
 weight: 13
 url: /ru/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Распознавание штрих-кодов Unicode в Java
+
 
 ## Введение
 
@@ -127,3 +133,9 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ### Нужна поддержка или есть вопросы?
  Посетить[Форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

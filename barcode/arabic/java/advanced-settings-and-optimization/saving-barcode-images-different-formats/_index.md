@@ -3,10 +3,16 @@ title: حفظ صور الباركود بتنسيقات مختلفة في Java ب
 linktitle: حفظ صور الباركود بتنسيقات مختلفة
 second_title: Aspose.BarCode جافا API
 description: استكشف العالم السلس لتوليد الباركود في Java باستخدام Aspose.BarCode. تعلم كيفية حفظ صور الباركود بتنسيقات مختلفة دون عناء.
-type: docs
 weight: 13
 url: /ar/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ صور الباركود بتنسيقات مختلفة في Java باستخدام Aspose.BarCode
+
 ## مقدمة
 
 في المشهد الديناميكي لتطوير Java، يعد إنشاء صور الباركود وإدارتها بكفاءة جانبًا حاسمًا في التطبيقات المختلفة. Aspose.BarCode for Java هي مكتبة قوية تعمل على تبسيط عملية إنشاء الرمز الشريطي، مما يسمح للمطورين بدمج وظائف الرمز الشريطي بسلاسة في مشاريعهم.
@@ -86,3 +92,9 @@ bb.save(dataDir + "barcode-image-format.jpg", BarCodeImageFormat.JPEG);
 ### س5: أين يمكنني الحصول على دعم المجتمع لـ Aspose.BarCode؟
 
  ج5: قم بزيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للحصول على دعم المجتمع والمناقشات والمساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

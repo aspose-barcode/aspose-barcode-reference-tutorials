@@ -3,10 +3,16 @@ title: 在 Java 中按特定顺序读取和排序条形码
 linktitle: 按特定顺序读取和排序条形码
 second_title: Aspose.BarCode Java API
 description: 使用 Aspose.BarCode 增强您的 Java 应用程序！学习有效地读取和排序条形码。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 10
 url: /zh/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中按特定顺序读取和排序条形码
+
 
 ## 介绍
 
@@ -123,3 +129,10 @@ for (FoundBarCodes barcode : found) {
 
 ### 问：我可以在哪里寻求支持或提问？
 访问支持论坛[这里](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

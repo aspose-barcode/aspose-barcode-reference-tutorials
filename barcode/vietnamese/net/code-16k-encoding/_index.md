@@ -3,10 +3,16 @@ title: Mã hóa 16K
 linktitle: Mã hóa 16K
 second_title: API Aspose.BarCode .NET
 description: Khám phá hướng dẫn mã hóa Code 16K với Aspose.BarCode cho .NET. Tùy chỉnh tỷ lệ khung hình mã vạch và cài đặt vùng yên tĩnh để quét chính xác, đáng tin cậy trong ứng dụng của bạn.
-type: docs
 weight: 22
 url: /vi/net/code-16k-encoding/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa 16K
+
 
 ## Giới thiệu
 
@@ -44,3 +50,9 @@ Mã chính 16K vùng yên tĩnh với Aspose.BarCode cho .NET. Tùy chỉnh cài
 ## Phần kết luận
 
 Khi kết thúc các hướng dẫn mã hóa Code 16K này, bạn sẽ hiểu sâu hơn về cách tùy chỉnh tỷ lệ khung hình mã vạch và cài đặt vùng yên tĩnh bằng Aspose.BarCode cho .NET. Cho dù bạn đang phát triển các ứng dụng cho ngành bán lẻ, hậu cần hay bất kỳ ngành nào khác, những kỹ năng này sẽ nâng cao chức năng và sự hấp dẫn trực quan của mã vạch của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

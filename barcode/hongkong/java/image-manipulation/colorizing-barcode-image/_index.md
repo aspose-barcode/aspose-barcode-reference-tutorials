@@ -3,10 +3,16 @@ title: 使用 Aspose.BarCode 在 Java 中對條碼圖像進行著色
 linktitle: 條碼圖像著色
 second_title: Aspose.BarCode Java API
 description: 了解如何使用 Aspose.BarCode 在 Java 中輕鬆地為條碼圖像著色。按照我們的逐步指南獲得充滿活力且具有視覺吸引力的結果。
-type: docs
 weight: 13
 url: /zh-hant/java/image-manipulation/colorizing-barcode-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.BarCode 在 Java 中對條碼圖像進行著色
+
 
 ## 介紹
 
@@ -109,3 +115,10 @@ Aspose.BarCode 簡化了 Java 中條碼產生的過程，使開發人員能夠�
 
 ### 如何購買 Aspose.BarCode for Java 的授權？
 您可以安全地購買許可證[這裡](https://purchase.aspose.com/buy)釋放 Aspose.BarCode 的全部潛力。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

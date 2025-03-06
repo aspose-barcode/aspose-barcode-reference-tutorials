@@ -3,10 +3,16 @@ title: تكوين رمز التصحيح
 linktitle: تكوين رمز التصحيح
 second_title: Aspose.BarCode .NET API
 description: قم بإنشاء باركود رمز التصحيح بسهولة باستخدام Aspose.BarCode لـ .NET. تعرف على كيفية تكوين تنسيقات رمز التصحيح وتخصيصها باستخدام البرامج التعليمية لـ Aspose.BarCode.
-type: docs
 weight: 26
 url: /ar/net/patch-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين رمز التصحيح
+
 
 في مجال إدارة المستندات، تلعب الباركود Patch Code دورًا حيويًا في تبسيط العمليات وضمان دقة البيانات. باستخدام Aspose.BarCode for .NET، يمكنك إتقان فن تكوين وتخصيص هذه الرموز الشريطية دون عناء. في هذا البرنامج التعليمي الشامل، سنرشدك عبر الجوانب الأساسية لتكوين رمز التصحيح وإعداده وتخصيصه.
 
@@ -40,3 +46,9 @@ url: /ar/net/patch-code-configuration/
 قم بإنشاء رموز شريطية لرموز التصحيح بسهولة باستخدام Aspose.BarCode لـ .NET. تعرف على خطوات إنشاء رموز شريطية لرمز التصحيح وتحسين نظام إدارة المستندات لديك. قم بتنزيل المكتبة الآن!
 ### [تخصيص مجموعة رموز التصحيح](./patch-code-set-customization/)
 تعرف على كيفية إنشاء الرموز الشريطية في .NET باستخدام Aspose.BarCode. قم بتخصيص ودمج الرموز الشريطية في تطبيقاتك دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

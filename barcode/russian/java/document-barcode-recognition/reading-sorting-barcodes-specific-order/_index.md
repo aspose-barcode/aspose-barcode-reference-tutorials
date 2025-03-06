@@ -3,10 +3,16 @@ title: Чтение и сортировка штрих-кодов в опред�
 linktitle: Чтение и сортировка штрих-кодов в определенном порядке
 second_title: API Aspose.BarCode Java
 description: Улучшите свои Java-приложения с помощью Aspose.BarCode! Научитесь эффективно читать и сортировать штрих-коды. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение и сортировка штрих-кодов в определенном порядке в Java
+
 
 ## Введение
 
@@ -123,3 +129,10 @@ for (FoundBarCodes barcode : found) {
 
 ### Вопрос: Где я могу обратиться за поддержкой или задать вопросы?
  Посетите форум поддержки[здесь](https://forum.aspose.com/c/barcode/13).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

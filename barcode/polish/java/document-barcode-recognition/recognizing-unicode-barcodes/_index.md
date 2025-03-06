@@ -3,10 +3,16 @@ title: Rozpoznawanie kodów kreskowych Unicode w Javie
 linktitle: Rozpoznawanie kodów kreskowych Unicode
 second_title: Aspose.BarCode API Java
 description: Poznaj świat rozpoznawania kodów kreskowych Unicode w Javie dzięki Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo zintegrować różnorodne zestawy znaków ze swoimi aplikacjami.
-type: docs
 weight: 13
 url: /pl/java/document-barcode-recognition/recognizing-unicode-barcodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznawanie kodów kreskowych Unicode w Javie
+
 
 ## Wstęp
 
@@ -127,3 +133,9 @@ Tak, wymagana jest ważna licencja dla Aspose.BarCode. Możesz taki otrzymać[Tu
 
 ### Potrzebujesz wsparcia lub masz pytania?
  Odwiedzić[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

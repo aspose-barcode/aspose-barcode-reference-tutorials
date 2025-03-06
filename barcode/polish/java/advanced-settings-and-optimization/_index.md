@@ -3,10 +3,16 @@ title: Zaawansowane ustawienia i optymalizacja
 linktitle: Zaawansowane ustawienia i optymalizacja
 second_title: Aspose.BarCode API Java
 description: Odblokuj potencjał generowania kodów kreskowych Java za pomocą Aspose.BarCode. Konfiguruj niestandardowe rozmiary, optymalizuj rozdzielczość obrazu i główne ustawienia kodu kreskowego, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 29
 url: /pl/java/advanced-settings-and-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zaawansowane ustawienia i optymalizacja
+
 
 ## Wstęp
 
@@ -86,3 +92,9 @@ Bez wysiłku generuj wiele kodów kreskowych na jednym obrazie, używając Aspos
 Odkryj moc Aspose.BarCode dla Java w bezproblemowym dekodowaniu kodów kreskowych 1D. Pobierz teraz, aby zapewnić bezproblemową integrację z aplikacjami Java.
 ### [Uzyskiwanie jakości rozpoznawania kodów kreskowych w procentach w Javie](./getting-barcode-recognition-quality-percent/)
 Uzyskanie jakości rozpoznawania kodów kreskowych w Javie za pomocą Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać optymalne rezultaty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

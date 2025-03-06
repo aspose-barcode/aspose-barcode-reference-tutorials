@@ -3,10 +3,16 @@ title: Java에서 바코드를 사용하여 전체 그림의 크기 생성 및 �
 linktitle: 바코드로 전체 그림의 크기 생성 및 설정
 second_title: Aspose.BarCode 자바 API
 description: Aspose.BarCode를 사용하여 Java에서 전체 그림의 크기 생성 및 설정을 살펴보세요. 크기, 인코딩, 모양을 손쉽게 사용자 정의하세요.
-type: docs
 weight: 11
 url: /ko/java/barcode-basics/creating-setting-size-whole-picture-barcode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 바코드를 사용하여 전체 그림의 크기 생성 및 설정
+
 ## 소개
 
 Java 개발 영역에서는 동적 바코드를 애플리케이션에 통합하는 것이 무엇보다 중요합니다. Aspose.BarCode for Java는 이 프로세스를 단순화하고 다양성과 사용 편의성을 제공하는 강력한 도구입니다. 이 튜토리얼에서는 바코드를 사용하여 전체 이미지의 크기를 설정하는 실제 사례에 중점을 두고 바코드 생성 및 사용자 정의 과정을 안내합니다.
@@ -112,3 +118,9 @@ ImageIO.write(img, "png", outputfile);
 ### Q5: 임시 라이선스 옵션이 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

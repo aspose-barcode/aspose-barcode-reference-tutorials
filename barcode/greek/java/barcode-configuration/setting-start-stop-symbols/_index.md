@@ -3,10 +3,16 @@ title: Ρύθμιση συμβόλων έναρξης και διακοπής σ
 linktitle: Ρύθμιση συμβόλων έναρξης και διακοπής
 second_title: Aspose.BarCode Java API
 description: Δημιουργήστε προσαρμοσμένους γραμμωτούς κώδικες Codabar με συγκεκριμένα σύμβολα έναρξης και λήξης σε Java χρησιμοποιώντας το Aspose.BarCode. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 15
 url: /el/java/barcode-configuration/setting-start-stop-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση συμβόλων έναρξης και διακοπής στην Java
+
 
 ## Εισαγωγή
 
@@ -104,3 +110,10 @@ generator.save(dataDir + "startAndStopSymbols.png");
 ### Υπάρχουν περισσότερες συμβολολογίες γραμμωτού κώδικα που υποστηρίζονται από το Aspose.BarCode για Java;
 Ναι, το Aspose.BarCode υποστηρίζει ένα ευρύ φάσμα συμβόλων γραμμικού κώδικα. Ανατρέξτε στην τεκμηρίωση για μια πλήρη λίστα.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
