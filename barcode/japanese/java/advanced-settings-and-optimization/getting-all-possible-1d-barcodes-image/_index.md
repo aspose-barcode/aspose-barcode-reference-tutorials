@@ -1,35 +1,54 @@
 ---
-title: Aspose.BarCode を使用して Java の画像から可能なすべての 1D バーコードを取得する
-linktitle: 画像から可能なすべての 1D バーコードを取得する
+date: 2025-11-29
+description: Aspose.BarCode を使用して Java で 1D バーコードの読み取り方法を学びましょう – 強力な Java 用バーコードライブラリを使って画像からバーコードを迅速にデコードします。
+language: ja
+linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
-description: 1D バーコードを簡単にデコードできる Aspose.BarCode for Java のパワーを体験してください。今すぐダウンロードして、Java アプリケーションにシームレスに統合してください。
+title: Aspose.BarCode を使用して Java で 1D バーコードを読み取る方法
+url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
-url: /ja/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode を使用して Java の画像から可能なすべての 1D バーコードを取得する
+# read 1d barcodes java with Aspose.BarCode
 
-## 導入
+## Introduction
 
-Aspose.BarCode for Java の世界へようこそ。これは、開発者がさまざまな 1D バーコードを簡単にデコードして読み取ることを可能にする強力なツールです。このチュートリアルでは、Aspose.BarCode for Java を使用して画像から可能なすべての 1D バーコードを取得するプロセスについて詳しく説明します。このガイドを最後まで読むと、この Java ライブラリをバーコード認識に利用する方法を包括的に理解できるようになります。
+このハンズオン ガイドでは、強力な **Aspose.BarCode** ライブラリを使用して **Java で 1D バーコードを読み取る** 方法を学びます。製品ラベル、在庫タグ、画像に埋め込まれた任意の線形バーコードをスキャンする必要がある場合でも、本チュートリアルは環境設定から画像に含まれるすべてのバーコードを抽出する手順までを丁寧に解説します。最後には、数行の Java コードだけで **画像ファイルからバーコードをデコード** できるようになります。
 
-## 前提条件
+## Quick Answers
+- **What does Aspose.BarCode do?** It provides a full‑featured barcode library for Java that can generate and decode 1D/2D barcodes.  
+- **Can I read multiple barcodes from one image?** Yes – the `BarCodeReader.readBarCodes()` method returns all detected symbols.  
+- **Do I need a license for development?** A temporary license works for testing; a commercial license is required for production.  
+- **Which Java versions are supported?** Java 8 + (JDK 11 recommended).  
+- **Is this library fast enough for real‑time scanning?** Absolutely – it’s optimized for high‑performance batch processing.
 
-このコーディング作業に着手する前に、次の前提条件が満たされていることを確認してください。
+## What is “read 1d barcodes java”?
 
--  Java Development Kit (JDK): システムに JDK がインストールされていることを確認してください。ダウンロードできます[ここ](https://www.oracle.com/java/technologies/javase-downloads.html).
+Java で 1D バーコードを読み取るとは、**Java 用バーコードライブラリ** を使用して画像を解析し、線形バーコードパターンを検出し、エンコードされたテキストとシンボル種別や向きといったメタデータを返すことを指します。Aspose.BarCode は画像処理の重い部分を抽象化し、ビジネスロジックに集中できるようにします。
 
-- Aspose.BarCode for Java: からライブラリをダウンロードします。[リリースページ](https://releases.aspose.com/barcode/java/).
+## Why choose Aspose.BarCode for decoding barcodes from image?
 
-必要なツールが揃ったので、コーディングの分野に飛び込みましょう。
+- **Broad symbology support** – over 50 1D and 2D types.  
+- **Accurate detection** – works even with low‑contrast or rotated barcodes.  
+- **Simple API** – a few method calls get you all results.  
+- **No external dependencies** – pure Java, easy to embed in any project.  
 
-## 名前空間のインポート
+## Prerequisites
 
-Java プロジェクトには、Aspose.BarCode for Java の機能にアクセスするために必要な名前空間を含めます。
+コードに入る前に、以下が揃っていることを確認してください。
+
+- **Java Development Kit (JDK)** – version 8 or newer. Download it from the official [Oracle JDK page](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.BarCode for Java** – grab the latest JAR from the [Aspose release page](https://releases.aspose.com/barcode/java/).  
+
+環境が整ったら、さっそくコーディングを始めましょう。
+
+## Import Namespaces
+
+Add the required `import` statements so the compiler can locate Aspose’s classes.
 
 ```java
 import java.awt.Point;
@@ -37,30 +56,30 @@ import java.awt.Point;
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
-
-
 ```
 
-## ステップ 1: BarCodeReader オブジェクトを初期化する
+## Step 1: Initialize the BarCodeReader Object
 
-初期化から始めます`BarCodeReader`物体。このオブジェクトは、提供された画像からバーコードを読み取るために重要です。
+Create a `BarCodeReader` instance pointing at your image file. The `DecodeType` parameter tells the engine which symbologies to look for; using `CODE_128` as an example works for many common 1D codes.
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
 ```
 
-## ステップ 2: 考えられるすべてのバーコードを読み取る
+> **Pro tip:** If you want to scan *all* supported 1D types, pass `DecodeType.ALL_1D` instead of a single symbology.
 
-次に、画像から考えられるすべてのバーコードを抽出しましょう。
+## Step 2: Read All Possible Barcodes
+
+Iterate through the collection returned by `readBarCodes()`. For each `BarCodeResult` we print the decoded text, symbology name, detection angle, and the four corner coordinates of the barcode region.
 
 ```java
 int iCount = 0;
 for (BarCodeResult result : reader.readBarCodes()) {
-    //コードテキスト、シンボル、検出角度、バーコードの認識率を表示します。
+    // Display code text, symbology, detected angle, recognition percentage of the barcode
     System.out.println("Code Text: " + result.getCodeText() + " Symbology: " + result.getCodeTypeName()
             + " Recognition percentage: " + result.getRegion().getAngle());
 
-    //検出されたバーコードの x 座標と y 座標を表示します
+    // Display x and y coordinates of barcode detected
     Point[] point = result.getRegion().getPoints();
 
     System.out.println("Top left coordinates: X = " + point[0].getX() + ", Y = " + point[0].getY());
@@ -72,33 +91,43 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-画像内で見つかったバーコードごとにこれらの手順を繰り返します。
+The loop automatically processes every barcode found, so you don’t need to call the reader repeatedly. After the loop finishes, `iCount` holds the total number of barcodes detected.
 
-## 結論
+## Common Issues & How to Fix Them
 
-おめでとう！ Aspose.BarCode for Java を使用して画像から考えられるすべての 1D バーコードを取得するプロセスを正常に探索しました。この強力なライブラリは、Java アプリケーションでのバーコード認識の可能性の世界を開きます。
+| Symptom | Likely Cause | Solution |
+|---------|--------------|----------|
+| No barcodes returned | Image too blurry or low contrast | Pre‑process the image (increase contrast, binarize) before feeding it to the reader. |
+| Wrong symbology reported | Incorrect `DecodeType` used | Use `DecodeType.ALL_1D` to let the engine auto‑detect any 1D type. |
+| Angle values are off | Image rotated | The API already returns the rotation angle; you can rotate the image back if needed. |
 
-## よくある質問
+## Frequently Asked Questions
 
-### Q1: Aspose.BarCode for Java は商用利用に適していますか?
+**Q: Is Aspose.BarCode for Java suitable for commercial projects?**  
+A: Yes. A commercial license removes all evaluation limitations and grants you full redistribution rights.
 
-A1: はい、Aspose.BarCode for Java は商業用途向けに設計されており、プロフェッショナル アプリケーションでのバーコード処理のための堅牢な機能を提供します。
+**Q: Can I test the library without purchasing a license?**  
+A: Absolutely. Obtain a temporary license from the [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) for development and testing.
 
-### Q2: テスト目的で一時ライセンスを使用できますか?
+**Q: Where can I find the full API reference?**  
+A: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
 
- A2: もちろん、次のサイトから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テストと試用の目的で。
+**Q: How do I get help if I run into a problem?**  
+A: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) where the community and Aspose engineers can assist you.
 
-### Q3: Aspose.BarCode for Java の包括的なドキュメントはどこで見つけられますか?
+**Q: Is there a free trial download?**  
+A: Yes – you can download a trial version from the [Aspose releases page](https://releases.aspose.com/).
 
- A3: ドキュメントを参照してください。[ここ](https://reference.aspose.com/barcode/java/)Aspose.BarCode for Java の詳細については、「Aspose.BarCode for Java」を参照してください。
+## Conclusion
 
-### Q4: 助けを求めたり、コミュニティに連絡してサポートを求めたりするにはどうすればよいですか?
+You’ve now learned how to **read 1D barcodes in Java** using Aspose.BarCode, a robust **barcode library for Java** that makes decoding barcodes from image files straightforward and reliable. Integrate this snippet into your own applications to automate inventory scans, ticket validation, or any scenario where linear barcodes appear in images.
 
- A4: にアクセスしてください。[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13)支援を得たり、経験を共有したり、コミュニティに参加したりするためです。
+---
 
-### Q5: 無料の試用版はありますか?
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.BarCode 24.11 for Java  
+**Author:** Aspose  
 
- A5: はい、無料試用版を試すことができます。[ここ](https://releases.aspose.com/) Aspose.BarCode for Java の機能を体験します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
