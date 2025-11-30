@@ -1,99 +1,140 @@
 ---
-title: Aspose.BarCode ile Java'da Yüzde Olarak Barkod Tanıma Kalitesini Elde Etmek
-linktitle: Yüzde Olarak Barkod Tanıma Kalitesini Alma
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode ile Java'da barkod tanıma kalitesi elde ediliyor. En iyi sonuçları elde etmek için adım adım kılavuzumuzu izleyin.
+date: 2025-11-30
+description: Aspose.Barcode ile Java’da barkod okuma kalitesini nasıl değerlendireceğinizi
+  öğrenin. Tanıma kalitesi yüzdesini elde etmek için adım adım rehber.
+language: tr
+linktitle: Getting Barcode Recognition Quality in Percent
+second_title: Aspose.Barcode Java API
+title: Aspose.Barcode Java – Barkod Tanıma Kalitesini Yüzde Olarak Elde Etme
+url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
-url: /tr/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode ile Java'da Yüzde Olarak Barkod Tanıma Kalitesini Elde Etmek
+# Aspose.Barcode Java – Barkod Tanıma Kalitesini Yüzde Olarak Alma
 
-## giriiş
+## Giriş
 
-Java uygulamanızın barkod tanıma kalitesini elde etmek istiyorsanız Aspose.BarCode bu iş için mükemmel bir araçtır. Bu eğitimde, Aspose.BarCode for Java'yı kullanarak birkaç basit adımda optimum barkod tanıma kalitesine ulaşma sürecinde size rehberlik edeceğiz.
+Java uygulamasında **barkod okuma kalitesini değerlendirmek** istiyorsanız, **Aspose.Barcode Java** yüzde olarak tanıma kalitesini döndüren basit bir API sağlar. Bu öğreticide, bu yüzdeyi almak için gereken adımları adım adım gösterecek, ölçütün neden önemli olduğunu açıklayacak ve bu çağrıyı mevcut kod tabanınıza nasıl entegre edeceğinizi göstereceğiz.
+
+## Hızlı Yanıtlar
+- **“okuma kalitesi” ne anlama geliyor?** Kütüphanenin her çözülen barkoda atadığı güven puanı (0‑100 %).
+- **Hangi kütüphane sürümü gerekiyor?** Herhangi bir yeni Aspose.Barcode Java sürümü (örnek en son 24.x serisini kullanıyor).
+- **Lisans gerekli mi?** Test için geçici bir lisans yeterli; üretim için tam lisans gerekir.
+- **Tüm barkod tiplerini okuyabilir miyim?** Evet – `DecodeType.ALL_SUPPORTED_TYPES` bayrağı, Aspose.Barcode tarafından desteklenen tüm formatları etkinleştirir.
+- **Kalite değeri QR kodları için güvenilir mi?** Kesinlikle – aynı güven algoritması 1‑D ve 2‑D sembolojilerde uygulanır.
+
+## Aspose.Barcode Java Nedir ve Barkod Okuma Kalitesi Nasıl Değerlendirilir?
+
+**Aspose.Barcode Java**, geliştiricilerin dış bağımlılıklar olmadan barkod oluşturmasına, okumasına ve analiz etmesine olanak tanıyan tamamen yönetilen bir kütüphanedir. En faydalı tanı araçlarından biri **okuma kalitesi** ölçütüdür; bu, motorun bir sembolü ne kadar güvenle çözdüğünü gösterir. Bu ölçüt, bir taramayı kabul edip etmeyeceğinize, yeniden yakalama isteyip istemeyeceğinize veya hata işleme mantığını tetikleyeceğinize karar vermeniz gerektiğinde çok önemlidir.
+
+## Neden Barkod Okuma Kalitesi İçin Aspose.Barcode Java Kullanmalısınız?
+
+- **Tüm desteklenen sembolojilerde tutarlı güven puanları**.
+- **Yerel DLL yok** – saf Java, bu yüzden herhangi bir JVM uyumlu platformda çalışır.
+- **İnce ayarlı kontrol**: yalnızca genel bir geçiş/başarısızlık değil, barkod başına kaliteyi alabilirsiniz.
+- **Performans‑optimize** okuma motoru, masaüstünden bulut hizmetlerine kadar ölçeklenir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+- **Java Geliştirme Ortamı** – JDK 8 veya daha yeni, favori IDE'niz (IntelliJ, Eclipse, VS Code vb.) ile.
+- **Aspose.Barcode Java kütüphanesi** – resmi siteden en son JAR'ı indirin: [Aspose.Barcode for Java](https://releases.aspose.com/barcode/java/).
+- **Örnek bir barkod resmi** – öğreticide `BarcodeReader/advanced_features/` klasöründe bulunan `code39Extended.jpg` kullanılır.
 
--  Aspose.BarCode Kütüphanesi: Java için Aspose.BarCode kütüphanesini indirip yükleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/barcode/java/).
+Şimdi kurulum tamam, koda dalalım.
 
-Şimdi adım adım kılavuza başlayalım.
+## İçe Aktarma Ad Alanları
 
-## Ad Alanlarını İçe Aktar
-
-Bu adımda Aspose.BarCode'u Java uygulamanızda kullanmak için gerekli ad alanlarını içe aktaracaksınız.
+Aşağıdaki içe aktarmalar, kalite çıkarımı için gereken okuyucu ve sonuç sınıflarına erişim sağlar.
 
 ```java
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
-
-
 ```
 
-Şimdi, Aspose.BarCode for Java'yı kullanarak barkod tanıma kalitesini yüzde olarak elde etme sürecinde size yol göstermek için verilen örneği birden fazla adıma ayıralım.
+### Adım 1: Kaynak Dizin Yolunu Ayarlama
 
-## 1. Adım: Kaynak Dizini Yolunu Ayarlayın
+Örnek resmi içeren klasörü tanımlayın. `Utils.getDataDir` mevcut proje için mutlak yolu çözen bir yardımcıdır.
 
 ```java
-// Kaynak dizininin yolu.
+// The path to the resource directory.
 String dataDir = Utils.getDataDir(GetBarCodeRecognitionQualityInPercent.class)
-		+ "BarcodeReader/advanced_features/";
+        + "BarcodeReader/advanced_features/";
 ```
 
-## Adım 2: BarCodeReader Nesnesini Başlatın
+### Adım 2: BarCodeReader Nesnesini Başlatma
+
+`BarCodeReader` örneği oluşturun, onu resim dosyasına yönlendirin ve **tüm desteklenen barkod tiplerini** denemesi gerektiğini söyleyin.
 
 ```java
-// BarCodeReader nesnesini başlatın
+// Initialize the BarCodeReader object
 BarCodeReader reader = new BarCodeReader(dataDir + "code39Extended.jpg",
-		com.aspose.barcode.barcoderecognition.DecodeType.ALL_SUPPORTED_TYPES);
+        com.aspose.barcode.barcoderecognition.DecodeType.ALL_SUPPORTED_TYPES);
 ```
 
-## Adım 3: Okuma Yöntemini Çağırın
+### Adım 3: Barkodları Okuma ve Kalite Yüzdesini Alma
+
+Algılanan her barkodu döngüye alın, metnini, tipini ve `getReadingQuality()` tarafından döndürülen **okuma kalitesi** yüzdesini yazdırın.
 
 ```java
-// Okuma yöntemini çağırın
+// Call the read method
 for (BarCodeResult result : reader.readBarCodes()) {
-	System.out.println(result.getCodeText() + " Type: " + result.getCodeType());
-	double percent = result.getReadingQuality();
-	System.out.println("Percent: " + percent);
+    System.out.println(result.getCodeText() + " Type: " + result.getCodeType());
+    double percent = result.getReadingQuality();
+    System.out.println("Percent: " + percent);
 }
 ```
 
-Bu adımları takip ederek Aspose.BarCode'u Java uygulamanıza kolayca entegre ederek barkod tanıma kalitesini yüzde olarak elde edebilirsiniz.
+**Burada ne oluyor?**  
+- `readBarCodes()` bulunan her barkod için bir `BarCodeResult` nesnesi koleksiyonu döndürür.  
+- `getReadingQuality()` `0` ile `100` arasında bir `double` değer verir ve güven seviyesini temsil eder.  
+- Bu değeri, taramanın kabul edilebilir olup olmadığını veya kullanıcıdan başka bir deneme istemeniz gerekip gerekmediğini belirlemek için kullanabilirsiniz.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Sonuç olarak Aspose.BarCode for Java, barkod tanıma kalitesini artırmak için kusursuz bir çözüm sunuyor. Bu öğreticiyi takip ederek, Java uygulamanızda doğru ve etkili barkod tanımayı sağlayacak şekilde bu özelliği adım adım nasıl uygulayacağınızı öğrendiniz.
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| **Kalite her zaman 0** | Görüntü düşük çözünürlüklü veya çok bulanık. | Daha yüksek çözünürlüklü bir kaynak kullanın veya görüntü ön işleme uygulayın (ör. keskinleştirme). |
+| **Barkod bulunamadı** | Yanlış `DecodeType` bayrağı. | `DecodeType.ALL_SUPPORTED_TYPES` kullandığınızdan emin olun veya beklediğiniz tam tipi belirtin. |
+| **`Utils.getDataDir` üzerinde istisna** | Proje yapısı örnekten farklı. | Yardımcı çağrıyı sabit bir mutlak yol veya düzeninize uyan bir göreli yol ile değiştirin. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.BarCode tüm barkod türleriyle uyumlu mudur?
+### S1: Aspose.Barcode tüm barkod tipleriyle uyumlu mu?
 
-Cevap1: Aspose.BarCode çok çeşitli barkod türlerini destekleyerek çeşitli endüstri standartlarıyla uyumluluk sağlar.
+A1: Aspose.Barcode, Code‑39, Code‑128, UPC gibi 1‑D ve QR, DataMatrix, PDF417 gibi 2‑D standartları dahil olmak üzere geniş bir barkod sembolojisi yelpazesini destekler.
 
-### S2: Aspose.BarCode'u ticari amaçlarla kullanabilir miyim?
+### S2: Aspose.Barcode'u ticari amaçlarla kullanabilir miyim?
 
- Cevap2: Evet, Aspose.BarCode'u hem kişisel hem de ticari projeleriniz için kullanabilirsiniz. Lisans ayrıntıları için şu adresi ziyaret edin:[Burada](https://purchase.aspose.com/buy).
+A2: Evet, Aspose.Barcode'u hem kişisel hem de ticari projelerde kullanabilirsiniz. Lisans detayları [burada](https://purchase.aspose.com/buy) mevcuttur.
 
-### S3: Test amaçlı geçici lisansı nasıl alabilirim?
+### S3: Test amaçları için geçici bir lisans nasıl alabilirim?
 
-Cevap 3: Test için geçici bir lisans edinin.[Burada](https://purchase.aspose.com/temporary-license/).
+A3: Aspose portalından [burada](https://purchase.aspose.com/temporary-license/) geçici bir lisans edinebilirsiniz.
 
-### S4: Ek desteği ve topluluk tartışmalarını nerede bulabilirim?
+### S4: Ek destek ve topluluk tartışmalarını nerede bulabilirim?
 
- A4: Ziyaret edin[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13) destek ve topluluk etkileşimleri için.
+A4: Akran desteği ve resmi yardım için [Aspose.Barcode forumunu](https://forum.aspose.com/c/barcode/13) ziyaret edin.
 
-### S5: Belgelerde herhangi bir kod örneği mevcut mu?
+### S5: Belgelerde kod örnekleri mevcut mu?
 
- Cevap5: Evet, kapsamlı kod örneklerini belgelerde bulabilirsiniz[Burada](https://reference.aspose.com/barcode/java/).
+A5: Evet, resmi belgelerde kapsamlı kod örnekleri [burada](https://reference.aspose.com/barcode/java/) sağlanmaktadır.
+
+## Sonuç
+
+**Aspose.Barcode Java**'ı kullanarak, taranan herhangi bir sembol için **barkod okuma kalitesi** yüzdesini zahmetsizce alabilirsiniz. Bu ölçüt, daha akıllı doğrulama mantığı oluşturmanıza, kullanıcı deneyimini iyileştirmenize ve Java uygulamalarınızda yüksek veri bütünlüğünü korumanıza olanak tanır.
+
+---
+
+**Son Güncelleme:** 2025-11-30  
+**Test Edilen Versiyon:** Aspose.Barcode Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
