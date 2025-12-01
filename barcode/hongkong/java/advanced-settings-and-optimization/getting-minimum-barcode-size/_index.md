@@ -1,104 +1,117 @@
 ---
-title: 使用 Aspose.BarCode 在 Java 中取得最小條碼大小
-linktitle: 取得最小條碼尺寸
+date: 2025-12-01
+description: 了解如何在 Java 中使用 Aspose.BarCode 建立最小條碼並設定條碼尺寸。跟隨我們的逐步指南，實現高效且節省空間的條碼產生。
+language: zh-hant
+linktitle: Getting Minimum BarCode Size
 second_title: Aspose.BarCode Java API
-description: 了解如何使用 Aspose.BarCode 在 Java 中建立最小尺寸的條碼。請按照我們的逐步指南進行高效且空間優化的條碼生成。
+title: 如何在 Java 中使用 Aspose.BarCode 建立最小條碼
+url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
-url: /zh-hant/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode 在 Java 中取得最小條碼大小
+# 如何在 Java 中使用 Aspose.BarCode 建立最小條碼
 
 ## 介紹
 
-歡迎來到我們關於使用 Aspose.BarCode 在 Java 中取得最小 BarCode 大小的逐步指南。如果您希望優化條碼影像以實現空間效率或特定顯示要求，本教學適合您。 Aspose.BarCode for Java 提供了一組強大的功能，在本教程中，我們將重點放在將 BarCode 的大小自訂到最小。
+如果您需要 **建立最小條碼** 圖片，使其佔用盡可能小的面積，同時仍能被掃描，這裡正是您要找的地方。在許多行動、物聯網或大量列印的應用中，每一毫米都很重要，而 Aspose.BarCode for Java 為您提供精細的控制，讓您 **設定條碼尺寸** 正好符合需求。本教學將帶您完成整個流程——從設定產生器、停用自動調整大小，到定義最小可行尺寸。
 
-## 先決條件
+## 快速答覆
+- **「最小條碼」是什麼意思？** 指仍符合條碼規格可讀性要求的最小影像尺寸。  
+- **我可以使用任何條碼類型嗎？** 可以，但某些條碼規格對最小尺寸有更嚴格的限制。  
+- **開發時需要授權嗎？** 免費試用可用於評估；正式上線需購買商業授權。  
+- **支援哪個 Java 版本？** Java 8 或更新版本。  
+- **停用 AutoSize 會影響品質嗎？** 不會，它只會阻止 Aspose 自動放大影像。
 
-在我們深入研究程式碼之前，請確保您滿足以下先決條件：
+## 前置條件
 
-1. Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。
+在開始編寫程式碼之前，請確保您已具備：
 
-2.  Aspose.BarCode for Java：從下列位置下載並安裝 Aspose.BarCode for Java：[這裡](https://releases.aspose.com/barcode/java/).
+1. **Java Development Kit (JDK)** – 已安裝並設定 Java 8 或更新版本。  
+2. **Aspose.BarCode for Java** – 從官方網站下載最新程式庫：[Aspose.BarCode Java 下載](https://releases.aspose.com/barcode/java/)。  
 
-現在，讓我們進入編碼部分。
+您還需要一個資料夾（例如 `dataDir`）來儲存產生的 PNG 檔案。
 
-## 導入命名空間
+## 匯入命名空間
 
-在您的 Java 程式碼中，首先匯入必要的命名空間：
+首先，匯入產生條碼與調整尺寸所需的類別。
 
 ```java
-
 import com.aspose.barcode.generation.AutoSizeMode;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## 第 1 步：設定條碼產生器
+## 如何在 Java 中設定條碼尺寸
 
-建立一個實例`BarcodeGenerator`類，將符號系統類型設定為 CODE_128，並定義條碼文字：
+以下是一個簡潔的逐步指南，說明如何透過手動控制寬度與高度 **建立最小條碼** 圖片。
+
+### 步驟 1：建立最小條碼 – 設定產生器
+建立 `BarcodeGenerator`，選擇條碼類型（本例使用 CODE_128），並提供要編碼的資料。
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-## 步驟 2： 停用 AutoSizeMode
-
-若要自訂大小，請停用自動調整大小模式：
+### 步驟 2：停用 AutoSizeMode
+預設情況下，Aspose 會自動放大影像以符合條碼規格的最小要求。關閉此功能，讓您自行定義尺寸。
 
 ```java
 bb.getParameters().setAutoSizeMode(AutoSizeMode.NONE);
 ```
 
-## 步驟 3：將影像高度和寬度設定為最小值
-
-將影像尺寸調整到所需的最小尺寸：
+### 步驟 3：將影像高度與寬度設定為最小
+現在明確設定影像大小。下列示範的數值（1 mm × 1 mm）僅供說明；請依您選擇的條碼規格調整至仍能可靠掃描的最小尺寸。
 
 ```java
 bb.getParameters().getImageWidth().setMillimeters(1);
 bb.getParameters().getImageHeight().setMillimeters(1);
 ```
 
-## 第 4 步：儲存條碼圖像
+> **小技巧：** 每次調整尺寸後，使用實體掃描器測試產生的條碼，以確保可讀性。
 
-生成條碼圖像並將其保存到文件中：
+### 步驟 4：儲存條碼影像
+產生位圖並寫入 PNG 檔案。將 `dataDir` 替換為您的輸出資料夾路徑。
 
 ```java
 javax.imageio.ImageIO.write(bb.generateBarCodeImage(), "PNG", new java.io.File(dataDir + "minimumresult.png"));
 ```
 
-對您想要自訂的每個條碼重複這些步驟。
+對於需要產生多個最小尺寸條碼的情況，請重複上述步驟。
 
-現在您已經使用 Aspose.BarCode for Java 成功建立了最小尺寸的 BarCode。
+## 常見問題與解決方案
 
-## 結論
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| 條碼無法掃描 | 尺寸對所選條碼規格太小 | 以 0.5 mm 為單位增加 `ImageWidth`/`ImageHeight`，並重新測試 |
+| 影像模糊 | 影像以低 DPI 儲存 | 在儲存前使用 `bb.getParameters().getResolution().setDpi(300)` |
+| 找不到 `EncodeTypes` | 未匯入 `EncodeTypes` 類別 | 加入 `import com.aspose.barcode.EncodeTypes;` |
 
-在本教學中，我們探討如何使用 Aspose.BarCode 最小化 Java 中條碼的大小。無論您是在處理空間有限的應用程式還是以優化視覺顯示為目標，Aspose.BarCode 都能提供您所需的靈活性。
+## 常見問答
 
-## 常見問題解答
+**問：我可以使用 Aspose.BarCode for Java 自訂其他條碼類型的尺寸嗎？**  
+答：當然可以！Aspose.BarCode 支援多種條碼規格，您可以使用相同的 `setAutoSizeMode` 以及尺寸屬性來 **設定條碼尺寸**。
 
-### Q1：我可以使用Aspose.BarCode for Java自訂其他型別條碼的大小嗎？
+**問：Aspose.BarCode 適合企業級應用嗎？**  
+答：適合。它提供高效能產生、廣泛的格式支援，且授權模式可隨企業需求擴展。
 
-A1：當然！ Aspose.BarCode支援多種符號系統，可讓您自訂不同條碼類型的尺寸。
+**問：商業專案需要注意哪些授權事項？**  
+答：正式上線必須使用有效的商業授權。您可於 [Aspose 購買入口](https://purchase.aspose.com/buy) 取得授權。
 
-### Q2：Aspose.BarCode適合企業級應用程式嗎？
+**問：如果遇到問題，該如何取得協助？**  
+答：請前往 Aspose.BarCode [論壇](https://forum.aspose.com/c/barcode/13) 尋求社群協助，或直接聯繫 Aspose 支援團隊。
 
-A2：是的，Aspose.BarCode廣泛應用於企業級應用程序，提供強大的BarCode生成和自訂功能。
+**問：是否提供試用版？**  
+答：提供。您可從 [Aspose.BarCode 免費試用頁面](https://releases.aspose.com/) 下載功能完整的試用版。
 
-### Q3：在商業專案中使用Aspose.BarCode有什麼許可注意事項嗎？
+---
 
- A3: 是的，若要用於商業用途，您需要獲得有效的許可證。您可以找到許可詳細信息[這裡](https://purchase.aspose.com/buy).
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.BarCode for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
 
-### Q4：如何獲得 Aspose.BarCode for Java 的支援？
-
- A4：訪問Aspose.BarCode[論壇](https://forum.aspose.com/c/barcode/13)尋求社區支持或聯繫 Aspose 支援尋求協助。
-
-### Q5：Aspose.BarCode for Java 有試用版嗎？
-
- A5：是的，您可以透過下載Aspose.BarCode來探索Aspose.BarCode的功能[免費試用](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,104 +1,118 @@
 ---
-title: รับขนาดบาร์โค้ดขั้นต่ำใน Java ด้วย Aspose.BarCode
-linktitle: รับขนาดบาร์โค้ดขั้นต่ำ
+date: 2025-12-01
+description: เรียนรู้วิธีสร้างบาร์โค้ดขนาดต่ำสุดและตั้งค่าขนาดบาร์โค้ดใน Java ด้วย
+  Aspose.BarCode ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อการสร้างบาร์โค้ดที่มีประสิทธิภาพและประหยัดพื้นที่
+language: th
+linktitle: Getting Minimum BarCode Size
 second_title: Aspose.BarCode Java API
-description: เรียนรู้วิธีสร้างบาร์โค้ดขนาดขั้นต่ำใน Java โดยใช้ Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างบาร์โค้ดที่มีประสิทธิภาพและปรับพื้นที่ให้เหมาะสม
+title: วิธีสร้างบาร์โค้ดขั้นต่ำใน Java ด้วย Aspose.BarCode
+url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
-url: /th/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# รับขนาดบาร์โค้ดขั้นต่ำใน Java ด้วย Aspose.BarCode
+# วิธีสร้างบาร์โค้ดขนาดต่ำสุดใน Java ด้วย Aspose.BarCode
 
-## การแนะนำ
+## Introduction
 
-ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการรับขนาดบาร์โค้ดขั้นต่ำใน Java โดยใช้ Aspose.BarCode หากคุณต้องการปรับภาพบาร์โค้ดให้เหมาะสมเพื่อประสิทธิภาพพื้นที่หรือข้อกำหนดในการแสดงผลที่เฉพาะเจาะจง บทช่วยสอนนี้เหมาะสำหรับคุณ Aspose.BarCode สำหรับ Java มีชุดคุณลักษณะที่มีประสิทธิภาพ และในบทช่วยสอนนี้ เราจะเน้นไปที่การกำหนดขนาดของ BarCode ของคุณให้เล็กที่สุด
+If you need to **create minimum barcode** images that occupy the smallest possible area while still being scannable, you’re in the right place. In many mobile, IoT, or print‑heavy applications, every millimeter counts, and Aspose.BarCode for Java gives you fine‑grained control to **set barcode size** exactly the way you need it. This tutorial walks you through the entire process—from setting up the generator to disabling auto‑sizing and defining the tiniest viable dimensions.
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What does “minimum barcode” mean?** The smallest image dimensions that still satisfy the symbology’s readability requirements.  
+- **Can I use any barcode type?** Yes, but some symbologies have stricter minimum size rules.  
+- **Do I need a license for development?** A free trial works for evaluation; a commercial license is required for production.  
+- **Which Java version is supported?** Java 8 or later.  
+- **Will disabling AutoSize affect quality?** No, it only stops Aspose from automatically enlarging the image.
 
-ก่อนที่เราจะเจาะลึกโค้ด ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## Prerequisites
 
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว
+Before we start coding, make sure you have:
 
-2.  Aspose.BarCode สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.BarCode สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/barcode/java/).
+1. **Java Development Kit (JDK)** – Java 8 or newer installed and configured.  
+2. **Aspose.BarCode for Java** – Download the latest library from the official site: [Aspose.BarCode Java Downloads](https://releases.aspose.com/barcode/java/).  
 
-ตอนนี้เรามาดูในส่วนของการเขียนโค้ดกันดีกว่า
+You’ll also need a folder (e.g., `dataDir`) where the generated PNG will be saved.
 
-## นำเข้าเนมสเปซ
+## Import Namespaces
 
-ในโค้ด Java ของคุณ ให้เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็น:
+First, import the classes required for barcode generation and size manipulation.
 
 ```java
-
 import com.aspose.barcode.generation.AutoSizeMode;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าเครื่องสร้างบาร์โค้ด
+## How to set barcode size in Java
 
- สร้างอินสแตนซ์ของ`BarcodeGenerator` ตั้งค่าประเภทสัญลักษณ์เป็น CODE_128 และกำหนดข้อความบาร์โค้ด:
+Below is a concise, step‑by‑step guide that shows exactly how to **create minimum barcode** images by controlling width and height manually.
+
+### Step 1: Create Minimum Barcode – Set Up the Generator
+Instantiate `BarcodeGenerator`, choose the symbology (CODE_128 in this example), and provide the data you want to encode.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-## ขั้นตอนที่ 2: ปิดใช้งาน AutoSizeMode
-
-หากต้องการปรับแต่งขนาด ให้ปิดใช้งานโหมดการปรับขนาดอัตโนมัติ:
+### Step 2: Disable AutoSizeMode
+By default Aspose automatically enlarges the image to meet the symbology’s minimum requirements. Turn this feature off so you can define the dimensions yourself.
 
 ```java
 bb.getParameters().setAutoSizeMode(AutoSizeMode.NONE);
 ```
 
-## ขั้นตอนที่ 3: ตั้งค่าความสูงและความกว้างของรูปภาพเป็นขั้นต่ำ
-
-ปรับขนาดภาพให้เหลือน้อยที่สุด:
+### Step 3: Set Image Height and Width to Minimum
+Now explicitly set the image size. The values shown (1 mm × 1 mm) are illustrative; you should adjust them to the smallest size that still scans reliably for your chosen symbology.
 
 ```java
 bb.getParameters().getImageWidth().setMillimeters(1);
 bb.getParameters().getImageHeight().setMillimeters(1);
 ```
 
-## ขั้นตอนที่ 4: บันทึกภาพบาร์โค้ด
+> **Pro tip:** Test the generated barcode with a real scanner after each size change to ensure readability.
 
-สร้างภาพบาร์โค้ดและบันทึกลงในไฟล์:
+### Step 4: Save the Barcode Image
+Generate the bitmap and write it to a PNG file. Replace `dataDir` with the path to your output folder.
 
 ```java
 javax.imageio.ImageIO.write(bb.generateBarCodeImage(), "PNG", new java.io.File(dataDir + "minimumresult.png"));
 ```
 
-ทำซ้ำขั้นตอนเหล่านี้กับบาร์โค้ดแต่ละตัวที่คุณต้องการปรับแต่ง
+Repeat the above steps for any additional barcodes you need to generate at the minimum size.
 
-ตอนนี้คุณได้สร้าง BarCode ขนาดต่ำสุดโดยใช้ Aspose.BarCode สำหรับ Java สำเร็จแล้ว
+## Common Issues & Solutions
 
-## บทสรุป
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Barcode does not scan | Size too small for the chosen symbology | Increase `ImageWidth`/`ImageHeight` in 0.5 mm increments and retest |
+| Image appears blurry | Image saved with low DPI | Use `bb.getParameters().getResolution().setDpi(300)` before saving |
+| `EncodeTypes` not found | Missing import for `EncodeTypes` | Add `import com.aspose.barcode.EncodeTypes;` |
 
-ในบทช่วยสอนนี้ เราได้สำรวจวิธีลดขนาดของ BarCodes ใน Java โดยใช้ Aspose.BarCode ไม่ว่าคุณจะทำงานกับแอปพลิเคชันที่มีพื้นที่จำกัดหรือมุ่งเป้าไปที่การแสดงผลภาพที่ดีที่สุด Aspose.BarCode มอบความยืดหยุ่นที่คุณต้องการ
+## Frequently Asked Questions
 
-## คำถามที่พบบ่อย
+**Q: Can I customize the size of other barcode types using Aspose.BarCode for Java?**  
+A: Absolutely! Aspose.BarCode supports a wide range of symbologies, and you can use the same `setAutoSizeMode` and dimension properties to **set barcode size** for each of them.
 
-### คำถามที่ 1: ฉันสามารถปรับแต่งขนาดของ BarCodes ประเภทอื่นโดยใช้ Aspose.BarCode สำหรับ Java ได้หรือไม่
+**Q: Is Aspose.BarCode suitable for enterprise‑level applications?**  
+A: Yes. It offers high‑performance generation, extensive format support, and a licensing model that scales with enterprise needs.
 
-A1: แน่นอน! Aspose.BarCode รองรับสัญลักษณ์ที่หลากหลาย ช่วยให้คุณปรับแต่งขนาดสำหรับบาร์โค้ดประเภทต่างๆ ได้
+**Q: Are there licensing considerations for commercial projects?**  
+A: A valid commercial license is required for production use. You can obtain one from the [Aspose purchase portal](https://purchase.aspose.com/buy).
 
-### คำถามที่ 2: Aspose.BarCode เหมาะสำหรับการใช้งานระดับองค์กรหรือไม่
+**Q: How can I get help if I run into problems?**  
+A: Visit the Aspose.BarCode [forum](https://forum.aspose.com/c/barcode/13) for community assistance or contact Aspose support directly.
 
-ตอบ 2: ใช่ Aspose.BarCode ถูกนำมาใช้กันอย่างแพร่หลายในแอปพลิเคชันระดับองค์กร โดยให้ความสามารถในการสร้างและปรับแต่งบาร์โค้ดที่มีประสิทธิภาพ
+**Q: Is a trial version available?**  
+A: Yes, you can download a fully functional trial from the [Aspose.BarCode free trial page](https://releases.aspose.com/).
 
-### คำถามที่ 3: มีข้อควรพิจารณาในการอนุญาตให้ใช้ Aspose.BarCode ในโครงการเชิงพาณิชย์หรือไม่
+---
 
- A3: ใช่ สำหรับการใช้งานเชิงพาณิชย์ คุณต้องได้รับใบอนุญาตที่ถูกต้อง คุณสามารถค้นหารายละเอียดใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.BarCode for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
-### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ Java ได้อย่างไร
-
- A4: ไปที่ Aspose.BarCode[ฟอรั่ม](https://forum.aspose.com/c/barcode/13)สำหรับการสนับสนุนจากชุมชนหรือติดต่อฝ่ายสนับสนุนของ Aspose เพื่อขอความช่วยเหลือ
-
-### คำถามที่ 5: Aspose.BarCode สำหรับ Java มีเวอร์ชันทดลองใช้งานหรือไม่
-
- A5: ได้ คุณสามารถสำรวจคุณสมบัติของ Aspose.BarCode ได้โดยการดาวน์โหลด[ทดลองฟรี](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

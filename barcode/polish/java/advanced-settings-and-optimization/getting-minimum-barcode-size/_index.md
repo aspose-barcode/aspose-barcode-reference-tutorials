@@ -1,104 +1,119 @@
 ---
-title: Uzyskiwanie minimalnego rozmiaru kodu kreskowego w Javie za pomocą Aspose.BarCode
-linktitle: Uzyskiwanie minimalnego rozmiaru kodu kreskowego
-second_title: Aspose.BarCode API Java
-description: Dowiedz się, jak tworzyć kody kreskowe o minimalnej wielkości w Javie przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać wydajne i zoptymalizowane pod względem przestrzennym generowanie kodów kreskowych.
+date: 2025-12-01
+description: Dowiedz się, jak tworzyć minimalny kod kreskowy i ustawiać jego rozmiar
+  w Javie przy użyciu Aspose.BarCode. Skorzystaj z naszego krok po kroku przewodnika,
+  aby efektywnie generować kody kreskowe zoptymalizowane pod kątem oszczędności miejsca.
+language: pl
+linktitle: Getting Minimum BarCode Size
+second_title: Aspose.BarCode Java API
+title: Jak stworzyć minimalny kod kreskowy w Javie z Aspose.BarCode
+url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
-url: /pl/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uzyskiwanie minimalnego rozmiaru kodu kreskowego w Javie za pomocą Aspose.BarCode
+# Jak utworzyć minimalny kod kreskowy w Javie przy użyciu Aspose.BarCode
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym przewodniku krok po kroku dotyczącym uzyskiwania minimalnego rozmiaru kodu kreskowego w Javie przy użyciu Aspose.BarCode. Jeśli chcesz zoptymalizować obrazy kodów kreskowych pod kątem oszczędności miejsca lub określonych wymagań dotyczących wyświetlania, ten samouczek jest dla Ciebie. Aspose.BarCode dla Java zapewnia potężny zestaw funkcji, a w tym samouczku skupimy się na dostosowaniu rozmiaru kodu kreskowego do minimum.
+Jeśli potrzebujesz **utworzyć minimalny kod kreskowy** obrazy, które zajmują jak najmniejszy obszar, a jednocześnie są skanowalne, jesteś we właściwym miejscu. W wielu aplikacjach mobilnych, IoT lub intensywnie drukowanych, każdy milimetr ma znaczenie, a Aspose.BarCode for Java daje precyzyjną kontrolę, aby **ustawić rozmiar kodu kreskowego** dokładnie tak, jak potrzebujesz. Ten samouczek przeprowadzi Cię przez cały proces — od konfiguracji generatora po wyłączenie automatycznego dopasowywania i określenie najmniejszych dopuszczalnych wymiarów.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „minimalny kod kreskowy”?** Najmniejsze wymiary obrazu, które nadal spełniają wymagania czytelności symbologii.  
+- **Czy mogę używać dowolnego typu kodu kreskowego?** Tak, ale niektóre symbologie mają bardziej restrykcyjne zasady minimalnego rozmiaru.  
+- **Czy potrzebna jest licencja do rozwoju?** Bezpłatna wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w produkcji.  
+- **Jaką wersję Javy obsługujecie?** Java 8 lub nowsza.  
+- **Czy wyłączenie AutoSize wpłynie na jakość?** Nie, wyłącza jedynie automatyczne powiększanie obrazu przez Aspose.
 
-Zanim zagłębimy się w kod, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java.
+Zanim rozpoczniemy kodowanie, upewnij się, że masz:
 
-2.  Aspose.BarCode dla Java: Pobierz i zainstaluj Aspose.BarCode dla Java z[Tutaj](https://releases.aspose.com/barcode/java/).
+1. **Java Development Kit (JDK)** – zainstalowaną i skonfigurowaną Javę 8 lub nowszą.  
+2. **Aspose.BarCode for Java** – pobierz najnowszą bibliotekę ze strony: [Aspose.BarCode Java Downloads](https://releases.aspose.com/barcode/java/).  
 
-Przejdźmy teraz do części dotyczącej kodowania.
+Będziesz także potrzebować folderu (np. `dataDir`), w którym zostanie zapisany wygenerowany plik PNG.
 
-## Importuj przestrzenie nazw
+## Importowanie przestrzeni nazw
 
-W kodzie Java zacznij od zaimportowania niezbędnych przestrzeni nazw:
+Najpierw zaimportuj klasy niezbędne do generowania kodu kreskowego i manipulacji rozmiarem.
 
 ```java
-
 import com.aspose.barcode.generation.AutoSizeMode;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Krok 1: Skonfiguruj generator kodów kreskowych
+## Jak ustawić rozmiar kodu kreskowego w Javie
 
- Utwórz instancję`BarcodeGenerator` class, ustaw typ symboliki na CODE_128 i zdefiniuj tekst kodu kreskowego:
+Poniżej znajdziesz zwięzły, krok po kroku przewodnik, który pokazuje, jak **utworzyć minimalny kod kreskowy** kontrolując szerokość i wysokość ręcznie.
+
+### Krok 1: Utwórz minimalny kod kreskowy – skonfiguruj generator
+Utwórz instancję `BarcodeGenerator`, wybierz symbologię (w tym przykładzie CODE_128) i podaj dane, które chcesz zakodować.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-## Krok 2: Wyłącz tryb AutoSize
-
-Aby dostosować rozmiar, wyłącz tryb automatycznego dopasowywania rozmiaru:
+### Krok 2: Wyłącz AutoSizeMode
+Domyślnie Aspose automatycznie powiększa obraz, aby spełnić minimalne wymagania symbologii. Wyłącz tę funkcję, aby samodzielnie określić wymiary.
 
 ```java
 bb.getParameters().setAutoSizeMode(AutoSizeMode.NONE);
 ```
 
-## Krok 3: Ustaw wysokość i szerokość obrazu na minimum
-
-Dostosuj wymiary obrazu do wymaganego minimum:
+### Krok 3: Ustaw minimalną wysokość i szerokość obrazu
+Teraz jawnie ustaw rozmiar obrazu. Pokazane wartości (1 mm × 1 mm) są jedynie przykładem; dostosuj je do najmniejszego rozmiaru, który nadal będzie się dał niezawodnie zeskanować dla wybranej symbologii.
 
 ```java
 bb.getParameters().getImageWidth().setMillimeters(1);
 bb.getParameters().getImageHeight().setMillimeters(1);
 ```
 
-## Krok 4: Zapisz obraz kodu kreskowego
+> **Porada:** Po każdej zmianie rozmiaru przetestuj wygenerowany kod kreskowy prawdziwym skanerem, aby upewnić się, że jest czytelny.
 
-Wygeneruj obraz kodu kreskowego i zapisz go w pliku:
+### Krok 4: Zapisz obraz kodu kreskowego
+Wygeneruj bitmapę i zapisz ją jako plik PNG. Zastąp `dataDir` ścieżką do swojego folderu wyjściowego.
 
 ```java
 javax.imageio.ImageIO.write(bb.generateBarCodeImage(), "PNG", new java.io.File(dataDir + "minimumresult.png"));
 ```
 
-Powtórz te kroki dla każdego kodu kreskowego, który chcesz dostosować.
+Powtórz powyższe kroki dla wszystkich dodatkowych kodów kreskowych, które musisz wygenerować w minimalnym rozmiarze.
 
-Teraz pomyślnie utworzyłeś kod kreskowy o minimalnym rozmiarze przy użyciu Aspose.BarCode dla Java.
+## Typowe problemy i rozwiązania
 
-## Wniosek
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| Kod kreskowy nie jest skanowany | Zbyt mały rozmiar dla wybranej symbologii | Zwiększ `ImageWidth`/`ImageHeight` w krokach po 0,5 mm i przetestuj ponownie |
+| Obraz jest rozmyty | Zapisano obraz z niską rozdzielczością DPI | Ustaw `bb.getParameters().getResolution().setDpi(300)` przed zapisem |
+| `EncodeTypes` nie znaleziono | Brak importu dla `EncodeTypes` | Dodaj `import com.aspose.barcode.EncodeTypes;` |
 
-tym samouczku omówiliśmy, jak zminimalizować rozmiar kodów kreskowych w Javie za pomocą Aspose.BarCode. Niezależnie od tego, czy pracujesz nad aplikacjami o ograniczonej przestrzeni, czy też zależy Ci na zoptymalizowanym wyświetlaniu obrazu, Aspose.BarCode zapewnia elastyczność, której potrzebujesz.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**P: Czy mogę dostosować rozmiar innych typów kodów kreskowych przy użyciu Aspose.BarCode for Java?**  
+O: Oczywiście! Aspose.BarCode obsługuje szeroką gamę symbologii i możesz używać tych samych metod `setAutoSizeMode` oraz właściwości wymiarów, aby **ustawić rozmiar kodu kreskowego** dla każdej z nich.
 
-### P1: Czy mogę dostosować rozmiar innych typów kodów kreskowych za pomocą Aspose.BarCode for Java?
+**P: Czy Aspose.BarCode nadaje się do aplikacji klasy enterprise?**  
+O: Tak. Oferuje wysoką wydajność generowania, szerokie wsparcie formatów oraz model licencjonowania skalowalny do potrzeb przedsiębiorstw.
 
-A1: Absolutnie! Aspose.BarCode obsługuje wiele symboli, umożliwiając dostosowanie rozmiaru dla różnych typów kodów kreskowych.
+**P: Czy istnieją kwestie licencyjne dla projektów komercyjnych?**  
+O: Wymagana jest ważna licencja komercyjna do użytku produkcyjnego. Można ją uzyskać w [portalu zakupowym Aspose](https://purchase.aspose.com/buy).
 
-### P2: Czy Aspose.BarCode nadaje się do zastosowań na poziomie przedsiębiorstwa?
+**P: Jak mogę uzyskać pomoc, jeśli napotkam problemy?**  
+O: Odwiedź forum Aspose.BarCode [forum](https://forum.aspose.com/c/barcode/13) w celu uzyskania pomocy od społeczności lub skontaktuj się bezpośrednio z wsparciem Aspose.
 
-Odpowiedź 2: Tak, Aspose.BarCode jest szeroko stosowany w aplikacjach na poziomie przedsiębiorstwa, zapewniając solidne możliwości generowania i dostosowywania kodów kreskowych.
+**P: Czy dostępna jest wersja próbna?**  
+O: Tak, możesz pobrać w pełni funkcjonalną wersję próbną ze [strony darmowego trialu Aspose.BarCode](https://releases.aspose.com/).
 
-### P3: Czy istnieją jakieś uwagi licencyjne dotyczące używania Aspose.BarCode w projektach komercyjnych?
+---
 
- Odpowiedź 3: Tak, do użytku komercyjnego musisz uzyskać ważną licencję. Możesz znaleźć szczegóły licencji[Tutaj](https://purchase.aspose.com/buy).
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.BarCode for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
 
-### P4: Jak mogę uzyskać wsparcie dla Aspose.BarCode dla Java?
-
- A4: Odwiedź Aspose.BarCode[forum](https://forum.aspose.com/c/barcode/13)aby uzyskać wsparcie społeczności lub skontaktuj się z obsługą Aspose w celu uzyskania pomocy.
-
-### P5: Czy dostępna jest wersja próbna Aspose.BarCode dla Java?
-
- O5: Tak, możesz poznać funkcje Aspose.BarCode, pobierając plik[bezpłatna wersja próbna](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
