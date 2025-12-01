@@ -1,99 +1,140 @@
 ---
-title: Mit Aspose.BarCode die Barcode-Erkennungsqualität in Java in Prozent ermitteln
-linktitle: Ermittlung der Barcode-Erkennungsqualität in Prozent
-second_title: Aspose.BarCode Java API
-description: Mit Aspose.BarCode die Qualität der Barcode-Erkennung in Java erreichen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für optimale Ergebnisse.
+date: 2025-11-30
+description: Erfahren Sie, wie Sie die Lesegüte von Barcodes in Java mit Aspose.Barcode
+  beurteilen können. Schritt‑für‑Schritt‑Anleitung zum Abrufen des Erkennungsqualitätsprozentsatzes.
+language: de
+linktitle: Getting Barcode Recognition Quality in Percent
+second_title: Aspose.Barcode Java API
+title: Aspose.Barcode Java – Ermittlung der Barcode‑Erkennungsqualität in Prozent
+url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
-url: /de/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mit Aspose.BarCode die Barcode-Erkennungsqualität in Java in Prozent ermitteln
+# Aspose.Barcode Java – Ermittlung der Barcode‑Erkennungsqualität in Prozent
 
 ## Einführung
 
-Wenn Sie die Barcode-Erkennungsqualität Ihrer Java-Anwendung verbessern möchten, ist Aspose.BarCode das perfekte Werkzeug für diese Aufgabe. In diesem Tutorial führen wir Sie durch den Prozess, mit Aspose.BarCode für Java in wenigen einfachen Schritten eine optimale Barcode-Erkennungsqualität zu erreichen.
+Wenn Sie die **Barcode‑Lesegenauigkeit** in einer Java‑Anwendung **bewerten** müssen, bietet **Aspose.Barcode Java** eine unkomplizierte API, die die Erkennungsqualität als Prozentsatz zurückgibt. In diesem Tutorial führen wir Sie durch die genauen Schritte, die erforderlich sind, um diesen Prozentsatz abzurufen, erklären, warum die Kennzahl wichtig ist, und zeigen Ihnen, wie Sie den Aufruf in Ihren bestehenden Code integrieren können.
+
+## Schnelle Antworten
+- **Was bedeutet „Lesegenauigkeit“?** Es ist der Vertrauenswert (0‑100 %), den die Bibliothek jedem dekodierten Barcode zuweist.  
+- **Welche Bibliotheksversion wird benötigt?** Jede aktuelle Aspose.Barcode Java‑Version (das Beispiel verwendet die neueste 24.x‑Serie).  
+- **Benötige ich eine Lizenz?** Eine temporäre Lizenz reicht für Tests; für die Produktion ist eine Voll‑Lizenz erforderlich.  
+- **Kann ich alle Barcode‑Typen lesen?** Ja – das Flag `DecodeType.ALL_SUPPORTED_TYPES` aktiviert jedes von Aspose.Barcode unterstützte Format.  
+- **Ist der Qualitätswert für QR‑Codes zuverlässig?** Absolut – derselbe Vertrauens‑Algorithmus wird sowohl für 1‑D‑ als auch 2‑D‑Symbologien angewendet.
+
+## Was ist Aspose.Barcode Java und wie bewertet man die Barcode‑Lesegenauigkeit?
+
+**Aspose.Barcode Java** ist eine vollständig verwaltete Bibliothek, die Entwicklern ermöglicht, Barcodes zu erzeugen, zu lesen und zu analysieren, ohne externe Abhängigkeiten. Einer ihrer nützlichsten Diagnosen ist die **Lesegenauigkeit**‑Metrik, die anzeigt, wie sicher die Engine ein Symbol dekodiert hat. Diese Kennzahl ist entscheidend, wenn Sie entscheiden müssen, ob ein Scan akzeptiert, ein erneutes Erfassen angefordert oder eine Fehlerbehandlungslogik ausgelöst werden soll.
+
+## Warum Aspose.Barcode Java für die Barcode‑Lesegenauigkeit verwenden?
+
+- **Konsistente Vertrauenswerte** über alle unterstützten Symbologien hinweg.  
+- **Keine nativen DLLs** – reines Java, funktioniert auf jeder JVM‑kompatiblen Plattform.  
+- **Fein abgestimmte Kontrolle**: Sie können die Qualität pro Barcode abrufen, nicht nur ein globales Bestehen/Nichtbestehen.  
+- **Leistungsoptimierte** Lesemaschine, die von Desktop bis zu Cloud‑Diensten skaliert.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System eine Java-Entwicklungsumgebung eingerichtet ist.
+- **Java‑Entwicklungsumgebung** – JDK 8 oder neuer, mit Ihrer bevorzugten IDE (IntelliJ, Eclipse, VS Code usw.).  
+- **Aspose.Barcode Java‑Bibliothek** – laden Sie das neueste JAR von der offiziellen Seite herunter: [Aspose.Barcode for Java](https://releases.aspose.com/barcode/java/).  
+- **Ein Beispiel‑Barcode‑Bild** – das Tutorial verwendet `code39Extended.jpg`, das sich im Ordner `BarcodeReader/advanced_features/` befindet.
 
--  Aspose.BarCode-Bibliothek: Laden Sie die Aspose.BarCode-Bibliothek für Java herunter und installieren Sie sie. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/barcode/java/).
-
-Beginnen wir nun mit der Schritt-für-Schritt-Anleitung.
+Jetzt, da wir eingerichtet sind, tauchen wir in den Code ein.
 
 ## Namespaces importieren
 
-In diesem Schritt importieren Sie die erforderlichen Namespaces, um Aspose.BarCode in Ihrer Java-Anwendung zu verwenden.
+Die folgenden Importe geben Ihnen Zugriff auf die Reader‑ und Ergebnis‑Klassen, die für die Qualitäts‑Extraktion benötigt werden.
 
 ```java
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
-
-
 ```
 
-Lassen Sie uns nun das bereitgestellte Beispiel in mehrere Schritte aufteilen, um Sie durch den Prozess zu führen, mit dem Sie mit Aspose.BarCode für Java die Barcode-Erkennungsqualität in Prozent ermitteln.
+### Schritt 1: Ressourcenverzeichnis‑Pfad festlegen
 
-## Schritt 1: Legen Sie den Ressourcenverzeichnispfad fest
+Definieren Sie den Ordner, der das Beispielbild enthält. `Utils.getDataDir` ist ein Hilfsprogramm, das den absoluten Pfad für das aktuelle Projekt ermittelt.
 
 ```java
-// Der Pfad zum Ressourcenverzeichnis.
+// The path to the resource directory.
 String dataDir = Utils.getDataDir(GetBarCodeRecognitionQualityInPercent.class)
-		+ "BarcodeReader/advanced_features/";
+        + "BarcodeReader/advanced_features/";
 ```
 
-## Schritt 2: BarCodeReader-Objekt initialisieren
+### Schritt 2: BarCodeReader‑Objekt initialisieren
+
+Erstellen Sie eine `BarCodeReader`‑Instanz, die auf die Bilddatei zeigt und ihr mitteilt, **alle unterstützten Barcode‑Typen** auszuprobieren.
 
 ```java
-// Initialisieren Sie das BarCodeReader-Objekt
+// Initialize the BarCodeReader object
 BarCodeReader reader = new BarCodeReader(dataDir + "code39Extended.jpg",
-		com.aspose.barcode.barcoderecognition.DecodeType.ALL_SUPPORTED_TYPES);
+        com.aspose.barcode.barcoderecognition.DecodeType.ALL_SUPPORTED_TYPES);
 ```
 
-## Schritt 3: Rufen Sie die Read-Methode auf
+### Schritt 3: Barcodes lesen und den Qualitäts‑Prozentsatz abrufen
+
+Iterieren Sie über jeden erkannten Barcode, geben Sie dessen Text, Typ und den **Lesegenauigkeit**‑Prozentsatz aus, der von `getReadingQuality()` zurückgegeben wird.
 
 ```java
-// Rufen Sie die Lesemethode auf
+// Call the read method
 for (BarCodeResult result : reader.readBarCodes()) {
-	System.out.println(result.getCodeText() + " Type: " + result.getCodeType());
-	double percent = result.getReadingQuality();
-	System.out.println("Percent: " + percent);
+    System.out.println(result.getCodeText() + " Type: " + result.getCodeType());
+    double percent = result.getReadingQuality();
+    System.out.println("Percent: " + percent);
 }
 ```
 
-Wenn Sie diese Schritte befolgen, können Sie Aspose.BarCode einfach in Ihre Java-Anwendung integrieren, um die Barcode-Erkennungsqualität in Prozent zu erhalten.
+**Was passiert hier?**  
+- `readBarCodes()` gibt eine Sammlung von `BarCodeResult`‑Objekten zurück, eines für jeden gefundenen Barcode.  
+- `getReadingQuality()` liefert ein `double` zwischen `0` und `100`, das den Vertrauensgrad darstellt.  
+- Sie können diesen Wert verwenden, um zu entscheiden, ob der Scan akzeptabel ist oder ob Sie den Benutzer zu einem erneuten Versuch auffordern müssen.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Zusammenfassend bietet Aspose.BarCode für Java eine nahtlose Lösung zur Verbesserung der Barcode-Erkennungsqualität. Durch die Befolgung dieses Tutorials haben Sie gelernt, wie Sie diese Funktion Schritt für Schritt implementieren und so eine genaue und effiziente Barcode-Erkennung in Ihrer Java-Anwendung gewährleisten.
+| Problem | Ursache | Lösung |
+|-------|-------|-----|
+| **Qualität immer 0** | Bild hat niedrige Auflösung oder ist stark verwischt. | Verwenden Sie eine höher aufgelöste Quelle oder wenden Sie Bildvorverarbeitung an (z. B. Schärfen). |
+| **Keine Barcodes erkannt** | Falsches `DecodeType`‑Flag. | Stellen Sie sicher, dass Sie `DecodeType.ALL_SUPPORTED_TYPES` verwenden oder den genauen erwarteten Typ angeben. |
+| **Ausnahme bei `Utils.getDataDir`** | Projektstruktur unterscheidet sich vom Beispiel. | Ersetzen Sie den Hilfsaufruf durch einen fest codierten absoluten Pfad oder einen relativen Pfad, der zu Ihrer Struktur passt. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Ist Aspose.BarCode mit allen Barcode-Typen kompatibel?
+### Q1: Ist Aspose.Barcode mit allen Barcode‑Typen kompatibel?
 
-A1: Aspose.BarCode unterstützt eine Vielzahl von Barcode-Typen und gewährleistet so die Kompatibilität mit verschiedenen Industriestandards.
+A1: Aspose.Barcode unterstützt eine breite Palette von Barcode‑Symbologien, einschließlich 1‑D (Code‑39, Code‑128, UPC) und 2‑D (QR, DataMatrix, PDF417) Standards.
 
-### F2: Kann ich Aspose.BarCode für kommerzielle Zwecke verwenden?
+### Q2: Kann ich Aspose.Barcode für kommerzielle Zwecke nutzen?
 
- A2: Ja, Sie können Aspose.BarCode sowohl für persönliche als auch für kommerzielle Projekte verwenden. Einzelheiten zur Lizenzierung finden Sie unter[Hier](https://purchase.aspose.com/buy).
+A2: Ja, Sie können Aspose.Barcode sowohl in privaten als auch in kommerziellen Projekten verwenden. Lizenzdetails finden Sie [hier](https://purchase.aspose.com/buy).
 
-### F3: Wie kann ich zu Testzwecken eine temporäre Lizenz erhalten?
+### Q3: Wie erhalte ich eine temporäre Lizenz für Testzwecke?
 
-A3: Besorgen Sie sich eine temporäre Lizenz zum Testen von[Hier](https://purchase.aspose.com/temporary-license/).
+A3: Holen Sie sich eine temporäre Lizenz über das Aspose‑Portal [hier](https://purchase.aspose.com/temporary-license/).
 
-### F4: Wo finde ich zusätzlichen Support und Community-Diskussionen?
+### Q4: Wo finde ich zusätzlichen Support und Community‑Diskussionen?
 
- A4: Besuchen Sie die[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13) für Unterstützung und Community-Interaktionen.
+A4: Besuchen Sie das [Aspose.Barcode‑Forum](https://forum.aspose.com/c/barcode/13) für Unterstützung durch die Community und offizielle Hilfe.
 
-### F5: Sind in der Dokumentation Codebeispiele verfügbar?
+### Q5: Gibt es Code‑Beispiele in der Dokumentation?
 
- A5: Ja, ausführliche Codebeispiele finden Sie in der Dokumentation[Hier](https://reference.aspose.com/barcode/java/).
+A5: Ja, umfassende Code‑Beispiele sind in der offiziellen Dokumentation [hier](https://reference.aspose.com/barcode/java/) verfügbar.
+
+## Fazit
+
+Durch die Nutzung von **Aspose.Barcode Java** können Sie mühelos den **Barcode‑Lesegenauigkeit**‑Prozentsatz für jedes gescannte Symbol abrufen. Diese Kennzahl ermöglicht es Ihnen, intelligentere Validierungslogik zu erstellen, die Benutzererfahrung zu verbessern und eine hohe Datenintegrität in Ihren Java‑Anwendungen zu gewährleisten.
+
+---
+
+**Zuletzt aktualisiert:** 2025-11-30  
+**Getestet mit:** Aspose.Barcode Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

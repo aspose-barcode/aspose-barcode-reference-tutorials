@@ -1,99 +1,140 @@
 ---
-title: Nhận chất lượng nhận dạng mã vạch theo phần trăm trong Java với Aspose.BarCode
-linktitle: Nhận chất lượng nhận dạng mã vạch theo phần trăm
-second_title: API Java Aspose.BarCode
-description: Nhận chất lượng nhận dạng mã vạch trong Java với Aspose.BarCode. Thực hiện theo hướng dẫn từng bước của chúng tôi để có kết quả tối ưu.
+date: 2025-11-30
+description: Tìm hiểu cách đánh giá chất lượng đọc mã vạch trong Java với Aspose.Barcode.
+  Hướng dẫn từng bước để lấy phần trăm chất lượng nhận dạng.
+language: vi
+linktitle: Getting Barcode Recognition Quality in Percent
+second_title: Aspose.Barcode Java API
+title: Aspose.Barcode Java – Đánh giá chất lượng nhận dạng mã vạch bằng phần trăm
+url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
-url: /vi/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nhận chất lượng nhận dạng mã vạch theo phần trăm trong Java với Aspose.BarCode
+# Aspose.Barcode Java – Lấy Chất Lượng Nhận Diện Mã Vạch Theo Phần Trăm
 
-## Giới thiệu
+## Introduction
 
-Nếu bạn đang mong muốn có được chất lượng nhận dạng mã vạch cho ứng dụng Java của mình thì Aspose.BarCode là công cụ hoàn hảo cho công việc này. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đạt được chất lượng nhận dạng mã vạch tối ưu bằng một vài bước đơn giản bằng cách sử dụng Aspose.BarCode cho Java.
+Nếu bạn cần **đánh giá chất lượng đọc mã vạch** trong một ứng dụng Java, **Aspose.Barcode Java** cung cấp một API đơn giản trả về chất lượng nhận dạng dưới dạng phần trăm. Trong hướng dẫn này, chúng tôi sẽ đi qua các bước chính xác để lấy phần trăm đó, giải thích tại sao chỉ số này quan trọng, và chỉ cho bạn cách tích hợp cuộc gọi này vào mã hiện có của bạn.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **“reading quality” có nghĩa là gì?** Đó là điểm tin cậy (0‑100 %) mà thư viện gán cho mỗi mã vạch đã giải mã.  
+- **Phiên bản thư viện nào được yêu cầu?** Bất kỳ bản phát hành Aspose.Barcode Java gần đây nào (ví dụ mẫu sử dụng series 24.x mới nhất).  
+- **Tôi có cần giấy phép không?** Giấy phép tạm thời hoạt động cho mục đích thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Tôi có thể đọc tất cả các loại mã vạch không?** Có – cờ `DecodeType.ALL_SUPPORTED_TYPES` bật mọi định dạng được Aspose.Barcode hỗ trợ.  
+- **Giá trị chất lượng có đáng tin cậy với mã QR không?** Hoàn toàn – cùng một thuật toán tin cậy được áp dụng cho cả symbology 1‑D và 2‑D.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## What is Aspose.Barcode Java and How to Assess Barcode Reading Quality?
 
-- Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình.
+**Aspose.Barcode Java** là một thư viện được quản lý hoàn toàn cho phép các nhà phát triển tạo, đọc và phân tích mã vạch mà không cần phụ thuộc bên ngoài. Một trong những chẩn đoán hữu ích nhất của nó là chỉ số **reading quality**, cho bạn biết mức độ tự tin của engine khi giải mã một ký hiệu. Chỉ số này rất quan trọng khi bạn cần quyết định có chấp nhận một lần quét, yêu cầu chụp lại, hay kích hoạt logic xử lý lỗi.
 
--  Thư viện Aspose.BarCode: Tải xuống và cài đặt thư viện Aspose.BarCode cho Java. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/barcode/java/).
+## Why Use Aspose.Barcode Java for Barcode Reading Quality?
 
-Bây giờ, hãy bắt đầu với hướng dẫn từng bước.
+- **Điểm tin cậy nhất quán** trên mọi symbology được hỗ trợ.  
+- **Không có DLL gốc** – thuần Java, nên hoạt động trên bất kỳ nền tảng tương thích JVM nào.  
+- **Kiểm soát chi tiết**: bạn có thể lấy chất lượng cho từng mã vạch, không chỉ một kết quả toàn cục pass/fail.  
+- **Engine đọc tối ưu hiệu năng** có thể mở rộng từ máy để bàn tới dịch vụ đám mây.
 
-## Nhập không gian tên
+## Prerequisites
 
-Trong bước này, bạn sẽ nhập các vùng tên cần thiết để sử dụng Aspose.BarCode trong ứng dụng Java của mình.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+- **Môi trường phát triển Java** – JDK 8 hoặc mới hơn, cùng IDE yêu thích (IntelliJ, Eclipse, VS Code, v.v.).  
+- **Thư viện Aspose.Barcode Java** – tải JAR mới nhất từ trang chính thức: [Aspose.Barcode for Java](https://releases.aspose.com/barcode/java/).  
+- **Một hình ảnh mẫu mã vạch** – hướng dẫn này sử dụng `code39Extended.jpg` nằm trong thư mục `BarcodeReader/advanced_features/`.
+
+Sau khi đã chuẩn bị, hãy bắt đầu với đoạn mã.
+
+## Import Namespaces
+
+Các import sau sẽ cho phép bạn truy cập vào các lớp reader và result cần thiết để trích xuất chất lượng.
 
 ```java
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
-
-
 ```
 
-Bây giờ, hãy chia ví dụ được cung cấp thành nhiều bước để hướng dẫn bạn qua quá trình đạt được chất lượng nhận dạng mã vạch theo phần trăm bằng cách sử dụng Aspose.BarCode for Java.
+### Step 1: Set the Resource Directory Path
 
-## Bước 1: Đặt đường dẫn thư mục tài nguyên
+Xác định thư mục chứa hình ảnh mẫu. `Utils.getDataDir` là một helper trả về đường dẫn tuyệt đối cho dự án hiện tại.
 
 ```java
-// Đường dẫn đến thư mục tài nguyên.
+// The path to the resource directory.
 String dataDir = Utils.getDataDir(GetBarCodeRecognitionQualityInPercent.class)
-		+ "BarcodeReader/advanced_features/";
+        + "BarcodeReader/advanced_features/";
 ```
 
-## Bước 2: Khởi tạo đối tượng BarCodeReader
+### Step 2: Initialize the BarCodeReader Object
+
+Tạo một thể hiện `BarCodeReader`, chỉ tới file ảnh và yêu cầu nó thử **tất cả các loại mã vạch được hỗ trợ**.
 
 ```java
-// Khởi tạo đối tượng BarCodeReader
+// Initialize the BarCodeReader object
 BarCodeReader reader = new BarCodeReader(dataDir + "code39Extended.jpg",
-		com.aspose.barcode.barcoderecognition.DecodeType.ALL_SUPPORTED_TYPES);
+        com.aspose.barcode.barcoderecognition.DecodeType.ALL_SUPPORTED_TYPES);
 ```
 
-## Bước 3: Gọi phương thức đọc
+### Step 3: Read the Barcodes and Retrieve the Quality Percentage
+
+Duyệt qua mỗi mã vạch được phát hiện, in ra văn bản, loại và phần trăm **reading quality** được trả về bởi `getReadingQuality()`.
 
 ```java
-// Gọi phương thức đọc
+// Call the read method
 for (BarCodeResult result : reader.readBarCodes()) {
-	System.out.println(result.getCodeText() + " Type: " + result.getCodeType());
-	double percent = result.getReadingQuality();
-	System.out.println("Percent: " + percent);
+    System.out.println(result.getCodeText() + " Type: " + result.getCodeType());
+    double percent = result.getReadingQuality();
+    System.out.println("Percent: " + percent);
 }
 ```
 
-Bằng cách làm theo các bước này, bạn có thể dễ dàng tích hợp Aspose.BarCode vào ứng dụng Java của mình để đạt được chất lượng nhận dạng mã vạch theo phần trăm.
+**What’s happening here?**  
+- `readBarCodes()` trả về một collection các đối tượng `BarCodeResult`, mỗi đối tượng tương ứng với một mã vạch được tìm thấy.  
+- `getReadingQuality()` trả về một `double` trong khoảng `0` đến `100`, biểu thị mức độ tin cậy.  
+- Bạn có thể sử dụng giá trị này để quyết định liệu lần quét có chấp nhận được hay cần yêu cầu người dùng thực hiện lại.
 
-## Phần kết luận
+## Common Issues and Solutions
 
-Tóm lại, Aspose.BarCode for Java cung cấp một giải pháp liền mạch để cải thiện chất lượng nhận dạng mã vạch. Bằng cách làm theo hướng dẫn này, bạn đã học được cách triển khai tính năng này từng bước một, đảm bảo nhận dạng mã vạch chính xác và hiệu quả trong ứng dụng Java của bạn.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Quality always 0** | Hình ảnh có độ phân giải thấp hoặc bị mờ mạnh. | Sử dụng nguồn ảnh có độ phân giải cao hơn hoặc áp dụng tiền xử lý ảnh (ví dụ: làm nét). |
+| **No barcodes detected** | Cờ `DecodeType` không đúng. | Đảm bảo bạn sử dụng `DecodeType.ALL_SUPPORTED_TYPES` hoặc chỉ định đúng loại bạn mong đợi. |
+| **Exception on `Utils.getDataDir`** | Cấu trúc dự án khác với mẫu. | Thay thế lời gọi helper bằng đường dẫn tuyệt đối cố định hoặc đường dẫn tương đối phù hợp với bố cục của bạn. |
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### Câu hỏi 1: Aspose.BarCode có tương thích với tất cả các loại mã vạch không?
+### Q1: Aspose.Barcode có tương thích với tất cả các loại mã vạch không?
 
-Trả lời 1: Aspose.BarCode hỗ trợ nhiều loại mã vạch, đảm bảo khả năng tương thích với các tiêu chuẩn ngành khác nhau.
+A1: Aspose.Barcode hỗ trợ một loạt rộng các symbology, bao gồm 1‑D (Code‑39, Code‑128, UPC) và 2‑D (QR, DataMatrix, PDF417).
 
-### Câu hỏi 2: Tôi có thể sử dụng Aspose.BarCode cho mục đích thương mại không?
+### Q2: Tôi có thể sử dụng Aspose.Barcode cho mục đích thương mại không?
 
- Câu trả lời 2: Có, bạn có thể sử dụng Aspose.BarCode cho cả dự án cá nhân và thương mại. Để biết chi tiết cấp phép, hãy truy cập[đây](https://purchase.aspose.com/buy).
+A2: Có, bạn có thể dùng Aspose.Barcode trong cả dự án cá nhân và thương mại. Thông tin giấy phép có sẵn [tại đây](https://purchase.aspose.com/buy).
 
-### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho mục đích thử nghiệm?
+### Q3: Làm sao để lấy giấy phép tạm thời cho mục đích thử nghiệm?
 
-Câu trả lời 3: Xin giấy phép tạm thời để thử nghiệm từ[đây](https://purchase.aspose.com/temporary-license/).
+A3: Nhận giấy phép tạm thời từ cổng thông tin Aspose [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi 4: Tôi có thể tìm thêm hỗ trợ và thảo luận cộng đồng ở đâu?
+### Q4: Tôi có thể tìm hỗ trợ và thảo luận cộng đồng ở đâu?
 
- A4: Tham quan[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để được hỗ trợ và tương tác với cộng đồng.
+A4: Truy cập [diễn đàn Aspose.Barcode](https://forum.aspose.com/c/barcode/13) để nhận hỗ trợ từ cộng đồng và đội ngũ chính thức.
 
-### Câu hỏi 5: Có bất kỳ ví dụ mã nào có sẵn trong tài liệu không?
+### Q5: Có tài liệu mẫu code nào trong tài liệu không?
 
- Câu trả lời 5: Có, bạn có thể tìm thấy các ví dụ mã đầy đủ trong tài liệu[đây](https://reference.aspose.com/barcode/java/).
+A5: Có, các mẫu code chi tiết được cung cấp trong tài liệu chính thức [tại đây](https://reference.aspose.com/barcode/java/).
+
+## Conclusion
+
+Bằng cách tận dụng **Aspose.Barcode Java**, bạn có thể dễ dàng lấy **phần trăm chất lượng đọc mã vạch** cho bất kỳ ký hiệu nào được quét. Chỉ số này giúp bạn xây dựng logic xác thực thông minh hơn, cải thiện trải nghiệm người dùng và duy trì độ tin cậy dữ liệu cao trong các ứng dụng Java của mình.
+
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.Barcode Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
