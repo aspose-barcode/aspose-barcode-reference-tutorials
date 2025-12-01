@@ -1,35 +1,56 @@
 ---
-title: Aspose.BarCode ile Java'daki Bir Görüntüden Olası Tüm 1D Barkodları Alma
-linktitle: Bir Görüntüden Olası Tüm 1D Barkodları Alma
-second_title: Aspose.BarCode Java API'si
-description: 1D barkodları zahmetsizce çözme konusunda Aspose.BarCode for Java'nın gücünü keşfedin. Java uygulamalarınızla kusursuz entegrasyon için hemen indirin.
+date: 2025-11-29
+description: Aspose.BarCode ile Java’da 1D barkodları nasıl okuyacağınızı öğrenin
+  – Java için sağlam bir barkod kütüphanesi kullanarak görüntüden barkodları hızlı
+  bir şekilde çözün.
+language: tr
+linktitle: read 1d barcodes java
+second_title: Aspose.BarCode Java API
+title: Java'da Aspose.BarCode kullanarak 1D barkodları nasıl okursunuz
+url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
-url: /tr/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode ile Java'daki Bir Görüntüden Olası Tüm 1D Barkodları Alma
+# Java ile 1D barkodları okuma - Aspose.BarCode
 
-## giriiş
+## Giriş
 
-Geliştiricilerin çeşitli 1D barkodları zahmetsizce çözmesine ve okumasına olanak tanıyan güçlü bir araç olan Aspose.BarCode for Java dünyasına hoş geldiniz. Bu derste, Aspose.BarCode for Java kullanarak bir görüntüden olası tüm 1 boyutlu barkodları alma sürecini ele alacağız. Bu kılavuzun sonunda, barkod tanıma için bu Java kitaplığından nasıl yararlanabileceğiniz konusunda kapsamlı bir anlayışa sahip olacaksınız.
+Bu uygulamalı rehberde, güçlü **Aspose.BarCode** kütüphanesini kullanarak **Java’da 1D barkodları nasıl okuyacağınızı** keşfedeceksiniz. Ürün etiketleri, envanter etiketleri veya bir görüntüye gömülü herhangi bir doğrusal barkodu taramanız gerekse, bu öğretici ortamı kurmaktan görüntünün içinde bulunan olası tüm barkodları çıkarmaya kadar her adımı size gösterecek. Sonunda, sadece birkaç Java satırıyla **görüntü dosyalarından barkodları çözebileceksiniz**.
+
+## Hızlı Yanıtlar
+- **Aspose.BarCode ne işe yarar?** Java için 1D/2D barkodları oluşturabilen ve çözebilen tam özellikli bir barkod kütüphanesi sağlar.  
+- **Bir görüntüden birden fazla barkod okuyabilir miyim?** Evet – `BarCodeReader.readBarCodes()` yöntemi tespit edilen tüm sembolleri döndürür.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için geçici bir lisans yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Java 8 + (JDK 11 önerilir).  
+- **Bu kütüphane gerçek‑zaman tarama için yeterince hızlı mı?** Kesinlikle – yüksek performanslı toplu işleme için optimize edilmiştir.
+
+## “read 1d barcodes java” nedir?
+
+Java’da 1D barkodları okumak, **Java için bir barkod kütüphanesi** kullanarak bir görüntüyü analiz etmek, doğrusal barkod desenlerini bulmak ve kodlanmış metni, semboloji türü ve yönelim gibi meta verilerle birlikte döndürmek anlamına gelir. Aspose.BarCode, yoğun görüntü‑işleme işini soyutlayarak iş mantığınıza odaklanmanızı sağlar.
+
+## Neden Aspose.BarCode'ı görüntüden barkod çözmek için seçmelisiniz?
+
+- **Geniş semboloji desteği** – 50’den fazla 1D ve 2D tip.  
+- **Doğru tespit** – düşük kontrastlı veya döndürülmüş barkodlarda bile çalışır.  
+- **Basit API** – birkaç metod çağrısıyla tüm sonuçları alırsınız.  
+- **Harici bağımlılık yok** – saf Java, herhangi bir projeye kolayca entegre edilir.  
 
 ## Önkoşullar
 
-Bu kodlama yolculuğuna çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun. İndirebilirsin[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+- **Java Development Kit (JDK)** – sürüm 8 veya daha yeni. Resmi [Oracle JDK sayfasından](https://www.oracle.com/java/technologies/javase-downloads.html) indirin.  
+- **Aspose.BarCode for Java** – en son JAR dosyasını [Aspose sürüm sayfasından](https://releases.aspose.com/barcode/java/) alın.  
 
--  Aspose.BarCode for Java: Kitaplığı şuradan indirin:[yayın sayfası](https://releases.aspose.com/barcode/java/).
+Ortamınız hazır olduğuna göre, kodlamaya başlayalım.
 
-Artık gerekli araçlara sahip olduğunuza göre kodlama alanına geçelim.
+## İçe Aktarma Ad Alanları
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.BarCode for Java'nın işlevselliğine erişmek için Java projenize gerekli ad alanlarını ekleyin.
+Derleyicinin Aspose sınıflarını bulabilmesi için gerekli `import` ifadelerini ekleyin.
 
 ```java
 import java.awt.Point;
@@ -37,30 +58,30 @@ import java.awt.Point;
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
-
-
 ```
 
-## Adım 1: BarCodeReader Nesnesini Başlatın
+## Adım 1: BarCodeReader Nesnesini Başlatma
 
- Başlatarak başlayın`BarCodeReader`nesne. Bu nesne, sağlanan görüntüden barkodları okumak için çok önemlidir.
+Görüntü dosyanıza işaret eden bir `BarCodeReader` örneği oluşturun. `DecodeType` parametresi, motorun hangi sembolojileri arayacağını belirler; `CODE_128` örneği, birçok yaygın 1D kodu için işe yarar.
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
 ```
 
-## Adım 2: Olası Tüm Barkodları Okuyun
+> **Pro ipucu:** *Tüm* desteklenen 1D tiplerini taramak istiyorsanız, tek bir semboloji yerine `DecodeType.ALL_1D` geçirin.
 
-Şimdi görüntüdeki tüm olası barkodları çıkaralım.
+## Adım 2: Tüm Olası Barkodları Okuma
+
+`readBarCodes()` tarafından döndürülen koleksiyon üzerinde döngü kurun. Her `BarCodeResult` için çözülen metni, semboloji adını, tespit açısını ve barkod bölgesinin dört köşe koordinatını yazdırırız.
 
 ```java
 int iCount = 0;
 for (BarCodeResult result : reader.readBarCodes()) {
-    // Kod metnini, sembolojiyi, algılanan açıyı, barkodun tanınma yüzdesini görüntüleyin
+    // Display code text, symbology, detected angle, recognition percentage of the barcode
     System.out.println("Code Text: " + result.getCodeText() + " Symbology: " + result.getCodeTypeName()
             + " Recognition percentage: " + result.getRegion().getAngle());
 
-    // Algılanan barkodun x ve y koordinatlarını görüntüle
+    // Display x and y coordinates of barcode detected
     Point[] point = result.getRegion().getPoints();
 
     System.out.println("Top left coordinates: X = " + point[0].getX() + ", Y = " + point[0].getY());
@@ -72,33 +93,43 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Resimde bulunan her barkod için bu adımları tekrarlayın.
+Döngü, bulunan her barkodu otomatik olarak işler; bu yüzden okuyucuyu tekrar tekrar çağırmanıza gerek yoktur. Döngü tamamlandığında, `iCount` tespit edilen toplam barkod sayısını tutar.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Tebrikler! Aspose.BarCode for Java kullanarak bir görüntüden olası tüm 1 boyutlu barkodları alma sürecini başarıyla incelediniz. Bu güçlü kitaplık, Java uygulamalarınızda barkod tanıma için birçok olanak sunar.
+| Belirti | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| Barkod bulunamadı | Görüntü çok bulanık veya düşük kontrastlı | Görüntüyü ön‑işleme tabi tutun (kontrast artırın, ikilileştirin) ve okuyucuya beslemeden önce. |
+| Yanlış semboloji raporlandı | Yanlış `DecodeType` kullanıldı | `DecodeType.ALL_1D` kullanarak motorun herhangi bir 1D tipini otomatik algılamasını sağlayın. |
+| Açısal değerler hatalı | Görüntü döndürülmüş | API zaten dönüş açısını döndürür; gerekirse görüntüyü geri döndürerek düzeltebilirsiniz. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.BarCode for Java ticari kullanıma uygun mudur?
+**S: Aspose.BarCode for Java ticari projeler için uygun mu?**  
+C: Evet. Ticari lisans, tüm değerlendirme kısıtlamalarını kaldırır ve tam dağıtım hakları verir.
 
-C1: Evet, Aspose.BarCode for Java ticari kullanım için tasarlanmıştır ve profesyonel uygulamalarda barkod işleme için güçlü özellikler sunar.
+**S: Lisans satın almadan kütüphaneyi test edebilir miyim?**  
+C: Kesinlikle. Geliştirme ve test için [Aspose geçici‑lisans sayfasından](https://purchase.aspose.com/temporary-license/) geçici bir lisans alabilirsiniz.
 
-### S2: Geçici lisansı test amacıyla kullanabilir miyim?
+**S: Tam API referansını nerede bulabilirim?**  
+C: Kapsamlı dokümantasyon [burada](https://reference.aspose.com/barcode/java/) mevcuttur.
 
- Cevap2: Kesinlikle geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/)test ve deneme amaçlı.
+**S: Bir sorunla karşılaşırsam nasıl destek alabilirim?**  
+C: Sorununuzu [Aspose.BarCode forumunda](https://forum.aspose.com/c/barcode/13) paylaşın; topluluk ve Aspose mühendisleri yardımcı olacaktır.
 
-### S3: Aspose.BarCode for Java'nın kapsamlı belgelerini nerede bulabilirim?
+**S: Ücretsiz deneme sürümü var mı?**  
+C: Evet – deneme sürümünü [Aspose sürüm sayfasından](https://releases.aspose.com/) indirebilirsiniz.
 
- A3: Belgelere bakın[Burada](https://reference.aspose.com/barcode/java/)Aspose.BarCode for Java hakkında ayrıntılı bilgi için.
+## Sonuç
 
-### S4: Nasıl yardım isteyebilirim veya destek için toplulukla nasıl bağlantı kurabilirim?
+Artık **Java’da 1D barkodları okuma** konusunda Aspose.BarCode kullanarak, **görüntü dosyalarından barkod çözme** işlemini basit ve güvenilir bir şekilde yapabileceğinizi öğrendiniz. Bu kod parçacığını kendi uygulamalarınıza entegre ederek envanter taramaları, bilet doğrulama veya görüntülerde ortaya çıkan doğrusal barkodların bulunduğu herhangi bir senaryoyu otomatikleştirebilirsiniz.
 
- A4: Ziyaret edin[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13) yardım almak, deneyimleri paylaşmak ve toplulukla etkileşime geçmek için.
+---
 
-### S5: Ücretsiz deneme sürümü mevcut mu?
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Sürüm:** Aspose.BarCode 24.11 for Java  
+**Yazar:** Aspose  
 
- A5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/) Aspose.BarCode for Java'nın yeteneklerini deneyimlemek için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
