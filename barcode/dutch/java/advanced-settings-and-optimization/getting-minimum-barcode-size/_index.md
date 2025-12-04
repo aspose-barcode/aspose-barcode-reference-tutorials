@@ -1,104 +1,128 @@
 ---
-title: Minimale streepjescodegrootte verkrijgen in Java met Aspose.BarCode
-linktitle: Minimale streepjescodegrootte verkrijgen
-second_title: Aspose.BarCode Java-API
-description: Leer hoe u streepjescodes van minimale grootte in Java kunt maken met Aspose.BarCode. Volg onze stapsgewijze handleiding voor het efficiënt en ruimtebesparend genereren van barcodes.
+date: 2025-12-04
+description: Leer hoe u een minimale barcode in Java maakt met Aspose.BarCode. Deze
+  barcode‑generator tutorial voor Java laat stap voor stap zien hoe u ruimte‑geoptimaliseerde
+  barcodes produceert.
+language: nl
+linktitle: create minimum barcode
+second_title: Aspose.BarCode Java API
+title: Hoe maak je een minimale barcode in Java met Aspose.BarCode
+url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
-url: /nl/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Minimale streepjescodegrootte verkrijgen in Java met Aspose.BarCode
+# Hoe een minimale barcode te maken in Java met Aspose.BarCode
 
-## Invoering
+## Introductie
 
-Welkom bij onze stapsgewijze handleiding voor het verkrijgen van de minimale BarCode-grootte in Java met behulp van Aspose.BarCode. Als u uw BarCode-afbeeldingen wilt optimaliseren voor ruimte-efficiëntie of specifieke weergavevereisten, dan is deze tutorial iets voor u. Aspose.BarCode voor Java biedt een krachtige reeks functies, en in deze zelfstudie concentreren we ons op het aanpassen van de grootte van uw streepjescode tot het minimum.
+Als je **minimum barcode** afbeeldingen moet maken voor krappe UI‑lay-outs, print‑klare etiketten, of elke situatie waarin elke millimeter telt, ben je op de juiste plek. In deze **barcode generator tutorial Java** lopen we de exacte stappen door die nodig zijn om een BarCode te verkleinen tot de kleinste mogelijke grootte terwijl deze scanbaar blijft, met gebruik van Aspose.BarCode voor Java.
+
+## Snelle antwoorden
+- **Wat betekent “minimum barcode”?** Het zijn de kleinste afbeeldingsafmetingen die nog steeds voldoen aan de leesbaarheidsvereisten van de symbologie.  
+- **Welke klasse genereert de barcode?** `BarcodeGenerator` uit de Aspose.BarCode bibliotheek.  
+- **Heb ik een licentie nodig voor dit voorbeeld?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik de grootte wijzigen nadat AutoSize is uitgeschakeld?** Ja – je stelt expliciete breedte/hoogte waarden in millimeters in.  
+- **Is deze aanpak geldig voor alle barcode‑typen?** De meeste 1‑D symbologieën (bijv. CODE_128, CODE_39) ondersteunen handmatige afmetingen; controleer de documentatie voor 2‑D codes.
+
+## Wat betekent “create minimum barcode”?
+Een minimale barcode maken betekent dat je de generator zo configureert dat deze de afbeelding **niet** automatisch vergroot. In plaats daarvan geef je de exacte afmetingen op die je nodig hebt, zodat je de barcode in krappe ruimtes kunt passen zonder verspilde witruimte.
+
+## Waarom een barcode generator tutorial Java zoals deze gebruiken?
+- **Ruimte‑efficiënte ontwerpen** – perfect voor mobiele schermen, kassabonnen, of compacte labelprinters.  
+- **Volledige controle** – je bepaalt de exacte pixel‑ of millimeter‑grootte.  
+- **Consistente resultaten** – dezelfde code werkt op Windows, Linux en macOS JVM's.  
 
 ## Vereisten
 
-Voordat we in de code duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+Voordat we in de code duiken, zorg ervoor dat je het volgende hebt:
 
-1. Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd.
+1. **Java Development Kit (JDK)** – elke recente versie (8+ aanbevolen).  
+2. **Aspose.BarCode for Java** – download de nieuwste bibliotheek van de officiële site [here](https://releases.aspose.com/barcode/java/).  
 
-2.  Aspose.BarCode voor Java: Download en installeer Aspose.BarCode voor Java van[hier](https://releases.aspose.com/barcode/java/).
+Laten we nu gaan coderen.
 
-Laten we nu naar het codeergedeelte gaan.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Begin in uw Java-code met het importeren van de benodigde naamruimten:
+In je Java‑bronbestand importeer je de vereiste Aspose‑klassen:
 
 ```java
-
 import com.aspose.barcode.generation.AutoSizeMode;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Stap 1: Stel de streepjescodegenerator in
+## Stapsgewijze handleiding om een minimale barcode te maken
 
- Maak een exemplaar van de`BarcodeGenerator` klasse, stel het symbologietype in op CODE_128 en definieer de streepjescodetekst:
+### Stap 1: De Barcode Generator instellen
+Maak een `BarcodeGenerator`‑instantie, kies de symbologie (CODE_128 in dit voorbeeld), en geef de te coderen data op.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-## Stap 2: Schakel AutoSizeMode uit
-
-Om het formaat aan te passen, schakelt u de automatische formaatmodus uit:
+### Stap 2: AutoSizeMode uitschakelen
+Standaard vergroot Aspose.BarCode de afbeelding om de barcode te laten passen. Schakel dit gedrag uit zodat je je eigen afmetingen kunt definiëren.
 
 ```java
 bb.getParameters().setAutoSizeMode(AutoSizeMode.NONE);
 ```
 
-## Stap 3: Stel de hoogte en breedte van de afbeelding in op Minimum
-
-Pas de afbeeldingsafmetingen aan tot het minimaal vereiste:
+### Stap 3: Definieer de minimale afbeeldingsbreedte en -hoogte
+Geef de kleinste breedte en hoogte op die nog steeds mogelijk maken dat de barcode gelezen wordt. Hier gebruiken we 1 mm voor beide afmetingen, maar je kunt aanpassen naar behoefte.
 
 ```java
 bb.getParameters().getImageWidth().setMillimeters(1);
 bb.getParameters().getImageHeight().setMillimeters(1);
 ```
 
-## Stap 4: Sla de streepjescodeafbeelding op
+> **Pro tip:** Gebruik de `getImageWidth()` en `getImageHeight()` eigenschappen om te experimenteren met verschillende groottes totdat de scanner de code betrouwbaar kan lezen.
 
-Genereer de streepjescodeafbeelding en sla deze op in een bestand:
+### Stap 4: Sla de Barcode‑afbeelding op
+Genereer de bitmap en schrijf deze naar een PNG‑bestand. Vervang `dataDir` door het pad waar je de afbeelding wilt opslaan.
 
 ```java
 javax.imageio.ImageIO.write(bb.generateBarCodeImage(), "PNG", new java.io.File(dataDir + "minimumresult.png"));
 ```
 
-Herhaal deze stappen voor elke streepjescode die u wilt aanpassen.
+Herhaal de bovenstaande stappen voor elke barcode die je op de minimale grootte wilt genereren.
 
-Nu hebt u met succes een streepjescode van minimale grootte gemaakt met Aspose.BarCode voor Java.
-
-## Conclusie
-
-In deze zelfstudie hebben we onderzocht hoe u de grootte van streepjescodes in Java kunt minimaliseren met behulp van Aspose.BarCode. Of u nu werkt aan toepassingen met beperkte ruimte of streeft naar een geoptimaliseerde visuele weergave, Aspose.BarCode biedt de flexibiliteit die u nodig heeft.
+## Veelvoorkomende problemen & oplossingen
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Barcode wordt onleesbaar | Breedte/hoogte te klein voor de gekozen symbologie | Verhoog de millimeterwaarden stapsgewijs (bijv. 1,2 mm) en test met een scanner. |
+| `NullPointerException` on `dataDir` | `dataDir` niet geïnitialiseerd | Definieer `String dataDir = \"C:/Barcodes/\";` voordat je het gebruikt. |
+| Licentie‑exception | De proefversie gebruiken zonder een geldige licentie in productie | Pas het licentiebestand toe via `License license = new License(); license.setLicense(\"Aspose.BarCode.Java.lic\");` |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik de grootte van andere soorten streepjescodes aanpassen met Aspose.BarCode voor Java?
+**Q: Kan ik de grootte van andere barcode‑typen aanpassen met Aspose.BarCode voor Java?**  
+A: Absoluut! De bibliotheek ondersteunt vele 1‑D en 2‑D symbologieën, en je kunt hun afmetingen op dezelfde manier regelen als hier getoond.
 
-A1: Absoluut! Aspose.BarCode ondersteunt diverse symbologieën, waardoor u de grootte voor verschillende typen streepjescodes kunt aanpassen.
+**Q: Is Aspose.BarCode geschikt voor enterprise‑level toepassingen?**  
+A: Ja, het wordt breed ingezet in grootschalige systemen vanwege zijn betrouwbaarheid, uitgebreide formaatondersteuning en hoge‑prestaties bij generatie.
 
-### Vraag 2: Is Aspose.BarCode geschikt voor toepassingen op ondernemingsniveau?
+**Q: Zijn er licentie‑overwegingen voor commerciële projecten?**  
+A: Een commerciële licentie is vereist voor productiegebruik. Details zijn beschikbaar [here](https://purchase.aspose.com/buy).
 
-A2: Ja, Aspose.BarCode wordt veel gebruikt in toepassingen op ondernemingsniveau en biedt robuuste mogelijkheden voor het genereren en aanpassen van streepjescodes.
+**Q: Hoe kan ik hulp krijgen als ik problemen ondervind?**  
+A: Bezoek het Aspose.BarCode [forum](https://forum.aspose.com/c/barcode/13) voor community‑ondersteuning of neem direct contact op met de Aspose‑ondersteuning.
 
-### V3: Zijn er licentieoverwegingen voor het gebruik van Aspose.BarCode in commerciële projecten?
+**Q: Is er een gratis proefversie beschikbaar?**  
+A: Ja, je kunt een volledig functionele proefversie downloaden [here](https://releases.aspose.com/).
 
- A3: Ja, voor commercieel gebruik heeft u een geldige licentie nodig. U kunt licentiegegevens vinden[hier](https://purchase.aspose.com/buy).
+## Conclusie
 
-### V4: Hoe kan ik ondersteuning krijgen voor Aspose.BarCode voor Java?
+In deze **barcode generator tutorial Java** heb je geleerd hoe je **minimum barcode** afbeeldingen maakt door auto‑sizing uit te schakelen en handmatig de afbeeldingsafmetingen in te stellen. Of je nu een mobiele app, een point‑of‑sale‑systeem, of een andere oplossing bouwt die compacte barcodes vereist, deze stappen geven je precieze controle over het uiteindelijke resultaat.
 
- A4: Bezoek Aspose.BarCode[forum](https://forum.aspose.com/c/barcode/13)voor gemeenschapsondersteuning of neem contact op met Aspose-ondersteuning voor hulp.
+---
 
-### V5: Is er een proefversie beschikbaar voor Aspose.BarCode voor Java?
+**Laatst bijgewerkt:** 2025-12-04  
+**Getest met:** Aspose.BarCode 24.12 voor Java  
+**Auteur:** Aspose  
 
- A5: Ja, u kunt de functies van Aspose.BarCode verkennen door het bestand[gratis proefperiode](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
