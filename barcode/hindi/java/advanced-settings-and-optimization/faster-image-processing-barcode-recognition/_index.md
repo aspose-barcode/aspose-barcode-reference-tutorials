@@ -131,17 +131,15 @@ for (BarCodeResult result : reader.readBarCodes()) {
 **प्रश्न: मैं सपोर्ट कैसे प्राप्त करूँ या कम्युनिटी में शामिल होऊँ?**  
 उत्तर: आधिकारिक [Aspose.BarCode फोरम](https://forum.aspose.com/c/barcode/13) पर मदद, उदाहरण और कम्युनिटी चर्चाओं के लिए जाएँ।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-04  
 **टेस्टेड विथ:** Aspose.BarCode 24.12 for Java  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

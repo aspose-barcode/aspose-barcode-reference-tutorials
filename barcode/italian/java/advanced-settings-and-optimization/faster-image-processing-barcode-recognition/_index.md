@@ -132,17 +132,15 @@ Seguendo questi passaggi ora disponi di un **high performance barcode reader** i
 **Q:** Come posso ottenere supporto o unirmi alla community?  
 **A:** Visita il forum ufficiale [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) per assistenza, esempi e discussioni della community.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo Aggiornamento:** 2025-12-04  
 **Testato Con:** Aspose.BarCode 24.12 per Java  
 **Autore:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

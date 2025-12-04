@@ -132,15 +132,15 @@ A: Ναι, μια πλήρως λειτουργική δοκιμαστική έ�
 **Q: Πώς μπορώ να λάβω υποστήριξη ή να συμμετάσχω στην κοινότητα;**  
 A: Επισκεφθείτε το επίσημο [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) για βοήθεια, παραδείγματα και συζητήσεις της κοινότητας.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-04  
+**Δοκιμάστηκε Με:** Aspose.BarCode 24.12 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-04  
-**Δοκιμάστηκε Με:** Aspose.BarCode 24.12 for Java  
-**Συγγραφέας:** Aspose

@@ -129,17 +129,15 @@ for (BarCodeResult result : reader.readBarCodes()) {
 **问：如何获取支持或加入社区？**  
 答：访问官方的 [Aspose.BarCode 论坛](https://forum.aspose.com/c/barcode/13) 获取帮助、示例和社区讨论。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-04  
 **测试环境：** Aspose.BarCode 24.12 for Java  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

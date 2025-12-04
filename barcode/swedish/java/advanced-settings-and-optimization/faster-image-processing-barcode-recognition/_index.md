@@ -131,15 +131,15 @@ A: Ja, en fullt funktionell provversion kan laddas ner från [Aspose releases pa
 **Q: Hur kan jag få support eller gå med i communityn?**  
 A: Besök det officiella [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) för hjälp, exempel och diskussioner i communityn.
 
+---
+
+**Senast uppdaterad:** 2025-12-04  
+**Testad med:** Aspose.BarCode 24.12 för Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-04  
-**Testad med:** Aspose.BarCode 24.12 för Java  
-**Författare:** Aspose

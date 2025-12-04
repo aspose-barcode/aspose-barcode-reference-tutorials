@@ -131,17 +131,15 @@ A: Ano, plně funkční zkušební verzi si můžete stáhnout ze [stránky vyd�
 **Q: Jak mohu získat podporu nebo se připojit ke komunitě?**  
 A: Navštivte oficiální [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) pro pomoc, příklady a diskuse s komunitou.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-04  
 **Testováno s:** Aspose.BarCode 24.12 pro Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

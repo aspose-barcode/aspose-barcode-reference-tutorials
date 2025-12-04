@@ -131,17 +131,15 @@ J: Ya, versi trial yang berfungsi penuh dapat diunduh dari [halaman rilis Aspose
 **T: Bagaimana cara mendapatkan dukungan atau bergabung dengan komunitas?**  
 J: Kunjungi [forum resmi Aspose.BarCode](https://forum.aspose.com/c/barcode/13) untuk bantuan, contoh, dan diskusi komunitas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-04  
 **Diuji Dengan:** Aspose.BarCode 24.12 untuk Java  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

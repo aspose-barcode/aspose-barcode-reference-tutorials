@@ -130,17 +130,15 @@ A: 네, 전체 기능을 제공하는 체험판을 [Aspose 릴리스 페이지](
 **Q: 지원을 받거나 커뮤니티에 참여하려면 어떻게 해야 하나요?**  
 A: 공식 [Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13)에서 도움, 예제 및 토론을 확인하세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2025-12-04  
 **테스트 환경:** Aspose.BarCode 24.12 for Java  
 **작성자:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

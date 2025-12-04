@@ -132,17 +132,15 @@ O: Tak, w pełni funkcjonalną wersję próbną można pobrać ze [strony wydań
 **P: Jak mogę uzyskać wsparcie lub dołączyć do społeczności?**  
 O: Odwiedź oficjalne [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), gdzie znajdziesz pomoc, przykłady i dyskusje społeczności.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-04  
 **Testowano z:** Aspose.BarCode 24.12 dla Javy  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

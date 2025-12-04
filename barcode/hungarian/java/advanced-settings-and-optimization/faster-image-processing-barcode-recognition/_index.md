@@ -132,15 +132,15 @@ A: Igen, egy teljes funkcionalitású próba letölthető a [Aspose kiadási old
 **Q: Hogyan kaphatok támogatást vagy csatlakozhatok a közösséghez?**  
 A: Látogassa meg a hivatalos [Aspose.BarCode fórumot](https://forum.aspose.com/c/barcode/13) segítségért, példákért és közösségi beszélgetésekért.
 
+---
+
+**Utolsó frissítés:** 2025-12-04  
+**Tesztelt verzió:** Aspose.BarCode 24.12 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-04  
-**Tesztelt verzió:** Aspose.BarCode 24.12 for Java  
-**Szerző:** Aspose

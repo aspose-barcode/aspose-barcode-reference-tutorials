@@ -131,17 +131,15 @@ A: Có, bản dùng thử đầy đủ chức năng có thể tải về từ [t
 **Q: Làm thế nào tôi có thể nhận hỗ trợ hoặc tham gia cộng đồng?**  
 A: Truy cập [diễn đàn Aspose.BarCode chính thức](https://forum.aspose.com/c/barcode/13) để được trợ giúp, xem ví dụ và thảo luận cộng đồng.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-04  
 **Kiểm tra với:** Aspose.BarCode 24.12 for Java  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -132,17 +132,15 @@ R : Oui, une version d’essai entièrement fonctionnelle peut être télécha
 **Q : Comment obtenir du support ou rejoindre la communauté ?**  
 R : Visitez le forum officiel [Aspose.BarCode](https://forum.aspose.com/c/barcode/13) pour de l’aide, des exemples et des discussions communautaires.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-04  
 **Testé avec :** Aspose.BarCode 24.12 pour Java  
 **Auteur :** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

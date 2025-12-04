@@ -132,17 +132,15 @@ R: Sim, uma versão trial totalmente funcional pode ser baixada na [página de r
 **P: Como posso obter suporte ou participar da comunidade?**  
 R: Visite o fórum oficial do [Aspose.BarCode](https://forum.aspose.com/c/barcode/13) para ajuda, exemplos e discussões da comunidade.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-04  
 **Testado com:** Aspose.BarCode 24.12 para Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

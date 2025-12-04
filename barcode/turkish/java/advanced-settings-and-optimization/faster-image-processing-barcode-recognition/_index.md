@@ -132,17 +132,15 @@ C: Evet, tam işlevsel bir deneme sürümünü [Aspose releases sayfasından](ht
 **S: Destek alabilir ya da topluluğa katılabilir miyim?**  
 C: Yardım, örnekler ve topluluk tartışmaları için resmi [Aspose.BarCode forumunu](https://forum.aspose.com/c/barcode/13) ziyaret edin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-04  
 **Test Edilen Versiyon:** Aspose.BarCode 24.12 for Java  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

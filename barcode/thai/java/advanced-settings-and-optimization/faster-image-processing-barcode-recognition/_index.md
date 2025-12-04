@@ -124,15 +124,15 @@ A: มี, คุณสามารถดาวน์โหลดเวอร์
 **Q: จะขอรับการสนับสนุนหรือเข้าร่วมชุมชนได้อย่างไร?**  
 A: เยี่ยมชม [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) อย่างเป็นทางการเพื่อรับความช่วยเหลือ ตัวอย่าง และการสนทนาของชุมชน.
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-04  
+**ทดสอบด้วย:** Aspose.BarCode 24.12 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-04  
-**ทดสอบด้วย:** Aspose.BarCode 24.12 for Java  
-**ผู้เขียน:** Aspose

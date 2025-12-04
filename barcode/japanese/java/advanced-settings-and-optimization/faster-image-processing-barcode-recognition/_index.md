@@ -129,17 +129,15 @@ A: はい、完全機能のトライアル版は [Aspose リリースページ](
 **Q: サポートやコミュニティへの参加方法は？**  
 A: 公式の [Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13) でヘルプ、サンプル、コミュニティディスカッションをご利用ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-04  
 **テスト環境:** Aspose.BarCode 24.12 for Java  
 **作成者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -129,15 +129,15 @@ A: 有，您可從 [Aspose 下載頁面](https://releases.aspose.com/) 取得功
 **Q: 如何取得支援或加入社群？**  
 A: 請造訪官方 [Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13) 取得協助、範例與社群討論。
 
+---
+
+**最後更新：** 2025-12-04  
+**測試環境：** Aspose.BarCode 24.12 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-04  
-**測試環境：** Aspose.BarCode 24.12 for Java  
-**作者：** Aspose

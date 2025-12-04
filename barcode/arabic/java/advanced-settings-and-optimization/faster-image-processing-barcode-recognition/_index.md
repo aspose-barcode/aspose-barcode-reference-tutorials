@@ -131,17 +131,15 @@ A: نعم، يمكن تنزيل نسخة تجريبية كاملة الوظائ�
 **Q: How can I get support or join the community?**  
 A: زر منتدى [Aspose.BarCode الرسمي](https://forum.aspose.com/c/barcode/13) للحصول على المساعدة، والأمثلة، ومناقشات المجتمع.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-04  
 **تم الاختبار مع:** Aspose.BarCode 24.12 for Java  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
