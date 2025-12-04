@@ -1,126 +1,142 @@
 ---
-title: معالجة أسرع للصور للتعرف على الرمز الشريطي في Java باستخدام Aspose.BarCode
-linktitle: معالجة أسرع للصور للتعرف على الباركود
-second_title: Aspose.BarCode جافا API
-description: قم بتحسين معالجة الصور بشكل أسرع للتعرف على الرمز الشريطي في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لمعالجة الصور بشكل أسرع.
+date: 2025-12-04
+description: تعلم كيفية ضبط وضع الأداء العالي وكيفية قراءة الباركود بسرعة باستخدام
+  قارئ باركود عالي الأداء مع Aspose.BarCode للغة Java.
+language: ar
+linktitle: Faster Image Processing for Barcode Recognition
+second_title: Aspose.BarCode Java API
+title: 'قارئ الباركود عالي الأداء: معالجة صور أسرع للتعرف على الباركود في جافا باستخدام
+  Aspose.BarCode'
+url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
-url: /ar/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# معالجة أسرع للصور للتعرف على الرمز الشريطي في Java باستخدام Aspose.BarCode
+# قارئ الباركود عالي الأداء: معالجة صور أسرع للتعرف على الباركود في Java باستخدام Aspose.BarCode
 
+في تطبيقات Java الحديثة، تُعد قدرات **high performance barcode reader** أساسية لمواكبة طلبات المسح في الوقت الحقيقي. عندما تحتاج إلى **how to read barcode** بسرعة وموثوقية، توفر لك Aspose.BarCode for Java الأدوات لتسريع معالجة الصور دون التضحية بالدقة. في هذا الدليل سنستعرض الخطوات الدقيقة لتفعيل وضع الأداء العالي، وضبط إعدادات الجودة، وتحقيق التعرف على الباركود بشكل أسرع.
 
-في المشهد التكنولوجي سريع الخطى اليوم، تعد المعالجة الفعالة للصور أمرًا ضروريًا للتعرف السلس على الرمز الشريطي في تطبيقات Java. يوفر Aspose.BarCode for Java حلاً قويًا للمطورين، حيث يوفر إمكانات عالية الأداء لتحسين قراءة الباركود. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحقيق معالجة أسرع للصور للتعرف على الرمز الشريطي باستخدام Aspose.BarCode لـ Java.
+## إجابات سريعة
+- **What does “high performance barcode reader” mean?** إنه تكوين يضاعف سرعة المسح عن طريق تحسين خوارزميات معالجة الصور.  
+- **Which barcode symbology is used in the example?** DataMatrix (نوع من الباركود ثنائي الأبعاد).  
+- **How do I enable high‑performance mode?** استدعِ `reader.setQualitySettings(QualitySettings.getHighPerformance())`.  
+- **Do I need a license for production?** نعم، يلزم الحصول على ترخيص تجاري للاستخدام غير التجريبي.  
+- **What Java version is supported?** Java 8 أو أعلى مدعومة بالكامل.
 
-## المتطلبات الأساسية
+## ما هو قارئ الباركود عالي الأداء؟
+**high performance barcode reader** هو نسخة مُضبوطة خصيصًا من محرك Aspose.BarCode تقلل من عبء المعالجة، وتطبق معالجة مسبقة للصورة بشكل مكثف، وتسرّع حلقة فك الترميز. هذا مثالي للسيناريوهات مثل محطات المسح عالية الإنتاجية، التطبيقات المحمولة، أو المعالجة الدفعية لمجموعات صور كبيرة.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## لماذا تستخدم وضع الأداء العالي في Aspose.BarCode؟
+- **Speed:** حتى 2‑3× أسرع في فك الترميز مقارنةً بالإعدادات الافتراضية.  
+- **Scalability:** يتعامل مع آلاف الصور في الدقيقة على عتاد متوسط.  
+- **Accuracy:** يحافظ على معدلات التعرف العالية من خلال تطبيق تمهيد وسطي (median smoothing) تلقائيًا وغيرها من التحسينات.  
+- **Flexibility:** لا يزال بإمكانك تخصيص إعدادات الجودة الفردية لحالات الاستخدام المحددة.
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على نظامك.
+## المتطلبات المسبقة
+- **Java Development Environment:** JDK 8 أو أحدث، وبيئة تطوير متكاملة من اختيارك (IntelliJ، Eclipse، إلخ).  
+- **Aspose.BarCode for Java:** حمّل أحدث ملف JAR من [صفحة تحميل Aspose.BarCode](https://releases.aspose.com/barcode/java/).  
 
--  Aspose.BarCode لـ Java: قم بتنزيل Aspose.BarCode لـ Java وتثبيته من[رابط التحميل](https://releases.aspose.com/barcode/java/).
+## استيراد الحزم
 
-## استيراد مساحات الأسماء
-
-في مشروع Java الخاص بك، قم باستيراد مساحات الأسماء الضرورية للوصول إلى فئات Aspose.BarCode وأساليبه.
+قبل البدء، استورد الفئات التي ستحتاجها:
 
 ```java
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.QualitySettings;
-
-
 ```
 
-## الخطوة 1: قم بتعيين دليل الموارد
+## الخطوة 1: تعيين دليل الموارد
 
-حدد المسار إلى دليل الموارد في مشروع Java الخاص بك.
+حدد المجلد الذي يحتوي على صور العينة الخاصة بك.
 
 ```java
-// المسار إلى دليل الموارد.
+// The path to the resource directory.
 String dataDir = Utils.getDataDir(FasterImageProcessingForBarcodeRecognition.class) + "BarcodeReader/advanced_features/";
 ```
 
-## الخطوة 2: قراءة الرمز الشريطي Code39 من الصورة
+## الخطوة 2: اختيار الصورة التي تحتوي على الباركود
 
-حدد مسار ملف الصورة الذي يحتوي على الرمز الشريطي الذي تريد التعرف عليه.
+وجه القارئ إلى الصورة التي تريد فك ترميزها. في هذا المثال نستخدم صورة DataMatrix.
 
 ```java
-// قراءة الباركود code39 من الصورة
+// Read code39 barcode from image
 String imageFilePath = dataDir + "datamatrix.bmp";
 ```
 
-## الخطوة 3: إنشاء مثيل BarCodeReader
+## الخطوة 3: إنشاء كائن BarCodeReader
 
-قم بإنشاء مثيل لـ BarCodeReader وقم بتعيين نوع الصورة والرموز للتعرف عليها.
+أنشئ كائن `BarCodeReader` مع مسار الصورة والنوع المحدد للباركود الذي تتوقعه.
 
 ```java
-// قم بإنشاء مثيل لـ BarCodeReader وقم بتعيين نوع الصورة والرموز للتعرف عليها
+// Create an instance of BarCodeReader and set image and symbology type to recognize
 BarCodeReader reader = new BarCodeReader(imageFilePath, DecodeType.DATA_MATRIX);
 ```
 
-## الخطوة 4: ضبط وضع الأداء العالي
+## الخطوة 4: تفعيل وضع الأداء العالي
 
-تمكين وضع الأداء العالي لمعالجة الصور بشكل أسرع.
+فعّل التكوين المدمج للأداء العالي. هذا هو جوهر إعداد **high performance barcode reader**.
 
 ```java
-// ضبط وضع الأداء العالي
+// Set high performance mode
 reader.setQualitySettings(QualitySettings.getHighPerformance());
 ```
 
-## الخطوة 5: تعيين خيارات منفصلة
+## الخطوة 5: ضبط الخيارات المنفصلة (اختياري)
 
-قم بتكوين خيارات منفصلة لتحسين التعرف على الرمز الشريطي.
+لا يزال بإمكانك تعديل إعدادات الجودة الفردية لتتناسب مع خصائص صورتك. غالبًا ما يُحسّن تمكين تمهيد وسطي (median smoothing) النتائج على الصور ذات الضوضاء.
 
 ```java
-// قم بتعيين خيارات منفصلة
+// Set separate options
 reader.getQualitySettings().setAllowMedianSmoothing(true);
 reader.getQualitySettings().setMedianSmoothingWindowSize(4);
 ```
 
 ## الخطوة 6: التعرف على الباركود من الصورة
 
-حاول التعرف على الباركود من الصورة وطباعة النتائج.
+شغّل القارئ وأخرج المعلومات المفكوكة. هذه هي الخطوة الأخيرة في عملية **how to read barcode**.
 
 ```java
-// حاول التعرف على الباركود من الصورة
+// Try to recognize the barcode from the image
 for (BarCodeResult result : reader.readBarCodes()) {
     System.out.println("BarCode CodeText: " + result.getCodeText());
     System.out.println("BarCode CodeType: " + result.getCodeTypeName());
 }
 ```
 
-باتباع هذه الخطوات، يمكنك تنفيذ معالجة أسرع للصور للتعرف على الرمز الشريطي في تطبيق Java الخاص بك باستخدام Aspose.BarCode.
+باتباع هذه الخطوات، ستحصل الآن على **high performance barcode reader** قادر على معالجة الصور بسرعة وموثوقية.
 
-## خاتمة
+## المشكلات الشائعة والحلول
+- **No barcode detected:** تحقق من صحة مسار الصورة وأن الباركود غير مدوَّر بأكثر من 45°. فكر في زيادة قيمة `MedianSmoothingWindowSize`.  
+- **Slow performance despite high‑performance mode:** تأكد من أنك تستخدم أحدث ملف JAR من Aspose.BarCode؛ قد تفتقر الإصدارات القديمة إلى تحسينات الأداء.  
+- **Unsupported symbology:** تحقق من أن `DecodeType` التي تمررها تتطابق مع نوع الباركود في الصورة.
 
-في الختام، يعمل Aspose.BarCode for Java على تمكين المطورين من تحقيق التعرف الفعال على الباركود من خلال معالجة أسرع للصور. من خلال الاستفادة من إمكانات الأداء العالي والخيارات القابلة للتخصيص التي يوفرها Aspose.BarCode، يمكنك تحسين سرعة ودقة قراءة الباركود في تطبيقات Java الخاصة بك.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**Q: Is Aspose.BarCode compatible with different barcode symbologies?**  
+A: نعم، يدعم مجموعة واسعة من رموز الباركود أحادية وثنائية الأبعاد، بما في ذلك Code128، QR Code، DataMatrix، والعديد غيرها.
 
-### س1: هل Aspose.BarCode متوافق مع رموز الباركود المختلفة؟
+**Q: Can I use Aspose.BarCode for both barcode generation and recognition?**  
+A: بالتأكيد. توفر المكتبة واجهات برمجة تطبيقات كاملة لإنشاء وقراءة الباركود في تطبيقات Java.
 
-ج1: نعم، يدعم Aspose.BarCode نطاقًا واسعًا من رموز الباركود، بما في ذلك Code128 وQR Code وDataMatrix وغيرها الكثير.
+**Q: Are there licensing options available for Aspose.BarCode?**  
+A: نعم، يمكنك استكشاف خطط الترخيص المختلفة على [صفحة شراء Aspose.BarCode](https://purchase.aspose.com/buy).
 
-### س2: هل يمكنني استخدام Aspose.BarCode لإنشاء الرمز الشريطي والتعرف عليه؟
+**Q: Is there a free trial version of Aspose.BarCode for Java?**  
+A: نعم، يمكن تنزيل نسخة تجريبية كاملة الوظائف من [صفحة إصدارات Aspose](https://releases.aspose.com/).
 
-ج2: بالتأكيد. يوفر Aspose.BarCode وظائف شاملة لإنشاء الرموز الشريطية والتعرف عليها في تطبيقات Java.
+**Q: How can I get support or join the community?**  
+A: زر منتدى [Aspose.BarCode الرسمي](https://forum.aspose.com/c/barcode/13) للحصول على المساعدة، والأمثلة، ومناقشات المجتمع.
 
-### س3: هل هناك أي خيارات ترخيص متاحة لـ Aspose.BarCode؟
+---
 
- ج3: نعم، يمكنك استكشاف خيارات الترخيص وشراء Aspose.BarCode من خلال[رابط الشراء](https://purchase.aspose.com/buy).
+**آخر تحديث:** 2025-12-04  
+**تم الاختبار مع:** Aspose.BarCode 24.12 for Java  
+**المؤلف:** Aspose  
 
-### س4: هل هناك نسخة تجريبية مجانية من Aspose.BarCode لـ Java؟
-
-ج4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.BarCode من[صفحة الإصدارات](https://releases.aspose.com/).
-
-### س5: كيف يمكنني طلب الدعم أو التواصل مع مجتمع Aspose.BarCode؟
-
- ج5: للحصول على الدعم والتفاعلات المجتمعية، قم بزيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

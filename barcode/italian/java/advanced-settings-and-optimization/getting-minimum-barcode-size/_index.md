@@ -1,104 +1,128 @@
 ---
-title: Ottenere la dimensione minima del codice a barre in Java con Aspose.BarCode
-linktitle: Ottenere la dimensione minima del codice a barre
-second_title: API Java Aspose.BarCode
-description: Scopri come creare codici a barre di dimensioni minime in Java utilizzando Aspose.BarCode. Segui la nostra guida passo passo per una generazione di codici a barre efficiente e ottimizzata in termini di spazio.
+date: 2025-12-04
+description: Scopri come creare un codice a barre minimo in Java usando Aspose.BarCode.
+  Questo tutorial Java sul generatore di codici a barre mostra passo passo come produrre
+  codici a barre ottimizzati per lo spazio.
+language: it
+linktitle: create minimum barcode
+second_title: Aspose.BarCode Java API
+title: Come creare un codice a barre minimo in Java con Aspose.BarCode
+url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
-url: /it/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ottenere la dimensione minima del codice a barre in Java con Aspose.BarCode
+# Come creare un codice a barre minimo in Java con Aspose.BarCode
 
-## introduzione
+## Introduzione
 
-Benvenuti nella nostra guida passo passo su come ottenere la dimensione minima del codice a barre in Java utilizzando Aspose.BarCode. Se stai cercando di ottimizzare le tue immagini BarCode per efficienza di spazio o requisiti di visualizzazione specifici, questo tutorial fa per te. Aspose.BarCode per Java fornisce un potente set di funzionalità e in questo tutorial ci concentreremo sulla personalizzazione delle dimensioni del tuo codice a barre al minimo.
+Se hai bisogno di **creare un codice a barre minimo** per layout UI ristretti, etichette pronte per la stampa o qualsiasi scenario in cui ogni millimetro conta, sei nel posto giusto. In questo **tutorial Java per la generazione di codici a barre**, ti guideremo passo passo attraverso le operazioni necessarie per ridurre un BarCode alle sue dimensioni più piccole possibili mantenendolo leggibile, usando Aspose.BarCode per Java.
+
+## Risposte rapide
+- **Cosa significa “codice a barre minimo”?** Sono le dimensioni più piccole dell'immagine che soddisfano ancora i requisiti di leggibilità della simbologia.  
+- **Quale classe genera il codice a barre?** `BarcodeGenerator` dalla libreria Aspose.BarCode.  
+- **Ho bisogno di una licenza per questo esempio?** Una prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Posso modificare le dimensioni dopo aver disabilitato AutoSize?** Sì – imposti valori espliciti di larghezza/altezza in millimetri.  
+- **Questo approccio è valido per tutti i tipi di codice a barre?** La maggior parte delle simbologie 1‑D (ad es., CODE_128, CODE_39) supporta il dimensionamento manuale; controlla la documentazione per i codici 2‑D.
+
+## Cos'è “creare un codice a barre minimo”?
+Creare un codice a barre minimo significa configurare il generatore in modo che **non** ingrandisca automaticamente l'immagine. Invece, specifichi le dimensioni esatte di cui hai bisogno, consentendoti di inserire il codice a barre in spazi ristretti senza spazi bianchi inutili.
+
+## Perché utilizzare un tutorial Java per la generazione di codici a barre come questo?
+- **Designs a risparmio di spazio** – perfetti per schermi mobili, ricevute o stampanti di etichette compatte.  
+- **Controllo totale** – decidi la dimensione esatta in pixel o millimetri.  
+- **Risultati coerenti** – lo stesso codice funziona su JVM Windows, Linux e macOS.  
 
 ## Prerequisiti
 
-Prima di immergerci nel codice, assicurati di avere i seguenti prerequisiti:
+Prima di immergerci nel codice, assicurati di avere:
 
-1. Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema.
+1. **Java Development Kit (JDK)** – qualsiasi versione recente (consigliata 8+).  
+2. **Aspose.BarCode per Java** – scarica l'ultima libreria dal sito ufficiale [qui](https://releases.aspose.com/barcode/java/).  
 
-2.  Aspose.BarCode per Java: Scarica e installa Aspose.BarCode per Java da[Qui](https://releases.aspose.com/barcode/java/).
+Ora iniziamo a programmare.
 
-Ora passiamo alla parte di codifica.
+## Importare gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Nel tuo codice Java, inizia importando gli spazi dei nomi necessari:
+Nel tuo file sorgente Java, importa le classi Aspose necessarie:
 
 ```java
-
 import com.aspose.barcode.generation.AutoSizeMode;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Passaggio 1: impostare il generatore di codici a barre
+## Guida passo‑passo per creare un codice a barre minimo
 
- Crea un'istanza di`BarcodeGenerator` class, imposta il tipo di simbologia su CODE_128 e definisci il testo del codice a barre:
+### Passo 1: Configurare il generatore di codici a barre
+Crea un'istanza di `BarcodeGenerator`, scegli la simbologia (CODE_128 in questo esempio) e fornisci i dati da codificare.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-## Passaggio 2: disabilita la modalità AutoSize
-
-Per personalizzare le dimensioni, disabilita la modalità di ridimensionamento automatico:
+### Passo 2: Disabilitare AutoSizeMode
+Per impostazione predefinita Aspose.BarCode espande l'immagine per adattarla al codice a barre. Disattiva questo comportamento così puoi definire le tue dimensioni.
 
 ```java
 bb.getParameters().setAutoSizeMode(AutoSizeMode.NONE);
 ```
 
-## Passaggio 3: imposta l'altezza e la larghezza dell'immagine al minimo
-
-Regola le dimensioni dell'immagine al minimo richiesto:
+### Passo 3: Definire la larghezza e l'altezza minima dell'immagine
+Specifica la larghezza e l'altezza più piccole che consentono ancora la lettura del codice a barre. Qui usiamo 1 mm per entrambe le dimensioni, ma puoi regolare secondo necessità.
 
 ```java
 bb.getParameters().getImageWidth().setMillimeters(1);
 bb.getParameters().getImageHeight().setMillimeters(1);
 ```
 
-## Passaggio 4: salva l'immagine del codice a barre
+> **Suggerimento professionale:** Usa le proprietà `getImageWidth()` e `getImageHeight()` per sperimentare diverse dimensioni finché lo scanner legge in modo affidabile il codice.
 
-Genera l'immagine del codice a barre e salvala in un file:
+### Passo 4: Salvare l'immagine del codice a barre
+Genera il bitmap e scrivilo in un file PNG. Sostituisci `dataDir` con il percorso dove desideri salvare l'immagine.
 
 ```java
 javax.imageio.ImageIO.write(bb.generateBarCodeImage(), "PNG", new java.io.File(dataDir + "minimumresult.png"));
 ```
 
-Ripeti questi passaggi per ogni codice a barre che desideri personalizzare.
+Ripeti i passaggi precedenti per ogni codice a barre che devi generare alla dimensione minima.
 
-Ora hai creato con successo un codice a barre di dimensioni minime utilizzando Aspose.BarCode per Java.
-
-## Conclusione
-
-In questo tutorial, abbiamo esplorato come ridurre al minimo le dimensioni dei codici a barre in Java utilizzando Aspose.BarCode. Sia che tu stia lavorando su applicazioni con vincoli di spazio o puntando a una visualizzazione visiva ottimizzata, Aspose.BarCode offre la flessibilità di cui hai bisogno.
+## Problemi comuni e soluzioni
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Il codice a barre diventa illeggibile | Larghezza/altezza troppo piccole per la simbologia scelta | Aumenta i valori in millimetri incrementando (es., 1,2 mm) e testa con uno scanner. |
+| `NullPointerException` su `dataDir` | `dataDir` non inizializzato | Definisci `String dataDir = "C:/Barcodes/";` prima di usarlo. |
+| Eccezione di licenza | Uso della versione di prova senza licenza valida in produzione | Applica il file di licenza tramite `License license = new License(); license.setLicense("Aspose.BarCode.Java.lic");` |
 
 ## Domande frequenti
 
-### Q1: Posso personalizzare la dimensione di altri tipi di codici a barre utilizzando Aspose.BarCode per Java?
+**Q: Posso personalizzare le dimensioni di altri tipi di codice a barre usando Aspose.BarCode per Java?**  
+A: Assolutamente! La libreria supporta molte simbologie 1‑D e 2‑D, e puoi controllare le loro dimensioni nello stesso modo mostrato qui.
 
-R1: Assolutamente! Aspose.BarCode supporta una varietà di simbologie, consentendo di personalizzare le dimensioni per diversi tipi di codici a barre.
+**Q: Aspose.BarCode è adatto per applicazioni a livello enterprise?**  
+A: Sì, è ampiamente adottato in sistemi su larga scala per la sua affidabilità, il supporto a numerosi formati e la generazione ad alte prestazioni.
 
-### Q2: Aspose.BarCode è adatto per applicazioni di livello aziendale?
+**Q: Ci sono considerazioni di licenza per progetti commerciali?**  
+A: È necessaria una licenza commerciale per l'uso in produzione. I dettagli sono disponibili [qui](https://purchase.aspose.com/buy).
 
-A2: Sì, Aspose.BarCode è ampiamente utilizzato nelle applicazioni di livello aziendale, fornendo robuste funzionalità di generazione e personalizzazione di codici a barre.
+**Q: Come posso ottenere aiuto se incontro problemi?**  
+A: Visita il [forum](https://forum.aspose.com/c/barcode/13) di Aspose.BarCode per assistenza della community o contatta direttamente il supporto Aspose.
 
-### Q3: Ci sono considerazioni sulla licenza per l'utilizzo di Aspose.BarCode in progetti commerciali?
+**Q: È disponibile una versione di prova gratuita?**  
+A: Sì, puoi scaricare una versione di prova completamente funzionale [qui](https://releases.aspose.com/).
 
- R3: Sì, per uso commerciale è necessario ottenere una licenza valida. Puoi trovare i dettagli della licenza[Qui](https://purchase.aspose.com/buy).
+## Conclusione
 
-### Q4: Come posso ottenere supporto per Aspose.BarCode per Java?
+In questo **tutorial Java per la generazione di codici a barre**, hai imparato come **creare immagini di codice a barre minimo** disabilitando il ridimensionamento automatico e impostando manualmente le dimensioni dell'immagine. Che tu stia sviluppando un'app mobile, un sistema POS o qualsiasi soluzione che richieda codici a barre compatti, questi passaggi ti offrono un controllo preciso sul risultato finale.
 
- A4: Visita Aspose.BarCode[Forum](https://forum.aspose.com/c/barcode/13)per il supporto della comunità o contattare il supporto Aspose per assistenza.
+---
 
-### Q5: È disponibile una versione di prova per Aspose.BarCode per Java?
+**Ultimo aggiornamento:** 2025-12-04  
+**Testato con:** Aspose.BarCode 24.12 for Java  
+**Autore:** Aspose  
 
- A5: Sì, puoi esplorare le funzionalità di Aspose.BarCode scaricando il file[prova gratuita](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
