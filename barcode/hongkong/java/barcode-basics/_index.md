@@ -1,52 +1,107 @@
 ---
-title: 條碼基礎知識
-linktitle: 條碼基礎知識
+date: 2025-12-05
+description: 學習如何在 Java 中使用 Aspose.BarCode 為 PDF 文件添加條碼。本教程涵蓋條碼圖像的生成、尺寸設定以及方向偵測。
+language: zh-hant
+linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
-description: 在您的 Java 應用程式中釋放條碼的力量！深入研究 Aspose.BarCode 教程以實現無縫整合、自訂和識別。
+title: 在 PDF 中加入條碼 – 條碼基礎
+url: /java/barcode-basics/
 weight: 20
-url: /zh-hant/java/barcode-basics/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 條碼基礎知識
+# 條碼基礎
 
+## 簡介
 
-## 介紹
+如果您需要在 Java 應用程式中 **將條碼加入 PDF** 檔案，您來對地方了。Aspose.BarCode for Java 讓這個過程快速、可靠且可完全自訂。在本系列中，我們將一步步說明如何在 Java 中產生條碼影像、將其嵌入 PDF、調整尺寸，甚至在執行時偵測其方向。完成後，您即可建立符合專業水準的條碼，無縫整合至現有的 Java 專案。
 
-在Java應用程式開發領域，條碼的整合已成為一項關鍵技能。 Aspose.BarCode 作為一個強大的盟友出現，提供了一種無縫且有效的方式來增強您的專案。在本教學系列中，我們將探討條碼實現的各個方面，從將條碼添加到 PDF 文件到輕鬆自訂其大小、編碼和外觀。
+## 快速答案
+- **哪個函式庫可以在 Java 中將條碼加入 PDF？** Aspose.BarCode for Java。  
+- **正式環境使用是否需要授權？** 需要商業授權；提供免費試用版。  
+- **可以在不產生 PDF 的情況下產生條碼影像嗎？** 當然可以 – 使用 `BarcodeGenerator` 類別即可建立 PNG、JPEG 或 BMP 檔案。  
+- **支援條碼方向偵測嗎？** 支援，`BarCodeReader` 能自動偵測旋轉角度。  
+- **支援哪些 Java 版本？** Java 8 及以上（包括 Java 11、17 以及更新版本）。
 
-## 使用 Java 將條碼新增至 PDF 文檔
+## 如何在 Java 中將條碼加入 PDF
+將條碼嵌入 PDF 只需三個步驟：
 
-您是否想過如何使用 Java 將條碼無縫嵌入 PDF 文件中？別再猶豫了！我們關於使用 Aspose.BarCode 將條碼新增至 PDF 文件的逐步指南將為您提供提升 Java 應用程式所需的知識和技能。無論您是經驗豐富的開發人員還是新手，本教學都能確保順利的整合流程。
+1. **產生條碼影像** – 使用 `BarcodeGenerator` 在記憶體中建立位圖。  
+2. **建立或開啟 PDF 文件** – Aspose.PDF 可讓您處理既有 PDF 或從頭開始建立。  
+3. **將條碼影像放置於頁面** – 在 `PdfPage` 上以指定座標與尺寸加入影像。
 
-## 在Java中使用條碼建立整張圖片並設定大小
+> *專業提示：* 將條碼影像保留在 `ByteArrayOutputStream` 中，可避免寫入暫存檔至磁碟。
 
-釋放在 Java 中使用條碼建立和設定整個圖片大小的潛力。 Aspose.BarCode 簡化了這個過程，讓您可以輕鬆地自訂尺寸、編碼和外觀。本教學將引導您完成這些步驟，確保您完全控制條碼的視覺效果，使您的 Java 應用程式不僅功能強大，而且在視覺上也很有吸引力。
+## 什麼是條碼方向偵測？
+條碼方向偵測表示函式庫即使在條碼被旋轉（0°、90°、180°、270°）的情況下仍能正確讀取。此功能在掃描可能顛倒或側向的文件時相當重要。Aspose.BarCode 的 `BarCodeReader` 會自動處理方向，您無需事先對影像做前處理。
 
-## 在 Java 中建立具有精確條碼的映像
+## 為什麼選擇 Aspose.BarCode for Java？
+- **完整控制** 條碼的符號、尺寸、邊距與顏色。  
+- **零外部相依** – 純 Java 實作，無需本機 DLL。  
+- **高效能渲染**，適合批次處理數千條條碼。  
+- **強韌的讀取引擎**，內建方向偵測與錯誤更正。
 
-使用 Aspose.BarCode 建立具有精確條碼產生功能的圖像，從而精確自訂您的 Java 應用程式。本教學深入研究細節，提供如何輕鬆建立自訂條碼的見解。在踏上讓您的 Java 專案脫穎而出的旅程時，請探索文件、下載資源並獲得支援。
+## 前置需求
+- 已安裝 Java 8 或更新版本。  
+- Aspose.BarCode for Java 函式庫（可從 Aspose 官方網站下載）。  
+- （可選）若直接操作 PDF，需另安裝 Aspose.PDF for Java。
 
-## Java 中的條碼方向偵測
+## 在 Java 中建立並設定整張圖片的條碼尺寸
+當您需要條碼佔據文件的特定區域時，可以像素或毫米為單位定義精確的寬度與高度。Aspose.BarCode 允許您設定 `xDimension` 與 `BarHeight` 屬性，或在將影像加入 PDF 時進行縮放。這樣可確保條碼在高解析度列印時保持清晰，且完美符合版面配置。
 
-透過將條碼識別與 Aspose.BarCode 結合起來，輕鬆增強您的 Java 應用程式。我們的逐步指南簡化了偵測條碼方向的流程，確保無縫整合到您的專案中。當您探索本教學時，您將發現 Aspose.BarCode for Java 如何成為條碼方向檢測的寶貴工具，使您的應用程式更聰明、更有效率。
+## 在 Java 中建立精確條碼影像
+若您的目標是 **產生條碼影像 Java** 用於 PDF 之外（例如網頁、行動應用），`BarcodeGenerator` 類別可直接將 PNG、JPEG、GIF 或 BMP 輸出至串流。您亦可指定 DPI 以控制影像品質，這對列印尤為重要。
 
-總而言之，這些教學可以作為您掌握 Java 應用程式中條碼整合的綜合指南。深入了解 Aspose.BarCode 的世界，在這裡，自訂與簡單性相結合，並將您的編碼技能提升到新的高度。瀏覽文件、下載資源並準備好讓您的 Java 應用程式支援條碼。快樂編碼！
-## 條碼基礎教程
-### [使用 Java 將條碼新增至 PDF 文檔](./adding-barcode-to-pdf-document/)
-使用 Aspose.BarCode 增強您的 Java 應用程式 將條碼新增至 PDF 文件的逐步指南。
-### [在Java中使用條碼建立整張圖片並設定大小](./creating-setting-size-whole-picture-barcode/)
-探索使用 Aspose.BarCode 在 Java 中建立和設定整個圖片的大小。輕鬆自訂尺寸、編碼和外觀。
-### [在 Java 中建立具有精確條碼的映像](./creating-image-exact-barcode/)
-使用 Aspose.BarCode 在 Java 中建立具有精確條碼產生的影像。輕鬆建立自訂條碼。瀏覽文件、下載並取得支援。
-### [Java 中的條碼方向偵測](./detecting-barcode-orientation/)
-使用 Aspose.BarCode for Java 透過條碼識別增強您的 Java 應用程式。按照我們的逐步指南輕鬆偵測條碼方向。
+## 常見使用情境
+- **發票產生** – 在每張發票 PDF 上嵌入 UPC/EAN 條碼。  
+- **運送標籤** – 建立包含追蹤號碼的 Code128 或 QR 條碼。  
+- **產品目錄** – 為印刷目錄產生高解析度條碼影像。  
+- **文件掃描** – 從掃描的 PDF 中偵測並讀取條碼，以自動化資料輸入。
+
+## 條碼基礎教學
+### [在 Java 中將條碼添加到 PDF 文件](./adding-barcode-to-pdf-document/)
+提升您的 Java 應用程式，使用 Aspose.BarCode。一步步教您將條碼加入 PDF 文件。
+
+### [在 Java 中建立並設定整張圖片的條碼尺寸](./creating-setting-size-whole-picture-barcode/)
+探索使用 Aspose.BarCode 在 Java 中建立與設定整張圖片尺寸的條碼。輕鬆自訂尺寸、編碼與外觀。
+
+### [在 Java 中建立精確條碼影像](./creating-image-exact-barcode/)
+使用 Aspose.BarCode 在 Java 中產生精確條碼影像。輕鬆建立自訂條碼。探索文件、下載與支援資訊。
+
+### [在 Java 中的條碼方向偵測](./detecting-barcode-orientation/)
+使用 Aspose.BarCode for Java 強化您的 Java 應用程式，進行條碼辨識。依照步驟指南輕鬆偵測條碼方向。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 常見問題
+
+**Q: 我如何為特定的條碼類型（如 QR Code）**how to generate barcode**？**  
+A: 使用 `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");`，然後呼叫 `generator.save("output.png");`。
+
+**Q: 我可以在不寫入磁碟的情況下**generate barcode image java**嗎？**  
+A: 可以，呼叫 `generator.generateBarCodeImage()`，它會回傳 `java.awt.Image`，或寫入 `ByteArrayOutputStream`。
+
+**Q: 條碼方向偵測在低解析度掃描時有效嗎？**  
+A: 最佳效果需至少 150 dpi；解析度較低可能會降低偵測準確度。
+
+**Q: 是否可以在同一 PDF 頁面上加入多個條碼？**  
+A: 絕對可以 – 只要為每個條碼產生影像，並將它們放置於頁面的不同座標即可。
+
+**Q: Aspose.BarCode for Java 提供哪些授權方案？**  
+A: 有開發人員、站點與企業授權。亦提供免費的暫時授權供評估使用。
+
+---
+
+**最後更新：** 2025-12-05  
+**測試環境：** Aspose.BarCode for Java 24.12  
+**作者：** Aspose  
+
+---
