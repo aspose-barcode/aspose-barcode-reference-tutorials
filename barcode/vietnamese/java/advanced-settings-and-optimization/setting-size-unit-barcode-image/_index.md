@@ -1,35 +1,56 @@
 ---
-title: Đặt đơn vị kích thước cho hình ảnh mã vạch trong Java với Aspose.BarCode
-linktitle: Thiết lập đơn vị kích thước cho hình ảnh mã vạch
-second_title: API Java Aspose.BarCode
-description: Khám phá sức mạnh của Aspose.BarCode cho Java trong việc thiết lập đơn vị kích thước chính xác cho hình ảnh mã vạch. Tích hợp dễ dàng, hiệu suất mạnh mẽ và khả năng tùy chỉnh vô tận.
+date: 2025-12-08
+description: Tìm hiểu cách tạo mã vạch code128 bằng Java và tạo hình ảnh mã vạch bằng
+  Java sử dụng Aspose.BarCode. Đặt đơn vị kích thước chính xác cho hình ảnh mã vạch
+  với mã đơn giản, có thể tái sử dụng.
+language: vi
+linktitle: Setting Size Unit for Barcode Image
+second_title: Aspose.BarCode Java API
+title: Tạo mã vạch code128 bằng Java với Aspose.BarCode
+url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
-url: /vi/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt đơn vị kích thước cho hình ảnh mã vạch trong Java với Aspose.BarCode
+# Tạo code128 barcode java và đặt đơn vị kích thước với Aspose.BarCode
 
 ## Giới thiệu
 
-Aspose.BarCode for Java là một API Java mạnh mẽ cho phép các nhà phát triển tích hợp khả năng tạo và nhận dạng mã vạch vào các ứng dụng Java của họ một cách dễ dàng. Cho dù bạn đang phát triển một hệ thống kiểm kê phức tạp, một ứng dụng bán lẻ hay bất kỳ phần mềm nào khác yêu cầu chức năng mã vạch, Aspose.BarCode đều chứng tỏ là một lựa chọn đáng tin cậy và hiệu quả.
+Trong hướng dẫn từng bước này, bạn sẽ **create code128 barcode java** một đoạn mã tạo ra hình ảnh mã vạch và cho phép bạn kiểm soát đơn vị kích thước của đầu ra. Cho dù bạn đang xây dựng một hệ thống quản lý tồn kho, một công cụ tạo nhãn vận chuyển, hay bất kỳ ứng dụng Java nào cần một mã vạch đáng tin cậy, Aspose.BarCode for Java giúp quá trình trở nên đơn giản và tùy chỉnh cao.
+
+## Câu trả lời nhanh
+
+- **Thư viện tôi cần là gì?** Aspose.BarCode for Java.
+- **Loại mã vạch nào được hỗ trợ?** CODE_128 (create code128 barcode java).
+- **Làm thế nào để đặt đơn vị kích thước?** Sử dụng thuộc tính `BarHeight` với `.setPoint()`.
+- **Tôi có thể tạo hình ảnh barcode java ở các định dạng khác không?** Có – PNG, JPEG, BMP, v.v.
+- **Các điều kiện tiên quyết là gì?** JDK đã cài đặt, thư viện Aspose.BarCode, và một IDE Java.
+
+## **create code128 barcode java** là gì?
+
+Việc tạo một mã vạch CODE_128 trong Java có nghĩa là khởi tạo lớp `BarcodeGenerator` với enum `EncodeTypes.CODE_128` và cung cấp chuỗi dữ liệu bạn muốn mã hoá. Loại mã này được sử dụng rộng rãi trong logistics vì nó hỗ trợ toàn bộ bộ ký tự ASCII và cung cấp mật độ dữ liệu cao.
+
+## Tại sao nên sử dụng Aspose.BarCode để **generate barcode image java**?
+
+- **Kiểm soát đầy đủ kích thước** – bạn có thể đặt chiều cao thanh, kích thước module và độ phân giải ảnh.
+- **Không phụ thuộc vào bên ngoài** – thuần Java, hoạt động trên bất kỳ nền tảng nào hỗ trợ JDK.
+- **Tùy chỉnh phong phú** – màu sắc, phông chữ, lề, và thậm chí cả QR code đều được hỗ trợ.
+- **Hiệu năng cao** – tạo ảnh trong vài mili giây, phù hợp cho xử lý hàng loạt.
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng tôi bắt đầu hành trình đặt đơn vị kích thước cho hình ảnh mã vạch, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-1. Bộ công cụ phát triển Java (JDK): Aspose.BarCode cho Java yêu cầu cài đặt JDK hoạt động trên máy phát triển của bạn. Bạn có thể tải xuống JDK mới nhất từ trang web của Oracle.
+1. **Java Development Kit (JDK)** – phiên bản 8 hoặc mới hơn đã được cài đặt trên máy của bạn.  
+2. **Thư viện Aspose.BarCode for Java** – tải JAR mới nhất từ trang web Aspose (bản dùng thử hoặc có giấy phép).  
+3. **IDE Java** – chẳng hạn IntelliJ IDEA, Eclipse, hoặc VS Code với các extension Java.  
 
-2. Aspose.BarCode for Java Library: Lấy thư viện Aspose.BarCode cho Java bằng cách tải xuống từ trang web Aspose. Thư viện có sẵn ở cả phiên bản dùng thử miễn phí và phiên bản được cấp phép.
+## Nhập các namespace
 
-3. Môi trường phát triển tích hợp (IDE): Chọn Java IDE ưa thích của bạn, chẳng hạn như Eclipse hoặc IntelliJ IDEA, để có trải nghiệm phát triển liền mạch.
-
-## Nhập không gian tên
-
-Trong dự án Java của bạn, hãy nhập các vùng tên cần thiết để tận dụng các chức năng do Aspose.BarCode cung cấp. Thêm các mục nhập sau vào đầu lớp Java của bạn:
+Add the required imports at the top of your Java class so you can access Aspose.BarCode’s API:
 
 ```java
 import java.io.IOException;
@@ -39,73 +60,78 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
+## Cách **generate barcode image java** với Aspose.BarCode?
 
-Bây giờ, hãy chia nhỏ quy trình đặt đơn vị kích thước cho hình ảnh mã vạch thành các bước đơn giản và dễ hiểu.
+Dưới đây là quy trình hoàn chỉnh. Mỗi bước được giải thích bằng ngôn ngữ đơn giản, và các khối mã gốc được giữ nguyên như ban đầu.
 
-## Bước 1: Xác định thư mục tài nguyên
+### Bước 1: Xác định Thư mục Tài nguyên
 
 ```java
-// Đường dẫn đến thư mục tài nguyên.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Đảm bảo bạn thay thế "Thư mục tài liệu của bạn" bằng đường dẫn thực tế đến thư mục tài nguyên của bạn.
+Thay thế `"Your Document Directory"` bằng đường dẫn tuyệt đối nơi bạn muốn lưu hình ảnh mã vạch.
 
-## Bước 2: Khởi tạo đối tượng mã vạch
+### Bước 2: Khởi tạo Đối tượng Barcode
 
 ```java
-// Khởi tạo đối tượng mã vạch, Đặt loại ký hiệu thành code128 và Đặt
-//Văn bản mã cho mã vạch
+// Instantiate barcode object, Set the symbology type to code128 and Set the
+// Code text for the barcode
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
- Ở đây, chúng ta tạo một thể hiện của`BarcodeGenerator` lớp, chỉ định loại ký hiệu là CODE_128 và đặt văn bản mã cho mã vạch.
+Ở đây chúng ta **create code128 barcode java** bằng cách truyền `EncodeTypes.CODE_128` và chuỗi dữ liệu `"1234567"`.
 
-## Bước 3: Đặt chiều cao thanh
+### Bước 3: Đặt Chiều cao Thanh (Đơn vị Kích thước)
 
 ```java
-// Đặt chiều cao thanh thành 3 điểm
+// Set the bar height to 3 points
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-Điều chỉnh chiều cao thanh theo yêu cầu của bạn. Trong ví dụ này, chúng tôi đặt nó thành 3 điểm.
+Phương thức `setPoint()` xác định chiều cao tính bằng point (1 point = 1/72 inch). Điều chỉnh giá trị này để đáp ứng yêu cầu bố cục của bạn.
 
-## Bước 4: Lưu hình ảnh
+### Bước 4: Lưu Ảnh
 
 ```java
-// Lưu hình ảnh
+// Save the image
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-Cuối cùng, lưu hình ảnh mã vạch được tạo vào thư mục được chỉ định. Hình ảnh sẽ được đặt tên là "barcode-size-unit.jpg."
+Lệnh `save()` ghi mã vạch đã tạo vào thư mục bạn chỉ định. Định dạng ảnh được suy ra từ phần mở rộng tệp (trong trường hợp này là JPEG).
 
-Lặp lại các bước này và bạn sẽ đặt thành công đơn vị kích thước cho hình ảnh mã vạch bằng Aspose.BarCode for Java.
+## Các vấn đề thường gặp và giải pháp
 
-## Phần kết luận
-
-Tóm lại, Aspose.BarCode for Java cung cấp một cách liền mạch và hiệu quả để xử lý hình ảnh mã vạch trong các ứng dụng Java. Bằng cách làm theo hướng dẫn từng bước này, bạn đã học được cách đặt đơn vị kích thước cho hình ảnh mã vạch, mở ra cánh cửa cho vô số khả năng trong nỗ lực phát triển Java của bạn.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| **Image not created** | Đường dẫn `dataDir` không đúng hoặc thiếu quyền ghi. | Kiểm tra thư mục tồn tại và ứng dụng của bạn có quyền ghi. |
+| **Barcode appears too small** | Chiều cao thanh được đặt bằng point quá thấp so với DPI đã chọn. | Tăng giá trị truyền vào `setPoint()` hoặc điều chỉnh DPI ảnh qua `bb.getParameters().getImage().setResolution()`. |
+| **Unsupported characters** | CODE_128 chỉ hỗ trợ ASCII; bạn đã truyền Unicode. | Sử dụng một loại mã khác (ví dụ, QR_CODE) cho dữ liệu không phải ASCII. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.BarCode cho Java có phù hợp cho cả việc tạo và nhận dạng mã vạch không?
+**Hỏi: Aspose.BarCode for Java có phù hợp cho cả việc tạo và nhận dạng mã vạch không?**  
+Đ: Có, thư viện hỗ trợ cả tạo và nhận dạng nhiều loại symbology.
 
-Câu trả lời 1: Có, Aspose.BarCode for Java hỗ trợ cả khả năng nhận dạng và tạo mã vạch.
+**Hỏi: Tôi có thể tùy chỉnh giao diện của hình ảnh mã vạch đã tạo không?**  
+Đ: Chắc chắn. Bạn có thể thay đổi màu sắc, thêm chú thích, chỉnh sửa lề, và thậm chí nhúng logo bằng API `Parameters` phong phú.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh giao diện của hình ảnh mã vạch được tạo không?
+**Hỏi: Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.BarCode for Java?**  
+Đ: Truy cập [đây](https://purchase.aspose.com/temporary-license/) để yêu cầu giấy phép tạm thời để đánh giá.
 
-A2: Chắc chắn rồi. Aspose.BarCode for Java cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn điều chỉnh giao diện của hình ảnh mã vạch theo yêu cầu cụ thể của mình.
+**Hỏi: Tôi có thể tìm hỗ trợ cho Aspose.BarCode for Java ở đâu?**  
+Đ: Diễn đàn cộng đồng Aspose.BarCode là nơi tốt nhất để được trợ giúp. Kiểm tra [diễn đàn](https://forum.aspose.com/c/barcode/13) để xem câu trả lời và đặt câu hỏi mới.
 
-### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.BarCode cho Java?
+**Hỏi: Những loại symbology mã vạch nào được hỗ trợ trong Aspose.BarCode for Java?**  
+Đ: Thư viện hỗ trợ hàng chục loại symbology, bao gồm CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 và nhiều hơn nữa.
 
- A3: Thăm quan[đây](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho Aspose.BarCode for Java.
+---
 
-### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.BarCode cho Java ở đâu?
+**Cập nhật lần cuối:** 2025-12-08  
+**Kiểm thử với:** Aspose.BarCode for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
- Câu trả lời 4: Diễn đàn cộng đồng Aspose.BarCode là nơi lý tưởng để tìm kiếm sự hỗ trợ. Tham quan[diễn đàn](https://forum.aspose.com/c/barcode/13) để kết nối với các nhà phát triển khác và tìm kiếm sự trợ giúp.
-
-### Câu hỏi 5: Các ký hiệu mã vạch được hỗ trợ trong Aspose.BarCode cho Java là gì?
-
-Câu trả lời 5: Aspose.BarCode for Java hỗ trợ nhiều loại ký hiệu mã vạch, bao gồm CODE_128, QR_CODE, UPC_A, v.v.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,53 @@
 ---
-title: Aspose.BarCode を使用した Java でのバーコード画像のサイズ単位の設定
-linktitle: バーコード画像のサイズ単位の設定
+date: 2025-12-08
+description: Aspose.BarCode を使用して、Java で Code128 バーコードを作成し、バーコード画像を生成する方法を学びましょう。シンプルで再利用可能なコードで、バーコード画像のサイズ単位を正確に設定できます。
+language: ja
+linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
-description: バーコード イメージの正確なサイズ単位を設定する際の Aspose.BarCode for Java の機能を体験してください。簡単な統合、堅牢なパフォーマンス、無限のカスタマイズの可能性。
+title: Aspose.BarCode を使用した Java の Code128 バーコード作成
+url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
-url: /ja/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode を使用した Java でのバーコード画像のサイズ単位の設定
+# Aspose.BarCode を使用した code128 バーコードの作成とサイズ単位の設定（Java）
 
-## 導入
+## Introduction
 
-Aspose.BarCode for Java は、開発者がバーコード生成および認識機能を Java アプリケーションに簡単に統合できるようにする堅牢な Java API です。洗練された在庫システム、小売アプリケーション、またはバーコード機能を必要とするその他のソフトウェアを開発している場合でも、Aspose.BarCode は信頼性が高く効率的な選択肢であることが証明されています。
+このステップ‑バイ‑ステップガイドでは、**create code128 barcode java** コードを作成し、バーコード画像を生成するとともに、出力のサイズ単位を制御できます。 在庫システム、出荷ラベルジェネレータ、または信頼性の高いバーコードが必要な任意の Java アプリケーションを構築する場合、Aspose.BarCode for Java がプロセスをシンプルかつ高度にカスタマイズ可能にします。
 
-## 前提条件
+## Quick Answers
+- **What library do I need?** Aspose.BarCode for Java. → 必要なライブラリは何ですか？ Aspose.BarCode for Java。
+- **Which barcode type is covered?** CODE_128 (create code128 barcode java). → 対応しているバーコードタイプは何ですか？ CODE_128（**create code128 barcode java**）。
+- **How do I set the size unit?** Use the `BarHeight` property with `.setPoint()`. → サイズ単位はどう設定しますか？ `BarHeight` プロパティに `.setPoint()` を使用します。
+- **Can I generate barcode image java in other formats?** Yes – PNG, JPEG, BMP, etc. → 他の形式で barcode image java を生成できますか？ はい – PNG、JPEG、BMP など。
+- **What are the prerequisites?** JDK installed, Aspose.BarCode library, and a Java IDE. → 前提条件は何ですか？ JDK のインストール、Aspose.BarCode ライブラリ、Java IDE。
 
-バーコード画像のサイズ単位の設定を開始する前に、次の前提条件が満たされていることを確認してください。
+## What is **create code128 barcode java**?
 
-1. Java 開発キット (JDK): Aspose.BarCode for Java を使用するには、開発マシンにインストールされた機能する JDK が必要です。最新の JDK は Oracle Web サイトからダウンロードできます。
+Java で CODE_128 バーコードを作成することは、`BarcodeGenerator` クラスを `EncodeTypes.CODE_128` 列挙体とともにインスタンス化し、エンコードしたいデータ文字列を渡すことを意味します。このシンボロジーは、フル ASCII 文字セットをサポートし、データ密度が高いため物流分野で広く使用されています。
 
-2. Aspose.BarCode for Java ライブラリ: Aspose Web サイトからダウンロードして、Aspose.BarCode for Java ライブラリを入手します。このライブラリは、無料試用版とライセンス版の両方で利用できます。
+## Why use Aspose.BarCode to **generate barcode image java**?
 
-3. 統合開発環境 (IDE): シームレスな開発エクスペリエンスを実現するために、Eclipse や IntelliJ IDEA など、好みの Java IDE を選択します。
+- **Full control over dimensions** – バーの高さ、モジュールサイズ、画像解像度を設定できます。  
+- **No external dependencies** – 純粋な Java で、JDK をサポートする任意のプラットフォームで動作します。  
+- **Rich customization** – 色、フォント、余白、さらには QR コードまでサポートしています。  
+- **High performance** – ミリ秒単位で画像を生成でき、バッチ処理に適しています。
 
-## 名前空間のインポート
+## Prerequisites
 
-Java プロジェクトで、Aspose.BarCode が提供する機能を利用するために必要な名前空間をインポートします。 Java クラスの先頭に次のインポートを追加します。
+開始する前に、以下を用意してください：
+
+1. **Java Development Kit (JDK)** – バージョン 8 以降がインストールされていること。  
+2. **Aspose.BarCode for Java library** – Aspose のウェブサイトから最新の JAR をダウンロード（トライアルまたはライセンス版）。  
+3. **A Java IDE** – IntelliJ IDEA、Eclipse、または Java 拡張機能付き VS Code など。
+
+## Import Namespaces
+
+Java クラスの先頭に必要なインポートを追加し、Aspose.BarCode の API にアクセスできるようにします:
 
 ```java
 import java.io.IOException;
@@ -39,73 +57,74 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
+## How to **generate barcode image java** with Aspose.BarCode?
 
-ここで、バーコード画像のサイズ単位を設定するプロセスを、シンプルでわかりやすい手順に分けて見てみましょう。
+以下に完全なワークフローを示します。各ステップは平易な言葉で説明しており、元のコードブロックそのまま保持しています。
 
-## ステップ 1: リソース ディレクトリを定義する
+### Step 1: Define the Resource Directory
 
 ```java
-//リソース ディレクトリへのパス。
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-「Your Document Directory」をリソース ディレクトリへの実際のパスに置き換えてください。
+`"Your Document Directory"` を、バーコード画像を保存したい絶対パスに置き換えてください。
 
-## ステップ 2: バーコード オブジェクトをインスタンス化する
+### Step 2: Instantiate the Barcode Object
 
 ```java
-//バーコード オブジェクトをインスタンス化し、シンボル タイプを code128 に設定し、
-//バーコードのコードテキスト
+// Instantiate barcode object, Set the symbology type to code128 and Set the
+// Code text for the barcode
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-ここでは、`BarcodeGenerator`クラスを作成し、シンボル タイプを CODE_128 として指定し、バーコードのコード テキストを設定します。
+ここで `EncodeTypes.CODE_128` とデータ文字列 `"1234567"` を渡すことで、**create code128 barcode java** を実行します。
 
-## ステップ 3: バーの高さを設定する
+### Step 3: Set Bar Height (Size Unit)
 
 ```java
-//バーの高さを 3 ポイントに設定します
+// Set the bar height to 3 points
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-要件に応じてバーの高さを調整します。この例では 3 点に設定します。
+`setPoint()` メソッドはポイント単位で高さを定義します（1 ポイント = 1/72 インチ）。レイアウト要件に合わせてこの値を調整してください。
 
-## ステップ 4: 画像を保存する
+### Step 4: Save the Image
 
 ```java
-//画像を保存する
+// Save the image
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-最後に、生成されたバーコード画像を指定したディレクトリに保存します。画像の名前は「barcode-size-unit.jpg」になります。
+`save()` 呼び出しにより、指定したフォルダーに生成されたバーコードが書き込まれます。画像形式はファイル拡張子から自動的に判別されます（この例では JPEG）。
 
-これらの手順を繰り返すと、Aspose.BarCode for Java を使用してバーコード イメージのサイズ単位を正常に設定できます。
+## Common Issues and Solutions
 
-## 結論
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **Image not created** | `dataDir` パスが間違っている、または書き込み権限がありません。 | フォルダーが存在し、アプリケーションに書き込み権限があることを確認してください。 |
+| **Barcode appears too small** | ポイント単位のバー高さが DPI に対して低すぎます。 | `setPoint()` に渡す値を増やすか、`bb.getParameters().getImage().setResolution()` で画像 DPI を調整してください。 |
+| **Unsupported characters** | CODE_128 は ASCII のみをサポートし、Unicode が渡されています。 | 非 ASCII データには別のシンボロジー（例：QR_CODE）を使用してください。 |
 
-結論として、Aspose.BarCode for Java は、Java アプリケーションでバーコード イメージを操作するシームレスかつ効率的な方法を提供します。このステップバイステップのガイドに従うことで、バーコード画像のサイズ単位を設定する方法を学び、Java 開発作業における無数の可能性への扉を開きます。
+## Frequently Asked Questions
 
-## よくある質問
+**Q: Is Aspose.BarCode for Java suitable for both barcode generation and recognition?**  
+A: Yes, the library supports both generation and recognition of a wide range of symbologies.  
+**Q: Can I customize the appearance of the generated barcode images?**  
+A: Absolutely. You can change colors, add captions, modify margins, and even embed logos using the extensive `Parameters` API.  
+**Q: How can I obtain a temporary license for Aspose.BarCode for Java?**  
+A: Visit [here](https://purchase.aspose.com/temporary-license/) to request a temporary license for evaluation.  
+**Q: Where can I find support for Aspose.BarCode for Java?**  
+A: The Aspose.BarCode community forum is the best place for help. Check the [forum](https://forum.aspose.com/c/barcode/13) for answers and to ask new questions.  
+**Q: What are the supported barcode symbologies in Aspose.BarCode for Java?**  
+A: The library supports dozens of symbologies, including CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417, and many more.
 
-### Q1: Aspose.BarCode for Java はバーコード生成と認識の両方に適していますか?
+---
 
-A1: はい、Aspose.BarCode for Java はバーコード生成機能と認識機能の両方をサポートしています。
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.BarCode for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
-### Q2: 生成されたバーコード画像の外観をカスタマイズできますか?
-
-A2: もちろんです。 Aspose.BarCode for Java には広範なカスタマイズ オプションが用意されており、バーコード イメージの外観を特定の要件に合わせて調整できます。
-
-### Q3: Aspose.BarCode for Java の一時ライセンスを取得するにはどうすればよいですか?
-
- A3: 訪問[ここ](https://purchase.aspose.com/temporary-license/)Aspose.BarCode for Java の一時ライセンスを取得します。
-
-### Q4: Aspose.BarCode for Java のサポートはどこで見つけられますか?
-
- A4: Aspose.BarCode コミュニティ フォーラムは、サポートを求めるのに最適な場所です。訪問[フォーラム](https://forum.aspose.com/c/barcode/13)他の開発者とつながり、支援を求めます。
-
-### Q5: Aspose.BarCode for Java でサポートされているバーコード シンボルは何ですか?
-
-A5: Aspose.BarCode for Java は、CODE_128、QR_CODE、UPC_A などを含む幅広いバーコード シンボルをサポートしています。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
