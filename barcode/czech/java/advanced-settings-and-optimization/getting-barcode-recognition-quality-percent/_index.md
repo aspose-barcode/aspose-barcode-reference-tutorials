@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Naučte se, jak v Javě s Aspose.Barcode posoudit kvalitu čtení čárových
   kódů. Krok za krokem průvodce, jak získat procento kvality rozpoznání.
-language: cs
 linktitle: Getting Barcode Recognition Quality in Percent
 second_title: Aspose.Barcode Java API
 title: Aspose.Barcode Java – Získání kvality rozpoznávání čárových kódů v procentech
-url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
+url: /cs/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Узнайте, как установить режим высокой производительности и как быстро
   считывать штрих‑код, используя высокопроизводительный считыватель штрих‑кодов с
   Aspose.BarCode для Java.
-language: ru
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Высокопроизводительный считыватель штрихкодов: более быстрая обработка изображений
   для распознавания штрихкодов в Java с Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /ru/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

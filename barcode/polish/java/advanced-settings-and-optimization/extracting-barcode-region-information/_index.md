@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Poznaj, jak odczytywać kod kreskowy z obrazu przy użyciu Aspose.BarCode
   for Java – potężnej biblioteki umożliwiającej łatwe wyodrębnianie szczegółów regionu
   kodu kreskowego i zwiększającej możliwości Twoich aplikacji Java.
-language: pl
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Odczyt kodu kreskowego z obrazu – opanowanie wyodrębniania regionu kodu kreskowego
   w Javie z Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /pl/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

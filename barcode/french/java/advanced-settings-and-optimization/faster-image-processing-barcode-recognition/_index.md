@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Apprenez comment activer le mode haute performance et comment lire rapidement
   les codes‑barres à l’aide d’un lecteur de codes‑barres haute performance avec Aspose.BarCode
   pour Java.
-language: fr
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Lecteur de codes-barres haute performance : traitement d''image plus rapide
   pour la reconnaissance de codes-barres en Java avec Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /fr/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

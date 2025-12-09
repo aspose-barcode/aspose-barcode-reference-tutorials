@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 學習如何在 Java 中使用 Aspose.Barcode 評估條碼讀取品質。逐步指南教您取得辨識品質百分比。
-language: zh-hant
 linktitle: Getting Barcode Recognition Quality in Percent
 second_title: Aspose.Barcode Java API
 title: Aspose.Barcode Java – 獲取條碼識別品質（百分比）
-url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
+url: /zh-hant/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
 ---
 

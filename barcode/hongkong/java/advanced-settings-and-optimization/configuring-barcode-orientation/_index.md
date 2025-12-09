@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 學習如何使用 Aspose.BarCode 在 Java 中偵測條碼方向。本指南將教您如何在 Java 中讀取條碼，並高效地從圖像中辨識條碼。
-language: zh-hant
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: 使用 Aspose.BarCode 在 Java 中偵測條碼方向
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /zh-hant/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

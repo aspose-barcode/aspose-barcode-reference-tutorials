@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: Leer hoe u de high‑performance‑modus instelt en hoe u barcodes snel kunt
   lezen met een high‑performance barcodelezer met Aspose.BarCode voor Java.
-language: nl
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Barcodelezer met hoge prestaties: Snellere beeldverwerking voor barcodeherkenning
   in Java met Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /nl/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

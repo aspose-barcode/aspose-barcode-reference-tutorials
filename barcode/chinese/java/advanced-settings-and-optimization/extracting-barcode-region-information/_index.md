@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: 探索如何使用 Aspose.BarCode for Java 从图像读取条形码——这是一款强大的库，可轻松提取条形码区域详情，提升您的 Java
   应用程序。
-language: zh
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: 从图像读取条形码 – 掌握使用 Aspose.BarCode 在 Java 中的条形码区域提取
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /zh/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

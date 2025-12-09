@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية إضافة الباركود إلى مستندات PDF في جافا باستخدام Aspose.BarCode.
   يغطي هذا الدرس إنشاء صور الباركود، وضبط الحجم، واكتشاف الاتجاه.
-language: ar
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: إضافة الباركود إلى PDF – أساسيات الباركود
-url: /java/barcode-basics/
+url: /ar/java/barcode-basics/
 weight: 20
 ---
 

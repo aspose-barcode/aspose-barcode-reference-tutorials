@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: Lär dig hur du aktiverar högprestandaläge och hur du snabbt läser streckkoder
   med en högpresterande streckkodsläsare med Aspose.BarCode för Java.
-language: sv
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Högpresterande streckkodsläsare: Snabbare bildbehandling för streckkodigenkänning
   i Java med Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /sv/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

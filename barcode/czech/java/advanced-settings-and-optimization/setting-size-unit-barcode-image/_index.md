@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se, jak vytvořit čárový kód code128 v Javě a vygenerovat obrázek
   čárového kódu v Javě pomocí Aspose.BarCode. Nastavte přesné jednotky velikosti pro
   obrázky čárových kódů pomocí jednoduchého, znovupoužitelného kódu.
-language: cs
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Vytvořte čárový kód code128 v Javě s Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /cs/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

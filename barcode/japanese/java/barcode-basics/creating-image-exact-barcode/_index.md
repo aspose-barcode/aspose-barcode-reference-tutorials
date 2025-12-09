@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.BarCode を使用して Java でバーコードを生成する方法を学びましょう。この Java バーコードジェネレータの例では、Aspose
   を使用したバーコード画像の作成方法と、マスターバーコード生成の手順を示しています。
-language: ja
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: Javaでバーコードを生成する方法：正確なバーコード画像を作成する
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /ja/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

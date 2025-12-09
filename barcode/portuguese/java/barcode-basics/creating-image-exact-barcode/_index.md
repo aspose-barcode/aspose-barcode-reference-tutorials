@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aprenda a gerar códigos de barras em Java usando Aspose.BarCode. Este
   exemplo de gerador de códigos de barras em Java mostra como criar imagens de códigos
   de barras em Java e gerar códigos de barras mestre com Aspose.
-language: pt
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Como gerar código de barras em Java: Crie uma imagem de código de barras exata'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /pt/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

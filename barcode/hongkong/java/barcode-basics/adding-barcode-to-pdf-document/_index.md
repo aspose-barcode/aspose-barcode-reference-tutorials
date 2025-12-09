@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 學習如何使用 Aspose.BarCode 在 Java 中建立 PDF 文件並加入條碼。一步一步的指南，教您在 PDF 中產生與嵌入條碼。
-language: zh-hant
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: 如何使用 Aspose.BarCode 在 Java 中建立帶條碼的 PDF 文件
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /zh-hant/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

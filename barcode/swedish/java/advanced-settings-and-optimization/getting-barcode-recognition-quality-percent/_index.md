@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Lär dig hur du utvärderar läskvaliteten för streckkoder i Java med Aspose.Barcode.
   Steg‑för‑steg‑guide för att hämta procentandelen för igenkänningskvalitet.
-language: sv
 linktitle: Getting Barcode Recognition Quality in Percent
 second_title: Aspose.Barcode Java API
 title: Aspose.Barcode Java – Att få streckkodigenkänningens kvalitet i procent
-url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
+url: /sv/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
 ---
 

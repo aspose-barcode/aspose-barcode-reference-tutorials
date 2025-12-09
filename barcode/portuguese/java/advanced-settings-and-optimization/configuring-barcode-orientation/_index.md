@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aprenda a detectar a orientação de códigos de barras em Java usando Aspose.BarCode.
   Este guia mostra como ler códigos de barras em Java e reconhecer códigos de barras
   a partir de imagens de forma eficiente.
-language: pt
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Detectar a orientação do código de barras em Java com Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /pt/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

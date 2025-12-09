@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Prozkoumejte, jak číst čárový kód z obrázku pomocí Aspose.BarCode pro
   Javu – výkonnou knihovnu, která snadno získává podrobnosti o oblasti čárového kódu
   a posiluje vaše Java aplikace.
-language: cs
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Čtení čárového kódu z obrázku – Ovládnutí extrakce oblasti čárového kódu v
   Javě s Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /cs/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Pelajari cara menghasilkan barcode Java dengan Aspose.BarCode sambil
   menghasilkan gambar barcode berkualitas tinggi menggunakan pengaturan resolusi Aspose.Barcode.
-language: id
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Menghasilkan Barcode Java – Mengatur Resolusi Gambar dengan Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /id/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

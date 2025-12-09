@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aspose.BarCode का उपयोग करके जावा में बारकोड अभिविन्यास कैसे पता करें,
   सीखें। यह गाइड आपको दिखाता है कि जावा में बारकोड कैसे पढ़ें और छवियों से बारकोड
   को कुशलतापूर्वक पहचानें।
-language: hi
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode के साथ जावा में बारकोड अभिविन्यास का पता लगाएँ
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /hi/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

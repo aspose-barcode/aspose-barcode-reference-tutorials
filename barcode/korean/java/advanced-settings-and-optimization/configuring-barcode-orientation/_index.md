@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.BarCode를 사용하여 Java에서 바코드 방향을 감지하는 방법을 배웁니다. 이 가이드는 Java에서 바코드를
   읽고 이미지에서 바코드를 효율적으로 인식하는 방법을 보여줍니다.
-language: ko
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode를 사용한 Java에서 바코드 방향 감지
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /ko/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

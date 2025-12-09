@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Узнайте, как генерировать штрихкоды в Java с помощью Aspose.BarCode,
   достигая высокого качества изображений штрихкодов, используя настройки разрешения
   Aspose.BarCode.
-language: ru
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Генерация штрихкода в Java – Установка разрешения изображения с помощью Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /ru/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

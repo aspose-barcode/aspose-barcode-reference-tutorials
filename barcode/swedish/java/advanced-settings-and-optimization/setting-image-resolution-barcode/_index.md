@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du genererar streckkoder i Java med Aspose.BarCode samtidigt
   som du uppnår högkvalitativa streckkodsbilder genom att använda Aspose BarCode‑upplösningsinställningar.
-language: sv
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Generera streckkod Java – Ställ in bildupplösning med Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /sv/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

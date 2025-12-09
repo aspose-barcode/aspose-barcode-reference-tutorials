@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعرّف على كيفية إنشاء باركود Java باستخدام Aspose.BarCode مع الحصول على
   صور باركود عالية الجودة باستخدام إعدادات دقة Aspose Barcode.
-language: ar
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: إنشاء باركود جافا – ضبط دقة الصورة باستخدام Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /ar/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

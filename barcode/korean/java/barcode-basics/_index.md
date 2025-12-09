@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.BarCode를 사용하여 Java에서 PDF 문서에 바코드를 추가하는 방법을 배웁니다. 이 튜토리얼에서는 바코드
   이미지 생성, 크기 설정 및 방향 감지를 다룹니다.
-language: ko
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: PDF에 바코드 추가 – 바코드 기본
-url: /java/barcode-basics/
+url: /ko/java/barcode-basics/
 weight: 20
 ---
 

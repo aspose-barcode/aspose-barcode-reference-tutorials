@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tanulja meg, hogyan olvashat 1D vonalkódokat Java-ban az Aspose.BarCode
   segítségével – dekódolja a vonalkódokat képről gyorsan egy robusztus Java vonalkód
   könyvtár használatával.
-language: hu
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Hogyan olvassunk 1D vonalkódokat Java-ban az Aspose.BarCode használatával
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /hu/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

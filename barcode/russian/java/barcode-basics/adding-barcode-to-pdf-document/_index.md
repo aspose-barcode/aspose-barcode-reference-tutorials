@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Узнайте, как создавать PDF‑документы на Java и добавлять штрихкоды с
   помощью Aspose.BarCode. Пошаговое руководство по генерации и внедрению штрихкодов
   в PDF.
-language: ru
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: Как создать PDF‑документ Java с штрих‑кодом с помощью Aspose.BarCode
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /ru/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

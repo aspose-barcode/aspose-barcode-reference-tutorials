@@ -3,11 +3,10 @@ date: 2025-12-08
 description: تعلم كيفية إنشاء باركود Code128 في جافا وتوليد صورة باركود جافا باستخدام
   Aspose.BarCode. اضبط وحدات الحجم الدقيقة لصور الباركود باستخدام كود بسيط وقابل لإعادة
   الاستخدام.
-language: ar
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: إنشاء باركود code128 بلغة جافا باستخدام Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /ar/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何在 Java 中使用 Aspose.BarCode 產生條碼，同時透過 Aspose 條碼解析度設定，獲得高品質的條碼影像。
-language: zh-hant
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: 產生條碼 Java – 使用 Aspose.BarCode 設定圖像解析度
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /zh-hant/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

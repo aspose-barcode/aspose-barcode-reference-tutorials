@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách thêm mã vạch vào tài liệu PDF trong Java bằng Aspose.BarCode.
   Hướng dẫn này bao gồm việc tạo hình ảnh mã vạch, thiết lập kích thước và phát hiện
   hướng.
-language: vi
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Thêm mã vạch vào PDF – Cơ bản về mã vạch
-url: /java/barcode-basics/
+url: /vi/java/barcode-basics/
 weight: 20
 ---
 

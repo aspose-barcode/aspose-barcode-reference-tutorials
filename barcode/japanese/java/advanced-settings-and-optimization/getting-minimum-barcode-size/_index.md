@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: Aspose.BarCode を使用して Java で最小限のバーコードを作成する方法を学びましょう。このバーコードジェネレータチュートリアル（Java）は、ステップバイステップでスペースを最適化したバーコードの生成方法を示します。
-language: ja
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode を使用して Java で最小のバーコードを作成する方法
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /ja/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

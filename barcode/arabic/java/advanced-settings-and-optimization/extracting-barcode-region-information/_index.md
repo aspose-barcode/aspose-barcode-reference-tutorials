@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: استكشف كيفية قراءة الباركود من الصورة باستخدام Aspose.BarCode for Java
   – مكتبة قوية لاستخراج تفاصيل منطقة الباركود بسهولة وتعزيز تطبيقات Java الخاصة بك.
-language: ar
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: قراءة الباركود من الصورة – إتقان استخراج منطقة الباركود في جافا باستخدام Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /ar/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

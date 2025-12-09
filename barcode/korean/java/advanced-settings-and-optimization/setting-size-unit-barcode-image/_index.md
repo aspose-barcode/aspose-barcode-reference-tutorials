@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.BarCode를 사용하여 Java에서 Code128 바코드를 생성하고 바코드 이미지를 만드는 방법을 배우세요.
   간단하고 재사용 가능한 코드를 통해 바코드 이미지의 정확한 크기 단위를 설정합니다.
-language: ko
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode를 사용하여 Java에서 Code128 바코드 생성
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /ko/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

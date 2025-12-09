@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Naucz się odczytywać kody kreskowe 1D w Javie za pomocą Aspose.BarCode
   – szybko dekoduj kody kreskowe z obrazu, korzystając z solidnej biblioteki kodów
   kreskowych dla Javy.
-language: pl
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Jak odczytywać kody kreskowe 1D w Javie przy użyciu Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /pl/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

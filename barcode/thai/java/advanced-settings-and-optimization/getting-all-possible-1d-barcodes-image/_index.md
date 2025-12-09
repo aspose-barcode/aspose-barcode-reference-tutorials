@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้วิธีอ่านบาร์โค้ด 1 มิติใน Java ด้วย Aspose.BarCode – ถอดรหัสบาร์โค้ดจากภาพอย่างรวดเร็วด้วยไลบรารีบาร์โค้ดที่แข็งแรงสำหรับ
   Java.
-language: th
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: วิธีอ่านบาร์โค้ด 1 มิติใน Java โดยใช้ Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /th/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

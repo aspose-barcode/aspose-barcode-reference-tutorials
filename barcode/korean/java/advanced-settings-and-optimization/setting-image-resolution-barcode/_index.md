@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.BarCode를 사용하여 Java에서 바코드를 생성하는 방법을 배우고, Aspose 바코드 해상도 설정을 활용해
   고품질 바코드 이미지를 얻으세요.
-language: ko
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: 바코드 생성 Java – Aspose.BarCode로 이미지 해상도 설정
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /ko/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

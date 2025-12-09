@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: Aspose.BarCode を使用して Java で 1D バーコードの読み取り方法を学びましょう – 強力な Java 用バーコードライブラリを使って画像からバーコードを迅速にデコードします。
-language: ja
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode を使用して Java で 1D バーコードを読み取る方法
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /ja/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

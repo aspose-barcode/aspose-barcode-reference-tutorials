@@ -3,11 +3,10 @@ date: 2025-12-04
 description: تعلم كيفية إنشاء باركود بأقل حجم في جافا باستخدام Aspose.BarCode. يوضح
   هذا الدرس التعليمي لتوليد الباركود في جافا خطوة بخطوة كيفية إنتاج باركود مُحسّن
   للفضاء.
-language: ar
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: كيفية إنشاء باركود بأقل حد في جافا باستخدام Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /ar/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

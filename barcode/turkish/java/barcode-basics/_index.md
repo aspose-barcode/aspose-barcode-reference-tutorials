@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.BarCode kullanarak Java’da PDF belgelerine barkod eklemeyi öğrenin.
   Bu öğreticide barkod görüntülerinin oluşturulması, boyut ayarlanması ve yönün tespit
   edilmesi ele alınmaktadır.
-language: tr
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: PDF'ye Barkod Ekle – Barkod Temelleri
-url: /java/barcode-basics/
+url: /tr/java/barcode-basics/
 weight: 20
 ---
 

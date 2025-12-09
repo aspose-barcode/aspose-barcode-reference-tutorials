@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Apprenez à évaluer la qualité de lecture des codes‑barres en Java avec
   Aspose.Barcode. Guide étape par étape pour récupérer le pourcentage de qualité de
   reconnaissance.
-language: fr
 linktitle: Getting Barcode Recognition Quality in Percent
 second_title: Aspose.Barcode Java API
 title: Aspose.Barcode Java – Obtenir la qualité de reconnaissance du code‑barres en
   pourcentage
-url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
+url: /fr/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
 ---
 

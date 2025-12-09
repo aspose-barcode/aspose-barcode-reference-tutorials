@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Изучите, как считывать 1‑мерные штрихкоды в Java с помощью Aspose.BarCode
   — быстро декодируйте штрихкоды с изображений, используя надёжную библиотеку штрихкодов
   для Java.
-language: ru
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Как считывать 1D штрихкоды в Java с помощью Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /ru/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีเพิ่มบาร์โค้ดลงในเอกสาร PDF ด้วย Java โดยใช้ Aspose.BarCode
   บทเรียนนี้ครอบคลุมการสร้างภาพบาร์โค้ด การตั้งค่าขนาด และการตรวจจับทิศทาง
-language: th
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: เพิ่มบาร์โค้ดลงใน PDF – พื้นฐานบาร์โค้ด
-url: /java/barcode-basics/
+url: /th/java/barcode-basics/
 weight: 20
 ---
 

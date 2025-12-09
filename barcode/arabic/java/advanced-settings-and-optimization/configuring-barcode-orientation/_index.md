@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: تعلم كيفية اكتشاف اتجاه الباركود في جافا باستخدام Aspose.BarCode. يوضح
   هذا الدليل كيفية قراءة الباركودات في جافا والتعرف على الباركودات من الصور بكفاءة.
-language: ar
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: اكتشاف اتجاه الباركود في جافا باستخدام Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /ar/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

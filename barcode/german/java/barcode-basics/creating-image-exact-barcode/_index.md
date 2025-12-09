@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Erfahren Sie, wie Sie in Java Barcodes mit Aspose.BarCode generieren.
   Dieses Java-Barcode-Generator-Beispiel zeigt Ihnen, wie Sie Barcode-Bilder in Java
   erstellen und die Barcode-Erstellung mit Aspose meistern.
-language: de
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Wie man in Java einen Barcode erzeugt: Ein exaktes Barcode‑Bild erstellen'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /de/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

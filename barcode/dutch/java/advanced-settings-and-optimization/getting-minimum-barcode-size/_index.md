@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Leer hoe u een minimale barcode in Java maakt met Aspose.BarCode. Deze
   barcode‑generator tutorial voor Java laat stap voor stap zien hoe u ruimte‑geoptimaliseerde
   barcodes produceert.
-language: nl
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Hoe maak je een minimale barcode in Java met Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /nl/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

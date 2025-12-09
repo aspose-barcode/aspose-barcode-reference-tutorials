@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan hozhat létre PDF Java dokumentumokat, és adhat hozzá
   vonalkódokat az Aspose.BarCode segítségével. Lépésről lépésre útmutató a vonalkódok
   generálásához és beágyazásához PDF-ekbe.
-language: hu
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: Hogyan készítsünk PDF Java dokumentumot vonalkóddal az Aspose.BarCode használatával
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /hu/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

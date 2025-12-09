@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Изучите, как оценивать качество считывания штрих‑кода в Java с помощью
   Aspose.Barcode. Пошаговое руководство по получению процента качества распознавания.
-language: ru
 linktitle: Getting Barcode Recognition Quality in Percent
 second_title: Aspose.Barcode Java API
 title: Aspose.Barcode Java – Получение качества распознавания штрихкода в процентах
-url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
+url: /ru/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
 ---
 

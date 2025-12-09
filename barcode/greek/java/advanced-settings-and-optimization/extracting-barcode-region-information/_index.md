@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Εξερευνήστε πώς να διαβάσετε γραμμωτό κώδικα από εικόνα χρησιμοποιώντας
   το Aspose.BarCode for Java – μια ισχυρή βιβλιοθήκη για την εξαγωγή λεπτομερειών
   περιοχής γραμμωτού κώδικα με ευκολία και την ενίσχυση των εφαρμογών Java σας.
-language: el
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Ανάγνωση γραμμωτού κώδικα από εικόνα – Κατακτώντας την εξαγωγή περιοχής γραμμωτού
   κώδικα σε Java με το Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /el/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Naučte se, jak detekovat orientaci čárového kódu v Javě pomocí Aspose.BarCode.
   Tento průvodce vám ukáže, jak číst čárové kódy v Javě a efektivně rozpoznávat čárové
   kódy z obrázků.
-language: cs
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Detekce orientace čárového kódu v Javě s Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /cs/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

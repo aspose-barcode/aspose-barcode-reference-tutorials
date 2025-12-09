@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.BarCode का उपयोग करके जावा में न्यूनतम बारकोड बनाना सीखें। यह
   जावा बारकोड जेनरेटर ट्यूटोरियल चरण‑दर‑चरण दिखाता है कि कैसे स्पेस‑ऑप्टिमाइज़्ड बारकोड
   बनाएं।
-language: hi
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: जावा में Aspose.BarCode के साथ न्यूनतम बारकोड कैसे बनाएं
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /hi/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

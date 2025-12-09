@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Fedezze fel, hogyan olvashat be vonalkódot képről az Aspose.BarCode for
   Java használatával – egy erőteljes könyvtár, amely könnyedén kinyeri a vonalkód
   területének részleteit, és fokozza Java‑alkalmazásait.
-language: hu
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Vonalkód olvasása képből – A vonalkód régió kinyerésének elsajátítása Java-ban
   az Aspose.BarCode segítségével
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /hu/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

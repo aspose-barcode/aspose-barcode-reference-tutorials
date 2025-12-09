@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan generáljon vonalkódot Java-ban az Aspose.BarCode
   használatával. Ez a Java vonalkód-generátor példa megmutatja, hogyan hozhat létre
   vonalkód képet Java-ban, és hogyan végezhet teljes körű vonalkód-generálást az Aspose-szal.
-language: hu
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Hogyan generáljunk vonalkódot Java-ban: pontos vonalkód kép létrehozása'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /hu/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

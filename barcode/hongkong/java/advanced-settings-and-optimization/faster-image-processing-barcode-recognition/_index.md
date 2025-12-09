@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 了解如何設定高效能模式，以及如何使用高效能條碼閱讀器搭配 Aspose.BarCode for Java 快速讀取條碼。
-language: zh-hant
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 高效能條碼讀取器：在 Java 中使用 Aspose.BarCode 加速條碼辨識的影像處理
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /zh-hant/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

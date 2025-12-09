@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Lär dig hur du skapar minsta möjliga streckkod i Java med Aspose.BarCode.
   Denna Java‑handledning för streckkodsgenerator visar steg för steg hur du producerar
   utrymmesoptimerade streckkoder.
-language: sv
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Hur man skapar minsta streckkod i Java med Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /sv/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

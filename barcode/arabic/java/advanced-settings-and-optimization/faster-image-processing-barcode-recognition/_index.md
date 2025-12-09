@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: تعلم كيفية ضبط وضع الأداء العالي وكيفية قراءة الباركود بسرعة باستخدام
   قارئ باركود عالي الأداء مع Aspose.BarCode للغة Java.
-language: ar
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'قارئ الباركود عالي الأداء: معالجة صور أسرع للتعرف على الباركود في جافا باستخدام
   Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /ar/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

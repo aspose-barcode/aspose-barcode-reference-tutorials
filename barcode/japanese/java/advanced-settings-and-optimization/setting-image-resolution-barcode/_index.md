@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.BarCode を使用して Java でバーコードを生成し、Aspose のバーコード解像度設定で高品質なバーコード画像を実現する方法を学びましょう。
-language: ja
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Javaでバーコード生成 – Aspose.BarCodeで画像解像度を設定
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /ja/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

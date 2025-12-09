@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีสร้างบาร์โค้ดใน Java ด้วย Aspose.BarCode พร้อมสร้างภาพบาร์โค้ดคุณภาพสูงโดยใช้การตั้งค่าความละเอียดของ
   Aspose.BarCode.
-language: th
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: สร้างบาร์โค้ดด้วย Java – ตั้งค่าความละเอียดภาพด้วย Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /th/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

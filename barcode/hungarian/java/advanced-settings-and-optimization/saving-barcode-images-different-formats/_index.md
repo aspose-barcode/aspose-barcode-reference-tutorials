@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Ismerje meg, hogyan lehet vonalkód képeket generálni Java-ban az Aspose.BarCode
   használatával, egy vonalkód-generálásra szolgáló Java példával, amely bemutatja
   a JPEG, PNG, GIF és egyéb formátumokba való mentést.
-language: hu
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Hogyan generáljunk vonalkód képeket különböző formátumokban Java-val az Aspose.BarCode
   segítségével
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /hu/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

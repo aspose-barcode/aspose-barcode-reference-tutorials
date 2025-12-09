@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: जानेँ कि हाई परफ़ॉर्मेंस मोड कैसे सेट करें और Aspose.BarCode for Java
   के साथ हाई परफ़ॉर्मेंस बारकोड रीडर का उपयोग करके बारकोड को जल्दी कैसे पढ़ें।
-language: hi
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'उच्च प्रदर्शन बारकोड रीडर: जावा में Aspose.BarCode के साथ बारकोड पहचान के
   लिए तेज़ इमेज प्रोसेसिंग'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /hi/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

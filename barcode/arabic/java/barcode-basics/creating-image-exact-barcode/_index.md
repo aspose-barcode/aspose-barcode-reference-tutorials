@@ -3,11 +3,10 @@ date: 2025-12-08
 description: تعلم كيفية إنشاء الباركود في جافا باستخدام Aspose.BarCode. يوضح لك مثال
   مولد الباركود في جافا كيفية إنشاء صورة باركود جافا وإتقان توليد الباركود باستخدام
   Aspose.
-language: ar
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'كيفية إنشاء باركود في جافا: إنشاء صورة باركود دقيقة'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /ar/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

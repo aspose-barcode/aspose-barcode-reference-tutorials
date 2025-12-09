@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Khám phá cách đọc mã vạch từ hình ảnh bằng Aspose.BarCode cho Java –
   một thư viện mạnh mẽ giúp trích xuất chi tiết vùng mã vạch một cách dễ dàng và nâng
   cao các ứng dụng Java của bạn.
-language: vi
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Đọc mã vạch từ hình ảnh – Thành thạo việc trích xuất vùng mã vạch trong Java
   với Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /vi/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

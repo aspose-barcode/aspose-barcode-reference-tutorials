@@ -3,11 +3,10 @@ date: 2025-12-08
 description: 'Aspose.BarCode का उपयोग करके कोड128 बारकोड जावा बनाना और बारकोड इमेज
   जावा उत्पन्न करना सीखें। सरल, पुन: उपयोग योग्य कोड के साथ बारकोड इमेज के लिए सटीक
   आकार इकाइयाँ सेट करें।'
-language: hi
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode के साथ जावा में कोड128 बारकोड बनाएं
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /hi/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

@@ -4,12 +4,11 @@ description: Μάθετε πώς να δημιουργείτε γραμμωτό 
   Aspose.BarCode. Αυτό το παράδειγμα δημιουργίας γραμμωτού κώδικα σε Java σας δείχνει
   πώς να δημιουργήσετε εικόνα γραμμωτού κώδικα σε Java και να κυριαρχήσετε στη δημιουργία
   γραμμωτών κωδίκων με το Aspose.
-language: el
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Πώς να δημιουργήσετε γραμμωτό κώδικα σε Java: Δημιουργήστε μια ακριβή εικόνα
   γραμμωτού κώδικα'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /el/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Μάθετε πώς να διαβάζετε 1D γραμμικούς κώδικες σε Java με το Aspose.BarCode
   – αποκωδικοποιήστε κώδικες από εικόνα γρήγορα χρησιμοποιώντας μια ισχυρή βιβλιοθήκη
   γραμμικών κωδίκων για Java.
-language: el
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Πώς να διαβάσετε 1D γραμμικούς κώδικες σε Java χρησιμοποιώντας το Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /el/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

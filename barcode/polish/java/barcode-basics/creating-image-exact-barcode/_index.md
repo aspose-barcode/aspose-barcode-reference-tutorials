@@ -4,11 +4,10 @@ description: „Dowiedz się, jak generować kod kreskowy w Javie przy użyciu A
   Ten przykład generatora kodów kreskowych w Javie pokazuje, jak tworzyć obrazy kodów
   kreskowych w Javie oraz jak generować kody kreskowe w trybie master przy użyciu
   Aspose.”
-language: pl
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Jak wygenerować kod kreskowy w Javie: Utwórz dokładny obraz kodu kreskowego'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /pl/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

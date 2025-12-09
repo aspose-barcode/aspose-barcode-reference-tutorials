@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Lär dig hur du skapar PDF Java‑dokument och lägger till streckkoder med
   Aspose.BarCode. Steg‑för‑steg‑guide för att generera och bädda in streckkoder i
   PDF‑filer.
-language: sv
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: Hur man skapar ett PDF‑Java‑dokument med en streckkod med Aspose.BarCode
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /sv/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

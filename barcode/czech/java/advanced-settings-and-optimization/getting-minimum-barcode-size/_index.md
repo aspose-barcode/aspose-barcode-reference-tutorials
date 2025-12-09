@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Naučte se, jak vytvořit minimální čárový kód v Javě pomocí Aspose.BarCode.
   Tento tutoriál generátoru čárových kódů v Javě ukazuje krok za krokem, jak vytvořit
   prostorově optimalizované čárové kódy.
-language: cs
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Jak vytvořit minimální čárový kód v Javě s Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /cs/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

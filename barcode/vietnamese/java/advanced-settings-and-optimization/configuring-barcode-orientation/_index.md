@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Học cách phát hiện hướng mã vạch trong Java bằng Aspose.BarCode. Hướng
   dẫn này cho bạn biết cách đọc mã vạch trong Java và nhận dạng mã vạch từ hình ảnh
   một cách hiệu quả.
-language: vi
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Phát hiện hướng mã vạch trong Java với Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /vi/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

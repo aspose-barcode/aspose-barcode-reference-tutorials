@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: Naučte se, jak nastavit režim vysokého výkonu a jak rychle číst čárový
   kód pomocí vysoce výkonné čtečky čárových kódů s Aspose.BarCode pro Javu.
-language: cs
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Vysoce výkonná čtečka čárových kódů: Rychlejší zpracování obrazu pro rozpoznávání
   čárových kódů v Javě s Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /cs/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

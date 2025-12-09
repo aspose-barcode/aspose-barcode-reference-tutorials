@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: เรียนรู้วิธีตรวจจับการวางแนวของบาร์โค้ดใน Java ด้วย Aspose.BarCode คู่มือนี้จะแสดงวิธีอ่านบาร์โค้ดใน
   Java และจดจำบาร์โค้ดจากภาพอย่างมีประสิทธิภาพ
-language: th
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: ตรวจจับการวางแนวของบาร์โค้ดใน Java ด้วย Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /th/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

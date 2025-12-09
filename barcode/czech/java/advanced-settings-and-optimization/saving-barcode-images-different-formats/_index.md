@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Naučte se, jak generovat obrázky čárových kódů v Javě pomocí Aspose.BarCode,
   s příkladem generování čárových kódů v Javě, který ukazuje ukládání do formátů JPEG,
   PNG, GIF a dalších.
-language: cs
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Jak generovat obrázky čárových kódů v různých formátech v Javě s Aspose.BarCode
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /cs/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

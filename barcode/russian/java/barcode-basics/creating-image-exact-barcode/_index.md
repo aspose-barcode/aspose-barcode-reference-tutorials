@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Узнайте, как генерировать штрихкоды в Java с помощью Aspose.BarCode.
   Этот пример генератора штрихкодов на Java показывает, как создать изображение штрихкода
   и выполнить мастер‑генерацию штрихкодов с помощью Aspose.
-language: ru
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Как генерировать штрих‑код в Java: создать точное изображение штрих‑кода'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /ru/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

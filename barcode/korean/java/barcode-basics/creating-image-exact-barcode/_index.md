@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.BarCode를 사용하여 Java에서 바코드를 생성하는 방법을 배웁니다. 이 Java 바코드 생성기 예제는 Aspose를
   활용해 바코드 이미지를 만들고 바코드 생성 기술을 마스터하는 방법을 보여줍니다.
-language: ko
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Java에서 바코드 생성 방법: 정확한 바코드 이미지 만들기'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /ko/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

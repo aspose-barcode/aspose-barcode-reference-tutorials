@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Java'da Aspose.BarCode kullanarak barkod oluşturmayı öğrenin. Bu Java
   barkod oluşturucu örneği, barkod görüntüsü oluşturmayı ve Aspose ile barkod üretimini
   nasıl yapacağınızı gösterir.
-language: tr
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Java''da Barkod Nasıl Oluşturulur: Tam Bir Barkod Görüntüsü Oluşturma'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /tr/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

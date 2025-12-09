@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara menambahkan kode batang ke dokumen PDF dalam Java menggunakan
   Aspose.BarCode. Tutorial ini mencakup pembuatan gambar kode batang, pengaturan ukuran,
   dan deteksi orientasi.
-language: id
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Tambahkan Kode Batang ke PDF – Dasar-dasar Kode Batang
-url: /java/barcode-basics/
+url: /id/java/barcode-basics/
 weight: 20
 ---
 

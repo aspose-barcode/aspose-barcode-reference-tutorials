@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: Pelajari cara mengatur mode kinerja tinggi dan cara membaca barcode dengan
   cepat menggunakan pembaca barcode kinerja tinggi dengan Aspose.BarCode untuk Java.
-language: id
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Pembaca Kode Batang Berkinerja Tinggi: Pemrosesan Gambar Lebih Cepat untuk
   Pengenalan Kode Batang di Java dengan Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /id/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

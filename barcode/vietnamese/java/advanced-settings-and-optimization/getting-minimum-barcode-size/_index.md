@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách tạo mã vạch tối thiểu trong Java bằng Aspose.BarCode. Hướng
   dẫn tạo mã vạch này bằng Java trình bày chi tiết từng bước cách tạo mã vạch tối
   ưu không gian.
-language: vi
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Cách tạo mã vạch tối thiểu trong Java với Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /vi/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

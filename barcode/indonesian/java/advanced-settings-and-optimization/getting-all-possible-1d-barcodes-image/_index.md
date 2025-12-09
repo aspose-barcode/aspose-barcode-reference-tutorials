@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Pelajari cara membaca kode batang 1D di Java dengan Aspose.BarCode –
   dekode kode batang dari gambar dengan cepat menggunakan perpustakaan kode batang
   yang kuat untuk Java.
-language: id
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Cara membaca kode batang 1D di Java menggunakan Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /id/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να δημιουργείτε barcode Java με Aspose.BarCode ενώ επιτυγχάνετε
   εικόνες barcode υψηλής ποιότητας χρησιμοποιώντας τις ρυθμίσεις ανάλυσης του Aspose
   Barcode.
-language: el
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Δημιουργία γραμμωτού κώδικα Java – Ορισμός ανάλυσης εικόνας με το Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /el/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

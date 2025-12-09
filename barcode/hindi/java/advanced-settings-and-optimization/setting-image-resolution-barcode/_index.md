@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.BarCode का उपयोग करके जावा में बारकोड कैसे जेनरेट करें और Aspose
   बारकोड रिज़ॉल्यूशन सेटिंग्स का उपयोग करके उच्च गुणवत्ता वाली बारकोड छवियों को प्राप्त
   करना सीखें।
-language: hi
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: बारकोड जावा जनरेट करें – Aspose.BarCode के साथ इमेज रिज़ॉल्यूशन सेट करें
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /hi/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

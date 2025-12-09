@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à ajouter un code-barres aux documents PDF en Java avec Aspose.BarCode.
   Ce tutoriel couvre la génération d'images de code-barres, le réglage de la taille
   et la détection de l'orientation.
-language: fr
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Ajouter un code‑barres au PDF – Notions de base sur les codes‑barres
-url: /java/barcode-basics/
+url: /fr/java/barcode-basics/
 weight: 20
 ---
 

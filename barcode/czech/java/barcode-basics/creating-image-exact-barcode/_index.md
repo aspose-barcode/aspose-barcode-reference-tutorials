@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se generovat čárový kód v Javě pomocí Aspose.BarCode. Tento příklad
   generátoru čárových kódů v Javě vám ukáže, jak vytvořit obrázek čárového kódu v
   Javě a jak provádět pokročilou generaci čárových kódů s Aspose.
-language: cs
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Jak generovat čárový kód v Javě: Vytvořte přesný obrázek čárového kódu'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /cs/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

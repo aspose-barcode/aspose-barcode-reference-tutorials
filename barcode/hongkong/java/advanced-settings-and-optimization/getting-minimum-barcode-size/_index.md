@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 學習如何使用 Aspose.BarCode 在 Java 中建立最小條碼。此 Java 條碼產生器教學逐步說明如何產生節省空間的條碼。
-language: zh-hant
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: 如何在 Java 中使用 Aspose.BarCode 建立最小條碼
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /zh-hant/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

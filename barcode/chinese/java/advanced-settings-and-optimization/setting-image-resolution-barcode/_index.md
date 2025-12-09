@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 学习如何使用 Aspose.BarCode 在 Java 中生成条形码，并通过 Aspose 条形码分辨率设置实现高质量的条形码图像。
-language: zh
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: 使用 Aspose.BarCode 生成 Java 条形码 – 设置图像分辨率
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /zh/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

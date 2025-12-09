@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Μάθετε πώς να δημιουργείτε έγγραφα PDF Java και να προσθέτετε γραμμικούς
   κώδικες με το Aspose.BarCode. Οδηγός βήμα‑βήμα για τη δημιουργία και ενσωμάτωση
   γραμμικών κωδίκων σε PDF.
-language: el
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: Πώς να δημιουργήσετε έγγραφο PDF Java με barcode χρησιμοποιώντας το Aspose.BarCode
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /el/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

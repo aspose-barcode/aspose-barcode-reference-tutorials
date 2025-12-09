@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Lär dig hur du upptäcker streckkodens orientering i Java med Aspose.BarCode.
   Den här guiden visar hur du läser streckkoder i Java och effektivt känner igen streckkoder
   från bilder.
-language: sv
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Detektera streckkodens orientering i Java med Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /sv/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

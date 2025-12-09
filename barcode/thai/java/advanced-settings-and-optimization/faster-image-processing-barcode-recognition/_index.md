@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: เรียนรู้วิธีตั้งโหมดประสิทธิภาพสูงและวิธีอ่านบาร์โค้ดอย่างรวดเร็วโดยใช้เครื่องอ่านบาร์โค้ดประสิทธิภาพสูงกับ
   Aspose.BarCode สำหรับ Java.
-language: th
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'เครื่องอ่านบาร์โค้ดประสิทธิภาพสูง: การประมวลผลภาพที่เร็วขึ้นสำหรับการจดจำบาร์โค้ดใน
   Java ด้วย Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /th/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

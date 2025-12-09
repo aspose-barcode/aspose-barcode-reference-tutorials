@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.BarCode for Java를 사용하여 고성능 바코드 리더기로 고성능 모드를 설정하고 바코드를 빠르게 읽는 방법을
   배웁니다.
-language: ko
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: '고성능 바코드 리더: Aspose.BarCode를 사용한 Java에서 바코드 인식을 위한 빠른 이미지 처리'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /ko/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

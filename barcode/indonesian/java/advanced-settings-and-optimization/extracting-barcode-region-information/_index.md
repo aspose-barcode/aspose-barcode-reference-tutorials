@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Jelajahi cara membaca kode batang dari gambar menggunakan Aspose.BarCode
   untuk Java – sebuah perpustakaan kuat untuk mengekstrak detail wilayah kode batang
   dengan mudah dan meningkatkan aplikasi Java Anda.
-language: id
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Membaca Barcode dari Gambar – Menguasai Ekstraksi Wilayah Barcode di Java dengan
   Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /id/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

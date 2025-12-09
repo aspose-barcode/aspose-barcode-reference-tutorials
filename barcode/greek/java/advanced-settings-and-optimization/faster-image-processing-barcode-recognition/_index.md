@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Μάθετε πώς να ορίσετε τη λειτουργία υψηλής απόδοσης και πώς να διαβάζετε
   γρήγορα το barcode χρησιμοποιώντας έναν αναγνώστη barcode υψηλής απόδοσης με το
   Aspose.BarCode για Java.
-language: el
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Αναγνώστης Barcode Υψηλής Απόδοσης: Ταχύτερη Επεξεργασία Εικόνας για Αναγνώριση
   Barcode σε Java με το Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /el/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

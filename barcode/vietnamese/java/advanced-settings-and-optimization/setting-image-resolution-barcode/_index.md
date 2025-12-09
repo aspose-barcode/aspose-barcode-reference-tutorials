@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Tìm hiểu cách tạo mã vạch Java với Aspose.BarCode đồng thời đạt được
   hình ảnh mã vạch chất lượng cao bằng cách sử dụng cài đặt độ phân giải của Aspose.BarCode.
-language: vi
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Tạo mã vạch Java – Đặt độ phân giải hình ảnh với Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /vi/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

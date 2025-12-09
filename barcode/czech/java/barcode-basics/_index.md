@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak přidat čárový kód do PDF dokumentů v Javě pomocí Aspose.BarCode.
   Tento tutoriál pokrývá generování obrázků čárových kódů, nastavení velikosti a detekci
   orientace.
-language: cs
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Přidat čárový kód do PDF – Základy čárových kódů
-url: /java/barcode-basics/
+url: /cs/java/barcode-basics/
 weight: 20
 ---
 

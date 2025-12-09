@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Naučte se, jak generovat čárový kód v Javě pomocí Aspose.BarCode a přitom
   dosáhnout vysoce kvalitních obrázků čárových kódů pomocí nastavení rozlišení Aspose.BarCode.
-language: cs
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Generování čárového kódu v Javě – nastavení rozlišení obrázku pomocí Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /cs/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

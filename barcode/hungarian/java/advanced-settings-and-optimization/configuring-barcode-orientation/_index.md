@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Tanulja meg, hogyan lehet felismerni a vonalkód tájolását Java-ban az
   Aspose.BarCode segítségével. Ez az útmutató megmutatja, hogyan olvashat vonalkódokat
   Java-ban, és hogyan ismerheti fel hatékonyan a képeken lévő vonalkódokat.
-language: hu
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Vonalkód tájolásának felismerése Java-ban az Aspose.BarCode segítségével
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /hu/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Aspose.BarCode का उपयोग करके जावा में बारकोड इमेज बनाना सीखें, एक बारकोड
   जेनरेशन जावा उदाहरण के साथ जो JPEG, PNG, GIF और अन्य फ़ॉर्मैट में सहेजने को दर्शाता
   है।
-language: hi
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode के साथ जावा में विभिन्न फ़ॉर्मैट में बारकोड इमेज कैसे जनरेट
   करें
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /hi/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

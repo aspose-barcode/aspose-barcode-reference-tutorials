@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lär dig hur du lägger till streckkod i PDF-dokument i Java med Aspose.BarCode.
   Denna handledning täcker generering av streckkods­bilder, inställning av storlek
   och detektering av orientering.
-language: sv
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Lägg till streckkod i PDF – Streckkodsbasis
-url: /java/barcode-basics/
+url: /sv/java/barcode-basics/
 weight: 20
 ---
 

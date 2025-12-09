@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Dowiedz się, jak tworzyć dokumenty PDF w Javie i dodawać kody kreskowe
   za pomocą Aspose.BarCode. Przewodnik krok po kroku po generowaniu i osadzaniu kodów
   kreskowych w plikach PDF.
-language: pl
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: Jak utworzyć dokument PDF w Javie z kodem kreskowym przy użyciu Aspose.BarCode
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /pl/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

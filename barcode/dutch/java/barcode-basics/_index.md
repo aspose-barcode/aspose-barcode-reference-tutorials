@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe je een barcode aan pdf‑documenten toevoegt in Java met Aspose.BarCode.
   Deze tutorial behandelt het genereren van barcode‑afbeeldingen, het instellen van
   de grootte en het detecteren van de oriëntatie.
-language: nl
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Barcode toevoegen aan PDF – Barcode basisprincipes
-url: /java/barcode-basics/
+url: /nl/java/barcode-basics/
 weight: 20
 ---
 

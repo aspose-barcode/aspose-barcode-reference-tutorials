@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Lär dig hur du skapar code128‑streckkod i Java och genererar streckkodsbilder
   i Java med Aspose.BarCode. Ställ in exakta storleksenheter för streckkodsbilder
   med enkel, återanvändbar kod.
-language: sv
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Skapa Code128-streckkod i Java med Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /sv/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

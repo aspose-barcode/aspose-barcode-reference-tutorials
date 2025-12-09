@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan hozhat létre code128 vonalkódot Java-ban, és hogyan
   generálhat vonalkód képet Java-val az Aspose.BarCode használatával. Állítson be
   pontos méret egységeket a vonalkód képekhez egyszerű, újrahasználható kóddal.
-language: hu
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Code128 vonalkód létrehozása Java-ban az Aspose.BarCode segítségével
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /hu/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

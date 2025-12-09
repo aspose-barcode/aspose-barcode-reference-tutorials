@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Ismerje meg, hogyan generálhat Java vonalkódot az Aspose.BarCode segítségével,
   miközben az Aspose vonalkód felbontási beállításait használva magas minőségű vonalkódképeket
   ér el.
-language: hu
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Vonalkód generálása Java-ban – Kép felbontásának beállítása az Aspose.BarCode
   segítségével
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /hu/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

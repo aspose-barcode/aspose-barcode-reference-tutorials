@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Изучите, как считывать штрих‑код с изображения с помощью Aspose.BarCode
   for Java — мощной библиотеки для лёгкого извлечения деталей области штрих‑кода и
   повышения эффективности ваших Java‑приложений.
-language: ru
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Считывание штрихкода с изображения – освоение извлечения области штрихкода
   в Java с Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /ru/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

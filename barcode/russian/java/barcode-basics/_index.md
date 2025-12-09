@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Узнайте, как добавить штрих-код в PDF‑документы на Java с помощью Aspose.BarCode.
   В этом руководстве рассматривается создание изображений штрих‑кода, настройка их
   размеров и определение ориентации.
-language: ru
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Добавить штрих‑код в PDF – Основы штрих‑кода
-url: /java/barcode-basics/
+url: /ru/java/barcode-basics/
 weight: 20
 ---
 

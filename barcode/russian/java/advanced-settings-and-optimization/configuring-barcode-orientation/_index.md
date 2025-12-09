@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Узнайте, как определять ориентацию штрих‑кода в Java с помощью Aspose.BarCode.
   Это руководство покажет, как эффективно считывать штрих‑коды в Java и распознавать
   их на изображениях.
-language: ru
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Определение ориентации штрихкода в Java с Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /ru/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

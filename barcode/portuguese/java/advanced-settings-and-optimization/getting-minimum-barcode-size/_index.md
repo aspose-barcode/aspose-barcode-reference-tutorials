@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aprenda a criar códigos de barras mínimos em Java usando Aspose.BarCode.
   Este tutorial de geração de códigos de barras em Java mostra passo a passo como
   produzir códigos de barras otimizados para espaço.
-language: pt
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Como criar um código de barras mínimo em Java com Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /pt/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

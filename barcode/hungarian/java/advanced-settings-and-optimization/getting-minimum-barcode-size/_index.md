@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tanulja meg, hogyan hozhat létre minimális vonalkódot Java-ban az Aspose.BarCode
   használatával. Ez a vonalkód-generátor Java oktatóanyag lépésről lépésre bemutatja,
   hogyan készíthet térköz‑optimalizált vonalkódokat.
-language: hu
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Hogyan készítsünk minimális vonalkódot Java-ban az Aspose.BarCode segítségével
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /hu/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

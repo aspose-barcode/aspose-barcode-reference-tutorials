@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 学习如何使用 Aspose.BarCode 在 Java 中读取 1D 条形码——利用强大的 Java 条形码库快速解码图像中的条形码。
-language: zh
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: 如何在 Java 中使用 Aspose.BarCode 读取一维条码
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /zh/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Dowiedz się, jak generować obrazy kodów kreskowych w Javie przy użyciu
   Aspose.BarCode, z przykładem generowania kodów kreskowych w Javie, który demonstruje
   zapisywanie w formatach JPEG, PNG, GIF i innych.
-language: pl
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Jak generować obrazy kodów kreskowych w różnych formatach w Javie z Aspose.BarCode
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /pl/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

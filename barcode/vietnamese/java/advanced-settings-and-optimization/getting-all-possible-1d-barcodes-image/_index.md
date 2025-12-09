@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Tìm hiểu cách đọc mã vạch 1D trong Java với Aspose.BarCode – giải mã
   mã vạch từ hình ảnh nhanh chóng bằng thư viện mã vạch mạnh mẽ cho Java.
-language: vi
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Cách đọc mã vạch 1D trong Java bằng Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /vi/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

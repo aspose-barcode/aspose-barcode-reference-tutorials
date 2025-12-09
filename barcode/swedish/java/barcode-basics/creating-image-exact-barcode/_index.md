@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Lär dig hur du genererar streckkoder i Java med Aspose.BarCode. Detta
   exempel på en Java‑streckkodsgenerator visar hur du skapar en streckkodsbild i Java
   och mästarstreckkodsgenerering med Aspose.
-language: sv
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Hur man genererar streckkod i Java: Skapa en exakt streckkodsbild'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /sv/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

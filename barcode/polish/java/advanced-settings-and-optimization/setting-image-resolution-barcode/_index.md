@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Dowiedz się, jak generować kody kreskowe w języku Java przy użyciu Aspose.BarCode,
   jednocześnie uzyskując obrazy kodów kreskowych wysokiej jakości dzięki ustawieniom
   rozdzielczości Aspose.BarCode.
-language: pl
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Generowanie kodu kreskowego w Javie – ustaw rozdzielczość obrazu za pomocą
   Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /pl/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

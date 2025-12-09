@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Dowiedz się, jak tworzyć minimalny kod kreskowy w Javie przy użyciu Aspose.BarCode.
   Ten samouczek generatora kodów kreskowych w Javie pokazuje krok po kroku, jak tworzyć
   kody kreskowe zoptymalizowane pod kątem oszczędności miejsca.
-language: pl
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Jak utworzyć minimalny kod kreskowy w Javie z Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /pl/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

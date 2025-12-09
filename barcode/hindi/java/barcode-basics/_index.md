@@ -3,11 +3,10 @@ date: 2025-12-05
 description: जावा में Aspose.BarCode का उपयोग करके PDF दस्तावेज़ों में बारकोड जोड़ना
   सीखें। यह ट्यूटोरियल बारकोड छवियों को जनरेट करने, आकार सेट करने और अभिविन्यास का
   पता लगाने को कवर करता है।
-language: hi
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: PDF में बारकोड जोड़ें – बारकोड मूल बातें
-url: /java/barcode-basics/
+url: /hi/java/barcode-basics/
 weight: 20
 ---
 

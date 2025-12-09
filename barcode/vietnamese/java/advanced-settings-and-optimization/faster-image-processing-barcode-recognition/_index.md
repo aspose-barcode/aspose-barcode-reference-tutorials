@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: Tìm hiểu cách thiết lập chế độ hiệu năng cao và cách đọc mã vạch nhanh
   chóng bằng bộ đọc mã vạch hiệu năng cao với Aspose.BarCode cho Java.
-language: vi
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Đọc Mã Vạch Hiệu Suất Cao: Xử Lý Hình Ảnh Nhanh Hơn cho Nhận Dạng Mã Vạch
   trong Java với Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /vi/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

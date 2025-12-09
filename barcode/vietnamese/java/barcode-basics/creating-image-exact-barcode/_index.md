@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Học cách tạo mã vạch trong Java bằng Aspose.BarCode. Ví dụ tạo mã vạch
   Java này cho bạn thấy cách tạo hình ảnh mã vạch trong Java và tạo mã vạch chuyên
   nghiệp với Aspose.
-language: vi
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'Cách tạo mã vạch trong Java: Tạo hình ảnh mã vạch chính xác'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /vi/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

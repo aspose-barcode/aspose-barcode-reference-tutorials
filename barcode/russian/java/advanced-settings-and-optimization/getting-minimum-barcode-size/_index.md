@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Узнайте, как создать минимальный штрих‑код в Java с помощью Aspose.BarCode.
   Этот учебник по генерации штрих‑кодов на Java пошагово показывает, как создавать
   штрих‑коды, оптимизированные по пространству.
-language: ru
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Как создать минимальный штрих‑код в Java с помощью Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /ru/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

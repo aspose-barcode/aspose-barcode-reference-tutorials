@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Μάθετε πώς να ανιχνεύετε τον προσανατολισμό των barcode σε Java χρησιμοποιώντας
   το Aspose.BarCode. Αυτός ο οδηγός σας δείχνει πώς να διαβάζετε barcode σε Java και
   να αναγνωρίζετε barcode από εικόνες αποδοτικά.
-language: el
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Ανίχνευση προσανατολισμού γραμμωτού κώδικα σε Java με το Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /el/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

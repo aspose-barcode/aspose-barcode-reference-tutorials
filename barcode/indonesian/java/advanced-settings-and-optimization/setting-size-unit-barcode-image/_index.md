@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Pelajari cara membuat barcode Code128 di Java dan menghasilkan gambar
   barcode Java menggunakan Aspose.BarCode. Atur satuan ukuran yang tepat untuk gambar
   barcode dengan kode yang sederhana dan dapat digunakan kembali.
-language: id
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Buat barcode Code128 Java dengan Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /id/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Dowiedz się, jak tworzyć kod kreskowy Code128 w Javie i generować obraz
   kodu kreskowego w Javie przy użyciu Aspose.BarCode. Ustaw precyzyjne jednostki rozmiaru
   obrazów kodów kreskowych za pomocą prostego, wielokrotnego użytku kodu.
-language: pl
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Utwórz kod kreskowy Code128 w Javie z Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /pl/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

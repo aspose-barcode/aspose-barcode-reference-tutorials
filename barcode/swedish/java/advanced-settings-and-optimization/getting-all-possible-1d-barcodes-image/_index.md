@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Lär dig hur du läser 1D‑streckkoder i Java med Aspose.BarCode – avkoda
   streckkoder från bild snabbt med ett robust streckkodsbibliotek för Java.
-language: sv
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Hur man läser 1D‑streckkoder i Java med Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /sv/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.BarCode kullanarak Java’da minimum barkod oluşturmayı öğrenin.
   Bu barkod üretici öğreticisi Java, adım adım nasıl alan‑optimizeli barkodlar üretileceğini
   gösterir.
-language: tr
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Java'da Aspose.BarCode ile minimum barkod nasıl oluşturulur
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /tr/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

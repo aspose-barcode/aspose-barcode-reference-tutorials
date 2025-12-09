@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.BarCode के साथ जावा में 1D बारकोड पढ़ना सीखें – जावा के लिए एक
   मजबूत बारकोड लाइब्रेरी का उपयोग करके छवि से बारकोड को जल्दी डिकोड करें।
-language: hi
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode का उपयोग करके जावा में 1D बारकोड कैसे पढ़ें
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /hi/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

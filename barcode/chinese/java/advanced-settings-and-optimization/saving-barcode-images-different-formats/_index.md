@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 学习如何使用 Aspose.BarCode 在 Java 中生成条形码图像，示例演示将条形码保存为 JPEG、PNG、GIF 等格式。
-language: zh
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: 如何在 Java 中使用 Aspose.BarCode 生成不同格式的条形码图像
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /zh/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

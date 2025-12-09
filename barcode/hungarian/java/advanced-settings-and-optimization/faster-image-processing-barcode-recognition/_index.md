@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Tanulja meg, hogyan állíthatja be a nagy teljesítményű módot, és hogyan
   olvashatja gyorsan a vonalkódot egy nagy teljesítményű vonalkódolvasóval az Aspose.BarCode
   for Java segítségével.
-language: hu
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Nagy teljesítményű vonalkódolvasó: Gyorsabb képfeldolgozás a vonalkódfelismeréshez
   Java-ban az Aspose.BarCode segítségével'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /hu/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

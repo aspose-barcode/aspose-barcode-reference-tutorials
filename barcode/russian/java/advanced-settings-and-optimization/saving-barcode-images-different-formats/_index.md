@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Узнайте, как генерировать изображения штрихкодов в Java с помощью Aspose.BarCode,
   используя пример генерации штрихкода на Java, который демонстрирует сохранение в
   форматы JPEG, PNG, GIF и другие.
-language: ru
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Как генерировать изображения штрихкодов в разных форматах на Java с помощью
   Aspose.BarCode
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /ru/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

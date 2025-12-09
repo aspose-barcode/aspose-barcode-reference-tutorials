@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 了解如何使用 Aspose.BarCode 在 Java 中生成条形码。此 Java 条形码生成器示例展示了如何使用 Aspose 创建条形码图像以及进行条形码的高级生成。
-language: zh
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 如何在 Java 中生成条形码：创建精确的条形码图像
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /zh/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

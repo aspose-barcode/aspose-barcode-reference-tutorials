@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعلم كيفية قراءة الباركود أحادي الأبعاد في جافا باستخدام Aspose.BarCode
   – فك تشفير الباركود من الصورة بسرعة باستخدام مكتبة باركود قوية لجافا.
-language: ar
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: كيفية قراءة الباركود أحادي الأبعاد في جافا باستخدام Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /ar/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

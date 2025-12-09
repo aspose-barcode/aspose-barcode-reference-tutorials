@@ -3,11 +3,10 @@ date: 2025-12-08
 description: เรียนรู้วิธีสร้างบาร์โค้ดใน Java ด้วย Aspose.BarCode ตัวอย่างการสร้างบาร์โค้ดด้วย
   Java นี้จะแสดงให้คุณเห็นวิธีสร้างภาพบาร์โค้ดใน Java และการสร้างบาร์โค้ดขั้นสูงด้วย
   Aspose.
-language: th
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'วิธีสร้างบาร์โค้ดใน Java: สร้างภาพบาร์โค้ดที่แม่นยำ'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /th/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

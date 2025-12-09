@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Naučte se číst 1D čárové kódy v Javě s Aspose.BarCode – rychle dekódujte
   čárové kódy z obrázku pomocí robustní knihovny čárových kódů pro Javu.
-language: cs
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Jak číst 1D čárové kódy v Javě pomocí Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /cs/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Explore como ler códigos de barras a partir de imagens usando o Aspose.BarCode
   para Java – uma biblioteca poderosa para extrair detalhes da região do código de
   barras sem esforço e impulsionar suas aplicações Java.
-language: pt
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Ler código de barras a partir de imagem – Dominando a extração de região de
   código de barras em Java com Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /pt/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

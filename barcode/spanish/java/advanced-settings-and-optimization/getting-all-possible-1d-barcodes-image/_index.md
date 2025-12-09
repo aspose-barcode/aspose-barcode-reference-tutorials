@@ -3,11 +3,10 @@ date: 2025-11-29
 description: 'Aprenda a leer códigos de barras 1D en Java con Aspose.BarCode: decodifique
   códigos de barras a partir de imágenes rápidamente usando una biblioteca de códigos
   de barras robusta para Java.'
-language: es
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
 title: Cómo leer códigos de barras 1D en Java usando Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
+url: /es/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
 

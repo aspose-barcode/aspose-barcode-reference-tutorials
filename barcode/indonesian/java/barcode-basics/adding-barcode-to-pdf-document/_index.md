@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Pelajari cara membuat dokumen PDF Java dan menambahkan barcode dengan
   Aspose.BarCode. Panduan langkah demi langkah untuk menghasilkan dan menyematkan
   barcode dalam PDF.
-language: id
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: Cara membuat dokumen PDF Java dengan barcode menggunakan Aspose.BarCode
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /id/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

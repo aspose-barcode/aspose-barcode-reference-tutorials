@@ -4,11 +4,10 @@ description: Μάθετε πώς να δημιουργήσετε ελάχιστ�
   το Aspose.BarCode. Αυτό το εκπαιδευτικό πρόγραμμα δημιουργίας γραμμωτών κωδίκων
   σε Java δείχνει βήμα‑βήμα πώς να παράγετε γραμμωτούς κώδικες βελτιστοποιημένους
   για χώρο.
-language: el
 linktitle: create minimum barcode
 second_title: Aspose.BarCode Java API
 title: Πώς να δημιουργήσετε ελάχιστο barcode σε Java με το Aspose.BarCode
-url: /java/advanced-settings-and-optimization/getting-minimum-barcode-size/
+url: /el/java/advanced-settings-and-optimization/getting-minimum-barcode-size/
 weight: 12
 ---
 

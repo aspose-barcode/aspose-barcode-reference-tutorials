@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Dowiedz się, jak ustawić tryb wysokiej wydajności i jak szybko odczytywać
   kody kreskowe za pomocą wysokowydajnego czytnika kodów kreskowych z Aspose.BarCode
   dla Javy.
-language: pl
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Wysokowydajny czytnik kodów kreskowych: szybsze przetwarzanie obrazu dla rozpoznawania
   kodów kreskowych w Javie z Aspose.BarCode'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /pl/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Tìm hiểu cách đánh giá chất lượng đọc mã vạch trong Java với Aspose.Barcode.
   Hướng dẫn từng bước để lấy phần trăm chất lượng nhận dạng.
-language: vi
 linktitle: Getting Barcode Recognition Quality in Percent
 second_title: Aspose.Barcode Java API
 title: Aspose.Barcode Java – Đánh giá chất lượng nhận dạng mã vạch bằng phần trăm
-url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
+url: /vi/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
 ---
 

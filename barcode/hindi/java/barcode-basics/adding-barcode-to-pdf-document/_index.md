@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: PDF जावा दस्तावेज़ बनाना और Aspose.BarCode के साथ बारकोड जोड़ना सीखें।
   PDF में बारकोड जनरेट करने और एम्बेड करने के लिए चरण-दर-चरण गाइड।
-language: hi
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode का उपयोग करके बारकोड के साथ PDF Java दस्तावेज़ कैसे बनाएं
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /hi/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

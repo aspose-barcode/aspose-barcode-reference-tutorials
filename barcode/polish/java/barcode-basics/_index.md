@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naucz się, jak dodawać kody kreskowe do dokumentów PDF w języku Java
   przy użyciu Aspose.BarCode. Ten samouczek obejmuje generowanie obrazów kodów kreskowych,
   ustawianie rozmiaru oraz wykrywanie orientacji.
-language: pl
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Dodaj kod kreskowy do PDF – Podstawy kodów kreskowych
-url: /java/barcode-basics/
+url: /pl/java/barcode-basics/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να προσθέτετε barcode σε έγγραφα PDF σε Java χρησιμοποιώντας
   το Aspose.BarCode. Αυτό το σεμινάριο καλύπτει τη δημιουργία εικόνων barcode, τον
   καθορισμό του μεγέθους και την ανίχνευση του προσανατολισμού.
-language: el
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
 title: Προσθήκη Γραμμωτού Κώδικα σε PDF – Βασικά Στοιχεία Γραμμωτού Κώδικα
-url: /java/barcode-basics/
+url: /el/java/barcode-basics/
 weight: 20
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية إنشاء مستندات PDF بلغة Java وإضافة الباركود باستخدام Aspose.BarCode.
   دليل خطوة بخطوة لإنشاء وتضمين الباركود في ملفات PDF.
-language: ar
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
 title: كيفية إنشاء مستند PDF بلغة Java مع باركود باستخدام Aspose.BarCode
-url: /java/barcode-basics/adding-barcode-to-pdf-document/
+url: /ar/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية إنشاء صور الباركود في جافا باستخدام Aspose.BarCode، مع مثال
   على توليد باركود بجافا يوضح حفظه بصيغ JPEG و PNG و GIF وغيرها من الصيغ.
-language: ar
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: كيفية إنشاء صور الباركود بصيغ مختلفة في جافا باستخدام Aspose.BarCode
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /ar/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

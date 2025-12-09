@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aprenda como criar código de barras Code128 em Java e gerar imagem de
   código de barras em Java usando Aspose.BarCode. Defina unidades de tamanho precisas
   para imagens de códigos de barras com código simples e reutilizável.
-language: pt
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Criar código de barras Code128 em Java com Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /pt/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

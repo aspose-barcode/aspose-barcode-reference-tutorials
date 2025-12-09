@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Узнайте, как создавать штрих‑код Code128 в Java и генерировать изображение
   штрих‑кода в Java с помощью Aspose.BarCode. Устанавливайте точные единицы размера
   для изображений штрих‑кодов с помощью простого, переиспользуемого кода.
-language: ru
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Создать штрих‑код code128 на Java с Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /ru/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Utforska hur du läser streckkoder från bild med Aspose.BarCode för Java
   – ett kraftfullt bibliotek för att enkelt extrahera streckkodsområdesdetaljer och
   förbättra dina Java‑applikationer.
-language: sv
 linktitle: Extracting Barcode Region Information from the Image
 second_title: Aspose.BarCode Java API
 title: Läs streckkod från bild – Bemästra extraktion av streckkodsområde i Java med
   Aspose.BarCode
-url: /java/advanced-settings-and-optimization/extracting-barcode-region-information/
+url: /sv/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Ismerje meg, hogyan értékelheti a vonalkódolvasás minőségét Java-ban
   az Aspose.Barcode segítségével. Lépésről lépésre útmutató a felismerési minőségi
   százalék lekéréséhez.
-language: hu
 linktitle: Getting Barcode Recognition Quality in Percent
 second_title: Aspose.Barcode Java API
 title: Aspose.Barcode Java – A vonalkód felismerési minőség lekérése százalékban
-url: /java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
+url: /hu/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/
 weight: 21
 ---
 

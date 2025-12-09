@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tìm hiểu cách tạo mã vạch code128 bằng Java và tạo hình ảnh mã vạch bằng
   Java sử dụng Aspose.BarCode. Đặt đơn vị kích thước chính xác cho hình ảnh mã vạch
   với mã đơn giản, có thể tái sử dụng.
-language: vi
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
 title: Tạo mã vạch code128 bằng Java với Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
+url: /vi/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Dowiedz się, jak wykrywać orientację kodu kreskowego w Javie przy użyciu
   Aspose.BarCode. Ten przewodnik pokazuje, jak odczytywać kody kreskowe w Javie i
   skutecznie rozpoznawać kody kreskowe z obrazów.
-language: pl
 linktitle: Detect Barcode Orientation Java
 second_title: Aspose.BarCode Java API
 title: Wykrywanie orientacji kodu kreskowego w Javie z Aspose.BarCode
-url: /java/advanced-settings-and-optimization/configuring-barcode-orientation/
+url: /pl/java/advanced-settings-and-optimization/configuring-barcode-orientation/
 weight: 16
 ---
 

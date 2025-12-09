@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe je barcode‑java genereert met Aspose.BarCode en tegelijkertijd
   hoogwaardige barcode‑afbeeldingen krijgt door de resolutie‑instellingen van Aspose.BarCode
   te gebruiken.
-language: nl
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Barcode genereren Java – Stel de beeldresolutie in met Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /nl/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Lär dig hur du genererar streckkodsbilder i Java med Aspose.BarCode,
   med ett Java‑exempel på streckkodsgenerering som visar hur du sparar till JPEG,
   PNG, GIF och andra format.
-language: sv
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Hur man genererar streckkodsbilder i olika format i Java med Aspose.BarCode
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /sv/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

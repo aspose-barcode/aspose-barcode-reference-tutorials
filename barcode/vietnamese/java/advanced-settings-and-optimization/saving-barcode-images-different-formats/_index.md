@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách tạo hình ảnh mã vạch trong Java bằng Aspose.BarCode, với
   một ví dụ tạo mã vạch bằng Java cho thấy cách lưu dưới dạng JPEG, PNG, GIF và các
   định dạng khác.
-language: vi
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Cách tạo hình ảnh mã vạch ở các định dạng khác nhau trong Java với Aspose.BarCode
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /vi/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

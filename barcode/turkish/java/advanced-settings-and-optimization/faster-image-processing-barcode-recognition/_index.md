@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Aspose.BarCode for Java ile yüksek performanslı bir barkod okuyucu kullanarak
   yüksek performans modunu nasıl ayarlayacağınızı ve barkodu nasıl hızlı okuyacağınızı
   öğrenin.
-language: tr
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
 title: 'Yüksek Performanslı Barkod Okuyucu: Java''da Aspose.BarCode ile Barkod Tanıma
   İçin Daha Hızlı Görüntü İşleme'
-url: /java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
+url: /tr/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 

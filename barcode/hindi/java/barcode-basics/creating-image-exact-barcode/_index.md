@@ -3,11 +3,10 @@ date: 2025-12-08
 description: जावा में Aspose.BarCode का उपयोग करके बारकोड बनाना सीखें। यह जावा बारकोड
   जेनरेटर उदाहरण दिखाता है कि कैसे बारकोड इमेज जावा बनाएं और Aspose के साथ मास्टर
   बारकोड जेनरेशन करें।
-language: hi
 linktitle: Creating an Image with Exact Barcode
 second_title: Aspose.BarCode Java API
 title: 'जावा में बारकोड कैसे बनाएं: एक सटीक बारकोड छवि बनाएं'
-url: /java/barcode-basics/creating-image-exact-barcode/
+url: /hi/java/barcode-basics/creating-image-exact-barcode/
 weight: 12
 ---
 

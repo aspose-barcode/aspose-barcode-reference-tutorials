@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aprenda a generar códigos de barras en Java con Aspose.BarCode mientras
   obtiene imágenes de códigos de barras de alta calidad utilizando la configuración
   de resolución de Aspose.BarCode.
-language: es
 linktitle: Setting Image Resolution for Barcode
 second_title: Aspose.BarCode Java API
 title: Generar código de barras Java – Establecer resolución de imagen con Aspose.BarCode
-url: /java/advanced-settings-and-optimization/setting-image-resolution-barcode/
+url: /es/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
 

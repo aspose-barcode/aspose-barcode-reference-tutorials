@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Apprenez à générer des images de codes‑barres en Java avec Aspose.BarCode,
   grâce à un exemple de génération de codes‑barres en Java qui montre comment enregistrer
   au format JPEG, PNG, GIF et d’autres formats.
-language: fr
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Comment générer des images de code‑barres dans différents formats en Java avec
   Aspose.BarCode
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /fr/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Java'da Aspose.BarCode kullanarak barkod görüntüleri oluşturmayı öğrenin;
   JPEG, PNG, GIF ve diğer formatlarda kaydetmeyi gösteren bir Java barkod oluşturma
   örneğiyle.
-language: tr
 linktitle: Saving Barcode Images to Different Formats
 second_title: Aspose.BarCode Java API
 title: Aspose.BarCode ile Java’da Farklı Formatlarda Barkod Görüntüleri Nasıl Oluşturulur
-url: /java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
+url: /tr/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/
 weight: 13
 ---
 
