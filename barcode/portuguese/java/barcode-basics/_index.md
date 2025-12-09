@@ -76,13 +76,6 @@ Criando uma imagem com geração exata de código de barras em Java com Aspose.B
 ### [Detecção de Orientação de Código de Barras em Java](./detecting-barcode-orientation/)
 Aprimore suas aplicações Java com reconhecimento de códigos de barras usando Aspose.BarCode para Java. Siga nosso guia passo a passo para detectar a orientação do código de barras sem esforço.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Como faço **how to generate barcode** para uma simbologia específica como QR Code?**  
@@ -105,3 +98,10 @@ A: Existem licenças de desenvolvedor, site e empresarial. Uma licença temporá
 **Última atualização:** 2025-12-05  
 **Testado com:** Aspose.BarCode for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

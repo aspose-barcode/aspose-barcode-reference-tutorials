@@ -74,13 +74,6 @@ weight: 20
 ### [Barcode Orientation Detection in Java](./detecting-barcode-orientation/)
 使用 Aspose.BarCode for Java 为您的 Java 应用程序添加条形码识别功能。按照我们的分步指南轻松实现条形码方向检测。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 如何 **how to generate barcode** 为特定符号（如 QR Code）生成条形码？**  
@@ -104,4 +97,9 @@ A: 有开发者、站点和企业授权。提供免费临时授权用于评估�
 **测试版本：** Aspose.BarCode for Java 24.12  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

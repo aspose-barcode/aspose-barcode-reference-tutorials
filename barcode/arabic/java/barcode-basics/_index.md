@@ -75,13 +75,6 @@ weight: 20
 ### [اكتشاف اتجاه الباركود في Java](./detecting-barcode-orientation/)
 حسّن تطبيقات Java الخاصة بك باستخدام التعرف على الباركود باستخدام Aspose.BarCode for Java. اتبع دليلنا خطوة بخطوة لاكتشاف اتجاه الباركود بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني **how to generate barcode** لرمز محدد مثل QR Code؟**  
@@ -105,4 +98,9 @@ weight: 20
 **تم الاختبار مع:** Aspose.BarCode for Java 24.12  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

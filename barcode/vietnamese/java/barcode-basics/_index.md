@@ -76,13 +76,6 @@ Tạo ảnh với mã vạch chính xác trong Java bằng Aspose.BarCode. Tạo
 ### [Barcode Orientation Detection in Java](./detecting-barcode-orientation/)
 Nâng cao các ứng dụng Java của bạn với nhận dạng mã vạch bằng Aspose.BarCode for Java. Thực hiện theo hướng dẫn từng bước để dễ dàng phát hiện hướng của mã vạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
 **Q: How do I **how to generate barcode** for a specific symbology like QR Code?**  
@@ -106,4 +99,9 @@ A: Có các giấy phép dành cho nhà phát triển, site và doanh nghiệp. 
 **Tested With:** Aspose.BarCode for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

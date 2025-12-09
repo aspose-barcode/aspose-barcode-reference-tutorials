@@ -76,13 +76,6 @@ Aspose.BarCode के साथ Java में सटीक बारकोड �
 ### [Java में बारकोड अभिविन्यास पहचान](./detecting-barcode-orientation/)
 Aspose.BarCode for Java का उपयोग करके बारकोड पहचान के साथ अपने Java एप्लिकेशन को उन्नत बनाएं। चरण‑दर‑चरण गाइड के साथ आसानी से बारकोड अभिविन्यास पहचानें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: मैं एक विशिष्ट सिम्बोलॉजी जैसे QR कोड के लिए **how to generate barcode** कैसे बनाऊँ?**  
@@ -106,4 +99,9 @@ A: डेवलपर, साइट और एंटरप्राइज़ ल
 **Tested With:** Aspose.BarCode for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

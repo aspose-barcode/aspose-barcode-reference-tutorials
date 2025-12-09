@@ -76,13 +76,6 @@ weight: 20
 ### [Ανίχνευση Προσανατολισμού Barcode σε Java](./detecting-barcode-orientation/)
 Βελτιώστε τις εφαρμογές Java με αναγνώριση barcode χρησιμοποιώντας Aspose.BarCode for Java. Ακολουθήστε τον οδηγό βήμα‑βήμα για εύκολη ανίχνευση προσανατολισμού barcode.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Πώς μπορώ να **δημιουργήσω barcode** για μια συγκεκριμένη συμβολική όπως QR Code;**  
@@ -106,4 +99,9 @@ A: Υπάρχουν άδειες για προγραμματιστές, ιστό
 **Δοκιμή με:** Aspose.BarCode for Java 24.12  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

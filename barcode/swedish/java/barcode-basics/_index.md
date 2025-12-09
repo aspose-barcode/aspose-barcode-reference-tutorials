@@ -76,13 +76,6 @@ Skapa en bild med exakt streckkodsgenerering i Java med Aspose.BarCode. Skapa an
 ### [Detektering av streckkodens orientering i Java](./detecting-barcode-orientation/)
 Förbättra dina Java‑applikationer med streckkodigenkänning med Aspose.BarCode for Java. Följ vår steg‑för‑steg‑guide för att enkelt upptäcka streckkodens orientering.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Hur genererar jag **how to generate barcode** för en specifik symbologi som QR‑kod?**  
@@ -106,4 +99,9 @@ A: Det finns utvecklar‑, site‑ och företagslicenser. En gratis temporär li
 **Testad med:** Aspose.BarCode for Java 24.12  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

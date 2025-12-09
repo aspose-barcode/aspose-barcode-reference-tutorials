@@ -76,13 +76,6 @@ Vytvoření obrázku s přesnou generací čárového kódu v Javě s Aspose.Bar
 ### [Detekce orientace čárového kódu v Javě](./detecting-barcode-orientation/)
 Vylepšete své Java aplikace rozpoznáváním čárových kódů pomocí Aspose.BarCode for Java. Postupujte podle našeho krok‑za‑krokem průvodce a snadno detekujte orientaci čárových kódů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Jak mohu **how to generate barcode** pro konkrétní symbologii jako QR Code?**  
@@ -106,4 +99,9 @@ A: Existují licence pro vývojáře, pro místo a pro podnik. Pro hodnocení je
 **Testováno s:** Aspose.BarCode for Java 24.12  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

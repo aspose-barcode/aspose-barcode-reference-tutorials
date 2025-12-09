@@ -76,13 +76,6 @@ Aspose.BarCode ile Java’da tam barkodlu görüntü oluşturma. Özel barkodlar
 ### [Java’da Barkod Yön Algılaması](./detecting-barcode-orientation/)
 Java uygulamalarınızı Aspose.BarCode for Java kullanarak barkod tanıma ile geliştirin. Barkod yönünü zahmetsizce algılamak için adım adım rehberimizi izleyin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: **how to generate barcode** için QR Code gibi belirli bir semboloji nasıl oluşturulur?**  
@@ -106,4 +99,9 @@ A: Geliştirici, site ve kurumsal lisanslar bulunmaktadır. Değerlendirme için
 **Test Edilen Versiyon:** Aspose.BarCode for Java 24.12  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

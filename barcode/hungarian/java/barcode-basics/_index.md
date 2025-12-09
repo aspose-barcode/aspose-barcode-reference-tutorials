@@ -76,13 +76,6 @@ Creating an Image with Exact barcode generation in Java with Aspose.BarCode. Cre
 ### [Vonalkód tájolásdetektálás Java-ban](./detecting-barcode-orientation/)
 Enhance your Java applications with barcode recognition using Aspose.BarCode for Java. Follow our step‑by‑step guide to effortlessly detect barcode orientation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Hogyan generálok **how to generate barcode** egy adott szimbólumhoz, például QR Code?**  
@@ -105,3 +98,10 @@ A: There are developer, site, and enterprise licenses. A free temporary license 
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.BarCode for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

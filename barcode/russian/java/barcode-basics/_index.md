@@ -76,13 +76,6 @@ weight: 20
 ### [Обнаружение ориентации штрихкода в Java](./detecting-barcode-orientation/)
 Улучшите свои Java‑приложения распознаванием штрихкодов с помощью Aspose.BarCode for Java. Следуйте нашему пошаговому руководству, чтобы без труда обнаруживать ориентацию штрихкода.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Как мне **how to generate barcode** для конкретной символьности, например QR Code?**  
@@ -106,4 +99,9 @@ A: Существуют лицензии для разработчиков, са
 **Тестировано с:** Aspose.BarCode for Java 24.12  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
