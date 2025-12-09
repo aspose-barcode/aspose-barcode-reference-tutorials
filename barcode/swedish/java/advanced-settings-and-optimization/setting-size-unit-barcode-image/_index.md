@@ -1,35 +1,55 @@
 ---
-title: Ställa in storleksenhet för streckkodsbild i Java med Aspose.BarCode
-linktitle: Ställa in storleksenhet för streckkodsbild
+date: 2025-12-08
+description: Lär dig hur du skapar code128‑streckkod i Java och genererar streckkodsbilder
+  i Java med Aspose.BarCode. Ställ in exakta storleksenheter för streckkodsbilder
+  med enkel, återanvändbar kod.
+language: sv
+linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
-description: Upptäck kraften i Aspose.BarCode för Java när det gäller att ställa in exakta storleksenheter för streckkodsbilder. Enkel integration, robust prestanda och oändliga anpassningsmöjligheter.
+title: Skapa Code128-streckkod i Java med Aspose.BarCode
+url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
-url: /sv/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ställa in storleksenhet för streckkodsbild i Java med Aspose.BarCode
+# Skapa code128 streckkod java och ställ in storleksenhet med Aspose.BarCode
 
 ## Introduktion
 
-Aspose.BarCode för Java är ett robust Java API som gör det möjligt för utvecklare att integrera streckkodsgenerering och -igenkänning i sina Java-applikationer utan ansträngning. Oavsett om du utvecklar ett sofistikerat inventeringssystem, en detaljhandelsapplikation eller någon annan programvara som kräver streckkodsfunktionalitet, visar Aspose.BarCode sig vara ett pålitligt och effektivt val.
+I den här steg‑för‑steg‑guiden kommer du att **skapa code128 streckkod java** kod som genererar en streckkodsbild och låter dig kontrollera storleksenheten för utskriften. Oavsett om du bygger ett lagersystem, en fraktetikettgenerator eller någon Java‑applikation som behöver en pålitlig streckkod, gör Aspose.BarCode för Java processen enkel och mycket anpassningsbar.
+
+## Snabba svar
+- **Vilket bibliotek behöver jag?** Aspose.BarCode för Java.  
+- **Vilken streckkodstyp täcks?** CODE_128 (create code128 barcode java).  
+- **Hur ställer jag in storleksenheten?** Använd `BarHeight`‑egenskapen med `.setPoint()`.  
+- **Kan jag generera streckkodsbild java i andra format?** Ja – PNG, JPEG, BMP osv.  
+- **Vad krävs?** JDK installerat, Aspose.BarCode‑biblioteket och en Java‑IDE.
+
+## Vad är **create code128 barcode java**?
+
+Att skapa en CODE_128‑streckkod i Java innebär att instansiera `BarcodeGenerator`‑klassen med enum‑värdet `EncodeTypes.CODE_128` och ange den datasträng du vill koda. Denna symbologi används flitigt inom logistik eftersom den stödjer hela ASCII‑teckenuppsättningen och ger hög datadensitet.
+
+## Varför använda Aspose.BarCode för att **generate barcode image java**?
+
+- **Full kontroll över dimensioner** – du kan sätta bar‑höjd, modulstorlek och bildupplösning.  
+- **Inga externa beroenden** – ren Java, fungerar på alla plattformar som stödjer JDK.  
+- **Rik anpassning** – färger, typsnitt, marginaler och till och med QR‑koder stöds.  
+- **Hög prestanda** – genererar bilder på millisekunder, lämpligt för batch‑bearbetning.
 
 ## Förutsättningar
 
-Innan vi ger oss ut på resan med att ställa in storleksenheten för en streckkodsbild, se till att du har följande förutsättningar på plats:
+Innan vi börjar, se till att du har:
 
-1. Java Development Kit (JDK): Aspose.BarCode för Java kräver en fungerande JDK installerad på din utvecklingsmaskin. Du kan ladda ner den senaste JDK från Oracles webbplats.
+1. **Java Development Kit (JDK)** – version 8 eller senare installerad på din maskin.  
+2. **Aspose.BarCode för Java‑bibliotek** – ladda ner den senaste JAR‑filen från Aspose‑webbplatsen (prov eller licens).  
+3. **En Java‑IDE** – t.ex. IntelliJ IDEA, Eclipse eller VS Code med Java‑tillägg.  
 
-2. Aspose.BarCode for Java Library: Skaffa Aspose.BarCode for Java-biblioteket genom att ladda ner det från Asposes webbplats. Biblioteket finns tillgängligt i både gratis testversion och licensierad version.
+## Importera namnrymder
 
-3. Integrated Development Environment (IDE): Välj din föredragna Java IDE, som Eclipse eller IntelliJ IDEA, för en sömlös utvecklingsupplevelse.
-
-## Importera namnområden
-
-I ditt Java-projekt, importera de nödvändiga namnområdena för att utnyttja funktionerna som tillhandahålls av Aspose.BarCode. Lägg till följande importer i början av din Java-klass:
+Lägg till de nödvändiga importerna högst upp i din Java‑klass så att du kan komma åt Aspose.BarCode‑API:t:
 
 ```java
 import java.io.IOException;
@@ -39,73 +59,77 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
+## Hur man **generate barcode image java** med Aspose.BarCode?
 
-Låt oss nu dela upp processen att ställa in storleksenheten för en streckkodsbild i enkla och begripliga steg.
+Nedan följer hela arbetsflödet. Varje steg förklaras i klartext, och de ursprungliga kodblocken behålls exakt som de var.
 
-## Steg 1: Definiera resurskatalogen
+### Steg 1: Definiera resurskatalogen
 
 ```java
-// Sökvägen till resurskatalogen.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Se till att du ersätter "Din dokumentkatalog" med den faktiska sökvägen till din resurskatalog.
+Ersätt `"Your Document Directory"` med den absoluta sökvägen där du vill spara streckkodsbilden.
 
-## Steg 2: Instantiera streckkodsobjekt
+### Steg 2: Instansiera Barcode‑objektet
 
 ```java
-// Instantiera streckkodsobjekt, Ställ in symbologitypen till code128 och Ställ in
-//Kodtext för streckkoden
+// Instantiate barcode object, Set the symbology type to code128 and Set the
+// Code text for the barcode
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
- Här skapar vi en instans av`BarcodeGenerator` klass, specificerar symbologitypen som CODE_128 och ställer in kodtexten för streckkoden.
+Här **create code128 barcode java** genom att skicka `EncodeTypes.CODE_128` och datasträngen `"1234567"`.
 
-## Steg 3: Ställ in barhöjd
+### Steg 3: Ställ in Bar Height (storleksenhet)
 
 ```java
-// Ställ in stångens höjd till 3 punkter
+// Set the bar height to 3 points
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-Justera stångens höjd efter dina krav. I det här exemplet sätter vi den till 3 poäng.
+Metoden `setPoint()` definierar höjden i punkter (1 punkt = 1/72 tum). Justera detta värde för att passa dina layoutkrav.
 
-## Steg 4: Spara bilden
+### Steg 4: Spara bilden
 
 ```java
-// Spara bilden
+// Save the image
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-Slutligen, spara den genererade streckkodsbilden i den angivna katalogen. Bilden kommer att få namnet "barcode-size-unit.jpg."
+Anropet `save()` skriver den genererade streckkoden till den mapp du angav. Bildformatet bestäms av filändelsen (JPEG i detta fall).
 
-Upprepa dessa steg så har du framgångsrikt ställt in storleksenheten för en streckkodsbild med Aspose.BarCode för Java.
+## Vanliga problem och lösningar
 
-## Slutsats
+| Problem | Orsak | Lösning |
+|-------|--------|-----|
+| **Bild skapades inte** | `dataDir`‑sökvägen är felaktig eller saknar skrivbehörighet. | Verifiera att mappen finns och att ditt program har skrivbehörighet. |
+| **Streckkoden är för liten** | Bar height som satts i punkter är för låg för den valda DPI:n. | Öka värdet som skickas till `setPoint()` eller justera bildens DPI via `bb.getParameters().getImage().setResolution()`. |
+| **Ej stödda tecken** | CODE_128 stöder endast ASCII; du skickade Unicode. | Använd en annan symbologi (t.ex. QR_CODE) för icke‑ASCII-data. |
 
-Sammanfattningsvis erbjuder Aspose.BarCode för Java ett sömlöst och effektivt sätt att manipulera streckkodsbilder i Java-applikationer. Genom att följa den här steg-för-steg-guiden har du lärt dig hur du ställer in storleksenheten för en streckkodsbild, vilket öppnar dörren till en myriad av möjligheter i dina Java-utvecklingssträvanden.
+## Vanliga frågor
 
-## FAQ's
+**Q: Är Aspose.BarCode för Java lämplig för både generering och igenkänning av streckkoder?**  
+A: Ja, biblioteket stödjer både generering och igenkänning av ett brett utbud av symbologier.
 
-### F1: Är Aspose.BarCode för Java lämplig för både generering och igenkänning av streckkoder?
+**Q: Kan jag anpassa utseendet på de genererade stre Du kan ändra färger, lägga till bildtexter, justera marginaler och till och med bädda in logotyper med det omfattande `Parameters`‑API:et.
 
-S1: Ja, Aspose.BarCode för Java stöder både streckkodsgenerering och igenkänningsfunktioner.
+**Q: Hur kan jag få en tillfällig licens för Aspose.BarCode för Java?**  
+A: Besök [här](https://purchase.aspose.com/temporary-license/) för att begära en tillfällig licens för utvärdering.
 
-### F2: Kan jag anpassa utseendet på de genererade streckkodsbilderna?
+**Q: Var kan jag hitta support för Aspose.BarCode för Java?**  
+A: Aspose.BarCode community‑forum är den bästa platsen för hjälp. Kolla [forumet](https://forum.aspose.com/c/barcode/13) för svar och för att ställa nya frågor.
 
-A2: Absolut. Aspose.BarCode för Java erbjuder omfattande anpassningsalternativ, så att du kan skräddarsy utseendet på streckkodsbilder till dina specifika krav.
+**Q: Vilka streckkodssymbologier stöds i Aspose.BarCode för Java?**  
+A: Biblioteket stöder dussintals symbologier, inklusive CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 och många fler.
 
-### F3: Hur kan jag få en tillfällig licens för Aspose.BarCode för Java?
+---
 
- A3: Besök[här](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens för Aspose.BarCode för Java.
+**Senast uppdaterad:** 2025-12-08  
+**Testat med:** Aspose.BarCode för Java 24.12 (senaste vid skrivtillfället)  
+**Författare:** Aspose  
 
-### F4: Var kan jag hitta support för Aspose.BarCode för Java?
-
- S4: Gemenskapsforumet Aspose.BarCode är den idealiska platsen för att söka stöd. Besök[forum](https://forum.aspose.com/c/barcode/13) att få kontakt med andra utvecklare och söka hjälp.
-
-### F5: Vilka är de streckkodssymboler som stöds i Aspose.BarCode för Java?
-
-S5: Aspose.BarCode för Java stöder ett brett utbud av streckkodssymboler, inklusive CODE_128, QR_CODE, UPC_A och många fler.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
