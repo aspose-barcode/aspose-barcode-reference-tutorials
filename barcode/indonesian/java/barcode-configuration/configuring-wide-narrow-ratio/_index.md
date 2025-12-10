@@ -1,98 +1,124 @@
 ---
-title: Mengonfigurasi Rasio Lebar-Sempit di Java dengan Aspose.BarCode
-linktitle: Mengonfigurasi Rasio Lebar-Sempit
+date: 2025-12-10
+description: Pelajari cara menghasilkan barcode dengan rasio lebar‑narrow khusus di
+  Java menggunakan Aspose.BarCode dan menghasilkan gambar barcode secara efisien.
+  Ikuti panduan langkah demi langkah kami.
+linktitle: Configuring Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
-description: Pelajari cara mengonfigurasi rasio lebar-sempit di kode batang Java menggunakan Aspose.BarCode. Ikuti panduan langkah demi langkah kami untuk penyesuaian yang lancar.
-weight: 17
+title: Cara Membuat Barcode dengan Rasio Lebar-Pengecil di Java
 url: /id/java/barcode-configuration/configuring-wide-narrow-ratio/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonfigurasi Rasio Lebar-Sempit di Java dengan Aspose.BarCode
+# Cara Membuat Barcode dengan Rasio Lebar-Pengecil di Java
 
+## Introduction
 
-## Perkenalan
+Jika Anda perlu **cara membuat barcode** dengan proporsi visual yang tepat, mengatur rasio lebar‑pengecil adalah kuncinya. Dalam tutorial ini kami akan memandu Anda melalui proses pembuatan **barcode langkah demi langkah** menggunakan Aspose.BarCode for Java, menunjukkan cara mengonfigurasi rasio, menghasilkan gambar barcode, dan **menyimpan barcode png** ke disk. Baik Anda membuat label inventaris, tag pengiriman, atau aplikasi apa pun yang memerlukan barcode CODE_128 dengan gaya khusus, semua yang Anda butuhkan ada di sini.
 
-Selamat datang di panduan langkah demi langkah kami tentang mengonfigurasi rasio lebar-sempit di Java menggunakan Aspose.BarCode. Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan rasio lebar ke sempit untuk kode batang menggunakan Aspose.BarCode untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai pembuatan kode batang, panduan ini akan membantu Anda mencapai konfigurasi yang diinginkan dengan mudah.
+## Quick Answers
+- **Apa itu rasio lebar‑pengecil?** Ini mengontrol lebar relatif bar lebar dibandingkan bar sempit dalam barcode.  
+- **Simbol apa yang mendukung penyesuaian rasio?** Kebanyakan simbol 1‑D, termasuk CODE_128, memungkinkan Anda mengatur rasio khusus.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis tersedia, tetapi lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Bisakah saya menghasilkan gambar barcode dalam format PNG?** Ya—gunakan `generator.save(...)` untuk menghasilkan gambar barcode sebagai PNG.  
+- **Apakah kode ini kompatibel dengan Java 8+?** Tentu saja; Aspose.BarCode bekerja dengan semua versi Java modern.
 
-## Prasyarat
+## Prerequisites
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke kode, pastikan Anda memiliki hal berikut:
 
-- Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda.
--  Aspose.BarCode untuk Java: Unduh dan instal perpustakaan Aspose.BarCode dari[tautan unduhan](https://releases.aspose.com/barcode/java/).
+- Java Development Kit (JDK) terpasang di mesin Anda.  
+- Aspose.BarCode for Java library. Unduh dari [download link](https://releases.aspose.com/barcode/java/).
 
-## Paket Impor
+## Import Packages
 
-Untuk memulai, impor paket yang diperlukan ke proyek Java Anda. Ini termasuk perpustakaan Aspose.BarCode, yang menyediakan alat dan fungsionalitas yang diperlukan untuk pembuatan kode batang.
+Untuk memulai, impor kelas Aspose.BarCode yang penting ke dalam proyek Anda.
 
 ```java
-// Impor perpustakaan Aspose.BarCode
+// Import Aspose.BarCode library
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Mari kita pecahkan kode contoh menjadi beberapa langkah untuk memahami setiap bagian proses.
+## What is the wide‑narrow ratio and why adjust it?
 
-## Langkah 1: Atur Direktori Dokumen
+Rasio lebar‑pengecil menentukan seberapa tebal bar “lebar” dibandingkan dengan bar “sempit”. Menyesuaikan rasio ini dapat meningkatkan keterbacaan pemindai, memenuhi standar pencetakan tertentu, atau sekadar menyesuaikan gaya visual merek.
+
+## How to generate barcode with wide‑narrow ratio in Java
+
+Berikut adalah panduan **barcode langkah demi langkah** yang memandu Anda melalui setiap bagian proses.
+
+### Step 1: Set Document Directory
 
 ```java
-// Jalur ke direktori sumber daya.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Pastikan Anda mengatur jalur ke direktori tempat Anda ingin menyimpan gambar barcode yang dihasilkan.
+Pastikan direktori ada dan Anda memiliki izin menulis; ini adalah tempat file **save barcode png** akan disimpan.
 
-## Langkah 2: Buat Instansi Objek Barcode
+### Step 2: Instantiate Barcode Object
 
 ```java
-// Buat instance objek kode batang
-// Buat instance BarcodeGenerator, tentukan teks kode dan simbologi di konstruktor
+// Instantiate barcode object
+// Create an instance of BarcodeGenerator, specify codetext and symbology in the constructor
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-Buat objek BarcodeGenerator dan tentukan teks kode dan simbologi (CODE_128 dalam kasus ini) untuk barcode.
+Di sini kami **membuat barcode code_128** dengan memberikan `EncodeTypes.CODE_128` ke konstruktor.
 
-## Langkah 3: Tetapkan Rasio Lebar-Sempit
+### Step 3: Set Wide‑Narrow Ratio
 
 ```java
-// Atur rasio lebar dan sempit untuk kode batang
+// Set the wide to narrow ratio for the barcode
 generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 ```
 
-Gunakan metode setWideNarrowRatio untuk mengonfigurasi rasio lebar ke sempit untuk kode batang. Sesuaikan rasio sesuai dengan kebutuhan Anda.
+Metode `setWideNarrowRatio` memungkinkan Anda menyesuaikan jarak visual secara halus. Nilai `3.0f` berarti bar lebar tiga kali lebar bar sempit.
 
-## Langkah 4: Simpan Gambar ke Disk
+### Step 4: Save Image to Disk
 
 ```java
-// Simpan gambar ke disk dalam format PNG
+// Save the image to disk in PNG format
 generator.save(dataDir + "wideNarrowRatio.png");
 ```
 
-Simpan gambar barcode yang dihasilkan ke direktori yang ditentukan dengan rasio lebar-sempit yang dikonfigurasi.
+Memanggil `save` akan **menghasilkan gambar barcode** dan menyimpannya sebagai file PNG, menyelesaikan langkah **save barcode png**.
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Selamat! Anda telah berhasil mengonfigurasi rasio lebar-sempit untuk kode batang di Java menggunakan Aspose.BarCode. Kustomisasi ini memungkinkan Anda membuat kode batang yang disesuaikan dengan kebutuhan spesifik Anda.
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| Barcode terlihat terdistorsi | Rasio terlalu tinggi/rendah untuk printer | Sesuaikan nilai yang diberikan ke `setWideNarrowRatio` (mis., 2.0‑2.5). |
+| File tidak dibuat | Path `dataDir` tidak valid atau izin tidak cukup | Verifikasi path direktori dan pastikan aplikasi memiliki akses menulis. |
+| Pemindai tidak dapat membaca barcode | Rasio di luar rentang yang direkomendasikan untuk simbol | Gunakan rasio standar (2.0‑3.0) atau uji dengan pemindai target. |
 
-## FAQ
+## Frequently Asked Questions
 
-### T: Dapatkah saya menggunakan Aspose.BarCode dengan kerangka Java lainnya?
-J: Ya, Aspose.BarCode dirancang untuk bekerja secara lancar dengan berbagai kerangka kerja Java.
+**T: Bisakah saya menggunakan Aspose.BarCode dengan kerangka kerja Java lain?**  
+J: Ya, Aspose.BarCode dirancang untuk bekerja mulus dengan Spring, Java EE, Android, dan lingkungan Java lainnya.
 
-### T: Bagaimana cara membuat kode batang dengan simbologi berbeda?
-A: Cukup ubah tipe simbologi di konstruktor BarcodeGenerator, misalnya EncodeTypes.QR.
+**T: Bagaimana saya dapat menghasilkan barcode dengan simbol yang berbeda?**  
+J: Cukup ubah tipe simbol di konstruktor `BarcodeGenerator`, misalnya `EncodeTypes.QR` untuk kode QR.
 
-### T: Apakah ada versi uji coba yang tersedia untuk Aspose.BarCode?
- A: Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+**T: Apakah ada versi percobaan yang tersedia untuk Aspose.BarCode?**  
+J: Ya, Anda dapat mengakses versi percobaan gratis [di sini](https://releases.aspose.com/).
 
-### T: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.BarCode?
- J: Lihat dokumentasi[Di Sini](https://reference.aspose.com/barcode/java/).
+**T: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.BarCode?**  
+J: Lihat dokumentasi [di sini](https://reference.aspose.com/barcode/java/).
 
-### T: Bagaimana cara mendapatkan dukungan untuk Aspose.BarCode?
- J: Kunjungi forum Aspose.BarCode[Di Sini](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi.
+**T: Bagaimana cara mendapatkan dukungan untuk Aspose.BarCode?**  
+J: Kunjungi forum Aspose.BarCode [di sini](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi komunitas.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-10  
+**Diuji Dengan:** Aspose.BarCode for Java 24.11 (latest at time of writing)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

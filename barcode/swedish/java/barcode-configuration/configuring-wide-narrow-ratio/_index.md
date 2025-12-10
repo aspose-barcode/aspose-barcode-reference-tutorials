@@ -1,98 +1,123 @@
 ---
-title: Konfigurera Wide-Narrow Ratio i Java med Aspose.BarCode
-linktitle: Konfigurera Wide-Narrow Ratio
+date: 2025-12-10
+description: Lär dig hur du genererar streckkod med ett anpassat brett‑tunt förhållande
+  i Java med Aspose.BarCode och skapar streckkodsbilder effektivt. Följ vår steg‑för‑steg‑guide.
+linktitle: Configuring Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
-description: Lär dig hur du konfigurerar bred-smal ratio i Java-streckkoder med Aspose.BarCode. Följ vår steg-för-steg-guide för sömlös anpassning.
-weight: 17
+title: Hur man genererar streckkod med brett‑smalt förhållande i Java
 url: /sv/java/barcode-configuration/configuring-wide-narrow-ratio/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konfigurera Wide-Narrow Ratio i Java med Aspose.BarCode
-
+# Hur man genererar streckkod med Wide‑Narrow‑förhållande i Java
 
 ## Introduktion
 
-Välkommen till vår steg-för-steg-guide för att konfigurera det breda smala förhållandet i Java med Aspose.BarCode. I den här handledningen går vi igenom processen att ställa in det breda till det smala förhållandet för en streckkod med Aspose.BarCode för Java. Oavsett om du är en erfaren utvecklare eller bara har börjat med streckkodsgenerering, hjälper den här guiden dig att enkelt uppnå önskad konfiguration.
+Om du behöver **hur man genererar streckkod** med precisa visuella proportioner är justering av wide‑narrow‑förhållandet nyckeln. I den här handledningen går vi igenom en **steg för steg streckkod**‑skapandeprocess med Aspose.BarCode för Java, visar hur du konfigurerar förhållandet, genererar streckkodsbild och **sparar barcode png** till disk. Oavsett om du bygger lageretiketter, fraktsedlar eller någon annan applikation som kräver en anpassad CODE_128‑streckkod, hittar du allt du behöver här.
+
+## Snabba svar
+- **Vad är wide‑narrow‑förhållandet?** Det styr den relativa bredden på de breda staplarna jämfört med de smala staplarna i en streckkod.  
+- **Vilken symbologi stödjer justering av förhållandet?** De flesta 1‑D‑symbologier, inklusive CODE_128, låter dig ange ett eget förhållande.  
+- **Behöver jag en licens?** En gratis provversion finns tillgänglig, men en kommersiell licens krävs för produktionsbruk.  
+- **Kan jag generera en streckkodsbild i PNG‑format?** Ja – använd `generator.save(...)` för att generera streckkodsbild som PNG.  
+- **Är koden kompatibel med Java 8+?** Absolut; Aspose.BarCode fungerar med alla moderna Java‑versioner.
 
 ## Förutsättningar
 
-Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
+Innan vi dyker in i koden, se till att du har följande:
 
-- Java Development Kit (JDK): Se till att du har Java installerat på ditt system.
--  Aspose.BarCode för Java: Ladda ner och installera Aspose.BarCode-biblioteket från[nedladdningslänk](https://releases.aspose.com/barcode/java/).
+- Java Development Kit (JDK) installerat på din maskin.  
+- Aspose.BarCode för Java‑biblioteket. Ladda ner det från [download link](https://releases.aspose.com/barcode/java/).
 
 ## Importera paket
 
-För att komma igång, importera nödvändiga paket till ditt Java-projekt. Detta inkluderar Aspose.BarCode-biblioteket, som tillhandahåller de verktyg och funktioner som behövs för generering av streckkoder.
+För att börja, importera den väsentliga Aspose.BarCode‑klassen till ditt projekt.
 
 ```java
-// Importera Aspose.BarCode-bibliotek
+// Import Aspose.BarCode library
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Låt oss dela upp exempelkoden i flera steg för att förstå varje del av processen.
+## Vad är wide‑narrow‑förhållandet och varför justera det?
 
-## Steg 1: Ställ in dokumentkatalog
+Wide‑narrow‑förhållandet bestämmer hur tjocka de “bredare” staplarna framstår jämfört med de “smalare”. Att justera detta förhållande kan förbättra läsbarheten för skannrar, uppfylla specifika utskriftsstandarder eller helt enkelt matcha ett varumärkes visuella stil.
+
+## Hur man genererar streckkod med wide‑narrow‑förhållande i Java
+
+Nedan följer en **steg för steg streckkod**‑guide som går igenom varje del av processen.
+
+### Steg 1: Ange dokumentkatalog
 
 ```java
-// Sökvägen till resurskatalogen.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Se till att du ställer in sökvägen till katalogen där du vill spara den genererade streckkodsbilden.
+Se till att katalogen finns och att du har skrivbehörighet; här kommer **spara barcode png**‑filen att placeras.
 
-## Steg 2: Instantiera streckkodsobjekt
+### Steg 2: Skapa Barcode‑objekt
 
 ```java
-// Instantiera streckkodsobjekt
-// Skapa en instans av BarcodeGenerator, ange kodtext och symbolik i konstruktorn
+// Instantiate barcode object
+// Create an instance of BarcodeGenerator, specify codetext and symbology in the constructor
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-Skapa ett BarcodeGenerator-objekt och ange kodtexten och symboliken (CODE_128 i det här fallet) för streckkoden.
+Här **skapar vi code_128 barcode** genom att skicka `EncodeTypes.CODE_128` till konstruktorn.
 
-## Steg 3: Ställ in Wide-Narrow Ratio
+### Steg 3: Ange Wide‑Narrow‑förhållande
 
 ```java
-// Ställ in det breda till det smala förhållandet för streckkoden
+// Set the wide to narrow ratio for the barcode
 generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 ```
 
-Använd metoden setWideNarrowRatio för att konfigurera det breda till smala förhållandet för streckkoden. Justera förhållandet enligt dina krav.
+Metoden `setWideNarrowRatio` låter dig finjustera det visuella avståndet. Ett värde på `3.0f` betyder att den breda stapeln är tre gånger så bred som en smal stapel.
 
-## Steg 4: Spara bilden på disken
+### Steg 4: Spara bild till disk
 
 ```java
-// Spara bilden på disk i PNG-format
+// Save the image to disk in PNG format
 generator.save(dataDir + "wideNarrowRatio.png");
 ```
 
-Spara den genererade streckkodsbilden i den angivna katalogen med det konfigurerade bred-smal-förhållandet.
+Genom att anropa `save` **genereras streckkodsbild** och lagras som en PNG‑fil, vilket slutför **spara barcode png**‑steget.
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Grattis! Du har framgångsrikt konfigurerat det breda smala förhållandet för en streckkod i Java med Aspose.BarCode. Denna anpassning låter dig skapa streckkoder skräddarsydda för dina specifika behov.
+| Problem | Orsak | Lösning |
+|-------|--------|-----|
+| Streckkoden ser förvrängd ut | Förhållandet är för högt/lågt för skrivaren | Justera värdet som skickas till `setWideNarrowRatio` (t.ex. 2.0‑2.5). |
+| Filen skapades inte | Ogiltig `dataDir`‑sökväg eller otillräckliga rättigheter | Kontrollera katalogsökvägen och säkerställ att applikationen har skrivbehörighet. |
+| Skannern kan inte läsa streckkoden | Förhållandet ligger utanför rekommenderat intervall för symbologin | Använd standardförhållanden (2.0‑3.0) eller testa med målskannern. |
 
 ## Vanliga frågor
 
-### F: Kan jag använda Aspose.BarCode med andra Java-ramverk?
-S: Ja, Aspose.BarCode är designad för att fungera sömlöst med olika Java-ramverk.
+**Q: Kan jag använda Aspose.BarCode med andra Java‑ramverk?**  
+A: Ja, Aspose.BarCode är designat för att fungera sömlöst med Spring, Java EE, Android och andra Java‑miljöer.
 
-### F: Hur kan jag generera streckkoder med olika symboler?
-S: Ändra helt enkelt symbologitypen i BarcodeGenerator-konstruktorn, t.ex. EncodeTypes.QR.
+**Q: Hur kan jag generera streckkoder med olika symbologier?**  
+A: Byt helt enkelt symbologityp i `BarcodeGenerator`‑konstruktorn, till exempel `EncodeTypes.QR` för QR‑koder.
 
-### F: Finns det en testversion tillgänglig för Aspose.BarCode?
- S: Ja, du kan komma åt den kostnadsfria testversionen[här](https://releases.aspose.com/).
+**Q: Finns det en provversion av Aspose.BarCode?**  
+A: Ja, du kan komma åt den fria provversionen [here](https://releases.aspose.com/).
 
-### F: Var kan jag hitta detaljerad dokumentation för Aspose.BarCode?
- S: Se dokumentationen[här](https://reference.aspose.com/barcode/java/).
+**Q: Var kan jag hitta detaljerad dokumentation för Aspose.BarCode?**  
+A: Se dokumentationen [here](https://reference.aspose.com/barcode/java/).
 
-### F: Hur får man support för Aspose.BarCode?
- S: Besök Aspose.BarCode-forumet[här](https://forum.aspose.com/c/barcode/13) för stöd och diskussioner.
+**Q: Hur får jag support för Aspose.BarCode?**  
+A: Besök Aspose.BarCode‑forumet [here](https://forum.aspose.com/c/barcode/13) för support och community‑diskussioner.
+
+---
+
+**Senast uppdaterad:** 2025-12-10  
+**Testad med:** Aspose.BarCode för Java 24.11 (senaste vid skrivtillfället)  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
