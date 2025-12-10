@@ -116,12 +116,6 @@ Generate multiple barcodes on a single image effortlessly using Aspose.BarCode f
 Explore the power of Aspose.BarCode for Java in decoding 1D barcodes effortlessly. Download now for seamless integration into your Java applications.
 ### [Getting Barcode Recognition Quality in Percent in Java](./getting-barcode-recognition-quality-percent/)
 Getting barcode recognition quality in Java with Aspose.BarCode. Follow our step‑by‑step guide for optimal results.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -145,3 +139,10 @@ A: Use Aspose.BarCode’s `recognizeBarCodeImage()` method or a physical scanner
 **Last Updated:** 2025-11-27  
 **Tested With:** Aspose.BarCode for Java 24.11 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
