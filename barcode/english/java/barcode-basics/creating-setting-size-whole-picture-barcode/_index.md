@@ -1,5 +1,5 @@
 ---
-title: How to Generate Barcode in Java: Create and Set Size for Whole Picture
+title: How to Generate Barcode in Java Create and Set Size for Whole Picture
 linktitle: Creating and Setting Size for Whole Picture with Barcode
 second_title: Aspose.BarCode Java API
 description: Learn how to generate barcode java with Aspose.BarCode. This guide shows how to create barcode image java, set size, and customize appearance effortlessly.
