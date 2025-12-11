@@ -117,15 +117,15 @@ A7: Metoda `save` obsługuje wiele formatów; zamień `BarCodeImageFormat.JPEG` 
 
 Aspose.BarCode for Java zapewnia potężne i elastyczne rozwiązanie dla zadań **generowania kodów kreskowych w Javie**. Postępując zgodnie z tym przewodnikiem krok po kroku, możesz bez trudu zapisywać obrazy kodów kreskowych do strumieni, umożliwiając dynamiczne generowanie kodów i płynną integrację z nowoczesnymi aplikacjami Java.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-10  
+**Testowano z:** Aspose.BarCode 24.12 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-10  
-**Testowano z:** Aspose.BarCode 24.12 for Java  
-**Autor:** Aspose

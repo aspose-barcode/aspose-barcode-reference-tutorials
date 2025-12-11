@@ -128,15 +128,15 @@ generator.save(outStream, BarCodeImageFormat.JPEG);
 
 Aspose.BarCode for Java предоставляет мощное и гибкое решение для задач **generate barcode Java**. Следуя этому пошаговому руководству, вы сможете без труда сохранять изображения штрих‑кодов в потоки, обеспечивая динамическое создание штрих‑кодов и бесшовную интеграцию с современными Java‑приложениями.
 
+---
+
+**Последнее обновление:** 2025-12-10  
+**Тестировано с:** Aspose.BarCode 24.12 for Java  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-10  
-**Тестировано с:** Aspose.BarCode 24.12 for Java  
-**Автор:** Aspose

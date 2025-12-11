@@ -115,15 +115,15 @@ generator.save(outStream, BarCodeImageFormat.JPEG);
 
 توفر Aspose.BarCode for Java حلًا قويًا ومرنًا لـ **إنشاء باركود Java**. باتباعك لهذا الدليل خطوة بخطوة، يمكنك بسهولة حفظ صور الباركود إلى تدفقات، مما يتيح إنشاء باركود ديناميكي وتكامل سلس مع تطبيقات Java الحديثة.
 
+---
+
+**آخر تحديث:** 2025-12-10  
+**تم الاختبار مع:** Aspose.BarCode 24.12 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-10  
-**تم الاختبار مع:** Aspose.BarCode 24.12 for Java  
-**المؤلف:** Aspose

@@ -116,15 +116,15 @@ A7 : La méthode `save` prend en charge plusieurs formats ; remplacez `BarCo
 
 Aspose.BarCode pour Java fournit une solution puissante et flexible pour les tâches de **générer des codes‑barres Java**. En suivant ce guide étape par étape, vous pouvez enregistrer aisément des images de codes‑barres dans des flux, permettant une génération dynamique de codes‑barres et une intégration fluide avec les applications Java modernes.
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.BarCode 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode 24.12 for Java  
-**Author:** Aspose

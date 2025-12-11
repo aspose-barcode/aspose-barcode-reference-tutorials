@@ -116,15 +116,15 @@ A7: Η μέθοδος `save` υποστηρίζει πολλαπλές μορφ�
 
 Το Aspose.BarCode for Java παρέχει μια ισχυρή και ευέλικτη λύση για εργασίες **generate barcode Java**. Ακολουθώντας αυτόν τον βήμα‑βήμα οδηγό, μπορείτε εύκολα να αποθηκεύετε εικόνες barcode σε ροές, επιτρέποντας δυναμική δημιουργία barcode και άψογη ενσωμάτωση με σύγχρονες εφαρμογές Java.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-10  
+**Δοκιμή Με:** Aspose.BarCode 24.12 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-10  
-**Δοκιμή Με:** Aspose.BarCode 24.12 for Java  
-**Συγγραφέας:** Aspose

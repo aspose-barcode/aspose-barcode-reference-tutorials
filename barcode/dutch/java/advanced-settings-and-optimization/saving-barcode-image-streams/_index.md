@@ -116,15 +116,15 @@ A7: De `save`‑methode ondersteunt meerdere formaten; vervang `BarCodeImageForm
 
 Aspose.BarCode for Java biedt een krachtige en flexibele oplossing voor **generate barcode Java** taken. Door deze stap‑voor‑stap‑gids te volgen, kun je moeiteloos barcode‑afbeeldingen opslaan naar streams, waardoor dynamische barcode‑generatie mogelijk wordt en naadloze integratie met moderne Java‑applicaties.
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.BarCode 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode 24.12 for Java  
-**Author:** Aspose

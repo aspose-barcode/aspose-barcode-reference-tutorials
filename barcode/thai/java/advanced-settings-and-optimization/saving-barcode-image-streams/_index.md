@@ -114,15 +114,15 @@ A7: เมธอด `save` รองรับหลายรูปแบบ; เ
 
 Aspose.BarCode สำหรับ Java ให้โซลูชันที่ทรงพลังและยืดหยุ่นสำหรับงาน **สร้างบาร์โค้ดด้วย Java** ด้วยการทำตามคู่มือขั้นตอนนี้ คุณสามารถบันทึกรูปภาพบาร์โค้ดไปยังสตรีมได้อย่างง่ายดาย เปิดโอกาสให้การสร้างบาร์โค้ดแบบไดนามิกและการบูรณาการที่ราบรื่นกับแอปพลิเคชัน Java สมัยใหม่
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-10  
+**ทดสอบด้วย:** Aspose.BarCode 24.12 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-10  
-**ทดสอบด้วย:** Aspose.BarCode 24.12 for Java  
-**ผู้เขียน:** Aspose

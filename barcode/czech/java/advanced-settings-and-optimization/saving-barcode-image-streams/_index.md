@@ -115,15 +115,15 @@ A7: Metoda `save` podporuje více formátů; podle potřeby nahraďte `BarCodeIm
 
 Aspose.BarCode pro Javu poskytuje výkonné a flexibilní řešení pro **generate barcode Java** úkoly. Dodržením tohoto krok‑za‑krokem průvodce můžete snadno ukládat obrázky čárových kódů do streamů, což umožňuje dynamické generování čárových kódů a bezproblémovou integraci s moderními Java aplikacemi.
 
+---
+
+**Poslední aktualizace:** 2025-12-10  
+**Testováno s:** Aspose.BarCode 24.12 pro Javu  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-10  
-**Testováno s:** Aspose.BarCode 24.12 pro Javu  
-**Autor:** Aspose

@@ -115,15 +115,15 @@ A7: `save` 메서드는 여러 형식을 지원합니다; 필요에 따라 `BarC
 
 Aspose.BarCode for Java는 **generate barcode Java** 작업을 위한 강력하고 유연한 솔루션을 제공합니다. 이 단계별 가이드를 따라 바코드 이미지를 스트림에 손쉽게 저장함으로써 동적 바코드 생성 및 최신 Java 애플리케이션과의 원활한 통합을 구현할 수 있습니다.
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.BarCode 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode 24.12 for Java  
-**Author:** Aspose

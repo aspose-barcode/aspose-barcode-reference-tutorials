@@ -115,15 +115,15 @@ A7: Phương thức `save` hỗ trợ nhiều định dạng; thay thế `BarCod
 
 Aspose.BarCode for Java cung cấp giải pháp mạnh mẽ và linh hoạt cho các nhiệm vụ **generate barcode Java**. Bằng cách làm theo hướng dẫn từng bước này, bạn có thể dễ dàng lưu hình ảnh mã vạch vào stream, cho phép tạo mã vạch động và tích hợp liền mạch với các ứng dụng Java hiện đại.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-10  
+**Kiểm tra với:** Aspose.BarCode 24.12 for Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-10  
-**Kiểm tra với:** Aspose.BarCode 24.12 for Java  
-**Tác giả:** Aspose

@@ -116,15 +116,15 @@ A7: A `save` metódus több formátumot is támogat; a `BarCodeImageFormat.JPEG`
 
 Az Aspose.BarCode for Java erőteljes és rugalmas megoldást kínál a **vonalkód generálás Java** feladatokhoz. Ennek a lépésről‑lépésre útmutatónak a követésével könnyedén menthet vonalkód képeket adatfolyamokba, lehetővé téve a dinamikus vonalkód generálást és a modern Java alkalmazásokkal való zökkenőmentes integrációt.
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.BarCode 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode 24.12 for Java  
-**Author:** Aspose
