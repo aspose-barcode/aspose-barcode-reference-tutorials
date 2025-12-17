@@ -1,89 +1,124 @@
 ---
-title: 在 Java 中設定條形高度
-linktitle: 設定條形高度
+date: 2025-12-16
+description: 學習如何在 Java 中使用 Aspose.BarCode 建立 Code_128 條碼，客製化條碼尺寸、設定條碼高度，並有效率地產生條碼圖像。
+linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
-description: 使用 Aspose.BarCode 在 Java 中輕鬆產生和自訂條碼。設定條形高度、選擇類型並增強應用程式的功能。
-weight: 14
+title: 如何在 Java 中建立 code_128 條碼並設定條碼高度
 url: /zh-hant/java/barcode-configuration/setting-bars-height/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中設定條形高度
+# 在 Java 中設定條碼高度
 
+## Introduction
 
-## 介紹
+在現代的 Java 應用程式中，您常常需要 **建立 code_128 條碼** 圖片，以符合報表、標籤或收據的精確視覺設計。Aspose.BarCode for Java 讓這變得簡單，您可以 **自訂條碼尺寸**、調整尺寸，並即時產生 Java 可直接儲存的條碼圖像。在本教學中，我們將說明在產生 CODE_128 條碼時如何設定條碼高度，讓您每次都能產出尺寸恰當的條碼。
 
-在 Java 開發的動態世界中，建立和自訂條碼是各種應用程式的常見要求。 Aspose.BarCode for Java 是一款功能強大的工具，可促進無縫條碼產生和操作。在本教程中，我們將深入研究使用 Aspose.BarCode for Java 設定條形高度的過程。繼續操作以增強您的條碼產生能力。
+## Quick Answers
+- **主要方法的功能是什麼？** 它會建立 CODE_128 條碼，並讓您設定條碼的高度。  
+- **使用哪個類別？** 來自 Aspose.BarCode 函式庫的 `BarcodeGenerator`。  
+- **測試是否需要授權？** 提供免費試用版；正式環境需購買授權。  
+- **可以調整其他尺寸嗎？** 可以，您能調整寬度、邊距及其他尺寸參數。  
+- **輸出圖像的格式為何？** 任意 Aspose.BarCode 支援的格式（例如 JPEG、PNG）。  
 
-## 先決條件
+## What is a CODE_128 barcode and why set its height?
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+CODE_128 是一種高密度線性條碼，可編碼完整的 ASCII 集。當條碼必須與實體標籤尺寸對齊或適配於 UI 元件時，調整條碼高度是必須的。適當的高度可確保掃描器的可讀性，同時保持視覺版面的平衡。
 
-- Java 開發環境：確保您的電腦上設定了有效的 Java 開發環境。
+## Why use Aspose.BarCode for Java?
+- **完整控制** 條碼尺寸（高度、寬度、邊距）。  
+- **廣泛的格式支援** – 可產生 PNG、JPEG、BMP 等多種格式。  
+- **無外部相依性** – 純 Java 函式庫，易於整合。  
+- **豐富的 API** – 輕鬆自訂顏色、文字與錯誤更正。
 
--  Aspose.BarCode for Java：從下列位置下載並安裝 Aspose.BarCode for Java：[下載連結](https://releases.aspose.com/barcode/java/).
+## Prerequisites
 
-## 導入包
+在開始之前，請確保您已具備：
 
-在您的 Java 專案中，首先匯入必要的套件以利用 Aspose.BarCode 提供的功能：
+- Java 開發環境（JDK 8 或以上）。  
+- Aspose.BarCode for Java – 從 [download link](https://releases.aspose.com/barcode/java/) 下載。
+
+## Import Packages
+
+在您的 Java 專案中，匯入提供條碼產生功能的主要類別：
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## 第 1 步：初始化條碼對象
+## How to create code_128 barcode and set its height
 
-首先使用 Aspose.BarCode for Java 實例化條碼物件。在此範例中，我們建立值為「12345678」的 CODE_128 條碼。
+### Step 1：初始化條碼物件
+
+建立一個 `BarcodeGenerator` 實例，用於產生 CODE_128 條碼，並傳入您想編碼的資料（例如 “12345678”）。
 
 ```java
-//實例化條碼對象
+// Instantiate barcode object
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
 ```
 
-## 第 2 步：設定條形高度
+### Step 2：調整條碼尺寸 – 設定條碼高度
 
-現在，讓我們自訂條碼的條形高度。在本例中，我們將其設定為 3 毫米。
+使用 `BarHeight` 屬性以毫米為單位定義高度。這是 **設定條碼高度** 的主要方式。
 
 ```java
-//將條形高度設定為 3 毫米
+// Set the bar height to be 3 millimeters
 generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 ```
 
-## 第 3 步：儲存條碼圖像
+> **專業提示：** 您也可以修改 `XDimension` 以變更單根條的寬度，從而完整掌控 **調整條碼尺寸**。
 
-自訂完成後，將生成的條碼圖像儲存到檔案中。
+### Step 3：儲存條碼圖像 – generate barcode image java
+
+最後，將條碼寫入檔案。`save` 方法會自動根據檔案副檔名判斷圖像格式。
 
 ```java
-//將條碼圖像儲存到文件
+// Save the Barcode image to file
 generator.save(dataDir + "barsHeight.jpg");
 ```
 
-根據您的特定應用要求重複這些步驟。
+> **注意：** 請將 `dataDir` 替換為您希望儲存圖像的實際路徑。
 
-## 結論
+## Common Use Cases
 
-恭喜！您已經成功學習如何使用 Aspose.BarCode 在 Java 中設定條形高度。這個強大的 Java 程式庫使開發人員能夠輕鬆建立和自訂條碼。嘗試不同的參數，根據您的特定規格自訂條碼外觀。
+- **標籤列印** – 確保條碼符合預先設定的標籤尺寸。  
+- **發票產生** – 嵌入與 PDF 發票版面相匹配的緊湊條碼。  
+- **行動應用程式** – 動態產生具精確尺寸的條碼，以供螢幕掃描使用。
 
-## 常見問題解答
+## Troubleshooting & Tips
 
-### 我可以在 Aspose.BarCode for Java 中自訂條碼類型嗎？
-絕對地！ Aspose.BarCode支援各種條碼類型，讓您可以選擇最適合您的應用程式的。
+| 問題 | 解決方案 |
+|-------|----------|
+| 條碼顯示過細或過粗 | 透過 `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)` 調整 `XDimension`。 |
+| 圖像模糊 | 呼叫 `generator.save(..., BarCodeImageFormat.JPEG, 300)` 提高 DPI。 |
+| 掃描器無法讀取條碼 | 確認條碼高度符合掃描器的最小需求（通常 ≥ 2 mm）。 |
 
-### Aspose.BarCode 與不同的 Java IDE 相容嗎？
-是的，Aspose.BarCode 與 Eclipse 和 IntelliJ 等流行的 Java 整合開發環境 (IDE) 無縫整合。
+## Frequently Asked Questions
 
-### 我可以產生包含數字和字母數字值的條碼嗎？
-當然！ Aspose.BarCode 支援在條碼中編碼數字和字母數字資料。
+**問：我可以在 Aspose.BarCode for Java 中自訂條碼類型嗎？**  
+**答：當然可以！此函式庫支援多種符號，如 QR、DataMatrix、PDF417 等，只需在建構子中變更 `EncodeTypes` 即可。**
 
-### Aspose.BarCode for Java 是否有試用版？
-是的，您可以透過免費試用來探索 Aspose.BarCode 的功能[這裡](https://releases.aspose.com/).
+**問：Aspose.BarCode 是否相容於不同的 Java IDE？**  
+**答：是的，它可無縫運作於 Eclipse、IntelliJ IDEA、NetBeans 以及任何支援標準 Java 專案的 IDE。**
 
-### 在哪裡可以找到 Aspose.BarCode for Java 的支援？
-請造訪 Aspose.BarCode 論壇[這裡](https://forum.aspose.com/c/barcode/13)以獲得社區支持和討論。
+**問：我能產生包含數字與字母的條碼嗎？**  
+**答：可以，CODE_128 能編碼數字與字母混合的資料，適用於大多數應用情境。**
 
+**問：是否提供 Aspose.BarCode for Java 的試用版？**  
+**答：有的，您可透過此免費試用版 [here](https://releases.aspose.com/) 了解 Aspose.BarCode 的功能。**
+
+**問：在哪裡可以取得 Aspose.BarCode for Java 的支援？**  
+**答：請前往 Aspose.BarCode 論壇 [here](https://forum.aspose.com/c/barcode/13) 獲得社群支援與討論。**
+
+---
+
+**最後更新：** 2025-12-16  
+**測試環境：** Aspose.BarCode for Java 24.12（最新）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

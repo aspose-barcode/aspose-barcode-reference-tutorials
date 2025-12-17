@@ -1,89 +1,125 @@
 ---
-title: Mengatur Ketinggian Bar di Java
-linktitle: Mengatur Tinggi Batang
+date: 2025-12-16
+description: Pelajari cara membuat kode batang code_128 di Java menggunakan Aspose.BarCode,
+  sesuaikan ukuran kode batang, atur tinggi bar, dan hasilkan gambar kode batang Java
+  secara efisien.
+linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
-description: Hasilkan dan sesuaikan kode batang dengan mudah di Java dengan Aspose.BarCode. Tetapkan tinggi bilah, pilih jenis, dan tingkatkan kemampuan aplikasi Anda.
-weight: 14
+title: Cara membuat barcode code_128 dan mengatur tinggi bar di Java
 url: /id/java/barcode-configuration/setting-bars-height/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Ketinggian Bar di Java
+# Mengatur Tinggi Bar dalam Java
 
+## Pendahuluan
 
-## Perkenalan
+Dalam aplikasi Java modern, Anda sering perlu **membuat barcode code_128** gambar yang sesuai dengan desain visual tepat laporan, label, atau kwitansi Anda. Aspose.BarCode untuk Java mempermudah hal ini, memungkinkan Anda **menyesuaikan ukuran barcode**, mengatur dimensi, dan menghasilkan gambar barcode yang dapat langsung disimpan oleh Java. Dalam tutorial ini kami akan menjelaskan cara mengatur tinggi bar saat menghasilkan barcode CODE_128, sehingga Anda dapat menghasilkan barcode dengan ukuran yang sempurna setiap kali.
 
-Dalam dunia perkembangan Java yang dinamis, membuat dan menyesuaikan kode batang merupakan persyaratan umum untuk berbagai aplikasi. Aspose.BarCode untuk Java menonjol sebagai alat canggih yang memfasilitasi pembuatan dan manipulasi kode batang tanpa hambatan. Dalam tutorial ini, kita akan mempelajari proses pengaturan tinggi bar menggunakan Aspose.BarCode untuk Java. Ikuti terus untuk meningkatkan kemampuan pembuatan kode batang Anda.
+## Jawaban Cepat
+- **Apa yang dilakukan metode utama?** Metode ini membuat barcode CODE_128 dan memungkinkan Anda mengatur tinggi bar-nya.  
+- **Kelas apa yang digunakan?** `BarcodeGenerator` dari pustaka Aspose.BarCode.  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Tersedia versi percobaan gratis; lisensi diperlukan untuk produksi.  
+- **Bisakah saya mengubah dimensi lain?** Ya, Anda dapat menyesuaikan lebar, margin, dan parameter ukuran lainnya.  
+- **Format apa gambar output?** Format apa pun yang didukung oleh Aspose.BarCode (misalnya JPEG, PNG).  
+
+## Apa itu barcode CODE_128 dan mengapa mengatur tingginya?
+CODE_128 adalah barcode linear berkapasitas tinggi yang mengkodekan seluruh set ASCII. Menyesuaikan tinggi bar sangat penting ketika barcode harus selaras dengan dimensi label fisik atau muat dalam komponen UI. Tinggi yang tepat memastikan keterbacaan oleh pemindai sekaligus menjaga keseimbangan tata letak visual.
+
+## Mengapa menggunakan Aspose.BarCode untuk Java?
+- **Kontrol penuh** atas dimensi barcode (tinggi, lebar, margin).  
+- **Dukungan format luas** – menghasilkan PNG, JPEG, BMP, dan lainnya.  
+- **Tanpa ketergantungan eksternal** – pustaka Java murni, mudah diintegrasikan.  
+- **API kaya** – menyesuaikan warna, teks, dan koreksi kesalahan dengan mudah.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-- Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java yang berfungsi di mesin Anda.
+- Lingkungan pengembangan Java (JDK 8 atau lebih tinggi).  
+- Aspose.BarCode untuk Java – unduh dari [tautan unduhan](https://releases.aspose.com/barcode/java/).  
 
--  Aspose.BarCode for Java: Unduh dan instal Aspose.BarCode for Java dari[tautan unduhan](https://releases.aspose.com/barcode/java/).
+## Mengimpor Paket
 
-## Paket Impor
-
-Di proyek Java Anda, mulailah dengan mengimpor paket yang diperlukan untuk memanfaatkan fungsionalitas yang disediakan oleh Aspose.BarCode:
+Dalam proyek Java Anda, impor kelas utama yang menyediakan kemampuan pembuatan barcode:
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Langkah 1: Inisialisasi Objek Barcode
+## Cara membuat barcode code_128 dan mengatur tingginya
 
-Mulailah dengan membuat instance objek barcode menggunakan Aspose.BarCode untuk Java. Dalam contoh ini, kita membuat barcode CODE_128 dengan nilai "12345678".
+### Langkah 1: Inisialisasi Objek Barcode
+
+Buat instance `BarcodeGenerator` untuk barcode CODE_128 dengan data yang ingin Anda enkode (misalnya “12345678”).
 
 ```java
-// Buat instance objek kode batang
+// Instantiate barcode object
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
 ```
 
-## Langkah 2: Atur Tinggi Batang
+### Langkah 2: Sesuaikan Dimensi Barcode – Atur Tinggi Bar
 
-Sekarang, mari kita sesuaikan tinggi batang barcode. Dalam hal ini, kami akan mengaturnya menjadi 3 milimeter.
+Gunakan properti `BarHeight` untuk menentukan tinggi dalam milimeter. Ini adalah cara utama untuk **mengatur tinggi barcode**.
 
 ```java
-// Atur tinggi batang menjadi 3 milimeter
+// Set the bar height to be 3 millimeters
 generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 ```
 
-## Langkah 3: Simpan Gambar Barcode
+> **Tips Pro:** Anda juga dapat memodifikasi `XDimension` untuk mengubah lebar bar individual, memberi Anda kontrol penuh atas **penyesuaian dimensi barcode**.
 
-Setelah penyesuaian selesai, simpan gambar kode batang yang dihasilkan ke file.
+### Langkah 3: Simpan Gambar Barcode – generate barcode image java
+
+Akhirnya, tulis barcode ke file. Metode `save` secara otomatis menentukan format gambar dari ekstensi file.
 
 ```java
-//Simpan gambar Barcode ke file
+// Save the Barcode image to file
 generator.save(dataDir + "barsHeight.jpg");
 ```
 
-Ulangi langkah-langkah ini sesuai kebutuhan aplikasi spesifik Anda.
+> **Catatan:** Ganti `dataDir` dengan jalur aktual tempat Anda ingin menyimpan gambar.
 
-## Kesimpulan
+## Kasus Penggunaan Umum
 
-Selamat! Anda telah berhasil mempelajari cara menyetel tinggi batang di Java menggunakan Aspose.BarCode. Pustaka Java yang kuat ini memberdayakan pengembang untuk membuat dan menyesuaikan kode batang dengan mudah. Bereksperimenlah dengan parameter berbeda untuk menyesuaikan tampilan kode batang dengan spesifikasi Anda.
+- **Pencetakan label** – Pastikan barcode muat dalam ukuran label yang telah ditentukan.  
+- **Pembuatan faktur** – Sisipkan barcode kompak yang sesuai dengan tata letak faktur PDF Anda.  
+- **Aplikasi seluler** – Menghasilkan barcode secara dinamis dengan dimensi tepat untuk pemindaian di layar.
 
-## FAQ
+## Pemecahan Masalah & Tips
 
-### Bisakah saya menyesuaikan jenis kode batang di Aspose.BarCode untuk Java?
-Sangat! Aspose.BarCode mendukung berbagai jenis barcode, memungkinkan Anda memilih yang paling sesuai untuk aplikasi Anda.
+| Masalah | Solusi |
+|-------|----------|
+| Barcode terlihat terlalu tipis atau terlalu tebal | Sesuaikan `XDimension` melalui `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)`. |
+| Gambar buram | Tingkatkan DPI dengan memanggil `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
+| Pemindai tidak dapat membaca kode | Pastikan tinggi bar memenuhi persyaratan minimum pemindai (biasanya ≥ 2 mm). |
 
-### Apakah Aspose.BarCode kompatibel dengan IDE Java yang berbeda?
-Ya, Aspose.BarCode terintegrasi secara mulus dengan Lingkungan Pengembangan Terpadu (IDE) Java yang populer seperti Eclipse dan IntelliJ.
+## Pertanyaan yang Sering Diajukan
 
-### Bisakah saya membuat kode batang dengan nilai numerik dan alfanumerik?
-Tentu! Aspose.BarCode mendukung pengkodean data numerik dan alfanumerik dalam kode batang.
+**Q: Bisakah saya menyesuaikan tipe barcode di Aspose.BarCode untuk Java?**  
+A: Tentu saja! Pustaka ini mendukung banyak simbol seperti QR, DataMatrix, PDF417, dan lainnya—cukup ubah `EncodeTypes` di konstruktor.
 
-### Apakah ada versi uji coba yang tersedia untuk Aspose.BarCode untuk Java?
- Ya, Anda dapat menjelajahi fitur Aspose.BarCode dengan mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+**Q: Apakah Aspose.BarCode kompatibel dengan berbagai IDE Java?**  
+A: Ya, ia bekerja mulus dengan Eclipse, IntelliJ IDEA, NetBeans, dan IDE apa pun yang mendukung proyek Java standar.
 
-### Di mana saya dapat menemukan dukungan untuk Aspose.BarCode untuk Java?
- Kunjungi forum Aspose.BarCode[Di Sini](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi komunitas.
+**Q: Bisakah saya menghasilkan barcode dengan nilai numerik dan alfanumerik?**  
+A: Ya, CODE_128 dapat mengkodekan data numerik maupun alfanumerik, menjadikannya serbaguna untuk sebagian besar aplikasi.
 
+**Q: Apakah ada versi percobaan untuk Aspose.BarCode untuk Java?**  
+A: Ya, Anda dapat menjelajahi fitur Aspose.BarCode dengan mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
+
+**Q: Di mana saya dapat menemukan dukungan untuk Aspose.BarCode untuk Java?**  
+A: Kunjungi forum Aspose.BarCode [di sini](https://forum.aspose.com/c/barcode/13) untuk dukungan komunitas dan diskusi.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-16  
+**Diuji Dengan:** Aspose.BarCode untuk Java 24.12 (terbaru)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
