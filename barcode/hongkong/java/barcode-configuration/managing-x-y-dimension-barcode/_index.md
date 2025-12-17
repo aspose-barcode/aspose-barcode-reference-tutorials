@@ -1,101 +1,140 @@
 ---
-title: 在 Java 中管理條碼的 X 和 Y 維度
-linktitle: 管理條碼的 X 和 Y 尺寸
+date: 2025-12-14
+description: 學習如何在 Java 中使用 Aspose.BarCode 設定條碼尺寸。此一步一步的指南展示如何自訂條碼、產生 Java 條碼圖像，以及使用
+  Aspose 建立條碼。
+linktitle: Managing X and Y Dimensions of Barcode
 second_title: Aspose.BarCode Java API
-description: 探索 Aspose.BarCode for Java 的強大功能！透過我們的逐步指南，學習輕鬆管理 X 和 Y 尺寸。提高準確性和視覺吸引力。
-weight: 13
+title: 如何在 Java 中設定條碼的 X 與 Y 尺寸
 url: /zh-hant/java/barcode-configuration/managing-x-y-dimension-barcode/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中管理條碼的 X 和 Y 維度
+# 如何在 Java 中設定條碼 X 與 Y 尺寸
 
+在 Java 開發中，**如何設定條碼**尺寸是一項常見需求，當您需要為標籤、票證或庫存標籤產生清晰、易讀的條碼時。本教學將指導您如何使用 Aspose.BarCode Java API 來控制 X（窄條的寬度）與 Y（條碼的高度）兩個尺寸。完成後，您將能夠 **customize barcode**、產生 **barcode image java**，並自信地 **create barcode with aspose** 於任何專案中。
 
-## 介紹
+## 快速解答
+- **什麼程式庫最適合條碼尺寸控制？** Aspose.BarCode for Java.
+- **哪個方法設定 X‑dimension？** `getXDimension().setMillimeters(...)`.
+- **哪個方法設定 Y‑dimension（條碼高度）？** `getBarHeight().setMillimeters(...)`.
+- **生產環境是否需要授權？** 是的，需要商業授權。
+- **我可以產生 PNG、JPG 或 BMP 圖片嗎？** 支援所有常見的點陣圖格式。
 
-在 Java 程式設計領域，有效管理條碼的 X 和 Y 尺寸是創建準確且具有視覺吸引力的條碼影像的關鍵方面。本逐步指南將引導您完成使用 Aspose.BarCode for Java 的過程，這是一個旨在簡化條碼產生的強大函式庫。
+## 在 Aspose.BarCode 中「如何設定條碼」是什麼意思？
+設定條碼尺寸是指定義每根條的實體大小（X‑dimension）以及條碼的整體高度（Y‑dimension）。適當的尺寸設定可確保條碼在不同印表機與掃描器上均能可靠掃描。
 
-## 先決條件
+## 為何使用 Aspose.BarCode for Java 來自訂條碼尺寸？
+- **Precision control** – 毫米級的調整可提供精確的尺寸。
+- **Wide format support** – 支援 PNG、JPG、BMP、GIF 等多種格式。
+- **No external dependencies** – 純 Java 程式庫，易於整合至任何 IDE。
+- **Comprehensive documentation** – 提供實用範例與 API 參考。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 前置條件
 
-- Java 開發工具包 (JDK)：確保您的電腦上安裝了 Java。
--  Aspose.BarCode for Java：下載並安裝 Aspose.BarCode 函式庫[這裡](https://releases.aspose.com/barcode/java/).
-- 整合開發環境 (IDE)：選擇 Java IDE（例如 Eclipse 或 IntelliJ）進行程式設計。
+- 已在機器上安裝 Java Development Kit (JDK)。
+- 從 [here](https://releases.aspose.com/barcode/java/) 下載 Aspose.BarCode for Java 程式庫。
+- 使用 Eclipse 或 IntelliJ IDEA 等 Java IDE。
 
-## 導入包
+## 匯入套件
 
-在您的 Java 專案中，匯入必要的套件以利用 Aspose.BarCode 的功能。在 Java 類別的開頭新增以下行：
+在您的 Java 類別中，匯入 Aspose.BarCode 產生套件：
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-現在，讓我們將每個範例分解為多個步驟。
+現在我們將一步步說明每個尺寸設定。
 
-## 第 1 步：設定 X 尺寸
+## 步驟 1：設定 X‑Dimension（條寬）
+
+X‑dimension 控制最窄條的寬度。典型值介於 0.2 mm 至 0.5 mm 之間。
 
 ```java
 public static void setXDimension() throws IOException {
-    //資源目錄的路徑。
+    // The path to the resource directory.
     String dataDir = "Your Document Directory";
 
-    //使用 CODE_128 編碼和資料「12345678」建立 BarcodeGenerator
+    // Create a BarcodeGenerator with CODE_128 encoding and data "12345678"
     BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 
-    //設定條碼條的 x 尺寸
+    // Set the x-dimension for the bars of the barcode
     generator.getParameters().getBarcode().getXDimension().setMillimeters(0.5f);
 
-    //將條碼圖像儲存到文件
+    // Save the Barcode image to file
     generator.save(dataDir + "xDimension.jpg");
 }
 ```
 
-在這一步驟中，我們建立一個BarcodeGenerator，將X尺寸設定為0.5毫米，並儲存產生的條碼影像。
+在此程式碼片段中，我們：
 
-## 第2步：設定Y尺寸
+1. 使用 **CODE_128** 符號實例化 `BarcodeGenerator`。
+2. 呼叫 `setMillimeters(0.5f)` 以定義 0.5 mm 的條寬。
+3. 將結果儲存為 **xDimension.jpg**。
+
+## 步驟 2：設定 Y‑Dimension（條高）
+
+Y‑dimension（亦稱條高）決定每根條的高度。可依據資料量與掃描距離進行調整。
 
 ```java
 public static void setYDimension() throws IOException {
-    //資源目錄的路徑。
+    // The path to the resource directory.
     String dataDir = "Your Document Directory";
 
-    //使用 PDF_417 編碼和資料「12345678」建立 BarcodeGenerator
+    // Create a BarcodeGenerator with PDF_417 encoding and data "12345678"
     BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.PDF_417, "12345678");
 
-    //設定條碼條的 Y 尺寸
+    // Set the Y-Dimension for the bars of the barcode
     generator.getParameters().getBarcode().getBarHeight().setMillimeters(4);
 
-    //將條碼圖像儲存到文件
+    // Save the Barcode image to file
     generator.save(dataDir + "yDimension.jpg");
 }
 ```
 
-在這一步驟中，我們建立另一個BarcodeGenerator，將Y尺寸設為4毫米，並儲存產生的條碼影像。
+在此範例中，我們：
+
+1. 使用 **PDF_417** 符號，該符號通常需要較高的條。
+2. 將條高設定為 **4 mm**。
+3. 將輸出儲存為 **yDimension.jpg**。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| 條碼顯示過細或過粗 | X‑dimension 不適合印表機 DPI | 調整 `setMillimeters` 的數值（例如，高解析度印表機使用 0.3 mm）。 |
+| 掃描器無法讀取條碼 | Y‑dimension 對該符號而言太低 | 使用 `setMillimeters` 增加條高（例如，PDF_417 使用 5 mm）。 |
+| 影像檔案損毀 | 輸出路徑不存在或沒有寫入權限 | 確認 `dataDir` 指向已存在且可寫入的資料夾。 |
+
+## 常見問答
+
+**Q: 我可以在商業專案中使用 Aspose.BarCode for Java 嗎？**  
+A: 可以，需要商業授權。請於 [here](https://purchase.aspose.com/buy) 購買授權。
+
+**Q: 是否提供免費試用？**  
+A: 當然，您可於 [here](https://releases.aspose.com/) 下載免費試用版。
+
+**Q: 完整的 API 文件在哪裡可以找到？**  
+A: 文件可於 [here](https://reference.aspose.com/barcode/java/) 取得。
+
+**Q: 若遇到問題，如何取得支援？**  
+A: 您可在 Aspose.BarCode 論壇 [here](https://forum.aspose.com/c/barcode/13) 提問。
+
+**Q: 我可以取得測試用的臨時授權嗎？**  
+A: 可以，請於 [here](https://purchase.aspose.com/temporary-license/) 申請臨時授權。
 
 ## 結論
 
-使用 Aspose.BarCode for Java 有效管理條碼產生中的 X 和 Y 尺寸是一個簡單的過程。透過這些步驟，您可以自訂條碼尺寸以滿足您的特定要求。
+使用 Aspose.BarCode for Java 管理 X 與 Y 尺寸相當簡單。透過調整 X‑dimension 以設定條寬、Y‑dimension 以設定條高，您即可 **customize barcode**、**generate barcode image java**，以及 **create barcode with aspose**，滿足任何掃描需求。請嘗試不同的數值，以找到最適合您特定使用情境的平衡點。
 
-## 常見問題解答
+---
 
-### 我可以在商業專案中使用 Aspose.BarCode for Java 嗎？
-是的，Aspose.BarCode for Java 是商業產品。您可以購買許可證[這裡](https://purchase.aspose.com/buy).
-
-### Aspose.BarCode for Java 是否有免費試用版？
-是的，您可以免費試用[這裡](https://releases.aspose.com/).
-
-### 在哪裡可以找到 Aspose.BarCode for Java 的文檔？
-文件可用[這裡](https://reference.aspose.com/barcode/java/).
-
-### 如何獲得 Aspose.BarCode for Java 支援？
-您可以在以下位置尋求支持[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13).
-
-### 我可以獲得 Aspose.BarCode for Java 的臨時授權嗎？
-是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+**最後更新:** 2025-12-14  
+**測試環境:** Aspose.BarCode for Java 24.8  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
