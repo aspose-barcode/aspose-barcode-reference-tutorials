@@ -1,115 +1,154 @@
 ---
-title: Java에서 시작 및 중지 기호 설정
-linktitle: 시작 및 중지 기호 설정
-second_title: Aspose.BarCode 자바 API
-description: Aspose.BarCode를 사용하여 Java에서 특정 시작 및 중지 기호가 있는 맞춤형 Codabar 바코드를 생성하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-weight: 15
+date: 2025-12-17
+description: Aspose.BarCode를 사용하여 Java에서 바코드 이미지를 생성하고 기호를 설정하는 방법을 배웁니다. 이 단계별 가이드는
+  사용자 정의 시작/정지 기호가 있는 Codabar 바코드를 생성하는 방법을 보여줍니다.
+linktitle: Setting Start and Stop Symbols
+second_title: Aspose.BarCode Java API
+title: 바코드 이미지 생성 Java – 시작 및 종료 심볼 설정
 url: /ko/java/barcode-configuration/setting-start-stop-symbols/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 시작 및 중지 기호 설정
+# 바코드 이미지 Java 생성 – 시작 및 종료 심볼 설정
 
+## Introduction
 
-## 소개
+이 포괄적인 튜토리얼에서는 Aspose.BarCode for Java를 사용하여 **create barcode image java** 파일을 만들고 Codabar 바코드의 **how to set symbols** 방법을 배웁니다. 포스 시스템, 물류 애플리케이션 또는 신뢰할 수 있는 바코드 생성이 필요한 모든 솔루션을 구축하든, 시작 및 종료 심볼을 사용자 정의하면 바코드 형식에 대한 완전한 제어권을 얻을 수 있습니다. 각 단계를 차근차근 안내하고, 각 설정이 왜 중요한지 설명하며, 바로 사용할 수 있는 PNG 이미지를 만드는 방법을 보여드립니다.
 
-Java용 Aspose.BarCode를 사용하여 시작 및 중지 기호 설정에 대한 포괄적인 가이드에 오신 것을 환영합니다! 이 튜토리얼에서는 Aspose.BarCode의 강력한 Java 라이브러리를 사용하여 특정 시작 및 중지 기호가 있는 바코드를 생성하는 프로세스를 자세히 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하든 이 단계별 가이드는 바코드 생성 요구 사항에 맞게 Aspose.BarCode를 효율적으로 활용하는 데 필요한 지식을 제공합니다.
+## Quick Answers
+- **What library creates barcode images in Java?** Aspose.BarCode for Java.  
+- **Can I customize start/stop symbols?** Yes, using `setCodabarStartSymbol` and `setCodabarStopSymbol`.  
+- **Which barcode type is used in this example?** CODABAR.  
+- **Do I need a license for production?** A commercial license is required for non‑trial use.  
+- **What output format is generated?** PNG image saved to disk.
 
-## 전제 조건
+## What is “create barcode image java”?
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+Java에서 바코드 이미지를 생성한다는 것은 바코드 심볼리지를 시각적으로 표현한 PNG, JPG 또는 BMP와 같은 파일을 프로그래밍 방식으로 만들어 표준 리더기로 스캔할 수 있게 하는 것을 의미합니다. Aspose.BarCode는 저수준 인코딩 세부 사항을 추상화한 유연한 API를 제공하여 비즈니스 로직에 집중할 수 있게 해줍니다.
 
-1.  JDK(Java Development Kit): Java용 Aspose.BarCode에는 작동하는 Java 환경이 필요합니다. 다음에서 최신 버전의 JDK를 설치하세요.[신탁](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Why use Aspose.BarCode to generate barcode with Aspose?
 
-2.  Java 라이브러리용 Aspose.BarCode: 다음에서 Java 라이브러리용 Aspose.BarCode를 다운로드하고 설치합니다.[다운로드 링크](https://releases.aspose.com/barcode/java/).
+Aspose.BarCode는 다음을 제공합니다:
+- **Broad symbology support** (CODABAR, QR, DataMatrix 등 포함).  
+- **Fine‑grained control** over appearance, size, and encoding options.  
+- **Cross‑platform compatibility** with any Java runtime.  
+- **No external dependencies**, making deployment straightforward.
 
-이제 전제 조건을 다뤘으므로 튜토리얼을 진행하겠습니다.
+## Prerequisites
 
-## 패키지 가져오기
+Before we dive in, make sure you have:
 
-Java 프로젝트에서 Aspose.BarCode를 사용하는 데 필요한 패키지를 가져옵니다.
+1. **Java Development Kit (JDK)** – Install the latest JDK from [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.BarCode for Java library** – Download it from the [다운로드 링크](https://releases.aspose.com/barcode/java/).
+
+Having these ready ensures you can **generate barcode image java** without any missing components.
+
+## Import Packages
+
+In your Java project, import the necessary classes to work with Aspose.BarCode:
 
 ```java
-// Aspose.BarCode 클래스 가져오기
+// Import Aspose.BarCode classes
 import com.aspose.barcode.CodabarSymbol;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-보다 명확한 이해를 위해 제공된 예제를 여러 단계로 나누어 보겠습니다.
+## Step‑by‑Step Guide
 
-## 1단계: 문서 디렉터리 정의
+### Step 1: Define the Document Directory
 
 ```java
-// 리소스 디렉터리의 경로입니다.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- 바꾸다`"Your Document Directory"` 프로젝트 디렉토리 경로로.
+Replace `"Your Document Directory"` with the absolute or relative path where you want the barcode image saved.
 
-## 2단계: 바코드 생성기 인스턴스 생성
+### Step 2: Create Barcode Generator Instance
 
 ```java
-// BarcodeGenerator 인스턴스 생성, 생성자에서 코드 텍스트 및 기호 지정
+// Create instance of BarcodeGenerator, specify codetext and symbology in the constructor
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "12345678");
 ```
 
- 인스턴스화`BarcodeGenerator` 원하는 기호(이 경우 CODABAR) 및 코드 텍스트("12345678")가 있는 개체입니다.
+Here we tell Aspose.BarCode to use the **CODABAR** symbology and the data string `"12345678"`.
 
-## 3단계: Codabar 시작 기호 설정
+### Step 3: Set Codabar Start Symbol
 
 ```java
-// Codabar 시작 기호를 A로 설정합니다.
+// Set the Codabar start symbol to A
 generator.getParameters().getBarcode().getCodabar().setCodabarStartSymbol(CodabarSymbol.A);
 ```
 
- 사용`setCodabarStartSymbol` Codabar 시작 기호를 설정하는 방법입니다. 이 예에서는 'A'로 설정했습니다.
+The `setCodabarStartSymbol` method lets you **how to set symbols** for the start character. In this case we choose `A`.
 
-## 4단계: Codabar 중지 기호 설정
+### Step 4: Set Codabar Stop Symbol
 
 ```java
-// Codabar 정지 기호를 D로 설정합니다.
+// Set the Codabar stop symbol to D
 generator.getParameters().getBarcode().getCodabar().setCodabarStopSymbol(CodabarSymbol.D);
 ```
 
- 마찬가지로`setCodabarStopSymbol` Codabar 정지 기호를 설정하는 방법입니다. 여기서는 'D'로 설정했습니다.
+Similarly, `setCodabarStopSymbol` defines the stop character. Using `D` completes the CODABAR format required by many legacy systems.
 
-## 5단계: 생성된 이미지 저장
+### Step 5: Save the Generated Image
 
 ```java
-// 이미지를 PNG 형식으로 디스크에 저장
+// Save the image to disk in PNG format
 generator.save(dataDir + "startAndStopSymbols.png");
 ```
 
-생성된 바코드 이미지를 지정된 디렉터리(`dataDir`) 파일 이름이 "startAndStopSymbols.png"입니다.
+The `save` call writes the barcode to a PNG file named **startAndStopSymbols.png** in the directory you specified earlier.
 
-시작 및 중지 기호를 바코드 생성 프로세스에 원활하게 통합하려면 이러한 단계를 반복하십시오.
+### Common Pitfalls & Tips
 
-## 결론
+- **Incorrect directory path** – Ensure `dataDir` ends with a file separator (`/` or `\`) or concatenate using `Paths.get`.  
+- **Unsupported start/stop symbols** – CODABAR only supports A, B, C, D as start/stop symbols. Using any other value will raise an exception.  
+- **License not applied** – In trial mode the generated image may contain a watermark. Apply your license before deploying to production.
 
-축하해요! Java용 Aspose.BarCode를 사용하여 Codabar 바코드의 시작 및 중지 기호를 설정하는 방법을 성공적으로 배웠습니다. 이 기능은 바코드 생성에 사용자 정의 계층을 추가하여 애플리케이션의 유연성을 향상시킵니다.
+## Conclusion
 
- Aspose.BarCode for Java에서 제공하는 더 많은 기능과 사용자 정의 옵션을 자유롭게 살펴보세요.[선적 서류 비치](https://reference.aspose.com/barcode/java/).
+You've now learned how to **create barcode image java** files and precisely **how to set symbols** for a Codabar barcode using Aspose.BarCode. This technique gives you the flexibility to meet industry‑specific barcode specifications while keeping your code clean and maintainable.
 
-## 자주 묻는 질문
+Explore additional customization options—such as changing colors, adding human‑readable text, or switching to other symbologies—by consulting the official API documentation at [문서](https://reference.aspose.com/barcode/java/).
 
-### 상용 프로젝트에서 Java용 Aspose.BarCode를 사용할 수 있나요?
- 그래 넌 할수있어. 상업적인 용도로 사용하려면 라이센스 구매를 고려하세요[여기](https://purchase.aspose.com/buy).
+## Frequently Asked Questions
 
-### 무료 평가판이 제공되나요?
- 예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
+### Can I use Aspose.BarCode for Java in a commercial project?
+Yes, you can. For commercial usage, consider purchasing a license [here](https://purchase.aspose.com/buy).
 
-### Java용 Aspose.BarCode에 대한 지원을 받으려면 어떻게 해야 합니까?
- Aspose.BarCode 포럼을 방문하세요.[여기](https://forum.aspose.com/c/barcode/13) 어떤 지원이나 문의 사항이 있으면.
+### Is there a free trial available?
+Yes, you can explore a free trial version [here](https://releases.aspose.com/).
 
-### 임시면허는 어떻게 취득하나요?
- 필요한 경우 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+### How can I get support for Aspose.BarCode for Java?
+Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for any support or queries.
 
-### Aspose.BarCode for Java에서 지원하는 더 많은 바코드 기호가 있습니까?
-예, Aspose.BarCode는 광범위한 바코드 기호를 지원합니다. 전체 목록은 설명서를 참조하세요.
+### How do I obtain a temporary license?
+If needed, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+### Are there more barcode symbologies supported by Aspose.BarCode for Java?
+Yes, Aspose.BarCode supports a wide range of barcode symbologies. Refer to the documentation for a complete list.
+
+**Additional Q&A**
+
+**Q: What image formats can I export besides PNG?**  
+A: Aspose.BarCode supports PNG, JPEG, BMP, GIF, and TIFF. Use the appropriate file extension in the `save` method.
+
+**Q: Can I generate barcode images in memory without writing to disk?**  
+A: Yes, call `generator.save(OutputStream)` to write directly to a stream, useful for web responses.
+
+**Q: Does the library work on Android?**  
+A: The Java version is compatible with Android, but you must include the required dependencies manually.
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.BarCode for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

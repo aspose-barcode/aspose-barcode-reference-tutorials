@@ -1,107 +1,134 @@
 ---
-title: Gegevens aanvullen in Java
-linktitle: Gegevens aanvullen
-second_title: Aspose.BarCode Java-API
-description: Leer hoe u dynamische streepjescodes in Java kunt maken met Aspose.BarCode. Stapsgewijze handleiding voor het aanvullen van gegevens met EAN_13-symboliek.
-weight: 16
+date: 2025-12-17
+description: Leer hoe u barcodes genereert in Java met Aspose.BarCode, inclusief dynamische
+  barcodegeneratie, het maken van EAN‑13‑barcodes en het opslaan van barcode‑afbeeldingen
+  met aanvullende gegevens.
+linktitle: Supplementing Data
+second_title: Aspose.BarCode Java API
+title: Hoe een barcode met aanvullende gegevens te genereren in Java
 url: /nl/java/barcode-configuration/supplementing-data/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gegevens aanvullen in Java
+# Hoe een barcode met aanvullende gegevens te genereren in Java
 
+## Introduction
 
-## Invoering
+In het hedendaagse snel‑bewegende digitale ecosysteem is **how to generate barcode** efficiënt een vraag die veel Java‑ontwikkelaars zich stellen. Aspose.BarCode for Java biedt een krachtige, eenvoudig te gebruiken API die **dynamic barcode generation** ondersteunt, inclusief het maken van **EAN‑13 barcodes** met aanvullende gegevens. Of je nu inventoriesystemen, retail‑POS‑toepassingen of logistieke trackers bouwt, deze tutorial leidt je door een **java barcode generator example** die de barcode‑afbeelding opslaat op schijf en je de supplement‑gedeelte laat aanpassen.
 
-In het dynamische landschap van digitale oplossingen spelen barcodes een cruciale rol in de gegevensrepresentatie. Aspose.BarCode voor Java biedt een robuust platform om moeiteloos dynamische barcodes te genereren. Dit artikel dient als een uitgebreide handleiding, waarin het proces van het aanvullen van gegevens met Aspose.BarCode voor Java wordt beschreven. Of u nu een doorgewinterde ontwikkelaar of een codeerliefhebber bent, deze tutorial zal u voorzien van de nodige vaardigheden om uw Java-applicaties uit te breiden met dynamische barcodemogelijkheden.
+## Quick Answers
+- **Welke bibliotheek is het beste voor het genereren van barcodes in Java?** Aspose.BarCode for Java.
+- **Welke symbologie maakt een 13‑cijferige numerieke barcode?** EAN‑13.
+- **Kan ik aanvullende gegevens toevoegen aan een EAN‑13 barcode?** Ja, met de `Supplement` API.
+- **Hoe sla ik de gegenereerde barcode op als afbeelding?** Roep `generator.save("path/filename.jpg")` aan.
+- **Is een licentie vereist voor productiegebruik?** Ja, een commerciële licentie is nodig; een gratis proefversie is beschikbaar.
 
-## Vereisten
+## What is barcode generation in Java?
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Barcodegeneratie betekent het omzetten van gegevens—cijfers, letters of een combinatie—naar een visueel patroon dat scanners kunnen lezen. Met Aspose.BarCode kun je **high‑resolution barcode images** on‑the‑fly produceren, waardoor het ideaal is voor **dynamic barcode generation** scenario's zoals realtime ticketing of orderafhandeling.
 
-- Java Development Kit (JDK): Aspose.BarCode voor Java werkt naadloos samen met Java-applicaties. Zorg ervoor dat de JDK op uw ontwikkelomgeving is geïnstalleerd.
+## Why use Aspose.BarCode for dynamic barcode generation?
 
-- Integrated Development Environment (IDE): Kies de IDE van uw voorkeur, zoals IntelliJ of Eclipse, om soepel coderen en testen te vergemakkelijken.
+- **Full control** over symbology, grootte, kleuren en aanvullende gegevens.  
+- **No external dependencies** – pure Java, werkt op elk platform.  
+- **Built‑in support** voor tientallen barcode‑typen, inclusief **create ean13 barcode**.  
+- **Simple API** die je **save barcode image** laat uitvoeren met één regel code.
 
-- Aspose.BarCode voor Java: Download en integreer de Aspose.BarCode-bibliotheek in uw project. U kunt de benodigde pakketten vinden[hier](https://releases.aspose.com/barcode/java/).
+## Prerequisites
 
-## Pakketten importeren
+Zorg ervoor dat je het volgende hebt:
 
-Nadat u uw ontwikkelomgeving heeft ingesteld, importeert u de vereiste pakketten in uw Java-project. Dit zorgt ervoor dat uw code toegang heeft tot de functionaliteiten van Aspose.BarCode.
+- **Java Development Kit (JDK)** – een recente versie (8 of hoger).  
+- **IDE** – IntelliJ IDEA, Eclipse, of je favoriete editor.  
+- **Aspose.BarCode for Java** – download de bibliotheek van de officiële site **[here](https://releases.aspose.com/barcode/java/)** en voeg de JAR toe aan de classpath van je project.
+
+## Import Packages
+
+Zodra de bibliotheek is toegevoegd, importeer je de kernklasse die de barcode‑creatie aanstuurt.
 
 ```java
-// Importeer Aspose.BarCode voor Java
+// Import Aspose.BarCode for Java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Stap 1: Definieer uw documentenmap
+## Step‑by‑Step Guide
 
-Begin met het opgeven van het pad naar uw bronmap waar de streepjescodeafbeelding zal worden opgeslagen.
+### Step 1: Define Your Document Directory
+
+Stel de map in waar de gegenereerde afbeelding wordt opgeslagen.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Stap 2: Maak een streepjescodegeneratorinstantie
+### Step 2: Create Barcode Generator Instance
 
- Instantieer de`BarcodeGenerator` klasse, waarbij de codetekst en symbologie in de constructor worden gespecificeerd. In dit voorbeeld gebruiken we de EAN_13-symboliek met de codetekst "123456789123".
+Instantieer `BarcodeGenerator` met de gewenste **codetext** en **symbology**. Hier **create ean13 barcode** we gebruiken de numerieke string `"123456789123"`.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "123456789123");
 ```
 
-## Stap 3: Supplementgegevens instellen
+### Step 3: Set Supplement Data
 
-Stel de aanvullende gegevens voor de streepjescode in. In dit voorbeeld stellen we een 5-cijferige aanvullende gegevens in.
+Voeg een 5‑cijferige supplementaire string toe. Dit is nuttig voor tijdschriften, periodieken, of elke situatie waarbij extra informatie volgt op de hoofdbarcode.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().setSupplementData("12345");
 ```
 
-## Stap 4: Stel de supplementruimte in
+### Step 4: Set Supplement Space
 
-Definieer de ruimte tussen de aanvullende streepjescode en de hoofdstreepjescode.
+Pas de ruimte tussen de hoofdbarcode en het supplement aan. De waarde wordt uitgedrukt in points.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().getSupplementSpace().setPoint(2.0f);
 ```
 
-## Stap 5: Sla de streepjescodeafbeelding op
+### Step 5: Save the Barcode Image
 
-Sla de gegenereerde streepjescodeafbeelding op in een bestand in de door u opgegeven documentmap.
+Schrijf tenslotte de afbeelding naar schijf. Het formaat wordt afgeleid van de bestandsextensie (JPEG in dit voorbeeld).
 
 ```java
 generator.save(dataDir + "supplementData.jpg");
 ```
 
-Herhaal deze stappen indien nodig voor uw specifieke gebruiksscenario, waarbij u de symbologie, codetekst en aanvullende gegevens dienovereenkomstig aanpast.
+> **Pro tip:** Je kunt de bestandsextensie wijzigen naar `.png` of `.bmp` om een ander afbeeldingsformaat te krijgen zonder extra code.
 
-## Conclusie
+## Common Issues and Solutions
 
-Gefeliciteerd! U hebt met succes door het proces van het aanvullen van gegevens in Java genavigeerd met behulp van Aspose.BarCode. Deze tutorial biedt een solide basis voor het opnemen van dynamische barcodes in uw toepassingen, waardoor deuren worden geopend naar talloze mogelijkheden op het gebied van gegevensrepresentatie.
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Afbeelding niet opgeslagen** | `dataDir` wijst naar een niet‑bestaande map | Zorg ervoor dat de map bestaat of maak deze programmatisch aan (`new File(dataDir).mkdirs();`). |
+| **Ongeldige supplementlengte** | EAN‑13 supplementen moeten 2 of 5 cijfers zijn | Geef precies 2 of 5 tekens op; anders wordt er een uitzondering gegooid. |
+| **Niet‑ondersteunde tekens** | Niet‑numerieke tekens in EAN‑13 codetext | Gebruik alleen cijfers 0‑9 voor EAN‑13; schakel over naar een andere symbologie voor alfanumerieke tekens. |
 
-## Veelgestelde vragen (FAQ's)
+## Frequently Asked Questions
 
-### Is Aspose.BarCode compatibel met alle Java-versies?
- Aspose.BarCode voor Java is ontworpen om compatibel te zijn met een breed scala aan Java-versies. Verwijs naar de[documentatie](https://reference.aspose.com/barcode/java/) voor specifieke details.
+### Is Aspose.BarCode compatible with all Java versions?
+Aspose.BarCode for Java is ontworpen om compatibel te zijn met een breed scala aan Java‑versies. Raadpleeg de **[documentation](https://reference.aspose.com/barcode/java/)** voor specifieke details.
 
-### Kan ik het uiterlijk van de gegenereerde barcodes aanpassen?
-Ja, Aspose.BarCode biedt verschillende parameters en instellingen om het uiterlijk van streepjescodes aan te passen. Bekijk de documentatie voor gedetailleerde informatie.
+### Can I customize the appearance of the generated barcodes?
+Ja, Aspose.BarCode biedt verschillende parameters en instellingen om het uiterlijk van barcodes aan te passen. Verken de documentatie voor gedetailleerde informatie.
 
-### Is er een proefversie beschikbaar?
-Ja, u heeft toegang tot een gratis proefversie[hier](https://releases.aspose.com/).
+### Is there a trial version available?
+Ja, je kunt een gratis proefversie verkrijgen **[here](https://releases.aspose.com/)**.
 
-### Hoe kan ik ondersteuning krijgen voor Aspose.BarCode?
- Bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) om hulp te krijgen van de gemeenschap en experts.
+### How can I get support for Aspose.BarCode?
+Bezoek het **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** om hulp te krijgen van de community en experts.
 
-### Waar kan ik Aspose.BarCode voor Java kopen?
- U kunt Aspose.BarCode voor Java aanschaffen[hier](https://purchase.aspose.com/buy).
+### Where can I purchase Aspose.BarCode for Java?
+Je kunt Aspose.BarCode voor Java aanschaffen **[here](https://purchase.aspose.com/buy)**.
 
+---
 
-
+**Laatst bijgewerkt:** 2025-12-17  
+**Getest met:** Aspose.BarCode for Java 24.11  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

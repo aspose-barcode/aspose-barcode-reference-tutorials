@@ -1,107 +1,134 @@
 ---
-title: Java'da Verileri Tamamlamak
-linktitle: Tamamlayıcı Veriler
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode'u kullanarak Java'da dinamik barkodlar oluşturmayı öğrenin. Verileri EAN_13 sembolojisiyle tamamlamak için adım adım kılavuz.
-weight: 16
+date: 2025-12-17
+description: Aspose.BarCode kullanarak Java’da barkod oluşturmayı öğrenin; dinamik
+  barkod oluşturma, EAN‑13 barkodları yaratma ve ek veriyle barkod görüntülerini kaydetme
+  konularını kapsar.
+linktitle: Supplementing Data
+second_title: Aspose.BarCode Java API
+title: Java'da Ek Veri ile Barkod Oluşturma
 url: /tr/java/barcode-configuration/supplementing-data/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Verileri Tamamlamak
+# Java'da Tamamlayıcı Veri ile Barkod Oluşturma
 
+## Introduction
 
-## giriiş
+Bugünün hızlı tempolu dijital ekosisteminde, **barcode nasıl oluşturulur** sorusu birçok Java geliştiricisinin karşılaştığı bir sorundur. Aspose.BarCode for Java, **dinamik barkod oluşturma** dahil **EAN‑13 barkodları** için tamamlayıcı veri oluşturmayı destekleyen güçlü ve kullanımı kolay bir API sunar. Envanter sistemleri, perakende POS uygulamaları veya lojistik izleyicileri geliştiriyor olun, bu öğretici, barkod görüntüsünü diske kaydeden ve tamamlayıcı kısmı özelleştirmenizi sağlayan bir **java barcode generator example** üzerinden sizi yönlendirir.
 
-Dijital çözümlerin dinamik ortamında barkodlar, veri temsilinde önemli bir rol oynar. Aspose.BarCode for Java, dinamik barkodları zahmetsizce oluşturmak için güçlü bir platform sağlar. Bu makale, Aspose.BarCode for Java kullanarak veri tamamlama sürecini açıklayan kapsamlı bir kılavuz görevi görmektedir. İster deneyimli bir geliştirici olun ister kodlama meraklısı olun, bu eğitim sizi Java uygulamalarınızı dinamik barkod özellikleriyle geliştirmek için gerekli becerilerle donatacaktır.
+## Quick Answers
+- **Java'da barkod oluşturmak için en iyi kütüphane hangisidir?** Aspose.BarCode for Java.
+- **Hangi semboloji 13 haneli sayısal barkod oluşturur?** EAN‑13.
+- **EAN‑13 barkoduna tamamlayıcı veri ekleyebilir miyim?** Evet, `Supplement` API'si kullanılarak.
+- **Oluşturulan barkodu görüntü olarak nasıl kaydederim?** `generator.save("path/filename.jpg")` çağırın.
+- **Üretim kullanımında lisans gerekli mi?** Evet, ticari bir lisans gerekir; ücretsiz deneme sürümü mevcuttur.
 
-## Önkoşullar
+## What is barcode generation in Java?
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Barkod oluşturma, verileri—sayılar, harfler veya karışık—tarayıcıların okuyabileceği görsel bir desene dönüştürmek anlamına gelir. Aspose.BarCode ile anında **yüksek çözünürlüklü barkod görüntüleri** üretebilir, bu da **dinamik barkod oluşturma** senaryoları için idealdir; örneğin gerçek zamanlı biletleme veya sipariş karşılama.
 
-- Java Geliştirme Kiti (JDK): Aspose.BarCode for Java, Java uygulamalarıyla sorunsuz şekilde çalışır. Geliştirme ortamınızda JDK'nın kurulu olduğundan emin olun.
+## Why use Aspose.BarCode for dynamic barcode generation?
 
-- Entegre Geliştirme Ortamı (IDE): Sorunsuz kodlama ve testi kolaylaştırmak için IntelliJ veya Eclipse gibi tercih ettiğiniz IDE'yi seçin.
+- **Tam kontrol** semboloji, boyut, renk ve tamamlayıcı veri üzerinde.  
+- **Harici bağımlılık yok** – saf Java, her platformda çalışır.  
+- **Yerleşik destek** onlarca barkod türü için, **create ean13 barcode** dahil.  
+- **Basit API** tek bir kod satırıyla **barkod görüntüsünü kaydetmenizi** sağlar.
 
-- Aspose.BarCode for Java: Aspose.BarCode kütüphanesini indirin ve projenize entegre edin. Gerekli paketleri bulabilirsiniz[Burada](https://releases.aspose.com/barcode/java/).
+## Prerequisites
 
-## Paketleri İçe Aktar
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
-Geliştirme ortamınızı kurduktan sonra gerekli paketleri Java projenize aktarın. Bu, kodunuzun Aspose.BarCode tarafından sağlanan işlevlere erişmesini sağlar.
+- **Java Development Kit (JDK)** – herhangi bir güncel sürüm (8 veya üzeri).  
+- **IDE** – IntelliJ IDEA, Eclipse veya favori editörünüz.  
+- **Aspose.BarCode for Java** – kütüphaneyi resmi siteden **[buradan](https://releases.aspose.com/barcode/java/)** indirin ve JAR dosyasını projenizin sınıf yoluna ekleyin.
+
+## Import Packages
+
+Kütüphane referans alındıktan sonra, barkod oluşturmayı yöneten temel sınıfı içe aktarın.
 
 ```java
-// Java için Aspose.BarCode'u içe aktar
+// Import Aspose.BarCode for Java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## 1. Adım: Belge Dizininizi Tanımlayın
+## Step‑by‑Step Guide
 
-Barkod görüntüsünün kaydedileceği kaynak dizininizin yolunu belirterek başlayın.
+### Step 1: Define Your Document Directory
+
+Oluşturulan görüntünün kaydedileceği klasörü ayarlayın.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Barkod Oluşturucu Örneği Oluşturun
+### Step 2: Create Barcode Generator Instance
 
- Örnekleyin`BarcodeGenerator` sınıf, yapıcıdaki kod metnini ve sembolojiyi belirtir. Bu örnekte "123456789123" kod metniyle EAN_13 sembolojisini kullanıyoruz.
+`BarcodeGenerator`'ı istenen **codetext** ve **symbology** ile örnekleyin. Burada sayısal dize `"123456789123"` kullanarak **create ean13 barcode** yapıyoruz.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "123456789123");
 ```
 
-## 3. Adım: Ek Verilerini Ayarlayın
+### Step 3: Set Supplement Data
 
-Barkod için ek verileri ayarlayın. Bu örnekte 5 haneli bir ek veri belirledik.
+5 haneli bir tamamlayıcı dize ekleyin. Bu, dergiler, süreli yayınlar veya ana barkodu takiben ekstra bilgi gelen her durum için faydalıdır.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().setSupplementData("12345");
 ```
 
-## Adım 4: Ek Alanı Ayarlayın
+### Step 4: Set Supplement Space
 
-Ek barkod ile ana barkod arasındaki boşluğu tanımlayın.
+Ana barkod ile tamamlayıcı arasındaki boşluğu ayarlayın. Değer puan (points) cinsinden ifade edilir.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().getSupplementSpace().setPoint(2.0f);
 ```
 
-## Adım 5: Barkod Görüntüsünü Kaydedin
+### Step 5: Save the Barcode Image
 
-Oluşturulan barkod görüntüsünü belirttiğiniz belge dizinindeki bir dosyaya kaydedin.
+Son olarak, görüntüyü diske yazın. Format dosya uzantısından çıkarılır (bu örnekte JPEG).
 
 ```java
 generator.save(dataDir + "supplementData.jpg");
 ```
 
-Sembolojiyi, kod metnini ve ek verileri buna göre ayarlayarak bu adımları özel kullanım durumunuz için gerektiği kadar tekrarlayın.
+> **Pro tip:** Dosya uzantısını `.png` veya `.bmp` olarak değiştirerek ek kod yazmadan farklı bir görüntü formatı elde edebilirsiniz.
 
-## Çözüm
+## Common Issues and Solutions
 
-Tebrikler! Aspose.BarCode'u kullanarak Java'da veri ekleme sürecini başarıyla tamamladınız. Bu eğitim, dinamik barkodları uygulamalarınıza dahil etmek için sağlam bir temel sağlayarak veri temsilinde sayısız olasılığa kapı açar.
+| Sorun | Sebep | Çözüm |
+|-------|-------|----------|
+| **Görüntü kaydedilmedi** | `dataDir` var olmayan bir klasöre işaret ediyor | Klasörün var olduğundan emin olun veya programlı olarak oluşturun (`new File(dataDir).mkdirs();`). |
+| **Geçersiz tamamlayıcı uzunluğu** | EAN‑13 tamamlayıcıları 2 veya 5 hane olmalıdır | Tam olarak 2 veya 5 karakter sağlayın; aksi takdirde bir istisna fırlatılır. |
+| **Desteklenmeyen karakterler** | EAN‑13 codetext içinde sayısal olmayan karakterler | EAN‑13 için yalnızca 0‑9 rakamlarını kullanın; alfanümerik için başka bir sembolojiye geçin. |
 
-## Sıkça Sorulan Sorular (SSS)
+## Frequently Asked Questions
 
 ### Aspose.BarCode tüm Java sürümleriyle uyumlu mu?
- Aspose.BarCode for Java, çok çeşitli Java sürümleriyle uyumlu olacak şekilde tasarlanmıştır. Bakın[dokümantasyon](https://reference.aspose.com/barcode/java/) özel ayrıntılar için.
+Aspose.BarCode for Java, geniş bir Java sürüm yelpazesiyle uyumlu olacak şekilde tasarlanmıştır. Ayrıntılı bilgi için **[documentation](https://reference.aspose.com/barcode/java/)** adresine bakın.
 
 ### Oluşturulan barkodların görünümünü özelleştirebilir miyim?
-Evet, Aspose.BarCode barkodların görünümünü özelleştirmek için çeşitli parametreler ve ayarlar sağlar. Ayrıntılı bilgi için belgeleri inceleyin.
+Evet, Aspose.BarCode, barkodların görünümünü özelleştirmek için çeşitli parametre ve ayarlar sunar. Ayrıntılı bilgi için belgeleri inceleyin.
 
 ### Deneme sürümü mevcut mu?
-Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz bir deneme sürümüne **[buradan](https://releases.aspose.com/)** erişebilirsiniz.
 
-### Aspose.BarCode için nasıl destek alabilirim?
- Ziyaret edin[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13) toplumdan ve uzmanlardan yardım almak.
+### Aspose.BarCode için destek nasıl alabilirim?
+Topluluktan ve uzmanlardan yardım almak için **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** adresini ziyaret edin.
 
-### Aspose.BarCode for Java'yı nereden satın alabilirim?
- Aspose.BarCode for Java'yı satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+### Aspose.BarCode for Java'ı nereden satın alabilirim?
+Aspose.BarCode for Java'ı **[buradan](https://purchase.aspose.com/buy)** satın alabilirsiniz.
 
+---
 
-
+**Son Güncelleme:** 2025-12-17  
+**Test Edilen Versiyon:** Aspose.BarCode for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
