@@ -1,115 +1,153 @@
 ---
-title: Java'da Başlatma ve Durdurma Sembollerini Ayarlama
-linktitle: Başlatma ve Durdurma Sembollerini Ayarlama
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode'u kullanarak Java'da belirli başlatma ve durdurma sembolleriyle özelleştirilmiş Codabar barkodları oluşturun. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-weight: 15
+date: 2025-12-17
+description: Aspose.BarCode kullanarak Java’da barkod resmi oluşturmayı ve sembolleri
+  ayarlamayı öğrenin. Bu adım adım rehber, özel başlangıç/bitiş sembolleriyle bir
+  Codabar barkodu oluşturmayı gösterir.
+linktitle: Setting Start and Stop Symbols
+second_title: Aspose.BarCode Java API
+title: Java ile Barkod Görüntüsü Oluşturma – Başlangıç ve Bitiş Sembollerini Ayarlama
 url: /tr/java/barcode-configuration/setting-start-stop-symbols/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Başlatma ve Durdurma Sembollerini Ayarlama
+# Java’da Barkod Görüntüsü Oluşturma – Başlangıç ve Bitiş Sembollerini Ayarlama
 
+## Giriş
 
-## giriiş
+Bu kapsamlı öğreticide Aspose.BarCode for Java ile **create barcode image java** dosyaları oluşturacak ve Codabar barkodları için **how to set symbols** öğreneceksiniz. İster bir satış noktası sistemi, bir lojistik uygulaması ya da güvenilir barkod üretimi gerektiren herhangi bir çözüm geliştirin, başlangıç ve bitiş sembollerini özelleştirmek barkod formatı üzerinde tam kontrol sağlar. Her adımı adım adım inceleyecek, her ayarın neden önemli olduğunu açıklayacak ve kullanıma hazır bir PNG görüntüsü üretmeyi göstereceğiz.
 
-Aspose.BarCode for Java'yı kullanarak başlatma ve durdurma sembollerini ayarlamaya ilişkin kapsamlı kılavuzumuza hoş geldiniz! Bu derste Aspose.BarCode'un güçlü Java kütüphanesini kullanarak belirli başlangıç ve bitiş sembollerine sahip barkodlar oluşturma sürecini derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu adım adım kılavuz, Aspose.BarCode'u barkod oluşturma ihtiyaçlarınız için verimli bir şekilde kullanma bilgisiyle donatacaktır.
+## Hızlı Yanıtlar
+- **Java’da barkod görüntüleri oluşturan kütüphane nedir?** Aspose.BarCode for Java.
+- **Başlangıç/bitiş sembollerini özelleştirebilir miyim?** Evet, `setCodabarStartSymbol` ve `setCodabarStopSymbol` kullanarak.
+- **Bu örnekte hangi barkod türü kullanılıyor?** CODABAR.
+- **Üretim için lisansa ihtiyacım var mı?** Deneme dışı kullanım için ticari bir lisans gereklidir.
+- **Hangi çıktı formatı üretiliyor?** Diskte kaydedilen PNG görüntüsü.
+
+## “create barcode image java” nedir?
+
+Java’da bir barkod görüntüsü oluşturmak, programlı olarak bir barkod sembolojisinin (genellikle PNG, JPG veya BMP) standart okuyucular tarafından taranabilir görsel temsili üretmek anlamına gelir. Aspose.BarCode, düşük seviyeli kodlama detaylarını soyutlayan akıcı bir API sunar ve iş mantığına odaklanmanızı sağlar.
+
+## Neden Aspose.BarCode ile barkod üretmek için Aspose kullanmalı?
+
+Aspose.BarCode şunları sunar:
+- **Geniş semboloji desteği** (CODABAR, QR, DataMatrix vb. dahil).
+- **Görünüm, boyut ve kodlama seçenekleri üzerinde ayrıntılı kontrol**.
+- **Herhangi bir Java çalışma zamanı ile çapraz platform uyumluluğu**.
+- **Harici bağımlılık yok**, dağıtımı basitleştirir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+İlerlemeye başlamadan önce şunların olduğundan emin olun:
 
-1.  Java Geliştirme Kiti (JDK): Aspose.BarCode for Java, çalışan bir Java ortamı gerektirir. JDK'nın en son sürümünü şuradan yükleyin:[Kahin](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Kit (JDK)** – En son JDK’yı [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) adresinden yükleyin.
+2. **Aspose.BarCode for Java kütüphanesi** – [download link](https://releases.aspose.com/barcode/java/) adresinden indirin.
 
-2.  Aspose.BarCode for Java Kütüphanesi: Aspose.BarCode for Java kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/barcode/java/).
+Bunların hazır olması, **generate barcode image java** işlemini eksik bileşen olmadan yapmanızı sağlar.
 
-Artık önkoşulları ele aldığımıza göre, öğreticiye devam edelim.
+## Paketleri İçe Aktarma
 
-## Paketleri İçe Aktar
-
-Aspose.BarCode'u kullanmak için Java projenizde gerekli paketleri içe aktarın:
+Java projenizde, Aspose.BarCode ile çalışmak için gerekli sınıfları içe aktarın:
 
 ```java
-// Aspose.BarCode sınıflarını içe aktar
+// Import Aspose.BarCode classes
 import com.aspose.barcode.CodabarSymbol;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Daha net bir anlayış için verilen örneği birden çok adıma ayıralım:
+## Adım Adım Kılavuz
 
-## Adım 1: Belge Dizinini Tanımlayın
+### Adım 1: Belge Dizinini Tanımlama
 
 ```java
-// Kaynak dizininin yolu.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` proje dizininizin yolu ile.
+`"Your Document Directory"` ifadesini barkod görüntüsünün kaydedileceği mutlak ya da göreli yol ile değiştirin.
 
-## Adım 2: Barkod Oluşturucu Örneği Oluşturun
+### Adım 2: Barkod Üretici Örneği Oluşturma
 
 ```java
-// BarcodeGenerator örneğini oluşturun, yapıcıda kod metnini ve sembolojiyi belirtin
+// Create instance of BarcodeGenerator, specify codetext and symbology in the constructor
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "12345678");
 ```
 
- Bir örnek oluştur`BarcodeGenerator` İstenilen sembolojiye (bu durumda CODABAR) ve kod metnine ("12345678") sahip nesne.
+Burada Aspose.BarCode’a **CODABAR** sembolojisini ve veri dizesi `"12345678"` kullanmasını söylüyoruz.
 
-## 3. Adım: Codabar Başlatma Sembolünü Ayarlayın
+### Adım 3: Codabar Başlangıç Sembolünü Ayarlama
 
 ```java
-// Codabar başlangıç sembolünü A olarak ayarlayın
+// Set the Codabar start symbol to A
 generator.getParameters().getBarcode().getCodabar().setCodabarStartSymbol(CodabarSymbol.A);
 ```
 
- Kullan`setCodabarStartSymbol` Codabar başlangıç sembolünü ayarlama yöntemi. Bu örnekte bunu 'A' olarak ayarladık.
+`setCodabarStartSymbol` metodu, başlangıç karakteri için **how to set symbols** yapmanıza olanak tanır. Bu örnekte `A` seçiyoruz.
 
-## Adım 4: Codabar Durdurma Sembolünü Ayarlayın
+### Adım 4: Codabar Bitiş Sembolünü Ayarlama
 
 ```java
-// Codabar durdurma sembolünü D olarak ayarlayın
+// Set the Codabar stop symbol to D
 generator.getParameters().getBarcode().getCodabar().setCodabarStopSymbol(CodabarSymbol.D);
 ```
 
- Benzer şekilde, şunu kullanın:`setCodabarStopSymbol` Codabar durdurma sembolünü ayarlama yöntemi. Burada 'D' olarak ayarladık.
+Benzer şekilde, `setCodabarStopSymbol` bitiş karakterini tanımlar. `D` kullanmak, birçok eski sistemin gerektirdiği CODABAR formatını tamamlar.
 
-## Adım 5: Oluşturulan Görüntüyü Kaydedin
+### Adım 5: Oluşturulan Görüntüyü Kaydetme
 
 ```java
-// Görüntüyü PNG formatında diske kaydedin
+// Save the image to disk in PNG format
 generator.save(dataDir + "startAndStopSymbols.png");
 ```
 
-Oluşturulan barkod görüntüsünü belirtilen dizine kaydedin (`dataDir`) "startAndStopSymbols.png" dosya adıyla.
+`save` çağrısı, daha önce belirttiğiniz dizinde **startAndStopSymbols.png** adlı bir PNG dosyasına barkodu yazar.
 
-Başlatma ve durdurma sembollerinin barkod oluşturma sürecinize kusursuz entegrasyonu için bu adımları tekrarlayın.
+### Yaygın Hatalar ve İpuçları
 
-## Çözüm
+- **Yanlış dizin yolu** – `dataDir`'in bir dosya ayırıcı (`/` veya `\`) ile bittiğinden emin olun veya `Paths.get` ile birleştirin.
+- **Desteklenmeyen başlangıç/bitiş sembolleri** – CODABAR sadece A, B, C, D'yi başlangıç/bitiş sembolleri olarak destekler. Başka bir değer kullanmak bir istisna oluşturur.
+- **Lisans uygulanmadı** – Deneme modunda oluşturulan görüntü bir filigran içerebilir. Üretime dağıtmadan önce lisansınızı uygulayın.
 
-Tebrikler! Aspose.BarCode for Java'yı kullanarak Codabar barkodları için başlangıç ve bitiş sembollerini nasıl ayarlayacağınızı başarıyla öğrendiniz. Bu özellik, barkod oluşturma sürecinize bir özelleştirme katmanı ekleyerek uygulamalarınızın esnekliğini artırır.
+## Sonuç
 
- Aspose.BarCode for Java tarafından sağlanan diğer özellikleri ve özelleştirme seçeneklerini keşfetmekten çekinmeyin.[dokümantasyon](https://reference.aspose.com/barcode/java/).
+Artık Aspose.BarCode kullanarak **create barcode image java** dosyalarını nasıl oluşturacağınızı ve bir Codabar barkodu için **how to set symbols** nasıl ayarlayacağınızı öğrendiniz. Bu teknik, kodunuzu temiz ve sürdürülebilir tutarken sektöre özgü barkod gereksinimlerini karşılamak için esneklik sağlar.
+
+Renkleri değiştirme, insan tarafından okunabilir metin ekleme veya diğer sembolojilere geçiş gibi ek özelleştirme seçeneklerini keşfetmek için resmi API belgelerine [documentation](https://reference.aspose.com/barcode/java/) adresinden göz atın.
 
 ## Sıkça Sorulan Sorular
 
-### Aspose.BarCode for Java'yı ticari bir projede kullanabilir miyim?
- Evet yapabilirsin. Ticari kullanım için bir lisans satın almayı düşünün[Burada](https://purchase.aspose.com/buy).
+### Aspose.BarCode for Java'ı ticari bir projede kullanabilir miyim?
+Evet, kullanabilirsiniz. Ticari kullanım için bir lisans satın almayı [buradan](https://purchase.aspose.com/buy) değerlendirin.
 
-### Ücretsiz deneme mevcut mu?
- Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+### Ücretsiz bir deneme mevcut mu?
+Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
-### Aspose.BarCode for Java için nasıl destek alabilirim?
- Aspose.BarCode forumunu ziyaret edin[Burada](https://forum.aspose.com/c/barcode/13) herhangi bir destek veya sorularınız için.
+### Aspose.BarCode for Java için desteği nasıl alabilirim?
+Herhangi bir destek veya soru için Aspose.BarCode forumunu [buradan](https://forum.aspose.com/c/barcode/13) ziyaret edin.
 
-### Geçici lisansı nasıl alabilirim?
- Gerekirse geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+### Geçici bir lisans nasıl elde ederim?
+Gerekirse, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-### Aspose.BarCode for Java'nın desteklediği başka barkod sembolojileri var mı?
-Evet, Aspose.BarCode çok çeşitli barkod sembolojilerini destekler. Tam liste için belgelere bakın.
+### Aspose.BarCode for Java tarafından desteklenen daha fazla barkod sembolojisi var mı?
+Evet, Aspose.BarCode geniş bir barkod sembolojisi yelpazesini destekler. Tam liste için belgelere bakın.
 
+**S: PNG dışında hangi görüntü formatlarını dışa aktarabilirim?**  
+C: Aspose.BarCode PNG, JPEG, BMP, GIF ve TIFF formatlarını destekler. `save` metodunda uygun dosya uzantısını kullanın.
+
+**S: Barkod görüntülerini diske yazmadan bellekte oluşturabilir miyim?**  
+C: Evet, `generator.save(OutputStream)` çağrısıyla doğrudan bir akıma yazabilirsiniz, web yanıtları için faydalıdır.
+
+**S: Kütüphane Android'de çalışıyor mu?**  
+C: Java sürümü Android ile uyumludur, ancak gerekli bağımlılıkları manuel olarak eklemeniz gerekir.
+
+---
+
+**Son Güncelleme:** 2025-12-17  
+**Test Edilen Versiyon:** Aspose.BarCode for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

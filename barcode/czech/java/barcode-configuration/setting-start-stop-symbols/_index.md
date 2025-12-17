@@ -1,115 +1,153 @@
 ---
-title: Nastavení symbolů Start a Stop v Javě
-linktitle: Nastavení symbolů Start a Stop
+date: 2025-12-17
+description: Naučte se, jak vytvořit obrázek čárového kódu v Javě a jak nastavit symboly
+  pomocí Aspose.BarCode. Tento krok‑za‑krokem průvodce vám ukáže, jak vygenerovat
+  čárový kód Codabar s vlastními startovacími a koncovými symboly.
+linktitle: Setting Start and Stop Symbols
 second_title: Aspose.BarCode Java API
-description: Generujte přizpůsobené čárové kódy Codabar se specifickými symboly začátku a konce v Javě pomocí Aspose.BarCode. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-weight: 15
+title: Vytvoření obrázku čárového kódu v Javě – nastavení startovacích a stopovacích
+  symbolů
 url: /cs/java/barcode-configuration/setting-start-stop-symbols/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavení symbolů Start a Stop v Javě
-
+# Vytvoření obrázku čárového kódu v Javě – nastavení startovních a koncových symbolů
 
 ## Úvod
 
-Vítejte v našem komplexním průvodci nastavením symbolů spuštění a zastavení pomocí Aspose.BarCode pro Java! V tomto tutoriálu se ponoříme do procesu generování čárových kódů se specifickými symboly start a stop pomocí výkonné Java knihovny Aspose.BarCode. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vás vybaví znalostmi, jak efektivně využívat Aspose.BarCode pro vaše potřeby generování čárových kódů.
+V tomto komplexním tutoriálu **create barcode image java** soubory s Aspose.BarCode pro Java a naučíte se **how to set symbols** pro čárové kódy Codabar. Ať už budujete systém pokladny, logistickou aplikaci nebo jakékoli řešení, které potřebuje spolehlivé generování čárových kódů, přizpůsobení startovních a koncových symbolů vám dává plnou kontrolu nad formátem čárového kódu. Provedeme vás každým krokem, vysvětlíme, proč je každé nastavení důležité, a ukážeme vám, jak vytvořit připravený PNG obrázek.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna vytváří obrázky čárových kódů v Javě?** Aspose.BarCode for Java.
+- **Mohu přizpůsobit startovní/koncové symboly?** Ano, pomocí `setCodabarStartSymbol` a `setCodabarStopSymbol`.
+- **Jaký typ čárového kódu se v tomto příkladu používá?** CODABAR.
+- **Potřebuji licenci pro produkční použití?** Komerční licence je vyžadována pro ne‑zkušební použití.
+- **Jaký výstupní formát je generován?** PNG obrázek uložený na disk.
 
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co je „create barcode image java“?
 
-1.  Java Development Kit (JDK): Aspose.BarCode for Java vyžaduje funkční prostředí Java. Nainstalujte nejnovější verzi JDK z[Věštec](https://www.oracle.com/java/technologies/javase-downloads.html).
+Generování obrázku čárového kódu v Javě znamená programově vytvořit vizuální reprezentaci (obvykle PNG, JPG nebo BMP) symbologie čárového kódu, kterou lze načíst standardními čtečkami. Aspose.BarCode poskytuje plynulé API, které abstrahuje nízkoúrovňové detaily kódování, což vám umožňuje soustředit se na obchodní logiku.
 
-2.  Knihovna Aspose.BarCode for Java: Stáhněte a nainstalujte knihovnu Aspose.BarCode for Java z[odkaz ke stažení](https://releases.aspose.com/barcode/java/).
+## Proč použít Aspose.BarCode k generování čárových kódů s Aspose?
 
-Nyní, když máme pokryty předpoklady, pojďme pokračovat ve výukovém programu.
+- **Široká podpora symbologií** (včetně CODABAR, QR, DataMatrix atd.).
+- **Detailní kontrola** nad vzhledem, velikostí a možnostmi kódování.
+- **Kompatibilita napříč platformami** s jakýmkoli Java runtime.
+- **Žádné externí závislosti**, což usnadňuje nasazení.
 
-## Importujte balíčky
+## Prerequisites
 
-Ve svém projektu Java importujte potřebné balíčky pro použití Aspose.BarCode:
+1. **Java Development Kit (JDK)** – Nainstalujte nejnovější JDK z [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Aspose.BarCode for Java library** – Stáhněte si jej z [download link](https://releases.aspose.com/barcode/java/).
+
+Mít tyto připravené zajišťuje, že můžete **generate barcode image java** bez chybějících komponent.
+
+## Import balíčků
+
+Ve vašem Java projektu importujte potřebné třídy pro práci s Aspose.BarCode:
 
 ```java
-// Import tříd Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.CodabarSymbol;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Pojďme si poskytnutý příklad rozdělit do několika kroků pro jasnější pochopení:
+## Step‑by‑Step Guide
 
-## Krok 1: Definujte adresář dokumentů
+### Krok 1: Definujte adresář dokumentu
 
 ```java
-// Cesta k adresáři prostředků.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Nahradit`"Your Document Directory"` s cestou k adresáři vašeho projektu.
+Nahraďte `"Your Document Directory"` absolutní nebo relativní cestou, kam chcete uložit obrázek čárového kódu.
 
-## Krok 2: Vytvořte instanci generátoru čárových kódů
+### Krok 2: Vytvořte instanci Barcode Generator
 
 ```java
-// Vytvořte instanci BarcodeGenerator, zadejte kódový text a symboliku v konstruktoru
+// Create instance of BarcodeGenerator, specify codetext and symbology in the constructor
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "12345678");
 ```
 
- Instantovat a`BarcodeGenerator` objekt s požadovanou symbolikou (v tomto případě CODABAR) a kódovým textem ("12345678").
+Zde říkáme Aspose.BarCode, aby použil symbologii **CODABAR** a datový řetězec `"12345678"`.
 
-## Krok 3: Nastavte počáteční symbol Codabar
+### Krok 3: Nastavte startovní symbol Codabar
 
 ```java
-// Nastavte počáteční symbol Codabar na A
+// Set the Codabar start symbol to A
 generator.getParameters().getBarcode().getCodabar().setCodabarStartSymbol(CodabarSymbol.A);
 ```
 
- Použijte`setCodabarStartSymbol` metoda pro nastavení startovacího symbolu Codabar. V tomto příkladu jsme jej nastavili na 'A'.
+Metoda `setCodabarStartSymbol` vám umožňuje **how to set symbols** pro startovní znak. V tomto případě volíme `A`.
 
-## Krok 4: Nastavte symbol zastavení Codabar
+### Krok 4: Nastavte koncový symbol Codabar
 
 ```java
-// Nastavte symbol zastavení Codabar na D
+// Set the Codabar stop symbol to D
 generator.getParameters().getBarcode().getCodabar().setCodabarStopSymbol(CodabarSymbol.D);
 ```
 
- Podobně použijte`setCodabarStopSymbol` metoda pro nastavení symbolu zastavení Codabar. Zde jsme to nastavili na 'D'.
+Podobně `setCodabarStopSymbol` definuje koncový znak. Použití `D` dokončuje formát CODABAR požadovaný mnoha staršími systémy.
 
-## Krok 5: Uložte vygenerovaný obrázek
+### Krok 5: Uložte vygenerovaný obrázek
 
 ```java
-// Uložte obrázek na disk ve formátu PNG
+// Save the image to disk in PNG format
 generator.save(dataDir + "startAndStopSymbols.png");
 ```
 
-Uložte vygenerovaný obrázek čárového kódu do určeného adresáře (`dataDir`) s názvem "startAndStopSymbols.png".
+Volání `save` zapíše čárový kód do PNG souboru pojmenovaného **startAndStopSymbols.png** v adresáři, který jste uvedli dříve.
 
-Opakujte tyto kroky pro bezproblémovou integraci symbolů start a stop do vašeho procesu generování čárového kódu.
+### Časté úskalí a tipy
+
+- **Nesprávná cesta k adresáři** – Ujistěte se, že `dataDir` končí souborovým oddělovačem (`/` nebo `\`) nebo jej spojte pomocí `Paths.get`.
+- **Ne podporované startovní/koncové symboly** – CODABAR podporuje pouze A, B, C, D jako startovní/koncové symboly. Použití jakékoli jiné hodnoty vyvolá výjimku.
+- **Licence není aplikována** – V režimu zkušební verze může vygenerovaný obrázek obsahovat vodoznak. Aplikujte licenci před nasazením do produkce.
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak nastavit start a stop symboly pro čárové kódy Codabar pomocí Aspose.BarCode pro Java. Tato funkce přidává do generování čárových kódů vrstvu přizpůsobení a zvyšuje flexibilitu vašich aplikací.
+Nyní jste se naučili, jak **create barcode image java** soubory a přesně **how to set symbols** pro čárový kód Codabar pomocí Aspose.BarCode. Tato technika vám poskytuje flexibilitu splnit specifické průmyslové požadavky na čárové kódy a zároveň udržet váš kód čistý a udržovatelný.
 
- Neváhejte a prozkoumejte další funkce a možnosti přizpůsobení, které poskytuje Aspose.BarCode for Java v[dokumentace](https://reference.aspose.com/barcode/java/).
+Prozkoumejte další možnosti přizpůsobení – například změnu barev, přidání čitelného textu nebo přechod na jiné symbologie – v oficiální dokumentaci API na [documentation](https://reference.aspose.com/barcode/java/).
 
 ## Často kladené otázky
 
-### Mohu použít Aspose.BarCode for Java v komerčním projektu?
- Ano můžeš. Pro komerční využití zvažte zakoupení licence[tady](https://purchase.aspose.com/buy).
+### Mohu použít Aspose.BarCode pro Java v komerčním projektu?
+Ano, můžete. Pro komerční použití zvažte zakoupení licence [zde](https://purchase.aspose.com/buy).
 
 ### Je k dispozici bezplatná zkušební verze?
- Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+Ano, můžete vyzkoušet bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.BarCode pro Java?
- Navštivte fórum Aspose.BarCode[tady](https://forum.aspose.com/c/barcode/13) pro jakoukoli podporu nebo dotazy.
+Navštivte fórum Aspose.BarCode [zde](https://forum.aspose.com/c/barcode/13) pro jakoukoli podporu nebo dotazy.
 
 ### Jak získám dočasnou licenci?
- V případě potřeby můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+V případě potřeby můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
-### Podporuje Aspose.BarCode pro Javu více symbolik čárových kódů?
-Ano, Aspose.BarCode podporuje širokou škálu symbolik čárových kódů. Úplný seznam naleznete v dokumentaci.
+### Existují další symbologie čárových kódů podporované Aspose.BarCode pro Java?
+Ano, Aspose.BarCode podporuje širokou škálu symbologií čárových kódů. Podívejte se do dokumentace pro kompletní seznam.
 
+**Additional Q&A**
+
+**Q: Jaké formáty obrázků mohu exportovat kromě PNG?**  
+A: Aspose.BarCode podporuje PNG, JPEG, BMP, GIF a TIFF. Použijte vhodnou příponu souboru v metodě `save`.
+
+**Q: Mohu generovat obrázky čárových kódů v paměti bez zápisu na disk?**  
+A: Ano, zavolejte `generator.save(OutputStream)`, abyste zapisovali přímo do proudu, což je užitečné pro webové odpovědi.
+
+**Q: Funguje knihovna na Androidu?**  
+A: Verze pro Java je kompatibilní s Androidem, ale musíte ručně zahrnout požadované závislosti.
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.BarCode for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

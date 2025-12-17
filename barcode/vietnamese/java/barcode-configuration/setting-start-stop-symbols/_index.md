@@ -1,115 +1,150 @@
 ---
-title: Đặt ký hiệu bắt đầu và dừng trong Java
-linktitle: Đặt ký hiệu bắt đầu và dừng
-second_title: API Java Aspose.BarCode
-description: Tạo mã vạch Codabar tùy chỉnh với các ký hiệu bắt đầu và kết thúc cụ thể trong Java bằng Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-weight: 15
+date: 2025-12-17
+description: Tìm hiểu cách tạo hình ảnh mã vạch bằng Java và cách đặt các ký hiệu
+  bằng Aspose.BarCode. Hướng dẫn từng bước này cho bạn biết cách tạo mã vạch Codabar
+  với các ký hiệu bắt đầu/kết thúc tùy chỉnh.
+linktitle: Setting Start and Stop Symbols
+second_title: Aspose.BarCode Java API
+title: Tạo Hình Ảnh Mã Vạch Java – Đặt Ký Hiệu Bắt Đầu và Kết Thúc
 url: /vi/java/barcode-configuration/setting-start-stop-symbols/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt ký hiệu bắt đầu và dừng trong Java
-
+# Tạo Hình Ảnh Mã Vạch Java – Đặt Ký Tự Bắt Đầu và Kết Thúc
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách đặt ký hiệu bắt đầu và kết thúc bằng Aspose.BarCode cho Java! Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình tạo mã vạch với các ký hiệu bắt đầu và kết thúc cụ thể bằng thư viện Java mạnh mẽ của Aspose.BarCode. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ trang bị cho bạn kiến thức để sử dụng Aspose.BarCode một cách hiệu quả cho nhu cầu tạo mã vạch của bạn.
+Trong hướng dẫn toàn diện này, bạn sẽ **tạo hình ảnh mã vạch java** bằng Aspose.BarCode cho Java và học **cách đặt ký tự** cho mã vạch Codabar. Dù bạn đang xây dựng hệ thống bán hàng, ứng dụng logistics, hay bất kỳ giải pháp nào cần tạo mã vạch đáng tin cậy, việc tùy chỉnh ký tự bắt đầu và kết thúc cho phép bạn kiểm soát hoàn toàn định dạng mã vạch. Chúng tôi sẽ hướng dẫn từng bước, giải thích lý do mỗi thiết lập quan trọng, và chỉ cho bạn cách tạo ra một ảnh PNG sẵn sàng sử dụng.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào tạo hình ảnh mã vạch trong Java?** Aspose.BarCode for Java.
+- **Tôi có thể tùy chỉnh ký tự bắt đầu/kết thúc không?** Có, sử dụng `setCodabarStartSymbol` và `setCodabarStopSymbol`.
+- **Loại mã vạch nào được sử dụng trong ví dụ này?** CODABAR.
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép thương mại cho việc sử dụng không phải thử nghiệm.
+- **Định dạng đầu ra được tạo là gì?** Ảnh PNG được lưu vào đĩa.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## create barcode image java là gì?
 
-1.  Bộ công cụ phát triển Java (JDK): Aspose.BarCode cho Java yêu cầu môi trường Java hoạt động. Cài đặt phiên bản JDK mới nhất từ[Lời tiên tri](https://www.oracle.com/java/technologies/javase-downloads.html).
+Tạo một hình ảnh mã vạch trong Java có nghĩa là tạo ra một biểu diễn trực quan (thường là PNG, JPG hoặc BMP) của một ký hiệu mã vạch có thể được máy đọc chuẩn quét. Aspose.BarCode cung cấp một API mượt mà, trừu tượng hoá các chi tiết mã hoá mức thấp, cho phép bạn tập trung vào logic nghiệp vụ.
 
-2.  Thư viện Aspose.BarCode cho Java: Tải xuống và cài đặt thư viện Aspose.BarCode cho Java từ[Liên kết tải xuống](https://releases.aspose.com/barcode/java/).
+## Tại sao nên sử dụng Aspose.BarCode để tạo mã vạch với Aspose?
 
-Bây giờ chúng ta đã có các điều kiện tiên quyết, hãy tiếp tục với phần hướng dẫn.
+- **Hỗ trợ đa dạng ký hiệu** (including CODABAR, QR, DataMatrix, etc.).
+- **Kiểm soát chi tiết** về giao diện, kích thước và các tùy chọn mã hoá.
+- **Tương thích đa nền tảng** với bất kỳ môi trường Java nào.
+- **Không phụ thuộc bên ngoài**, giúp triển khai đơn giản.
 
-## Gói nhập khẩu
+## Yêu cầu trước
 
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để sử dụng Aspose.BarCode:
+1. **Java Development Kit (JDK)** – Cài đặt JDK mới nhất từ [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Aspose.BarCode for Java library** – Tải xuống từ [download link](https://releases.aspose.com/barcode/java/).
+
+Có sẵn các công cụ này sẽ đảm bảo bạn có thể **tạo hình ảnh mã vạch java** mà không thiếu bất kỳ thành phần nào.
+
+## Nhập các gói
+
+Trong dự án Java của bạn, nhập các lớp cần thiết để làm việc với Aspose.BarCode:
 
 ```java
-// Nhập các lớp Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.CodabarSymbol;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Hãy chia ví dụ được cung cấp thành nhiều bước để hiểu rõ hơn:
+## Hướng dẫn từng bước
 
-## Bước 1: Xác định thư mục tài liệu
+### Bước 1: Xác định Thư mục Tài liệu
+
+Thay thế `"Your Document Directory"` bằng đường dẫn tuyệt đối hoặc tương đối nơi bạn muốn lưu ảnh mã vạch.
 
 ```java
-// Đường dẫn đến thư mục tài nguyên.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn đến thư mục dự án của bạn.
+### Bước 2: Tạo Instance của Barcode Generator
 
-## Bước 2: Tạo phiên bản tạo mã vạch
+Ở đây chúng ta chỉ định cho Aspose.BarCode sử dụng ký hiệu **CODABAR** và chuỗi dữ liệu `"12345678"`.
 
 ```java
-// Tạo phiên bản của BarcodeGenerator, chỉ định văn bản mã và ký hiệu trong hàm tạo
+// Create instance of BarcodeGenerator, specify codetext and symbology in the constructor
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "12345678");
 ```
 
- Khởi tạo một`BarcodeGenerator` đối tượng có ký hiệu mong muốn (trong trường hợp này là CODABAR) và văn bản mã ("12345678").
+### Bước 3: Đặt Ký Tự Bắt Đầu Codabar
 
-## Bước 3: Đặt biểu tượng bắt đầu Codabar
+Phương thức `setCodabarStartSymbol` cho phép bạn **cài đặt ký tự** cho ký tự bắt đầu. Trong trường hợp này chúng ta chọn `A`.
 
 ```java
-// Đặt biểu tượng bắt đầu Codabar thành A
+// Set the Codabar start symbol to A
 generator.getParameters().getBarcode().getCodabar().setCodabarStartSymbol(CodabarSymbol.A);
 ```
 
- Sử dụng`setCodabarStartSymbol` phương pháp đặt biểu tượng bắt đầu Codabar. Trong ví dụ này, chúng tôi đặt nó thành 'A'.
+### Bước 4: Đặt Ký Tự Kết Thúc Codabar
 
-## Bước 4: Đặt biểu tượng dừng Codabar
+Tương tự, `setCodabarStopSymbol` xác định ký tự kết thúc. Sử dụng `D` hoàn thiện định dạng CODABAR mà nhiều hệ thống cũ yêu cầu.
 
 ```java
-// Đặt biểu tượng dừng Codabar thành D
+// Set the Codabar stop symbol to D
 generator.getParameters().getBarcode().getCodabar().setCodabarStopSymbol(CodabarSymbol.D);
 ```
 
- Tương tự, sử dụng các`setCodabarStopSymbol` phương pháp đặt biểu tượng dừng Codabar. Ở đây, chúng tôi đặt nó thành 'D'.
+### Bước 5: Lưu Ảnh Đã Tạo
 
-## Bước 5: Lưu hình ảnh đã tạo
+Lệnh `save` ghi mã vạch vào một tệp PNG có tên **startAndStopSymbols.png** trong thư mục bạn đã chỉ định ở trên.
 
 ```java
-// Lưu hình ảnh vào đĩa ở định dạng PNG
+// Save the image to disk in PNG format
 generator.save(dataDir + "startAndStopSymbols.png");
 ```
 
-Lưu hình ảnh mã vạch được tạo vào thư mục được chỉ định (`dataDir`) với tên tệp "startAndStopSymbols.png".
+### Những Sai Lầm Thường Gặp & Mẹo
 
-Lặp lại các bước này để tích hợp liền mạch các ký hiệu bắt đầu và kết thúc vào quy trình tạo mã vạch của bạn.
+- **Đường dẫn thư mục không đúng** – Đảm bảo `dataDir` kết thúc bằng dấu phân tách tệp (`/` hoặc `\`) hoặc nối bằng `Paths.get`.
+- **Ký tự bắt đầu/kết thúc không được hỗ trợ** – CODABAR chỉ hỗ trợ A, B, C, D làm ký tự bắt đầu/kết thúc. Sử dụng bất kỳ giá trị nào khác sẽ gây ra ngoại lệ.
+- **Chưa áp dụng giấy phép** – Trong chế độ dùng thử, ảnh được tạo có thể chứa watermark. Áp dụng giấy phép trước khi triển khai vào môi trường sản xuất.
 
-## Phần kết luận
+## Kết luận
 
-Chúc mừng! Bạn đã học thành công cách đặt ký hiệu bắt đầu và kết thúc cho mã vạch Codabar bằng Aspose.BarCode for Java. Khả năng này bổ sung thêm một lớp tùy chỉnh cho việc tạo mã vạch của bạn, nâng cao tính linh hoạt cho các ứng dụng của bạn.
+Bây giờ bạn đã biết cách **tạo hình ảnh mã vạch java** và chính xác **cách đặt ký tự** cho mã vạch Codabar bằng Aspose.BarCode. Kỹ thuật này cung cấp cho bạn sự linh hoạt để đáp ứng các tiêu chuẩn mã vạch đặc thù của ngành, đồng thời giữ cho mã nguồn sạch sẽ và dễ bảo trì. Khám phá các tùy chỉnh bổ sung—như thay đổi màu sắc, thêm văn bản có thể đọc được bởi con người, hoặc chuyển sang các ký hiệu khác—bằng cách tham khảo tài liệu API chính thức tại [documentation](https://reference.aspose.com/barcode/java/).
 
- Vui lòng khám phá thêm các tính năng và tùy chọn tùy chỉnh do Aspose.BarCode for Java cung cấp trong[tài liệu](https://reference.aspose.com/barcode/java/).
+## Câu hỏi thường gặp
 
-## Các câu hỏi thường gặp
-
-### Tôi có thể sử dụng Aspose.BarCode cho Java trong một dự án thương mại không?
- Vâng, bạn có thể. Để sử dụng cho mục đích thương mại, hãy cân nhắc việc mua giấy phép[đây](https://purchase.aspose.com/buy).
+### Tôi có thể sử dụng Aspose.BarCode cho Java trong dự án thương mại không?
+Có, bạn có thể. Đối với việc sử dụng thương mại, hãy cân nhắc mua giấy phép [tại đây](https://purchase.aspose.com/buy).
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể khám phá phiên bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.BarCode cho Java?
- Truy cập diễn đàn Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13) cho bất kỳ hỗ trợ hoặc truy vấn.
+### Làm sao tôi có thể nhận hỗ trợ cho Aspose.BarCode cho Java?
+Truy cập diễn đàn Aspose.BarCode [tại đây](https://forum.aspose.com/c/barcode/13) để nhận hỗ trợ hoặc đặt câu hỏi.
 
-### Làm cách nào để có được giấy phép tạm thời?
- Nếu cần, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+### Làm sao tôi có thể nhận giấy phép tạm thời?
+Nếu cần, bạn có thể lấy giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Có thêm ký hiệu mã vạch nào được Aspose.BarCode cho Java hỗ trợ không?
-Có, Aspose.BarCode hỗ trợ nhiều loại ký hiệu mã vạch. Tham khảo tài liệu để có danh sách đầy đủ.
+### Có thêm các ký hiệu mã vạch nào được Aspose.BarCode cho Java hỗ trợ không?
+Có, Aspose.BarCode hỗ trợ nhiều loại ký hiệu mã vạch. Tham khảo tài liệu để biết danh sách đầy đủ.
 
+**Additional Q&A**
+
+**Q: Các định dạng ảnh nào tôi có thể xuất ngoài PNG?**  
+A: Aspose.BarCode hỗ trợ PNG, JPEG, BMP, GIF và TIFF. Sử dụng phần mở rộng tệp phù hợp trong phương thức `save`.
+
+**Q: Tôi có thể tạo ảnh mã vạch trong bộ nhớ mà không ghi ra đĩa không?**  
+A: Có, gọi `generator.save(OutputStream)` để ghi trực tiếp vào một luồng, hữu ích cho phản hồi web.
+
+**Q: Thư viện có hoạt động trên Android không?**  
+A: Phiên bản Java tương thích với Android, nhưng bạn phải tự thêm các phụ thuộc cần thiết.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-17  
+**Kiểm tra với:** Aspose.BarCode for Java 24.12  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
