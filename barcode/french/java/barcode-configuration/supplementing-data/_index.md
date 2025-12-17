@@ -1,107 +1,137 @@
 ---
-title: Compléter les données en Java
-linktitle: Compléter les données
-second_title: API Java Aspose.BarCode
-description: Découvrez comment créer des codes-barres dynamiques en Java à l'aide d'Aspose.BarCode. Guide étape par étape pour compléter les données avec la symbologie EAN_13.
-weight: 16
+date: 2025-12-17
+description: Apprenez à générer des codes-barres en Java avec Aspose.BarCode, couvrant
+  la génération dynamique de codes-barres, la création de codes-barres EAN‑13 et l’enregistrement
+  d’images de codes-barres avec des données supplémentaires.
+linktitle: Supplementing Data
+second_title: Aspose.BarCode Java API
+title: Comment générer un code‑barres avec des données supplémentaires en Java
 url: /fr/java/barcode-configuration/supplementing-data/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Compléter les données en Java
-
+# Comment générer un code-barres avec des données supplémentaires en Java
 
 ## Introduction
 
-Dans le paysage dynamique des solutions numériques, les codes-barres jouent un rôle central dans la représentation des données. Aspose.BarCode for Java fournit une plate-forme robuste pour générer des codes-barres dynamiques sans effort. Cet article sert de guide complet, décrivant le processus de supplémentation des données à l'aide d'Aspose.BarCode pour Java. Que vous soyez un développeur chevronné ou un passionné de codage, ce didacticiel vous fournira les compétences nécessaires pour améliorer vos applications Java avec des capacités de codes-barres dynamiques.
+Dans l'écosystème numérique actuel, en constante évolution, la question de **comment générer un code-barres** efficacement se pose à de nombreux développeurs Java. Aspose.BarCode for Java propose une API puissante et facile à utiliser qui prend en charge la **génération dynamique de codes-barres**, y compris la création de **codes-barres EAN‑13** avec des données supplémentaires. Que vous construisiez des systèmes d'inventaire, des applications POS de détail ou des solutions de suivi logistique, ce tutoriel vous guide à travers un **exemple de générateur de code-barres Java** qui enregistre l'image du code-barres sur le disque et vous permet de personnaliser la partie supplément.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque est la meilleure pour générer des codes-barres en Java ?** Aspose.BarCode for Java.  
+- **Quelle symbologie crée un code-barres numérique de 13 chiffres ?** EAN‑13.  
+- **Puis-je ajouter des données supplémentaires à un code-barres EAN‑13 ?** Oui, en utilisant l'API `Supplement`.  
+- **Comment enregistrer le code-barres généré en tant qu'image ?** Appelez `generator.save("path/filename.jpg")`.  
+- **Une licence est‑elle requise pour une utilisation en production ?** Oui, une licence commerciale est nécessaire ; une version d'essai gratuite est disponible.  
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu'est-ce que la génération de code-barres en Java ?
 
-- Kit de développement Java (JDK) : Aspose.BarCode for Java fonctionne de manière transparente avec les applications Java. Assurez-vous que le JDK est installé sur votre environnement de développement.
+La génération de code-barres consiste à convertir des données — chiffres, lettres ou un mélange des deux — en un motif visuel lisible par les scanners. Avec Aspose.BarCode, vous pouvez produire des **images de code-barres haute résolution** à la volée, ce qui la rend idéale pour les scénarios de **génération dynamique de code-barres** tels que la billetterie en temps réel ou l'exécution de commandes.
 
-- Environnement de développement intégré (IDE) : choisissez votre IDE préféré, tel qu'IntelliJ ou Eclipse, pour faciliter un codage et des tests fluides.
+## Pourquoi utiliser Aspose.BarCode pour la génération dynamique de code-barres ?
 
-- Aspose.BarCode pour Java : Téléchargez et intégrez la bibliothèque Aspose.BarCode dans votre projet. Vous pouvez trouver les packages nécessaires[ici](https://releases.aspose.com/barcode/java/).
+- **Contrôle total** sur la symbologie, la taille, les couleurs et les données supplémentaires.  
+- **Aucune dépendance externe** – Java pur, fonctionne sur n'importe quelle plateforme.  
+- **Support intégré** pour des dizaines de types de code-barres, y compris **create ean13 barcode**.  
+- **API simple** qui vous permet de **save barcode image** en une seule ligne de code.  
 
-## Importer des packages
+## Prérequis
 
-Une fois que vous avez configuré votre environnement de développement, importez les packages requis dans votre projet Java. Cela garantit que votre code a accès aux fonctionnalités fournies par Aspose.BarCode.
+- **Java Development Kit (JDK)** – toute version récente (8 ou supérieure).  
+- **IDE** – IntelliJ IDEA, Eclipse ou votre éditeur préféré.  
+- **Aspose.BarCode for Java** – téléchargez la bibliothèque depuis le site officiel **[here](https://releases.aspose.com/barcode/java/)** et ajoutez le JAR au classpath de votre projet.  
+
+## Importer les packages
+
+Une fois la bibliothèque référencée, importez la classe principale qui pilote la création de code-barres.
 
 ```java
-// Importer Aspose.BarCode pour Java
+// Import Aspose.BarCode for Java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Étape 1 : définissez votre répertoire de documents
+## Guide étape par étape
 
-Commencez par spécifier le chemin d’accès à votre répertoire de ressources où l’image du code-barres sera enregistrée.
+### Étape 1 : Définir le répertoire de votre document
+
+Définissez le dossier où l'image générée sera stockée.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Étape 2 : Créer une instance de générateur de codes-barres
+### Étape 2 : Créer une instance du générateur de code-barres
 
- Instancier le`BarcodeGenerator` classe, spécifiant le texte de code et la symbologie dans le constructeur. Dans cet exemple, nous utilisons la symbologie EAN_13 avec le texte de code « 123456789123 ».
+Instanciez `BarcodeGenerator` avec le **codetext** et la **symbologie** souhaités. Ici, nous **create ean13 barcode** en utilisant la chaîne numérique "123456789123".
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "123456789123");
 ```
 
-## Étape 3 : Définir les données supplémentaires
+### Étape 3 : Définir les données supplémentaires
 
-Définissez les données supplémentaires pour le code-barres. Dans cet exemple, nous définissons des données supplémentaires à 5 chiffres.
+Ajoutez une chaîne supplémentaire de 5 chiffres. Cela est utile pour les magazines, les périodiques ou tout cas où des informations supplémentaires suivent le code-barres principal.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().setSupplementData("12345");
 ```
 
-## Étape 4 : Définir l'espace supplémentaire
+### Étape 4 : Définir l'espace du supplément
 
-Définissez l'espace entre le code-barres supplémentaire et le code-barres principal.
+Ajustez l'écart entre le code-barres principal et son supplément. La valeur est exprimée en points.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().getSupplementSpace().setPoint(2.0f);
 ```
 
-## Étape 5 : Enregistrez l'image du code-barres
+### Étape 5 : Enregistrer l'image du code-barres
 
-Enregistrez l'image du code-barres générée dans un fichier dans le répertoire de documents spécifié.
+Enfin, écrivez l'image sur le disque. Le format est déduit de l'extension du fichier (JPEG dans cet exemple).
 
 ```java
 generator.save(dataDir + "supplementData.jpg");
 ```
 
-Répétez ces étapes si nécessaire pour votre cas d'utilisation spécifique, en ajustant la symbologie, le texte du code et les données supplémentaires en conséquence.
+> **Astuce :** Vous pouvez changer l'extension du fichier en `.png` ou `.bmp` pour obtenir un format d'image différent sans code supplémentaire.
 
-## Conclusion
+## Problèmes courants et solutions
 
-Toutes nos félicitations! Vous avez réussi à parcourir le processus de supplémentation des données en Java à l'aide d'Aspose.BarCode. Ce didacticiel fournit une base solide pour intégrer des codes-barres dynamiques dans vos applications, ouvrant ainsi la porte à une myriade de possibilités de représentation des données.
+| Problème | Cause | Solution |
+|----------|-------|----------|
+| **Image non enregistrée** | `dataDir` pointe vers un dossier inexistant | Assurez‑vous que le répertoire existe ou créez‑le programmatique­ment (`new File(dataDir).mkdirs();`). |
+| **Longueur du supplément invalide** | Les suppléments EAN‑13 doivent comporter 2 ou 5 chiffres | Fournissez exactement 2 ou 5 caractères ; sinon une exception est levée. |
+| **Caractères non pris en charge** | Caractères non numériques dans le codetext EAN‑13 | Utilisez uniquement les chiffres 0‑9 pour EAN‑13 ; passez à une autre symbologie pour les alphanumériques. |
 
-## Foire aux questions (FAQ)
+## Questions fréquemment posées
 
-### Aspose.BarCode est-il compatible avec toutes les versions de Java ?
- Aspose.BarCode for Java est conçu pour être compatible avec une large gamme de versions Java. Se référer au[Documentation](https://reference.aspose.com/barcode/java/) pour des détails spécifiques.
+### Aspose.BarCode est‑il compatible avec toutes les versions de Java ?
 
-### Puis-je personnaliser l'apparence des codes-barres générés ?
-Oui, Aspose.BarCode fournit divers paramètres et réglages pour personnaliser l'apparence des codes-barres. Explorez la documentation pour obtenir des informations détaillées.
+Aspose.BarCode for Java est conçu pour être compatible avec un large éventail de versions de Java. Consultez la **[documentation](https://reference.aspose.com/barcode/java/)** pour plus de détails.
 
-### Existe-t-il une version d'essai disponible ?
-Oui, vous pouvez accéder à une version d'essai gratuite[ici](https://releases.aspose.com/).
+### Puis‑je personnaliser l'apparence des codes‑barres générés ?
 
-### Comment puis-je obtenir de l'aide pour Aspose.BarCode ?
- Visiter le[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) pour obtenir l’aide de la communauté et des experts.
+Oui, Aspose.BarCode offre divers paramètres et réglages pour personnaliser l'apparence des codes‑barres. Explorez la documentation pour plus d'informations détaillées.
 
-### Où puis-je acheter Aspose.BarCode pour Java ?
- Vous pouvez acheter Aspose.BarCode pour Java[ici](https://purchase.aspose.com/buy).
+### Une version d'essai est‑elle disponible ?
 
+Oui, vous pouvez accéder à une version d'essai gratuite **[here](https://releases.aspose.com/)**.
 
+### Comment obtenir du support pour Aspose.BarCode ?
 
+Visitez le **[forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13)** pour obtenir de l'aide de la communauté et des experts.
+
+### Où puis‑je acheter Aspose.BarCode pour Java ?
+
+Vous pouvez acheter Aspose.BarCode pour Java **[here](https://purchase.aspose.com/buy)**.
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.BarCode for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

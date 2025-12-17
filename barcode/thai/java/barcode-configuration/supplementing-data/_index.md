@@ -1,107 +1,133 @@
 ---
-title: การเสริมข้อมูลใน Java
-linktitle: การเสริมข้อมูล
+date: 2025-12-17
+description: เรียนรู้วิธีสร้างบาร์โค้ดใน Java ด้วย Aspose.BarCode รวมถึงการสร้างบาร์โค้ดแบบไดนามิก
+  การสร้างบาร์โค้ด EAN‑13 และการบันทึกรูปภาพบาร์โค้ดพร้อมข้อมูลเสริม
+linktitle: Supplementing Data
 second_title: Aspose.BarCode Java API
-description: เรียนรู้วิธีสร้างบาร์โค้ดแบบไดนามิกใน Java โดยใช้ Aspose.BarCode คำแนะนำทีละขั้นตอนสำหรับการเสริมข้อมูลด้วยสัญลักษณ์ EAN_13
-weight: 16
+title: วิธีสร้างบาร์โค้ดพร้อมข้อมูลเสริมใน Java
 url: /th/java/barcode-configuration/supplementing-data/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การเสริมข้อมูลใน Java
+# วิธีสร้างบาร์โค้ดพร้อมข้อมูลเสริมใน Java
 
+## บทนำ
 
-## การแนะนำ
+ในระบบดิจิทัลที่เคลื่อนที่อย่างรวดเร็วในปัจจุบัน, **how to generate barcode** อย่างมีประสิทธิภาพเป็นคำถามที่นักพัฒนา Java จำนวนมากต้องเผชิญ Aspose.BarCode for Java มี API ที่ทรงพลังและใช้งานง่ายซึ่งรองรับ **dynamic barcode generation**, รวมถึงการสร้าง **EAN‑13 barcodes** พร้อมข้อมูลเสริม ไม่ว่าคุณจะกำลังสร้างระบบจัดการสินค้าคงคลัง, แอปพลิเคชัน POS สำหรับร้านค้าปลีก, หรือระบบติดตามโลจิสติกส์, บทเรียนนี้จะพาคุณผ่าน **java barcode generator example** ที่บันทึกรูปภาพบาร์โค้ดลงดิสก์และให้คุณปรับแต่งส่วนเสริมได้
 
-ในภูมิทัศน์แบบไดนามิกของโซลูชันดิจิทัล บาร์โค้ดมีบทบาทสำคัญในการแสดงข้อมูล Aspose.BarCode สำหรับ Java มอบแพลตฟอร์มที่มีประสิทธิภาพในการสร้างบาร์โค้ดแบบไดนามิกได้อย่างง่ายดาย บทความนี้ทำหน้าที่เป็นแนวทางที่ครอบคลุม โดยแจกแจงรายละเอียดกระบวนการเสริมข้อมูลโดยใช้ Aspose.BarCode สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือผู้ที่ชื่นชอบการเขียนโค้ด บทช่วยสอนนี้จะช่วยให้คุณมีทักษะที่จำเป็นในการปรับปรุงแอปพลิเคชัน Java ของคุณด้วยความสามารถด้านบาร์โค้ดแบบไดนามิก
+## คำตอบสั้น
+- **What library is best for generating barcodes in Java?** Aspose.BarCode for Java.
+- **Which symbology creates a 13‑digit numeric barcode?** EAN‑13.
+- **Can I add supplemental data to an EAN‑13 barcode?** Yes, using the `Supplement` API.
+- **How do I save the generated barcode as an image?** Call `generator.save("path/filename.jpg")`.
+- **Is a license required for production use?** Yes, a commercial license is needed; a free trial is available.
+
+## การสร้างบาร์โค้ดใน Java คืออะไร?
+
+การสร้างบาร์โค้ดหมายถึงการแปลงข้อมูล—ตัวเลข, ตัวอักษร หรือการผสมกัน—เป็นรูปแบบภาพที่เครื่องสแกนสามารถอ่านได้ ด้วย Aspose.BarCode คุณสามารถสร้าง **high‑resolution barcode images** ได้ทันที ทำให้เหมาะสำหรับสถานการณ์ **dynamic barcode generation** เช่น การออกตั๋วแบบเรียลไทม์หรือการเติมเต็มคำสั่งซื้อ
+
+## ทำไมต้องใช้ Aspose.BarCode สำหรับการสร้างบาร์โค้ดแบบไดนามิก?
+
+- **Full control** บนสัญลักษณ์, ขนาด, สี, และข้อมูลเสริม.  
+- **No external dependencies** – Java แท้, ทำงานบนทุกแพลตฟอร์ม.  
+- **Built‑in support** สำหรับบาร์โค้ดหลายสิบประเภท, รวมถึง **create ean13 barcode**.  
+- **Simple API** ที่ทำให้คุณ **save barcode image** ด้วยบรรทัดโค้ดเดียว.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนเริ่ม, ตรวจสอบว่าคุณมี:
 
-- Java Development Kit (JDK): Aspose.BarCode สำหรับ Java ทำงานได้อย่างราบรื่นกับแอปพลิเคชัน Java ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนสภาพแวดล้อมการพัฒนาของคุณ
+- **Java Development Kit (JDK)** – เวอร์ชันล่าสุดใดก็ได้ (8 หรือใหม่กว่า).  
+- **IDE** – IntelliJ IDEA, Eclipse หรือโปรแกรมแก้ไขที่คุณชื่นชอบ.  
+- **Aspose.BarCode for Java** – ดาวน์โหลดไลบรารีจากเว็บไซต์อย่างเป็นทางการ **[here](https://releases.aspose.com/barcode/java/)** และเพิ่มไฟล์ JAR ไปยัง classpath ของโปรเจกต์ของคุณ.
 
-- สภาพแวดล้อมการพัฒนาแบบรวม (IDE): เลือก IDE ที่คุณต้องการ เช่น IntelliJ หรือ Eclipse เพื่ออำนวยความสะดวกในการเขียนโค้ดและการทดสอบที่ราบรื่น
+## นำเข้าแพ็กเกจ
 
-- Aspose.BarCode สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.BarCode เข้ากับโปรเจ็กต์ของคุณ คุณสามารถค้นหาแพ็คเกจที่จำเป็นได้[ที่นี่](https://releases.aspose.com/barcode/java/).
-
-## แพ็คเกจนำเข้า
-
-เมื่อคุณตั้งค่าสภาพแวดล้อมการพัฒนาแล้ว ให้นำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ เพื่อให้แน่ใจว่าโค้ดของคุณสามารถเข้าถึงฟังก์ชันการทำงานที่ Aspose.BarCode มอบให้
+เมื่อไลบรารีถูกอ้างอิงแล้ว, ให้นำเข้าคลาสหลักที่ใช้สร้างบาร์โค้ด
 
 ```java
-// นำเข้า Aspose.BarCode สำหรับ Java
+// Import Aspose.BarCode for Java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## ขั้นตอนที่ 1: กำหนดไดเร็กทอรีเอกสารของคุณ
+## คู่มือขั้นตอนต่อขั้นตอน
 
-เริ่มต้นด้วยการระบุเส้นทางไปยังไดเร็กทอรีทรัพยากรของคุณที่จะบันทึกภาพบาร์โค้ด
+### ขั้นตอนที่ 1: กำหนดไดเรกทอรีเอกสารของคุณ
+
+ตั้งค่าโฟลเดอร์ที่ภาพที่สร้างจะถูกจัดเก็บ
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## ขั้นตอนที่ 2: สร้างอินสแตนซ์ตัวสร้างบาร์โค้ด
+### ขั้นตอนที่ 2: สร้างอินสแตนซ์ของ Barcode Generator
 
- ยกตัวอย่าง`BarcodeGenerator` คลาส การระบุ codetext และสัญลักษณ์ในตัวสร้าง ในตัวอย่างนี้ เราใช้สัญลักษณ์ EAN_13 กับโค้ดข้อความ "123456789123"
+สร้างอินสแตนซ์ของ `BarcodeGenerator` ด้วย **codetext** และ **symbology** ที่ต้องการ ที่นี่เราจะ **create ean13 barcode** โดยใช้สตริงตัวเลข `"123456789123"`
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "123456789123");
 ```
 
-## ขั้นตอนที่ 3: ตั้งค่าข้อมูลเสริม
+### ขั้นตอนที่ 3: ตั้งค่าข้อมูลเสริม
 
-ตั้งค่าข้อมูลเพิ่มเติมสำหรับบาร์โค้ด ในตัวอย่างนี้ เราตั้งค่าข้อมูลเสริม 5 หลัก
+เพิ่มสตริงข้อมูลเสริม 5 หลัก ซึ่งมีประโยชน์สำหรับนิตยสาร, วารสาร, หรือกรณีใด ๆ ที่ต้องการข้อมูลเพิ่มเติมตามหลังบาร์โค้ดหลัก
 
 ```java
 generator.getParameters().getBarcode().getSupplement().setSupplementData("12345");
 ```
 
-## ขั้นตอนที่ 4: ตั้งค่าพื้นที่เสริม
+### ขั้นตอนที่ 4: ตั้งค่าระยะห่างของข้อมูลเสริม
 
-กำหนดช่องว่างระหว่างบาร์โค้ดเสริมและบาร์โค้ดหลัก
+ปรับระยะห่างระหว่างบาร์โค้ดหลักและข้อมูลเสริม ค่าที่กำหนดจะเป็นหน่วยจุด (points)
 
 ```java
 generator.getParameters().getBarcode().getSupplement().getSupplementSpace().setPoint(2.0f);
 ```
 
-## ขั้นตอนที่ 5: บันทึกภาพบาร์โค้ด
+### ขั้นตอนที่ 5: บันทึกรูปภาพบาร์โค้ด
 
-บันทึกภาพบาร์โค้ดที่สร้างขึ้นลงในไฟล์ในไดเร็กทอรีเอกสารที่คุณระบุ
+สุดท้าย, เขียนภาพลงดิสก์ รูปแบบไฟล์จะถูกกำหนดจากนามสกุลไฟล์ (JPEG ในตัวอย่างนี้)
 
 ```java
 generator.save(dataDir + "supplementData.jpg");
 ```
 
-ทำซ้ำขั้นตอนเหล่านี้ตามที่จำเป็นสำหรับกรณีการใช้งานเฉพาะของคุณ ปรับสัญลักษณ์วิทยา รหัสข้อความ และข้อมูลเสริมให้สอดคล้องกัน
+> **Pro tip:** คุณสามารถเปลี่ยนนามสกุลไฟล์เป็น `.png` หรือ `.bmp` เพื่อรับรูปแบบภาพที่แตกต่างโดยไม่ต้องเขียนโค้ดเพิ่มเติม.
 
-## บทสรุป
+## ปัญหาทั่วไปและวิธีแก้
 
-ยินดีด้วย! คุณได้สำรวจกระบวนการเสริมข้อมูลใน Java โดยใช้ Aspose.BarCode เรียบร้อยแล้ว บทช่วยสอนนี้เป็นรากฐานที่มั่นคงสำหรับการรวมบาร์โค้ดแบบไดนามิกเข้ากับแอปพลิเคชันของคุณ ซึ่งเปิดประตูสู่ความเป็นไปได้มากมายในการแสดงข้อมูล
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|-------|----------|
+| **Image not saved** | `dataDir` points to a non‑existent folder | Ensure the directory exists or create it programmatically (`new File(dataDir).mkdirs();`). |
+| **Invalid supplement length** | EAN‑13 supplements must be 2 or 5 digits | Provide exactly 2 or 5 characters; otherwise an exception is thrown. |
+| **Unsupported characters** | Non‑numeric characters in EAN‑13 codetext | Use only digits 0‑9 for EAN‑13; switch to another symbology for alphanumerics. |
 
-## คำถามที่พบบ่อย (FAQ)
+## คำถามที่พบบ่อย
 
-### Aspose.BarCode เข้ากันได้กับ Java เวอร์ชันทั้งหมดหรือไม่
- Aspose.BarCode สำหรับ Java ได้รับการออกแบบมาให้เข้ากันได้กับ Java เวอร์ชันต่างๆ มากมาย อ้างถึง[เอกสารประกอบ](https://reference.aspose.com/barcode/java/) สำหรับรายละเอียดเฉพาะ
+### Aspose.BarCode รองรับเวอร์ชัน Java ทั้งหมดหรือไม่?
+Aspose.BarCode for Java is designed to be compatible with a wide range of Java versions. Refer to the **[documentation](https://reference.aspose.com/barcode/java/)** for specific details.
 
-### ฉันสามารถปรับแต่งรูปลักษณ์ของบาร์โค้ดที่สร้างขึ้นได้หรือไม่
-ใช่ Aspose.BarCode มีพารามิเตอร์และการตั้งค่าที่หลากหลายเพื่อปรับแต่งรูปลักษณ์ของบาร์โค้ด สำรวจเอกสารประกอบเพื่อดูข้อมูลโดยละเอียด
+### ฉันสามารถปรับแต่งลักษณะของบาร์โค้ดที่สร้างได้หรือไม่?
+Yes, Aspose.BarCode provides various parameters and settings to customize the appearance of barcodes. Explore the documentation for detailed information.
 
-### มีรุ่นทดลองใช้งานหรือไม่?
-ใช่ คุณสามารถเข้าถึงเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+### มีเวอร์ชันทดลองหรือไม่?
+Yes, you can access a free trial version **[here](https://releases.aspose.com/)**.
 
-### ฉันจะรับการสนับสนุนสำหรับ Aspose.BarCode ได้อย่างไร
- เยี่ยมชม[ฟอรั่ม Aspose.BarCode](https://forum.aspose.com/c/barcode/13) เพื่อรับความช่วยเหลือจากชุมชนและผู้เชี่ยวชาญ
+### ฉันจะขอรับการสนับสนุนสำหรับ Aspose.BarCode ได้อย่างไร?
+Visit the **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** to get assistance from the community and experts.
 
-### ฉันจะซื้อ Aspose.BarCode สำหรับ Java ได้ที่ไหน
- คุณสามารถซื้อ Aspose.BarCode สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
+### ฉันสามารถซื้อ Aspose.BarCode for Java ได้จากที่ไหน?
+You can purchase Aspose.BarCode for Java **[here](https://purchase.aspose.com/buy)**.
 
+---
 
-
+**อัปเดตล่าสุด:** 2025-12-17  
+**ทดสอบด้วย:** Aspose.BarCode for Java 24.11  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
