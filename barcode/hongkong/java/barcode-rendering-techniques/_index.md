@@ -111,15 +111,15 @@ A: 此函式庫相容於 Java 8 至 Java 17。
 ## 結論
 Aspose.BarCode for Java 讓在各種情境下**建立條碼圖形**變得簡單——無論是圖形物件、影像檔案、印表機或 Web Servlet。透過上述逐步教學，您可以快速為任何 Java 應用程式加入可靠且高品質的條碼。探索連結的教學以深入了解，立即開始整合條碼吧！
 
+---
+
+**最後更新：** 2025-12-17  
+**測試環境：** Aspose.BarCode for Java（最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-17  
-**測試環境：** Aspose.BarCode for Java（最新版本）  
-**作者：** Aspose

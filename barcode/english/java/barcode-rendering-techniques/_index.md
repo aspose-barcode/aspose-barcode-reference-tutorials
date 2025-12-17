@@ -109,17 +109,15 @@ A: The library works with Java 8 through Java 17.
 ## Conclusion
 Aspose.BarCode for Java makes it straightforward to **create barcode graphics** across a wide range of scenarios—from graphics objects and image files to printers and web servlets. By following the step‑by‑step tutorials above, you can quickly add reliable, high‑quality barcodes to any Java application. Explore the linked tutorials for deeper dives, and start integrating barcodes today!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.BarCode for Java (latest release)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

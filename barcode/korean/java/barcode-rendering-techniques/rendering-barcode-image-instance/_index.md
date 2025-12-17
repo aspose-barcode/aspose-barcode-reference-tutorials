@@ -102,15 +102,15 @@ Image image = bb.generateBarCodeImage();
 ### 임시 라이선스 옵션이 있나요?
 네, 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 발급받을 수 있습니다.
 
+---
+
+**마지막 업데이트:** 2025-12-17  
+**테스트 환경:** Aspose.BarCode for Java 24.12 (최신)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-17  
-**테스트 환경:** Aspose.BarCode for Java 24.12 (최신)  
-**작성자:** Aspose

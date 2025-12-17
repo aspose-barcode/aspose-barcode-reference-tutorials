@@ -101,15 +101,15 @@ Image image = bb.generateBarCodeImage();
 ### 是否提供臨時授權選項？
 是的，您可在此取得臨時授權 [here](https://purchase.aspose.com/temporary-license/)。
 
+---
+
+**最後更新：** 2025-12-17  
+**測試環境：** Aspose.BarCode for Java 24.12 (latest)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-17  
-**測試環境：** Aspose.BarCode for Java 24.12 (latest)  
-**作者：** Aspose

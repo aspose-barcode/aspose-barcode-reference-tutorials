@@ -103,15 +103,15 @@ Image image = bb.generateBarCodeImage();
 ### Υπάρχει επιλογή προσωρινής άδειας;
 Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-17  
+**Δοκιμή με:** Aspose.BarCode για Java 24.12 (τελευταία)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-17  
-**Δοκιμή με:** Aspose.BarCode για Java 24.12 (τελευταία)  
-**Συγγραφέας:** Aspose

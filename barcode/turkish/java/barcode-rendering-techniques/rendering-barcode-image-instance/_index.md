@@ -102,15 +102,15 @@ Lisansı [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 ### Geçici lisans seçeneği mevcut mu?
 Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
+---
+
+**Son Güncelleme:** 2025-12-17  
+**Test Edilen Versiyon:** Aspose.BarCode for Java 24.12 (latest)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-17  
-**Test Edilen Versiyon:** Aspose.BarCode for Java 24.12 (latest)  
-**Yazar:** Aspose

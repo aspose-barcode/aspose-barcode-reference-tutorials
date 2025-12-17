@@ -102,15 +102,15 @@ Du kan köpa en licens [here](https://purchase.aspose.com/buy).
 ### Finns det ett tillfälligt licensalternativ?
 Ja, du kan skaffa en tillfällig licens [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Senast uppdaterad:** 2025-12-17  
+**Testad med:** Aspose.BarCode för Java 24.12 (senaste)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-17  
-**Testad med:** Aspose.BarCode för Java 24.12 (senaste)  
-**Författare:** Aspose

@@ -111,15 +111,15 @@ O: Biblioteka działa z Java 8 do Java 17.
 ## Zakończenie
 Aspose.BarCode for Java umożliwia łatwe **tworzenie grafiki kodów kreskowych** w szerokim zakresie scenariuszy — od obiektów graficznych i plików obrazów po drukarki i servlety webowe. Korzystając z powyższych samouczków krok po kroku, szybko dodasz niezawodne, wysokiej jakości kody kreskowe do dowolnej aplikacji Java. Zapoznaj się z powiązanymi samouczkami, aby zgłębić temat, i rozpocznij integrację kodów kreskowych już dziś!
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-17  
+**Testowano z:** Aspose.BarCode for Java (latest release)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-17  
-**Testowano z:** Aspose.BarCode for Java (latest release)  
-**Autor:** Aspose

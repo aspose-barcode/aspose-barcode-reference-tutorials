@@ -102,15 +102,15 @@ Bạn có thể mua giấy phép [tại đây](https://purchase.aspose.com/buy).
 ### Có tùy chọn giấy phép tạm thời không?
 Có, bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
-**Author:** Aspose

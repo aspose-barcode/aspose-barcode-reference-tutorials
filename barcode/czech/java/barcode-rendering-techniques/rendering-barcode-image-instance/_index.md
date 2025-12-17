@@ -102,15 +102,15 @@ Licenci si můžete zakoupit [zde](https://purchase.aspose.com/buy).
 ### Je k dispozici dočasná licence?
 Ano, dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Poslední aktualizace:** 2025-12-17  
+**Testováno s:** Aspose.BarCode for Java 24.12 (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-17  
-**Testováno s:** Aspose.BarCode for Java 24.12 (latest)  
-**Autor:** Aspose

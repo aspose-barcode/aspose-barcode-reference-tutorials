@@ -111,15 +111,15 @@ A: The library works with Java 8 through Java 17.
 ## Slutsats
 Aspose.BarCode for Java gör det enkelt att **skapa streckkodsgrafik** i ett brett spektrum av scenarier—från grafikobjekt och bildfiler till skrivare och webb‑servlets. Genom att följa steg‑för‑steg‑tutorialerna ovan kan du snabbt lägga till pålitliga, högkvalitativa streckkoder i vilken Java‑applikation som helst. Utforska de länkade tutorialerna för djupare insikter, och börja integrera streckkoder redan idag!
 
+---
+
+**Senast uppdaterad:** 2025-12-17  
+**Testad med:** Aspose.BarCode for Java (latest release)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-17  
-**Testad med:** Aspose.BarCode for Java (latest release)  
-**Författare:** Aspose

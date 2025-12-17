@@ -110,17 +110,15 @@ A: The library works with Java 8 through Java 17.
 ## 结论
 Aspose.BarCode for Java 使 **创建条形码图形** 变得轻而易举，涵盖从图形对象、图像文件到打印机和 Web Servlet 的广泛场景。通过遵循上述逐步教程，您可以快速为任何 Java 应用程序添加可靠、高质量的条形码。深入阅读链接的教程以获取更详细的内容，立即开始集成条形码吧！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新:** 2025-12-17  
 **已测试于:** Aspose.BarCode for Java (latest release)  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

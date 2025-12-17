@@ -102,15 +102,15 @@ Image image = bb.generateBarCodeImage();
 ### هل هناك خيار ترخيص مؤقت متاح؟
 نعم، يمكنك الحصول على ترخيص مؤقت [من هنا](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**آخر تحديث:** 2025-12-17  
+**تم الاختبار مع:** Aspose.BarCode for Java 24.12 (latest)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-17  
-**تم الاختبار مع:** Aspose.BarCode for Java 24.12 (latest)  
-**المؤلف:** Aspose

@@ -101,15 +101,15 @@ Puoi acquistare una licenza [qui](https://purchase.aspose.com/buy).
 ### È disponibile un'opzione di licenza temporanea?
 Sì, puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Ultimo aggiornamento:** 2025-12-17  
+**Testato con:** Aspose.BarCode for Java 24.12 (latest)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-17  
-**Testato con:** Aspose.BarCode for Java 24.12 (latest)  
-**Autore:** Aspose

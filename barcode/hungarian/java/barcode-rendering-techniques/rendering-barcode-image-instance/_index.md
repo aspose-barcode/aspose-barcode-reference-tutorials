@@ -102,15 +102,15 @@ Licencet vásárolhat [itt](https://purchase.aspose.com/buy).
 ### Van elérhető ideiglenes licenc opció?
 Igen, ideiglenes licencet kaphat [itt](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
-**Author:** Aspose

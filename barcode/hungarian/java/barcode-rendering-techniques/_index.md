@@ -110,15 +110,15 @@ A: A könyvtár a Java 8‑tól a Java 17‑ig működik.
 ## Következtetés
 Az Aspose.BarCode for Java egyszerűvé teszi a **vonalkód grafika létrehozását** számos helyzetben—grafikai objektumoktól és képfájloktól a nyomtatókig és web szervletekig. A fenti lépésről‑lépésre útmutatók követésével gyorsan hozzáadhat megbízható, magas minőségű vonalkódokat bármely Java alkalmazáshoz. Fedezze fel a hivatkozott útmutatókat a mélyebb ismeretekért, és kezdje el még ma a vonalkódok integrálását!
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.BarCode for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.BarCode for Java (latest release)  
-**Author:** Aspose

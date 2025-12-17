@@ -110,17 +110,15 @@ A: Thư viện hoạt động với Java 8 đến Java 17.
 ## Kết luận
 Aspose.BarCode for Java giúp bạn **tạo đồ họa mã vạch** một cách đơn giản trong nhiều kịch bản—from đối tượng đồ họa và file ảnh tới máy in và servlet web. Bằng cách làm theo các hướng dẫn chi tiết ở trên, bạn có thể nhanh chóng thêm các mã vạch chất lượng cao, đáng tin cậy vào bất kỳ ứng dụng Java nào. Khám phá các tutorial được liên kết để tìm hiểu sâu hơn, và bắt đầu tích hợp mã vạch ngay hôm nay!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.BarCode for Java (latest release)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

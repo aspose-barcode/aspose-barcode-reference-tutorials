@@ -109,17 +109,15 @@ A: ライブラリは Java 8 から Java 17 まで動作します。
 ## 結論
 Aspose.BarCode for Java を使用すれば、グラフィックオブジェクト、画像ファイル、プリンター、Web サーブレットといった幅広いシナリオで **バーコードグラフィックを簡単に作成** できます。上記のステップバイステップチュートリアルに従えば、どの Java アプリケーションにも信頼性の高い高品質バーコードをすぐに組み込めます。リンクされたチュートリアルでさらに深く学び、今日からバーコード統合を始めましょう！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-17  
 **テスト環境:** Aspose.BarCode for Java（最新リリース）  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

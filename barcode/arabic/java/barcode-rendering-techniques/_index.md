@@ -110,15 +110,15 @@ weight: 28
 ## الخلاصة
 تجعل Aspose.BarCode for Java من السهل **إنشاء رسومات الباركود** عبر مجموعة واسعة من السيناريوهات—من كائنات الرسومات وملفات الصور إلى الطابعات وServlets الويب. باتباع الدروس خطوة بخطوة أعلاه، يمكنك إضافة باركود موثوق وعالي الجودة إلى أي تطبيق Java بسرعة. استكشف الدروس المرتبطة لمزيد من التفاصيل، وابدأ في دمج الباركود اليوم!
 
+---
+
+**آخر تحديث:** 2025-12-17  
+**تم الاختبار مع:** Aspose.BarCode for Java (latest release)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-17  
-**تم الاختبار مع:** Aspose.BarCode for Java (latest release)  
-**المؤلف:** Aspose

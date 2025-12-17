@@ -111,17 +111,15 @@ R: La biblioteca funciona con Java 8 hasta Java 17.
 ## Conclusión
 Aspose.BarCode for Java facilita **crear gráficos de códigos de barras** en una amplia gama de escenarios—desde objetos gráficos e imágenes hasta impresoras y servlets web. Siguiendo los tutoriales paso a paso anteriores, puedes añadir rápidamente códigos de barras fiables y de alta calidad a cualquier aplicación Java. Explora los tutoriales vinculados para profundizar y comienza a integrar códigos de barras hoy mismo!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-17  
 **Probado con:** Aspose.BarCode for Java (última versión)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

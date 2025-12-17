@@ -106,15 +106,15 @@ Image image = bb.generateBarCodeImage();
 
 はい、一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) で取得できます。
 
+---
+
+**最終更新日:** 2025-12-17  
+**テスト環境:** Aspose.BarCode for Java 24.12 (latest)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-17  
-**テスト環境:** Aspose.BarCode for Java 24.12 (latest)  
-**作者:** Aspose

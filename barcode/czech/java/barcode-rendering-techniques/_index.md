@@ -111,15 +111,15 @@ A: Knihovna funguje s Java 8 až Java 17.
 ## Závěr
 Aspose.BarCode for Java usnadňuje **vytvoření grafiky čárových kódů** v široké škále scénářů — od grafických objektů a souborů obrázků po tiskárny a webové servlety. Dodržením výše uvedených krok‑za‑krokem tutoriálů můžete rychle přidat spolehlivé, vysoce kvalitní čárové kódy do jakékoli Java aplikace. Prohlédněte si odkazované tutoriály pro podrobnější informace a začněte integrovat čárové kódy ještě dnes!
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.BarCode for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.BarCode for Java (latest release)  
-**Author:** Aspose

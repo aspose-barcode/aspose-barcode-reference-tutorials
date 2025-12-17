@@ -102,15 +102,15 @@ Image image = bb.generateBarCodeImage();
 ### क्या कोई टेम्पररी लाइसेंस विकल्प उपलब्ध है?
 हाँ, आप टेम्पररी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
+---
+
+**अंतिम अपडेट:** 2025-12-17  
+**टेस्टेड विथ:** Aspose.BarCode for Java 24.12 (latest)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-17  
-**टेस्टेड विथ:** Aspose.BarCode for Java 24.12 (latest)  
-**लेखक:** Aspose
