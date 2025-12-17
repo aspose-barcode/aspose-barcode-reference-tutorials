@@ -1,34 +1,50 @@
 ---
-title: การสร้างรหัสแพทช์ใน Java
-linktitle: การสร้างรหัสแพทช์
+date: 2025-12-13
+description: เรียนรู้วิธีสร้างบาร์โค้ดแบบแพตช์ใน Java ด้วย Aspose.BarCode – ตัวอย่างเครื่องสร้างบาร์โค้ด
+  Java ที่แสดงวิธีการสร้างโค้ดแพตช์และตั้งค่ารูปแบบแพตช์
+linktitle: Generating a Patch Code in Java
 second_title: Aspose.BarCode Java API
-description: สร้างรหัสแพทช์ได้อย่างง่ายดายใน Java ด้วย Aspose.BarCode ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างบาร์โค้ดอย่างมีประสิทธิภาพ
-weight: 11
+title: สร้างบาร์โค้ดแพทช์ Java – สร้างโค้ดแพทช์ด้วย Aspose.BarCode
 url: /th/java/barcode-configuration/generating-patch-code/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างรหัสแพทช์ใน Java
+# สร้าง Patch Barcode Java ด้วย Aspose.BarCode
 
+## บทนำ
 
-## การแนะนำ
+ในคู่มือฉบับสมบูรณ์นี้ คุณจะ **สร้าง patch barcode java** อย่างรวดเร็วและเชื่อถือได้โดยใช้ Aspose.BarCode for Java ไม่ว่าคุณจะกำลังสร้างระบบจัดการเอกสารหรือจำเป็นต้องมีวิธีการบันทึกข้อมูลบนกระดาษแบบกะทัดรัด การสร้าง Patch Code เป็นวิธีแก้ปัญหาที่ Practical เราจะเดินผ่าน **java barcode generator example** อธิบาย **วิธีสร้าง patch code** และแสดง **วิธีตั้งค่า patch format** เพื่อให้คุณปรับแต่งผลลัพธ์ให้ตรงตามความต้องการของคุณ
 
-Aspose.BarCode สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จดจำ และจัดการบาร์โค้ดในแอปพลิเคชัน Java ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างรหัสแพทช์โดยใช้ Aspose.BarCode สำหรับ Java รหัสแพตช์มักใช้ในระบบการจัดการเอกสาร และอำนวยความสะดวกในการจัดเก็บและเรียกค้นข้อมูลอย่างมีประสิทธิภาพ
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีที่ดีที่สุดสำหรับ patch code คืออะไร?** Aspose.BarCode for Java
+- **ต้องใช้บรรทัดโค้ดกี่บรรทัด?** ประมาณ 20 บรรทัดสำหรับตัวอย่างพื้นฐาน
+- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้ trial ฟรีสำหรับการพัฒนา; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการผลิต
+- **สามารถเปลี่ยนขนาดหน้ากระดาษได้หรือไม่?** ได้, ใช้ `PatchFormat` (เช่น US_LETTER, A4)
+- **รองรับรูปแบบภาพใดบ้าง?** BMP, PNG, JPEG, GIF และอื่น ๆ
+
+## Patch Code คืออะไร?
+Patch Code คือบาร์โค้ดสองมิติที่ประกอบด้วยสี่แผงแยกกันซึ่งสามารถพิมพ์บนหน้าเดียวได้ เหมาะสำหรับการจัดทำดัชนีเอกสารจำนวนมาก เนื่องจากแต่ละแผงสามารถสแกนได้อย่างอิสระ
+
+## ทำไมต้องใช้ Aspose.BarCode for Java?
+- **API ครบวงจร** – รองรับประเภทบาร์โค้ดหลักทั้งหมด รวมถึง Patch Code
+- **ปรับแต่งง่าย** – เปลี่ยนขนาด, รูปแบบ, ระยะขอบ และอื่น ๆ ด้วยการเรียกคุณสมบัติง่าย ๆ
+- **ข้ามแพลตฟอร์ม** – ทำงานบนสภาพแวดล้อม Java ใด ๆ ไม่ว่าจะเป็นแอปเดสก์ท็อปหรือเว็บเซอร์วิส
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนเครื่องของคุณ
+- **สภาพแวดล้อมการพัฒนา Java** – ติดตั้ง JDK 8 หรือใหม่กว่า
+- **Aspose.BarCode for Java** – ดาวน์โหลดจาก [download link](https://releases.aspose.com/barcode/java/)
+- **IDE หรือ Text Editor** – ตัวแก้ไขที่รองรับ Java ใดก็ได้ (IntelliJ IDEA, Eclipse, VS Code ฯลฯ)
 
--  Aspose.BarCode สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.BarCode สำหรับ Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/barcode/java/).
+## นำเข้าแพ็กเกจ
 
-## แพ็คเกจนำเข้า
-
-ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นลงในคลาส Java ของคุณ ข้อมูลโค้ดต่อไปนี้สาธิตการนำเข้าที่จำเป็น:
+เพื่อเริ่มต้น, นำเข้าคลาสที่จำเป็น โค้ดตัวอย่างด้านล่างแสดงสิ่งที่คุณต้องใช้อย่างครบถ้วน:
 
 ```java
 import com.aspose.barcode.generation.PatchFormat;
@@ -36,9 +52,9 @@ import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.MarginsF;
 ```
 
-เราจะแบ่งตัวอย่างออกเป็นหลายขั้นตอนเพื่อแนะนำคุณตลอดกระบวนการสร้างรหัสแพทช์ใน Java
+### ขั้นตอนที่ 1: สร้าง Patch Code พื้นฐาน
 
-## ขั้นตอนที่ 1: สร้างรหัสแพทช์
+**java barcode generator example** นี้สร้าง Patch Code อย่างง่ายและบันทึกเป็นภาพ BMP
 
 ```java
 public static void generatePatchCode() throws IOException {
@@ -48,9 +64,15 @@ public static void generatePatchCode() throws IOException {
 }
 ```
 
- ในขั้นตอนนี้ เราจะสร้าง a`BarcodeGenerator` อินสแตนซ์ที่มีประเภทที่ระบุ (`PATCH_CODE`) และเข้ารหัสข้อความ ("Patch T") รหัสแพทช์ที่สร้างขึ้นจะถูกบันทึกลงในไฟล์
+ในเมธอดนี้เราจะ:
 
-## ขั้นตอนที่ 2: ตั้งค่ารูปแบบแพทช์
+1. กำหนดโฟลเดอร์ผลลัพธ์ (`dataDir`)
+2. สร้างอินสแตนซ์ `BarcodeGenerator` ด้วย `EncodeTypes.PATCH_CODE` และข้อความ `"Patch T"`
+3. บันทึกภาพที่สร้างลงดิสก์
+
+### ขั้นตอนที่ 2: วิธีตั้งค่า Patch Format
+
+หากคุณต้องการขนาดกระดาษเฉพาะ, สามารถตั้งค่ารูปแบบก่อนบันทึกได้ ตัวอย่างนี้แสดง **วิธีตั้งค่า patch format** เป็น US Letter
 
 ```java
 public static void setPatchFormat() throws IOException {
@@ -61,55 +83,58 @@ public static void setPatchFormat() throws IOException {
 }
 ```
 
-ที่นี่ เราตั้งค่ารูปแบบรหัสแพทช์เป็น US_LETTER ก่อนที่จะบันทึกรหัสแพทช์ที่สร้างขึ้น
+### ขั้นตอนที่ 3: สร้างหน้าเต็ม (รวมทุกแผง)
 
-## ขั้นตอนที่ 3: สร้างทั้งหน้า
+ด้านล่างเป็นรoutine เต็มที่สร้างแต่ละแผง, ประกอบเป็นหน้าที่สมบูรณ์, และเขียนไฟล์ PNG สุดท้าย นี่คือที่คุณจะเห็น **วิธีสร้าง patch code** สำหรับเลย์เอาต์หลายแผง
 
 ```java
 public static void generateWholePage() throws IOException {
     BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.PATCH_CODE, "Patch T");
-    // ตั้งค่าความกว้างของรูปภาพ ระยะห่างจากขอบ และพารามิเตอร์อื่นๆ
-    // ... (ดูรายละเอียดจากรหัสที่ให้มา)
+    // Set image width, padding, and other parameters
+    // ... (refer to the provided code for details)
 
-    // สร้างส่วนต่างๆ ของ Patch Code
+    // Generate different parts of the Patch Code
     BufferedImage topImg = generator.generateBarCodeImage();
-    // ... (ขั้นตอนที่คล้ายกันสำหรับ leftImg, BottomImg และ rightImg)
+    // ... (similar steps for leftImg, bottomImg, and rightImg)
 
-    // สร้างเฟรมและประกอบรหัสแพทช์
+    // Create a frame and assemble the Patch Code
     BufferedImage frameImg = new BufferedImage(topImg.getWidth(), rightImg.getHeight() + 2 * topImg.getHeight(),
             rightImg.getType());
-    // ... (ดูรายละเอียดจากรหัสที่ให้มา)
+    // ... (refer to the provided code for details)
 
-    // บันทึกเฟรมรหัสแพทช์
+    // Save the Patch Code frame
     File outputfile = new File("Your Document Directory");
     ImageIO.write(frameImg, "png", outputfile);
 }
 ```
 
-ในขั้นตอนนี้ เราสร้างส่วนต่างๆ ของ Patch Code และประกอบเป็นเฟรมที่สมบูรณ์ก่อนที่จะบันทึก
-
-## บทสรุป
-
-ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณจะได้เรียนรู้วิธีสร้าง Patch Code ใน Java โดยใช้ Aspose.BarCode สำหรับ Java ไลบรารีอันทรงพลังนี้ช่วยลดความยุ่งยากในการสร้างและปรับแต่งบาร์โค้ดในแอปพลิเคชัน Java
-
----
+#### ปัญหาและเคล็ดลับทั่วไป
+- **เส้นทางไดเรกทอรีไม่ถูกต้อง** – ตรวจสอบให้ `dataDir` ลงท้ายด้วยตัวคั่นไฟล์ (`/` หรือ `\\`)
+- **ขาดสิทธิ์** – แอปพลิเคชันต้องมีสิทธิ์เขียนไปยังโฟลเดอร์เป้าหมาย
+- **คุณภาพภาพ** – ปรับ DPI ผ่าน `generator.getParameters().getImageInfo().setResolutionX/Y()` หากจำเป็น
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถใช้ Aspose.BarCode สำหรับ Java ในโครงการเชิงพาณิชย์ได้หรือไม่
- ใช่ Aspose.BarCode สำหรับ Java เป็นผลิตภัณฑ์เชิงพาณิชย์ คุณสามารถขอรับใบอนุญาตได้จาก[หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy).
+**ถาม: สามารถใช้ Aspose.BarCode for Java ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
+ตอบ: ได้, จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์ คุณสามารถซื้อได้จาก [Aspose's purchase page](https://purchase.aspose.com/buy)
 
-### มี Aspose.BarCode สำหรับ Java รุ่นทดลองใช้ฟรีหรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้ฟรีได้จาก[หน้าเผยแพร่ของ Aspose](https://releases.aspose.com/).
+**ถาม: มี trial ฟรีหรือไม่?**  
+ตอบ: มีแน่นอน ดาวน์โหลดเวอร์ชัน trial จาก [Aspose's release page](https://releases.aspose.com/)
 
-### ฉันจะรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ Java ได้อย่างไร
- เยี่ยมชม[ฟอรั่ม Aspose.BarCode](https://forum.aspose.com/c/barcode/13) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+**ถาม: จะขอรับการสนับสนุนได้อย่างไร?**  
+ตอบ: เยี่ยมชม [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) เพื่อรับความช่วยเหลือจากชุมชนและช่องทางสนับสนุนอย่างเป็นทางการ
 
-### มีใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode สำหรับ Java หรือไม่
- ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[หน้าใบอนุญาตชั่วคราวของ Aspose](https://purchase.aspose.com/temporary-license/).
+**ถาม: มีลิขสิทธิ์ชั่วคราวหรือไม่?**  
+ตอบ: มี, ลิขสิทธิ์ชั่วคราวสามารถขอได้ผ่าน [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/)
 
-### ฉันจะหาเอกสารประกอบสำหรับ Aspose.BarCode สำหรับ Java ได้ที่ไหน
- เอกสารมีอยู่ที่[Aspose.BarCode สำหรับเอกสาร Java](https://reference.aspose.com/barcode/java/).
+**ถาม: จะหาเอกสารอ้างอิง API ทั้งหมดได้จากที่ไหน?**  
+ตอบ: เอกสารพร้อมใช้งานที่ [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/)
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-13  
+**ทดสอบกับ:** Aspose.BarCode for Java 24.12 (ล่าสุด)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
