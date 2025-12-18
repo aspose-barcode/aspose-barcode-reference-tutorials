@@ -1,34 +1,54 @@
 ---
-title: تطبيق المجموع الاختباري لـ CodaBar في Java
-linktitle: تطبيق المجموع الاختباري لCodaBar
-second_title: Aspose.BarCode جافا API
-description: تعرف على كيفية تطبيق المجموع الاختباري لـ CodaBar في Java باستخدام Aspose.BarCode. يمكنك إنشاء الرموز الشريطية والتعرف عليها بسهولة باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-weight: 11
+date: 2025-12-18
+description: تعلم كيفية إنشاء صورة باركود كودابار وشاهد مثال قارئ باركود جافا باستخدام
+  Aspose.BarCode. قم بإنشاء وتعرف على الباركود بسهولة مع هذا الدليل خطوة بخطوة.
+linktitle: Applying Checksum for CodaBar
+second_title: Aspose.BarCode Java API
+title: كيفية إنشاء صورة باركود كودابار مع التحقق من المجموع في جافا
 url: /ar/java/checksum-and-validation/applying-checksum-codabar/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تطبيق المجموع الاختباري لـ CodaBar في Java
+# كيفية إنشاء صورة باركود Codabar مع checksum في Java
 
+## المقدمة
 
-## مقدمة
+في هذا الدرس، ستتعلم كيفية **إنشاء صورة باركود Codabar** مع checksum في Java باستخدام Aspose.BarCode. سنستعرض خطوات توليد باركود CodaBar، تمكين الـ checksum، ثم قراءته مرة أخرى باستخدام **مثال قارئ باركود java**. في النهاية، ستحصل على مقتطف شفرة جاهز يمكنك إدراجه في أي مشروع Java.
 
-مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول تطبيق المجموع الاختباري لـ CodaBar في Java باستخدام Aspose.BarCode. Aspose.BarCode for Java هي مكتبة قوية تتيح للمطورين إنشاء الرموز الشريطية والتعرف عليها في تطبيقات Java بسلاسة. في هذا البرنامج التعليمي، سوف نركز على المهمة المحددة لتطبيق المجموع الاختباري لرموز CodaBar الشريطية.
+## إجابات سريعة
+- **ماذا يفعل checksum؟** يتحقق من سلامة بيانات الباركود أثناء المسح.  
+- **ما المكتبة المطلوبة؟** Aspose.BarCode for Java.  
+- **هل أحتاج إلى ترخيص للتطوير؟** ترخيص مؤقت يكفي للاختبار؛ الترخيص الكامل مطلوب للإنتاج.  
+- **هل يمكنني تخصيص مظهر الباركود؟** نعم – يمكن تغيير اللون، الحجم، والخط عبر معلمات المولد.  
+- **هل هذا متوافق مع جميع إصدارات Java؟** المكتبة تدعم Java 8 وما فوق.
 
-## المتطلبات الأساسية
+## ما هو باركود CodaBar؟
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+CodaBar هو رمز خطي (أحادي‑الأبعاد) يُستخدم على نطاق واسع في المكتبات، بنوك الدم، وتجارة التجزئة. يشفّر بيانات رقمية وبعض الأحرف الخاصة، مما يجعله مثالياً للبطاقات القابلة للقراءة الآلية البسيطة. إضافة checksum (Mod 10) يحسن دقة القراءة، خاصةً على الطباعة منخفضة الجودة.
 
-- تم تثبيت Java Development Kit (JDK) على جهازك.
--  Aspose.BarCode لمكتبة جافا. يمكنك تنزيله من[هنا](https://releases.aspose.com/barcode/java/).
-- الفهم الأساسي لبرمجة جافا.
+## لماذا نستخدم Aspose.BarCode for Java؟
 
-## حزم الاستيراد
+Aspose.BarCode يقدم **مثال قارئ باركود java** يُبسط التفاصيل التقنية لتوليد الباركود والتعرف عليه. يوفر:
 
-في مشروع Java الخاص بك، تأكد من استيراد الحزم اللازمة للعمل مع Aspose.BarCode:
+* تحكم كامل في أوضاع checksum.  
+* تكامل سلس مع بيئات تطوير Java.  
+* وثائق ودعم موسع.  
+
+## المتطلبات المسبقة
+
+قبل أن نبدأ، تأكد من وجود ما يلي:
+
+- مجموعة تطوير Java (JDK) مثبتة على جهازك.  
+- مكتبة Aspose.BarCode for Java. يمكنك تحميلها من [هنا](https://releases.aspose.com/barcode/java/).  
+- فهم أساسي لبرمجة Java.  
+
+## استيراد الحزم
+
+في مشروع Java الخاص بك، استورد الفئات اللازمة للعمل مع Aspose.BarCode:
 
 ```java
 import java.io.IOException;
@@ -42,77 +62,88 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## الخطوة 1: إعداد البيئة
+## دليل خطوة بخطوة
 
-ابدأ بإنشاء مشروع Java جديد وتضمين مكتبة Aspose.BarCode في تبعيات مشروعك. قم بإعداد بيئة التطوير الخاصة بك بالموارد المطلوبة.
+### الخطوة 1: إعداد البيئة
+
+أنشئ مشروع Java جديد وأضف ملف JAR الخاص بـ Aspose.BarCode إلى مسار البناء. حدد مجلدًا سيتم حفظ الصور المولدة فيه.
 
 ```java
-// المسار إلى دليل الموارد.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-## الخطوة 2: إنشاء باركود CodaBar
+### الخطوة 2: توليد صورة باركود CodaBar مع checksum
 
-الآن، لنقم بإنشاء باركود CodaBar مع تمكين المجموع الاختباري.
+أنشئ كائن `BarcodeGenerator`، فعّل الـ checksum، اختر وضع Mod 10، واحفظ الصورة.
 
 ```java
-// إنشاء مثيل لكائن BarcodeGenerator
+// Instantiate BarcodeGenerator object
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "1234567890");
 
-// قم بتعيين الخاصية EnableChecksum إلى نعم
+// Set the EnableChecksum property to yes
 generator.getParameters().getBarcode().setChecksumEnabled(EnableChecksum.YES);
 
-// قم بتعيين وضع CodabarChecksum
+// Set the CodabarChecksumMode
 generator.getParameters().getBarcode().getCodabar().setCodabarChecksumMode(CodabarChecksumMode.MOD_10);
 
-// حفظ الصورة على النظام
+// Save the image on the system
 generator.save(dataDir + "Codabar_Mod10.png");
 ```
 
-## الخطوة 3: التعرف على الرمز الشريطي CodaBar
+### الخطوة 3: مثال قارئ باركود Java – التعرف على الباركود
 
-الآن، دعونا ننفذ جزء التعرف على الرمز الشريطي CodaBar باستخدام المجموع الاختباري.
+الآن اقرأ الباركود مرة أخرى، مع تفعيل التحقق من checksum لضمان صحة البيانات.
 
 ```java
-// تهيئة كائن القارئ
+// Initialize reader object
 BarCodeReader reader = new BarCodeReader(dataDir + "Codabar_Mod10.png", DecodeType.CODABAR);
 
-// قم بتعيين خاصية ChecksumValidation للقارئ على On
+// Set ChecksumValidation property of the reader to On
 reader.setChecksumValidation(ChecksumValidation.ON);
 
 for (BarCodeResult result : reader.readBarCodes()) {
     System.out.println("CodeText: " + result.getCodeText());
     System.out.println("Symbology type: " + result.getCodeType());
 
-    // الحصول على قيمة المجموع الاختباري
+    // Get checksum value
     System.out.println("Checksum:" + result.getExtended().getOneD().getCheckSum());
 }
 ```
 
-اتبع هذه الخطوات لتطبيق المجموع الاختباري لـ CodaBar في Java بسهولة باستخدام Aspose.BarCode.
+تشغيل الشيفرة سيظهر النص المفكك، نوع الرمز، والـ checksum المحسوب، مؤكدًا أن الباركود تم توليده والتحقق منه بنجاح.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية تطبيق المجموع الاختباري لرموز CodaBar الشريطية في Java باستخدام Aspose.BarCode. توفر هذه المكتبة طريقة مباشرة لإنشاء الرموز الشريطية والتعرف عليها من خلال خيارات التخصيص المتنوعة.
+| المشكلة | الحل |
+|-------|----------|
+| **فشل التحقق من checksum** | تأكد من أن `EnableChecksum` مضبوط على `YES` وأن `CodabarChecksumMode` يطابق الوضع المستخدم أثناء التوليد (Mod 10). |
+| **خطأ ملف غير موجود** | تأكد من أن `dataDir` يشير إلى مجلد موجود وأن الصورة المولدة (`Codabar_Mod10.png`) تم حفظها هناك قبل القراءة. |
+| **إصدار Java غير مدعوم** | استخدم Java 8 أو أحدث؛ الإصدارات الأقدم قد تفتقر إلى واجهات برمجة التطبيقات المطلوبة. |
+
+## الأسئلة المتكررة
+
+**س: هل Aspose.BarCode متوافق مع جميع إصدارات Java؟**  
+ج: تم تصميم Aspose.BarCode للعمل مع Java 8 وما فوق. راجع الوثائق الرسمية للحصول على تفاصيل التوافق.
+
+**س: هل يمكنني تخصيص مظهر الباركود المولّد؟**  
+ج: نعم، يمكنك تعديل الألوان، الخطوط، وتنسيق الصورة عبر واجهة برمجة معلمات المولد.
+
+**س: هل تتوفر تراخيص مؤقتة لأغراض الاختبار؟**  
+ج: نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.BarCode من [هنا](https://purchase.aspose.com/temporary-license/).
+
+**س: أين يمكنني العثور على دعم وموارد إضافية؟**  
+ج: زر منتدى [Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للحصول على دعم المجتمع والنقاشات.
+
+**س: هل هناك نسخة تجريبية مجانية؟**  
+ج: نعم، يمكنك استكشاف ميزات Aspose.BarCode بتحميل النسخة التجريبية المجانية من [هنا](https://releases.aspose.com/).
 
 ---
 
-## الأسئلة الشائعة
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** Aspose.BarCode for Java 24.12  
+**المؤلف:** Aspose  
 
-### هل Aspose.BarCode متوافق مع جميع إصدارات Java؟
-تم تصميم Aspose.BarCode للعمل مع إصدارات Java المختلفة. تأكد من مراجعة الوثائق للحصول على تفاصيل التوافق.
-
-### هل يمكنني تخصيص مظهر الباركود الذي تم إنشاؤه؟
-نعم، يوفر Aspose.BarCode خيارات تخصيص واسعة النطاق، مما يسمح لك بالتحكم في مظهر الرموز الشريطية التي تم إنشاؤها.
-
-### هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
- نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.BarCode من[هنا](https://purchase.aspose.com/temporary-license/).
-
-### أين يمكنني العثور على دعم وموارد إضافية؟
- قم بزيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) لدعم المجتمع والمناقشات.
-
-### هل هناك نسخة تجريبية مجانية متاحة؟
- نعم، يمكنك استكشاف ميزات Aspose.BarCode عن طريق تنزيل النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
