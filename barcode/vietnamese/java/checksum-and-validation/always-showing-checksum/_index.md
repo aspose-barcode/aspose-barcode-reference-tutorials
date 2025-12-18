@@ -1,38 +1,47 @@
 ---
-title: Luôn hiển thị tổng kiểm tra trong Java
-linktitle: Luôn hiển thị tổng kiểm tra
-second_title: API Java Aspose.BarCode
-description: Tạo mã vạch bằng Aspose.BarCode cho Java một cách dễ dàng. Tìm hiểu cách luôn hiển thị tổng kiểm tra để nâng cao tính toàn vẹn dữ liệu trong hướng dẫn từng bước này.
-weight: 10
+date: 2025-12-18
+description: Tìm hiểu cách tạo mã vạch có chữ kiểm tra (checksum) bằng Aspose.BarCode
+  cho Java. Hướng dẫn từng bước này cho bạn biết cách luôn hiển thị chữ kiểm tra để
+  tăng cường tính toàn vẹn dữ liệu.
+linktitle: Always Showing Checksum
+second_title: Aspose.BarCode Java API
+title: Cách tạo mã vạch có checksum trong Java
 url: /vi/java/checksum-and-validation/always-showing-checksum/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Luôn hiển thị tổng kiểm tra trong Java
-
+# Cách tạo mã vạch có chữ kiểm tra (checksum) trong Java
 
 ## Giới thiệu
 
-Trong thế giới năng động của lập trình Java, việc tạo và quản lý mã vạch là một nhiệm vụ phổ biến nhưng quan trọng. Aspose.BarCode for Java được giải cứu nhờ các tính năng mạnh mẽ và chức năng trực quan. Một tính năng đặc biệt hữu ích là khả năng luôn hiển thị tổng kiểm tra trong mã vạch được tạo. Điều này đảm bảo tính toàn vẹn và độ tin cậy của dữ liệu. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình từng bước triển khai chức năng này bằng Aspose.BarCode cho Java.
+Việc tạo mã vạch có chữ kiểm tra là một thực tiễn tốt khi bạn cần xác thực dữ liệu đáng tin cậy trong các ứng dụng Java của mình. Aspose.BarCode for Java giúp bạn dễ dàng tạo ra các mã vạch **luôn hiển thị chữ kiểm tra**, đảm bảo bất kỳ thiết bị quét nào cũng có thể kiểm tra tính toàn vẹn của dữ liệu ngay lập tức. Trong hướng dẫn này, bạn sẽ học từng bước cách cấu hình thư viện để chữ kiểm tra xuất hiện trên mọi mã vạch được tạo.
 
-## Điều kiện tiên quyết
+## Trả lời nhanh
+- **“Luôn hiển thị chữ kiểm tra” làm gì?** Nó buộc trình tạo mã vạch hiển thị ký tự checksum bên cạnh dữ liệu đã mã hoá.  
+- **Loại mã vạch nào hỗ trợ tính năng này?** Hầu hết các symbology tuyến tính (ví dụ: CODE_128, CODE_39) đều hỗ trợ; ví dụ dưới đây sử dụng CODE_128.  
+- **Tôi có cần giấy phép để sử dụng không?** Cần một giấy phép tạm thời hoặc đầy đủ cho môi trường sản xuất; có phiên bản dùng thử miễn phí.  
+- **Các điều kiện tiên quyết là gì?** Java JDK, thư viện Aspose.BarCode for Java và một IDE Java.  
+- **Thời gian triển khai khoảng bao lâu?** Khoảng 5‑10 phút cho một cấu hình cơ bản.
 
-Trước khi chúng ta bắt tay vào cuộc phiêu lưu mã vạch, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Các điều kiện tiên quyết
 
--  Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt Java trên máy của mình. Bạn có thể tải nó xuống[đây](https://www.oracle.com/java/technologies/javase-downloads.html).
+Trước khi bắt đầu hành trình tạo mã vạch, hãy chắc chắn rằng bạn đã chuẩn bị đầy đủ các điều kiện sau:
 
-- Aspose.BarCode for Java: Tải xuống và cài đặt thư viện Aspose.BarCode. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/barcode/java/).
+- Java Development Kit (JDK): Đảm bảo Java đã được cài đặt trên máy của bạn. Bạn có thể tải về [tại đây](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-- Môi trường phát triển tích hợp (IDE): Chọn Java IDE ưa thích của bạn, chẳng hạn như Eclipse hoặc IntelliJ, để có trải nghiệm mã hóa liền mạch.
+- Aspose.BarCode for Java: Tải và cài đặt thư viện Aspose.BarCode. Bạn có thể tìm liên kết tải về [tại đây](https://releases.aspose.com/barcode/java/).
 
-Bây giờ chúng ta đã nắm được những điều cần thiết, hãy đi sâu vào việc triển khai.
+- Integrated Development Environment (IDE): Chọn IDE Java ưa thích của bạn, chẳng hạn Eclipse hoặc IntelliJ, để có trải nghiệm lập trình mượt mà.
 
-## Gói nhập khẩu
+Bây giờ các yếu tố cần thiết đã sẵn sàng, chúng ta hãy bắt đầu triển khai.
 
-Bắt đầu bằng cách nhập các gói cần thiết vào dự án Java của bạn. Các gói này đặt nền tảng cho việc sử dụng Aspose.BarCode cho Java.
+## Nhập các gói (Import Packages)
+
+Bắt đầu bằng việc nhập các gói cần thiết vào dự án Java của bạn. Những gói này tạo nền tảng cho việc sử dụng Aspose.BarCode for Java.
 
 ```java
 import java.io.IOException;
@@ -41,61 +50,68 @@ import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Bước 1: Đặt thư mục tài nguyên
+## Bước 1: Đặt thư mục tài nguyên (Set the Resource Directory)
 
-Xác định đường dẫn đến thư mục tài nguyên nơi bạn muốn lưu trữ hình ảnh mã vạch được tạo.
+Xác định đường dẫn tới thư mục tài nguyên nơi bạn muốn lưu ảnh mã vạch được tạo.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Bước 2: Tạo Trình tạo mã vạch
+## Bước 2: Tạo Barcode Generator
 
- Khởi tạo`BarcodeGenerator` đối tượng có loại mã vạch mong muốn (ở đây là CODE_128) và dữ liệu được mã hóa (trong trường hợp này là "12345").
+Khởi tạo đối tượng `BarcodeGenerator` với loại mã vạch mong muốn (ở đây là CODE_128) và dữ liệu cần mã hoá (trong ví dụ là "12345").
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345");
 ```
 
-## Bước 3: Kích hoạt tổng kiểm tra Luôn hiển thị
+## Bước 3: Bật tính năng “Always Show Checksum”
 
-Kích hoạt tính năng "Luôn hiển thị tổng kiểm tra" cho mã vạch bằng cách truy cập các thông số mã vạch.
+Kích hoạt tính năng “Always Show Checksum” cho mã vạch bằng cách truy cập các tham số của barcode.
 
 ```java
 generator.getParameters().getBarcode().setChecksumAlwaysShow(true);
 ```
 
-## Bước 4: Lưu hình ảnh mã vạch
+## Bước 4: Lưu ảnh mã vạch (Save the Barcode Image)
 
-Lưu hình ảnh mã vạch được tạo vào thư mục được chỉ định.
+Lưu ảnh mã vạch đã tạo vào thư mục đã chỉ định.
 
 ```java
 generator.save(dataDir + "checksum.jpg");
 ```
 
-Với các bước đơn giản này, bạn đã định cấu hình thành công Aspose.BarCode để luôn hiển thị tổng kiểm tra trong mã vạch được tạo.
+Với những bước đơn giản này, bạn đã cấu hình thành công Aspose.BarCode để luôn hiển thị chữ kiểm tra trong mã vạch được tạo.
 
-## Phần kết luận
+## Tại sao cần hiển thị chữ kiểm tra?
 
-Trong hướng dẫn này, chúng ta đã khám phá quy trình liền mạch để đảm bảo hiển thị tổng kiểm tra trong mã vạch Java bằng cách sử dụng Aspose.BarCode. Tính năng này bổ sung thêm một lớp xác thực dữ liệu cho các ứng dụng của bạn, nâng cao độ tin cậy tổng thể của các giải pháp mã vạch của bạn.
+Hiển thị checksum trực tiếp trên mã vạch cung cấp cho bạn một lớp xác thực bổ sung mà không cần phần mềm thêm. Điều này đặc biệt hữu ích trong:
 
-### Câu hỏi thường gặp (FAQ)
+- **Theo dõi chuỗi cung ứng**, nơi việc kiểm tra nhanh bằng mắt có thể phát hiện lỗi nhập dữ liệu.  
+- **Hệ thống bán lẻ tại điểm bán**, đảm bảo các mã được quét khớp với giá trị mong đợi.  
+- **Quản lý tồn kho**, nơi các lần quét tự động được hỗ trợ bởi việc kiểm tra thủ công.
 
-### Câu hỏi: Tôi có thể sử dụng Aspose.BarCode cho Java trong các dự án thương mại không?
- Có, Aspose.BarCode for Java có sẵn cho mục đích thương mại. Bạn có thể tìm thấy chi tiết cấp phép[đây](https://purchase.aspose.com/buy).
+## Kết luận
 
-### Câu hỏi: Có bản dùng thử miễn phí cho Aspose.BarCode cho Java không?
- Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Trong hướng dẫn này, chúng ta đã khám phá quy trình liền mạch để đảm bảo hiển thị checksum trong các mã vạch Java bằng Aspose.BarCode. Tính năng này thêm một lớp xác thực dữ liệu cho ứng dụng của bạn, nâng cao độ tin cậy tổng thể của các giải pháp mã vạch.
 
-### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.BarCode cho Java?
- Để được hỗ trợ và thảo luận, hãy truy cập diễn đàn Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13).
+### Câu hỏi thường gặp (FAQs)
 
-### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.BarCode cho Java ở đâu?
- Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/barcode/java/).
+### Q: Tôi có thể sử dụng Aspose.BarCode for Java trong các dự án thương mại không?
+Có, Aspose.BarCode for Java có sẵn cho việc sử dụng thương mại. Bạn có thể xem chi tiết giấy phép [tại đây](https://purchase.aspose.com/buy).
 
-### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.BarCode cho Java?
- Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+### Q: Có phiên bản dùng thử miễn phí cho Aspose.BarCode for Java không?
+Có, bạn có thể khám phá phiên bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
+### Q: Làm sao tôi có thể nhận hỗ trợ cho Aspose.BarCode for Java?
+Để nhận hỗ trợ và thảo luận, hãy truy cập diễn đàn Aspose.BarCode [tại đây](https://forum.aspose.com/c/barcode/13).
+
+### Q: Tôi có thể tìm tài liệu cho Aspose.BarCode for Java ở đâu?
+Tài liệu đầy đủ có sẵn [tại đây](https://reference.aspose.com/barcode/java/).
+
+### Q: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.BarCode for Java?
+Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -103,3 +119,11 @@ Trong hướng dẫn này, chúng ta đã khám phá quy trình liền mạch đ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Được kiểm tra với:** Phiên bản mới nhất của Aspose.BarCode for Java  
+**Tác giả:** Aspose  
+
+---

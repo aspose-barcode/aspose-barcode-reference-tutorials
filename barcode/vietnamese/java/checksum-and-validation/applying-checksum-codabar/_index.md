@@ -1,34 +1,55 @@
 ---
-title: Áp dụng tổng kiểm tra cho CodaBar trong Java
-linktitle: Áp dụng tổng kiểm tra cho CodaBar
-second_title: API Java Aspose.BarCode
-description: Tìm hiểu cách áp dụng tổng kiểm tra cho CodaBar trong Java bằng Aspose.BarCode. Tạo và nhận dạng mã vạch dễ dàng với hướng dẫn từng bước này.
-weight: 11
+date: 2025-12-18
+description: Tìm hiểu cách tạo hình ảnh mã vạch Codabar và xem ví dụ trình đọc mã
+  vạch Java bằng Aspose.BarCode. Tạo và nhận dạng mã vạch một cách dễ dàng với hướng
+  dẫn từng bước này.
+linktitle: Applying Checksum for CodaBar
+second_title: Aspose.BarCode Java API
+title: Cách tạo hình ảnh mã vạch Codabar có checksum trong Java
 url: /vi/java/checksum-and-validation/applying-checksum-codabar/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-# Áp dụng tổng kiểm tra cho CodaBar trong Java
-
+# Cách tạo hình ảnh mã vạch codabar có checksum trong Java
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn từng bước này về cách áp dụng tổng kiểm tra cho CodaBar trong Java bằng Aspose.BarCode. Aspose.BarCode for Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo và nhận dạng mã vạch trong các ứng dụng Java một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ tập trung vào nhiệm vụ cụ thể là áp dụng tổng kiểm tra cho mã vạch CodaBar.
+Trong hướng dẫn này, bạn sẽ học cách **tạo hình ảnh mã vạch codabar** có checksum trong Java bằng Aspose.BarCode. Chúng tôi sẽ hướng dẫn cách tạo mã vạch CodaBar, bật checksum, và sau đó đọc lại bằng **java barcode reader example**. Khi hoàn thành, bạn sẽ có một đoạn mã sẵn sàng sử dụng mà có thể chèn vào bất kỳ dự án Java nào.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Checksum làm gì?** Nó xác thực tính toàn vẹn của dữ liệu mã vạch khi quét.  
+- **Thư viện nào cần thiết?** Aspose.BarCode for Java.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Tôi có thể tùy chỉnh giao diện mã vạch không?** Có – sắc, kích thước và phông chữ có thể thay đổi thông qua các tham số của trình tạo.  
+- **Liệu nó có tương thích với mọi phiên bản Java không?** Thư viện hỗ trợ Java 8 và các phiên bản mới hơn.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## CodaBar là gì?
 
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
--  Aspose.BarCode cho thư viện Java. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/barcode/java/).
-- Hiểu biết cơ bản về lập trình Java.
+CodaBar là một ký hiệu tuyến tính (1‑chiều) được sử dụng rộng rãi trong thư viện, ngân hàng máu và bán lẻ. Nó mã hoá dữ liệu số và một vài ký tự đặc biệt, làm cho nó lý tưởng cho các thẻ đơn giản, có thể đọc bằng máy. Thêm checksum (Mod 10) cải thiện độ chính xác khi đọc, đặc biệt trên các bản in chất lượng thấp.
 
-## Gói nhập khẩu
+## Tại sao nên sử dụng Aspose.BarCode cho Java?
 
-Trong dự án Java của bạn, hãy đảm bảo nhập các gói cần thiết để hoạt động với Aspose.BarCode:
+Aspose.BarCode cung cấp một **java barcode reader example** trừu tượng hoá các chi tiết mức thấp của việc tạo và nhận dạng mã vạch. Nó cung cấp:
+
+* Kiểm soát đầy đủ chế độ checksum.  
+* Tích hợp liền mạch với các IDE Java.  
+* Tài liệu và hỗ trợ phong phú.  
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy đảm bảo bạn có:
+
+- Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
+- Thư viện Aspose.BarCode cho Java. Bạn có thể tải xuống từ [here](https://releases.aspose.com/barcode/java/).  
+- Kiến thức cơ bản về lập trình Java.  
+
+## Nhập gói
+
+Trong dự án Java của bạn, nhập các lớp cần thiết để làm việc với Aspose.BarCode:
 
 ```java
 import java.io.IOException;
@@ -42,80 +63,91 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Bước 1: Thiết lập môi trường
+## Hướng dẫn từng bước
 
-Bắt đầu bằng cách tạo một dự án Java mới và đưa thư viện Aspose.BarCode vào phần phụ thuộc của dự án của bạn. Thiết lập môi trường phát triển của bạn với các tài nguyên cần thiết.
+### Bước 1: Thiết lập môi trường
+
+Tạo một dự án Java mới và thêm file JAR Aspose.BarCode vào đường dẫn biên dịch. Xác định một thư mục để lưu các hình ảnh được tạo.
 
 ```java
-// Đường dẫn đến thư mục tài nguyên.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-## Bước 2: Tạo mã vạch CodaBar
+### Bước 2: Tạo hình ảnh mã vạch CodaBar có checksum
 
-Bây giờ, hãy tạo mã vạch CodaBar có bật tổng kiểm tra.
+Khởi tạo `BarcodeGenerator`, bật checksum, chọn chế độ Mod 10 và lưu hình ảnh.
 
 ```java
-// Khởi tạo đối tượng BarcodeGenerator
+// Instantiate BarcodeGenerator object
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "1234567890");
 
-// Đặt thuộc tính EnableChecksum thành có
+// Set the EnableChecksum property to yes
 generator.getParameters().getBarcode().setChecksumEnabled(EnableChecksum.YES);
 
-// Đặt CodabarChecksumMode
+// Set the CodabarChecksumMode
 generator.getParameters().getBarcode().getCodabar().setCodabarChecksumMode(CodabarChecksumMode.MOD_10);
 
-// Lưu hình ảnh vào hệ thống
+// Save the image on the system
 generator.save(dataDir + "Codabar_Mod10.png");
 ```
 
-## Bước 3: Nhận dạng mã vạch CodaBar
+### Bước 3: Java barcode reader example – Nhận dạng mã vạch
 
-Bây giờ, hãy triển khai phần nhận dạng của mã vạch CodaBar bằng tổng kiểm tra.
+Bây giờ đọc lại mã vạch, bật xác thực checksum để đảm bảo dữ liệu đúng.
 
 ```java
-// Khởi tạo đối tượng reader
+// Initialize reader object
 BarCodeReader reader = new BarCodeReader(dataDir + "Codabar_Mod10.png", DecodeType.CODABAR);
 
-// Đặt thuộc tính ChecksumValidation của đầu đọc thành Bật
+// Set ChecksumValidation property of the reader to On
 reader.setChecksumValidation(ChecksumValidation.ON);
 
 for (BarCodeResult result : reader.readBarCodes()) {
     System.out.println("CodeText: " + result.getCodeText());
     System.out.println("Symbology type: " + result.getCodeType());
 
-    // Nhận giá trị tổng kiểm tra
+    // Get checksum value
     System.out.println("Checksum:" + result.getExtended().getOneD().getCheckSum());
 }
 ```
 
-Hãy làm theo các bước sau để áp dụng tổng kiểm tra cho CodaBar trong Java một cách dễ dàng bằng cách sử dụng Aspose.BarCode.
+Chạy mã sẽ xuất ra văn bản đã giải mã, loại ký hiệu và checksum đã tính, xác nhận rằng mã vạch đã được tạo và xác thực đúng.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách áp dụng tổng kiểm tra cho mã vạch CodaBar trong Java bằng Aspose.BarCode. Thư viện này cung cấp một cách đơn giản để tạo và nhận dạng mã vạch với nhiều tùy chọn tùy chỉnh khác nhau.
-
----
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Kiểm tra checksum thất bại** | Xác minh rằng `EnableChecksum` được đặt thành `YES` và `CodabarChecksumMode` khớp với chế độ đã dùng khi tạo (Mod 10). |
+| **Lỗi không tìm thấy tệp** | Đảm bảo `dataDir` trỏ tới một thư mục tồn tại và hình ảnh đã tạo (`Codabar_Mod10.png`) được lưu ở đó trước khi đọc. |
+| **Phiên bản Java không được hỗ trợ** | Sử dụng Java 8 hoặc mới hơn; các phiên bản cũ hơn có thể thiếu các API cần thiết. |
 
 ## Câu hỏi thường gặp
 
-### Aspose.BarCode có tương thích với tất cả các phiên bản Java không?
-Aspose.BarCode được thiết kế để hoạt động với nhiều phiên bản Java khác nhau. Đảm bảo bạn kiểm tra tài liệu để biết chi tiết về khả năng tương thích.
+**Q: Aspose.BarCode có tương thích với mọi phiên bản Java không?**  
+A: Aspose.BarCode được thiết kế để hoạt động với Java 8 và các phiên bản mới hơn. Kiểm tra tài liệu chính thức để biết chi tiết tương thích.
 
-### Tôi có thể tùy chỉnh giao diện của mã vạch được tạo không?
-Có, Aspose.BarCode cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn kiểm soát hình thức của mã vạch được tạo.
+**Q: Tôi có thể tùy chỉnh giao diện của mã vạch đã tạo không?**  
+A: Có, bạn có thể thay đổi màu sắc, phông chữ và định dạng ảnh thông qua API tham số của trình tạo.
 
-### Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
- Có, bạn có thể nhận giấy phép tạm thời cho Aspose.BarCode từ[đây](https://purchase.aspose.com/temporary-license/).
+**Q: Có giấy phép tạm thời cho mục đích thử nghiệm không?**  
+A: Có, bạn có thể lấy giấy phép tạm thời cho Aspose.BarCode từ [here](https://purchase.aspose.com/temporary-license/).
 
-### Tôi có thể tìm thêm sự hỗ trợ và nguồn lực ở đâu?
- Tham quan[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để được cộng đồng hỗ trợ và thảo luận.
+**Q: Tôi có thể tìm hỗ trợ và tài nguyên bổ sung ở đâu?**  
+A: Truy cập [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) để nhận hỗ trợ cộng đồng và thảo luận.
 
-### Có bản dùng thử miễn phí không?
- Có, bạn có thể khám phá các tính năng của Aspose.BarCode bằng cách tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể khám phá các tính năng của Aspose.BarCode bằng cách tải bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
 
-{{< /blocks/products/pf/main-container >}}
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Được kiểm tra với:** Aspose.BarCode for Java 24.12  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}

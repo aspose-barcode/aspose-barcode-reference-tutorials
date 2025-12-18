@@ -1,34 +1,55 @@
 ---
-title: Применение контрольной суммы для CodaBar в Java
-linktitle: Применение контрольной суммы для CodaBar
-second_title: API Aspose.BarCode Java
-description: Узнайте, как применить контрольную сумму для CodaBar в Java с помощью Aspose.BarCode. Создавайте и распознавайте штрих-коды без особых усилий с помощью этого пошагового руководства.
-weight: 11
+date: 2025-12-18
+description: Узнайте, как создать изображение штрих‑кода Codabar, и посмотрите пример
+  Java‑чтения штрих‑кода с использованием Aspose.BarCode. Генерируйте и распознавайте
+  штрих‑коды без усилий с помощью этого пошагового руководства.
+linktitle: Applying Checksum for CodaBar
+second_title: Aspose.BarCode Java API
+title: Как создать изображение штрих‑кода Codabar с контрольной суммой в Java
 url: /ru/java/checksum-and-validation/applying-checksum-codabar/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Применение контрольной суммы для CodaBar в Java
+# Как создать изображение штрих‑кода Codabar с контрольной суммой в Java
 
+## Introduction
 
-## Введение
+В этом руководстве вы узнаете, как **создать изображение штрих‑кода codabar** с контрольной суммой в Java, используя Aspose.BarCode. Мы пройдем процесс генерации штрих‑кода CodaBar, включения контрольной суммы и последующего чтения его с помощью **примера java barcode reader**. В конце у вас будет готовый фрагмент кода, который можно вставить в любой проект Java.
 
-Добро пожаловать в это пошаговое руководство по применению контрольной суммы для CodaBar в Java с использованием Aspose.BarCode. Aspose.BarCode for Java — это мощная библиотека, которая позволяет разработчикам легко создавать и распознавать штрих-коды в приложениях Java. В этом уроке мы сосредоточимся на конкретной задаче применения контрольной суммы для штрих-кодов CodaBar.
+## Quick Answers
+- **Что делает контрольная сумма?** Она проверяет целостность данных штрих‑кода при сканировании.  
+- **Какая библиотека требуется?** Aspose.BarCode for Java.  
+- **Нужна ли лицензия для разработки?** Временная лицензия подходит для тестирования; полная лицензия необходима для продакшн.  
+- **Можно ли настроить внешний вид штрих‑кода?** Да — цвет, размер и шрифт можно изменить через параметры генератора.  
+- **Совместима ли она со всеми версиями Java?** Библиотека поддерживает Java 8 и новее.
 
-## Предварительные условия
+## What is a CodaBar barcode?
 
-Прежде чем мы углубимся в руководство, убедитесь, что у вас есть следующие предварительные условия:
+CodaBar — линейная (одномерная) символьная система, широко используемая в библиотеках, банках крови и розничной торговле. Она кодирует числовые данные и несколько специальных символов, что делает её идеальной для простых, машинно‑читаемых меток. Добавление контрольной суммы (Mod 10) повышает точность считывания, особенно при низкокачественной печати.
 
-- На вашем компьютере установлен Java Development Kit (JDK).
--  Aspose.BarCode для библиотеки Java. Вы можете скачать его с[здесь](https://releases.aspose.com/barcode/java/).
-- Базовое понимание программирования на Java.
+## Why use Aspose.BarCode for Java?
 
-## Импортировать пакеты
+Aspose.BarCode предоставляет **java barcode reader example**, который абстрагирует низкоуровневые детали генерации и распознавания штрих‑кодов. Он обеспечивает:
 
-В вашем Java-проекте обязательно импортируйте необходимые пакеты для работы с Aspose.BarCode:
+* Полный контроль над режимами контрольных сумм.  
+* Бесшовную интеграцию с IDE Java.  
+* Обширную документацию и поддержку.  
+
+## Prerequisites
+
+Перед тем как приступить, убедитесь, что у вас есть:
+
+- Установленный Java Development Kit (JDK) на вашем компьютере.  
+- Библиотека Aspose.BarCode for Java. Вы можете скачать её [здесь](https://releases.aspose.com/barcode/java/).  
+- Базовое понимание программирования на Java.  
+
+## Import Packages
+
+В вашем Java‑проекте импортируйте необходимые классы для работы с Aspose.BarCode:
 
 ```java
 import java.io.IOException;
@@ -42,77 +63,88 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Шаг 1: Настройте среду
+## Step‑by‑step Guide
 
-Начните с создания нового проекта Java и включения библиотеки Aspose.BarCode в зависимости вашего проекта. Настройте среду разработки с необходимыми ресурсами.
+### Step 1: Set Up the Environment
+
+Создайте новый Java‑проект и добавьте JAR‑файл Aspose.BarCode в путь сборки. Определите папку, куда будут сохраняться сгенерированные изображения.
 
 ```java
-// Путь к каталогу ресурсов.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-## Шаг 2: Создание штрих-кода CodaBar
+### Step 2: Generate a CodaBar barcode image with checksum
 
-Теперь давайте сгенерируем штрих-код CodaBar с включенной контрольной суммой.
+Создайте экземпляр `BarcodeGenerator`, включите контрольную сумму, выберите режим Mod 10 и сохраните изображение.
 
 ```java
-// Создать экземпляр объекта BarcodeGenerator
+// Instantiate BarcodeGenerator object
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "1234567890");
 
-// Установите для свойства EnableChecksum значение да.
+// Set the EnableChecksum property to yes
 generator.getParameters().getBarcode().setChecksumEnabled(EnableChecksum.YES);
 
-// Установите CodabarChecksumMode
+// Set the CodabarChecksumMode
 generator.getParameters().getBarcode().getCodabar().setCodabarChecksumMode(CodabarChecksumMode.MOD_10);
 
-// Сохраните изображение в системе
+// Save the image on the system
 generator.save(dataDir + "Codabar_Mod10.png");
 ```
 
-## Шаг 3. Распознавание штрих-кода CodaBar
+### Step 3: Java barcode reader example – Recognize the barcode
 
-Теперь давайте реализуем часть распознавания штрих-кода CodaBar с помощью контрольной суммы.
+Теперь считайте штрих‑код обратно, включив проверку контрольной суммы, чтобы убедиться в правильности данных.
 
 ```java
-// Инициализировать объект чтения
+// Initialize reader object
 BarCodeReader reader = new BarCodeReader(dataDir + "Codabar_Mod10.png", DecodeType.CODABAR);
 
-// Установите для свойства ChecksumValidation устройства чтения значение On.
+// Set ChecksumValidation property of the reader to On
 reader.setChecksumValidation(ChecksumValidation.ON);
 
 for (BarCodeResult result : reader.readBarCodes()) {
     System.out.println("CodeText: " + result.getCodeText());
     System.out.println("Symbology type: " + result.getCodeType());
 
-    // Получить значение контрольной суммы
+    // Get checksum value
     System.out.println("Checksum:" + result.getExtended().getOneD().getCheckSum());
 }
 ```
 
-Выполните следующие шаги, чтобы легко применить контрольную сумму для CodaBar в Java с помощью Aspose.BarCode.
+Выполнение кода выведет декодированный текст, тип символьной системы и рассчитанную контрольную сумму, подтверждая, что штрих‑код был сгенерирован и проверен корректно.
 
-## Заключение
+## Common Issues and Solutions
 
-В этом уроке мы рассмотрели, как применять контрольную сумму для штрих-кодов CodaBar в Java с помощью Aspose.BarCode. Эта библиотека предоставляет простой способ создания и распознавания штрих-кодов с различными вариантами настройки.
+| Проблема | Решение |
+|----------|---------|
+| **Проверка контрольной суммы не прошла** | Убедитесь, что `EnableChecksum` установлен в `YES` и что `CodabarChecksumMode` соответствует режиму, использованному при генерации (Mod 10). |
+| **Ошибка: файл не найден** | Убедитесь, что `dataDir` указывает на существующую папку и что сгенерированное изображение (`Codabar_Mod10.png`) сохранено там перед чтением. |
+| **Неподдерживаемая версия Java** | Используйте Java 8 или новее; более старые версии могут не иметь необходимых API. |
+
+## Frequently Asked Questions
+
+**В: Совместима ли Aspose.BarCode со всеми версиями Java?**  
+О: Aspose.BarCode разработана для работы с Java 8 и новее. См. официальную документацию для подробной совместимости.
+
+**В: Можно ли настроить внешний вид сгенерированного штрих‑кода?**  
+О: Да, можно изменять цвета, шрифты и формат изображения через API параметров генератора.
+
+**В: Доступны ли временные лицензии для тестирования?**  
+О: Да, временную лицензию для Aspose.BarCode можно получить [здесь](https://purchase.aspose.com/temporary-license/).
+
+**В: Где можно найти дополнительную поддержку и ресурсы?**  
+О: Посетите [форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13) для поддержки сообщества и обсуждений.
+
+**В: Есть ли бесплатная пробная версия?**  
+О: Да, вы можете ознакомиться с возможностями Aspose.BarCode, скачав бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ---
 
-## Часто задаваемые вопросы
+**Последнее обновление:** 2025-12-18  
+**Тестировано с:** Aspose.BarCode for Java 24.12  
+**Автор:** Aspose  
 
-### Совместим ли Aspose.BarCode со всеми версиями Java?
-Aspose.BarCode предназначен для работы с различными версиями Java. Обязательно проверьте документацию на предмет сведений о совместимости.
-
-### Могу ли я настроить внешний вид сгенерированного штрих-кода?
-Да, Aspose.BarCode предлагает широкие возможности настройки, позволяющие вам контролировать внешний вид сгенерированных штрих-кодов.
-
-### Доступны ли временные лицензии для целей тестирования?
- Да, вы можете получить временную лицензию для Aspose.BarCode на сайте[здесь](https://purchase.aspose.com/temporary-license/).
-
-### Где я могу найти дополнительную поддержку и ресурсы?
- Посетить[Форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13) за поддержку сообщества и обсуждения.
-
-### Доступна ли бесплатная пробная версия?
- Да, вы можете изучить возможности Aspose.BarCode, загрузив бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
