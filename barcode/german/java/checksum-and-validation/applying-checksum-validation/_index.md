@@ -1,69 +1,75 @@
 ---
-title: Anwenden der Prüfsummenvalidierung in Java
-linktitle: Anwenden der Prüfsummenvalidierung
+date: 2025-12-19
+description: Erfahren Sie, wie Sie die Prüfsummenvalidierung in Java mit Aspose.BarCode
+  deaktivieren. Diese Schritt‑für‑Schritt‑Anleitung zeigt Ihnen, wie Sie Barcodes
+  lesen, die Prüfsumme ausschalten und eine zuverlässige Datenverarbeitung sicherstellen.
+linktitle: How to Disable Checksum Validation
 second_title: Aspose.BarCode Java API
-description: Meistern Sie die Barcode-Validierung in Java mühelos mit Aspose.BarCode. Schritt-für-Schritt-Anleitung zur Prüfsummenvalidierung. Steigern Sie die Datenintegrität Ihrer Software!
-weight: 12
+title: Wie man die Prüfsummenvalidierung in Java deaktiviert
 url: /de/java/checksum-and-validation/applying-checksum-validation/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anwenden der Prüfsummenvalidierung in Java
+# Wie man die Prüfsummenvalidierung in Java deaktiviert
 
-# Beherrschen der BarCode-Prüfsummenvalidierung mit Aspose.BarCode Java
+In modernen Inventar‑ und Logistikanwendungen kann **wie man die Prüfsumme deaktiviert** der Schlüssel sein, um alte Barcodes zu lesen, die keine Prüfziffer enthalten. Aspose.BarCode für Java ermöglicht es, die Prüfsummenvalidierung mühelos auszuschalten und dennoch die codierten Daten zu extrahieren. Dieses Tutorial führt Sie durch den gesamten Prozess – von der Projekt‑Einrichtung bis zum Lesen eines ONE‑CODE‑Barcodes ohne Prüfsummenprüfung.
 
-In der dynamischen Welt der Softwareentwicklung ist die Erstellung und Validierung von Barcodes eine grundlegende Fähigkeit. Aspose.BarCode für Java vereinfacht diesen Prozess und bietet eine Reihe robuster Tools für die Barcode-Generierung und -Validierung. In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit der Anwendung der Prüfsummenvalidierung in Java mithilfe von Aspose.BarCode.
+## Schnelle Antworten
+- **Was bewirkt das Deaktivieren der Prüfsumme?** Es weist den Leser an, das Prüfsummenfeld zu ignorieren, sodass Barcodes ohne gültige Prüfziffer verarbeitet werden können.  
+- **Wann sollten Sie die Prüfsumme deaktivieren?** Wenn Sie mit Altsystemen oder nicht‑standardisierten Barcodes arbeiten, die die Prüfziffer weglassen oder beschädigen.  
+- **Welche Klasse steuert die Prüfsummenvalidierung?** `BarCodeReader.setChecksumValidation(ChecksumValidation)`  
+- **Ist das Deaktivieren der Prüfsumme sicher?** Nur wenn Sie der Quelle des Barcodes vertrauen; andernfalls hilft die Validierung, Fehler zu erkennen.  
+- **Beeinflusst das andere Barcode‑Typen?** Die Einstellung gilt nur für die aktuelle `BarCodeReader`‑Instanz.
 
-## Einführung
+## Was ist Prüfsummenvalidierung?
+Die Prüfsummenvalidierung ist ein Datenintegritäts‑Check, der aus dem Barcode‑Inhalt einen kleinen Wert berechnet und diesen mit der eingebetteten Prüfziffer vergleicht. Stimmen sie nicht überein, gilt der Barcode als nicht lesbar. Das Deaktivieren dieses Checks weist Aspose.BarCode an, den Vergleich zu überspringen.
 
-Barcodes sind in modernen Unternehmen allgegenwärtig, vom Einzelhandel bis zur Logistik. Sie verschlüsseln wesentliche Informationen und spielen eine entscheidende Rolle bei der Datenintegrität. Mit Aspose.BarCode für Java können Entwickler Barcode-bezogene Funktionen nahtlos erweitern.
+## Warum die Prüfsumme mit Aspose.BarCode deaktivieren?
+- **Legacy‑Unterstützung:** Ältere Scanner erzeugten häufig Barcodes ohne Prüfsummen.  
+- **Performance:** Das Überspringen der Berechnung kann das Einlesen großer Datenmengen beschleunigen.  
+- **Flexibilität:** Sie können pro Leser‑Instanz entscheiden, ob die Validierung erzwungen wird.
 
 ## Voraussetzungen
-
-Bevor wir unsere Reise antreten, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-
-- Java Development Kit (JDK): Aspose.BarCode für Java basiert auf Java, daher ist die Installation des neuesten JDK von entscheidender Bedeutung.
--  Aspose.BarCode-Bibliothek: Laden Sie die Aspose.BarCode-Bibliothek herunter und richten Sie sie ein. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/barcode/java/).
+- **Java Development Kit (JDK):** Stellen Sie sicher, dass das neueste JDK installiert ist.  
+- **Aspose.BarCode Bibliothek:** Laden Sie die Bibliothek von der offiziellen Seite [here](https://releases.aspose.com/barcode/java/) herunter.  
 
 ## Pakete importieren
-
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Aspose.BarCode-Pakete, um mühelos auf die Barcode-Funktionen zuzugreifen.
+Importieren Sie in Ihrem Java‑Projekt die notwendigen Aspose.BarCode‑Klassen, um Barcode‑Erkennung zu nutzen.
 
 ```java
-// Importieren Sie Aspose.BarCode-Klassen
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.ChecksumValidation;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Schritt 1: Richten Sie Ihr Projekt ein
+## Schritt‑für‑Schritt‑Anleitung
 
-Erstellen Sie zunächst ein neues Java-Projekt und fügen Sie die Aspose.BarCode-Bibliothek zu den Abhängigkeiten Ihres Projekts hinzu.
+### Schritt 1: Projekt einrichten
+Erstellen Sie ein neues Java‑Projekt (IDE Ihrer Wahl) und fügen Sie die Aspose.BarCode‑JAR zum Klassenpfad des Projekts hinzu.
 
-## Schritt 2: BarCodeReader initialisieren
-
-Erstellen Sie eine Instanz der BarCodeReader-Klasse und laden Sie einen vorhandenen Ein-Code-Barcode aus Ihrem Dokumentenverzeichnis.
+### Schritt 2: `BarCodeReader` initialisieren
+Laden Sie das Bild, das den ONE‑CODE‑Barcode enthält, den Sie lesen möchten.
 
 ```java
 String dataDir = "Your Document Directory";
 BarCodeReader reader = new BarCodeReader(dataDir + "onecode.png", DecodeType.ONE_CODE);
 ```
 
-## Schritt 3: Deaktivieren Sie die Prüfsummenvalidierung
-
-Setzen Sie die ChecksumValidation-Eigenschaft auf Off, um die Prüfsummenvalidierung zu deaktivieren.
+### Schritt 3: Wie man die Prüfsumme deaktiviert
+Weisen Sie den Leser an, die Prüfsummenvalidierung zu ignorieren, indem Sie die Eigenschaft auf `OFF` setzen.
 
 ```java
 reader.setChecksumValidation(ChecksumValidation.OFF);
 ```
 
-## Schritt 4: Barcodes lesen
-
-Nutzen Sie eine Schleife, um die Barcodes zu durchlaufen und Informationen abzurufen.
+### Schritt 4: Barcodes lesen
+Iterieren Sie über die Ergebnisse und geben Sie den dekodierten Text sowie den Symbologie‑Typ aus.
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -72,29 +78,35 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Mit diesem einfachen, aber leistungsstarken Prozess können Sie die Prüfsummenvalidierung problemlos anwenden.
+**Ergebnis:** Der Barcode‑Text wird angezeigt, selbst wenn das Originalbild keine gültige Prüfziffer enthält.
 
-## Abschluss
-
-Aspose.BarCode für Java eröffnet eine Fülle von Möglichkeiten bei der Barcode-Generierung und -Validierung. Mit einem unkomplizierten Ansatz wird die Anwendung der Prüfsummenvalidierung zu einem integralen Bestandteil Ihrer Barcode-bezogenen Projekte.
+## Häufige Probleme & Tipps
+- **Falscher Dateipfad:** Vergewissern Sie sich, dass `dataDir` auf das richtige Verzeichnis zeigt; verwenden Sie für Tests absolute Pfade.  
+- **Nicht unterstützter Barcode‑Typ:** Stellen Sie sicher, dass `DecodeType` dem Barcode entspricht, den Sie lesen wollen.  
+- **Performance:** Das Deaktivieren der Prüfsumme bei großen Stapeln kann den Durchsatz erhöhen, aktivieren Sie sie jedoch für kritische Daten wieder.
 
 ## Häufig gestellte Fragen
 
-### Ist Aspose.BarCode mit verschiedenen Barcode-Typen kompatibel?
-Ja, Aspose.BarCode unterstützt eine Vielzahl von Barcode-Typen und bietet so Vielseitigkeit bei Ihren Projekten.
+### Ist Aspose.BarCode mit verschiedenen Barcode‑Typen kompatibel?
+Ja, Aspose.BarCode unterstützt ein breites Spektrum an Barcode‑Symbologien, von QR und DataMatrix bis zu traditionellen linearen Codes.
 
 ### Kann ich Aspose.BarCode für kommerzielle Zwecke nutzen?
-Absolut. Aspose.BarCode bietet kommerzielle Lizenzen für Unternehmen, um seine Funktionen nahtlos zu nutzen.
+Absolut. Kommerzielle Lizenzen stehen Unternehmen zur Verfügung, die produktionsreife Funktionen benötigen.
 
-### Wie kann ich Unterstützung für Aspose.BarCode erhalten?
- Besuche den[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13) um mit der Community in Kontakt zu treten und Hilfe zu suchen.
+### Wie erhalte ich Support für Aspose.BarCode?
+Besuchen Sie das [Aspose.BarCode‑Forum](https://forum.aspose.com/c/barcode/13), um mit der Community in Kontakt zu treten und Unterstützung vom Produktteam zu erhalten.
 
 ### Gibt es eine kostenlose Testversion?
- Ja, Sie können die Funktionen von Aspose.BarCode erkunden, indem Sie auf zugreifen[Kostenlose Testphase](https://releases.aspose.com/).
+Ja, Sie können das komplette Funktionsspektrum erkunden, indem Sie die [free trial](https://releases.aspose.com/) herunterladen.
 
-### Wo finde ich eine ausführliche Dokumentation?
- Siehe die[Dokumentation](https://reference.aspose.com/barcode/java/)Ausführliche Informationen zu Aspose.BarCode für Java finden Sie hier.
+### Wo finde ich ausführliche Dokumentation?
+Siehe die umfassende [documentation](https://reference.aspose.com/barcode/java/) für API‑Details, Code‑Beispiele und bewährte Verfahren.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-19  
+**Getestet mit:** Aspose.BarCode für Java (neueste Version)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

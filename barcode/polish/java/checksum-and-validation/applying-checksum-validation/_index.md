@@ -1,69 +1,75 @@
 ---
-title: Stosowanie sprawdzania sumy kontrolnej w Javie
-linktitle: Stosowanie sprawdzania sumy kontrolnej
-second_title: Aspose.BarCode API Java
-description: Opanuj weryfikację kodów kreskowych w Javie bez wysiłku dzięki Aspose.BarCode. Przewodnik krok po kroku dotyczący sprawdzania sumy kontrolnej. Zwiększ integralność danych swojego oprogramowania!
-weight: 12
+date: 2025-12-19
+description: Dowiedz się, jak wyłączyć weryfikację sumy kontrolnej w Javie przy użyciu
+  Aspose.BarCode. Ten przewodnik krok po kroku pokazuje, jak odczytywać kody kreskowe,
+  wyłączyć sumę kontrolną i zapewnić niezawodne przetwarzanie danych.
+linktitle: How to Disable Checksum Validation
+second_title: Aspose.BarCode Java API
+title: Jak wyłączyć weryfikację sumy kontrolnej w Javie
 url: /pl/java/checksum-and-validation/applying-checksum-validation/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stosowanie sprawdzania sumy kontrolnej w Javie
+# Jak wyłączyć weryfikację sumy kontrolnej w Javie
 
-# Opanowanie sprawdzania sumy kontrolnej kodu kreskowego za pomocą Aspose.BarCode Java
+W nowoczesnych aplikacjach do zarządzania zapasami i logistyką, **jak wyłączyć sumę kontrolną** może być kluczem do odczytywania starszych kodów kreskowych, które nie zawierają cyfry sumy kontrolnej. Aspose.BarCode for Java umożliwia łatwe wyłączenie weryfikacji sumy kontrolnej przy jednoczesnym wyodrębnianiu zakodowanych danych. Ten samouczek przeprowadzi Cię przez cały proces — od konfiguracji projektu po odczyt kodu ONE‑CODE bez weryfikacji sumy kontrolnej.
 
-W dynamicznym świecie tworzenia oprogramowania tworzenie i sprawdzanie poprawności kodów kreskowych jest podstawową umiejętnością. Aspose.BarCode dla Java upraszcza ten proces, oferując solidny zestaw narzędzi do generowania i sprawdzania kodów kreskowych. W tym przewodniku krok po kroku zagłębimy się w zastosowanie sprawdzania sumy kontrolnej w Javie przy użyciu Aspose.BarCode.
+## Szybkie odpowiedzi
+- **Co robi wyłączenie sumy kontrolnej?** Informuje czytnik, aby ignorował pole sumy kontrolnej, co pozwala na przetwarzanie kodów kreskowych bez ważnej sumy kontrolnej.  
+- **Kiedy należy wyłączyć sumę kontrolną?** Gdy pracujesz z systemami starszymi lub niestandardowymi kodami kreskowymi, które pomijają lub uszkadzają sumę kontrolną.  
+- **Która klasa kontroluje weryfikację sumy kontrolnej?** `BarCodeReader.setChecksumValidation(ChecksumValidation)`  
+- **Czy wyłączenie sumy kontrolnej jest bezpieczne?** Tylko jeśli ufasz źródłu kodu kreskowego; w przeciwnym razie weryfikacja pomaga wykrywać błędy.  
+- **Czy ma to wpływ na inne typy kodów kreskowych?** Ustawienie dotyczy tylko bieżącej instancji `BarCodeReader`.
 
-## Wstęp
+## Co to jest weryfikacja sumy kontrolnej?
+Weryfikacja sumy kontrolnej to kontrola integralności danych, która oblicza małą wartość na podstawie zawartości kodu kreskowego i porównuje ją z osadzoną sumą kontrolną. Jeśli nie są zgodne, kod kreskowy uznawany jest za nieczytelny. Wyłączenie tego sprawdzenia powoduje, że Aspose.BarCode pomija porównanie.
 
-Kody kreskowe są wszechobecne we współczesnym biznesie, od handlu detalicznego po logistykę. Kodują istotne informacje i odgrywają kluczową rolę w integralności danych. Aspose.BarCode dla Java umożliwia programistom płynne ulepszanie funkcji związanych z kodami kreskowymi.
+## Dlaczego wyłączyć sumę kontrolną w Aspose.BarCode?
+- **Wsparcie starszych systemów:** Starsze skanery często generowały kody kreskowe bez sum kontrolnych.  
+- **Wydajność:** Pominięcie obliczeń może przyspieszyć odczyty masowe.  
+- **Elastyczność:** Możesz decydować dla każdej instancji czytnika, czy wymuszać weryfikację.
 
-## Warunki wstępne
+## Prerequisites
+- **Java Development Kit (JDK):** Upewnij się, że masz zainstalowaną najnowszą wersję JDK.  
+- **Biblioteka Aspose.BarCode:** Pobierz bibliotekę z oficjalnej strony [here](https://releases.aspose.com/barcode/java/).  
 
-Zanim wyruszymy w podróż, upewnijmy się, że spełniamy następujące warunki:
-
-- Zestaw Java Development Kit (JDK): Aspose.BarCode dla Java jest oparty na Javie, dlatego posiadanie najnowszego pakietu JDK jest niezwykle istotne.
--  Biblioteka Aspose.BarCode: Pobierz i skonfiguruj bibliotekę Aspose.BarCode. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/barcode/java/).
-
-## Importuj pakiety
-
-W swoim projekcie Java zaimportuj niezbędne pakiety Aspose.BarCode, aby bezproblemowo uzyskać dostęp do funkcji kodów kreskowych.
+## Importowanie pakietów
+W swoim projekcie Java zaimportuj niezbędne klasy Aspose.BarCode, aby pracować z rozpoznawaniem kodów kreskowych.
 
 ```java
-// Importuj klasy Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.ChecksumValidation;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Krok 1: Skonfiguruj swój projekt
+## Przewodnik krok po kroku
 
-Rozpocznij od utworzenia nowego projektu Java i dodania biblioteki Aspose.BarCode do zależności projektu.
+### Krok 1: Konfiguracja projektu
+Utwórz nowy projekt Java (dowolne IDE) i dodaj plik JAR Aspose.BarCode do ścieżki klas projektu.
 
-## Krok 2: Zainicjuj czytnik kodów kreskowych
-
-Utwórz instancję klasy BarCodeReader i załaduj istniejący kod kreskowy zawierający jeden kod z katalogu dokumentów.
+### Krok 2: Inicjalizacja `BarCodeReader`
+Wczytaj obraz zawierający kod ONE‑CODE, który chcesz odczytać.
 
 ```java
 String dataDir = "Your Document Directory";
 BarCodeReader reader = new BarCodeReader(dataDir + "onecode.png", DecodeType.ONE_CODE);
 ```
 
-## Krok 3: Wyłącz weryfikację sumy kontrolnej
-
-Ustaw właściwość ChecksumValidation na Off, aby wyłączyć sprawdzanie sumy kontrolnej.
+### Krok 3: Jak wyłączyć sumę kontrolną
+Powiedz czytnikowi, aby ignorował weryfikację sumy kontrolnej, ustawiając właściwość na `OFF`.
 
 ```java
 reader.setChecksumValidation(ChecksumValidation.OFF);
 ```
 
-## Krok 4: Przeczytaj kody kreskowe
-
-Wykorzystaj pętlę do przeglądania kodów kreskowych i pobierania informacji.
+### Krok 4: Odczyt kodów kreskowych
+Iteruj przez wyniki i wypisz zdekodowany tekst oraz typ symbologii.
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -72,29 +78,35 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Ten prosty, ale wydajny proces umożliwia łatwe sprawdzanie sumy kontrolnej.
+**Wynik:** Tekst kodu kreskowego jest wyświetlany, nawet jeśli oryginalny obraz nie zawiera ważnej sumy kontrolnej.
 
-## Wniosek
+## Częste problemy i wskazówki
+- **Nieprawidłowa ścieżka pliku:** Sprawdź, czy `dataDir` wskazuje prawidłowy folder; używaj ścieżek bezwzględnych podczas testów.  
+- **Nieobsługiwany typ kodu kreskowego:** Upewnij się, że `DecodeType` odpowiada kodowi, który odczytujesz.  
+- **Wydajność:** Wyłączenie sumy kontrolnej przy dużych partiach może zwiększyć przepustowość, ale zawsze włączaj ją ponownie przy krytycznych danych.
 
-Aspose.BarCode dla Java otwiera sferę możliwości w generowaniu i sprawdzaniu poprawności kodów kreskowych. Dzięki prostemu podejściu zastosowanie sprawdzania sumy kontrolnej staje się integralną częścią projektów związanych z kodami kreskowymi.
-
-## Często Zadawane Pytania
+## Najczęściej zadawane pytania
 
 ### Czy Aspose.BarCode jest kompatybilny z różnymi typami kodów kreskowych?
-Tak, Aspose.BarCode obsługuje szeroką gamę typów kodów kreskowych, zapewniając wszechstronność w Twoich projektach.
+Tak, Aspose.BarCode obsługuje szeroką gamę symbologii kodów kreskowych, od QR i DataMatrix po tradycyjne kody liniowe.
 
 ### Czy mogę używać Aspose.BarCode do celów komercyjnych?
-Absolutnie. Aspose.BarCode oferuje licencje komercyjne dla firm, aby bezproblemowo wykorzystać jego możliwości.
+Oczywiście. Dostępne są licencje komercyjne dla firm, które potrzebują funkcji gotowych do produkcji.
 
-### Jak mogę uzyskać pomoc dotyczącą Aspose.BarCode?
- Odwiedzić[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) nawiązać kontakt ze społecznością i poprosić o pomoc.
+### Jak mogę uzyskać wsparcie dla Aspose.BarCode?
+Odwiedź [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), aby połączyć się ze społecznością i uzyskać pomoc od zespołu produktu.
 
-### Czy dostępny jest bezpłatny okres próbny?
- Tak, możesz poznać funkcje Aspose.BarCode, uzyskując dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/).
+### Czy dostępna jest darmowa wersja próbna?
+Tak, możesz przetestować pełen zestaw funkcji, pobierając [darmową wersję próbną](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć szczegółową dokumentację?
- Patrz[dokumentacja](https://reference.aspose.com/barcode/java/)aby uzyskać szczegółowe informacje na temat Aspose.BarCode dla Java.
+Zapoznaj się ze szczegółową [dokumentacją](https://reference.aspose.com/barcode/java/), aby uzyskać informacje o API, przykłady kodu i najlepsze praktyki.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-19  
+**Testowano z:** Aspose.BarCode for Java (najnowsze wydanie)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
