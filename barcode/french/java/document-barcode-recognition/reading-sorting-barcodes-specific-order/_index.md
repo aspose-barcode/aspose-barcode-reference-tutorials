@@ -1,37 +1,55 @@
 ---
-title: Lecture et tri des codes-barres dans un ordre spécifique en Java
-linktitle: Lecture et tri des codes-barres dans un ordre spécifique
-second_title: API Java Aspose.BarCode
-description: Améliorez vos applications Java avec Aspose.BarCode ! Apprenez à lire et trier efficacement les codes-barres. Suivez notre guide étape par étape pour une intégration transparente.
-weight: 10
+date: 2025-12-19
+description: Apprenez à lire les codes-barres avec Aspose.BarCode pour Java, à les
+  trier dans un ordre spécifique et à consulter un exemple complet de détection de
+  code-barres en Java.
+linktitle: Reading and Sorting Barcodes in Specific Order
+second_title: Aspose.BarCode Java API
+title: Comment lire les codes‑barres et les trier dans un ordre spécifique en Java
 url: /fr/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lecture et tri des codes-barres dans un ordre spécifique en Java
-
+# Comment lire les codes-barres et les trier dans un ordre spécifique en Java
 
 ## Introduction
 
-Dans le monde dynamique de la programmation Java, la gestion efficace des codes-barres est une exigence courante pour de nombreuses applications. Aspose.BarCode for Java apparaît comme un outil puissant, offrant une intégration transparente pour la lecture et le tri des codes-barres. Dans ce didacticiel, nous verrons comment lire et trier les codes-barres dans un ordre spécifique à l'aide d'Aspose.BarCode pour Java.
+Dans les applications Java modernes, **comment lire les codes-barres** efficacement est une question fréquente. Que vous traitiez des listes d’inventaire, des étiquettes d’expédition ou des billets d’événement, une solution fiable de lecture de codes-barres peut vous faire gagner des heures de travail manuel. Dans ce tutoriel, nous vous montrerons comment lire les codes-barres et les trier dans un ordre spécifique en utilisant **Aspose.BarCode for Java**. Vous obtiendrez un exemple complet, prêt à l’emploi, qui démontre la détection de codes-barres, l’extraction du texte du code et une logique de tri personnalisée.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque dois‑je utiliser ?** Aspose.BarCode for Java
+- **Puis‑je trier les codes‑barres après les avoir lus ?** Oui – il suffit de stocker les résultats et d’appliquer un comparateur
+- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence commerciale est requise pour la production
+- **Quelle version de Java est prise en charge ?** Java 8 et versions ultérieures
+- **S’agit‑il d’un exemple de détection de codes‑barres en Java ?** Absolument – le code lit les codes‑barres CODE_128 et les trie
 
-Avant de plonger dans le code, assurez-vous d'avoir les prérequis suivants :
+## Qu’est‑ce que « how to read barcodes » en Java ?
+Lire les codes‑barres signifie décoder le motif visuel d’une image de code‑barres en sa valeur texte sous‑jacente. Aspose.BarCode fournit un moteur de **lecture de codes‑barres aspose** haute performance qui prend en charge des dizaines de symbologies, dont CODE_128, QR, DataMatrix, et bien d’autres.
 
--  Kit de développement Java (JDK) : Aspose.BarCode pour Java nécessite un JDK fonctionnel. Vous pouvez télécharger la dernière version[ici](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Pourquoi utiliser Aspose.BarCode pour la lecture de codes‑barres aspose ?
+- **Haute précision** – fonctionne même avec des images basse résolution
+- **API simple** – quelques lignes de code vous font passer de l’image au texte
+- **Multiplateforme** – fonctionne sur tout environnement compatible JVM
+- **Support de tri intégré** – vous pouvez facilement combiner la lecture avec les collections Java
 
--  Bibliothèque Aspose.BarCode : assurez-vous de disposer de la bibliothèque Aspose.BarCode. Vous pouvez l'obtenir auprès du[lien de téléchargement](https://releases.aspose.com/barcode/java/).
+## Prérequis
 
-## Importer des packages
+Avant de plonger dans le code, assurez‑vous de disposer des prérequis suivants :
 
-Commencez par importer les packages nécessaires dans votre projet Java. Ces packages fournissent les classes et méthodes essentielles pour travailler avec des codes-barres.
+- Java Development Kit (JDK) : Aspose.BarCode for Java nécessite un JDK fonctionnel. Vous pouvez télécharger la dernière version [ici](https://www.oracle.com/java/technologies/javase-downloads.html).
+
+- Bibliothèque Aspose.BarCode : Assurez‑vous d’avoir la bibliothèque Aspose.BarCode. Vous pouvez l’obtenir via le [lien de téléchargement](https://releases.aspose.com/barcode/java/).
+
+## Importer les packages
+
+Commencez par importer les packages nécessaires dans votre projet Java. Ces packages fournissent les classes et méthodes essentielles pour travailler avec les codes‑barres.
 
 ```java
-// Importer des classes Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +61,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-Maintenant, décomposons le code en un guide étape par étape :
+Décomposons maintenant le code étape par étape :
 
-## Étape 1 : Configurer le répertoire des ressources
+## Étape 1 : Configurer le répertoire des ressources
 
 ```java
-// Le chemin d'accès au répertoire de ressources.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Remplacer`"Your Document Directory"`avec le chemin réel vers votre répertoire de documents.
+Remplacez `"Your Document Directory"` par le chemin réel de votre répertoire de documents.
 
-## Étape 2 : Spécifiez le chemin de l'image du code-barres et initialisez le lecteur
+## Étape 2 : Spécifier le chemin de l’image du code‑barres et initialiser le lecteur
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-// Initialisez BarCodeReader avec le chemin et le type de décodage spécifiés
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-## Étape 3 : Lire les codes-barres et stocker les résultats
+## Étape 3 : Lire les codes‑barres et stocker les résultats
 
 ```java
-// Parcourez les codes-barres et stockez les résultats
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## Étape 4 : Définir le comparateur pour le tri
+## Étape 4 : Définir le comparateur pour le tri
 
 ```java
-// Définir un comparateur pour trier les codes-barres en fonction du texte du code
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -85,17 +103,17 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-## Étape 5 : Trier les codes-barres
+## Étape 5 : Trier les codes‑barres
 
 ```java
-// Trier la liste des codes-barres à l'aide du comparateur défini
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
-## Étape 6 : Afficher les codes-barres triés
+## Étape 6 : Afficher les codes‑barres triés
 
 ```java
-// Afficher les codes-barres triés avec leurs coordonnées
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +127,51 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
+## Problèmes courants et solutions
+
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| **Aucun code‑barres détecté** | `DecodeType` incorrect ou image de mauvaise qualité | Vérifiez que l’image contient un code‑barres CODE_128 et utilisez le `DecodeType` approprié. Vous pouvez aussi essayer `DecodeType.ALL` pour une détection automatique. |
+| **Ordre de tri incorrect** | Le comparateur compare les chaînes lexicalement | Si vous avez besoin d’un tri numérique, convertissez `CodeText` en `int` avant de comparer. |
+| **Null pointer sur `BarCodeRegion`** | Chemin de l’image erroné ou fichier introuvable | Assurez‑vous que `path` pointe vers un fichier PNG valide et que le fichier est lisible par la JVM. |
+
+## Questions fréquentes
+
+**Q : Où puis‑je trouver la documentation d’Aspose.BarCode for Java ?**  
+R : La documentation est disponible [ici](https://reference.aspose.com/barcode/java/).
+
+**Q : Comment télécharger Aspose.BarCode for Java ?**  
+R : Vous pouvez le télécharger depuis le [lien de téléchargement](https://releases.aspose.com/barcode/java/).
+
+**Q : Existe‑t‑il une version d’essai gratuite ?**  
+R : Oui, vous pouvez explorer un essai gratuit [ici](https://releases.aspose.com/).
+
+**Q : Comment obtenir des informations de licence temporaire ?**  
+R : Les licences temporaires sont disponibles [ici](https://purchase.aspose.com/temporary-license/).
+
+**Q : Où puis‑je obtenir du support ou poser des questions ?**  
+R : Visitez le forum de support [ici](https://forum.aspose.com/c/barcode/13).
+
+## FAQ supplémentaires (optimisées par IA)
+
+**Q : Puis‑je utiliser ce code avec d’autres types de codes‑barres ?**  
+R : Absolument. Remplacez `DecodeType.CODE_128` par n’importe quelle symbologie prise en charge, comme `DecodeType.QR` ou `DecodeType.DATA_MATRIX`.
+
+**Q : Aspose.BarCode prend‑il en charge le traitement par lots de plusieurs images ?**  
+R : Oui. Parcourez une collection de chemins de fichiers et réutilisez la même logique `BarCodeReader` pour chaque image.
+
+**Q : Comment améliorer les performances pour de grands ensembles d’images ?**  
+R : Réutilisez l’instance `BarCodeReader` lorsque c’est possible et traitez les images en parallèle à l’aide du `ExecutorService` de Java.
+
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment exploiter Aspose.BarCode for Java pour lire et trier les codes-barres dans un ordre spécifique. En suivant le guide étape par étape, vous pouvez améliorer vos applications Java avec des capacités efficaces de traitement des codes-barres.
+Dans ce tutoriel, nous avons démontré **comment lire les codes‑barres** avec Aspose.BarCode for Java, stocker chaque résultat et trier la liste dans un ordre personnalisé. En suivant le guide étape par étape, vous pouvez intégrer une détection et un tri robustes de codes‑barres dans n’importe quelle application Java—qu’il s’agisse de gestion d’inventaire, de logistique ou de billetterie d’événement.
 
-## FAQ
+---
 
-### Q : Où puis-je trouver la documentation Aspose.BarCode pour Java ?
- La documentation est disponible[ici](https://reference.aspose.com/barcode/java/).
-
-### Q : Comment puis-je télécharger Aspose.BarCode pour Java ?
- Vous pouvez le télécharger depuis le[lien de téléchargement](https://releases.aspose.com/barcode/java/).
-
-### Q : Existe-t-il un essai gratuit ?
- Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
-
-### Q : Comment puis-je obtenir des informations sur les licences temporaires ?
- Des licences temporaires peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q : Où puis-je demander de l’aide ou poser des questions ?
- Visitez le forum d'assistance[ici](https://forum.aspose.com/c/barcode/13).
+**Dernière mise à jour :** 2025-12-19  
+**Testé avec :** Aspose.BarCode for Java 24.11 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

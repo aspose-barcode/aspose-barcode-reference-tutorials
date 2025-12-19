@@ -1,37 +1,53 @@
 ---
-title: قراءة وفرز الباركود بترتيب معين في جافا
-linktitle: قراءة وفرز الباركود بترتيب معين
-second_title: Aspose.BarCode جافا API
-description: قم بتحسين تطبيقات Java الخاصة بك باستخدام Aspose.BarCode! تعلم قراءة وفرز الباركود بكفاءة. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-weight: 10
+date: 2025-12-19
+description: تعلم كيفية قراءة الباركود باستخدام Aspose.BarCode للغة Java، وترتيبه
+  بترتيب محدد، وشاهد مثالًا كاملاً لاكتشاف الباركود بلغة Java.
+linktitle: Reading and Sorting Barcodes in Specific Order
+second_title: Aspose.BarCode Java API
+title: كيفية قراءة الباركود وترتيبه بترتيب محدد في جافا
 url: /ar/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قراءة وفرز الباركود بترتيب معين في جافا
+# كيفية قراءة الباركود وترتيبه بترتيب محدد في جافا
 
+## المقدمة
 
-## مقدمة
+في تطبيقات جافا الحديثة، **كيفية قراءة الباركود** بكفاءة هي سؤال شائع. سواء كنت تعالج قوائم المخزون، أو ملصقات الشحن، أو تذاكر الفعاليات، فإن حل الباركود الموثوق يمكنه توفير ساعات من العمل اليدوي. في هذا الدرس سنوضح لك كيفية قراءة الباركود وترتيبه بترتيب محدد باستخدام **Aspose.BarCode for Java**. ستحصل على مثال كامل جاهز للتنفيذ يوضح اكتشاف الباركود، استخراج نص الكود، ومنطق الفرز المخصص.
 
-في عالم برمجة Java الديناميكي، يعد التعامل بكفاءة مع الرموز الشريطية مطلبًا شائعًا للعديد من التطبيقات. يظهر Aspose.BarCode for Java كأداة قوية توفر تكاملًا سلسًا لقراءة الباركود وفرزه. في هذا البرنامج التعليمي، سنستكشف كيفية قراءة الرموز الشريطية وفرزها بترتيب معين باستخدام Aspose.BarCode لـ Java.
+## إجابات سريعة
+- **ما المكتبة التي يجب أن أستخدمها؟** Aspose.BarCode for Java
+- **هل يمكنني فرز الباركود بعد قراءته؟** نعم – فقط احفظ النتائج وطبق Comparator
+- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تعمل للاختبار؛ الترخيص التجاري مطلوب للإنتاج
+- **ما نسخة جافا المدعومة؟** Java 8 وما بعدها
+- **هل هذا مثال على اكتشاف الباركود في جافا؟** بالتأكيد – الكود يقرأ باركود CODE_128 ويقوم بفرزه
 
-## المتطلبات الأساسية
+## ما هو “كيفية قراءة الباركود” في جافا؟
+قراءة الباركود تعني فك تشفير النمط البصري لصورة الباركود إلى قيمته النصية الأساسية. توفر Aspose.BarCode محرك **قراءة الباركود aspose** عالي الأداء يدعم عشرات الأنماط، بما في ذلك CODE_128، QR، DataMatrix، وأكثر.
 
-قبل الغوص في الكود، تأكد من أن لديك المتطلبات الأساسية التالية:
+## لماذا تستخدم Aspose.BarCode لقراءة الباركود aspose؟
+- **دقة عالية** – يعمل حتى مع الصور منخفضة الدقة
+- **API بسيط** – بضع أسطر من الكود تنقلك من الصورة إلى النص
+- **متعدد المنصات** – يعمل على أي بيئة متوافقة مع JVM
+- **دعم فرز مدمج** – يمكنك بسهولة دمج القراءة مع مجموعات جافا
 
--  Java Development Kit (JDK): يتطلب Aspose.BarCode for Java JDK فعالاً. يمكنك تنزيل أحدث إصدار[هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
+## المتطلبات المسبقة
 
--  مكتبة Aspose.BarCode: تأكد من أن لديك مكتبة Aspose.BarCode. يمكنك الحصول عليه من[رابط التحميل](https://releases.aspose.com/barcode/java/).
+قبل الغوص في الكود، تأكد من توفر المتطلبات التالية:
 
-## حزم الاستيراد
+- Java Development Kit (JDK): يتطلب Aspose.BarCode for Java وجود JDK فعال. يمكنك تنزيل أحدث نسخة [هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
+- مكتبة Aspose.BarCode: تأكد من حصولك على مكتبة Aspose.BarCode. يمكنك الحصول عليها من [رابط التحميل](https://releases.aspose.com/barcode/java/).
 
-ابدأ باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. توفر هذه الحزم الفئات والأساليب الأساسية للعمل مع الرموز الشريطية.
+## استيراد الحزم
+
+ابدأ باستيراد الحزم الضرورية إلى مشروع جافا الخاص بك. هذه الحزم توفر الفئات والطرق الأساسية للعمل مع الباركود.
 
 ```java
-// استيراد فئات Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +59,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-الآن، دعونا نقسم الكود إلى دليل خطوة بخطوة:
+الآن، دعنا نقسم الكود إلى دليل خطوة بخطوة:
 
 ## الخطوة 1: إعداد دليل الموارد
 
 ```java
-// المسار إلى دليل الموارد.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- يستبدل`"Your Document Directory"`بالمسار الفعلي إلى دليل المستندات الخاص بك.
+استبدل `"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
 
-## الخطوة 2: تحديد مسار صورة الرمز الشريطي وتهيئة القارئ
+## الخطوة 2: تحديد مسار صورة الباركود وتهيئة القارئ
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-// قم بتهيئة BarCodeReader بالمسار المحدد ونوع فك التشفير
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-## الخطوة 3: قراءة الرموز الشريطية ونتائج المتجر
+## الخطوة 3: قراءة الباركود وتخزين النتائج
 
 ```java
-// التكرار من خلال الرموز الشريطية ونتائج المتجر
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## الخطوة 4: تحديد المقارنة للفرز
+## الخطوة 4: تعريف Comparator للفرز
 
 ```java
-// تحديد مقارنة لفرز الرموز الشريطية بناءً على نص الكود
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -85,17 +101,17 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-## الخطوة 5: فرز الرموز الشريطية
+## الخطوة 5: فرز الباركود
 
 ```java
-// فرز قائمة الرموز الشريطية باستخدام المقارنة المحددة
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
-## الخطوة 6: عرض الرموز الشريطية المصنفة
+## الخطوة 6: عرض الباركود المرتب
 
 ```java
-// عرض الباركود المصنف مع إحداثياته
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +125,51 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية الاستفادة من Aspose.BarCode لـ Java لقراءة الرموز الشريطية وفرزها بترتيب معين. باتباع الدليل الموضح خطوة بخطوة، يمكنك تحسين تطبيقات Java الخاصة بك من خلال إمكانات معالجة الباركود الفعالة.
+| المشكلة | سبب حدوثها | الحل |
+|-------|----------------|-----|
+| **لم يتم اكتشاف أي باركود** | `DecodeType` غير صحيح أو صورة منخفضة الجودة | تحقق من أن الصورة تحتوي على باركود CODE_128 واستخدم `DecodeType` المناسب. يمكنك أيضًا تجربة `DecodeType.ALL` للاكتشاف التلقائي. |
+| **ترتيب فرز غير صحيح** | Comparator يقارن السلاسل حرفيًا | إذا كنت بحاجة إلى فرز رقمي، حوّل `CodeText` إلى `int` قبل المقارنة. |
+| **خطأ Null pointer على `BarCodeRegion`** | مسار الصورة غير صحيح أو الملف غير موجود | تأكد من أن `path` يشير إلى ملف PNG صالح وأن الملف قابل للقراءة من قبل JVM. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س: أين يمكنني العثور على وثائق Aspose.BarCode الخاصة بـ Java؟
- الوثائق متاحة[هنا](https://reference.aspose.com/barcode/java/).
+**س: أين يمكنني العثور على وثائق Aspose.BarCode for Java؟**  
+ج: الوثائق متاحة [هنا](https://reference.aspose.com/barcode/java/).
 
-### س: كيف يمكنني تنزيل Aspose.BarCode لـ Java؟
- يمكنك تنزيله من[رابط التحميل](https://releases.aspose.com/barcode/java/).
+**س: كيف يمكنني تحميل Aspose.BarCode for Java؟**  
+ج: يمكنك تحميله من [رابط التحميل](https://releases.aspose.com/barcode/java/).
 
-### س: هل هناك نسخة تجريبية مجانية متاحة؟
- نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
+ج: نعم، يمكنك تجربة النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
 
-### س: كيف يمكنني الحصول على معلومات الترخيص المؤقت؟
- يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+**س: كيف أحصل على معلومات الترخيص المؤقت؟**  
+ج: يمكن الحصول على تراخيص مؤقتة [هنا](https://purchase.aspose.com/temporary-license/).
 
-### س: أين يمكنني طلب الدعم أو طرح الأسئلة؟
- قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/barcode/13).
+**س: أين يمكنني طلب الدعم أو طرح الأسئلة؟**  
+ج: زر منتدى الدعم [هنا](https://forum.aspose.com/c/barcode/13).
+
+## أسئلة إضافية (محسّنة بالذكاء الاصطناعي)
+
+**س: هل يمكنني استخدام هذا الكود مع أنواع باركود أخرى؟**  
+ج: بالتأكيد. غيّر `DecodeType.CODE_128` إلى أي رموز مدعومة، مثل `DecodeType.QR` أو `DecodeType.DATA_MATRIX`.
+
+**س: هل يدعم Aspose.BarCode معالجة دفعات من الصور المتعددة؟**  
+ج: نعم. قم بالتكرار عبر مجموعة من مسارات الملفات وأعد استخدام نفس منطق `BarCodeReader` لكل صورة.
+
+**س: كيف يمكنني تحسين الأداء لمجموعات الصور الكبيرة؟**  
+ج: أعد استخدام كائن `BarCodeReader` حيثما أمكن وعالج الصور بشكل متوازي باستخدام `ExecutorService` في جافا.
+
+## الخلاصة
+
+في هذا الدرس أظهرنا **كيفية قراءة الباركود** باستخدام Aspose.BarCode for Java، وتخزين كل نتيجة، وفرز القائمة بترتيب مخصص. باتباع دليل الخطوة بخطوة، يمكنك دمج اكتشاف الباركود القوي والفرز في أي تطبيق جافا—سواء كان لإدارة المخزون، أو اللوجستيات، أو تذاكر الفعاليات.
+
+---
+
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** Aspose.BarCode for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

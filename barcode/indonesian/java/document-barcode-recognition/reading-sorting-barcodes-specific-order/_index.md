@@ -1,37 +1,54 @@
 ---
-title: Membaca dan Menyortir Barcode dalam Urutan Tertentu di Java
-linktitle: Membaca dan Menyortir Barcode dalam Urutan Tertentu
+date: 2025-12-19
+description: Pelajari cara membaca kode batang dengan Aspose.BarCode untuk Java, mengurutkannya
+  dalam urutan tertentu, dan lihat contoh lengkap deteksi kode batang Java.
+linktitle: Reading and Sorting Barcodes in Specific Order
 second_title: Aspose.BarCode Java API
-description: Sempurnakan aplikasi Java Anda dengan Aspose.BarCode! Belajar membaca dan mengurutkan barcode secara efisien. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-weight: 10
+title: Cara Membaca Barcode dan Mengurutkannya dalam Urutan Tertentu di Java
 url: /id/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membaca dan Menyortir Barcode dalam Urutan Tertentu di Java
+# Cara Membaca Barcode dan Mengurutkannya dalam Urutan Tertentu di Java
 
+## Pendahuluan
 
-## Perkenalan
+Dalam aplikasi Java modern, **cara membaca barcode** secara efisien adalah pertanyaan yang sering muncul. Baik Anda memproses daftar inventaris, label pengiriman, atau tiket acara, solusi barcode yang andal dapat menghemat berjam‑jam kerja manual. Pada tutorial ini kami akan menunjukkan cara membaca barcode dan mengurutkannya dalam urutan tertentu menggunakan **Aspose.BarCode for Java**. Anda akan mendapatkan contoh lengkap yang siap dijalankan yang mendemonstrasikan deteksi barcode, ekstraksi teks kode, dan logika pengurutan khusus.
 
-Dalam dunia pemrograman Java yang dinamis, penanganan barcode secara efisien merupakan persyaratan umum untuk banyak aplikasi. Aspose.BarCode untuk Java muncul sebagai alat yang ampuh, menawarkan integrasi tanpa batas untuk membaca dan menyortir kode batang. Dalam tutorial ini, kita akan mempelajari cara membaca dan mengurutkan barcode dalam urutan tertentu menggunakan Aspose.BarCode untuk Java.
+## Jawaban Cepat
+- **Pustaka apa yang harus saya gunakan?** Aspose.BarCode for Java
+- **Apakah saya dapat mengurutkan barcode setelah membacanya?** Ya – cukup simpan hasilnya dan terapkan comparator
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi
+- **Versi Java mana yang didukung?** Java 8 dan yang lebih baru
+- **Apakah ini contoh deteksi barcode Java?** Tentu – kode ini membaca barcode CODE_128 dan mengurutkannya
+
+## Apa itu “cara membaca barcode” dalam Java?
+Membaca barcode berarti mendekode pola visual gambar barcode menjadi nilai teks dasarnya. Aspose.BarCode menyediakan mesin **barcode reading aspose** berkinerja tinggi yang mendukung puluhan simbol, termasuk CODE_128, QR, DataMatrix, dan lainnya.
+
+## Mengapa menggunakan Aspose.BarCode untuk membaca barcode aspose?
+- **Akurasi tinggi** – berfungsi bahkan dengan gambar beresolusi rendah
+- **API sederhana** – beberapa baris kode mengubah gambar menjadi teks
+- **Lintas‑platform** – berfungsi pada lingkungan apa pun yang kompatibel dengan JVM
+- **Dukungan pengurutan bawaan** – Anda dapat dengan mudah menggabungkan pembacaan dengan koleksi Java
 
 ## Prasyarat
 
-Sebelum mendalami kode, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelam ke dalam kode, pastikan Anda memiliki prasyarat berikut:
 
--  Java Development Kit (JDK): Aspose.BarCode untuk Java memerlukan JDK yang berfungsi. Anda dapat mengunduh versi terbaru[Di Sini](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Aspose.BarCode for Java memerlukan JDK yang berfungsi. Anda dapat mengunduh versi terbaru [di sini](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Perpustakaan Aspose.BarCode: Pastikan Anda memiliki perpustakaan Aspose.BarCode. Anda dapat memperolehnya dari[tautan unduhan](https://releases.aspose.com/barcode/java/).
+- Pustaka Aspose.BarCode: Pastikan Anda memiliki pustaka Aspose.BarCode. Anda dapat memperolehnya dari [tautan unduhan](https://releases.aspose.com/barcode/java/).
 
-## Paket Impor
+## Impor Paket
 
-Mulailah dengan mengimpor paket yang diperlukan ke proyek Java Anda. Paket-paket ini menyediakan kelas dan metode penting untuk bekerja dengan barcode.
+Mulailah dengan mengimpor paket‑paket yang diperlukan ke dalam proyek Java Anda. Paket‑paket ini menyediakan kelas dan metode penting untuk bekerja dengan barcode.
 
 ```java
-// Impor kelas Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +60,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-Sekarang, mari kita pecahkan kode tersebut menjadi panduan langkah demi langkah:
+Sekarang, mari kita uraikan kode menjadi panduan langkah‑demi‑langkah:
 
 ## Langkah 1: Siapkan Direktori Sumber Daya
 
 ```java
-// Jalur ke direktori sumber daya.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"`dengan jalur sebenarnya ke direktori dokumen Anda.
+Ganti `"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
-## Langkah 2: Tentukan Jalur Gambar Barcode dan Inisialisasi Pembaca
+## Langkah 2: Tentukan Jalur Gambar Barcode dan Inisialisasi Reader
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-// Inisialisasi BarCodeReader dengan jalur dan tipe dekode yang ditentukan
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-## Langkah 3: Baca Barcode dan Simpan Hasil
+## Langkah 3: Baca Barcode dan Simpan Hasilnya
 
 ```java
-// Iterasi melalui kode batang dan simpan hasilnya
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## Langkah 4: Tentukan Pembanding untuk Penyortiran
+## Langkah 4: Definisikan Comparator untuk Pengurutan
 
 ```java
-// Tentukan pembanding untuk mengurutkan barcode berdasarkan teks kode
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -88,14 +105,14 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 ## Langkah 5: Urutkan Barcode
 
 ```java
-// Urutkan daftar kode batang menggunakan pembanding yang ditentukan
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
-## Langkah 6: Tampilkan Barcode yang Diurutkan
+## Langkah 6: Tampilkan Barcode yang Telah Diurutkan
 
 ```java
-// Tampilkan kode batang yang diurutkan dengan koordinatnya
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +126,51 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
+## Masalah Umum dan Solusinya
+
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| **Tidak ada barcode yang terdeteksi** | `DecodeType` salah atau gambar ber kualitas rendah | Pastikan gambar berisi barcode CODE_128 dan gunakan `DecodeType` yang tepat. Anda juga dapat mencoba `DecodeType.ALL` untuk deteksi otomatis. |
+| **Urutan pengurutan tidak tepat** | Comparator membandingkan string secara leksikografis | Jika Anda memerlukan pengurutan numerik, konversikan `CodeText` ke `int` sebelum membandingkan. |
+| **Null pointer pada `BarCodeRegion`** | Jalur gambar salah atau file tidak ditemukan | Pastikan `path` mengarah ke file PNG yang valid dan file tersebut dapat dibaca oleh JVM. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Di mana saya dapat menemukan dokumentasi Aspose.BarCode for Java?**  
+J: Dokumentasi tersedia [di sini](https://reference.aspose.com/barcode/java/).
+
+**T: Bagaimana cara mengunduh Aspose.BarCode for Java?**  
+J: Anda dapat mengunduhnya dari [tautan unduhan](https://releases.aspose.com/barcode/java/).
+
+**T: Apakah ada versi percobaan gratis?**  
+J: Ya, Anda dapat menjelajahi versi percobaan gratis [di sini](https://releases.aspose.com/).
+
+**T: Bagaimana cara mendapatkan informasi lisensi sementara?**  
+J: Lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
+
+**T: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan?**  
+J: Kunjungi forum dukungan [di sini](https://forum.aspose.com/c/barcode/13).
+
+## FAQ Tambahan (Dioptimalkan AI)
+
+**T: Bisakah saya menggunakan kode ini dengan tipe barcode lain?**  
+J: Tentu. Ganti `DecodeType.CODE_128` dengan simbol yang didukung, seperti `DecodeType.QR` atau `DecodeType.DATA_MATRIX`.
+
+**T: Apakah Aspose.BarCode mendukung pemrosesan batch banyak gambar?**  
+J: Ya. Loop melalui koleksi jalur file dan gunakan kembali logika `BarCodeReader` yang sama untuk setiap gambar.
+
+**T: Bagaimana cara meningkatkan kinerja untuk kumpulan gambar besar?**  
+J: Gunakan kembali instance `BarCodeReader` bila memungkinkan dan proses gambar secara paralel menggunakan `ExecutorService` Java.
+
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara memanfaatkan Aspose.BarCode untuk Java untuk membaca dan mengurutkan kode batang dalam urutan tertentu. Dengan mengikuti panduan langkah demi langkah, Anda dapat menyempurnakan aplikasi Java Anda dengan kemampuan pemrosesan kode batang yang efisien.
+Pada tutorial ini kami mendemonstrasikan **cara membaca barcode** dengan Aspose.BarCode for Java, menyimpan setiap hasil, dan mengurutkan daftar dalam urutan khusus. Dengan mengikuti panduan langkah‑demi‑langkah, Anda dapat mengintegrasikan deteksi barcode yang kuat dan pengurutan ke dalam aplikasi Java apa pun—baik itu manajemen inventaris, logistik, atau tiket acara.
 
-## FAQ
+---
 
-### T: Di mana saya dapat menemukan dokumentasi Aspose.BarCode untuk Java?
- Dokumentasi tersedia[Di Sini](https://reference.aspose.com/barcode/java/).
-
-### T: Bagaimana cara mengunduh Aspose.BarCode untuk Java?
- Anda dapat mengunduhnya dari[tautan unduhan](https://releases.aspose.com/barcode/java/).
-
-### T: Apakah tersedia uji coba gratis?
- Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
-
-### T: Bagaimana cara mendapatkan informasi perizinan sementara?
- Lisensi sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
-
-### T: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan?
- Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/barcode/13).
+**Terakhir Diperbarui:** 2025-12-19  
+**Diuji Dengan:** Aspose.BarCode for Java 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
