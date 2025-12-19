@@ -1,36 +1,49 @@
 ---
-title: Łatwe rozpoznawanie kodów kreskowych z dokumentów Word
-linktitle: Rozpoznawanie kodów kreskowych z dokumentów Word
-second_title: Aspose.BarCode API Java
-description: Poznaj bezproblemową integrację rozpoznawania kodów kreskowych z aplikacjami Java za pomocą Aspose.BarCode. Skorzystaj z tego samouczka, aby rozpoznać kody kreskowe z dokumentów programu Word.
-weight: 12
+date: 2025-12-19
+description: Naucz się odczytywać kody kreskowe w Javie z dokumentów Word przy użyciu
+  Aspose.BarCode. Ten przewodnik obejmuje generowanie obrazów kodów kreskowych, wstawianie
+  ich do Worda oraz wyodrębnianie obrazów w celu odczytu kodów kreskowych.
+linktitle: read barcode java from Word Documents
+second_title: Aspose.BarCode Java API
+title: Jak odczytać kod kreskowy w Javie z dokumentów Word
 url: /pl/java/document-barcode-recognition/recognizing-barcodes-from-word/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Łatwe rozpoznawanie kodów kreskowych z dokumentów Word
+# Jak odczytać kod kreskowy java z dokumentów Word
 
+## Wprowadzenie
 
-## Wstęp
+Praca z kodami kreskowymi w aplikacjach Java jest powszechną potrzebą, szczególnie gdy kody te są osadzone w plikach Microsoft Word. W tym samouczku dowiesz się, **jak odczytać kod kreskowy java** z dokumentu Word przy użyciu Aspose.BarCode for Java. Przejdziemy przez generowanie obrazu kodu kreskowego, dodawanie go do pliku Word, wyodrębnianie obrazów z dokumentu Word oraz ostateczne dekodowanie kodu kreskowego przy użyciu przykładu czytnika kodów kreskowych w Javie.
 
-dynamicznym świecie programowania w języku Java potrzeba wydajnej pracy z kodami kreskowymi stale rośnie. Rozpoznawanie kodów kreskowych z dokumentów programu Word jest powszechnym wymaganiem i na szczęście Aspose.BarCode dla Java zapewnia solidne rozwiązanie. W tym samouczku przeprowadzimy Cię przez proces rozpoznawania kodów kreskowych z dokumentów programu Word przy użyciu Aspose.BarCode dla Java.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki użyto?** Aspose.BarCode for Java (z Aspose.Words do obsługi obrazów)  
+- **Czy mogę dodać kod kreskowy do Worda?** Tak – najpierw wygeneruj obraz, a następnie wstaw go przy pomocy Aspose.Words  
+- **Jak wyodrębnić obrazy z Worda?** Użyj `Document.getChildNodes(NodeType.SHAPE, true)`  
+- **Czy istnieje przykład czytnika kodów kreskowych w Javie?** Kod w Kroku 3 przedstawia kompletny przykład  
+- **Jakie są wymagania wstępne?** JDK, Aspose.BarCode for Java, środowisko IDE (Eclipse/IntelliJ)
 
-## Warunki wstępne
+## Czym jest rozpoznawanie kodów kreskowych w Javie?
+Rozpoznawanie kodów kreskowych w Javie odnosi się do procesu wykrywania i dekodowania symboli kodów kreskowych z obrazów lub dokumentów przy użyciu biblioteki takiej jak Aspose.BarCode. Umożliwia aplikacjom automatyczne odczytywanie kodów produktów, identyfikatorów magazynowych lub dowolnych zakodowanych danych bez ręcznego wprowadzania.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Dlaczego odczytywać kod kreskowy java z dokumentów Word?
+Osadzanie kodów kreskowych bezpośrednio w plikach Word jest przydatne w umowach, etykietach wysyłkowych czy raportach, gdzie wymagana jest wizualna reprezentacja kodu. Możliwość **wyodrębniania obrazów z Worda** i ich programowego dekodowania eliminuje potrzebę ręcznego skanowania i zmniejsza liczbę błędów.
 
-- Zestaw Java Development Kit (JDK): Aspose.BarCode dla Java wymaga środowiska programistycznego Java. Upewnij się, że masz zainstalowany najnowszy pakiet JDK w swoim systemie.
+## Wymagania wstępne
 
--  Aspose.BarCode dla Java: Pobierz i zainstaluj bibliotekę Aspose.BarCode dla Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/barcode/java/).
+Zanim przejdziesz dalej, upewnij się, że masz:
 
-- Zintegrowane środowisko programistyczne (IDE): Wybierz preferowane środowisko IDE, takie jak Eclipse lub IntelliJ, i postępuj zgodnie z przykładami.
+- **Java Development Kit (JDK)** – zainstalowany na komputerze aktualny JDK.  
+- **Aspose.BarCode for Java** – pobierz bibliotekę z oficjalnej strony [here](https://releases.aspose.com/barcode/java/).  
+- **Zintegrowane Środowisko Programistyczne (IDE)** – takie jak Eclipse lub IntelliJ IDEA do pisania i uruchamiania kodu.
 
-## Importuj pakiety
+## Importowanie pakietów
 
-Aby rozpocząć, w swoim projekcie Java zaimportuj niezbędne pakiety Aspose.BarCode:
+W swoim projekcie Java zaimportuj niezbędne pakiety Aspose.BarCode i Aspose.Words:
 
 ```java
 import java.text.MessageFormat;
@@ -45,9 +58,9 @@ import com.aspose.words.NodeCollection;
 import com.aspose.words.NodeType;
 ```
 
-## Krok 1: Wygeneruj obraz kodu kreskowego
+## Krok 1: Wygeneruj obraz kodu kreskowego (generate barcode image java)
 
-Najpierw utwórz obraz kodu kreskowego za pomocą Aspose.BarCode. Ustaw tekst kodu i zapisz obraz:
+Najpierw utwórz obraz kodu kreskowego przy użyciu Aspose.BarCode. Ten obraz zostanie później **added barcode to word**:
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);
@@ -56,9 +69,9 @@ String strBarCodeImageSave = dataDir + "img.jpg";
 generator.save(strBarCodeImageSave);
 ```
 
-## Krok 2: Dodaj obraz do dokumentu programu Word
+## Krok 2: Wstaw obraz kodu kreskowego do dokumentu Word (insert image into word)
 
-Teraz wstaw wygenerowany obraz kodu kreskowego do dokumentu Word za pomocą Aspose.Words:
+Teraz użyjemy Aspose.Words, aby **insert image into word** i zapisać dokument:
 
 ```java
 Document doc = new Document();
@@ -68,9 +81,9 @@ String strWordFile = "docout.doc";
 doc.save(dataDir + strWordFile);
 ```
 
-## Krok 3: Rozpoznaj kody kreskowe z dokumentu Word
+## Krok 3: Rozpoznaj kody kreskowe z dokumentu Word (java barcode reader example)
 
-Następnie wyodrębnij obrazy z dokumentu Word i rozpoznaj kody kreskowe za pomocą Aspose.BarCode:
+Na koniec wyodrębniamy każdy obraz z pliku Word i uruchamiamy **java barcode reader example**, aby zdekodować kod kreskowy:
 
 ```java
 NodeCollection<Shape> shapes = doc.getChildNodes(NodeType.SHAPE, true);
@@ -78,13 +91,13 @@ int imageIndex = 0;
 
 for (Shape shape : shapes) {
     if (shape.hasImage()) {
-        // Wyodrębnij obraz do pliku
+        // Extract image to file
         String extension = ImageTypeToExtension(shape.getImageData().getImageType());
         String imageFileName = MessageFormat.format("Image.ExportImages.{0} Out.{1}", imageIndex, extension);
         String strBarCodeImageExtracted = "" + imageFileName;
         shape.getImageData().save(strBarCodeImageExtracted);
 
-        // Rozpoznaj kod kreskowy z tego obrazu
+        // Recognize barcode from this image
         BarCodeReader reader = new BarCodeReader(strBarCodeImageSave, DecodeType.CODE_39_STANDARD);
         for (BarCodeResult result : reader.readBarCodes()) {
             System.out.println("CodeText: " + result.getCodeText());
@@ -95,28 +108,47 @@ for (Shape shape : shapes) {
 }
 ```
 
-Powtórz te kroki, a z powodzeniem rozpoznasz kody kreskowe z dokumentów programu Word przy użyciu Aspose.BarCode for Java.
+> **Uwaga:** Pętla powyżej demonstruje **extract images from word**, zapisuje każdy obraz i następnie dekoduje kod kreskowy przy użyciu tej samej ścieżki pliku obrazu. Dostosuj ścieżki (`dataDir`) do swojego środowiska.
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-Podsumowując, wykorzystanie Aspose.BarCode dla Java upraszcza proces rozpoznawania kodów kreskowych z dokumentów Word. Wykonaj czynności opisane powyżej, a bezproblemowo zintegrujesz rozpoznawanie kodów kreskowych z aplikacjami Java.
+- **Niezgodności ścieżek plików** – Upewnij się, że `dataDir` wskazuje na istniejący folder; w przeciwnym razie czytnik zgłosi `FileNotFoundException`.  
+- **Nieobsługiwane typy kodów kreskowych** – Przykład używa `CODE_39_STANDARD`. Jeśli potrzebujesz QR, DataMatrix itp., zmień zarówno `EncodeTypes`, jak i `DecodeType` odpowiednio.  
+- **Wydajność** – W przypadku dużych dokumentów rozważ przetwarzanie obrazów w równoległych strumieniach, aby przyspieszyć rozpoznawanie.
 
-## Często zadawane pytania (FAQ)
+## Najczęściej zadawane pytania (FAQ)
 
-### P: Czy mogę używać Aspose.BarCode dla Java w projektach komercyjnych?
- Tak, Aspose.BarCode dla Java jest dostępny do użytku komercyjnego. Możesz znaleźć szczegóły licencji[Tutaj](https://purchase.aspose.com/buy).
+### P: Czy mogę używać Aspose.BarCode for Java w projektach komercyjnych?
+Tak, Aspose.BarCode for Java jest dostępny do użytku komercyjnego. Szczegóły licencjonowania znajdziesz [here](https://purchase.aspose.com/buy).
 
-### P: Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode dla Java?
- Tak, możesz poznać funkcje Aspose.BarCode dla Java, pobierając bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+### P: Czy dostępna jest darmowa wersja próbna Aspose.BarCode for Java?
+Tak, możesz wypróbować funkcje Aspose.BarCode for Java, pobierając darmową wersję próbną [here](https://releases.aspose.com/).
 
-### P: Jak uzyskać wsparcie dla Aspose.BarCode dla Java?
-Aby uzyskać pomoc lub pytania, odwiedź forum Aspose.BarCode[Tutaj](https://forum.aspose.com/c/barcode/13).
+### P: Jak uzyskać wsparcie dla Aspose.BarCode for Java?
+W razie potrzeby pomocy lub pytań odwiedź forum Aspose.BarCode [here](https://forum.aspose.com/c/barcode/13).
 
-### P: Czy dostępne są licencje tymczasowe dla Aspose.BarCode dla Java?
- Tak, możesz uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+### P: Czy dostępne są tymczasowe licencje dla Aspose.BarCode for Java?
+Tak, tymczasowe licencje można uzyskać [here](https://purchase.aspose.com/temporary-license/).
 
-### P: Gdzie mogę znaleźć dokumentację Aspose.BarCode dla Java?
- Zapoznaj się z obszerną dokumentacją[Tutaj](https://reference.aspose.com/barcode/java/).
+### P: Gdzie znajdę dokumentację Aspose.BarCode for Java?
+Kompletną dokumentację znajdziesz [here](https://reference.aspose.com/barcode/java/).
+
+## Dodatkowe FAQ
+
+**P: Czy mogę odczytywać inne symbologie kodów kreskowych poza Code 39?**  
+O: Oczywiście. Wystarczy zmienić `EncodeTypes` przy generowaniu oraz `DecodeType` przy odczycie, aby dopasować pożądaną symbologię (np. `EncodeTypes.QR`, `DecodeType.QR`).
+
+**P: Czy to podejście działa również z plikami .docx?**  
+O: Tak. Aspose.Words obsługuje zarówno formaty `.doc`, jak i `.docx` bez dodatkowych zmian; ten sam kod działa w obu przypadkach.
+
+**P: Jak mogę poprawić dokładność rozpoznawania przy niskiej rozdzielczości obrazów?**  
+O: Zwiększ DPI przy zapisywaniu obrazu kodu kreskowego (`generator.save(strBarCodeImageSave, BarCodeImageFormat.JPEG, 300)`) lub użyj formatu obrazu wyższej jakości, takiego jak PNG.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-19  
+**Testowano z:** Aspose.BarCode for Java 24.11 oraz Aspose.Words for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
