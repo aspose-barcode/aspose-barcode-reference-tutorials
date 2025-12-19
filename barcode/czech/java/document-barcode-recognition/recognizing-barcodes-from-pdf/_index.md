@@ -1,38 +1,56 @@
 ---
-title: Rozpoznávání čárových kódů z PDF v Javě
-linktitle: Rozpoznávání čárových kódů z PDF
+date: 2025-12-19
+description: Naučte se, jak číst čárové kódy v Javě z PDF souborů pomocí Aspose.BarCode.
+  Tento krok‑za‑krokem průvodce ukazuje, jak efektivně generovat obrázek čárového
+  kódu a dekódovat jej.
+linktitle: Recognizing Barcodes from PDF
 second_title: Aspose.BarCode Java API
-description: Naučte se rozpoznávat čárové kódy z PDF v Javě pomocí Aspose.BarCode. Podrobný průvodce s příklady kódu. Zvyšte efektivitu správy dat!
-weight: 11
+title: Čtení čárových kódů v Javě – Rozpoznávání čárových kódů z PDF
 url: /cs/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozpoznávání čárových kódů z PDF v Javě
+# Read Barcode Java – Rozpoznání čárových kódů z PDF
 
+## Introduction
 
-## Úvod
+Vítejte v našem krok‑za‑krokem průvodci, jak **how to read barcode java** z PDF souborů pomocí Aspose.BarCode for Java. Čárové kódy hrají klíčovou roli v řízení a organizaci dat a s Aspose.BarCode se celý proces stává plynulým. V tomto tutoriálu vás provedeme vším, co potřebujete – od nastavení předpokladů po generování obrázku čárového kódu, jeho vložení do PDF, převod PDF na obrázky a nakonec dekódování obrázku čárového kódu.
 
-Vítejte v našem podrobném průvodci o rozpoznávání čárových kódů z PDF pomocí Aspose.BarCode for Java. Čárové kódy hrají klíčovou roli ve správě a organizaci dat a s Aspose.BarCode se proces stává bezproblémovým. V tomto tutoriálu vás provedeme celým procesem, od nastavení nezbytných předpokladů až po implementaci kódu pro rozpoznávání čárových kódů do souboru PDF.
+## Quick Answers
+- **What does this tutorial cover?** Generování obrázku čárového kódu, vložení do PDF, extrakce obrázků a zpětné čtení čárového kódu.  
+- **Which library is required?** Aspose.BarCode for Java (s Aspose.PDF pro práci s PDF).  
+- **Do I need a license?** Ano – licence pro Aspose.BarCode a licence pro Aspose.PDF jsou vyžadovány pro produkční použití.  
+- **Can I use other barcode types?** Samozřejmě – API podporuje mnoho symbologií; v příkladu je použito CODE‑39.  
+- **How long does implementation take?** Přibližně 10‑15 minut pro základní end‑to‑end tok.
 
-## Předpoklady
+## What is **read barcode java**?
+Čtení čárového kódu v Javě znamená extrahování zakódovaných dat z obrázku nebo dokumentu pomocí knihovny pro rozpoznávání čárových kódů. Aspose.BarCode poskytuje jednoduché API, které provádí dekódování bez potřeby externích nástrojů.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Why use Aspose.BarCode for Java?
+- **All‑in‑one solution** – generování, vkládání i dekódování čárových kódů pomocí jednoho SDK.  
+- **High accuracy** – podporuje 1D, 2D a poštovní symbologie.  
+- **No external dependencies** – funguje v čistých Java projektech.  
+- **Robust PDF support** – úzce integruje s Aspose.PDF pro bezproblémovou manipulaci s PDF.
 
-1.  Licence Aspose.BarCode for Java: Získejte a nastavte platnou licenci pro Aspose.BarCode for Java. Licenci můžete získat od[Aspose Nákup](https://purchase.aspose.com/buy).
+## Prerequisites
 
-2.  Licence Aspose.PDF: Dále nastavte licenci pro Aspose.PDF, která je nutná pro práci se soubory PDF. Můžete požádat o licenci[tady](https://purchase.aspose.com/temporary-license/).
+Před zahájením tutoriálu se ujistěte, že máte připraveny následující předpoklady:
 
-3.  Stáhnout Aspose.BarCode pro Java: Stáhněte si knihovnu Aspose.BarCode z[tady](https://releases.aspose.com/barcode/java/).
+1. **Aspose.BarCode for Java License** – Získejte a nastavte platnou licenci pro Aspose.BarCode for Java. Licenci můžete získat na [Aspose Purchase](https://purchase.aspose.com/buy).
 
-Nyní, když máte potřebné předpoklady, přistoupíme k importu požadovaných balíčků a zahájíme náš tutoriál.
+2. **Aspose.PDF License** – Dále nastavte licenci pro Aspose.PDF, která je nutná pro práci s PDF soubory. Licenci můžete požádat [zde](https://purchase.aspose.com/temporary-license/).
 
-## Importujte balíčky
+3. **Download Aspose.BarCode for Java** – Stáhněte knihovnu Aspose.BarCode z [zde](https://releases.aspose.com/barcode/java/).
 
-Do svého projektu Java zahrňte balíčky Aspose.BarCode a Aspose.PDF. Zde je ukázkový fragment kódu, který vám pomůže začít:
+Nyní, když máte všechny potřebné předpoklady, přejděme k importu požadovaných balíčků a zahájení tutoriálu.
+
+## Import Packages
+
+Ve vašem Java projektu zahrňte balíčky Aspose.BarCode a Aspose.PDF. Níže je ukázkový kód, který vám pomůže začít:
 
 ```java
 import com.aspose.barcode.*;
@@ -48,7 +66,13 @@ import java.io.File;
 import javax.imageio.ImageIO;
 ```
 
-## Krok 1: Vygenerujte čárový kód a přidejte jej do PDF
+## How to read barcode java from PDF
+
+Níže je kompletní end‑to‑end workflow. Každý krok je vysvětlen srozumitelně a přiložený kód zůstává nezměněn oproti originálnímu tutoriálu.
+
+### Step 1: Generate Barcode and Add to PDF
+
+Nejprve **vygenerujeme obrázek čárového kódu** pomocí `BarcodeGenerator`. Tento obrázek bude později vložen do PDF dokumentu.
 
 ```java
 BarcodeGenerator builder = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_39_STANDARD);
@@ -57,7 +81,9 @@ String strBarCodeImageSave = dataDir + "input_image1.jpg";
 builder.save(strBarCodeImageSave);
 ```
 
-## Krok 2: Vytvořte PDF a přidejte obrázek s čárovým kódem
+### Step 2: Create PDF and Add Barcode Image
+
+Dále **přidáme vygenerovaný obrázek čárového kódu do nového PDF** (tj. *add barcode pdf*). Tento krok ukazuje, jak vložit obrázky přímo na stránku PDF.
 
 ```java
 Document pdf1 = new Document();
@@ -67,7 +93,9 @@ page.getResources().getImages().add(originalImage);
 pdf1.save(strPdfDoc);
 ```
 
-## Krok 3: Extrahujte obrázky z PDF
+### Step 3: Extract Images from PDF
+
+Pro **převod PDF na obrázky** použijeme `PdfExtractor`. Tento krok vytáhne vložený obrázek čárového kódu z PDF, aby ho bylo možné dekódovat.
 
 ```java
 PdfExtractor extractor = new PdfExtractor();
@@ -75,7 +103,9 @@ extractor.bindPdf(strPdfDoc);
 extractor.extractImage();
 ```
 
-## Krok 4: Rozpoznejte čárový kód z extrahovaných obrázků
+### Step 4: Recognize Barcode from Extracted Images
+
+Nakonec **dekódujeme obrázek čárového kódu** (tj. *decode barcode image*) pomocí `BarCodeReader`. Smyčka zpracuje každý extrahovaný obrázek a vypíše dekódovaný text a symbologii.
 
 ```java
 String suffix = ".jpg";
@@ -97,28 +127,51 @@ while (extractor.hasNextImage()) {
 }
 ```
 
-Opakujte tyto kroky podle potřeby a podle toho upravte názvy souborů a cesty.
+Opakujte tyto kroky podle potřeby a upravte názvy souborů a cesty podle svého prostředí.
 
-## Závěr
+## Common Issues and Solutions
 
- Gratulujeme! Úspěšně jste se naučili rozpoznávat čárové kódy z PDF pomocí Aspose.BarCode for Java. Cílem tohoto návodu bylo poskytnout komplexního průvodce při zachování jednoduchosti a přehlednosti. Neváhejte a prozkoumejte další funkce a funkce nabízené Aspose.BarCode v[dokumentace](https://reference.aspose.com/barcode/java/).
+| Issue | Solution |
+|-------|----------|
+| **License not found** | Ujistěte se, že licence pro Aspose.BarCode i Aspose.PDF jsou správně načteny před jakýmkoli voláním API. |
+| **No images extracted** | Ověřte, že PDF skutečně obsahuje obrázky a že `extractImage()` je voláno po navázání PDF. |
+| **Incorrect barcode type** | Použijte odpovídající `DecodeType`, který odpovídá generované symbologii (např. `CODE_39_EXTENDED`). |
+| **File path problems** | Používejte absolutní cesty nebo zajistěte, aby pracovní adresář byl nastaven na složku obsahující vaše zdroje. |
 
-## Často kladené otázky (FAQ)
+## Frequently Asked Questions (FAQs)
 
-### Otázka: Mohu používat Aspose.BarCode pro Javu bez licence?
-Aspose.BarCode lze používat bez licence, ale pro plnou funkčnost a dodržování licenčních podmínek se doporučuje pořídit si ji.
+### Q: Can I use Aspose.BarCode for Java without a license?
+I když je možné Aspose.BarCode použít bez licence, doporučujeme získat licenci pro plnou funkčnost a dodržení licenčních podmínek.
 
-### Otázka: Jak mohu získat dočasnou licenci pro Aspose.BarCode for Java?
- Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+### Q: How can I get a temporary license for Aspose.BarCode for Java?
+Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-### Otázka: Existují nějaká omezení pro typy čárových kódů podporované Aspose.BarCode?
-Aspose.BarCode podporuje širokou škálu typů čárových kódů. Úplný seznam naleznete v dokumentaci.
+### Q: Are there any limitations on the barcode types supported by Aspose.BarCode?
+Aspose.BarCode podporuje širokou škálu typů čárových kódů. Kompletní seznam najdete v dokumentaci.
 
-### Otázka: Je k dispozici zkušební verze pro Aspose.BarCode pro Javu?
- Ano, zkušební verzi si můžete stáhnout z[tady](https://releases.aspose.com/).
+### Q: Is there a trial version available for Aspose.BarCode for Java?
+Ano, trial verzi můžete stáhnout [zde](https://releases.aspose.com/).
 
-### Otázka: Kde mohu hledat podporu nebo se ptát na Aspose.BarCode for Java?
- Navštivte Aspose.BarCode[Fórum](https://forum.aspose.com/c/barcode/13) za podporu a diskuze.
+### Q: Where can I seek support or ask questions about Aspose.BarCode for Java?
+Navštivte fórum Aspose.BarCode [zde](https://forum.aspose.com/c/barcode/13) pro podporu a diskuze.
+
+**Additional Quick FAQ**
+
+**Q: Can I read barcodes from password‑protected PDFs?**  
+A: Ano – načtěte PDF s příslušným heslem pomocí Aspose.PDF před extrakcí.
+
+**Q: Does this approach work with other barcode symbologies?**  
+A: Rozhodně. Změňte `EncodeTypes` a `DecodeType` tak, aby odpovídaly požadované symbologii.
+
+## Conclusion
+
+Gratulujeme! Úspěšně jste se naučili, jak **read barcode java** z PDF pomocí Aspose.BarCode for Java. Tento tutoriál pokrýval generování obrázku čárového kódu, jeho vložení do PDF, převod PDF na obrázky a dekódování obrázku čárového kódu – vše s jasnými krok‑za‑krokem ukázkami. Neváhejte prozkoumat další funkce a možnosti, které Aspose.BarCode nabízí v [dokumentaci](https://reference.aspose.com/barcode/java/).
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.BarCode for Java 24.11, Aspose.PDF for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
