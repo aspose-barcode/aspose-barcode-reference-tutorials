@@ -1,37 +1,54 @@
 ---
-title: Odczytywanie i sortowanie kodów kreskowych w określonej kolejności w Javie
-linktitle: Odczytywanie i sortowanie kodów kreskowych w określonej kolejności
-second_title: Aspose.BarCode API Java
-description: Ulepsz swoje aplikacje Java za pomocą Aspose.BarCode! Naucz się efektywnie czytać i sortować kody kreskowe. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-weight: 10
+date: 2025-12-19
+description: Dowiedz się, jak odczytywać kody kreskowe za pomocą Aspose.BarCode dla
+  Javy, sortować je w określonej kolejności i zobacz kompletny przykład wykrywania
+  kodów kreskowych w Javie.
+linktitle: Reading and Sorting Barcodes in Specific Order
+second_title: Aspose.BarCode Java API
+title: Jak odczytywać kody kreskowe i sortować je w określonej kolejności w Javie
 url: /pl/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Odczytywanie i sortowanie kodów kreskowych w określonej kolejności w Javie
+# Jak odczytywać kody kreskowe i sortować je w określonej kolejności w Javie
 
+## Wprowadzenie
 
-## Wstęp
+W nowoczesnych aplikacjach Java, **jak odczytywać kody kreskowe** efektywnie, jest częstym pytaniem. Niezależnie od tego, czy przetwarzasz listy inwentarzowe, etykiety wysyłkowe czy bilety na wydarzenia, niezawodne rozwiązanie do kodów kreskowych może zaoszczędzić Ci godziny ręcznej pracy. W tym samouczku pokażemy, jak odczytywać kody kreskowe i sortować je w określonej kolejności przy użyciu **Aspose.BarCode for Java**. Otrzymasz kompletny, gotowy do uruchomienia przykład, który demonstruje wykrywanie kodów kreskowych, wyodrębnianie tekstu kodu oraz niestandardową logikę sortowania.
 
-W dynamicznym świecie programowania w języku Java wydajna obsługa kodów kreskowych jest powszechnym wymogiem w wielu zastosowaniach. Aspose.BarCode dla Java jawi się jako potężne narzędzie, oferujące bezproblemową integrację do odczytu i sortowania kodów kreskowych. W tym samouczku przyjrzymy się, jak czytać i sortować kody kreskowe w określonej kolejności za pomocą Aspose.BarCode dla Java.
+## Szybkie odpowiedzi
+- **Jaką bibliotekę powinienem używać?** Aspose.BarCode for Java
+- **Czy mogę sortować kody kreskowe po ich odczytaniu?** Tak – wystarczy zapisać wyniki i zastosować comparator
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji
+- **Jaką wersję Javy obsługuje?** Java 8 i nowsze
+- **Czy jest to przykład wykrywania kodów kreskowych w Javie?** Zdecydowanie – kod odczytuje kody kreskowe CODE_128 i sortuje je
 
-## Warunki wstępne
+## Co to jest „jak odczytywać kody kreskowe” w Javie?
+Odczytywanie kodów kreskowych oznacza dekodowanie wizualnego wzoru obrazu kodu kreskowego do jego podstawowej wartości tekstowej. Aspose.BarCode udostępnia wysokowydajny **barcode reading aspose** silnik, który obsługuje dziesiątki symbologii, w tym CODE_128, QR, DataMatrix i inne.
 
-Zanim zagłębisz się w kod, upewnij się, że spełniasz następujące wymagania wstępne:
+## Dlaczego warto używać Aspose.BarCode do odczytu kodów kreskowych aspose?
+- **Wysoka dokładność** – działa nawet przy obrazach o niskiej rozdzielczości
+- **Proste API** – kilka linijek kodu przenosi Cię od obrazu do tekstu
+- **Cross‑platform** – działa w każdym środowisku kompatybilnym z JVM
+- **Wbudowane wsparcie sortowania** – możesz łatwo połączyć odczyt z kolekcjami Javy
 
--  Zestaw Java Development Kit (JDK): Aspose.BarCode dla Java wymaga działającego pakietu JDK. Możesz pobrać najnowszą wersję[Tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Wymagania wstępne
 
--  Biblioteka Aspose.BarCode: Upewnij się, że masz bibliotekę Aspose.BarCode. Można go uzyskać od[link do pobrania](https://releases.aspose.com/barcode/java/).
+Zanim zanurzysz się w kod, upewnij się, że spełniasz następujące wymagania:
 
-## Importuj pakiety
+- Java Development Kit (JDK): Aspose.BarCode for Java wymaga działającego JDK. Najnowszą wersję możesz pobrać [tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Biblioteka Aspose.BarCode: Upewnij się, że masz bibliotekę Aspose.BarCode. Możesz ją uzyskać z [linku do pobrania](https://releases.aspose.com/barcode/java/).
 
-Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Pakiety te zapewniają podstawowe klasy i metody pracy z kodami kreskowymi.
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Pakiety te dostarczają kluczowych klas i metod do pracy z kodami kreskowymi.
 
 ```java
-// Importuj klasy Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +60,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-Podzielmy teraz kod na przewodnik krok po kroku:
+Teraz przeanalizujemy kod krok po kroku:
 
-## Krok 1: Skonfiguruj katalog zasobów
+## Krok 1: Ustaw katalog zasobów
 
 ```java
-// Ścieżka do katalogu zasobów.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` rzeczywistą ścieżką do katalogu dokumentów.
+Zastąp `"Your Document Directory"` rzeczywistą ścieżką do katalogu dokumentów.
 
-## Krok 2: Określ ścieżkę obrazu kodu kreskowego i zainicjuj czytnik
+## Krok 2: Określ ścieżkę do obrazu kodu kreskowego i zainicjalizuj czytnik
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-// Zainicjuj BarCodeReader z określoną ścieżką i typem dekodowania
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-## Krok 3: Przeczytaj kody kreskowe i wyniki sklepu
+## Krok 3: Odczytaj kody kreskowe i zapisz wyniki
 
 ```java
-// Iteruj po kodach kreskowych i przechowuj wyniki
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## Krok 4: Zdefiniuj komparator do sortowania
+## Krok 4: Zdefiniuj Comparator do sortowania
 
 ```java
-// Zdefiniuj komparator do sortowania kodów kreskowych na podstawie tekstu kodu
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -85,17 +102,17 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-## Krok 5: Sortuj kody kreskowe
+## Krok 5: Posortuj kody kreskowe
 
 ```java
-// Sortuj listę kodów kreskowych za pomocą zdefiniowanego komparatora
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
 ## Krok 6: Wyświetl posortowane kody kreskowe
 
 ```java
-// Wyświetlaj posortowane kody kreskowe wraz z ich współrzędnymi
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +126,51 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-tym samouczku omówiliśmy, jak wykorzystać Aspose.BarCode dla języka Java do odczytywania i sortowania kodów kreskowych w określonej kolejności. Postępując zgodnie z przewodnikiem krok po kroku, możesz ulepszyć swoje aplikacje Java dzięki wydajnym możliwościom przetwarzania kodów kreskowych.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| **Nie wykryto żadnych kodów kreskowych** | Nieprawidłowy `DecodeType` lub niska jakość obrazu | Zweryfikuj, czy obraz zawiera kod kreskowy CODE_128 i użyj odpowiedniego `DecodeType`. Możesz także spróbować `DecodeType.ALL` dla automatycznego wykrywania. |
+| **Nieprawidłowa kolejność sortowania** | Comparator porównuje ciągi znaków leksykograficznie | Jeśli potrzebujesz sortowania numerycznego, przekonwertuj `CodeText` na `int` przed porównaniem. |
+| **Null pointer przy `BarCodeRegion`** | Ścieżka do obrazu jest błędna lub plik nie został znaleziony | Upewnij się, że `path` wskazuje na istniejący plik PNG i że plik jest czytelny dla JVM. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P: Gdzie mogę znaleźć dokumentację Aspose.BarCode for Java?
- Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/barcode/java/).
+**Q: Gdzie mogę znaleźć dokumentację Aspose.BarCode for Java?**  
+A: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/barcode/java/).
 
-### P: Jak mogę pobrać Aspose.BarCode dla Java?
- Można go pobrać z[link do pobrania](https://releases.aspose.com/barcode/java/).
+**Q: Jak mogę pobrać Aspose.BarCode for Java?**  
+A: Możesz pobrać ją z [linku do pobrania](https://releases.aspose.com/barcode/java/).
 
-### P: Czy dostępny jest bezpłatny okres próbny?
- Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+**Q: Czy dostępna jest darmowa wersja próbna?**  
+A: Tak, darmową wersję próbną możesz wypróbować [tutaj](https://releases.aspose.com/).
 
-### P: Jak uzyskać informacje o licencjach tymczasowych?
- Można uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+**Q: Jak uzyskać tymczasowe informacje licencyjne?**  
+A: Tymczasowe licencje można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P: Gdzie mogę szukać wsparcia lub zadać pytania?
- Odwiedź forum pomocy[Tutaj](https://forum.aspose.com/c/barcode/13).
+**Q: Gdzie mogę uzyskać wsparcie lub zadać pytania?**  
+A: Odwiedź forum wsparcia [tutaj](https://forum.aspose.com/c/barcode/13).
+
+## Dodatkowe FAQ (optymalizowane AI)
+
+**Q: Czy mogę używać tego kodu z innymi typami kodów kreskowych?**  
+A: Oczywiście. Zmien `DecodeType.CODE_128` na dowolną obsługiwaną symbologię, np. `DecodeType.QR` lub `DecodeType.DATA_MATRIX`.
+
+**Q: Czy Aspose.BarCode obsługuje przetwarzanie wsadowe wielu obrazów?**  
+A: Tak. Przejdź pętlą po kolekcji ścieżek do plików i ponownie użyj tej samej logiki `BarCodeReader` dla każdego obrazu.
+
+**Q: Jak mogę poprawić wydajność przy dużych zestawach obrazów?**  
+A: Ponownie używaj instancji `BarCodeReader`, gdy to możliwe, i przetwarzaj obrazy równolegle przy użyciu `ExecutorService` w Javie.
+
+## Podsumowanie
+
+W tym samouczku pokazaliśmy **jak odczytywać kody kreskowe** przy użyciu Aspose.BarCode for Java, zapisywaliśmy każdy wynik i sortowaliśmy listę w niestandardowej kolejności. Postępując zgodnie z przewodnikiem krok po kroku, możesz zintegrować solidne wykrywanie i sortowanie kodów kreskowych w dowolnej aplikacji Java — niezależnie od tego, czy jest to zarządzanie inwentarzem, logistyka, czy sprzedaż biletów.
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.BarCode for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

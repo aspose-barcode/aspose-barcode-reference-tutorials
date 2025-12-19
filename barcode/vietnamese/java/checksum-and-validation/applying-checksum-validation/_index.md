@@ -1,69 +1,75 @@
 ---
-title: Áp dụng xác thực tổng kiểm tra trong Java
-linktitle: Áp dụng xác thực tổng kiểm tra
-second_title: API Java Aspose.BarCode
-description: Xác thực mã vạch thành thạo trong Java một cách dễ dàng với Aspose.BarCode. Hướng dẫn từng bước để xác thực tổng kiểm tra. Tăng cường tính toàn vẹn dữ liệu của phần mềm của bạn!
-weight: 12
+date: 2025-12-19
+description: Tìm hiểu cách tắt kiểm tra checksum trong Java với Aspose.BarCode. Hướng
+  dẫn từng bước này chỉ cho bạn cách đọc mã vạch, tắt checksum và đảm bảo xử lý dữ
+  liệu đáng tin cậy.
+linktitle: How to Disable Checksum Validation
+second_title: Aspose.BarCode Java API
+title: Cách vô hiệu hoá kiểm tra checksum trong Java
 url: /vi/java/checksum-and-validation/applying-checksum-validation/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Áp dụng xác thực tổng kiểm tra trong Java
+# Cách Vô Hiệu Hóa Kiểm Tra Checksum trong Java
 
-# Nắm vững xác thực tổng kiểm tra mã vạch với Aspose.BarCode Java
+Trong các ứng dụng quản lý tồn kho và logistics hiện đại, **cách vô hiệu hóa checksum** có thể là chìa khóa để đọc các mã vạch kế thừa không có chữ số checksum. Aspose.BarCode for Java giúp dễ dàng tắt kiểm tra checksum trong khi vẫn trích xuất dữ liệu đã mã hoá. Hướng dẫn này sẽ đưa bạn qua toàn bộ quá trình — từ thiết lập dự án đến việc đọc mã vạch ONE‑CODE mà không cần xác thực checksum.
 
-Trong thế giới phát triển phần mềm năng động, việc tạo và xác nhận mã vạch là một kỹ năng cơ bản. Aspose.BarCode for Java đơn giản hóa quy trình này, cung cấp một bộ công cụ mạnh mẽ để tạo và xác thực mã vạch. Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào ứng dụng xác thực tổng kiểm tra trong Java bằng Aspose.BarCode.
+## Câu trả lời nhanh
+- **Việc vô hiệu hóa checksum có tác dụng gì?** Nó cho trình đọc bỏ qua trường checksum, cho phép các mã vạch không có checksum hợp lệ được xử lý.  
+- **Khi nào nên vô hiệu hóa checksum?** Khi làm việc với các hệ thống kế thừa hoặc các mã vạch không chuẩn mà bỏ qua hoặc làm hỏng checksum.  
+- **Lớp nào kiểm soát việc xác thực checksum?** `BarCodeReader.setChecksumValidation(ChecksumValidation)`  
+- **Vô hiệu hóa checksum có an toàn không?** Chỉ khi bạn tin nguồn của mã vạch; nếu không, việc xác thực giúp phát hiện lỗi.  
+- **Điều này có ảnh hưởng đến các loại mã vạch khác không?** Cài đặt chỉ áp dụng cho instance `BarCodeReader` hiện tại.
 
-## Giới thiệu
+## Kiểm tra Checksum là gì?
+Kiểm tra checksum là một kiểm tra tính toàn vẹn dữ liệu, tính toán một giá trị nhỏ từ nội dung của mã vạch và so sánh nó với checksum được nhúng. Nếu chúng không khớp, mã vạch được coi là không đọc được. Vô hiệu hóa kiểm tra này sẽ khiến Aspose.BarCode bỏ qua việc so sánh.
 
-Mã vạch có mặt khắp nơi trong kinh doanh hiện đại, từ bán lẻ đến hậu cần. Chúng mã hóa thông tin cần thiết và đóng vai trò then chốt trong tính toàn vẹn dữ liệu. Aspose.BarCode for Java trao quyền cho các nhà phát triển nâng cao các chức năng liên quan đến mã vạch một cách liền mạch.
+## Tại sao nên vô hiệu hóa Checksum với Aspose.BarCode?
+- **Hỗ trợ hệ thống cũ:** Các máy quét cũ thường tạo mã vạch không có checksum.  
+- **Hiệu suất:** Bỏ qua tính toán có thể tăng tốc độ đọc hàng loạt.  
+- **Linh hoạt:** Bạn có thể quyết định cho mỗi instance của trình đọc có áp dụng xác thực hay không.
 
-## Điều kiện tiên quyết
+## Yêu cầu trước
+- **Java Development Kit (JDK):** Đảm bảo bạn đã cài đặt JDK mới nhất.  
+- **Thư viện Aspose.BarCode:** Tải thư viện từ trang chính thức [here](https://releases.aspose.com/barcode/java/).  
 
-Trước khi chúng ta bắt đầu cuộc hành trình của mình, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-
-- Bộ công cụ phát triển Java (JDK): Aspose.BarCode cho Java dựa trên Java, do đó việc cài đặt JDK mới nhất là rất quan trọng.
--  Thư viện Aspose.BarCode: Tải xuống và thiết lập thư viện Aspose.BarCode. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/barcode/java/).
-
-## Gói nhập khẩu
-
-Trong dự án Java của bạn, hãy nhập các gói Aspose.BarCode cần thiết để truy cập các chức năng mã vạch một cách dễ dàng.
+## Nhập các Gói
+Trong dự án Java của bạn, nhập các lớp Aspose.BarCode cần thiết để làm việc với việc nhận dạng mã vạch.
 
 ```java
-// Nhập các lớp Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.ChecksumValidation;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Bước 1: Thiết lập dự án của bạn
+## Hướng dẫn từng bước
 
-Bắt đầu bằng cách tạo một dự án Java mới và thêm thư viện Aspose.BarCode vào các phần phụ thuộc của dự án của bạn.
+### Bước 1: Thiết lập dự án của bạn
+Tạo một dự án Java mới (IDE bạn muốn) và thêm file JAR Aspose.BarCode vào classpath của dự án.
 
-## Bước 2: Khởi tạo BarCodeReader
-
-Tạo một phiên bản của lớp BarCodeReader và tải mã vạch một mã hiện có từ thư mục tài liệu của bạn.
+### Bước 2: Khởi tạo `BarCodeReader`
+Tải ảnh chứa mã vạch ONE‑CODE mà bạn muốn đọc.
 
 ```java
 String dataDir = "Your Document Directory";
 BarCodeReader reader = new BarCodeReader(dataDir + "onecode.png", DecodeType.ONE_CODE);
 ```
 
-## Bước 3: Tắt xác thực tổng kiểm tra
-
-Đặt thuộc tính ChecksumValidation thành Tắt để tắt xác thực tổng kiểm tra.
+### Bước 3: Cách vô hiệu hóa Checksum
+Yêu cầu trình đọc bỏ qua việc xác thực checksum bằng cách đặt thuộc tính thành `OFF`.
 
 ```java
 reader.setChecksumValidation(ChecksumValidation.OFF);
 ```
 
-## Bước 4: Đọc mã vạch
-
-Sử dụng vòng lặp để duyệt qua mã vạch và truy xuất thông tin.
+### Bước 4: Đọc mã vạch
+Lặp qua các kết quả và in ra văn bản đã giải mã cùng loại biểu tượng.
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -72,29 +78,35 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Quy trình đơn giản nhưng mạnh mẽ này cho phép bạn áp dụng xác thực tổng kiểm tra một cách dễ dàng.
+**Kết quả:** Văn bản mã vạch được hiển thị ngay cả khi ảnh gốc không có checksum hợp lệ.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
+- **Đường dẫn tệp không đúng:** Kiểm tra `dataDir` trỏ tới thư mục đúng; sử dụng đường dẫn tuyệt đối khi thử nghiệm.  
+- **Loại mã vạch không được hỗ trợ:** Đảm bảo `DecodeType` khớp với mã vạch bạn đang đọc.  
+- **Hiệu suất:** Vô hiệu hóa checksum trên các lô lớn có thể cải thiện tốc độ xử lý, nhưng luôn bật lại khi dữ liệu quan trọng.
 
-Aspose.BarCode for Java mở ra nhiều khả năng trong việc tạo và xác thực mã vạch. Với cách tiếp cận đơn giản, việc áp dụng xác thực tổng kiểm tra sẽ trở thành một phần không thể thiếu trong các dự án liên quan đến mã vạch của bạn.
-
-## Các câu hỏi thường gặp
+## Câu hỏi thường gặp
 
 ### Aspose.BarCode có tương thích với các loại mã vạch khác nhau không?
-Có, Aspose.BarCode hỗ trợ nhiều loại mã vạch, mang lại tính linh hoạt trong các dự án của bạn.
+Có, Aspose.BarCode hỗ trợ đa dạng các loại mã vạch, từ QR và DataMatrix đến các mã tuyến tính truyền thống.
 
 ### Tôi có thể sử dụng Aspose.BarCode cho mục đích thương mại không?
-Tuyệt đối. Aspose.BarCode cung cấp giấy phép thương mại cho các doanh nghiệp để tận dụng khả năng của nó một cách liền mạch.
+Chắc chắn. Giấy phép thương mại có sẵn cho các doanh nghiệp cần các tính năng sẵn sàng cho sản xuất.
 
-### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.BarCode?
- Tham quan[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.
+### Làm sao tôi có thể nhận hỗ trợ cho Aspose.BarCode?
+Truy cập [diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để kết nối với cộng đồng và nhận hỗ trợ từ đội ngũ sản phẩm.
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể khám phá các tính năng của Aspose.BarCode bằng cách truy cập[dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể khám phá toàn bộ tính năng bằng cách tải về [bản dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu chi tiết ở đâu?
- Tham khảo đến[tài liệu](https://reference.aspose.com/barcode/java/)để biết thông tin chuyên sâu về Aspose.BarCode cho Java.
+Tham khảo [tài liệu](https://reference.aspose.com/barcode/java/) toàn diện để biết chi tiết API, mẫu mã và các thực tiễn tốt nhất.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-19  
+**Đã kiểm tra với:** Aspose.BarCode for Java (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

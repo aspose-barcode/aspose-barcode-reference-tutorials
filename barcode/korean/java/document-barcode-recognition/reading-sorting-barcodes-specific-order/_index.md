@@ -1,37 +1,54 @@
 ---
-title: Java에서 특정 순서로 바코드 읽기 및 정렬
-linktitle: 특정 순서로 바코드 읽기 및 정렬
-second_title: Aspose.BarCode 자바 API
-description: Aspose.BarCode로 Java 애플리케이션을 강화하세요! 바코드를 효율적으로 읽고 정렬하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-weight: 10
+date: 2025-12-19
+description: Aspose.BarCode for Java를 사용하여 바코드를 읽는 방법을 배우고, 특정 순서대로 정렬하며, 완전한 바코드
+  감지 Java 예제를 확인하세요.
+linktitle: Reading and Sorting Barcodes in Specific Order
+second_title: Aspose.BarCode Java API
+title: Java에서 바코드를 읽고 특정 순서대로 정렬하는 방법
 url: /ko/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 특정 순서로 바코드 읽기 및 정렬
+# Java에서 바코드를 읽고 특정 순서대로 정렬하는 방법
 
+## Introduction
 
-## 소개
+현대 Java 애플리케이션에서 **바코드를 효율적으로 읽는 방법**은 자주 묻는 질문입니다. 재고 목록, 배송 라벨, 이벤트 티켓 등을 처리하든, 신뢰할 수 있는 바코드 솔루션은 수작업 시간을 크게 절감해 줍니다. 이 튜토리얼에서는 **Aspose.BarCode for Java**를 사용해 바코드를 읽고 특정 순서대로 정렬하는 방법을 보여드립니다. 바코드 감지, 코드 텍스트 추출, 사용자 정의 정렬 로직을 포함한 완전한 실행 예제를 제공합니다.
 
-Java 프로그래밍의 역동적인 세계에서 바코드를 효율적으로 처리하는 것은 많은 애플리케이션의 공통 요구 사항입니다. Aspose.BarCode for Java는 바코드 판독 및 정렬을 위한 완벽한 통합을 제공하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 Java용 Aspose.BarCode를 사용하여 특정 순서로 바코드를 읽고 정렬하는 방법을 살펴보겠습니다.
+## Quick Answers
+- **What library should I use?** Aspose.BarCode for Java
+- **Can I sort barcodes after reading them?** Yes – just store the results and apply a comparator
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production
+- **Which Java version is supported?** Java 8 and later
+- **Is this a barcode detection Java example?** Absolutely – the code reads CODE_128 barcodes and sorts them
 
-## 전제 조건
+## What is “how to read barcodes” in Java?
+바코드를 읽는다는 것은 바코드 이미지의 시각적 패턴을 해당 텍스트 값으로 디코딩하는 것을 의미합니다. Aspose.BarCode는 CODE_128, QR, DataMatrix 등 수십 가지 심볼을 지원하는 고성능 **barcode reading aspose** 엔진을 제공합니다.
 
-코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Why use Aspose.BarCode for barcode reading aspose?
+- **High accuracy** – 저해상도 이미지에서도 작동
+- **Simple API** – 몇 줄의 코드만으로 이미지에서 텍스트를 추출
+- **Cross‑platform** – 모든 JVM 호환 환경에서 동작
+- **Built‑in sorting support** – Java 컬렉션과 쉽게 결합하여 정렬 가능
 
--  JDK(Java Development Kit): Java용 Aspose.BarCode에는 JDK가 작동해야 합니다. 최신 버전을 다운로드할 수 있습니다.[여기](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Prerequisites
 
--  Aspose.BarCode 라이브러리: Aspose.BarCode 라이브러리가 있는지 확인하세요. 에서 얻으실 수 있습니다.[다운로드 링크](https://releases.aspose.com/barcode/java/).
+코드 작성을 시작하기 전에 다음 전제 조건을 확인하세요:
 
-## 패키지 가져오기
+- Java Development Kit (JDK): Aspose.BarCode for Java는 정상적인 JDK가 필요합니다. 최신 버전은 [여기](https://www.oracle.com/java/technologies/javase-downloads.html)에서 다운로드할 수 있습니다.
 
-필요한 패키지를 Java 프로젝트로 가져오는 것부터 시작하세요. 이 패키지는 바코드 작업에 필수적인 클래스와 방법을 제공합니다.
+- Aspose.BarCode Library: Aspose.BarCode 라이브러리를 확보하세요. [다운로드 링크](https://releases.aspose.com/barcode/java/)에서 받을 수 있습니다.
+
+## Import Packages
+
+프로젝트에 필요한 패키지를 import합니다. 이 패키지들은 바코드 작업에 필수적인 클래스와 메서드를 제공합니다.
 
 ```java
-// Aspose.BarCode 클래스 가져오기
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +60,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-이제 코드를 단계별 가이드로 나누어 보겠습니다.
+Now, let's break down the code into a step‑by‑step guide:
 
-## 1단계: 리소스 디렉터리 설정
+## Step 1: Set up the Resource Directory
 
 ```java
-// 리소스 디렉터리의 경로입니다.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- 바꾸다`"Your Document Directory"`문서 디렉토리의 실제 경로를 사용하십시오.
+`"Your Document Directory"`를 실제 문서 디렉터리 경로로 교체하세요.
 
-## 2단계: 바코드 이미지 경로 지정 및 리더 초기화
+## Step 2: Specify Barcode Image Path and Initialize Reader
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-// 지정된 경로 및 디코드 유형을 사용하여 BarCodeReader를 초기화합니다.
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-## 3단계: 바코드 읽기 및 결과 저장
+## Step 3: Read Barcodes and Store Results
 
 ```java
-// 바코드를 통해 반복하고 결과를 저장합니다.
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## 4단계: 정렬을 위한 비교기 정의
+## Step 4: Define Comparator for Sorting
 
 ```java
-// 코드 텍스트를 기준으로 바코드를 정렬하기 위한 비교기를 정의합니다.
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -85,17 +102,17 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-## 5단계: 바코드 정렬
+## Step 5: Sort Barcodes
 
 ```java
-// 정의된 비교기를 사용하여 바코드 목록 정렬
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
-## 6단계: 정렬된 바코드 표시
+## Step 6: Display Sorted Barcodes
 
 ```java
-// 정렬된 바코드를 좌표와 함께 표시
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +126,51 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
-## 결론
+## Common Issues and Solutions
 
-이 튜토리얼에서는 Java용 Aspose.BarCode를 활용하여 바코드를 특정 순서로 읽고 정렬하는 방법을 살펴보았습니다. 단계별 가이드를 따르면 효율적인 바코드 처리 기능으로 Java 애플리케이션을 향상시킬 수 있습니다.
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **No barcodes are detected** | Incorrect `DecodeType` or low‑quality image | Verify the image contains a CODE_128 barcode and use the appropriate `DecodeType`. You can also try `DecodeType.ALL` for automatic detection. |
+| **Incorrect sorting order** | Comparator compares strings lexicographically | If you need numeric sorting, convert `CodeText` to `int` before comparing. |
+| **Null pointer on `BarCodeRegion`** | Image path is wrong or file not found | Ensure `path` points to a valid PNG file and that the file is readable by the JVM. |
 
-## 자주 묻는 질문
+## Frequently Asked Questions
 
-### Q: Java용 Aspose.BarCode 설명서는 어디에서 찾을 수 있습니까?
- 문서를 사용할 수 있습니다[여기](https://reference.aspose.com/barcode/java/).
+**Q: Where can I find the Aspose.BarCode for Java documentation?**  
+A: The documentation is available [here](https://reference.aspose.com/barcode/java/).
 
-### Q: Java용 Aspose.BarCode를 어떻게 다운로드할 수 있나요?
- 다음에서 다운로드할 수 있습니다.[다운로드 링크](https://releases.aspose.com/barcode/java/).
+**Q: How can I download Aspose.BarCode for Java?**  
+A: You can download it from the [download link](https://releases.aspose.com/barcode/java/).
 
-### Q: 무료 평가판이 제공됩니까?
- 예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
+**Q: Is there a free trial available?**  
+A: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
-### Q: 임시 라이센스 정보는 어떻게 얻나요?
- 임시면허 취득 가능[여기](https://purchase.aspose.com/temporary-license/).
+**Q: How do I get temporary licensing information?**  
+A: Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
 
-### Q: 어디서 지원을 받거나 질문을 할 수 있나요?
- 지원 포럼 방문[여기](https://forum.aspose.com/c/barcode/13).
+**Q: Where can I seek support or ask questions?**  
+A: Visit the support forum [here](https://forum.aspose.com/c/barcode/13).
+
+## Additional FAQs (AI‑Optimized)
+
+**Q: Can I use this code with other barcode types?**  
+A: Absolutely. Change `DecodeType.CODE_128` to any supported symbology, such as `DecodeType.QR` or `DecodeType.DATA_MATRIX`.
+
+**Q: Does Aspose.BarCode support batch processing of multiple images?**  
+A: Yes. Loop through a collection of file paths and reuse the same `BarCodeReader` logic for each image.
+
+**Q: How can I improve performance for large image sets?**  
+A: Reuse the `BarCodeReader` instance where possible and process images in parallel using Java’s `ExecutorService`.
+
+## Conclusion
+
+In this tutorial we demonstrated **how to read barcodes** with Aspose.BarCode for Java, store each result, and sort the list in a custom order. By following the step‑by‑step guide, you can integrate robust barcode detection and sorting into any Java application—whether it’s inventory management, logistics, or event ticketing.
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.BarCode for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

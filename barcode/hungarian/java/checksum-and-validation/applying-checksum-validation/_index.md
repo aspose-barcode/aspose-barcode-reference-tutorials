@@ -1,69 +1,76 @@
 ---
-title: Ellenőrzőösszeg érvényesítés alkalmazása Java-ban
-linktitle: Ellenőrzőösszeg érvényesítés alkalmazása
+date: 2025-12-19
+description: Ismerje meg, hogyan lehet letiltani az ellenőrzőösszeg-ellenőrzést Java-ban
+  az Aspose.BarCode segítségével. Ez a lépésről‑lépésre útmutató bemutatja, hogyan
+  olvassa be a vonalkódokat, kapcsolja ki az ellenőrzőösszeget, és biztosítsa a megbízható
+  adatkezelést.
+linktitle: How to Disable Checksum Validation
 second_title: Aspose.BarCode Java API
-description: Az Aspose.BarCode segítségével könnyedén ellenőrizheti a vonalkód-ellenőrzést Java nyelven. Lépésről lépésre útmutató az ellenőrzőösszeg érvényesítéséhez. Növelje szoftvere adatintegritását!
-weight: 12
+title: Hogyan tiltsuk le az ellenőrzőösszeg-ellenőrzést Java-ban
 url: /hu/java/checksum-and-validation/applying-checksum-validation/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ellenőrzőösszeg érvényesítés alkalmazása Java-ban
+# Hogyan tiltsuk le az ellenőrzőösszeg-ellenőrzést Java-ban
 
-# Vonalkód ellenőrzőösszeg érvényesítésének elsajátítása Aspose.BarCode Java segítségével
+A modern készlet- és logisztikai alkalmazásokban az **ellenőrzőösszeg letiltása** kulcsfontosságú lehet a régi vonalkódok olvasásához, amelyek nem tartalmaznak ellenőrzőösszeg számjegyet. Az Aspose.BarCode for Java segítségével egyszerűen kikapcsolható az ellenőrzőösszeg-ellenőrzés, miközben a kódolt adat továbbra is kiolvasható. Ez az útmutató végigvezeti a teljes folyamaton – a projekt beállításától egy ONE‑CODE vonalkód ellenőrzőösszeg-ellenőrzés nélküli olvasásáig.
 
-A szoftverfejlesztés dinamikus világában a vonalkódok létrehozása és érvényesítése alapvető készség. Az Aspose.BarCode for Java leegyszerűsíti ezt a folyamatot, és robusztus eszközkészletet kínál a vonalkód generálásához és ellenőrzéséhez. Ebben a lépésről-lépésre szóló útmutatóban az Aspose.BarCode használatával elmélyülünk az ellenőrzőösszeg-érvényesítés Java nyelven történő alkalmazásában.
+## Gyors válaszok
+- **Mit jelent az ellenőrzőösszeg letiltása?** Azt mondja az olvasónak, hogy hagyja figyelmen kívül az ellenőrzőösszeg mezőt, így a nem érvényes ellenőrzőösszeggel rendelkező vonalkódok is feldolgozhatók.  
+- **Mikor kell letiltani az ellenőrzőösszeget?** Régi rendszerek vagy nem szabványos vonalkódok esetén, amelyek kihagyják vagy megsértik az ellenőrzőösszeget.  
+- **Melyik osztály vezérli az ellenőrzőösszeg-ellenőrzést?** `BarCodeReader.setChecksumValidation(ChecksumValidation)`  
+- **Biztonságos a letiltás?** Csak akkor, ha megbízik a vonalkód forrásában; egyébként az ellenőrzés segít a hibák elkapásában.  
+- **Érint-e más vonalkódtípusokat?** A beállítás csak az aktuális `BarCodeReader` példányra vonatkozik.
 
-## Bevezetés
+## Mi az az ellenőrzőösszeg-ellenőrzés?
+Az ellenőrzőösszeg-ellenőrzés egy adat-integritás ellenőrzés, amely kis értéket számít ki a vonalkód tartalmából, és összehasonlítja a beágyazott ellenőrzőösszeggel. Ha nem egyeznek, a vonalkód olvashatatlannak minősül. Ennek a vizsgálatnak a letiltása azt jelzi az Aspose.BarCode-nak, hogy hagyja ki az összehasonlítást.
 
-vonalkódok mindenütt jelen vannak a modern üzleti életben, a kiskereskedelemtől a logisztikáig. Alapvető információkat kódolnak, és kulcsszerepet játszanak az adatok integritásában. Az Aspose.BarCode for Java felhatalmazza a fejlesztőket a vonalkóddal kapcsolatos funkciók zökkenőmentes fejlesztésére.
+## Miért tiltsuk le az ellenőrzőösszeget az Aspose.BarCode használatával?
+- **Régi támogatás:** Régebbi szkennerek gyakran generáltak vonalkódokat ellenőrzőösszeg nélkül.  
+- **Teljesítmény:** A számítás kihagyása felgyorsíthatja a tömeges olvasást.  
+- **Rugalmasság:** Olvasó‑példányonként eldöntheti, hogy alkalmazza‑e az ellenőrzést.
 
-## Előfeltételek
-
-Mielőtt nekivágnánk az utazásnak, győződjön meg arról, hogy az alábbi előfeltételeket teljesíti:
-
-- Java Development Kit (JDK): Az Aspose.BarCode for Java Java-alapú, ezért a legújabb JDK telepítése elengedhetetlen.
--  Aspose.BarCode Library: Töltse le és állítsa be az Aspose.BarCode könyvtárat. A letöltési linket megtalálod[itt](https://releases.aspose.com/barcode/java/).
+## Előkövetelmények
+- **Java Development Kit (JDK):** Győződjön meg róla, hogy a legújabb JDK telepítve van.  
+- **Aspose.BarCode Library:** Töltse le a könyvtárat a hivatalos oldalról [itt](https://releases.aspose.com/barcode/java/).  
 
 ## Csomagok importálása
-
-Java-projektjében importálja a szükséges Aspose.BarCode csomagokat, hogy könnyedén hozzáférjen a vonalkód-funkciókhoz.
+A Java‑projektjében importálja a szükséges Aspose.BarCode osztályokat a vonalkód felismeréshez.
 
 ```java
-// Az Aspose.BarCode osztályok importálása
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.ChecksumValidation;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## 1. lépés: Állítsa be projektjét
+## Lépés‑ről‑lépésre útmutató
 
-Kezdje azzal, hogy hozzon létre egy új Java-projektet, és adja hozzá az Aspose.BarCode könyvtárat a projekt függőségeihez.
+### 1. lépés: Projekt beállítása
+Hozzon létre egy új Java projektet (a kedvenc IDE‑jét használva), és adja hozzá az Aspose.BarCode JAR‑t a projekt osztályútvonalához.
 
-## 2. lépés: A BarCodeReader inicializálása
-
-Hozzon létre egy példányt a BarCodeReader osztályból, és töltsön be egy meglévő egykódos vonalkódot a dokumentumkönyvtárból.
+### 2. lépés: `BarCodeReader` inicializálása
+Töltse be azt a képet, amely a kívánt ONE‑CODE vonalkódot tartalmazza.
 
 ```java
 String dataDir = "Your Document Directory";
 BarCodeReader reader = new BarCodeReader(dataDir + "onecode.png", DecodeType.ONE_CODE);
 ```
 
-## 3. lépés: Kapcsolja ki az ellenőrzőösszeg érvényesítését
-
-Az ellenőrzőösszeg érvényesítésének letiltásához állítsa a ChecksumValidation tulajdonságot Ki értékre.
+### 3. lépés: Az ellenőrzőösszeg letiltása
+Állítsa be a tulajdonságot `OFF`‑ra, hogy az olvasó figyelmen kívül hagyja az ellenőrzőösszeg-ellenőrzést.
 
 ```java
 reader.setChecksumValidation(ChecksumValidation.OFF);
 ```
 
-## 4. lépés: Olvassa el a vonalkódokat
-
-Használjon hurkot a vonalkódok iterálásához és információk lekéréséhez.
+### 4. lépés: Vonalkódok olvasása
+Iteráljon a találatokon, és írja ki a dekódolt szöveget valamint a szimbólumtípust.
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -72,29 +79,35 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Ez az egyszerű, de hatékony folyamat lehetővé teszi az ellenőrzőösszeg-ellenőrzés egyszerű alkalmazását.
+**Eredmény:** A vonalkód szövege megjelenik még akkor is, ha az eredeti kép nem tartalmaz érvényes ellenőrzőösszeget.
 
-## Következtetés
+## Gyakori problémák és tippek
+- **Helytelen fájlútvonal:** Ellenőrizze, hogy a `dataDir` a megfelelő mappára mutat; teszteléshez használjon abszolút útvonalakat.  
+- **Nem támogatott vonalkód típus:** Győződjön meg róla, hogy a `DecodeType` megfelel a beolvasni kívánt vonalkódnak.  
+- **Teljesítmény:** Az ellenőrzőösszeg letiltása nagy kötegek esetén növelheti a throughput‑ot, de kritikus adatoknál mindig kapcsolja vissza.
 
-Az Aspose.BarCode for Java lehetőségek tárházát nyitja meg a vonalkód generálás és érvényesítés terén. Egy egyszerű megközelítéssel az ellenőrzőösszeg-érvényesítés alkalmazása a vonalkóddal kapcsolatos projektek szerves részévé válik.
+## Gyakran ismételt kérdések
 
-## Gyakran Ismételt Kérdések
+### Kompatibilis-e az Aspose.BarCode különböző vonalkódtípusokkal?
+Igen, az Aspose.BarCode széles körű szimbólumtípusokat támogat, a QR‑tól és DataMatrix‑tól a hagyományos lineáris kódokig.
 
-### Az Aspose.BarCode kompatibilis a különböző vonalkódtípusokkal?
-Igen, az Aspose.BarCode a vonalkódtípusok széles skáláját támogatja, sokoldalúságot biztosítva a projektekben.
+### Használhatom-e az Aspose.BarCode‑ot kereskedelmi célokra?
+Természetesen. Kereskedelmi licencek állnak rendelkezésre azoknak a vállalkozásoknak, amelyeknek termelés‑kész funkciókra van szükségük.
 
-### Használhatom az Aspose.BarCode-ot kereskedelmi célokra?
-Teljesen. Az Aspose.BarCode kereskedelmi licenceket kínál a vállalkozások számára, hogy zökkenőmentesen kihasználhassák képességeit.
+### Hol kaphatok támogatást az Aspose.BarCode‑hoz?
+Látogassa meg az [Aspose.BarCode fórumot](https://forum.aspose.com/c/barcode/13), ahol a közösséggel és a termékcsapattal vehet fel kapcsolatot.
 
-### Hogyan kaphatok támogatást az Aspose.BarCode-hoz?
- Meglátogatni a[Aspose.BarCode fórum](https://forum.aspose.com/c/barcode/13) kapcsolatba lépni a közösséggel és segítséget kérni.
-
-### Van ingyenes próbaverzió?
- Igen, felfedezheti az Aspose.BarCode szolgáltatásait, ha eléri a[ingyenes próbaverzió](https://releases.aspose.com/).
+### Van ingyenes próba verzió?
+Igen, a teljes funkciókészletet kipróbálhatja a [free trial](https://releases.aspose.com/) letöltésével.
 
 ### Hol találok részletes dokumentációt?
- Utal[dokumentáció](https://reference.aspose.com/barcode/java/)részletesebb információkért az Aspose.BarCode for Java-ról.
+Tekintse meg a kiterjedt [documentation](https://reference.aspose.com/barcode/java/) oldalt az API részletek, kódminták és legjobb gyakorlatok megismeréséhez.
 
+---
+
+**Utoljára frissítve:** 2025-12-19  
+**Tesztelve:** Aspose.BarCode for Java (legújabb kiadás)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
