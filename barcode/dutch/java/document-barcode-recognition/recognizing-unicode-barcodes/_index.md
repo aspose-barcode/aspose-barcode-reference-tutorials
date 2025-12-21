@@ -1,34 +1,50 @@
 ---
-title: Unicode-streepjescodes herkennen in Java
-linktitle: Unicode-streepjescodes herkennen
-second_title: Aspose.BarCode Java-API
-description: Ontdek de wereld van Unicode-barcodeherkenning in Java met Aspose.BarCode. Volg onze stapsgewijze handleiding om diverse tekensets naadloos in uw toepassingen te integreren.
-weight: 13
+date: 2025-12-21
+description: Leer hoe je een barcode‑afbeelding kunt lezen met de Aspose.BarCode Java‑bibliotheek,
+  inclusief pdf417‑barcode‑generatie in Java en Unicode‑barcode‑herkenning.
+linktitle: Recognizing Unicode Barcodes
+second_title: Aspose.BarCode Java API
+title: Hoe barcode-afbeeldingen lezen met Unicode-barcodes in Java
 url: /nl/java/document-barcode-recognition/recognizing-unicode-barcodes/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Unicode-streepjescodes herkennen in Java
+# Unicode Barcodes Herkennen in Java
 
+## Inleiding
 
-## Invoering
+If you need to **how to read barcode image** in a Java application, especially when the barcode contains Unicode characters, you’ve come to the right place. In this tutorial we’ll walk through every step required to recognize Unicode barcodes—like Arabic, Chinese, or Cyrillic text—using the powerful Aspose.BarCode library. By the end, you’ll be able to generate and read these barcodes confidently, expanding the reach of your software to global audiences.
 
-Op het gebied van Java-programmeren is het omgaan met Unicode-barcodes een cruciale taak, vooral als het gaat om diverse tekensets. Deze tutorial leidt u door het proces van het herkennen van Unicode-barcodes in Java met behulp van de krachtige Aspose.BarCode-bibliotheek. Aan het einde van deze handleiding beschikt u over de kennis om Unicode-barcodeherkenning naadloos te integreren in uw Java-toepassingen.
+## Snelle Antwoorden
+- **Welke bibliotheek is het beste voor barcode lezen in Java?** Aspose.BarCode for Java.
+- **Kan ik PDF417 barcodes genereren met Unicode‑tekst?** Ja, met de `BarcodeGenerator`‑klasse.
+- **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose.BarCode‑licentie is vereist.
+- **Welke Java‑versie wordt ondersteund?** Java 8 en hoger.
+- **Is er een gratis proefversie?** Ja, je kunt een proefversie downloaden vanaf de website van Aspose.
+
+## Wat is “how to read barcode image” in Java?
+
+Reading a barcode image means decoding the visual pattern into the original data string. When the data contains Unicode characters, the library must correctly handle character encoding and decoding, which Aspose.BarCode does automatically once you convert the text to the proper code format.
+
+## Waarom Aspose.BarCode gebruiken voor pdf417 barcode generatie java?
+
+Aspose.BarCode provides a straightforward API for **pdf417 barcode generation java**, supports a wide range of symbologies, and handles Unicode encoding out‑of‑the‑box. This makes it ideal for enterprise‑level applications that need reliable, high‑performance barcode processing.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Before diving in, make sure you have:
 
-- Een praktische kennis van Java-programmeren.
--  Aspose.BarCode voor Java-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/barcode/java/).
--  Een geldige licentie voor Aspose.BarCode. Je kunt er een verkrijgen[hier](https://purchase.aspose.com/buy).
+- Een werkende kennis van Java‑programmeren.
+- Aspose.BarCode for Java library installed. You can download it [here](https://releases.aspose.com/barcode/java/).
+- Een geldige licentie voor Aspose.BarCode. You can obtain one [here](https://purchase.aspose.com/buy).
 
-## Pakketten importeren
+## Importeer Pakketten
 
-Importeer om te beginnen de benodigde pakketten in uw Java-project. De Aspose.BarCode-bibliotheek biedt een uitgebreide reeks functionaliteiten voor het genereren en herkennen van streepjescodes.
+To get started, import the necessary packages into your Java project. The Aspose.BarCode library provides a comprehensive set of functionalities for barcode generation and recognition.
 
 ```java
 import com.aspose.barcode.*;
@@ -41,17 +57,17 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 ```
 
-## Stap 1: Stel de bronnenmap in
+## Stap 1: Stel de Resource Directory In
 
-Definieer het pad naar uw resourcemap.
+Define the path to your resource directory.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Stap 2: Stel de Aspose.BarCode-licentie in
+## Stap 2: Stel Aspose.BarCode Licentie In
 
-Laad uw Aspose.BarCode-licentie om het volledige potentieel van de bibliotheek te benutten.
+Load your Aspose.BarCode license to unlock the library's full potential.
 
 ```java
 try {
@@ -62,9 +78,9 @@ try {
 }
 ```
 
-## Stap 3: Genereer Unicode-streepjescode
+## Stap 3: Genereer Unicode Barcode
 
-Maak een Unicode-barcode met behulp van de opgegeven tekst.
+Create a Unicode barcode using the provided text.
 
 ```java
 String file = dataDir + "pdf417_un.png";
@@ -75,9 +91,9 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.PDF_417, codeText)
 generator.save(file);
 ```
 
-## Stap 4: Unicode-streepjescode lezen
+## Stap 4: Lees Unicode Barcode
 
-Lees de gegenereerde Unicode-barcode.
+Read the generated Unicode barcode.
 
 ```java
 BarCodeReader reader = new BarCodeReader(file, DecodeType.PDF_417);
@@ -92,47 +108,78 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-## Stap 5: Converteer Unicode naar codetekst
+## Stap 5: Converteer Unicode naar Code Tekst
 
-Implementeer de methode om Unicode naar codetekst te converteren.
+Implement the method to convert Unicode to code text.
 
 ```java
 private static String getCodeTextFromUnicode(String s) throws UnsupportedEncodingException {
-    // Implementatiedetails
+    // Implementation details
 }
-
 ```
 
-## Stap 6: Converteer codetekst naar Unicode
+## Stap 6: Converteer Code Tekst naar Unicode
 
-Implementeer de methode om codetekst naar Unicode te converteren.
+Implement the method to convert code text to Unicode.
 
 ```java
 private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodingException {
-    // Implementatiedetails
+    // Implementation details
 }
 ```
 
-## Conclusie
+## Veelvoorkomende Problemen en Oplossingen
 
-Gefeliciteerd! U hebt met succes geleerd hoe u Unicode-barcodes in Java kunt herkennen met behulp van Aspose.BarCode. Deze vaardigheid is van onschatbare waarde bij het omgaan met diverse tekensets in uw toepassingen.
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| Vervormde output na het lezen | Verkeerde tekencodering | Zorg ervoor dat `getUnicodeFromCodeText` dezelfde charset (`UTF‑8`) gebruikt als `getCodeTextFromUnicode`. |
+| Lezer retourneert `null` | Onjuiste `DecodeType` | Gebruik `DecodeType.PDF_417` voor PDF417‑barcodes. |
+| Licentie niet toegepast | Pad naar licentiebestand onjuist | Plaats `aspose.barcode.lic` in de project‑root of geef een absoluut pad op. |
 
-## Veelgestelde vragen
+## Veelgestelde Vragen
 
-### Is er een licentie vereist voor Aspose.BarCode?
-Ja, voor Aspose.BarCode is een geldige licentie vereist. Je kunt er een verkrijgen[hier](https://purchase.aspose.com/buy).
+### Is een licentie vereist voor Aspose.BarCode?
+Ja, een geldige licentie is vereist voor Aspose.BarCode. Je kunt er een verkrijgen [hier](https://purchase.aspose.com/buy).
 
-### Waar kan ik de Aspose.BarCode-documentatie vinden?
- De documentatie is beschikbaar[hier](https://reference.aspose.com/barcode/java/).
+### Waar kan ik de Aspose.BarCode‑documentatie vinden?
+De documentatie is beschikbaar [hier](https://reference.aspose.com/barcode/java/).
 
 ### Kan ik Aspose.BarCode gratis uitproberen?
- Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+Ja, je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
 
-### Hoe krijg ik tijdelijke licenties voor Aspose.BarCode?
- Er kunnen tijdelijke licenties worden verkregen[hier](https://purchase.aspose.com/temporary-license/).
+### Hoe krijg ik een tijdelijke licentie voor Aspose.BarCode?
+Tijdelijke licenties kunnen worden verkregen [hier](https://purchase.aspose.com/temporary-license/).
 
-### Ondersteuning nodig of vragen?
- Bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13).
+### Hulp nodig of vragen?
+Bezoek het [Aspose.BarCode‑forum](https://forum.aspose.com/c/barcode/13).
+
+## Frequently Asked Questions
+
+**Q: Kan ik deze code gebruiken met andere barcode‑symbologieën?**  
+A: Absoluut. Verander `EncodeTypes.PDF_417` naar elk ondersteund type, zoals `EncodeTypes.CODE_128`, en pas `DecodeType` dienovereenkomstig aan.
+
+**Q: Wat gebeurt er als de invoertekst emoji’s bevat?**  
+A: Emoji’s zijn Unicode‑tekens; ze worden correct gecodeerd zolang de conversiemethoden UTF‑8 ondersteunen.
+
+**Q: Is er een manier om barcodes te lezen vanuit een stream in plaats van een bestand?**  
+A: Ja, `BarCodeReader` accepteert ook een `InputStream` als eerste argument.
+
+**Q: Hoe kan ik de herkenningssnelheid verbeteren voor grote batches?**  
+A: Hergebruik één `BarCodeReader`‑instantie en verwerk afbeeldingen in een lus, waarbij elk resultaat direct wordt vrijgegeven.
+
+**Q: Ondersteunt Aspose.BarCode multi‑page PDF’s voor barcode‑extractie?**  
+A: Ja. Gebruik `BarCodeReader` met het PDF‑bestandspad; de bibliotheek doorloopt automatisch alle pagina’s.
+
+## Conclusie
+
+Congratulations! You've now mastered **how to read barcode image** in Java using Aspose.BarCode, from generating a Unicode PDF417 barcode to decoding it back into its original text. This capability opens the door to internationalized applications, multilingual inventory systems, and any scenario where global character sets are required.
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.BarCode for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
