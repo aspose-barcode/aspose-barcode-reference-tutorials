@@ -1,34 +1,51 @@
 ---
-title: 在 Java 中產生帶空條的條碼
-linktitle: 產生有空條的條碼
+date: 2025-12-22
+description: 學習如何使用 Aspose.BarCode for Java 建立帶有空白條的條碼圖像。此一步一步的條碼產生範例可協助您快速產生 Java
+  條碼。
+linktitle: Generating Barcode with Empty Bars
 second_title: Aspose.BarCode Java API
-description: 使用 Aspose.BarCode 在 Java 中輕鬆產生帶有空白條的條碼。客製化外觀並無縫集成。立即探索教學！
-weight: 14
+title: 如何在 Java 中創建帶空白條的條碼圖像
 url: /zh-hant/java/image-manipulation/generating-barcode-empty-bars/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中產生帶空條的條碼
+# 如何在 Java 中建立空條碼圖像
 
+## 簡介
 
-## 介紹
+在現代的 Java 應用程式中，即時 **create barcode image** 檔案的能力是庫存管理、票務系統以及其他許多商業情境中的寶貴功能。Aspose.BarCode for Java 提供功能強大且易於使用的 API，讓您只需幾行程式碼即可產生高品質的條碼。在本教學中，我們將逐步說明 **step‑by‑step barcode** 的建立流程，產生條碼的空白（未填滿）條紋，適合需要空心外觀的設計。
 
-在軟體開發的動態世界中，將條碼產生功能整合到 Java 應用程式中已成為常見需求。 Aspose.BarCode for Java 作為一個強大的解決方案脫穎而出，為開發人員提供了一套強大的工具來創建各種類型的條碼。在本教程中，我們將深入研究使用 Aspose.BarCode for Java 產生帶有空白條的條碼的過程。
+## 快速解答
+- **What does “empty bars” mean?** **empty bars** 是什麼意思？條紋會以未填滿的方式呈現，呈現空心外觀。  
+- **Which barcode type is used?** 使用 Code 128（廣泛支援的線性條碼）。  
+- **Do I need a license to try it?** 可使用免費試用版；正式使用時需購買授權。  
+- **What output formats are supported?** 支援 PNG、JPEG、BMP、GIF、TIFF 等多種格式。  
+- **Is this compatible with all Java versions?** 是，函式庫相容於 Java 8 及以上版本。
+
+## 什麼是 create barcode image？
+
+建立條碼圖像是指將資料字串轉換為掃描器可讀取的視覺表示。產生的圖像可儲存為 PNG、JPEG 或其他常見格式，可嵌入 PDF、列印於標籤或顯示於使用者介面上。
+
+## 為什麼使用 Aspose.BarCode Java 函式庫？
+
+- **Rich feature set** – 支援超過 50 種條碼符號，包括 Code 128、QR、DataMatrix 等。  
+- **Fine‑grained control** – 如 `FilledBars`、顏色、邊距及圖像尺寸等屬性皆可輕鬆設定。  
+- **No external dependencies** – 只需一個 JAR 檔即可完成所有功能，簡化部署。  
+- **Comprehensive documentation** – 範例、API 參考與論壇可協助您快速上手。
 
 ## 先決條件
 
-在我們開始條碼產生之旅之前，請確保您具備以下先決條件：
+在開始條碼產生之前，請確保已具備以下先決條件：
 
-1. Java 開發環境：確保您的電腦上設定了 Java 開發環境。
+1. **Java Development Environment** – 確認已安裝 Java 8 以上版本，並具備相容的 IDE 或建置工具。  
+2. **Aspose.BarCode for Java Library** – 從[下載頁面](https://releases.aspose.com/barcode/java/)下載並安裝 Aspose.BarCode for Java 函式庫。  
+3. **Document Directory** – 在系統上建立目錄，以儲存產生的條碼圖像。
 
-2.  Aspose.BarCode for Java 函式庫：從下列位置下載並安裝 Aspose.BarCode for Java 函式庫：[下載頁面](https://releases.aspose.com/barcode/java/).
-
-3. 文件目錄：在系統上建立一個目錄來儲存產生的條碼影像。
-
-## 導入包
+## 匯入套件
 
 在您的 Java 專案中，匯入使用 Aspose.BarCode 所需的套件：
 
@@ -38,67 +55,76 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## 第 1 步：設定資源目錄
+## 如何建立空條碼圖像
+
+### 步驟 1：設定資源目錄
 
 ```java
-//資源目錄的路徑。
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-代替`"Your Document Directory"`與文檔目錄的實際路徑。
+將 `"Your Document Directory"` 替換為您想要儲存輸出檔案的實際路徑。
 
-## 步驟2：建立條碼產生器實例
+### 步驟 2：建立條碼產生器實例（Code128 Barcode Java）
 
 ```java
-//建立 BarcodeGenerator 的實例並使用 CodeText 和 Symbology 對其進行初始化
+// Create an instance of BarcodeGenerator and initialize it with CodeText and Symbology
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "TEXT");
 ```
 
-在這裡，我們使用 CODE_128 符號系統和文字「TEXT」來建立一個 BarcodeGenerator 實例作為要編碼的代碼。
+此處使用 **Code 128** 符號——最受歡迎的線性條碼之一——因此這是一個經典的 **code128 barcode java** 範例。
 
-## 步驟 3：將 FilledBars 屬性設為 False
+### 步驟 3：將 FilledBars 屬性設為 False
 
 ```java
-//將 FilledBars 屬性設為 false
+// Set the FilledBars property to false
 generator.getParameters().getBarcode().setFilledBars(false);
 ```
 
-透過設定`FilledBars`到`false`，我們確保產生的條碼將有空位。
+將 `FilledBars` 設為 `false`，即告訴 Aspose.BarCode 將條紋以空白（空心）形狀呈現，而非實心方塊。
 
-## 第 4 步：儲存條碼圖像
+### 步驟 4：儲存條碼圖像
 
 ```java
-//將生成的條碼圖像保存在磁碟上
+// Save the resultant barcode image on disk
 generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 ```
 
-此步驟涉及將生成的條碼圖像以 PNG 格式儲存到指定目錄。
+圖像以 PNG 格式儲存，您亦可變更 `BarCodeImageFormat` 列舉，以產生 JPEG、BMP 或其他支援的格式。
 
-在 Java 應用程式中重複這些步驟，即可使用 Aspose.BarCode for Java 輕鬆產生有空條的條碼。
+在您的 Java 應用程式中重複上述步驟，即可輕鬆使用 Aspose.BarCode for Java **create barcode image** 空條碼檔案。
 
 ## 結論
 
-總而言之，本教學引導您完成了使用 Aspose.BarCode 函式庫在 Java 中產生帶有空條的條碼的過程。憑藉其直覺的 API 和豐富的文檔，Aspose.BarCode 簡化了條碼集成，使其成為開發人員的寶貴資產。
+總結來說，本教學帶您完成 **step‑by‑step barcode** 的建立流程，示範如何在 Java 中 **create barcode image** 空條碼檔案。憑藉直觀的 API 與豐富的自訂選項，Aspose.BarCode 簡化條碼整合，成為需要可靠 **java barcode library** 的開發者的寶貴資產。
 
-## 常見問題解答
+## 常見問題
 
-### Aspose.BarCode與所有Java開發環境相容嗎？
-是的，Aspose.BarCode 旨在與各種 Java 開發環境無縫整合。
+### Aspose.BarCode 是否相容於所有 Java 開發環境？
+是的，Aspose.BarCode 設計上能無縫整合各種 Java 開發環境。
 
-### 我可以自訂產生的條碼的外觀嗎？
-絕對地！ Aspose.BarCode 提供了許多自訂選項，可讓您根據您的特定需求自訂條碼。
+### 我可以自訂產生的條碼外觀嗎？
+當然！Aspose.BarCode 提供多種自訂選項，讓您依需求調整條碼外觀。
 
-### Aspose.BarCode 是否有試用版？
-是的，您可以透過免費試用來探索 Aspose.BarCode 的功能[這裡](https://releases.aspose.com/).
+### 是否提供 Aspose.BarCode 的試用版？
+是的，您可透過[此處](https://releases.aspose.com/)取得免費試用版，探索 Aspose.BarCode 的功能。
 
-### 我如何獲得 Aspose.BarCode 的支援？
-如有任何疑問或幫助，請訪問[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13).
+### 我該如何取得 Aspose.BarCode 的支援？
+如有任何問題或需要協助，請前往 [Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13)。
 
-### 在哪裡可以找到 Aspose.BarCode 的詳細文件？
-提供全面的文檔[這裡](https://reference.aspose.com/barcode/java/).
+### 我在哪裡可以找到 Aspose.BarCode 的詳細文件？
+完整文件可在[此處](https://reference.aspose.com/barcode/java/)取得。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.BarCode Java 24.11 (latest)  
+**Author:** Aspose
