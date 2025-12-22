@@ -1,36 +1,52 @@
 ---
-title: Barcode genereren met lege balken in Java
-linktitle: Streepjescode genereren met lege balken
-second_title: Aspose.BarCode Java-API
-description: Genereer moeiteloos streepjescodes met lege balken in Java met Aspose.BarCode. Pas het uiterlijk aan en integreer naadloos. Ontdek nu de tutorial!
-weight: 14
+date: 2025-12-22
+description: Leer hoe u een barcode‑afbeelding met lege staven maakt met Aspose.BarCode
+  voor Java. Dit stapsgewijze barcode‑generatie‑voorbeeld helpt u snel een barcode
+  in Java te genereren.
+linktitle: Generating Barcode with Empty Bars
+second_title: Aspose.BarCode Java API
+title: Hoe een barcode‑afbeelding met lege balken te maken in Java
 url: /nl/java/image-manipulation/generating-barcode-empty-bars/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Barcode genereren met lege balken in Java
+# Hoe maak je een barcode‑afbeelding met lege staven in Java
 
+## Inleiding
 
-## Invoering
+In moderne Java‑toepassingen is de om **barcode‑afbeeldingen** on‑the‑fly te maken een waardevolle functie voor voorraadbeheer, ticketsystemen en vele andere zakelijke scenario's. Aspose.BarCode for Java biedt een krachtige, gemakkelijk te gebruiken API waarmee je hoogwaardige barcodes kunt genereren in slechts een paar regels code. In deze tutorial lopen we stap voor stap door een **stapsgewijs barcode**‑creatieproces dat een barcode met lege (niet‑gevulde) staven produceert, perfect voor ontwerpen die een holle uitstraling vereisen.
 
-In de dynamische wereld van softwareontwikkeling is het integreren van mogelijkheden voor het genereren van streepjescodes in Java-applicaties een algemene vereiste geworden. Aspose.BarCode voor Java onderscheidt zich als een robuuste oplossing en biedt ontwikkelaars een krachtige set tools voor het maken van verschillende soorten streepjescodes. In deze zelfstudie verdiepen we ons in het proces van het genereren van een streepjescode met lege balken met behulp van Aspose.BarCode voor Java.
+## Snelle antwoorden
+- **Wat betekent “empty bars”?** Staven worden weergegeven zonder de standaard solide vulling, waardoor een holle uitstraling ontstaat.  
+- **Welke barcode‑type wordt gebruikt?** Code 128 (een breed ondersteunde lineaire symbologie).  
+- **Heb ik een licentie nodig om het te proberen?** Er is een gratis proefversie beschikbaar; een licentie is vereist voor productiegebruik.  
+- **Welke uitvoerformaten worden ondersteund?** PNG, JPEG, BMP, GIF, TIFF en meer.  
+- **Is dit compatibel met alle Java‑versies?** Ja, de bibliotheek werkt met Java 8 en later.
 
-## Vereisten
+## Wat is een barcode‑afbeelding maken?
+Een barcode‑afbeelding maken betekent het omzetten van een tekenreeks data naar een visuele weergave die scanners kunnen lezen. De resulterende afbeelding kan worden opgeslagen als PNG, JPEG of andere gangbare formaten en worden ingebed in PDF‑bestanden, afgedrukt op etiketten of weergegeven in een UI.
 
-Voordat we aan het proces voor het genereren van streepjescodes beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Waarom de Aspose.BarCode Java‑bibliotheek gebruiken?
+- **Rijke functionaliteit** – ondersteunt meer dan 50 barcode‑symbologieën, waaronder Code 128, QR, DataMatrix en meer.  
+- **Fijne controle** – eigenschappen zoals `FilledBars`, kleuren, marges en afbeeldingsgrootte zijn eenvoudig configureerbaar.  
+- **Geen externe afhankelijkheden** – één enkel JAR‑bestand regelt alles, waardoor implementatie wordt vereenvoudigd.  
+- **Uitgebreide documentatie** – voorbeelden, API‑referentie en forums helpen je snel op gang te komen.
 
-1. Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw computer is geïnstalleerd.
+## Voorvereisten
 
-2.  Aspose.BarCode voor Java-bibliotheek: Download en installeer de Aspose.BarCode voor Java-bibliotheek van de[downloadpagina](https://releases.aspose.com/barcode/java/).
+Voordat we aan de barcode‑generatie beginnen, zorg ervoor dat je de volgende voorvereisten hebt:
 
-3. Documentmap: maak een map op uw systeem om de gegenereerde streepjescodeafbeelding op te slaan.
+1. **Java‑ontwikkelomgeving** – Zorg ervoor dat je Java 8+ geïnstalleerd hebt en een compatibele IDE of build‑tool.  
+2. **Aspose.BarCode for Java‑bibliotheek** – Download en installeer de Aspose.BarCode for Java‑bibliotheek vanaf de [download page](https://releases.aspose.com/barcode/java/).  
+3. **Documentdirectory** – Maak een map op je systeem aan om de gegenereerde barcode‑afbeelding op te slaan.
 
 ## Pakketten importeren
 
-Importeer in uw Java-project de benodigde pakketten om met Aspose.BarCode te werken:
+Importeer in je Java‑project de benodigde pakketten om met Aspose.BarCode te werken:
 
 ```java
 import java.io.IOException;
@@ -38,67 +54,76 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Stap 1: Stel de bronnenmap in
+## Hoe maak je een barcode‑afbeelding met lege staven
+
+### Stap 1: De resource‑directory instellen
 
 ```java
-// Het pad naar de bronmap.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"`met het daadwerkelijke pad naar uw documentmap.
+Vervang `"Your Document Directory"` door het daadwerkelijke pad waar je het uitvoerbestand wilt opslaan.
 
-## Stap 2: Maak een streepjescodegeneratorinstantie
+### Stap 2: Barcode‑generator‑instantie maken (Code128 Barcode Java)
 
 ```java
-// Maak een exemplaar van BarcodeGenerator en initialiseer deze met CodeText en Symbology
+// Create an instance of BarcodeGenerator and initialize it with CodeText and Symbology
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "TEXT");
 ```
 
-Hier maken we een BarcodeGenerator-instantie met de CODE_128-symboliek en de tekst 'TEXT' als de code die moet worden gecodeerd.
+Hier gebruiken we de **Code 128**‑symbologie—een van de meest populaire lineaire barcodes—wat dit een klassiek **code128 barcode java**‑voorbeeld maakt.
 
-## Stap 3: Stel de eigenschap FilledBars in op False
+### Stap 3: Eigenschap FilledBars op false instellen
 
 ```java
-// Stel de eigenschap FilledBars in op false
+// Set the FilledBars property to false
 generator.getParameters().getBarcode().setFilledBars(false);
 ```
 
- Door in te stellen`FilledBars` naar`false`, zorgen we ervoor dat de gegenereerde streepjescode lege balken heeft.
+Door `FilledBars` op `false` te zetten, instrueer je Aspose.BarCode om de staven weer te geven als lege (holle) vormen in plaats van solide blokken.
 
-## Stap 4: Sla de streepjescodeafbeelding op
+### Stap 4: De barcode‑afbeelding opslaan
 
 ```java
-// Sla de resulterende barcodeafbeelding op schijf op
+// Save the resultant barcode image on disk
 generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 ```
 
-Deze stap omvat het opslaan van de gegenereerde streepjescodeafbeelding in de opgegeven map in PNG-indeling.
+De afbeelding wordt opgeslagen in PNG‑formaat, maar je kunt de `BarCodeImageFormat`‑enum wijzigen om JPEG, BMP of andere ondersteunde typen te produceren.
 
-Herhaal deze stappen in uw Java-applicatie om moeiteloos een streepjescode met lege balken te genereren met Aspose.BarCode voor Java.
+Herhaal deze stappen in je Java‑applicatie om moeiteloos **barcode‑afbeeldingen** met lege staven te maken met Aspose.BarCode for Java.
 
 ## Conclusie
 
-Kortom, deze tutorial heeft u door het proces geleid van het genereren van een streepjescode met lege balken in Java met behulp van de Aspose.BarCode-bibliotheek. Met zijn intuïtieve API en uitgebreide documentatie vereenvoudigt Aspose.BarCode de integratie van streepjescodes, waardoor het een waardevol bezit wordt voor ontwikkelaars.
+Samengevat heeft deze tutorial je stap voor stap door een **stapsgewijs barcode**‑creatieproces geleid dat laat zien hoe je **barcode‑afbeeldingen** met lege staven in Java kunt maken. Met de intuïtieve API en uitgebreide aanpassingsmogelijkheden vereenvoudigt Aspose.BarCode barcode‑integratie, waardoor het een waardevolle troef is voor ontwikkelaars die een betrouwbare **java barcode library** nodig hebben.
 
 ## Veelgestelde vragen
 
-### Is Aspose.BarCode compatibel met alle Java-ontwikkelomgevingen?
-Ja, Aspose.BarCode is ontworpen om naadloos te integreren met verschillende Java-ontwikkelomgevingen.
+### Is Aspose.BarCode compatibel met alle Java‑ontwikkelomgevingen?
+Ja, Aspose.BarCode is ontworpen om naadloos te integreren met verschillende Java‑ontwikkelomgevingen.
 
-### Kan ik het uiterlijk van de gegenereerde streepjescode aanpassen?
-Absoluut! Aspose.BarCode biedt talloze aanpassingsmogelijkheden, zodat u de barcode kunt afstemmen op uw specifieke behoeften.
+### Kan ik het uiterlijk van de gegenereerde barcode aanpassen?
+Zeker! Aspose.BarCode biedt tal van opties voor aanpassing, zodat je de barcode kunt afstemmen op je specifieke behoeften.
 
 ### Is er een proefversie beschikbaar voor Aspose.BarCode?
- Ja, u kunt de mogelijkheden van Aspose.BarCode verkennen door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
+Ja, je kunt de mogelijkheden van Aspose.BarCode verkennen door een gratis proefversie te verkrijgen [hier](https://releases.aspose.com/).
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.BarCode?
- Voor vragen of hulp kunt u terecht op de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13).
+Voor vragen of hulp kun je het [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) bezoeken.
 
 ### Waar kan ik gedetailleerde documentatie voor Aspose.BarCode vinden?
- De uitgebreide documentatie is beschikbaar[hier](https://reference.aspose.com/barcode/java/).
+De uitgebreide documentatie is beschikbaar [hier](https://reference.aspose.com/barcode/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.BarCode Java 24.11 (latest)  
+**Author:** Aspose

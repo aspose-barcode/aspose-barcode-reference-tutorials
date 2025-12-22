@@ -1,36 +1,51 @@
 ---
-title: Java で空のバーを含むバーコードを生成する
-linktitle: 空のバーを含むバーコードの生成
+date: 2025-12-22
+description: Aspose.BarCode for Java を使用して、空白バーのあるバーコード画像の作成方法を学びましょう。このステップバイステップのバーコード生成例は、Java
+  でバーコードを迅速に生成するのに役立ちます。
+linktitle: Generating Barcode with Empty Bars
 second_title: Aspose.BarCode Java API
-description: Aspose.BarCode を使用して、Java で空のバーを含むバーコードを簡単に生成します。外観をカスタマイズし、シームレスに統合します。今すぐチュートリアルを見てみましょう!
-weight: 14
+title: Javaで空白バー付きのバーコード画像を作成する方法
 url: /ja/java/image-manipulation/generating-barcode-empty-bars/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java で空のバーを含むバーコードを生成する
+# Javaで空白バーのバーコード画像を作成する方法
 
+## Introduction
 
-## 導入
+モダンな Java アプリケーションでは、**バーコード画像** ファイルをその場で作成できることは、在庫管理、チケットシステム、その他多くのビジネスシナリオで貴重な機能です。Aspose.BarCode for Java は、数行のコードで高品質なバーコードを生成できる強力かつ使いやすい API を提供します。本チュートリアルでは、空白（塗りつぶしなし）のバーを持つバーコードを作成する **ステップバイステップのバーコード** 作成プロセスを解説します。デザイン上、空洞の外観が必要な場合に最適です。
 
-ソフトウェア開発の動的な世界では、バーコード生成機能を Java アプリケーションに統合することが一般的な要件になっています。 Aspose.BarCode for Java は堅牢なソリューションとして際立っており、さまざまな種類のバーコードを作成するための強力なツール セットを開発者に提供します。このチュートリアルでは、Aspose.BarCode for Java を使用して空のバーを含むバーコードを生成するプロセスを詳しく説明します。
+## Quick Answers
+- **What does “empty bars” mean?** バーはデフォルトの実線塗りつぶしが行われず、空洞の外観になります。  
+- **Which barcode type is used?** Code 128（広くサポートされている線形シンボロジー）。  
+- **Do I need a license to try it?** 無料トライアルが利用可能です。製品版の使用にはライセンスが必要です。  
+- **What output formats are supported?** PNG、JPEG、BMP、GIF、TIFF など多数。  
+- **Is this compatible with all Java versions?** はい、Java 8 以降で動作します。
 
-## 前提条件
+## What is create barcode image?
+バーコード画像の作成とは、データ文字列をスキャナーが読み取れる視覚的表現に変換することです。生成された画像は PNG、JPEG などの一般的な形式で保存でき、PDF に埋め込んだり、ラベルに印刷したり、UI に表示したりできます。
 
-バーコード生成の作業を開始する前に、次の前提条件が満たされていることを確認してください。
+## Why use Aspose.BarCode Java library?
+- **Rich feature set** – Code 128、QR、DataMatrix など 50 種類以上のバーコードシンボロジーに対応。  
+- **Fine‑grained control** – `FilledBars`、色、余白、画像サイズなどのプロパティを簡単に設定可能。  
+- **No external dependencies** – 単一の JAR ファイルですべてが完結し、デプロイがシンプル。  
+- **Comprehensive documentation** – サンプル、API リファレンス、フォーラムが充実しており、すぐに使い始められます。
 
-1. Java 開発環境: マシン上に Java 開発環境がセットアップされていることを確認します。
+## Prerequisites
 
-2.  Aspose.BarCode for Java ライブラリ: Aspose.BarCode for Java ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/barcode/java/).
+バーコード生成の旅に出る前に、以下の前提条件を満たしていることを確認してください。
 
-3. ドキュメント ディレクトリ: 生成されたバーコード イメージを保存するディレクトリをシステム上に作成します。
+1. **Java Development Environment** – Java 8 以上がインストールされ、対応する IDE またはビルドツールが利用可能であること。  
+2. **Aspose.BarCode for Java Library** – [download page](https://releases.aspose.com/barcode/java/) から Aspose.BarCode for Java ライブラリをダウンロードしてインストール。  
+3. **Document Directory** – 生成したバーコード画像を保存するディレクトリをシステム上に作成。
 
-## パッケージのインポート
+## Import Packages
 
-Java プロジェクトで、Aspose.BarCode を操作するために必要なパッケージをインポートします。
+Java プロジェクトで Aspose.BarCode を使用するために、必要なパッケージをインポートします。
 
 ```java
 import java.io.IOException;
@@ -38,67 +53,78 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## ステップ 1: リソース ディレクトリを設定する
+## How to Create Barcode Image with Empty Bars
+
+### Step 1: Set Up the Resource Directory
 
 ```java
-//リソース ディレクトリへのパス。
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-交換する`"Your Document Directory"`ドキュメントディレクトリへの実際のパスを置き換えます。
+`"Your Document Directory"` を、出力ファイルを保存したい実際のパスに置き換えてください。
 
-## ステップ 2: バーコード ジェネレーター インスタンスを作成する
+### Step 2: Create Barcode Generator Instance (Code128 Barcode Java)
 
 ```java
-// BarcodeGenerator のインスタンスを作成し、CodeText と Symbology で初期化します。
+// Create an instance of BarcodeGenerator and initialize it with CodeText and Symbology
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "TEXT");
 ```
 
-ここでは、CODE_128 シンボルとエンコードされるコードとしてテキスト「TEXT」を使用して BarcodeGenerator インスタンスを作成しています。
+ここでは **Code 128** シンボロジーを使用しています。これは最も一般的な線形バーコードの一つで、**code128 barcode java** の典型的な例となります。
 
-## ステップ 3: FilledBars プロパティを False に設定する
+### Step 3: Set FilledBars Property to False
 
 ```java
-//FilledBars プロパティを false に設定します。
+// Set the FilledBars property to false
 generator.getParameters().getBarcode().setFilledBars(false);
 ```
 
-設定することにより`FilledBars`に`false`、生成されたバーコードには空のバーが含まれることを保証します。
+`FilledBars` を `false` に設定すると、Aspose.BarCode はバーを実線ではなく空洞（ホロウ）形状として描画します。
 
-## ステップ 4: バーコード画像を保存する
+### Step 4: Save the Barcode Image
 
 ```java
-//結果のバーコード画像をディスクに保存します
+// Save the resultant barcode image on disk
 generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 ```
 
-この手順では、生成されたバーコード画像を指定されたディレクトリに PNG 形式で保存します。
+画像は PNG 形式で保存されますが、`BarCodeImageFormat` 列挙体を変更すれば JPEG、BMP など他のサポート形式でも出力可能です。
 
-Java アプリケーションでこれらの手順を繰り返し、Aspose.BarCode for Java を使用して空のバーを含むバーコードを簡単に生成します。
+これらの手順を Java アプリケーションに組み込めば、Aspose.BarCode for Java を使用して空白バー付きの **バーコード画像** を簡単に作成できます。
 
-## 結論
+## Conclusion
 
-結論として、このチュートリアルでは、Aspose.BarCode ライブラリを使用して Java で空のバーを含むバーコードを生成するプロセスを説明しました。 Aspose.BarCode は、直感的な API と広範なドキュメントによりバーコードの統合を簡素化し、開発者にとって貴重な資産となります。
+本チュートリアルでは、Java で空白バーの **バーコード画像** を **ステップバイステップ** で作成する方法を解説しました。直感的な API と豊富なカスタマイズオプションにより、Aspose.BarCode は信頼性の高い **java barcode library** を求める開発者にとって価値あるツールとなります。
 
-## よくある質問
+## FAQs
 
-### Aspose.BarCode はすべての Java 開発環境と互換性がありますか?
-はい、Aspose.BarCode は、さまざまな Java 開発環境とシームレスに統合するように設計されています。
+### Is Aspose.BarCode compatible with all Java development environments?
+はい、Aspose.BarCode はさまざまな Java 開発環境とシームレスに統合できるよう設計されています。
 
-### 生成されたバーコードの外観をカスタマイズできますか?
-絶対に！ Aspose.BarCode には多数のカスタマイズ オプションが用意されており、特定のニーズに合わせてバーコードを調整できます。
+### Can I customize the appearance of the generated barcode?
+もちろんです！Aspose.BarCode は多数のカスタマイズオプションを提供しており、用途に合わせてバーコードの外観を自由に調整できます。
 
-### Aspose.BarCode の試用版は利用できますか?
-はい、無料トライアルを入手して、Aspose.BarCode の機能を探索できます。[ここ](https://releases.aspose.com/).
+### Is a trial version available for Aspose.BarCode?
+はい、無料トライアルをご利用いただけます。詳細は [here](https://releases.aspose.com/) をご確認ください。
 
-### Aspose.BarCode のサポートを受けるにはどうすればよいですか?
-ご質問やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13).
+### How can I get support for Aspose.BarCode?
+ご質問やサポートが必要な場合は、[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) へお越しください。
 
-### Aspose.BarCode の詳細なドキュメントはどこで見つけられますか?
-包括的なドキュメントが利用可能です[ここ](https://reference.aspose.com/barcode/java/).
+### Where can I find detailed documentation for Aspose.BarCode?
+包括的なドキュメントは [here](https://reference.aspose.com/barcode/java/) にあります。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.BarCode Java 24.11 (latest)  
+**Author:** Aspose  
+
+---

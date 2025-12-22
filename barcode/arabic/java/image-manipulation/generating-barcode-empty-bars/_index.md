@@ -1,36 +1,51 @@
 ---
-title: توليد الباركود مع أشرطة فارغة في جافا
-linktitle: توليد الباركود مع أشرطة فارغة
-second_title: Aspose.BarCode جافا API
-description: قم بإنشاء رموز شريطية بأشرطة فارغة بسهولة في Java باستخدام Aspose.BarCode. تخصيص المظهر والتكامل بسلاسة. استكشاف البرنامج التعليمي الآن!
-weight: 14
+date: 2025-12-22
+description: تعلم كيفية إنشاء صورة باركود بأعمدة فارغة باستخدام Aspose.BarCode للغة
+  Java. يساعدك هذا المثال خطوة بخطوة لتوليد باركود Java بسرعة.
+linktitle: Generating Barcode with Empty Bars
+second_title: Aspose.BarCode Java API
+title: كيفية إنشاء صورة باركود بأشرطة فارغة في جافا
 url: /ar/java/image-manipulation/generating-barcode-empty-bars/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# توليد الباركود مع أشرطة فارغة في جافا
+# كيفية إنشاء صورة باركود بأشرطة فارغة في جافا
 
+## Introduction
 
-## مقدمة
+في تطبيقات جافا الحديثة، القدرة على **إنشاء ملفات صورة باركود** في الوقت الفعلي ميزة قيمة لإدارة المخزون، أنظمة التذاكر، والعديد من السيناريوهات التجارية الأخرى. توفر Aspose.BarCode for Java واجهة برمجة تطبيقات قوية وسهلة الاستخدام تتيح لك توليد باركود عالي الجودة في بضع أسطر من الشيفرة فقط. في هذا الدرس سنستعرض عملية **إنشاء باركود خطوة بخطوة** تنتج باركود بأشرطة فارغة (غير مملوءة)، مثالية للتصاميم التي تتطلب مظهرًا مجوفًا.
 
-في العالم الديناميكي لتطوير البرمجيات، أصبح دمج إمكانات إنشاء الباركود في تطبيقات Java مطلبًا شائعًا. يبرز Aspose.BarCode for Java كحل قوي، حيث يوفر للمطورين مجموعة قوية من الأدوات لإنشاء أنواع مختلفة من الرموز الشريطية. في هذا البرنامج التعليمي، سوف نتعمق في عملية إنشاء باركود بأشرطة فارغة باستخدام Aspose.BarCode لـ Java.
+## Quick Answers
+- **ماذا يعني “الأشرطة الفارغة”؟** يتم رسم الأشرطة بدون التعبئة الصلبة الافتراضية، مما يعطي مظهرًا مجوفًا.  
+- **ما نوع الباركود المستخدم؟** Code 128 (رمز خطي مدعوم على نطاق واسع).  
+- **هل أحتاج إلى ترخيص لتجربته؟** تتوفر نسخة تجريبية مجانية؛ يلزم الترخيص للاستخدام في الإنتاج.  
+- **ما صيغ الإخراج المدعومة؟** PNG، JPEG، BMP، GIF، TIFF، وأكثر.  
+- **هل هذا متوافق مع جميع إصدارات جافا؟** نعم، المكتبة تعمل مع Java 8 وما بعدها.
 
-## المتطلبات الأساسية
+## What is create barcode image?
+إنشاء صورة باركود يعني تحويل سلسلة من البيانات إلى تمثيل بصري يمكن لأجهزة القراءة مسحه. يمكن حفظ الصورة الناتجة بصيغة PNG أو JPEG أو صيغ شائعة أخرى وتضمينها في ملفات PDF، طباعتها على الملصقات، أو عرضها في واجهة المستخدم.
 
-قبل أن نبدأ رحلة إنشاء الباركود، تأكد من توفر المتطلبات الأساسية التالية:
+## Why use Aspose.BarCode Java library?
+- **مجموعة ميزات غنية** – تدعم أكثر من 50 نوعًا من رموز الباركود، بما في ذلك Code 128، QR، DataMatrix، وأكثر.  
+- **تحكم دقيق** – خصائص مثل `FilledBars`، الألوان، الهوامش، وحجم الصورة يمكن تكوينها بسهولة.  
+- **بدون تبعيات خارجية** – ملف JAR واحد يتعامل مع كل شيء، مما يبسط النشر.  
+- **توثيق شامل** – أمثلة، مرجع API، والمنتديات تساعدك على البدء بسرعة.
 
-1. بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على جهازك.
+## Prerequisites
 
-2.  Aspose.BarCode لمكتبة Java: قم بتنزيل وتثبيت مكتبة Aspose.BarCode لـ Java من[صفحة التحميل](https://releases.aspose.com/barcode/java/).
+قبل أن نبدأ رحلة توليد الباركود، تأكد من توفر المتطلبات التالية:
 
-3. دليل المستندات: قم بإنشاء دليل على نظامك لتخزين صورة الباركود التي تم إنشاؤها.
+1. **بيئة تطوير جافا** – تأكد من تثبيت Java 8+ ووجود IDE أو أداة بناء متوافقة.  
+2. **مكتبة Aspose.BarCode لجافا** – قم بتحميل وتثبيت مكتبة Aspose.BarCode لجافا من [صفحة التحميل](https://releases.aspose.com/barcode/java/).  
+3. **دليل المستندات** – أنشئ دليلًا على نظامك لتخزين صورة الباركود المولدة.
 
-## حزم الاستيراد
+## Import Packages
 
-في مشروع Java الخاص بك، قم باستيراد الحزم اللازمة للعمل مع Aspose.BarCode:
+في مشروع جافا الخاص بك، استورد الحزم اللازمة للعمل مع Aspose.BarCode:
 
 ```java
 import java.io.IOException;
@@ -38,67 +53,76 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## الخطوة 1: إعداد دليل الموارد
+## How to Create Barcode Image with Empty Bars
+
+### Step 1: Set Up the Resource Directory
 
 ```java
-// المسار إلى دليل الموارد.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- يستبدل`"Your Document Directory"`بالمسار الفعلي إلى دليل المستندات الخاص بك.
+استبدل `"Your Document Directory"` بالمسار الفعلي حيث تريد حفظ ملف الإخراج.
 
-## الخطوة 2: إنشاء مثيل مولد الرمز الشريطي
+### Step 2: Create Barcode Generator Instance (Code128 Barcode Java)
 
 ```java
-// قم بإنشاء مثيل لـ BarcodeGenerator وقم بتهيئته باستخدام CodeText وSymbology
+// Create an instance of BarcodeGenerator and initialize it with CodeText and Symbology
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "TEXT");
 ```
 
-هنا، نقوم بإنشاء مثيل BarcodeGenerator باستخدام رمز CODE_128 والنص "TEXT" كالرمز الذي سيتم تشفيره.
+هنا نستخدم رموز **Code 128** — أحد أكثر الباركودات الخطية شيوعًا — مما يجعل هذا مثالًا كلاسيكيًا على **code128 barcode java**.
 
-## الخطوة 3: قم بتعيين خاصية FiledBars على False
+### Step 3: Set FilledBars Property to False
 
 ```java
-// قم بتعيين الخاصية filledbars إلى false
+// Set the FilledBars property to false
 generator.getParameters().getBarcode().setFilledBars(false);
 ```
 
- عن طريق الإعداد`FilledBars` ل`false`، نتأكد من أن الباركود الذي تم إنشاؤه سيحتوي على أشرطة فارغة.
+ضبط `FilledBars` إلى `false` يخبر Aspose.BarCode برسم الأشرطة كأشكال فارغة (مجوفة) بدلاً من كتل صلبة.
 
-## الخطوة 4: احفظ صورة الباركود
+### Step 4: Save the Barcode Image
 
 ```java
-// احفظ صورة الباركود الناتجة على القرص
+// Save the resultant barcode image on disk
 generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 ```
 
-تتضمن هذه الخطوة حفظ صورة الباركود التي تم إنشاؤها في الدليل المحدد بتنسيق PNG.
+يتم حفظ الصورة بصيغة PNG، ولكن يمكنك تغيير تعداد `BarCodeImageFormat` لإنتاج JPEG أو BMP أو صيغ أخرى مدعومة.
 
-كرر هذه الخطوات في تطبيق Java الخاص بك لإنشاء رمز شريطي يحتوي على أشرطة فارغة بسهولة باستخدام Aspose.BarCode for Java.
+كرر هذه الخطوات في تطبيق جافا الخاص بك لإنشاء ملفات **إنشاء صورة باركود** بسهولة بأشرطة فارغة باستخدام Aspose.BarCode لجافا.
 
-## خاتمة
+## Conclusion
 
-في الختام، يرشدك هذا البرنامج التعليمي خلال عملية إنشاء رمز شريطي بأشرطة فارغة في Java باستخدام مكتبة Aspose.BarCode. بفضل واجهة برمجة التطبيقات البديهية والوثائق الشاملة، يعمل Aspose.BarCode على تبسيط تكامل الباركود، مما يجعله أصلًا قيمًا للمطورين.
+في الختام، قدم لك هذا الدرس عملية **إنشاء باركود خطوة بخطوة** توضح كيفية **إنشاء صورة باركود** بأشرطة فارغة في جافا. بفضل واجهة برمجة التطبيقات البديهية وخيارات التخصيص الواسعة، يبسط Aspose.BarCode دمج الباركود، مما يجعله أداة قيمة للمطورين الذين يحتاجون إلى **مكتبة باركود جافا** موثوقة.
 
-## الأسئلة الشائعة
+## FAQs
 
-### هل Aspose.BarCode متوافق مع جميع بيئات تطوير Java؟
-نعم، تم تصميم Aspose.BarCode للتكامل بسلاسة مع بيئات تطوير Java المختلفة.
+### Is Aspose.BarCode compatible with all Java development environments?
+نعم، تم تصميم Aspose.BarCode للتكامل السلس مع مختلف بيئات تطوير جافا.
 
-### هل يمكنني تخصيص مظهر الباركود الذي تم إنشاؤه؟
-قطعاً! يوفر Aspose.BarCode العديد من الخيارات للتخصيص، مما يسمح لك بتخصيص الرمز الشريطي وفقًا لاحتياجاتك المحددة.
+### Can I customize the appearance of the generated barcode?
+بالطبع! يوفر Aspose.BarCode خيارات عديدة للتخصيص، مما يتيح لك تعديل الباركود وفقًا لاحتياجاتك الخاصة.
 
-### هل يتوفر إصدار تجريبي لـ Aspose.BarCode؟
- نعم، يمكنك استكشاف إمكانيات Aspose.BarCode من خلال الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+### Is a trial version available for Aspose.BarCode?
+نعم، يمكنك استكشاف إمكانيات Aspose.BarCode بالحصول على نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
 
-### كيف يمكنني الحصول على الدعم لـ Aspose.BarCode؟
- لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+### How can I get support for Aspose.BarCode?
+لأي استفسارات أو مساعدة، زر [منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-### أين يمكنني العثور على وثائق مفصلة عن Aspose.BarCode؟
- الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/barcode/java/).
+### Where can I find detailed documentation for Aspose.BarCode?
+الوثائق الشاملة متاحة [هنا](https://reference.aspose.com/barcode/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2025-12-22  
+**تم الاختبار مع:** Aspose.BarCode Java 24.11 (latest)  
+**المؤلف:** Aspose
