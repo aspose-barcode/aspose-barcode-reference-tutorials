@@ -1,36 +1,49 @@
 ---
-title: Rozpoznawanie kodu kreskowego PDF417 z chińskimi znakami w Javie
-linktitle: Rozpoznawanie kodu kreskowego PDF417 z chińskimi znakami
-second_title: Aspose.BarCode API Java
-description: Dowiedz się, jak rozpoznawać kody kreskowe PDF417 zawierające chińskie znaki w Javie za pomocą Aspose.BarCode. Skorzystaj z naszego obszernego samouczka, aby uzyskać bezproblemową integrację.
-weight: 10
+date: 2025-12-25
+description: Dowiedz się, jak wyodrębniać tekst z obrazów kodów kreskowych, w szczególności
+  PDF417 z chińskimi znakami, używając Aspose.BarCode dla Javy. Postępuj zgodnie z
+  naszym przewodnikiem krok po kroku, aby efektywnie odczytywać dane z kodów kreskowych.
+linktitle: 'Extract Text from Barcode: PDF417 Chinese Characters'
+second_title: Aspose.BarCode Java API
+title: 'Wyodrębnij tekst z kodu kreskowego: chińskie znaki PDF417 w Javie'
 url: /pl/java/multilingual-support/recognizing-pdf417-chinese-characters/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozpoznawanie kodu kreskowego PDF417 z chińskimi znakami w Javie
+# Wyodrębnianie tekstu z kodu kreskowego: chińskie znaki PDF417 w Javie
 
+## Introduction
 
-## Wstęp
+Integracja rozpoznawania kodów kreskowych w aplikacjach Java to cenna umiejętność, szczególnie gdy musisz **wyodrębnić tekst z kodu kreskowego** z obrazów zawierających dane wielojęzyczne. W tym samouczku przeprowadzimy Cię przez użycie Aspose.BarCode dla Javy do rozpoznawania kodów PDF417 z chińskimi znakami. Po zakończeniu dokładnie wiesz, jak odczytać dane z kodu kreskowego i zdekodować je do czytelnego tekstu.
 
-dynamicznym świecie programowania w języku Java włączenie rozpoznawania kodów kreskowych do aplikacji jest kluczową umiejętnością. Ten przewodnik krok po kroku przeprowadzi Cię przez proces używania Aspose.BarCode for Java do rozpoznawania kodów kreskowych PDF417 zawierających chińskie znaki. Pod koniec tego samouczka będziesz biegły w bezproblemowej integracji rozpoznawania kodów kreskowych z projektami Java.
+## Quick Answers
+- **Jaką bibliotekę obsługuje PDF417 z chińskimi znakami?** Aspose.BarCode for Java.  
+- **Jaki zestaw znaków jest potrzebny do dekodowania chińskiego?** MS936 (GBK).  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Tak, wymagana jest licencja komercyjna.  
+- **Czy mogę uruchomić to na dowolnej wersji Javy?** Działa z Java 8 i nowszymi.  
+- **Czy dostępna jest darmowa wersja próbna?** Oczywiście – pobierz ją ze strony Aspose.
 
-## Warunki wstępne
+## What is “extract text from barcode”?
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+Wyodrębnianie tekstu z kodu kreskowego oznacza konwersję zakodowanych danych z powrotem do ich pierwotnej, czytelnej dla człowieka formy. Dla kodów PDF417 przechowujących chińskie znaki, wiąże się to również z wyborem właściwego kodowania znaków, aby bajty mapowały się na odpowiednie glify.
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowana najnowsza wersja pakietu JDK.
+## Why use Aspose.BarCode for Java?
 
-2.  Aspose.BarCode dla Java: Pobierz i zainstaluj bibliotekę Aspose.BarCode z[Tutaj](https://releases.aspose.com/barcode/java/).
+Aspose.BarCode zapewnia solidne wsparcie dla szerokiego zakresu symbologii kodów kreskowych, w tym PDF417, i obsługuje złożone zestawy znaków od razu. Abstrahuje niskopoziomowe przetwarzanie obrazu, pozwalając skupić się na logice biznesowej, a nie na szczegółach dekodowania.
 
-3. Obraz kodu kreskowego: Przygotuj do testowania przykładowy obraz kodu kreskowego PDF417 z chińskimi znakami.
+## Prerequisites
 
-## Importuj pakiety
+1. **Java Development Kit (JDK)** – zalecana jest najnowsza wersja.  
+2. **Aspose.BarCode for Java** – pobierz go [tutaj](https://releases.aspose.com/barcode/java/).  
+3. **Obraz kodu PDF417** zawierający chińskie znaki (np. `barcode.png`).
 
-W swoim projekcie Java zaimportuj niezbędne pakiety, aby wykorzystać funkcjonalności Aspose.BarCode:
+## Import Packages
+
+W swoim projekcie Java zaimportuj niezbędne klasy do pracy z Aspose.BarCode:
 
 ```java
 import java.nio.ByteBuffer;
@@ -41,29 +54,27 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Krok 1: Ustaw katalog dokumentów
+## Step 1: Set the Document Directory
 
-Zacznij od ustawienia ścieżki do katalogu zasobów:
+Określ folder, w którym znajduje się obraz kodu kreskowego:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Zastąp „Twój katalog dokumentów” ścieżką do aktualnego katalogu dokumentów.
+Zastąp `"Your Document Directory"` rzeczywistą ścieżką na swoim komputerze.
 
-## Krok 2: Załaduj obraz kodu kreskowego
+## Step 2: Load Barcode Image
 
-Następnie załaduj obraz kodu kreskowego za pomocą klasy BarCodeReader:
+Utwórz instancję `BarCodeReader`, która wskazuje na plik PNG i informuje czytnik, aby szukał symbologii PDF417:
 
 ```java
 BarCodeReader reader = new BarCodeReader(dataDir + "barcode.png", DecodeType.PDF_417);
 ```
 
-Zastąp „barcode.png” rzeczywistą nazwą pliku obrazu kodu kreskowego PDF417.
+## Step 3: Read Barcode
 
-## Krok 3: Przeczytaj kod kreskowy
-
-Wykonaj iterację po wynikach kodu kreskowego i wyodrębnij tablicę bajtów do dekodowania:
+Iteruj przez wyniki wykrywania, wyciągnij surową tablicę bajtów i zdekoduj ją przy użyciu zestawu znaków GBK (MS936):
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -73,28 +84,63 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-W tym kroku odczytywany jest kod kreskowy, pobiera tablicę bajtów i dekoduje ją przy użyciu określonego zestawu znaków.
+Ta pętla **wyodrębnia tekst z kodu kreskowego** i wypisuje zdekodowane chińskie znaki w konsoli.
 
-## Wniosek
+## How to read barcode with PDF417?
 
-Gratulacje! Pomyślnie nauczyłeś się rozpoznawać kody kreskowe PDF417 zawierające chińskie znaki w Javie przy użyciu Aspose.BarCode. Ta umiejętność otwiera drzwi do różnych zastosowań, od zarządzania zapasami po przetwarzanie dokumentów.
+Powyższy kod demonstruje **jak odczytać dane z kodu kreskowego** krok po kroku:
 
-## Często zadawane pytania (FAQ)
+1. **Zainicjalizuj** czytnik z właściwym `DecodeType`.  
+2. **Iteruj** po każdym zwróconym `BarCodeResult`.  
+3. **Konwertuj** surowe bajty przy użyciu odpowiedniego zestawu znaków (`MS936` dla chińskiego).  
 
-### Czy mogę używać Aspose.BarCode dla Java w projektach komercyjnych?
- Tak, możesz używać Aspose.BarCode dla Java w projektach komercyjnych. Aby uzyskać szczegółowe informacje na temat licencji, odwiedź stronę[Tutaj](https://purchase.aspose.com/buy).
+Jeśli Twój kod kreskowy zawiera inne języki, po prostu zmień zestaw znaków na odpowiadający Twoim danym.
 
-### Czy dostępny jest bezpłatny okres próbny?
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.BarCode dla Java[Tutaj](https://releases.aspose.com/).
+## Common Issues & Solutions
 
-### Jak mogę uzyskać pomoc dotyczącą Aspose.BarCode?
- Odwiedź forum Aspose.BarCode[Tutaj](https://forum.aspose.com/c/barcode/13) w celu uzyskania wsparcia lub zapytań.
+| Problem | Rozwiązanie |
+|-------|----------|
+| Zniekształcone znaki po dekodowaniu | Sprawdź, czy używasz właściwego zestawu znaków (`MS936` dla GBK). |
+| Nie wykryto kodu kreskowego | Upewnij się, że jakość obrazu jest wysoka i kod nie jest obrócony; w razie potrzeby możesz wstępnie przetworzyć obraz. |
+| Zwrócono wiele wyników | PDF417 może przechowywać wiele segmentów; iteruj przez wszystkie wyniki, jak pokazano. |
 
-### Czy mogę uzyskać tymczasową licencję do celów testowych?
-Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+## Frequently Asked Questions (FAQs)
 
-### Gdzie mogę znaleźć dokumentację?
- Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/barcode/java/).
+### Can I use Aspose.BarCode for Java in commercial projects?
+Tak, możesz używać Aspose.BarCode dla Javy w projektach komercyjnych. Szczegóły licencjonowania znajdziesz [tutaj](https://purchase.aspose.com/buy).
+
+### Is there a free trial available?
+Tak, możesz uzyskać darmową wersję próbną Aspose.BarCode dla Javy [tutaj](https://releases.aspose.com/).
+
+### How can I get support for Aspose.BarCode?
+Odwiedź forum Aspose.BarCode [tutaj](https://forum.aspose.com/c/barcode/13), aby uzyskać wsparcie lub zadać pytania.
+
+### Can I obtain a temporary license for testing purposes?
+Tak, możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+### Where can I find the documentation?
+Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/barcode/java/).
+
+**Additional Q&A**
+
+**Q: Co jeśli mój obraz kodu kreskowego jest w formacie JPEG?**  
+A: `BarCodeReader` działa z formatami JPEG, PNG, BMP i innymi popularnymi formatami obrazów — wystarczy odpowiednio zmienić rozszerzenie pliku.
+
+**Q: Czy mogę dekodować kody kreskowe ze strumienia zamiast z pliku?**  
+A: Tak, możesz przekazać `InputStream` do konstruktora `BarCodeReader` w celu dekodowania w locie.
+
+**Q: Czy Aspose.BarCode obsługuje inne zestawy znaków?**  
+A: Oczywiście. Użyj `Charset.forName("<your‑charset>")`, aby dekodować bajty dla UTF‑8, ISO‑8859‑1 itp.
+
+## Conclusion
+
+Teraz wiesz, jak **wyodrębnić tekst z obrazów kodów kreskowych**, konkretnie kodów PDF417 zawierających chińskie znaki, używając Aspose.BarCode dla Javy. Ta możliwość otwiera drzwi do wielojęzycznych systemów inwentaryzacji, automatyzacji dokumentów i nie tylko. Śmiało eksperymentuj z innymi symbologiami i zestawami znaków, aby rozszerzyć zasięg swojej aplikacji.
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.BarCode for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
