@@ -1,38 +1,55 @@
 ---
-title: Java'da Barkod Oluşturma ve Kaydetme
-linktitle: Barkod Oluşturma ve Kaydetme
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode ile Java'da zahmetsizce barkod oluşturun ve kaydedin. Sorunsuz bir şekilde entegre edin, görünümü özelleştirin ve kapsamlı barkod desteğinin keyfini çıkarın.
-weight: 12
+date: 2025-12-25
+description: Java ile Aspose.BarCode kullanarak barkod oluşturmayı, barkod görüntüsünü
+  kaydetmeyi ve MySQL veritabanına depolamayı öğrenin. Birçok Aspose barkod tipini
+  destekler.
+linktitle: Generating and Saving Barcode
+second_title: Aspose.BarCode Java API
+title: java barkod oluştur – Aspose ile Barkodları Oluştur ve Kaydet
 url: /tr/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Barkod Oluşturma ve Kaydetme
+# java generate barcode – Java’da Barkod Oluşturma ve Kaydetme
 
+## Giriş
 
-## giriiş
+Eğer **java generate barcode**'ı hızlı bir şekilde oluşturup ortaya çıkan görüntüyü depolamanız gerekiyorsa, doğru yerdesiniz. Bu öğreticide **Aspose.BarCode for Java** kullanarak bir barkod oluşturmayı, görüntüyü bir resim dosyası olarak kaydetmeyi ve MySQL veritabanında kalıcı hale getirmeyi adım adım göstereceğiz. Sonunda, herhangi bir Java uygulamasına barkod işlevselliği eklemenin ne kadar kolay olduğunu göreceksiniz.
 
-Barkod oluşturmayı Java uygulamanıza sorunsuz bir şekilde entegre etmek mi istiyorsunuz? Başka yerde arama! Bu adım adım kılavuzda, barkodları verimli bir şekilde oluşturmak ve kaydetmek için Aspose.BarCode for Java'yı kullanma sürecinde size yol göstereceğiz. Aspose.BarCode, barkod oluşturmayı ve işlemeyi kolaylaştıran, uygulamalarınızı barkod işlevselliğiyle geliştirmek için gereken araçları sağlayan güçlü bir Java kütüphanesidir.
+## Hızlı Yanıtlar
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.BarCode for Java  
+- **Barkodu bir resim dosyası olarak kaydedebilir miyim?** Evet – `save` metodunu kullanarak bir JPG/PNG/… dosyası yazabilirsiniz  
+- **Barkodu depolamak için MySQL destekleniyor mu?** Kesinlikle, görüntüyü bir BLOB sütunu olarak depolayın  
+- **Hangi barkod tipleri mevcut?** CODE_39_STANDARD, CODE_128, QR, DataMatrix ve daha fazlası  
+- **Üretim için lisansa ihtiyacım var mı?** Üretim kullanımında ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur
 
-## Önkoşullar
+## java generate barcode nedir?
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Java’da barkod oluşturmak, tarayıcıların okuyabileceği verinin görsel bir temsilini programlı olarak yaratmak anlamına gelir. Aspose.BarCode, barkod tipini tanımlamak, veri dizesini ayarlamak ve grafiği yaygın görüntü formatlarında dışa aktarmak için akıcı bir API sunar.
 
-- Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+## Neden Aspose.BarCode Üreticisini Kullanmalısınız?
 
-- Aspose.BarCode Kütüphanesi: Aspose.BarCode kütüphanesini indirip yükleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/barcode/java/).
+- **Geniş semboloji desteği** – 50'den fazla barkod tipi (aspose barcode types)  
+- **Yüksek kalite renderleme** – gerektiğinde kayıpsız vektör grafikleri  
+- **Basit API** – profesyonel bir barkod üretmek için sadece birkaç satır kod  
+- **Kolay entegrasyon** – herhangi bir Java projesiyle çalışır, harici yerel bağımlılık gerektirmez  
 
-- MySQL Veritabanı: Barkodla ilgili bilgileri saklamayı planladığınız bir MySQL veritabanı kurun.
+## Ön Koşullar
 
-- Veritabanı Bağlantısı: MySQL veritabanıyla etkileşim kurmak için gerekli kimlik bilgilerine ve bağlantıya sahip olduğunuzdan emin olun.
+Öğreticiye başlamadan önce aşağıdaki ön koşulların karşılandığından emin olun:
 
-## Paketleri İçe Aktar
+- Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.  
+- Aspose.BarCode Kütüphanesi: Aspose.BarCode kütüphanesini indirin ve kurun. İndirme bağlantısını [burada](https://releases.aspose.com/barcode/java/) bulabilirsiniz.  
+- MySQL Veritabanı: Barkodla ilgili bilgileri depolamayı planladığınız bir MySQL veritabanı kurun.  
+- Veritabanı Bağlantısı: MySQL veritabanı ile etkileşim için gerekli kimlik bilgilerine ve bağlantıya sahip olduğunuzdan emin olun.  
 
-Aspose.BarCode ve MySQL bağlantısı için gerekli paketleri Java projenize aktarın.
+## Paketleri İçe Aktarma
+
+Java projenizde, Aspose.BarCode ve MySQL bağlantısı için gerekli paketleri içe aktarın.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
@@ -45,10 +62,10 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 ```
 
-## 1. Adım: Barkod Oluşturun ve Kaydedin
+## Adım 1: Barkodu Oluştur ve Kaydet
 
 ```java
-// Adım 1 - Barkod oluşturun ve geçici olarak bir dosyaya kaydedin
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +74,79 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-Açıklama: Bu adım, Aspose.BarCode ile bir barkod oluşturmayı, kod metnini ayarlamayı ve barkod görüntüsünü belirtilen konuma kaydetmeyi içerir.
+**Açıklama:** Bu kod parçacığı bir `BarcodeGenerator` oluşturur, `CODE_39_STANDARD` sembolojisini seçer, `"NOK-E71"` metnini atar ve ortaya çıkan görüntüyü `c:\temp\code39.jpg` konumuna kaydeder. Bu, **java generate barcode**'ın özüdür – tek bir okunabilir kod bloğu.
 
-## Adım 2: MySQL Veritabanına Kayıt Ekleme
+## Adım 2: MySQL Veritabanına Kayıt Ekle
 
 ```java
-// Adım 2 - MySQL DB'ye yeni bir kayıt ekleyin
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-// Bağlantıyı aç
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-// Açıklamayı hazırla
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-// Ürün numarasını ve ürün adını ayarlayın
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-// 3. sütun barkod görüntüsü içindir. DB türü BLOB'dur
-// Resmi kaydetmek için resim dosyasından bir akış oluşturmamız gerekiyor
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// Bildirimi yürüt
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-// Yakın bağlantı
+// Close connection
 pre.close();
 con.close();
 ```
 
-Açıklama: Bu adım, MySQL veritabanına bağlanmayı ve ürün bilgileri ve ilgili barkod görüntüsünü içeren yeni bir kayıt eklemeyi içerir.
+**Açıklama:** Burada bir JDBC bağlantısı açıyoruz, bir `INSERT` ifadesi hazırlıyoruz ve barkod görüntüsünü BLOB olarak depoluyoruz. Kod, **java generate barcode**'ı veritabanı depolama ile nasıl birleştirileceğini göstererek uçtan uca iş akışını tamamlar.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Barkod oluşturmak ve kaydetmek için Aspose.BarCode for Java'yı uygulamanıza başarıyla entegre ettiniz. Bu güçlü kütüphane süreci basitleştirerek barkod uygulamasını kolaylaştırır.
+| Sorun | Çözüm |
+|-------|----------|
+| **Dosya yolu bulunamadı** | Dizinin (`c:\temp`) mevcut olduğundan emin olun veya Java sürecinizin yazabileceği mutlak bir yol kullanın. |
+| **JDBC sürücü sınıfı bulunamadı** | MySQL Connector/J JAR dosyasını projenizin sınıf yoluna ekleyin. |
+| **BLOB boyutu sütun limitini aşıyor** | Daha büyük görüntüler için `MEDIUMBLOB` veya `LONGBLOB` sütun tipini kullanın. |
+| **Kaydetme izni reddedildi** | Uygulamayı yeterli dosya sistemi izinleriyle çalıştırın veya yazılabilir bir klasör seçin. |
 
 ## Sıkça Sorulan Sorular
 
-### S: Aspose.BarCode farklı barkod türleriyle uyumlu mudur?
-C: Evet, Aspose.BarCode CODE_39_STANDARD, CODE_128, QR ve daha fazlası dahil olmak üzere çeşitli barkod türlerini destekler.
+### Q: Aspose.BarCode farklı barkod tipleriyle uyumlu mu?
+A: Evet, Aspose.BarCode çeşitli barkod tiplerini destekler; CODE_39_STANDARD, CODE_128, QR ve daha fazlası dahil.
 
-### S: Oluşturulan barkodların görünümünü özelleştirebilir miyim?
-C: Kesinlikle! Aspose.BarCode, barkod görünümü için kapsamlı özelleştirme seçenekleri sunarak, barkodu özel ihtiyaçlarınıza göre uyarlamanıza olanak tanır.
+### Q: Oluşturulan barkodların görünümünü özelleştirebilir miyim?
+A: Kesinlikle! Aspose.BarCode, barkod görünümü için kapsamlı özelleştirme seçenekleri sunar ve ihtiyaçlarınıza göre uyarlamanıza olanak tanır.
 
-### S: Aspose.BarCode'un ücretsiz deneme sürümü mevcut mu?
- C: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+### Q: Aspose.BarCode için ücretsiz deneme sürümü mevcut mu?
+A: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### S: Aspose.BarCode için ayrıntılı belgeleri nerede bulabilirim?
- C: Belgelere bakın[Burada](https://reference.aspose.com/barcode/java/).
+### Q: Aspose.BarCode için ayrıntılı belgeleri nerede bulabilirim?
+A: Belgeleri [buradan](https://reference.aspose.com/barcode/java/) inceleyin.
 
-### S: Aspose.BarCode için nasıl destek alabilirim?
- C: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/barcode/13) herhangi bir yardım veya sorularınız için.
+### Q: Aspose.BarCode için destek nasıl alabilirim?
+A: Yardım ve sorularınız için destek forumunu [buradan](https://forum.aspose.com/c/barcode/13) ziyaret edin.
+
+## Sonuç
+
+Tebrikler! **Aspose.BarCode for Java**'ı kullanarak **java generate barcode**'ı başarıyla gerçekleştirdiniz, barkod görüntüsünü kaydettiniz ve MySQL veritabanına depoladınız. Bu yaklaşım barkod entegrasyonunu kolaylaştırır ve envanter, izleme veya satış noktası sistemleri oluşturmak için sağlam bir temel sağlar.
+
+---
+
+**Son Güncelleme:** 2025-12-25  
+**Test Edilen Sürüm:** Aspose.BarCode for Java 24.10  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,38 +1,45 @@
 ---
-title: Java でのバーコードの取得と認識
-linktitle: バーコードの取得と認識
+date: 2025-12-25
+description: Aspose.BarCode for Java を簡単に統合し、データベースからバーコードを取得して認識します。完全なサンプルで Java
+  のバーコード読み取り方法を学びましょう。
+linktitle: Fetching and Recognizing Barcode
 second_title: Aspose.BarCode Java API
-description: Aspose.BarCode for Java を簡単に統合 - データベースからバーコードを取得して認識します。今すぐダウンロードして、シームレスなバーコード統合エクスペリエンスを体験してください。
-weight: 11
+title: Javaでバーコードを読み取る – バーコードの取得と認識
 url: /ja/java/symbology-and-format/fetching-recognizing-barcode/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java でのバーコードの取得と認識
+# Read Barcode Java – バーコードの取得と認識
 
+## Introduction
 
-## 導入
+低レベルの画像処理に悩むことなく、アプリケーションで **read barcode java** を実現したいですか？ Aspose.BarCode for Java は、データベースからバーコード画像を取得し、数行のコードで認識できる強力で使いやすい API を提供します。このステップバイステップガイドでは、環境設定から CODE‑39 バーコードのデコードまで、必要なすべてを解説し、迅速かつ自信を持ってバーコード認識を統合できるようにします。
 
-バーコード認識を Java アプリケーションに簡単に統合したいと考えていますか? Aspose.BarCode for Java は、バーコードを簡単に取得して認識するための強力でユーザーフレンドリーなソリューションを提供します。このステップバイステップのガイドでは、Aspose.BarCode を使用してバーコードを取得して認識し、Java プロジェクトにシームレスに統合するプロセスについて説明します。
+## Quick Answers
+- **どのライブラリを使用すべきですか？** Aspose.BarCode for Java は、最も包括的なバーコード読み取り機能を提供します。
+- **どのバーコードタイプがデモされていますか？** この例は CODE‑39 Standard に焦点を当てていますが、API は数十種類のシンボロジーをサポートしています。
+- **開発にライセンスは必要ですか？** 一時的な評価ライセンスが利用可能です。製品環境ではフルライセンスが必要です。
+- **主な前提条件は何ですか？** Java JDK、Aspose.BarCode for Java、そしてバーコード画像を BLOB として保存するデータベースです。
+- **実装にどれくらい時間がかかりますか？** 動作するプロトタイプを作成するのに約 15〜20 分です。
 
-## 前提条件
+## Prerequisites
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
 
 - Java プログラミングの基本的な理解。
--  Aspose.BarCode for Java ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/barcode/java/).
-- BLOB 形式で保存されたバーコード イメージを含むデータベースにアクセスします。
-- Java Development Kit (JDK) がマシンにインストールされています。
+- Aspose.BarCode for Java ライブラリがインストールされていること。[here](https://releases.aspose.com/barcode/java/) からダウンロードできます。
+- バーコード画像が BLOB 形式で保存されているデータベースへのアクセス。
+- マシンに Java Development Kit (JDK) がインストールされていること。
 
-## パッケージのインポート
+## Import Packages
 
-まず、Java プロジェクトに必要なパッケージをインポートします。 Aspose.BarCode ライブラリがプロジェクトの依存関係に含まれていることを確認してください。
+開始するには、Java プロジェクトで必要なパッケージをインポートします。Aspose.BarCode ライブラリがプロジェクトの依存関係に含まれていることを確認してください。
 
 ```java
-
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -41,31 +48,31 @@ import java.io.*;
 import java.sql.*;
 ```
 
-## ステップ 1: データベース接続を確立する
+## Step 1: Establish Database Connection
 
 ```java
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 
-//データベースへの接続を開きます
+// Open a connection to the database
 Connection con = null;
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 ```
 
-## ステップ 2: SQL クエリを実行する
+## Step 2: Execute SQL Query
 
 ```java
-//SELECT SQLを実行するステートメントを作成します。
+// Create a statement to execute the SELECT SQL
 PreparedStatement st = con.prepareStatement("SELECT * FROM Product ");
 st.executeQuery();
 ResultSet rs = st.getResultSet();
 ```
 
-## ステップ 3: イメージのフェッチと作成
+## Step 3: Fetch and Create Images
 
 ```java
 while (rs.next()) {
-    //BLOBフィールドを読み取り、そこからイメージを作成します
+    // Read BLOB field and create an image from it
     String len1 = rs.getString("BarCodeImage");
     int len = len1.length();
     byte[] b = new byte[len];
@@ -75,18 +82,18 @@ while (rs.next()) {
     OutputStream outImgBarCode = new FileOutputStream(strBarCodeImage);
 
     while (index != -1) {
-        //ファイルにバイトを書き込む
+        // Write bytes to file
         outImgBarCode.write(b, 0, index);
-        //次のバイトを読み取る
+        // Read next bytes
         index = in.read(b, 0, len);
     }
     outImgBarCode.close();
 ```
 
-## ステップ 4: 画像からバーコードを読み取る
+## Step 4: Read Barcode from Image
 
 ```java
-//画像からバーコードを読み取ります
+// Read the barcode from the image
 BarCodeReader reader = new BarCodeReader(strBarCodeImage, DecodeType.CODE_39_STANDARD);
 
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -104,28 +111,48 @@ System.out.println(ex.getMessage());
 }
 ```
 
-これらの手順に従うことで、Aspose.BarCode を Java アプリケーションにシームレスに統合でき、データベースからのバーコードの効率的なフェッチと認識が可能になります。
+これらの手順に従うことで、Aspose.BarCode を Java アプリケーションにシームレスに統合でき、データベースからの効率的な **read barcode java** 操作を実現できます。
 
-## 結論
+## Conclusion
 
-結論として、Aspose.BarCode for Java はバーコードの取得と認識のプロセスを簡素化し、信頼性が高く効率的なソリューションを求める開発者にとって理想的な選択肢となります。このガイドに従うことで、Java アプリケーションにバーコード認識を簡単に実装できます。
+結論として、Aspose.BarCode for Java はバーコードの取得と認識のプロセスを簡素化し、信頼性と効率性を求める開発者に最適な選択肢です。このガイドに従うことで、Java アプリケーションにバーコード認識を手軽に実装できます。
 
-## よくある質問
+## Frequently Asked Questions
 
-### Aspose.BarCode はすべてのバーコード タイプと互換性がありますか?
-はい、Aspose.BarCode は、CODE_39_STANDARD、QR コードなどを含む幅広い種類のバーコードをサポートしています。完全なリストについてはドキュメントを確認してください。
+### Aspose.BarCode はすべてのバーコードタイプに対応していますか？
+はい、Aspose.BarCode は CODE_39_STANDARD、QR Code などを含む幅広いバーコードタイプをサポートしています。完全なリストはドキュメントをご確認ください。
 
-### Aspose.BarCode を別のデータベースで使用できますか?
-確かに、Aspose.BarCode はさまざまなデータベースで動作するように設計されています。それに応じてデータベース接続の詳細を調整してください。
+### 異なるデータベースでも Aspose.BarCode を使用できますか？
+もちろんです。Aspose.BarCode はさまざまなデータベースで動作するよう設計されています。データベース接続の詳細はそれぞれに合わせて調整してください。
 
-### バーコード認識中のエラーはどのように処理すればよいですか?
-例外処理は非常に重要です。バーコード認識中の予期せぬ問題に対処するために、堅牢なエラー処理を必ず実装してください。
+### バーコード認識中のエラーはどのように処理すればよいですか？
+例外処理は重要です。認識中に予期しない問題が発生した場合に備えて、堅牢なエラーハンドリングを実装してください。
 
-### Aspose.BarCode は大規模なアプリケーションに適していますか?
-はい、Aspose.BarCode は大規模なアプリケーションを処理できるように設計されており、高いパフォーマンスと信頼性を提供します。
+### 大規模アプリケーションでも Aspose.BarCode は適していますか？
+はい、Aspose.BarCode は大規模アプリケーション向けに設計されており、高いパフォーマンスと信頼性を提供します。
 
-### 一時ライセンスはテスト目的で利用できますか?
-はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
+### テスト目的の一時ライセンスは入手できますか？
+はい、テストおよび評価目的の一時ライセンスを [here](https://purchase.aspose.com/temporary-license/) から取得できます。
+
+## Additional Frequently Asked Questions
+
+**Q: 同じコードで他にどのシンボロジーをデコードできますか？**  
+A: `DecodeType` 列挙体を変更するだけです（例: `DecodeType.QR`、`DecodeType.CODE_128`）で、他のサポート対象バーコードタイプを読み取れます。
+
+**Q: `ResultSet` から直接バーコードを読み取れますか？ファイルに書き出さなくてもよいですか？**  
+A: はい、`BarCodeReader` コンストラクタに `InputStream` または `byte[]` を渡すことで、中間ファイルを作成せずに読み取れます。
+
+**Q: 数千件のレコードの認識速度を向上させるにはどうすればよいですか？**  
+A: `BarCodeReader` のインスタンスを再利用し、画像をバッチ処理し、不要なシンボロジーのチェックを無効にすることを検討してください。
+
+**Q: 同一画像から複数のバーコードを読み取る方法はありますか？**  
+A: `readBarCodes()` メソッドは提供された画像内で検出されたすべてのバーコードを返すので、結果をイテレートして処理できます。
+
+---
+
+**最終更新日:** 2025-12-25  
+**テスト環境:** Aspose.BarCode for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

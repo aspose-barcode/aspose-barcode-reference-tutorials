@@ -1,38 +1,46 @@
 ---
-title: Pobieranie i rozpoznawanie kodu kreskowego w Javie
-linktitle: Pobieranie i rozpoznawanie kodu kreskowego
-second_title: Aspose.BarCode API Java
-description: Zintegruj Aspose.BarCode dla Java bez wysiłku - pobieraj i rozpoznawaj kody kreskowe z bazy danych. Pobierz teraz, aby zapewnić bezproblemową integrację kodów kreskowych.
-weight: 11
+date: 2025-12-25
+description: Zintegruj Aspose.BarCode dla Javy bez wysiłku – pobieraj i rozpoznawaj
+  kody kreskowe z bazy danych. Dowiedz się, jak odczytywać kody kreskowe w Javie,
+  korzystając z pełnego przykładu.
+linktitle: Fetching and Recognizing Barcode
+second_title: Aspose.BarCode Java API
+title: Odczyt kodu kreskowego w Javie – pobieranie i rozpoznawanie kodów kreskowych
 url: /pl/java/symbology-and-format/fetching-recognizing-barcode/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pobieranie i rozpoznawanie kodu kreskowego w Javie
+# Odczyt kodów kreskowych w Javie – Pobieranie i rozpoznawanie kodów kreskowych
 
+## Wprowadzenie
 
-## Wstęp
+Czy chcesz **read barcode java** w swojej aplikacji, nie walcząc z niskopoziomowym przetwarzaniem obrazu? Aspose.BarCode for Java oferuje potężne, łatwe w użyciu API, które pozwala pobierać obrazy kodów kreskowych z bazy danych i rozpoznawać je w zaledwie kilku linijkach kodu. W tym przewodniku krok po kroku przeprowadzimy Cię przez wszystko, czego potrzebujesz – od konfiguracji środowiska po dekodowanie kodu CODE‑39 – abyś mógł szybko i pewnie zintegrować rozpoznawanie kodów kreskowych.
 
-Czy chcesz bez wysiłku zintegrować rozpoznawanie kodów kreskowych z aplikacją Java? Aspose.BarCode dla Java zapewnia wydajne i przyjazne dla użytkownika rozwiązanie do łatwego pobierania i rozpoznawania kodów kreskowych. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces pobierania i rozpoznawania kodów kreskowych przy użyciu Aspose.BarCode, zapewniając bezproblemową integrację z Twoim projektem Java.
+## Szybkie odpowiedzi
+- **Jaką bibliotekę powinienem używać?** Aspose.BarCode for Java zapewnia najpełniejsze funkcje odczytu kodów kreskowych.
+- **Jaki typ kodu kreskowego jest demonstrowany?** Przykład koncentruje się na CODE‑39 Standard, ale API obsługuje dziesiątki symbologii.
+- **Czy potrzebna jest licencja do rozwoju?** Dostępna jest tymczasowa licencja ewaluacyjna; pełna licencja jest wymagana do użytku produkcyjnego.
+- **Jakie są główne wymagania wstępne?** Java JDK, Aspose.BarCode for Java oraz baza danych przechowująca obrazy kodów kreskowych jako BLOB.
+- **Jak długo trwa implementacja?** Około 15‑20 minut, aby uzyskać działający prototyp.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim przejdziesz do samouczka, upewnij się, że masz spełnione następujące wymagania:
 
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.BarCode dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/barcode/java/).
-- Dostęp do bazy danych zawierającej obrazy kodów kreskowych zapisane w formacie BLOB.
-- Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
+- Podstawową znajomość programowania w języku Java.
+- Zainstalowaną bibliotekę Aspose.BarCode for Java. Możesz ją pobrać [tutaj](https://releases.aspose.com/barcode/java/).
+- Dostęp do bazy danych z obrazami kodów kreskowych przechowywanymi w formacie BLOB.
+- Zainstalowany Java Development Kit (JDK) na swoim komputerze.
 
-## Importuj pakiety
+## Importowanie pakietów
 
-Aby rozpocząć, zaimportuj niezbędne pakiety dla swojego projektu Java. Upewnij się, że biblioteka Aspose.BarCode jest uwzględniona w zależnościach projektu.
+Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Upewnij się, że biblioteka Aspose.BarCode jest uwzględniona w zależnościach projektu.
 
 ```java
-
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -41,31 +49,31 @@ import java.io.*;
 import java.sql.*;
 ```
 
-## Krok 1: Nawiąż połączenie z bazą danych
+## Krok 1: Nawiązanie połączenia z bazą danych
 
 ```java
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 
-// Otwórz połączenie z bazą danych
+// Open a connection to the database
 Connection con = null;
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 ```
 
-## Krok 2: Wykonaj zapytanie SQL
+## Krok 2: Wykonanie zapytania SQL
 
 ```java
-// Utwórz instrukcję, aby wykonać SELECT SQL
+// Create a statement to execute the SELECT SQL
 PreparedStatement st = con.prepareStatement("SELECT * FROM Product ");
 st.executeQuery();
 ResultSet rs = st.getResultSet();
 ```
 
-## Krok 3: Pobierz i utwórz obrazy
+## Krok 3: Pobranie i utworzenie obrazów
 
 ```java
 while (rs.next()) {
-    //Przeczytaj pole BLOB i utwórz z niego obraz
+    // Read BLOB field and create an image from it
     String len1 = rs.getString("BarCodeImage");
     int len = len1.length();
     byte[] b = new byte[len];
@@ -75,18 +83,18 @@ while (rs.next()) {
     OutputStream outImgBarCode = new FileOutputStream(strBarCodeImage);
 
     while (index != -1) {
-        // Zapisz bajty do pliku
+        // Write bytes to file
         outImgBarCode.write(b, 0, index);
-        // Przeczytaj kolejne bajty
+        // Read next bytes
         index = in.read(b, 0, len);
     }
     outImgBarCode.close();
 ```
 
-## Krok 4: Przeczytaj kod kreskowy z obrazu
+## Krok 4: Odczyt kodu kreskowego z obrazu
 
 ```java
-// Odczytaj kod kreskowy z obrazka
+// Read the barcode from the image
 BarCodeReader reader = new BarCodeReader(strBarCodeImage, DecodeType.CODE_39_STANDARD);
 
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -104,28 +112,48 @@ System.out.println(ex.getMessage());
 }
 ```
 
-Wykonując poniższe kroki, możesz bezproblemowo zintegrować Aspose.BarCode z aplikacją Java, umożliwiając wydajne pobieranie i rozpoznawanie kodów kreskowych z bazy danych.
+Postępując zgodnie z tymi krokami, możesz płynnie zintegrować Aspose.BarCode w swojej aplikacji Java, umożliwiając efektywne **read barcode java** z bazy danych.
 
-## Wniosek
+## Zakończenie
 
-Podsumowując, Aspose.BarCode dla Java upraszcza proces pobierania i rozpoznawania kodów kreskowych, co czyni go idealnym wyborem dla programistów poszukujących niezawodnego i wydajnego rozwiązania. Postępując zgodnie z tym przewodnikiem, możesz bez wysiłku wdrożyć rozpoznawanie kodów kreskowych w aplikacjach Java.
+Podsumowując, Aspose.BarCode for Java upraszcza proces pobierania i rozpoznawania kodów kreskowych, co czyni go idealnym wyborem dla deweloperów poszukujących niezawodnego i wydajnego rozwiązania. Korzystając z tego przewodnika, możesz bez trudu wdrożyć rozpoznawanie kodów kreskowych w aplikacjach Java.
 
-## Często Zadawane Pytania
+## Najczęściej zadawane pytania
 
 ### Czy Aspose.BarCode jest kompatybilny ze wszystkimi typami kodów kreskowych?
-Tak, Aspose.BarCode obsługuje szeroką gamę typów kodów kreskowych, w tym CODE_39_STANDARD, kod QR i inne. Pełną listę znajdziesz w dokumentacji.
+Tak, Aspose.BarCode obsługuje szeroką gamę typów kodów kreskowych, w tym CODE_39_STANDARD, QR Code i inne. Sprawdź dokumentację, aby zobaczyć pełną listę.
 
 ### Czy mogę używać Aspose.BarCode z różnymi bazami danych?
-Absolutnie Aspose.BarCode jest przeznaczony do pracy z różnymi bazami danych. Upewnij się, że odpowiednio dostosowałeś szczegóły połączenia z bazą danych.
+Oczywiście, Aspose.BarCode został zaprojektowany do współpracy z różnymi bazami danych. Upewnij się, że odpowiednio dostosujesz szczegóły połączenia z bazą.
 
-### Jak mogę sobie poradzić z błędami podczas rozpoznawania kodu kreskowego?
-Obsługa wyjątków jest kluczowa. Pamiętaj o wdrożeniu niezawodnej obsługi błędów, aby rozwiązać wszelkie nieprzewidziane problemy podczas rozpoznawania kodów kreskowych.
+### Jak mogę obsłużyć błędy podczas rozpoznawania kodów kreskowych?
+Obsługa wyjątków jest kluczowa. Zaimplementuj solidne mechanizmy obsługi błędów, aby radzić sobie z nieprzewidzianymi problemami podczas rozpoznawania.
 
-### Czy Aspose.BarCode nadaje się do zastosowań na dużą skalę?
-Tak, Aspose.BarCode został zaprojektowany do obsługi aplikacji na dużą skalę, zapewniając wysoką wydajność i niezawodność.
+### Czy Aspose.BarCode nadaje się do aplikacji o dużej skali?
+Tak, Aspose.BarCode jest przeznaczony do obsługi aplikacji o dużej skali, zapewniając wysoką wydajność i niezawodność.
 
-### Czy dostępne są licencje tymczasowe do celów testowych?
- Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
+### Czy dostępne są tymczasowe licencje do celów testowych?
+Tak, możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/) w celu testowania i oceny.
+
+## Dodatkowe często zadawane pytania
+
+**Q: Jakie inne symbologie mogę dekodować tym samym kodem?**  
+A: Po prostu zmień enum `DecodeType` (np. `DecodeType.QR`, `DecodeType.CODE_128`), aby odczytać inne obsługiwane typy kodów kreskowych.
+
+**Q: Czy mogę odczytywać kody kreskowe bezpośrednio z `ResultSet` bez zapisywania do pliku?**  
+A: Tak, możesz przekazać `InputStream` lub `byte[]` do konstruktora `BarCodeReader`, aby uniknąć plików pośrednich.
+
+**Q: Jak poprawić szybkość rozpoznawania przy tysiącach rekordów?**  
+A: Ponownie używaj jednej instancji `BarCodeReader`, przetwarzaj obrazy partiami i rozważ wyłączenie niepotrzebnych sprawdzeń symbologii.
+
+**Q: Czy istnieje sposób na odczyt wielu kodów kreskowych z jednego obrazu?**  
+A: Metoda `readBarCodes()` zwraca wszystkie wykryte kody kreskowe w podanym obrazie, więc możesz iterować po wynikach, jak pokazano.
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.BarCode for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

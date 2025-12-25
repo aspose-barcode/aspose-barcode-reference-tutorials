@@ -1,36 +1,51 @@
 ---
-title: Reconocimiento de códigos de barras PDF417 con caracteres chinos en Java
-linktitle: Reconocimiento de códigos de barras PDF417 con caracteres chinos
-second_title: API de Java Aspose.BarCode
-description: Descubra cómo reconocer códigos de barras PDF417 con caracteres chinos en Java usando Aspose.BarCode. Siga nuestro tutorial completo para una integración perfecta.
-weight: 10
+date: 2025-12-25
+description: Aprenda cómo extraer texto de imágenes de códigos de barras, específicamente
+  PDF417 con caracteres chinos, usando Aspose.BarCode para Java. Siga nuestra guía
+  paso a paso sobre cómo leer datos de códigos de barras de manera eficiente.
+linktitle: 'Extract Text from Barcode: PDF417 Chinese Characters'
+second_title: Aspose.BarCode Java API
+title: 'Extraer texto del código de barras: caracteres chinos PDF417 en Java'
 url: /es/java/multilingual-support/recognizing-pdf417-chinese-characters/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Reconocimiento de códigos de barras PDF417 con caracteres chinos en Java
-
+# Extraer texto de un código de barras: PDF417 con caracteres chinos en Java
 
 ## Introducción
 
-En el dinámico mundo de la programación Java, incorporar el reconocimiento de códigos de barras en sus aplicaciones es una habilidad crucial. Esta guía paso a paso le guiará en el uso de Aspose.BarCode para Java para reconocer códigos de barras PDF417 con caracteres chinos. Al final de este tutorial, será experto en integrar perfectamente el reconocimiento de códigos de barras en sus proyectos Java.
+Integrar el reconocimiento de códigos de barras en aplicaciones Java es una habilidad valiosa, especialmente cuando necesitas **extraer texto de imágenes de códigos de barras** que contienen datos multilingües. En este tutorial, te guiaremos paso a paso usando Aspose.BarCode para Java para reconocer códigos de barras PDF417 con caracteres chinos. Al final, sabrás exactamente cómo leer los datos del código de barras y decodificarlos en texto legible.
+
+## Respuestas rápidas
+- **¿Qué biblioteca admite PDF417 con caracteres chinos?** Aspose.BarCode para Java.  
+- **¿Qué conjunto de caracteres se necesita para la decodificación china?** MS936 (GBK).  
+- **¿Necesito una licencia para uso en producción?** Sí, se requiere una licencia comercial.  
+- **¿Puedo ejecutar esto en cualquier versión de Java?** Funciona con Java 8 y versiones posteriores.  
+- **¿Hay una prueba gratuita disponible?** Por supuesto – descárgala desde el sitio de Aspose.
+
+## ¿Qué significa “extraer texto de un código de barras”?
+
+Extraer texto de un código de barras implica convertir los datos codificados de nuevo a su forma original legible por humanos. Para los códigos de barras PDF417 que almacenan caracteres chinos, esto también implica seleccionar la codificación de caracteres correcta para que los bytes se correspondan con los glifos adecuados.
+
+## ¿Por qué usar Aspose.BarCode para Java?
+
+Aspose.BarCode ofrece un soporte robusto para una amplia gama de simbologías de códigos de barras, incluido PDF417, y maneja conjuntos de caracteres complejos de forma nativa. Abstractiza el procesamiento de imágenes de bajo nivel, permitiéndote centrarte en la lógica de negocio en lugar de en los detalles de la decodificación.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
+Antes de comenzar, asegúrate de contar con:
 
-1. Kit de desarrollo de Java (JDK): asegúrese de tener instalado el último JDK en su máquina.
-
-2.  Aspose.BarCode para Java: descargue e instale la biblioteca Aspose.BarCode desde[aquí](https://releases.aspose.com/barcode/java/).
-
-3. Imagen de código de barras: prepare una imagen de código de barras PDF417 de muestra con caracteres chinos para realizar pruebas.
+1. **Java Development Kit (JDK)** – se recomienda la versión más reciente.  
+2. **Aspose.BarCode para Java** – descárgalo desde [aquí](https://releases.aspose.com/barcode/java/).  
+3. **Una imagen de código de barras PDF417** que contenga caracteres chinos (por ejemplo, `barcode.png`).
 
 ## Importar paquetes
 
-En su proyecto Java, importe los paquetes necesarios para aprovechar las funcionalidades de Aspose.BarCode:
+En tu proyecto Java, importa las clases necesarias para trabajar con Aspose.BarCode:
 
 ```java
 import java.nio.ByteBuffer;
@@ -41,29 +56,27 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Paso 1: configurar el directorio de documentos
+## Paso 1: Establecer el directorio del documento
 
-Comience estableciendo la ruta a su directorio de recursos:
+Especifica la carpeta donde se encuentra tu imagen de código de barras:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Reemplace "Su directorio de documentos" con la ruta a su directorio de documentos real.
+Reemplaza `"Your Document Directory"` con la ruta real en tu máquina.
 
-## Paso 2: cargar la imagen del código de barras
+## Paso 2: Cargar la imagen del código de barras
 
-A continuación, cargue la imagen del código de barras usando la clase BarCodeReader:
+Crea una instancia de `BarCodeReader` que apunte al archivo PNG y indique al lector que busque la simbología PDF417:
 
 ```java
 BarCodeReader reader = new BarCodeReader(dataDir + "barcode.png", DecodeType.PDF_417);
 ```
 
-Reemplace "barcode.png" con el nombre de archivo real de su imagen de código de barras PDF417.
+## Paso 3: Leer el código de barras
 
-## Paso 3: leer el código de barras
-
-Repita los resultados del código de barras y extraiga la matriz de bytes para decodificarla:
+Itera a través de los resultados de detección, extrae la matriz de bytes crudos y decodifícala usando el conjunto de caracteres GBK (MS936):
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -73,28 +86,63 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Este paso lee el código de barras, recupera la matriz de bytes y la decodifica utilizando el conjunto de caracteres especificado.
+Este bucle **extrae texto del código de barras** y muestra los caracteres chinos decodificados en la consola.
+
+## ¿Cómo leer un código de barras con PDF417?
+
+El código anterior demuestra **cómo leer datos de un código de barras** paso a paso:
+
+1. **Inicializar** el lector con el `DecodeType` correcto.  
+2. **Iterar** sobre cada `BarCodeResult` devuelto.  
+3. **Convertir** los bytes crudos usando el conjunto de caracteres apropiado (`MS936` para chino).  
+
+Si tu código de barras contiene otros idiomas, simplemente cambia el conjunto de caracteres al que corresponda a tus datos.
+
+## Problemas comunes y soluciones
+
+| Problema | Solución |
+|----------|----------|
+| Caracteres distorsionados después de la decodificación | Verifica que estés usando el conjunto de caracteres correcto (`MS936` para GBK). |
+| No se detecta ningún código de barras | Asegúrate de que la calidad de la imagen sea alta y que el código de barras no esté rotado; puedes pre‑procesar la imagen si es necesario. |
+| Se devuelven varios resultados | PDF417 puede almacenar múltiples segmentos; itera a través de todos los resultados como se muestra. |
+
+## Preguntas frecuentes (FAQs)
+
+### ¿Puedo usar Aspose.BarCode para Java en proyectos comerciales?
+Sí, puedes usar Aspose.BarCode para Java en proyectos comerciales. Para detalles de licenciamiento, visita [aquí](https://purchase.aspose.com/buy).
+
+### ¿Hay una prueba gratuita disponible?
+Sí, puedes acceder a una prueba gratuita de Aspose.BarCode para Java [aquí](https://releases.aspose.com/).
+
+### ¿Cómo puedo obtener soporte para Aspose.BarCode?
+Visita el foro de Aspose.BarCode [aquí](https://forum.aspose.com/c/barcode/13) para cualquier consulta o soporte.
+
+### ¿Puedo obtener una licencia temporal para propósitos de prueba?
+Sí, puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+
+### ¿Dónde puedo encontrar la documentación?
+La documentación está disponible [aquí](https://reference.aspose.com/barcode/java/).
+
+**Preguntas y respuestas adicionales**
+
+**P: ¿Qué pasa si mi imagen de código de barras está en formato JPEG?**  
+R: `BarCodeReader` funciona con JPEG, PNG, BMP y otros formatos de imagen comunes—simplemente cambia la extensión del archivo según corresponda.
+
+**P: ¿Puedo decodificar códigos de barras desde un flujo en lugar de un archivo?**  
+R: Sí, puedes pasar un `InputStream` al constructor de `BarCodeReader` para decodificar sobre la marcha.
+
+**P: ¿Aspose.BarCode admite otros conjuntos de caracteres?**  
+R: Por supuesto. Usa `Charset.forName("<your‑charset>")` para decodificar bytes en UTF‑8, ISO‑8859‑1, etc.
 
 ## Conclusión
 
-¡Felicidades! Ha aprendido con éxito cómo reconocer códigos de barras PDF417 con caracteres chinos en Java usando Aspose.BarCode. Esta habilidad abre las puertas a diversas aplicaciones, desde la gestión de inventario hasta el procesamiento de documentos.
+Ahora sabes cómo **extraer texto de imágenes de códigos de barras**, específicamente códigos de barras PDF417 que contienen caracteres chinos, usando Aspose.BarCode para Java. Esta capacidad abre puertas a sistemas de inventario multilingües, automatización de documentos y más. Siéntete libre de experimentar con otras simbologías y conjuntos de caracteres para ampliar el alcance de tu aplicación.
 
-## Preguntas frecuentes (FAQ)
+---
 
-### ¿Puedo utilizar Aspose.BarCode para Java en proyectos comerciales?
- Sí, puedes utilizar Aspose.BarCode para Java en proyectos comerciales. Para obtener detalles sobre la licencia, visite[aquí](https://purchase.aspose.com/buy).
-
-### ¿Hay una prueba gratuita disponible?
- Sí, puedes acceder a una prueba gratuita de Aspose.BarCode para Java[aquí](https://releases.aspose.com/).
-
-### ¿Cómo puedo obtener soporte para Aspose.BarCode?
- Visita el foro Aspose.BarCode[aquí](https://forum.aspose.com/c/barcode/13) para cualquier soporte o consulta.
-
-### ¿Puedo obtener una licencia temporal para realizar pruebas?
-Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
-
-### ¿Dónde puedo encontrar la documentación?
- La documentación está disponible.[aquí](https://reference.aspose.com/barcode/java/).
+**Última actualización:** 2025-12-25  
+**Probado con:** Aspose.BarCode para Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

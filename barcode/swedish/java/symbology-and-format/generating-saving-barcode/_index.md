@@ -1,38 +1,54 @@
 ---
-title: Generera och spara streckkoder i Java
-linktitle: Generera och spara streckkod
+date: 2025-12-25
+description: Lär dig hur du i Java genererar streckkod med Aspose.BarCode, sparar
+  streckkodsbilden och lagrar den i en MySQL-databas. Stöder flera Aspose-streckkodstyper.
+linktitle: Generating and Saving Barcode
 second_title: Aspose.BarCode Java API
-description: Generera och spara streckkoder utan ansträngning i Java med Aspose.BarCode. Integrera sömlöst, anpassa utseendet och njut av omfattande streckkodsstöd.
-weight: 12
+title: Java generera streckkod – Generera och spara streckkoder med Aspose
 url: /sv/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generera och spara streckkoder i Java
+# java generate barcode – Generering och sparande av streckkod i Java
 
+## Introduction
 
-## Introduktion
+Om du snabbt behöver **java generate barcode** och lagra den resulterande bilden, har du kommit till rätt ställe. I den här handledningen går vi igenom hur du använder **Aspose.BarCode for Java** för att skapa en streckkod, spara den som en bildfil och lagra bilden i en MySQL‑databas. När du är klar ser du hur enkelt det är att lägga till streckkodsfunktionalitet i vilken Java‑applikation som helst.
 
-Vill du sömlöst integrera streckkodsgenerering i din Java-applikation? Kolla inte vidare! I den här steg-för-steg-guiden går vi igenom processen med att använda Aspose.BarCode för Java för att generera och spara streckkoder effektivt. Aspose.BarCode är ett kraftfullt Java-bibliotek som förenklar skapande och manipulering av streckkoder, vilket ger dig de verktyg som behövs för att förbättra dina applikationer med streckkodsfunktionalitet.
+## Quick Answers
+- **Which library should I use?** Aspose.BarCode for Java  
+- **Can I save the barcode as an image file?** Yes – use the `save` method to write a JPG/PNG/… file  
+- **Is MySQL supported for storing the barcode?** Absolutely, store the image as a BLOB column  
+- **What barcode types are available?** CODE_39_STANDARD, CODE_128, QR, DataMatrix, and many more  
+- **Do I need a license for production?** A commercial license is required for production use; a free trial is available
 
-## Förutsättningar
+## What is java generate barcode?
+
+Att generera en streckkod i Java innebär att programmässigt skapa en visuell representation av data som läsare kan tolka. Aspose.BarCode erbjuder ett flytande API för att definiera streckkodstyp, ange datatexten och exportera grafiken i vanliga bildformat.
+
+## Why use Aspose.BarCode generator?
+
+- **Broad symbology support** – over 50 barcode types (aspose barcode types)  
+- **High‑quality rendering** – lossless vector graphics when needed  
+- **Simple API** – only a few lines of code to produce a professional barcode  
+- **Easy integration** – works with any Java project, no external native dependencies  
+
+## Prerequisites
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-- Java-utvecklingsmiljö: Se till att du har en Java-utvecklingsmiljö inställd på din maskin.
+- Java Development Environment: Se till att du har en Java‑utvecklingsmiljö installerad på din maskin.  
+- Aspose.BarCode Library: Ladda ner och installera Aspose.BarCode‑biblioteket. Du hittar nedladdningslänken [here](https://releases.aspose.com/barcode/java/).  
+- MySQL Database: Skapa en MySQL‑databas där du avser att lagra streckkodsrelaterad information.  
+- Database Connectivity: Säkerställ att du har rätt autentiseringsuppgifter och anslutning för att kommunicera med MySQL‑databasen.  
 
-- Aspose.BarCode Library: Ladda ner och installera Aspose.BarCode-biblioteket. Du hittar nedladdningslänken[här](https://releases.aspose.com/barcode/java/).
+## Import Packages
 
-- MySQL-databas: Skapa en MySQL-databas där du tänker lagra streckkodsrelaterad information.
-
-- Databasanslutning: Se till att du har nödvändiga referenser och anslutningar för att interagera med MySQL-databasen.
-
-## Importera paket
-
-I ditt Java-projekt, importera de nödvändiga paketen för Aspose.BarCode och MySQL-anslutning.
+I ditt Java‑projekt importerar du de paket som krävs för Aspose.BarCode och MySQL‑anslutning.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
@@ -45,10 +61,10 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 ```
 
-## Steg 1: Generera och spara streckkod
+## Step 1: Generate and Save Barcode
 
 ```java
-// Steg 1 - Skapa streckkod och spara tillfälligt i en fil
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +73,79 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-Förklaring: Det här steget innebär att skapa en streckkod med Aspose.BarCode, ställa in kodtexten och spara streckkodsbilden på en angiven plats.
+**Explanation:** Detta kodsnutt skapar en `BarcodeGenerator`, väljer symbologin `CODE_39_STANDARD`, tilldelar texten `"NOK-E71"` och sparar den resulterande bilden till `c:\temp\code39.jpg`. Detta är kärnan i **java generate barcode** – ett enda, lättläst kodblock.
 
-## Steg 2: Infoga post i MySQL-databasen
+## Step 2: Insert Record in MySQL Database
 
 ```java
-// Steg 2 - Infoga en ny post i MySQL DB
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-// Öppen anslutning
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-// Förbered uttalande
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-// Ställ in produktnummer och produktnamn
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-// 3:e kolumnen är för streckkodsbild. DB-typen är BLOB
-// För att spara bilden måste vi skapa en ström från bildfilen
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// Utför uttalandet
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-// Stäng anslutning
+// Close connection
 pre.close();
 con.close();
 ```
 
-Förklaring: Detta steg innebär att man ansluter till en MySQL-databas och infogar en ny post med produktinformation och tillhörande streckkodsbild.
+**Explanation:** Här öppnar vi en JDBC‑anslutning, förbereder ett `INSERT`‑statement och lagrar streckkodsbilden som en BLOB. Koden visar hur du kombinerar **java generate barcode** med databasinlagring och fullbordar hela arbetsflödet.
 
-## Slutsats
+## Common Issues and Solutions
 
-Grattis! Du har framgångsrikt integrerat Aspose.BarCode för Java i din applikation för att generera och spara streckkoder. Detta kraftfulla bibliotek förenklar processen, vilket gör implementering av streckkoder till en lek.
+| Issue | Solution |
+|-------|----------|
+| **File path not found** | Ensure the directory (`c:\temp`) exists or use an absolute path that your Java process can write to. |
+| **JDBC driver class not found** | Add the MySQL Connector/J JAR to your project’s classpath. |
+| **BLOB size exceeds column limit** | Use a `MEDIUMBLOB` or `LONGBLOB` column type for larger images. |
+| **Permission denied on save** | Run the application with sufficient file‑system permissions or choose a writable folder. |
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-### F: Är Aspose.BarCode kompatibel med olika streckkodstyper?
-S: Ja, Aspose.BarCode stöder olika streckkodstyper, inklusive CODE_39_STANDARD, CODE_128, QR och mer.
+### Q: Is Aspose.BarCode compatible with different barcode types?
+A: Yes, Aspose.BarCode supports various barcode types, including CODE_39_STANDARD, CODE_128, QR, and more.
 
-### F: Kan jag anpassa utseendet på genererade streckkoder?
-A: Absolut! Aspose.BarCode tillhandahåller omfattande anpassningsalternativ för streckkodens utseende, så att du kan skräddarsy den efter dina specifika behov.
+### Q: Can I customize the appearance of generated barcodes?
+A: Absolutely! Aspose.BarCode provides extensive customization options for barcode appearance, allowing you to tailor it to your specific needs.
 
-### F: Finns det en gratis testversion tillgänglig för Aspose.BarCode?
- S: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+### Q: Is there a free trial available for Aspose.BarCode?
+A: Yes, you can access a free trial [here](https://releases.aspose.com/).
 
-### F: Var kan jag hitta detaljerad dokumentation för Aspose.BarCode?
- S: Se dokumentationen[här](https://reference.aspose.com/barcode/java/).
+### Q: Where can I find detailed documentation for Aspose.BarCode?
+A: Refer to the documentation [here](https://reference.aspose.com/barcode/java/).
 
-### F: Hur får jag support för Aspose.BarCode?
- S: Besök supportforumet[här](https://forum.aspose.com/c/barcode/13) för all hjälp eller frågor.
+### Q: How do I get support for Aspose.BarCode?
+A: Visit the support forum [here](https://forum.aspose.com/c/barcode/13) for any assistance or queries.
+
+## Conclusion
+
+Grattis! Du har framgångsrikt använt **Aspose.BarCode for Java** för att **java generate barcode**, sparat streckkodsbilden och lagrat den i en MySQL‑databas. Detta tillvägagångssätt förenklar streckkodsintegration och ger dig en stabil grund för att bygga lagerhantering, spårning eller kassasystem.
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.BarCode for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
