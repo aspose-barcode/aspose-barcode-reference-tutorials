@@ -1,34 +1,50 @@
 ---
-title: 用 Java 生成和保存条形码
-linktitle: 生成并保存条形码
+date: 2025-12-25
+description: 学习如何使用 Aspose.BarCode 在 Java 中生成条形码、保存条形码图像并将其存储到 MySQL 数据库中。支持多种 Aspose
+  条形码类型。
+linktitle: Generating and Saving Barcode
 second_title: Aspose.BarCode Java API
-description: 使用 Aspose.BarCode 在 Java 中轻松生成并保存条形码。无缝集成、自定义外观并享受广泛的条形码支持。
-weight: 12
+title: java 生成条形码 – 使用 Aspose 生成并保存条形码
 url: /zh/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 用 Java 生成和保存条形码
-
+# java generate barcode – 在 Java 中生成和保存条形码
 
 ## 介绍
 
-您是否希望将条形码生成无缝集成到您的 Java 应用程序中？别再犹豫了！在本分步指南中，我们将引导您完成使用 Aspose.BarCode for Java 高效生成和保存条形码的过程。 Aspose.BarCode 是一个功能强大的 Java 库，可简化条形码的创建和操作，为您提供通过条形码功能增强应用程序所需的工具。
+如果您需要快速 **java generate barcode** 并存储生成的图像，您来对地方了。在本教程中，我们将演示如何使用 **Aspose.BarCode for Java** 创建条形码、将其保存为图像文件，并将图像持久化到 MySQL 数据库中。完成后，您将看到将条形码功能添加到任何 Java 应用程序是多么简单。
+
+## 快速回答
+- **应该使用哪个库？** Aspose.BarCode for Java  
+- **可以将条形码保存为图像文件吗？** 可以 – 使用 `save` 方法写入 JPG/PNG/… 文件  
+- **MySQL 是否支持存储条形码？** 当然，可以将图像存储为 BLOB 列  
+- **有哪些条形码类型可用？** CODE_39_STANDARD、CODE_128、QR、DataMatrix 等众多类型  
+- **生产环境需要许可证吗？** 生产使用需商业许可证；提供免费试用版
+
+## 什么是 java generate barcode？
+
+在 Java 中生成条形码指的是以编程方式创建可供扫描仪读取的数据的可视化表示。Aspose.BarCode 提供了流畅的 API，用于定义条形码类型、设置数据字符串，并以常见图像格式导出图形。
+
+## 为什么使用 Aspose.BarCode 生成器？
+
+- **广泛的符号支持** – 超过 50 种条形码类型（aspose barcode types）  
+- **高质量渲染** – 需要时可生成无损矢量图形  
+- **简洁的 API** – 只需几行代码即可生成专业条形码  
+- **易于集成** – 适用于任何 Java 项目，无需外部本机依赖  
 
 ## 先决条件
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+在开始教程之前，请确保已具备以下条件：
 
-- Java 开发环境：确保您的计算机上设置了 Java 开发环境。
-
-- Aspose.BarCode 库：下载并安装 Aspose.BarCode 库。你可以找到下载链接[这里](https://releases.aspose.com/barcode/java/).
-
-- MySQL 数据库：设置一个 MySQL 数据库，用于存储条形码相关信息。
-
-- 数据库连接：确保您拥有与 MySQL 数据库交互所需的凭据和连接。
+- Java 开发环境：确保您的机器上已配置好 Java 开发环境。  
+- Aspose.BarCode 库：下载并安装 Aspose.BarCode 库。您可以在[此处](https://releases.aspose.com/barcode/java/)找到下载链接。  
+- MySQL 数据库：搭建用于存储条形码相关信息的 MySQL 数据库。  
+- 数据库连接：确保拥有必要的凭据并能够连接到 MySQL 数据库。  
 
 ## 导入包
 
@@ -45,10 +61,10 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 ```
 
-## 第 1 步：生成并保存条形码
+## 步骤 1：生成并保存条形码
 
 ```java
-//第 1 步 - 生成条形码并临时保存在文件中
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +73,79 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-说明：此步骤涉及使用Aspose.BarCode创建条形码、设置代码文本以及将条形码图像保存到指定位置。
+**说明：** 此代码片段创建了一个 `BarcodeGenerator`，选择 `CODE_39_STANDARD` 符号集，设置文本为 `"NOK-E71"`，并将生成的图像保存到 `c:\temp\code39.jpg`。这正是 **java generate barcode** 的核心——一段简洁、可读的代码。
 
-## 步骤2：在MySQL数据库中插入记录
+## 步骤 2：在 MySQL 数据库中插入记录
 
 ```java
-//第 2 步 - 在 MySQL DB 中插入一条新记录
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-//打开连接
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-//准备声明
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-//设置产品编号和产品名称
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-//第三列用于条形码图像。数据库类型是BLOB
-//为了保存图像，我们需要从图像文件创建一个流
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-//执行语句
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-//紧密连接
+// Close connection
 pre.close();
 con.close();
 ```
 
-说明：此步骤涉及连接到 MySQL 数据库并插入包含产品信息和关联条形码图像的新记录。
+**说明：** 这里我们打开 JDBC 连接，准备一条 `INSERT` 语句，并将条形码图像作为 BLOB 存储。该代码演示了如何将 **java generate barcode** 与数据库存储结合，实现端到端的工作流。
+
+## 常见问题及解决方案
+
+| 问题 | 解决方案 |
+|-------|----------|
+| **文件路径未找到** | 确认目录 (`c:\temp`) 是否存在，或使用 Java 进程有写入权限的绝对路径。 |
+| **未找到 JDBC 驱动类** | 将 MySQL Connector/J JAR 添加到项目的 classpath 中。 |
+| **BLOB 大小超出列限制** | 对于较大的图像，使用 `MEDIUMBLOB` 或 `LONGBLOB` 列类型。 |
+| **保存时权限被拒绝** | 以具有足够文件系统权限的方式运行应用，或选择可写入的文件夹。 |
+
+## 常见问题
+
+### Q: Aspose.BarCode 是否兼容不同的条形码类型？
+A: 是的，Aspose.BarCode 支持多种条形码类型，包括 CODE_39_STANDARD、CODE_128、QR 等。
+
+### Q: 我可以自定义生成条形码的外观吗？
+A: 当然！Aspose.BarCode 提供了丰富的外观自定义选项，您可以根据具体需求进行调整。
+
+### Q: 是否有 Aspose.BarCode 的免费试用版？
+A: 有，您可以在[此处](https://releases.aspose.com/)获取免费试用。
+
+### Q: 哪里可以找到 Aspose.BarCode 的详细文档？
+A: 请参阅文档[此处](https://reference.aspose.com/barcode/java/)。
+
+### Q: 如何获取 Aspose.BarCode 的支持？
+A: 访问支持论坛[此处](https://forum.aspose.com/c/barcode/13)获取帮助或提出疑问。
 
 ## 结论
 
-恭喜！您已成功将 Aspose.BarCode for Java 集成到您的应用程序中以生成和保存条形码。这个强大的库简化了流程，使条形码的实施变得轻而易举。
+恭喜！您已经成功使用 **Aspose.BarCode for Java** 完成 **java generate barcode**，保存了条形码图像，并将其存入 MySQL 数据库。此方法简化了条形码的集成，为构建库存、追踪或销售点系统奠定了坚实基础。
 
-## 经常问的问题
+---
 
-### 问：Aspose.BarCode 是否兼容不同的条形码类型？
-答：是的，Aspose.BarCode 支持各种条形码类型，包括 CODE_39_STANDARD、CODE_128、QR 等。
+**最后更新：** 2025-12-25  
+**测试环境：** Aspose.BarCode for Java 24.10  
+**作者：** Aspose  
 
-### 问：我可以自定义生成的条形码的外观吗？
-答：当然！ Aspose.BarCode 为条形码外观提供了广泛的自定义选项，允许您根据您的特定需求进行定制。
-
-### 问：Aspose.BarCode 是否有免费试用版？
-答：是的，您可以免费试用[这里](https://releases.aspose.com/).
-
-### 问：哪里可以找到 Aspose.BarCode 的详细文档？
-答：参考文档[这里](https://reference.aspose.com/barcode/java/).
-
-### 问：如何获得对 Aspose.BarCode 的支持？
-答：访问支持论坛[这里](https://forum.aspose.com/c/barcode/13)如有任何帮助或疑问。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

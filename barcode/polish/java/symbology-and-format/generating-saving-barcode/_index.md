@@ -1,38 +1,56 @@
 ---
-title: Generowanie i zapisywanie kodu kreskowego w Javie
-linktitle: Generowanie i zapisywanie kodu kreskowego
-second_title: Aspose.BarCode API Java
-description: Generuj i zapisuj kody kreskowe bez wysiłku w Javie za pomocą Aspose.BarCode. Bezproblemowo integruj, dostosowuj wygląd i ciesz się rozbudowaną obsługą kodów kreskowych.
-weight: 12
+date: 2025-12-25
+description: Dowiedz się, jak w Javie generować kod kreskowy przy użyciu Aspose.BarCode,
+  zapisać obraz kodu kreskowego i przechowywać go w bazie danych MySQL. Obsługuje
+  wiele typów kodów kreskowych Aspose.
+linktitle: Generating and Saving Barcode
+second_title: Aspose.BarCode Java API
+title: java generowanie kodu kreskowego – Generowanie i zapisywanie kodów kreskowych
+  przy użyciu Aspose
 url: /pl/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generowanie i zapisywanie kodu kreskowego w Javie
+# java generate barcode – Generowanie i zapisywanie kodu kreskowego w Javie
 
+## Wprowadzenie
 
-## Wstęp
+Jeśli potrzebujesz **java generate barcode** szybko i chcesz przechowywać powstały obraz, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez użycie **Aspose.BarCode for Java** do stworzenia kodu kreskowego, zapisania go jako plik graficzny oraz zapisania obrazu w bazie danych MySQL. Po zakończeniu zobaczysz, jak łatwo dodać funkcjonalność kodów kreskowych do dowolnej aplikacji Java.
 
-Czy chcesz bezproblemowo zintegrować generowanie kodów kreskowych z aplikacją Java? Nie szukaj dalej! W tym przewodniku krok po kroku przeprowadzimy Cię przez proces używania Aspose.BarCode dla Java do wydajnego generowania i zapisywania kodów kreskowych. Aspose.BarCode to potężna biblioteka Java, która upraszcza tworzenie i manipulowanie kodami kreskowymi, zapewniając narzędzia potrzebne do ulepszenia aplikacji o funkcjonalność kodów kreskowych.
+## Szybkie odpowiedzi
+- **Którą bibliotekę powinienem używać?** Aspose.BarCode for Java  
+- **Czy mogę zapisać kod kreskowy jako plik graficzny?** Tak – użyj metody `save`, aby zapisać plik JPG/PNG/…  
+- **Czy MySQL obsługuje przechowywanie kodu kreskowego?** Oczywiście, przechowuj obraz w kolumnie typu BLOB  
+- **Jakie typy kodów kreskowych są dostępne?** CODE_39_STANDARD, CODE_128, QR, DataMatrix i wiele innych  
+- **Czy potrzebna jest licencja do produkcji?** Licencja komercyjna jest wymagana w środowisku produkcyjnym; dostępna jest wersja próbna
 
-## Warunki wstępne
+## Co to jest java generate barcode?
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+Generowanie kodu kreskowego w Javie oznacza programowe tworzenie wizualnej reprezentacji danych, którą mogą odczytywać skanery. Aspose.BarCode udostępnia płynne API do definiowania typu kodu kreskowego, ustawiania ciągu danych oraz eksportu grafiki w popularnych formatach obrazów.
 
-- Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane środowisko programistyczne Java.
+## Dlaczego warto używać generatora Aspose.BarCode?
 
-- Biblioteka Aspose.BarCode: Pobierz i zainstaluj bibliotekę Aspose.BarCode. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/barcode/java/).
+- **Szerokie wsparcie symbologii** – ponad 50 typów kodów kreskowych (aspose barcode types)  
+- **Renderowanie wysokiej jakości** – bezstratna grafika wektorowa w razie potrzeby  
+- **Proste API** – wystarczy kilka linii kodu, aby uzyskać profesjonalny kod kreskowy  
+- **Łatwa integracja** – działa w każdym projekcie Java, bez zewnętrznych zależności natywnych  
 
-- Baza danych MySQL: Skonfiguruj bazę danych MySQL, w której zamierzasz przechowywać informacje związane z kodami kreskowymi.
+## Wymagania wstępne
 
-- Łączność z bazą danych: Upewnij się, że masz niezbędne poświadczenia i łączność, aby móc wchodzić w interakcję z bazą danych MySQL.
+Zanim przejdziesz do samouczka, upewnij się, że spełniasz poniższe wymagania:
 
-## Importuj pakiety
+- Środowisko programistyczne Java: Upewnij się, że masz skonfigurowane środowisko Java na swoim komputerze.  
+- Biblioteka Aspose.BarCode: Pobierz i zainstaluj bibliotekę Aspose.BarCode. Link do pobrania znajdziesz [tutaj](https://releases.aspose.com/barcode/java/).  
+- Baza danych MySQL: Skonfiguruj bazę danych MySQL, w której zamierzasz przechowywać informacje związane z kodami kreskowymi.  
+- Łączność z bazą danych: Upewnij się, że posiadasz niezbędne dane uwierzytelniające i połączenie umożliwiające dostęp do bazy MySQL.  
 
-W projekcie Java zaimportuj wymagane pakiety dla łączności Aspose.BarCode i MySQL.
+## Importowanie pakietów
+
+W swoim projekcie Java zaimportuj wymagane pakiety dla Aspose.BarCode oraz łączności z MySQL.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
@@ -45,10 +63,10 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 ```
 
-## Krok 1: Wygeneruj i zapisz kod kreskowy
+## Krok 1: Generowanie i zapisywanie kodu kreskowego
 
 ```java
-// Krok 1 - Wygeneruj kod kreskowy i zapisz tymczasowo w pliku
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +75,79 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-Objaśnienie: Ten krok obejmuje utworzenie kodu kreskowego za pomocą Aspose.BarCode, ustawienie tekstu kodu i zapisanie obrazu kodu kreskowego w określonej lokalizacji.
+**Wyjaśnienie:** Ten fragment tworzy `BarcodeGenerator`, wybiera symbologię `CODE_39_STANDARD`, przypisuje tekst `"NOK-E71"` i zapisuje powstały obraz do `c:\temp\code39.jpg`. To jest sedno **java generate barcode** – pojedynczy, czytelny blok kodu.
 
-## Krok 2: Wstaw rekord do bazy danych MySQL
+## Krok 2: Wstawianie rekordu do bazy MySQL
 
 ```java
-// Krok 2 - Wstaw nowy rekord w bazie danych MySQL
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-// Otwórz połączenie
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-// Przygotuj oświadczenie
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-// Ustaw numer produktu i nazwę produktu
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-// Trzecia kolumna dotyczy obrazu kodu kreskowego. Typ bazy danych to BLOB
-// Aby zapisać obraz, musimy utworzyć strumień z pliku obrazu
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// Wykonaj instrukcję
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-// Zamknij połączenie
+// Close connection
 pre.close();
 con.close();
 ```
 
-Objaśnienie: Ten krok obejmuje połączenie z bazą danych MySQL i wstawienie nowego rekordu z informacjami o produkcie i powiązanym obrazem kodu kreskowego.
+**Wyjaśnienie:** Tutaj otwieramy połączenie JDBC, przygotowujemy instrukcję `INSERT` i przechowujemy obraz kodu kreskowego jako BLOB. Kod pokazuje, jak połączyć **java generate barcode** z przechowywaniem w bazie danych, zamykając pełny przepływ end‑to‑end.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie zintegrowałeś Aspose.BarCode for Java ze swoją aplikacją w celu generowania i zapisywania kodów kreskowych. Ta potężna biblioteka upraszcza proces, dzięki czemu implementacja kodów kreskowych jest dziecinnie prosta.
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Nie znaleziono ścieżki pliku** | Upewnij się, że katalog (`c:\temp`) istnieje lub użyj absolutnej ścieżki, do której proces Java ma prawo zapisu. |
+| **Nie znaleziono klasy sterownika JDBC** | Dodaj plik JAR MySQL Connector/J do ścieżki klas projektu. |
+| **Rozmiar BLOB przekracza limit kolumny** | Użyj typu kolumny `MEDIUMBLOB` lub `LONGBLOB` dla większych obrazów. |
+| **Brak uprawnień przy zapisie** | Uruchom aplikację z odpowiednimi uprawnieniami systemowymi lub wybierz folder, do którego można zapisywać. |
 
-## Często Zadawane Pytania
+## Najczęściej zadawane pytania
 
 ### P: Czy Aspose.BarCode jest kompatybilny z różnymi typami kodów kreskowych?
-Odp.: Tak, Aspose.BarCode obsługuje różne typy kodów kreskowych, w tym CODE_39_STANDARD, CODE_128, QR i inne.
+O: Tak, Aspose.BarCode obsługuje różne typy kodów, w tym CODE_39_STANDARD, CODE_128, QR i inne.
 
 ### P: Czy mogę dostosować wygląd generowanych kodów kreskowych?
-Odp.: Absolutnie! Aspose.BarCode zapewnia szerokie możliwości dostosowywania wyglądu kodu kreskowego, umożliwiając dostosowanie go do konkretnych potrzeb.
+O: Oczywiście! Aspose.BarCode oferuje rozbudowane opcje personalizacji wyglądu kodu, pozwalając dopasować go do konkretnych potrzeb.
 
-### P: Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode?
- Odp.: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+### P: Czy dostępna jest darmowa wersja próbna Aspose.BarCode?
+O: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
 
-### P: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.BarCode?
- Odp.: Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/barcode/java/).
+### P: Gdzie mogę znaleźć szczegółową dokumentację Aspose.BarCode?
+O: Dokumentację znajdziesz [tutaj](https://reference.aspose.com/barcode/java/).
 
-### P: Jak uzyskać wsparcie dla Aspose.BarCode?
- O: Odwiedź forum wsparcia[Tutaj](https://forum.aspose.com/c/barcode/13) w celu uzyskania pomocy lub pytań.
+### P: Jak uzyskać wsparcie techniczne dla Aspose.BarCode?
+O: Odwiedź forum wsparcia [tutaj](https://forum.aspose.com/c/barcode/13) w celu uzyskania pomocy lub zadania pytań.
+
+## Podsumowanie
+
+Gratulacje! Pomyślnie użyłeś **Aspose.BarCode for Java** do **java generate barcode**, zapisałeś obraz kodu kreskowego i przechowałeś go w bazie danych MySQL. To podejście upraszcza integrację kodów kreskowych i zapewnia solidną bazę do budowy systemów inwentaryzacji, śledzenia lub punktów sprzedaży.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-25  
+**Testowano z:** Aspose.BarCode for Java 24.10  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,38 +1,54 @@
 ---
-title: Barcode genereren en opslaan in Java
-linktitle: Barcode genereren en opslaan
-second_title: Aspose.BarCode Java-API
-description: Genereer en bewaar barcodes moeiteloos in Java met Aspose.BarCode. Integreer naadloos, pas het uiterlijk aan en profiteer van uitgebreide barcodeondersteuning.
-weight: 12
+date: 2025-12-25
+description: Leer hoe je in Java een barcode genereert met Aspose.BarCode, de barcode‑afbeelding
+  opslaat en deze in een MySQL‑database opslaat. Ondersteunt meerdere Aspose‑barcode‑typen.
+linktitle: Generating and Saving Barcode
+second_title: Aspose.BarCode Java API
+title: java barcode genereren – Genereer en sla barcodes op met Aspose
 url: /nl/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Barcode genereren en opslaan in Java
+# java generate barcode – Barcode genereren en opslaan in Java
 
+## Introductie
 
-## Invoering
+Als je snel **java generate barcode** wilt uitvoeren en het resulterende beeld wilt opslaan, ben je hier aan het juiste adres. In deze tutorial lopen we stap voor stap door het gebruik van **Aspose.BarCode for Java** om een barcode te maken, deze op te slaan als een afbeeldingsbestand, en het beeld op te slaan in een MySQL-database. Aan het einde zie je hoe eenvoudig het is om barcode‑functionaliteit toe te voegen aan elke Java‑applicatie.
 
-Wilt u het genereren van streepjescodes naadloos integreren in uw Java-applicatie? Zoek niet verder! In deze stapsgewijze handleiding leiden we u door het proces van het gebruik van Aspose.BarCode voor Java om streepjescodes efficiënt te genereren en op te slaan. Aspose.BarCode is een krachtige Java-bibliotheek die het maken en manipuleren van streepjescodes vereenvoudigt en u de tools biedt die u nodig hebt om uw toepassingen uit te breiden met streepjescodefunctionaliteit.
+## Snelle antwoorden
+- **Welke bibliotheek moet ik gebruiken?** Aspose.BarCode for Java  
+- **Kan ik de barcode opslaan als een afbeeldingsbestand?** Ja – gebruik de `save`‑methode om een JPG/PNG/…‑bestand te schrijven  
+- **Wordt MySQL ondersteund voor het opslaan van de barcode?** Absoluut, sla de afbeelding op als een BLOB‑kolom  
+- **Welke barcode‑typen zijn beschikbaar?** CODE_39_STANDARD, CODE_128, QR, DataMatrix, en nog veel meer  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist voor productiegebruik; een gratis proefversie is beschikbaar
 
-## Vereisten
+## Wat is java generate barcode?
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Een barcode genereren in Java betekent het programmatisch creëren van een visuele weergave van gegevens die scanners kunnen lezen. Aspose.BarCode biedt een vloeiende API voor het definiëren van het barcode‑type, het instellen van de gegevensreeks, en het exporteren van de grafiek in gangbare afbeeldingsformaten.
 
-- Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw computer is geïnstalleerd.
+## Waarom Aspose.BarCode generator gebruiken?
 
-- Aspose.BarCode-bibliotheek: Download en installeer de Aspose.BarCode-bibliotheek. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/barcode/java/).
+- **Brede symbologie‑ondersteuning** – meer dan 50 barcode‑typen (aspose barcode types)  
+- **Hoge‑kwaliteit rendering** – verliesvrije vectorafbeeldingen wanneer nodig  
+- **Eenvoudige API** – slechts een paar regels code om een professionele barcode te produceren  
+- **Eenvoudige integratie** – werkt met elk Java‑project, zonder externe native afhankelijkheden  
 
-- MySQL-database: Zet een MySQL-database op waarin u barcodegerelateerde informatie wilt opslaan.
+## Voorvereisten
 
-- Databaseconnectiviteit: Zorg ervoor dat u over de benodigde inloggegevens en connectiviteit beschikt om met de MySQL-database te communiceren.
+Voordat je aan de tutorial begint, zorg ervoor dat je de volgende voorvereisten hebt:
+
+- Java‑ontwikkelomgeving: Zorg ervoor dat je een Java‑ontwikkelomgeving op je machine hebt ingesteld.  
+- Aspose.BarCode bibliotheek: Download en installeer de Aspose.BarCode bibliotheek. Je kunt de downloadlink [hier](https://releases.aspose.com/barcode/java/) vinden.  
+- MySQL‑database: Richt een MySQL‑database in waar je barcode‑gerelateerde informatie wilt opslaan.  
+- Database‑connectiviteit: Zorg ervoor dat je de benodigde inloggegevens en connectiviteit hebt om met de MySQL‑database te communiceren.  
 
 ## Pakketten importeren
 
-Importeer in uw Java-project de vereiste pakketten voor Aspose.BarCode- en MySQL-connectiviteit.
+Importeer in je Java‑project de benodigde pakketten voor Aspose.BarCode en MySQL‑connectiviteit.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
@@ -48,7 +64,7 @@ import java.sql.PreparedStatement;
 ## Stap 1: Barcode genereren en opslaan
 
 ```java
-// Stap 1 - Genereer barcode en sla tijdelijk op in een bestand
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +73,79 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-Uitleg: Deze stap omvat het maken van een streepjescode met Aspose.BarCode, het instellen van de codetekst en het opslaan van de streepjescodeafbeelding op een opgegeven locatie.
+**Uitleg:** Deze code maakt een `BarcodeGenerator` aan, selecteert de `CODE_39_STANDARD`‑symbologie, kent de tekst `"NOK-E71"` toe, en slaat de resulterende afbeelding op naar `c:\temp\code39.jpg`. Dit is de kern van **java generate barcode** – een enkel, leesbaar code‑blok.
 
-## Stap 2: Record in MySQL-database invoegen
+## Stap 2: Record invoegen in MySQL‑database
 
 ```java
-// Stap 2 - Voeg een nieuw record in MySQL DB in
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-// Open verbinding
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-// Verklaring voorbereiden
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-// Stel het productnummer en de productnaam in
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-// De 3e kolom is voor de streepjescodeafbeelding. DB-type is BLOB
-// Om de afbeelding op te slaan, moeten we een stream maken van het afbeeldingsbestand
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// Voer de verklaring uit
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-// Hechte band
+// Close connection
 pre.close();
 con.close();
 ```
 
-Toelichting: Bij deze stap wordt verbinding gemaakt met een MySQL-database en wordt een nieuw record met productinformatie en de bijbehorende barcodeafbeelding ingevoegd.
+**Uitleg:** Hier openen we een JDBC‑verbinding, bereiden een `INSERT`‑statement voor, en slaan de barcode‑afbeelding op als een BLOB. De code laat zien hoe je **java generate barcode** combineert met database‑opslag, waarmee de end‑to‑end‑workflow voltooid wordt.
+
+## Veelvoorkomende problemen en oplossingen
+
+| Probleem | Oplossing |
+|----------|-----------|
+| **Bestandspad niet gevonden** | Zorg ervoor dat de map (`c:\temp`) bestaat of gebruik een absoluut pad waar je Java‑proces naar kan schrijven. |
+| **JDBC‑driverklasse niet gevonden** | Voeg de MySQL Connector/J JAR toe aan de classpath van je project. |
+| **BLOB‑grootte overschrijdt kolomlimiet** | Gebruik een `MEDIUMBLOB` of `LONGBLOB` kolomtype voor grotere afbeeldingen. |
+| **Toestemming geweigerd bij opslaan** | Voer de applicatie uit met voldoende besturingssysteem‑rechten of kies een map met schrijfrechten. |
+
+## Veelgestelde vragen
+
+### V: Is Aspose.BarCode compatibel met verschillende barcode‑typen?
+A: Ja, Aspose.BarCode ondersteunt diverse barcode‑typen, waaronder CODE_39_STANDARD, CODE_128, QR, en meer.
+
+### V: Kan ik het uiterlijk van gegenereerde barcodes aanpassen?
+A: Absoluut! Aspose.BarCode biedt uitgebreide aanpassingsopties voor het uiterlijk van barcodes, zodat je deze kunt afstemmen op je specifieke behoeften.
+
+### V: Is er een gratis proefversie beschikbaar voor Aspose.BarCode?
+A: Ja, je kunt een gratis proefversie [hier](https://releases.aspose.com/) verkrijgen.
+
+### V: Waar kan ik gedetailleerde documentatie voor Aspose.BarCode vinden?
+A: Raadpleeg de documentatie [hier](https://reference.aspose.com/barcode/java/).
+
+### V: Hoe krijg ik ondersteuning voor Aspose.BarCode?
+A: Bezoek het ondersteuningsforum [hier](https://forum.aspose.com/c/barcode/13) voor hulp of vragen.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt Aspose.BarCode voor Java met succes in uw applicatie geïntegreerd om streepjescodes te genereren en op te slaan. Deze krachtige bibliotheek vereenvoudigt het proces, waardoor de implementatie van barcodes een fluitje van een cent wordt.
+Gefeliciteerd! Je hebt met succes **Aspose.BarCode for Java** gebruikt om **java generate barcode** uit te voeren, de barcode‑afbeelding opgeslagen, en deze in een MySQL‑database bewaard. Deze aanpak vereenvoudigt barcode‑integratie en biedt een stevige basis voor het bouwen van voorraad‑, traceer- of kassasystemen.
 
-## Veel Gestelde Vragen
+---
 
-### Vraag: Is Aspose.BarCode compatibel met verschillende barcodetypes?
-A: Ja, Aspose.BarCode ondersteunt verschillende typen streepjescodes, waaronder CODE_39_STANDARD, CODE_128, QR en meer.
+**Laatst bijgewerkt:** 2025-12-25  
+**Getest met:** Aspose.BarCode for Java 24.10  
+**Auteur:** Aspose  
 
-### Vraag: Kan ik het uiterlijk van gegenereerde streepjescodes aanpassen?
-EEN: Absoluut! Aspose.BarCode biedt uitgebreide aanpassingsmogelijkheden voor het uiterlijk van streepjescodes, zodat u deze kunt afstemmen op uw specifieke behoeften.
-
-### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.BarCode?
- A: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
-
-### Vraag: Waar kan ik gedetailleerde documentatie voor Aspose.BarCode vinden?
- A: Raadpleeg de documentatie[hier](https://reference.aspose.com/barcode/java/).
-
-### Vraag: Hoe krijg ik ondersteuning voor Aspose.BarCode?
- A: Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/barcode/13) voor eventuele hulp of vragen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

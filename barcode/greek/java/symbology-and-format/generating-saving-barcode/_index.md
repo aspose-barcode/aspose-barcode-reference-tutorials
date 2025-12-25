@@ -1,38 +1,55 @@
 ---
-title: Δημιουργία και αποθήκευση γραμμικού κώδικα σε Java
-linktitle: Δημιουργία και αποθήκευση Barcode
+date: 2025-12-25
+description: Μάθετε πώς να δημιουργείτε barcode με Java χρησιμοποιώντας το Aspose.BarCode,
+  να αποθηκεύετε την εικόνα του barcode και να την αποθηκεύετε σε μια βάση δεδομένων
+  MySQL. Υποστηρίζει πολλαπλούς τύπους barcode του Aspose.
+linktitle: Generating and Saving Barcode
 second_title: Aspose.BarCode Java API
-description: Δημιουργήστε και αποθηκεύστε γραμμικούς κώδικες χωρίς κόπο σε Java με το Aspose.BarCode. Ενσωματώστε απρόσκοπτα, προσαρμόστε την εμφάνιση και απολαύστε εκτεταμένη υποστήριξη γραμμικού κώδικα.
-weight: 12
+title: java δημιουργία barcode – Δημιουργία και αποθήκευση barcode με το Aspose
 url: /el/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία και αποθήκευση γραμμικού κώδικα σε Java
+# java generate barcode – Δημιουργία και Αποθήκευση Barcode σε Java
 
+## Introduction
 
-## Εισαγωγή
+Αν χρειάζεστε να **java generate barcode** γρήγορα και να αποθηκεύσετε την προκύπτουσα εικόνα, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα δούμε πώς να χρησιμοποιήσουμε το **Aspose.BarCode for Java** για να δημιουργήσουμε ένα barcode, να το αποθηκεύσουμε ως αρχείο εικόνας και να το αποθηκεύσουμε σε μια βάση δεδομένων MySQL. Στο τέλος θα δείτε πόσο εύκολο είναι να προσθέσετε λειτουργικότητα barcode σε οποιαδήποτε εφαρμογή Java.
 
-Θέλετε να ενσωματώσετε απρόσκοπτα τη δημιουργία γραμμωτού κώδικα στην εφαρμογή Java σας; Μην ψάχνετε άλλο! Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία χρήσης του Aspose.BarCode για Java για να δημιουργήσετε και να αποθηκεύσετε γραμμικούς κώδικες αποτελεσματικά. Το Aspose.BarCode είναι μια ισχυρή βιβλιοθήκη Java που απλοποιεί τη δημιουργία και τον χειρισμό γραμμωτού κώδικα, παρέχοντάς σας τα εργαλεία που χρειάζονται για να βελτιώσετε τις εφαρμογές σας με λειτουργικότητα γραμμικού κώδικα.
+## Quick Answers
+- **Which library should I use?** Aspose.BarCode for Java  
+- **Can I save the barcode as an image file?** Yes – use the `save` method to write a JPG/PNG/… file  
+- **Is MySQL supported for storing the barcode?** Absolutely, store the image as a BLOB column  
+- **What barcode types are available?** CODE_39_STANDARD, CODE_128, QR, DataMatrix, and many more  
+- **Do I need a license for production?** A commercial license is required for production use; a free trial is available
 
-## Προαπαιτούμενα
+## What is java generate barcode?
 
-Πριν βουτήξετε στο σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+Η δημιουργία barcode σε Java σημαίνει προγραμματιστική δημιουργία μιας οπτικής αναπαράστασης δεδομένων που μπορούν να διαβάσουν οι σαρωτές. Το Aspose.BarCode παρέχει ένα ευέλικτο API για τον ορισμό του τύπου barcode, την καθορισμένη συμβολοσειρά δεδομένων και την εξαγωγή του γραφήματος σε κοινές μορφές εικόνας.
 
-- Περιβάλλον ανάπτυξης Java: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον ανάπτυξης Java στον υπολογιστή σας.
+## Why use Aspose.BarCode generator?
 
-- Aspose.BarCode Library: Κάντε λήψη και εγκατάσταση της βιβλιοθήκης Aspose.BarCode. Μπορείτε να βρείτε τον σύνδεσμο λήψης[εδώ](https://releases.aspose.com/barcode/java/).
+- **Broad symbology support** – over 50 barcode types (aspose barcode types)  
+- **High‑quality rendering** – lossless vector graphics when needed  
+- **Simple API** – only a few lines of code to produce a professional barcode  
+- **Easy integration** – works with any Java project, no external native dependencies  
 
-- Βάση δεδομένων MySQL: Ρυθμίστε μια βάση δεδομένων MySQL όπου σκοπεύετε να αποθηκεύσετε πληροφορίες που σχετίζονται με τον γραμμωτό κώδικα.
+## Prerequisites
 
-- Συνδεσιμότητα βάσεων δεδομένων: Βεβαιωθείτε ότι έχετε τα απαραίτητα διαπιστευτήρια και συνδεσιμότητα για να αλληλεπιδράσετε με τη βάση δεδομένων MySQL.
+Πριν ξεκινήσετε το tutorial, βεβαιωθείτε ότι έχετε τα παρακάτω:
 
-## Εισαγωγή πακέτων
+- Java Development Environment: Make sure you have a Java development environment set up on your machine.  
+- Aspose.BarCode Library: Download and install the Aspose.BarCode library. You can find the download link [here](https://releases.aspose.com/barcode/java/).  
+- MySQL Database: Set up a MySQL database where you intend to store barcode‑related information.  
+- Database Connectivity: Ensure you have the necessary credentials and connectivity to interact with the MySQL database.  
 
-Στο έργο σας Java, εισαγάγετε τα απαιτούμενα πακέτα για συνδεσιμότητα Aspose.BarCode και MySQL.
+## Import Packages
+
+In your Java project, import the required packages for Aspose.BarCode and MySQL connectivity.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
@@ -45,10 +62,10 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 ```
 
-## Βήμα 1: Δημιουργία και αποθήκευση γραμμικού κώδικα
+## Step 1: Generate and Save Barcode
 
 ```java
-// Βήμα 1 - Δημιουργήστε γραμμωτό κώδικα και αποθηκεύστε προσωρινά σε ένα αρχείο
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +74,79 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-Επεξήγηση: Αυτό το βήμα περιλαμβάνει τη δημιουργία ενός γραμμικού κώδικα με το Aspose.BarCode, τη ρύθμιση του κειμένου του κώδικα και την αποθήκευση της εικόνας του γραμμικού κώδικα σε μια καθορισμένη θέση.
+**Explanation:** This snippet creates a `BarcodeGenerator`, selects the `CODE_39_STANDARD` symbology, assigns the text `"NOK-E71"`, and saves the resulting image to `c:\temp\code39.jpg`. This is the core of **java generate barcode** – a single, readable block of code.
 
-## Βήμα 2: Εισαγάγετε την εγγραφή στη βάση δεδομένων MySQL
+## Step 2: Insert Record in MySQL Database
 
 ```java
-// Βήμα 2 - Εισαγάγετε μια νέα εγγραφή στο MySQL DB
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-// Ανοίξτε τη σύνδεση
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-// Ετοιμάστε δήλωση
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-// Ορίστε τον αριθμό προϊόντος και το όνομα προϊόντος
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-// Η 3η στήλη αφορά την εικόνα γραμμικού κώδικα. Ο τύπος DB είναι BLOB
-// Για την αποθήκευση της εικόνας, πρέπει να δημιουργήσουμε μια ροή από το αρχείο εικόνας
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// Εκτελέστε τη δήλωση
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-// Κλείστε τη σύνδεση
+// Close connection
 pre.close();
 con.close();
 ```
 
-Επεξήγηση: Αυτό το βήμα περιλαμβάνει τη σύνδεση σε μια βάση δεδομένων MySQL και την εισαγωγή μιας νέας εγγραφής με πληροφορίες προϊόντος και τη σχετική εικόνα γραμμικού κώδικα.
+**Explanation:** Here we open a JDBC connection, prepare an `INSERT` statement, and store the barcode image as a BLOB. The code demonstrates how to combine **java generate barcode** with database storage, completing the end‑to‑end workflow.
 
-## συμπέρασμα
+## Common Issues and Solutions
 
-Συγχαρητήρια! Έχετε ενσωματώσει με επιτυχία το Aspose.BarCode για Java στην εφαρμογή σας για να δημιουργήσετε και να αποθηκεύσετε γραμμικούς κώδικες. Αυτή η ισχυρή βιβλιοθήκη απλοποιεί τη διαδικασία, καθιστώντας την εφαρμογή γραμμωτού κώδικα παιχνιδάκι.
+| Issue | Solution |
+|-------|----------|
+| **File path not found** | Ensure the directory (`c:\temp`) exists or use an absolute path that your Java process can write to. |
+| **JDBC driver class not found** | Add the MySQL Connector/J JAR to your project’s classpath. |
+| **BLOB size exceeds column limit** | Use a `MEDIUMBLOB` or `LONGBLOB` column type for larger images. |
+| **Permission denied on save** | Run the application with sufficient file‑system permissions or choose a writable folder. |
 
-## Συχνές Ερωτήσεις
+## Frequently Asked Questions
 
-### Ε: Είναι το Aspose.BarCode συμβατό με διαφορετικούς τύπους γραμμωτού κώδικα;
-Α: Ναι, το Aspose.BarCode υποστηρίζει διάφορους τύπους γραμμωτού κώδικα, συμπεριλαμβανομένων των CODE_39_STANDARD, CODE_128, QR και άλλων.
+### Q: Is Aspose.BarCode compatible with different barcode types?
+A: Yes, Aspose.BarCode supports various barcode types, including CODE_39_STANDARD, CODE_128, QR, and more.
 
-### Ε: Μπορώ να προσαρμόσω την εμφάνιση των γραμμωτών κωδίκων που δημιουργούνται;
-Α: Απολύτως! Το Aspose.BarCode παρέχει εκτεταμένες επιλογές προσαρμογής για την εμφάνιση του γραμμικού κώδικα, επιτρέποντάς σας να τον προσαρμόσετε στις συγκεκριμένες ανάγκες σας.
+### Q: Can I customize the appearance of generated barcodes?
+A: Absolutely! Aspose.BarCode provides extensive customization options for barcode appearance, allowing you to tailor it to your specific needs.
 
-### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.BarCode;
- Α: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+### Q: Is there a free trial available for Aspose.BarCode?
+A: Yes, you can access a free trial [here](https://releases.aspose.com/).
 
-### Ε: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.BarCode;
- Α: Ανατρέξτε στην τεκμηρίωση[εδώ](https://reference.aspose.com/barcode/java/).
+### Q: Where can I find detailed documentation for Aspose.BarCode?
+A: Refer to the documentation [here](https://reference.aspose.com/barcode/java/).
 
-### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.BarCode;
- Α: Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/barcode/13) για οποιαδήποτε βοήθεια ή απορία.
+### Q: How do I get support for Aspose.BarCode?
+A: Visit the support forum [here](https://forum.aspose.com/c/barcode/13) for any assistance or queries.
+
+## Conclusion
+
+Congratulations! You have successfully used **Aspose.BarCode for Java** to **java generate barcode**, saved the barcode image, and stored it in a MySQL database. This approach streamlines barcode integration and gives you a solid foundation for building inventory, tracking, or point‑of‑sale systems.
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.BarCode for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
