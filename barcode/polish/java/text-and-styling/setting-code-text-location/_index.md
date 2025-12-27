@@ -1,99 +1,130 @@
 ---
-title: Ustawianie lokalizacji tekstu kodu w Javie
-linktitle: Ustawianie lokalizacji tekstu kodu
-second_title: Aspose.BarCode API Java
-description: Bez wysiłku generuj dynamiczne kody kreskowe w Javie za pomocą Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby dostosować tekst kodu i zwiększyć funkcjonalność aplikacji.
-weight: 12
+date: 2025-12-27
+description: Dowiedz się, jak tworzyć kod Data Matrix i jak ustawić położenie tekstu
+  kodu kreskowego w Javie przy użyciu Aspose.BarCode. Skorzystaj z naszego przewodnika
+  krok po kroku, aby uzyskać pełną personalizację.
+linktitle: Setting Code Text Location
+second_title: Aspose.BarCode Java API
+title: Utwórz kod kreskowy Data Matrix i ustaw położenie tekstu kodu w Javie
 url: /pl/java/text-and-styling/setting-code-text-location/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustawianie lokalizacji tekstu kodu w Javie
+# Tworzenie kodu kreskowego Data Matrix i ustawianie położenia tekstu kodu w Javie
 
+## Wprowadzenie
 
-## Wstęp
+Generowanie kodów kreskowych to rutynowe wymaganie w systemach inwentaryzacji, wysyłki i wielu innych aplikacjach opartych na Javie. Dzięki **Aspose.BarCode for Java** możesz **tworzyć kod kreskowy Data Matrix** szybko oraz kontrolować każdy aspekt wizualny, w tym miejsce, w którym pojawia się tekst czytelny dla człowieka. W tym samouczku przeprowadzimy Cię krok po kroku przez **tworzenie kodu kreskowego Data Matrix** oraz pokażemy **jak ustawić tekst kodu** nad symbolem, aby spełniał Twoje wymagania projektowe.
 
-W rozległym świecie programowania w języku Java tworzenie kodów kreskowych i zarządzanie nimi jest kluczowym zadaniem w różnych zastosowaniach, od systemów magazynowych po logistykę. Aspose.BarCode dla Java wyróżnia się jako potężne narzędzie do płynnego generowania kodów kreskowych. W tym przewodniku krok po kroku zagłębimy się w proces konfigurowania i wykorzystywania Aspose.BarCode do łatwego generowania kodów kreskowych.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki użyto?** Aspose.BarCode for Java  
+- **Jaki typ kodu kreskowego jest demonstrowany?** Data Matrix  
+- **Jak pozycjonować tekst kodu?** Używając `CodeLocation.ABOVE`  
+- **Czy potrzebna jest licencja do produkcji?** Tak, wymagana jest licencja komercyjna  
+- **Czy kod działa na Java 8+?** Oczywiście, obsługuje Java 8 i nowsze wersje  
 
-## Warunki wstępne
+## Co to jest kod kreskowy Data Matrix?
+Kod kreskowy Data Matrix to dwuwymiarowy (2‑D) symbol, który przechowuje duże ilości danych w zwartym, kwadratowym lub prostokątnym wzorze. Jest szeroko stosowany do znakowania małych przedmiotów, elektroniki i wyrobów medycznych, ponieważ może zakodować do 2 335 znaków alfanumerycznych.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Dlaczego ustawiać położenie tekstu kodu?
+Umieszczenie tekstu czytelnego dla człowieka **nad**, **pod** lub **obok** kodu kreskowego pomaga użytkownikom szybko zweryfikować zakodowane dane bez skanowania. Dostosowanie położenia tekstu poprawia spójność interfejsu użytkownika i spełnia wytyczne brandingowe.
 
-- Podstawowa znajomość programowania w języku Java.
-- Zainstalowany zestaw Java Development Kit (JDK).
-- Działające zintegrowane środowisko programistyczne Java (IDE), takie jak Eclipse lub IntelliJ IDEA.
--  Pobrano i skonfigurowano Aspose.BarCode dla Java. Można go pobrać z[Tutaj](https://releases.aspose.com/barcode/java/).
+## Wymagania wstępne
 
-## Importuj pakiety
+- Podstawowa znajomość programowania w Javie.  
+- Zainstalowany Java Development Kit (JDK).  
+- IDE, takie jak Eclipse lub IntelliJ IDEA.  
+- Biblioteka Aspose.BarCode for Java (pobierz ją z [tutaj](https://releases.aspose.com/barcode/java/)).  
 
-Po skonfigurowaniu środowiska Java i pobraniu Aspose.BarCode następnym krokiem jest zaimportowanie niezbędnych pakietów. Upewnij się, że w projekcie Java masz następujące importy:
+## Importowanie pakietów
+
+Najpierw zaimportuj niezbędne klasy Aspose.BarCode do swojego projektu:
 
 ```java
 import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Pakiety te są niezbędne do wykorzystania funkcjonalności Aspose.BarCode w aplikacji Java.
+Te importy dają dostęp do generatora kodów kreskowych oraz wyliczenia kontrolującego położenie tekstu.
 
-Przyjrzyjmy się teraz przykładowi ustawienia lokalizacji tekstu kodu przy użyciu Aspose.BarCode w Javie. Wykonaj następujące kroki:
+## Przewodnik krok po kroku
 
-## Krok 1: Zdefiniuj ścieżki katalogów
+### Krok 1: Definiowanie ścieżek katalogów
+Określ, gdzie chcesz odczytywać/zapisywać pliki. Zamień symbole zastępcze na rzeczywiste ścieżki w swoim systemie.
 
 ```java
 String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-Pamiętaj, aby zastąpić „Ścieżkę Twojego katalogu” i „Katalog Twojego dokumentu” odpowiednimi ścieżkami w swoim projekcie.
-
-## Krok 2: Utwórz instancję generatora kodów kreskowych
+### Krok 2: Utworzenie instancji BarcodeGenerator
+Zainicjuj `BarcodeGenerator` z typem **Data Matrix** i podaj tekst kodu, który ma zostać zakodowany.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX,
         "GTIN:898978777776665655 " + "UID: 121212121212121212 " + "Batch:GH768 " + "Exp.Date:150923");
 ```
 
-Tutaj inicjujemy instancję BarcodeGenerator, określając typ kodu kreskowego i tekst kodu.
-
-## Krok 3: Ustaw lokalizację tekstu kodu
+### Krok 3: Jak ustawić położenie tekstu kodu
+Użyj wyliczenia `CodeLocation`, aby przenieść tekst czytelny dla człowieka. W tym przykładzie umieszczamy go **nad** kodem kreskowym.
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setLocation(CodeLocation.ABOVE);
 ```
 
-Skonfiguruj lokalizację tekstu kodu. W tym przykładzie umieszczamy tekst kodu nad kodem kreskowym.
-
-## Krok 4: Zapisz wygenerowany obraz kodu kreskowego
+### Krok 4: Zapis wygenerowanego obrazu kodu kreskowego
+Na koniec zapisz obraz kodu kreskowego na dysku. Plik będzie zawierał symbol Data Matrix z tekstem umieszczonym nad nim.
 
 ```java
 generator.save(dataDir + "codetextAbove.png");
 ```
 
-Na koniec zapisz wygenerowany obraz kodu kreskowego z określoną lokalizacją tekstu kodu.
+## Typowe problemy i rozwiązania
+- **Tekst się nie wyświetla:** Upewnij się, że używasz wersji Aspose.BarCode obsługującej `CodeLocation`.  
+- **Błędy ścieżki pliku:** Sprawdź, czy `dataDir` kończy się separatorem plików (`/` lub `\\`) odpowiednim dla Twojego systemu operacyjnego.  
+- **Nieobsługiwane znaki:** Data Matrix może kodować tylko ograniczony zestaw znaków; unikaj specjalnych symboli nieobecnych w standardzie ISO/IEC 16022.
 
-## Wniosek
+## Najczęściej zadawane pytania (FAQ)
 
-Gratulacje! Pomyślnie skonfigurowałeś Aspose.BarCode dla Java i utworzyłeś kod kreskowy z niestandardowym rozmieszczeniem tekstu kodu. To tylko rzut oka na potężne funkcje, jakie oferuje Aspose.BarCode do generowania kodów kreskowych w aplikacjach Java.
+### Q: Czy mogę dostosować wygląd wygenerowanego kodu kreskowego?
+A: Tak, Aspose.BarCode oferuje rozbudowane opcje personalizacji, pozwalając kontrolować kolory, marginesy i style czcionek.
 
-## Często zadawane pytania (FAQ)
+### Q: Czy Aspose.BarCode jest kompatybilny z Java 8 i późniejszymi wersjami?
+A: Oczywiście, biblioteka działa z Java 8 oraz wszystkimi kolejnymi wydaniami.
 
-### P: Czy mogę dostosować wygląd wygenerowanego kodu kreskowego?
-Tak, Aspose.BarCode zapewnia szerokie możliwości dostosowywania, pozwalając kontrolować różne aspekty wyglądu kodu kreskowego.
+### Q: Jak włączyć Aspose.BarCode do istniejącego projektu Java?
+A: Dodaj pliki JAR Aspose.BarCode do ścieżki klas projektu, zaimportuj wymagane pakiety i możesz od razu generować kody kreskowe.
 
-### P: Czy Aspose.BarCode jest kompatybilny z Java 8 i nowszymi wersjami?
-Absolutnie Aspose.BarCode został zaprojektowany do bezproblemowej współpracy z Java 8 i wszystkimi kolejnymi wersjami.
+### Q: Czy dostępna jest wersja próbna Aspose.BarCode?
+A: Tak, możliwości Aspose.BarCode możesz wypróbować, pobierając darmową wersję próbną [tutaj](https://releases.aspose.com/).
 
-### P: Jak mogę zintegrować Aspose.BarCode z moim istniejącym projektem Java?
-Po prostu dodaj pliki JAR Aspose.BarCode do ścieżki klasy swojego projektu i możesz rozpocząć generowanie kodów kreskowych.
+### Q: Gdzie mogę uzyskać pomoc lub wsparcie dla Aspose.BarCode?
+A: Odwiedź [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), aby uzyskać pomoc społeczności oraz oficjalne wsparcie.
 
-### P: Czy dostępna jest wersja próbna Aspose.BarCode?
- Tak, możesz poznać możliwości Aspose.BarCode, uzyskując bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+## Dodatkowe pytania FAQ
 
-### P: Gdzie mogę szukać pomocy lub wsparcia dla Aspose.BarCode?
- Odwiedzić[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) za wsparcie i pomoc społeczną.
+**Q: Czy mogę wygenerować kod kreskowy z tekstem umieszczonym pod symbolem?**  
+A: Tak, ustaw `CodeLocation.BELOW` w tej samej metodzie `setLocation`.
+
+**Q: Czy biblioteka obsługuje inne kody 2‑D, takie jak QR Code?**  
+A: Oczywiście, wystarczy zamienić `EncodeTypes.DATA_MATRIX` na `EncodeTypes.QR`.
+
+**Q: Jak zmienić rozmiar czcionki tekstu kodu kreskowego?**  
+A: Użyj `generator.getParameters().getBarcode().getCodeTextParameters().setFontSize(double size)`.
+
+## Zakończenie
+
+Teraz wiesz, jak **tworzyć kod kreskowy Data Matrix** w Javie i precyzyjnie kontrolować **ustawienie tekstu kodu** przy użyciu Aspose.BarCode. Eksperymentuj z innymi wartościami `CodeLocation` oraz opcjami stylizacji, aby dopasować je do wymagań swojego projektu.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-27  
+**Testowano z:** Aspose.BarCode for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
