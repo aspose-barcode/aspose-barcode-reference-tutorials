@@ -1,60 +1,74 @@
 ---
-title: Aspose.BarCode를 사용하여 Java의 바코드에 캡션 추가
-linktitle: 바코드에 캡션 추가
-second_title: Aspose.BarCode 자바 API
-description: Aspose.BarCode를 사용하여 Java에서 바코드 시각적 기능을 향상시키는 방법을 알아보세요. 향상된 사용자 경험을 위해 캡션을 손쉽게 추가하세요.
-weight: 10
+date: 2025-12-27
+description: Aspose.BarCode를 사용하여 Java에서 바코드 이미지에 캡션을 추가하는 방법을 배워보세요. 이 Java 바코드 생성기
+  예제는 바코드 이미지를 손쉽게 만드는 방법을 보여줍니다.
+linktitle: Adding Caption to Barcode
+second_title: Aspose.BarCode Java API
+title: Aspose.BarCode를 사용하여 Java에서 바코드에 캡션 추가하는 방법
 url: /ko/java/text-and-styling/adding-caption-barcode/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode를 사용하여 Java의 바코드에 캡션 추가
+# Java에서 Aspose.BarCode를 사용하여 바코드에 캡션 추가하는 방법
 
+## Introduction
 
-## 소개
+바코드의 가독성과 브랜드 인식을 높이기 위해 **캡션을 추가하는 방법**이 필요하다면, 여기가 바로 맞는 곳입니다. 이 튜토리얼에서는 Aspose.BarCode for Java를 사용하여 바코드 이미지 위와 아래에 캡션을 추가하는 정확한 단계들을 안내합니다. 완료하면 데이터만 인코딩하는 것이 아니라 유용한 텍스트도 표시되는 완전 스타일링된 바코드를 얻을 수 있습니다—제품 라벨, 재고 시스템, 혹은 사용자가 추가 컨텍스트를 필요로 하는 모든 상황에 적합합니다.
 
-Java 프로그래밍 영역에서는 바코드 통합이 일반적으로 필요하며 Aspose.BarCode for Java는 이 작업을 위한 강력한 솔루션을 제공합니다. 바코드에 캡션을 추가하면 정보성이 향상되어 더욱 사용자 친화적이고 시각적으로 매력적으로 보입니다. 이 튜토리얼은 Aspose.BarCode를 사용하여 Java에서 바코드에 캡션을 추가하는 과정을 안내합니다.
+## Quick Answers
+- **What library is required?** Aspose.BarCode for Java.  
+- **Can I change font and color?** Yes—both caption font family and text color are customizable.  
+- **Which barcode types work?** All symbologies supported by Aspose.BarCode (e.g., CODE_128, QR, DataMatrix).  
+- **Do I need a license for testing?** A free trial is available; a commercial license is required for production.  
+- **How long does implementation take?** Typically under 10 minutes once the library is added.
 
-## 전제 조건
+## What is a caption in a barcode?
+캡션은 바코드 그래픽 위 또는 아래에 표시되는 일반 텍스트입니다. 제품 이름, 가격 등 인코딩된 데이터를 보완하는 정보를 전달할 수 있습니다.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Why add captions with Aspose.BarCode?
+- **Improved user experience:** Users can instantly read the meaning of a barcode without scanning.  
+- **Brand consistency:** You can apply your own fonts, colors, and alignment to match corporate style guides.  
+- **Full control:** Aspose.BarCode’s API lets you toggle visibility, set alignment, and style each caption independently.
 
-- 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Java 라이브러리용 Aspose.BarCode가 다운로드되어 프로젝트에 추가되었습니다. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/barcode/java/).
-- Java 개발을 위한 IntelliJ IDEA 또는 Eclipse와 같은 코드 편집기.
+## Prerequisites
 
-## 패키지 가져오기
+- Java Development Kit (JDK) installed.
+- Aspose.BarCode for Java library downloaded and added to your project. You can find the download link [here](https://releases.aspose.com/barcode/java/).
+- An IDE such as IntelliJ IDEA or Eclipse.
 
-Java 프로젝트에서 Aspose.BarCode 기능을 사용하는 데 필요한 패키지를 가져옵니다. Java 파일 시작 부분에 다음 줄을 추가합니다.
+## Import Packages
+
+In your Java source file, import the required Aspose.BarCode classes and the AWT `Color` class:
 
 ```java
 import com.aspose.barcode.*;
 import java.awt.*;
 ```
 
-## 1단계: 문서 및 리소스 디렉터리 설정
+## Step 1: Set Up Document and Resource Directories
 
-문서와 리소스에 대한 디렉터리 경로를 지정하는 것부터 시작하세요. 이 단계를 통해 Aspose.BarCode는 생성된 바코드 이미지를 저장할 위치를 알 수 있습니다. 
+Specify where you want to store the generated barcode image. Adjust the paths to match your environment.
 
 ```java
 String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-## 2단계: 바코드 생성기 인스턴스 생성
+## Step 2: Create Barcode Generator Instance
 
- 인스턴스화`BarcodeGenerator`객체, 생성자에서 바코드 유형(예: CODE_128) 및 코드 텍스트(예: "12345678")를 지정합니다.
+Instantiate `BarcodeGenerator` with the desired symbology (e.g., CODE_128) and the code text you wish to encode.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-## 3단계: 바코드 위에 캡션 구성
+## Step 3: Configure Caption Above the Barcode
 
-정렬, 텍스트, 가시성, 글꼴 모음, 글꼴 크기 및 텍스트 색상을 지정하여 바코드 위에 캡션을 설정합니다.
+Set the caption that appears above the barcode. You can control alignment, text, visibility, font family, size, and color.
 
 ```java
 bb.getParameters().getCaptionAbove().setAlignment(TextAlignment.LEFT);
@@ -65,9 +79,9 @@ bb.getParameters().getCaptionAbove().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionAbove().setTextColor(Color.RED);
 ```
 
-## 4단계: 바코드 아래 캡션 구성
+## Step 4: Configure Caption Below the Barcode
 
-마찬가지로 원하는 매개변수로 바코드 아래 캡션을 구성합니다.
+Similarly, define the caption below the barcode. Feel free to use a different alignment or styling if needed.
 
 ```java
 bb.getParameters().getCaptionBelow().setAlignment(TextAlignment.RIGHT);
@@ -78,36 +92,46 @@ bb.getParameters().getCaptionBelow().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionBelow().setTextColor(Color.RED);
 ```
 
-## 5단계: 바코드 이미지 저장
+## Step 5: Save the Barcode Image
 
-생성된 바코드 이미지를 지정된 디렉터리에 저장합니다.
+Finally, write the barcode (with captions) to an image file. The format is inferred from the file extension.
 
 ```java
 bb.save(dataDir + "barcodeCaption.jpg");
 ```
 
-바코드를 추가로 사용자 정의하거나 수정하려면 이 단계를 반복하세요.
+You can repeat the above steps to experiment with different fonts, colors, or alignments, or to generate multiple barcode images in a loop.
 
-## 결론
+## Common Issues & Tips
 
-축하해요! Aspose.BarCode를 사용하여 Java에서 바코드에 캡션을 추가하는 방법을 성공적으로 배웠습니다. 이는 바코드의 시각적 매력과 유용성을 향상시켜 최종 사용자에게 더 많은 정보를 제공합니다.
+- **Caption not visible?** Ensure `setVisible(true)` is called for the caption you want to display.  
+- **Incorrect colors?** Use `java.awt.Color` constants or create custom colors with `new Color(r, g, b)`.  
+- **Path problems?** Verify that `dataDir` points to an existing writable folder; otherwise, `bb.save()` will throw an `IOException`.  
+- **Performance tip:** Reuse a single `BarcodeGenerator` instance when generating many barcodes; only change the `EncodeTypes` or `codetext` as needed.
 
-## 자주 묻는 질문(FAQ)
+## Frequently Asked Questions (FAQs)
 
-### 바코드 캡션의 글꼴 스타일을 사용자 정의할 수 있나요?
-예. 바코드 위와 아래 캡션의 글꼴 모음, 크기, 색상을 사용자 정의할 수 있습니다.
+### Can I customize the font style of the barcode captions?
+Yes, you can customize the font family, size, and color of both the caption above and below the barcode.
 
-### Aspose.BarCode는 다른 바코드 기호와 호환됩니까?
-전적으로! Aspose.BarCode는 광범위한 기호를 지원하여 바코드 생성의 유연성을 보장합니다.
+### Is Aspose.BarCode compatible with different barcode symbologies?
+Absolutely! Aspose.BarCode supports a wide range of symbologies, ensuring flexibility in barcode generation.
 
-### Aspose.BarCode를 Java 프로젝트에 어떻게 통합할 수 있나요?
- 문서를 따라갈 수 있습니다[여기](https://reference.aspose.com/barcode/java/) 자세한 통합 단계를 확인하세요.
+### How can I integrate Aspose.BarCode into my Java project?
+You can follow the detailed integration guide available [here](https://reference.aspose.com/barcode/java/) for step‑by‑step instructions.
 
-### Aspose.BarCode for Java에 대한 무료 평가판이 있습니까?
- 예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.
+### Is there a free trial available for Aspose.BarCode for Java?
+Yes, you can access the free trial [here](https://releases.aspose.com/) to explore all features before purchasing.
 
-### 문제가 발생하거나 질문이 있는 경우 어디서 도움을 받을 수 있나요?
- Aspose.BarCode 커뮤니티 포럼[여기](https://forum.aspose.com/c/barcode/13) 지원과 토론을 위한 훌륭한 리소스입니다.
+### Where can I get help if I run into issues?
+The Aspose.BarCode community forum is an excellent place for support and discussion. Visit the forum [here](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.BarCode for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

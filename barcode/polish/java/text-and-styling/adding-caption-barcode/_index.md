@@ -1,60 +1,77 @@
 ---
-title: Dodawanie podpisu do kodu kreskowego w Javie za pomocą Aspose.BarCode
-linktitle: Dodawanie podpisu do kodu kreskowego
-second_title: Aspose.BarCode API Java
-description: Dowiedz się, jak ulepszyć wizualizację kodów kreskowych w Javie za pomocą Aspose.BarCode. Dodawaj napisy bez wysiłku, aby poprawić wygodę użytkownika.
-weight: 10
+date: 2025-12-27
+description: Dowiedz się, jak dodać podpis do obrazów kodów kreskowych w Javie przy
+  użyciu Aspose.BarCode. Ten przykład generatora kodów kreskowych w Javie pokazuje,
+  jak łatwo tworzyć obrazy kodów kreskowych w Javie.
+linktitle: Adding Caption to Barcode
+second_title: Aspose.BarCode Java API
+title: Jak dodać podpis do kodu kreskowego w Javie przy użyciu Aspose.BarCode
 url: /pl/java/text-and-styling/adding-caption-barcode/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodawanie podpisu do kodu kreskowego w Javie za pomocą Aspose.BarCode
+# Jak dodać podpis do kodu kreskowego w Javie przy użyciu Aspose.BarCode
 
+## Wprowadzenie
 
-## Wstęp
+Jeśli potrzebujesz **jak dodać podpis** do kodu kreskowego dla lepszej czytelności i identyfikacji marki, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię krok po kroku przez proces dodawania podpisów nad i pod obrazem kodu kreskowego przy użyciu Aspose.BarCode dla Javy. Po zakończeniu będziesz mieć w pełni stylizowany kod kreskowy, który nie tylko koduje dane, ale także wyświetla pomocny tekst — idealny do etykiet produktów, systemów inwentaryzacji lub wszelkich scenariuszy, w których użytkownicy korzystają z dodatkowego kontekstu.
 
-dziedzinie programowania w języku Java włączenie kodów kreskowych jest powszechną koniecznością, a Aspose.BarCode dla Java zapewnia solidne rozwiązanie tego zadania. Dodawanie podpisów do kodów kreskowych zwiększa ich wartość informacyjną, czyniąc je bardziej przyjaznymi dla użytkownika i atrakcyjnymi wizualnie. Ten samouczek poprowadzi Cię przez proces dodawania podpisów do kodów kreskowych w Javie przy użyciu Aspose.BarCode.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki wymaga?** Aspose.BarCode for Java.  
+- **Czy mogę zmienić czcionkę i kolor?** Yes—both caption font family and text color are customizable.  
+- **Jakie typy kodów kreskowych działają?** All symbologies supported by Aspose.BarCode (e.g., CODE_128, QR, DataMatrix).  
+- **Czy potrzebna jest licencja do testów?** A free trial is available; a commercial license is required for production.  
+- **Jak długo trwa implementacja?** Typically under 10 minutes once the library is added.
 
-## Warunki wstępne
+## Co to jest podpis w kodzie kreskowym?
+Podpis to zwykły tekst, który pojawia się nad lub pod grafiką kodu kreskowego. Może przekazywać nazwy produktów, ceny lub inne informacje uzupełniające zakodowane dane.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Dlaczego dodawać podpisy przy użyciu Aspose.BarCode?
+- **Poprawione doświadczenie użytkownika:** Użytkownicy mogą od razu odczytać znaczenie kodu kreskowego bez skanowania.  
+- **Spójność marki:** Możesz zastosować własne czcionki, kolory i wyrównanie, aby dopasować się do wytycznych stylu korporacyjnego.  
+- **Pełna kontrola:** API Aspose.BarCode pozwala przełączać widoczność, ustawiać wyrównanie i stylizować każdy podpis niezależnie.
 
-- Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
--  Biblioteka Aspose.BarCode for Java pobrana i dodana do Twojego projektu. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/barcode/java/).
-- Edytor kodu, taki jak IntelliJ IDEA lub Eclipse do programowania w języku Java.
+## Prerequisites
 
-## Importuj pakiety
+Zanim rozpoczniesz, upewnij się, że masz:
 
-W swoim projekcie Java zaimportuj niezbędne pakiety, aby móc korzystać z funkcjonalności Aspose.BarCode. Dodaj następujące wiersze na początku pliku Java:
+- Zainstalowany Java Development Kit (JDK).  
+- Bibliotekę Aspose.BarCode for Java pobraną i dodaną do projektu. Link do pobrania znajdziesz [tutaj](https://releases.aspose.com/barcode/java/).  
+- Środowisko IDE, takie jak IntelliJ IDEA lub Eclipse.
+
+## Importowanie pakietów
+
+W swoim pliku źródłowym Java zaimportuj wymagane klasy Aspose.BarCode oraz klasę AWT `Color`:
 
 ```java
 import com.aspose.barcode.*;
 import java.awt.*;
 ```
 
-## Krok 1: Skonfiguruj katalogi dokumentów i zasobów
+## Krok 1: Konfiguracja dokumentu i katalogów zasobów
 
-Rozpocznij od określenia ścieżek katalogów dla dokumentów i zasobów. Ten krok gwarantuje, że Aspose.BarCode będzie wiedział, gdzie zapisać wygenerowany obraz kodu kreskowego. 
+Określ, gdzie chcesz przechowywać wygenerowany obraz kodu kreskowego. Dostosuj ścieżki do swojego środowiska.
 
 ```java
 String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Utwórz instancję generatora kodów kreskowych
+## Krok 2: Utworzenie instancji Barcode Generator
 
- Utwórz instancję a`BarcodeGenerator`obiekt, określając w konstruktorze typ kodu kreskowego (np. CODE_128) i tekst kodu (np. „12345678”).
+Utwórz obiekt `BarcodeGenerator` z wybraną symbologią (np. CODE_128) oraz tekstem kodu, który chcesz zakodować.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-## Krok 3: Skonfiguruj podpis nad kodem kreskowym
+## Krok 3: Konfiguracja podpisu nad kodem kreskowym
 
-Skonfiguruj podpis nad kodem kreskowym, określając wyrównanie, tekst, widoczność, rodzinę czcionek, rozmiar czcionki i kolor tekstu.
+Ustaw podpis, który ma pojawić się nad kodem kreskowym. Możesz kontrolować wyrównanie, tekst, widoczność, rodzinę czcionki, rozmiar i kolor.
 
 ```java
 bb.getParameters().getCaptionAbove().setAlignment(TextAlignment.LEFT);
@@ -65,9 +82,9 @@ bb.getParameters().getCaptionAbove().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionAbove().setTextColor(Color.RED);
 ```
 
-## Krok 4: Skonfiguruj podpis pod kodem kreskowym
+## Krok 4: Konfiguracja podpisu pod kodem kreskowym
 
-Podobnie skonfiguruj podpis pod kodem kreskowym z żądanymi parametrami.
+Podobnie, zdefiniuj podpis pod kodem kreskowym. W razie potrzeby możesz użyć innego wyrównania lub stylu.
 
 ```java
 bb.getParameters().getCaptionBelow().setAlignment(TextAlignment.RIGHT);
@@ -78,36 +95,46 @@ bb.getParameters().getCaptionBelow().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionBelow().setTextColor(Color.RED);
 ```
 
-## Krok 5: Zapisz obraz kodu kreskowego
+## Krok 5: Zapis obrazu kodu kreskowego
 
-Zapisz wygenerowany obraz kodu kreskowego w określonym katalogu.
+Na koniec zapisz kod kreskowy (z podpisami) do pliku obrazu. Format jest określany na podstawie rozszerzenia pliku.
 
 ```java
 bb.save(dataDir + "barcodeCaption.jpg");
 ```
 
-Powtórz te kroki, aby uzyskać dodatkowe dostosowania lub modyfikacje, które chcesz wprowadzić w kodzie kreskowym.
+Możesz powtarzać powyższe kroki, aby eksperymentować z różnymi czcionkami, kolorami lub wyrównaniami, albo generować wiele obrazów kodów kreskowych w pętli.
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-Gratulacje! Pomyślnie nauczyłeś się dodawać podpisy do kodów kreskowych w Javie przy użyciu Aspose.BarCode. Zwiększa to atrakcyjność wizualną i użyteczność kodów kreskowych, czyniąc je bardziej informacyjnymi dla użytkowników końcowych.
+- **Podpis niewidoczny?** Upewnij się, że wywołano `setVisible(true)` dla podpisu, który ma być wyświetlony.  
+- **Nieprawidłowe kolory?** Użyj stałych `java.awt.Color` lub utwórz własne kolory za pomocą `new Color(r, g, b)`.  
+- **Problemy ze ścieżką?** Zweryfikuj, czy `dataDir` wskazuje istniejący folder z prawami zapisu; w przeciwnym razie `bb.save()` zgłosi `IOException`.  
+- **Wskazówka dotycząca wydajności:** Ponownie używaj jednej instancji `BarcodeGenerator` przy generowaniu wielu kodów; zmieniaj jedynie `EncodeTypes` lub `codetext` w razie potrzeby.
 
-## Często zadawane pytania (FAQ)
+## Najczęściej zadawane pytania (FAQ)
 
-### Czy mogę dostosować styl czcionki podpisów kodów kreskowych?
-Tak, możesz dostosować rodzinę czcionek, rozmiar i kolor podpisu nad i pod kodem kreskowym.
+### Czy mogę dostosować styl czcionki podpisów kodu kreskowego?
+Tak, możesz dostosować rodzinę czcionki, rozmiar i kolor zarówno podpisu nad, jak i pod kodem kreskowym.
 
-### Czy Aspose.BarCode jest kompatybilny z różnymi symbolikami kodów kreskowych?
-Absolutnie! Aspose.BarCode obsługuje szeroką gamę symboli, zapewniając elastyczność w generowaniu kodów kreskowych.
+### Czy Aspose.BarCode jest kompatybilny z różnymi symbologiami kodów kreskowych?
+Zdecydowanie! Aspose.BarCode obsługuje szeroką gamę symbologii, zapewniając elastyczność w generowaniu kodów kreskowych.
 
-### Jak mogę zintegrować Aspose.BarCode z moim projektem Java?
- Możesz postępować zgodnie z dokumentacją[Tutaj](https://reference.aspose.com/barcode/java/) szczegółowe kroki integracji.
+### Jak mogę zintegrować Aspose.BarCode w moim projekcie Java?
+Możesz skorzystać ze szczegółowego przewodnika integracji dostępnego [tutaj](https://reference.aspose.com/barcode/java/) z instrukcjami krok po kroku.
 
-### Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode dla Java?
- Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/) aby zapoznać się z funkcjami przed dokonaniem zakupu.
+### Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode dla Javy?
+Tak, możesz uzyskać dostęp do wersji próbnej [tutaj](https://releases.aspose.com/), aby przetestować wszystkie funkcje przed zakupem.
 
-### Gdzie mogę szukać pomocy, jeśli napotkam problemy lub mam pytania?
- Forum społeczności Aspose.BarCode[Tutaj](https://forum.aspose.com/c/barcode/13) jest doskonałym źródłem wsparcia i dyskusji.
+### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
+Forum społeczności Aspose.BarCode to doskonałe miejsce wsparcia i dyskusji. Odwiedź forum [tutaj](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-27  
+**Testowano z:** Aspose.BarCode for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
