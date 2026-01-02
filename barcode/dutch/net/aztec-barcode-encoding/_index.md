@@ -1,58 +1,82 @@
 ---
-title: Azteekse barcodecodering
-linktitle: Azteekse barcodecodering
+date: 2026-01-02
+description: Verken een Aztec‑barcodevoorbeeld met Aspose.BarCode voor .NET, leer
+  de Aztec‑automodus, pas de beeldverhoudingen aan en beheers de symboolmodi.
+linktitle: Aztec Barcode Encoding
 second_title: Aspose.BarCode .NET API
-description: Ontgrendel het potentieel van Azteekse barcodecodering met Aspose.BarCode voor .NET. Pas de beeldverhoudingen aan, maak met tekst gecodeerde Azteekse codes en beheer de symboolmodi.
-weight: 28
+title: Aztec-barcodevoorbeeld – Coderinggids met Aspose.BarCode voor .NET
 url: /nl/net/aztec-barcode-encoding/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Azteekse barcodecodering
+# Aztec Barcode-voorbeeld – codering met Aspose.BarCode voor .NET
 
+## Inleiding
 
-## Invoering
+Als je op zoek bent naar een duidelijk **aztec barcode example** dat je direct in een .NET‑project kunt gebruiken, ben je hier aan het juiste adres. Aspose.BarCode voor .NET biedt je een volledig uitgeruste API om Aztec‑barcodes te genereren, aan te passen en te lezen—of je nu een compacte code nodig hebt voor een mobiel ticket of een hoge‑dichtheid matrix voor voorraadtracking. In deze gids lopen we de meest voorkomende scenario's door, van het aanpassen van aspectratio's tot het benutten van **aztec auto mode**, zodat je de juiste aanpak voor je toepassing kunt kiezen.
 
-Ben je klaar om in de wereld van Aztec Barcode Encoding te duiken? Aspose.BarCode voor .NET opent de poort naar het creëren van unieke en flexibele barcodes die zijn afgestemd op uw behoeften. Laten we enkele belangrijke tutorials bekijken waarmee u het volledige potentieel van Aztec Barcode Encoding kunt benutten.
+## Snelle antwoorden
+- **Wat is een aztec barcode example?** Een kant‑klaar fragment dat een Aztec‑matrixbarcode maakt met Aspose.BarCode voor .NET.  
+- **Welke modus biedt de beste balans tussen grootte en leesbaarheid?** `AztecAutoMode` selecteert automatisch de optimale symboolmodus op basis van je gegevens.  
+- **Kan ik de aspectratio van de barcode wijzigen?** Ja—gebruik de `AspectRatio`‑eigenschap om elke lay‑out te passen.  
+- **Heb ik een licentie nodig voor productiegebruik?** Een commerciële licentie is vereist; een gratis proefversie werkt voor ontwikkeling en testen.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Pas de beeldverhouding van de Azteekse streepjescode aan
+## Wat is een aztec barcode example?
 
-Heeft u ooit de beeldverhouding van Azteekse barcodes willen aanpassen? Met Aspose.BarCode voor .NET is het een fluitje van een cent! Deze tutorial leidt u door het proces en biedt stapsgewijze instructies, vereisten en codevoorbeelden. Ontdek hoe u visueel aantrekkelijke, aangepaste barcodes kunt maken die naadloos in uw .NET-applicaties kunnen worden geïntegreerd.
+Een **aztec barcode example** laat zien hoe je de `BarCodeBuilder` instantiate, de symbologie instelt op Aztec, en de afbeelding of SVG rendert. Het voorbeeld hieronder (opgenomen in de gekoppelde tutorials) toont de minimale code die je nodig hebt, plus optionele instellingen zoals foutcorrectieniveau en symboolmodus.
 
-## Azteekse bytescodering
+## Waarom aztec auto mode gebruiken?
 
-Leer de kunst van Aztec Bytes-codering met Aspose.BarCode voor .NET. Deze uitgebreide gids voorziet u van de kennis om bytes efficiënt te coderen. Wij bieden een stapsgewijze aanpak, zodat u het concept naadloos begrijpt. Duik in de vereisten en ontdek codevoorbeelden die Aztec Bytes Encoding tot een waardevolle aanvulling op uw .NET-applicaties maken.
+`AztecAutoMode` laat de bibliotheek beslissen of **Compact**, **FullRange**, of **Rune**‑modus moet worden gebruikt op basis van de hoeveelheid gegevens die je codeert. Dit verwijdert het giswerk en zorgt voor de kleinste mogelijke barcode terwijl maximale leesbaarheid behouden blijft—perfect voor responsieve UI‑ontwerpen.
 
-## Azteekse codetekstcodering
+## Aztec-barcode aspectratio aanpassen
 
-Ontketen de kracht van Aztec Code-tekstcodering met Aspose.BarCode voor .NET. In deze zelfstudie begeleiden we u bij het maken en herkennen van Azteekse codes in uw .NET-toepassingen. Begrijp de nuances van tekstcodering, zodat u Azteekse codes moeiteloos in uw projecten kunt integreren. Verbeter uw barcodespel met deze krachtige functie.
+Heb je ooit gewenst de aspectratio van Aztec‑barcodes aan te passen? Met Aspose.BarCode voor .NET is dat een fluitje van een cent! Deze tutorial leidt je door het proces, met stap‑voor‑stap‑instructies, vereisten en codevoorbeelden. Ontdek hoe je visueel aantrekkelijke, aangepaste barcodes kunt maken die naadloos integreren in je .NET‑applicaties.
 
-## Azteekse foutbarcodes genereren
+## Aztec Bytes codering
 
-Duik in de fijne kneepjes van het genereren van Azteekse foutbarcodes met verschillende foutniveaus met behulp van Aspose.BarCode voor .NET. Deze tutorial biedt een uitgebreide handleiding voor het maken van streepjescodes, zodat u gemakkelijk met verschillende foutscenario's kunt omgaan. Vergroot uw begrip en vaardigheid in het maken van foutbestendige Azteekse barcodes.
+Leer de kunst van Aztec Bytes Encoding met Aspose.BarCode voor .NET. Deze uitgebreide gids rust je uit met de kennis om bytes efficiënt te coderen. We bieden een stap‑voor‑stap‑aanpak, zodat je het concept moeiteloos begrijpt. Duik in de vereisten en bekijk codevoorbeelden die Aztec Bytes Encoding tot een waardevolle toevoeging maken voor je .NET‑applicaties.
 
-## Beheersing van de Azteekse symboolmodus
+## Aztec Code Tekstcodering
 
-Ontdek de veelzijdigheid van de Aztec-symboolmodus in Aspose.BarCode voor .NET. Deze praktische tutorial neemt je mee door de Auto-, FullRange-, Compact- en Rune-modi en biedt inzicht in het moeiteloos genereren van streepjescodes. Beheers symboolmodi en verbeter uw vermogen om diverse en dynamische barcodes te maken voor uw .NET-toepassingen.
+Ontketen de kracht van Aztec Code Text Encoding met Aspose.BarCode voor .NET. In deze tutorial leiden we je door het maken en herkennen van Aztec‑codes in je .NET‑applicaties. Begrijp de nuances van tekstcodering, zodat je Aztec‑codes moeiteloos in je projecten kunt integreren. Til je barcode‑vaardigheden naar een hoger niveau met deze krachtige functie.
 
-Klaar om aan uw Azteekse barcodecoderingsreis te beginnen? Gebruik deze tutorials als gids om een ervaren ontwikkelaar te worden met Aspose.BarCode voor .NET. Veel codeerplezier!
-## Azteekse handleidingen voor streepjescodecodering
-### [Pas de beeldverhouding van de Azteekse streepjescode aan](./aztec-aspect-ratio-customization/)
-Leer hoe u de beeldverhoudingen van Azteekse streepjescodes kunt aanpassen met Aspose.BarCode voor .NET. Creëer unieke, flexibele barcodes voor uw .NET-toepassingen.
-### [Azteekse bytescodering](./aztec-bytes-encoding/)
-Leer hoe u Aztec Bytes Encoding uitvoert met Aspose.BarCode voor .NET. Inclusief stapsgewijze handleiding, vereisten en codevoorbeelden.
-### [Azteekse codetekstcodering](./aztec-code-text-encoding/)
-Ontdek de kracht van Aztec Code-tekstcodering met Aspose.BarCode voor .NET. Leer hoe u Azteekse codes kunt maken en herkennen in uw .NET-toepassingen.
-### [Azteekse foutbarcodes genereren](./aztec-error-level-example/)
-Leer hoe u Azteekse foutbarcodes met verschillende foutniveaus kunt genereren met behulp van Aspose.BarCode voor .NET. Uitgebreide handleiding voor het maken van streepjescodes.
-### [Beheersing van de Azteekse symboolmodus](./aztec-symbol-mode-example/)
-Ontdek de Azteekse symboolmodus in Aspose.BarCode voor .NET en leer hoe u eenvoudig veelzijdige barcodes kunt genereren. Ga aan de slag met de Auto-, FullRange-, Compact- en Rune-modi in deze uitgebreide tutorial.
+## Aztec-foutbarcode genereren
+
+Duik in de details van het genereren van Aztec‑foutbarcodes met verschillende foutniveaus met Aspose.BarCode voor .NET. Deze tutorial biedt een uitgebreide gids voor het maken van barcodes, zodat je verschillende foutscenario's moeiteloos kunt afhandelen. Verhoog je begrip en vaardigheid in het creëren van fout‑bestendige Aztec‑barcodes.
+
+## Aztec Symbol Mode beheersen
+
+Ontdek de veelzijdigheid van Aztec Symbol Mode in Aspose.BarCode voor .NET. Deze praktische tutorial neemt je mee door Auto-, FullRange-, Compact- en Rune‑modi, en biedt inzicht in het moeiteloos genereren van barcodes. Beheers Symbol Modes en verbeter je vermogen om diverse en dynamische barcodes te maken voor je .NET‑applicaties.
+
+Klaar om aan je Aztec Barcode‑codering reis te beginnen? Gebruik deze tutorials als gids om een bekwame ontwikkelaar te worden met Aspose.BarCode voor .NET. Veel plezier met coderen!
+
+## Aztec Barcode‑codering tutorials
+### [Customize Aztec Barcode Aspect Ratio](./aztec-aspect-ratio-customization/)
+Leer hoe je Aztec‑barcode aspectratio's kunt aanpassen met Aspose.BarCode voor .NET. Maak unieke, flexibele barcodes voor je .NET‑applicaties.
+### [Aztec Bytes Encoding](./aztec-bytes-encoding/)
+Leer hoe je Aztec Bytes Encoding uitvoert met Aspose.BarCode voor .NET. Stap‑voor‑stap‑gids, vereisten en codevoorbeelden inbegrepen.
+### [Aztec Code Text Encoding](./aztec-code-text-encoding/)
+Ontdek de kracht van Aztec Code Text Encoding met Aspose.BarCode voor .NET. Leer hoe je Aztec‑codes maakt en herkent in je .NET‑applicaties.
+### [Generating Aztec Error Barcodes](./aztec-error-level-example/)
+Leer hoe je Aztec‑foutbarcodes genereert met verschillende foutniveaus met Aspose.BarCode voor .NET. Uitgebreide gids voor het maken van barcodes.
+### [Mastering Aztec Symbol Mode](./aztec-symbol-mode-example/)
+Ontdek Aztec Symbol Mode in Aspose.BarCode voor .NET en leer hoe je veelzijdige barcodes eenvoudig kunt genereren. Doe praktijkervaring met Auto-, FullRange-, Compact- en Rune‑modi in deze uitgebreide tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.BarCode for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose

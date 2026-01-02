@@ -1,58 +1,86 @@
 ---
-title: Codificación de códigos de barras aztecas
-linktitle: Codificación de códigos de barras aztecas
-second_title: API Aspose.BarCode .NET
-description: Libere el potencial de la codificación de códigos de barras Aztec con Aspose.BarCode para .NET. Personalice proporciones de aspecto, cree códigos aztecas codificados en texto y domine los modos de símbolos.
-weight: 28
+date: 2026-01-02
+description: Explore un ejemplo de código de barras Aztec usando Aspose.BarCode para
+  .NET, aprenda el modo automático de Aztec, personalice las relaciones de aspecto
+  y domine los modos de símbolo.
+linktitle: Aztec Barcode Encoding
+second_title: Aspose.BarCode .NET API
+title: Ejemplo de código de barras Aztec – Guía de codificación con Aspose.BarCode
+  para .NET
 url: /es/net/aztec-barcode-encoding/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Codificación de códigos de barras aztecas
-
+# Ejemplo de Código de Barras Aztec – Codificación con Aspose.BarCode para .NET
 
 ## Introducción
 
-¿Estás listo para sumergirte en el mundo de la codificación de códigos de barras azteca? Aspose.BarCode para .NET abre la puerta a la creación de códigos de barras únicos y flexibles adaptados a sus necesidades. Exploremos algunos tutoriales clave que le permitirán aprovechar todo el potencial de Aztec Barcode Encoding.
+Si buscas un **ejemplo de código de barras aztec** claro que puedas insertar directamente en un proyecto .NET, has llegado al lugar correcto. Aspose.BarCode para .NET te ofrece una API completa para generar, personalizar y leer códigos Aztec, ya sea que necesites un código compacto para un ticket móvil o una matriz de alta densidad para el seguimiento de inventario. En esta guía recorreremos los escenarios más comunes, desde ajustar la relación de aspecto hasta aprovechar el **modo automático aztec**, para que puedas elegir el enfoque adecuado para tu aplicación.
 
-## Personalizar la relación de aspecto del código de barras azteca
+## Respuestas rápidas
+- **¿Qué es un ejemplo de código de barras aztec?** Un fragmento listo‑para‑ejecutar que crea un código de barras matriz Aztec usando Aspose.BarCode para .NET.  
+- **¿Qué modo ofrece el mejor equilibrio entre tamaño y legibilidad?** `AztecAutoMode` selecciona automáticamente el modo de símbolo óptimo según tus datos.  
+- **¿Puedo cambiar la relación de aspecto del código de barras?** Sí—utiliza la propiedad `AspectRatio` para adaptarlo a cualquier diseño.  
+- **¿Necesito una licencia para uso en producción?** Se requiere una licencia comercial; una prueba gratuita funciona para desarrollo y pruebas.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-¿Alguna vez has deseado personalizar la relación de aspecto de los códigos de barras aztecas? ¡Con Aspose.BarCode para .NET, es muy sencillo! Este tutorial lo guía a través del proceso y ofrece instrucciones paso a paso, requisitos previos y ejemplos de código. Descubra cómo crear códigos de barras personalizados y visualmente atractivos que se integren perfectamente en sus aplicaciones .NET.
+## ¿Qué es un ejemplo de código de barras aztec?
 
-## Codificación de bytes aztecas
+Un **ejemplo de código de barras aztec** muestra cómo instanciar el `BarCodeBuilder`, establecer la simbología a Aztec y renderizar la imagen o SVG. El ejemplo a continuación (incluido en los tutoriales enlazados) muestra el código mínimo que necesitas, más configuraciones opcionales como nivel de corrección de errores y modo de símbolo.
 
-Aprenda el arte de la codificación de bytes aztecas con Aspose.BarCode para .NET. Esta guía completa le proporciona los conocimientos necesarios para codificar bytes de forma eficiente. Proporcionamos un enfoque paso a paso, asegurando que comprenda el concepto a la perfección. Profundice en los requisitos previos y explore ejemplos de código que hacen de Aztec Bytes Encoding una valiosa adición a sus aplicaciones .NET.
+## ¿Por qué usar el modo automático aztec?
 
-## Codificación de texto en código azteca
+`AztecAutoMode` permite que la biblioteca decida si usar los modos **Compact**, **FullRange** o **Rune** según la cantidad de datos que codifiques. Esto elimina la conjetura y garantiza el código más pequeño posible manteniendo la máxima legibilidad—perfecto para diseños UI responsivos.
 
-Libere el poder de la codificación de texto de Aztec Code utilizando Aspose.BarCode para .NET. En este tutorial, lo guiaremos a través de la creación y reconocimiento de códigos Aztec en sus aplicaciones .NET. Comprenda los matices de la codificación de texto y asegúrese de poder integrar códigos aztecas sin esfuerzo en sus proyectos. Mejore su juego de códigos de barras con esta poderosa característica.
+## Personalizar la Relación de Aspecto del Código de Barras Aztec
 
-## Generando códigos de barras de error aztecas
+¿Alguna vez has deseado personalizar la relación de aspecto de los códigos de barras Aztec? ¡Con Aspose.BarCode para .NET es muy fácil! Este tutorial te guía paso a paso, ofreciendo requisitos previos y ejemplos de código. Descubre cómo crear códigos de barras visualmente atractivos y personalizados que se integren sin problemas en tus aplicaciones .NET.
 
-Sumérgete en las complejidades de generar códigos de barras de error Aztec con diferentes niveles de error usando Aspose.BarCode para .NET. Este tutorial proporciona una guía completa para la creación de códigos de barras, lo que garantiza que pueda manejar diferentes escenarios de error con facilidad. Mejore su comprensión y competencia en la creación de códigos de barras aztecas resistentes a errores.
+## Codificación de Bytes Aztec
 
-## Dominar el modo símbolo azteca
+Aprende el arte de la **Codificación de Bytes Aztec** con Aspose.BarCode para .NET. Esta guía completa te brinda el conocimiento necesario para codificar bytes de manera eficiente. Proporcionamos un enfoque paso a paso, asegurando que comprendas el concepto sin dificultades. Sumérgete en los requisitos previos y explora ejemplos de código que hacen de la Codificación de Bytes Aztec una valiosa adición a tus aplicaciones .NET.
 
-Explore la versatilidad del modo de símbolo azteca en Aspose.BarCode para .NET. Este tutorial práctico lo lleva a través de los modos Auto, FullRange, Compact y Rune, brindándole información sobre cómo generar códigos de barras sin esfuerzo. Domine los modos de símbolos y mejore su capacidad para crear códigos de barras diversos y dinámicos para sus aplicaciones .NET.
+## Codificación de Texto del Código Aztec
 
-¿Listo para embarcarse en su viaje de codificación de códigos de barras aztecas? Utilice estos tutoriales como guía para convertirse en un desarrollador competente con Aspose.BarCode para .NET. ¡Feliz codificación!
-## Tutoriales de codificación de códigos de barras aztecas
-### [Personalizar la relación de aspecto del código de barras azteca](./aztec-aspect-ratio-customization/)
-Aprenda a personalizar las proporciones de los códigos de barras Aztec utilizando Aspose.BarCode para .NET. Cree códigos de barras únicos y flexibles para sus aplicaciones .NET.
-### [Codificación de bytes aztecas](./aztec-bytes-encoding/)
-Aprenda cómo realizar la codificación de bytes aztecas con Aspose.BarCode para .NET. Se incluyen guía paso a paso, requisitos previos y ejemplos de código.
-### [Codificación de texto en código azteca](./aztec-code-text-encoding/)
-Descubra el poder de la codificación de texto de Aztec Code con Aspose.BarCode para .NET. Aprenda a crear y reconocer códigos aztecas en sus aplicaciones .NET.
-### [Generando códigos de barras de error aztecas](./aztec-error-level-example/)
-Aprenda a generar códigos de barras de error aztecas con diferentes niveles de error usando Aspose.BarCode para .NET. Guía completa para la creación de códigos de barras.
-### [Dominar el modo símbolo azteca](./aztec-symbol-mode-example/)
-Explore el modo de símbolo azteca en Aspose.BarCode para .NET y aprenda a generar códigos de barras versátiles con facilidad. Pruebe los modos Auto, FullRange, Compact y Rune en este completo tutorial.
+Desata el poder de la **Codificación de Texto del Código Aztec** usando Aspose.BarCode para .NET. En este tutorial, te acompañamos en la creación y reconocimiento de códigos Aztec en tus aplicaciones .NET. Entiende los matices de la codificación de texto, garantizando que puedas integrar códigos Aztec sin esfuerzo en tus proyectos. Eleva tu dominio de códigos de barras con esta potente funcionalidad.
+
+## Generación de Códigos de Barras Aztec con Error
+
+Adéntrate en los detalles de la generación de códigos de barras Aztec con diferentes niveles de error usando Aspose.BarCode para .NET. Este tutorial ofrece una guía completa para la creación de códigos de barras, asegurando que puedas manejar distintos escenarios de error con facilidad. Mejora tu comprensión y habilidad para crear códigos de barras Aztec resistentes a errores.
+
+## Dominando el Modo Símbolo Aztec
+
+Explora la versatilidad del **Modo Símbolo Aztec** en Aspose.BarCode para .NET. Este tutorial práctico te lleva a través de los modos Auto, FullRange, Compact y Rune, proporcionando ideas para generar códigos de barras sin complicaciones. Domina los Modos de Símbolo y potencia tu capacidad de crear códigos de barras diversos y dinámicos para tus aplicaciones .NET.
+
+¿Listo para embarcarte en tu viaje de codificación de códigos de barras Aztec? Usa estos tutoriales como guía para convertirte en un desarrollador competente con Aspose.BarCode para .NET. ¡Feliz codificación!
+
+## Tutoriales de Codificación de Código de Barras Aztec
+### [Personalizar la Relación de Aspecto del Código de Barras Aztec](./aztec-aspect-ratio-customization/)
+Aprende a personalizar la relación de aspecto de los códigos de barras Aztec usando Aspose.BarCode para .NET. Crea códigos únicos y flexibles para tus aplicaciones .NET.
+### [Codificación de Bytes Aztec](./aztec-bytes-encoding/)
+Aprende a realizar la Codificación de Bytes Aztec con Aspose.BarCode para .NET. Guía paso a paso, requisitos previos y ejemplos de código incluidos.
+### [Codificación de Texto del Código Aztec](./aztec-code-text-encoding/)
+Descubre el poder de la Codificación de Texto del Código Aztec con Aspose.BarCode para .NET. Aprende a crear y reconocer códigos Aztec en tus aplicaciones .NET.
+### [Generación de Códigos de Barras Aztec con Error](./aztec-error-level-example/)
+Aprende a generar códigos de barras Aztec con diferentes niveles de error usando Aspose.BarCode para .NET. Guía completa para la creación de códigos de barras.
+### [Dominando el Modo Símbolo Aztec](./aztec-symbol-mode-example/)
+Explora el Modo Símbolo Aztec en Aspose.BarCode para .NET y aprende a generar códigos de barras versátiles con facilidad. Practica con los modos Auto, FullRange, Compact y Rune en este tutorial exhaustivo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-01-02  
+**Probado con:** Aspose.BarCode for .NET 24.11 (última versión al momento de escribir)  
+**Autor:** Aspose
+
+---
