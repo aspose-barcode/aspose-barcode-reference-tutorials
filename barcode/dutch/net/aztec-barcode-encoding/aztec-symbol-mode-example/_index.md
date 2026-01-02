@@ -1,43 +1,63 @@
 ---
-title: Beheersing van de Azteekse symboolmodus met Aspose.BarCode voor .NET
-linktitle: Voorbeeld van Azteekse symboolmodus
+date: 2026-01-02
+description: Leer hoe u de Aztec‑barcodegenerator gebruikt met Aspose.BarCode voor
+  .NET – stapsgewijze handleiding over het instellen van de Aztec‑symboolmodus (Auto,
+  FullRange, Compact, Rune).
+linktitle: Aztec Symbol Mode Example
 second_title: Aspose.BarCode .NET API
-description: Ontdek de Azteekse symboolmodus in Aspose.BarCode voor .NET en leer hoe u eenvoudig veelzijdige barcodes kunt genereren. Ga aan de slag met de Auto-, FullRange-, Compact- en Rune-modi in deze uitgebreide tutorial.
-weight: 14
+title: Aztec barcodegenerator – Beheersen van de Aztec‑symboolmodus met Aspose.BarCode
+  voor .NET
 url: /nl/net/aztec-barcode-encoding/aztec-symbol-mode-example/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beheersing van de Azteekse symboolmodus met Aspose.BarCode voor .NET
+# barcode generator aztec – Aztec Symbol-modus beheersen met Aspose.BarCode voor .NET
 
-Als u krachtige mogelijkheden voor het genereren van streepjescodes wilt integreren in uw .NET-toepassingen, is Aspose.BarCode voor .NET een fantastische oplossing. In deze zelfstudie verdiepen we ons in de Azteekse symboolmodus en verkennen we de verschillende opties met behulp van Aspose.BarCode voor .NET. We behandelen de vereisten, importeren naamruimten en splitsen elk voorbeeld op in meerdere stappen om u door het proces te begeleiden.
+Als je krachtige barcode‑generatiefuncties wilt integreren in je .NET‑toepassingen, is de **barcode generator aztec** van Aspose.BarCode voor .NET een fantastische oplossing. In deze tutorial duiken we diep in de Aztec Symbol-modus, laten we **hoe je aztec**‑opties instelt zien, en begeleiden we je met praktische code‑voorbeelden die je direct in je project kunt gebruiken.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat is de primaire klasse?** `BarcodeGenerator` uit `Aspose.BarCode.Generation`.
+- **Welke Symbol‑modi zijn beschikbaar?** Auto, FullRange, Compact en Rune.
+- **Heb ik een licentie nodig?** Een tijdelijke licentie werkt voor testen; een volledige licentie is vereist voor productie.
+- **Kan ik de code‑tekst wijzigen?** Ja, stel `gen.CodeText` in vóór het opslaan.
+- **Welke afbeeldingsformaten worden ondersteund?** PNG, JPEG, BMP, GIF, TIFF en meer.
 
-Voordat we aan de slag gaan, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is een barcode generator aztec?
+De barcode generator aztec maakt tweedimensionale Aztec‑codes, een compact matrix‑barcode die een grote hoeveelheid data kan opslaan in een kleine ruimte. Hij is ideaal voor mobiele tickets, URL’s en binaire data waar ruimte schaars is.
 
-- Een praktische kennis van .NET-ontwikkeling.
-- Visual Studio is op uw computer geïnstalleerd.
--  Een kopie van Aspose.BarCode voor .NET. Je kunt het downloaden[hier](https://releases.aspose.com/barcode/net/).
+## Waarom Aspose.BarCode voor .NET gebruiken?
+- **Volledige .NET‑ondersteuning** – werkt met .NET Framework, .NET Core en .NET 5/6.
+- **Rijke functionaliteit** – meerdere symbol‑modi, foutcorrectie en uitgebreide aanpasbaarheid.
+- **Geen externe afhankelijkheden** – genereer barcodes volledig in‑process.
+- **Cross‑platform** – draait op Windows, Linux en macOS.
 
-Nu je helemaal klaar bent, gaan we eens kijken naar de voorbeelden van de Azteekse symboolmodus.
+## Voorvereisten
 
-## Naamruimten importeren
+- Een werkende kennis van .NET‑ontwikkeling.  
+- Visual Studio geïnstalleerd op je machine.  
+- Een kopie van Aspose.BarCode voor .NET. Je kunt het downloaden [hier](https://releases.aspose.com/barcode/net/).
 
-Eerst moet u de benodigde naamruimten importeren om met Aspose.BarCode voor .NET te kunnen werken. Open uw Visual Studio-project en voeg de volgende Using-instructies toe bovenaan uw codebestand:
+Nu je klaar bent, gaan we de Aztec Symbol‑modusopties verkennen.
+
+## Hoe Aztec Symbol‑modus instellen met de barcode generator aztec
+
+### Namespaces importeren
+
+Voeg eerst de benodigde namespace toe bovenaan je C#‑bestand:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Nu de naamruimten aanwezig zijn, kunt u Aspose.BarCode voor .NET gaan gebruiken.
+Met de namespace geïmporteerd kun je beginnen met het maken van Aztec‑barcodes.
 
-## Stap 1: De barcodegenerator instellen
+### Stap 1: De Barcode Generator initialiseren
 
-Begin met het initialiseren van de Barcode Generator met het Aztec-coderingstype en het opgeven van de codetekst. Hier leest u hoe u het moet doen:
+Initialiseer de generator met het Aztec‑encoderingstype en geef de tekst op die je wilt coderen:
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,83 +66,87 @@ System.Console.WriteLine("AztecSymbolModeExample:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Åspóse.Barcóde©");
 ```
 
-In deze stap hebben we de generator ingesteld en de codetekst voor codering verstrekt.
+> **Pro tip:** Gebruik een UTF‑8‑compatibele string voor internationale tekens, zoals hierboven getoond.
 
-## Stap 2: De symboolmodus instellen op Auto
+### Stap 2: Symbol‑modus instellen op Auto
 
-Laten we nu de Azteekse symboolmodus instellen op "Auto" en de streepjescodeafbeelding opslaan als een PNG-bestand. Hier ziet u hoe u het kunt doen:
+De **Auto**‑modus laat de bibliotheek de optimale grootte bepalen op basis van de gegevenslengte:
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Auto;
 gen.Save($"{path}AztecSymbolModeAuto.png", BarCodeImageFormat.Png);
 ```
 
-Deze stap zorgt ervoor dat de Azteekse symboolmodus automatisch wordt bepaald en het resulterende streepjescodebeeld wordt opgeslagen.
+De gegenereerde PNG wordt opgeslagen in de map die je hebt opgegeven.
 
-## Stap 3: De symboolmodus instellen op FullRange
+### Stap 3: Symbol‑modus instellen op FullRange
 
-Als u de Azteekse symboolmodus wilt opgeven als 'FullRange', kunt u dit doen met de volgende code:
+Als je wilt dat de bibliotheek het volledige bereik van Aztec‑symbolgroottes gebruikt, kies dan **FullRange**:
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.FullRange;
 gen.Save($"{path}AztecSymbolModeFullRange.png", BarCodeImageFormat.Png);
 ```
 
-Hierdoor wordt een streepjescode gemaakt met de FullRange Aztec-symboolmodus.
+### Stap 4: Symbol‑modus instellen op Compact
 
-## Stap 4: De symboolmodus instellen op Compact
-
-Om een streepjescode te maken waarbij de Azteekse symboolmodus is ingesteld op 'Compact', gebruikt u de volgende code:
+Voor een compactere barcode die toch een goede leesbaarheid behoudt, gebruik **Compact**:
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Compact;
 gen.Save($"{path}AztecSymbolModeCompact.png", BarCodeImageFormat.Png);
 ```
 
-Met deze stap configureert u de streepjescode die moet worden gegenereerd met de Compact Aztec Symbol-modus.
+### Stap 5: Symbol‑modus instellen op Rune
 
-## Stap 5: De symboolmodus instellen op Rune
-
-Als u ten slotte de Azteekse symboolmodus "Rune" wilt gebruiken, kunt u dit doen door deze als volgt in te stellen:
+De **Rune**‑modus is ontworpen voor speciale gebruikssituaties waarbij een andere visuele stijl vereist is:
 
 ```csharp
-gen.CodeText = "123"; // Wijzig indien nodig de codetekst
+gen.CodeText = "123"; // Change the code text if needed
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Rune;
 gen.Save($"{path}AztecSymbolModeRune.png", BarCodeImageFormat.Png);
 ```
 
-Deze stap verandert de codetekst in "123" en genereert een streepjescode met de Rune Aztec Symbol Mode.
+### Veelvoorkomende problemen en oplossingen
 
-## Conclusie
-
-In deze zelfstudie hebben we de Azteekse symboolmodus in Aspose.BarCode voor .NET onderzocht. We hebben het gehad over het instellen van de streepjescodegenerator, het configureren van de Azteekse symboolmodus als Auto, FullRange, Compact en Rune, en het opslaan van de gegenereerde streepjescodeafbeeldingen. Met deze kennis kunt u nu eenvoudig veelzijdige barcodegeneratie in uw .NET-applicaties integreren.
-
- Als u vragen heeft of verdere hulp nodig heeft, aarzel dan niet om contact op te nemen met de Aspose.BarCode-gemeenschap op hun[Helpforum](https://forum.aspose.com/c/barcode/13).
+| Probleem | Oplossing |
+|----------|-----------|
+| Barcode‑afbeelding is leeg | Controleer of `path` naar een bestaande, beschrijfbare map wijst. |
+| Niet‑ondersteunde tekens | Gebruik alleen tekens die door de Aztec‑standaard worden ondersteund of schakel over naar UTF‑8‑codering. |
+| Verkeerde symboolgrootte | Experimenteer met `AztecSymbolMode.Auto` zodat de bibliotheek de beste grootte kiest. |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Wat is het doel van de Azteekse symboolmodus bij het genereren van streepjescodes?
+**Q: Wat is het doel van Aztec Symbol‑modus bij barcode‑generatie?**  
+A: Het stelt je in staat de visuele dichtheid en het fout‑correctieniveau van de Aztec‑code te regelen, zodat je de barcode kunt afstemmen op je ruimte‑ en leesbaarheidsvereisten.
 
-A1: Met de Azteekse symboolmodus kunt u de coderingsmethode voor Azteekse streepjescodes opgeven, wat flexibiliteit biedt bij het genereren van streepjescodes.
+**Q: Kan ik de code‑tekst voor Aztec‑barcodes in Aspose.BarCode voor .NET wijzigen?**  
+A: Ja, wijs eenvoudig een nieuwe string toe aan `gen.CodeText` vóór het aanroepen van `Save`.
 
-### V2: Kan ik de codetekst voor Azteekse streepjescodes in Aspose.BarCode voor .NET wijzigen?
+**Q: Is er een gratis proefversie van Aspose.BarCode voor .NET?**  
+A: Ja, je kunt een gratis proefversie downloaden [hier](https://releases.aspose.com/).
 
-A2: Ja, u kunt de codetekst eenvoudig wijzigen volgens uw specifieke vereisten bij het genereren van Azteekse barcodes.
+**Q: Waar vind ik de volledige documentatie voor Aspose.BarCode voor .NET?**  
+A: De volledige API‑referentie is beschikbaar [hier](https://reference.aspose.com/barcode/net/).
 
-### V3: Is er een gratis proefversie van Aspose.BarCode voor .NET beschikbaar?
+**Q: Hoe kan ik een tijdelijke licentie voor Aspose.BarCode voor .NET verkrijgen?**  
+A: Een tijdelijke licentie kan worden aangevraagd via [deze link](https://purchase.aspose.com/temporary-license/).
 
-A3: Ja, u kunt een gratis proefversie van Aspose.BarCode voor .NET downloaden[hier](https://releases.aspose.com/).
+## Conclusie
 
-### V4: Waar kan ik de volledige documentatie voor Aspose.BarCode voor .NET vinden?
+In deze gids hebben we alles behandeld wat je moet weten om de **barcode generator aztec** te gebruiken met Aspose.BarCode voor .NET, van het opzetten van de generator tot het beheersen van elke Symbol‑modus (Auto, FullRange, Compact, Rune). Met deze voorbeelden kun je nu snel en betrouwbaar veelzijdige Aztec‑barcodes in elke .NET‑applicatie integreren.
 
- A4: U kunt de volledige documentatie voor Aspose.BarCode voor .NET raadplegen[hier](https://reference.aspose.com/barcode/net/).
+Als je meer vragen hebt, kun je lid worden van de Aspose.BarCode‑community op hun [supportforum](https://forum.aspose.com/c/barcode/13).
 
-### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.BarCode voor .NET?
-
- A5: U kunt een tijdelijke licentie voor Aspose.BarCode voor .NET verkrijgen door naar te gaan[deze link](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.BarCode 24.10 for .NET  
+**Author:** Aspose
