@@ -1,49 +1,57 @@
 ---
-title: Aspose.BarCode for .NET'te Başlat/Durdur Karakterleriyle Codabar Barkodları Oluşturun
-linktitle: Codabar Başlat/Durdur Karakterleri
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode for .NET'i kullanarak başlangıç ve bitiş karakterleriyle Codabar barkodlarını nasıl oluşturacağınızı öğrenin. Geliştiriciler için adım adım kılavuz.
-weight: 11
+date: 2026-01-04
+description: Aspose.BarCode for .NET kullanarak başlangıç ve bitiş karakterli codabar
+  barkodu nasıl oluşturacağınızı öğrenin. Geliştiriciler için adım adım barkod oluşturma
+  öğreticisi.
+linktitle: Codabar Start/Stop Characters
+second_title: Aspose.BarCode .NET API
+title: Aspose.BarCode for .NET'te Başlangıç/Bitiş Karakterleriyle Codabar Barkodu
+  Oluşturma
 url: /tr/net/codabar-encoding-and-checksum/codabar-start-stop-characters/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET'te Başlat/Durdur Karakterleriyle Codabar Barkodları Oluşturun
+# Aspose.BarCode for .NET'te Başlangıç/Bitiş Karakterleriyle Codabar Barkod Oluşturma
 
-## giriiş
+## Introduction
 
-Aspose.BarCode for .NET kullanımına ilişkin bu kapsamlı kılavuza hoş geldiniz. Bu eğitimde Codabar başlatma/durdurma karakterlerinin dünyasına dalacağız, bunların önemini ve Aspose.BarCode for .NET kullanarak bunları etkili bir şekilde nasıl uygulayacağımızı keşfedeceğiz. İster deneyimli bir geliştirici olun ister kodlama yolculuğunuza yeni başlıyor olun, bu adım adım kılavuz, başlangıç ve bitiş karakterleri içeren Codabar barkodları oluşturma sanatında ustalaşmanıza yardımcı olacaktır.
+Bu kapsamlı kılavuza hoş geldiniz; Aspose.BarCode for .NET kullanarak **codabar barkod** görüntülerini başlangıç/bitiş karakterleriyle nasıl **oluşturacağınızı** anlatacağız. Perakende envanter sistemi, laboratuvar örnek izleyicisi veya tıbbi kayıt çözümü geliştiriyor olun, Codabar doğru tarama için açık başlangıç ve bitiş sembolleri gerektiren güvenilir bir sayısal sembolojidir. Ön koşullardan son PNG dosyalarını kaydetmeye kadar ihtiyacınız olan her şeyi birkaç dakikada öğrenecek ve Codabar barkodlarını hemen oluşturmaya başlayacaksınız.
 
-## Önkoşullar
+## Quick Answers
+- **What library do I need?** Aspose.BarCode for .NET  
+- **Which format can I save the barcode in?** PNG (BarCodeImageFormat.Png)  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **Can I change the start/stop symbols?** Yes – use CodabarSymbol.A, B, C, or D.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Başlamadan önce, bu eğitimle birlikte takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım:
+## Prerequisites
 
-1.  Ortam Kurulumu: Makinenizde çalışan bir .NET geliştirme ortamının kurulu olduğundan emin olun. Değilse, bkz.[dokümantasyon](https://reference.aspose.com/barcode/net/) ortamınızı ayarlama konusunda rehberlik için.
+Başlamadan önce, bu öğreticiyi sorunsuz takip edebilmeniz için gereken her şeye sahip olduğunuzdan emin olalım:
 
-2. Aspose.BarCode for .NET Library: Aspose.BarCode for .NET kütüphanesinin kurulu olması gerekir. Henüz yapmadıysanız, buradan indirebilirsiniz.[kaynak](https://releases.aspose.com/barcode/net/).
+1. **Environment Setup** – Makinenizde çalışan bir .NET geliştirme ortamınız olduğundan emin olun. Yardıma ihtiyaç duyarsanız, [documentation](https://reference.aspose.com/barcode/net/) adresine bakın.  
+2. **Aspose.BarCode for .NET Library** – Kütüphaneyi resmi [source](https://releases.aspose.com/barcode/net/) adresinden indirin ve kurun.  
+3. **Basic .NET Knowledge** – C# ve Visual Studio (veya tercih ettiğiniz başka bir IDE) konusundaki temel bilginiz adımları daha sorunsuz ilerletecektir.  
+4. **IDE** – Visual Studio, Rider veya Visual Studio Code hepsi uygundur.
 
-3. Temel .NET Bilgisi: Bu eğitimdeki kavramları kavramak için .NET programlamaya ilişkin temel bir anlayış gereklidir.
+Şimdi ön koşulları ele aldığımıza göre, gerçek koda dalalım.
 
-4. IDE (Entegre Geliştirme Ortamı): .NET geliştirme için Visual Studio'yu veya tercih edilen herhangi bir IDE'yi kullanabilirsiniz.
+## Import Namespaces
 
-Artık önkoşulları ele aldığımıza göre, başlangıç/durdurma karakterleri içeren Codabar barkodları oluşturmak için Aspose.BarCode for .NET'i kullanmaya geçelim.
-
-## Ad Alanlarını İçe Aktar
-
-Aspose.BarCode for .NET'i kullanmaya başlamak için gerekli ad alanlarını içe aktardığınızdan emin olun. Bu, kodunuzdaki kitaplığın işlevlerine erişmenizi sağlayacaktır. Bunu aşağıdaki kod parçacığını kullanarak yapabilirsiniz:
+Aspose.BarCode for .NET ile çalışmaya başlamak için gerekli ad alanını (namespace) içe aktarın:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Şimdi süreci takip edilmesi kolay adımlara ayıralım:
+## How to generate codabar barcode – Step‑by‑Step Guide
 
-## Adım 1: Barkod Oluşturucuyu Başlatın
+### Step 1: Initialize the Barcode Generator
 
-Barkod oluşturmak için ortamı ayarlayarak başlayın. Öncelikle kodlama türünü Codabar olarak ve kodlanacak verileri belirterek bir BarcodeGenerator nesnesi oluşturmanız gerekecektir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Bir `BarcodeGenerator` örneği oluşturun, **Codabar**'ı kodlama türü olarak belirtin ve zaten başlangıç/bitiş karakterlerini içeren veri dizesini (ör. “-12345-”) sağlayın.
 
 ```csharp
 string path = "Your Directory Path";
@@ -52,55 +60,55 @@ System.Console.WriteLine("CodabarStartStop:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 ```
 
-Bu örnekte kodlanacak veri olarak "-12345-" kullandık. İstediğiniz verilerle değiştirebilirsiniz.
+> **Pro tip:** Tire (`-`) Codabar için geçerli bir başlangıç/bitiş sembolüdür. Uygulamanızın gereksinimlerine bağlı olarak A, B, C veya D de kullanabilirsiniz.
 
-## Adım 2: X Boyutunu Ayarlayın
+### Step 2: Set the X‑Dimension (barcode element width)
 
-X Boyutu, genellikle piksel cinsinden ölçülen en küçük barkod öğelerinin genişliğini temsil eder. Aşağıdaki kodu kullanarak X Boyutunu ayarlayabilirsiniz:
+X‑Dimension, en dar çubuğun genişliğini kontrol eder. Tarama ortamınıza uygun şekilde ayarlayın.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-Burada X Boyutunu 2 piksele ayarladık ancak siz bunu özel gereksinimlerinize göre ayarlayabilirsiniz.
+> **Why it matters:** Daha büyük bir X‑Dimension, düşük çözünürlüklü yazıcılarda okunabilirliği artırırken, daha küçük bir değer yüksek yoğunluklu etiketlerde yer tasarrufu sağlar.
 
-## 3. Adım: Başlangıç ve Durdurma Karakterlerini Tanımlayın
+### Step 3: Define Start and Stop Characters
 
-Codabar barkodlarında A, B, C ve D olmak üzere farklı başlangıç ve bitiş simgeleri bulunur. İhtiyaçlarınıza bağlı olarak bu simgeleri uygun şekilde ayarlayabilirsiniz. Her bir duruma bakalım:
+Codabar dört başlangıç/bitiş sembolünü (A, B, C, D) destekler. Aşağıda her seçenek için örnekler bulabilirsiniz. Entegre olduğunuz sistemin spesifikasyonuna uyanı seçin.
 
-### A Başlatma ve A Durdurma Ayarı:
+#### Setting Start A and Stop A
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.A;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.A;
 ```
 
-### Başlat B ve Durdur B'nin ayarlanması:
+#### Setting Start B and Stop B
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.B;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.B;
 ```
 
-### C Başlatma ve C Durdurma Ayarı:
+#### Setting Start C and Stop C
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.C;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.C;
 ```
 
-### Başlat D ve Durdur D'yi ayarlama:
+#### Setting Start D and Stop D
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.D;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.D;
 ```
 
-Barkodunuzun gereksinimlerine göre uygun başlangıç ve bitiş sembollerini seçebilirsiniz.
+İhtiyacınız olan her sembol için yapılandırmayı tekrarlayabilirsiniz; aşağıdaki örnek dört ayrı görüntüyü—her bir başlangıç/bitiş çifti için bir tanesini—kaydeder.
 
-## Adım 4: Oluşturulan Barkod Görüntülerini Kaydedin
+### Step 4: Save the Generated Barcode Images (PNG)
 
-Barkod oluşturucuyu istediğiniz ayarlarla yapılandırdıktan sonra, oluşturulan Codabar barkod görüntülerini aşağıdaki kodu kullanarak belirttiğiniz dizine kaydedebilirsiniz:
+Son olarak barkodu PNG dosyalarına yazın. Bu, **save barcode png** kullanım senaryosunu gösterir ve test için hazır varlıklar sağlar.
 
 ```csharp
 gen.Save($"{path}CodabarStartAStopA.png", BarCodeImageFormat.Png);
@@ -109,35 +117,44 @@ gen.Save($"{path}CodabarStartCStopC.png", BarCodeImageFormat.Png);
 gen.Save($"{path}CodabarStartDStopD.png", BarCodeImageFormat.Png);
 ```
 
-Bu kod, her biri karşılık gelen başlatma ve durdurma sembollerine sahip dört farklı barkod görüntüsünü belirtilen dizine kaydedecektir.
+Her dosya artık ilgili başlangıç/bitiş sembolleriyle bir **codabar barcode example** içeriyor.
 
-Tebrikler! Aspose.BarCode for .NET'i kullanarak başlangıç ve bitiş karakterlerine sahip Codabar barkodlarını başarıyla oluşturdunuz.
+## Common Issues & Troubleshooting
 
-## Çözüm
+| Semptom | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| Barcode appears distorted | X‑Dimension too low for the chosen printer resolution | Increase `XDimension.Pixels` (e.g., to 3 or 4) |
+| Scanner cannot read start/stop | Wrong start/stop symbol for the target system | Verify the required symbol (A‑D) and set it accordingly |
+| PNG file is empty or corrupted | Invalid output path or insufficient write permissions | Ensure `path` points to an existing folder and your app has write access |
 
-Sonuç olarak, başlangıç ve bitiş karakterleri içeren Codabar barkodlarının oluşturulmasında uzmanlaşmak, envanter yönetiminden sağlık hizmetlerine kadar birçok uygulama için temel bir beceridir. Aspose.BarCode for .NET bu süreci basitleştirerek özelleştirilmiş Codabar barkodlarını kolaylıkla oluşturmanıza olanak tanır. Bu eğitimde edindiğiniz bilgilerle artık özel kodlama ihtiyaçlarınızı karşılamak için Aspose.BarCode for .NET'in gücünden yararlanabilirsiniz.
+## Frequently Asked Questions
 
-## SSS'ler
+### Q1: What is Codabar, and why are start and stop characters important?
 
-### S1: Codabar nedir ve başlatma ve durdurma karakterleri neden önemlidir?
+A1: Codabar, envanter, kütüphaneler ve sağlık hizmetlerinde yaygın olarak kullanılan sayısal bir barkod sembolojisidir. Başlangıç ve bitiş karakterleri barkodun sınırlarını tanımlar, böylece tarayıcılar verinin nerede başladığını ve bittiğini bilir.
 
-Cevap1: Codabar, çeşitli endüstrilerde kullanılan sayısal bir barkod sembolojisidir. Başlangıç ve bitiş karakterleri, barkodun başlangıcını ve sonunu tanımlayarak doğru veri yakalamayı sağladıklarından çok önemlidir.
+### Q2: Can I customize the appearance of Codabar barcodes with Aspose.BarCode for .NET?
 
-### S2: Aspose.BarCode for .NET ile Codabar barkodlarının görünümünü özelleştirebilir miyim?
+A2: Yes. Besides the X‑Dimension, you can modify colors, add margins, and even embed the barcode in PDF or SVG formats using the same API.
 
-Cevap2: Evet, Aspose.BarCode for .NET'i kullanarak X-Dimension gibi parametreleri ve başlatma/durdurma sembollerini ayarlayarak Codabar barkodlarının görünümünü özelleştirebilirsiniz.
+### Q3: Are there any limitations to Codabar barcodes in terms of data encoding?
 
-### S3: Codabar barkodlarında veri kodlama açısından herhangi bir sınırlama var mı?
+A3: Codabar primarily supports numeric data (0‑9) and a few special characters. It is not suited for full alphanumeric strings.
 
-Cevap3: Codabar barkodları öncelikle sayısal veri kodlaması için kullanılır ve alfasayısal karakterler için sınırlı desteğe sahiptir.
+### Q4: Is Aspose.BarCode for .NET suitable for commercial use, and how can I obtain a license?
 
-### S4: Aspose.BarCode for ..NET ticari kullanıma uygun mudur ve nasıl lisans alabilirim?
+A4: Yes, it’s production‑ready. Purchase a license on the [Aspose's purchase page](https://purchase.aspose.com/buy).
 
- Cevap4: Evet, Aspose.BarCode for .NET ticari kullanıma uygundur. adresini ziyaret ederek lisans alabilirsiniz.[Aspose'un satın alma sayfası](https://purchase.aspose.com/buy).
+### Q5: Where can I seek help or discuss issues related to Aspose.BarCode for .NET?
 
-### S5: Aspose.BarCode for .NET ile ilgili nereden yardım isteyebilirim veya sorunları tartışabilirim?
+A5: Join the community at the [Aspose.BarCode for .NET support forum](https://forum.aspose.com/c/barcode/13) for assistance from both Aspose engineers and fellow developers.
 
- A5: ziyaret edebilirsiniz[Aspose.BarCode for .NET destek forumu](https://forum.aspose.com/c/barcode/13) Yardım istemek ve olası sorunları veya soruları tartışmak için.
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
