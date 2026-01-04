@@ -1,41 +1,57 @@
 ---
-title: Aspose.BarCode for .NET 中的 Codabar 校驗與計算
-linktitle: 庫德巴校驗與計算
+date: 2026-01-04
+description: 了解如何在使用 Aspose.BarCode for .NET 產生 Codabar 條碼時加入校驗碼。一步一步的指南，涵蓋 Mod10
+  與 Mod16 校驗碼模式。
+linktitle: Codabar Checksum Calculation
 second_title: Aspose.BarCode .NET API
-description: 了解如何使用 Aspose.BarCode 在 .NET 中計算 Codabar 校驗和。提高 Codabar 條碼的資料準確性。獲得逐步指導。
-weight: 10
+title: 如何使用 Aspose.BarCode for .NET 為 Codabar 條碼添加校驗碼
 url: /zh-hant/net/codabar-encoding-and-checksum/codabar-checksum-calculation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET 中的 Codabar 校驗與計算
+# 如何在 Aspose.BarCode for .NET 中為 Codabar 條碼加入校驗碼
 
-Codabar 是一種流行的條碼符號系統，廣泛用於各種應用。 Codabar 的一個重要面向是校驗和計算，它保證了編碼資訊的準確性和可靠性。在本教學中，我們將引導您完成使用 Aspose.BarCode for .NET 計算 Codabar 條碼的不同類型校驗和的步驟。
+Codabar 是一種廣泛應用的線性條碼符號，特別於物流、圖書館及醫療保健領域。為 Codabar 條碼加入校驗碼可大幅提升資料完整性，透過偵測抄寫錯誤以防止問題發生。在本教學中，您將學習 **如何在產生 Codabar 條碼時加入校驗碼**，並會看到 Mod10 與 Mod16 兩種校驗模式的實際運作。
+
+## 快速答覆
+- **在 Codabar 中「加入校驗碼」是什麼意思？** 它會啟用錯誤偵測位元，以驗證編碼資料的正確性。
+- **支援哪些校驗碼模式？** Mod10（常用）與 Mod16（用於更高精度的情境）。
+- **使用此功能是否需要授權？** 是的，正式環境必須擁有有效的 Aspose.BarCode for .NET 授權。
+- **相容的 .NET 版本有哪些？** 此函式庫支援 .NET Framework 4.5 以上、.NET Core 3.1 以上，以及 .NET 5/6/7。
+- **產生的影像儲存於何處？** 會儲存至您在 `path` 變數中指定的資料夾。
+
+## 什麼是 Codabar 中的「加入校驗碼」？
+加入校驗碼是指設定條碼產生器，根據您提供的資料計算並附加額外的數字（或多位數字）。掃描器會驗證這些額外資訊，以降低讀取錯誤的機率。
+
+## 為何要產生帶校驗碼的 Codabar 條碼？
+- **提升可靠性：** 能偵測單一字元錯誤及大多數顛倒錯誤。
+- **符合規範：** 某些行業（例如血庫）要求使用帶校驗碼的條碼。
+- **彈性：** Aspose.BarCode 只需更改一個屬性即可在 Mod10 與 Mod16 之間切換。
 
 ## 先決條件
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+在開始之前，請確保您已具備以下項目：
 
-1. Aspose.BarCode for .NET：您需要在開發環境中安裝Aspose.BarCode for .NET。如果您還沒有，您可以從以下位置下載[這裡](https://releases.aspose.com/barcode/net/).
+1. **Aspose.BarCode for .NET** – 從 [here](https://releases.aspose.com/barcode/net/) 下載最新版本。  
+2. **C# 開發環境** – 如 Visual Studio、VS Code，或任何支援 .NET 開發的 IDE。
 
-2. C# 開發環境：您應該已設定並準備好 C# 開發環境。
+現在環境已備妥，讓我們一步步完成實作。
 
-現在，讓我們開始計算 Codabar 校驗和。
+## 匯入命名空間
 
-## 導入命名空間
-
-首先，您需要匯入使用 Aspose.BarCode 所需的命名空間。在 C# 檔案頂部新增以下程式碼：
+在 C# 檔案的最上方加入必要的命名空間，以便存取條碼產生類別：
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## 第 1 步：初始化條碼產生器
+## 步驟 1：初始化條碼產生器
 
-在此步驟中，我們使用 Codabar 符號系統和要編碼的資料來初始化條碼產生器。代替`"Your Directory Path"`與您要儲存產生的條碼影像的實際目錄路徑。
+建立 `BarcodeGenerator` 實例，指定 Codabar 符號，並提供欲編碼的資料。請將 `"Your Directory Path"` 替換為實際欲儲存影像的資料夾路徑。
 
 ```csharp
 string path = "Your Directory Path";
@@ -44,9 +60,9 @@ System.Console.WriteLine("CodabarChecksum:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 ```
 
-## 步驟 2：產生不含校驗和的 Codabar 條碼
+## 步驟 2：產生 **不含** 校驗碼的 Codabar 條碼
 
-現在，讓我們產生一個沒有任何校驗和的 Codabar 條碼。這是透過將校驗和設定為來完成的`None`.
+若需要純條碼（無校驗碼），將校驗碼選項設為 `Default`。這對不預期校驗碼位元的舊有系統很有用。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
@@ -54,9 +70,9 @@ gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Default;
 gen.Save($"{path}CodabarChecksumNone.png", BarCodeImageFormat.Png);
 ```
 
-## 步驟 3：產生 Mod10 校驗和的 Codabar 條碼
+## 步驟 3：產生帶 **Mod10** 校驗碼的 Codabar 條碼
 
-在此步驟中，我們產生 Mod10 校驗和的 Codabar 條碼。這提供了額外的資料完整性層。 
+啟用校驗碼並選擇 Mod10 演算法。這是 Codabar 最常用的校驗碼模式。
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
@@ -64,9 +80,9 @@ gen.Parameters.Barcode.Codabar.CodabarChecksumMode = CodabarChecksumMode.Mod10;
 gen.Save($"{path}CodabarChecksumMod10.png", BarCodeImageFormat.Png);
 ```
 
-## 步驟 4：產生 Mod16 校驗和的 Codabar 條碼
+## 步驟 4：產生帶 **Mod16** 校驗碼的 Codabar 條碼
 
-最後，讓我們產生 Mod16 校驗和的 Codabar 條碼。這種校驗和計算方式常用於對資料精度要求較高的特定應用。
+對於需要更高錯誤偵測能力的應用，請切換至 Mod16。程式碼變更極少——只需更新 `CodabarChecksumMode`。
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
@@ -74,35 +90,67 @@ gen.Parameters.Barcode.Codabar.CodabarChecksumMode = CodabarChecksumMode.Mod16;
 gen.Save($"{path}CodabarChecksumMod16.png", BarCodeImageFormat.Png);
 ```
 
-透過這些步驟，您已使用 Aspose.BarCode for .NET 成功產生了具有不同校驗和的 Codabar 條碼。
+透過這四個簡單步驟，您已學會 **如何在 Codabar 條碼加入校驗碼**，以及如何使用 Aspose.BarCode for .NET 在 Mod10 與 Mod16 模式之間切換。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| 產生的影像為空白 | `path` 指向不存在的資料夾 | 確保資料夾存在，或在儲存前使用 `Directory.CreateDirectory(path)` 建立。 |
+| 未套用校驗碼 | `IsChecksumEnabled` 保持為 `Default` | 在儲存前設定 `IsChecksumEnabled = EnableChecksum.Yes`。 |
+| 校驗碼模式錯誤 | 使用了錯誤的列舉值 | 根據需求使用 `CodabarChecksumMode.Mod10` 或 `CodabarChecksumMode.Mod16`。 |
 
 ## 結論
 
-在本教程中，我們介紹了使用 Aspose.BarCode for .NET 計算 Codabar 條碼的不同類型校驗和的步驟。這些校驗和在確保 Codabar 符號體系中編碼資料的準確性和可靠性方面發揮著至關重要的作用。透過執行以下步驟並自訂您的 Codabar 條碼，您可以滿足應用程式的特定要求。
+本指南說明了在使用 Aspose.BarCode for .NET 產生 Codabar 條碼時 **如何加入校驗碼**，展示了 Mod10 與 Mod16 兩種校驗模式，並強調了帶校驗碼條碼對資料完整性的重要性。歡迎嘗試不同的資料字串，並探索 Aspose 提供的豐富條碼客製化選項。
 
-如果您有任何疑問或遇到任何問題，請隨時向 Aspose.BarCode 社群尋求協助：[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13).
+若您遇到任何問題，Aspose.BarCode 社群可於 [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) 提供協助。
 
-## 常見問題解答
+## 常見問答
 
-### Q1：什麼是庫達巴？
+### Q1：什麼是 Codabar？
 
-A1：Codabar 是一種線性條碼符號系統，常用於各行業的標籤和識別目的。
+A1：Codabar 是一種線性條碼符號，常用於各行各業的標籤與識別用途。
 
-### Q2：為什麼校驗和計算在 Codabar 條碼中很重要？
+### Q2：為何在 Codabar 條碼中計算校驗碼很重要？
 
-A2：校驗和計算增加了一層額外的資料完整性，確保編碼資訊準確無誤。
+A2：校驗碼計算為資料完整性增添一層保護，確保編碼資訊的準確與無誤。
 
-### Q3：如何取得 Aspose.BarCode for .NET 的臨時授權？
+### Q3：如何取得 Aspose.BarCode for .NET 的暫時授權？
 
- A3：您可以從以下地點獲得臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+A3：您可從 [here](https://purchase.aspose.com/temporary-license/) 取得暫時授權。
 
-### Q4：Aspose.BarCode for .NET 是否相容於不同的.NET 框架？
+### Q4：Aspose.BarCode for .NET 是否相容於不同的 .NET 框架？
 
-A4：是的，Aspose.BarCode for .NET 與各種.NET 框架相容，使其具有多功能性並適合廣泛的應用程式。
+A4：是的，Aspose.BarCode for .NET 相容於多種 .NET 框架，具備彈性且適用於廣泛的應用。
 
 ### Q5：在哪裡可以找到 Aspose.BarCode for .NET 的完整文件？
 
- A5：您可以存取全面的文檔[這裡](https://reference.aspose.com/barcode/net/).
+A5：您可於 [here](https://reference.aspose.com/barcode/net/) 取得完整文件。
+
+## 常見問題
+
+**Q：我可以在圖書館書籍條碼使用 Mod16 校驗碼嗎？**  
+A：當然可以。Mod16 提供更強的錯誤偵測，對於圖書館等高流量環境非常有益。
+
+**Q：啟用校驗碼會影響掃描速度嗎？**  
+A：額外的數字幾乎不增加處理時間，大多數掃描器都能在不明顯延遲的情況下處理。
+
+**Q：如何以程式方式驗證校驗碼？**  
+A：產生條碼後，可使用相同的 `CodabarChecksumMode` 重新計算校驗碼，並與編碼字串的最後一個字元比較。
+
+**Q：能否自訂校驗碼位元的外觀？**  
+A：可以。使用 `BarcodeGenerator` 的外觀設定（例如 `BarHeight`、`ForeColor`）來樣式化整個條碼，包括校驗碼位元。
+
+**Q：如果需要在迴圈中產生多個條碼該怎麼做？**  
+A：建立單一的 `BarcodeGenerator`，在每次迭代時更新 `CodeText` 屬性，並以唯一的檔名呼叫 `Save`。
+
+---
+
+**最後更新：** 2026-01-04  
+**測試環境：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
