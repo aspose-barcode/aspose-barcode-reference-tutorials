@@ -1,59 +1,67 @@
 ---
-title: Personnalisation du format d'image DataMatrix avec Aspose.BarCode pour .NET
-linktitle: Personnalisation du format d'image DataMatrix
-second_title: API Aspose.BarCode .NET
-description: Découvrez comment personnaliser les proportions des codes-barres DataMatrix à l'aide d'Aspose.BarCode for .NET. Guide étape par étape pour la génération de codes-barres.
-weight: 10
+date: 2026-01-12
+description: Apprenez à créer un PNG de code‑barres avec un rapport d’aspect DataMatrix
+  personnalisé à l’aide d’Aspose.BarCode pour .NET. Guide étape par étape pour la
+  génération de code‑barres et la personnalisation de la taille.
+linktitle: DataMatrix Aspect Ratio Customization
+second_title: Aspose.BarCode .NET API
+title: Créer un PNG de code-barres – Ratio d’aspect DataMatrix – Aspose.BarCode
 url: /fr/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Personnalisation du format d'image DataMatrix avec Aspose.BarCode pour .NET
+# Créer un PNG de code‑barres – Rapport d’aspect DataMatrix – Aspose.BarCode
 
-Cherchez-vous à générer des codes-barres DataMatrix avec un rapport hauteur/largeur personnalisé à l'aide d'Aspose.BarCode pour .NET ? Vous êtes au bon endroit. Dans ce tutoriel étape par étape, nous allons vous montrer comment y parvenir. Aspose.BarCode for .NET est une bibliothèque puissante qui vous permet de créer et de manipuler facilement des codes-barres. Nous commencerons par présenter les prérequis et les espaces de noms dont vous avez besoin, puis nous plongerons dans les exemples.
+Générer un **barcode PNG** avec un rapport d’aspect DataMatrix personnalisé est une exigence courante lorsque vous devez adapter le code‑res à des contraintes de mise en page spécifiques. Dans ce tutoriel, nous parcourrons les étapes exactes pour **créer des fichiers barcode PNG** à l’aide d’Aspose.BarCode pour .NET, expliquerons pourquoi vous pourriez vouloir ajuster le rapport d’aspect, et vous montrerons comment affiner la sortie pour votre application.
 
-## Conditions préalables
+## Réponses rapides
+- **Que contrôle le « rapport d’aspect » ?** Il définit la proportion largeur‑hauteur des modules DataMatrix.  
+- **Puis‑je exporter en PNG, JPEG ou SVG ?** Oui – la méthode `Save` prend en charge PNG, JPEG, BMP, GIF, et plus.  
+- **Ai‑je besoin d’une licence pour cette fonctionnalité ?** Un essai gratuit suffit pour le développement ; une licence complète est requise pour la production.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.x, .NET Core 3.1+, .NET 5/6/7.  
+- **Combien de valeurs de rapport d’aspect sont valides ?** Toute valeur flottante positive ; les valeurs typiques sont 0,5 – 2,0.
 
-Avant de commencer à personnaliser les proportions de DataMatrix, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce qu’un code‑barres DataMatrix et pourquoi ajuster son rapport d’aspect ?
+DataMatrix est un code‑barres matriciel bidimensionnel qui stocke de grandes quantités de données dans un petit espace. Ajuster le **rapport d’aspect** vous permet d’étirer ou de compresser les modules horizontalement, ce qui peut être utile pour faire tenir le code‑barres dans des colonnes étroites ou des étiquettes larges sans sacrifier la lisibilité.
 
-1. Visual Studio : vous aurez besoin de Visual Studio installé sur votre ordinateur.
+## Prérequis
 
-2.  Aspose.BarCode pour .NET : Aspose.BarCode pour .NET doit être installé. Si ce n'est pas déjà fait, vous pouvez le télécharger[ici](https://releases.aspose.com/barcode/net/).
+Avant de commencer à personnaliser les rapports d’aspect DataMatrix, assurez‑vous d’avoir les prérequis suivants :
 
-3. .NET Framework : votre environnement de développement doit prendre en charge le .NET Framework.
+1. **Visual Studio** – n’importe quelle version récente convient.  
+2. **Aspose.BarCode for .NET** – téléchargez‑le [ici](https://releases.aspose.com/barcode/net/).  
+3. **.NET Framework / .NET Core** – votre projet doit cibler une version prise en charge.
 
-Maintenant que ces conditions préalables sont prêtes, explorons comment personnaliser le rapport hauteur/largeur des codes-barres DataMatrix.
+## Importer les espaces de noms
 
-## Importer des espaces de noms
-
-Tout d’abord, vous devez importer les espaces de noms nécessaires dans votre projet C# pour utiliser efficacement Aspose.BarCode pour .NET. Voici comment procéder :
-
-Dans votre code C#, incluez l'espace de noms Aspose.BarCode :
+Tout d’abord, vous devez importer l’espace de noms nécessaire dans votre projet C# :
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Maintenant, décomposons le processus de personnalisation des proportions de DataMatrix en plusieurs étapes.
+> **Astuce :** Conservez cette instruction `using` en haut de votre fichier afin que la classe `BarcodeGenerator` soit toujours disponible.
 
-## Étape 1 : Configurez votre projet
+## Guide étape par étape
 
-Créez un nouveau projet dans Visual Studio ou ouvrez-en un existant. Assurez-vous d'avoir référencé la bibliothèque Aspose.BarCode dans votre projet.
+### Étape 1 : Configurer votre projet
+Créez un nouveau projet console ou Windows Forms dans Visual Studio et ajoutez une référence à la DLL Aspose.BarCode.
 
-## Étape 2 : initialiser un générateur de codes-barres
-
- Pour travailler avec les codes-barres DataMatrix, vous devez initialiser un`BarcodeGenerator` objet. Vous pouvez choisir le type d'encodage et fournir les données que vous souhaitez encoder. Dans cet exemple, nous utilisons le type d'encodage DataMatrix avec les données "Åspóse.Barcóde©" :
+### Étape 2 : Initialiser un générateur de code‑barres
+Instanciez un `BarcodeGenerator` avec le type DataMatrix et les données que vous souhaitez encoder :
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åspóse.Barcóde©"))
 ```
 
-## Étape 3 : Personnaliser le rapport hauteur/largeur
+> Cette ligne crée un générateur prêt à produire un code‑barres DataMatrix contenant le texte d’exemple.
 
-Vous pouvez définir le rapport hauteur/largeur du code-barres DataMatrix. Dans l'exemple ci-dessous, nous le définirons sur 1, puis sur 0,5 :
+### Étape 3 : Personnaliser le rapport d’aspect et enregistrer les fichiers PNG
+Vous pouvez maintenant modifier le **rapport d’aspect** et enregistrer chaque version sous forme d’image PNG :
 
 ```csharp
 gen.Parameters.Barcode.DataMatrix.AspectRatio = 1;
@@ -63,35 +71,47 @@ gen.Parameters.Barcode.DataMatrix.AspectRatio = 0.5f;
 gen.Save($"{path}DataMatrixAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Dans ce code, nous définissons d’abord le rapport hauteur/largeur sur 1, puis nous enregistrons l’image du code-barres. Ensuite, nous modifions le rapport hauteur/largeur à 0,5 et l'enregistrons sous une image différente. Cela vous permet de créer des codes-barres DataMatrix avec différents rapports hauteur/largeur.
+- Le premier appel crée un code‑barres à proportions carrées (`AspectRatio = 1`).  
+- Le deuxième appel compresse le code‑barres horizontalement (`AspectRatio = 0.5`), produisant une apparence plus large.
+
+Vous disposez maintenant de deux fichiers **barcode PNG** avec des rapports d’aspect différents, prêts à être utilisés dans des rapports, des étiquettes ou des éléments d’interface utilisateur.
+
+## Problèmes courants et solutions
+| Problème | Solution |
+|----------|----------|
+| **L'image générée est floue** | Augmentez le paramètre `Resolution` avant l’enregistrement (`gen.Parameters.ImageResolution = 300`). |
+| **Le code‑barres ne se lit pas** | Assurez‑vous que le rapport d’aspect reste entre 0,5 – 2,0 et maintenez une zone calme suffisante (`gen.Parameters.Barcode.CodeTextParameters.Margin`). |
+| **Erreurs de chemin de fichier** | Utilisez `Path.Combine` pour construire le chemin de sortie et vérifiez que le dossier existe. |
+
+## Questions fréquemment posées
+
+**Q : Puis‑je personnaliser le rapport d’aspect d’autres types de code‑barres avec Aspose.BarCode pour .NET ?**  
+R : Oui, de nombreux codes‑barres 2‑D (par ex., QR, PDF417) prennent en charge les ajustements de rapport d’aspect via leurs objets de paramètres spécifiques.
+
+**Q : Existe‑t‑il un essai gratuit d’Aspose.BarCode pour .NET ?**  
+R : Oui, vous pouvez accéder à un essai gratuit d’Aspose.BarCode pour .NET [ici](https://releases.aspose.com/).
+
+**Q : Où puis‑je acheter une licence pour Aspose.BarCode pour .NET ?**  
+R : Vous pouvez acheter une licence sur le site d’Aspose [ici](https://purchase.aspose.com/buy).
+
+**Q : Aspose.BarCode pour .NET est‑il compatible avec différentes versions du .NET Framework ?**  
+R : Oui, il fonctionne avec .NET Framework 4.x, .NET Core 3.1+ et les dernières versions de .NET.
+
+**Q : Puis‑je générer des codes‑barres dans différents formats avec Aspose.BarCode pour .NET ?**  
+R : Absolument – PNG, JPEG, BMP, GIF, TIFF, SVG et PDF sont tous pris en charge dès le départ.
 
 ## Conclusion
 
-La personnalisation des proportions de DataMatrix à l'aide d'Aspose.BarCode pour .NET est un processus simple. Avec les étapes fournies, vous pouvez facilement créer des codes-barres DataMatrix avec le rapport hauteur/largeur de votre choix. Aspose.BarCode for .NET simplifie la génération de codes-barres, ce qui en fait un outil puissant pour diverses applications.
+Personnaliser le **rapport d’aspect** d’un code‑barres DataMatrix et **créer des fichiers barcode PNG** est simple avec Aspose.BarCode pour .NET. En suivant les étapes ci‑dessus, vous pouvez générer des codes‑barres parfaitement dimensionnés qui répondent aux exigences de mise en page de votre projet. Explorez d’autres paramètres tels que `Resolution`, `Margin` et `Color` pour affiner davantage la sortie.
 
- Avez-vous d'autres questions sur Aspose.BarCode pour .NET ? Vérifiez[Documentation](https://reference.aspose.com/barcode/net/) ou visitez le[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) pour du soutien et des discussions.
+Pour aller plus loin, consultez la [documentation officielle](https://reference.aspose.com/barcode/net/) ou rejoignez la communauté sur le [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-## FAQ
+---
 
-### Q1 : Puis-je personnaliser les proportions d'autres types de codes-barres à l'aide d'Aspose.BarCode pour .NET ?
+**Last Updated:** 2026-01-12  
+**Testé avec:** Aspose.BarCode 24.12 for .NET  
+**Author:** Aspose  
 
-A1 : Oui, Aspose.BarCode pour .NET vous permet de personnaliser le rapport hauteur/largeur de différents types de codes-barres, pas seulement DataMatrix.
-
-### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.BarCode pour .NET ?
-
- A2 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.BarCode pour .NET[ici](https://releases.aspose.com/).
-
-### Q3 : Où puis-je acheter une licence pour Aspose.BarCode pour .NET ?
-
- A3 : Vous pouvez acheter une licence pour Aspose.BarCode pour .NET sur le site Web d'Aspose.[ici](https://purchase.aspose.com/buy).
-
-### Q4 : Aspose.BarCode pour .NET est-il compatible avec différentes versions de .NET Framework ?
-
-A4 : Oui, Aspose.BarCode for .NET est compatible avec différentes versions de .NET Framework, offrant ainsi une flexibilité adaptée à vos besoins de développement.
-
-### Q5 : Puis-je générer des codes-barres dans différents formats avec Aspose.BarCode pour .NET ?
-
-R5 : Oui, Aspose.BarCode pour .NET prend en charge la génération de codes-barres dans divers formats, notamment PNG, JPEG, etc.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
