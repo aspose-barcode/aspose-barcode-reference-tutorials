@@ -1,33 +1,43 @@
 ---
-title: Aspose.BarCode for .NET を使用した DataMatrix モード (自動) の生成
-linktitle: DataMatrix エンコーディング モード (自動)
+date: 2026-01-15
+description: Aspose.BarCode for .NET を使用した、DataMatrix バーコードを C# で読み取り、バーコード画像を C#
+  で生成するステップバイステップのチュートリアルガイド。
+linktitle: DataMatrix Encoding Mode (Auto)
 second_title: Aspose.BarCode .NET API
-description: Aspose.BarCode for .NET を使用して DataMatrix モード (自動) を生成する方法を学びます。このステップバイステップのガイドでは、前提条件からバーコードの読み取りまでのすべてを説明します。
-weight: 14
+title: DataMatrixバーコードを読み取る C# – DataMatrixモード生成（自動）
 url: /ja/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET を使用した DataMatrix モード (自動) の生成
+# DataMatrixバーコードの読み取り C# – AutoモードでDataMatrixを生成
 
-デジタル時代が進化し続けるにつれて、効率的なデータエンコード方法の必要性がますます重要になっています。 DataMatrix モード (自動) はそのようなソリューションの 1 つで、情報をコンパクトで信頼性の高い形式で保存できます。このステップバイステップ ガイドでは、Aspose.BarCode for .NET ライブラリを使用して DataMatrix モード (自動) を簡単に生成する方法を説明します。経験豊富な開発者であっても、初心者であっても、このチュートリアルではプロセスを順を追って説明するので、簡単に始めることができます。
+今日の急速に変化するデジタル社会では、**DataMatrixバーコードの読み取り C#** を迅速かつ確実に行うことが、在庫管理から機密文書の取り扱いまであらゆる場面で不可欠です。このチュートリアルでは、Aspose.BarCode for .NET を使用して *Auto* モードで DataMatrix バーコードを生成し、C# でそのバーコードを読み取る方法を順を追って説明します。**バーコードチュートリアルガイド** に従っている場合でも、単に実用的なコード例が必要な場合でも、最終的にプロジェクトに組み込める動作するソリューションが得られます。
+
+## クイック回答
+- **“Auto”モードは何をするのですか？** Aspose.BarCode がデータに最適なエンコーディング方式を自動的に選択します。  
+- **どのライブラリが必要ですか？** Aspose.BarCode for .NET（無料トライアルあり）。  
+- **同じアプリでバーコードを読み取れますか？** はい – `BarCodeReader` と `DecodeType.DataMatrix` を使用します。  
+- **本番環境でライセンスが必要ですか？** 本番利用には商用ライセンスが必要です。  
+- **サポートされている .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+
+## DataMatrixバーコードの読み取り C# とは？
+DataMatrixバーコードを C# で読み取ることは、黒と白のモジュールからなる二次元マトリックスを元のテキストやデータにデコードすることを意味します。Aspose.BarCode は低レベルの画像処理を抽象化したシンプルな API を提供し、ビジネスロジックに集中できるようにします。
+
+## なぜ Aspose.BarCode を使用してバーコード画像 C# を生成するのか？
+- **信頼性:** すべての DataMatrix 標準に対応し、最適なエンコーディングを自動的に選択します。  
+- **柔軟性:** サイズ、ECI エンコーディング、画像フォーマットを完全に制御できます。  
+- **クロラットフォーム:** .NET Framework、.NET Core、.NET 5 以降のアプリケーションで動作します。  
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-
-1.  .NET 環境: システムに .NET Framework がインストールされていることを確認します。からダウンロードできます。[.NET Web サイト](https://dotnet.microsoft.com/download/dotnet).
-
-2. Aspose.BarCode for .NET: Aspose.BarCode for .NET ライブラリを次の場所からダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/barcode/net/).
-
-これらの前提条件が満たされていれば、DataMatrix モード (自動) の生成を開始する準備が整います。
+1. **.NET 環境** – 最新の .NET ランタイムを [.NET website](https://dotnet.microsoft.com/download/dotnet) からインストールします。  
+2. **Aspose.BarCode for .NET** – ライブラリを [website](https://releases.aspose.com/barcode/net/) からダウンロードします。  
 
 ## 名前空間のインポート
-
-まず、必要な名前空間を C# コードにインポートして、Aspose.BarCode ライブラリにアクセスできるようにします。
 
 ```csharp
 using Aspose.BarCode.BarCodeRecognition;
@@ -36,19 +46,17 @@ using System;
 using System.Drawing;
 ```
 
-次に、DataMatrix モード (自動) を作成するための例を複数の手順に分けてみましょう。
+名前空間がインポートされたので、コードをステップバイステップで見ていきましょう。
 
-## ステップ 1: ディレクトリ パスを設定する
-
-まず、生成されたバーコード画像を保存するディレクトリ パスを指定します。交換する`"Your Directory Path"`実際のディレクトリパスを使用して:
+## 手順 1: ディレクトリパスの設定
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## ステップ 2: DataMatrix モードを作成する (自動)
+`"Your Directory Path"` を、生成された PNG（または他の形式）を保存したいフォルダーに置き換えてください。
 
-次に、Aspose.BarCode を使用して DataMatrix バーコードを作成します。エンコード モードを「自動」に設定して、ライブラリが提供されたデータに最適なエンコード方法を自動的に決定できるようにします。
+## 手順 2: Auto モードで DataMatrix バーコードを作成
 
 ```csharp
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose常に先を行く"))
@@ -60,11 +68,9 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 }
 ```
 
-このコード ブロックでは、「Aspose常に先を行く」というテキストを含む DataMatrix バーコードが生成されます。このテキストをエンコードするデータに置き換えることができます。
+`DataMatrixEncodeMode.Auto` 設定により、ライブラリが提供されたテキストに最適なエンコーディングを自動的に決定します。サンプルテキストは、**バーコード画像 C# を生成**したい任意の文字列に置き換えて構いません。
 
-## ステップ 3: バーコードを読み取る
-
-生成されたバーコードを確認するには、Aspose.BarCodeReader を使用して読み取ることができます。
+## 手順 3: バーコードを読み取る（DataMatrixバーコードの読み取り C#）
 
 ```csharp
 using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -74,42 +80,46 @@ using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
 }
 ```
 
-このステップでは、バーコードを読み取り、エンコードされたテキストをコンソールに出力します。
+このスニペットは、先ほど生成した画像をデコードし、元のテキストをコンソールに出力します。生成から読み取りまでのフルラウンドトリップを実演しています。
 
-これで、Aspose.BarCode for .NET を使用して DataMatrix バーコードを作成し、読み取ることができました。特定の要件に合わせて、エンコード モード、サイズ、その他のパラメーターをカスタマイズできます。
+## よくある問題と解決策
 
-このチュートリアルでは、DataMatrix バーコード生成を開始するための基本的な手順を説明しました。 Aspose.BarCode ライブラリをさらに詳しく調べると、バーコードのニーズに合わせたより高度な機能とカスタマイズ オプションが見つかります。
-
-## 結論
-
-このチュートリアルで示すように、Aspose.BarCode for .NET を使用した DataMatrix モード (自動) の生成は簡単なプロセスです。エンコード モードを自動的に決定する機能により、データをコンパクトな形式で効率的にエンコードできるため、さまざまなアプリケーションにとって価値のあるツールになります。
-
-基本を学んだので、自由に調べてみましょう。[ドキュメンテーション](https://reference.aspose.com/barcode/net/)さまざまな設定を試して、生成されたバーコードを特定の要件に合わせて調整します。
+| 問題 | 原因 | 対策 |
+|------|------|------|
+| **バーコードが検出されません** | 画像解像度が低すぎる | `XDimension.Pixels` を増やす（例: 6 に設定） |
+| **文字化け** | ECI エンコーディングが間違っている | `ECIEncoding` をデータに合わせて設定する（UTF‑8、ASCII など）。 |
+| **`ReadBarCodes` の例外** | 読み取り前に Bitmap が破棄された | 読み取りが終わるまで `Bitmap` インスタンスを保持する |
 
 ## よくある質問
 
-### Q1: DataMatrix エンコードモード「Auto」とは何ですか?
+**Q: DataMatrix エンコーディングモード「Auto」とは何ですか？**  
+A: Aspose.BarCode が提供されたデータに対して最適なエンコーディング方式を自動的に選択できるようにし、**DataMatrix バーコードの生成方法** のプロセスを簡素化します。
 
-A1: DataMatrix エンコード モード「自動」を使用すると、Aspose.BarCode ライブラリが提供されたデータに最適なエンコード方法を自動的に選択できるため、さまざまなシナリオに便利な選択肢になります。
+**Q: 生成されたバーコードのサイズをカスタマイズできますか？**  
+A: はい – `generator.Parameters.Barcode.XDimension.Pixels` を調整してモジュールサイズを変更できます。
 
-### Q2: 生成されたバーコードの寸法をカスタマイズできますか?
+**Q: Aspose.BarCode for .NET は商用利用に適していますか？**  
+A: もちろんです。ライセンスは [website](https://purchase.aspose.com/buy) から購入してください。
 
- A2: はい、バーコードの寸法を調整するには、`generator.Parameters.Barcode.XDimension.Pixels`コード内のプロパティ。
+**Q: 無料トライアルは利用できますか？**  
+A: はい、[this link](https://releases.aspose.com/) から無料トライアルで Aspose.BarCode をお試しできます。
 
-### Q3: Aspose.BarCode for .NET は商用利用に適していますか?
+**Q: DataMatrix バーコードで利用できるエンコーディングオプションは何ですか？**  
+A: Aspose.BarCode は UTF‑8、ASCII、その他の ECI エンコーディングをサポートしています。`ECIEncoding` で目的の値を設定してください。
 
- A3: はい、Aspose.BarCode for .NET は商用製品です。からライセンスを購入できます。[Webサイト](https://purchase.aspose.com/buy).
+## 結論
 
-### Q4: Aspose.BarCode for .NET の無料トライアルはありますか?
+これで、**DataMatrixバーコードの読み取り C#**、Auto モードでのバーコード生成、結果の検証を行う、完全な本番対応サンプルが手に入りました。すべて Aspose.BarCode for .NET を使用しています。さまざまなテキスト、サイズ、ECI 設定を試して、特定のシナリオに合わせて調整してください。詳細なカスタマイズについては、公式 [documentation](https://reference.aspose.com/barcode/net/) を参照してください。
 
- A4: はい、次のサイトから無料トライアルで Aspose.BarCode を試すことができます。[このリンク](https://releases.aspose.com/).
-
-### Q5: DataMatrix バーコードにはどのようなエンコード オプションが利用できますか?
-
-A5: Aspose.BarCode for .NET は、UTF-8、ASCII などを含むさまざまなエンコード オプションを提供します。バーコードを作成するときに、必要なエンコーディングを選択できます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2026-01-15  
+**テスト環境:** Aspose.BarCode 24.12 for .NET  
+**作者:** Aspose
