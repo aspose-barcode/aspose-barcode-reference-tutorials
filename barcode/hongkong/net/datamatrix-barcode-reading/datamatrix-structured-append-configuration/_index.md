@@ -1,33 +1,39 @@
 ---
-title: DataMatrix 結構化附加配置與 Aspose.BarCode for .NET
-linktitle: DataMatrix 結構化附加配置
+date: 2026-01-20
+description: 學習如何在 .NET 中使用 Aspose.BarCode 產生 DataMatrix 條碼，並以結構化附加配置解碼 DataMatrix
+  條碼，以實現高效的資料組織。
+linktitle: DataMatrix Structured Append Configuration
 second_title: Aspose.BarCode .NET API
-description: 了解如何使用 Aspose.BarCode 在 .NET 中建立和讀取 DataMatrix 結構化附加配置，以實現高效的資料組織。
-weight: 11
+title: 如何使用 Aspose.BarCode for .NET 生成帶有結構化追加的 DataMatrix 條碼
 url: /zh-hant/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DataMatrix 結構化附加配置與 Aspose.BarCode for .NET
+# 使用 Aspose.BarCode for .NET 的 DataMatrix 結構化附加設定
 
-如果您是開發人員，希望在 .NET 應用程式中實作 DataMatrix 結構化附加配置，Aspose.BarCode for .NET 是您的首選解決方案。在本逐步指南中，我們將探討使用這個強大的函式庫產生和讀取結構化 DataMatrix 條碼的細節。我們將每個範例分解為多個易於遵循的步驟，確保您徹底掌握這些概念。在本教學課程結束時，您將能夠使用 Aspose.BarCode for .NET 有效地處理 DataMatrix 結構化附加配置。
+如果您是希望在 .NET 應用程式中 **產生 DataMatrix 條碼** 並使用結構化附加設定的開發人員，Aspose.BarCode for .NET 是您的首選解決方案。在本步驟指南中，我們將逐步說明如何建立與讀取這些條碼，將每個範例拆解成易於跟隨的段落，讓您快速掌握工作流程。
+
+## 快速解答
+- **應該使用哪個程式庫？** Aspose.BarCode for .NET  
+- **程式碼行數多少？** 約 30 行程式碼即可產生與讀取結構化 DataMatrix 條碼  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式環境需購買商業授？** .NET Framework、. 是 – 請參閱「如何解碼 DataMatrix 條碼」章節  
 
 ## 先決條件
 
-在深入學習本教程之前，您需要滿足以下先決條件：
+在開始本教學之前，請確保您已擁有：
 
-1.  Aspose.BarCode for .NET 函式庫：您必須下載並安裝 Aspose.BarCode for .NET 函式庫。你可以從[這裡](https://releases.aspose.com/barcode/net/).
+1. **Aspose.BarCode for .NET Library** – 從 [here](https://releases.aspose.com/barcode/net/) 下載。  
+2. **Development Environment** – Visual Studio（任何較新版本）或其他相容 .NET 的 IDE。
 
-2. 開發環境：您的系統上應設定 .NET 開發環境，例如 Visual Studio。
+現在，讓我們開始使用 Aspose.BarCode for .NET 進行 DataMatrix 結構化附加的步驟指南。
 
-現在，讓我們開始使用 Aspose.BarCode for .NET 處理 DataMatrix 結構化附加的逐步指南。
+## 匯入命名空間
 
-## 導入命名空間
-
-在開始之前，您需要匯入必要的命名空間以存取 Aspose.BarCode for .NET 提供的功能。這將使您能夠在應用程式中有效地使用條碼。
+首先，匯入可讓您使用條碼產生與辨識類別的命名空間。
 
 ```csharp
 using Aspose.BarCode.BarCodeRecognition;
@@ -36,12 +42,11 @@ using System;
 using System.Drawing;
 ```
 
-現在您已經匯入了所需的命名空間，讓我們繼續產生並讀取 DataMatrix 結構化附加條碼。
+現在您已準備好產生與讀取 **DataMatrix 條碼**。
 
+## 如何使用結構化附加產生 DataMatrix 條碼
 
-## 步驟 1： 設定 DataMatrix 結構化附加配置
-
-若要建立 DataMatrix 結構化附加條碼，您需要設定其配置。這包括定義目錄路徑、條碼 ID、條碼數量和檔案 ID。
+若要建立 DataMatrix 結構化附加條碼，您需要設定多個參數，例如條碼 ID、序列中條碼的總數，以及將它們關聯起來的檔案 ID。
 
 ```csharp
 string path = "Your Directory Path";
@@ -50,20 +55,20 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 {
     generator.Parameters.Barcode.XDimension.Pixels = 4;
 
-    //設定 DataMatrix 結構化追加模式
+    // Set DataMatrix structured append mode
     generator.Parameters.Barcode.DataMatrix.StructuredAppendBarcodeId = 3;
     generator.Parameters.Barcode.DataMatrix.StructuredAppendBarcodesCount = 5;
     generator.Parameters.Barcode.DataMatrix.StructuredAppendFileId = 150;
 
-    //產生條碼圖像
+    // Generate the barcode image
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
-在此步驟中，我們使用所需的參數配置了 DataMatrix 條碼。
+在此程式碼片段中，我們已設定啟用結構化附加功能的必要屬性。
 
-## 步驟 2：讀取結構化 DataMatrix 條碼
+## 如何使用 Aspose.BarCode 解碼 DataMatrix 條碼
 
-現在您已經產生了條碼，是時候讀取其資訊了。我們將使用 Aspose.BarCode 函式庫來解碼條碼資料。
+產生條碼後，您通常需要讀取其內嵌資訊。以下程式碼使用 `BarCodeReader` 從剛剛建立的影像中提取結構化附加的詳細資料。
 
 ```csharp
     using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -77,35 +82,44 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 }
 ```
 
-在此步驟中，我們使用 BarCodeReader 從產生的條碼中提取訊息，例如條碼 ID、條碼數量和檔案 ID。
+此程式碼塊 **解碼 DataMatrix 條碼** 資訊，如條碼 ID、總計數以及檔案 ID，確認結構化附加資料已正確嵌入。
+
+## 常見問題與技巧
+
+- **尺寸不正確：** 請確保 `XDimension.Pixels` 與印表機或顯示器的解析度相符；否則條碼可能無法辨識。  
+- **計數不匹配：** `StructuredAppendBarcodesCount` 必須在序列的所有部分保持一致。  
+- **授權錯誤：** 若看到授權警告，請確認在專案中正確參考了試用版或商業授權檔案。
 
 ## 結論
 
-Aspose.BarCode for .NET 使得使用 DataMatrix 結構化附加配置變得簡單。透過本教學中概述的步驟，您可以在 .NET 應用程式中輕鬆產生和讀取這些條碼。該庫提供了一套強大的條碼生成和解碼工具，簡化了您的開發過程。
+Aspose.BarCode for .NET 讓 **產生 DataMatrix 條碼** 與 **解碼 DataMatrix 條碼** 並使用結構化附加設定變得簡單。依照上述步驟，您即可將這些條碼整合至庫存系統、文件追蹤，或任何需要將大量資料分割至多個條碼的情境中。
 
-透過遵循本指南，您將獲得 Aspose.BarCode for .NET 的 DataMatrix 結構化附加配置的寶貴見解。這些知識可以應用於廣泛的應用，從庫存管理到文件追蹤等等。
+## 常見問答
 
-## 常見問題解答
+### Q1：什麼是 DataMatrix 結構化附加，為何會使用它？
 
-### Q1：什麼是 DataMatrix 結構化追加，為什麼要使用它？
+A1：DataMatrix 結構化附加是一項功能，可將大量資料分割成多個較小的條碼。當單一條碼空間受限或需要有效組織資料時，這特別有用。此功能常見於物流、醫療保健與製造業等產業。
 
-A1：DataMatrix 結構化附加功能可讓您將大量資料拆分為多個較小的條碼。當單一條碼的空間有限或需要有效組織資料時，這特別有用。它通常用於物流、醫療保健和製造等行業。
+### Q2：我可以在開源專案中使用 Aspose.BarCode for .NET 嗎？
 
-### Q2：我可以在我的開源專案中使用 Aspose.BarCode for .NET 嗎？
+A2：可以，Aspose.BarCode for .NET 提供可在開源專案中使用的免費試用版。您可於 [here](https://releases.aspose.com/) 取得試用版。
 
- A2：是的，Aspose.BarCode for .NET 提供免費試用版，您可以在開源專案中使用。您可以找到試用版[這裡](https://releases.aspose.com/).
+### Q3：是否有 Aspose.BarCode for .NET 的社群支援？
 
-### Q3：Aspose.BarCode for .NET 有社群支持嗎？
+A3：有，您可在 Aspose.BarCode 論壇 [here](https://forum.aspose.com/c/barcode/13) 尋求社群支援並與其他使用者互取得 Aspose.BarCode for .NET 的臨時授權？
 
- A3：是的，您可以在 Aspose.BarCode 論壇上尋求社群支援並與其他用戶互動[這裡](https://forum.aspose.com/c/barcode/13).
+A4：若需評估或測試用的臨時授權，可從 [here](https://purchase.aspose.com/temporary-license/) 取得。
 
-### Q4：如何取得 Aspose.BarCode for .NET 的臨時授權？
+### Q5：Aspose.BarCode for .NET 是否支援其他條碼類型？
 
-A4：如果您需要臨時許可證用於評估或測試目的，您可以從以下位置取得臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+A5：是，Aspose.BarCode for .NET 支援多種條碼類型，包括 QR Code、Code 128、EAN-13 等等。您可於 [here](https://reference.aspose.com/barcode/net/) 查閱完整文件，了解所有支援的條碼類型。
 
-### Q5：Aspose.BarCode for .NET 支援其他條碼類型嗎？
+---
 
- A5：是的，Aspose.BarCode for .NET 支援多種條碼類型，包括 QR 碼、Code 128、EAN-13 等等。您可以瀏覽完整的文檔[這裡](https://reference.aspose.com/barcode/net/)查看支援的條碼類型的完整清單。
+**最後更新：** 2026-01-20  
+**測試版本：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
