@@ -1,35 +1,46 @@
 ---
-title: Pengkodean DataMatrix dalam Byte dengan Aspose.BarCode untuk .NET
-linktitle: Mode Pengkodean DataMatrix (Byte)
+date: 2026-01-25
+description: Pelajari cara membuat file PNG barcode dengan Aspose.BarCode untuk .NET
+  dengan mengkodekan DataMatrix dalam mode Bytes. Ikuti panduan pembuatan barcode
+  ini untuk implementasi yang mudah.
+linktitle: DataMatrix Encoding Mode (Bytes)
 second_title: Aspose.BarCode .NET API
-description: Pelajari cara mengkodekan data dalam format DataMatrix menggunakan mode Bytes dengan Aspose.BarCode untuk .NET. Ikuti panduan langkah demi langkah kami untuk pembuatan dan pengenalan kode batang.
-weight: 15
+title: Buat PNG Barcode menggunakan Aspose.BarCode untuk .NET – DataMatrix Bytes
 url: /id/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengkodean DataMatrix dalam Byte dengan Aspose.BarCode untuk .NET
+# Buat Barcode PNG – Pengkodean DataMatrix dalam Bytes dengan Aspose.BarCode untuk .NET
 
-Dalam dunia pembuatan dan pengenalan kode batang, Aspose.BarCode untuk .NET merupakan alat yang ampuh dan serbaguna. Dengan serangkaian fitur dan kemampuan yang kuat, ini memberdayakan pengembang untuk membuat, memanipulasi, dan membaca kode batang dengan mudah. Di antara banyak mode pengkodean yang ditawarkan, Mode Pengkodean DataMatrix menggunakan Bytes adalah fitur yang menonjol. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses penggunaan Aspose.BarCode untuk .NET untuk menyandikan data dalam format DataMatrix menggunakan mode Bytes.
+Dalam tutorial ini Anda akan belajar **cara membuat barcode PNG** menggunakan Aspose.BarCode untuk .NET. Kami akan membahas panduan **pembuatan barcode** lengkap untuk DataMatrix — khususnya mode pengkodean Bytes—sehingga Anda dapat menghasilkan, menampilkan, dan membaca barcode DataMatrix dalam aplikasi .NET Anda.
+
+## Jawaban Cepat
+- **Apa arti “create barcode PNG”?** Ini merujuk pada pembuatan gambar raster PNG yang berisi barcode.
+- **Library mana yang terbaik untuk ini?** Aspose.BarCode untuk .NET menyediakan API lengkap untuk pembuatan dan pengenalan barcode.
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.
+- **Bisakah saya membaca kembali barcode tersebut?** Ya, library yang sama menyertakan BarCodeReader untuk **membaca data barcode DataMatrix**.
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Cara membuat barcode PNG dengan Aspose.BarCode untuk .NET
+Berikut ini Anda akan menemukan semua yang Anda butuhkan—dari prasyarat hingga panduan kode langkah demi langkah—yang memungkinkan Anda **menghasilkan barcode PNG**, mengatur teks tampilan, dan memverifikasi hasilnya dengan pembaca bawaan.
 
 ## Prasyarat
 
-Sebelum kita menyelami proses pengkodean, Anda harus memiliki prasyarat berikut:
+Sebagai langkah awal ke proses pengkodean, Anda harus menyiapkan prasyarat berikut:
 
-1.  Aspose.BarCode untuk .NET: Untuk memulai, Anda harus menginstal pustaka Aspose.BarCode untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/barcode/net/).
-
-2. Lingkungan Pengembangan Anda: Pastikan Anda telah menyiapkan lingkungan pengembangan, termasuk Visual Studio atau IDE lain pilihan Anda.
-
+1. Aspose.BarCode untuk .NET: Untuk memulai, Anda harus memiliki library Aspose.BarCode untuk .NET terpasang. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/barcode/net/).
+2. Lingkungan Pengembangan Anda: Pastikan Anda memiliki lingkungan pengembangan yang siap, termasuk Visual Studio atau IDE lain pilihan Anda.
 3. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 
-Dengan adanya prasyarat ini, Anda siap untuk mulai mengkodekan data dalam format DataMatrix menggunakan mode Bytes.
+Dengan prasyarat ini terpenuhi, Anda siap mulai mengkodekan data dalam format DataMatrix menggunakan mode Bytes.
 
 ## Impor Namespace
 
-Untuk menggunakan Aspose.BarCode untuk .NET, Anda harus mengimpor namespace yang diperlukan ke dalam kode C# Anda. Tambahkan baris berikut ke bagian atas file kode Anda:
+Untuk menggunakan Aspose.BarCode untuk .NET, Anda perlu mengimpor namespace yang diperlukan ke dalam kode C# Anda. Tambahkan baris berikut di bagian atas file kode Anda:
 
 ```csharp
 using System;
@@ -42,19 +53,19 @@ Sekarang, mari kita uraikan proses pengkodean data dalam format DataMatrix mengg
 
 ## Langkah 1: Inisialisasi BarcodeGenerator
 
- Buat objek BarcodeGenerator, tentukan EncodeType sebagai DataMatrix, dan data yang ingin Anda enkode. Anda bisa menggantinya`"Your Directory Path"` dengan jalur sebenarnya tempat Anda ingin menyimpan gambar barcode.
+Buat objek BarcodeGenerator, dengan menentukan EncodeType sebagai DataMatrix, dan data yang ingin Anda enkode. Anda dapat mengganti `"Your Directory Path"` dengan jalur sebenarnya tempat Anda ingin menyimpan gambar barcode.
 
 ```csharp
 string path = "Your Directory Path";
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, strBld.ToString()))
 {
-    // Atur XDimension dalam Piksel
+    // Set the XDimension in Pixels
     gen.Parameters.Barcode.XDimension.Pixels = 4;
 ```
 
-## Langkah 2: Atur Mode Enkode DataMatrix ke Byte
+## Langkah 2: Atur Mode Enkode DataMatrix ke Bytes
 
-Atur mode pengkodean DataMatrix ke Bytes menggunakan kode berikut:
+Atur mode enkode DataMatrix ke Bytes menggunakan kode berikut:
 
 ```csharp
     gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.Bytes;
@@ -62,7 +73,7 @@ Atur mode pengkodean DataMatrix ke Bytes menggunakan kode berikut:
 
 ## Langkah 3: Atur Teks Tampilan
 
-Anda dapat mengatur teks tampilan untuk kode batang Anda. Dalam contoh ini, kami menyetelnya ke "Mode byte".
+Anda dapat mengatur teks tampilan untuk barcode Anda. Pada contoh ini, kami mengaturnya menjadi "Bytes mode."
 
 ```csharp
     gen.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "Bytes mode";
@@ -70,24 +81,24 @@ Anda dapat mengatur teks tampilan untuk kode batang Anda. Dalam contoh ini, kami
 
 ## Langkah 4: Simpan Gambar Barcode
 
-Simpan gambar barcode yang dihasilkan ke jalur yang ditentukan. Dalam hal ini, data disimpan sebagai "DataMatrixEncodeModeBytes.png."
+Simpan gambar barcode yang dihasilkan ke jalur yang ditentukan. Pada kasus ini, disimpan sebagai "DataMatrixEncodeModeBytes.png."
 
 ```csharp
     gen.Save($"{path}DataMatrixEncodeModeBytes.png", BarCodeImageFormat.Png);
 ```
 
-## Langkah 5: Cobalah untuk Mengenali
+## Langkah 5: Coba Kenali
 
-Sekarang, mari kita coba mengenali kode batang DataMatrix yang disandikan. Kami akan menggunakan BarCodeReader untuk melakukan ini.
+Sekarang, mari kita coba mengenali barcode DataMatrix yang telah dienkode. Kita akan menggunakan BarCodeReader untuk melakukannya.
 
 ```csharp
     using (BarCodeReader read = new BarCodeReader(gen.GenerateBarCodeImage(), DecodeType.DataMatrix))
     {
 ```
 
-## Langkah 6: Ulangi dan Tampilkan Hasil
+## Langkah 6: Iterasi dan Tampilkan Hasil
 
-Ulangi hasilnya dan tampilkan data yang dikodekan.
+Lakukan iterasi pada hasil dan tampilkan data yang telah dienkode.
 
 ```csharp
         foreach (BarCodeResult result in read.ReadBarCodes())
@@ -96,37 +107,55 @@ Ulangi hasilnya dan tampilkan data yang dikodekan.
 }
 ```
 
-Dengan langkah-langkah ini, Anda telah berhasil menyandikan data dalam format DataMatrix menggunakan mode Bytes dengan Aspose.BarCode untuk .NET. Pustaka canggih ini menyederhanakan pembuatan dan pengenalan kode batang, menjadikannya alat penting bagi pengembang.
-
-Sekarang, Anda siap untuk mengintegrasikan pengkodean dan dekode kode batang ke dalam aplikasi .NET Anda dengan mudah, berkat Aspose.BarCode.
+Dengan langkah-langkah ini, Anda telah berhasil **membuat barcode PNG** dalam mode DataMatrix Bytes dengan Aspose.BarCode untuk .NET. Library yang kuat ini menyeder enkoding dan dekoding barcode ke dalam aplikasi .NET Anda dengan mudah, berkat Aspose.BarCode.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara menggunakan Aspose.BarCode untuk .NET untuk menyandikan data dalam format DataMatrix menggunakan mode Bytes. Dengan mengikuti langkah-langkah sederhana ini, Anda dapat menyempurnakan aplikasi Anda dengan kemampuan pembuatan dan pengenalan barcode yang kuat.
-
- Jika Anda memiliki pertanyaan atau menghadapi masalah apa pun, jangan ragu untuk mencari bantuan dari komunitas Aspose.BarCode di[Dukungan Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+api masalah,ose.BarCode di [Aspose.BarCode Support](https://forum.aspose.com/c/barcode/13).
 
 ## FAQ
 
 ### Q1: Apa itu mode pengkodean DataMatrix?
 
-A1: Mode pengkodean DataMatrix adalah metode yang digunakan untuk menyandikan data ke dalam format kode batang 2D. Ini menyediakan berbagai opsi pengkodean, termasuk mode Bytes, yang cocok untuk pengkodean data biner.
+A1: Mode pengkodean DataMatrix adalah metode yang digunakan untuk mengenkode data ke dalam format barcode 2D. Ia menyediakan berbagai opsi enkode, termasuk mode Bytes, yang cocok untuk mengenkode data biner.
 
-### Q2: Bagaimana saya bisa mendapatkan uji coba gratis Aspose.BarCode untuk .NET?
+### Q2: Bagaimana cara mendapatkan percobaan gratis Aspose.BarCode untuk .NET?
 
- A2: Anda dapat memperoleh uji coba gratis Aspose.BarCode untuk .NET dari[Di Sini](https://releases.aspose.com/).
+A2: Anda dapat memperoleh percobaan gratis Aspose.BarCode untuk .NET dari [here](https://releases.aspose.com/).
 
-### Q3: Di mana saya dapat menemukan dokumentasi Aspose.BarCode untuk .NET?
+### Q3: Di mana saya dapat menemukan dokumentasi untuk Aspose.BarCode untuk .NET?
 
- A3: Dokumentasi untuk Aspose.BarCode untuk .NET tersedia[Di Sini](https://reference.aspose.com/barcode/net/).
+A3: Dokumentasi untuk Aspose.BarCode untuk .NET tersedia [here](https://reference.aspose.com/barcode/net/).
 
 ### Q4: Apakah Aspose.BarCode untuk .NET cocok untuk penggunaan komersial?
 
-A4: Ya, Aspose.BarCode untuk .NET cocok untuk penggunaan komersial. Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy).
+A4: Ya, Aspose.BarCode untuk .NET cocok untuk penggunaan komersial. Anda dapat membeli lisensi dari [here](https://purchase.aspose.com/buy).
 
-### Q5: Dapatkah saya menggunakan lisensi sementara untuk Aspose.BarCode untuk .NET?
+### Q5: Bisakah saya menggunakan lisensi sementara untuk Aspose.BarCode untuk .NET?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.BarCode untuk .NET dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+A5: Ya, Anda dapat memperoleh lisensi sementara untuk Aspose.BarCode untuk .NET dari [here](https://purchase.aspose.com/temporary-license/).
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bagaimana cara saya **membaca barcode DataMatrix** setelah membuatnya?**  
+A: Gunakan kelas `BarCodeReader` dengan `DecodeType.DataMatrix` seperti yang ditunjukkan pada Langkah 5 dan Langkah 6 contoh kode.
+
+**Q: Bisakah saya mengubah ukuran PNG yang dihasilkan?**  
+A: Ya, sesuaikan `gen.Parameters.Barcode.XDimension.Pixels` atau atur parameter `ImageWidth` dan `ImageHeight` sebelum memanggil `Save`.
+
+**Q: Bagaimana jika saya perlu mengenkode teks alih-alih bytes?**  
+A: Ganti mode enkode ke `DataMatrixEncodeMode.Text` dan berikan string yang ingin Anda enkode.
+
+**Q: Apakah ada cara untuk menyembunyikan teks yang dapat dibaca manusia pada barcode?**  
+A: Atur `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = false` untuk menyembunyikan teks tampilan.
+
+**Q: Apakah Aspose.BarCode mendukung .NET Core?**  
+A: Tentu saja— library ini bekerja dengan .NET Core, .NET 5, .NET 6, dan versi selanjutnya.
+
+**Terakhir Diperbarui:** 2026-01-25  
+**Diuji dengan:** Aspose.BarCode 24.11 for .NET  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

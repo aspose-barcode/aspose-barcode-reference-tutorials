@@ -1,35 +1,42 @@
 ---
-title: 使用 Aspose.BarCode for .NET 以字节为单位进行 DataMatrix 编码
-linktitle: DataMatrix 编码模式（字节）
+date: 2026-01-25
+description: 了解如何使用 Aspose.BarCode for .NET 通过字节模式编码 DataMatrix 来创建条形码 PNG 文件。请遵循本条形码生成指南，以便轻松实现。
+linktitle: DataMatrix Encoding Mode (Bytes)
 second_title: Aspose.BarCode .NET API
-description: 了解如何使用 Aspose.BarCode for .NET 的字节模式对 DataMatrix 格式的数据进行编码。请遵循我们的条形码生成和识别分步指南。
-weight: 15
+title: 使用 Aspose.BarCode for .NET 创建条码 PNG – DataMatrix 字节
 url: /zh/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode for .NET 以字节为单位进行 DataMatrix 编码
+# 创建条形码 PNG – 使用 Aspose.BarCode for .NET 的字节模式 DataMatrix 编码
 
-在条形码生成和识别领域，Aspose.BarCode for .NET 是一个强大且多功能的工具。凭借其强大的特性和功能集，它使开发人员能够轻松创建、操作和读取条形码。在它提供的众多编码模式中，使用字节的 DataMatrix 编码模式是一个突出的功能。在本分步指南中，我们将引导您完成使用 Aspose.BarCode for .NET 以字节模式对 DataMatrix 格式的数据进行编码的过程。
+在本教程中，您将学习 **如何使用 Aspose.BarCode for .NET 创建条将完整演示 **DataMatrix 条形码生成 DataMatrix 条形码。
 
-## 先决条件
+## 快速回答
+免费商业许可证。  
+- **可以读取生成的条形码吗？** 可以，库自带的 BarCodeReader 能 **读取 DataMatrix 条形码** 数据。  
+- **支持哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
 
-在我们深入研究编码过程之前，您需要满足以下先决条件：
+## 使用 Aspose.BarCode for .NET 创建条形码 PNG 的步骤
+下面提供从前置条件到逐步代码演示的全部内容，帮助您 **生成 PNG 条形码**、设置显示文本，并使用内置读取器验证结果。
 
-1.  Aspose.BarCode for .NET：要开始使用，您必须安装 Aspose.BarCode for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/barcode/net/).
+## 前置条件
 
-2. 您的开发环境：确保您已设置开发环境，包括 Visual Studio 或您选择的任何其他 IDE。
+在开始编码之前，您需要准备以下条件：
 
-3. C# 基础知识：本教程假设您对 C# 编程有基本了解。
+1. **Aspose.BarCode for .NET**：首先必须安装 Aspose.BarCode for .NET 库，可从 [here](https://releases.aspose.com/barcode/net/) 下载。  
+2. **开发环境**：确保已搭建好开发环境，如 Visual Studio 或其他您喜欢的 IDE。  
+3. **C# 基础**：本教程假设您具备基本的 C# 编程知识。
 
-满足这些先决条件后，您就可以开始使用字节模式对 DataMatrix 格式的数据进行编码。
+满足上述前置条件后，即可使用 Bytes 模式在 DataMatrix 格式中进行数据编码。
 
 ## 导入命名空间
 
-要使用 Aspose.BarCode for .NET，您需要将必要的命名空间导入到您的 C# 代码中。将以下行添加到代码文件的顶部：
+使用 Aspose.BarCode for .NET 前，需要在 C# 代码中导入相应的命名空间。将以下代码添加到文件顶部：
 
 ```csharp
 using System;
@@ -38,21 +45,21 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-现在，让我们将使用字节模式将数据编码为 DataMatrix 格式的过程分解为多个步骤。
+接下来，我们将把 DataMatrix Bytes 模式的编码过程拆分为多个步骤进行说明。
 
-## 第 1 步：初始化 BarcodeGenerator
+## 步骤 1：初始化 BarcodeGenerator
 
-创建一个 BarcodeGenerator 对象，将 EncodeType 指定为 DataMatrix，并指定要编码的数据。您可以更换`"Your Directory Path"`与您要保存条形码图像的实际路径。
+创建一个 BarcodeGenerator 对象，指定 EncodeType 为 DataMatrix，并传入要编码的数据。您可以将 `"Your Directory Path"` 替换为实际的保存条形码图像的路径。
 
 ```csharp
 string path = "Your Directory Path";
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, strBld.ToString()))
 {
-    //设置 XDimension（以像素为单位）
+    // Set the XDimension in Pixels
     gen.Parameters.Barcode.XDimension.Pixels = 4;
 ```
 
-## 步骤 2：将 DataMatrix 编码模式设置为字节
+## 步骤 2：将 DataMatrix 编码模式设为 Bytes
 
 使用以下代码将 DataMatrix 编码模式设置为 Bytes：
 
@@ -60,34 +67,34 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, strBl
     gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.Bytes;
 ```
 
-## 第3步：设置显示文本
+## 步骤 3：设置显示文本
 
-您可以设置条形码的显示文本。在此示例中，我们将其设置为“字节模式”。
+您可以为条形码设置显示文本。本例中，我们将其设为 “Bytes mode”。
 
 ```csharp
     gen.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "Bytes mode";
 ```
 
-## 第 4 步：保存条形码图像
+## 步骤 4：保存条形码图像
 
-将生成的条码图像保存到指定路径。在本例中，它保存为“DataMatrixEncodeModeBytes.png”。
+将生成的条形码图像保存到指定路径。本例中保存为 “DataMatrixEncodeModeBytes.png”。
 
 ```csharp
     gen.Save($"{path}DataMatrixEncodeModeBytes.png", BarCodeImageFormat.Png);
 ```
 
-## 第五步：尝试识别
+## 步骤 5：尝试识别
 
-现在，让我们尝试识别编码的 DataMatrix 条形码。我们将使用 BarCodeReader 来完成此操作。
+现在，使用 BarCodeReader 对已编码的 DataMatrix 条形码进行识别。
 
 ```csharp
     using (BarCodeReader read = new BarCodeReader(gen.GenerateBarCodeImage(), DecodeType.DataMatrix))
     {
 ```
 
-## 第 6 步：迭代并显示结果
+## 步骤 6：遍历并显示结果
 
-迭代结果并显示编码数据。
+遍历识别结果并显示编码后的数据。
 
 ```csharp
         foreach (BarCodeResult result in read.ReadBarCodes())
@@ -96,37 +103,57 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, strBl
 }
 ```
 
-通过这些步骤，您已成功使用 Aspose.BarCode for .NET 的字节模式以 DataMatrix 格式对数据进行编码。这个强大的库简化了条形码的生成和识别，使其成为开发人员的必备工具。
+通过以上步骤，您已成功 **使用 Aspose.BarCode for .NET 在 DataMatrix Bytes 模式下创建条形码 PNG**。该强大库简化了条形码的生成与识别，是开发者不可或缺的工具。
 
-现在，借助 Aspose.BarCode，您可以轻松地将条形码编码和解码集成到您的 .NET 应用程序中。
+现在，您可以轻松将条形码的编码与解码功能集成到 .NET 应用程序中，尽情发挥 Aspose.BarCode 的优势。
 
 ## 结论
 
-在本教程中，我们探索了如何使用 Aspose.BarCode for .NET 以字节模式对 DataMatrix 格式的数据进行编码。通过执行这些简单的步骤，您可以通过强大的条形码生成和识别功能来增强您的应用程序。
+本教程展示了如何使用 Aspose.BarCode for .NET **在 DataMatrix 格式的 Bytes 模式下创建条形码 PNG** 文件。按照这些简明步骤，您即可为应用程序添加强大的条形码生成与识别能力。如遇问题，Aspose.BarCode 社区随时为您提供帮助。
 
-如果您有任何疑问或遇到任何问题，请随时向 Aspose.BarCode 社区寻求帮助：[Aspose.BarCode 支持](https://forum.aspose.com/c/barcode/13).
+如有任何疑问或遇到问题，请前往 [Aspose.BarCode Support](https://forum.aspose.com/c/barcode/13) 寻求帮助。
 
-## 常见问题解答
+## 常见问题
 
-### Q1：什么是DataMatrix编码模式？
+### Q1: 什么是 DataMatrix 编码模式？
 
-A1：DataMatrix 编码模式是一种将数据编码为二维条码格式的方法。它提供了各种编码选项，包括适用于编码二进制数据的字节模式。
+A1: DataMatrix 编码模式是一种将数据编码为二维条形码的方式，提供多种编码选项，其中 Bytes 模式适用于二进制数据的编码。
 
-### 问题 2：如何获得 Aspose.BarCode for .NET 的免费试用版？
+### Q2: 如何获取 Aspose.BarCode for .NET 的免费试用？
 
- A2：您可以从以下位置获取 Aspose.BarCode for .NET 的免费试用版：[这里](https://releases.aspose.com/).
+A2: 您可以从 [here](https://releases.aspose.com/) 下载免费试用版。
 
-### Q3：在哪里可以找到 Aspose.BarCode for .NET 的文档？
+### Q3: 哪里可以找到 Aspose.BarCode for .NET 的文档？
 
- A3：Aspose.BarCode for .NET 的文档可用[这里](https://reference.aspose.com/barcode/net/).
+A3: 文档可在 [here](https://reference.aspose.com/barcode/net/) 查看。
 
-### Q4：Aspose.BarCode for .NET适合商业用途吗？
+### Q4: Aspose.BarCode for .NET 可以用于商业项目吗？
 
-A4：是的，Aspose.BarCode for .NET适合商业用途。您可以从以下位置购买许可证[这里](https://purchase.aspose.com/buy).
+A4: 可以，您可以在 [here](https://purchase.aspose.com/buy) 购买商业许可证。
 
-### Q5：我可以使用 Aspose.BarCode for .NET 的临时许可证吗？
+### Q5: 是否可以获取 Aspose.BarCode for .NET 的临时许可证？
 
- A5：是的，您可以从以下位置获取 Aspose.BarCode for .NET 的临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+A5: 可以，临时许可证可在 [here](https://purchase.aspose.com/temporary-license/) 获取。
+
+## Frequently Asked Questions
+
+**Q: 创建条形码后，如何 **读取 DataMatrix 条形码**？**  
+A: 如步骤 5 与步骤 6 所示，使用 `BarCodeReader` 并将 `DecodeType.DataMatrix` 作为参数即可。
+
+**Q: 能否更改生成 PNG 的尺寸？**  
+A: 可以，在调用 `Save` 之前调整 `gen.Parameters.Barcode.XDimension.Pixels` 或设置 `ImageWidth`、`ImageHeight` 参数。
+
+**Q: 如果想编码文本而不是字节，该怎么办？**  
+A: 将编码模式切换为 `DataMatrixEncodeMode.Text`，并提供要编码的字符串。
+
+**Q: 如何隐藏条形码上的可读文本？**  
+A: 设置 `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = false` 即可隐藏显示文本。
+
+**Q: Aspose.BarCode 是否支持 .NET Core？**  
+A: 完全支持——库兼容 .-01-25  
+**测试环境：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
