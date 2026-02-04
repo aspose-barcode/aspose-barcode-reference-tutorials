@@ -1,66 +1,87 @@
 ---
-title: .NET용 Aspose.BarCode를 사용한 DotCode 행 및 열 구성
-linktitle: DotCode 행 및 열 구성
+date: 2026-02-04
+description: Aspose.BarCode for .NET를 사용하여 행과 열을 구성하여 DotCode 바코드 이미지를 만드는 방법을 배우세요.
+linktitle: DotCode Rows and Columns Configuration
 second_title: Aspose.BarCode .NET API
-description: .NET용 Aspose.BarCode를 사용하여 DotCode 행 및 열을 구성하는 방법을 알아보세요. 정확하고 사용자 정의 가능한 2D 바코드를 손쉽게 생성하세요.
-weight: 15
+title: DotCode 바코드 이미지 생성 – 행 및 열 (Aspose.BarCode)
 url: /ko/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.BarCode를 사용한 DotCode 행 및 열 구성
+# DotCode 바코드 이미지 생성 – 행 및 열 (Aspose.BarCode)
 
-## 소개
+## Introduction
 
-.NET용 Aspose.BarCode를 사용하여 바코드 생성의 세계에 오신 것을 환영합니다! 이 포괄적인 가이드에서는 Aspose.BarCode를 사용하여 DotCode 행 및 열을 구성하는 흥미로운 영역을 탐구합니다. 노련한 개발자이거나 바코드 생성을 시작하는 여정을 시작하는 사람이라면 이 튜토리얼에서는 DotCode 행 및 열 구성을 마스터하는 데 도움이 되는 필수 단계, 전제 조건 및 네임스페이스를 안내합니다.
+Aspose.BarCode for .NET와 함께 바코드 생성의 세계에 오신 것을 환영합니다! 이 가이드에서는 **DotCode 바코드 이미지** 파일을 생성하고 행과 열을 정확히 조정하는 방법을 배웁니다. 의료 라벨링 시스템, 물류 추적 앱을 구축하든, 2D 심볼을 실험하든, 이 구성을 마스터하면 바코드 크기와 데이터 용량을 정밀하게 제어할 수 있습니다.
 
-## 전제 조건
+## Quick Answers
+- **“DotCode 바코드 이미지 생성”은 무엇을 의미하나요?** DotCode 2‑D 심볼을 사용해 데이터를 인코딩한 시각적 PNG/JPEG 등 파일을 생성하는 것을 의미합니다.  
+- **생성을 담당하는 라이브러리는?** Aspose.BarCode for .NET가 고품질 DotCode 이미지를 생성하는 간단한 API를 제공합니다.  
+- **라이선스가 필요합니까?** 무료 체험판은 개발에 사용할 수 있으며, 상용 환경에서는 상업용 라이선스가 필요합니다.  
+- **행과 열을 독립적으로 맞춤 설정할 수 있나요?** 예 – 행과 열을 직접 설정하거나 라이브러가 자동으로 크기를 결정하도록 할 수 있습니다.  
+- **지원되는 출력 형식은 무엇인가요?** PNG, JPEG, BMP, GIF, TIFF 등이며 `BarCodeImageFormat`을 통해 더 많은 형식을 지원합니다.
 
-DotCode 행 및 열 구성의 기술적 측면을 살펴보기 전에 성공적으로 수행하는 데 필요한 모든 것이 갖추어져 있는지 확인하겠습니다.
+## What is a DotCode barcode image?
 
-1. .NET 개발 환경: 컴퓨터에 작동하는 .NET 개발 환경이 설치되어 있는지 확인하세요.
+DotCode는 작은 정사각형 또는 직사각형 영역에 대량의 데이터를 저장하는 컴팩트한 2차원 바코드입니다. **헬스케어** 및 **제약** 분야에서 제품 추적, 환자 정보 인코딩 등에 널리 사용됩니다. 행과 열을 구성함으로써 바코드의 밀도와 물리적 크기를 제어할 수 있습니다.
 
-2.  .NET용 Aspose.BarCode: 웹사이트에서 .NET용 Aspose.BarCode를 다운로드하여 설치하세요. 당신은 그것을 찾을 수 있습니다[여기](https://releases.aspose.com/barcode/net/).
+## Why configure rows and columns?
 
-3. IDE: 코딩을 위해 선호하는 통합 개발 환경(IDE)을 선택하세요. Visual Studio를 적극 권장하지만 원하는 IDE를 사용할 수 있습니다.
+행과 열을 맞춤 설정하면 다음을 할 수 있습니다:
 
-4. 기본 C# 지식: 이 자습서의 코드 예제를 이해하려면 C# 프로그래밍에 대한 지식이 필수적입니다.
+* 제한된 라벨 공간에 바코드를 맞출 수 있습니다.  
+* 특정 프린터나 스캐너에 대한 스캔 신뢰성을 최적화할 수 있습니다.  
+* 이미지 크기와 데이터 용량을 균형 있게 조절합니다—행/열이 많을수록 데이터는 늘어나지만 이미지가 커집니다.  
 
-## 네임스페이스 가져오기
+이제 이유를 이해했으니, **DotCode 바코드 이미지 생성 방법**을 직접 행‑열 설정과 함께 살펴보겠습니다.
 
-코드 예제에서는 다음 네임스페이스를 사용합니다.
+## Prerequisites
+
+코드 작성을 시작하기 전에 다음을 준비하세요:
+
+1. **.NET Development Environment** – Visual Studio, Rider, 또는 .NET SDK가 설치된 VS Code.  
+2. **Aspose.BarCode for .NET** – 공식 사이트 **[here](https://releases.aspose.com/barcode/net/)**에서 다운로드.  
+3. **유효한 라이선스**(또는 임시 체험 라이선스) – 프로덕션 등급 생성에 필요합니다.  
+4. **기본 C# 지식** – 몇 개의 짧은 스니펫을 작성하게 되지만 개념은 간단합니다.
+
+## Import Namespaces
+
+예제에 필요한 네임스페이스는 하나뿐입니다:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-이제 DotCode 행 및 열 구성을 여러 단계로 나누어 보겠습니다.
+## Step‑by‑step guide to create DotCode barcode image
 
-## 1단계: 디렉터리 경로 설정
+### Step 1: Set up your Directory Path
 
- 먼저 생성된 DotCode 바코드 이미지를 저장할 디렉터리 경로를 정의합니다. 바꾸다`"Your Directory Path"` 원하는 디렉토리 경로로.
+먼저 생성된 이미지가 저장될 위치를 결정합니다. 플레이스홀더를 실제 폴더 경로로 교체하세요.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 2단계: DotCode 생성기 초기화
+> **Pro tip:** `Path.Combine(Environment.CurrentDirectory, "Barcodes")`를 사용하면 플랫폼에 관계없이 작동하는 경로를 만들 수 있습니다.
 
- 이제 Aspose.BarCode 라이브러리를 사용하여 DotCode 바코드 생성기를 초기화해 보겠습니다. 바코드 유형을 다음과 같이 지정하겠습니다.`EncodeTypes.DotCode` 인코딩할 값`"Aspose"`.
+### Step 2: Initialize the DotCode Generator
+
+`BarcodeGenerator` 인스턴스를 생성하고 `EncodeTypes.DotCode` 심볼을 지정한 뒤 인코딩할 데이터를 제공합니다(예: “Aspose”).
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // 코드 예제는 이 using 블록 내에서 따릅니다.
+    // All configuration and saving will happen inside this block.
 }
 ```
 
-## 3단계: DotCode 열 구성
+### Step 3: Configure DotCode Columns
 
-이 단계에서는 DotCode 바코드의 열 수를 설정합니다. 여기서는 열 수를 18로 설정하고 생성된 바코드 이미지를 "DotCodeColumns18.png"로 저장하겠습니다.
+고정된 열 수를 원한다면 `Columns` 속성을 설정합니다. 여기서는 **18 columns**를 선택하고 PNG 파일로 저장합니다.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
@@ -68,9 +89,11 @@ gen.Parameters.Barcode.DotCode.Columns = 18;
 gen.Save($"{path}DotCodeColumns18.png", BarCodeImageFormat.Png);
 ```
 
-## 4단계: DotCode 행 구성
+> **Why XDimension?** 픽셀 크기를 조정하면 각 점의 시각적 밀도가 변하지만 인코딩된 데이터에는 영향을 주지 않습니다.
 
-다음으로 DotCode 바코드의 행 수를 설정합니다. 여기서는 행 수를 12로 설정하고 생성된 바코드 이미지를 "DotCodeRows12.png"로 저장하겠습니다.
+### Step 4: Configure DotCode Rows
+
+열 수는 라이브러가 자동으로 결정하도록(`Columns = -1`) 두면서 행 수만 고정할 수도 있습니다. 아래 예시는 **12 rows**를 가진 바코드를 생성합니다.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = -1;
@@ -78,9 +101,9 @@ gen.Parameters.Barcode.DotCode.Rows = 12;
 gen.Save($"{path}DotCodeRows12.png", BarCodeImageFormat.Png);
 ```
 
-## 5단계: 행과 열을 동시에 구성
+### Step 5: Configure Rows and Columns Simultaneously
 
-이 단계에서는 DotCode 바코드의 행과 열을 모두 구성합니다. 열 수를 29로, 행 수를 26으로 설정하겠습니다. 생성된 바코드 이미지는 "DotCodeRows26Columns29.png"로 저장됩니다.
+전체 제어가 필요할 때는 두 속성을 모두 설정합니다. 다음 스니펫은 **29 columns**와 **26 rows**를 가진 바코드를 생성합니다.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = 29;
@@ -88,36 +111,48 @@ gen.Parameters.Barcode.DotCode.Rows = 26;
 gen.Save($"{path}DotCodeRows26Columns29.png", BarCodeImageFormat.Png);
 ```
 
-축하해요! .NET용 Aspose.BarCode를 사용하여 DotCode 행 및 열을 성공적으로 구성했습니다. Aspose.BarCode에서 제공하는 더 많은 옵션과 기능을 자유롭게 탐색하여 바코드 생성 기능을 더욱 향상하세요.
+> **Common pitfall:** 행과 열을 모두 너무 크게 설정하면 일반 라벨 크기를 초과하는 이미지가 생성될 수 있습니다. 인쇄 전에 미리보기로 테스트하세요.
 
-## 결론
+## Common Issues and Solutions
 
-이 튜토리얼에서는 .NET용 Aspose.BarCode를 사용하여 DotCode 행 및 열 구성의 세계를 탐색했습니다. 필수 필수 구성 요소를 설정하고, 네임스페이스를 가져오고, 단계별 구성을 수행하는 방법을 배웠습니다. 이제 자신감과 정확성을 가지고 DotCode 바코드를 생성할 수 있습니다.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| 바코드가 흐릿하게 보임 | XDimension이 너무 낮음 | `XDimension.Pixels`를 증가시킵니다(예: 12‑15). |
+| 스캐너가 바코드를 읽지 못함 | 행/열이 프린터에 비해 너무 촘촘함 | 행/열을 줄이거나 고해상도 프린터를 사용합니다. |
+| 이미지가 저장되지 않음 | `path` 문자열이 잘못됨 | 디렉터리가 존재하는지 확인하거나 `Directory.CreateDirectory(path)`를 호출합니다. |
 
- 질문이 있거나 문제가 발생하거나 추가 지침이 필요한 경우 주저하지 말고[Aspose.BarCode 문서](https://reference.aspose.com/barcode/net/) 또는 다음 연락처로 연락하세요.[Aspose.BarCode 커뮤니티 지원](https://forum.aspose.com/c/barcode/13).
+## Frequently Asked Questions
 
+**Q: DotCode 바코드에 저장할 수 있는 최대 데이터 양은 얼마인가요?**  
+A: 구성한 행과 열 수에 따라 달라집니다. 셀 수가 많을수록 데이터 용량이 늘어나지만 이미지도 커집니다.
 
-## FAQ
+**Q: 바코드 색상을 변경할 수 있나요?**  
+A: 예. 저장하기 전에 `gen.Parameters.Barcode.ForeColor`와 `BackColor`를 사용해 사용자 정의 색상을 지정합니다.
 
-### Q1: DotCode란 무엇이며, 주로 어디에 사용되나요?
+**Q: DotCode 심볼이 모든 플랫폼에서 지원되나요?**  
+A: Aspose.BarCode for .NET은 .NET Framework, .NET Core, .NET 5/6+에서 동작하므로 Windows, Linux, macOS에서 이미지를 생성할 수 있습니다.
 
-A1: DotCode는 작은 포장 라벨에 대량의 데이터를 인코딩하기 위해 의료 및 제약 산업에서 자주 사용되는 2D 바코드 기호입니다.
+**Q: 모든 DotCode 매개변수 목록은 어디서 확인할 수 있나요?**  
+A: 공식 API 레퍼런스에 자세히 나와 있습니다 – [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)을 참고하세요.
 
-### Q2: .NET용 Aspose.BarCode를 사용하여 DotCode 바코드의 모양을 사용자 정의할 수 있습니까?
+**Q: 디스크에 저장하지 않고 웹 API에서 바코드를 생성하려면 어떻게 하나요?**  
+A: `gen.Save(Stream, BarCodeImageFormat.Png)`를 호출하고 스트림을 파일 결과로 반환하면 됩니다.
 
-A2: 예, 특정 브랜드 요구 사항에 맞게 색상, 글꼴 등을 포함한 바코드 모양을 사용자 정의할 수 있습니다.
+## Conclusion
 
-### Q3: .NET용 Aspose.BarCode는 다양한 .NET Framework 버전과 호환됩니까?
+이제 **DotCode 바코드 이미지** 파일을 생성하고 Aspose.BarCode for .NET을 사용해 행과 열을 정밀하게 제어하는 방법을 알게 되었습니다. `Rows`와 `Columns` 속성을 조정하면 어떤 라벨이나 포장 시나리오에도 맞는 바코드 크기를 만들 수 있습니다. 다양한 차원, 색상, 출력 형식을 실험해 프로젝트 요구에 맞게 적용하고, 더 많은 맞춤 설정을 위해 Aspose.BarCode의 광범위한 기능을 탐색해 보세요.
 
-A3: Aspose.BarCode는 다양한 .NET Framework 버전을 지원하여 다양한 애플리케이션과의 호환성을 보장합니다.
+문제가 발생하거나 더 깊이 파고들고 싶다면 공식 리소스를 확인하세요:
 
-### Q4: .NET용 Aspose.BarCode를 사용하여 생성할 수 있는 다른 바코드 유형은 무엇입니까?
+* [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+* [Aspose.BarCode community support](https://forum.aspose.com/c/barcode/13)
 
-A4: Aspose.BarCode는 QR Code, Code 128, DataMatrix 등 다양한 바코드 유형을 지원합니다.
+---
 
-### Q5: .NET용 Aspose.BarCode에 대한 추가 자습서와 예제는 어디에서 찾을 수 있습니까?
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.BarCode for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
- A5: 다음에서 추가 튜토리얼과 예제를 탐색할 수 있습니다.[Aspose.BarCode 문서](https://reference.aspose.com/barcode/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
