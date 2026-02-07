@@ -1,11 +1,11 @@
 ---
-date: 2025-12-08
-description: Aspose.BarCode kullanarak Java’da code128 barkod oluşturmayı ve barkod
-  görüntüsü üretmeyi öğrenin. Basit, yeniden kullanılabilir kod ile barkod görüntülerinin
-  kesin boyut birimlerini ayarlayın.
+date: 2026-02-07
+description: Aspose Barcode Java'yı kullanarak CODE_128 barkodu oluşturmayı, barkod
+  görüntüsü Java ile üretmeyi ve kesin boyut birimlerini ayarlamayı öğrenin—envanter
+  sistemi veya gönderi etiketi oluşturma için mükemmel bir barkod.
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
-title: Aspose.BarCode ile Java'da code128 barkod oluşturma
+title: 'aspose barcode java: Boyut birimiyle CODE_128 barkodu oluştur'
 url: /tr/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
@@ -14,39 +14,39 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode ile code128 barkod java oluşturma ve boyut birimini ayarlama
+# aspose barcode java: Boyut birimiyle CODE_128 barkod oluşturma
 
 ## Giriş
 
-Bu adım adım rehberde **create code128 barcode java** kodunu oluşturacaksınız; bu kod bir barkod resmi üretir ve çıktının boyut birimini kontrol etmenizi sağlar. İster bir envanter sistemi, bir gönderi etiketi oluşturucu ya da güvenilir bir barkoda ihtiyaç duyan herhangi bir Java uygulaması geliştirin, Aspose.BarCode for Java süreci basit ve yüksek derecede özelleştirilebilir kılar.
+Bu adım adım öğreticide **aspose barcode java** kullanarak bir CODE_128 barkod oluşturacak, bir barcode image java üretecek ve çıktının boyut birimini hassas bir şekilde kontrol edeceksiniz. Envanter sistemi için bir barkod, bir gönderi etiketi oluşturucu ya da güvenilir barkodlara ihtiyaç duyan herhangi bir Java tabanlı uygulama geliştiriyor olun, Aspose.BarCode for Java sadece birkaç satır kodla tam esneklik sağlar.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane gerekiyor?** Aspose.BarCode for Java.
-- **Hangi barkod türü kapsanıyor?** CODE_128 (create code128 barcode java).
-- **Boyut birimini nasıl ayarlarım?** `BarHeight` özelliğini `.setPoint()` ile kullanın.
-- **barcode image java'yı başka formatlarda oluşturabilir miyim?** Evet – PNG, JPEG, BMP, vb.
-- **Ön koşullar nelerdir?** JDK yüklü, Aspose.BarCode kütüphanesi ve bir Java IDE.
+- **Hangi kütüphane gerekiyor?** Aspose.BarCode for Java (aspose barcode java).  
+- **Hangi barkod türü kapsanıyor?** CODE_128 (create code128 barcode java).  
+- **Boyut birimini nasıl ayarlarım?** `BarHeight` özelliğini `.setPoint()` ile kullanın.  
+- **barcode image java'yı başka formatlarda oluşturabilir miyim?** Evet – PNG, JPEG, BMP, vb.  
+- **Ön koşullar nelerdir?** JDK kurulu, Aspose.BarCode kütüphanesi ve bir Java IDE.
 
 ## **create code128 barcode java** nedir?
 
-Java'da bir CODE_128 barkodu oluşturmak, `BarcodeGenerator` sınıfını `EncodeTypes.CODE_128` enum değeriyle örneklemek ve kodlamak istediğiniz veri dizesini sağlamak anlamına gelir. Bu semboloji, tam ASCII karakter setini desteklemesi ve yüksek veri yoğunluğu sunması nedeniyle lojistikte yaygın olarak kullanılır.
+Java'da bir CODE_128 barkod oluşturmak, `BarcodeGenerator` sınıfını `EncodeTypes.CODE_128` enum'ı ile örneklemek ve kodlamak istediğiniz veri dizesini sağlamak anlamına gelir. Bu semboloji, tam ASCII karakter setini desteklemesi ve yüksek veri yoğunluğu sunması nedeniyle lojistikte yaygın olarak kullanılır—envanter sistemi senaryoları için barkod oluşturmayı ideal kılar.
 
-## Aspose.BarCode'i **generate barcode image java** oluşturmak için neden kullanmalısınız?
+## Aspose.BarCode'i **generate barcode image java** için neden kullanmalısınız?
 
-- **Boyutlar üzerinde tam kontrol** – çubuk yüksekliğini, modül boyutunu ve görüntü çözünürlüğünü ayarlayabilirsiniz.
-- **Harici bağımlılık yok** – saf Java, JDK'yı destekleyen herhangi bir platformda çalışır.
-- **Zengin özelleştirme** – renkler, yazı tipleri, kenar boşlukları ve hatta QR kodları desteklenir.
-- **Yüksek performans** – görüntüleri milisaniyeler içinde üretir, toplu işleme uygundur.
+- **Boyutlar üzerinde tam kontrol** – çubuk yüksekliğini, modül boyutunu ve görüntü çözünürlüğünü ayarlayabilirsiniz.  
+- **Harici bağımlılık yok** – saf Java, JDK'yı destekleyen herhangi bir platformda çalışır.  
+- **Zengin özelleştirme** – renkler, yazı tipleri, kenar boşlukları ve hatta QR kodları desteklenir.  
+- **Yüksek performans** – görüntüleri milisaniyeler içinde üretir, toplu işleme ve gönderi etiketi barkod iş akışları için uygundur.
 
 ## Ön Koşullar
 
-1. **Java Development Kit (JDK)** – makinenizde 8 veya daha yeni bir sürüm yüklü.  
+1. **Java Development Kit (JDK)** – makinenizde 8 veya daha yeni bir sürüm kurulu.  
 2. **Aspose.BarCode for Java kütüphanesi** – Aspose web sitesinden (deneme veya lisanslı) en son JAR'ı indirin.  
-3. **Bir Java IDE** – IntelliJ IDEA, Eclipse veya Java uzantılarına sahip VS Code gibi.  
+3. **Bir Java IDE** – IntelliJ IDEA, Eclipse veya Java uzantılarına sahip VS Code gibi.
 
-## İçe Aktarma Ad Alanları
+## İsim Uzaylarını İçe Aktarın
 
-Add the required imports at the top of your Java class so you can access Aspose.BarCode’s API:
+Java sınıfınızın üst kısmına gerekli içe aktarmaları ekleyin, böylece Aspose.BarCode API'sine erişebilirsiniz:
 
 ```java
 import java.io.IOException;
@@ -58,18 +58,18 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 ## Aspose.BarCode ile **generate barcode image java** nasıl yapılır?
 
-Aşağıda tam iş akışı verilmiştir. Her adım sade bir dille açıklanmıştır ve orijinal kod blokları olduğu gibi korunmuştur.
+Aşağıda tam iş akışı yer almaktadır. Her adım sade bir dille açıklanmış ve orijinal kod blokları olduğu gibi korunmuştur.
 
-### Adım 1: Kaynak Dizinini Tanımlama
+### Adım 1: Kaynak Dizini Tanımlayın
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` ifadesini barkod resmini kaydetmek istediğiniz mutlak yol ile değiştirin.
+`"Your Document Directory"` ifadesini barkod görüntüsünün kaydedileceği mutlak yol ile değiştirin. Bu klasör, daha sonra faturalar, paketleme fişleri veya envanter raporlarına ekleyebileceğiniz oluşturulan PNG/JPEG dosyalarını tutacaktır.
 
-### Adım 2: Barkod Nesnesini Oluşturma
+### Adım 2: Barkod Nesnesini Oluşturun
 
 ```java
 // Instantiate barcode object, Set the symbology type to code128 and Set the
@@ -77,38 +77,38 @@ String dataDir = "Your Document Directory";
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-Burada `EncodeTypes.CODE_128` ve veri dizesi `"1234567"` geçerek **create code128 barcode java** yapıyoruz.
+Burada `EncodeTypes.CODE_128` ve veri dizesi "1234567" geçirerek **create code128 barcode java** gerçekleştiriyoruz.
 
-### Adım 3: Çubuk Yüksekliğini Ayarlama (Boyut Birimi)
+### Adım 3: Çubuk Yüksekliğini Ayarlayın (Boyut Birimi)
 
 ```java
 // Set the bar height to 3 points
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-`setPoint()` metodu yüksekliği puan cinsinden tanımlar (1 puan = 1/72 inç). Bu değeri düzen tasarım gereksinimlerinize göre ayarlayın.
+`setPoint()` yöntemi yüksekliği puan cinsinden tanımlar (1 puan = 1/72 inç). Bu değeri düzenleme gereksinimlerinize göre ayarlayın—daha büyük değerler daha uzun çubuklar üretir, bu da yüksek çözünürlüklü gönderi etiketleri için sıkça gerekir.
 
-### Adım 4: Görüntüyü Kaydetme
+### Adım 4: Görüntüyü Kaydedin
 
 ```java
 // Save the image
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-`save()` çağrısı oluşturulan barkodu belirttiğiniz klasöre yazar. Görüntü formatı dosya uzantısından (bu örnekte JPEG) çıkarılır.
+`save()` çağrısı oluşturulan barkodu belirttiğiniz klasöre yazar. Görüntü formatı dosya uzantısından çıkarılır (bu örnekte JPEG). Uzantıyı değiştirerek PNG, BMP veya TIFF'e geçebilirsiniz.
 
 ## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **Görüntü oluşturulamadı** | `dataDir` yolu yanlış veya yazma izinleri eksik. | Klasörün var olduğunu ve uygulamanızın yazma erişimine sahip olduğunu doğrulayın. |
+| **Görüntü oluşturulmadı** | `dataDir` yolu yanlış veya yazma izinleri eksik. | Klasörün var olduğunu ve uygulamanızın yazma erişimine sahip olduğunu doğrulayın. |
 | **Barkod çok küçük görünüyor** | Puan cinsinden ayarlanan çubuk yüksekliği seçilen DPI için çok düşük. | `setPoint()`'a geçirilen değeri artırın veya `bb.getParameters().getImage().setResolution()` ile görüntü DPI'sını ayarlayın. |
-| **Desteklenmeyen karakterler** | CODE_128 sadece ASCII'yi destekler; Unicode geçtiniz. | ASCII olmayan veriler için farklı bir semboloji (ör. QR_CODE) kullanın. |
+| **Desteklenmeyen karakterler** | CODE_128 sadece ASCII destekler; Unicode gönderdiniz. | ASCII olmayan veriler için farklı bir semboloji (ör. QR_CODE) kullanın. |
 
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.BarCode for Java hem barkod oluşturma hem de tanıma için uygun mu?**  
-C: Evet, kütüphane geniş bir semboloji yelpazesinin hem oluşturulmasını hem de tanınmasını destekler.
+C: Evet, kütüphane geniş bir semboloji yelpazesinde hem oluşturmayı hem de tanımayı destekler.
 
 **S: Oluşturulan barkod görüntülerinin görünümünü özelleştirebilir miyim?**  
 C: Kesinlikle. Renkleri değiştirebilir, başlık ekleyebilir, kenar boşluklarını düzenleyebilir ve hatta kapsamlı `Parameters` API'siyle logolar ekleyebilirsiniz.
@@ -116,15 +116,20 @@ C: Kesinlikle. Renkleri değiştirebilir, başlık ekleyebilir, kenar boşluklar
 **S: Aspose.BarCode for Java için geçici bir lisans nasıl alabilirim?**  
 C: Değerlendirme amaçlı geçici lisans talep etmek için [burayı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-**S: Aspose.BarCode for Java desteğini nereden bulabilirim?**  
-C: Aspose.BarCode topluluk forumu yardım almak için en iyi yerdir. Yanıtlar ve yeni sorular için [forum](https://forum.aspose.com/c/barcode/13) adresine bakın.
+**S: Aspose.BarCode for Java için destek nereden bulunur?**  
+C: Aspose.BarCode topluluk forumu yardım için en iyi yerdir. Cevaplar ve yeni sorular için [forum](https://forum.aspose.com/c/barcode/13) adresine bakın.
 
 **S: Aspose.BarCode for Java'da desteklenen barkod sembolojileri nelerdir?**  
-C: Kütüphane CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 ve daha fazlası dahil olmak üzere onlarca sembolojiyi destekler.
+C: Kütüphane CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 ve daha fazlası dahil olmak üzere düzinelerce sembolojiyi destekler.
+
+### Ek İpuçları (Pro ipucu)
+
+- **Toplu işleme:** Yukarıdaki adımları bir döngü içinde sararak toplu envanter yüklemeleri için yüzlerce barkod oluşturabilirsiniz.  
+- **Çözünürlük kontrolü:** 300 dpi görüntüler üretmek için `bb.getParameters().getImage().setResolution(300)` kullanın; bu, yüksek kaliteli baskı etiketleri için idealdir.
 
 ---
 
-**Son Güncelleme:** 2025-12-08  
+**Son Güncelleme:** 2026-02-07  
 **Test Edilen Versiyon:** Aspose.BarCode for Java 24.12 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose  
 

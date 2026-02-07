@@ -1,11 +1,12 @@
 ---
-date: 2025-12-08
-description: Aprende cómo crear códigos de barras Code128 en Java y generar imágenes
-  de códigos de barras en Java usando Aspose.BarCode. Establece unidades de tamaño
-  precisas para las imágenes de códigos de barras con código simple y reutilizable.
+date: 2026-02-07
+description: Aprende a usar Aspose Barcode Java para crear un código de barras CODE_128,
+  generar una imagen de código de barras en Java y establecer unidades de tamaño precisas,
+  perfecto para códigos de barras en sistemas de inventario o generación de etiquetas
+  de envío.
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
-title: Crear código de barras code128 en Java con Aspose.BarCode
+title: 'aspose barcode java: Crear código de barras CODE_128 con unidad de tamaño'
 url: /es/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
@@ -14,41 +15,41 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear código de barras code128 java y establecer la unidad de tamaño con Aspose.BarCode
+# aspose barcode java: Crear código de barras CODE_128 con unidad de tamaño
 
 ## Introducción
 
-En esta guía paso a paso **creará código de barras code128 java** que genera una imagen de código de barras y le permite controlar la unidad de tamaño de la salida. Ya sea que esté construyendo un sistema de inventario, un generador de etiquetas de envío, o cualquier aplicación Java que necesite un código de barras confiable, Aspose.BarCode for Java hace que el proceso sea sencillo y altamente personalizable.
+En este tutorial paso a paso **usarás aspose barcode java** para crear un código de barras CODE_128, generar una imagen de código de barras java y controlar con precisión la unidad de tamaño del resultado. Ya sea que estés construyendo un código de barras para un sistema de inventario, un generador de etiquetas de envío o cualquier aplicación basada en Java que necesite códigos de barras fiables, Aspose.BarCode for Java te brinda total flexibilidad con solo unas pocas líneas de código.
 
 ## Respuestas rápidas
-- **¿Qué biblioteca necesito?** Aspose.BarCode for Java.
-- **¿Qué tipo de código de barras se cubre?** CODE_128 (create code128 barcode java).
-- **¿Cómo se establece la unidad de tamaño?** Use la propiedad `BarHeight` con `.setPoint()`.
-- **¿Puedo generar imágenes de código de barras java en otros formatos?** Sí – PNG, JPEG, BMP, etc.
-- **¿Cuáles son los requisitos previos?** JDK instalado, biblioteca Aspose.BarCode y un IDE Java.
+- **¿Qué biblioteca necesito?** Aspose.BarCode for Java (aspose barcode java).  
+- **¿Qué tipo de código de barras se cubre?** CODE_128 (create code128 barcode java).  
+- **¿Cómo establezco la unidad de tamaño?** Usa la propiedad `BarHeight` con `.setPoint()`.  
+- **¿Puedo generar barcode image java en otros formatos?** Sí – PNG, JPEG, BMP, etc.  
+- **¿Cuáles son los requisitos previos?** JDK instalado, biblioteca Aspose.BarCode y un IDE de Java.
 
 ## ¿Qué es **create code128 barcode java**?
 
-Crear un código de barras CODE_128 en Java significa instanciar la clase `BarcodeGenerator` con el enumerado `EncodeTypes.CODE_128` y proporcionar la cadena de datos que desea codificar. Esta simbología se usa ampliamente en logística porque admite el conjunto completo de caracteres ASCII y ofrece alta densidad de datos.
+Crear un código de barras CODE_128 en Java significa instanciar la clase `BarcodeGenerator` con el enumerado `EncodeTypes.CODE_128` y proporcionar la cadena de datos que deseas codificar. Esta simbología se usa ampliamente en logística porque soporta el conjunto completo de caracteres ASCII y ofrece alta densidad de datos, lo que la hace ideal para escenarios de código de barras para sistemas de inventario.
 
 ## ¿Por qué usar Aspose.BarCode para **generate barcode image java**?
 
-- **Control total sobre las dimensiones** – puede establecer la altura de la barra, el tamaño del módulo y la resolución de la imagen.
-- **Sin dependencias externas** – Java puro, funciona en cualquier plataforma que soporte el JDK.
-- **Personalización avanzada** – colores, fuentes, márgenes e incluso códigos QR son compatibles.
-- **Alto rendimiento** – genera imágenes en milisegundos, adecuado para procesamiento por lotes.
+- **Control total sobre dimensiones** – puedes establecer la altura de la barra, el tamaño del módulo y la resolución de la imagen.  
+- **Sin dependencias externas** – puro Java, funciona en cualquier plataforma que soporte el JDK.  
+- **Personalización avanzada** – colores, fuentes, márgenes e incluso códigos QR son compatibles.  
+- **Alto rendimiento** – genera imágenes en milisegundos, adecuado para procesamiento por lotes y flujos de trabajo de generación de etiquetas de envío.  
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener:
+Antes de comenzar, asegúrate de tener:
 
-1. **Java Development Kit (JDK)** – versión 8 o posterior instalada en su máquina.  
-2. **Aspose.BarCode for Java library** – descargue el JAR más reciente desde el sitio web de Aspose (prueba o licencia).  
-3. **Un IDE Java** – como IntelliJ IDEA, Eclipse o VS Code con extensiones Java.  
+1. **Java Development Kit (JDK)** – versión 8 o posterior instalada en tu máquina.  
+2. **Aspose.BarCode for Java library** – descarga el JAR más reciente desde el sitio web de Aspose (prueba o licencia).  
+3. **Un IDE de Java** – como IntelliJ IDEA, Eclipse o VS Code con extensiones de Java.  
 
 ## Importar espacios de nombres
 
-Agregue las importaciones necesarias al inicio de su clase Java para poder acceder a la API de Aspose.BarCode:
+Agrega los imports necesarios al inicio de tu clase Java para poder acceder a la API de Aspose.BarCode:
 
 ```java
 import java.io.IOException;
@@ -58,7 +59,7 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Cómo **generate barcode image java** con Aspose.BarCode?
+## ¿Cómo **generate barcode image java** con Aspose.BarCode?
 
 A continuación se muestra el flujo de trabajo completo. Cada paso se explica en lenguaje sencillo, y los bloques de código originales se mantienen exactamente como estaban.
 
@@ -69,7 +70,7 @@ A continuación se muestra el flujo de trabajo completo. Cada paso se explica en
 String dataDir = "Your Document Directory";
 ```
 
-Reemplace `"Your Document Directory"` con la ruta absoluta donde desea que se guarde la imagen del código de barras.
+Reemplaza `"Your Document Directory"` con la ruta absoluta donde deseas guardar la imagen del código de barras. Esta carpeta contendrá los archivos PNG/JPEG generados que luego podrás incrustar en facturas, albaranes o informes de inventario.
 
 ### Paso 2: Instanciar el objeto Barcode
 
@@ -79,7 +80,7 @@ Reemplace `"Your Document Directory"` con la ruta absoluta donde desea que se gu
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-Aquí **creamos código de barras code128 java** pasando `EncodeTypes.CODE_128` y la cadena de datos `"1234567"`.
+Aquí **create code128 barcode java** pasando `EncodeTypes.CODE_128` y la cadena de datos `"1234567"`.
 
 ### Paso 3: Establecer la altura de la barra (unidad de tamaño)
 
@@ -88,7 +89,7 @@ Aquí **creamos código de barras code128 java** pasando `EncodeTypes.CODE_128` 
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-El método `setPoint()` define la altura en puntos (1 punto = 1/72 pulgada). Ajuste este valor para cumplir con los requisitos de su diseño.
+El método `setPoint()` define la altura en puntos (1 punto = 1/72 de pulgada). Ajusta este valor para cumplir con los requisitos de tu diseño; valores mayores producen barras más altas, lo cual suele ser necesario para etiquetas de envío de alta resolución.
 
 ### Paso 4: Guardar la imagen
 
@@ -97,37 +98,42 @@ El método `setPoint()` define la altura en puntos (1 punto = 1/72 pulgada). Aju
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-La llamada `save()` escribe el código de barras generado en la carpeta que especificó. El formato de la imagen se infiere de la extensión del archivo (JPEG en este caso).
+La llamada `save()` escribe el código de barras generado en la carpeta que especificaste. El formato de la imagen se infiere de la extensión del archivo (JPEG en este caso). Puedes cambiar a PNG, BMP o TIFF simplemente modificando la extensión.
 
 ## Problemas comunes y soluciones
 
 | Problema | Razón | Solución |
 |----------|-------|----------|
-| **Image not created** | `dataDir` path is incorrect or missing write permissions. | Verify the folder exists and your application has write access. |
-| **Barcode appears too small** | Bar height set in points is too low for the chosen DPI. | Increase the value passed to `setPoint()` or adjust image DPI via `bb.getParameters().getImage().setResolution()`. |
-| **Unsupported characters** | CODE_128 supports only ASCII; you passed Unicode. | Use a different symbology (e.g., QR_CODE) for non‑ASCII data. |
+| **Imagen no creada** | La ruta `dataDir` es incorrecta o faltan permisos de escritura. | Verifica que la carpeta exista y que tu aplicación tenga acceso de escritura. |
+| **El código de barras aparece demasiado pequeño** | La altura de la barra establecida en puntos es demasiado baja para el DPI elegido. | Incrementa el valor pasado a `setPoint()` o ajusta el DPI de la imagen mediante `bb.getParameters().getImage().setResolution()`. |
+| **Caracteres no compatibles** | CODE_128 solo admite ASCII; se pasó Unicode. | Usa una simbología diferente (p. ej., QR_CODE) para datos no ASCII. |
 
 ## Preguntas frecuentes
 
-**Q: ¿Es Aspose.BarCode for Java adecuado tanto para la generación como para el reconocimiento de códigos de barras?**  
-A: Sí, la biblioteca soporta tanto la generación como el reconocimiento de una amplia gama de simbologías.
+**P: ¿Es Aspose.BarCode for Java adecuado tanto para generación como para reconocimiento de códigos de barras?**  
+R: Sí, la biblioteca soporta tanto la generación como el reconocimiento de una amplia gama de simbologías.
 
-**Q: ¿Puedo personalizar la apariencia de las imágenes de código de barras generadas?**  
-A: Absolutamente. Puede cambiar colores, añadir subtítulos, modificar márgenes e incluso incrustar logotipos usando la extensa API `Parameters`.
+**P: ¿Puedo personalizar la apariencia de las imágenes de código de barras generadas?**  
+R: Por supuesto. Puedes cambiar colores, añadir subtítulos, modificar márgenes e incluso incrustar logotipos usando la extensa API `Parameters`.
 
-**Q: ¿Cómo puedo obtener una licencia temporal para Aspose.BarCode for Java?**  
-A: Visite [here](https://purchase.aspose.com/temporary-license/) para solicitar una licencia temporal de evaluación.
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.BarCode for Java?**  
+R: Visita [aquí](https://purchase.aspose.com/temporary-license/) para solicitar una licencia temporal de evaluación.
 
-**Q: ¿Dónde puedo encontrar soporte para Aspose.BarCode for Java?**  
-A: El foro de la comunidad de Aspose.BarCode es el mejor lugar para obtener ayuda. Consulte el [forum](https://forum.aspose.com/c/barcode/13) para respuestas y para hacer nuevas preguntas.
+**P: ¿Dónde puedo encontrar soporte para Aspose.BarCode for Java?**  
+R: El foro de la comunidad de Aspose.BarCode es el mejor lugar para obtener ayuda. Consulta el [foro](https://forum.aspose.com/c/barcode/13) para respuestas y para hacer nuevas preguntas.
 
-**Q: ¿Cuáles son las simbologías de código de barras compatibles en Aspose.BarCode for Java?**  
-A: La biblioteca soporta docenas de simbologías, incluyendo CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 y muchas más.
+**P: ¿Cuáles son las simbologías de código de barras compatibles en Aspose.BarCode for Java?**  
+R: La biblioteca soporta docenas de simbologías, incluyendo CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 y muchas más.
+
+### Consejos adicionales (Pro tip)
+
+- **Procesamiento por lotes:** Envuelve los pasos anteriores en un bucle para generar cientos de códigos de barras para cargas masivas de inventario.  
+- **Control de resolución:** Usa `bb.getParameters().getImage().setResolution(300)` para producir imágenes de 300 dpi, ideales para etiquetas impresas de alta calidad.  
 
 ---
 
-**Última actualización:** 2025-12-08  
-**Probado con:** Aspose.BarCode for Java 24.12 (última versión al momento de escribir)  
+**Última actualización:** 2026-02-07  
+**Probado con:** Aspose.BarCode for Java 24.12 (última disponible al momento de escribir)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
