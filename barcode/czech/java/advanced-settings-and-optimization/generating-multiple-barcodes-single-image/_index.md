@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
+date: 2026-02-09
 description: Naučte se, jak generovat čárové kódy na jednom obrázku v Javě pomocí
-  Aspose.BarCode. Tento průvodce pokrývá integraci Aspose.BarCode v Javě a generování
-  více čárových kódů.
+  Aspose.BarCode, výkonné knihovny pro generování čárových kódů v Javě. Tento průvodce
+  pokrývá integraci a generování více čárových kódů.
 linktitle: Generating Multiple Barcodes on a Single Image
 second_title: Aspose.BarCode Java API
-title: Jak generovat čárové kódy na jednom obrázku v Javě
+title: Jak v Javě generovat čárové kódy na jednom obrázku
 url: /cs/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 weight: 19
 ---
@@ -18,36 +18,33 @@ weight: 19
 
 ## Úvod
 
-Pokud hledáte spolehlivý způsob **jak generovat čárové kódy** v Java aplikaci, jste na správném místě. S Aspose.BarCode pro Java můžete umístit několik různých typů čárových kódů na jeden obrázek během několika řádků kódu. Tento tutoriál vás provede celým procesem – od nastavení projektu po uložení kombinovaného obrázku – takže můžete okamžitě začít používat generování čárových kódů ve svých řešeních.
+Pokud hledáte spolehlivý způsob **jak generovat čárové kódy** v Java aplikaci, jste na správném místě. S Aspose.BarCode pro Java můžete umístit několik různých typů čárových kódů na jeden obrázek během několika řádků kódu. Tento tutoriál vás provede celým procesem – od nastavení projektu až po uložení kombinovaného obrázku – takže můžete okamžitě začít používat generování čárových kódů ve svých řešeních.
 
 ## Rychlé odpovědi
-- **Jakou knihovnu mám použít?** Aspose.BarCode pro Java poskytuje nejkompletnější sadu symbologií.  
+- **Jakou knihovnu použít?** Aspose.BarCode pro Java poskytuje nejúplnější sadu symbologií.  
 - **Mohu generovat různé typy čárových kódů dohromady?** Ano, můžete kombinovat CODE_39, QR, AZTEC a další na jedné plátně.  
 - **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; pro produkci je vyžadována komerční licence.  
 - **Která verze Javy je podporována?** Java 8 a novější jsou plně kompatibilní.  
 - **Je výstupní formát konfigurovatelný?** Můžete exportovat kombinovaný obrázek jako PNG, JPEG, BMP atd.
 
-## Co znamená “jak generovat čárové kódy” v Javě?
+## Co znamená „jak generovat čárové kódy“ v Javě?
+Generování čárových kódů znamená převod řetězce dat na vizuální vzor, který dokážou čtečky rozpoznat. Aspose.BarCode automaticky provádí kódování, vykreslování a tvorbu obrázku, takže se můžete soustředit na obchodní logiku místo nízkoúrovňového zpracování obrazu.
 
-Generování čárových kódů znamená převod řetězce dat na vizuální vzor, který skenery dokážou přečíst. Aspose.BarCode automaticky provádí kroky kódování, vykreslování a tvorby obrázku, což vám umožní soustředit se na obchodní logiku místo nízkoúrovňového zpracování obrazu.
-
-## Proč použít Aspose.BarCode pro generování čárových kódů v Javě?
-
-- **Široká podpora symbologií** – od klasických lineárních kódů po moderní 2‑D matice.  
-- **Vysoká kvalita vykreslování** – antialiasovaný výstup, který funguje na jakémkoli zařízení.  
-- **Jednoduché API** – vytvářejte, přizpůsobujte a kombinujte čárové kódy pomocí několika volání metod.  
-- **Žádné externí závislosti** – vše běží na JVM bez nativních knihoven.
+## Proč generovat více čárových kódů na jednom obrázku?
+- **Úspora místa na štítcích** – kombinujte produktové, šaržové a přepravní identifikátory na jednom štítku.  
+- **Pracovní postupy s více skenováním** – vložte QR, Data Matrix a Code 128 pro různé skenovací stanice.  
+- **Zjednodušené sledování majetku** – zobrazte SKU, data RFID tagu a sériová čísla společně pro rychlé audity.  
 
 ## Požadavky
 
-Před tím, než se ponoříte do tutoriálu, ujistěte se, že máte následující požadavky:
+Předtím, než se pustíte do tutoriálu, ujistěte se, že máte následující:
 
-- Základní znalost programování v Javě.  
-- Nainstalovaný Java Development Kit (JDK) ve vašem systému.  
-- Knihovna Aspose.BarCode pro Java stažená a nastavená. Můžete ji stáhnout [zde](https://releases.aspose.com/barcode/java/).  
+- Základní znalosti programování v Javě.  
+- Nainstalovaný Java Development Kit (JDK).  
+- Stáhnutou a nastavenou knihovnu Aspose.BarCode pro Java. Knihovnu můžete stáhnout [zde](https://releases.aspose.com/barcode/java/).  
 - Integrované vývojové prostředí (IDE) jako Eclipse nebo IntelliJ IDEA.
 
-## Importování jmenných prostorů
+## Import Namespaces
 
 Ve vašem Java projektu importujte potřebné jmenné prostory pro přístup k funkcionalitě Aspose.BarCode. Přidejte následující importy na začátek vaší Java třídy:
 
@@ -70,7 +67,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 ## Krok 1: Nastavení adresáře zdrojů
 
-Definujte cestu k adresáři zdrojů, kde budou uloženy vygenerované čárové kódy. Tento adresář je klíčový pro organizaci a správu vašich obrázků čárových kódů.
+Definujte cestu k adresáři zdrojů, kam budou generované čárové kódy ukládány. Tento adresář je klíčový pro organizaci a správu vašich obrázků čárových kódů.
 
 ```java
 // The path to the resource directory.
@@ -80,7 +77,7 @@ String dataDir = Utils.getDataDir(GenerateMultipleBarcodesOnASingleImage.class)
 
 ## Krok 2: Vytvoření kolekce čárových kódů
 
-Inicializujte `HashMap`, která bude uchovávat data čárových kódů. Každý záznam v kolekci představuje čárový kód s jeho příslušným typem kódování.
+Inicializujte `HashMap`, která bude uchovávat data čárových kódů. Každý záznam v kolekci představuje čárový kód s příslušným typem kódování.
 
 ```java
 HashMap<String, EncodeTypes> collection = new HashMap<>();
@@ -142,23 +139,36 @@ File outputfile = new File(dataDir + "output.png");
 ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
-## Běžné případy použití pro generování více čárových kódů
+## Jak generovat QR kód v Javě?
 
-- **Štítky balení** – kombinujte produktové, šaržové a přepravní kódy na jednom štítku.  
-- **Vstupenky na akce** – vložte QR, Data Matrix a Code 128 identifikátory pro různé skenovací stanice.  
-- **Správa zásob** – zobrazte SKU, data RFID štítků a sériová čísla společně pro rychlý audit.
+Pokud potřebujete příklad **generovat QR kód v Javě**, jednoduše nahraďte položku v kolekci `EncodeTypes.QR`. Stejná smyčka vygeneruje vysoce rozlišený QR kód, který může ukládat URL, kontaktní informace nebo libovolná alfanumerická data.
+
+## Jak generovat čárový kód Code 128 v Javě?
+
+Ukázka výše již demonstruje **generování čárového kódu Code 128** pomocí `EncodeTypes.CODE_128`. Code 128 je ideální pro logistiku, protože podporuje celý ASCII set a nabízí kompaktní kódování.
+
+## Použití Java knihovny pro generování čárových kódů mimo Aspose
+
+Zatímco Aspose.BarCode je plnohodnotná **java knihovna pro generování čárových kódů**, můžete také zkusit open‑source alternativy jako ZXing nebo Barcode4J pro lehčí scénáře. Nicméně Aspose poskytuje vestavěnou podporu pro vysoké rozlišení, více symbologií a snadné skládání obrázků – vše v jednom balíčku.
+
+## Běžné případy použití generování více čárových kódů
+
+- **Obalové štítky** – kombinujte produktové, šaržové a přepravní kódy na jednom štítku.  
+- **Vstupenky na akce** – vložte QR, Data Matrix a Code 128 identifikátory pro různé skenovací stanice.  
+- **Správa inventáře** – zobrazte SKU, data RFID tagu a sériová čísla společně pro rychlý audit.
 
 ## Řešení problémů a tipy
 
-- **Problémy s velikostí obrázku** – upravte proměnnou `offset` pro zvětšení nebo zmenšení mezery mezi čárovými kódy.  
+- **Problémy s velikostí obrázku** – upravte proměnnou `offset` pro zvýšení nebo snížení mezery mezi čárovými kódy.  
 - **Nesprávná symbologie** – ověřte, že vaše verze Aspose.BarCode podporuje požadovaný typ čárového kódu.  
-- **Výkon** – znovu použijte jediný objekt `Graphics`, pokud generujete mnoho obrázků ve smyčce.
+- **Výkon** – znovu použijte jediný objekt `Graphics`, pokud generujete mnoho obrázků ve smyčce.  
+- **Správa paměti** – při práci s velkým počtem čárových kódů zvažte dočasné ukládání každého obrázku na disk, abyste předešli nadměrnému využití haldy.
 
 ## Často kladené otázky
 
 ### Q1: Mohu přizpůsobit vzhled jednotlivých čárových kódů v generovaném obrázku?
 
-A1: Ano, Aspose.BarCode poskytuje rozsáhlé možnosti přizpůsobení vzhledu čárových kódů, což vám umožní upravit styl každého kódu podle vašich preferencí.
+A1: Ano, Aspose.BarCode poskytuje rozsáhlé možnosti přizpůsobení vzhledu čárových kódů, což vám umožní nastavit styl každého kódu podle vašich preferencí.
 
 ### Q2: Je Aspose.BarCode kompatibilní s různými symbologiemi čárových kódů?
 
@@ -166,29 +176,29 @@ A2: Rozhodně! Aspose.BarCode podporuje širokou škálu symbologií, včetně C
 
 ### Q3: Jak mohu integrovat Aspose.BarCode do svého Java projektu?
 
-A3: Jednoduše stáhněte knihovnu Aspose.BarCode pro Java z [zde](https://releases.aspose.com/barcode/java/) a postupujte podle instalačních instrukcí uvedených v dokumentaci.
+A3: Jednoduše si stáhněte knihovnu Aspose.BarCode pro Java z [zde](https://releases.aspose.com/barcode/java/) a postupujte podle instalačních pokynů uvedených v dokumentaci.
 
-### Q4: Mohu použít Aspose.BarCode pro komerční aplikace?
+### Q4: Mohu používat Aspose.BarCode pro komerční aplikace?
 
-A4: Ano, můžete získat licenci z [zde](https://purchase.aspose.com/buy) pro komerční využití Aspose.BarCode.
+A4: Ano, licenci můžete získat [zde](https://purchase.aspose.com/buy) a používat Aspose.BarCode pro komerční účely.
 
 ### Q5: Existují zkušební možnosti pro Aspose.BarCode?
 
-A5: Rozhodně! Můžete prozkoumat funkce Aspose.BarCode získáním bezplatné zkušební licence [zde](https://releases.aspose.com/).
+A5: Samozřejmě! Funkce Aspose.BarCode můžete vyzkoušet získáním bezplatné zkušební licence [zde](https://releases.aspose.com/).
 
 **Další otázky**
 
-**Q: Jak v Javě konkrétně generovat QR kód?**  
+**Q: Jak konkrétně v Javě vygenerovat QR kód?**  
 A: Použijte `EncodeTypes.QR` při vytváření instance `BarcodeGenerator`, jak je ukázáno v příkladu kolekce.
 
 **Q: Podporuje Aspose.BarCode výstup ve vysokém rozlišení pro tisk?**  
-A: Ano, můžete při ukládání obrázku specifikovat DPI, aby vyhovoval požadavkům na tiskovou kvalitu.
+A: Ano, můžete při ukládání obrázku specifikovat DPI tak, aby vyhovovalo požadavkům na tiskovou kvalitu.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode for Java 24.11  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-02-09  
+**Testováno s:** Aspose.BarCode pro Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

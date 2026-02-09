@@ -1,8 +1,8 @@
 ---
-date: 2025-12-10
-description: Aprenda cómo generar códigos de barras en una sola imagen en Java usando
-  Aspose.BarCode. Esta guía cubre la integración de Aspose Barcode para Java y la
-  generación de múltiples códigos de barras.
+date: 2026-02-09
+description: Aprenda a generar códigos de barras en una sola imagen en Java usando
+  Aspose.BarCode, una potente biblioteca de generación de códigos de barras para Java.
+  Esta guía cubre la integración y la generación múltiple de códigos de barras.
 linktitle: Generating Multiple Barcodes on a Single Image
 second_title: Aspose.BarCode Java API
 title: Cómo generar códigos de barras en una sola imagen en Java
@@ -14,27 +14,28 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generar múltiples códigos de barras en una sola imagen en Java con Aspose.BarCode
+# Generación de múltiples códigos de barras en una sola imagen en Java con Aspose.BarCode
 
 ## Introducción
 
-Si buscas una forma fiable **cómo generar códigos de barras** en una aplicación Java, has llegado al lugar correcto. Con Aspose.BarCode para Java puedes colocar varios tipos diferentes de códigos de barras en una sola imagen con solo unas pocas líneas de código. Este tutorial te guía a través de todo el proceso —desde la configuración del proyecto hasta el guardado de la imagen combinada— para que puedas comenzar a usar la generación de códigos de barras en tus propias soluciones de inmediato.
+Si buscas una forma confiable **de generar códigos de barras** en una aplicación Java, has llegado al lugar correcto. Con Aspose.BarCode para Java puedes colocar varios tipos diferentes de códigos de barras en una sola imagen con solo unas pocas líneas de código. Este tutorial te guía a través de todo el proceso —desde la configuración del proyecto hasta el guardado de la imagen combinada— para que puedas comenzar a usar la generación de códigos de barras en tus propias soluciones de inmediato.
 
 ## Respuestas rápidas
-- **¿Qué biblioteca debo usar?** Aspose.BarCode para Java ofrece el conjunto más completo de simbologías.  
-- **¿Puedo generar diferentes tipos de códigos de barras juntos?** Sí, puedes mezclar CODE_39, QR, AZTEC y más en un solo lienzo.  
-- **¿Necesito una licencia para desarrollo?** Una prueba gratuita funciona para pruebas; se requiere una licencia comercial para producción.  
-- **¿Qué versión de Java es compatible?** Java 8 y versiones posteriores son totalmente compatibles.  
-- **¿Es configurable el formato de salida?** Puedes exportar la imagen combinada como PNG, JPEG, BMP, etc.
+- **¿Qué biblioteca debo usar?** Aspose.BarCode for Java provides the most complete set of symbologies.  
+- **¿Puedo generar diferentes tipos de códigos de barras juntos?** Yes, you can mix CODE_39, QR, AZTEC, and more on a single canvas.  
+- **¿Necesito una licencia para desarrollo?** A free trial works for testing; a commercial license is required for production.  
+- **¿Qué versión de Java es compatible?** Java 8 and newer are fully compatible.  
+- **¿Es configurable el formato de salida?** You can export the combined image as PNG, JPEG, BMP, etc.
 
-## ¿Qué es “cómo generar códigos de barras” en Java?
-Generar códigos de barras significa convertir una cadena de datos en un patrón visual que los escáneres pueden leer. Aspose.BarCode maneja automáticamente los pasos de codificación, renderizado y creación de la imagen, permitiéndote centrarte en la lógica de negocio en lugar del procesamiento de imágenes de bajo nivel.
+## ¿Qué es “generar códigos de barras” en Java?
 
-## ¿Por qué usar Aspose.BarCode para la generación de códigos de barras en Java?
-- **Amplio soporte de simbologías** – desde códigos lineales clásicos hasta matrices 2‑D modernas.  
-- **Renderizado de alta calidad** – salida antialias que funciona en cualquier dispositivo.  
-- **API sencilla** – crea, personaliza y combina códigos de barras con solo unas pocas llamadas a métodos.  
-- **Sin dependencias externas** – todo se ejecuta en la JVM sin bibliotecas nativas.
+Generar códigos de barras significa convertir una cadena de datos en un patrón visual que los escáneres pueden leer. Aspose.BarCode maneja automáticamente los pasos de codificación, renderizado y creación de imágenes, permitiéndote centrarte en la lógica de negocio en lugar del procesamiento de imágenes de bajo nivel.
+
+## ¿Por qué generar múltiples códigos de barras en una sola imagen?
+
+- **Etiquetas que ahorran espacio** – combina identificadores de producto, lote y envío en una sola etiqueta.  
+- **Flujos de trabajo multi‑escaneo** – incrusta códigos QR, Data Matrix y Code 128 para diferentes estaciones de escaneo.  
+- **Seguimiento de activos simplificado** – muestra SKU, datos de etiquetas RFID y números de serie juntos para auditorías rápidas.  
 
 ## Requisitos previos
 
@@ -47,7 +48,7 @@ Antes de sumergirte en el tutorial, asegúrate de contar con los siguientes requ
 
 ## Importar espacios de nombres
 
-En tu proyecto Java, importa los espacios de nombres necesarios para acceder a la funcionalidad de Aspose.BarCode. Añade las siguientes sentencias de importación al comienzo de tu clase Java:
+En tu proyecto Java, importa los espacios de nombres necesarios para acceder a la funcionalidad de Aspose.BarCode. Añade las siguientes declaraciones de importación al comienzo de tu clase Java:
 
 ```java
 import java.awt.Color;
@@ -78,7 +79,7 @@ String dataDir = Utils.getDataDir(GenerateMultipleBarcodesOnASingleImage.class)
 
 ## Paso 2: Crear una colección de códigos de barras
 
-Inicializa un `HashMap` para almacenar los datos de los códigos de barras. Cada entrada en la colección representa un código de barras con su tipo de codificación respectivo.
+Inicializa un `HashMap` para almacenar los datos del código de barras. Cada entrada en la colección representa un código de barras con su tipo de codificación correspondiente.
 
 ```java
 HashMap<String, EncodeTypes> collection = new HashMap<>();
@@ -92,7 +93,7 @@ collection.put("Aztec BarCode", EncodeTypes.AZTEC);
 
 ## Paso 3: Generar imágenes de códigos de barras
 
-Itera a través de la colección y genera imágenes de códigos de barras usando la biblioteca Aspose.BarCode. Almacena las imágenes en un `ArrayList` para su posterior procesamiento.
+Itera a través de la colección y genera imágenes de códigos de barras usando la biblioteca Aspose.BarCode. Almacena las imágenes en un `ArrayList` para procesamiento posterior.
 
 ```java
 ArrayList<BufferedImage> images = new ArrayList<>();
@@ -105,7 +106,7 @@ for (Object key : collection.keySet()) {
 
 ## Paso 4: Crear una imagen combinada
 
-Determina el ancho máximo y la altura total de las imágenes de códigos de barras. Crea un `BufferedImage` para combinar las imágenes individuales en una sola imagen de salida.
+Determina el ancho máximo y la altura total de las imágenes de códigos de barras. Crea un `BufferedImage` para combinar las imágenes de códigos de barras individuales en una única imagen de salida.
 
 ```java
 int maxWidth = 0;
@@ -133,57 +134,72 @@ for (int i = 0; i < images.size(); ++i) {
 
 ## Paso 5: Guardar el resultado
 
-Guarda la imagen combinada final en la ubicación de archivo especificada.
+Guarda la imagen combinada final en una ubicación de archivo especificada.
 
 ```java
 File outputfile = new File(dataDir + "output.png");
 ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
+## ¿Cómo generar un código QR al estilo Java?
+
+Si necesitas un ejemplo de **generar código QR en Java**, simplemente reemplaza la entrada en la colección con `EncodeTypes.QR`. El mismo bucle generará un código QR de alta resolución que puede almacenar URLs, información de contacto o cualquier dato alfanumérico.
+
+## ¿Cómo generar un código de barras Code 128 en Java?
+
+El fragmento anterior ya muestra **generar código de barras Code 128** usando `EncodeTypes.CODE_128`. Code 128 es ideal para logística porque soporta el conjunto completo de ASCII y ofrece una codificación compacta.
+
+## Uso de una biblioteca de generación de códigos de barras Java más allá de Aspose
+
+Aunque Aspose.BarCode es una **biblioteca de generación de códigos de barras Java** completa, también podrías explorar alternativas de código abierto como ZXing o Barcode4J para escenarios ligeros. Sin embargo, Aspose ofrece soporte incorporado para salida de alta resolución, múltiples simbologías y composición de imágenes fácil, todo en un solo paquete.
+
 ## Casos de uso comunes para generar múltiples códigos de barras
 
-- **Etiquetas de embalaje** – combina códigos de producto, lote y envío en una sola etiqueta.  
-- **Entradas para eventos** – incorpora QR, Data Matrix y códigos 128 para diferentes estaciones de escaneo.  
-- **Gestión de inventario** – muestra SKU, datos de etiqueta RFID y números de serie juntos para una auditoría rápida.
+- **Etiquetas de empaquetado** – combina códigos de producto, lote y envío en una sola etiqueta.  
+- **Entradas de eventos** – incrusta identificadores QR, Data Matrix y Code 128 para diferentes estaciones de escaneo.  
+- **Gestión de inventario** – muestra SKU, datos de etiquetas RFID y números de serie juntos para una auditoría rápida.
 
 ## Solución de problemas y consejos
 
 - **Problemas de tamaño de imagen** – ajusta la variable `offset` para aumentar o disminuir el espacio entre los códigos de barras.  
-- **Simbología no compatible** – verifica que tu versión de Aspose.BarCode admita el tipo de código de barras deseado.  
-- **Rendimiento** – reutiliza un solo objeto `Graphics` si generas muchas imágenes dentro de un bucle.
+- **Simbología no soportada** – verifica que tu versión de Aspose.BarCode soporte el tipo de código de barras deseado.  
+- **Rendimiento** – reutiliza un solo objeto `Graphics` si generas muchas imágenes en un bucle.  
+- **Gestión de memoria** – al manejar una gran cantidad de códigos de barras, considera escribir cada imagen en disco temporalmente para evitar un uso excesivo del heap.
 
 ## Preguntas frecuentes
 
-### Q1: ¿Puedo personalizar la apariencia de los códigos de barras individuales en la imagen generada?
+### P1: ¿Puedo personalizar la apariencia de los códigos de barras individuales en la imagen generada?
 
-A1: Sí, Aspose.BarCode ofrece amplias opciones de personalización para la apariencia de los códigos de barras, permitiéndote adaptar el estilo de cada código a tus preferencias.
+R1: Sí, Aspose.BarCode ofrece amplias opciones de personalización para la apariencia del código de barras, permitiéndote adaptar el estilo de cada código de barras a tus preferencias.
 
-### Q2: ¿Aspose.BarCode es compatible con diferentes simbologías de códigos de barras?
+### P2: ¿Es Aspose.BarCode compatible con diferentes simbologías de códigos de barras?
 
-A2: ¡Absolutamente! Aspose.BarCode soporta una amplia gama de simbologías, incluyendo CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13 y AZTEC, como se muestra en este tutorial.
+R2: ¡Absolutamente! Aspose.BarCode soporta una amplia gama de simbologías, incluyendo CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13 y AZTEC, como se muestra en este tutorial.
 
-### Q3: ¿Cómo puedo integrar Aspose.BarCode en mi proyecto Java?
+### P3: ¿Cómo puedo integrar Aspose.BarCode en mi proyecto Java?
 
-A3: Simplemente descarga la biblioteca Aspose.BarCode para Java desde [aquí](https://releases.aspose.com/barcode/java/) y sigue las instrucciones de instalación proporcionadas en la documentación.
+R3: Simplemente descarga la biblioteca Aspose.BarCode para Java desde [aquí](https://releases.aspose.com/barcode/java/) y sigue las instrucciones de instalación proporcionadas en la documentación.
 
-### Q4: ¿Puedo usar Aspose.BarCode para aplicaciones comerciales?
+### P4: ¿Puedo usar Aspose.BarCode para aplicaciones comerciales?
 
-A4: Sí, puedes obtener una licencia desde [aquí](https://purchase.aspose.com/buy) para usar Aspose.BarCode con fines comerciales.
+R4: Sí, puedes obtener una licencia desde [aquí](https://purchase.aspose.com/buy) para usar Aspose.BarCode con fines comerciales.
 
-### Q5: ¿Hay opciones de prueba disponibles para Aspose.BarCode?
+### P5: ¿Hay opciones de prueba disponibles para Aspose.BarCode?
 
-A5: ¡Claro! Puedes explorar las funciones de Aspose.BarCode obteniendo una licencia de prueba gratuita [aquí](https://releases.aspose.com/).
+R5: ¡Por supuesto! Puedes explorar las funciones de Aspose.BarCode obteniendo una licencia de prueba gratuita [aquí](https://releases.aspose.com/).
 
 **Preguntas adicionales**
 
 **P: ¿Cómo genero un código QR específicamente en Java?**  
-R: Usa `EncodeTypes.QR` al crear la instancia de `BarcodeGenerator`, como se muestra en el ejemplo de la colección.
+R: Usa `EncodeTypes.QR` al crear la instancia `BarcodeGenerator`, como se muestra en el ejemplo de la colección.
 
-**P: ¿Aspose.BarCode admite salida de alta resolución para impresión?**  
+**P: ¿Aspose.BarCode soporta salida de alta resolución para impresión?**  
 R: Sí, puedes especificar el DPI al guardar la imagen para cumplir con los requisitos de calidad de impresión.
 
-**Última actualización:** 2025-12-10  
-**Probado con:** Aspose.BarCode para Java 24.11  
+---
+
+**Última actualización:** 2026-02-09  
+**Probado con:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

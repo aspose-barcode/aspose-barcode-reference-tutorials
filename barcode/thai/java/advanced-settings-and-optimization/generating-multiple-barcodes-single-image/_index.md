@@ -1,7 +1,7 @@
 ---
-date: 2025-12-10
-description: เรียนรู้วิธีสร้างบาร์โค้ดบนภาพเดียวใน Java ด้วย Aspose.BarCode คู่มือนี้ครอบคลุมการผสานรวม
-  Aspose Barcode กับ Java และการสร้างบาร์โค้ดหลายรายการ
+date: 2026-02-09
+description: เรียนรู้วิธีสร้างบาร์โค้ดบนภาพเดียวใน Java ด้วย Aspose.BarCode ซึ่งเป็นไลบรารีการสร้างบาร์โค้ด
+  Java ที่มีประสิทธิภาพ คู่มือนี้ครอบคลุมการบูรณาการและการสร้างบาร์โค้ดหลายรายการ
 linktitle: Generating Multiple Barcodes on a Single Image
 second_title: Aspose.BarCode Java API
 title: วิธีสร้างบาร์โค้ดบนภาพเดียวใน Java
@@ -13,40 +13,41 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างบาร์โค้ดหลายรายการบนภาพเดียวใน Java ด้วย Aspose.BarCode
+# การสร้างบาร์โค้ดหลายรายการบนภาพเดียวใน Java ด้วย Aspose.BarCode
 
 ## Introduction
 
-หากคุณกำลังมองหาวิธีที่เชื่อถือได้ **วิธีสร้างบาร์โค้ด** ในแอปพลิเคชัน Java คุณมาถูกที่แล้ว ด้วย Aspose.BarCode for Java คุณสามารถวางบาร์โค้ดหลายประเภทบนภาพเดียวได้เพียงไม่กี่บรรทัดของโค้ด บทแนะนำนี้จะพาคุณผ่านกระบวนการทั้งหมด—from การตั้งค่าโปรเจกต์จนถึงการบันทึกภาพที่รวมกัน—เพื่อให้คุณเริ่มใช้การสร้างบาร์โค้ดในโซลูชันของคุณได้ทันที
+หากคุณกำลังมองหาวิธีที่เชื่อถือได้ **how to generate barcodes** ในแอปพลิเคชัน Java คุณมาถูกที่แล้ว ด้วย Aspose.BarCode for Java คุณสามารถวางบาร์โค้ดหลายประเภทบนภาพเดียวได้เพียงไม่กี่บรรทัดของโค้ด บทเรียนนี้จะพาคุณผ่านกระบวนการทั้งหมด—from ตั้งค่าโปรเจกต์จนถึงการบันทึกภาพที่รวมกัน—เพื่อให้คุณเริ่มใช้การสร้างบาร์โค้ดในโซลูชันของคุณได้ทันที
 
 ## Quick Answers
-- **ควรใช้ไลบรารีอะไร?** Aspose.BarCode for Java มีชุดสัญลักษณ์ที่ครบถ้วนที่สุด  
-- **สามารถสร้างบาร์โค้ดประเภทต่าง ๆ ร่วมกันได้หรือไม่?** ได้ คุณสามารถผสม CODE_39, QR, AZTEC และอื่น ๆ บนแคนวาสเดียว  
-- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
-- **รองรับเวอร์ชัน Java ใด?** Java 8 และใหม่กว่าเข้ากันได้เต็มที่  
-- **รูปแบบผลลัพธ์สามารถกำหนดค่าได้หรือไม่?** คุณสามารถส่งออกภาพที่รวมกันเป็น PNG, JPEG, BMP ฯลฯ  
+- **What library should I use?** Aspose.BarCode for Java provides the most complete set of symbologies.  
+- **Can I generate different barcode types together?** Yes, you can mix CODE_39, QR, AZTEC, and more on a single canvas.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **Which Java version is supported?** Java 8 and newer are fully compatible.  
+- **Is the output format configurable?** You can export the combined image as PNG, JPEG, BMP, etc.
 
 ## What is “how to generate barcodes” in Java?
-การสร้างบาร์โค้ดหมายถึงการแปลงสตริงของข้อมูลเป็นรูปแบบภาพที่สแกนเนอร์สามารถอ่านได้ Aspose.BarCode จัดการขั้นตอนการเข้ารหัส, การเรนเดอร์, และการสร้างภาพโดยอัตโนมัติ ทำให้คุณโฟกัสที่ตรรกะธุรกิจแทนการประมวลผลภาพระดับต่ำ
 
-## Why use Aspose.BarCode for Java barcode generation?
-- **รองรับสัญลักษณ์หลากหลาย** – ตั้งแต่โค้ดเชิงเส้นคลาสสิกจนถึงเมทริกซ์ 2‑D สมัยใหม่  
-- **การเรนเดอร์คุณภาพสูง** – ผลลัพธ์ anti‑aliased ทำงานได้บนอุปกรณ์ทุกชนิด  
-- **API ที่ง่าย** – สร้าง, ปรับแต่ง, และรวมบาร์โค้ดด้วยการเรียกเมธอดเพียงไม่กี่ครั้ง  
-- **ไม่มีการพึ่งพาภายนอก** – ทำงานบน JVM โดยไม่ต้องใช้ไลบรารีเนทีฟ  
+การสร้างบาร์โค้ดหมายถึงการแปลงสตริงของข้อมูลให้เป็นรูปแบบภาพที่เครื่องสแกนสามารถอ่านได้ Aspose.BarCode จัดการขั้นตอนการเข้ารหัส การเรนเดอร์ และการสร้างภาพโดยอัตโนมัติ ทำให้คุณสามารถโฟกัสที่ตรรกะธุรกิจแทนการประมวลผลภาพระดับต่ำ
+
+## Why generate multiple barcodes on a single image?
+
+- **Space‑saving labels** – combine product, batch, and shipping identifiers on one label.  
+- **Multi‑scan workflows** – embed QR, Data Matrix, and Code 128 codes for different scanning stations.  
+- **Simplified asset tracking** – display SKU, RFID tag data, and serial numbers together for quick audits.  
 
 ## Prerequisites
 
-ก่อนจะเริ่มทำตามบทแนะนำนี้ ให้ตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้แล้ว:
+ก่อนเริ่มทำตามบทเรียนนี้ โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
 
 - ความเข้าใจพื้นฐานของการเขียนโปรแกรม Java  
-- ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ  
-- ดาวน์โหลดและตั้งค่า Aspose.BarCode for Java library คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/barcode/java/)  
-- มี IDE เช่น Eclipse หรือ IntelliJ IDEA  
+- Java Development Kit (JDK) ติดตั้งอยู่ในระบบของคุณ  
+- ไลบรารี Aspose.BarCode for Java ดาวน์โหลดและตั้งค่าแล้ว คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/barcode/java/)  
+- สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Eclipse หรือ IntelliJ IDEA
 
 ## Import Namespaces
 
-ในโปรเจกต์ Java ของคุณ ให้ import namespace ที่จำเป็นเพื่อเข้าถึงฟังก์ชันของ Aspose.BarCode เพิ่มบรรทัด import ด้านล่างนี้ที่ส่วนต้นของคลาส Java ของคุณ:
+ในโปรเจกต์ Java ของคุณ ให้นำเข้า namespace ที่จำเป็นเพื่อเข้าถึงฟังก์ชันของ Aspose.BarCode เพิ่มบรรทัด import ด้านล่างนี้ที่ส่วนเริ่มต้นของคลาส Java ของคุณ:
 
 ```java
 import java.awt.Color;
@@ -67,7 +68,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 ## Step 1: Set the Resource Directory
 
-กำหนดพาธไปยังไดเรกทอรีที่ใช้เก็บบาร์โค้ดที่สร้างขึ้น ไดเรกทอรีนี้สำคัญสำหรับการจัดระเบียบและจัดการภาพบาร์โค้ดของคุณ
+กำหนดเส้นทางไปยังไดเรกทอรีทรัพยากรที่บาร์โค้ดที่สร้างขึ้นจะถูกบันทึก ไดเรกทอรีนี้สำคัญสำหรับการจัดระเบียบและจัดการภาพบาร์โค้ดของคุณ
 
 ```java
 // The path to the resource directory.
@@ -132,26 +133,39 @@ for (int i = 0; i < images.size(); ++i) {
 
 ## Step 5: Save the Result
 
-บันทึกภาพที่รวมกันสุดท้ายไปยังตำแหน่งไฟล์ที่กำหนด
+บันทึกภาพที่รวมกันแล้วลงในตำแหน่งไฟล์ที่กำหนด
 
 ```java
 File outputfile = new File(dataDir + "output.png");
 ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
+## How to generate QR code Java style?
+
+หากคุณต้องการตัวอย่าง **generate qr code java** เพียงเปลี่ยนรายการในคอลเลกชันเป็น `EncodeTypes.QR` ลูปเดียวกันจะสร้าง QR โค้ดความละเอียดสูงที่สามารถเก็บ URL ข้อมูลติดต่อ หรือข้อมูลอักขระใด ๆ ก็ได้
+
+## How to generate Code 128 barcode in Java?
+
+โค้ดตัวอย่างข้างต้นได้แสดงการ **generate code 128 barcode** ด้วย `EncodeTypes.CODE_128` แล้ว Code 128 เหมาะสำหรับโลจิสติกส์เพราะรองรับชุด ASCII ทั้งหมดและให้การเข้ารหัสที่กะทัดรัด
+
+## Using a java barcode generation library beyond Aspose
+
+แม้ว่า Aspose.BarCode จะเป็น **java barcode generation library** ที่ครบถ้วน คุณอาจพิจารณาใช้ทางเลือกโอเพ่นซอร์สเช่น ZXing หรือ Barcode4J สำหรับสถานการณ์ที่ต้องการน้ำหนักเบา อย่างไรก็ตาม Aspose มีการสนับสนุนการส่งออกความละเอียดสูงหลายสัญลักษณ์และการรวมภาพอย่างง่ายในแพคเกจเดียว
+
 ## Common Use Cases for Generating Multiple Barcodes
 
-- **ป้ายบรรจุภัณฑ์** – รวมรหัสสินค้า, รหัสล็อต, และรหัสการจัดส่งบนป้ายเดียว  
-- **บัตรเข้าร่วมงาน** – ฝัง QR, Data Matrix, และ Code 128 สำหรับจุดสแกนต่าง ๆ  
-- **การจัดการสินค้าคงคลัง** – แสดง SKU, ข้อมูลแท็ก RFID, และหมายเลขซีเรียลพร้อมกันเพื่อการตรวจสอบที่รวดเร็ว  
+- **Packaging labels** – combine product, batch, and shipping codes on a single label.  
+- **Event tickets** – embed QR, Data Matrix, and Code 128 identifiers for different scanning stations.  
+- **Inventory management** – display SKU, RFID tag data, and serial numbers together for quick audit.
 
 ## Troubleshooting & Tips
 
-- **ปัญหาขนาดภาพ** – ปรับค่า `offset` เพื่อเพิ่มหรือลดระยะห่างระหว่างบาร์โค้ด  
-- **สัญลักษณ์ที่ไม่รองรับ** – ตรวจสอบว่าเวอร์ชัน Aspose.BarCode ของคุณรองรับประเภทบาร์โค้ดที่ต้องการหรือไม่  
-- **ประสิทธิภาพ** – ใช้ `Graphics` object เพียงอันเดียวหากต้องสร้างภาพหลาย ๆ รูปในลูป  
+- **Image size issues** – adjust the `offset` variable to increase or decrease spacing between barcodes.  
+- **Unsupported symbology** – verify that your Aspose.BarCode version supports the desired barcode type.  
+- **Performance** – reuse a single `Graphics` object if you generate many images in a loop.  
+- **Memory management** – when dealing with a large number of barcodes, consider writing each image to disk temporarily to avoid excessive heap usage.
 
-## FAQ's
+## Frequently Asked Questions
 
 ### Q1: Can I customize the appearance of individual barcodes in the generated image?
 
@@ -183,7 +197,7 @@ A: Yes, you can specify the DPI when saving the image to meet print‑quality re
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.BarCode for Java 24.11  
 **Author:** Aspose  
 
