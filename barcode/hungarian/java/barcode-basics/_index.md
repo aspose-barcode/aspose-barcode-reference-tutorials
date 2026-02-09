@@ -1,11 +1,12 @@
 ---
-date: 2025-12-05
-description: Tanulja meg, hogyan adhat hozzá vonalkódot PDF-dokumentumokhoz Java-ban
-  az Aspose.BarCode használatával. Ez az útmutató a vonalkód képek generálását, a
-  méret beállítását és az orientáció felismerését tárgyalja.
+date: 2026-02-09
+description: Tudja meg, hogyan hozhat létre vonalkód PNG-t Java-ban az Aspose.BarCode
+  segítségével, hogyan generálhat QR-kódot Java-ban, és hogyan adhat hozzá vonalkódot
+  PDF-dokumentumokhoz. Ez az útmutató lefedi a kép generálását, a méretezést és az
+  orientációdetektálást.
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
-title: Vonalkód hozzáadása PDF-hez – A vonalkód alapjai
+title: Vonalkód PNG létrehozása Java‑val – Vonalkód hozzáadása PDF‑hez
 url: /hu/java/barcode-basics/
 weight: 20
 ---
@@ -14,89 +15,104 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vonalkód Alapok
+# Barcode PNG Java létrehozása – Barcode alapok
 
-## Bevezetés
+## Introduction
 
-Ha **add barcode to pdf** fájlokat kell létrehoznia egy Java alkalmazásból, jó helyen jár. Az Aspose.BarCode for Java gyors, megbízható és teljesen testreszabható megoldást nyújt. Ebben a sorozatban végigvezetjük a folyamatot a vonalkód kép generálásától Java-ban a PDF-be ágyazásig, a méret beállításáig, sőt a futásidőben történő tájolásdetektálásig. A végére professzionális szintű vonalkódokat tud majd létrehozni, amelyek zökkenőmentesen integrálódnak meglévő Java projektjeibe.
+Ha **create barcode PNG Java** fájlokat kell létrehoznia egy Java alkalmazásból, és be kell ágyaznia őket PDF dokumentumokba, jó helyen jár. Az Aspose.BarCode for Java gyors, megbízható és teljesen testreszabható megoldást nyújt. Ebben a sorozatban végigvezetjük a folyamatot a barcode kép generálásától Java-ban a PDF-be ágyazásig, a méret beállításáig, sőt a forgatás észleléséig futásidőben. A végére professzionális szintű vonalkódokat tud majd létrehozni, amelyek zökkenőmentesen integrálódnak meglévő Java projektjeibe.
 
-## Gyors válaszok
-- **Melyik könyvtár teszi lehetővé, hogy vonalkódot adjak hozzá a PDF-hez Java-ban?** Aspose.BarCode for Java.  
-- **Szükségem van licencre a termelési használathoz?** Igen, kereskedelmi licenc szükséges; ingyenes próba elérhető.  
-- **Létrehozhatok vonalkód képet PDF nélkül?** Teljesen – használja a `BarcodeGenerator` osztályt PNG, JPEG vagy BMP fájlok létrehozásához.  
-- **Támogatott a vonalkód tájolásdetektálás?** Igen, a `BarCodeReader` automatikusan felismeri a forgatást.  
+## Quick Answers
+- **Melyik könyvtár teszi lehetővé a barcode PDF-hez való hozzáadását Java-ban?** Aspose.BarCode for Java.  
+- **Szükségem van licencre a termelési használathoz?** Igen, kereskedelmi licenc szükséges; ingyenes próbaverzió elérhető.  
+- **Létrehozhatok barcode képet PDF nélkül?** Teljesen – használja a `BarcodeGenerator` osztályt PNG, JPEG vagy BMP fájlok létrehozásához.  
+- **Támogatott a barcode orientáció észlelése?** Igen, a `BarCodeReader` automatikusan felismeri a forgatást.  
 - **Mely Java verziók támogatottak?** Java 8 és újabb (beleértve a Java 11, 17 és későbbi verziókat).
 
-## Hogyan adjunk hozzá vonalkódot PDF-hez Java-ban
-A vonalkód beágyazása egy PDF-be három egyszerű lépésben valósítható meg:
+## How to create barcode PNG Java and embed in PDF
+Embedding a barcode into a PDF is as simple as three steps:
 
-1. **Generate the barcode image** – use `BarcodeGenerator` to create a bitmap in memory.  
-2. **Create or open a PDF document** – Aspose.PDF lets you work with existing PDFs or start from scratch.  
-3. **Place the barcode image on a page** – add the image to a `PdfPage` at the desired coordinates and size.
+1. **Generate the barcode image** – használja a `BarcodeGenerator`-t, hogy memóriában bitmapet hozzon létre.  
+2. **Create or open a PDF document** – az Aspose.PDF lehetővé teszi meglévő PDF-ekkel való munkát vagy egy új dokumentum létrehozását.  
+3. **Place the barcode image on a page** – adja hozzá a képet egy `PdfPage`-hez a kívánt koordinátákon és méretben.
 
-> *Pro tip:* Keep the barcode image in a `ByteArrayOutputStream` to avoid writing temporary files to disk.
+> *Pro tip:* Tartsa a barcode képet egy `ByteArrayOutputStream`-ben, hogy elkerülje az ideiglenes fájlok lemezre írását.
 
-## Mi a vonalkód tájolásdetektálás?
-A vonalkód tájolásdetektálás azt jelenti, hogy a könyvtár képes vonalkódot olvasni akkor is, ha az el van forgatva (0°, 90°, 180°, 270°). Ez a funkció kulcsfontosságú olyan dokumentumok beolvasásakor, amelyek fejjel lefelé vagy oldalra vannak szkennelve. Az Aspose.BarCode `BarCodeReader` automatikusan kezeli a tájolást, így nem kell előfeldolgozni a képet.
+## What is barcode orientation detection?
+A barcode orientáció észlelés azt jelenti, hogy a könyvtár képes beolvasni egy vonalkódot még akkor is, ha az el van forgatva (0°, 90°, 180°, 270°). Ez a funkció kulcsfontosságú, amikor olyan dokumentumokat szkennelnek, amelyek fejjel lefelé vagy oldalra vannak szkennelve. Az Aspose.BarCode `BarCodeReader` automatikusan kezeli az orientációt, így nem szükséges előfeldolgozni a képet.
 
-## Miért használjuk az Aspose.BarCode for Java-t?
-- **Full control** over symbology, size, margins, and color.  
-- **Zero external dependencies** – pure Java, no native DLLs.  
-- **High‑performance rendering** suitable for batch processing of thousands of barcodes.  
-- **Robust reading engine** with built‑in orientation detection and error correction.
+## Why use Aspose.BarCode for Java?
+- **Full control** a szimbólumok, méret, margók és szín felett.  
+- **Zero external dependencies** – tiszta Java, nincs natív DLL.  
+- **High‑performance rendering** alkalmas több ezer barcode kötegelt feldolgozásához.  
+- **Robust reading engine** beépített orientáció észlelés és hibajavítás.
 
-## Előfeltételek
+## Prerequisites
 - Java 8 vagy újabb telepítve.  
 - Aspose.BarCode for Java könyvtár (letölthető az Aspose weboldaláról).  
-- (Optional) Aspose.PDF for Java, ha közvetlenül PDF fájlokkal szeretne dolgozni.  
+- (Opcionális) Aspose.PDF for Java, ha közvetlenül PDF fájlokkal szeretne dolgozni.
 
-## Kép teljes méretének létrehozása és beállítása vonalkóddal Java-ban
-Amikor olyan vonalkódra van szüksége, amely egy dokumentum meghatározott területét foglalja el, pontos szélességet és magasságot adhat meg pixelben vagy milliméterben. Az Aspose.BarCode lehetővé teszi a `xDimension` és a `BarHeight` tulajdonságok beállítását, vagy a generált kép méretezését a PDF-be való beillesztéskor. Ez biztosítja, hogy a vonalkód éles legyen a nagy felbontású nyomatokon, és tökéletesen illeszkedjen a layoutba.
+## Creating and Setting Size for Whole Picture with Barcode in Java
+Amikor olyan barcode-ra van szüksége, amely egy dokumentum meghatározott területét foglalja el, megadhatja a pontos szélességet és magasságot pixelben vagy milliméterben. Az Aspose.BarCode lehetővé teszi az `xDimension` és `BarHeight` tulajdonságok beállítását, vagy a generált kép méretezését a PDF-hez való hozzáadáskor. Ez biztosítja, hogy a barcode éles legyen a nagy felbontású nyomatokon, és tökéletesen illeszkedjen az elrendezésébe.
 
-## Pontos vonalkód képfájl létrehozása Java-ban
-Ha a célja **generate barcode image java** PDF-eken kívüli felhasználás (pl. weboldalak, mobilalkalmazások), a `BarcodeGenerator` osztály közvetlenül PNG, JPEG, GIF vagy BMP formátumban tudja kiírni a streambe. DPI-t is megadhat a képminőség szabályozásához, ami különösen hasznos nyomtatáskor.
+## Creating an Image with Exact Barcode in Java
+Ha a célja **generate barcode image java** létrehozása PDF-eken kívül (pl. weboldalak, mobilalkalmazások), a `BarcodeGenerator` osztály PNG, JPEG, GIF vagy BMP formátumban tud közvetlenül streambe írni. Megadhatja a DPI-t is a képminőség szabályozásához, ami különösen hasznos nyomtatáskor.
 
-## Gyakori felhasználási esetek
-- **Invoice generation** – embed UPC/EAN codes on each invoice PDF.  
-- **Shipping labels** – create Code128 or QR codes that encode tracking numbers.  
-- **Product catalogs** – generate high‑resolution barcode images for print catalogs.  
-- **Document scanning** – detect and read barcodes from scanned PDFs to automate data entry.
+## Common Use Cases
+- **Invoice generation** – UPC/EAN kódok beágyazása minden számla PDF-be.  
+- **Shipping labels** – Code128 vagy QR kódok létrehozása, amelyek a nyomkövetési számokat kódolják.  
+- **Product catalogs** – nagy felbontású barcode képek generálása nyomtatott katalógusokhoz.  
+- **Document scanning** – barcode-ok felismerése és olvasása beolvasott PDF-ekből az adatbevitel automatizálásához.
 
-## Vonalkód Alapok Oktatóanyagok
-### [Vonalkód hozzáadása PDF dokumentumhoz Java-ban](./adding-barcode-to-pdf-document/)
-Enhance your Java applications with Aspose.BarCode. A step‑by‑step guide to adding barcodes to PDF documents.
+## Barcode Basics Tutorials
+### [Adding Barcode to PDF Document in Java](./adding-barcode-to-pdf-document/)
+Fejlessze Java alkalmazásait az Aspose.BarCode-dal. Lépésről‑lépésre útmutató a barcode-ok PDF dokumentumokhoz való hozzáadásához.
 
-### [Kép teljes méretének létrehozása és beállítása vonalkóddal Java-ban](./creating-setting-size-whole-picture-barcode/)
-Explore creating and setting size for whole picture in Java with Aspose.BarCode. Customize size, encoding, and appearance effortlessly.
+### [Creating and Setting Size for Whole Picture with Barcode in Java](./creating-setting-size-whole-picture-barcode/)
+Fedezze fel a kép teljes méretének létrehozását és beállítását Java-ban az Aspose.BarCode segítségével. Méret, kódolás és megjelenés testreszabása könnyedén.
 
-### [Pontos vonalkód kép létrehozása Java-ban](./creating-image-exact-barcode/)
-Creating an Image with Exact barcode generation in Java with Aspose.BarCode. Create custom barcodes easily. Explore documentation, download, and get support.
+### [Creating an Image with Exact Barcode in Java](./creating-image-exact-barcode/)
+Pontos barcode generálású kép létrehozása Java-ban az Aspose.BarCode-dal. Egyedi barcode-ok egyszerű létrehozása. Tekintse meg a dokumentációt, töltse le, és kérjen támogatást.
 
-### [Vonalkód tájolásdetektálás Java-ban](./detecting-barcode-orientation/)
-Enhance your Java applications with barcode recognition using Aspose.BarCode for Java. Follow our step‑by‑step guide to effortlessly detect barcode orientation.
+### [Barcode Orientation Detection in Java](./detecting-barcode-orientation/)
+Fejlessze Java alkalmazásait barcode felismeréssel az Aspose.BarCode for Java használatával. Kövesse lépésről‑lépésre útmutatónkat a barcode orientáció könnyed észleléséhez.
 
-## Gyakran Ismételt Kérdések
+## Frequently Asked Questions
 
-**Q: Hogyan generálok **how to generate barcode** egy adott szimbólumhoz, például QR Code?**  
-A: Use `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` then call `generator.save("output.png");`.
+**Q: How do I generate barcode for a specific symbology like QR Code?**  
+A: Használja a `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` majd hívja a `generator.save("output.png");`-t.
 
-**Q: Létrehozhatok **generate barcode image java** anélkül, hogy a lemezre írnám?**  
-A: Yes, call `generator.generateBarCodeImage()` which returns a `java.awt.Image` or write to a `ByteArrayOutputStream`.
+**Q: Can I generate barcode image java without writing to disk?**  
+A: Igen, hívja a `generator.generateBarCodeImage()`-t, amely egy `java.awt.Image`-et ad vissza, vagy írja egy `ByteArrayOutputStream`-be.
 
-**Q: Működik a vonalkód tájolásdetektálás alacsony felbontású szkenneléseknél?**  
-A: It works best on images with at least 150 dpi; lower resolutions may reduce detection accuracy.
+**Q: Does barcode orientation detection work on low‑resolution scans?**  
+A: Legjobban legalább 150 dpi felbontású képeken működik; alacsonyabb felbontás csökkentheti a felismerés pontosságát.
 
-**Q: Lehetséges több vonalkódot hozzáadni egyetlen PDF oldalhoz?**  
-A: Absolutely – simply generate each barcode image and place them at different coordinates on the page.
+**Q: Is it possible to add multiple barcodes to a single PDF page?**  
+A: Természetesen – egyszerűen generálja le minden barcode képet, és helyezze őket különböző koordinátákra az oldalon.
 
-**Q: Milyen licencelési lehetőségek állnak rendelkezésre az Aspose.BarCode for Java-hoz?**  
-A: There are developer, site, and enterprise licenses. A free temporary license is provided for evaluation.
+**Q: What licensing options are available for Aspose.BarCode for Java?**  
+A: Elérhetők fejlesztői, helyi és vállalati licencek. Egy ingyenes ideiglenes licenc áll rendelkezésre kiértékeléshez.
 
----
+## Additional FAQ (AI‑Friendly)
 
-**Last Updated:** 2025-12-05  
+**Q: How can I create barcode PNG Java for a web service?**  
+A: Generálja a barcode-t a `BarcodeGenerator`-rel, írja egy `ByteArrayOutputStream`-be, és adja vissza a byte tömböt képként a válaszban.
+
+**Q: Which symbologies are supported when I create barcode PNG Java?**  
+A: Több mint 50 szimbólum, beleértve a QR, Code128, EAN‑13, UPC‑A, DataMatrix és PDF417-et.
+
+**Q: Can I control the background color of the generated PNG?**  
+A: Igen, állítsa be a `generator.getParameters().getImage().setBackgroundColor(Color.WHITE)`-t a mentés előtt.
+
+**Q: Is there a way to batch‑create many barcode PNG files in Java?**  
+A: Iteráljon az adatkészletén, generáljon minden barcode-t egy `ByteArrayOutputStream`-be, és írja minden stream-et külön fájlba vagy adatbázisba.
+
+**Q: Does Aspose.BarCode support high‑resolution DPI settings?**  
+A: Természetesen – használja a `generator.getParameters().getImage().setResolutionX(300)` és `setResolutionY(300)` beállításokat a nyomtatásra kész minőséghez.
+
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.BarCode for Java 24.12  
-**Author:** Aspose
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

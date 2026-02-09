@@ -1,9 +1,10 @@
 ---
-date: 2025-12-05
-description: Aspose.BarCode を使用して Java で PDF ドキュメントにバーコードを追加する方法を学びましょう。このチュートリアルでは、バーコード画像の生成、サイズ設定、向きの検出について説明します。
+date: 2026-02-09
+description: Aspose.BarCode を使用して Java でバーコード PNG を作成する方法、Java で QR バーコードを生成する方法、PDF
+  文書にバーコードを追加する方法を学びます。このチュートリアルでは、画像の生成、サイズ設定、向き検出について解説します。
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
-title: PDFにバーコードを追加 – バーコードの基本
+title: JavaでバーコードPNGを作成 – PDFにバーコードを追加
 url: /ja/java/barcode-basics/
 weight: 20
 ---
@@ -12,89 +13,104 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# バーコードの基礎
+# バーコード PNG Java の作成 – バーコードの基本
 
-## はじめに
+## Introduction
 
-Java アプリケーションから **PDF にバーコードを追加** したい場合、ここが最適な場所です。Aspose.BarCode for Java を使用すれば、プロセスは高速で信頼性が高く、完全にカスタマイズ可能です。このシリーズでは、Java でバーコード画像を生成し、PDF に埋め込み、サイズを調整し、実行時に向き（回転）を検出する方法までを順に解説します。最終的に、既存の Java プロジェクトにシームレスに統合できるプロフェッショナル品質のバーコードを作成できるようになります。
+Java アプリケーションから **create barcode PNG Java** ファイルを作成し、PDF ドキュメントに埋め込みたい場合は、ここが最適な場所です。Aspose.BarCode for Java を使用すれば、プロセスは高速で信頼性が高く、完全にカスタマイズ可能です。このシリーズでは、Java でバーコード画像を生成し、PDF に埋め込み、サイズを調整し、さらに実行時に向きを検出するまでの手順をすべて解説します。最後まで読めば、既存の Java プロジェクトにシームレスに統合できるプロフェッショナル品質のバーコードを作成できるようになります。
 
-## クイック回答
-- **Java で PDF にバーコードを追加できるライブラリは？** Aspose.BarCode for Java。  
-- **本番環境で使用するにはライセンスが必要ですか？** はい、商用ライセンスが必要です。無料トライアルも利用可能です。  
-- **PDF なしでバーコード画像を生成できますか？** もちろんです – `BarcodeGenerator` クラスを使用して PNG、JPEG、BMP ファイルを作成できます。  
-- **バーコードの向き検出はサポートされていますか？** はい、`BarCodeReader` が自動的に回転を検出します。  
-- **対応している Java バージョンは？** Java 8 以降（Java 11、17 など）です。
+## Quick Answers
+- **What library lets me add barcode to PDF in Java?** Aspose.BarCode for Java.  
+- **Do I need a license for production use?** Yes, a commercial license is required; a free trial is available.  
+- **Can I generate a barcode image without a PDF?** Absolutely – use the `BarcodeGenerator` class to create PNG, JPEG, or BMP files.  
+- **Is barcode orientation detection supported?** Yes, the `BarCodeReader` can automatically detect rotation.  
+- **Which Java versions are supported?** Java 8 and higher (including Java 11, 17, and later).
 
-## Java で PDF にバーコードを追加する方法
-バーコードを PDF に埋め込む手順は 3 つだけです。
+## How to create barcode PNG Java and embed in PDF
+Embedding a barcode into a PDF is as simple as three steps:
 
-1. **バーコード画像を生成** – `BarcodeGenerator` を使ってメモリ上にビットマップを作成します。  
-2. **PDF ドキュメントを作成または開く** – Aspose.PDF を使えば既存の PDF を操作したり、ゼロから作成したりできます。  
-3. **ページにバーコード画像を配置** – `PdfPage` に画像を追加し、目的の座標とサイズを指定します。
+1. **Generate the barcode image** – use `BarcodeGenerator` to create a bitmap in memory.  
+2. **Create or open a PDF document** – Aspose.PDF lets you work with existing PDFs or start from scratch.  
+3. **Place the barcode image on a page** – add the image to a `PdfPage` at the desired coordinates and size.
 
-> *Pro tip:* バーコード画像は `ByteArrayOutputStream` に保持しておくと、ディスクへの一時ファイル書き込みを回避できます。
+> *Pro tip:* Keep the barcode image in a `ByteArrayOutputStream` to avoid writing temporary files to disk.
 
-## バーコード向き検出とは？
-バーコード向き検出とは、ライブラリが 0°、90°、180°、270° のいずれの回転状態でもバーコードを読み取れる機能です。ドキュメントが逆さまや横向きにスキャンされる可能性がある場合に重要です。Aspose.BarCode の `BarCodeReader` は自動的に向きを判別するため、画像の前処理は不要です。
+## What is barcode orientation detection?
+Barcode orientation detection means the library can read a barcode even if it’s rotated (0°, 90°, 180°, 270°). This feature is crucial when scanning documents that may be scanned upside‑down or sideways. Aspose.BarCode’s `BarCodeReader` automatically handles orientation, so you don’t need to preprocess the image.
 
-## Aspose.BarCode for Java を選ぶ理由
-- **シンボル、サイズ、余白、色をフルコントロール**。  
-- **外部依存なし** – 純粋な Java 実装で、ネイティブ DLL が不要です。  
-- **高性能レンダリング** – 数千件のバーコードをバッチ処理するのに適しています。  
-- **堅牢なリーディングエンジン** – 組み込みの向き検出とエラー訂正機能を搭載。
+## Why use Aspose.BarCode for Java?
+- **Full control** over symbology, size, margins, and color.  
+- **Zero external dependencies** – pure Java, no native DLLs.  
+- **High‑performance rendering** suitable for batch processing of thousands of barcodes.  
+- **Robust reading engine** with built‑in orientation detection and error correction.
 
-## 前提条件
-- Java 8 以上がインストールされていること。  
-- Aspose.BarCode for Java ライブラリ（Aspose の公式サイトからダウンロード）。  
-- （オプション）PDF ファイルを直接操作する場合は Aspose.PDF for Java。
+## Prerequisites
+- Java 8 or newer installed.  
+- Aspose.BarCode for Java library (download from the Aspose website).  
+- (Optional) Aspose.PDF for Java if you plan to work with PDF files directly.  
 
-## Java で全体画像としてバーコードのサイズを設定する方法
-ドキュメント内で特定の領域を占めるバーコードが必要な場合、ピクセルまたはミリメートル単位で幅と高さを正確に指定できます。Aspose.BarCode では `xDimension` と `BarHeight` プロパティを設定するか、PDF に追加する際に生成画像をスケーリングできます。これにより、高解像度印刷でもバーコードが鮮明に表示され、レイアウトにぴったり収まります。
+## Creating and Setting Size for Whole Picture with Barcode in Java
+When you need a barcode that occupies a specific area of a document, you can define the exact width and height in pixels or millimeters. Aspose.BarCode lets you set the `xDimension` and `BarHeight` properties, or you can scale the generated image when adding it to a PDF. This ensures the barcode looks sharp on high‑resolution prints and fits perfectly within your layout.
 
-## Java で正確なバーコード画像を作成する方法
-**generate barcode image java** の目的が PDF 以外（例：Web ページやモバイルアプリ）での利用であれば、`BarcodeGenerator` クラスは PNG、JPEG、GIF、BMP を直接ストリームに出力できます。DPI を指定すれば画像品質を制御でき、印刷時に特に有用です。
+## Creating an Image with Exact Barcode in Java
+If your goal is to **generate barcode image java** for use outside of PDFs (e.g., web pages, mobile apps), the `BarcodeGenerator` class can output PNG, JPEG, GIF, or BMP directly to a stream. You can also specify DPI to control the image quality, which is especially helpful for printing.
 
-## 主なユースケース
-- **請求書作成** – 各請求書 PDF に UPC/EAN コードを埋め込む。  
-- **出荷ラベル** – トラッキング番号をエンコードした Code128 や QR コードを生成。  
-- **製品カタログ** – 印刷用カタログ向けに高解像度バーコード画像を生成。  
-- **文書スキャン** – スキャンした PDF からバーコードを検出・読み取り、データ入力を自動化。
+## Common Use Cases
+- **Invoice generation** – embed UPC/EAN codes on each invoice PDF.  
+- **Shipping labels** – create Code128 or QR codes that encode tracking numbers.  
+- **Product catalogs** – generate high‑resolution barcode images for print catalogs.  
+- **Document scanning** – detect and read barcodes from scanned PDFs to automate data entry.
 
-## バーコード基礎チュートリアル
+## Barcode Basics Tutorials
 ### [Adding Barcode to PDF Document in Java](./adding-barcode-to-pdf-document/)
-Aspose.BarCode で Java アプリケーションを強化しましょう。PDF ドキュメントにバーコードを追加するステップバイステップガイドです。
+Enhance your Java applications with Aspose.BarCode. A step‑by‑step guide to adding barcodes to PDF documents.
 
 ### [Creating and Setting Size for Whole Picture with Barcode in Java](./creating-setting-size-whole-picture-barcode/)
-Aspose.BarCode を使用した Java での全体画像サイズ設定と作成方法を紹介します。サイズ、エンコーディング、外観を簡単にカスタマイズできます。
+Explore creating and setting size for whole picture in Java with Aspose.BarCode. Customize size, encoding, and appearance effortlessly.
 
 ### [Creating an Image with Exact Barcode in Java](./creating-image-exact-barcode/)
-Aspose.BarCode で Java の正確なバーコード画像生成方法を解説。カスタムバーコードを簡単に作成し、ドキュメントやダウンロード、サポート情報へアクセスできます。
+Creating an Image with Exact barcode generation in Java with Aspose.BarCode. Create custom barcodes easily. Explore documentation, download, and get support.
 
 ### [Barcode Orientation Detection in Java](./detecting-barcode-orientation/)
-Aspose.BarCode for Java を使ったバーコード認識で Java アプリケーションを強化しましょう。バーコードの向き検出を手軽に行うステップバイステップガイドです。
+Enhance your Java applications with barcode recognition using Aspose.BarCode for Java. Follow our step‑by‑step guide to effortlessly detect barcode orientation.
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: **how to generate barcode** を特定のシンボル（例：QR Code）で生成するには？**  
-A: `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` のように記述し、`generator.save("output.png");` を呼び出します。
+**Q: How do I generate barcode for a specific symbology like QR Code?**  
+A: Use `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` then call `generator.save("output.png");`.
 
-**Q: **generate barcode image java** をディスクに書き込まずに生成できますか？**  
-A: はい、`generator.generateBarCodeImage()` を呼び出すと `java.awt.Image` が返るか、`ByteArrayOutputStream` に書き込むことができます。
+**Q: Can I generate barcode image java without writing to disk?**  
+A: Yes, call `generator.generateBarCodeImage()` which returns a `java.awt.Image` or write to a `ByteArrayOutputStream`.
 
-**Q: バーコード向き検出は低解像度のスキャンでも機能しますか？**  
-A: 最低でも 150 dpi の画像で最適に動作します。解像度が低いと検出精度が低下する可能性があります。
+**Q: Does barcode orientation detection work on low‑resolution scans?**  
+A: It works best on images with at least 150 dpi; lower resolutions may reduce detection accuracy.
 
-**Q: 1 ページに複数のバーコードを追加できますか？**  
-A: もちろんです – 各バーコード画像を生成し、ページ上の異なる座標に配置すれば完了です。
+**Q: Is it possible to add multiple barcodes to a single PDF page?**  
+A: Absolutely – simply generate each barcode image and place them at different coordinates on the page.
 
-**Q: Aspose.BarCode for Java のライセンス形態は？**  
-A: デベロッパー、サイト、エンタープライズ ライセンスがあります。評価用に無料の一時ライセンスが提供されています。
+**Q: What licensing options are available for Aspose.BarCode for Java?**  
+A: There are developer, site, and enterprise licenses. A free temporary license is provided for evaluation.
 
----
+## Additional FAQ (AI‑Friendly)
 
-**最終更新日:** 2025-12-05  
+**Q: How can I create barcode PNG Java for a web service?**  
+A: Generate the barcode with `BarcodeGenerator`, write it to a `ByteArrayOutputStream`, and return the byte array as an image response.
+
+**Q: Which symbologies are supported when I create barcode PNG Java?**  
+A: Over 50 symbologies including QR, Code128, EAN‑13, UPC‑A, DataMatrix, and PDF417.
+
+**Q: Can I control the background color of the generated PNG?**  
+A: Yes, set `generator.getParameters().getImage().setBackgroundColor(Color.WHITE)` before saving.
+
+**Q: Is there a way to batch‑create many barcode PNG files in Java?**  
+A: Loop through your data set, generate each barcode to a `ByteArrayOutputStream`, and write each stream to a separate file or database.
+
+**Q: Does Aspose.BarCode support high‑resolution DPI settings?**  
+A: Absolutely – use `generator.getParameters().getImage().setResolutionX(300)` and `setResolutionY(300)` for print‑ready quality.
+
+**最終更新日:** 2026-02-09  
 **テスト環境:** Aspose.BarCode for Java 24.12  
-**作成者:** Aspose  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

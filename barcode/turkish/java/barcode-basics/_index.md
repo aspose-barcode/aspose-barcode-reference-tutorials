@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: Aspose.BarCode kullanarak Java’da PDF belgelerine barkod eklemeyi öğrenin.
-  Bu öğreticide barkod görüntülerinin oluşturulması, boyut ayarlanması ve yönün tespit
-  edilmesi ele alınmaktadır.
+date: 2026-02-09
+description: Aspose.BarCode kullanarak Java’da barkod PNG oluşturmayı, QR barkod Java
+  üretmeyi ve barkodu PDF belgelerine eklemeyi öğrenin. Bu öğreticide görüntü oluşturma,
+  boyutlandırma ve yön algılama konuları ele alınmaktadır.
 linktitle: Barcode Basics
 second_title: Aspose.BarCode Java API
-title: PDF'ye Barkod Ekle – Barkod Temelleri
+title: Java ile Barcode PNG Oluştur – Barcode'ı PDF'e Ekle
 url: /tr/java/barcode-basics/
 weight: 20
 ---
@@ -14,89 +14,104 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Barkod Temelleri
+# Java’da Barcode PNG Oluşturma – Barcode Temelleri
 
-## Giriş
+## Introduction
 
-Java uygulamasından **add barcode to pdf** dosyalarına barkod eklemeniz gerekiyorsa, doğru yerdesiniz. Aspose.BarCode for Java süreci hızlı, güvenilir ve tamamen özelleştirilebilir hâle getirir. Bu seride Java’da barkod resmi oluşturulmasından PDF’ye gömülmesine, boyutunun ayarlanmasına ve hatta çalışma zamanında yönünün algılanmasına kadar her şeyi adım adım inceleyeceğiz. Sonunda, mevcut Java projelerinizle sorunsuz bir şekilde bütünleşen profesyonel‑kalitede barkodlar oluşturabileceksiniz.
+If you need to **create barcode PNG Java** files from a Java application and embed them into PDF documents, you’ve come to the right place. Aspose.BarCode for Java makes the process fast, reliable, and fully customizable. In this series we’ll walk through everything from generating a barcode image in Java to embedding it in a PDF, adjusting its size, and even detecting its orientation at runtime. By the end you’ll be able to create professional‑grade barcodes that integrate seamlessly with your existing Java projects.
 
-## Hızlı Yanıtlar
-- **Java’da PDF’ye barkod eklememi sağlayan kütüphane nedir?** Aspose.BarCode for Java.
-- **Üretim kullanımında lisansa ihtiyacım var mı?** Evet, ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.
-- **PDF olmadan bir barkod resmi oluşturabilir miyim?** Kesinlikle – `BarcodeGenerator` sınıfını kullanarak PNG, JPEG veya BMP dosyaları oluşturabilirsiniz.
-- **Barkod yön algılaması destekleniyor mu?** Evet, `BarCodeReader` otomatik olarak dönüşü algılayabilir.
-- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri (Java 11, 17 ve sonrası dahil).
+## Quick Answers
+- **Java’da PDF’ye barkod eklememi sağlayan kütüphane nedir?** Aspose.BarCode for Java.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Yes, a commercial license is required; a free trial is available.  
+- **PDF olmadan bir barkod görüntüsü oluşturabilir miyim?** Absolutely – use the `BarcodeGenerator` class to create PNG, JPEG, or BMP files.  
+- **Barkod yön algılama destekleniyor mu?** Yes, the `BarCodeReader` can automatically detect rotation.  
+- **Hangi Java sürümleri destekleniyor?** Java 8 and higher (including Java 11, 17, and later).
 
-## Java’da PDF’ye barkod ekleme
-Bir barkodu PDF’ye gömmek üç adım kadar basittir:
+## How to create barcode PNG Java and embed in PDF
+Embedding a barcode into a PDF is as simple as three steps:
 
-1. **Barkod resmini oluşturun** – bellekte bir bitmap oluşturmak için `BarcodeGenerator` kullanın.  
-2. **PDF belgesi oluşturun veya açın** – Aspose.PDF, mevcut PDF’lerle çalışmanıza veya sıfırdan başlamanıza olanak tanır.  
-3. **Barkod resmini bir sayfaya yerleştirin** – resmi istediğiniz koordinat ve boyutta bir `PdfPage`’e ekleyin.
+1. **Barkod görüntüsünü oluşturun** – use `BarcodeGenerator` to create a bitmap in memory.  
+2. **PDF belgesi oluşturun veya açın** – Aspose.PDF lets you work with existing PDFs or start from scratch.  
+3. **Barkod görüntüsünü bir sayfaya yerleştirin** – add the image to a `PdfPage` at the desired coordinates and size.
 
-> *İpucu:* Barkod resmini bir `ByteArrayOutputStream` içinde tutarak geçici dosyaların diske yazılmasını önleyin.
+> *Pro tip:* Barkod görüntüsünü bir `ByteArrayOutputStream` içinde tutun, böylece geçici dosyaları diske yazmaktan kaçınmış olursunuz.
 
-## Barkod yön algılaması nedir?
-Barkod yön algılaması, kütüphanenin barkodu 0°, 90°, 180° veya 270° döndürülmüş olsa bile okuyabilmesi anlamına gelir. Bu özellik, belgelerin ters ya da yan olarak taranması durumunda kritik öneme sahiptir. Aspose.BarCode’in `BarCodeReader` otomatik olarak yönü yönetir, bu yüzden görüntüyü ön işlemden geçirmenize gerek yok.
+## What is barcode orientation detection?
+Barcode orientation detection means the library can read a barcode even if it’s rotated (0°, 90°, 180°, 270°). This feature is crucial when scanning documents that may be scanned upside‑down or sideways. Aspose.BarCode’s `BarCodeReader` automatically handles orientation, so you don’t need to preprocess the image.
 
-## Neden Aspose.BarCode for Java kullanmalısınız?
-- **Tam kontrol** simgeler, boyut, kenar boşlukları ve renk üzerinde.  
-- **Sıfır dış bağımlılık** – saf Java, yerel DLL yok.  
-- **Yüksek performanslı render** binlerce barkodun toplu işlenmesi için uygundur.  
-- **Sağlam okuma motoru** yerleşik yön algılaması ve hata düzeltmesi ile.
+## Why use Aspose.BarCode for Java?
+- **Tam kontrol** over symbology, size, margins, and color.  
+- **Sıfır dış bağımlılık** – pure Java, no native DLLs.  
+- **Yüksek performanslı render** suitable for batch processing of thousands of barcodes.  
+- **Sağlam okuma motoru** with built‑in orientation detection and error correction.
 
-## Önkoşullar
-- Java 8 veya daha yeni bir sürüm yüklü.  
-- Aspose.BarCode for Java kütüphanesi (Aspose web sitesinden indirin).  
-- (İsteğe bağlı) PDF dosyalarıyla doğrudan çalışmayı planlıyorsanız Aspose.PDF for Java.
+## Prerequisites
+- Java 8 or newer installed.  
+- Aspose.BarCode for Java library (download from the Aspose website).  
+- (Optional) Aspose.PDF for Java if you plan to work with PDF files directly.  
 
-## Java’da Barkodlu Tam Resim İçin Boyut Oluşturma ve Ayarlama
-Bir belgenin belirli bir alanını kaplayan bir barkoda ihtiyacınız olduğunda, genişlik ve yüksekliği piksel ya da milimetre cinsinden tam olarak tanımlayabilirsiniz. Aspose.BarCode, `xDimension` ve `BarHeight` özelliklerini ayarlamanıza izin verir veya PDF’ye eklerken oluşturulan resmi ölçeklendirebilirsiniz. Bu, barkodun yüksek çözünürlüklü baskılarda net görünmesini ve düzeninize mükemmel oturmasını sağlar.
+## Creating and Setting Size for Whole Picture with Barcode in Java
+When you need a barcode that occupies a specific area of a document, you can define the exact width and height in pixels or millimeters. Aspose.BarCode lets you set the `xDimension` and `BarHeight` properties, or you can scale the generated image when adding it to a PDF. This ensures the barcode looks sharp on high‑resolution prints and fits perfectly within your layout.
 
-## Java’da Tam Barkodlu Görüntü Oluşturma
-Amacınız PDF dışı kullanım için (ör. web sayfaları, mobil uygulamalar) **generate barcode image java** ise, `BarcodeGenerator` sınıfı PNG, JPEG, GIF veya BMP formatlarını doğrudan bir akıma (stream) çıkartabilir. Ayrıca DPI belirleyerek görüntü kalitesini kontrol edebilirsiniz; bu, özellikle baskı için faydalıdır.
+## Creating an Image with Exact Barcode in Java
+If your goal is to **generate barcode image java** for use outside of PDFs (e.g., web pages, mobile apps), the `BarcodeGenerator` class can output PNG, JPEG, GIF, or BMP directly to a stream. You can also specify DPI to control the image quality, which is especially helpful for printing.
 
-## Yaygın Kullanım Senaryoları
-- **Fatura oluşturma** – her fatura PDF’sine UPC/EAN kodları ekleyin.  
-- **Kargo etiketleri** – takip numaralarını kodlayan Code128 veya QR kodları oluşturun.  
-- **Ürün katalogları** – basılı kataloglar için yüksek çözünürlüklü barkod resimleri oluşturun.  
-- **Belge tarama** – taranmış PDF’lerden barkodları algılayıp okuyarak veri girişini otomatikleştirin.
+## Common Use Cases
+- **Fatura oluşturma** – embed UPC/EAN codes on each invoice PDF.  
+- **Kargo etiketleri** – create Code128 or QR codes that encode tracking numbers.  
+- **Ürün katalogları** – generate high‑resolution barcode images for print catalogs.  
+- **Belge tarama** – detect and read barcodes from scanned PDFs to automate data entry.
 
-## Barkod Temelleri Eğitimleri
+## Barcode Basics Tutorials
 ### [Java’da PDF Belgesine Barkod Ekleme](./adding-barcode-to-pdf-document/)
-Java uygulamalarınızı Aspose.BarCode ile geliştirin. PDF belgelerine barkod ekleme konusunda adım adım bir rehber.
+Enhance your Java applications with Aspose.BarCode. A step‑by‑step guide to adding barcodes to PDF documents.
 
-### [Java’da Barkodlu Tam Resim İçin Boyut Oluşturma ve Ayarlama](./creating-setting-size-whole-picture-barcode/)
-Aspose.BarCode ile Java’da tam resim için boyut oluşturma ve ayarlamayı keşfedin. Boyutu, kodlamayı ve görünümü zahmetsizce özelleştirin.
+### [Java’da Barkodlu Tam Görüntünün Boyutunu Oluşturma ve Ayarlama](./creating-setting-size-whole-picture-barcode/)
+Explore creating and setting size for whole picture in Java with Aspose.BarCode. Customize size, encoding, and appearance effortlessly.
 
 ### [Java’da Tam Barkodlu Görüntü Oluşturma](./creating-image-exact-barcode/)
-Aspose.BarCode ile Java’da tam barkodlu görüntü oluşturma. Özel barkodları kolayca yaratın. Belgeleri inceleyin, indirin ve destek alın.
+Creating an Image with Exact barcode generation in Java with Aspose.BarCode. Create custom barcodes easily. Explore documentation, download, and get support.
 
-### [Java’da Barkod Yön Algılaması](./detecting-barcode-orientation/)
-Java uygulamalarınızı Aspose.BarCode for Java kullanarak barkod tanıma ile geliştirin. Barkod yönünü zahmetsizce algılamak için adım adım rehberimizi izleyin.
+### [Java’da Barkod Yön Algılama](./detecting-barcode-orientation/)
+Enhance your Java applications with barcode recognition using Aspose.BarCode for Java. Follow our step‑by‑step guide to effortlessly detect barcode orientation.
 
-## Sıkça Sorulan Sorular
+## Frequently Asked Questions
 
-**Q: **how to generate barcode** için QR Code gibi belirli bir semboloji nasıl oluşturulur?**  
-A: `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` ifadesini kullanın, ardından `generator.save("output.png");` çağırın.
+**Q: Belirli bir semboloji (ör. QR Code) için barkodu nasıl oluştururum?**  
+A: Use `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` then call `generator.save("output.png");`.
 
-**Q: **generate barcode image java** dosyaya yazmadan oluşturabilir miyim?**  
-A: Evet, `generator.generateBarCodeImage()` metodunu çağırarak bir `java.awt.Image` elde edebilir veya bir `ByteArrayOutputStream`'a yazabilirsiniz.
+**Q: Barkod görüntüsünü java’da diske yazmadan oluşturabilir miyim?**  
+A: Yes, call `generator.generateBarCodeImage()` which returns a `java.awt.Image` or write to a `ByteArrayOutputStream`.
 
-**Q: Barkod yön algılaması düşük çözünürlüklü taramalarda çalışır mı?**  
-A: En az 150 dpi'lik görüntülerde en iyi şekilde çalışır; daha düşük çözünürlükler algılama doğruluğunu azaltabilir.
+**Q: Barkod yön algılama düşük çözünürlüklü taramalarda çalışır mı?**  
+A: It works best on images with at least 150 dpi; lower resolutions may reduce detection accuracy.
 
 **Q: Tek bir PDF sayfasına birden fazla barkod eklemek mümkün mü?**  
-A: Kesinlikle – her barkod resmini oluşturup sayfada farklı koordinatlara yerleştirmeniz yeterlidir.
+A: Absolutely – simply generate each barcode image and place them at different coordinates on the page.
 
 **Q: Aspose.BarCode for Java için hangi lisans seçenekleri mevcuttur?**  
-A: Geliştirici, site ve kurumsal lisanslar bulunmaktadır. Değerlendirme için ücretsiz geçici bir lisans sağlanır.
+A: There are developer, site, and enterprise licenses. A free temporary license is provided for evaluation.
 
----
+## Additional FAQ (AI‑Friendly)
 
-**Son Güncelleme:** 2025-12-05  
-**Test Edilen Versiyon:** Aspose.BarCode for Java 24.12  
-**Yazar:** Aspose  
+**Q: Web servisi için barcode PNG Java nasıl oluşturabilirim?**  
+A: Generate the barcode with `BarcodeGenerator`, write it to a `ByteArrayOutputStream`, and return the byte array as an image response.
+
+**Q: barcode PNG Java oluştururken hangi sembolojiler desteklenir?**  
+A: Over 50 symbologies including QR, Code128, EAN‑13, UPC‑A, DataMatrix, and PDF417.
+
+**Q: Oluşturulan PNG’nin arka plan rengini kontrol edebilir miyim?**  
+A: Yes, set `generator.getParameters().getImage().setBackgroundColor(Color.WHITE)` before saving.
+
+**Q: Java’da birçok barcode PNG dosyasını toplu olarak oluşturmanın bir yolu var mı?**  
+A: Loop through your data set, generate each barcode to a `ByteArrayOutputStream`, and write each stream to a separate file or database.
+
+**Q: Aspose.BarCode yüksek çözünürlüklü DPI ayarlarını destekliyor mu?**  
+A: Absolutely – use `generator.getParameters().getImage().setResolutionX(300)` and `setResolutionY(300)` for print‑ready quality.
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.BarCode for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
