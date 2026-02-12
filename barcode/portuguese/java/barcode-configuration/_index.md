@@ -1,121 +1,134 @@
 ---
-date: 2025-12-09
-description: Aprenda a gerar códigos de barras em Java com Aspose.BarCode. Guias passo
-  a passo abordam como definir a altura da barra, criar código de patch, ajustar as
-  dimensões do código de barras e muito mais.
+date: 2026-02-12
+description: Aprenda a gerar código de barras em Java usando Aspose.BarCode. Guias
+  passo a passo cobrem a definição da altura da barra, a criação de código de patch
+  e o ajuste das dimensões do código de barras.
 linktitle: How to Generate Barcode – Barcode Configuration
 second_title: Aspose.BarCode Java API
-title: Como gerar código de barras – Guia abrangente de configuração de código de
-  barras
+title: Como gerar código de barras em Java – Guia completo de configuração
 url: /pt/java/barcode-configuration/
 weight: 24
 ---
+
+"How to set bar height" -> "Como definir a altura da barra". But keep "bar height". We'll translate "altura da barra". Keep "setBarHeight". Keep method name unchanged.
+
+Similarly for other sections.
+
+"Common Issues and Solutions" -> "Problemas Comuns e Soluções".
+
+"Frequently Asked Questions" -> "Perguntas Frequentes".
+
+Then Q/A.
+
+Translate Q and A.
+
+Make sure to keep code snippets unchanged.
+
+Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Gerar Código de Barras
+# Como gerar Barcode Java
 
-Bem-vindo ao mundo da geração de códigos de barras sem interrupções em Java! Seja você um desenvolvedor experiente ou esteja apenas começando, nossos tutoriais do Aspose.BarCode irão guiá‑lo através de **como gerar código de barras** de forma rápida, confiável e com controle total sobre cada detalhe visual.
+Bem‑vindo ao mundo da geração de barcode sem complicações em Java! Neste tutorial você aprenderá a **gerar barcode java** de forma rápida, confiável e com controle total sobre cada detalhe visual. Seja você um desenvolvedor experiente ou alguém que está começando, nossos tutoriais do Aspose.BarCode vão guiá‑lo passo a passo.
 
 ## Respostas Rápidas
 - **Qual biblioteca devo usar?** Aspose.BarCode for Java – uma API completa, pronta para produção.  
-- **Preciso de uma licença?** Um teste gratuito funciona para desenvolvimento; uma licença comercial é necessária para produção.  
-- **Quais versões do Java são suportadas?** Java 8 e superiores.  
-- **Posso personalizar a altura das barras?** Sim – veja o guia “Set Bar Height”.  
-- **A geração de patch code está incluída?** Absolutamente – confira o tutorial “Create Patch Code”.
+- **Preciso de licença?** Um teste gratuito funciona para desenvolvimento; uma licença comercial é necessária para produção.  
+- **Quais versões do Java são suportadas?** Java 8 ou superior.  
+- **Posso personalizar a altura da barra?** Sim – veja o guia “Set Bar Height”.  
+- **A geração de patch code está incluída?** Absolutamente – consulte o tutorial “Create Patch Code”.
 
-## O que é geração de código de barras em Java?
-A geração de código de barras é o processo de converter dados (números, letras ou binário) em um padrão visual de barras, espaços ou símbolos que os leitores podem ler. Em Java, o Aspose.BarCode fornece uma API fluente que permite criar praticamente qualquer simbologia com apenas algumas linhas de código.
+## O que é geração de barcode em Java?
+A geração de barcode é o processo de converter dados (números, letras ou binário) em um padrão visual de barras, espaços ou símbolos que scanners podem ler. O Aspose.BarCode for Java fornece uma API fluente que permite criar praticamente qualquer simbologia com apenas algumas linhas de código.
 
-## Por que usar Aspose.BarCode para gerar código de barras?
-- **Suporte rico a simbologias** – desde o clássico Code128 até simbologias específicas de região como Australia Post e Patch Codes.  
-- **Controle granular** – ajuste a altura das barras, dimensões X/Y, proporções larga‑estreita e símbolos de início/fim.  
-- **Sem dependências externas** – puro Java, sem DLLs nativas ou objetos COM.  
-- **Alto desempenho** – gera milhares de códigos de barras por segundo, ideal para processamento em lote.
+## Por que usar Aspose.BarCode para gerar barcode?
+- **Suporte rico a simbologias** – de Code128 clássico a códigos específicos da Austrália Post e Patch Codes.  
+- **Controle granular** – ajuste a altura da barra, dimensões X/Y, proporções wide‑narrow e símbolos de início/fim.  
+- **Sem dependências externas** – Java puro, sem DLLs nativas ou objetos COM.  
+- **Alto desempenho** – gera milhares de barcodes por segundo, ideal para processamento em lote.
 
 ## Pré‑requisitos
 - Java 8 ou mais recente instalado.  
 - Maven ou Gradle para gerenciamento de dependências (ou o JAR do Aspose.BarCode diretamente).  
 - Uma licença válida do Aspose.BarCode for Java (ou use o modo de avaliação).
 
-## Guia Passo a Passo para Configuração de Código de Barras
+## Como gerar barcode java
+Comece criando uma instância `BarcodeGenerator`, selecionando a simbologia desejada e chamando `save`. Esse padrão simples é a base para todos os tutoriais abaixo.
 
-### Como gerar código de barras em Java
-Comece criando uma instância de `BarcodeGenerator`, selecionando a simbologia desejada e chamando `save`. Esse padrão simples é a base para todos os tutoriais abaixo.
-
-### Como definir a altura das barras
+## Como definir a altura da barra
 Se precisar de barras mais altas ou mais curtas, use o método `setBarHeight`. Isso é especialmente útil ao imprimir em etiquetas de alta resolução.
 
-### Como ajustar as dimensões do código de barras
-Controle o tamanho geral definindo as dimensões X e Y. O controle preciso das dimensões garante que o código de barras se ajuste perfeitamente à sua interface ou etiqueta impressa.
+## Como ajustar as dimensões do barcode
+Controle o tamanho geral definindo tanto as dimensões X quanto Y. O controle preciso das dimensões garante que o barcode se encaixe perfeitamente na sua UI ou etiqueta impressa.
 
-### Como configurar segmentos de código de barras
-Códigos de barras segmentados permitem agrupar visualmente os dados, o que pode ser útil para códigos compostos ou quando precisar destacar partes específicas dos dados.
+## Como configurar segmentos de barcode
+Barcodes segmentados permitem agrupar dados visualmente, o que pode ser útil para códigos compostos ou quando você precisa destacar partes específicas dos dados.
 
-### Como criar patch code
+## Como criar patch code
 Patch Codes são uma simbologia proprietária usada em certas indústrias. O Aspose.BarCode torna a criação deles tão fácil quanto qualquer simbologia padrão.
 
-### Como gerar código de barras Australia Post
-Os códigos de barras Australia Post têm regras de formatação únicas. O guia dedicado mostra como atender a essas especificações sem esforço.
+## Como gerar barcode Australia Post
+Barcodes da Australia Post têm regras de formatação únicas. O guia dedicado mostra como atender a essas especificações sem esforço.
 
-### Como definir símbolos de início e fim
-Para Codabar e simbologias semelhantes, você pode definir símbolos de início/fim personalizados para atender aos requisitos de sistemas legados.
+## Como definir símbolos de início e fim
+Para Codabar e simbologias semelhantes, você pode definir símbolos de início/fim personalizados para atender a requisitos de sistemas legados.
 
-### Como suplementar dados
-Adicione dados suplementares (por exemplo, dígitos de verificação) a um código de barras EAN‑13 com apenas algumas linhas adicionais de código.
+## Como suplementar dados
+Adicione dados suplementares (por exemplo, dígitos de verificação) a um barcode EAN‑13 com apenas algumas linhas de código a mais.
 
-### Como configurar a proporção larga‑estreita
-Ajuste finamente o equilíbrio visual entre barras largas e estreitas para atender às especificações do leitor ou preferências estéticas.
+## Como configurar a proporção wide‑narrow
+Ajuste finamente o equilíbrio visual entre barras largas e estreitas para atender às especificações do scanner ou preferências estéticas.
 
 ## Problemas Comuns e Soluções
-- **O código de barras aparece borrado** – Certifique‑se de usar DPI suficientemente alto ao salvar em formatos raster (por exemplo, PNG, JPEG).  
-- **O leitor não consegue ler o código** – Verifique a zona silenciosa necessária e se a altura das barras atende à especificação da simbologia.  
-- **Dimensões inesperadas** – Verifique se não sobrescreveu as dimensões X/Y em outra parte do seu código.  
+- **Barcode aparece borrado** – Certifique‑se de usar DPI suficiente ao salvar em formatos raster (ex.: PNG, JPEG).  
+- **Scanner não lê o código** – Verifique a zona silenciosa necessária e se a altura da barra atende à especificação da simbologia.  
+- **Dimensões inesperadas** – Confira se você não sobrescreveu as dimensões X/Y em outro ponto do código.  
 - **Licença não encontrada** – Coloque o arquivo `Aspose.BarCode.lic` no classpath ou defina a licença programaticamente na inicialização.
 
 ## Perguntas Frequentes
 
-**Q: Posso gerar códigos de barras em tempo real em uma aplicação web?**  
-A: Sim. Aspose.BarCode funciona perfeitamente em contêineres servlet; você pode transmitir a imagem diretamente para a resposta HTTP.
+**Q: Posso gerar barcodes dinamicamente em uma aplicação web?**  
+A: Sim. O Aspose.BarCode funciona perfeitamente em contêineres servlet; você pode transmitir a imagem diretamente na resposta HTTP.
 
-**Q: A biblioteca suporta códigos de barras coloridos?**  
-A: Absolutamente. Use os métodos `setForeColor` e `setBackColor` para personalizar as cores de primeiro plano e de fundo.
+**Q: A biblioteca suporta barcodes coloridos?**  
+A: Absolutamente. Use os métodos `setForeColor` e `setBackColor` para personalizar as cores de primeiro plano e fundo.
 
-**Q: É possível gerar códigos de barras sem gravar em disco?**  
-A: Sim. Você pode escrever o código de barras em um `ByteArrayOutputStream` e então servi‑lo diretamente ou incorporá‑lo em PDFs.
+**Q: É possível gerar barcodes sem gravar em disco?**  
+A: Sim. Você pode escrever o barcode em um `ByteArrayOutputStream` e então servi‑lo diretamente ou incorporá‑lo em PDFs.
 
-**Q: Como lidar lote de grande volume?**  
-A: Crie uma única instância de `BarcodeGenerator` e reutilize‑a dentro de um loop, atualizando o texto do código a cada iteração para reduzir a sobrecarga de criação de objetos.
+**Q: Como lidar com geração em lote de grande volume?**  
+A: Crie uma única instância `BarcodeGenerator` e reutilize‑a dentro de um loop, atualizando o texto do código a cada iteração para reduzir a sobrecarga de criação de objetos.
 
 **Q: Existem benchmarks de desempenho?**  
-A: Em casos de uso típicos, gerar um código de barras Code128 de 300 × 150 px leva menos de 2 ms em um CPU moderno.
+A: Em casos típicos, gerar um barcode Code128 de 300 × 150 px leva menos de 2 ms em um CPU moderno.
 
-## Tutoriais de Configuração de Código de Barras
-### [Configurando Código de Barras com Segmentos em Java](./configuring-barcode-segments/)
-Gere códigos de barras personalizados em Java sem esforço com Aspose.BarCode. Versátil, eficiente e amigável ao desenvolvedor.
+## Tutoriais de Configuração de Barcode
+### [Configuring Barcode with Segments in Java](./configuring-barcode-segments/)
+Genere barcodes personalizados em Java sem esforço com Aspose.BarCode. Versátil, eficiente e amigável ao desenvolvedor.
 
-### [Gerando um Patch Code em Java](./generating-patch-code/)
-Gere Patch Codes sem esforço em Java com Aspose.BarCode. Siga nosso guia passo a passo para geração eficiente de códigos de barras.
+### [Generating a Patch Code in Java](./generating-patch-code/)
+Genere Patch Codes facilmente em Java com Aspose.BarCode. Siga nosso guia passo‑a‑passo para geração eficiente de barcodes.
 
-### [Gerando Código de Barras Australia Post em Java](./generating-australia-post-barcode/)
-Gere códigos de barras Australia Post sem esforço em Java usando Aspose.BarCode. Siga nosso tutorial passo a passo para integração perfeita.
+### [Generating Australia Post Barcode in Java](./generating-australia-post-barcode/)
+Genere barcodes Australia Post sem esforço em Java usando Aspose.BarCode. Siga nosso tutorial passo‑a‑passo para integração perfeita.
 
-### [Gerenciando Dimensões X e Y do Código de Barras em Java](./managing-x-y-dimension-barcode/)
-Explore o poder do Aspose.BarCode para Java! Aprenda a gerenciar as dimensões X e Y sem esforço com nosso guia passo a passo. Aumente a precisão e o apelo visual.
+### [Managing X and Y Dimensions of Barcode in Java](./managing-x-y-dimension-barcode/)
+Explore o poder do Aspose.BarCode para Java! Aprenda a gerenciar dimensões X e Y com facilidade através do nosso guia passo‑a‑passo. Aumente a precisão e o apelo visual.
 
-### [Definindo Altura das Barras em Java](./setting-bars-height/)
-Gere e personalize códigos de barras sem esforço em Java com Aspose.BarCode. Defina a altura das barras, escolha tipos e melhore as capacidades da sua aplicação.
+### [Setting Bars Height in Java](./setting-bars-height/)
+Genere e personalize barcodes sem esforço em Java com Aspose.BarCode. Defina a altura das barras, escolha tipos e amplie as capacidades da sua aplicação.
 
-### [Definindo Símbolos de Início e Fim em Java](./setting-start-stop-symbols/)
-Gere códigos de barras Codabar personalizados com símbolos de início e fim específicos em Java usando Aspose.BarCode. Siga nosso guia passo a passo para integração perfeita.
+### [Setting Start and Stop Symbols in Java](./setting-start-stop-symbols/)
+Genere barcodes Codabar personalizados com símbolos de início e fim específicos em Java usando Aspose.BarCode. Siga nosso guia passo‑a‑passo para integração perfeita.
 
-### [Suplementando Dados em Java](./supplementing-data/)
-Aprenda a criar códigos de barras dinâmicos em Java usando Aspose.BarCode. Guia passo a passo para suplementar dados com a simbologia EAN_13.
+### [Supplementing Data in Java](./supplementing-data/)
+Aprenda a criar barcodes dinâmicos em Java usando Aspose.BarCode. Guia passo‑a‑passo para suplementar dados com a simbologia EAN_13.
 
-### [Configurando Proporção Larga‑Estreita em Java](./configuring-wide-narrow-ratio/)
-Aprenda a configurar a proporção larga‑estreita em códigos de barras Java usando Aspose.BarCode. Siga nosso guia passo a passo para personalização perfeita.
+### [Configuring Wide-Narrow Ratio in Java](./configuring-wide-narrow-ratio/)
+Aprenda a configurar a proporção wide‑narrow em barcodes Java usando Aspose.BarCode. Siga nosso guia passo‑a‑passo para personalização sem falhas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -126,6 +139,6 @@ Aprenda a configurar a proporção larga‑estreita em códigos de barras Java u
 
 ---
 
-**Última Atualização:** 2025-12-09  
+**Última atualização:** 2026-02-12  
 **Testado com:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose
