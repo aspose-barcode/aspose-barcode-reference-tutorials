@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Aspose.BarCode का उपयोग करके जावा में कस्टम वाइड‑नैरो अनुपात के साथ बारकोड
-  कैसे बनाएं और बारकोड इमेज को कुशलतापूर्वक जनरेट करें, सीखें। हमारे चरण‑दर‑चरण गाइड
-  का पालन करें।
+date: 2026-02-12
+description: Aspose.BarCode का उपयोग करके जावा में कस्टम वाइड‑नैरो अनुपात के साथ code128
+  बारकोड बनाना सीखें, और बारकोड PNG छवियों को कुशलतापूर्वक जनरेट करें। हमारे चरण‑दर‑चरण
+  गाइड का पालन करें।
 linktitle: Configuring Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
-title: जावा में वाइड-नैरो अनुपात के साथ बारकोड कैसे जनरेट करें
+title: जावा में विस्तृत‑संकुचित अनुपात के साथ CODE_128 बारकोड कैसे बनाएं
 url: /hi/java/barcode-configuration/configuring-wide-narrow-ratio/
 weight: 17
 ---
@@ -14,53 +14,53 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में वाइड‑नैरो रेशियो के साथ बारकोड कैसे जनरेट करें
+# Java में Wide‑Narrow Ratio के साथ CODE_128 बारकोड कैसे बनाएं
 
-## परिचय
+## Introduction
 
-यदि आपको **बारकोड कैसे जनरेट करें** सटीक दृश्य अनुपात के साथ चाहिए, तो वाइड‑नैरो रेशियो को समायोजित करना ही कुंजी है। इस ट्यूटोरियल में हम Aspose.BarCode for Java का उपयोग करके **स्टेप बाय स्टेप बारकोड** निर्माण प्रक्रिया को दिखाएंगे, जिसमें रेशियो को कॉन्फ़िगर करना, बारकोड इमेज जनरेट करना, और **बारकोड PNG सहेजें** डिस्क पर कैसे किया जाए, शामिल है। चाहे आप इन्वेंटरी लेबल, शिपिंग टैग, या किसी भी एप्लिकेशन के लिए कस्टम‑स्टाइल्ड CODE_128 बारकोड बना रहे हों, आपको यहाँ सभी आवश्यक जानकारी मिलेगी।
+यदि आपको सटीक दृश्य अनुपात के साथ **code128 barcode** बनाना है, तो wide‑narrow ratio को समायोजित करना मुख्य है। इस ट्यूटोरियल में हम Aspose.BarCode for Java का उपयोग करके **step‑by‑step barcode** निर्माण प्रक्रिया को दिखाएंगे, जिसमें आप ratio को कॉन्फ़िगर करना, **barcode PNG** छवियां उत्पन्न करना, और **save barcode image** को डिस्क पर **save** करना सीखेंगे। चाहे आप इन्वेंट्री लेबल, शिपिंग टैग, या किसी भी एप्लिकेशन के लिए कस्टम‑स्टाइल्ड CODE_128 बारकोड बना रहे हों, आपको यहाँ सभी आवश्यक जानकारी मिल जाएगी।
 
-## त्वरित उत्तर
-- **वाइड‑नैरो रेशियो क्या है?** यह बारकोड में वाइड बार और नैरो बार की सापेक्ष चौड़ाई को नियंत्रित करता है।  
-- **कौन सी सिम्बोलॉजी रेशियो समायोजन का समर्थन करती है?** अधिकांश 1‑D सिम्बोलॉजी, जैसे CODE_128, आपको कस्टम रेशियो सेट करने की अनुमति देती हैं।  
-- **क्या मुझे लाइसेंस चाहिए?** एक मुफ्त ट्रायल उपलब्ध है, लेकिन प्रोडक्शन उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है।  
-- **क्या मैं PNG फॉर्मेट में बारकोड इमेज जनरेट कर सकता हूँ?** हाँ—`generator.save(...)` का उपयोग करके बारकोड इमेज PNG के रूप में जनरेट करें।  
-- **क्या कोड Java 8+ के साथ संगत है?** बिल्कुल; Aspose.BarCode सभी आधुनिक Java संस्करणों के साथ काम करता है।
+## Quick Answers
+- **What is the wide‑narrow ratio?** यह बारकोड में wide बार की चौड़ाई की तुलना narrow बार से नियंत्रित करता है।  
+- **Which symbology supports ratio adjustment?** अधिकांश 1‑D symbologies, जिसमें CODE_128 शामिल है, आपको कस्टम ratio सेट करने की अनुमति देती हैं।  
+- **Do I need a license?** एक मुफ्त ट्रायल उपलब्ध है, लेकिन उत्पादन उपयोग के लिए व्यावसायिक लाइसेंस आवश्यक है।  
+- **Can I generate a barcode image in PNG format?** हाँ—`generator.save(...)` का उपयोग करके barcode PNG छवियां उत्पन्न करें।  
+- **Is the code compatible with Java 8+?** बिल्कुल; Aspose.BarCode सभी आधुनिक Java संस्करणों के साथ काम करता है।
 
-## पूर्वापेक्षाएँ
+## Prerequisites
 
-कोड में डुबकी लगाने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+Before we dive into the code, ensure you have the following:
 
-- आपके मशीन पर Java Development Kit (JDK) स्थापित हो।  
-- Aspose.BarCode for Java लाइब्रेरी। इसे [download link](https://releases.aspose.com/barcode/java/) से डाउनलोड करें।
+- Java Development Kit (JDK) installed on your machine.  
+- Aspose.BarCode for Java library. Download it from the [download link](https://releases.aspose.com/barcode/java/).
 
-## पैकेज इम्पोर्ट करें
+## Import Packages
 
-शुरू करने के लिए, अपने प्रोजेक्ट में आवश्यक Aspose.BarCode क्लास को इम्पोर्ट करें।
+To start, import the essential Aspose.BarCode class into your project.
 
 ```java
 // Import Aspose.BarCode library
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## वाइड‑नैरो रेशियो क्या है और इसे क्यों समायोजित करें?
+## What is the wide‑narrow ratio and why adjust it?
 
-वाइड‑नैरो रेशियो निर्धारित करता है कि “वाइड” बार “नैरो” बार की तुलना में कितने मोटे दिखते हैं। इस रेशियो को समायोजित करने से स्कैनर की पठनीयता में सुधार हो सकता है, विशिष्ट प्रिंटिंग मानकों को पूरा किया जा सकता है, या बस ब्रांड की दृश्य शैली से मेल खाया जा सकता है।
+wide‑narrow ratio निर्धारित करता है कि “wide” बार “narrow” बार की तुलना में कितने मोटे दिखेंगे। इस ratio को समायोजित करने से स्कैनर की पठनीयता में सुधार, विशिष्ट प्रिंटिंग मानकों को पूरा करना, या केवल ब्रांड की दृश्य शैली से मेल खाना संभव होता है।
 
-## जावा में वाइड‑नैरो रेशियो के साथ बारकोड कैसे जनरेट करें
+## How to create code128 barcode with wide‑narrow ratio in Java
 
-नीचे एक **स्टेप बाय स्टेप बारकोड** गाइड है जो प्रक्रिया के प्रत्येक भाग को समझाता है।
+Below is a **step‑by‑step barcode** guide that walks you through each piece of the process.
 
-### चरण 1: दस्तावेज़ डायरेक्टरी सेट करें
+### Step 1: Set Document Directory
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-सुनिश्चित करें कि डायरेक्टरी मौजूद है और आपके पास लिखने की अनुमति है; यही वह स्थान है जहाँ **बारकोड PNG सहेजें** फ़ाइल रखी जाएगी।
+सुनिश्चित करें कि डायरेक्टरी मौजूद है और आपके पास लिखने की अनुमति है; यही वह स्थान है जहाँ **save barcode image** फ़ाइल रखी जाएगी।
 
-### चरण 2: बारकोड ऑब्जेक्ट बनाएं
+### Step 2: Instantiate Barcode Object
 
 ```java
 // Instantiate barcode object
@@ -68,53 +68,61 @@ String dataDir = "Your Document Directory";
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-यहाँ हम **कोड_128 बारकोड बनाएं** `EncodeTypes.CODE_128` को कंस्ट्रक्टर में पास करके बनाते हैं।
+यहाँ हम `EncodeTypes.CODE_128` को कंस्ट्रक्टर में पास करके **code128 barcode** बनाते हैं।
 
-### चरण 3: वाइड‑नैरो रेशियो सेट करें
+### Step 3: Set Wide‑Narrow Ratio
 
 ```java
 // Set the wide to narrow ratio for the barcode
 generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 ```
 
-`setWideNarrowRatio` मेथड आपको दृश्य स्पेसिंग को फाइन‑ट्यून करने देता है। `3.0f` का मान मतलब वाइड बार की चौड़ाई नैरो बार की तीन गुना है।
+`setWideNarrowRatio` मेथड आपको दृश्य अंतराल को बारीकी से समायोजित करने देता है। `3.0f` मान का अर्थ है कि wide बार narrow बार की चौड़ाई से तीन गुना है।
 
-### चरण 4: इमेज को डिस्क पर सहेजें
+### Step 4: Save Image to Disk
 
 ```java
 // Save the image to disk in PNG format
 generator.save(dataDir + "wideNarrowRatio.png");
 ```
 
-`save` को कॉल करने से **बारकोड इमेज जनरेट करें** और इसे PNG फ़ाइल के रूप में स्टोर किया जाता है, जिससे **बारकोड PNG सहेजें** चरण पूरा हो जाता है।
+`save` को कॉल करने से **generate barcode image** होगा और यह PNG फ़ाइल के रूप में सहेजा जाएगा, जिससे **save barcode image** चरण पूरा हो जाता है।
 
-## सामान्य समस्याएँ और समाधान
+## Why adjust the wide‑narrow ratio?
+
+- **Scanner Compatibility:** कुछ स्कैनर 2.0‑3.0 के बीच के ratio को बेहतर पढ़ने की दर के लिए पसंद करते हैं।  
+- **Print Quality:** ratio को समायोजित करने से प्रिंटर DPI सीमाओं की भरपाई होती है, जिससे बार विकृत नहीं होते।  
+- **Brand Consistency:** कुछ कंपनियां चाहती हैं कि बारकोड उनके कॉर्पोरेट रंगों या डिज़ाइन गाइडलाइन के साथ दृश्य रूप से मेल खाए।
+
+## Common Issues and Solutions
 
 | समस्या | कारण | समाधान |
-|--------|-------|--------|
-| बारकोड विकृत दिखता है | प्रिंटर के लिए रेशियो बहुत अधिक/कम है | `setWideNarrowRatio` को पास किए गए मान को समायोजित करें (जैसे, 2.0‑2.5)। |
-| फ़ाइल नहीं बनी | अमान्य `dataDir` पाथ या अपर्याप्त अनुमतियां | डायरेक्टरी पाथ की जाँच करें और सुनिश्चित करें कि एप्लिकेशन के पास लिखने की अनुमति है। |
-| स्कैनर बारकोड नहीं पढ़ पा रहा है | सिम्बोलॉजी के लिए अनुशंसित रेंज से बाहर रेशियो | मानक रेशियो (2.0‑3.0) उपयोग करें या लक्ष्य स्कैनर के साथ परीक्षण करें। |
+|-------|--------|-----|
+| बारकोड विकृत दिखता है | प्रिंटर के लिए अनुपात बहुत अधिक/कम | `setWideNarrowRatio` को पास किए गए मान को समायोजित करें (उदा., 2.0‑2.5)। |
+| फ़ाइल नहीं बनी | अमान्य `dataDir` पथ या अपर्याप्त अनुमतियां | डायरेक्टरी पथ की जाँच करें और सुनिश्चित करें कि एप्लिकेशन के पास लिखने की अनुमति है। |
+| स्कैनर बारकोड नहीं पढ़ पा रहा है | सिम्बोलॉजी के लिए अनुशंसित सीमा से बाहर अनुपात | मानक अनुपात (2.0‑3.0) उपयोग करें या लक्ष्य स्कैनर के साथ परीक्षण करें। |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-**प्रश्न: क्या मैं Aspose.BarCode को अन्य Java फ्रेमवर्क के साथ उपयोग कर सकता हूँ?**  
-**उत्तर:** हाँ, Aspose.BarCode को Spring, Java EE, Android और अन्य Java वातावरण के साथ सहजता से काम करने के लिए डिज़ाइन किया गया है।
+**Q: क्या मैं Aspose.BarCode को अन्य Java फ्रेमवर्क के साथ उपयोग कर सकता हूँ?**  
+A: हाँ, Aspose.BarCode को Spring, Java EE, Android और अन्य Java पर्यावरणों के साथ सहजता से काम करने के लिए डिज़ाइन किया गया है।
 
-**प्रश्न: विभिन्न सिम्बोलॉजी के साथ बारकोड कैसे जनरेट करूँ?**  
-**उत्तर:** बस `BarcodeGenerator` कंस्ट्रक्टर में सिम्बोलॉजी प्रकार बदलें, उदाहरण के लिए QR कोड के लिए `EncodeTypes.QR`।
+**Q: विभिन्न symbologies के साथ बारकोड कैसे उत्पन्न करूँ?**  
+A: बस `BarcodeGenerator` कंस्ट्रक्टर में symbology प्रकार बदलें, उदाहरण के लिए QR कोड के लिए `EncodeTypes.QR`।
 
-**प्रश्न: क्या Aspose.BarCode के लिए ट्रायल संस्करण उपलब्ध है?**  
-**उत्तर:** हाँ, आप मुफ्त ट्रायल संस्करण [यहाँ](https://releases.aspose.com/) से एक्सेस कर सकते हैं।
+**Q: क्या Aspose.BarCode के लिए ट्रायल संस्करण उपलब्ध है?**  
+A: हाँ, आप मुफ्त ट्रायल संस्करण [here](https://releases.aspose.com/) से एक्सेस कर सकते हैं।
 
-**प्रश्न: Aspose.BarCode की विस्तृत दस्तावेज़ीकरण कहाँ मिल सकती है?**  
-**उत्तर:** दस्तावेज़ीकरण के लिए [यहाँ](https://reference.aspose.com/barcode/java/) देखें।
+**Q: Aspose.BarCode की विस्तृत दस्तावेज़ीकरण कहाँ मिल सकती है?**  
+A: दस्तावेज़ीकरण के लिए [here](https://reference.aspose.com/barcode/java/) देखें।
 
-**प्रश्न: Aspose.BarCode के लिए सपोर्ट कैसे प्राप्त करूँ?**  
-**उत्तर:** सपोर्ट और समुदाय चर्चा के लिए Aspose.BarCode फ़ोरम [यहाँ](https://forum.aspose.com/c/barcode/13) पर जाएँ।
+**Q: Aspose.BarCode के लिए समर्थन कैसे प्राप्त करें?**  
+A: समर्थन और समुदाय चर्चा के लिए Aspose.BarCode फ़ोरम [here](https://forum.aspose.com/c/barcode/13) पर जाएँ।
 
-**अंतिम अपडेट:** 2025-12-10  
-**परीक्षित संस्करण:** Aspose.BarCode for Java 24.11 (लेखन समय पर नवीनतम)  
+---
+
+**अंतिम अपडेट:** 2026-02-12  
+**परीक्षण किया गया:** Aspose.BarCode for Java 24.11 (लेखन के समय नवीनतम)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
