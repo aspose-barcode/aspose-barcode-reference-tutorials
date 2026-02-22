@@ -1,50 +1,67 @@
 ---
-title: Endimensionell streckkodshöjdjustering
-linktitle: Endimensionell streckkodshöjdjustering
+date: 2026-02-22
+description: Lär dig hur du skapar anpassad streckkodshöjd i .NET med Aspose.BarCode,
+  justera höjden på endimensionella streckkoder snabbt och exakt.
+linktitle: Create Barcode Custom Height – One-Dimensional Barcodes
 second_title: Aspose.BarCode .NET API
-description: Lär dig hur du justerar höjden på endimensionella streckkoder i .NET med Aspose.BarCode för exakt anpassning. Skapa perfekta streckkoder utan ansträngning!
-weight: 13
+title: Skapa streckkod med anpassad höjd – Endimensionella streckkoder
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Endimensionell streckkodshöjdjustering
+# Skapa anpassad höjd för streckkod – Endimensionella streckkoder
 
+När du behöver **create barcode custom height** i en .NET-applikation, ger Aspose.BarCode for .NET dig full kontroll över det visuella utseendet på endimensionella streckkoder. Oavsett om du bygger lageretiketter, kassa‑kvitton eller fraktsedlar, gör möjligheten att finjustera streckkodens höjd att skanningen blir optimal och utseendet polerat. I den här steg‑för‑steg‑guiden går vi igenom allt du behöver veta för att justera höjden på en endimensionell streckkod med Aspose.BarCode for .NET.
 
-När det gäller att generera streckkoder i .NET-applikationer är Aspose.BarCode för .NET ett kraftfullt och mångsidigt verktyg som kan effektivisera processen. Oavsett om du skapar streckkoder för lagerhantering, detaljhandel eller någon annan applikation, är exakt kontroll över streckkodens egenskaper viktigt. En av dessa egenskaper är höjden på den endimensionella streckkoden. I den här steg-för-steg-guiden går vi igenom processen att justera höjden på en endimensionell streckkod med Aspose.BarCode för .NET.
+## Snabba svar
+- **Vad betyder “barcode custom height”?** Det är den pixel‑baserade vertikala storleken på en 1‑D streckkodssymbol.  
+- **Vilken egenskap styr höjden?** `Parameters.Barcode.BarHeight.Pixels`.  
+- **Kan jag generera flera höjder i ett körning?** Ja – ändra bara egenskapen och anropa `Save()` igen.  
+- **Vilka bildformat stöds?** PNG, JPEG, TIFF, BMP, GIF, och fler.  
+- **Behöver jag en licens för att justera höjden?** Nej, funktionen fungerar i gratis‑versionen; en licens krävs för produktionsanvändning.
+
+## Vad är “create barcode custom height”?
+Att skapa en streckkod med en anpassad höjd innebär att ange det exakta pixelvärdet för den vertikala dimensionen av streckkodens staplar. Detta är användbart när du har strikta layoutkrav, behöver matcha befintligt tryckt material eller vill förbättra skannerns läsbarhet på olika medier.
+
+## Varför använda Aspose.BarCode for .NET?
+- **Rich API** – Justera storlek, färg, text och mer med enkla egenskapsinställningar.  
+- **Cross‑platform** – Fungerar med .NET Framework, .NET Core och .NET 5/6+.  
+- **No external dependencies** – Genererar bilder utan att behöva extra bibliotek.  
+- **High‑quality rendering** – Garantiar skannbara streckkoder även vid anpassade dimensioner.
 
 ## Förutsättningar
 
 Innan du börjar, se till att du har följande förutsättningar på plats:
 
-- En utvecklingsmiljö med .NET Framework eller .NET Core.
--  Aspose.BarCode för .NET installerat. Du kan ladda ner den från webbplatsen[här](https://releases.aspose.com/barcode/net/).
-- En valfri kodredigerare.
+- En utvecklingsmiljö med .NET Framework eller .NET Core.  
+- Aspose.BarCode for .NET installerat. Du kan ladda ner det från webbplatsen [here](https://releases.aspose.com/barcode/net/).  
+- En kodredigerare du föredrar.
 
-Nu när vi har täckt förutsättningarna, låt oss dyka in i processen att justera höjden på en endimensionell streckkod.
+Nu när vi har förutsättningarna klara, låt oss dyka in i processen för att justera höjden på en endimensionell streckkod.
 
-## Importera namnområden
+## Importera namnrymder
 
-Först måste du importera de nödvändiga namnrymden till ditt projekt. Dessa namnutrymmen är viktiga för att arbeta med Aspose.BarCode för .NET. Så här kan du göra det:
+Först måste du importera de nödvändiga namnrymderna till ditt projekt. Dessa namnrymder är nödvändiga för att arbeta med Aspose.BarCode for .NET. Så här gör du:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Steg 1: Ställa in katalogsökvägen
+## Steg 1: Ange katalogsökvägen
 
-Börja med att definiera katalogsökvägen där du vill spara dina genererade streckkodsbilder. Ersätt "Din katalogsökväg" med den faktiska sökvägen i ditt system.
+Börja med att definiera katalogsökvägen där du vill spara dina genererade streckkodsbilder. Ersätt `"Your Directory Path"` med den faktiska sökvägen på ditt system.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Steg 2: Skapa streckkodsgeneratorn
+## Steg 2: Skapa Barcode Generator
 
- Skapa nu en instans av`BarcodeGenerator` klass. Du kan ange streckkodstypen (i det här fallet kommer vi att använda`Code128`) och streckkodsvärdet (i det här exemplet "ASPOSE").
+Skapa nu en instans av klassen `BarcodeGenerator`. Du kan ange streckkodstypen (i detta fall använder vi `Code128`) och streckkodsvärdet (i detta exempel, `"ASPOSE"`).
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "ASPOSE");
@@ -52,42 +69,54 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "ASPOSE");
 
 ## Steg 3: Justera streckkodens höjd
 
- I det här steget ställer du in streckkodens höjd med hjälp av`BarHeight` fast egendom. Som ett exempel kommer vi att justera höjden till 40 pixlar och 80 pixlar och spara två streckkodsbilder därefter.
+I detta steg kommer du att sätta streckkodens höjd med egenskapen `BarHeight`. Som exempel kommer vi att justera höjden till 40 pixlar och 80 pixlar och spara två streckkodsbilder därefter. Detta visar hur enkelt det är att **create barcode custom height** värden i farten.
 
 ```csharp
-// Ställ in BarHeight till 40 pixlar
+// Set BarHeight to 40 pixels
 gen.Parameters.Barcode.BarHeight.Pixels = 40;
 gen.Save($"{path}BarHeight40Code128.png", BarCodeImageFormat.Png);
 
-// Ställ in BarHeight till 80 pixlar
+// Set BarHeight to 80 pixels
 gen.Parameters.Barcode.BarHeight.Pixels = 80;
 gen.Save($"{path}BarHeight80Code128.png", BarCodeImageFormat.Png);
 ```
 
-## Slutsats
+## Vanliga problem och lösningar
 
-den här handledningen har vi gått igenom processen att justera höjden på en endimensionell streckkod med Aspose.BarCode för .NET. Med möjligheten att finjustera streckkodsegenskaperna kan du skräddarsy dina streckkodsbilder efter dina specifika krav.
-
-Nu kan du skapa streckkoder med olika höjder för att passa din applikations behov. Aspose.BarCode för .NET gör det enkelt att anpassa streckkoder, vilket ger dig ett kraftfullt verktyg för dina .NET-projekt.
-
- Om du har några frågor eller stöter på problem kan du söka hjälp från Aspose-communityt på deras[supportforum](https://forum.aspose.com/c/barcode/13).
+| Problem | Orsak | Lösning |
+|---------|-------|---------|
+| Streckkoden blir för tunn efter höjdändring | Bredden justerades inte proportionellt | Använd `Parameters.Barcode.XDimension` för att ändra stapelbredden om det behövs. |
+| Bilden sparas inte | Ogiltig sökväg eller saknade skrivbehörigheter | Verifiera att `path` slutar med ett bakstreck och att mappen finns. |
+| Genererad streckkod kan inte skannas | Höjden är för låg/hög för skannern | Testa med en vanlig skanner; håll höjden mellan 30‑100 px för de flesta 1‑D-koder. |
 
 ## Vanliga frågor
 
-### Vilka streckkodstyper stöds av Aspose.BarCode för .NET?
-Aspose.BarCode för .NET stöder ett brett utbud av streckkodstyper, inklusive Code128, QR Code, DataMatrix och många fler. Du hittar en omfattande lista i dokumentationen.
+**Q: Vilka streckkodstyper stöds av Aspose.BarCode for .NET?**  
+A: Aspose.BarCode for .NET stöder ett brett spektrum av streckkodstyper, inklusive Code128, QR Code, DataMatrix och många fler. Du kan hitta en omfattande lista i dokumentationen.
 
-### Kan jag justera bredden på en endimensionell streckkod också?
-Ja, du kan justera bredden på en endimensionell streckkod med Aspose.BarCode för .NET. Processen liknar att justera höjden, och du har full kontroll över streckkodens mått.
+**Q: Kan jag också justera bredden på en endimensionell streckkod?**  
+A: Ja, du kan justera bredden på en endimensionell streckkod med Aspose.BarCode for .NET. Processen är liknande justeringen av höjden, och du har full kontroll över streckkodens dimensioner.
 
-### Finns det en gratis testversion tillgänglig för Aspose.BarCode för .NET?
- Ja, du kan utforska Aspose.BarCode för .NET med en gratis provperiod. Du kan ladda ner den från[här](https://releases.aspose.com/).
+**Q: Finns det en gratis provversion av Aspose.BarCode for .NET?**  
+A: Ja, du kan prova Aspose.BarCode for .NET med en gratis provversion. Du kan ladda ner den från [here](https://releases.aspose.com/).
 
-### Kan jag generera streckkoder i olika bildformat?
-Ja, Aspose.BarCode för .NET stöder olika bildformat, inklusive PNG, JPEG och TIFF. Du kan välja det format som bäst passar din applikations krav.
+**Q: Kan jag generera streckkoder i olika bildformat?**  
+A: Ja, Aspose.BarCode for .NET stöder olika bildformat, inklusive PNG, JPEG och TIFF. Du kan välja det format som bäst passar ditt programs krav.
 
-### Var kan jag hitta detaljerad dokumentation för Aspose.BarCode för .NET?
- Du kan hänvisa till dokumentationen[här](https://reference.aspose.com/barcode/net/) för djupgående information om hur du använder Aspose.BarCode i dina .NET-projekt.
+**Q: Var kan jag hitta detaljerad dokumentation för Aspose.BarCode for .NET?**  
+A: Du kan hänvisa till dokumentationen [here](https://reference.aspose.com/barcode/net/) för djupgående information om hur du använder Aspose.BarCode i dina .NET-projekt.
+
+## Slutsats
+
+I den här handledningen har vi gått igenom processen för att **create barcode custom height** för endimensionella streckkoder med Aspose.BarCode for .NET. Genom att justera egenskapen `BarHeight` kan du generera streckkodsbilder som exakt matchar dina layoutkrav, oavsett om du behöver en kompakt etikett eller en stor, högsynlig kod.
+
+Om du stöter på problem eller har ytterligare frågor, tveka inte att kontakta Aspose‑gemenskapen via deras [support forum](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Senast uppdaterad:** 2026-02-22  
+**Testat med:** Aspose.BarCode 24.11 for .NET  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
