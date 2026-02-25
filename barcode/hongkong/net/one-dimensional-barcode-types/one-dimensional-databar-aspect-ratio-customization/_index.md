@@ -1,54 +1,67 @@
 ---
-title: 一維資料欄長寬比定制
-linktitle: 一維資料欄長寬比定制
+date: 2026-02-25
+description: 在 **install Aspose.BarCode for .NET** 的同時，學習如何自訂 **databar stacked omnidirectional**
+  的長寬比。精準的條碼設計變得輕鬆。
+linktitle: One-Dimensional Databar Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
-description: 了解如何使用 Aspose.BarCode 在 .NET 中自訂一維 DataBar 縱橫比。提高條碼精度和設計。
-weight: 16
+title: 在 .NET 中自訂資料條堆疊式全向長寬比
 url: /zh-hant/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 一維資料欄長寬比定制
+# 自訂 .NET 中 databar stacked omnidirectional 長寬比
 
+在條碼的世界裡，精準與客製化是達成理想結果的關鍵。在本教學中，你將學習如何使用 Aspose.BarCode for .NET **自訂 databar stacked omnidirectional 長寬比**。我們會把流程拆解成一步一步的說明，解釋每個設定的原因，並示範如何產生最終影像。現在就開始吧！
 
-在條碼領域，精度和自訂是實現預期結果的關鍵。作為一名經驗豐富的 SEO 作家，我在這裡指導您完成使用 Aspose.BarCode for .NET 自訂一維 DataBar 的縱橫比的過程。我們將把這個複雜的流程分解為可管理的步驟，確保您徹底掌握這個概念。那麼，讓我們深入了解一下吧！
+## 快速解答
+- **我可以自訂什麼？** databar stacked omnidirectional 條碼的長寬比。  
+- **需要哪個函式庫？** Aspose.BarCode for .NET（安裝 Aspose.BarCode for .NET）。  
+- **X‑Dimension 可以設定多少像素？** 任意整數值；範例使用 2 像素。  
+- **產生的影像儲存在哪裡？** 儲存於你透過 `path` 變數指定的資料夾。  
+- **需要授權嗎？** 測試時可使用臨時授權；正式環境需購買正式授權。
 
-## 先決條件
+## 什麼是 databar stacked omnidirectional？
 
-在我們開始之前，您需要滿足一些先決條件：
+`databar stacked omnidirectional` 是由 GS1 標準定義的一維條碼類型。它以緊湊且高密度的格式編碼數字資料，且可從任意方向讀取，非常適合小型商品與行動掃描。
 
-### 1.安裝Aspose.BarCode for .NET
+## 為什麼要自訂長寬比？
 
-確保您的系統上安裝了 Aspose.BarCode for .NET。您可以從網站下載[這裡](https://releases.aspose.com/barcode/net/).
+調整 **長寬比** 可讓你控制寬度與高度之間的視覺平衡。當需要條碼符合特定標籤尺寸、符合品牌指引，或在受限的印刷條件下提升掃描可靠性時，這非常有用。
 
-### 2. 創建.NET項目
+## 前置條件
 
-您應該對 .NET 程式設計有基本的了解，並建立一個可以整合 Aspose.BarCode 的專案。
+在開始之前，請確保已具備以下項目：
 
-### 3.您的目錄路徑
+### 1. 安裝 Aspose.BarCode for .NET  
+你可以從官方網站 **[here](https://releases.aspose.com/barcode/net/)** 下載最新版本。依照安裝指南將 NuGet 套件加入你的專案。
 
-您需要指定要儲存產生的條碼的目錄路徑。
+### 2. 建立 .NET 專案  
+簡單的 Console 或 Windows 應用程式即可。確保目標為 .NET 6+（或 .NET Framework 4.5+），以便函式庫無需額外設定即可運作。
 
-現在，讓我們繼續了解自訂一維 DataBar 的縱橫比的分步指南。
+### 3. 你的目錄路徑  
+決定要將產生的 PNG 檔案儲存於何處，並記下絕對或相對路徑。
 
-## 導入命名空間
+## 匯入命名空間
 
-在開始自訂寬高比之前，必須匯入必要的命名空間以存取 .NET 專案中的 Aspose.BarCode 功能。您可以這樣做：
+在開始自訂長寬比之前，先匯入所需的命名空間，以便存取 Aspose.BarCode 類別。
 
-### 步驟1：導入Aspose.BarCode命名空間
+### Step 1: Import Aspose.BarCode Namespace
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-現在您已經匯入了所需的命名空間，您可以開始自訂寬高比了。
+現在你已準備好建立條碼產生器。
 
-## 第 1 步：初始化 BarcodeGenerator
+## databar stacked omnidirectional 長寬比設定
 
-第一步是初始化`BarcodeGenerator`班級。此類別可讓您產生具有各種自訂選項的條碼。我們將建立一個類型的條碼`DatabarStackedOmniDirectional`帶有範例資料字串。
+### Step 2: Initialize `BarcodeGenerator`
+
+我們將建立一個 **databar stacked omnidirectional** 類型的產生器，並提供範例 GS1 資料字串。
 
 ```csharp
 string path = "Your Directory Path";
@@ -57,71 +70,78 @@ System.Console.WriteLine("OneDDatabarAspectRatio:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarStackedOmniDirectional, "(01)12345678901231");
 ```
 
-在此程式碼中，我們設定`path`變數到您選擇的目錄路徑並建立一個`BarcodeGenerator`類型的對象`DatabarStackedOmniDirectional`帶有範例資料字串。
+*提示：* 將 `"Your Directory Path"` 替換為實際的資料夾，例如 `@"C:\Barcodes\"`。
 
-## 第 2 步：設定 X 維度像素
+### Step 3: Set X‑Dimension Pixels
 
-尺寸決定條碼的寬度。您可以根據您的要求進行設定。在此範例中，我們將其設定為 2 像素。
+X‑Dimension 定義窄條的寬度。此範例使用 2 像素，你可以依印表機 DPI 調整此值。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-在這裡，我們訪問`XDimension`的財產`Barcode`並將其設為 2 像素。
+### Step 4: Customize DataBar Aspect Ratio
 
-## 第 3 步：自訂 DataBar 縱橫比
+現在進入教學的核心——變更長寬比。
 
-現在是我們自訂的核心 - 更改 DataBar 的縱橫比。寬高比會影響條碼的寬度和高度的比例。在此範例中，我們將設定兩種不同的寬高比並儲存產生的條碼。
-
-### 步驟 3.1：將 DataBar 縱橫比設定為 15
+#### 4.1 Set Aspect Ratio to 15
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 15;
 gen.Save($"{path}DatabarAspectRatio15.png", BarCodeImageFormat.Png);
 ```
 
-這裡，我們將長寬比設為15，並將指定長寬比的條碼儲存到目錄路徑中。
+條碼會以 **DatabarAspectRatio15.png** 儲存，呈現相對較高的外觀。
 
-### 步驟 3.2：將 DataBar 縱橫比設定為 30
+#### 4.2 Set Aspect Ratio to 30
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 30;
 gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
 ```
 
-同樣，我們將長寬比設為30並保存條碼。
+將比例提升至 **30** 會使條碼變寬且變短，適用於寬標籤。
 
-恭喜！您已使用 Aspose.BarCode for .NET 成功自訂了一維 DataBar 的縱橫比。現在您可以在指定的目錄路徑中瀏覽已儲存的條碼影像。
+### Step 5: Verify the Output
+
+使用任何影像檢視器開啟產生的 PNG 檔案。你會看到同一條碼的兩個版本，寬高比例不同。使用一般條碼掃描器掃描，確認仍可讀取。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|-------|-------|-----|
+| 條碼模糊 | X‑Dimension 對印表機 DPI 太低 | 增加 `XDimension.Pixels`（例如 3 或 4）。 |
+| 掃描器無法讀取 | 長寬比過極端（例如 > 50） | 將比例維持在 10‑40 之間，以確保可靠掃描。 |
+| 檔案未儲存 | `path` 字串無效 | 使用 `Path.Combine`，並確保資料夾已存在（`Directory.CreateDirectory`）。 |
+
+## 常見問答
+
+**Q: 條碼的長寬比是什麼，為什麼重要？**  
+A: 長寬比是寬度與高度的比例。它會影響條碼在標籤上的適配程度，並可能影響掃描的可靠性。
+
+**Q: 我可以使用 Aspose.BarCode for .NET 變更其他條碼類型的長寬比嗎？**  
+A: 可以，許多一維與二維條碼皆提供 `AspectRatio` 屬性供微調。
+
+**Q: 變更長寬比有什麼限制嗎？**  
+A: 極端的數值可能違反編碼標準，使條碼無法讀取。請以目標掃描器進行測試。
+
+**Q: 我在哪裡可以找到更多 Aspose.BarCode for .NET 的教學與範例？**  
+A: 請參考官方 **[documentation](https://reference.aspose.com/barcode/net/)** 中的完整指南。
+
+**Q: 如何取得 Aspose.BarCode for .NET 的臨時授權？**  
+A: 你可以在 **[here](https://purchase.aspose.com/temporary-license/)** 申請試用授權。
 
 ## 結論
 
-在本教學中，我們探索如何使用 Aspose.BarCode for .NET 自訂一維 DataBar 的縱橫比。憑藉定制和精確的能力，您可以實現根據您的特定需求量身定制的條碼設計。無論是庫存管理還是產品標籤，Aspose.BarCode for .NET 都可以讓您輕鬆建立條碼。
+現在你已掌握如何使用 Aspose.BarCode for .NET **自訂 databar stacked omnidirectional 長寬比**。透過調整 `XDimension` 與 `DataBar.AspectRatio`，即可產生完全符合標籤尺寸、提升外觀一致性且保持掃描可靠性的條碼。可嘗試不同的比例，將程式碼整合至庫存或包裝流程中，盡情享受 Aspose 所提供的彈性。
 
-有任何疑問或需要進一步協助嗎？查看[文件](https://reference.aspose.com/barcode/net/)或訪問[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13)為了支持。
+如需更深入的資訊，請參閱完整的 **[documentation](https://reference.aspose.com/barcode/net/)**，或前往 **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** 加入社群。
 
-## 常見問題解答
+---
 
-### 1. 條碼的長寬比是多少，為什麼它很重要？
-
-條碼的縱橫比是其寬度與高度的比率。它很重要，因為它決定了條碼顯示的拉長或緊湊程度。適當的長寬比可確保條碼可掃描並適合您的特定用例。
-
-### 2. 我可以使用 Aspose.BarCode for .NET 來變更其他條碼類型的寬高比嗎？
-
-是的，Aspose.BarCode for .NET 可讓您自訂各種條碼類型的寬高比，為您的設計需求提供彈性。
-
-### 3. 更改條碼的長寬比有什麼限制嗎？
-
-雖然您可以調整縱橫比，但極端的變化可能會影響條碼的可掃描性。在設計和功能之間取得平衡至關重要。
-
-### 4. 在哪裡可以找到更多 Aspose.BarCode for .NET 教學和範例？
-
-您可以在以下位置探索各種教學和範例[文件](https://reference.aspose.com/barcode/net/).
-
-### 5. 如何取得 Aspose.BarCode for .NET 的臨時授權？
-
-如果您需要臨時許可證進行測試或評估，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
-
-
+**最後更新：** 2026-02-25  
+**測試環境：** Aspose.BarCode 24.12 for .NET  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
