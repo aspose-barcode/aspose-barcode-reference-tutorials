@@ -1,78 +1,113 @@
 ---
-title: 建立一維 Code 93 條碼
-linktitle: 一維代碼 93 配置
+date: 2026-02-25
+description: 學習如何使用 Aspose.BarCode for .NET 產生條碼圖像並將條碼儲存為 PNG – 完整的 Aspose 條碼範例。
+linktitle: One-Dimensional Code 93 Configuration
 second_title: Aspose.BarCode .NET API
-description: 了解如何使用 Aspose.BarCode for .NET 建立 Code 93 條碼。條碼產生的逐步指南。
-weight: 12
+title: 產生條碼圖像 – Code 93 與 Aspose.BarCode
 url: /zh-hant/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ Support](https://forum.aspose.com/c/barcode/13) 獲得支援與討論。"
+
+--- separator unchanged.
+
+**Last Updated:** 2026-02-25 -> keep.
+
+**Tested With:** Aspose.BarCode 24.11 for .NET -> keep.
+
+**Author:** Aspose -> keep.
+
+Then closing shortcodes.
+
+Also need to translate "Generate barcode image – One-Dimensional Code 93 with Aspose.BarCode" heading.
+
+Make sure to keep dash and hyphen.
+
+Now produce final content with same markdown and shortcodes.
+
+Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 建立一維 Code 93 條碼
+# 產生條碼影像 – 一維 Code 93 使用 Aspose.BarCode
 
+## 簡介
 
-## 介紹
+在當今的數位時代，條碼已成為我們生活中不可或缺的一部分，簡化了庫存管理、產品標籤及銷售點追蹤等流程。**產生條碼影像** 通常是將這些識別碼整合到應用程式中的第一步。Aspose.BarCode for .NET 提供一個強大且易於使用的 API，讓您只需幾行 C# 程式碼即可建立高品質的 Code 93 條碼。無論您是構建倉儲系統、零售應用程式或自訂報表工具，本教學都會帶您完成完整的 **aspose barcode example**，示範如何產生、客製化以及 **save barcode PNG** 檔案。
 
-在當今的數位時代，條碼已成為我們生活中不可或缺的一部分，簡化了庫存管理、產品標籤等各種流程。 Aspose.BarCode for .NET 是一個功能強大的工具，可讓開發人員在其應用程式中輕鬆產生和使用條碼。在本逐步指南中，我們將探索如何使用 Aspose.BarCode for .NET 建立一維 Code 93 條碼。無論您是經驗豐富的開發人員還是新手，本教學都將以用戶友好的方式引導您完成整個過程。讓我們開始吧！
+## 快速解答
+- **本教學涵蓋什麼內容？** 建立並儲存帶有檢查碼處理的 Code 93 條碼影像。  
+- **使用哪個函式庫？** Aspose.BarCode for .NET（最新穩定版）。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **可以變更輸出格式嗎？** 可以——只要修改 `BarCodeImageFormat` 即可儲存為 PNG、JPEG、BMP 等格式。  
+- **最低需求是什麼？** .NET Framework 4.6+ 或 .NET Core 3.1+，以及 Visual Studio。
 
-## 先決條件：
+## 什麼是 Code 93 條碼？
 
-在我們深入創建 Code 93 條碼之前，您需要滿足一些先決條件：
-1. Visual Studio：確保您的系統上安裝了 Visual Studio。您可以從網站下載。
-2. Aspose.BarCode for .NET：您應該安裝Aspose.BarCode for .NET。您可以從網站下載。
-3. C# 基礎：熟悉 C# 程式語言將會很有幫助。
+Code 93 是一種高密度、字母數字混合的符號系統，支援完整的 ASCII 字元集。它常因其緊湊尺寸與內建檢查碼而被選用，能在掃描時確保資料完整性。
 
-現在您已經具備了必要的先決條件，我們可以繼續閱讀逐步指南。
+## 為什麼使用 Aspose.BarCode 產生條碼影像？
 
-## 導入命名空間：
+- **完整控制** 編碼類型、檢查碼、尺寸與影像格式。  
+- **無外部相依性**——此函式庫可在任何 .NET 平台上執行。  
+- **卓越的渲染品質**，適用於螢幕顯示與高解析度列印。  
+- **完整的文件說明** 與大量範例，可加速開發。
 
-首先，我們需要匯入所需的命名空間，以便有效地使用 Aspose.BarCode for .NET。這將使我們能夠在程式碼中存取該庫的功能。您可以這樣做：
+## 先決條件
+
+在深入程式碼之前，請先確保您已具備以下項目：
+
+1. **Visual Studio**（任何近期版本）。  
+2. 已安裝 **Aspose.BarCode for .NET**——可從官方下載頁面取得。  
+3. 基本了解 **C#** 與 .NET 專案結構。
+
+現在環境已備妥，讓我們繼續逐步說明。
+
+## 匯入命名空間
+
+首先，匯入所需的命名空間，以便存取條碼產生類別。
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## 第1步：設定目錄路徑
+## 步驟 1：設定目錄路徑
 
-在建立 Code 93 條碼之前，我們應該指定要儲存產生的條碼影像的目錄。將「您的目錄路徑」替換為所需目錄的路徑。
+定義產生的條碼影像要儲存的位置。請將佔位字串替換為您機器上有效的資料夾路徑。
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 步驟 2：建立一維 Code 93 條碼
+## 步驟 2：建立一維 Code 93 條碼
 
-現在，讓我們使用 Aspose.BarCode for .NET 建立一維 Code 93 條碼。我們將使用特定參數來配置條碼。
+使用 `Code93Extended` 類型與欲編碼的資料，實例化 `BarcodeGenerator`。
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code93Extended, "CODE");
 ```
 
-在上面的程式碼中，我們初始化一個 BarcodeGenerator 對象，並將條碼類型設為“Code93Extended”，並將資料編碼為“CODE”。
+## 步驟 3：啟用檢查碼（可選）
 
-## 步驟 3：啟用校驗和
-
-預設情況下，Code 93 條碼包含資料完整性的校驗和值。您可以根據您的要求啟用或停用此功能。在此範例中，我們啟用校驗和。
+Code 93 預設已包含檢查碼。您可透過 `IsChecksumEnabled` 屬性切換其開啟與關閉。
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 ```
 
-## 第 4 步：儲存條碼圖像
+## 步驟 4：儲存條碼影像（Save Barcode PNG）
 
-現在我們已經配置了條碼，是時候產生它並將其保存為指定目錄中的圖像了。在本例中，我們將其儲存為 PNG 映像。
+產生影像並依先前指定的資料夾儲存為 PNG 檔案。
 
 ```csharp
 gen.Save($"{path}OneCSCode93WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-## 第5步：處理異常
+## 步驟 5：例外處理 – 產生不含檢查碼的條碼
 
-在某些情況下，您可能想要產生不含校驗和的 Code 93 條碼。在這種情況下，您需要處理異常。您可以這樣做：
+若需建立 **不含** 檢查碼的條碼，必須處理可能發生的例外情況。
 
 ```csharp
 try
@@ -86,28 +121,33 @@ catch (Exception e)
 }
 ```
 
-在上面的程式碼中，我們嘗試產生沒有校驗和的條碼。如果發生異常，我們會捕獲它並顯示錯誤訊息。
+### 常見問題與解決方案
+- **路徑無效**——請確認目錄存在且應用程式具備寫入權限。  
+- **不支援的字元**——Code 93 支援完整 ASCII 集合，但控制字元可能導致錯誤。  
+- **未設定授權**——若未提供有效授權，函式庫將以評估模式執行，可能會加上浮水印。
 
-現在我們已經完成了使用 Aspose.BarCode for .NET 建立一維 Code 93 條碼的每個步驟，您對流程有了基本的了解。請記住根據您的具體用例調整這些步驟。
+## 常見問題 (FAQs)
 
-總之，Aspose.BarCode for .NET 簡化了應用程式中條碼的產生。透過自訂參數的能力，您可以建立滿足您確切需求的條碼。那麼，為什麼不嘗試一下並輕鬆簡化您的條碼相關任務呢？
+### 問：在哪裡可以找到 Aspose.BarCode for .NET 的文件說明？
+您可以在 [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/) 找到文件說明。
 
-## 常見問題 (FAQ)：
+### 問：如何下載 Aspose.BarCode for .NET？
+您可從網站的 [Aspose.BarCode for .NET Download](https://releases.aspose.com/barcode/net/) 下載 Aspose.BarCode for .NET。
 
-### Q：在哪裡可以找到 Aspose.BarCode for .NET 的文件？
-答：您可以在以下位置找到文件：[Aspose.BarCode for .NET 文檔](https://reference.aspose.com/barcode/net/).
+### 問：Aspose.BarCode for .NET 是否提供免費試用？
+是的，您可從 [here](https://releases.aspose.com/) 取得 Aspose.BarCode for .NET 的免費試用版。
 
-### Q：如何下載 Aspose.BarCode for .NET？
-答：您可以從以下網站下載 Aspose.BarCode for .NET：[Aspose.BarCode for .NET 下載](https://releases.aspose.com/barcode/net/).
+### 問：如何購買 Aspose.BarCode for .NET 的授權？
+您可在購買頁面 [Aspose.BarCode for .NET Purchase](https://purchase.aspose.com/buy) 購買授權。
 
-### Q：Aspose.BarCode for .NET 是否有免費試用版？
-答：是的，您可以從以下位置取得 Aspose.BarCode for .NET 免費試用版：[這裡](https://releases.aspose.com/).
+### 問：在哪裡可以取得 Aspose.BarCode for .NET 的支援或提問？
+您可於社群論壇 [Aspose.BarCode for .NET Support](https://forum.aspose.com/c/barcode/13) 獲得支援與討論。
 
-### Q：如何購買 Aspose.BarCode for .NET 的授權？
-答：您可以從購買頁面購買許可證：[Aspose.BarCode for .NET 購買](https://purchase.aspose.com/buy).
+---
 
-### Q：我可以在哪裡獲得有關 Aspose.BarCode for .NET 的支援或提出問題？
-答：您可以在以下位置找到支援和討論的社群論壇：[Aspose.BarCode for .NET 支持](https://forum.aspose.com/c/barcode/13).
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

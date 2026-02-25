@@ -1,78 +1,96 @@
 ---
-title: Vytváření jednorozměrných kódů 93 čárových kódů
-linktitle: Konfigurace jednorozměrného kódu 93
+date: 2026-02-25
+description: Naučte se, jak vygenerovat obrázek čárového kódu a uložit čárový kód
+  jako PNG pomocí Aspose.BarCode pro .NET – kompletní příklad Aspose čárového kódu.
+linktitle: One-Dimensional Code 93 Configuration
 second_title: Aspose.BarCode .NET API
-description: Naučte se vytvářet čárové kódy Code 93 pomocí Aspose.BarCode for .NET. Průvodce generováním čárových kódů krok za krokem.
-weight: 12
+title: Vytvořit obrázek čárového kódu – Code 93 s Aspose.BarCode
 url: /cs/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ sure to preserve markdown formatting.
+
+Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytváření jednorozměrných kódů 93 čárových kódů
-
+# Vytvoření obrázku čárového kódu – jednorozměrný Code 93 s Aspose.BarCode
 
 ## Úvod
 
-dnešní digitální době se čárové kódy staly nedílnou součástí našich životů a zjednodušují různé procesy, jako je řízení zásob, označování produktů a další. Aspose.BarCode for .NET je výkonný nástroj, který umožňuje vývojářům bez námahy generovat a pracovat s čárovými kódy ve svých aplikacích. V tomto podrobném průvodci prozkoumáme, jak vytvořit jednorozměrné čárové kódy Code 93 pomocí Aspose.BarCode for .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vás provede procesem uživatelsky příjemným způsobem. Začněme!
+V dnešní digitální době se čárové kódy staly nedílnou součástí našeho života a zjednodušují procesy, jako je správa zásob, označování produktů a sledování prodeje na místě. **Generování obrázku čárového kódu** je často prvním krokem při integraci těchto identifikátorů do vašich aplikací. Aspose.BarCode pro .NET poskytuje robustní, snadno použitelný API, který vám umožní vytvořit vysoce kvalitní Code 93 čárové kódy během několika řádků C# kódu. Ať už budujete skladový systém, maloobchodní aplikaci nebo vlastní nástroj pro reportování, tento tutoriál vás provede kompletním **aspose barcode example**, který ukazuje, jak generovat, přizpůsobit a **uložit PNG čárového kódu** soubory.
 
-## Předpoklady:
+## Rychlé odpovědi
+- **Co tutoriál pokrývá?** Vytvoření a uložení obrázku čárového kódu Code 93 s ošetřením kontrolního součtu.  
+- **Která knihovna je použita?** Aspose.BarCode pro .NET (nejnovější stabilní verze).  
+- **Potřebuji licenci?** Pro vývoj stačí bezplatná zkušební verze; pro produkci je vyžadována komerční licence.  
+- **Mohu změnit výstupní formát?** Ano – můžete uložit jako PNG, JPEG, BMP atd. změnou `BarCodeImageFormat`.  
+- **Jaké jsou minimální požadavky?** .NET Framework 4.6+ nebo .NET Core 3.1+ a Visual Studio.
 
-Než se pustíme do vytváření čárových kódů Code 93, je třeba splnit několik předpokladů:
-1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout z webu.
-2. Aspose.BarCode for .NET: Měli byste mít nainstalovaný Aspose.BarCode for .NET. Můžete si jej stáhnout z webu.
-3. Základní znalost C#: Výhodou bude znalost programovacího jazyka C#.
+## Co je čárový kód Code 93?
+Code 93 je vysoce hustá alfanumerická symbologie, která podporuje celý ASCII znakový soubor. Často se volí pro svou kompaktní velikost a vestavěný kontrolní součet, který pomáhá zajistit integritu dat během skenování.
 
-Nyní, když máte potřebné předpoklady, můžeme přejít k průvodci krok za krokem.
+## Proč generovat obrázky čárových kódů pomocí Aspose.BarCode?
+- **Plná kontrola** nad typem kódování, kontrolním součtem, velikostí a formátem obrázku.  
+- **Žádné externí závislosti** – knihovna běží na jakékoli .NET platformě.  
+- **Vynikající kvalita vykreslování**, vhodná jak pro zobrazení na obrazovce, tak pro tisk ve vysokém rozlišení.  
+- **Komplexní dokumentace** a velké množství příkladů, které urychlují vývoj.
 
-## Importovat jmenné prostory:
+## Požadavky
 
-Nejprve musíme importovat požadované jmenné prostory, abychom mohli Aspose.BarCode pro .NET efektivně používat. To nám umožní přístup k funkcím knihovny v našem kódu. Můžete to udělat takto:
+Předtím, než se ponoříme do kódu, ujistěte se, že máte následující:
+
+1. **Visual Studio** (jakékoli nedávné vydání).  
+2. **Aspose.BarCode pro .NET** nainstalovaný – můžete jej získat na oficiální stránce ke stažení.  
+3. Základní znalost **C#** a struktury .NET projektů.
+
+Nyní, když jste připraveni, přejděme k podrobnému návodu.
+
+## Importovat jmenné prostory
+
+Nejprve importujte požadované jmenné prostory, abyste mohli přistupovat ke třídám pro generování čárových kódů.
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## Krok 1: Nastavte cestu k adresáři
+## Krok 1: Nastavit cestu ke složce
 
-Než vytvoříme čárový kód Code 93, měli bychom určit adresář, kam chceme uložit vygenerované obrázky čárového kódu. Nahraďte "Cesta k vašemu adresáři" cestou k požadovanému adresáři.
+Definujte, kam bude vygenerovaný obrázek čárového kódu uložen. Nahraďte zástupný text platnou složkou na vašem počítači.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Krok 2: Vytvořte jednorozměrný čárový kód 93
+## Krok 2: Vytvořit jednorozměrný čárový kód Code 93
 
-Nyní vytvořte jednorozměrný čárový kód Code 93 pomocí Aspose.BarCode for .NET. Čárový kód nakonfigurujeme se specifickými parametry.
+Vytvořte instanci `BarcodeGenerator` s typem `Code93Extended` a daty, která chcete zakódovat.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code93Extended, "CODE");
 ```
 
-Ve výše uvedeném kódu inicializujeme objekt BarcodeGenerator s typem čárového kódu nastaveným na „Code93Extended“ a daty, která chceme zakódovat jako „CODE“.
+## Krok 3: Povolit kontrolní součet (volitelné)
 
-## Krok 3: Povolte kontrolní součet
-
-Čárové kódy Code 93 standardně obsahují hodnotu kontrolního součtu pro integritu dat. Tuto funkci můžete povolit nebo zakázat podle svých požadavků. V tomto příkladu povolíme kontrolní součet.
+Code 93 zahrnuje kontrolní součet ve výchozím nastavení. Můžete jej zapnout nebo vypnout pomocí vlastnosti `IsChecksumEnabled`.
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 ```
 
-## Krok 4: Uložte obrázek čárového kódu
+## Krok 4: Uložit obrázek čárového kódu (Uložit PNG čárového kódu)
 
-Nyní, když jsme nakonfigurovali čárový kód, je čas jej vygenerovat a uložit jako obrázek do určeného adresáře. V tomto případě jej ukládáme jako obrázek PNG.
+Vygenerujte obrázek a uložte jej jako PNG soubor do složky, kterou jste určili výše.
 
 ```csharp
 gen.Save($"{path}OneCSCode93WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-## Krok 5: Zpracování výjimek
+## Krok 5: Ošetření výjimek – Generování bez kontrolního součtu
 
-V některých situacích můžete chtít vygenerovat čárový kód Code 93 bez kontrolního součtu. V takových případech je třeba řešit výjimky. Můžete to udělat takto:
+Pokud potřebujete vytvořit čárový kód **bez** kontrolního součtu, musíte ošetřit možné výjimky, které mohou nastat.
 
 ```csharp
 try
@@ -86,28 +104,33 @@ catch (Exception e)
 }
 ```
 
-Ve výše uvedeném kódu se pokoušíme vygenerovat čárový kód bez kontrolního součtu. Pokud dojde k výjimce, zachytíme ji a zobrazíme chybovou zprávu.
+### Časté problémy a řešení
+- **Neplatná cesta** – ujistěte se, že složka existuje a aplikace má oprávnění k zápisu.  
+- **Není podporovaný znak** – Code 93 podporuje celý ASCII soubor, ale řídicí znaky mohou způsobit chyby.  
+- **Licence není nastavena** – bez platné licence knihovna běží v režimu hodnocení a může přidat vodoznak.
 
-Nyní, když jsme prošli každým krokem vytváření jednorozměrného čárového kódu Code 93 pomocí Aspose.BarCode pro .NET, máte základní pochopení procesu. Nezapomeňte tyto kroky přizpůsobit vašemu konkrétnímu případu použití.
+## Často kladené otázky (FAQ)
 
-Závěrem lze říci, že Aspose.BarCode for .NET zjednodušuje generování čárových kódů ve vašich aplikacích. Díky možnosti přizpůsobení parametrů můžete vytvářet čárové kódy, které přesně vyhovují vašim potřebám. Proč to tedy nezkusit a snadno zjednodušit úkoly související s čárovým kódem?
+### Q: Kde mohu najít dokumentaci pro Aspose.BarCode pro .NET?
+A: Dokumentaci najdete na [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
-## Často kladené otázky (FAQ):
+### Q: Jak si mohu stáhnout Aspose.BarCode pro .NET?
+A: Aspose.BarCode pro .NET můžete stáhnout z webu na adrese [Aspose.BarCode for .NET Download](https://releases.aspose.com/barcode/net/).
 
-### Otázka: Kde najdu dokumentaci k Aspose.BarCode pro .NET?
- Odpověď: Dokumentaci najdete na[Aspose.BarCode pro dokumentaci .NET](https://reference.aspose.com/barcode/net/).
+### Q: Je k dispozici bezplatná zkušební verze pro Aspose.BarCode pro .NET?
+A: Ano, bezplatnou zkušební verzi Aspose.BarCode pro .NET získáte [zde](https://releases.aspose.com/).
 
-### Otázka: Jak si stáhnu Aspose.BarCode pro .NET?
- A: Aspose.BarCode pro .NET si můžete stáhnout z webové stránky na adrese[Aspose.BarCode pro .NET ke stažení](https://releases.aspose.com/barcode/net/).
+### Q: Jak mohu zakoupit licenci pro Aspose.BarCode pro .NET?
+A: Licenci můžete zakoupit na stránce nákupu na adrese [Aspose.BarCode for .NET Purchase](https://purchase.aspose.com/buy).
 
-### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.BarCode pro .NET?
- Odpověď: Ano, můžete získat bezplatnou zkušební verzi Aspose.BarCode pro .NET od[tady](https://releases.aspose.com/).
+### Q: Kde mohu získat podporu nebo položit otázky ohledně Aspose.BarCode pro .NET?
+A: Komunitní fórum pro podporu a diskuze najdete na [Aspose.BarCode for .NET Support](https://forum.aspose.com/c/barcode/13).
 
-### Otázka: Jak si mohu zakoupit licenci pro Aspose.BarCode pro .NET?
- Odpověď: Licenci si můžete zakoupit na stránce nákupu na adrese[Aspose.BarCode pro nákup .NET](https://purchase.aspose.com/buy).
+---
 
-### Otázka: Kde mohu získat podporu nebo se ptát na Aspose.BarCode pro .NET?
- Odpověď: Komunitní fórum pro podporu a diskuse najdete na[Aspose.BarCode pro podporu .NET](https://forum.aspose.com/c/barcode/13).
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
