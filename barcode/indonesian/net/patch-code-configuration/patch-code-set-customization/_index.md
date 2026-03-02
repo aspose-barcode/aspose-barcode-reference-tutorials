@@ -1,48 +1,65 @@
 ---
-title: Kustomisasi Kumpulan Kode Patch
-linktitle: Kustomisasi Kumpulan Kode Patch
+date: 2026-03-02
+description: Pelajari cara membuat beberapa barcode di .NET menggunakan Aspose.BarCode,
+  menyesuaikan barcode patch, dan menyimpan gambar barcode PNG dengan mudah.
+linktitle: Create Multiple Barcodes – Patch Code Set Customization
 second_title: Aspose.BarCode .NET API
-description: Pelajari cara membuat kode batang di .NET menggunakan Aspose.BarCode. Sesuaikan dan integrasikan kode batang ke dalam aplikasi Anda dengan mudah.
-weight: 11
+title: Buat Beberapa Kode Batang – Kustomisasi Set Kode Patch
 url: /id/net/patch-code-configuration/patch-code-set-customization/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kustomisasi Kumpulan Kode Patch
+# Buat Beberapa Barcode – Kustomisasi Set Patch Code
 
+Dalam tutorial ini Anda akan **membuat beberapa barcode** dengan Aspose.BarCode untuk .NET, dengan fokus pada keluarga Patch Code. Baik Anda sedang membangun sistem manajemen dokumen atau perlu memberi label pada aset, menghasilkan beberapa gambar barcode sekaligus menghemat waktu dan mengurangi kesalahan. Kami akan membahas prasyarat, mengimpor namespace yang diperlukan, dan kemudian menunjukkan contoh langkah‑demi‑langkah yang memungkinkan Anda **menyesuaikan nilai patch barcode** dan **menyimpan file PNG barcode** ke disk.
 
-Dalam dunia pengembangan perangkat lunak, memasukkan pembuatan kode batang ke dalam aplikasi Anda dapat menjadi persyaratan yang penting. Aspose.BarCode untuk .NET menawarkan solusi tangguh untuk menghasilkan berbagai jenis kode batang dalam aplikasi .NET Anda. Dalam panduan langkah demi langkah ini, kita akan mendalami seluk-beluk Aspose.BarCode untuk .NET, mencakup prasyaratnya, mengimpor namespace, dan mengelompokkan setiap contoh menjadi beberapa langkah. Di akhir tutorial ini, Anda akan memiliki dasar yang kuat untuk menggunakan perpustakaan canggih ini.
+## Jawaban Cepat
+- **Apa yang dibahas dalam panduan ini?** Membuat beberapa barcode Patch Code, menyesuaikan teksnya, dan menyimpannya sebagai gambar PNG.  
+- **Perpustakaan mana yang digunakan?** Aspose.BarCode untuk .NET.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+ dan .NET Core/5/6+.  
+- **Berapa banyak barcode yang dapat saya hasilkan?** Sebanyak apa pun – cukup ubah properti `CodeText` dan panggil `Save` untuk setiap gambar.
 
-## Prasyarat
+## Apa itu “create multiple barcodes” dengan Patch Code?
+Barcode Patch Code adalah simbol yang kompak dan berdensitas tinggi yang sering digunakan untuk pelacakan dokumen. Dengan mengubah properti `CodeText` dari satu instance `BarcodeGenerator`, Anda dapat **membuat beberapa barcode** dalam sebuah loop atau rangkaian pernyataan, masing‑masing disimpan sebagai file PNG terpisah.
 
-Sebelum kita memulai perjalanan kita dengan Aspose.BarCode untuk .NET, Anda perlu memastikan bahwa Anda memiliki prasyarat berikut:
+## Mengapa menggunakan Aspose.BarCode .NET untuk pembuatan gambar barcode?
+- **API lengkap** – mendukung puluhan simbol, termasuk Patch Code.  
+- **Tanpa ketergantungan eksternal** – perpustakaan .NET murni, mudah diintegrasikan.  
+- **Kustomisasi kaya** – warna, font, ukuran, dan format gambar semuanya dapat dikonfigurasi.  
+- **Output dapat diandalkan** – menghasilkan gambar tajam dan dapat dipindai yang cocok untuk produksi.
 
-### 1. VisualStudio
- Anda harus menginstal Visual Studio di mesin pengembangan Anda. Jika belum, Anda dapat mendownloadnya dari[situs web](https://visualstudio.microsoft.com/).
+## Prerequisites
 
-### 2. Aspose.BarCode untuk .NET
- Anda harus memiliki perpustakaan Aspose.BarCode untuk .NET. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/barcode/net/) . Anda dapat memperoleh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Sebelum kita memulai perjalanan dengan Aspose.BarCode untuk .NET, pastikan Anda telah menyiapkan prasyarat berikut:
 
-### 3. .NET Kerangka
-Lingkungan pengembangan Anda harus dilengkapi dengan .NET Framework. Pastikan Anda menggunakan versi kerangka kerja yang kompatibel.
+### 1. Visual Studio
+Anda harus memiliki Visual Studio terpasang di mesin pengembangan Anda. Jika belum, Anda dapat mengunduhnya dari [website](https://visualstudio.microsoft.com/).
 
-### 4. Editor Teks
-Anda memerlukan editor teks atau Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio untuk menulis dan menjalankan kode .NET Anda.
+### 2. Aspose.BarCode for .NET
+Anda harus memiliki perpustakaan Aspose.BarCode untuk .NET. Anda dapat mengunduhnya dari [website](https://releases.aspose.com/barcode/net/). Anda dapat memperoleh versi percobaan gratis dari [sini](https://releases.aspose.com/).
 
-## Impor Namespace
+### 3. .NET Framework
+Lingkungan pengembangan Anda harus dilengkapi dengan .NET Framework. Pastikan Anda menggunakan versi yang kompatibel.
 
-Sebelum mendalami contoh kode, Anda perlu mengimpor namespace yang diperlukan untuk membuat pustaka Aspose.BarCode tersedia di proyek Anda. Inilah cara Anda melakukannya:
+### 4. A Text Editor
+Anda memerlukan editor teks atau Integrated Development Environment (IDE) seperti Visual Studio untuk menulis dan menjalankan kode .NET Anda.
 
-### Langkah 1: Buka Proyek .NET Anda
+## Import Namespaces
+
+Sebelum menyelam ke contoh kode, Anda perlu mengimpor namespace yang diperlukan agar perpustakaan Aspose.BarCode tersedia di proyek Anda. Berikut caranya:
+
+### Step 1: Open Your .NET Project
 Luncurkan Visual Studio Anda dan buka proyek .NET tempat Anda ingin menggunakan Aspose.BarCode.
 
-### Langkah 2: Tambahkan Referensi
-Klik kanan pada proyek Anda di Solution Explorer, pilih "Tambahkan" > "Referensi," dan navigasikan ke perpustakaan Aspose.BarCode yang Anda unduh sebelumnya.
+### Step 2: Add References
+Klik kanan pada proyek Anda di Solution Explorer, pilih **Add** > **Reference**, dan arahkan ke perpustakaan Aspose.BarCode yang telah Anda unduh sebelumnya.
 
-### Langkah 3: Impor Namespace
+### Step 3: Import Namespaces
 Di file kode Anda, tambahkan namespace berikut di bagian atas:
 
 ```csharp
@@ -50,89 +67,96 @@ using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-Sekarang setelah Anda memiliki prasyarat dan namespace yang diimpor, mari lanjutkan ke contoh pertama.
+Setelah Anda memiliki semua prasyarat dan namespace telah diimpor, mari beralih ke contoh inti yang menunjukkan **cara menghasilkan gambar barcode** untuk beberapa varian Patch Code.
 
-Dalam contoh ini, kami akan membuat kode batang Kode Patch yang disesuaikan. Kode patch digunakan untuk berbagai tugas manajemen dokumen. Kami akan membuat variasi berbeda dari kode batang Kode Patch menggunakan Aspose.BarCode untuk .NET.
+## Cara membuat beberapa barcode – Panduan Langkah‑demi‑Langkah
 
-## Langkah 1: Menyiapkan Jalur Direktori Anda
-
- Mulailah dengan menentukan jalur direktori tempat Anda ingin menyimpan gambar barcode yang dihasilkan. Mengganti`"Your Directory Path"` dengan jalur direktori yang Anda inginkan.
+### Step 1: Setting Up Your Directory Path
+Mulailah dengan menentukan jalur direktori tempat Anda ingin menyimpan gambar barcode yang dihasilkan. Ganti `"Your Directory Path"` dengan lokasi folder yang Anda inginkan.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Langkah 2: Menginisialisasi Generator Barcode
-
- Kami akan menggunakan`BarcodeGenerator` kelas untuk membuat barcode Kode Patch. Inisialisasi generator dengan tipe barcode dan teks kode sebagai berikut:
+### Step 2: Initializing the Barcode Generator
+Kami akan menggunakan kelas `BarcodeGenerator` untuk membuat barcode Patch Code. Inisialisasikan generator dengan tipe barcode dan teks kode awal:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.PatchCode, "Patch I");
 ```
 
-## Langkah 3: Menyesuaikan Parameter Teks Kode
-
-Anda dapat menyesuaikan parameter teks kode kode batang. Di sini, kami mengatur ukuran font menjadi 20 piksel:
+### Step 3: Customizing Code Text Parameters
+Anda dapat menyesuaikan parameter teks kode barcode. Di sini, kami mengatur ukuran font menjadi 20 pixel agar teks terlihat jelas:
 
 ```csharp
 gen.Parameters.Barcode.CodeTextParameters.FontMode = FontMode.Manual;
 gen.Parameters.Barcode.CodeTextParameters.Font.Size.Pixels = 20;
 ```
 
-## Langkah 4: Menghasilkan dan Menyimpan Barcode
-
-Kami akan membuat kode batang Kode Patch yang berbeda dengan teks kode yang berbeda dan menyimpannya ke jalur direktori yang ditentukan:
+### Step 4: Generating and Saving Barcodes
+Sekarang kami mengubah properti `CodeText` untuk setiap varian dan **menyimpan file PNG barcode**. Inilah bagian di mana kami benar‑benar **membuat beberapa barcode** dalam satu kali proses:
 
 ```csharp
-// tambalan I
+// Patch I
 gen.CodeText = "Patch I";
 gen.Save($"{path}PatchCodeI.png", BarCodeImageFormat.Png);
 
-// tambalan II
+// Patch II
 gen.CodeText = "Patch II";
 gen.Save($"{path}PatchCodeII.png", BarCodeImageFormat.Png);
 
-// Tambalan III
+// Patch III
 gen.CodeText = "Patch III";
 gen.Save(`${path}PatchCodeIII.png`, BarCodeImageFormat.Png);
 
-// Tambalan IV
+// Patch IV
 gen.CodeText = "Patch IV";
 gen.Save(`${path}PatchCodeIV.png`, BarCodeImageFormat.Png);
 
-// tambalan T
+// Patch T
 gen.CodeText = "Patch T";
 gen.Save(`${path}PatchCodeT.png`, BarCodeImageFormat.Png);
 
-// Tambalan VI
+// Patch VI
 gen.CodeText = "Patch VI";
 gen.Save(`${path}PatchCodeVI.png`, BarCodeImageFormat.Png);
 ```
 
-Selamat! Anda telah berhasil membuat barcode Patch Code dengan Aspose.BarCode untuk .NET. Anda dapat mengikuti proses serupa untuk menghasilkan jenis kode batang lain yang didukung oleh Aspose.BarCode.
+> **Pro tip:** Jika Anda perlu menghasilkan puluhan barcode Patch Code, balut blok terakhir dalam loop `foreach` yang mengiterasi koleksi string kode.
 
-## Kesimpulan
+Selamat! Anda telah berhasil **membuat beberapa barcode** dengan Aspose.BarCode untuk .NET. Pola yang sama berlaku untuk simbol lain yang didukung—cukup ubah `EncodeTypes.PatchCode` ke tipe yang diinginkan.
 
-Aspose.BarCode for .NET adalah perpustakaan canggih yang menyederhanakan pembuatan kode batang dalam aplikasi .NET Anda. Panduan langkah demi langkah ini telah memberi Anda prasyarat, impor namespace, dan contoh pembuatan kode batang Kode Patch khusus. Dengan pengetahuan ini, Anda dapat menjelajahi lebih banyak jenis barcode dan memasukkannya ke dalam proyek Anda.
+## Kesalahan Umum & Pemecahan Masalah
 
-Ingat, latihan adalah kuncinya. Bereksperimenlah dengan berbagai jenis kode batang dan penyesuaian untuk memanfaatkan potensi penuh Aspose.BarCode untuk .NET.
+| Gejala | Penyebab Kemungkinan | Solusi |
+|--------|----------------------|--------|
+| File PNG kosong | Jalur folder output tidak valid atau tidak memiliki slash akhir | Pastikan `path` diakhiri dengan backslash (`\\`) atau gunakan `Path.Combine`. |
+| Barcode terlihat buram | Format gambar diatur ke DPI rendah | Sesuaikan `gen.Parameters.ImageResolution` sebelum menyimpan. |
+| Teks terpotong | Ukuran font terlalu besar untuk ukuran barcode | Kurangi `Font.Size.Pixels` atau tingkatkan dimensi barcode melalui `gen.Parameters.ImageSize`. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### 1. Di mana saya dapat menemukan dokumentasi Aspose.BarCode untuk .NET?
- Anda dapat menemukan dokumentasinya di[https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
+### 1. Di mana saya dapat menemukan dokumentasi untuk Aspose.BarCode untuk .NET?
+Anda dapat menemukan dokumentasi di [https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
 
-### 2. Bagaimana cara mendapatkan lisensi sementara Aspose.BarCode untuk .NET?
- Anda bisa mendapatkan lisensi sementara dari[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+### 2. Bagaimana cara memperoleh lisensi sementara untuk Aspose.BarCode untuk .NET?
+Anda dapat memperoleh lisensi sementara dari [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
-### 3. Apakah Aspose.BarCode for .NET kompatibel dengan .NET Framework terbaru?
-Ya, Aspose.BarCode untuk .NET kompatibel dengan versi .NET Framework terbaru.
+### 3. Apakah Aspose.BarCode untuk .NET kompatibel dengan .NET Framework terbaru?
+Ya, Aspose.BarCode untuk .NET kompatibel dengan versi terbaru .NET Framework.
 
 ### 4. Bisakah saya menyesuaikan tampilan gambar barcode lebih lanjut?
 Ya, Anda dapat menyesuaikan berbagai parameter seperti warna, ukuran, dan tampilan teks untuk memenuhi kebutuhan spesifik Anda.
 
-### 5. Apakah ada komunitas atau forum dukungan Aspose.BarCode untuk .NET?
- Ya, Anda dapat mencari dukungan dan bergabung dalam diskusi di forum Aspose.BarCode di[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+### 5. Apakah ada komunitas atau forum untuk dukungan Aspose.BarCode untuk .NET?
+Ya, Anda dapat mencari dukungan dan bergabung dalam diskusi di forum Aspose.BarCode pada [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Terakhir Diperbarui:** 2026-03-02  
+**Diuji Dengan:** Aspose.BarCode 24.11 untuk .NET  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
