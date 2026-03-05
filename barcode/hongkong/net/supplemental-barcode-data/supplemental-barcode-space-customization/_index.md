@@ -1,117 +1,133 @@
 ---
-title: 使用 Aspose.BarCode 增強補充條碼定制
-linktitle: 補充條碼空間定制
+date: 2026-03-05
+description: Learn how to generate barcode image, adjust barcode width, and customize
+  supplement space with Aspose.BarCode for .NET. Try the free trial today!
+linktitle: Supplemental Barcode Space Customization
 second_title: Aspose.BarCode .NET API
-description: 使用 Aspose.BarCode for .NET 輕鬆自訂條碼。控制X尺寸並補充空間。嘗試免費試用！
-weight: 11
+title: How to Generate Barcode Image with Supplemental Space Customization using Aspose.BarCode
 url: /zh-hant/net/supplemental-barcode-data/supplemental-barcode-space-customization/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode 增強補充條碼定制
+# 如何使用 Aspose.BarCode 產生帶有補充空間自訂的條碼圖像
 
+在當今快速變化的零售與物流環境中，能夠 **產生條碼圖像** 檔案並符合精確的版面需求是必不可少的。無論您是需要 **建立 EAN13 條碼** 標籤給產品系列，或是微調補充資料的視覺間距，Aspose.BarCode for .NET 都能提供完整的控制。本教學將逐步說明整個流程——從設定產生器到 **調整條碼寬度**，最後 **儲存條碼 PNG** 檔案——讓您在數分鐘內產出完美客製化的條碼。
 
-在不斷發展的條碼技術領域，客製化是成功的關鍵。作為精通 SEO 寫作的內容編寫者，我將指導您利用 Aspose.BarCode for .NET 的強大功能。本逐步教學將幫助您實現條碼所需的客製化級別，確保它們符合您的確切規格。
+## 快速解答
+- **「產生條碼圖像」是什麼意思？** 它會產生條碼的點陣圖（PNG、JPEG 等）以供列印或顯示。  
+- **範例使用哪種條碼類型？** EAN13，零售商品常見的數字格式。  
+- **如何變更條碼寬度？** 透過設定 X‑Dimension 屬性（像素）。  
+- **可以控制補充資料的間距嗎？** 可以，使用 `SupplementSpace` 屬性（像素）。  
+- **儲存使用哪種檔案格式？** PNG，透過 `BarCodeImageFormat.Png` 列舉。
 
-## 先決條件
+## 什麼是使用 Aspose.BarCode 產生條碼圖像？
+Aspose.BarCode 的 `BarcodeGenerator` 類別會將原始資料（例如產品編號）轉換成可視化的條碼圖像。此圖像可儲存為多種格式、嵌入文件，或直接傳送至印表機。
 
-在我們深入研究條碼客製化領域之前，您需要確保滿足以下先決條件：
+## 為什麼要自訂補充空間與 X‑Dimension？
+自訂 **補充空間** 可符合特定標籤版面標準，而 **調整條碼寬度**（X‑Dimension）則確保條碼在不同掃描器上皆能可靠讀取。兩者結合，讓您能同時滿足品牌、法規與使用便利性的需求。
 
-### 1. .NET 的 Aspose.BarCode
+## 前置條件
 
-您的系統上必須安裝 Aspose.BarCode for .NET。你可以找到下載鏈接[這裡](https://releases.aspose.com/barcode/net/)。如果您還沒有臨時許可證，您也可以從[這裡](https://purchase.aspose.com/temporary-license/).
+在開始之前，請先確認以下項目：
 
-### 2.您的目錄路徑
+### 1. Aspose.BarCode for .NET
+必須在系統上安裝 Aspose.BarCode for .NET。下載連結請見 [此處](https://releases.aspose.com/barcode/net/)。若尚未取得，可於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-確保有一個目錄用於保存生成的條碼圖像。你需要更換`"Your Directory Path"`在下面的程式碼範例中使用目錄的實際路徑。
+### 2. 您的目錄路徑
+建立（或選擇）一個資料夾，用於儲存產生的條碼圖像。請在程式碼範例中將 `"Your Directory Path"` 替換為您機器上的實際路徑。
 
-## 導入命名空間
-
-現在，讓我們開始匯入自訂所需的命名空間。
+## 匯入命名空間
+首先，匯入包含條碼產生類別的命名空間。
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-滿足先決條件後，我們就可以繼續進行條碼定製過程。
+## 步驟說明
 
-## 1. 建立條碼產生器
-
-首先，創建一個`BarcodeGenerator`指定條碼類型和值的實例。在此範例中，我們使用 EAN13 格式和值「1234567890128」。
+### 步驟 1：建立條碼產生器（建立 EAN13 條碼）
+實例化 `BarcodeGenerator`，指定條碼類型（`EncodeTypes.EAN13`）與要編碼的資料。
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## 2. 設定條碼X尺寸
-
-尺寸決定條碼元素的寬度。您可以如下以像素為單位設定：
+### 步驟 2：調整條碼寬度（設定 X‑Dimension）
+X‑Dimension 控制每個條碼模組的寬度。以像素為單位設定，可 **調整條碼寬度** 以符合標籤尺寸。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## 3. 添加補充品
-
-在某些情況下，您可能想要在條碼中包含補充資料。您可以使用以下程式碼新增補充：
+### 步驟 3：加入補充資料
+若標籤標準需要補充資料（例如書本的 5 位附加碼），可透過 `SupplementData` 屬性設定。
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## 4. 自訂補充空間
-
-現在是您可以自訂條碼周圍補充空間的部分。這`SupplementSpace`屬性可讓您指定以像素為單位的空間。在我們的範例中，我們將其設定為 20 像素：
+### 步驟 4：自訂補充空間
+透過設定 `SupplementSpace` 來控制主條碼與補充部分之間的間距。本範例使用 20 像素。
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## 5. 儲存自訂條碼
-
-自訂條碼後，您可以將其儲存到指定目錄。在此範例中，我們將條碼圖片儲存為 PNG 格式。
+### 步驟 5：將條碼圖像儲存為 PNG（儲存條碼 PNG）
+條碼設定完成後，將圖像儲存至先前準備的資料夾。圖像會以 PNG 格式輸出，適合網路與列印使用。
 
 ```csharp
 gen.Save($"{path}SupplementSpace20Pixels.png", BarCodeImageFormat.Png);
 ```
 
-## 6. 進一步定制
-
-如果您希望以不同的方式自訂補充空間，您可以透過更改`SupplementSpace`值並相應保存條碼。
+### 步驟 6：嘗試不同的補充空間
+您可以使用不同的 `SupplementSpace` 值再次執行，以觀察視覺版面的變化。此處改為 40 像素並儲存第二張圖像。
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 40;
 gen.Save($"{path}SupplementSpace40Pixels.png", BarCodeImageFormat.Png);
 ```
 
-就是這樣！您已成功使用 Aspose.BarCode for .NET 自訂了條碼。
+## 常見問題與解決方案
+- **條碼顯得過細或過粗：** 重新調整 X‑Dimension（`gen.Parameters.Barcode.XDimension.Pixels`）。一般值介於 1 至 4 像素。  
+- **補充資料未顯示：** 確認在儲存圖像之前已設定 `SupplementData`。  
+- **檔案未儲存：** 確認 `path` 變數指向有效目錄，且應用程式具備寫入權限。
+
+## 常見問答
+
+**Q: 在哪裡可以找到 Aspose.BarCode for .NET 的文件？**  
+A: 您可於 [此處](https://reference.aspose.com/barcode/net/) 取得文件。
+
+**Q: Aspose.BarCode for .NET 有提供免費試用嗎？**  
+A: 有，請前往 [此處](https://releases.aspose.com/) 下載試用版。
+
+**Q: 如何購買 Aspose.BarCode for .NET 的授權？**  
+A: 可於 [此處](https://purchase.aspose.com/buy) 購買授權。
+
+**Q: Aspose.BarCode for .NET 支援哪些條碼格式？**  
+A: 支援多種條碼格式，包括 EAN、QR、Code39 等。完整清單請參考文件。
+
+**Q: 我可以在商業專案中使用 Aspose.BarCode for .NET 嗎？**  
+A: 可以，Aspose.BarCode for .NET 同時適用於個人與商業用途。購買授權後即可在專案中使用。
 
 ## 結論
+現在您已掌握使用 Aspose.BarCode for .NET 以自訂 X‑Dimension 與補充空間產生 **條碼圖像** 檔案的完整實作步驟。透過調整寬度與補充空間，您可以滿足幾乎所有的標籤需求——無論是 **建立 EAN13 條碼**、**調整條碼寬度**，或是 **儲存條碼 PNG** 供網路或列印使用。歡迎自行嘗試其他條碼類型與圖像格式，進一步擴充此基礎。
 
-使用 Aspose.BarCode for .NET，您可以自訂條碼以滿足您的特定要求。此工具簡化了流程，讓您可以輕鬆控制 X 維度並補充空間。利用這個強大的庫發揮創意，讓您的條碼脫穎而出。
-
-## 常見問題解答
-
-### 在哪裡可以找到 Aspose.BarCode for .NET 的文檔？
-您可以存取文檔[這裡](https://reference.aspose.com/barcode/net/).
-
-### Aspose.BarCode for .NET 有沒有免費試用版？
-是的，您可以從以下位置獲得免費試用[這裡](https://releases.aspose.com/).
-
-### 如何購買 Aspose.BarCode for .NET 的授權？
-您可以從以下位置購買許可證[這裡](https://purchase.aspose.com/buy).
-
-### Aspose.BarCode for .NET 支援哪些條碼格式？
-Aspose.BarCode for .NET 支援多種條碼格式，包括 EAN、QR、Code39 等。您可以在文件中找到完整清單。
-
-### 我可以在我的商業專案中使用 Aspose.BarCode for .NET 嗎？
-是的，Aspose.BarCode for .NET 適合個人和商業用途。您可以購買許可證以在您的專案中使用它。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-03-05  
+**測試環境：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose  
+
+---
