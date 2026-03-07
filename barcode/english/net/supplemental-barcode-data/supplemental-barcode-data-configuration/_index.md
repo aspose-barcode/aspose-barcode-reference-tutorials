@@ -1,122 +1,154 @@
 ---
-title: Creating Supplemental Barcode Data with Aspose.BarCode for .NET
+title: Create EAN-13 Barcode with Supplemental Data – Aspose.BarCode
 linktitle: Supplemental Barcode Data Configuration
 second_title: Aspose.BarCode .NET API
-description: Generate supplemental barcode data with Aspose.BarCode for .NET. Customize EAN-2 and EAN-5 barcodes effortlessly. Step-by-step guide for .NET developers.
+description: Learn how to create EAN-13 barcode with supplemental data in C# using Aspose.BarCode for .NET – generate barcode PNG quickly.
 weight: 10
 url: /net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+date: 2026-03-07
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creating Supplemental Barcode Data with Aspose.BarCode for .NET
+# Create EAN-13 Barcode with Supplemental Data – Aspose.BarCode for .NET
 
+In this hands‑on tutorial you’ll **create EAN-13 barcode** that includes supplemental EAN‑2 or EAN‑5 data, and you’ll see how to **generate barcode PNG** files with just a few lines of C#. Whether you’re building a retail checkout system, a logistics application, or a simple inventory tool, the ability to add supplemental information makes your barcodes far more useful.
 
-In the world of barcode generation and customization, Aspose.BarCode for .NET stands out as a powerful and versatile tool. Whether you're an experienced developer or just starting out, this step-by-step guide will walk you through the process of configuring supplemental barcode data using Aspose.BarCode for .NET. 
+## Quick Answers
+- **What does “supplemental data” mean?** Extra digits (EAN‑2/EAN‑5) printed beside the main barcode, often used for price or issue numbers.  
+- **Which barcode type is used?** EAN‑13 as the primary symbol, with optional EAN‑2 or EAN‑5 supplements.  
+- **Can I output PNG images?** Yes – the `Save` method lets you export directly to PNG.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **Is this compatible with .NET Core / .NET 6?** Absolutely – Aspose.BarCode supports all modern .NET runtimes.
 
 ## Prerequisites
 
-Before we dive into the world of supplemental barcode data, make sure you have the following prerequisites in place:
+Before we dive into the code, make sure you have:
 
-- A development environment set up with Visual Studio or any other .NET development tool.
-- A copy of Aspose.BarCode for .NET. If you haven't already, you can download it [here](https://releases.aspose.com/barcode/net/).
-- Basic knowledge of C# programming.
-- A directory where you can save the generated barcode images.
+- Visual Studio (or any .NET‑compatible IDE).  
+- A copy of Aspose.BarCode for .NET – download it **[here](https://releases.aspose.com/barcode/net/)**.  
+- Basic C# knowledge.  
+- A writable folder where the generated PNG files will be saved.
 
 ## Importing Namespaces
 
-First, ensure that you have the necessary namespaces included in your C# code to work with Aspose.BarCode for .NET. Import the required namespaces at the beginning of your C# file:
+First, add the Aspose.BarCode namespace so you can access the generator classes:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Now, let's break down the process of configuring supplemental barcode data into multiple steps.
+> **Pro tip:** If you’re using .NET Core, add the NuGet package `Aspose.BarCode` to your project instead of referencing the DLL manually.
 
-## Step 1: Setting Up the Directory Path
+## What is a Supplemental Barcode?
 
-In your C# code, define the path to the directory where you want to save the generated barcode images. Replace `"Your Directory Path"` with your actual directory path.
+A supplemental barcode is an auxiliary numeric string printed next to the main barcode.  
+- **EAN‑2** – two‑digit supplement, often used for issue numbers on magazines.  
+- **EAN‑5** – five‑digit supplement, commonly used for price extensions on retail items.
+
+Adding these supplements does not change the primary EAN‑13 data; it simply provides extra context that scanners can read.
+
+## Why Use Aspose.BarCode for Supplemental Data?
+
+- **One‑line API** – configure both the main barcode and its supplement in a single object.  
+- **Full control over dimensions** – adjust X‑dimension, supplement spacing, and image format.  
+- **Cross‑platform** – works on .NET Framework, .NET Core, and .NET 5/6+.  
+
+## Step‑by‑Step Guide
+
+### Step 1: Set Up the Output Directory
+
+Define where the PNG files will be stored. Replace the placeholder with a real path on your machine.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Step 2: Creating a Barcode Generator
+### Step 2: Initialise the Barcode Generator (Barcode Generator C#)
 
-Create an instance of `BarcodeGenerator` by specifying the barcode type and the data you want to encode. In this example, we're using an EAN-13 barcode with the data "1234567890128".
+Create a `BarcodeGenerator` instance, specifying **EAN‑13** as the main type and providing the 13‑digit payload.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## Step 3: Customizing Barcode Dimensions
+### Step 3: Adjust Barcode Dimensions
 
-Set the dimensions of the barcode, such as the X dimension (the width of the smallest element in the barcode) and the supplemental space. In this example, we set the X dimension to 2 pixels and the supplemental space to 20 pixels.
+Fine‑tune the visual size of the barcode and the space reserved for the supplement.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## Step 4: Configuring EAN-2 Supplement
+### Step 4: Add an EAN‑2 Supplement
 
-To configure an EAN-2 supplemental barcode, set the supplemental data to the desired value. In this case, we set it to "12". 
+Set the supplemental data to a two‑digit value (e.g., “12”). This will appear to the right of the main barcode.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## Step 5: Saving the Barcode Image
+### Step 5: Save the EAN‑2 Barcode as PNG
 
-Save the generated barcode image to your specified directory with a meaningful name. In this example, we save the EAN-2 supplemental barcode as "SupplementEAN2.png".
+Export the image. The `BarCodeImageFormat.Png` argument ensures a high‑quality PNG file.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## Step 6: Configuring EAN-5 Supplement
+### Step 6: Switch to an EAN‑5 Supplement
 
-To configure an EAN-5 supplemental barcode, simply change the `SupplementData` to your desired value. Here, we set it to "12345".
+Change the `SupplementData` to a five‑digit string for price extensions.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## Step 7: Saving the Barcode Image (EAN-5)
-
-Finally, save the EAN-5 supplemental barcode image in your specified directory. In this case, we save it as "SupplementEAN5.png".
+### Step 7: Save the EAN‑5 Barcode as PNG
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-Now, you've successfully configured and generated supplemental barcode data using Aspose.BarCode for .NET. You can use this approach to create a wide range of barcode types with varying supplemental data.
+> **Why this works:** The same `BarcodeGenerator` instance is reused, so you only need to modify the `SupplementData` property before each `Save` call. This keeps the code concise and avoids unnecessary object creation.
 
-## Conclusion
+## Common Issues & Tips
 
-Aspose.BarCode for .NET is a powerful tool for barcode generation and customization. In this guide, we walked through the process of configuring and generating supplemental barcode data step by step. With the right prerequisites and a bit of coding, you can efficiently work with barcode data and meet your specific needs.
-
-For more information and advanced usage, refer to the [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
+- **Invalid directory path** – ensure the folder exists and the application has write permissions.  
+- **Incorrect supplement length** – EAN‑2 expects exactly 2 digits, EAN‑5 expects 5; otherwise an exception is thrown.  
+- **Image not visible** – verify that `BarCodeImageFormat.Png` is used; other formats (e.g., JPEG) may introduce compression artifacts that affect scanner readability.  
 
 ## Frequently Asked Questions
 
 ### Can I use Aspose.BarCode for .NET in my .NET Core project?
-Yes, Aspose.BarCode for .NET is compatible with .NET Core.
+Yes, Aspose.BarCode for .NET is fully compatible with .NET Core, .NET 5, and .NET 6.
 
 ### Is there a free trial available for Aspose.BarCode for .NET?
-Yes, you can try it for free by visiting [this link](https://releases.aspose.com/).
+Yes, you can try it for free by visiting **[this link](https://releases.aspose.com/)**.
 
 ### Where can I get a temporary license for Aspose.BarCode for .NET?
-You can obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+You can obtain a temporary license from **[this link](https://purchase.aspose.com/temporary-license/)**.
 
 ### Does Aspose.BarCode support a wide range of barcode types?
-Yes, it supports various barcode types, including EAN-13, QR Code, Code 128, and more.
+Absolutely – it supports EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417, and many more.
 
 ### Can I customize the appearance of the generated barcodes?
-Absolutely, you can customize dimensions, colors, and other aspects of the barcodes to meet your requirements.
+Yes, you can modify colors, fonts, margins, and even add background images using the extensive `Parameters` API.
 
+## Conclusion
+
+You now know how to **create EAN-13 barcode** with supplemental EAN‑2 or EAN‑5 data and **generate barcode PNG** files using Aspose.BarCode for .NET. This approach gives you full control over barcode dimensions, supplement spacing, and output format, making it ideal for retail, logistics, and any scenario where extra numeric information is required.
+
+For deeper exploration, check out the full reference guide: **[Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)**.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,121 +1,155 @@
 ---
-title: Creazione di dati di codici a barre supplementari con Aspose.BarCode per .NET
-linktitle: Configurazione dati codice a barre supplementare
-second_title: API Aspose.BarCode .NET
-description: Genera dati di codici a barre supplementari con Aspose.BarCode per .NET. Personalizza facilmente i codici a barre EAN-2 e EAN-5. Guida dettagliata per gli sviluppatori .NET.
-weight: 10
+date: 2026-03-07
+description: Scopri come creare un codice a barre EAN‑13 con dati supplementari in
+  C# usando Aspose.BarCode per .NET – genera rapidamente un PNG del codice a barre.
+linktitle: Supplemental Barcode Data Configuration
+second_title: Aspose.BarCode .NET API
+title: Crea codice a barre EAN‑13 con dati supplementari – Aspose.BarCode
 url: /it/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creazione di dati di codici a barre supplementari con Aspose.BarCode per .NET
+# Creare un codice a barre EAN-13 con dati supplementari – Aspose.BarCode per .NET
 
+In questo tutorial pratico **creerai un codice a barre EAN-13** che include dati supplementari EAN‑2 o EAN‑5, e vedrai come **generare file PNG del codice a barre** con poche righe di C#. Che tu stia costruendo un sistema di cassa al dettaglio, un’applicazione logistica o un semplice strumento di inventario, la possibilità di aggiungere informazioni supplementari rende i tuoi codici a barre molto più utili.
 
-Nel mondo della generazione e personalizzazione dei codici a barre, Aspose.BarCode per .NET si distingue come uno strumento potente e versatile. Che tu sia uno sviluppatore esperto o abbia appena iniziato, questa guida passo passo ti guiderà attraverso il processo di configurazione di dati di codici a barre supplementari utilizzando Aspose.BarCode per .NET. 
+## Risposte rapide
+- **Cosa significa “dati supplementari”?** Cifre extra (EAN‑2/EAN‑5) stampate accanto al codice a barre principale, spesso usate per prezzi o numeri di edizione.  
+- **Quale tipo di codice a barre viene usato?** EAN‑13 come simbolo primario, con supplementi opzionali EAN‑2 o EAN‑5.  
+- **Posso generare immagini PNG?** Sì – il metodo `Save` consente di esportare direttamente in PNG.  
+- **È necessaria una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per i test; per la produzione è richiesta una licenza commerciale.  
+- **È compatibile con .NET Core / .NET 6?** Assolutamente – Aspose.BarCode supporta tutti i runtime .NET moderni.
 
 ## Prerequisiti
 
-Prima di immergerci nel mondo dei dati supplementari dei codici a barre, assicurati di disporre dei seguenti prerequisiti:
+Prima di immergerti nel codice, assicurati di avere:
 
-- Un ambiente di sviluppo configurato con Visual Studio o qualsiasi altro strumento di sviluppo .NET.
--  Una copia di Aspose.BarCode per .NET. Se non l'hai già fatto, puoi scaricarlo[Qui](https://releases.aspose.com/barcode/net/).
-- Conoscenza base della programmazione C#.
-- Una directory in cui è possibile salvare le immagini dei codici a barre generate.
+- Visual Studio (o qualsiasi IDE compatibile con .NET).  
+- Una copia di Aspose.BarCode per .NET – scaricala **[qui](https://releases.aspose.com/barcode/net/)**.  
+- Conoscenze di base di C#.  
+- Una cartella scrivibile dove verranno salvati i file PNG generati.
 
-## Importazione di spazi dei nomi
+## Importazione degli spazi dei nomi
 
-Innanzitutto, assicurati di avere gli spazi dei nomi necessari inclusi nel codice C# per funzionare con Aspose.BarCode per .NET. Importa gli spazi dei nomi richiesti all'inizio del file C#:
+Per prima cosa, aggiungi lo spazio dei nomi Aspose.BarCode così da poter accedere alle classi del generatore:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Ora suddividiamo il processo di configurazione dei dati supplementari del codice a barre in più passaggi.
+> **Suggerimento:** Se utilizzi .NET Core, aggiungi il pacchetto NuGet `Aspose.BarCode` al tuo progetto invece di fare riferimento manualmente al DLL.
 
-## Passaggio 1: impostazione del percorso della directory
+## Cos’è un codice a barre supplementare?
 
- Nel codice C#, definisci il percorso della directory in cui desideri salvare le immagini del codice a barre generate. Sostituire`"Your Directory Path"` con il percorso effettivo della directory.
+Un codice a barre supplementare è una stringa numerica ausiliaria stampata accanto al codice a barre principale.  
+- **EAN‑2** – supplemento a due cifre, spesso usato per i numeri di edizione delle riviste.  
+- **EAN‑5** – supplemento a cinque cifre, comunemente usato per le estensioni di prezzo sui prodotti al dettaglio.
+
+L’aggiunta di questi supplementi non modifica i dati primari EAN‑13; fornisce semplicemente un contesto extra che gli scanner possono leggere.
+
+## Perché usare Aspose.BarCode per i dati supplementari?
+
+- **API a una riga** – configura sia il codice a barre principale sia il suo supplemento in un unico oggetto.  
+- **Controllo totale sulle dimensioni** – regola la dimensione X, lo spazio del supplemento e il formato immagine.  
+- **Cross‑platform** – funziona su .NET Framework, .NET Core e .NET 5/6+.  
+
+## Guida passo‑passo
+
+### Passo 1: Configurare la directory di output
+
+Definisci dove verranno salvati i file PNG. Sostituisci il segnaposto con un percorso reale sulla tua macchina.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Passaggio 2: creazione di un generatore di codici a barre
+### Passo 2: Inizializzare il generatore di codici a barre (Barcode Generator C#)
 
- Crea un'istanza di`BarcodeGenerator` specificando il tipo di codice a barre e i dati che desideri codificare. In questo esempio utilizziamo un codice a barre EAN-13 con i dati "1234567890128".
+Crea un’istanza di `BarcodeGenerator`, specificando **EAN‑13** come tipo principale e fornendo il payload a 13 cifre.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## Passaggio 3: personalizzazione delle dimensioni del codice a barre
+### Passo 3: Regolare le dimensioni del codice a barre
 
-Imposta le dimensioni del codice a barre, come la dimensione X (la larghezza dell'elemento più piccolo nel codice a barre) e lo spazio supplementare. In questo esempio, impostiamo la dimensione X su 2 pixel e lo spazio supplementare su 20 pixel.
+Affina le dimensioni visive del codice a barre e lo spazio riservato al supplemento.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## Passaggio 4: configurazione del supplemento EAN-2
+### Passo 4: Aggiungere un supplemento EAN‑2
 
-Per configurare un codice a barre supplementare EAN-2, impostare i dati supplementari sul valore desiderato. In questo caso lo impostiamo su "12". 
+Imposta i dati supplementari a un valore a due cifre (ad es., “12”). Questo apparirà a destra del codice a barre principale.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## Passaggio 5: salvataggio dell'immagine del codice a barre
+### Passo 5: Salvare il codice a barre EAN‑2 come PNG
 
-Salva l'immagine del codice a barre generata nella directory specificata con un nome significativo. In questo esempio, salviamo il codice a barre supplementare EAN-2 come "SupplementEAN2.png".
+Esporta l’immagine. L’argomento `BarCodeImageFormat.Png` garantisce un file PNG di alta qualità.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## Passaggio 6: configurazione del supplemento EAN-5
+### Passo 6: Passare a un supplemento EAN‑5
 
- Per configurare un codice a barre supplementare EAN-5, è sufficiente modificare il file`SupplementData` al valore desiderato. Qui lo impostiamo su "12345".
+Modifica la proprietà `SupplementData` con una stringa a cinque cifre per le estensioni di prezzo.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## Passaggio 7: salvataggio dell'immagine del codice a barre (EAN-5)
-
-Infine, salva l'immagine del codice a barre supplementare EAN-5 nella directory specificata. In questo caso, lo salviamo come "SupplementEAN5.png".
+### Passo 7: Salvare il codice a barre EAN‑5 come PNG
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-Ora hai configurato e generato con successo dati di codici a barre supplementari utilizzando Aspose.BarCode per .NET. È possibile utilizzare questo approccio per creare un'ampia gamma di tipi di codici a barre con diversi dati supplementari.
+> **Perché funziona:** La stessa istanza di `BarcodeGenerator` viene riutilizzata, quindi è sufficiente modificare la proprietà `SupplementData` prima di ogni chiamata a `Save`. Questo mantiene il codice conciso ed evita la creazione di oggetti non necessari.
 
-## Conclusione
+## Problemi comuni e suggerimenti
 
-Aspose.BarCode per .NET è un potente strumento per la generazione e la personalizzazione di codici a barre. In questa guida, abbiamo seguito passo dopo passo il processo di configurazione e generazione di dati supplementari sui codici a barre. Con i giusti prerequisiti e un po' di codifica, puoi lavorare in modo efficiente con i dati dei codici a barre e soddisfare le tue esigenze specifiche.
-
- Per ulteriori informazioni e utilizzo avanzato, fare riferimento a[Aspose.BarCode per la documentazione .NET](https://reference.aspose.com/barcode/net/).
+- **Percorso della directory non valido** – assicurati che la cartella esista e che l’applicazione abbia i permessi di scrittura.  
+- **Lunghezza del supplemento errata** – EAN‑2 richiede esattamente 2 cifre, EAN‑5 richiede 5; altrimenti viene sollevata un’eccezione.  
+- **Immagine non visibile** – verifica che venga usato `BarCodeImageFormat.Png`; altri formati (ad es., JPEG) possono introdurre artefatti di compressione che influenzano la leggibilità da parte dello scanner.  
 
 ## Domande frequenti
 
-### Posso utilizzare Aspose.BarCode per .NET nel mio progetto .NET Core?
-Sì, Aspose.BarCode per .NET è compatibile con .NET Core.
+### Posso usare Aspose.BarCode per .NET nel mio progetto .NET Core?
+Sì, Aspose.BarCode per .NET è pienamente compatibile con .NET Core, .NET 5 e .NET 6.
 
-### È disponibile una prova gratuita per Aspose.BarCode per .NET?
- Sì, puoi provarlo gratuitamente visitando[questo link](https://releases.aspose.com/).
+### È disponibile una versione di prova gratuita per Aspose.BarCode per .NET?
+Sì, puoi provarla gratuitamente visitando **[questo link](https://releases.aspose.com/)**.
 
 ### Dove posso ottenere una licenza temporanea per Aspose.BarCode per .NET?
- È possibile ottenere una licenza temporanea da[questo link](https://purchase.aspose.com/temporary-license/).
+Puoi ottenere una licenza temporanea da **[questo link](https://purchase.aspose.com/temporary-license/)**.
 
-### Aspose.BarCode supporta un'ampia gamma di tipi di codici a barre?
-Sì, supporta vari tipi di codici a barre, inclusi EAN-13, QR Code, Code 128 e altri.
+### Aspose.BarCode supporta un’ampia gamma di tipi di codice a barre?
+Assolutamente – supporta EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417 e molti altri.
 
-### Posso personalizzare l'aspetto dei codici a barre generati?
-Assolutamente, puoi personalizzare dimensioni, colori e altri aspetti dei codici a barre per soddisfare le tue esigenze.
+### Posso personalizzare l’aspetto dei codici a barre generati?
+Sì, puoi modificare colori, caratteri, margini e persino aggiungere immagini di sfondo usando l’ampia API `Parameters`.
+
+## Conclusione
+
+Ora sai come **creare un codice a barre EAN-13** con dati supplementari EAN‑2 o EAN‑5 e **generare file PNG del codice a barre** usando Aspose.BarCode per .NET. Questo approccio ti offre il pieno controllo su dimensioni, spaziatura del supplemento e formato di output, rendendolo ideale per il retail, la logistica e qualsiasi scenario in cui siano richieste informazioni numeriche aggiuntive.
+
+Per approfondire, consulta la guida di riferimento completa: **[documentazione di Aspose.BarCode per .NET](https://reference.aspose.com/barcode/net/)**.
+
+---
+
+**Ultimo aggiornamento:** 2026-03-07  
+**Testato con:** Aspose.BarCode 24.11 per .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,121 +1,155 @@
 ---
-title: Tạo dữ liệu mã vạch bổ sung với Aspose.BarCode cho .NET
-linktitle: Cấu hình dữ liệu mã vạch bổ sung
-second_title: API Aspose.BarCode .NET
-description: Tạo dữ liệu mã vạch bổ sung với Aspose.BarCode cho .NET. Tùy chỉnh mã vạch EAN-2 và EAN-5 một cách dễ dàng. Hướng dẫn từng bước dành cho nhà phát triển .NET.
-weight: 10
+date: 2026-03-07
+description: Tìm hiểu cách tạo mã vạch EAN‑13 với dữ liệu bổ sung trong C# bằng Aspose.BarCode
+  cho .NET – nhanh chóng tạo mã vạch PNG.
+linktitle: Supplemental Barcode Data Configuration
+second_title: Aspose.BarCode .NET API
+title: Tạo mã vạch EAN-13 với dữ liệu bổ sung – Aspose.BarCode
 url: /vi/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo dữ liệu mã vạch bổ sung với Aspose.BarCode cho .NET
+# Tạo Mã vạch EAN-13 với Dữ liệu Bổ sung – Aspose.BarCode cho .NET
 
+Trong tutorial thực hành này, bạn sẽ **tạo mã vạch EAN-13** có bao gồm dữ liệu bổ sung EAN‑2 hoặc EAN‑5, và bạn sẽ thấy cách **tạo file PNG cho mã vạch** chỉ với vài dòng C#. Dù bạn đang xây dựng hệ thống thanh toán bán lẻ, ứng dụng logistics, hay công cụ quản lý tồn kho đơn giản, khả năng thêm thông tin bổ sung sẽ làm cho mã vạch của bạn trở nên hữu ích hơn nhiều.
 
-Trong thế giới tạo và tùy chỉnh mã vạch, Aspose.BarCode for .NET nổi bật như một công cụ mạnh mẽ và linh hoạt. Cho dù bạn là nhà phát triển có kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình định cấu hình dữ liệu mã vạch bổ sung bằng Aspose.BarCode cho .NET. 
+## Trả lời nhanh
+- **“Dữ liệu bổ sung” có nghĩa là gì?** Các chữ số bổ sung (EAN‑2/EAN‑5) được in bên cạnh mã vạch chính, thường dùng để ghi giá hoặc số phát hành.  
+- **Loại mã vạch nào được sử dụng?** EAN‑13 là ký hiệu chính, kèm theo tùy chọn bổ sung EAN‑2 hoặc EAN‑5.  
+- **Tôi có thể xuất ra ảnh PNG không?** Có – phương thức `Save` cho phép xuất trực tiếp sang PNG.  
+- **Tôi có cần giấy phép để phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép thương mại cần cho môi trường sản xuất.  
+- **Có tương thích với .NET Core / .NET 6 không?** Hoàn toàn – Aspose.BarCode hỗ trợ tất cả các runtime .NET hiện đại.
 
-## Điều kiện tiên quyết
+## Yêu cầu trước
 
-Trước khi chúng ta đi sâu vào thế giới dữ liệu mã vạch bổ sung, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trước khi bắt đầu viết code, hãy chắc chắn rằng bạn đã có:
 
-- Môi trường phát triển được thiết lập với Visual Studio hoặc bất kỳ công cụ phát triển .NET nào khác.
--  Một bản sao của Aspose.BarCode cho .NET. Nếu chưa có, bạn có thể tải xuống[đây](https://releases.aspose.com/barcode/net/).
-- Kiến thức cơ bản về lập trình C#.
-- Một thư mục nơi bạn có thể lưu hình ảnh mã vạch được tạo.
+- Visual Studio (hoặc bất kỳ IDE nào hỗ trợ .NET).  
+- Một bản sao Aspose.BarCode cho .NET – tải **[tại đây](https://releases.aspose.com/barcode/net/)**.  
+- Kiến thức cơ bản về C#.  
+- Một thư mục có quyền ghi để lưu các file PNG được tạo.
 
-## Nhập không gian tên
+## Nhập các namespace
 
-Trước tiên, hãy đảm bảo rằng bạn có các vùng tên cần thiết có trong mã C# để hoạt động với Aspose.BarCode cho .NET. Nhập các không gian tên được yêu cầu ở đầu tệp C# của bạn:
+Đầu tiên, thêm namespace Aspose.BarCode để bạn có thể truy cập các lớp tạo mã vạch:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Bây giờ, hãy chia nhỏ quá trình định cấu hình dữ liệu mã vạch bổ sung thành nhiều bước.
+> **Mẹo chuyên nghiệp:** Nếu bạn đang dùng .NET Core, hãy thêm package NuGet `Aspose.BarCode` vào dự án thay vì tham chiếu DLL thủ công.
 
-## Bước 1: Thiết lập đường dẫn thư mục
+## Mã vạch bổ sung là gì?
 
- Trong mã C# của bạn, hãy xác định đường dẫn đến thư mục mà bạn muốn lưu hình ảnh mã vạch đã tạo. Thay thế`"Your Directory Path"` với đường dẫn thư mục thực tế của bạn.
+Mã vạch bổ sung là một chuỗi số phụ được in cạnh mã vạch chính.  
+- **EAN‑2** – bổ sung hai chữ số, thường dùng cho số phát hành trên tạp chí.  
+- **EAN‑5** – bổ sung năm chữ số, thường dùng cho phần mở rộng giá trên mặt hàng bán lẻ.
+
+Việc thêm các bổ sung này không thay đổi dữ liệu EAN‑13 chính; chúng chỉ cung cấp ngữ cảnh bổ sung mà máy quét có thể đọc.
+
+## Tại sao nên dùng Aspose.BarCode cho dữ liệu bổ sung?
+
+- **API một dòng** – cấu hình cả mã vạch chính và bổ sung trong một đối tượng duy nhất.  
+- **Kiểm soát đầy đủ kích thước** – điều chỉnh X‑dimension, khoảng cách bổ sung và định dạng ảnh.  
+- **Đa nền tảng** – hoạt động trên .NET Framework, .NET Core và .NET 5/6+.  
+
+## Hướng dẫn từng bước
+
+### Bước 1: Thiết lập thư mục đầu ra
+
+Xác định nơi sẽ lưu các file PNG. Thay thế placeholder bằng đường dẫn thực tế trên máy của bạn.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Bước 2: Tạo Trình tạo mã vạch
+### Bước 2: Khởi tạo Barcode Generator (Barcode Generator C#)
 
- Tạo một thể hiện của`BarcodeGenerator` bằng cách chỉ định loại mã vạch và dữ liệu bạn muốn mã hóa. Trong ví dụ này, chúng tôi đang sử dụng mã vạch EAN-13 với dữ liệu "1234567890128".
+Tạo một thể hiện `BarcodeGenerator`, chỉ định **EAN‑13** làm loại chính và cung cấp dữ liệu 13 chữ số.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## Bước 3: Tùy chỉnh kích thước mã vạch
+### Bước 3: Điều chỉnh kích thước mã vạch
 
-Đặt kích thước của mã vạch, chẳng hạn như kích thước X (chiều rộng của phần tử nhỏ nhất trong mã vạch) và khoảng trống bổ sung. Trong ví dụ này, chúng tôi đặt kích thước X thành 2 pixel và không gian bổ sung thành 20 pixel.
+Tinh chỉnh kích thước hiển thị của mã vạch và không gian dành cho phần bổ sung.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## Bước 4: Cấu hình bổ sung EAN-2
+### Bước 4: Thêm bổ sung EAN‑2
 
-Để định cấu hình mã vạch bổ sung EAN-2, hãy đặt dữ liệu bổ sung thành giá trị mong muốn. Trong trường hợp này, chúng tôi đặt nó thành "12". 
+Đặt dữ liệu bổ sung thành giá trị hai chữ số (ví dụ, “12”). Giá trị này sẽ xuất hiện ở phía bên phải của mã vạch chính.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## Bước 5: Lưu hình ảnh mã vạch
+### Bước 5: Lưu mã vạch EAN‑2 dưới dạng PNG
 
-Lưu hình ảnh mã vạch được tạo vào thư mục được chỉ định của bạn với một tên có ý nghĩa. Trong ví dụ này, chúng tôi lưu mã vạch bổ sung EAN-2 dưới dạng "SupplementEAN2.png".
+Xuất ảnh. Tham số `BarCodeImageFormat.Png` đảm bảo file PNG chất lượng cao.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## Bước 6: Cấu hình bổ sung EAN-5
+### Bước 6: Chuyển sang bổ sung EAN‑5
 
- Để định cấu hình mã vạch bổ sung EAN-5, chỉ cần thay đổi`SupplementData` đến giá trị mong muốn của bạn. Ở đây, chúng tôi đặt nó thành "12345".
+Thay đổi `SupplementData` thành chuỗi năm chữ số cho phần mở rộng giá.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## Bước 7: Lưu hình ảnh mã vạch (EAN-5)
-
-Cuối cùng, lưu hình ảnh mã vạch bổ sung EAN-5 vào thư mục đã chỉ định của bạn. Trong trường hợp này, chúng tôi lưu nó dưới dạng "SupplementEAN5.png".
+### Bước 7: Lưu mã vạch EAN‑5 dưới dạng PNG
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-Bây giờ, bạn đã định cấu hình và tạo thành công dữ liệu mã vạch bổ sung bằng Aspose.BarCode cho .NET. Bạn có thể sử dụng phương pháp này để tạo ra nhiều loại mã vạch với dữ liệu bổ sung khác nhau.
+> **Tại sao cách này hoạt động:** Cùng một thể hiện `BarcodeGenerator` được tái sử dụng, vì vậy bạn chỉ cần thay đổi thuộc tính `SupplementData` trước mỗi lần gọi `Save`. Điều này giúp code gọn gàng và tránh việc tạo đối tượng không cần thiết.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
-Aspose.BarCode for .NET là một công cụ mạnh mẽ để tạo và tùy chỉnh mã vạch. Trong hướng dẫn này, chúng tôi đã hướng dẫn từng bước quy trình định cấu hình và tạo dữ liệu mã vạch bổ sung. Với các điều kiện tiên quyết phù hợp và một chút mã hóa, bạn có thể làm việc hiệu quả với dữ liệu mã vạch và đáp ứng các nhu cầu cụ thể của mình.
+- **Đường dẫn thư mục không hợp lệ** – đảm bảo thư mục tồn tại và ứng dụng có quyền ghi.  
+- **Độ dài bổ sung không đúng** – EAN‑2 yêu cầu đúng 2 chữ số, EAN‑5 yêu cầu 5; nếu không sẽ ném ngoại lệ.  
+- **Ảnh không hiển thị** – xác nhận rằng đã dùng `BarCodeImageFormat.Png`; các định dạng khác (ví dụ, JPEG) có thể gây ra hiện tượng nén làm giảm khả năng đọc của máy quét.  
 
- Để biết thêm thông tin và cách sử dụng nâng cao, hãy tham khảo[Aspose.BarCode cho tài liệu .NET](https://reference.aspose.com/barcode/net/).
+## Câu hỏi thường gặp
 
-## Các câu hỏi thường gặp
+### Tôi có thể dùng Aspose.BarCode cho .NET trong dự án .NET Core không?
+Có, Aspose.BarCode cho .NET hoàn toàn tương thích với .NET Core, .NET 5 và .NET 6.
 
-### Tôi có thể sử dụng Aspose.BarCode cho .NET trong dự án .NET Core của mình không?
-Có, Aspose.BarCode for .NET tương thích với .NET Core.
-
-### Có bản dùng thử miễn phí dành cho Aspose.BarCode cho .NET không?
- Có, bạn có thể dùng thử miễn phí bằng cách truy cập[liên kết này](https://releases.aspose.com/).
+### Có bản dùng thử miễn phí cho Aspose.BarCode cho .NET không?
+Có, bạn có thể thử miễn phí bằng cách truy cập **[liên kết này](https://releases.aspose.com/)**.
 
 ### Tôi có thể lấy giấy phép tạm thời cho Aspose.BarCode cho .NET ở đâu?
- Bạn có thể xin giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nhận giấy phép tạm thời từ **[liên kết này](https://purchase.aspose.com/temporary-license/)**.
 
 ### Aspose.BarCode có hỗ trợ nhiều loại mã vạch không?
-Có, nó hỗ trợ nhiều loại mã vạch khác nhau, bao gồm EAN-13, Mã QR, Mã 128, v.v.
+Chắc chắn – nó hỗ trợ EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417 và nhiều loại khác.
 
 ### Tôi có thể tùy chỉnh giao diện của mã vạch được tạo không?
-Hoàn toàn có thể, bạn có thể tùy chỉnh kích thước, màu sắc và các khía cạnh khác của mã vạch để đáp ứng yêu cầu của bạn.
+Có, bạn có thể thay đổi màu sắc, phông chữ, lề và thậm chí thêm ảnh nền bằng API `Parameters` phong phú.
+
+## Kết luận
+
+Bây giờ bạn đã biết cách **tạo mã vạch EAN-13** với dữ liệu bổ sung EAN‑2 hoặc EAN‑5 và **tạo file PNG cho mã vạch** bằng Aspose.BarCode cho .NET. Cách tiếp cận này cho phép bạn kiểm soát toàn diện kích thước mã vạch, khoảng cách bổ sung và định dạng đầu ra, rất phù hợp cho bán lẻ, logistics và bất kỳ trường hợp nào cần thông tin số bổ sung.
+
+Để khám phá sâu hơn, hãy xem hướng dẫn tham chiếu đầy đủ: **[tài liệu Aspose.BarCode cho .NET](https://reference.aspose.com/barcode/net/)**.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-07  
+**Đã kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

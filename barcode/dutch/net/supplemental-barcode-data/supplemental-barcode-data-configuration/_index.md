@@ -1,121 +1,153 @@
 ---
-title: Aanvullende streepjescodegegevens maken met Aspose.BarCode voor .NET
-linktitle: Aanvullende configuratie van streepjescodegegevens
+date: 2026-03-07
+description: Leer hoe je een EAN‑13‑barcode met aanvullende gegevens maakt in C# met
+  Aspose.BarCode voor .NET – genereer snel een barcode‑PNG.
+linktitle: Supplemental Barcode Data Configuration
 second_title: Aspose.BarCode .NET API
-description: Genereer aanvullende barcodegegevens met Aspose.BarCode voor .NET. Pas moeiteloos EAN-2- en EAN-5-barcodes aan. Stapsgewijze handleiding voor .NET-ontwikkelaars.
-weight: 10
+title: EAN-13 barcode maken met aanvullende gegevens – Aspose.BarCode
 url: /nl/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aanvullende streepjescodegegevens maken met Aspose.BarCode voor .NET
+# Maak EAN-13 Barcode met Aanvullende Gegevens – Aspose.BarCode voor .NET
 
+In deze praktische tutorial zult u **een EAN-13 barcode** maken die aanvullende EAN‑2- of EAN‑5-gegevens bevat, en u zult zien hoe u **barcode PNG**-bestanden kunt genereren met slechts een paar regels C#. Of u nu een kassasysteem voor detailhandel bouwt, een logistieke applicatie, of een eenvoudig voorraadtool, de mogelijkheid om aanvullende informatie toe te voegen maakt uw barcodes veel bruikbaarder.
 
-In de wereld van het genereren en aanpassen van streepjescodes onderscheidt Aspose.BarCode voor .NET zich als een krachtig en veelzijdig hulpmiddel. Of u nu een ervaren ontwikkelaar bent of net begint, deze stapsgewijze handleiding leidt u door het proces van het configureren van aanvullende barcodegegevens met Aspose.BarCode voor .NET. 
+## Snelle Antwoorden
+- **Wat betekent “aanvullende gegevens”?** Extra cijfers (EAN‑2/EAN‑5) die naast de hoofdbarcode worden afgedrukt, vaak gebruikt voor prijs- of uitgave‑nummers.  
+- **Welke barcode‑type wordt gebruikt?** EAN‑13 als het primaire symbool, met optionele EAN‑2- of EAN‑5‑aanvullingen.  
+- **Kan ik PNG‑afbeeldingen exporteren?** Ja – de `Save`‑methode laat u direct naar PNG exporteren.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
+- **Is dit compatibel met .NET Core / .NET 6?** Absoluut – Aspose.BarCode ondersteunt alle moderne .NET‑runtime‑omgevingen.
 
-## Vereisten
+## Voorvereisten
 
-Voordat we in de wereld van aanvullende barcodegegevens duiken, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- Visual Studio (of een andere .NET‑compatibele IDE).  
+- Een kopie van Aspose.BarCode voor .NET – download deze **[hier](https://releases.aspose.com/barcode/net/)**.  
+- Basiskennis van C#.  
+- Een beschrijfbare map waar de gegenereerde PNG‑bestanden worden opgeslagen.
 
-- Een ontwikkelomgeving opgezet met Visual Studio of een andere .NET-ontwikkeltool.
--  Een kopie van Aspose.BarCode voor .NET. Als je dat nog niet hebt gedaan, kun je het downloaden[hier](https://releases.aspose.com/barcode/net/).
-- Basiskennis van programmeren in C#.
-- Een map waarin u de gegenereerde barcodeafbeeldingen kunt opslaan.
+## Namespaces Importeren
 
-## Naamruimten importeren
-
-Zorg er eerst voor dat de benodigde naamruimten in uw C#-code zijn opgenomen om met Aspose.BarCode voor .NET te kunnen werken. Importeer de vereiste naamruimten aan het begin van uw C#-bestand:
+Voeg eerst de Aspose.BarCode‑namespace toe zodat u toegang heeft tot de generator‑klassen:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Laten we nu het proces van het configureren van aanvullende streepjescodegegevens in meerdere stappen opsplitsen.
+> **Pro tip:** Als u .NET Core gebruikt, voeg dan het NuGet‑pakket `Aspose.BarCode` toe aan uw project in plaats van de DLL handmatig te refereren.
 
-## Stap 1: Het directorypad instellen
+## Wat is een Aanvullende Barcode?
 
- Definieer in uw C#-code het pad naar de map waar u de gegenereerde streepjescodeafbeeldingen wilt opslaan. Vervangen`"Your Directory Path"` met uw werkelijke mappad.
+Een aanvullende barcode is een extra numerieke reeks die naast de hoofdbarcode wordt afgedrukt.  
+- **EAN‑2** – twee‑cijferige aanvulling, vaak gebruikt voor uitgave‑nummers op tijdschriften.  
+- **EAN‑5** – vijf‑cijferige aanvulling, algemeen gebruikt voor prijsuitbreidingen op detailhandelsartikelen.
+
+Het toevoegen van deze aanvullingen wijzigt de primaire EAN‑13‑gegevens niet; het levert simpelweg extra context die scanners kunnen lezen.
+
+## Waarom Aspose.BarCode gebruiken voor Aanvullende Gegevens?
+
+- **One‑line API** – configureer zowel de hoofdbarcode als de aanvulling in één enkel object.  
+- **Volledige controle over afmetingen** – pas X‑dimensie, aanvulling‑spatiëring en afbeeldingsformaat aan.  
+- **Cross‑platform** – werkt op .NET Framework, .NET Core en .NET 5/6+.  
+
+## Stapsgewijze Gids
+
+### Stap 1: Stel de Uitvoermap in
+
+Definieer waar de PNG‑bestanden worden opgeslagen. Vervang de tijdelijke aanduiding door een echt pad op uw machine.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Stap 2: Een streepjescodegenerator maken
+### Stap 2: Initialiseer de Barcode Generator (Barcode Generator C#)
 
- Maak een exemplaar van`BarcodeGenerator` door het barcodetype en de gegevens die u wilt coderen op te geven. In dit voorbeeld gebruiken we een EAN-13-barcode met de gegevens "1234567890128".
+Maak een `BarcodeGenerator`‑instantie aan, waarbij u **EAN‑13** als hoofdtype opgeeft en de 13‑cijferige payload levert.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## Stap 3: Barcodeafmetingen aanpassen
+### Stap 3: Pas de Barcode‑Afmetingen Aan
 
-Stel de afmetingen van de streepjescode in, zoals de X-afmeting (de breedte van het kleinste element in de streepjescode) en de aanvullende ruimte. In dit voorbeeld stellen we de X-afmeting in op 2 pixels en de aanvullende ruimte op 20 pixels.
+Stel de visuele grootte van de barcode en de gereserveerde ruimte voor de aanvulling nauwkeurig af.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## Stap 4: EAN-2 Supplement configureren
+### Stap 4: Voeg een EAN‑2‑Aanvulling toe
 
-Om een aanvullende EAN-2-barcode te configureren, stelt u de aanvullende gegevens in op de gewenste waarde. In dit geval stellen we dit in op "12". 
+Stel de aanvullende gegevens in op een twee‑cijferige waarde (bijv. “12”). Deze verschijnt rechts van de hoofdbarcode.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## Stap 5: De streepjescodeafbeelding opslaan
+### Stap 5: Sla de EAN‑2‑Barcode op als PNG
 
-Sla de gegenereerde streepjescodeafbeelding op in de door u opgegeven map met een betekenisvolle naam. In dit voorbeeld slaan we de aanvullende EAN-2-barcode op als "SupplementEAN2.png".
+Exporteer de afbeelding. Het argument `BarCodeImageFormat.Png` zorgt voor een PNG‑bestand van hoge kwaliteit.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## Stap 6: EAN-5 Supplement configureren
+### Stap 6: Schakel over naar een EAN‑5‑Aanvulling
 
- Om een aanvullende EAN-5-barcode te configureren, wijzigt u eenvoudigweg de`SupplementData` tot uw gewenste waarde. Hier stellen we het in op "12345".
+Verander de `SupplementData` naar een vijf‑cijferige tekenreeks voor prijsuitbreidingen.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## Stap 7: De barcodeafbeelding opslaan (EAN-5)
-
-Sla ten slotte de aanvullende EAN-5-barcodeafbeelding op in de door u opgegeven map. In dit geval slaan we het op als "SupplementEAN5.png".
+### Stap 7: Sla de EAN‑5‑Barcode op als PNG
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-Nu hebt u met succes aanvullende streepjescodegegevens geconfigureerd en gegenereerd met Aspose.BarCode voor .NET. U kunt deze aanpak gebruiken om een breed scala aan streepjescodetypen met variërende aanvullende gegevens te maken.
+> **Waarom dit werkt:** Dezelfde `BarcodeGenerator`‑instantie wordt hergebruikt, dus u hoeft alleen de `SupplementData`‑eigenschap aan te passen vóór elke `Save`‑aanroep. Dit houdt de code beknopt en voorkomt onnodige objectcreatie.
+
+## Veelvoorkomende Problemen & Tips
+
+- **Ongeldig mappad** – zorg ervoor dat de map bestaat en dat de applicatie schrijfrechten heeft.  
+- **Onjuiste aanvullinglengte** – EAN‑2 verwacht exact 2 cijfers, EAN‑5 verwacht 5; anders wordt een uitzondering gegooid.  
+- **Afbeelding niet zichtbaar** – controleer of `BarCodeImageFormat.Png` wordt gebruikt; andere formaten (bijv. JPEG) kunnen compressie‑artefacten introduceren die de leesbaarheid voor scanners beïnvloeden.  
+
+## Veelgestelde Vragen
+
+### Kan ik Aspose.BarCode voor .NET gebruiken in mijn .NET Core‑project?
+Ja, Aspose.BarCode voor .NET is volledig compatibel met .NET Core, .NET 5 en .NET 6.
+
+### Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor .NET?
+Ja, u kunt het gratis uitproberen door **[deze link](https://releases.aspose.com/)** te bezoeken.
+
+### Waar kan ik een tijdelijke licentie krijgen voor Aspose.BarCode voor .NET?
+U kunt een tijdelijke licentie verkrijgen via **[deze link](https://purchase.aspose.com/temporary-license/)**.
+
+### Ondersteunt Aspose.BarCode een breed scala aan barcode‑typen?
+Absoluut – het ondersteunt EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417 en nog veel meer.
+
+### Kan ik het uiterlijk van de gegenereerde barcodes aanpassen?
+Ja, u kunt kleuren, lettertypen, marges aanpassen en zelfs achtergrondafbeeldingen toevoegen via de uitgebreide `Parameters`‑API.
 
 ## Conclusie
 
-Aspose.BarCode voor .NET is een krachtig hulpmiddel voor het genereren en aanpassen van streepjescodes. In deze handleiding hebben we stap voor stap het proces van het configureren en genereren van aanvullende barcodegegevens doorlopen. Met de juiste vereisten en een beetje codering kunt u efficiënt met barcodegegevens werken en aan uw specifieke behoeften voldoen.
+U weet nu hoe u **een EAN-13 barcode** kunt maken met aanvullende EAN‑2‑ of EAN‑5‑gegevens en **barcode PNG**‑bestanden kunt genereren met Aspose.BarCode voor .NET. Deze aanpak geeft u volledige controle over barcode‑afmetingen, aanvulling‑spatiëring en uitvoerformaat, waardoor het ideaal is voor detailhandel, logistiek en elke situatie waarin extra numerieke informatie vereist is.
 
- Voor meer informatie en geavanceerd gebruik raadpleegt u de[Aspose.BarCode voor .NET-documentatie](https://reference.aspose.com/barcode/net/).
+Voor een diepere verkenning, bekijk de volledige referentiegids: **[Aspose.BarCode for .NET documentatie](https://reference.aspose.com/barcode/net/)**.
 
-## Veel Gestelde Vragen
+---
 
-### Kan ik Aspose.BarCode voor .NET gebruiken in mijn .NET Core-project?
-Ja, Aspose.BarCode voor .NET is compatibel met .NET Core.
-
-### Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor .NET?
- Ja, u kunt het gratis uitproberen door een bezoek te brengen[deze link](https://releases.aspose.com/).
-
-### Waar kan ik een tijdelijke licentie krijgen voor Aspose.BarCode voor .NET?
- Een tijdelijke licentie kunt u verkrijgen bij[deze link](https://purchase.aspose.com/temporary-license/).
-
-### Ondersteunt Aspose.BarCode een breed scala aan barcodetypen?
-Ja, het ondersteunt verschillende soorten streepjescodes, waaronder EAN-13, QR-code, Code 128 en meer.
-
-### Kan ik het uiterlijk van de gegenereerde barcodes aanpassen?
-Absoluut, u kunt de afmetingen, kleuren en andere aspecten van de streepjescodes aanpassen aan uw wensen.
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
