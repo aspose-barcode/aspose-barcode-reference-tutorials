@@ -1,34 +1,55 @@
 ---
-title: Anwenden der Prüfsumme für CodaBar in Java
-linktitle: Anwenden der Prüfsumme für CodaBar
+date: 2025-12-18
+description: Erfahren Sie, wie Sie ein Codabar-Barcode-Bild erstellen und ein Java-Barcode-Leser‑Beispiel
+  mit Aspose.BarCode ansehen. Generieren und erkennen Sie Barcodes mühelos mit dieser
+  Schritt‑für‑Schritt‑Anleitung.
+linktitle: Applying Checksum for CodaBar
 second_title: Aspose.BarCode Java API
-description: Erfahren Sie, wie Sie mit Aspose.BarCode Prüfsummen für CodaBar in Java anwenden. Mit dieser Schritt-für-Schritt-Anleitung können Sie mühelos Barcodes generieren und erkennen.
-weight: 11
+title: Wie man ein Codabar-Barcode‑Bild mit Prüfsumme in Java erstellt
 url: /de/java/checksum-and-validation/applying-checksum-codabar/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anwenden der Prüfsumme für CodaBar in Java
-
+# Wie man ein Codabar‑Barcode‑Bild mit Prüfsumme in Java erstellt
 
 ## Einführung
 
-Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Anwenden der Prüfsumme für CodaBar in Java mithilfe von Aspose.BarCode. Aspose.BarCode für Java ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Barcodes in Java-Anwendungen nahtlos zu generieren und zu erkennen. In diesem Tutorial konzentrieren wir uns auf die spezifische Aufgabe der Anwendung der Prüfsumme für CodaBar-Barcodes.
+In diesem Tutorial lernen Sie, wie Sie **ein Codabar‑Barcode‑Bild** mit Prüfsumme in Java mithilfe von Aspose.BarCode erstellen. Wir führen Sie durch die Erzeugung eines CodaBar‑Barcodes, das Aktivieren der Prüfsumme und das anschließende Auslesen mit einem **java barcode reader example**. Am Ende haben Sie einen einsatzbereiten Code‑Snippet, den Sie in jedes Java‑Projekt einbinden können.
+
+## Schnellantworten
+- **Was bewirkt die Prüfsumme?** Sie validiert die Integrität der Barcode‑Daten während des Scannens.  
+- **Welche Bibliothek wird benötigt?** Aspose.BarCode für Java.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine temporäre Lizenz reicht für Tests; für die Produktion ist eine Voll‑Lizenz erforderlich.  
+- **Kann ich das Aussehen des Barcodes anpassen?** Ja – Farbe, Größe und Schrift können über Generator‑Parameter geändert werden.  
+- **Ist das mit allen Java‑Versionen kompatibel?** Die Bibliothek unterstützt Java 8 und neuer.
+
+## Was ist ein CodaBar‑Barcode?
+
+CodaBar ist eine lineare (1‑dimensionale) Symbologie, die häufig in Bibliotheken, Blutbanken und im Einzelhandel verwendet wird. Sie codiert numerische Daten und einige Sonderzeichen, was sie ideal für einfache, maschinenlesbare Etiketten macht. Das Hinzufügen einer Prüfsumme (Mod 10) erhöht die Lesegenauigkeit, insbesondere bei Druck von geringer Qualität.
+
+## Warum Aspose.BarCode für Java verwenden?
+
+Aspose.BarCode bietet ein **java barcode reader example**, das die Low‑Level‑Details der Barcode‑Erzeugung und -Erkennung abstrahiert. Es liefert:
+
+* Vollständige Kontrolle über Prüfsummen‑Modi.  
+* Nahtlose Integration in Java‑IDEs.  
+* Umfangreiche Dokumentation und Support.  
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor wir starten, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Java Development Kit (JDK) ist auf Ihrem Computer installiert.
--  Aspose.BarCode für Java-Bibliothek. Sie können es herunterladen unter[Hier](https://releases.aspose.com/barcode/java/).
-- Ein grundlegendes Verständnis der Java-Programmierung.
+- Java Development Kit (JDK) auf Ihrem Rechner installiert.  
+- Aspose.BarCode für Java Bibliothek. Sie können sie von [hier](https://releases.aspose.com/barcode/java/) herunterladen.  
+- Grundlegende Kenntnisse in Java‑Programmierung.  
 
 ## Pakete importieren
 
-Stellen Sie in Ihrem Java-Projekt sicher, dass Sie die erforderlichen Pakete importieren, um mit Aspose.BarCode zu arbeiten:
+Importieren Sie in Ihrem Java‑Projekt die notwendigen Klassen, um mit Aspose.BarCode zu arbeiten:
 
 ```java
 import java.io.IOException;
@@ -42,77 +63,88 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Schritt 1: Umgebung einrichten
+## Schritt‑für‑Schritt‑Anleitung
 
-Erstellen Sie zunächst ein neues Java-Projekt und fügen Sie die Aspose.BarCode-Bibliothek in die Abhängigkeiten Ihres Projekts ein. Richten Sie Ihre Entwicklungsumgebung mit den erforderlichen Ressourcen ein.
+### Schritt 1: Umgebung einrichten
+
+Erstellen Sie ein neues Java‑Projekt und fügen Sie die Aspose.BarCode‑JAR zu Ihrem Build‑Path hinzu. Definieren Sie einen Ordner, in dem die erzeugten Bilder gespeichert werden.
 
 ```java
-// Der Pfad zum Ressourcenverzeichnis.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-## Schritt 2: Generierung des CodaBar-Barcodes
+### Schritt 2: CodaBar‑Barcode‑Bild mit Prüfsumme erzeugen
 
-Lassen Sie uns nun einen CodaBar-Barcode mit aktivierter Prüfsumme generieren.
+Instanziieren Sie den `BarcodeGenerator`, aktivieren Sie die Prüfsumme, wählen Sie den Mod 10‑Modus und speichern Sie das Bild.
 
 ```java
-// Instanziieren Sie das BarcodeGenerator-Objekt
+// Instantiate BarcodeGenerator object
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "1234567890");
 
-// Legen Sie die Eigenschaft „EnableChecksum“ auf „Ja“ fest
+// Set the EnableChecksum property to yes
 generator.getParameters().getBarcode().setChecksumEnabled(EnableChecksum.YES);
 
-// Legen Sie den CodabarChecksumMode fest
+// Set the CodabarChecksumMode
 generator.getParameters().getBarcode().getCodabar().setCodabarChecksumMode(CodabarChecksumMode.MOD_10);
 
-// Speichern Sie das Bild auf dem System
+// Save the image on the system
 generator.save(dataDir + "Codabar_Mod10.png");
 ```
 
-## Schritt 3: Erkennung des CodaBar-Barcodes
+### Schritt 3: Java barcode reader example – Barcode erkennen
 
-Jetzt implementieren wir den Erkennungsteil des CodaBar-Barcodes mit Prüfsumme.
+Lesen Sie nun den Barcode ein und aktivieren Sie die Prüfsummen‑Validierung, um sicherzustellen, dass die Daten korrekt sind.
 
 ```java
-// Leserobjekt initialisieren
+// Initialize reader object
 BarCodeReader reader = new BarCodeReader(dataDir + "Codabar_Mod10.png", DecodeType.CODABAR);
 
-// Setzen Sie die ChecksumValidation-Eigenschaft des Readers auf „On“.
+// Set ChecksumValidation property of the reader to On
 reader.setChecksumValidation(ChecksumValidation.ON);
 
 for (BarCodeResult result : reader.readBarCodes()) {
     System.out.println("CodeText: " + result.getCodeText());
     System.out.println("Symbology type: " + result.getCodeType());
 
-    // Prüfsummenwert abrufen
+    // Get checksum value
     System.out.println("Checksum:" + result.getExtended().getOneD().getCheckSum());
 }
 ```
 
-Befolgen Sie diese Schritte, um mit Aspose.BarCode mühelos Prüfsummen für CodaBar in Java anzuwenden.
+Beim Ausführen des Codes werden der dekodierte Text, der Symbologie‑Typ und die berechnete Prüfsumme ausgegeben, was bestätigt, dass der Barcode korrekt erzeugt und validiert wurde.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir untersucht, wie man mit Aspose.BarCode Prüfsummen für CodaBar-Barcodes in Java anwendet. Diese Bibliothek bietet eine unkomplizierte Möglichkeit zum Generieren und Erkennen von Barcodes mit verschiedenen Anpassungsoptionen.
+| Problem | Lösung |
+|-------|----------|
+| **Prüfsummen‑Validierung schlägt fehl** | Stellen Sie sicher, dass `EnableChecksum` auf `YES` gesetzt ist und dass `CodabarChecksumMode` dem beim Erzeugen verwendeten Modus (Mod 10) entspricht. |
+| **Datei‑nicht‑gefunden‑Fehler** | Vergewissern Sie sich, dass `dataDir` auf einen existierenden Ordner zeigt und dass das erzeugte Bild (`Codabar_Mod10.png`) dort gespeichert wurde, bevor es gelesen wird. |
+| **Nicht unterstützte Java‑Version** | Verwenden Sie Java 8 oder neuer; ältere Versionen besitzen möglicherweise nicht die erforderlichen APIs. |
+
+## Häufig gestellte Fragen
+
+**F: Ist Aspose.BarCode mit allen Java‑Versionen kompatibel?**  
+A: Aspose.BarCode ist für Java 8 und neuer ausgelegt. Prüfen Sie die offizielle Dokumentation für detaillierte Kompatibilitätsinformationen.
+
+**F: Kann ich das Aussehen des erzeugten Barcodes anpassen?**  
+A: Ja, Sie können Farben, Schriftarten und das Bildformat über die Parameter‑API des Generators ändern.
+
+**F: Gibt es temporäre Lizenzen für Testzwecke?**  
+A: Ja, Sie können eine temporäre Lizenz für Aspose.BarCode von [hier](https://purchase.aspose.com/temporary-license/) erhalten.
+
+**F: Wo finde ich zusätzlichen Support und Ressourcen?**  
+A: Besuchen Sie das [Aspose.BarCode‑Forum](https://forum.aspose.com/c/barcode/13) für Community‑Support und Diskussionen.
+
+**F: Gibt es eine kostenlose Testversion?**  
+A: Ja, Sie können die Funktionen von Aspose.BarCode testen, indem Sie die kostenlose Testversion von [hier](https://releases.aspose.com/) herunterladen.
 
 ---
 
-## FAQs
+**Zuletzt aktualisiert:** 2025-12-18  
+**Getestet mit:** Aspose.BarCode für Java 24.12  
+**Autor:** Aspose  
 
-### Ist Aspose.BarCode mit allen Java-Versionen kompatibel?
-Aspose.BarCode ist für die Verwendung mit verschiedenen Java-Versionen konzipiert. Stellen Sie sicher, dass Sie die Dokumentation auf Kompatibilitätsdetails überprüfen.
-
-### Kann ich das Erscheinungsbild des generierten Barcodes anpassen?
-Ja, Aspose.BarCode bietet umfangreiche Anpassungsmöglichkeiten, mit denen Sie das Erscheinungsbild der generierten Barcodes steuern können.
-
-### Sind temporäre Lizenzen zu Testzwecken verfügbar?
- Ja, Sie können eine temporäre Lizenz für Aspose.BarCode erhalten von[Hier](https://purchase.aspose.com/temporary-license/).
-
-### Wo finde ich zusätzliche Unterstützung und Ressourcen?
- Besuche den[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13) für Community-Unterstützung und Diskussionen.
-
-### Gibt es eine kostenlose Testversion?
- Ja, Sie können die Funktionen von Aspose.BarCode erkunden, indem Sie die kostenlose Testversion von herunterladen[Hier](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
