@@ -14,18 +14,18 @@ weight: 13
 
 # 在 Java 中辨識 Unicode 條碼
 
-## Introduction
+## 引言
 
 如果您需要在 Java 應用程式中 **how to read barcode image**，尤其是條碼包含 Unicode 字元，您來對地方了。在本教學中，我們將逐步說明辨識 Unicode 條碼（如阿拉伯文、中文或西里爾文）的所有必要步驟，使用功能強大的 Aspose.BarCode 函式庫。完成後，您將能自信地產生與讀取這些條碼，將軟體的覆蓋範圍擴展至全球使用者。
 
-## Quick Answers
+## 快速解答
 - **哪個函式庫最適合在 Java 中讀取條碼？** Aspose.BarCode for Java.
 - **我可以使用 Unicode 文字產生 PDF417 條碼嗎？** 是的，使用 `BarcodeGenerator` 類別。
 - **在正式環境使用是否需要授權？** 需要有效的 Aspose.BarCode 授權。
 - **支援哪個 Java 版本？** Java 8 及以上。
 - **有免費試用嗎？** 有，您可以從 Aspose 官方網站下載試用版。
 
-## What is “how to read barcode image” in Java?
+## 什麼是 Java 中的「讀取條碼影像」？
 
 在 Java 中，什麼是 “how to read barcode image”？  
 讀取條碼影像是指將視覺圖案解碼回原始資料字串。當資料包含 Unicode 字元時，函式庫必須正確處理字元編碼與解碼，Aspose.BarCode 會在您將文字轉換為正確的代碼格式後自動完成此工作。
@@ -133,23 +133,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 | 讀取後輸出亂碼 | 字元編碼錯誤 | 確保 `getUnicodeFromCodeText` 使用與 `getCodeTextFromUnicode` 相同的字元集（`UTF‑8`）。 |
 | 讀取器回傳 `null` | `DecodeType` 設定不正確 | 對於 PDF417 條碼使用 `DecodeType.PDF_417`。 |
 | 授權未套用 | 授權檔案路徑錯誤 | 將 `aspose.barcode.lic` 放置於專案根目錄或提供絕對路徑。 |
-
-## 常見問答
-
-### 是否需要 Aspose.BarCode 授權？
-是的，使用 Aspose.BarCode 必須擁有有效的授權。您可以在此取得 [here](https://purchase.aspose.com/buy)。
-
-### 哪裡可以找到 Aspose.BarCode 的文件說明？
-文件說明可於此取得 [here](https://reference.aspose.com/barcode/java/)。
-
-### 我可以免費試用 Aspose.BarCode 嗎？
-可以，您可在此取得免費試用版 [here](https://releases.aspose.com/)。
-
-### 如何取得 Aspose.BarCode 的臨時授權？
-臨時授權可於此取得 [here](https://purchase.aspose.com/temporary-license/)。
-
-### 需要支援或有任何問題？
-請造訪 [Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13)。
 
 ## 常見問題
 

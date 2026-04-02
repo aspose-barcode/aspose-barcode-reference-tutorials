@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Barcodes mit Aspose Java erstellen und die Ba
   CODE_128‑Barcodes.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Wie man Barcode mit Aspose Java erstellt: Bildqualität anpassen'
+title: 'Wie man Barcode mit Aspose Java erstellt - Bildqualität anpassen'
 url: /de/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

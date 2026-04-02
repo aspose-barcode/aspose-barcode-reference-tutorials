@@ -5,7 +5,7 @@ description: Tanulja meg, hogyan hozhat létre vonalkódot az Aspose Java segít
   magas minőségű CODE_128 vonalkódokat.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Hogyan hozzunk létre vonalkódot Aspose Java-val: Képminőség beállítása'
+title: 'Hogyan hozzunk létre vonalkódot Aspose Java-val - Képminőség beállítása'
 url: /hu/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

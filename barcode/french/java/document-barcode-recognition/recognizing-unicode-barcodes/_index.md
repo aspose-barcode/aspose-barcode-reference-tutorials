@@ -137,23 +137,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 | Le lecteur renvoie `null` | Type de décodage incorrect | Utilisez `DecodeType.PDF_417` pour les codes‑barres PDF417. |
 | Licence non appliquée | Chemin du fichier de licence incorrect | Placez `aspose.barcode.lic` à la racine du projet ou fournissez un chemin absolu. |
 
-## FAQ
-
-### Une licence est‑elle requise pour Aspose.BarCode ?
-Oui, une licence valide est requise pour Aspose.BarCode. Vous pouvez en obtenir une [ici](https://purchase.aspose.com/buy).
-
-### Où puis‑je trouver la documentation d’Aspose.BarCode ?
-La documentation est disponible [ici](https://reference.aspose.com/barcode/java/).
-
-### Puis‑je essayer Aspose.BarCode gratuitement ?
-Oui, vous pouvez obtenir un essai gratuit [ici](https://releases.aspose.com/).
-
-### Comment obtenir une licence temporaire pour Aspose.BarCode ?
-Les licences temporaires peuvent être obtenues [ici](https://purchase.aspose.com/temporary-license/).
-
-### Besoin d’assistance ou avez‑vous des questions ?
-Visitez le [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
 ## Questions fréquentes
 
 **Q : Puis‑je utiliser ce code avec d’autres symbologies de code‑barres ?**  

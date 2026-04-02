@@ -5,7 +5,7 @@ description: Dowiedz się, jak tworzyć kody kreskowe w Aspose Java i zwiększy�
   kreskowe CODE_128.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Jak utworzyć kod kreskowy Aspose Java: dostosuj jakość obrazu'
+title: 'Jak utworzyć kod kreskowy Aspose Java - dostosuj jakość obrazu'
 url: /pl/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

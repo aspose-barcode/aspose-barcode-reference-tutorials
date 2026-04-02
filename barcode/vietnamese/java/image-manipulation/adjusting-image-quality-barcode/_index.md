@@ -5,7 +5,7 @@ description: Tìm hiểu cách tạo mã vạch Aspose Java và tăng độ phâ
   dễ dàng.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Cách tạo mã vạch Aspose Java: Điều chỉnh chất lượng hình ảnh'
+title: 'Cách tạo mã vạch Aspose Java - Điều chỉnh chất lượng hình ảnh'
 url: /vi/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

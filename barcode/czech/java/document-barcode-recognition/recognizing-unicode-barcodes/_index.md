@@ -139,41 +139,24 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ## Často kladené otázky
 
-### Je licence pro Aspose.BarCode vyžadována?
-Yes, a valid license is required for Aspose.BarCode. You can obtain one [here](https://purchase.aspose.com/buy).
+**Otázka: Mohu tento kód použít s jinými symboly čárových kódů?**
+Odpověď: Rozhodně. Změňte `EncodeTypes.PDF_417` na jakýkoli podporovaný typ, například `EncodeTypes.CODE_128`, a podle toho upravte `DecodeType`.
 
-### Kde najdu dokumentaci k Aspose.BarCode?
-The documentation is available [here](https://reference.aspose.com/barcode/java/).
+**Otázka: Co se stane, když vstupní text obsahuje emoji?**
+Odpověď: Emoji jsou znaky Unicode; budou kódovány správně, pokud metody převodu zpracovávají UTF-8.
 
-### Mohu vyzkoušet Aspose.BarCode zdarma?
-Yes, you can get a free trial [here](https://releases.aspose.com/).
+**Otázka: Existuje způsob, jak číst čárové kódy ze streamu místo ze souboru?**
+Odpověď: Ano, `BarCodeReader` také přijímá `InputStream` jako první argument.
 
-### Jak získat dočasnou licenci pro Aspose.BarCode?
-Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+**Otázka: Jak mohu zlepšit rychlost rozpoznávání pro velké dávky?**
+Odpověď: Znovu použijte jednu instanci `BarCodeReader` a zpracujte obrázky ve smyčce, přičemž každý výsledek ihned zlikvidujte.
 
-### Potřebujete podporu nebo máte otázky?
-Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
-
-## Frequently Asked Questions
-
-**Q: Can I use this code with other barcode symbologies?**  
-A: Absolutely. Change `EncodeTypes.PDF_417` to any supported type such as `EncodeTypes.CODE_128` and adjust the `DecodeType` accordingly.
-
-**Q: What happens if the input text contains emojis?**  
-A: Emojis are Unicode characters; they will be encoded correctly as long as the conversion methods handle UTF‑8.
-
-**Q: Is there a way to read barcodes from a stream instead of a file?**  
-A: Yes, `BarCodeReader` also accepts an `InputStream` as the first argument.
-
-**Q: How can I improve recognition speed for large batches?**  
-A: Reuse a single `BarCodeReader` instance and process images in a loop, disposing of each result promptly.
-
-**Q: Does Aspose.BarCode support multi‑page PDFs for barcode extraction?**  
-A: It does. Use `BarCodeReader` with the PDF file path; the library will iterate through all pages automatically.
+**Otázka: Podporuje Aspose.BarCode vícestránkové PDF soubory pro extrakci čárových kódů?**
+Odpověď: Podporuje. Použijte `BarCodeReader` s cestou k souboru PDF; knihovna automaticky projde všemi stránkami.
 
 ## Závěr
 
-Congratulations! You've now mastered **how to read barcode image** in Java using Aspose.BarCode, from generating a Unicode PDF417 barcode to decoding it back into its original text. This capability opens the door to internationalized applications, multilingual inventory systems, and any scenario where global character sets are required.
+Gratuluji! Nyní jste zvládli **číst obrázek čárového kódu** v Javě pomocí Aspose.BarCode, od generování čárového kódu Unicode PDF417 až po jeho dekódování zpět do původního textu. Tato schopnost otevírá dveře k internacionalizovaným aplikacím, vícejazyčným inventárním systémům a jakýmkoli scénářům, kde jsou vyžadovány globální znakové sady.
 
 ---
 

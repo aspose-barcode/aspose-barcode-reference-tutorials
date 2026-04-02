@@ -136,23 +136,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 | Pembaca mengembalikan `null` | `DecodeType` tidak tepat | Gunakan `DecodeType.PDF_417` untuk barcode PDF417. |
 | Lisensi tidak diterapkan | Path file lisensi tidak benar | Letakkan `aspose.barcode.lic` di root proyek atau berikan path absolut. |
 
-## FAQ
-
-### Apakah lisensi diperlukan untuk Aspose.BarCode?
-Ya, lisensi yang valid diperlukan untuk Aspose.BarCode. Anda dapat memperolehnya [di sini](https://purchase.aspose.com/buy).
-
-### Di mana saya dapat menemukan dokumentasi Aspose.BarCode?
-Dokumentasinya tersedia [di sini](https://reference.aspose.com/barcode/java/).
-
-### Bisakah saya mencoba Aspose.BarCode secara gratis?
-Ya, Anda dapat mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
-
-### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.BarCode?
-Lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
-
-### Butuh dukungan atau memiliki pertanyaan?
-Kunjungi [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan kode ini dengan simbologi barcode lain?**  

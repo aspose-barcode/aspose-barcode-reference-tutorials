@@ -136,23 +136,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 | Reader가 `null` 반환 | 잘못된 `DecodeType` 설정 | PDF417 바코드의 경우 `DecodeType.PDF_417`을 사용합니다. |
 | 라이선스 적용 안 됨 | 라이선스 파일 경로 오류 | 프로젝트 루트에 `aspose.barcode.lic`을 두거나 절대 경로를 지정합니다. |
 
-## FAQ
-
-### Aspose.BarCode에 라이선스가 필요합니까?
-네, 유효한 라이선스가 필요합니다. [여기](https://purchase.aspose.com/buy)에서 구매할 수 있습니다.
-
-### Aspose.BarCode 문서는 어디서 찾을 수 있나요?
-문서는 [여기](https://reference.aspose.com/barcode/java/)에서 확인할 수 있습니다.
-
-### Aspose.BarCode를 무료로 체험할 수 있나요?
-네, [여기](https://releases.aspose.com/)에서 무료 체험판을 받을 수 있습니다.
-
-### Aspose.BarCode 임시 라이선스는 어떻게 얻나요?
-임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 신청할 수 있습니다.
-
-### 지원이 필요하거나 질문이 있나요?
-[Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13)을 방문하세요.
-
 ## 자주 묻는 질문
 
 **Q: 이 코드를 다른 바코드 심볼에도 사용할 수 있나요?**  

@@ -136,23 +136,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 | 读取器返回 `null` | `DecodeType` 不正确 | 对 PDF417 条形码使用 `DecodeType.PDF_417`。 |
 | 许可证未生效 | 许可证文件路径不正确 | 将 `aspose.barcode.lic` 放在项目根目录或提供绝对路径。 |
 
-## 常见问题
-
-### 是否需要 Aspose.BarCode 许可证？
-是的，使用 Aspose.BarCode 需要有效的许可证。您可以在 [此处](https://purchase.aspose.com/buy) 获取。
-
-### 在哪里可以找到 Aspose.BarCode 文档？
-文档可在 [此处](https://reference.aspose.com/barcode/java/) 查看。
-
-### 可以免费试用 Aspose.BarCode 吗？
-可以，您可以在 [此处](https://releases.aspose.com/) 获取免费试用版。
-
-### 如何获取 Aspose.BarCode 的临时许可证？
-临时许可证可在 [此处](https://purchase.aspose.com/temporary-license/) 获得。
-
-### 需要支持或有疑问？
-访问 [Aspose.BarCode 论坛](https://forum.aspose.com/c/barcode/13)。
-
 ## 常见问答
 
 **Q: 我可以将此代码用于其他条形码符号吗？**  

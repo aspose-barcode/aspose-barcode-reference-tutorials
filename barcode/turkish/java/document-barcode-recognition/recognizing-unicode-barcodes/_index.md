@@ -135,23 +135,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 | Okuyucu `null` döndürüyor | Yanlış `DecodeType` | PDF417 barkodları için `DecodeType.PDF_417` kullanın. |
 | Lisans uygulanmadı | Lisans dosyası yolu hatalı | `aspose.barcode.lic` dosyasını proje köküne yerleştirin veya mutlak yol sağlayın. |
 
-## SSS
-
-### Aspose.BarCode için lisans gerekli mi?
-Evet, Aspose.BarCode için geçerli bir lisans gereklidir. Bunu [buradan](https://purchase.aspose.com/buy) edinebilirsiniz.
-
-### Aspose.BarCode belgelerini nerede bulabilirim?
-Belgelere [buradan](https://reference.aspose.com/barcode/java/) ulaşabilirsiniz.
-
-### Aspose.BarCode'ı ücretsiz deneyebilir miyim?
-Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
-
-### Aspose.BarCode için geçici lisans nasıl alınır?
-Geçici lisansları [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
-
-### Destek mi gerekiyor ya da sorularınız mı var?
-[Aspose.BarCode forumunu](https://forum.aspose.com/c/barcode/13) ziyaret edin.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu kodu diğer barkod sembolojileriyle kullanabilir miyim?**  

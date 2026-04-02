@@ -4,7 +4,7 @@ description: Aspose Java를 사용하여 바코드를 생성하는 방법을 배
   바코드를 손쉽게 생성합니다.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Aspose Java로 바코드 생성하기: 이미지 품질 조정'
+title: 'Aspose Java로 바코드 생성하기 - 이미지 품질 조정'
 url: /ko/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

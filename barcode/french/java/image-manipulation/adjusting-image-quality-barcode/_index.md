@@ -5,7 +5,7 @@ description: Apprenez comment créer des codes‑barres avec Aspose Java et augm
   des codes‑barres CODE_128 de haute qualité.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Comment créer un code‑barres Aspose Java : ajuster la qualité de l’image'
+title: 'Comment créer un code‑barres Aspose Java - ajuster la qualité de l’image'
 url: /fr/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

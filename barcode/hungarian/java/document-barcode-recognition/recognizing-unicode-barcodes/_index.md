@@ -139,23 +139,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ## Gyakran Ismételt Kérdések
 
-### Szükséges licenc az Aspose.BarCode-hoz?
-Igen, egy érvényes licenc szükséges az Aspose.BarCode-hoz. Licencet itt szerezhetsz be [here](https://purchase.aspose.com/buy).
-
-### Hol találom az Aspose.BarCode dokumentációját?
-A dokumentáció elérhető [here](https://reference.aspose.com/barcode/java/).
-
-### Kipróbálhatom ingyen az Aspose.BarCode-ot?
-Igen, ingyenes próbaverziót tölthetsz le [here](https://releases.aspose.com/).
-
-### Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode-hoz?
-Ideiglenes licenceket itt kaphatsz [here](https://purchase.aspose.com/temporary-license/).
-
-### Szükséged van támogatásra vagy kérdésed van?
-Látogasd meg az [Aspose.BarCode fórumot](https://forum.aspose.com/c/barcode/13).
-
-## Gyakran Ismételt Kérdések
-
 **K: Használhatom ezt a kódot más vonalkód szimbólumokkal?**  
 **V:** Teljesen. Cseréld az `EncodeTypes.PDF_417`-t bármelyik támogatott típusra, például `EncodeTypes.CODE_128`-ra, és ennek megfelelően állítsd be a `DecodeType`-ot is.
 

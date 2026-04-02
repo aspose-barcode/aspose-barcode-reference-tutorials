@@ -4,7 +4,7 @@ description: تعلم كيفية إنشاء الباركود باستخدام As
   طريق ضبط جودة الصورة. أنشئ باركودات CODE_128 عالية الجودة بسهولة.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'كيفية إنشاء الباركود باستخدام Aspose Java: تعديل جودة الصورة'
+title: 'كيفية إنشاء الباركود باستخدام Aspose Java - تعديل جودة الصورة'
 url: /ar/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

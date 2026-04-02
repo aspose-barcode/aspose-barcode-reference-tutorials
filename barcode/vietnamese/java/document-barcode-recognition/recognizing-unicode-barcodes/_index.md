@@ -136,23 +136,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 | Trình đọc trả về `null` | DecodeType không đúng | Sử dụng `DecodeType.PDF_417` cho mã PDF417. |
 | Giấy phép không được áp dụng | Đường dẫn tệp giấy phép không đúng | Đặt `aspose.barcode.lic` ở thư mục gốc của dự án hoặc cung cấp đường dẫn tuyệt đối. |
 
-## Câu hỏi thường gặp
-
-### Có cần giấy phép cho Aspose.BarCode không?
-Có, cần một giấy phép Aspose.BarCode hợp lệ. Bạn có thể mua một giấy phép [here](https://purchase.aspose.com/buy).
-
-### Tôi có thể tìm tài liệu Aspose.BarCode ở đâu?
-Tài liệu có sẵn [here](https://reference.aspose.com/barcode/java/).
-
-### Tôi có thể dùng thử Aspose.BarCode miễn phí không?
-Có, bạn có thể nhận bản dùng thử miễn phí [here](https://releases.aspose.com/).
-
-### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.BarCode?
-Giấy phép tạm thời có thể được lấy [here](https://purchase.aspose.com/temporary-license/).
-
-### Cần hỗ trợ hoặc có câu hỏi?
-Truy cập diễn đàn [Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
 ## Các câu hỏi thường gặp
 
 **H: Tôi có thể sử dụng đoạn mã này với các loại mã vạch khác không?**  

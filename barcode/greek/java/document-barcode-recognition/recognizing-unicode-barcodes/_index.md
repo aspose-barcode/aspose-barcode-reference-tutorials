@@ -139,23 +139,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ## Συχνές Ερωτήσεις
 
-### Απαιτείται άδεια για το Aspose.BarCode;
-Ναι, απαιτείται έγκυρη άδεια για το Aspose.BarCode. Μπορείτε να την αποκτήσετε [εδώ](https://purchase.aspose.com/buy).
-
-### Πού μπορώ να βρω την τεκμηρίωση του Aspose.BarCode;
-Η τεκμηρίωση είναι διαθέσιμη [εδώ](https://reference.aspose.com/barcode/java/).
-
-### Μπορώ να δοκιμάσω το Aspose.BarCode δωρεάν;
-Ναι, μπορείτε να λάβετε δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
-
-### Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.BarCode;
-Προσωρινές άδειες μπορούν να ληφθούν [εδώ](https://purchase.aspose.com/temporary-license/).
-
-### Χρειάζεστε υποστήριξη ή έχετε ερωτήσεις;
-Επισκεφθείτε το [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
-
-## Συχνές Ερωτήσεις
-
 **Ε: Μπορώ να χρησιμοποιήσω αυτόν τον κώδικα με άλλες συμβολές barcode;**  
 Α: Απόλυτα. Αλλάξτε το `EncodeTypes.PDF_417` σε οποιοδήποτε υποστηριζόμενο τύπο όπως `EncodeTypes.CODE_128` και προσαρμόστε το `DecodeType` ανάλογα.
 

@@ -138,23 +138,6 @@ private static String getUnicodeFromCodeText(String cs) throws UnsupportedEncodi
 
 ## Часто задаваемые вопросы
 
-### Требуется ли лицензия для Aspose.BarCode?
-Да, для Aspose.BarCode необходима действующая лицензия. Её можно получить [здесь](https://purchase.aspose.com/buy).
-
-### Где найти документацию Aspose.BarCode?
-Документация доступна [здесь](https://reference.aspose.com/barcode/java/).
-
-### Можно ли попробовать Aspose.BarCode бесплатно?
-Да, бесплатную пробную версию можно получить [здесь](https://releases.aspose.com/).
-
-### Как получить временную лицензию для Aspose.BarCode?
-Временные лицензии доступны [здесь](https://purchase.aspose.com/temporary-license/).
-
-### Нужна поддержка или есть вопросы?
-Посетите [форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
-## Часто задаваемые вопросы
-
 **В: Можно ли использовать этот код с другими символогиями штрихкодов?**  
 О: Конечно. Замените `EncodeTypes.PDF_417` на любую поддерживаемую, например `EncodeTypes.CODE_128`, и соответственно измените `DecodeType`.
 

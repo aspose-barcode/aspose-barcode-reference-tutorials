@@ -5,7 +5,7 @@ description: Naučte se, jak vytvořit čárový kód pomocí Aspose Java a zvý
   CODE_128.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Jak vytvořit čárový kód Aspose Java: úprava kvality obrázku'
+title: 'Jak vytvořit čárový kód Aspose Java - úprava kvality obrázku'
 url: /cs/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---

@@ -4,7 +4,7 @@ description: Leer hoe u barcodes maakt met Aspose Java en de barcode‑resolutie
   door de beeldkwaliteit aan te passen. Genereer eenvoudig hoogwaardige CODE_128‑barcodes.
 linktitle: Adjusting Image Quality for Barcode
 second_title: Aspose.BarCode Java API
-title: 'Hoe een barcode maken met Aspose Java: afbeeldingskwaliteit aanpassen'
+title: 'Hoe een barcode maken met Aspose Java - afbeeldingskwaliteit aanpassen'
 url: /nl/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---
