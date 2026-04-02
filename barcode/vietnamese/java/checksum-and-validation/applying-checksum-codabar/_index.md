@@ -12,7 +12,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Cách tạo hình ảnh mã vạch codabar có checksum trong Java
 
@@ -145,9 +145,9 @@ A: Có, bạn có thể khám phá các tính năng của Aspose.BarCode bằng 
 **Được kiểm tra với:** Aspose.BarCode for Java 24.12  
 **Tác giả:** Aspose  
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
