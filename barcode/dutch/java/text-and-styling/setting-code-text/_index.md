@@ -1,91 +1,115 @@
 ---
-title: Codetekst instellen in Java
-linktitle: Codetekst instellen
-second_title: Aspose.BarCode Java-API
-description: Genereer moeiteloos streepjescodes in Java met Aspose.BarCode. Volg onze stapsgewijze handleiding voor het efficiënt aanpassen van codeteksten.
-weight: 13
+date: 2025-12-30
+description: Leer hoe je barcode‑java genereert met Aspose.BarCode. Deze stapsgewijze
+  gids laat zien hoe je aangepaste barcode‑tekst instelt, de breedte aanpast en de
+  afbeelding opslaat.
+linktitle: Setting Code Text
+second_title: Aspose.BarCode Java API
+title: 'Barcode genereren in Java - Code‑tekst instellen met Aspose.BarCode'
 url: /nl/java/text-and-styling/setting-code-text/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Codetekst instellen in Java
+# Barcode Java genereren: Code-tekst instellen met Aspose.BarCode
 
+## Introductie
 
-## Invoering
+In deze tutorial leer je hoe je **barcode java** kunt genereren met de Aspose.BarCode Java bibliotheek. Of je nu een voorraadbeheersysteem, een document‑tracking oplossing, of een andere applicatie die barcodes nodig heeft bouwt, deze gids leidt je door elke stap — van het maken van een **Code128** barcode tot het aanpassen van de code‑tekst en het instellen van de balkbreedte. Aan het einde heb je een kant‑klaar afbeelding die je overal kunt insluiten waar je die nodig hebt.
 
-Barcodes maken in Java is nog nooit zo eenvoudig geweest, dankzij de krachtige Aspose.BarCode voor Java-bibliotheek. Of u nu werkt aan voorraadbeheer, documenttracering of een andere toepassing waarvoor streepjescodes nodig zijn, deze tutorial begeleidt u stap voor stap door het proces. In deze zelfstudie concentreren we ons op het instellen van codetekst met Aspose.BarCode, een veelzijdige en efficiënte tool voor het genereren van streepjescodes.
+## Snelle antwoorden
+- **Welke bibliotheek moet ik gebruiken?** Aspose.BarCode for Java.
+- **Welk barcode‑type wordt gedemonstreerd?** CODE_128.
+- **Hoe stel ik aangepaste barcode‑tekst in?** Gebruik de `BarcodeGenerator` constructor of de `setCodeText` methode.
+- **Kan ik de balkbreedte wijzigen?** Ja, via `XDimension` in millimeters.
+- **Heb ik een licentie nodig voor productie?** Ja, een commerciële licentie is vereist.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende beschikt:
-
-- Basiskennis van Java-programmeren.
-- Er is een werkende Java-ontwikkelomgeving geïnstalleerd.
--  Aspose.BarCode voor Java-bibliotheek. Je kunt het downloaden[hier](https://releases.aspose.com/barcode/java/).
-- Een code-editor, zoals IntelliJ of Eclipse.
+- Basiskennis van Java-programmeren.  
+- Een werkende Java-ontwikkelomgeving geïnstalleerd.  
+- Aspose.BarCode for Java bibliotheek. Je kunt deze downloaden **[hier](https://releases.aspose.com/barcode/java/)**.  
+- Een code‑editor, zoals IntelliJ IDEA of Eclipse.  
 
 ## Pakketten importeren
 
-Begin met het importeren van de benodigde pakketten in uw Java-project. Deze pakketten zijn essentieel voor het werken met Aspose.BarCode.
+Begin met het importeren van de benodigde pakketten in je Java‑project. Deze pakketten zijn essentieel voor het werken met Aspose.BarCode.
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
-
 ```
 
-Laten we nu eens kijken naar het proces van het instellen van codetekst met Aspose.BarCode in Java. Volg deze stappen:
+Laten we nu het proces verkennen om code‑tekst in te stellen met Aspose.BarCode in Java. Volg deze stappen:
 
-## Stap 1: Maak een exemplaar van BarcodeGenerator
+## Barcode‑generator tutorial: Maak een Code128 barcode
+
+### Stap 1: Maak een instantie van `BarcodeGenerator`
 
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String path = "Your Directory Path";
-// Het pad naar de bronmap.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
 ```
 
- Hier creëren we een`BarcodeGenerator` bijvoorbeeld, waarbij de streepjescodesymboliek (CODE_128) en de codetekst ("12345678") worden gespecificeerd.
+Hier maken we een `BarcodeGenerator`‑instantie, waarbij we de barcode‑symbologie (**CODE_128**) en de **aangepaste barcode‑tekst** `"12345678"` opgeven.
 
-## Stap 2: Stel de breedte van de staven in
+### Stap 2: Pas de barcode‑breedte aan voor aangepaste barcode‑tekst
 
 ```java
 generator.getParameters().getBarcode().getXDimension().setMillimeters(0.5f);
 ```
 
-Pas de breedte van de spijlen aan naar jouw voorkeur. In dit voorbeeld stellen we deze in op 0,5 millimeter.
+Pas de breedte van de balken aan naar wens. In dit voorbeeld **passen we de barcode‑breedte** aan naar `0.5` mm, wat goed werkt voor de meeste labelgroottes.
 
-## Stap 3: Sla de streepjescodeafbeelding op
+### Stap 3: Sla de barcode‑afbeelding op
 
 ```java
 generator.save(dataDir + "setCodeText.jpg");
 ```
 
-Sla de gegenereerde barcodeafbeelding op in de opgegeven map. In dit geval wordt het opgeslagen als "setCodeText.jpg" in de "Uw documentenmap".
+Sla de gegenereerde barcode‑afbeelding op in de opgegeven map. In dit geval wordt het bestand opgeslagen als **`setCodeText.jpg`** in je documentmap.
 
-## Conclusie
+## Waarom Aspose.BarCode voor Java gebruiken?
 
-Gefeliciteerd! U hebt met succes een streepjescode met aangepaste codetekst gemaakt met Aspose.BarCode voor Java. Deze krachtige bibliotheek vereenvoudigt het proces voor het genereren van streepjescodes, waardoor het een waardevol hulpmiddel is voor Java-ontwikkelaars.
+- **Uitgebreide API** – Ondersteunt meer dan 60 barcode‑symbologieën, inclusief Code128, QR, DataMatrix en meer.  
+- **Hoge‑kwaliteit rendering** – Genereert scherpe afbeeldingen in PNG, JPEG, SVG en PDF‑formaten.  
+- **Eenvoudige aanpassing** – Verander tekst, grootte, kleuren en voeg zelfs menselijk‑leesbare bijschriften toe met een paar regels code.  
+- **Cross‑platform** – Werkt op Windows, Linux en macOS met elke Java 8+ runtime.
 
-## Veelgestelde vragen (FAQ's)
+## Veelvoorkomende problemen en oplossingen
 
-### Kan ik Aspose.BarCode voor Java gebruiken in commerciële projecten?
- Ja, Aspose.BarCode voor Java is een commercieel product. U kunt licentiegegevens vinden[hier](https://purchase.aspose.com/buy).
+| Probleem | Oplossing |
+|----------|-----------|
+| **Barcode ziet er wazig uit** | Verhoog de afbeeldingsresolutie of exporteer naar vectorformaten (SVG, PDF). |
+| **Tekst wordt afgekapt** | Zorg ervoor dat de `XDimension` (balkbreedte) en `BarHeight` groot genoeg zijn voor de gekozen symbologie. |
+| **Licentie niet toegepast** | Plaats je licentiebestand (`Aspose.BarCode.lic`) in de project‑root en laad het met `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
 
-### Is er een gratis proefversie beschikbaar?
- Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+## Aanvullende veelgestelde vragen
 
-### Waar kan ik de documentatie voor Aspose.BarCode voor Java vinden?
- De documentatie is beschikbaar[hier](https://reference.aspose.com/barcode/java/).
+**Q:** *Wat is het verschil tussen `CODE_128` en andere Code128‑varianten?*  
+**A:** `CODE_128` is de standaard symbologie die automatisch de meest efficiënte codering (A, B of C) selecteert op basis van de invoertekst.
 
-### Hoe krijg ik ondersteuning voor Aspose.BarCode voor Java?
- Bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) Voor ondersteuning.
+**Q:** *Kan ik het uitvoerformaat wijzigen naar PNG in plaats van JPEG?*  
+**A:** Absoluut. Gebruik `generator.save(dataDir + "setCodeText.png", com.aspose.barcode.BarcodeImageFormat.PNG);`.
 
-### Kan ik een tijdelijke licentie gebruiken voor testdoeleinden?
- Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+**Q:** *Is het mogelijk om een menselijk‑leesbare bijschrift onder de barcode toe te voegen?*  
+**A:** Ja. Stel `generator.getParameters().getBarcode().getCaption().setTopMargin(5);` in en geef de bijschrift‑tekst op.
+
+**Q:** *Ondersteunt Aspose.BarCode Unicode‑tekens?*  
+**A:** Ja. Geef de tekst in UTF‑8 op en zorg ervoor dat de gekozen symbologie de tekenset ondersteunt.
+
+**Q:** *Hoe kan ik meerdere barcodes genereren in een lus?*  
+**A:** Maak binnen de lus een nieuwe `BarcodeGenerator` aan, stel de tekst voor elke iteratie in, en roep `save` aan met een unieke bestandsnaam.
+
+**Laatst bijgewerkt:** 2025-12-30  
+**Getest met:** Aspose.BarCode 24.12 for Java  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

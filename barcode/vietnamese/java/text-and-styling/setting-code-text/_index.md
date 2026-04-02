@@ -1,91 +1,119 @@
 ---
-title: Đặt văn bản mã trong Java
-linktitle: Văn bản mã cài đặt
-second_title: API Java Aspose.BarCode
-description: Tạo mã vạch dễ dàng trong Java với Aspose.BarCode. Hãy làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh văn bản mã hiệu quả.
-weight: 13
+date: 2025-12-30
+description: Tìm hiểu cách tạo mã vạch Java bằng Aspose.BarCode. Hướng dẫn từng bước
+  này chỉ cho bạn cách đặt văn bản mã vạch tùy chỉnh, điều chỉnh độ rộng và lưu hình
+  ảnh.
+linktitle: Setting Code Text
+second_title: Aspose.BarCode Java API
+title: 'Tạo mã vạch Java - Đặt văn bản mã bằng Aspose.BarCode'
 url: /vi/java/text-and-styling/setting-code-text/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt văn bản mã trong Java
-
+# Tạo Mã Vạch Java: Đặt Văn Bản Mã Sử Dụng Aspose.BarCode
 
 ## Giới thiệu
 
-Tạo mã vạch trong Java chưa bao giờ dễ dàng hơn thế nhờ thư viện Aspose.BarCode for Java mạnh mẽ. Cho dù bạn đang làm việc về quản lý hàng tồn kho, theo dõi tài liệu hay bất kỳ ứng dụng nào yêu cầu mã vạch, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình từng bước. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc thiết lập văn bản mã bằng Aspose.BarCode, một công cụ tạo mã vạch linh hoạt và hiệu quả.
+Trong hướng dẫn này, bạn sẽ học cách **tạo mã vạch Java** với thư viện Aspose.BarCode cho Java. Dù bạn đang xây dựng hệ thống quản lý tồn kho, giải pháp theo dõi tài liệu, hay bất kỳ ứng dụng nào cần mã vạch, hướng dẫn này sẽ dẫn bạn qua từng bước — từ việc tạo mã vạch **Code128** đến tùy chỉnh văn bản mã và điều chỉnh độ rộng thanh. Khi hoàn thành, bạn sẽ có một hình ảnh sẵn sàng để sử dụng và có thể nhúng ở bất kỳ nơi nào bạn cần.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào tôi nên sử dụng?** Aspose.BarCode for Java.  
+- **Loại mã vạch nào được trình bày?** CODE_128.  
+- **Làm thế nào để đặt văn bản mã vạch tùy chỉnh?** Sử dụng hàm khởi tạo `BarcodeGenerator` hoặc phương thức `setCodeText`.  
+- **Tôi có thể thay đổi độ rộng thanh không?** Có, thông qua `XDimension` tính bằng milimet.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những điều sau:
+## Yêu cầu trước
 
-- Hiểu biết cơ bản về lập trình Java.
-- Đã cài đặt môi trường phát triển Java đang hoạt động.
--  Aspose.BarCode cho thư viện Java. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/barcode/java/).
-- Trình soạn thảo mã, chẳng hạn như IntelliJ hoặc Eclipse.
+Trước khi bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã chuẩn bị các mục sau:
 
-## Gói nhập khẩu
+- Kiến thức cơ bản về lập trình Java.  
+- Môi trường phát triển Java hoạt động đã được cài đặt.  
+- Thư viện Aspose.BarCode cho Java. Bạn có thể tải xuống **[here](https://releases.aspose.com/barcode/java/)**.  
+- Trình soạn thảo mã, chẳng hạn IntelliJ IDEA hoặc Eclipse.  
 
-Bắt đầu bằng cách nhập các gói cần thiết vào dự án Java của bạn. Các gói này rất cần thiết để làm việc với Aspose.BarCode.
+## Nhập Gói
+
+Bắt đầu bằng việc nhập các gói cần thiết vào dự án Java của bạn. Các gói này là thiết yếu để làm việc với Aspose.BarCode.
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
-
 ```
 
-Bây giờ, hãy cùng khám phá quy trình thiết lập văn bản mã bằng Aspose.BarCode trong Java. Thực hiện theo các bước sau:
+Bây giờ, chúng ta sẽ khám phá quy trình đặt văn bản mã sử dụng Aspose.BarCode trong Java. Hãy làm theo các bước sau:
 
-## Bước 1: Tạo một phiên bản của BarcodeGenerator
+## Hướng Dẫn Barcode Generator: Tạo Mã Vạch Code128
+
+### Bước 1: Tạo một Instance của `BarcodeGenerator`
 
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String path = "Your Directory Path";
-// Đường dẫn đến thư mục tài nguyên.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
 ```
 
- Ở đây, chúng tôi tạo ra một`BarcodeGenerator` ví dụ, chỉ định ký hiệu mã vạch (CODE_128) và văn bản mã ("12345678").
+Ở đây, chúng ta tạo một instance `BarcodeGenerator`, chỉ định kiểu mã vạch (**CODE_128**) và **văn bản mã vạch tùy chỉnh** `"12345678"`.
 
-## Bước 2: Đặt chiều rộng của thanh
+### Bước 2: Điều chỉnh Độ Rộng Mã Vạch cho Văn Bản Mã Vạch Tùy Chỉnh
 
 ```java
 generator.getParameters().getBarcode().getXDimension().setMillimeters(0.5f);
 ```
 
-Điều chỉnh độ rộng của thanh theo sở thích của bạn. Trong ví dụ này, chúng tôi đặt nó thành 0,5 mm.
+Điều chỉnh độ rộng của các thanh theo sở thích của bạn. Trong ví dụ này, chúng tôi **điều chỉnh độ rộng mã vạch** thành `0.5` mm, phù hợp với hầu hết các kích thước nhãn.
 
-## Bước 3: Lưu hình ảnh mã vạch
+### Bước 3: Lưu Hình Ảnh Mã Vạch
 
 ```java
 generator.save(dataDir + "setCodeText.jpg");
 ```
 
-Lưu hình ảnh mã vạch được tạo vào thư mục được chỉ định. Trong trường hợp này, nó được lưu dưới dạng "setCodeText.jpg" trong "Thư mục tài liệu của bạn".
+Lưu hình ảnh mã vạch đã tạo vào thư mục được chỉ định. Trong trường hợp này, tệp được lưu dưới tên **`setCodeText.jpg`** trong thư mục tài liệu của bạn.
 
-## Phần kết luận
+## Tại sao nên sử dụng Aspose.BarCode cho Java?
 
-Chúc mừng! Bạn đã tạo thành công mã vạch có văn bản mã tùy chỉnh bằng Aspose.BarCode cho Java. Thư viện mạnh mẽ này đơn giản hóa quá trình tạo mã vạch, khiến nó trở thành một công cụ có giá trị cho các nhà phát triển Java.
+- **API toàn diện** – Hỗ trợ hơn 60 kiểu mã vạch, bao gồm Code128, QR, DataMatrix, và nhiều hơn nữa.  
+- **Kết xuất chất lượng cao** – Tạo ra hình ảnh sắc nét ở các định dạng PNG, JPEG, SVG và PDF.  
+- **Dễ dàng tùy chỉnh** – Thay đổi văn bản, kích thước, màu sắc, và thậm chí thêm chú thích có thể đọc được bằng con người chỉ với vài dòng mã.  
+- **Đa nền tảng** – Hoạt động trên Windows, Linux và macOS với bất kỳ môi trường chạy Java 8+ nào.
 
-## Câu hỏi thường gặp (FAQ)
+## Các vấn đề thường gặp và giải pháp
 
-### Tôi có thể sử dụng Aspose.BarCode cho Java trong các dự án thương mại không?
- Có, Aspose.BarCode for Java là một sản phẩm thương mại. Bạn có thể tìm thấy chi tiết cấp phép[đây](https://purchase.aspose.com/buy).
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Mã vạch bị mờ** | Tăng độ phân giải hình ảnh hoặc xuất ra các định dạng vector (SVG, PDF). |
+| **Văn bản bị cắt ngắn** | Đảm bảo `XDimension` (độ rộng thanh) và `BarHeight` đủ lớn cho kiểu mã vạch đã chọn. |
+| **Giấy phép không được áp dụng** | Đặt tệp giấy phép của bạn (`Aspose.BarCode.lic`) vào thư mục gốc của dự án và tải nó bằng `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
 
-### Có bản dùng thử miễn phí không?
- Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+## Các câu hỏi thường gặp bổ sung
 
-### Tôi có thể tìm tài liệu về Aspose.BarCode cho Java ở đâu?
- Tài liệu có sẵn[đây](https://reference.aspose.com/barcode/java/).
+**Q:** *Sự khác biệt giữa `CODE_128` và các biến thể Code128 khác là gì?*  
+**A:** `CODE_128` là kiểu chuẩn tự động chọn mã hóa hiệu quả nhất (A, B hoặc C) dựa trên văn bản đầu vào.
 
-### Làm cách nào để nhận được hỗ trợ cho Aspose.BarCode cho Java?
- Tham quan[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để hỗ trợ.
+**Q:** *Tôi có thể đổi định dạng xuất ra PNG thay vì JPEG không?*  
+**A:** Chắc chắn. Sử dụng `generator.save(dataDir + "setCodeText.png", com.aspose.barcode.BarcodeImageFormat.PNG);`.
 
-### Tôi có thể sử dụng giấy phép tạm thời cho mục đích thử nghiệm không?
- Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+**Q:** *Có thể thêm chú thích có thể đọc được bằng người dưới mã vạch không?*  
+**A:** Có. Đặt `generator.getParameters().getBarcode().getCaption().setTopMargin(5);` và chỉ định văn bản chú thích.
+
+**Q:** *Aspose.BarCode có hỗ trợ ký tự Unicode không?*  
+**A:** Có. Cung cấp văn bản ở định dạng UTF‑8 và đảm bảo kiểu mã vạch đã chọn hỗ trợ bộ ký tự đó.
+
+**Q:** *Làm thế nào để tôi tạo nhiều mã vạch trong một vòng lặp?*  
+**A:** Tạo một `BarcodeGenerator` mới trong vòng lặp, đặt văn bản cho mỗi lần lặp, và gọi `save` với tên tệp duy nhất.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-30  
+**Đã kiểm tra với:** Aspose.BarCode 24.12 cho Java  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
