@@ -79,13 +79,6 @@ weight: 23
 ### [Applying Checksum Validation in Java](./applying-checksum-validation/)
 Κατακτήστε την επικύρωση κωδικών σε Java χωρίς κόπο με το Aspose.BarCode. Βήμα‑βήμα οδηγός για επικύρωση αθροίσματος ελέγχου. Ενισχύστε την ακεραιότητα των δεδομένων του λογισμικού σας!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να δημιουργήσω έναν κωδικό γραμμής Codabar χωρίς άθροισμα ελέγχου;**  
@@ -108,3 +101,10 @@ A: Οποιοδήποτε IDE που υποστηρίζει Java 8 ή νεότ
 **Τελευταία Ενημέρωση:** 2025-12-18  
 **Δοκιμή Με:** Aspose.BarCode for Java 24.11  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

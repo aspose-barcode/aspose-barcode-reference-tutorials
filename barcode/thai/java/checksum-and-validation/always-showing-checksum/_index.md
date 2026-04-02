@@ -112,13 +112,6 @@ generator.save(dataDir + "checksum.jpg");
 ### Q: ฉันจะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.BarCode for Java ได้อย่างไร?
 คุณสามารถรับลิขสิทธิ์ชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-18  
@@ -126,3 +119,10 @@ generator.save(dataDir + "checksum.jpg");
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

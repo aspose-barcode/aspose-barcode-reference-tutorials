@@ -113,13 +113,6 @@ Kapsamlı dokümantasyon [burada](https://reference.aspose.com/barcode/java/) me
 ### S: Aspose.BarCode for Java için geçici bir lisans nasıl alabilirim?
 Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-18  
@@ -127,3 +120,10 @@ Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

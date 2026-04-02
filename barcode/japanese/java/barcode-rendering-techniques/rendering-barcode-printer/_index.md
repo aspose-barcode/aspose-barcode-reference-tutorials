@@ -19,7 +19,7 @@ weight: 12
 
 このチュートリアルでは、**バーコードジェネレータを作成**し、Aspose.BarCode を使用して Java アプリケーションから **バーコードを印刷する方法**を学びます。在庫管理システム、出荷ラベル、POS 端末などを構築する際、バーコードを描画してプリンターに送ることは一般的な要件です。画像の生成から、任意のプリンターへ送れるフレームへの表示まで、各ステップを順に解説します。
 
-## Quick Answers
+## 簡単な回答
 - **主なライブラリは何ですか？** Aspose.BarCode for Java.
 - **バーコードのサイズを設定できますか？** はい、ジェネレータのパラメータで寸法を制御できます。
 - **バーコードをプリンターに描画するには？** 画像としてレンダリングし、印刷可能な `Frame` に描画します。
@@ -57,7 +57,7 @@ import java.awt.image.BufferedImage;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-### Step 1: Create Frame Instance
+### ステップ1：フレームインスタンスの作成
 
 ```java
 Frame f = new Frame();
@@ -66,7 +66,7 @@ f.setSize(300, 300);
 
 フレームインスタンスを作成し、サイズを設定してバーコード表示の準備をします。
 
-### Step 2: Create Barcode Instance
+### ステップ2：バーコードインスタンスの作成
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
@@ -74,7 +74,7 @@ BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_1
 
 目的のバーコードタイプとデータで `BarcodeGenerator` インスタンスを初期化します。
 
-### Step 3: Generate Barcode Image
+### ステップ3：バーコード画像の生成
 
 ```java
 BufferedImage bimg = (BufferedImage) bb.generateBarCodeImage();
@@ -82,7 +82,7 @@ BufferedImage bimg = (BufferedImage) bb.generateBarCodeImage();
 
 `BarcodeGenerator` インスタンスを使用してバーコード画像を生成します。このステップは **Java スタイルでバーコード画像を生成** し、`BufferedImage` を返します。
 
-### Step 4: Extract RGB Information
+### ステップ4：RGB情報の抽出
 
 ```java
 int w = bimg.getWidth();
@@ -97,7 +97,7 @@ if (rgb.length > 0) {
 
 生成されたバーコード画像から RGB 情報を抽出します。ピクセルデータを把握しておくと、色を操作したり **バーコードサイズを動的に設定** する際に役立ちます。
 
-### Step 5: Display Barcode on Frame
+### ステップ5：フレームへのバーコードの表示
 
 ```java
 g.drawImage(bimg, 0, 0, this);
@@ -105,7 +105,7 @@ g.drawImage(bimg, 0, 0, this);
 
 `Graphics` クラスを使用してフレーム上にバーコードを表示します。ここで **バーコードの描画方法** を UI コンポーネントに適用し、印刷前に表示します。
 
-### Step 6: Set Frame Visibility
+### ステップ6：フレームの表示設定
 
 ```java
 f.setVisible(true);
@@ -119,16 +119,16 @@ f.setVisible(true);
 
 > **プロのコツ:** `PrinterJob.printDialog()` を使用してユーザーにプリンターを選択させ、画像をグラフィックコンテキストに描画した後で `printerJob.print()` を呼び出します。
 
-## Common Issues & Solutions
+## よくある問題と解決策
 
-| Issue | Solution |
+| 問題 | 解決策 |
 |-------|----------|
 | **バーコードがぼやけて表示される** | フレームサイズを大きくするか、画像生成前に `BarcodeGenerator.setResolution()` で解像度を上げてください。 |
 | **プリンターから出力されない** | プリンタードライバーが画像形式をサポートしているか確認し、`PrintServiceLookup` を使用して互換性のあるプリンターを選択してください。 |
 | **バーコードデータが正しくない** | 入力文字列（例の `"1234567"`）がシンボロジーの要件（例: CODE_128 の長さ）に合致しているか確認してください。 |
 | **RGB 抽出が空配列を返す** | 画像が正常に生成されたか確認し、`getRGB` を呼び出す前に `bimg != null` をチェックしてください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q:** 生成されたバーコードの外観をカスタマイズできますか？  
 **A:** はい、Aspose.BarCode はサイズ、色、フォントなど、バーコードの外観をカスタマイズするさまざまなオプションを提供します。
@@ -145,7 +145,7 @@ f.setVisible(true);
 **Q:** Aspose.BarCode の無料トライアルはありますか？  
 **A:** はい、こちらから無料トライアルにアクセスできます [here](https://releases.aspose.com/)。
 
-## Conclusion
+## まとめ
 
 おめでとうございます！Aspose.BarCode を使用して Java で **バーコードジェネレータを作成**し、バーコードを印刷できました。このガイドでは、環境設定、画像生成、ピクセルデータ抽出、フレームへの表示、印刷準備までを網羅しました。詳細な機能（テキスト追加、色変更、複数バーコードのバッチ処理など）については、豊富な [documentation](https://reference.aspose.com/barcode/java/) をご確認ください。
 

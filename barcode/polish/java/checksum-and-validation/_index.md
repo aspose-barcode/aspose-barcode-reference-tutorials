@@ -76,13 +76,6 @@ Dowiedz się, jak zastosować sumę kontrolną dla CodaBar w Javie przy użyciu 
 ### [Applying Checksum Validation in Java](./applying-checksum-validation/)
 Opanuj weryfikację kodów kreskowych w Javie bez trudu z Aspose.BarCode. Przewodnik krok po kroku po weryfikacji sumy kontrolnej. Zwiększ integralność danych w swoim oprogramowaniu!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę wygenerować kod kreskowy Codabar bez sumy kontrolnej?**  
@@ -105,3 +98,10 @@ O: Każde IDE obsługujące Java 8 lub nowsze (IntelliJ IDEA, Eclipse, NetBean
 **Ostatnia aktualizacja:** 2025-12-18  
 **Testowano z:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

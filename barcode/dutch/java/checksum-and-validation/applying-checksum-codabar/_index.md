@@ -16,40 +16,40 @@ weight: 11
 
 # Hoe maak je een codabar barcode‑afbeelding met checksum in Java
 
-## Introduction
+## Introductie
 
-In deze tutorial leer je hoe je **codabar barcode‑afbeelding** maakt met checksum in Java met behulp van Aspose.BarCode. We lopen door het genereren van een CodaBar barcode, het inschakelen van de checksum, en vervolgens het teruglezen met een **java barcode reader example**. Aan het einde heb je een kant‑klaar code‑fragment dat je in elk Java‑project kunt gebruiken.
+In deze tutorial leer je hoe je **codabar barcode‑afbeelding** maakt met checksum in Java met behulp van Aspose.BarCode. We lopen door het genereren van een CodaBar barcode, het inschakelen van de checksum, en vervolgens het teruglezen met een **java barcode reader voorbeeld**. Aan het einde heb je een kant-klaar codefragment dat je in elk Java-project kunt gebruiken.
 
-## Quick Answers
-- **Wat doet de checksum?** Het valideert de integriteit van de barcode‑gegevens tijdens het scannen.  
-- **Welke bibliotheek is vereist?** Aspose.BarCode for Java.  
-- **Heb ik een licentie nodig voor ontwikkeling?** Een tijdelijke licentie werkt voor testen; een volledige licentie is vereist voor productie.  
-- **Kan ik het uiterlijk van de barcode aanpassen?** Ja – kleur, grootte en lettertype kunnen worden gewijzigd via generator‑parameters.  
-- **Is dit compatibel met alle Java‑versies?** De bibliotheek ondersteunt Java 8 en nieuwer.
+## Snelle antwoorden
+- **Wat doet de checksum?** Het valideert de integriteit van de barcode‑gegevens tijdens het scannen.
+- **Welke bibliotheek is vereist?** Aspose.BarCode voor Java.
+- **Heb ik een licentie nodig voor ontwikkeling?** Een tijdelijke licentie werkt voor testen; een volledige licentie is vereist voor productie.
+- **Kan ik het uiterlijk van de barcode aanpassen?** Ja – kleur, grootte en lettertype kunnen worden gewijzigd via generator‑parameters.
+- **Is dit compatibel met alle Java‑versies?** De bibliotheek ondersteunt Java8 en nieuwer.
 
-## What is a CodaBar barcode?
+## Wat is een CodaBar-streepjescode?
 
-CodaBar is een lineaire (1‑dimensionale) symbologie die veel wordt gebruikt in bibliotheken, bloedbanken en de detailhandel. Het codeert numerieke gegevens en enkele speciale tekens, waardoor het ideaal is voor eenvoudige, machinaal leesbare tags. Het toevoegen van een checksum (Mod 10) verbetert de leesnauwkeurigheid, vooral bij afdrukken van lage kwaliteit.
+CodaBar is een lineaire (1-dimensionale) symbologie die veel wordt gebruikt in bibliotheken, bloedbanken en de detailhandel. Het codeert numerieke gegevens en enkele speciale tekens, waardoor het ideaal is voor eenvoudige, machinaal leesbare tags. Het toevoegen van een checksum (Mod10) verbetering van de leesnauwkeurigheid, vooral bij het afdrukken van lage kwaliteit.
 
-## Why use Aspose.BarCode for Java?
+## Waarom Aspose.BarCode voor Java gebruiken?
 
-Aspose.BarCode biedt een **java barcode reader example** die de low‑level details van barcode‑generatie en -herkenning abstraheert. Het biedt:
+Aspose.BarCode biedt een **java barcodelezer voorbeeld** met de low‑level details van barcode‑generatie en -herkenning abstract. Het biedt:
 
-* Volle controle over checksum‑modi.  
-* Naadloze integratie met Java‑IDE's.  
-* Uitgebreide documentatie en ondersteuning.  
+* Volledige controle over checksum‑modi.
+* Naadloze integratie met Java‑IDE's.
+* Uitgebreide documentatie en ondersteuning.
 
-## Prerequisites
+## Vereisten
 
-Voordat we beginnen, zorg ervoor dat je het volgende hebt:
+Voordat we beginnen, zorg ervoor dat je de volgende hebt:
 
-- Java Development Kit (JDK) geïnstalleerd op je machine.  
-- Aspose.BarCode for Java bibliotheek. Je kunt deze downloaden van [here](https://releases.aspose.com/barcode/java/).  
-- Een basisbegrip van Java‑programmeren.  
+- Java Development Kit (JDK) geschikt op je machine.
+- Aspose.BarCode voor Java-bibliotheek. Je kunt dit downloaden [hier](https://releases.aspose.com/barcode/java/).
+- Een basisbegrip van Java-programmeurs.
 
-## Import Packages
+## Pakketten importeren
 
-Importeer in je Java‑project de benodigde klassen om met Aspose.BarCode te werken:
+Importeer in je Java‑project de vergelijkbare klassen om met Aspose.BarCode te werken:
 
 ```java
 import java.io.IOException;
@@ -63,9 +63,9 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step‑by‑step Guide
+## Stapsgewijze handleiding
 
-### Step 1: Set Up the Environment
+### Stap 1: De omgeving instellen
 
 Maak een nieuw Java‑project aan en voeg de Aspose.BarCode‑JAR toe aan je build‑pad. Definieer een map waarin de gegenereerde afbeeldingen worden opgeslagen.
 
@@ -74,7 +74,7 @@ Maak een nieuw Java‑project aan en voeg de Aspose.BarCode‑JAR toe aan je bui
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Generate a CodaBar barcode image with checksum
+### Stap 2: Een CodaBar-barcodeafbeelding met checksum genereren
 
 Instantieer de `BarcodeGenerator`, schakel de checksum in, kies de Mod 10‑modus, en sla de afbeelding op.
 
@@ -92,7 +92,7 @@ generator.getParameters().getBarcode().getCodabar().setCodabarChecksumMode(Codab
 generator.save(dataDir + "Codabar_Mod10.png");
 ```
 
-### Step 3: Java barcode reader example – Recognize the barcode
+### Stap 3: Voorbeeld van een Java-barcodelezer – De barcode herkennen
 
 Lees nu de barcode terug, met checksum‑validatie ingeschakeld om te verzekeren dat de gegevens correct zijn.
 
@@ -114,35 +114,35 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 Het uitvoeren van de code geeft de gedecodeerde tekst, het symbologie‑type en de berekende checksum weer, waarmee wordt bevestigd dat de barcode correct is gegenereerd en gevalideerd.
 
-## Common Issues and Solutions
+## Veelvoorkomende problemen en oplossingen
 
 | Probleem | Oplossing |
 |----------|-----------|
-| **Checksum validation fails** | Controleer of `EnableChecksum` is ingesteld op `YES` en dat `CodabarChecksumMode` overeenkomt met de modus die tijdens generatie werd gebruikt (Mod 10). |
-| **File not found error** | Zorg ervoor dat `dataDir` naar een bestaande map wijst en dat de gegenereerde afbeelding (`Codabar_Mod10.png`) daar is opgeslagen voordat deze wordt gelezen. |
-| **Unsupported Java version** | Gebruik Java 8 of hoger; oudere versies kunnen de benodigde API's missen. |
+| **Checksum-validatie mislukt** | Controleer of `EnableChecksum` is ingesteld op `YES` en dat `CodabarChecksumMode` uitstekend is met de modus die tijdens de generatie werd gebruikt (Mod10). |
+| **Bestand niet gevonden fout** | Zorg ervoor dat `dataDir` naar een bestaande kaart wijst en dat de vervaardigde afbeelding (`Codabar_Mod10.png`) daar is opgeslagen voordat deze wordt gelezen. |
+| **Niet-ondersteunde Java-versie** | Gebruik Java8 of hoger; oudere versies kunnen de gelijktijdige API's missen. |
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
-**Q: Is Aspose.BarCode compatibel met alle Java‑versies?**  
-A: Aspose.BarCode is ontworpen om te werken met Java 8 en nieuwer. Raadpleeg de officiële documentatie voor gedetailleerde compatibiliteit.
+**V: Is Aspose.BarCode compatibel met alle Java‑versies?**
+A: Aspose.BarCode is ontworpen om te werken met Java8 en nieuwer. krachtige de officiële documentatie voor ingewikkelde compatibiliteit.
 
-**Q: Kan ik het uiterlijk van de gegenereerde barcode aanpassen?**  
+**Q: Kan ik het uiterlijk van de verwerkte barcode aanpassen?**
 A: Ja, je kunt kleuren, lettertypen en het afbeeldingsformaat wijzigen via de parameter‑API van de generator.
 
-**Q: Zijn tijdelijke licenties voor testdoeleinden?**  
-A: Ja, je kunt een tijdelijke licentie voor Aspose.BarCode verkrijgen via [here](https://purchase.aspose.com/temporary-license/).
+**Q: Zijn tijdelijke licenties voor testdoeleinden?**
+A: Ja, je kunt een tijdelijke licentie voor Aspose.BarCode verkrijgen via [hier](https://purchase.aspose.com/temporary-license/).
 
-**Q: Waar kan ik extra ondersteuning en bronnen vinden?**  
+**Q: Waar kan ik extra ondersteuning en bronnen vinden?**
 A: Bezoek het [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) voor community‑ondersteuning en discussies.
 
-**Q: Is er een gratis proefversie beschikbaar?**  
-A: Ja, je kunt de functies van Aspose.BarCode verkennen door de gratis proefversie te downloaden via [here](https://releases.aspose.com/).
+**Q: Is er een gratis proefversie beschikbaar?**
+A: Ja, je kunt de functies van Aspose.BarCode verkennen door de gratis proefversie te downloaden via [hier](https://releases.aspose.com/).
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** Aspose.BarCode for Java 24.12  
+**Laatst bijgewerkt:** 2025-12-18
+**Getest voldaan:** Aspose.BarCode voor Java 24.12
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -113,13 +113,6 @@ De uitgebreide documentatie is beschikbaar [hier](https://reference.aspose.com/b
 ### Q: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.BarCode for Java?
 Je kunt een tijdelijke licentie krijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -127,3 +120,10 @@ Je kunt een tijdelijke licentie krijgen [hier](https://purchase.aspose.com/tempo
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

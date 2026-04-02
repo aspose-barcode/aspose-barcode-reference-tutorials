@@ -113,15 +113,15 @@ generator.save(dataDir + "checksum.jpg");
 ### Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.BarCode for Java;
 Μπορείτε να αποκτήσετε προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-18  
+**Δοκιμή Με:** Aspose.BarCode for Java latest version  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-18  
-**Δοκιμή Με:** Aspose.BarCode for Java latest version  
-**Συγγραφέας:** Aspose

@@ -112,13 +112,6 @@ A teljes dokumentáció elérhető [itt](https://reference.aspose.com/barcode/ja
 ### Q: Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for Java-hoz?
 Ideiglenes licencet kaphatsz [itt](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -126,3 +119,10 @@ Ideiglenes licencet kaphatsz [itt](https://purchase.aspose.com/temporary-license
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

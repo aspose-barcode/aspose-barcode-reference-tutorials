@@ -74,13 +74,6 @@ Aprenda cómo aplicar la suma de verificación para CodaBar en Java usando Aspos
 ### [Aplicar validación de suma de verificación en Java](./applying-checksum-validation/)
 Domine la validación de códigos de barras en Java sin esfuerzo con Aspose.BarCode. Guía paso a paso para la validación de sumas de verificación. ¡Mejore la integridad de los datos de su software!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q: ¿Puedo generar un código de barras Codabar sin suma de verificación?**  
@@ -103,3 +96,10 @@ A: Cualquier IDE que soporte Java 8 o posterior (IntelliJ IDEA, Eclipse, Net
 **Última actualización:** 2025-12-18  
 **Probado con:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

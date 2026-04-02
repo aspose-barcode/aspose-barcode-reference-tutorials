@@ -113,13 +113,6 @@ Dokumentasi lengkap tersedia [di sini](https://reference.aspose.com/barcode/java
 ### Q: Bagaimana cara memperoleh lisensi sementara untuk Aspose.BarCode untuk Java?
 Anda dapat mendapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-18  
@@ -127,3 +120,10 @@ Anda dapat mendapatkan lisensi sementara [di sini](https://purchase.aspose.com/t
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

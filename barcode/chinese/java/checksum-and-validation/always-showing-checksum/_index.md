@@ -109,13 +109,6 @@ generator.save(dataDir + "checksum.jpg");
 ### Q: 如何获取 Aspose.BarCode for Java 的临时许可证？
 你可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-18  
@@ -123,3 +116,10 @@ generator.save(dataDir + "checksum.jpg");
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

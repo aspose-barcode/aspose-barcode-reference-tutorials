@@ -76,13 +76,6 @@ Naučte se, jak aplikovat kontrolní součet pro CodaBar v Javě pomocí Aspose.
 ### [Aplikace validace kontrolního součtu v Javě](./applying-checksum-validation/)
 Ovládněte validaci čárových kódů v Javě bez námahy s Aspose.BarCode. Krok‑za‑krokem průvodce validací kontrolního součtu. Zvyšte integritu dat ve vašem softwaru!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu vygenerovat Codabar čárový kód bez kontrolního součtu?**  
@@ -105,3 +98,10 @@ A: Jakékoli IDE, které podporuje Java 8 nebo novější (IntelliJ IDEA, Ec
 **Poslední aktualizace:** 2025-12-18  
 **Testováno s:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

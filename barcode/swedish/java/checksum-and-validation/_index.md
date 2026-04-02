@@ -78,13 +78,6 @@ Lär dig hur du tillämpar kontrollsumma för CodaBar i Java med Aspose.BarCode.
 ### [Tillämpa kontrollsummevalidering i Java](./applying-checksum-validation/)
 Bemästra streckkodvalidering i Java utan ansträngning med Aspose.BarCode. Steg‑för‑steg‑guide för kontrollsummevalidering. Förbättra din mjukvaras dataintegritet!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Can I generate a Codabar barcode without a checksum?**  
@@ -107,3 +100,10 @@ A: Alla IDE:er som stödjer Java 8 eller senare (IntelliJ IDEA, Eclipse, Net
 **Senast uppdaterad:** 2025-12-18  
 **Testad med:** Aspose.BarCode for Java 24.11  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

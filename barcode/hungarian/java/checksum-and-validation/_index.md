@@ -76,13 +76,6 @@ Tanulja meg, hogyan alkalmazzon ellenőrzőösszeget a CodaBar számára Java‑
 ### [Ellenőrzőösszeg validálás alkalmazása Java‑ban](./applying-checksum-validation/)
 Mesteri szinten végezze a vonalkód validálást Java‑ban könnyedén az Aspose.BarCode segítségével. Lépésről‑lépésre útmutató az ellenőrzőösszeg validálásához. Növelje szoftvere adat integritását!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran feltett kérdések
 
 **Q: Generálhatok Codabar vonalkódot ellenőrzőösszeg nélkül?**  
@@ -105,3 +98,10 @@ A: Bármely IDE, amely támogatja a Java 8‑at vagy újabbat (IntelliJ IDEA, 
 **Legutóbb frissítve:** 2025-12-18  
 **Tesztelve a következővel:** Aspose.BarCode for Java 24.11  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

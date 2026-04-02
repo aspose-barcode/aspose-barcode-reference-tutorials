@@ -76,13 +76,6 @@ Tìm hiểu cách áp dụng checksum cho CodaBar trong Java bằng Aspose.BarCo
 ### [Áp Dụng Xác Thực Checksum trong Java](./applying-checksum-validation/)
 Thành thạo việc xác thực mã vạch trong Java một cách dễ dàng với Aspose.BarCode. Hướng dẫn từng bước cho việc xác thực checksum. Nâng cao tính toàn vẹn dữ liệu cho phần mềm của bạn!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể tạo mã vạch Codabar mà không có checksum không?**  
@@ -103,3 +96,10 @@ A: Bất kỳ IDE nào hỗ trợ Java 8 hoặc mới hơn (IntelliJ IDEA, E
 **Cập nhật lần cuối:** 2025-12-18  
 **Được kiểm tra với:** Aspose.BarCode for Java 24.11  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

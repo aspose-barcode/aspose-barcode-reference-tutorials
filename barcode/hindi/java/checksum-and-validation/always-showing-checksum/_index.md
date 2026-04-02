@@ -113,13 +113,6 @@ generator.save(dataDir + "checksum.jpg");
 ### Q: मैं Aspose.BarCode for Java के लिए टेम्पररी लाइसेंस कैसे प्राप्त कर सकता हूँ?
 आप एक टेम्पररी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त कर सकते हैं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-18  
@@ -127,3 +120,10 @@ generator.save(dataDir + "checksum.jpg");
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

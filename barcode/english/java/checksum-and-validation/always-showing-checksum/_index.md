@@ -111,13 +111,6 @@ The comprehensive documentation is available [here](https://reference.aspose.com
 ### Q: How can I obtain a temporary license for Aspose.BarCode for Java?
 You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
@@ -125,3 +118,10 @@ You can get a temporary license [here](https://purchase.aspose.com/temporary-lic
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

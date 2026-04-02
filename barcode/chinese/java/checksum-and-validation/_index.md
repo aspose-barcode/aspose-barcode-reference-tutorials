@@ -74,13 +74,6 @@ CodaBar 作为一种广泛使用的线性条形码符号，在 Java 中对校验
 ### [Applying Checksum Validation in Java](./applying-checksum-validation/)
 使用 Aspose.BarCode 轻松掌握 Java 中的条形码验证。分步指南教您进行校验和验证，提升软件的数据完整性！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以在不使用校验和的情况下生成 Codabar 条形码吗？**  
@@ -103,3 +96,10 @@ A: 任何支持 Java 8 或更高版本的 IDE（IntelliJ IDEA、Eclipse、NetB
 **最后更新：** 2025-12-18  
 **测试使用：** Aspose.BarCode for Java 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

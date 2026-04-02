@@ -76,13 +76,6 @@ CodaBar، رموز خطية مستخدمة على نطاق واسع، تتطلب
 ### [تطبيق التحقق من المجموع الاختباري في Java](./applying-checksum-validation/)
 أتقن التحقق من صحة الباركود في Java بسهولة مع Aspose.BarCode. دليل خطوة بخطوة للتحقق من المجموع الاختباري. عزز سلامة بيانات برنامجك!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتداولة
 
 **س: هل يمكنني إنشاء باركود Codabar بدون مجموع اختباري؟**  
@@ -105,3 +98,10 @@ CodaBar، رموز خطية مستخدمة على نطاق واسع، تتطلب
 **آخر تحديث:** 2025-12-18  
 **تم الاختبار مع:** Aspose.BarCode for Java 24.11  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

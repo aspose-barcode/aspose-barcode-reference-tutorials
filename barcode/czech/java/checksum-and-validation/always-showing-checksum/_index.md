@@ -113,13 +113,6 @@ Komplexní dokumentace je k dispozici [zde](https://reference.aspose.com/barcode
 ### Q: Jak mohu získat dočasnou licenci pro Aspose.BarCode for Java?
 Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-18  
@@ -127,3 +120,10 @@ Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-l
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

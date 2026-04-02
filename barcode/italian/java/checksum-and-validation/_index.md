@@ -78,13 +78,6 @@ Scopri come applicare il checksum per CodaBar in Java usando Aspose.BarCode. Gen
 ### [Applicare la Validazione del Checksum in Java](./applying-checksum-validation/)
 Padroneggia la validazione dei barcode in Java senza sforzo con Aspose.BarCode. Guida passo‑passo per la validazione del checksum. Potenzia l'integrità dei dati del tuo software!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **Q: Posso generare un Codabar barcode senza checksum?**  
@@ -107,3 +100,10 @@ A: Qualsiasi IDE che supporta Java 8 o versioni successive (IntelliJ IDEA, E
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.BarCode for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

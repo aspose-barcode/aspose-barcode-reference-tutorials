@@ -76,13 +76,6 @@ Aspose.BarCode kullanarak Java’da CodaBar için kontrol toplamı nasıl uygula
 ### [Java’da Kontrol Toplamı Doğrulama Uygulama](./applying-checksum-validation/)
 Aspose.BarCode ile Java’da barkod doğrulamayı zahmetsizce ustalaşın. Kontrol toplamı doğrulaması için adım‑adım kılavuz. Yazılımınızın veri bütünlüğünü artırın!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Kontrol toplamı olmadan bir Codabar barkodu oluşturabilir miyim?**  
@@ -105,3 +98,10 @@ A: Java 8 ve üzerini destekleyen herhangi bir IDE (IntelliJ IDEA, Eclipse, Ne
 **Son Güncelleme:** 2025-12-18  
 **Test Edilen:** Aspose.BarCode for Java 24.11  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

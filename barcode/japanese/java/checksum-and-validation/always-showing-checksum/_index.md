@@ -14,18 +14,18 @@ weight: 10
 
 # Javaでチェックサム付きバーコードを作成する方法
 
-## Introduction
+## はじめに
 
 チェックサム付きバーコードの作成は、Java アプリケーションで信頼性の高いデータ検証が必要な場合のベストプラクティスです。Aspose.BarCode for Java を使用すれば、**常にチェックサムを表示**するバーコードを簡単に生成でき、スキャンデバイスがデータの完全性を即座に検証できます。このチュートリアルでは、チェックサムがすべての生成バーコードに表示されるようにライブラリを設定する手順をステップバイステップで学びます。
 
-## Quick Answers
+## よくある質問
 - **“always show checksum” は何をするものですか？** バーコードレンダラーにチェックサム文字をエンコードされたデータと共に表示させます。  
 - **どのバーコードタイプがこの機能をサポートしていますか？** 多くの線形シンボロジー（例: CODE_128、CODE_39）がサポートしています；本例では CODE_128 を使用しています。  
 - **ライセンスは必要ですか？** 本番環境では一時ライセンスまたはフルライセンスが必要です；無料トライアルも利用可能です。  
 - **前提条件は何ですか？** Java JDK、Aspose.BarCode for Java ライブラリ、そして Java IDE が必要です。  
 - **実装にどれくらい時間がかかりますか？** 基本的なセットアップでおおよそ 5〜10 分です。
 
-## Prerequisites
+## 前提条件
 
 バーコード作成に入る前に、以下の前提条件が整っていることを確認してください。
 
@@ -37,7 +37,7 @@ weight: 10
 
 これで必須項目は揃いました。実装に進みましょう。
 
-## Import Packages
+## パッケージのインポート
 
 Java プロジェクトに必要なパッケージをインポートします。これらのパッケージは Aspose.BarCode for Java を利用する基盤となります。
 
@@ -48,7 +48,7 @@ import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step 1: Set the Resource Directory
+## ステップ 1: リソース ディレクトリの設定
 
 生成したバーコード画像を保存するリソースディレクトリへのパスを定義します。
 
@@ -56,7 +56,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create Barcode Generator
+## ステップ 2: バーコード ジェネレーターの作成
 
 `BarcodeGenerator` オブジェクトを初期化し、目的のバーコードタイプ（ここでは CODE_128）とエンコードするデータ（例: "12345"）を指定します。
 
@@ -64,7 +64,7 @@ String dataDir = "Your Document Directory";
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345");
 ```
 
-## Step 3: Enable Checksum Always Show
+## ステップ 3: チェックサムを常に表示する設定を有効にする
 
 バーコードパラメータにアクセスし、"Always Show Checksum" 機能を有効にします。
 
@@ -72,7 +72,7 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345")
 generator.getParameters().getBarcode().setChecksumAlwaysShow(true);
 ```
 
-## Step 4: Save the Barcode Image
+## ステップ 4: バーコード イメージの保存
 
 指定したディレクトリに生成されたバーコード画像を保存します。
 
@@ -82,7 +82,7 @@ generator.save(dataDir + "checksum.jpg");
 
 これらの簡単な手順で、Aspose.BarCode が生成するバーコードに常にチェックサムを表示するよう設定できました。
 
-## Why show the checksum?
+## チェックサムを表示する理由
 
 バーコード上にチェックサムを直接表示することで、追加ソフトウェアを必要とせずに検証の層が増えます。特に次のようなシーンで有用です。
 
@@ -90,26 +90,34 @@ generator.save(dataDir + "checksum.jpg");
 - **小売店の POS システム**：スキャンされたコードが期待値と一致しているかを即座に確認できます。  
 - **在庫管理**：自動スキャンに加えて、手動での検証が可能になります。
 
-## Conclusion
+## まとめ
 
 本チュートリアルでは、Aspose.BarCode を使用して Java バーコードにチェックサムを常に表示させるシームレスな手順を紹介しました。この機能により、アプリケーションのデータ検証が強化され、バーコードソリューション全体の信頼性が向上します。
 
-### Frequently Asked Questions (FAQs)
+### よくある質問 (FAQ)
 
-### Q: Can I use Aspose.BarCode for Java in commercial projects?
+### Q: Aspose.BarCode for Java を商用プロジェクトで使用できますか？
 はい、Aspose.BarCode for Java は商用プロジェクトでの使用が可能です。ライセンス情報は [here](https://purchase.aspose.com/buy) をご覧ください。
 
-### Q: Is there a free trial available for Aspose.BarCode for Java?
+### Q: Aspose.BarCode for Java の無料トライアルはありますか？
 はい、無料トライアル版は [here](https://releases.aspose.com/) から入手できます。
 
-### Q: How can I get support for Aspose.BarCode for Java?
+### Q: Aspose.BarCode for Java のサポートを受けるにはどうすればよいですか？
 サポートやディスカッションは Aspose.BarCode フォーラム [here](https://forum.aspose.com/c/barcode/13) で行われています。
 
-### Q: Where can I find the documentation for Aspose.BarCode for Java?
+### Q: Aspose.BarCode for Java のドキュメントはどこで入手できますか？
 包括的なドキュメントは [here](https://reference.aspose.com/barcode/java/) にあります。
 
-### Q: How can I obtain a temporary license for Aspose.BarCode for Java?
+### Q: Aspose.BarCode for Java の一時ライセンスを取得するにはどうすればよいですか？
 一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
+
+---
+
+**最終更新日:** 2025年12月18日
+**テスト環境:** Aspose.BarCode for Java 最新バージョン
+**作成者:** Aspose
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -117,11 +125,3 @@ generator.save(dataDir + "checksum.jpg");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.BarCode for Java latest version  
-**Author:** Aspose  
-
----

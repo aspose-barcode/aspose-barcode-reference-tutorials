@@ -113,13 +113,6 @@ Tài liệu đầy đủ có sẵn [tại đây](https://reference.aspose.com/ba
 ### Q: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.BarCode for Java?
 Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-18  
@@ -127,3 +120,10 @@ Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -16,38 +16,38 @@ weight: 11
 
 # Hogyan hozzunk létre CodaBar vonalkód képet ellenőrzőösszeggel Java-ban
 
-## Introduction
+## Bevezetés
 
-Ebben az oktatóanyagban megtanulja, hogyan **hozzon létre CodaBar vonalkód képet** ellenőrzőösszeggel Java-ban az Aspose.BarCode használatával. Lépésről lépésre végigvezetjük a CodaBar vonalkód generálásán, az ellenőrzőösszeg engedélyezésén, majd a **java vonalkód olvasó példával** történő visszaolvasáson. A végére egy azonnal használható kódrészletet kap, amelyet bármely Java projektbe beilleszthet.
+Ebben az oktatóanyagban megtanulja, hogyan **hozzon létre CodaBar vonalkód képet** ellenőrzőösszeggel Java-ban az Aspose.BarCode használható. Lépésről lépésre végigvezetjük a CodaBar vonalkód generálásán, az ellenőrzőösszeg engedélyezésén, majd a **java vonalkód olvasó példával** visszaolvasáson. A végére egy azonnal használható kódrészletet kap, amelyet bármilyen Java projektbe beilleszthet.
 
-## Quick Answers
-- **What does the checksum do?** It validates the integrity of the barcode data during scanning.  
-- **Which library is required?** Aspose.BarCode for Java.  
-- **Do I need a license for development?** A temporary license works for testing; a full license is required for production.  
-- **Can I customize the barcode appearance?** Yes – color, size, and font can be changed via generator parameters.  
-- **Is this compatible with all Java versions?** The library supports Java 8 and newer.
+## Gyors válaszok
+- **Mit csinál az ellenőrző összeg?** Ellenőrzi a vonalkód adatok integritását a szkennelés során.
+- **Melyik könyvtár szükséges?** Aspose.BarCode for Java.
+- **Szükségem van licencre a fejlesztéshez?** Egy ideiglenes licenc használható tesztelésre; gyártáshoz teljes licenc szükséges.
+- **Testreszabhatom a vonalkód megjelenését?** Igen – a szín, a méret és a betűtípus módosítható a generátor paramétereivel.
+- **Ez kompatibilis az összes Java-verzióval?** A könyvtár támogatja a Java8-as és újabb verziókat.
 
-## What is a CodaBar barcode?
+## Mi az a CodaBar vonalkód?
 
-A CodaBar egy lineáris (1‑dimenziós) szimbólum, amelyet széles körben használnak könyvtárakban, vérbankokban és kiskereskedelemben. Számszerű adatokat és néhány speciális karaktert kódol, így ideális egyszerű, géppel olvasható címkékhez. Az ellenőrzőösszeg (Mod 10) hozzáadása javítja az olvasási pontosságot, különösen alacsony minőségű nyomatokon.
+A CodaBar egy lineáris (1‑dimenziós) szimbólum, amely széles körben használható könyvtárakban, vérbankokban és kiskereskedelemben. Számszerű adatokat és néhány speciális karaktert kódol, így ideális egyszerű, géppel olvasható címkékhez. Az ellenőrzőösszeg (Mod10) javítja az olvasási pontosságot, különösen alacsony minőségű nyomatokon.
 
-## Why use Aspose.BarCode for Java?
+## Miért használja az Aspose.BarCode-ot a Java számára?
 
-Az Aspose.BarCode egy **java vonalkód olvasó példát** kínál, amely elrejti a vonalkód generálás és felismerés alacsony szintű részleteit. Biztosítja:
+Az Aspose.BarCode egy **java vonalkód olvasó példát** kínál, amely elrejti a vonalkód generálást és felismerés alacsony szintű részleteket. Biztosítja:
 
-* Teljes ellenőrzőösszeg‑módok feletti irányítást.  
-* Zökkenőmentes integrációt Java IDE‑kkel.  
-* Kiterjedt dokumentációt és támogatást.  
+* Teljes ellenőrzőösszeg-módok feletti irányítást.
+* Zökkenőmentes integrációt Java IDE-kkel.
+* Kiterjedt dokumentációt és támogatást.
 
-## Prerequisites
+## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
+Mielőtt elkezdenénk, g meg róla, hogy rendelkezik:
 
-- Java Development Kit (JDK) telepítve a gépén.  
-- Aspose.BarCode for Java könyvtárral. Letöltheti [itt](https://releases.aspose.com/barcode/java/).  
-- Alapvető Java programozási ismeretekkel.  
+- Java Development Kit (JDK) telepítve a gépen.
+- Aspose.BarCode a Java könyvtárral. Letöltheti [itt](https://releases.aspose.com/barcode/java/).
+- Alapvető Java programozási ismeretekkel.
 
-## Import Packages
+## Csomagok importálása
 
 A Java projektjében importálja a szükséges osztályokat az Aspose.BarCode használatához:
 
@@ -63,9 +63,9 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step‑by‑step Guide
+## Lépésről lépésre útmutató
 
-### Step 1: Set Up the Environment
+### 1. lépés: A környezet beállítása
 
 Hozzon létre egy új Java projektet, és adja hozzá az Aspose.BarCode J‑t a build útvonalához. Definiáljon egy mappát, ahová a generált képek mentésre kerülnek.
 
@@ -74,7 +74,7 @@ Hozzon létre egy új Java projektet, és adja hozzá az Aspose.BarCode J‑t a 
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Generate a CodaBar barcode image with checksum
+### 2. lépés: CodaBar vonalkódkép létrehozása ellenőrzőösszeggel
 
 Példányosítsa a `BarcodeGenerator`‑t, engedélyezze az ellenőrzőösszeget, válassza a Mod 10 módot, és mentse a képet.
 
@@ -92,7 +92,7 @@ generator.getParameters().getBarcode().getCodabar().setCodabarChecksumMode(Codab
 generator.save(dataDir + "Codabar_Mod10.png");
 ```
 
-### Step 3: Java barcode reader example – Recognize the barcode
+### 3. lépés: Java vonalkódolvasó példa – Vonalkód felismerése
 
 Olvassa vissza a vonalkódot, kapcsolja be az ellenőrzőösszeg validálását a helyes adat biztosítása érdekében.
 
@@ -114,34 +114,34 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 A kód futtatása kiírja a dekódolt szöveget, a szimbólum típusát és a kiszámított ellenőrzőösszeget, ezzel megerősítve, hogy a vonalkód helyesen lett generálva és validálva.
 
-## Common Issues and Solutions| Probléma | Megoldás |
-|----------|----------|
-| **Checksum validation fails** | Ellenőrizze, hogy az `EnableChecksum` `YES` értékre van állítva, és hogy a `CodabarChecksumMode` megegyezik a generálás során használt móddal (Mod 10). |
-| **File not found error** | Győződjön meg arról, hogy a `dataDir` egy létező mappára mutat, és hogy a generált kép (`Codabar_Mod10.png`) ott van mentve, mielőtt olvasná. |
-| **Unsupported Java version** | Használjon Java 8 vagy újabb verziót; a régebbi verziók hiányozhatnak a szükséges API‑kból. |
+## Gyakori problémák és megoldások| Probléma | Megoldás |
+|----------|-----------|
+| **Az ellenőrzőösszeg érvényesítése sikertelen** | hogy az `EnableChecksum` `YES` értékre van állítva, és hogy a `CodabarChecksumMode` megegyezik a generálás során használt móddal (Mod10). |
+| **A fájl nem található hiba** | G tudom meg arról, hogy a `dataDir` egy létező mappára, és hogy a generált kép (`Codabar_Mod10.png`) ott van mentve, inkább olvasná. |
+| **Nem támogatott Java verzió** | Használjon Java8 vagy újabb verziót; a régebbi verziók hiányozhatnak a szükséges API-kból. |
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 
-**Q: Is Aspose.BarCode compatible with all Java versions?**  
-A: Aspose.BarCode úgy lett tervezve, hogy Java 8 és újabb verziókkal működjön. A részletes kompatibilitásért tekintse meg a hivatalos dokumentációt.
+**K: Az Aspose.BarCode kompatibilis az összes Java-verzióval?**
+A: Aspose.BarCode úgy lett tervezve, hogy Java8 és újabb verziókkal működjön. A részletes kompatibilitásért tekintse meg a hivatalos dokumentációt.
 
-**Q: Can I customize the appearance of the generated barcode?**  
-A: Igen, a generátor paraméter‑API‑jával módosíthatja a színeket, betűtípusokat és a képformátumot.
+**K: Testreszabhatom a generált vonalkód megjelenését?**
+A: Igen, a generátor paraméter-API-jával módosíthatja a színeket, betűtípusokat és képformátumot.
 
-**Q: Are temporary licenses available for testing purposes?**  
-A: Igen, ideiglenes licencet szerezhet az Aspose.BarCode‑hez [itt](https://purchase.aspose.com/temporary-license/).
+**K: Rendelkezésre állnak-e ideiglenes licencek tesztelési célokra?**
+V: Igen, ideiglenes licencet szerezhet az Aspose.BarCode‑hez [itt](https://purchase.aspose.com/temporary-license/).
 
-**Q: Where can I find additional support and resources?**  
+**K: Hol találok további támogatást és forrásokat?**
 A: Látogassa meg az [Aspose.BarCode fórumot](https://forum.aspose.com/c/barcode/13) a közösségi támogatás és a megbeszélések érdekében.
 
-**Q: Is there a free trial available?**  
+**K: Van ingyenes próbaverzió?**
 A: Igen, a funkciókat ingyenes próbaverzióval is felfedezheti, amely letölthető [itt](https://releases.aspose.com/).
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.BarCode for Java 24.12  
-**Author:** Aspose  
+**Utolsó frissítés:** 2025-12-18
+**Tesztelve:** Aspose.BarCode for Java 24.12
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
