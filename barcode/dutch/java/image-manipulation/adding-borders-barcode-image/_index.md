@@ -1,33 +1,44 @@
 ---
-title: Randen toevoegen aan streepjescodeafbeelding in Java
-linktitle: Randen toevoegen aan streepjescodeafbeelding
-second_title: Aspose.BarCode Java-API
-description: Verbeter streepjescodeafbeeldingen in Java met Aspose.BarCode door aanpasbare randen toe te voegen. Volg deze stapsgewijze handleiding om een visueel aantrekkelijke barcodeoplossing te realiseren.
-weight: 10
+date: 2025-12-21
+description: Leer hoe u een rand aan barcode‑afbeeldingen in Java kunt toevoegen en
+  een barcode met rand kunt genereren met Aspose.BarCode. Volg deze stapsgewijze handleiding
+  voor een gepolijste, afdrukbare barcode.
+linktitle: Adding Borders to Barcode Image
+second_title: Aspose.BarCode Java API
+title: Hoe een rand toevoegen aan een barcode‑afbeelding in Java
 url: /nl/java/image-manipulation/adding-borders-barcode-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Randen toevoegen aan streepjescodeafbeelding in Java
+# Hoe een rand toe te voegen aan een barcode-afbeelding in Java
 
+Het maken van barcode‑afbeeldingen in Java is een veelvoorkomende behoefte, en veel ontwikkelaars vragen zich af **hoe je een rand kunt toevoegen** zodat de barcode op afgedrukte documenten of schermen beter opvalt. In deze tutorial zie je hoe je een barcode met rand genereert met behulp van de Aspose.BarCode‑bibliotheek, waardoor je volledige controle krijgt over stijl, breedte, kleur en marges.
 
-## Invoering
+## Introductie
 
-Het maken van streepjescodeafbeeldingen in Java is een veel voorkomende vereiste in veel toepassingen. Het toevoegen van randen aan deze streepjescodeafbeeldingen is echter niet voor iedereen eenvoudig. In deze zelfstudie onderzoeken we hoe u randen kunt toevoegen aan streepjescodeafbeeldingen in Java met behulp van de Aspose.BarCode-bibliotheek. Aspose.BarCode is een krachtige Java-bibliotheek waarmee ontwikkelaars streepjescodes in verschillende symbolieken kunnen genereren en herkennen.
+Het toevoegen van een visuele rand rond een barcode kan de leesbaarheid verbeteren, passen bij de huisstijl van het bedrijf en scanners helpen de code sneller te vinden. Hieronder lopen we stap voor stap door de exacte stappen die nodig zijn om een aanpasbare rand toe te passen op elke barcode die je in Java genereert.
+
+## Snelle antwoorden
+- **Welke bibliotheek is nodig?** Aspose.BarCode for Java
+- **Kan ik de randkleur aanpassen?** Ja – elke `java.awt.Color` waarde
+- **Is de rand standaard zichtbaar?** Nee, je moet `setVisible(true)` instellen
+- **Welke barcode‑typen werken?** Alle symbologieën die door Aspose.BarCode worden ondersteund
+- **Heb ik een licentie nodig voor productie?** Ja, een commerciële licentie is vereist
 
 ## Vereisten
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+Voordat we beginnen, zorg dat je het volgende hebt:
 
-- Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw computer is geïnstalleerd.
-- Aspose.BarCode-bibliotheek: Download en installeer de Aspose.BarCode-bibliotheek. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/barcode/java/).
+- Een Java‑ontwikkelomgeving (JDK 8 of hoger)
+- Aspose.BarCode for Java – download het van de officiële [downloadpagina](https://releases.aspose.com/barcode/java/)
 
 ## Pakketten importeren
 
-Importeer om te beginnen de benodigde pakketten in uw Java-project. Voeg de volgende importinstructies toe aan het begin van uw Java-bestand:
+Om te beginnen, importeer de benodigde pakketten in je Java‑project. Voeg de volgende import‑verklaringen toe aan het begin van je Java‑bestand:
 
 ```java
 import java.io.IOException;
@@ -36,98 +47,112 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Stap 1: Stel de streepjescodegenerator in
+## Stap 1: De Barcode‑generator instellen
 
 ```java
-// Het pad naar de bronmap.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 
-// Instantieer het streepjescodeobject, stel het symbologietype in op code128 en stel de in
-//Codetekst voor de streepjescode
+// Instantiate Barcode object, Set the Symbology type to code128 and Set the
+// Code text for the barcode
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-In deze stap initialiseren we het BarcodeGenerator-object en stellen we het symbologietype in op CODE_128, een populaire barcodesymbologie. U kunt het symbologietype en de codetekst naar wens wijzigen.
+In deze stap maken we een `BarcodeGenerator`‑instantie aan en kiezen **CODE_128** als symbologie. Voel je vrij om dit te vervangen door elk ander type dat je nodig hebt om **een barcode met rand te genereren**.
 
-## Stap 2: Stel Randstijl in op Effen
+## Stap 2: Randstijl instellen op Solid
 
 ```java
-// Stel de randstijl in op effen
+// Set border style to solid
 bb.getParameters().getBorder().setDashStyle(BorderDashStyle.SOLID);
 ```
 
-Hier hebben we de randstijl ingesteld op effen. U kunt de randstijl aanpassen op basis van uw voorkeuren.
+Een solide lijn geeft het netste uiterlijk, maar je kunt experimenteren met andere `BorderDashStyle`‑opties als je een gestippelde of onderbroken rand wilt.
 
 ## Stap 3: Randmarges instellen
 
 ```java
-// Stel randmarges in voor Boven, Rechts, Links en Onder
+// Set border margins for Top, Right, Left, and Bottom
 bb.getParameters().getBarcode().getPadding().getTop().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getRight().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getLeft().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getBottom().setPixels(2f);
 ```
 
-Pas de randmarges aan voor de boven-, rechter-, linker- en onderkant van de streepjescodeafbeelding. Deze stap zorgt ervoor dat de rand gelijkmatig wordt aangebracht.
+Het aanpassen van de padding zorgt ervoor dat de rand niet botst met de stille zone van de barcode en geeft een uitgebalanceerd uiterlijk.
 
-## Stap 4: Stel de randbreedte in
+## Stap 4: Randbreedte instellen
 
 ```java
-// Randbreedte instellen
+// Set border width
 bb.getParameters().getBorder().getWidth().setPixels(2.5f);
 ```
 
-Geef de breedte op van de rand rond de streepjescodeafbeelding. U kunt de breedte gerust aanpassen aan uw ontwerpvoorkeuren.
+Hier definiëren we hoe dik de randlijn moet zijn. Typische waarden liggen tussen 1 en 5 pixels, afhankelijk van je ontwerpbehoeften.
 
-## Stap 5: Stel de randkleur in
+## Stap 5: Randkleur instellen
 
 ```java
-// Stel de kleur van de rand in op rood
+// Set the border's color to red
 bb.getParameters().getBorder().setColor(Color.RED);
 ```
 
-Kies de kleur van de rand. In dit voorbeeld stellen we dit in op rood, maar u kunt elke kleur kiezen die past bij de visuele stijl van uw toepassing.
+Je kunt `Color.RED` vervangen door elke `java.awt.Color` (bijv. `Color.BLUE`, `new Color(0,128,0)`) om aan te sluiten bij je huisstijl.
 
-## Stap 6: Schakel afbeeldingsrand in
+## Stap 6: Afbeeldingsrand inschakelen
 
 ```java
-// Zorg ervoor dat de rand in de streepjescode wordt weergegeven
+// Enable border to be shown in the barcode
 bb.getParameters().getBorder().setVisible(true);
 ```
 
-Zorg ervoor dat de rand zichtbaar is in de streepjescodeafbeelding door deze eigenschap in te stellen op true.
+Zonder deze vlag worden de randinstellingen genegeerd, zorg er dus voor dat deze op `true` staat.
 
-## Stap 7: Sla de afbeelding op
+## Stap 7: De afbeelding opslaan
 
 ```java
-// Sla de afbeelding op
+// Save the image
 bb.save(dataDir + "barcode-image-borders.jpg");
 ```
 
-Sla ten slotte de streepjescodeafbeelding op met de toegepaste randen. Zorg ervoor dat u het juiste mappad opgeeft voor het opslaan van de afbeelding.
+De barcode‑afbeelding, nu omkaderd met een rode solide rand, wordt opgeslagen op de door jou opgegeven locatie.
 
-Nu hebt u met succes randen aan een streepjescodeafbeelding toegevoegd met Aspose.BarCode in Java!
+## Waarom een rand toevoegen aan je barcode?
 
-## Conclusie
+- **Verbeterde scanning:** Een duidelijke omtrek helpt handscanners de code sneller te vinden.
+- **Merkconsistentie:** Stem de randkleur af op je bedrijfs‑palet.
+- **Esthetische aantrekkingskracht:** Laat de barcode er gepolijst uitzien in rapporten, facturen en etiketten.
 
-In deze zelfstudie hebben we onderzocht hoe u streepjescodeafbeeldingen in Java kunt verbeteren door randen toe te voegen met behulp van de Aspose.BarCode-bibliotheek. Met deze eenvoudige maar effectieve aanpak kunnen ontwikkelaars het uiterlijk van streepjescodeafbeeldingen aanpassen zodat ze beter aansluiten bij de vereisten van hun toepassing.
+## Veelvoorkomende problemen & probleemoplossing
+
+| Symptoom | Waarschijnlijke oorzaak | Oplossing |
+|----------|--------------------------|-----------|
+| Rand niet zichtbaar | `setVisible(true)` weggelaten | Zorg dat de zichtbaarheid‑vlag is ingesteld |
+| Rand overlapt barcode | Padding te laag | Verhoog de padding‑waarden |
+| Kleur niet toegepast | Een niet‑ondersteund `Color`‑object gebruiken | Gebruik een standaard `java.awt.Color`‑instantie |
 
 ## Veelgestelde vragen
 
-### Kan ik de randstijl verder aanpassen?
-Ja, u kunt aanvullende randstijlen van de Aspose.BarCode-bibliotheek verkennen en degene kiezen die bij uw behoeften past.
+**V: Kan ik de randstijl verder aanpassen?**  
+A: Ja, Aspose.BarCode biedt meerdere `BorderDashStyle`‑opties zoals `DOT`, `DASH` en `DASH_DOT`.
 
-### Is Aspose.BarCode compatibel met verschillende barcodesymbolieken?
-Absoluut. Aspose.BarCode ondersteunt een breed scala aan barcodesymbologieën, waardoor u flexibiliteit krijgt bij het kiezen van de juiste voor uw toepassing.
+**V: Is Aspose.BarCode compatibel met verschillende barcode‑symbologieën?**  
+A: Absoluut. De bibliotheek ondersteunt een breed scala aan symbologieën, zodat je **een barcode met rand kunt genereren** voor QR, DataMatrix, PDF417 en meer.
 
-### Kan ik de randkleur dynamisch wijzigen op basis van bepaalde omstandigheden?
-Zeker. U kunt de randkleur programmatisch wijzigen op basis van specifieke omstandigheden in uw toepassing.
+**V: Kan ik de randkleur dynamisch wijzigen op basis van bepaalde voorwaarden?**  
+A: Zeker. Je kunt de kleur programmatically instellen vóór het opslaan, bijvoorbeeld met `if (isHighPriority) { setColor(Color.RED); } else { setColor(Color.GRAY); }`.
 
-### Hoe kan ik Aspose.BarCode in mijn Java-project integreren?
- Volg de[documentatie](https://reference.aspose.com/barcode/java/)voor gedetailleerde instructies over het integreren van Aspose.BarCode in uw Java-project.
+**V: Hoe integreer ik Aspose.BarCode in mijn Maven‑project?**  
+A: Voeg de Aspose.BarCode‑dependency toe aan je `pom.xml` zoals weergegeven in de officiële [documentatie](https://reference.aspose.com/barcode/java/).
 
-### Is er een proefversie van Aspose.BarCode beschikbaar?
- Ja, u kunt de functies van Aspose.BarCode verkennen door het bestand[gratis proefversie](https://releases.aspose.com/).
+**V: Is er een proefversie van Aspose.BarCode beschikbaar?**  
+A: Ja, je kunt de volledige functionaliteit verkennen door de [gratis proefversie](https://releases.aspose.com/) te downloaden.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-21  
+**Getest met:** Aspose.BarCode 24.11 for Java  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

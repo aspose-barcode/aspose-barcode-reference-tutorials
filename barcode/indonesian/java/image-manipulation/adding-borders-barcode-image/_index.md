@@ -1,33 +1,44 @@
 ---
-title: Menambahkan Batas pada Gambar Barcode di Java
-linktitle: Menambahkan Batas pada Gambar Barcode
+date: 2025-12-21
+description: Pelajari cara menambahkan border pada gambar barcode di Java dan menghasilkan
+  barcode dengan border menggunakan Aspose.BarCode. Ikuti panduan langkah demi langkah
+  ini untuk mendapatkan barcode yang rapi dan dapat dicetak.
+linktitle: Adding Borders to Barcode Image
 second_title: Aspose.BarCode Java API
-description: Sempurnakan gambar kode batang di Java dengan Aspose.BarCode dengan menambahkan batas yang dapat disesuaikan. Ikuti panduan langkah demi langkah ini untuk mendapatkan solusi barcode yang menarik secara visual.
-weight: 10
+title: Cara Menambahkan Batas pada Gambar Barcode di Java
 url: /id/java/image-manipulation/adding-borders-barcode-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Batas pada Gambar Barcode di Java
+# Cara Menambahkan Garis Batas ke Gambar Barcode di Java
 
+Membuat gambar barcode di Java adalah kebutuhan umum, dan banyak pengembang bertanya **bagaimana menambahkan batas** agar barcode lebih menonjol pada dokumen cetak atau layar. Dalam tutorial ini Anda akan melihat cara menghasilkan barcode dengan batas menggunakan pustaka Aspose.BarCode, memberi Anda kontrol penuh atas gaya, lebar, warna, dan margin.
 
-## Perkenalan
+## Pendahuluan
 
-Membuat gambar barcode di Java merupakan persyaratan umum di banyak aplikasi. Namun, menambahkan batas pada gambar kode batang ini mungkin tidak mudah bagi semua orang. Dalam tutorial ini, kita akan mempelajari cara menambahkan batas pada gambar barcode di Java menggunakan perpustakaan Aspose.BarCode. Aspose.BarCode adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk menghasilkan dan mengenali kode batang dalam berbagai simbologi.
+Menambahkan batas visual di sekitar barcode dapat meningkatkan keterbacaan, menyesuaikan dengan merek perusahaan, dan membantu pemindai menemukan kode lebih cepat. Di bawah ini kami akan menjelaskan langkah‑langkah tepat yang diperlukan untuk menerapkan batas yang dapat disesuaikan pada barcode apa pun yang Anda hasilkan di Java.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang dibutuhkan?** Aspose.BarCode for Java
+- **Bisakah saya menyesuaikan warna batas?** Ya – nilai `java.awt.Color` apa pun
+- **Apakah batas terlihat secara default?** Tidak, Anda harus mengatur `setVisible(true)`
+- **Jenis barcode apa yang bekerja?** Semua simbol yang didukung oleh Aspose.BarCode
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan
 
 ## Prasyarat
 
-Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-- Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di mesin Anda.
-- Perpustakaan Aspose.BarCode: Unduh dan instal perpustakaan Aspose.BarCode. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/barcode/java/).
+- Lingkungan pengembangan Java (JDK 8 atau lebih baru)
+- Aspose.BarCode for Java – unduh dari halaman resmi [download page](https://releases.aspose.com/barcode/java/)
 
-## Paket Impor
+## Impor Paket
 
-Untuk memulai, impor paket yang diperlukan dalam proyek Java Anda. Tambahkan pernyataan import berikut di awal file Java Anda:
+Untuk memulai, impor paket yang diperlukan dalam proyek Java Anda. Tambahkan pernyataan impor berikut di awal file Java Anda:
 
 ```java
 import java.io.IOException;
@@ -36,98 +47,110 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Langkah 1: Siapkan Generator Kode Batang
+## Langkah 1: Siapkan Generator Barcode
 
 ```java
-// Jalur ke direktori sumber daya.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 
-// Buat instance objek Barcode, Atur tipe Simbologi ke code128 dan Atur
-//Teks kode untuk barcode
+// Instantiate Barcode object, Set the Symbology type to code128 and Set the
+// Code text for the barcode
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-Pada langkah ini, kita menginisialisasi objek BarcodeGenerator dan mengatur tipe simbologi ke CODE_128, simbologi barcode yang populer. Anda dapat mengubah jenis simbologi dan teks kode sesuai kebutuhan Anda.
+Pada langkah ini kami membuat instance `BarcodeGenerator` dan memilih **CODE_128** sebagai simbol. Silakan ganti dengan tipe lain yang Anda perlukan untuk **generate barcode with border**.
 
-## Langkah 2: Atur Gaya Perbatasan menjadi Solid
+## Langkah 2: Atur Gaya Batas menjadi Solid
 
 ```java
-// Atur gaya batas menjadi padat
+// Set border style to solid
 bb.getParameters().getBorder().setDashStyle(BorderDashStyle.SOLID);
 ```
 
-Di sini, kita mengatur gaya perbatasan menjadi padat. Anda dapat menyesuaikan gaya perbatasan berdasarkan preferensi Anda.
+Garis solid memberikan tampilan paling bersih, tetapi Anda dapat bereksperimen dengan opsi `BorderDashStyle` lain jika menginginkan batas titik‑titik atau garis putus‑putus.
 
-## Langkah 3: Tetapkan Margin Perbatasan
+## Langkah 3: Atur Margin Batas
 
 ```java
-// Tetapkan margin batas untuk Atas, Kanan, Kiri, dan Bawah
+// Set border margins for Top, Right, Left, and Bottom
 bb.getParameters().getBarcode().getPadding().getTop().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getRight().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getLeft().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getBottom().setPixels(2f);
 ```
 
-Sesuaikan margin border bagian atas, kanan, kiri, dan bawah gambar barcode. Langkah ini memastikan bahwa perbatasan diterapkan secara seragam.
+Menyesuaikan padding memastikan batas tidak berbenturan dengan zona tenang barcode dan memberikan tampilan yang seimbang.
 
-## Langkah 4: Atur Lebar Perbatasan
+## Langkah 4: Atur Lebar Batas
 
 ```java
-// Tetapkan lebar batas
+// Set border width
 bb.getParameters().getBorder().getWidth().setPixels(2.5f);
 ```
 
-Tentukan lebar border di sekeliling gambar barcode. Jangan ragu untuk menyesuaikan lebarnya sesuai dengan preferensi desain Anda.
+Di sini kami menentukan seberapa tebal garis batas harusnya. Nilai tipikal berada di antara 1 dan 5 piksel, tergantung pada kebutuhan desain Anda.
 
-## Langkah 5: Atur Warna Perbatasan
+## Langkah 5: Atur Warna Batas
 
 ```java
-// Atur warna perbatasan menjadi merah
+// Set the border's color to red
 bb.getParameters().getBorder().setColor(Color.RED);
 ```
 
-Pilih warna perbatasan. Dalam contoh ini, kami mengaturnya menjadi merah, namun Anda dapat memilih warna apa pun yang sesuai dengan gaya visual aplikasi Anda.
+Anda dapat mengganti `Color.RED` dengan `java.awt.Color` apa pun (misalnya `Color.BLUE`, `new Color(0,128,0)`) untuk menyesuaikan dengan merek Anda.
 
 ## Langkah 6: Aktifkan Batas Gambar
 
 ```java
-// Aktifkan batas untuk ditampilkan di kode batang
+// Enable border to be shown in the barcode
 bb.getParameters().getBorder().setVisible(true);
 ```
 
-Pastikan batas terlihat pada gambar kode batang dengan menyetel properti ini ke true.
+Tanpa flag ini, pengaturan batas akan diabaikan, jadi pastikan nilainya `true`.
 
 ## Langkah 7: Simpan Gambar
 
 ```java
-// Simpan gambarnya
+// Save the image
 bb.save(dataDir + "barcode-image-borders.jpg");
 ```
 
-Terakhir, simpan gambar barcode dengan batas yang diterapkan. Pastikan untuk menentukan jalur direktori yang benar untuk menyimpan gambar.
+Gambar barcode, kini dibingkai dengan batas solid merah, disimpan ke lokasi yang Anda tentukan.
 
-Sekarang Anda telah berhasil menambahkan batas pada gambar barcode menggunakan Aspose.BarCode di Java!
+## Mengapa Menambahkan Batas ke Barcode Anda?
 
-## Kesimpulan
+- **Pemindaian yang Lebih Baik:** Perimeter yang jelas membantu pemindai genggam menemukan kode lebih cepat.
+- **Konsistensi Merek:** Sesuaikan warna batas dengan palet perusahaan Anda.
+- **Daya Tarik Estetika:** Membuat barcode terlihat rapi dalam laporan, faktur, dan label.
 
-Dalam tutorial ini, kita menjelajahi cara menyempurnakan gambar barcode di Java dengan menambahkan batas menggunakan pustaka Aspose.BarCode. Pendekatan sederhana namun efektif ini memungkinkan pengembang untuk menyesuaikan tampilan gambar barcode agar lebih sesuai dengan kebutuhan aplikasi mereka.
+## Masalah Umum & Pemecahan Masalah
 
-## FAQ
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---------|----------------------|--------|
+| Batas tidak terlihat | `setVisible(true)` diabaikan | Pastikan flag visibilitas diatur |
+| Batas menutupi barcode | Padding terlalu rendah | Tingkatkan nilai padding |
+| Warna tidak diterapkan | Menggunakan objek `Color` yang tidak didukung | Gunakan instance `java.awt.Color` standar |
 
-### Bisakah saya menyesuaikan gaya tepian lebih lanjut?
-Ya, Anda dapat menjelajahi gaya perbatasan tambahan yang disediakan oleh perpustakaan Aspose.BarCode dan memilih salah satu yang sesuai dengan kebutuhan Anda.
+## Pertanyaan yang Sering Diajukan
 
-### Apakah Aspose.BarCode kompatibel dengan simbologi kode batang yang berbeda?
-Sangat. Aspose.BarCode mendukung beragam simbologi barcode, memberi Anda fleksibilitas dalam memilih yang tepat untuk aplikasi Anda.
+**Q: Bisakah saya menyesuaikan gaya batas lebih lanjut?**  
+A: Ya, Aspose.BarCode menawarkan beberapa opsi `BorderDashStyle` seperti `DOT`, `DASH`, dan `DASH_DOT`.
 
-### Bisakah saya mengubah warna batas secara dinamis berdasarkan kondisi tertentu?
-Tentu. Anda dapat mengubah warna batas secara terprogram berdasarkan kondisi spesifik dalam aplikasi Anda.
+**Q: Apakah Aspose.BarCode kompatibel dengan berbagai simbol barcode?**  
+A: Tentu saja. Perpustakaan ini mendukung beragam simbol, sehingga Anda dapat **generate barcode with border** untuk QR, DataMatrix, PDF417, dan lainnya.
 
-### Bagaimana cara mengintegrasikan Aspose.BarCode ke dalam proyek Java saya?
- Ikuti[dokumentasi](https://reference.aspose.com/barcode/java/)untuk petunjuk rinci tentang mengintegrasikan Aspose.BarCode ke dalam proyek Java Anda.
+**Q: Bisakah saya mengubah warna batas secara dinamis berdasarkan kondisi tertentu?**  
+A: Tentu. Anda dapat mengatur warna secara programatis sebelum menyimpan, misalnya dengan `if (isHighPriority) { setColor(Color.RED); } else { setColor(Color.GRAY); }`.
 
-### Apakah ada versi uji coba Aspose.BarCode yang tersedia?
- Ya, Anda dapat menjelajahi fitur Aspose.BarCode dengan mengunduh[versi percobaan gratis](https://releases.aspose.com/).
+**Q: Bagaimana cara mengintegrasikan Aspose.BarCode ke dalam proyek Maven saya?**  
+A: Tambahkan dependensi Aspose.BarCode ke `pom.xml` Anda seperti yang ditunjukkan dalam [documentation](https://reference.aspose.com/barcode/java/).
+
+**Q: Apakah ada versi percobaan Aspose.BarCode yang tersedia?**  
+A: Ya, Anda dapat menjelajahi seluruh fitur dengan mengunduh [free trial version](https://releases.aspose.com/).
+
+**Terakhir Diperbarui:** 2025-12-21  
+**Diuji Dengan:** Aspose.BarCode 24.11 untuk Java  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
