@@ -5,7 +5,7 @@ description: Μάθετε πώς να δημιουργήσετε barcode Java χ
   να ρυθμίσετε το πλάτος και να αποθηκεύσετε την εικόνα.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Δημιουργία Barcode σε Java: Ορισμός κειμένου κώδικα με χρήση του Aspose.BarCode'
+title: 'Δημιουργία Barcode σε Java - Ορισμός κειμένου κώδικα με χρήση του Aspose.BarCode'
 url: /el/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -88,23 +88,6 @@ generator.save(dataDir + "setCodeText.jpg");
 | **Το barcode φαίνεται θολό** | Αυξήστε την ανάλυση της εικόνας ή εξάγετε σε διανυσματικές μορφές (SVG, PDF). |
 | **Το κείμενο περικόπτεται** | Βεβαιωθείτε ότι το `XDimension` (πλάτος γραμμής) και το `BarHeight` είναι αρκετά μεγάλα για τον επιλεγμένο συμβολισμό. |
 | **Η άδεια δεν εφαρμόστηκε** | Τοποθετήστε το αρχείο άδειας (`Aspose.BarCode.lic`) στη ρίζα του έργου και φορτώστε το με `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Συχνές Ερωτήσεις (FAQs)
-
-### Μπορώ να χρησιμοποιήσω το Aspose.BarCode for Java σε εμπορικά έργα;
-Ναι, το Aspose.BarCode for Java είναι εμπορικό προϊόν. Μπορείτε να βρείτε τις λεπτομέρειες άδειας **[εδώ](https://purchase.aspose.com/buy)**.
-
-### Υπάρχει δωρεάν δοκιμή;
-Ναι, μπορείτε να λάβετε δωρεάν δοκιμή **[εδώ](https://releases.aspose.com/)**.
-
-### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.BarCode for Java;
-Η τεκμηρίωση είναι διαθέσιμη **[εδώ](https://reference.aspose.com/barcode/java/)**.
-
-### Πώς μπορώ να λάβω υποστήριξη για το Aspose.BarCode for Java;
-Επισκεφθείτε το **[φόρουμ Aspose.BarCode](https://forum.aspose.com/c/barcode/13)** για υποστήριξη.
-
-### Μπορώ να χρησιμοποιήσω προσωρινή άδεια για δοκιμαστικούς σκοπούς;
-Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια **[εδώ](https://purchase.aspose.com/temporary-license/)**.
 
 ## Επιπλέον Συχνές Ερωτήσεις
 

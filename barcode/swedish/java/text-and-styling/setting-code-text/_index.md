@@ -4,7 +4,7 @@ description: Lär dig hur du genererar streckkod java med Aspose.BarCode. Denna 
   visar hur du ställer in anpassad streckkodstext, justerar bredden och sparar bilden.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Generera streckkod i Java: Ställ in kodtext med Aspose.BarCode'
+title: 'Generera streckkod i Java - Ställ in kodtext med Aspose.BarCode'
 url: /sv/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -89,23 +89,6 @@ Spara den genererade streckkodsbilden till den angivna katalogen. I detta fall s
 | **Streckkoden ser suddig ut** | Öka bildens upplösning eller exportera till vektorformat (SVG, PDF). |
 | **Texten är avklippt** | Se till att `XDimension` (staplbredd) och `BarHeight` är tillräckligt stora för den valda symbologin. |
 | **Licensen har inte tillämpats** | Placera din licensfil (`Aspose.BarCode.lic`) i projektets rot och ladda den med `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Vanliga frågor (FAQ)
-
-### Kan jag använda Aspose.BarCode för Java i kommersiella projekt?
-Ja, Aspose.BarCode för Java är en kommersiell produkt. Du kan hitta licensdetaljer **[här](https://purchase.aspose.com/buy)**.
-
-### Finns det en gratis provversion tillgänglig?
-Ja, du kan få en gratis provversion **[här](https://releases.aspose.com/)**.
-
-### Var kan jag hitta dokumentationen för Aspose.BarCode för Java?
-Dokumentationen finns tillgänglig **[här](https://reference.aspose.com/barcode/java/)**.
-
-### Hur får jag support för Aspose.BarCode för Java?
-Besök **[Aspose.BarCode-forumet](https://forum.aspose.com/c/barcode/13)** för support.
-
-### Kan jag använda en tillfällig licens för teständamål?
-Ja, du kan skaffa en tillfällig licens **[här](https://purchase.aspose.com/temporary-license/)**.
 
 ## Ytterligare vanliga frågor
 

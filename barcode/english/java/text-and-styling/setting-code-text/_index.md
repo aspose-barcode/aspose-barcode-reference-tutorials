@@ -1,5 +1,5 @@
 ---
-title: "Generate Barcode Java: Set Code Text using Aspose.BarCode"
+title: "Generate Barcode Java - Set Code Text using Aspose.BarCode"
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
 description: "Learn how to generate barcode java using Aspose.BarCode. This step-by-step guide shows you how to set custom barcode text, adjust width, and save the image."
@@ -88,23 +88,6 @@ Save the generated barcode image to the specified directory. In this case, the f
 | **Barcode looks blurry** | Increase the image resolution or export to vector formats (SVG, PDF). |
 | **Text is truncated** | Ensure the `XDimension` (bar width) and `BarHeight` are large enough for the chosen symbology. |
 | **License not applied** | Place your license file (`Aspose.BarCode.lic`) in the project root and load it with `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Frequently Asked Questions (FAQs)
-
-### Can I use Aspose.BarCode for Java in commercial projects?
-Yes, Aspose.BarCode for Java is a commercial product. You can find licensing details **[here](https://purchase.aspose.com/buy)**.
-
-### Is there a free trial available?
-Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
-
-### Where can I find the documentation for Aspose.BarCode for Java?
-The documentation is available **[here](https://reference.aspose.com/barcode/java/)**.
-
-### How do I get support for Aspose.BarCode for Java?
-Visit the **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** for support.
-
-### Can I use a temporary license for testing purposes?
-Yes, you can obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
 
 ## Additional Frequently Asked Questions
 

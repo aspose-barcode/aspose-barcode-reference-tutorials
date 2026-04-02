@@ -5,7 +5,7 @@ description: Aprende a generar códigos de barras en Java usando Aspose.BarCode.
   barras, ajustar el ancho y guardar la imagen.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Generar código de barras Java: establecer texto del código usando Aspose.BarCode'
+title: 'Generar código de barras Java - establecer texto del código usando Aspose.BarCode'
 url: /es/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -90,23 +90,6 @@ Guarda la imagen del código de barras generado en el directorio especificado. E
 | **Barcode looks blurry** | Increase the image resolution or export to vector formats (SVG, PDF). |
 | **Text is truncated** | Ensure the `XDimension` (bar width) and `BarHeight` are large enough for the chosen symbology. |
 | **License not applied** | Place your license file (`Aspose.BarCode.lic`) in the project root and load it with `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Preguntas frecuentes (FAQs)
-
-### ¿Puedo usar Aspose.BarCode para Java en proyectos comerciales?
-Sí, Aspose.BarCode for Java es un producto comercial. Puedes encontrar los detalles de licencia **[here](https://purchase.aspose.com/buy)**.
-
-### ¿Hay una versión de prueba gratuita disponible?
-Sí, puedes obtener una prueba gratuita **[here](https://releases.aspose.com/)**.
-
-### ¿Dónde puedo encontrar la documentación de Aspose.BarCode para Java?
-La documentación está disponible **[here](https://reference.aspose.com/barcode/java/)**.
-
-### ¿Cómo obtengo soporte para Aspose.BarCode para Java?
-Visita el **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** para soporte.
-
-### ¿Puedo usar una licencia temporal para propósitos de prueba?
-Sí, puedes obtener una licencia temporal **[here](https://purchase.aspose.com/temporary-license/)**.
 
 ## Preguntas frecuentes adicionales
 

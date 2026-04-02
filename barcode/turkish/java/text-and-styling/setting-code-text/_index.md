@@ -5,7 +5,7 @@ description: Aspose.BarCode kullanarak Java’da barkod oluşturmayı öğrenin.
   gösterir.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Java ile Barkod Oluşturma: Aspose.BarCode Kullanarak Kod Metnini Ayarlama'
+title: 'Java ile Barkod Oluşturma - Aspose.BarCode Kullanarak Kod Metnini Ayarlama'
 url: /tr/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -90,23 +90,6 @@ Oluşturulan barkod görüntüsünü belirtilen dizine kaydedin. Bu durumda dosy
 | **Barkod bulanık görünüyor** | Görüntü çözünürlüğünü artırın veya vektör formatlarına (SVG, PDF) dışa aktarın. |
 | **Metin kesiliyor** | `XDimension` (çubuk genişliği) ve `BarHeight` değerlerinin seçilen semboloji için yeterli olduğundan emin olun. |
 | **Lisans uygulanmadı** | Lisans dosyanızı (`Aspose.BarCode.lic`) proje köküne yerleştirin ve `License license = new License(); license.setLicense("Aspose.BarCode.lic");` kodu ile yükleyin. |
-
-## Sıkça Sorulan Sorular (SSS)
-
-### Aspose.BarCode for Java'yi ticari projelerde kullanabilir miyim?
-**Evet**, Aspose.BarCode for Java ticari bir üründür. Lisans detaylarını **[burada](https://purchase.aspose.com/buy)** bulabilirsiniz.
-
-### Ücretsiz deneme mevcut mu?
-**Evet**, ücretsiz denemeyi **[buradan](https://releases.aspose.com/)** alabilirsiniz.
-
-### Aspose.BarCode for Java belgelerine nereden ulaşabilirim?
-Dokümantasyon **[burada](https://reference.aspose.com/barcode/java/)** mevcuttur.
-
-### Aspose.BarCode for Java için destek nasıl alabilirim?
-Destek için **[Aspose.BarCode forumunu](https://forum.aspose.com/c/barcode/13)** ziyaret edin.
-
-### Test amaçlı geçici bir lisans kullanabilir miyim?
-**Evet**, geçici lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** alabilirsiniz.
 
 ## Ek Sıkça Sorulan Sorular
 

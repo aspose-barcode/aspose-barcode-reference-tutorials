@@ -5,7 +5,7 @@ description: Naučte se, jak generovat čárový kód v Javě pomocí Aspose.Bar
   šířku a uložit obrázek.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Generovat čárový kód v Javě: Nastavit text kódu pomocí Aspose.BarCode'
+title: 'Generovat čárový kód v Javě - Nastavit text kódu pomocí Aspose.BarCode'
 url: /cs/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -88,23 +88,6 @@ Uložte vygenerovaný obrázek čárového kódu do určeného adresáře. V tom
 | **Čárový kód vypadá rozmazaně** | Zvyšte rozlišení obrázku nebo exportujte do vektorových formátů (SVG, PDF). |
 | **Text je oříznutý** | Ujistěte se, že `XDimension` (šířka čáry) a `BarHeight` jsou dostatečně velké pro zvolenou symbologii. |
 | **Licence nebyla použita** | Umístěte soubor licence (`Aspose.BarCode.lic`) do kořenového adresáře projektu a načtěte jej pomocí `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Často kladené otázky (FAQ)
-
-### Mohu používat Aspose.BarCode pro Java v komerčních projektech?
-Ano, Aspose.BarCode pro Java je komerční produkt. Podrobnosti o licencování najdete **[zde](https://purchase.aspose.com/buy)**.
-
-### Je k dispozici bezplatná zkušební verze?
-Ano, můžete získat bezplatnou zkušební verzi **[zde](https://releases.aspose.com/)**.
-
-### Kde najdu dokumentaci k Aspose.BarCode pro Java?
-Dokumentace je k dispozici **[zde](https://reference.aspose.com/barcode/java/)**.
-
-### Jak získám podporu pro Aspose.BarCode pro Java?
-Navštivte **[forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13)** pro podporu.
-
-### Mohu použít dočasnou licenci pro testovací účely?
-Ano, můžete získat dočasnou licenci **[zde](https://purchase.aspose.com/temporary-license/)**.
 
 ## Další často kladené otázky
 

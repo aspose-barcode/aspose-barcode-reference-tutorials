@@ -5,7 +5,7 @@ description: Pelajari cara menghasilkan barcode Java menggunakan Aspose.BarCode.
   lebar, dan menyimpan gambar.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Buat Barcode Java: Atur Teks Kode menggunakan Aspose.BarCode'
+title: 'Buat Barcode Java - Atur Teks Kode menggunakan Aspose.BarCode'
 url: /id/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -90,23 +90,6 @@ Simpan gambar barcode yang dihasilkan ke direktori yang ditentukan. Pada kasus i
 | **Barcode terlihat buram** | Tingkatkan resolusi gambar atau ekspor ke format vektor (SVG, PDF). |
 | **Teks terpotong** | Pastikan `XDimension` (lebar bar) dan `BarHeight` cukup besar untuk simbol yang dipilih. |
 | **Lisensi tidak diterapkan** | Letakkan file lisensi Anda (`Aspose.BarCode.lic`) di root proyek dan muat dengan `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Pertanyaan yang Sering Diajukan (FAQ)
-
-### Apakah saya dapat menggunakan Aspose.BarCode untuk Java dalam proyek komersial?
-Ya, Aspose.BarCode untuk Java adalah produk komersial. Detail lisensi dapat dilihat **[di sini](https://purchase.aspose.com/buy)**.
-
-### Apakah tersedia percobaan gratis?
-Ya, Anda dapat mendapatkan percobaan gratis **[di sini](https://releases.aspose.com/)**.
-
-### Di mana saya dapat menemukan dokumentasi untuk Aspose.BarCode untuk Java?
-Dokumentasi tersedia **[di sini](https://reference.aspose.com/barcode/java/)**.
-
-### Bagaimana cara mendapatkan dukungan untuk Aspose.BarCode untuk Java?
-Kunjungi **[forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13)** untuk dukungan.
-
-### Bisakah saya menggunakan lisensi sementara untuk tujuan pengujian?
-Ya, Anda dapat memperoleh lisensi sementara **[di sini](https://purchase.aspose.com/temporary-license/)**.
 
 ## FAQ Tambahan
 

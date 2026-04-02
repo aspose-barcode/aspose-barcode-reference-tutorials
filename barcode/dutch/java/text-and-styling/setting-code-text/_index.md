@@ -5,7 +5,7 @@ description: Leer hoe je barcode‑java genereert met Aspose.BarCode. Deze staps
   afbeelding opslaat.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Barcode genereren in Java: Code‑tekst instellen met Aspose.BarCode'
+title: 'Barcode genereren in Java - Code‑tekst instellen met Aspose.BarCode'
 url: /nl/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -88,23 +88,6 @@ Sla de gegenereerde barcode‑afbeelding op in de opgegeven map. In dit geval wo
 | **Barcode ziet er wazig uit** | Verhoog de afbeeldingsresolutie of exporteer naar vectorformaten (SVG, PDF). |
 | **Tekst wordt afgekapt** | Zorg ervoor dat de `XDimension` (balkbreedte) en `BarHeight` groot genoeg zijn voor de gekozen symbologie. |
 | **Licentie niet toegepast** | Plaats je licentiebestand (`Aspose.BarCode.lic`) in de project‑root en laad het met `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Veelgestelde vragen (FAQ's)
-
-### Kun ik Aspose.BarCode voor Java gebruiken in commerciële projecten?
-Ja, Aspose.BarCode voor Java is een commercieel product. Je kunt licentie‑details vinden **[hier](https://purchase.aspose.com/buy)**.
-
-### Is er een gratis proefversie beschikbaar?
-Ja, je kunt een gratis proefversie krijgen **[hier](https://releases.aspose.com/)**.
-
-### Waar kan ik de documentatie voor Aspose.BarCode voor Java vinden?
-De documentatie is beschikbaar **[hier](https://reference.aspose.com/barcode/java/)**.
-
-### Hoe krijg ik ondersteuning voor Aspose.BarCode voor Java?
-Bezoek het **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** voor ondersteuning.
-
-### Kan ik een tijdelijke licentie gebruiken voor testdoeleinden?
-Ja, je kunt een tijdelijke licentie verkrijgen **[hier](https://purchase.aspose.com/temporary-license/)**.
 
 ## Aanvullende veelgestelde vragen
 

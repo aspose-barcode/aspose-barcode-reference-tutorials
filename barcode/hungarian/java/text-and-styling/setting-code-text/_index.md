@@ -5,7 +5,7 @@ description: Ismerje meg, hogyan generáljon vonalkódot Java-ban az Aspose.BarC
   vonalkód‑szöveget, módosíthatja a szélességet, és mentheti a képet.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Vonalkód generálása Java: Kód szöveg beállítása az Aspose.BarCode segítségével'
+title: 'Vonalkód generálása Java - Kód szöveg beállítása az Aspose.BarCode segítségével'
 url: /hu/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -88,23 +88,6 @@ Mentse a generált vonalkód képet a megadott könyvtárba. Ebben az esetben a 
 | **A vonalkód elmosódott** | Növelje a kép felbontását, vagy exportáljon vektoros formátumokba (SVG, PDF). |
 | **A szöveg levágott** | Győződjön meg róla, hogy az `XDimension` (vonal szélesség) és a `BarHeight` elég nagy a kiválasztott szimbólumhoz. |
 | **A licenc nincs alkalmazva** | Helyezze a licencfájlt (`Aspose.BarCode.lic`) a projekt gyökerébe, és töltse be a következővel: `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Gyakran Ismételt Kérdések (GYIK)
-
-### Használhatom az Aspose.BarCode for Java-t kereskedelmi projektekben?
-Igen, az Aspose.BarCode for Java egy kereskedelmi termék. A licenc részleteit **[itt](https://purchase.aspose.com/buy)** találja.
-
-### Elérhető ingyenes próba?
-Igen, ingyenes próbaverziót **[itt](https://releases.aspose.com/)** kaphat.
-
-### Hol találom az Aspose.BarCode for Java dokumentációját?
-A dokumentáció **[itt](https://reference.aspose.com/barcode/java/)** érhető el.
-
-### Hogyan kaphatok támogatást az Aspose.BarCode for Java-hoz?
-Látogasson el az **[Aspose.BarCode fórumra](https://forum.aspose.com/c/barcode/13)** támogatásért.
-
-### Használhatok ideiglenes licencet tesztelési célokra?
-Igen, ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/)** szerezhet.
 
 ## További Gyakran Ismételt Kérdések
 

@@ -15,26 +15,26 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak generować kod kreskowy Aztec z niestandardowym współczynnikiem proporcji przy użyciu Aspose.BarCode dla .NET
+# Jak wygenerować kod kreskowy Aztec z niestandardowym współczynnikiem przy użyciu Aspose.BarCode dla .NET
 
-W tym samouczku dowiesz się, jak **generować obrazy kodu kreskowego Aztec** i precyzyjnie dostroić ich współczynnik proporcji, aby spełniały wymagania projektowe Twojej aplikacji .NET. Niezależnie od tego, czy potrzebujesz idealnie kwadratowego kodu, czy szerszego układu dla biletu mobilnego, Aspose.BarCode dla .NET upraszcza ten proces i zapewnia niezawodność.
+W tym samouczku dowiesz się, jak **generować obrazy kodu kreskowego Aztec** i określić ich liczbę, aby spełnić wymagania projektowe Twojej aplikacji .NET. aplikacja od tego, czy doskonały kwadratowego kodu, czy szerokiego układu dla biletu mobilnego, Aspose.BarCode dla .NET upraszcza dziesięć procesu i zapewnia utworzenie.
 
-## Quick Answers
-- **Co kontroluje „aspect ratio”?** Określa proporcję szerokości do wysokości kodu kreskowego.  
-- **Która klasa tworzy kod kreskowy?** `BarcodeGenerator` z biblioteki Aspose.BarCode.  
-- **Czy mogę ustawić dowolną wartość współczynnika?** Tak, dowolną dodatnią liczbę zmiennoprzecinkową (np. 1, 0.5, 2).  
-- **Czy potrzebna jest licencja do rozwoju?** Tymczasowa licencja wystarczy do testów; pełna licencja jest wymagana w produkcji.  
+## Szybkie odpowiedzi
+- **Co kontroluje „aspect Ratio”?** zapewnia proporcję szerokości do wysokości kodu kreskowego.
+- **Która klasa tworzywa sztucznego kod kreskowy?** `BarcodeGenerator` z biblioteki Aspose.BarCode.
+- **Czy można ustalić określoną wartość liczbową?** Tak, uwzględnioną w strukturze zmiennoprzecinkowej (np.1,0.5,2).
+- **Czy jest licencjat do rozwoju?** Tymczasowa licencja wystarczająca do testów; pełny licencjat jest wymagany w produkcji.
 - **Obsługiwane formaty wyjściowe?** PNG, JPEG, BMP, SVG i inne poprzez `BarCodeImageFormat`.
 
-## Prerequisites
+## Warunki wstępne
 
-Zanim przejdziesz do dostosowywania współczynnika proporcji kodów Aztec, upewnij się, że spełniasz następujące wymagania:
+Zanim nastąpi to, co następuje, następuje sprawdzenie kodów Aztec, które się spełni, spełniasz szczegółowe wymagania:
 
-1. **Aspose.BarCode for .NET** – potrzebna jest zainstalowana biblioteka. Jeśli jeszcze jej nie masz, możesz pobrać ją z [download link](https://releases.aspose.com/barcode/net/).  
-2. **Środowisko programistyczne .NET** – działające IDE, np. Visual Studio.  
-3. **Podstawowa znajomość C#** – ten przewodnik zakłada, że czujesz się komfortowo z składnią C#.
+1. **Aspose.BarCode dla .NET** – zainstalowana jest zainstalowana biblioteka. Jeśli jeszcze nie masz, ją z [link do pobrania](https://releases.aspose.com/barcode/net/).
+2. **Środowisko programistyczne .NET** – funkcjonalne IDE, np. Studio wizualne.
+3. **Podstawowa przyjemność C#** – dziesięć przewodników, że czujesz się komfortowo ze składnią C#.
 
-## Import Namespaces
+## Importuj przestrzenie nazw
 
 Najpierw zaimportuj wymaganą przestrzeń nazw, aby uzyskać dostęp do klas generowania kodów kreskowych:
 
@@ -42,7 +42,7 @@ Najpierw zaimportuj wymaganą przestrzeń nazw, aby uzyskać dostęp do klas gen
 using Aspose.BarCode.Generation;
 ```
 
-## Set Up Your Output Directory
+## Skonfiguruj katalog wyjściowy
 
 Zdefiniuj folder, w którym zostaną zapisane wygenerowane obrazy kodów kreskowych. Zastąp `"Your Directory Path"` rzeczywistą ścieżką na swoim komputerze:
 
@@ -50,7 +50,7 @@ Zdefiniuj folder, w którym zostaną zapisane wygenerowane obrazy kodów kreskow
 string path = "Your Directory Path";
 ```
 
-## Create a BarcodeGenerator Instance
+## Utwórz instancję Generatora kodów kreskowych
 
 Utwórz instancję `BarcodeGenerator` i określ, że chcesz pracować z kodem Aztec. Przykładowy tekst `"Åspóse.Barcóde©"` służy wyłącznie do demonstracji — możesz zakodować dowolny ciąg znaków:
 
@@ -58,11 +58,11 @@ Utwórz instancję `BarcodeGenerator` i określ, że chcesz pracować z kodem Az
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Åspóse.Barcóde©");
 ```
 
-## Customize the Aspect Ratio
+## Dostosuj współczynnik proporcji
 
 Właściwość `AspectRatio` pozwala kontrolować kształt kodu kreskowego.
 
-### Set Aspect Ratio to 1 (square)
+### Ustaw współczynnik proporcji na 1 (kwadrat)
 
 Współczynnik 1 generuje idealnie kwadratowy kod Aztec:
 
@@ -76,7 +76,7 @@ Zapisz kwadratowy kod:
 gen.Save($"{path}AztecAspectRatio1.png", BarCodeImageFormat.Png);
 ```
 
-### Set Aspect Ratio to 0.5 (wider)
+### Ustaw współczynnik proporcji na 0,5 (szerszy)
 
 Jeśli wolisz kod szerszy niż wysoki, ustaw współczynnik 0.5:
 
@@ -90,50 +90,50 @@ Zapisz szerszy kod:
 gen.Save($"{path}AztecAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-## Why customize the Aztec barcode aspect ratio?
+## Po co dostosowywać współczynnik proporcji kodu kreskowego Aztec?
 
-- **Elastyczność projektowa** – dopasuj kod do elementów UI lub etykiet drukowanych.  
-- **Niezawodność skanowania** – niektóre skanery działają lepiej przy określonych proporcjach.  
+- **Elastyczność projektowa** – dopasuj kod do elementu UI lub etykiet drukowanych.
+- **Niezawodność skanowania** – niektóre produkty są bardziej przy podstawowych proporcjach.
 - **Spójność marki** – dopasuj wygląd kodu do tożsamości wizualnej Twojej marki.
 
-## Common Pitfalls & Tips
+## Typowe pułapki i wskazówki
 
-- **Nie ustawiaj zerowego ani ujemnego współczynnika** – spowoduje to wyrzucenie wyjątku.  
-- **Pamiętaj, aby używać tej samej zmiennej `path`** we wszystkich wywołaniach `Save`, w przeciwnym razie obrazy mogą zostać zapisane w nieoczekiwanych lokalizacjach.  
-- **Pro tip:** Przetestuj wygenerowany kod rzeczywistym skanerem, którego zamierzasz używać, ponieważ skrajne proporcje mogą wpływać na czytelność.
+- **Nie ustawiaj zerowego ani ujemnego współczynnika** – skutkuje wyrzuceniem wyjątku.
+- **Pamiętaj, aby zastosować tę samą zmienną `path`** we wszystkich wywołaniach `Save`, w przeciwnym razie obrazy mogą pozostać w nieoczekiwanych lokalizacjach.
+- **Wskazówka:** Przetestuj wygenerowany kod skanera, którego skutkiemsz jest uszkodzenie, które może zostać wykluczone na czytelność.
 
-## Conclusion
+## Wniosek
 
-Teraz wiesz, jak **generować obrazy kodu kreskowego Aztec** i regulować ich współczynnik proporcji przy użyciu Aspose.BarCode dla .NET. Kilka linijek kodu C# wystarczy, aby uzyskać kwadratowe lub szerokie kody, które pasują do każdego scenariusza aplikacji.
+Teraz wiesz, jak **generować obrazy kodu kreskowego Aztec** i ich odpowiednik, przy użyciu Aspose.BarCode dla .NET. Kilka linijek kodu C# wystarczy, aby uzyskać kwadratowe lub szerokie kody, które są dostarczane do każdego scenariusza aplikacji.
 
-Jeśli masz pytania, sprawdź oficjalną dokumentację lub fora społeczności:
+Jeśli masz pytania, sprawdź oficjalną informację lub fora społeczności:
 
-- [Dokumentacja Aspose.BarCode dla .NET](https://reference.aspose.com/barcode/net/)  
-- [Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13)  
+- [Dokumentacja Aspose.BarCode dla .NET](https://reference.aspose.com/barcode/net/)
+- [Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13)
 
-## FAQ's
+## Często zadawane pytania
 
-### Q1: Do czego używa się kodu Aztec?
+### P1: Czy używasz kodu Aztec?
 
-A1: Kod Aztec jest powszechnie wykorzystywany do kodowania danych w różnych zastosowaniach, w tym w zarządzaniu dokumentami, biletowaniu i transporcie.
+A1: Kod Aztec jest miejscem, w którym znajdują się kodowania danych w różnych zastosowaniach, w tym w zarządzaniu dokumentami, biletowaniu i transporcie.
 
-### Q2: Czy mogę dostosować dane kodowane w kodzie Aztec?
+### Q2: Czy można dostosować dane kodowane w kodzie Aztec?
 
-A2: Tak, możesz dostosować dane kodowane w kodzie Aztec, co pozwala na przechowywanie informacji takich jak tekst, adresy URL i inne.
+A2: Można dostosować dane kodowane w kodzie Aztec, co pozwala na udostępnianie takich informacji jak tekst, adres URL i inne.
 
-### Q3: Czy Aspose.BarCode dla .NET jest kompatybilny z różnymi wersjami .NET?
+### Pytanie 3: Czy Aspose.BarCode dla .NET jest dostarczane z wersją .NET?
 
-A3: Tak, Aspose.BarCode dla .NET jest kompatybilny z różnymi wersjami .NET, co czyni go odpowiednim dla szerokiego zakresu projektów programistycznych w .NET.
+A3: Tak, Aspose.BarCode dla .NET jest podstawą z wersji .NET, co stanowi podstawę do stosowania w ramach szerszego zakresu programów programistycznych w .NET.
 
-### Q4: Jak mogę generować kody Aztec przy użyciu Aspose.BarCode w aplikacji webowej?
+### P4: Jak mogę wygenerować kody Aztec przy użyciu Aspose.BarCode w aplikacji internetowej?
 
-A4: Możesz używać Aspose.BarCode dla .NET w aplikacjach webowych, włączając go do swojego kodu, podobnie jak w przykładzie aplikacji desktopowej podanym w tym samouczku.
+A4: Można zastosować Aspose.BarCode dla .NET w aplikacjach internetowych, włączając go do swojego kodu, podobnie jak w oryginalnej aplikacji desktopowej w tym samouczku.
 
-### Q5: Gdzie mogę uzyskać tymczasową licencję dla Aspose.BarCode dla .NET?
+### Q5: Gdzie mogę uzyskać tymczasowe obciążenie dla Aspose.BarCode dla .NET?
 
-A5: Jeśli potrzebujesz tymczasowej licencji do testów lub oceny, możesz ją uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+A5: Jeśli uzyskana jest zwykła licencja do testów lub oceny, można ją zastosować [tutaj](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
 **P: Czy zmiana współczynnika proporcji wpływa na szybkość skanowania?**  
 O: Zazwyczaj szybkość skanowania pozostaje niezmieniona, ale skrajne proporcje mogą wymagać od skanera dostosowania ostrości, co może nieznacznie wpłynąć na wydajność.

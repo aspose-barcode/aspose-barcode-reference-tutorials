@@ -3,7 +3,7 @@ date: 2025-12-30
 description: 學習如何使用 Aspose.BarCode 於 Java 產生條碼。本分步指南將示範如何設定自訂條碼文字、調整寬度，並儲存影像。
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 生成條碼 Java：使用 Aspose.BarCode 設定條碼文字
+title: 生成條碼 Java - 使用 Aspose.BarCode 設定條碼文字
 url: /zh-hant/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -88,23 +88,6 @@ generator.save(dataDir + "setCodeText.jpg");
 | **條碼模糊** | 提高影像解析度或匯出為向量格式（SVG、PDF）。 |
 | **文字被截斷** | 確認 `XDimension`（條寬）與 `BarHeight` 足夠容納所選符號。 |
 | **授權未套用** | 將授權檔案 (`Aspose.BarCode.lic`) 放置於專案根目錄，並使用 `License license = new License(); license.setLicense("Aspose.BarCode.lic");` 載入。 |
-
-## 常見問答 (FAQs)
-
-### 我可以在商業專案中使用 Aspose.BarCode for Java 嗎？
-可以，Aspose.BarCode for Java 為商業產品。授權資訊請參閱 **[此處](https://purchase.aspose.com/buy)**。
-
-### 有提供免費試用嗎？
-有，您可以在 **[此處](https://releases.aspose.com/)** 取得免費試用版。
-
-### 哪裡可以找到 Aspose.BarCode for Java 的文件？
-文件位於 **[此處](https://reference.aspose.com/barcode/java/)**。
-
-### 如何取得 Aspose.BarCode for Java 的技術支援？
-請前往 **[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13)** 取得支援。
-
-### 可以使用臨時授權進行測試嗎？
-可以，臨時授權可於 **[此處](https://purchase.aspose.com/temporary-license/)** 取得。
 
 ## 其他常見問答
 

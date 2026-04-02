@@ -3,7 +3,7 @@ date: 2025-12-30
 description: Aspose.BarCode を使用して Java でバーコードを生成する方法を学びましょう。このステップバイステップガイドでは、カスタムバーコードテキストの設定、幅の調整、画像の保存方法を示します。
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Javaでバーコードを生成: Aspose.BarCodeを使用してコードテキストを設定'
+title: 'Javaでバーコードを生成 - Aspose.BarCodeを使用してコードテキストを設定'
 url: /ja/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -88,23 +88,6 @@ generator.save(dataDir + "setCodeText.jpg");
 | **バーコードがぼやけて見える** | 画像解像度を上げるか、ベクターフォーマット（SVG、PDF）でエクスポートしてください。 |
 | **テキストが切り取られる** | `XDimension`（バー幅）と `BarHeight` が選択したシンボロジーに対して十分大きいことを確認してください。 |
 | **ライセンスが適用されない** | ライセンスファイル (`Aspose.BarCode.lic`) をプロジェクトルートに配置し、`License license = new License(); license.setLicense("Aspose.BarCode.lic");` でロードしてください。 |
-
-## FAQ（よくある質問）
-
-### Aspose.BarCode for Java を商用プロジェクトで使用できますか？
-はい、Aspose.BarCode for Java は商用製品です。ライセンス情報は **[こちら](https://purchase.aspose.com/buy)** にあります。
-
-### 無料トライアルはありますか？
-はい、無料トライアルは **[こちら](https://releases.aspose.com/)** から入手できます。
-
-### Aspose.BarCode for Java のドキュメントはどこにありますか？
-ドキュメントは **[こちら](https://reference.aspose.com/barcode/java/)** にあります。
-
-### Aspose.BarCode for Java のサポートはどこで受けられますか？
-サポートは **[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13)** で受けられます。
-
-### テスト目的で一時ライセンスを使用できますか？
-はい、一時ライセンスは **[こちら](https://purchase.aspose.com/temporary-license/)** から取得できます。
 
 ## 追加のよくある質問
 

@@ -4,7 +4,7 @@ description: تعلم كيفية إنشاء باركود جافا باستخدا
   خطوة بخطوة كيفية تعيين نص باركود مخصص، وضبط العرض، وحفظ الصورة.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'إنشاء باركود Java: تعيين نص الرمز باستخدام Aspose.BarCode'
+title: 'إنشاء باركود Java - تعيين نص الرمز باستخدام Aspose.BarCode'
 url: /ar/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -89,23 +89,6 @@ generator.save(dataDir + "setCodeText.jpg");
 | **الباركود غير واضح** | قم بزيادة دقة الصورة أو صدّر إلى صيغ المتجه (SVG, PDF). |
 | **النص مقطوع** | تأكد من أن `XDimension` (عرض الخط) و `BarHeight` كافيان للرمز المختار. |
 | **الترخيص غير مفعّل** | ضع ملف الترخيص الخاص بك (`Aspose.BarCode.lic`) في جذر المشروع وحمّله باستخدام `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## الأسئلة المتكررة (FAQs)
-
-### هل يمكنني استخدام Aspose.BarCode for Java في المشاريع التجارية؟
-نعم، Aspose.BarCode for Java هو منتج تجاري. يمكنك العثور على تفاصيل الترخيص **[هنا](https://purchase.aspose.com/buy)**.
-
-### هل يتوفر نسخة تجريبية مجانية؟
-نعم، يمكنك الحصول على نسخة تجريبية مجانية **[هنا](https://releases.aspose.com/)**.
-
-### أين يمكنني العثور على وثائق Aspose.BarCode for Java؟
-الوثائق متاحة **[هنا](https://reference.aspose.com/barcode/java/)**.
-
-### كيف أحصل على الدعم لـ Aspose.BarCode for Java؟
-قم بزيارة **[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13)** للحصول على الدعم.
-
-### هل يمكنني استخدام ترخيص مؤقت لأغراض الاختبار؟
-نعم، يمكنك الحصول على ترخيص مؤقت **[هنا](https://purchase.aspose.com/temporary-license/)**.
 
 ## أسئلة متكررة إضافية
 

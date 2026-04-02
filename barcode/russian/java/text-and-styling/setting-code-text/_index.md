@@ -5,7 +5,7 @@ description: Узнайте, как генерировать штрих‑код
   настроить ширину и сохранить изображение.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Генерация штрихкода в Java: установка текста кода с помощью Aspose.BarCode'
+title: 'Генерация штрихкода в Java - установка текста кода с помощью Aspose.BarCode'
 url: /ru/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -90,23 +90,6 @@ generator.save(dataDir + "setCodeText.jpg");
 | **Barcode looks blurry** | Увеличьте разрешение изображения или экспортируйте в векторные форматы (SVG, PDF). |
 | **Text is truncated** | Убедитесь, что `XDimension` (ширина полосы) и `BarHeight` достаточно велики для выбранной символьной схемы. |
 | **License not applied** | Поместите файл лицензии (`Aspose.BarCode.lic`) в корень проекта и загрузите его с помощью `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Часто задаваемые вопросы (FAQ)
-
-### Могу ли я использовать Aspose.BarCode для Java в коммерческих проектах?
-Да, Aspose.BarCode for Java — коммерческий продукт. Подробности о лицензировании можно найти **[here](https://purchase.aspose.com/buy)**.
-
-### Доступна ли бесплатная пробная версия?
-Да, бесплатную пробную версию можно получить **[here](https://releases.aspose.com/)**.
-
-### Где найти документацию по Aspose.BarCode для Java?
-Документация доступна **[here](https://reference.aspose.com/barcode/java/)**.
-
-### Как получить поддержку по Aspose.BarCode для Java?
-Посетите **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** для получения поддержки.
-
-### Можно ли использовать временную лицензию для тестирования?
-Да, временную лицензию можно получить **[here](https://purchase.aspose.com/temporary-license/)**.
 
 ## Дополнительные часто задаваемые вопросы
 

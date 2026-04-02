@@ -5,7 +5,7 @@ description: Dowiedz się, jak generować kod kreskowy w Javie przy użyciu Aspo
   dostosować szerokość i zapisać obraz.
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
-title: 'Generowanie kodu kreskowego w Javie: ustaw tekst kodu przy użyciu Aspose.BarCode'
+title: 'Generowanie kodu kreskowego w Javie - ustaw tekst kodu przy użyciu Aspose.BarCode'
 url: /pl/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -90,23 +90,6 @@ Zapisz wygenerowany obraz kodu kreskowego w określonym katalogu. W tym przypadk
 | **Kod kreskowy jest rozmyty** | Zwiększ rozdzielczość obrazu lub eksportuj do formatów wektorowych (SVG, PDF). |
 | **Tekst jest obcięty** | Upewnij się, że `XDimension` (szerokość paska) i `BarHeight` są wystarczająco duże dla wybranej symbologii. |
 | **Licencja nie została zastosowana** | Umieść plik licencji (`Aspose.BarCode.lic`) w katalogu głównym projektu i załaduj go za pomocą `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
-
-## Najczęściej zadawane pytania (FAQ)
-
-### Czy mogę używać Aspose.BarCode dla Javy w projektach komercyjnych?
-Tak, Aspose.BarCode dla Javy jest produktem komercyjnym. Szczegóły licencjonowania znajdziesz **[tutaj](https://purchase.aspose.com/buy)**.
-
-### Czy dostępna jest darmowa wersja próbna?
-Tak, darmową wersję próbną możesz pobrać **[tutaj](https://releases.aspose.com/)**.
-
-### Gdzie mogę znaleźć dokumentację Aspose.BarCode dla Javy?
-Dokumentacja jest dostępna **[tutaj](https://reference.aspose.com/barcode/java/)**.
-
-### Jak uzyskać wsparcie techniczne dla Aspose.BarCode dla Javy?
-Odwiedź **[forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13)**, aby uzyskać pomoc.
-
-### Czy mogę używać tymczasowej licencji do testów?
-Tak, tymczasową licencję możesz uzyskać **[tutaj](https://purchase.aspose.com/temporary-license/)**.
 
 ## Dodatkowe najczęściej zadawane pytania
 

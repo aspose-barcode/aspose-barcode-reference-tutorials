@@ -14,18 +14,18 @@ weight: 13
 
 # 生成条形码 Java：使用 Aspose.BarCode 设置代码文本
 
-## Introduction
+## 简介
 
 在本教程中，您将学习如何使用 Aspose.BarCode Java 库 **generate barcode java** 生成条形码。无论您是在构建库存系统、文档跟踪解决方案，还是任何需要条形码的应用程序，本指南都会一步步带您完成——从创建 **Code128** 条形码到自定义代码文本并调整条宽。完成后，您将拥有一张可随时嵌入的可用图像。
 
-## Quick Answers
+## 快速解答
 - **我应该使用哪个库？** Aspose.BarCode for Java.
 - **演示的条形码类型是什么？** CODE_128.
 - **如何设置自定义条形码文本？** 使用 `BarcodeGenerator` 构造函数或 `setCodeText` 方法。
 - **我可以更改条宽吗？** 可以，通过以毫米为单位的 `XDimension`。
 - **生产环境需要许可证吗？** 是的，需要商业许可证。
 
-## Prerequisites
+## 前提条件
 
 在深入教程之前，请确保您已具备以下条件：
 
@@ -34,7 +34,7 @@ weight: 13
 - Aspose.BarCode for Java 库。您可以在 **[here](https://releases.aspose.com/barcode/java/)** 下载。  
 - 代码编辑器，例如 IntelliJ IDEA 或 Eclipse。  
 
-## Import Packages
+## 导入软件包
 
 首先在您的 Java 项目中导入必要的包。这些包是使用 Aspose.BarCode 所必需的。
 
@@ -44,7 +44,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 现在，让我们探讨在 Java 中使用 Aspose.BarCode 设置代码文本的过程。请按照以下步骤操作：
 
-## Barcode Generator Tutorial: Create a Code128 Barcode
+## 条形码生成器教程：创建 Code128 条形码
 
 ### 步骤 1：创建 `BarcodeGenerator` 实例
 
@@ -89,24 +89,7 @@ generator.save(dataDir + "setCodeText.jpg");
 | **文本被截断** | 确保 `XDimension`（条宽）和 `BarHeight` 对所选符号足够大。 |
 | **许可证未应用** | 将许可证文件 (`Aspose.BarCode.lic`) 放在项目根目录，并使用 `License license = new License(); license.setLicense("Aspose.BarCode.lic");` 加载。 |
 
-## Frequently Asked Questions (FAQs)
-
-### 我可以在商业项目中使用 Aspose.BarCode for Java 吗？
-是的，Aspose.BarCode for Java 是商业产品。您可以在 **[here](https://purchase.aspose.com/buy)** 查看许可详情。
-
-### 是否提供免费试用？
-是的，您可以在 **[here](https://releases.aspose.com/)** 获取免费试用。
-
-### 我在哪里可以找到 Aspose.BarCode for Java 的文档？
-文档可在 **[here](https://reference.aspose.com/barcode/java/)** 获取。
-
-### 如何获取 Aspose.BarCode for Java 的支持？
-请访问 **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** 获取支持。
-
-### 我可以为测试目的使用临时许可证吗？
-是的，您可以在 **[here](https://purchase.aspose.com/temporary-license/)** 获取临时许可证。
-
-## Additional Frequently Asked Questions
+## 其他常见问题
 
 **问：** *`CODE_128` 与其他 Code128 变体有什么区别？*  
 **答：** `CODE_128` 是标准符号，会根据输入文本自动选择最有效的编码（A、B 或 C）。
