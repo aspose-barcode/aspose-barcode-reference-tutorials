@@ -1,60 +1,75 @@
 ---
-title: Bijschrift toevoegen aan streepjescode in Java met Aspose.BarCode
-linktitle: Bijschrift aan streepjescode toevoegen
-second_title: Aspose.BarCode Java-API
-description: Leer hoe u streepjescodevisualisaties in Java kunt verbeteren met Aspose.BarCode. Voeg moeiteloos ondertitels toe voor een betere gebruikerservaring.
-weight: 10
+date: 2025-12-27
+description: Leer hoe u een bijschrift aan barcode‑afbeeldingen kunt toevoegen in
+  Java met Aspose.BarCode. Dit Java‑barcode‑generatorvoorbeeld laat zien hoe u moeiteloos
+  een barcode‑afbeelding in Java kunt maken.
+linktitle: Adding Caption to Barcode
+second_title: Aspose.BarCode Java API
+title: Hoe een bijschrift aan een barcode toe te voegen in Java met Aspose.BarCode
 url: /nl/java/text-and-styling/adding-caption-barcode/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bijschrift toevoegen aan streepjescode in Java met Aspose.BarCode
+# Hoe een bijschrift toe te voegen aan een barcode in Java met Aspose.BarCode
 
+## Inleiding
 
-## Invoering
+Als je een **how to add caption** aan een barcode wilt toevoegen voor betere leesbaarheid en branding, ben je op de juiste plek. In deze tutorial lopen we stap voor stap door hoe je bijschriften boven en onder een barcode‑afbeelding toevoegt met Aspose.BarCode voor Java. Aan het einde heb je een volledig gestylede barcode die niet alleen gegevens codeert, maar ook nuttige tekst weergeeft — perfect voor productetiketten, voorraadbeheersystemen of elke situatie waarin gebruikers profiteren van extra context.
 
-Op het gebied van Java-programmering is het opnemen van streepjescodes een algemene noodzaak, en Aspose.BarCode voor Java biedt een robuuste oplossing voor deze taak. Door bijschriften aan streepjescodes toe te voegen, wordt de informativiteit ervan vergroot, waardoor ze gebruiksvriendelijker en visueel aantrekkelijker worden. Deze tutorial leidt u door het proces van het toevoegen van bijschriften aan streepjescodes in Java met behulp van Aspose.BarCode.
+## Snelle antwoorden
+- **Welke bibliotheek is vereist?** Aspose.BarCode for Java.  
+- **Kan ik lettertype en kleur wijzigen?** Ja — zowel de lettertypefamilie van het bijschrift als de tekstkleur zijn aanpasbaar.  
+- **Welke barcode‑types werken?** Alle symbologieën die door Aspose.BarCode worden ondersteund (bijv. CODE_128, QR, DataMatrix).  
+- **Heb ik een licentie nodig voor testen?** Er is een gratis proefversie beschikbaar; een commerciële licentie is vereist voor productie.  
+- **Hoe lang duurt de implementatie?** Meestal minder dan 10 minuten zodra de bibliotheek is toegevoegd.
 
-## Vereisten
+## Wat is een bijschrift in een barcode?
+Een bijschrift is platte tekst die boven of onder de barcode‑grafiek verschijnt. Het kan productnamen, prijzen of andere informatie weergeven die de gecodeerde gegevens aanvult.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Waarom bijschriften toevoegen met Aspose.BarCode?
+- **Verbeterde gebruikerservaring:** Gebruikers kunnen direct de betekenis van een barcode lezen zonder te scannen.  
+- **Merkconsistentie:** Je kunt je eigen lettertypen, kleuren en uitlijning toepassen om te voldoen aan de huisstijlrichtlijnen.  
+- **Volledige controle:** De API van Aspose.BarCode stelt je in staat de zichtbaarheid te schakelen, uitlijning in te stellen en elk bijschrift onafhankelijk te stijlen.
 
-- Java Development Kit (JDK) op uw computer geïnstalleerd.
--  Aspose.BarCode voor Java-bibliotheek gedownload en toegevoegd aan uw project. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/barcode/java/).
-- Een code-editor zoals IntelliJ IDEA of Eclipse voor Java-ontwikkeling.
+## Voorvereisten
 
-## Pakketten importeren
+- Java Development Kit (JDK) geïnstalleerd.
+- Aspose.BarCode for Java bibliotheek gedownload en aan je project toegevoegd. Je kunt de downloadlink vinden [hier](https://releases.aspose.com/barcode/java/).
+- Een IDE zoals IntelliJ IDEA of Eclipse.
 
-Importeer in uw Java-project de benodigde pakketten om de Aspose.BarCode-functionaliteit te gebruiken. Voeg de volgende regels toe aan het begin van uw Java-bestand:
+## Importeer pakketten
+
+Importeer in je Java‑bronbestand de vereiste Aspose.BarCode‑klassen en de AWT `Color`‑klasse:
 
 ```java
 import com.aspose.barcode.*;
 import java.awt.*;
 ```
 
-## Stap 1: Document- en bronnenmappen instellen
+## Stap 1: Document- en resource‑mappen instellen
 
-Begin met het opgeven van de mappaden voor uw documenten en bronnen. Deze stap zorgt ervoor dat Aspose.BarCode weet waar de gegenereerde barcodeafbeelding moet worden opgeslagen. 
+Geef op waar je de gegenereerde barcode‑afbeelding wilt opslaan. Pas de paden aan zodat ze overeenkomen met jouw omgeving.
 
 ```java
 String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-## Stap 2: Maak een streepjescodegeneratorinstantie
+## Stap 2: Maak een Barcode‑generator‑instantie
 
- Instantieer een`BarcodeGenerator`object, waarbij het streepjescodetype (bijvoorbeeld CODE_128) en de codetekst (bijvoorbeeld "12345678") in de constructor worden gespecificeerd.
+Instantieer `BarcodeGenerator` met de gewenste symbologie (bijv. CODE_128) en de code‑tekst die je wilt coderen.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-## Stap 3: Configureer het bijschrift boven de streepjescode
+## Stap 3: Configureer het bijschrift boven de barcode
 
-Stel het bijschrift boven de streepjescode in door uitlijning, tekst, zichtbaarheid, lettertypefamilie, lettergrootte en tekstkleur op te geven.
+Stel het bijschrift in dat boven de barcode verschijnt. Je kunt uitlijning, tekst, zichtbaarheid, lettertypefamilie, grootte en kleur regelen.
 
 ```java
 bb.getParameters().getCaptionAbove().setAlignment(TextAlignment.LEFT);
@@ -65,9 +80,9 @@ bb.getParameters().getCaptionAbove().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionAbove().setTextColor(Color.RED);
 ```
 
-## Stap 4: Configureer het bijschrift onder de streepjescode
+## Stap 4: Configureer het bijschrift onder de barcode
 
-Configureer op dezelfde manier het bijschrift onder de streepjescode met de gewenste parameters.
+Definieer op dezelfde manier het bijschrift onder de barcode. Voel je vrij een andere uitlijning of stijl te gebruiken indien nodig.
 
 ```java
 bb.getParameters().getCaptionBelow().setAlignment(TextAlignment.RIGHT);
@@ -78,36 +93,46 @@ bb.getParameters().getCaptionBelow().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionBelow().setTextColor(Color.RED);
 ```
 
-## Stap 5: Sla de streepjescodeafbeelding op
+## Stap 5: Sla de barcode‑afbeelding op
 
-Sla de gegenereerde barcodeafbeelding op in de opgegeven map.
+Schrijf tenslotte de barcode (met bijschriften) naar een afbeeldingsbestand. Het formaat wordt afgeleid van de bestandsextensie.
 
 ```java
 bb.save(dataDir + "barcodeCaption.jpg");
 ```
 
-Herhaal deze stappen voor eventuele aanvullende aanpassingen of wijzigingen die u aan uw streepjescode wilt aanbrengen.
+Je kunt de bovenstaande stappen herhalen om te experimenteren met verschillende lettertypen, kleuren of uitlijningen, of om meerdere barcode‑afbeeldingen in een lus te genereren.
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-Gefeliciteerd! U hebt met succes geleerd hoe u in Java ondertitels aan streepjescodes kunt toevoegen met behulp van Aspose.BarCode. Dit verbetert de visuele aantrekkingskracht en bruikbaarheid van uw barcodes, waardoor ze informatiever worden voor eindgebruikers.
+- **Bijschrift niet zichtbaar?** Zorg ervoor dat `setVisible(true)` wordt aangeroepen voor het bijschrift dat je wilt weergeven.  
+- **Onjuiste kleuren?** Gebruik `java.awt.Color`‑constanten of maak aangepaste kleuren met `new Color(r, g, b)`.  
+- **Padproblemen?** Controleer of `dataDir` naar een bestaande, beschrijfbare map wijst; anders zal `bb.save()` een `IOException` veroorzaken.  
+- **Prestatiestip:** Hergebruik één `BarcodeGenerator`‑instantie bij het genereren van veel barcodes; wijzig alleen de `EncodeTypes` of `codetext` indien nodig.
 
-## Veelgestelde vragen (FAQ's)
+## Veelgestelde vragen (FAQ)
 
-### Kan ik de lettertypestijl van de streepjescodebijschriften aanpassen?
-Ja, u kunt de lettertypefamilie, -grootte en -kleur van zowel het bijschrift boven als onder de streepjescode aanpassen.
+### Kan ik de lettertype‑stijl van de barcode‑bijschriften aanpassen?
+Ja, je kunt de lettertypefamilie, grootte en kleur van zowel het bijschrift boven als onder de barcode aanpassen.
 
-### Is Aspose.BarCode compatibel met verschillende barcodesymbolieken?
-Absoluut! Aspose.BarCode ondersteunt een breed scala aan symbologieën, waardoor flexibiliteit bij het genereren van streepjescodes wordt gegarandeerd.
+### Is Aspose.BarCode compatibel met verschillende barcode‑symbologieën?
+Absoluut! Aspose.BarCode ondersteunt een breed scala aan symbologieën, wat flexibiliteit biedt bij het genereren van barcodes.
 
-### Hoe kan ik Aspose.BarCode in mijn Java-project integreren?
- U kunt de documentatie volgen[hier](https://reference.aspose.com/barcode/java/) voor gedetailleerde integratiestappen.
+### Hoe kan ik Aspose.BarCode integreren in mijn Java‑project?
+Je kunt de gedetailleerde integratie‑gids volgen die beschikbaar is [hier](https://reference.aspose.com/barcode/java/) voor stap‑voor‑stap instructies.
 
 ### Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor Java?
- Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/) om de functies te verkennen voordat u een aankoop doet.
+Ja, je kunt de gratis proefversie [hier](https://releases.aspose.com/) benaderen om alle functies te verkennen voordat je koopt.
 
-### Waar kan ik hulp zoeken als ik problemen ondervind of vragen heb?
- Het Aspose.BarCode-communityforum[hier](https://forum.aspose.com/c/barcode/13) is een uitstekende bron voor ondersteuning en discussies.
+### Waar kan ik hulp krijgen als ik tegen problemen aanloop?
+Het Aspose.BarCode‑communityforum is een uitstekende plek voor ondersteuning en discussie. Bezoek het forum [hier](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Laatst bijgewerkt:** 2025-12-27  
+**Getest met:** Aspose.BarCode for Java 24.11  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

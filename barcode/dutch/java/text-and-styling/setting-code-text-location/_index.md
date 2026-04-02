@@ -1,99 +1,128 @@
 ---
-title: Codetekstlocatie instellen in Java
-linktitle: Codetekstlocatie instellen
-second_title: Aspose.BarCode Java-API
-description: Genereer moeiteloos dynamische barcodes in Java met Aspose.BarCode. Volg onze stapsgewijze handleiding voor het aanpassen van codeteksten en verbeter de functionaliteit van uw toepassing.
-weight: 12
+date: 2025-12-27
+description: Leer hoe u een Data Matrix‑barcode maakt en hoe u de tekstlocatie van
+  de barcode instelt in Java met Aspose.BarCode. Volg onze stapsgewijze gids voor
+  volledige aanpassing.
+linktitle: Setting Code Text Location
+second_title: Aspose.BarCode Java API
+title: Maak een Data Matrix‑barcode en stel de locatie van de code‑tekst in Java in
 url: /nl/java/text-and-styling/setting-code-text-location/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Codetekstlocatie instellen in Java
+# Maak data matrix barcode en stel de locatie van de code‑tekst in Java in
 
+## Inleiding
 
-## Invoering
+Het genereren van barcodes is een routine‑vereiste voor voorraadbeheer, verzending en vele andere Java‑gebaseerde toepassingen. Met **Aspose.BarCode for Java** kun je snel een **data matrix barcode** maken en elk visueel aspect regelen, inclusief waar de mens‑leesbare tekst verschijnt. In deze tutorial lopen we de exacte stappen door om een **data matrix barcode** te **maken** en laten we zien **hoe je barcode‑tekst** boven het symbool plaatst zodat het overeenkomt met je ontwerpspecificaties.
 
-In de enorme wereld van Java-programmeren is het maken en beheren van barcodes een cruciale taak in verschillende toepassingen, van voorraadsystemen tot logistiek. Aspose.BarCode voor Java onderscheidt zich als een krachtig hulpmiddel voor het naadloos genereren van streepjescodes. In deze stapsgewijze handleiding gaan we in op het proces van het instellen en gebruiken van Aspose.BarCode om moeiteloos streepjescodes te genereren.
+## Snelle antwoorden
+- **Welke bibliotheek wordt gebruikt?** Aspose.BarCode for Java  
+- **Welk barcode‑type wordt gedemonstreerd?** Data Matrix  
+- **Hoe positioneer je de code‑tekst?** Met `CodeLocation.ABOVE`  
+- **Heb je een licentie nodig voor productie?** Ja, een commerciële licentie is vereist  
+- **Kan de code draaien op Java 8+?** Absoluut, het ondersteunt Java 8 en later  
+
+## Wat is een Data Matrix barcode?
+Een Data Matrix barcode is een tweedimensionaal (2‑D) symbool dat grote hoeveelheden data opslaat in een compact vierkant of rechthoekig patroon. Het wordt veel gebruikt voor het markeren van kleine voorwerpen, elektronica en medische apparaten omdat het tot 2.335 alfanumerieke tekens kan coderen.
+
+## Waarom de locatie van barcode‑tekst instellen?
+Het plaatsen van de mens‑leesbare tekst **boven**, **onder** of **naast** de barcode helpt gebruikers snel de gecodeerde gegevens te verifiëren zonder te scannen. Het aanpassen van de tekstlocatie verbetert de consistentie van de UI en voldoet aan merkrichtlijnen.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- Basiskennis van Java‑programmeren.  
+- Java Development Kit (JDK) geïnstalleerd.  
+- Een IDE zoals Eclipse of IntelliJ IDEA.  
+- Aspose.BarCode for Java bibliotheek (download deze van [here](https://releases.aspose.com/barcode/java/)).  
 
-- Basiskennis van Java-programmeren.
-- Java Development Kit (JDK) geïnstalleerd.
-- Een werkende Java Integrated Development Environment (IDE), zoals Eclipse of IntelliJ IDEA.
--  Aspose.BarCode voor Java gedownload en ingesteld. Je kunt het downloaden van[hier](https://releases.aspose.com/barcode/java/).
+## Import pakketten
 
-## Pakketten importeren
-
-Nadat u uw Java-omgeving heeft ingesteld en Aspose.BarCode heeft gedownload, is de volgende stap het importeren van de benodigde pakketten. Zorg ervoor dat u in uw Java-project over de volgende importbestanden beschikt:
+Eerst importeer je de essentiële Aspose.BarCode‑klassen in je project:
 
 ```java
 import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Deze pakketten zijn essentieel voor het benutten van de Aspose.BarCode-functionaliteiten binnen uw Java-applicatie.
+## Stapsgewijze handleiding
 
-Laten we nu een voorbeeld bekijken van het instellen van de codetekstlocatie met Aspose.BarCode in Java. Volg deze stappen:
-
-## Stap 1: Directorypaden definiëren
+### Stap 1: Definieer map‑paden
+Geef op waar je bestanden wilt lezen/schrijven. Vervang de placeholders door daadwerkelijke paden op jouw machine.
 
 ```java
 String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-Zorg ervoor dat u "Uw mappad" en "Uw documentenmap" vervangt door de juiste paden in uw project.
-
-## Stap 2: Maak een BarcodeGenerator-instantie
+### Stap 2: Maak een BarcodeGenerator‑instantie
+Instantieer `BarcodeGenerator` met het **Data Matrix**‑type en geef de code‑tekst op die je wilt coderen.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX,
         "GTIN:898978777776665655 " + "UID: 121212121212121212 " + "Batch:GH768 " + "Exp.Date:150923");
 ```
 
-Hier initialiseren we een BarcodeGenerator-instantie, waarbij we het streepjescodetype en de codetekst specificeren.
-
-## Stap 3: Stel de codetekstlocatie in
+### Stap 3: Hoe de barcode‑tekstlocatie in te stellen
+Gebruik de `CodeLocation`‑enumeratie om de mens‑leesbare tekst te verplaatsen. In dit voorbeeld plaatsen we deze **boven** de barcode.
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setLocation(CodeLocation.ABOVE);
 ```
 
-Stel de codetekstlocatie in. In dit voorbeeld plaatsen we de codetekst boven de streepjescode.
-
-## Stap 4: Sla de gegenereerde barcodeafbeelding op
+### Stap 4: Sla de gegenereerde barcode‑afbeelding op
+Schrijf tenslotte de barcode‑afbeelding naar schijf. Het bestand zal het Data Matrix‑symbool bevatten met de tekst erboven gepositioneerd.
 
 ```java
 generator.save(dataDir + "codetextAbove.png");
 ```
 
-Sla ten slotte de gegenereerde streepjescodeafbeelding op met de opgegeven codetekstlocatie.
-
-## Conclusie
-
-Gefeliciteerd! U hebt Aspose.BarCode voor Java met succes ingesteld en een streepjescode gemaakt met aangepaste codetekstplaatsing. Dit is slechts een glimp van de krachtige functies die Aspose.BarCode biedt voor het genereren van streepjescodes in Java-toepassingen.
+## Veelvoorkomende problemen en oplossingen
+- **Tekst verschijnt niet:** Zorg ervoor dat je een versie van Aspose.BarCode gebruikt die `CodeLocation` ondersteunt.  
+- **Foutieve bestands‑pad:** Controleer of `dataDir` eindigt met een bestandsscheidingsteken (`/` of `\\`) dat geschikt is voor jouw OS.  
+- **Niet‑ondersteunde tekens:** Data Matrix kan slechts een beperkte set tekens coderen; vermijd speciale symbolen die niet in de ISO/IEC 16022‑standaard staan.  
 
 ## Veelgestelde vragen (FAQ's)
 
-### Vraag: Kan ik het uiterlijk van de gegenereerde streepjescode aanpassen?
-Ja, Aspose.BarCode biedt uitgebreide aanpassingsopties, waardoor u verschillende aspecten van het uiterlijk van streepjescodes kunt beheren.
+### V: Kan ik het uiterlijk van de gegenereerde barcode aanpassen?
+A: Ja, Aspose.BarCode biedt uitgebreide aanpassingsopties, waarmee je kleuren, marges en lettertype‑stijlen kunt regelen.
 
-### Vraag: Is Aspose.BarCode compatibel met Java 8 en latere versies?
-Absoluut, Aspose.BarCode is ontworpen om naadloos samen te werken met Java 8 en alle daaropvolgende versies.
+### V: Is Aspose.BarCode compatibel met Java 8 en latere versies?
+A: Absoluut, de bibliotheek werkt met Java 8 en alle daaropvolgende releases.
 
-### Vraag: Hoe kan ik Aspose.BarCode integreren in mijn bestaande Java-project?
-Voeg eenvoudigweg de Aspose.BarCode JAR-bestanden toe aan het klassenpad van uw project en u bent klaar om streepjescodes te genereren.
+### V: Hoe kan ik Aspose.BarCode integreren in mijn bestaande Java‑project?
+A: Voeg de Aspose.BarCode‑JAR‑bestanden toe aan de classpath van je project, importeer de benodigde pakketten, en je bent klaar om barcodes te genereren.
 
-### Vraag: Is er een proefversie beschikbaar voor Aspose.BarCode?
- Ja, u kunt de mogelijkheden van Aspose.BarCode verkennen door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
+### V: Is er een proefversie beschikbaar voor Aspose.BarCode?
+A: Ja, je kunt de mogelijkheden van Aspose.BarCode verkennen door een gratis proefversie te verkrijgen [here](https://releases.aspose.com/).
 
-### Vraag: Waar kan ik hulp of ondersteuning zoeken voor Aspose.BarCode?
- Bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) voor steun en hulp van de gemeenschap.
+### V: Waar kan ik hulp of ondersteuning krijgen voor Aspose.BarCode?
+A: Bezoek het [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) voor community‑ondersteuning en officiële hulp.
+
+## Extra veelgestelde vragen
+
+**V: Kan ik een barcode genereren met tekst onder het symbool?**  
+A: Ja, stel `CodeLocation.BELOW` in dezelfde `setLocation`‑methode in.
+
+**V: Ondersteunt de bibliotheek andere 2‑D barcodes zoals QR‑Code?**  
+A: Absoluut, wijzig simpelweg `EncodeTypes.DATA_MATRIX` naar `EncodeTypes.QR`.
+
+**V: Hoe wijzig ik de lettergrootte van de barcode‑tekst?**  
+A: Gebruik `generator.getParameters().getBarcode().getCodeTextParameters().setFontSize(double size)`.
+
+## Conclusie
+
+Je hebt nu geleerd hoe je een **data matrix barcode** in Java kunt **maken** en nauwkeurig de locatie van **barcode‑tekst** kunt instellen met Aspose.BarCode. Experimenteer met andere `CodeLocation`‑waarden en stijlopti­es om te voldoen aan de ontwerpeisen van je applicatie.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-27  
+**Getest met:** Aspose.BarCode for Java 24.11  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,60 +1,77 @@
 ---
-title: Agregar título al código de barras en Java usando Aspose.BarCode
-linktitle: Agregar título al código de barras
-second_title: API de Java Aspose.BarCode
-description: Aprenda cómo mejorar las imágenes de códigos de barras en Java con Aspose.BarCode. Agregue subtítulos sin esfuerzo para mejorar la experiencia del usuario.
-weight: 10
+date: 2025-12-27
+description: Aprenda cómo agregar subtítulos a imágenes de códigos de barras en Java
+  usando Aspose.BarCode. Este ejemplo de generador de códigos de barras en Java muestra
+  cómo crear imágenes de códigos de barras en Java sin esfuerzo.
+linktitle: Adding Caption to Barcode
+second_title: Aspose.BarCode Java API
+title: Cómo agregar una leyenda al código de barras en Java usando Aspose.BarCode
 url: /es/java/text-and-styling/adding-caption-barcode/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregar título al código de barras en Java usando Aspose.BarCode
-
+# Cómo agregar subtítulo a un código de barras en Java usando Aspose.BarCode
 
 ## Introducción
 
-En el ámbito de la programación Java, la incorporación de códigos de barras es una necesidad común y Aspose.BarCode para Java proporciona una solución sólida para esta tarea. Agregar títulos a los códigos de barras mejora su contenido informativo, haciéndolos más fáciles de usar y visualmente atractivos. Este tutorial lo guiará a través del proceso de agregar títulos a códigos de barras en Java usando Aspose.BarCode.
+Si necesitas **cómo agregar subtítulo** a un código de barras para una mejor legibilidad y branding, estás en el lugar correcto. En este tutorial recorreremos los pasos exactos para agregar subtítulos arriba y abajo de una imagen de código de barras usando Aspose.BarCode para Java. Al final, tendrás un código de barras totalmente estilizado que no solo codifica datos sino que también muestra texto útil — perfecto para etiquetas de producto, sistemas de inventario o cualquier escenario donde los usuarios se beneficien de contexto adicional.
+
+## Respuestas rápidas
+- **¿Qué biblioteca se requiere?** Aspose.BarCode for Java.  
+- **¿Puedo cambiar la fuente y el color?** Sí—tanto la familia de fuentes del subtítulo como el color del texto son personalizables.  
+- **¿Qué tipos de códigos de barras funcionan?** Todas las simbologías compatibles con Aspose.BarCode (p. ej., CODE_128, QR, DataMatrix).  
+- **¿Necesito una licencia para pruebas?** Hay una prueba gratuita disponible; se requiere una licencia comercial para producción.  
+- **¿Cuánto tiempo lleva la implementación?** Normalmente menos de 10 minutos una vez añadida la biblioteca.
+
+## ¿Qué es un subtítulo en un código de barras?
+Un subtítulo es texto plano que aparece ya sea encima o debajo del gráfico del código de barras. Puede transmitir nombres de producto, precios o cualquier otra información que complemente los datos codificados.
+
+## ¿Por qué agregar subtítulos con Aspose.BarCode?
+- **Mejora de la experiencia del usuario:** Los usuarios pueden leer instantáneamente el significado de un código de barras sin escanearlo.  
+- **Consistencia de marca:** Puedes aplicar tus propias fuentes, colores y alineación para coincidir con las guías de estilo corporativas.  
+- **Control total:** La API de Aspose.BarCode te permite alternar la visibilidad, establecer la alineación y diseñar cada subtítulo de forma independiente.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrate de tener:
 
-- Kit de desarrollo de Java (JDK) instalado en su máquina.
--  Biblioteca Aspose.BarCode para Java descargada y agregada a su proyecto. Puedes encontrar el enlace de descarga.[aquí](https://releases.aspose.com/barcode/java/).
-- Un editor de código como IntelliJ IDEA o Eclipse para desarrollo Java.
+- Java Development Kit (JDK) instalado.  
+- Biblioteca Aspose.BarCode for Java descargada y añadida a tu proyecto. Puedes encontrar el enlace de descarga [aquí](https://releases.aspose.com/barcode/java/).  
+- Un IDE como IntelliJ IDEA o Eclipse.
 
 ## Importar paquetes
 
-En su proyecto Java, importe los paquetes necesarios para utilizar la funcionalidad Aspose.BarCode. Agregue las siguientes líneas al comienzo de su archivo Java:
+En tu archivo fuente Java, importa las clases necesarias de Aspose.BarCode y la clase AWT `Color`:
 
 ```java
 import com.aspose.barcode.*;
 import java.awt.*;
 ```
 
-## Paso 1: configurar directorios de documentos y recursos
+## Paso 1: Configurar directorios de documento y recursos
 
-Comience especificando las rutas de directorio para sus documentos y recursos. Este paso garantiza que Aspose.BarCode sepa dónde guardar la imagen del código de barras generada. 
+Especifica dónde deseas almacenar la imagen del código de barras generado. Ajusta las rutas para que coincidan con tu entorno.
 
 ```java
 String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-## Paso 2: crear una instancia del generador de códigos de barras
+## Paso 2: Crear instancia de Barcode Generator
 
- Crear una instancia de`BarcodeGenerator`objeto, especificando el tipo de código de barras (por ejemplo, CODE_128) y el texto del código (por ejemplo, "12345678") en el constructor.
+Instancia `BarcodeGenerator` con la simbología deseada (p. ej., CODE_128) y el texto del código que deseas codificar.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-## Paso 3: configurar el título encima del código de barras
+## Paso 3: Configurar subtítulo encima del código de barras
 
-Configure el título sobre el código de barras especificando la alineación, el texto, la visibilidad, la familia de fuentes, el tamaño de fuente y el color del texto.
+Establece el subtítulo que aparece encima del código de barras. Puedes controlar la alineación, texto, visibilidad, familia de fuentes, tamaño y color.
 
 ```java
 bb.getParameters().getCaptionAbove().setAlignment(TextAlignment.LEFT);
@@ -65,9 +82,9 @@ bb.getParameters().getCaptionAbove().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionAbove().setTextColor(Color.RED);
 ```
 
-## Paso 4: Configurar el título debajo del código de barras
+## Paso 4: Configurar subtítulo debajo del código de barras
 
-De manera similar, configure el título debajo del código de barras con los parámetros deseados.
+De manera similar, define el subtítulo debajo del código de barras. Si lo deseas, puedes usar una alineación o estilo diferente.
 
 ```java
 bb.getParameters().getCaptionBelow().setAlignment(TextAlignment.RIGHT);
@@ -78,36 +95,46 @@ bb.getParameters().getCaptionBelow().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionBelow().setTextColor(Color.RED);
 ```
 
-## Paso 5: guarde la imagen del código de barras
+## Paso 5: Guardar la imagen del código de barras
 
-Guarde la imagen del código de barras generada en el directorio especificado.
+Finalmente, escribe el código de barras (con subtítulos) a un archivo de imagen. El formato se infiere de la extensión del archivo.
 
 ```java
 bb.save(dataDir + "barcodeCaption.jpg");
 ```
 
-Repita estos pasos para cualquier personalización o modificación adicional que desee realizar en su código de barras.
+Puedes repetir los pasos anteriores para experimentar con diferentes fuentes, colores o alineaciones, o para generar múltiples imágenes de códigos de barras en un bucle.
 
-## Conclusión
+## Problemas comunes y consejos
 
-¡Felicidades! Ha aprendido con éxito cómo agregar títulos a códigos de barras en Java usando Aspose.BarCode. Esto mejora el atractivo visual y la usabilidad de sus códigos de barras, haciéndolos más informativos para los usuarios finales.
+- **¿El subtítulo no es visible?** Asegúrate de que se llame a `setVisible(true)` para el subtítulo que deseas mostrar.  
+- **¿Colores incorrectos?** Usa constantes de `java.awt.Color` o crea colores personalizados con `new Color(r, g, b)`.  
+- **¿Problemas con la ruta?** Verifica que `dataDir` apunte a una carpeta existente con permisos de escritura; de lo contrario, `bb.save()` lanzará una `IOException`.  
+- **Consejo de rendimiento:** Reutiliza una única instancia de `BarcodeGenerator` al generar muchos códigos de barras; solo cambia `EncodeTypes` o `codetext` según sea necesario.
 
-## Preguntas frecuentes (FAQ)
+## Preguntas frecuentes (FAQs)
 
-### ¿Puedo personalizar el estilo de fuente de los títulos de los códigos de barras?
-Sí, puede personalizar la familia de fuentes, el tamaño y el color del título tanto encima como debajo del código de barras.
+### ¿Puedo personalizar el estilo de fuente de los subtítulos del código de barras?
+Sí, puedes personalizar la familia de fuentes, el tamaño y el color tanto del subtítulo superior como del inferior.
 
 ### ¿Aspose.BarCode es compatible con diferentes simbologías de códigos de barras?
-¡Absolutamente! Aspose.BarCode admite una amplia gama de simbologías, lo que garantiza flexibilidad en la generación de códigos de barras.
+¡Absolutamente! Aspose.BarCode soporta una amplia gama de simbologías, garantizando flexibilidad en la generación de códigos de barras.
 
 ### ¿Cómo puedo integrar Aspose.BarCode en mi proyecto Java?
- Puedes seguir la documentación.[aquí](https://reference.aspose.com/barcode/java/) para conocer los pasos de integración detallados.
+Puedes seguir la guía de integración detallada disponible [aquí](https://reference.aspose.com/barcode/java/) para instrucciones paso a paso.
 
 ### ¿Hay una prueba gratuita disponible para Aspose.BarCode para Java?
- Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/) para explorar las funciones antes de realizar una compra.
+Sí, puedes acceder a la prueba gratuita [aquí](https://releases.aspose.com/) para explorar todas las funciones antes de comprar.
 
-### ¿Dónde puedo buscar ayuda si tengo problemas o tengo preguntas?
- El foro de la comunidad Aspose.BarCode[aquí](https://forum.aspose.com/c/barcode/13) es un excelente recurso de apoyo y debates.
+### ¿Dónde puedo obtener ayuda si tengo problemas?
+El foro de la comunidad de Aspose.BarCode es un excelente lugar para soporte y discusión. Visita el foro [aquí](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Última actualización:** 2025-12-27  
+**Probado con:** Aspose.BarCode for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

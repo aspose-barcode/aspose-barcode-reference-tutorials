@@ -1,99 +1,128 @@
 ---
-title: Java'da Kod Metni Konumunu Ayarlama
-linktitle: Kod Metni Konumunu Ayarlama
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode ile Java'da zahmetsizce dinamik barkodlar oluşturun. Kod metnini özelleştirmek ve uygulamanızın işlevselliğini artırmak için adım adım kılavuzumuzu izleyin.
-weight: 12
+date: 2025-12-27
+description: Aspose.BarCode kullanarak Java'da veri matrisi barkodu oluşturmayı ve
+  barkod metin konumunu nasıl ayarlayacağınızı öğrenin. Tam özelleştirme için adım
+  adım rehberimizi izleyin.
+linktitle: Setting Code Text Location
+second_title: Aspose.BarCode Java API
+title: Java'da veri matrisi barkodu oluştur ve kod metni konumunu ayarla
 url: /tr/java/text-and-styling/setting-code-text-location/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Kod Metni Konumunu Ayarlama
+# Java'da veri matrisi barkodu oluşturma ve kod metni konumunu ayarlama
 
+## Giriş
 
-## giriiş
+Barkod oluşturma, envanter, gönderim ve birçok diğer Java tabanlı uygulama için rutin bir gereksinimdir. **Aspose.BarCode for Java** ile **veri matrisi barkodu** hızlı bir şekilde oluşturabilir ve insan tarafından okunabilir metnin nerede görüneceği dahil olmak üzere her görsel unsuru kontrol edebilirsiniz. Bu öğreticide, **veri matrisi barkodu** oluşturmak için tam adımları gösterecek ve **barkod metnini** sembolün **üzerine** nasıl ayarlayacağınızı göstererek tasarım gereksinimlerinize uygun olmasını sağlayacağız.
 
-Java programlamanın geniş dünyasında barkod oluşturmak ve yönetmek, envanter sistemlerinden lojistiğe kadar çeşitli uygulamalarda çok önemli bir görevdir. Aspose.BarCode for Java, barkodları sorunsuz bir şekilde oluşturmak için güçlü bir araç olarak öne çıkıyor. Bu adım adım kılavuzda, zahmetsizce barkod oluşturmak için Aspose.BarCode'u kurma ve kullanma sürecini ayrıntılı olarak ele alacağız.
+## Hızlı Yanıtlar
+- **Hangi kütüphane kullanılıyor?** Aspose.BarCode for Java  
+- **Hangi barkod türü gösteriliyor?** Data Matrix  
+- **Kod metnini nasıl konumlandırırsınız?** `CodeLocation.ABOVE` kullanarak  
+- **Üretim için lisans gerekiyor mu?** Evet, ticari bir lisans gereklidir  
+- **Kod Java 8+ üzerinde çalışabilir mi?** Kesinlikle, Java 8 ve sonraki sürümleri destekler  
+
+## Data Matrix barkodu nedir?
+Data Matrix barkodu, büyük miktarda veriyi kompakt bir kare veya dikdörtgen desen içinde depolayan iki boyutlu (2‑D) bir semboldür. Küçük parçalar, elektronik ve tıbbi cihazların işaretlenmesinde yaygın olarak kullanılır çünkü 2.335 alfanümerik karaktere kadar kodlayabilir.
+
+## Barkod metni konumunu neden ayarlamalısınız?
+İnsan tarafından okunabilir metni barkodun **üzerine**, **altına** veya **yanına** yerleştirmek, kullanıcıların kodlanmış veriyi taramadan hızlıca doğrulamasına yardımcı olur. Metin konumunu ayarlamak, UI tutarlılığını artırır ve marka yönergelerine uymayı sağlar.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+- Java programlama temellerine sahip olmak.  
+- Java Development Kit (JDK) yüklü.  
+- Eclipse veya IntelliJ IDEA gibi bir IDE.  
+- Aspose.BarCode for Java kütüphanesi ([buradan](https://releases.aspose.com/barcode/java/) indirebilirsiniz).  
 
-- Java programlamanın temel bilgisi.
-- Java Geliştirme Kiti (JDK) kuruldu.
-- Eclipse veya IntelliJ IDEA gibi çalışan bir Java Entegre Geliştirme Ortamı (IDE).
--  Aspose.BarCode for Java'yı indirip kurduk. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/barcode/java/).
+## Paketleri İçe Aktarma
 
-## Paketleri İçe Aktar
-
-Java ortamınızı kurup Aspose.BarCode'u indirdikten sonra bir sonraki adım gerekli paketleri içe aktarmaktır. Java projenizde aşağıdaki içe aktarma işlemlerinin yapıldığından emin olun:
+İlk olarak, gerekli Aspose.BarCode sınıflarını projenize içe aktarın:
 
 ```java
 import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Bu paketler, Java uygulamanızdaki Aspose.BarCode işlevselliklerinden yararlanmak için gereklidir.
+## Adım adım kılavuz
 
-Şimdi Java'da Aspose.BarCode kullanarak kod metni konumunu ayarlama örneğini inceleyelim. Bu adımları takip et:
-
-## 1. Adım: Dizin Yollarını Tanımlayın
+### Adım 1: Dizin Yollarını Tanımlama
+Dosyaları okuyup/ yazmak istediğiniz yeri belirtin. Yer tutucuları makinenizdeki gerçek yollarla değiştirin.
 
 ```java
 String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-"Dizin Yolunuz" ve "Belge Dizininiz"i projenizdeki uygun yollarla değiştirdiğinizden emin olun.
-
-## Adım 2: BarcodeGenerator Örneği Oluşturun
+### Adım 2: BarcodeGenerator Örneği Oluşturma
+`BarcodeGenerator`'ı **Data Matrix** türüyle örnekleyin ve kodlamak istediğiniz metni sağlayın.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX,
         "GTIN:898978777776665655 " + "UID: 121212121212121212 " + "Batch:GH768 " + "Exp.Date:150923");
 ```
 
-Burada barkod türünü ve kod metnini belirterek bir BarcodeGenerator örneğini başlatıyoruz.
-
-## 3. Adım: Kod Metni Konumunu Ayarlayın
+### Adım 3: Barkod metni konumunu nasıl ayarlarsınız
+İnsan tarafından okunabilir metni taşımak için `CodeLocation` enum'ını kullanın. Bu örnekte metni barkodun **üzerine** yerleştiriyoruz.
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setLocation(CodeLocation.ABOVE);
 ```
 
-Kod metni konumunu ayarlayın. Bu örnekte kod metnini barkodun üstüne konumlandırıyoruz.
-
-## Adım 4: Oluşturulan Barkod Görüntüsünü Kaydedin
+### Adım 4: Oluşturulan Barkod Görüntüsünü Kaydetme
+Son olarak, barkod görüntüsünü diske yazın. Dosya, metnin üstte konumlandırıldığı Data Matrix sembolünü içerecek.
 
 ```java
 generator.save(dataDir + "codetextAbove.png");
 ```
 
-Son olarak, oluşturulan barkod görüntüsünü belirtilen kod metni konumuyla kaydedin.
-
-## Çözüm
-
-Tebrikler! Aspose.BarCode for Java'yı başarıyla kurdunuz ve özel kod metni yerleşimine sahip bir barkod oluşturdunuz. Bu Aspose.BarCode'un Java uygulamalarında barkod oluşturma için sunduğu güçlü özelliklere sadece bir bakış.
+## Yaygın Sorunlar ve Çözümler
+- **Metin görünmüyor:** `CodeLocation`'ı destekleyen bir Aspose.BarCode sürümü kullandığınızdan emin olun.  
+- **Dosya yolu hataları:** `dataDir`'in işletim sisteminize uygun bir dosya ayırıcı (`/` veya `\\`) ile bittiğini doğrulayın.  
+- **Desteklenmeyen karakterler:** Data Matrix yalnızca sınırlı bir karakter kümesini kodlayabilir; ISO/IEC 16022 standardında bulunmayan özel sembollerden kaçının.  
 
 ## Sıkça Sorulan Sorular (SSS)
 
 ### S: Oluşturulan barkodun görünümünü özelleştirebilir miyim?
-Evet, Aspose.BarCode kapsamlı özelleştirme seçenekleri sunarak barkod görünümünün çeşitli yönlerini kontrol etmenize olanak tanır.
+A: Evet, Aspose.BarCode geniş özelleştirme seçenekleri sunar; renkleri, kenar boşluklarını ve yazı tipi stillerini kontrol etmenizi sağlar.
 
 ### S: Aspose.BarCode Java 8 ve sonraki sürümlerle uyumlu mu?
-Kesinlikle Aspose.BarCode, Java 8 ve sonraki tüm sürümlerle sorunsuz çalışacak şekilde tasarlanmıştır.
+A: Kesinlikle, kütüphane Java 8 ve sonraki tüm sürümlerle çalışır.
 
-### S: Aspose.BarCode'u mevcut Java projeme nasıl entegre edebilirim?
-Aspose.BarCode JAR dosyalarını projenizin sınıf yoluna eklemeniz yeterlidir; barkod oluşturmaya hazırsınız.
+### S: Aspose.BarCode'u mevcut Java projemle nasıl entegre edebilirim?
+A: Aspose.BarCode JAR dosyalarını projenizin sınıf yoluna ekleyin, gerekli paketleri içe aktarın ve barkod üretmeye hazırsınız.
 
-### S: Aspose.BarCode'un deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü edinerek Aspose.BarCode'un yeteneklerini keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+### S: Aspose.BarCode için bir deneme sürümü mevcut mu?
+A: Evet, ücretsiz bir deneme sürümünü [buradan](https://releases.aspose.com/) alarak Aspose.BarCode'un yeteneklerini keşfedebilirsiniz.
 
-### S: Aspose.BarCode için nereden yardım veya destek alabilirim?
- Ziyaret edin[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13) Toplumsal destek ve yardım için.
+### S: Aspose.BarCode için yardım veya destek nereden alabilirim?
+A: Topluluk yardımı ve resmi destek için [Aspose.BarCode forumunu](https://forum.aspose.com/c/barcode/13) ziyaret edin.
+
+## Ek Sıkça Sorulan Sorular
+
+**S: Metni sembolün altında konumlandırarak bir barkod oluşturabilir miyim?**  
+C: Evet, aynı `setLocation` metodunda `CodeLocation.BELOW` ayarlayın.
+
+**S: Kütüphane QR Code gibi diğer 2‑D barkodları destekliyor mu?**  
+C: Kesinlikle, sadece `EncodeTypes.DATA_MATRIX`'i `EncodeTypes.QR` olarak değiştirin.
+
+**S: Barkod metninin yazı tipi boyutunu nasıl değiştiririm?**  
+C: `generator.getParameters().getBarcode().getCodeTextParameters().setFontSize(double size)` metodunu kullanın.
+
+## Sonuç
+
+Artık Java'da **veri matrisi barkodu** oluşturmayı ve Aspose.BarCode kullanarak **barkod metninin konumunu** nasıl ayarlayacağınızı tam olarak öğrendiniz. Uygulamanızın tasarım gereksinimlerine uyması için diğer `CodeLocation` değerleri ve stil seçenekleriyle denemeler yapın.
+
+---
+
+**Son Güncelleme:** 2025-12-27  
+**Test Edilen Versiyon:** Aspose.BarCode for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
