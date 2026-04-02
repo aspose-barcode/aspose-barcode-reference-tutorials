@@ -78,15 +78,15 @@ weight: 25
 ### [تعيين نص الكود في Java](./setting-code-text/)
 أنشئ باركودات بسهولة في Java مع Aspose.BarCode. اتبع دليلنا خطوة بخطوة لتخصيص نص الكود بفعالية.
 
+---
+
+**آخر تحديث:** 2025-12-27  
+**تم الاختبار مع:** Aspose.BarCode for Java 24.12  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-27  
-**تم الاختبار مع:** Aspose.BarCode for Java 24.12  
-**المؤلف:** Aspose

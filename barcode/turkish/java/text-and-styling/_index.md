@@ -76,15 +76,15 @@ Aspose.BarCode ile Java'da dinamik barkodları zahmetsizce oluşturun. Kod metni
 ### [Java'da Kod Metnini Ayarlama](./setting-code-text/)
 Aspose.BarCode ile Java'da barkodları zahmetsizce oluşturun. Etkili kod metni özelleştirme için adım‑adım rehberimizi izleyin.
 
+---
+
+**Son Güncelleme:** 2025-12-27  
+**Test Edilen:** Aspose.BarCode for Java 24.12  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-27  
-**Test Edilen:** Aspose.BarCode for Java 24.12  
-**Yazar:** Aspose

@@ -18,7 +18,7 @@ weight: 25
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về **cách tùy chỉnh barcode text Java** với thư viện Aspose.BarCode. Dù bạn là một nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu, các hướng dẫn này sẽ giúp bạn tạo ra các mã vạch động, thêm chú thích và định dạng văn bản mã chính xác theo nhu cầu.
 
-## Quick Answers
+## Câu trả lời nhanh
 - **Câu hỏi “customize barcode text java” có nghĩa là gì?** Nó đề cập đến việc chỉnh sửa giao diện, nội dung và vị trí của văn bản có thể đọc được bởi con người đi kèm với mã vạch trong một ứng dụng Java.  
 - **Tôi có thể thêm chú thích vào mã vạch trong Java không?** Có – Aspose.BarCode cung cấp một API đơn giản để tạo barcode with caption java.  
 - **Làm thế nào để thay đổi màu văn bản?** Sử dụng phương thức `setForeColor` trên đối tượng `CodeTextParameters`.  
@@ -76,13 +76,6 @@ Tạo mã vạch động một cách dễ dàng trong Java với Aspose.BarCode.
 ### [Setting Code Text in Java](./setting-code-text/)
 Tạo mã vạch một cách dễ dàng trong Java với Aspose.BarCode. Thực hiện theo hướng dẫn chi tiết để tùy chỉnh văn bản mã một cách hiệu quả.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -90,3 +83,10 @@ Tạo mã vạch một cách dễ dàng trong Java với Aspose.BarCode. Thực 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

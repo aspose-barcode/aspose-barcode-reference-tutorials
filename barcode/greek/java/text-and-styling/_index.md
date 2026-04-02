@@ -76,15 +76,15 @@ weight: 25
 ### [Setting Code Text in Java](./setting-code-text/)
 Δημιουργήστε barcodes σε Java με την Aspose.BarCode. Ακολουθήστε τον οδηγό βήμα‑βήμα μας για αποτελεσματική προσαρμογή του κειμένου κώδικα.
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.BarCode for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.BarCode for Java 24.12  
-**Author:** Aspose

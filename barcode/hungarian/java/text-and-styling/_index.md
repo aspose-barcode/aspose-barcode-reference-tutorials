@@ -76,13 +76,6 @@ Generálj dinamikus vonalkódokat könnyedén Java‑ban az Aspose.BarCode‑dal
 ### [Kódszöveg beállítása Java‑ban](./setting-code-text/)
 Generálj vonalkódokat könnyedén Java‑ban az Aspose.BarCode‑dal. Kövesd lépésről‑lépésre útmutatónkat a hatékony kódszöveg testreszabáshoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -90,3 +83,10 @@ Generálj vonalkódokat könnyedén Java‑ban az Aspose.BarCode‑dal. Kövesd 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

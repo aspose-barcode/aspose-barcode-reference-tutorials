@@ -76,13 +76,6 @@ Generuj dynamiczne kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCod
 ### [Ustawianie tekstu kodu w Javie](./setting-code-text/)
 Generuj kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie dostosować tekst kodu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-27  
@@ -90,3 +83,10 @@ Generuj kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCode. Postępu
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

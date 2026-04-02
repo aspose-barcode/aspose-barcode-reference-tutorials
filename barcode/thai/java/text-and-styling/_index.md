@@ -74,15 +74,15 @@ weight: 25
 ### [การตั้งค่าข้อความโค้ดใน Java](./setting-code-text/)
 สร้างบาร์โค้ดอย่างง่ายดายใน Java ด้วย Aspose.BarCode ปฏิบัติตามคำแนะนำแบบขั้นตอนต่อขั้นตอนเพื่อการปรับแต่งข้อความโค้ดอย่างมีประสิทธิภาพ.
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-27  
+**ทดสอบด้วย:** Aspose.BarCode for Java 24.12  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-27  
-**ทดสอบด้วย:** Aspose.BarCode for Java 24.12  
-**ผู้เขียน:** Aspose

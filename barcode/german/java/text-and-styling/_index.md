@@ -76,13 +76,6 @@ Erzeugen Sie dynamische Barcodes mühelos in Java mit Aspose.BarCode. Folgen Sie
 ### [Code‑Text in Java festlegen](./setting-code-text/)
 Erzeugen Sie Barcodes mühelos in Java mit Aspose.BarCode. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine effiziente Code‑Text‑Anpassung.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-27  
@@ -90,3 +83,10 @@ Erzeugen Sie Barcodes mühelos in Java mit Aspose.BarCode. Folgen Sie unserer Sc
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

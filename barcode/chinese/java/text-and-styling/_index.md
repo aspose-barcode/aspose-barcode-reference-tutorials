@@ -80,15 +80,15 @@ weight: 25
 ### [在 Java 中设置代码文本](./setting-code-text/)
 使用 Aspose.BarCode 在 Java 中轻松生成条形码。遵循我们的分步指南，实现高效的代码文本定制。
 
+---
+
+**最后更新:** 2025-12-27  
+**测试环境:** Aspose.BarCode for Java 24.12  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新:** 2025-12-27  
-**测试环境:** Aspose.BarCode for Java 24.12  
-**作者:** Aspose

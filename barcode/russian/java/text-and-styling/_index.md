@@ -76,13 +76,6 @@ weight: 25
 ### [Setting Code Text in Java](./setting-code-text/)
 Легко генерируйте штрих‑коды в Java с Aspose.BarCode. Следуйте нашему пошаговому руководству для эффективной настройки текста кода.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-27  
@@ -90,3 +83,10 @@ weight: 25
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

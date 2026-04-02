@@ -76,13 +76,6 @@ Jednoduše generujte dynamické čárové kódy v Javě pomocí Aspose.BarCode. 
 ### [Nastavení textu kódu v Javě](./setting-code-text/)
 Jednoduše generujte čárové kódy v Javě pomocí Aspose.BarCode. Postupujte podle našeho podrobného návodu pro efektivní přizpůsobení textu kódu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -90,3 +83,10 @@ Jednoduše generujte čárové kódy v Javě pomocí Aspose.BarCode. Postupujte 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -76,15 +76,15 @@ Gere códigos de barras dinâmicos de forma simples em Java com Aspose.BarCode. 
 ### [Definindo o Texto do Código em Java](./setting-code-text/)
 Gere códigos de barras de forma simples em Java com Aspose.BarCode. Siga nosso guia passo a passo para uma personalização eficiente do texto do código.
 
+---
+
+**Última atualização:** 2025-12-27  
+**Testado com:** Aspose.BarCode for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-27  
-**Testado com:** Aspose.BarCode for Java 24.12  
-**Autor:** Aspose

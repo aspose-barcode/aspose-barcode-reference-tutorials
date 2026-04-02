@@ -76,13 +76,6 @@ Generera dynamiska streckkoder enkelt i Java med Aspose.BarCode. Följ vår steg
 ### [Setting Code Text in Java](./setting-code-text/)
 Generera streckkoder enkelt i Java med Aspose.BarCode. Följ vår steg‑för‑steg‑guide för effektiv anpassning av kodtext.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -90,3 +83,10 @@ Generera streckkoder enkelt i Java med Aspose.BarCode. Följ vår steg‑för‑
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

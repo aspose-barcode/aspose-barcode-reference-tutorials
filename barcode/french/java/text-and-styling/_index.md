@@ -82,15 +82,15 @@ Générez des codes‑barres dynamiques facilement en Java avec Aspose.BarCode. 
 Définir le texte du code en Java
 Générez des codes‑barres facilement en Java avec Aspose.BarCode. Suivez notre guide étape par étape pour une personnalisation efficace du texte du code.
 
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.BarCode for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-27  
-**Tested With:** Aspose.BarCode for Java 24.12  
-**Author:** Aspose

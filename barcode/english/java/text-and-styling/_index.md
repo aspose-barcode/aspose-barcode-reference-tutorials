@@ -74,13 +74,6 @@ Generate dynamic barcodes effortlessly in Java with Aspose.BarCode. Follow our s
 ### [Setting Code Text in Java](./setting-code-text/)
 Generate barcodes effortlessly in Java with Aspose.BarCode. Follow our step‑by‑step guide for efficient code text customization.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-27  
@@ -88,3 +81,10 @@ Generate barcodes effortlessly in Java with Aspose.BarCode. Follow our step‑by
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

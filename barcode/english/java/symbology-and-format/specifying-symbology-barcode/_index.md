@@ -1,5 +1,5 @@
 ---
-title: Generate Barcode Java: Specifying Symbology for Barcode
+title: Generate Barcode Java - Specifying Symbology for Barcode
 linktitle: Specifying Symbology for Barcode
 second_title: Aspose.BarCode Java API
 description: Learn how to generate barcode java with Aspose.BarCode. This guide covers barcode generator java example, creating barcode image java, and Code39 usage.

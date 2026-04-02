@@ -18,32 +18,32 @@ weight: 10
 
 ## Introduction
 
-Si vous avez besoin de **comment ajouter une légende** à un code-barres pour une meilleure lisibilité et un meilleur branding, vous êtes au bon endroit. Dans ce tutoriel, nous passerons en revue les étapes exactes pour ajouter des légendes au-dessus et en dessous d’une image de code‑barres en utilisant Aspose.BarCode pour Java. À la fin, vous disposerez d’un code‑barres entièrement stylisé qui non seulement encode les données mais affiche également un texte utile — parfait pour les étiquettes de produits, les systèmes d’inventaire ou tout scénario où les utilisateurs bénéficient d’un contexte supplémentaire.
+Si vous avez besoin de **comment ajouter une légende** à un code-barres pour une meilleure lisibilité et un meilleur branding, vous êtes au bon endroit. Dans ce tutoriel, nous passerons en revue les étapes exactes pour ajouter des légendes au-dessus et en dessous d'une image de code‑barres en utilisant Aspose.BarCode pour Java. À la fin, vous disposez d’un code‑barres entièrement stylisé qui non seulement encode les données mais affiche également un texte utile — parfait pour les étiquettes de produits, les systèmes d’inventaire ou tout scénario où les utilisateurs bénéficient d’un contexte supplémentaire.
 
-## Quick Answers
-- **Quelle bibliothèque est requise ?** Aspose.BarCode for Java.  
-- **Puis-je changer la police et la couleur ?** Oui — la famille de police de la légende et la couleur du texte sont personnalisables.  
-- **Quels types de code‑barres fonctionnent ?** Toutes les symbologies prises en charge par Aspose.BarCode (par ex., CODE_128, QR, DataMatrix).  
-- **Ai‑je besoin d’une licence pour les tests ?** Un essai gratuit est disponible ; une licence commerciale est requise pour la production.  
-- **Combien de temps prend l’implémentation ?** Généralement moins de 10 minutes une fois la bibliothèque ajoutée.
+## Réponses rapides
+- **Quelle bibliothèque est requise ?** Aspose.BarCode for Java.
+- **Puis-je changer la police et la couleur ?** Oui — la famille de police de la légende et la couleur du texte sont personnalisables.
+- **Quels types de code‑barres fonctionnent ?** Toutes les symbologies prises en charge par Aspose.BarCode (par ex., CODE_128, QR, DataMatrix).
+- **Ai‑je besoin d’une licence pour les tests ?** Un essai gratuit est disponible ; une licence commerciale est requise pour la production.
+- **Combien de temps prend l’implémentation ?** Généralement moins de 10minutes une fois la bibliothèque ajoutée.
 
-## What is a caption in a barcode?
+## Qu'est-ce qu'une légende dans un code-barres ?
 Une légende est un texte simple qui apparaît soit au-dessus, soit en dessous du graphique du code‑barres. Elle peut indiquer le nom du produit, le prix ou toute autre information qui complète les données encodées.
 
-## Why add captions with Aspose.BarCode?
-- **Expérience utilisateur améliorée :** Les utilisateurs peuvent lire instantanément la signification d’un code‑barres sans le scanner.  
-- **Cohérence de la marque :** Vous pouvez appliquer vos propres polices, couleurs et alignements pour correspondre aux guides de style de l’entreprise.  
-- **Contrôle total :** L’API d’Aspose.BarCode vous permet de basculer la visibilité, de définir l’alignement et de styliser chaque légende indépendamment.
+## Pourquoi ajouter des légendes avec Aspose.BarCode ?
+- **Expérience utilisateur améliorée :** Les utilisateurs peuvent lire instantanément la signification d'un code‑barres sans le scanner.
+- **Cohérence de la marque :** Vous pouvez appliquer vos propres politiques, couleurs et alignements pour correspondre aux guides de style de l'entreprise.
+- **Contrôle total :** L’API d’Aspose.BarCode vous permet de basculer la visibilité, de définir l’alignement et de styliser chaque légende définie.
 
-## Prerequisites
+## Prérequis
 
-Avant de commencer, assurez‑vous d’avoir :
+Avant de commencer, assurez-vous d’avoir :
 
 - Le Java Development Kit (JDK) installé.
 - La bibliothèque Aspose.BarCode for Java téléchargée et ajoutée à votre projet. Vous pouvez trouver le lien de téléchargement [ici](https://releases.aspose.com/barcode/java/).
-- Un IDE tel qu’IntelliJ IDEA ou Eclipse.
+- Un IDE tel qu'IntelliJ IDEA ou Eclipse.
 
-## Import Packages
+## Importer les packages
 
 Dans votre fichier source Java, importez les classes Aspose.BarCode requises ainsi que la classe AWT `Color` :
 
@@ -52,7 +52,7 @@ import com.aspose.barcode.*;
 import java.awt.*;
 ```
 
-## Step 1: Set Up Document and Resource Directories
+## Étape 1 : Configurer les répertoires de documents et de ressources
 
 Spécifiez où vous souhaitez stocker l’image du code‑barres générée. Ajustez les chemins pour qu’ils correspondent à votre environnement.
 
@@ -61,7 +61,7 @@ String path = "Your Directory Path";
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create Barcode Generator Instance
+## Étape 2 : Créer une instance du générateur de codes-barres
 
 Instanciez `BarcodeGenerator` avec la symbologie souhaitée (par ex., CODE_128) et le texte du code que vous voulez encoder.
 
@@ -69,7 +69,7 @@ Instanciez `BarcodeGenerator` avec la symbologie souhaitée (par ex., CODE_128) 
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-## Step 3: Configure Caption Above the Barcode
+## Étape 3 : Configurer la légende au-dessus du code-barres
 
 Définissez la légende qui apparaît au-dessus du code‑barres. Vous pouvez contrôler l’alignement, le texte, la visibilité, la famille de police, la taille et la couleur.
 
@@ -82,7 +82,7 @@ bb.getParameters().getCaptionAbove().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionAbove().setTextColor(Color.RED);
 ```
 
-## Step 4: Configure Caption Below the Barcode
+## Étape 4 : Configurer la légende en dessous du code-barres
 
 De même, définissez la légende en dessous du code‑barres. N’hésitez pas à utiliser un alignement ou un style différent si besoin.
 
@@ -95,7 +95,7 @@ bb.getParameters().getCaptionBelow().getFont().getSize().setPoint(14);
 bb.getParameters().getCaptionBelow().setTextColor(Color.RED);
 ```
 
-## Step 5: Save the Barcode Image
+## Étape 5 : Enregistrer l’image du code-barres
 
 Enfin, écrivez le code‑barres (avec les légendes) dans un fichier image. Le format est déduit de l’extension du fichier.
 
@@ -105,34 +105,34 @@ bb.save(dataDir + "barcodeCaption.jpg");
 
 Vous pouvez répéter les étapes ci‑dessus pour expérimenter différentes polices, couleurs ou alignements, ou pour générer plusieurs images de code‑barres dans une boucle.
 
-## Common Issues & Tips
+## Problèmes courants et conseils
 
-- **Légende non visible ?** Assurez‑vous que `setVisible(true)` est appelé pour la légende que vous souhaitez afficher.  
-- **Couleurs incorrectes ?** Utilisez les constantes `java.awt.Color` ou créez des couleurs personnalisées avec `new Color(r, g, b)`.  
-- **Problèmes de chemin ?** Vérifiez que `dataDir` pointe vers un dossier existant et accessible en écriture ; sinon, `bb.save()` lèvera une `IOException`.  
+- **Légende non visible ?** Assurez-vous que `setVisible(true)` est appelé pour la légende que vous souhaitez afficher.
+- **Couleurs incorrectes ?** Utilisez les constantes `java.awt.Color` ou créez des couleurs personnalisées avec `new Color(r, g, b)`.
+- **Problèmes de chemin ?** Vérifiez que `dataDir` pointe vers un dossier existant et accessible en écriture ; sinon, `bb.save()` générera une `IOException`.
 - **Conseil de performance :** Réutilisez une seule instance de `BarcodeGenerator` lors de la génération de nombreux codes‑barres ; changez uniquement les `EncodeTypes` ou le `codetext` selon les besoins.
 
-## Frequently Asked Questions (FAQs)
+## Questions fréquemment posées (FAQ)
 
-### Can I customize the font style of the barcode captions?
+### Puis-je personnaliser le style de police des légendes des codes-barres ?
 Oui, vous pouvez personnaliser la famille de police, la taille et la couleur de la légende au-dessus et en dessous du code‑barres.
 
-### Is Aspose.BarCode compatible with different barcode symbologies?
-Absolument ! Aspose.BarCode prend en charge un large éventail de symbologies, garantissant une flexibilité dans la génération de codes‑barres.
+### Aspose.BarCode est-il compatible avec différentes symbologies de codes-barres ?
+Absolument ! Aspose.BarCode prend en charge un large éventail de symbologies, garantissant une flexibilité dans la génération de codes-barres.
 
-### How can I integrate Aspose.BarCode into my Java project?
+### Comment intégrer Aspose.BarCode dans mon projet Java ?
 Vous pouvez suivre le guide d’intégration détaillé disponible [ici](https://reference.aspose.com/barcode/java/) pour des instructions étape par étape.
 
-### Is there a free trial available for Aspose.BarCode for Java?
+### Existe-t-il un essai gratuit disponible pour Aspose.BarCode pour Java ?
 Oui, vous pouvez accéder à l’essai gratuit [ici](https://releases.aspose.com/) pour explorer toutes les fonctionnalités avant d’acheter.
 
-### Where can I get help if I run into issues?
+### Où puis-je obtenir de l'aide si je rencontre des problèmes ?
 Où puis‑je obtenir de l’aide en cas de problème ? Le forum communautaire d’Aspose.BarCode est un excellent endroit pour le support et les discussions. Visitez le forum [ici](https://forum.aspose.com/c/barcode/13).
 
 ---
 
-**Dernière mise à jour :** 2025-12-27  
-**Testé avec :** Aspose.BarCode for Java 24.11  
+**Dernière mise à jour :** 2025-12-27
+**Testé avec :** Aspose.BarCode pour Java 24.11
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
