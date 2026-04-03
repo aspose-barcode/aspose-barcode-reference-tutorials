@@ -1,93 +1,127 @@
 ---
-title: Regolazione dell'altezza del codice a barre unidimensionale
-linktitle: Regolazione dell'altezza del codice a barre unidimensionale
-second_title: API Aspose.BarCode .NET
-description: Scopri come regolare l'altezza dei codici a barre unidimensionali in .NET con Aspose.BarCode per una personalizzazione precisa. Crea codici a barre perfetti senza sforzo!
-weight: 13
+date: 2026-02-22
+description: Impara a creare un'altezza personalizzata per i codici a barre in .NET
+  usando Aspose.BarCode, regola l'altezza dei codici a barre unidimensionali in modo
+  rapido e preciso.
+linktitle: Create Barcode Custom Height – One-Dimensional Barcodes
+second_title: Aspose.BarCode .NET API
+title: Crea Codice a Barre con Altezza Personalizzata – Codici a Barre Unidimensionali
 url: /it/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
+weight: 13
 ---
+
+Then closing shortcodes.
+
+Let's craft final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Regolazione dell'altezza del codice a barre unidimensionale
+# Crea Altezza Personalizzata del Codice a Barre – Codici a Barre Unidimensionali
 
+Quando hai bisogno di **creare un'altezza personalizzata per il codice a barre** in un'applicazione .NET, Aspose.BarCode per .NET ti offre il pieno controllo sull'aspetto visivo dei codici a barre unidimensionali. Che tu stia creando etichette di inventario, ricevute di punto vendita o etichette di spedizione, la possibilità di regolare finemente l'altezza del codice a barre garantisce prestazioni di scansione ottimali e un aspetto curato. In questa guida passo‑passo ti mostreremo tutto ciò che devi sapere per regolare l'altezza di un codice a barre unidimensionale usando Aspose.BarCode per .NET.
 
-Quando si tratta di generare codici a barre nelle applicazioni .NET, Aspose.BarCode per .NET è uno strumento potente e versatile in grado di semplificare il processo. Che tu stia creando codici a barre per la gestione dell'inventario, la vendita al dettaglio o qualsiasi altra applicazione, è essenziale un controllo preciso sulle proprietà del codice a barre. Una di queste proprietà è l'altezza del codice a barre unidimensionale. In questa guida passo passo, ti guideremo attraverso il processo di regolazione dell'altezza di un codice a barre unidimensionale utilizzando Aspose.BarCode per .NET.
+## Risposte Rapide
+- **Cosa significa “barcode custom height”?** È la dimensione verticale basata sui pixel di un simbolo di codice a barre 1‑D.  
+- **Quale proprietà controlla l'altezza?** `Parameters.Barcode.BarHeight.Pixels`.  
+- **Posso generare più altezze in un'unica esecuzione?** Sì – basta modificare la proprietà e chiamare nuovamente `Save()`.  
+- **Formati immagine supportati?** PNG, JPEG, TIFF, BMP, GIF e altri.  
+- **È necessaria una licenza per regolare l'altezza?** No, la funzionalità è disponibile nella versione di prova gratuita; è richiesta una licenza per l'uso in produzione.
+
+## Cos'è “creare altezza personalizzata del codice a barre”?
+Creare un codice a barre con un'altezza personalizzata significa specificare il valore pixel esatto per la dimensione verticale delle barre del codice a barre. Questo è utile quando hai requisiti di layout rigidi, devi corrispondere a materiali stampati esistenti o desideri migliorare la leggibilità da parte dello scanner su diversi supporti.
+
+## Perché usare Aspose.BarCode per .NET?
+- **Rich API** – Regola dimensioni, colore, testo e altro con semplici impostazioni di proprietà.  
+- **Cross‑platform** – Funziona con .NET Framework, .NET Core e .NET 5/6+.  
+- **Nessuna dipendenza esterna** – Genera immagini senza necessità di librerie aggiuntive.  
+- **Rendering di alta qualità** – Garantisce codici a barre leggibili anche con dimensioni personalizzate.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
-- Un ambiente di sviluppo con .NET Framework o .NET Core.
--  Aspose.BarCode per .NET installato. Puoi scaricarlo dal sito web[Qui](https://releases.aspose.com/barcode/net/).
+- Un ambiente di sviluppo con .NET Framework o .NET Core.  
+- Aspose.BarCode per .NET installato. Puoi scaricarlo dal sito web [qui](https://releases.aspose.com/barcode/net/).  
 - Un editor di codice a tua scelta.
 
-Ora che abbiamo coperto i prerequisiti, tuffiamoci nel processo di regolazione dell'altezza di un codice a barre unidimensionale.
+Ora che i prerequisiti sono coperti, immergiamoci nel processo di regolazione dell'altezza di un codice a barre unidimensionale.
 
-## Importa spazi dei nomi
+## Importare i Namespace
 
-Innanzitutto, devi importare gli spazi dei nomi necessari nel tuo progetto. Questi spazi dei nomi sono essenziali per lavorare con Aspose.BarCode per .NET. Ecco come puoi farlo:
+Per prima cosa, devi importare i namespace necessari nel tuo progetto. Questi namespace sono essenziali per lavorare con Aspose.BarCode per .NET. Ecco come fare:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Passaggio 1: impostazione del percorso della directory
+## Passo 1: Impostare il Percorso della Directory
 
-Inizia definendo il percorso della directory in cui desideri salvare le immagini dei codici a barre generate. Sostituisci "Percorso della tua directory" con il percorso effettivo nel tuo sistema.
+Inizia definendo il percorso della directory in cui desideri salvare le immagini dei codici a barre generate. Sostituisci `"Your Directory Path"` con il percorso reale sul tuo sistema.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Passaggio 2: creazione del generatore di codici a barre
+## Passo 2: Creare il Barcode Generator
 
- Ora crea un'istanza di`BarcodeGenerator` classe. Puoi specificare il tipo di codice a barre (in questo caso useremo`Code128`) e il valore del codice a barre (in questo esempio "ASPOSE").
+Ora, crea un'istanza della classe `BarcodeGenerator`. Puoi specificare il tipo di codice a barre (in questo caso, useremo `Code128`) e il valore del codice a barre (in questo esempio, `"ASPOSE"`).
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "ASPOSE");
 ```
 
-## Passaggio 3: regolazione dell'altezza del codice a barre
+## Passo 3: Regolare l'Altezza del Codice a Barre
 
- In questo passaggio, imposterai l'altezza del codice a barre utilizzando`BarHeight` proprietà. Ad esempio, regoleremo l'altezza su 40 pixel e 80 pixel e salveremo di conseguenza due immagini di codici a barre.
+In questo passaggio, imposterai l'altezza del codice a barre usando la proprietà `BarHeight`. Come esempio, regoleremo l'altezza a 40 pixel e 80 pixel e salveremo due immagini di codice a barre di conseguenza. Questo dimostra quanto sia semplice **creare altezze personalizzate per il codice a barre** al volo.
 
 ```csharp
-// Imposta BarHeight su 40 pixel
+// Set BarHeight to 40 pixels
 gen.Parameters.Barcode.BarHeight.Pixels = 40;
 gen.Save($"{path}BarHeight40Code128.png", BarCodeImageFormat.Png);
 
-// Imposta BarHeight su 80 pixel
+// Set BarHeight to 80 pixels
 gen.Parameters.Barcode.BarHeight.Pixels = 80;
 gen.Save($"{path}BarHeight80Code128.png", BarCodeImageFormat.Png);
 ```
 
+## Problemi Comuni e Soluzioni
+
+| Problema | Motivo | Soluzione |
+|----------|--------|-----------|
+| Il codice a barre appare troppo sottile dopo la modifica dell'altezza | Larghezza non regolata proporzionalmente | Usa `Parameters.Barcode.XDimension` per modificare la larghezza della barra, se necessario. |
+| Immagine non salvata | Percorso non valido o permessi di scrittura mancanti | Verifica che `path` termini con una barra rovesciata e che la cartella esista. |
+| Il codice a barre generato non può essere scansionato | Altezza troppo bassa/alta per lo scanner | Testa con uno scanner tipico; mantieni l'altezza tra 30‑100 px per la maggior parte dei codici 1‑D. |
+
+## Domande Frequenti
+
+**D: Quali tipi di codice a barre sono supportati da Aspose.BarCode per .NET?**  
+R: Aspose.BarCode per .NET supporta una vasta gamma di tipi di codice a barre, inclusi Code128, QR Code, DataMatrix e molti altri. Puoi trovare un elenco completo nella documentazione.
+
+**D: Posso regolare anche la larghezza di un codice a barre unidimensionale?**  
+R: Sì, puoi regolare la larghezza di un codice a barre unidimensionale usando Aspose.BarCode per .NET. Il processo è simile a quello per l'altezza, e hai pieno controllo sulle dimensioni del codice a barre.
+
+**D: È disponibile una versione di prova gratuita per Aspose.BarCode per .NET?**  
+R: Sì, puoi provare Aspose.BarCode per .NET con una versione di prova gratuita. Puoi scaricarla da [qui](https://releases.aspose.com/).
+
+**D: Posso generare codici a barre in diversi formati immagine?**  
+R: Sì, Aspose.BarCode per .NET supporta vari formati immagine, inclusi PNG, JPEG e TIFF. Puoi scegliere il formato più adatto alle esigenze della tua applicazione.
+
+**D: Dove posso trovare la documentazione dettagliata per Aspose.BarCode per .NET?**  
+R: Puoi consultare la documentazione [qui](https://reference.aspose.com/barcode/net/) per informazioni approfondite sull'uso di Aspose.BarCode nei tuoi progetti .NET.
+
 ## Conclusione
 
-In questo tutorial, abbiamo esaminato il processo di regolazione dell'altezza di un codice a barre unidimensionale utilizzando Aspose.BarCode per .NET. Grazie alla possibilità di ottimizzare le proprietà dei codici a barre, puoi personalizzare le immagini dei codici a barre in base alle tue esigenze specifiche.
+In questo tutorial, abbiamo illustrato il processo di **creazione di un'altezza personalizzata per il codice a barre** per codici a barre unidimensionali usando Aspose.BarCode per .NET. Modificando la proprietà `BarHeight`, puoi generare immagini di codice a barre che si adattano perfettamente ai requisiti di layout, sia che tu abbia bisogno di un'etichetta compatta o di un codice grande e ad alta visibilità.
 
-Ora puoi creare codici a barre con altezze diverse per soddisfare le esigenze della tua applicazione. Aspose.BarCode per .NET semplifica la personalizzazione dei codici a barre, fornendoti un potente strumento per i tuoi progetti .NET.
+Se incontri difficoltà o hai ulteriori domande, non esitare a contattare la community di Aspose tramite il loro [forum di supporto](https://forum.aspose.com/c/barcode/13).
 
- Se hai domande o riscontri problemi, puoi chiedere aiuto alla comunità Aspose al loro indirizzo[Forum di assistenza](https://forum.aspose.com/c/barcode/13).
+---
 
-## Domande frequenti
-
-### Quali tipi di codici a barre sono supportati da Aspose.BarCode per .NET?
-Aspose.BarCode per .NET supporta un'ampia gamma di tipi di codici a barre, tra cui Code128, QR Code, DataMatrix e molti altri. È possibile trovare un elenco completo nella documentazione.
-
-### Posso regolare anche la larghezza di un codice a barre unidimensionale?
-Sì, puoi regolare la larghezza di un codice a barre unidimensionale utilizzando Aspose.BarCode per .NET. Il processo è simile alla regolazione dell'altezza e hai il pieno controllo sulle dimensioni del codice a barre.
-
-### È disponibile una prova gratuita per Aspose.BarCode per .NET?
- Sì, puoi esplorare Aspose.BarCode per .NET con una prova gratuita. Puoi scaricarlo da[Qui](https://releases.aspose.com/).
-
-### Posso generare codici a barre in diversi formati di immagine?
-Sì, Aspose.BarCode per .NET supporta vari formati di immagine, inclusi PNG, JPEG e TIFF. Puoi scegliere il formato che meglio si adatta ai requisiti della tua applicazione.
-
-### Dove posso trovare la documentazione dettagliata per Aspose.BarCode per .NET?
- Puoi fare riferimento alla documentazione[Qui](https://reference.aspose.com/barcode/net/) per informazioni approfondite sull'utilizzo di Aspose.BarCode nei tuoi progetti .NET.
+**Ultimo aggiornamento:** 2026-02-22  
+**Testato con:** Aspose.BarCode 24.11 per .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

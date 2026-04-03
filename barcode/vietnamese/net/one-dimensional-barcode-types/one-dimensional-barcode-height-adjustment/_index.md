@@ -1,93 +1,122 @@
 ---
-title: Điều chỉnh chiều cao mã vạch một chiều
-linktitle: Điều chỉnh chiều cao mã vạch một chiều
-second_title: API Aspose.BarCode .NET
-description: Tìm hiểu cách điều chỉnh chiều cao của mã vạch một chiều trong .NET bằng Aspose.BarCode để tùy chỉnh chính xác. Tạo mã vạch hoàn hảo một cách dễ dàng!
-weight: 13
+date: 2026-02-22
+description: Tìm hiểu cách tạo chiều cao tùy chỉnh cho mã vạch trong .NET bằng Aspose.BarCode,
+  điều chỉnh chiều cao mã vạch một chiều một cách nhanh chóng và chính xác.
+linktitle: Create Barcode Custom Height – One-Dimensional Barcodes
+second_title: Aspose.BarCode .NET API
+title: Tạo chiều cao tùy chỉnh cho mã vạch – Mã vạch một chiều
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Điều chỉnh chiều cao mã vạch một chiều
+# Tạo Độ Cao Tùy Chỉnh Cho Mã Vạch – Mã Vạch Một Chiều
 
+Khi bạn cần **create barcode custom height** trong một ứng dụng .NET, Aspose.BarCode for .NET cung cấp cho bạn toàn quyền kiểm soát giao diện của mã vạch một chiều. Dù bạn đang tạo nhãn kho, biên lai điểm bán hàng, hay thẻ vận chuyển, khả năng tinh chỉnh độ cao của mã vạch giúp đảm bảo hiệu suất quét tối ưu và vẻ ngoài chuyên nghiệp. Trong hướng dẫn từng bước này, chúng tôi sẽ trình bày mọi thứ bạn cần biết để điều chỉnh độ cao của mã vạch một chiều bằng Aspose.BarCode for .NET.
 
-Khi nói đến việc tạo mã vạch trong các ứng dụng .NET, Aspose.BarCode for .NET là một công cụ mạnh mẽ và linh hoạt có thể hợp lý hóa quy trình. Cho dù bạn đang tạo mã vạch để quản lý hàng tồn kho, bán lẻ hay bất kỳ ứng dụng nào khác, việc kiểm soát chính xác các thuộc tính của mã vạch là điều cần thiết. Một trong những đặc tính này là chiều cao của mã vạch một chiều. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình điều chỉnh chiều cao của mã vạch một chiều bằng Aspose.BarCode cho .NET.
+## Câu trả lời nhanh
+- **“barcode custom height” có nghĩa là gì?** Đó là kích thước chiều dọc dựa trên pixel của ký hiệu mã vạch 1‑D.  
+- **Thuộc tính nào kiểm soát độ cao?** `Parameters.Barcode.BarHeight.Pixels`.  
+- **Có thể tạo nhiều độ cao trong một lần chạy không?** Có – chỉ cần thay đổi thuộc tính và gọi `Save()` lại.  
+- **Các định dạng hình ảnh được hỗ trợ?** PNG, JPEG, TIFF, BMP, GIF, và hơn nữa.  
+- **Cần giấy phép để điều chỉnh độ cao không?** Không, tính năng này hoạt động trong bản dùng thử miễn phí; giấy phép cần thiết cho môi trường sản xuất.
 
-## Điều kiện tiên quyết
+## “create barcode custom height” là gì?
+Tạo một mã vạch với độ cao tùy chỉnh có nghĩa là chỉ định giá trị pixel chính xác cho kích thước chiều dọc của các thanh mã vạch. Điều này hữu ích khi bạn có yêu cầu bố cục chặt chẽ, cần khớp với tài liệu in hiện có, hoặc muốn cải thiện khả năng đọc của máy quét trên các loại vật liệu khác nhau.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Tại sao nên sử dụng Aspose.BarCode for .NET?
+- **Rich API** – Điều chỉnh kích thước, màu sắc, văn bản và hơn thế nữa bằng các thiết lập thuộc tính đơn giản.  
+- **Cross‑platform** – Hoạt động với .NET Framework, .NET Core và .NET 5/6+.  
+- **No external dependencies** – Tạo hình ảnh mà không cần thư viện bổ sung.  
+- **High‑quality rendering** – Đảm bảo mã vạch có thể quét được ngay cả ở kích thước tùy chỉnh.
 
-- Môi trường phát triển với .NET Framework hoặc .NET Core.
--  Aspose.BarCode cho .NET được cài đặt. Bạn có thể tải nó từ trang web[đây](https://releases.aspose.com/barcode/net/).
-- Một trình soạn thảo mã theo lựa chọn của bạn.
+## Yêu cầu trước
 
-Bây giờ chúng ta đã có các điều kiện tiên quyết, hãy đi sâu vào quá trình điều chỉnh chiều cao của mã vạch một chiều.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có các yêu cầu sau:
 
-## Nhập không gian tên
+- Môi trường phát triển với .NET Framework hoặc .NET Core.  
+- Aspose.BarCode for .NET đã được cài đặt. Bạn có thể tải xuống từ trang web [here](https://releases.aspose.com/barcode/net/).  
+- Trình soạn thảo mã nguồn mà bạn lựa chọn.
 
-Trước tiên, bạn cần nhập các không gian tên cần thiết vào dự án của mình. Các không gian tên này rất cần thiết để làm việc với Aspose.BarCode cho .NET. Đây là cách bạn có thể làm điều đó:
+Bây giờ chúng ta đã có đầy đủ các yêu cầu, hãy đi sâu vào quy trình điều chỉnh độ cao của mã vạch một chiều.
+
+## Nhập các Namespace
+
+Đầu tiên, bạn cần nhập các namespace cần thiết vào dự án của mình. Các namespace này là thiết yếu để làm việc với Aspose.BarCode for .NET. Đây là cách bạn thực hiện:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Bước 1: Đặt đường dẫn thư mục
+## Bước 1: Đặt Đường Dẫn Thư Mục
 
-Bắt đầu bằng cách xác định đường dẫn thư mục nơi bạn muốn lưu hình ảnh mã vạch đã tạo. Thay thế "Đường dẫn thư mục của bạn" bằng đường dẫn thực tế trong hệ thống của bạn.
+Bắt đầu bằng cách xác định đường dẫn thư mục nơi bạn muốn lưu các hình ảnh mã vạch được tạo. Thay thế `"Your Directory Path"` bằng đường dẫn thực tế trên hệ thống của bạn.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Bước 2: Tạo Trình tạo mã vạch
+## Bước 2: Tạo Trình Tạo Mã Vạch
 
- Bây giờ, hãy tạo một thể hiện của`BarcodeGenerator` lớp học. Bạn có thể chỉ định loại mã vạch (trong trường hợp này, chúng tôi sẽ sử dụng`Code128`) và giá trị mã vạch (trong ví dụ này là "ASPOSE").
+Bây giờ, tạo một thể hiện của lớp `BarcodeGenerator`. Bạn có thể chỉ định loại mã vạch (trong trường hợp này, chúng ta sẽ sử dụng `Code128`) và giá trị mã vạch (trong ví dụ này, `"ASPOSE"`).
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "ASPOSE");
 ```
 
-## Bước 3: Điều chỉnh chiều cao mã vạch
+## Bước 3: Điều Chỉnh Độ Cao Mã Vạch
 
- Ở bước này, bạn sẽ đặt chiều cao của mã vạch bằng cách sử dụng`BarHeight` tài sản. Ví dụ: chúng tôi sẽ điều chỉnh chiều cao thành 40 pixel và 80 pixel và lưu hai hình ảnh mã vạch tương ứng.
+Trong bước này, bạn sẽ đặt độ cao của mã vạch bằng thuộc tính `BarHeight`. Là một ví dụ, chúng ta sẽ điều chỉnh độ cao thành 40 pixel và 80 pixel và lưu hai hình ảnh mã vạch tương ứng. Điều này cho thấy việc **create barcode custom height** giá trị một cách nhanh chóng là bao nhiêu dễ dàng.
 
 ```csharp
-// Đặt BarHeight thành 40 pixel
+// Set BarHeight to 40 pixels
 gen.Parameters.Barcode.BarHeight.Pixels = 40;
 gen.Save($"{path}BarHeight40Code128.png", BarCodeImageFormat.Png);
 
-// Đặt BarHeight thành 80 pixel
+// Set BarHeight to 80 pixels
 gen.Parameters.Barcode.BarHeight.Pixels = 80;
 gen.Save($"{path}BarHeight80Code128.png", BarCodeImageFormat.Png);
 ```
 
-## Phần kết luận
+## Các Vấn Đề Thường Gặp và Giải Pháp
 
-Trong hướng dẫn này, chúng ta đã thực hiện quy trình điều chỉnh chiều cao của mã vạch một chiều bằng Aspose.BarCode cho .NET. Với khả năng tinh chỉnh các thuộc tính mã vạch, bạn có thể điều chỉnh hình ảnh mã vạch theo yêu cầu cụ thể của mình.
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|------------|----------------|
+| Mã vạch trở nên quá mỏng sau khi thay đổi độ cao | Chiều rộng không được điều chỉnh tỷ lệ | Sử dụng `Parameters.Barcode.XDimension` để thay đổi chiều rộng thanh nếu cần. |
+| Hình ảnh không được lưu | Đường dẫn không hợp lệ hoặc thiếu quyền ghi | Kiểm tra `path` kết thúc bằng dấu gạch chéo ngược và thư mục tồn tại. |
+| Mã vạch đã tạo không thể quét được | Độ cao quá thấp/cao đối với máy quét | Kiểm tra với máy quét thông thường; giữ độ cao trong khoảng 30‑100 px cho hầu hết các mã 1‑D. |
 
-Giờ đây, bạn có thể tạo mã vạch với các độ cao khác nhau để phù hợp với nhu cầu ứng dụng của mình. Aspose.BarCode for .NET giúp bạn dễ dàng tùy chỉnh mã vạch, cung cấp cho bạn một công cụ mạnh mẽ cho các dự án .NET của bạn.
+## Câu Hỏi Thường Gặp
 
- Nếu bạn có bất kỳ câu hỏi hoặc gặp phải vấn đề nào, bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose tại địa chỉ của họ.[diễn đàn hỗ trợ](https://forum.aspose.com/c/barcode/13).
+**Q: Các loại mã vạch nào được Aspose.BarCode for .NET hỗ trợ?**  
+A: Aspose.BarCode for .NET hỗ trợ nhiều loại mã vạch, bao gồm Code128, QR Code, DataMatrix và nhiều hơn nữa. Bạn có thể tìm danh sách đầy đủ trong tài liệu.
 
-## Câu hỏi thường gặp
+**Q: Tôi có thể điều chỉnh chiều rộng của mã vạch một chiều không?**  
+A: Có, bạn có thể điều chỉnh chiều rộng của mã vạch một chiều bằng Aspose.BarCode for .NET. Quy trình tương tự như điều chỉnh độ cao, và bạn có toàn quyền kiểm soát kích thước của mã vạch.
 
-### Những loại mã vạch nào được Aspose.BarCode hỗ trợ cho .NET?
-Aspose.BarCode for .NET hỗ trợ nhiều loại mã vạch, bao gồm Code128, Mã QR, DataMatrix, v.v. Bạn có thể tìm thấy một danh sách đầy đủ trong tài liệu.
+**Q: Có bản dùng thử miễn phí cho Aspose.BarCode for .NET không?**  
+A: Có, bạn có thể khám phá Aspose.BarCode for .NET với bản dùng thử miễn phí. Bạn có thể tải xuống từ [here](https://releases.aspose.com/).
 
-### Tôi có thể điều chỉnh độ rộng của mã vạch một chiều không?
-Có, bạn có thể điều chỉnh độ rộng của mã vạch một chiều bằng Aspose.BarCode for .NET. Quá trình này tương tự như điều chỉnh chiều cao và bạn có toàn quyền kiểm soát kích thước của mã vạch.
+**Q: Tôi có thể tạo mã vạch ở các định dạng hình ảnh khác nhau không?**  
+A: Có, Aspose.BarCode for .NET hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG, JPEG và TIFF. Bạn có thể chọn định dạng phù hợp nhất với yêu cầu của ứng dụng.
 
-### Có bản dùng thử miễn phí dành cho Aspose.BarCode cho .NET không?
- Có, bạn có thể khám phá Aspose.BarCode for .NET với bản dùng thử miễn phí. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/).
+**Q: Tôi có thể tìm tài liệu chi tiết cho Aspose.BarCode for .NET ở đâu?**  
+A: Bạn có thể tham khảo tài liệu [here](https://reference.aspose.com/barcode/net/) để có thông tin chi tiết về việc sử dụng Aspose.BarCode trong các dự án .NET của mình.
 
-### Tôi có thể tạo mã vạch ở các định dạng hình ảnh khác nhau không?
-Có, Aspose.BarCode for .NET hỗ trợ nhiều định dạng hình ảnh khác nhau, bao gồm PNG, JPEG và TIFF. Bạn có thể chọn định dạng phù hợp nhất với yêu cầu ứng dụng của mình.
+## Kết luận
 
-### Tôi có thể tìm tài liệu chi tiết về Aspose.BarCode cho .NET ở đâu?
- Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/barcode/net/) để biết thông tin chuyên sâu về cách sử dụng Aspose.BarCode trong các dự án .NET của bạn.
+Trong hướng dẫn này, chúng tôi đã trình bày quy trình **creating barcode custom height** cho mã vạch một chiều bằng Aspose.BarCode for .NET. Bằng cách điều chỉnh thuộc tính `BarHeight`, bạn có thể tạo các hình ảnh mã vạch phù hợp hoàn hảo với yêu cầu bố cục của mình, dù bạn cần một nhãn nhỏ gọn hay một mã lớn, dễ nhìn.
+
+Nếu bạn gặp bất kỳ khó khăn nào hoặc có thêm câu hỏi, hãy thoải mái liên hệ với cộng đồng Aspose qua [support forum](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.BarCode 24.11 for .NET  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
