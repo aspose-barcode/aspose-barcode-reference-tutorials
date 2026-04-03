@@ -1,11 +1,15 @@
 ---
-date: 2025-12-10
-description: Aspose.BarCode kullanarak Java'da tek bir görüntü üzerinde barkod oluşturmayı
-  öğrenin. Bu rehber, Aspose Barcode Java entegrasyonu ve birden fazla barkod oluşturmayı
-  kapsar.
-linktitle: Generating Multiple Barcodes on a Single Image
+date: 2026-04-03
+description: Aspose.BarCode for Java kullanarak QR kodu Java nasıl oluşturulur ve
+  tek bir görüntüde birden fazla barkod nasıl üretilir öğrenin. Kurulum, kod ve sorun
+  giderme içerir.
+keywords:
+- create qr code java
+- aspose barcode java
+- generate barcodes java
+linktitle: Tek Bir Görüntüde Birden Fazla Barkod Oluşturma
 second_title: Aspose.BarCode Java API
-title: Java'da Tek Görüntüde Barkod Oluşturma
+title: QR Kod Oluşturma Java – Tek Görüntüde Birden Fazla Barkod Oluşturma
 url: /tr/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 weight: 19
 ---
@@ -14,40 +18,42 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da Aspose.BarCode ile Tek Görüntüde Birden Çok Barkod Oluşturma
+# QR Kod Java Oluşturma – Tek Görüntüde Birden Çok Barkod Oluşturma
 
 ## Giriş
 
-Java uygulamasında **barkod oluşturma** için güvenilir bir yol arıyorsanız, doğru yerdesiniz. Aspose.BarCode for Java ile sadece birkaç satır kodla farklı barkod türlerini tek bir görüntüye yerleştirebilirsiniz. Bu öğretici, projeyi kurmaktan birleşik görüntüyü kaydetmeye kadar tüm süreci adım adım gösterir; böylece barkod oluşturmayı kendi çözümlerinizde hemen kullanmaya başlayabilirsiniz.
+Bu öğreticide **how to create QR code java** nasıl oluşturulur ve **Aspose.BarCode for Java** kullanarak farklı barkod tiplerini tek bir görüntüde birleştirmeyi öğreneceksiniz. Kompakt bir QR etiketi, ürün barkodu veya 2‑D ve doğrusal sembolojilerin bir karışımına ihtiyacınız olsun, bu rehber proje kurulumundan son birleştirilmiş görüntünün kaydedilmesine kadar her adımı size gösterir; böylece barkod üretimini Java uygulamalarınıza hemen entegre etmeye başlayabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphaneyi kullanmalıyım?** Aspose.BarCode for Java, en kapsamlı semboloji setini sunar.  
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.BarCode for Java en kapsamlı semboloji setini sağlar.  
 - **Farklı barkod tiplerini birlikte oluşturabilir miyim?** Evet, tek bir tuvalde CODE_39, QR, AZTEC ve daha fazlasını karıştırabilirsiniz.  
 - **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
 - **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri tamamen uyumludur.  
-- **Çıktı formatı yapılandırılabilir mi?** Birleşik görüntüyü PNG, JPEG, BMP vb. formatlarda dışa aktarabilirsiniz.
+- **Çıktı formatı yapılandırılabilir mi?** Birleştirilmiş görüntüyü PNG, JPEG, BMP vb. formatlarda dışa aktarabilirsiniz.  
 
-## Java’da “barkod oluşturma” nedir?
-Barkod oluşturmak, veri dizesini tarayıcıların okuyabileceği görsel bir desene dönüştürmek anlamına gelir. Aspose.BarCode, kodlama, renderleme ve görüntü oluşturma adımlarını otomatik olarak yönetir; böylece düşük seviyeli görüntü işleme yerine iş mantığına odaklanabilirsiniz.
+## create QR code java nedir?
 
-## Neden Java barkod oluşturma için Aspose.BarCode kullanmalısınız?
-- **Geniş semboloji desteği** – klasik doğrusal kodlardan modern 2‑D matrislere.  
-- **Yüksek kaliteli renderleme** – her cihazda çalışan anti-aliasing çıktısı.  
+Java’da QR kod oluşturmak, bir metin dizesini akıllı telefonlar veya barkod okuyucular tarafından taranabilen iki‑boyutlu bir matrise dönüştürmek anlamına gelir. **Aspose.BarCode for Java** kodlamayı ve renderlemeyi yönetir, böylece düşük seviyeli görüntü işleme yerine iş mantığına odaklanabilirsiniz.
+
+## Neden Aspose.BarCode Java kullanarak barkodları java’da oluşturmalısınız?
+
+- **Geniş semboloji desteği** – klasik doğrusal kodlardan modern 2‑D matrislere kadar.  
+- **Yüksek kalite renderleme** – herhangi bir cihazda çalışan anti‑alias çıktısı.  
 - **Basit API** – birkaç metod çağrısıyla barkodları oluşturun, özelleştirin ve birleştirin.  
-- **Harici bağımlılık yok** – her şey yerel kütüphane gerektirmeden JVM üzerinde çalışır.
+- **Harici bağımlılık yok** – tümü JVM üzerinde, yerel kütüphanelere ihtiyaç duymadan çalışır.  
 
-## Ön Koşullar
+## Önkoşullar
 
-Öğreticiye başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulları karşıladığınızdan emin olun:
 
 - Java programlamaya temel bir anlayış.  
-- Sisteminizde kurulu Java Development Kit (JDK).  
-- Aspose.BarCode for Java kütüphanesini indirin ve kurun. Bunu [buradan](https://releases.aspose.com/barcode/java/) indirebilirsiniz.  
+- Sisteminizde Java Development Kit (JDK) kurulu.  
+- Aspose.BarCode for Java kütüphanesi indirildi ve kuruldu. Kütüphaneyi [buradan](https://releases.aspose.com/barcode/java/) indirebilirsiniz.  
 - Eclipse veya IntelliJ IDEA gibi bir bütünleşik geliştirme ortamı (IDE).
 
-## İsim Uzaylarını İçe Aktarma
+## İsim Uzaylarını İçe Aktarın
 
-Java projenizde, Aspose.BarCode işlevselliğine erişmek için gerekli isim uzaylarını içe aktarın. Java sınıfınızın başına aşağıdaki import ifadelerini ekleyin:
+Java projenizde Aspose.BarCode işlevselliğine erişmek için gerekli isim uzaylarını içe aktarın. Java sınıfınızın başına aşağıdaki import ifadelerini ekleyin:
 
 ```java
 import java.awt.Color;
@@ -66,7 +72,7 @@ import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Adım 1: Kaynak Dizinini Ayarlama
+## 1. Adım: Kaynak Dizini Ayarlama
 
 Oluşturulan barkodların kaydedileceği kaynak dizinin yolunu tanımlayın. Bu dizin, barkod görüntülerinizi düzenlemek ve yönetmek için kritiktir.
 
@@ -76,9 +82,9 @@ String dataDir = Utils.getDataDir(GenerateMultipleBarcodesOnASingleImage.class)
         + "BarcodeReader/advanced_features/";
 ```
 
-## Adım 2: Barkod Koleksiyonu Oluşturma
+## 2. Adım: Barkod Koleksiyonu Oluşturma
 
-`HashMap`'i barkod verilerini saklamak için başlatın. Koleksiyondaki her giriş, ilgili kodlama türüyle bir barkodu temsil eder.
+Barkod verilerini depolamak için bir `HashMap` başlatın. Koleksiyondaki her giriş, ilgili kodlama türüyle bir barkodu temsil eder.
 
 ```java
 HashMap<String, EncodeTypes> collection = new HashMap<>();
@@ -90,9 +96,9 @@ collection.put("979026000043", EncodeTypes.EAN_13);
 collection.put("Aztec BarCode", EncodeTypes.AZTEC);
 ```
 
-## Adım 3: Barkod Görüntülerini Oluşturma
+## 3. Adım: Barkod Görüntülerini Oluşturma
 
-Koleksiyon üzerinde döngü yaparak Aspose.BarCode kütüphanesini kullanarak barkod görüntülerini oluşturun. Görüntüleri daha sonraki işleme için bir `ArrayList` içinde saklayın.
+Koleksiyonu döngüye alarak Aspose.BarCode kütüphanesini kullanıp barkod görüntülerini oluşturun. Görüntüleri daha sonraki işleme için bir `ArrayList` içinde saklayın.
 
 ```java
 ArrayList<BufferedImage> images = new ArrayList<>();
@@ -103,9 +109,9 @@ for (Object key : collection.keySet()) {
 }
 ```
 
-## Adım 4: Birleştirilmiş Görüntü Oluşturma
+## 4. Adım: Birleştirilmiş Görüntü Oluşturma
 
-Barkod görüntülerinin maksimum genişliğini ve toplam yüksekliğini belirleyin. Tek bir çıktı görüntüsü oluşturmak için bireysel barkod görüntülerini birleştiren bir `BufferedImage` oluşturun.
+Barkod görüntülerinin maksimum genişliğini ve toplam yüksekliğini belirleyin. Tek bir çıktı görüntüsü oluşturmak için bir `BufferedImage` yaratın ve bireysel barkod görüntülerini içine yerleştirin.
 
 ```java
 int maxWidth = 0;
@@ -131,9 +137,9 @@ for (int i = 0; i < images.size(); ++i) {
 }
 ```
 
-## Adım 5: Sonucu Kaydetme
+## 5. Adım: Sonucu Kaydetme
 
-Son birleşik görüntüyü belirtilen dosya konumuna kaydedin.
+Son birleştirilmiş görüntüyü belirtilen dosya konumuna kaydedin.
 
 ```java
 File outputfile = new File(dataDir + "output.png");
@@ -141,44 +147,44 @@ ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
 ## Birden Çok Barkod Oluşturmanın Yaygın Kullanım Senaryoları
-- **Ambalaj etiketleri** – tek bir etiket üzerinde ürün, parti ve gönderim kodlarını birleştirin.  
-- **Etkinlik biletleri** – farklı tarama istasyonları için QR, Data Matrix ve Code 128 tanımlayıcılarını yerleştirin.  
+
+- **Paketleme etiketleri** – tek bir etiket üzerinde ürün, parti ve gönderim kodlarını birleştirin.  
+- **Etkinlik biletleri** – farklı tarama istasyonları için QR, Data Matrix ve Code 128 tanımlayıcılarını gömün.  
 - **Envanter yönetimi** – hızlı denetim için SKU, RFID etiketi verileri ve seri numaralarını birlikte gösterin.
 
-## Sorun Giderme ve İpuçları
+## Sorun Giderme & İpuçları
+
 - **Görüntü boyutu sorunları** – barkodlar arasındaki boşluğu artırmak veya azaltmak için `offset` değişkenini ayarlayın.  
-- **Desteklenmeyen semboloji** – Aspose.BarCode sürümünüzün istenen barkod tipini desteklediğini doğrulayın.  
+- **Desteklenmeyen semboloji** – Aspose.BarCode sürümünüzün istediğiniz barkod tipini desteklediğini doğrulayın.  
 - **Performans** – bir döngüde çok sayıda görüntü oluşturuyorsanız tek bir `Graphics` nesnesini yeniden kullanın.
 
-## SSS
+## Sıkça Sorulan Sorular
 
-### Q1: Oluşturulan görüntüdeki bireysel barkodların görünümünü özelleştirebilir miyim?
-A1: Evet, Aspose.BarCode barkod görünümü için kapsamlı özelleştirme seçenekleri sunar; böylece her barkodun stilini tercihlerinize göre ayarlayabilirsiniz.
+**S1: Oluşturulan görüntüdeki bireysel barkodların görünümünü özelleştirebilir miyim?**  
+C1: Evet, Aspose.BarCode barkod görünümü için kapsamlı özelleştirme seçenekleri sunar; böylece her barkodun stilini tercihlerinize göre ayarlayabilirsiniz.
 
-### Q2: Aspose.BarCode farklı barkod sembolojileriyle uyumlu mu?
-A2: Kesinlikle! Aspose.BarCode, bu öğreticide gösterildiği gibi CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13 ve AZTEC dahil olmak üzere geniş bir semboloji yelpazesini destekler.
+**S2: Aspose.BarCode farklı barkod sembolojileriyle uyumlu mu?**  
+C2: Kesinlikle! Aspose.BarCode CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13 ve AZTEC dahil olmak üzere geniş bir semboloji yelpazesini destekler; bu öğreticide de gösterildiği gibi.
 
-### Q3: Aspose.BarCode'u Java projemle nasıl entegre edebilirim?
-A3: Aspose.BarCode for Java kütüphanesini [buradan](https://releases.aspose.com/barcode/java/) indirip, belgelerde verilen kurulum talimatlarını izleyerek entegre edebilirsiniz.
+**S3: Aspose.BarCode’u Java projeme nasıl entegre edebilirim?**  
+C3: Aspose.BarCode for Java kütüphanesini [buradan](https://releases.aspose.com/barcode/java/) indirip, dokümantasyonda verilen kurulum talimatlarını izleyerek projenize ekleyin.
 
-### Q4: Aspose.BarCode'u ticari uygulamalarda kullanabilir miyim?
-A4: Evet, Aspose.BarCode'u ticari amaçlarla kullanmak için [buradan](https://purchase.aspose.com/buy) bir lisans alabilirsiniz.
+**S4: Aspose.BarCode’u ticari uygulamalarda kullanabilir miyim?**  
+C4: Evet, Aspose.BarCode’u ticari amaçlarla kullanmak için [buradan](https://purchase.aspose.com/buy) bir lisans alabilirsiniz.
 
-### Q5: Aspose.BarCode için deneme seçenekleri mevcut mu?
-A5: Elbette! Aspose.BarCode özelliklerini ücretsiz deneme lisansı alarak [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
+**S5: Aspose.BarCode için deneme seçenekleri mevcut mu?**  
+C5: Elbette! Aspose.BarCode’un özelliklerini ücretsiz bir deneme lisansı alarak keşfedebilirsiniz: [buradan](https://releases.aspose.com/).
 
-**Ek Sorular**
+**S6: Baskı için yüksek çözünürlüklü bir QR kod nasıl oluşturulur?**  
+C6: `BarcodeGenerator` üzerinde istenen DPI değerini ayarlayın, ardından `generateBarCodeImage()` metodunu çağırın ve kaybı olmayan bir format (ör. PNG) ile kaydedin.
 
-**S: Java'da özellikle bir QR kodu nasıl oluştururum?**  
-C: Koleksiyon örneğinde gösterildiği gibi `BarcodeGenerator` örneği oluştururken `EncodeTypes.QR` kullanın.
-
-**S: Aspose.BarCode yüksek çözünürlüklü çıktı (baskı) destekliyor mu?**  
-C: Evet, baskı kalitesi gereksinimlerini karşılamak için görüntüyü kaydederken DPI'yi belirtebilirsiniz.
+**S7: Birleştirilmiş görüntü kesilmiş gibi görünüyor, ne yapmalıyım?**  
+C7: `offset` ve tuval boyutu hesaplamalarının tüm barkod yüksekliklerini doğru şekilde kapsadığını doğrulayın; tuval yüksekliğini artırmak veya bireysel barkod boyutlarını küçültmek çoğu kesilme sorununu çözer.
 
 ---
 
-**Son Güncelleme:** 2025-12-10  
-**Test Edildi:** Aspose.BarCode for Java 24.11  
+**Son Güncelleme:** 2026-04-03  
+**Test Edilen:** Aspose.BarCode for Java 24.11  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

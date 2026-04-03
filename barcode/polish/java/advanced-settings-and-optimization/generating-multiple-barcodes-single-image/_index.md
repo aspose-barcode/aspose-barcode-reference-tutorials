@@ -1,11 +1,15 @@
 ---
-date: 2025-12-10
-description: Dowiedz się, jak generować kody kreskowe na jednym obrazie w Javie przy
-  użyciu Aspose.BarCode. Ten przewodnik obejmuje integrację Aspose.BarCode w Javie
-  oraz generowanie wielu kodów kreskowych.
-linktitle: Generating Multiple Barcodes on a Single Image
+date: 2026-04-03
+description: Dowiedz się, jak tworzyć kody QR w Javie i generować wiele kodów kreskowych
+  na jednym obrazie przy użyciu Aspose.BarCode for Java. Zawiera konfigurację, kod
+  oraz rozwiązywanie problemów.
+keywords:
+- create qr code java
+- aspose barcode java
+- generate barcodes java
+linktitle: Generowanie wielu kodów kreskowych na jednym obrazie
 second_title: Aspose.BarCode Java API
-title: Jak generować kody kreskowe na jednym obrazie w Javie
+title: Tworzenie kodu QR w Javie – Generowanie wielu kodów kreskowych na jednym obrazie
 url: /pl/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 weight: 19
 ---
@@ -14,40 +18,40 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generowanie wielu kodów kreskowych na jednym obrazie w Javie z Aspose.BarCode
+# Utwórz kod QR w Javie – Generowanie wielu kodów kreskowych na jednym obrazie
 
 ## Wprowadzenie
 
-Jeśli szukasz niezawodnego sposobu **jak generować kody kreskowe** w aplikacji Java, trafiłeś we właściwe miejsce. Dzięki Aspose.BarCode for Java możesz umieścić kilka różnych typów kodów kreskowych na jednym obrazie w zaledwie kilku linijkach kodu. Ten samouczek przeprowadzi Cię przez cały proces — od konfiguracji projektu po zapisanie połączonego obrazu — abyś od razu mógł rozpocząć korzystanie z generowania kodów kreskowych w własnych rozwiązaniach.
+W tym samouczku nauczysz się **jak tworzyć kod QR w Javie** i łączyć kilka różnych typów kodów kreskowych na jednym obrazie przy użyciu **Aspose.BarCode for Java**. Niezależnie od tego, czy potrzebujesz kompaktowej etykiety QR, kodu kreskowego produktu, czy mieszanki symbologii 2‑D i liniowych, ten przewodnik przeprowadzi Cię przez każdy krok — od konfiguracji projektu po zapisanie ostatecznego połączonego obrazu — abyś mógł od razu rozpocząć integrowanie generowania kodów kreskowych w swoich aplikacjach Java.
 
 ## Szybkie odpowiedzi
-- **Jaką bibliotekę powinienem używać?** Aspose.BarCode for Java zapewnia najpełniejszy zestaw symbologii.  
-- **Czy mogę generować różne typy kodów kreskowych razem?** Tak, możesz mieszać CODE_39, QR, AZTEC i inne na jednej płaszczyźnie.  
-- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.  
-- **Jaką wersję Javy obsługuje?** Java 8 i nowsze są w pełni kompatybilne.  
-- **Czy format wyjściowy jest konfigurowalny?** Możesz eksportować połączony obraz jako PNG, JPEG, BMP itp.
+- **Jakiej biblioteki powinienem używać?** Aspose.BarCode for Java zapewnia najbardziej kompletny zestaw symbologii.  
+- **Czy mogę generować różne typy kodów kreskowych razem?** Tak, możesz mieszać CODE_39, QR, AZTEC i inne na jednym płótnie.  
+- **Czy potrzebuję licencji do rozwoju?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Która wersja Javy jest wspierana?** Java 8 i nowsze są w pełni kompatybilne.  
+- **Czy format wyjściowy jest konfigurowalny?** Możesz wyeksportować połączony obraz jako PNG, JPEG, BMP itp.  
 
-## Co oznacza „jak generować kody kreskowe” w Javie?
-Generowanie kodów kreskowych to przekształcanie ciągu danych w wizualny wzór, który skanery potrafią odczytać. Aspose.BarCode zajmuje się kodowaniem, renderowaniem i tworzeniem obrazu automatycznie, pozwalając Ci skupić się na logice biznesowej, a nie na niskopoziomowej obróbce grafiki.
+## Co to jest tworzenie kodu QR w Javie?
 
-## Dlaczego warto używać Aspose.BarCode for Java do generowania kodów kreskowych?
+Tworzenie kodu QR w Javie oznacza konwersję ciągu tekstowego na dwuwymiarową macierz, którą mogą skanować smartfony lub czytniki kodów kreskowych. **Aspose.BarCode for Java** obsługuje kodowanie i renderowanie, pozwalając skupić się na logice biznesowej zamiast na niskopoziomowym przetwarzaniu obrazu.
+
+## Dlaczego warto używać Aspose.BarCode Java do generowania kodów kreskowych w Javie?
+
 - **Szerokie wsparcie symbologii** – od klasycznych kodów liniowych po nowoczesne macierze 2‑D.  
-- **Renderowanie wysokiej jakości** – wyjście antyaliasowane, działające na każdym urządzeniu.  
-- **Proste API** – twórz, dostosowuj i łącz kody kreskowe za pomocą kilku wywołań metod.  
-- **Brak zewnętrznych zależności** – wszystko działa na JVM bez bibliotek natywnych.
+- **Renderowanie wysokiej jakości** – wyjście z antyaliasingiem, które działa na każdym urządzeniu.  
+- **Proste API** – tworzenie, dostosowywanie i łączenie kodów kreskowych za pomocą kilku wywołań metod.  
+- **Brak zewnętrznych zależności** – wszystko działa na JVM bez bibliotek natywnych.  
 
 ## Wymagania wstępne
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania:
-
 - Podstawowa znajomość programowania w Javie.  
-- Zainstalowany Java Development Kit (JDK).  
+- Zainstalowany Java Development Kit (JDK) na Twoim systemie.  
 - Biblioteka Aspose.BarCode for Java pobrana i skonfigurowana. Możesz ją pobrać [tutaj](https://releases.aspose.com/barcode/java/).  
 - Zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ IDEA.
 
-## Import Namespaces
+## Importowanie przestrzeni nazw
 
-W swoim projekcie Java zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.BarCode. Dodaj następujące instrukcje importu na początku klasy Java:
+W swoim projekcie Java zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.BarCode. Dodaj następujące instrukcje importu na początku swojej klasy Java:
 
 ```java
 import java.awt.Color;
@@ -68,7 +72,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 ## Krok 1: Ustaw katalog zasobów
 
-Zdefiniuj ścieżkę do katalogu zasobów, w którym będą zapisywane wygenerowane kody kreskowe. Ten katalog jest kluczowy dla organizacji i zarządzania obrazami kodów.
+Zdefiniuj ścieżkę do katalogu zasobów, w którym będą zapisywane wygenerowane kody kreskowe. Ten katalog jest kluczowy dla organizacji i zarządzania obrazami kodów kreskowych.
 
 ```java
 // The path to the resource directory.
@@ -78,7 +82,7 @@ String dataDir = Utils.getDataDir(GenerateMultipleBarcodesOnASingleImage.class)
 
 ## Krok 2: Utwórz kolekcję kodów kreskowych
 
-Zainicjuj `HashMap`, aby przechowywać dane kodów kreskowych. Każdy wpis w kolekcji reprezentuje kod kreskowy wraz z odpowiednim typem kodowania.
+Zainicjalizuj `HashMap`, aby przechowywać dane kodów kreskowych. Każdy wpis w kolekcji reprezentuje kod kreskowy wraz z odpowiednim typem kodowania.
 
 ```java
 HashMap<String, EncodeTypes> collection = new HashMap<>();
@@ -92,7 +96,7 @@ collection.put("Aztec BarCode", EncodeTypes.AZTEC);
 
 ## Krok 3: Generuj obrazy kodów kreskowych
 
-Iteruj po kolekcji i generuj obrazy kodów kreskowych przy użyciu biblioteki Aspose.BarCode. Przechowuj obrazy w `ArrayList` do dalszego przetwarzania.
+Iteruj przez kolekcję i generuj obrazy kodów kreskowych przy użyciu biblioteki Aspose.BarCode. Przechowuj obrazy w `ArrayList` do dalszego przetwarzania.
 
 ```java
 ArrayList<BufferedImage> images = new ArrayList<>();
@@ -105,7 +109,7 @@ for (Object key : collection.keySet()) {
 
 ## Krok 4: Utwórz połączony obraz
 
-Określ maksymalną szerokość i całkowitą wysokość obrazów kodów kreskowych. Utwórz `BufferedImage`, aby połączyć poszczególne obrazy w jeden wynikowy obraz.
+Określ maksymalną szerokość i całkowitą wysokość obrazów kodów kreskowych. Utwórz `BufferedImage`, aby połączyć poszczególne obrazy kodów kreskowych w jeden obraz wyjściowy.
 
 ```java
 int maxWidth = 0;
@@ -133,58 +137,51 @@ for (int i = 0; i < images.size(); ++i) {
 
 ## Krok 5: Zapisz wynik
 
-Zapisz finalny połączony obraz w określonej lokalizacji pliku.
+Zapisz ostateczny połączony obraz w określonej lokalizacji pliku.
 
 ```java
 File outputfile = new File(dataDir + "output.png");
 ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
-## Typowe scenariusze użycia generowania wielu kodów kreskowych
+## Typowe przypadki użycia generowania wielu kodów kreskowych
 
 - **Etykiety opakowań** – łącz produkt, partię i kody wysyłkowe na jednej etykiecie.  
-- **Bilety na wydarzenia** – osadź QR, Data Matrix i identyfikatory Code 128 dla różnych punktów skanowania.  
-- **Zarządzanie zapasami** – wyświetl jednocześnie SKU, dane tagu RFID i numery seryjne dla szybkiego audytu.
+- **Bilety na wydarzenia** – osadź identyfikatory QR, Data Matrix i Code 128 dla różnych stanowisk skanowania.  
+- **Zarządzanie zapasami** – wyświetl SKU, dane tagu RFID i numery seryjne razem dla szybkiego audytu.
 
 ## Rozwiązywanie problemów i wskazówki
 
 - **Problemy z rozmiarem obrazu** – dostosuj zmienną `offset`, aby zwiększyć lub zmniejszyć odstępy między kodami kreskowymi.  
-- **Nieobsługiwana symbologia** – sprawdź, czy Twoja wersja Aspose.BarCode obsługuje żądany typ kodu.  
+- **Nieobsługiwana symbologia** – sprawdź, czy Twoja wersja Aspose.BarCode obsługuje żądany typ kodu kreskowego.  
 - **Wydajność** – ponownie używaj jednego obiektu `Graphics`, jeśli generujesz wiele obrazów w pętli.
 
-## FAQ
+## Najczęściej zadawane pytania
 
-### Q1: Czy mogę dostosować wygląd poszczególnych kodów kreskowych w wygenerowanym obrazie?
+**Q1: Czy mogę dostosować wygląd poszczególnych kodów kreskowych w wygenerowanym obrazie?**  
+A1: Tak, Aspose.BarCode oferuje rozbudowane opcje dostosowywania wyglądu kodów kreskowych, umożliwiając dopasowanie stylu każdego kodu do Twoich preferencji.
 
-A1: Tak, Aspose.BarCode oferuje rozbudowane opcje personalizacji wyglądu kodu, pozwalając dopasować styl każdego kodu do własnych preferencji.
+**Q2: Czy Aspose.BarCode jest kompatybilny z różnymi symbologiami kodów kreskowych?**  
+A2: Zdecydowanie! Aspose.BarCode obsługuje szeroką gamę symbologii, w tym CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13 i AZTEC, co zostało przedstawione w tym samouczku.
 
-### Q2: Czy Aspose.BarCode jest kompatybilny z różnymi symbologiami kodów kreskowych?
+**Q3: Jak mogę zintegrować Aspose.BarCode w moim projekcie Java?**  
+A3: Wystarczy pobrać bibliotekę Aspose.BarCode for Java z [tutaj](https://releases.aspose.com/barcode/java/) i postępować zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
 
-A2: Oczywiście! Aspose.BarCode obsługuje szeroką gamę symbologii, w tym CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13 i AZTEC, co zostało zaprezentowane w tym samouczku.
+**Q4: Czy mogę używać Aspose.BarCode w aplikacjach komercyjnych?**  
+A4: Tak, możesz uzyskać licencję z [tutaj](https://purchase.aspose.com/buy), aby używać Aspose.BarCode do celów komercyjnych.
 
-### Q3: Jak mogę zintegrować Aspose.BarCode w moim projekcie Java?
+**Q5: Czy dostępne są opcje wersji próbnej Aspose.BarCode?**  
+A5: Oczywiście! Możesz zapoznać się z funkcjami Aspose.BarCode, uzyskując darmową licencję próbną [tutaj](https://releases.aspose.com/).
 
-A3: Po prostu pobierz bibliotekę Aspose.BarCode for Java z [tutaj](https://releases.aspose.com/barcode/java/) i postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
+**Q6: Jak wygenerować wysokiej rozdzielczości kod QR do druku?**  
+A6: Ustaw żądane DPI w `BarcodeGenerator` przed wywołaniem `generateBarCodeImage()`, a następnie zapisz obraz w formacie bezstratnym, takim jak PNG.
 
-### Q4: Czy mogę używać Aspose.BarCode w aplikacjach komercyjnych?
-
-A4: Tak, możesz uzyskać licencję z [tutaj](https://purchase.aspose.com/buy), aby korzystać z Aspose.BarCode w celach komercyjnych.
-
-### Q5: Czy dostępne są opcje wersji próbnej Aspose.BarCode?
-
-A5: Z pewnością! Możesz wypróbować funkcje Aspose.BarCode, uzyskując darmową licencję próbną [tutaj](https://releases.aspose.com/).
-
-**Dodatkowe pytania**
-
-**Q: Jak wygenerować kod QR konkretnie w Javie?**  
-A: Użyj `EncodeTypes.QR` przy tworzeniu instancji `BarcodeGenerator`, jak pokazano w przykładzie kolekcji.
-
-**Q: Czy Aspose.BarCode obsługuje wyjście w wysokiej rozdzielczości do druku?**  
-A: Tak, możesz określić DPI przy zapisywaniu obrazu, aby spełnić wymagania jakości druku.
+**Q7: Co zrobić, gdy połączony obraz jest przycięty?**  
+A7: Sprawdź, czy obliczenia `offset` i rozmiaru płótna prawidłowo uwzględniają wszystkie wysokości kodów kreskowych; zwiększenie wysokości płótna lub zmniejszenie rozmiarów poszczególnych kodów rozwiązuje większość problemów z przycinaniem.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-10  
+**Ostatnia aktualizacja:** 2026-04-03  
 **Testowano z:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
