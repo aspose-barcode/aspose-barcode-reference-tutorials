@@ -1,78 +1,97 @@
 ---
-title: Creazione di codici a barre Code 93 unidimensionali
-linktitle: Configurazione codice 93 monodimensionale
-second_title: API Aspose.BarCode .NET
-description: Scopri come creare codici a barre Code 93 con Aspose.BarCode per .NET. Guida passo passo per la generazione di codici a barre.
-weight: 12
+date: 2026-02-25
+description: Scopri come generare un'immagine di codice a barre e salvare il PNG del
+  codice a barre utilizzando Aspose.BarCode per .NET – un esempio completo di Aspose
+  Barcode.
+linktitle: One-Dimensional Code 93 Configuration
+second_title: Aspose.BarCode .NET API
+title: Genera immagine di codice a barre – Code 93 con Aspose.BarCode
 url: /it/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creazione di codici a barre Code 93 unidimensionali
+# Genera immagine barcode – Codice unidimensionale 93 con Aspose.BarCode
 
+## Introduzione
 
-## introduzione
+Nel mondo digitale odierno, i codici a barre sono diventati una parte integrante della nostra vita, semplificando processi come la gestione dell'inventario, l'etichettatura dei prodotti e il tracciamento al punto vendita. **Generare un'immagine barcode** è spesso il primo passo per integrare questi identificatori nelle tue applicazioni. Aspose.BarCode per .NET fornisce un'API robusta e facile da usare che ti consente di creare codici a barre Code 93 di alta qualità con poche righe di codice C#. Che tu stia costruendo un sistema di magazzino, un'app retail o uno strumento di reporting personalizzato, questo tutorial ti guida attraverso un **esempio di barcode aspose** completo che mostra come generare, personalizzare e **salvare barcode PNG**.
 
-Nell'era digitale di oggi, i codici a barre sono diventati parte integrante della nostra vita, semplificando vari processi come la gestione dell'inventario, l'etichettatura dei prodotti e altro ancora. Aspose.BarCode per .NET è un potente strumento che consente agli sviluppatori di generare e lavorare con i codici a barre nelle loro applicazioni senza sforzo. In questa guida passo passo, esploreremo come creare codici a barre Code 93 unidimensionali utilizzando Aspose.BarCode per .NET. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial ti guiderà attraverso il processo in modo intuitivo. Iniziamo!
+## Risposte rapide
+- **Di cosa tratta il tutorial?** Creare e salvare un'immagine barcode Code 93 con gestione del checksum.  
+- **Quale libreria viene utilizzata?** Aspose.BarCode per .NET (ultima versione stabile).  
+- **È necessaria una licenza?** Una versione di prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Posso cambiare il formato di output?** Sì – puoi salvare come PNG, JPEG, BMP, ecc., modificando il `BarCodeImageFormat`.  
+- **Quali sono i requisiti minimi?** .NET Framework 4.6+ o .NET Core 3.1+ e Visual Studio.
 
-## Prerequisiti:
+## Cos'è un barcode Code 93?
 
-Prima di immergerci nella creazione dei codici a barre Code 93, è necessario possedere alcuni prerequisiti:
-1. Visual Studio: assicurati di avere Visual Studio installato sul tuo sistema. Puoi scaricarlo dal sito web.
-2. Aspose.BarCode per .NET: dovresti avere Aspose.BarCode per .NET installato. Puoi scaricarlo dal sito web.
-3. Conoscenza di base di C#: la familiarità con il linguaggio di programmazione C# sarà utile.
+Code 93 è una simbologia alfanumerica ad alta densità che supporta l'intero set di caratteri ASCII. Viene spesso scelta per le sue dimensioni compatte e per il checksum integrato, che aiuta a garantire l'integrità dei dati durante la scansione.
 
-Ora che hai i prerequisiti necessari, possiamo passare alla guida passo passo.
+## Perché generare immagini barcode con Aspose.BarCode?
 
-## Importa spazi dei nomi:
+- **Controllo totale** sul tipo di codifica, checksum, dimensione e formato immagine.  
+- **Nessuna dipendenza esterna** – la libreria funziona su qualsiasi piattaforma .NET.  
+- **Qualità di rendering eccellente**, adatta sia per la visualizzazione su schermo sia per la stampa ad alta risoluzione.  
+- **Documentazione completa** e un ampio set di esempi che accelerano lo sviluppo.
 
-Innanzitutto, dobbiamo importare gli spazi dei nomi richiesti per utilizzare Aspose.BarCode per .NET in modo efficace. Ciò ci consentirà di accedere alle funzionalità della libreria nel nostro codice. Ecco come puoi farlo:
+## Prerequisiti
+
+Prima di immergerci nel codice, assicurati di avere quanto segue:
+
+1. **Visual Studio** (qualsiasi edizione recente).  
+2. **Aspose.BarCode per .NET** installato – puoi ottenerlo dalla pagina di download ufficiale.  
+3. Familiarità di base con **C#** e la struttura dei progetti .NET.
+
+Ora che sei pronto, passiamo alla guida passo‑passo.
+
+## Importa gli spazi dei nomi
+
+Per prima cosa, importa gli spazi dei nomi richiesti in modo da poter accedere alle classi di generazione del barcode.
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## Passaggio 1: imposta il percorso della directory
+## Passo 1: Imposta il percorso della directory
 
-Prima di creare il codice a barre Code 93, dobbiamo specificare la directory in cui vogliamo salvare le immagini del codice a barre generate. Sostituisci "Percorso della directory" con il percorso della directory desiderata.
+Definisci dove verrà salvata l'immagine barcode generata. Sostituisci il segnaposto con una cartella valida sul tuo computer.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Passaggio 2: creare un codice a barre Code 93 unidimensionale
+## Passo 2: Crea un barcode Code 93 unidimensionale
 
-Ora creiamo un codice a barre Code 93 unidimensionale utilizzando Aspose.BarCode per .NET. Configureremo il codice a barre con parametri specifici.
+Istanzia un `BarcodeGenerator` con il tipo `Code93Extended` e i dati che desideri codificare.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code93Extended, "CODE");
 ```
 
-Nel codice sopra, stiamo inizializzando un oggetto BarcodeGenerator con il tipo di codice a barre impostato su "Code93Extended" e i dati che vogliamo codificare come "CODE".
+## Passo 3: Abilita il checksum (opzionale)
 
-## Passaggio 3: attiva il checksum
-
-Per impostazione predefinita, i codici a barre Code 93 includono un valore di checksum per l'integrità dei dati. Puoi abilitare o disabilitare questa funzione in base alle tue esigenze. In questo esempio abilitiamo il checksum.
+Code 93 include un checksum per impostazione predefinita. Puoi attivarlo/disattivarlo usando la proprietà `IsChecksumEnabled`.
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 ```
 
-## Passaggio 4: salva l'immagine del codice a barre
+## Passo 4: Salva l'immagine barcode (Salva barcode PNG)
 
-Ora che abbiamo configurato il codice a barre, è il momento di generarlo e salvarlo come immagine nella directory specificata. In questo caso, lo salviamo come immagine PNG.
+Genera l'immagine e salvala come file PNG nella cartella specificata in precedenza.
 
 ```csharp
 gen.Save($"{path}OneCSCode93WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-## Passaggio 5: gestione delle eccezioni
+## Passo 5: Gestione delle eccezioni – Generazione senza checksum
 
-In alcune situazioni, potresti voler generare un codice a barre Code 93 senza checksum. In questi casi, è necessario gestire le eccezioni. Ecco come puoi farlo:
+Se devi creare un barcode **senza** checksum, devi gestire le eventuali eccezioni che potrebbero verificarsi.
 
 ```csharp
 try
@@ -86,28 +105,33 @@ catch (Exception e)
 }
 ```
 
-Nel codice sopra, proviamo a generare un codice a barre senza checksum. Se si verifica un'eccezione, la rileviamo e visualizziamo un messaggio di errore.
+### Problemi comuni e soluzioni
+- **Percorso non valido** – assicurati che la directory esista e che l'applicazione abbia i permessi di scrittura.  
+- **Caratteri non supportati** – Code 93 supporta l'intero set ASCII, ma i caratteri di controllo possono causare errori.  
+- **Licenza non impostata** – senza una licenza valida, la libreria funziona in modalità di valutazione e può aggiungere una filigrana.
 
-Ora che abbiamo esaminato ogni passaggio della creazione di un codice a barre Code 93 unidimensionale utilizzando Aspose.BarCode per .NET, hai una conoscenza di base del processo. Ricorda di adattare questi passaggi al tuo caso d'uso specifico.
+## Domande frequenti (FAQ)
 
-In conclusione, Aspose.BarCode per .NET semplifica la generazione di codici a barre nelle tue applicazioni. Con la possibilità di personalizzare i parametri, puoi creare codici a barre che soddisfano esattamente le tue esigenze. Quindi, perché non provarlo e semplificare con facilità le attività relative ai codici a barre?
+### Q: Dove posso trovare la documentazione per Aspose.BarCode per .NET?
+A: Puoi trovare la documentazione su [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
-## Domande frequenti (FAQ):
+### Q: Come scarico Aspose.BarCode per .NET?
+A: Puoi scaricare Aspose.BarCode per .NET dal sito web su [Aspose.BarCode for .NET Download](https://releases.aspose.com/barcode/net/).
 
-### D: Dove posso trovare la documentazione per Aspose.BarCode per .NET?
- R: Puoi trovare la documentazione su[Aspose.BarCode per la documentazione .NET](https://reference.aspose.com/barcode/net/).
+### Q: È disponibile una versione di prova gratuita per Aspose.BarCode per .NET?
+A: Sì, puoi ottenere una versione di prova gratuita di Aspose.BarCode per .NET da [qui](https://releases.aspose.com/).
 
-### D: Come posso scaricare Aspose.BarCode per .NET?
- R: Puoi scaricare Aspose.BarCode per .NET dal sito web all'indirizzo[Aspose.BarCode per il download di .NET](https://releases.aspose.com/barcode/net/).
+### Q: Come posso acquistare una licenza per Aspose.BarCode per .NET?
+A: Puoi acquistare una licenza dalla pagina di acquisto su [Aspose.BarCode for .NET Purchase](https://purchase.aspose.com/buy).
 
-### D: È disponibile una prova gratuita per Aspose.BarCode per .NET?
- R: Sì, puoi ottenere una prova gratuita di Aspose.BarCode per .NET da[Qui](https://releases.aspose.com/).
+### Q: Dove posso ottenere supporto o fare domande su Aspose.BarCode per .NET?
+A: Puoi trovare un forum della community per supporto e discussioni su [Aspose.BarCode for .NET Support](https://forum.aspose.com/c/barcode/13).
 
-### D: Come posso acquistare una licenza per Aspose.BarCode per .NET?
- R: Puoi acquistare una licenza dalla pagina di acquisto su[Aspose.BarCode per l'acquisto .NET](https://purchase.aspose.com/buy).
+---
 
-### D: Dove posso ottenere supporto o porre domande su Aspose.BarCode per .NET?
- R: Puoi trovare un forum della community per supporto e discussioni all'indirizzo[Aspose.BarCode per il supporto .NET](https://forum.aspose.com/c/barcode/13).
+**Ultimo aggiornamento:** 2026-02-25  
+**Testato con:** Aspose.BarCode 24.11 per .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

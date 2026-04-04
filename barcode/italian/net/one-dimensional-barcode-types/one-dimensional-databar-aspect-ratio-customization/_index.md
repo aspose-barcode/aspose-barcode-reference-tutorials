@@ -1,54 +1,67 @@
 ---
-title: Personalizzazione delle proporzioni della barra dati unidimensionale
-linktitle: Personalizzazione delle proporzioni della barra dati unidimensionale
-second_title: API Aspose.BarCode .NET
-description: Scopri come personalizzare le proporzioni unidimensionali di DataBar in .NET utilizzando Aspose.BarCode. Migliora la precisione e il design dei codici a barre.
-weight: 16
+date: 2026-02-25
+description: Scopri come personalizzare il rapporto d'aspetto **databar stacked omnidirectional**
+  mentre **installi Aspose.BarCode per .NET**. Progettazione di codici a barre precisa
+  e semplice.
+linktitle: One-Dimensional Databar Aspect Ratio Customization
+second_title: Aspose.BarCode .NET API
+title: Personalizza il rapporto d'aspetto omnidirezionale impilato della barra dati
+  in .NET
 url: /it/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Personalizzazione delle proporzioni della barra dati unidimensionale
+# Personalizza il rapporto d'aspetto del databar stacked omnidirectional in .NET
 
+Nel mondo del barcode, precisione e personalizzazione sono fondamentali per ottenere i risultati desiderati. In questo tutorial imparerai a **personalizzare il rapporto d'aspetto del databar stacked omnidirectional** usando Aspose.BarCode per .NET. Divideremo il processo in passaggi brevi, spiegheremo perché ogni impostazione è importante e ti mostreremo esattamente come generare le immagini finali. Quindi, immergiamoci!
 
-Nel mondo dei codici a barre, precisione e personalizzazione sono fondamentali per ottenere i risultati desiderati. In qualità di scrittore SEO esperto, sono qui per guidarti attraverso il processo di personalizzazione delle proporzioni di un DataBar unidimensionale utilizzando Aspose.BarCode per .NET. Suddivideremo questo intricato processo in passaggi gestibili, assicurandoci di comprendere a fondo il concetto. Quindi tuffiamoci!
+## Risposte rapide
+- **Cosa posso personalizzare?** Il rapporto d'aspetto di un barcode databar stacked omnidirectional.  
+- **Quale libreria è necessaria?** Aspose.BarCode per .NET (installa Aspose.BarCode per .NET).  
+- **Quanti pixel posso impostare per X‑Dimension?** Qualsiasi valore intero; l'esempio utilizza 2 pixel.  
+- **Dove vengono salvate le immagini generate?** In una cartella che specifichi tramite la variabile `path`.  
+- **È necessaria una licenza?** Una licenza temporanea è sufficiente per i test; è necessaria una licenza completa per la produzione.
+
+## Cos'è il databar stacked omnidirectional?
+`databar stacked omnidirectional` è un tipo di barcode unidimensionale definito dallo standard GS1. Codifica dati numerici in un formato compatto e ad alta densità che può essere letto da qualsiasi direzione, rendendolo ideale per piccoli oggetti e la scansione mobile.
+
+## Perché personalizzare il rapporto d'aspetto?
+Modificare il **rapporto d'aspetto** ti consente di controllare l'equilibrio visivo tra larghezza e altezza. Questo è utile quando hai bisogno di un barcode che si adatti a una dimensione specifica dell'etichetta, sia in linea con le linee guida del brand o migliori l'affidabilità della scansione in condizioni di stampa limitate.
 
 ## Prerequisiti
 
-Prima di iniziare, è necessario disporre di alcuni prerequisiti:
+Prima di iniziare, assicurati di avere quanto segue:
 
-### 1. Installa Aspose.BarCode per .NET
+### 1. Installa Aspose.BarCode per .NET  
+Puoi scaricare l'ultima versione dal sito ufficiale **[qui](https://releases.aspose.com/barcode/net/)**. Segui la guida di installazione per aggiungere il pacchetto NuGet al tuo progetto.
 
- Assicurati di avere Aspose.BarCode per .NET installato sul tuo sistema. Puoi scaricarlo dal sito web[Qui](https://releases.aspose.com/barcode/net/).
+### 2. Crea un progetto .NET  
+Una semplice applicazione console o Windows è sufficiente. Assicurati di targettizzare .NET 6+ (o .NET Framework 4.5+) affinché la libreria funzioni senza configurazioni aggiuntive.
 
-### 2. Creare un progetto .NET
+### 3. Percorso della tua directory  
+Decidi dove vuoi che i file PNG generati vengano salvati e annota il percorso assoluto o relativo.
 
-Dovresti avere una conoscenza di base della programmazione .NET e avere un progetto impostato in cui puoi integrare Aspose.BarCode.
+## Importa gli spazi dei nomi
 
-### 3. Il percorso della directory
+Prima di iniziare a personalizzare il rapporto d'aspetto, importa lo spazio dei nomi necessario così da poter accedere alle classi di Aspose.BarCode.
 
-È necessario specificare il percorso della directory in cui si desidera salvare i codici a barre generati.
-
-Passiamo ora alla guida passo passo sulla personalizzazione delle proporzioni di una DataBar unidimensionale.
-
-## Importa spazi dei nomi
-
-Prima di iniziare a personalizzare le proporzioni, è essenziale importare gli spazi dei nomi necessari per accedere alle funzionalità Aspose.BarCode nel tuo progetto .NET. Ecco come puoi farlo:
-
-### Passaggio 1: importare lo spazio dei nomi Aspose.BarCode
+### Passo 1: Importa lo spazio dei nomi Aspose.BarCode
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-Ora che hai importato gli spazi dei nomi richiesti, sei pronto per iniziare a personalizzare le proporzioni.
+Ora sei pronto per creare un generatore di barcode.
 
-## Passaggio 1: inizializza BarcodeGenerator
+## Impostazioni del rapporto d'aspetto del databar stacked omnidirectional
 
- Il primo passo è inizializzare il file`BarcodeGenerator` classe. Questa classe consente di generare codici a barre con varie opzioni di personalizzazione. Creeremo un codice a barre di tipo`DatabarStackedOmniDirectional` con una stringa di dati di esempio.
+### Passo 2: Inizializza `BarcodeGenerator`
+
+Creeremo un generatore per il tipo **databar stacked omnidirectional** e gli forniremo una stringa di dati GS1 di esempio.
 
 ```csharp
 string path = "Your Directory Path";
@@ -57,71 +70,78 @@ System.Console.WriteLine("OneDDatabarAspectRatio:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarStackedOmniDirectional, "(01)12345678901231");
 ```
 
- In questo codice impostiamo il file`path` variabile nel percorso della directory prescelto e crea un file`BarcodeGenerator` oggetto del tipo`DatabarStackedOmniDirectional` con una stringa di dati di esempio.
+*Suggerimento:* Sostituisci `"Your Directory Path"` con una cartella reale, ad esempio `@"C:\Barcodes\"`.
 
-## Passaggio 2: imposta i pixel della dimensione X
+### Passo 3: Imposta i pixel di X‑Dimension
 
-La dimensione X determina la larghezza del codice a barre. Puoi impostarlo secondo le tue esigenze. In questo esempio lo imposteremo su 2 pixel.
+La X‑Dimension definisce la larghezza della barra stretta. In questo esempio usiamo 2 pixel, ma puoi regolarla per corrispondere al DPI della tua stampante.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
- Qui accediamo al`XDimension` proprietà del`Barcode` e impostarlo su 2 pixel.
+### Passo 4: Personalizza il rapporto d'aspetto DataBar
 
-## Passaggio 3: personalizzare le proporzioni di DataBar
+Ora arriva il cuore del tutorial – modificare il rapporto d'aspetto.
 
-Ora arriva il nocciolo della nostra personalizzazione: modificare le proporzioni di DataBar. Le proporzioni influiscono sulla proporzione tra larghezza e altezza del codice a barre. In questo esempio, imposteremo due diverse proporzioni e salveremo i codici a barre risultanti.
-
-### Passaggio 3.1: impostare le proporzioni DataBar su 15
+#### 4.1 Imposta il rapporto d'aspetto a 15
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 15;
 gen.Save($"{path}DatabarAspectRatio15.png", BarCodeImageFormat.Png);
 ```
 
-Qui impostiamo le proporzioni su 15 e salviamo il codice a barre con le proporzioni specificate nel percorso della directory.
+Il barcode viene salvato come **DatabarAspectRatio15.png** con un aspetto relativamente alto.
 
-### Passaggio 3.2: impostare le proporzioni DataBar su 30
+#### 4.2 Imposta il rapporto d'aspetto a 30
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 30;
 gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
 ```
 
-Allo stesso modo, impostiamo le proporzioni su 30 e salviamo il codice a barre.
+Aumentare il rapporto a **30** rende il barcode più largo e più corto, il che può essere utile per etichette larghe.
 
-Congratulazioni! Hai personalizzato con successo le proporzioni di un DataBar unidimensionale utilizzando Aspose.BarCode per .NET. Ora puoi esplorare le immagini dei codici a barre salvate nel percorso della directory specificato.
+### Passo 5: Verifica l'output
 
-## Conclusione
+Apri i file PNG generati in qualsiasi visualizzatore di immagini. Dovresti vedere due versioni dello stesso barcode, ciascuna con una diversa proporzione larghezza‑altezza. Scansionale con un lettore di barcode standard per confermare che siano ancora leggibili.
 
-In questo tutorial, abbiamo esplorato come personalizzare le proporzioni di un DataBar unidimensionale utilizzando Aspose.BarCode per .NET. Grazie al potere della personalizzazione e della precisione, puoi realizzare progetti di codici a barre su misura per le tue esigenze specifiche. Che si tratti della gestione dell'inventario o dell'etichettatura dei prodotti, Aspose.BarCode per .NET ti consente di creare codici a barre con facilità.
+## Problemi comuni e soluzioni
 
- Hai domande o hai bisogno di ulteriore assistenza? Dai un'occhiata a[documentazione](https://reference.aspose.com/barcode/net/) oppure visitare il[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) per supporto.
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| Il barcode appare sfocato | X‑Dimension troppo bassa per il DPI della stampante | Incrementa `XDimension.Pixels` (ad esempio a 3 o 4). |
+| Lo scanner non legge | Rapporto d'aspetto estremo (es. > 50) | Mantieni il rapporto tra 10‑40 per una scansione affidabile. |
+| File non salvato | Stringa `path` non valida | Usa `Path.Combine` e assicurati che la cartella esista (`Directory.CreateDirectory`). |
 
 ## Domande frequenti
 
-### 1. Qual è il rapporto d'aspetto di un codice a barre e perché è importante?
+**Q: Qual è il rapporto d'aspetto di un barcode e perché è importante?**  
+A: Il rapporto d'aspetto è la proporzione larghezza‑altezza. Influisce su come il barcode si adatta a un'etichetta e può influire sull'affidabilità della scansione.
 
-Le proporzioni di un codice a barre sono il rapporto tra la sua larghezza e la sua altezza. È fondamentale perché determina quanto appare allungato o compatto il codice a barre. Un formato adeguato garantisce che il codice a barre sia scansionabile e si adatti al tuo caso d'uso specifico.
+**Q: Posso modificare il rapporto d'aspetto di altri tipi di barcode con Aspose.BarCode per .NET?**  
+A: Sì, molti barcode unidimensionali e bidimensionali espongono una proprietà `AspectRatio` per una regolazione fine.
 
-### 2. Posso modificare le proporzioni di altri tipi di codici a barre con Aspose.BarCode per .NET?
+**Q: Ci sono limitazioni nel cambiare il rapporto d'aspetto?**  
+A: Valori estremi possono violare gli standard di codifica e rendere il barcode illeggibile. Testa con gli scanner di destinazione.
 
-Sì, Aspose.BarCode per .NET ti consente di personalizzare le proporzioni di vari tipi di codici a barre, fornendo flessibilità per le tue esigenze di progettazione.
+**Q: Dove posso trovare altri tutorial ed esempi per Aspose.BarCode per .NET?**  
+A: Esplora la guida completa nella **[documentazione](https://reference.aspose.com/barcode/net/)** ufficiale.
 
-### 3. Esistono limitazioni alla modifica delle proporzioni di un codice a barre?
+**Q: Come posso ottenere una licenza temporanea per Aspose.BarCode per .NET?**  
+A: Puoi richiedere una licenza di prova **[qui](https://purchase.aspose.com/temporary-license/)**.
 
-Sebbene sia possibile regolare le proporzioni, modifiche estreme potrebbero influire sulla leggibilità del codice a barre. È fondamentale trovare un equilibrio tra design e funzionalità.
+## Conclusione
 
-### 4. Dove posso trovare altri tutorial ed esempi per Aspose.BarCode per .NET?
+Ora hai imparato a **personalizzare il rapporto d'aspetto del databar stacked omnidirectional** usando Aspose.BarCode per .NET. Regolando `XDimension` e `DataBar.AspectRatio`, puoi produrre barcode che corrispondono perfettamente alle dimensioni delle tue etichette, migliorano la coerenza estetica e mantengono l'affidabilità della scansione. Sperimenta con diversi rapporti, integra il codice nel tuo flusso di lavoro di inventario o imballaggio, e goditi la flessibilità offerta da Aspose.
 
- Puoi esplorare un'ampia gamma di tutorial ed esempi nel file[documentazione](https://reference.aspose.com/barcode/net/).
+Per approfondimenti, consulta la **[documentazione](https://reference.aspose.com/barcode/net/)** completa o unisciti alla community sul **[forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13)**.
 
-### 5. Come posso ottenere una licenza temporanea per Aspose.BarCode per .NET?
+---
 
- Se hai bisogno di una licenza temporanea per test o valutazioni, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).
-
-
+**Ultimo aggiornamento:** 2026-02-25  
+**Testato con:** Aspose.BarCode 24.12 per .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

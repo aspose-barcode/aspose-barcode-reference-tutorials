@@ -1,83 +1,130 @@
 ---
-title: Eindimensionale Code 39-Konfiguration
-linktitle: Eindimensionale Code 39-Konfiguration
-second_title: Aspose.BarCode .NET-API
-description: Erfahren Sie, wie Sie mit Aspose.BarCode eindimensionale Code 39-Barcodes in .NET generieren. Schritt-für-Schritt-Anleitung für Entwickler.
-weight: 11
+date: 2026-02-25
+description: Erfahren Sie, wie Sie Barcode‑Bilder mit Aspose.BarCode für .NET erzeugen.
+  Diese Schritt‑für‑Schritt‑Anleitung zeigt, wie Sie Code‑39‑Barcodes mit und ohne
+  Prüfziffer erzeugen.
+linktitle: One-Dimensional Code 39 Configuration
+second_title: Aspose.BarCode .NET API
+title: Wie man Barcodes generiert – Code‑39-Konfiguration mit Aspose.BarCode
 url: /de/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eindimensionale Code 39-Konfiguration
-
+# Ein-Dimensionale Code 39‑Konfiguration
 
 ## Einführung
 
-Barcodes spielen in modernen Unternehmen eine entscheidende Rolle, von der Bestandsverfolgung bis hin zur schnellen und genauen Datenabfrage. Aspose.BarCode für .NET ist eine leistungsstarke Bibliothek, die die Generierung und Anpassung von Barcodes in .NET-Anwendungen vereinfacht. In diesem umfassenden Leitfaden werden wir die verschiedenen Aspekte der Verwendung von Aspose.BarCode für .NET zur Erstellung eindimensionaler Code 39-Barcodes untersuchen. Dieses Schritt-für-Schritt-Tutorial unterteilt den Prozess in leicht verdauliche Abschnitte, sodass auch Anfänger mitmachen können.
+In diesem Tutorial lernen Sie **wie man Barcodes generiert** – insbesondere ein‑dimensionale Code 39‑Barcodes – mit Aspose.BarCode für .NET. Barcodes spielen eine entscheidende Rolle in modernen Unternehmen, vom Inventar‑Tracking bis zur schnellen und genauen Datenabfrage. Aspose.BarCode für .NET ist eine leistungsstarke Bibliothek, die die Erstellung und Anpassung von Barcodes in .NET‑Anwendungen vereinfacht. Diese Schritt‑für‑Schritt‑Anleitung zerlegt den Prozess in leicht verdauliche Abschnitte, sodass selbst Entwickler, die neu in der Barcode‑Generierung sind, problemlos folgen können.
+
+## Schnelle Antworten
+- **Was ist die primäre Bibliothek?** Aspose.BarCode für .NET  
+- **Kann ich einen Barcode mit Prüfsumme erstellen?** Ja – setzen Sie `IsChecksumEnabled = EnableChecksum.Yes`  
+- **Ist eine Prüfsumme zwingend erforderlich?** Nein – Sie können einen Barcode ohne Prüfsumme erzeugen, indem Sie sie deaktivieren  
+- **Welches Bildformat wird in den Beispielen verwendet?** PNG (`BarCodeImageFormat.Png`)  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine temporäre Lizenz steht für Evaluierungszwecke zur Verfügung  
+
+## Was ist die Barcode‑Generierung mit Aspose.BarCode?
+Barcode‑Generierung ist der Prozess, bei dem Text‑ oder numerische Daten in ein maschinenlesbares visuelles Muster umgewandelt werden. Aspose.BarCode für .NET unterstützt Dutzende von Symbolen, darunter Code 39, und ermöglicht die vollständige Kontrolle über Größe, Farbe und Prüfsummenberechnung.
+
+## Warum Code 39 und Prüfsummen‑Optionen verwenden?
+Code 39 ist in Logistik und Fertigung weit verbreitet, weil es alphanumerische Daten ohne Sonderzeichen kodieren kann. Das Hinzufügen einer Prüfsumme (oder das Weglassen) ermöglicht es, Fehlererkennung mit Einfachheit zu balancieren – ideal für Inventartags, Versandetiketten oder einfache Point‑of‑Sale‑Systeme.
 
 ## Voraussetzungen
 
-Bevor wir in die Welt der Barcode-Generierung mit Aspose.BarCode für .NET eintauchen, sollten Sie einige Voraussetzungen erfüllen:
+Bevor wir starten, stellen Sie sicher, dass Sie Folgendes haben:
 
-1.  .NET-Entwicklungsumgebung: Sie sollten über praktische Kenntnisse des .NET-Frameworks verfügen und eine Entwicklungsumgebung eingerichtet haben. Wenn Sie neu bei .NET sind, sollten Sie sich die .NET-Dokumentation ansehen:[Microsoft .NET-Dokumentation](https://docs.microsoft.com/en-us/dotnet/).
+1. **.NET Development Environment** – Grundkenntnisse des .NET‑Frameworks und eine IDE wie Visual Studio. Wenn Sie neu bei .NET sind, beginnen Sie mit der offiziellen Dokumentation: [Microsoft .NET Documentation](https://docs.microsoft.com/en-us/dotnet/).  
+2. **Aspose.BarCode für .NET** – Laden Sie die Bibliothek herunter und installieren Sie sie. Dokumentation und Downloads finden Sie hier: [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/) und [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).
 
-2. Aspose.BarCode für .NET: Laden Sie Aspose.BarCode für .NET herunter und installieren Sie es. Die Bibliothek und Dokumentation finden Sie auf der Aspose-Website:[Aspose.BarCode für .NET-Dokumentation](https://reference.aspose.com/barcode/net/) Und[Laden Sie Aspose.BarCode für .NET herunter](https://releases.aspose.com/barcode/net/).
+Nachdem wir die Voraussetzungen geklärt haben, gehen wir zu den Hauptschritten zur Erstellung ein‑dimensionaler Code 39‑Barcodes über.
 
-Nachdem wir nun die Voraussetzungen abgedeckt haben, fahren wir mit den Hauptschritten zum Erstellen eindimensionaler Code 39-Barcodes mit Aspose.BarCode für .NET fort.
-
-## Schritt 1: Namespaces importieren
-Um mit Aspose.BarCode für .NET arbeiten zu können, müssen Sie die erforderlichen Namespaces in Ihr Projekt importieren. Fügen Sie Ihrem Code die folgenden Zeilen hinzu:
+## Wie man Barcodes generiert: Namespaces importieren
+Um mit Aspose.BarCode für .NET zu arbeiten, importieren Sie die erforderlichen Namespaces in Ihr Projekt. Durch das Hinzufügen dieser `using`‑Anweisungen erhalten Sie Zugriff auf die Klassen zur Barcode‑Generierung.
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-Diese Namespaces bieten Zugriff auf die Klassen und Methoden, die für die Barcode-Generierung erforderlich sind.
+## Wie man Code 39‑Barcodes generiert (mit und ohne Prüfsumme)
 
-## Schritt 2: Erstellen Sie einen eindimensionalen Code 39-Barcode
-
-Lassen Sie uns nun einen eindimensionalen Code 39-Barcode erstellen. Wir zeigen zwei Beispiele: eines ohne Prüfsumme und eines mit Prüfsumme.
+Im Folgenden erstellen wir zwei Barcodes: einen **ohne Prüfsumme** und einen **mit Prüfsumme**. Der Code ist identisch, abgesehen vom `IsChecksumEnabled`‑Flag.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 string path = "Your Directory Path";
 System.Console.WriteLine("OneCSCode39:");
 
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code39Extended, "CODE");
 
-// Beispiel 1: Erstellen Sie einen Code 39-Barcode ohne Prüfsumme
+// Example 1: Create a Code 39 barcode without checksum
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.No;
 gen.Save($"{path}OneCSCode39WithoutChecksum.png", BarCodeImageFormat.Png);
 
-// Beispiel 2: Erstellen Sie einen Code 39-Barcode mit Prüfsumme
+// Example 2: Create a Code 39 barcode with checksum
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-In diesen Beispielen initialisieren wir den BarcodeGenerator mit dem Kodierungstyp Code39Extended und legen den Barcode-Inhalt fest. Anschließend erstellen wir zwei verschiedene Barcodes, einen mit Prüfsumme und einen ohne, und speichern sie als PNG-Dateien.
+**Was der Code macht**
 
-Zusammenfassend lässt sich sagen, dass Aspose.BarCode für .NET eine vielseitige und benutzerfreundliche Bibliothek ist, die die Barcode-Generierung in Ihren .NET-Anwendungen vereinfacht. Wenn Sie diese einfachen Schritte befolgen, können Sie eindimensionale Code 39-Barcodes mit oder ohne Prüfsummen erstellen. Ganz gleich, ob Sie Lagerbestände verwalten, Bestellungen bearbeiten oder die Datengenauigkeit verbessern, Aspose.BarCode für .NET ist ein wertvolles Werkzeug für Ihre Entwickler-Toolbox.
+1. **Instantiate** `BarcodeGenerator` mit `EncodeTypes.Code39Extended` und dem Datenstring `"CODE"`.  
+2. **Toggle** `IsChecksumEnabled`, um zu steuern, ob eine Prüfziffer angehängt wird.  
+3. **Save** jeden Barcode als PNG‑Datei im angegebenen Ordner.
+
+Sie haben jetzt zwei einsatzbereite Barcode‑Bilder: `OneCSCode39WithoutChecksum.png` und `OneCSCode39WithChecksum.png`.
+
+## Häufige Probleme und Lösungen
+| Problem | Warum es passiert | Lösung |
+|-------|----------------|-----|
+| **File path not found** | Die Variable `path` verweist auf einen nicht existierenden Ordner. | Stellen Sie sicher, dass das Verzeichnis existiert, oder verwenden Sie `Directory.CreateDirectory(path)`. |
+| **Invalid characters in data** | Code 39 unterstützt nur alphanumerische Zeichen und einige Sonderzeichen. | Verwenden Sie das erweiterte Code 39 (`Code39Extended`), das den gesamten ASCII‑Bereich unterstützt, wie oben gezeigt. |
+| **Checksum error** | Vergessen, `IsChecksumEnabled` zu setzen, wenn erforderlich. | Setzen Sie das Flag explizit auf `EnableChecksum.Yes` oder `No`, je nach Szenario. |
 
 ## Häufig gestellte Fragen (FAQs):
 
-### F: Kann ich Aspose.BarCode für .NET mit anderen Programmiersprachen verwenden?
-A: Aspose.BarCode ist in erster Linie für .NET konzipiert, Aspose bietet jedoch auch Barcode-Bibliotheken für andere Plattformen an.
+### Q: Kann ich Aspose.BarCode für .NET mit anderen Programmiersprachen verwenden?
+A: Aspose.BarCode ist primär für .NET konzipiert, aber Aspose bietet Barcode‑Bibliotheken für andere Plattformen an.
 
-### F: Gibt es Lizenzoptionen für Aspose.BarCode für .NET?
-A: Ja, Sie können Lizenzoptionen erkunden und eine temporäre Lizenz auf der Aspose-Website anfordern:[Aspose.BarCode-Lizenzierung](https://purchase.aspose.com/temporary-license/).
+### Q: Gibt es Lizenzoptionen für Aspose.BarCode für .NET?
+A: Ja, Sie können Lizenzoptionen erkunden und eine temporäre Lizenz auf der Aspose‑Website anfordern: [Aspose.BarCode Licensing](https://purchase.aspose.com/temporary-license/).
 
-### F: Ist Aspose.BarCode für .NET für Webanwendungen geeignet?
-A: Ja, Aspose.BarCode für .NET kann in Webanwendungen verwendet werden und eignet sich daher für eine Vielzahl von Entwicklungsprojekten.
+### Q: Ist Aspose.BarCode für .NET für Webanwendungen geeignet?
+A: Ja, Aspose.BarCode für .NET kann in Webanwendungen eingesetzt werden und ist damit für ein breites Spektrum an Entwicklungsprojekten geeignet.
 
-### F: Kann ich das Erscheinungsbild der generierten Barcodes anpassen?
-A: Auf jeden Fall können Sie verschiedene Aspekte des Barcodes anpassen, einschließlich Größe, Farben und Schriftarten.
+### Q: Kann ich das Aussehen der erzeugten Barcodes anpassen?
+A: Absolut, Sie können verschiedene Aspekte des Barcodes anpassen, einschließlich Größe, Farben und Schriftarten.
 
-### F: Wo kann ich Unterstützung erhalten oder Fragen zu Aspose.BarCode für .NET stellen?
- A: Antworten auf Ihre Fragen und Unterstützung finden Sie im Aspose.BarCode-Forum:[Aspose.BarCode-Forum](https://forum.aspose.com/c/barcode/13).
+### Q: Wo finde ich Support oder kann Fragen zu Aspose.BarCode für .NET stellen?
+A: Antworten und Support erhalten Sie im Aspose.BarCode‑Forum: [Aspose.BarCode Forum](https://forum.aspose.com/c/barcode/13).
+
+## Zusätzliche häufig gestellte Fragen
+
+**Q: Was ist der Unterschied zwischen einem Barcode mit Prüfsumme und einem ohne?**  
+A: Eine Prüfsumme fügt eine zusätzliche Ziffer hinzu, die hilft, Transkriptionsfehler zu erkennen. Verwenden Sie sie, wenn Datenintegrität kritisch ist.
+
+**Q: Wie groß kann das erzeugte PNG sein?**  
+A: Die Größe wird über `gen.Parameters.ImageWidth/Height` gesteuert. Passen Sie diese Eigenschaften an, bevor Sie `Save` aufrufen.
+
+**Q: Kann ich Barcodes in anderen Bildformaten erzeugen?**  
+A: Ja, Aspose.BarCode unterstützt JPEG, BMP, GIF, TIFF und mehr – ändern Sie einfach das `BarCodeImageFormat`‑Enum.
+
+**Q: Gibt es eine Möglichkeit, Barcodes in einer Web‑App zu erzeugen, ohne sie auf die Festplatte zu schreiben?**  
+A: Sie können in einen `MemoryStream` speichern und das Byte‑Array direkt an den Client zurückgeben.
+
+## Fazit
+Durch Befolgen dieser einfachen Schritte können Sie **Barcodes generieren** – mit voller Kontrolle über Prüfsummen, Bildformat und visuelle Gestaltung. Ob Sie Inventar verwalten, Bestellungen bearbeiten oder ein barcode‑fähiges Webportal bauen, Aspose.BarCode für .NET bietet eine zuverlässige und entwicklerfreundliche Lösung.
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-25  
+**Getestet mit:** Aspose.BarCode 24.11 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

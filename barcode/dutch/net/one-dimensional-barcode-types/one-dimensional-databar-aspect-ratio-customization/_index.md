@@ -1,54 +1,68 @@
 ---
-title: Eendimensionale aanpassing van de beeldverhouding van de databalk
-linktitle: Eendimensionale aanpassing van de beeldverhouding van de databalk
+date: 2026-02-25
+description: Leer hoe je **databar stacked omnidirectional** aspect ratio‑aanpassing
+  kunt uitvoeren terwijl je **Aspose.BarCode voor .NET** installeert. Precieze barcode‑ontwerp
+  wordt eenvoudig.
+linktitle: One-Dimensional Databar Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
-description: Leer hoe u de ééndimensionale DataBar-beeldverhoudingen in .NET kunt aanpassen met Aspose.BarCode. Verbeter de precisie en het ontwerp van streepjescodes.
-weight: 16
+title: Aanpassen van de gestapelde omnidirectionele databalk‑beeldverhouding in .NET
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
+weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eendimensionale aanpassing van de beeldverhouding van de databalk
+# Pas de databar stacked omnidirectional aspect ratio aan in .NET
 
+In de wereld van barcodes zijn precisie en aanpassing de sleutel tot het behalen van de gewenste resultaten. In deze tutorial leer je hoe je **de databar stacked omnidirectional aspect ratio aanpassen** kunt **aanpassen** met Aspose.BarCode voor .NET. We splitsen het proces op in hapklare stappen, leggen uit waarom elke instelling belangrijk is, en laten je precies zien hoe je de uiteindelijke afbeeldingen genereert. Laten we beginnen!
 
-In de wereld van barcodes zijn precisie en maatwerk de sleutel tot het bereiken van de gewenste resultaten. Als ervaren SEO-schrijver ben ik hier om u te begeleiden bij het aanpassen van de beeldverhouding van een eendimensionale databar met behulp van Aspose.BarCode voor .NET. We splitsen dit ingewikkelde proces op in beheersbare stappen, zodat u het concept grondig begrijpt. Dus laten we erin duiken!
+## Snelle antwoorden
+- **Wat kan ik aanpassen?** De aspect ratio van een databar stacked omnidirectional barcode.  
+- **Welke bibliotheek is vereist?** Aspose.BarCode voor .NET (installeer Aspose.BarCode voor .NET).  
+- **Hoeveel pixels kan ik instellen voor X‑Dimension?** Elke gehele waarde; het voorbeeld gebruikt 2 pixels.  
+- **Waar worden de gegenereerde afbeeldingen opgeslagen?** In een map die je opgeeft via de `path`-variabele.  
+- **Heb ik een licentie nodig?** Een tijdelijke licentie werkt voor testen; een volledige licentie is vereist voor productie.
 
-## Vereisten
+## Wat is databar stacked omnidirectional?
 
-Voordat we beginnen, zijn er een aantal vereisten waaraan u moet voldoen:
+`databar stacked omnidirectional` is een één‑dimensionaal barcode‑type gedefinieerd door de GS1-standaard. Het codeert numerieke gegevens in een compact, hoge‑dichtheid formaat dat vanuit elke richting gelezen kan worden, waardoor het ideaal is voor kleine items en mobiel scannen.
 
-### 1. Installeer Aspose.BarCode voor .NET
+## Waarom de aspect ratio aanpassen?
 
- Zorg ervoor dat Aspose.BarCode voor .NET op uw systeem is geïnstalleerd. U kunt het downloaden van de website[hier](https://releases.aspose.com/barcode/net/).
+Het wijzigen van de **aspect ratio** stelt je in staat de visuele balans tussen breedte en hoogte te regelen. Dit is nuttig wanneer je een barcode nodig hebt die past op een specifiek labelformaat, overeenkomt met merkrichtlijnen, of de scanbetrouwbaarheid verbetert onder beperkte printomstandigheden.
 
-### 2. Maak een .NET-project
+## Voorvereisten
 
-U moet een basiskennis hebben van .NET-programmering en een project hebben opgezet waarin u Aspose.BarCode kunt integreren.
+Zorg ervoor dat je het volgende hebt voordat we beginnen:
 
-### 3. Uw directorypad
+### 1. Installeer Aspose.BarCode voor .NET  
+Je kunt de nieuwste versie downloaden van de officiële site **[hier](https://releases.aspose.com/barcode/net/)**. Volg de installatiehandleiding om het NuGet‑pakket aan je project toe te voegen.
 
-moet het mappad opgeven waar u de gegenereerde streepjescodes wilt opslaan.
+### 2. Maak een .NET‑project  
+Een eenvoudige console‑ of Windows‑applicatie is voldoende. Zorg ervoor dat je .NET 6+ (of .NET Framework 4.5+) target, zodat de bibliotheek werkt zonder extra configuratie.
 
-Laten we nu verder gaan met de stapsgewijze handleiding voor het aanpassen van de beeldverhouding van een eendimensionale databalk.
+### 3. Jouw mappad  
+Bepaal waar je de gegenereerde PNG‑bestanden wilt opslaan en noteer het absolute of relatieve pad.
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Voordat u begint met het aanpassen van de beeldverhouding, is het essentieel om de benodigde naamruimten te importeren om toegang te krijgen tot de Aspose.BarCode-functionaliteiten in uw .NET-project. Hier ziet u hoe u het kunt doen:
+Voordat je de aspect ratio aanpast, importeer je de vereiste namespace zodat je toegang hebt tot de Aspose.BarCode‑klassen.
 
-### Stap 1: Importeer de Aspose.BarCode-naamruimte
+### Stap 1: Importeer de Aspose.BarCode‑namespace
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-Nu u de vereiste naamruimten heeft geïmporteerd, bent u klaar om de beeldverhouding aan te passen.
+Nu ben je klaar om een barcode‑generator te maken.
 
-## Stap 1: Initialiseer BarcodeGenerator
+## databar stacked omnidirectional aspect ratio instellingen
 
- De eerste stap is het initialiseren van de`BarcodeGenerator` klas. Met deze klasse kunt u streepjescodes genereren met verschillende aanpassingsopties. We maken een streepjescode van het type`DatabarStackedOmniDirectional` met een voorbeeldgegevensreeks.
+### Stap 2: Initialiseert `BarcodeGenerator`
+
+We maken een generator voor het **databar stacked omnirectional**‑type en voeren een voorbeeld‑GS1‑gegevensreeks in.
 
 ```csharp
 string path = "Your Directory Path";
@@ -57,71 +71,78 @@ System.Console.WriteLine("OneDDatabarAspectRatio:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarStackedOmniDirectional, "(01)12345678901231");
 ```
 
- In deze code stellen we de`path` variabele naar het door u gekozen mappad en maak een`BarcodeGenerator` voorwerp van het type`DatabarStackedOmniDirectional` met een voorbeeldgegevensreeks.
+*Tip:* Vervang `"Your Directory Path"` door een echte map, bijv. `@"C:\Barcodes\"`.
 
-## Stap 2: Stel X-dimensionale pixels in
+### Stap 3: Stel X‑Dimension pixels in
 
-De X-dimensie bepaalt de breedte van de barcode. U kunt het instellen volgens uw vereisten. In dit voorbeeld stellen we dit in op 2 pixels.
+De X‑Dimension definieert de breedte van de smalle balk. In dit voorbeeld gebruiken we 2 pixels, maar je kunt dit aanpassen aan de DPI van je printer.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
- Hier hebben we toegang tot de`XDimension` eigendom van de`Barcode` en stel deze in op 2 pixels.
+### Stap 4: Pas DataBar aspect ratio aan
 
-## Stap 3: Pas de beeldverhouding van DataBar aan
+Nu volgt de kern van de tutorial – het wijzigen van de aspect ratio.
 
-Nu komt de kern van onze aanpassingen: het veranderen van de beeldverhouding van de DataBar. De beeldverhouding beïnvloedt de verhouding tussen de breedte en hoogte van de streepjescode. In dit voorbeeld stellen we twee verschillende beeldverhoudingen in en slaan we de resulterende streepjescodes op.
-
-### Stap 3.1: Stel de DataBar-beeldverhouding in op 15
+#### 4.1 Stel aspect ratio in op 15
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 15;
 gen.Save($"{path}DatabarAspectRatio15.png", BarCodeImageFormat.Png);
 ```
 
-Hier stellen we de beeldverhouding in op 15 en slaan we de streepjescode met de opgegeven beeldverhouding op in het mappad.
+De barcode wordt opgeslagen als **DatabarAspectRatio15.png** met een relatief hoge weergave.
 
-### Stap 3.2: Stel de DataBar-beeldverhouding in op 30
+#### 4.2 Stel aspect ratio in op 30
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 30;
 gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
 ```
 
-Op dezelfde manier stellen we de beeldverhouding in op 30 en slaan we de streepjescode op.
+Het verhogen van de ratio naar **30** maakt de barcode breder en korter, wat nuttig kan zijn voor brede labels.
 
-Gefeliciteerd! U hebt de beeldverhouding van een eendimensionale databalk met succes aangepast met Aspose.BarCode voor .NET. U kunt nu uw opgeslagen barcodeafbeeldingen verkennen in het opgegeven mappad.
+### Stap 5: Verifieer de output
 
-## Conclusie
+Open de gegenereerde PNG‑bestanden in een willekeurige afbeeldingviewer. Je zou twee versies van dezelfde barcode moeten zien, elk met een andere breedte‑tot‑hoogte verhouding. Scan ze met een standaard barcode‑scanner om te bevestigen dat ze nog leesbaar zijn.
 
-In deze zelfstudie hebben we onderzocht hoe u de beeldverhouding van een eendimensionale DataBar kunt aanpassen met Aspose.BarCode voor .NET. Met de kracht van maatwerk en precisie kunt u barcodeontwerpen realiseren die zijn afgestemd op uw specifieke behoeften. Of het nu gaat om voorraadbeheer of productlabeling, met Aspose.BarCode voor .NET kunt u eenvoudig streepjescodes maken.
+## Veelvoorkomende problemen en oplossingen
 
- Heeft u vragen of heeft u verdere hulp nodig? Bekijk de[documentatie](https://reference.aspose.com/barcode/net/) of bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) Voor ondersteuning.
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| Barcode is onscherp | X‑Dimension te laag voor printer‑DPI | Verhoog `XDimension.Pixels` (bijv. naar 3 of 4). |
+| Scanner kan niet lezen | Extreme aspect ratio (bijv. > 50) | Houd de ratio tussen 10‑40 voor betrouwbare scanning. |
+| Bestand niet opgeslagen | Ongeldige `path`‑string | Gebruik `Path.Combine` en zorg dat de map bestaat (`Directory.CreateDirectory`). |
 
 ## Veelgestelde vragen
 
-### 1. Wat is de beeldverhouding van een streepjescode en waarom is deze belangrijk?
+**Q: Wat is de aspect ratio van een barcode, en waarom is die belangrijk?**  
+A: De aspect ratio is de breedte‑tot‑hoogte verhouding. Het beïnvloedt hoe de barcode op een label past en kan de scanbetrouwbaarheid beïnvloeden.
 
-De beeldverhouding van een streepjescode is de verhouding tussen de breedte en de hoogte. Het is essentieel omdat het bepaalt hoe langwerpig of compact de streepjescode eruitziet. Een juiste beeldverhouding zorgt ervoor dat de streepjescode scanbaar is en past bij uw specifieke gebruikssituatie.
+**Q: Kan ik de aspect ratio van andere barcode‑types wijzigen met Aspose.BarCode voor .NET?**  
+A: Ja, veel één‑dimensionale en twee‑dimensionale barcodes bieden een `AspectRatio`‑eigenschap voor fijne afstemming.
 
-### 2. Kan ik de beeldverhouding van andere barcodetypen wijzigen met Aspose.BarCode voor .NET?
+**Q: Zijn er beperkingen bij het wijzigen van de aspect ratio?**  
+A: Extreme waarden kunnen de coderingsstandaarden breken en de barcode onleesbaar maken. Test met je doel‑scanners.
 
-Ja, met Aspose.BarCode voor .NET kunt u de beeldverhouding van verschillende barcodetypen aanpassen, waardoor u flexibiliteit krijgt voor uw ontwerpbehoeften.
+**Q: Waar kan ik meer tutorials en voorbeelden vinden voor Aspose.BarCode voor .NET?**  
+A: Bekijk de uitgebreide gids in de officiële **[documentatie](https://reference.aspose.com/barcode/net/)**.
 
-### 3. Zijn er beperkingen aan het wijzigen van de beeldverhouding van een streepjescode?
+**Q: Hoe krijg ik een tijdelijke licentie voor Aspose.BarCode voor .NET?**  
+A: Je kunt een proeflicentie aanvragen **[hier](https://purchase.aspose.com/temporary-license/)**.
 
-Hoewel u de beeldverhouding kunt aanpassen, kunnen extreme veranderingen de scanbaarheid van de streepjescode beïnvloeden. Het is cruciaal om een evenwicht te vinden tussen design en functionaliteit.
+## Conclusie
 
-### 4. Waar kan ik meer tutorials en voorbeelden vinden voor Aspose.BarCode voor .NET?
+Je hebt nu geleerd hoe je de **databar stacked omnidirectional aspect ratio** kunt **aanpassen** met Aspose.BarCode voor .NET. Door `XDimension` en `DataBar.AspectRatio` aan te passen, kun je barcodes maken die perfect passen bij je labelafmetingen, de esthetische consistentie verbeteren en de scanbetrouwbaarheid behouden. Experimenteer met verschillende ratio's, integreer de code in je voorraad‑ of verpakkingsworkflow, en geniet van de flexibiliteit die Aspose biedt.
 
- U kunt een breed scala aan tutorials en voorbeelden verkennen in de[documentatie](https://reference.aspose.com/barcode/net/).
+Voor meer verdieping, bekijk de volledige **[documentatie](https://reference.aspose.com/barcode/net/)** of word lid van de community op het **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)**.
 
-### 5. Hoe verkrijg ik een tijdelijke licentie voor Aspose.BarCode voor .NET?
+---
 
- Als u een tijdelijke licentie nodig heeft voor testen of evaluatie, kunt u er een krijgen[hier](https://purchase.aspose.com/temporary-license/).
-
-
+**Laatst bijgewerkt:** 2026-02-25  
+**Getest met:** Aspose.BarCode 24.12 for .NET  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

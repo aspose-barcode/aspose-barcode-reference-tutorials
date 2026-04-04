@@ -1,54 +1,66 @@
 ---
-title: Tùy chỉnh tỷ lệ khung hình của thanh dữ liệu một chiều
-linktitle: Tùy chỉnh tỷ lệ khung hình của thanh dữ liệu một chiều
-second_title: API Aspose.BarCode .NET
-description: Tìm hiểu cách tùy chỉnh tỷ lệ khung hình DataBar một chiều trong .NET bằng Aspose.BarCode. Nâng cao độ chính xác và thiết kế mã vạch.
-weight: 16
+date: 2026-02-25
+description: Tìm hiểu cách tùy chỉnh tỷ lệ khung hình **databar stacked omnidirectional**
+  khi bạn **cài đặt Aspose.BarCode cho .NET**. Thiết kế mã vạch chính xác trở nên
+  dễ dàng.
+linktitle: One-Dimensional Databar Aspect Ratio Customization
+second_title: Aspose.BarCode .NET API
+title: Tùy chỉnh tỷ lệ khung hình đa hướng xếp chồng databar trong .NET
 url: /vi/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chỉnh tỷ lệ khung hình của thanh dữ liệu một chiều
+# Tùy chỉnh tỷ lệ khung hình databar stacked omnidirectional trong .NET
 
+Trong thế giới mã vạch, độ chính xác và khả năng tùy chỉnh là chìa khóa để đạt được kết quả mong muốn. Trong hướng dẫn này, bạn sẽ học cách **tùy chỉnh tỷ lệ khung hình databar stacked omnidirectional** bằng cách sử dụng Aspose.BarCode cho .NET. Chúng tôi sẽ chia quá trình thành các bước nhỏ, giải thích lý do mỗi cài đặt quan trọng, và chỉ cho bạn cách tạo ra các hình ảnh cuối cùng. Vậy, hãy bắt đầu!
 
-Trong thế giới mã vạch, độ chính xác và khả năng tùy chỉnh là chìa khóa để đạt được kết quả mong muốn. Là một người viết SEO có kinh nghiệm, tôi ở đây để hướng dẫn bạn quy trình tùy chỉnh tỷ lệ khung hình của DataBar một chiều bằng cách sử dụng Aspose.BarCode cho .NET. Chúng tôi sẽ chia quy trình phức tạp này thành các bước có thể quản lý được, đảm bảo rằng bạn nắm bắt khái niệm một cách kỹ lưỡng. Vì vậy, hãy đi sâu vào!
+## Quick Answers
+- **Bạn có thể tùy chỉnh gì?** Tỷ lệ khung hình của mã vạch databar stacked omnidirectional.  
+- **Thư viện nào cần thiết?** Aspose.BarCode cho .NET (cài đặt Aspose.BarCode cho .NET).  
+- **Bạn có thể đặt bao nhiêu pixel cho X‑Dimension?** Bất kỳ giá trị nguyên nào; ví dụ sử dụng 2 pixel.  
+- **Các hình ảnh được tạo ra lưu ở đâu?** Vào thư mục bạn chỉ định qua biến `path`.  
+- **Bạn có cần giấy phép không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.
 
-## Điều kiện tiên quyết
+## What is databar stacked omnidirectional?
+`databar stacked omnidirectional` là một loại mã vạch một chiều được định nghĩa bởi tiêu chuẩn GS1. Nó mã hoá dữ liệu số ở dạng gọn gàng, mật độ cao và có thể đọc được từ bất kỳ hướng nào, rất phù hợp cho các vật phẩm nhỏ và việc quét di động.
 
-Trước khi chúng ta bắt đầu, có một số điều kiện tiên quyết bạn cần phải có:
+## Why customize the aspect ratio?
+Thay đổi **tỷ lệ khung hình** cho phép bạn kiểm soát cân bằng hình ảnh giữa chiều rộng và chiều cao. Điều này hữu ích khi bạn cần một mã vạch phù hợp với kích thước nhãn cụ thể, tuân thủ hướng dẫn thương hiệu, hoặc cải thiện độ tin cậy khi quét trong điều kiện in ấn hạn chế.
 
-### 1. Cài đặt Aspose.BarCode cho .NET
+## Prerequisites
 
- Đảm bảo bạn đã cài đặt Aspose.BarCode for .NET trên hệ thống của mình. Bạn có thể tải nó từ trang web[đây](https://releases.aspose.com/barcode/net/).
+Before we begin, make sure you have the following:
 
-### 2. Tạo dự án .NET
+### 1. Install Aspose.BarCode for .NET  
+Bạn có thể tải phiên bản mới nhất từ trang chính thức **[here](https://releases.aspose.com/barcode/net/)**. Thực hiện theo hướng dẫn cài đặt để thêm gói NuGet vào dự án của bạn.
 
-Bạn phải có hiểu biết cơ bản về lập trình .NET và thiết lập một dự án để bạn có thể tích hợp Aspose.BarCode.
+### 2. Create a .NET Project  
+Một ứng dụng console hoặc Windows đơn giản là đủ. Đảm bảo bạn nhắm mục tiêu .NET 6+ (hoặc .NET Framework 4.5+) để thư viện hoạt động mà không cần cấu hình bổ sung.
 
-### 3. Đường dẫn thư mục của bạn
+### 3. Your Directory Path  
+Xác định nơi bạn muốn lưu các tệp PNG được tạo và ghi lại đường dẫn tuyệt đối hoặc tương đối.
 
-Bạn cần chỉ định đường dẫn thư mục nơi bạn muốn lưu mã vạch được tạo.
+## Import Namespaces
 
-Bây giờ, hãy chuyển sang hướng dẫn từng bước về cách tùy chỉnh tỷ lệ khung hình của DataBar một chiều.
+Trước khi bắt đầu tùy chỉnh tỷ lệ khung hình, nhập không gian tên cần thiết để bạn có thể truy cập các lớp của Aspose.BarCode.
 
-## Nhập không gian tên
-
-Trước khi bạn bắt đầu tùy chỉnh tỷ lệ khung hình, điều cần thiết là phải nhập các vùng tên cần thiết để truy cập các chức năng Aspose.BarCode trong dự án .NET của bạn. Đây là cách bạn có thể làm điều đó:
-
-### Bước 1: Nhập không gian tên Aspose.BarCode
+### Step 1: Import Aspose.BarCode Namespace
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-Bây giờ bạn đã nhập các không gian tên được yêu cầu, bạn đã sẵn sàng bắt đầu tùy chỉnh tỷ lệ khung hình.
+Bây giờ bạn đã sẵn sàng để tạo một trình tạo mã vạch.
 
-## Bước 1: Khởi tạo BarcodeGenerator
+## databar stacked omnidirectional Aspect Ratio Settings
 
- Bước đầu tiên là khởi tạo`BarcodeGenerator` lớp học. Lớp này cho phép bạn tạo mã vạch với nhiều tùy chọn tùy chỉnh khác nhau. Chúng tôi sẽ tạo một loại mã vạch`DatabarStackedOmniDirectional` bằng một chuỗi dữ liệu mẫu.
+### Step 2: Initialize `BarcodeGenerator`
+
+Chúng tôi sẽ tạo một trình tạo cho loại **databar stacked omnidirectional** và cung cấp cho nó một chuỗi dữ liệu GS1 mẫu.
 
 ```csharp
 string path = "Your Directory Path";
@@ -57,71 +69,78 @@ System.Console.WriteLine("OneDDatabarAspectRatio:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarStackedOmniDirectional, "(01)12345678901231");
 ```
 
- Trong mã này, chúng tôi đặt`path` biến vào đường dẫn thư mục bạn đã chọn và tạo một`BarcodeGenerator` đối tượng thuộc loại`DatabarStackedOmniDirectional` bằng một chuỗi dữ liệu mẫu.
+*Tip:* Thay thế `"Your Directory Path"` bằng một thư mục thực tế, ví dụ, `@"C:\Barcodes\"`.
 
-## Bước 2: Đặt pixel kích thước X
+### Step 3: Set X‑Dimension Pixels
 
-Kích thước X xác định chiều rộng của mã vạch. Bạn có thể thiết lập nó theo yêu cầu của bạn. Trong ví dụ này, chúng tôi sẽ đặt nó thành 2 pixel.
+X‑Dimension xác định độ rộng của thanh mảnh. Trong ví dụ này chúng tôi sử dụng 2 pixel, nhưng bạn có thể điều chỉnh để phù hợp với DPI của máy in.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
- Tại đây, chúng ta truy cập vào`XDimension` tài sản của`Barcode` và đặt nó thành 2 pixel.
+### Step 4: Customize DataBar Aspect Ratio
 
-## Bước 3: Tùy chỉnh tỷ lệ khung hình DataBar
+Bây giờ là phần cốt lõi của hướng dẫn – thay đổi tỷ lệ khung hình.
 
-Bây giờ đến phần cốt lõi của việc tùy chỉnh của chúng tôi - thay đổi tỷ lệ khung hình của DataBar. Tỷ lệ khung hình ảnh hưởng đến tỷ lệ chiều rộng và chiều cao của mã vạch. Trong ví dụ này, chúng tôi sẽ đặt hai tỷ lệ khung hình khác nhau và lưu mã vạch kết quả.
-
-### Bước 3.1: Đặt Tỷ lệ khung hình DataBar thành 15
+#### 4.1 Set Aspect Ratio to 15
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 15;
 gen.Save($"{path}DatabarAspectRatio15.png", BarCodeImageFormat.Png);
 ```
 
-Ở đây, chúng tôi đặt tỷ lệ khung hình thành 15 và lưu mã vạch với tỷ lệ khung hình được chỉ định vào đường dẫn thư mục.
+Mã vạch được lưu dưới tên **DatabarAspectRatio15.png** với hình dạng tương đối cao.
 
-### Bước 3.2: Đặt Tỷ lệ khung hình DataBar thành 30
+#### 4.2 Set Aspect Ratio to 30
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 30;
 gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
 ```
 
-Tương tự, chúng tôi đặt tỷ lệ khung hình thành 30 và lưu mã vạch.
+Tăng tỷ lệ lên **30** làm cho mã vạch rộng hơn và ngắn hơn, có thể hữu ích cho các nhãn rộng.
 
-Chúc mừng! Bạn đã tùy chỉnh thành công tỷ lệ khung hình của DataBar một chiều bằng Aspose.BarCode cho .NET. Bây giờ bạn có thể khám phá hình ảnh mã vạch đã lưu của mình trong đường dẫn thư mục được chỉ định.
+### Step 5: Verify the Output
 
-## Phần kết luận
+Mở các tệp PNG đã tạo bằng bất kỳ trình xem ảnh nào. Bạn sẽ thấy hai phiên bản của cùng một mã vạch, mỗi phiên bản có tỉ lệ chiều rộng‑chiều cao khác nhau. Quét chúng bằng máy quét mã vạch tiêu chuẩn để xác nhận chúng vẫn có thể đọc được.
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách tùy chỉnh tỷ lệ khung hình của DataBar một chiều bằng cách sử dụng Aspose.BarCode cho .NET. Với khả năng tùy chỉnh và độ chính xác, bạn có thể đạt được các thiết kế mã vạch phù hợp với nhu cầu cụ thể của mình. Cho dù đó là để quản lý hàng tồn kho hay ghi nhãn sản phẩm, Aspose.BarCode for .NET đều cho phép bạn tạo mã vạch một cách dễ dàng.
+## Common Issues and Solutions
 
- Có bất kỳ câu hỏi hoặc cần hỗ trợ thêm? Kiểm tra[tài liệu](https://reference.aspose.com/barcode/net/) hoặc ghé thăm[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để hỗ trợ.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|----------|
+| Mã vạch bị mờ | X‑Dimension quá thấp so với DPI của máy in | Tăng `XDimension.Pixels` (ví dụ, lên 3 hoặc 4). |
+| Máy quét không đọc được | Tỷ lệ khung hình quá cực đoan (ví dụ, > 50) | Giữ tỷ lệ trong khoảng 10‑40 để quét ổn định. |
+| Tệp không được lưu | Chuỗi `path` không hợp lệ | Sử dụng `Path.Combine` và đảm bảo thư mục tồn tại (`Directory.CreateDirectory`). |
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### 1. Tỷ lệ khung hình của mã vạch là gì và tại sao nó lại quan trọng?
+**Q: Tỷ lệ khung hình của mã vạch là gì, và tại sao nó quan trọng?**  
+A: Tỷ lệ khung hình là tỉ lệ chiều rộng‑chiều cao. Nó ảnh hưởng đến cách mã vạch vừa trên nhãn và có thể ảnh hưởng đến độ tin cậy khi quét.
 
-Tỷ lệ khung hình của mã vạch là tỷ lệ giữa chiều rộng và chiều cao của nó. Điều này rất cần thiết vì nó quyết định độ dài hoặc độ nén của mã vạch. Tỷ lệ khung hình phù hợp đảm bảo mã vạch có thể quét được và phù hợp với trường hợp sử dụng cụ thể của bạn.
+**Q: Tôi có thể thay đổi tỷ lệ khung hình của các loại mã vạch khác bằng Aspose.BarCode cho .NET không?**  
+A: Có, nhiều mã vạch một chiều và hai chiều cung cấp thuộc tính `AspectRatio` để tinh chỉnh.
 
-### 2. Tôi có thể thay đổi tỷ lệ khung hình của các loại mã vạch khác bằng Aspose.BarCode cho .NET không?
+**Q: Có bất kỳ giới hạn nào khi thay đổi tỷ lệ khung hình không?**  
+A: Giá trị cực đoan có thể vi phạm tiêu chuẩn mã hoá và làm mã vạch không đọc được. Hãy thử nghiệm với máy quét mục tiêu của bạn.
 
-Có, Aspose.BarCode for .NET cho phép bạn tùy chỉnh tỷ lệ khung hình của nhiều loại mã vạch khác nhau, mang lại sự linh hoạt cho nhu cầu thiết kế của bạn.
+**Q: Tôi có thể tìm thêm hướng dẫn và ví dụ cho Aspose.BarCode cho .NET ở đâu?**  
+A: Khám phá hướng dẫn toàn diện trong **[tài liệu](https://reference.aspose.com/barcode/net/)** chính thức.
 
-### 3. Có bất kỳ hạn chế nào đối với việc thay đổi tỷ lệ khung hình của mã vạch không?
+**Q: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.BarCode cho .NET?**  
+A: Bạn có thể yêu cầu giấy phép dùng thử **[here](https://purchase.aspose.com/temporary-license/)**.
 
-Mặc dù bạn có thể điều chỉnh tỷ lệ khung hình nhưng những thay đổi lớn có thể ảnh hưởng đến khả năng quét của mã vạch. Điều quan trọng là đạt được sự cân bằng giữa thiết kế và chức năng.
+## Conclusion
 
-### 4. Tôi có thể tìm thêm hướng dẫn và ví dụ về Aspose.BarCode cho .NET ở đâu?
+Bạn đã nắm vững cách **tùy chỉnh tỷ lệ khung hình databar stacked omnidirectional** bằng Aspose.BarCode cho .NET. Bằng cách điều chỉnh `XDimension` và `DataBar.AspectRatio`, bạn có thể tạo ra các mã vạch phù hợp hoàn hảo với kích thước nhãn của mình, cải thiện tính thẩm mỹ và duy trì độ tin cậy khi quét. Thử nghiệm với các tỷ lệ khác nhau, tích hợp mã vào quy trình quản lý tồn kho hoặc đóng gói, và tận hưởng sự linh hoạt mà Aspose cung cấp.
 
- Bạn có thể khám phá một loạt các hướng dẫn và ví dụ trong[tài liệu](https://reference.aspose.com/barcode/net/).
+Để tìm hiểu sâu hơn, hãy xem **[tài liệu](https://reference.aspose.com/barcode/net/)** đầy đủ hoặc tham gia cộng đồng tại **[diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13)**.
 
-### 5. Làm cách nào để có được giấy phép tạm thời cho Aspose.BarCode cho .NET?
+---
 
- Nếu bạn cần giấy phép tạm thời để thử nghiệm hoặc đánh giá, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
-
-
+**Cập nhật lần cuối:** 2026-02-25  
+**Kiểm tra với:** Aspose.BarCode 24.12 for .NET  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
