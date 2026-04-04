@@ -1,120 +1,143 @@
 ---
-title: ITF-14 vonalkód szegélytípus generálása
-linktitle: ITF-14 vonalkód szegélytípus generálása
+date: 2026-02-20
+description: Tanulja meg, hogyan változtathatja meg az ITF‑14 vonalkódok szegélyét
+  az Aspose.BarCode for .NET segítségével. Ez az útmutató a vonalkód generálását C#‑ban
+  tárgyalja, és gyakorlati példákat nyújt.
+linktitle: ITF-14 Barcode Border Type Generation
 second_title: Aspose.BarCode .NET API
-description: Ismerje meg, hogyan hozhat létre ITF-14 vonalkódokat különböző szegélytípusokkal az Aspose.BarCode for .NET használatával. Könnyedén testreszabhatja csomagolását és címkézését.
-weight: 11
+title: Hogyan változtassuk meg a keretet – ITF‑14 vonalkód kerettípus generálása
 url: /hu/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
+weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ITF-14 vonalkód szegélytípus generálása
+# Hogyan változtassuk meg a keretet – ITF-14 vonalkód kerettípus generálása
 
+Ebben az útmutatóban megtudja, **hogyan változtassuk meg a keretet** az ITF-14 vonalkódoknál az Aspose.BarCode for .NET segítségével. Akár csomagolási‑címkézési rendszert épít, akár konkrét nyomtatási szabványoknak kell megfelelni, a kerettípus vezérlése elengedhetetlen. Lépésről‑lépésre végigvezetünk egy teljes, futtatható példán, amely **vonalkód generálást mutat be C#-ban**, így pontosan úgy generálhat ITF-14 vonalkódokat, ahogy szükséges.
 
-Ebben az oktatóanyagban végigvezetjük az Aspose.BarCode for .NET használatával ITF-14 vonalkódok generálásának folyamatán különböző szegélytípusokkal. Az Aspose.BarCode egy hatékony könyvtár, amely lehetővé teszi különböző formátumú vonalkódok létrehozását, kezelését és felismerését. Ebben a konkrét példában az ITF-14 vonalkódokra és azok szegélytípusainak ellenőrzésére összpontosítunk. Az ITF-14 vonalkódokat általában csomagolási és címkézési célokra használják.
+## Gyors válaszok
+- **Mi befolyásolja a “kerettípus”?** Meghatározza, hogy a vonalkód nincs kerete, egyszerű sávval, külső sávval, kerettel vagy kerettel és külső sávval legyen-e megrajzolva.  
+- **Melyik könyvtárat használja?** Aspose.BarCode for .NET.  
+- **Szükségem van licencre?** A ingyenes próba verzió fejlesztéshez működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Futtatható .NET Core-on?** Igen, az API kompatibilis a .NET Core, .NET 5+ és .NET 6+ verziókkal.  
+- **Hány sor kód?** Kevesebb, mint 20 sor a teljes öt kerettípus generálásához.
+
+## Mi a “keret módosítása” az ITF-14 vonalkódok kontextusában?
+A keret módosítása azt jelenti, hogy kiválasztja a `ITF14BorderType` lehetőségek egyikét (`None`, `Bar`, `BarOut`, `Frame`, `FrameOut`). Minden opció megváltoztatja a vonalkód vizuális keretezését, ami fontos lehet a szkenner olvashatósága és az esztétikai követelmények szempontjából.
+
+## Miért használja az Aspose.BarCode-ot vonalkód generáláshoz C#-ban?
+Az Aspose.BarCode gazdag testreszabási lehetőségeket kínál – színek, méretek, betűtípusok és a bemutatandó kerettípusok – miközben az API egyszerű marad. Ez ideálissá teszi a fejlesztők számára, akiknek **ITF-14 vonalkód** képeket kell gyorsan és megbízhatóan generálniuk.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a vonalkód-generálási folyamatba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-1.  Aspose.BarCode for .NET: Aspose.BarCode for .NET-re telepítve kell lennie. Letöltheti a[weboldal](https://releases.aspose.com/barcode/net/).
-
-2. Fejlesztői környezet: Győződjön meg arról, hogy be van állítva egy fejlesztői környezet, amely lehet egy .NET projekt az Ön által preferált IDE-ben.
-
-3. Alapvető C# ismerete: A C# programozási nyelv ismerete előnyös lesz ebben az oktatóanyagban.
-
-4.  Az Ön címtárának elérési útja: Cserélje ki`"Your Directory Path"` a kódban a tényleges elérési úttal, ahová a generált vonalkód képeket menteni szeretné.
+1. **Aspose.BarCode for .NET** – töltse le a [weboldalról](https://releases.aspose.com/barcode/net/).  
+2. .NET fejlesztői környezet (Visual Studio, Rider vagy VS Code).  
+3. Alapvető ismeretek a **C#** szintaxisról.  
+4. Érvényes mappapath, ahová a generált PNG fájlok mentésre kerülnek – cserélje le a kódban a `"Your Directory Path"` értéket a saját helyére.
 
 ## Névterek importálása
 
-A kezdéshez importáljuk az Aspose.BarCode használatához szükséges névtereket:
+Először hozza be a szükséges névteret a láthatóságba:
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-## 1. lépés: Hozzon létre egy BarcodeGenerator példányt
+## Lépés‑ről‑lépésre útmutató
 
- Az első lépés a példány létrehozása`BarcodeGenerator` ITF-14 vonalkódokhoz. Meg kell adni a kódolandó adatokat is, ebben az esetben "12345678901231".
+### 1. lépés: `BarcodeGenerator` példány létrehozása (ITF-14 vonalkód generálása)
+
+Először inicializáljuk a generátort az ITF‑14 szimbólummal és a kódolandó adatokkal:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
 ```
 
-## 2. lépés: Állítsa be a vonalkód X-dimenzióját
+### 2. lépés: X‑Dimenzió beállítása (a sáv szélességét szabályozza)
 
-Az X-dimenzió a vonalkódsávok szélességét jelzi. Az X-dimenziót pixelben az alábbiak szerint állíthatja be:
+Az X‑Dimenzió határozza meg minden vonalkód sáv szélességét. A 2 pixel érték a legtöbb címkenyomtatóhoz megfelelő:
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## 3. lépés: ITF-14 vonalkódok létrehozása különböző szegélytípusokkal
+### 3. lépés: ITF‑14 vonalkódok generálása különböző kerettípusokkal
 
-Az Aspose.BarCode lehetővé teszi az ITF-14 vonalkódok több szegélytípusának kiválasztását. A következő típusok mindegyikéhez vonalkódot generálunk:
+Az alábbiakban az öt **ITF‑14 vonalkód példát** láthatja, amelyek bemutatják, **hogyan változtassuk meg a keretet**. Minden kódrészlet ugyanazt a `BarcodeGenerator` példányt használja, csak a `ItfBorderType` tulajdonságot cseréli.
 
-### ITF szegély típusa: Nincs
+#### ITF kerettípus: None  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.None;
 gen.Save($"{path}ITF14BorderNone.png", BarCodeImageFormat.Png);
 ```
 
-### ITF szegély típusa: sáv
+#### ITF kerettípus: Bar  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Bar;
 gen.Save($"{path}ITF14BorderBar.png", BarCodeImageFormat.Png);
 ```
 
-### ITF szegély típusa: BarOut
+#### ITF kerettípus: BarOut  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.BarOut;
 gen.Save($"{path}ITF14BorderBarOut.png", BarCodeImageFormat.Png);
 ```
 
-### ITF szegély típusa: keret
+#### ITF kerettípus: Frame  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Frame;
 gen.Save($"{path}ITF14BorderFrame.png", BarCodeImageFormat.Png);
 ```
 
-### ITF szegély típusa: FrameOut
+#### ITF kerettípus: FrameOut  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.FrameOut;
 gen.Save($"{path}ITF14BorderFrameOut.png", BarCodeImageFormat.Png);
 ```
 
-## Következtetés
+Minden `Save` hívás PNG képet ír a megadott könyvtárba, így vizuális referenciát kap minden keret opcióhoz.
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan hozhatunk létre ITF-14 vonalkódokat különböző szegélytípusokkal az Aspose.BarCode for .NET használatával. A megadott lépéseket követve testreszabott vonalkódokat hozhat létre csomagolási és címkézési igényei szerint.
+## Gyakori problémák és tippek
 
-Az Aspose.BarCode for .NET funkciók és testreszabási lehetőségek széles skáláját kínálja a vonalkód generálásához, így értékes eszköz a fejlesztők számára a különböző iparágakban.
+- **Útvonal formázása** – Győződjön meg róla, hogy a `path` változó Windows esetén visszaper (`\`), Linux/macOS esetén pedig előre per (`/`) jellel végződik.  
+- **Licenc kivétel** – Ha licenc nélkül futtatja a kódot, egy kis vízjel jelenik meg a generált képeken.  
+- **Szkenner kompatibilitás** – Egyes szkennerek figyelmen kívül hagyják a külső keretet; tesztelje a saját hardverével, hogy melyik kerettípus működik a legjobban.  
+- **Pro tipp:** A `Save` hívás előtt több tulajdonságot (szín, szöveg stb.) is láncolhat, így egy lépésben hozhat létre teljesen testreszabott vonalkódokat.
 
- Ha bármilyen kérdése van, vagy problémákba ütközik a megvalósítás során, forduljon bizalommal az Aspose.BarCode közösséghez.[támogatói fórum](https://forum.aspose.com/c/barcode/13).
+## Gyakran feltett kérdések
 
-## Gyakran Ismételt Kérdések
+### Mire használják az ITF-14 vonalkódot?
+Az ITF-14 vonalkódokat elsősorban termékcsomagolásra és címkézésre használják a kiskereskedelmi iparban. Olyan információkat kódolnak, mint a termék GTIN-je (Global Trade Item Number), és gyakran megtalálhatók kartondobozokon és raklapokon.
 
-### Mire használható az ITF-14 vonalkód?
-Az ITF-14 vonalkódokat elsősorban a kiskereskedelmi iparban a termékek csomagolására és címkézésére használják. Olyan információkat kódolnak, mint a termék GTIN-je (Global Trade Item Number), és gyakran megtalálhatók a kartonokon és a raklapokon.
+### Testreszabhatom az ITF-14 vonalkód megjelenését az Aspose.BarCode segítségével?
+Igen, az Aspose.BarCode kiterjedt testreszabási lehetőségeket kínál, beleértve a vonalkód kerettípusának, színének és számos egyéb vizuális elemének módosítását.
 
-### Testreszabhatom az ITF-14 vonalkódok megjelenését az Aspose.BarCode segítségével?
-Igen, az Aspose.BarCode kiterjedt testreszabási lehetőségeket kínál, beleértve a vonalkód szegélytípusának, színének és sok más vizuális szempont módosításának lehetőségét.
+### Az Aspose.BarCode kompatibilis más .NET keretekkel?
+Igen, az Aspose.BarCode for .NET kompatibilis különböző .NET keretekkel, beleértve a .NET Core és .NET Standard verziókat, valamint a hagyományos .NET Framework-öt.
 
-### Az Aspose.BarCode kompatibilis más .NET-keretrendszerekkel?
-Igen, az Aspose.BarCode for .NET a hagyományos .NET-keretrendszer mellett kompatibilis a különféle .NET-keretrendszerekkel, beleértve a .NET Core-t és a .NET Standard-t is.
+### Hol találhatok átfogó dokumentációt az Aspose.BarCode for .NET-hez?
+A részletes információkért és példákért az Aspose.BarCode használatáról tekintse meg a dokumentációt [itt](https://reference.aspose.com/barcode/net/).
 
-### Hol találom az Aspose.BarCode for .NET átfogó dokumentációját?
- A dokumentációra hivatkozhat[itt](https://reference.aspose.com/barcode/net/) az Aspose.BarCode használatával kapcsolatos részletes információkért és példákért.
+### Elérhető ingyenes próba verzió az Aspose.BarCode-ból?
+Igen, az Aspose.BarCode for .NET ingyenes próba verzióját elérheti [innen](https://releases.aspose.com/).
 
-### Elérhető az Aspose.BarCode ingyenes próbaverziója?
-Igen, elérheti az Aspose.BarCode ingyenes próbaverzióját .NET-hez innen[itt](https://releases.aspose.com/).
+Ha kérdése van vagy problémába ütközik a megvalósítás során, nyugodtan forduljon az Aspose.BarCode közösséghez a [támogatási fórumban](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Utolsó frissítés:** 2026-02-20  
+**Tesztelve ezzel:** Aspose.BarCode 24.11 for .NET  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
