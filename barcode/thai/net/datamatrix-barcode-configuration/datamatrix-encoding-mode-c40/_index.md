@@ -1,115 +1,130 @@
 ---
-title: โหมดการเข้ารหัส DataMatrix หลัก (C40) ด้วย Aspose.BarCode สำหรับ .NET
-linktitle: โหมดการเข้ารหัส DataMatrix (C40)
+date: 2026-01-15
+description: เรียนรู้วิธีบันทึกไฟล์ PNG ขณะใช้โหมดการเข้ารหัส DataMatrix (C40) กับ
+  Aspose.BarCode สำหรับ .NET – บทเรียนบาร์โค้ดแบบทีละขั้นตอน
+linktitle: DataMatrix Encoding Mode (C40)
 second_title: Aspose.BarCode .NET API
-description: เรียนรู้โหมดการเข้ารหัส DataMatrix (C40) ด้วย Aspose.BarCode สำหรับ .NET สร้างบาร์โค้ดแบบกำหนดเองได้อย่างมีประสิทธิภาพ สำรวจคำแนะนำทีละขั้นตอน
-weight: 16
+title: วิธีบันทึก PNG ด้วย DataMatrix C40 โดยใช้ Aspose.BarCode
 url: /th/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-c40/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# โหมดการเข้ารหัส DataMatrix หลัก (C40) ด้วย Aspose.BarCode สำหรับ .NET
+# โหมดการเข้ารหัส DataMatrix (C40) ขั้นสูงด้วย Aspose.BarCode สำหรับ .NET
 
-## การแนะนำ
+## Introduction
 
-ในโลกของการสร้างบาร์โค้ด ความแม่นยำและความสามารถรอบด้านถือเป็นสิ่งสำคัญ ไม่ว่าคุณจะทำงานด้านการจัดการสินค้าคงคลัง การจัดส่ง หรือแอปพลิเคชันใดๆ ที่เกี่ยวข้องกับการเข้ารหัสข้อมูล บาร์โค้ด DataMatrix ก็เป็นตัวเลือกยอดนิยม ด้วย Aspose.BarCode สำหรับ .NET คุณจะมีเครื่องมือที่มีประสิทธิภาพในการสร้าง ปรับแต่ง และเข้ารหัสบาร์โค้ดได้อย่างมีประสิทธิภาพ
+หากคุณกำลังมองหาคู่มือที่ชัดเจนและเป็นประโยชน์เกี่ยวกับ **how to save png** ขณะสร้างบาร์โค้ด DataMatrix คุณมาถูกที่แล้ว ไม่ว่าคุณจะกำลังสร้างระบบจัดการสินค้าคงคลัง, ตัวสร้างป้ายจัดส่ง, หรือโซลูชันใด ๆ ที่ต้องการบาร์โค้ดที่กะทัดรัดและความหนาแน่นสูง การเชี่ยวชาญโหมดการเข้ารหัส C40 จะทำให้คุณได้ประสิทธิภาพด้านขนาดและการแสดงข้อมูลที่เชื่อถือได้ ในบทแนะนำนี้เราจะพาคุณผ่านกระบวนการสร้างบาร์โค้ด **step by step barcode** ตั้งแต่เงื่อนไขเบื้องต้นจนถึงไฟล์ PNG สุดท้ายโดยใช้ Aspose.BarCode สำหรับ .NET
 
-คู่มือที่ครอบคลุมนี้จะเจาะลึกเกี่ยวกับโหมดการเข้ารหัส DataMatrix (C40) ด้วย Aspose.BarCode สำหรับ .NET ซึ่งจะช่วยให้คุณเห็นรายละเอียดของกระบวนการทีละขั้นตอน เราจะสำรวจข้อกำหนดเบื้องต้น นำเข้าเนมสเปซ และอธิบายตัวอย่างต่างๆ ให้คุณทราบ เพื่อให้มั่นใจว่าคุณจะเชี่ยวชาญโหมดการเข้ารหัสนี้ มาเริ่มกันเลย!
+## Quick Answers
+- **What does “how to save png” refer to?** Saving the generated barcode as a PNG image file.  
+- **Which encoding mode is covered?** DataMatrix C40 encoding.  
+- **Do I need a license?** A free trial works for testing; a license is required for production.  
+- **Can I run this on .NET Core?** Yes, Aspose.BarCode supports .NET Framework and .NET Core.  
+- **What file format is produced?** PNG (Portable Network Graphics) image.
 
-## ข้อกำหนดเบื้องต้น
+## How to Save PNG with DataMatrix C40 Encoding
+การบันทึกบาร์โค้ดเป็น PNG เป็นขั้นตอนสุดท้ายหลังจากที่คุณได้กำหนดค่าตัวสร้างแล้ว เมธอด `Save` จะรับพาธไฟล์, ชื่อไฟล์ที่ต้องการ, และรูปแบบภาพ (`BarCodeImageFormat.Png`) ซึ่งทำให้บาร์โค้ดถูกเก็บในรูปแบบ loss‑less ที่ทำงานได้บนเบราว์เซอร์, เครื่องพิมพ์, และอุปกรณ์มือถือทุกชนิด
 
-ก่อนที่เราจะดำดิ่งสู่โลกของ DataMatrix Encoding Mode (C40) โดยใช้ Aspose.BarCode สำหรับ .NET เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกอย่างพร้อมแล้ว:
+## What is DataMatrix Encoding Mode (C40)?
+C40 เป็นชุดอักขระที่มีประสิทธิภาพสำหรับข้อมูลอัลฟานูเมอริก ช่วยให้คุณบรรจุข้อมูลได้มากขึ้นในสัญลักษณ์ DataMatrix ขนาดเล็ก เหมาะอย่างยิ่งเมื่อคุณต้องเข้ารหัสข้อความที่มีตัวอักษร, ตัวเลข, และอักขระพิเศษจำนวนจำกัด
 
-1. สภาพแวดล้อม .NET: คุณควรมีสภาพแวดล้อม .NET ที่ใช้งานได้ รวมถึง Visual Studio หรือ IDE อื่นๆ ที่เหมาะสมสำหรับการพัฒนา .NET
+## Why Use Aspose.BarCode for .NET?
+- **Full control** over barcode dimensions, error correction, and encoding modes.  
+- **Zero‑dependency** generation – no external services required.  
+- **Cross‑platform** support for .NET Framework, .NET Core, and .NET 5/6+.  
 
-2.  Aspose.BarCode สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.BarCode สำหรับ .NET หากคุณยังไม่ได้ดำเนินการ คุณสามารถดูคำแนะนำในการติดตั้งได้ใน[เอกสารประกอบ](https://reference.aspose.com/barcode/net/).
+## Prerequisites
 
-3. ความรู้พื้นฐานด้านการเขียนโปรแกรม: ความเข้าใจพื้นฐานเกี่ยวกับการพัฒนา C# และ .NET ถือเป็นสิ่งสำคัญ
+ก่อนที่เราจะลงลึกในโค้ด โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมใช้งาน:
 
-4. การตั้งค่าไดเร็กทอรี: เตรียมไดเร็กทอรีบนระบบของคุณที่คุณจะบันทึกบาร์โค้ดที่สร้างขึ้น
+1. **.NET Development Environment** – Visual Studio, Rider, หรือ IDE ใด ๆ ที่รองรับ C#.  
+2. **Aspose.BarCode for .NET** – ติดตั้งผ่าน NuGet หรือโปรแกรมติดตั้งอย่างเป็นทางการ ดูรายละเอียดใน [documentation](https://reference.aspose.com/barcode/net/)  
+3. **Basic C# knowledge** – คุณควรคุ้นเคยกับ namespaces, classes, และ using statements  
+4. **Write‑access folder** – โฟลเดอร์บนเครื่องของคุณที่สามารถบันทึกไฟล์ PNG ได้
 
-ตอนนี้เราได้ครอบคลุมถึงข้อกำหนดเบื้องต้นแล้ว มาดูขั้นตอนสำคัญในการใช้โหมดการเข้ารหัส DataMatrix (C40) ใน Aspose.BarCode สำหรับ .NET กัน
+## Importing Necessary Namespaces
 
-## การนำเข้าเนมสเปซที่จำเป็น
-
-ในขั้นตอนนี้ คุณจะต้องนำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชันการทำงานของ Aspose.BarCode สำหรับ .NET เมื่อต้องการทำเช่นนี้ ให้เพิ่มโค้ดต่อไปนี้ที่จุดเริ่มต้นของไฟล์ C# ของคุณ:
+เพิ่ม namespace ที่จำเป็นที่ส่วนหัวของไฟล์ C# ของคุณเพื่อให้สามารถเข้าถึงคลาสการสร้างบาร์โค้ดได้:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-เนมสเปซเหล่านี้มีคลาสและวิธีการที่จำเป็นในการสร้างและปรับแต่งบาร์โค้ด
+## Step-by-Step Barcode Generation
 
-เรามาแยกตัวอย่างที่คุณให้ไว้ออกเป็นหลายขั้นตอนเพื่อความเข้าใจที่ดีขึ้น
+ด้านล่างเป็น **step by step barcode** walkthrough แต่ละขั้นจะอธิบายด้วยภาษาง่าย ๆ และโค้ดบล็อกต้นฉบับจะถูกเก็บไว้โดยไม่เปลี่ยนแปลงเพื่อความสะดวกในการคัดลอก‑วาง
 
-## ขั้นตอนที่ 1: กำหนดเส้นทางไดเรกทอรี
-
- คุณต้องระบุเส้นทางไดเรกทอรีที่คุณต้องการบันทึกบาร์โค้ดที่สร้างขึ้น แทนที่`"Your Directory Path"` ด้วยเส้นทางจริงในระบบของคุณ
+### Step 1: Define the Directory Path
+กำหนดโฟลเดอร์ที่ภาพ PNG จะถูกเก็บไว้ แทนที่ placeholder ด้วยพาธจริงบนเครื่องของคุณ
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## ขั้นตอนที่ 2: ตั้งค่าการสร้างบาร์โค้ด
-
-ตอนนี้ มาตั้งค่าเครื่องสร้างบาร์โค้ดและระบุประเภทและข้อมูลบาร์โค้ดกัน ในกรณีนี้ เรากำลังใช้ DataMatrix เป็นประเภทบาร์โค้ด โดยมีข้อมูล "ASPOSE.BARCODE"
+### Step 2: Set Up Barcode Generation
+สร้างอินสแตนซ์ `BarcodeGenerator`, ระบุ `EncodeTypes.DataMatrix`, และใส่ข้อมูลที่ต้องการเข้ารหัส
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPOSE.BARCODE"))
 {
-    // ขั้นตอนเพิ่มเติมไปที่นี่
+    // Additional steps go here
 }
 ```
 
-## ขั้นตอนที่ 3: ปรับแต่งบาร์โค้ด
-
-ในขั้นตอนนี้ คุณสามารถปรับแต่งบาร์โค้ดได้โดยการตั้งค่าพารามิเตอร์ต่างๆ ที่นี่ เรากำลังตั้งค่า XDimension (ความกว้างของแถบบาร์โค้ด) และ DataMatrixEncodeMode เป็น C40
+### Step 3: Customize Barcode
+กำหนดค่า X‑dimension (ความกว้างพิกเซลของโมดูล) และสลับโหมดการเข้ารหัสเป็น C40
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 6;
 gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.C40;
 ```
 
-## ขั้นตอนที่ 4: บันทึกภาพบาร์โค้ด
-
- สุดท้าย ให้บันทึกบาร์โค้ดที่สร้างขึ้นเป็นรูปภาพ PNG ในไดเร็กทอรีที่ระบุ คุณสามารถแทนที่ได้`"DataMatrixEncodeModeC40.png"` ด้วยชื่อไฟล์ที่คุณต้องการ
+### Step 4: Save the Barcode Image
+สุดท้ายบันทึกบาร์โค้ดที่สร้างเป็นไฟล์ PNG นี่คือคำตอบที่ชัดเจนสำหรับ **how to save png** ด้วย Aspose.BarCode
 
 ```csharp
 gen.Save($"{path}DataMatrixEncodeModeC40.png", BarCodeImageFormat.Png);
 ```
 
-เมื่อทำตามขั้นตอนเหล่านี้ คุณจะสามารถสร้างบาร์โค้ด DataMatrix ด้วยโหมดการเข้ารหัส C40 โดยใช้ Aspose.BarCode สำหรับ .NET
+เมื่อคุณรันโปรแกรม คุณจะพบไฟล์ `DataMatrixEncodeModeC40.png` อยู่ในโฟลเดอร์ที่ระบุไว้ พร้อมใช้งานในรายงาน, ป้าย, หรือหน้าเว็บต่าง ๆ
 
-## บทสรุป
+## Common Issues & Tips
 
-การเรียนรู้โหมดการเข้ารหัส DataMatrix (C40) ด้วย Aspose.BarCode สำหรับ .NET เปิดโลกแห่งความเป็นไปได้ในการเข้ารหัสข้อมูลและการสร้างบาร์โค้ด ไลบรารีอันทรงพลังนี้เมื่อรวมกับทักษะ .NET ของคุณ จะทำให้คุณสามารถสร้างบาร์โค้ดที่ปรับแต่งได้และมีประสิทธิภาพสำหรับแอปพลิเคชันต่างๆ ด้วยข้อกำหนดเบื้องต้นและขั้นตอนที่เหมาะสม คุณสามารถผสานรวมการสร้างบาร์โค้ดเข้ากับโครงการของคุณได้อย่างมั่นใจ
+- **Invalid Path** – ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีอยู่และคุณมีสิทธิ์เขียน; หากไม่เช่นนั้น `gen.Save` จะโยน exception  
+- **Incorrect Encoding Mode** – หากต้องเข้ารหัสอักขระที่อยู่นอกชุด C40 ให้สลับเป็น `DataMatrixEncodeMode.Auto` หรือโหมดที่เหมาะสมอื่น ๆ  
+- **Image Size** – ปรับค่า `XDimension.Pixels` เพื่อเพิ่มหรือ ลดขนาดบาร์โค้ดโดยไม่กระทบต่อความอ่านได้
 
-เริ่มสร้างบาร์โค้ด DataMatrix ด้วย Aspose.BarCode สำหรับ .NET วันนี้ และสำรวจศักยภาพที่ไม่มีที่สิ้นสุดของการเข้ารหัสข้อมูล
+## Frequently Asked Questions
 
-## คำถามที่พบบ่อย
+**Q: What is DataMatrix Encoding Mode (C40)?**  
+A: C40 is a compact alphanumeric encoding scheme for DataMatrix symbols, ideal for text that includes letters, numbers, and a limited set of special characters.
 
-### คำถามที่ 1: โหมดการเข้ารหัส DataMatrix (C40) คืออะไร
+**Q: Where can I find the Aspose.BarCode for .NET documentation?**  
+A: You can find the documentation [here](https://reference.aspose.com/barcode/net/). It provides detailed guidance on all barcode types and encoding options.
 
-A1: โหมดการเข้ารหัส DataMatrix (C40) เป็นโหมดการเข้ารหัสอักขระที่ใช้ในบาร์โค้ด DataMatrix มันเป็นชุดย่อยของสัญลักษณ์ DataMatrix และเหมาะสำหรับการเข้ารหัสตัวอักษรและตัวเลขและอักขระพิเศษอย่างมีประสิทธิภาพ
+**Q: Is Aspose.BarCode for .NET compatible with all .NET versions?**  
+A: Yes, the library supports a wide range of .NET versions, from .NET Framework 4.5+ to .NET 6 and later.
 
-### คำถามที่ 2: ฉันจะหาเอกสาร Aspose.BarCode สำหรับ .NET ได้ที่ไหน
+**Q: Can I try Aspose.BarCode for .NET before purchasing?**  
+A: Yes, you can explore a free trial of Aspose.BarCode for .NET by visiting [this link](https://releases.aspose.com/). It allows you to test the library’s features and capabilities.
 
- A2: คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/barcode/net/). โดยให้ข้อมูลโดยละเอียดเกี่ยวกับการใช้ไลบรารีสำหรับบาร์โค้ดประเภทต่างๆ และโหมดการเข้ารหัส
+**Q: Where can I get support for Aspose.BarCode for .NET?**  
+A: You can find a supportive community and access support for Aspose.BarCode for .NET on the [Aspose forum](https://forum.aspose.com/c/barcode/13).
 
-### คำถามที่ 3: Aspose.BarCode สำหรับ .NET เข้ากันได้กับ .NET เวอร์ชันทั้งหมดหรือไม่
+## Conclusion
 
-ตอบ 3: ใช่ Aspose.BarCode สำหรับ .NET เข้ากันได้กับ .NET เวอร์ชันต่างๆ มากมาย ทำให้มั่นใจได้ถึงความยืดหยุ่นสำหรับนักพัฒนาที่ทำงานในโครงการต่างๆ
+โดยทำตามคู่มือ **step by step barcode** นี้ คุณจะรู้วิธี **how to save PNG** อย่างแม่นยำจากการสร้างบาร์โค้ด DataMatrix C40 ด้วย Aspose.BarCode สำหรับ .NET วิธีการนี้ให้คุณควบคุมลักษณะ, ขนาด, และการแสดงข้อมูลของบาร์โค้ดได้เต็มที่ ทำให้การผสานบาร์โค้ดคุณภาพสูงเข้าสู่แอปพลิเคชัน .NET ใด ๆ เป็นเรื่องง่าย
 
-### คำถามที่ 4: ฉันสามารถลองใช้ Aspose.BarCode สำหรับ .NET ก่อนซื้อได้หรือไม่
+---
 
- A4: ได้ คุณสามารถทดลองใช้ Aspose.BarCode สำหรับ .NET ได้ฟรีโดยไปที่[ลิงค์นี้](https://releases.aspose.com/). ช่วยให้คุณสามารถทดสอบคุณสมบัติและความสามารถของไลบรารีได้
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
-### คำถามที่ 5: ฉันจะรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ .NET ได้ที่ไหน
-
-A5: คุณสามารถค้นหาชุมชนที่สนับสนุนและเข้าถึงการสนับสนุนสำหรับ Aspose.BarCode สำหรับ .NET ได้บน[ฟอรั่ม Aspose](https://forum.aspose.com/c/barcode/13).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

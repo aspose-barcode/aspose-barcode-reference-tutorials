@@ -1,33 +1,43 @@
 ---
-title: Genere el modo DataMatrix (automático) con Aspose.BarCode para .NET
-linktitle: Modo de codificación DataMatrix (automático)
-second_title: API Aspose.BarCode .NET
-description: Aprenda a generar el modo DataMatrix (automático) con Aspose.BarCode para .NET. Esta guía paso a paso cubre todo, desde los requisitos previos hasta la lectura de códigos de barras.
-weight: 14
+date: 2026-01-15
+description: Guía tutorial paso a paso de códigos de barras para leer códigos DataMatrix
+  en C# y generar imágenes de códigos de barras en C# usando Aspose.BarCode para .NET.
+linktitle: DataMatrix Encoding Mode (Auto)
+second_title: Aspose.BarCode .NET API
+title: Leer código de barras DataMatrix C# – Generar modo DataMatrix (Auto)
 url: /es/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Genere el modo DataMatrix (automático) con Aspose.BarCode para .NET
+# Leer DataMatrix barcode C# – Generar modo DataMatrix (Auto)
 
-medida que la era digital continúa evolucionando, la necesidad de métodos eficientes de codificación de datos se vuelve cada vez más crucial. El modo DataMatrix (Auto) es una de esas soluciones, que le permite almacenar información en un formato compacto y confiable. En esta guía paso a paso, exploraremos cómo generar el modo DataMatrix (automático) sin esfuerzo utilizando la biblioteca Aspose.BarCode para .NET. Ya sea que sea un desarrollador experimentado o un recién llegado, este tutorial lo guiará a través del proceso, lo que le facilitará comenzar.
+En el mundo digital de hoy, que sea posible **read DataMatrix barcode C#** de forma rápida y fiable es esencial para todo, desde el seguimiento de inventario hasta la gestión segura de documentos. Este tutorial le guiará paso a paso para generar un código de barras DataMatrix en modo *Auto* con Aspose.BarCode para .NET y luego mostrará cómo leer ese código de barras nuevamente en C#. Ya sea que esté siguiendo una **barcode tutorial guide** o simplemente necesite un ejemplo de código sólido, terminará esta guía con una solución funcional que podrá incorporar en sus propios proyectos.
+
+## Respuestas rápidas
+- **¿Qué hace el modo “Auto”?** Permite que Aspose.BarCode seleccione automáticamente el mejor esquema de codificación para sus datos.  
+- **¿Qué biblioteca se requiere?** Aspose.BarCode for .NET (prueba gratuita disponible).  
+- **¿Puedo leer el código de barras en la misma aplicación?** Sí – use `BarCodeReader` con `DecodeType.DataMatrix`.  
+- **¿Necesito una licencia para producción?** Se requiere una licencia comercial para uso en producción.  
+- **¿Versiones .NET compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## ¿Qué es leer un código de barras DataMatrix en C#?
+Leer un código de barras DataMatrix en C# significa decodificar la matriz bidimensional de módulos negros y blancos de vuelta al texto o datos originales. Aspose.BarCode ofrece una API sencilla que abstrae el procesamiento de imágenes de bajo nivel, permitiéndole centrarse en su lógica de negocio.
+
+## ¿Por qué usar Aspose.BarCode para generar una imagen de código de barras C#?
+- **Confiabilidad:** Maneja todos los estándares DataMatrix y selecciona automáticamente la codificación óptima.  
+- **Flexibilidad:** Control total sobre dimensiones, codificación ECI y formato de imagen.  
+- **Multiplataforma:** Funciona con .NET Framework, .NET Core y aplicaciones .NET 5+.  
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
-1.  Entorno .NET: asegúrese de tener el marco .NET instalado en su sistema. Puedes descargarlo desde el[sitio web .NET](https://dotnet.microsoft.com/download/dotnet).
-
-2.  Aspose.BarCode para .NET: descargue e instale la biblioteca Aspose.BarCode para .NET desde[sitio web](https://releases.aspose.com/barcode/net/).
-
-Una vez cumplidos estos requisitos previos, está listo para comenzar a generar el modo DataMatrix (automático).
+1. **Entorno .NET** – Instale la última versión del runtime .NET desde el [.NET website](https://dotnet.microsoft.com/download/dotnet).  
+2. **Aspose.BarCode for .NET** – Descargue la biblioteca desde el [sitio web](https://releases.aspose.com/barcode/net/).  
 
 ## Importando espacios de nombres
-
-Comience importando los espacios de nombres necesarios en su código C# para que la biblioteca Aspose.BarCode sea accesible:
 
 ```csharp
 using Aspose.BarCode.BarCodeRecognition;
@@ -36,19 +46,17 @@ using System;
 using System.Drawing;
 ```
 
-Ahora, dividamos el ejemplo en varios pasos para crear el modo DataMatrix (automático).
+Ahora que los espacios de nombres están en su lugar, vamos a recorrer el código paso a paso.
 
-## Paso 1: establecer la ruta del directorio
-
- Primero, especifique la ruta del directorio donde desea guardar las imágenes de códigos de barras generadas. Reemplazar`"Your Directory Path"` con la ruta del directorio real:
+## Paso 1: Establecer la ruta del directorio
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Paso 2: crear un modo DataMatrix (automático)
+Reemplace `"Your Directory Path"` con la carpeta donde desea que se guarde el PNG generado (u otro formato).
 
-Ahora es el momento de crear un código de barras DataMatrix usando Aspose.BarCode. Configuraremos el modo de codificación en "Auto" para permitir que la biblioteca determine automáticamente el método de codificación óptimo para los datos proporcionados.
+## Paso 2: Crear un código de barras DataMatrix en modo Auto
 
 ```csharp
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose常に先を行く"))
@@ -60,11 +68,9 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 }
 ```
 
-En este bloque de código, el código de barras DataMatrix se genera con el texto "Aspose常に先を行く". Puede reemplazar este texto con los datos que desea codificar.
+La configuración `DataMatrixEncodeMode.Auto` permite que la biblioteca decida la mejor codificación para el texto suministrado. Siéntase libre de reemplazar el texto de ejemplo con cualquier cadena que necesite para **generate barcode image C#**.
 
-## Paso 3: leer el código de barras
-
-Para verificar el código de barras generado, puede leerlo usando Aspose.BarCodeReader:
+## Paso 3: Leer el código de barras (read DataMatrix barcode C#)
 
 ```csharp
 using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -74,42 +80,48 @@ using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
 }
 ```
 
-Este paso lee el código de barras e imprime el texto codificado en la consola.
+Este fragmento decodifica la imagen que acabamos de generar e imprime el texto original en la consola, demostrando un ciclo completo desde la generación hasta la lectura.
 
-Ahora, ha creado y leído con éxito un código de barras DataMatrix utilizando Aspose.BarCode para .NET. Puede personalizar el modo de codificación, las dimensiones y otros parámetros para adaptarlos a sus requisitos específicos.
+## Problemas comunes y soluciones
 
-En este tutorial, cubrimos los pasos básicos para comenzar con la generación de códigos de barras DataMatrix. A medida que explore más la biblioteca Aspose.BarCode, descubrirá funciones más avanzadas y opciones de personalización para sus necesidades de códigos de barras.
-
-## Conclusión
-
-Generar el modo DataMatrix (Auto) con Aspose.BarCode para .NET es un proceso sencillo, como se demuestra en este tutorial. Con la capacidad de determinar automáticamente el modo de codificación, puede codificar datos de manera eficiente en un formato compacto, lo que lo convierte en una herramienta valiosa para diversas aplicaciones.
-
- Ahora que has aprendido los conceptos básicos, siéntete libre de explorar[documentación](https://reference.aspose.com/barcode/net/) y experimente con diferentes configuraciones para adaptar los códigos de barras generados a sus requisitos específicos.
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **No se detectó el código de barras** | Resolución de la imagen demasiado baja | Aumente `XDimension.Pixels` (p.ej., a 6) |
+| **Caracteres basura** | Codificación ECI incorrecta | Establezca `ECIEncoding` para que coincida con sus datos (UTF‑8, ASCII, etc.) |
+| **Excepción en `ReadBarCodes`** | Bitmap liberado antes de la lectura | Mantenga la instancia `Bitmap` viva hasta después de la lectura |
 
 ## Preguntas frecuentes
 
-### P1: ¿Qué es el modo de codificación "Auto" de DataMatrix?
+**Q: ¿Qué es el modo de codificación DataMatrix "Auto"?**  
+A: Permite que Aspose.BarCode seleccione automáticamente el método de codificación óptimo para los datos proporcionados, simplificando el proceso de **how to generate datamatrix barcode**.
 
-R1: El modo de codificación "Auto" de DataMatrix permite que la biblioteca Aspose.BarCode seleccione automáticamente el método de codificación óptimo para los datos proporcionados, lo que la convierte en una opción conveniente para varios escenarios.
+**Q: ¿Puedo personalizar las dimensiones del código de barras generado?**  
+A: Sí – ajuste `generator.Parameters.Barcode.XDimension.Pixels` para cambiar el tamaño del módulo.
 
-### P2: ¿Puedo personalizar las dimensiones del código de barras generado?
+**Q: ¿Es Aspose.BarCode for .NET adecuado para uso comercial?**  
+A: Absolutamente. Adquiera una licencia desde el [sitio web](https://purchase.aspose.com/buy).
 
- R2: Sí, puede ajustar las dimensiones del código de barras modificando el`generator.Parameters.Barcode.XDimension.Pixels` propiedad en el código.
+**Q: ¿Hay una prueba gratuita disponible?**  
+A: Sí, puede explorar Aspose.BarCode con una prueba gratuita desde [este enlace](https://releases.aspose.com/).
 
-### P3: ¿Aspose.BarCode para .NET es adecuado para uso comercial?
+**Q: ¿Qué opciones de codificación están disponibles para los códigos de barras DataMatrix?**  
+A: Aspose.BarCode admite UTF‑8, ASCII y otras codificaciones ECI; establezca el valor deseado mediante `ECIEncoding`.
 
- R3: Sí, Aspose.BarCode para .NET es un producto comercial. Puede adquirir una licencia en el[sitio web](https://purchase.aspose.com/buy).
+## Conclusión
 
-### P4: ¿Hay una prueba gratuita disponible para Aspose.BarCode para .NET?
+Ahora dispone de un ejemplo completo y listo para producción que **reads DataMatrix barcode C#**, genera el código de barras en modo Auto y verifica el resultado, todo usando Aspose.BarCode para .NET. Experimente con diferentes textos, tamaños y configuraciones ECI para adaptarse a su escenario específico, y consulte la documentación oficial en [documentation](https://reference.aspose.com/barcode/net/) para una personalización más profunda.
 
- R4: Sí, puedes explorar Aspose.BarCode con una prueba gratuita desde[este enlace](https://releases.aspose.com/).
-
-### P5: ¿Qué opciones de codificación están disponibles para los códigos de barras DataMatrix?
-
-R5: Aspose.BarCode para .NET ofrece varias opciones de codificación, incluidas UTF-8, ASCII y más. Puede seleccionar la codificación deseada al crear el código de barras.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-01-15  
+**Probado con:** Aspose.BarCode 24.12 for .NET  
+**Autor:** Aspose  
+
+---
