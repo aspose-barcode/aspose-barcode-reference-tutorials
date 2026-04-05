@@ -1,11 +1,15 @@
 ---
-date: 2025-12-10
+date: 2026-04-05
 description: Apprenez à générer des codes‑barres en Java avec Aspose.BarCode. Ce guide
   étape par étape montre la génération dynamique de codes‑barres et l’enregistrement
-  des images dans des flux.
-linktitle: Saving Barcode Image to Streams
+  d’images dans des flux.
+keywords:
+- how to generate barcode java
+- dynamic barcode generation java
+- save barcode image to streams
+linktitle: Enregistrement de l’image du code‑barres dans les flux
 second_title: Aspose.BarCode Java API
-title: 'Générer un code‑barres Java : enregistrer dans des flux avec Aspose.BarCode'
+title: 'Comment générer un code-barres en Java : enregistrer dans des flux avec Aspose.BarCode'
 url: /fr/java/advanced-settings-and-optimization/saving-barcode-image-streams/
 weight: 14
 ---
@@ -14,29 +18,29 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Enregistrement d'une image de code‑barres dans des flux en Java avec Aspose.BarCode
+# Enregistrement d'image de code-barres dans des flux en Java avec Aspose.BarCode
 
-## Introduction
+## Comment générer un code-barres Java – Introduction
 
-Dans le paysage dynamique de la programmation Java, le besoin de **générer des codes‑barres Java** de manière efficace est primordial. Aspose.BarCode pour Java se démarque comme une solution robuste, offrant une intégration transparente pour la création de codes‑barres dans divers formats. Ce tutoriel vous guidera à travers le processus d’enregistrement d’images de codes‑barres dans des flux à l’aide d’Aspose.BarCode pour Java, vous fournissant une base solide pour la **génération dynamique de codes‑barres** dans vos applications.
+Dans ce guide, nous vous montrerons **comment générer un code-barres Java** efficacement dans le paysage dynamique de la programmation Java. Aspose.BarCode pour Java se distingue comme une solution robuste, offrant une intégration transparente pour la création de codes-barres dans divers formats. Ce tutoriel vous guide à travers l'enregistrement d'images de code-barres dans des flux, une technique clé pour les scénarios **de génération dynamique de code-barres java** tels que les API web et les micro‑services.
 
-## Quick Answers
-- **Que couvre ce tutoriel ?** Enregistrement d’une image de code‑barres dans un `ByteArrayOutputStream` avec Aspose.BarCode pour Java.  
-- **Quel type de code‑barres est utilisé dans l’exemple ?** CODE_128.  
-- **Quel format d’image est démontré ?** JPEG.  
-- **Ai‑je besoin d’une licence pour exécuter le code ?** Une version d’essai gratuite suffit pour le développement ; une licence commerciale est requise pour la production.  
-- **Puis‑je utiliser le flux avec d’autres API ?** Oui, le `ByteArrayOutputStream` peut être transmis à des services web, enregistré dans une base de données ou écrit dans un fichier.
+## Réponses rapides
+- **Que couvre ce tutoriel ?** Enregistrement d'une image de code-barres dans un `ByteArrayOutputStream` à l'aide d'Aspose.BarCode pour Java.  
+- **Quel type de code-barres est utilisé dans l'exemple ?** CODE_128.  
+- **Quel format d'image est démontré ?** JPEG.  
+- **Ai‑je besoin d'une licence pour exécuter le code ?** Un essai gratuit suffit pour le développement ; une licence commerciale est requise pour la production.  
+- **Puis‑je utiliser le flux avec d'autres API ?** Oui, le `ByteArrayOutputStream` peut être transmis aux services web, enregistré dans une base de données ou écrit dans un fichier.
 
-## Prerequisites
+## Pré‑requis
 
-Avant de plonger dans le tutoriel, assurez‑vous de disposer des prérequis suivants :
+Avant de plonger dans le tutoriel, assurez‑vous de disposer des pré‑requis suivants :
 
 - Environnement de développement Java : configurez un environnement de développement Java sur votre machine.  
 - Aspose.BarCode pour Java : téléchargez et installez la bibliothèque Aspose.BarCode. Vous pouvez trouver la bibliothèque [ici](https://releases.aspose.com/barcode/java/).
 
-## Import Namespaces
+## Importer les espaces de noms
 
-Pour démarrer votre aventure de génération de codes‑barres, importez les espaces de noms nécessaires :
+Pour démarrer votre aventure de génération de code‑barres, importez les espaces de noms nécessaires :
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -47,80 +51,73 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.EncodeTypes;
 ```
 
-## Step 1: Create Barcode Generator
+## Étape 1 : créer le générateur de code‑barres
 
-Initialisez un objet `BarcodeGenerator` avec le type d’encodage et les données souhaités.
+Initialisez un objet `BarcodeGenerator` avec le type d'encodage souhaité et les données.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "123456");
 ```
 
-## Step 2: Generate Barcode Image
+## Étape 2 : générer l'image du code‑barres
 
-Générez l’image du code‑barres et enregistrez‑la dans un `ByteArrayOutputStream`.
+Générez l'image du code‑barres et enregistrez‑la dans un `ByteArrayOutputStream`.
 
 ```java
 ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 generator.save(outStream, BarCodeImageFormat.JPEG);
 ```
 
-## Step 3: Utilize the Generated Barcode
+## Étape 3 : utiliser le code‑barres généré
 
-À ce stade, l’image du code‑barres est stockée dans le `ByteArrayOutputStream` (`outStream`). Vous pouvez maintenant l’utiliser ou la traiter davantage selon les besoins de votre application Java — que ce soit pour l’envoyer via HTTP, l’intégrer dans un PDF ou la stocker dans une base de données.
+À ce stade, l'image du code‑barres est stockée dans le `ByteArrayOutputStream` (`outStream`). Vous pouvez maintenant l'utiliser ou la traiter davantage dans votre application Java—que ce soit pour l'envoyer via HTTP, l'intégrer dans un PDF ou la stocker dans une base de données.
 
-## Why Save to Streams?
+## Pourquoi enregistrer dans des flux ?
 
-Enregistrer dans un flux maintient votre code‑barres en mémoire, éliminant le besoin de fichiers temporaires. Cette approche est idéale pour :
+Enregistrer dans un flux maintient votre code‑barres en mémoire, éliminant le besoin de fichiers temporaires. Cette approche est idéale pour :
 
 - **Web APIs** qui doivent renvoyer le code‑barres directement dans la réponse.  
-- **Microservices** où le surcoût d’I/O fichier doit être minimisé.  
+- **Microservices** où la surcharge d'E/S de fichiers doit être minimisée.  
 - **Génération de contenu dynamique** où chaque requête peut produire un code‑barres unique.
 
-## Common Issues & Tips
+## Problèmes courants et conseils
 
-- **OutOfMemoryError** – Si vous générez des codes‑barres très volumineux, envisagez de vider le flux périodiquement ou d’utiliser un `BufferedOutputStream`.  
+- **OutOfMemoryError** – Si vous générez des codes‑barres très volumineux, envisagez de vider le flux périodiquement ou d'utiliser un `BufferedOutputStream`.  
 - **Unsupported Format** – Assurez‑vous que le `BarCodeImageFormat` choisi correspond aux capacités de votre système en aval (par ex., PNG pour les besoins sans perte).  
-- **License Exceptions** – L’exécution sans licence valide peut ajouter un filigrane à l’image générée.
+- **License Exceptions** – Exécuter sans licence valide peut ajouter un filigrane à l'image générée.
 
-## Frequently Asked Questions
+## Questions fréquentes
 
-### Q1 : Aspose.BarCode est‑il compatible avec tous les environnements de développement Java ?
+### Q1 : Aspose.BarCode est‑il compatible avec tous les environnements de développement Java ?
+R1 : Oui, Aspose.BarCode est conçu pour être compatible avec divers environnements de développement Java.
 
-A1 : Oui, Aspose.BarCode est conçu pour être compatible avec divers environnements de développement Java.
+### Q2 : Puis‑je personnaliser l'apparence du code‑barres généré ?
+R2 : Absolument ! Aspose.BarCode propose une gamme d'options de personnalisation, vous permettant d'adapter l'apparence du code‑barres à vos exigences spécifiques.
 
-### Q2 : Puis‑je personnaliser l’apparence du code‑barres généré ?
+### Q3 : Existe‑t‑il un essai gratuit disponible pour Aspose.BarCode pour Java ?
+R3 : Oui, vous pouvez explorer un essai gratuit [ici](https://releases.aspose.com/).
 
-A2 : Absolument ! Aspose.BarCode offre de nombreuses options de personnalisation, vous permettant d’adapter l’apparence du code‑barres à vos exigences spécifiques.
+### Q4 : Comment obtenir du support pour Aspose.BarCode pour Java ?
+R4 : Pour obtenir du support, consultez le [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-### Q3 : Existe‑t‑il un essai gratuit pour Aspose.BarCode pour Java ?
+### Q5 : Des licences temporaires sont‑elles disponibles pour Aspose.BarCode ?
+R5 : Oui, des licences temporaires peuvent être obtenues [ici](https://purchase.aspose.com/temporary-license/).
 
-A3 : Oui, vous pouvez explorer un essai gratuit [ici](https://releases.aspose.com/).
+### Q6 : Puis‑je convertir le flux en chaîne Base64 pour les API JSON ?
+R6 : Oui, il suffit d'appeler `Base64.getEncoder().encodeToString(outStream.toByteArray())` pour intégrer l'image directement dans les charges JSON.
 
-### Q4 : Comment obtenir du support pour Aspose.BarCode pour Java ?
-
-A4 : Pour le support, consultez le [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
-### Q5 : Des licences temporaires sont‑elles disponibles pour Aspose.BarCode ?
-
-A5 : Oui, des licences temporaires peuvent être obtenues [ici](https://purchase.aspose.com/temporary-license/).
-
-### Q6 : Puis‑je convertir le flux en chaîne Base64 pour les API JSON ?
-
-A6 : Oui, appelez simplement `Base64.getEncoder().encodeToString(outStream.toByteArray())` pour intégrer l’image directement dans le payload JSON.
-
-### Q7 : Cette méthode fonctionne‑t‑elle avec d’autres formats d’image comme PNG ou GIF ?
-
-A7 : La méthode `save` prend en charge plusieurs formats ; remplacez `BarCodeImageFormat.JPEG` par `BarCodeImageFormat.PNG` ou `BarCodeImageFormat.GIF` selon vos besoins.
+### Q7 : Cela fonctionne‑t‑il avec d’autres formats d’image comme PNG ou GIF ?
+R7 : La méthode `save` prend en charge plusieurs formats ; remplacez `BarCodeImageFormat.JPEG` par `BarCodeImageFormat.PNG` ou `BarCodeImageFormat.GIF` selon les besoins.
 
 ## Conclusion
 
-Aspose.BarCode pour Java fournit une solution puissante et flexible pour les tâches de **générer des codes‑barres Java**. En suivant ce guide étape par étape, vous pouvez enregistrer aisément des images de codes‑barres dans des flux, permettant une génération dynamique de codes‑barres et une intégration fluide avec les applications Java modernes.
+Aspose.BarCode pour Java offre une solution puissante et flexible pour les tâches **de génération de code‑barres Java**. En suivant ce guide étape par étape, vous pouvez enregistrer facilement des images de code‑barres dans des flux, permettant la génération dynamique de codes‑barres et une intégration fluide avec les applications Java modernes.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode 24.12 for Java  
-**Author:** Aspose
+**Dernière mise à jour :** 2026-04-05  
+**Testé avec :** Aspose.BarCode 24.12 pour Java  
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
