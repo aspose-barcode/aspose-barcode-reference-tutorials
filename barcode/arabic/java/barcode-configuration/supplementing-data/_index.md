@@ -1,10 +1,10 @@
 ---
-date: 2025-12-17
-description: تعلم كيفية إنشاء الباركود في جافا باستخدام Aspose.BarCode، مع تغطية إنشاء
-  الباركود الديناميكي، وإنشاء باركود EAN‑13، وحفظ صور الباركود مع البيانات الإضافية.
+date: 2026-02-17
+description: تعلم كيفية إنشاء باركود Java باستخدام Aspose.BarCode، مع مثال مولد باركود
+  Java، إنشاء باركود ديناميكي Java، وإنشاء باركود EAN‑13 مع بيانات إضافية.
 linktitle: Supplementing Data
 second_title: Aspose.BarCode Java API
-title: كيفية إنشاء رمز شريطي مع بيانات إضافية في جافا
+title: كيفية توليد باركود جافا مع البيانات التكميلية
 url: /ar/java/barcode-configuration/supplementing-data/
 weight: 16
 ---
@@ -13,37 +13,44 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية إنشاء الباركود مع بيانات إضافية في جافا
+# How to Generate Barcode Java with Supplementary Data
 
-## المقدمة
+## Introduction
 
-في بيئة الرقمية السريعة اليوم، **how to generate barcode** بفعالية هو سؤال يواجهه العديد من مطوري جافا. تقدم Aspose.BarCode for Java واجهة برمجة تطبيقات قوية وسهلة الاستخدام تدعم **dynamic barcode generation**، بما في ذلك إنشاء **EAN‑13 barcodes** مع بيانات إضافية. سواءً كنت تبني أنظمة جرد، أو تطبيقات نقاط بيع تجزئة، أو متتبعات لوجستية، فإن هذا الدليل يمرّ بك عبر **java barcode generator example** الذي يحفظ صورة الباركود على القرص ويسمح لك بتخصيص الجزء الإضافي.
+في بيئة الرقمية سريعة الحركة اليوم، يتساءل العديد من مطوري Java **how to generate barcode Java** بكفاءة. تقدم Aspose.BarCode for Java واجهة برمجة تطبيقات قوية وسهلة الاستخدام تدعم **dynamic barcode generation**، بما في ذلك إنشاء **EAN‑13 barcodes** مع بيانات إضافية. سواءً كنت تبني أنظمة جرد، أو تطبيقات نقاط بيع تجزئة، أو متتبعات لوجستية، فإن هذا الدليل يشرح لك **barcode generator example java** الذي يحفظ صورة الباركود على القرص ويسمح لك بتخصيص الجزء الإضافي.
 
-## إجابات سريعة
-- **ما هي المكتبة الأفضل لإنشاء باركود في جافا؟** Aspose.BarCode for Java.
-- **أي رموز تُنشئ باركود رقمي مكوّن من 13 رقمًا؟** EAN‑13.
-- **هل يمكنني إضافة بيانات إضافية إلى باركود EAN‑13؟** نعم، باستخدام `Supplement` API.
-- **كيف أحفظ الباركود المُنشأ كصورة؟** Call `generator.save("path/filename.jpg")`.
-- **هل يلزم وجود ترخيص للاستخدام في الإنتاج؟** نعم، يلزم ترخيص تجاري؛ نسخة تجريبية مجانية متاحة.
+## Why This Matters
 
-## ما هو إنشاء الباركود في جافا؟
+إضافة بيانات إضافية إلى باركود EAN‑13 هو طلب شائع للمجلات، والنشرات الدورية، والسلع التجزئة التي تحتاج إلى معلومات إضافية (مثل أرقام الإصدارات). من خلال إتقان **dynamic barcode generation java**، يمكنك:
 
-إنشاء الباركود يعني تحويل البيانات — أرقام، حروف، أو مزيج منها — إلى نمط بصري يمكن للماسحات قراءته. باستخدام Aspose.BarCode يمكنك إنتاج **high‑resolution barcode images** في الوقت الفعلي، مما يجعلها مثالية لسيناريوهات **dynamic barcode generation** مثل إصدار التذاكر في الوقت الحقيقي أو إكمال الطلبات.
+- إنتاج باركودات عالية الدقة في الوقت الفعلي، مما يلغي الحاجة إلى ملفات صور مُولَّدة مسبقًا.  
+- الحفاظ على سير العمل آليًا بالكامل، وهو أمر أساسي لمعالجة الطلبات الفورية وإصدار التذاكر.  
+- التحكم الكامل في المظهر، والمسافات، وصيغة الملف—كل ذلك من خلال كود Java.
 
-## لماذا تستخدم Aspose.BarCode لإنشاء باركود ديناميكي؟
+## Quick Answers
+- **What library is best for generating barcodes in Java?** Aspose.BarCode for Java.  
+- **Which symbology creates a 13‑digit numeric barcode?** EAN‑13.  
+- **Can I add supplemental data to an EAN‑13 barcode?** Yes, using the `Supplement` API.  
+- **How do I save the generated barcode as an image?** Call `generator.save("path/filename.jpg")`.  
+- **Is a license required for production use?** Yes, a commercial license is needed; a free trial is available.
 
-- **Full control** على الرموز، الحجم، الألوان، والبيانات الإضافية.  
-- **No external dependencies** – جافا صافية، تعمل على أي منصة.  
-- **Built‑in support** للعديد من أنواع الباركود، بما في ذلك **create ean13 barcode**.  
-- **Simple API** يتيح لك **save barcode image** بسطر واحد من الشيفرة.
+## What is generate barcode java?
 
-## المتطلبات المسبقة
+إنشاء باركود يعني تحويل البيانات الخام—أرقام، أحرف، أو مزيج منها—إلى نمط بصري يمكن للماسحات قراءته. باستخدام Aspose.BarCode يمكنك إنتاج **high‑resolution barcode images** في الوقت الفعلي، مما يجعلها مثالية لسيناريوهات **dynamic barcode generation java** مثل إصدار التذاكر الفوري أو تلبية الطلبات.
+
+## How to generate ean13 barcode with supplemental data
+
+فيما يلي **barcode generator example java** ينشئ باركود EAN‑13، يضيف ملحقًا من 5 أرقام، ويحفظ النتيجة كصورة.
+
+## Prerequisites
+
+قبل البدء، تأكد من وجود ما يلي:
 
 - **Java Development Kit (JDK)** – أي نسخة حديثة (8 أو أحدث).  
-- **IDE** – IntelliJ IDEA، Eclipse، أو محررك المفضّل.  
+- **IDE** – IntelliJ IDEA، Eclipse، أو أي محرر تفضله.  
 - **Aspose.BarCode for Java** – حمّل المكتبة من الموقع الرسمي **[here](https://releases.aspose.com/barcode/java/)** وأضف ملف JAR إلى مسار الفئة (classpath) في مشروعك.
 
-## استيراد الحزم
+## Import Packages
 
 بعد الإشارة إلى المكتبة، استورد الفئة الأساسية التي تدير إنشاء الباركود.
 
@@ -52,41 +59,41 @@ weight: 16
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## دليل خطوة بخطوة
+## Step‑by‑Step Guide
 
-### الخطوة 1: تحديد دليل المستند الخاص بك
+### Step 1: Define Your Document Directory
 
-حدد المجلد الذي سيتم حفظ الصورة المُولدة فيه.
+حدد المجلد الذي سيُحفظ فيه الصورة المُولَّدة.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### الخطوة 2: إنشاء مثيل مولد الباركود
+### Step 2: Create Barcode Generator Instance
 
-أنشئ مثيلًا من `BarcodeGenerator` مع **codetext** و **symbology** المطلوبين. هنا نقوم بـ **create ean13 barcode** باستخدام السلسلة الرقمية `"123456789123"`.
+أنشئ كائن `BarcodeGenerator` مع **codetext** و**symbology** المطلوبين. هنا نقوم بإنشاء **ean13 barcode** باستخدام السلسلة الرقمية `"123456789123"`.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "123456789123");
 ```
 
-### الخطوة 3: تعيين بيانات الإضافة
+### Step 3: Set Supplement Data
 
-أضف سلسلة إضافية مكوّنة من 5 أرقام. هذا مفيد للمجلات، الدوريات، أو أي حالة تتبع فيها معلومات إضافية الباركود الرئيسي.
+أضف سلسلة ملحق مكوّنة من 5 أرقام. هذا مفيد للمجلات، والنشرات الدورية، أو أي حالة تحتاج إلى معلومات إضافية بعد الباركود الرئيسي.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().setSupplementData("12345");
 ```
 
-### الخطوة 4: تعيين مساحة الإضافة
+### Step 4: Set Supplement Space
 
-اضبط الفجوة بين الباركود الرئيسي وإضافته. القيمة تُعبّر عنها بالنقاط.
+اضبط الفجوة بين الباركود الرئيسي وملحقه. القيمة تُعبّر بالنقاط.
 
 ```java
 generator.getParameters().getBarcode().getSupplement().getSupplementSpace().setPoint(2.0f);
 ```
 
-### الخطوة 5: حفظ صورة الباركود
+### Step 5: Save the Barcode Image
 
 أخيرًا، احفظ الصورة على القرص. يتم استنتاج الصيغة من امتداد الملف (JPEG في هذا المثال).
 
@@ -94,41 +101,61 @@ generator.getParameters().getBarcode().getSupplement().getSupplementSpace().setP
 generator.save(dataDir + "supplementData.jpg");
 ```
 
-> **نصيحة احترافية:** يمكنك تغيير امتداد الملف إلى `.png` أو `.bmp` للحصول على صيغة صورة مختلفة دون الحاجة إلى شيفرة إضافية.
+> **Pro tip:** يمكنك تغيير امتداد الملف إلى `.png` أو `.bmp` للحصول على صيغة صورة مختلفة دون الحاجة إلى كود إضافي.
 
-## المشكلات الشائعة والحلول
+## Common Use Cases for Dynamic Barcode Generation Java
 
-| المشكلة | السبب | الحل |
+- **Retail inventory:** توليد باركودات منتجات عند إضافة رموز SKU جديدة.  
+- **Publishing:** إرفاق أرقام الإصدارات كبيانات إضافية لباركودات النشرات الدورية.  
+- **Logistics:** إنشاء ملصقات شحن مع باركودات تُولد في الوقت الفعلي تشمل أرقام الدفعات أو اللوطات.  
+
+## Common Issues and Solutions
+
+| Issue | Cause | Solution |
 |-------|-------|----------|
-| **Image not saved** | `dataDir` يشير إلى مجلد غير موجود | تأكد من وجود المجلد أو أنشئه برمجياً (`new File(dataDir).mkdirs();`). |
-| **Invalid supplement length** | يجب أن تكون إضافات EAN‑13 مكوّنة من 2 أو 5 أرقام | قدّم بالضبط 2 أو 5 أحرف؛ وإلا سيتم رمي استثناء. |
-| **Unsupported characters** | وجود أحرف غير رقمية في codetext الخاص بـ EAN‑13 | استخدم أرقامًا فقط من 0‑9 لـ EAN‑13؛ أو انتقل إلى رموز أخرى للأحرف الأبجدية الرقمية. |
+| **Image not saved** | `dataDir` points to a non‑existent folder | Ensure the directory exists or create it programmatically (`new File(dataDir).mkdirs();`). |
+| **Invalid supplement length** | EAN‑13 supplements must be 2 or 5 digits | Provide exactly 2 or 5 characters; otherwise an exception is thrown. |
+| **Unsupported characters** | Non‑numeric characters in EAN‑13 codetext | Use only digits 0‑9 for EAN‑13; switch to another symbology for alphanumerics. |
 
-## الأسئلة المتكررة
+## Frequently Asked Questions
 
-### هل Aspose.BarCode متوافق مع جميع إصدارات جافا؟
+### Is Aspose.BarCode compatible with all Java versions?
+Aspose.BarCode for Java is designed to be compatible with a wide range of Java versions. Refer to the **[documentation](https://reference.aspose.com/barcode/java/)** for specific details.
 
-تم تصميم Aspose.BarCode for Java ليكون متوافقًا مع مجموعة واسعة من إصدارات جافا. راجع **[documentation](https://reference.aspose.com/barcode/java/)** للحصول على تفاصيل محددة.
+### Can I customize the appearance of the generated barcodes?
+Yes, Aspose.BarCode provides various parameters and settings to customize the appearance of barcodes. Explore the documentation for detailed information.
 
-### هل يمكنني تخصيص مظهر الباركود المُنشأ؟
+### Is there a trial version available?
+Yes, you can access a free trial version **[here](https://releases.aspose.com/)**.
 
-نعم، يوفر Aspose.BarCode معلمات وإعدادات مختلفة لتخصيص مظهر الباركود. استكشف الوثائق للحصول على معلومات مفصلة.
+### How can I get support for Aspose.BarCode?
+Visit the **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** to get assistance from the community and experts.
 
-### هل هناك نسخة تجريبية متاحة؟
+### Where can I purchase Aspose.BarCode for Java?
+You can purchase Aspose.BarCode for Java **[here](https://purchase.aspose.com/buy)**.
 
-نعم، يمكنك الوصول إلى نسخة تجريبية مجانية **[here](https://releases.aspose.com/)**.
+## Additional FAQ (AI‑Friendly Format)
 
-### كيف يمكنني الحصول على دعم Aspose.BarCode؟
+**Q:** What is the easiest way to start a **barcode generator example java**?  
+**A:** Add the Aspose.BarCode JAR to your project, import `BarcodeGenerator`, and follow the step‑by‑step guide above.
 
-قم بزيارة **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** للحصول على مساعدة من المجتمع والخبراء.
+**Q:** Can I generate multiple barcodes in a loop for batch processing?  
+**A:** Absolutely. Create a new `BarcodeGenerator` instance inside the loop, set the unique `codetext` each iteration, and call `save()` with a distinct filename.
 
-### أين يمكنني شراء Aspose.BarCode for Java؟
+**Q:** Does the API support other image formats such as PNG or SVG?  
+**A:** Yes. The output format is inferred from the file extension you provide (e.g., `.png`, `.svg`). No extra code is required.
 
-يمكنك شراء Aspose.BarCode for Java **[here](https://purchase.aspose.com/buy)**.
+**Q:** How do I handle large volumes without consuming too much memory?  
+**A:** Generate and save each barcode immediately, then discard the generator instance before the next iteration. This keeps memory usage low.
 
-**آخر تحديث:** 2025-12-17  
-**تم الاختبار مع:** Aspose.BarCode for Java 24.11  
-**المؤلف:** Aspose  
+**Q:** Is there a way to embed the barcode directly into a PDF?  
+**A:** You can retrieve the barcode as a `byte[]` using `generator.generateBarCodeImage()` and then insert it into a PDF with Aspose.PDF or any other PDF library.
+
+---
+
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.BarCode for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

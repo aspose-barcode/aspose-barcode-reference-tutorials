@@ -1,11 +1,11 @@
 ---
-date: 2025-12-17
-description: Dowiedz się, jak tworzyć obrazy kodów kreskowych w Javie i jak ustawiać
-  symbole przy użyciu Aspose.BarCode. Ten przewodnik krok po kroku pokazuje, jak wygenerować
-  kod kreskowy Codabar z niestandardowymi symbolami start/stop.
+date: 2026-02-17
+description: Dowiedz się, jak używać Aspose Barcode Java do tworzenia obrazów kodów
+  kreskowych, ustawiania symboli start i stop CODABAR oraz generowania plików PNG
+  bez znaków wodnych.
 linktitle: Setting Start and Stop Symbols
 second_title: Aspose.BarCode Java API
-title: Utwórz obraz kodu kreskowego w Javie – ustawianie symboli start i stop
+title: Aspose Barcode Java – Tworzenie obrazu kodu kreskowego z symbolami start/stop
 url: /pl/java/barcode-configuration/setting-start-stop-symbols/
 weight: 15
 ---
@@ -14,36 +14,38 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie obrazu kodu kreskowego w Javie – Ustawianie symboli początkowego i końcowego
+# Aspose Barcode Java – Tworzenie obrazu kodu kreskowego z symbolami start/stop
 
 ## Wprowadzenie
 
-W tym obszernej poradniku **stworzysz pliki barcode image java** przy użyciu Aspose.BarCode for Java i dowiesz się **jak ustawiać symbole** dla kodów kreskowych Codabar. Niezależnie od tego, czy budujesz system punktu sprzedaży, aplikację logistyczną, czy dowolne rozwiązanie wymagające niezawodnego generowania kodów kreskowych, dostosowanie symboli początkowego i końcowego daje pełną kontrolę nad formatem kodu. Przejdziemy przez każdy krok, wyjaśnimy, dlaczego każde ustawienie ma znaczenie, i pokażemy, jak wygenerować gotowy obraz PNG.
+W tym obszernej tutorialu **tworzysz obrazy kodu kreskowego w Javie** przy użyciu **Aspose Barcode Java** i uczysz się **jak ustawić symbole** dla kodów kreskowych Codabar. Niezależnie od tego, czy budujesz system punktu sprzedaży, aplikację logistyczną, czy dowolne rozwiązanie wymagające niezawodnego generowania kodów kreskowych, dostosowanie symboli start i stop daje pełną kontrolę nad formatem kodu. Przejdziemy przez każdy krok, wyjaśnimy, dlaczego każde ustawienie ma znaczenie, i pokażemy, jak wyprodukować gotowy do użycia obraz PNG — bez znaku wodnego wersji próbnej.
 
 ## Szybkie odpowiedzi
-- **Jaka biblioteka tworzy obrazy kodów kreskowych w Javie?** Aspose.BarCode for Java.
-- **Czy mogę dostosować symbole początkowy/końcowy?** Tak, używając `setCodabarStartSymbol` i `setCodabarStopSymbol`.
-- **Jaki typ kodu kreskowego jest używany w tym przykładzie?** CODABAR.
-- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna do użytku nie‑trial.
+- **Jaka biblioteka tworzy obrazy kodów kreskowych w Javie?** Aspose.BarCode for Java.  
+- **Czy mogę dostosować symbole start/stop?** Tak, używając `setCodabarStartSymbol` i `setCodabarStopSymbol`.  
+- **Jaki typ kodu kreskowego jest używany w tym przykładzie?** CODABAR.  
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna do użytku nie‑testowego.  
 - **Jaki format wyjściowy jest generowany?** Obraz PNG zapisany na dysku.
 
-## Co to jest „create barcode image java”?
+## Czym jest Aspose Barcode Java?
 
-Generowanie obrazu kodu kreskowego w Javie oznacza programowe tworzenie wizualnej reprezentacji (zazwyczaj PNG, JPG lub BMP) symbologii kodu kreskowego, którą mogą odczytać standardowe skanery. Aspose.BarCode udostępnia płynne API, które ukrywa szczegóły niskopoziomowego kodowania, pozwalając skupić się na logice biznesowej.
+Aspose Barcode Java to potężna, niezależna od zależności biblioteka, która pozwala programowo generować szeroką gamę symbologii kodów kreskowych. Abstrahuje niskopoziomową logikę kodowania, dzięki czemu możesz skupić się na regułach biznesowych, zapewniając jednocześnie, że wynik spełnia standardy branżowe.
 
-## Dlaczego używać Aspose.BarCode do generowania kodów kreskowych z Aspose?
+## Dlaczego warto używać Aspose Barcode Java do generowania kodów kreskowych bez znaku wodnego?
 
-- **Szerokie wsparcie symbologii** (w tym CODABAR, QR, DataMatrix itp.).
-- **Precyzyjna kontrola** nad wyglądem, rozmiarem i opcjami kodowania.
-- **Kompatybilność wieloplatformowa** z dowolnym środowiskiem uruchomieniowym Javy.
-- **Brak zewnętrznych zależności**, co upraszcza wdrażanie.
+- **Brak znaku wodnego w produkcji** – po zastosowaniu ważnej licencji obrazy są czyste.  
+- **Rozbudowane wsparcie symbologii** – od klasycznych kodów 1D, takich jak CODABAR, po kody 2D, takie jak QR i DataMatrix.  
+- **Precyzyjna kontrola** – możesz ustawić symbole start/stop, kolory, rozmiary oraz generować obrazy bezpośrednio do strumieni dla aplikacji webowych.  
+- **Wieloplatformowość** – działa na każdym środowisku Java, w tym Android (z ręcznym zarządzaniem zależnościami).
 
-## Prerequisites
+## Wymagania wstępne
 
-1. **Java Development Kit (JDK)** – Zainstaluj najnowszy JDK z [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. **Biblioteka Aspose.BarCode for Java** – Pobierz ją z [linku do pobrania](https://releases.aspose.com/barcode/java/).
+Przed rozpoczęciem upewnij się, że masz:
 
-Posiadanie ich zapewnia, że możesz **generować barcode image java** bez brakujących komponentów.
+1. **Java Development Kit (JDK)** – Zainstaluj najnowszy JDK z [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.BarCode for Java library** – Pobierz ją z [download link](https://releases.aspose.com/barcode/java/).
+
+Posiadanie tych elementów zapewnia możliwość **generowania obrazów kodów kreskowych w Javie** bez brakujących komponentów.
 
 ## Importowanie pakietów
 
@@ -64,7 +66,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 String dataDir = "Your Document Directory";
 ```
 
-Zastąp `"Your Document Directory"` absolutną lub względną ścieżką, w której chcesz zapisać obraz kodu kreskowego.
+Zastąp `"Your Document Directory"` absolutną lub względną ścieżką, w której chcesz zapisać obraz kodu kreskowego. Pamiętaj, aby zakończyć ścieżkę odpowiednim separatorem plików (`/` lub `\`) lub użyj `Paths.get` dla obsługi niezależnej od platformy.
 
 ### Krok 2: Utwórz instancję generatora kodów kreskowych
 
@@ -75,23 +77,23 @@ BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes
 
 Tutaj informujemy Aspose.BarCode, aby używał symbologii **CODABAR** oraz ciągu danych `"12345678"`.
 
-### Krok 3: Ustaw symbol początkowy Codabar
+### Krok 3: Ustaw symbol startowy Codabar
 
 ```java
 // Set the Codabar start symbol to A
 generator.getParameters().getBarcode().getCodabar().setCodabarStartSymbol(CodabarSymbol.A);
 ```
 
-Metoda `setCodabarStartSymbol` pozwala **ustawić symbole** dla znaku początkowego. W tym przypadku wybieramy `A`.
+Metoda `setCodabarStartSymbol` pozwala **ustawić symbole kodu kreskowego** dla znaku startowego. W tym przypadku wybieramy `A`.
 
-### Krok 4: Ustaw symbol końcowy Codabar
+### Krok 4: Ustaw symbol stop Codabar
 
 ```java
 // Set the Codabar stop symbol to D
 generator.getParameters().getBarcode().getCodabar().setCodabarStopSymbol(CodabarSymbol.D);
 ```
 
-Analogicznie, `setCodabarStopSymbol` definiuje znak końcowy. Użycie `D` kończy format CODABAR wymagany przez wiele starszych systemów.
+Analogicznie, `setCodabarStopSymbol` definiuje znak stopu. Użycie `D` kończy format CODABAR wymagany przez wiele starszych systemów.
 
 ### Krok 5: Zapisz wygenerowany obraz
 
@@ -100,19 +102,13 @@ Analogicznie, `setCodabarStopSymbol` definiuje znak końcowy. Użycie `D` kończ
 generator.save(dataDir + "startAndStopSymbols.png");
 ```
 
-Wywołanie `save` zapisuje kod kreskowy do pliku PNG o nazwie **startAndStopSymbols.png** w katalogu, który określiłeś wcześniej.
+Wywołanie `save` zapisuje kod kreskowy do pliku PNG o nazwie **startAndStopSymbols.png** w katalogu określonym wcześniej.
 
-### Typowe pułapki i wskazówki
+## Częste problemy i wskazówki
 
-- **Nieprawidłowa ścieżka katalogu** – Upewnij się, że `dataDir` kończy się separatorem plików (`/` lub `\`) lub łącz ją przy użyciu `Paths.get`.
-- **Nieobsługiwane symbole początkowy/końcowy** – CODABAR obsługuje tylko A, B, C, D jako symbole początkowe i końcowe. Użycie innej wartości spowoduje wyrzucenie wyjątku.
-- **Licencja nie została zastosowana** – W trybie trial wygenerowany obraz może zawierać znak wodny. Zastosuj licencję przed wdrożeniem do produkcji.
-
-## Zakończenie
-
-Teraz wiesz, jak **tworzyć pliki barcode image java** i precyzyjnie **ustawiać symbole** dla kodu kreskowego Codabar przy użyciu Aspose.BarCode. Ta technika daje elastyczność spełniania specyficznych wymagań branżowych dotyczących kodów kreskowych, jednocześnie utrzymując kod czystym i łatwym w utrzymaniu.
-
-Poznaj dodatkowe opcje dostosowywania — takie jak zmiana kolorów, dodawanie tekstu czytelnego dla człowieka lub przełączanie na inne symbologie — przeglądając oficjalną dokumentację API pod adresem [documentation](https://reference.aspose.com/barcode/java/).
+- **Nieprawidłowa ścieżka katalogu** – Upewnij się, że `dataDir` kończy się separatorem plików (`/` lub `\`) lub łączysz ją przy użyciu `Paths.get`.  
+- **Nieobsługiwane symbole start/stop** – CODABAR obsługuje tylko `A`, `B`, `C`, `D` jako symbole start/stop. Użycie innej wartości spowoduje wyjątek.  
+- **Licencja nie zastosowana** – W trybie próbnym wygenerowany obraz może zawierać znak wodny. Zastosuj licencję przed wdrożeniem do produkcji, aby uzyskać **generowanie kodów kreskowych bez znaku wodnego**.
 
 ## Najczęściej zadawane pytania
 
@@ -123,30 +119,34 @@ Tak, możesz. Do użytku komercyjnego rozważ zakup licencji [tutaj](https://pur
 Tak, możesz wypróbować darmową wersję próbną [tutaj](https://releases.aspose.com/).
 
 ### Jak mogę uzyskać wsparcie dla Aspose.BarCode for Java?
-Odwiedź forum Aspose.BarCode [tutaj](https://forum.aspose.com/c/barcode/13), aby uzyskać wsparcie lub zadać pytania.
+Odwiedź forum Aspose.BarCode [tutaj](https://forum.aspose.com/c/barcode/13) w celu uzyskania pomocy lub pytań.
 
 ### Jak uzyskać tymczasową licencję?
-W razie potrzeby możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+W razie potrzeby możesz nabyć tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy Aspose.BarCode for Java obsługuje więcej symbologii kodów kreskowych?
 Tak, Aspose.BarCode obsługuje szeroką gamę symbologii kodów kreskowych. Zapoznaj się z dokumentacją, aby uzyskać pełną listę.
 
-**Dodatkowe Q&A**
+## Dodatkowe Q&A (przyjazne AI)
 
-**P: Jakie formaty obrazu mogę wyeksportować oprócz PNG?**  
-O: Aspose.BarCode obsługuje PNG, JPEG, BMP, GIF i TIFF. Użyj odpowiedniego rozszerzenia pliku w metodzie `save`.
+**Q:** Jakie formaty obrazu mogę eksportować oprócz PNG?  
+**A:** Aspose.BarCode obsługuje PNG, JPEG, BMP, GIF i TIFF. Użyj odpowiedniego rozszerzenia pliku w metodzie `save`.
 
-**P: Czy mogę generować obrazy kodów kreskowych w pamięci bez zapisywania na dysku?**  
-O: Tak, wywołaj `generator.save(OutputStream)`, aby zapisać bezpośrednio do strumienia, przydatne w odpowiedziach webowych.
+**Q:** Czy mogę generować obrazy kodów kreskowych w pamięci bez zapisywania na dysk?  
+**A:** Tak, wywołaj `generator.save(OutputStream)`, aby zapisać bezpośrednio do strumienia, co jest idealne dla odpowiedzi webowych.
 
-**P: Czy biblioteka działa na Androidzie?**  
-O: Wersja Java jest kompatybilna z Androidem, ale musisz ręcznie dołączyć wymagane zależności.
+**Q:** Czy biblioteka działa na Androidzie?  
+**A:** Wersja Java jest kompatybilna z Androidem, ale musisz ręcznie dołączyć wymagane zależności.
+
+## Zakończenie
+
+Teraz wiesz, jak **tworzyć obrazy kodów kreskowych w Javie** i precyzyjnie **ustawiać symbole kodu kreskowego** dla kodu Codabar przy użyciu **Aspose Barcode Java**. Ta technika daje elastyczność potrzebną do spełnienia specyficznych wymagań branżowych, jednocześnie utrzymując kod czystym i łatwym w utrzymaniu. Poznaj dodatkowe opcje dostosowywania — takie jak zmiana kolorów, dodawanie tekstu czytelnego dla człowieka lub przełączanie na inne symbologie — przeglądając oficjalną dokumentację API pod adresem [documentation](https://reference.aspose.com/barcode/java/).
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-17  
-**Testowano z:** Aspose.BarCode for Java 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.BarCode for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
