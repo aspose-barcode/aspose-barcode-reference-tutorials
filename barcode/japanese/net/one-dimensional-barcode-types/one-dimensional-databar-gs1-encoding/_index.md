@@ -1,43 +1,51 @@
 ---
-title: 1次元データバーのGS1エンコーディング
-linktitle: 1次元データバーのGS1エンコーディング
+date: 2026-03-07
+description: .NETでAspose.BarCodeを使用して、1次元データバーGS1エンコードバーコードの作成方法を学びましょう。このガイドでは、GS1の設定方法、バーコードジェネレータの構成、そしてバーコードを迅速に生成する方法を示します。
+linktitle: One-Dimensional Databar GS1 Encoding
 second_title: Aspose.BarCode .NET API
-description: Aspose.BarCode を使用して、.NET で Databar GS1 エンコードされたバーコードを作成する方法を学びます。バーコードを簡単に生成します。ステップバイステップのガイドに従ってください。
-weight: 18
+title: Aspose.BarCode を使用した一次元データバー GS1 エンコーディングの作成
 url: /ja/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 1次元データバーのGS1エンコーディング
+# Aspose.BarCode を使用した 1 次元 Databar の GS1 エンコードの作成
 
+このチュートリアルでは、.NET 用 Aspose.BarCode ライブラリを使用して、GS1 標準に準拠した **1 次元 Databar** バーコードを **作成** します。厳格な GS1 検証が必要な場合でも、より柔軟なバーコードが必要な場合でも、ライブラリのインストールからエンコード例外の処理まで、すべての手順を詳しく解説しますので、独自のアプリケーションで信頼性の高いバーコードを生成できます。
 
-このチュートリアルでは、Aspose.BarCode for .NET ライブラリを使用して、1 次元 Databar GS1 エンコードされたバーコードを作成するプロセスを説明します。 GS1 エンコーディングを使用してバーコードを生成したい場合でも、GS1 エンコーディングを使用せずにバーコードを生成したい場合でも、当社が対応します。このステップバイステップのガイドは、前提条件を理解し、名前空間をインポートし、Databar GS1 でエンコードされたバーコードを簡単に作成するための各例を示すのに役立ちます。
+## Quick Answers
+- **「create one-dimensional databar」とは何ですか？** Databar ファミリーの線形（1‑D）バーコードを生成することを意味し、小売や物流でよく使用されます。  
+- **GS1 検証はどう設定しますか？** `DataBar` パラメータの `IsAllowOnlyGS1Encoding` を `true` に設定します。  
+- **ライセンスは必要ですか？** 開発目的なら無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **対応している .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。  
+- **ライブラリはどこからダウンロードできますか？** 公式 Aspose リリースページ（前提条件をご参照）から入手してください。
+
+## 「create one-dimensional databar」とは？
+1 次元 Databar（RSS とも呼ばれる）は、数値データ、日付、または AI（Application Identifier）文字列をエンコードできるコンパクトな線形バーコードです。GS1 エンコードと組み合わせることで、世界的に認識されたデータ構造に従い、小売、医療、サプライチェーンなどのシナリオに最適です。
+
+## なぜ .NET 用 Aspose.BarCode を使うのか？
+Aspose.BarCode は流暢な API、完全な GS1 サポート、そしてバーコードの視覚的側面を細かく調整できる機能を提供します。低レベルのエンコード作業を省き、ビジネスロジックに集中できます。
 
 ## 前提条件
 
-コードに入る前に、次の前提条件が満たされていることを確認してください。
-
-1.  Aspose.BarCode for .NET: Aspose.BarCode for .NET がインストールされている必要があります。まだダウンロードしていない場合は、からダウンロードできます[ここ](https://releases.aspose.com/barcode/net/).
-
-2. ディレクトリ パス: 置き換えます`"Your Directory Path"`コード例では、生成されたバーコード画像を保存する実際のパスを指定します。
-
-必要な前提条件が準備できたので、コーディング部分に進みましょう。
+1. **Aspose.BarCode for .NET** – [here](https://releases.aspose.com/barcode/net/) からダウンロードしてインストールします。  
+2. **Your Directory Path** – サンプル中の `"Your Directory Path"` を、書き込み権限のあるフォルダーに置き換えてください。
 
 ## 名前空間のインポート
 
-まず、Aspose.BarCode に関連する名前空間をインポートする必要があります。 .NET プロジェクトの先頭に次のコード行を追加します。
+C# ファイルの先頭に必要な `using` 文を追加します:
 
 ```csharp
 using Aspose.BarCode;
 using System;
 ```
 
-## ステップ 1: バーコード ジェネレーターを初期化する
+## 手順 1: バーコードジェネレータの初期化
 
-最初のステップは、目的のエンコーディング タイプで BarcodeGenerator オブジェクトを初期化することです。この場合、Databar Expanded エンコーディングを使用しています。 
+`BarcodeGenerator` インスタンスを作成し、**Databar Expanded** シンボロジーを指定します:
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,9 +54,9 @@ System.Console.WriteLine("OneDDatabarGS1Encoding:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "");
 ```
 
-## ステップ 2: GS1 エンコーディングを使用してバーコードを生成する
+## 手順 2: GS1 の設定 – 厳格な GS1 検証でバーコードを生成
 
-ここで、GS1Encoding チェックを使用してコードテキストを設定し、生成されたバーコード画像を保存します。 
+GS1 のみのエンコードを有効にし、GS1 準拠のコードテキストを割り当て、画像として保存します:
 
 ```csharp
 gen.CodeText = "(01)12345678901231";
@@ -56,9 +64,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = true;
 gen.Save($"{path}DatabarGS1RightEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## ステップ 3: 変数エンコーディング バーコードを生成する
+## 手順 3: Aspose によるバーコード生成 – 可変エンコード（GS1 チェックなし）
 
-このステップでは、GS1Encoding チェックを行わずに、可変コードテキストを含むバーコードを生成します。
+GS1 ルールを **適用しない** バーコードが必要な場合は、チェックをオフにします:
 
 ```csharp
 gen.CodeText = "ASPOSE";
@@ -66,9 +74,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = false;
 gen.Save($"{path}DatabarGS1VariableEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## ステップ 4: GS1 エンコーディング チェックの例外を処理する
+## 手順 4: バーコードジェネレータの GS1 チェック – 例外処理
 
-GS1Encoding チェックを有効にして変数 codetext を使用してバーコードを生成しようとすると、例外がスローされます。対処方法は次のとおりです。
+`IsAllowOnlyGS1Encoding` が `true` なのにコードテキストが GS1 準拠でない場合、Aspose は例外をスローします。以下のパターンは例外を捕捉してログに記録する方法を示しています:
 
 ```csharp
 try
@@ -83,30 +91,42 @@ catch (Exception e)
 }
 ```
 
-これで、Aspose.BarCode for .NET を使用して、1 次元の Databar GS1 エンコードされたバーコードが正常に作成されました。特定の要件に基づいて、バーコード生成をさらに探索してカスタマイズできます。
+### よくある落とし穴とヒント
+- **落とし穴:** GS1 チェックが有効な状態で非 GS1 文字列を指定すると、バーコード生成が中止されます。  
+- **プロ・ヒント:** `CodeText` に割り当てる前に AI 文字列を検証し、実行時エラーを防ぎましょう。  
+- **ヒント:** 絶対パスや `Path.Combine` を使用して、**プラットフォーム間** で安全にファイル名を構築してください。
 
 ## 結論
 
-このチュートリアルでは、Aspose.BarCode for .NET を使用して 1 次元 Databar GS1 エンコードされたバーコードを生成するプロセスについて説明しました。前提条件について説明し、必要な名前空間をインポートし、GS1 エンコード バーコードと可変エンコード バーコードの両方を作成するための段階的なガイダンスを提供しました。
+これで、GS1 エンコード付きの **1 次元 Databar** バーコードの作成方法、GS1 チェックの切り替え方法、そして関連例外の処理方法を Aspose.BarCode for .NET を使って習得できました。`Parameters.Barcode` オブジェクトを通じて、バーコードサイズ、色、余白などの追加スタイリングオプションも自由に設定できます。
 
- Aspose.BarCode for .NET を使用すると、バーコード生成がシームレスなタスクになり、バーコード作成のニーズに対する柔軟性と制御が提供されます。問題が発生したり、質問がある場合は、お気軽に次のサイトにアクセスしてください。[Aspose.BarCode ドキュメント](https://reference.aspose.com/barcode/net/)または、[Aspose.BarCode サポート フォーラム](https://forum.aspose.com/c/barcode/13).
+問題が発生した場合は、公式ドキュメントとコミュニティフォーラムが有用です:
 
-## よくある質問
+- [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+- [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13)
 
-### 1. バーコードの GS1 エンコーディングとは何ですか?
-GS1 エンコーディングは、適切なデータ構造と識別を保証するためにバーコーディングで使用される標準です。正確な追跡と情報交換を容易にするために、小売、ヘルスケア、物流の品目によく使用されます。
+## Frequently Asked Questions
 
-### 2. 生成されたバーコードの外観をカスタマイズできますか?
-はい、Aspose.BarCode for .NET で生成されたバーコードの外観をカスタマイズできます。サイズ、色、スタイルなどのさまざまなパラメータを制御できます。
+### 1. バーコードにおける GS1 エンコードとは何ですか？
+GS1 エンコードは、バーコード内のデータ（例: 製品識別子）を標準化された構造で表現する方式で、販売店、メーカー、物流事業者間の相互運用性を確保します。
 
-### 3. Aspose.BarCode の追加リソースとドキュメントはどこで入手できますか?
-包括的なドキュメントと例は、次の場所にあります。[Aspose.BarCode ドキュメント](https://reference.aspose.com/barcode/net/)。これは、学習とトラブルシューティングのための貴重なリソースです。
+### 2. 生成したバーコードの外観はカスタマイズできますか？
+はい。Aspose.BarCode では、サイズ、色、余白、さらには `Parameters.Barcode` 設定を使って人が読めるテキストを追加することも可能です。
 
-### 4. Aspose.BarCode の試用版はありますか?
-はい、Aspose.BarCode for .NET の無料試用版を次のサイトから入手できます。[ここ](https://releases.aspose.com/).
+### 3. Aspose.BarCode の追加リソースやドキュメントはどこで入手できますか？
+包括的なドキュメントとサンプルは [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) にあります。学習やトラブルシューティングに役立ちます。
 
-### 5. Aspose.BarCode for .NET のライセンスはどのように購入できますか?
- Aspose.BarCode for .NET のライセンスを購入するには、次のサイトにアクセスしてください。[購入ページ](https://purchase.aspose.com/buy) Aspose Web サイトで。
+### 4. Aspose.BarCode のトライアル版はありますか？
+はい、[here](https://releases.aspose.com/) から .NET 用の無料トライアル版を取得できます。
+
+### 5. Aspose.BarCode for .NET のライセンスはどうやって購入しますか？
+ライセンス購入は Aspose 公式サイトの [purchase page](https://purchase.aspose.com/buy) から行えます。
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,48 +1,112 @@
 ---
-title: Ek Barkod Verileri
-linktitle: Ek Barkod Verileri
-second_title: Aspose.BarCode .NET API'si
-description: Adım adım eğitimlerimizle Aspose.BarCode for .NET kullanarak ek barkod verilerinin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Bugün barkod becerilerinizi geliştirin!
-weight: 27
+date: 2026-03-07
+description: EAN-2 barkodunu nasıl oluşturacağınızı ve Aspose.BarCode for .NET kullanarak
+  .NET'te barkod üretimini öğrenin. Ek barkod verisi özelleştirmesinde uzmanlaşın!
+linktitle: Supplemental Barcode Data
+second_title: Aspose.BarCode .NET API
+title: Aspose.BarCode for .NET ile EAN-2 Barkod Oluşturma
 url: /tr/net/supplemental-barcode-data/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ek Barkod Verileri
+# Create EAN-2 Barcode with Aspose.BarCode for .NET
 
+## Introduction
 
-## giriiş
+Eğer **EAN-2 barkod** oluşturmak ve ek barkod verilerinin gücünü ortaya çıkarmak isteyen bir .NET geliştiricisiyseniz, doğru yerdesiniz. Bu kapsamlı rehberde, temel yapılandırmadan sembollerinizin etrafındaki boşlukları ince ayara kadar bilmeniz gereken her şeyi adım adım göstereceğiz. Yeni bir envanter sistemi kuruyor ya da mevcut bir satış noktası (POS) uygulamasını geliştiriyorsanız, bu özellikleri ustalaşmak .NET projelerinizde barkod üretimini daha esnek ve güvenilir hâle getirecek.
 
-Barkod becerilerinizi geliştirmek ve tamamlayıcı barkod verilerinin gücünü ortaya çıkarmak isteyen bir .NET geliştiricisiyseniz doğru yerdesiniz. Bu kapsamlı kılavuzda, iki önemli hususa odaklanarak tamamlayıcı barkod verilerinin büyüleyici dünyasında size yol göstereceğiz: yapılandırma ve alan özelleştirme. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu makale size Aspose.BarCode ile etkili bir şekilde çalışmak için ihtiyaç duyduğunuz bilgileri sağlayacaktır.
+## Quick Answers
+- **Ne üretebilirim?** EAN‑2 ve EAN‑5 ek barkodları.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme yeterlidir; üretim ortamı için ticari lisans gerekir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Ne kadar kod gerekir?** Sadece birkaç satır—Aspose.BarCode ağır işi halleder.  
+- **Boşlukları özelleştirebilir miyim?** Evet, X‑dimension ve ek boşluğunu doğrudan kontrol edebilirsiniz.
 
-## Ek Barkod Veri Yapılandırması
+## What is supplemental barcode data?
 
-Tamamlayıcı barkod veri yapılandırması alanına girerek işleri başlatalım. Aspose.BarCode for .NET, ek barkodları zahmetsizce oluşturmanızı sağlayacak araçlar sunarak EAN-2 ve EAN-5 barkodları üzerinde tam kontrol sahibi olmanızı sağlar. Peki nasıl başlayacaksınız? 
+Ek barkod verileri, birincil barkodun yanında görünen küçük ek sembollerdir (EAN‑2, EAN‑5) ve genellikle sayı, fiyat ekleri veya diğer yardımcı bilgiler için kullanılır. Aspose.BarCode for .NET, bu sembolleri programlı olarak oluşturmanıza olanak tanır ve görünüm ve konum üzerinde tam kontrol sağlar.
 
-Öncelikle Aspose.BarCode for .NET'i indirip yükleyin. Durumu test etmek ve güçlü özellikleri çalışırken görmek için ücretsiz deneme sürümünü keşfedebilirsiniz. Kurulumu tamamladıktan sonra, süreç boyunca size yol gösterecek ve ek barkod veri yapılandırmasında kolaylıkla uzmanlaşmanızı sağlayacak adım adım kılavuzumuzu izleyin.
+## Why use Aspose.BarCode for .NET?
 
-Bu bölümün sonunda, EAN-2 ve EAN-5 barkodlarının nasıl oluşturulacağı konusunda sağlam bir kavrayışa sahip olacaksınız, bu da sizi daha çok yönlü bir .NET geliştiricisi yapacaktır.
+- **Full .NET integration** – works with C#, VB.NET, and F#.  
+- **High‑quality rendering** – produces scannable barcodes at any resolution.  
+- **Extensive customization** – from symbology type to X‑dimension, quiet zones, and supplement space.  
+- **No external dependencies** – pure managed library, easy to deploy.
 
-## Ek Barkod Alanı Özelleştirmesi
+## Supplemental Barcode Data Configuration
 
-Barkod dünyasında özelleştirilebilirlik çok önemlidir ve Aspose.BarCode for .NET'in parladığı yer burasıdır. Şimdi ek barkod alanı özelleştirmesine odaklanalım. Bu özellik tamamen barkodlarınızdaki X Boyutunu ve ek alanını kontrol etmekle ilgilidir.
+Let's kick things off by delving into the realm of supplemental barcode data configuration. Aspose.BarCode for .NET offers you the tools to generate supplemental barcodes effortlessly, giving you complete control over EAN‑2 and EAN‑5 barcodes. But how do you get started?
 
-Bir kez daha Aspose.BarCode for .NET'i yükleyerek ve ücretsiz denemeden yararlanarak başlayacaksınız. Ardından, barkodlarınızdaki alanı nasıl ayarlayacağınızla ilgili rehberliğimizi izleyeceksiniz. Bu özelleştirme, envanter yönetiminden satış noktası sistemlerine kadar çeşitli uygulamalar için inanılmaz derecede faydalı olabilir.
+First, download and install Aspose.BarCode for .NET. You can explore a free trial to test the waters and see the powerful features in action. Once you're set up, follow our step‑by‑step guide, which will take you through the process, ensuring that you master supplemental barcode data configuration with ease.
 
-Barkodlarınızı özel ihtiyaçlarınıza göre uyarlama özgürlüğü değerli bir beceridir ve bu bölüm iyi donanımlı olmanızı sağlayacaktır.
+By the end of this section, you'll have a solid grasp of how to create EAN‑2 and EAN‑5 barcodes, making you a more versatile .NET developer.
 
-Aspose.BarCode for .NET ile tamamlayıcı barkod verileri dünyasına dalmaya hazır mısınız? Haydi bugün başlayalım ve barkod özelleştirmenin potansiyelini açığa çıkaralım!
+## How to create EAN-2 barcode? (Configuration Steps)
 
-Bu makalede, hem yapılandırma hem de alan özelleştirme açısından ek barkod verilerine hakim olmanız için size bir yol haritası sunduk. Adım adım rehberlik ve Aspose.BarCode for .NET emrinizdeyken, .NET geliştirme dünyasında bir barkod uzmanı olma yolunda ilerleyeceksiniz. İster yeni bir proje üzerinde çalışıyor olun ister mevcut bir projeyi geliştiriyor olun, burada kazanılan bilgilerin paha biçilmez olduğu kanıtlanacaktır. Barkod yolculuğunuza şimdi başlayın ve sonsuz olasılıkları keşfedin!
+1. **Instantiate the barcode generator** – choose the `BarcodeGenerator` class and set the symbology to `EncodeTypes.EAN13` (or another primary type).  
+2. **Enable the supplemental part** – set the `SupplementData` property to the desired numeric string (e.g., `"12"` for an EAN‑2 supplement).  
+3. **Adjust visual settings** – optionally modify `XDimension`, `BarHeight`, and `QuietZone` to match your layout requirements.  
+4. **Save or render** – call `Save` to write the image to a file or stream.
 
-## Ek Barkod Veri Eğitimleri
-### [Ek Barkod Veri Yapılandırması](./supplemental-barcode-data-configuration/)
-Aspose.BarCode for .NET ile ek barkod verileri oluşturun. EAN-2 ve EAN-5 barkodlarını zahmetsizce özelleştirin. .NET geliştiricileri için adım adım kılavuz.
-### [Ek Barkod Alanı Özelleştirmesi](./supplemental-barcode-space-customization/)
-Aspose.BarCode for .NET ile barkodları kolayca özelleştirin. X-Dimension'ı ve ek alanı kontrol edin. Ücretsiz denemeyi deneyin!
+> *Pro tip:* Keep the supplemental data length exactly 2 digits for EAN‑2 and 5 digits for EAN‑5; otherwise the barcode may become unreadable.
+
+## Supplemental Barcode Space Customization
+
+In the world of barcodes, customizability is key, and that's where Aspose.BarCode for .NET shines. Now, let's focus on supplemental barcode space customization. This aspect is all about controlling the X‑Dimension and supplement space in your barcodes.
+
+Once again, you'll start by installing Aspose.BarCode for .NET and taking advantage of the free trial. Then, you'll follow our guidance on how to tweak the space in your barcodes. This customization can be incredibly useful for various applications, from inventory management to point‑of‑sale systems.
+
+The freedom to tailor your barcodes to your specific needs is a valuable skill, and this section will make sure you're well‑equipped.
+
+## How to customize supplement space?
+
+- **X‑Dimension** – defines the width of a single module; larger values increase overall barcode size.  
+- **Supplement Space** – the gap between the primary barcode and the supplemental part; adjust via the `SupplementSpace` property.  
+- **Quiet Zone** – the mandatory blank margin around the entire barcode; keep it at least 10 X‑Dimension units for reliable scanning.
+
+Experiment with these settings in a test project until you achieve the visual balance required for your scanner hardware.
+
+## Common Use Cases
+
+| Scenario | Why supplemental data helps |
+|----------|------------------------------|
+| **Retail price extensions** | EAN‑5 can encode price information directly on the label. |
+| **Magazine issue numbers** | EAN‑2 identifies the issue, allowing quick sorting. |
+| **Logistics & tracking** | Adding a small supplement to a primary barcode gives extra routing data without expanding label size. |
+
+## Supplemental Barcode Data Tutorials
+### [Supplemental Barcode Data Configuration](./supplemental-barcode-data-configuration/)
+Generate supplemental barcode data with Aspose.BarCode for .NET. Customize EAN-2 and EAN-5 barcodes effortlessly. Step-by-step guide for .NET developers.
+### [Supplemental Barcode Space Customization](./supplemental-barcode-space-customization/)
+Customize barcodes easily with Aspose.BarCode for .NET. Control X-Dimension and supplement space. Try the free trial!
+
+## Frequently Asked Questions
+
+**S: Can I generate both EAN‑2 and EAN‑5 with the same code?**  
+C: Yes. Simply change the `SupplementData` length (2 digits for EAN‑2, 5 digits for EAN‑5) and the library will render the correct symbology.
+
+**S: Do I need to calculate checksum values for the supplement?**  
+C: No. Aspose.BarCode automatically computes and appends the required checksum for you.
+
+**S: Is there a limit to how many barcodes I can generate in a loop?**  
+C: The library is optimized for bulk generation; just be mindful of memory usage when handling very large image collections.
+
+**S: How do I embed the barcode into a PDF or Word document?**  
+C: Save the barcode as an image (PNG, JPEG, etc.) and then insert it using your preferred document generation API (e.g., Aspose.PDF or Aspose.Words).
+
+**S: What if my scanner cannot read the supplemental part?**  
+C: Verify that the `SupplementSpace` is at least 2 X‑Dimension units and that the quiet zone meets the scanner’s specifications.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode for .NET 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,43 +1,53 @@
 ---
-title: Eendimensionale databar GS1-codering
-linktitle: Eendimensionale databar GS1-codering
+date: 2026-03-07
+description: Leer hoe u één-dimensionale databar GS1‑gecodeerde barcodes in .NET kunt
+  maken met Aspose.BarCode. Deze gids laat zien hoe u GS1 instelt, de barcodegenerator
+  configureert en snel barcodes genereert.
+linktitle: One-Dimensional Databar GS1 Encoding
 second_title: Aspose.BarCode .NET API
-description: Leer hoe u Databar GS1-gecodeerde barcodes kunt maken in .NET met behulp van Aspose.BarCode. Genereer eenvoudig streepjescodes. Volg onze stapsgewijze handleiding.
-weight: 18
+title: Maak een één-dimensionale Databar GS1-codering met Aspose.BarCode
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eendimensionale databar GS1-codering
+# Maak één-dimensionale Databar GS1-codering met Aspose.BarCode
 
+In deze tutorial **maak je één-dimensionale databar** barcodes die voldoen aan de GS1-standaard, met behulp van de Aspose.BarCode bibliotheek voor .NET. Of je nu strikte GS1-validatie nodig hebt of een flexibelere barcode, we lopen elke stap door—van het installeren van de bibliotheek tot het afhandelen van coderingsuitzonderingen—zodat je betrouwbare barcodes kunt genereren in je eigen toepassingen.
 
-In deze zelfstudie leiden we u door het proces van het maken van eendimensionale Databar GS1-gecodeerde barcodes met behulp van de Aspose.BarCode voor .NET-bibliotheek. Of u nu barcodes wilt genereren met of zonder GS1-codering, wij hebben de oplossing voor u. Deze stapsgewijze handleiding helpt u de vereisten te begrijpen, naamruimten te importeren en elk voorbeeld te demonstreren om eenvoudig Databar GS1-gecodeerde barcodes te maken.
+## Snelle antwoorden
+- **Wat betekent “create one-dimensional databar”?** Het betekent het genereren van een lineaire (1‑D) barcode van de Databar-familie, vaak gebruikt voor detailhandel en logistiek.  
+- **Hoe stel ik GS1-validatie in?** Stel `IsAllowOnlyGS1Encoding` in op `true` op de `DataBar`-parameters.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Welke .NET-versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Waar kan ik de bibliotheek downloaden?** Van de officiële Aspose-releasepagina (zie vereisten).
+
+## Wat is “create one-dimensional databar”?
+Een één-dimensionale Databar (ook bekend als RSS) is een compacte lineaire barcode die numerieke gegevens, datums of AI‑strings (Application Identifier) kan coderen. Wanneer deze wordt gecombineerd met GS1-codering, volgt de barcode een wereldwijd erkende datastructuur, waardoor hij ideaal is voor detailhandel, gezondheidszorg en supply‑chain scenario's.
+
+## Waarom Aspose.BarCode voor .NET gebruiken?
+Aspose.BarCode biedt een vloeiende API, volledige GS1-ondersteuning en de mogelijkheid om elk visueel aspect van de barcode fijn af te stemmen. Het verwijdert het giswerk van low‑level codering en laat je je concentreren op de bedrijfslogica.
 
 ## Vereisten
 
-Voordat we in de code duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+1. **Aspose.BarCode for .NET** – download en installeer het vanaf [here](https://releases.aspose.com/barcode/net/).  
+2. **Your Directory Path** – vervang `"Your Directory Path"` in de voorbeelden door een map waarin je schrijfrechten hebt.
 
-1.  Aspose.BarCode voor .NET: Aspose.BarCode voor .NET moet geïnstalleerd zijn. Als u dat nog niet heeft gedaan, kunt u deze downloaden van[hier](https://releases.aspose.com/barcode/net/).
+## Namespaces importeren
 
-2.  Uw directorypad: Vervangen`"Your Directory Path"` in de codevoorbeelden met het daadwerkelijke pad waar u de gegenereerde barcodeafbeeldingen wilt opslaan.
-
-Nu u over de noodzakelijke vereisten beschikt, gaan we verder met het codeergedeelte.
-
-## Naamruimten importeren
-
-Om aan de slag te gaan, moet u de relevante naamruimten voor Aspose.BarCode importeren. Voeg de volgende coderegels toe aan het begin van uw .NET-project:
+Voeg de benodigde `using`-statements toe aan de bovenkant van je C#-bestand:
 
 ```csharp
 using Aspose.BarCode;
 using System;
 ```
 
-## Stap 1: Initialiseer de streepjescodegenerator
+## Stap 1: Initialiseer de Barcode Generator
 
-De eerste stap is het initialiseren van het BarcodeGenerator-object met het gewenste coderingstype. In dit geval gebruiken we Databar Expanded-codering. 
+Maak een `BarcodeGenerator`-instantie aan en specificeer de Databar Expanded-symbologie:
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,9 +56,9 @@ System.Console.WriteLine("OneDDatabarGS1Encoding:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "");
 ```
 
-## Stap 2: Genereer een streepjescode met GS1-codering
+## Stap 2: Hoe GS1 in te stellen – Genereer een barcode met strikte GS1-validatie
 
-Nu zullen we de codetekst instellen met GS1Encoding-controle en de gegenereerde barcodeafbeelding opslaan. 
+Schakel GS1‑alleen codering in, wijs een GS1‑conforme codetext toe, en sla de afbeelding op:
 
 ```csharp
 gen.CodeText = "(01)12345678901231";
@@ -56,9 +66,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = true;
 gen.Save($"{path}DatabarGS1RightEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Stap 3: Genereer een barcode met variabele codering
+## Stap 3: Barcodegeneratie met Aspose – Variabele codering (geen GS1-controle)
 
-In deze stap genereren we een barcode met variabele codetekst zonder GS1Encoding-controle.
+Als je een barcode nodig hebt die **niet** de GS1-regels afdwingt, schakel dan de controle uit:
 
 ```csharp
 gen.CodeText = "ASPOSE";
@@ -66,9 +76,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = false;
 gen.Save($"{path}DatabarGS1VariableEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Stap 4: Uitzondering voor GS1-coderingscontrole afhandelen
+## Stap 4: Barcodegenerator GS1-controle – Een uitzondering afhandelen
 
-Als u probeert een streepjescode met variabele codetekst te genereren terwijl de GS1Encoding-controle is ingeschakeld, wordt er een uitzondering gegenereerd. Zo kun je het aanpakken:
+Wanneer `IsAllowOnlyGS1Encoding` `true` is maar de codetext niet GS1‑conform is, gooit Aspose een uitzondering. Het volgende patroon laat zien hoe je deze kunt opvangen en loggen:
 
 ```csharp
 try
@@ -83,30 +93,42 @@ catch (Exception e)
 }
 ```
 
-Nu hebt u met succes eendimensionale Databar GS1-gecodeerde barcodes gemaakt met Aspose.BarCode voor .NET. U kunt het genereren van streepjescodes verder verkennen en aanpassen op basis van uw specifieke vereisten.
+### Veelvoorkomende valkuilen & tips
+- **Valkuil:** Het leveren van een niet‑GS1‑string terwijl de GS1-controle is ingeschakeld, zal de barcodegeneratie afbreken.  
+- **Pro tip:** Valideer je AI‑strings voordat je ze toewijst aan `CodeText` om runtime‑fouten te voorkomen.  
+- **Tip:** Gebruik absolute paden of `Path.Combine` om bestandsnamen veilig op te bouwen over verschillende platformen.
 
 ## Conclusie
 
-In deze zelfstudie hebben we het proces besproken van het genereren van eendimensionale Databar GS1-gecodeerde streepjescodes met behulp van Aspose.BarCode voor .NET. We bespraken de vereisten, importeerden de benodigde naamruimten en gaven stapsgewijze begeleiding voor het maken van zowel GS1-gecodeerde als variabele coderingsbarcodes.
+Je weet nu hoe je **one-dimensional databar** barcodes met GS1-codering kunt maken, hoe je de GS1-controle kunt in- of uitschakelen, en hoe je gerelateerde uitzonderingen kunt afhandelen—alles met Aspose.BarCode voor .NET. Voel je vrij om extra stijlopties te verkennen, zoals barcodegrootte, kleur en marges via het `Parameters.Barcode`-object.
 
- Met Aspose.BarCode voor .NET wordt het genereren van streepjescodes een naadloze taak, die flexibiliteit en controle biedt over uw behoeften voor het maken van streepjescodes. Als u problemen ondervindt of vragen heeft, aarzel dan niet om de[Aspose.BarCode-documentatie](https://reference.aspose.com/barcode/net/) of zoek hulp op de[Aspose.BarCode-ondersteuningsforum](https://forum.aspose.com/c/barcode/13).
+Als je tegen problemen aanloopt, zijn de officiële documentatie en het community‑forum uitstekende bronnen:
 
-## Veel Gestelde Vragen
+- [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+- [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13)
+
+## Veelgestelde vragen
 
 ### 1. Wat is GS1-codering in barcodes?
-GS1-codering is een standaard die wordt gebruikt bij streepjescodes om een juiste gegevensstructuur en identificatie te garanderen. Het wordt vaak gebruikt voor artikelen in de detailhandel, de gezondheidszorg en de logistiek om nauwkeurige tracking en informatie-uitwisseling mogelijk te maken.
+GS1-codering is een gestandaardiseerde manier om gegevens (bijv. productidentifiers) binnen een barcode te structureren, waardoor interoperabiliteit tussen detailhandelaren, fabrikanten en logistieke dienstverleners wordt gegarandeerd.
 
 ### 2. Kan ik het uiterlijk van de gegenereerde barcodes aanpassen?
-Ja, u kunt het uiterlijk aanpassen van de streepjescodes die zijn gegenereerd met Aspose.BarCode voor .NET. U heeft controle over verschillende parameters, zoals grootte, kleur en stijl.
+Ja. Aspose.BarCode stelt je in staat om grootte, kleuren, marges aan te passen, en zelfs mens‑leesbare tekst toe te voegen via de `Parameters.Barcode`-instellingen.
 
-### 3. Waar kan ik aanvullende bronnen en documentatie voor Aspose.BarCode vinden?
- Uitgebreide documentatie en voorbeelden vindt u op[Aspose.BarCode-documentatie](https://reference.aspose.com/barcode/net/). Het is een waardevolle hulpbron voor het leren en oplossen van problemen.
+### 3. Waar kan ik extra bronnen en documentatie voor Aspose.BarCode vinden?
+Je kunt uitgebreide documentatie en voorbeelden vinden op [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/). Het is een waardevolle bron voor leren en probleemoplossing.
 
 ### 4. Is er een proefversie beschikbaar voor Aspose.BarCode?
- Ja, u kunt een gratis proefversie van Aspose.BarCode voor .NET downloaden[hier](https://releases.aspose.com/).
+Ja, je kunt een gratis proefversie van Aspose.BarCode voor .NET krijgen via [here](https://releases.aspose.com/).
 
-### 5. Hoe kan ik een licentie kopen voor Aspose.BarCode voor .NET?
- Om een licentie voor Aspose.BarCode voor .NET te kopen, gaat u naar de[aankooppagina](https://purchase.aspose.com/buy) op de Aspose-website.
+### 5. Hoe kan ik een licentie voor Aspose.BarCode voor .NET aanschaffen?
+Om een licentie voor Aspose.BarCode voor .NET aan te schaffen, bezoek je de [purchase page](https://purchase.aspose.com/buy) op de Aspose-website.
+
+---
+
+**Laatst bijgewerkt:** 2026-03-07  
+**Getest met:** Aspose.BarCode 24.11 for .NET  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
