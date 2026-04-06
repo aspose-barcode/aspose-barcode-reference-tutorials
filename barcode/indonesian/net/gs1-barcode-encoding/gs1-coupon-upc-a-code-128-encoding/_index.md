@@ -1,91 +1,108 @@
 ---
-title: Pengkodean Kode UPC-A Kupon GS1 128
-linktitle: Pengkodean Kode UPC-A Kupon GS1 128
+date: 2026-02-15
+description: Pelajari cara menghasilkan barcode dari string menggunakan Aspose.BarCode
+  untuk .NET. Tutorial pembuatan barcode ini dengan contoh C# menunjukkan langkah
+  demi langkah pembuatan GS1 Coupon UPC‑A Code 128.
+linktitle: Generate barcode from string – GS1 Coupon UPC-A Code 128
 second_title: Aspose.BarCode .NET API
-description: Hasilkan kode batang dengan mudah menggunakan Aspose.BarCode untuk .NET - Solusi pembuatan kode batang komprehensif Anda. Mulailah hari ini!
-weight: 12
+title: Buat kode batang dari string – Kupon GS1 UPC-A Code 128
 url: /id/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengkodean Kode UPC-A Kupon GS1 128
+# Enkoding GS1 Coupon UPC-A Code 128
 
+## Pendahuluan
 
-## Perkenalan
+Barcode adalah tenaga kerja diam‑diam di balik rak ritel, gudang, dan bahkan kupon seluler. Jika Anda pernah perlu **generate barcode from string** data dalam aplikasi .NET, Aspose.BarCode for .NET memberi Anda cara yang bersih dan dapat diandalkan untuk melakukannya. Dalam **barcode generation tutorial C#** ini Anda akan melihat contoh **barcode generator C# example** lengkap yang membuat barcode GS1 Coupon UPC‑A Code 128 dari string teks sederhana. Pada akhir panduan ini Anda akan dapat menyematkan barcode langsung ke dalam proyek Anda tanpa harus berurusan dengan logika enkoding tingkat rendah.
 
-Di era digital, barcode telah menjadi bagian integral dari kehidupan kita sehari-hari. Mereka digunakan untuk melacak produk, mengelola inventaris, dan bahkan menyandikan informasi penting untuk berbagai aplikasi. Sebagai pengembang, Anda mungkin menghadapi kebutuhan untuk membuat kode batang secara terprogram untuk proyek Anda. Di sinilah Aspose.BarCode untuk .NET berperan, menawarkan solusi yang kuat dan serbaguna untuk pembuatan kode batang.
-
-Dalam panduan komprehensif ini, kita akan menjelajahi dunia pembuatan barcode menggunakan Aspose.BarCode untuk .NET. Kami akan mulai dengan prasyarat untuk memastikan Anda memiliki semua yang dibutuhkan untuk memulai, lalu mendalami namespace penting dan menguraikan contoh praktis langkah demi langkah. Di akhir tutorial ini, Anda akan memiliki pemahaman yang kuat tentang cara membuat barcode dengan mudah.
+## Jawaban Cepat
+- **Apa yang dilakukan API utama?** API utama mengonversi string biasa menjadi barcode GS1 Coupon UPC‑A Code 128 yang sepenuhnya sesuai standar.  
+- **Perpustakaan apa yang diperlukan?** Aspose.BarCode for .NET (tersedia dalam versi percobaan gratis).  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Tidak, versi percobaan dapat digunakan untuk pengembangan dan pengujian.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Berapa lama implementasinya?** Sekitar 5‑10 menit untuk mendapatkan gambar yang berfungsi.
 
 ## Prasyarat
 
-Sebelum mempelajari dunia pembuatan kode batang dengan Aspose.BarCode untuk .NET, penting untuk memastikan Anda memiliki alat dan pengetahuan yang diperlukan.
+Sebelum menyelami dunia pembuatan barcode dengan Aspose.BarCode for .NET, penting untuk memastikan Anda memiliki alat dan pengetahuan yang diperlukan.
 
-1. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan yang berfungsi. Ini termasuk Visual Studio atau IDE lain pilihan Anda untuk menulis dan mengkompilasi kode .NET Anda.
+1. **Lingkungan Pengembangan:** Pastikan Anda memiliki lingkungan pengembangan yang berfungsi. Ini termasuk Visual Studio atau IDE lain pilihan Anda untuk menulis dan mengompilasi kode .NET Anda.
 
-2.  Aspose.BarCode untuk .NET Library: Anda harus menginstal Aspose.BarCode untuk .NET di sistem Anda. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/barcode/net/).
+2. **Aspose.BarCode for .NET Library:** Anda harus menginstal Aspose.BarCode for .NET di sistem Anda. Jika belum, Anda dapat mengunduhnya dari [here](https://releases.aspose.com/barcode/net/).
 
-3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# adalah suatu keharusan karena Anda akan menulis kode untuk menghasilkan kode batang.
+3. **Pengetahuan Dasar C#:** Familiaritas dengan bahasa pemrograman C# wajib karena Anda akan menulis kode untuk menghasilkan barcode.
 
 ## Mengimpor Namespace
 
-Sekarang setelah Anda membahas prasyaratnya, sekarang saatnya memahami namespace yang diperlukan untuk bekerja dengan Aspose.BarCode untuk .NET.
+Setelah Anda menyelesaikan prasyarat, kini saatnya memahami namespace yang diperlukan untuk bekerja dengan Aspose.BarCode for .NET.
 
-1. Sertakan Namespace Aspose.BarCode: Mulailah dengan menyertakan namespace Aspose.BarCode dalam proyek Anda. Di sinilah semua fungsi pembuatan kode batang berada.
+1. **Include Aspose.BarCode Namespace:** Mulailah dengan menyertakan namespace Aspose.BarCode dalam proyek Anda. Di sinilah semua fungsi pembuatan barcode berada.
 
    ```csharp
    using Aspose.BarCode;
    ```
 
-2. Ruang Nama Tambahan: Tergantung pada kebutuhan spesifik Anda, Anda mungkin perlu menyertakan ruang nama lain untuk manipulasi gambar atau penanganan file. Misalnya:
+2. **Namespace Tambahan:** Tergantung pada kebutuhan spesifik Anda, mungkin perlu menyertakan namespace lain untuk manipulasi gambar atau penanganan file. Misalnya:
 
    ```csharp
    using System;
    using System.IO;
    ```
 
-Dengan namespace ini ditambahkan ke proyek Anda, Anda kini siap membuat dan menyesuaikan kode batang.
+Dengan namespace ini ditambahkan ke proyek, Anda kini siap membuat dan menyesuaikan barcode.
 
-Panduan Langkah demi Langkah - Menghasilkan Kupon GGS1 Kode UPC-A 128 Barcode
+## Apa itu GS1 Coupon UPC‑A Code 128?
 
-Mari kita jelajahi proses langkah demi langkah dalam menghasilkan kode batang GGS1 Coupon UPC-A Code 128 menggunakan Aspose.BarCode untuk .NET. Dalam contoh ini, kami akan memecah kode menjadi langkah-langkah yang dapat dikelola untuk pemahaman yang jelas.
+GS1 Coupon UPC‑A Code 128 barcode menggabungkan format numerik UPC‑A tradisional dengan Application Identifiers (AI) GS1 tambahan yang membawa data khusus kupon, seperti jumlah diskon atau tanggal kedaluwarsa. Mengenkode informasi ini sebagai **string** dan membiarkan Aspose menangani konversinya menghemat Anda dari perhitungan checksum manual dan keanehan format.
 
-## Langkah 1: Tetapkan Jalur Direktori
+## Mengapa menggunakan Aspose.BarCode untuk tugas ini?
 
-Mulailah dengan menentukan jalur direktori tempat Anda ingin menyimpan gambar barcode yang dihasilkan.
+- **Zero‑dependency encoding** – perpustakaan mengetahui aturan GS1 secara tepat.  
+- **High‑quality output** – menghasilkan PNG, JPEG, SVG, atau PDF dengan satu panggilan.  
+- **Full control** – menyesuaikan dimensi, warna, dan zona tenang tanpa meninggalkan C#.  
+
+## Panduan Langkah-demi-Langkah untuk generate barcode from string – GGS1 Coupon UPC‑A Code 128
+
+Mari kita jelajahi proses langkah‑demi‑langkah menghasilkan barcode GGS1 Coupon UPC‑A Code 128 menggunakan Aspose.BarCode for .NET. Pada contoh ini, kami memecah kode menjadi langkah‑langkah yang mudah dipahami untuk pemahaman yang jelas.
+
+### Langkah 1: Atur Path Direktori
+
+Mulailah dengan mendefinisikan path direktori tempat Anda ingin menyimpan gambar barcode yang dihasilkan.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- Mengganti`"Your Directory Path"` dengan jalur sebenarnya di sistem Anda.
+Ganti `"Your Directory Path"` dengan path aktual di sistem Anda.
 
-## Langkah 2: Buat Generator Kode Batang
+### Langkah 2: Buat Barcode Generator
 
-Inisialisasi objek BarcodeGenerator dengan tipe pengkodean dan data yang diinginkan untuk dikodekan. Dalam hal ini, kami membuat kode batang GGS1 Coupon UPC-A Code 128 dengan data "123456789012(8110)ASPOSE."
+Inisialisasi objek `BarcodeGenerator` dengan tipe enkoding yang diinginkan dan data yang akan dienkode. Pada kasus ini, kami membuat barcode GGS1 Coupon UPC‑A Code 128 dengan data `"123456789012(8110)ASPOSE"`.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "123456789012(8110)ASPOSE");
 ```
 
-Anda dapat mengganti data tersebut dengan milik Anda sendiri jika diperlukan.
+Anda dapat mengganti data tersebut dengan milik Anda sendiri bila diperlukan.
 
-## Langkah 3: Sesuaikan Parameter Barcode
+### Langkah 3: Kustomisasi Parameter Barcode
 
-Anda dapat menyempurnakan berbagai parameter untuk kode batang Anda, seperti Dimensi X (ukuran batang terkecil), format gambar, dan banyak lagi. Dalam contoh ini, kami mengatur Dimensi X menjadi 2 piksel.
+Anda dapat menyesuaikan berbagai parameter barcode, seperti X‑Dimension (ukuran bar terkecil), format gambar, dan lain‑lain. Pada contoh ini, kami menetapkan X‑Dimension menjadi 2 piksel.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-Jangan ragu untuk menyesuaikan parameter ini sesuai dengan kebutuhan proyek Anda.
+Silakan sesuaikan parameter ini sesuai kebutuhan proyek Anda.
 
-## Langkah 4: Simpan Gambar Barcode
+### Langkah 4: Simpan Gambar Barcode
 
-Sekarang, simpan kode batang yang dihasilkan sebagai gambar di direktori yang Anda tentukan. Kami menyimpannya dalam format PNG.
+Sekarang, simpan barcode yang dihasilkan sebagai gambar di direktori yang Anda tentukan. Kami menyimpannya dalam format PNG.
 
 ```csharp
 gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
@@ -93,34 +110,62 @@ gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
 
 Anda dapat mengubah nama file dan format gambar sesuai kebutuhan.
 
-Dengan mengikuti empat langkah sederhana ini, Anda telah berhasil membuat kode batang GGS1 Coupon UPC-A Code 128 menggunakan Aspose.BarCode untuk .NET.
+Dengan mengikuti empat langkah sederhana ini, Anda telah berhasil menghasilkan barcode GGS1 Coupon UPC‑A Code 128 menggunakan Aspose.BarCode for .NET.
+
+## Kasus Penggunaan Umum
+
+- **Retail coupons** – menyematkan informasi diskon langsung pada kemasan produk.  
+- **Warehouse labeling** – menggabungkan ID produk dengan data batch atau kedaluwarsa.  
+- **Mobile promotions** – menghasilkan barcode cetak untuk penukaran kupon tanpa QR.  
+
+## Pemecahan Masalah & Tips
+
+- **Path issues** – pastikan direktori ada dan aplikasi memiliki izin menulis.  
+- **Invalid data format** – string harus mengikuti sintaks GS1 (`(AI)Data`).  
+- **Image quality** – tingkatkan `XDimension` untuk cetakan resolusi lebih tinggi.  
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah mendalami pembuatan kode batang menggunakan Aspose.BarCode untuk .NET. Kami telah membahas prasyaratnya, mengimpor namespace yang diperlukan, dan mempelajari contoh praktis langkah demi langkah. Dengan pengetahuan ini, kini Anda dapat dengan mudah memasukkan pembuatan kode batang ke dalam aplikasi .NET Anda.
+Dalam tutorial ini, kami menyelami pembuatan barcode menggunakan Aspose.BarCode for .NET. Kami telah membahas prasyarat, mengimpor namespace yang diperlukan, dan melangkah melalui contoh praktis **barcode generator C# example** secara bertahap. Dengan pengetahuan ini, Anda kini dapat **generate barcode from string** untuk skenario apa pun yang mematuhi GS1, baik itu kupon, label inventaris, atau promosi khusus.
 
-Aspose.BarCode for .NET memberikan solusi serbaguna dan ramah pengguna untuk semua kebutuhan pembuatan kode batang Anda. Baik Anda mengelola inventaris, melacak produk, atau mengkodekan data, pustaka ini menyederhanakan prosesnya.
+Aspose.BarCode for .NET menyediakan solusi yang serbaguna dan ramah pengguna untuk semua kebutuhan pembuatan barcode Anda. Baik Anda mengelola inventaris, melacak produk, atau mengenkode data, perpustakaan ini menyederhanakan prosesnya.
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk mengunjungi[Dokumentasi Aspose.BarCode](https://reference.aspose.com/barcode/net/) atau mencari dukungan di[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
----
+Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu mengunjungi [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) atau mencari dukungan di [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
 
 ## FAQ
 
-### T: Dapatkah saya menggunakan Aspose.BarCode untuk .NET untuk proyek komersial?
- Ya, Aspose.BarCode untuk .NET cocok untuk proyek pribadi dan komersial. Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+### Q: Bisakah saya menggunakan Aspose.BarCode for .NET untuk proyek komersial?
+Ya, Aspose.BarCode for .NET cocok untuk proyek pribadi maupun komersial. Anda dapat membeli lisensi [here](https://purchase.aspose.com/buy).
 
-### T: Apakah tersedia uji coba gratis untuk Aspose.BarCode untuk .NET?
-Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/). Ini memungkinkan Anda menguji fitur perpustakaan sebelum melakukan pembelian.
+### Q: Apakah tersedia versi percobaan gratis untuk Aspose.BarCode for .NET?
+Ya, Anda dapat mengakses versi percobaan gratis [here](https://releases.aspose.com/). Versi ini memungkinkan Anda menguji fitur perpustakaan sebelum melakukan pembelian.
 
-### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.BarCode untuk .NET?
- Jika Anda memerlukan lisensi sementara untuk tujuan evaluasi atau pengujian, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.BarCode for .NET?
+Jika Anda memerlukan lisensi sementara untuk evaluasi atau pengujian, Anda dapat mendapatkannya [here](https://purchase.aspose.com/temporary-license/).
 
 ### Q: Dapatkah saya menyesuaikan tampilan barcode yang dihasilkan lebih lanjut?
-Sangat. Aspose.BarCode untuk .NET menyediakan berbagai parameter dan pengaturan untuk menyesuaikan tampilan dan perilaku barcode Anda. Anda dapat menjelajahi dokumentasi untuk lebih jelasnya.
+Tentu saja. Aspose.BarCode for .NET menyediakan berbagai parameter dan pengaturan untuk menyesuaikan tampilan serta perilaku barcode Anda. Anda dapat menelusuri dokumentasi untuk detail lebih lanjut.
 
-### T: Apakah ada tipe pengkodean lain yang didukung oleh Aspose.BarCode untuk .NET?
-Ya, Aspose.BarCode untuk .NET mendukung berbagai jenis pengkodean, termasuk UPC-A, Kode 128, kode QR, dan banyak lagi. Anda dapat menemukan daftar lengkapnya di dokumentasi.
+### Q: Apakah ada tipe enkoding lain yang didukung oleh Aspose.BarCode for .NET?
+Ya, Aspose.BarCode for .NET mendukung beragam tipe enkoding, termasuk UPC‑A, Code 128, QR code, dan banyak lagi. Daftar lengkapnya dapat ditemukan di dokumentasi.
+
+## FAQ Tambahan
+
+**Q: Apakah perpustakaan ini mendukung .NET Core?**  
+A: Ya, Aspose.BarCode for .NET sepenuhnya mendukung .NET Core 3.1 dan versi selanjutnya, serta .NET 5/6.
+
+**Q: Dapatkah saya menghasilkan barcode dalam format vektor?**  
+A: Tentu. Gunakan `BarCodeImageFormat.Svg` atau `Pdf` saat memanggil `gen.Save()`.
+
+**Q: Bagaimana cara menambahkan caption yang dapat dibaca manusia di bawah barcode?**  
+A: Atur `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;` dan sesuaikan pengaturan font melalui `CodeTextParameters`.
+
+---
+
+**Terakhir Diperbarui:** 2026-02-15  
+**Diuji Dengan:** Aspose.BarCode for .NET 24.11  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

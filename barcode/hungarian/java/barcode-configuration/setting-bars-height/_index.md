@@ -1,12 +1,11 @@
 ---
-date: 2025-12-16
-description: Tanulja meg, hogyan hozhat létre code_128 vonalkódot Java-ban az Aspose.BarCode
-  használatával, testreszabhatja a vonalkód méretét, beállíthatja a vonalmagasságot,
+date: 2026-02-15
+description: Tanulja meg, hogyan hozhat létre code128 vonalkódot Java-ban az Aspose.BarCode
+  segítségével, testreszabhatja a vonalkód méretét, állíthatja a vonalkód dimenzióit,
   és hatékonyan generálhat vonalkód képet Java-ban.
 linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
-title: Hogyan hozhatunk létre code_128 vonalkódot és állíthatjuk be a sávmagasságot
-  Java-ban
+title: Hogyan készítsünk code128 vonalkódot Java-ban és állítsuk be a vonalmagasságot
 url: /hu/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
@@ -19,44 +18,44 @@ weight: 14
 
 ## Bevezetés
 
-A modern Java‑alkalmazásokban gyakran szükség van **code_128 barcode** képek létrehozására, amelyek pontosan illeszkednek jelentések, címkék vagy nyugták vizuális megjelenéséhez. Az Aspose.BarCode for Java ezt egyszerűvé teszi, lehetővé téve a **vonalkód méretének testreszabását**, a méretek állítását, és egy olyan vonalkód kép generálását, amelyet a Java azonnal el tud menteni. Ebben az útmutatóban bemutatjuk, hogyan állítható be a sávmagasság egy CODE_128 vonalkód generálása során, hogy minden alkalommal tökéletesen méretezett vonalkódot kapjunk.
+If you need to **create code128 barcode java** for label printing, invoices, or mobile apps, you’ll want full control over its visual dimensions. Aspose.BarCode for Java lets you **customize barcode size**, set the exact bar height, and instantly generate a barcode image that fits your design requirements. In this tutorial we’ll walk through the complete process of creating a CODE_128 barcode, adjusting its height, and saving the image—so you can produce perfectly sized barcodes every time.
 
 ## Gyors válaszok
-- **Mi a fő metódus feladata?** Létrehoz egy CODE_128 vonalkódot, és lehetővé teszi a sávmagasság beállítását.  
-- **Melyik osztályt használja?** `BarcodeGenerator` az Aspose.BarCode könyvtárból.  
-- **Szükség van licencre a teszteléshez?** Ingyenes próba elérhető; licenc szükséges a termeléshez.  
-- **Módosíthatok más méreteket is?** Igen, állíthatja a szélességet, margókat és egyéb méretparamétereket.  
-- **Milyen formátumú a kimeneti kép?** Bármely, az Aspose.BarCode által támogatott formátum (pl. JPEG, PNG).  
+- **Mi a fő metódus feladata?** It creates a CODE_128 barcode and lets you set its bar height.  
+- **Melyik osztályt használja?** `BarcodeGenerator` from the Aspose.BarCode library.  
+- **Szükségem van licencre a teszteléshez?** A free trial is available; a license is required for production.  
+- **Módosíthatok más méreteket is?** Yes, you can adjust width, margins, and other size parameters.  
+- **Milyen formátumú a kimeneti kép?** Any format supported by Aspose.BarCode (e.g., JPEG, PNG).  
 
-## Mi az a CODE_128 vonalkód, és miért kell beállítani a magasságát?
-A CODE_128 egy nagy sűrűségű lineáris vonalkód, amely a teljes ASCII készletet kódolja. A sávmagasság beállítása elengedhetetlen, ha a vonalkódnak fizikai címkeméretekhez kell igazodnia, vagy egy UI komponensbe kell illeszkednie. A megfelelő magasság biztosítja a szkennerek olvashatóságát, miközben a vizuális elrendezés kiegyensúlyozott marad.
+## Mi az a CODE_128 vonalkód és miért kell beállítani a magasságát?
+CODE_128 is a high‑density linear barcode that encodes the full ASCII set. Adjusting the bar height is essential when the barcode must align with physical label dimensions or fit within a UI component. Proper height ensures readability by scanners while keeping the visual layout balanced.
 
-## Miért használjuk az Aspose.BarCode-ot Java-ban?
-- **Teljes irányítás** a vonalkód méretei felett (magasság, szélesség, margók).  
-- **Széles formátumtámogatás** – PNG, JPEG, BMP és továbbiak generálása.  
-- **Nincs külső függőség** – tiszta Java könyvtár, könnyen integrálható.  
-- **Gazdag API** – színek, szöveg és hibajavítás egyszerű testreszabása.
+## Miért használja az Aspose.BarCode for Java-t?
+- **Teljes irányítás** a vonalkód méretei (magasság, szélesség, margók) felett.  
+- **Széles formátumtámogatás** – generate PNG, JPEG, BMP, and more.  
+- **Nincs külső függőség** – pure Java library, easy to integrate.  
+- **Gazdag API** – customize colors, text, and error correction effortlessly.  
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
+Before you start, make sure you have:
 
-- Java fejlesztői környezettel (JDK 8 vagy újabb).  
-- Aspose.BarCode for Java – letölthető a [download link](https://releases.aspose.com/barcode/java/).  
+- Java fejlesztői környezet (JDK 8 vagy újabb).  
+- Aspose.BarCode for Java – download it from the [download link](https://releases.aspose.com/barcode/java/).  
 
 ## Csomagok importálása
 
-A Java projektjében importálja a fő osztályt, amely a vonalkód generálási képességeket biztosítja:
+In your Java project, import the main class that provides barcode generation capabilities:
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Hogyan hozhatunk létre code_128 vonalkódot és állíthatjuk be a magasságát
+## Hogyan hozhat létre code128 vonalkódot Java-ban és állíthatja be a magasságát
 
 ### 1. lépés: A vonalkód objektum inicializálása
 
-Hozzon létre egy `BarcodeGenerator` példányt egy CODE_128 vonalkódhoz a kódolni kívánt adatokkal (pl. “12345678”).
+Create a `BarcodeGenerator` instance for a CODE_128 barcode with the data you want to encode (e.g., “12345678”).
 
 ```java
 // Instantiate barcode object
@@ -65,62 +64,62 @@ BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes
 
 ### 2. lépés: A vonalkód méreteinek módosítása – Sávmagasság beállítása
 
-Használja a `BarHeight` tulajdonságot a magasság milliméterben történő meghatározásához. Ez az elsődleges módja annak, **hogyan állítsuk be a vonalkód magasságát**.
+Use the `BarHeight` property to define the height in millimeters. This is the primary way to **adjust barcode dimensions**.
 
 ```java
 // Set the bar height to be 3 millimeters
 generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 ```
 
-> **Pro tipp:** A `XDimension` módosításával megváltoztathatja az egyes sávok szélességét, így teljes irányítást kap **a vonalkód méreteinek módosítása** felett.
+> **Pro tipp:** A `XDimension` módosításával megváltoztathatja az egyes sávok szélességét, így teljes irányítást kap a **vonalkód méretének testreszabására**.
 
 ### 3. lépés: A vonalkód kép mentése – generate barcode image java
 
-Végül írja a vonalkódot egy fájlba. A `save` metódus automatikusan a fájlkiterjesztés alapján határozza meg a képformátumot.
+Finally, write the barcode to a file. The `save` method automatically determines the image format from the file extension.
 
 ```java
 // Save the Barcode image to file
 generator.save(dataDir + "barsHeight.jpg");
 ```
 
-> **Megjegyzés:** Cserélje le a `dataDir`‑t arra a tényleges útvonalra, ahová a képet menteni szeretné.
+> **Megjegyzés:** Cserélje le a `dataDir`-t a tényleges útvonalra, ahová a képet menteni szeretné.
 
 ## Gyakori felhasználási esetek
 
-- **Címkenyomtatás** – Biztosítsa, hogy a vonalkód beleférjen egy előre meghatározott címkeméretbe.  
-- **Számlagenerálás** – Helyezzen be egy kompakt vonalkódot, amely illeszkedik a PDF számlák elrendezéséhez.  
-- **Mobilalkalmazások** – Dinamikusan generáljon vonalkódokat pontos méretekkel a képernyőn történő beolvasáshoz.
+- **Vonalkód címkenyomtatáshoz** – Ensure the barcode fits within a predefined label size.  
+- **Számlagenerálás** – Embed a compact barcode that matches the layout of your PDF invoices.  
+- **Mobilalkalmazások** – Dynamically generate barcodes with exact dimensions for on‑screen scanning.  
 
 ## Hibakeresés és tippek
 
 | Probléma | Megoldás |
 |----------|----------|
-| A vonalkód túl vékony vagy túl vastag | Állítsa be az `XDimension`‑t a `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)` hívással. |
-| A kép elmosódott | Növelje a DPI‑t a `generator.save(..., BarCodeImageFormat.JPEG, 300)` hívással. |
-| A szkenner nem tudja beolvasni a kódot | Ellenőrizze, hogy a sávmagasság megfelel a szkenner minimális követelményének (általában ≥ 2 mm). |
+| A vonalkód túl vékony vagy túl vastag | Adjust `XDimension` via `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)`. |
+| A kép elmosódott | Increase the DPI by calling `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
+| A szkenner nem tudja beolvasni a kódot | Verify that the bar height meets the scanner’s minimum requirement (usually ≥ 2 mm). |
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
-**Q: Testreszabhatom a vonalkód típusát az Aspose.BarCode for Java‑ban?**  
-A: Természetesen! A könyvtár számos szimbólumot támogat, például QR, DataMatrix, PDF417 és még sok más – csak módosítsa az `EncodeTypes`‑t a konstruktorban.
+**K: Testreszabhatom a vonalkód típusát az Aspose.BarCode for Java-ban?**  
+A: Absolutely! The library supports many symbologies such as QR, DataMatrix, PDF417, and more—just change `EncodeTypes` in the constructor.
 
-**Q: Az Aspose.BarCode kompatibilis különböző Java IDE‑kkel?**  
-A: Igen, zökkenőmentesen működik az Eclipse‑el, az IntelliJ IDEA‑val, a NetBeans‑szel és bármely olyan IDE‑vel, amely támogatja a szabványos Java projekteket.
+**K: Az Aspose.BarCode kompatibilis különböző Java IDE-kkel?**  
+A: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports standard Java projects.
 
-**Q: Generálhatok vonalkódokat numerikus és alfanumerikus értékekkel?**  
-A: Igen, a CODE_128 képes mind numerikus, mind alfanumerikus adatokat kódolni, így sokféle alkalmazáshoz alkalmas.
+**K: Generálhatok vonalkódokat numerikus és alfanumerikus értékekkel?**  
+A: Yes, CODE_128 can encode both numeric and alphanumeric data, making it versatile for most applications.
 
-**Q: Elérhető próba verzió az Aspose.BarCode for Java‑hoz?**  
-A: Igen, a funkciókat egy ingyenes próba [itt](https://releases.aspose.com/) kipróbálhatja.
+**K: Elérhető próba verzió az Aspose.BarCode for Java-hoz?**  
+A: Yes, you can explore the features of Aspose.BarCode by obtaining a free trial [here](https://releases.aspose.com/).
 
-**Q: Hol találok támogatást az Aspose.BarCode for Java‑hoz?**  
-A: Látogassa meg az Aspose.BarCode fórumot [itt](https://forum.aspose.com/c/barcode/13) a közösségi támogatás és a megbeszélések érdekében.
+**K: Hol találok támogatást az Aspose.BarCode for Java-hoz?**  
+A: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for community support and discussions.
 
 ---
 
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-02-15  
+**Tesztelve:** Aspose.BarCode for Java 24.12 (latest)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

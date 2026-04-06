@@ -1,61 +1,71 @@
 ---
-title: GS1 優惠券 UPC-A 資料欄配置
-linktitle: GS1 優惠券 UPC-A 資料欄配置
+date: 2026-02-15
+description: 學習如何使用 Aspose.BarCode for .NET 及 GS1 Coupon UPC‑A Databar 設定產生條碼圖像，快速上手。
+linktitle: Generate barcode image – GS1 Coupon UPC-A Databar
 second_title: Aspose.BarCode .NET API
-description: 使用 Aspose.BarCode for .NET 了解 GS1 Coupon UPC-A Databar 配置。輕鬆建立條碼。現在就開始吧！
-weight: 13
+title: 產生條碼圖像 – GS1 優惠券 UPC-A Databar
 url: /zh-hant/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# GS1 優惠券 UPC-A 資料欄配置
-
+# 產生條碼影像 – GS1 Coupon UPC-A Databar
 
 ## 介紹
 
-您是否希望在 .NET 應用程式中利用 GSM Coupon UPC-A Databar 配置的強大功能？您來對地方了。 Aspose.BarCode for .NET 是您輕鬆產生條碼的可靠伴侶。在這份綜合指南中，我們將引導您完成創建 GS1 Coupon UPC-A Databar 條碼的步驟，揭開流程的神秘面紗，並確保您可以將此功能無縫整合到您的專案中。
+您是否想在 .NET 應用程式中 **產生條碼影像**，使用 GS1 Coupon UPC-A Databar 設定？您來對地方了。Aspose.BarCode for .NET 是您產生條碼的可靠夥伴。本完整指南將一步步帶您建立 GS1 Coupon UPC-A Databar 條碼，說明整個流程，並確保您能順利將此功能整合至專案中。
 
-## 先決條件
+## 快速回答
+- **需要哪個函式庫？** Aspose.BarCode for .NET  
+- **實作需要多久？** 基本條碼約 5‑10 分鐘即可完成  
+- **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6  
+- **測試需要授權嗎？** 提供免費試用授權  
+- **可以自訂 X‑dimension 嗎？** 可以，透過 `Parameters.Barcode.XDimension`
 
-在我們深入了解使用 Aspose.BarCode for .NET 進行 GS1 Coupon UPC-A Databar 配置的世界之前，讓我們確保您擁有必要的工具和知識：
+## 什麼是 GS1 Coupon UPC‑A Databar？
+GS1 Coupon UPC‑A Databar 是一種緊湊且高密度的條碼格式，專為優惠券與促銷活動設計。它在編碼標準 UPC‑A 資料的同時，加入額外的 GS1 應用識別碼 (AI)，例如優惠券的折扣金額，十分適合零售掃描使用。
 
-1. 環境設定：
-   - 確保您已安裝 Aspose.BarCode for .NET。如果沒有，您可以從以下位置下載[Aspose.BarCode for .NET 頁面](https://releases.aspose.com/barcode/net/).
+## 為什麼要使用 Aspose.BarCode 產生條碼影像？
+- **完整控制** – 可直接在 C# 中調整尺寸、解析度與編碼選項。  
+- **跨平台** – 支援 Windows、Linux 與 macOS。  
+- **無外部相依** – 純 .NET 函式庫，無需原生 DLL。  
+- **支援 ASP.NET** – 非常適合網頁式條碼產生情境。
 
-2. .NET知識：
-   - 熟悉 C# 和 .NET 框架至關重要。
+## 前置條件
 
-現在，讓我們繼續逐步指南：
+在開始使用 Aspose.BarCode for .NET 進行 GS1 Coupon UPC‑A Databar 設定之前，請先確保您具備以下條件：
 
-### 導入命名空間：
+1. **已安裝 Aspose.BarCode for .NET** – 若尚未安裝，請從 [Aspose.BarCode for .NET page](https://releases.aspose.com/barcode/net/) 下載。  
+2. **具備基本的 C# 知識** – 熟悉 .NET 框架與 Visual Studio。  
 
-在您的 .NET 應用程式中，您需要匯入必要的命名空間才能存取條碼產生功能。就是這樣：
+接下來，我們將逐步說明實作方式。
 
-### 第 1 步：新增 using 指令
-- 在 Visual Studio 中開啟您的專案。
-- 在 C# 檔案的頂部，加入以下 using 指令：
+### 匯入命名空間
+
+要使用條碼產生功能，需要匯入相關的命名空間。
+
+#### 步驟 1：加入 Using 指令
+在 Visual Studio 開啟您的專案，於 C# 檔案頂部加入以下 `using` 陳述式：
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-這使您的應用程式能夠存取 Aspose.BarCode 庫，從而提供條碼生成功能。
+這些指令會讓 Aspose.BarCode 類別在程式碼中可用。
 
-現在您已匯入所需的命名空間，是時候產生 GS1 Coupon UPC-A Databar 了。按著這些次序：
-
-## 步驟 2：定義目錄路徑
-- 將路徑設定為要儲存條碼影像的所需目錄。將“您的目錄路徑”替換為您的實際目錄路徑。
+### 步驟 2：定義輸出目錄
+指定產生的 PNG 檔案要儲存的位置。將 `"Your Directory Path"` 替換為您機器上的實際資料夾路徑：
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 步驟 3：產生 GS1 優惠券 UPC-A 資料欄
-- 使用以下程式碼建立 GS1 優惠券 UPC-A 資料欄：
+### 步驟 3：產生 GS1 Coupon UPC‑A Databar
+建立 `BarcodeGenerator` 實例、設定 X‑dimension，然後儲存影像：
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1DatabarCoupon, "123456789012(8110)ASPOSE");
@@ -63,35 +73,49 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Save($"{path}Gs1CouponUpcaDatabar.png", BarCodeImageFormat.Png);
 ```
 
-在此程式碼片段中，我們首先初始化一個`BarcodeGenerator`具有條碼類型和資料的物件。然後，我們指定 XDimension（條碼條的寬度）並將條碼以 PNG 圖像的形式保存在您指定的目錄中。
+- **EncodeTypes.UpcaGs1DatabarCoupon** 告訴函式庫使用 GS1 Coupon UPC‑A Databar 格式。  
+- 資料字串 `"123456789012(8110)ASPOSE"` 包含 UPC‑A 編號，後接 AI `(8110)` 代表優惠券金額。  
+- `XDimension.Pixels = 2` 控制條紋寬度，產生清晰且可掃描的影像。  
 
-恭喜！您已使用 Aspose.BarCode for .NET 成功產生了 GS1 Coupon UPC-A Databar。
+執行程式後，您會在先前指定的資料夾中看到 `Gs1CouponUpcADatabar.png`。
+
+## 常見問題與技巧
+
+| 問題 | 解決方案 |
+|-------|----------|
+| **影像未儲存** | 確認 `path` 以反斜線 (`\`) 或斜線 (`/`) 結尾，且程式具有寫入權限。 |
+| **條碼模糊不清** | 提高 `XDimension` 數值，或透過設定 `gen.Parameters.ImageResolution` 以更高 DPI 儲存影像。 |
+| **資料格式無效** | 確認資料字串符合 GS1 語法：`<UPC>(<AI>)<value>`。缺少括號會拋出 `BarcodeException`。 |
+| **在 ASP.NET 中使用** | 將產生的影像存入記憶體串流，並以 `FileResult` 回傳，避免寫入磁碟。 |
+
+## 常見問答
+
+**Q: 什麼是 GS1 Coupon UPC‑A Databar？**  
+A: 這是一種用於編碼優惠券資料的條碼標準，結合傳統 UPC‑A 代碼與 GS1 應用識別碼。
+
+**Q: 從哪裡可以下載 Aspose.BarCode for .NET？**  
+A: 您可於 [download page](https://releases.aspose.com/barcode/net/) 下載。
+
+**Q: 有免費試用版嗎？**  
+A: 有，請從 [here](https://releases.aspose.com/) 取得。
+
+**Q: 如何取得臨時授權？**  
+A: 詳情請見 [here](https://purchase.aspose.com/temporary-license/)。
+
+**Q: 哪裡可以取得 Aspose.BarCode for .NET 的支援？**  
+A: 前往 [Aspose.BarCode for .NET support forum](https://forum.aspose.com/c/barcode/13)。
 
 ## 結論
 
-Aspose.BarCode for .NET 簡化了 GS1 Coupon UPC-A Databar 配置的過程，讓您可以將條碼產生無縫整合到您的應用程式中。透過本指南中提供的步驟，您已經可以很好地掌握這項強大的功能。
+Aspose.BarCode for .NET 簡化了 **產生條碼影像** 的工作，讓您能輕鬆在桌面或 Web 應用程式中嵌入 GS1 Coupon UPC‑A Databar 產生功能。依照上述步驟，您已具備建立、客製化與除錯條碼影像的能力。
 
-您準備好透過條碼產生來增強您的專案了嗎？探索[Aspose.BarCode for .NET 文檔](https://reference.aspose.com/barcode/net/)以獲得更深入的見解和高級功能。
+欲了解函式庫的完整功能，請參考 [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)，其中包含顏色客製化、DPI 設定與批次產生等進階選項。
 
 ---
 
-## 常見問題（常見問題）：
-
-### 什麼是 GS1 優惠券 UPC-A 資料欄？
-GS1 Coupon UPC-A Databar 是一種條碼標準，用於對優惠券和促銷活動中的資料進行編碼。它確保高效、準確地追蹤折扣和優惠。
-
-### 哪裡可以下載 Aspose.BarCode for .NET？
-您可以從以下位置下載 Aspose.BarCode for .NET[下載頁面](https://releases.aspose.com/barcode/net/).
-
-### 有免費試用嗎？
-是的，您可以從以下位置取得 Aspose.BarCode for .NET 的免費試用版：[這裡](https://releases.aspose.com/).
-
-### 我怎麼才能獲得臨時許可證？
-如果您需要臨時許可證，您可以找到詳細信息[這裡](https://purchase.aspose.com/temporary-license/).
-
-### 在哪裡可以獲得 Aspose.BarCode for .NET 支援？
-如需任何技術協助或疑問，您可以訪問[Aspose.BarCode for .NET 支援論壇](https://forum.aspose.com/c/barcode/13).
-
+**最後更新：** 2026-02-15  
+**測試環境：** Aspose.BarCode 24.12 for .NET  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

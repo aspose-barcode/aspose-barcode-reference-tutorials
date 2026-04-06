@@ -1,10 +1,10 @@
 ---
-date: 2025-12-13
-description: تعلم كيفية إنشاء باركود باتش جافا باستخدام Aspose.BarCode – مثال مولد
-  باركود جافا يوضح كيفية إنشاء رمز باتش وتعيين تنسيق الباتش.
+date: 2026-02-15
+description: تعلم كيفية إنشاء باركود باتش في جافا باستخدام Aspose.BarCode – مثال لمولد
+  باركود جافا يوضح كيفية توليد كود باتش وتعيين تنسيق الباتش.
 linktitle: Generating a Patch Code in Java
 second_title: Aspose.BarCode Java API
-title: إنشاء باركود باتش جافا – توليد رمز باتش باستخدام Aspose.BarCode
+title: إنشاء باركود باتش Java – توليد كود باتش باستخدام Aspose.BarCode
 url: /ar/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
@@ -13,40 +13,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء باركود Patch بلغة Java باستخدام Aspose.BarCode
+# إنشاء Patch Barcode Java باستخدام Aspose.BarCode
 
 ## المقدمة
 
-في هذا الدليل الشامل، ستقوم **بإنشاء باركود Patch بلغة Java** بسرعة وبشكل موثوق باستخدام Aspose.BarCode for Java. سواءً كنت تبني نظام إدارة مستندات أو تحتاج إلى طريقة مدمجة لتخزين البيانات على الورق، فإن إنشاء Patch Code هو حل عملي. سنستعرض **مثال مولد باركود Java**، نشرح **كيفية إنشاء Patch Code**، ونظهر **كيفية ضبط تنسيق Patch** حتى تتمكن من تخصيص النتيجة وفق متطلباتك الدقيقة.
+في هذا الدليل الشامل، ستقوم **بإنشاء patch barcode java** بسرعة وموثوقية باستخدام Aspose.BarCode for Java. سواءً كنت تبني نظام إدارة مستندات، أو تحتاج إلى طريقة مدمجة لتخزين البيانات الوصفية على الورق، أو تبحث عن حل باركود ثنائي الأبعاد عالي الكثافة، فإن إنشاء Patch Code هو خيار عملي. سنستعرض **مثال java barcode generator**، ونشرح **كيفية إنشاء patch code**، ونظهر **كيفية ضبط تنسيق patch** حتى تتمكن من تخصيص الناتج وفق متطلباتك الدقيقة.
 
 ## إجابات سريعة
-- **ما هي المكتبة الأفضل لأكواد Patch؟** Aspose.BarCode for Java
-- **كم عدد أسطر الكود المطلوبة؟** حوالي 20 سطرًا للمثال الأساسي
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج
-- **هل يمكنني تغيير حجم الصفحة؟** نعم، باستخدام `PatchFormat` (مثال: US_LETTER، A4)
-- **ما هي صيغ الصور المدعومة؟** BMP، PNG، JPEG، GIF، وغيرها
+- **ما هي المكتبة الأفضل لـ patch codes؟** Aspose.BarCode for Java
+- **كم عدد أسطر الكود المطلوبة؟** حوالي 20 سطرًا لمثال أساسي
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تعمل للتطوير؛ يلزم ترخيص تجاري للإنتاج
+- **هل يمكنني تغيير حجم الصفحة؟** نعم، باستخدام `PatchFormat` (مثال: US_LETTER, A4)
+- **صيغ الصور المدعومة؟** BMP, PNG, JPEG, GIF, وأكثر
 
 ## ما هو Patch Code؟
 
-Patch Code هو باركود ثنائي الأبعاد يتكون من أربعة أقسام منفصلة يمكن طباعتها على صفحة واحدة. وهو مثالي لفهرسة كميات كبيرة من المستندات لأن كل قسم يمكن مسحه ضوئيًا بشكل مستقل.
+Patch Code هو باركود ثنائي الأبعاد يتكون من أربعة ألواح منفصلة يمكن طباعتها على صفحة واحدة. يمكن مسح كل لوحة بشكل مستقل، مما يجعله مثالياً لفهرسة كميات كبيرة من المستندات مع الحفاظ على مساحة مادية صغيرة.
 
-## لماذا نستخدم Aspose.BarCode for Java؟
+## لماذا تستخدم Aspose.BarCode for Java؟
 
-- **API كامل المميزات** – يدعم جميع أنواع الباركود الرئيسية، بما في ذلك Patch Code.
-- **تخصيص سهل** – تغيير الحجم، التنسيق، الهوامش، وغيرها باستخدام استدعاءات خصائص بسيطة.
-- **متعدد المنصات** – يعمل على أي بيئة تدعم Java، من تطبيقات سطح المكتب إلى خدمات الويب.
+- **Full‑featured API** – يدعم جميع أنواع الباركود الرئيسية، بما في ذلك Patch Code.
+- **Easy customization** – تغيير الحجم، التنسيق، الهوامش، وأكثر باستخدام استدعاءات خصائص بسيطة.
+- **Cross‑platform** – يعمل على أي بيئة تدعم Java، من تطبيقات سطح المكتب إلى خدمات الويب.
+- **Robust documentation** – أمثلة واسعة ومرجع API يساعدك على البدء بسرعة.
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من توفر ما يلي:
-
-- **بيئة تطوير Java** – JDK 8 أو أحدث مثبت.
-- **Aspose.BarCode for Java** – قم بالتحميل من [download link](https://releases.aspose.com/barcode/java/).
-- **IDE أو محرر نصوص** – أي محرر يدعم Java (IntelliJ IDEA، Eclipse، VS Code، إلخ).
+- **Java Development Environment** – JDK 8 أو أحدث مثبت.
+- **Aspose.BarCode for Java** – تحميل من [download link](https://releases.aspose.com/barcode/java/).
+- **IDE or Text Editor** – أي محرر يدعم Java (IntelliJ IDEA, Eclipse, VS Code, إلخ).
+- **Write permissions** إلى المجلد الذي تخطط لحفظ الصور المولدة فيه.
 
 ## استيراد الحزم
 
-لبدء العمل، استورد الفئات الضرورية. المقتطف أدناه يوضح بالضبط ما تحتاجه:
+لبدء العمل، استورد الفئات اللازمة. المقتطف أدناه يوضح بالضبط ما تحتاجه:
 
 ```java
 import com.aspose.barcode.generation.PatchFormat;
@@ -54,9 +54,13 @@ import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.MarginsF;
 ```
 
+## كيفية إنشاء patch barcode java – خطوة بخطوة
+
+فيما يلي دليل واضح مرقم يربط كل كتلة كود بإجراء ملموس. لا تتردد في نسخ المقتطفات كما هي؛ فهي جاهزة للتنفيذ بمجرد استبدال مسار المجلد النائب.
+
 ### الخطوة 1: إنشاء Patch Code أساسي
 
-هذا **مثال مولد باركود Java** ينشئ Patch Code بسيطًا ويحفظه كصورة BMP.
+هذا **مثال java barcode generator** ينشئ Patch Code بسيط ويحفظه كصورة BMP.
 
 ```java
 public static void generatePatchCode() throws IOException {
@@ -66,15 +70,14 @@ public static void generatePatchCode() throws IOException {
 }
 ```
 
-في هذه الطريقة نقوم بـ:
+**ماذا يحدث هنا؟**
+1. `dataDir` يشير إلى المجلد الذي سيُكتب فيه الصورة.
+2. `BarcodeGenerator` يتم إنشاؤه مع `EncodeTypes.PATCH_CODE` والنص `"Patch T"`.
+3. `save` يكتب الباركود إلى `patch.bmp`.
 
-1. تحديد مجلد الإخراج (`dataDir`).
-2. إنشاء كائن `BarcodeGenerator` باستخدام `EncodeTypes.PATCH_CODE` والنص `"Patch T"`.
-3. حفظ الصورة المولدة إلى القرص.
+### الخطوة 2: ضبط تنسيق Patch (حجم الورق)
 
-### الخطوة 2: كيفية ضبط تنسيق Patch
-
-إذا كنت تحتاج إلى حجم ورق محدد، يمكنك ضبط التنسيق قبل الحفظ. هذا يوضح **كيفية ضبط تنسيق Patch** إلى US Letter.
+إذا كنت تحتاج إلى حجم ورق محدد، يمكنك ضبط التنسيق قبل الحفظ. هذا يوضح **كيفية ضبط تنسيق patch** إلى US Letter.
 
 ```java
 public static void setPatchFormat() throws IOException {
@@ -85,9 +88,12 @@ public static void setPatchFormat() throws IOException {
 }
 ```
 
-### الخطوة 3: إنشاء الصفحة كاملة (تجميع جميع الأقسام)
+**لماذا ضبط التنسيق؟**  
+يتم ترتيب ألواح Patch Code بناءً على حجم الصفحة المختار. استخدام `PatchFormat.US_LETTER` يضمن أن تتناسب الألواح بشكل صحيح على ورقة بحجم Letter القياسي.
 
-فيما يلي الروتين الكامل الذي ينشئ كل قسم، يجمعها في صفحة كاملة، ويكتب الملف PNG النهائي. هنا ترى **كيفية إنشاء Patch Code** لتخطيط متعدد الأقسام.
+### الخطوة 3: إنشاء صفحة كاملة (تجميع جميع الألواح)
+
+فيما يلي الروتين الكامل الذي ينشئ كل لوحة، يجمعها في صفحة كاملة، ويكتب ملف PNG النهائي. هنا ترى **كيفية إنشاء patch code** لتخطيط متعدد الألواح.
 
 ```java
 public static void generateWholePage() throws IOException {
@@ -110,31 +116,42 @@ public static void generateWholePage() throws IOException {
 }
 ```
 
-#### المشكلات الشائعة والنصائح
-- **مسار الدليل غير صحيح** – تأكد من أن `dataDir` ينتهي بفاصل ملفات (`/` أو `\\`).
-- **الأذونات مفقودة** – يجب أن يكون للتطبيق صلاحية كتابة في المجلد المستهدف.
-- **جودة الصورة** – اضبط DPI عبر `generator.getParameters().getImageInfo().setResolutionX/Y()` إذا لزم الأمر.
+**نقاط رئيسية يجب ملاحظتها**
+- الطريقة تنشئ أربع صور منفصلة (`topImg`, `leftImg`, `bottomImg`, `rightImg`) تمثل كل لوحة.
+- يتم إنشاء لوحة قماشية `frameImg` أكبر لدمج الألواح معًا.
+- يتم كتابة ملف PNG النهائي إلى المجلد الذي حددته.
+
+## المشكلات الشائعة والنصائح
+
+- **مسار الدليل غير صحيح** – تأكد من أن `dataDir` ينتهي بفاصل ملف (`/` أو `\\`).  
+- **الأذونات مفقودة** – يجب أن يكون للتطبيق صلاحية كتابة إلى المجلد المستهدف.  
+- **جودة الصورة** – اضبط DPI عبر `generator.getParameters().getImageInfo().setResolutionX/Y()` إذا كنت تحتاج إلى دقة أعلى للمسح.  
+- **استخدام الذاكرة** – عند إنشاء صفحات كبيرة، فكر في استدعاء `System.gc()` بعد الحفظ لتحرير مخازن الصور.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.BarCode for Java في المشاريع التجارية؟**  
-ج: نعم، يلزم الحصول على ترخيص تجاري للاستخدام في الإنتاج. يمكنك شراءه من [Aspose's purchase page](https://purchase.aspose.com/buy).
+ج: نعم، يلزم الحصول على ترخيص تجاري للاستخدام في الإنتاج. يمكنك شراء واحد من [صفحة شراء Aspose](https://purchase.aspose.com/buy).
 
-**س: هل تتوفر نسخة تجريبية مجانية؟**  
-ج: بالتأكيد. قم بتحميل نسخة تجريبية من [Aspose's release page](https://releases.aspose.com/).
+**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
+ج: بالتأكيد. قم بتحميل نسخة تجريبية من [صفحة إصدارات Aspose](https://releases.aspose.com/).
 
-**س: كيف أحصل على الدعم؟**  
-ج: زر [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) للحصول على مساعدة المجتمع وقنوات الدعم الرسمية.
+**س: كيف يمكنني الحصول على الدعم؟**  
+ج: زر [منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للحصول على مساعدة المجتمع وقنوات الدعم الرسمية.
 
 **س: هل الترخيص المؤقت خيار متاح؟**  
-ج: نعم، تُقدم تراخيص مؤقتة عبر [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/).
+ج: نعم، تُقدم تراخيص مؤقتة عبر [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/).
 
 **س: أين يمكنني العثور على مرجع API الكامل؟**  
-ج: الوثائق متاحة في [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/).
+ج: الوثائق متاحة في [توثيق Aspose.BarCode for Java](https://reference.aspose.com/barcode/java/).
 
----
+## موارد إضافية
 
-**آخر تحديث:** 2025-12-13  
+- **مشاريع عينة** – استكشف مستودع Aspose.BarCode الرسمي على GitHub للحصول على أمثلة كاملة المميزات.  
+- **نصائح الأداء** – استخدم `generator.getParameters().getImageInfo().setResolutionX(300)` للحصول على مسحات عالية الدقة.  
+- **الخطوات التالية** – بعد إتقان Patch Code، جرّب باركودات ثنائية الأبعاد أخرى مثل QR Code أو Data Matrix باستخدام نفس فئة المولد.
+
+**آخر تحديث:** 2026-02-15  
 **تم الاختبار مع:** Aspose.BarCode for Java 24.12 (latest)  
 **المؤلف:** Aspose  
 
