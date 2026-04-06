@@ -1,40 +1,40 @@
 ---
-title: Create code128 barcode java with Aspose.BarCode
+title: "aspose barcode java: Create CODE_128 barcode with size unit"
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
-description: Learn how to create code128 barcode java and generate barcode image java using Aspose.BarCode. Set precise size units for barcode images with simple, reusable code.
+description: "Learn how to use aspose barcode java to create a CODE_128 barcode, generate barcode image java, and set precise size units—perfect for barcode for inventory system or shipping label generation."
 weight: 15
 url: /java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
-date: 2025-12-08
+date: 2026-02-07
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create code128 barcode java and set size unit with Aspose.BarCode
+# aspose barcode java: Create CODE_128 barcode with size unit
 
 ## Introduction
 
-In this step‑by‑step guide you’ll **create code128 barcode java** code that generates a barcode image and lets you control the size unit of the output. Whether you’re building an inventory system, a shipping label generator, or any Java application that needs a reliable barcode, Aspose.BarCode for Java makes the process straightforward and highly customizable.
+In this step‑by‑step tutorial you’ll **use aspose barcode java** to create a CODE_128 barcode, generate a barcode image java, and precisely control the size unit of the output. Whether you’re building a barcode for inventory system, a shipping label generator, or any Java‑based application that needs reliable barcodes, Aspose.BarCode for Java gives you full flexibility with just a few lines of code.
 
 ## Quick Answers
-- **What library do I need?** Aspose.BarCode for Java.
-- **Which barcode type is covered?** CODE_128 (create code128 barcode java).
-- **How do I set the size unit?** Use the `BarHeight` property with `.setPoint()`.
-- **Can I generate barcode image java in other formats?** Yes – PNG, JPEG, BMP, etc.
+- **What library do I need?** Aspose.BarCode for Java (aspose barcode java).  
+- **Which barcode type is covered?** CODE_128 (create code128 barcode java).  
+- **How do I set the size unit?** Use the `BarHeight` property with `.setPoint()`.  
+- **Can I generate barcode image java in other formats?** Yes – PNG, JPEG, BMP, etc.  
 - **What are the prerequisites?** JDK installed, Aspose.BarCode library, and a Java IDE.
 
 ## What is **create code128 barcode java**?
 
-Creating a CODE_128 barcode in Java means instantiating the `BarcodeGenerator` class with the `EncodeTypes.CODE_128` enum and providing the data string you want to encode. This symbology is widely used in logistics because it supports the full ASCII character set and offers high data density.
+Creating a CODE_128 barcode in Java means instantiating the `BarcodeGenerator` class with the `EncodeTypes.CODE_128` enum and providing the data string you want to encode. This symbology is widely used in logistics because it supports the full ASCII character set and offers high data density—making it ideal for barcode for inventory system scenarios.
 
 ## Why use Aspose.BarCode to **generate barcode image java**?
 
-- **Full control over dimensions** – you can set bar height, module size, and image resolution.
-- **No external dependencies** – pure Java, works on any platform that supports the JDK.
-- **Rich customization** – colors, fonts, margins, and even QR codes are supported.
-- **High performance** – generates images in milliseconds, suitable for batch processing.
+- **Full control over dimensions** – you can set bar height, module size, and image resolution.  
+- **No external dependencies** – pure Java, works on any platform that supports the JDK.  
+- **Rich customization** – colors, fonts, margins, and even QR codes are supported.  
+- **High performance** – generates images in milliseconds, suitable for batch processing and generate shipping label barcode workflows.  
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ Below is the complete workflow. Each step is explained in plain language, and th
 String dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` with the absolute path where you want the barcode image saved.
+Replace `"Your Document Directory"` with the absolute path where you want the barcode image saved. This folder will hold the generated PNG/JPEG files that you can later embed in invoices, packing slips, or inventory reports.
 
 ### Step 2: Instantiate the Barcode Object
 
@@ -86,7 +86,7 @@ Here we **create code128 barcode java** by passing `EncodeTypes.CODE_128` and th
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-The `setPoint()` method defines the height in points (1 point = 1/72 inch). Adjust this value to meet your layout requirements.
+The `setPoint()` method defines the height in points (1 point = 1/72 inch). Adjust this value to meet your layout requirements—larger values produce taller bars, which is often needed for high‑resolution shipping labels.
 
 ### Step 4: Save the Image
 
@@ -95,7 +95,7 @@ The `setPoint()` method defines the height in points (1 point = 1/72 inch). Adju
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-The `save()` call writes the generated barcode to the folder you specified. The image format is inferred from the file extension (JPEG in this case).
+The `save()` call writes the generated barcode to the folder you specified. The image format is inferred from the file extension (JPEG in this case). You can switch to PNG, BMP, or TIFF simply by changing the extension.
 
 ## Common Issues and Solutions
 
@@ -122,9 +122,14 @@ A: The Aspose.BarCode community forum is the best place for help. Check the [for
 **Q: What are the supported barcode symbologies in Aspose.BarCode for Java?**  
 A: The library supports dozens of symbologies, including CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417, and many more.
 
+### Additional Tips (Pro tip)
+
+- **Batch processing:** Wrap the steps above in a loop to generate hundreds of barcodes for bulk inventory uploads.  
+- **Resolution control:** Use `bb.getParameters().getImage().setResolution(300)` to produce 300 dpi images, which are ideal for high‑quality print labels.  
+
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.BarCode for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 

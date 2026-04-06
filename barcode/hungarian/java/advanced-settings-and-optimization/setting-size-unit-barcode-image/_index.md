@@ -1,11 +1,11 @@
 ---
-date: 2025-12-08
-description: Tanulja meg, hogyan hozhat létre code128 vonalkódot Java-ban, és hogyan
-  generálhat vonalkód képet Java-val az Aspose.BarCode használatával. Állítson be
-  pontos méret egységeket a vonalkód képekhez egyszerű, újrahasználható kóddal.
+date: 2026-02-07
+description: Tanulja meg, hogyan használja az Aspose Barcode Java-t CODE_128 vonalkód
+  létrehozásához, vonalkódkép generálásához Java-ban, és hogyan állítson be pontos
+  méretegységeket – tökéletes a készletkezelő rendszer vagy a szállítási címke generálásához.
 linktitle: Setting Size Unit for Barcode Image
 second_title: Aspose.BarCode Java API
-title: Code128 vonalkód létrehozása Java-ban az Aspose.BarCode segítségével
+title: 'aspose barcode java: CODE_128 vonalkód létrehozása méret egységgel'
 url: /hu/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
@@ -14,41 +14,41 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Készítsen code128 vonalkódot Java-ban és állítsa be a méret egységét az Aspose.BarCode segítségével
+# aspose barcode java: CODE_128 vonalkód létrehozása méret egységgel
 
-## Bevezetés
+## Introduction
 
-Ebben a lépésről‑lépésre útmutatóban **create code128 barcode java** kódot hoz létre, amely vonalkód képet generál, és lehetővé teszi a kimenet méret egységének szabályozását. Akár egy készletkezelő rendszert, szállítási címke generátort vagy bármilyen Java alkalmazást épít, amely megbízható vonalkódot igényel, az Aspose.BarCode for Java egyszerűvé és nagymértékben testreszabhatóvá teszi a folyamatot.
+Ebben a lépésről‑lépésre útmutatóban **az aspose barcode java** segítségével hozhatsz létre egy CODE_128 vonalkódot, generálhatsz egy barcode image java‑t, és pontosan szabályozhatod a kimenet méret egységét. Akár egy készletkezelő rendszerhez, egy szállítási címke generátorhoz, vagy bármely Java‑alapú alkalmazáshoz készítesz megbízható vonalkódot, az Aspose.BarCode for Java néhány sor kóddal teljes rugalmasságot biztosít.
 
-## Gyors válaszok
-- **Milyen könyvtárra van szükségem?** Aspose.BarCode for Java.
-- **Melyik vonalkód típust fedi le?** CODE_128 (create code128 barcode java).
-- **Hogyan állítható be a méret egysége?** Használja a `BarHeight` tulajdonságot a `.setPoint()`‑tal.
-- **Generálhatok vonalkód képet Java‑ban más formátumokban?** Igen – PNG, JPEG, BMP, stb.
-- **Mik a előfeltételek?** Telepített JDK, Aspose.BarCode könyvtár és egy Java IDE.
+## Quick Answers
+- **Milyen könyvtárra van szükségem?** Aspose.BarCode for Java (aspose barcode java).  
+- **Melyik vonalkód típust fedik le?** CODE_128 (create code128 barcode java).  
+- **Hogyan állítható be a méret egység?** Használd a `BarHeight` tulajdonságot a `.setPoint()`-tal.  
+- **Generálhatok barcode image java-t más formátumokban?** Igen – PNG, JPEG, BMP, stb.  
+- **Mik a előfeltételek?** JDK telepítve, Aspose.BarCode könyvtár, és egy Java IDE.
 
-## Mi az **create code128 barcode java**?
+## What is **create code128 barcode java**?
 
-A CODE_128 vonalkód létrehozása Java‑ban azt jelenti, hogy példányosítja a `BarcodeGenerator` osztályt az `EncodeTypes.CODE_128` enumerációval, és megadja a kódolni kívánt adatkarakterláncot. Ez a szimbólum a logisztikában széles körben használt, mivel támogatja a teljes ASCII karakterkészletet és magas adat sűrűséget biztosít.
+A CODE_128 vonalkód létrehozása Java-ban azt jelenti, hogy példányosítod a `BarcodeGenerator` osztályt a `EncodeTypes.CODE_128` enumerációval, és megadod a kódolni kívánt adatkarakterláncot. Ez a szimbólum széles körben használatos a logisztikában, mivel támogatja a teljes ASCII karakterkészletet és magas adat sűrűséget biztosít – így ideális a készletkezelő rendszerekhez való vonalkódokhoz.
 
-## Miért használja az Aspose.BarCode‑ot a **generate barcode image java**‑hez?
+## Why use Aspose.BarCode to **generate barcode image java**?
 
-- **Teljes irányítás a méretek felett** – beállíthatja a vonal magasságát, a modul méretét és a kép felbontását.
-- **Nincs külső függőség** – tiszta Java, bármely JDK‑t támogató platformon működik.
-- **Gazdag testreszabás** – színek, betűtípusok, margók, és még a QR kódok is támogatottak.
-- **Magas teljesítmény** – képeket ezredmásodperc alatt generál, alkalmas kötegelt feldolgozásra.
+- **Teljes irányítás a méretek felett** – beállíthatod a sávmagasságot, a modulméretet és a kép felbontását.  
+- **Nincsenek külső függőségek** – tiszta Java, bármely JDK‑t támogató platformon működik.  
+- **Gazdag testreszabás** – színek, betűtípusok, margók, sőt QR-kódok is támogatottak.  
+- **Magas teljesítmény** – képeket generál ezredmásodperc alatt, alkalmas kötegelt feldolgozásra és szállítási címke vonalkód munkafolyamatok generálására.  
 
-## Előfeltételek
+## Prerequisites
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
+Mielőtt elkezdenénk, győződj meg róla, hogy rendelkezel:
 
-1. **Java Development Kit (JDK)** – 8‑as vagy újabb verzió telepítve a gépén.  
-2. **Aspose.BarCode for Java könyvtár** – töltse le a legújabb JAR‑t az Aspose weboldaláról (próba vagy licenc).  
+1. **Java Development Kit (JDK)** – 8 vagy újabb verzió telepítve a gépeden.  
+2. **Aspose.BarCode for Java könyvtár** – töltsd le a legújabb JAR‑t az Aspose weboldaláról (próba vagy licencelt).  
 3. **Java IDE** – például IntelliJ IDEA, Eclipse vagy VS Code Java kiegészítőkkel.  
 
-## Importálja a névtereket
+## Import Namespaces
 
-Adja hozzá a szükséges importokat a Java osztálya tetejéhez, hogy elérhesse az Aspose.BarCode API‑t:
+Add the required imports at the top of your Java class so you can access Aspose.BarCode’s API:
 
 ```java
 import java.io.IOException;
@@ -58,20 +58,22 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Hogyan **generate barcode image java** az Aspose.BarCode segítségével?
+## How to **generate barcode image java** with Aspose.BarCode?
 
-Az alábbiakban a teljes munkafolyamat látható. Minden lépést egyszerű nyelven magyarázunk, a kódrészletek pedig változatlanul maradnak.
+Az alábbiakban a teljes munkafolyamat látható. Minden lépést egyszerű nyelven magyarázunk, és az eredeti kódrészletek változatlanul maradnak.
 
-### 1. lépés: A forráskönyvtár meghatározása
+### Step 1: Define the Resource Directory
+
+Cseréld le a `"Your Document Directory"`-t arra a abszolút útvonalra, ahová a vonalkód képet menteni szeretnéd. Ez a mappa tartalmazni fogja a generált PNG/JPEG fájlokat, amelyeket később beágyazhatsz számlákba, csomagjegyzékekbe vagy készletjelentésekbe.
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Cserélje le a `"Your Document Directory"`‑t a teljes elérési útra, ahová a vonalkód képet menteni szeretné.
+### Step 2: Instantiate the Barcode Object
 
-### 2. lépés: A Barcode objektum példányosítása
+Itt **create code128 barcode java**-t hozunk létre az `EncodeTypes.CODE_128` és a `"1234567"` adatkarakterlánc átadásával.
 
 ```java
 // Instantiate barcode object, Set the symbology type to code128 and Set the
@@ -79,56 +81,59 @@ Cserélje le a `"Your Document Directory"`‑t a teljes elérési útra, ahová 
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-Itt **create code128 barcode java**‑t hozunk létre az `EncodeTypes.CODE_128` és a `"1234567"` adatstring átadásával.
+### Step 3: Set Bar Height (Size Unit)
 
-### 3. lépés: A vonal magasság beállítása (méret egység)
+A `setPoint()` metódus pontban definiálja a magasságot (1 pont = 1/72 hüvelyk). Állítsd be ezt az értéket a layout igényeidnek megfelelően – a nagyobb értékek magasabb sávokat eredményeznek, ami gyakran szükséges a nagy felbontású szállítási címkéknél.
 
 ```java
 // Set the bar height to 3 points
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-A `setPoint()` metódus a magasságot pontokban definiálja (1 pont = 1/72 hüvelyk). Állítsa be ezt az értéket a layout igényei szerint.
+### Step 4: Save the Image
 
-### 4. lépés: A kép mentése
+A `save()` hívás a generált vonalkódot a megadott mappába írja. A képformátum a fájlkiterjesztésből (ebben az esetben JPEG) kerül meghatározásra. PNG‑re, BMP‑re vagy TIFF‑re egyszerűen a kiterjesztés megváltoztatásával válthatsz.
 
 ```java
 // Save the image
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-A `save()` hívás a generált vonalkódot a megadott mappába írja. A kép formátuma a fájl kiterjesztéséből derül ki (ebben az esetben JPEG).
-
-## Gyakori problémák és megoldások
+## Common Issues and Solutions
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| **Kép nem jött létre** | `dataDir` útvonal helytelen vagy hiányzik az írási jogosultság. | Ellenőrizze, hogy a mappa létezik, és az alkalmazásnak van írási joga. |
-| **A vonalkód túl kicsi** | A pontokban beállított vonalmagasság túl alacsony a választott DPI‑hez. | Növelje a `setPoint()`‑nak átadott értéket, vagy állítsa be a kép DPI‑jét a `bb.getParameters().getImage().setResolution()` segítségével. |
-| **Nem támogatott karakterek** | A CODE_128 csak ASCII‑t támogat; Ön Unicode‑t adott meg. | Használjon másik szimbólumot (pl. QR_CODE) a nem ASCII adatokhoz. |
+| **Kép nem jött létre** | `dataDir` útvonal helytelen vagy hiányzik az írási jogosultság. | Ellenőrizd, hogy a mappa létezik, és az alkalmazásnak van írási joga. |
+| **A vonalkód túl kicsi** | A pontban beállított sávmagasság túl alacsony a kiválasztott DPI-hez. | Növeld a `setPoint()`-nak átadott értéket, vagy állítsd be a kép DPI‑t a `bb.getParameters().getImage().setResolution()`‑vel. |
+| **Nem támogatott karakterek** | A CODE_128 csak ASCII‑t támogat; Unicode‑t adtál meg. | Használj másik szimbólumot (pl. QR_CODE) a nem ASCII adatokhoz. |
 
-## Gyakran ismételt kérdések
+## Frequently Asked Questions
 
-**Q: Az Aspose.BarCode for Java alkalmas-e egyaránt vonalkód generálásra és felismerésre?**  
+**Q: Az Aspose.BarCode for Java alkalmas mind vonalkód generálásra, mind felismerésre?**  
 A: Igen, a könyvtár támogatja a generálást és a felismerést is számos szimbólum esetén.
 
 **Q: Testreszabhatom a generált vonalkód képek megjelenését?**  
-A: Teljes mértékben. Színeket, feliratokat, margókat módosíthat, sőt logókat is beágyazhat a kiterjedt `Parameters` API segítségével.
+A: Természetesen. Színeket változtathatsz, feliratokat adhatsz hozzá, módosíthatod a margókat, sőt logókat is beágyazhatsz a kiterjedt `Parameters` API‑val.
 
-**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for Java‑hoz?**  
-A: Látogasson el [ide](https://purchase.aspose.com/temporary-license/), hogy ideiglenes licencet kérjen értékeléshez.
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for Java-hoz?**  
+A: Látogasd meg a [linket](https://purchase.aspose.com/temporary-license/), hogy ideiglenes licencet kérj értékeléshez.
 
-**Q: Hol találok támogatást az Aspose.BarCode for Java‑hoz?**  
-A: Az Aspose.BarCode közösségi fórum a legjobb hely a segítségkéréshez. Tekintse meg a [fórumot](https://forum.aspose.com/c/barcode/13) a válaszokért és új kérdések feltevéséhez.
+**Q: Hol találok támogatást az Aspose.BarCode for Java-hoz?**  
+A: Az Aspose.BarCode közösségi fórum a legjobb hely a segítséghez. Nézd meg a [fórumot](https://forum.aspose.com/c/barcode/13) a válaszokért és új kérdések feltevéséhez.
 
-**Q: Mely vonalkód szimbólumok támogatottak az Aspose.BarCode for Java‑ban?**  
-A: A könyvtár tucatokat támogat, többek között CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 és még sok más.
+**Q: Mely vonalkód szimbólumok támogatottak az Aspose.BarCode for Java-ban?**  
+A: A könyvtár több tucat szimbólumot támogat, köztük CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 és még sok más.
+
+### Additional Tips (Pro tip)
+
+- **Kötegelt feldolgozás:** Csomagold be a fenti lépéseket egy ciklusba, hogy több száz vonalkódot generálj tömeges készletfeltöltéshez.  
+- **Felbontás szabályozás:** Használd a `bb.getParameters().getImage().setResolution(300)`-at 300 dpi képek előállításához, amelyek ideálisak a magas minőségű nyomtatott címkékhez.  
 
 ---
 
-**Utolsó frissítés:** 2025-12-08  
-**Tesztelve:** Aspose.BarCode for Java 24.12 (a cikk írásakor elérhető legújabb)  
-**Szerző:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.BarCode for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

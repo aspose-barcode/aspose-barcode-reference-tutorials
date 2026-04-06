@@ -1,11 +1,11 @@
 ---
-date: 2025-12-08
-description: Naučte se, jak vytvářet PDF dokumenty v Javě a přidávat čárové kódy pomocí
-  Aspose.BarCode. Podrobný návod krok za krokem pro generování a vkládání čárových
-  kódů do PDF.
+date: 2026-02-07
+description: Použijte knihovnu Java barcode k přidání čárového kódu do PDF dokumentů
+  pomocí Aspose.BarCode. Podrobný návod krok za krokem pro generování čárových kódů
+  a jejich vložení do PDF souborů.
 linktitle: Adding Barcode to PDF Document
 second_title: Aspose.BarCode Java API
-title: Jak vytvořit PDF dokument v Javě s čárovým kódem pomocí Aspose.BarCode
+title: java knihovna čárových kódů – Přidat čárový kód do PDF pomocí Aspose
 url: /cs/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
@@ -18,26 +18,37 @@ weight: 10
 
 ## Úvod
 
-Vytváření PDF Java dokumentů, které obsahují strojově čitelné čárové kódy, je běžnou požadavkem pro inventární systémy, přepravní štítky a zabezpečené pracovní postupy s dokumenty. V tomto tutoriálu se naučíte **jak vytvořit PDF Java dokumenty** a vložit čárový kód přímo do souboru pomocí **Aspose.BarCode for Java**. Provedeme vás každým krokem – od generování obrázku čárového kódu po jeho vložení do existujícího PDF – abyste mohli během několika minut přidat funkci čárových kódů do svých Java aplikací.
+Pokud hledáte **java barcode library**, která dokáže bez problémů generovat čárové kódy a vložit je do PDF souborů, jste na správném místě. V tomto tutoriálu vás provedeme, jak **create PDF Java documents** a **add barcode** obrázky pomocí **Aspose.BarCode for Java**. Ať už potřebujete generovat přepravní štítky, inventární značky nebo zabezpečené faktury, tento průvodce vám ukáže, jak přesně přidat čárový kód do nového nebo existujícího PDF během několika minut.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je potřeba?** Aspose.BarCode for Java (plus Aspose.PDF pro práci s PDF).  
+- **Jakou knihovnu potřebuji?** Aspose.BarCode for Java (plus Aspose.PDF for PDF handling).  
 - **Mohu generovat jakýkoli typ čárového kódu?** Ano – Aspose.BarCode podporuje více než 50 symbologií, včetně Code 39, QR, DataMatrix a dalších.  
-- **Potřebuji licenci pro vývoj?** Dočasná licence stačí pro hodnocení; plná licence je vyžadována pro produkční nasazení.  
-- **Je kód kompatibilní s Java 8+?** Rozhodně – API cílí na Java 8 a novější verze.  
+- **Potřebuji licenci pro vývoj?** Dočasná licence funguje pro hodnocení; plná licence je vyžadována pro produkci.  
+- **Je kód kompatibilní s Java 8+?** Rozhodně – API cílí na Java 8 a novější.  
 - **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní scénář „přidat čárový kód do PDF“.
 
-## Požadavky
+## Co je java barcode library?
 
-Před začátkem se ujistěte, že máte následující:
+Aspose.BarCode for Java je výkonná **java barcode library**, která vám umožní programově generovat širokou škálu 1‑D a 2‑D čárových kódů. Úzce se integruje s Aspose.PDF, což usnadňuje umístění obrázků čárových kódů na stránky PDF, aniž byste museli řešit nízkoúrovňový grafický kód.
+
+## Proč použít tento přístup?
+
+- **Plná kontrola** nad symbologií čárového kódu, velikostí a vzhledem.  
+- **Žádné externí závislosti** – vše běží uvnitř vašeho Java procesu.  
+- **Podporuje existující PDF**, takže můžete doplnit starší dokumenty o čárové kódy.  
+- **Cross‑platform** – funguje na Windows, Linuxu i macOS.
+
+## Předpoklady
+
+Předtím, než začneme, ujistěte se, že máte následující:
 
 - **Java Development Kit (JDK)** – nainstalovaná nejnovější stabilní verze.  
 - **Aspose.BarCode for Java** – stáhněte z [download page](https://releases.aspose.com/barcode/java/).  
-- **Aspose.PDF for Java** – potřebný pro manipulaci s PDF soubory (součástí balíčku BarCode).  
+- **Aspose.PDF for Java** – potřebný pro manipulaci s PDF soubory (je součástí balíčku BarCode).  
 
-## Importovat jmenné prostory
+## Import Namespaces
 
-Nejprve importujte třídy, které budete potřebovat. Tento krok připraví prostředí jak pro generování čárových kódů, tak pro práci s PDF.
+Nejprve importujte třídy, které budete potřebovat. Tento krok nastaví prostředí pro generování čárových kódů i manipulaci s PDF.
 
 ```java
 // Import Aspose.BarCode namespaces
@@ -56,33 +67,33 @@ import com.aspose.barcode.EncodeTypes;
 
 ## Krok 1: Nastavte svůj Java projekt
 
-Vytvořte nový Java projekt ve svém oblíbeném IDE (IntelliJ IDEA, Eclipse, NetBeans atd.). Přidejte stažený **Aspose.BarCode.jar** (a jeho závislosti) do cesty sestavení projektu. Tím zajistíte, že kompilátor najde výše uvedené třídy.
+Vytvořte nový Java projekt ve svém preferovaném IDE (IntelliJ IDEA, Eclipse, NetBeans atd.). Přidejte stažený **Aspose.BarCode.jar** (a jeho závislosti) do cesty sestavení vašeho projektu. Tím zajistíte, že kompilátor dokáže najít výše zmíněné třídy.
 
-## Krok 2: Vygenerujte obrázek čárového kódu – *jak přidat čárový kód*
+## Krok 2: Vygenerujte obrázek čárového kódu – *how to add barcode*
 
-Vytvořte instanci `BarcodeGenerator`, vyberte symbologii a nastavte text kódu. Zde **nastavíte symbologii čárového kódu** a **vygenerujete Java objekty čárového kódu**.
+Vytvořte instanci `BarcodeGenerator`, vyberte symbologii a nastavte text kódu. Zde **set barcode symbology** a **generate barcode Java** objekty.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, "1234567");
 generator.save(dataDir + "barcodeToPDF.bmp", BarCodeImageFormat.BMP);
 ```
 
-> **Pro tip:** Nahraďte `EncodeTypes.CODE_39_STANDARD` libovolnou jinou hodnotou `EncodeTypes` (např. `QR`, `DATA_MATRIX`) pro generování různých formátů čárových kódů.
+> **Tip:** Nahraďte `EncodeTypes.CODE_39_STANDARD` libovolnou jinou hodnotou `EncodeTypes` (např. `QR`, `DATA_MATRIX`), abyste vygenerovali různé formáty čárových kódů.
 
-## Krok 3: Vytvořte PDF dokument – *přidat obrázek pdf java*
+## Krok 3: Vytvořte PDF dokument – *add image pdf java*
 
-Nyní **vytvoříme PDF dokument**, který bude hostit obrázek čárového kódu. Aspose.PDF to umožňuje velmi jednoduše.
+Nyní **create a PDF document**, který bude hostovat obrázek čárového kódu. Aspose.PDF to usnadňuje.
 
 ```java
 Document doc = new Document();
 doc.getPages().add();
 ```
 
-V tomto okamžiku máte prázdný PDF připravený přijmout obsah.
+V tomto okamžiku máte prázdný PDF připravený k přijímání obsahu.
 
-## Krok 4: Přidejte obrázek čárového kódu do PDF dokumentu – *přidat čárový kód do existujícího pdf*
+## Krok 4: Přidejte obrázek čárového kódu do PDF dokumentu – *add barcode existing pdf*
 
-Pokud potřebujete vložit čárový kód do **existujícího PDF**, můžete soubor otevřít pomocí `PdfFileMend`. Následující kód sváže PDF, vloží obrázek čárového kódu a uloží výsledek.
+Pokud potřebujete vložit čárový kód do **existing PDF**, můžete soubor otevřít pomocí `PdfFileMend`. Následující kód připojí PDF, vloží obrázek čárového kódu a uloží výsledek.
 
 ```java
 PdfFileMend mender = new PdfFileMend();
@@ -93,40 +104,40 @@ mender.close();
 ```
 
 - `in` je `InputStream`, který ukazuje na obrázek čárového kódu vygenerovaný dříve.  
-- Číselné parametry (`1, 100, 600, 200, 700`) určují číslo stránky a umístění (souřadnice X, Y, šířka, výška). Upravit je podle potřeby, aby odpovídaly vašemu rozvržení.
+- Číselné parametry (`1, 100, 600, 200, 700`) definují číslo stránky a umístění (souřadnice X, Y, šířka, výška). Přizpůsobte je podle svého rozvržení.
 
 ## Časté problémy a řešení
 
-| Problém | Proč se to stane | Řešení |
-|---------|------------------|--------|
-| **Obrázek se nezobrazuje** | Špatné souřadnice nebo index stránky. | Ověřte číslo stránky (`1` pro první stránku) a ujistěte se, že stream obrázku není uzavřen před voláním `addImage`. |
-| **Není podporován typ čárového kódu** | Použití symbologie, která není zahrnuta v licenci. | Zkontrolujte soubor licence; v případě potřeby proveďte upgrade. |
+| Problém | Proč se stane | Řešení |
+|-------|----------------|-----|
+| **Image not showing** | Špatné souřadnice nebo index stránky. | Ověřte číslo stránky (`1` pro první stránku) a ujistěte se, že stream obrázku není uzavřen před `addImage`. |
+| **Unsupported barcode type** | Použití symbologie, která není zahrnuta v licenci. | Zkontrolujte svůj licenční soubor; v případě potřeby upgradujte. |
 | **FileNotFoundException** | Cesta `dataDir` je nesprávná. | Použijte absolutní cestu nebo `System.getProperty("user.dir")` pro dynamické vytvoření adresáře. |
 
 ## Často kladené otázky
 
 **Q: Mohu přizpůsobit vzhled čárového kódu v PDF dokumentu?**  
-A: Ano. Aspose.BarCode vám umožní měnit barvy, písma, okraje a dokonce přidat lidsky čitelný text. Upravit můžete vlastnosti `BarcodeGenerator` před uložením.
+A: Ano. Aspose.BarCode vám umožní měnit barvy, písma, okraje a dokonce přidat lidsky čitelný text. Upravit vlastnosti `BarcodeGenerator` před uložením.
 
 **Q: Je Aspose.BarCode kompatibilní s různými symbologiemi čárových kódů?**  
-A: Rozhodně. Podporováno je více než 50 symbologií, včetně Code 128, QR, DataMatrix, PDF417 a dalších.
+A: Rozhodně. Podporuje se více než 50 symbologií, včetně Code 128, QR, DataMatrix, PDF417 a dalších.
 
 **Q: Jak mohu získat dočasnou licenci pro Aspose.BarCode?**  
 A: Navštivte [temporary license page](https://purchase.aspose.com/temporary-license/) na webu Aspose a požádejte o 30‑denní evaluační licenci.
 
-**Q: Kde mohu získat pomoc a podporu pro dotazy související s Aspose.BarCode?**  
+**Q: Kde mohu získat pomoc a podporu pro dotazy týkající se Aspose.BarCode?**  
 A: Fórum [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) je aktivní komunita, kde můžete klást otázky a sdílet řešení.
 
-**Q: Mohu si vyzkoušet Aspose.BarCode pro Java zdarma před zakoupením?**  
+**Q: Můžu si Aspose.BarCode pro Java vyzkoušet zdarma před zakoupením?**  
 A: Ano, můžete si stáhnout bezplatnou zkušební verzi z [release page](https://releases.aspose.com/) a vyzkoušet všechny funkce bez licence.
 
 ## Závěr
 
-Nyní víte **jak vytvořit PDF Java dokumenty** a vložit do nich čárové kódy pomocí Aspose.BarCode. Tato schopnost zjednodušuje pracovní postupy, jako je generování přepravních štítků, tvorba zabezpečených faktur nebo budování systémů sledování zásob. Experimentujte s různými symbologiemi, upravujte umístění obrázku a integrujte kód do větších Java služeb, abyste plně využili technologii čárových kódů.
+Nyní víte **how to create PDF Java documents** a jak vložit čárové kódy pomocí Aspose.BarCode. Tato schopnost zjednodušuje pracovní postupy, jako je generování přepravních štítků, tvorba zabezpečených faktur nebo budování systémů sledování zásob. Experimentujte s různými symbologiemi, upravujte umístění obrázku a integrujte kód do větších Java služeb, abyste plně využili technologii čárových kódů.
 
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.BarCode 24.11 for Java, Aspose.PDF 24.11 for Java  
 **Author:** Aspose  
 
