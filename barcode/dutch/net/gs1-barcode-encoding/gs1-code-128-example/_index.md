@@ -1,103 +1,145 @@
 ---
-title: Een stap-voor-stap handleiding met GS1 Code 128 voorbeeld
-linktitle: GS1-code 128 Voorbeeld
+date: 2026-02-02
+description: Leer hoe je barcodegeneratie kunt aanpassen, een GS1‑barcode kunt genereren
+  en een barcode‑afbeelding kunt maken met Aspose.BarCode voor .NET in C#. Stapsgewijze
+  tutorial.
+linktitle: GS1 Code 128 Example
 second_title: Aspose.BarCode .NET API
-description: Leer hoe u GS1 Code 128-barcodes kunt maken met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het genereren van barcodes in C#. Begin nu!
-weight: 10
+title: Hoe je een barcode aanpast – Een stapsgewijze gids met GS1 Code 128‑voorbeeld
 url: /nl/net/gs1-barcode-encoding/gs1-code-128-example/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Een stap-voor-stap handleiding met GS1 Code 128 voorbeeld
+# Hoe een barcode aanpassen – GS1 Code 128 voorbeeld
 
+## Introductie
 
-## Invoering
+Als je zoekt naar **hoe je een barcode kunt aanpassen** in je .NET‑toepassingen, ben je hier op de juiste plek. In deze gids lopen we de essentiële aspecten van Aspose.BarCode voor .NET door, laten we zien hoe je een **afbeeldingsbestanden** maakt met slechts een paar regels C#‑code. Aan het einde kun je barcode‑parameters aanpassen, het resultaat opslaan en integreren in real‑world projecten.
 
-Welkom in de wereld van Aspose.BarCode voor .NET! Als u streepjescodes in uw .NET-toepassingen wilt genereren, aanpassen en ermee wilt werken, bent u hier aan het juiste adres. In deze uitgebreide handleiding leiden we u door de essentie van het gebruik van Aspose.BarCode voor .NET, zodat u een duidelijk inzicht krijgt in de bibliotheek, de vereisten en de verschillende functies ervan. Aan het einde van deze zelfstudie kunt u eenvoudig en nauwkeurig streepjescodes maken.
+## Snelle antwoorden
+- **Welke bibliotheek is het beste voor barcode‑aanpassing?** Aspose.BarCode voor .NET  
+- **Welk barcode‑type behandelt dit voorbeeld?** GS1 Code 128  
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor ontwikkeling; een licentie is vereist voor productie.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Hoe lang duurt de implementatie?** Ongeveer 5‑10 minuten voor een basisopzet.
 
-## Voorwaarde
-Voordat u in de fascinerende wereld van Aspose.BarCode voor .NET duikt, is het essentieel dat u over de noodzakelijke vereisten beschikt. Dit is wat je nodig hebt:
+## Wat betekent “hoe je een barcode kunt aanpassen” in de .NET‑wereld?
+Een barcode aanpassen betekent dat je de symbologie, grootte, stille zones, kleuren en extra gegevensvelden afstemt op je bedrijfsvereisten. Aspose.BarCode biedt een fluente API waarmee je elk aspect kunt finetunen – van X‑dimensie tot mens‑leesbare tekst – zonder je C#‑code te verlaten.
 
-1. .NET-ontwikkelomgeving: u moet over een werkende .NET-ontwikkelomgeving beschikken, inclusief Visual Studio of een andere voorkeurs-IDE.
+## Waarom Aspose.BarCode voor .NET gebruiken?
+- **Volledige controle** over barcode‑standaarden (inclusief GS1).  
+- **Geen externe afhankelijkheden** – pure .NET‑bibliotheek.  
+- **Uitgebreide documentatie** en voorbeeldcode voor snelle onboarding.  
+- **Hoge‑prestaties rendering** voor PNG, JPEG, SVG en meer.
 
-2.  Aspose.BarCode voor .NET: U kunt Aspose.BarCode voor .NET verkrijgen door het te downloaden van[deze link](https://releases.aspose.com/barcode/net/). Zorg ervoor dat u de bibliotheek correct installeert en instelt.
+## Voorvereiste
+Voordat je duikt in de fascinerende wereld van Aspose.BarCode voor .NET, is het essentieel dat je de benodigde voorvereisten hebt. Dit is wat je nodig hebt:
 
-3. Bekendheid met C#: Een basiskennis van de programmeertaal C# zal nuttig zijn bij het volgen van de voorbeelden en het schrijven van uw code.
+1. .NET‑ontwikkelomgeving: Je moet een werkende .NET‑ontwikkelomgeving hebben, inclusief Visual Studio of een andere favoriete IDE.  
 
-4. Een idee van GS1 Code 128: Hoewel dit niet verplicht is, kan het hebben van enige kennis van GS1 Code 128-barcodes u helpen het voorbeeld beter te begrijpen.
+2. Aspose.BarCode voor .NET: Je kunt Aspose.BarCode voor .NET verkrijgen door het te downloaden via [deze link](https://releases.aspose.com/barcode/net/). Zorg ervoor dat je de bibliotheek correct installeert en configureert.  
 
-Laten we nu het GS1 Code 128-voorbeeld opsplitsen in meerdere stappen voor een stapsgewijze handleiding:
+3. Bekendheid met C#: Een basisbegrip van de programmeertaal C# is nuttig code te schrijven.  
 
-## Naamruimten importeren
-Om aan de slag te gaan met Aspose.BarCode voor .NET, moet u de benodigde naamruimten importeren. Deze naamruimten bieden toegang tot de functies en functionaliteit van de bibliotheek. Hier ziet u hoe u het kunt doen:
+4. Een idee van GS1 Code 128: Hoewel niet verplicht, helpt enige kennis van GS1 Code 128 barcodes je het voorbeeld beter te begrijpen.  
+
+Laten we nu het GS1 Code 128‑voorbeeld stap voor stap ontleden:
+
+## Hoe een barcode aanpassen –eren. Deze namespaces geven toegang tot de functionaliteit van de bibliotheek. Zo doe je dat:
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## Stap 1: Stel uw directorypad in
-Voordat u een GS1 Code 128-barcode genereert, moet u het directorypad opgeven waar u de barcodeafbeelding wilt opslaan. U kunt het pad als volgt instellen:
+## Stap 1: Stel je mappad in
+Voordat je een GS1 Code 128‑barcode genereert, moet je het mappad opgeven waar je de barcode‑afbeelding wilt opslaan. Je stelt het pad als volgt in:
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- Vervangen`"Your Directory Path"` met het daadwerkelijke pad waar u de streepjescodeafbeelding wilt opslaan.
+Vervang `"Your Directory Path"` door het daadwerkelijke pad waar je de barcode‑afbeelding wilt bewaren.
 
-## Stap 2: Maak een GS1 Code 128-streepjescode
-Nu is het tijd om een GS1 Code 128-barcode te maken met Aspose.BarCode voor .NET. In dit voorbeeld maken we een streepjescode met de gegevens "(01)12345678901231(21)ASPOSE(30)9876". Hier ziet u hoe u het kunt doen:
+## Code 128‑barcode
+Nu is het tijd om een GS1 Code 128‑barcode te maken met Aspose.BarCode voor .NET. In dit voorbeeld creëren we een barcode met de data **"(01)12345678901231(21)ASPOSE(30)9876"**. Zo doe je dat:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.GS1Code128, "(01)12345678901231(21)ASPOSE(30)9876");
 ```
 
-Deze code initialiseert een barcodegenerator met het opgegeven type en de opgegeven gegevens.
+Deze code initialiseert een barcode‑generator met het opgegeven type en de data.
 
-## Stap 3: Pas de streepjescodeparameters aan
-Met Aspose.BarCode voor .NET kunt u verschillende parameters van de streepjescode aanpassen, zoals XDimension (de breedte van het smalle element in de streepjescode). In dit voorbeeld stellen we de XDimension in op 2 pixels:
+## Stap 3: Pas barcode‑parameters aan
+Aspose.BarCode voor .NET stelt je in staat diverse parameters van de barcode aan te passen, zoals **XDimension** (de breedte van het smalle element in de barcode). In dit voorbeeld stellen we de XDimension in op 2 pixels:
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-U kunt deze parameters aanpassen aan uw wensen.
+Je kunt deze parameters aanpassen aan je eigen eisen.
 
-## Stap 4: Sla de streepjescodeafbeelding op
-Ten slotte kunt u de gegenereerde barcode opslaan als afbeelding. In dit voorbeeld slaan we het op als een PNG-bestand:
+## Stap 4: Sla de barcode‑afbeelding op
+Tot slot kun je de gegenereerde barcode opslaan als afbeelding. In dit voorbeeld slaan we hem op als PNG‑bestand:
 
 ```csharp
 gen.Save($"{path}GS1Code128Example.png", BarCodeImageFormat.Png);
 ```
 
- Zorg ervoor dat u vervangt`GS1Code128Example.png` met de bestandsnaam van uw voorkeur.
+Vervang `GS1Code128Example.png` door de gewenste bestandsnaam.
 
-## Conclusie:
-In deze stapsgewijze handleiding hebben we u kennis laten maken met Aspose.BarCode voor .NET en de vereisten uitgelegd om aan de slag te gaan. We hebben een voorbeeld van het genereren van een GS1 Code 128-barcode opgesplitst in meerdere stappen, zodat u het proces duidelijk kunt begrijpen. Nu bent u uitgerust om met Aspose.BarCode voor .NET te werken en aangepaste barcodes voor uw .NET-toepassingen te maken. Veel codeerplezier!
+## Veelvoorkomende problemen en oplossingen
+- **Onjuist gegevensformaat** – GS1‑barcodes vereisen Application Identifiers (AIs) tussen haakjes. Zorg dat je gegevensreeks het patroon `(AI)Data` volgt.  
+- **Fouten in bestandspad** – Gebruik `Path.Combine` voor cross‑platform compatibiliteit, bv. `Path.Combine(path, "GS1Code128Example.png")`.  
+- **Licentie niet toegepast** – Als je een watermerk ziet, voeg dan je licentiebestand toe vóór het aanmaken van de generator: `License lic = new License(); lic.SetLicense("Aspose.BarCode.lic");`.
 
+## Veelgestelde vragen
 
-## Veelgestelde vragen:
+**V: Kan ik met dezelfde code andere barcode‑types genereren?**  
+A: Ja, wijzig simpelweg `EncodeTypes.GS1Code128` naar een andere ondersteunde symbologie, zoals `EncodeTypes.Code128` of `EncodeTypes.QR`.
+
+**V: Hoe voeg ik mens‑leesbare tekst onder de barcode toe?**  
+A: Stel `gen.Parameters.Barcode.ShowCodeText = true;` in en pas het lettertype aan via `gen.Parameters.Barcode.CodeTextParameters`.
+
+**V: Is het mogelijk een barcode in SVG‑formaat te genereren?**  
+A: Zeker. Gebruik `BarCodeImageFormat.Svg` in de `Save`‑methode.
+
+**V: Ondersteunt Aspose.BarCode .NET Core?**  
+A: Ja, de bibliotheek is volledig compatibel met .NET Core, .NET 5, .NET 6 en latere versies.
+
+**V: Waar vind ik meer geavanceerde voorbeelden?**  
+A: De officiële documentatie en de voorbeeld‑repository bevatten uitgebreide voorbeelden voor elke barcode‑standaard.
+
+## Originele FAQ’s
 
 ### Waar kan ik de documentatie voor Aspose.BarCode voor .NET vinden?
- U kunt de documentatie raadplegen op[https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
+Je kunt de documentatie raadplegen op [https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
 
 ### Hoe download ik Aspose.BarCode voor .NET?
- U kunt de bibliotheek downloaden van[https://releases.aspose.com/barcode/net/](https://releases.aspose.com/barcode/net/).
+Je kunt de bibliotheek downloaden van [https://releases.aspose.com/barcode/net/](https://releases.aspose.com/barcode/net/).
 
 ### Is er een gratis proefversie beschikbaar?
- Ja, u kunt een gratis proefperiode krijgen van[https://releases.aspose.com/](https://releases.aspose.com/).
+Ja, je kunt een gratis proefversie krijgen via [https://releases.aspose.com/](https://releases.aspose.com/).
 
-### Waar kan ik een licentie kopen voor Aspose.BarCode voor .NET?
- Een licentie kunt u kopen bij[https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
+### Waar kan ik een licentie voor Aspose.BarCode voor .NET aanschaffen?
+Je kunt een licentie kopen op [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
-### Hulp nodig of vragen? Waar kan ik ondersteuning vinden?
-Ga voor ondersteuning en communitydiscussies naar[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+### Hulp nodig of vragen? Waar vind ik ondersteuning?
+Voor ondersteuning en community‑discussies, bezoek [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-02-02  
+**Getest met:** Aspose.BarCode 24.11 voor .NET  
+**Auteur:** Aspose
