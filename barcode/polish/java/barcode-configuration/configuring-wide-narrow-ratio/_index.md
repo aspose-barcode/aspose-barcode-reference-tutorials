@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Naucz się generować kod kreskowy z niestandardowym stosunkiem szerokość‑wąskość
-  w Javie przy użyciu Aspose.BarCode i efektywnie tworzyć obraz kodu kreskowego. Postępuj
-  zgodnie z naszym przewodnikiem krok po kroku.
+date: 2026-02-12
+description: Dowiedz się, jak tworzyć kod kreskowy code128 z niestandardowym stosunkiem
+  szeroko‑wąski w Javie przy użyciu Aspose.BarCode i efektywnie generować obrazy PNG
+  kodów kreskowych. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
 linktitle: Configuring Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
-title: Jak wygenerować kod kreskowy ze stosunkiem szerokich i wąskich pasków w Javie
+title: Jak utworzyć kod kreskowy CODE_128 z proporcją szerokość‑wąskość w Javie
 url: /pl/java/barcode-configuration/configuring-wide-narrow-ratio/
 weight: 17
 ---
@@ -14,25 +14,25 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak wygenerować kod kreskowy z proporcją szerokich‑wąskich pasków w Javie
+# Jak utworzyć kod kreskowy CODE_128 z proporcją szerokie‑wąskie w Javie
 
-## Wprowadzenie
+## Wstęp
 
-Jeśli potrzebujesz **how to generate barcode** z precyzyjnymi proporcjami wizualnymi, kluczem jest dostosowanie proporcji szerokich‑wąskich pasków. W tym samouczku przeprowadzimy Cię przez proces tworzenia **step by step barcode** przy użyciu Aspose.BarCode for Java, pokazując, jak skonfigurować proporcję, wygenerować obraz kodu kreskowego oraz **save barcode png** na dysku. Niezależnie od tego, czy tworzysz etykiety inwentaryzacyjne, tagi wysyłkowe, czy jakąkolwiek aplikację wymagającą niestandardowego kodu kreskowego CODE_128, znajdziesz tutaj wszystko, czego potrzebujesz.
+Jeśli potrzebujesz **utworzyć kod kreskowy code128** z precyzyjnymi proporcjami wizualnymi, kluczem jest regulacja proporcji szerokie‑wąskie. W tym samouczku przeprowadzimy Cię krok po kroku przez **proces tworzenia kodu kreskowego** przy użyciu Aspose.BarCode for Java, pokazując, jak skonfigurować proporcję, **generować obrazy kodu kreskowego PNG** oraz **zapisać obraz kodu kreskowego** na dysku. Niezależnie od tego, czy tworzysz etykiety magazynowe, znaczniki wysyłkowe, czy jakąkolwiek aplikację wymagającą niestandardowo stylizowanego kodu kreskowego CODE_128, znajdziesz tutaj wszystko, czego potrzebujesz.
 
 ## Szybkie odpowiedzi
-- **Czym jest proporcja szerokich‑wąskich pasków?** Kontroluje względną szerokość szerokich pasków w porównaniu do wąskich pasków w kodzie kreskowym.  
-- **Które symbole obsługują regulację proporcji?** Większość symbologii 1‑D, w tym CODE_128, pozwala ustawić własną proporcję.  
-- **Czy potrzebuję licencji?** Dostępna jest darmowa wersja próbna, ale do użytku produkcyjnego wymagana jest licencja komercyjna.  
-- **Czy mogę wygenerować obraz kodu kreskowego w formacie PNG?** Tak — użyj `generator.save(...)`, aby wygenerować obraz kodu kreskowego jako PNG.  
-- **Czy kod jest kompatybilny z Java 8+?** Zdecydowanie; Aspose.BarCode działa ze wszystkimi nowoczesnymi wersjami Javy.
+- **Czym jest proporcja szerokie‑wąskie?** Kontroluje względną szerokość szerokich pasków w stosunku do wąskich pasków w kodzie kreskowym.  
+- **Które symbole obsługują regulację proporcji?** Większość symboli 1‑D, w tym CODE_128, pozwala ustawić własną proporcję.  
+- **Czy potrzebna jest licencja?** Dostępna jest bezpłatna wersja próbna, ale do użytku produkcyjnego wymagana jest licencja komercyjna.  
+- **Czy mogę wygenerować obraz kodu kreskowego w formacie PNG?** Tak — użyj `generator.save(...)`, aby generować obrazy kodu kreskowego PNG.  
+- **Czy kod jest kompatybilny z Java 8+?** Absolutnie; Aspose.BarCode działa ze wszystkimi nowoczesnymi wersjami Javy.
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
+Zanim przejdziesz do kodu, upewnij się, że masz następujące elementy:
 
-- Zainstalowany Java Development Kit (JDK) na Twoim komputerze.  
-- Biblioteka Aspose.BarCode for Java. Pobierz ją z [download link](https://releases.aspose.com/barcode/java/).
+- Zainstalowany Java Development Kit (JDK) na swoim komputerze.  
+- Bibliotekę Aspose.BarCode for Java. Pobierz ją z [download link](https://releases.aspose.com/barcode/java/).
 
 ## Importowanie pakietów
 
@@ -43,13 +43,13 @@ Aby rozpocząć, zaimportuj niezbędną klasę Aspose.BarCode do swojego projekt
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Czym jest proporcja szerokich‑wąskich pasków i dlaczego ją regulować?
+## Co to jest proporcja szerokie‑wąskie i dlaczego ją regulować?
 
-Proporcja szerokich‑wąskich pasków określa, jak grube wydają się „szerokie” paski w porównaniu do „wąskich”. Regulacja tej proporcji może poprawić czytelność przez skaner, spełnić określone standardy drukowania lub po prostu dopasować się do wizualnego stylu marki.
+Proporcja szerokie‑wąskie określa, jak grube wydają się „szerokie” paski w porównaniu do „wąskich”. Regulacja tej proporcji może poprawić czytelność przez skaner, spełnić określone standardy druku lub po prostu dopasować się do wizualnego stylu marki.
 
-## Jak wygenerować kod kreskowy z proporcją szerokich‑wąskich pasków w Javie
+## Jak utworzyć kod kreskowy code128 z proporcją szerokie‑wąskie w Javie
 
-Poniżej znajduje się **step by step barcode** przewodnik, który prowadzi Cię przez każdy element procesu.
+Poniżej znajduje się **przewodnik krok po kroku**, który prowadzi Cię przez każdy etap procesu.
 
 ### Krok 1: Ustaw katalog dokumentu
 
@@ -58,7 +58,7 @@ Poniżej znajduje się **step by step barcode** przewodnik, który prowadzi Cię
 String dataDir = "Your Document Directory";
 ```
 
-Upewnij się, że katalog istnieje i masz uprawnienia do zapisu; to tutaj zostanie umieszczony plik **save barcode png**.
+Upewnij się, że katalog istnieje i masz uprawnienia do zapisu; to właśnie tam zostanie umieszczony plik **zapisywania obrazu kodu kreskowego**.
 
 ### Krok 2: Utwórz obiekt Barcode
 
@@ -68,16 +68,16 @@ Upewnij się, że katalog istnieje i masz uprawnienia do zapisu; to tutaj zostan
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-Tutaj **create code_128 barcode** poprzez przekazanie `EncodeTypes.CODE_128` do konstruktora.
+Tutaj **tworzymy kod kreskowy code128**, przekazując `EncodeTypes.CODE_128` do konstruktora.
 
-### Krok 3: Ustaw proporcję szerokich‑wąskich
+### Krok 3: Ustaw proporcję szerokie‑wąskie
 
 ```java
 // Set the wide to narrow ratio for the barcode
 generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 ```
 
-Metoda `setWideNarrowRatio` pozwala precyzyjnie dostroić odstępy wizualne. Wartość `3.0f` oznacza, że szeroki pasek jest trzy razy szerszy od wąskiego.
+Metoda `setWideNarrowRatio` pozwala precyzyjnie dostroić odstępy wizualne. Wartość `3.0f` oznacza, że szeroki pasek jest trzykrotnie szerszy od wąskiego.
 
 ### Krok 4: Zapisz obraz na dysku
 
@@ -86,38 +86,44 @@ Metoda `setWideNarrowRatio` pozwala precyzyjnie dostroić odstępy wizualne. War
 generator.save(dataDir + "wideNarrowRatio.png");
 ```
 
-Wywołanie `save` **generate barcode image** i zapisze je jako plik PNG, kończąc krok **save barcode png**.
+Wywołanie `save` **generuje obraz kodu kreskowego** i zapisuje go jako plik PNG, kończąc etap **zapisywania obrazu kodu kreskowego**.
+
+## Dlaczego regulować proporcję szerokie‑wąskie?
+
+- **Kompatybilność ze skanerami:** Niektóre skanery preferują proporcję w przedziale od 2.0 do 3.0 dla optymalnych wskaźników odczytu.  
+- **Jakość druku:** Regulacja proporcji może kompensować ograniczenia DPI drukarki, zapobiegając zniekształceniom pasków.  
+- **Spójność marki:** Niektóre firmy chcą, aby kody kreskowe wizualnie pasowały do kolorów korporacyjnych lub wytycznych projektowych.
 
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|---------|-----------|-------------|
-| Kod kreskowy wygląda zniekształcony | Zbyt wysoka/niska proporcja dla drukarki | Dostosuj wartość przekazywaną do `setWideNarrowRatio` (np. 2.0‑2.5). |
-| Plik nie został utworzony | Nieprawidłowa ścieżka `dataDir` lub niewystarczające uprawnienia | Sprawdź ścieżkę katalogu i upewnij się, że aplikacja ma dostęp do zapisu. |
-| Skaner nie może odczytać kodu kreskowego | Proporcja poza zalecanym zakresem dla danej symbologii | Użyj standardowych proporcji (2.0‑3.0) lub przetestuj na docelowym skanerze. |
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| Kod kreskowy wygląda na zniekształcony | Zbyt wysoka/niska proporcja dla drukarki | Dostosuj wartość przekazywaną do `setWideNarrowRatio` (np. 2.0‑2.5). |
+| Plik nie został utworzony | Nieprawidłowa ścieżka `dataDir` lub brak uprawnień | Zweryfikuj ścieżkę katalogu i upewnij się, że aplikacja ma dostęp do zapisu. |
+| Skaner nie odczytuje kodu | Proporcja poza zalecanym zakresem dla symbolu | Użyj standardowych proporcji (2.0‑3.0) lub przetestuj z docelowym skanerem. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę używać Aspose.BarCode z innymi frameworkami Java?**  
-A: Tak, Aspose.BarCode jest zaprojektowany tak, aby działał płynnie z Spring, Java EE, Android oraz innymi środowiskami Java.
+**P: Czy mogę używać Aspose.BarCode z innymi frameworkami Javy?**  
+O: Tak, Aspose.BarCode jest zaprojektowany tak, aby działał płynnie ze Spring, Java EE, Androidem i innymi środowiskami Javy.
 
-**Q: Jak mogę generować kody kreskowe z różnymi symbologiami?**  
-A: Po prostu zmień typ symbologii w konstruktorze `BarcodeGenerator`, na przykład `EncodeTypes.QR` dla kodów QR.
+**P: Jak mogę generować kody kreskowe z różnymi symbolami?**  
+O: Po prostu zmień typ symbolu w konstruktorze `BarcodeGenerator`, np. `EncodeTypes.QR` dla kodów QR.
 
-**Q: Czy dostępna jest wersja próbna Aspose.BarCode?**  
-A: Tak, możesz uzyskać dostęp do darmowej wersji próbnej [tutaj](https://releases.aspose.com/).
+**P: Czy dostępna jest wersja próbna Aspose.BarCode?**  
+O: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
 
-**Q: Gdzie mogę znaleźć szczegółową dokumentację Aspose.BarCode?**  
-A: Odwołaj się do dokumentacji [tutaj](https://reference.aspose.com/barcode/java/).
+**P: Gdzie mogę znaleźć szczegółową dokumentację Aspose.BarCode?**  
+O: Dokumentację znajdziesz [tutaj](https://reference.aspose.com/barcode/java/).
 
-**Q: Jak uzyskać wsparcie dla Aspose.BarCode?**  
-A: Odwiedź forum Aspose.BarCode [tutaj](https://forum.aspose.com/c/barcode/13) w celu uzyskania pomocy i dyskusji społecznościowych.
+**P: Jak uzyskać wsparcie dla Aspose.BarCode?**  
+O: Odwiedź forum Aspose.BarCode [tutaj](https://forum.aspose.com/c/barcode/13) w celu uzyskania pomocy i dyskusji społecznościowych.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-02-12  
+**Testowano z:** Aspose.BarCode for Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,8 +1,7 @@
 ---
-date: 2025-12-10
-description: Узнайте, как использовать библиотеку сканера штрихкодов Aspose.BarCode
-  для Java, чтобы определять ориентацию штрихкода. Следуйте этому пошаговому руководству,
-  чтобы быстро считывать штрихкоды с изображения в Java.
+date: 2026-02-12
+description: Узнайте, как использовать библиотеку Java для чтения штрихкодов Aspose.BarCode,
+  чтобы быстро определять ориентацию штрихкода и считывать его с изображения.
 linktitle: Detecting Barcode Orientation
 second_title: Aspose.BarCode Java API
 title: 'Библиотека Java для чтения штрихкодов: определение ориентации штрихкода с
@@ -15,38 +14,38 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Библиотека Java для чтения штрих‑кодов: определение ориентации штрих‑кода с помощью Aspose.BarCode
+# Java Barcode Reader Library: Detect Barcode Orientation with Aspose.BarCode
 
 ## Introduction
 
-Если вам нужна надёжная **java barcode reader library** для ваших Java‑приложений, Aspose.BarCode for Java предлагает мощные возможности распознавания штрих‑кодов, включая определение ориентации. В этом руководстве мы покажем, как **read barcode from image java** файлы и получить угол поворота, чтобы без труда обрабатывать повернутые штрих‑коды.
+Если вам нужна надёжная **java barcode reader library** для ваших Java‑приложений, Aspose.BarCode for Java предлагает мощные возможности распознавания штрих‑кодов, включая определение ориентации. В этом руководстве мы пройдёмся по тому, как **read barcode from image java** файлы и получить угол поворота, чтобы без труда работать с повернутыми штрих‑кодами.
 
 ## Quick Answers
-- **Что делает библиотека?** Определяет тип штрих‑кода, считывает данные и возвращает углы ориентации.  
-- **Какой тип штрих‑кода используется в примере?** Code 128 (`DecodeType.CODE_128`).  
-- **Нужна ли лицензия для тестирования?** Доступна временная лицензия для оценки.  
-- **Могу ли я обрабатывать несколько изображений?** Да — просто выполните цикл по вашим файлам изображений с тем же логикой чтения.  
-- **Совместима ли она с Java 8+?** Абсолютно, библиотека работает с Java 8 и более новыми версиями.
+- **What does the library do?** Detects barcode type, reads data, and returns orientation angles.  
+- **Which barcode type is used in the example?** Code 128 (`DecodeType.CODE_128`).  
+- **Do I need a license for testing?** A temporary license is available for evaluation.  
+- **Can I process multiple images?** Yes – just loop through your image files with the same reader logic.  
+- **Is it compatible with Java 8+?** Absolutely, the library works with Java 8 and later.
 
 ## What is a Java Barcode Reader Library?
-Библиотека Java для чтения штрих‑кодов предоставляет API, позволяющие разработчикам декодировать штрих‑коды из изображений, PDF‑файлов или потоков живого видео непосредственно в Java‑коде. Aspose.BarCode — коммерческая библиотека, поддерживающая более 150 символогий штрих‑кодов и включающая расширенные функции, такие как определение ориентации, проверка контрольных сумм и обработка многостраничных документов.
+Java barcode reader library предоставляет API, позволяющие разработчикам декодировать штрих‑коды из изображений, PDF‑файлов или потоков живого видео непосредственно в Java‑коде. Aspose.BarCode — коммерческая библиотека, поддерживающая более 150 символьных наборов штрих‑кодов и включающая такие продвинутые функции, как определение ориентации, проверка контрольных сумм и обработка многостраничных документов.
 
 ## Why Use Aspose.BarCode for Orientation Detection?
-- **Точное вычисление угла** — библиотека возвращает точный угол поворота области штрих‑кода.  
-- **Широкая поддержка символогий** — работает с Code 128, QR, DataMatrix и многими другими.  
-- **Простой API** — минимальный объём кода для начала работы.  
-- **Готова для предприятий** — высокая производительность, надёжная обработка ошибок и варианты лицензирования.
+- **Accurate angle calculation** – the library returns the exact rotation angle of the barcode region.  
+- **Broad symbology support** – works with Code 128, QR, DataMatrix, and many more.  
+- **Simple API** – minimal code required to get started.  
+- **Enterprise‑ready** – high performance, robust error handling, and licensing options.
 
 ## Prerequisites
 
-Прежде чем приступить к руководству, убедитесь, что у вас выполнены следующие требования:
+Before diving into the tutorial, make sure you have the following prerequisites in place:
 
-- Среда разработки Java: Убедитесь, что на вашей системе настроена среда разработки Java.  
-- Библиотека Aspose.BarCode for Java: Скачайте и установите библиотеку Aspose.BarCode for Java. Вы можете найти библиотеку и сопутствующую документацию [здесь](https://releases.aspose.com/barcode/java/).
+- Java Development Environment: Ensure that you have a Java development environment set up on your system.  
+- Aspose.BarCode for Java Library: Download and install the Aspose.BarCode for Java library. You can find the library and related documentation [here](https://releases.aspose.com/barcode/java/).
 
 ## Import Namespaces
 
-Чтобы начать, импортируйте необходимые пространства имён в ваш Java‑проект. Этот шаг важен для доступа к функциям, предоставляемым Aspose.BarCode for Java.
+To get started, import the necessary namespaces into your Java project. This step is crucial for accessing the functionalities provided by Aspose.BarCode for Java.
 
 ```java
 // Import Aspose.BarCode namespaces
@@ -55,27 +54,27 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-Теперь разберём процесс определения ориентации штрих‑кода на несколько шагов:
+Now, let's break down the process of detecting barcode orientation into multiple steps:
 
 ## How to Read Barcodes Java with Aspose.BarCode
-Ниже представлено краткое пошаговое руководство, показывающее **how to read barcodes java** и получение их ориентации.
+Below is a concise, step‑by‑step guide that shows **how to read barcodes java** and obtain their orientation.
 
 ### Step 1: Instantiate BarCodeReader Object
-Начните с создания объекта `BarCodeReader`, указав файл изображения, содержащий штрих‑код, и требуемый тип штрих‑кода.
+Begin by instantiating a `BarCodeReader` object, specifying the image file containing the barcode and the desired barcode type.
 
 ```java
 BarCodeReader reader = new BarCodeReader("rotatedbarcode.jpg", DecodeType.CODE_128);
 ```
 
 ### Step 2: Read Code128 Bar Code
-Используйте метод `readBarCodes` для чтения штрих‑кода Code 128 из указанного изображения.
+Use the `readBarCodes` method to read the Code 128 barcode from the specified image.
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
 ```
 
 ### Step 3: Detect Bar Code Orientation
-Получите регион штрих‑кода и определите угол поворота.
+Retrieve the barcode region and obtain the rotation angle.
 
 ```java
     // detect bar code orientation
@@ -83,37 +82,42 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Повторяйте эти шаги по мере необходимости для нескольких штрих‑кодов или интегрируйте их в логику вашего приложения. Следуя этому процессу, вы сможете без проблем внедрить определение ориентации штрих‑кода в ваши Java‑приложения, используя **java barcode reader library**.
+By following these three simple steps, you can seamlessly incorporate barcode orientation detection into your Java applications using the **java barcode reader library**.
+
+## Common Use Cases
+- **Automated document processing** – Scan invoices or shipping labels that may arrive at arbitrary angles.  
+- **Retail inventory systems** – Read product barcodes from camera feeds where items are not perfectly aligned.  
+- **Industrial automation** – Detect and correct barcode orientation on assembly lines before further processing.
 
 ## Common Issues and Solutions
-| Проблема | Решение |
+| Issue | Solution |
 |-------|----------|
-| **Reader returns `null`** | Убедитесь, что путь к изображению правильный и изображение содержит чёткий, контрастный штрих‑код. |
-| **Incorrect angle** | Убедитесь, что изображение не сильно размыто; рассмотрите предобработку изображения (например, бинаризацию) перед чтением. |
-| **Unsupported barcode type** | Проверьте список поддерживаемых символогий в документации Aspose.BarCode и выберите соответствующий `DecodeType`. |
+| **Reader returns `null`** | Verify that the image path is correct and that the image contains a clear, high‑contrast barcode. |
+| **Incorrect angle** | Ensure the image is not heavily blurred; consider preprocessing the image (e.g., binarization) before reading. |
+| **Unsupported barcode type** | Check the list of supported symbologies in the Aspose.BarCode documentation and choose a matching `DecodeType`. |
 
 ## Frequently Asked Questions
 
-### Q1: Совместима ли Aspose.BarCode с Java 8?
-A1: Да, Aspose.BarCode for Java совместима с Java 8 и более новыми версиями.
+### Q1: Is Aspose.BarCode compatible with Java 8?
+A1: Yes, Aspose.BarCode for Java is compatible with Java 8 and later versions.
 
-### Q2: Могу ли я использовать Aspose.BarCode в коммерческих и некоммерческих проектах?
-A2: Да, Aspose.BarCode можно использовать как в коммерческих, так и в некоммерческих проектах. Проверьте детали лицензирования на [странице покупки](https://purchase.aspose.com/buy).
+### Q2: Can I use Aspose.BarCode in both commercial and non‑commercial projects?
+A2: Yes, Aspose.BarCode can be used in both commercial and non‑commercial projects. Check the licensing details on the [purchase page](https://purchase.aspose.com/buy).
 
-### Q3: Как получить временную лицензию для тестирования?
-A3: Получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/) для тестирования и оценки.
+### Q3: How can I get a temporary license for testing purposes?
+A3: Obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
 
-### Q4: Где я могу найти дополнительную поддержку или задать вопросы?
-A4: Посетите [форум Aspose.BarCode](https://forum.aspose.com/c/barcode/13) для получения поддержки от сообщества и обсуждений.
+### Q4: Where can I find additional support or ask questions?
+A4: Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for community support and discussions.
 
-### Q5: Есть ли примеры кода для различных операций со штрих‑кодами?
-A5: Изучите [документацию Aspose.BarCode](https://reference.aspose.com/barcode/java/) для получения полных примеров кода и примеров использования.
+### Q5: Are there any sample codes available for different barcode operations?
+A5: Explore the [Aspose.BarCode documentation](https://reference.aspose.com/barcode/java/) for comprehensive code samples and examples.
 
 ---
 
-**Последнее обновление:** 2025-12-10  
-**Тестировано с:** Aspose.BarCode 24.11 for Java  
-**Автор:** Aspose  
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.BarCode 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
