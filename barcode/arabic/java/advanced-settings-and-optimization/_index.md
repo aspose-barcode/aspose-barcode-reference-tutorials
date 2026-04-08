@@ -1,97 +1,148 @@
 ---
-title: الإعدادات المتقدمة والتحسين
+date: 2026-04-08
+description: تعلم كيفية ضبط أبعاد الباركود المخصصة في جافا باستخدام Aspose.BarCode.
+  تحسين دقة الصورة، تكوين أبعاد الباركود، وإتقان الإعدادات المتقدمة للتكامل السلس.
+keywords:
+- custom barcode dimensions java
+- barcode image resolution java
+- Aspose.BarCode custom size
 linktitle: الإعدادات المتقدمة والتحسين
-second_title: Aspose.BarCode جافا API
-description: أطلق العنان لإمكانات إنشاء باركود Java باستخدام Aspose.BarCode. قم بتكوين الأحجام المخصصة وتحسين دقة الصورة وإعدادات الباركود الرئيسية لتحقيق التكامل السلس.
-weight: 29
+second_title: Aspose.BarCode Java API
+title: أبعاد الباركود المخصصة في جافا – الإعدادات المتقدمة والتحسين
 url: /ar/java/advanced-settings-and-optimization/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الإعدادات المتقدمة والتحسين
+# أبعاد الباركود المخصصة في Java – الإعدادات المتقدمة والتحسين
 
+## المقدمة
 
-## مقدمة
+هل أنت مستعد لضبط توليد الباركود في Java بدقة؟ في هذا البرنامج التعليمي سنوضح لك **كيفية تعيين أبعاد باركود مخصصة في Java** باستخدام Aspose.BarCode، مع تغطية تعديل دقة الصورة، التحكم في الاتجاه، وإعدادات متقدمة أخرى. سواءً كنت تبني نظام نقاط بيع، أو تطبيق تتبع مستودعات، أو أي حل يعتمد على باركود واضح ومقاسه صحيح، فإن إتقان هذه الخيارات سيجعل تنفيذك أكثر موثوقية وتناسقًا بصريًا.
 
-هل أنت مستعد للارتقاء بمهاراتك في إنشاء الباركود Java إلى المستوى التالي؟ انغمس في عالم الإعدادات المتقدمة والتحسين باستخدام Aspose.BarCode. في هذا البرنامج التعليمي الشامل، سنرشدك خلال تعقيدات تكوين الأحجام المخصصة، وتحسين دقة الصورة، وإتقان الإعدادات المتنوعة لإنشاء الرمز الشريطي بكفاءة في Java.
+## إجابات سريعة
+- **ما هي الطريقة الأساسية لتعيين حجم باركود مخصص في Java؟** Use the `setXDimension` and `setBarHeight` (or `setImageWidth`/`setImageHeight`) methods on the `BarcodeGenerator` object.  
+- **هل يمكنني التحكم بوحدة القياس؟** Yes – call `setSizeUnit(SizeUnit)` to switch between pixels, millimeters, or inches.  
+- **كيف أحسن وضوح الباركود على الشاشات عالية الدقة؟** Adjust the image resolution via `setResolution(int dpi)`.  
+- **هل من الممكن توليد عدة باركودات على صورة واحدة؟** Absolutely – create separate `BarcodeGenerator` instances and draw them onto a single `Graphics2D` canvas.  
+- **هل تؤثر هذه الإعدادات على قابلية قراءة الباركود؟** When configured correctly, custom sizes maintain ISO/GS1 compliance and ensure scanner compatibility.
 
-## تكوين الحجم المخصص للرمز الشريطي في Java
+## ما هي أبعاد الباركود المخصصة في Java؟
 
-تخيل مدى مرونة إنشاء الرموز الشريطية بأحجام مخصصة تناسب احتياجاتك الخاصة. مع Aspose.BarCode، لا يقتصر الأمر على الخيال فحسب، بل إنه الواقع. يرشدك البرنامج التعليمي خطوة بخطوة خلال العملية، مما يضمن التكوين الدقيق والنتائج المثالية. ارفع مستوى لعبة الباركود الخاصة بك من خلال بساطة التخصيص.
+تعني **أبعاد الباركود المخصصة** تعريفًا صريحًا للعرض والارتفاع وحجم الوحدة لصورة الباركود بدلاً من الاعتماد على الإعدادات الافتراضية للمكتبة. يمنحك ذلك تحكمًا دقيقًا في كيفية ملاءمة الباركود في تخطيطات واجهة المستخدم، أو الملصقات المطبوعة، أو مستندات PDF.
 
-## ضبط دقة الصورة للرمز الشريطي في Java
+## لماذا نستخدم أبعاد الباركود المخصصة في Java؟
 
-الوضوح والدقة أمر بالغ الأهمية في توليد الباركود. في هذا البرنامج التعليمي، نستكشف كيف يمكّنك Aspose.BarCode من ضبط دقة الصورة للرموز الشريطية في Java دون عناء. قم بتخصيص الإعدادات لتحقيق رموز شريطية واضحة تمامًا، مما يضمن التكامل السلس في تطبيقاتك.
+- **تطابق قيود التخطيط الدقيقة** – match label dimensions or UI components without extra padding.  
+- **تحسين موثوقية المسح** – larger modules can be easier for low‑resolution cameras, while smaller sizes save space on dense packaging.  
+- **العلامة التجارية المتسقة** – align barcode appearance with your company’s design guidelines.  
 
-## الحصول على الحد الأدنى لحجم الباركود في جافا
+## المتطلبات المسبقة
 
-يعد تحسين المساحة أحد الاهتمامات الرئيسية لتطبيقات Java الفعالة. تعرف على كيفية إنشاء رموز شريطية ذات حجم صغير باستخدام Aspose.BarCode، مما يحقق التوازن المثالي بين الكفاءة والمعلومات. يضمن دليلنا التفصيلي خطوة بخطوة إتقان فن إنشاء الباركود المُحسّن للمساحة.
+- Java 8 أو أعلى.  
+- Aspose.BarCode for Java (أحدث إصدار).  
+- ترخيص Aspose صالح للإنتاج (يتوفر نسخة تجريبية مجانية).  
 
-## حفظ صور الباركود بتنسيقات مختلفة في Java
+## تكوين الحجم المخصص للباركود في Java
 
-انغمس في عالم إنشاء الباركود السلس باستخدام Aspose.BarCode. اكتشف تعدد استخدامات حفظ صور الباركود بتنسيقات مختلفة دون عناء. قم بتحسين تطبيقات Java الخاصة بك عن طريق دمج الرموز الشريطية بتنسيقات ملفات متنوعة، وذلك بفضل هذه المكتبة القوية والمتعددة الاستخدامات.
+تخيل مرونة إنشاء باركود بأحجام مخصصة مصممة وفقًا لاحتياجاتك الخاصة. مع Aspose.BarCode، ليس مجرد خيال—إنه واقع. دليلنا خطوة بخطوة يرافقك خلال العملية، مما يضمن تكوينًا دقيقًا ونتائج مثالية. ارتقِ بتجربة الباركود الخاصة بك ببساطة التخصيص.
 
-## حفظ صورة الباركود في التدفقات في Java
+## تعيين دقة الصورة للباركود في Java
 
-أصبح إنشاء الرمز الشريطي الديناميكي أمرًا سهلاً مع Aspose.BarCode لـ Java. اتبع دليلنا لحفظ صور الباركود في التدفقات، وفتح إمكانيات لا حصر لها للتكامل. ارفع مستوى ديناميكية تطبيقاتك من خلال هذا البرنامج التعليمي خطوة بخطوة.
+الوضوح والدقة أمران أساسيان في توليد الباركود. في هذا الدليل، نستكشف كيف يتيح لك Aspose.BarCode ضبط دقة الصورة للباركود في Java بسهولة. خصص الإعدادات لتحقيق باركود واضح كالكريستال، وضمان دمج سلس في تطبيقاتك.
 
-## ضبط وحدة الحجم لصورة الباركود في Java
+## الحصول على الحد الأدنى لحجم الباركود في Java
 
-استمتع بتجربة قوة Aspose.BarCode في تحديد وحدات الحجم الدقيقة لصور الباركود. يتعمق هذا البرنامج التعليمي في التكامل السهل والأداء القوي وإمكانيات التخصيص التي لا نهاية لها. أطلق العنان لإمكانات تكوين وحدة الحجم لإنشاء رمز شريطي لا تشوبه شائبة في Java.
+تحسين استغلال المساحة هو مصدر قلق رئيسي لتطبيقات Java الفعّالة. تعلم كيفية إنشاء باركود بأقل حجم ممكن باستخدام Aspose.BarCode، لتحقيق التوازن المثالي بين الكفاءة والمعلومات. دليلنا خطوة بخطوة يضمن إتقان فن توليد باركود مُحسّن للمساحة.
 
-## تكوين اتجاه الباركود في جافا
+## حفظ صور الباركود بصيغ مختلفة في Java
 
-اكتشف التكامل السلس لـ Aspose.BarCode لـ Java في تكوين اتجاه الرمز الشريطي. يضمن دليلنا الشامل الاستفادة من قوة تخصيص الرمز الشريطي للتعرف عليه في تطبيقات Java الخاصة بك. ارفع مستوى حلول الباركود لديك من خلال تكوين الاتجاه.
+اغمر نفسك في عالم توليد الباركود السلس مع Aspose.BarCode. اكتشف مرونة حفظ صور الباركود بصيغ مختلفة بسهولة. حسّن تطبيقات Java الخاصة بك بإدراج باركود بصيغ ملفات متنوعة، بفضل هذه المكتبة القوية والمتعددة الاستخدامات.
 
-## إتقان استخراج منطقة الباركود في جافا
+## حفظ صورة الباركود إلى تدفقات في Java
 
-يظهر Aspose.BarCode for Java كمكتبة قوية لاستخراج تفاصيل منطقة الرمز الشريطي دون عناء. قم بتحسين تطبيقات Java الخاصة بك بدقة من خلال إتقان فن استخراج منطقة الباركود. يرشدك برنامجنا التعليمي عبر التكامل والاستخدام السلس.
+يصبح توليد الباركود الديناميكي سهلًا مع Aspose.BarCode for Java. اتبع دليلنا لحفظ صور الباركود إلى تدفقات، مما يفتح إمكانيات لا حصر لها للتكامل. ارتقِ بحيوية تطبيقاتك من خلال هذا الدليل خطوة بخطوة.
 
-## معالجة أسرع للصور للتعرف على الباركود في Java
+## تعيين وحدة الحجم لصورة الباركود في Java
 
-قم بتسريع التعرف على الرمز الشريطي في Java باستخدام Aspose.BarCode. يضمن دليلنا خطوة بخطوة معالجة الصور بشكل أسرع، وتحسين كفاءة تطبيقاتك. ارفع سرعة ودقة التعرف على الباركود دون عناء.
+اختبر قوة Aspose.BarCode في تعيين وحدات حجم دقيقة لصور الباركود. يغوص هذا الدليل في التكامل السهل، الأداء القوي، وإمكانيات التخصيص اللامحدودة. أطلق إمكانات تكوين وحدة الحجم لتوليد باركود لا تشوبه شائبة في Java.
 
-## إنشاء رموز شريطية متعددة على صورة واحدة في Java
+## تكوين اتجاه الباركود في Java
 
-قم بإنشاء رموز شريطية متعددة على صورة واحدة بسهولة باستخدام Aspose.BarCode لـ Java. يوفر برنامجنا التعليمي دليلاً خطوة بخطوة للتكامل السلس، مما يسمح لك بإطلاق العنان للإمكانات الكاملة لإنشاء رموز شريطية متعددة في تطبيقاتك.
+اكتشف التكامل السلس لـ Aspose.BarCode for Java في تكوين اتجاه الباركود. يضمن دليلنا الشامل أن تستفيد من قوة تخصيص الباركود للتعرف في تطبيقات Java الخاصة بك. ارتقِ بحلول الباركود الخاصة بك من خلال تكوين الاتجاه.
 
-## الحصول على جميع الرموز الشريطية 1D الممكنة من صورة في Java
+## إتقان استخراج منطقة الباركود في Java
 
-قم بفك رموز الباركود 1D بسهولة باستخدام قوة Aspose.BarCode لـ Java. قم بالتنزيل الآن للتكامل السلس مع تطبيقات Java الخاصة بك، واستكشف الإمكانيات التي لا نهاية لها لفك تشفير الباركود. يرشدك البرنامج التعليمي الخاص بنا خلال العملية، مما يضمن الحصول على أفضل النتائج.
+يظهر Aspose.BarCode for Java كمكتبة قوية لاستخراج تفاصيل منطقة الباركود بسهولة. حسّن تطبيقات Java الخاصة بك بدقة من خلال إتقان فن استخراج منطقة الباركود. دليلنا يوجهك عبر التكامل السلس والاستخدام.
 
-## الحصول على جودة التعرف على الباركود بنسبة مئوية في Java
+## معالجة صور أسرع للتعرف على الباركود في Java
 
-قم بتحسين جودة التعرف على الرمز الشريطي في Java باستخدام Aspose.BarCode. يوفر دليلنا خطوة بخطوة رؤى لتحقيق النتائج المثلى. استفد من إمكانيات Aspose.BarCode لتحسين جودة التعرف على الباركود في تطبيقات Java الخاصة بك.
+سرّع التعرف على الباركود في Java باستخدام Aspose.BarCode. يضمن دليلنا خطوة بخطوة معالجة صور أسرع، مما يحسن كفاءة تطبيقاتك. ارتقِ بسرعة ودقة التعرف على الباركود بسهولة.
 
-مع Aspose.BarCode، الاحتمالات لا حدود لها. ارفع مستوى تطبيقات Java الخاصة بك بقوة الإعدادات المتقدمة والتحسين. انغمس في البرامج التعليمية واطلق العنان للإمكانات الكاملة لتوليد الباركود.
-## الإعدادات المتقدمة ودروس التحسين
-### [تكوين الحجم المخصص للرمز الشريطي في Java](./configuring-custom-size-barcode/)
-اكتشف بساطة تكوين الرموز الشريطية ذات الحجم المخصص في Java باستخدام Aspose.BarCode. اتبع برنامجنا التعليمي خطوة بخطوة للتكوين الدقيق.
-### [ضبط دقة الصورة للرمز الشريطي في Java](./setting-image-resolution-barcode/)
-قم بإنشاء رموز شريطية لإعداد دقة الصورة بسهولة في Java باستخدام Aspose.BarCode. تخصيص الإعدادات للوضوح والدقة.
-### [الحصول على الحد الأدنى لحجم الباركود في جافا](./getting-minimum-barcode-size/)
-تعرف على كيفية إنشاء رموز شريطية ذات حجم أدنى في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لإنشاء رمز شريطي فعال ومُحسّن للمساحة.
-### [حفظ صور الباركود بتنسيقات مختلفة في Java](./saving-barcode-images-different-formats/)
-استكشف العالم السلس لتوليد الباركود في Java باستخدام Aspose.BarCode. تعلم كيفية حفظ صور الباركود بتنسيقات مختلفة دون عناء. قم بتحسين تطبيقات Java الخاصة بك باستخدام هذه المكتبة القوية والمتعددة الاستخدامات.
-### [حفظ صورة الباركود في التدفقات في Java](./saving-barcode-image-streams/)
-قم بإنشاء رموز شريطية ديناميكية بسهولة باستخدام Aspose.BarCode لـ Java. اتبع دليلنا خطوة بخطوة لحفظ صور الباركود في التدفقات.
-### [ضبط وحدة الحجم لصورة الباركود في Java](./setting-size-unit-barcode-image/)
-اكتشف قوة Aspose.BarCode لـ Java في تحديد وحدات الحجم الدقيقة لصور الباركود. تكامل سهل وأداء قوي وإمكانيات تخصيص لا حصر لها.
-### [تكوين اتجاه الباركود في جافا](./configuring-barcode-orientation/)
-اكتشف قوة Aspose.BarCode لـ Java في تكوين اتجاه الرمز الشريطي. دليل شامل للتكامل والتعرف السلس في تطبيقات Java الخاصة بك.
-### [إتقان استخراج منطقة الباركود في جافا](./extracting-barcode-region-information/)
-استكشف Aspose.BarCode for Java، وهي مكتبة قوية لاستخراج تفاصيل منطقة الرمز الشريطي دون عناء. قم بتحسين تطبيقات Java الخاصة بك بدقة.
-### [معالجة أسرع للصور للتعرف على الباركود في Java](./faster-image-processing-barcode-recognition/)
-قم بتحسين معالجة الصور بشكل أسرع للتعرف على الرمز الشريطي في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة لمعالجة الصور بشكل أسرع.
-### [إنشاء رموز شريطية متعددة على صورة واحدة في Java](./generating-multiple-barcodes-single-image/)
-قم بإنشاء رموز شريطية متعددة على صورة واحدة بسهولة باستخدام Aspose.BarCode لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-### [الحصول على جميع الرموز الشريطية 1D الممكنة من صورة في Java](./getting-all-possible-1d-barcodes-image/)
-اكتشف قوة Aspose.BarCode لـ Java في فك رموز الباركود 1D دون عناء. قم بالتنزيل الآن للتكامل السلس مع تطبيقات Java الخاصة بك.
-### [الحصول على جودة التعرف على الباركود بنسبة مئوية في Java](./getting-barcode-recognition-quality-percent/)
-الحصول على جودة التعرف على الباركود في Java باستخدام Aspose.BarCode. اتبع دليلنا خطوة بخطوة للحصول على أفضل النتائج.
+## توليد عدة باركودات على صورة واحدة في Java
+
+قم بتوليد عدة باركودات على صورة واحدة بسهولة باستخدام Aspose.BarCode for Java. يوفر دليلنا خطوة بخطوة تكاملًا سلسًا، مما يتيح لك استغلال الإمكانات الكاملة لتوليد باركودات متعددة في تطبيقاتك.
+
+## الحصول على جميع الباركودات الأحادية الأبعاد الممكنة من صورة في Java
+
+قم بفك تشفير الباركودات الأحادية الأبعاد بسهولة باستخدام قوة Aspose.BarCode for Java. قم بتحميله الآن للتكامل السلس في تطبيقات Java الخاصة بك، واستكشف الإمكانات اللامحدودة لفك تشفير الباركود. دليلنا يوجهك خلال العملية، لضمان نتائج مثالية.
+
+## الحصول على جودة التعرف على الباركود بالنسبة المئوية في Java
+
+حسّن جودة التعرف على الباركود في Java باستخدام Aspose.BarCode. يقدم دليلنا خطوة بخطوة رؤى لتحقيق نتائج مثالية. استغل قدرات Aspose.BarCode لتعزيز جودة التعرف على الباركود في تطبيقات Java الخاصة بك.
+
+مع Aspose.BarCode، الإمكانات لا حدود لها. ارتقِ بتطبيقات Java الخاصة بك بقوة الإعدادات المتقدمة والتحسين. استكشف الدروس واكتشف الإمكانات الكاملة لتوليد الباركود.
+
+## دروس الإعدادات المتقدمة والتحسين
+### [تكوين الحجم المخصص للباركود في Java](./configuring-custom-size-barcode/)
+Explore the simplicity of configuring custom sized barcodes in Java with Aspose.BarCode. Follow our step‑by‑step tutorial for precise configuration.
+### [تعيين دقة الصورة للباركود في Java](./setting-image-resolution-barcode/)
+Generate Setting Image Resolution barcodes effortlessly in Java with Aspose.BarCode. Customize settings for clarity and precision.
+### [الحصول على الحد الأدنى لحجم الباركود في Java](./getting-minimum-barcode-size/)
+Learn how to create Minimum sized BarCodes in Java using Aspose.BarCode. Follow our step‑by‑step guide for efficient and space‑optimized BarCode generation.
+### [حفظ صور الباركود بصيغ مختلفة في Java](./saving-barcode-images-different-formats/)
+Explore the seamless world of barcode generation in Java with Aspose.BarCode. Learn to save barcode images in different formats effortlessly. Enhance your Java applications with this powerful and versatile library.
+### [حفظ صورة الباركود إلى تدفقات في Java](./saving-barcode-image-streams/)
+Generate dynamic barcodes effortlessly with Aspose.BarCode for Java. Follow our step‑by‑step guide to save barcode images to streams.
+### [تعيين وحدة الحجم لصورة الباركود في Java](./setting-size-unit-barcode-image/)
+Discover the power of Aspose.BarCode for Java in setting precise size units for barcode images. Effortless integration, robust performance, and endless customization possibilities.
+### [تكوين اتجاه الباركود في Java](./configuring-barcode-orientation/)
+Explore the power of Aspose.BarCode for Java in configuring barcode orientation. A comprehensive guide for seamless integration and recognition in your Java applications.
+### [إتقان استخراج منطقة الباركود في Java](./extracting-barcode-region-information/)
+Explore Aspose.BarCode for Java a powerful library for extracting barcode region details effortlessly. Enhance your Java applications with precision.
+### [معالجة صور أسرع للتعرف على الباركود في Java](./faster-image-processing-barcode-recognition/)
+Enhance Faster Image Processing for barcode recognition in Java with Aspose.BarCode. Follow our step‑by‑step guide for faster image processing.
+### [توليد عدة باركودات على صورة واحدة في Java](./generating-multiple-barcodes-single-image/)
+Generate multiple barcodes on a single image effortlessly using Aspose.BarCode for Java. Follow our step‑by‑step guide for seamless integration.
+### [الحصول على جميع الباركودات الأحادية الأبعاد الممكنة من صورة في Java](./getting-all-possible-1d-barcodes-image/)
+Explore the power of Aspose.BarCode for Java in decoding 1D barcodes effortlessly. Download now for seamless integration into your Java applications.
+### [الحصول على جودة التعرف على الباركود بالنسبة المئوية في Java](./getting-barcode-recognition-quality-percent/)
+Getting barcode recognition quality in Java with Aspose.BarCode. Follow our step‑by‑step guide for optimal results.
+
+## الأسئلة الشائعة
+
+**س: هل يمكنني تغيير حجم الباركود بعد توليد الصورة؟**  
+A: لا. يجب تطبيق إعدادات الحجم قبل استدعاء `generateBarCodeImage()`. أنشئ صورة جديدة إذا كنت بحاجة إلى حجم مختلف.
+
+**س: ما هي الوحدات المدعومة لحجم الباركود المخصص في Java؟**  
+A: البكسل، المليمتر، والبوصة عبر تعداد `SizeUnit`.
+
+**س: هل يؤدي زيادة دقة الصورة إلى زيادة حجم الملف بشكل كبير؟**  
+A: زيادة DPI تزيد عدد البكسلات، مما قد يوسع حجم الملف. يجب موازنة الدقة مع قيود التخزين والنقل لديك.
+
+**س: هل من الآمن استخدام الأحجام المخصصة مع جميع رموز الباركود؟**  
+A: معظم رموز الباركود 1D و2D تحترم إعدادات الحجم، لكن بعض المعايير (مثل QR Code) لديها متطلبات حد أدنى للوحدة. اختبر دائمًا مع الماسحات المستهدفة.
+
+**س: كيف يمكنني التحقق من أن الباركود المخصص الحجم لا يزال قابلًا للمسح؟**  
+A: استخدم طريقة `recognizeBarCodeImage()` الخاصة بـ Aspose.BarCode أو ماسحًا فعليًا لتأكيد قابلية القراءة بعد تعديل الحجم.
+
+**آخر تحديث:** 2026-04-08  
+**تم الاختبار مع:** Aspose.BarCode for Java 24.11 (latest)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
