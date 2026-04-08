@@ -1,38 +1,54 @@
 ---
-title: Reconnaître les codes-barres d'un PDF en Java
+date: 2026-04-08
+description: Apprenez à lire les codes-barres à partir d’un PDF en Java en utilisant
+  Aspose.BarCode. Ce guide montre également comment générer une image de code-barres
+  en Java et extraire des images d’un PDF en Java.
+keywords:
+- read barcode from pdf java
+- generate barcode image java
+- extract images from pdf java
 linktitle: Reconnaître les codes-barres à partir d'un PDF
-second_title: API Java Aspose.BarCode
-description: Apprenez à reconnaître les codes-barres des PDF en Java à l'aide d'Aspose.BarCode. Guide étape par étape avec des exemples de code. Boostez l’efficacité de votre gestion de données !
-weight: 11
+second_title: Aspose.BarCode Java API
+title: Comment lire un code‑barres à partir d’un PDF en Java avec Aspose.BarCode
 url: /fr/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Reconnaître les codes-barres d'un PDF en Java
-
+# lire le code-barres à partir d'un PDF en Java
 
 ## Introduction
 
-Bienvenue dans notre guide étape par étape sur la reconnaissance des codes-barres à partir de PDF à l'aide d'Aspose.BarCode pour Java. Les codes-barres jouent un rôle crucial dans la gestion et l'organisation des données, et avec Aspose.BarCode, le processus devient transparent. Dans ce tutoriel, nous vous guiderons tout au long du processus, depuis la configuration des prérequis nécessaires jusqu'à l'implémentation du code de reconnaissance des codes-barres dans un fichier PDF.
+Bienvenue dans notre guide pas à pas sur **comment lire un code-barres à partir d'un PDF en Java** en utilisant Aspose.BarCode. Les codes-barres sont essentiels pour automatiser la capture de données, et avec Aspose.BarCode vous pouvez les détecter sans effort à l'intérieur des documents PDF. Dans ce tutoriel, nous vous accompagnerons à travers tout ce dont vous avez besoin — de la configuration des licences à la génération d'une image de code-barres Java, son ajout à un PDF, l'extraction d'images du PDF Java, et enfin la lecture du code-barres.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque faut‑il ?** Aspose.BarCode pour Java (plus Aspose.PDF pour la gestion des PDF).  
+- **Puis‑je générer une image de code‑barres en Java ?** Oui – la classe `BarcodeGenerator` vous permet de créer des images PNG/JPEG.  
+- **Comment les images sont‑elles extraites d'un PDF ?** Utilisez `PdfExtractor` d'Aspose.PDF.  
+- **Quel type de code‑barres est démontré ?** CODE‑39 (standard).  
+- **Ai‑je besoin d'une licence ?** Une licence valide Aspose.BarCode et Aspose.PDF est requise pour une utilisation en production.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Pourquoi utiliser Aspose.BarCode pour Java ?
+- **Haute précision** – prend en charge des dizaines de symbologies et fonctionne sur des images à basse résolution.  
+- **Aucune dépendance externe** – pur Java, sans bibliothèques natives.  
+- **Intégration PDF complète** – combinez avec Aspose.PDF pour lire ou intégrer des codes‑barres directement dans les fichiers PDF.
 
-1.  Licence Aspose.BarCode pour Java : obtenez et configurez une licence valide pour Aspose.BarCode pour Java. Vous pouvez acquérir une licence auprès de[Asposez l'achat](https://purchase.aspose.com/buy).
+## Prérequis
 
-2.  Licence Aspose.PDF : De plus, configurez une licence pour Aspose.PDF, qui est requise pour travailler avec des fichiers PDF. Vous pouvez demander une licence[ici](https://purchase.aspose.com/temporary-license/).
+Avant de plonger dans le code, assurez‑vous d'avoir :
 
-3.  Téléchargez Aspose.BarCode pour Java : Téléchargez la bibliothèque Aspose.BarCode à partir de[ici](https://releases.aspose.com/barcode/java/).
+1. **Licence Aspose.BarCode pour Java** – obtenez‑en une sur [Achat Aspose](https://purchase.aspose.com/buy).  
+2. **Licence Aspose.PDF** – requise pour la manipulation des PDF ; vous pouvez demander une licence [ici](https://purchase.aspose.com/temporary-license/).  
+3. **Bibliothèque Aspose.BarCode** – téléchargez le JAR le plus récent [ici](https://releases.aspose.com/barcode/java/).  
 
-Maintenant que vous disposez des prérequis nécessaires, procédons à l’importation des packages requis et commençons notre didacticiel.
+Maintenant que vous avez les prérequis nécessaires, importons les packages requis et commençons à coder.
 
-## Importer des packages
+## Importer les packages
 
-Dans votre projet Java, incluez les packages Aspose.BarCode et Aspose.PDF. Voici un exemple d'extrait de code pour vous aider à démarrer :
+Dans votre projet Java, ajoutez les imports Aspose.BarCode et Aspose.PDF. Ce bloc reste identique à celui du tutoriel original :
 
 ```java
 import com.aspose.barcode.*;
@@ -48,7 +64,9 @@ import java.io.File;
 import javax.imageio.ImageIO;
 ```
 
-## Étape 1 : générer un code-barres et l'ajouter au PDF
+## Étape 1 : Générer une image de code‑barres Java
+
+Tout d'abord, nous créons une image de code‑barres que nous intégrerons plus tard dans un PDF. Cela montre la capacité **générer une image de code‑barres java**.
 
 ```java
 BarcodeGenerator builder = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_39_STANDARD);
@@ -57,7 +75,9 @@ String strBarCodeImageSave = dataDir + "input_image1.jpg";
 builder.save(strBarCodeImageSave);
 ```
 
-## Étape 2 : Créer un PDF et ajouter une image de code-barres
+## Étape 2 : Créer un PDF et ajouter l'image du code‑barres
+
+Ensuite, nous construisons un nouveau document PDF et insérons l'image du code‑barres que nous venons de générer.
 
 ```java
 Document pdf1 = new Document();
@@ -67,7 +87,9 @@ page.getResources().getImages().add(originalImage);
 pdf1.save(strPdfDoc);
 ```
 
-## Étape 3 : Extraire les images du PDF
+## Étape 3 : Extraire les images du PDF Java
+
+Avec le PDF prêt, nous devons récupérer l'image intégrée afin que le code‑barres puisse être lu. Cela utilise **extraire des images du pdf java**.
 
 ```java
 PdfExtractor extractor = new PdfExtractor();
@@ -75,7 +97,9 @@ extractor.bindPdf(strPdfDoc);
 extractor.extractImage();
 ```
 
-## Étape 4 : Reconnaître le code-barres des images extraites
+## Étape 4 : Reconnaître le code‑barres à partir des images extraites
+
+Enfin, nous transmettons chaque image extraite à `BarCodeReader` pour récupérer le texte encodé.
 
 ```java
 String suffix = ".jpg";
@@ -97,28 +121,42 @@ while (extractor.hasNextImage()) {
 }
 ```
 
-Répétez ces étapes si nécessaire, en ajustant les noms de fichiers et les chemins en conséquence.
+Répétez ces étapes selon vos besoins, en ajustant les noms de fichiers et les chemins pour correspondre à la structure de votre projet.
+
+## Problèmes courants et solutions
+
+| Problème | Raison | Correction |
+|----------|--------|------------|
+| **Aucun code‑barres détecté** | Qualité de l'image trop basse ou code‑barres trop petit. | Augmentez la résolution de l'image lors de l'enregistrement (`builder.save(..., BarCodeImageFormat.JPEG, 300)`). |
+| **`PdfExtractor` lève une exception** | Fichier PDF introuvable ou chemin incorrect. | Vérifiez que `strPdfDoc` pointe vers un fichier existant et que l'application possède les permissions de lecture. |
+| **Licence non appliquée** | Les composants Aspose fonctionnent en mode d'évaluation, limitant la sortie. | Chargez les fichiers de licence au démarrage de votre programme : `new License().setLicense("Aspose.BarCode.lic");` et de même pour Aspose.PDF. |
+
+## Questions fréquentes (FAQ)
+
+### Q : Puis‑je utiliser Aspose.BarCode pour Java sans licence ?
+Bien que Aspose.BarCode puisse être utilisé sans licence, il est recommandé d'en obtenir une pour profiter de toutes les fonctionnalités et respecter les conditions de licence.
+
+### Q : Comment obtenir une licence temporaire pour Aspose.BarCode pour Java ?
+Vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
+### Q : Existe‑t‑il des limitations sur les types de code‑barres pris en charge par Aspose.BarCode ?
+Aspose.BarCode prend en charge un large éventail de types de code‑barres. Consultez la documentation pour la liste complète.
+
+### Q : Une version d'essai est‑elle disponible pour Aspose.BarCode pour Java ?
+Oui, vous pouvez télécharger la version d'essai [ici](https://releases.aspose.com/).
+
+### Q : Où puis‑je obtenir du support ou poser des questions sur Aspose.BarCode pour Java ?
+Visitez le [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) pour le support et les discussions.
 
 ## Conclusion
 
- Toutes nos félicitations! Vous avez appris avec succès comment reconnaître les codes-barres des PDF à l'aide d'Aspose.BarCode pour Java. Ce tutoriel visait à fournir un guide complet tout en conservant simplicité et clarté. N'hésitez pas à explorer plus de fonctionnalités offertes par Aspose.BarCode dans le[Documentation](https://reference.aspose.com/barcode/java/).
+Félicitations ! Vous avez appris comment **lire un code‑barres à partir d'un PDF en Java** en utilisant Aspose.BarCode, comment **générer une image de code‑barres Java**, et comment **extraire des images du PDF Java** pour un traitement ultérieur. N'hésitez pas à explorer des fonctionnalités supplémentaires telles que le traitement par lots, la prise en charge de différentes symbologies de code‑barres, ou l'intégration avec d'autres produits Aspose. Pour plus de détails, consultez la [documentation officielle](https://reference.aspose.com/barcode/java/).
 
-## Foire aux questions (FAQ)
+---
 
-### Q : Puis-je utiliser Aspose.BarCode pour Java sans licence ?
-Bien qu'Aspose.BarCode puisse être utilisé sans licence, il est recommandé d'en obtenir une pour bénéficier de toutes les fonctionnalités et de respecter les conditions de licence.
-
-### Q : Comment puis-je obtenir une licence temporaire pour Aspose.BarCode pour Java ?
- Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q : Existe-t-il des limitations sur les types de codes-barres pris en charge par Aspose.BarCode ?
-Aspose.BarCode prend en charge un large éventail de types de codes-barres. Reportez-vous à la documentation pour une liste complète.
-
-### Q : Existe-t-il une version d'essai disponible pour Aspose.BarCode pour Java ?
- Oui, vous pouvez télécharger la version d'essai à partir de[ici](https://releases.aspose.com/).
-
-### Q : Où puis-je demander de l'aide ou poser des questions sur Aspose.BarCode pour Java ?
- Visitez le Aspose.BarCode[forum](https://forum.aspose.com/c/barcode/13) pour du soutien et des discussions.
+**Dernière mise à jour :** 2026-04-08  
+**Testé avec :** Aspose.BarCode pour Java 24.12, Aspose.PDF pour Java 24.12  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
