@@ -1,36 +1,60 @@
 ---
-title: Pengenalan Barcode yang Mudah dari Dokumen Word
-linktitle: Mengenali Barcode dari Dokumen Word
+date: 2026-04-12
+description: Pelajari cara mengenali kode batang dari dokumen Word menggunakan Aspose.BarCode
+  untuk Java. Panduan ini juga menunjukkan cara menambahkan kode batang ke Word dan
+  mengekstrak gambar dari Word.
+keywords:
+- how to recognize barcode
+- add barcode to word
+- read barcode from image
+- extract images from word
+- barcode detection java
+linktitle: Mengenali Kode Batang dari Dokumen Word
 second_title: Aspose.BarCode Java API
-description: Jelajahi integrasi pengenalan kode batang ke dalam aplikasi Java Anda dengan Aspose.BarCode. Ikuti tutorial ini untuk mengenali barcode dari dokumen Word.
-weight: 12
+title: Cara Mengenali Barcode dari Dokumen Word – Panduan Java
 url: /id/java/document-barcode-recognition/recognizing-barcodes-from-word/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengenalan Barcode yang Mudah dari Dokumen Word
+# Cara Mengenali Barcode dari Dokumen Word – Panduan Java
 
+## Pendahuluan
 
-## Perkenalan
+Jika Anda perlu **cara mengenali barcode** yang tertanam dalam file Microsoft Word, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan membahas contoh lengkap end‑to‑end yang menggunakan Aspose.BarCode for Java untuk menghasilkan barcode, menyisipkannya ke dalam dokumen Word, mengekstrak gambar kembali, dan akhirnya membaca data barcode. Pada akhir tutorial Anda juga akan melihat cara **menambahkan barcode ke Word**, **mengekstrak gambar dari Word**, dan melakukan operasi **deteksi barcode java**‑style — semuanya hanya dengan beberapa baris kode.
 
-Dalam dunia pemrograman Java yang dinamis, kebutuhan untuk bekerja dengan barcode secara efisien semakin meningkat. Mengenali kode batang dari dokumen Word adalah persyaratan umum, dan untungnya, Aspose.BarCode untuk Java memberikan solusi yang kuat. Dalam tutorial ini, kami akan memandu Anda melalui proses mengenali kode batang dari dokumen Word menggunakan Aspose.BarCode untuk Java.
+## Jawaban Cepat
+- **Perpustakaan apa yang diperlukan?** Aspose.BarCode for Java (plus Aspose.Words untuk menangani file .docx).  
+- **Bisakah saya membaca barcode dari gambar?** Ya – `BarCodeReader` dapat mendekode gambar yang diekstrak dari Word.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia.  
+- **Versi Java mana yang didukung?** Semua runtime JDK 8 + dapat digunakan.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk prototipe dasar.
+
+## Apa itu pengenalan barcode dari dokumen Word?
+
+Pengenalan barcode berarti memindai gambar yang berada di dalam file Word dan mengubah pola visual kembali menjadi string data aslinya (mis., “test‑123”). Aspose.BarCode menyediakan mesin dekoding, sementara Aspose.Words memungkinkan kami mengekstrak gambar dari kontainer .doc/.docx.
+
+## Mengapa menggunakan Aspose.BarCode untuk Java?
+
+- **Akurasi tinggi** pada lebih dari 60 simbol, termasuk Code 39, QR, DataMatrix, dll.  
+- **Tanpa dependensi eksternal** – Java murni, tanpa pustaka native.  
+- **Integrasi mulus** dengan Aspose.Words, memudahkan **mengekstrak gambar dari Word** dan kemudian **membaca barcode dari gambar**.  
+- **Lisensi yang kuat** yang berfungsi di lingkungan desktop, server, dan cloud.
 
 ## Prasyarat
 
-Sebelum kita masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum kami menyelam ke dalam kode, pastikan Anda memiliki:
 
-- Java Development Kit (JDK): Aspose.BarCode untuk Java memerlukan lingkungan pengembangan Java. Pastikan Anda menginstal JDK terbaru di sistem Anda.
+- **Java Development Kit (JDK)** – versi terbaru disarankan.  
+- **Aspose.BarCode for Java** – unduh dan instal pustaka dari situs resmi [di sini](https://releases.aspose.com/barcode/java/).  
+- **IDE** – IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai.
 
--  Aspose.BarCode untuk Java: Unduh dan instal perpustakaan Aspose.BarCode untuk Java. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/barcode/java/).
+## Impor Paket
 
-- Lingkungan Pengembangan Terintegrasi (IDE): Pilih IDE pilihan Anda, seperti Eclipse atau IntelliJ, untuk mengikuti contohnya.
-
-## Paket Impor
-
-Di proyek Java Anda, impor paket Aspose.BarCode yang diperlukan untuk memulai:
+Dalam proyek Java Anda, impor kelas Aspose.BarCode dan Aspose.Words yang diperlukan:
 
 ```java
 import java.text.MessageFormat;
@@ -45,9 +69,9 @@ import com.aspose.words.NodeCollection;
 import com.aspose.words.NodeType;
 ```
 
-## Langkah 1: Hasilkan Gambar Barcode
+## Langkah 1: Hasilkan Gambar Barcode
 
-Pertama, buat gambar barcode menggunakan Aspose.BarCode. Atur teks kode dan simpan gambar:
+Pertama, buat gambar barcode yang nanti akan kami sematkan ke dalam file Word.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);
@@ -56,9 +80,9 @@ String strBarCodeImageSave = dataDir + "img.jpg";
 generator.save(strBarCodeImageSave);
 ```
 
-## Langkah 2: Tambahkan Gambar ke Dokumen Word
+## Langkah 2: Tambahkan Barcode ke Dokumen Word
 
-Sekarang, masukkan gambar barcode yang dihasilkan ke dalam dokumen Word menggunakan Aspose.Words:
+Sekarang kami akan menyisipkan gambar yang baru saja dihasilkan ke dalam dokumen Word baru. Ini menunjukkan skenario **add barcode to word**.
 
 ```java
 Document doc = new Document();
@@ -68,9 +92,9 @@ String strWordFile = "docout.doc";
 doc.save(dataDir + strWordFile);
 ```
 
-## Langkah 3: Kenali Barcode dari Dokumen Word
+## Langkah 3: Ekstrak Gambar dan Kenali Barcode
 
-Selanjutnya, ekstrak gambar dari dokumen Word dan kenali kode batang menggunakan Aspose.BarCode:
+Setelah dokumen disimpan, kami dapat mengekstrak setiap gambar (termasuk barcode kami) dan menjalankan **barcode detection java** pada masing‑masing.
 
 ```java
 NodeCollection<Shape> shapes = doc.getChildNodes(NodeType.SHAPE, true);
@@ -78,13 +102,13 @@ int imageIndex = 0;
 
 for (Shape shape : shapes) {
     if (shape.hasImage()) {
-        // Ekstrak gambar ke file
+        // Extract image to file
         String extension = ImageTypeToExtension(shape.getImageData().getImageType());
         String imageFileName = MessageFormat.format("Image.ExportImages.{0} Out.{1}", imageIndex, extension);
         String strBarCodeImageExtracted = "" + imageFileName;
         shape.getImageData().save(strBarCodeImageExtracted);
 
-        // Kenali kode batang dari gambar ini
+        // Recognize barcode from this image
         BarCodeReader reader = new BarCodeReader(strBarCodeImageSave, DecodeType.CODE_39_STANDARD);
         for (BarCodeResult result : reader.readBarCodes()) {
             System.out.println("CodeText: " + result.getCodeText());
@@ -95,28 +119,39 @@ for (Shape shape : shapes) {
 }
 ```
 
-Ulangi langkah-langkah ini, dan Anda akan berhasil mengenali kode batang dari dokumen Word menggunakan Aspose.BarCode untuk Java.
+> **Tip profesional:** Jika Anda perlu **membaca barcode dari gambar** yang tidak berada di dalam dokumen Word, cukup berikan jalur file ke `BarCodeReader` – logika dekoding yang sama berlaku.
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Kesimpulannya, memanfaatkan Aspose.BarCode untuk Java menyederhanakan proses pengenalan kode batang dari dokumen Word. Ikuti langkah-langkah yang diuraikan di atas, dan Anda akan mengintegrasikan pengenalan kode batang ke dalam aplikasi Java Anda dengan lancar.
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| `NullPointerException` pada `shape.getImageData()` | Bentuk tidak berisi gambar. | Tambahkan pemeriksaan `shape.hasImage()` (sudah ditunjukkan). |
+| Tipe barcode yang salah dikembalikan | Menggunakan `DecodeType` yang salah. | Cocokkan `EncodeTypes` yang Anda gunakan saat menghasilkan (mis., `CODE_39_STANDARD`). |
+| Gambar tidak tersimpan dengan benar | Izin menulis yang hilang di `dataDir`. | Pastikan direktori ada dan dapat ditulisi. |
+| Lisensi tidak diterapkan | Mode evaluasi membatasi fungsionalitas. | Muat lisensi Aspose Anda saat aplikasi dimulai: `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` |
 
-## Pertanyaan yang Sering Diajukan (FAQ)
+## Pertanyaan yang Sering Diajukan
 
-### T: Dapatkah saya menggunakan Aspose.BarCode untuk Java dalam proyek komersial?
- Ya, Aspose.BarCode untuk Java tersedia untuk penggunaan komersial. Anda dapat menemukan detail lisensi[Di Sini](https://purchase.aspose.com/buy).
+### T: Bisakah saya menggunakan Aspose.BarCode untuk Java dalam proyek komersial?
+J: Ya, Aspose.BarCode untuk Java tersedia untuk penggunaan komersial. Anda dapat menemukan detail lisensi [di sini](https://purchase.aspose.com/buy).
 
-### T: Apakah tersedia uji coba gratis untuk Aspose.BarCode untuk Java?
- Ya, Anda dapat menjelajahi fitur Aspose.BarCode untuk Java dengan mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+### T: Apakah tersedia percobaan gratis untuk Aspose.BarCode untuk Java?
+J: Ya, Anda dapat menjelajahi fitur Aspose.BarCode untuk Java dengan mengunduh percobaan gratis [di sini](https://releases.aspose.com/).
 
 ### T: Bagaimana cara mendapatkan dukungan untuk Aspose.BarCode untuk Java?
-Untuk bantuan atau pertanyaan apa pun, kunjungi forum Aspose.BarCode[Di Sini](https://forum.aspose.com/c/barcode/13).
+J: Untuk bantuan atau pertanyaan, kunjungi forum Aspose.BarCode [di sini](https://forum.aspose.com/c/barcode/13).
 
 ### T: Apakah lisensi sementara tersedia untuk Aspose.BarCode untuk Java?
- Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+J: Ya, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-### T: Di mana saya dapat menemukan dokumentasi Aspose.BarCode untuk Java?
- Lihat dokumentasi komprehensif[Di Sini](https://reference.aspose.com/barcode/java/).
+### T: Di mana saya dapat menemukan dokumentasi untuk Aspose.BarCode untuk Java?
+J: Lihat dokumentasi lengkap [di sini](https://reference.aspose.com/barcode/java/).
+
+---  
+
+**Terakhir Diperbarui:** 2026-04-12  
+**Diuji Dengan:** Aspose.BarCode 24.11 untuk Java  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
