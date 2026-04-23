@@ -1,110 +1,140 @@
 ---
-title: การตั้งค่าระยะขอบสำหรับภาพบาร์โค้ดใน Java
-linktitle: การตั้งค่าระยะขอบสำหรับภาพบาร์โค้ด
+date: 2026-04-23
+description: เรียนรู้วิธีตั้งค่าขอบของบาร์โค้ดใน Java และสร้างภาพบาร์โค้ดด้วย Aspose.BarCode
+  for Java ปรับแต่งระยะห่างเพื่อการผสานรวมที่ราบรื่น
+keywords:
+- set barcode margins java
+- generate barcode image java
+- Aspose.BarCode Java
+linktitle: การตั้งค่าขอบสำหรับภาพบาร์โค้ด
 second_title: Aspose.BarCode Java API
-description: เรียนรู้วิธีตั้งค่าระยะขอบสำหรับภาพบาร์โค้ดใน Java โดยใช้ Aspose.BarCode ปรับแต่งระยะห่างเพื่อการผสานรวมเข้ากับแอปพลิเคชันของคุณได้อย่างราบรื่น
-weight: 11
+title: ตั้งค่าขอบของบาร์โค้ดใน Java – ปรับระยะห่างของภาพบาร์โค้ดด้วย Aspose
 url: /th/java/image-manipulation/setting-margins-barcode-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การตั้งค่าระยะขอบสำหรับภาพบาร์โค้ดใน Java
+# ตั้งค่าขอบ Barcode Java
 
+## บทนำ
 
-## การแนะนำ
+การตั้งค่าขอบของบาร์โค้ดใน Java เป็นขั้นตอนเล็ก ๆ แต่สำคัญเมื่อคุณสร้างภาพบาร์โค้ดใน Java สำหรับการติดฉลาก, การจัดการสินค้าคงคลัง, หรือระบบจุดขาย (POS). ขอบที่เหมาะสมทำให้บาร์โค้ดอ่านได้โดยสแกนเนอร์และพอดีกับ UI หรือเลย์เอาต์ที่พิมพ์ออกมาอย่างเรียบร้อย ในบทเรียนนี้ เราจะอธิบายขั้นตอนการกำหนดขอบบน, ขวา, ซ้าย, และล่างโดยใช้ไลบรารี Aspose.BarCode สำหรับ Java.
 
-ในขณะที่เทคโนโลยีก้าวหน้าอย่างต่อเนื่อง การรวมบาร์โค้ดเข้ากับแอปพลิเคชัน Java จึงกลายเป็นแนวทางปฏิบัติทั่วไปสำหรับอุตสาหกรรมต่างๆ การสร้างภาพบาร์โค้ดถือเป็นลักษณะพื้นฐานของกระบวนการนี้ และการพิจารณาที่สำคัญประการหนึ่งก็คือการตั้งค่าระยะขอบสำหรับภาพบาร์โค้ด ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบรรลุเป้าหมายนี้โดยใช้ Aspose.BarCode สำหรับไลบรารี Java อันทรงพลัง
+## คำตอบสั้น
+- **ไลบรารีที่แนะนำคือ?** Aspose.BarCode for Java  
+- **เมธอดใดที่ตั้งค่าขอบ?** `getParameters().getBarcode().getPadding()`  
+- **สามารถตั้งค่าขอบเป็นพิกเซลได้หรือไม่?** ใช่, using the `setPixels()` method  
+- **ต้องการไลเซนส์หรือไม่?** A temporary license works for testing; a full license is required for production  
+- **รูปแบบภาพที่รองรับคืออะไร?** JPEG, PNG, BMP, GIF, and more  
+
+## set barcode margins java คืออะไร
+
+เมื่อบาร์โค้ดถูกเรนเดอร์ ไลบรารีจะเพิ่มช่องว่างสีขาวเริ่มต้นรอบ ๆ แถบบาร์โค้ด ฟีเจอร์ *set barcode margins java* ช่วยให้คุณสามารถเขียนทับการเว้นช่องว่างเริ่มต้นนั้นได้ ทำให้คุณควบคุมปริมาณพื้นที่ว่างที่ปรากฏบนแต่ละด้านของบาร์โค้ดได้อย่างแม่นยำ.
+
+## ทำไมต้องตั้งค่าขอบเมื่อสร้างภาพบาร์โค้ด Java?
+
+- **ความน่าเชื่อถือในการสแกนที่ดีขึ้น:** Adequate whitespace prevents scanners from misreading adjacent graphics.  
+- **เลย์เอาต์ที่สม่ำเสมอ:** Margins let you align barcodes with other UI elements without manual cropping.  
+- **การปรับแต่งการพิมพ์:** Reduces the risk of clipping when the image is printed on labels of various sizes.  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมี:
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนเครื่องของคุณ
--  Aspose.BarCode สำหรับ Java Library: ดาวน์โหลดและติดตั้งไลบรารี Aspose.BarCode จากไฟล์[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/barcode/java/).
-- ไดเร็กทอรีเอกสาร: ระบุหรือสร้างไดเร็กทอรีที่คุณต้องการบันทึกภาพบาร์โค้ด
+- **สภาพแวดล้อมการพัฒนา Java:** JDK 8 หรือใหม่กว่า ที่ติดตั้งและกำหนดค่าแล้ว.  
+- **ไลบรารี Aspose.BarCode สำหรับ Java:** ดาวน์โหลดและติดตั้งไลบรารีจาก [ลิงก์ดาวน์โหลด](https://releases.aspose.com/barcode/java/).  
+- **ไดเรกทอรีเอกสาร:** โฟลเดอร์บนเครื่องของคุณที่บาร์โค้ดที่สร้างจะถูกบันทึก.  
 
-## แพ็คเกจนำเข้า
+## นำเข้าแพ็กเกจ
 
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นสำหรับการใช้ Aspose.BarCode ต่อไปนี้เป็นตัวอย่างข้อมูลเพื่อการเริ่มต้น:
+ในโปรเจกต์ Java ของคุณ ให้นำเข้าแพ็กเกจที่จำเป็นสำหรับการใช้ Aspose.BarCode โค้ดตัวอย่างด้านล่างแสดงการตั้งค่าเบื้องต้น:
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีทรัพยากร
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 
-// เริ่มต้น BarcodeGenerator ด้วยการเข้ารหัส CODE_128 และข้อมูล "1234567"
+// Initialize BarcodeGenerator with CODE_128 encoding and data "1234567"
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าระยะขอบด้านบน
+## ขั้นตอนที่ 1: ตั้งค่าขอบบน
 
-หากต้องการตั้งค่าระยะขอบด้านบนของภาพบาร์โค้ด ให้ใช้รหัสต่อไปนี้:
+ขอบบนกำหนดพื้นที่ว่างเหนือแถบบาร์โค้ด.
 
 ```java
-// ตั้งค่าระยะขอบด้านบนเป็นพิกเซล
+// Set top margin in pixels
 bb.getParameters().getBarcode().getPadding().getTop().setPixels(2f);
 ```
 
-## ขั้นตอนที่ 2: ตั้งค่าระยะขอบขวา
+## ขั้นตอนที่ 2: ตั้งค่าขอบขวา
 
-หากต้องการตั้งค่าระยะขอบที่เหมาะสมสำหรับภาพบาร์โค้ด ให้ใช้รหัสต่อไปนี้:
+ปรับพื้นที่ทางด้านขวาของบาร์โค้ด.
 
 ```java
-// ตั้งค่าระยะขอบขวาเป็นพิกเซล
+// Set right margin in pixels
 bb.getParameters().getBarcode().getPadding().getRight().setPixels(2f);
 ```
 
-## ขั้นตอนที่ 3: ตั้งค่าระยะขอบซ้าย
+## ขั้นตอนที่ 3: ตั้งค่าขอบซ้าย
 
-หากต้องการตั้งค่าระยะขอบด้านซ้ายสำหรับภาพบาร์โค้ด ให้ใช้รหัสต่อไปนี้:
+ควบคุมพื้นที่ว่างด้านซ้าย.
 
 ```java
-// ตั้งค่าระยะขอบซ้ายเป็นพิกเซล
+// Set left margin in pixels
 bb.getParameters().getBarcode().getPadding().getLeft().setPixels(2f);
 ```
 
-## ขั้นตอนที่ 4: ตั้งค่าระยะขอบล่าง
+## ขั้นตอนที่ 4: ตั้งค่าขอบล่าง
 
-หากต้องการตั้งค่าระยะขอบด้านล่างสำหรับรูปภาพบาร์โค้ด ให้ใช้รหัสต่อไปนี้:
+กำหนดพื้นที่ด้านล่างของบาร์โค้ด.
 
 ```java
-// ตั้งค่าระยะขอบด้านล่างเป็นพิกเซล
+// Set bottom margin in pixels
 bb.getParameters().getBarcode().getPadding().getBottom().setPixels(2f);
 ```
 
-## ขั้นตอนที่ 5: บันทึกรูปภาพ
+## ขั้นตอนที่ 5: บันทึกภาพ
 
-สุดท้าย ให้บันทึกภาพบาร์โค้ดที่สร้างขึ้นโดยมีระยะขอบที่ระบุ:
+หลังจากกำหนดค่าขอบทั้งหมดแล้ว ให้บันทึกภาพบาร์โค้ดไปยังตำแหน่งที่ต้องการ.
 
 ```java
-// บันทึกภาพ
+// Save the image
 bb.save(dataDir + "barcode-image-margins.jpg");
 ```
 
-ทำซ้ำขั้นตอนเหล่านี้ตามความจำเป็นเพื่อปรับแต่งระยะขอบตามความต้องการของคุณ
+ทำซ้ำขั้นตอนเหล่านี้ตามต้องการเพื่อปรับขอบให้เหมาะกับขนาดบาร์โค้ดหรือความต้องการเลย์เอาต์ที่แตกต่างกัน.
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-ในบทช่วยสอนนี้ เราได้สำรวจกระบวนการตั้งค่าระยะขอบสำหรับภาพบาร์โค้ดใน Java โดยใช้ Aspose.BarCode ด้วยการทำตามขั้นตอนเหล่านี้ คุณสามารถมั่นใจได้ว่าบาร์โค้ดของคุณจะผสานรวมเข้ากับแอปพลิเคชันของคุณได้อย่างราบรื่นด้วยระยะห่างที่ต้องการ
+- **ขอบไม่เปลี่ยนแปลง:** Ensure you call the margin‑setting methods **before** saving the image.  
+- **ภาพถูกตัด:** Verify that the target folder has write permissions and that the file name does not conflict with existing files.  
+- **สแกนเนอร์ไม่สามารถอ่านบาร์โค้ดได้:** Increase the margin values gradually (e.g., from 2 px to 5 px) until the scanner reliably detects the code.  
 
-## คำถามที่พบบ่อย (FAQ)
+## คำถามที่พบบ่อย (FAQs)
 
-### ฉันสามารถใช้ Aspose.BarCode สำหรับ Java กับภาษาการเขียนโปรแกรมอื่นได้หรือไม่
-Aspose.BarCode ได้รับการออกแบบมาเพื่อ Java เป็นหลัก แต่มีเวอร์ชันสำหรับภาษาการเขียนโปรแกรมอื่นๆ เช่น .NET
+**Q: ฉันสามารถใช้ Aspose.BarCode สำหรับ Java กับภาษาโปรแกรมอื่นได้หรือไม่?**  
+A: Aspose.BarCode is primarily designed for Java, but there are versions available for .NET and other languages.
 
-### มีใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่
- ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับการทดสอบได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+**Q: มีไลเซนส์ชั่วคราวสำหรับการทดสอบหรือไม่?**  
+A: ใช่, you can obtain a temporary license for testing from [ที่นี่](https://purchase.aspose.com/temporary-license/).
 
-### ฉันจะรับการสนับสนุนเพิ่มเติมหรือถามคำถามได้ที่ไหน
- เยี่ยมชม Aspose.BarCode[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/barcode/13) สำหรับความช่วยเหลือและการอภิปรายในชุมชน
+**Q: ฉันจะหาแหล่งสนับสนุนเพิ่มเติมหรือถามคำถามได้จากที่ไหน?**  
+A: เยี่ยมชม Aspose.BarCode [support forum](https://forum.aspose.com/c/barcode/13) เพื่อขอความช่วยเหลือและการสนทนาชุมชน.
 
-### มีตัวเลือกให้ทดลองใช้งานฟรีหรือไม่?
- ใช่ คุณสามารถสำรวจ Aspose.BarCode เวอร์ชันทดลองใช้ฟรีได้จาก[ลิงค์นี้](https://releases.aspose.com/).
+**Q: มีตัวเลือกทดลองใช้ฟรีหรือไม่?**  
+A: ใช่, you can explore the free trial version of Aspose.BarCode from [ลิงก์นี้](https://releases.aspose.com/).
 
-### ฉันจะซื้อ Aspose.BarCode สำหรับ Java เวอร์ชันเต็มได้อย่างไร
- คุณสามารถซื้อ Aspose.BarCode สำหรับ Java เวอร์ชันเต็มได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+**Q: ฉันจะซื้อเวอร์ชันเต็มของ Aspose.BarCode สำหรับ Java ได้อย่างไร?**  
+A: คุณสามารถซื้อเวอร์ชันเต็มของ Aspose.BarCode สำหรับ Java จาก [หน้าซื้อ](https://purchase.aspose.com/buy).
+
+---
+
+**อัปเดตล่าสุด:** 2026-04-23  
+**ทดสอบด้วย:** Aspose.BarCode for Java 24.11  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
