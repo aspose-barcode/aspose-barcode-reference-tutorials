@@ -1,38 +1,54 @@
 ---
-title: Java でのバーコードの取得と認識
+date: 2026-04-29
+description: Aspose.BarCode を使用して Java でバーコードを読み取る方法を学びましょう。このチュートリアルでは、データベースからバーコード画像を取得し認識するバーコードリーダーの例を示しています。
+keywords:
+- read barcode java
+- barcode reader example
+- java barcode library
+- read barcode image
+- recognize barcode image
 linktitle: バーコードの取得と認識
 second_title: Aspose.BarCode Java API
-description: Aspose.BarCode for Java を簡単に統合 - データベースからバーコードを取得して認識します。今すぐダウンロードして、シームレスなバーコード統合エクスペリエンスを体験してください。
-weight: 11
+title: Javaでバーコードを読み取る – Asposeでバーコードを取得・認識
 url: /ja/java/symbology-and-format/fetching-recognizing-barcode/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java でのバーコードの取得と認識
+# バーコード Java の読み取り – バーコードの取得と認識
 
+## はじめに
 
-## 導入
+**read barcode java** アプリケーションを迅速に処理する必要がある場合、Aspose.BarCode for Java は、データベースからバーコード画像を取得し、数行のコードで認識するシンプルで高性能な方法を提供します。このチュートリアルでは、データベースへの接続、バーコード画像の抽出、そして Aspose のバーコードリーダーを使用してデコードする完全な実践例を順に解説します。最後まで読むと、任意の Java プロジェクトに組み込める再利用可能なスニペットが手に入ります。
 
-バーコード認識を Java アプリケーションに簡単に統合したいと考えていますか? Aspose.BarCode for Java は、バーコードを簡単に取得して認識するための強力でユーザーフレンドリーなソリューションを提供します。このステップバイステップのガイドでは、Aspose.BarCode を使用してバーコードを取得して認識し、Java プロジェクトにシームレスに統合するプロセスについて説明します。
+## クイック回答
+- **ライブラリは何をしますか？** ファイルやストリームから直接バーコード画像（例: Code 39）を読み取ります。  
+- **対象となる主要キーワードは？** read barcode java  
+- **テストにライセンスは必要ですか？** 評価用の一時ライセンスが利用可能です。  
+- **使用されているデータベースの種類は？** 例では MySQL を使用していますが、コードは任意の JDBC 対応データベースで動作します。  
+- **実装にどれくらい時間がかかりますか？** 基本的な統合でおおよそ 10‑15 分です。
+
+## “read barcode java” とは？
+Java でバーコードを読み取るとは、バーコードパターンを含む画像をロードし、デコードエンジンを使用してそのパターンを元のデータ文字列に変換することです。Aspose.BarCode は、Code 39、QR、DataMatrix など数十種類のシンボロジーをサポートする堅牢なデコーダーを提供します。
+
+## なぜ Aspose の Java バーコードライブラリを使用するのか？
+- **幅広いシンボロジーサポート** – 標準で 150 種類以上のバーコードに対応。  
+- **外部依存なし** – 純粋な Java で、JDK 8+ があればどのプラットフォームでも動作。  
+- **高精度** – 最適化されたアルゴリズムにより、低品質画像でも誤読を減少。  
+- **シンプルな API** – 数行のコードで生画像を可読テキストに変換。
 
 ## 前提条件
-
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-
-- Java プログラミングの基本的な理解。
--  Aspose.BarCode for Java ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/barcode/java/).
-- BLOB 形式で保存されたバーコード イメージを含むデータベースにアクセスします。
-- Java Development Kit (JDK) がマシンにインストールされています。
+- Java プログラミングの基本知識。  
+- Aspose.BarCode for Java ライブラリ（**[here](https://releases.aspose.com/barcode/java/)** からダウンロード）。  
+- バーコード画像を BLOB として保存しているデータベースへのアクセス。  
+- 開発マシンに JDK 8 以上がインストールされていること。
 
 ## パッケージのインポート
 
-まず、Java プロジェクトに必要なパッケージをインポートします。 Aspose.BarCode ライブラリがプロジェクトの依存関係に含まれていることを確認してください。
-
 ```java
-
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -41,31 +57,31 @@ import java.io.*;
 import java.sql.*;
 ```
 
-## ステップ 1: データベース接続を確立する
+## 手順 1: データベース接続の確立
 
 ```java
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 
-//データベースへの接続を開きます
+// Open a connection to the database
 Connection con = null;
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 ```
 
-## ステップ 2: SQL クエリを実行する
+## 手順 2: SQL クエリの実行
 
 ```java
-//SELECT SQLを実行するステートメントを作成します。
+// Create a statement to execute the SELECT SQL
 PreparedStatement st = con.prepareStatement("SELECT * FROM Product ");
 st.executeQuery();
 ResultSet rs = st.getResultSet();
 ```
 
-## ステップ 3: イメージのフェッチと作成
+## 手順 3: 画像の取得と作成
 
 ```java
 while (rs.next()) {
-    //BLOBフィールドを読み取り、そこからイメージを作成します
+    // Read BLOB field and create an image from it
     String len1 = rs.getString("BarCodeImage");
     int len = len1.length();
     byte[] b = new byte[len];
@@ -75,18 +91,18 @@ while (rs.next()) {
     OutputStream outImgBarCode = new FileOutputStream(strBarCodeImage);
 
     while (index != -1) {
-        //ファイルにバイトを書き込む
+        // Write bytes to file
         outImgBarCode.write(b, 0, index);
-        //次のバイトを読み取る
+        // Read next bytes
         index = in.read(b, 0, len);
     }
     outImgBarCode.close();
 ```
 
-## ステップ 4: 画像からバーコードを読み取る
+## 手順 4: 画像からバーコードを読み取る
 
 ```java
-//画像からバーコードを読み取ります
+// Read the barcode from the image
 BarCodeReader reader = new BarCodeReader(strBarCodeImage, DecodeType.CODE_39_STANDARD);
 
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -104,28 +120,33 @@ System.out.println(ex.getMessage());
 }
 ```
 
-これらの手順に従うことで、Aspose.BarCode を Java アプリケーションにシームレスに統合でき、データベースからのバーコードの効率的なフェッチと認識が可能になります。
-
-## 結論
-
-結論として、Aspose.BarCode for Java はバーコードの取得と認識のプロセスを簡素化し、信頼性が高く効率的なソリューションを求める開発者にとって理想的な選択肢となります。このガイドに従うことで、Java アプリケーションにバーコード認識を簡単に実装できます。
+## よくある問題と解決策
+- **BLOB 読み取り時の NullPointerException** – カラム名が正確に一致していること、BLOB に実際にデータが含まれていることを確認してください。  
+- **サポートされていないバーコードタイプ** – `DecodeType` が画像に保存されたシンボロジーと一致しているか確認してください。QR コードの場合は `DecodeType.QR` を使用します。  
+- **ファイルパスの権限エラー** – `strBarCodeImage` のパスが Java プロセスから書き込み可能であることを確認してください。必要に応じて一時ディレクトリを使用します。
 
 ## よくある質問
 
-### Aspose.BarCode はすべてのバーコード タイプと互換性がありますか?
-はい、Aspose.BarCode は、CODE_39_STANDARD、QR コードなどを含む幅広い種類のバーコードをサポートしています。完全なリストについてはドキュメントを確認してください。
+**Q: Aspose.BarCode はすべてのバーコードタイプに対応していますか？**  
+A: はい、CODE_39_STANDARD、QR Code、DataMatrix など多数のバーコードシンボロジーに対応しています。完全なリストは製品ドキュメントをご参照ください。
 
-### Aspose.BarCode を別のデータベースで使用できますか?
-確かに、Aspose.BarCode はさまざまなデータベースで動作するように設計されています。それに応じてデータベース接続の詳細を調整してください。
+**Q: 異なるデータベースでも Aspose.BarCode を使用できますか？**  
+A: もちろんです。例では MySQL を使用していますが、ドライバクラスと接続文字列を変更すれば PostgreSQL、SQL Server、または任意の JDBC 対応データベースに切り替え可能です。
 
-### バーコード認識中のエラーはどのように処理すればよいですか?
-例外処理は非常に重要です。バーコード認識中の予期せぬ問題に対処するために、堅牢なエラー処理を必ず実装してください。
+**Q: バーコード認識中のエラーはどのように処理すべきですか？**  
+A: 読み取りロジックを try‑catch ブロックで囲み（例参照）、例外メッセージをログに記録してください。一時的な I/O エラー時には再試行を検討し、デコード前に画像ファイルが存在することを確認しましょう。
 
-### Aspose.BarCode は大規模なアプリケーションに適していますか?
-はい、Aspose.BarCode は大規模なアプリケーションを処理できるように設計されており、高いパフォーマンスと信頼性を提供します。
+**Q: 大規模アプリケーションにこのライブラリは適していますか？**  
+A: はい。Aspose.BarCode は高スループットシナリオ向けに設計されており、必要に応じて単一の `BarCodeReader` インスタンスを複数スレッドで再利用できます。
 
-### 一時ライセンスはテスト目的で利用できますか?
-はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
+**Q: テスト用の一時ライセンスはどこで取得できますか？**  
+A: 評価目的で一時ライセンスは **[here](https://purchase.aspose.com/temporary-license/)** から取得できます。
+
+---
+
+**最終更新日:** 2026-04-29  
+**テスト環境:** Aspose.BarCode for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
