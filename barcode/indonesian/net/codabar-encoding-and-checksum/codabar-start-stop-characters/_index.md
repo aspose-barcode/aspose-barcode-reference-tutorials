@@ -1,49 +1,57 @@
 ---
-title: Hasilkan Kode Batang Codabar dengan Karakter Mulai/Hentikan di Aspose.BarCode untuk .NET
-linktitle: Karakter Mulai/Hentikan Codabar
+date: 2026-01-04
+description: Pelajari cara menghasilkan barcode codabar dengan karakter start dan
+  stop menggunakan Aspose.BarCode untuk .NET. Tutorial langkah demi langkah pembuatan
+  barcode untuk pengembang.
+linktitle: Codabar Start/Stop Characters
 second_title: Aspose.BarCode .NET API
-description: Pelajari cara membuat kode batang Codabar dengan karakter mulai dan berhenti menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pengembang.
-weight: 11
+title: Hasilkan Kode Batang Codabar dengan Karakter Mulai/Hentikan di Aspose.BarCode
+  untuk .NET
 url: /id/net/codabar-encoding-and-checksum/codabar-start-stop-characters/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hasilkan Kode Batang Codabar dengan Karakter Mulai/Hentikan di Aspose.BarCode untuk .NET
+# Hasilkan Kode batang Codabar dengan Karakter Mulai/Hentikan di Aspose.BarCode untuk .NET
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di panduan komprehensif tentang penggunaan Aspose.BarCode untuk .NET. Dalam tutorial ini, kita akan mendalami dunia karakter start/stop Codabar, menjelajahi signifikansinya dan cara mengimplementasikannya secara efektif menggunakan Aspose.BarCode untuk .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan pengkodean, panduan langkah demi langkah ini akan membantu Anda menguasai seni membuat kode batang Codabar dengan karakter mulai dan berhenti.
+Selamat datang di panduan komprehensif tentang cara **menghasilkan kode batang codabar** dalam bentuk gambar dengan karakter mulai/hentikan menggunakan Aspose.BarCode untuk .NET. Baik Anda sedang membangun sistem inventaris ritel, pelacak sampel laboratorium, atau solusi rekam medis, Codabar adalah simbol numerik yang andal dan memerlukan simbol mulai dan hentikan yang eksplisit untuk pemindaian yang akurat. Dalam beberapa menit ke depan kami akan menuntun Anda melalui semua yang diperlukan—dari prasyarat hingga menyimpan file PNG akhir—sehingga Anda dapat langsung mulai membuat kode batang Codabar.
+
+## Jawaban Cepat
+- **Apa pustaka yang saya perlukan?** Aspose.BarCode untuk .NET  
+- **Format apa yang dapat saya gunakan untuk menyimpan barcode?** PNG (BarCodeImageFormat.Png)  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya mengubah simbol mulai/hentikan?** Ya – gunakan CodabarSymbol.A, B, C, atau D.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki semua yang perlu Anda ikuti bersama dengan tutorial ini:
+Sebelum kita mulai, pastikan Anda memiliki semua yang diperlukan untuk mengikuti tutorial ini:
 
-1.  Pengaturan Lingkungan: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi di mesin Anda. Jika tidak, lihat[dokumentasi](https://reference.aspose.com/barcode/net/) untuk panduan dalam mengatur lingkungan Anda.
+1. **Pengaturan Lingkungan** – Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi di mesin Anda. Jika membutuhkan panduan, lihat [documentation](https://reference.aspose.com/barcode/net/).  
+2. **Pustaka Aspose.BarCode untuk .NET** – Unduh dan instal pustaka dari [source](https://releases.aspose.com/barcode/net/).  
+3. **Pengetahuan Dasar .NET** – Kenalan dengan C# dan Visual Studio (atau IDE pilihan) akan mempermudah langkah-langkah.  
+4. **IDE** – Visual Studio, Rider, atau Visual Studio Code semuanya baik.
 
-2. Aspose.BarCode untuk Perpustakaan .NET: Anda harus menginstal perpustakaan Aspose.BarCode untuk .NET. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[sumber](https://releases.aspose.com/barcode/net/).
-
-3. Pengetahuan Dasar tentang .NET: Pemahaman mendasar tentang pemrograman .NET diperlukan untuk memahami konsep-konsep dalam tutorial ini.
-
-4. IDE (Lingkungan Pengembangan Terpadu): Anda dapat menggunakan Visual Studio atau IDE pilihan lainnya untuk pengembangan .NET.
-
-Sekarang kita telah membahas prasyaratnya, mari beralih menggunakan Aspose.BarCode untuk .NET untuk menghasilkan kode batang Codabar dengan karakter mulai/berhenti.
+Sekarang setelah kami membahas prasyarat, mari masuk ke kode sebenarnya.
 
 ## Impor Namespace
 
-Untuk memulai Aspose.BarCode untuk .NET, pastikan untuk mengimpor namespace yang diperlukan. Ini akan memungkinkan Anda untuk mengakses fungsionalitas perpustakaan dalam kode Anda. Anda dapat melakukannya menggunakan cuplikan kode berikut:
+Untuk memulai dengan Aspose.BarCode untuk .NET, pastikan mengimpor namespace yang diperlukan:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Sekarang, mari kita bagi prosesnya menjadi langkah-langkah yang mudah diikuti:
+## Cara menghasilkan kode batang codabar – Panduan Langkah‑per‑Langkah
 
-## Langkah 1: Inisialisasi Generator Barcode
+### Langkah 1: Inisialisasi Barcode Generator
 
-Mulailah dengan menyiapkan lingkungan untuk pembuatan kode batang. Pertama-tama Anda perlu membuat objek BarcodeGenerator, menentukan tipe pengkodean sebagai Codabar, dan data yang akan dikodekan. Berikut cara melakukannya:
+Buat instance `BarcodeGenerator`, tentukan **Codabar** sebagai tipe enkoding, dan berikan string data yang sudah berisi karakter mulai/hentikan (misalnya “-12345-”).
 
 ```csharp
 string path = "Your Directory Path";
@@ -52,55 +60,55 @@ System.Console.WriteLine("CodabarStartStop:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 ```
 
-Dalam contoh ini, kami menggunakan "-12345-" sebagai data yang akan dikodekan. Anda dapat menggantinya dengan data yang Anda inginkan.
+> **Pro tip:** Tanda hubung (`-`) adalah salah satu simbol mulai/hentikan yang valid untuk Codabar. Anda juga dapat menggunakan A, B, C, atau D tergantung pada kebutuhan aplikasi Anda.
 
-## Langkah 2: Atur Dimensi X
+### Langkah 2: Atur X‑Dimension (lebar elemen barcode)
 
-Dimensi X mewakili lebar elemen kode batang terkecil, biasanya diukur dalam piksel. Anda dapat mengatur Dimensi X menggunakan kode berikut:
+X‑Dimension mengontrol lebar bar paling sempit. Sesuaikan nilai ini agar cocok dengan lingkungan pemindaian Anda.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-Di sini, kami telah menetapkan Dimensi X ke 2 piksel, namun Anda dapat menyesuaikannya sesuai dengan kebutuhan spesifik Anda.
+> **Mengapa penting:** X‑Dimension yang lebih besar meningkatkan keterbacaan pada printer beresolusi rendah, sementara nilai yang lebih kecil menghemat ruang pada label berdensitas tinggi.
 
-## Langkah 3: Tentukan Karakter Mulai dan Berhenti
+### Langkah 3: Tentukan Karakter Mulai dan Hentikan
 
-Kode batang Codabar memiliki simbol mulai dan berhenti yang berbeda, termasuk A, B, C, dan D. Tergantung pada kebutuhan Anda, Anda dapat mengatur simbol-simbol ini sesuai dengan kebutuhan Anda. Mari kita lihat setiap kasusnya:
+Codabar mendukung empat simbol mulai/hentikan (A, B, C, D). Di bawah ini contoh untuk masing‑masing opsi. Pilih yang sesuai dengan spesifikasi sistem yang Anda integrasikan.
 
-### Mengatur Mulai A dan Berhenti A:
+#### Mengatur Start A dan Stop A
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.A;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.A;
 ```
 
-### Mengatur Mulai B dan Berhenti B:
+#### Mengatur Start B dan Stop B
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.B;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.B;
 ```
 
-### Mengatur Mulai C dan Berhenti C:
+#### Mengatur Start C dan Stop C
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.C;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.C;
 ```
 
-### Mengatur Mulai D dan Berhenti D:
+#### Mengatur Start D dan Stop D
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.D;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.D;
 ```
 
-Anda dapat memilih simbol mulai dan berhenti yang sesuai berdasarkan kebutuhan kode batang Anda.
+Anda dapat mengulangi konfigurasi untuk setiap simbol yang perlu dihasilkan; contoh di bawah menyimpan empat gambar terpisah—satu untuk setiap pasangan start/stop.
 
-## Langkah 4: Simpan Gambar Barcode yang Dihasilkan
+### Langkah 4: Simpan Gambar Barcode yang Dihasilkan (PNG)
 
-Setelah Anda mengonfigurasi pembuat kode batang dengan pengaturan yang diinginkan, Anda dapat menyimpan gambar kode batang Codabar yang dihasilkan ke direktori yang Anda tentukan menggunakan kode berikut:
+Akhirnya, tulis barcode ke file PNG. Ini memperlihatkan penggunaan **save barcode png** dan memberi Anda aset siap pakai untuk pengujian.
 
 ```csharp
 gen.Save($"{path}CodabarStartAStopA.png", BarCodeImageFormat.Png);
@@ -109,35 +117,42 @@ gen.Save($"{path}CodabarStartCStopC.png", BarCodeImageFormat.Png);
 gen.Save($"{path}CodabarStartDStopD.png", BarCodeImageFormat.Png);
 ```
 
-Kode ini akan menyimpan empat gambar barcode berbeda, masing-masing dengan simbol mulai dan berhenti yang sesuai, ke direktori yang ditentukan.
+Setiap file kini berisi **contoh kode batang codabar** dengan simbol start/stop yang bersesuaian.
 
-Selamat! Anda telah berhasil membuat kode batang Codabar dengan karakter mulai dan berhenti menggunakan Aspose.BarCode untuk .NET.
+## Masalah Umum & Pemecahan Masalah
 
-## Kesimpulan
+| Gejala | Penyebab Kemungkinan | Solusi |
+|--------|----------------------|--------|
+| Barcode tampak terdistorsi | X‑Dimension terlalu rendah untuk resolusi printer yang dipilih | Tingkatkan `XDimension.Pixels` (mis., menjadi 3 atau 4) |
+| Pemindai tidak dapat membaca start/stop | Simbol start/stop yang salah untuk sistem target | Verifikasi simbol yang diperlukan (A‑D) dan atur sesuai |
+| File PNG kosong atau rusak | Jalur output tidak valid atau izin menulis tidak cukup | Pastikan `path` mengarah ke folder yang ada dan aplikasi Anda memiliki hak menulis |
 
-Kesimpulannya, menguasai pembuatan kode batang Codabar dengan karakter mulai dan berhenti merupakan keterampilan penting untuk banyak aplikasi, mulai dari manajemen inventaris hingga perawatan kesehatan. Aspose.BarCode untuk .NET menyederhanakan proses ini, memungkinkan Anda membuat kode batang Codabar yang disesuaikan dengan mudah. Dengan pengetahuan yang Anda peroleh dalam tutorial ini, kini Anda dapat memanfaatkan kekuatan Aspose.BarCode untuk .NET untuk memenuhi kebutuhan pengkodean spesifik Anda.
+## Pertanyaan yang Sering Diajukan
 
-## FAQ
+### Q1: Apa itu Codabar, dan mengapa karakter mulai dan berhenti penting?
 
-### Q1: Apa itu Codabar, dan mengapa karakter awal dan akhir itu penting?
+A1: Codabar adalah simbol barcode numerik yang banyak digunakan dalam inventaris, perpustakaan, dan layanan kesehatan. Karakter mulai dan berhenti mendefinisikan batas barcode, memastikan pemindai mengetahui di mana data dimulai dan berakhir.
 
-A1: Codabar adalah simbologi barcode numerik yang digunakan di berbagai industri. Karakter awal dan akhir sangat penting karena menentukan awal dan akhir kode batang, sehingga memastikan pengambilan data yang akurat.
+### Q2: Bisakah saya menyesuaikan tampilan barcode Codabar dengan Aspose.BarCode untuk .NET?
 
-### Q2: Dapatkah saya menyesuaikan tampilan kode batang Codabar dengan Aspose.BarCode untuk .NET?
+A2: Ya. Selain X‑Dimension, Anda dapat mengubah warna, menambahkan margin, dan bahkan menyematkan barcode dalam format PDF atau SVG menggunakan API yang sama.
 
-A2: Ya, Anda dapat menyesuaikan tampilan kode batang Codabar dengan menyesuaikan parameter seperti Dimensi X dan simbol mulai/berhenti menggunakan Aspose.BarCode untuk .NET.
+### Q3: Apakah ada batasan pada barcode Codabar terkait pengkodean data?
 
-### Q3: Apakah ada batasan pada kode batang Codabar dalam hal pengkodean data?
+A3: Codabar terutama mendukung data numerik (0‑9) dan beberapa karakter khusus. Tidak cocok untuk string alfanumerik lengkap.
 
-A3: Kode batang Codabar terutama digunakan untuk pengkodean data numerik dan memiliki dukungan terbatas untuk karakter alfanumerik.
+### Q4: Apakah Aspose.BarCode untuk .NET cocok untuk penggunaan komersial, dan bagaimana cara mendapatkan lisensi?
 
-### Q4: Apakah Aspose.BarCode untuk ..NET cocok untuk penggunaan komersial, dan bagaimana saya bisa mendapatkan lisensinya?
-
- A4: Ya, Aspose.BarCode untuk .NET cocok untuk penggunaan komersial. Anda dapat memperoleh lisensi dengan mengunjungi[Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+A4: Ya, siap produksi. Beli lisensi di [halaman pembelian Aspose](https://purchase.aspose.com/buy).
 
 ### Q5: Di mana saya dapat mencari bantuan atau mendiskusikan masalah terkait Aspose.BarCode untuk .NET?
 
- A5: Anda dapat mengunjungi[Aspose.BarCode untuk forum dukungan .NET](https://forum.aspose.com/c/barcode/13) untuk mencari bantuan dan mendiskusikan masalah atau pertanyaan apa pun yang mungkin Anda miliki.
+A5: Bergabunglah dengan komunitas di [forum dukungan Aspose.BarCode untuk .NET](https://forum.aspose.com/c/barcode/13) untuk bantuan dari insinyur Aspose maupun pengembang lain.
+
+**Terakhir Diperbarui:** 2026-01-04  
+**Diuji Dengan:** Aspose.BarCode 24.11 untuk .NET  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
