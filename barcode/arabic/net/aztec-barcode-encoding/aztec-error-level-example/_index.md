@@ -121,13 +121,6 @@ gen.Save($"{path}AztecErrorLevel50.png", BarCodeImageFormat.Png);
 
 إذا واجهت أي تحديات، فإن المجتمع نشط على [منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13)، وتوفر الوثائق الرسمية رؤى أعمق حول التخصيص المتقدم.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-09  
@@ -135,3 +128,10 @@ gen.Save($"{path}AztecErrorLevel50.png", BarCodeImageFormat.Png);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

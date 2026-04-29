@@ -121,13 +121,6 @@ A: 포괄적인 API 레퍼런스는 [여기](https://reference.aspose.com/barcod
 
 문제가 발생하면 [Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13)에서 커뮤니티에 문의하고, 공식 문서에서 고급 커스터마이징에 대한 자세한 정보를 얻을 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2026-01-09  
@@ -135,3 +128,10 @@ A: 포괄적인 API 레퍼런스는 [여기](https://reference.aspose.com/barcod
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

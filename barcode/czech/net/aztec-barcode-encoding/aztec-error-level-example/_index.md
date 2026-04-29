@@ -122,15 +122,15 @@ Nyní víte, jak **vytvořit Aztec čárový kód** obrázky s přizpůsobenými
 
 Pokud narazíte na jakékoli potíže, komunita je aktivní na [Aspose.BarCode fóru](https://forum.aspose.com/c/barcode/13) a oficiální dokumentace poskytuje podrobnější informace o pokročilém přizpůsobení.
 
+---
+
+**Poslední aktualizace:** 2026-01-09  
+**Testováno s:** Aspose.BarCode 24.12 pro .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-09  
-**Testováno s:** Aspose.BarCode 24.12 pro .NET  
-**Autor:** Aspose

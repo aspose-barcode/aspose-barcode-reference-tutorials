@@ -122,13 +122,6 @@ Anda kini tahu cara **membuat gambar kode batang Aztec** dengan tingkat koreksi 
 
 Jika Anda menghadapi tantangan, komunitas aktif di [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), dan dokumentasi resmi menyediakan wawasan lebih dalam tentang kustomisasi lanjutan.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-01-09  
@@ -136,3 +129,10 @@ Jika Anda menghadapi tantangan, komunitas aktif di [forum Aspose.BarCode](https:
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

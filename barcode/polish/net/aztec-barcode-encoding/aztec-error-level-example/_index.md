@@ -122,13 +122,6 @@ Teraz wiesz, jak **tworzyć obrazy kodu kreskowego Aztec** z dostosowanymi pozio
 
 Jeśli napotkasz jakiekolwiek problemy, społeczność jest aktywna na [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), a oficjalna dokumentacja dostarcza głębszych informacji na temat zaawansowanej personalizacji.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-09  
@@ -136,3 +129,10 @@ Jeśli napotkasz jakiekolwiek problemy, społeczność jest aktywna na [forum As
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

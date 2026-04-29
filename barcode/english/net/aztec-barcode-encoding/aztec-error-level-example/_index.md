@@ -120,13 +120,6 @@ You now know how to **create Aztec barcode** images with customized error‑corr
 
 If you run into any challenges, the community is active on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13), and the official documentation provides deeper insights into advanced customization.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -134,3 +127,10 @@ If you run into any challenges, the community is active on the [Aspose.BarCode f
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

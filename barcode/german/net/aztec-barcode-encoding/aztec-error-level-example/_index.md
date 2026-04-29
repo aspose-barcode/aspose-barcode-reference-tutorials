@@ -122,13 +122,6 @@ Sie wissen jetzt, wie Sie **Aztec‑Barcode**‑Bilder mit benutzerdefinierten F
 
 Falls Sie auf Schwierigkeiten stoßen, ist die Community aktiv im [Aspose.BarCode‑Forum](https://forum.aspose.com/c/barcode/13) und die offizielle Dokumentation bietet tiefere Einblicke in erweiterte Anpassungen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2026-01-09  
@@ -136,3 +129,10 @@ Falls Sie auf Schwierigkeiten stoßen, ist die Community aktiv im [Aspose.BarCod
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

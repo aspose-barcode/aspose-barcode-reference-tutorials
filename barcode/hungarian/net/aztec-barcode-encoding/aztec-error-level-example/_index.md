@@ -121,15 +121,15 @@ Most már tudja, hogyan **hozzon létre Aztec vonalkód** képeket testreszabott
 
 Ha bármilyen nehézségbe ütközik, a közösség aktív a [Aspose.BarCode fórumon](https://forum.aspose.com/c/barcode/13), és a hivatalos dokumentáció mélyebb betekintést nyújt a fejlett testreszabásba.
 
+---
+
+**Utolsó frissítés:** 2026-01-09  
+**Tesztelve ezzel:** Aspose.BarCode 24.12 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-09  
-**Tesztelve ezzel:** Aspose.BarCode 24.12 for .NET  
-**Szerző:** Aspose

@@ -88,13 +88,6 @@ Poza podstawami, oto kilka praktycznych wskazówek, które usprawnią Twój prze
 
 Dowiedz się, jak generować kody Compact PDF417 przy użyciu Aspose.BarCode dla .NET. Kompleksowy przewodnik z instrukcjami krok po kroku i przykładami kodu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q:** Jaką maksymalną ilość danych mogę przechowywać w kodzie Compact PDF417?  
@@ -117,3 +110,10 @@ Dowiedz się, jak generować kody Compact PDF417 przy użyciu Aspose.BarCode dla
 **Ostatnia aktualizacja:** 2026-01-09  
 **Testowano z:** Aspose.BarCode 24.11 dla .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

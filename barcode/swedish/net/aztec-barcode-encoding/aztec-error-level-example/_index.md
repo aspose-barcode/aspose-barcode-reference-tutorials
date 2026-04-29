@@ -123,13 +123,6 @@ Du vet nu hur du **skapar Aztec barcode**‑bilder med anpassade felkorrigerings
 
 Om du stöter på några problem är communityn aktiv på [Aspose.BarCode‑forumet](https://forum.aspose.com/c/barcode/13), och den officiella dokumentationen ger djupare insikter i avancerad anpassning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2026-01-09  
@@ -137,3 +130,10 @@ Om du stöter på några problem är communityn aktiv på [Aspose.BarCode‑foru
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -122,13 +122,6 @@ gen.Save($"{path}AztecErrorLevel50.png", BarCodeImageFormat.Png);
 
 Αν αντιμετωπίσετε προκλήσεις, η κοινότητα είναι ενεργή στο [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13), και η επίσημη τεκμηρίωση παρέχει βαθύτερες πληροφορίες για προχωρημένη προσαρμογή.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2026-01-09  
@@ -136,3 +129,10 @@ gen.Save($"{path}AztecErrorLevel50.png", BarCodeImageFormat.Png);
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

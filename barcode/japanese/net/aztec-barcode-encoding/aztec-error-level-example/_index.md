@@ -16,7 +16,7 @@ weight: 13
 
 このステップバイステップのチュートリアルでは、Aspose.BarCode for .NET ライブラリを使用して、さまざまなエラー訂正レベルを含む **Aztec バーコード** 画像の **作成方法** を学びます。パッケージング、チケット、モバイルスキャンなどで堅牢なバーコードが必要な場合、エラーレベルを制御することでデータ容量と損傷耐性のバランスを取ることができます。各設定オプションを順に解説し、必要なコードを提示し、なぜその設定が重要なのかを説明します。
 
-## Quick Answers
+## 簡単な回答
 - **使用しているライブラリは？** Aspose.BarCode for .NET  
 - **カスタムエラーレベルは設定できる？** はい – 0 % から 100 % までの任意の整数  
 - **推奨 IDE は？** Visual Studio（任意のエディション）または .NET 対応の VS Code  
@@ -120,13 +120,6 @@ A: 詳細な API リファレンスは [こちら](https://reference.aspose.com/
 
 問題が発生した場合は、[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13) でコミュニティに相談でき、公式ドキュメントには高度なカスタマイズに関する詳細情報が掲載されています。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2026-01-09  
@@ -134,3 +127,10 @@ A: 詳細な API リファレンスは [こちら](https://reference.aspose.com/
 **作成者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

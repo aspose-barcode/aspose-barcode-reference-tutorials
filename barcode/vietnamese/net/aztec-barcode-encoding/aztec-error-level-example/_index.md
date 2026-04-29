@@ -121,13 +121,6 @@ Bạn đã biết cách **tạo mã vạch Aztec** với các mức sửa lỗi 
 
 Nếu gặp khó khăn, cộng đồng hoạt động tích cực trên [diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13), và tài liệu chính thức cung cấp những hiểu biết sâu hơn về tùy chỉnh nâng cao.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-01-09  
@@ -135,3 +128,10 @@ Nếu gặp khó khăn, cộng đồng hoạt động tích cực trên [diễn 
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

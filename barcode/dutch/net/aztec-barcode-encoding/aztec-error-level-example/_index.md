@@ -121,15 +121,15 @@ Je weet nu hoe je **Aztec barcode** afbeeldingen kunt maken met aangepaste foutâ
 
 Als je tegen uitdagingen aanloopt, is de community actief op het [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13), en de officiÃ«le documentatie biedt diepere inzichten in geavanceerde aanpassingen.
 
+---
+
+**Laatst bijgewerkt:** 2026-01-09  
+**Getest met:** Aspose.BarCode 24.12 for .NET  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-09  
-**Getest met:** Aspose.BarCode 24.12 for .NET  
-**Auteur:** Aspose

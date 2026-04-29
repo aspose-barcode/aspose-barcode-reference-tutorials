@@ -122,13 +122,6 @@ Agora você sabe como **criar imagens de código de barras Aztec** com níveis d
 
 Se encontrar algum desafio, a comunidade está ativa no [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13), e a documentação oficial oferece insights mais profundos sobre personalizações avançadas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-09  
@@ -136,3 +129,10 @@ Se encontrar algum desafio, a comunidade está ativa no [Aspose.BarCode forum](h
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

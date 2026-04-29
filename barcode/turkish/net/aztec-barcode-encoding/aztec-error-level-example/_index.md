@@ -121,13 +121,6 @@ Artık Aspose.BarCode for .NET kullanarak özelleştirilmiş hata‑düzeltme se
 
 Herhangi bir sorunla karşılaşırsanız, topluluk [Aspose.BarCode forumunda](https://forum.aspose.com/c/barcode/13) aktiftir ve resmi dokümantasyon ileri düzey özelleştirmeler için derinlemesine bilgiler sunar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2026-01-09  
@@ -135,3 +128,10 @@ Herhangi bir sorunla karşılaşırsanız, topluluk [Aspose.BarCode forumunda](h
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

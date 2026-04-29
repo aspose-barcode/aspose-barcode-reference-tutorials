@@ -120,13 +120,6 @@ gen.Save($"{path}AztecErrorLevel50.png", BarCodeImageFormat.Png);
 
 如果遇到任何问题，可前往 [Aspose.BarCode 论坛](https://forum.aspose.com/c/barcode/13) 与社区交流，官方文档也提供了更深入的高级自定义指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-09  
@@ -134,3 +127,10 @@ gen.Save($"{path}AztecErrorLevel50.png", BarCodeImageFormat.Png);
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

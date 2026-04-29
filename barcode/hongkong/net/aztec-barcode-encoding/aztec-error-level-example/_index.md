@@ -122,15 +122,15 @@ A: 完整的 API 參考文件可在 [此處](https://reference.aspose.com/barcod
 
 如果您遇到任何問題，社群活躍於 [Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13)，官方文件亦提供更深入的進階自訂說明。
 
+---
+
+**最後更新：** 2026-01-09  
+**測試環境：** Aspose.BarCode 24.12 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-09  
-**測試環境：** Aspose.BarCode 24.12 for .NET  
-**作者：** Aspose

@@ -121,13 +121,6 @@ A: เอกสารอ้างอิง API อย่างครบถ้ว
 
 หากคุณเจออุปสรรคใด ๆ ชุมชนพร้อมให้ความช่วยเหลือบน [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) และเอกสารอย่างเป็นทางการมีข้อมูลเชิงลึกเพิ่มเติมสำหรับการปรับแต่งขั้นสูง
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-09  
@@ -135,3 +128,10 @@ A: เอกสารอ้างอิง API อย่างครบถ้ว
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

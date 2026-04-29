@@ -122,15 +122,15 @@ Vous savez maintenant comment **créer des images de code‑barres Aztec** avec 
 
 Si vous rencontrez des difficultés, la communauté est active sur le [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), et la documentation officielle offre des informations plus approfondies sur la personnalisation avancée.
 
+---
+
+**Dernière mise à jour :** 2026-01-09  
+**Testé avec :** Aspose.BarCode 24.12 for .NET  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-01-09  
-**Testé avec :** Aspose.BarCode 24.12 for .NET  
-**Auteur :** Aspose
