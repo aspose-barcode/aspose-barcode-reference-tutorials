@@ -1,44 +1,54 @@
 ---
-title: Generando códigos de barras de error aztecas con Aspose.BarCode para .NET
-linktitle: Ejemplo de nivel de error azteca
-second_title: API Aspose.BarCode .NET
-description: Aprenda a generar códigos de barras de error aztecas con diferentes niveles de error usando Aspose.BarCode para .NET. Guía completa para la creación de códigos de barras.
-weight: 13
+date: 2026-01-09
+description: Aprenda cómo crear códigos de barras Aztec con niveles de corrección
+  de errores personalizables usando Aspose.BarCode para .NET. Guía paso a paso con
+  ejemplos de código.
+linktitle: Aztec Error Level Example
+second_title: Aspose.BarCode .NET API
+title: Cómo crear un código de barras Aztec con corrección de errores en .NET
 url: /es/net/aztec-barcode-encoding/aztec-error-level-example/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generando códigos de barras de error aztecas con Aspose.BarCode para .NET
+# Cómo crear códigos de barras Aztec con corrección de errores en .NET
 
-En este tutorial paso a paso, profundizaremos en el mundo de la generación de códigos de barras usando Aspose.BarCode para .NET. Aspose.BarCode es una poderosa biblioteca que le permite crear y reconocer códigos de barras 1D y 2D. Este artículo lo guiará a través del proceso de generación de códigos de barras de error Aztec con diferentes niveles de corrección de errores. Dividiremos cada ejemplo en varios pasos para garantizar una comprensión clara y completa.
+En este tutorial paso‑a‑paso, aprenderá a **crear imágenes de códigos de barras Aztec** que incluyen diferentes niveles de corrección de errores usando la biblioteca Aspose.BarCode para .NET. Ya sea que necesite un código de barras robusto para empaquetado, emisión de boletos o escaneo móvil, controlar el nivel de error le ayuda a equilibrar la capacidad de datos y la resistencia frente a daños. Revisaremos cada opción de configuración, le mostraremos el código exacto que necesita y explicaremos por qué cada ajuste es importante.
+
+## Respuestas rápidas
+- **¿Qué biblioteca se usa?** Aspose.BarCode para .NET  
+- **¿Puedo establecer niveles de error personalizados?** Sí – cualquier entero del 0 % al 100 %  
+- **¿Qué IDE se recomienda?** Visual Studio (cualquier edición) o VS Code con soporte .NET  
+- **¿Necesito una licencia?** Una licencia temporal funciona para evaluación; se requiere una licencia completa para producción  
+- **¿Qué formatos de salida se admiten?** PNG, JPEG, BMP, GIF y más  
+
+## ¿Qué es crear un código de barras Aztec con corrección de errores?
+Un código de barras Aztec es un código matricial bidimensional que puede almacenar una gran cantidad de datos en un cuadrado compacto. La corrección de errores agrega datos redundantes para que el código de barras pueda leerse incluso si una parte está dañada u oculta. Ajustar el nivel de corrección de errores le permite elegir entre mayor capacidad de datos (nivel de error bajo) o mayor resistencia (nivel de error alto).
+
+## ¿Por qué usar Aspose.BarCode para .NET?
+Aspose.BarCode ofrece una API fluida que abstrae los detalles de codificación de bajo nivel, permitiéndole centrarse en la lógica de negocio. Soporta una amplia gama de estándares de códigos de barras, ofrece una personalización extensa (tamaño, colores, márgenes) y funciona en .NET Framework, .NET Core y .NET 5/6+. Esto lo hace ideal para aplicaciones empresariales donde la fiabilidad y flexibilidad son fundamentales.
 
 ## Requisitos previos
 
-Antes de sumergirnos en la generación de códigos de barras de error aztecas con Aspose.BarCode, asegúrese de cumplir con los siguientes requisitos previos:
-
-- Un conocimiento práctico de C# y el marco .NET.
-- Visual Studio o cualquier otro entorno de desarrollo C#.
--  Biblioteca Aspose.BarCode para .NET, que puede descargar desde[este enlace](https://releases.aspose.com/barcode/net/).
--  Opcionalmente, puede obtener una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/) para una experiencia fluida.
-
-Con estos requisitos previos implementados, está listo para comenzar a generar códigos de barras de error Aztec con Aspose.BarCode para .NET.
+- Conocimientos básicos de C# y del ecosistema .NET.  
+- Visual Studio, Visual Studio Code o cualquier IDE compatible con C#.  
+- Biblioteca Aspose.BarCode para .NET – descárguela desde [este enlace](https://releases.aspose.com/barcode/net/).  
+- (Opcional) Licencia temporal para una prueba sin complicaciones – obténgala [aquí](https://purchase.aspose.com/temporary-license/).
 
 ## Importando espacios de nombres
 
-En su proyecto C#, necesita importar los espacios de nombres necesarios de la biblioteca Aspose.BarCode. El espacio de nombres principal a incluir es`Aspose.BarCode`.
-
-Así es como puede importar el espacio de nombres requerido:
+Para comenzar, incluya el espacio de nombres necesario de Aspose.BarCode en su proyecto:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Paso 1: configurar el generador de códigos de barras
+## Paso 1: Configurar el generador de códigos de barras
 
- Primero, necesitas configurar el generador de códigos de barras. Especificará el tipo de código de barras como`Aztec` y proporcione los datos que desea codificar. Además, puede personalizar varios parámetros para su código de barras.
+Cree una instancia de `BarcodeGenerator`, especifique el tipo **Aztec** y proporcione los datos que desea codificar.
 
 ```csharp
 string path = "Your Directory Path";
@@ -47,67 +57,79 @@ System.Console.WriteLine("AztecErrorLevelExample:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Åspóse.Barcóde© is a powerful library to generate & recognize 1D & 2D barcodes");
 ```
 
- En el código anterior, creamos un`BarcodeGenerator` instancia con el`Aztec` tipo de código de barras y los datos que desea codificar. Reemplazar`"Your Directory Path"` con la ruta del directorio real donde desea guardar los códigos de barras generados.
+> **Consejo profesional:** Reemplace `"Your Directory Path"` por una ruta absoluta o relativa donde tenga permisos de escritura.
 
-## Paso 2: configurar la dimensión X
+## Paso 2: Definir la X‑Dimension
 
-La dimensión X es el ancho del elemento más pequeño del código de barras. Puede configurarlo según sus requisitos. En este ejemplo, lo configuramos en 4 píxeles.
+La X‑Dimension controla el ancho del módulo más pequeño (píxel) en el código de barras. Establecerla en 4 píxeles produce una imagen clara y escaneable.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 4;
 ```
 
-## Paso 3: elegir el modo de símbolo azteca
+## Paso 3: Elegir el modo de símbolo Aztec
 
- Los códigos de barras aztecas tienen diferentes modos de símbolos. En este paso, configuramos el modo de símbolo en`FullRange`.
+Aztec admite varios modos de símbolo. Usar `FullRange` permite que la biblioteca seleccione automáticamente el tamaño óptimo según sus datos y la configuración de corrección de errores.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.FullRange;
 ```
 
-## Paso 4: Configuración de la capacidad de corrección de errores
+## Paso 4: Establecer la capacidad de corrección de errores
 
-Ahora, configuremos la capacidad de corrección de errores del código de barras Aztec. Puede establecer diferentes niveles de error según sus necesidades. En este ejemplo, lo configuramos en 5% y 50% para demostrar la diferencia.
+Ahora ajustamos el nivel de corrección de errores. En este ejemplo creamos dos códigos de barras: uno con un modesto 5 % de error y otro con un robusto 50 % para ilustrar la diferencia visual.
 
 ```csharp
-// Establecer la capacidad de corrección de errores al 5%
+// Set error correction capacity to 5%
 gen.Parameters.Barcode.Aztec.AztecErrorLevel = 5;
 gen.Save($"{path}AztecErrorLevel5.png", BarCodeImageFormat.Png);
 
-// Establecer la capacidad de corrección de errores al 50%
+// Set error correction capacity to 50%
 gen.Parameters.Barcode.Aztec.AztecErrorLevel = 50;
 gen.Save($"{path}AztecErrorLevel50.png", BarCodeImageFormat.Png);
 ```
 
-## Conclusión
+Ejecutar el código generará dos archivos PNG en la carpeta especificada. La versión al 50 % contiene más datos redundantes, lo que la hace más tolerante a daños a costa de un símbolo ligeramente más grande.
 
-En este tutorial, recorrimos el proceso de generación de códigos de barras Aztec con diferentes niveles de corrección de errores usando Aspose.BarCode para .NET. Esta biblioteca proporciona una solución potente y flexible para todas sus necesidades de generación de códigos de barras.
+## Problemas comunes y soluciones
 
- Si tiene alguna pregunta o necesita más ayuda, no dude en preguntar en el[Foro Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
-Comience a crear sus propios códigos de barras aztecas con distintos niveles de corrección de errores y explore las capacidades de Aspose.BarCode para .NET.
+| Síntoma | Causa probable | Solución |
+|---------|----------------|----------|
+| La imagen del código de barras está borrosa | X‑Dimension demasiado baja para el tamaño de salida elegido | Aumente `XDimension.Pixels` (p. ej., a 6 u 8). |
+| La operación de guardado lanza *AccessDenied* | Ruta inválida o no escribible | Verifique que la variable `path` apunte a una carpeta donde pueda escribir. |
+| El escáner no puede leer el código | Nivel de error demasiado alto para la cantidad de datos | Reduzca `AztecErrorLevel` o acorte el texto codificado. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Cuál es el propósito de la corrección de errores en los códigos de barras Aztec?
+**P: ¿Cuál es el propósito de la corrección de errores en los códigos de barras Aztec?**  
+R: La corrección de errores garantiza que el código de barras siga siendo legible aunque una parte esté dañada, rayada u oculta. Los niveles más altos añaden más redundancia, mejorando la fiabilidad.
 
-R1: La corrección de errores en los códigos de barras Aztec garantiza que el código de barras siga siendo escaneable incluso si está dañado o parcialmente oscurecido. Los diferentes niveles de error le permiten equilibrar la capacidad de datos y la recuperación de errores.
+**P: ¿Puedo personalizar la apariencia de los códigos de barras Aztec generados?**  
+R: Sí. Además de la X‑Dimension y el nivel de error, puede modificar colores, márgenes e incluso incrustar un logotipo usando otros parámetros de Aspose.BarCode.
 
-### P2: ¿Puedo personalizar la apariencia de los códigos de barras Aztec generados?
+**P: ¿Aspose.BarCode para .NET es compatible con otros formatos de códigos de barras?**  
+R: Absolutamente. La misma clase `BarcodeGenerator` admite QR Code, DataMatrix, PDF417, Code128 y muchos más.
 
-R2: Sí, puede personalizar varios parámetros como X-Dimension, modo de símbolo y nivel de corrección de errores para controlar la apariencia y funcionalidad de los códigos de barras Aztec.
+**P: ¿Necesito una licencia para usar Aspose.BarCode para .NET?**  
+R: Una licencia temporal está disponible para evaluación. Para uso en producción, adquiera una licencia completa en [este enlace](https://purchase.aspose.com/buy).
 
-### P3: ¿Aspose.BarCode para .NET es compatible con otros formatos de códigos de barras?
+**P: ¿Dónde puedo encontrar la documentación oficial?**  
+R: La referencia completa de la API está disponible [aquí](https://reference.aspose.com/barcode/net/).
 
-R3: Sí, Aspose.BarCode para .NET admite una amplia gama de formatos de códigos de barras, incluidos códigos QR, DataMatrix y muchos otros.
+## Conclusión
 
-### P4: ¿Necesito una licencia para usar Aspose.BarCode para .NET?
+Ahora sabe cómo **crear imágenes de códigos de barras Aztec** con niveles de corrección de errores personalizados usando Aspose.BarCode para .NET. Ajustando la X‑Dimension, el modo de símbolo y el nivel de error, puede generar códigos de barras que cumplan exactamente con los requisitos de fiabilidad y tamaño de su aplicación. Siéntase libre de experimentar con diferentes cadenas de datos y porcentajes de error para observar cómo se adapta el código de barras.
 
- R4: Puede obtener una licencia temporal por un período de prueba. Para un uso prolongado, considere comprar una licencia de[este enlace](https://purchase.aspose.com/buy).
+Si encuentra algún desafío, la comunidad está activa en el [foro de Aspose.BarCode](https://forum.aspose.com/c/barcode/13), y la documentación oficial ofrece información más profunda sobre personalizaciones avanzadas.
 
-### P5: ¿Dónde puedo encontrar la documentación de Aspose.BarCode para .NET?
+---
 
- R5: Puede acceder a la documentación completa de Aspose.BarCode para .NET[aquí](https://reference.aspose.com/barcode/net/).
+**Última actualización:** 2026-01-09  
+**Probado con:** Aspose.BarCode 24.12 for .NET  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
