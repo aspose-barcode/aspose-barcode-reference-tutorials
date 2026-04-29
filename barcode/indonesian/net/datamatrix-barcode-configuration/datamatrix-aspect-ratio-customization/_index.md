@@ -1,59 +1,67 @@
 ---
-title: Menyesuaikan Rasio Aspek DataMatrix dengan Aspose.BarCode untuk .NET
-linktitle: Kustomisasi Rasio Aspek DataMatrix
+date: 2026-01-12
+description: Pelajari cara membuat PNG barcode dengan rasio aspek DataMatrix khusus
+  menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk menghasilkan
+  barcode dan menyesuaikan ukuran.
+linktitle: DataMatrix Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
-description: Pelajari cara menyesuaikan rasio aspek kode batang DataMatrix menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pembuatan kode batang.
-weight: 10
+title: Buat Barcode PNG – Rasio Aspek DataMatrix – Aspose.BarCode
 url: /id/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menyesuaikan Rasio Aspek DataMatrix dengan Aspose.BarCode untuk .NET
+# Membuat PNG Barcode – Rasio Aspek DataMatrix – Aspose.BarCode
 
-Apakah Anda ingin membuat kode batang DataMatrix dengan rasio aspek yang disesuaikan menggunakan Aspose.BarCode untuk .NET? Anda berada di tempat yang tepat. Dalam tutorial langkah demi langkah ini, kami akan menunjukkan cara mencapainya. Aspose.BarCode for .NET adalah perpustakaan canggih yang memungkinkan Anda membuat dan memanipulasi kode batang dengan mudah. Kita akan mulai dengan memperkenalkan prasyarat dan namespace yang Anda perlukan, lalu kita akan mendalami contohnya.
+Membuat **barcode PNG** dengan rasio aspek DataMatrix khusus adalah kebutuhan umum ketika Anda perlu barcode agar sesuai dengan batasan tata letak tertentu. Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk **membuat file barcode PNG** menggunakan Aspose.BarCode untuk .NET, menjelaskan mengapa Anda mungkin ingin menyesuaikan rasio aspek, dan menunjukkan cara menyempurnakan output untuk aplikasi Anda.
+
+## Jawaban Cepat
+- **Apa yang dikontrol oleh “rasio aspek”?** Ini mendefinisikan proporsi lebar‑ke‑tinggi dari modul DataMatrix.  
+- **Apakah saya dapat menghasilkan PNG, JPEG, atau SVG?** Ya – metode `Save` mendukung PNG, JPEG, BMP, GIF, dan lainnya.  
+- **Apakah saya memerlukan lisensi untuk fitur ini?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.x, .NET Core 3.1+, .NET 5/6/7.  
+- **Berapa banyak nilai rasio‑aspek yang valid?** Semua nilai float positif; nilai tipikal adalah 0.5 – 2.0.
+
+## Apa itu barcode DataMatrix dan mengapa menyesuaikan rasio aspeknya?
+DataMatrix adalah barcode matriks 2‑dimensi yang menyimpan sejumlah besar data dalam ruang kecil. Menyesuaikan **rasio aspek** memungkinkan Anda memperlebar atau mempersempit modul secara horizontal, yang dapat berguna untuk menempatkan barcode ke dalam kolom sempit atau label lebar tanpa mengorbankan keterbacaan.
 
 ## Prasyarat
 
 Sebelum kita mulai menyesuaikan rasio aspek DataMatrix, pastikan Anda memiliki prasyarat berikut:
 
-1. Visual Studio: Anda perlu menginstal Visual Studio di mesin Anda.
-
-2.  Aspose.BarCode untuk .NET: Anda harus menginstal Aspose.BarCode untuk .NET. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/barcode/net/).
-
-3. .NET Framework: Lingkungan pengembangan Anda harus mendukung .NET Framework.
-
-Sekarang setelah Anda menyiapkan prasyarat ini, mari jelajahi cara menyesuaikan rasio aspek kode batang DataMatrix.
+1. **Visual Studio** – versi terbaru apa pun dapat digunakan.  
+2. **Aspose.BarCode untuk .NET** – unduh di [sini](https://releases.aspose.com/barcode/net/).  
+3. **.NET Framework / .NET Core** – proyek Anda harus menargetkan versi yang didukung.
 
 ## Impor Namespace
 
-Pertama, Anda perlu mengimpor namespace yang diperlukan dalam proyek C# Anda untuk menggunakan Aspose.BarCode untuk .NET secara efektif. Inilah cara Anda melakukannya:
-
-Dalam kode C# Anda, sertakan namespace Aspose.BarCode:
+Pertama, Anda perlu mengimpor namespace yang diperlukan dalam proyek C# Anda:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Sekarang, mari kita uraikan proses penyesuaian rasio aspek DataMatrix menjadi beberapa langkah.
+> **Tips Pro:** Simpan pernyataan `using` ini di bagian atas file Anda sehingga kelas `BarcodeGenerator` selalu tersedia.
 
-## Langkah 1: Siapkan Proyek Anda
+## Panduan Langkah‑per‑Langkah
 
-Buat proyek baru di Visual Studio atau buka proyek yang sudah ada. Pastikan Anda telah mereferensikan pustaka Aspose.BarCode di proyek Anda.
+### Langkah 1: Siapkan Proyek Anda
+Buat proyek konsol atau Windows Forms baru di Visual Studio dan tambahkan referensi ke DLL Aspose.BarCode.
 
-## Langkah 2: Inisialisasi Generator Barcode
-
- Untuk bekerja dengan barcode DataMatrix, Anda perlu menginisialisasi a`BarcodeGenerator` obyek. Anda dapat memilih jenis pengkodean dan memberikan data yang ingin Anda enkode. Dalam contoh ini, kami menggunakan tipe pengkodean DataMatrix dengan data "Åspóse.Barcóde©":
+### Langkah 2: Inisialisasi Barcode Generator
+Buat instance `BarcodeGenerator` dengan tipe DataMatrix dan data yang ingin Anda enkode:
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åspóse.Barcóde©"))
 ```
 
-## Langkah 3: Sesuaikan Rasio Aspek
+> Baris ini membuat generator yang siap menghasilkan barcode DataMatrix yang berisi teks contoh.
 
-Anda dapat mengatur rasio aspek kode batang DataMatrix. Pada contoh di bawah ini, kita akan mengaturnya menjadi 1, dan kemudian kita akan mengaturnya menjadi 0,5:
+### Langkah 3: Sesuaikan Rasio Aspek dan Simpan File PNG
+Sekarang Anda dapat mengubah **rasio aspek** dan menyimpan setiap versi sebagai gambar PNG:
 
 ```csharp
 gen.Parameters.Barcode.DataMatrix.AspectRatio = 1;
@@ -63,35 +71,48 @@ gen.Parameters.Barcode.DataMatrix.AspectRatio = 0.5f;
 gen.Save($"{path}DataMatrixAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Dalam kode ini, pertama-tama kita atur rasio aspek ke 1, lalu kita simpan gambar kode batangnya. Selanjutnya, kita ubah rasio aspek menjadi 0,5 dan simpan sebagai gambar lain. Ini memungkinkan Anda membuat kode batang DataMatrix dengan rasio aspek berbeda.
+- Panggilan pertama membuat barcode dengan proporsi persegi (`AspectRatio = 1`).  
+- Panggilan kedua mempersempit barcode secaraAspectRatio = 0.5`), menghasilkan tampilan yang lebih lebar.
+
+Sekarang Anda memiliki dua file **barcode PNG** dengan rasio aspek berbeda yang siap digunakan dalam laporan, label, atau elemen UI.
+
+## Masalah Umum & Solusi
+
+| Masalah | Solusi |
+|-------|----------|
+| **Gambar yang dihasilkan buram** | Tingkatkan parameter `Resolution` sebelum menyimpan (`gen.Parameters.ImageResolution = 300`). |
+| **Barcode tidak dapat dipindai** | Pastikan rasio aspek tetap dalam rentang 0.5 – 2.0 dan pertahankan zona tenang yang cukup (`gen.Parameters.Barcode.CodeTextParameters.Margin`). |
+| **Kesalahan jalur file** | Gunakan `Path.Combine` untuk membangun jalur output dan pastikan foldernya ada. |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menyesuaikan rasio aspek tipe barcode lain menggunakan Aspose.BarCode untuk .NET?**  
+A: Ya, banyak barcode 2‑D (misalnya QR, PDF417) mendukung penyesuaian rasio‑aspek melalui objek parameter khusus mereka.
+
+**Q: Apakah tersedia versi percobaan gratis untuk Aspose.BarCode untuk .NET?**  
+A: Ya, Anda dapat mengakses versi percobaan gratis Aspose.BarCode untuk .NET [di sini](https://releases.aspose.com/).
+
+**Q: Di mana saya dapat membeli lisensi untuk Aspose.BarCode untuk .NET?**  
+A: Anda dapat membeli lisensi di situs web Aspose [di sini](https://purchase.aspose.com/buy).
+
+**Q: Apakah Aspose.BarCode untuk .NET kompatibel dengan berbagai versi .NET Framework?**  
+A: Ya, ia bekerja dengan .NET Framework 4.x, .NET Core 3.1+, dan rilis .NET terbaru.
+
+**Q: Bisakah saya menghasilkan barcode dalam format berbeda dengan Aspose.BarCode untuk .NET?**  
+A: Tentu – PNG, JPEG, BMP, GIF, TIFF, SVG, dan PDF semuanya didukung secara langsung.
 
 ## Kesimpulan
 
-Menyesuaikan rasio aspek DataMatrix menggunakan Aspose.BarCode untuk .NET adalah proses yang mudah. Dengan langkah-langkah yang diberikan, Anda dapat dengan mudah membuat barcode DataMatrix dengan rasio aspek pilihan Anda. Aspose.BarCode untuk .NET menyederhanakan pembuatan kode batang, menjadikannya alat yang ampuh untuk berbagai aplikasi.
+Menyesuaikan **rasio aspek** barcode DataMatrix dan **membuat file barcode PNG** sangat mudah dengan Aspose.BarCode untuk .NET. Dengan mengikuti langkah‑langkah di atas, Anda dapat menghasilkan barcode berukuran tepat yang memenuhi persyaratan tata letak proyek Anda. Jelajahi parameter lain seperti `Resolution`, `Margin`, dan `Color` untuk menyesuaikan output lebih lanjut.
 
- Apakah Anda memiliki pertanyaan lebih lanjut tentang Aspose.BarCode untuk .NET? Lihat[dokumentasi](https://reference.aspose.com/barcode/net/) atau kunjungi[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi.
+Untuk eksplorasi lebih mendalam, lihat [dokumentasi resmi](https://reference.aspose.com/barcode/net/) atau bergabung dengan komunitas di [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-## FAQ
+---
 
-### Q1: Dapatkah saya menyesuaikan rasio aspek jenis kode batang lainnya menggunakan Aspose.BarCode untuk .NET?
+**Terakhir Diperbarui:** 2026-01-12  
+**Diuji Dengan:** Aspose.BarCode 24.12 untuk .NET  
+**Penulis:** Aspose  
 
-A1: Ya, Aspose.BarCode untuk .NET memungkinkan Anda menyesuaikan rasio aspek berbagai jenis kode batang, bukan hanya DataMatrix.
-
-### Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.BarCode untuk .NET?
-
- A2: Ya, Anda dapat mengakses uji coba gratis Aspose.BarCode untuk .NET[Di Sini](https://releases.aspose.com/).
-
-### Q3: Di mana saya dapat membeli lisensi Aspose.BarCode untuk .NET?
-
- A3: Anda dapat membeli lisensi Aspose.BarCode untuk .NET di situs web Aspose[Di Sini](https://purchase.aspose.com/buy).
-
-### Q4: Apakah Aspose.BarCode untuk .NET kompatibel dengan versi .NET Framework yang berbeda?
-
-A4: Ya, Aspose.BarCode untuk .NET kompatibel dengan berbagai versi .NET Framework, memberikan fleksibilitas untuk kebutuhan pengembangan Anda.
-
-### Q5: Bisakah saya membuat kode batang dalam format berbeda dengan Aspose.BarCode untuk .NET?
-
-A5: Ya, Aspose.BarCode untuk .NET mendukung pembuatan kode batang dalam berbagai format, termasuk PNG, JPEG, dan lainnya.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

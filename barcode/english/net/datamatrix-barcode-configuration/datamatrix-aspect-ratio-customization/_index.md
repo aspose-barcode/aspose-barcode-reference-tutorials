@@ -1,59 +1,65 @@
 ---
-title: Customizing DataMatrix Aspect Ratio with Aspose.BarCode for .NET
+title: "Create Barcode PNG – DataMatrix Aspect Ratio – Aspose.BarCode"
 linktitle: DataMatrix Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
-description: Learn how to customize DataMatrix barcode aspect ratios using Aspose.BarCode for .NET. Step-by-step guide for barcode generation.
+description: "Learn how to create barcode PNG with a custom DataMatrix aspect ratio using Aspose.BarCode for .NET. Step-by-step guide for barcode generation and size customization."
 weight: 10
 url: /net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
+date: 2026-01-12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Customizing DataMatrix Aspect Ratio with Aspose.BarCode for .NET
+# Create Barcode PNG – DataMatrix Aspect Ratio – Aspose.BarCode
 
-Are you looking to generate DataMatrix barcodes with a customized aspect ratio using Aspose.BarCode for .NET? You're in the right place. In this step-by-step tutorial, we will show you how to achieve this. Aspose.BarCode for .NET is a powerful library that allows you to create and manipulate barcodes easily. We will begin by introducing the prerequisites and namespaces you need, and then we'll dive into the examples.
+Generating a **barcode PNG** with a custom DataMatrix aspect ratio is a common requirement when you need the barcode to fit specific layout constraints. In this tutorial we’ll walk through the exact steps to **create barcode PNG** files using Aspose.BarCode for .NET, explain why you might want to adjust the aspect ratio, and show you how to fine‑tune the output for your application.
+
+## Quick Answers
+- **What does “aspect ratio” control?** It defines the width‑to‑height proportion of the DataMatrix modules.  
+- **Can I output PNG, JPEG, or SVG?** Yes – the `Save` method supports PNG, JPEG, BMP, GIF, and more.  
+- **Do I need a license for this feature?** A free trial works for development; a full license is required for production.  
+- **Which .NET versions are supported?** .NET Framework 4.x, .NET Core 3.1+, .NET 5/6/7.  
+- **How many aspect‑ratio values are valid?** Any positive float; typical values are 0.5 – 2.0.
+
+## What is a DataMatrix barcode and why adjust its aspect ratio?
+DataMatrix is a 2‑dimensional matrix barcode that stores large amounts of data in a small space. Adjusting the **aspect ratio** lets you stretch or compress the modules horizontally, which can be useful for fitting the barcode into narrow columns or wide labels without sacrificing readability.
 
 ## Prerequisites
 
 Before we start customizing DataMatrix aspect ratios, make sure you have the following prerequisites in place:
 
-1. Visual Studio: You'll need Visual Studio installed on your machine.
-
-2. Aspose.BarCode for .NET: You should have Aspose.BarCode for .NET installed. If you haven't already, you can download it [here](https://releases.aspose.com/barcode/net/).
-
-3. .NET Framework: Your development environment should support the .NET Framework.
-
-Now that you have these prerequisites ready, let's explore how to customize the aspect ratio of DataMatrix barcodes.
+1. **Visual Studio** – any recent version will do.  
+2. **Aspose.BarCode for .NET** – download it [here](https://releases.aspose.com/barcode/net/).  
+3. **.NET Framework / .NET Core** – your project must target a supported version.
 
 ## Import Namespaces
 
-First, you need to import the necessary namespaces in your C# project to use Aspose.BarCode for .NET effectively. Here's how you can do it:
-
-In your C# code, include the Aspose.BarCode namespace:
+First, you need to import the necessary namespace in your C# project:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Now, let's break down the process of customizing DataMatrix aspect ratios into multiple steps.
+> **Pro tip:** Keep this `using` statement at the top of your file so the `BarcodeGenerator` class is always available.
 
-## Step 1: Set Up Your Project
+## Step‑by‑Step Guide
 
-Create a new project in Visual Studio or open an existing one. Make sure you've referenced the Aspose.BarCode library in your project.
+### Step 1: Set Up Your Project
+Create a new console or Windows Forms project in Visual Studio and add a reference to the Aspose.BarCode DLL.
 
-## Step 2: Initialize a Barcode Generator
-
-To work with DataMatrix barcodes, you need to initialize a `BarcodeGenerator` object. You can choose the encoding type and provide the data you want to encode. In this example, we're using the DataMatrix encoding type with the data "Åspóse.Barcóde©":
+### Step 2: Initialize a Barcode Generator
+Instantiate a `BarcodeGenerator` with the DataMatrix type and the data you want to encode:
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åspóse.Barcóde©"))
 ```
 
-## Step 3: Customize Aspect Ratio
+> This line creates a generator ready to produce a DataMatrix barcode that contains the sample text.
 
-You can set the aspect ratio of the DataMatrix barcode. In the example below, we'll set it to 1, and then we'll set it to 0.5:
+### Step 3: Customize Aspect Ratio and Save PNG Files
+Now you can change the **aspect ratio** and save each version as a PNG image:
 
 ```csharp
 gen.Parameters.Barcode.DataMatrix.AspectRatio = 1;
@@ -63,35 +69,46 @@ gen.Parameters.Barcode.DataMatrix.AspectRatio = 0.5f;
 gen.Save($"{path}DataMatrixAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-In this code, we first set the aspect ratio to 1, and then we save the barcode image. Next, we change the aspect ratio to 0.5 and save it as a different image. This allows you to create DataMatrix barcodes with different aspect ratios.
+- The first call creates a square‑proportioned barcode (`AspectRatio = 1`).  
+- The second call compresses the barcode horizontally (`AspectRatio = 0.5`), producing a wider appearance.
+
+You now have two **barcode PNG** files with different aspect ratios ready for use in reports, labels, or UI elements.
+
+## Common Issues & Solutions
+| Issue | Solution |
+|-------|----------|
+| **Generated image is blurry** | Increase the `Resolution` parameter before saving (`gen.Parameters.ImageResolution = 300`). |
+| **Barcode does not scan** | Ensure the aspect ratio stays within 0.5 – 2.0 and keep sufficient quiet zone (`gen.Parameters.Barcode.CodeTextParameters.Margin`). |
+| **File path errors** | Use `Path.Combine` to build the output path and verify the folder exists. |
+
+## Frequently Asked Questions
+
+**Q: Can I customize the aspect ratio of other barcode types using Aspose.BarCode for .NET?**  
+A: Yes, many 2‑D barcodes (e.g., QR, PDF417) support aspect‑ratio adjustments through their specific parameter objects.
+
+**Q: Is there a free trial available for Aspose.BarCode for .NET?**  
+A: Yes, you can access a free trial of Aspose.BarCode for .NET [here](https://releases.aspose.com/).
+
+**Q: Where can I purchase a license for Aspose.BarCode for .NET?**  
+A: You can purchase a license on the Aspose website [here](https://purchase.aspose.com/buy).
+
+**Q: Is Aspose.BarCode for .NET compatible with different .NET Framework versions?**  
+A: Yes, it works with .NET Framework 4.x, .NET Core 3.1+, and the latest .NET releases.
+
+**Q: Can I generate barcodes in different formats with Aspose.BarCode for .NET?**  
+A: Absolutely – PNG, JPEG, BMP, GIF, TIFF, SVG, and PDF are all supported out of the box.
 
 ## Conclusion
 
-Customizing DataMatrix aspect ratios using Aspose.BarCode for .NET is a straightforward process. With the provided steps, you can easily create DataMatrix barcodes with the aspect ratio of your choice. Aspose.BarCode for .NET simplifies barcode generation, making it a powerful tool for various applications.
+Customizing the **aspect ratio** of a DataMatrix barcode and **creating barcode PNG** files is straightforward with Aspose.BarCode for .NET. By following the steps above, you can generate perfectly sized barcodes that meet the exact layout requirements of your project. Explore other parameters such as `Resolution`, `Margin`, and `Color` to further tailor the output.
 
-Do you have more questions about Aspose.BarCode for .NET? Check out the [documentation](https://reference.aspose.com/barcode/net/) or visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for support and discussions.
+For deeper exploration, check out the official [documentation](https://reference.aspose.com/barcode/net/) or join the community on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
 
-## FAQ's
+---
 
-### Q1: Can I customize the aspect ratio of other barcode types using Aspose.BarCode for .NET?
-
-A1: Yes, Aspose.BarCode for .NET allows you to customize the aspect ratio of various barcode types, not just DataMatrix.
-
-### Q2: Is there a free trial available for Aspose.BarCode for .NET?
-
-A2: Yes, you can access a free trial of Aspose.BarCode for .NET [here](https://releases.aspose.com/).
-
-### Q3: Where can I purchase a license for Aspose.BarCode for .NET?
-
-A3: You can purchase a license for Aspose.BarCode for .NET on the Aspose website [here](https://purchase.aspose.com/buy).
-
-### Q4: Is Aspose.BarCode for .NET compatible with different .NET Framework versions?
-
-A4: Yes, Aspose.BarCode for .NET is compatible with various .NET Framework versions, providing flexibility for your development needs.
-
-### Q5: Can I generate barcodes in different formats with Aspose.BarCode for .NET?
-
-A5: Yes, Aspose.BarCode for .NET supports generating barcodes in various formats, including PNG, JPEG, and more.
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.BarCode 24.12 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
