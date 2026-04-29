@@ -68,13 +68,6 @@ Aprende a calcular sumas de verificación Codabar en .NET usando Aspose.BarCode.
 ### [Caracteres de Inicio/Fin Codabar](./codabar-start-stop-characters/)
 Aprende a crear códigos de barras Codabar con caracteres de inicio y fin usando Aspose.BarCode para .NET. Una guía paso a paso para desarrolladores.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q: ¿Tengo que calcular la suma de verificación manualmente?**  
@@ -97,3 +90,10 @@ A: La biblioteca funciona con .NET Framework 4.6+, .NET Core 3.1+, y .NET 5/6/7.
 **Última actualización:** 2026-01-04  
 **Probado con:** Aspose.BarCode 24.12 para .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -66,13 +66,6 @@ Codabar 使用四个开始/停止字符中的任意一个——**A、B、C 或 D
 ### [Codabar 开始/停止字符](./codabar-start-stop-characters/)
 学习如何使用 Aspose.BarCode for .NET 创建带有开始和停止字符的 Codabar 条形码。为开发者提供的分步指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我必须手动计算校验和吗？**  
@@ -97,3 +90,10 @@ A: 该库兼容 .NET Framework 4.6+、.NET Core 3.1+ 以及 .NET 5/6/7。
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

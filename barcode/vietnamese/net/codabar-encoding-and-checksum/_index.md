@@ -68,13 +68,6 @@ Tìm hiểu cách tính kiểm tra tổng Codabar trong .NET bằng Aspose.BarCo
 ### [Codabar Start/Stop Characters](./codabar-start-stop-characters/)
 Tìm hiểu cách tạo mã vạch Codabar với ký tự bắt đầu và kết thúc bằng Aspose.BarCode cho .NET. Hướng dẫn chi tiết từng bước cho các nhà phát triển.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Do I have to calculate the checksum manually?**  
@@ -97,3 +90,10 @@ A: Thư viện hoạt động với .NET Framework 4.6+, .NET Core 3.1+, và .NE
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

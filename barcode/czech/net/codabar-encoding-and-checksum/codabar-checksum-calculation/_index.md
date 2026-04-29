@@ -112,28 +112,6 @@ Pokud narazíte na jakékoli potíže, komunita Aspose.BarCode je připravena po
 
 ## Často kladené otázky
 
-### Q1: Co je Codabar?
-
-A1: Codabar je lineární symbologie čárových kódů, která se běžně používá v různých odvětvích pro označování a identifikaci.
-
-### Q2: Proč je výpočet kontrolního součtu důležitý v čárových kódech Codabar?
-
-A2: Výpočet kontrolního součtu přidává další vrstvu integrity dat, což zajišťuje, že zakódované informace jsou přesné a bez chyb.
-
-### Q3: Jak získat dočasnou licenci pro Aspose.BarCode pro .NET?
-
-A3: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Je Aspose.BarCode pro .NET kompatibilní s různými .NET frameworky?
-
-A4: Ano, Aspose.BarCode pro .NET je kompatibilní s různými .NET frameworky, což jej činí univerzálním a vhodným pro širokou škálu aplikací.
-
-### Q5: Kde najdu kompletní dokumentaci pro Aspose.BarCode pro .NET?
-
-A5: Kompletní dokumentaci můžete získat [zde](https://reference.aspose.com/barcode/net/).
-
-## Často kladené otázky
-
 **Q: Mohu použít kontrolní součet Mod16 pro čárové kódy knih v knihovně?**  
 A: Rozhodně. Mod16 poskytuje silnější detekci chyb, což je výhodné v prostředích s vysokým objemem, jako jsou knihovny.
 

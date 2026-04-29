@@ -66,13 +66,6 @@ Learn how to calculate Codabar checksums in .NET using Aspose.BarCode. Enhance d
 ### [Codabar Start/Stop Characters](./codabar-start-stop-characters/)
 Learn how to create Codabar barcodes with start and stop characters using Aspose.BarCode for .NET. A step-by-step guide for developers.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Do I have to calculate the checksum manually?**  
@@ -97,3 +90,10 @@ A: The library works with .NET Framework 4.6+, .NET Core 3.1+, and .NET 5/6/7.
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

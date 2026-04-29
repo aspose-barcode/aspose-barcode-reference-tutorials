@@ -102,23 +102,6 @@ Ha bármilyen nehézségbe ütközik, az Aspose.BarCode közösség szívesen se
 
 ## Gyakran Ismételt Kérdések
 
-### Q1: Mi a Codabar?
-A1: A Codabar egy lineáris vonalkód szimbólum, amelyet gyakran használnak különböző iparágakban címkézésre és azonosításra.
-
-### Q2: Miért fontos az ellenőrző összeg számítása a Codabar vonalkódoknál?
-A2: Az ellenőrző összeg számítása egy extra adat integritási réteget ad, biztosítva, hogy a kódolt információ pontos és hibamentes legyen.
-
-### Q3: Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for .NET-hez?
-A3: Ideiglenes licencet szerezhet [innen](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Az Aspose.BarCode for .NET kompatibilis-e különböző .NET keretrendszerekkel?
-A4: Igen, az Aspose.BarCode for .NET kompatibilis különböző .NET keretrendszerekkel, így sokoldalú és számos alkalmazás számára alkalmas.
-
-### Q5: Hol találom meg a teljes dokumentációt az Aspose.BarCode for .NET-hez?
-A5: A teljes dokumentációt elérheti [innen](https://reference.aspose.com/barcode/net/).
-
-## Gyakran Ismételt Kérdések
-
 **Q: Használhatom a Mod16 ellenőrző összeget könyvtári könyv vonalkódokhoz?**  
 A: Természetesen. A Mod16 erősebb hibadetektálást biztosít, ami előnyös a nagy forgalmú környezetekben, mint a könyvtárak.
 

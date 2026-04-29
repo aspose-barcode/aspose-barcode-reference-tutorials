@@ -107,28 +107,6 @@ In diesem Leitfaden haben wir **gezeigt, wie man eine Prüfsumme** hinzufügt, w
 
 Wenn Sie auf Schwierigkeiten stoßen, steht Ihnen die Aspose.BarCode‑Community im [Aspose.BarCode‑Forum](https://forum.aspose.com/c/barcode/13) zur Verfügung.
 
-## FAQ's
-
-### Q1: Was ist Codabar?
-
-A1: Codabar ist eine lineare Barcode‑Symbologie, die in verschiedenen Branchen häufig für Kennzeichnung und Identifikation verwendet wird.
-
-### Q2: Warum ist die Berechnung einer Prüfsumme bei Codabar‑Barcodes wichtig?
-
-A2: Die Prüfsummen‑Berechnung fügt eine zusätzliche Ebene der Datenintegrität hinzu und stellt sicher, dass die codierten Informationen exakt und fehlerfrei sind.
-
-### Q3: Wie kann ich eine temporäre Lizenz für Aspose.BarCode für .NET erhalten?
-
-A3: Sie können eine temporäre Lizenz von [hier](https://purchase.aspose.com/temporary-license/) beziehen.
-
-### Q4: Ist Aspose.BarCode für .NET mit verschiedenen .NET‑Frameworks kompatibel?
-
-A4: Ja, Aspose.BarCode für .NET ist mit verschiedenen .NET‑Frameworks kompatibel und damit vielseitig einsetzbar.
-
-### Q5: Wo finde ich die vollständige Dokumentation für Aspose.BarCode für .NET?
-
-A5: Die umfassende Dokumentation steht Ihnen [hier](https://reference.aspose.com/barcode/net/) zur Verfügung.
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich die Mod16‑Prüfsumme für Bibliotheksbuch‑Barcodes verwenden?**  

@@ -106,28 +106,6 @@ Trong hướng dẫn này, chúng ta đã đề cập **cách thêm checksum** k
 
 Nếu gặp khó khăn, cộng đồng Aspose.BarCode sẵn sàng hỗ trợ trên [diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-## Câu Hỏi Thường Gặp
-
-### Q1: Codabar là gì?
-
-A1: Codabar là một ký hiệu mã vạch tuyến tính thường được sử dụng trong nhiều ngành công nghiệp để gắn nhãn và nhận dạng.
-
-### Q2: Tại sao việc tính checksum lại quan trọng trong mã vạch Codabar?
-
-A2: Tính checksum thêm một lớp bảo vệ dữ liệu, đảm bảo thông tin đã mã hoá là chính xác và không có lỗi.
-
-### Q3: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.BarCode cho .NET?
-
-A3: Bạn có thể nhận giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Aspose.BarCode cho .NET có tương thích với các framework .NET khác nhau không?
-
-A4: Có, Aspose.BarCode cho .NET tương thích với nhiều framework .NET, giúp nó linh hoạt và phù hợp với đa dạng ứng dụng.
-
-### Q5: Tôi có thể tìm tài liệu đầy đủ cho Aspose.BarCode cho .NET ở đâu?
-
-A5: Bạn có thể truy cập tài liệu chi tiết [tại đây](https://reference.aspose.com/barcode/net/).
-
 ## Các Câu Hỏi Thường Đặt
 
 **Q: Tôi có thể sử dụng checksum Mod16 cho mã vạch sách thư viện không?**  

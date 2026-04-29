@@ -17,29 +17,29 @@ weight: 11
 
 # Generowanie kodu kreskowego Codabar ze znakami start/stop w Aspose.BarCode dla .NET
 
-## Introduction
+## Wstęp
 
-Witamy w tym obszernym przewodniku, jak **generować obrazy kodu kreskowego Codabar** ze znakami start/stop przy użyciu Aspose.BarCode dla .NET. Niezależnie od tego, czy tworzysz system inwentaryzacji detalicznej, śledzenie próbek laboratoryjnych czy rozwiązanie do rekordów medycznych, Codabar jest niezawodną symbologią numeryczną, która wymaga wyraźnych znaków start i stop dla dokładnego skanowania. W ciągu kilku minut przeprowadzimy Cię przez wszystko, co potrzebne — od wymagań wstępnych po zapisanie ostatecznych plików PNG — abyś mógł od razu rozpocząć tworzenie kodów kreskowych Codabar.
+Witamy w tym przewodniku, jak **generować obrazy kodu kreskowego Codabar** ze znakami start/stop przy użyciu Aspose.BarCode dla .NET. od tego, czy tworzysz system inwentaryzacji detalicznej, ujawniający laboratoriumjnych lub rozwiązanie do rekordów medycznych, Codabar jest niezawodną symbologią numeryczną, która wymaga występowania znaków start i stop dla dokładnego skanowania. W ciągu kilku minut przeprowadziliśmy Cię przez wszystko, co potrzebne — od zastosowania wstępnego po zapisanie plików PNG — ręcznie od razu po utworzeniu kodów kreskowych Codabar.
 
-## Quick Answers
-- **What library do I need?** Aspose.BarCode for .NET  
-- **Which format can I save the barcode in?** PNG (BarCodeImageFormat.Png)  
-- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
-- **Can I change the start/stop symbols?** Yes – use CodabarSymbol.A, B, C, or D.  
-- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.BarCode dla .NET
+- **W jakim formacie mogę zapisać kod kreskowy?** PNG (BarCodeImageFormat.Png)
+- **Czy potrzebuję licencji do tworzenia oprogramowania?** Bezpłatna wersja próbna działa do testowania; do produkcji wymagana jest licencja komercyjna.
+- **Czy mogę zmienić symbole start/stop?** Tak – użyj CodabarSymbol.A, B, C lub D.
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Prerequisites
+## Wymagania wstępne
 
-Zanim zaczniemy, upewnijmy się, że masz wszystko, co potrzebne, aby podążać za tym samouczkiem:
+Zanim zaczniemy, powinniśmy się, że masz wszystko, co potrzebne, aby podążać za tym samouczkiem:
 
-1. **Environment Setup** – Make sure you have a working .NET development environment on your machine. If you need guidance, refer to the [documentation](https://reference.aspose.com/barcode/net/).  
-2. **Aspose.BarCode for .NET Library** – Download and install the library from the official [source](https://releases.aspose.com/barcode/net/).  
-3. **Basic .NET Knowledge** – Familiarity with C# and Visual Studio (or any preferred IDE) will make the steps smoother.  
-4. **IDE** – Visual Studio, Rider, or Visual Studio Code are all fine.
+1. **Konfiguracja środowiska** – Upewnij się, że na swoim komputerze masz działające środowisko programistyczne .NET. Jeśli potrzebujesz wskazówek, zapoznaj się z [dokumentacją](https://reference.aspose.com/barcode/net/).
+2. **Biblioteka Aspose.BarCode dla .NET** – Pobierz i zainstaluj bibliotekę z oficjalnego [źródła](https://releases.aspose.com/barcode/net/).
+3. **Podstawowa wiedza o .NET** – Znajomość C# i Visual Studio (lub dowolnego preferowanego środowiska IDE) ułatwi Ci wykonanie tych kroków.
+4. **IDE** – Visual Studio, Rider lub VisualStudioCode są odpowiednie.
 
-Now that we’ve covered the prerequisites, let’s dive into the actual code.
+Teraz, gdy omówiliśmy wymagania wstępne, przejdźmy do właściwego kodu.
 
-## Import Namespaces
+## Importowanie przestrzeni nazw
 
 Aby rozpocząć pracę z Aspose.BarCode dla .NET, upewnij się, że zaimportowałeś niezbędną przestrzeń nazw:
 
@@ -47,9 +47,9 @@ Aby rozpocząć pracę z Aspose.BarCode dla .NET, upewnij się, że zaimportowa�
 using Aspose.BarCode.Generation;
 ```
 
-## How to generate codabar barcode – Step‑by‑Step Guide
+## Jak wygenerować kod kreskowy Codabar – Przewodnik krok po kroku
 
-### Step 1: Initialize the Barcode Generator
+### Krok 1: Zainicjuj generator kodów kreskowych
 
 Utwórz instancję `BarcodeGenerator`, określ **Codabar** jako typ kodowania i podaj ciąg danych, który już zawiera znaki start/stop (np. “-12345-”).
 
@@ -62,7 +62,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 
 > **Pro tip:** Myślnik (`-`) jest jednym z prawidłowych symboli start/stop dla Codabar. Możesz również użyć A, B, C lub D w zależności od wymagań aplikacji.
 
-### Step 2: Set the X‑Dimension (barcode element width)
+### Krok 2: Ustaw wymiar X (szerokość elementu kodu kreskowego)
 
 X‑Dimension kontroluje szerokość najwęższego słupka. Dostosuj ją do swojego środowiska skanowania.
 
@@ -72,32 +72,32 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 > **Why it matters:** Większa X‑Dimension poprawia czytelność na drukarkach o niskiej rozdzielczości, podczas gdy mniejsza wartość oszczędza miejsce na etykietach o wysokiej gęstości.
 
-### Step 3: Define Start and Stop Characters
+### Krok 3: Zdefiniuj znaki Start i Stop
 
 Codabar obsługuje cztery symbole start/stop (A, B, C, D). Poniżej znajdują się przykłady dla każdej opcji. Wybierz tę, która odpowiada specyfikacji systemu, z którym się integrujesz.
 
-#### Setting Start A and Stop A
+#### Ustawianie StartA i StopA
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.A;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.A;
 ```
 
-#### Setting Start B and Stop B
+#### Ustawianie StartB i StopB
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.B;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.B;
 ```
 
-#### Setting Start C and Stop C
+#### Ustawianie StartC i StopC
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.C;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.C;
 ```
 
-#### Setting Start D and Stop D
+#### Ustawianie StartD i StopD
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.D;
@@ -106,7 +106,7 @@ gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.D;
 
 Możesz powtórzyć konfigurację dla każdego potrzebnego symbolu; poniższy przykład zapisuje cztery oddzielne obrazy — po jednym dla każdej pary start/stop.
 
-### Step 4: Save the Generated Barcode Images (PNG)
+### Krok 4: Zapisz wygenerowane obrazy kodu kreskowego (PNG)
 
 Na koniec zapisz kod kreskowy do plików PNG. Demonstracja użycia **save barcode png** oraz dostarcza gotowe zasoby do testów.
 
@@ -119,41 +119,41 @@ gen.Save($"{path}CodabarStartDStopD.png", BarCodeImageFormat.Png);
 
 Każdy plik zawiera teraz **przykład kodu kreskowego Codabar** z odpowiednimi znakami start/stop.
 
-## Common Issues & Troubleshooting
+## Typowe problemy i rozwiązywanie problemów
 
 | Objaw | Prawdopodobna przyczyna | Rozwiązanie |
-|-------|--------------------------|-------------|
-| Kod kreskowy wygląda zniekształcony | X‑Dimension zbyt niska dla wybranej rozdzielczości drukarki | Zwiększ `XDimension.Pixels` (np. do 3 lub 4) |
-| Skaner nie odczytuje start/stop | Nieprawidłowy symbol start/stop dla docelowego systemu | Sprawdź wymagany symbol (A‑D) i ustaw go odpowiednio |
-| Plik PNG jest pusty lub uszkodzony | Nieprawidłowa ścieżka wyjściowa lub niewystarczające uprawnienia do zapisu | Upewnij się, że `path` wskazuje istniejący folder i aplikacja ma dostęp do zapisu |
+|-------|-------------------------------|------------|
+| Kod kreskowy wygląda zniekształcony | X‑Dimension zbyt niska dla rozdzielczości drukarki | Wzmocnione `XDimension.Pixels` (np. do 3 lub 4) |
+| Skaner nie odczytuje start/stop | Nieprawidłowy symbol start/stop dla docelowego systemu | Sprawdź wymagany symbol (A-D) i ustaw go odpowiednio |
+| Plik PNG jest pusty lub pusty | Nieprawidłowa ścieżka wyjściowa lub wersja prawna do zapisu | następuje, że `path` plik instalacyjny i aplikacja ma dostęp do zapisu |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-### Q1: What is Codabar, and why are start and stop characters important?
+### P1: Co to jest Codabar i dlaczego znaki początkowe i końcowe są ważne?
 
-Codabar to numeryczna symbologia kodów kreskowych szeroko stosowana w inwentaryzacji, bibliotekach i opiece zdrowotnej. Znaki start i stop definiują granice kodu kreskowego, zapewniając skanerom wiedzę, gdzie dane się zaczynają i kończą.
+Kodabar do numerycznej symboliki kodów kreskowych szeroko rozpowszechnionych w inwentaryzacji, bibliotekach i opiece zdrowotnej. Znaki start i stop definiują granice kodu kreskowego, moduł rozszerzenia, gdzie dane się kończą i kończą.
 
-### Q2: Can I customize the appearance of Codabar barcodes with Aspose.BarCode for .NET?
+### P2: Czy mogę dostosować wygląd kodów kreskowych Codabar za pomocą Aspose.BarCode dla .NET?
 
-Tak. Oprócz X‑Dimension możesz zmieniać kolory, dodawać marginesy, a nawet osadzać kod kreskowy w formatach PDF lub SVG przy użyciu tego samego API.
+Tak. Poza tym X-Dimension może zmieniać kolory, marginesy, a nawet osadzać kod kreskowy w formacie PDF lub SVG przy użyciu tego samego API.
 
-### Q3: Are there any limitations to Codabar barcodes in terms of data encoding?
+### P3: Czy istnieją jakieś ograniczenia dotyczące kodów kreskowych Codabar w zakresie kodowania danych?
 
-Codabar głównie obsługuje dane numeryczne (0‑9) oraz kilka znaków specjalnych. Nie jest przeznaczony do pełnych łańcuchów alfanumerycznych.
+Codabar główny obsługuje dane numeryczne (0‑9) oraz kilka znaków specjalnych. Nie jest przeznaczony do pełnych łańcuchów alfanumerycznych.
 
-### Q4: Is Aspose.BarCode for .NET suitable for commercial use, and how can I obtain a license?
+### P4: Czy Aspose.BarCode dla .NET nadaje się do użytku komercyjnego i jak mogę uzyskać licencję?
 
-Tak, jest gotowy do produkcji. Kup licencję na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
+Tak, jest gotowe do produkcji. Kupuj na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
 
-### Q5: Where can I seek help or discuss issues related to Aspose.BarCode for .NET?
+### P5: Gdzie mogę szukać pomocy lub omówić problemy związane z Aspose.BarCode dla .NET?
 
-Dołącz do społeczności na [forum wsparcia Aspose.BarCode dla .NET](https://forum.aspose.com/c/barcode/13), aby uzyskać pomoc od inżynierów Aspose oraz innych programistów.
+Dołącz do społeczności na [forum wsparcia Aspose.BarCode dla .NET](https://forum.aspose.com/c/barcode/13), aby uzyskać pomoc inżynierów Aspose oraz innych programistów.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-04  
-**Testowano z:** Aspose.BarCode 24.11 for .NET  
-**Autor:** Aspose  
+**Aktualizacja Ostatnia:** 2026-01-04
+**Testowano z:** Aspose.BarCode 24.11 dla .NET
+**Autor:** Asponuj  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

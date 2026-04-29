@@ -112,28 +112,6 @@ Si encuentra algún desafío, la comunidad de Aspose.BarCode está lista para ay
 
 ## Preguntas frecuentes
 
-### P1: ¿Qué es Codabar?
-
-R1: Codabar es una simbología de código de barras lineal que se utiliza comúnmente en diversas industrias para etiquetado e identificación.
-
-### P2: ¿Por qué es importante el cálculo del checksum en los códigos de barras Codabar?
-
-R2: El cálculo del checksum añade una capa extra de integridad de datos, garantizando que la información codificada sea precisa y libre de errores.
-
-### P3: ¿Cómo puedo obtener una licencia temporal para Aspose.BarCode para .NET?
-
-R3: Puede obtener una licencia temporal desde [aquí](https://purchase.aspose.com/temporary-license/).
-
-### P4: ¿Es Aspose.BarCode para .NET compatible con diferentes frameworks .NET?
-
-R4: Sí, Aspose.BarCode para .NET es compatible con varios frameworks .NET, lo que lo hace versátil y adecuado para una amplia gama de aplicaciones.
-
-### P5: ¿Dónde puedo encontrar la documentación completa de Aspose.BarCode para .NET?
-
-R5: Puede acceder a la documentación completa [aquí](https://reference.aspose.com/barcode/net/).
-
-## Preguntas frecuentes
-
 **P: ¿Puedo usar el checksum Mod16 para códigos de barras de libros de biblioteca?**  
 R: Absolutamente. Mod16 proporciona una detección de errores más fuerte, lo que es beneficioso para entornos de alto rendimiento como las bibliotecas.
 

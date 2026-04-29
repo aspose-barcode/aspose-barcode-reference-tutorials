@@ -107,28 +107,6 @@ I den här guiden har vi gått igenom **hur du lägger till kontrollsumma** när
 
 Om du stöter på några utmaningar är Aspose.BarCode‑communityn redo att hjälpa till på [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
 
-## Vanliga frågor
-
-### Q1: Vad är Codabar?
-
-A1: Codabar är en linjär streckkodssymbol som ofta används i olika branscher för märkning och identifiering.
-
-### Q2: Varför är beräkning av kontrollsumma viktig i Codabar‑streckkoder?
-
-A2: Beräkning av kontrollsumma lägger till ett extra lager av dataintegritet, vilket säkerställer att den kodade informationen är korrekt och felfri.
-
-### Q3: Hur kan jag få en tillfällig licens för Aspose.BarCode för .NET?
-
-A3: Du kan skaffa en tillfällig licens från [here](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Är Aspose.BarCode för .NET kompatibel med olika .NET‑ramverk?
-
-A4: Ja, Aspose.BarCode för .NET är kompatibel med flera .NET‑ramverk, vilket gör den mångsidig och lämplig för ett brett spektrum av applikationer.
-
-### Q5: Var kan jag hitta den fullständiga dokumentationen för Aspose.BarCode för .NET?
-
-A5: Du kan komma åt den omfattande dokumentationen [here](https://reference.aspose.com/barcode/net/).
-
 ## Vanliga frågor och svar
 
 **Q: Kan jag använda Mod16‑kontrollsumma för bibliotekets bokstreckkoder?**  

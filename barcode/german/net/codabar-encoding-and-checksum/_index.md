@@ -67,13 +67,6 @@ Erfahren Sie, wie Sie Codabar‑Prüfsummen in .NET mit Aspose.BarCode berechnen
 ### [Codabar‑Start/Stop‑Zeichen](./codabar-start-stop-characters/)
 Erfahren Sie, wie Sie Codabar‑Barcodes mit Start‑ und Stop‑Zeichen mithilfe von Aspose.BarCode für .NET erstellen. Eine Schritt‑für‑Schritt‑Anleitung für Entwickler.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Muss ich die Prüfsumme manuell berechnen?**  
@@ -98,3 +91,10 @@ A: Die Bibliothek funktioniert mit .NET Framework 4.6+, .NET Core 3.1+, und .NET
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

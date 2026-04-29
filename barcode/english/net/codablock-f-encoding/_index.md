@@ -1,5 +1,5 @@
 ---
-title: How to Customize Barcode: Codablock F Encoding with Aspose.BarCode
+title: How to Customize Barcode - Codablock F Encoding with Aspose.BarCode
 linktitle: Codablock F Encoding
 second_title: Aspose.BarCode .NET API
 description: Learn how to customize barcode using Aspose.BarCode for .NET – adjust aspect ratio, set rows and columns, and create precise Codablock F 2D barcodes.
@@ -74,13 +74,6 @@ Master Codablock F Aspect Ratio Customization with Aspose.BarCode for .NET. Cr
 ### [Configure Codablock F Rows & Columns](./codablock-f-row-column-configuration/)
 Learn how to configure Codablock F rows and columns in Aspose.BarCode for .NET. Create customized 2D barcodes for various applications.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use these settings on mobile platforms?**  
@@ -105,3 +98,10 @@ A: A valid Aspose.BarCode license is required for production deployments. A free
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

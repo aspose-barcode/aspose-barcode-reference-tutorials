@@ -17,7 +17,7 @@ weight: 10
 
 Codabar は、物流、図書館、医療などで特に広く採用されている線形バーコードシンボルです。Codabar バーコードにチェックサムを追加すると、転記エラーを問題になる前に検出でき、データの完全性が大幅に向上します。このチュートリアルでは、Aspose.BarCode for .NET で Codabar バーコードを生成する際に **チェックサムを追加する方法** を学び、Mod10 と Mod16 の両方のチェックサムモードを実際に確認できます。
 
-## Quick Answers
+## 簡単な回答
 - **Codabar における「チェックサムを追加する」とは何ですか？** エンコードされたデータを検証するエラーディジットを有効にします。  
 - **サポートされているチェックサムモードはどれですか？** Mod10（一般的）と Mod16（高精度シナリオ向け）。  
 - **この機能を使用するのにライセンスは必要ですか？** はい、商用利用には有効な Aspose.BarCode for .NET ライセンスが必要です。  
@@ -106,29 +106,7 @@ gen.Save($"{path}CodabarChecksumMod16.png", BarCodeImageFormat.Png);
 
 問題が発生した場合は、[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13) でコミュニティに相談できます。
 
-## FAQ's
-
-### Q1: Codabar とは何ですか？
-
-A1: Codabar は、さまざまな業界でラベリングや識別目的に広く使用されている線形バーコードシンボルです。
-
-### Q2: Codabar バーコードでチェックサム計算が重要な理由は？
-
-A2: チェックサム計算によりデータの完全性が一層高まり、エンコードされた情報が正確でエラーがないことを保証します。
-
-### Q3: Aspose.BarCode for .NET の一時ライセンスはどこで取得できますか？
-
-A3: [here](https://purchase.aspose.com/temporary-license/) から取得可能です。
-
-### Q4: Aspose.BarCode for .NET はさまざまな .NET フレームワークと互換性がありますか？
-
-A4: はい、複数の .NET フレームワークに対応しており、幅広いアプリケーションで利用できます。
-
-### Q5: Aspose.BarCode for .NET の完全なドキュメントはどこで確認できますか？
-
-A5: 完全なドキュメントは [here](https://reference.aspose.com/barcode/net/) にあります。
-
-## Frequently Asked Questions
+## よくある質問
 
 **Q: 図書館の書籍バーコードに Mod16 チェックサムを使用できますか？**  
 A: もちろんです。Mod16 はエラー検出が強化されているため、図書館のような高スループット環境に適しています。

@@ -106,28 +106,6 @@ gen.Save($"{path}CodabarChecksumMod16.png", BarCodeImageFormat.Png);
 
 若您遇到任何問題，Aspose.BarCode 社群可於 [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) 提供協助。
 
-## 常見問答
-
-### Q1：什麼是 Codabar？
-
-A1：Codabar 是一種線性條碼符號，常用於各行各業的標籤與識別用途。
-
-### Q2：為何在 Codabar 條碼中計算校驗碼很重要？
-
-A2：校驗碼計算為資料完整性增添一層保護，確保編碼資訊的準確與無誤。
-
-### Q3：如何取得 Aspose.BarCode for .NET 的暫時授權？
-
-A3：您可從 [here](https://purchase.aspose.com/temporary-license/) 取得暫時授權。
-
-### Q4：Aspose.BarCode for .NET 是否相容於不同的 .NET 框架？
-
-A4：是的，Aspose.BarCode for .NET 相容於多種 .NET 框架，具備彈性且適用於廣泛的應用。
-
-### Q5：在哪裡可以找到 Aspose.BarCode for .NET 的完整文件？
-
-A5：您可於 [here](https://reference.aspose.com/barcode/net/) 取得完整文件。
-
 ## 常見問題
 
 **Q：我可以在圖書館書籍條碼使用 Mod16 校驗碼嗎？**  

@@ -105,28 +105,6 @@ In this guide we covered **how to add checksum** when you generate a Codabar bar
 
 If you run into any challenges, the Aspose.BarCode community is ready to help on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
 
-## FAQ's
-
-### Q1: What is Codabar?
-
-A1: Codabar is a linear barcode symbology that is commonly used in various industries for labeling and identification purposes.
-
-### Q2: Why is checksum calculation important in Codabar barcodes?
-
-A2: Checksum calculation adds an extra layer of data integrity, ensuring that the encoded information is accurate and error‑free.
-
-### Q3: How can I get a temporary license for Aspose.BarCode for .NET?
-
-A3: You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Is Aspose.BarCode for .NET compatible with different .NET frameworks?
-
-A4: Yes, Aspose.BarCode for .NET is compatible with various .NET frameworks, making it versatile and suitable for a wide range of applications.
-
-### Q5: Where can I find the complete documentation for Aspose.BarCode for .NET?
-
-A5: You can access the comprehensive documentation [here](https://reference.aspose.com/barcode/net/).
-
 ## Frequently Asked Questions
 
 **Q: Can I use the Mod16 checksum for library book barcodes?**  

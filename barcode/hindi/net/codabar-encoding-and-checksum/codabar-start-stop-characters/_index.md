@@ -39,7 +39,7 @@ weight: 11
 
 अब जब हमने पूर्वापेक्षाएँ कवर कर ली हैं, चलिए वास्तविक कोड में डुबकी लगाते हैं।
 
-## Import Namespaces
+## नामस्थान आयात करें
 
 Aspose.BarCode for .NET के साथ शुरू करने के लिए, आवश्यक नेमस्पेस इम्पोर्ट करना न भूलें:
 
@@ -47,9 +47,9 @@ Aspose.BarCode for .NET के साथ शुरू करने के लि
 using Aspose.BarCode.Generation;
 ```
 
-## Codabar बारकोड जेनरेट करने की स्टेप‑बाय‑स्टेप गाइड
+## कोडाबार बारकोड कैसे बनाएं – स्टेप-बाय-स्टेप गाइड
 
-### Step 1: Initialize the Barcode Generator
+### स्टेप 1: बारकोड जेनरेटर को इनिशियलाइज़ करें
 
 `BarcodeGenerator` का एक इंस्टेंस बनाएं, **Codabar** को एन्कोडिंग टाइप के रूप में निर्दिष्ट करें, और वह डेटा स्ट्रिंग प्रदान करें जिसमें पहले से ही Start/Stop कैरेक्टर हों (उदाहरण: “-12345-”)।
 
@@ -62,7 +62,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 
 > **Pro tip:** डैश (`-`) Codabar के वैध Start/Stop सिंबल में से एक है। आप अपनी एप्लिकेशन की आवश्यकताओं के अनुसार A, B, C, या D भी उपयोग कर सकते हैं।
 
-### Step 2: Set the X‑Dimension (barcode element width)
+### स्टेप 2: X-डाइमेंशन (बारकोड एलिमेंट की चौड़ाई) सेट करें
 
 X‑Dimension सबसे पतली बार की चौड़ाई को नियंत्रित करता है। इसे अपने स्कैनिंग वातावरण के अनुसार समायोजित करें।
 
@@ -72,32 +72,32 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 > **Why it matters:** बड़ा X‑Dimension कम‑रिज़ॉल्यूशन प्रिंटरों पर पठनीयता बढ़ाता है, जबकि छोटा मान हाई‑डेंसिटी लेबल्स पर जगह बचाता है।
 
-### Step 3: Define Start and Stop Characters
+### स्टेप 3: स्टार्ट और स्टॉप कैरेक्टर तय करें
 
 Codabar चार Start/Stop सिंबल (A, B, C, D) को सपोर्ट करता है। नीचे प्रत्येक विकल्प के उदाहरण दिए गए हैं। वह चुनें जो आपके इंटीग्रेटेड सिस्टम की स्पेसिफिकेशन से मेल खाता हो।
 
-#### Setting Start A and Stop A
+#### StartA और StopA सेट करना
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.A;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.A;
 ```
 
-#### Setting Start B and Stop B
+#### StartB और StopB सेट करना
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.B;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.B;
 ```
 
-#### Setting Start C and Stop C
+#### StartC और StopC सेट करना
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.C;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.C;
 ```
 
-#### Setting Start D and Stop D
+#### StartD और StopD सेट करना
 
 ```csharp
 gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.D;
@@ -106,7 +106,7 @@ gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.D;
 
 आप प्रत्येक आवश्यक सिंबल के लिए कॉन्फ़िगरेशन दोहरा सकते हैं; नीचे दिया गया उदाहरण चार अलग‑अलग इमेजेज़ सेव करता है—प्रत्येक Start/Stop जोड़ी के लिए एक।
 
-### Step 4: Save the Generated Barcode Images (PNG)
+### स्टेप 4: जेनरेट की गई बारकोड इमेज (PNG) सेव करें
 
 अंत में, बारकोड को PNG फ़ाइलों में लिखें। यह **save barcode png** उपयोग केस को दर्शाता है और आपको टेस्टिंग के लिए तैयार‑टू‑यूज़ एसेट्स देता है।
 
@@ -119,41 +119,41 @@ gen.Save($"{path}CodabarStartDStopD.png", BarCodeImageFormat.Png);
 
 अब प्रत्येक फ़ाइल में संबंधित Start/Stop सिंबल के साथ एक **codabar barcode example** शामिल है।
 
-## Common Issues & Troubleshooting
+## आम समस्याएँ और समस्या निवारण
 
-| लक्षण | संभावित कारण | समाधान |
+| लक्षण | क्षम कारण | समाधान |
 |---------|--------------|-----|
-| बारकोड विकृत दिख रहा है | चुने हुए प्रिंटर रिज़ॉल्यूशन के लिए X‑Dimension बहुत कम है | `XDimension.Pixels` को बढ़ाएँ (उदाहरण: 3 या 4) |
-| स्कैनर Start/Stop नहीं पढ़ पा रहा | लक्ष्य सिस्टम के लिए गलत Start/Stop सिंबल सेट किया गया है | आवश्यक सिंबल (A‑D) की पुष्टि करें और उसी अनुसार सेट करें |
-| PNG फ़ाइल खाली या करप्ट है | आउटपुट पाथ अमान्य है या लिखने की अनुमति नहीं है | सुनिश्चित करें `path` मौजूदा फ़ोल्डर की ओर इशारा करता है और एप्लिकेशन को लिखने की अनुमति है |
+| बारकोड विकृत दिख रहा है | चुने हुए प्रिंटर साइज़ के लिए X‑Dimension बहुत कम है | `XDimension.Pixels` को बढ़ाएँ (उदाहरण: 3 या 4) |
+| बुक स्टार्ट/स्टॉप नहीं पढ़ पा रहा | लक्ष्य सिस्टम के लिए गलत स्टार्ट/स्टॉप सिंबल सेट किया गया है | आवश्यक सिंबल (A‑D) की पुष्टि करें और उसी अनुसार सेट करें |
+| PNG फ़ाइल खाली या करप्ट है | आउटपुट पाथ एन्कोडिंग है या लिखने की अनुमति नहीं है | सुनिश्चित करें `path` मौजूदा फ़ोल्डर की ओर इशारा करता है और एप्लिकेशन को लिखने की अनुमति है |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: Codabar क्या है, और Start/Stop कैरेक्टर क्यों महत्वपूर्ण हैं?
+### Q1: कोडकोड क्या है, और स्टार्ट/स्टॉप बटन क्यों महत्वपूर्ण हैं?
 
-A1: Codabar एक न्यूमेरिक बारकोड सिम्बोलॉजी है जो इन्वेंटरी, लाइब्रेरी और हेल्थकेयर में व्यापक रूप से उपयोग होती है। Start और Stop कैरेक्टर बारकोड की सीमाओं को परिभाषित करते हैं, जिससे स्कैनर को डेटा की शुरुआत और अंत का पता चलता है।
+A1: Codabar एक न्यूमेरिक बारकोड सिम्बोलॉजी है जो इन्वेंटरी, लाइब्रेरी और हेल्थकेयर में बड़े पैमाने पर इस्तेमाल होती है। Start और Stop न्यूमेरिक बारकोड की सीमाओं को परिभाषित करते हैं, जिससे बुक को डेटा की शुरुआत और अंत का पता चलता है।
 
-### Q2: क्या मैं Aspose.BarCode for .NET के साथ Codabar बारकोड की उपस्थिति को कस्टमाइज़ कर सकता हूँ?
+### Q2: क्या मैं Aspose.BarCode for .NET के साथ Codabar बारकोड की मौजूदगी को कस्टमाइज़ कर सकता हूँ?
 
-A2: हाँ। X‑Dimension के अलावा, आप रंग बदल सकते हैं, मार्जिन जोड़ सकते हैं, और यहाँ तक कि वही API उपयोग करके बारकोड को PDF या SVG फॉर्मेट में एम्बेड कर सकते हैं।
+A2: हाँ। X‑Dimension के अलावा, आप रंग बदल सकते हैं, मार्जिन जोड़ सकते हैं, और यहाँ तक कि वही API इस्तेमाल करके बारकोड को PDF या SVG फ़ॉर्मेट में एम्बेड कर सकते हैं।
 
 ### Q3: डेटा एन्कोडिंग के संदर्भ में Codabar बारकोड की कोई सीमाएँ हैं क्या?
 
-A3: Codabar मुख्यतः न्यूमेरिक डेटा (0‑9) और कुछ विशेष कैरेक्टर को सपोर्ट करता है। यह पूर्ण अल्फ़ान्यूमेरिक स्ट्रिंग्स के लिए उपयुक्त नहीं है।
+A3: Codabar मुख्यतः न्यूमेरिक डेटा (0‑9) और कुछ विशेष न्यूमेरिक को सपोर्ट करता है। यह पूर्ण अल्फान्यूमेरिक स्ट्रिंग्स के लिए उपयुक्त नहीं है।
 
-### Q4: क्या Aspose.BarCode for .NET व्यावसायिक उपयोग के लिए उपयुक्त है, और लाइसेंस कैसे प्राप्त करूँ?
+### Q4: क्या Aspose.BarCode for .NET प्रोफेशनल इस्तेमाल के लिए सही है, और लाइसेंस कैसे लें?
 
-A4: हाँ, यह प्रोडक्शन‑रेडी है। लाइसेंस खरीदने के लिए [Aspose's purchase page](https://purchase.aspose.com/buy) देखें।
+A4: हाँ, यह प्रोडक्शन-रेडी है। लाइसेंस खरीदने के लिए [Aspose का परचेज़ पेज](https://purchase.aspose.com/buy) देखें।
 
-### Q5: Aspose.BarCode for .NET से संबंधित मदद या चर्चा के लिए मैं कहाँ जा सकता हूँ?
+### Q5: Aspose.BarCode for .NET से जुड़ी मदद या चर्चा के लिए मैं कहाँ जा सकता हूँ?
 
-A5: सहायता के लिए [Aspose.BarCode for .NET support forum](https://forum.aspose.com/c/barcode/13) पर समुदाय से जुड़ें, जहाँ Aspose इंजीनियर और अन्य डेवलपर्स मदद करते हैं।
+A5: मदद के लिए [Aspose.BarCode for .NET सपोर्ट फ़ोरम](https://forum.aspose.com/c/barcode/13) पर कम्युनिटी से जुड़ें, जहाँ Aspose इंजीनियर और दूसरे डेवलपर्स मदद करते हैं।
 
 ---
 
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.BarCode 24.11 for .NET  
-**Author:** Aspose  
+**आखिरी अपडेट:** 2026-01-04
+**इसके साथ टेस्ट किया गया:** Aspose.BarCode 24.11 for .NET
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

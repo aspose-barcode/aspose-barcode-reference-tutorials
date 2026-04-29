@@ -72,13 +72,6 @@ weight: 20
 ### [أحرف البداية/النهاية في Codabar](./codabar-start-stop-characters/)
 تعلم كيفية إنشاء رموز Codabar الشريطية بأحرف البداية والنهاية باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة للمطورين.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يجب علي حساب المجموع الاختباري يدويًا؟**  
@@ -101,3 +94,10 @@ weight: 20
 **آخر تحديث:** 2026-01-04  
 **تم الاختبار مع:** Aspose.BarCode 24.12 for .NET  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

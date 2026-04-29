@@ -94,62 +94,40 @@ gen.Save($"{path}CodabarChecksumMod16.png", BarCodeImageFormat.Png);
 
 Dengan empat langkah sederhana ini Anda telah mempelajari **cara menambahkan checksum** ke barcode Codabar dan cara beralih antara mode Mod10 dan Mod16 menggunakan Aspose.BarCode untuk .NET.
 
-## Common Issues and Solutions
+## Masalah Umum dan Solusinya
 
-| Issue | Reason | Fix |
+| Edisi | Alasan | Perbaiki |
 |-------|--------|-----|
 | Gambar yang dihasilkan kosong | `path` mengarah ke folder yang tidak ada | Pastikan direktori ada atau gunakan `Directory.CreateDirectory(path)` sebelum menyimpan |
 | Checksum tidak diterapkan | `IsChecksumEnabled` dibiarkan sebagai `Default` | Atur `IsChecksumEnabled = EnableChecksum.Yes` sebelum menyimpan |
 | Mode checksum salah | Menggunakan nilai enum yang salah | Gunakan `CodabarChecksumMode.Mod10` atau `CodabarChecksumMode.Mod16` sesuai kebutuhan |
 
-## Conclusion
+## Kesimpulan
 
-Dalam panduan ini kami membahas **cara menambahkan checksum** saat Anda menghasilkan barcode Codabar dengan Aspose.BarCode untuk .NET, mendemonstrasikan kedua mode checksum Mod10 dan Mod16, serta menyoroti mengapa barcode dengan checksum penting untuk integritas data. Silakan bereksperimen dengan string data yang berbeda dan jelajahi rangkaian opsi kustomisasi barcode yang kaya yang disediakan Aspose.
+Dalam panduan ini kami membahas **cara menambahkan checksum** saat Anda menghasilkan barcode Codabar dengan Aspose.BarCode untuk .NET, mendemonstrasikan kedua mode checksum Mod10 dan Mod16, serta menjelaskan mengapa barcode dengan checksum penting untuk mengintegrasikan data. Silakan bereksperimen dengan string data yang berbeda dan menjelajahi rangkaian opsi kustomisasi barcode yang kaya yang disediakan Aspose.
 
 Jika Anda mengalami tantangan apa pun, komunitas Aspose.BarCode siap membantu di [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apa itu Codabar?
+**Q: Bisakah saya menggunakan checksum Mod16 untuk barcode buku perpustakaan?**
+J: Tentu saja. Mod16 memberikan deteksi kesalahan yang lebih kuat, yang menguntungkan bagi lingkungan dengan throughput tinggi seperti perpustakaan.
 
-A1: Codabar adalah simbol barcode linear yang umum digunakan di berbagai industri untuk tujuan pelabelan dan identifikasi.
+**Q: Apakah mengaktifkan checksum mengganggu kecepatan pemindaian?**
+A: Penambahan digit menambah waktu pengisian yang dapat diabaikan; kebanyakan mendengarkan menangani ini tanpa penundaan yang terlihat.
 
-### Q2: Mengapa perhitungan checksum penting dalam barcode Codabar?
-
-A2: Perhitungan checksum menambahkan lapisan integritas data ekstra, memastikan bahwa informasi yang dikodekan akurat dan bebas kesalahan.
-
-### Q3: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.BarCode untuk .NET?
-
-A3: Anda dapat memperoleh lisensi sementara dari [sini](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Apakah Aspose.BarCode untuk .NET kompatibel dengan berbagai kerangka kerja .NET?
-
-A4: Ya, Aspose.BarCode untuk .NET kompatibel dengan berbagai kerangka kerja .NET, menjadikannya fleksibel dan cocok untuk berbagai aplikasi.
-
-### Q5: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.BarCode untuk .NET?
-
-A5: Anda dapat mengakses dokumentasi lengkap [sini](https://reference.aspose.com/barcode/net/).
-
-## Frequently Asked Questions
-
-**Q: Bisakah saya menggunakan checksum Mod16 untuk barcode buku perpustakaan?**  
-A: Tentu saja. Mod16 memberikan deteksi kesalahan yang lebih kuat, yang menguntungkan untuk lingkungan dengan throughput tinggi seperti perpustakaan.
-
-**Q: Apakah mengaktifkan checksum memengaruhi kecepatan pemindaian?**  
-A: Digit tambahan menambah waktu pemrosesan yang dapat diabaikan; kebanyakan pemindai menangani ini tanpa penundaan yang terlihat.
-
-**Q: Bagaimana cara memverifikasi checksum secara programatis?**  
+**Q: Bagaimana cara memverifikasi checksum secara terprogram?**
 A: Setelah menghasilkan barcode, Anda dapat menghitung ulang checksum menggunakan `CodabarChecksumMode` yang sama dan membandingkannya dengan karakter terakhir dari string yang dienkode.
 
-**Q: Apakah memungkinkan untuk menyesuaikan tampilan digit checksum?**  
-A: Ya. Gunakan pengaturan tampilan `BarcodeGenerator` (mis., `BarHeight`, `ForeColor`) untuk menata seluruh barcode, termasuk digit checksum.
+**Q: Apakah memungkinkan untuk menyesuaikan tampilan digit checksum?**
+J: Ya. Gunakan pengaturan tampilan `BarcodeGenerator` (mis., `BarHeight`, `ForeColor`) untuk menata seluruh barcode, termasuk digit checksum.
 
-**Q: Bagaimana jika saya perlu menghasilkan banyak barcode dalam sebuah loop?**  
+**Q: Bagaimana jika saya perlu menghasilkan banyak barcode dalam satu loop?**
 A: Buat satu instance `BarcodeGenerator`, perbarui properti `CodeText` untuk setiap iterasi, dan panggil `Save` dengan nama file unik setiap kali.
 
-**Terakhir Diperbarui:** 2026-01-04  
-**Diuji dengan:** Aspose.BarCode 24.11 untuk .NET  
-**Penulis:** Aspose  
+**Terakhir Diperbarui:** 04-01-2026
+**Diuji dengan:** Aspose.BarCode 24.11 untuk .NET
+**Penulis:** Berasumsi  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

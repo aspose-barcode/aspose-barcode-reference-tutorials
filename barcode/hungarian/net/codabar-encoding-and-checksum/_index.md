@@ -68,13 +68,6 @@ Tanuld meg, hogyan számítsd ki a Codabar ellenőrzőösszegeket .NET‑ben az 
 ### [Codabar kezdő‑záró karakterek](./codabar-start-stop-characters/)
 Tanuld meg, hogyan hozz létre Codabar vonalkódokat kezdő‑ és záró karakterekkel az Aspose.BarCode for .NET használatával. Fejlesztőknek szóló részletes útmutató.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran ismételt kérdések
 
 **K: Kézzel kell számítanom az ellenőrzőösszeget?**  
@@ -99,3 +92,10 @@ V: A könyvtár működik .NET Framework 4.6+, .NET Core 3.1+, valamint .NET 5/6
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

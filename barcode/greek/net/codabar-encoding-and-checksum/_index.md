@@ -68,13 +68,6 @@ weight: 20
 ### [Codabar Start/Stop Characters](./codabar-start-stop-characters/)
 Μάθετε πώς να δημιουργείτε Codabar barcodes με χαρακτήρες έναρξης και τερματισμού χρησιμοποιώντας το Aspose.BarCode για .NET. Ένας οδηγός βήμα‑βήμα για προγραμματιστές.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Πρέπει να υπολογίζω τον έλεγχο αθροίσματος χειροκίνητα;**  
@@ -99,3 +92,10 @@ A: Η βιβλιοθήκη λειτουργεί με .NET Framework 4.6+, .NET C
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

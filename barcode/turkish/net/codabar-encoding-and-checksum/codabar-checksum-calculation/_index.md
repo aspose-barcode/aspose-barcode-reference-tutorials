@@ -107,28 +107,6 @@ Bu rehberde Aspose.BarCode for .NET ile Codabar barkodu üretirken **kontrol rak
 
 Herhangi bir sorunla karşılaşırsanız, Aspose.BarCode topluluğu [Aspose.BarCode forumunda](https://forum.aspose.com/c/barcode/13) size yardımcı olmaya hazırdır.
 
-## SSS
-
-### S1: Codabar nedir?
-
-C1: Codabar, çeşitli endüstrilerde etiketleme ve tanımlama amaçlarıyla yaygın olarak kullanılan bir lineer barkod sembolojisidir.
-
-### S2: Codabar barkodlarında kontrol rakamı hesabı neden önemlidir?
-
-C2: Kontrol rakamı hesabı, ek bir veri bütünlüğü katmanı ekleyerek kodlanan bilginin doğru ve hatasız olmasını sağlar.
-
-### S3: Aspose.BarCode for .NET için geçici bir lisans nasıl alınır?
-
-C3: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
-
-### S4: Aspose.BarCode for .NET farklı .NET framework’leriyle uyumlu mu?
-
-C4: Evet, Aspose.BarCode for .NET çeşitli .NET framework’leriyle uyumludur; bu da onu geniş bir uygulama yelpazesi için esnek kılar.
-
-### S5: Aspose.BarCode for .NET için tam dokümantasyona nereden ulaşabilirim?
-
-C5: Kapsamlı dokümantasyona [buradan](https://reference.aspose.com/barcode/net/) erişebilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Mod16 kontrol rakamını kütüphane kitap barkodları için kullanabilir miyim?**  

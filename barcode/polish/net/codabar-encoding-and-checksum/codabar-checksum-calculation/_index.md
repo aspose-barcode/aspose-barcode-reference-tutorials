@@ -108,28 +108,6 @@ W tym przewodniku omówiliśmy **jak dodać sumę kontrolną** przy generowaniu 
 
 Jeśli napotkasz jakiekolwiek trudności, społeczność Aspose.BarCode jest gotowa pomóc na [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-## FAQ's
-
-### Q1: Co to jest Codabar?
-
-A1: Codabar to liniowa symbologia kodów kreskowych, powszechnie stosowana w różnych branżach do znakowania i identyfikacji produktów.
-
-### Q2: Dlaczego obliczanie sumy kontrolnej jest ważne w kodach kreskowych Codabar?
-
-A2: Obliczanie sumy kontrolnej dodaje dodatkową warstwę integralności danych, zapewniając, że zakodowane informacje są dokładne i wolne od błędów.
-
-### Q3: Jak mogę uzyskać tymczasową licencję dla Aspose.BarCode dla .NET?
-
-A3: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Czy Aspose.BarCode dla .NET jest kompatybilny z różnymi frameworkami .NET?
-
-A4: Tak, Aspose.BarCode dla .NET jest kompatybilny z różnymi frameworkami .NET, co czyni go wszechstronnym i odpowiednim dla szerokiego zakresu zastosowań.
-
-### Q5: Gdzie mogę znaleźć pełną dokumentację Aspose.BarCode dla .NET?
-
-A5: Kompletną dokumentację znajdziesz [tutaj](https://reference.aspose.com/barcode/net/).
-
 ## Frequently Asked Questions
 
 **Q: Czy mogę używać sumy kontrolnej Mod16 dla kodów książek w bibliotece?**  

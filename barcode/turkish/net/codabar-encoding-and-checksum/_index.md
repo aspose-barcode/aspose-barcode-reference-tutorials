@@ -68,13 +68,6 @@ Aspose.BarCode kullanarak .NET’te Codabar kontrol toplamlarını nasıl hesapl
 ### [Codabar Başlangıç/Bitiş Karakterleri](./codabar-start-stop-characters/)
 Aspose.BarCode for .NET kullanarak başlangıç ve bitiş karakterleriyle Codabar barkodları oluşturmayı öğrenin. Geliştiriciler için adım adım bir rehber.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Kontrol toplamını manuel olarak hesaplamam gerekiyor mu?**  
@@ -97,3 +90,10 @@ A: Kütüphane .NET Framework 4.6+, .NET Core 3.1+, ve .NET 5/6/7 ile çalışı
 **Son Güncelleme:** 2026-01-04  
 **Test Edilen:** Aspose.BarCode 24.12 for .NET  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -68,13 +68,6 @@ Lär dig hur du beräknar Codabar‑kontrollsummor i .NET med Aspose.BarCode. F�
 ### [Codabar start‑/stop‑tecken](./codabar-start-stop-characters/)
 Lär dig hur du skapar Codabar‑streckkoder med start‑ och stop‑tecken med Aspose.BarCode för .NET. En steg‑för‑steg‑guide för utvecklare.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Måste jag beräkna kontrollsumman manuellt?**  
@@ -97,3 +90,10 @@ A: Biblioteket fungerar med .NET Framework 4.6+, .NET Core 3.1+, och .NET 5/6/7.
 **Senast uppdaterad:** 2026-01-04  
 **Testad med:** Aspose.BarCode 24.12 for .NET  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
