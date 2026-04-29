@@ -116,28 +116,6 @@ Aspose.BarCode voor .NET maakt het eenvoudig om **create barcode image c#** te m
 
 ## Veelgestelde vragen
 
-### Q1: Wat is Codablock F, en waar wordt het meestal gebruikt?
-
-A1: Codablock F is een 2D‑barcode‑symbool dat vaak wordt gebruikt in verzendetiketten, verpakkingen en logistiek voor het coderen van gegevens.
-
-### Q2: Kan ik het uiterlijk van Codablock F‑barcodes aanpassen?
-
-A2: Ja, je kunt verschillende aspecten van het uiterlijk van de barcode aanpassen, zoals grootte, kleuren en lettertypen, met behulp van Aspose.BarCode voor .NET.
-
-### Q3: Is Aspose.BarCode voor .NET compatibel met verschillende .NET‑frameworks?
-
-A3: Ja, Aspose.BarCode voor .NET is compatibel met diverse .NET‑frameworks, waardoor het veelzijdig is voor verschillende ontwikkelomgevingen.
-
-### Q4: Waar kan ik een tijdelijke licentie voor Aspose.BarCode voor .NET krijgen?
-
-A4: Je kunt een tijdelijke licentie voor test- en evaluatiedoeleinden verkrijgen via [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Hoe kan ik ondersteuning krijgen voor Aspose.BarCode voor .NET?
-
-A5: Als je vragen hebt of hulp nodig hebt, kun je het Aspose.BarCode voor .NET‑forum bezoeken [here](https://forum.aspose.com/c/barcode/13).
-
-## Veelgestelde vragen
-
 **Q: Heeft het configureren van rijen en kolommen invloed op de leesbaarheid van de barcode?**  
 A: Goed uitgebalanceerde rijen en kolommen verbeteren de leesbaarheid. Te veel rijen op een klein label kunnen scanproblemen veroorzaken.
 

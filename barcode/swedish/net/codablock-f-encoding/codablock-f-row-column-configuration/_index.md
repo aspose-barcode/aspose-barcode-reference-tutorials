@@ -110,28 +110,6 @@ gen.Save($"{path}CodablockFRow6Col4.png", BarCodeImageFormat.Png);
 
 Aspose.BarCode för .NET gör det enkelt att **create barcode image c#** och anpassa Codablock F-dimensioner efter dina exakta behov. Genom att justera rader, kolumner och valfria bildstorleksparametrar kan du producera högkvalitativa, skannervänliga streckkoder för fraktetiketter, lageretiketter och mer. Utforska den fullständiga API‑dokumentationen för ytterligare anpassningar.
 
-## Vanliga frågor
-
-### Q1: Vad är Codablock F, och var används det vanligtvis?
-
-A1: Codablock F är en 2D‑streckkodssymbol som ofta används i fraktetiketter, förpackning och logistik för att koda data.
-
-### Q2: Kan jag anpassa utseendet på Codablock F‑streckkoder?
-
-A2: Ja, du kan anpassa olika aspekter av streckkodens utseende, såsom storlek, färger och typsnitt, med hjälp av Aspose.BarCode för .NET.
-
-### Q3: Är Aspose.BarCode för .NET kompatibel med olika .NET‑ramverk?
-
-A3: Ja, Aspose.BarCode för .NET är kompatibel med olika .NET‑ramverk, vilket gör den mångsidig för olika utvecklingsmiljöer.
-
-### Q4: Var kan jag få en tillfällig licens för Aspose.BarCode för .NET?
-
-A4: Du kan skaffa en tillfällig licens för test- och utvärderingsändamål från [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Hur kan jag få support för Aspose.BarCode för .NET?
-
-A5: Om du har frågor eller behöver hjälp kan du besöka Aspose.BarCode för .NET‑forumet [here](https://forum.aspose.com/c/barcode/13).
-
 ## Vanligt förekommande frågor
 
 **Q: Påverkar konfiguration av rader och kolumner streckkodens läsbarhet?**  

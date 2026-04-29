@@ -111,28 +111,6 @@ Die Eigenschaften `Columns` und `Rows` bestimmen effektiv die Größe des Barcod
 
 Aspose.BarCode für .NET macht es einfach, **create barcode image c#** zu erstellen und die Codablock F‑Abmessungen an Ihre genauen Bedürfnisse anzupassen. Durch das Anpassen von Zeilen, Spalten und optionalen Bildgrößen‑Parametern können Sie hochwertige, scanner‑freundliche Barcodes für Versandetiketten, Inventur‑Tags und mehr erzeugen. Erkunden Sie die vollständige API‑Dokumentation für weitere Anpassungen.
 
-## FAQ
-
-### Q1: Was ist Codablock F und wo wird es typischerweise eingesetzt?
-
-A1: Codablock F ist eine 2D‑Barcode‑Symbologie, die häufig in Versandetiketten, Verpackungen und Logistik zum Kodieren von Daten verwendet wird.
-
-### Q2: Kann ich das Aussehen von Codablock F‑Barcodes anpassen?
-
-A2: Ja, Sie können verschiedene Aspekte des Barcodes wie Größe, Farben und Schriftarten mit Aspose.BarCode für .NET anpassen.
-
-### Q3: Ist Aspose.BarCode für .NET mit verschiedenen .NET‑Frameworks kompatibel?
-
-A3: Ja, Aspose.BarCode für .NET ist mit verschiedenen .NET‑Frameworks kompatibel und somit vielseitig für unterschiedliche Entwicklungsumgebungen.
-
-### Q4: Wo kann ich eine temporäre Lizenz für Aspose.BarCode für .NET erhalten?
-
-A4: Sie können eine temporäre Lizenz für Test‑ und Evaluierungszwecke von [here](https://purchase.aspose.com/temporary-license/) erhalten.
-
-### Q5: Wie kann ich Support für Aspose.BarCode für .NET erhalten?
-
-A5: Wenn Sie Fragen haben oder Unterstützung benötigen, können Sie das Aspose.BarCode für .NET‑Forum [here](https://forum.aspose.com/c/barcode/13) besuchen.
-
 ## Häufig gestellte Fragen
 
 **Q: Beeinflusst die Konfiguration von Zeilen und Spalten die Lesbarkeit des Barcodes?**  

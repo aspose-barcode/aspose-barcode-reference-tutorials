@@ -101,23 +101,6 @@ gen.Save($"{path}CodablockFRow6Col4.png", BarCodeImageFormat.Png);
 ## 결론
 Aspose.BarCode for .NET을 사용하면 **create barcode image c#**을 손쉽게 수행하고 Codablock F 차원을 정확히 맞출 수 있습니다. 행, 열 및 선택적인 이미지 크기 매개변수를 조정하면 배송 라벨, 재고 태그 등용 고품질의 스캐너 친화적인 바코드를 생성할 수 있습니다. 추가 사용자 정의를 위해 전체 API 문서를 살펴보세요.
 
-## FAQ
-
-### Q1: Codablock F란 무엇이며 일반적으로 어디에 사용되나요?
-A1: Codablock F는 배송 라벨, 포장 및 물류에서 데이터를 인코딩하는 데 자주 사용되는 2D 바코드 심볼입니다.
-
-### Q2: Codablock F 바코드의 외관을 사용자 정의할 수 있나요?
-A2: 예, Aspose.BarCode for .NET을 사용하여 바코드의 크기, 색상, 글꼴 등 다양한 외관을 사용자 정의할 수 있습니다.
-
-### Q3: Aspose.BarCode for .NET은 다양한 .NET 프레임워크와 호환되나요?
-A3: 예, Aspose.BarCode for .NET은 다양한 .NET 프레임워크와 호환되어 다양한 개발 환경에 활용할 수 있습니다.
-
-### Q4: Aspose.BarCode for .NET의 임시 라이선스는 어디서 얻을 수 있나요?
-A4: 테스트 및 평가용 임시 라이선스는 [here](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
-
-### Q5: Aspose.BarCode for .NET 지원은 어떻게 받을 수 있나요?
-A5: 질문이 있거나 도움이 필요하면 Aspose.BarCode for .NET 포럼을 [here](https://forum.aspose.com/c/barcode/13)에서 방문하세요.
-
 ## 자주 묻는 질문
 
 **Q: 행과 열을 구성하면 바코드 가독성에 영향을 줍니까?**  

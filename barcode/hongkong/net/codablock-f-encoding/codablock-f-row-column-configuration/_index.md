@@ -113,28 +113,6 @@ Aspose.BarCode for .NET 讓 **create barcode image c#** 變得簡單，並可依
 
 ## 常見問答
 
-### Q1：什麼是 Codablock F，通常用於哪裡？
-
-A1：Codablock F 是一種 2D 條碼符號，常用於運送標籤、包裝及物流中以編碼資料。
-
-### Q2：我可以自訂 Codablock F 條碼的外觀嗎？
-
-A2：可以，您可使用 Aspose.BarCode for .NET 自訂條碼的多項外觀屬性，例如尺寸、顏色與字型。
-
-### Q3：Aspose.BarCode for .NET 是否相容於不同的 .NET 框架？
-
-A3：是的，Aspose.BarCode for .NET 相容於多種 .NET 框架，適用於不同的開發環境。
-
-### Q4：在哪裡可以取得 Aspose.BarCode for .NET 的臨時授權？
-
-A4：您可從 [here](https://purchase.aspose.com/temporary-license/) 取得測試與評估用的臨時授權。
-
-### Q5：如何取得 Aspose.BarCode for .NET 的支援？
-
-A5：如有任何問題或需要協助，可前往 Aspose.BarCode for .NET 論壇 [here](https://forum.aspose.com/c/barcode/13)。
-
-## 常見問答
-
 **Q：設定行與列會影響條碼可讀性嗎？**  
 A：適當平衡的行列可提升可讀性。小標籤上行數過多會導致掃描問題。
 

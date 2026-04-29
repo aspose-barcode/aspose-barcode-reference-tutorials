@@ -110,28 +110,6 @@ gen.Save($"{path}CodablockFRow6Col4.png", BarCodeImageFormat.Png);
 
 Aspose.BarCode for .NET, **create barcode image c#** işlemini basitleştirir ve Codablock F boyutlarını tam ihtiyaçlarınıza göre özelleştirmenizi sağlar. Satır, sütun ve isteğe bağlı görüntü boyutu parametrelerini ayarlayarak gönderi etiketleri, envanter etiketleri ve daha fazlası için yüksek kaliteli, tarayıcı dostu barkodlar üretebilirsiniz. Ek özelleştirmeler için tam API dokümantasyonunu keşfedin.
 
-## SSS
-
-### Q1: Codablock F nedir ve nerelerde yaygın olarak kullanılır?
-
-A1: Codablock F, gönderi etiketleri, paketleme ve lojistikte veri kodlamak için sıkça kullanılan bir 2D barkod sembolojisidir.
-
-### Q2: Codablock F barkodlarının görünümünü özelleştirebilir miyim?
-
-A2: Evet, Aspose.BarCode for .NET kullanarak barkodun boyutu, renkleri ve yazı tipleri gibi çeşitli görsel özelliklerini özelleştirebilirsiniz.
-
-### Q3: Aspose.BarCode for .NET farklı .NET framework'leriyle uyumlu mu?
-
-A3: Evet, Aspose.BarCode for .NET çeşitli .NET framework'leriyle uyumludur ve farklı geliştirme ortamları için esneklik sağlar.
-
-### Q4: Aspose.BarCode for .NET için geçici bir lisans nereden alınabilir?
-
-A4: [buradan](https://purchase.aspose.com/temporary-license/) geçici lisansı test ve değerlendirme amaçlı edinebilirsiniz.
-
-### Q5: Aspose.BarCode for .NET için destek nasıl alınır?
-
-A5: Sorularınız veya yardıma ihtiyacınız olduğunda Aspose.BarCode for .NET forumunu [buradan](https://forum.aspose.com/c/barcode/13) ziyaret edebilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Satır ve sütunları yapılandırmak barkod okunabilirliğini etkiler mi?**  

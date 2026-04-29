@@ -109,46 +109,24 @@ As propriedades `Columns` e `Rows` determinam efetivamente o tamanho do código 
 
 ## Conclusão
 
-Aspose.BarCode para .NET torna simples **criar imagem de código de barras c#** e adaptar as dimensões Codablock F às suas necessidades exatas. Ajustando linhas, colunas e parâmetros opcionais de tamanho de imagem, você pode produzir códigos de barras de alta qualidade, amigáveis a scanners, para etiquetas de envio, tags de inventário e muito mais. Explore a documentação completa da API para personalizações adicionais.
-
-## Perguntas Frequentes
-
-### Q1: O que é Codablock F e onde é comumente usado?
-
-A1: Codablock F é uma simbologia de código de barras 2D frequentemente usada em etiquetas de envio, embalagens e logística para codificar dados.
-
-### Q2: Posso personalizar a aparência dos códigos de barras Codablock F?
-
-A2: Sim, você pode personalizar vários aspectos da aparência do código de barras, como tamanho, cores e fontes, usando Aspose.BarCode para .NET.
-
-### Q3: O Aspose.BarCode para .NET é compatível com diferentes frameworks .NET?
-
-A3: Sim, Aspose.BarCode para .NET é compatível com vários frameworks .NET, tornando‑se versátil para diferentes ambientes de desenvolvimento.
-
-### Q4: Onde posso obter uma licença temporária para Aspose.BarCode para .NET?
-
-A4: Você pode obter uma licença temporária para testes e avaliação [aqui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Como posso obter suporte para Aspose.BarCode para .NET?
-
-A5: Se tiver dúvidas ou precisar de assistência, visite o fórum Aspose.BarCode para .NET [aqui](https://forum.aspose.com/c/barcode/13).
+Aspose.BarCode para .NET torna simples **criar imagem de código de barras c#** e adaptar as dimensões CodablockF às suas necessidades exatas. Ajustando linhas, colunas e parâmetros de tamanho de imagem, você pode produzir códigos de barras de alta qualidade, amigáveis ​​a scanners, para etiquetas de envio, tags de inventário e muito mais. Explore a documentação completa da API para personalizações adicionais.
 
 ## Perguntas Frequentes (FAQ)
 
-**Q: Configurar linhas e colunas afeta a legibilidade do código de barras?**  
-A: Linhas e colunas equilibradas melhoram a legibilidade. Muitas linhas em uma etiqueta pequena podem causar problemas de leitura.
+**P: Configurar linhas e colunas relacionadas à legibilidade do código de barras?**
+R: Linhas e colunas equilibradas melhoram a legibilidade. Muitas linhas em uma etiqueta pequena podem causar problemas de leitura.
 
-**Q: Posso usar este código com .NET Core?**  
-A: Sim, Aspose.BarCode suporta .NET Core, .NET 5+ e .NET 6+. A mesma API funciona nesses runtimes.
+**P: Posso usar este código com .NET Core?**
+R: Sim, Aspose.BarCode suporta .NET Core, .NET 5+ e .NET 6+. A mesma API funciona nesses tempos de execução.
 
-**Q: Como altero o formato da imagem?**  
-A: Use um valor diferente do enum `BarCodeImageFormat` (por exemplo, `Jpeg`, `Bmp`) no método `Save`.
+**P: Como altera o formato da imagem?**
+R: Use um valor diferente do enum `BarCodeImageFormat` (por exemplo, `Jpeg`, `Bmp`) no método `Save`.
 
-**Q: É necessária licença para desenvolvimento?**  
-A: Uma licença temporária é suficiente para avaliação. Implantações em produção requerem licença completa.
+**P: É necessária licença para desenvolvimento?**
+R: Uma licença temporária é suficiente para avaliação. Implantações em produção requerem licença completa.
 
-**Q: Onde encontro mais exemplos?**  
-A: A documentação oficial fornece amostras adicionais e cenários avançados. Veja a documentação [aqui](https://reference.aspose.com/barcode/net/).
+**P: Onde encontro mais exemplos?**
+R: A documentação oficial fornece amostras adicionais e cenários avançados. Veja a documentação [aqui](https://reference.aspose.com/barcode/net/).
 
 ---
 

@@ -113,28 +113,6 @@ Aspose.BarCode para .NET facilita **crear una imagen de código de barras c#** y
 
 ## Preguntas frecuentes
 
-### P1: ¿Qué es Codablock F y dónde se usa comúnmente?
-
-R1: Codablock F es una simbología de código de barras 2D que se usa a menudo en etiquetas de envío, empaquetado y logística para codificar datos.
-
-### P2: ¿Puedo personalizar la apariencia de los códigos de barras Codablock F?
-
-R2: Sí, puede personalizar varios aspectos de la apariencia del código de barras, como tamaño, colores y fuentes, usando Aspose.BarCode para .NET.
-
-### P3: ¿Es Aspose.BarCode para .NET compatible con diferentes frameworks .NET?
-
-R3: Sí, Aspose.BarCode para .NET es compatible con varios frameworks .NET, lo que lo hace versátil para diferentes entornos de desarrollo.
-
-### P4: ¿Dónde puedo obtener una licencia temporal para Aspose.BarCode para .NET?
-
-R4: Puede obtener una licencia temporal para pruebas y evaluación desde [aquí](https://purchase.aspose.com/temporary-license/).
-
-### P5: ¿Cómo puedo obtener soporte para Aspose.BarCode para .NET?
-
-R5: Si tiene preguntas o necesita asistencia, puede visitar el foro de Aspose.BarCode para .NET [aquí](https://forum.aspose.com/c/barcode/13).
-
-## Preguntas frecuentes
-
 **P: ¿Configurar filas y columnas afecta la legibilidad del código de barras?**  
 R: Filas y columnas equilibradas adecuadamente mejoran la legibilidad. Demasiadas filas en una etiqueta pequeña pueden causar problemas de escaneo.
 

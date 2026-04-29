@@ -19,14 +19,14 @@ weight: 10
 
 Att skapa streckkoder programatiskt kan kännas skrämmande, men med rätt **barcode generator tutorial c#** kommer du igång på några minuter. I den här guiden går vi igenom hur du genererar Code 16K streckkoder med anpassade bildförhållanden med Aspose.BarCode för .NET. Oavsett om du bygger ett skrivbordsinventariesystem eller en webb‑baserad märkningslösning, kommer du att se exakt hur du styr bredd‑till‑höjd‑förhållandet för dina streckkoder.
 
-## Quick Answers
-- **What library do I need?** Aspose.BarCode for .NET  
-- **Which language is covered?** C# (barcode generator tutorial c#)  
-- **Can I change the aspect ratio?** Yes – any integer value supported by the API  
-- **Do I need a license for testing?** A free trial works for development; a commercial license is required for production  
-- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
+## Snabba svar
+- **Vilket bibliotek behöver jag?** Aspose.BarCode för .NET
+- **Vilket språk täcks?** C# (handledning för streckkodsgenerator i C#)
+- **Kan jag ändra bildförhållandet?** Ja – alla heltalsvärden som stöds av API:et
+- **Behöver jag en licens för testning?** En gratis provperiod fungerar för utveckling; en kommersiell licens krävs för produktion
+- **Vilka .NET-versioner stöds?** .NET Framework 4.5+, .NETCore 3.1+, .NET 5/6+
 
-## Vad är en barcode generator tutorial c#?
+## Vad är en handledning för streckkodsgenerator i C#?
 En barcode generator tutorial c# är en steg‑för‑steg‑guide som visar hur du använder C#‑kod för att skapa, anpassa och exportera streckkoder. I den här artikeln fokuseras på Code 16K‑symbologin och hur dess **aspect ratio** kan justeras för att uppfylla specifika skanningskrav.
 
 ## Varför anpassa Code 16K‑bildförhållandet?

@@ -111,28 +111,6 @@ Vlastnosti `Columns` a `Rows` v podstatě určují velikost čárového kódu. P
 
 Aspose.BarCode pro .NET makes it straightforward to **create barcode image c#** and tailor Codablock F dimensions to your exact needs. By adjusting rows, columns, and optional image size parameters, you can produce high‑quality, scanner‑friendly barcodes for shipping labels, inventory tags, and more. Explore the full API documentation for additional customizations.
 
-## Často kladené otázky
-
-### Q1: Co je Codablock F a kde se běžně používá?
-
-A1: Codablock F je 2D symbologie čárových kódů často používaná na přepravních štítcích, balení a logistice pro kódování dat.
-
-### Q2: Mohu přizpůsobit vzhled čárových kódů Codablock F?
-
-A2: Ano, můžete přizpůsobit různé aspekty vzhledu čárového kódu, jako je velikost, barvy a písma, pomocí Aspose.BarCode pro .NET.
-
-### Q3: Je Aspose.BarCode pro .NET kompatibilní s různými .NET frameworky?
-
-A3: Ano, Aspose.BarCode pro .NET je kompatibilní s různými .NET frameworky, což jej činí univerzálním pro různé vývojové prostředí.
-
-### Q4: Kde mohu získat dočasnou licenci pro Aspose.BarCode pro .NET?
-
-A4: Dočasnou licenci pro testování a vyhodnocení můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Jak mohu získat podporu pro Aspose.BarCode pro .NET?
-
-A5: Pokud máte otázky nebo potřebujete pomoc, můžete navštívit fórum Aspose.BarCode pro .NET [zde](https://forum.aspose.com/c/barcode/13).
-
 ## Frequently Asked Questions
 
 **Q: Ovlivňuje konfigurace řádků a sloupců čitelnost čárového kódu?**  

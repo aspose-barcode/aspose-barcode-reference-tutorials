@@ -111,28 +111,6 @@ Properti `Columns` dan `Rows` secara efektif menentukan ukuran barcode. Jika And
 
 Aspose.BarCode untuk .NET memudahkan **create barcode image c#** dan menyesuaikan dimensi Codablock F sesuai kebutuhan Anda. Dengan mengatur baris, kolom, dan parameter ukuran gambar opsional, Anda dapat menghasilkan barcode berkualitas tinggi yang ramah pemindai untuk label pengiriman, tag inventaris, dan lainnya. Jelajahi dokumentasi API lengkap untuk kustomisasi tambahan.
 
-## FAQ
-
-### Q1: Apa itu Codablock F, dan di mana biasanya digunakan?
-
-A1: Codablock F adalah simbol barcode 2D yang sering dipakai pada label pengiriman, pengemasan, dan logistik untuk mengkodekan data.
-
-### Q2: Bisakah saya menyesuaikan tampilan barcode Codablock F?
-
-A2: Ya, Anda dapat menyesuaikan berbagai aspek tampilan barcode, seperti ukuran, warna, dan font, menggunakan Aspose.BarCode untuk .NET.
-
-### Q3: Apakah Aspose.BarCode untuk .NET kompatibel dengan berbagai kerangka kerja .NET?
-
-A3: Ya, Aspose.BarCode untuk .NET kompatibel dengan berbagai kerangka kerja .NET, menjadikannya fleksibel untuk berbagai lingkungan pengembangan.
-
-### Q4: Di mana saya dapat memperoleh lisensi sementara untuk Aspose.BarCode untuk .NET?
-
-A4: Anda dapat memperoleh lisensi sementara untuk tujuan pengujian dan evaluasi dari [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Bagaimana cara mendapatkan dukungan untuk Aspose.BarCode untuk .NET?
-
-A5: Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum Aspose.BarCode untuk .NET [here](https://forum.aspose.com/c/barcode/13).
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Apakah mengonfigurasi baris dan kolom memengaruhi keterbacaan barcode?**  

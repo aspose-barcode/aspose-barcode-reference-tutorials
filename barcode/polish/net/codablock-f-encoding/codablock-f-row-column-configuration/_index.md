@@ -111,28 +111,6 @@ Właściwości `Columns` i `Rows` w praktyce określają rozmiar kodu. Jeśli po
 
 Aspose.BarCode dla .NET umożliwia łatwe **utworzenie obrazu kodu kreskowego c#** oraz dopasowanie wymiarów Codablock F do Twoich potrzeb. Dzięki regulacji wierszy, kolumn i opcjonalnych parametrów rozmiaru obrazu możesz tworzyć wysokiej jakości, przyjazne skanerom kody dla etykiet wysyłkowych, tagów inwentaryzacyjnych i nie tylko. Zapoznaj się z pełną dokumentacją API, aby odkryć dodatkowe możliwości personalizacji.
 
-## FAQ's
-
-### Q1: Co to jest Codablock F i gdzie jest najczęściej używany?
-
-A1: Codablock F to symbologia kodów 2D, często wykorzystywana w etykietach wysyłkowych, opakowaniach i logistyce do kodowania danych.
-
-### Q2: Czy mogę dostosować wygląd kodów Codablock F?
-
-A2: Tak, możesz modyfikować różne aspekty wyglądu kodu, takie jak rozmiar, kolory i czcionki, korzystając z Aspose.BarCode dla .NET.
-
-### Q3: Czy Aspose.BarCode dla .NET jest kompatybilny z różnymi frameworkami .NET?
-
-A3: Tak, Aspose.BarCode dla .NET jest kompatybilny z różnymi frameworkami .NET, co czyni go wszechstronnym rozwiązaniem dla różnych środowisk programistycznych.
-
-### Q4: Gdzie mogę uzyskać tymczasową licencję dla Aspose.BarCode dla .NET?
-
-A4: Tymczasową licencję do testów i oceny możesz uzyskać [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Jak mogę uzyskać wsparcie dla Aspose.BarCode dla .NET?
-
-A5: Jeśli masz pytania lub potrzebujesz pomocy, odwiedź forum Aspose.BarCode dla .NET [here](https://forum.aspose.com/c/barcode/13).
-
 ## Frequently Asked Questions
 
 **Q: Czy konfigurowanie wierszy i kolumn wpływa na czytelność kodu kreskowego?**  
