@@ -1,38 +1,55 @@
 ---
-title: Tạo và lưu mã vạch trong Java
-linktitle: Tạo và lưu mã vạch
-second_title: API Java Aspose.BarCode
-description: Tạo và lưu mã vạch dễ dàng trong Java với Aspose.BarCode. Tích hợp liền mạch, tùy chỉnh giao diện và tận hưởng hỗ trợ mã vạch mở rộng.
-weight: 12
+date: 2026-05-04
+description: Tìm hiểu cách Java tạo hình ảnh mã vạch và lưu lại bằng Aspose.BarCode
+  cho Java. Hướng dẫn chi tiết từng bước với lưu trữ MySQL, mẹo tùy chỉnh và mã nguồn
+  đầy đủ.
+keywords:
+- java generate barcode image
+- how to generate barcode java
+- how to save barcode image
+linktitle: Tạo và Lưu Mã vạch
+second_title: Aspose.BarCode Java API
+title: Java tạo hình ảnh mã vạch và lưu vào cơ sở dữ liệu
 url: /vi/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo và lưu mã vạch trong Java
-
+# java tạo hình ảnh mã vạch
 
 ## Giới thiệu
 
-Bạn đang tìm cách tích hợp liền mạch việc tạo mã vạch vào ứng dụng Java của mình? Đừng tìm đâu xa! Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.BarCode cho Java để tạo và lưu mã vạch một cách hiệu quả. Aspose.BarCode là một thư viện Java mạnh mẽ giúp đơn giản hóa việc tạo và thao tác mã vạch, cung cấp cho bạn các công cụ cần thiết để nâng cao chức năng mã vạch cho ứng dụng của bạn.
+Nếu bạn cần **java generate barcode image** nhanh chóng và lưu nó cùng với dữ liệu sản phẩm, hướng dẫn này dành cho bạn. Chúng tôi sẽ hướng dẫn cách sử dụng Aspose.BarCode for Java để tạo mã vạch CODE‑39, lưu hình ảnh vào đĩa, và sau đó chèn nó vào cơ sở dữ liệu MySQL dưới dạng BLOB. Khi hoàn thành, bạn sẽ có một mẫu có thể tái sử dụng và có thể điều chỉnh cho bất kỳ loại mã vạch hoặc yêu cầu lưu trữ nào.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào tạo mã vạch trong Java?** Aspose.BarCode for Java.  
+- **Tôi có thể lưu mã vạch dưới dạng tệp không?** Có – sử dụng `generator.save("path")`.  
+- **Làm thế nào để lưu hình ảnh vào MySQL?** Đọc tệp vào `FileInputStream` và đặt nó làm luồng nhị phân trong `PreparedStatement`.  
+- **Các loại mã vạch nào được hỗ trợ?** CODE_39, CODE_128, QR, DataMatrix, và nhiều hơn nữa.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép thương mại; có bản dùng thử miễn phí.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Java tạo hình ảnh mã vạch là gì?
+Tạo hình ảnh mã vạch trong Java có nghĩa là chuyển đổi văn bản thuần (ví dụ: số sản phẩm) thành một biểu diễn hình ảnh mà máy quét có thể đọc. Aspose.BarCode trừu tượng hoá các chi tiết mã hoá mức thấp, cho phép bạn tập trung vào logic ứng dụng của mình.
 
-- Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên máy của mình.
+## Tại sao nên sử dụng Aspose.BarCode cho nhiệm vụ này?
+- **Full‑featured**: Hỗ trợ hơn 50 loại ký hiệu.  
+- **Simple API**: Mã một dòng để tạo và lưu hình ảnh.  
+- **High quality**: Tạo ra các định dạng PNG, JPEG, BMP và PDF.  
+- **Enterprise‑ready**: Hoạt động trên tất cả các phiên bản Java chính và dễ dàng tích hợp với cơ sở dữ liệu.
 
-- Thư viện Aspose.BarCode: Tải xuống và cài đặt thư viện Aspose.BarCode. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/barcode/java/).
+## Yêu cầu trước
 
-- Cơ sở dữ liệu MySQL: Thiết lập cơ sở dữ liệu MySQL nơi bạn dự định lưu trữ thông tin liên quan đến mã vạch.
+- **Java Development Environment** – JDK 8+ đã được cài đặt và IDE bạn chọn.  
+- **Aspose.BarCode Library** – Tải xuống và cài đặt thư viện Aspose.BarCode. Bạn có thể tìm liên kết tải xuống [here](https://releases.aspose.com/barcode/java/).  
+- **MySQL Database** – Một instance MySQL đang chạy nơi bạn sẽ lưu thông tin sản phẩm.  
+- **Database Connectivity** – Trình điều khiển JDBC và thông tin đăng nhập hợp lệ (`HOST_URI`, `USERNAME`, `PASSWORD`).
 
-- Kết nối cơ sở dữ liệu: Đảm bảo bạn có thông tin xác thực và kết nối cần thiết để tương tác với cơ sở dữ liệu MySQL.
+## Nhập gói
 
-## Gói nhập khẩu
-
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để kết nối Aspose.BarCode và MySQL.
+Trong dự án Java của bạn, nhập các gói cần thiết cho Aspose.BarCode và kết nối MySQL.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
@@ -45,10 +62,12 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 ```
 
-## Bước 1: Tạo và lưu mã vạch
+## Cách tạo mã vạch bằng Java
+
+### Bước 1: Tạo và Lưu Mã Vạch
 
 ```java
-// Bước 1 - Tạo mã vạch và lưu tạm thời vào một tệp
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +76,80 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-Giải thích: Bước này bao gồm việc tạo mã vạch bằng Aspose.BarCode, đặt văn bản mã và lưu hình ảnh mã vạch vào một vị trí được chỉ định.
+*Explanation*: Chúng tôi tạo một `BarcodeGenerator` cho tiêu chuẩn CODE‑39, gán mã sản phẩm (`NOK-E71`), và lưu hình ảnh vào `c:\temp\code39.jpg`. Tệp này sẽ được truyền vào cơ sở dữ liệu sau này.
 
-## Bước 2: Chèn bản ghi vào cơ sở dữ liệu MySQL
+## Cách lưu hình ảnh mã vạch
+
+### Bước 2: Chèn bản ghi vào cơ sở dữ liệu MySQL
 
 ```java
-// Bước 2 - Chèn bản ghi mới vào MySQL DB
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-// Mở kết nối
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-// Chuẩn bị tuyên bố
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-// Đặt số sản phẩm và tên sản phẩm
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-// Cột thứ 3 dành cho hình ảnh mã vạch. Loại DB là BLOB
-// Để lưu hình ảnh, chúng ta cần tạo luồng từ tệp hình ảnh
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// Thực hiện tuyên bố
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-// Đóng kết nối
+// Close connection
 pre.close();
 con.close();
 ```
 
-Giải thích: Bước này bao gồm việc kết nối với cơ sở dữ liệu MySQL và chèn bản ghi mới có thông tin sản phẩm và hình ảnh mã vạch liên quan.
+*Explanation*: Sau khi thiết lập kết nối JDBC, chúng tôi chuẩn bị một câu lệnh `INSERT` bao gồm cột BLOB cho hình ảnh mã vạch. Tệp hình ảnh được đọc vào `FileInputStream` và lưu dưới dạng dữ liệu nhị phân.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Chúc mừng! Bạn đã tích hợp thành công Aspose.BarCode for Java vào ứng dụng của mình để tạo và lưu mã vạch. Thư viện mạnh mẽ này đơn giản hóa quy trình, giúp việc triển khai mã vạch trở nên dễ dàng.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| **FileNotFoundException** khi lưu mã vạch | Thư mục đích không tồn tại hoặc thiếu quyền ghi | Tạo thư mục (`c:\temp`) hoặc chọn đường dẫn có thể ghi |
+| **SQLIntegrityConstraintViolationException** khi chèn | Trùng khóa chính `ProductNumber` | Đảm bảo mã sản phẩm là duy nhất hoặc sử dụng `ON DUPLICATE KEY UPDATE` |
+| **ClassNotFoundException: com.mysql.jdbc.Driver** | Trình điều khiển MySQL JDBC thiếu trong classpath | Thêm JAR MySQL Connector/J vào phụ thuộc dự án của bạn |
 
-## Các câu hỏi thường gặp
+## Câu hỏi thường gặp
 
-### Câu hỏi: Aspose.BarCode có tương thích với các loại mã vạch khác nhau không?
-Trả lời: Có, Aspose.BarCode hỗ trợ nhiều loại mã vạch khác nhau, bao gồm CODE_39_STANDARD, CODE_128, QR, v.v.
+**Q: Aspose.BarCode có tương thích với các loại mã vạch khác nhau không?**  
+A: Có, Aspose.BarCode hỗ trợ nhiều loại mã vạch, bao gồm CODE_39_STANDARD, CODE_128, QR và nhiều hơn nữa.
 
-### Câu hỏi: Tôi có thể tùy chỉnh giao diện của mã vạch được tạo không?
-Đ: Chắc chắn rồi! Aspose.BarCode cung cấp các tùy chọn tùy chỉnh mở rộng về giao diện mã vạch, cho phép bạn điều chỉnh nó theo nhu cầu cụ thể của mình.
+**Q: Tôi có thể tùy chỉnh giao diện của mã vạch đã tạo không?**  
+A: Chắc chắn! Aspose.BarCode cung cấp các tùy chọn tùy chỉnh rộng rãi cho giao diện mã vạch, cho phép bạn điều chỉnh theo nhu cầu cụ thể.
 
-### Câu hỏi: Aspose.BarCode có bản dùng thử miễn phí không?
- Đ: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+**Q: Có bản dùng thử miễn phí cho Aspose.BarCode không?**  
+A: Có, bạn có thể truy cập bản dùng thử miễn phí [here](https://releases.aspose.com/).
 
-### Câu hỏi: Tôi có thể tìm tài liệu chi tiết về Aspose.BarCode ở đâu?
- A: Tham khảo tài liệu[đây](https://reference.aspose.com/barcode/java/).
+**Q: Tôi có thể tìm tài liệu chi tiết cho Aspose.BarCode ở đâu?**  
+A: Tham khảo tài liệu [here](https://reference.aspose.com/barcode/java/).
 
-### Câu hỏi: Làm cách nào để tôi nhận được hỗ trợ cho Aspose.BarCode?
- A: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/barcode/13) cho bất kỳ sự trợ giúp hoặc thắc mắc.
+**Q: Làm thế nào để tôi nhận được hỗ trợ cho Aspose.BarCode?**  
+A: Truy cập diễn đàn hỗ trợ [here](https://forum.aspose.com/c/barcode/13) để được trợ giúp hoặc đặt câu hỏi.
+
+## Kết luận
+
+Chúc mừng! Bạn đã học thành công **cách tạo mã vạch java** và **cách lưu hình ảnh mã vạch** bằng Aspose.BarCode, sau đó lưu trữ hình ảnh trong cơ sở dữ liệu MySQL. Cách tiếp cận này có thể mở rộng sang các ký hiệu khác, cơ chế lưu trữ (ví dụ: Azure Blob, AWS S3), hoặc tích hợp vào các hệ thống doanh nghiệp lớn hơn.
+
+---
+
+**Cập nhật lần cuối:** 2026-05-04  
+**Kiểm thử với:** Aspose.BarCode for Java 24.10  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

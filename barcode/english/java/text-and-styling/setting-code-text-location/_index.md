@@ -1,35 +1,49 @@
 ---
-title: Create data matrix barcode and set code text location in Java
+title: Create Data Matrix Barcode with Java Barcode Library and Set Code Text Location
 linktitle: Setting Code Text Location
 second_title: Aspose.BarCode Java API
-description: Learn how to create data matrix barcode and how to set barcode text location in Java using Aspose.BarCode. Follow our step‑by‑step guide for full customization.
+description: Learn how to create a data matrix barcode using a Java barcode library and set barcode text location above the symbol with Aspose.BarCode. Follow our step‑by‑step barcode generation example.
 weight: 12
 url: /java/text-and-styling/setting-code-text-location/
-date: 2025-12-27
+date: 2026-05-04
+keywords:
+- java barcode library
+- barcode generation example
+- barcode text above
+- customize barcode text
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create data matrix barcode and set code text location in Java
+# Create Data Matrix Barcode with Java Barcode Library and Set Code Text Location
 
 ## Introduction
 
-Generating barcodes is a routine requirement for inventory, shipping, and many other Java‑based applications. With **Aspose.BarCode for Java** you can **create data matrix barcode** quickly and control every visual aspect, including where the human‑readable text appears. In this tutorial we’ll walk through the exact steps to **create data matrix barcode** and demonstrate **how to set barcode text** above the symbol so it matches your design specifications.
+If you’re building an inventory, shipping, or tracking system in Java, you’ll quickly discover that a reliable **java barcode library** is essential. With **Aspose.BarCode for Java** you can generate a **Data Matrix barcode** in just a few lines of code and fully control the visual layout, including where the human‑readable text appears. In this tutorial we’ll walk through a complete **barcode generation example**, show you how to **customize barcode text** placement, and explain why positioning the text above the symbol can improve usability.
 
 ## Quick Answers
 - **What library is used?** Aspose.BarCode for Java  
 - **Which barcode type is demonstrated?** Data Matrix  
-- **How do you position the code text?** Using `CodeLocation.ABOVE`  
+- **How do you position the code text?** Using `CodeLocation.ABOVE` (you can also use `BELOW`)  
 - **Do you need a license for production?** Yes, a commercial license is required  
 - **Can the code run on Java 8+?** Absolutely, it supports Java 8 and later  
+
+## What is a Java barcode library?
+A **java barcode library** provides developers with ready‑made APIs to create, read, and style 1‑D and 2‑D barcodes directly from Java applications. It abstracts the complex encoding rules and lets you focus on business logic instead of low‑level image processing.
+
+## Why use a Java barcode library for barcode generation example?
+- **Speed:** Generate high‑quality barcodes in milliseconds.  
+- **Reliability:** Built‑in compliance with ISO/IEC standards.  
+- **Flexibility:** Full control over size, color, margins, and **barcode text** placement.  
+- **Cross‑platform:** Works on any JVM‑based environment, from desktop apps to cloud services.
 
 ## What is a Data Matrix barcode?
 A Data Matrix barcode is a two‑dimensional (2‑D) symbol that stores large amounts of data in a compact square or rectangular pattern. It’s widely used for marking small items, electronics, and medical devices because it can encode up to 2,335 alphanumeric characters.
 
 ## Why set barcode text location?
-Placing the human‑readable text **above**, **below**, or **beside** the barcode helps users quickly verify the encoded data without scanning. Adjusting the text location improves UI consistency and meets branding guidelines.
+Placing the human‑readable text **above**, **below**, or **beside** the barcode helps users quickly verify the encoded data without scanning. Adjusting the text location improves UI consistency, meets branding guidelines, and can reduce errors in manual data entry.
 
 ## Prerequisites
 
@@ -67,12 +81,14 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX,
         "GTIN:898978777776665655 " + "UID: 121212121212121212 " + "Batch:GH768 " + "Exp.Date:150923");
 ```
 
-### Step 3: How to set barcode text location
+### Step 3: Set barcode text location (customize barcode text)
 Use the `CodeLocation` enumeration to move the human‑readable text. In this example we place it **above** the barcode.
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setLocation(CodeLocation.ABOVE);
 ```
+
+> **Pro tip:** To place the text **below** the symbol, simply change `CodeLocation.ABOVE` to `CodeLocation.BELOW`.
 
 ### Step 4: Save the Generated Barcode Image
 Finally, write the barcode image to disk. The file will contain the Data Matrix symbol with the text positioned above it.
@@ -84,7 +100,7 @@ generator.save(dataDir + "codetextAbove.png");
 ## Common Issues and Solutions
 - **Text not appearing:** Ensure you are using a version of Aspose.BarCode that supports `CodeLocation`.  
 - **File path errors:** Verify that `dataDir` ends with a file separator (`/` or `\\`) appropriate for your OS.  
-- **Unsupported characters:** Data Matrix can encode only a limited set of characters; avoid special symbols not in the ISO/IEC 16022 standard.
+- **Unsupported characters:** Data Matrix can encode only a limited set of characters; avoid special symbols not in the ISO/IEC 16022 standard.  
 
 ## Frequently Asked Questions (FAQs)
 
@@ -116,11 +132,11 @@ A: Use `generator.getParameters().getBarcode().getCodeTextParameters().setFontSi
 
 ## Conclusion
 
-You’ve now learned how to **create data matrix barcode** in Java and precisely control **how to set barcode text** location using Aspose.BarCode. Experiment with other `CodeLocation` values and styling options to match your application’s design requirements.
+You’ve now learned how to **create a Data Matrix barcode** in Java using a **java barcode library** and precisely control **how to set barcode text** location with Aspose.BarCode. Experiment with other `CodeLocation` values, font settings, and color options to match your application’s design requirements.
 
 ---
 
-**Last Updated:** 2025-12-27  
+**Last Updated:** 2026-05-04  
 **Tested With:** Aspose.BarCode for Java 24.11  
 **Author:** Aspose  
 
