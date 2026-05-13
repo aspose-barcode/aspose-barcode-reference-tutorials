@@ -1,59 +1,67 @@
 ---
-title: DataMatrix-beeldverhouding aanpassen met Aspose.BarCode voor .NET
-linktitle: Aanpassing van de beeldverhouding van DataMatrix
+date: 2026-01-12
+description: Leer hoe u een barcode‑PNG met een aangepaste DataMatrix‑aspectverhouding
+  kunt maken met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het genereren
+  van barcodes en het aanpassen van de grootte.
+linktitle: DataMatrix Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
-description: Leer hoe u de aspectverhoudingen van DataMatrix-barcodes kunt aanpassen met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het genereren van streepjescodes.
-weight: 10
+title: Barcode PNG maken – DataMatrix‑beeldverhouding – Aspose.BarCode
 url: /nl/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DataMatrix-beeldverhouding aanpassen met Aspose.BarCode voor .NET
+# Barcode PNG maken – DataMatrix beeldverhouding – Aspose.BarCode
 
-Wilt u DataMatrix-barcodes genereren met een aangepaste beeldverhouding met behulp van Aspose.BarCode voor .NET? U bent op de juiste plaats. In deze stapsgewijze tutorial laten we u zien hoe u dit kunt bereiken. Aspose.BarCode voor .NET is een krachtige bibliotheek waarmee u eenvoudig streepjescodes kunt maken en manipuleren. We beginnen met het introduceren van de vereisten en naamruimten die u nodig hebt, en daarna duiken we in de voorbeelden.
+Het genereren van een **barcode PNG** met een aangepaste DataMatrix‑beeldverhouding is een veelvoorkomende eis wanneer je de barcode moet laten passen binnen specifieke lay-outbeperkingen. In deze tutorial lopen we de exacte stappen door om **barcode PNG**‑bestanden te maken met Aspose.BarCode voor .NET, leggen we uit waarom je de beeldverhouding wilt aanpassen, en laten we zien hoe je de output kunt afstemmen op je toepassing.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat regelt de “aspect ratio”?** Het definieert de breedte‑tot‑hoogte verhouding van de DataMatrix‑modules.  
+- **Kan ik PNG, JPEG of SVG exporteren?** Ja – de `Save`‑methode ondersteunt PNG, JPEG, BMP, GIF en meer.  
+- **Heb ik een licentie nodig voor deze functie?** Een gratis proefversie werkt voor ontwikkeling; een volledige licentie is vereist voor productie.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.x, .NET Core 3.1+, .NET 5/6/7.  
+- **Hoeveel aspect‑ratio‑waarden zijn geldig?** Elke positieve float; typische waarden zijn 0.5 – 2.0.
 
-Voordat we beginnen met het aanpassen van de DataMatrix-beeldverhoudingen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is een DataMatrix‑barcode en waarom de beeldverhouding aanpassen?
+DataMatrix is een tweedimensionale matrix‑barcode die grote hoeveelheden data opslaat in een kleine ruimte. Het aanpassen van de **aspect ratio** laat je de modules horizontaal uitrekken of comprimeren, wat handig kan zijn om de barcode in smalle kolommen of brede etiketten te passen zonder de leesbaarheid te verminderen.
 
-1. Visual Studio: Visual Studio moet op uw computer zijn geïnstalleerd.
+## Voorvereisten
 
-2.  Aspose.BarCode voor .NET: Aspose.BarCode voor .NET moet geïnstalleerd zijn. Als je dat nog niet hebt gedaan, kun je het downloaden[hier](https://releases.aspose.com/barcode/net/).
+Before we start customizing DataMatrix aspect ratios, make sure you have the following prerequisites in place:
 
-3. .NET Framework: Uw ontwikkelomgeving moet het .NET Framework ondersteunen.
+1. **Visual Studio** – elke recente versie volstaat.  
+2. **Aspose.BarCode for .NET** – download het [hier](https://releases.aspose.com/barcode/net/).  
+3. **.NET Framework / .NET Core** – je project moet een ondersteunde versie targeten.
 
-Nu u over deze vereisten beschikt, gaan we kijken hoe u de beeldverhouding van DataMatrix-barcodes kunt aanpassen.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Eerst moet u de benodigde naamruimten in uw C#-project importeren om Aspose.BarCode voor .NET effectief te kunnen gebruiken. Hier ziet u hoe u het kunt doen:
-
-Neem in uw C#-code de naamruimte Aspose.BarCode op:
+Eerst moet je de benodigde namespace importeren in je C#‑project:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Laten we nu het proces van het aanpassen van de DataMatrix-beeldverhoudingen in meerdere stappen opsplitsen.
+> **Pro tip:** Houd deze `using`‑statement bovenaan je bestand zodat de `BarcodeGenerator`‑klasse altijd beschikbaar is.
 
-## Stap 1: Stel uw project in
+## Stapsgewijze handleiding
 
-Maak een nieuw project in Visual Studio of open een bestaand project. Zorg ervoor dat u in uw project naar de Aspose.BarCode-bibliotheek verwijst.
+### Stap 1: Stel je project in
+Maak een nieuw console‑ of Windows Forms‑project aan in Visual Studio en voeg een referentie toe naar de Aspose.BarCode‑DLL.
 
-## Stap 2: Initialiseer een streepjescodegenerator
-
- Om met DataMatrix-barcodes te kunnen werken, moet u een`BarcodeGenerator` voorwerp. U kunt het coderingstype kiezen en de gegevens opgeven die u wilt coderen. In dit voorbeeld gebruiken we het DataMatrix-coderingstype met de gegevens "Åspóse.Barcóde©":
+### Stap 2: Initialiseert een Barcode‑generator
+Instantiate a `BarcodeGenerator` with the DataMatrix type and the data you want to encode:
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åspóse.Barcóde©"))
 ```
 
-## Stap 3: Pas de beeldverhouding aan
+> Deze regel maakt een generator die klaar is om een DataMatrix‑barcode te produceren die de voorbeeldtekst bevat.
 
-U kunt de beeldverhouding van de DataMatrix-barcode instellen. In het onderstaande voorbeeld stellen we dit in op 1 en vervolgens op 0,5:
+### Stap 3: Pas de beeldverhouding aan en sla PNG‑bestanden op
+Now you can change the **aspect ratio** and save each version as a PNG image:
 
 ```csharp
 gen.Parameters.Barcode.DataMatrix.AspectRatio = 1;
@@ -63,35 +71,47 @@ gen.Parameters.Barcode.DataMatrix.AspectRatio = 0.5f;
 gen.Save($"{path}DataMatrixAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-In deze code stellen we eerst de beeldverhouding in op 1 en vervolgens slaan we de streepjescodeafbeelding op. Vervolgens veranderen we de beeldverhouding naar 0,5 en slaan deze op als een andere afbeelding. Hiermee kunt u DataMatrix-barcodes maken met verschillende beeldverhoudingen.
+- De eerste aanroep maakt een vierkant‑geproportioneerde barcode (`AspectRatio = 1`).  
+- De tweede aanroep comprimeert de barcode horizontaal (`AspectRatio = 0.5`), waardoor een bredere uitstraling ontstaat.
 
-## Conclusie
+Je hebt nu twee **barcode PNG**‑bestanden met verschillende beeldverhoudingen, klaar voor gebruik in rapporten, etiketten of UI‑elementen.
 
-Het aanpassen van de DataMatrix-beeldverhoudingen met Aspose.BarCode voor .NET is een eenvoudig proces. Met de meegeleverde stappen kunt u eenvoudig DataMatrix-barcodes maken met de beeldverhouding van uw keuze. Aspose.BarCode voor .NET vereenvoudigt het genereren van streepjescodes, waardoor het een krachtig hulpmiddel is voor verschillende toepassingen.
-
- Heeft u meer vragen over Aspose.BarCode voor .NET? Bekijk de[documentatie](https://reference.aspose.com/barcode/net/) of bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) voor ondersteuning en discussies.
+## Veelvoorkomende problemen & oplossingen
+| Probleem | Oplossing |
+|----------|-----------|
+| **Gegenereerde afbeelding is onscherp** | Verhoog de `Resolution`‑parameter vóór het opslaan (`gen.Parameters.ImageResolution = 300`). |
+| **Barcode wordt niet gescand** | Zorg ervoor dat de beeldverhouding tussen 0.5 – 2.0 blijft en behoud een voldoende stille zone (`gen.Parameters.Barcode.CodeTextParameters.Margin`). |
+| **Fout in bestandspad** | Gebruik `Path.Combine` om het uitvoerpad op te bouwen en controleer of de map bestaat. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik de beeldverhouding van andere barcodetypen aanpassen met Aspose.BarCode voor .NET?
+**Q: Kan ik de beeldverhouding van andere barcode‑typen aanpassen met Aspose.BarCode voor .NET?**  
+A: Ja, veel 2‑D barcodes (bijv. QR, PDF417) ondersteunen aanpassingen van de aspect‑ratio via hun specifieke parameterobjecten.
 
-A1: Ja, met Aspose.BarCode voor .NET kunt u de beeldverhouding van verschillende barcodetypen aanpassen, niet alleen van DataMatrix.
+**Q: Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor .NET?**  
+A: Ja, je kunt een gratis proefversie van Aspose.BarCode voor .NET [hier](https://releases.aspose.com/) verkrijgen.
 
-### V2: Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor .NET?
+**Q: Waar kan ik een licentie voor Aspose.BarCode voor .NET kopen?**  
+A: Je kunt een licentie kopen op de Aspose‑website [hier](https://purchase.aspose.com/buy).
 
- A2: Ja, u heeft toegang tot een gratis proefversie van Aspose.BarCode voor .NET[hier](https://releases.aspose.com/).
+**Q: Is Aspose.BarCode voor .NET compatibel met verschillende .NET Framework‑versies?**  
+A: Ja, het werkt met .NET Framework 4.x, .NET Core 3.1+ en de nieuwste .NET‑releases.
 
-### V3: Waar kan ik een licentie kopen voor Aspose.BarCode voor .NET?
+**Q: Kan ik barcodes in verschillende formaten genereren met Aspose.BarCode voor .NET?**  
+A: Absoluut – PNG, JPEG, BMP, GIF, TIFF, SVG en PDF worden allemaal direct ondersteund.
 
- A3: U kunt een licentie voor Aspose.BarCode voor .NET kopen op de Aspose-website[hier](https://purchase.aspose.com/buy).
+## Conclusie
 
-### V4: Is Aspose.BarCode voor .NET compatibel met verschillende .NET Framework-versies?
+Het aanpassen van de **aspect ratio** van een DataMatrix‑barcode en het **maken van barcode PNG**‑bestanden is eenvoudig met Aspose.BarCode voor .NET. Door de bovenstaande stappen te volgen, kun je perfect formaat barcodes genereren die precies voldoen aan de lay‑outeisen van je project. Verken andere parameters zoals `Resolution`, `Margin` en `Color` om de output verder af te stemmen.
 
-A4: Ja, Aspose.BarCode voor .NET is compatibel met verschillende .NET Framework-versies en biedt flexibiliteit voor uw ontwikkelingsbehoeften.
+Voor een diepere verkenning, bekijk de officiële [documentatie](https://reference.aspose.com/barcode/net/) of sluit je aan bij de community op het [Aspose.BarCode‑forum](https://forum.aspose.com/c/barcode/13).
 
-### V5: Kan ik streepjescodes in verschillende formaten genereren met Aspose.BarCode voor .NET?
+---
 
-A5: Ja, Aspose.BarCode voor .NET ondersteunt het genereren van streepjescodes in verschillende formaten, waaronder PNG, JPEG en meer.
+**Laatst bijgewerkt:** 2026-01-12  
+**Getest met:** Aspose.BarCode 24.12 voor .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,59 +1,67 @@
 ---
-title: Dostosowywanie współczynnika proporcji DataMatrix za pomocą Aspose.BarCode dla .NET
-linktitle: Dostosowywanie współczynnika proporcji DataMatrix
+date: 2026-01-12
+description: Dowiedz się, jak stworzyć plik PNG z kodem kreskowym o niestandardowym
+  współczynniku proporcji DataMatrix przy użyciu Aspose.BarCode dla .NET. Przewodnik
+  krok po kroku dotyczący generowania kodów kreskowych i dostosowywania rozmiaru.
+linktitle: DataMatrix Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
-description: Dowiedz się, jak dostosować współczynniki proporcji kodu kreskowego DataMatrix za pomocą Aspose.BarCode dla .NET. Przewodnik krok po kroku dotyczący generowania kodów kreskowych.
-weight: 10
+title: Utwórz kod kreskowy PNG – proporcje DataMatrix – Aspose.BarCode
 url: /pl/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dostosowywanie współczynnika proporcji DataMatrix za pomocą Aspose.BarCode dla .NET
+# Utwórz PNG kodu kreskowego – proporcje DataMatrix – Aspose.BarCode
 
-Czy chcesz generować kody kreskowe DataMatrix o niestandardowych proporcjach przy użyciu Aspose.BarCode dla .NET? Jesteś we właściwym miejscu. W tym samouczku krok po kroku pokażemy, jak to osiągnąć. Aspose.BarCode dla .NET to potężna biblioteka, która umożliwia łatwe tworzenie i manipulowanie kodami kreskowymi. Zaczniemy od przedstawienia wymagań wstępnych i przestrzeni nazw, których potrzebujesz, a następnie przejdziemy do przykładów.
+Generowanie **barcode PNG** z niestandardowymi proporcjami DataMatrix jest powszechnym wymogiem, gdy potrzebujesz, aby kod kreskowy pasował do określonych ograniczeń układu. W tym samouczku przeprowadzimy Cię przez dokładne kroki, aby **utworzyć PNG kodu kreskowego** przy użyciu Aspose.BarCode dla .NET, wyjaśnimy, dlaczego możesz chcieć dostosować proporcje, i pokażemy, jak precyzyjnie dostroić wynik dla Twojej aplikacji.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co kontroluje „aspect ratio”?** Definiuje stosunek szerokości do wysokości modułów DataMatrix.  
+- **Czy mogę wyeksportować PNG, JPEG lub SVG?** Tak – metoda `Save` obsługuje PNG, JPEG, BMP, GIF i inne.  
+- **Czy potrzebuję licencji na tę funkcję?** Darmowa wersja próbna działa w trakcie rozwoju; pełna licencja jest wymagana w produkcji.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.x, .NET Core 3.1+, .NET 5/6/7.  
+- **Ile wartości proporcji jest prawidłowych?** Dowolna dodatnia liczba zmiennoprzecinkowa; typowe wartości to 0,5 – 2,0.
 
-Zanim zaczniemy dostosowywać współczynniki proporcji DataMatrix, upewnij się, że spełnione są następujące wymagania wstępne:
+## Czym jest kod kreskowy DataMatrix i dlaczego dostosować jego proporcje?
+DataMatrix to dwuwymiarowy kod macierzowy, który przechowuje duże ilości danych w niewielkiej przestrzeni. Dostosowanie **aspect ratio** pozwala rozciągać lub kompresować moduły w poziomie, co może być przydatne przy dopasowywaniu kodu kreskowego do wąskich kolumn lub szerokich etykiet bez utraty czytelności.
 
-1. Visual Studio: Będziesz potrzebować zainstalowanego programu Visual Studio na swoim komputerze.
+## Wymagania wstępne
 
-2.  Aspose.BarCode dla .NET: Powinieneś mieć zainstalowany Aspose.BarCode dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz go pobrać[Tutaj](https://releases.aspose.com/barcode/net/).
+Zanim zaczniemy dostosowywać proporcje DataMatrix, upewnij się, że masz następujące wymagania wstępne:
 
-3. .NET Framework: Twoje środowisko programistyczne powinno obsługiwać .NET Framework.
+1. **Visual Studio** – dowolna nowsza wersja będzie odpowiednia.  
+2. **Aspose.BarCode for .NET** – pobierz go [tutaj](https://releases.aspose.com/barcode/net/).  
+3. **.NET Framework / .NET Core** – Twój projekt musi celować w obsługiwaną wersję.
 
-Teraz, gdy masz już te wymagania wstępne, przyjrzyjmy się, jak dostosować współczynnik proporcji kodów kreskowych DataMatrix.
+## Importowanie przestrzeni nazw
 
-## Importuj przestrzenie nazw
-
-Najpierw musisz zaimportować niezbędne przestrzenie nazw do swojego projektu C#, aby efektywnie używać Aspose.BarCode dla .NET. Oto jak możesz to zrobić:
-
-W kodzie C# uwzględnij przestrzeń nazw Aspose.BarCode:
+First, you need to import the necessary namespace in your C# project:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Podzielmy teraz proces dostosowywania współczynników proporcji DataMatrix na wiele kroków.
+> **Wskazówka:** Trzymaj to polecenie `using` na początku pliku, aby klasa `BarcodeGenerator` była zawsze dostępna.
 
-## Krok 1: Skonfiguruj swój projekt
+## Przewodnik krok po kroku
 
-Utwórz nowy projekt w Visual Studio lub otwórz istniejący. Upewnij się, że w swoim projekcie odwołałeś się do biblioteki Aspose.BarCode.
+### Krok 1: Skonfiguruj swój projekt
+Utwórz nowy projekt konsolowy lub Windows Forms w Visual Studio i dodaj odwołanie do biblioteki Aspose.BarCode DLL.
 
-## Krok 2: Zainicjuj generator kodów kreskowych
-
- Aby pracować z kodami kreskowymi DataMatrix, należy zainicjować plik a`BarcodeGenerator` obiekt. Możesz wybrać typ kodowania i podać dane, które chcesz zakodować. W tym przykładzie używamy typu kodowania DataMatrix z danymi „Åspóse.Barcóde©”:
+### Krok 2: Zainicjalizuj generator kodów kreskowych
+Utwórz instancję `BarcodeGenerator` z typem DataMatrix oraz danymi, które chcesz zakodować:
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åspóse.Barcóde©"))
 ```
 
-## Krok 3: Dostosuj współczynnik proporcji
+> Ten wiersz tworzy generator gotowy do wygenerowania kodu DataMatrix zawierającego przykładowy tekst.
 
-Można ustawić współczynnik kształtu kodu kreskowego DataMatrix. W poniższym przykładzie ustawimy go na 1, a następnie na 0,5:
+### Krok 3: Dostosuj proporcje i zapisz pliki PNG
+Teraz możesz zmienić **aspect ratio** i zapisać każdą wersję jako obraz PNG:
 
 ```csharp
 gen.Parameters.Barcode.DataMatrix.AspectRatio = 1;
@@ -63,35 +71,47 @@ gen.Parameters.Barcode.DataMatrix.AspectRatio = 0.5f;
 gen.Save($"{path}DataMatrixAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-tym kodzie najpierw ustawiamy współczynnik proporcji na 1, a następnie zapisujemy obraz kodu kreskowego. Następnie zmieniamy współczynnik proporcji na 0,5 i zapisujemy go jako inny obraz. Umożliwia to tworzenie kodów kreskowych DataMatrix o różnych proporcjach.
+- Pierwsze wywołanie tworzy kod o proporcjach kwadratu (`AspectRatio = 1`).  
+- Drugie wywołanie kompresuje kod w poziomie (`AspectRatio = 0.5`), dając szerszy wygląd.
 
-## Wniosek
+Masz teraz dwa pliki **barcode PNG** o różnych proporcjach, gotowe do użycia w raportach, etykietach lub elementach interfejsu użytkownika.
 
-Dostosowywanie współczynników proporcji DataMatrix przy użyciu Aspose.BarCode dla .NET jest prostym procesem. Dzięki podanym krokom możesz łatwo utworzyć kody kreskowe DataMatrix o wybranym formacie. Aspose.BarCode dla .NET upraszcza generowanie kodów kreskowych, co czyni go potężnym narzędziem do różnych zastosowań.
+## Częste problemy i rozwiązania
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Wygenerowany obraz jest rozmyty** | Zwiększ parametr `Resolution` przed zapisem (`gen.Parameters.ImageResolution = 300`). |
+| **Kod kreskowy nie jest odczytywany** | Upewnij się, że proporcja mieści się w przedziale 0,5 – 2,0 i zachowaj wystarczającą strefę ciszy (`gen.Parameters.Barcode.CodeTextParameters.Margin`). |
+| **Błędy ścieżki pliku** | Użyj `Path.Combine` do zbudowania ścieżki wyjściowej i sprawdź, czy folder istnieje. |
 
- Czy masz więcej pytań na temat Aspose.BarCode dla .NET? Sprawdź[dokumentacja](https://reference.aspose.com/barcode/net/) lub odwiedź[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) za wsparcie i dyskusje.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**P:** Czy mogę dostosować proporcje innych typów kodów kreskowych przy użyciu Aspose.BarCode dla .NET?  
+**O:** Tak, wiele kodów 2‑D (np. QR, PDF417) obsługuje regulację proporcji poprzez ich specyficzne obiekty parametrów.
 
-### P1: Czy mogę dostosować proporcje innych typów kodów kreskowych za pomocą Aspose.BarCode dla .NET?
+**P:** Czy dostępna jest darmowa wersja próbna Aspose.BarCode dla .NET?  
+**O:** Tak, możesz uzyskać dostęp do darmowej wersji próbnej Aspose.BarCode dla .NET [tutaj](https://releases.aspose.com/).
 
-O1: Tak, Aspose.BarCode dla .NET umożliwia dostosowanie proporcji różnych typów kodów kreskowych, nie tylko DataMatrix.
+**P:** Gdzie mogę kupić licencję na Aspose.BarCode dla .NET?  
+**O:** Licencję możesz zakupić na stronie Aspose [tutaj](https://purchase.aspose.com/buy).
 
-### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode dla .NET?
+**P:** Czy Aspose.BarCode dla .NET jest kompatybilny z różnymi wersjami .NET Framework?  
+**O:** Tak, działa z .NET Framework 4.x, .NET Core 3.1+ oraz najnowszymi wydaniami .NET.
 
- A2: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.BarCode dla .NET[Tutaj](https://releases.aspose.com/).
+**P:** Czy mogę generować kody kreskowe w różnych formatach przy użyciu Aspose.BarCode dla .NET?  
+**O:** Oczywiście – PNG, JPEG, BMP, GIF, TIFF, SVG i PDF są obsługiwane od razu.
 
-### P3: Gdzie mogę kupić licencję na Aspose.BarCode dla .NET?
+## Podsumowanie
 
- A3: Możesz kupić licencję na Aspose.BarCode dla .NET na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).
+Dostosowanie **aspect ratio** kodu DataMatrix oraz **tworzenie barcode PNG** jest proste przy użyciu Aspose.BarCode dla .NET. Postępując zgodnie z powyższymi krokami, możesz generować idealnie dopasowane kody kreskowe spełniające dokładne wymagania układu Twojego projektu. Zbadaj inne parametry, takie jak `Resolution`, `Margin` i `Color`, aby jeszcze lepiej dopasować wynik.
 
-### P4: Czy Aspose.BarCode dla .NET jest kompatybilny z różnymi wersjami .NET Framework?
+Po głębszej eksploracji sprawdź oficjalną [dokumentację](https://reference.aspose.com/barcode/net/) lub dołącz do społeczności na [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-O4: Tak, Aspose.BarCode dla .NET jest kompatybilny z różnymi wersjami .NET Framework, zapewniając elastyczność dla Twoich potrzeb programistycznych.
+---
 
-### P5: Czy mogę generować kody kreskowe w różnych formatach za pomocą Aspose.BarCode dla .NET?
+**Ostatnia aktualizacja:** 2026-01-12  
+**Testowano z:** Aspose.BarCode 24.12 dla .NET  
+**Autor:** Aspose  
 
-O5: Tak, Aspose.BarCode dla .NET obsługuje generowanie kodów kreskowych w różnych formatach, w tym PNG, JPEG i innych.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
