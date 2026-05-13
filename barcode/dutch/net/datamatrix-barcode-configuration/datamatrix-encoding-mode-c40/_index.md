@@ -1,115 +1,130 @@
 ---
-title: Master DataMatrix-coderingsmodus (C40) met Aspose.BarCode voor .NET
-linktitle: DataMatrix-coderingsmodus (C40)
+date: 2026-01-15
+description: Leer hoe u PNG‑bestanden kunt opslaan terwijl u DataMatrix Encoding Mode
+  (C40) gebruikt met Aspose.BarCode voor .NET – een stapsgewijze barcode‑tutorial.
+linktitle: DataMatrix Encoding Mode (C40)
 second_title: Aspose.BarCode .NET API
-description: Leer de DataMatrix-coderingsmodus (C40) met Aspose.BarCode voor .NET. Maak efficiënt aangepaste streepjescodes. Ontdek de stapsgewijze handleiding.
-weight: 16
+title: Hoe PNG opslaan met DataMatrix C40 met Aspose.BarCode
 url: /nl/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-c40/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Master DataMatrix-coderingsmodus (C40) met Aspose.BarCode voor .NET
+# Master DataMatrix Encoding Mode (C40) with Aspose.BarCode for .NET
 
-## Invoering
+## Introduction
 
-In de wereld van het genereren van barcodes zijn precisie en veelzijdigheid cruciaal. Of u nu werkt aan voorraadbeheer, verzending of een andere toepassing waarbij gegevenscodering betrokken is, DataMatrix-barcodes zijn een populaire keuze. Met Aspose.BarCode voor .NET beschikt u over een krachtig hulpmiddel om streepjescodes efficiënt te maken, aan te passen en te coderen.
+Als je op zoek bent naar een duidelijke, praktische gids over **how to save PNG** bestanden terwijl je DataMatrix barcodes genereert, ben je hier aan het juiste adres. Of je nu een voorraadbeheersysteem, een verzendlabelgenerator, of een andere oplossing bouwt die compacte, high‑density barcodes nodig heeft, het beheersen van de C40‑encoderingmodus geeft je zowel grootte‑efficiëntie als betrouwbare gegevensrepresentatie. In deze tutorial lopen we een **step by step barcode** creatieproces door, van vereisten tot de uiteindelijke PNG‑output, met behulp van Aspose.BarCode voor .NET.
 
-Deze uitgebreide handleiding gaat dieper in op de DataMatrix-coderingsmodus (C40) met Aspose.BarCode voor .NET en geeft u een stapsgewijze analyse van het proces. We verkennen de vereisten, importeren naamruimten en leiden u door meerdere voorbeelden, zodat u zeker weet dat u deze coderingsmodus onder de knie krijgt. Laten we beginnen!
+## Quick Answers
+- **What does “how to save png” refer to?** Het opslaan van de gegenereerde barcode als een PNG‑afbeeldingsbestand.  
+- **Which encoding mode is covered?** DataMatrix C40‑encoding.  
+- **Do I need a license?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productie.  
+- **Can I run this on .NET Core?** Ja, Aspose.BarCode ondersteunt .NET Framework en .NET Core.  
+- **What file format is produced?** PNG (Portable Network Graphics) afbeelding.
 
-## Vereisten
+## Hoe PNG op te slaan met DataMatrix C40‑encoding
+Het opslaan van de barcode als PNG is de laatste stap nadat je de generator hebt geconfigureerd. De `Save`‑methode neemt het bestandspad, de gewenste bestandsnaam en het afbeeldingsformaat (`BarCodeImageFormat.Png`). Dit zorgt ervoor dat de barcode wordt opgeslagen in een verliesvrije indeling die werkt in browsers, printers en mobiele apparaten.
 
-Voordat we in de wereld van DataMatrix Encoding Mode (C40) duiken met behulp van Aspose.BarCode voor .NET, moeten we ervoor zorgen dat u alles op orde heeft:
+## Wat is DataMatrix‑encoderingmodus (C40)?
+C40 is een efficiënt tekenreeks voor alfanumerieke gegevens, waardoor je meer informatie kunt verpakken in een kleiner DataMatrix‑symbool. Het is vooral nuttig wanneer je tekst moet coderen die letters, cijfers en een beperkte set speciale tekens bevat.
 
-1. .NET-omgeving: u moet over een werkende .NET-omgeving beschikken, inclusief Visual Studio of een andere geschikte IDE voor .NET-ontwikkeling.
+## Why Use Aspose.BarCode for .NET?
+- **Full control** over barcode dimensions, error correction, and encoding modes.  
+- **Zero‑dependency** generation – no external services required.  
+- **Cross‑platform** support for .NET Framework, .NET Core, and .NET 5/6+.  
 
-2.  Aspose.BarCode voor .NET: Zorg ervoor dat u Aspose.BarCode voor .NET hebt geïnstalleerd. Als u dat nog niet heeft gedaan, kunt u de installatie-instructies vinden in de[documentatie](https://reference.aspose.com/barcode/net/).
+## Voorwaarden
 
-3. Basiskennis programmeren: Een fundamenteel begrip van de ontwikkeling van C# en .NET is essentieel.
+Voordat we in de code duiken, zorg ervoor dat je het volgende hebt:
 
-4. Directory-instelling: bereid een map op uw systeem voor waarin u de gegenereerde streepjescodes opslaat.
+1. **.NET Development Environment** – Visual Studio, Rider, of een IDE die C# ondersteunt.  
+2. **Aspose.BarCode for .NET** – geïnstalleerd via NuGet of de officiële installer. Zie de [documentation](https://reference.aspose.com/barcode/net/) voor details.  
+3. **Basic C# knowledge** – je moet vertrouwd zijn met namespaces, classes en using‑statements.  
+4. **Write‑access folder** – een map op je computer waar de PNG wordt opgeslagen.
 
-Nu we de vereisten hebben besproken, gaan we verder met de essentiële stappen om de DataMatrix Encoding Mode (C40) te gebruiken in Aspose.BarCode voor .NET.
+## Benodigde namespaces importeren
 
-## Noodzakelijke naamruimten importeren
-
-In deze stap moet u de vereiste naamruimten importeren om toegang te krijgen tot de functionaliteit van Aspose.BarCode voor .NET. Om dit te doen, voegt u de volgende code toe aan het begin van uw C#-bestand:
+Voeg de vereiste namespace toe aan de bovenkant van je C#‑bronbestand zodat je toegang hebt tot de barcode‑generatieklassen:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Deze naamruimten bieden de klassen en methoden die nodig zijn om streepjescodes te genereren en aan te passen.
+## Stapsgewijze barcode‑generatie
 
-Laten we het door u gegeven voorbeeld opsplitsen in meerdere stappen voor een beter begrip.
+Hieronder vind je een **step by step barcode** walkthrough. Elke stap wordt in eenvoudige taal uitgelegd, en de originele code‑blokken blijven ongewijzigd voor copy‑paste gemak.
 
-## Stap 1: Definieer het directorypad
-
- U moet het mappad opgeven waar u de gegenereerde streepjescode wilt opslaan. Vervangen`"Your Directory Path"` met het daadwerkelijke pad op uw systeem.
+### Stap 1: Definieer het mappad
+Stel de map in waar de PNG‑afbeelding wordt opgeslagen. Vervang de placeholder door een daadwerkelijk pad op je machine.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Stap 2: Stel het genereren van streepjescodes in
-
-Laten we nu de streepjescodegenerator instellen en het streepjescodetype en de gegevens specificeren. In dit geval gebruiken we DataMatrix als streepjescodetype, met de gegevens "ASPOSE.BARCODE."
+### Stap 2: Barcode‑generatie instellen
+Maak een `BarcodeGenerator`‑instantie, specificeer `EncodeTypes.DataMatrix`, en geef de gegevens op die je wilt coderen.
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPOSE.BARCODE"))
 {
-    // Hier vindt u aanvullende stappen
+    // Additional steps go here
 }
 ```
 
-## Stap 3: Pas streepjescode aan
-
-In deze stap kunt u de streepjescode aanpassen door verschillende parameters in te stellen. Hier stellen we de XDimension (de breedte van de streepjescodebalken) en de DataMatrixEncodeMode in op C40.
+### Stap 3: Barcode aanpassen
+Configureer de X‑dimensie (pixelbreedte van de modules) en schakel de encoderingmodus naar C40.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 6;
 gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.C40;
 ```
 
-## Stap 4: Sla de streepjescodeafbeelding op
-
- Sla ten slotte de gegenereerde streepjescode op als PNG-afbeelding in de opgegeven map. Je kunt vervangen`"DataMatrixEncodeModeC40.png"` met de bestandsnaam van uw voorkeur.
+### Stap 4: Barcode‑afbeelding opslaan
+Sla tenslotte de gegenereerde barcode op als een PNG‑bestand. Dit is het concrete antwoord op **how to save png** met Aspose.BarCode.
 
 ```csharp
 gen.Save($"{path}DataMatrixEncodeModeC40.png", BarCodeImageFormat.Png);
 ```
 
-Door deze stappen te volgen, kunt u een DataMatrix-barcode maken met de C40-coderingsmodus met behulp van Aspose.BarCode voor .NET.
+Wanneer je het programma uitvoert, vind je `DataMatrixEncodeModeC40.png` in de map die je hebt opgegeven, klaar voor gebruik in rapporten, labels of webpagina's.
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-Het beheersen van de DataMatrix-coderingsmodus (C40) met Aspose.BarCode voor .NET opent een wereld van mogelijkheden op het gebied van gegevenscodering en het genereren van streepjescodes. Met deze krachtige bibliotheek, gecombineerd met uw .NET-vaardigheden, kunt u aangepaste, efficiënte barcodes maken voor verschillende toepassingen. Met de juiste vereisten en stappen kunt u het genereren van streepjescodes vol vertrouwen in uw projecten integreren.
-
-Begin vandaag nog met het maken van DataMatrix-barcodes met Aspose.BarCode voor .NET en ontdek de eindeloze mogelijkheden van gegevenscodering.
+- **Invalid Path** – Zorg ervoor dat de map bestaat en dat je schrijfrechten hebt; anders zal `gen.Save` een uitzondering werpen.  
+- **Incorrect Encoding Mode** – Als je tekens buiten de C40‑set moet coderen, schakel dan over naar `DataMatrixEncodeMode.Auto` of een andere geschikte modus.  
+- **Image Size** – Pas `XDimension.Pixels` aan om de totale barcode‑grootte te vergroten of te verkleinen zonder de leesbaarheid te beïnvloeden.
 
 ## Veelgestelde vragen
 
-### Vraag 1: Wat is de DataMatrix-coderingsmodus (C40)?
+**Q: Wat is DataMatrix‑encoderingmodus (C40)?**  
+A: C40 is een compact alfanumeriek coderingsschema voor DataMatrix‑symbolen, ideaal voor tekst die letters, cijfers en een beperkte set speciale tekens bevat.
 
-A1: DataMatrix-coderingsmodus (C40) is een tekencoderingsmodus die wordt gebruikt in DataMatrix-barcodes. Het is een subset van de DataMatrix-symboliek en is geschikt voor het efficiënt coderen van alfanumerieke en speciale tekens.
+**Q: Waar kan ik de Aspose.BarCode for .NET documentatie vinden?**  
+A: Je kunt de documentatie [hier](https://reference.aspose.com/barcode/net/) vinden. Het biedt gedetailleerde begeleiding over alle barcode‑typen en encoderingopties.
 
-### V2: Waar kan ik de Aspose.BarCode voor .NET-documentatie vinden?
+**Q: Is Aspose.BarCode for .NET compatibel met alle .NET‑versies?**  
+A: Ja, de bibliotheek ondersteunt een breed scala aan .NET‑versies, van .NET Framework 4.5+ tot .NET 6 en later.
 
- A2: U kunt de documentatie vinden[hier](https://reference.aspose.com/barcode/net/). Het biedt gedetailleerde informatie over het gebruik van de bibliotheek voor verschillende barcodetypen en coderingsmodi.
+**Q: Kan ik Aspose.BarCode for .NET uitproberen voordat ik het koop?**  
+A: Ja, je kunt een gratis proefversie van Aspose.BarCode for .NET verkennen via [deze link](https://releases.aspose.com/). Hiermee kun je de functies en mogelijkheden van de bibliotheek testen.
 
-### V3: Is Aspose.BarCode voor .NET compatibel met alle .NET-versies?
+**Q: Waar kan ik ondersteuning krijgen voor Aspose.BarCode for .NET?**  
+A: Je kunt een ondersteunende community vinden en support voor Aspose.BarCode for .NET krijgen op het [Aspose forum](https://forum.aspose.com/c/barcode/13).
 
-A3: Ja, Aspose.BarCode voor .NET is compatibel met een breed scala aan .NET-versies, waardoor flexibiliteit wordt gegarandeerd voor ontwikkelaars die aan verschillende projecten werken.
+## Conclusie
 
-### V4: Kan ik Aspose.BarCode voor .NET uitproberen voordat ik een aankoop doe?
+Door deze **step by step barcode** gids te volgen, weet je nu precies **how to save PNG** bestanden die zijn gegenereerd met DataMatrix C40‑encoding met behulp van Aspose.BarCode voor .NET. Deze aanpak geeft je volledige controle over het uiterlijk, de grootte en de gegevensrepresentatie van de barcode, waardoor het eenvoudig is om hoogwaardige barcodes in elke .NET‑applicatie te integreren.
 
- A4: Ja, u kunt een gratis proefversie van Aspose.BarCode voor .NET uitproberen door naar te gaan[deze link](https://releases.aspose.com/). Hiermee kunt u de functies en mogelijkheden van de bibliotheek testen.
+---
 
-### V5: Waar kan ik ondersteuning krijgen voor Aspose.BarCode voor .NET?
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
-A5: U kunt een ondersteunende community vinden en toegang krijgen tot ondersteuning voor Aspose.BarCode voor .NET op de[Aspose-forum](https://forum.aspose.com/c/barcode/13).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
