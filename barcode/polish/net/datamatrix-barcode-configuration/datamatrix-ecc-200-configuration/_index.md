@@ -91,28 +91,6 @@ Metoda `Save` zapisuje kod kreskowy do pliku PNG. W razie potrzeby możesz zamie
 | Skanowanie nie powodzi się na telefonie | Nieprawidłowy poziom ECC | Upewnij się, że `DataMatrixEcc = DataMatrixEccType.Ecc200` |
 | Plik nie został utworzony | Nieprawidłowy ciąg ścieżki | Użyj ścieżki bezwzględnej lub upewnij się, że folder istnieje |
 
-## FAQ
-
-### Q1: Co to jest Aspose.BarCode dla .NET?
-
-Aspose.BarCode for .NET to potężna biblioteka, która umożliwia programistom .NET generowanie, dostosowywanie i pracę z kodami kreskowymi w różnych aplikacjach.
-
-### Q2: Czy potrzebuję licencji na Aspose.BarCode dla .NET?
-
-Tak, potrzebujesz ważnej licencji, aby używać Aspose.BarCode dla .NET w swoich projektach. Możesz uzyskać tymczasową licencję do celów testowych.
-
-### Q3: Czy mogę dostosować wygląd kodów kreskowych generowanych przy użyciu Aspose.BarCode?
-
-Oczywiście! Możesz dostosować wygląd kodu kreskowego, rozmiar i wiele innych właściwości, aby spełniały Twoje konkretne wymagania.
-
-### Q4: Jakie typy kodów kreskowych są obsługiwane przez Aspose.BarCode dla .NET?
-
-Aspose.BarCode dla .NET obsługuje szeroką gamę typów kodów kreskowych, w tym QR Code, DataMatrix, Code 128 i wiele innych.
-
-### Q5: Gdzie mogę znaleźć dokumentację Aspose.BarCode dla .NET?
-
-Możesz uzyskać dostęp do dokumentacji [tutaj](https://reference.aspose.com/barcode/net/).
-
 ## Często zadawane pytania
 
 **P: Czy mogę użyć tego kodu w aplikacji konsolowej .NET Core?**  

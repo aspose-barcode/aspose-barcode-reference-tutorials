@@ -92,28 +92,6 @@ A `Save` metódus a vonalkódot PNG fájlba írja. Szükség esetén átválthat
 | A beolvasás mobilon sikertelen | Helytelen ECC szint | Győződj meg róla, hogy `DataMatrixEcc = DataMatrixEccType.Ecc200` |
 | A fájl nem jött létre | Érvénytelen útvonal karakterlánc | Használj abszolút útvonalat, vagy ellenőrizd, hogy a mappa létezik |
 
-## Gyakran ismételt kérdések
-
-### Q1: Mi az Aspose.BarCode for .NET?
-
-A1: Az Aspose.BarCode for .NET egy erőteljes könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy vonalkódokat generáljanak, testre szabjanak és különféle alkalmazásokban használjanak.
-
-### Q2: Szükségem van licencre az Aspose.BarCode for .NET használatához?
-
-A2: Igen, érvényes licenc szükséges az Aspose.BarCode for .NET projektekben való használatához. Ideiglenes licencet szerezhetsz tesztelési célokra.
-
-### Q3: Testreszabhatom a Aspose.BarCode által generált vonalkódok megjelenését?
-
-A3: Természetesen! Testre szabhatod a vonalkód megjelenését, méretét és számos egyéb tulajdonságát a specifikus igényeidnek megfelelően.
-
-### Q4: Milyen vonalkód típusokat támogat az Aspose.BarCode for .NET?
-
-A4: Az Aspose.BarCode for .NET számos vonalkód típust támogat, többek között QR Code, DataMatrix, Code 128 és még sok más.
-
-### Q5: Hol találom az Aspose.BarCode for .NET dokumentációját?
-
-A5: A dokumentációt [itt](https://reference.aspose.com/barcode/net/) érheted el.
-
 ## Gyakran feltett kérdések
 
 **Q: Használhatom ezt a kódot .NET Core konzolalkalmazásban?**  

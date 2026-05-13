@@ -107,15 +107,15 @@ A5: 예, [this link](https://releases.aspose.com/)에서 무료 체험판을 이
 ## 결론
 이 **c# 바코드 생성기 예제**를 따라 하면 이제 고품질 DataMatrix ECC 000‑140 바코드를 생성할 수 있는 탄탄한 기반을 갖추게 됩니다. **바코드 생성 재고 관리** 프로세스를 개선하거나 맞춤 라벨링 솔루션을 구축하든, Aspose.BarCode for .NET는 필요한 유연성과 신뢰성을 제공합니다. 다양한 데이터 페이로드, 색상 및 크기를 실험하여 정확한 요구사항에 맞추고, 생성기를 더 큰 워크플로에 통합하여 최대 효율성을 달성하십시오.
 
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.BarCode 24.11 for .NET  
-**Author:** Aspose

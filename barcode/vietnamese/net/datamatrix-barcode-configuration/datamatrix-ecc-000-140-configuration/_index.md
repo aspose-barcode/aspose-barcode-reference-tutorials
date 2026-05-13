@@ -109,15 +109,15 @@ A5: Có, bạn có thể khám phá Aspose.BarCode cho .NET với bản dùng th
 ## Kết luận
 Bằng cách thực hiện **ví dụ trình tạo mã vạch c#** này, bạn đã có nền tảng vững chắc để tạo các mã vạch DataMatrix ECC 000‑140 chất lượng cao. Dù bạn đang cải thiện quy trình **quản lý tồn kho tạo mã vạch** hay xây dựng giải pháp dán nhãn tùy chỉnh, Aspose.BarCode cho .NET cung cấp sự linh hoạt và độ tin cậy mà bạn cần. Hãy thử nghiệm với các dữ liệu, màu sắc và kích thước khác nhau để đáp ứng yêu cầu chính xác, và tích hợp trình tạo vào các quy trình làm việc lớn hơn để đạt hiệu suất tối đa.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-12  
+**Kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-12  
-**Kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
-**Tác giả:** Aspose

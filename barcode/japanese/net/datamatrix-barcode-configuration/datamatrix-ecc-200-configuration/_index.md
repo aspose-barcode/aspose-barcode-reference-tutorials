@@ -14,18 +14,19 @@ weight: 12
 
 # Aspose.BarCode for .NET を使用して DataMatrix バーコード (ECC 200) を生成する方法
 
-## Introduction
+## はじめに
 
 Aspose.BarCode for .NET を使って **DataMatrix バーコードを生成する方法** を学ぶ準備はできましたか？在庫管理システム、POS アプリ、ドキュメントワークフローの自動化など、どんなシナリオでもこのガイドが **Aspose によるバーコード生成** のすべての手順を案内し、C# で信頼性の高い DataMatrix ECC 200 バーコードを作成する方法を示します。
 
-## Quick Answers
-- **What library is best for DataMatrix in .NET?** Aspose.BarCode for .NET  
-- **Which ECC level does ECC 200 provide?** It offers high‑density error correction for robust scanning.  
-- **Do I need a license to run the sample?** A temporary license works for evaluation; a full license is required for production.  
-- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Can I output PNG, JPEG, or TIFF?** Yes – the `Save` method supports multiple image formats.
+## よくある質問
+- **.NETでDataMatrixを使用するのに最適なライブラリはどれですか？** Aspose.BarCode for .NET
+- **ECC200はどのECCレベルを提供しますか？** 高密度エラー訂正機能を提供し、堅牢なスキャンを実現します。
+- **サンプルを実行するにはライセンスが必要ですか？** 評価用には一時ライセンスで十分ですが、本番環境ではフルライセンスが必要です。
+- **サポートされている.NETバージョンは？** .NET Framework 4.5以降、.NET Core 3.1以降、.NET 5/6以降。
+- **PNG、JPEG、TIFF形式で出力できますか？** はい。`Save`メソッドは複数の画像形式をサポートしています。
 
-## Prerequisites
+
+## 前提条件
 
 1. **Development Environment** – Visual Studio と適切な .NET フレームワークがインストールされた環境。  
 2. **Aspose.BarCode for .NET** – 公式サイトからダウンロードしてインストール、[here](https://releases.aspose.com/barcode/net/)。  
@@ -34,7 +35,7 @@ Aspose.BarCode for .NET を使って **DataMatrix バーコードを生成する
 
 基本は以上です。次は DataMatrix ECC 200 の設定に進みましょう。
 
-## Import Namespaces
+## 名前空間のインポート
 
 まず、バーコード生成クラスにアクセスできるように必要な名前空間をインポートします。
 
@@ -42,9 +43,9 @@ Aspose.BarCode for .NET を使って **DataMatrix バーコードを生成する
 using Aspose.BarCode.Generation;
 ```
 
-## How to generate DataMatrix ECC 200 barcodes
+## DataMatrix ECC 200 バーコードの生成方法
 
-### Step 1: Initialize the Barcode Generator
+### ステップ 1: バーコード ジェネレータの初期化
 
 ```csharp
 string path = "Your Directory Path";
@@ -58,7 +59,7 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åsp
 
 このスニペットでは `BarcodeGenerator` インスタンスを作成し、**DataMatrix** バーコードを指定し、エンコードするデータを渡しています。`"Your Directory Path"` は画像を保存したいフォルダーに置き換えてください。
 
-### Step 2: Set XDimension and ECC Type
+### ステップ 2: XDimension と ECC タイプの設定
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 4;
@@ -67,7 +68,7 @@ gen.Parameters.Barcode.DataMatrix.DataMatrixEcc = DataMatrixEccType.Ecc200;
 
 ここでは **XDimension**（各モジュールのサイズ）を設定し、**ECC 200** を選択して高い誤り訂正を有効にしています。モジュールを大きくしたい・小さくしたい場合はピクセル値を調整してください。
 
-### Step 3: Generate and Save the Barcode Image
+### ステップ 3: バーコード イメージの生成と保存
 
 ```csharp
 gen.Save($"{path}DataMatrixEcc200.png", BarCodeImageFormat.Png);
@@ -75,61 +76,45 @@ gen.Save($"{path}DataMatrixEcc200.png", BarCodeImageFormat.Png);
 
 `Save` メソッドがバーコードを PNG ファイルとして書き出します。必要に応じて `BarCodeImageFormat.Png` を `Jpeg` や `Tiff` に変更できます。これが **generate barcode image C#** の核心です。
 
-## Why use Aspose barcode generation?
+## Aspose バーコード生成を使用する理由
 
 - **Full‑featured API** – QR、PDF417、DataMatrix など数十種類のシンボロジーをサポート。  
 - **No external dependencies** – 純粋な .NET ライブラリで、統合が簡単。  
 - **High‑quality rendering** – スケーラブルなベクタ出力と寸法の細かい制御が可能。  
 - **Cross‑platform** – .NET Core で Windows、Linux、macOS 上でも動作。
 
-## Common Issues & Troubleshooting
+## よくある問題とトラブルシューティング
 
-| Symptom | Likely Cause | Fix |
+| 症状 | 考えられる原因 | 解決策 |
 |---------|--------------|-----|
 | バーコードがぼやけて見える | XDimension が低すぎる | `XDimension.Pixels` を 6‑8 に増やす |
 | モバイルでスキャンできない | ECC レベルが間違っている | `DataMatrixEcc = DataMatrixEccType.Ecc200` を確認 |
 | ファイルが作成されない | パス文字列が無効 | 絶対パスを使用するか、フォルダーが存在することを確認 |
 
-## FAQ's
+## よくある質問
 
-### Q1: What is Aspose.BarCode for .NET?
+**Q: このコードは.NET Coreコンソールアプリケーションで使用できますか？** 
 
-A1: Aspose.BarCode for .NET は、.NET 開発者がさまざまなアプリケーションでバーコードを生成、カスタマイズ、操作できる強力なライブラリです。
+回答： はい、同じAPIは.NET Core、.NET 5、.NET 6プロジェクトで動作します。
 
-### Q2: Do I need a license for Aspose.BarCode for .NET?
+**Q: 出力形式をJPEGに変更するにはどうすればよいですか？** 
 
-A2: はい、プロジェクトで使用するには有効なライセンスが必要です。テスト目的であれば一時ライセンスを取得できます。
+回答： `Save`呼び出しで`BarCodeImageFormat.Png`を`BarCodeImageFormat.Jpeg`に置き換えてください。
 
-### Q3: Can I customize the appearance of barcodes generated with Aspose.BarCode?
+**Q: バーコードをPDFに直接埋め込むことはできますか？** 
 
-A3: もちろんです！バーコードの外観、サイズ、その他多数のプロパティを自由にカスタマイズできます。
+回答： はい、可能です。まず画像を生成し、Aspose.PDFまたは任意のPDFライブラリを使用してPDFに追加してください。
 
-### Q4: Which barcode types are supported by Aspose.BarCode for .NET?
+**Q: Unicode文字をエンコードする必要がある場合はどうすればよいですか？** 
 
-A4: QR Code、DataMatrix、Code 128 など、幅広いバーコードタイプをサポートしています。
+回答： DataMatrixはUTF-8をサポートしています。例に示すように、文字列を直接渡してください。
 
-### Q5: Where can I find the documentation for Aspose.BarCode for .NET?
 
-A5: ドキュメントは [here](https://reference.aspose.com/barcode/net/) からアクセスできます。
+**Q：ライブラリは複数のバーコードの一括生成に対応していますか？** 
 
-## Frequently Asked Questions
+回答： はい、対応しています。生成コードをループの中に記述し、各イテレーションごとにデータ／値を変更してください。
 
-**Q: Can I use this code in a .NET Core console application?**  
-A: Yes, the same API works in .NET Core, .NET 5, and .NET 6 projects.
-
-**Q: How do I change the output format to JPEG?**  
-A: Replace `BarCodeImageFormat.Png` with `BarCodeImageFormat.Jpeg` in the `Save` call.
-
-**Q: Is it possible to embed the barcode directly into a PDF?**  
-A: Yes – generate the image first, then add it to a PDF using Aspose.PDF or any PDF library.
-
-**Q: What if I need to encode Unicode characters?**  
-A: DataMatrix supports UTF‑8; just pass the string directly, as shown in the example.
-
-**Q: Does the library support batch generation of multiple barcodes?**  
-A: Absolutely – place the generation code inside a loop and change the data/value for each iteration.
-
-## Conclusion
+## まとめ
 
 このステップバイステップガイドでは **DataMatrix ECC 200 バーコードの生成方法** を解説し、**Aspose のバーコード生成** を紹介し、任意の .NET プロジェクトに組み込める **generate barcode image C#** コードを示しました。Aspose が提供する多数の設定オプションを試して、目的に合わせたバーコードを作成してください。
 

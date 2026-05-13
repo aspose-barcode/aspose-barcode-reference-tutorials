@@ -93,28 +93,6 @@ O método `Save` grava o código de barras em um arquivo PNG. Você pode trocar 
 
 ## Perguntas Frequentes
 
-### Q1: O que é Aspose.BarCode para .NET?
-
-A1: Aspose.BarCode para .NET é uma biblioteca poderosa que permite a desenvolvedores .NET gerar, personalizar e trabalhar com códigos de barras em várias aplicações.
-
-### Q2: Preciso de uma licença para Aspose.BarCode para .NET?
-
-A2: Sim, você precisa de uma licença válida para usar Aspose.BarCode para .NET em seus projetos. Você pode obter uma licença temporária para fins de teste.
-
-### Q3: Posso personalizar a aparência dos códigos de barras gerados com Aspose.BarCode?
-
-A3: Absolutamente! Você pode personalizar a aparência, tamanho e muitas outras propriedades do código de barras para atender aos seus requisitos específicos.
-
-### Q4: Quais tipos de códigos de barras são suportados pelo Aspose.BarCode para .NET?
-
-A4: Aspose.BarCode para .NET suporta uma ampla variedade de tipos de códigos de barras, incluindo QR Code, DataMatrix, Code 128 e muitos outros.
-
-### Q5: Onde posso encontrar a documentação do Aspose.BarCode para .NET?
-
-A5: Você pode acessar a documentação [here](https://reference.aspose.com/barcode/net/).
-
-## Perguntas Frequentes
-
 **Q: Posso usar este código em um aplicativo console .NET Core?**  
 A: Sim, a mesma API funciona em projetos .NET Core, .NET 5 e .NET 6.
 

@@ -113,13 +113,6 @@ A5: 是的，可通过 [this link](https://releases.aspose.com/) 获取免费试
 ## 结论
 通过本 **c# 条码生成器示例**，你已经掌握了生成高质量 DataMatrix ECC 000‑140 条码的基础。无论是优化 **条码生成库存管理** 流程，还是构建自定义标签解决方案，Aspose.BarCode for .NET 都能为你提供所需的灵活性和可靠性。尝试不同的数据负载、颜色和尺寸，以满足具体需求，并将生成器集成到更大的工作流中，以实现最高效率。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-12  
@@ -127,3 +120,10 @@ A5: 是的，可通过 [this link](https://releases.aspose.com/) 获取免费试
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

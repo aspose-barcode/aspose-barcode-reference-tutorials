@@ -92,28 +92,6 @@ De `Save`‑methode schrijft de barcode naar een PNG‑bestand. Je kunt `BarCode
 | Scannen mislukt op mobiel | Verkeerd ECC-niveau | Zorg ervoor dat `DataMatrixEcc = DataMatrixEccType.Ecc200` |
 | Bestand niet aangemaakt | Ongeldige pad‑string | Gebruik een absoluut pad of zorg dat de map bestaat |
 
-## FAQ's
-
-### Q1: Wat is Aspose.BarCode voor .NET?
-
-A1: Aspose.BarCode voor .NET is een krachtige bibliotheek die .NET‑ontwikkelaars in staat stelt barcodes te genereren, aan te passen en ermee te werken in verschillende toepassingen.
-
-### Q2: Heb ik een licentie nodig voor Aspose.BarCode voor .NET?
-
-A2: Ja, je hebt een geldige licentie nodig om Aspose.BarCode voor .NET in je projecten te gebruiken. Je kunt een tijdelijke licentie verkrijgen voor testdoeleinden.
-
-### Q3: Kan ik het uiterlijk van barcodes die met Aspose.BarCode zijn gegenereerd aanpassen?
-
-A3: Absoluut! Je kunt het uiterlijk, de grootte en vele andere eigenschappen van de barcode aanpassen aan je specifieke eisen.
-
-### Q4: Welke barcode‑typen worden ondersteund door Aspose.BarCode voor .NET?
-
-A4: Aspose.BarCode voor .NET ondersteunt een breed scala aan barcode‑typen, waaronder QR Code, DataMatrix, Code 128 en nog veel meer.
-
-### Q5: Waar kan ik de documentatie voor Aspose.BarCode voor .NET vinden?
-
-A5: Je kunt de documentatie raadplegen [hier](https://reference.aspose.com/barcode/net/).
-
 ## Veelgestelde Vragen
 
 **Q: Kan ik deze code gebruiken in een .NET Core console‑applicatie?**  

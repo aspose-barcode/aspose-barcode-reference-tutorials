@@ -109,15 +109,15 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åsp
 ## निष्कर्ष
 इस **c# barcode generator example** को फॉलो करके अब आपके पास उच्च‑गुणवत्ता वाले DataMatrix ECC 000‑140 बारकोड जनरेट करने की ठोस नींव है। चाहे आप **barcode generation inventory management** प्रक्रियाओं को बेहतर बना रहे हों या कस्टम लेबलिंग समाधान बना रहे हों, Aspose.BarCode for .NET आपको आवश्यक लचीलापन और विश्वसनीयता प्रदान करता है। विभिन्न डेटा पेलोड, रंग, और आकारों के साथ प्रयोग करें ताकि यह आपके सटीक आवश्यकताओं के अनुरूप हो, और अधिकतम दक्षता के लिए जेनरेटर को बड़े वर्कफ़्लो में इंटीग्रेट करें।
 
+---
+
+**अंतिम अपडेट:** 2026-01-12  
+**परीक्षण किया गया:** Aspose.BarCode 24.11 for .NET  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-12  
-**परीक्षण किया गया:** Aspose.BarCode 24.11 for .NET  
-**लेखक:** Aspose

@@ -91,28 +91,6 @@ gen.Save($"{path}DataMatrixEcc200.png", BarCodeImageFormat.Png);
 | Mobilde tarama başarısız | Yanlış ECC seviyesi | `DataMatrixEcc = DataMatrixEccType.Ecc200` olduğundan emin olun |
 | Dosya oluşturulmadı | Geçersiz yol dizesi | Mutlak bir yol kullanın veya klasörün var olduğundan emin olun |
 
-## SSS'ler
-
-### Q1: Aspose.BarCode for .NET nedir?
-
-A1: Aspose.BarCode for .NET, .NET geliştiricilerinin çeşitli uygulamalarda barkod oluşturmasına, özelleştirmesine ve bunlarla çalışmasına olanak tanıyan güçlü bir kütüphanedir.
-
-### Q2: Aspose.BarCode for .NET için lisansa ihtiyacım var mı?
-
-A2: Evet, Aspose.BarCode for .NET'i projelerinizde kullanmak için geçerli bir lisansa ihtiyacınız var. Test amaçlı geçici bir lisans alabilirsiniz.
-
-### Q3: Aspose.BarCode ile oluşturulan barkodların görünümünü özelleştirebilir miyim?
-
-A3: Kesinlikle! Barkodun görünümünü, boyutunu ve birçok diğer özelliğini belirli gereksinimlerinize göre özelleştirebilirsiniz.
-
-### Q4: Aspose.BarCode for .NET hangi barkod tiplerini destekliyor?
-
-A4: Aspose.BarCode for .NET, QR Code, DataMatrix, Code 128 ve daha birçok barkod tipini kapsayan geniş bir yelpazeyi destekler.
-
-### Q5: Aspose.BarCode for .NET dokümantasyonuna nereden ulaşabilirim?
-
-A5: Dokümantasyona [buradan](https://reference.aspose.com/barcode/net/) ulaşabilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu kodu bir .NET Core konsol uygulamasında kullanabilir miyim?**  

@@ -108,15 +108,15 @@ A5: Tak, możesz wypróbować Aspose.BarCode dla .NET, korzystając z darmowej w
 ## Podsumowanie
 Korzystając z tego **przykładu generatora kodów kreskowych w C#**, masz teraz solidne podstawy do generowania wysokiej jakości kodów DataMatrix ECC 000‑140. Niezależnie od tego, czy usprawniasz procesy **zarządzania generowaniem kodów kreskowych w inwentaryzacji**, czy tworzysz własne rozwiązanie etykietowania, Aspose.BarCode dla .NET zapewnia elastyczność i niezawodność, których potrzebujesz. Eksperymentuj z różnymi ładunkami danych, kolorami i rozmiarami, aby dopasować je do swoich wymagań, i integruj generator z większymi przepływami pracy w celu maksymalnej wydajności.
 
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.BarCode 24.11 for .NET  
-**Author:** Aspose

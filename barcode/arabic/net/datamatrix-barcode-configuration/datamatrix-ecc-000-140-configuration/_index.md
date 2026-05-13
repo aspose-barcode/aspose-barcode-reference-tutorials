@@ -108,13 +108,6 @@ A5: نعم، يمكنك تجربة Aspose.BarCode لـ .NET من خلال نسخ
 ## الخلاصة
 باتباع **مثال مولد باركود c#**، لديك الآن أساس قوي لإنشاء باركود DataMatrix ECC 000‑140 عالي الجودة. سواءً كنت تحسن عمليات **إدارة توليد الباركود للمخزون** أو تبني حل تسمية مخصص، فإن Aspose.BarCode لـ .NET يمنحك المرونة والموثوقية التي تحتاجها. جرّب بيانات مختلفة، ألوانًا، وأحجامًا لتناسب متطلباتك الدقيقة، ودمج المولد في سير عمل أكبر لتحقيق أقصى كفاءة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-12  
@@ -122,3 +115,10 @@ A5: نعم، يمكنك تجربة Aspose.BarCode لـ .NET من خلال نسخ
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

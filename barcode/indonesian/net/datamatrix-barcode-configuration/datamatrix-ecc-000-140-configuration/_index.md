@@ -109,13 +109,6 @@ A5: Ya, Anda dapat menjelajahi Aspose.BarCode untuk .NET dengan percobaan gratis
 ## Kesimpulan
 Dengan mengikuti **contoh generator barcode c#** ini, Anda kini memiliki dasar yang kuat untuk menghasilkan barcode DataMatrix ECC 000‑140 berkualitas tinggi. Baik Anda meningkatkan proses **manajemen inventaris pembuatan barcode** atau membangun solusi pelabelan khusus, Aspose.BarCode untuk .NET memberikan fleksibilitas dan keandalan yang Anda butuhkan. Bereksperimenlah dengan payload data yang berbeda, warna, dan ukuran untuk memenuhi kebutuhan spesifik Anda, dan integrasikan generator ke dalam alur kerja yang lebih besar untuk efisiensi maksimal.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-01-12  
@@ -123,3 +116,10 @@ Dengan mengikuti **contoh generator barcode c#** ini, Anda kini memiliki dasar y
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

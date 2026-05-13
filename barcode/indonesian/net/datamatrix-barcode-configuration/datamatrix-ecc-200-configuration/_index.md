@@ -91,28 +91,6 @@ Metode `Save` menulis barcode ke file PNG. Anda dapat mengubah `BarCodeImageForm
 | Pemindaian gagal pada ponsel | Level ECC salah | Pastikan `DataMatrixEcc = DataMatrixEccType.Ecc200` |
 | File tidak dibuat | String path tidak valid | Gunakan path absolut atau pastikan folder ada |
 
-## FAQ's
-
-### Q1: Apa itu Aspose.BarCode untuk .NET?
-
-A1: Aspose.BarCode untuk .NET adalah perpustakaan kuat yang memungkinkan pengembang .NET menghasilkan, menyesuaikan, dan bekerja dengan barcode dalam berbagai aplikasi.
-
-### Q2: Apakah saya memerlukan lisensi untuk Aspose.BarCode untuk .NET?
-
-A2: Ya, Anda memerlukan lisensi yang valid untuk menggunakan Aspose.BarCode untuk .NET dalam proyek Anda. Anda dapat memperoleh lisensi sementara untuk tujuan pengujian.
-
-### Q3: Bisakah saya menyesuaikan tampilan barcode yang dihasilkan dengan Aspose.BarCode?
-
-A3: Tentu saja! Anda dapat menyesuaikan tampilan barcode, ukuran, dan banyak properti lainnya sesuai kebutuhan spesifik Anda.
-
-### Q4: Jenis barcode apa saja yang didukung oleh Aspose.BarCode untuk .NET?
-
-A4: Aspose.BarCode untuk .NET mendukung berbagai jenis barcode, termasuk QR Code, DataMatrix, Code 128, dan banyak lagi.
-
-### Q5: Di mana saya dapat menemukan dokumentasi untuk Aspose.BarCode untuk .NET?
-
-A5: Anda dapat mengakses dokumentasi [di sini](https://reference.aspose.com/barcode/net/).
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya menggunakan kode ini dalam aplikasi konsol .NET Core?**  

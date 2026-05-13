@@ -91,28 +91,6 @@ gen.Save($"{path}DataMatrixEcc200.png", BarCodeImageFormat.Png);
 | Quét không thành công trên điện thoại | Mức ECC sai | Đảm bảo `DataMatrixEcc = DataMatrixEccType.Ecc200` |
 | Không tạo được file | Chuỗi đường dẫn không hợp lệ | Sử dụng đường dẫn tuyệt đối hoặc đảm bảo thư mục tồn tại |
 
-## Câu hỏi thường gặp
-
-### Q1: Aspose.BarCode cho .NET là gì?
-
-A1: Aspose.BarCode cho .NET là một thư viện mạnh mẽ cho phép các nhà phát triển .NET tạo, tùy chỉnh và làm việc với mã vạch trong nhiều ứng dụng.
-
-### Q2: Tôi có cần giấy phép cho Aspose.BarCode cho .NET không?
-
-A2: Có, bạn cần một giấy phép hợp lệ để sử dụng Aspose.BarCode cho .NET trong dự án của mình. Bạn có thể nhận giấy phép tạm thời để thử nghiệm.
-
-### Q3: Tôi có thể tùy chỉnh giao diện của mã vạch được tạo bằng Aspose.BarCode không?
-
-A3: Chắc chắn! Bạn có thể tùy chỉnh giao diện mã vạch, kích thước và nhiều thuộc tính khác để phù hợp với yêu cầu cụ thể của bạn.
-
-### Q4: Những loại mã vạch nào được Aspose.BarCode cho .NET hỗ trợ?
-
-A4: Aspose.BarCode cho .NET hỗ trợ nhiều loại mã vạch, bao gồm QR Code, DataMatrix, Code 128 và nhiều hơn nữa.
-
-### Q5: Tôi có thể tìm tài liệu cho Aspose.BarCode cho .NET ở đâu?
-
-A5: Bạn có thể truy cập tài liệu [tại đây](https://reference.aspose.com/barcode/net/).
-
 ## Các câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng đoạn mã này trong ứng dụng console .NET Core không?**  

@@ -90,28 +90,6 @@ gen.Save($"{path}DataMatrixEcc200.png", BarCodeImageFormat.Png);
 | 移动设备扫描失败 | ECC 级别错误 | 确保 `DataMatrixEcc = DataMatrixEccType.Ecc200` |
 | 文件未创建 | 路径字符串无效 | 使用绝对路径或确保文件夹已存在 |
 
-## 常见问答
-
-### Q1: 什么是 Aspose.BarCode for .NET？
-
-A1: Aspose.BarCode for .NET 是一个强大的库，允许 .NET 开发者在各种应用中生成、定制和处理条码。
-
-### Q2: 使用 Aspose.BarCode for .NET 是否需要许可证？
-
-A2: 是的，您需要有效的许可证才能在项目中使用 Aspose.BarCode for .NET。可以获取临时许可证用于测试。
-
-### Q3: 能否自定义使用 Aspose.BarCode 生成的条码外观？
-
-A3: 完全可以！您可以自定义条码的外观、尺寸以及许多其他属性，以满足具体需求。
-
-### Q4: Aspose.BarCode for .NET 支持哪些条码类型？
-
-A4: 支持广泛的条码类型，包括 QR Code、DataMatrix、Code 128 等。
-
-### Q5: 哪里可以找到 Aspose.BarCode for .NET 的文档？
-
-A5: 您可以在 [这里](https://reference.aspose.com/barcode/net/) 查看文档。
-
 ## 常见问题
 
 **Q: 可以在 .NET Core 控制台应用中使用这段代码吗？**  

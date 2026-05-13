@@ -93,28 +93,6 @@ gen.Save($"{path}DataMatrixEcc200.png", BarCodeImageFormat.Png);
 
 ## Vanliga frågor
 
-### Q1: Vad är Aspose.BarCode för .NET?
-
-A1: Aspose.BarCode för .NET är ett kraftfullt bibliotek som låter .NET‑utvecklare generera, anpassa och arbeta med streckkoder i olika applikationer.
-
-### Q2: Behöver jag en licens för Aspose.BarCode för .NET?
-
-A2: Ja, du behöver en giltig licens för att använda Aspose.BarCode för .NET i dina projekt. Du kan skaffa en tillfällig licens för teständamål.
-
-### Q3: Kan jag anpassa utseendet på streckkoder som genereras med Aspose.BarCode?
-
-A3: Absolut! Du kan anpassa streckkodens utseende, storlek och många andra egenskaper för att passa dina specifika krav.
-
-### Q4: Vilka streckkodstyper stöds av Aspose.BarCode för .NET?
-
-A4: Aspose.BarCode för .NET stöder ett brett spektrum av streckkodstyper, inklusive QR‑kod, DataMatrix, Code 128 och många fler.
-
-### Q5: Var kan jag hitta dokumentationen för Aspose.BarCode för .NET?
-
-A5: Du kan komma åt dokumentationen [här](https://reference.aspose.com/barcode/net/).
-
-## Vanliga frågor
-
 **Q: Kan jag använda den här koden i en .NET Core‑konsolapplikation?**  
 A: Ja, samma API fungerar i .NET Core, .NET 5 och .NET 6‑projekt.
 

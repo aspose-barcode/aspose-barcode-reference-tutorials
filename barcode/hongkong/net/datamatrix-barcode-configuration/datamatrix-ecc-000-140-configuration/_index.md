@@ -113,13 +113,6 @@ A5: 有的，您可於 [this link](https://releases.aspose.com/) 取得免費試
 ## 結論
 透過本 **c# 條碼產生器範例**，您已掌握產生高品質 DataMatrix ECC 000‑140 條碼的基礎。無論是優化 **條碼產生庫存管理** 流程，或是打造自訂標籤解決方案，Aspose.BarCode for .NET 都能提供所需的彈性與可靠性。請嘗試不同的資料內容、顏色與尺寸，以符合您的精確需求，並將產生器整合至更大的工作流程中，達到最高效率。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-12  
@@ -127,3 +120,10 @@ A5: 有的，您可於 [this link](https://releases.aspose.com/) 取得免費試
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
