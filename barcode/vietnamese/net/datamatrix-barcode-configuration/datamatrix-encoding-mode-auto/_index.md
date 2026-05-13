@@ -111,13 +111,6 @@ using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
 
 Bạn đã có một ví dụ hoàn chỉnh, sẵn sàng cho môi trường production, có thể **đọc DataMatrix barcode C#**, tạo mã vạch ở chế độ Auto và xác thực kết quả – tất cả đều sử dụng Aspose.BarCode cho .NET. Hãy thử nghiệm với các văn bản, kích thước và cài đặt ECI khác nhau để phù hợp với kịch bản của bạn, và tham khảo [tài liệu chính thức](https://reference.aspose.com/barcode/net/) để tùy chỉnh sâu hơn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-01-15  
@@ -125,3 +118,10 @@ Bạn đã có một ví dụ hoàn chỉnh, sẵn sàng cho môi trường prod
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

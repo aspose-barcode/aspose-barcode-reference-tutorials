@@ -110,13 +110,6 @@ using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
 
 现在你拥有了一个完整的、可用于生产的示例，能够 **读取 DataMatrix 条形码 C#**、在 Auto 模式下生成条形码并验证结果——全部基于 Aspose.BarCode for .NET。尝试不同的文本、尺寸和 ECI 设置，以满足你的特定场景，并参考官方 [文档](https://reference.aspose.com/barcode/net/) 进行更深入的定制。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-15  
@@ -124,3 +117,10 @@ using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

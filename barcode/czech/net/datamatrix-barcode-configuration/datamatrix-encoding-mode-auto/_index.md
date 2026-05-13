@@ -111,13 +111,6 @@ A: Aspose.BarCode podporuje UTF‑8, ASCII a další ECI kódování; požadovan
 
 Nyní máte kompletní, připravený příklad, který **čte DataMatrix čárový kód C#**, generuje čárový kód v režimu Auto a ověřuje výsledek – vše pomocí Aspose.BarCode pro .NET. Experimentujte s různými texty, velikostmi a nastavením ECI, aby vyhovovaly vašemu konkrétnímu scénáři, a podívejte se do oficiální [dokumentace](https://reference.aspose.com/barcode/net/) pro podrobnější přizpůsobení.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-01-15  
@@ -125,3 +118,10 @@ Nyní máte kompletní, připravený příklad, který **čte DataMatrix čárov
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

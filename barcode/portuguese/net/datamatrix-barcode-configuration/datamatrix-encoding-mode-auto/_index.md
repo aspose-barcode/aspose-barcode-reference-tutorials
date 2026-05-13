@@ -111,13 +111,6 @@ A: O Aspose.BarCode suporta UTF‑8, ASCII e outras codificações ECI; defina o
 
 Agora você tem um exemplo completo, pronto para produção, que **reads DataMatrix barcode C#**, gera o código de barras no modo Auto e verifica o resultado – tudo usando Aspose.BarCode para .NET. Experimente diferentes textos, tamanhos e configurações ECI para adequar ao seu cenário específico e consulte a documentação oficial [documentation](https://reference.aspose.com/barcode/net/) para personalizações mais avançadas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-15  
@@ -125,3 +118,10 @@ Agora você tem um exemplo completo, pronto para produção, que **reads DataMat
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

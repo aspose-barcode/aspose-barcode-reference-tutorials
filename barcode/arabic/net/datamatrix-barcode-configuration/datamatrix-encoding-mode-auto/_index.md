@@ -111,15 +111,15 @@ using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
 
 الآن لديك مثال كامل وجاهز للإنتاج ي **reads DataMatrix barcode C#**، وينشئ الباركود في وضع Auto، ويتحقق من النتيجة — كل ذلك باستخدام Aspose.BarCode لـ .NET. جرّب نصوصًا وأحجامًا وإعدادات ECI مختلفة لتناسب حالتك الخاصة، وارجع إلى [documentation](https://reference.aspose.com/barcode/net/) الرسمي لمزيد من التخصيص.
 
+---
+
+**آخر تحديث:** 2026-01-15  
+**تم الاختبار مع:** Aspose.BarCode 24.12 لـ .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-15  
-**تم الاختبار مع:** Aspose.BarCode 24.12 لـ .NET  
-**المؤلف:** Aspose

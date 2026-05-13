@@ -111,15 +111,15 @@ C: Aspose.BarCode UTF‑8, ASCII ve diğer ECI kodlamalarını destekler; istedi
 
 Artık **DataMatrix barkodunu C#** okuyan, barkodu Auto modunda oluşturan ve sonucu doğrulayan eksiksiz, üretim‑hazır bir örneğe sahipsiniz — tümü Aspose.BarCode for .NET kullanılarak. Farklı metinler, boyutlar ve ECI ayarlarıyla denemeler yapın ve daha derin özelleştirmeler için resmi [belgelere](https://reference.aspose.com/barcode/net/) bakın.
 
+---
+
+**Son Güncelleme:** 2026-01-15  
+**Test Edilen Versiyon:** Aspose.BarCode 24.12 for .NET  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-15  
-**Test Edilen Versiyon:** Aspose.BarCode 24.12 for .NET  
-**Yazar:** Aspose

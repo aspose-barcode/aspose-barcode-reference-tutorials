@@ -112,13 +112,6 @@ V: Az Aspose.BarCode támogatja a UTF‑8, ASCII és egyéb ECI kódolásokat; a
 
 Most már rendelkezik egy teljes, termelésre kész példával, amely **DataMatrix vonalkódot olvas C#-ban**, generálja a vonalkódot Auto módban, és ellenőrzi az eredményt – mindezt az Aspose.BarCode for .NET segítségével. Kísérletezzen különböző szövegekkel, méretekkel és ECI beállításokkal, hogy a saját forgatókönyvéhez igazítsa, és tekintse meg a hivatalos [dokumentációt](https://reference.aspose.com/barcode/net/) a mélyebb testreszabáshoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2026-01-15  
@@ -126,3 +119,10 @@ Most már rendelkezik egy teljes, termelésre kész példával, amely **DataMatr
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

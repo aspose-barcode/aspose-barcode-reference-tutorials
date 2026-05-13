@@ -110,13 +110,6 @@ A: Aspose.BarCode 支援 UTF‑8、ASCII 以及其他 ECI 編碼；可透過 `EC
 
 您現在擁有一個完整、可投入生產的範例，能 **reads DataMatrix barcode C#**，在 Auto 模式下產生條碼，並驗證結果——全部使用 Aspose.BarCode for .NET。可嘗試不同的文字、尺寸與 ECI 設定，以符合您的特定情境，並參考官方 [文件](https://reference.aspose.com/barcode/net/) 以進行更深入的客製化。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-15  
@@ -124,3 +117,10 @@ A: Aspose.BarCode 支援 UTF‑8、ASCII 以及其他 ECI 編碼；可透過 `EC
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

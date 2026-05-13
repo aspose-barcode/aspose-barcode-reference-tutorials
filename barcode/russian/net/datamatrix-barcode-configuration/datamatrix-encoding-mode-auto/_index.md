@@ -112,15 +112,15 @@ A: Aspose.BarCode поддерживает UTF‑8, ASCII и другие код
 
 Теперь у вас есть полноценный, готовый к продакшену пример, который **reads DataMatrix barcode C#**, генерирует штрих‑код в режиме Auto и проверяет результат — всё с помощью Aspose.BarCode для .NET. Экспериментируйте с разными текстами, размерами и настройками ECI, чтобы подобрать оптимальное решение для вашей задачи, и обратитесь к официальной [документации](https://reference.aspose.com/barcode/net/) для более глубокой кастомизации.
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.BarCode 24.12 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.BarCode 24.12 for .NET  
-**Author:** Aspose
