@@ -1,43 +1,51 @@
 ---
-title: 一维 Databar GS1 编码
-linktitle: 一维 Databar GS1 编码
+date: 2026-03-07
+description: 学习如何在 .NET 中使用 Aspose.BarCode 创建一维 DataBar GS1 编码条形码。本指南展示了如何设置 GS1、配置条形码生成器以及快速生成条形码。
+linktitle: One-Dimensional Databar GS1 Encoding
 second_title: Aspose.BarCode .NET API
-description: 学习使用 Aspose.BarCode 在 .NET 中创建 Databar GS1 编码条形码。轻松生成条形码。请遵循我们的分步指南。
-weight: 18
+title: 使用 Aspose.BarCode 创建一维 Databar GS1 编码
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 一维 Databar GS1 编码
+# 使用 Aspose.BarCode 创建一维 Databar GS1 编码
 
+在本教程中，您将使用 Aspose.BarCode .NET 库**创建符合 GS1 标准的一维 Databar** 条形码。无论您需要严格的 GS1 验证还是更灵活的条码，我们都会一步步演示——从安装库到处理编码异常——帮助您在自己的应用程序中生成可靠的条码。
 
-在本教程中，我们将引导您完成使用 Aspose.BarCode for .NET 库创建一维 Databar GS1 编码条形码的过程。无论您想要生成带 GS1 编码还是不带 GS1 编码的条形码，我们都能满足您的需求。本分步指南将帮助您了解先决条件、导入命名空间并演示每个示例，以轻松创建 Databar GS1 编码条形码。
+## 快速答案
+- **“创建一维 Databar” 是什么意思？** 指生成一种线性（1‑D）Databar 系列的条形码，常用于零售和物流。  
+- **如何设置 GS1 验证？** 在 `DataBar` 参数上将 `IsAllowOnlyGS1Encoding` 设置为 `true`。  
+- **我需要许可证吗？** 开发阶段可使用免费试用版；生产环境必须使用商业许可证。  
+- **支持哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。  
+- **在哪里下载库？** 请前往官方 Aspose 发布页面（见前置条件）。
 
-## 先决条件
+## 什么是“一维 Databar”？
+一维 Databar（亦称 RSS）是一种紧凑的线性条形码，可编码数字、日期或 AI（Application Identifier）字符串。配合 GS1 编码后，条码遵循全球通用的数据结构，特别适用于零售、医疗和供应链等场景。
 
-在我们深入研究代码之前，请确保您具备以下先决条件：
+## 为什么在 .NET 中使用 Aspose.BarCode？
+Aspose.BarCode 提供流式 API、完整的 GS1 支持，并且可以细致调节条码的每一个视觉属性。它消除了底层编码的猜测，让您专注于业务逻辑。
 
-1.  Aspose.BarCode for .NET：您应该安装Aspose.BarCode for .NET。如果您还没有，您可以从以下位置下载[这里](https://releases.aspose.com/barcode/net/).
+## 前置条件
 
-2. 您的目录路径：替换`"Your Directory Path"`在代码示例中包含要保存生成的条形码图像的实际路径。
-
-现在您已准备好必要的先决条件，让我们继续进行编码部分。
+1. **Aspose.BarCode for .NET** – 从 [here](https://releases.aspose.com/barcode/net/) 下载并安装。  
+2. **Your Directory Path** – 将示例中的 `"Your Directory Path"` 替换为您拥有写入权限的文件夹路径。
 
 ## 导入命名空间
 
-首先，您需要导入 Aspose.BarCode 的相关命名空间。在 .NET 项目的开头添加以下代码行：
+在 C# 文件顶部添加所需的 `using` 语句：
 
 ```csharp
 using Aspose.BarCode;
 using System;
 ```
 
-## 第 1 步：初始化条码生成器
+## 步骤 1：初始化条码生成器
 
-第一步是使用所需的编码类型初始化 BarcodeGenerator 对象。在本例中，我们使用 Databar Expanded 编码。 
+创建 `BarcodeGenerator` 实例并指定 Databar Expanded 符号集：
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,9 +54,9 @@ System.Console.WriteLine("OneDDatabarGS1Encoding:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "");
 ```
 
-## 步骤 2：使用 GS1 编码生成条形码
+## 步骤 2：如何设置 GS1 – 生成严格 GS1 验证的条码
 
-现在，我们将使用 GS1Encoding 检查设置代码文本并保存生成的条形码图像。 
+启用仅 GS1 编码，分配符合 GS1 标准的代码文本，并保存图像：
 
 ```csharp
 gen.CodeText = "(01)12345678901231";
@@ -56,9 +64,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = true;
 gen.Save($"{path}DatabarGS1RightEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## 第 3 步：生成可变编码条形码
+## 步骤 3：使用 Aspose 生成条码 – 可变编码（关闭 GS1 检查）
 
-在此步骤中，我们将生成一个带有可变代码文本的条形码，无需 GS1Encoding 检查。
+如果需要**不**强制执行 GS1 规则的条码，只需关闭检查：
 
 ```csharp
 gen.CodeText = "ASPOSE";
@@ -66,9 +74,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = false;
 gen.Save($"{path}DatabarGS1VariableEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## 步骤 4：处理 GS1 编码检查异常
+## 步骤 4：条码生成器 GS1 检查 – 处理异常
 
-如果您尝试在启用 GS1Encoding 检查的情况下生成具有可变代码文本的条形码，则会引发异常。以下是您可以处理的方法：
+当 `IsAllowOnlyGS1Encoding` 为 `true` 而代码文本不符合 GS1 标准时，Aspose 会抛出异常。下面的示例展示了如何捕获并记录该异常：
 
 ```csharp
 try
@@ -83,30 +91,42 @@ catch (Exception e)
 }
 ```
 
-现在您已经使用 Aspose.BarCode for .NET 成功创建了一维 Databar GS1 编码条形码。您可以根据您的具体要求进一步探索和自定义条形码生成。
+### 常见陷阱与技巧
+- **陷阱：** 在启用 GS1 检查的情况下提供非 GS1 字符串会导致条码生成中止。  
+- **专业提示：** 在将 AI 字符串赋给 `CodeText` 之前先进行验证，以避免运行时错误。  
+- **技巧：** 使用绝对路径或 `Path.Combine` 来安全地跨平台构建文件名。
 
 ## 结论
 
-在本教程中，我们介绍了使用 Aspose.BarCode for .NET 生成一维 Databar GS1 编码条形码的过程。我们讨论了先决条件，导入了必要的命名空间，并提供了创建 GS1 编码和可变编码条形码的分步指南。
+现在，您已经掌握了如何使用 Aspose.BarCode for .NET **创建一维 Databar** 条形码并进行 GS1 编码、如何切换 GS1 检查以及如何处理相关异常。欢迎通过 `Parameters.Barcode` 对象进一步探索条码大小、颜色、边距等样式选项。
 
-借助 Aspose.BarCode for .NET，条形码生成成为一项无缝任务，为您的条形码创建需求提供灵活性和控制。如果您遇到任何问题或有疑问，请随时访问[Aspose.BarCode 文档](https://reference.aspose.com/barcode/net/)或寻求帮助[Aspose.BarCode 支持论坛](https://forum.aspose.com/c/barcode/13).
+如果遇到问题，官方文档和社区论坛都是极好的资源：
 
-## 经常问的问题
+- [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+- [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13)
 
-### 1. 条码中的GS1编码是什么？
-GS1 编码是条形码中使用的标准，用于确保正确的数据结构和识别。它通常用于零售、医疗保健和物流领域的物品，以促进准确的跟踪和信息交换。
+## 常见问题
 
-### 2. 我可以自定义生成的条形码的外观吗？
-是的，您可以自定义使用 Aspose.BarCode for .NET 生成的条形码的外观。您可以控制各种参数，例如尺寸、颜色和样式。
+### 1. 什么是条码中的 GS1 编码？
+GS1 编码是一种标准化的数据结构（例如产品标识符），用于在条码内部组织信息，确保零售商、制造商和物流供应商之间的互操作性。
 
-### 3. 在哪里可以找到 Aspose.BarCode 的其他资源和文档？
-您可以在以下位置找到全面的文档和示例：[Aspose.BarCode 文档](https://reference.aspose.com/barcode/net/)。这是学习和故障排除的宝贵资源。
+### 2. 我可以自定义生成条码的外观吗？
+可以。Aspose.BarCode 允许您通过 `Parameters.Barcode` 设置调整尺寸、颜色、边距，甚至添加可读文本。
+
+### 3. 在哪里可以找到 Aspose.BarCode 的更多资源和文档？
+您可以在 [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) 查看完整的文档和示例，这是学习和排查问题的宝贵资源。
 
 ### 4. Aspose.BarCode 有试用版吗？
-是的，您可以从以下位置获取 Aspose.BarCode for .NET 的免费试用版：[这里](https://releases.aspose.com/).
+有，您可以从 [here](https://releases.aspose.com/) 获取 Aspose.BarCode for .NET 的免费试用版。
 
 ### 5. 如何购买 Aspose.BarCode for .NET 的许可证？
-要购买 Aspose.BarCode for .NET 的许可证，请访问[购买页面](https://purchase.aspose.com/buy)在 Aspose 网站上。
+请访问 Aspose 网站的 [purchase page](https://purchase.aspose.com/buy) 进行购买。
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

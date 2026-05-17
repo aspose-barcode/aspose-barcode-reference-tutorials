@@ -1,121 +1,151 @@
 ---
-title: Skapa kompletterande streckkodsdata med Aspose.BarCode för .NET
-linktitle: Kompletterande streckkodsdatakonfiguration
+date: 2026-03-07
+description: Lär dig hur du skapar EAN-13-streckkod med tilläggsdata i C# med Aspose.BarCode
+  för .NET – generera streckkod PNG snabbt.
+linktitle: Supplemental Barcode Data Configuration
 second_title: Aspose.BarCode .NET API
-description: Generera kompletterande streckkodsdata med Aspose.BarCode för .NET. Anpassa streckkoderna EAN-2 och EAN-5 utan ansträngning. Steg-för-steg-guide för .NET-utvecklare.
-weight: 10
+title: Skapa EAN-13-streckkod med tilläggsdata – Aspose.BarCode
 url: /sv/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa kompletterande streckkodsdata med Aspose.BarCode för .NET
+# Skapa EAN-13-streckkod med kompletterande data – Aspose.BarCode för .NET
 
+## Quick Answers
+- **Vad betyder “supplemental data”?** Extra siffror (EAN‑2/EAN‑5) som skrivs bredvid huvudstreckkoden, ofta använda för pris‑ eller nummer‑uppgifter.  
+- **Vilken streckkodstyp används?** EAN‑13 som huvudsymbol, med valfria EAN‑2‑ eller EAN‑5‑kompletteringar.  
+- **Kan jag exportera PNG‑bilder?** Ja – `Save`‑metoden låter dig exportera direkt till PNG.  
+- **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en kommersiell licens krävs för produktion.  
+- **Är detta kompatibelt med .NET Core / .NET 6?** Absolut – Aspose.BarCode stödjer alla moderna .NET‑miljöer.
 
-I en värld av streckkodsgenerering och anpassning framstår Aspose.BarCode för .NET som ett kraftfullt och mångsidigt verktyg. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer denna steg-för-steg-guide att leda dig genom processen att konfigurera kompletterande streckkodsdata med Aspose.BarCode för .NET. 
+## Prerequisites
 
-## Förutsättningar
+Innan vi dyker in i koden, se till att du har:
 
-Innan vi dyker in i världen av kompletterande streckkodsdata, se till att du har följande förutsättningar på plats:
+- Visual Studio (eller någon .NET‑kompatibel IDE).  
+- En kopia av Aspose.BarCode för .NET – ladda ner den **[här](https://releases.aspose.com/barcode/net/)**.  
+- Grundläggande kunskaper i C#.  
+- En skrivbar mapp där de genererade PNG‑filerna kommer att sparas.
 
-- En utvecklingsmiljö konfigurerad med Visual Studio eller något annat .NET-utvecklingsverktyg.
--  En kopia av Aspose.BarCode för .NET. Om du inte redan har gjort det kan du ladda ner den[här](https://releases.aspose.com/barcode/net/).
-- Grundläggande kunskaper i C#-programmering.
-- En katalog där du kan spara de genererade streckkodsbilderna.
+## Importing Namespaces
 
-## Importera namnområden
-
-Se först till att du har de nödvändiga namnrymden inkluderade i din C#-kod för att fungera med Aspose.BarCode för .NET. Importera de nödvändiga namnrymden i början av din C#-fil:
+Först, lägg till Aspose.BarCode‑namnutrymmet så att du kan komma åt generator‑klasserna:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Låt oss nu dela upp processen för att konfigurera kompletterande streckkodsdata i flera steg.
+> **Pro tip:** Om du använder .NET Core, lägg till NuGet‑paketet `Aspose.BarCode` i ditt projekt istället för att referera DLL‑filen manuellt.
 
-## Steg 1: Konfigurera katalogsökvägen
+## What is a Supplemental Barcode?
 
- I din C#-kod definierar du sökvägen till katalogen där du vill spara de genererade streckkodsbilderna. Byta ut`"Your Directory Path"` med din faktiska katalogsökväg.
+En kompletterande streckkod är en extra numerisk sträng som skrivs bredvid huvudstreckkoden.  
+- **EAN‑2** – tvåsiffrig komplettering, ofta använd för nummer på tidskrifter.  
+- **EAN‑5** – femsiffrig komplettering, vanligt för prisutökningar på detaljhandelsvaror.
+
+## Why Use Aspose.BarCode for Supplemental Data?
+
+- **One‑line API** – konfigurera både huvudstreckkoden och dess komplettering i ett enda objekt.  
+- **Full control over dimensions** – justera X‑dimension, avstånd för komplettering och bildformat.  
+- **Cross‑platform** – fungerar på .NET Framework, .NET Core och .NET 5/6+.  
+
+## Step‑by‑Step Guide
+
+### Step 1: Set Up the Output Directory
+
+Definiera var PNG‑filerna ska lagras. Ersätt platshållaren med en riktig sökväg på din maskin.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Steg 2: Skapa en streckkodsgenerator
+### Step 2: Initialise the Barcode Generator (Barcode Generator C#)
 
- Skapa en instans av`BarcodeGenerator` genom att ange streckkodstypen och de data du vill koda. I det här exemplet använder vi en EAN-13 streckkod med data "1234567890128".
+Skapa en `BarcodeGenerator`‑instans, ange **EAN‑13** som huvudtyp och ange den 13‑siffriga datamängden.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## Steg 3: Anpassa streckkodsmått
+### Step 3: Adjust Barcode Dimensions
 
-Ställ in måtten på streckkoden, till exempel X-dimensionen (bredden på det minsta elementet i streckkoden) och det extra utrymmet. I det här exemplet ställer vi in X-dimensionen till 2 pixlar och det kompletterande utrymmet till 20 pixlar.
+Finjustera den visuella storleken på streckkoden och utrymmet som reserveras för kompletteringen.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## Steg 4: Konfigurera EAN-2-tillägg
+### Step 4: Add an EAN‑2 Supplement
 
-För att konfigurera en EAN-2 tilläggsstreckkod, ställ in tilläggsdata till önskat värde. I det här fallet ställer vi in den på "12". 
+Ställ in den kompletterande datan till ett tvåsiffrigt värde (t.ex. “12”). Detta visas till höger om huvudstreckkoden.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## Steg 5: Spara streckkodsbilden
+### Step 5: Save the EAN‑2 Barcode as PNG
 
-Spara den genererade streckkodsbilden till din angivna katalog med ett meningsfullt namn. I det här exemplet sparar vi den kompletterande streckkoden EAN-2 som "SupplementEAN2.png".
+Exportera bilden. Argumentet `BarCodeImageFormat.Png` säkerställer en högkvalitativ PNG‑fil.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## Steg 6: Konfigurera EAN-5-tillägg
+### Step 6: Switch to an EAN‑5 Supplement
 
- För att konfigurera en EAN-5 tilläggsstreckkod, ändra helt enkelt`SupplementData` till ditt önskade värde. Här ställer vi in den på "12345".
+Ändra `SupplementData` till en femsiffrig sträng för prisutökningar.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## Steg 7: Spara streckkodsbilden (EAN-5)
-
-Slutligen, spara EAN-5 kompletterande streckkodsbild i din angivna katalog. I det här fallet sparar vi det som "SupplementEAN5.png".
+### Step 7: Save the EAN‑5 Barcode as PNG
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-Nu har du framgångsrikt konfigurerat och genererat kompletterande streckkodsdata med Aspose.BarCode för .NET. Du kan använda detta tillvägagångssätt för att skapa ett brett utbud av streckkodstyper med varierande tilläggsdata.
+> **Why this works:** Samma `BarcodeGenerator`‑instans återanvänds, så du behöver bara modifiera `SupplementData`‑egenskapen innan varje `Save`‑anrop. Detta håller koden koncis och undviker onödig objekt‑skapande.
 
-## Slutsats
+## Common Issues & Tips
 
-Aspose.BarCode för .NET är ett kraftfullt verktyg för generering och anpassning av streckkoder. I den här guiden gick vi igenom processen att konfigurera och generera kompletterande streckkodsdata steg för steg. Med rätt förutsättningar och lite kodning kan du effektivt arbeta med streckkodsdata och möta dina specifika behov.
+- **Invalid directory path** – se till att mappen finns och att applikationen har skrivbehörighet.  
+- **Incorrect supplement length** – EAN‑2 förväntar exakt 2 siffror, EAN‑5 förväntar 5; annars kastas ett undantag.  
+- **Image not visible** – verifiera att `BarCodeImageFormat.Png` används; andra format (t.ex. JPEG) kan introducera komprimeringsartefakter som påverkar skannerns läsbarhet.  
 
- För mer information och avancerad användning, se[Aspose.BarCode för .NET-dokumentation](https://reference.aspose.com/barcode/net/).
+## Frequently Asked Questions
 
-## Vanliga frågor
+### Kan jag använda Aspose.BarCode för .NET i mitt .NET Core‑projekt?
+Ja, Aspose.BarCode för .NET är fullt kompatibel med .NET Core, .NET 5 och .NET 6.
 
-### Kan jag använda Aspose.BarCode för .NET i mitt .NET Core-projekt?
-Ja, Aspose.BarCode för .NET är kompatibel med .NET Core.
-
-### Finns det en gratis testversion tillgänglig för Aspose.BarCode för .NET?
- Ja, du kan prova det gratis genom att besöka[den här länken](https://releases.aspose.com/).
+### Finns det en gratis provversion av Aspose.BarCode för .NET?
+Ja, du kan prova den kostnadsfritt genom att besöka **[den här länken](https://releases.aspose.com/)**.
 
 ### Var kan jag få en tillfällig licens för Aspose.BarCode för .NET?
- Du kan få en tillfällig licens från[den här länken](https://purchase.aspose.com/temporary-license/).
+Du kan skaffa en tillfällig licens från **[den här länken](https://purchase.aspose.com/temporary-license/)**.
 
-### Stöder Aspose.BarCode ett brett utbud av streckkodstyper?
-Ja, den stöder olika streckkodstyper, inklusive EAN-13, QR Code, Code 128 och mer.
+### Stöder Aspose.BarCode ett brett sortiment av streckkodstyper?
+Absolut – den stödjer EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417 och många fler.
 
 ### Kan jag anpassa utseendet på de genererade streckkoderna?
-Absolut, du kan anpassa dimensioner, färger och andra aspekter av streckkoderna för att uppfylla dina krav.
+Ja, du kan ändra färger, typsnitt, marginaler och till och med lägga till bakgrundsbilder via det omfattande `Parameters`‑API‑et.
+
+## Conclusion
+
+Du vet nu hur du **skapar EAN-13-streckkod** med kompletterande EAN‑2‑ eller EAN‑5‑data och **genererar streckkod‑PNG‑filer** med Aspose.BarCode för .NET. Detta tillvägagångssätt ger dig full kontroll över streckkodens dimensioner, avstånd för komplettering och utdataformat, vilket gör det idealiskt för detaljhandel, logistik och alla scenarier där extra numerisk information krävs.
+
+För djupare utforskning, kolla in den fullständiga referensguiden: **[Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)**.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
