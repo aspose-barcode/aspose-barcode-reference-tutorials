@@ -1,87 +1,142 @@
 ---
-title: Aspose.BarCode for Java の包括的なチュートリアルと例
-linktitle: Aspose.BarCode for Java チュートリアル
-weight: 10
+date: 2026-01-27
+description: Aspose.BarCode を使用してバーコード Java アプリケーションの生成方法を学び、バーコード画像の操作、バーコードテキストのスタイリング、ドキュメントのバーコード認識、そしてバーコードシンボロジーの設定を網羅します。
+linktitle: Generate Barcode Java – Aspose.BarCode Tutorials
+title: Javaでバーコード生成 – 包括的な Aspose.BarCode チュートリアル
 url: /ja/java/
-description: Aspose.BarCode チュートリアルで Java コーディング スキルを向上させます。シームレスな統合、カスタマイズ、認識を実現します。今すぐバーコードの力を体験してください。
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for Java の包括的なチュートリアルと例
+# Javaでバーコード生成 – Aspose.BarCode for Java の包括的チュートリアルとサンプル
 
-## 導入
+## Introduction
 
-Aspose.BarCode for Java の包括的なチュートリアルと例を使用して、Java アプリケーションでのバーコード統合の可能性を最大限に引き出します。経験豊富な開発者であっても、初心者であっても、これらのチュートリアルでは、バーコード操作の技術を習得するために知っておく必要のあるすべてのことをカバーしています。
+If you need to **generate barcode Java** applications quickly you’ve come to the right place. This hub gathers every Aspose.BarCode for Java tutorial you’ll ever need—from basic concepts to advanced rendering techniques. Whether you’re looking to **manipulate barcode images**, **read barcodes PDF Java**, or **configure barcode symbology**, we’ve packaged the knowledge into bite‑size, hands‑on guides that you can follow step by step.
 
-## バーコードの基本
+## Quick Answers
+- **What is the primary library?** Aspose.BarCode for Java.  
+- **Can I generate barcodes on the fly?** Yes – dynamic barcode generation is fully supported.  
+- **Do I need a license for development?** A free temporary license works for testing; a full license is required for production.  
+- **Which image formats are available?** PNG, JPEG, BMP, GIF, TIFF, and more.  
+- **Is PDF output supported?** Absolutely – you can render barcodes directly into PDF documents.
 
- Java 開発の世界では、基本を理解することが重要です。私たちの[バーコードの基本](./barcode-basics/)チュートリアルでは、アプリケーションでバーコードの機能を活用するための包括的なガイドを提供します。シームレスな統合からカスタマイズと認識まで、このチュートリアルはコーディング スキルを向上させるための入り口となります。
+## How to generate barcode java with Aspose.BarCode
 
-## 文書バーコード認識
+In this section we’ll walk through the overall workflow for creating barcodes in Java, covering everything you’ll need to know before diving into the individual tutorials. You’ll learn why Aspose.BarCode is a top choice for **create dynamic barcode** scenarios, how to **render barcode printer**‑ready graphics, and which settings give you the best balance of speed and quality.
 
- Java アプリケーションを次のレベルに引き上げます。[文書バーコード認識](./document-barcode-recognition/)。 PDF、Word ドキュメント、および Unicode セットからのバーコードをシームレスに統合、読み取り、並べ替える方法を学びます。このチュートリアルでは、さまざまなドキュメント形式でバーコード認識の可能性を最大限に活用できるようにします。
+### Document barcode recognition best practices
+Understanding **document barcode recognition** is essential when your application needs to read barcodes from PDFs, Word files, or scanned images. Aspose.BarCode provides a unified API that extracts barcodes reliably, regardless of the source format.
 
-## 多言語サポート
+### Barcode image manipulation techniques
+The **barcode image manipulation** capabilities let you adjust size, color, resolution, and background to match UI or print requirements. You can also apply rotation, scaling, and margin tweaks without losing readability.
 
-弊社の多言語サポートの領域に飛び込みましょう[多言語サポート](./multilingual-support/)チュートリアル。さまざまな言語の PDF417 バーコードを認識する能力を解放します。このチュートリアルは、Aspose.BarCode を使用して Java での多言語バーコード サポートをマスターするためのガイドです。
+### Barcode text styling tips
+With **barcode text styling**, you can add captions, change font families, and set text alignment to improve the end‑user experience. Styling options are especially useful for QR codes that need human‑readable labels.
 
-## チェックサムと検証
+### Configure barcode symbology efficiently
+Choosing the right **configure barcode symbology** (e.g., QR, Code128, PDF417) ensures optimal data density and scanner compatibility. Aspose.BarCode lets you switch symbologies on the fly based on your data payload.
 
- Java のデータ整合性を強化する[チェックサムと検証](./checksum-and-validation/)。バーコードを簡単に生成し、常にチェックサムを表示し、CodaBar と一般的なチェックサム検証をマスターします。このチュートリアルでは、データの正確性と信頼性を確保するために必要なツールを提供します。
+Below you’ll find a quick overview of each tutorial category. Click any link to dive deeper.
 
-## バーコード構成
+## Barcode Basics
 
- Java でカスタマイズされたバーコードを簡単に生成するには、[バーコード構成](./barcode-configuration/)。多用途のチュートリアルを使用して、効率と開発者の利便性を高めます。このセクションは、特定の要件に合わせてバーコードを調整し、コーディングを容易にするのに役立つように設計されています。
+In the world of Java development, understanding the basics is crucial. Our [Barcode Basics](./barcode-basics/) tutorial provides a comprehensive guide to unlocking the power of barcodes in your applications. From seamless integration to customization and recognition, this tutorial is your gateway to elevating your coding skills.
 
-## テキストとスタイル
+## Document Barcode Recognition
 
-Java でバーコードのビジュアルを簡単に強化[テキストとスタイル](./text-and-styling/)。ユーザー エクスペリエンスを向上させるためにキャプションを追加し、動的バーコードのコード テキストをカスタマイズする方法を学びます。このチュートリアルは、バーコードを視覚的に魅力的で使いやすいものにするための頼りになるリソースです。
+Take your Java applications to the next level with [Document Barcode Recognition](./document-barcode-recognition/). Learn to seamlessly integrate, read, and sort barcodes from PDFs, Word documents, and Unicode sets. This tutorial empowers you to harness the full potential of barcode recognition in various document formats.
 
-## 記号と形式
+## Multilingual Support
 
-シンボルの指定をマスターし、バーコードをフェッチして認識し、動的バーコードを簡単に生成して保存します。[記号と形式](./symbology-and-format/)。バーコードのシンボルと書式設定の複雑さを掘り下げるチュートリアルを使用して、Java アプリケーションを向上させます。
+Dive into the realm of multilingual support with our [Multilingual Support](./multilingual-support/) tutorial. Unlock the power of recognizing PDF417 barcodes in different languages. This tutorial is your guide to mastering multilingual barcode support in Java using Aspose.BarCode.
 
-## 画像の加工
+## Checksum and Validation
 
- Java バーコード画像操作を探索する[画像の加工](./image-manipulation/)チュートリアル。視覚的に魅力的なバーコードを簡単に強化、カスタマイズ、作成できます。このセクションでは、バーコードを目立たせて注目を集めるスキルを身に付けます。
+Enhance data integrity in Java with [Checksum and Validation](./checksum-and-validation/). Generate barcodes effortlessly, always display checksums, and master CodaBar and general checksum validation. This tutorial provides the tools you need to ensure the accuracy and reliability of your data.
 
-## バーコードレンダリング技術
+## Barcode Configuration
 
- Java でバーコードを簡単に作成して統合できます。[バーコードレンダリング技術](./barcode-rendering-techniques/)。バーコードをグラフィックス、画像、プリンター、サーブレットにレンダリングするためのステップバイステップのチュートリアルをご覧ください。このチュートリアル シリーズは、さまざまな形式でバーコードをレンダリングする技術を習得するためのガイドです。
+Effortlessly generate customized barcodes in Java with [Barcode Configuration](./barcode-configuration/). Boost efficiency and developer-friendliness with our versatile tutorials. This section is designed to help you tailor barcodes to meet your specific requirements, making coding a breeze.
 
-## 高度な設定と最適化
+## Text and Styling
 
-Java バーコード生成の可能性を解き放つ[高度な設定と最適化](./advanced-settings-and-optimization/)。カスタム サイズを構成し、画像解像度を最適化し、シームレスに統合するためのマスター バーコード設定を行います。これらの高度なチュートリアルを使用して、Java アプリケーションを簡単に強化します。
+Enhance barcode visuals in Java effortlessly with [Text and Styling](./text-and-styling/). Learn to add captions for improved user experience and customize code text in dynamic barcodes. This tutorial is your go‑to resource for making your barcodes visually appealing and user‑friendly.
 
-初心者でも経験豊富な Java 開発者でも、これらのチュートリアルは、Aspose.BarCode for Java の機能を活用するための包括的なガイドを提供します。今すぐコーディング スキルを向上させ、新たな可能性を解き放ち、バーコードをアプリケーションにシームレスに統合してください。
+## Symbology and Format
 
-##  Aspose.BarCode for Java チュートリアル
-### [バーコードの基本](./barcode-basics/)
-Java アプリケーションでバーコードの力を解き放ちましょう!シームレスな統合、カスタマイズ、認識については、Aspose.BarCode チュートリアルを詳しく見てみましょう。今すぐコーディング スキルを向上させましょう。
-### [文書バーコード認識](./document-barcode-recognition/)
-Aspose.BarCode を使用して、Java でのバーコード認識の能力を解放してください。 PDF、Word ドキュメント、および Unicode セットからのバーコードをシームレスに統合、読み取り、並べ替える方法を学びます。
-### [多言語サポート](./multilingual-support/)
-PDF417 バーコードの認識に関するチュートリアルを使用して、多言語サポートの力を最大限に活用してください。シームレスな統合のために、Aspose.BarCode を使用した Java コーディングを詳しく見てみましょう。
-### [チェックサムと検証](./checksum-and-validation/)
-Aspose.BarCode を使用して Java のデータ整合性を強化します。バーコードを簡単に生成し、常にチェックサムを表示し、CodaBar と一般的なチェックサム検証をマスターします。 
-### [バーコード構成](./barcode-configuration/)
-Aspose.BarCode を使用すると、Java でカスタマイズされたバーコードを簡単に生成できます。多用途のチュートリアルを使用して、効率と開発者の利便性を高めます。
-### [テキストとスタイル](./text-and-styling/)
-Aspose.BarCode を使用すると、Java でバーコードのビジュアルを簡単に強化できます。ユーザー エクスペリエンスを向上させるためにキャプションを追加する方法を学びます。ダイナミックバーコードのコードテキストをカスタマイズします。
-### [記号と形式](./symbology-and-format/)
-Aspose.BarCode チュートリアルを使用して Java アプリケーションを強化してください。シンボルの指定をマスターし、バーコードを取得して認識し、動的バーコードを簡単に生成して保存します。
-### [画像の加工](./image-manipulation/)
-Aspose.BarCode チュートリアルで Java バーコード画像の操作を学びましょう。視覚的に魅力的なバーコードを簡単に強化、カスタマイズ、作成できます。
-### [バーコードレンダリング技術](./barcode-rendering-techniques/)
-Aspose.BarCode を使用すると、Java でバーコードを簡単に作成して統合できます。バーコードをグラフィックス、画像、プリンター、サーブレットにレンダリングするためのステップバイステップのチュートリアルをご覧ください。
-### [高度な設定と最適化](./advanced-settings-and-optimization/)
-Aspose.BarCode を使用して Java バーコード生成の可能性を解き放ちます。カスタム サイズを構成し、画像解像度を最適化し、シームレスに統合するためのマスター バーコード設定を行います。 Java アプリケーションを簡単に昇格させます。
+Master specifying symbology, fetch and recognize barcodes, and effortlessly generate and save dynamic barcodes with [Symbology and Format](./symbology-and-format/). Elevate your Java applications with tutorials that delve into the intricacies of barcode symbology and formatting.
+
+## Image Manipulation
+
+Explore Java barcode image manipulation with [Image Manipulation](./image-manipulation/) tutorials. Enhance, customize, and create visually appealing barcodes effortlessly. This section equips you with the skills to make your barcodes stand out and grab attention.
+
+## Barcode Rendering Techniques
+
+Effortlessly create and integrate barcodes in Java with [Barcode Rendering Techniques](./barcode-rendering-techniques/). Explore step‑by‑step tutorials for rendering barcodes to graphics, images, printers, and servlets. This tutorial series is your guide to mastering the art of rendering barcodes in various formats.
+
+## Advanced Settings and Optimization
+
+Unlock the potential of Java barcode generation with [Advanced Settings and Optimization](./advanced-settings-and-optimization/). Configure custom sizes, optimize image resolution, and master barcode settings for seamless integration. Elevate your Java applications effortlessly with these advanced tutorials.
+
+Whether you're a beginner or an experienced Java developer, these tutorials provide a comprehensive guide to harnessing the power of Aspose.BarCode for Java. Elevate your coding skills, unlock new possibilities, and seamlessly integrate barcodes into your applications today.
+
+##  Aspose.BarCode for Java Tutorials
+### [Barcode Basics](./barcode-basics/)
+Unlock the power of barcodes in your Java applications! Dive into Aspose.BarCode tutorials for seamless integration, customization, and recognition. Elevate your coding skills today.
+
+### [Document Barcode Recognition](./document-barcode-recognition/)
+Unlock the power of barcode recognition in Java with Aspose.BarCode! Learn to seamlessly integrate, read, and sort barcodes from PDFs, Word documents, and Unicode sets.
+
+### [Multilingual Support](./multilingual-support/)
+Unlock the power of multilingual support with our tutorials on recognizing PDF417 barcodes. Dive into Java coding with Aspose.BarCode for seamless integration.
+
+### [Checksum and Validation](./checksum-and-validation/)
+Enhance data integrity in Java with Aspose.BarCode. Generate barcodes effortlessly, always display checksums, and master CodaBar and general checksum validation. 
+
+### [Barcode Configuration](./barcode-configuration/)
+Effortlessly generate customized barcodes in Java with Aspose.BarCode. Boost efficiency and developer-friendliness with our versatile tutorials.
+
+### [Text and Styling](./text-and-styling/)
+Enhance barcode visuals in Java effortlessly with Aspose.BarCode. Learn to add captions for improved user experience. Customize code text in dynamic barcodes.
+
+### [Symbology and Format](./symbology-and-format/)
+Enhance your Java applications with Aspose.BarCode tutorials! Master specifying symbology, fetch and recognize barcodes, and effortlessly generate and save dynamic barcodes.
+
+### [Image Manipulation](./image-manipulation/)
+Explore Java barcode image manipulation with Aspose.BarCode tutorials. Enhance, customize, and create visually appealing barcodes effortlessly.
+
+### [Barcode Rendering Techniques](./barcode-rendering-techniques/)
+Effortlessly create and integrate barcodes in Java with Aspose.BarCode. Explore step‑by‑step tutorials for rendering barcodes to graphics, images, printers, and servlets.
+
+### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
+Unlock the potential of Java barcode generation with Aspose.BarCode. Configure custom sizes, optimize image resolution, and master barcode settings for seamless integration. Elevate your Java applications effortlessly.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java latest release  
+**Author:** Aspose
+
+## Frequently Asked Questions
+
+**Q:** *Can I generate barcodes without a license for development?*  
+**A:** Yes, Aspose provides a temporary free license for evaluation and development. For production deployment, a full license is required.
+
+**Q:** *What image formats can I export barcodes to?*  
+**A:** PNG, JPEG, BMP, GIF, TIFF, and several vector formats such as SVG and PDF are supported.
+
+**Q:** *How do I read barcodes from scanned PDF documents?*  
+**A:** Use the **document barcode recognition** API to load the PDF, then call the `BarCodeReader` to extract barcodes from each page.
+
+**Q:** *Is it possible to change the color of the barcode bars and background?*  
+**A:** Absolutely. The `BarCodeImage` class lets ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​ ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​ ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​  ​

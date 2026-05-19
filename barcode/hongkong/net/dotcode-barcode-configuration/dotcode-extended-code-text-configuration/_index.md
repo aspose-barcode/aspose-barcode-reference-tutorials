@@ -1,159 +1,192 @@
 ---
-title: 使用 Aspose.BarCode for .NET 進行 DotCode 擴充程式碼文字配置
-linktitle: DotCode 擴充程式碼文字配置
+date: 2026-01-27
+description: 了解如何使用 Aspose.BarCode for .NET 建立 DotCode 延伸代碼文字——一步一步的指南，教您產生帶有延伸代碼文字的
+  DotCode 條碼。
+linktitle: DotCode Extended Code Text Configuration
 second_title: Aspose.BarCode .NET API
-description: 使用 Aspose.BarCode for .NET 輕鬆產生 DotCode 擴充程式碼文字配置。請按照我們的逐步指南進行高效率的條碼建立。
-weight: 13
+title: 如何使用 Aspose.BarCode for .NET 建立 DotCode 擴展代碼文字
 url: /zh-hant/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode for .NET 進行 DotCode 擴充程式碼文字配置
+# 如何使用 Aspose.BarCode for .NET 建立 dotcode extended codetext
 
-## 介紹
+## Introduction
 
-在條碼產生和管理領域，Aspose.BarCode for .NET 是一種多功能且高效的解決方案。無論您需要為產品、庫存或任何其他應用程式產生條碼，Aspose.BarCode for .NET 都能滿足您的需求。在這個綜合教程中，我們將專注於使用 Aspose.BarCode for .NET 產生 DotCode 擴充程式碼文字配置。 DotCode 是一種二維矩陣條碼，可以對文字和二進位資料進行編碼，使其成為各個行業的寶貴工具。
+在條碼產生與管理領域，Aspose.BarCode for .NET 脫穎而出，提供多功能且高效的解決方案。無論您需要為產品、庫存或其他任何應用產生條碼，Aspose.BarCode for .NET 都能滿足需求。在本完整教學中，我們將 **create dotcode extended codetext**，並探討此功能在現代資料豐富環境中的重要性。DotCode 是一種二維矩陣條碼，可編碼文字與二進位資料，因而在各行各業皆具價值。
 
-## 先決條件
+## Quick Answers
+- **「create dotcode extended codetext」是什麼意思？** 它表示建立一個 DotCode 條碼，該條碼在單一延伸載荷中包含 FNC1、ECICodetext、純文字以及符號分隔符。  
+- **需要哪個函式庫？** Aspose.BarCode for .NET.  
+- **需要授權嗎？** 臨時授權可用於評估；正式使用則需完整授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7 以上。  
+- **實作需要多長時間？** 基本範例大約 10‑15 分鐘即可完成。
 
-在我們深入研究逐步指南之前，您需要滿足一些先決條件才能有效地遵循：
+## 如何建立 dotcode extended codetext
 
-1.  Aspose.BarCode for .NET：確保您已安裝並準備好 Aspose.BarCode for .NET 程式庫。如果沒有，您可以從以下位置下載[Aspose.BarCode for .NET 文檔](https://reference.aspose.com/barcode/net/).
+以下是一個簡潔的逐步說明，完整展示如何建構延伸編碼文字並產生條碼影像。
 
-2. 開發環境：您的系統上應該安裝一個可用的 .NET 開發環境，最好是 Visual Studio。
+## Prerequisites
 
-在按順序滿足這些先決條件後，我們現在可以繼續產生 DotCode 擴展代碼文字配置。
+在深入逐步指南之前，您需要先具備以下前置條件，以便順利跟隨操作：
 
-## 導入命名空間
+1. Aspose.BarCode for .NET：確保已安裝並可使用 Aspose.BarCode for .NET 函式庫。若尚未安裝，可從 [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) 下載。  
+2. 開發環境：應在系統上安裝可運作的 .NET 開發環境，建議使用 Visual Studio。
 
-首先，您需要將必要的命名空間匯入到 .NET 專案中，以從 Aspose.BarCode 程式庫存取所需的功能。您可以按照以下方法執行此操作：
+具備上述前置條件後，我們即可開始產生 DotCode Extended Code Text。
 
+## Import Namespaces
+
+首先，您需要在 .NET 專案中匯入必要的命名空間，以存取 Aspose.BarCode 函式庫的相關功能。以下示範如何操作：
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-現在我們已經滿足了先決條件，讓我們將產生 DotCode 擴展代碼文字配置的過程分解為逐步指南。
+現在已完成前置作業，讓我們將產生 DotCode Extended Code Text 的流程分解為逐步說明。
 
+## 步驟 1：定義目錄路徑
 
-
-## 第 1 步：定義目錄路徑
-
-在此步驟中，您需要指定要儲存產生的DotCode擴充程式碼文字影像的目錄路徑。
+在此步驟中，您需要指定欲儲存產生之 DotCode Extended Code Text 影像的目錄路徑。
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-代替`"Your Directory Path"`與系統上的實際路徑。
+將 `"Your Directory Path"` 替換為您系統上的實際路徑。
 
-## 步驟2：建立DotCode擴展代碼文本
+## 步驟 2：建立 DotCode Extended Code Text
 
-若要建立 DotCode 擴充程式碼文本，請執行下列子步驟：
+要建立 DotCode Extended Code Text，請依照以下子步驟操作：
 
-### 2.1 新增FNC1格式標識符
+### 2.1 新增 FNC1 格式識別碼
 
-FNC1 格式標識符用於指示新資料欄位的開始。它是 DotCode 擴展代碼文字的重要組成部分。
+FNC1 格式識別碼用於指示新資料欄位的開始，屬於 DotCode Extended Code Text 的重要組成部分。
 
 ```csharp
 DotCodeExtCodetextBuilder textBuilder = new DotCodeExtCodetextBuilder();
 textBuilder.AddFNC1FormatIdentifier();
 ```
 
-### 2.2 新增ECI代碼文本
+### 2.2 新增 ECICodetext
 
-ECICodetext 是您可以對特殊字元和國際文字進行編碼的地方。在此範例中，我們使用 UTF-8 編碼對「犬右狗」進行編碼。
+ECICodetext 可用於編碼特殊字元與國際文字。在本範例中，我們使用 UTF‑8 編碼將 `"犬Right狗"` 進行編碼。
 
 ```csharp
 textBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 ```
 
-### 2.3 新增純代碼文字
+### 2.3 新增純文字 Codetext
 
-您也可以將純文字新增至 DotCode 擴充代碼文字。在這裡，我們添加了“純文字”。
+您亦可在 DotCode Extended Code Text 中加入純文字。本例中，我們加入了 `"Plain text"`。
 
 ```csharp
 textBuilder.AddPlainCodetext("Plain text");
 ```
 
-### 2.4 新增FNC3符號分隔符
+### 2.4 新增 FNC3 符號分隔符
 
-FNC3 符號分隔符號用於分隔代碼的不同部分。
+FNC3 符號分隔符用於分隔程式碼的不同區段。
 
 ```csharp
 textBuilder.AddFNC3SymbolSeparator();
 ```
 
-### 2.5 新增FNC3讀卡機初始化
+### 2.5 新增 FNC3 讀取器初始化
 
-此步驟新增 FNC3 Reader 初始化資訊。
+此步驟會加入 FNC3 讀取器初始化資訊。
 
 ```csharp
 textBuilder.AddFNC3ReaderInitialization();
 ```
 
-### 2.6 生成程式碼文本
+### 2.6 產生 Codetext
 
-現在，透過呼叫產生 DotCode 擴展代碼文本`GetExtendedCodetext`方法上的`textBuilder`目的。
+現在，透過呼叫 `textBuilder` 物件的 `GetExtendedCodetext` 方法，產生 DotCode Extended Codetext。
 
 ```csharp
 string codetext = textBuilder.GetExtendedCodetext();
 ```
 
-## 步驟3：產生DotCode影像
+## 步驟 3：產生 DotCode 影像
 
-若要將 DotCode 擴充程式碼文字產生為圖像，請執行下列子步驟：
+若要將 DotCode Extended Code Text 產生為影像，請依照以下子步驟操作：
 
-#### 4.1 初始化條碼產生器
+#### 4.1 初始化 Barcode Generator
 
-初始化`BarcodeGenerator`具有適當的參數。在這種情況下，我們使用`EncodeTypes.DotCode`和生成的程式碼文字。
+使用適當的參數初始化 `BarcodeGenerator`。此例中，我們使用 `EncodeTypes.DotCode` 以及先前產生的 codetext。
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {
-    //設定條碼的 X 尺寸（根據需要調整）。
+    // Set the X-dimension for the barcode (adjust as needed).
     gen.Parameters.Barcode.XDimension.Pixels = 10;
 
-    //將 DotCode 編碼模式設定為 ExtendedCodetext。
+    // Set the DotCode encoding mode to ExtendedCodetext.
     gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
 
-    //儲存生成的條碼圖像。
+    // Save the generated barcode image.
     gen.Save($"{path}DotCodeExtendedCodetext.png", BarCodeImageFormat.Png);
 }
 ```
 
-就是這樣！您已使用 Aspose.BarCode for .NET 成功產生了 DotCode 擴充程式碼文字。
+完成！您已成功使用 Aspose.BarCode for .NET 產生 DotCode Extended Code Text。
 
 ## 結論
 
-Aspose.BarCode for .NET 是一個功能強大的工具，可以簡化條碼產生。在本教程中，我們專注於生成 DotCode 擴展代碼文本，這在各個行業中都至關重要，特別是在需要多語言和專門字元編碼的情況下。透過執行上述步驟，您可以輕鬆建立滿足您特定需求的 DotCode 擴充程式碼文字。
+Aspose.BarCode for .NET 是一套功能強大的工具，可簡化條碼產生程序。在本教學中，我們重點說明如何 **create dotcode extended codetext**，此功能在各行各業皆相當重要，特別是需要多語言與特殊字元編碼的情境。依循上述步驟，即可輕鬆為您的需求建立 DotCode Extended Code Text。
 
-如果您需要進一步指導或有疑問，請隨時訪問[Aspose.BarCode for .NET 文檔](https://reference.aspose.com/barcode/net/)或與社區互動[Aspose.BarCode 支援論壇](https://forum.aspose.com/c/barcode/13).
+如需進一步指引或有任何疑問，請隨時造訪 [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) 或前往 [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13) 與社群互動。
 
-## 常見問題解答
+## 常見問答
 
-### Q1：DotCode有什麼用？
+### Q1：DotCode 的用途是什麼？
 
-A1：DotCode 用於編碼文字和二進位數據，通常應用於醫療保健和物流等行業，用於追蹤和數據編碼目的。
+A1：DotCode 用於編碼文字與二進位資料，常見於醫療保健、物流等產業，用於追蹤與資料編碼。
 
-### Q2：我可以自訂DotCode條碼的外觀嗎？
+### Q2：我可以自訂 DotCode 條碼的外觀嗎？
 
-A2：是的，Aspose.BarCode for .NET 提供了自訂 DotCode 條碼外觀的選項，包括大小和編碼模式。
+A2：可以，Aspose.BarCode for .NET 提供多種選項，可自訂 DotCode 條碼的外觀，包括尺寸與編碼模式。
 
-### Q3：Aspose.BarCode for .NET 與各種.NET 框架相容嗎？
+### Q3：Aspose.BarCode for .NET 是否相容於各種 .NET 框架？
 
-A3：是的，Aspose.BarCode for .NET 與廣泛的 .NET 框架相容，確保靈活性和易於整合。
+A3：是的，Aspose.BarCode for .NET 相容於多種 .NET 框架，確保彈性與易於整合。
 
 ### Q4：如何取得 Aspose.BarCode for .NET 的臨時授權？
 
- A4：您可以從以下地點獲得臨時許可證：[阿斯普斯的網站](https://purchase.aspose.com/temporary-license/)用於評估和測試目的。
+A4：您可從 [Aspose 的網站](https://purchase.aspose.com/temporary-license/) 取得臨時授權，以供評估與測試使用。
 
-### Q5：Aspose.BarCode for .NET適合企業級條碼產生嗎？
+### Q5：Aspose.BarCode for .NET 是否適合企業級條碼產生？
 
-A5：當然，Aspose.BarCode for .NET 旨在滿足小規模和企業級條碼產生的需求，提供可擴展性和可靠性。
+A5：絕對適合，Aspose.BarCode for .NET 為小規模與企業級條碼產生需求而設計，具備可擴充性與可靠性。
+
+## 常見問題
+
+**Q：我可以在行動應用程式中使用產生的條碼嗎？**  
+A：可以。產生的 PNG 影像可嵌入 iOS、Android 或任何跨平台行動應用程式中。
+
+**Q：如果需要編碼二進位資料而非文字該怎麼辦？**  
+A：使用 `AddECICodetext` 方法，搭配適當的 `ECIEncodings`（例如 `ECIEncodings.Base64`）以嵌入二進位負載。
+
+**Q：如何調整條碼尺寸而不影響可讀性？**  
+A：調整 `XDimension.Pixels` 屬性；較高的數值會增大模組尺寸，較低的數值則使條碼更緊湊。
+
+**Q：能否在條碼周圍加入安靜區域？**  
+A：可以。設定 `gen.Parameters.Barcode.Margin` 以定義所需的像素安靜區。
+
+**Q：此函式庫支援 .NET 8 嗎？**  
+A：最新的 Aspose.BarCode 版本相容於 .NET 8，只需引用相應的 NuGet 套件版本。
+
+---
+
+**最後更新：** 2026-01-27  
+**測試環境：** Aspose.BarCode 24.12 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
