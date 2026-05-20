@@ -1,11 +1,11 @@
 ---
-date: 2025-12-17
-description: Naučte se generovat čárový kód v Javě pomocí Aspose.BarCode, zahrnující
-  dynamické generování čárových kódů, vytváření EAN‑13 čárových kódů a ukládání obrázků
-  čárových kódů s doplňkovými daty.
+date: 2026-02-17
+description: Naučte se, jak generovat čárový kód v Javě pomocí Aspose.BarCode, s příkladem
+  generátoru čárových kódů v Javě, dynamickým generováním čárových kódů v Javě a vytvářením
+  čárových kódů EAN‑13 s doplňkovými daty.
 linktitle: Supplementing Data
 second_title: Aspose.BarCode Java API
-title: Jak vygenerovat čárový kód s doplňkovými údaji v Javě
+title: Jak v Javě generovat čárový kód s doplňkovými daty
 url: /cs/java/barcode-configuration/supplementing-data/
 weight: 16
 ---
@@ -14,52 +14,57 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak generovat čárový kód s doplňkovými údaji v Javě
+# Jak generovat čárový kód v Javě s doplňkovými údaji
 
 ## Úvod
 
-V dnešním rychle se vyvíjejícím digitálním ekosystému je otázka, jak **generovat čárový kód** efektivně, otázkou, kterou čelí mnoho vývojářů Java. Aspose.BarCode pro Java nabízí výkonné, snadno použitelné API, které podporuje **dynamic barcode generation**, včetně vytváření **EAN‑13 barcodes** s doplňkovými údaji. Ať už vytváříte systémy inventarizace, maloobchodní POS aplikace nebo logistické sledovače, tento tutoriál vás provede **java barcode generator example**, který uloží obrázek čárového kódu na disk a umožní vám přizpůsobit část doplňku.
+V dnešním rychle se rozvíjejícím digitálním ekosystému se mnoho vývojářů Java ptá, **jak generovat čárový kód v Javě** efektivně. Aspose.BarCode for Java nabízí výkonné, snadno použitelné API, které podporuje **generování dynamických čárových kódů**, včetně vytváření **EAN‑13 čárových kódů** s doplňkovými údaji. Ať už vytváříte systémy inventarizace, maloobchodní POS aplikace nebo logistické sledovače, tento tutoriál vás provede **příkladem generátoru čárových kódů v Javě**, který uloží obrázek čárového kódu na disk a umožní vám přizpůsobit část doplňku.
+
+## Proč je to důležité
+
+Přidání doplňkových údajů k EAN‑13 čárovému kódu je běžnou požadavkem pro časopisy, periodika a maloobchodní produkty, které potřebují další informace (např. číslo vydání). Ovládnutím **generování dynamických čárových kódů java** můžete:
+
+- Vytvářet vysoce rozlišené čárové kódy za běhu, čímž eliminujete potřebu předgenerovaných obrazových souborů.  
+- Udržet celý pracovní postup plně automatizovaný, což je nezbytné pro zpracování objednávek a ticketingu v reálném čase.  
+- Mít úplnou kontrolu nad vzhledem, rozestupy a formátem souboru – vše přímo z Java kódu.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je nejlepší pro generování čárových kódů v Javě?** Aspose.BarCode for Java.
-- **Která symbologie vytváří 13‑ciferný číselný čárový kód?** EAN‑13.
-- **Mohu přidat doplňkové údaje k EAN‑13 čárovému kódu?** Ano, pomocí API `Supplement`.
-- **Jak uložit vygenerovaný čárový kód jako obrázek?** Zavolejte `generator.save("path/filename.jpg")`.
-- **Je pro produkční použití vyžadována licence?** Ano, je potřeba komerční licence; je k dispozici bezplatná zkušební verze.
+- **Jaká knihovna je nejlepší pro generování čárových kódů v Javě?** Aspose.BarCode for Java.  
+- **Která symbologie vytváří 13‑ciferný číselný čárový kód?** EAN‑13.  
+- **Mohu přidat doplňková data k EAN‑13 čárovému kódu?** Ano, pomocí API `Supplement`.  
+- **Jak uložit vygenerovaný čárový kód jako obrázek?** Zavolejte `generator.save("path/filename.jpg")`.  
+- **Je pro produkční použití vyžadována licence?** Ano, je potřeba komerční licence; k dispozici je bezplatná zkušební verze.
 
-## Co je generování čárových kódů v Javě?
+## Co je generování čárového kódu v Javě?
 
-Generování čárových kódů znamená převod dat—číslic, písmen nebo jejich kombinace—na vizuální vzor, který skenery mohou číst. S Aspose.BarCode můžete během běhu vytvářet **high‑resolution barcode images**, což je ideální pro scénáře **dynamic barcode generation**, jako je real‑time ticketing nebo plnění objednávek.
+Generování čárového kódu znamená převod surových dat – čísel, písmen nebo jejich kombinace – na vizuální vzor, který dokáží skenery přečíst. S Aspose.BarCode můžete vytvářet **vysoce rozlišené obrázky čárových kódů** za běhu, což je ideální pro scénáře **generování dynamických čárových kódů java**, jako je například ticketing v reálném čase nebo plnění objednávek.
 
-## Proč použít Aspose.BarCode pro dynamické generování čárových kódů?
+## Jak generovat EAN‑13 čárový kód s doplňkovými údaji
 
-- **Plná kontrola** nad symbologií, velikostí, barvami a doplňkovými údaji.  
-- **Žádné externí závislosti** – čistá Java, funguje na jakékoli platformě.  
-- **Vestavěná podpora** pro desítky typů čárových kódů, včetně **create ean13 barcode**.  
-- **Jednoduché API**, které vám umožní **save barcode image** jedním řádkem kódu.
+Níže je **příklad generátoru čárových kódů java**, který vytvoří EAN‑13 čárový kód, připojí 5‑ciferný doplněk a uloží výsledek jako obrázek.
 
-## Předpoklady
+## Požadavky
 
-Předtím, než začnete, ujistěte se, že máte:
+Než začnete, ujistěte se, že máte:
 
-- **Java Development Kit (JDK)** – jakákoli recentní verze (8 nebo novější).  
+- **Java Development Kit (JDK)** – libovolná aktuální verze (8 nebo novější).  
 - **IDE** – IntelliJ IDEA, Eclipse nebo váš oblíbený editor.  
-- **Aspose.BarCode for Java** – stáhněte knihovnu z oficiálního webu **[here](https://releases.aspose.com/barcode/java/)** a přidejte JAR do classpath vašeho projektu.
+- **Aspose.BarCode for Java** – stáhněte knihovnu z oficiální stránky **[here](https://releases.aspose.com/barcode/java/)** a přidejte JAR do classpath vašeho projektu.
 
 ## Import balíčků
 
-Jakmile je knihovna odkazována, importujte hlavní třídu, která řídí vytváření čárových kódů.
+Jakmile je knihovna zahrnuta, importujte hlavní třídu, která řídí vytváření čárových kódů.
 
 ```java
 // Import Aspose.BarCode for Java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Postupný průvodce
+## Průvodce krok za krokem
 
 ### Krok 1: Definujte adresář dokumentu
 
-Nastavte složku, kde bude uložen vygenerovaný obrázek.
+Nastavte složku, kde bude vygenerovaný obrázek uložen.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,7 +72,7 @@ String dataDir = "Your Document Directory";
 
 ### Krok 2: Vytvořte instanci Barcode Generator
 
-Instancujte `BarcodeGenerator` s požadovaným **codetext** a **symbology**. Zde **create ean13 barcode** pomocí číselného řetězce "123456789123".
+Instancujte `BarcodeGenerator` s požadovaným **codetext** a **symbology**. Zde **vytvoříme ean13 barcode** pomocí číselného řetězce `"123456789123"`.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "123456789123");
@@ -91,45 +96,63 @@ generator.getParameters().getBarcode().getSupplement().getSupplementSpace().setP
 
 ### Krok 5: Uložte obrázek čárového kódu
 
-Nakonec zapište obrázek na disk. Formát je odvozen z přípony souboru (v tomto příkladu JPEG).
+Nakonec zapište obrázek na disk. Formát je odvozen od přípony souboru (v tomto příkladu JPEG).
 
 ```java
 generator.save(dataDir + "supplementData.jpg");
 ```
 
-> **Tip:** Můžete změnit příponu souboru na `.png` nebo `.bmp`, abyste získali jiný formát obrázku bez dalšího kódu.
+> **Pro tip:** Můžete změnit příponu souboru na `.png` nebo `.bmp` a získat tak jiný formát obrázku bez dalšího kódu.
 
-## Časté problémy a řešení
+## Běžné případy použití pro dynamické generování čárových kódů v Javě
+
+- **Maloobchodní inventář:** Generujte čárové kódy produktů na vyžádání, když jsou přidány nové SKU.  
+- **Vydavatelství:** Připojte čísla vydání jako doplňková data k čárovým kódům periodik.  
+- **Logistika:** Vytvářejte přepravní štítky s čárovými kódy generovanými za běhu, které zahrnují čísla šarže nebo lotu.  
+
+## Běžné problémy a řešení
 
 | Problém | Příčina | Řešení |
 |-------|-------|----------|
-| **Image not saved** | `dataDir` ukazuje na neexistující složku | Ujistěte se, že adresář existuje nebo jej vytvořte programově (`new File(dataDir).mkdirs();`). |
-| **Invalid supplement length** | Doplňky EAN‑13 musí mít 2 nebo 5 číslic | Zadejte přesně 2 nebo 5 znaků; jinak je vyvolána výjimka. |
-| **Unsupported characters** | V codetextu EAN‑13 jsou nečíselné znaky | Používejte pouze číslice 0‑9 pro EAN‑13; pro alfanumerické použij jinou symbologii. |
+| **Obrázek nebyl uložen** | `dataDir` ukazuje na neexistující složku | Ujistěte se, že adresář existuje, nebo jej vytvořte programově (`new File(dataDir).mkdirs();`). |
+| **Neplatná délka doplňku** | Doplňky pro EAN‑13 musí mít 2 nebo 5 číslic | Zadejte přesně 2 nebo 5 znaků; jinak bude vyvolána výjimka. |
+| **Neplatné znaky** | V EAN‑13 codetextu jsou nečíselné znaky | Používejte pouze číslice 0‑9 pro EAN‑13; pro alfanumerické údaje přejděte na jinou symbologii. |
 
 ## Často kladené otázky
 
 ### Je Aspose.BarCode kompatibilní se všemi verzemi Javy?
+Aspose.BarCode for Java je navržena tak, aby byla kompatibilní s širokým rozsahem verzí Javy. Podrobnosti najdete v **[documentation](https://reference.aspose.com/barcode/java/)**.
 
-Aspose.BarCode pro Java je navržen tak, aby byl kompatibilní s širokou škálou verzí Javy. Podívejte se na **[documentation](https://reference.aspose.com/barcode/java/)** pro konkrétní podrobnosti.
-
-### Mohu přizpůsobit vzhled vygenerovaných čárových kódů?
-
-Ano, Aspose.BarCode poskytuje různé parametry a nastavení pro přizpůsobení vzhledu čárových kódů. Prozkoumejte dokumentaci pro podrobné informace.
+### Mohu přizpůsobit vzhled generovaných čárových kódů?
+Ano, Aspose.BarCode poskytuje různé parametry a nastavení pro úpravu vzhledu čárových kódů. Prozkoumejte dokumentaci pro podrobné informace.
 
 ### Je k dispozici zkušební verze?
-
-Ano, můžete získat bezplatnou zkušební verzi **[here](https://releases.aspose.com/)**.
+Ano, bezplatnou zkušební verzi můžete získat **[here](https://releases.aspose.com/)**.
 
 ### Jak mohu získat podporu pro Aspose.BarCode?
-
 Navštivte **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** a získejte pomoc od komunity a odborníků.
 
 ### Kde mohu zakoupit Aspose.BarCode pro Java?
-
 Aspose.BarCode pro Java můžete zakoupit **[here](https://purchase.aspose.com/buy)**.
 
-**Poslední aktualizace:** 2025-12-17  
+## Další FAQ (AI‑přátelský formát)
+
+**Q:** Jaký je nejjednodušší způsob, jak začít **příklad generátoru čárových kódů java**?  
+**A:** Přidejte Aspose.BarCode JAR do svého projektu, importujte `BarcodeGenerator` a postupujte podle výše uvedeného průvodce krok za krokem.
+
+**Q:** Mohu generovat více čárových kódů ve smyčce pro dávkové zpracování?  
+**A:** Rozhodně. Vytvořte novou instanci `BarcodeGenerator` uvnitř smyčky, nastavte jedinečný `codetext` v každé iteraci a zavolejte `save()` s odlišným názvem souboru.
+
+**Q:** Podporuje API jiné formáty obrázků, jako PNG nebo SVG?  
+**A:** Ano. Výstupní formát je odvozen od přípony souboru, kterou zadáte (např. `.png`, `.svg`). Není potřeba žádný další kód.
+
+**Q:** Jak zvládnout velké objemy bez nadměrné spotřeby paměti?  
+**A:** Vygenerujte a okamžitě uložte každý čárový kód, poté zrušte instanci generátoru před dalším průchodem. Tím udržíte nízkou spotřebu paměti.
+
+**Q:** Existuje způsob, jak vložit čárový kód přímo do PDF?  
+**A:** Můžete získat čárový kód jako `byte[]` pomocí `generator.generateBarCodeImage()` a následně jej vložit do PDF pomocí Aspose.PDF nebo jakékoli jiné PDF knihovny.
+
+**Poslední aktualizace:** 2026-02-17  
 **Testováno s:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
