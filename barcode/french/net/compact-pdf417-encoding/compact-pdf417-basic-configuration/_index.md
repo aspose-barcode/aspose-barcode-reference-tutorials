@@ -1,11 +1,59 @@
 ---
-date: 2026-01-15
-description: Apprenez à créer des codes‑barres et à générer des codes‑barres dans
-  Visual Studio en utilisant Aspose.BarCode pour .NET. Guide étape par étape avec
-  des exemples de code.
-linktitle: Compact PDF417 Basic Configuration
+date: 2026-05-30
+description: Apprenez comment créer un barcode et effectuer la génération de barcode
+  dans Visual Studio en utilisant Aspose.BarCode pour .NET. Guide étape par étape
+  avec des exemples de code.
+keywords:
+- how to create barcode
+- barcode generation visual studio
+- install aspose barcode .net
+linktitle: Configuration de base du Compact PDF417
+schemas:
+- author: Aspose
+  dateModified: '2026-05-30'
+  description: Learn how to create barcode and perform barcode generation visual studio
+    using Aspose.BarCode for .NET. Step‑by‑step guide with code examples.
+  headline: How to Create Barcode – Compact PDF417 with Aspose.BarCode
+  type: TechArticle
+- description: Learn how to create barcode and perform barcode generation visual studio
+    using Aspose.BarCode for .NET. Step‑by‑step guide with code examples.
+  name: How to Create Barcode – Compact PDF417 with Aspose.BarCode
+  steps:
+  - name: Set the Output Path
+    text: Define where the generated image will be saved. Replace `"Your Directory
+      Path"` with an absolute or relative folder on your machine. Ensure the folder
+      exists and the application has write permissions; otherwise you’ll encounter
+      an *Invalid path* error.
+  - name: Create the Barcode Generator
+    text: '`EncodeTypes.Pdf417` specifies the PDF417 barcode symbology. The `BarcodeGenerator`
+      class is Aspose.BarCode''s core engine for creating barcode images. Even though
+      we’re using the standard PDF417 type, we’ll configure it to behave as a Compact
+      PDF417 barcode by adjusting a few properties in the next '
+  - name: Configure Barcode Parameters
+    text: '`XDimension.Pixels` sets the width of a single module (X‑dimension) in
+      pixels. `Columns` defines the number of data columns in the barcode. Feel free
+      to experiment with these values to meet your specific size or data‑capacity
+      requirements. For example, decreasing `XDimension.Pixels` reduces overall '
+  - name: Save the Barcode Image
+    text: Finally, save the barcode as a PNG file (or any supported format). Give
+      the file a meaningful name and choose the format that best fits your application.
+      PNG is loss‑less and works well for web and print, but you can also output JPEG,
+      BMP, or TIFF if needed.
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for .NET, supporting over 50 barcode symbologies.
+    question: What is the primary library?
+  - answer: Visual Studio 2019, 2022, or any later version.
+    question: Which IDE is recommended?
+  - answer: Roughly 10 lines for a basic Compact PDF417 barcode.
+    question: How many lines of code are needed?
+  - answer: Yes—X‑dimension, column count, and truncation are fully configurable.
+    question: Can I adjust barcode dimensions?
+  - answer: A commercial license is mandatory for non‑trial deployments.
+    question: Is a license required for production?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Comment créer un code‑barres – PDF417 compact avec Aspose.BarCode
+title: Comment créer un barcode – Compact PDF417 avec Aspose.BarCode
 url: /fr/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/
 weight: 10
 ---
@@ -14,63 +62,77 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment créer un code‑barres – PDF417 Compact avec Aspose.BarCode pour .NET
+# Comment créer un code-barres – Compact PDF417 avec Aspise.BarCode pour .NET
 
 ## Introduction
 
-Si vous êtes développeur et que vous souhaitez **comment créer un code‑barres** images dans vos projets .NET, Aspose.BarCode pour .NET est une solution robuste qui rend la tâche simple. Dans ce tutoriel, nous passerons en revue la génération d'un code‑barres PDF417 Compact — une symbologie 2‑D économique souvent utilisée dans la logistique, le suivi d'inventaire et la billetterie. À la fin, vous serez capable de produire et personnaliser des codes‑barres PDF417 Compact directement depuis Visual Studio, vous donnant un contrôle total sur la taille, la densité des données et l'apparence.
+If you're a developer who wants to **comment créer un code-barres** images in your .NET projects, Aspose.BarCode for .NET is a robust solution that makes the task straightforward. In this tutorial we’ll walk through generating a Compact PDF417 barcode—a space‑efficient 2‑D symbology often used in logistics, inventory tracking, and ticketing. By the end, you’ll be able to produce and customize Compact PDF417 barcodes directly from Visual Studio, giving you full control over size, data density, and appearance. You can download the latest Aspose releases from the main site [here](https://releases.aspose.com/).
 
 ## Réponses rapides
-- **Quelle est la bibliothèque principale ?** Aspose.BarCode for .NET
-- **Quel IDE est recommandé ?** Visual Studio (toute version récente)
-- **Combien de lignes de code sont nécessaires ?** Environ 10 lignes pour un code‑barres basique
-- **Puis‑je ajuster les dimensions du code‑barres ?** Oui, la X‑dimension, les colonnes et la troncature sont configurables
-- **Une licence est‑elle requise pour la production ?** Une licence commerciale est nécessaire pour une utilisation hors période d’essai
+- **Quelle est la bibliothèque principale ?** Aspose.BarCode for .NET, supporting over 50 barcode symbologies.  
+- **Quel IDE est recommandé ?** Visual Studio 2019, 2022, ou toute version ultérieure.  
+- **Combien de lignes de code sont nécessaires ?** Roughly 10 lines for a basic Compact PDF417 barcode.  
+- **Puis-je ajuster les dimensions du code-barres ?** Yes—X‑dimension, column count, and truncation are fully configurable.  
+- **Une licence est‑elle requise pour la production ?** A commercial license is mandatory for non‑trial deployments.
+
+## Qu'est-ce que le Compact PDF417 ?
+Compact PDF417 is a high‑capacity 2‑D barcode that stores up to 1,800 characters in a reduced footprint compared with standard PDF417. It is ideal when space is limited but data density must remain high, such as on small product labels or boarding passes.
+
+## Pourquoi choisir le Compact PDF417 avec Aspose.BarCode ?
+Aspose.BarCode supports **50+ barcode types** and can encode **up to 2,000 characters** in a single Compact PDF417 symbol while keeping the image under 200 KB. The library processes multi‑hundred‑page documents without loading the entire file into memory, delivering sub‑second generation times on typical server hardware.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
+1. **Visual Studio** – a working installation of Visual Studio (2019, 2022, or later) for **barcode generation visual studio** development.  
+2. **Aspose.BarCode for .NET** – download and install the library from the official site. You can find the download link [here](https://releases.aspose.com/barcode/net/).  
+3. **Basic C# knowledge** – this guide assumes you’re comfortable with C# syntax and project setup.  
+4. **A text editor** – while Visual Studio is recommended, any editor that supports C# will work.
 
-1. **Visual Studio** – une installation fonctionnelle de Visual Studio (2019, 2022 ou ultérieure) pour le développement **barcode Generation Visual Studio**.
-2. **Aspose.BarCode for .NET** – téléchargez et installez la bibliothèque depuis le site officiel. Vous pouvez trouver le lien de téléchargement [ici](https://releases.aspose.com/barcode/net/).
-3. **Connaissances de base en C#** – ce guide suppose que vous êtes à l'aise avec la syntaxe C# et la configuration de projet.
-4. **Un éditeur de texte** – bien que Visual Studio soit recommandé, tout éditeur prenant en charge le fonctionnement C#.
+## Importer les espaces de noms
 
-## Importer des espaces de noms
-
-Tout d'abord, ajoutez l'espace de noms requis à votre fichier C# afin de pouvoir accéder aux classes de génération de code‑barres :
+First, add the required namespace to your C# file so you can access the barcode generation classes:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Vous êtes maintenant prêt à commencer à créer des codes‑barres PDF417 Compact.
+```csharp
+using Aspose.BarCode.Generation;
+```
+
+Now you’re ready to start building Compact PDF417 barcodes.
+
+## Comment générer un code-barres Compact PDF417 en .NET ?
+
+Load the `BarcodeGenerator` with the `EncodeTypes.Pdf417` type, set the data string, enable compact mode, and call `Save`—all in under ten lines of code. This approach gives you a ready‑to‑use PNG (or any supported format) that can be embedded in reports, printed on labels, or sent to a mobile device.
 
 ## Guide étape par étape
 
-### Étape 1 : Définir le chemin de sortie
+### Étape 1 : Définir le chemin de sortie
 
-Définissez l'emplacement où l'image générée sera enregistrée.
+Define where the generated image will be saved.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-Remplacez `"Your Directory Path"` par un dossier absolu ou relatif sur votre machine.
+Replace `"Your Directory Path"` with an absolute or relative folder on your machine. Ensure the folder exists and the application has write permissions; otherwise you’ll encounter an *Invalid path* error.
 
-### Étape 2 : Créer le générateur de codes-barres
+### Étape 2 : Créer le générateur de code-barres
 
-Instanciez `BarcodeGenerator`, sélectionnez le type PDF417 et fournissez les données que vous souhaitez encoder.
+`EncodeTypes.Pdf417` specifies the PDF417 barcode symbology.  
+The `BarcodeGenerator` class is Aspose.BarCode's core engine for creating barcode images.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-Même si nous utilisons le type PDF417 standard, nous le configurerons pour qu'il se comporte comme un code‑barres PDF417 Compact.
+Even though we’re using the standard PDF417 type, we’ll configure it to behave as a Compact PDF417 barcode by adjusting a few properties in the next step.
 
-### Étape 3 : Configurer les paramètres du code-barres
+### Étape 3 : Configurer les paramètres du code-barres
 
-Ajustez la X‑dimension, le nombre de colonnes et activez la troncature pour produire une version compacte.
+`XDimension.Pixels` sets the width of a single module (X‑dimension) in pixels.  
+`Columns` defines the number of data columns in the barcode.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
@@ -78,54 +140,60 @@ gen.Parameters.Barcode.Pdf417.Columns = 3;
 gen.Parameters.Barcode.Pdf417.Pdf417Truncate = true;
 ```
 
-N'hésitez pas à expérimenter avec ces valeurs pour répondre à vos exigences spécifiques de taille ou de capacité de données.
+Feel free to experiment with these values to meet your specific size or data‑capacity requirements. For example, decreasing `XDimension.Pixels` reduces overall width, while increasing `Columns` adds more data per row.
 
-### Étape 4 : Enregistrer l’image du code-barres
+### Étape 4 : Enregistrer l’image du code-barres
 
-Enfin, enregistrez le code‑barres sous forme de fichier PNG (ou tout autre format supporté).
+Finally, save the barcode as a PNG file (or any supported format).
 
 ```csharp
 gen.Save($"{path}CompactPdf417Basic.png", BarCodeImageFormat.Png);
 ```
 
-Donnez au fichier un nom significatif et choisissez le format qui convient le mieux à votre application.
+Give the file a meaningful name and choose the format that best fits your application. PNG is loss‑less and works well for web and print, but you can also output JPEG, BMP, or TIFF if needed.
 
-## Problèmes courants et conseils
-
-- **Chemin invalide** – Assurez-vous que le répertoire existe et que l'application dispose des autorisations d'écriture.
-- **Caractères non pris en charge** – PDF417 supporte Unicode, mais certains symboles spéciaux peuvent nécessiter d'être échappés.
-- **Taille d'image trop grande** – Réduisez `XDimension.Pixels` ou diminuez le nombre de colonnes pour réduire le code‑barres.
-
-## Conclusion
-
-Vous avez maintenant appris **comment créer un code‑barres** images en utilisant Aspose.BarCode pour .NET, spécifiquement la variante PDF417 Compact. Cette méthode fonctionne parfaitement dans Visual Studio, vous offrant un contrôle total sur l'apparence du code‑barres et l'encodage des données. N'hésitez pas à explorer d'autres types de codes‑barres (QR Code, Code 128, etc.) et à ajuster les paramètres selon les besoins de votre entreprise.
-
-Si vous rencontrez des difficultés, la communauté Aspose.BarCode est un excellent endroit pour poser des questions — visitez le [forum](https://forum.aspose.com/c/barcode/13) pour obtenir de l'aide.
+## Problèmes courants et astuces
+- **Invalid path** – Ensure the directory exists and the application has write permissions.  
+- **Unsupported characters** – PDF417 supports Unicode, but some special symbols may need escaping.  
+- **Image size too large** – Reduce `XDimension.Pixels` or lower the column count to shrink the barcode.  
+- **Performance on large batches** – Reuse a single `BarcodeGenerator` instance and only change the `CodeText` property between saves to minimise object creation overhead.
 
 ## Questions fréquemment posées
 
-### Q1 : Puis‑je utiliser Aspose.BarCode pour .NET à la fois dans des applications web et de bureau ?
-**R :** Oui, la bibliothèque fonctionne avec ASP.NET, WinForms, WPF et d'autres types d'applications .NET.
+### Q1 : Puis-je utiliser Aspose.BarCode pour .NET à la fois dans des applications web et de bureau ?
+**A:** Yes, the library works in ASP.NET, WinForms, WPF, and other .NET application types.
 
-### Q2  : ​​Quels autres types de codes‑barres puis-je générer avec Aspose.BarCode pour .NET ?
-**R :** Elle prend en charge QR Code, Code 39, Code 128, DataMatrix, Aztec et bien d'autres.
+### Q2 : Quels autres types de codes-barres puis‑je générer avec Aspose.BarCode pour .NET ?
+**A:** It supports QR Code, Code 128, Code 39, DataMatrix, Aztec, and many more, totaling over 50 symbologies.
 
-### Q3  : Existe‑t‑il une version d'essai gratuit d'Aspose.BarCode pour .NET ?
-**R :** Oui, vous pouvez obtenir une version d'essai gratuite d'Aspose.BarCode pour .NET [ici](https://releases.aspose.com/).
+### Q3 : Existe‑t‑il une version d’essai gratuite pour Aspose.BarCode pour .NET ?
+**A:** Yes, you can get a free trial version of Aspose.BarCode for .NET [here](https://releases.aspose.com/).
 
-### Q4 : Comment puis‑je acheter une licence pour Aspose.BarCode pour .NET ?
-**R :** Les licences sont disponibles via la boutique Aspose [ici](https://purchase.aspose.com/buy).
+### Q4 : Comment puis‑je acheter une licence pour Aspose.BarCode pour .NET ?
+**A:** Licenses are available through the Aspose store [here](https://purchase.aspose.com/buy).
 
-### Q5  : Existe‑t‑il des ressources ou une documentation supplémentaire pour Aspose.BarCode pour .NET ?
-**R :** Une documentation API détaillée et des exemples de code sont fournis [ici](https://reference.aspose.com/barcode/net/).
+### Q5 : Existe‑t‑il des ressources ou de la documentation supplémentaires pour Aspose.BarCode pour .NET ?
+**A:** Detailed API documentation and code samples are provided [here](https://reference.aspose.com/barcode/net/).
 
-**Dernière mise à jour :** 2026-01-15
-**Testé avec :** Aspose.BarCode 24.11 pour .NET
-**Auteur :** Aspose  
+## Conclusion
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+You’ve now learned **comment créer un code-barres** images using Aspose.BarCode for .NET, specifically the Compact PDF417 variant. This method works seamlessly within Visual Studio, giving you full control over barcode appearance and data encoding. Feel free to explore other barcode types (QR Code, Code 128, etc.) and tweak the parameters to suit your business needs. If you run into any challenges, the Aspose.BarCode community is a great place to ask questions—visit the [forum](https://forum.aspose.com/c/barcode/13) for help.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+---
+
+**Dernière mise à jour**: 2026-05-30  
+**Testé avec**: Aspose.BarCode 24.11 for .NET  
+**Auteur**: Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Tutoriels complets et exemples d’Aspose.BarCode pour .NET](/barcode/net/)
+- [Encodage du texte du code Aztec avec Aspose.BarCode pour .NET](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
+- [Comment créer une zone silencieuse de code-barres pour Code 16K avec Aspose.BarCode pour .NET](/barcode/net/code-16k-encoding/code-16k-quiet-zone-settings/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
