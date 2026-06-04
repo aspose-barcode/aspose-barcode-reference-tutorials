@@ -1,9 +1,9 @@
 ---
-date: 2025-12-04
-description: Aspose.BarCode for Java を使用した高性能バーコードリーダーで、高性能モードの設定方法とバーコードを高速に読み取る方法を学びましょう。
+date: 2026-02-04
+description: Aspose.BarCode for Java を使用し、高性能モードで Java のバーコードを迅速に読み取る方法を学びましょう。
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
-title: 高性能バーコードリーダー：Java と Aspose.BarCode によるバーコード認識の高速画像処理
+title: 'Read Barcode Java: 高速画像処理向け高性能バーコードリーダー'
 url: /ja/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
@@ -12,33 +12,38 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 高性能バーコードリーダー：Aspose.BarCode for Java によるバーコード認識の高速画像処理
+# Read Barcode Java: 高速画像処理のための高性能バーコードリーダー
 
-最新の Java アプリケーションでは、**高性能バーコードリーダー**機能がリアルタイムスキャンの要求に応えるために不可欠です。**バーコードの読み取り方法**を迅速かつ確実に行いたいとき、Aspose.BarCode for Java は精度を損なうことなく画像処理を高速化するツールを提供します。本ガイドでは、高性能モードの有効化手順、品質設定の微調整、そして高速なバーコード認識を実現する方法を順を追って解説します。
+In modern Java applications, **read barcode java** quickly and reliably is a must‑have capability, especially when you’re dealing with high‑throughput scanning stations or batch processing large image sets. Aspose.BarCode for Java provides a **high performance barcode reader** that lets you enable high performance mode, fine‑tune quality settings, and keep recognition accuracy at its peak. In this guide we’ll walk through the exact steps to configure the reader, explain why the performance boost matters, and show you how to troubleshoot common detection issues.
 
 ## Quick Answers
-- **「高性能バーコードリーダー」とは何ですか？** 画像処理アルゴリズムを最適化し、スキャン速度を最大化する構成です。  
-- **例で使用されているバーコードシンボロジーは何ですか？** DataMatrix（2 次元バーコードの一種）。  
-- **高性能モードはどうやって有効にしますか？** `reader.setQualitySettings(QualitySettings.getHighPerformance())` を呼び出します。  
-- **本番環境でライセンスは必要ですか？** はい、トライアル以外の使用には商用ライセンスが必要です。  
-- **サポートされている Java バージョンは？** Java 8 以降が完全にサポートされています。
+- **What does “high performance barcode reader” mean?**  
+  It’s a configuration that maximizes scanning speed by optimizing image‑processing algorithms.  
+- **Which barcode symbology is used in the example?**  
+  DataMatrix (a type of 2‑D barcode).  
+- **How do I enable high‑performance mode?**  
+  Call `reader.setQualitySettings(QualitySettings.getHighPerformance())`.  
+- **Do I need a license for production?**  
+  Yes, a commercial license is required for non‑trial use.  
+- **What Java version is supported?**  
+  Java 8 or higher is fully supported.
 
-## 高性能バーコードリーダーとは？
-**高性能バーコードリーダー**は、Aspose.BarCode エンジンを特別にチューニングしたインスタンスで、処理オーバーヘッドを削減し、積極的な画像前処理を適用し、デコードループを高速化します。これは、高スループットのスキャンステーション、モバイルアプリ、または大量画像のバッチ処理といったシナリオに最適です。
+## What is a High Performance Barcode Reader?
+A **high performance barcode reader** is a specially tuned instance of the Aspose.BarCode engine that reduces processing overhead, applies aggressive image‑pre‑processing, and speeds up the decode loop. This is ideal for scenarios such as high‑throughput scanning stations, mobile apps, or batch processing of large image sets.
 
-## Aspose.BarCode の高性能モードを使用する理由
-- **速度:** デフォルト設定と比較してデコードが 2〜3 倍高速。  
-- **スケーラビリティ:** 低スペックのハードウェアでも 1 分間に数千枚の画像を処理可能。  
-- **精度:** 中央値平滑化などの最適化を自動的に適用し、高い認識率を維持。  
-- **柔軟性:** 個別の品質設定をカスタマイズして、特定のユースケースに合わせられます。
+## Why Use Aspose.BarCode’s High‑Performance Mode?
+- **Speed:** Up to 2‑3× faster decoding compared with default settings.  
+- **Scalability:** Handles thousands of images per minute on modest hardware.  
+- **Accuracy:** Maintains high recognition rates by automatically applying median smoothing and other optimizations.  
+- **Flexibility:** You can still customize individual quality settings for specific use‑cases.
 
-## 前提条件
-- **Java 開発環境:** JDK 8 以上、好みの IDE（IntelliJ、Eclipse など）。  
-- **Aspose.BarCode for Java:** 最新の JAR を [Aspose.BarCode ダウンロードページ](https://releases.aspose.com/barcode/java/) から取得してください。  
+## Prerequisites
+- **Java Development Environment:** JDK 8 or newer, IDE of your choice (IntelliJ, Eclipse, etc.).  
+- **Aspose.BarCode for Java:** Download the latest JAR from the [Aspose.BarCode download page](https://releases.aspose.com/barcode/java/).  
 
-## 名前空間のインポート
+## Import Namespaces
 
-開始する前に、必要なクラスをインポートします。
+Before you start, import the classes you’ll need:
 
 ```java
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
@@ -46,45 +51,42 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.QualitySettings;
 ```
 
-## 手順 1: リソースディレクトリの設定
+## Step‑by‑Step Guide to Read Barcode Java with High Performance
 
-サンプル画像が格納されているフォルダーを定義します。
+### Step 1: Set the Resource Directory
+Define the folder that contains your sample images.
 
 ```java
 // The path to the resource directory.
 String dataDir = Utils.getDataDir(FasterImageProcessingForBarcodeRecognition.class) + "BarcodeReader/advanced_features/";
 ```
 
-## 手順 2: バーコードを含む画像の選択
-
-リーダーにデコードさせたい画像を指定します。この例では DataMatrix 画像を使用します。
+### Step 2: Choose the Image Containing the Barcode
+Point the reader to the image you want to decode. In this example we use a DataMatrix image.
 
 ```java
 // Read code39 barcode from image
 String imageFilePath = dataDir + "datamatrix.bmp";
 ```
 
-## 手順 3: BarCodeReader インスタンスの作成
-
-画像パスと期待するシンボロジーを指定して `BarCodeReader` をインスタンス化します。
+### Step 3: Create a BarCodeReader Instance
+Instantiate `BarCodeReader` with the image path and the specific symbology you expect.
 
 ```java
 // Create an instance of BarCodeReader and set image and symbology type to recognize
 BarCodeReader reader = new BarCodeReader(imageFilePath, DecodeType.DATA_MATRIX);
 ```
 
-## 手順 4: 高性能モードの設定
-
-組み込みの高性能構成を有効にします。これが **高性能バーコードリーダー** 設定の核心です。
+### Step 4: Enable High Performance Mode
+This single call switches the engine into the optimized configuration.
 
 ```java
 // Set high performance mode
 reader.setQualitySettings(QualitySettings.getHighPerformance());
 ```
 
-## 手順 5: 個別オプションの微調整（任意）
-
-画像特性に合わせて個別の品質設定を調整できます。ノイズが多い画像では中央値平滑化を有効にすると効果的です。
+### Step 5: Fine‑Tune Separate Options (Optional)
+You can still adjust individual quality settings to suit your image characteristics. Enabling median smoothing often improves results on noisy images.
 
 ```java
 // Set separate options
@@ -92,9 +94,8 @@ reader.getQualitySettings().setAllowMedianSmoothing(true);
 reader.getQualitySettings().setMedianSmoothingWindowSize(4);
 ```
 
-## 手順 6: 画像からバーコードを認識
-
-リーダーを実行し、デコード結果を出力します。これが **バーコードの読み取り方法** の最終ステップです。
+### Step 6: Recognize the Barcode from the Image
+Run the reader and output the decoded information. This completes the **read barcode java** process.
 
 ```java
 // Try to recognize the barcode from the image
@@ -104,35 +105,41 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-これらの手順に従うことで、画像を高速かつ確実に処理できる **高性能バーコードリーダー** が手に入ります。
+By following these steps you now have a **high performance barcode reader** that can process images quickly and reliably.
 
-## よくある問題と解決策
-- **バーコードが検出されない:** 画像パスが正しいか、バーコードが 45° 以上回転していないか確認してください。`MedianSmoothingWindowSize` を増やすことも検討してください。  
-- **高性能モードでも遅い:** 最新の Aspose.BarCode JAR を使用しているか確認してください。古いバージョンにはパフォーマンス改善が含まれていない場合があります。  
-- **サポートされていないシンボロジー:** `DecodeType` が画像内のバーコードと一致しているか確認してください。
+## Common Use Cases
+- **Retail checkout systems** where thousands of items are scanned per hour.  
+- **Warehouse inventory apps** running on Android devices that need instant feedback.  
+- **Batch processing pipelines** that decode barcodes from scanned documents or PDFs.
 
-## FAQ
+## Common Issues and Solutions
+- **No barcode detected:** Verify that the image path is correct and that the barcode is not rotated beyond 45°. Consider increasing the `MedianSmoothingWindowSize`.  
+- **Slow performance despite high‑performance mode:** Ensure you are using the latest Aspose.BarCode JAR; older versions may lack performance improvements.  
+- **Unsupported symbology:** Check that the `DecodeType` you pass matches the barcode in the image.  
+- **License‑related errors:** If you see a licensing exception, make sure a valid commercial license is applied—this is part of **barcode reader licensing** best practices.
 
-**Q: Aspose.BarCode はさまざまなバーコードシンボロジーに対応していますか？**  
-A: はい、Code128、QR Code、DataMatrix など、1‑D と 2‑D の多数のシンボロジーをサポートしています。
+## Frequently Asked Questions
 
-**Q: Aspose.BarCode をバーコード生成と認識の両方に使用できますか？**  
-A: もちろんです。ライブラリは Java アプリケーション向けに、バーコードの作成と読み取りのフル機能 API を提供します。
+**Q: Is Aspose.BarCode compatible with different barcode symbologies?**  
+A: Yes, it supports a wide range of 1‑D and 2‑D symbologies, including Code128, QR Code, DataMatrix, and many more.
 
-**Q: Aspose.BarCode のライセンス形態はありますか？**  
-A: はい、さまざまなライセンスプランを [Aspose.BarCode 購入ページ](https://purchase.aspose.com/buy) でご確認いただけます。
+**Q: Can I use Aspose.BarCode for both barcode generation and recognition?**  
+A: Absolutely. The library provides full‑featured APIs for creating and reading barcodes in Java applications.
 
-**Q: Aspose.BarCode for Java の無料トライアル版はありますか？**  
-A: はい、完全機能のトライアル版は [Aspose リリースページ](https://releases.aspose.com/) からダウンロードできます。
+**Q: Are there licensing options available for Aspose.BarCode?**  
+A: Yes, you can explore various licensing plans on the [Aspose.BarCode purchase page](https://purchase.aspose.com/buy).
 
-**Q: サポートやコミュニティへの参加方法は？**  
-A: 公式の [Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13) でヘルプ、サンプル、コミュニティディスカッションをご利用ください。
+**Q: Is there a free trial version of Aspose.BarCode for Java?**  
+A: Yes, a fully functional trial can be downloaded from the [Aspose releases page](https://releases.aspose.com/).
+
+**Q: How can I get support or join the community?**  
+A: Visit the official [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for help, examples, and community discussions.
 
 ---
 
-**最終更新日:** 2025-12-04  
-**テスト環境:** Aspose.BarCode 24.12 for Java  
-**作成者:** Aspose  
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.BarCode 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

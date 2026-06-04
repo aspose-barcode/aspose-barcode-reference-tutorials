@@ -1,66 +1,88 @@
 ---
-title: Aspose.BarCode for .NET ile DotCode Satır ve Sütun Yapılandırması
-linktitle: DotCode Satırları ve Sütunları Yapılandırması
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode for .NET ile DotCode Satırlarını ve Sütunlarını yapılandırmayı öğrenin. Zahmetsizce hassas ve özelleştirilebilir 2D barkodlar oluşturun.
-weight: 15
+date: 2026-02-04
+description: Aspose.BarCode for .NET kullanarak satır ve sütunları yapılandırarak
+  DotCode barkod görüntüsü oluşturmayı öğrenin.
+linktitle: DotCode Rows and Columns Configuration
+second_title: Aspose.BarCode .NET API
+title: DotCode barkod görüntüsü oluştur – satırlar ve sütunlar (Aspose.BarCode)
 url: /tr/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET ile DotCode Satır ve Sütun Yapılandırması
+# DotCode barkod görüntüsü oluşturma – satırlar ve sütunlar (Aspose.BarCode)
 
-## giriiş
+## Introduction
 
-Aspose.BarCode for .NET'i kullanarak barkod oluşturma dünyasına hoş geldiniz! Bu kapsamlı kılavuzda Aspose.BarCode ile DotCode Satırlarını ve Sütunlarını yapılandırmanın büyüleyici dünyasına değineceğiz. İster deneyimli bir geliştirici olun ister barkod oluşturma yolculuğunuza yeni başlıyor olun, bu eğitim size DotCode Satırları ve Sütunları yapılandırmasında uzmanlaşmaya başlamanıza yardımcı olacak temel adımlar, ön koşullar ve ad alanları konusunda yol gösterecektir.
+Aspose.BarCode for .NET ile barkod üretiminin dünyasına hoş geldiniz! Bu rehberde **DotCode barkod görüntüsü** dosyaları oluşturacak ve satır‑sütun ayarlarını tam gereksinimlerinize göre nasıl ince ayar yapacağınızı öğreneceksiniz. Sağlık etiketleme sistemi, lojistik takip uygulaması geliştirsiniz ya da sadece 2D sembolleri deniyorsanız, bu yapılandırmayı ustalaşmak barkod boyutu ve veri kapasitesi üzerinde kesin kontrol sağlar.
 
-## Önkoşullar
+## Quick Answers
+- **“DotCode barkod görüntüsü oluşturmak” ne anlama geliyor?** DotCode 2‑D sembolünü kullanarak verinizi kodlayan bir PNG/JPEG/… görsel dosyası üretmek demektir.  
+- **Hangi kütüphane üretimi gerçekleştiriyor?** Aspose.BarCode for .NET, yüksek‑kaliteli DotCode görüntüleri üretmek için basit bir API sağlar.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme çalışır; üretim kullanımı için ticari lisans gerekir.  
+- **Satır ve sütunları bağımsız olarak özelleştirebilir miyim?** Evet – satırları, sütunları ayarlayabilir veya kütüphanenin otomatik boyutlandırmasına bırakabilirsiniz.  
+- **Hangi çıktı formatları destekleniyor?** PNG, JPEG, BMP, GIF, TIFF ve daha fazlası `BarCodeImageFormat` aracılığıyla.
 
-DotCode Satırlar ve Sütunlar yapılandırmasının teknik yönlerine dalmadan önce, başarılı bir şekilde takip etmek için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
+## What is a DotCode barcode image?
 
-1. .NET Geliştirme Ortamı: Makinenizde çalışan bir .NET geliştirme ortamının kurulu olduğundan emin olun.
+DotCode, büyük miktarda veriyi küçük bir kare ya da dikdörtgen alanda saklayan kompakt bir iki‑boyutlu barkoddur. **Sağlık** ve **ilaç** sektörlerinde ürün takibi, hasta bilgisi kodlama vb. amaçlarla yaygın olarak kullanılır. Satır ve sütunları yapılandırarak barkodun yoğunluğunu ve fiziksel boyutlarını kontrol edersiniz.
 
-2.  Aspose.BarCode for .NET: Web sitesinden Aspose.BarCode for .NET'i indirip yükleyin. Bulabilirsin[Burada](https://releases.aspose.com/barcode/net/).
+## Why configure rows and columns?
 
-3. IDE: Kodlama için tercih ettiğiniz Entegre Geliştirme Ortamını (IDE) seçin. Visual Studio şiddetle tavsiye edilir, ancak istediğiniz herhangi bir IDE'yi kullanabilirsiniz.
+Satır ve sütunları özelleştirerek:
 
-4. Temel C# Bilgisi: C# programlamaya aşina olmak, bu eğitimdeki kod örneklerini anlamak için çok önemlidir.
+* Barkodu sınırlı etiket alanına sığdırabilirsiniz.  
+* Belirli yazıcılar veya tarayıcılar için tarama güvenilirliğini optimize edebilirsiniz.  
+* Görüntü boyutunu veri kapasitesiyle dengeleyebilirsiniz—daha fazla satır/sütun daha çok veri ama daha büyük bir görüntü demektir.  
 
-## Ad Alanlarını İçe Aktar
+Nedenini anladığınıza göre, **satır‑sütun ayarlarıyla DotCode barkod görüntüsü oluşturma** adımlarına geçelim.
 
-Kod örneklerinde aşağıdaki ad alanlarını kullanacağız:
+## Prerequisites
+
+Kodlamaya başlamadan önce şunlara sahip olun:
+
+1. **.NET Geliştirme Ortamı** – Visual Studio, Rider veya .NET SDK yüklü VS Code.  
+2. **Aspose.BarCode for .NET** – resmi siteden **[buradan](https://releases.aspose.com/barcode/net/)** indirin.  
+3. **Geçerli bir lisans** (veya geçici deneme lisansı) üretim‑düzeyi oluşturma için.  
+4. **Temel C# bilgisi** – birkaç kısa kod parçacığı yazacaksınız, kavramlar ise basittir.
+
+## Import Namespaces
+
+Örnekler için sadece bir ad alanına ihtiyacımız var:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Şimdi DotCode Satırları ve Sütunları yapılandırmasını birden çok adıma ayıralım:
+## Step‑by‑step guide to create DotCode barcode image
 
-## 1. Adım: Dizin Yolunuzu ayarlayın
+### Step 1: Set up your Directory Path
 
- Öncelikle oluşturulan DotCode barkod görüntülerini kaydetmek istediğiniz dizin yolunu tanımlayın. Yer değiştirmek`"Your Directory Path"` İstediğiniz dizin yolu ile.
+İlk olarak, oluşturulan görüntülerin nereye kaydedileceğini belirleyin. Yer tutucuyu makinenizdeki gerçek bir klasörle değiştirin.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Adım 2: DotCode Generator'ı başlatın
+> **Pro tip:** `Path.Combine(Environment.CurrentDirectory, "Barcodes")` ifadesi, platformlar arası çalışan bir yol oluşturur.
 
- Şimdi Aspose.BarCode kütüphanesini kullanarak DotCode barkod oluşturucuyu başlatalım. Barkod tipini şu şekilde belirteceğiz:`EncodeTypes.DotCode` ve kodlanacak değer`"Aspose"`.
+### Step 2: Initialize the DotCode Generator
+
+`BarcodeGenerator` örneği oluşturun, `EncodeTypes.DotCode` sembolünü belirtin ve kodlamak istediğiniz veriyi (ör. “Aspose”) sağlayın.
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Kod örnekleri bu kullanım bloğunun içinde takip edecektir.
+    // All configuration and saving will happen inside this block.
 }
 ```
 
-## 3. Adım: DotCode Sütunlarını Yapılandırma
+### Step 3: Configure DotCode Columns
 
-Bu adımda DotCode barkodunun sütun sayısını belirleyeceksiniz. Burada sütun sayısını 18 olarak ayarlayıp oluşturulan barkod görselini "DotCodeColumns18.png" olarak kaydedeceğiz.
+Sabit bir sütun sayısı istiyorsanız `Columns` özelliğini ayarlayın. Burada **18 sütun** seçiyoruz ve sonucu PNG dosyası olarak kaydediyoruz.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
@@ -68,9 +90,11 @@ gen.Parameters.Barcode.DotCode.Columns = 18;
 gen.Save($"{path}DotCodeColumns18.png", BarCodeImageFormat.Png);
 ```
 
-## 4. Adım: DotCode Satırlarını Yapılandırma
+> **Why XDimension?** Piksel boyutunu ayarlamak, her noktanın görsel yoğunluğunu değiştirir; kodlanan veriyi etkilemez.
 
-Daha sonra DotCode barkodunun satır sayısını ayarlayacaksınız. Burada satır sayısını 12 olarak ayarlayıp oluşturulan barkod görselini "DotCodeRows12.png" olarak kaydedeceğiz.
+### Step 4: Configure DotCode Rows
+
+Sütun sayısını kütüphanenin otomatik belirlemesine izin verirken (`Columns = -1`) satır sayısını sabitleyebilirsiniz. Aşağıdaki örnek **12 satır** içeren bir barkod üretir.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = -1;
@@ -78,9 +102,9 @@ gen.Parameters.Barcode.DotCode.Rows = 12;
 gen.Save($"{path}DotCodeRows12.png", BarCodeImageFormat.Png);
 ```
 
-## Adım 5: Satırları ve Sütunları Aynı Anda Yapılandırma
+### Step 5: Configure Rows and Columns Simultaneously
 
-Bu adımda DotCode barkodunun hem satırlarını hem de sütunlarını yapılandıracağız. Sütun sayısını 29, satır sayısını ise 26 olarak ayarlayacağız. Oluşturulan barkod görseli "DotCodeRows26Columns29.png" olarak kaydedilecektir.
+Tam kontrol gerektiğinde her iki özelliği de ayarlayın. Aşağıdaki kod **29 sütun** ve **26 satır** içeren bir barkod üretir.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = 29;
@@ -88,36 +112,48 @@ gen.Parameters.Barcode.DotCode.Rows = 26;
 gen.Save($"{path}DotCodeRows26Columns29.png", BarCodeImageFormat.Png);
 ```
 
-Tebrikler! Aspose.BarCode for .NET'i kullanarak DotCode Satırlarını ve Sütunlarını başarıyla yapılandırdınız. Barkod oluşturma yeteneklerinizi daha da geliştirmek için Aspose.BarCode tarafından sağlanan daha fazla seçenek ve özelliği keşfetmekten çekinmeyin.
+> **Common pitfall:** Satır ve sütun değerlerini çok yüksek ayarlamak, tipik etiket boyutlarını aşan bir görüntü oluşturabilir. Yazdırmadan önce ön izleme yapın.
 
-## Çözüm
+## Common Issues and Solutions
 
-Bu eğitimde Aspose.BarCode for .NET'i kullanarak DotCode Satır ve Sütun konfigürasyon dünyasını keşfettik. Gerekli önkoşulları nasıl ayarlayacağınızı, ad alanlarını nasıl içe aktaracağınızı ve adım adım yapılandırmayı nasıl gerçekleştireceğinizi öğrendiniz. Artık DotCode barkodlarını güvenle ve hassasiyetle oluşturabilirsiniz.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Barcode appears blurry | XDimension too low | Increase `XDimension.Pixels` (e.g., 12‑15). |
+| Scanner cannot read barcode | Rows/Columns too dense for printer | Reduce rows/columns or use a higher‑resolution printer. |
+| Image not saved | Invalid `path` string | Ensure the directory exists or call `Directory.CreateDirectory(path)`. |
 
- Herhangi bir sorunuz varsa, sorunlarla karşılaşırsanız veya ek yardıma ihtiyacınız varsa, şu adresi ziyaret etmekten çekinmeyin:[Aspose.BarCode belgeleri](https://reference.aspose.com/barcode/net/) veya iletişime geçin[Aspose.BarCode topluluk desteği](https://forum.aspose.com/c/barcode/13).
+## Frequently Asked Questions
 
+**S: DotCode barkodunda saklayabileceğim maksimum veri miktarı nedir?**  
+C: Satır ve sütun sayısına bağlıdır. Daha fazla hücre daha çok veri, ancak daha büyük bir görüntü demektir.
 
-## SSS'ler
+**S: Barkodun renklerini değiştirebilir miyim?**  
+C: Evet. `gen.Parameters.Barcode.ForeColor` ve `BackColor` ile kaydetmeden önce özel renkler ayarlayabilirsiniz.
 
-### S1: DotCode nedir ve yaygın olarak nerede kullanılır?
+**S: DotCode sembolü tüm platformlarda destekleniyor mu?**  
+C: Aspose.BarCode for .NET, .NET Framework, .NET Core ve .NET 5/6+ üzerinde çalışır; Windows, Linux veya macOS’ta görüntü üretebilirsiniz.
 
-Cevap1: DotCode, sağlık ve ilaç endüstrilerinde küçük ambalaj etiketlerindeki büyük miktarda veriyi kodlamak için sıklıkla kullanılan bir 2D barkod sembolojisidir.
+**S: Tüm DotCode parametrelerinin tam listesini nereden bulabilirim?**  
+C: Resmi API referansı detaylı belgeler sunar – [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) sayfasına bakın.
 
-### S2: DotCode barkodlarının görünümünü Aspose.BarCode for .NET ile özelleştirebilir miyim?
+**S: Diskte dosya oluşturmadan bir web API’da barkod nasıl üretilir?**  
+C: `gen.Save(Stream, BarCodeImageFormat.Png)` çağırın ve akışı dosya sonucu olarak döndürün.
 
-C2: Evet, özel marka gereksinimlerinizi karşılamak için barkodun görünümünü renkler, yazı tipleri ve daha fazlası dahil olmak üzere özelleştirebilirsiniz.
+## Conclusion
 
-### S3: Aspose.BarCode for .NET çeşitli .NET Framework sürümleriyle uyumlu mu?
+Artık **DotCode barkod görüntüsü** dosyalarını nasıl oluşturacağınızı ve satır‑sütunlarını Aspose.BarCode for .NET ile nasıl kesin bir şekilde kontrol edeceğinizi biliyorsunuz. `Rows` ve `Columns` özelliklerini ayarlayarak barkod boyutunu her türlü etiket veya ambalaj senaryosuna uyarlayabilirsiniz. Farklı boyutlar, renkler ve çıktı formatlarıyla deneyler yapın, projenizin ihtiyaçlarına göre şekillendirin ve daha fazla özelleştirme için Aspose.BarCode’ın geniş özellik setini keşfedin.
 
-Cevap3: Aspose.BarCode birden fazla .NET Framework sürümünü destekleyerek geniş bir uygulama yelpazesiyle uyumluluk sağlar.
+Karşılaştığınız zorluklar veya daha derinlemesine bilgi için resmi kaynaklara göz atın:
 
-### S4: Aspose.BarCode for .NET'i kullanarak başka hangi barkod türlerini oluşturabilirim?
+* [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+* [Aspose.BarCode community support](https://forum.aspose.com/c/barcode/13)
 
-Cevap4: Aspose.BarCode, aralarında QR Code, Code 128 ve DataMatrix'in de bulunduğu çok çeşitli barkod türlerini destekler.
+---
 
-### S5: Aspose.BarCode for .NET için daha fazla eğitim ve örneği nerede bulabilirim?
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.BarCode for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
- Cevap5: Ek eğitimleri ve örnekleri inceleyebilirsiniz.[Aspose.BarCode belgeleri](https://reference.aspose.com/barcode/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

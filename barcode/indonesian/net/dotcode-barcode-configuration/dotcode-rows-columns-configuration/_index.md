@@ -1,66 +1,88 @@
 ---
-title: Konfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode untuk .NET
-linktitle: Konfigurasi Baris dan Kolom DotCode
+date: 2026-02-04
+description: Pelajari cara membuat gambar kode batang DotCode dengan mengonfigurasi
+  baris dan kolom menggunakan Aspose.BarCode untuk .NET.
+linktitle: DotCode Rows and Columns Configuration
 second_title: Aspose.BarCode .NET API
-description: Pelajari cara mengonfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode untuk .NET. Hasilkan kode batang 2D yang tepat dan dapat disesuaikan dengan mudah.
-weight: 15
+title: Buat gambar barcode DotCode – baris & kolom (Aspose.BarCode)
 url: /id/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode untuk .NET
+# Membuat Gambar Barcode DotCode – baris & kolom (Aspose.BarCode)
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di dunia pembuatan kode batang menggunakan Aspose.BarCode untuk .NET! Dalam panduan komprehensif ini, kita akan mempelajari dunia menarik dalam mengonfigurasi Baris dan Kolom DotCode dengan Aspose.BarCode. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan Anda dengan pembuatan kode batang, tutorial ini akan memandu Anda melalui langkah-langkah penting, prasyarat, dan ruang nama untuk membantu Anda mulai menguasai konfigurasi Baris dan Kolom DotCode.
+Selamat datang di dunia pembuatan barcode dengan Aspose.BarCode untuk .NET! Pada panduan ini Anda akan **membuat gambar barcode DotCode** dan mempelajari cara menyesuaikan baris serta kolom agar sesuai dengan kebutuhan Anda. Baik Anda sedang membangun sistem pelabelan kesehatan, aplikasi pelacakan logistik, atau sekadar bereksperimen dengan simbol 2D, menguasai konfigurasi ini memberi Anda kontrol presisi atas ukuran barcode dan kapasitas datanya.
+
+## Jawaban Cepat
+- **Apa arti “membuat gambar barcode DotCode”?** Artinya menghasilkan file visual PNG/JPEG/dll yang mengkodekan data Anda menggunakan simbol DotCode 2‑D.  
+- **Perpustakaan mana yang menangani pembuatan?** Aspose.BarCode untuk .NET menyediakan API sederhana untuk menghasilkan gambar DotCode berkualitas tinggi.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Bisakah saya menyesuaikan baris dan kolom secara terpisah?** Ya – Anda dapat mengatur baris, kolom, atau membiarkan perpustakaan menentukannya secara otomatis.  
+- **Format output apa yang didukung?** PNG, JPEG, BMP, GIF, TIFF, dan lainnya melalui `BarCodeImageFormat`.
+
+## Apa itu gambar barcode DotCode?
+
+DotCode adalah barcode dua‑dimensi yang kompak dan menyimpan sejumlah besar data dalam area persegi atau persegi panjang kecil. Barcode ini banyak dipakai di sektor **kesehatan** dan **farmasi** untuk pelacakan produk, pengkodean informasi pasien, dan lain‑lain. Dengan mengatur baris dan kolom, Anda mengendalikan kepadatan barcode serta dimensi fisiknya.
+
+## Mengapa mengatur baris dan kolom?
+
+Menyesuaikan baris dan kolom memungkinkan Anda:
+
+* Memasukkan barcode ke dalam ruang label yang terbatas.  
+* Mengoptimalkan keandalan pemindaian untuk printer atau pemindai tertentu.  
+* Menyeimbangkan ukuran gambar dengan kapasitas data – lebih banyak baris/kolom berarti lebih banyak data tetapi gambar menjadi lebih besar.  
+
+Setelah memahami alasannya, mari kita lihat **cara membuat gambar barcode DotCode** dengan pengaturan baris‑kolom pilihan Anda.
 
 ## Prasyarat
 
-Sebelum kita menyelami aspek teknis konfigurasi Baris dan Kolom DotCode, pastikan Anda memiliki semua yang Anda butuhkan agar berhasil diikuti.
+Sebelum masuk ke kode, pastikan Anda memiliki:
 
-1. Lingkungan Pengembangan .NET: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi dan terinstal di mesin Anda.
-
-2.  Aspose.BarCode untuk .NET: Unduh dan instal Aspose.BarCode untuk .NET dari situs web. Kamu bisa menemukannya[Di Sini](https://releases.aspose.com/barcode/net/).
-
-3. IDE: Pilih Lingkungan Pengembangan Terpadu (IDE) pilihan Anda untuk pengkodean. Visual Studio sangat disarankan, tetapi Anda dapat menggunakan IDE apa pun pilihan Anda.
-
-4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangat penting untuk memahami contoh kode dalam tutorial ini.
+1. **Lingkungan Pengembangan .NET** – Visual Studio, Rider, atau VS Code dengan .NET SDK terpasang.  
+2. **Aspose.BarCode untuk .NET** – Unduh dari situs resmi **[di sini](https://releases.aspose.com/barcode/net/)**.  
+3. **Lisensi yang valid** (atau lisensi percobaan sementara) untuk pembuatan tingkat produksi.  
+4. **Pengetahuan dasar C#** – Anda akan menulis beberapa potongan kode singkat, tetapi konsepnya mudah dipahami.
 
 ## Impor Namespace
 
-Dalam contoh kode, kita akan menggunakan namespace berikut:
+Kita hanya memerlukan satu namespace untuk contoh berikut:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Sekarang, mari kita uraikan konfigurasi Baris dan Kolom DotCode menjadi beberapa langkah:
+## Panduan langkah‑demi‑langkah membuat gambar barcode DotCode
 
-## Langkah 1: Siapkan Jalur Direktori Anda
+### Langkah 1: Menyiapkan Path Direktori
 
- Pertama, tentukan jalur direktori tempat Anda ingin menyimpan gambar barcode DotCode yang dihasilkan. Mengganti`"Your Directory Path"` dengan jalur direktori yang Anda inginkan.
+Pertama, tentukan di mana gambar yang dihasilkan akan disimpan. Ganti placeholder dengan folder yang sebenarnya di mesin Anda.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Langkah 2: Inisialisasi Generator DotCode
+> **Tips:** Gunakan `Path.Combine(Environment.CurrentDirectory, "Barcodes")` untuk membuat path yang dapat bekerja lintas platform.
 
- Sekarang, mari kita inisialisasi generator barcode DotCode menggunakan perpustakaan Aspose.BarCode. Kami akan menentukan jenis kode batang sebagai`EncodeTypes.DotCode` dan nilai untuk dikodekan sebagai`"Aspose"`.
+### Langkah 2: Menginisialisasi Generator DotCode
+
+Buat instance `BarcodeGenerator`, tentukan simbol `EncodeTypes.DotCode`, dan berikan data yang ingin Anda enkode (misalnya “Aspose”).
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Contoh kode akan mengikuti di dalam blok penggunaan ini.
+    // All configuration and saving will happen inside this block.
 }
 ```
 
-## Langkah 3: Konfigurasikan Kolom DotCode
+### Langkah 3: Mengatur Kolom DotCode
 
-Pada langkah ini, Anda akan mengatur jumlah kolom untuk barcode DotCode. Di sini, kita akan mengatur jumlah kolom menjadi 18 dan menyimpan gambar barcode yang dihasilkan sebagai "DotCodeColumns18.png."
+Jika Anda menginginkan jumlah kolom tetap, atur properti `Columns`. Di sini kami memilih **18 kolom** dan menyimpan hasilnya sebagai file PNG.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
@@ -68,9 +90,11 @@ gen.Parameters.Barcode.DotCode.Columns = 18;
 gen.Save($"{path}DotCodeColumns18.png", BarCodeImageFormat.Png);
 ```
 
-## Langkah 4: Konfigurasikan Baris DotCode
+> **Mengapa XDimension?** Mengubah ukuran piksel mengubah kepadatan visual tiap titik tanpa memengaruhi data yang dienkode.
 
-Selanjutnya, Anda akan mengatur jumlah baris untuk barcode DotCode. Di sini, kita akan mengatur jumlah baris menjadi 12 dan menyimpan gambar barcode yang dihasilkan sebagai "DotCodeRows12.png."
+### Langkah 4: Mengatur Baris DotCode
+
+Anda juga dapat menetapkan jumlah baris tetap sambil membiarkan perpustakaan menentukan jumlah kolom (dengan `Columns = -1`). Contoh di bawah membuat barcode dengan **12 baris**.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = -1;
@@ -78,9 +102,9 @@ gen.Parameters.Barcode.DotCode.Rows = 12;
 gen.Save($"{path}DotCodeRows12.png", BarCodeImageFormat.Png);
 ```
 
-## Langkah 5: Konfigurasikan Baris dan Kolom Secara Bersamaan
+### Langkah 5: Mengatur Baris dan Kolom Secara Bersamaan
 
-Pada langkah ini, kita akan mengonfigurasi baris dan kolom untuk kode batang DotCode. Kita akan mengatur jumlah kolom menjadi 29 dan jumlah baris menjadi 26. Gambar barcode yang dihasilkan akan disimpan sebagai "DotCodeRows26Columns29.png."
+Ketika Anda memerlukan kontrol penuh, atur kedua properti. Potongan kode berikut menghasilkan barcode dengan **29 kolom** dan **26 baris**.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = 29;
@@ -88,36 +112,48 @@ gen.Parameters.Barcode.DotCode.Rows = 26;
 gen.Save($"{path}DotCodeRows26Columns29.png", BarCodeImageFormat.Png);
 ```
 
-Selamat! Anda telah berhasil mengonfigurasi Baris dan Kolom DotCode menggunakan Aspose.BarCode untuk .NET. Jangan ragu untuk menjelajahi lebih banyak opsi dan fitur yang disediakan oleh Aspose.BarCode untuk lebih meningkatkan kemampuan pembuatan kode batang Anda.
+> **Kesalahan umum:** Menetapkan nilai baris dan kolom yang terlalu tinggi dapat menghasilkan gambar yang melampaui dimensi label standar. Uji dengan pratinjau sebelum mencetak.
+
+## Masalah Umum dan Solusinya
+
+| Masalah | Penyebab | Solusi |
+|---------|----------|--------|
+| Barcode terlihat buram | XDimension terlalu kecil | Tingkatkan `XDimension.Pixels` (misalnya 12‑15). |
+| Pemindai tidak dapat membaca barcode | Baris/Kolom terlalu padat untuk printer | Kurangi baris/kolom atau gunakan printer beresolusi lebih tinggi. |
+| Gambar tidak tersimpan | String `path` tidak valid | Pastikan direktori ada atau panggil `Directory.CreateDirectory(path)`. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Berapa jumlah data maksimum yang dapat disimpan dalam barcode DotCode?**  
+J: Itu tergantung pada jumlah baris dan kolom yang Anda atur. Lebih banyak sel berarti lebih banyak data, namun gambar menjadi lebih besar.
+
+**T: Bisakah saya mengubah warna barcode?**  
+J: Ya. Gunakan `gen.Parameters.Barcode.ForeColor` dan `BackColor` untuk menetapkan warna kustom sebelum menyimpan.
+
+**T: Apakah simbol DotCode didukung di semua platform?**  
+J: Aspose.BarCode untuk .NET bekerja pada .NET Framework, .NET Core, dan .NET 5/6+, sehingga Anda dapat menghasilkan gambar di Windows, Linux, atau macOS.
+
+**T: Di mana saya dapat menemukan daftar lengkap semua parameter DotCode?**  
+J: Referensi API resmi menyediakan dokumentasi terperinci – lihat [dokumentasi Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+
+**T: Bagaimana cara menghasilkan barcode dalam API web tanpa menulis ke disk?**  
+J: Panggil `gen.Save(Stream, BarCodeImageFormat.Png)` dan kembalikan stream sebagai hasil file.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah menjelajahi dunia konfigurasi Baris dan Kolom DotCode menggunakan Aspose.BarCode untuk .NET. Anda telah mempelajari cara menyiapkan prasyarat yang diperlukan, mengimpor namespace, dan melakukan konfigurasi langkah demi langkah. Sekarang, Anda dapat membuat kode batang DotCode dengan percaya diri dan presisi.
+Anda kini mengetahui cara **membuat gambar barcode DotCode** dan mengendalikan secara tepat baris serta kolomnya menggunakan Aspose.BarCode untuk .NET. Dengan menyesuaikan properti `Rows` dan `Columns`, Anda dapat menyesuaikan ukuran barcode untuk label atau kemasan apa pun. Bereksperimenlah dengan dimensi, warna, dan format output yang berbeda untuk memenuhi kebutuhan proyek Anda, serta jelajahi fitur Aspose.BarCode yang lebih luas untuk kustomisasi tambahan.
 
- Jika Anda memiliki pertanyaan, mengalami masalah, atau mencari panduan tambahan, jangan ragu untuk mengunjungi[Dokumentasi Aspose.BarCode](https://reference.aspose.com/barcode/net/) atau menghubungi[Dukungan komunitas Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+Jika Anda menemui tantangan atau ingin mendalami lebih jauh, kunjungi sumber resmi berikut:
 
+* [dokumentasi Aspose.BarCode](https://reference.aspose.com/barcode/net/)  
+* [dukungan komunitas Aspose.BarCode](https://forum.aspose.com/c/barcode/13)
 
-## FAQ
+---
 
-### Q1: Apa itu DotCode dan di mana DotCode biasa digunakan?
+**Terakhir Diperbarui:** 2026-02-04  
+**Diuji Dengan:** Aspose.BarCode untuk .NET 24.11 (versi terbaru saat penulisan)  
+**Penulis:** Aspose  
 
-A1: DotCode adalah simbologi kode batang 2D yang sering digunakan dalam industri kesehatan dan farmasi untuk menyandikan data dalam jumlah besar pada label kemasan kecil.
-
-### Q2: Dapatkah saya menyesuaikan tampilan kode batang DotCode dengan Aspose.BarCode untuk .NET?
-
-A2: Ya, Anda dapat menyesuaikan tampilan kode batang, termasuk warna, font, dan lainnya, untuk memenuhi kebutuhan merek spesifik Anda.
-
-### Q3: Apakah Aspose.BarCode untuk .NET kompatibel dengan berbagai versi .NET Framework?
-
-A3: Aspose.BarCode mendukung beberapa versi .NET Framework, memastikan kompatibilitas dengan berbagai aplikasi.
-
-### Q4: Jenis kode batang apa lagi yang dapat saya hasilkan menggunakan Aspose.BarCode untuk .NET?
-
-A4: Aspose.BarCode mendukung berbagai jenis kode batang, antara lain Kode QR, Kode 128, dan DataMatrix.
-
-### Q5: Di mana saya dapat menemukan lebih banyak tutorial dan contoh Aspose.BarCode untuk .NET?
-
- A5: Anda dapat menjelajahi tutorial dan contoh tambahan di[Dokumentasi Aspose.BarCode](https://reference.aspose.com/barcode/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

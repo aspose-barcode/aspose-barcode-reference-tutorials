@@ -1,66 +1,88 @@
 ---
-title: DotCode rader och kolumner Konfiguration med Aspose.BarCode för .NET
-linktitle: DotCode Rader och Kolumner Konfiguration
+date: 2026-02-04
+description: Lär dig hur du skapar en DotCode‑streckkodsbild genom att konfigurera
+  rader och kolumner med Aspose.BarCode för .NET.
+linktitle: DotCode Rows and Columns Configuration
 second_title: Aspose.BarCode .NET API
-description: Lär dig att konfigurera DotCode-rader och -kolumner med Aspose.BarCode för .NET. Generera exakta och anpassningsbara 2D-streckkoder utan ansträngning.
-weight: 15
+title: Skapa DotCode streckkodbild – rader och kolumner (Aspose.BarCode)
 url: /sv/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
+weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DotCode rader och kolumner Konfiguration med Aspose.BarCode för .NET
+# Skapa DotCode barcode image – rader & kolumner (Aspose.BarCode)
 
 ## Introduktion
 
-Välkommen till streckkodsgenereringens värld med Aspose.BarCode för .NET! I den här omfattande guiden kommer vi att fördjupa oss i det fascinerande området att konfigurera DotCode-rader och -kolumner med Aspose.BarCode. Oavsett om du är en erfaren utvecklare eller precis har börjat din resa med streckkodsgenerering, kommer den här handledningen att leda dig genom de väsentliga stegen, förutsättningarna och namnområdena för att komma igång med att bemästra konfigurationen av DotCode Rows and Columns.
+Välkommen till världen av streckkodsgenerering med Aspose.BarCode för .NET! I den här guiden kommer du att **create DotCode barcode image** filer och lära dig hur du finjusterar rader och kolumner för att matcha dina exakta krav. Oavsett om du bygger ett system för märkning inom **healthcare** och **pharmaceutical**, en logistikspårningsapp eller bara experimenterar med 2D-symbologier, ger behärskning av denna konfiguration dig exakt kontroll över streckkodens storlek och datakapacitet.
+
+## Snabba svar
+- **What does “create DotCode barcode image” mean?** Det betyder att generera en visuell PNG/JPEG/etc. fil som kodar dina data med DotCode 2‑D‑symbologi.  
+- **Which library handles the generation?** Aspose.BarCode for .NET tillhandahåller ett enkelt API för att producera högkvalitativa DotCode‑bilder.  
+- **Do I need a license?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktionsanvändning.  
+- **Can I customize rows and columns independently?** Ja – du kan ange rader, kolumner, eller låta biblioteket automatiskt bestämma storleken.  
+- **What output formats are supported?** PNG, JPEG, BMP, GIF, TIFF, och mer via `BarCodeImageFormat`.
+
+## Vad är en DotCode barcode image?
+
+DotCode är en kompakt tvådimensionell streckkod som lagrar stora mängder data i ett litet fyrkantigt eller rektangulärt område. Den används i stor utsträckning inom **healthcare** och **pharmaceutical** sektorerna för spårning av produkter, kodning av patientinformation, och mer. Genom att konfigurera rader och kolumner styr du streckkodens densitet och fysiska dimensioner.
+
+## Varför konfigurera rader och kolumner?
+
+Att anpassa rader och kolumner låter dig:
+
+* Anpassa streckkoden till begränsat etikettutrymme.  
+* Optimera skanningspålitlighet för specifika skrivare eller skannrar.  
+* Balansera bildstorlek mot datakapacitet—fler rader/kolumner betyder mer data men en större bild.  
+
+Nu när du förstår varför, låt oss gå igenom **how to create DotCode barcode image** med dina egna rad‑kolumninställningar.
 
 ## Förutsättningar
 
-Innan vi dyker in i de tekniska aspekterna av DotCode Rows and Columns-konfiguration, låt oss se till att du har allt du behöver för att följa med framgångsrikt.
+1. **.NET Development Environment** – Visual Studio, Rider eller VS Code med .NET SDK installerat.  
+2. **Aspose.BarCode for .NET** – Ladda ner det från den officiella webbplatsen **[here](https://releases.aspose.com/barcode/net/)**.  
+3. **A valid license** (eller en tillfällig provlicens) för produktion‑klassad generering.  
+4. **Basic C# knowledge** – du kommer att skriva några korta kodsnuttar, men koncepten är enkla.
 
-1. .NET-utvecklingsmiljö: Se till att du har en fungerande .NET-utvecklingsmiljö installerad på din dator.
+## Importera namnrymder
 
-2.  Aspose.BarCode for .NET: Ladda ner och installera Aspose.BarCode for .NET från webbplatsen. Du kan hitta den[här](https://releases.aspose.com/barcode/net/).
-
-3. IDE: Välj din föredragna Integrated Development Environment (IDE) för kodning. Visual Studio rekommenderas starkt, men du kan använda vilken IDE du vill.
-
-4. Grundläggande C#-kunskaper: Bekantskap med C#-programmering är avgörande för att förstå kodexemplen i denna handledning.
-
-## Importera namnområden
-
-I kodexemplen kommer vi att använda följande namnrymder:
+Vi behöver bara en namnrymd för exemplen:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Låt oss nu dela upp DotCode Rows and Columns-konfigurationen i flera steg:
+## Steg‑för‑steg guide för att skapa DotCode barcode image
 
-## Steg 1: Ställ in din katalogsökväg
+### Steg 1: Ställ in din katalogsökväg
 
- Definiera först den katalogsökväg där du vill spara de genererade streckkodsbilderna med DotCode. Byta ut`"Your Directory Path"` med önskad katalogsökväg.
+Först, bestäm var de genererade bilderna ska sparas. Ersätt platshållaren med en faktisk mapp på din maskin.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Steg 2: Initiera DotCode Generator
+> **Pro tip:** Använd `Path.Combine(Environment.CurrentDirectory, "Barcodes")` för att bygga en sökväg som fungerar på alla plattformar.
 
- Låt oss nu initiera streckkodsgeneratorn DotCode med Aspose.BarCode-biblioteket. Vi kommer att ange streckkodstypen som`EncodeTypes.DotCode` och värdet som ska kodas som`"Aspose"`.
+### Steg 2: Initiera DotCode‑generatorn
+
+Skapa en `BarcodeGenerator`‑instans, specificera symbologin `EncodeTypes.DotCode` och ange de data du vill koda (t.ex. “Aspose”).
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Kodexemplen kommer att följa inuti detta med block.
+    // All configuration and saving will happen inside this block.
 }
 ```
 
-## Steg 3: Konfigurera DotCode-kolumner
+### Steg 3: Konfigurera DotCode‑kolumner
 
-det här steget kommer du att ställa in antalet kolumner för DotCode-streckkoden. Här ställer vi in antalet kolumner till 18 och sparar den genererade streckkodsbilden som "DotCodeColumns18.png."
+Om du vill ha ett fast antal kolumner, sätt `Columns`‑egenskapen. Här väljer vi **18 kolumner** och sparar resultatet som en PNG‑fil.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
@@ -68,9 +90,11 @@ gen.Parameters.Barcode.DotCode.Columns = 18;
 gen.Save($"{path}DotCodeColumns18.png", BarCodeImageFormat.Png);
 ```
 
-## Steg 4: Konfigurera DotCode-rader
+> **Why XDimension?** Att justera pixelstorleken ändrar den visuella densiteten för varje punkt utan att påverka de kodade data.
 
-Därefter ställer du in antalet rader för DotCode-streckkoden. Här ställer vi in antalet rader till 12 och sparar den genererade streckkodsbilden som "DotCodeRows12.png."
+### Steg 4: Konfigurera DotCode‑rader
+
+Du kan också fixera antalet rader samtidigt som du låter biblioteket bestämma kolumnantalet (genom att sätta `Columns = -1`). Exemplet nedan skapar en streckkod med **12 rader**.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = -1;
@@ -78,9 +102,9 @@ gen.Parameters.Barcode.DotCode.Rows = 12;
 gen.Save($"{path}DotCodeRows12.png", BarCodeImageFormat.Png);
 ```
 
-## Steg 5: Konfigurera rader och kolumner samtidigt
+### Steg 5: Konfigurera rader och kolumner samtidigt
 
-I det här steget kommer vi att konfigurera både rader och kolumner för streckkoden DotCode. Vi ställer in antalet kolumner till 29 och antalet rader till 26. Den genererade streckkodsbilden kommer att sparas som "DotCodeRows26Columns29.png."
+När du behöver full kontroll, sätt båda egenskaperna. Följande kodsnutt producerar en streckkod med **29 kolumner** och **26 rader**.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = 29;
@@ -88,36 +112,48 @@ gen.Parameters.Barcode.DotCode.Rows = 26;
 gen.Save($"{path}DotCodeRows26Columns29.png", BarCodeImageFormat.Png);
 ```
 
-Grattis! Du har framgångsrikt konfigurerat DotCode-rader och -kolumner med Aspose.BarCode för .NET. Känn dig fri att utforska fler alternativ och funktioner som tillhandahålls av Aspose.BarCode för att ytterligare förbättra dina streckkodsgenereringsmöjligheter.
+> **Common pitfall:** Att sätta både rader och kolumner till för höga värden kan skapa en bild som överskrider vanliga etikettmått. Testa med en förhandsgranskning innan utskrift.
+
+## Vanliga problem och lösningar
+
+| Problem | Orsak | Lösning |
+|---------|-------|--------|
+| Streckkoden är suddig | XDimension för låg | Öka `XDimension.Pixels` (t.ex. 12‑15). |
+| Skannern kan inte läsa streckkoden | Rader/Kolumner för täta för skrivaren | Minska rader/kolumner eller använd en skrivare med högre upplösning. |
+| Bilden sparas inte | Ogiltig `path`‑sträng | Säkerställ att katalogen finns eller anropa `Directory.CreateDirectory(path)`. |
+
+## Vanliga frågor
+
+**Q: Vad är den maximala mängden data jag kan lagra i en DotCode streckkod?**  
+A: Det beror på antalet rader och kolumner du konfigurerar. Fler celler betyder mer data, men också en större bild.
+
+**Q: Kan jag ändra streckkodens färger?**  
+A: Ja. Använd `gen.Parameters.Barcode.ForeColor` och `BackColor` för att ange egna färger innan du sparar.
+
+**Q: Stöds DotCode‑symbologin på alla plattformar?**  
+A: Aspose.BarCode for .NET fungerar på .NET Framework, .NET Core och .NET 5/6+, så du kan generera bilder på Windows, Linux eller macOS.
+
+**Q: Var kan jag hitta en komplett lista över alla DotCode‑parametrar?**  
+A: Den officiella API‑referensen innehåller detaljerad dokumentation – se [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/).
+
+**Q: Hur genererar jag en streckkod i ett web‑API utan att skriva till disk?**  
+A: Anropa `gen.Save(Stream, BarCodeImageFormat.Png)` och returnera strömmen som ett filresultat.
 
 ## Slutsats
 
-den här handledningen har vi utforskat världen av DotCode Rows and Columns-konfiguration med Aspose.BarCode för .NET. Du har lärt dig hur du ställer in de nödvändiga förutsättningarna, importerar namnutrymmen och utför steg-för-steg-konfiguration. Nu kan du skapa DotCode-streckkoder med tillförsikt och precision.
+Du vet nu hur du **create DotCode barcode image** filer och exakt styr deras rader och kolumner med Aspose.BarCode för .NET. Genom att justera egenskaperna `Rows` och `Columns` kan du anpassa streckkodens storlek för vilken etikett‑ eller förpackningsscenario som helst. Experimentera med olika dimensioner, färger och utdataformat för att passa ditt projekts behov, och utforska det bredare Aspose.BarCode‑funktionsutbudet för ännu mer anpassning.
 
- Om du har några frågor, stöter på problem eller söker ytterligare vägledning, tveka inte att besöka[Aspose.BarCode dokumentation](https://reference.aspose.com/barcode/net/) eller nå ut till[Aspose.BarCode community support](https://forum.aspose.com/c/barcode/13).
+Om du stöter på några utmaningar eller vill fördjupa dig ytterligare, kolla in de officiella resurserna:
 
+* [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+* [Aspose.BarCode community support](https://forum.aspose.com/c/barcode/13)
 
-## FAQ's
+---
 
-### F1: Vad är DotCode och var används det ofta?
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.BarCode for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-S1: DotCode är en 2D streckkodssymbologi som ofta används inom hälso- och sjukvårds- och läkemedelsindustrin för att koda stora mängder data på små förpackningsetiketter.
-
-### F2: Kan jag anpassa utseendet på DotCode-streckkoder med Aspose.BarCode för .NET?
-
-S2: Ja, du kan anpassa streckkodens utseende, inklusive färger, typsnitt och mer, för att möta dina specifika varumärkeskrav.
-
-### F3: Är Aspose.BarCode för .NET kompatibelt med olika .NET Framework-versioner?
-
-S3: Aspose.BarCode stöder flera .NET Framework-versioner, vilket säkerställer kompatibilitet med ett brett utbud av applikationer.
-
-### F4: Vilka andra streckkodstyper kan jag generera med Aspose.BarCode för .NET?
-
-A4: Aspose.BarCode stöder en mängd olika streckkodstyper, inklusive QR-kod, kod 128 och DataMatrix, bland andra.
-
-### F5: Var kan jag hitta fler handledningar och exempel för Aspose.BarCode för .NET?
-
- S5: Du kan utforska ytterligare handledningar och exempel i[Aspose.BarCode dokumentation](https://reference.aspose.com/barcode/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

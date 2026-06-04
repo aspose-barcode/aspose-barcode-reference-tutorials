@@ -1,46 +1,46 @@
 ---
-date: 2025-12-04
-description: Pelajari cara mengatur mode kinerja tinggi dan cara membaca barcode dengan
-  cepat menggunakan pembaca barcode kinerja tinggi dengan Aspose.BarCode untuk Java.
+date: 2026-02-04
+description: Pelajari cara membaca barcode Java dengan cepat menggunakan mode kinerja
+  tinggi dengan Aspose.BarCode untuk Java.
 linktitle: Faster Image Processing for Barcode Recognition
 second_title: Aspose.BarCode Java API
-title: 'Pembaca Kode Batang Berkinerja Tinggi: Pemrosesan Gambar Lebih Cepat untuk
-  Pengenalan Kode Batang di Java dengan Aspose.BarCode'
+title: 'Read Barcode Java: Pembaca Barcode Berkinerja Tinggi untuk Pemrosesan Gambar
+  Lebih Cepat'
 url: /id/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/
 weight: 18
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pembaca Barcode Berkinerja Tinggi: Pemrosesan Gambar Lebih Cepat untuk Pengenalan Barcode di Java dengan Aspose.BarCode
+# Baca Barcode Java: Pembaca Barcode Berkinerja Tinggi untuk Pemrosesan Gambar Lebih Cepat
 
-Dalam aplikasi Java modern, kemampuan **pembaca barcode berkinerja tinggi** sangat penting untuk memenuhi permintaan pemindaian waktu nyata. Ketika Anda perlu **cara membaca barcode** dengan cepat dan dapat diandalkan, Aspose.BarCode untuk Java memberikan alat untuk mempercepat pemrosesan gambar tanpa mengorbankan akurasi. Dalam panduan ini kami akan menjelaskan langkah‑langkah tepat untuk mengaktifkan mode berkinerja tinggi, menyetel pengaturan kualitas, dan mencapai pengenalan barcode yang lebih cepat.
+Dalam aplikasi Java modern, **read barcode java** dengan cepat dan andal adalah kemampuan yang wajib dimiliki, terutama ketika Anda menangani stasiun pemindaian berkapasitas tinggi atau pemrosesan batch kumpulan gambar besar. Aspose.BarCode untuk Java menyediakan **high performance barcode reader** yang memungkinkan Anda mengaktifkan mode kinerja tinggi, menyesuaikan pengaturan kualitas, dan menjaga akurasi pengenalan pada puncaknya. Dalam panduan ini kami akan menjelaskan langkah‑langkah tepat untuk mengkonfigurasi pembaca, menjelaskan mengapa peningkatan kinerja penting, dan menunjukkan cara mengatasi masalah deteksi umum.
 
 ## Jawaban Cepat
-- **Apa arti “pembaca barcode berkinerja tinggi”?** Itu adalah konfigurasi yang memaksimalkan kecepatan pemindaian dengan mengoptimalkan algoritma pemrosesan gambar.  
-- **Simbol barcode apa yang digunakan dalam contoh?** DataMatrix (sebuah tipe barcode 2‑D).  
-- **Bagaimana cara mengaktifkan mode berkinerja tinggi?** Panggil `reader.setQualitySettings(QualitySettings.getHighPerformance())`.  
-- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan untuk penggunaan non‑trial.  
-- **Versi Java apa yang didukung?** Java 8 atau yang lebih tinggi sepenuhnya didukung.
+- **What does “high performance barcode reader” mean?** Ini adalah konfigurasi yang memaksimalkan kecepatan pemindaian dengan mengoptimalkan algoritma pemrosesan gambar.  
+- **Which barcode symbology is used in the example?** DataMatrix (sejenis barcode 2‑D).  
+- **How do I enable high‑performance mode?** Panggil `reader.setQualitySettings(QualitySettings.getHighPerformance())`.  
+- **Do I need a license for production?** Ya, lisensi komersial diperlukan untuk penggunaan non‑trial.  
+- **What Java version is supported?** Java 8 atau lebih tinggi sepenuhnya didukung.
 
-## Apa Itu Pembaca Barcode Berkinerja Tinggi?
-Sebuah **pembaca barcode berkinerja tinggi** adalah instance yang disetel khusus dari mesin Aspose.BarCode yang mengurangi beban pemrosesan, menerapkan pra‑pemrosesan gambar secara agresif, dan mempercepat loop dekode. Ini ideal untuk skenario seperti stasiun pemindaian berkapasitas tinggi, aplikasi seluler, atau pemrosesan batch kumpulan gambar besar.
+## Apa itu High Performance Barcode Reader?
+Sebuah **high performance barcode reader** adalah instance khusus yang telah disetel dari mesin Aspose.BarCode yang mengurangi beban pemrosesan, menerapkan pra‑pemrosesan gambar secara agresif, dan mempercepat loop dekripsi. Ini ideal untuk skenario seperti stasiun pemindaian berkapasitas tinggi, aplikasi seluler, atau pemrosesan batch kumpulan gambar besar.
 
-## Mengapa Menggunakan Mode Berkinerja Tinggi Aspose.BarCode?
-- **Kecepatan:** Hingga 2‑3× lebih cepat dalam dekode dibandingkan pengaturan default.  
-- **Skalabilitas:** Menangani ribuan gambar per menit pada perangkat keras yang sederhana.  
-- **Akurasi:** Mempertahankan tingkat pengenalan tinggi dengan secara otomatis menerapkan median smoothing dan optimasi lainnya.  
-- **Fleksibilitas:** Anda masih dapat menyesuaikan pengaturan kualitas individual untuk kasus penggunaan tertentu.
+## Mengapa Menggunakan Mode High‑Performance Aspose.BarCode?
+- **Speed:** Kecepatan: Hingga 2‑3× lebih cepat dalam dekripsi dibandingkan dengan pengaturan default.  
+- **Scalability:** Skalabilitas: Menangani ribuan gambar per menit pada perangkat keras yang sederhana.  
+- **Accuracy:** Akurasi: Mempertahankan tingkat pengenalan tinggi dengan secara otomatis menerapkan median smoothing dan optimasi lainnya.  
+- **Flexibility:** Fleksibilitas: Anda masih dapat menyesuaikan pengaturan kualitas individual untuk kasus penggunaan tertentu.
 
 ## Prasyarat
-- **Lingkungan Pengembangan Java:** JDK 8 atau lebih baru, IDE pilihan Anda (IntelliJ, Eclipse, dll.).  
-- **Aspose.BarCode untuk Java:** Unduh JAR terbaru dari [halaman unduhan Aspose.BarCode](https://releases.aspose.com/barcode/java/).  
+- **Java Development Environment:** Lingkungan Pengembangan Java: JDK 8 atau lebih baru, IDE pilihan Anda (IntelliJ, Eclipse, dll.).  
+- **Aspose.BarCode for Java:** Aspose.BarCode untuk Java: Unduh JAR terbaru dari [Aspose.BarCode download page](https://releases.aspose.com/barcode/java/).  
 
-## Impor Namespace
+## Import Namespaces
 
-Sebelum memulai, impor kelas‑kelas yang diperlukan:
+Sebelum memulai, impor kelas‑kelas yang Anda perlukan:
 
 ```java
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
@@ -48,8 +48,9 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.QualitySettings;
 ```
 
-## Langkah 1: Atur Direktori Sumber Daya
+## Panduan Langkah‑demi‑Langkah Membaca Barcode Java dengan Kinerja Tinggi
 
+### Langkah 1: Atur Direktori Sumber Daya
 Tentukan folder yang berisi gambar contoh Anda.
 
 ```java
@@ -57,35 +58,31 @@ Tentukan folder yang berisi gambar contoh Anda.
 String dataDir = Utils.getDataDir(FasterImageProcessingForBarcodeRecognition.class) + "BarcodeReader/advanced_features/";
 ```
 
-## Langkah 2: Pilih Gambar yang Mengandung Barcode
-
-Arahkan pembaca ke gambar yang ingin Anda dekode. Pada contoh ini kami menggunakan gambar DataMatrix.
+### Langkah 2: Pilih Gambar yang Mengandung Barcode
+Arahkan pembaca ke gambar yang ingin Anda dekripsi. Pada contoh ini kami menggunakan gambar DataMatrix.
 
 ```java
 // Read code39 barcode from image
 String imageFilePath = dataDir + "datamatrix.bmp";
 ```
 
-## Langkah 3: Buat Instance BarCodeReader
-
-Instansiasi `BarCodeReader` dengan jalur gambar dan simbol khusus yang Anda harapkan.
+### Langkah 3: Buat Instance BarCodeReader
+Instansiasi `BarCodeReader` dengan path gambar dan simbol barcode spesifik yang Anda harapkan.
 
 ```java
 // Create an instance of BarCodeReader and set image and symbology type to recognize
 BarCodeReader reader = new BarCodeReader(imageFilePath, DecodeType.DATA_MATRIX);
 ```
 
-## Langkah 4: Aktifkan Mode Berkinerja Tinggi
-
-Aktifkan konfigurasi bawaan berkinerja tinggi. Inilah inti dari pengaturan **pembaca barcode berkinerja tinggi**.
+### Langkah 4: Aktifkan Mode High Performance
+Pemanggilan tunggal ini mengubah mesin ke konfigurasi yang dioptimalkan.
 
 ```java
 // Set high performance mode
 reader.setQualitySettings(QualitySettings.getHighPerformance());
 ```
 
-## Langkah 5: Sesuaikan Opsi Terpisah (Opsional)
-
+### Langkah 5: Sesuaikan Opsi Terpisah (Opsional)
 Anda masih dapat menyesuaikan pengaturan kualitas individual agar sesuai dengan karakteristik gambar Anda. Mengaktifkan median smoothing sering meningkatkan hasil pada gambar berisik.
 
 ```java
@@ -94,9 +91,8 @@ reader.getQualitySettings().setAllowMedianSmoothing(true);
 reader.getQualitySettings().setMedianSmoothingWindowSize(4);
 ```
 
-## Langkah 6: Kenali Barcode dari Gambar
-
-Jalankan pembaca dan keluarkan informasi yang terdekode. Ini adalah langkah akhir dari proses **cara membaca barcode**.
+### Langkah 6: Kenali Barcode dari Gambar
+Jalankan pembaca dan keluarkan informasi yang terdekripsi. Ini menyelesaikan proses **read barcode java**.
 
 ```java
 // Try to recognize the barcode from the image
@@ -106,33 +102,39 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Dengan mengikuti langkah‑langkah ini Anda kini memiliki **pembaca barcode berkinerja tinggi** yang dapat memproses gambar dengan cepat dan dapat diandalkan.
+Dengan mengikuti langkah‑langkah ini Anda kini memiliki **high performance barcode reader** yang dapat memproses gambar dengan cepat dan andal.
+
+## Kasus Penggunaan Umum
+- **Retail checkout systems** di mana ribuan barang dipindai per jam.  
+- **Warehouse inventory apps** yang berjalan pada perangkat Android dan memerlukan umpan balik instan.  
+- **Batch processing pipelines** yang mendekode barcode dari dokumen atau PDF yang dipindai.
 
 ## Masalah Umum dan Solusinya
-- **Tidak ada barcode terdeteksi:** Pastikan jalur gambar benar dan barcode tidak diputar lebih dari 45°. Pertimbangkan meningkatkan `MedianSmoothingWindowSize`.  
-- **Performa lambat meskipun mode berkinerja tinggi diaktifkan:** Pastikan Anda menggunakan JAR Aspose.BarCode terbaru; versi lama mungkin tidak memiliki perbaikan performa.  
-- **Simbol tidak didukung:** Periksa bahwa `DecodeType` yang Anda berikan cocok dengan barcode pada gambar.
+- **No barcode detected:** Verifikasi bahwa path gambar benar dan barcode tidak diputar lebih dari 45°. Pertimbangkan meningkatkan `MedianSmoothingWindowSize`.  
+- **Slow performance despite high‑performance mode:** Pastikan Anda menggunakan JAR Aspose.BarCode terbaru; versi lama mungkin tidak memiliki peningkatan performa.  
+- **Unsupported symbology:** Periksa bahwa `DecodeType` yang Anda berikan cocok dengan barcode pada gambar.  
+- **License‑related errors:** Jika Anda melihat pengecualian lisensi, pastikan lisensi komersial yang valid telah diterapkan—ini merupakan bagian dari praktik terbaik **barcode reader licensing**.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apakah Aspose.BarCode kompatibel dengan berbagai simbol barcode?**  
-J: Ya, ia mendukung beragam simbol 1‑D dan 2‑D, termasuk Code128, QR Code, DataMatrix, dan banyak lagi.
+**Q: Is Aspose.BarCode compatible with different barcode symbologies?**  
+A: Ya, ia mendukung berbagai simbol 1‑D dan 2‑D, termasuk Code128, QR Code, DataMatrix, dan banyak lagi.
 
-**T: Bisakah saya menggunakan Aspose.BarCode untuk pembuatan sekaligus pengenalan barcode?**  
-J: Tentu saja. Perpustakaan ini menyediakan API lengkap untuk membuat dan membaca barcode dalam aplikasi Java.
+**Q: Can I use Aspose.BarCode for both barcode generation and recognition?**  
+A: Tentu saja. Perpustakaan ini menyediakan API lengkap untuk membuat dan membaca barcode dalam aplikasi Java.
 
-**T: Apakah ada opsi lisensi yang tersedia untuk Aspose.BarCode?**  
-J: Ya, Anda dapat menjelajahi berbagai paket lisensi di [halaman pembelian Aspose.BarCode](https://purchase.aspose.com/buy).
+**Q: Are there licensing options available for Aspose.BarCode?**  
+A: Ya, Anda dapat menjelajahi berbagai rencana lisensi di [Aspose.BarCode purchase page](https://purchase.aspose.com/buy).
 
-**T: Apakah ada versi trial gratis dari Aspose.BarCode untuk Java?**  
-J: Ya, versi trial yang berfungsi penuh dapat diunduh dari [halaman rilis Aspose](https://releases.aspose.com/).
+**Q: Is there a free trial version of Aspose.BarCode for Java?**  
+A: Ya, versi percobaan yang berfungsi penuh dapat diunduh dari [Aspose releases page](https://releases.aspose.com/).
 
-**T: Bagaimana cara mendapatkan dukungan atau bergabung dengan komunitas?**  
-J: Kunjungi [forum resmi Aspose.BarCode](https://forum.aspose.com/c/barcode/13) untuk bantuan, contoh, dan diskusi komunitas.
+**Q: How can I get support or join the community?**  
+A: Kunjungi [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) untuk bantuan, contoh, dan diskusi komunitas.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-04  
+**Terakhir Diperbarui:** 2026-02-04  
 **Diuji Dengan:** Aspose.BarCode 24.12 untuk Java  
 **Penulis:** Aspose  
 

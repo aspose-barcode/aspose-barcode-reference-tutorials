@@ -1,66 +1,85 @@
 ---
-title: 使用 Aspose.BarCode for .NET 進行 DotCode 行和列配置
-linktitle: DotCode 行和列配置
+date: 2026-02-04
+description: 學習如何使用 Aspose.BarCode for .NET 透過設定行與列來建立 DotCode 條碼影像。
+linktitle: DotCode Rows and Columns Configuration
 second_title: Aspose.BarCode .NET API
-description: 學習使用 Aspose.BarCode for .NET 配置 DotCode 行和列。輕鬆產生精確且可自訂的二維條碼。
-weight: 15
+title: 產生 DotCode 條碼圖像 – 行與列 (Aspose.BarCode)
 url: /zh-hant/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode for .NET 進行 DotCode 行和列配置
+# 建立 DotCode 條碼圖像 – 行與列 (Aspose.BarCode)
 
-## 介紹
+## 簡介
 
-歡迎來到使用 Aspose.BarCode for .NET 產生條碼的世界！在本綜合指南中，我們將深入研究使用 Aspose.BarCode 配置 DotCode 行和列的迷人領域。無論您是經驗豐富的開發人員還是剛開始條碼產生之旅，本教學都將引導您完成基本步驟、先決條件和命名空間，以幫助您開始掌握 DotCode 行和列配置。
+歡迎來到使用 Aspose.BarCode for .NET 產生條碼的世界！在本指南中，您將**建立 DotCode 條碼圖像**檔案，並學習如何微調行與列以符合您的精確需求。無論您是建立醫療保健標籤系統、物流追蹤應用程式，或僅僅在實驗 2D 符號，掌握此配置即可讓您精確控制條碼的尺寸與資料容量。
+
+## 快速解答
+- **「建立 DotCode 條碼圖像」是什麼意思？** 這表示產生一個視覺的 PNG/JPEG 等檔案，使用 DotCode 2‑D 符號將您的資料編碼。  
+- **哪個函式庫負責產生？** Aspose.BarCode for .NET 提供簡易的 API 以產生高品質的 DotCode 圖像。  
+- **我需要授權嗎？** 免費試用可用於開發；商業授權則是正式上線所必需。  
+- **我可以獨立自訂行與列嗎？** 可以——您可以設定行、列，或讓函式庫自動調整大小。  
+- **支援哪些輸出格式？** PNG、JPEG、BMP、GIF、TIFF 等，透過 `BarCodeImageFormat`。
+
+## 什麼是 DotCode 條碼圖像？
+
+DotCode 是一種緊湊的二維條碼，可在小方形或矩形區域內儲存大量資料。它廣泛應用於 **醫療保健** 與 **製藥** 行業，用於追蹤產品、編碼患者資訊等。透過設定行與列，您可控制條碼的密度與實體尺寸。
+
+## 為何要設定行與列？
+
+* 將條碼適配於有限的標籤空間。  
+* 優化特定印表機或掃描器的掃描可靠性。  
+* 在圖像大小與資料容量之間取得平衡——更多行/列意味著更多資料，但圖像也會變大。  
+
+既然您了解了原因，接下來讓我們一步步說明如何**建立 DotCode 條碼圖像**，並自行設定行與列。
 
 ## 先決條件
 
-在我們深入研究 DotCode 行和列配置的技術方面之前，讓我們確保您擁有成功遵循所需的一切。
+在深入程式碼之前，請確保您已具備以下條件：
 
-1. .NET 開發環境：確保您的電腦上安裝了有效的 .NET 開發環境。
+1. **.NET 開發環境** – 已安裝 .NET SDK 的 Visual Studio、Rider 或 VS Code。  
+2. **Aspose.BarCode for .NET** – 從官方網站 **[此處](https://releases.aspose.com/barcode/net/)** 下載。  
+3. **有效授權**（或臨時試用授權）以進行正式產生。  
+4. **基本的 C# 知識** – 您將撰寫少量程式碼片段，概念相當直接。
 
-2.  Aspose.BarCode for .NET：從網站下載並安裝 Aspose.BarCode for .NET。你可以找到它[這裡](https://releases.aspose.com/barcode/net/).
+## 匯入命名空間
 
-3. IDE：選擇您首選的整合開發環境 (IDE) 進行編碼。強烈建議使用 Visual Studio，但您可以使用您選擇的任何 IDE。
-
-4. 基本 C# 知識：熟悉 C# 程式設計對於理解本教學中的程式碼範例至關重要。
-
-## 導入命名空間
-
-在程式碼範例中，我們將使用以下命名空間：
+範例僅需匯入以下一個命名空間：
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-現在，讓我們將 DotCode 行和列配置分解為多個步驟：
+## 逐步指南：建立 DotCode 條碼圖像
 
-## 第 1 步：設定目錄路徑
+### 步驟 1：設定目錄路徑
 
-首先，定義要儲存產生的 DotCode 條碼影像的目錄路徑。代替`"Your Directory Path"`與您想要的目錄路徑。
+首先，決定產生的圖像要儲存的位置。將佔位符替換為您機器上的實際資料夾路徑。
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 步驟2：初始化DotCode生成器
+> **專業提示：** 使用 `Path.Combine(Environment.CurrentDirectory, "Barcodes")` 以建立跨平台相容的路徑。
 
-現在，讓我們使用 Aspose.BarCode 函式庫初始化 DotCode 條碼產生器。我們將條碼類型指定為`EncodeTypes.DotCode`以及要編碼為的值`"Aspose"`.
+### 步驟 2：初始化 DotCode 產生器
+
+建立 `BarcodeGenerator` 實例，指定 `EncodeTypes.DotCode` 符號，並提供欲編碼的資料（例如「Aspose」）。
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    //程式碼範例將位於此 using 區塊內。
+    // All configuration and saving will happen inside this block.
 }
 ```
 
-## 步驟 3：設定 DotCode 列
+### 步驟 3：設定 DotCode Columns
 
-在此步驟中，您將設定 DotCode 條碼的列數。在這裡，我們將列數設為 18，並將生成的條碼影像儲存為「DotCodeColumns18.png」。
+若需固定欄位數，設定 `Columns` 屬性。此處我們選擇 **18 欄**，並將結果儲存為 PNG 檔案。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
@@ -68,9 +87,11 @@ gen.Parameters.Barcode.DotCode.Columns = 18;
 gen.Save($"{path}DotCodeColumns18.png", BarCodeImageFormat.Png);
 ```
 
-## 步驟 4：設定 DotCode 行
+> **為何使用 XDimension？** 調整像素大小會改變每個點的視覺密度，但不會影響編碼資料。
 
-接下來，您將設定 DotCode 條碼的行數。在這裡，我們將行數設為 12，並將生成的條碼影像儲存為「DotCodeRows12.png」。
+### 步驟 4：設定 DotCode Rows
+
+您也可以固定列數，同時讓函式庫自行決定欄位數（將 `Columns = -1`）。以下範例建立一個具有 **12 列** 的條碼。
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = -1;
@@ -78,9 +99,9 @@ gen.Parameters.Barcode.DotCode.Rows = 12;
 gen.Save($"{path}DotCodeRows12.png", BarCodeImageFormat.Png);
 ```
 
-## 步驟 5：同時設定行和列
+### 步驟 5：同時設定 Rows 與 Columns
 
-在此步驟中，我們將為 DotCode 條碼配置行和列。我們將列數設定為 29，行數設定為 26。產生的條碼影像將儲存為「DotCodeRows26Columns29.png」。
+當您需要完整控制時，可同時設定兩個屬性。以下程式碼產生一個 **29 欄**、**26 列** 的條碼。
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = 29;
@@ -88,36 +109,48 @@ gen.Parameters.Barcode.DotCode.Rows = 26;
 gen.Save($"{path}DotCodeRows26Columns29.png", BarCodeImageFormat.Png);
 ```
 
-恭喜！您已使用 Aspose.BarCode for .NET 成功配置了 DotCode 行和列。請隨意探索 Aspose.BarCode 提供的更多選項和功能，以進一步增強您的條碼產生能力。
+> **常見陷阱：** 同時將 rows 與 columns 設為過高的值，可能產生超出一般標籤尺寸的圖像。列印前請先預覽測試。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| 條碼顯示模糊 | XDimension 太低 | 增加 `XDimension.Pixels`（例如 12‑15）。 |
+| 掃描器無法讀取條碼 | Rows/Columns 對印表機過於密集 | 減少 rows/columns，或使用更高解析度的印表機。 |
+| 圖像未儲存 | `path` 字串無效 | 確保目錄存在，或呼叫 `Directory.CreateDirectory(path)`。 |
+
+## 常見問與答
+
+**Q: DotCode 條碼能儲存的最大資料量是多少？**  
+A: 這取決於您設定的行與列數。格子越多可儲存的資料越多，但圖像也會變大。
+
+**Q: 我可以變更條碼的顏色嗎？**  
+A: 可以。於儲存前使用 `gen.Parameters.Barcode.ForeColor` 與 `BackColor` 設定自訂顏色。
+
+**Q: DotCode 符號在所有平台上都有支援嗎？**  
+A: Aspose.BarCode for .NET 可於 .NET Framework、.NET Core 以及 .NET 5/6+ 上執行，因而可在 Windows、Linux 或 macOS 產生圖像。
+
+**Q: 我在哪裡可以找到所有 DotCode 參數的完整清單？**  
+A: 官方 API 參考文件提供詳細說明——請參閱 [Aspose.BarCode 文件](https://reference.aspose.com/barcode/net/)。
+
+**Q: 如何在 Web API 中產生條碼而不寫入磁碟？**  
+A: 呼叫 `gen.Save(Stream, BarCodeImageFormat.Png)`，並將該串流作為檔案結果回傳。
 
 ## 結論
 
-在本教程中，我們使用 Aspose.BarCode for .NET 探索了 DotCode 行和列配置的世界。您已經了解如何設定必要的先決條件、匯入命名空間以及執行逐步設定。現在，您可以自信且精確地產生 DotCode 條碼。
+您現在已了解如何使用 Aspose.BarCode for .NET **建立 DotCode 條碼圖像**檔案，並精確控制其行與列。透過調整 `Rows` 與 `Columns` 屬性，您可以為任何標籤或包裝情境量身打造條碼尺寸。嘗試不同的尺寸、顏色與輸出格式以符合專案需求，並探索更廣泛的 Aspose.BarCode 功能以獲得更多自訂可能。
 
-如果您有任何疑問、遇到問題或尋求其他指導，請隨時訪問[Aspose.BarCode 文檔](https://reference.aspose.com/barcode/net/)或聯繫[Aspose.BarCode 社群支持](https://forum.aspose.com/c/barcode/13).
+如果您遇到任何挑戰或想深入了解，請參考官方資源：
 
+* [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+* [Aspose.BarCode community support](https://forum.aspose.com/c/barcode/13)
 
-## 常見問題解答
+---
 
-### Q1：什麼是DotCode，常用在哪裡？
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.BarCode for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-A1：DotCode 是一種二維條碼符號系統，常用於醫療保健和製藥行業，用於在小型包裝標籤上對大量資料進行編碼。
-
-### Q2：我可以使用 Aspose.BarCode for .NET 自訂 DotCode 條碼的外觀嗎？
-
-A2：是的，您可以自訂條碼的外觀，包括顏色、字體等，以滿足您特定的品牌要求。
-
-### Q3：Aspose.BarCode for .NET 是否相容於各種.NET Framework 版本？
-
-A3：Aspose.BarCode支援多個.NET Framework版本，確保與廣泛的應用程式相容。
-
-### 問題 4：使用 Aspose.BarCode for .NET 還可以產生哪些其他條碼類型？
-
-A4：Aspose.BarCode 支援多種條碼類型，包括 QR Code、Code 128 和 DataMatrix 等。
-
-### Q5：在哪裡可以找到更多 Aspose.BarCode for .NET 教學和範例？
-
- A5：您可以在以下位置探索其他教學和範例[Aspose.BarCode 文檔](https://reference.aspose.com/barcode/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

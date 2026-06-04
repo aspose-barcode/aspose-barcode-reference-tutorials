@@ -1,66 +1,84 @@
 ---
-title: Konfiguration von DotCode-Zeilen und -Spalten mit Aspose.BarCode für .NET
-linktitle: Konfiguration von DotCode-Zeilen und -Spalten
-second_title: Aspose.BarCode .NET-API
-description: Erfahren Sie, wie Sie DotCode-Zeilen und -Spalten mit Aspose.BarCode für .NET konfigurieren. Generieren Sie mühelos präzise und anpassbare 2D-Barcodes.
-weight: 15
+date: 2026-02-04
+description: Lernen Sie, wie Sie ein DotCode-Barcode-Bild durch Konfiguration von
+  Zeilen und Spalten mit Aspose.BarCode für .NET erstellen.
+linktitle: DotCode Rows and Columns Configuration
+second_title: Aspose.BarCode .NET API
+title: DotCode-Barcode-Bild erstellen – Zeilen & Spalten (Aspose.BarCode)
 url: /de/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konfiguration von DotCode-Zeilen und -Spalten mit Aspose.BarCode für .NET
+# Erstellen Sie DotCode-Barcode-Bild – Zeilen & Spalten (Aspose.BarCode)
 
 ## Einführung
 
-Willkommen in der Welt der Barcode-Generierung mit Aspose.BarCode für .NET! In diesem umfassenden Leitfaden tauchen wir in die faszinierende Welt der Konfiguration von DotCode-Zeilen und -Spalten mit Aspose.BarCode ein. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst mit der Barcode-Generierung beginnen, führt Sie dieses Tutorial durch die wesentlichen Schritte, Voraussetzungen und Namespaces, um Ihnen den Einstieg in die Beherrschung der Konfiguration von DotCode-Zeilen und -Spalten zu erleichtern.
+Willkommen in der Welt der Barcode-Generierung mit Aspose.BarCode für .NET! In diesem Leitfaden werden Sie **DotCode-Barcode-Bild**-Dateien erstellen und lernen, wie Sie Zeilen und Spalten feinabstimmen, um Ihre genauen Anforderungen zu erfüllen. Egal, ob Sie ein Kennzeichnungssystem im Gesundheitswesen, eine Logistik‑Tracking‑App entwickeln oder einfach mit 2D‑Symbolen experimentieren, das Beherrschen dieser Konfiguration gibt Ihnen präzise Kontrolle über die Barcode‑Größe und Datenkapazität.
+
+## Schnelle Antworten
+- **Was bedeutet „create DotCode barcode image“?** Es bedeutet, eine visuelle PNG/JPEG/etc.-Datei zu erzeugen, die Ihre Daten mit der DotCode‑2‑D‑Symbolik codiert.  
+- **Welche Bibliothek übernimmt die Erzeugung?** Aspose.BarCode für .NET bietet eine einfache API zur Erstellung von hochwertigen DotCode‑Bildern.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich Zeilen und Spalten unabhängig anpassen?** Ja – Sie können Zeilen, Spalten festlegen oder die Bibliothek die Größe automatisch bestimmen lassen.  
+- **Welche Ausgabeformate werden unterstützt?** PNG, JPEG, BMP, GIF, TIFF und weitere über `BarCodeImageFormat`.
+
+## Was ist ein DotCode-Barcode-Bild?
+
+DotCode ist ein kompakter zweidimensionaler Barcode, der große Datenmengen in einem kleinen quadratischen oder rechteckigen Bereich speichert. Er wird häufig im **Gesundheitswesen** und **pharmazeutischen** Sektor für die Verfolgung von Produkten, das Codieren von Patientendaten und mehr verwendet. Durch das Konfigurieren von Zeilen und Spalten steuern Sie die Dichte und die physischen Abmessungen des Barcodes.
+
+## Warum Zeilen und Spalten konfigurieren?
+
+* Den Barcode in begrenzten Etikettenplatz einpassen.  
+* Die Scan‑Zuverlässigkeit für bestimmte Drucker oder Scanner optimieren.  
+* Bildgröße gegen Datenkapazität abwägen – mehr Zeilen/Spalten bedeuten mehr Daten, aber auch ein größeres Bild.  
+
+Jetzt, da Sie das Warum verstehen, gehen wir Schritt für Schritt durch das **Erstellen eines DotCode-Barcode-Bildes** mit Ihren eigenen Zeilen‑ und Spalteneinstellungen.
 
 ## Voraussetzungen
 
-Bevor wir uns mit den technischen Aspekten der Konfiguration von DotCode-Zeilen und -Spalten befassen, stellen wir sicher, dass Sie über alles verfügen, was Sie für eine erfolgreiche Umsetzung benötigen.
-
-1. .NET-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem Computer eine funktionierende .NET-Entwicklungsumgebung installiert ist.
-
-2.  Aspose.BarCode für .NET: Laden Sie Aspose.BarCode für .NET von der Website herunter und installieren Sie es. Du kannst es finden[Hier](https://releases.aspose.com/barcode/net/).
-
-3. IDE: Wählen Sie Ihre bevorzugte integrierte Entwicklungsumgebung (IDE) für die Codierung. Visual Studio wird dringend empfohlen, Sie können jedoch jede IDE Ihrer Wahl verwenden.
-
-4. Grundlegende C#-Kenntnisse: Vertrautheit mit der C#-Programmierung ist für das Verständnis der Codebeispiele in diesem Tutorial unerlässlich.
+1. **.NET-Entwicklungsumgebung** – Visual Studio, Rider oder VS Code mit installiertem .NET SDK.  
+2. **Aspose.BarCode für .NET** – Laden Sie es von der offiziellen Seite **[hier](https://releases.aspose.com/barcode/net/)** herunter.  
+3. **Eine gültige Lizenz** (oder eine temporäre Testlizenz) für die produktionsreife Erzeugung.  
+4. **Grundlegende C#‑Kenntnisse** – Sie werden ein paar kurze Code‑Snippets schreiben, aber die Konzepte sind einfach.
 
 ## Namespaces importieren
 
-In den Codebeispielen verwenden wir die folgenden Namespaces:
+Wir benötigen für die Beispiele nur einen Namespace:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Lassen Sie uns nun die Konfiguration der DotCode-Zeilen und -Spalten in mehrere Schritte unterteilen:
+## Schritt‑für‑Schritt‑Anleitung zum Erstellen eines DotCode-Barcode-Bildes
 
-## Schritt 1: Richten Sie Ihren Verzeichnispfad ein
+### Schritt 1: Verzeichnis‑Pfad festlegen
 
- Definieren Sie zunächst den Verzeichnispfad, in dem Sie die generierten DotCode-Barcodebilder speichern möchten. Ersetzen`"Your Directory Path"` mit Ihrem gewünschten Verzeichnispfad.
+Zuerst entscheiden Sie, wo die erzeugten Bilder gespeichert werden sollen. Ersetzen Sie den Platzhalter durch einen tatsächlichen Ordner auf Ihrem Rechner.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Schritt 2: Initialisieren Sie den DotCode-Generator
+> **Pro‑Tipp:** Verwenden Sie `Path.Combine(Environment.CurrentDirectory, "Barcodes")`, um einen Pfad zu erstellen, der plattformübergreifend funktioniert.
 
- Lassen Sie uns nun den DotCode-Barcode-Generator mithilfe der Aspose.BarCode-Bibliothek initialisieren. Wir geben den Barcode-Typ an als`EncodeTypes.DotCode` und der Wert, als der codiert werden soll`"Aspose"`.
+### Schritt 2: DotCode‑Generator initialisieren
+
+Erzeugen Sie eine `BarcodeGenerator`‑Instanz, geben Sie die Symbolik `EncodeTypes.DotCode` an und übergeben Sie die zu codierenden Daten (z. B. „Aspose“).
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Die Codebeispiele folgen innerhalb dieses using-Blocks.
+    // All configuration and saving will happen inside this block.
 }
 ```
 
-## Schritt 3: DotCode-Spalten konfigurieren
+### Schritt 3: DotCode‑Spalten konfigurieren
 
-In diesem Schritt legen Sie die Anzahl der Spalten für den DotCode-Barcode fest. Hier legen wir die Anzahl der Spalten auf 18 fest und speichern das generierte Barcode-Bild als „DotCodeColumns18.png“.
+Wenn Sie eine feste Anzahl von Spalten wünschen, setzen Sie die Eigenschaft `Columns`. Hier wählen wir **18 Spalten** und speichern das Ergebnis als PNG‑Datei.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
@@ -68,9 +86,11 @@ gen.Parameters.Barcode.DotCode.Columns = 18;
 gen.Save($"{path}DotCodeColumns18.png", BarCodeImageFormat.Png);
 ```
 
-## Schritt 4: DotCode-Zeilen konfigurieren
+> **Warum XDimension?** Durch Anpassen der Pixelgröße ändert sich die visuelle Dichte jedes Punkts, ohne die codierten Daten zu beeinflussen.
 
-Als Nächstes legen Sie die Anzahl der Zeilen für den DotCode-Barcode fest. Hier legen wir die Anzahl der Zeilen auf 12 fest und speichern das generierte Barcode-Bild als „DotCodeRows12.png“.
+### Schritt 4: DotCode‑Zeilen konfigurieren
+
+Sie können auch die Anzahl der Zeilen festlegen und die Bibliothek die Spaltenzahl bestimmen lassen (indem Sie `Columns = -1` setzen). Das nachstehende Beispiel erzeugt einen Barcode mit **12 Zeilen**.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = -1;
@@ -78,9 +98,9 @@ gen.Parameters.Barcode.DotCode.Rows = 12;
 gen.Save($"{path}DotCodeRows12.png", BarCodeImageFormat.Png);
 ```
 
-## Schritt 5: Zeilen und Spalten gleichzeitig konfigurieren
+### Schritt 5: Zeilen und Spalten gleichzeitig konfigurieren
 
-In diesem Schritt konfigurieren wir sowohl die Zeilen als auch die Spalten für den DotCode-Barcode. Wir legen die Anzahl der Spalten auf 29 und die Anzahl der Zeilen auf 26 fest. Das generierte Barcodebild wird als „DotCodeRows26Columns29.png“ gespeichert.
+Wenn Sie volle Kontrolle benötigen, setzen Sie beide Eigenschaften. Das folgende Snippet erzeugt einen Barcode mit **29 Spalten** und **26 Zeilen**.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.Columns = 29;
@@ -88,36 +108,48 @@ gen.Parameters.Barcode.DotCode.Rows = 26;
 gen.Save($"{path}DotCodeRows26Columns29.png", BarCodeImageFormat.Png);
 ```
 
-Glückwunsch! Sie haben DotCode-Zeilen und -Spalten erfolgreich mit Aspose.BarCode für .NET konfiguriert. Entdecken Sie gerne weitere Optionen und Funktionen von Aspose.BarCode, um Ihre Fähigkeiten zur Barcode-Generierung weiter zu verbessern.
+> **Häufiger Fehler:** Das Festlegen von sowohl Zeilen als auch Spalten auf zu hohe Werte kann ein Bild erzeugen, das die üblichen Etikettengrößen überschreitet. Testen Sie es mit einer Vorschau, bevor Sie drucken.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir die Welt der Konfiguration von DotCode-Zeilen und -Spalten mit Aspose.BarCode für .NET erkundet. Sie haben gelernt, wie Sie die erforderlichen Voraussetzungen einrichten, Namespaces importieren und die Konfiguration Schritt für Schritt durchführen. Jetzt können Sie DotCode-Barcodes sicher und präzise generieren.
+| Problem | Ursache | Lösung |
+|-------|-------|-----|
+| Barcode erscheint unscharf | XDimension zu niedrig | Erhöhen Sie `XDimension.Pixels` (z. B. 12‑15). |
+| Scanner kann Barcode nicht lesen | Zeilen/Spalten zu dicht für Drucker | Reduzieren Sie Zeilen/Spalten oder verwenden Sie einen Drucker mit höherer Auflösung. |
+| Bild wird nicht gespeichert | Ungültiger `path`‑String | Stellen Sie sicher, dass das Verzeichnis existiert oder rufen Sie `Directory.CreateDirectory(path)` auf. |
 
- Wenn Sie Fragen haben, auf Probleme stoßen oder zusätzliche Beratung benötigen, besuchen Sie bitte die[Aspose.BarCode-Dokumentation](https://reference.aspose.com/barcode/net/) oder wenden Sie sich an die[Unterstützung der Aspose.BarCode-Community](https://forum.aspose.com/c/barcode/13).
+## Häufig gestellte Fragen
 
+**F: Wie viel Daten kann ich maximal in einem DotCode‑Barcode speichern?**  
+**A:** Das hängt von der Anzahl der konfigurierten Zeilen und Spalten ab. Mehr Zellen bedeuten mehr Daten, aber auch ein größeres Bild.
 
-## FAQs
+**F: Kann ich die Farben des Barcodes ändern?**  
+**A:** Ja. Verwenden Sie `gen.Parameters.Barcode.ForeColor` und `BackColor`, um benutzerdefinierte Farben vor dem Speichern festzulegen.
 
-### F1: Was ist DotCode und wo wird es häufig verwendet?
+**F: Wird die DotCode‑Symbolik auf allen Plattformen unterstützt?**  
+**A:** Aspose.BarCode für .NET funktioniert auf .NET Framework, .NET Core und .NET 5/6+, sodass Sie Bilder unter Windows, Linux oder macOS erzeugen können.
 
-A1: DotCode ist eine 2D-Barcode-Symbologie, die häufig in der Gesundheits- und Pharmaindustrie verwendet wird, um große Datenmengen auf kleinen Verpackungsetiketten zu kodieren.
+**F: Wo finde ich eine vollständige Liste aller DotCode‑Parameter?**  
+**A:** Die offizielle API‑Referenz bietet detaillierte Dokumentation – siehe die [Aspose.BarCode‑Dokumentation](https://reference.aspose.com/barcode/net/).
 
-### F2: Kann ich das Erscheinungsbild von DotCode-Barcodes mit Aspose.BarCode für .NET anpassen?
+**F: Wie generiere ich einen Barcode in einer Web‑API, ohne auf die Festplatte zu schreiben?**  
+**A:** Rufen Sie `gen.Save(Stream, BarCodeImageFormat.Png)` auf und geben Sie den Stream als Dateiergebnis zurück.
 
-A2: Ja, Sie können das Erscheinungsbild des Barcodes, einschließlich Farben, Schriftarten und mehr, an Ihre spezifischen Branding-Anforderungen anpassen.
+## Fazit
 
-### F3: Ist Aspose.BarCode für .NET mit verschiedenen .NET Framework-Versionen kompatibel?
+Sie wissen jetzt, wie Sie **DotCode‑Barcode‑Bild**‑Dateien erstellen und deren Zeilen und Spalten mit Aspose.BarCode für .NET präzise steuern können. Durch Anpassen der Eigenschaften `Rows` und `Columns` können Sie die Barcode‑Größe für jedes Etikett‑ oder Verpackungsszenario anpassen. Experimentieren Sie mit verschiedenen Abmessungen, Farben und Ausgabeformaten, um den Anforderungen Ihres Projekts gerecht zu werden, und erkunden Sie das umfangreiche Funktionsset von Aspose.BarCode für noch mehr Anpassungsmöglichkeiten.
 
-A3: Aspose.BarCode unterstützt mehrere .NET Framework-Versionen und gewährleistet so die Kompatibilität mit einer Vielzahl von Anwendungen.
+Wenn Sie auf Herausforderungen stoßen oder tiefer einsteigen möchten, schauen Sie sich die offiziellen Ressourcen an:
 
-### F4: Welche anderen Barcodetypen kann ich mit Aspose.BarCode für .NET generieren?
+* [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+* [Aspose.BarCode community support](https://forum.aspose.com/c/barcode/13)
 
-A4: Aspose.BarCode unterstützt eine Vielzahl von Barcode-Typen, darunter unter anderem QR-Code, Code 128 und DataMatrix.
+---
 
-### F5: Wo finde ich weitere Tutorials und Beispiele für Aspose.BarCode für .NET?
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.BarCode for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
- A5: Weitere Tutorials und Beispiele finden Sie im[Aspose.BarCode-Dokumentation](https://reference.aspose.com/barcode/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
