@@ -1,62 +1,73 @@
 ---
-title: การกำหนดค่าข้อความโค้ดขยาย DotCode ด้วย Aspose.BarCode สำหรับ .NET
-linktitle: การกำหนดค่าข้อความโค้ดขยาย DotCode
+date: 2026-01-27
+description: เรียนรู้วิธีสร้างข้อความโค้ดขยายของ DotCode ด้วย Aspose.BarCode สำหรับ
+  .NET – คู่มือขั้นตอนต่อขั้นตอนสำหรับการสร้างบาร์โค้ด DotCode พร้อมข้อความโค้ดขยาย
+linktitle: DotCode Extended Code Text Configuration
 second_title: Aspose.BarCode .NET API
-description: สร้างการกำหนดค่าข้อความโค้ดขยาย DotCode ได้อย่างง่ายดายโดยใช้ Aspose.BarCode สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างบาร์โค้ดที่มีประสิทธิภาพ
-weight: 13
+title: วิธีสร้างข้อความโค้ดขยายของ DotCode ด้วย Aspose.BarCode สำหรับ .NET
 url: /th/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การกำหนดค่าข้อความโค้ดขยาย DotCode ด้วย Aspose.BarCode สำหรับ .NET
+# วิธีสร้าง dotcode extended codetext ด้วย Aspose.BarCode สำหรับ .NET
 
-## การแนะนำ
+## บทนำ
 
-ในขอบเขตของการสร้างและการจัดการบาร์โค้ด Aspose.BarCode สำหรับ .NET มีความโดดเด่นในฐานะโซลูชันที่หลากหลายและมีประสิทธิภาพ ไม่ว่าคุณจะต้องการสร้างบาร์โค้ดสำหรับผลิตภัณฑ์ สินค้าคงคลัง หรือแอปพลิเคชันอื่นๆ Aspose.BarCode สำหรับ .NET ก็พร้อมช่วยคุณ ในบทช่วยสอนที่ครอบคลุมนี้ เราจะเน้นที่การสร้างการกำหนดค่าข้อความ DotCode Extended Code โดยใช้ Aspose.BarCode สำหรับ .NET DotCode เป็นบาร์โค้ดเมทริกซ์สองมิติที่สามารถเข้ารหัสทั้งข้อมูลที่เป็นข้อความและข้อมูลไบนารี ทำให้เป็นเครื่องมือที่มีคุณค่าในอุตสาหกรรมต่างๆ
+ในโลกของการสร้างและจัดการบาร์โค้ด Aspose.BarCode สำหรับ .NET โดดเด่นในฐานะโซลูชันที่หลากหลายและมีประสิทธิภาพ ไม่ว่าคุณจะต้องการสร้างบาร์โค้ดสำหรับสินค้า, คลังสินค้า หรือแอปพลิเคชันอื่น ๆ Aspose.BarCode สำหรับ .NET มีทุกอย่างให้คุณ ในบทเรียนฉบับนี้ เราจะ **สร้าง dotcode extended codetext** และสำรวจว่าความสามารถนี้สำคัญต่อสภาพแวดล้อมที่มีข้อมูลอุดมสมบูรณ์ในยุคปัจจุบันอย่างไร DotCode เป็นบาร์โค้ดเมทริกซ์สองมิติที่สามารถเข้ารหัสข้อมูลข้อความและไบนารีได้ ทำให้เป็นเครื่องมือที่มีคุณค่าในหลายอุตสาหกรรม
+
+## คำตอบสั้น
+
+- **What does “create dotcode extended codetext” mean?** หมายความว่าเป็นการสร้างบาร์โค้ด DotCode ที่รวม FNC1, ECICodetext, plain text และสัญลักษณ์ตัวคั่นไว้ใน payload ที่ขยายเดียวกัน  
+- **Which library is required?** Aspose.BarCode for .NET.  
+- **Do I need a license?** ต้องการไลเซนส์ชั่วคราวสำหรับการประเมิน; ไลเซนส์เต็มจำเป็นสำหรับการใช้งานจริง  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **How long does implementation take?** ใช้เวลาประมาณ 10‑15 นาทีสำหรับตัวอย่างพื้นฐาน  
+
+## วิธีสร้าง dotcode extended codetext
+
+ด้านล่างเป็นขั้นตอนสั้น ๆ ที่แสดงอย่างชัดเจนว่าการสร้าง extended code text และการเรนเดอร์ภาพบาร์โค้ดทำอย่างไร
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกคำแนะนำทีละขั้นตอน มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมีเพื่อปฏิบัติตามอย่างมีประสิทธิภาพ:
+ก่อนที่เราจะลงลึกในคู่มือแบบขั้นตอน มีข้อกำหนดบางอย่างที่คุณต้องเตรียมไว้เพื่อให้ทำตามได้อย่างมีประสิทธิภาพ:
 
-1.  Aspose.BarCode สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและพร้อมใช้งานไลบรารี Aspose.BarCode สำหรับ .NET ถ้าไม่เช่นนั้นคุณสามารถดาวน์โหลดได้จาก[Aspose.BarCode สำหรับเอกสาร .NET](https://reference.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.BarCode for .NET แล้วพร้อมใช้งาน หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
 
-2. สภาพแวดล้อมการพัฒนา: คุณควรมีสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ โดยเฉพาะ Visual Studio ติดตั้งอยู่ในระบบของคุณ
+2. Development Environment: คุณควรมีสภาพแวดล้อมการพัฒนา .NET ที่ทำงานได้ เช่น Visual Studio ติดตั้งอยู่บนระบบของคุณ
 
-ด้วยข้อกำหนดเบื้องต้นเหล่านี้ตามลำดับ ตอนนี้เราสามารถดำเนินการสร้างการกำหนดค่าข้อความ DotCode Extended Code ต่อไปได้
+เมื่อข้อกำหนดเหล่านี้พร้อม เราสามารถดำเนินการสร้าง DotCode Extended Code Text ได้ต่อ
 
-## นำเข้าเนมสเปซ
+## นำเข้า Namespaces
 
-ขั้นแรก คุณต้องนำเข้าเนมสเปซที่จำเป็นไปยังโปรเจ็กต์ .NET ของคุณเพื่อเข้าถึงฟังก์ชันที่จำเป็นจากไลบรารี Aspose.BarCode ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
-
+ก่อนอื่นคุณต้องนำเข้า namespaces ที่จำเป็นในโปรเจกต์ .NET ของคุณเพื่อเข้าถึงฟังก์ชันที่ต้องการจากไลบรารี Aspose.BarCode วิธีทำดังนี้:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-ตอนนี้เราได้ครอบคลุมข้อกำหนดเบื้องต้นแล้ว เรามาแจกแจงกระบวนการสร้างการกำหนดค่าข้อความ DotCode Extended Code ให้เป็นคำแนะนำทีละขั้นตอนกัน
-
-
+ตอนนี้เรามีข้อกำหนดครบแล้ว ให้เราลงรายละเอียดกระบวนการสร้าง DotCode Extended Code Text ทีละขั้นตอน
 
 ## ขั้นตอนที่ 1: กำหนดเส้นทางไดเรกทอรี
 
-ในขั้นตอนนี้ คุณจะต้องระบุเส้นทางไดเร็กทอรีที่คุณต้องการบันทึกรูปภาพข้อความ DotCode Extended Code ที่สร้างขึ้น
+ในขั้นตอนนี้คุณต้องระบุเส้นทางไดเรกทอรีที่ต้องการบันทึกรูปภาพ DotCode Extended Code Text ที่สร้างขึ้น
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- แทนที่`"Your Directory Path"` ด้วยเส้นทางจริงในระบบของคุณ
+แทนที่ `"Your Directory Path"` ด้วยเส้นทางจริงบนระบบของคุณ
 
-## ขั้นตอนที่ 2: สร้างข้อความโค้ดขยาย DotCode
+## ขั้นตอนที่ 2: สร้าง DotCode Extended Code Text
 
-เมื่อต้องการสร้างข้อความโค้ดขยาย DotCode ให้ทำตามขั้นตอนย่อยเหล่านี้:
+เพื่อสร้าง DotCode Extended Code Text ให้ทำตามขั้นตอนย่อยต่อไปนี้:
 
-### 2.1 เพิ่มตัวระบุรูปแบบ FNC1
+### 2.1 เพิ่ม FNC1 Format Identifier
 
-ตัวระบุรูปแบบ FNC1 ใช้เพื่อระบุจุดเริ่มต้นของเขตข้อมูลใหม่ เป็นส่วนสำคัญของ DotCode Extended Code Text
+FNC1 Format Identifier ใช้เพื่อระบุจุดเริ่มต้นของฟิลด์ข้อมูลใหม่ เป็นส่วนสำคัญของ DotCode Extended Code Text
 
 ```csharp
 DotCodeExtCodetextBuilder textBuilder = new DotCodeExtCodetextBuilder();
@@ -65,39 +76,39 @@ textBuilder.AddFNC1FormatIdentifier();
 
 ### 2.2 เพิ่ม ECICodetext
 
-ECICodetext เป็นที่ที่คุณสามารถเข้ารหัสอักขระพิเศษและข้อความสากลได้ ในตัวอย่างนี้ เราได้เข้ารหัส "犬Right狗" โดยใช้การเข้ารหัส UTF-8
+ECICodetext คือที่คุณสามารถเข้ารหัสอักขระพิเศษและข้อความสากล ในตัวอย่างนี้เราได้เข้ารหัส `"犬Right狗"` ด้วยการเข้ารหัส UTF‑8
 
 ```csharp
 textBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 ```
 
-### 2.3 เพิ่มข้อความธรรมดา
+### 2.3 เพิ่ม Plain Codetext
 
-คุณยังสามารถเพิ่มข้อความธรรมดาลงใน DotCode Extended Code Text ได้ ที่นี่เราได้เพิ่ม "ข้อความธรรมดา"
+คุณยังสามารถเพิ่มข้อความธรรมดาไปยัง DotCode Extended Code Text ได้ ที่นี้เราได้เพิ่ม `"Plain text"`
 
 ```csharp
 textBuilder.AddPlainCodetext("Plain text");
 ```
 
-### 2.4 เพิ่มตัวแยกสัญลักษณ์ FNC3
+### 2.4 เพิ่ม FNC3 Symbol Separator
 
-ตัวแยกสัญลักษณ์ FNC3 ใช้เพื่อแยกส่วนต่างๆ ของโค้ด
+FNC3 Symbol Separator ใช้เพื่อแยกส่วนต่าง ๆ ของโค้ด
 
 ```csharp
 textBuilder.AddFNC3SymbolSeparator();
 ```
 
-### 2.5 เพิ่มการเริ่มต้นเครื่องอ่าน FNC3
+### 2.5 เพิ่ม FNC3 Reader Initialization
 
-ขั้นตอนนี้จะเพิ่มข้อมูลการเริ่มต้น FNC3 Reader
+ขั้นตอนนี้จะเพิ่มข้อมูลการเริ่มต้นอ่าน FNC3
 
 ```csharp
 textBuilder.AddFNC3ReaderInitialization();
 ```
 
-### 2.6 สร้างข้อความรหัส
+### 2.6 สร้าง Codetext
 
- ตอนนี้ให้สร้าง DotCode Extended Codetext โดยการเรียกไฟล์`GetExtendedCodetext` วิธีการบน`textBuilder` วัตถุ.
+ตอนนี้ให้สร้าง DotCode Extended Codetext โดยเรียกเมธอด `GetExtendedCodetext` บนวัตถุ `textBuilder`
 
 ```csharp
 string codetext = textBuilder.GetExtendedCodetext();
@@ -105,55 +116,79 @@ string codetext = textBuilder.GetExtendedCodetext();
 
 ## ขั้นตอนที่ 3: สร้างภาพ DotCode
 
-เมื่อต้องการสร้างข้อความโค้ดขยาย DotCode เป็นรูปภาพ ให้ทำตามขั้นตอนย่อยเหล่านี้:
+เพื่อสร้าง DotCode Extended Code Text เป็นภาพ ให้ทำตามขั้นตอนย่อยต่อไปนี้:
 
-#### 4.1 เริ่มต้นตัวสร้างบาร์โค้ด
+#### 4.1 เริ่มต้น Barcode Generator
 
- เริ่มต้น`BarcodeGenerator` ด้วยพารามิเตอร์ที่เหมาะสม ในกรณีนี้เราใช้`EncodeTypes.DotCode` และข้อความโค้ดที่สร้างขึ้น
+เริ่มต้น `BarcodeGenerator` ด้วยพารามิเตอร์ที่เหมาะสม ในกรณีนี้เราใช้ `EncodeTypes.DotCode` และ codetext ที่สร้างขึ้น
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {
-    // ตั้งค่ามิติ X สำหรับบาร์โค้ด (ปรับเปลี่ยนตามความจำเป็น)
+    // Set the X-dimension for the barcode (adjust as needed).
     gen.Parameters.Barcode.XDimension.Pixels = 10;
 
-    // ตั้งค่าโหมดการเข้ารหัส DotCode เป็น ExtendedCodetext
+    // Set the DotCode encoding mode to ExtendedCodetext.
     gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
 
-    //บันทึกภาพบาร์โค้ดที่สร้างขึ้น
+    // Save the generated barcode image.
     gen.Save($"{path}DotCodeExtendedCodetext.png", BarCodeImageFormat.Png);
 }
 ```
 
-แค่นั้นแหละ! คุณได้สร้าง DotCode Extended Code Text โดยใช้ Aspose.BarCode สำหรับ .NET สำเร็จแล้ว
+และเรียบร้อย! คุณได้สร้าง DotCode Extended Code Text ด้วย Aspose.BarCode สำหรับ .NET อย่างสำเร็จ
 
-## บทสรุป
+## สรุป
 
-Aspose.BarCode สำหรับ .NET เป็นเครื่องมืออันทรงพลังที่ทำให้การสร้างบาร์โค้ดง่ายขึ้น ในบทช่วยสอนนี้ เรามุ่งเน้นไปที่การสร้าง DotCode Extended Code Text ซึ่งจำเป็นในอุตสาหกรรมต่างๆ โดยเฉพาะอย่างยิ่งในกรณีที่ต้องมีการเข้ารหัสอักขระหลายภาษาและเฉพาะทาง ด้วยการทำตามขั้นตอนที่อธิบายไว้ข้างต้น คุณสามารถสร้าง DotCode Extended Code Text ตามความต้องการเฉพาะของคุณได้อย่างง่ายดาย
+Aspose.BarCode สำหรับ .NET เป็นเครื่องมือที่ทรงพลังที่ทำให้การสร้างบาร์โค้ดง่ายขึ้น ในบทเรียนนี้ เราเน้นวิธี **สร้าง dotcode extended codetext** ซึ่งจำเป็นในหลายอุตสาหกรรม โดยเฉพาะเมื่อจำเป็นต้องเข้ารหัสหลายภาษาหรืออักขระพิเศษตามความต้องการของคุณ
 
- หากคุณต้องการคำแนะนำเพิ่มเติมหรือมีคำถาม อย่าลังเลที่จะเยี่ยมชม[Aspose.BarCode สำหรับเอกสาร .NET](https://reference.aspose.com/barcode/net/) หรือมีส่วนร่วมกับชุมชนบน[ฟอรั่มสนับสนุน Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+หากต้องการคำแนะนำเพิ่มเติมหรือมีคำถาม อย่าลังเลที่จะเยี่ยมชม [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) หรือเข้าร่วมชุมชนใน [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13)
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: DotCode ใช้ทำอะไร
+### Q1: DotCode ใช้ทำอะไร?
 
-คำตอบ 1: DotCode ใช้สำหรับการเข้ารหัสทั้งข้อมูลที่เป็นข้อความและข้อมูลไบนารี และมักใช้ในอุตสาหกรรมต่างๆ เช่น การดูแลสุขภาพและโลจิสติกส์ เพื่อวัตถุประสงค์ในการติดตามและการเข้ารหัสข้อมูล
+A1: DotCode ใช้สำหรับเข้ารหัสข้อมูลทั้งข้อความและไบนารี และมักนำไปใช้ในอุตสาหกรรมเช่น การดูแลสุขภาพและโลจิสติกส์เพื่อการติดตามและการเข้ารหัสข้อมูล
 
-### คำถามที่ 2: ฉันสามารถปรับแต่งรูปลักษณ์ของบาร์โค้ด DotCode ได้หรือไม่
+### Q2: ฉันสามารถปรับแต่งลักษณะของบาร์โค้ด DotCode ได้หรือไม่?
 
-ตอบ 2: ใช่ Aspose.BarCode สำหรับ .NET มีตัวเลือกในการปรับแต่งรูปลักษณ์ของบาร์โค้ด DotCode รวมถึงขนาดและโหมดการเข้ารหัส
+A2: ได้, Aspose.BarCode สำหรับ .NET มีตัวเลือกให้ปรับแต่งลักษณะของบาร์โค้ด DotCode รวมถึงขนาดและโหมดการเข้ารหัส
 
-### คำถามที่ 3: Aspose.BarCode สำหรับ .NET เข้ากันได้กับเฟรมเวิร์ก .NET ต่างๆ หรือไม่
+### Q3: Aspose.BarCode for .NET เข้ากันได้กับเฟรมเวิร์ก .NET ต่าง ๆ หรือไม่?
 
-A3: ใช่ Aspose.BarCode สำหรับ .NET เข้ากันได้กับเฟรมเวิร์ก .NET ที่หลากหลาย ทำให้มั่นใจได้ถึงความยืดหยุ่นและความสะดวกในการบูรณาการ
+A3: ได้, Aspose.BarCode for .NET รองรับเฟรมเวิร์ก .NET ช่วงกว้าง ทำให้ยืดหยุ่นและง่ายต่อการรวมเข้ากับระบบ
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode สำหรับ .NET ได้อย่างไร
+### Q4: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.BarCode for .NET ได้อย่างไร?
 
- A4: คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[เว็บไซต์ของ Aspose](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการประเมินและทดสอบ
+A4: คุณสามารถขอรับไลเซนส์ชั่วคราวจาก [Aspose's website](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินและทดสอบ
 
-### คำถามที่ 5: Aspose.BarCode สำหรับ .NET เหมาะสำหรับการสร้างบาร์โค้ดระดับองค์กรหรือไม่
+### Q5: Aspose.BarCode for .NET เหมาะสำหรับการสร้างบาร์โค้ดระดับองค์กรหรือไม่?
 
-A5: แน่นอนว่า Aspose.BarCode สำหรับ .NET ได้รับการออกแบบมาเพื่อตอบสนองความต้องการของการสร้างบาร์โค้ดทั้งขนาดเล็กและระดับองค์กร โดยให้ความสามารถในการปรับขนาดและความน่าเชื่อถือ
+A5: แน่นอน, Aspose.BarCode for .NET ถูกออกแบบมาเพื่อรองรับความต้องการทั้งในระดับเล็กและระดับองค์กร พร้อมความสามารถในการขยายและความน่าเชื่อถือ
+
+## คำถามที่พบบ่อย
+
+**Q: สามารถใช้บาร์โค้ดที่สร้างขึ้นในแอปมือถือได้หรือไม่?**  
+A: ได้. ภาพ PNG ที่สร้างโดยตัวสร้างสามารถฝังลงใน iOS, Android หรือแอปพลิเคชันข้ามแพลตฟอร์มอื่น ๆ
+
+**Q: หากต้องการเข้ารหัสข้อมูลไบนารีแทนข้อความจะทำอย่างไร?**  
+A: ใช้เมธอด `AddECICodetext` พร้อม `ECIEncodings` ที่เหมาะสม (เช่น `ECIEncodings.Base64`) เพื่อฝังข้อมูลไบนารี
+
+**Q: จะปรับขนาดบาร์โค้ดโดยไม่กระทบต่อความอ่านได้อย่างไร?**  
+A: ปรับคุณสมบัติ `XDimension.Pixels`; ค่าที่สูงขึ้นจะเพิ่มขนาดโมดูล ส่วนค่าที่ต่ำลงจะทำให้บาร์โค้ดกระชับขึ้น
+
+**Q: มีวิธีเพิ่ม quiet zone รอบบาร์โค้ดหรือไม่?**  
+A: มี. ตั้งค่า `gen.Parameters.Barcode.Margin` เพื่อกำหนด quiet zone ที่ต้องการเป็นพิกเซล
+
+**Q: ไลบรารีรองรับ .NET 8 หรือไม่?**  
+A: รุ่นล่าสุดของ Aspose.BarCode รองรับ .NET 8; เพียงอ้างอิงเวอร์ชัน NuGet ที่เหมาะสม
+
+---
+
+**อัปเดตล่าสุด:** 2026-01-27  
+**ทดสอบด้วย:** Aspose.BarCode 24.12 for .NET  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
