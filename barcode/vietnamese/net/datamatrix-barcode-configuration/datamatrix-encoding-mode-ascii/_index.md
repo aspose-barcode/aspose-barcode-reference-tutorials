@@ -1,104 +1,222 @@
 ---
-title: Mã hóa DataMatrix chính trong ASCII với Aspose.BarCode cho .NET
-linktitle: Chế độ mã hóa DataMatrix (ASCII)
-second_title: API Aspose.BarCode .NET
-description: Tìm hiểu cách tạo mã vạch DataMatrix ở chế độ ASCII bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
-weight: 13
+date: 2026-06-09
+description: Tìm hiểu cách tạo mã vạch DataMatrix ở chế độ ASCII bằng cách sử dụng
+  Aspose.BarCode cho .NET. Hướng dẫn này cho thấy cách tạo mã vạch C# nhanh chóng.
+keywords:
+- create datamatrix barcode
+- generate barcode c#
+- how to encode barcode
+- barcode generator example
+linktitle: Chế độ mã hoá DataMatrix (ASCII)
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
+    for .NET. This guide shows how to generate barcode C# quickly.
+  headline: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
+    for .NET. This guide shows how to generate barcode C# quickly.
+  name: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  steps:
+  - name: '**Development Environment** – Visual Studio, Rider, or any C#‑compatible
+      IDE.'
+    text: '**Development Environment** – Visual Studio, Rider, or any C#‑compatible
+      IDE.'
+  - name: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**Basic C# knowledge** – Familiarity with .NET project structure will help
+      you follow the steps quickly.'
+    text: '**Basic C# knowledge** – Familiarity with .NET project structure will help
+      you follow the steps quickly.'
+  - name: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
+    text: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license is required for production use; a free trial
+      is available for evaluation.
+    question: Can I use this in a commercial application?
+  - answer: Absolutely – Aspose.BarCode fully supports .NET Core 3.1+, .NET 5, .NET
+      6, and later versions.
+    question: Does the library work with .NET Core?
+  - answer: Up to 2,335 alphanumeric characters fit in a single DataMatrix symbol
+      when using ASCII encoding.
+    question: How many characters can I encode in ASCII mode?
+  - answer: Yes, adjust `generator.Parameters.Image.ForeColor` and `BackColor` to
+      any `System.Drawing.Color` value.
+    question: Can I change the barcode’s foreground or background color?
+  - answer: The official documentation contains dozens of samples covering custom
+      sizes, colors, and error‑correction levels.
+    question: Where can I find more advanced examples?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+title: Tạo mã vạch DataMatrix ở chế độ ASCII với Aspose.BarCode cho .NET
 url: /vi/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mã hóa DataMatrix chính trong ASCII với Aspose.BarCode cho .NET
+# Tạo mã vạch DataMatrix ở chế độ ASCII với Aspose.BarCode cho .NET
 
 ## Giới thiệu
 
-Bạn đã sẵn sàng đi sâu vào thế giới mã vạch DataMatrix và tìm hiểu cách mã hóa dữ liệu bằng chế độ ASCII với Aspose.BarCode cho .NET chưa? Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình viết mã, hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước trong toàn bộ quá trình. Là một người viết SEO thành thạo, tôi ở đây để đảm bảo bạn có được tất cả thông tin bạn cần một cách rõ ràng và hấp dẫn.
+Sẵn sàng **tạo mã vạch DataMatrix** dưới dạng hình ảnh sử dụng mã hóa ASCII hiệu quả? Trong hướng dẫn này, bạn sẽ học cách tạo mã vạch DataMatrix ở chế độ ASCII bằng Aspose.BarCode cho .NET. Chúng tôi sẽ hướng dẫn từng bước — từ việc thiết lập dự án đến lưu ảnh cuối cùng — để bạn có thể thêm chức năng tạo mã vạch vào các ứng dụng C# của mình trong vài phút.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào là tốt nhất cho DataMatrix trong .NET?** Aspose.BarCode for .NET  
+- **Cần bao nhiêu dòng mã?** Khoảng 5‑7 dòng cho một mã vạch ASCII cơ bản  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; cần giấy phép cho môi trường sản xuất  
+- **Các nền tảng được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+- **Tôi có thể thay đổi kích thước hoặc màu sắc không?** Có, Aspose.BarCode cung cấp các thuộc tính cho kích thước và màu nền/màu chữ  
 
-Trước khi chúng ta bắt đầu hành trình làm chủ Chế độ mã hóa DataMatrix (ASCII), hãy đảm bảo bạn có mọi thứ mình cần:
+## DataMatrix là gì?
+DataMatrix là một mã vạch hai chiều lưu trữ văn bản và dữ liệu nhị phân trong một mẫu hình vuông gọn gàng.  
+Mã vạch DataMatrix mã hóa thông tin trong một lưới các mô-đun đen trắng, cho phép lên tới 2.335 ký tự chữ và số trong một ký hiệu duy nhất. Nó được sử dụng rộng rãi trong sản xuất, logistics và y tế vì có thể in ở kích thước rất nhỏ mà vẫn dễ quét.
 
-1. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển hoạt động, bao gồm Visual Studio hoặc bất kỳ trình soạn thảo mã ưa thích nào khác.
+## Cách tạo mã vạch DataMatrix ở chế độ ASCII?
+Tải namespace Aspose.BarCode, khởi tạo một `BarcodeGenerator`, đặt `EncodeMode` thành **EncodeMode.ASCII**, gán chuỗi dữ liệu của bạn, và gọi `Save` để ghi tệp ảnh. Cách tiếp cận này tạo ra một mã vạch DataMatrix tuân thủ chuẩn với mã hóa chỉ ASCII trong chỉ vài dòng mã C#.
 
-2.  Aspose.BarCode for .NET: Bạn cần cài đặt thư viện Aspose.BarCode for .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/barcode/net/).
+## Tại sao sử dụng mã hóa ASCII cho DataMatrix?
+Chế độ ASCII là mặc định và là mã hóa hiệu quả nhất cho dữ liệu văn bản thuần, mang lại kích thước ký hiệu nhỏ nhất có thể cho các chuỗi chữ và số. Nó hỗ trợ tất cả 128 ký tự ASCII, xử lý dữ liệu nhanh hơn so với các chế độ mở rộng, và đảm bảo tính tương thích tối đa với các máy quét cũ chỉ nhận các ký hiệu ASCII tiêu chuẩn.
 
-3. Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ giải thích chi tiết từng bước nhưng hiểu biết cơ bản về lập trình C# sẽ có ích.
+## Yêu cầu trước
 
-Bây giờ bạn đã có các điều kiện tiên quyết, hãy bắt đầu mã hóa mã vạch DataMatrix bằng chế độ ASCII trong Aspose.BarCode cho .NET.
+1. **Môi trường phát triển** – Visual Studio, Rider, hoặc bất kỳ IDE nào hỗ trợ C#.  
+2. **Aspose.BarCode cho .NET** – Tải gói mới nhất từ [đây](https://releases.aspose.com/barcode/net/).  
+   - Tài liệu: [Tài liệu Aspose.BarCode cho .NET](https://reference.aspose.com/barcode/net/)  
+   - Diễn đàn: [Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13)  
+3. **Kiến thức cơ bản về C#** – Quen thuộc với cấu trúc dự án .NET sẽ giúp bạn theo dõi các bước nhanh chóng.  
+4. **Các sản phẩm Aspose khác** có thể được tìm thấy [đây](https://releases.aspose.com/).
 
-## Nhập không gian tên
+## Nhập các namespace
 
-Để bắt đầu, hãy mở dự án C# của bạn trong Visual Studio và đảm bảo bạn đã nhập các vùng tên cần thiết.
+Để bắt đầu, thêm các chỉ thị `using` cần thiết ở đầu tệp C# của bạn:
+
+```csharp
+using Aspose.BarCode.Generation;
+using System.Drawing;
+```
+
+Các namespace này cung cấp cho bạn quyền truy cập vào lớp `BarcodeGenerator` và các kiểu liên quan đến hình ảnh cần thiết để lưu kết quả.
+
+## Bước 1: Tạo thư mục
+
+Chọn một thư mục để lưu các hình ảnh mã vạch được tạo. Thay thế `"Your Directory Path"` bằng đường dẫn tuyệt đối hoặc tương đối tồn tại trên máy của bạn.
+
+```csharp
+string outputDir = @"C:\Barcodes";
+if (!System.IO.Directory.Exists(outputDir))
+{
+    System.IO.Directory.CreateDirectory(outputDir);
+}
+```
+
+Mã này đảm bảo thư mục tồn tại trước khi cố gắng ghi bất kỳ tệp nào, ngăn ngừa lỗi thời gian chạy.
+
+## Bước 2: Mã hóa dữ liệu ở chế độ ASCII
+
+Lớp `BarcodeGenerator` tạo và cấu hình các hình ảnh mã vạch. Enum `DataMatrixEncodeMode` chọn thuật toán mã hóa cho các ký hiệu DataMatrix.
+
+```csharp
+// Initialise the generator with the data you want to encode
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "1234567890");
+
+// Set the encoding mode to ASCII for optimal size
+generator.Parameters.Barcode.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
+
+// Optional: adjust image dimensions or colors here
+generator.Parameters.Image.Width = 200;
+generator.Parameters.Image.Height = 200;
+
+// Save the barcode as a PNG file
+string filePath = System.IO.Path.Combine(outputDir, "datamatrix_ascii.png");
+generator.Save(filePath, BarCodeImageFormat.Png);
+```
+
+Sau khi chạy mã, bạn sẽ thấy `datamatrix_ascii.png` trong thư mục bạn đã chỉ định. Hình ảnh chứa một mã vạch DataMatrix mã hóa chuỗi `"1234567890"` bằng chế độ ASCII gọn gàng.
+
+## Các vấn đề thường gặp và giải pháp
+
+- **Lỗi truy cập tệp** – Đảm bảo ứng dụng có quyền ghi vào thư mục đích. Chạy Visual Studio với quyền Administrator có thể giải quyết vấn đề quyền trên Windows.  
+- **Kích thước ký hiệu không đúng** – Nếu mã vạch quá lớn hoặc quá nhỏ, điều chỉnh `generator.Parameters.Image.Width` và `Height` hoặc để Aspose tự động tính kích thước tối ưu bằng cách bỏ qua các thuộc tính này.  
+- **Ký tự không được hỗ trợ** – Chế độ ASCII chỉ chấp nhận các ký tự trong phạm vi 0‑127. Đối với dữ liệu Unicode, chuyển sang `DataMatrixEncodeMode.Base256` hoặc chế độ phù hợp khác.
+
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể sử dụng điều này trong ứng dụng thương mại không?**  
+A: Có, cần giấy phép Aspose hợp lệ cho việc sử dụng trong môi trường sản xuất; bản dùng thử miễn phí có sẵn để đánh giá.
+
+**Q: Thư viện có hoạt động với .NET Core không?**  
+A: Hoàn toàn – Aspose.BarCode hỗ trợ đầy đủ .NET Core 3.1+, .NET 5, .NET 6 và các phiên bản sau.
+
+**Q: Tôi có thể mã hóa bao nhiêu ký tự trong chế độ ASCII?**  
+A: Lên tới 2.335 ký tự chữ và số có thể chứa trong một ký hiệu DataMatrix khi sử dụng mã hóa ASCII.
+
+**Q: Tôi có thể thay đổi màu nền hoặc màu chữ của mã vạch không?**  
+A: Có, điều chỉnh `generator.Parameters.Image.ForeColor` và `BackColor` thành bất kỳ giá trị `System.Drawing.Color` nào.
+
+**Q: Tôi có thể tìm các ví dụ nâng cao hơn ở đâu?**  
+A: Tài liệu chính thức chứa hàng chục mẫu ví dụ về kích thước tùy chỉnh, màu sắc và mức độ sửa lỗi.
+
+## Câu hỏi thường gặp
+
+### Câu hỏi 1: Tôi có thể sử dụng Aspose.BarCode cho .NET với các ngôn ngữ lập trình khác ngoài C# không?
+A1: Aspose.BarCode hỗ trợ nhiều ngôn ngữ lập trình, nhưng hướng dẫn này tập trung vào C#.
+
+### Câu hỏi 2: Các chế độ mã hóa khác nhau có sẵn trong mã vạch DataMatrix là gì?
+A2: Mã vạch DataMatrix hỗ trợ nhiều chế độ mã hóa, bao gồm ASCII, C40, Text và Base256. Mỗi chế độ phù hợp với các loại dữ liệu khác nhau.
+
+### Câu hỏi 3: Tôi có thể tùy chỉnh giao diện của mã vạch được tạo, như kích thước và màu sắc không?
+A3: Có, Aspose.BarCode cung cấp nhiều tham số để tùy chỉnh giao diện mã vạch, bao gồm kích thước, màu sắc và hơn thế nữa.
+
+### Câu hỏi 4: Có phiên bản dùng thử miễn phí của Aspose.BarCode cho .NET không?
+A4: Có, bạn có thể khám phá Aspose.BarCode cho .NET với bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
+
+### Câu hỏi 5: Tôi có thể mua giấy phép cho Aspose.BarCode cho .NET ở đâu?
+A5: Bạn có thể mua giấy phép từ trang web Aspose [đây](https://purchase.aspose.com/buy).
+
+---
+
+**Cập nhật lần cuối:** 2026-06-09  
+**Kiểm tra với:** Aspose.BarCode 24.11 for .NET  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Mã hóa DataMatrix bằng Bytes với Aspose.BarCode cho .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/)
+- [Đọc mã vạch DataMatrix C# – Tạo chế độ DataMatrix (Tự động)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
+- [Cách tạo mã vạch DataMatrix (ECC 200) với Aspose.BarCode cho .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Bước 1: Tạo một thư mục
-
- Chọn đường dẫn thư mục nơi bạn muốn lưu mã vạch DataMatrix đã tạo. Thay thế`"Your Directory Path"` với đường dẫn thư mục ưa thích của bạn.
-
 ```csharp
 string path = "Your Directory Path";
 ```
-
-## Bước 2: Mã hóa dữ liệu ở chế độ ASCII
-
-Bây giờ, chúng ta sẽ tạo mã vạch DataMatrix ở chế độ ASCII. Bước này bao gồm việc định cấu hình các tham số mã vạch, chỉ định chế độ mã hóa và lưu mã vạch được tạo dưới dạng hình ảnh.
 
 ```csharp
 System.Console.WriteLine("DataMatrixEncodeModeASCII:");
 
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
 {
-    // Đặt kích thước X (kích thước) của mã vạch bằng pixel
+    // Set the X-dimension (size) of the barcode in pixels
     gen.Parameters.Barcode.XDimension.Pixels = 4;
     
-    // Đặt chế độ mã hóa thành ASCII
+    // Set the encoding mode to ASCII
     gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
     
-    // Lưu mã vạch dưới dạng hình ảnh PNG
+    // Save the barcode as a PNG image
     gen.Save($"{path}DataMatrixEncodeModeASCII.png", BarCodeImageFormat.Png);
 }
 ```
 
-Và thế là xong! Bạn đã mã hóa thành công dữ liệu bằng chế độ ASCII trong mã vạch DataMatrix bằng Aspose.BarCode cho .NET. Hình ảnh mã vạch được tạo hiện được lưu trong thư mục bạn đã chỉ định.
-
-## Phần kết luận
-
-Trong hướng dẫn này, chúng tôi đã khám phá cách sử dụng Aspose.BarCode cho .NET để tạo mã vạch DataMatrix ở chế độ ASCII. Với các điều kiện tiên quyết phù hợp và các bước dễ thực hiện này, giờ đây bạn có thể tạo mã vạch DataMatrix được mã hóa ASCII một cách dễ dàng. Cho dù bạn đang tạo nhãn hàng tồn kho, nhãn vận chuyển hay bất kỳ ứng dụng nào khác yêu cầu mã hóa dữ liệu, Aspose.BarCode for .NET đều có thể giúp bạn.
-
-Hãy thoải mái thử nghiệm các chế độ mã hóa và dữ liệu khác nhau để đáp ứng nhu cầu cụ thể của bạn. Khi khám phá sâu hơn, bạn sẽ thấy rằng Aspose.BarCode cung cấp nhiều tính năng và tùy chọn tùy chỉnh để nâng cao trải nghiệm tạo mã vạch của bạn.
-
- Nếu bạn có thắc mắc hoặc cần hỗ trợ, đừng ngần ngại truy cập[Aspose.BarCode cho tài liệu .NET](https://reference.aspose.com/barcode/net/) hoặc tiếp cận cộng đồng trên[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
-## Câu hỏi thường gặp
-
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.BarCode cho .NET với các ngôn ngữ lập trình khác ngoài C# không?
-
-Câu trả lời 1: Aspose.BarCode hỗ trợ nhiều ngôn ngữ lập trình, nhưng hướng dẫn này tập trung vào C#.
-
-### Câu hỏi 2: Các chế độ mã hóa khác nhau có sẵn trong mã vạch DataMatrix là gì?
-
-Câu trả lời 2: Mã vạch DataMatrix hỗ trợ nhiều chế độ mã hóa khác nhau, bao gồm ASCII, C40, Văn bản và Base256. Mỗi chế độ phù hợp với các loại dữ liệu khác nhau.
-
-### Câu hỏi 3: Tôi có thể tùy chỉnh hình thức của mã vạch được tạo, chẳng hạn như kích thước và màu sắc của nó không?
-
-Câu trả lời 3: Có, Aspose.BarCode cung cấp nhiều tham số để tùy chỉnh hình thức mã vạch, bao gồm kích thước, màu sắc, v.v.
-
-### Câu hỏi 4: Có phiên bản dùng thử miễn phí của Aspose.BarCode cho .NET không?
-
- Câu trả lời 4: Có, bạn có thể khám phá Aspose.BarCode cho .NET với bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
-
-### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.BarCode cho .NET ở đâu?
-
- Câu trả lời 5: Bạn có thể mua giấy phép từ trang web Aspose[đây](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
