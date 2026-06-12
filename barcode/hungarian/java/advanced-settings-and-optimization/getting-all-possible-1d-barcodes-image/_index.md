@@ -1,11 +1,10 @@
 ---
-date: 2025-11-29
-description: Tanulja meg, hogyan olvashat 1D vonalkódokat Java-ban az Aspose.BarCode
-  segítségével – dekódolja a vonalkódokat képről gyorsan egy robusztus Java vonalkód
-  könyvtár használatával.
+date: 2026-01-30
+description: Hogyan olvassunk le vonalkódokat Java-ban az Aspose.BarCode használatával
+  – gyorsan dekódoljuk a vonalkódokat képből egy robusztus Java vonalkód könyvtárral.
 linktitle: read 1d barcodes java
 second_title: Aspose.BarCode Java API
-title: Hogyan olvassunk 1D vonalkódokat Java-ban az Aspose.BarCode használatával
+title: Hogyan olvassunk vonalkódokat Java-ban az Aspose.BarCode használatával
 url: /hu/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
@@ -14,42 +13,46 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 1D vonalkódok olvasása Java-ban az Aspose.BarCode segítségével
+# How to read barcodes in Java with Aspose.BarCode
 
-## Introduction
+## Bevezetés
 
-Ebben a gyakorlati útmutatóban megismerheted, hogyan **olvass 1D vonalkódokat Java-ban** a hatékony **Aspose.BarCode** könyvtár használatával. Akár termékcímkéket, készletcímkéket vagy bármilyen lineáris vonalkódot kell beolvasnod egy képen, ez a tutorial minden lépésen végigvezet – a környezet beállításától a képben található összes lehetséges vonalkód kinyeréséig. A végére képes leszel **vonalkódok dekódolására képfájlokból** néhány Java sor kóddal.
+Ebben a gyakorlati útmutatóban felfedezheti, **hogyan olvassunk vonalkódokat Java-ban** a hatékony **Aspose.BarCode** könyvtár segítségével. Akár termékcímkéket, készletcímkéket vagy bármilyen lineáris vonalkódot kell beolvasni egy képen, ez a tutorial minden lépésen végigvezet – a környezet beállításától a képben található összes lehetséges vonalkód kinyeréséig. A végére **képfájlokból dekódolhatja a vonalkódokat** csak néhány Java sorral.
 
-## Quick Answers
-- **What does Aspose.BarCode do?** It provides a full‑featured barcode library for Java that can generate and decode 1D/2D barcodes.  
-- **Can I read multiple barcodes from one image?** Yes – the `BarCodeReader.readBarCodes()` method returns all detected symbols.  
-- **Do I need a license for development?** A temporary license works for testing; a commercial license is required for production.  
-- **Which Java versions are supported?** Java 8 + (JDK 11 recommended).  
-- **Is this library fast enough for real‑time scanning?** Absolutely – it’s optimized for high‑performance batch processing.
+## Gyors válaszok
+- **Mit csinál az Aspose.BarCode?** Teljes körű vonalkód könyvtárat biztosít Java-hoz, amely képes 1D/2D vonalkódok generálására és dekódolására.  
+- **Olvashatok több vonalkódot egy képből?** Igen – a `BarCodeReader.readBarCodes()` metódus visszaadja az összes észlelt szimbólumot.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ideiglenes licenc működik teszteléshez; a termeléshez kereskedelmi licenc szükséges.  
+- **Mely Java verziók támogatottak?** Java 8 + (JDK 11 ajánlott).  
+- **Elég gyors ez a könyvtár a valós idejű beolvasáshoz?** Teljesen – optimalizált a nagy teljesítményű kötegelt feldolgozáshoz.
 
-## What is “read 1d barcodes java”?
+## Hogyan olvassunk vonalkódokat Java-ban – Áttekintés
 
-Reading 1D barcodes in Java means using a **barcode library for Java** to analyze an image, locate linear barcode patterns, and return the encoded text along with metadata such as symbology type and orientation. Aspose.BarCode abstracts the heavy image‑processing work, letting you focus on business logic.
+A vonalkódok Java-ban történő olvasása azt jelenti, hogy egy képet adunk át egy **vonalkódolvasó Java kódnak**, amely elemzi a pixelmintákat, azonosítja a lineáris (1D) szimbólumokat, és visszaadja a kódolt szöveget hasznos metaadatokkal, például a szimbólumtípussal és az orientációval. Az Aspose.BarCode végzi a nehéz munkát, így Ön a üzleti logikára koncentrálhat.
 
-## Why choose Aspose.BarCode for decoding barcodes from image?
+## Mi az a „read 1d barcodes java”?
 
-- **Broad symbology support** – over 50 1D and 2D types.  
-- **Accurate detection** – works even with low‑contrast or rotated barcodes.  
-- **Simple API** – a few method calls get you all results.  
-- **No external dependencies** – pure Java, easy to embed in any project.  
+Az 1D vonalkódok Java-ban történő olvasása azt jelenti, hogy egy **vonalkód könyvtárat Java-hoz** használunk egy kép elemzésére, a lineáris vonalkód minták megtalálására, és a kódolt szöveg visszaadására metaadatokkal, például a szimbólumtípussal és az orientációval. Az Aspose.BarCode elrejti a nehéz képfeldolgozási munkát, így Ön a üzleti logikára fókuszálhat.
 
-## Prerequisites
+## Miért válassza az Aspose.BarCode-ot a képekből történő vonalkód dekódoláshoz?
 
-Before we dive into code, make sure you have the following:
+- **Széles körű szimbólumtámogatás** – több mint 50 1D és 2D típus.  
+- **Pontos felismerés** – még alacsony kontrasztú vagy elforgatott vonalkódok esetén is működik.  
+- **Egyszerű API** – néhány metódushívás elég az összes eredményhez.  
+- **Nincs külső függőség** – tiszta Java, könnyen beágyazható bármely projektbe.  
 
-- **Java Development Kit (JDK)** – version 8 or newer. Download it from the official [Oracle JDK page](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.BarCode for Java** – grab the latest JAR from the [Aspose release page](https://releases.aspose.com/barcode/java/).  
+## Előfeltételek
 
-Now that your environment is ready, let’s start coding.
+Mielőtt a kódba merülnénk, győződjön meg róla, hogy a következőkkel rendelkezik:
 
-## Import Namespaces
+- **Java Development Kit (JDK)** – 8-as vagy újabb verzió. Töltse le a hivatalos [Oracle JDK oldalról](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.BarCode for Java** – szerezze be a legújabb JAR-t a [Aspose kiadási oldalról](https://releases.aspose.com/barcode/java/).  
 
-Add the required `import` statements so the compiler can locate Aspose’s classes.
+Most, hogy a környezete készen áll, kezdjünk el kódolni.
+
+## Importálja a névtereket
+
+Adja hozzá a szükséges `import` utasításokat, hogy a fordító megtalálja az Aspose osztályait.
 
 ```java
 import java.awt.Point;
@@ -59,19 +62,21 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Step 1: Initialize the BarCodeReader Object
+## Vonalkódolvasó Java kódpélda
 
-Create a `BarCodeReader` instance pointing at your image file. The `DecodeType` parameter tells the engine which symbologies to look for; using `CODE_128` as an example works for many common 1D codes.
+### 1. lépés: A BarCodeReader objektum inicializálása
+
+Hozzon létre egy `BarCodeReader` példányt, amely az Ön képfájljára mutat. A `DecodeType` paraméter megmondja a motornak, mely szimbólumokat keresse; a `CODE_128` példaként való használata sok gyakori 1D kód esetén működik.
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
 ```
 
-> **Pro tip:** If you want to scan *all* supported 1D types, pass `DecodeType.ALL_1D` instead of a single symbology.
+> **Pro tipp:** Ha *összes* támogatott 1D típust szeretne beolvasni, adja meg a `DecodeType.ALL_1D` értéket egyetlen szimbólum helyett.
 
-## Step 2: Read All Possible Barcodes
+### 2. lépés: Az összes lehetséges vonalkód beolvasása
 
-Iterate through the collection returned by `readBarCodes()`. For each `BarCodeResult` we print the decoded text, symbology name, detection angle, and the four corner coordinates of the barcode region.
+Iteráljon a `readBarCodes()` által visszaadott gyűjteményen. Minden `BarCodeResult` esetén kiírjuk a dekódolt szöveget, a szimbólum nevét, a detektálási szöget, valamint a vonalkód területének négy sarkának koordinátáit.
 
 ```java
 int iCount = 0;
@@ -92,40 +97,40 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-The loop automatically processes every barcode found, so you don’t need to call the reader repeatedly. After the loop finishes, `iCount` holds the total number of barcodes detected.
+A ciklus automatikusan feldolgozza az összes megtalált vonalkódot, így nem kell többször meghívni az olvasót. A ciklus befejezése után az `iCount` a detektált vonalkódok teljes számát tartalmazza – tökéletes olyan esetekben, amikor **több vonalkódot kell beolvasni egy képből** egyetlen átfutás során.
 
-## Common Issues & How to Fix Them
+## Gyakori problémák és megoldások
 
-| Symptom | Likely Cause | Solution |
-|---------|--------------|----------|
-| No barcodes returned | Image too blurry or low contrast | Pre‑process the image (increase contrast, binarize) before feeding it to the reader. |
-| Wrong symbology reported | Incorrect `DecodeType` used | Use `DecodeType.ALL_1D` to let the engine auto‑detect any 1D type. |
-| Angle values are off | Image rotated | The API already returns the rotation angle; you can rotate the image back if needed. |
+| Tünet | Valószínű ok | Megoldás |
+|-------|--------------|----------|
+| Nincs vonalkód visszaadva | A kép túl homályos vagy alacsony kontrasztú | Előfeldolgozza a képet (növelje a kontrasztot, binarizálja) mielőtt az olvasóhoz adja. |
+| Hibás szimbólum jelentve | Helytelen `DecodeType` használata | Használja a `DecodeType.ALL_1D` értéket, hogy a motor automatikusan felismerje bármely 1D típust. |
+| A szögek értéke hibás | A kép elforgatott | Az API már visszaadja a forgatási szöget; szükség esetén visszaforgathatja a képet. |
 
-## Frequently Asked Questions
+## Gyakran ismételt kérdések
 
-**Q: Is Aspose.BarCode for Java suitable for commercial projects?**  
-A: Yes. A commercial license removes all evaluation limitations and grants you full redistribution rights.
+**Q: Az Aspose.BarCode for Java alkalmas kereskedelmi projektekhez?**  
+A: Igen. A kereskedelmi licenc eltávolítja az összes értékelési korlátozást és teljes újraelosztási jogot biztosít.
 
-**Q: Can I test the library without purchasing a license?**  
-A: Absolutely. Obtain a temporary license from the [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) for development and testing.
+**Q: Tesztelhetem a könyvtárat licenc vásárlása nélkül?**  
+A: Teljesen. Szerezzen ideiglenes licencet a [Aspose ideiglenes licenc oldalról](https://purchase.aspose.com/temporary-license/) fejlesztéshez és teszteléshez.
 
-**Q: Where can I find the full API reference?**  
-A: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+**Q: Hol találom a teljes API referencia dokumentációt?**  
+A: A részletes dokumentáció elérhető [itt](https://reference.aspose.com/barcode/java/).
 
-**Q: How do I get help if I run into a problem?**  
-A: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) where the community and Aspose engineers can assist you.
+**Q: Hogyan kaphatok segítséget, ha problémába ütközöm?**  
+A: Tegye fel kérdését a [Aspose.BarCode fórumon](https://forum.aspose.com/c/barcode/13), ahol a közösség és az Aspose mérnökök segítenek.
 
-**Q: Is there a free trial download?**  
-A: Yes – you can download a trial version from the [Aspose releases page](https://releases.aspose.com/).
+**Q: Van ingyenes próbaverzió letöltése?**  
+A: Igen – letölthet egy próbaverziót a [Aspose kiadási oldalról](https://releases.aspose.com/).
 
-## Conclusion
+## Következtetés
 
-You’ve now learned how to **read 1D barcodes in Java** using Aspose.BarCode, a robust **barcode library for Java** that makes decoding barcodes from image files straightforward and reliable. Integrate this snippet into your own applications to automate inventory scans, ticket validation, or any scenario where linear barcodes appear in images.
+Most már megtanulta, hogyan **olvassunk vonalkódokat Java-ban** az Aspose.BarCode használatával, egy robusztus **vonalkód könyvtár Java-hoz**, amely egyszerűvé és megbízhatóvá teszi a képfájlokból történő vonalkód dekódolást. Integrálja ezt a kódrészletet saját alkalmazásaiba, hogy automatizálja a készletellenőrzéseket, jegyellenőrzéseket vagy bármely olyan esetet, ahol lineáris vonalkódok jelennek meg képeken.
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-01-30  
 **Tested With:** Aspose.BarCode 24.11 for Java  
 **Author:** Aspose  
 
