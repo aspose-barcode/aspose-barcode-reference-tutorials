@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Scopri come generare codici a barre con un rapporto largo‑stretto personalizzato
-  in Java usando Aspose.BarCode e creare immagini di codici a barre in modo efficiente.
-  Segui la nostra guida passo‑passo.
+date: 2026-02-12
+description: Scopri come creare un codice a barre Code128 con un rapporto largo‑stretto
+  personalizzato in Java usando Aspose.BarCode e generare immagini PNG del codice
+  a barre in modo efficiente. Segui la nostra guida passo‑passo.
 linktitle: Configuring Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
-title: Come generare un codice a barre con rapporto largo‑stretto in Java
+title: Come creare un codice a barre CODE_128 con rapporto largo‑stretto in Java
 url: /it/java/barcode-configuration/configuring-wide-narrow-ratio/
 weight: 17
 ---
@@ -14,17 +14,17 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come generare un codice a barre con rapporto largo‑stretto in Java
+# Come creare un codice a barre CODE_128 con rapporto Wide‑Narrow in Java
 
 ## Introduzione
 
-Se hai bisogno di **come generare un codice a barre** con proporzioni visive precise, regolare il rapporto largo‑stretto è fondamentale. In questo tutorial ti guideremo attraverso un processo di creazione **passo passo del codice a barre** utilizzando Aspose.BarCode per Java, mostrandoti come configurare il rapporto, generare l'immagine del codice a barre e **salvare il barcode png** su disco. Che tu stia creando etichette di inventario, tag di spedizione o qualsiasi applicazione che richieda un codice a barre CODE_128 dallo stile personalizzato, troverai tutto ciò di cui hai bisogno qui.
+Se hai bisogno di **creare un codice a barre code128** con proporzioni visive precise, regolare il rapporto wide‑narrow è fondamentale. In questo tutorial ti guideremo attraverso un processo di creazione **passo‑a‑passo del codice a barre** usando Aspose.BarCode per Java, mostrandoti come configurare il rapporto, **generare immagini PNG del codice a barre** e **salvare l'immagine del codice a barre** su disco. Che tu stia creando etichette di inventario, tag di spedizione o qualsiasi applicazione che richieda un codice a barre CODE_128 dallo stile personalizzato, troverai tutto ciò di cui hai bisogno qui.
 
 ## Risposte rapide
-- **Che cos'è il rapporto largo‑stretto?** Controlla la larghezza relativa delle barre larghe rispetto a quelle strette in un codice a barre.  
+- **Che cos'è il rapporto wide‑narrow?** Controlla la larghezza relativa delle barre larghe rispetto a quelle strette in un codice a barre.  
 - **Quale simbologia supporta la regolazione del rapporto?** La maggior parte delle simbologie 1‑D, incluso CODE_128, permette di impostare un rapporto personalizzato.  
-- **È necessaria una licenza?** È disponibile una versione di prova gratuita, ma è richiesta una licenza commerciale per l'uso in produzione.  
-- **Posso generare un'immagine del codice a barre in formato PNG?** Sì—usa `generator.save(...)` per generare l'immagine del codice a barre come PNG.  
+- **Ho bisogno di una licenza?** È disponibile una versione di prova gratuita, ma è necessaria una licenza commerciale per l'uso in produzione.  
+- **Posso generare un'immagine del codice a barre in formato PNG?** Sì—usa `generator.save(...)` per generare immagini PNG del codice a barre.  
 - **Il codice è compatibile con Java 8+?** Assolutamente; Aspose.BarCode funziona con tutte le versioni moderne di Java.
 
 ## Prerequisiti
@@ -34,7 +34,7 @@ Prima di immergerci nel codice, assicurati di avere quanto segue:
 - Java Development Kit (JDK) installato sulla tua macchina.  
 - Libreria Aspose.BarCode per Java. Scaricala dal [download link](https://releases.aspose.com/barcode/java/).
 
-## Importare i pacchetti
+## Importa i pacchetti
 
 Per iniziare, importa la classe essenziale di Aspose.BarCode nel tuo progetto.
 
@@ -43,24 +43,24 @@ Per iniziare, importa la classe essenziale di Aspose.BarCode nel tuo progetto.
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Che cos'è il rapporto largo‑stretto e perché regolarlo?
+## Cos'è il rapporto wide‑narrow e perché regolarlo?
 
-Il rapporto largo‑stretto determina quanto spesse appaiano le barre “larghe” rispetto a quelle “strette”. Regolare questo rapporto può migliorare la leggibilità da parte dello scanner, soddisfare standard di stampa specifici o semplicemente corrispondere allo stile visivo di un brand.
+Il rapporto wide‑narrow determina quanto spesse appaiono le barre “wide” rispetto a quelle “narrow”. Regolare questo rapporto può migliorare la leggibilità da parte degli scanner, soddisfare standard di stampa specifici o semplicemente corrispondere allo stile visivo di un marchio.
 
-## Come generare un codice a barre con rapporto largo‑stretto in Java
+## Come creare un codice a barre code128 con rapporto wide‑narrow in Java
 
-Di seguito trovi una guida **passo passo del codice a barre** che ti accompagna attraverso ogni fase del processo.
+Di seguito trovi una guida **passo‑a‑passo del codice a barre** che ti accompagna attraverso ogni fase del processo.
 
-### Passo 1: Impostare la directory del documento
+### Passo 1: Imposta la directory del documento
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Assicurati che la directory esista e che tu abbia i permessi di scrittura; qui verrà posizionato il file **save barcode png**.
+Assicurati che la directory esista e che tu abbia i permessi di scrittura; qui verrà posizionato il file **save barcode image**.
 
-### Passo 2: Istanziare l'oggetto Barcode
+### Passo 2: Istanzia l'oggetto Barcode
 
 ```java
 // Instantiate barcode object
@@ -68,9 +68,9 @@ Assicurati che la directory esista e che tu abbia i permessi di scrittura; qui v
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-Qui **creiamo un codice a barre code_128** passando `EncodeTypes.CODE_128` al costruttore.
+Qui **creiamo un codice a barre code128** passando `EncodeTypes.CODE_128` al costruttore.
 
-### Passo 3: Impostare il rapporto largo‑stretto
+### Passo 3: Imposta il rapporto Wide‑Narrow
 
 ```java
 // Set the wide to narrow ratio for the barcode
@@ -79,14 +79,20 @@ generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 
 Il metodo `setWideNarrowRatio` ti consente di regolare finemente la spaziatura visiva. Un valore di `3.0f` significa che la barra larga è tre volte la larghezza di una barra stretta.
 
-### Passo 4: Salvare l'immagine su disco
+### Passo 4: Salva l'immagine su disco
 
 ```java
 // Save the image to disk in PNG format
 generator.save(dataDir + "wideNarrowRatio.png");
 ```
 
-Chiamando `save` **genererà l'immagine del codice a barre** e la salverà come file PNG, completando il passo **save barcode png**.
+Chiamando `save` **genererà l'immagine del codice a barre** e la salverà come file PNG, completando il passo **save barcode image**.
+
+## Perché regolare il rapporto wide‑narrow?
+
+- **Compatibilità scanner:** Alcuni scanner preferiscono un rapporto tra 2.0 e 3.0 per tassi di lettura ottimali.  
+- **Qualità di stampa:** Regolare il rapporto può compensare le limitazioni DPI della stampante, evitando barre distorte.  
+- **Coerenza del brand:** Alcune aziende desiderano codici a barre che si allineino visivamente ai colori aziendali o alle linee guida di design.
 
 ## Problemi comuni e soluzioni
 
@@ -113,8 +119,10 @@ R: Consulta la documentazione [qui](https://reference.aspose.com/barcode/java/).
 **D: Come ottenere supporto per Aspose.BarCode?**  
 R: Visita il forum di Aspose.BarCode [qui](https://forum.aspose.com/c/barcode/13) per supporto e discussioni della community.
 
-**Ultimo aggiornamento:** 2025-12-10  
-**Testato con:** Aspose.BarCode per Java 24.11 (ultima versione al momento della scrittura)  
+---
+
+**Ultimo aggiornamento:** 2026-02-12  
+**Testato con:** Aspose.BarCode for Java 24.11 (ultima versione al momento della scrittura)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,12 +1,12 @@
 ---
-date: 2025-12-12
-description: Aprenda cómo crear una imagen de código de barras en Java con Aspose.BarCode.
-  Este ejemplo de generación de códigos de barras en Java muestra la integración paso
-  a paso y la descarga de la biblioteca Aspose Barcode.
+date: 2026-02-12
+description: Aprenda cómo generar códigos de barras en Java usando Aspose.BarCode.
+  Este ejemplo paso a paso muestra cómo crear una imagen de código de barras Australia
+  Post en Java y dónde descargar la biblioteca.
 linktitle: Generating Australia Post Barcode
 second_title: Aspose.BarCode Java API
-title: Crear imagen de código de barras java – Código de barras de Australia Post
-  Aspose
+title: Cómo generar código de barras en Java – Código de barras de Australia Post
+  con Aspose
 url: /es/java/barcode-configuration/generating-australia-post-barcode/
 weight: 12
 ---
@@ -15,27 +15,27 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear imagen de código de barras java – Generar código de barras de Australia Post en Java
+# Cómo generar códigos de barras en Java – Creación de códigos de barras Australia Post en Java
 
 ## Introducción
 
-En este tutorial completo aprenderás a **crear imagen de código de barras java** usando la biblioteca Aspose.BarCode. Ya sea que estés construyendo un módulo de envíos, un sistema de facturación o cualquier aplicación que necesite imprimir códigos de barras de Australia Post, los pasos a continuación te guiarán a través de una implementación limpia y lista para producción. También veremos un **ejemplo de generación de código de barras java** para que puedas ver el código en contexto y entender cómo **descargar Aspose Barcode** para tu proyecto.
+En este tutorial completo aprenderás **cómo generar códigos de barras en Java** con la biblioteca Aspose.BarCode. Ya sea que estés construyendo un módulo de envíos, un sistema de facturación o cualquier aplicación Java que necesite imprimir códigos de barras Australia Post, los pasos a continuación te guiarán a través de una implementación limpia y lista para producción. También revisaremos un **ejemplo de generación de códigos de barras en Java** para que puedas ver el código en contexto y entender cómo **descargar Aspose Barcode** para tu proyecto.
 
 ## Respuestas rápidas
 - **¿Qué biblioteca necesito?** Aspose.BarCode para Java (descárgala desde el sitio de Aspose).  
-- **¿Qué simbología de código de barras se usa?** `EncodeTypes.AUSTRALIA_POST`.  
+- **¿Qué simbología de código de barras se utiliza?** `EncodeTypes.AUSTRALIA_POST`.  
 - **¿Necesito una licencia para pruebas?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
 - **¿Qué formato de salida se genera?** Imagen PNG guardada en la carpeta que elijas.  
 - **¿Cuántas líneas de código?** Solo cuatro líneas concisas después de la configuración.
 
-## ¿Qué es crear imagen de código de barras java?
+## ¿Cómo generar códigos de barras en Java?
 
-Crear una imagen de código de barras en Java significa convertir programáticamente datos sin formato (como un código postal o número de seguimiento) en un código de barras visual que los escáneres puedan leer. Aspose.BarCode se encarga del trabajo pesado: sigue la especificación de Australia Post, genera la imagen y te permite personalizar tamaño, color y formato.
+Crear una imagen de código de barras en Java significa convertir programáticamente datos sin procesar (como un código postal o número de seguimiento) en un código visual que los escáneres puedan leer. Aspose.BarCode se encarga del trabajo pesado: sigue la especificación de Australia Post, renderiza la imagen y te permite personalizar tamaño, color y formato.
 
 ## ¿Por qué usar Aspose.BarCode para Java?
 
 * **API completa** – soporta más de 50 simbologías, incluida Australia Post.  
-* ** dependencias externas** – Java puro, funciona en cualquier JVM.  
+* **Sin dependencias externas** – puro Java, funciona en cualquier JVM.  
 * **Personalización sencilla** – cambia dimensiones, márgenes, fuentes y más con propiedades simples.  
 * **Confiable y probado** – ampliamente usado en soluciones empresariales, con actualizaciones regulares.  
 
@@ -95,7 +95,7 @@ Después de la ejecución, encontrarás `australiaPostBarcode.png` listo para im
 2. Crear un `BarcodeGenerator` con `EncodeTypes.AUSTRALIA_POST`.  
 3. Llamar a `save()` para escribir el archivo PNG.
 
-Ahora puedes integrar este fragmento en cualquier servicio Java aplicación web o trabajo por lotes que requiera la creación de códigos de barras.
+Ahora puedes integrar este fragmento en cualquier servicio Java, aplicación web o trabajo por lotes que requiera la creación de códigos de barras.
 
 ## Problemas comunes y soluciones
 
@@ -103,7 +103,7 @@ Ahora puedes integrar este fragmento en cualquier servicio Java aplicación web 
 |----------|-------|----------|
 | **Archivo no encontrado** | La ruta `dataDir` es incorrecta o no tiene permiso de escritura. | Usa una ruta absoluta y asegura que la carpeta exista con acceso de escritura. |
 | **Datos inválidos** | Los datos no cumplen con el formato de Australia Post (p. ej., longitud incorrecta). | Valida la cadena de entrada contra la especificación antes de pasarla al generador. |
-| **Excepción de licencia** | Ejecutando sin una licencia válida en producción. | Aplica una licencia temporal o comprada según lo descrito en la documentación de Aspose. |
+| **Excepción de licencia** | Ejecutando sin una licencia válida en producción. | Aplica una licencia temporal o comprada como se describe en la documentación de Aspose. |
 
 ## Preguntas frecuentes
 
@@ -117,18 +117,18 @@ R: Por supuesto. La clase `BarcodeGenerator` expone propiedades como `setBarHeig
 R: Sí, puedes descargar una prueba gratuita [aquí](https://releases.aspose.com/).
 
 **P: ¿Dónde puedo encontrar soporte comunitario y ejemplos?**  
-R: Visita el foro de Aspose.BarCode [aquí](https://forum.aspose.com/c/barcode/13) para consejos, código de muestra y ayuda de la comunidad.
+R: Visita el foro de Aspose.BarCode [aquí](https://forum.aspose.com/c/barcode/13) para obtener consejos, código de muestra y asistencia de la comunidad.
 
 **P: ¿Cómo obtengo una licencia temporal para pruebas?**  
 R: Puedes adquirir una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusión
 
-Ahora dominas cómo **crear imagen de código de barras java** usando Aspose.BarCode, generando específicamente códigos de barras de Australia Post. Siguiendo los pasos concisos anteriores, puedes integrar la generación de códigos de barras en cualquier aplicación Java, optimizar los flujos de envío y mejorar la precisión de captura de datos.
+Ahora dominas **cómo generar códigos de barras en Java** usando Aspose.BarCode, específicamente generando códigos de barras Australia Post. Siguiendo los pasos concisos anteriores, puedes integrar la generación de códigos de barras en cualquier aplicación Java, optimizar los flujos de envío y mejorar la precisión de captura de datos.
 
 ---
 
-**Última actualización:** 2025-12-12  
+**Última actualización:** 2026-02-12  
 **Probado con:** Aspose.BarCode para Java 24.11 (última versión al momento de escribir)  
 **Autor:** Aspose  
 
