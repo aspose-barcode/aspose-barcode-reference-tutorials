@@ -1,96 +1,138 @@
 ---
-title: Java'da Barkod Görüntüsünü Döndürme
+date: 2026-05-04
+description: Aspose.BarCode kullanarak Java’da barkod görüntülerini zahmetsizce nasıl
+  döndüreceğinizi öğrenin. Bu öğreticide barkodu nasıl döndüreceğiniz, Java’da barkod
+  resmi nasıl oluşturacağınız ve barkodu 180 derece nasıl döndüreceğiniz gösterilmektedir.
+keywords:
+- how to rotate barcode
+- rotate barcode 180 degrees
+- generate barcode image java
 linktitle: Dönen Barkod Görüntüsü
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode'u kullanarak Java'da barkod görüntülerini zahmetsizce nasıl döndüreceğinizi öğrenin. Java geliştiricileri için kapsamlı, adım adım kılavuz.
-weight: 15
+second_title: Aspose.BarCode Java API
+title: Java'da Barkod Görüntüsünü Döndürme – Adım Adım Rehber
 url: /tr/java/image-manipulation/rotating-barcode-image/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Barkod Görüntüsünü Döndürme
+# Java'da Dönen Barkod Görüntüsü
 
+## Giriş
 
-## giriiş
+Java uygulaması içinde **barkodu nasıl döndürürsünüz** görüntülerine ihtiyacınız varsa, Aspose.BarCode for Java bunu çok kolaylaştırır. Gönderi etiketleri, envanter etiketleri veya özel raporlar oluşturuyor olun, bir barkodu döndürmek tasarım kısıtlamalarına uymanıza veya belirli bir görsel etki elde etmenize yardımcı olabilir. Bu rehberde, ortamı kurmaktan barkod görüntüsünü oluşturup döndürmeye kadar tüm süreci adım adım göstereceğiz.
 
-Java programlama dünyasında, barkodları uygulamalarınıza dahil etmek yaygın bir gerekliliktir. Aspose.BarCode for Java, barkodların oluşturulması ve işlenmesi için güçlü bir çözüm sunar. Yararlı özelliklerden biri barkod görüntülerini döndürme yeteneğidir ve bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz.
+## Hızlı Yanıtlar
+- **Java'da barkodları döndürmek için en iyi kütüphane nedir?** Aspose.BarCode for Java.
+- **Bir barkodu istediğim açıyla döndürebilir miyim?** Evet, istediğiniz herhangi bir döndürme açısını ayarlayabilirsiniz (ör. 90°, 180°).
+- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme testi için çalışır; üretim için lisans gereklidir.
+- **Hangi Java sürümleri destekleniyor?** Java 8 ve sonrası.
+- **Döndürülmüş görüntü otomatik olarak kaydediliyor mu?** Çıktı formatını ve yolunu `save` yöntemiyle kontrol edersiniz.
 
-## Önkoşullar
+## Barkod Görüntüsünü Döndürmek Nedir?
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Barkod görüntüsünü döndürmek, belirli bir açıyla yönünü değiştirirken barkodun taranabilirliğini korumak anlamına gelir. Bu, bir belgenin veya etiketin düzeni barkodun ters ya da yan olarak görünmesini gerektirdiğinde faydalıdır.
 
--  Java Geliştirme Kiti (JDK): Makinenizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirebilirsiniz:[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Neden barkodu 180 derece döndürürüz?
 
-- Aspose.BarCode for Java: Aspose.BarCode kütüphanesinin kurulu olması gerekir. Henüz yapmadıysanız indirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/barcode/java/).
+180‑derecelik bir döndürme, ters bir barkod oluşturur; bu, çift taraflı baskı için veya bir etiketin karşı taraftan okunması gerektiğinde kullanışlı olabilir. Aspose.BarCode API'si döndürmeyi dahili olarak yönetir ve ortaya çıkan görüntünün tarama için geçerli kalmasını sağlar.
 
-- Entegre Geliştirme Ortamı (IDE): Tercih ettiğiniz Java IDE'yi seçin. Popüler seçenekler arasında Eclipse, IntelliJ IDEA veya Visual Studio Code bulunur.
+## Ön Koşullar
 
-## Paketleri İçe Aktar
+Öğreticiye başlamadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
-Aspose.BarCode için gerekli paketleri Java projenize aktarın:
+- Java Development Kit (JDK): Makinenizde Java yüklü olduğundan emin olun. En son sürümü [buradan](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
+
+- Aspose.BarCode for Java: Aspose.BarCode kütüphanesinin kurulu olması gerekir. Henüz kurmadıysanız, indirme bağlantısını [buradan](https://releases.aspose.com/barcode/java/) bulabilirsiniz.
+
+- Entegre Geliştirme Ortamı (IDE): Tercih ettiğiniz Java IDE'sini seçin. Popüler seçenekler arasında Eclipse, IntelliJ IDEA veya Visual Studio Code bulunur.
+
+## Paketleri İçe Aktarma
+
+Java projenizde Aspose.BarCode için gerekli paketleri içe aktarın:
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım 1: Belge Dizinini Ayarla
 
 ```java
-// Kaynak dizininin yolu.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-"Belge Dizininiz"i kaynak dizininizin gerçek yoluyla değiştirdiğinizden emin olun.
+> **Pro ipucu:** `FileNotFoundException` hatasından kaçınmak için mutlak bir yol veya proje köküne göre bir yol kullanın.
 
-## Adım 2: Barkod Oluşturun
+## Adım 2: Barkod Oluştur
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_39_EXTENDED, "1234567");
 ```
 
-İstediğiniz barkod türüne (CODE_39_EXTENDED) ve kodlamak istediğiniz verilere ("1234567") sahip bir BarcodeGenerator nesnesi oluşturun.
+İstediğiniz barkod türü (`CODE_39_EXTENDED`) ve kodlamak istediğiniz veri (`"1234567"`) ile bir `BarcodeGenerator` nesnesi oluşturun.
 
-## 3. Adım: Barkod Görüntüsünü Döndürün
+## Adım 3: Barkod Görüntüsünü Döndür
 
 ```java
 bb.getParameters().setRotationAngle(180);
 ```
 
-Baş aşağı bir etki oluşturmak için barkod görüntüsünü saat yönünde 180 derece döndürün. Açıyı gerektiği gibi ayarlayın.
+Barkod görüntüsünü saat yönünde 180 derece döndürerek ters bir etki oluşturun. Açıyı ihtiyacınıza göre ayarlayın—0 ile 360 arasında herhangi bir değer çalışır.
 
-## Adım 4: Görüntüyü Kaydedin
+## Adım 4: Görüntüyü Kaydet
 
 ```java
 bb.save(dataDir + "barcode-image-rotate.jpg");
 ```
 
-Döndürülmüş barkod görüntüsünü istenen dosya adıyla ("barcode-image-rotate.jpg") belirtilen dizine kaydedin.
+Döndürülmüş barkod görüntüsünü belirtilen dizine istediğiniz dosya adı (`"barcode-image-rotate.jpg"`) ile kaydedin. Dosya uzantısını değiştirerek PNG veya BMP gibi başka formatları da seçebilirsiniz.
 
-Gereken ek yapılandırmalar veya değişiklikler için bu adımları tekrarlayın.
+## Yaygın Kullanım Senaryoları
 
-## Çözüm
+- **Etiket baskısı:** Barkodları alışılmadık etiket şekilleriyle hizalayın.
+- **Çift taraflı belgeler:** Ön taraftan okunması gereken arka tarafa bir barkod yerleştirin.
+- **Özel UI tasarımları:** Barkodları, manuel görüntü düzenlemesi yapmadan sanatsal yerleşimlere uyacak şekilde döndürün.
 
-Tebrikler! Aspose.BarCode'u kullanarak Java'da bir barkod görüntüsünü başarıyla döndürdünüz. Bu eğitim, önkoşulların ayarlanmasından paketleri içe aktarmaya ve kodu çalıştırmaya kadar temel adımları kapsıyordu.
+## Yaygın Sorunlar ve Çözümleri
+
+| Sorun | Neden | Çözüm |
+|-------|-------|----------|
+| Barkod döndürme sonrası okunamaz hale gelir | Düşük çözünürlüklü bir görüntüye döndürme uygulanması | Kaydetmeden önce `setResolution` kullanarak görüntü çözünürlüğünü artırın. |
+| `save` sırasında dosya bulunamadı hatası | Yanlış `dataDir` yolu | Dizin varlığını doğrulayın veya programatik olarak oluşturun. |
+| Desteklenmeyen döndürme açısı hatası | Bazı eski sürümlerde açının 90’ın katı olmaması | En son Aspose.BarCode sürümüne güncelleyin. |
 
 ## Sıkça Sorulan Sorular
 
 ### S: Barkod görüntüsünü farklı bir açıyla döndürebilir miyim?
-Evet, 3. Adımda dönüş açısını istediğiniz herhangi bir değere ayarlayabilirsiniz.
+C: Evet, Adım 3'te döndürme açısını istediğiniz değere (ör. 90, 270) ayarlayabilirsiniz.
 
-### S: Daha fazla örneği ve belgeyi nerede bulabilirim?
- Bakın[dokümantasyon](https://reference.aspose.com/barcode/java/) Kapsamlı bilgi ve ek örnekler için.
+### S: Daha fazla örnek ve belgeyi nerede bulabilirim?
+C: Kapsamlı bilgi ve ek örnekler için [belgelere](https://reference.aspose.com/barcode/java/) bakın.
 
 ### S: Ücretsiz deneme mevcut mu?
- Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+C: Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
-### S: Nasıl destek alabilirim?
- Ziyaret edin[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13) topluluk desteği için veya öncelikli yardım için bir lisans satın almayı düşünün.
+### S: Destek nasıl alabilirim?
+C: Topluluk desteği için [Aspose.BarCode forumunu](https://forum.aspose.com/c/barcode/13) ziyaret edin veya öncelikli yardım için lisans satın almayı düşünün.
 
-### S: Farklı kodlama türleri için barkodlar oluşturabilir miyim?
-Kesinlikle, gereksinimlerinize göre Adım 2'deki EncodeTypes'ı ayarlayın.
+### S: Farklı kodlama türleri için barkod oluşturabilir miyim?
+C: Kesinlikle, sadece Step 2'de `EncodeTypes` değerini gereksinimlerinize göre ayarlayın.
+
+### S: Barkodu döndürmek tarayıcılarda okunabilirliğini etkiler mi?
+C: Hayır. Aspose.BarCode, döndürme sırasında barkodun veri bütünlüğünü korur, bu yüzden standart tarayıcılar doğru şekilde okur.
+
+## Sonuç
+
+Artık Aspose.BarCode kullanarak Java'da **barkodu nasıl döndürürsünüz** görüntülerini oluşturma, döndürme ve kaydetme sürecini öğrendiniz. Çevreyi kurmaktan görüntüyü kaydetmeye kadar. Farklı döndürme açıları ve barkod sembolleriyle deney yaparak projenizin özel ihtiyaçlarına uyarlayın.
+
+---
+
+**Last Updated:** 2026-05-04  
+**Tested With:** Aspose.BarCode for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

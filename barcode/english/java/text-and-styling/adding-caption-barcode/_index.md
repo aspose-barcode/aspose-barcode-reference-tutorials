@@ -1,44 +1,50 @@
 ---
-title: How to Add Caption to Barcode in Java Using Aspose.BarCode
+title: How to Add Caption to Barcode in Java Using Aspose.Barcode Java
 linktitle: Adding Caption to Barcode
 second_title: Aspose.BarCode Java API
-description: Learn how to add caption to barcode images in Java using Aspose.BarCode. This java barcode generator example shows how to create barcode image java effortlessly.
+description: Learn how to add caption to barcode images in Java using Aspose.Barcode Java. This java barcode generator example shows how to create barcode image java effortlessly.
 weight: 10
 url: /java/text-and-styling/adding-caption-barcode/
-date: 2025-12-27
+date: 2026-05-04
+keywords:
+- aspose barcode java
+- how to add caption
+- barcode generator java
+- save barcode image
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Add Caption to Barcode in Java Using Aspose.BarCode
+# How to Add Caption to Barcode in Java Using Aspose.Barcode Java
 
 ## Introduction
 
-If you need to **how to add caption** to a barcode for better readability and branding, you’re in the right place. In this tutorial we’ll walk through the exact steps to add captions above and below a barcode image using Aspose.BarCode for Java. By the end, you’ll have a fully‑styled barcode that not only encodes data but also displays helpful text—perfect for product labels, inventory systems, or any scenario where users benefit from extra context.
+If you need to **how to add caption** to a barcode for better readability and branding, you’re in the right place. In this tutorial we’ll walk through the exact steps to add captions above and below a barcode image using **Aspose.Barcode Java**. By the end, you’ll have a fully‑styled barcode that not only encodes data but also displays helpful text—perfect for product labels, inventory systems, or any scenario where users benefit from extra context.
 
 ## Quick Answers
-- **What library is required?** Aspose.BarCode for Java.  
+- **What library is required?** Aspose.Barcode Java.  
 - **Can I change font and color?** Yes—both caption font family and text color are customizable.  
-- **Which barcode types work?** All symbologies supported by Aspose.BarCode (e.g., CODE_128, QR, DataMatrix).  
+- **Which barcode types work?** All symbologies supported by Aspose.Barcode (e.g., CODE_128, QR, DataMatrix).  
 - **Do I need a license for testing?** A free trial is available; a commercial license is required for production.  
 - **How long does implementation take?** Typically under 10 minutes once the library is added.
 
 ## What is a caption in a barcode?
 A caption is plain text that appears either above or below the barcode graphic. It can convey product names, pricing, or any other information that complements the encoded data.
 
-## Why add captions with Aspose.BarCode?
+## Why add captions with Aspose.Barcode Java?
 - **Improved user experience:** Users can instantly read the meaning of a barcode without scanning.  
 - **Brand consistency:** You can apply your own fonts, colors, and alignment to match corporate style guides.  
-- **Full control:** Aspose.BarCode’s API lets you toggle visibility, set alignment, and style each caption independently.
+- **Full control:** Aspose.Barcode’s API lets you toggle visibility, set alignment, and style each caption independently.  
+- **Seamless integration:** Works smoothly with the **barcode generator java** workflow and lets you **save barcode image** in the format you need.
 
 ## Prerequisites
 
 Before you start, make sure you have:
 
-- Java Development Kit (JDK) installed.
-- Aspose.BarCode for Java library downloaded and added to your project. You can find the download link [here](https://releases.aspose.com/barcode/java/).
+- Java Development Kit (JDK) installed.  
+- Aspose.BarCode for Java library downloaded and added to your project. You can find the download link [here](https://releases.aspose.com/barcode/java/).  
 - An IDE such as IntelliJ IDEA or Eclipse.
 
 ## Import Packages
@@ -89,7 +95,7 @@ bb.getParameters().getCaptionBelow().setAlignment(TextAlignment.RIGHT);
 bb.getParameters().getCaptionBelow().setText("Aspose.Demo");
 bb.getParameters().getCaptionBelow().setVisible(true);
 bb.getParameters().getCaptionBelow().getFont().setFamilyName("Pristina");
-bb.getParameters().getCaptionBelow().getFont().getSize().setPoint(14);
+bb.getParameters().getCaptionBelow().getFont().setSize().setPoint(14);
 bb.getParameters().getCaptionBelow().setTextColor(Color.RED);
 ```
 
@@ -129,7 +135,7 @@ The Aspose.BarCode community forum is an excellent place for support and discuss
 
 ---
 
-**Last Updated:** 2025-12-27  
+**Last Updated:** 2026-05-04  
 **Tested With:** Aspose.BarCode for Java 24.11  
 **Author:** Aspose  
 

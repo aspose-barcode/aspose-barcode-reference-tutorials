@@ -1,9 +1,14 @@
 ---
-date: 2025-12-27
-description: Aspose.BarCode を使用して Java でデータマトリックスバーコードの作成方法とバーコードテキストの位置設定方法を学びましょう。完全なカスタマイズのためのステップバイステップガイドをご覧ください。
-linktitle: Setting Code Text Location
+date: 2026-05-04
+description: Java のバーコードライブラリを使用してデータマトリックスバーコードの作成方法を学び、Aspose.BarCode でバーコードテキストの位置をシンボルの上部に設定します。ステップバイステップのバーコード生成例をご覧ください。
+keywords:
+- java barcode library
+- barcode generation example
+- barcode text above
+- customize barcode text
+linktitle: コードテキストの位置設定
 second_title: Aspose.BarCode Java API
-title: Javaでデータマトリックスバーコードを作成し、コードテキストの位置を設定する
+title: Javaバーコードライブラリでデータマトリックスバーコードを作成し、コードテキストの位置を設定する
 url: /ja/java/text-and-styling/setting-code-text-location/
 weight: 12
 ---
@@ -12,31 +17,44 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Javaでデータマトリックスバーコードを作成し、コードテキストの位置を設定する
+# Java バーコードライブラリでデータマトリックスバーコードを作成し、コードテキストの位置を設定する
 
 ## はじめに
 
-バーコードの生成は、在庫管理、出荷、その他多くの Java ベースのアプリケーションで日常的に必要とされます。**Aspose.BarCode for Java** を使用すれば、**データマトリックスバーコードの作成** が迅速に行え、ヒューマンリーダブルテキストの表示位置など、すべてのビジュアル要素を制御できます。本チュートリアルでは、**データマトリックスバーコードの作成** 手順を詳しく解説し、シンボルの上部にテキストを配置する **バーコードテキストの設定方法** を実演します。
+Javaで在庫管理、出荷、またはトラッキングシステムを構築していると、信頼できる **java barcode library** が不可欠であることにすぐに気付くでしょう。**Aspose.BarCode for Java** を使用すれば、数行のコードで **Data Matrix barcode** を生成でき、ヒューマンリーダブルテキストの表示位置を含むビジュアルレイアウトを完全に制御できます。このチュートリアルでは、完全な **barcode generation example** を順に解説し、**customize barcode text** の配置方法を示し、テキストをシンボルの上に配置することでユーザビリティが向上する理由を説明します。
 
 ## クイック回答
-- **使用しているライブラリは？** Aspose.BarCode for Java  
-- **デモされているバーコードタイプは？** Data Matrix  
-- **コードテキストはどのように配置しますか？** `CodeLocation.ABOVE` を使用  
-- **本番環境でライセンスは必要ですか？** はい、商用ライセンスが必要です  
-- **コードは Java 8 以降で実行できますか？** もちろん、Java 8 以降をサポートしています  
+- **使用されているライブラリは何ですか？** Aspose.BarCode for Java  
+- **デモされているバーコードタイプは何ですか？** Data Matrix  
+- **コードテキストはどのように配置しますか？** `CodeLocation.ABOVE` を使用します（`BELOW` も使用可能です）  
+- **本番環境でライセンスが必要ですか？** はい、商用ライセンスが必要です  
+- **コードは Java 8+ で実行できますか？** はい、Java 8 以降をサポートしています  
 
-## データマトリックスバーコードとは？
-データマトリックスバーコードは、2 次元（2‑D）シンボルで、コンパクトな正方形または長方形のパターンに大量のデータを格納します。小型部品、電子機器、医療機器のマーキングに広く利用され、最大 2,335 文字の英数字をエンコード可能です。
+## Java バーコードライブラリとは？
+
+**java barcode library** は、開発者に対して Java アプリケーションから直接 1‑D および 2‑D バーコードを作成、読み取り、スタイル設定するための即使用可能な API を提供します。複雑なエンコード規則を抽象化し、低レベルの画像処理ではなくビジネスロジックに集中できるようにします。
+
+## なぜ Java バーコードライブラリをバーコード生成例に使用するのか？
+
+- **速度:** ミリ秒単位で高品質なバーコードを生成します。  
+- **信頼性:** ISO/IEC 標準への組み込み準拠があります。  
+- **柔軟性:** サイズ、色、余白、そして **barcode text** の配置を完全に制御できます。  
+- **クロスプラットフォーム:** デスクトップアプリからクラウドサービスまで、あらゆる JVM ベースの環境で動作します。
+
+## Data Matrix バーコードとは？
+
+Data Matrix バーコードは、コンパクトな正方形または長方形のパターンに大量のデータを格納する二次元（2‑D）シンボルです。最大で 2,335 文字の英数字をエンコードできるため、小さな部品、電子機器、医療機器のマーキングに広く使用されています。
 
 ## なぜバーコードテキストの位置を設定するのか？
-ヒューマンリーダブルテキストを **上部**、**下部**、または **横** に配置することで、ユーザーはスキャンせずにエンコードされたデータをすぐに確認できます。テキスト位置の調整は UI の一貫性を高め、ブランドガイドラインにも適合します。
+
+ヒューマンリーダブルテキストをバーコードの **above**、**below**、または **beside** に配置することで、ユーザーはスキャンせずにエンコードされたデータを迅速に確認できます。テキスト位置を調整することで UI の一貫性が向上し、ブランドガイドラインに合致し、手動データ入力時のエラーを減らすことができます。
 
 ## 前提条件
 
-- Java プログラミングの基本知識  
-- Java Development Kit (JDK) がインストール済み  
-- Eclipse や IntelliJ IDEA などの IDE  
-- Aspose.BarCode for Java ライブラリ（[こちら](https://releases.aspose.com/barcode/java/) からダウンロード）  
+- Java プログラミングの基本的な知識。  
+- Java Development Kit (JDK) がインストールされていること。  
+- Eclipse や IntelliJ IDEA などの IDE。  
+- Aspose.BarCode for Java ライブラリ（[here](https://releases.aspose.com/barcode/java/) からダウンロード）。
 
 ## パッケージのインポート
 
@@ -47,11 +65,10 @@ import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-これらのインポートにより、バーコードジェネレータとテキスト配置を制御する列挙型にアクセスできます。
-
 ## ステップバイステップガイド
 
 ### ステップ 1: ディレクトリパスの定義
+
 ファイルの読み書き先を指定します。プレースホルダーを実際のパスに置き換えてください。
 
 ```java
@@ -60,21 +77,26 @@ String dataDir = "Your Document Directory";
 ```
 
 ### ステップ 2: BarcodeGenerator インスタンスの作成
-`BarcodeGenerator` を **Data Matrix** タイプでインスタンス化し、エンコードしたいコードテキストを指定します。
+
+`BarcodeGenerator` を **Data Matrix** タイプでインスタンス化し、エンコードしたいコードテキストを提供します。
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX,
         "GTIN:898978777776665655 " + "UID: 121212121212121212 " + "Batch:GH768 " + "Exp.Date:150923");
 ```
 
-### ステップ 3: バーコードテキストの位置設定方法
-`CodeLocation` 列挙型を使用して人が読めるテキストを移動します。この例ではテキストをバーコードの **上部** に配置します。
+### ステップ 3: バーコードテキストの位置を設定（バーコードテキストのカスタマイズ）
+
+`CodeLocation` 列挙体を使用してヒューマンリーダブルテキストを移動します。この例ではテキストをバーコードの **above** に配置しています。
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setLocation(CodeLocation.ABOVE);
 ```
 
+> **プロのコツ:** テキストをシンボルの **below** に配置するには、`CodeLocation.ABOVE` を `CodeLocation.BELOW` に変更するだけです。
+
 ### ステップ 4: 生成されたバーコード画像の保存
+
 最後に、バーコード画像をディスクに書き込みます。ファイルにはテキストが上部に配置された Data Matrix シンボルが含まれます。
 
 ```java
@@ -82,45 +104,45 @@ generator.save(dataDir + "codetextAbove.png");
 ```
 
 ## よくある問題と解決策
-- **テキストが表示されない:** `CodeLocation` をサポートするバージョンの Aspose.BarCode を使用しているか確認してください。  
-- **ファイルパスエラー:** `dataDir` が OS に適したファイル区切り文字（`/` または `\\`）で終わっているか確認してください。  
-- **サポート外の文字:** データマトリックスは文字種が限定されているため、ISO/IEC 16022 標準に含まれない特殊記号は使用しないでください。
+- **テキストが表示されない:** `CodeLocation` をサポートするバージョンの Aspose.BarCode を使用していることを確認してください。  
+- **ファイルパスエラー:** `dataDir` が OS に適したファイルセパレータ（`/` または `\\`）で終わっていることを確認してください。  
+- **サポートされていない文字:** Data Matrix は限られた文字セットのみエンコードできるため、ISO/IEC 16022 標準に含まれない特殊記号は使用しないでください。  
 
-## よくある質問 (FAQ)
+## よくある質問 (FAQs)
 
 ### Q: 生成されたバーコードの外観をカスタマイズできますか？
-A: はい、Aspose.BarCode は豊富なカスタマイズオプションを提供し、色、余白、フォントスタイルを制御できます。
+A: はい、Aspose.BarCode は豊富なカスタマイズオプションを提供しており、色、余白、フォントスタイルを制御できます。
 
-### Q: Aspose.BarCode は Java 8 以降のバージョンに対応していますか？
-A: もちろん、ライブラリは Java 8 以降のすべてのリリースで動作します。
+### Q: Aspose.BarCode は Java 8 以降のバージョンと互換性がありますか？
+A: はい、ライブラリは Java 8 およびそれ以降のすべてのリリースで動作します。
 
 ### Q: 既存の Java プロジェクトに Aspose.BarCode を統合するには？
-A: Aspose.BarCode の JAR ファイルをプロジェクトのクラスパスに追加し、必要なパッケージをインポートすれば、すぐにバーコードを生成できます。
+A: Aspose.BarCode の JAR ファイルをプロジェクトのクラスパスに追加し、必要なパッケージをインポートすれば、バーコードの生成がすぐに行えます。
 
-### Q: Aspose.BarCode の体験版はありますか？
-A: はい、無料体験版は [こちら](https://releases.aspose.com/) から入手できます。
+### Q: Aspose.BarCode のトライアル版はありますか？
+A: はい、[here](https://releases.aspose.com/) から無料トライアルを取得して Aspose.BarCode の機能を体験できます。
 
-### Q: Aspose.BarCode のサポートやヘルプはどこで受けられますか？
-A: コミュニティ支援や公式サポートは [Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13) をご利用ください。
+### Q: Aspose.BarCode のサポートやヘルプはどこで得られますか？
+A: コミュニティ支援と公式サポートは [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) をご覧ください。
 
 ## 追加のよくある質問
 
-**Q: シンボルの下部にテキストを配置したバーコードを生成できますか？**  
+**Q: テキストをシンボルの下に配置したバーコードを生成できますか？**  
 A: はい、同じ `setLocation` メソッドで `CodeLocation.BELOW` を設定します。
 
-**Q: QR コードなど他の 2‑D バーコードにも対応していますか？**  
-A: もちろん、`EncodeTypes.DATA_MATRIX` を `EncodeTypes.QR` に変更すれば対応できます。
+**Q: ライブラリは QR Code など他の 2‑D バーコードをサポートしていますか？**  
+A: はい、`EncodeTypes.DATA_MATRIX` を `EncodeTypes.QR` に変更するだけです。
 
-**Q: バーコードテキストのフォントサイズはどう変更しますか？**  
+**Q: バーコードテキストのフォントサイズを変更するには？**  
 A: `generator.getParameters().getBarcode().getCodeTextParameters().setFontSize(double size)` を使用します。
 
 ## 結論
 
-これで Java で **データマトリックスバーコードを作成** し、Aspose.BarCode を使って **バーコードテキストの位置を設定** する方法を習得しました。`CodeLocation` の他の値やスタイリングオプションを試して、アプリケーションのデザイン要件に合わせてください。
+これで、**java barcode library** を使用して Java で **Data Matrix barcode** を作成し、Aspose.BarCode で **barcode text の位置設定** を正確に制御する方法を学びました。アプリケーションのデザイン要件に合わせて、他の `CodeLocation` 値やフォント設定、カラーオプションを試してみてください。
 
 ---
 
-**最終更新日:** 2025-12-27  
+**最終更新日:** 2026-05-04  
 **テスト環境:** Aspose.BarCode for Java 24.11  
 **作者:** Aspose  
 
