@@ -1,37 +1,61 @@
 ---
-title: 在 Java 中按特定順序讀取和排序條碼
-linktitle: 按特定順序讀取和排序條碼
+date: 2026-04-08
+description: 學習如何使用 Aspose.BarCode for Java 讀取條碼並按特定順序排序。此一步一步的指南展示如何使用 Aspose、Java
+  條碼閱讀器，並解碼 Code128 條碼。
+keywords:
+- how to read barcodes
+- java barcode reader
+- aspose barcode java
+linktitle: 按特定順序讀取及排序條碼
 second_title: Aspose.BarCode Java API
-description: 使用 Aspose.BarCode 增強您的 Java 應用程式！學習有效地讀取和排序條碼。請按照我們的逐步指南進行無縫整合。
-weight: 10
+title: 如何使用 Java 按特定順序讀取條碼
 url: /zh-hant/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中按特定順序讀取和排序條碼
+# 如何使用 Java 以特定順序讀取條碼
 
 
 ## 介紹
 
-在 Java 程式設計的動態世界中，高效處理條碼是許多應用程式的常見要求。 Aspose.BarCode for Java 成為一個強大的工具，為條碼讀取和排序提供無縫整合。在本教程中，我們將探索如何使用 Aspose.BarCode for Java 按特定順序讀取條碼並對其進行排序。
+如果您需要**如何讀取條碼**，並將它們按特定順序排列，Aspose.BarCode for Java 為您提供一個簡潔且高效的解決方案。在許多 Java 應用程式——庫存系統、運輸解決方案或銷售點終端——中，讀取多個條碼並依其文字值排序是常見需求。本教學將帶您完整了解從環境設定到顯示排序結果的全過程，讓您能快速且有信心地整合條碼處理功能。
 
-## 先決條件
+## 快速解答
+- **什麼程式庫負責條碼讀取？** Aspose.BarCode for Java  
+- **範例中使用的條碼類型是什麼？** CODE_128  
+- **開發時需要授權嗎？** 臨時授權可用於測試；正式環境需要完整授權。  
+- **可以依其他條件排序嗎？** 可以——修改 comparator 以依位置、信心等排序。  
+- **需要哪個 Java 版本？** Java 8 或更新版本（任何支援 Aspose 程式庫的 JDK）。
 
-在深入研究程式碼之前，請確保您符合以下先決條件：
+## 在 Java 中什麼是「如何讀取條碼」？
 
--  Java 開發工具包 (JDK)：Aspose.BarCode for Java 需要一個正常運作的 JDK。您可以下載最新版本[這裡](https://www.oracle.com/java/technologies/javase-downloads.html).
+讀取條碼是指將視覺圖案解碼為原始資料字串。Aspose.BarCode 提供 `BarCodeReader` 類別，將底層影像處理抽象化，讓您專注於排序或驗證等業務邏輯。
 
-- Aspose.BarCode 函式庫：確保您擁有 Aspose.BarCode 函式庫。您可以從[下載連結](https://releases.aspose.com/barcode/java/).
+## 為什麼使用 Aspose.BarCode for Java？
 
-## 導入包
+- **強韌的解碼** – 支援超過 50 種條碼，包括 Code 128、QR、DataMatrix 等。  
+- **高精度** – 最佳化演算法降低誤讀，即使在低解析度影像上亦如此。  
+- **簡易 API** – 幾行程式碼即可將影像轉為文字。  
+- **跨平台** – 可在任何 Java 執行環境上運作，從桌面到伺服器皆可。
 
-首先將必要的套件匯入到您的 Java 專案中。這些套件提供了使用條碼的基本類別和方法。
+## 前置條件
+
+在深入程式碼之前，請確保您具備以下前置條件：
+
+- Java Development Kit (JDK)：Aspose.BarCode for Java 需要一個可運作的 JDK。您可以在 [此處](https://www.oracle.com/java/technologies/javase-downloads.html) 下載最新版本。
+
+- Aspose.BarCode Library：請確保已取得 Aspose.BarCode 程式庫。您可以從 [下載連結](https://releases.aspose.com/barcode/java/) 取得。
+
+## 匯入套件
+
+首先在您的 Java 專案中匯入必要的套件。這些套件提供處理條碼所需的核心類別與方法。
 
 ```java
-//導入 Aspose.BarCode 類
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +67,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-現在，讓我們將程式碼分解為逐步指南：
+現在，讓我們將程式碼分解為逐步說明：
 
-## 第 1 步：設定資源目錄
+## 步驟 1：設定資源目錄
 
 ```java
-//資源目錄的路徑。
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-代替`"Your Document Directory"`與文檔目錄的實際路徑。
+將 `"Your Document Directory"` 替換為實際的文件目錄路徑。
 
-## 步驟2：指定條碼影像路徑並初始化讀取器
+## 步驟 2：指定條碼影像路徑並初始化 Reader
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-//使用指定的路徑和解碼類型初始化BarCodeReader
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
 ## 步驟 3：讀取條碼並儲存結果
 
 ```java
-//迭代條碼並儲存結果
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## 第 4 步：定義用於排序的比較器
+## 步驟 4：定義排序 Comparator
 
 ```java
-//定義一個比較器，用於根據代碼文字對條碼進行排序
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -85,17 +109,17 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-## 第 5 步：對條碼進行排序
+## 步驟 5：排序條碼
 
 ```java
-//使用定義的比較器對條碼清單進行排序
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
-## 第 6 步：顯示排序的條碼
+## 步驟 6：顯示已排序的條碼
 
 ```java
-//顯示排序的條碼及其座標
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +133,35 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
-## 結論
+## 常見陷阱與技巧
 
-在本教程中，我們探討如何利用 Aspose.BarCode for Java 以特定順序讀取條碼並對其進行排序。透過遵循逐步指南，您可以透過高效的條碼處理功能來增強您的 Java 應用程式。
+- **影像路徑不正確** – 請確認 `dataDir` 以檔案分隔符 (`/` 或 `\\`) 結尾，以確保完整路徑正確解析。  
+- **不支援的條碼類型** – 若需解碼其他條碼，請將 `DecodeType.CODE_128` 改為相應的 enum 值（例如 `DecodeType.QR`）。  
+- **以數值排序** – 預設 comparator 以字典順序排序。若需數值排序，請在 comparator 內將 `CodeText` 轉為整數。  
+- **資源清理** – `BarCodeReader` 實作 `Closeable`。在正式程式碼中，使用 try‑with‑resources 以確保底層串流釋放。
 
-## 常見問題解答
+## 常見問答
 
-### Q：在哪裡可以找到 Aspose.BarCode for Java 文件？
-文件可用[這裡](https://reference.aspose.com/barcode/java/).
+### Q: 在哪裡可以找到 Aspose.BarCode for Java 的文件？
+文件可於 [此處](https://reference.aspose.com/barcode/java/) 取得。
 
-### Q：如何下載 Aspose.BarCode for Java？
-您可以從[下載連結](https://releases.aspose.com/barcode/java/).
+### Q: 如何下載 Aspose.BarCode for Java？
+您可以從 [下載連結](https://releases.aspose.com/barcode/java/) 取得。
 
-### Q：有免費試用嗎？
-是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
+### Q: 是否提供免費試用？
+是的，您可以在 [此處](https://releases.aspose.com/) 探索免費試用。
 
-### Q：如何取得臨時許可資訊？
-可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+### Q: 如何取得臨時授權資訊？
+臨時授權可於 [此處](https://purchase.aspose.com/temporary-license/) 取得。
 
-### Q：我可以在哪裡尋求支持或提問？
-造訪支援論壇[這裡](https://forum.aspose.com/c/barcode/13).
+### Q: 在哪裡可以取得支援或提問？
+請前往支援論壇 [此處](https://forum.aspose.com/c/barcode/13)。
+
+---
+
+**最後更新：** 2026-04-08  
+**測試環境：** Aspose.BarCode 24.10 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

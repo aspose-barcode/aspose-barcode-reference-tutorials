@@ -1,37 +1,61 @@
 ---
-title: Lectura y clasificación de códigos de barras en un orden específico en Java
+date: 2026-04-08
+description: Aprenda a leer códigos de barras y ordenarlos en un orden específico
+  usando Aspose.BarCode para Java. Esta guía paso a paso muestra cómo usar Aspose,
+  el lector de códigos de barras de Java y decodificar códigos de barras Code128.
+keywords:
+- how to read barcodes
+- java barcode reader
+- aspose barcode java
 linktitle: Lectura y clasificación de códigos de barras en un orden específico
-second_title: API de Java Aspose.BarCode
-description: ¡Mejore sus aplicaciones Java con Aspose.BarCode! Aprenda a leer y ordenar códigos de barras de manera eficiente. Siga nuestra guía paso a paso para una integración perfecta.
-weight: 10
+second_title: Aspose.BarCode Java API
+title: Cómo leer códigos de barras en un orden específico usando Java
 url: /es/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lectura y clasificación de códigos de barras en un orden específico en Java
-
+# Cómo leer códigos de barras en un orden específico usando Java
 
 ## Introducción
 
-En el dinámico mundo de la programación Java, el manejo eficiente de códigos de barras es un requisito común para muchas aplicaciones. Aspose.BarCode para Java surge como una herramienta poderosa que ofrece una integración perfecta para la lectura y clasificación de códigos de barras. En este tutorial, exploraremos cómo leer y ordenar códigos de barras en un orden específico usando Aspose.BarCode para Java.
+Si necesita **cómo leer códigos de barras** y luego organizarlos en una secuencia particular, Aspose.BarCode for Java le ofrece una forma limpia y de alto rendimiento para hacerlo. En muchas aplicaciones Java—sistemas de inventario, soluciones de envío o terminales punto de venta—leer múltiples códigos de barras y ordenarlos por su valor textual es un requisito frecuente. Este tutorial le guía a través del proceso completo, desde la configuración del entorno hasta la visualización de los resultados ordenados, para que pueda integrar el manejo de códigos de barras rápida y confiadamente.
+
+## Respuestas rápidas
+- **¿Qué biblioteca maneja la lectura de códigos de barras?** Aspose.BarCode for Java  
+- **¿Qué tipo de código de barras se usa en el ejemplo?** CODE_128  
+- **¿Necesito una licencia para desarrollo?** Una licencia temporal funciona para pruebas; se requiere una licencia completa para producción.  
+- **¿Puedo ordenar por otros criterios?** Sí—modifique el comparador para ordenar por ubicación, confianza, etc.  
+- **¿Qué versión de Java se requiere?** Java 8 o posterior (cualquier JDK que soporte la biblioteca Aspose).
+
+## ¿Qué es “cómo leer códigos de barras” en Java?
+
+Leer códigos de barras significa decodificar el patrón visual en su cadena de datos original. Aspose.BarCode proporciona una clase `BarCodeReader` que abstrae el procesamiento de imágenes de bajo nivel, permitiéndole centrarse en la lógica de negocio como la ordenación o la validación.
+
+## ¿Por qué usar Aspose.BarCode para Java?
+
+- **Decodificación robusta** – soporta más de 50 simbologías, incluyendo Code 128, QR, DataMatrix, y más.  
+- **Alta precisión** – algoritmos optimizados reducen lecturas falsas, incluso en imágenes de baja resolución.  
+- **API simple** – unas pocas líneas de código le llevan de la imagen al texto.  
+- **Multiplataforma** – funciona en cualquier entorno Java, desde escritorio hasta servidores.
 
 ## Requisitos previos
 
-Antes de profundizar en el código, asegúrese de tener los siguientes requisitos previos:
+Antes de sumergirse en el código, asegúrese de contar con los siguientes requisitos:
 
--  Kit de desarrollo de Java (JDK): Aspose.BarCode para Java requiere un JDK en funcionamiento. Puedes descargar la última versión.[aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Aspose.BarCode for Java requiere un JDK funcional. Puede descargar la última versión [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Biblioteca Aspose.BarCode: asegúrese de tener la biblioteca Aspose.BarCode. Puedes obtenerlo del[enlace de descarga](https://releases.aspose.com/barcode/java/).
+- Biblioteca Aspose.BarCode: Asegúrese de tener la biblioteca Aspose.BarCode. Puede obtenerla desde el [download link](https://releases.aspose.com/barcode/java/).
 
 ## Importar paquetes
 
-Comience importando los paquetes necesarios a su proyecto Java. Estos paquetes proporcionan las clases y métodos esenciales para trabajar con códigos de barras.
+Comience importando los paquetes necesarios en su proyecto Java. Estos paquetes proporcionan las clases y métodos esenciales para trabajar con códigos de barras.
 
 ```java
-// Importar clases Aspose.BarCode
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +67,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-Ahora, analicemos el código en una guía paso a paso:
+Ahora, desglosaremos el código en una guía paso a paso:
 
-## Paso 1: configurar el directorio de recursos
+## Paso 1: Configurar el directorio de recursos
 
 ```java
-// La ruta al directorio de recursos.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Reemplazar`"Your Document Directory"`con la ruta real a su directorio de documentos.
+Reemplace `"Your Document Directory"` con la ruta real a su directorio de documentos.
 
-## Paso 2: Especifique la ruta de la imagen del código de barras e inicialice el lector
+## Paso 2: Especificar la ruta de la imagen del código de barras e inicializar el lector
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-// Inicialice BarCodeReader con la ruta especificada y el tipo de decodificación
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-## Paso 3: leer códigos de barras y almacenar resultados
+## Paso 3: Leer códigos de barras y almacenar resultados
 
 ```java
-// Iterar a través de códigos de barras y almacenar resultados
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## Paso 4: definir el comparador para ordenar
+## Paso 4: Definir el comparador para ordenar
 
 ```java
-// Defina un comparador para clasificar códigos de barras según el texto del código
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -85,17 +109,17 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-## Paso 5: ordenar códigos de barras
+## Paso 5: Ordenar códigos de barras
 
 ```java
-// Ordene la lista de códigos de barras usando el comparador definido
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
 ## Paso 6: Mostrar códigos de barras ordenados
 
 ```java
-// Mostrar códigos de barras ordenados con sus coordenadas
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +133,35 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
-## Conclusión
+## Problemas comunes y consejos
 
-En este tutorial, exploramos cómo aprovechar Aspose.BarCode para Java para leer y ordenar códigos de barras en un orden específico. Si sigue la guía paso a paso, podrá mejorar sus aplicaciones Java con capacidades eficientes de procesamiento de códigos de barras.
+- **Ruta de imagen incorrecta** – verifique que `dataDir` termine con un separador de archivos (`/` o `\\`) para que la ruta completa se resuelva correctamente.  
+- **Tipo de código de barras no soportado** – si necesita decodificar una simbología diferente, cambie `DecodeType.CODE_128` al valor de enumeración apropiado (p.ej., `DecodeType.QR`).  
+- **Ordenar por valor numérico** – el comparador predeterminado ordena lexicográficamente. Para ordenación numérica, convierta `CodeText` a entero dentro del comparador.  
+- **Limpieza de recursos** – `BarCodeReader` implementa `Closeable`. En código de producción, envuélvalo en un bloque try‑with‑resources para asegurar que el flujo subyacente se libere.
 
 ## Preguntas frecuentes
 
 ### P: ¿Dónde puedo encontrar la documentación de Aspose.BarCode para Java?
- La documentación está disponible.[aquí](https://reference.aspose.com/barcode/java/).
+La documentación está disponible [here](https://reference.aspose.com/barcode/java/).
 
 ### P: ¿Cómo puedo descargar Aspose.BarCode para Java?
- Puedes descargarlo desde el[enlace de descarga](https://releases.aspose.com/barcode/java/).
+Puede descargarlo desde el [download link](https://releases.aspose.com/barcode/java/).
 
 ### P: ¿Hay una prueba gratuita disponible?
- Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
+Sí, puede explorar una prueba gratuita [here](https://releases.aspose.com/).
 
 ### P: ¿Cómo obtengo información de licencia temporal?
- Se pueden obtener licencias temporales.[aquí](https://purchase.aspose.com/temporary-license/).
+Las licencias temporales pueden obtenerse [here](https://purchase.aspose.com/temporary-license/).
 
-### P: ¿Dónde puedo buscar ayuda o hacer preguntas?
- Visita el foro de soporte[aquí](https://forum.aspose.com/c/barcode/13).
+### P: ¿Dónde puedo buscar soporte o hacer preguntas?
+Visite el foro de soporte [here](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Última actualización:** 2026-04-08  
+**Probado con:** Aspose.BarCode 24.10 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

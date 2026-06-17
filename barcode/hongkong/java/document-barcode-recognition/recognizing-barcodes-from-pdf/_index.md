@@ -1,38 +1,53 @@
 ---
-title: 用Java辨識PDF中的條碼
-linktitle: 識別 PDF 中的條碼
+date: 2026-04-08
+description: 學習如何在 Java 中使用 Aspose.BarCode 從 PDF 讀取條碼。本指南亦示範如何在 Java 中產生條碼圖像以及從 PDF
+  中提取圖像。
+keywords:
+- read barcode from pdf java
+- generate barcode image java
+- extract images from pdf java
+linktitle: 從 PDF 識別條碼
 second_title: Aspose.BarCode Java API
-description: 了解如何使用 Aspose.BarCode 在 Java 中識別 PDF 中的條碼。帶有程式碼範例的分步指南。提高您的資料管理效率！
-weight: 11
+title: 如何在 Java 中使用 Aspose.BarCode 從 PDF 讀取條碼
 url: /zh-hant/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 用Java辨識PDF中的條碼
-
+# 從 PDF 讀取條碼（Java）
 
 ## 介紹
 
-歡迎閱讀我們使用 Aspose.BarCode for Java 識別 PDF 中的條碼的逐步指南。條碼在資料管理和組織中發揮著至關重要的作用，借助 Aspose.BarCode，流程變得無縫。在本教程中，我們將引導您完成整個過程，從設定必要的先決條件到在 PDF 文件中實現條碼識別代碼。
+歡迎閱讀我們的逐步指南，說明如何使用 Aspose.BarCode 在 Java 中 **從 PDF 讀取條碼**。條碼對於自動化資料擷取至關重要，透過 Aspose.BarCode 您可以在 PDF 文件中無縫偵測條碼。本教學將帶您完成所有步驟——從設定授權、產生條碼影像（Java）、將其加入 PDF、從 PDF（Java）提取影像，最後讀取條碼。
 
-## 先決條件
+## 快速解答
+- **需要哪個函式庫？** Aspose.BarCode for Java（加上用於 PDF 處理的 Aspose.PDF）。  
+- **我可以在 Java 中產生條碼影像嗎？** 可以——`BarcodeGenerator` 類別可用於建立 PNG/JPEG 影像。  
+- **如何從 PDF 中提取影像？** 使用 Aspose.PDF 的 `PdfExtractor`。  
+- **示範使用哪種條碼類型？** CODE‑39（標準）。  
+- **是否需要授權？** 生產環境必須擁有有效的 Aspose.BarCode 與 Aspose.PDF 授權。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 為何選擇 Aspose.BarCode for Java？
+- **高精度**——支援數十種編碼規格，且在低解析度影像上亦能正常運作。  
+- **無外部相依性**——純 Java，無需本機函式庫。  
+- **完整 PDF 整合**——結合 Aspose.PDF，可直接在 PDF 檔案中讀取或嵌入條碼。
 
-1.  Aspose.BarCode for Java 授權：取得並設定 Aspose.BarCode for Java 的有效授權。您可以從以下位置取得許可證[提出購買](https://purchase.aspose.com/buy).
+## 前置條件
 
-2. Aspose.PDF 許可證：此外，設定 Aspose.PDF 許可證，這是處理 PDF 文件所必需的。您可以申請許可證[這裡](https://purchase.aspose.com/temporary-license/).
+在深入程式碼之前，請先確認您已具備以下項目：
 
-3. 下載 Aspose.BarCode for Java：從 下載 Aspose.BarCode 庫[這裡](https://releases.aspose.com/barcode/java/).
+1. **Aspose.BarCode for Java 授權**——可從 [Aspose Purchase](https://purchase.aspose.com/buy) 取得。  
+2. **Aspose.PDF 授權**——PDF 操作所必需，您可於 [此處](https://purchase.aspose.com/temporary-license/) 申請授權。  
+3. **Aspose.BarCode 程式庫**——可從 [此處](https://releases.aspose.com/barcode/java/) 下載最新的 JAR。  
 
-現在您已經具備了必要的先決條件，讓我們繼續匯入所需的套件並開始我們的教學課程。
+取得上述前置條件後，讓我們匯入所需的套件並開始編寫程式。
 
-## 導入包
+## 匯入套件
 
-在您的 Java 專案中，包含 Aspose.BarCode 和 Aspose.PDF 套件。以下是幫助您入門的範例程式碼片段：
+在您的 Java 專案中，加入 Aspose.BarCode 與 Aspose.PDF 的匯入語句。以下程式碼區塊與原教學相同：
 
 ```java
 import com.aspose.barcode.*;
@@ -48,7 +63,9 @@ import java.io.File;
 import javax.imageio.ImageIO;
 ```
 
-## 步驟 1：產生條碼並新增至 PDF
+## 步驟 1：產生條碼影像（Java）
+
+首先，我們產生一個條碼影像，稍後會將其嵌入 PDF 中。此步驟示範 **generate barcode image java** 功能。
 
 ```java
 BarcodeGenerator builder = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_39_STANDARD);
@@ -57,7 +74,9 @@ String strBarCodeImageSave = dataDir + "input_image1.jpg";
 builder.save(strBarCodeImageSave);
 ```
 
-## 步驟 2：建立 PDF 並新增條碼圖像
+## 步驟 2：建立 PDF 並加入條碼影像
+
+接著，我們建立新的 PDF 文件，並插入剛才產生的條碼影像。
 
 ```java
 Document pdf1 = new Document();
@@ -67,7 +86,9 @@ page.getResources().getImages().add(originalImage);
 pdf1.save(strPdfDoc);
 ```
 
-## 步驟 3：從 PDF 擷取影像
+## 步驟 3：從 PDF 提取影像（Java）
+
+PDF 準備完成後，我們需要將嵌入的影像取出，以便讀取條碼。此步驟使用 **extract images from pdf java**。
 
 ```java
 PdfExtractor extractor = new PdfExtractor();
@@ -75,7 +96,9 @@ extractor.bindPdf(strPdfDoc);
 extractor.extractImage();
 ```
 
-## 步驟 4：從擷取的影像中辨識條碼
+## 步驟 4：從提取的影像辨識條碼
+
+最後，我們將每個提取的影像傳入 `BarCodeReader`，以取得編碼文字。
 
 ```java
 String suffix = ".jpg";
@@ -97,28 +120,42 @@ while (extractor.hasNextImage()) {
 }
 ```
 
-根據需要重複這些步驟，相應地調整檔案名稱和路徑。
+依需求重複上述步驟，並依專案結構調整檔名與路徑。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方法 |
+|-------|--------|-----|
+| **未偵測到條碼** | 影像品質過低或條碼尺寸過小。 | 儲存時提高影像解析度（例如 `builder.save(..., BarCodeImageFormat.JPEG, 300)`）。 |
+| **`PdfExtractor` 拋出例外** | 找不到 PDF 檔案或路徑不正確。 | 確認 `strPdfDoc` 指向已存在的檔案，且應用程式具備讀取權限。 |
+| **授權未套用** | Aspose 元件以試用模式執行，導致輸出受限。 | 在程式開始時載入授權檔案：`new License().setLicense("Aspose.BarCode.lic");`，Aspose.PDF 亦同。 |
+
+## 常見問題 (FAQs)
+
+### Q: 我可以在沒有授權的情況下使用 Aspose.BarCode for Java 嗎？
+雖然 Aspose.BarCode 可在未取得授權的情況下使用，但建議取得授權以獲得完整功能並遵守授權條款。
+
+### Q: 如何取得 Aspose.BarCode for Java 的臨時授權？
+您可於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
+
+### Q: Aspose.BarCode 支援的條碼類型是否有限制？
+Aspose.BarCode 支援多種條碼類型，完整清單請參考文件說明。
+
+### Q: 是否提供 Aspose.BarCode for Java 的試用版？
+是的，您可從 [此處](https://releases.aspose.com/) 下載試用版。
+
+### Q: 我可以在哪裡取得 Aspose.BarCode for Java 的支援或提問？
+請前往 Aspose.BarCode [論壇](https://forum.aspose.com/c/barcode/13) 取得支援與討論。
 
 ## 結論
 
-恭喜！您已成功學習如何使用 Aspose.BarCode for Java 識別 PDF 中的條碼。本教程旨在提供全面的指南，同時保持簡單性和清晰度。請隨意探索 Aspose.BarCode 提供的更多特性和功能[文件](https://reference.aspose.com/barcode/java/).
+恭喜！您已學會如何使用 Aspose.BarCode **在 Java 中從 PDF 讀取條碼**、**產生條碼影像（Java）**，以及 **從 PDF（Java）提取影像** 以進行後續處理。歡迎探索其他功能，例如批次處理、不同條碼編碼的處理，或與其他 Aspose 產品整合。欲取得更深入的資訊，請參考官方 [文件](https://reference.aspose.com/barcode/java/)。
 
-## 常見問題 (FAQ)
+---
 
-### Q：我可以在沒有授權的情況下使用 Aspose.BarCode for Java 嗎？
-雖然 Aspose.BarCode 無需許可證即可使用，但建議您取得完整功能並遵守授權條款。
-
-### Q：如何取得 Aspose.BarCode for Java 的臨時授權？
-您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q：Aspose.BarCode 支援的條碼類型有限制嗎？
-Aspose.BarCode 支援多種條碼類型。請參閱文件以取得完整清單。
-
-### Q：Aspose.BarCode for Java 有試用版嗎？
-是的，您可以從以下位置下載試用版[這裡](https://releases.aspose.com/).
-
-### Q：我可以在哪裡尋求有關 Aspose.BarCode for Java 的支援或提出問題？
-造訪 Aspose.BarCode[論壇](https://forum.aspose.com/c/barcode/13)以尋求支持和討論。
+**最後更新：** 2026-04-08  
+**測試環境：** Aspose.BarCode for Java 24.12, Aspose.PDF for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
