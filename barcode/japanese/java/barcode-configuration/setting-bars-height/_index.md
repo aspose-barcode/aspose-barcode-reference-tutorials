@@ -1,9 +1,9 @@
 ---
-date: 2025-12-16
-description: Aspose.BarCode を使用して Java で code_128 バーコードを作成し、バーコードのサイズをカスタマイズし、バーの高さを設定し、効率的にバーコード画像を生成する方法を学びましょう。
+date: 2026-02-15
+description: Aspose.BarCode を使用して Java で Code128 バーコードを作成し、バーコードのサイズをカスタマイズし、寸法を調整し、効率的にバーコード画像を生成する方法を学びましょう。
 linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
-title: Javaでcode_128バーコードを作成し、バーの高さを設定する方法
+title: JavaでCode128バーコードを作成し、バーの高さを設定する方法
 url: /ja/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
@@ -14,46 +14,46 @@ weight: 14
 
 # Javaでバーの高さを設定する
 
-## はじめに
+## Introduction
 
-最新の Java アプリケーションでは、レポート、ラベル、レシートのデザインに正確に合わせた **create code_128 barcode** 画像を作成する必要があります。Aspose.BarCode for Java を使用すれば、**customize barcode size** が簡単にでき、サイズを調整し、Java がすぐに保存できるバーコード画像を生成できます。このチュートリアルでは、CODE_128 バーコードを生成しながらバーの高さを設定する方法を解説し、常に完璧なサイズのバーコードを作成できるようにします。
+ラベル印刷、請求書、モバイルアプリ向けに **create code128 barcode java** が必要な場合、視覚的なサイズを完全にコントロールしたいでしょう。Aspose.BarCode for Java を使用すれば **customize barcode size** が可能になり、正確なバーの高さを設定し、デザイン要件に合ったバーコード画像を瞬時に生成できます。このチュートリアルでは、CODE_128 バーコードの作成、高さの調整、画像の保存までの全工程を順に解説し、常に最適なサイズのバーコードを作成できるようにします。
 
-## クイック回答
+## Quick Answers
 - **What does the primary method do?** CODE_128 バーコードを作成し、バーの高さを設定できます。  
 - **Which class is used?** Aspose.BarCode ライブラリの `BarcodeGenerator`。  
-- **Do I need a license for testing?** 無料トライアルが利用可能です。製品版ではライセンスが必要です。  
+- **Do I need a license for testing?** 無料トライアルが利用可能です。製品版で使用する場合はライセンスが必要です。  
 - **Can I change other dimensions?** はい、幅、余白、その他のサイズパラメータも調整できます。  
 - **What format is the output image?** Aspose.BarCode がサポートする任意の形式（例: JPEG、PNG）です。  
 
-## CODE_128 バーコードとは何か、そして高さを設定する理由
-CODE_128 はフル ASCII セットをエンコードできる高密度の線形バーコードです。バーの高さを調整することは、物理ラベルの寸法に合わせる必要がある場合や UI コンポーネント内に収める場合に不可欠です。適切な高さはスキャナーの読み取り性を確保しつつ、ビジュアルレイアウトのバランスも保ちます。
+## What is a CODE_128 barcode and why set its height?
+CODE_128 はフル ASCII セットをエンコードできる高密度の線形バーコードです。バーの高さを調整することは、物理ラベルのサイズに合わせる必要がある場合や UI コンポーネント内に収める場合に重要です。適切な高さはスキャナーの読み取り性を確保しつつ、ビジュアルレイアウトのバランスを保ちます。
 
-## Aspose.BarCode for Java を使用する理由
+## Why use Aspose.BarCode for Java?
 - **Full control** over barcode dimensions (height, width, margins)。  
 - **Wide format support** – PNG、JPEG、BMP など多数の形式で生成可能。  
-- **No external dependencies** – 純粋な Java ライブラリで、統合が容易。  
-- **Rich API** – 色、テキスト、エラー訂正などを簡単にカスタマイズ。  
+- **No external dependencies** – 純粋な Java ライブラリで、統合が簡単。  
+- **Rich API** – 色、テキスト、エラー訂正などを手軽にカスタマイズ。  
 
-## 前提条件
+## Prerequisites
 
-開始する前に以下を用意してください。
+開始する前に以下を用意してください：
 
-- JDK 8 以上の Java 開発環境。  
+- JDK 8 以上の Java 開発環境。  
 - Aspose.BarCode for Java – [download link](https://releases.aspose.com/barcode/java/) からダウンロード。  
 
-## パッケージのインポート
+## Import Packages
 
-Java プロジェクトで、バーコード生成機能を提供するメインクラスをインポートします:
+Java プロジェクトで、バーコード生成機能を提供するメインクラスをインポートします：
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## code_128 バーコードを作成し高さを設定する方法
+## How to create code128 barcode java and set its height
 
 ### Step 1: Initialize the Barcode Object
 
-CODE_128 バーコード用に `BarcodeGenerator` インスタンスを作成し、エンコードしたいデータ（例: “12345678”）を指定します。
+エンコードしたいデータ（例: “12345678”）を指定して、CODE_128 バーコード用の `BarcodeGenerator` インスタンスを作成します。
 
 ```java
 // Instantiate barcode object
@@ -62,14 +62,14 @@ BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes
 
 ### Step 2: Adjust Barcode Dimensions – Set Bar Height
 
-`BarHeight` プロパティを使用して高さ（ミリメートル単位）を設定します。これが **how to set barcode height** の主な方法です。
+`BarHeight` プロパティを使用して、ミリメートル単位で高さを設定します。これが **adjust barcode dimensions** の主な方法です。
 
 ```java
 // Set the bar height to be 3 millimeters
 generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 ```
 
-> **Pro tip:** `XDimension` を変更すると個々のバーの幅を調整でき、**adjust barcode dimensions** をフルコントロールできます。
+> **Pro tip:** `XDimension` を変更すると個々のバーの幅を調整でき、**customize barcode size** を完全にコントロールできます。
 
 ### Step 3: Save the Barcode Image – generate barcode image java
 
@@ -80,44 +80,44 @@ generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 generator.save(dataDir + "barsHeight.jpg");
 ```
 
-> **Note:** `dataDir` を画像を保存したい実際のパスに置き換えてください。
+> **Note:** `dataDir` を、画像を保存したい実際のパスに置き換えてください。
 
-## 主な利用シーン
+## Common Use Cases
 
-- **ラベル印刷** – 事前に決められたラベルサイズ内にバーコードを収める。  
-- **請求書生成** – PDF 請求書のレイアウトに合わせたコンパクトなバーコードを埋め込む。  
-- **モバイルアプリ** – 画面上でスキャンできるよう、正確な寸法のバーコードを動的に生成。  
+- **Barcode for label printing** – 事前に定義されたラベルサイズにバーコードが収まるようにします。  
+- **Invoice generation** – PDF 請求書のレイアウトに合わせたコンパクトなバーコードを埋め込みます。  
+- **Mobile apps** – 画面上でスキャンできるよう、正確な寸法のバーコードを動的に生成します。
 
-## トラブルシューティング & ヒント
+## Troubleshooting & Tips
 
 | Issue | Solution |
 |-------|----------|
-| バーコードが細すぎる、または太すぎる | `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)` で `XDimension` を調整 |
-| 画像がぼやける | `generator.save(..., BarCodeImageFormat.JPEG, 300)` のように DPI を上げる |
-| スキャナーがコードを読めない | バー高さがスキャナーの最小要件（通常 ≥ 2 mm）を満たしているか確認 |
+| Barcode appears too thin or too thick | `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)` で `XDimension` を調整します。 |
+| Image is blurry | `generator.save(..., BarCodeImageFormat.JPEG, 300)` のように DPI を上げて保存します。 |
+| Scanner cannot read the code | バーの高さがスキャナーの最小要件（通常は ≥ 2 mm）を満たしているか確認してください。 |
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: Aspose.BarCode for Java でバーコードの種類をカスタマイズできますか？**  
-A: もちろんです！QR、DataMatrix、PDF417 など多数のシンボロジーに対応しており、コンストラクタで `EncodeTypes` を変更するだけです。
+**Q: Can I customize the barcode type in Aspose.BarCode for Java?**  
+A: Absolutely! ライブラリは QR、DataMatrix、PDF417 など多数のシンボロジーをサポートしており、コンストラクタの `EncodeTypes` を変更するだけで利用できます。
 
-**Q: Aspose.BarCode はさまざまな Java IDE と互換性がありますか？**  
+**Q: Is Aspose.BarCode compatible with different Java IDEs?**  
 A: はい、Eclipse、IntelliJ IDEA、NetBeans など、標準的な Java プロジェクトをサポートする IDE でシームレスに動作します。
 
-**Q: 数字と英数字の両方を含むバーコードを生成できますか？**  
-A: はい、CODE_128 は数字と英数字の両方をエンコードできるため、ほとんどの用途に汎用性があります。
+**Q: Can I generate barcodes with numeric and alphanumeric values?**  
+A: はい、CODE_128 は数値データと英数字データの両方をエンコードできるため、ほとんどの用途に汎用性があります。
 
-**Q: Aspose.BarCode for Java のトライアル版はありますか？**  
-A: はい、無料トライアルを取得できる [here](https://releases.aspose.com/) から機能をお試しいただけます。
+**Q: Is there a trial version available for Aspose.BarCode for Java?**  
+A: はい、無料トライアルを取得して Aspose.BarCode の機能を試すことができます。[here](https://releases.aspose.com/)  
 
-**Q: Aspose.BarCode for Java のサポートはどこで受けられますか？**  
-A: コミュニティサポートやディスカッションは Aspose.BarCode フォーラム [here](https://forum.aspose.com/c/barcode/13) でご利用ください。
+**Q: Where can I find support for Aspose.BarCode for Java?**  
+A: コミュニティサポートやディスカッションは Aspose.BarCode フォーラム [here](https://forum.aspose.com/c/barcode/13) で確認できます。
 
 ---
 
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
-**Author:** Aspose  
+**最終更新日:** 2026-02-15  
+**テスト環境:** Aspose.BarCode for Java 24.12 (latest)  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

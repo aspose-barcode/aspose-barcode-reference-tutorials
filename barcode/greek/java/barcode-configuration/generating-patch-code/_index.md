@@ -1,47 +1,55 @@
 ---
-date: 2025-12-13
+date: 2026-02-15
 description: Μάθετε πώς να δημιουργήσετε κώδικα patch barcode σε Java χρησιμοποιώντας
-  το Aspose.BarCode – ένα παράδειγμα δημιουργίας barcode σε Java που δείχνει πώς να
+  το Aspose.BarCode – ένα παράδειγμα γεννήτριας barcode σε Java που δείχνει πώς να
   δημιουργήσετε κώδικα patch και να ορίσετε τη μορφή patch.
 linktitle: Generating a Patch Code in Java
 second_title: Aspose.BarCode Java API
-title: Δημιουργία Patch Barcode Java – Δημιουργία κώδικα Patch με το Aspose.BarCode
+title: Δημιουργία Patch Barcode σε Java – Δημιουργία κώδικα Patch με το Aspose.BarCode
 url: /el/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
+
+ keep code block placeholders unchanged.
+
+Now produce final content with Greek translations and preserving formatting.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία Patch Barcode σε Java με Aspose.BarCode
+# Δημιουργία Patch Barcode Java με Aspose.BarCode
 
 ## Εισαγωγή
 
-Σε αυτόν τον ολοκληρωμένο οδηγό, θα **δημιουργήσετε patch barcode java** γρήγορα και αξιόπιστα χρησιμοποιώντας το Aspose.BarCode for Java. Είτε χτίζετε ένα σύστημα διαχείρισης εγγράφων είτε χρειάζεστε έναν συμπαγή τρόπο αποθήκευσης δεδομένων σε χαρτί, η δημιουργία ενός Patch Code είναι μια πρακτική λύση. Θα περάσουμε από ένα **java barcode generator example**, θα εξηγήσουμε **πώς να δημιουργήσετε patch code** και θα δείξουμε **πώς να ορίσετε τη μορφή patch** ώστε να προσαρμόσετε την έξοδο ακριβώς στις απαιτήσεις σας.
+Σε αυτόν τον ολοκληρωμένο οδηγό, θα **create patch barcode java** γρήγορα και αξιόπιστα χρησιμοποιώντας το Aspose.BarCode for Java. Είτε δημιουργείτε σύστημα διαχείρισης εγγράφων, χρειάζεστε έναν συμπαγή τρόπο αποθήκευσης μεταδεδομένων σε χαρτί, είτε ψάχνετε για μια λύση υψηλής πυκνότητας 2‑D barcode, η δημιουργία ενός Patch Code είναι μια πρακτική επιλογή. Θα περάσουμε από ένα **java barcode generator example**, θα εξηγήσουμε **how to generate patch code**, και θα δείξουμε **how to set patch format** ώστε να προσαρμόσετε την έξοδο στις ακριβείς απαιτήσεις σας.
 
 ## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη είναι η καλύτερη για patch codes;** Aspose.BarCode for Java
+- **Ποια βιβλιοθήκη είναι η καλύτερη για patch codes?** Aspose.BarCode for Java
 - **Πόσες γραμμές κώδικα χρειάζονται;** Περίπου 20 γραμμές για ένα βασικό παράδειγμα
-- **Χρειάζεται άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή
+- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή
 - **Μπορώ να αλλάξω το μέγεθος της σελίδας;** Ναι, χρησιμοποιώντας `PatchFormat` (π.χ., US_LETTER, A4)
-- **Υποστηριζόμενες μορφές εικόνας;** BMP, PNG, JPEG, GIF και άλλα
+- **Υποστηριζόμενες μορφές εικόνας;** BMP, PNG, JPEG, GIF, και άλλα
 
 ## Τι είναι το Patch Code;
-Ένα Patch Code είναι ένας δισδιάστατος barcode που αποτελείται από τέσσερα ξεχωριστά πάνελ που μπορούν να εκτυπωθούν σε μία σελίδα. Είναι ιδανικό για ευρετηρίαση μεγάλου όγκου εγγράφων, επειδή κάθε πάνελ μπορεί να σαρωθεί ανεξάρτητα.
 
-## Γιατί να χρησιμοποιήσετε Aspose.BarCode για Java;
+Ένα Patch Code είναι ένας δισδιάστατος barcode που αποτελείται από τέσσερις ξεχωριστά πάνελ που μπορούν να εκτυπωθούν σε μία σελίδα. Κάθε πάνελ μπορεί να σαρωθεί ανεξάρτητα, καθιστώντας το ιδανικό για ευρετηρίαση μεγάλων όγκων εγγράφων ενώ διατηρεί το φυσικό αποτύπωμα μικρό.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.BarCode for Java;
+
 - **Full‑featured API** – υποστηρίζει όλους τους κύριους τύπους barcode, συμπεριλαμβανομένου του Patch Code.
 - **Easy customization** – αλλάξτε μέγεθος, μορφή, περιθώρια και άλλα με απλές κλήσεις ιδιοτήτων.
 - **Cross‑platform** – λειτουργεί σε οποιοδήποτε περιβάλλον με υποστήριξη Java, από εφαρμογές επιφάνειας εργασίας έως web services.
+- **Robust documentation** – εκτενείς παραδείγματα και αναφορά API σας βοηθούν να ξεκινήσετε γρήγορα.
 
 ## Προαπαιτούμενα
 
-Πριν προχωρήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
 
-- **Java Development Environment** – εγκατεστημένο JDK 8 ή νεότερο.
+- **Java Development Environment** – εγκατεστημένο JDK 8 ή νεότερο.
 - **Aspose.BarCode for Java** – Κατεβάστε από το [download link](https://releases.aspose.com/barcode/java/).
-- **IDE ή Text Editor** – Οποιοσδήποτε επεξεργαστής συμβατός με Java (IntelliJ IDEA, Eclipse, VS Code κ.λπ.).
+- **IDE ή Text Editor** – Οποιοσδήποτε επεξεργαστής συμβατός με Java (IntelliJ IDEA, Eclipse, VS Code, κ.λπ.).
+- **Δικαιώματα εγγραφής** στο φάκελο όπου σκοπεύετε να αποθηκεύσετε τις παραγόμενες εικόνες.
 
 ## Εισαγωγή Πακέτων
 
@@ -52,6 +60,10 @@ import com.aspose.barcode.generation.PatchFormat;
 import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.MarginsF;
 ```
+
+## Πώς να δημιουργήσετε patch barcode java – βήμα προς βήμα
+
+Παρακάτω υπάρχει ένας σαφής, αριθμημένος οδηγός που συνδέει κάθε μπλοκ κώδικα με μια συγκεκριμένη ενέργεια. Μπορείτε να αντιγράψετε τα αποσπάσματα ακριβώς όπως είναι· είναι έτοιμα να εκτελεστούν μόλις αντικαταστήσετε τη διαδρομή φακέλου placeholder.
 
 ### Βήμα 1: Δημιουργία Βασικού Patch Code
 
@@ -65,15 +77,14 @@ public static void generatePatchCode() throws IOException {
 }
 ```
 
-Σε αυτή τη μέθοδο:
+**Τι συμβαίνει εδώ;**
+1. Το `dataDir` δείχνει στο φάκελο όπου θα γραφτεί η εικόνα.
+2. Το `BarcodeGenerator` δημιουργείται με `EncodeTypes.PATCH_CODE` και το κείμενο `"Patch T"`.
+3. Η μέθοδος `save` γράφει το barcode στο `patch.bmp`.
 
-1. Ορίζουμε το φάκελο εξόδου (`dataDir`).
-2. Δημιουργούμε ένα `BarcodeGenerator` με `EncodeTypes.PATCH_CODE` και το κείμενο `"Patch T"`.
-3. Αποθηκεύουμε την παραγόμενη εικόνα στο δίσκο.
+### Βήμα 2: Ορισμός του Patch Format (Μέγεθος Χαρτιού)
 
-### Βήμα 2: Πώς να Ορίσετε τη Μορφή Patch
-
-Αν χρειάζεστε συγκεκριμένο μέγεθος χαρτιού, μπορείτε να ορίσετε τη μορφή πριν από την αποθήκευση. Αυτό δείχνει **πώς να ορίσετε τη μορφή patch** σε US Letter.
+Αν χρειάζεστε συγκεκριμένο μέγεθος χαρτιού, μπορείτε να ορίσετε τη μορφή πριν από την αποθήκευση. Αυτό δείχνει **how to set patch format** σε US Letter.
 
 ```java
 public static void setPatchFormat() throws IOException {
@@ -84,9 +95,12 @@ public static void setPatchFormat() throws IOException {
 }
 ```
 
+**Γιατί να ορίσετε τη μορφή;**  
+Τα πάνελ του Patch Code διατάσσονται βάσει του επιλεγμένου μεγέθους σελίδας. Η χρήση του `PatchFormat.US_LETTER` εξασφαλίζει ότι τα πάνελ ταιριάζουν σωστά σε ένα τυπικό φύλλο μεγέθους letter.
+
 ### Βήμα 3: Δημιουργία Ολόκληρης Σελίδας (Συναρμολόγηση Όλων των Πάνελ)
 
-Παρακάτω βρίσκεται η πλήρης ρουτίνα που δημιουργεί κάθε πάνελ, τα συναρμολογεί σε μια ολοκληρωμένη σελίδα και γράφει το τελικό αρχείο PNG. Εδώ βλέπετε **πώς να δημιουργήσετε patch code** για διάταξη πολλαπλών πάνελ.
+Παρακάτω είναι η πλήρης ρουτίνα που δημιουργεί κάθε πάνελ, τα συναρμολογεί σε μια ολοκληρωμένη σελίδα και γράφει το τελικό αρχείο PNG. Εδώ βλέπετε **how to generate patch code** για μια διάταξη πολλαπλών πάνελ.
 
 ```java
 public static void generateWholePage() throws IOException {
@@ -109,31 +123,44 @@ public static void generateWholePage() throws IOException {
 }
 ```
 
-#### Κοινά Προβλήματα & Συμβουλές
-- **Incorrect directory path** – Ensure `dataDir` ends with a file separator (`/` or `\\`).
-- **Missing permissions** – The application must have write access to the target folder.
-- **Image quality** – Adjust DPI via `generator.getParameters().getImageInfo().setResolutionX/Y()` if needed.
+**Κύρια σημεία που πρέπει να σημειώσετε**
+- Η μέθοδος δημιουργεί τέσσερις ξεχωριστές εικόνες (`topImg`, `leftImg`, `bottomImg`, `rightImg`) που αντιπροσωπεύουν κάθε πάνελ.
+- Δημιουργείται ένας μεγαλύτερος καμβάς `frameImg` για να ενώσει τα πάνελ.
+- Το τελικό PNG γράφεται στον φάκελο που καθορίσατε.
+
+## Κοινά Προβλήματα & Συμβουλές
+
+- **Λανθασμένη διαδρομή καταλόγου** – Βεβαιωθείτε ότι το `dataDir` τελειώνει με διαχωριστικό αρχείου (`/` ή `\\`).  
+- **Απουσία δικαιωμάτων** – Η εφαρμογή πρέπει να έχει πρόσβαση εγγραφής στον προορισμό.  
+- **Ποιότητα εικόνας** – Ρυθμίστε το DPI μέσω `generator.getParameters().getImageInfo().setResolutionX/Y()` αν χρειάζεστε υψηλότερη ανάλυση για σάρωση.  
+- **Χρήση μνήμης** – Όταν δημιουργείτε μεγάλες σελίδες, σκεφτείτε να καλέσετε `System.gc()` μετά την αποθήκευση για να ελευθερώσετε τους buffer εικόνας.
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Μπορώ να χρησιμοποιήσω το Aspose.BarCode for Java σε εμπορικά έργα;**  
-Α: Ναι, απαιτείται εμπορική άδεια για χρήση σε παραγωγή. Μπορείτε να αγοράσετε μία από τη [Aspose's purchase page](https://purchase.aspose.com/buy).
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.BarCode for Java σε εμπορικά έργα;**  
+A: Ναι, απαιτείται εμπορική άδεια για χρήση στην παραγωγή. Μπορείτε να αγοράσετε μία από τη [σελίδα αγοράς του Aspose](https://purchase.aspose.com/buy).
 
-**Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
-Α: Απόλυτα. Κατεβάστε μια δοκιμαστική έκδοση από τη [Aspose's release page](https://releases.aspose.com/).
+**Q: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+A: Απόλυτα. Κατεβάστε μια δοκιμαστική έκδοση από τη [σελίδα κυκλοφορίας του Aspose](https://releases.aspose.com/).
 
-**Ε: Πώς μπορώ να λάβω υποστήριξη;**  
-Α: Επισκεφθείτε το [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) για βοήθεια από την κοινότητα και επίσημα κανάλια υποστήριξης.
+**Q: Πώς μπορώ να λάβω υποστήριξη;**  
+A: Επισκεφθείτε το [φόρουμ Aspose.BarCode](https://forum.aspose.com/c/barcode/13) για βοήθεια της κοινότητας και επίσημα κανάλια υποστήριξης.
 
-**Ε: Προσφέρονται προσωρινές άδειες;**  
-Α: Ναι, προσωρινές άδειες διατίθενται μέσω της [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/).
+**Q: Είναι οι προσωρινές άδειες μια επιλογή;**  
+A: Ναι, προσωρινές άδειες προσφέρονται μέσω της [σελίδας προσωρινής άδειας του Aspose](https://purchase.aspose.com/temporary-license/).
 
-**Ε: Πού μπορώ να βρω την πλήρη αναφορά API;**  
-Α: Η τεκμηρίωση είναι διαθέσιμη στη [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/).
+**Q: Πού μπορώ να βρω την πλήρη αναφορά API;**  
+A: Η τεκμηρίωση είναι διαθέσιμη στη [τεκμηρίωση Aspose.BarCode for Java](https://reference.aspose.com/barcode/java/).
+
+## Επιπλέον Πόροι
+
+- **Sample Projects** – Εξερευνήστε το επίσημο αποθετήριο Aspose.BarCode στο GitHub για πλήρη παραδείγματα.  
+- **Performance Tips** – Χρησιμοποιήστε `generator.getParameters().getImageInfo().setResolutionX(300)` για σάρωση υψηλής ανάλυσης.  
+- **Next Steps** – Αφού κατακτήσετε το Patch Code, δοκιμάστε άλλους 2‑Δ barcodes όπως QR Code ή Data Matrix χρησιμοποιώντας την ίδια κλάση generator.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2025-12-13  
+**Τελευταία Ενημέρωση:** 2026-02-15  
 **Δοκιμάστηκε Με:** Aspose.BarCode for Java 24.12 (latest)  
 **Συγγραφέας:** Aspose  
 

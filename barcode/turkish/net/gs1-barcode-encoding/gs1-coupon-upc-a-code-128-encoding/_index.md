@@ -1,59 +1,76 @@
 ---
-title: GS1 Kuponu UPC-A Kodu 128 Kodlama
-linktitle: GS1 Kuponu UPC-A Kodu 128 Kodlama
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode for .NET ile barkodları kolayca oluşturun - Kapsamlı barkod oluşturma çözümünüz. Bu gün başlayacağım!
-weight: 12
+date: 2026-02-15
+description: Aspose.BarCode for .NET kullanarak bir dizeden barkod oluşturmayı öğrenin.
+  Bu barkod oluşturma öğreticisi C# örneği, adım adım bir GS1 Kupon UPC‑A Code 128
+  oluşturulmasını gösterir.
+linktitle: Generate barcode from string – GS1 Coupon UPC-A Code 128
+second_title: Aspose.BarCode .NET API
+title: Dizeden barkod oluştur – GS1 Kupon UPC-A Kod 128
 url: /tr/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# GS1 Kuponu UPC-A Kodu 128 Kodlama
+# GS1 Kupon UPC-A Code 128 Kodlaması
 
+## Giriş
 
-## giriiş
+Barkodlar, perakende raflarının, depoların ve hatta mobil kuponların arkasındaki sessiz iş gücüdür. Bir .NET uygulamasında **generate barcode from string** verisi oluşturmanız gerektiğinde, Aspose.BarCode for .NET bunu temiz ve güvenilir bir şekilde yapmanızı sağlar. Bu **barcode generation tutorial C#** içinde, basit bir metin dizesinden GS1 Kupon UPC‑A Code 128 barkodu oluşturan eksiksiz bir **barcode generator C# example** göreceksiniz. Bu rehberin sonunda, düşük seviyeli kodlama mantığıyla uğraşmadan barkodları doğrudan projelerinize yerleştirebileceksiniz.
 
-Dijital çağda barkodlar günlük hayatımızın ayrılmaz bir parçası haline geldi. Ürünleri takip etmek, envanteri yönetmek ve hatta çeşitli uygulamalar için gerekli bilgileri kodlamak için kullanılırlar. Bir geliştirici olarak projeleriniz için programlı olarak barkod oluşturma ihtiyacıyla karşılaşmış olabilirsiniz. Barkod oluşturma için güçlü ve çok yönlü bir çözüm sunan Aspose.BarCode for .NET tam da burada devreye giriyor.
-
-Bu kapsamlı kılavuzda Aspose.BarCode for .NET'i kullanarak barkod oluşturma dünyasını keşfedeceğiz. Başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olmak için önkoşullarla başlayacağız, ardından temel ad alanlarına dalacağız ve adım adım pratik bir örnek sunacağız. Bu eğitimin sonunda, barkodları zahmetsizce nasıl oluşturacağınıza dair sağlam bir kavrayışa sahip olacaksınız.
+## Hızlı Yanıtlar
+- **Primary API ne yapar?** Düz bir dizeyi tam uyumlu bir GS1 Kupon UPC‑A Code 128 barkoduna dönüştürür.  
+- **Hangi kütüphane gereklidir?** Aspose.BarCode for .NET (ücretsiz deneme sürümü mevcuttur).  
+- **Geliştirme için lisansa ihtiyacım var mı?** Hayır, deneme sürümü geliştirme ve test için çalışır.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Uygulama ne kadar sürer?** Çalışan bir görüntü elde etmek yaklaşık 5‑10 dakikadır.
 
 ## Önkoşullar
 
-Aspose.BarCode for .NET ile barkod oluşturma dünyasına dalmadan önce, gerekli araç ve bilgilerin elinizin altında olduğundan emin olmanız önemlidir.
+Aspose.BarCode for .NET ile barkod oluşturma dünyasına dalmadan önce, gerekli araç ve bilgiye sahip olduğunuzdan emin olmanız önemlidir.
 
-1. Geliştirme Ortamı: Çalışan bir geliştirme ortamı kurduğunuzdan emin olun. Buna, .NET kodunuzu yazmak ve derlemek için Visual Studio veya seçtiğiniz herhangi bir başka IDE dahildir.
+1. Geliştirme Ortamı: Çalışan bir geliştirme ortamınızın olduğundan emin olun. Bu, .NET kodunuzu yazıp derlemek için Visual Studio veya tercih ettiğiniz diğer IDE'yi içerir.
 
-2.  Aspose.BarCode for .NET Library: Sisteminizde Aspose.BarCode for .NET'in kurulu olması gerekir. Henüz yapmadıysanız adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/barcode/net/).
+2. Aspose.BarCode for .NET Kütüphanesi: Sisteminizde Aspose.BarCode for .NET yüklü olmalıdır. Henüz yüklemediyseniz, [buradan](https://releases.aspose.com/barcode/net/) indirebilirsiniz.
 
-3. Temel C# Bilgisi: Barkod oluşturmak için kod yazacağınız için C# programlama diline aşina olmanız şarttır.
+3. Temel C# Bilgisi: Barkod oluşturmak için kod yazacağınız için C# programlama diline aşina olmanız gerekir.
 
 ## Ad Alanlarını İçe Aktarma
 
-Artık önkoşulları ele aldığınıza göre, Aspose.BarCode for .NET ile çalışmak için gerekli ad alanlarını anlamanın zamanı geldi.
+Artık önkoşulları tamamladığınıza göre, Aspose.BarCode for .NET ile çalışmak için gerekli ad alanlarını anlamanın zamanı geldi.
 
-1. Aspose.BarCode Ad Alanını Dahil Et: Aspose.BarCode ad alanını projenize ekleyerek başlayın. Tüm barkod oluşturma işlevselliğinin bulunduğu yer burasıdır.
+1. Aspose.BarCode Ad Alanını Dahil Et: Projenize Aspose.BarCode ad alanını ekleyerek başlayın. Tüm barkod oluşturma işlevselliği burada bulunur.
 
    ```csharp
    using Aspose.BarCode;
    ```
 
-2. Ek Ad Alanları: Özel gereksinimlerinize bağlı olarak, görüntü işleme veya dosya işleme için başka ad alanları eklemeniz gerekebilir. Örneğin:
+2. Ek Ad Alanları: Belirli gereksinimlerinize bağlı olarak, görüntü işleme veya dosya yönetimi için diğer ad alanlarını da eklemeniz gerekebilir. Örneğin:
 
    ```csharp
    using System;
    using System.IO;
    ```
 
-Projenize eklenen bu ad alanları sayesinde artık barkodları oluşturmaya ve özelleştirmeye hazırsınız.
+Bu ad alanları projenize eklendiğinde, barkodları oluşturup özelleştirmeye hazırsınız.
 
-Adım Adım Kılavuz - GGS1 Kuponu UPC-A Kodu 128 Barkodu Oluşturma
+## GS1 Kupon UPC‑A Code 128 Nedir?
 
-Aspose.BarCode for .NET'i kullanarak GGS1 Kupon UPC-A Code 128 barkodu oluşturmanın adım adım sürecini inceleyelim. Bu örnekte, daha net bir anlayış için kodu yönetilebilir adımlara ayıracağız.
+GS1 Kupon UPC‑A Code 128 barkodu, geleneksel UPC‑A sayısal formatını, indirim tutarları veya son kullanma tarihleri gibi kupon‑özel verileri taşıyan ek GS1 Uygulama Tanımlayıcıları (AI'lar) ile birleştirir. Bu bilgiyi **string** olarak kodlamak ve dönüşümü Aspose'a bırakmak, manuel sağlama toplamı hesaplamalarından ve format tuhaflıklarından sizi kurtarır.
 
-## 1. Adım: Dizin Yolunu Ayarlayın
+## Bu görev için neden Aspose.BarCode kullanılmalı?
+
+- **Sıfır bağımlı kodlama** – kütüphane tam GS1 kurallarını bilir.  
+- **Yüksek kalite çıktı** – tek bir çağrı ile PNG, JPEG, SVG veya PDF oluşturur.  
+- **Tam kontrol** – C#'tan çıkmadan boyutları, renkleri ve sessiz bölgeleri ayarlayabilirsiniz.  
+
+## Adım Adım Kılavuz: string'den barkod oluşturma – GGS1 Kupon UPC‑A Code 128
+
+Aspose.BarCode for .NET kullanarak bir GGS1 Kupon UPC‑A Code 128 barkodu oluşturma adım‑adım sürecini inceleyelim. Bu örnekte, kodu anlaşılır adımlara bölerek net bir anlayış sağlayacağız.
+
+### Adım 1: Dizin Yolunu Ayarlama
 
 Oluşturulan barkod görüntüsünü kaydetmek istediğiniz dizin yolunu tanımlayarak başlayın.
 
@@ -61,66 +78,94 @@ Oluşturulan barkod görüntüsünü kaydetmek istediğiniz dizin yolunu tanıml
 string path = "Your Directory Path";
 ```
 
- Yer değiştirmek`"Your Directory Path"` sisteminizdeki gerçek yolla.
+`"Your Directory Path"` ifadesini sisteminizdeki gerçek yol ile değiştirin.
 
-## Adım 2: Barkod Oluşturucu Oluşturun
+### Adım 2: Barkod Üreteci Oluşturma
 
-İstenilen kodlama türü ve kodlanacak verilerle bir BarcodeGenerator nesnesini başlatın. Bu durumda "123456789012(8110)ASPOSE" verisi ile GGS1 Kupon UPC-A Code 128 barkodu oluşturuyoruz.
+İstenilen kodlama türü ve kodlanacak veri ile bir `BarcodeGenerator` nesnesi başlatın. Bu örnekte, `"123456789012(8110)ASPOSE"` verisiyle bir GGS1 Kupon UPC‑A Code 128 barkodu oluşturuyoruz.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "123456789012(8110)ASPOSE");
 ```
 
-Gerekirse verileri kendi verilerinizle değiştirebilirsiniz.
+Gerekirse veriyi kendi verinizle değiştirebilirsiniz.
 
-## Adım 3: Barkod Parametrelerini Özelleştirin
+### Adım 3: Barkod Parametrelerini Özelleştirme
 
-Barkodunuz için X Boyutu (en küçük çubuğun boyutu), görüntü formatı ve daha fazlası gibi çeşitli parametrelere ince ayar yapabilirsiniz. Bu örnekte X Boyutunu 2 piksele ayarladık.
+Barkodunuz için X‑Dimension (en küçük çubuğun boyutu), görüntü formatı vb. çeşitli parametreleri ince ayar yapabilirsiniz. Bu örnekte X‑Dimension değerini 2 piksel olarak ayarladık.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-Bu parametreleri proje gereksinimlerinize göre ayarlamaktan çekinmeyin.
+Bu parametreleri proje gereksinimlerinize göre istediğiniz gibi ayarlayabilirsiniz.
 
-## Adım 4: Barkod Görüntüsünü Kaydedin
+### Adım 4: Barkod Görüntüsünü Kaydetme
 
-Şimdi oluşturulan barkodu belirttiğiniz dizine resim olarak kaydedin. PNG formatında kaydediyoruz.
+Şimdi, oluşturulan barkodu belirtilen dizinde bir görüntü olarak kaydedin. PNG formatında kaydediyoruz.
 
 ```csharp
 gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
 ```
 
-Gerektiğinde dosya adını ve resim formatını değiştirebilirsiniz.
+Dosya adını ve görüntü formatını ihtiyacınıza göre değiştirebilirsiniz.
 
-Bu dört basit adımı izleyerek Aspose.BarCode for .NET'i kullanarak başarıyla bir GGS1 Coupon UPC-A Code 128 barkodu oluşturdunuz.
+Bu dört basit adımı izleyerek, Aspose.BarCode for .NET kullanarak bir GGS1 Kupon UPC‑A Code 128 barkodu başarıyla oluşturdunuz.
 
-## Çözüm
+## Yaygın Kullanım Senaryoları
 
-Bu eğitimde Aspose.BarCode for .NET'i kullanarak barkod oluşturmayı derinlemesine inceledik. Önkoşulları ele aldık, gerekli ad alanlarını içe aktardık ve pratik bir örneği adım adım inceledik. Bu bilgiyle artık barkod oluşturmayı .NET uygulamalarınıza kolayca dahil edebilirsiniz.
+- **Perakende kuponları** – indirim bilgilerini doğrudan ürün ambalajına yerleştirin.  
+- **Depo etiketleme** – ürün kimliklerini parti veya son kullanım verileriyle birleştirin.  
+- **Mobil promosyonlar** – QR kodu gerektirmeyen kupon kullanımı için yazdırılabilir barkodlar oluşturun.  
 
-Aspose.BarCode for .NET, tüm barkod oluşturma ihtiyaçlarınız için çok yönlü ve kullanıcı dostu bir çözüm sunar. İster envanteri yönetiyor, ister ürünleri takip ediyor, ister verileri kodluyor olun, bu kitaplık süreci basitleştirir.
+## Sorun Giderme ve İpuçları
 
- Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şu adresi ziyaret etmekten çekinmeyin:[Aspose.BarCode belgeleri](https://reference.aspose.com/barcode/net/) veya bu konuda destek isteyin[Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13).
+- **Yol sorunları** – dizinin var olduğundan ve uygulamanın yazma iznine sahip olduğundan emin olun.  
+- **Geçersiz veri formatı** – dize GS1 sözdizimini (`(AI)Data`) izlemelidir.  
+- **Görüntü kalitesi** – daha yüksek çözünürlüklü baskılar için `XDimension` değerini artırın.  
 
----
+## Sonuç
+
+Bu öğreticide, Aspose.BarCode for .NET kullanarak barkod oluşturmayı derinlemesine inceledik. Önkoşulları ele aldık, gerekli ad alanlarını içe aktardık ve pratik bir **barcode generator C# example** üzerinden adım adım ilerledik. Bu bilgiyle, artık **generate barcode from string** verisini herhangi bir GS1‑uyumlu senaryo için, kupon, envanter etiketi veya özel promosyon olsun, oluşturabilirsiniz.
+
+Aspose.BarCode for .NET, tüm barkod oluşturma ihtiyaçlarınız için çok yönlü ve kullanıcı dostu bir çözüm sunar. Envanteri yönetiyor, ürünleri izliyor ya da veri kodluyor olun, bu kütüphane süreci basitleştirir.
+
+Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız olursa, [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) sayfasını ziyaret etmekten veya [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) üzerinden destek almaktan çekinmeyin.
 
 ## SSS
 
-### S: Aspose.BarCode for .NET'i ticari projeler için kullanabilir miyim?
- Evet, Aspose.BarCode for .NET hem kişisel hem de ticari projeler için uygundur. Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+### S: Aspose.BarCode for .NET'i ticari projelerde kullanabilir miyim?
+Evet, Aspose.BarCode for .NET hem kişisel hem de ticari projeler için uygundur. Bir lisans satın alabilirsiniz [buradan](https://purchase.aspose.com/buy).
 
-### S: Aspose.BarCode for .NET'in ücretsiz deneme sürümü mevcut mu?
-Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/). Bir satın alma işlemi yapmadan önce kütüphanenin özelliklerini test etmenize olanak tanır.
+### S: Aspose.BarCode for .NET için ücretsiz deneme sürümü var mı?
+Evet, ücretsiz bir deneme sürümüne [buradan](https://releases.aspose.com/) erişebilirsiniz. Satın almadan önce kütüphanenin özelliklerini test etmenizi sağlar.
 
-### S: Aspose.BarCode for .NET için nasıl geçici lisans alabilirim?
- Değerlendirme veya test amacıyla geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+### S: Aspose.BarCode for .NET için geçici bir lisans nasıl alabilirim?
+Değerlendirme veya test amaçları için geçici bir lisansa ihtiyacınız varsa, birini [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
 ### S: Oluşturulan barkodların görünümünü daha da özelleştirebilir miyim?
-Kesinlikle. Aspose.BarCode for .NET, barkodlarınızın görünümünü ve davranışını özelleştirmeniz için çeşitli parametreler ve ayarlar sağlar. Daha fazla ayrıntı için belgeleri inceleyebilirsiniz.
+Kesinlikle. Aspose.BarCode for .NET, barkodlarınızın görünümünü ve davranışını özelleştirmek için çeşitli parametreler ve ayarlar sunar. Daha fazla ayrıntı için belgeleri inceleyebilirsiniz.
 
-### S: Aspose.BarCode for .NET tarafından desteklenen başka kodlama türleri var mı?
-Evet, Aspose.BarCode for .NET, UPC-A, Code 128, QR kodları ve çok daha fazlasını içeren çok çeşitli kodlama türlerini destekler. Tam listeyi belgelerde bulabilirsiniz.
+### S: Aspose.BarCode for .NET başka hangi kodlama türlerini destekliyor?
+Evet, Aspose.BarCode for .NET, UPC‑A, Code 128, QR kodları ve daha birçok dahil olmak üzere geniş bir kodlama türü yelpazesini destekler. Tam listeyi belgelerde bulabilirsiniz.
+
+## Ek Sıkça Sorulan Sorular
+
+**S: Kütüphane .NET Core'u destekliyor mu?**  
+Cevap: Evet, Aspose.BarCode for .NET .NET Core 3.1 ve üzeri ile .NET 5/6'yı tam olarak destekler.
+
+**S: Vektör formatlarında barkod üretebilir miyim?**  
+Cevap: Kesinlikle. `gen.Save()` çağrısında `BarCodeImageFormat.Svg` veya `Pdf` kullanın.
+
+**S: Barkodun altına insan tarafından okunabilir bir başlık eklemek nasıl yapılır?**  
+Cevap: `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;` ayarlayın ve yazı tipi ayarlarını `CodeTextParameters` üzerinden düzenleyin.
+
+---
+
+**Last Updated:** 2026-02-15  
+**Tested With:** Aspose.BarCode for .NET 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

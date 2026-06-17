@@ -1,11 +1,11 @@
 ---
-title: How to create code_128 barcode and set bar height in Java
+title: How to create code128 barcode Java and set bar height
 linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
-description: Learn how to create code_128 barcode in Java using Aspose.BarCode, customize barcode size, set bar height, and generate barcode image Java efficiently.
+description: Learn how to create code128 barcode java with Aspose.BarCode, customize barcode size, adjust barcode dimensions, and generate barcode image java efficiently.
 weight: 14
 url: /java/barcode-configuration/setting-bars-height/
-date: 2025-12-16
+date: 2026-02-15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-16
 
 ## Introduction
 
-In modern Java applications, you often need to **create code_128 barcode** images that fit the exact visual design of your reports, labels, or receipts. Aspose.BarCode for Java makes this straightforward, letting you **customize barcode size**, adjust dimensions, and generate a barcode image Java can save instantly. In this tutorial we’ll walk through setting the bar height while generating a CODE_128 barcode, so you can produce perfectly sized barcodes every time.
+If you need to **create code128 barcode java** for label printing, invoices, or mobile apps, you’ll want full control over its visual dimensions. Aspose.BarCode for Java lets you **customize barcode size**, set the exact bar height, and instantly generate a barcode image that fits your design requirements. In this tutorial we’ll walk through the complete process of creating a CODE_128 barcode, adjusting its height, and saving the image—so you can produce perfectly sized barcodes every time.
 
 ## Quick Answers
 - **What does the primary method do?** It creates a CODE_128 barcode and lets you set its bar height.  
@@ -32,7 +32,7 @@ CODE_128 is a high‑density linear barcode that encodes the full ASCII set. Adj
 - **Full control** over barcode dimensions (height, width, margins).  
 - **Wide format support** – generate PNG, JPEG, BMP, and more.  
 - **No external dependencies** – pure Java library, easy to integrate.  
-- **Rich API** – customize colors, text, and error correction effortlessly.
+- **Rich API** – customize colors, text, and error correction effortlessly.  
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ In your Java project, import the main class that provides barcode generation cap
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## How to create code_128 barcode and set its height
+## How to create code128 barcode java and set its height
 
 ### Step 1: Initialize the Barcode Object
 
@@ -62,14 +62,14 @@ BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes
 
 ### Step 2: Adjust Barcode Dimensions – Set Bar Height
 
-Use the `BarHeight` property to define the height in millimeters. This is the primary way to **how to set barcode height**.
+Use the `BarHeight` property to define the height in millimeters. This is the primary way to **adjust barcode dimensions**.
 
 ```java
 // Set the bar height to be 3 millimeters
 generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 ```
 
-> **Pro tip:** You can also modify `XDimension` to change the width of individual bars, giving you full control over **adjust barcode dimensions**.
+> **Pro tip:** You can also modify `XDimension` to change the width of individual bars, giving you full control over **customize barcode size**.
 
 ### Step 3: Save the Barcode Image – generate barcode image java
 
@@ -84,7 +84,7 @@ generator.save(dataDir + "barsHeight.jpg");
 
 ## Common Use Cases
 
-- **Label printing** – Ensure the barcode fits within a predefined label size.  
+- **Barcode for label printing** – Ensure the barcode fits within a predefined label size.  
 - **Invoice generation** – Embed a compact barcode that matches the layout of your PDF invoices.  
 - **Mobile apps** – Dynamically generate barcodes with exact dimensions for on‑screen scanning.
 
@@ -115,7 +115,7 @@ A: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) 
 
 ---
 
-**Last Updated:** 2025-12-16  
+**Last Updated:** 2026-02-15  
 **Tested With:** Aspose.BarCode for Java 24.12 (latest)  
 **Author:** Aspose  
 

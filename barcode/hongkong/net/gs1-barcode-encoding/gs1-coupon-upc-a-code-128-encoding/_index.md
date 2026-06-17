@@ -1,126 +1,173 @@
 ---
-title: GS1 優惠券 UPC-A 代碼 128 編碼
-linktitle: GS1 優惠券 UPC-A 代碼 128 編碼
+date: 2026-02-15
+description: 學習如何使用 Aspose.BarCode for .NET 從字串產生條碼。本條碼產生教學的 C# 範例逐步示範建立 GS1 優惠券 UPC‑A
+  Code 128。
+linktitle: Generate barcode from string – GS1 Coupon UPC-A Code 128
 second_title: Aspose.BarCode .NET API
-description: 使用 Aspose.BarCode for .NET 輕鬆產生條碼 - 您的綜合條碼產生解決方案。今天就開始吧！
-weight: 12
+title: 從字串產生條碼 – GS1 優惠券 UPC-A Code 128
 url: /zh-hant/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# GS1 優惠券 UPC-A 代碼 128 編碼
+# GS1 優惠券 UPC‑A Code 128 編碼
 
+## 簡介
 
-## 介紹
+條碼是零售貨架、倉庫，甚至行動優惠券背後默默工作的好幫手。如果您曾需要在 .NET 應用程式中 **generate barcode from string** 資料，Aspose.BarCode for .NET 為您提供乾淨且可靠的解決方案。在本篇 **barcode generation tutorial C#** 中，您將看到完整的 **barcode generator C# example**，它會從簡單的文字字串產生 GS1 優惠券 UPC‑A Code 128 條碼。閱讀完本指南後，您即可直接在自己的專案中嵌入條碼，而不必與底層編碼邏輯糾纏。
 
-在數位時代，條碼已成為我們日常生活中不可或缺的一部分。它們用於追蹤產品、管理庫存，甚至為各種應用程式編碼基本資訊。作為開發人員，您可能遇到過需要以程式設計方式為您的專案產生條碼的情況。這就是 Aspose.BarCode for .NET 發揮作用的地方，它為條碼產生提供了強大且多功能的解決方案。
-
-在本綜合指南中，我們將探索使用 Aspose.BarCode for .NET 產生條碼的世界。我們將從先決條件開始，以確保您擁有開始所需的一切，然後深入了解基本的命名空間並逐步分解一個實際範例。在本教學結束時，您將牢牢掌握如何輕鬆建立條碼。
+## 快速回答
+- **What does the primary API do?** 它將純文字字串轉換為完全符合規範的 GS1 優惠券 UPC‑A Code 128 條碼。  
+- **Which library is required?** Aspose.BarCode for .NET（提供免費試用版）。  
+- **Do I need a license for development?** 不需要，試用版可用於開發與測試。  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How long does the implementation take?** 大約 5‑10 分鐘即可產生可用的影像。
 
 ## 先決條件
 
-在深入研究使用 Aspose.BarCode for .NET 產生條碼的世界之前，必須確保您擁有可用的必要工具和知識。
+在深入使用 Aspose.BarCode for .NET 進行條碼產生之前，確保您具備必要的工具與知識是很重要的。
 
-1. 開發環境：確保您設定了一個有效的開發環境。這包括 Visual Studio 或您選擇的用於編寫和編譯 .NET 程式碼的任何其他 IDE。
+1. 開發環境：確保已設定好可使用的開發環境，包括 Visual Studio 或您選擇的其他 IDE，以撰寫與編譯 .NET 程式碼。  
+2. Aspose.BarCode for .NET 程式庫：必須在系統上安裝 Aspose.BarCode for .NET。若尚未安裝，可從 [here](https://releases.aspose.com/barcode/net/) 下載。  
+3. 基本 C# 知識：必須熟悉 C# 程式語言，因為您將撰寫產生條碼的程式碼。
 
-2.  Aspose.BarCode for .NET 函式庫：您需要在系統上安裝 Aspose.BarCode for .NET。如果您還沒有這樣做，您可以從以下位置下載[這裡](https://releases.aspose.com/barcode/net/).
+## 匯入命名空間
 
-3. 基本 C# 知識：必須熟悉 C# 程式語言，因為您將編寫程式碼來產生條碼。
+在完成先決條件後，現在需要了解使用 Aspose.BarCode for .NET 所需的命名空間。
 
-## 導入命名空間
-
-現在您已經了解了先決條件，現在是時候了解使用 Aspose.BarCode for .NET 所需的命名空間了。
-
-1. 包含 Aspose.BarCode 命名空間：首先在專案中包含 Aspose.BarCode 命名空間。這是所有條碼產生功能的位置。
+1. 包含 Aspose.BarCode 命名空間：首先在專案中加入 Aspose.BarCode 命名空間。所有條碼產生功能皆位於此。  
 
    ```csharp
    using Aspose.BarCode;
    ```
 
-2. 其他命名空間：根據您的特定要求，您可能需要包含其他命名空間以進行影像操作或檔案處理。例如：
+2. 其他命名空間：根據具體需求，您可能需要加入其他用於影像處理或檔案操作的命名空間。例如：  
 
    ```csharp
    using System;
    using System.IO;
    ```
 
-將這些命名空間新增至您的專案後，您現在就可以建立和自訂條碼了。
+加入上述命名空間後，您即可開始建立與自訂條碼。
 
-逐步指南 - 產生 GGS1 優惠券 UPC-A Code 128 條碼
+## 什麼是 GS1 優惠券 UPC‑A Code 128？
 
-讓我們來探索使用 Aspose.BarCode for .NET 產生 GGS1 Coupon UPC-A Code 128 條碼的逐步過程。在此範例中，我們將把程式碼分解為可管理的步驟，以便清楚地理解。
+GS1 優惠券 UPC‑A Code 128 條碼結合了傳統的 UPC‑A 數字格式與額外的 GS1 應用識別碼（AI），用以攜帶優惠券專屬資料，如折扣金額或有效期限。將此資訊以 **string** 編碼，並交由 Aspose 處理轉換，可免除手動計算校驗碼與格式細節的麻煩。
 
-## 第1步：設定目錄路徑
+## 為何在此任務使用 Aspose.BarCode？
 
-首先定義要儲存產生的條碼影像的目錄路徑。
+- **Zero‑dependency encoding** – 程式庫了解完整的 GS1 規則。  
+- **High‑quality output** – 只需一次呼叫即可產生 PNG、JPEG、SVG 或 PDF。  
+- **Full control** – 在 C# 中即可調整尺寸、顏色與靜止區域。  
+
+## 逐步指南：從字串產生條碼 – GGS1 優惠券 UPC‑A Code 128
+
+讓我們一起探討使用 Aspose.BarCode for .NET 產生 GGS1 優惠券 UPC‑A Code 128 條碼的逐步流程。以下範例會將程式碼拆解為易於理解的步驟。
+
+### 步驟 1：設定目錄路徑
+
+首先定義要儲存產生之條碼影像的目錄路徑。
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-代替`"Your Directory Path"`與系統上的實際路徑。
+將 `"Your Directory Path"` 替換為您系統上的實際路徑。
 
-## 第 2 步：建立條碼產生器
+### 步驟 2：建立條碼產生器
 
-使用所需的編碼類型和要編碼的資料初始化 BarcodeGenerator 物件。在本例中，我們將使用資料「123456789012(8110)ASPOSE」建立 GGS1 Coupon UPC-A Code 128 條碼。
+使用欲編碼的類型與資料初始化 `BarcodeGenerator` 物件。在此範例中，我們以資料 `"123456789012(8110)ASPOSE"` 建立 GGS1 優惠券 UPC‑A Code 128 條碼。
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "123456789012(8110)ASPOSE");
 ```
 
-如果需要，您可以用自己的資料替換該資料。
+如有需要，可自行替換資料內容。
 
-## 步驟3：自訂條碼參數
+### 步驟 3：自訂條碼參數
 
-您可以微調條碼的各種參數，例如 X 尺寸（最小條的尺寸）、影像格式等。在此範例中，我們將 X 維度設定為 2 像素。
+您可以微調條碼的各項參數，例如 X‑Dimension（最小條寬）、影像格式等。在此範例中，我們將 X‑Dimension 設為 2 像素。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-請根據您的專案要求隨意調整這些參數。
+請依專案需求自由調整這些參數。
 
-## 第 4 步：儲存條碼圖像
+### 步驟 4：儲存條碼影像
 
-現在，將產生的條碼作為圖像保存在您指定的目錄中。我們將其儲存為 PNG 格式。
+現在，將產生的條碼以影像形式儲存至先前指定的目錄，我們使用 PNG 格式。
 
 ```csharp
 gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
 ```
 
-您可以根據需要更改檔案名稱和圖像格式。
+如有需要，可變更檔名與影像格式。
 
-透過執行這四個簡單的步驟，您已使用 Aspose.BarCode for .NET 成功產生了 GGS1 Coupon UPC-A Code 128 條碼。
+依照上述四個簡單步驟，您已成功使用 Aspose.BarCode for .NET 產生 GGS1 優惠券 UPC‑A Code 128 條碼。
+
+## 常見使用情境
+
+- **Retail coupons** – 直接在商品包裝上嵌入折扣資訊。  
+- **Warehouse labeling** – 結合產品編號與批號或有效日期。  
+- **Mobile promotions** – 產生可列印的條碼，以免除 QR 代碼的優惠券兌換。  
+
+## 故障排除與技巧
+
+- **Path issues** – 確認目錄已存在且應用程式具備寫入權限。  
+- **Invalid data format** – 字串必須符合 GS1 語法 (`(AI)Data`)。  
+- **Image quality** – 提升 `XDimension` 以獲得更高解析度的列印品質。  
 
 ## 結論
 
-在本教程中，我們深入研究了使用 Aspose.BarCode for .NET 產生條碼。我們已經介紹了先決條件，導入了必要的命名空間，並逐步演練了一個實際範例。有了這些知識，您現在可以輕鬆地將條碼生成合併到您的 .NET 應用程式中。
+在本教學中，我們深入探討了使用 Aspose.BarCode for .NET 產生條碼的方式。我們說明了先決條件、匯入必要的命名空間，並一步步示範實用的 **barcode generator C# example**。有了這些知識，您現在即可為任何符合 GS1 標準的情境（無論是優惠券、庫存標籤或自訂促銷）**generate barcode from string** 資料。
 
-Aspose.BarCode for .NET 提供了一個多功能且使用者友好的解決方案，可滿足您所有的條碼產生需求。無論您是管理庫存、追蹤產品還是編碼數據，該庫都可以簡化流程。
+Aspose.BarCode for .NET 提供多功能且使用者友善的解決方案，滿足您所有條碼產生需求。無論是管理庫存、追蹤產品或編碼資料，這個程式庫都能簡化流程。
 
-如果您有任何疑問或需要進一步協助，請隨時訪問[Aspose.BarCode 文檔](https://reference.aspose.com/barcode/net/)或尋求支持[Aspose.BarCode 論壇](https://forum.aspose.com/c/barcode/13).
+若您有任何問題或需要進一步協助，歡迎造訪 [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) 或在 [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) 上尋求支援。
+
+## 常見問答
+
+### Q: 我可以在商業專案中使用 Aspose.BarCode for .NET 嗎？
+
+是的，Aspose.BarCode for .NET 適用於個人與商業專案。您可於 [here](https://purchase.aspose.com/buy) 購買授權。
+
+### Q: 是否提供 Aspose.BarCode for .NET 的免費試用？
+
+是的，您可從 [here](https://releases.aspose.com/) 取得免費試用版，讓您在購買前測試程式庫功能。
+
+### Q: 如何取得 Aspose.BarCode for .NET 的臨時授權？
+
+若需用於評估或測試的臨時授權，可於 [here](https://purchase.aspose.com/temporary-license/) 取得。
+
+### Q: 我可以進一步自訂產生的條碼外觀嗎？
+
+當然可以。Aspose.BarCode for .NET 提供多種參數與設定，可自訂條碼的外觀與行為。請參考文件以取得更多資訊。
+
+### Q: Aspose.BarCode for .NET 還支援其他編碼類型嗎？
+
+是的，Aspose.BarCode for .NET 支援多種編碼類型，包括 UPC‑A、Code 128、QR 代碼等。完整清單請參考文件。
+
+## 其他常見問答
+
+**Q: 此程式庫是否支援 .NET Core？**  
+A: 是的，Aspose.BarCode for .NET 完全支援 .NET Core 3.1 及以上版本，同時亦支援 .NET 5/6。
+
+**Q: 我能產生向量格式的條碼嗎？**  
+A: 當然可以。呼叫 `gen.Save()` 時使用 `BarCodeImageFormat.Svg` 或 `Pdf`。
+
+**Q: 如何在條碼下方加入可讀的說明文字？**  
+A: 設定 `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;`，並透過 `CodeTextParameters` 調整字型設定。
 
 ---
 
-## 常見問題解答
+**最後更新：** 2026-02-15  
+**測試環境：** Aspose.BarCode for .NET 24.11  
+**作者：** Aspose  
 
-### Q：我可以將 Aspose.BarCode for .NET 用於商業專案嗎？
-是的，Aspose.BarCode for .NET 適用於個人和商業專案。您可以購買許可證[這裡](https://purchase.aspose.com/buy).
-
-### Q：Aspose.BarCode for .NET 是否有免費試用版？
-是的，您可以存取免費試用版[這裡](https://releases.aspose.com/)。它允許您在購買之前測試圖書館的功能。
-
-### Q：如何取得 Aspose.BarCode for .NET 的臨時授權？
-如果您需要臨時許可證用於評估或測試目的，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q：我可以進一步自訂產生的條碼的外觀嗎？
-絕對地。 Aspose.BarCode for .NET 提供了各種參數和設定來自訂條碼的外觀和行為。您可以瀏覽文件以獲取更多詳細資訊。
-
-### Q：Aspose.BarCode for .NET 是否支援任何其他編碼類型？
-是的，Aspose.BarCode for .NET 支援多種編碼類型，包括 UPC-A、Code 128、QR 碼等等。您可以在文件中找到完整清單。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
