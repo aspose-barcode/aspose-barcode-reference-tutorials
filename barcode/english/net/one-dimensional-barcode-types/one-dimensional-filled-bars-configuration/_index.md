@@ -1,110 +1,122 @@
 ---
-title: One-Dimensional Filled Bars Configuration
+title: How to Generate Barcode: One-Dimensional Filled Bars
 linktitle: One-Dimensional Filled Bars Configuration
 second_title: Aspose.BarCode .NET API
-description: Learn how to generate barcodes in .NET with Aspose.BarCode for .NET. This comprehensive tutorial covers everything from importing namespaces to creating one-dimensional barcodes. 
+description: Learn how to generate barcode images in PNG format with Aspose.BarCode for .NET. This barcode generator tutorial covers creating a Code128 barcode, configuring filled bars, and saving barcode PNG files.
 weight: 20
 url: /net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/
+date: 2026-02-28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# One-Dimensional Filled Bars Configuration
+# How to Generate Barcode: One-Dimensional Filled Bars
 
+Are you looking to generate professional and customizable barcodes in your .NET applications? If you’re wondering **how to generate barcode** images quickly and reliably, Aspose.BarCode for .NET has you covered. This tutorial walks you through everything from importing the required namespaces to creating one‑dimensional filled bars, saving them as **barcode image png** files, and customizing the output. Let’s dive in!
 
-Are you looking to generate professional and customizable barcodes in your .NET applications? Look no further! Aspose.BarCode for .NET is here to streamline your barcode creation process, offering a multitude of features and customization options to meet your specific needs. In this comprehensive tutorial, we will walk you through the basics of using Aspose.BarCode for .NET, from importing namespaces to generating one-dimensional filled bars. Let's get started!
+## Quick Answers
+- **What does “filled bars” mean?** Filled bars are solid‑filled modules that give the barcode a bold appearance.  
+- **Which barcode type is used in this example?** Code128, a high‑density linear symbology.  
+- **Can I save the result as PNG?** Yes – the tutorial shows how to **save barcode png** files.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **What .NET versions are supported?** Any version that supports .NET Framework or .NET Core compatible with Aspose.BarCode.
+
+## What is “how to generate barcode” with Aspose.BarCode?
+Aspose.BarCode for .NET provides a simple API that lets you programmatically create a wide range of linear and 2‑D barcodes. By configuring properties such as **XDimension**, **FilledBars**, and image format, you can tailor the output to meet packaging, inventory, or labeling requirements.
+
+## Why use Aspose.BarCode for .NET?
+- **Full control** over barcode appearance (size, colors, filled/empty bars).  
+- **No external dependencies** – everything runs locally in your application.  
+- **Supports over 50 symbologies**, including Code128, QR, DataMatrix, and more.  
+- **Easy to integrate** with existing .NET projects, whether you target .NET Framework or .NET Core.
 
 ## Prerequisites
 
-Before diving into the world of barcode generation with Aspose.BarCode for .NET, make sure you have the following prerequisites in place:
+Before we start, make sure you have the following:
 
-1. Visual Studio: You need a working installation of Visual Studio to write and run your .NET applications.
+1. **Visual Studio** – any recent edition (Community, Professional, or Enterprise).  
+2. **Aspose.BarCode for .NET** – download it from the official site **[here](https://releases.aspose.com/barcode/net/)**.  
+3. **.NET Framework or .NET Core** – a compatible runtime installed on your development machine.
 
-2. Aspose.BarCode for .NET: Download and install Aspose.BarCode for .NET from the website. You can find the download link [here](https://releases.aspose.com/barcode/net/).
-
-3. .NET Framework: Ensure you have the appropriate .NET Framework installed on your development machine.
-
-Now that you have the prerequisites covered, let's move on to the exciting part.
+Now that the environment is ready, let’s move on to the code.
 
 ## Importing Namespaces
 
-To start using Aspose.BarCode for .NET, you need to import the necessary namespaces into your project. Follow these steps:
+To begin using the library, add the required `using` directive at the top of your C# file:
 
-### Step 1: Open Your Project
-   Open your Visual Studio project where you plan to integrate barcode generation.
+```csharp
+using Aspose.BarCode.Generation;
+```
 
-### Step 2: Import Namespaces
-   In your code file, add the following using directives at the top:
+This import gives you access to the `BarcodeGenerator` class and all related configuration objects.
 
-   ```csharp
-   using Aspose.BarCode.Generation;
-   ```
+## How to Generate Barcode with Filled Bars
 
-   This will allow you to access the BarcodeGenerator class and other relevant components.
+Below is a step‑by‑step guide that shows exactly **how to generate barcode** images with filled and empty bars.
 
-With the namespaces in place, you're ready to create stunning barcodes with Aspose.BarCode for .NET!
+### Step 1: Define the Output Folder
+Choose a folder where the generated PNG files will be stored. Replace `"Your Directory Path"` with an actual path on your machine.
 
-## Generating One-Dimensional Filled Bars
+```csharp
+string path = "Your Directory Path";
+```
 
-In this section, we will demonstrate how to create one-dimensional barcodes with filled and empty bars using Aspose.BarCode for .NET. Let's break it down into steps:
+> **Pro tip:** Use `Path.Combine` to build platform‑independent paths.
 
-### Step 1: Set Up the Environment
-   Ensure you have a directory path where you want to save your barcode images. Replace `"Your Directory Path"` with your desired directory path.
+### Step 2: Create a BarcodeGenerator Instance
+Instantiate `BarcodeGenerator` with the desired symbology (`EncodeTypes.Code128`) and the data you want to encode (`"ASPOSE"`).
 
-   ```csharp
-   string path = "Your Directory Path";
-   ```
-
-### Step 2: Initialize Barcode Generator
-   Create a BarcodeGenerator object with the desired barcode type (in this case, Code128) and data ("ASPOSE").
-
-   ```csharp
-   BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "ASPOSE");
-   ```
+```csharp
+BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "ASPOSE");
+```
 
 ### Step 3: Configure Filled Bars
-   Set the XDimension in pixels and specify whether you want filled bars. For filled bars, set it to `true`, and for empty bars, set it to `false`.
+Set the X‑dimension (the width of a single bar) and decide whether the bars should be filled. The following configuration creates solid bars.
 
-   ```csharp
-   gen.Parameters.Barcode.XDimension.Pixels = 2;
-   gen.Parameters.Barcode.FilledBars = true;
-   ```
+```csharp
+gen.Parameters.Barcode.XDimension.Pixels = 2;
+gen.Parameters.Barcode.FilledBars = true;
+```
 
-### Step 4: Generate and Save Barcodes
-   Generate and save the barcodes in your specified directory with the appropriate file format (in this case, PNG).
+### Step 4: Generate and Save the Images
+Save the barcode with filled bars, then switch the `FilledBars` flag to `false` and save the empty‑bar version. Both files are saved as **barcode image png** files.
 
-   ```csharp
-   gen.Save($"{path}BarsFilledCode128.png", BarCodeImageFormat.Png);
-   gen.Parameters.Barcode.FilledBars = false;
-   gen.Save($"{path}BarsEmptyCode128.png", BarCodeImageFormat.Png);
-   ```
+```csharp
+gen.Save($"{path}BarsFilledCode128.png", BarCodeImageFormat.Png);
+gen.Parameters.Barcode.FilledBars = false;
+gen.Save($"{path}BarsEmptyCode128.png", BarCodeImageFormat.Png);
+```
 
-With these simple steps, you can generate one-dimensional barcodes with either filled or empty bars using Aspose.BarCode for .NET.
+When you run the code, you’ll end up with two PNG files:
+- `BarsFilledCode128.png` – solid, bold bars.  
+- `BarsEmptyCode128.png` – standard, non‑filled bars.
 
-## Conclusion
+## Common Issues & Solutions
 
-Aspose.BarCode for .NET is a powerful and flexible tool that simplifies the process of barcode generation in your .NET applications. With a few easy-to-follow steps, you can create stunning barcodes for various purposes, from inventory management to product labeling. Explore the documentation [here](https://reference.aspose.com/barcode/net/) for more details and features.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **File not found** | Invalid `path` value. | Verify the directory exists or create it with `Directory.CreateDirectory(path)`. |
+| **License exception** | Running without a valid license in production. | Apply your Aspose license using `License license = new License(); license.SetLicense("Aspose.BarCode.lic");`. |
+| **Incorrect image format** | Using an unsupported format. | Ensure you use `BarCodeImageFormat.Png` (or another supported enum value). |
 
-Incorporate Aspose.BarCode for .NET into your projects and take full control of your barcode generation needs. Whether you need one-dimensional or two-dimensional barcodes, this library has you covered!
-
-### Frequently Asked Questions
+## Frequently Asked Questions
 
 ### What barcode formats are supported by Aspose.BarCode for .NET?
-Aspose.BarCode for .NET supports a wide range of barcode formats, including Code128, QR Code, DataMatrix, and many more. Refer to the documentation for the complete list of supported formats.
+Aspose.BarCode for .NET supports over 50 linear and 2‑D formats, including Code128, QR Code, DataMatrix, PDF417, and more. See the full list in the documentation **[here](https://reference.aspose.com/barcode/net/)**.
 
 ### Can I customize the appearance of the generated barcodes?
-Yes, you can fully customize the appearance of your barcodes, including size, color, and encoding. Aspose.BarCode for .NET provides extensive customization options.
+Absolutely. You can modify size, colors, margins, text placement, and even apply background images. All options are available through the `Parameters` object.
 
 ### Is there a free trial available for Aspose.BarCode for .NET?
-Yes, you can try Aspose.BarCode for .NET by downloading the free trial version from [here](https://releases.aspose.com/).
+Yes – you can download a fully functional trial **[here](https://releases.aspose.com/)**.
 
 ### Where can I get support for Aspose.BarCode for .NET?
-If you have any questions or need assistance, visit the Aspose.BarCode for .NET support forum [here](https://forum.aspose.com/c/barcode/13).
+The official support forum is a great place to ask questions and share experiences: **[here](https://forum.aspose.com/c/barcode/13)**.
 
 ### Can I purchase a temporary license for Aspose.BarCode for .NET?
-Yes, you can obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/), which allows you to use the library for a limited period.
+A temporary license is available for short‑term projects. Grab one **[this link](https://purchase.aspose.com/temporary-license/)**.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -112,3 +124,11 @@ Yes, you can obtain a temporary license from [this link](https://purchase.aspose
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
+
+---
