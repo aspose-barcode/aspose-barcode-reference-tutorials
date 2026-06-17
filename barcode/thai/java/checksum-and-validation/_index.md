@@ -1,10 +1,39 @@
 ---
-date: 2025-12-18
-description: เรียนรู้วิธีสร้างบาร์โค้ด Codabar ด้วย Java และ Aspose.BarCode, สร้างบาร์โค้ดพร้อมเช็คซัม,
-  และทำตามบทแนะนำการตรวจสอบเช็คซัมด้วย Java เพื่อความสมบูรณ์ของข้อมูลที่แข็งแรง.
-linktitle: Checksum and Validation
+date: 2026-06-04
+description: เรียนรู้วิธีตรวจสอบ checksum และสร้าง Codabar barcode ด้วย Java โดยใช้
+  Aspose.BarCode คู่มือนี้ครอบคลุมการสร้าง barcode การแสดง checksum และการตรวจสอบเพื่อความสมบูรณ์ของข้อมูลที่มั่นคง
+keywords:
+- how to validate checksum
+- how to generate barcode
+- aspose barcode java
+linktitle: Checksum และการตรวจสอบ
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to validate checksum and generate Codabar barcodes in Java
+    using Aspose.BarCode. This guide covers creating barcodes, displaying checksum,
+    and validation for robust data integrity.
+  headline: How to Validate Checksum – Create Codabar Barcode in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, you can disable the checksum by setting `generator.getParameters().getBarcode().setCodabarChecksumEnabled(false);`
+      but it’s not recommended for production.
+    question: Can I generate a Codabar barcode without a checksum?
+  - answer: Absolutely. You can specify start/stop symbols (e.g., `*` and `#`) via
+      the Codabar symbology settings.
+    question: Does Aspose.BarCode support custom start/stop characters?
+  - answer: Use `BarcodeReader` to decode the image, then call `reader.getCodeText()`
+      and verify `reader.isValidChecksum()`.
+    question: How do I validate a barcode that was scanned from an image?
+  - answer: The overhead is negligible for typical workloads; checksum calculation
+      runs in O(n) time relative to the data length.
+    question: Is there a performance impact when enabling checksum calculation?
+  - answer: Any IDE that supports Java 8 or later—IntelliJ IDEA, Eclipse, NetBeans,
+      VS Code, and others—works seamlessly.
+    question: Which Java IDEs are compatible with Aspose.BarCode?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: วิธีสร้างบาร์โค้ด Codabar ด้วย Java – ผลรวมตรวจสอบและการตรวจสอบความถูกต้อง
+title: วิธีตรวจสอบ Checksum – สร้าง Codabar Barcode ด้วย Java
 url: /th/java/checksum-and-validation/
 weight: 23
 ---
@@ -13,94 +42,97 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Checksum และการตรวจสอบความถูกต้อง
+# Checksum และการตรวจสอบ
 
-ในภูมิทัศน์การพัฒนาซอฟต์แวร์ที่เปลี่ยนแปลงอย่างต่อเนื่อง, **การสร้าง Codabar barcode Java** เป็นเทคนิคสำคัญสำหรับการรับประกันความสมบูรณ์ของข้อมูล. คู่มือนี้, ที่ใช้พลัง Aspose.BarCode for Java, แสดงให้คุณเห็นอย่างชัดเจนว่าต้องสร้าง Codabar barcode อย่างไร, แสดง checksum ของมัน, และตรวจสอบผลลัพธ์—เพื่อให้แอปพลิเคชันของคุณคงความน่าเชื่อถือและปลอดภัย.
+ในแอปพลิเคชัน Java สมัยใหม่ การ **ตรวจสอบ checksum** เมื่อสร้างบาร์โค้ด Codabar มีความสำคัญต่อความสมบูรณ์ของข้อมูล คำแนะนำนี้ซึ่งใช้ Aspose.BarCode for Java จะพาคุณผ่านขั้นตอนการสร้าง Codabar barcode การแสดง checksum และการตรวจสอบผลลัพธ์—เพื่อให้ซอฟต์แวร์ของคุณมีความน่าเชื่อถือ ปลอดภัย และพร้อมสำหรับการผลิต
 
-## คำตอบสั้นๆ
-- **What does “create Codabar barcode Java” mean?** หมายถึงการใช้ Aspose.BarCode for Java เพื่อสร้าง Codabar‑type linear barcode ที่สามารถรวม checksum ได้.  
-- **Why show the checksum?** ทำให้สแกนเนอร์สามารถตรวจสอบได้ว่าข้อมูลที่เข้ารหัสไม่ได้เสียหายระหว่างการพิมพ์หรือการสแกน.  
-- **Do I need a license?** การทดลองใช้ฟรีสามารถใช้ได้สำหรับการพัฒนา; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง.  
-- **Which Java versions are supported?** Java 8 และรุ่นต่อๆ ไปได้รับการสนับสนุนเต็มที่โดย Aspose.BarCode.  
-- **Can I validate the barcode after generation?** ใช่—ใช้เมธอดตรวจสอบ checksum ที่มีอยู่ในตัวซึ่งแสดงในภายหลังในคู่มือนี้.
+## คำตอบสั้น
+- **“create Codabar barcode Java” หมายถึงอะไร?** หมายถึงการใช้ Aspose.BarCode for Java เพื่อสร้างบาร์โค้ดเชิงเส้นประเภท Codabar ที่สามารถรวม checksum ได้.  
+- **ทำไมต้องแสดง checksum?** มันทำให้เครื่องสแกนตรวจสอบได้ว่าข้อมูลที่เข้ารหัสไม่ได้เสียหายระหว่างการพิมพ์หรือการสแกน.  
+- **ฉันต้องการไลเซนส์หรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการผลิต.  
+- **เวอร์ชัน Java ใดที่รองรับ?** Java 8 และเวอร์ชันต่อมาถูกสนับสนุนเต็มที่โดย Aspose.BarCode.  
+- **ฉันสามารถตรวจสอบบาร์โค้ดหลังจากสร้างได้หรือไม่?** ได้—ใช้เมธอดตรวจสอบ checksum ที่มีอยู่ในตัวซึ่งแสดงต่อไปในคู่มือนี้.
 
 ## Codabar Barcode คืออะไร?
-Codabar เป็นสัญลักษณ์เชิงเส้นที่ออกแบบมาสำหรับห้องสมุด, ธนาคารเลือด, และบริการจัดส่งพัสดุ. มันเข้ารหัสข้อมูลตัวเลขและอักขระพิเศษบางตัว, และสามารถรวม checksum เพื่อจับข้อผิดพลาดได้ตามต้องการ.
+Codabar เป็นสัญลักษณ์เชิงเส้นที่ออกแบบมาสำหรับห้องสมุด ธนาคารเลือด และบริการจัดส่งพัสดุ มันเข้ารหัสข้อมูลตัวเลขและชุดอักขระพิเศษจำกัดเช่น A, B, C, D, เครื่องหมายขีด (-) และสัญลักษณ์ดอลลาร์ ($) รูปแบบต้องมีอักขระเริ่มต้น/สิ้นสุดและสามารถรวม checksum เพื่อจับข้อผิดพลาดได้ ซึ่งช่วยเพิ่มความน่าเชื่อถือของการสแกน.
 
 ## ทำไมต้องใช้ Aspose.BarCode for Java?
-- **Zero‑dependency**: ทำงานได้ทันทีกับ Java มาตรฐาน.  
-- **Checksum support**: การคำนวณและการแสดงผลอัตโนมัติ.  
-- **Cross‑platform**: สร้างบาร์โค้ดบน Windows, Linux หรือ macOS.  
-- **Extensive documentation**: มีตัวอย่างและอ้างอิง API มากมาย.
+Aspose.BarCode for Java รองรับ **สัญลักษณ์บาร์โค้ดกว่า 30 ประเภท** และสามารถสร้างภาพขนาดสูงสุด **10,000 × 10,000 พิกเซล** โดยไม่ทำให้หน่วยความจำหมด มันให้การปรับใช้แบบไม่มีการพึ่งพาอื่น ๆ การคำนวณ checksum อัตโนมัติ และความเข้ากันได้ข้ามแพลตฟอร์ม (Windows, Linux, macOS) ประโยชน์ที่วัดได้เหล่านี้ทำให้เป็นตัวเลือกที่พร้อมสำหรับการผลิตในโครงการระดับองค์กร.
 
-## การแสดง Checksum เสมอใน Java
-ในโลกของการเขียนโปรแกรม Java ความสำคัญของ checksum ไม่อาจประเมินได้ คู่มือนี้จะพาคุณผ่านกระบวนการสร้างบาร์โค้ดด้วย Aspose.BarCode for Java อย่างราบรื่นพร้อมรับประกันว่า checksum จะถูกแสดงเสมอ ยกระดับความสมบูรณ์ของข้อมูลของคุณอย่างง่ายดาย ทำให้ซอฟต์แวร์ของคุณเป็นป้อมปราการของความน่าเชื่อถือ.
-
-คุณเคยสงสัยไหมว่าจะแก้ไขความน่าเชื่อถือของข้อมูลของคุณอย่างไร? ด้วยการเรียนรู้ศิลปะการแสดง checksum เสมอใน Java คุณไม่เพียงเพิ่มความสมบูรณ์ของข้อมูลเท่านั้น แต่ยังได้เปรียบในการแข่งขันในสภาพแวดล้อมดิจิทัลที่ขยายตัวอย่างต่อเนื่อง คู่มือขั้นตอนต่อขั้นตอนนี้ทำให้กระบวนการชัดเจน, ทำให้บาร์โค้ดของคุณไม่เพียงแสดงข้อมูลแต่ยังรับประกันความถูกต้องของมัน.
-
-## การใช้ Checksum สำหรับ CodaBar ใน Java
-CodaBar, สัญลักษณ์บาร์โค้ดเชิงเส้นที่ใช้กันอย่างแพร่หลาย, ต้องการวิธีการที่ละเอียดอ่อนสำหรับ checksum ใน Java. อย่ากลัว! คู่มือนี้ให้ความรู้ในการใช้ checksum สำหรับ CodaBar ด้วย Aspose.BarCode. ปลดล็อกศักยภาพของ CodaBar, สร้างบาร์โค้ดอย่างราบรื่น, และตรวจสอบข้อมูลอย่างแม่นยำ.
-
-ลองนึกภาพว่าคุณมีความสามารถในการเชี่ยวชาญ checksum สำหรับ CodaBar อย่างง่ายดาย คู่มือนี้พาคุณผ่านการเดินทางที่คุณไม่เพียงเข้าใจความซับซ้อนของ CodaBar แต่ยังเชี่ยวชาญในการใช้ checksum, ทำให้ข้อมูลของคุณเชื่อถือได้ อยู่เหนือคู่แข่งในสนามการเขียนโค้ดด้วยบทเรียนที่ครอบคลุมและเป็นขั้นตอน.
+## ข้อกำหนดเบื้องต้น
+- ติดตั้ง Java 8 หรือใหม่กว่า.  
+- Maven หรือ Gradle เพื่อจัดการการพึ่งพา Aspose.BarCode.  
+- ทางเลือก: ไฟล์ไลเซนส์ Aspose.BarCode ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์.
 
 ## วิธีการสร้าง Codabar barcode ใน Java
-เพื่อ **วิธีการสร้าง Codabar barcode**, คุณเพียงแค่กำหนดค่า `BarcodeGenerator` ด้วยสัญลักษณ์ **Codabar** และสามารถเปิดใช้งานการคำนวณ checksum ได้ตามต้องการ API จะจัดการส่วนที่ยุ่งยากให้, ทำให้คุณมุ่งเน้นที่ตรรกะธุรกิจของคุณ.
+`BarcodeGenerator` เป็นคลาสหลักของ Aspose.BarCode สำหรับสร้างภาพบาร์โค้ดใน Java.  
+เพื่อสร้าง Codabar barcode ให้สร้างอินสแตนซ์ของ `BarcodeGenerator` ตั้งค่าสัญลักษณ์เป็น Codabar ให้ข้อมูลสตริง (รวมอักขระเริ่มต้น/สิ้นสุด) เปิดใช้งาน checksum และเรียก `save` เพื่อบันทึกภาพลงไฟล์หรือสตรีม ทั้งกระบวนการสามารถเขียนได้ในเพียงสามบรรทัดโค้ด Java สั้น ๆ ทำให้การผสานรวมเป็นเรื่องง่าย.
+
+## วิธีการตรวจสอบ checksum ใน Java
+`BarcodeReader` เป็นคลาสหลักของ Aspose.BarCode สำหรับถอดรหัสบาร์โค้ดจากภาพหรือสตรีม.  
+ตรวจสอบ checksum โดยสร้าง `BarcodeReader` โหลดภาพที่สร้างขึ้น และเรียกเมธอด decode ตัวอ่านจะดึงข้อความที่เข้ารหัสและเปิดเผยฟล็ก `isValidChecksum()` ซึ่งจะคืนค่า true เมื่อ checksum ที่คำนวณได้ตรงกับที่ฝังอยู่ในบาร์โค้ด การตรวจสอบง่าย ๆ นี้ยืนยันความสมบูรณ์ของข้อมูลหลังการสแกน.
 
 ## สร้างบาร์โค้ดพร้อม checksum
-เมื่อคุณเปิดใช้งานคุณสมบัติ `Checksum`, Aspose.BarCode จะคำนวณค่า checksum ที่ถูกต้องโดยอัตโนมัติและเพิ่มลงในภาพที่แสดง. สิ่งนี้รับประกันว่าผู้สแกนใดๆ ที่อ่านบาร์โค้ดจะสามารถตรวจสอบความสมบูรณ์ของข้อมูลได้ทันที.
+`setCodabarChecksumEnabled(boolean)` เป็นเมธอดที่สลับการคำนวณ checksum สำหรับสัญลักษณ์ Codabar เมื่อคุณเปิดใช้งานคุณสมบัติ `setCodabarChecksumEnabled(true)` Aspose.BarCode จะคำนวณค่า checksum ที่ถูกต้องโดยอัตโนมัติและเพิ่มลงในภาพแสดงผล สิ่งนี้รับประกันว่าเครื่องสแกนใด ๆ ที่อ่านบาร์โค้ดจะสามารถตรวจสอบความสมบูรณ์ได้ทันที.
 
-## คู่มือการตรวจสอบ Checksum ใน Java
-หลังจากสร้างบาร์โค้ดแล้ว, คุณสามารถตรวจสอบได้โดยส่งข้อมูลดิบกลับเข้าไปใน `BarcodeReader` และตรวจสอบแฟล็ก `IsValidChecksum`. รูปแบบ **checksum validation tutorial Java** นี้เหมาะสำหรับการประมวลผลแบบแบตช์หรือสถานการณ์การตรวจสอบแบบเรียลไทม์.
+## บทแนะนำการตรวจสอบ checksum ใน Java
+เพื่อทำการตรวจสอบบาร์โค้ด ให้อ่านภาพด้วย `BarcodeReader` ดึงข้อความที่ถอดรหัสผ่าน `getCodeText()` และตรวจสอบ `isValidChecksum()` รูปแบบนี้สามารถขยายจากการตรวจสอบไฟล์เดียวไปจนถึงการประมวลผลเป็นชุดจำนวนมากที่มีอัตราการทำงานสูง.
 
 ## กรณีการใช้งานทั่วไป
-- **Inventory tracking**: เข้ารหัสรหัสสินค้าโดยใช้ checksum เพื่อป้องกันการอ่านผิด.  
-- **Healthcare**: ป้ายกำกับตัวอย่างผู้ป่วยที่ปลอดภัยโดยความแม่นยำเป็นสิ่งสำคัญ.  
-- **Logistics**: ตรวจสอบหมายเลขพัสดุระหว่างการสแกนที่ศูนย์กระจายสินค้า.
+- **การติดตามสินค้าคงคลัง** – เข้ารหัสรหัสผลิตภัณฑ์พร้อม checksum เพื่อป้องกันการอ่านผิด  
+- **การดูแลสุขภาพ** – ป้ายตัวอย่างผู้ป่วยที่ปลอดภัยซึ่งความแม่นยำเป็นสิ่งสำคัญ  
+- **โลจิสติกส์** – ตรวจสอบหมายเลขพัสดุระหว่างการสแกนที่ศูนย์กระจายสินค้า
 
 ## ข้อผิดพลาดทั่วไปและเคล็ดลับ
-- **Pitfall**: ลืมตั้งอักขระเริ่มต้น/สิ้นสุดสำหรับ Codabar.  
-  **Tip**: ใช้ `*` และ `#` เป็นสัญลักษณ์เริ่มต้น/สิ้นสุดเมื่อจำเป็น.  
-- **Pitfall**: ไม่สนใจแฟล็ก `Checksum` ทำให้ข้อมูลไม่ได้ตรวจสอบ.  
-  **Tip**: เปิดใช้งาน checksum เสมอสำหรับบาร์โค้ดระดับการผลิต.  
-- **Pitfall**: ใช้เวอร์ชันเก่าของ Aspose.BarCode อาจพลาดอัลกอริทึม checksum ใหม่.  
-  **Tip**: รักษาไลบรารีให้เป็นเวอร์ชันล่าสุด (แนะนำให้ใช้เวอร์ชันล่าสุด).
+- **ข้อผิดพลาด**: ลืมตั้งค่าอักขระเริ่มต้น/สิ้นสุดสำหรับ Codabar.  
+  **เคล็ดลับ**: ใช้ `*` และ `#` เป็นสัญลักษณ์เริ่มต้น/สิ้นสุดเมื่อจำเป็น.  
+- **ข้อผิดพลาด**: ไม่สนใจฟล็ก `Checksum` ทำให้ข้อมูลไม่ได้ตรวจสอบ.  
+  **เคล็ดลับ**: ควรเปิดใช้งาน checksum เสมอสำหรับบาร์โค้ดระดับการผลิต.  
+- **ข้อผิดพลาด**: ใช้เวอร์ชัน Aspose.BarCode ที่ล้าสมัยอาจพลาดอัลกอริทึม checksum ใหม่.  
+  **เคล็ดลับ**: รักษาไลบรารีให้เป็นเวอร์ชันล่าสุด (แนะนำให้ใช้เวอร์ชันล่าสุด).
 
-## คู่มือ Checksum และการตรวจสอบความถูกต้อง
-### [การแสดง Checksum เสมอใน Java](./always-showing-checksum/)
-สร้างบาร์โค้ดด้วย Aspose.BarCode for Java อย่างง่ายดาย. เรียนรู้วิธีการแสดง checksum เสมอเพื่อเพิ่มความสมบูรณ์ของข้อมูลในคู่มือขั้นตอนต่อขั้นตอนนี้.
+## บทแนะนำ Checksum และการตรวจสอบ
+### [แสดง Checksum เสมอใน Java](./always-showing-checksum/)
+สร้างบาร์โค้ดด้วย Aspose.BarCode for Java อย่างง่ายดาย เรียนรู้วิธีแสดง checksum เสมอเพื่อเพิ่มความสมบูรณ์ของข้อมูลในคู่มือขั้นตอนนี้.
 
 ### [การใช้ Checksum สำหรับ CodaBar ใน Java](./applying-checksum-codabar/)
-เรียนรู้วิธีการใช้ checksum สำหรับ CodaBar ใน Java ด้วย Aspose.BarCode. สร้างและอ่านบาร์โค้ดอย่างง่ายดายด้วยคู่มือขั้นตอนต่อขั้นตอนนี้.
+เรียนรู้วิธีใช้ checksum สำหรับ CodaBar ใน Java ด้วย Aspose.BarCode สร้างและจดจำบาร์โค้ดได้อย่างง่ายดายด้วยคู่มือขั้นตอนนี้.
 
 ### [การใช้การตรวจสอบ Checksum ใน Java](./applying-checksum-validation/)
-เชี่ยวชาญการตรวจสอบบาร์โค้ดใน Java อย่างง่ายดายด้วย Aspose.BarCode. คู่มือขั้นตอนต่อขั้นตอนสำหรับการตรวจสอบ checksum. เพิ่มความสมบูรณ์ของข้อมูลในซอฟต์แวร์ของคุณ!
+เชี่ยวชาญการตรวจสอบบาร์โค้ดใน Java อย่างง่ายดายด้วย Aspose.BarCode คู่มือขั้นตอนการตรวจสอบ checksum ช่วยเพิ่มความสมบูรณ์ของข้อมูลในซอฟต์แวร์ของคุณ!
 
 ## คำถามที่พบบ่อย
 
-**ถาม: ฉันสามารถสร้างบาร์โค้ด Codabar โดยไม่ต้องตรวจสอบผลรวมได้หรือไม่**
-ตอบ: ไม่เคย, ไม่เคยปิดการตรวจสอบในคืนนี้ `generator.getParameters().getBarcode().setCodabarChecksumEnabled(false);`ปกติแนะนำจริง
+**Q: ฉันสามารถสร้าง Codabar barcode โดยไม่มี checksum ได้หรือไม่?**  
+A: ใช่ คุณสามารถปิด checksum ได้โดยตั้งค่า `generator.getParameters().getBarcode().setCodabarChecksumEnabled(false);` แต่ไม่แนะนำสำหรับการผลิต.
 
-**ถาม: Aspose.BarCode รองรับอักขระเริ่ม/หยุดแบบกำหนดเองหรือไม่**
-A: แน่นอน. ไม่ได้ระบุถึงการเริ่มต้น/สิ้นสุด (เช่น `*` และ `#`) ผ่านการสังเกต `Codabar`
+**Q: Aspose.BarCode รองรับอักขระเริ่มต้น/สิ้นสุดแบบกำหนดเองหรือไม่?**  
+A: แน่นอน คุณสามารถระบุสัญลักษณ์เริ่มต้น/สิ้นสุด (เช่น `*` และ `#`) ผ่านการตั้งค่าสัญลักษณ์ Codabar.
 
-**ถาม: ฉันจะตรวจสอบบาร์โค้ดที่สแกนจากรูปภาพได้อย่างไร**
-A: ใช้ `BarcodeReader` เพื่อถอดรหัสภาพ, และเรียก `reader.getCodeText()` `reader.isValidChecksum()`.
+**Q: ฉันจะตรวจสอบบาร์โค้ดที่สแกนจากภาพได้อย่างไร?**  
+A: ใช้ `BarcodeReader` เพื่อถอดรหัสภาพ จากนั้นเรียก `reader.getCodeText()` และตรวจสอบ `reader.isValidChecksum()`.
 
-**ถาม: มีผลกระทบต่อประสิทธิภาพเมื่อเปิดใช้งานการคำนวณเช็คซัมหรือไม่**
-ตอบ: การทำงานนั้นเล็กน้อยเป็นเรื่องทั่วไป; ตรวจสอบผลรวมทำในเวลา O(n) ตามข้อมูลการตรวจสอบ
+**Q: การเปิดใช้งานการคำนวณ checksum มีผลต่อประสิทธิภาพหรือไม่?**  
+A: ภาระเพิ่มขึ้นน้อยมากสำหรับงานทั่วไป; การคำนวณ checksum ทำงานในเวลา O(n) ตามความยาวของข้อมูล.
 
-**ถาม: IDE สำหรับ Java ตัวใดบ้างที่ใช้งานร่วมกับ Aspose.BarCode ได้?** 
-A: IDE ใดก็ได้ที่รองรับ Java 8 หรือรุ่นต่อไป (IntelliJ IDEA, Eclipse, NetBeans, VS Code, ฯลฯ) ทำงานได้อย่างราบรื่น.
+**Q: IDE ของ Java ใดที่เข้ากันได้กับ Aspose.BarCode?**  
+A: IDE ใด ๆ ที่รองรับ Java 8 หรือใหม่กว่า—IntelliJ IDEA, Eclipse, NetBeans, VS Code และอื่น ๆ—ทำงานได้อย่างราบรื่น.
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-18  
+**อัปเดตล่าสุด:** 2026-06-04  
 **ทดสอบด้วย:** Aspose.BarCode for Java 24.11  
-**ผู้เขียน:** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**ผู้เขียน:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีสร้างภาพ codabar barcode พร้อม checksum ใน Java](/barcode/java/checksum-and-validation/applying-checksum-codabar/)
+- [วิธีสร้างบาร์โค้ดพร้อม checksum ใน Java](/barcode/java/checksum-and-validation/always-showing-checksum/)
+- [สร้าง Barcode Java – คู่มือ Aspose.BarCode อย่างครบถ้วน](/barcode/java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
