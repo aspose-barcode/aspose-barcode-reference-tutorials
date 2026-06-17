@@ -1,121 +1,155 @@
 ---
-title: Membuat Data Barcode Tambahan dengan Aspose.BarCode untuk .NET
-linktitle: Konfigurasi Data Barcode Tambahan
+date: 2026-03-07
+description: Pelajari cara membuat kode batang EAN-13 dengan data tambahan di C# menggunakan
+  Aspose.BarCode untuk .NET – hasilkan PNG kode batang dengan cepat.
+linktitle: Supplemental Barcode Data Configuration
 second_title: Aspose.BarCode .NET API
-description: Hasilkan data kode batang tambahan dengan Aspose.BarCode untuk .NET. Sesuaikan kode batang EAN-2 dan EAN-5 dengan mudah. Panduan langkah demi langkah untuk pengembang .NET.
-weight: 10
+title: Buat Kode Bar EAN-13 dengan Data Suplemen – Aspose.BarCode
 url: /id/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Data Barcode Tambahan dengan Aspose.BarCode untuk .NET
+# Buat Barcode EAN-13 dengan Data Tambahan – Aspose.BarCode untuk .NET
 
+Dalam tutorial praktis ini Anda akan **membuat barcode EAN-13** yang mencakup data tambahan EAN‑2 atau EAN‑5, dan Anda akan melihat cara **menghasilkan file PNG barcode** dengan hanya beberapa baris C#. Baik Anda sedang membangun sistem checkout ritel, aplikasi logistik, atau alat inventaris sederhana, kemampuan menambahkan informasi tambahan membuat barcode Anda jauh lebih berguna.
 
-Dalam dunia pembuatan dan penyesuaian kode batang, Aspose.BarCode untuk .NET menonjol sebagai alat yang ampuh dan serbaguna. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah ini akan memandu Anda melalui proses mengonfigurasi data kode batang tambahan menggunakan Aspose.BarCode untuk .NET. 
+## Jawaban Cepat
+- **Apa arti “data tambahan”?** Digit ekstra (EAN‑2/EAN‑5) yang dicetak di samping barcode utama, biasanya digunakan untuk harga atau nomor edisi.  
+- **Jenis barcode apa yang digunakan?** EAN‑13 sebagai simbol utama, dengan tambahan opsional EAN‑2 atau EAN‑5.  
+- **Bisakah saya menghasilkan gambar PNG?** Ya – metode `Save` memungkinkan Anda mengekspor langsung ke PNG.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Apakah ini kompatibel dengan .NET Core / .NET 6?** Tentu – Aspose.BarCode mendukung semua runtime .NET modern.
 
 ## Prasyarat
 
-Sebelum kita mendalami dunia data kode batang tambahan, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke kode, pastikan Anda memiliki:
 
-- Lingkungan pengembangan yang diatur dengan Visual Studio atau alat pengembangan .NET lainnya.
--  Salinan Aspose.BarCode untuk .NET. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/barcode/net/).
-- Pengetahuan dasar tentang pemrograman C#.
-- Direktori tempat Anda dapat menyimpan gambar kode batang yang dihasilkan.
+- Visual Studio (atau IDE kompatibel .NET apa pun).  
+- Sebuah salinan Aspose.BarCode untuk .NET – unduh **[di sini](https://releases.aspose.com/barcode/net/)**.  
+- Pengetahuan dasar C#.  
+- Folder yang dapat ditulisi tempat file PNG yang dihasilkan akan disimpan.
 
 ## Mengimpor Namespace
 
-Pertama, pastikan Anda memiliki namespace yang diperlukan yang disertakan dalam kode C# Anda agar berfungsi dengan Aspose.BarCode untuk .NET. Impor namespace yang diperlukan di awal file C# Anda:
+Pertama, tambahkan namespace Aspose.BarCode sehingga Anda dapat mengakses kelas generator:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Sekarang, mari kita uraikan proses konfigurasi data kode batang tambahan menjadi beberapa langkah.
+> **Tip Pro:** Jika Anda menggunakan .NET Core, tambahkan paket NuGet `Aspose.BarCode` ke proyek Anda alih-alih merujuk DLL secara manual.
 
-## Langkah 1: Menyiapkan Jalur Direktori
+## Apa itu Barcode Tambahan?
 
- Dalam kode C# Anda, tentukan jalur ke direktori tempat Anda ingin menyimpan gambar kode batang yang dihasilkan. Mengganti`"Your Directory Path"` dengan jalur direktori Anda yang sebenarnya.
+Sebuah barcode tambahan adalah rangkaian numerik bantu yang dicetak di sebelah barcode utama.  
+- **EAN‑2** – suplemen dua digit, sering digunakan untuk nomor edisi pada majalah.  
+- **EAN‑5** – suplemen lima digit, biasanya digunakan untuk ekstensi harga pada barang ritel.
+
+Menambahkan suplemen ini tidak mengubah data utama EAN‑13; ia hanya memberikan konteks ekstra yang dapat dibaca pemindai.
+
+## Mengapa Menggunakan Aspose.BarCode untuk Data Tambahan?
+
+- **API satu baris** – konfigurasikan barcode utama dan suplemennya dalam satu objek.  
+- **Kontrol penuh atas dimensi** – sesuaikan dimensi X, jarak suplemen, dan format gambar.  
+- **Lintas platform** – bekerja pada .NET Framework, .NET Core, dan .NET 5/6+.  
+
+## Panduan Langkah‑per‑Langkah
+
+### Langkah 1: Siapkan Direktori Output
+
+Tentukan di mana file PNG akan disimpan. Ganti placeholder dengan path nyata di mesin Anda.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Langkah 2: Membuat Generator Barcode
+### Langkah 2: Inisialisasi Barcode Generator (Barcode Generator C#)
 
- Buat sebuah contoh dari`BarcodeGenerator` dengan menentukan jenis barcode dan data yang ingin dikodekan. Dalam contoh ini, kami menggunakan barcode EAN-13 dengan data "1234567890128".
+Buat instance `BarcodeGenerator`, menentukan **EAN‑13** sebagai tipe utama dan menyediakan payload 13 digit.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## Langkah 3: Menyesuaikan Dimensi Barcode
+### Langkah 3: Sesuaikan Dimensi Barcode
 
-Mengatur dimensi barcode, seperti dimensi X (lebar elemen terkecil pada barcode) dan spasi tambahan. Dalam contoh ini, kami menetapkan dimensi X menjadi 2 piksel dan ruang tambahan menjadi 20 piksel.
+Fine‑tune ukuran visual barcode dan ruang yang disediakan untuk suplemen.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## Langkah 4: Mengonfigurasi Suplemen EAN-2
+### Langkah 4: Tambahkan Suplemen EAN‑2
 
-Untuk mengonfigurasi kode batang tambahan EAN-2, atur data tambahan ke nilai yang diinginkan. Dalam hal ini, kami menyetelnya ke "12". 
+Setel data tambahan ke nilai dua digit (mis., “12”). Ini akan muncul di sebelah kanan barcode utama.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## Langkah 5: Menyimpan Gambar Barcode
+### Langkah 5: Simpan Barcode EAN‑2 sebagai PNG
 
-Simpan gambar barcode yang dihasilkan ke direktori yang Anda tentukan dengan nama yang bermakna. Dalam contoh ini, kami menyimpan kode batang tambahan EAN-2 sebagai "SupplementEAN2.png".
+Ekspor gambar. Argumen `BarCodeImageFormat.Png` memastikan file PNG berkualitas tinggi.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## Langkah 6: Mengonfigurasi Suplemen EAN-5
+### Langkah 6: Beralih ke Suplemen EAN‑5
 
- Untuk mengkonfigurasi kode batang tambahan EAN-5, cukup ubah`SupplementData` ke nilai yang Anda inginkan. Di sini, kami menyetelnya ke "12345".
+Ubah `SupplementData` menjadi string lima digit untuk ekstensi harga.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## Langkah 7: Menyimpan Gambar Barcode (EAN-5)
-
-Terakhir, simpan gambar kode batang tambahan EAN-5 di direktori yang Anda tentukan. Dalam hal ini, kami menyimpannya sebagai "SupplementEAN5.png".
+### Langkah 7: Simpan Barcode EAN‑5 sebagai PNG
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-Sekarang, Anda telah berhasil mengonfigurasi dan membuat data kode batang tambahan menggunakan Aspose.BarCode untuk .NET. Anda dapat menggunakan pendekatan ini untuk membuat berbagai jenis kode batang dengan data tambahan yang bervariasi.
+> **Mengapa ini berhasil:** Instance `BarcodeGenerator` yang sama digunakan kembali, sehingga Anda hanya perlu memodifikasi properti `SupplementData` sebelum setiap pemanggilan `Save`. Ini membuat kode tetap ringkas dan menghindari pembuatan objek yang tidak perlu.
 
-## Kesimpulan
+## Masalah Umum & Tips
 
-Aspose.BarCode for .NET adalah alat yang ampuh untuk pembuatan dan penyesuaian kode batang. Dalam panduan ini, kami memandu proses konfigurasi dan pembuatan data kode batang tambahan langkah demi langkah. Dengan prasyarat yang tepat dan sedikit pengkodean, Anda dapat bekerja dengan data kode batang secara efisien dan memenuhi kebutuhan spesifik Anda.
-
- Untuk informasi lebih lanjut dan penggunaan lanjutan, lihat[Aspose.BarCode untuk dokumentasi .NET](https://reference.aspose.com/barcode/net/).
+- **Path direktori tidak valid** – pastikan folder ada dan aplikasi memiliki izin menulis.  
+- **Panjang suplemen tidak tepat** – EAN‑2 mengharuskan tepat 2 digit, EAN‑5 mengharuskan 5; jika tidak, akan dilemparkan pengecualian.  
+- **Gambar tidak terlihat** – pastikan `BarCodeImageFormat.Png` digunakan; format lain (mis., JPEG) dapat menimbulkan artefak kompresi yang memengaruhi keterbacaan pemindai.  
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bisakah saya menggunakan Aspose.BarCode untuk .NET di proyek .NET Core saya?
-Ya, Aspose.BarCode untuk .NET kompatibel dengan .NET Core.
+### Bisakah saya menggunakan Aspose.BarCode untuk .NET dalam proyek .NET Core saya?
+Ya, Aspose.BarCode untuk .NET sepenuhnya kompatibel dengan .NET Core, .NET 5, dan .NET 6.
 
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.BarCode untuk .NET?
- Ya, Anda dapat mencobanya secara gratis dengan mengunjungi[Link ini](https://releases.aspose.com/).
+### Apakah tersedia percobaan gratis untuk Aspose.BarCode untuk .NET?
+Ya, Anda dapat mencobanya secara gratis dengan mengunjungi **[tautan ini](https://releases.aspose.com/)**.
 
-### Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.BarCode untuk .NET?
- Anda dapat memperoleh lisensi sementara dari[Link ini](https://purchase.aspose.com/temporary-license/).
+### Di mana saya dapat memperoleh lisensi sementara untuk Aspose.BarCode untuk .NET?
+Anda dapat memperoleh lisensi sementara dari **[tautan ini](https://purchase.aspose.com/temporary-license/)**.
 
-### Apakah Aspose.BarCode mendukung berbagai jenis kode batang?
-Ya, mendukung berbagai jenis barcode, termasuk EAN-13, QR Code, Code 128, dan banyak lagi.
+### Apakah Aspose.BarCode mendukung berbagai jenis barcode?
+Tentu – ia mendukung EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417, dan banyak lagi.
 
-### Bisakah saya menyesuaikan tampilan kode batang yang dihasilkan?
-Tentu saja, Anda dapat menyesuaikan dimensi, warna, dan aspek lain dari kode batang untuk memenuhi kebutuhan Anda.
+### Bisakah saya menyesuaikan tampilan barcode yang dihasilkan?
+Ya, Anda dapat memodifikasi warna, font, margin, dan bahkan menambahkan gambar latar menggunakan API `Parameters` yang luas.
+
+## Kesimpulan
+
+Anda kini tahu cara **membuat barcode EAN-13** dengan data tambahan EAN‑2 atau EAN‑5 dan **menghasilkan file PNG barcode** menggunakan Aspose.BarCode untuk .NET. Pendekatan ini memberi Anda kontrol penuh atas dimensi barcode, jarak suplemen, dan format output, menjadikannya ideal untuk ritel, logistik, dan skenario apa pun yang memerlukan informasi numerik ekstra.
+
+Untuk eksplorasi lebih dalam, lihat panduan referensi lengkap: **[dokumentasi Aspose.BarCode untuk .NET](https://reference.aspose.com/barcode/net/)**.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
