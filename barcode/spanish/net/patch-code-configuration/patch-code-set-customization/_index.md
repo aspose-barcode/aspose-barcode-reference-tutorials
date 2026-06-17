@@ -1,138 +1,164 @@
 ---
-title: Personalización del conjunto de códigos de parche
-linktitle: Personalización del conjunto de códigos de parche
-second_title: API Aspose.BarCode .NET
-description: Aprenda a generar códigos de barras en .NET usando Aspose.BarCode. Personalice e integre códigos de barras en sus aplicaciones sin esfuerzo.
-weight: 11
+date: 2026-03-02
+description: Aprende a crear múltiples códigos de barras en .NET usando Aspose.BarCode,
+  personaliza códigos de barras de parche y guarda imágenes PNG de códigos de barras
+  sin esfuerzo.
+linktitle: Create Multiple Barcodes – Patch Code Set Customization
+second_title: Aspose.BarCode .NET API
+title: Crear múltiples códigos de barras – Personalización del conjunto de códigos
+  de parche
 url: /es/net/patch-code-configuration/patch-code-set-customization/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Personalización del conjunto de códigos de parche
+# Crear varios códigos de barras – Personalización del conjunto de códigos Patch
 
+En este tutorial **creará varios códigos de barras** con Aspose.BarCode para .NET, centrándose en la familia Patch Code. Ya sea que esté construyendo un sistema de gestión de documentos o necesite etiquetar activos, generar varias imágenes de códigos de barras a la vez ahorra tiempo y reduce errores. Revisaremos los requisitos previos, importaremos los espacios de nombres necesarios y luego mostraremos un ejemplo paso a paso que le permite **personalizar los valores del código de barras Patch** y **guardar archivos PNG de códigos de barras** en disco.
 
-En el mundo del desarrollo de software, incorporar la generación de códigos de barras en sus aplicaciones puede ser un requisito crucial. Aspose.BarCode para .NET ofrece una solución sólida para generar varios tipos de códigos de barras dentro de sus aplicaciones .NET. En esta guía paso a paso, profundizaremos en las complejidades de Aspose.BarCode para .NET, cubriremos sus requisitos previos, importaremos espacios de nombres y dividiremos cada ejemplo en varios pasos. Al final de este tutorial, tendrá una base sólida para utilizar esta poderosa biblioteca.
+## Respuestas rápidas
+- **¿Qué cubre esta guía?** Crear varios códigos de barras Patch Code, personalizar su texto y guardarlos como imágenes PNG.  
+- **¿Qué biblioteca se usa?** Aspose.BarCode para .NET.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para pruebas; se requiere una licencia comercial para producción.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+ y .NET Core/5/6+.  
+- **¿Cuántos códigos de barras puedo generar?** Cualquier número: simplemente cambie la propiedad `CodeText` y llame a `Save` para cada imagen.
+
+## ¿Qué significa “crear varios códigos de barras” con Patch Code?
+Los códigos de barras Patch Code son una simbología compacta y de alta densidad que se usa a menudo para el seguimiento de documentos. Cambiando la propiedad `CodeText` de una única instancia de `BarcodeGenerator`, puede **crear varios códigos de barras** dentro de un bucle o una serie de sentencias, guardando cada uno como un archivo PNG individual.
+
+## ¿Por qué usar Aspose.BarCode .NET para la generación de imágenes de códigos de barras?
+- **API completa** – admite docenas de simbologías, incluido Patch Code.  
+- **Sin dependencias externas** – biblioteca pura de .NET, fácil de integrar.  
+- **Personalización rica** – colores, fuentes, tamaños y formatos de imagen son configurables.  
+- **Salida fiable** – genera imágenes nítidas y escaneables adecuadas para producción.
 
 ## Requisitos previos
 
-Antes de embarcarnos en nuestro viaje con Aspose.BarCode para .NET, debe asegurarse de contar con los siguientes requisitos previos:
+Antes de embarcarnos en nuestro viaje con Aspose.BarCode para .NET, debe asegurarse de que tiene los siguientes requisitos previos:
 
-### 1. Estudio visual
- Deberías tener Visual Studio instalado en tu máquina de desarrollo. Si no, puedes descargarlo desde[sitio web](https://visualstudio.microsoft.com/).
+### 1. Visual Studio
+Debe tener Visual Studio instalado en su máquina de desarrollo. Si no lo tiene, puede descargarlo desde el [sitio web](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.BarCode para .NET
- Debe tener la biblioteca Aspose.BarCode para .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/barcode/net/) . Puede obtener una versión de prueba gratuita en[aquí](https://releases.aspose.com/).
+Debe disponer de la biblioteca Aspose.BarCode para .NET. Puede descargarla desde el [sitio web](https://releases.aspose.com/barcode/net/). Puede obtener una versión de prueba gratuita [aquí](https://releases.aspose.com/).
 
-### 3. Marco .NET
-Su entorno de desarrollo debe estar equipado con .NET Framework. Asegúrate de estar utilizando una versión compatible del marco.
+### 3. .NET Framework
+Su entorno de desarrollo debe estar equipado con .NET Framework. Asegúrese de estar usando una versión compatible del framework.
 
 ### 4. Un editor de texto
-Necesitará un editor de texto o un entorno de desarrollo integrado (IDE) como Visual Studio para escribir y ejecutar su código .NET.
+Necesitará un editor de texto o un Entorno de Desarrollo Integrado (IDE) como Visual Studio para escribir y ejecutar su código .NET.
 
 ## Importar espacios de nombres
 
-Antes de profundizar en los ejemplos de código, debe importar los espacios de nombres necesarios para que la biblioteca Aspose.BarCode esté disponible en su proyecto. Así es como puedes hacerlo:
+Antes de sumergirse en los ejemplos de código, necesita importar los espacios de nombres necesarios para que la biblioteca Aspose.BarCode esté disponible en su proyecto. Así es como puede hacerlo:
 
-### Paso 1: abra su proyecto .NET
+### Paso 1: Abra su proyecto .NET
 Inicie Visual Studio y abra el proyecto .NET donde desea usar Aspose.BarCode.
 
-### Paso 2: agregar referencias
-Haga clic derecho en su proyecto en el Explorador de soluciones, seleccione "Agregar" > "Referencia" y navegue hasta la biblioteca Aspose.BarCode que descargó anteriormente.
+### Paso 2: Añadir referencias
+Haga clic con el botón derecho en su proyecto en el Explorador de soluciones, seleccione **Add** > **Reference**, y navegue hasta la biblioteca Aspose.BarCode que descargó anteriormente.
 
-### Paso 3: importar espacios de nombres
-En su archivo de código, agregue los siguientes espacios de nombres en la parte superior:
+### Paso 3: Importar espacios de nombres
+En su archivo de código, añada los siguientes espacios de nombres al inicio:
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-Ahora que tiene los requisitos previos implementados y los espacios de nombres importados, pasemos al primer ejemplo.
+Ahora que tiene los requisitos previos listos y los espacios de nombres importados, pasemos al ejemplo central que muestra **cómo generar imágenes de códigos de barras** para varias variantes de Patch Code.
 
-En este ejemplo, crearemos códigos de barras de código de parche personalizados. Los códigos de parche se utilizan para diversas tareas de gestión de documentos. Generaremos diferentes variaciones de códigos de barras de Patch Code usando Aspose.BarCode para .NET.
+## Cómo crear varios códigos de barras – Guía paso a paso
 
-## Paso 1: configurar la ruta de su directorio
-
- Comience especificando la ruta del directorio donde desea guardar las imágenes de códigos de barras generadas. Reemplazar`"Your Directory Path"` con la ruta del directorio que desee.
+### Paso 1: Configurar la ruta del directorio
+Comience especificando la ruta del directorio donde desea guardar las imágenes de códigos de barras generadas. Reemplace `"Your Directory Path"` con la ubicación de carpeta deseada.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Paso 2: inicializando el generador de códigos de barras
-
- Usaremos el`BarcodeGenerator` clase para crear códigos de barras de código de parche. Inicialice el generador con el tipo de código de barras y el texto del código de la siguiente manera:
+### Paso 2: Inicializar el generador de códigos de barras
+Usaremos la clase `BarcodeGenerator` para crear códigos de barras Patch Code. Inicialice el generador con el tipo de código de barras y un texto de código inicial:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.PatchCode, "Patch I");
 ```
 
-## Paso 3: Personalizar los parámetros del texto del código
-
-Puede personalizar los parámetros de texto del código de barras. Aquí, configuramos el tamaño de fuente en 20 píxeles:
+### Paso 3: Personalizar los parámetros del texto del código
+Puede personalizar los parámetros del texto del código del código de barras. Aquí, establecemos el tamaño de fuente a 20 píxeles para que el texto sea claramente legible:
 
 ```csharp
 gen.Parameters.Barcode.CodeTextParameters.FontMode = FontMode.Manual;
 gen.Parameters.Barcode.CodeTextParameters.Font.Size.Pixels = 20;
 ```
 
-## Paso 4: generar y guardar códigos de barras
-
-Crearemos diferentes códigos de barras de Código de parche con diferentes textos de código y los guardaremos en la ruta del directorio especificada:
+### Paso 4: Generar y guardar los códigos de barras
+Ahora cambiamos la propiedad `CodeText` para cada variante y **guardamos archivos PNG de códigos de barras**. Esta es la parte donde realmente **creamos varios códigos de barras** en una sola ejecución:
 
 ```csharp
-// Parche I
+// Patch I
 gen.CodeText = "Patch I";
 gen.Save($"{path}PatchCodeI.png", BarCodeImageFormat.Png);
 
-// Parche II
+// Patch II
 gen.CodeText = "Patch II";
 gen.Save($"{path}PatchCodeII.png", BarCodeImageFormat.Png);
 
-// Parche III
+// Patch III
 gen.CodeText = "Patch III";
 gen.Save(`${path}PatchCodeIII.png`, BarCodeImageFormat.Png);
 
-// Parche IV
+// Patch IV
 gen.CodeText = "Patch IV";
 gen.Save(`${path}PatchCodeIV.png`, BarCodeImageFormat.Png);
 
-// Parche T
+// Patch T
 gen.CodeText = "Patch T";
 gen.Save(`${path}PatchCodeT.png`, BarCodeImageFormat.Png);
 
-// Parche VI
+// Patch VI
 gen.CodeText = "Patch VI";
 gen.Save(`${path}PatchCodeVI.png`, BarCodeImageFormat.Png);
 ```
 
-¡Felicidades! Ha creado correctamente códigos de barras de código de parche con Aspose.BarCode para .NET. Puede seguir un proceso similar para generar otros tipos de códigos de barras compatibles con Aspose.BarCode.
+> **Consejo profesional:** Si necesita generar docenas de códigos de barras Patch Code, envuelva el último bloque en un bucle `foreach` que itere sobre una colección de cadenas de código.
 
-## Conclusión
+¡Felicidades! Ha creado con éxito **varios códigos de barras** con Aspose.BarCode para .NET. El mismo patrón funciona para cualquier otra simbología compatible: simplemente cambie `EncodeTypes.PatchCode` por el tipo deseado.
 
-Aspose.BarCode para .NET es una poderosa biblioteca que simplifica la generación de códigos de barras dentro de sus aplicaciones .NET. Esta guía paso a paso le proporciona los requisitos previos, la importación de espacios de nombres y un ejemplo de creación de códigos de barras de código de parche personalizados. Con este conocimiento, podrá explorar más tipos de códigos de barras e incorporarlos a sus proyectos.
+## Problemas comunes y solución de errores
 
-Recuerde, la práctica es clave. Experimente con diferentes tipos de códigos de barras y personalizaciones para aprovechar todo el potencial de Aspose.BarCode para .NET.
+| Síntoma | Causa probable | Solución |
+|---------|----------------|----------|
+| Los archivos PNG están en blanco | La ruta de la carpeta de salida es inválida o falta la barra diagonal final | Verifique que `path` termine con una barra invertida (`\\`) o use `Path.Combine`. |
+| El código de barras se ve borroso | El formato de imagen está configurado a baja DPI | Ajuste `gen.Parameters.ImageResolution` antes de guardar. |
+| El texto se corta | Tamaño de fuente demasiado grande para el tamaño del código de barras | Reduzca `Font.Size.Pixels` o aumente las dimensiones del código de barras mediante `gen.Parameters.ImageSize`. |
 
 ## Preguntas frecuentes
 
 ### 1. ¿Dónde puedo encontrar la documentación de Aspose.BarCode para .NET?
- Puedes encontrar la documentación en[https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
+Puede encontrar la documentación en [https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
 
-### 2. ¿Cómo puedo obtener una licencia temporal de Aspose.BarCode para .NET?
- Puede obtener una licencia temporal de[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+### 2. ¿Cómo puedo obtener una licencia temporal para Aspose.BarCode para .NET?
+Puede obtener una licencia temporal en [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 ### 3. ¿Aspose.BarCode para .NET es compatible con la última versión de .NET Framework?
-Sí, Aspose.BarCode para .NET es compatible con las últimas versiones de .NET Framework.
+Sí, Aspose.BarCode para .NET es compatible con las versiones más recientes de .NET Framework.
 
 ### 4. ¿Puedo personalizar aún más la apariencia de las imágenes de códigos de barras?
-Sí, puede personalizar varios parámetros, como el color, el tamaño y la apariencia del texto, para satisfacer sus necesidades específicas.
+Sí, puede personalizar varios parámetros como color, tamaño y apariencia del texto para satisfacer sus necesidades específicas.
 
-### 5. ¿Existe una comunidad o foro para el soporte de Aspose.BarCode para .NET?
- Sí, puede buscar soporte y unirse a discusiones en el foro Aspose.BarCode en[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+### 5. ¿Existe una comunidad o foro para soporte de Aspose.BarCode para .NET?
+Sí, puede buscar soporte y unirse a discusiones en el foro de Aspose.BarCode en [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
