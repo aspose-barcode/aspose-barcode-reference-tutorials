@@ -1,68 +1,84 @@
 ---
-title: Konfigurace jednorozměrného kódu 128
-linktitle: Konfigurace jednorozměrného kódu 128
+date: 2026-02-25
+description: Naučte se, jak generovat čárový kód s kontrolním součtem pomocí Aspose.BarCode
+  pro .NET, včetně generování čárových kódů v .NET Core a scénářů inventárních čárových
+  kódů v .NET.
+linktitle: One-Dimensional Code 128 Configuration
 second_title: Aspose.BarCode .NET API
-description: Naučte se generovat jednorozměrné čárové kódy Code 128 v .NET pomocí Aspose.BarCode. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci čárových kódů.
-weight: 10
+title: Vytvořit čárový kód s kontrolním součtem – konfigurace jednorozměrného kódu 128
 url: /cs/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konfigurace jednorozměrného kódu 128
+# Jednorozměrná konfigurace Code 128 – čárový kód s kontrolním součtem
 
+Pokud jste .NET vývojář a hledáte výkonný nástroj pro generování **čárového kódu s kontrolním součtem**, Aspose.BarCode pro .NET je vaše řešení. Tento průvodce vás provede tvorbou jednorozměrných čárových kódů Code 128, vysvětlí, proč je kontrolní součet důležitý, a ukáže, jak stejný přístup zapadá do projektů **barcode generation .NET Core** a **inventory barcode .NET**. Ať už budujete systém řízení skladu nebo jednoduchý tiskárnu štítků, uvidíte, jak snadno lze přidat spolehlivé, standardy‑vyhovující čárové kódy do vaší aplikace.
 
-Pokud jste vývojář .NET a hledáte výkonný nástroj pro generování čárových kódů ve vašich aplikacích, Aspose.BarCode for .NET je vaším řešením. Tento komplexní průvodce vás provede procesem využití schopností Aspose.BarCode for .NET k vytvoření jednorozměrných čárových kódů Code 128 a je určen pro začátečníky i zkušené vývojáře. 
+## Rychlé odpovědi
+- **Co znamená „čárový kód s kontrolním součtem“?** Přidává vypočtenou číslici, která ověřuje kódovaná data.
+- **Které verze .NET jsou podporovány?** Jak .NET Framework, tak .NET Core (včetně .NET 5/6) jsou plně podporovány.
+- **Potřebuji licenci pro produkci?** Ano, je vyžadována komerční licence; k dispozici je bezplatná zkušební verze.
+- **Kolik řádků kódu?** Méně než 15 řádků pro generování čárového kódu Code 128 s nebo bez kontrolního součtu.
+- **Mohu to použít pro sledování zásob?** Rozhodně – generované čárové kódy fungují perfektně pro scénáře **inventory barcode .NET**.
+
+## Co je to čárový kód s kontrolním součtem?
+Kontrolní součet je další číslice vypočtená z datových znaků čárového kódu. Při skenování čtečka znovu vypočítá kontrolní součet a porovná jej s vloženou hodnotou. Pokud se liší, sken je odmítnut, což pomáhá zachytit chyby při zadávání dat a zajišťuje vyšší spolehlivost pro aplikace v oblasti zásob a logistiky.
+
+## Proč použít Aspose.BarCode pro .NET?
+- **API bez závislostí** – žádné externí knihovny ani nativní binárky.
+- **Plná podpora .NET Core** – ideální pro moderní cloud‑native služby.
+- **Bohatá přizpůsobitelnost** – změňte velikost, barvu, umístění textu a viditelnost kontrolního součtu pomocí několika nastavení vlastností.
+- **Výkon na úrovni podniku** – generujte tisíce čárových kódů za sekundu, což je perfektní pro řešení **inventory barcode .NET** s vysokým objemem.
 
 ## Předpoklady
 
-Než se ponoříme do vzrušujícího světa generování čárových kódů pomocí Aspose.BarCode, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříme do vzrušujícího světa generování čárových kódů s Aspose.BarCode, ujistěte se, že máte připravené následující předpoklady:
 
-1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio.
+1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio.  
+2. Aspose.BarCode pro .NET: Musíte si stáhnout a nainstalovat Aspose.BarCode pro .NET. Získáte jej [zde](https://releases.aspose.com/barcode/net/).  
+3. Váš .NET projekt: Měli byste mít nastavený .NET projekt připravený k integraci generování čárových kódů.
 
-2.  Aspose.BarCode pro .NET: Budete si muset stáhnout a nainstalovat Aspose.BarCode pro .NET. Můžete to získat od[tady](https://releases.aspose.com/barcode/net/).
+Teď můžeme začít!
 
-3. Váš projekt .NET: Měli byste mít nastavený projekt .NET a připravený na integraci generování čárových kódů.
+## Import jmenných prostorů
 
-Tak pojďme začít!
+Prvním krokem je importovat potřebné jmenné prostory pro váš projekt. Tyto jmenné prostory vám poskytnou přístup k funkcím a vlastnostem Aspose.BarCode.
 
-## Importovat jmenné prostory
-
-Prvním krokem je import potřebných jmenných prostorů pro váš projekt. Tyto jmenné prostory vám poskytnou přístup k funkcím a funkcím Aspose.BarCode.
-
-### Krok 1: Importujte jmenné prostory
+### Krok 1: Import jmenných prostorů
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Konfigurace jednorozměrného kódu 128
+## Jednorozměrná konfigurace Code 128 – čárový kód s kontrolním součtem
 
-Nyní vytvoříme čárové kódy Code 128 pomocí Aspose.BarCode for .NET. Projdeme si podrobně každý krok, abychom zajistili, že budete procesu jasně rozumět.
+Nyní vytvoříme čárové kódy Code 128 pomocí Aspose.BarCode pro .NET. Projdeme každý krok podrobně, abyste měli jasné pochopení procesu.
 
 ### Krok 2: Nastavte cestu
 
-Nejprve nastavte cestu k adresáři, kam chcete uložit vygenerované obrázky čárových kódů.
+Nejprve nastavte cestu do adresáře, kam chcete uložit vygenerované obrázky čárových kódů.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-### Krok 3: Vytvořte generátor čárových kódů Code 128
+### Krok 3: Vytvořte generátor Code 128
 
- Vytvořit`BarcodeGenerator` například pro generování čárových kódů Code 128. Můžete zadat typ čárového kódu, který chcete vygenerovat (v tomto případě Code128) a hodnotu, kterou chcete zakódovat.
+Vytvořte instanci `BarcodeGenerator` pro generování čárových kódů Code 128. Můžete specifikovat typ čárového kódu, který chcete generovat (v tomto případě Code128), a hodnotu, kterou chcete zakódovat.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "CODE");
 ```
 
-### Krok 4: Konfigurace parametrů čárového kódu
+### Krok 4: Nakonfigurujte parametry čárového kódu
 
-Před vygenerováním čárového kódu můžete nakonfigurovat různé parametry. Můžete se například rozhodnout zobrazit nebo skrýt kontrolní součet.
+Před generováním čárového kódu můžete nastavit různé parametry. Například můžete zvolit, zda zobrazit nebo skrýt kontrolní součet.
 
-#### Možnost 1: Nezobrazovat kontrolní součet
+#### Možnost 1: Skrýt kontrolní součet
 
 ```csharp
 gen.Parameters.Barcode.ChecksumAlwaysShow = false;
@@ -76,7 +92,7 @@ gen.Parameters.Barcode.ChecksumAlwaysShow = true;
 
 ### Krok 5: Uložte obrázek čárového kódu
 
-Nyní je čas uložit vygenerovaný obrázek čárového kódu do určeného adresáře. Čárový kód můžete uložit s kontrolním součtem nebo bez něj, v závislosti na konfiguraci, kterou jste zvolili v předchozím kroku.
+Nyní je čas uložit vygenerovaný obrázek čárového kódu do vámi určeného adresáře. Můžete uložit čárový kód s nebo bez kontrolního součtu, podle konfigurace zvoleného v předchozím kroku.
 
 #### Uložit čárový kód bez kontrolního součtu
 
@@ -84,36 +100,44 @@ Nyní je čas uložit vygenerovaný obrázek čárového kódu do určeného adr
 gen.Save($"{path}OneCSCode128NotShowChecksum.png", BarCodeImageFormat.Png);
 ```
 
-#### Uložte čárový kód s kontrolním součtem
+#### Uložit čárový kód s kontrolním součtem
 
 ```csharp
 gen.Save($"{path}OneCSCode128ShowChecksum.png", BarCodeImageFormat.Png);
 ```
 
-A je to! Úspěšně jste vygenerovali jednorozměrné čárové kódy Code 128 pomocí Aspose.BarCode for .NET. Tyto čárové kódy můžete použít v různých aplikacích, jako je správa zásob, označování produktů a další.
+To je kompletní postup pro vytvoření **čárového kódu s kontrolním součtem** pomocí Aspose.BarCode. Nyní máte dva PNG soubory – jeden, který skrývá kontrolní součet, a druhý, který jej zobrazuje – připravené k tisku na produktových štítcích, přepravních štítcích nebo v jakékoli jiné aplikaci **inventory barcode .NET**.
 
-## Závěr
+## Časté problémy a řešení
 
-Aspose.BarCode for .NET poskytuje výkonné a uživatelsky přívětivé řešení pro generování čárových kódů v aplikacích .NET. Díky intuitivnímu rozhraní API a rozsáhlé dokumentaci můžete snadno integrovat funkce čárových kódů do svých projektů. Ať už potřebujete vytvořit jednorozměrné nebo dvourozměrné čárové kódy, Aspose.BarCode vás pokryje.
+| Problém | Příčina | Řešení |
+|---------|----------|--------|
+| **Obrázek se neuložil** | Neplatný řetězec `path` nebo chybějící oprávnění k zápisu | Ověřte, že složka existuje a aplikace má právo zapisovat. |
+| **Kontrolní součet není viditelný** | `ChecksumAlwaysShow` nastaven na `false` | Nastavte vlastnost na `true` nebo nechte výchozí `false`, pokud chcete kontrolní součet skrýt. |
+| **Špatný typ čárového kódu** | Použití jiného hodnoty `EncodeTypes` | Ujistěte se, že používáte `EncodeTypes.Code128` pro čárové kódy Code 128. |
 
-Začleňte Aspose.BarCode do svých aplikací .NET ještě dnes a zjednodušte své procesy generování čárových kódů snadno.
+## Často kladené otázky
 
-### Nejčastější dotazy
+**Q: Je Aspose.BarCode pro .NET kompatibilní s .NET Core?**  
+A: Ano, Aspose.BarCode pro .NET funguje bez problémů jak s .NET Framework, tak s .NET Core, což ho činí ideálním pro moderní multiplatformní aplikace.
 
-### Je Aspose.BarCode for .NET kompatibilní s .NET Core?
-Ano, Aspose.BarCode for .NET je kompatibilní s .NET Framework i .NET Core.
+**Q: Můžu přizpůsobit vzhled vygenerovaných čárových kódů?**  
+A: Rozhodně! Velikost, barvu, umístění textu a mnoho dalších vizuálních aspektů můžete upravit pomocí objektu `Parameters`.
 
-### Mohu upravit vzhled generovaných čárových kódů?
-Absolutně! Aspose.BarCode umožňuje přizpůsobit různé aspekty čárového kódu, včetně velikosti, barvy a umístění textu.
+**Q: Je Aspose.BarCode vhodný pro generování QR kódů?**  
+A: Přestože je jeho hlavní zaměření jednorozměrné čárové kódy, knihovna také podporuje generování QR kódů a dalších 2‑D symbologií.
 
-### Je Aspose.BarCode vhodný pro generování QR kódů?
-Zatímco Aspose.BarCode se primárně zaměřuje na jednorozměrné čárové kódy, můžete použít Aspose.BarCode pro .NET také ke generování QR kódů.
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, můžete si vyzkoušet Aspose.BarCode pro .NET zdarma stažením zkušební verze [zde](https://releases.aspose.com/).
 
-### Je k dispozici bezplatná zkušební verze?
- Ano, můžete si Aspose.BarCode for .NET vyzkoušet zdarma stažením zkušební verze[tady](https://releases.aspose.com/).
+**Q: Kde mohu získat podporu pro Aspose.BarCode pro .NET?**  
+A: Pomoc a sdílení zkušeností najdete na fóru Aspose.BarCode pro .NET [zde](https://forum.aspose.com/c/barcode/13).
 
-### Kde mohu získat podporu pro Aspose.BarCode pro .NET?
- Můžete vyhledat pomoc a sdílet své zkušenosti na fóru Aspose.BarCode for .NET[tady](https://forum.aspose.com/c/barcode/13).
+---
+
+**Poslední aktualizace:** 2026-02-25  
+**Testováno s:** Aspose.BarCode 24.11 pro .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

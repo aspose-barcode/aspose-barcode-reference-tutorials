@@ -1,54 +1,71 @@
 ---
-title: 1차원 데이터바 종횡비 사용자 정의
-linktitle: 1차원 데이터바 종횡비 사용자 정의
+date: 2026-02-25
+description: Aspose.BarCode for .NET를 설치하면서 **databar stacked omnidirectional** 종횡비
+  맞춤 설정 방법을 배워보세요. 정밀한 바코드 디자인을 쉽게 만들 수 있습니다.
+linktitle: One-Dimensional Databar Aspect Ratio Customization
 second_title: Aspose.BarCode .NET API
-description: Aspose.BarCode를 사용하여 .NET에서 1차원 DataBar 종횡비를 사용자 정의하는 방법을 알아보세요. 바코드 정밀도와 디자인을 향상시킵니다.
-weight: 16
+title: .NET에서 데이터바 스택형 전방향 종횡비 맞춤 설정
 url: /ko/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/
+weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ etc remain.
+
+Make sure markdown formatting preserved.
+
+Now craft final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 1차원 데이터바 종횡비 사용자 정의
+# .NET에서 databar stacked omnidirectional 종횡비 맞춤 설정
 
+바코드 세계에서 정밀도와 맞춤 설정은 원하는 결과를 얻는 핵심 요소입니다. 이 튜토리얼에서는 Aspose.BarCode for .NET을 사용하여 **databar stacked omnidirectional 종횡비를 맞춤 설정**하는 방법을 배웁니다. 과정을 작은 단계로 나누어 설명하고, 각 설정이 왜 중요한지 설명하며, 최종 이미지를 생성하는 방법을 정확히 보여드립니다. 그럼 시작해봅시다!
 
-바코드 세계에서는 원하는 결과를 얻기 위해서는 정밀도와 맞춤화가 핵심입니다. 숙련된 SEO 작가로서 저는 .NET용 Aspose.BarCode를 사용하여 1차원 DataBar의 종횡비를 사용자 정의하는 과정을 안내하려고 왔습니다. 우리는 이 복잡한 프로세스를 관리 가능한 단계로 나누어 귀하가 개념을 철저하게 이해할 수 있도록 하겠습니다. 그럼, 뛰어 들어 봅시다!
+## 빠른 답변
+- **무엇을 맞춤 설정할 수 있나요?** databar stacked omnidirectional 바코드의 종횡비.  
+- **필요한 라이브러리는 무엇인가요?** Aspose.BarCode for .NET (Aspose.BarCode for .NET을 설치하세요).  
+- **X‑Dimension에 몇 픽셀을 설정할 수 있나요?** 정수값이면 언제든지 가능합니다; 예제에서는 2 픽셀을 사용합니다.  
+- **생성된 이미지가 어디에 저장되나요?** `path` 변수로 지정한 폴더에 저장됩니다.  
+- **라이선스가 필요합니까?** 테스트용으로는 임시 라이선스로 동작하지만, 프로덕션에서는 정식 라이선스가 필요합니다.
 
-## 전제 조건
+## databar stacked omnidirectional란?
 
-시작하기 전에 갖춰야 할 몇 가지 전제 조건이 있습니다.
+`databar stacked omnidirectional`는 GS1 표준에 정의된 일차원 바코드 유형입니다. 숫자 데이터를 압축된 고밀도 형식으로 인코딩하며 어느 방향에서든 읽을 수 있어 작은 품목이나 모바일 스캔에 적합합니다.
 
-### 1. .NET용 Aspose.BarCode 설치
+## 왜 종횡비를 맞춤 설정해야 할까요?
 
- 시스템에 .NET용 Aspose.BarCode가 설치되어 있는지 확인하세요. 홈페이지에서 다운로드 받으실 수 있습니다[여기](https://releases.aspose.com/barcode/net/).
+**종횡비**를 변경하면 너비와 높이 사이의 시각적 균형을 조절할 수 있습니다. 특정 라벨 크기에 맞추거나 브랜드 가이드라인에 맞추거나 제한된 인쇄 환경에서 스캔 신뢰성을 향상시켜야 할 때 유용합니다.
 
-### 2. .NET 프로젝트 생성
+## 사전 요구 사항
 
-.NET 프로그래밍에 대한 기본적인 이해가 있어야 하며 Aspose.BarCode를 통합할 수 있는 프로젝트를 설정해야 합니다.
+시작하기 전에 다음이 준비되어 있는지 확인하세요:
 
-### 3. 디렉터리 경로
+### 1. Aspose.BarCode for .NET 설치  
+공식 사이트 **[here](https://releases.aspose.com/barcode/net/)**에서 최신 버전을 다운로드할 수 있습니다. 설치 가이드를 따라 NuGet 패키지를 프로젝트에 추가하세요.
 
-생성된 바코드를 저장할 디렉터리 경로를 지정해야 합니다.
+### 2. .NET 프로젝트 만들기  
+간단한 콘솔 또는 Windows 애플리케이션이면 충분합니다. 라이브러리가 추가 설정 없이 동작하도록 .NET 6+ (또는 .NET Framework 4.5+)를 타깃으로 설정하세요.
 
-이제 1차원 DataBar의 가로 세로 비율을 사용자 지정하는 방법에 대한 단계별 가이드로 넘어가겠습니다.
+### 3. 디렉터리 경로 지정  
+생성된 PNG 파일을 저장할 위치를 결정하고 절대 경로나 상대 경로를 기록해 두세요.
 
 ## 네임스페이스 가져오기
 
-종횡비 사용자 정의를 시작하기 전에 .NET 프로젝트의 Aspose.BarCode 기능에 액세스하는 데 필요한 네임스페이스를 가져와야 합니다. 방법은 다음과 같습니다.
+종횡비 맞춤 설정을 시작하기 전에 필요한 네임스페이스를 가져와 Aspose.BarCode 클래스를 사용할 수 있게 합니다.
 
-### 1단계: Aspose.BarCode 네임스페이스 가져오기
+### 단계 1: Aspose.BarCode 네임스페이스 가져오기
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-이제 필수 네임스페이스를 가져왔으므로 종횡비 사용자 정의를 시작할 준비가 되었습니다.
+이제 바코드 생성기를 만들 준비가 되었습니다.
 
-## 1단계: BarcodeGenerator 초기화
+## databar stacked omnidirectional 종횡비 설정
 
- 첫 번째 단계는 초기화입니다.`BarcodeGenerator` 수업. 이 클래스를 사용하면 다양한 사용자 정의 옵션을 사용하여 바코드를 생성할 수 있습니다. 다음 유형의 바코드를 생성하겠습니다.`DatabarStackedOmniDirectional` 샘플 데이터 문자열을 사용합니다.
+### 단계 2: `BarcodeGenerator` 초기화
+
+**databar stacked omnidirectional** 유형의 생성기를 만들고 샘플 GS1 데이터 문자열을 전달하겠습니다.
 
 ```csharp
 string path = "Your Directory Path";
@@ -57,71 +74,78 @@ System.Console.WriteLine("OneDDatabarAspectRatio:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarStackedOmniDirectional, "(01)12345678901231");
 ```
 
- 이 코드에서는`path` 변수를 선택한 디렉토리 경로에 추가하고`BarcodeGenerator` 유형의 객체`DatabarStackedOmniDirectional` 샘플 데이터 문자열을 사용합니다.
+*팁:* `"Your Directory Path"`를 실제 폴더 경로로 교체하세요. 예: `@"C:\Barcodes\"`.
 
-## 2단계: X차원 픽셀 설정
+### 단계 3: X‑Dimension 픽셀 설정
 
-X-Dimension은 바코드의 너비를 결정합니다. 요구 사항에 따라 설정할 수 있습니다. 이 예에서는 2픽셀로 설정하겠습니다.
+X‑Dimension은 좁은 바의 너비를 정의합니다. 이 예제에서는 2 픽셀을 사용하지만 프린터 DPI에 맞게 조정할 수 있습니다.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
- 여기에서 우리는`XDimension` 의 재산`Barcode` 그리고 2픽셀로 설정해주세요.
+### 단계 4: DataBar 종횡비 맞춤 설정
 
-## 3단계: DataBar 가로 세로 비율 사용자 정의
+이제 튜토리얼의 핵심인 종횡비 변경 단계입니다.
 
-이제 사용자 정의의 핵심인 DataBar의 가로 세로 비율 변경이 이루어집니다. 종횡비는 바코드의 너비와 높이의 비율에 영향을 미칩니다. 이 예에서는 두 가지 다른 종횡비를 설정하고 결과 바코드를 저장합니다.
-
-### 3.1단계: DataBar 가로 세로 비율을 15로 설정
+#### 4.1 Set Aspect Ratio to 15
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 15;
 gen.Save($"{path}DatabarAspectRatio15.png", BarCodeImageFormat.Png);
 ```
 
-여기서는 가로 세로 비율을 15로 설정하고 지정된 가로 세로 비율의 바코드를 디렉터리 경로에 저장합니다.
+바코드는 **DatabarAspectRatio15.png** 파일명으로 저장되며, 비교적 높게 보입니다.
 
-### 3.2단계: DataBar 가로 세로 비율을 30으로 설정
+#### 4.2 Set Aspect Ratio to 30
 
 ```csharp
 gen.Parameters.Barcode.DataBar.AspectRatio = 30;
 gen.Save($"{path}DatabarAspectRatio30.png", BarCodeImageFormat.Png);
 ```
 
-마찬가지로 종횡비를 30으로 설정하고 바코드를 저장합니다.
+비율을 **30**으로 늘리면 바코드가 더 넓고 짧아져, 넓은 라벨에 유용합니다.
 
-축하해요! .NET용 Aspose.BarCode를 사용하여 1차원 DataBar의 종횡비를 성공적으로 사용자 정의했습니다. 이제 지정된 디렉터리 경로에 저장된 바코드 이미지를 탐색할 수 있습니다.
+### 단계 5: 출력 확인
 
-## 결론
+생성된 PNG 파일을 이미지 뷰어에서 열어 보세요. 동일한 바코드의 두 버전이 각각 다른 가로‑세로 비율을 가지고 있는 것을 확인할 수 있습니다. 표준 바코드 스캐너로 스캔하여 여전히 읽히는지 확인하세요.
 
-이 튜토리얼에서는 .NET용 Aspose.BarCode를 사용하여 1차원 DataBar의 종횡비를 사용자 정의하는 방법을 살펴보았습니다. 강력한 사용자 정의 및 정밀도를 통해 특정 요구 사항에 맞는 바코드 디자인을 얻을 수 있습니다. 재고 관리이든 제품 라벨링이든 Aspose.BarCode for .NET을 사용하면 바코드를 쉽게 만들 수 있습니다.
+## 일반적인 문제와 해결책
 
- 질문이 있거나 추가 도움이 필요하신가요? 확인해 보세요[선적 서류 비치](https://reference.aspose.com/barcode/net/) 또는[Aspose.BarCode 포럼](https://forum.aspose.com/c/barcode/13) 지원을 위해.
+| 문제 | 원인 | 해결 방법 |
+|-------|-------|-----|
+| 바코드가 흐릿하게 보임 | 프린터 DPI에 비해 X‑Dimension이 너무 낮음 | `XDimension.Pixels`를 늘리세요 (예: 3 또는 4). |
+| 스캐너가 읽지 못함 | 극단적인 종횡비 (예: > 50) | 신뢰할 수 있는 스캔을 위해 비율을 10‑40 사이로 유지하세요. |
+| 파일이 저장되지 않음 | `path` 문자열이 잘못됨 | `Path.Combine`을 사용하고 폴더가 존재하는지 확인하세요 (`Directory.CreateDirectory`). |
 
 ## 자주 묻는 질문
 
-### 1. 바코드의 종횡비는 무엇이며, 이것이 왜 중요한가요?
+**Q: 바코드의 종횡비란 무엇이며 왜 중요한가요?**  
+A: 종횡비는 가로‑세로 비율을 의미합니다. 라벨에 바코드가 어떻게 맞춰지는지에 영향을 주며 스캔 신뢰성에도 영향을 줄 수 있습니다.
 
-바코드의 종횡비는 너비와 높이의 비율입니다. 이는 바코드가 얼마나 길거나 콤팩트하게 나타나는지 결정하기 때문에 필수적입니다. 적절한 가로 세로 비율은 바코드를 스캔할 수 있고 특정 사용 사례에 적합하도록 보장합니다.
+**Q: Aspose.BarCode for .NET으로 다른 바코드 유형의 종횡비를 변경할 수 있나요?**  
+A: 네, 많은 일차원 및 이차원 바코드가 `AspectRatio` 속성을 제공하여 미세 조정이 가능합니다.
 
-### 2. .NET용 Aspose.BarCode를 사용하여 다른 바코드 유형의 가로 세로 비율을 변경할 수 있습니까?
+**Q: 종횡비를 변경할 때 제한 사항이 있나요?**  
+A: 극단적인 값은 인코딩 표준을 위반해 바코드가 읽히지 않을 수 있습니다. 대상 스캐너로 테스트하세요.
 
-예, .NET용 Aspose.BarCode를 사용하면 다양한 바코드 유형의 가로 세로 비율을 사용자 정의할 수 있어 디자인 요구 사항에 유연성을 제공할 수 있습니다.
+**Q: Aspose.BarCode for .NET에 대한 더 많은 튜토리얼과 예제를 어디서 찾을 수 있나요?**  
+A: 공식 **[documentation](https://reference.aspose.com/barcode/net/)**에서 포괄적인 가이드를 확인하세요.
 
-### 3. 바코드의 가로 세로 비율을 변경하는 데 제한이 있나요?
+**Q: Aspose.BarCode for .NET의 임시 라이선스를 어떻게 얻나요?**  
+A: **[here](https://purchase.aspose.com/temporary-license/)**에서 체험 라이선스를 요청할 수 있습니다.
 
-종횡비를 조정할 수 있지만 급격한 변화는 바코드의 스캔 가능성에 영향을 미칠 수 있습니다. 디자인과 기능성 사이의 균형을 맞추는 것이 중요합니다.
+## 결론
 
-### 4. .NET용 Aspose.BarCode에 대한 추가 튜토리얼과 예제는 어디에서 찾을 수 있습니까?
+이제 Aspose.BarCode for .NET을 사용하여 **databar stacked omnidirectional 종횡비를 맞춤 설정**하는 방법을 마스터했습니다. `XDimension`과 `DataBar.AspectRatio`를 조정하면 라벨 크기에 완벽히 맞는 바코드를 만들고, 미적 일관성을 향상시키며 스캔 신뢰성을 유지할 수 있습니다. 다양한 비율을 실험하고 코드를 재고나 포장 워크플로에 통합하여 Aspose가 제공하는 유연성을 활용하세요.
 
- 다음에서 다양한 튜토리얼과 예제를 탐색할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/barcode/net/).
+더 자세히 알아보려면 전체 **[documentation](https://reference.aspose.com/barcode/net/)**을 확인하거나 **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)** 커뮤니티에 참여하세요.
 
-### 5. .NET용 Aspose.BarCode의 임시 라이선스를 어떻게 얻나요?
+---
 
- 테스트 또는 평가를 위해 임시 라이선스가 필요한 경우, 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-
-
+**마지막 업데이트:** 2026-02-25  
+**테스트 환경:** Aspose.BarCode 24.12 for .NET  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

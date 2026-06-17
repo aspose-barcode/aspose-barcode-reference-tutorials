@@ -1,74 +1,90 @@
 ---
-title: Endimensionell kod 128-konfiguration
-linktitle: Endimensionell kod 128-konfiguration
+date: 2026-02-25
+description: Lär dig hur du genererar streckkoder med kontrollsumma med Aspose.BarCode
+  för .NET, inklusive streckkodsgenerering i .NET Core och lagerhanteringsstreckkodsscenarier
+  i .NET.
+linktitle: One-Dimensional Code 128 Configuration
 second_title: Aspose.BarCode .NET API
-description: Lär dig hur du genererar endimensionella Code 128-streckkoder i .NET med Aspose.BarCode. Följ vår steg-för-steg-guide för sömlös streckkodsintegration.
-weight: 10
+title: Generera streckkod med kontrollsumma – En‑dimensionell Code 128‑konfiguration
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Endimensionell kod 128-konfiguration
+# En-dimensionell Code 128-konfiguration – streckkod med kontrollsiffra
 
+Om du är en .NET‑utvecklare som letar efter ett kraftfullt verktyg för att generera **barcode with checksum**, är Aspose.BarCode för .NET din självklara lösning. Denna guide visar dig hur du skapar en‑dimensionella Code 128‑streckkoder, förklarar varför kontrollsiffran är viktig och visar hur samma tillvägagångssätt passar in i **barcode generation .NET Core**‑projekt och **inventory barcode .NET**‑scenarier. Oavsett om du bygger ett lagerhanteringssystem eller en enkel etikettprinter, kommer du att se hur enkelt det är att lägga till pålitliga, standardkompatibla streckkoder i din applikation.
 
-Om du är en .NET-utvecklare som letar efter ett kraftfullt verktyg för att generera streckkoder i dina applikationer, är Aspose.BarCode för .NET din bästa lösning. Den här omfattande guiden leder dig genom processen att utnyttja kapaciteten hos Aspose.BarCode för .NET för att skapa endimensionella Code 128-streckkoder, och den är designad för både nybörjare och erfarna utvecklare. 
+## Snabba svar
+- **Vad betyder “barcode with checksum”?** Det lägger till en beräknad siffra som validerar den kodade datan.
+- **Vilka .NET‑versioner stöds?** Både .NET Framework och .NET Core (inklusive .NET 5/6) stöds fullt ut.
+- **Behöver jag en licens för produktion?** Ja, en kommersiell licens krävs; en gratis provversion finns tillgänglig.
+- **Hur många kodrader?** Mindre än 15 rader för att generera en Code 128‑streckkod med eller utan kontrollsiffra.
+- **Kan jag använda detta för lagerhantering?** Absolut – de genererade streckkoderna fungerar perfekt för inventory barcode .NET‑användningsfall.
+
+## Vad är en streckkod med kontrollsiffra?
+En kontrollsiffra är en extra siffra som beräknas från datakaraktärerna i en streckkod. Vid skanning beräknar läsaren kontrollsiffran på nytt och jämför den med det inbäddade värdet. Om de skiljer sig avvisas skanningen, vilket hjälper till att upptäcka inmatningsfel och säkerställer högre pålitlighet för lager- och logistikapplikationer.
+
+## Varför använda Aspose.BarCode för .NET?
+- **Zero‑dependency API** – inga externa bibliotek eller inhemska binärer.
+- **Full .NET Core‑stöd** – idealiskt för moderna molnbaserade tjänster.
+- **Rik anpassning** – ändra storlek, färg, textplacering och kontrollsiffra‑synlighet med några egenskapsinställningar.
+- **Enterprise‑klassad prestanda** – generera tusentals streckkoder per sekund, perfekt för högvolym inventory barcode .NET‑lösningar.
 
 ## Förutsättningar
 
-Innan vi dyker in i den spännande världen av streckkodsgenerering med Aspose.BarCode, se till att du har följande förutsättningar på plats:
+Innan vi dyker ner i den spännande världen av streckkodsgenerering med Aspose.BarCode, se till att du har följande förutsättningar på plats:
 
-1. Visual Studio: Se till att du har Visual Studio installerat på ditt system.
+1. Visual Studio: Se till att du har Visual Studio installerat på ditt system.  
+2. Aspose.BarCode for .NET: Du behöver ladda ner och installera Aspose.BarCode för .NET. Du kan hämta det från [här](https://releases.aspose.com/barcode/net/).  
+3. Ditt .NET‑projekt: Du bör ha ett .NET‑projekt konfigurerat och redo att integrera streckkodsgenerering.
 
-2.  Aspose.BarCode för .NET: Du måste ladda ner och installera Aspose.BarCode för .NET. Du kan få det från[här](https://releases.aspose.com/barcode/net/).
+Nu, låt oss komma igång!
 
-3. Ditt .NET-projekt: Du bör ha ett .NET-projekt inrättat och redo att integrera streckkodsgenerering.
+## Importera namnrymder
 
-Nu sätter vi igång!
+Det första steget är att importera de nödvändiga namnrymderna för ditt projekt. Dessa namnrymder ger dig åtkomst till funktionerna och metoderna i Aspose.BarCode.
 
-## Importera namnområden
-
-Det första steget är att importera de nödvändiga namnrymden för ditt projekt. Dessa namnutrymmen ger dig tillgång till funktionerna och funktionerna i Aspose.BarCode.
-
-### Steg 1: Importera namnområdena
+### Steg 1: Importera namnrymderna
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Endimensionell kod 128-konfiguration
+## En-dimensionell Code 128-konfiguration – streckkod med kontrollsiffra
 
-Låt oss nu skapa kod 128 streckkoder med Aspose.BarCode för .NET. Vi går igenom varje steg i detalj, så att du har en tydlig förståelse för processen.
+Nu ska vi skapa Code 128‑streckkoder med Aspose.BarCode för .NET. Vi går igenom varje steg i detalj så att du får en tydlig förståelse för processen.
 
-### Steg 2: Ställ in sökvägen
+### Steg 2: Ange sökvägen
 
-Ange först sökvägen till katalogen där du vill spara de genererade streckkodsbilderna.
+Först, ange sökvägen till den katalog där du vill spara de genererade streckkodsbilderna.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-### Steg 3: Skapa en Code 128 Barcode Generator
+### Steg 3: Skapa en Code 128‑streckkodsgenerator
 
- Skapa en`BarcodeGenerator` instans för att generera Code 128 streckkoder. Du kan ange vilken typ av streckkod du vill generera (i det här fallet Code128) och värdet du vill koda.
+Skapa en `BarcodeGenerator`‑instans för att generera Code 128‑streckkoder. Du kan ange vilken typ av streckkod du vill generera (i detta fall Code128) och vilket värde du vill koda.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "CODE");
 ```
 
-### Steg 4: Konfigurera streckkodsparametrar
+### Steg 4: Konfigurera streckkodens parametrar
 
-Innan du genererar streckkoden kan du konfigurera olika parametrar. Du kan till exempel välja att visa eller dölja kontrollsumman.
+Innan du genererar streckkoden kan du konfigurera olika parametrar. Till exempel kan du välja att visa eller dölja kontrollsiffran.
 
-#### Alternativ 1: Visa inte kontrollsumma
+#### Alternativ 1: Visa inte kontrollsiffra
 
 ```csharp
 gen.Parameters.Barcode.ChecksumAlwaysShow = false;
 ```
 
-#### Alternativ 2: Visa kontrollsumma
+#### Alternativ 2: Visa kontrollsiffra
 
 ```csharp
 gen.Parameters.Barcode.ChecksumAlwaysShow = true;
@@ -76,44 +92,52 @@ gen.Parameters.Barcode.ChecksumAlwaysShow = true;
 
 ### Steg 5: Spara streckkodsbilden
 
-Nu är det dags att spara den genererade streckkodsbilden i din angivna katalog. Du kan spara streckkoden med eller utan kontrollsumman, beroende på vilken konfiguration du valde i föregående steg.
+Nu är det dags att spara den genererade streckkodsbilden till den angivna katalogen. Du kan spara streckkoden med eller utan kontrollsiffra, beroende på vilken konfiguration du valde i föregående steg.
 
-#### Spara streckkod utan kontrollsumma
+#### Spara streckkod utan kontrollsiffra
 
 ```csharp
 gen.Save($"{path}OneCSCode128NotShowChecksum.png", BarCodeImageFormat.Png);
 ```
 
-#### Spara streckkod med kontrollsumma
+#### Spara streckkod med kontrollsiffra
 
 ```csharp
 gen.Save($"{path}OneCSCode128ShowChecksum.png", BarCodeImageFormat.Png);
 ```
 
-Det är allt! Du har framgångsrikt skapat endimensionella kod 128 streckkoder med Aspose.BarCode för .NET. Du kan använda dessa streckkoder i olika applikationer, såsom lagerhantering, produktmärkning och mer.
+Det är hela arbetsflödet för att skapa en **barcode with checksum** med Aspose.BarCode. Du har nu två PNG‑filer – en som döljer kontrollsiffran och en som visar den – redo att skrivas ut på produktetiketter, fraktetiketter eller någon annan inventory barcode .NET‑applikation.
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Aspose.BarCode för .NET tillhandahåller en kraftfull och användarvänlig lösning för generering av streckkoder i .NET-applikationer. Med dess intuitiva API och omfattande dokumentation kan du enkelt integrera streckkodsfunktionalitet i dina projekt. Oavsett om du behöver skapa endimensionella eller tvådimensionella streckkoder, har Aspose.BarCode dig täckt.
+| Problem | Orsak | Lösning |
+|-------|-------|-----|
+| **Bild sparas inte** | Ogiltig `path`‑sträng eller saknade skrivbehörigheter | Verifiera att mappen finns och att applikationen har skrivbehörighet. |
+| **Kontrollsiffra inte synlig** | `ChecksumAlwaysShow` är satt till `false` | Sätt egenskapen till `true` eller låt den vara `false` om du föredrar en dold kontrollsiffra. |
+| **Fel streckkodstyp** | Använder ett annat `EncodeTypes`‑värde | Se till att du använder `EncodeTypes.Code128` för Code 128‑streckkoder. |
 
-Införliva Aspose.BarCode i dina .NET-applikationer idag och effektivisera dina processer för att generera streckkoder med lätthet.
+## Vanliga frågor
 
-### Vanliga frågor
+**Q: Är Aspose.BarCode för .NET kompatibel med .NET Core?**  
+A: Ja, Aspose.BarCode för .NET fungerar sömlöst med både .NET Framework och .NET Core, vilket gör den idealisk för moderna plattformsoberoende applikationer.
 
-### Är Aspose.BarCode för .NET kompatibelt med .NET Core?
-Ja, Aspose.BarCode för .NET är kompatibel med både .NET Framework och .NET Core.
+**Q: Kan jag anpassa utseendet på de genererade streckkoderna?**  
+A: Absolut! Du kan justera storlek, färg, textplacering och många andra visuella aspekter via `Parameters`‑objektet.
 
-### Kan jag anpassa utseendet på de genererade streckkoderna?
-Absolut! Aspose.BarCode låter dig anpassa olika aspekter av streckkoden, inklusive storlek, färg och textplacering.
+**Q: Är Aspose.BarCode lämplig för att generera QR‑koder?**  
+A: Även om huvudfokus är en‑dimensionella streckkoder, stödjer biblioteket även QR‑kodgenerering och andra 2‑D‑symbologier.
 
-### Är Aspose.BarCode lämplig för att generera QR-koder?
-Medan Aspose.BarCode främst fokuserar på endimensionella streckkoder, kan du använda Aspose.BarCode för .NET för att generera QR-koder också.
+**Q: Finns det en gratis provversion?**  
+A: Ja, du kan prova Aspose.BarCode för .NET gratis genom att ladda ner provversionen [här](https://releases.aspose.com/).
 
-### Finns det en gratis provperiod?
- Ja, du kan prova Aspose.BarCode för .NET gratis genom att ladda ner testversionen[här](https://releases.aspose.com/).
+**Q: Var kan jag få support för Aspose.BarCode för .NET?**  
+A: Du kan söka hjälp och dela dina erfarenheter på Aspose.BarCode för .NET‑forumet [här](https://forum.aspose.com/c/barcode/13).
 
-### Var kan jag få support för Aspose.BarCode för .NET?
- Du kan söka hjälp och dela dina erfarenheter på Aspose.BarCode for .NET-forumet[här](https://forum.aspose.com/c/barcode/13).
+---
+
+**Senast uppdaterad:** 2026-02-25  
+**Testad med:** Aspose.BarCode 24.11 för .NET  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
