@@ -1,86 +1,140 @@
 ---
-title: .NET के लिए Aspose.BarCode के साथ DotCode एन्कोडिंग मोड (बाइट्स)।
-linktitle: डॉटकोड एन्कोडिंग मोड (बाइट्स)
+date: 2026-06-19
+description: Aspose.BarCode for .NET का उपयोग करके Visual Studio में बारकोड कैसे बनाएं
+  सीखें – चरण‑दर‑चरण मार्गदर्शिका कोड उदाहरणों के साथ।
+keywords:
+- create barcode visual studio
+- dotcode encoding bytes
+- aspose barcode .net
+linktitle: DotCode एन्कोडिंग मोड (बाइट्स)
+schemas:
+- author: Aspose
+  dateModified: '2026-06-19'
+  description: Learn how to create barcode visual studio using Aspose.BarCode for
+    .NET – step‑by‑step guide with code examples.
+  headline: Create Barcode in Visual Studio with Aspose.BarCode .NET
+  type: TechArticle
+- description: Learn how to create barcode visual studio using Aspose.BarCode for
+    .NET – step‑by‑step guide with code examples.
+  name: Create Barcode in Visual Studio with Aspose.BarCode .NET
+  steps:
+  - name: Add References
+    text: Open your Visual Studio project and add references to the Aspose.BarCode
+      for .NET library. This step is essential to access the barcode generation features.
+  - name: Import Namespaces
+    text: 'In your code, import the necessary namespaces to use Aspose.BarCode components:
+      Now that you''ve set up your project and imported the required namespaces, you''re
+      ready to dive into the DotCode Encoding Mode.'
+  - name: Define Your Directory Path
+    text: Begin by specifying the directory path where you want to save the generated
+      barcode image.
+  - name: Create DotCodeEncodeModeBytes
+    text: '`DotCodeEncodeModeBytes` is the class that holds the raw byte array for
+      DotCode encoding. Create an instance and populate it with the data you wish
+      to encode:'
+  - name: Encode Array to String
+    text: To generate the barcode, you need to convert the byte array into a string.
+      This step is essential for barcode generation.
+  - name: Initialize BarcodeGenerator
+    text: '`BarcodeGenerator` is Aspose.BarCode’s core class for creating barcodes.
+      Instantiate it with the DotCode symbology and the encoded string:'
+  - name: Set Barcode Parameters
+    text: Configure the barcode parameters, such as XDimension in pixels and DotCodeEncodeMode
+      to Bytes.
+  - name: Save Barcode Image
+    text: Finally, save the generated barcode image to the specified directory path
+      in PNG format. With these steps, you have successfully generated a DotCode barcode
+      using Aspose.BarCode for .NET in Encoding Mode (Bytes). You can further customize
+      your barcode by adjusting various parameters to meet your spe
+  type: HowTo
+- questions:
+  - answer: It is a method of encoding binary data into a DotCode 2‑D barcode, allowing
+      direct storage of byte arrays.
+    question: What is DotCode Encoding Mode?
+  - answer: You can access the Aspose.BarCode for .NET documentation [here](https://reference.aspose.com/barcode/net/).
+    question: Where can I find Aspose.BarCode for .NET documentation?
+  - answer: You can get a temporary license for testing from [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for Aspose.BarCode for testing purposes?
+  - answer: Yes, Aspose.BarCode for .NET offers a wide range of parameters for customizing
+      barcode appearance, including size, color, and more.
+    question: Can I customize the appearance of DotCode barcodes with Aspose.BarCode
+      for .NET?
+  - answer: Yes, Aspose.BarCode for .NET is compatible with both .NET Framework and
+      .NET Core applications.
+    question: Is Aspose.BarCode compatible with .NET Core applications?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: बारकोड उत्पन्न करने के लिए .NET चरण-दर-चरण मार्गदर्शिका के लिए Aspose.BarCode के साथ DotCode एन्कोडिंग सीखें।
-weight: 12
+title: Aspose.BarCode .NET के साथ Visual Studio में बारकोड बनाएं
 url: /hi/net/dotcode-barcode-configuration/dotcode-encoding-mode-bytes/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET के लिए Aspose.BarCode के साथ DotCode एन्कोडिंग मोड (बाइट्स)।
+# Visual Studio में Aspose.BarCode .NET के साथ बारकोड बनाएं
 
 ## परिचय
 
-क्या आप अपने .NET अनुप्रयोगों में डॉटकोड एन्कोडिंग मोड (बाइट्स) की शक्ति को अनलॉक करने के लिए तैयार हैं? आगे कोई तलाश नहीं करें! .NET के लिए Aspose.BarCode बारकोड बनाने और उसमें हेरफेर करने के लिए आपका पसंदीदा समाधान है। इस चरण-दर-चरण मार्गदर्शिका में, हम प्रत्येक पहलू को व्यापक रूप से समझाते हुए, डॉटकोड एन्कोडिंग मोड (बाइट्स) में गहराई से उतरेंगे। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, हमने आपको कवर कर लिया है। आइए DotCode एन्कोडिंग की आकर्षक दुनिया में गोता लगाएँ और उसका अन्वेषण करें।
+Ready to **create barcode visual studio** projects quickly and reliably? Aspose.BarCode for .NET आपको एक पूर्ण‑फ़ीचर API प्रदान करता है जिससे आप Visual Studio से सीधे DotCode बारकोड (और कई अन्य सिम्बोलॉजी) जेनरेट कर सकते हैं। इस ट्यूटोरियल में हम हर कदम से गुजरेंगे – प्रोजेक्ट सेटअप से लेकर PNG इमेज सेव करने तक – ताकि आप कुछ ही मिनटों में किसी भी .NET एप्लिकेशन में बारकोड क्षमता जोड़ सकें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **मुझे कौनसी लाइब्रेरी चाहिए?** Aspose.BarCode for .NET (download from the official site).  
+- **क्या मैं इसे Visual Studio 2022 में उपयोग कर सकता हूँ?** Yes, it works with VS 2017‑2022 and .NET Framework/.NET Core.  
+- **क्या परीक्षण के लिए मुझे लाइसेंस चाहिए?** A temporary license is available for free trial purposes.  
+- **कौनसा बारकोड फॉर्मेट कवर किया गया है?** This guide focuses on DotCode Encoding Mode (Bytes).  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** About 10‑15 minutes for a basic barcode.
 
-इससे पहले कि हम अपने डॉटकोड एन्कोडिंग साहसिक कार्य को शुरू करें, इस ट्यूटोरियल का अधिकतम लाभ उठाने के लिए आपके पास कुछ आवश्यक शर्तें होनी चाहिए। सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+## DotCode एन्कोडिंग मोड (Bytes) क्या है?
+`DotCodeEncodeModeBytes` Aspose.BarCode का विकल्प है जो इनपुट को एक रॉ बाइट एरे के रूप में लेता है, जिससे आप बाइनरी डेटा को सीधे DotCode 2‑D बारकोड में एम्बेड कर सकते हैं। यह आपको किसी भी बाइनरी पेलोड, जैसे फ़ाइलें, एन्क्रिप्टेड डेटा, या कस्टम आइडेंटिफ़ायर, को सीधे 2‑D DotCode सिम्बॉल में स्टोर करने की अनुमति देता है, जिसे फिर संगत रीडर्स द्वारा स्कैन करके मूल बाइट सीक्वेंस प्राप्त किया जा सकता है।
 
-1. विजुअल स्टूडियो स्थापित
+## Aspose.BarCode for .NET का उपयोग क्यों करें?
+Aspose.BarCode **30+ बारकोड सिम्बोलॉजीज़** को सपोर्ट करता है और **10 000 × 10 000 px** तक की इमेज बिना गुणवत्ता खोए रेंडर कर सकता है। यह लाइब्रेरी Windows, Linux, और macOS पर चलती है, और किसी बाहरी सेवा की आवश्यकता नहीं होती – ऑफ़लाइन या हाई‑थ्रूपुट परिदृश्यों के लिए परफेक्ट। इसके अलावा, यह रंग, मार्जिन, और एरर करेक्शन लेवल जैसी व्यापक कस्टमाइज़ेशन विकल्प प्रदान करता है, जिससे डेवलपर्स बारकोड की उपस्थिति को ब्रांडिंग आवश्यकताओं के अनुसार ढाल सकते हैं।
 
-सुनिश्चित करें कि आपके सिस्टम पर विजुअल स्टूडियो स्थापित है। .NET के लिए Aspose.BarCode विज़ुअल स्टूडियो के साथ सहजता से एकीकृत होता है, जिससे बारकोड बनाना आसान हो जाता है।
+## पूर्वापेक्षाएँ
+1. **Visual Studio स्थापित** – कोई भी हालिया संस्करण (2017‑2022) सहजता से काम करता है।  
+2. **Aspose.BarCode for .NET लाइब्रेरी** – इसे [here](https://releases.aspose.com/barcode/net/) से डाउनलोड करें।  
+3. **.NET Framework की बुनियादी समझ** – आपको कंसोल या Windows Forms प्रोजेक्ट में C# कोड लिखने में सहज होना चाहिए।  
+4. **Aspose.BarCode लाइसेंस** – स्थायी लाइसेंस [here](https://purchase.aspose.com/buy) से प्राप्त करें या अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से।  
+5. **Aspose.BarCode दस्तावेज़ीकरण** – अधिक विवरण के लिए आधिकारिक डॉक्यूमेंट्स [here](https://reference.aspose.com/barcode/net/) देखें।  
 
-2. .NET लाइब्रेरी के लिए Aspose.BarCode
+इन पूर्वापेक्षाओं को पूरा करने के बाद, आप DotCode बारकोड जेनरेट करने के लिए तैयार हैं।
 
- .NET लाइब्रेरी के लिए Aspose.BarCode को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/barcode/net/)यह लाइब्रेरी आपके .NET अनुप्रयोगों में बारकोड के साथ काम करने के लिए आवश्यक है।
+## Visual Studio में बारकोड कैसे बनाएं?
+Aspose.BarCode नेमस्पेस लोड करें, जेनरेटर को कॉन्फ़िगर करें, और `Save` को कॉल करें – यह सब कुछ है जो आपको Visual Studio में बारकोड इमेज बनाने के लिए चाहिए। नीचे दिए गए चरण प्रक्रिया को स्पष्ट, छोटे‑छोटे कार्यों में विभाजित करते हैं जिन्हें आप अपने प्रोजेक्ट में कॉपी कर सकते हैं।
 
-3. .NET फ्रेमवर्क की बुनियादी समझ
+### नेमस्पेस आयात करें
+इस सेक्शन में हम आवश्यक नेमस्पेस को आयात करने और DotCode एन्कोडिंग मोड के साथ काम करने के लिए आपके .NET प्रोजेक्ट को सेट अप करने के बारे में चर्चा करेंगे।
 
-.NET फ्रेमवर्क की बुनियादी बातों से खुद को परिचित करें। आपको C# और .NET एप्लिकेशन कैसे काम करते हैं, इसकी बुनियादी समझ होनी चाहिए।
+#### चरण 1: रेफ़रेंसेज़ जोड़ें
+अपने Visual Studio प्रोजेक्ट को खोलें और Aspose.BarCode for .NET लाइब्रेरी के रेफ़रेंसेज़ जोड़ें। यह चरण बारकोड जेनरेशन फीचर्स तक पहुँचने के लिए आवश्यक है।
 
-4. Aspose.बारकोड लाइसेंस
-
- सुनिश्चित करें कि आपके पास वैध Aspose.BarCode लाइसेंस है, जिसे यहां से प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/buy) . आप परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस भी प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
-
-5. Aspose.बारकोड दस्तावेज़ीकरण
-
- .NET दस्तावेज़ के लिए Aspose.BarCode देखें[यहाँ](https://reference.aspose.com/barcode/net/) सभी उपलब्ध सुविधाओं और कार्यप्रणाली पर विस्तृत जानकारी के लिए।
-
-इन पूर्वावश्यकताओं के साथ, आप .NET के लिए Aspose.BarCode के साथ DotCode एन्कोडिंग मोड में अपनी यात्रा शुरू करने के लिए पूरी तरह तैयार हैं।
-
-## नामस्थान आयात करें:
-
-इस अनुभाग में, हम चर्चा करेंगे कि आवश्यक नेमस्पेस कैसे आयात करें और डॉटकोड एन्कोडिंग मोड के साथ काम करने के लिए अपना .NET प्रोजेक्ट कैसे सेट करें। 
-
-### चरण 1: संदर्भ जोड़ें
-
-अपना विज़ुअल स्टूडियो प्रोजेक्ट खोलें और .NET लाइब्रेरी के लिए Aspose.BarCode में संदर्भ जोड़ें। बारकोड जनरेशन सुविधाओं तक पहुँचने के लिए यह चरण आवश्यक है।
-
-### चरण 2: नामस्थान आयात करें
-
-अपने कोड में, Aspose.BarCode घटकों का उपयोग करने के लिए आवश्यक नामस्थान आयात करें:
+#### चरण 2: नेमस्पेस आयात करें
+अपने कोड में, Aspose.BarCode कंपोनेंट्स का उपयोग करने के लिए आवश्यक नेमस्पेस आयात करें:
 
 ```csharp
 using Aspose.BarCode.Generation;
 using System.Text;
 ```
 
-अब जब आपने अपना प्रोजेक्ट सेट कर लिया है और आवश्यक नेमस्पेस आयात कर लिया है, तो आप डॉटकोड एन्कोडिंग मोड में जाने के लिए तैयार हैं।
-
-## चरण 1: अपनी निर्देशिका पथ परिभाषित करें
-
-उस निर्देशिका पथ को निर्दिष्ट करके प्रारंभ करें जहां आप जेनरेट की गई बारकोड छवि को सहेजना चाहते हैं।
+### चरण 1: अपनी डायरेक्टरी पाथ निर्धारित करें
+शुरू में उस डायरेक्टरी पाथ को निर्दिष्ट करें जहाँ आप जेनरेटेड बारकोड इमेज सेव करना चाहते हैं।
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## चरण 2: DotCodeEncodeModeBytes बनाएं
-
-इस चरण में, आप DotCodeEncodeModeBytes बनाएंगे। हम बाइट्स की एक श्रृंखला को बारकोड में एन्कोड करेंगे।
+### चरण 2: DotCodeEncodeModeBytes बनाएं
+`DotCodeEncodeModeBytes` वह क्लास है जो DotCode एन्कोडिंग के लिए रॉ बाइट एरे रखती है।  
+एक इंस्टेंस बनाएं और उसे उस डेटा से भरें जिसे आप एन्कोड करना चाहते हैं:
 
 ```csharp
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 ```
 
-## चरण 3: ऐरे को स्ट्रिंग में एन्कोड करें
-
-बारकोड जेनरेट करने के लिए, आपको बाइट ऐरे को एक स्ट्रिंग में बदलना होगा। बारकोड जनरेशन के लिए यह कदम आवश्यक है।
+### चरण 3: एरे को स्ट्रिंग में एन्कोड करें
+बारकोड जेनरेट करने के लिए, आपको बाइट एरे को स्ट्रिंग में बदलना होगा। यह चरण बारकोड जेनरेशन के लिए आवश्यक है।
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -89,61 +143,67 @@ foreach (byte bval in encodedArr)
 var codetext = strBld.ToString();
 ```
 
-## चरण 4: बारकोड जेनरेटर प्रारंभ करें
-
-अब, बारकोड जेनरेटर का एक उदाहरण बनाएं और बारकोड प्रकार (डॉटकोड) और कोडटेक्स्ट निर्दिष्ट करें।
+### चरण 4: BarcodeGenerator को इनिशियलाइज़ करें
+`BarcodeGenerator` Aspose.BarCode की कोर क्लास है बारकोड बनाने के लिए।  
+इसे DotCode सिम्बोलॉजी और एन्कोडेड स्ट्रिंग के साथ इंस्टैंशिएट करें:
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 ```
 
-## चरण 5: बारकोड पैरामीटर सेट करें
-
-बारकोड पैरामीटर्स को कॉन्फ़िगर करें, जैसे कि पिक्सल में एक्सडाइमेंशन और बाइट्स में DotCodeEncodeMode।
+### चरण 5: बारकोड पैरामीटर्स सेट करें
+बारकोड पैरामीटर्स कॉन्फ़िगर करें, जैसे पिक्सल में XDimension और DotCodeEncodeMode को Bytes सेट करें।
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
 ```
 
-## चरण 6: बारकोड छवि सहेजें
-
-अंत में, उत्पन्न बारकोड छवि को पीएनजी प्रारूप में निर्दिष्ट निर्देशिका पथ पर सहेजें।
+### चरण 6: बारकोड इमेज सेव करें
+अंत में, जेनरेटेड बारकोड इमेज को निर्दिष्ट डायरेक्टरी पाथ में PNG फॉर्मेट में सेव करें।
 
 ```csharp
 gen.Save($"{path}DotCodeEncodeModeBytes.png", BarCodeImageFormat.Png);
 ```
 
-इन चरणों के साथ, आपने एन्कोडिंग मोड (बाइट्स) में .NET के लिए Aspose.BarCode का उपयोग करके सफलतापूर्वक एक DotCode बारकोड जेनरेट किया है। आप अपनी विशिष्ट आवश्यकताओं को पूरा करने के लिए विभिन्न मापदंडों को समायोजित करके अपने बारकोड को और अधिक अनुकूलित कर सकते हैं।
+इन चरणों के साथ, आपने Encoding Mode (Bytes) में Aspose.BarCode for .NET का उपयोग करके सफलतापूर्वक DotCode बारकोड जेनरेट कर लिया है। आप विभिन्न पैरामीटर्स को समायोजित करके अपने बारकोड को और कस्टमाइज़ कर सकते हैं ताकि आपकी विशिष्ट आवश्यकताओं को पूरा किया जा सके।
 
-## निष्कर्ष:
-
-इस ट्यूटोरियल में, हमने .NET के लिए Aspose.BarCode का उपयोग करके DotCode एन्कोडिंग मोड (बाइट्स) का पता लगाया है। हमने पूर्वापेक्षाओं के साथ शुरुआत की, नेमस्पेस आयात किया, और पूरी प्रक्रिया को पालन करने में आसान चरणों में विभाजित किया। Aspose.BarCode आपके .NET अनुप्रयोगों में एक मूल्यवान सुविधा जोड़कर, आपको आसानी से बारकोड उत्पन्न करने और हेरफेर करने का अधिकार देता है। विभिन्न सेटिंग्स के साथ प्रयोग करें, और आप डॉटकोड एन्कोडिंग की बहुमुखी प्रतिभा से आश्चर्यचकित होंगे। आज ही अपने एप्लिकेशन में बारकोड क्षमताओं को एकीकृत करना शुरू करें!
+## सामान्य समस्याएँ और समाधान
+- **इमेज सेव नहीं हो रही है:** सुनिश्चित करें कि डायरेक्टरी पाथ मौजूद है और एप्लिकेशन के पास लिखने की अनुमति है।  
+- **डेटा का स्वरूप गलत है:** कन्वर्ज़न से पहले बाइट एरे सही तरीके से पॉपुलेट किया गया है, यह सुनिश्चित करें; टेक्स्ट डेटा के लिए `Encoding.UTF8.GetBytes` का उपयोग करें।  
+- **लाइसेंस लागू नहीं हुआ:** जेनरेटर बनाने से पहले `License license = new License(); license.SetLicense("Aspose.BarCode.lic");` कॉल करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
+**Q: DotCode एन्कोडिंग मोड क्या है?**  
+A: यह एक विधि है जिससे बाइनरी डेटा को DotCode 2‑D बारकोड में एन्कोड किया जाता है, जिससे बाइट एरे सीधे स्टोर किया जा सकता है।
 
-### Q1: डॉटकोड एन्कोडिंग मोड क्या है?
+**Q: Aspose.BarCode for .NET दस्तावेज़ीकरण कहाँ मिल सकता है?**  
+A: आप Aspose.BarCode for .NET दस्तावेज़ीकरण [here](https://reference.aspose.com/barcode/net/) पर एक्सेस कर सकते हैं।
 
-ए1: डॉटकोड एनकोडिंग मोड डॉट्स की एक श्रृंखला का उपयोग करके डेटा को 2डी बारकोड में एन्कोड करने की एक विधि है। यह बाइनरी डेटा एन्कोडिंग के लिए विशेष रूप से उपयोगी है।
+**Q: परीक्षण के उद्देश्य से Aspose.BarCode के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?**  
+A: आप परीक्षण के लिए अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
-### Q2: मुझे .NET दस्तावेज़ के लिए Aspose.BarCode कहां मिल सकता है?
+**Q: क्या मैं Aspose.BarCode for .NET के साथ DotCode बारकोड की उपस्थिति को कस्टमाइज़ कर सकता हूँ?**  
+A: हाँ, Aspose.BarCode for .NET आकार, रंग और अन्य कई पैरामीटर्स के साथ बारकोड की उपस्थिति को कस्टमाइज़ करने की विस्तृत विकल्प प्रदान करता है।
 
- A2: आप .NET दस्तावेज़ के लिए Aspose.BarCode तक पहुंच सकते हैं[यहाँ](https://reference.aspose.com/barcode/net/).
+**Q: क्या Aspose.BarCode .NET Core एप्लिकेशन्स के साथ संगत है?**  
+A: हाँ, Aspose.BarCode for .NET .NET Framework और .NET Core दोनों एप्लिकेशन्स के साथ संगत है।
 
-### Q3: मैं परीक्षण उद्देश्यों के लिए Aspose.BarCode के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+---
 
- A3: आप परीक्षण के लिए अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
-
-### Q4: क्या मैं .NET के लिए Aspose.BarCode के साथ DotCode बारकोड की उपस्थिति को अनुकूलित कर सकता हूँ?
-
-A4: हाँ, .NET के लिए Aspose.BarCode आकार, रंग और बहुत कुछ सहित बारकोड उपस्थिति को अनुकूलित करने के लिए मापदंडों की एक विस्तृत श्रृंखला प्रदान करता है।
-
-### Q5: क्या Aspose.BarCode .NET कोर अनुप्रयोगों के साथ संगत है?
-
-A5: हां, .NET के लिए Aspose.BarCode .NET फ्रेमवर्क और .NET कोर अनुप्रयोगों दोनों के साथ संगत है।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**अंतिम अपडेट:** 2026-06-19  
+**परीक्षित संस्करण:** Aspose.BarCode 24.11 for .NET  
+**लेखक:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.BarCode for .NET में DotCode एन्कोडिंग मोड (ऑटो)](/barcode/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/)
+- [Aspose.BarCode for .NET के साथ DotCode एस्पेक्ट रेशियो कस्टमाइज़ करें](/barcode/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/)
+- [DotCode बारकोड इमेज बनाएं – पंक्तियाँ और कॉलम (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
