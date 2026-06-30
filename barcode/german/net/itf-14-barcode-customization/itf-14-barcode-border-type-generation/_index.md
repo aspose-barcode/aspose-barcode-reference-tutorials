@@ -1,120 +1,143 @@
 ---
-title: ITF-14 Barcode-Randtypgenerierung
-linktitle: ITF-14 Barcode-Randtypgenerierung
-second_title: Aspose.BarCode .NET-API
-description: Erfahren Sie, wie Sie mit Aspose.BarCode für .NET ITF-14-Barcodes mit verschiedenen Randtypen erstellen. Passen Sie Ihre Verpackung und Etikettierung ganz einfach individuell an.
-weight: 11
+date: 2026-02-20
+description: Erfahren Sie, wie Sie den Rand von ITF‑14‑Barcodes mit Aspose.BarCode
+  für .NET ändern. Dieser Leitfaden behandelt die Barcode‑Generierung mit C# und bietet
+  praktische Beispiele.
+linktitle: ITF-14 Barcode Border Type Generation
+second_title: Aspose.BarCode .NET API
+title: Wie man den Rand ändert – ITF-14 Barcode‑Randtyp‑Generierung
 url: /de/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ITF-14 Barcode-Randtypgenerierung
+# Wie man den Rand ändert – ITF-14 Barcode Randtyp-Generierung
 
+In diesem Tutorial erfahren Sie **wie man den Rand** für ITF-14 Barcodes mit Aspose.BarCode für .NET ändert. Egal, ob Sie ein Verpackungs‑Beschriftungssystem bauen oder bestimmte Druckstandards einhalten müssen, die Steuerung des Randtyps ist essenziell. Wir führen Sie durch ein komplettes, ausführbares Beispiel, das **Barcode‑Generierung mit C#** zeigt, sodass Sie ITF-14 Barcodes genau nach Ihren Anforderungen erzeugen können.
 
-In diesem Tutorial führen wir Sie durch den Prozess der Generierung von ITF-14-Barcodes mit verschiedenen Randtypen mithilfe von Aspose.BarCode für .NET. Aspose.BarCode ist eine leistungsstarke Bibliothek, mit der Sie Barcodes in verschiedenen Formaten erstellen, bearbeiten und erkennen können. In diesem speziellen Beispiel konzentrieren wir uns auf ITF-14-Barcodes und die Steuerung ihrer Randtypen. ITF-14-Barcodes werden häufig für Verpackungs- und Etikettierungszwecke verwendet.
+## Schnelle Antworten
+- **Was beeinflusst der „Randtyp“?** Er bestimmt, ob der Barcode ohne Rand, mit einem einfachen Balken, einem äußeren Balken, einem Rahmen oder einem Rahmen mit einem äußeren Balken gezeichnet wird.  
+- **Welche Bibliothek wird verwendet?** Aspose.BarCode für .NET.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Läuft das auf .NET Core?** Ja, die API ist kompatibel mit .NET Core, .NET 5+ und .NET 6+.  
+- **Wie viele Code‑Zeilen?** Weniger als 20 Zeilen, um alle fünf Randvarianten zu erzeugen.
+
+## Was bedeutet „wie man den Rand ändert“ im Kontext von ITF-14 Barcodes?
+Den Rand zu ändern bedeutet, eine der `ITF14BorderType`‑Optionen (`None`, `Bar`, `BarOut`, `Frame`, `FrameOut`) auszuwählen. Jede Option verändert die visuelle Umrandung des Barcodes, was für die Lesbarkeit durch Scanner und ästhetische Anforderungen wichtig sein kann.
+
+## Warum Aspose.BarCode für die Barcode‑Generierung mit C# verwenden?
+Aspose.BarCode bietet ein umfangreiches Set an Anpassungs‑Features – Farben, Größen, Schriftarten und die Randtypen, die wir untersuchen – und bleibt dabei einfach zu bedienen. Das macht es ideal für Entwickler, die **ITF-14 Barcode**‑Bilder schnell und zuverlässig erzeugen müssen.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Barcode-Generierungsprozess befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie folgendes haben:
 
-1.  Aspose.BarCode für .NET: Sie müssen Aspose.BarCode für .NET installiert haben. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/barcode/net/).
-
-2. Entwicklungsumgebung: Stellen Sie sicher, dass Sie eine Entwicklungsumgebung eingerichtet haben, bei der es sich um ein .NET-Projekt in Ihrer bevorzugten IDE handeln kann.
-
-3. Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# ist für dieses Tutorial von Vorteil.
-
-4.  Ihr Verzeichnispfad: Ersetzen`"Your Directory Path"` Geben Sie im Code den tatsächlichen Pfad an, in dem Sie die generierten Barcode-Bilder speichern möchten.
+1. **Aspose.BarCode für .NET** – herunterladen von der [Website](https://releases.aspose.com/barcode/net/).  
+2. Eine .NET‑Entwicklungsumgebung (Visual Studio, Rider oder VS Code).  
+3. Grundlegende Kenntnisse der **C#**‑Syntax.  
+4. Einen gültigen Ordnerpfad, in dem die erzeugten PNG‑Dateien gespeichert werden – ersetzen Sie `"Your Directory Path"` im Code durch Ihren eigenen Speicherort.
 
 ## Namespaces importieren
 
-Importieren wir zunächst die notwendigen Namespaces für die Arbeit mit Aspose.BarCode:
+Zuerst den benötigten Namespace in den Gültigkeitsbereich holen:
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-## Schritt 1: Erstellen Sie eine Instanz von BarcodeGenerator
+## Schritt‑für‑Schritt‑Anleitung
 
- Der erste Schritt besteht darin, eine Instanz von zu erstellen`BarcodeGenerator` für ITF-14-Barcodes. Außerdem müssen Sie die zu kodierenden Daten angeben, in diesem Fall „12345678901231“.
+### Schritt 1: Eine `BarcodeGenerator`‑Instanz erstellen (ITF-14 Barcode erzeugen)
+
+Wir beginnen mit der Initialisierung des Generators für die ITF‑14‑Symbologie und die zu kodierenden Daten:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
 ```
 
-## Schritt 2: Legen Sie die X-Dimension für den Barcode fest
+### Schritt 2: X‑Dimension festlegen (steuert die Balkenbreite)
 
-Die X-Dimension stellt die Breite der Barcode-Striche dar. Sie können die X-Dimension in Pixel wie folgt festlegen:
+Die X‑Dimension definiert die Breite jedes Barcode‑Balkens. Ein Wert von 2 Pixel funktioniert gut für die meisten Etikettendrucker:
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## Schritt 3: Generieren Sie ITF-14-Barcodes mit verschiedenen Randtypen
+### Schritt 3: ITF‑14 Barcodes mit verschiedenen Randtypen erzeugen
 
-Mit Aspose.BarCode können Sie aus mehreren Rahmentypen für ITF-14-Barcodes wählen. Wir generieren Barcodes für jeden dieser Typen:
+Nachfolgend die fünf **ITF‑14 Barcode‑Beispiele**, die **zeigen, wie man den Rand ändert**. Jeder Code‑Abschnitt verwendet dieselbe `BarcodeGenerator`‑Instanz und ändert nur die Eigenschaft `ItfBorderType`.
 
-### ITF-Grenztyp: Keine
+#### ITF Randtyp: None  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.None;
 gen.Save($"{path}ITF14BorderNone.png", BarCodeImageFormat.Png);
 ```
 
-### ITF-Grenztyp: Bar
+#### ITF Randtyp: Bar  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Bar;
 gen.Save($"{path}ITF14BorderBar.png", BarCodeImageFormat.Png);
 ```
 
-### ITF-Grenztyp: BarOut
+#### ITF Randtyp: BarOut  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.BarOut;
 gen.Save($"{path}ITF14BorderBarOut.png", BarCodeImageFormat.Png);
 ```
 
-### ITF-Grenztyp: Rahmen
+#### ITF Randtyp: Frame  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Frame;
 gen.Save($"{path}ITF14BorderFrame.png", BarCodeImageFormat.Png);
 ```
 
-### ITF-Grenztyp: FrameOut
+#### ITF Randtyp: FrameOut  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.FrameOut;
 gen.Save($"{path}ITF14BorderFrameOut.png", BarCodeImageFormat.Png);
 ```
 
-## Abschluss
+Jeder `Save`‑Aufruf schreibt ein PNG‑Bild in das von Ihnen angegebene Verzeichnis und liefert Ihnen eine visuelle Referenz für jede Randoption.
 
-In diesem Tutorial haben wir untersucht, wie man mit Aspose.BarCode für .NET ITF-14-Barcodes mit verschiedenen Randtypen generiert. Indem Sie die bereitgestellten Schritte befolgen, können Sie individuelle Barcodes für Ihre Verpackungs- und Etikettierungsanforderungen erstellen.
+## Häufige Probleme & Tipps
 
-Aspose.BarCode für .NET bietet eine breite Palette an Funktionen und Anpassungsmöglichkeiten für die Barcode-Generierung und ist damit ein wertvolles Werkzeug für Entwickler in verschiedenen Branchen.
-
- Wenn Sie Fragen haben oder während der Implementierung auf Probleme stoßen, können Sie sich jederzeit an die Aspose.BarCode-Community wenden[Hilfeforum](https://forum.aspose.com/c/barcode/13).
+- **Pfadformatierung** – Stellen Sie sicher, dass die Variable `path` auf Windows mit einem Backslash (`\`) und auf Linux/macOS mit einem Forward Slash (`/`) endet.  
+- **Lizenz‑Ausnahme** – Ohne Lizenz erscheint ein kleiner Wasserzeichen auf den erzeugten Bildern.  
+- **Scanner‑Kompatibilität** – Einige Scanner ignorieren den äußeren Rand; testen Sie mit Ihrer Hardware, um zu entscheiden, welcher Randtyp am besten funktioniert.  
+- **Pro‑Tipp:** Sie können mehrere Eigenschaftsänderungen (Farbe, Text usw.) hintereinander setzen, bevor Sie `Save` aufrufen, um vollständig angepasste Barcodes in einem Schritt zu erstellen.
 
 ## Häufig gestellte Fragen
 
-### Wofür wird der ITF-14-Barcode verwendet?
-ITF-14-Barcodes werden hauptsächlich für Produktverpackungen und -kennzeichnungen im Einzelhandel verwendet. Sie kodieren Informationen wie die GTIN (Global Trade Item Number) des Produkts und sind häufig auf Kartons und Paletten zu finden.
+### Wofür wird der ITF-14 Barcode verwendet?
+ITF-14 Barcodes werden hauptsächlich für die Produktverpackung und -kennzeichnung im Einzelhandel eingesetzt. Sie kodieren Informationen wie die GTIN (Global Trade Item Number) eines Produkts und finden sich häufig auf Kartons und Paletten.
 
-### Kann ich das Erscheinungsbild von ITF-14-Barcodes mit Aspose.BarCode anpassen?
-Ja, Aspose.BarCode bietet umfangreiche Anpassungsoptionen, einschließlich der Möglichkeit, den Rahmentyp, die Farbe und viele andere visuelle Aspekte des Barcodes zu ändern.
+### Kann ich das Aussehen von ITF-14 Barcodes mit Aspose.BarCode anpassen?
+Ja, Aspose.BarCode bietet umfangreiche Anpassungsoptionen, einschließlich der Möglichkeit, den Randtyp, die Farbe und viele weitere visuelle Aspekte des Barcodes zu ändern.
 
-### Ist Aspose.BarCode mit anderen .NET-Frameworks kompatibel?
-Ja, Aspose.BarCode für .NET ist neben dem herkömmlichen .NET Framework auch mit verschiedenen .NET Frameworks kompatibel, einschließlich .NET Core und .NET Standard.
+### Ist Aspose.BarCode mit anderen .NET‑Frameworks kompatibel?
+Ja, Aspose.BarCode für .NET ist kompatibel mit verschiedenen .NET‑Frameworks, einschließlich .NET Core und .NET Standard, neben dem klassischen .NET Framework.
 
-### Wo finde ich eine umfassende Dokumentation für Aspose.BarCode für .NET?
- Sie können sich auf die Dokumentation beziehen[Hier](https://reference.aspose.com/barcode/net/) Ausführliche Informationen und Beispiele zur Verwendung von Aspose.BarCode finden Sie hier.
+### Wo finde ich umfassende Dokumentation für Aspose.BarCode für .NET?
+Die Dokumentation finden Sie [hier](https://reference.aspose.com/barcode/net/), wo detaillierte Informationen und Beispiele zur Verwendung von Aspose.BarCode bereitgestellt werden.
 
 ### Gibt es eine kostenlose Testversion von Aspose.BarCode?
-Ja, Sie können auf eine kostenlose Testversion von Aspose.BarCode für .NET zugreifen unter[Hier](https://releases.aspose.com/).
+Ja, Sie können eine kostenlose Testversion von Aspose.BarCode für .NET unter [diesem Link](https://releases.aspose.com/) herunterladen.
+
+Wenn Sie Fragen haben oder während der Implementierung auf Probleme stoßen, wenden Sie sich gerne an die Aspose.BarCode‑Community in ihrem [Support‑Forum](https://forum.aspose.com/c/barcode/13).
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-20  
+**Getestet mit:** Aspose.BarCode 24.11 für .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

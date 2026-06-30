@@ -1,120 +1,141 @@
 ---
-title: Tạo loại đường viền mã vạch ITF-14
-linktitle: Tạo loại đường viền mã vạch ITF-14
-second_title: API Aspose.BarCode .NET
-description: Tìm hiểu cách tạo mã vạch ITF-14 với các loại đường viền khác nhau bằng Aspose.BarCode cho .NET. Tùy chỉnh bao bì và ghi nhãn của bạn một cách dễ dàng.
-weight: 11
+date: 2026-02-20
+description: Tìm hiểu cách thay đổi viền của mã vạch ITF-14 bằng Aspose.BarCode cho
+  .NET. Hướng dẫn này bao gồm việc tạo mã vạch bằng C# và cung cấp các ví dụ thực
+  tế.
+linktitle: ITF-14 Barcode Border Type Generation
+second_title: Aspose.BarCode .NET API
+title: Cách Thay Đổi Viền – Tạo Kiểu Viền Mã Vạch ITF-14
 url: /vi/net/itf-14-barcode-customization/itf-14-barcode-border-type-generation/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo loại đường viền mã vạch ITF-14
+# Cách Thay Đổi Viền – Tạo Kiểu Viền Mã Vạch ITF-14
 
+Trong hướng dẫn này, bạn sẽ khám phá **cách thay đổi viền** cho mã vạch ITF-14 bằng Aspose.BarCode cho .NET. Cho dù bạn đang xây dựng hệ thống đóng gói‑nhãn mác hoặc cần đáp ứng các tiêu chuẩn in ấn cụ thể, việc kiểm soát kiểu viền là rất quan trọng. Chúng tôi sẽ hướng dẫn qua một ví dụ đầy đủ, có thể chạy được, cho thấy **việc tạo mã vạch bằng C#**, để bạn có thể tạo mã vạch ITF-14 chính xác như mong muốn.
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo mã vạch ITF-14 với các loại đường viền khác nhau bằng Aspose.BarCode cho .NET. Aspose.BarCode là một thư viện mạnh mẽ cho phép bạn tạo, thao tác và nhận dạng mã vạch ở nhiều định dạng khác nhau. Trong ví dụ cụ thể này, chúng tôi sẽ tập trung vào mã vạch ITF-14 và cách kiểm soát các loại đường viền của chúng. Mã vạch ITF-14 thường được sử dụng cho mục đích đóng gói và dán nhãn.
+## Câu trả lời nhanh
+- **“border type” ảnh hưởng như thế nào?** Nó xác định mã vạch sẽ được vẽ không viền, một thanh đơn giản, một thanh bên ngoài, một khung, hoặc một khung có thanh bên ngoài.  
+- **Thư viện nào được sử dụng?** Aspose.BarCode cho .NET.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể chạy trên .NET Core không?** Có, API tương thích với .NET Core, .NET 5+ và .NET 6+.  
+- **Có bao nhiêu dòng mã?** Ít hơn 20 dòng để tạo ra tất cả năm biến thể viền.
 
-## Điều kiện tiên quyết
+## “Cách thay đổi viền” là gì trong ngữ cảnh mã vạch ITF-14?
+Thay đổi viền có nghĩa là chọn một trong các tùy chọn `ITF14BorderType` (`None`, `Bar`, `BarOut`, `Frame`, `FrameOut`). Mỗi tùy chọn sẽ thay đổi khung hình ảnh của mã vạch, điều này có thể quan trọng đối với khả năng đọc của máy quét và yêu cầu thẩm mỹ.
 
-Trước khi chúng ta đi sâu vào quy trình tạo mã vạch, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Tại sao nên sử dụng Aspose.BarCode để tạo mã vạch bằng C#?
+Aspose.BarCode cung cấp một bộ tính năng tùy chỉnh phong phú—màu sắc, kích thước, phông chữ và các kiểu viền mà chúng ta sẽ khám phá—trong khi giữ API đơn giản. Điều này làm cho nó trở thành lựa chọn lý tưởng cho các nhà phát triển cần **tạo hình ảnh mã vạch ITF-14** nhanh chóng và đáng tin cậy.
 
-1.  Aspose.BarCode for .NET: Bạn cần cài đặt Aspose.BarCode for .NET. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/barcode/net/).
+## Yêu cầu trước
 
-2. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển, có thể là dự án .NET trong IDE ưa thích của bạn.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-3. Kiến thức cơ bản về C#: Làm quen với ngôn ngữ lập trình C# sẽ có ích cho hướng dẫn này.
-
-4.  Đường dẫn thư mục của bạn: Thay thế`"Your Directory Path"` trong mã có đường dẫn thực tế mà bạn muốn lưu hình ảnh mã vạch đã tạo.
+1. **Aspose.BarCode cho .NET** – tải xuống từ [trang web](https://releases.aspose.com/barcode/net/).  
+2. Môi trường phát triển .NET (Visual Studio, Rider, hoặc VS Code).  
+3. Kiến thức cơ bản về cú pháp **C#**.  
+4. Đường dẫn thư mục hợp lệ nơi các tệp PNG được tạo sẽ được lưu – thay thế `"Your Directory Path"` trong mã bằng vị trí của bạn.
 
 ## Nhập không gian tên
 
-Để bắt đầu, hãy nhập các không gian tên cần thiết để làm việc với Aspose.BarCode:
+Đầu tiên, đưa không gian tên cần thiết vào phạm vi:
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-## Bước 1: Tạo một phiên bản của BarcodeGenerator
+## Hướng dẫn từng bước
 
- Bước đầu tiên là tạo một thể hiện của`BarcodeGenerator` cho mã vạch ITF-14. Bạn cũng cần chỉ định dữ liệu cần mã hóa, trong trường hợp này là "12345678901231".
+### Bước 1: Tạo một thể hiện `BarcodeGenerator` (tạo mã vạch itf-14)
+
+Chúng ta bắt đầu bằng cách khởi tạo bộ tạo với ký hiệu ITF‑14 và dữ liệu cần mã hoá:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
 ```
 
-## Bước 2: Đặt kích thước X cho mã vạch
+### Bước 2: Đặt X‑Dimension (điều khiển độ rộng thanh)
 
-Kích thước X thể hiện chiều rộng của các thanh mã vạch. Bạn có thể đặt Kích thước X tính bằng pixel như sau:
+X‑Dimension xác định độ rộng của mỗi thanh mã vạch. Giá trị 2 pixel hoạt động tốt cho hầu hết các máy in nhãn:
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## Bước 3: Tạo mã vạch ITF-14 với các loại đường viền khác nhau
+### Bước 3: Tạo mã vạch ITF‑14 với các kiểu viền khác nhau
 
-Aspose.BarCode cho phép bạn chọn từ một số loại đường viền cho mã vạch ITF-14. Chúng tôi sẽ tạo mã vạch cho từng loại sau:
+Dưới đây là năm **ví dụ mã vạch ITF‑14** minh họa **cách thay đổi viền**. Mỗi đoạn mã sử dụng lại cùng một thể hiện `BarcodeGenerator`, chỉ thay đổi thuộc tính `ItfBorderType`.
 
-### Loại đường viền ITF: Không có
+#### Kiểu Viền ITF: None  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.None;
 gen.Save($"{path}ITF14BorderNone.png", BarCodeImageFormat.Png);
 ```
 
-### Loại đường viền ITF: Thanh
+#### Kiểu Viền ITF: Bar  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Bar;
 gen.Save($"{path}ITF14BorderBar.png", BarCodeImageFormat.Png);
 ```
 
-### Loại đường viền ITF: BarOut
+#### Kiểu Viền ITF: BarOut  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.BarOut;
 gen.Save($"{path}ITF14BorderBarOut.png", BarCodeImageFormat.Png);
 ```
 
-### Loại đường viền ITF: Khung
+#### Kiểu Viền ITF: Frame  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Frame;
 gen.Save($"{path}ITF14BorderFrame.png", BarCodeImageFormat.Png);
 ```
 
-### Loại đường viền ITF: FrameOut
+#### Kiểu Viền ITF: FrameOut  
 
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.FrameOut;
 gen.Save($"{path}ITF14BorderFrameOut.png", BarCodeImageFormat.Png);
 ```
 
-## Phần kết luận
+Mỗi lệnh `Save` sẽ ghi một hình ảnh PNG vào thư mục bạn đã chỉ định, cung cấp cho bạn tham chiếu hình ảnh cho mỗi tùy chọn viền.
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách tạo mã vạch ITF-14 với các loại đường viền khác nhau bằng Aspose.BarCode cho .NET. Bằng cách làm theo các bước được cung cấp, bạn có thể tạo mã vạch tùy chỉnh cho nhu cầu đóng gói và ghi nhãn của mình.
+## Vấn đề thường gặp & Mẹo
 
-Aspose.BarCode for .NET cung cấp nhiều tính năng và tùy chọn tùy chỉnh để tạo mã vạch, khiến nó trở thành một công cụ có giá trị cho các nhà phát triển trong các ngành khác nhau.
+- **Định dạng đường dẫn** – Đảm bảo biến `path` kết thúc bằng dấu gạch chéo ngược (`\`) trên Windows hoặc dấu gạch chéo (`/`) trên Linux/macOS.  
+- **Ngoại lệ giấy phép** – Nếu chạy mã mà không có giấy phép, một dấu watermark nhỏ sẽ xuất hiện trên các hình ảnh được tạo.  
+- **Tương thích máy quét** – Một số máy quét bỏ qua viền bên ngoài; hãy thử nghiệm với phần cứng của bạn để quyết định kiểu viền nào hoạt động tốt nhất.  
+- **Mẹo chuyên nghiệp:** Bạn có thể chuỗi nhiều thay đổi thuộc tính (màu sắc, văn bản, v.v.) trước khi gọi `Save` để tạo mã vạch hoàn toàn tùy chỉnh trong một bước duy nhất.
 
- Nếu bạn có bất kỳ câu hỏi nào hoặc gặp phải vấn đề trong quá trình triển khai, vui lòng liên hệ với cộng đồng Aspose.BarCode trên trang web của họ.[diễn đàn hỗ trợ](https://forum.aspose.com/c/barcode/13).
+## Câu hỏi thường gặp
 
-## Các câu hỏi thường gặp
-
-### Mã vạch ITF-14 dùng để làm gì?
-Mã vạch ITF-14 chủ yếu được sử dụng để đóng gói và dán nhãn sản phẩm trong ngành bán lẻ. Chúng mã hóa thông tin như GTIN (Mã số thương phẩm toàn cầu) của sản phẩm và thường thấy trên thùng carton và pallet.
+### ITF-14 barcode được dùng để làm gì?
+Mã vạch ITF-14 chủ yếu được sử dụng cho việc đóng gói và dán nhãn sản phẩm trong ngành bán lẻ. Chúng mã hoá thông tin như GTIN (Global Trade Item Number) của sản phẩm và thường xuất hiện trên thùng carton và pallet.
 
 ### Tôi có thể tùy chỉnh giao diện của mã vạch ITF-14 bằng Aspose.BarCode không?
-Có, Aspose.BarCode cung cấp các tùy chọn tùy chỉnh mở rộng, bao gồm khả năng thay đổi loại đường viền, màu sắc của mã vạch và nhiều khía cạnh trực quan khác.
+Có, Aspose.BarCode cung cấp các tùy chọn tùy chỉnh rộng rãi, bao gồm khả năng thay đổi kiểu viền, màu sắc và nhiều khía cạnh hình ảnh khác của mã vạch.
 
-### Aspose.BarCode có tương thích với các khung .NET khác không?
-Có, Aspose.BarCode cho .NET tương thích với nhiều khung .NET khác nhau, bao gồm .NET Core và .NET Standard, ngoài .NET Framework truyền thống.
+### Aspose.BarCode có tương thích với các framework .NET khác không?
+Có, Aspose.BarCode cho .NET tương thích với nhiều framework .NET, bao gồm .NET Core và .NET Standard, bên cạnh .NET Framework truyền thống.
 
-### Tôi có thể tìm tài liệu toàn diện về Aspose.BarCode cho .NET ở đâu?
- Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/barcode/net/) để biết thông tin chi tiết và ví dụ về cách sử dụng Aspose.BarCode.
+### Tôi có thể tìm tài liệu chi tiết cho Aspose.BarCode cho .NET ở đâu?
+Bạn có thể tham khảo tài liệu [tại đây](https://reference.aspose.com/barcode/net/) để biết thông tin chi tiết và các ví dụ về việc sử dụng Aspose.BarCode.
 
 ### Có phiên bản dùng thử miễn phí của Aspose.BarCode không?
-Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.BarCode cho .NET từ[đây](https://releases.aspose.com/).
+Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.BarCode cho .NET từ [đây](https://releases.aspose.com/).
+
+Nếu bạn có bất kỳ câu hỏi nào hoặc gặp vấn đề trong quá trình triển khai, hãy thoải mái liên hệ với cộng đồng Aspose.BarCode trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/barcode/13) của họ.
+
+**Cập nhật lần cuối:** 2026-02-20  
+**Kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
