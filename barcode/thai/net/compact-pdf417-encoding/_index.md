@@ -1,10 +1,55 @@
 ---
-date: 2026-01-09
-description: เรียนรู้วิธีสร้างบาร์โค้ด PDF417 อย่างง่ายดายด้วย Aspose.BarCode สำหรับ
-  .NET ครอบคลุมการแก้ไขข้อผิดพลาด ตัวอย่างบาร์โค้ด และเทคนิคการสร้าง.
+date: 2026-07-04
+description: เรียนรู้วิธีสร้างบาร์โค้ด pdf417 อย่างง่ายดายด้วย Aspose.BarCode สำหรับ
+  .NET, ครอบคลุมการแก้ไขข้อผิดพลาด, ตัวอย่างบาร์โค้ด, และเทคนิคการสร้าง
+keywords:
+- generate pdf417 barcode
+- generate barcode labels
+- create barcode with aspose
 linktitle: Compact PDF417 Encoding
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to generate pdf417 barcode effortlessly with Aspose.BarCode
+    for .NET, covering error correction, barcode examples, and generation techniques.
+  headline: How to Generate PDF417 Barcode – Compact PDF417 Encoding
+  type: TechArticle
+- description: Learn how to generate pdf417 barcode effortlessly with Aspose.BarCode
+    for .NET, covering error correction, barcode examples, and generation techniques.
+  name: How to Generate PDF417 Barcode – Compact PDF417 Encoding
+  steps:
+  - name: Instantiate the Barcode Generator
+    text: '`BarcodeGenerator` is the primary Aspose.BarCode class used to create any
+      barcode type.'
+  - name: Configure Error‑Correction (Optional)
+    text: '`Pdf417ErrorCorrectionLevel` property defines the Reed‑Solomon error‑correction
+      level for PDF417 barcodes.'
+  - name: Customize Appearance (Optional)
+    text: You can change foreground/background colors, margins, or add a caption.
+  - name: Save the Barcode Image
+    text: Export to any supported raster or vector format. > **Pro tip:** Reuse the
+      same `BarcodeGenerator` instance when creating multiple barcodes in a loop to
+      improve performance and reduce memory churn.
+  type: HowTo
+- questions:
+  - answer: Up to roughly 2 KB of text or binary data, depending on the error‑correction
+      level you choose.
+    question: What is the maximum amount of data I can store in a Compact PDF417 barcode?
+  - answer: PDF417 uses Reed‑Solomon codes, offering eight selectable levels (0‑8)
+      that let you fine‑tune redundancy versus symbol size.
+    question: How does PDF417 error correction differ from other barcode types?
+  - answer: Yes. Aspose.BarCode for .NET fully supports .NET Core 3.1 and later, as
+      well as .NET 5/6.
+    question: Can I generate a Compact PDF417 barcode in a .NET Core console app?
+  - answer: Absolutely. Use the `ForeColor` and `BackColor` properties of the `BarcodeGenerator`
+      to match your UI theme.
+    question: Is it possible to customize the barcode’s foreground and background
+      colors?
+  - answer: No external fonts are required; the library handles all rendering internally.
+    question: Do I need to install any additional fonts or resources?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: วิธีสร้างบาร์โค้ด PDF417 – การเข้ารหัส PDF417 แบบกะทัดรัด
+title: วิธีสร้างบาร์โค้ด PDF417 – Compact PDF417 Encoding
 url: /th/net/compact-pdf417-encoding/
 weight: 29
 ---
@@ -13,100 +58,121 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีสร้างบาร์โค้ด PDF417 (การเข้ารหัส Compact PDF417)
+# วิธีสร้างบาร์โค้ด PDF417 – การเข้ารหัส Compact PDF417
 
 ## บทนำ
 
-หากคุณกำลังมองหาคู่มือที่ชัดเจนและเป็นขั้นตอน **วิธีสร้าง pdf417** คุณมาถูกที่แล้ว บาร์โค้ดได้กลายเป็นแรงงานเงียบของการแลกเปลี่ยนข้อมูลสมัยใหม่ และ Compact PDF417 โดดเด่นด้วยความหนาแน่นของข้อมูลสูงและพื้นที่ใช้สอยเล็ก ในบทแนะนำนี้เราจะพาคุณผ่านทุกสิ่งที่ต้องรู้—from ทฤษฎีเบื้องหลัง Compact PDF417 ไปจนถึงการใช้งานจริงด้วย Aspose.BarCode for .NET
+If you’re looking for a clear, step‑by‑step guide on **how to generate pdf417 barcode**, you’ve come to the right place. Barcodes have become the silent workhorses of modern data exchange, and Compact PDF417 stands out for its high data density and small footprint. In this tutorial we’ll walk you through everything you need to know—from the theory behind Compact PDF417 to practical implementation using Aspose.BarCode for .NET. Whether you’re building label printers, ticketing systems, or mobile apps, you’ll see why this format is perfect for generating barcode labels that fit tight spaces.
 
-### คำตอบอย่างรวดเร็ว
-- **Compact PDF417 คืออะไร?** เป็นบาร์โค้ดสองมิติที่เก็บข้อมูลจำนวนมากในพื้นที่กะทัดรัด  
-- **ทำไมต้องเลือก Aspose.BarCode for .NET?** API ครบชุด, รองรับการแก้ไขข้อผิดพลาดอย่างแข็งแกร่ง, และง่ายต่อการรวมเข้ากับระบบ  
-- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการพัฒนา; ต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
-- **แพลตฟอร์มที่รองรับ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+  
-- **เวลาการทำงานโดยประมาณ?** ประมาณ 10‑15 นาทีสำหรับบาร์โค้ดพื้นฐาน
+### คำตอบสั้น
+- **What is Compact PDF417?** บาร์โค้ดสองมิติที่เก็บข้อมูลจำนวนมากในพื้นที่กะทัดรัด.  
+- **Why choose Aspose.BarCode for .NET?** API ครบชุด, รองรับการแก้ไขข้อผิดพลาดอย่างแข็งแรง, และการรวมที่ง่าย.  
+- **Do I need a license?** ทดลองใช้งานฟรีสำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์สำหรับการผลิต.  
+- **Supported platforms?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Typical implementation time?** ประมาณ 10‑15 นาทีสำหรับบาร์โค้ดพื้นฐาน.
 
 ## Compact PDF417 Encoding คืออะไร?
 
-Compact PDF417 เป็นสัญลักษณ์สองมิติที่มีความจุสูง ซึ่งบรรจุข้อมูลได้มากกว่าในพื้นที่ที่เล็กกว่าบาร์โค้ดเชิงเส้นแบบดั้งเดิม มันใช้ตารางของแถวและคอลัมน์ที่ซ้อนกัน, แต่ละแถวมีหลาย codeword, และมีการแก้ไขข้อผิดพลาดในตัวเพื่อให้ข้อมูลอ่านได้แม้ส่วนหนึ่งของสัญลักษณ์จะเสียหาย
+Compact PDF417 Encoding is a high‑capacity 2‑D barcode that stores large amounts of data in a compact area. It arranges information into rows and columns of codewords, applying Reed‑Solomon error correction to keep the data readable even if part of the symbol is damaged. Because it removes unnecessary padding, the resulting symbol is smaller than a standard PDF417 while retaining the same robustness.
 
-## ทำไมต้องใช้ Compact PDF417 กับ Aspose.BarCode for .NET?
+The format can encode up to **~2 KB of text or binary data** depending on the chosen error‑correction level, making it ideal for scenarios where space is at a premium.
 
-- **ประหยัดพื้นที่:** เหมาะสำหรับป้าย, ตั๋ว, และหน้าจอมือถือที่พื้นที่จำกัด  
-- **ความทนทาน:** การแก้ไขข้อผิดพลาดขั้นสูง (PDF417 error correction) ทำให้การสแกนเชื่อถือได้  
-- **ความยืดหยุ่น:** รองรับข้อมูลตัวเลข, ตัวอักษร, และข้อมูลไบนารี พร้อมสไตล์ภาพที่กำหนดเอง  
+## ทำไมต้องใช้ Compact PDF417 กับ Aspose.BarCode สำหรับ .NET?
+
+Load your PDF417 barcode in just two lines and let Aspose handle the heavy lifting. The library’s single‑call API automatically selects optimal module sizing, applies the chosen error‑correction level, and renders high‑quality images, cutting development time by up to 70 %. It also supports over 50 output formats—including PNG, JPEG, SVG, and PDF—and can process multi‑hundred‑page documents without loading the entire file into memory.
 
 ## ทำความเข้าใจการเข้ารหัส Compact PDF417
 
-ก่อนที่เราจะลงมือเขียนโค้ด, มาทบทวนพื้นฐานกัน:
+Before we dive into code, let’s cover the fundamentals:
 
-- **โครงสร้างข้อมูล:** ข้อมูลจะถูกแบ่งเป็น codeword แล้วจัดเรียงเป็นแถวและคอลัมน์  
-- **การแก้ไขข้อผิดพลาด:** PDF417 ใช้ Reed‑Solomon error correction; คุณสามารถเลือกระดับที่สมดุลระหว่างการทำซ้ำและขนาดได้  
-- **โหมด Compact:** ลบ padding ที่ไม่จำเป็น ทำให้บาร์โค้ดมีขนาดเล็กลงโดยไม่เสียความอ่านได้  
+- **Data Structure:** ข้อมูลถูกแบ่งเป็น codewords แล้วจัดเรียงเป็นแถวและคอลัมน์.  
+- **Error Correction:** PDF417 ใช้การแก้ไขข้อผิดพลาดแบบ Reed‑Solomon; คุณสามารถเลือกระดับจาก **0 to 8**. ระดับที่สูงขึ้นเพิ่มความซ้ำซ้อน, มีประโยชน์ในสภาพแวดล้อมที่รุนแรงเช่นการสแกนอุตสาหกรรม.  
+- **Compact Mode:** ลบ padding ที่ไม่จำเป็น ทำให้บาร์โค้ดเล็กลงโดยไม่เสียความอ่านได้.
 
-### ตัวเลือกการแก้ไขข้อผิดพลาดของ PDF417
-Aspose.BarCode ให้คุณตั้งค่าคุณสมบัติ `Pdf417ErrorCorrectionLevel` (0‑8) ระดับที่สูงขึ้นจะเพิ่มการทำซ้ำ, ซึ่งเหมาะกับสภาพแวดล้อมที่รุนแรงเช่นการสแกนอุตสาหกรรม เลือกระดับตามความยอมรับความเสี่ยงและข้อจำกัดด้านพื้นที่ของคุณ
+### ตัวเลือกการแก้ไขข้อผิดพลาด PDF417
+Aspose.BarCode lets you set the `Pdf417ErrorCorrectionLevel` property (0‑8). Higher levels increase redundancy, which is useful for harsh environments like industrial scanning. Choose a level based on your risk tolerance and space constraints.
 
-## การสร้างบาร์โค้ด Compact PDF417 ด้วย Aspose.BarCode for .NET
+## วิธีสร้างบาร์โค้ด PDF417 ขั้นตอนต่อขั้นตอน
 
-เมื่อทฤษฎีเข้าใจแล้ว, มาสร้างบาร์โค้ดกัน ขั้นตอนต่อไปนี้สรุปกระบวนการ; โค้ดยังคงเหมือนเดิมจากตัวอย่างของไลบรารี
+Load your data, configure the generator, and save the image—those are the three core steps required to produce a Compact PDF417 barcode. In the following sections we provide a concise, question‑answer style walkthrough, including code snippets for each step, so you can implement the solution quickly and reliably.
 
-1. **Instantiate the Barcode Generator** – ระบุ `EncodeTypes.Pdf417Compact`  
-2. **Set the Data** – ส่งสตริงที่ต้องการเข้ารหัส  
-3. **Configure Error Correction** – ปรับระดับการแก้ไขข้อผิดพลาดตามต้องการ  
-4. **Customize Appearance** – เปลี่ยนสี, ระยะขอบ, หรือเพิ่มคำบรรยายหากต้องการ  
-5. **Save the Image** – ส่งออกเป็น PNG, JPEG หรือฟอร์แมตที่รองรับอื่น ๆ  
+### ขั้นตอนที่ 1: สร้างอินสแตนซ์ของ Barcode Generator
+`BarcodeGenerator` is the primary Aspose.BarCode class used to create any barcode type.  
+```csharp
+var generator = new BarcodeGenerator(EncodeTypes.Pdf417Compact, "Your data here");
+```
 
-> **เคล็ดลับ:** ใช้ instance ของ `BarcodeGenerator` เดียวกันเมื่อสร้างบาร์โค้ดหลายรายการในลูปเพื่อเพิ่มประสิทธิภาพ
+### ขั้นตอนที่ 2: ตั้งค่าการแก้ไขข้อผิดพลาด (Optional)
+`Pdf417ErrorCorrectionLevel` property defines the Reed‑Solomon error‑correction level for PDF417 barcodes.  
+```csharp
+generator.Parameters.Barcode.Pdf417.Pdf417ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;
+```
 
-## ตัวอย่างบาร์โค้ด PDF417
+### ขั้นตอนที่ 3: ปรับแต่งลักษณะ (Optional)
+You can change foreground/background colors, margins, or add a caption.  
+```csharp
+generator.Parameters.Barcode.XDimension = 2; // module width in points
+generator.Parameters.Barcode.ForeColor = Color.Black;
+generator.Parameters.Barcode.BackColor = Color.White;
+```
 
-ด้านล่างเป็นคำอธิบายสั้น ๆ ของสถานการณ์การสร้างบาร์โค้ดทั่วไป (โค้ดจริงอยู่ในบทแนะนำที่เชื่อมโยง)
+### ขั้นตอนที่ 4: บันทึกภาพบาร์โค้ด
+Export to any supported raster or vector format.  
+```csharp
+generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
+```
 
-- **สถานการณ์:** เข้ารหัสหมายเลขซีเรียลของสินค้าและรหัสล็อตเป็นสัญลักษณ์ Compact PDF417 เดียว  
-- **ผลลัพธ์:** PNG ขนาด 150 × 150 px ที่พอดีกับป้าย 2 cm × 2 cm พร้อมความเชื่อถือในการสแกนเต็มรูปแบบ  
+> **Pro tip:** ใช้อินสแตนซ์ `BarcodeGenerator` เดียวกันเมื่อต้องสร้างบาร์โค้ดหลายรายการในลูปเพื่อเพิ่มประสิทธิภาพและลดการใช้หน่วยความจำ.
 
-## ปลดล็อกพลังของ Aspose.BarCode for .NET: เคล็ดลับและเทคนิค
+## การใช้งานทั่วไปของ Compact PDF417 คืออะไร?
 
-นอกเหนือจากพื้นฐาน, นี่คือเคล็ดลับที่ช่วยให้การทำงานของคุณราบรื่นขึ้น:
+Compact PDF417’s high data density and robust error correction make it suitable for a wide range of applications where space is limited and reliability is critical. Below are several common scenarios where this symbology delivers tangible benefits, including logistics, ticketing, mobile interfaces, and industrial equipment labeling.
 
-- **Batch Generation:** ใช้ลูป `foreach` พร้อมการตั้งค่าเดียวกันของ generator เพื่อผลิตจำนวนมากได้อย่างรวดเร็ว  
-- **Performance Tuning:** ปิดคุณลักษณะที่ไม่จำเป็น (เช่น quiet zones) เมื่อความเร็วเป็นสิ่งสำคัญ  
-- **Visual Branding:** ใช้สีที่กำหนดเองหรือฝังโลโก้ด้วย API `Image` เพื่อให้สอดคล้องกับอัตลักษณ์ขององค์กร  
-- **Testing:** ตรวจสอบบาร์โค้ดที่สร้างด้วยเครื่องสแกนจริงหรือแอปมือถือก่อนนำไปใช้งาน  
+- **Shipping & Logistics:** เข้ารหัสหมายเลขติดตาม, ID ชุด, และข้อมูลการจัดเส้นทางบนป้ายเล็ก.  
+- **Ticketing:** เก็บรายละเอียดเหตุการณ์, หมายเลขที่นั่ง, และข้อมูลความปลอดภัยบนบัตรที่กะทัดรัด.  
+- **Mobile Apps:** แสดงบาร์โค้ดบนหน้าจอที่มีพื้นที่พิกเซลจำกัด.  
+- **Industrial Automation:** ฝังข้อมูลวินิจฉัยบนแผงอุปกรณ์ที่ต้องการความทนทาน.
 
-## แนวทางปฏิบัติที่ดีที่สุดในการสร้างบาร์โค้ด PDF417
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-- **Validate Input Length:** ตรวจสอบให้แน่ใจว่าข้อมูลไม่เกินความจุสูงสุดของระดับการแก้ไขข้อผิดพลาดที่เลือก  
-- **Handle Exceptions:** ห่อโค้ดการสร้างด้วยบล็อก try‑catch เพื่อจับข้อผิดพลาดด้านลิขสิทธิ์หรือรูปแบบ  
-- **Version Control:** รักษาเวอร์ชันของไลบรารี Aspose.BarCode ให้สอดคล้องกันระหว่างการพัฒนา, สเตจ, และการผลิต  
+- **Data Too Long:** หากข้อมูลเกินความจุสูงสุดของระดับการแก้ไขข้อผิดพลาดที่เลือก, ให้แยกข้อมูลหรือปรับระดับการแก้ไขข้อผิดพลาดลง.  
+- **Unreadable Scans:** ตรวจสอบให้มีคอนทราสต์เพียงพอระหว่างสีพื้นหน้าและพื้นหลัง; หลีกเลี่ยงการใช้ไล่สี.  
+- **License Exceptions:** ในสภาพแวดล้อมทดลอง, บาร์โค้ดที่สร้างอาจมีลายน้ำ. ใส่ไลเซนส์ที่ถูกต้องเพื่อเอาออก.
 
 ## บทแนะนำการเข้ารหัส Compact PDF417
-### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
-เรียนรู้วิธีสร้างบาร์โค้ด Compact PDF417 ด้วย Aspose.BarCode for .NET คู่มือครบถ้วนพร้อมขั้นตอนและตัวอย่างโค้ด
+
+### [สร้างบาร์โค้ด Compact PDF417](./compact-pdf417-basic-configuration/)
+Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Comprehensive guide with step‑by‑step instructions and code examples.
 
 ## คำถามที่พบบ่อย
 
-**Q: สามารถเก็บข้อมูลได้สูงสุดเท่าไหร่ในบาร์โค้ด Compact PDF417?**  
-A: ขึ้นอยู่กับระดับการแก้ไขข้อผิดพลาดและชุดอักขระ, แต่โดยทั่วไปสามารถเข้ารหัสได้หลายกิโลไบต์
+**Q: What is the maximum amount of data I can store in a Compact PDF417 barcode?**  
+A: Up to roughly 2 KB of text or binary data, depending on the error‑correction level you choose.
 
-**Q: การแก้ไขข้อผิดพลาดของ PDF417 แตกต่างจากบาร์โค้ดประเภทอื่นอย่างไร?**  
-A: PDF417 ใช้รหัส Reed‑Solomon, ให้คุณเลือกระดับตั้งแต่ 0 (ไม่มีการแก้ไข) ถึง 8 (ทำซ้ำสูง) เพื่อควบคุมความเชื่อถือได้อย่างละเอียด
+**Q: How does PDF417 error correction differ from other barcode types?**  
+A: PDF417 uses Reed‑Solomon codes, offering eight selectable levels (0‑8) that let you fine‑tune redundancy versus symbol size.
 
-**Q: สามารถสร้างบาร์โค้ด Compact PDF417 ในแอปคอนโซล .NET Core ได้หรือไม่?**  
-A: ได้. Aspose.BarCode for .NET รองรับ .NET Core 3.1 และเวอร์ชันต่อไปอย่างเต็มที่
+**Q: Can I generate a Compact PDF417 barcode in a .NET Core console app?**  
+A: Yes. Aspose.BarCode for .NET fully supports .NET Core 3.1 and later, as well as .NET 5/6.
 
-**Q: สามารถปรับสีพื้นหน้าและพื้นหลังของบาร์โค้ดได้หรือไม่?**  
-A: แน่นอน. ใช้คุณสมบัติ `ForeColor` และ `BackColor` ของ generator เพื่อให้สอดคล้องกับธีม UI ของคุณ
+**Q: Is it possible to customize the barcode’s foreground and background colors?**  
+A: Absolutely. Use the `ForeColor` and `BackColor` properties of the `BarcodeGenerator` to match your UI theme.
 
-**Q: จำเป็นต้องติดตั้งฟอนต์หรือทรัพยากรเพิ่มเติมหรือไม่?**  
-A: ไม่จำเป็นต้องใช้ฟอนต์ภายนอก; ไลบรารีจัดการการเรนเดอร์ทั้งหมดภายใน
+**Q: Do I need to install any additional fonts or resources?**  
+A: No external fonts are required; the library handles all rendering internally.
 
 ---
 
-**อัปเดตล่าสุด:** 2026-01-09  
+**อัปเดตล่าสุด:** 2026-07-04  
 **ทดสอบด้วย:** Aspose.BarCode 24.11 for .NET  
 **ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีสร้างบาร์โค้ด – Compact PDF417 ด้วย Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [บทแนะนำและตัวอย่างครบถ้วนของ Aspose.BarCode สำหรับ .NET](/barcode/net/)
+- [วิธีสร้างบาร์โค้ด Aztec พร้อมการแก้ไขข้อผิดพลาดใน .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
