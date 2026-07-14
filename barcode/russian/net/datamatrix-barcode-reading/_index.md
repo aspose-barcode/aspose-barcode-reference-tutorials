@@ -57,13 +57,6 @@ weight: 31
 ### [Генерация штрихкодов DataMatrix](./datamatrix-versions/)
 Узнайте, как генерировать штрихкоды DataMatrix в .NET с помощью Aspose.BarCode for .NET. Пользовательские размеры, поддержка ECC и многое другое.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я использовать Aspose.BarCode в коммерческих проектах?**  
@@ -86,3 +79,10 @@ A: Да — используйте `BarcodeReader` с параметром `Read
 **Последнее обновление:** 2026-01-17  
 **Тестировано с:** Aspose.BarCode for .NET 24.12  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

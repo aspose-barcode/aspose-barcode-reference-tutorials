@@ -57,32 +57,32 @@ Aprende a crear y leer la configuración de Structured Append de DataMatrix en .
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 Aprende a generar códigos de barras DataMatrix en .NET usando Aspose.BarCode for .NET. Dimensiones personalizadas, soporte ECC y más.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Preguntas frecuentes
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**P: ¿Puedo usar Aspose.BarCode para proyectos comerciales?**
+R: Sí. Se requiere una licencia comercial válida para su uso en producción, pero hay una versión de prueba gratuita disponible para su evaluación.
 
-{{< blocks/products/products-backtop-button >}}
+**P: ¿La biblioteca admite la lectura de DataMatrix desde archivos PDF?**
+R: Por supuesto. Puede cargar una página PDF como un flujo de imágenes y enviarla directamente al lector de códigos de barras.
 
-## Frequently Asked Questions
+**P: ¿Cómo gestiono la función Structured Append cuando un código de barras se divide en varias imágenes?**
+R: La API ensambla automáticamente los fragmentos si habilita la propiedad StructuredAppend antes de la decodificación.
 
-**Q: Can I use Aspose.BarCode for commercial projects?**  
-A: Yes. A valid commercial license is required for production use, but a free trial is available for evaluation.
+**P: ¿Qué niveles de corrección de errores están disponibles al generar un código de barras DataMatrix?**
+R: Puede elegir entre ECC 000, 050, 080, 100, 140 y 200, según la densidad de datos y la robustez requeridas.
 
-**Q: Does the library support reading DataMatrix from PDF files?**  
-A: Absolutely. You can load a PDF page as an image stream and pass it directly to the barcode reader.
-
-**Q: How do I handle Structured Append when a barcode is split across multiple images?**  
-A: The API automatically assembles the fragments if you enable the StructuredAppend property before decoding.
-
-**Q: What error‑correction levels are available when generating a DataMatrix barcode?**  
-A: You can choose from ECC 000, 050, 080, 100, 140, and 200 depending on the required data density and robustness.
-
-**Q: Is there a way to improve read performance on large image batches?**  
-A: Yes—use the `BarcodeReader` with `ReadMultipleBarcodes` set to `true` and process images in parallel threads.
+**P: ¿Existe alguna forma de mejorar el rendimiento de lectura en lotes grandes de imágenes?**
+R: Sí, utilice el `BarcodeReader` con `ReadMultipleBarcodes` establecido en `true` y procese las imágenes en hilos paralelos.
 
 ---
 
 **Last Updated:** 2026-01-17  
 **Tested With:** Aspose.BarCode for .NET 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

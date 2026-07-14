@@ -60,13 +60,6 @@ Pelajari cara membuat dan membaca konfigurasi structured append DataMatrix di .N
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 Pelajari cara menghasilkan kode bar DataMatrix di .NET menggunakan Aspose.BarCode untuk .NET. Dimensi khusus, dukungan ECC, dan lainnya.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.BarCode untuk proyek komersial?**  
@@ -89,3 +82,10 @@ A: Ya—gunakan `BarcodeReader` dengan `ReadMultipleBarcodes` diset ke `true` da
 **Terakhir Diperbarui:** 2026-01-17  
 **Diuji Dengan:** Aspose.BarCode untuk .NET 24.12  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

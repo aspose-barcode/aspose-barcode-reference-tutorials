@@ -60,13 +60,6 @@ Tìm hiểu cách tạo và đọc cấu hình structured append của DataMatri
 ### [Tạo Mã Vạch DataMatrix](./datamatrix-versions/)
 Học cách tạo mã vạch DataMatrix trong .NET bằng Aspose.BarCode cho .NET. Kích thước tùy chỉnh, hỗ trợ ECC và nhiều hơn nữa.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
 **Q: Tôi có thể sử dụng Aspose.BarCode cho các dự án thương mại không?**  
@@ -89,3 +82,10 @@ A: Có — sử dụng `BarcodeReader` với `ReadMultipleBarcodes` đặt thàn
 **Cập Nhật Cuối Cùng:** 2026-01-17  
 **Đã Kiểm Tra Với:** Aspose.BarCode cho .NET 24.12  
 **Tác Giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

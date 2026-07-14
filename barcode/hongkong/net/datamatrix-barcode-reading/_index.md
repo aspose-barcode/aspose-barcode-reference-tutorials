@@ -57,13 +57,6 @@ weight: 31
 ### [產生 DataMatrix 條碼](./datamatrix-versions/)
 了解如何使用 Aspose.BarCode for .NET 在 .NET 中產生 DataMatrix 條碼。自訂尺寸、ECC 支援等功能。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在商業專案中使用 Aspose.BarCode 嗎？**  
@@ -86,3 +79,10 @@ weight: 31
 **最後更新：** 2026-01-17  
 **測試環境：** Aspose.BarCode for .NET 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

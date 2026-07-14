@@ -60,13 +60,6 @@ Naučte se vytvářet a číst DataMatrix strukturované připojení v .NET pomo
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 Naučte se generovat DataMatrix čárové kódy v .NET pomocí Aspose.BarCode pro .NET. Vlastní rozměry, podpora ECC a další.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.BarCode pro komerční projekty?**  
@@ -89,3 +82,10 @@ A: Ano — použijte `BarcodeReader` s nastavením `ReadMultipleBarcodes` na
 **Poslední aktualizace:** 2026-01-17  
 **Testováno s:** Aspose.BarCode pro .NET 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -57,13 +57,6 @@ Lär dig hur du skapar och läser DataMatrix structured append‑konfiguration i
 ### [Generera DataMatrix‑streckkoder](./datamatrix-versions/)
 Lär dig hur du genererar DataMatrix‑streckkoder i .NET med Aspose.BarCode for .NET. Anpassade dimensioner, ECC‑stöd och mer.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.BarCode för kommersiella projekt?**  
@@ -86,3 +79,10 @@ A: Ja—använd `BarcodeReader` med `ReadMultipleBarcodes` satt till `true` och 
 **Last Updated:** 2026-01-17  
 **Tested With:** Aspose.BarCode for .NET 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

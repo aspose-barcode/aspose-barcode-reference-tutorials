@@ -60,13 +60,6 @@ weight: 31
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 Μάθετε πώς να δημιουργείτε barcode DataMatrix σε .NET χρησιμοποιώντας το Aspose.BarCode for .NET. Προσαρμοσμένες διαστάσεις, υποστήριξη ECC και πολλά άλλα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.BarCode για εμπορικά έργα;**  
@@ -89,3 +82,10 @@ A: Ναι—χρησιμοποιήστε το `BarcodeReader` με την ιδι
 **Τελευταία Ενημέρωση:** 2026-01-17  
 **Δοκιμασμένο Με:** Aspose.BarCode for .NET 24.12  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

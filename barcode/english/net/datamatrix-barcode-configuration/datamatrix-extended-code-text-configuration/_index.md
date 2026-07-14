@@ -1,5 +1,5 @@
 ---
-title: Create barcode aspose .net: Configuring DataMatrix Code Text
+title: Create barcode aspose .net - Configuring DataMatrix Code Text
 linktitle: DataMatrix Extended Code Text Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to create barcode aspose .net and configure DataMatrix extended code text using Aspose.BarCode for .NET.

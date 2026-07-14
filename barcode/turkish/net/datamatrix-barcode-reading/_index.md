@@ -60,13 +60,6 @@ Aspose.BarCode kullanarak .NET'te DataMatrix structured append yapılandırması
 ### [DataMatrix Barkodları Oluşturma](./datamatrix-versions/)
 Aspose.BarCode for .NET ile .NET'te DataMatrix barkodları üretmeyi öğrenin. Özel boyutlar, ECC desteği ve daha fazlası.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.BarCode’u ticari projelerde kullanabilir miyim?**  
@@ -89,3 +82,10 @@ C: Evet—`BarcodeReader`ı `ReadMultipleBarcodes` özelliği `true` olarak ayar
 **Son Güncelleme:** 2026-01-17  
 **Test Edilen Versiyon:** Aspose.BarCode for .NET 24.12  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

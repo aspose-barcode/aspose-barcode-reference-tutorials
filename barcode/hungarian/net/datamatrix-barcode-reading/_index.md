@@ -57,13 +57,6 @@ Tanulja meg, hogyan hozhat létre és olvashat DataMatrix structured append konf
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 Tanulja meg, hogyan generáljon DataMatrix vonalkódokat .NET‑ben az Aspose.BarCode for .NET használatával. Egyedi méretek, ECC‑támogatás és egyebek.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **K: Használhatom az Aspose.BarCode‑ot kereskedelmi projektekben?**  
@@ -86,3 +79,10 @@ V: Igen—használja a `BarcodeReader`‑t a `ReadMultipleBarcodes` beállítás
 **Utoljára frissítve:** 2026-01-17  
 **Tesztelve:** Aspose.BarCode for .NET 24.12  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

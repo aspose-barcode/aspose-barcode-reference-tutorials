@@ -59,13 +59,6 @@ Aspose.BarCode का उपयोग करके .NET में DataMatrix str
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 Aspose.BarCode for .NET का उपयोग करके .NET में DataMatrix बारकोड जनरेट करना सीखें। कस्टम आयाम, ECC समर्थन, और अधिक।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.BarCode को वाणिज्यिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
@@ -86,3 +79,10 @@ A: हाँ—`BarcodeReader` को `ReadMultipleBarcodes` को `true` स�
 **अंतिम अपडेट:** 2026-01-17  
 **परीक्षित संस्करण:** Aspose.BarCode for .NET 24.12  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

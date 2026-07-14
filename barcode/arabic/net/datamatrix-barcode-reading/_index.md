@@ -59,12 +59,6 @@ weight: 31
 ### [Generate DataMatrix Barcodes](./datamatrix-versions/)
 تعلم كيفية إنشاء رموز DataMatrix في .NET باستخدام Aspose.BarCode for .NET. أبعاد مخصصة، دعم ECC، وأكثر.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -88,3 +82,10 @@ weight: 31
 **آخر تحديث:** 2026-01-17  
 **تم الاختبار مع:** Aspose.BarCode for .NET 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
