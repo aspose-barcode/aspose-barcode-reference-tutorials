@@ -112,10 +112,10 @@ A: 是的，库支持广泛符号的生成和识别。
 A: 当然。您可以更改颜色、添加标题、修改边距，甚至使用丰富的 `Parameters` API 嵌入徽标。
 
 **Q: 如何获取 Aspose.BarCode for Java 的临时许可证？**  
-A: 访问[此处](https://purchase.aspose.com/temporary-license/)请求评估用的临时许可证。
+A: 访问[此处](https://purchase.aspose.com/temporary-license/) 请求评估用的临时许可证。
 
 **Q: 我在哪里可以找到 Aspose.BarCode for Java 的支持？**  
-A: Aspose.BarCode 社区论坛是获取帮助的最佳地点。查看[论坛](https://forum.aspose.com/c/barcode/13)获取答案并提出新问题。
+A: Aspose.BarCode 社区论坛是获取帮助的最佳地点。查看[论坛](https://forum.aspose.com/c/barcode/13) 获取答案并提出新问题。
 
 **Q: Aspose.BarCode for Java 支持哪些条形码符号？**  
 A: 该库支持数十种符号，包括 CODE_128、QR_CODE、UPC_A、DataMatrix、PDF417 等。

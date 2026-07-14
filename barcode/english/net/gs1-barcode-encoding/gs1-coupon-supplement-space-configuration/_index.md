@@ -1,5 +1,5 @@
 ---
-title: How to Configure Barcode: GS1 Coupon Supplement Space
+title: How to Configure Barcode - GS1 Coupon Supplement Space
 linktitle: GS1 Coupon Supplement Space Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to configure barcode with the GS1 Coupon Supplement Space using Aspose.BarCode for .NET. Follow our step‑by‑step guide to master this feature.

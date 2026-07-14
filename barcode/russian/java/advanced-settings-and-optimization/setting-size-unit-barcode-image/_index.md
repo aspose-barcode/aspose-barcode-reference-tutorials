@@ -15,41 +15,46 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose barcode java: Создание штрих‑кода CODE_128 с единицей измерения размера
+# aspose barcode java: Создание штрих-кода CODE_128 с единицей измерения размера
 
-## Introduction
+## Введение
 
-В этом пошаговом руководстве вы **используете aspose barcode java** для создания штрих‑кода CODE_128, генерации изображения штрих‑кода java и точного управления единицей измерения размера результата. Независимо от того, создаёте ли вы штрих‑код для системы учёта, генератора транспортных этикеток или любого Java‑приложения, требующего надёжных штрих‑кодов, Aspose.BarCode for Java предоставляет полную гибкость всего в несколько строк кода.
+В этом пошаговом руководстве вы **используете aspose штрих-код Java** для создания штрих-кода CODE_128, генерации изображения штрих-кода Java и точного управления элементами измерения размера результата. Независимо от того, создаёте ли вы штрих-код для системы учёта, генератор протоколов или любых Java-приложений, требующих надёжных штрих-кодов, Aspose.BarCode для Java обеспечивает полную гибкость всего в несколько строк кода.
 
-## Quick Answers
-- **What library do I need?** Aspose.BarCode for Java (aspose barcode java).  
-- **Which barcode type is covered?** CODE_128 (create code128 barcode java).  
-- **How do I set the size unit?** Use the `BarHeight` property with `.setPoint()`.  
-- **Can I generate barcode image java in other formats?** Yes – PNG, JPEG, BMP, etc.  
-- **What are the prerequisites?** JDK installed, Aspose.BarCode library, and a Java IDE.
+## Быстрые ответы
+- **Какая библиотека мне нужна?** Aspose.BarCode для Java (aspose barcode java).
+- **Какой тип штрих-кода распространяется?** CODE_128 (создать Java-штрих-код code128).
+- **Как установить единицу измерения размера?** Используйте свойство BarHeight с помощью .setPoint().
+- **Могу ли я создать Java-изображение штрих-кода в других форматах?** Да – PNG, JPEG, BMP и т. д.
+- **Каковы необходимые условия?** Установлен JDK, библиотека Aspose.BarCode и Java IDE.
 
-## What is **create code128 barcode java**?
+## Что такое **создать Java-код штрих-кода code128**?
 
-Создание штрих‑кода CODE_128 в Java означает создание экземпляра класса `BarcodeGenerator` с перечислением `EncodeTypes.CODE_128` и передачу строки данных, которую необходимо закодировать. Эта символьная система широко используется в логистике, так как поддерживает полный набор символов ASCII и обеспечивает высокую плотность данных — что делает её идеальной для сценариев штрих‑кода в системе учёта.
+Создание штрих-кода CODE_128 в Java означает создание экземпляра класса `BarcodeGenerator` с перечислением `EncodeTypes.CODE_128` и передачу строк данных, которые необходимо закодировать. Эта символьная система широко используется в логистике, так как опоры имеют полный набор символов ASCII и обеспечивают головной свет данных — что делает ее идеальной для отображения штрих-кода в системе учёта.
 
-## Why use Aspose.BarCode to **generate barcode image java**?
+## Почему стоит использовать Aspose.BarCode для **генерации изображений штрихкодов на Java**?
 
-- **Full control over dimensions** – you can set bar height, module size, and image resolution.  
-- **No external dependencies** – pure Java, works on any platform that supports the JDK.  
-- **Rich customization** – colors, fonts, margins, and even QR codes are supported.  
-- **High performance** – generates images in milliseconds, suitable for batch processing and generate shipping label barcode workflows.  
+- **Полный контроль над размерами** – вы можете установить высоту полосы, размер модуля и разрешение изображения.
 
-## Prerequisites
+- **Отсутствие внешних зависимостей** – чистый Java, работает на любой платформе, поддерживающей JDK.
 
-Before we start, make sure you have:
+- **Широкие возможности настройки** – поддерживаются цвета, шрифты, поля и даже QR-коды.
 
-1. **Java Development Kit (JDK)** – version 8 or later installed on your machine.  
-2. **Aspose.BarCode for Java library** – download the latest JAR from the Aspose website (trial or licensed).  
-3. **A Java IDE** – such as IntelliJ IDEA, Eclipse, or VS Code with Java extensions.  
+- **Высокая производительность** – генерирует изображения за миллисекунды, подходит для пакетной обработки и рабочих процессов генерации штрихкодов для транспортных этикеток.
 
-## Import Namespaces
+## Необходимые условия
 
-Add the required imports at the top of your Java class so you can access Aspose.BarCode’s API:
+Прежде чем начать, убедитесь, что у вас установлено:
+
+1. **Комплект разработки Java (JDK)** – версия 8 или более поздняя, ​​установленная на вашем компьютере.
+
+2. **Библиотека Aspose.BarCode для Java** – загрузите последнюю версию JAR с веб-сайта Aspose (пробная или лицензионная).
+
+3. **IDE для Java** – например, IntelliJ IDEA, Eclipse или VS Code с расширениями Java.
+
+## Импорт пространств имен
+
+Добавьте необходимые импорты в начало вашего Java-класса, чтобы получить доступ к API Aspose.BarCode:
 
 ```java
 import java.io.IOException;
@@ -59,20 +64,20 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## How to **generate barcode image java** with Aspose.BarCode?
+## Как **сгенерировать изображение штрихкода в Java** с помощью Aspose.BarCode?
 
-Below is the complete workflow. Each step is explained in plain language, and the original code blocks are kept exactly as they were.
+Ниже представлен полный рабочий процесс. Каждый шаг объяснен простым языком, а исходные блоки кода сохранены в неизменном виде.
 
-### Step 1: Define the Resource Directory
+### Шаг 1: Определение каталога ресурсов
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` with the absolute path where you want the barcode image saved. This folder will hold the generated PNG/JPEG files that you can later embed in invoices, packing slips, or inventory reports.
+Замените `"Ваш каталог документов"` на абсолютный путь, куда вы хотите сохранить изображение штрихкода. В этой папке будут храниться сгенерированные файлы PNG/JPEG, которые вы сможете позже встроить в счета-фактуры, накладные или отчеты по инвентаризации.
 
-### Step 2: Instantiate the Barcode Object
+### Шаг 2: Создание объекта штрихкода
 
 ```java
 // Instantiate barcode object, Set the symbology type to code128 and Set the
@@ -80,61 +85,66 @@ Replace `"Your Document Directory"` with the absolute path where you want the ba
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-Here we **create code128 barcode java** by passing `EncodeTypes.CODE_128` and the data string `"1234567"`.
+Здесь мы **создаем штрихкод code128 в Java**, передав `EncodeTypes.CODE_128` и строку данных `"1234567"`.
 
-### Step 3: Set Bar Height (Size Unit)
+### Шаг 3: Установка высоты штрихкода (единица измерения)
 
 ```java
 // Set the bar height to 3 points
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-The `setPoint()` method defines the height in points (1 point = 1/72 inch). Adjust this value to meet your layout requirements—larger values produce taller bars, which is often needed for high‑resolution shipping labels.
+Метод `setPoint()` определяет высоту в пунктах (1 пункт = 1/72 дюйма). Отрегулируйте это значение в соответствии с требованиями вашего макета — большие значения приводят к более высоким полосам, что часто необходимо для этикеток с высоким разрешением.
 
-### Step 4: Save the Image
+### Шаг 4: Сохраните изображение
 
 ```java
 // Save the image
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-The `save()` call writes the generated barcode to the folder you specified. The image format is inferred from the file extension (JPEG in this case). You can switch to PNG, BMP, or TIFF simply by changing the extension.
+Вызов `save()` записывает сгенерированный штрихкод в указанную вами папку. Формат изображения определяется расширением файла (в данном случае JPEG). Вы можете переключиться на PNG, BMP или TIFF, просто изменив расширение.
 
-## Common Issues and Solutions
+## Распространенные проблемы и решения
 
-| Issue | Reason | Fix |
+| Проблема | Причина | Решение |
+
 |-------|--------|-----|
-| **Image not created** | `dataDir` path is incorrect or missing write permissions. | Verify the folder exists and your application has write access. |
-| **Barcode appears too small** | Bar height set in points is too low for the chosen DPI. | Increase the value passed to `setPoint()` or adjust image DPI via `bb.getParameters().getImage().setResolution()`. |
-| **Unsupported characters** | CODE_128 supports only ASCII; you passed Unicode. | Use a different symbology (e.g., QR_CODE) for non‑ASCII data. |
 
-## Frequently Asked Questions
+| **Изображение не создано** | Неверный путь к `dataDir` или отсутствуют права на запись. | Убедитесь, что папка существует и ваше приложение имеет права на запись. |
 
-**Q: Is Aspose.BarCode for Java suitable for both barcode generation and recognition?**  
-A: Yes, the library supports both generation and recognition of a wide range of symbologies.
+| **Штрихкод отображается слишком маленьким** | Высота полосы, заданная в пунктах, слишком мала для выбранного DPI. | Увеличьте значение, передаваемое в `setPoint()`, или отрегулируйте DPI изображения с помощью `bb.getParameters().getImage().setResolution()`. |
 
-**Q: Can I customize the appearance of the generated barcode images?**  
-A: Absolutely. You can change colors, add captions, modify margins, and even embed logos using the extensive `Parameters` API.
+| **Неподдерживаемые символы** | CODE_128 поддерживает только ASCII; вы передали Unicode. | Используйте другую символику (например, QR_CODE) для данных, отличных от ASCII.
 
-**Q: How can I obtain a temporary license for Aspose.BarCode for Java?**  
-A: Visit [here](https://purchase.aspose.com/temporary-license/) to request a temporary license for evaluation.
+## Часто задаваемые вопросы
 
-**Q: Where can I find support for Aspose.BarCode for Java?**  
-A: The Aspose.BarCode community forum is the best place for help. Check the [forum](https://forum.aspose.com/c/barcode/13) for answers and to ask new questions.
+**В: Подходит ли Aspose.BarCode для Java как для генерации, так и для распознавания штрихкодов?**
+О: Да, библиотека поддерживает генерацию и распознавание широкого спектра символик.
 
-**Q: What are the supported barcode symbologies in Aspose.BarCode for Java?**  
-A: The library supports dozens of symbologies, including CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417, and many more.
+**В: Могу ли я настроить внешний вид сгенерированных изображений штрихкодов?**
+О: Безусловно. Вы можете изменять цвета, добавлять подписи, изменять поля и даже встраивать логотипы, используя обширный API `Parameters`.
 
-### Additional Tips (Pro tip)
+**В: Как получить временную лицензию на Aspose.BarCode для Java?**
+О: Перейдите по ссылке [здесь](https://purchase.aspose.com/temporary-license/), чтобы запросить временную лицензию для ознакомления.
 
-- **Batch processing:** Wrap the steps above in a loop to generate hundreds of barcodes for bulk inventory uploads.  
-- **Resolution control:** Use `bb.getParameters().getImage().setResolution(300)` to produce 300 dpi images, which are ideal for high‑quality print labels.  
+**В: Где я могу найти поддержку для Aspose.BarCode для Java?**
+О: Лучшее место для получения помощи — форум сообщества Aspose.BarCode. Проверьте [форум](https://forum.aspose.com/c/barcode/13), чтобы найти ответы и задать новые вопросы.
+
+**В: Какие символики штрихкодов поддерживаются в Aspose.BarCode для Java?**
+О: Библиотека поддерживает десятки символик, включая CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417 и многие другие.
+
+### Дополнительные советы (полезный совет)
+
+- **Пакетная обработка:** Оберните описанные выше шаги в цикл, чтобы сгенерировать сотни штрихкодов для массовой загрузки данных об инвентаризации.
+
+- **Управление разрешением:** Используйте `bb.getParameters().getImage().setResolution(300)` для получения изображений с разрешением 300 dpi, которые идеально подходят для высококачественной печати этикеток.
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Последнее обновление:** 07.02.2026
+**Протестировано с:** Aspose.BarCode for Java 24.12 (последняя версия на момент написания)
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

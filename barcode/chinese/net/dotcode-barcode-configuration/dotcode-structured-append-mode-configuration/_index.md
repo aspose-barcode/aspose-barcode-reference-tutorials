@@ -151,7 +151,7 @@ A5：Aspose.BarCode for .NET 提供多种安全功能，如加密和水印，以
 
 本教程揭示了 Aspose.BarCode for .NET 中强大的 DotCode 结构化追加模式配置。您已学会如何搭建环境、导入命名空间并配置 DotCode 生成结构化追加模式条形码。掌握这些技巧后，您即可 **创建 dotcode 条形码 .net**，并在应用程序和业务解决方案中充分利用条形码技术。
 
-欢迎进一步探索 [文档](https://reference.aspose.com/barcode/net/)。如果准备将条形码水平提升到新高度，可查看购买选项 [here](https://purchase.aspose.com/buy)。如有任何疑问或需要支持，Aspose.BarCode 社区在 [support forum](https://forum.aspose.com/c/barcode/13) 等您。
+欢迎进一步探索 [文档](https://reference.aspose.com/barcode/net/) 。如果准备将条形码水平提升到新高度，可查看购买选项 [here](https://purchase.aspose.com/buy) 。如有任何疑问或需要支持，Aspose.BarCode 社区在 [support forum](https://forum.aspose.com/c/barcode/13) 等您。
 
 ---
 
