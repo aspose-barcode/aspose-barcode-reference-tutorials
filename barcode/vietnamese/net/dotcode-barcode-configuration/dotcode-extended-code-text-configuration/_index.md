@@ -143,28 +143,6 @@ Aspose.BarCode cho .NET là một công cụ mạnh mẽ giúp đơn giản hoá
 
 Nếu bạn cần thêm hướng dẫn hoặc có câu hỏi, đừng ngần ngại truy cập [tài liệu Aspose.BarCode cho .NET](https://reference.aspose.com/barcode/net/) hoặc tham gia cộng đồng tại [diễn đàn hỗ trợ Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-## Câu hỏi thường gặp
-
-### Hỏi 1: DotCode được dùng để làm gì?
-
-**A1:** DotCode được dùng để mã hoá cả dữ liệu văn bản và nhị phân và thường được áp dụng trong các ngành như y tế và logistics để theo dõi và mã hoá dữ liệu.
-
-### Hỏi 2: Tôi có thể tùy chỉnh giao diện của mã vạch DotCode không?
-
-**A2:** Có, Aspose.BarCode cho .NET cung cấp các tùy chọn để tùy chỉnh giao diện của mã vạch DotCode, bao gồm kích thước và chế độ mã hoá.
-
-### Hỏi 3: Aspose.BarCode cho .NET có tương thích với các framework .NET khác nhau không?
-
-**A3:** Có, Aspose.BarCode cho .NET tương thích với một loạt các framework .NET, đảm bảo tính linh hoạt và dễ dàng tích hợp.
-
-### Hỏi 4: Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.BarCode cho .NET?
-
-**A4:** Bạn có thể lấy giấy phép tạm thời từ [trang web của Aspose](https://purchase.aspose.com/temporary-license/) để đánh giá và thử nghiệm.
-
-### Hỏi 5: Aspose.BarCode cho .NET có phù hợp cho việc tạo mã vạch cấp doanh nghiệp không?
-
-**A5:** Chắc chắn, Aspose.BarCode cho .NET được thiết kế để đáp ứng nhu cầu tạo mã vạch cả ở quy mô nhỏ và doanh nghiệp, cung cấp khả năng mở rộng và độ tin cậy cao.
-
 ## Các Câu hỏi Thường gặp
 
 **Q: Tôi có thể sử dụng mã vạch đã tạo trong ứng dụng di động không?**  

@@ -117,9 +117,9 @@ A: Het vergeten van de vereiste start/stop‑symbolen (A, B, C of D) maakt de ge
 **Getest met:** Aspose.Barcode 24.11 for .NET & Java  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

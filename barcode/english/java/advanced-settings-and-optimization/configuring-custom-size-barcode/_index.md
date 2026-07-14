@@ -1,5 +1,5 @@
 ---
-title: Custom Barcode Size Java: Configure Exact Dimensions with Aspose.BarCode
+title: Custom Barcode Size Java - Configure Exact Dimensions with Aspose.BarCode
 linktitle: Configuring Custom Size for Barcode
 second_title: Aspose.BarCode Java API
 description: Learn how to custom barcode size java and generate barcode image java using Aspose.BarCode for Java in a few simple steps.
@@ -150,19 +150,19 @@ A1: Yes, Aspose.BarCode for Java supports a wide range of symbologies. Simply re
 
 ### Q2: Is there a trial version available?
 
-A2: Yes, you can explore the capabilities of Aspose.BarCode by obtaining a free trial **[here](https://releases.aspose.com/)**.
+A2: Yes, you can explore the capabilities of Aspose.BarCode by obtaining a free trial **[here](https://releases.aspose.com/) **.
 
 ### Q3: Where can I find detailed documentation?
 
-A3: Refer to the comprehensive documentation **[here](https://reference.aspose.com/barcode/java/)** for in‑depth information on Aspose.BarCode for Java.
+A3: Refer to the comprehensive documentation **[here](https://reference.aspose.com/barcode/java/) ** for in‑depth information on Aspose.BarCode for Java.
 
 ### Q4: How can I get support for any issues or queries?
 
-A4: Visit the Aspose.BarCode forum **[here](https://forum.aspose.com/c/barcode/13)** to seek assistance and connect with the community.
+A4: Visit the Aspose.BarCode forum **[here](https://forum.aspose.com/c/barcode/13) ** to seek assistance and connect with the community.
 
 ### Q5: Is there a temporary license option available?
 
-A5: Yes, you can acquire a temporary license **[here](https://purchase.aspose.com/temporary-license/)** for testing purposes.
+A5: Yes, you can acquire a temporary license **[here](https://purchase.aspose.com/temporary-license/) ** for testing purposes.
 
 ### Q6: Can I generate a barcode image java in PNG format instead of JPEG?
 
@@ -174,17 +174,15 @@ A7: After generating the image, you can load it into any PDF library (e.g., Aspo
 
 ---
 
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java 24.11  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.BarCode for Java 24.11  
-**Author:** Aspose  
-
----

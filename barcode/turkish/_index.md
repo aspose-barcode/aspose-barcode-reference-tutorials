@@ -118,9 +118,9 @@ C: Gerekli başlangıç/bitiş sembollerini (A, B, C veya D) eklemeyi unutmak, o
 **Test Edilen Sürümler:** Aspose.Barcode 24.11 for .NET & Java  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

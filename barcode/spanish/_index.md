@@ -119,9 +119,9 @@ A: Olvidar incluir los símbolos de inicio/parada requeridos (A, B, C o D) hará
 **Probado con:** Aspose.Barcode 24.11 para .NET & Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

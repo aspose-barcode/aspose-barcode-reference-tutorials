@@ -115,19 +115,6 @@ weight: 10
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 通过 Aspose.BarCode 发掘 Java 条形码生成的潜力。配置自定义尺寸、优化图像分辨率，并精通条形码设置以实现无缝集成。轻松提升您的 Java 应用。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.BarCode for Java latest release  
-**Author:** Aspose
-
 ## 常见问题
 
 **Q:** *我可以在开发时无需许可证生成条形码吗？*  
@@ -144,3 +131,16 @@ weight: 10
 
 **Q:** *我可以自定义 QR 码下方显示的标题文字吗？*  
 **A:** 可以，**barcode text styling** 选项允许您添加标题，选择字体、大小和对齐方式。
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java latest release  
+**Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

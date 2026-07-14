@@ -105,18 +105,6 @@ Fedezze fel a Java vonalkód képmanipulációt az Aspose.BarCode útmutatóival
 Könnyedén hozza létre és integrálja a vonalkódokat Java-ban az Aspose.BarCode segítségével. Fedezze fel a lépésről‑lépésre útmutatókat a vonalkódok grafikai, képi, nyomtató és servlet formátumokba történő rendereléshez.
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 Szabadítsa fel a Java vonalkód generálás lehetőségeit az Aspose.BarCode segítségével. Konfiguráljon egyedi méreteket, optimalizálja a kép felbontását, és sajátítsa el a vonalkód beállításait a zökkenőmentes integrációhoz. Emelje Java alkalmazásait könnyedén ezekkel a haladó útmutatókkal.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.BarCode for Java latest release  
-**Author:** Aspose
 
 ## Gyakran Ismételt Kérdések
 
@@ -134,3 +122,16 @@ Szabadítsa fel a Java vonalkód generálás lehetőségeit az Aspose.BarCode se
 
 **Q:** *Testreszabhatom a QR-kód alatti felirat szövegét?*  
 **A:** Igen, a **barcode text styling** beállítások lehetővé teszik felirat hozzáadását, a betűtípus, méret és igazítás kiválasztását.
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java latest release  
+**Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

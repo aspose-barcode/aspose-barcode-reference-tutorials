@@ -120,9 +120,9 @@ A: Ha elfelejted a szükséges start/stop szimbólumok (A, B, C vagy D) megadás
 **Tesztelve:** Aspose.Barcode 24.11 for .NET & Java  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

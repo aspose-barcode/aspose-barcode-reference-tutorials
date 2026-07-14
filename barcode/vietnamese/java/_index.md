@@ -107,18 +107,6 @@ Khám phá việc thao tác hình ảnh barcode trong Java với các hướng d
 Tạo và tích hợp barcode trong Java một cách dễ dàng với Aspose.BarCode. Khám phá các hướng dẫn từng bước để render barcode thành đồ họa, hình ảnh, máy in và servlet.  
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 Mở khóa tiềm năng tạo barcode Java với Aspose.BarCode. Cấu hình kích thước tùy chỉnh, tối ưu độ phân giải hình ảnh và làm chủ các cài đặt barcode để tích hợp liền mạch. Nâng cao ứng dụng Java của bạn một cách dễ dàng.  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-27  
-**Đã kiểm tra với:** Aspose.BarCode for Java latest release  
-**Tác giả:** Aspose
 
 ## Câu hỏi thường gặp
 
@@ -136,3 +124,16 @@ Mở khóa tiềm năng tạo barcode Java với Aspose.BarCode. Cấu hình kí
 
 **Q:** *Can I customize the caption text displayed under a QR code?*  
 **A:** Yes, the **barcode text styling** options allow you to add a caption, choose the font, size, and alignment.
+
+---
+
+**Cập nhật lần cuối:** 2026-01-27  
+**Đã kiểm tra với:** Aspose.BarCode for Java latest release  
+**Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

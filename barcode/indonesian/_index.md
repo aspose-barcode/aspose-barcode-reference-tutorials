@@ -119,9 +119,9 @@ A: Lupa menyertakan simbol start/stop yang diperlukan (A, B, C, atau D) akan mem
 **Tested With:** Aspose.Barcode 24.11 for .NET & Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

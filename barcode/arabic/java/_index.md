@@ -107,18 +107,6 @@ weight: 10
 أنشئ ودمج باركود بسهولة في Java مع Aspose.BarCode. استكشف دروسًا خطوة بخطوة لعرض الباركود على الرسومات، الصور، الطابعات، والخدمات.
 ### [الإعدادات المتقدمة والتحسين](./advanced-settings-and-optimization/)
 افتح إمكانات إنشاء باركود Java مع Aspose.BarCode. قم بتكوين الأحجام المخصصة، تحسين دقة الصورة، وتقن إعدادات الباركود لتكامل سلس. ارتقِ بتطبيقات Java بسهولة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-27  
-**تم الاختبار مع:** أحدث إصدار من Aspose.BarCode لـ Java  
-**المؤلف:** Aspose
 
 ## الأسئلة الشائعة
 
@@ -136,3 +124,16 @@ weight: 10
 
 **س:** *هل يمكنني تخصيص نص التسمية المعروضة أسفل رمز QR؟*  
 **ج:** نعم، تتيح لك خيارات **تنسيق نص الباركود** إضافة تسمية، اختيار الخط، الحجم، والمحاذاة.
+
+---
+
+**آخر تحديث:** 2026-01-27  
+**تم الاختبار مع:** أحدث إصدار من Aspose.BarCode لـ Java  
+**المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

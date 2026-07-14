@@ -118,9 +118,9 @@ Voici quelques ressources utiles :
 **Testé avec :** Aspose.Barcode 24.11 pour .NET & Java  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -144,28 +144,6 @@ Aspose.BarCode für .NET ist ein leistungsstarkes Werkzeug, das die Barcode‑Er
 
 Falls Sie weitere Unterstützung benötigen oder Fragen haben, zögern Sie nicht, die [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) zu besuchen oder sich im [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13) mit der Community auszutauschen.
 
-## FAQ's
-
-### Q1: Wofür wird DotCode verwendet?
-
-A1: DotCode wird verwendet, um sowohl Text‑ als auch Binärdaten zu codieren und findet häufig Anwendung in Branchen wie dem Gesundheitswesen und der Logistik für Tracking‑ und Datenkodierungszwecke.
-
-### Q2: Kann ich das Aussehen von DotCode‑Barcodes anpassen?
-
-A2: Ja, Aspose.BarCode für .NET bietet Optionen zur Anpassung des Aussehens von DotCode‑Barcodes, einschließlich Größe und Kodierungsmodus.
-
-### Q3: Ist Aspose.BarCode für .NET mit verschiedenen .NET‑Frameworks kompatibel?
-
-A3: Ja, Aspose.BarCode für .NET ist mit einer breiten Palette von .NET‑Frameworks kompatibel, was Flexibilität und einfache Integration gewährleistet.
-
-### Q4: Wie erhalte ich eine temporäre Lizenz für Aspose.BarCode für .NET?
-
-A4: Sie können eine temporäre Lizenz von [Aspose's website](https://purchase.aspose.com/temporary-license/) für Evaluierungs‑ und Testzwecke erhalten.
-
-### Q5: Ist Aspose.BarCode für .NET für die Barcode‑Erstellung auf Unternehmensniveau geeignet?
-
-A5: Absolut, Aspose.BarCode für .NET ist darauf ausgelegt, sowohl den Anforderungen kleiner als auch großer Unternehmen an die Barcode‑Erstellung gerecht zu werden und bietet Skalierbarkeit sowie Zuverlässigkeit.
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich den erzeugten Barcode in einer mobilen App verwenden?**  

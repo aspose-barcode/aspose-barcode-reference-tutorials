@@ -144,28 +144,6 @@ Aspose.BarCode for .NET, barkod oluşturmayı basitleştiren güçlü bir araçt
 
 Daha fazla rehberliğe ihtiyaç duyarsanız veya sorularınız varsa, [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) adresini ziyaret etmekten veya [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13) üzerinden toplulukla iletişime geçmekten çekinmeyin.
 
-## SSS
-
-### S1: DotCode ne amaçla kullanılır?
-
-C1: DotCode, hem metinsel hem de ikili veri kodlayabilir ve sağlık, lojistik gibi sektörlerde takip ve veri kodlama amaçlarıyla yaygın olarak kullanılır.
-
-### S2: DotCode barkodlarının görünümünü özelleştirebilir miyim?
-
-C2: Evet, Aspose.BarCode for .NET, DotCode barkodlarının boyut ve kodlama modu dahil olmak üzere görünümünü özelleştirme seçenekleri sunar.
-
-### S3: Aspose.BarCode for .NET çeşitli .NET framework’leriyle uyumlu mu?
-
-C3: Evet, Aspose.BarCode for .NET, geniş bir .NET framework yelpazesiyle uyumludur; bu da esneklik ve kolay entegrasyon sağlar.
-
-### S4: Aspose.BarCode for .NET için geçici bir lisans nasıl alınır?
-
-C4: Değerlendirme ve test amaçlı olarak [Aspose'un web sitesinden](https://purchase.aspose.com/temporary-license/) geçici bir lisans edinebilirsiniz.
-
-### S5: Aspose.BarCode for .NET kurumsal düzeyde barkod üretimi için uygun mu?
-
-C5: Kesinlikle, Aspose.BarCode for .NET, küçük ölçekli projelerden kurumsal düzeyde barkod üretimine kadar ihtiyaçları karşılayacak şekilde ölçeklenebilir ve güvenilirdir.
-
 ## Yaygın Sorulan Sorular
 
 **S: Oluşturulan barkodu bir mobil uygulamada kullanabilir miyim?**  

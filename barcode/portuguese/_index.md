@@ -120,9 +120,9 @@ A: Esquecer de incluir os símbolos de início/parada obrigatórios (A, B, C ou 
 **Testado com:** Aspose.Barcode 24.11 for .NET & Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

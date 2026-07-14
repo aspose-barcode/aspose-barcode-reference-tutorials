@@ -119,9 +119,9 @@ A: Zapomenutí zahrnout požadované start/stop symboly (A, B, C nebo D) způsob
 **Testováno s:** Aspose.Barcode 24.11 pro .NET a Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

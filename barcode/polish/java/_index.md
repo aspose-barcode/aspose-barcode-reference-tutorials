@@ -108,18 +108,6 @@ Poznaj manipulację obrazem kodu kreskowego w Javie dzięki samouczkom Aspose.Ba
 Twórz i integruj kody kreskowe w Javie bez wysiłku z Aspose.BarCode. Odkryj krok‑po‑kroku samouczki renderowania kodów do grafiki, obrazów, drukarek i servletów.
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 Odblokuj potencjał generowania kodów kreskowych w Javie z Aspose.BarCode. Konfiguruj własne rozmiary, optymalizuj rozdzielczość obrazu i opanuj ustawienia kodów kreskowych dla płynnej integracji. Podnieś swoje aplikacje Java bez wysiłku.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-27  
-**Testowano z:** najnowsza wersja Aspose.BarCode dla Javy  
-**Autor:** Aspose
 
 ## Najczęściej zadawane pytania
 
@@ -137,3 +125,16 @@ Odblokuj potencjał generowania kodów kreskowych w Javie z Aspose.BarCode. Konf
 
 **P:** *Czy mogę dostosować tekst podpisu wyświetlany pod kodem QR?*  
 **O:** Tak, opcje **barcode text styling** umożliwiają dodanie podpisu, wybór czcionki, rozmiaru i wyrównania.
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-27  
+**Testowano z:** najnowsza wersja Aspose.BarCode dla Javy  
+**Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

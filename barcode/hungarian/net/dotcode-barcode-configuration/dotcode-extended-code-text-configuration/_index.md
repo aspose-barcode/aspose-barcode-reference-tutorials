@@ -145,28 +145,6 @@ Az Aspose.BarCode for .NET egy erőteljes eszköz, amely egyszerűsíti a vonalk
 
 Ha további útmutatásra van szüksége vagy kérdései merülnek fel, ne habozzon felkeresni a [Aspose.BarCode for .NET dokumentációját](https://reference.aspose.com/barcode/net/) vagy csatlakozni a közösséghez a [Aspose.BarCode támogatási fórumban](https://forum.aspose.com/c/barcode/13).
 
-## GYIK
-
-### Q1: Mire használják a DotCode-ot?
-
-A1: A DotCode szöveges és bináris adatok kódolására szolgál, és gyakran alkalmazzák olyan iparágakban, mint az egészségügy és a logisztika, nyomkövetésre és adatkódolási célokra.
-
-### Q2: Testreszabhatom a DotCode vonalkódok megjelenését?
-
-A2: Igen, az Aspose.BarCode for .NET lehetőséget biztosít a DotCode vonalkódok megjelenésének testreszabására, beleértve a méretet és a kódolási módot is.
-
-### Q3: Az Aspose.BarCode for .NET kompatibilis különböző .NET keretrendszerekkel?
-
-A3: Igen, az Aspose.BarCode for .NET széles körű .NET keretrendszerekkel kompatibilis, biztosítva a rugalmasságot és a könnyű integrációt.
-
-### Q4: Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for .NET-hez?
-
-A4: Ideiglenes licencet szerezhet a [Aspose weboldaláról](https://purchase.aspose.com/temporary-license/) értékelési és tesztelési célokra.
-
-### Q5: Az Aspose.BarCode for .NET alkalmas vállalati szintű vonalkód generálásra?
-
-A5: Teljes mértékben, az Aspose.BarCode for .NET úgy van tervezve, hogy kis‑ és nagy‑vállalati szintű vonalkód generálási igényeket egyaránt kielégítse, skálázhatóságot és megbízhatóságot biztosítva.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom a generált vonalkódot mobilalkalmazásban?**  

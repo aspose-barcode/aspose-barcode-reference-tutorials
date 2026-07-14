@@ -146,28 +146,6 @@ Se precisar de mais orientação ou tiver dúvidas, não hesite em visitar a [do
 
 ## Perguntas Frequentes
 
-### Q1: Para que o DotCode é usado?
-
-A1: O DotCode é usado para codificar dados textuais e binários e é comumente aplicado em setores como saúde e logística para rastreamento e codificação de dados.
-
-### Q2: Posso personalizar a aparência dos códigos de barras DotCode?
-
-A2: Sim, o Aspose.BarCode para .NET oferece opções para personalizar a aparência dos códigos de barras DotCode, incluindo tamanho e modo de codificação.
-
-### Q3: O Aspose.BarCode para .NET é compatível com vários frameworks .NET?
-
-A3: Sim, o Aspose.BarCode para .NET é compatível com uma ampla gama de frameworks .NET, garantindo flexibilidade e facilidade de integração.
-
-### Q4: Como obtenho uma licença temporária para o Aspose.BarCode para .NET?
-
-A4: Você pode obter uma licença temporária no [site da Aspose](https://purchase.aspose.com/temporary-license/) para avaliação e testes.
-
-### Q5: O Aspose.BarCode para .NET é adequado para geração de códigos de barras em nível empresarial?
-
-A5: Absolutamente, o Aspose.BarCode para .NET foi projetado para atender às necessidades tanto de geração de códigos de barras em pequena escala quanto em nível empresarial, oferecendo escalabilidade e confiabilidade.
-
-## Perguntas Frequentes
-
 **Q: Posso usar o código de barras gerado em um aplicativo móvel?**  
 A: Sim. A imagem PNG produzida pelo gerador pode ser incorporada no iOS, Android ou em qualquer aplicação móvel multiplataforma.
 

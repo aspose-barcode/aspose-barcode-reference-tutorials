@@ -146,28 +146,6 @@ Pokud potřebujete další pomoc nebo máte otázky, neváhejte navštívit [dok
 
 ## Často kladené otázky
 
-### Q1: K čemu se DotCode používá?
-
-A1: DotCode se používá k zakódování jak textových, tak binárních dat a je běžně aplikován v odvětvích jako zdravotnictví a logistika pro sledování a kódování dat.
-
-### Q2: Mohu přizpůsobit vzhled čárových kódů DotCode?
-
-A2: Ano, Aspose.BarCode pro .NET poskytuje možnosti přizpůsobení vzhledu čárových kódů DotCode, včetně velikosti a režimu kódování.
-
-### Q3: Je Aspose.BarCode pro .NET kompatibilní s různými .NET frameworky?
-
-A3: Ano, Aspose.BarCode pro .NET je kompatibilní s širokou škálou .NET frameworků, což zajišťuje flexibilitu a snadnou integraci.
-
-### Q4: Jak získám dočasnou licenci pro Aspose.BarCode pro .NET?
-
-A4: Dočasnou licenci můžete získat na [webu Aspose](https://purchase.aspose.com/temporary-license/) pro účely hodnocení a testování.
-
-### Q5: Je Aspose.BarCode pro .NET vhodný pro generování čárových kódů na úrovni podniku?
-
-A5: Rozhodně, Aspose.BarCode pro .NET je navržen tak, aby vyhovoval potřebám jak malých, tak podnikově‑rozsáhlých projektů generování čárových kódů, nabízející škálovatelnost a spolehlivost.
-
-## Frequently Asked Questions
-
 **Q: Mohu použít vygenerovaný čárový kód v mobilní aplikaci?**  
 A: Ano. PNG obrázek vytvořený generátorem lze vložit do iOS, Android nebo jakékoli multiplatformní mobilní aplikace.
 

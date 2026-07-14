@@ -118,19 +118,6 @@ Crea e integra códigos de barras en Java sin esfuerzo con Aspose.BarCode. Explo
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 Desbloquea el potencial de la generación de códigos de barras Java con Aspose.BarCode. Configura tamaños personalizados, optimiza la resolución de imágenes y domina la configuración de códigos de barras para una integración sin problemas. Eleva tus aplicaciones Java sin esfuerzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.BarCode for Java latest release  
-**Author:** Aspose
-
 ## Preguntas frecuentes
 
 **Q:** *¿Puedo generar códigos de barras sin una licencia para desarrollo?*  
@@ -147,3 +134,16 @@ Desbloquea el potencial de la generación de códigos de barras Java con Aspose.
 
 **Q:** *¿Puedo personalizar el texto del subtítulo que se muestra bajo un código QR?*  
 **A:** Yes, the **barcode text styling** options allow you to add a caption, choose the font, size, and alignment.
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java latest release  
+**Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

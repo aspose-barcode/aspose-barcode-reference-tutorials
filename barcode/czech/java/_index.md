@@ -117,19 +117,6 @@ Snadno vytvářejte a integrujte čárové kódy v Javě s Aspose.BarCode. Prozk
 ### [Pokročilá nastavení a optimalizace](./advanced-settings-and-optimization/)
 Odemkněte potenciál generování čárových kódů v Javě s Aspose.BarCode. Konfigurujte vlastní velikosti, optimalizujte rozlišení obrázku a ovládejte nastavení čárových kódů pro bezproblémovou integraci. Posuňte své Java aplikace snadno s těmito pokročilými tutoriály.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.BarCode for Java latest release  
-**Author:** Aspose
-
 ## Často kladené otázky
 
 **Q:** *Mohu generovat čárové kódy bez licence pro vývoj?*  
@@ -146,3 +133,16 @@ Odemkněte potenciál generování čárových kódů v Javě s Aspose.BarCode. 
 
 **Q:** *Mohu přizpůsobit text popisky zobrazený pod QR kódem?*  
 **A:** Ano, možnosti **barcode text styling** vám umožňují přidat popisek, vybrat písmo, velikost a zarovnání.
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java latest release  
+**Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

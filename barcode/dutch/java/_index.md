@@ -107,18 +107,6 @@ Ontdek Java barcode‑image manipulation met Aspose.BarCode‑tutorials. Verbete
 Genereer en integreer barcodes in Java moeiteloos met Aspose.BarCode. Verken stap‑voor‑stap tutorials voor het renderen van barcodes naar graphics, afbeeldingen, printers en servlets.
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 Ontgrendel het potentieel van Java barcode‑generatie met Aspose.BarCode. Configureer aangepaste groottes, optimaliseer afbeeldingsresolutie, en beheer barcode‑instellingen voor naadloze integratie. Verhoog je Java‑applicaties moeiteloos.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-27  
-**Getest met:** Aspose.BarCode voor Java nieuwste release  
-**Auteur:** Aspose
 
 ## Veelgestelde vragen
 
@@ -136,3 +124,16 @@ Ontgrendel het potentieel van Java barcode‑generatie met Aspose.BarCode. Confi
 
 **Q:** *Kan ik de bijschrift‑tekst onder een QR‑code aanpassen?*  
 **A:** Ja, de **barcode text styling**‑opties stellen je in staat een bijschrift toe te voegen, het lettertype, de grootte en de uitlijning te kiezen.
+
+---
+
+**Laatst bijgewerkt:** 2026-01-27  
+**Getest met:** Aspose.BarCode voor Java nieuwste release  
+**Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

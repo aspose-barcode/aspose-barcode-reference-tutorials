@@ -117,9 +117,9 @@ A: Forgetting to include the required start/stop symbols (A, B, C, or D) will ca
 **Tested With:** Aspose.Barcode 24.11 for .NET & Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -108,18 +108,6 @@ weight: 10
 Легко создавайте и интегрируйте штрихкоды в Java с Aspose.BarCode. Исследуйте пошаговые руководства по рендерингу штрихкодов в графику, изображения, принтеры и сервлеты.  
 ### [Расширенные настройки и оптимизация](./advanced-settings-and-optimization/)
 Откройте потенциал генерации штрихкодов в Java с Aspose.BarCode. Настраивайте пользовательские размеры, оптимизируйте разрешение изображений и осваивайте параметры штрихкода для бесшовной интеграции. Поднимите свои Java‑приложения без труда.  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.BarCode for Java latest release  
-**Author:** Aspose
 
 ## Часто задаваемые вопросы
 
@@ -137,3 +125,16 @@ weight: 10
 
 **Q:** *Могу ли я настроить подпись, отображаемую под QR‑кодом?*  
 **A:** Yes, the **barcode text styling** options allow you to add a caption, choose the font, size, and alignment.
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java latest release  
+**Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

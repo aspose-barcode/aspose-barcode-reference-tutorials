@@ -105,18 +105,6 @@ Explore Java barcode image manipulation with Aspose.BarCode tutorials. Enhance, 
 Effortlessly create and integrate barcodes in Java with Aspose.BarCode. Explore step‑by‑step tutorials for rendering barcodes to graphics, images, printers, and servlets.
 ### [Advanced Settings and Optimization](./advanced-settings-and-optimization/)
 Unlock the potential of Java barcode generation with Aspose.BarCode. Configure custom sizes, optimize image resolution, and master barcode settings for seamless integration. Elevate your Java applications effortlessly.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.BarCode for Java latest release  
-**Author:** Aspose
 
 ## Frequently Asked Questions
 
@@ -136,3 +124,16 @@ Unlock the potential of Java barcode generation with Aspose.BarCode. Configure c
 **A:** Yes, the **barcode text styling** options allow you to add a caption, choose the font, size, and alignment.
 
 ---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode for Java latest release  
+**Author:** Aspose
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
