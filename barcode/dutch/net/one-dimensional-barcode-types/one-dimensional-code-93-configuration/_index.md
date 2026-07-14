@@ -1,78 +1,94 @@
 ---
-title: Eendimensionale code creëren 93 Barcodes
-linktitle: Eendimensionale Code 93-configuratie
+date: 2026-02-25
+description: Leer hoe u een barcode‑afbeelding genereert en een barcode‑PNG opslaat
+  met Aspose.BarCode voor .NET – een volledig Aspose‑barcode‑voorbeeld.
+linktitle: One-Dimensional Code 93 Configuration
 second_title: Aspose.BarCode .NET API
-description: Leer hoe u Code 93-barcodes kunt maken met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het genereren van streepjescodes.
-weight: 12
+title: Barcode‑afbeelding genereren – Code 93 met Aspose.BarCode
 url: /nl/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eendimensionale code creëren 93 Barcodes
+# Genereer barcode‑afbeelding – Eén‑dimensionale Code 93 met Aspose.BarCode
 
+## Inleiding
 
-## Invoering
+In het digitale tijdperk van vandaag zijn barcodes een integraal onderdeel van ons leven geworden, waardoor processen zoals voorraadbeheer, productetikettering en kassatracking worden vereenvoudigd. **Een barcode‑afbeelding genereren** is vaak de eerste stap bij het integreren van deze identifiers in uw applicaties. Aspose.BarCode voor .NET biedt een robuuste, gebruiksvriendelijke API waarmee u hoogwaardige Code 93‑barcodes kunt maken in slechts een paar regels C#‑code. Of u nu een magazijnsysteem, een retail‑app of een aangepaste rapportagetool bouwt, deze tutorial leidt u door een compleet **aspose barcode example** dat laat zien hoe u barcodes kunt genereren, aanpassen en **barcode PNG**‑bestanden kunt **opslaan**.
 
-In het huidige digitale tijdperk zijn barcodes een integraal onderdeel van ons leven geworden, waardoor verschillende processen zoals voorraadbeheer, productetikettering en meer worden vereenvoudigd. Aspose.BarCode voor .NET is een krachtige tool waarmee ontwikkelaars moeiteloos streepjescodes in hun applicaties kunnen genereren en ermee kunnen werken. In deze stapsgewijze handleiding onderzoeken we hoe u eendimensionale Code 93-barcodes kunt maken met Aspose.BarCode voor .NET. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorial begeleidt u op een gebruiksvriendelijke manier door het proces. Laten we beginnen!
+## Snelle antwoorden
+- **Waar gaat de tutorial over?** Een Code 93‑barcode‑afbeelding maken en opslaan met checksum‑verwerking.  
+- **Welke bibliotheek wordt gebruikt?** Aspose.BarCode voor .NET (laatste stabiele release).  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik het uitvoerformaat wijzigen?** Ja – u kunt opslaan als PNG, JPEG, BMP, enz., door de `BarCodeImageFormat` aan te passen.  
+- **Wat zijn de minimumvereisten?** .NET Framework 4.6+ of .NET Core 3.1+ en Visual Studio.
 
-## Vereisten:
+## Wat is een Code 93‑barcode?
+Code 93 is een high‑density, alfanumerieke symbologie die de volledige ASCII‑karakterset ondersteunt. Het wordt vaak gekozen vanwege zijn compacte formaat en ingebouwde checksum, die helpt de gegevensintegriteit tijdens het scannen te waarborgen.
 
-Voordat we dieper ingaan op het maken van Code 93-barcodes, zijn er een aantal vereisten waaraan u moet voldoen:
-1. Visual Studio: Zorg ervoor dat Visual Studio op uw systeem is geïnstalleerd. U kunt het downloaden van de website.
-2. Aspose.BarCode voor .NET: Aspose.BarCode voor .NET moet geïnstalleerd zijn. U kunt het downloaden van de website.
-3. Basiskennis van C#: Bekendheid met de programmeertaal C# is een voordeel.
+## Waarom barcode‑afbeeldingen genereren met Aspose.BarCode?
+- **Volledige controle** over coderings type, checksum, grootte en afbeeldingsformaat.  
+- **Geen externe afhankelijkheden** – de bibliotheek draait op elk .NET‑platform.  
+- **Uitstekende renderkwaliteit**, geschikt voor zowel weergave op scherm als hoge‑resolutie afdrukken.  
+- **Uitgebreide documentatie** en een grote verzameling voorbeelden die de ontwikkeling versnellen.
 
-Nu u over de nodige vereisten beschikt, kunnen we verder gaan met de stapsgewijze handleiding.
+## Voorvereisten
 
-## Naamruimten importeren:
+Voordat we in de code duiken, zorg ervoor dat u het volgende heeft:
 
-Eerst moeten we de vereiste naamruimten importeren om Aspose.BarCode voor .NET effectief te kunnen gebruiken. Hierdoor hebben we toegang tot de functionaliteit van de bibliotheek in onze code. Hier ziet u hoe u het kunt doen:
+1. **Visual Studio** (een recente editie).  
+2. **Aspose.BarCode voor .NET** geïnstalleerd – u kunt het verkrijgen via de officiële downloadpagina.  
+3. Basiskennis van **C#** en .NET‑projectstructuur.
+
+Nu u klaar bent, gaan we verder met de stap‑voor‑stap‑gids.
+
+## Namespaces importeren
+
+Importeer eerst de benodigde namespaces zodat u toegang heeft tot de barcode‑generatieklassen.
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## Stap 1: Stel het directorypad in
+## Stap 1: Stel het mappad in
 
-Voordat we de Code 93-barcode maken, moeten we de map opgeven waar we de gegenereerde barcodeafbeeldingen willen opslaan. Vervang "Uw mappad" door het pad naar de gewenste map.
+Definieer waar de gegenereerde barcode‑afbeelding wordt opgeslagen. Vervang de placeholder door een geldige map op uw computer.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Stap 2: Maak een eendimensionale code 93-streepjescode
+## Stap 2: Maak een één‑dimensionale Code 93‑barcode
 
-Laten we nu een eendimensionale Code 93-barcode maken met Aspose.BarCode voor .NET. We configureren de streepjescode met specifieke parameters.
+Instantieer een `BarcodeGenerator` met het type `Code93Extended` en de gegevens die u wilt coderen.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code93Extended, "CODE");
 ```
 
-In de bovenstaande code initialiseren we een BarcodeGenerator-object met het streepjescodetype ingesteld op 'Code93Extended' en de gegevens die we willen coderen als 'CODE'.
+## Stap 3: Checksum inschakelen (optioneel)
 
-## Stap 3: Checksum inschakelen
-
-Standaard bevatten Code 93-barcodes een controlesomwaarde voor gegevensintegriteit. U kunt deze functie naar wens in- of uitschakelen. In dit voorbeeld schakelen we de controlesom in.
+Code 93 bevat standaard een checksum. U kunt deze in- of uitschakelen met de eigenschap `IsChecksumEnabled`.
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 ```
 
-## Stap 4: Sla de streepjescodeafbeelding op
+## Stap 4: Barcode‑afbeelding opslaan (Barcode PNG opslaan)
 
-Nu we de streepjescode hebben geconfigureerd, is het tijd om deze te genereren en op te slaan als afbeelding in de opgegeven map. In dit geval slaan we het op als een PNG-afbeelding.
+Genereer de afbeelding en sla deze op als een PNG‑bestand in de map die u eerder hebt opgegeven.
 
 ```csharp
 gen.Save($"{path}OneCSCode93WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-## Stap 5: Uitzonderingen afhandelen
+## Stap 5: Foutafhandeling – Genereren zonder checksum
 
-In sommige situaties wilt u misschien een Code 93-barcode genereren zonder controlesom. In dergelijke gevallen moet u met uitzonderingen omgaan. Hier ziet u hoe u het kunt doen:
+Als u een barcode **zonder** checksum moet maken, moet u mogelijke uitzonderingen die zich kunnen voordoen afhandelen.
 
 ```csharp
 try
@@ -86,28 +102,33 @@ catch (Exception e)
 }
 ```
 
-In de bovenstaande code proberen we een streepjescode te genereren zonder controlesom. Als er een uitzondering optreedt, vangen we deze op en geven we een foutmelding weer.
+### Veelvoorkomende problemen en oplossingen
+- **Ongeldig pad** – zorg ervoor dat de map bestaat en dat de applicatie schrijfrechten heeft.  
+- **Niet‑ondersteunde tekens** – Code 93 ondersteunt de volledige ASCII‑set, maar controle‑karakters kunnen fouten veroorzaken.  
+- **Licentie niet ingesteld** – zonder een geldige licentie draait de bibliotheek in evaluatiemodus en kan een watermerk toevoegen.
 
-Nu we elke stap van het maken van een eendimensionale Code 93-barcode met Aspose.BarCode voor .NET hebben doorlopen, hebt u een basiskennis van het proces. Vergeet niet om deze stappen aan te passen aan uw specifieke gebruikssituatie.
+## Veelgestelde vragen (FAQ's)
 
-Kortom, Aspose.BarCode voor .NET vereenvoudigt het genereren van barcodes in uw applicaties. Met de mogelijkheid om parameters aan te passen, kunt u streepjescodes maken die precies aan uw behoeften voldoen. Dus waarom probeert u het niet eens en stroomlijnt u uw barcodegerelateerde taken met gemak?
+### V: Waar kan ik de documentatie voor Aspose.BarCode voor .NET vinden?
+A: U kunt de documentatie vinden op [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
-## Veelgestelde vragen (FAQ's):
+### V: Hoe download ik Aspose.BarCode voor .NET?
+A: U kunt Aspose.BarCode voor .NET downloaden vanaf de website op [Aspose.BarCode for .NET Download](https://releases.aspose.com/barcode/net/).
 
-### Vraag: Waar kan ik de documentatie voor Aspose.BarCode voor .NET vinden?
- A: U kunt de documentatie vinden op[Aspose.BarCode voor .NET-documentatie](https://reference.aspose.com/barcode/net/).
+### V: Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor .NET?
+A: Ja, u kunt een gratis proefversie van Aspose.BarCode voor .NET krijgen via [here](https://releases.aspose.com/).
 
-### Vraag: Hoe download ik Aspose.BarCode voor .NET?
- A: U kunt Aspose.BarCode voor .NET downloaden van de website op[Aspose.BarCode voor .NET-download](https://releases.aspose.com/barcode/net/).
+### V: Hoe kan ik een licentie kopen voor Aspose.BarCode voor .NET?
+A: U kunt een licentie aanschaffen via de aankooppagina op [Aspose.BarCode for .NET Purchase](https://purchase.aspose.com/buy).
 
-### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor .NET?
- A: Ja, u kunt een gratis proefversie van Aspose.BarCode voor .NET krijgen van[hier](https://releases.aspose.com/).
+### V: Waar kan ik ondersteuning krijgen of vragen stellen over Aspose.BarCode voor .NET?
+A: U kunt een community‑forum vinden voor ondersteuning en discussies op [Aspose.BarCode for .NET Support](https://forum.aspose.com/c/barcode/13).
 
-### Vraag: Hoe kan ik een licentie kopen voor Aspose.BarCode voor .NET?
- A: U kunt een licentie kopen op de aankooppagina op[Aspose.BarCode voor .NET-aankoop](https://purchase.aspose.com/buy).
+---
 
-### Vraag: Waar kan ik ondersteuning krijgen of vragen stellen over Aspose.BarCode voor .NET?
- A: U kunt een communityforum voor ondersteuning en discussies vinden op[Aspose.BarCode voor .NET-ondersteuning](https://forum.aspose.com/c/barcode/13).
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

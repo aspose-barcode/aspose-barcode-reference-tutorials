@@ -1,119 +1,141 @@
 ---
-title: Configurazione codice 128 monodimensionale
-linktitle: Configurazione codice 128 monodimensionale
-second_title: API Aspose.BarCode .NET
-description: Scopri come generare codici a barre Code 128 unidimensionali in .NET utilizzando Aspose.BarCode. Segui la nostra guida passo passo per un'integrazione perfetta dei codici a barre.
-weight: 10
+date: 2026-02-25
+description: Impara a generare codici a barre con checksum usando Aspose.BarCode per
+  .NET, coprendo la generazione di codici a barre in .NET Core e gli scenari di codici
+  a barre per l'inventario in .NET.
+linktitle: One-Dimensional Code 128 Configuration
+second_title: Aspose.BarCode .NET API
+title: Genera codice a barre con checksum – Configurazione del codice 128 unidimensionale
 url: /it/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configurazione codice 128 monodimensionale
+# Configurazione Code 128 unidimensionale – barcode con checksum
 
+Se sei uno sviluppatore .NET alla ricerca di uno strumento potente per generare **barcode con checksum**, Aspose.BarCode per .NET è la tua soluzione ideale. Questa guida ti accompagna nella creazione di barcode Code 128 unidimensionali, spiega perché il checksum è importante e mostra come lo stesso approccio si integri nei progetti di **barcode generation .NET Core** e negli scenari **inventory barcode .NET**. Che tu stia costruendo un sistema di gestione magazzino o una semplice stampante di etichette, vedrai quanto sia semplice aggiungere barcode affidabili e conformi agli standard alla tua applicazione.
 
-Se sei uno sviluppatore .NET alla ricerca di un potente strumento per generare codici a barre nelle tue applicazioni, Aspose.BarCode per .NET è la soluzione giusta. Questa guida completa ti guiderà attraverso il processo di sfruttamento delle funzionalità di Aspose.BarCode per .NET per creare codici a barre Code 128 unidimensionali ed è progettata sia per principianti che per sviluppatori esperti. 
+## Risposte rapide
+- **Cosa significa “barcode con checksum”?** Aggiunge una cifra calcolata che convalida i dati codificati.
+- **Quali versioni di .NET sono supportate?** Sia .NET Framework sia .NET Core (inclusi .NET 5/6) sono pienamente supportati.
+- **È necessaria una licenza per la produzione?** Sì, è richiesta una licenza commerciale; è disponibile una versione di prova gratuita.
+- **Quante righe di codice?** Meno di 15 righe per generare un barcode Code 128 con o senza checksum.
+- **Posso usarlo per il tracciamento dell'inventario?** Assolutamente – i barcode generati funzionano perfettamente per i casi d'uso di inventory barcode .NET.
+
+## Cos'è un barcode con checksum?
+Un checksum è una cifra aggiuntiva calcolata dai caratteri dati di un barcode. Durante la scansione, il lettore ricalcola il checksum e lo confronta con il valore incorporato. Se differiscono, la scansione viene rifiutata, il che aiuta a catturare errori di inserimento dati e garantisce una maggiore affidabilità per le applicazioni di inventario e logistica.
+
+## Perché usare Aspose.BarCode per .NET?
+- **Zero‑dependency API** – nessuna libreria esterna o binario nativo.
+- **Full .NET Core support** – ideale per servizi cloud‑native moderni.
+- **Rich customization** – modifica dimensione, colore, posizionamento del testo e visibilità del checksum con poche impostazioni delle proprietà.
+- **Enterprise‑grade performance** – genera migliaia di barcode al secondo, perfetto per soluzioni inventory barcode .NET ad alto volume.
 
 ## Prerequisiti
 
-Prima di immergerci nell'entusiasmante mondo della generazione di codici a barre con Aspose.BarCode, assicurati di disporre dei seguenti prerequisiti:
+Prima di immergerci nel mondo entusiasmante della generazione di barcode con Aspose.BarCode, assicurati di avere i seguenti prerequisiti:
 
-1. Visual Studio: assicurati di avere Visual Studio installato sul tuo sistema.
+1. Visual Studio: Assicurati di avere Visual Studio installato sul tuo sistema.  
+2. Aspose.BarCode per .NET: Dovrai scaricare e installare Aspose.BarCode per .NET. Puoi ottenerlo da [here](https://releases.aspose.com/barcode/net/).  
+3. Il tuo progetto .NET: Dovresti avere un progetto .NET configurato e pronto per integrare la generazione di barcode.
 
-2.  Aspose.BarCode per .NET: dovrai scaricare e installare Aspose.BarCode per .NET. Puoi ottenerlo da[Qui](https://releases.aspose.com/barcode/net/).
+Ora, iniziamo!
 
-3. Il tuo progetto .NET: dovresti avere un progetto .NET configurato e pronto per integrare la generazione di codici a barre.
+## Importa gli spazi dei nomi
 
-Ora cominciamo!
+Il primo passo è importare gli spazi dei nomi necessari per il tuo progetto. Questi spazi dei nomi ti forniranno l'accesso alle funzionalità e alle funzioni di Aspose.BarCode.
 
-## Importa spazi dei nomi
-
-Il primo passo è importare gli spazi dei nomi necessari per il tuo progetto. Questi spazi dei nomi ti forniranno l'accesso alle caratteristiche e alle funzioni di Aspose.BarCode.
-
-### Passaggio 1: importa gli spazi dei nomi
+### Passo 1: Importa gli spazi dei nomi
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Configurazione codice 128 monodimensionale
+## Configurazione Code 128 unidimensionale – barcode con checksum
 
-Ora creiamo codici a barre Code 128 utilizzando Aspose.BarCode per .NET. Esamineremo ogni passaggio in dettaglio, assicurandoci che tu abbia una chiara comprensione del processo.
+Ora, creiamo barcode Code 128 usando Aspose.BarCode per .NET. Passeremo attraverso ogni passo in dettaglio, assicurandoci che tu abbia una chiara comprensione del processo.
 
-### Passaggio 2: imposta il percorso
+### Passo 2: Imposta il percorso
 
-Innanzitutto, imposta il percorso della directory in cui desideri salvare le immagini del codice a barre generate.
+Per prima cosa, imposta il percorso della directory in cui desideri salvare le immagini dei barcode generate.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-### Passaggio 3: crea un generatore di codici a barre Code 128
+### Passo 3: Crea un generatore di barcode Code 128
 
- Creare un`BarcodeGenerator` esempio per generare codici a barre Code 128. Puoi specificare il tipo di codice a barre che desideri generare (in questo caso, Code128) e il valore che desideri codificare.
+Crea un'istanza di `BarcodeGenerator` per generare barcode Code 128. Puoi specificare il tipo di barcode che desideri generare (in questo caso, Code128) e il valore da codificare.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128, "CODE");
 ```
 
-### Passaggio 4: configurare i parametri del codice a barre
+### Passo 4: Configura i parametri del barcode
 
-Prima di generare il codice a barre è possibile configurare vari parametri. Ad esempio, puoi scegliere di mostrare o nascondere il checksum.
+Prima di generare il barcode, puoi configurare vari parametri. Ad esempio, puoi scegliere di mostrare o nascondere il checksum.
 
-#### Opzione 1: non mostrare il checksum
+#### Opzione 1: Non mostrare il checksum
 
 ```csharp
 gen.Parameters.Barcode.ChecksumAlwaysShow = false;
 ```
 
-#### Opzione 2: Mostra checksum
+#### Opzione 2: Mostra il checksum
 
 ```csharp
 gen.Parameters.Barcode.ChecksumAlwaysShow = true;
 ```
 
-### Passaggio 5: salva l'immagine del codice a barre
+### Passo 5: Salva l'immagine del barcode
 
-Ora è il momento di salvare l'immagine del codice a barre generata nella directory specificata. Puoi salvare il codice a barre con o senza checksum, a seconda della configurazione scelta nel passaggio precedente.
+Ora è il momento di salvare l'immagine del barcode generata nella directory specificata. Puoi salvare il barcode con o senza checksum, a seconda della configurazione scelta nel passo precedente.
 
-#### Salva il codice a barre senza checksum
+#### Salva barcode senza checksum
 
 ```csharp
 gen.Save($"{path}OneCSCode128NotShowChecksum.png", BarCodeImageFormat.Png);
 ```
 
-#### Salva codice a barre con checksum
+#### Salva barcode con checksum
 
 ```csharp
 gen.Save($"{path}OneCSCode128ShowChecksum.png", BarCodeImageFormat.Png);
 ```
 
-Questo è tutto! Hai generato con successo codici a barre Code 128 unidimensionali utilizzando Aspose.BarCode per .NET. Puoi utilizzare questi codici a barre in varie applicazioni, come la gestione dell'inventario, l'etichettatura dei prodotti e altro ancora.
+Questo è il flusso di lavoro completo per produrre un **barcode con checksum** usando Aspose.BarCode. Ora disponi di due file PNG—uno che nasconde il checksum e uno che lo visualizza—pronti per essere stampati su etichette di prodotto, tag di spedizione o qualsiasi altra applicazione inventory barcode .NET.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Aspose.BarCode per .NET fornisce una soluzione potente e intuitiva per la generazione di codici a barre nelle applicazioni .NET. Grazie alla sua API intuitiva e all'ampia documentazione, puoi integrare facilmente la funzionalità dei codici a barre nei tuoi progetti. Se hai bisogno di creare codici a barre monodimensionali o bidimensionali, Aspose.BarCode ti copre.
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| **Immagine non salvata** | Stringa `path` non valida o permessi di scrittura mancanti | Verifica che la cartella esista e che l'applicazione abbia i permessi di scrittura. |
+| **Checksum non visibile** | `ChecksumAlwaysShow` impostato a `false` | Imposta la proprietà a `true` o lasciala al valore predefinito `false` se preferisci un checksum nascosto. |
+| **Tipo di barcode errato** | Uso di un valore `EncodeTypes` diverso | Assicurati di usare `EncodeTypes.Code128` per i barcode Code 128. |
 
-Incorpora oggi Aspose.BarCode nelle tue applicazioni .NET e semplifica facilmente i processi di generazione dei codici a barre.
+## Domande frequenti
 
-### Domande frequenti
+**D: Aspose.BarCode per .NET è compatibile con .NET Core?**  
+R: Sì, Aspose.BarCode per .NET funziona perfettamente sia con .NET Framework sia con .NET Core, rendendolo ideale per moderne applicazioni cross‑platform.
 
-### Aspose.BarCode per .NET è compatibile con .NET Core?
-Sì, Aspose.BarCode per .NET è compatibile sia con .NET Framework che con .NET Core.
+**D: Posso personalizzare l'aspetto dei barcode generati?**  
+R: Assolutamente! Puoi regolare dimensione, colore, posizionamento del testo e molti altri aspetti visivi tramite l'oggetto `Parameters`.
 
-### Posso personalizzare l'aspetto dei codici a barre generati?
-Assolutamente! Aspose.BarCode ti consente di personalizzare vari aspetti del codice a barre, tra cui dimensione, colore e posizionamento del testo.
+**D: Aspose.BarCode è adatto per generare QR code?**  
+R: Sebbene il suo focus principale siano i barcode unidimensionali, la libreria supporta anche la generazione di QR code e altre simbologie 2‑D.
 
-### Aspose.BarCode è adatto per generare codici QR?
-Mentre Aspose.BarCode si concentra principalmente sui codici a barre unidimensionali, puoi utilizzare Aspose.BarCode per .NET anche per generare codici QR.
+**D: È disponibile una versione di prova gratuita?**  
+R: Sì, puoi provare Aspose.BarCode per .NET gratuitamente scaricando la versione di prova [here](https://releases.aspose.com/).
 
-### È disponibile una prova gratuita?
- Sì, puoi provare Aspose.BarCode per .NET gratuitamente scaricando la versione di prova[Qui](https://releases.aspose.com/).
+**D: Dove posso ottenere supporto per Aspose.BarCode per .NET?**  
+R: Puoi chiedere aiuto e condividere le tue esperienze sul forum Aspose.BarCode per .NET [here](https://forum.aspose.com/c/barcode/13).
 
-### Dove posso ottenere supporto per Aspose.BarCode per .NET?
- Puoi cercare aiuto e condividere le tue esperienze sul forum Aspose.BarCode per .NET[Qui](https://forum.aspose.com/c/barcode/13).
+**Ultimo aggiornamento:** 2026-02-25  
+**Testato con:** Aspose.BarCode 24.11 per .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

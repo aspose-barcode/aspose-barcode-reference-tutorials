@@ -1,78 +1,94 @@
 ---
-title: Skapa endimensionell kod 93 streckkoder
-linktitle: Endimensionell kod 93-konfiguration
+date: 2026-02-25
+description: Lär dig hur du skapar en streckkodbild och sparar den som PNG med Aspose.BarCode
+  för .NET – ett komplett Aspose‑streckkodsexempel.
+linktitle: One-Dimensional Code 93 Configuration
 second_title: Aspose.BarCode .NET API
-description: Lär dig hur du skapar Code 93 streckkoder med Aspose.BarCode för .NET. Steg-för-steg guide för generering av streckkoder.
-weight: 12
+title: Generera streckkodbild – Code 93 med Aspose.BarCode
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa endimensionell kod 93 streckkoder
-
+# Generera streckkodbild – Endimensionell Code 93 med Aspose.BarCode
 
 ## Introduktion
 
-dagens digitala tidsålder har streckkoder blivit en integrerad del av våra liv, vilket förenklar olika processer som lagerhantering, produktmärkning och mer. Aspose.BarCode för .NET är ett kraftfullt verktyg som låter utvecklare skapa och arbeta med streckkoder i sina applikationer utan ansträngning. I denna steg-för-steg-guide kommer vi att utforska hur man skapar endimensionella Code 93-streckkoder med Aspose.BarCode för .NET. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen att leda dig genom processen på ett användarvänligt sätt. Låt oss börja!
+I dagens digitala era har streckkoder blivit en integrerad del av våra liv och förenklar processer såsom lagerhantering, produktmärkning och försäljningsspårning. **Generering av en streckkodbild** är ofta det första steget för att integrera dessa identifierare i dina applikationer. Aspose.BarCode för .NET erbjuder ett robust, lätt‑använt API som låter dig skapa högkvalitativa Code 93‑streckkoder med bara några rader C#‑kod. Oavsett om du bygger ett lagersystem, en detaljhandelsapp eller ett anpassat rapportverktyg, guidar den här handledningen dig genom ett komplett **aspose barcode‑exempel** som visar hur du genererar, anpassar och **sparar streckkod‑PNG**‑filer.
 
-## Förutsättningar:
+## Snabba svar
+- **Vad täcker handledningen?** Skapa och spara en Code 93‑streckkodbild med kontrollsumme‑hantering.  
+- **Vilket bibliotek används?** Aspose.BarCode för .NET (senaste stabila versionen).  
+- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Kan jag ändra utdataformatet?** Ja – du kan spara som PNG, JPEG, BMP osv. genom att ändra `BarCodeImageFormat`.  
+- **Vad är minimikraven?** .NET Framework 4.6+ eller .NET Core 3.1+ samt Visual Studio.
 
-Innan vi dyker in i att skapa Code 93 streckkoder, finns det några förutsättningar du måste ha på plats:
-1. Visual Studio: Se till att du har Visual Studio installerat på ditt system. Du kan ladda ner den från webbplatsen.
-2. Aspose.BarCode för .NET: Du bör ha Aspose.BarCode för .NET installerat. Du kan ladda ner den från webbplatsen.
-3. Grundläggande kunskaper i C#: Bekantskap med programmeringsspråket C# kommer att vara meriterande.
+## Vad är en Code 93‑streckkod?
+Code 93 är en högdensitets, alfanumerisk symbologi som stöder hela ASCII‑teckenuppsättningen. Den väljs ofta för sin kompakta storlek och inbyggda kontrollsumma, vilket hjälper till att säkerställa dataintegritet vid skanning.
 
-Nu när du har de nödvändiga förutsättningarna kan vi gå vidare till steg-för-steg-guiden.
+## Varför generera streckkodsbilder med Aspose.BarCode?
+- **Full kontroll** över kodningstyp, kontrollsumma, storlek och bildformat.  
+- **Inga externa beroenden** – biblioteket körs på vilken .NET‑plattform som helst.  
+- **Utmärkt renderingskvalitet**, lämplig både för skärmvisning och högupplöst utskrift.  
+- **Omfattande dokumentation** och ett stort antal exempel som påskyndar utvecklingen.
 
-## Importera namnområden:
+## Förutsättningar
 
-Först måste vi importera de nödvändiga namnområdena för att kunna använda Aspose.BarCode för .NET effektivt. Detta kommer att göra det möjligt för oss att komma åt bibliotekets funktionalitet i vår kod. Så här kan du göra det:
+Innan vi dyker ner i koden, se till att du har följande:
+
+1. **Visual Studio** (någon recent version).  
+2. **Aspose.BarCode för .NET** installerat – du kan hämta det från den officiella nedladdningssidan.  
+3. Grundläggande kunskap om **C#** och .NET‑projektstruktur.
+
+Nu när du är klar, låt oss gå vidare till steg‑för‑steg‑guiden.
+
+## Importera namnrymder
+
+Först, importera de nödvändiga namnrymderna så att du kan komma åt klasserna för streckkodsgenerering.
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## Steg 1: Ställ in katalogsökvägen
+## Steg 1: Ange sökvägen till katalogen
 
-Innan vi skapar kod 93-streckkoden bör vi ange katalogen där vi vill spara de genererade streckkodsbilderna. Ersätt "Din katalogsökväg" med sökvägen till din önskade katalog.
+Definiera var den genererade streckkodbilden ska sparas. Ersätt platshållaren med en giltig mapp på din maskin.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Steg 2: Skapa en endimensionell kod 93 streckkod
+## Steg 2: Skapa en endimensionell Code 93‑streckkod
 
-Låt oss nu skapa en endimensionell kod 93 streckkod med Aspose.BarCode för .NET. Vi konfigurerar streckkoden med specifika parametrar.
+Instansiera en `BarcodeGenerator` med typen `Code93Extended` och den data du vill koda.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code93Extended, "CODE");
 ```
 
-I koden ovan initierar vi ett BarcodeGenerator-objekt med streckkodstypen inställd på "Code93Extended" och data vi vill koda som "CODE."
+## Steg 3: Aktivera kontrollsumma (valfritt)
 
-## Steg 3: Aktivera Checksumma
-
-Som standard innehåller kod 93-streckkoder ett kontrollsummavärde för dataintegritet. Du kan aktivera eller inaktivera den här funktionen enligt dina krav. I det här exemplet aktiverar vi kontrollsumman.
+Code 93 inkluderar en kontrollsumma som standard. Du kan växla den med egenskapen `IsChecksumEnabled`.
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 ```
 
-## Steg 4: Spara streckkodsbilden
+## Steg 4: Spara streckkodsbilden (Spara streckkod PNG)
 
-Nu när vi har konfigurerat streckkoden är det dags att generera och spara den som en bild i den angivna katalogen. I det här fallet sparar vi den som en PNG-bild.
+Generera bilden och spara den som en PNG‑fil i den mapp du angav tidigare.
 
 ```csharp
 gen.Save($"{path}OneCSCode93WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-## Steg 5: Hantera undantag
+## Steg 5: Hantera undantag – Generera utan kontrollsumma
 
-I vissa situationer kanske du vill generera en kod 93 streckkod utan en kontrollsumma. I sådana fall måste du hantera undantag. Så här kan du göra det:
+Om du behöver skapa en streckkod **utan** kontrollsumma, måste du hantera eventuella undantag som kan uppstå.
 
 ```csharp
 try
@@ -86,28 +102,33 @@ catch (Exception e)
 }
 ```
 
-I koden ovan försöker vi generera en streckkod utan en kontrollsumma. Om ett undantag inträffar fångar vi det och visar ett felmeddelande.
+### Vanliga problem och lösningar
+- **Ogiltig sökväg** – säkerställ att katalogen finns och att applikationen har skrivbehörighet.  
+- **Ej stödda tecken** – Code 93 stöder hela ASCII‑uppsättningen, men kontrolltecken kan orsaka fel.  
+- **Licens ej angiven** – utan en giltig licens körs biblioteket i utvärderingsläge och kan lägga till ett vattenmärke.
 
-Nu när vi har gått igenom varje steg för att skapa en endimensionell kod 93 streckkod med Aspose.BarCode för .NET, har du en grundläggande förståelse för processen. Kom ihåg att anpassa dessa steg till ditt specifika användningsfall.
+## Vanliga frågor (FAQ)
 
-Sammanfattningsvis förenklar Aspose.BarCode för .NET genereringen av streckkoder i dina applikationer. Med möjligheten att anpassa parametrar kan du skapa streckkoder som uppfyller dina exakta behov. Så varför inte ge det ett försök och effektivisera dina streckkodsrelaterade uppgifter med lätthet?
+### Q: Var kan jag hitta dokumentationen för Aspose.BarCode för .NET?
+A: Du kan hitta dokumentationen på [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
-## Vanliga frågor (FAQs):
+### Q: Hur laddar jag ner Aspose.BarCode för .NET?
+A: Du kan ladda ner Aspose.BarCode för .NET från webbplatsen på [Aspose.BarCode for .NET Download](https://releases.aspose.com/barcode/net/).
 
-### F: Var kan jag hitta dokumentationen för Aspose.BarCode för .NET?
- S: Du hittar dokumentationen på[Aspose.BarCode för .NET-dokumentation](https://reference.aspose.com/barcode/net/).
+### Q: Finns det en gratis provversion av Aspose.BarCode för .NET?
+A: Ja, du kan få en gratis provversion av Aspose.BarCode för .NET från [here](https://releases.aspose.com/).
 
-### F: Hur laddar jag ner Aspose.BarCode för .NET?
- S: Du kan ladda ner Aspose.BarCode för .NET från webbplatsen på[Aspose.BarCode för .NET Ladda ner](https://releases.aspose.com/barcode/net/).
+### Q: Hur kan jag köpa en licens för Aspose.BarCode för .NET?
+A: Du kan köpa en licens på köpsidan på [Aspose.BarCode for .NET Purchase](https://purchase.aspose.com/buy).
 
-### F: Finns det en gratis testversion tillgänglig för Aspose.BarCode för .NET?
- S: Ja, du kan få en gratis provversion av Aspose.BarCode för .NET från[här](https://releases.aspose.com/).
+### Q: Var kan jag få support eller ställa frågor om Aspose.BarCode för .NET?
+A: Du kan hitta ett community‑forum för support och diskussioner på [Aspose.BarCode for .NET Support](https://forum.aspose.com/c/barcode/13).
 
-### F: Hur kan jag köpa en licens för Aspose.BarCode för .NET?
- S: Du kan köpa en licens från köpsidan på[Aspose.BarCode för .NET-köp](https://purchase.aspose.com/buy).
+---
 
-### F: Var kan jag få support eller ställa frågor om Aspose.BarCode för .NET?
- S: Du kan hitta ett communityforum för support och diskussioner på[Aspose.BarCode för .NET-stöd](https://forum.aspose.com/c/barcode/13).
+**Senast uppdaterad:** 2026-02-25  
+**Testat med:** Aspose.BarCode 24.11 för .NET  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

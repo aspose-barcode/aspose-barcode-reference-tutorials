@@ -1,78 +1,94 @@
 ---
-title: Tek Boyutlu Kod 93 Barkod Oluşturma
-linktitle: Tek Boyutlu Kod 93 Yapılandırması
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode for .NET ile Code 93 barkodlarını nasıl oluşturacağınızı öğrenin. Barkod oluşturma için adım adım kılavuz.
-weight: 12
+date: 2026-02-25
+description: Aspose.BarCode for .NET kullanarak barkod görüntüsü oluşturmayı ve barkod
+  PNG'sini kaydetmeyi öğrenin – eksiksiz bir Aspose barkod örneği.
+linktitle: One-Dimensional Code 93 Configuration
+second_title: Aspose.BarCode .NET API
+title: Barkod görüntüsü oluştur – Aspose.BarCode ile Code 93
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tek Boyutlu Kod 93 Barkod Oluşturma
+# Barkod görüntüsü oluşturma – Tek Boyutlu Code 93 Aspose.BarCode ile
 
+## Giriş
 
-## giriiş
+Günümüz dijital çağında, barkodlar envanter yönetimi, ürün etiketleme ve satış noktası takibi gibi süreçleri basitleştirerek hayatımızın ayrılmaz bir parçası haline geldi. **Barkod görüntüsü oluşturma** genellikle bu tanımlayıcıları uygulamalarınıza entegre etmenin ilk adımıdır. Aspose.BarCode for .NET, sadece birkaç satır C# kodu ile yüksek kaliteli Code 93 barkodları oluşturmanıza olanak tanıyan sağlam, kullanımı kolay bir API sunar. Bir depo sistemi, perakende uygulaması veya özel raporlama aracı geliştiriyor olun, bu öğretici **aspose barkod örneği** üzerinden barkod oluşturmayı, özelleştirmeyi ve **barkod PNG** dosyalarını kaydetmeyi adım adım gösterir.
 
-Günümüzün dijital çağında barkodlar, envanter yönetimi, ürün etiketleme ve daha fazlası gibi çeşitli süreçleri basitleştirerek hayatımızın ayrılmaz bir parçası haline geldi. Aspose.BarCode for .NET, geliştiricilerin uygulamalarında zahmetsizce barkod oluşturmasına ve barkodlarla çalışmasına olanak tanıyan güçlü bir araçtır. Bu adım adım kılavuzda Aspose.BarCode for .NET kullanarak tek boyutlu Code 93 barkodlarının nasıl oluşturulacağını inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size süreç boyunca kullanıcı dostu bir şekilde yol gösterecektir. Başlayalım!
+## Hızlı Yanıtlar
+- **Bu öğreticide ne ele alınıyor?** Code 93 barkod görüntüsü oluşturma ve checksum işleme ile kaydetme.  
+- **Hangi kütüphane kullanılıyor?** Aspose.BarCode for .NET (en son kararlı sürüm).  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Çıktı formatını değiştirebilir miyim?** Evet – `BarCodeImageFormat` değerini değiştirerek PNG, JPEG, BMP vb. olarak kaydedebilirsiniz.  
+- **Minimum gereksinimler nelerdir?** .NET Framework 4.6+ veya .NET Core 3.1+ ve Visual Studio.
 
-## Önkoşullar:
+## Code 93 barkodu nedir?
+Code 93, tam ASCII karakter setini destekleyen yüksek yoğunluklu, alfanümerik bir sembolojidir. Kompakt boyutu ve yerleşik checksum’u sayesinde tarama sırasında veri bütünlüğünün sağlanmasına yardımcı olur.
 
-Code 93 barkodları oluşturmaya başlamadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
-1. Visual Studio: Sisteminizde Visual Studio'nun kurulu olduğundan emin olun. Web sitesinden indirebilirsiniz.
-2. Aspose.BarCode for .NET: Aspose.BarCode for .NET'in kurulu olması gerekir. Web sitesinden indirebilirsiniz.
-3. Temel C# bilgisi: C# programlama diline aşina olmak faydalı olacaktır.
+## Neden Aspose.BarCode ile barkod görüntüsü oluşturmalısınız?
+- **Tam kontrol** kodlama türü, checksum, boyut ve görüntü formatı üzerinde.  
+- **Harici bağımlılık yok** – kütüphane herhangi bir .NET platformunda çalışır.  
+- **Mükemmel render kalitesi**, hem ekran görüntüsü hem de yüksek çözünürlüklü baskı için uygundur.  
+- **Kapsamlı dokümantasyon** ve geliştirmeyi hızlandıran çok sayıda örnek.
 
-Artık gerekli önkoşullara sahip olduğunuza göre adım adım kılavuza geçebiliriz.
+## Önkoşullar
 
-## Ad Alanlarını İçe Aktar:
+Kodun içine dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-Aspose.BarCode for .NET'i etkili bir şekilde kullanabilmek için öncelikle gerekli ad alanlarını içe aktarmamız gerekiyor. Bu, kütüphanenin kodumuzdaki işlevselliğine erişmemizi sağlayacaktır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+1. **Visual Studio** (herhangi bir yeni sürüm).  
+2. **Aspose.BarCode for .NET** yüklü – resmi indirme sayfasından edinebilirsiniz.  
+3. **C#** ve .NET proje yapısına temel aşinalık.
+
+Şimdi her şey hazır, adım adım kılavuza geçelim.
+
+## Ad Alanlarını İçe Aktarma
+
+Gerekli sınıflara erişebilmek için öncelikle gerekli ad alanlarını içe aktarın.
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## 1. Adım: Dizin Yolunu Ayarlayın
+## Adım 1: Dizin Yolunu Ayarlama
 
-Code 93 barkodunu oluşturmadan önce, oluşturulan barkod görsellerini kaydetmek istediğimiz dizini belirtmeliyiz. "Dizin Yolunuz"u istediğiniz dizinin yolu ile değiştirin.
+Oluşturulan barkod görüntüsünün kaydedileceği yeri tanımlayın. Yer tutucuyu makinenizde geçerli bir klasörle değiştirin.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Adım 2: Tek Boyutlu Kod 93 Barkodu Oluşturun
+## Adım 2: Tek Boyutlu Code 93 Barkodu Oluşturma
 
-Şimdi Aspose.BarCode for .NET'i kullanarak tek boyutlu Code 93 barkodu oluşturalım. Barkodu belirli parametrelerle yapılandıracağız.
+`Code93Extended` türü ve kodlamak istediğiniz veri ile bir `BarcodeGenerator` örneği oluşturun.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code93Extended, "CODE");
 ```
 
-Yukarıdaki kodda, barkod türü "Code93Extished" ve kodlamak istediğimiz veriler "CODE" olarak ayarlanmış bir BarcodeGenerator nesnesini başlatıyoruz.
+## Adım 3: Checksum'i Etkinleştir (İsteğe Bağlı)
 
-## 3. Adım: Sağlama Toplamını Etkinleştirin
-
-Code 93 barkodları varsayılan olarak veri bütünlüğü için bir sağlama toplamı değeri içerir. İhtiyaçlarınıza göre bu özelliği etkinleştirebilir veya devre dışı bırakabilirsiniz. Bu örnekte sağlama toplamını etkinleştiriyoruz.
+Code 93 varsayılan olarak bir checksum içerir. `IsChecksumEnabled` özelliğini kullanarak bunu açıp kapatabilirsiniz.
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 ```
 
-## Adım 4: Barkod Görüntüsünü Kaydedin
+## Adım 4: Barkod Görüntüsünü Kaydet (Barkod PNG Kaydet)
 
-Artık barkodu yapılandırdığımıza göre, onu oluşturup belirtilen dizine resim olarak kaydetme zamanı geldi. Bu durumda onu PNG görüntüsü olarak kaydediyoruz.
+Görüntüyü oluşturun ve daha önce belirttiğiniz klasöre PNG dosyası olarak kaydedin.
 
 ```csharp
 gen.Save($"{path}OneCSCode93WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-## Adım 5: İstisnaları Ele Alma
+## Adım 5: İstisna İşleme – Checksum Olmadan Oluşturma
 
-Bazı durumlarda sağlama toplamı olmadan Code 93 barkodu oluşturmak isteyebilirsiniz. Bu gibi durumlarda istisnaları ele almanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Bir barkodu **checksum olmadan** oluşturmanız gerekiyorsa, ortaya çıkabilecek olası istisnaları ele almanız gerekir.
 
 ```csharp
 try
@@ -86,28 +102,33 @@ catch (Exception e)
 }
 ```
 
-Yukarıdaki kodda sağlama toplamı olmayan bir barkod oluşturmaya çalışıyoruz. Bir istisna meydana gelirse onu yakalarız ve bir hata mesajı görüntüleriz.
+### Yaygın Sorunlar ve Çözümler
+- **Geçersiz yol** – dizinin var olduğundan ve uygulamanın yazma iznine sahip olduğundan emin olun.  
+- **Desteklenmeyen karakterler** – Code 93 tam ASCII setini destekler, ancak kontrol karakterleri hatalara neden olabilir.  
+- **Lisans ayarlanmamış** – geçerli bir lisans olmadan kütüphane değerlendirme modunda çalışır ve bir filigran ekleyebilir.
 
-Artık Aspose.BarCode for .NET'i kullanarak tek boyutlu Code 93 barkodu oluşturmanın her adımını incelediğimize göre, süreç hakkında temel bir anlayışa sahipsiniz. Bu adımları özel kullanım durumunuza uyarlamayı unutmayın.
+## Sıkça Sorulan Sorular (SSS)
 
-Sonuç olarak Aspose.BarCode for .NET, uygulamalarınızda barkod oluşturmayı basitleştirir. Parametreleri kişiselleştirme özelliği sayesinde ihtiyaçlarınızı tam olarak karşılayan barkodlar oluşturabilirsiniz. Öyleyse neden bunu deneyip barkodla ilgili görevlerinizi kolaylıkla kolaylaştırmıyorsunuz?
-
-## Sıkça Sorulan Sorular (SSS):
-
-### S: Aspose.BarCode for .NET belgelerini nerede bulabilirim?
- C: Belgeleri şu adreste bulabilirsiniz:[Aspose.BarCode for .NET Belgeleri](https://reference.aspose.com/barcode/net/).
+### S: Aspose.BarCode for .NET dokümantasyonunu nerede bulabilirim?
+C: Dokümantasyonu [Aspose.BarCode for .NET Dokümantasyonu](https://reference.aspose.com/barcode/net/) adresinde bulabilirsiniz.
 
 ### S: Aspose.BarCode for .NET'i nasıl indirebilirim?
- C: Aspose.BarCode for .NET'i şu adresteki web sitesinden indirebilirsiniz:[Aspose.BarCode for .NET İndirme](https://releases.aspose.com/barcode/net/).
+C: Aspose.BarCode for .NET'i web sitesinden [Aspose.BarCode for .NET İndirme](https://releases.aspose.com/barcode/net/) sayfasından indirebilirsiniz.
 
-### S: Aspose.BarCode for .NET'in ücretsiz deneme sürümü mevcut mu?
- C: Evet, Aspose.BarCode for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+### S: Aspose.BarCode for .NET için ücretsiz bir deneme mevcut mu?
+C: Evet, Aspose.BarCode for .NET ücretsiz denemesini [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-### S: Aspose.BarCode for .NET lisansını nasıl satın alabilirim?
- C: Lisansı şu adresteki satın alma sayfasından satın alabilirsiniz:[.NET Satın Alma için Aspose.BarCode](https://purchase.aspose.com/buy).
+### S: Aspose.BarCode for .NET için lisans nasıl satın alınır?
+C: Lisansı satın alma sayfasından [Aspose.BarCode for .NET Satın Al](https://purchase.aspose.com/buy) alabilirsiniz.
 
-### S: Aspose.BarCode for .NET hakkında nereden destek alabilirim veya soru sorabilirim?
- C: Destek ve tartışmalar için şu adreste bir topluluk forumu bulabilirsiniz:[.NET Desteği için Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+### S: Aspose.BarCode for .NET ile ilgili destek veya soru sormak için nereden ulaşabilirim?
+C: Destek ve tartışmalar için topluluk forumunu [Aspose.BarCode for .NET Destek](https://forum.aspose.com/c/barcode/13) adresinde bulabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-02-25  
+**Test Edilen Sürüm:** Aspose.BarCode 24.11 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

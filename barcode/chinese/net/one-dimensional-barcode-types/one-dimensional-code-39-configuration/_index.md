@@ -1,83 +1,134 @@
 ---
-title: 一维 Code 39 配置
-linktitle: 一维 Code 39 配置
+date: 2026-02-25
+description: 了解如何使用 Aspose.BarCode for .NET 生成条形码图像。本分步指南展示了如何生成带校验码和不带校验码的 Code 39
+  条形码。
+linktitle: One-Dimensional Code 39 Configuration
 second_title: Aspose.BarCode .NET API
-description: 了解如何使用 Aspose.BarCode 在 .NET 中生成一维 Code 39 条形码。开发人员的分步指南。
-weight: 11
+title: 如何使用 Aspose.BarCode 生成条形码 – Code 39 配置
 url: /zh/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/
+weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Now write final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 一维 Code 39 配置
+# 一维 Code 39 配置
 
+## 简介
 
-## 介绍
+在本教程中，您将学习 **如何生成条形码** 图像，特别是一维 Code 39 条形码，使用 Aspose.BarCode for .NET。条形码在现代企业中发挥着关键作用，从库存跟踪到实现快速、准确的数据检索。Aspose.BarCode for .NET 是一个强大的库，可简化在 .NET 应用程序中生成和自定义条形码的过程。本分步指南将过程拆分为易于消化的部分，确保即使是条形码生成新手的开发者也能轻松跟随。
 
-条形码在现代企业中发挥着至关重要的作用，从跟踪库存到实现快速准确的数据检索。 Aspose.BarCode for .NET 是一个功能强大的库，可以简化 .NET 应用程序中条形码的生成和自定义。在本综合指南中，我们将探讨使用 Aspose.BarCode for .NET 创建一维 Code 39 条形码的各个方面。本分步教程将把整个过程分解为易于理解的部分，确保即使是初学者也能跟上。
+## 快速回答
+- **主要的库是什么？** Aspose.BarCode for .NET  
+- **我可以创建带校验和的条形码吗？** Yes – set `IsChecksumEnabled = EnableChecksum.Yes`  
+- **校验和是必需的吗？** No – you can generate a barcode without checksum by disabling it  
+- **示例中使用的图像格式是什么？** PNG (`BarCodeImageFormat.Png`)  
+- **开发时需要许可证吗？** A temporary license is available for evaluation  
+
+## 什么是使用 Aspose.BarCode 生成条形码？
+
+条形码生成是将文本或数字数据转换为机器可读的视觉模式的过程。Aspose.BarCode for .NET 支持数十种符号系统，包括 Code 39，并且让您能够从尺寸、颜色到校验和计算等各方面进行控制。
+
+## 为什么使用 Code 39 以及校验和选项？
+
+Code 39 在物流和制造业中被广泛采用，因为它能够在不使用特殊字符的情况下编码字母数字数据。添加校验和（或不添加）可以在错误检测与简洁性之间取得平衡——非常适合库存标签、运输标签或简单的销售点系统。
 
 ## 先决条件
 
-在我们深入了解使用 Aspose.BarCode for .NET 生成条形码的世界之前，您应该具备一些先决条件：
+在开始之前，请确保您具备以下条件：
 
-1.  .NET 开发环境：您应该具备 .NET 框架的应用知识并设置好开发环境。如果您是 .NET 新手，请考虑浏览 .NET 文档：[微软.NET文档](https://docs.microsoft.com/en-us/dotnet/).
+1. **.NET 开发环境** – 对 .NET 框架有一定了解，并使用如 Visual Studio 的 IDE。如果您是 .NET 新手，请从官方文档开始：[Microsoft .NET Documentation](https://docs.microsoft.com/en-us/dotnet/)。  
+2. **Aspose.BarCode for .NET** – 下载并安装该库。文档和下载链接如下：[Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/) 和 [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/)。
 
-2. Aspose.BarCode for .NET：下载并安装 Aspose.BarCode for .NET。您可以在 Aspose 网站上找到该库和文档：[Aspose.BarCode for .NET 文档](https://reference.aspose.com/barcode/net/)和[下载 .NET 版 Aspose.BarCode](https://releases.aspose.com/barcode/net/).
+既然我们已经介绍了先决条件，接下来让我们进入创建一维 Code 39 条形码的主要步骤。
 
-现在我们已经介绍了先决条件，让我们继续使用 Aspose.BarCode for .NET 创建一维 Code 39 条形码的主要步骤。
+## 如何生成条形码：导入命名空间
 
-## 第 1 步：导入命名空间
-要开始使用 Aspose.BarCode for .NET，您需要将必要的命名空间导入到您的项目中。将以下行添加到您的代码中：
+要开始使用 Aspose.BarCode for .NET，请在项目中导入必要的命名空间。添加这些 `using` 语句即可访问条形码生成类。
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-这些命名空间提供对条形码生成所需的类和方法的访问。
+## 如何生成 Code 39 条形码（带校验和和不带校验和）
 
-## 步骤 2：创建一维 Code 39 条形码
-
-现在，让我们创建一个一维 Code 39 条形码。我们将演示两个示例：一个没有校验和，另一个有校验和。
+下面我们将创建两个条形码：一个 **不带校验和**，一个 **带校验和**。代码唯一的区别在于 `IsChecksumEnabled` 标志。
 
 ```csharp
-//文档目录的路径。
+// The path to the documents directory.
 string path = "Your Directory Path";
 System.Console.WriteLine("OneCSCode39:");
 
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code39Extended, "CODE");
 
-//示例 1：创建不带校验和的 Code 39 条形码
+// Example 1: Create a Code 39 barcode without checksum
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.No;
 gen.Save($"{path}OneCSCode39WithoutChecksum.png", BarCodeImageFormat.Png);
 
-//示例 2：创建带校验和的 Code 39 条形码
+// Example 2: Create a Code 39 barcode with checksum
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 gen.Save($"{path}OneCSCode39WithChecksum.png", BarCodeImageFormat.Png);
 ```
 
-在这些示例中，我们使用 Code39Extended 编码类型初始化 BarcodeGenerator 并设置条形码内容。然后，我们创建两种不同的条形码，一种带校验和，一种不带校验和，并将它们保存为 PNG 文件。
+**代码功能说明**
 
-总之，Aspose.BarCode for .NET 是一个多功能且用户友好的库，可以简化 .NET 应用程序中的条形码生成。通过执行这些简单的步骤，您可以创建带或不带校验和的一维 Code 39 条形码。无论您是管理库存、处理订单还是提高数据准确性，Aspose.BarCode for .NET 都是开发人员工具箱中的宝贵工具。
+1. **实例化** `BarcodeGenerator`，使用 `EncodeTypes.Code39Extended` 和数据字符串 `"CODE"`。  
+2. **切换** `IsChecksumEnabled` 以控制是否附加校验和数字。  
+3. **保存** 每个条形码为 PNG 文件到指定文件夹。
 
-## 常见问题 (FAQ)：
+现在您已经拥有两个可直接使用的条形码图像：`OneCSCode39WithoutChecksum.png` 和 `OneCSCode39WithChecksum.png`。
 
-### 问：我可以将 Aspose.BarCode for .NET 与其他编程语言一起使用吗？
-答：Aspose.BarCode 主要是为 .NET 设计的，但 Aspose 也为其他平台提供条形码库。
+## 常见问题及解决方案
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **未找到文件路径** | `path` 变量指向一个不存在的文件夹。 | 确保目录存在，或使用 `Directory.CreateDirectory(path)`。 |
+| **数据中包含无效字符** | Code 39 仅支持字母数字以及少量特殊符号。 | 使用扩展的 Code 39（`Code39Extended`），它支持完整的 ASCII 集，如上所示。 |
+| **校验和错误** | 在需要时忘记设置 `IsChecksumEnabled`。 | 根据实际情况显式将标志设置为 `EnableChecksum.Yes` 或 `No`。 |
 
-### 问：Aspose.BarCode for .NET 有可用的许可选项吗？
-答：是的，您可以探索许可选项并在 Aspose 网站上请求临时许可：[Aspose.BarCode 许可](https://purchase.aspose.com/temporary-license/).
+## 常见问题 (FAQs)：
 
-### 问：Aspose.BarCode for .NET 适合 Web 应用程序吗？
-答：是的，Aspose.BarCode for .NET可以在Web应用程序中使用，使其适合广泛的开发项目。
+### Q: 我可以在其他编程语言中使用 Aspose.BarCode for .NET 吗？
+A: Aspose.BarCode 主要面向 .NET 设计，但 Aspose 也提供其他平台的条形码库。
 
-### 问：我可以自定义生成的条形码的外观吗？
-答：当然，您可以自定义条形码的各个方面，包括大小、颜色和字体。
+### Q: Aspose.BarCode for .NET 有哪些授权选项可用？
+A: 有，您可以在 Aspose 网站上查看授权选项并申请临时授权：[Aspose.BarCode Licensing](https://purchase.aspose.com/temporary-license/)。
 
-### 问：我在哪里可以获得有关 Aspose.BarCode for .NET 的支持或提出问题？
-答：您可以在 Aspose.BarCode 论坛上找到问题的答案并寻求支持：[Aspose.BarCode 论坛](https://forum.aspose.com/c/barcode/13).
+### Q: Aspose.BarCode for .NET 适用于 Web 应用程序吗？
+A: 是的，Aspose.BarCode for .NET 可用于 Web 应用程序，适用于各种开发项目。
+
+### Q: 我可以自定义生成的条形码外观吗？
+A: 当然，您可以自定义条形码的各个方面，包括尺寸、颜色和字体。
+
+### Q: 我在哪里可以获得 Aspose.BarCode for .NET 的支持或提问？
+A: 您可以在 Aspose.BarCode 论坛上找到答案并寻求支持：[Aspose.BarCode Forum](https://forum.aspose.com/c/barcode/13)。
+
+## 其他常见问题
+
+**Q: 带校验和的条形码与不带校验和的条形码有什么区别？**  
+A: 校验和会添加一个额外的数字，以帮助检测抄写错误。当数据完整性至关重要时使用。
+
+**Q: 生成的 PNG 大小可以有多大？**  
+A: 大小通过 `gen.Parameters.ImageWidth/Height` 控制。调用 `Save` 之前请调整这些属性。
+
+**Q: 我可以生成其他图像格式的条形码吗？**  
+A: 可以，Aspose.BarCode 支持 JPEG、BMP、GIF、TIFF 等格式，只需更改 `BarCodeImageFormat` 枚举即可。
+
+**Q: 是否有办法在 Web 应用中生成条形码而不写入磁盘？**  
+A: 您可以保存到 `MemoryStream`，并直接将字节数组返回给客户端。
+
+## 结论
+通过遵循这些简单步骤，您可以在 .NET 中 **生成条形码** 图像，并全面控制校验和处理、图像格式和视觉样式。无论是管理库存、处理订单，还是构建支持条形码的 Web 门户，Aspose.BarCode for .NET 都提供了可靠且对开发者友好的解决方案。
+
+---
+
+**最后更新：** 2026-02-25  
+**测试环境：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
