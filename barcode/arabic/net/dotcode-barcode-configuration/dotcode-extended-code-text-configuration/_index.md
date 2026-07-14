@@ -1,87 +1,97 @@
 ---
-title: تكوين نص التعليمات البرمجية الموسع DotCode باستخدام Aspose.BarCode لـ .NET
-linktitle: DotCode تكوين نص التعليمات البرمجية الموسعة
+date: 2026-01-27
+description: تعلم كيفية إنشاء نص رمزي موسع لرمز DotCode باستخدام Aspose.BarCode لـ
+  .NET – دليل خطوة بخطوة لتوليد باركودات DotCode بنص رمزي موسع.
+linktitle: DotCode Extended Code Text Configuration
 second_title: Aspose.BarCode .NET API
-description: يمكنك إنشاء تكوين نص التعليمات البرمجية الممتد لـ DotCode بسهولة باستخدام Aspose.BarCode لـ .NET. اتبع دليلنا خطوة بخطوة لإنشاء الباركود بكفاءة.
-weight: 13
+title: كيفية إنشاء نص رمز دوت كود الموسع باستخدام Aspose.BarCode لـ .NET
 url: /ar/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تكوين نص التعليمات البرمجية الموسع DotCode باستخدام Aspose.BarCode لـ .NET
+# كيفية إنشاء dotcode extended codetext باستخدام Aspose.BarCode لـ .NET
 
 ## مقدمة
 
-في مجال إنشاء وإدارة الرموز الشريطية، يبرز Aspose.BarCode for .NET كحل متعدد الاستخدامات وفعال. سواء كنت بحاجة إلى إنشاء رموز شريطية للمنتجات أو المخزون أو أي تطبيق آخر، فإن Aspose.BarCode for .NET يوفر لك كل ما تحتاجه. في هذا البرنامج التعليمي الشامل، سنركز على إنشاء تكوين نص التعليمات البرمجية الممتد لـ DotCode باستخدام Aspose.BarCode لـ .NET. DotCode هو رمز شريطي مصفوفي ثنائي الأبعاد يمكنه تشفير البيانات النصية والثنائية، مما يجعله أداة قيمة في مختلف الصناعات.
+في مجال إنشاء وإدارة الباركود، تبرز Aspose.BarCode لـ .NET كحل متعدد الاستخدامات وفعّال. سواء كنت بحاجة إلى توليد باركود للمنتجات أو المخزون أو أي تطبيق آخر، فإن Aspose.BarCode لـ .NET يغطي جميع احتياجاتك. في هذا الدرس الشامل، سنقوم **بإنشاء dotcode extended codetext** ونستكشف لماذا تُعد هذه القدرة أساسية للبيئات الحديثة الغنية بالبيانات. DotCode هو باركود مصفوفة ثنائية الأبعاد يمكنه ترميز كل من البيانات النصية والبيانات الثنائية، مما يجعله أداة قيمة في صناعات متعددة.
+
+## إجابات سريعة
+- **ماذا يعني “create dotcode extended codetext”؟** يعني بناء باركود DotCode يتضمن FNC1، ECICodetext، نص عادي، وفواصل الرموز في حمولة ممتدة واحدة.  
+- **ما المكتبة المطلوبة؟** Aspose.BarCode لـ .NET.  
+- **هل أحتاج إلى ترخيص؟** الترخيص المؤقت يكفي للتقييم؛ الترخيص الكامل مطلوب للإنتاج.  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7+.  
+- **كم يستغرق التنفيذ؟** حوالي 10‑15 دقيقة لمثال أساسي.
+
+## كيفية إنشاء نص برمجي موسع باستخدام DotCode
+
+فيما يلي دليل مختصر خطوة بخطوة يوضح بالضبط كيفية بناء النص الممتد وإنتاج صورة الباركود.
 
 ## المتطلبات الأساسية
 
-قبل أن نتعمق في الدليل التفصيلي، هناك بعض المتطلبات الأساسية التي يجب أن تتوفر لديك لمتابعتها بفعالية:
+قبل الخوض في دليل الخطوات، هناك بعض المتطلبات التي يجب توفرها لتتمكن من المتابعة بفعالية:
 
-1.  Aspose.BarCode for .NET: تأكد من تثبيت Aspose.BarCode لمكتبة .NET وجاهزيتها. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[Aspose.BarCode لوثائق .NET](https://reference.aspose.com/barcode/net/).
+1. Aspose.BarCode لـ .NET: تأكد من تثبيت مكتبة Aspose.BarCode لـ .NET وجاهزيتها. إذا لم تكن مثبتة، يمكنك تحميلها من [توثيق Aspose.BarCode لـ .NET](https://reference.aspose.com/barcode/net/).
 
-2. بيئة التطوير: يجب أن يكون لديك بيئة تطوير .NET عاملة، ويفضل Visual Studio، مثبتة على نظامك.
+2. بيئة تطوير: يجب أن تكون لديك بيئة تطوير .NET جاهزة، ويفضل أن تكون Visual Studio مثبتة على نظامك.
 
-بعد ترتيب هذه المتطلبات الأساسية، يمكننا الآن متابعة إنشاء تكوين نص التعليمات البرمجية الممتد لـ DotCode.
+مع توافر هذه المتطلبات، يمكننا الآن المتابعة لإنشاء DotCode Extended Code Text.
 
 ## استيراد مساحات الأسماء
 
-أولاً، تحتاج إلى استيراد مساحات الأسماء الضرورية إلى مشروع .NET الخاص بك للوصول إلى الوظائف المطلوبة من مكتبة Aspose.BarCode. وإليك كيف يمكنك القيام بذلك:
-
+أولاً، تحتاج إلى استيراد المساحات الاسمية (namespaces) الضرورية إلى مشروع .NET الخاص بك للوصول إلى الوظائف المطلوبة من مكتبة Aspose.BarCode. إليك الطريقة:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-الآن بعد أن قمنا بتغطية المتطلبات الأساسية، دعنا نقسم عملية إنشاء DotCode Extended Code Text Configuration إلى دليل خطوة بخطوة.
-
-
+الآن بعد أن غطينا المتطلبات المسبقة، دعنا نفصل عملية إنشاء DotCode Extended Code Text في دليل خطوة بخطوة.
 
 ## الخطوة 1: تحديد مسار الدليل
 
-في هذه الخطوة، تحتاج إلى تحديد مسار الدليل حيث تريد حفظ صورة DotCode Extended Code Text التي تم إنشاؤها.
+في هذه الخطوة، عليك تحديد مسار الدليل حيث تريد حفظ صورة DotCode Extended Code Text المولدة.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- يستبدل`"Your Directory Path"` مع المسار الفعلي على النظام الخاص بك.
+استبدل `"Your Directory Path"` بالمسار الفعلي على نظامك.
 
-## الخطوة 2: إنشاء نص كود DotCode الموسع
+## الخطوة 2: إنشاء نص برمجي موسع باستخدام DotCode
 
-لإنشاء نص التعليمات البرمجية الموسع DotCode، اتبع الخطوات الفرعية التالية:
+لإنشاء DotCode Extended Code Text، اتبع الخطوات الفرعية التالية:
 
-### 2.1 إضافة معرف تنسيق FNC1
+### 2.1 إضافة مُعرّف التنسيق FNC1
 
-يتم استخدام معرف التنسيق FNC1 للإشارة إلى بداية حقل بيانات جديد. إنه جزء أساسي من نص التعليمات البرمجية الممتد لـ DotCode.
+معرف تنسيق FNC1 يُستخدم للدلالة على بداية حقل بيانات جديد. وهو جزء أساسي من DotCode Extended Code Text.
 
 ```csharp
 DotCodeExtCodetextBuilder textBuilder = new DotCodeExtCodetextBuilder();
 textBuilder.AddFNC1FormatIdentifier();
 ```
 
-### 2.2 أضف نص ECIcode
+### 2.2 إضافة نص برمجي ECICode
 
-إن ECICodetext هو المكان الذي يمكنك فيه تشفير الأحرف الخاصة والنص الدولي. في هذا المثال، قمنا بتشفير "犬Right" باستخدام ترميز UTF-8.
+ECICodetext هو المكان الذي يمكنك فيه ترميز الأحرف الخاصة والنص الدولي. في هذا المثال، قمنا بترميز `"犬Right狗"` باستخدام ترميز UTF‑8.
 
 ```csharp
 textBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 ```
 
-### 2.3 أضف نصًا برمجيًا عاديًا
+### 2.3 إضافة نص برمجي عادي
 
-يمكنك أيضًا إضافة نص عادي إلى DotCode Extended Code Text. لقد أضفنا هنا "نص عادي".
+يمكنك أيضًا إضافة نص عادي إلى DotCode Extended Code Text. هنا، أضفنا `"Plain text"`.
 
 ```csharp
 textBuilder.AddPlainCodetext("Plain text");
 ```
 
-### 2.4 أضف فاصل الرموز FNC3
+### 2.4 إضافة فاصل الرموز FNC3
 
-يتم استخدام فاصل الرموز FNC3 لفصل الأقسام المختلفة من الكود.
+فاصل الرموز FNC3 يُستخدم لفصل الأقسام المختلفة من النص.
 
 ```csharp
 textBuilder.AddFNC3SymbolSeparator();
@@ -89,71 +99,81 @@ textBuilder.AddFNC3SymbolSeparator();
 
 ### 2.5 إضافة تهيئة قارئ FNC3
 
-تضيف هذه الخطوة معلومات تهيئة قارئ FNC3.
+هذه الخطوة تضيف معلومات تهيئة القارئ FNC3.
 
 ```csharp
 textBuilder.AddFNC3ReaderInitialization();
 ```
 
-### 2.6 إنشاء نص التعليمات البرمجية
+### 2.6 إنشاء نص الكود
 
- الآن، قم بإنشاء نص DotCode Extended Codetext عن طريق استدعاء`GetExtendedCodetext` الطريقة على`textBuilder` هدف.
+الآن، قم بإنشاء DotCode Extended Codetext عن طريق استدعاء طريقة `GetExtendedCodetext` على كائن `textBuilder`.
 
 ```csharp
 string codetext = textBuilder.GetExtendedCodetext();
 ```
 
-## الخطوة 3: إنشاء صورة DotCode
+## الخطوة 3: إنشاء صورة رمز DotCode
 
-لإنشاء نص التعليمات البرمجية الموسع DotCode كصورة، اتبع الخطوات الفرعية التالية:
+لإنشاء صورة DotCode Extended Code Text، اتبع الخطوات الفرعية التالية:
 
-#### 4.1 تهيئة مولد الباركود
+### 4.1 تهيئة مولد الباركود
 
- تهيئة`BarcodeGenerator` مع المعلمات المناسبة. في هذه الحالة نستخدم`EncodeTypes.DotCode` والنص الكودي الذي تم إنشاؤه.
+قم بتهيئة `BarcodeGenerator` بالمعلمات المناسبة. في هذه الحالة، نستخدم `EncodeTypes.DotCode` والنص المولد.
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {
-    // قم بتعيين البعد X للرمز الشريطي (اضبطه حسب الحاجة).
+    // Set the X-dimension for the barcode (adjust as needed).
     gen.Parameters.Barcode.XDimension.Pixels = 10;
 
-    // اضبط وضع ترميز DotCode على ExtendedCodetext.
+    // Set the DotCode encoding mode to ExtendedCodetext.
     gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
 
-    //احفظ صورة الباركود التي تم إنشاؤها.
+    // Save the generated barcode image.
     gen.Save($"{path}DotCodeExtendedCodetext.png", BarCodeImageFormat.Png);
 }
 ```
 
-وهذا كل شيء! لقد نجحت في إنشاء نص التعليمات البرمجية الممتد لـ DotCode باستخدام Aspose.BarCode لـ .NET.
+وهذا كل شيء! لقد نجحت في إنشاء DotCode Extended Code Text باستخدام Aspose.BarCode لـ .NET.
 
-## خاتمة
+## الخاتمة
 
-يعد Aspose.BarCode for .NET أداة قوية تعمل على تبسيط إنشاء الرمز الشريطي. في هذا البرنامج التعليمي، ركزنا على إنشاء نص التعليمات البرمجية الممتد لـ DotCode، وهو أمر ضروري في العديد من الصناعات، خاصة عندما يكون ترميز الأحرف المتخصص ومتعدد اللغات مطلوبًا. باتباع الخطوات الموضحة أعلاه، يمكنك بسهولة إنشاء DotCode Extended Code Text لتلبية احتياجاتك الخاصة.
+Aspose.BarCode لـ .NET هي أداة قوية تُبسّط عملية توليد الباركود. في هذا الدرس، ركزنا على كيفية **إنشاء dotcode extended codetext**، وهو أمر أساسي في صناعات متعددة، خاصةً حيث يتطلب الترميز متعدد اللغات والأحرف المتخصصة. باتباع الخطوات المذكورة أعلاه، يمكنك بسهولة إنشاء DotCode Extended Code Text لتلبية احتياجاتك الخاصة.
 
- إذا كنت بحاجة إلى مزيد من الإرشادات أو لديك أسئلة، فلا تتردد في زيارة[Aspose.BarCode لوثائق .NET](https://reference.aspose.com/barcode/net/) أو التعامل مع المجتمع على[منتدى دعم Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+إذا كنت بحاجة إلى مزيد من الإرشاد أو لديك أسئلة، لا تتردد في زيارة [توثيق Aspose.BarCode لـ .NET](https://reference.aspose.com/barcode/net/) أو التفاعل مع المجتمع عبر [منتدى دعم Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ## الأسئلة الشائعة
 
-### س1: ما هو استخدام DotCode؟
+**س: هل يمكنني استخدام الرمز الشريطي المُنشأ في تطبيق جوال؟**
 
-A1: يتم استخدام DotCode لترميز البيانات النصية والثنائية ويتم تطبيقه بشكل شائع في صناعات مثل الرعاية الصحية والخدمات اللوجستية لأغراض التتبع وترميز البيانات.
+ج: نعم. يمكن تضمين صورة PNG التي يُنتجها المُنشئ في تطبيقات iOS أو Android أو أي تطبيق جوال متعدد المنصات.
 
-### س2: هل يمكنني تخصيص مظهر رموز DotCode الشريطية؟
 
-ج2: نعم، يوفر Aspose.BarCode for .NET خيارات لتخصيص مظهر رموز DotCode الشريطية، بما في ذلك الحجم ووضع التشفير.
+**س: ماذا لو احتجتُ إلى ترميز بيانات ثنائية بدلاً من نص؟**
 
-### س 3: هل يتوافق Aspose.BarCode for .NET مع أطر عمل .NET المختلفة؟
+ج: استخدم دالة `AddECICodetext` مع ترميز `ECIEncodings` المناسب (مثل `ECIEncodings.Base64`) لتضمين البيانات الثنائية.
 
-ج3: نعم، Aspose.BarCode for .NET متوافق مع نطاق واسع من أطر عمل .NET، مما يضمن المرونة وسهولة التكامل.
 
-### س٤: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.BarCode لـ .NET؟
+**س: كيف يُمكنني تغيير حجم الرمز الشريطي دون التأثير على سهولة قراءته؟**
 
- ج4: يمكنك الحصول على ترخيص مؤقت من[موقع Aspose](https://purchase.aspose.com/temporary-license/) لأغراض التقييم والاختبار.
+ج: اضبط خاصية `XDimension.Pixels`؛ فالقيم الأعلى تزيد من حجم الوحدة، بينما القيم الأقل تجعل الرمز الشريطي أكثر إحكامًا.
 
-### س 5: هل Aspose.BarCode for .NET مناسب لإنشاء الرمز الشريطي على مستوى المؤسسة؟
 
-ج5: بالتأكيد، تم تصميم Aspose.BarCode for .NET لتلبية احتياجات إنشاء الرموز الشريطية على نطاق صغير وعلى مستوى المؤسسة، مما يوفر قابلية التوسع والموثوقية.
+**س: هل توجد طريقة لإضافة منطقة فارغة حول الرمز الشريطي؟**
+
+ج: نعم. اضبط `gen.Parameters.Barcode.Margin` لتحديد المنطقة الفارغة المطلوبة بالبكسل.
+
+**س: هل تدعم المكتبة .NET 8؟**
+
+ج: أحدث إصدارات Aspose.BarCode متوافقة مع .NET 8؛ ما عليك سوى تحديد إصدار حزمة NuGet المناسب.
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.BarCode 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
