@@ -1,0 +1,7 @@
+Title: Barcode Generator Example in C# – Set Columns, Rows & Export Image
+Slug: barcode-generator-example-in-c-set-columns-rows-export-image
+Category: general
+ProcessedDate: 2026-07-15T15:23:56.866742
+SourceRepo: AI Search API
+Keywords: barcode generator example, how to set columns, how to set rows, export barcode image, create barcode image c#
+PRNumber: 71
