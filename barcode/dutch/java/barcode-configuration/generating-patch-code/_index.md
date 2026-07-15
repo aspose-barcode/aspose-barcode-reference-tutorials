@@ -10,16 +10,6 @@ url: /nl/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
 
-.
-
-Let's produce Dutch translation.
-
-Be careful with bullet points and list items.
-
-Also note "RTL formatting" not needed; Dutch is LTR.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

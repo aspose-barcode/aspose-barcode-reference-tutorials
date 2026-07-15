@@ -10,13 +10,7 @@ url: /es/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
 
- frecuentes". Good.
-
-"## Additional Resources" -> "## Recursos adicionales". Good.
-
-Check bullet list formatting: Keep same markdown.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

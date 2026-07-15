@@ -10,25 +10,7 @@ url: /sv/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
 
-" => "Felsökning och tips"
-
-- Table: translate Issue and Solution headings, and each row content.
-
-- "Frequently Asked Questions" => "Vanliga frågor"
-
-- Q/A translate.
-
-- "Last Updated:" keep date.
-
-- "Tested With:" translate.
-
-- "Author:" translate.
-
-- Keep shortcodes at end.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -118,26 +100,28 @@ generator.save(dataDir + "barsHeight.jpg");
 
 ## Vanliga frågor
 
-**Q: Can I customize the barcode type in Aspose.BarCode for Java?**  
-A: Absolutely! The library supports many symbologies such as QR, DataMatrix, PDF417, and more—just change `EncodeTypes` in the constructor.
+**F: Kan jag anpassa streckkodstypen i Aspose.BarCode för Java?**
+S: Absolut! Biblioteket stöder många symbologier som QR, DataMatrix, PDF417 och mer – ändra bara `EncodeTypes` i konstruktorn.
 
-**Q: Is Aspose.BarCode compatible with different Java IDEs?**  
-A: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports standard Java projects.
+**F: Är Aspose.BarCode kompatibel med olika Java IDE:er?**
+S: Ja, det fungerar sömlöst med Eclipse, IntelliJ IDEA, NetBeans och alla IDE:er som stöder standard Java-projekt.
 
-**Q: Can I generate barcodes with numeric and alphanumeric values?**  
-A: Yes, CODE_128 can encode both numeric and alphanumeric data, making it versatile for most applications.
+**F: Kan jag generera streckkoder med numeriska och alfanumeriska värden?**
+S: Ja, CODE_128 kan koda både numerisk och alfanumerisk data, vilket gör den mångsidig för de flesta applikationer.
 
-**Q: Is there a trial version available for Aspose.BarCode for Java?**  
-A: Yes, you can explore the features of Aspose.BarCode by obtaining a free trial [here](https://releases.aspose.com/).
+**F: Finns det en testversion tillgänglig för Aspose.BarCode för Java?**
+S: Ja, du kan utforska funktionerna i Aspose.BarCode genom att hämta en gratis testversion [här](https://releases.aspose.com/).
 
-**Q: Where can I find support for Aspose.BarCode for Java?**  
-A: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for community support and discussions.
+** **F: Var kan jag hitta support för Aspose.BarCode för Java?**
+S: Besök Aspose.BarCode-forumet [här](https://forum.aspose.com/c/barcode/13) för communitysupport och diskussioner.
+
 
 ---
 
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
-**Author:** Aspose  
+
+**Senast uppdaterad:** 2026-02-15
+**Testad med:** Aspose.BarCode för Java 24.12 (senaste)
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

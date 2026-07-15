@@ -9,11 +9,7 @@ url: /vi/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 weight: 13
 ---
 
- any URLs, code block placeholders, variable names.
-
-Also ensure markdown formatting preserved.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

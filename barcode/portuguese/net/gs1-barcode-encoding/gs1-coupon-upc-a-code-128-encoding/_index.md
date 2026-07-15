@@ -10,17 +10,7 @@ url: /pt/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 weight: 12
 ---
 
-.BarCode for .NET 24.11" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes and code block placeholders unchanged.
-
-Also preserve markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

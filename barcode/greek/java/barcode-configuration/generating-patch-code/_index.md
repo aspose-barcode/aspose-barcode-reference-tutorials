@@ -10,10 +10,6 @@ url: /el/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
 
- keep code block placeholders unchanged.
-
-Now produce final content with Greek translations and preserving formatting.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

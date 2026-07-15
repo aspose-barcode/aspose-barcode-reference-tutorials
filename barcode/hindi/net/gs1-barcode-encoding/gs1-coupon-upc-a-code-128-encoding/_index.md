@@ -10,10 +10,6 @@ url: /hi/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 weight: 12
 ---
 
- sentences.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

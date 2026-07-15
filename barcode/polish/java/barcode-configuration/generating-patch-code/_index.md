@@ -17,34 +17,34 @@ weight: 11
 
 # Utwórz kod kreskowy Patch w Javie z Aspose.BarCode
 
-## Introduction
+## Wstęp
 
-W tym obszernym przewodniku **stworzysz patch barcode java** szybko i niezawodnie używając Aspose.BarCode for Java. Niezależnie od tego, czy budujesz system zarządzania dokumentami, potrzebujesz kompaktowego sposobu przechowywania metadanych na papierze, czy szukasz rozwiązania wysokiej gęstości 2‑D kodu kreskowego, generowanie Patch Code jest praktycznym wyborem. Przejdziemy przez **przykład generatora kodów kreskowych w Javie**, wyjaśnimy **jak generować patch code**, i pokażemy **jak ustawić format patch**, abyś mógł dostosować wynik do swoich wymagań.
+W tym przewodniku **stworzysz patch barcode java** szybko i niezawodnie przy użyciu Aspose.BarCode for Java. Instrukcja od tego, czy jest stworzony system zarządzania dokumentami, kompaktowy sposób stosowania metadanych na opakowaniu, czy też oprogramowanie wysokiej jakości rozwiązań 2-D kreskowego, generowanie Patch Code jest praktycznym rozwiązaniem. Przejdziemy przez **przykład generatora kodów kreskowych w Javie**, wyjaśnimy **jak wygenerować kod poprawki**, i będziemy **jak ustawić format poprawki**, jeśli będziemy mogli dostosować wynik do swoich wymagań.
 
-## Quick Answers
-- **What library is best for patch codes?** Aspose.BarCode for Java
-- **How many lines of code are needed?** About 20 lines for a basic example
-- **Do I need a license?** A free trial works for development; a commercial license is required for production
-- **Can I change the page size?** Yes, using `PatchFormat` (e.g., US_LETTER, A4)
-- **Supported image formats?** BMP, PNG, JPEG, GIF, and more
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza dla kodów poprawek?** Aspose.BarCode dla Java
+- **Ile linii kodu jest potrzebnych?** Około 20 linii dla podstawowego przykładu
+- **Czy potrzebuję licencji?** Bezpłatna wersja próbna działa na rzecz rozwoju; do produkcji wymagana jest licencja komercyjna
+- **Czy mogę zmienić rozmiar strony?** Tak, używając `PatchFormat` (np. US_LETTER, A4)
+- **Obsługiwane formaty obrazów?** BMP, PNG, JPEG, GIF i inne
 
-## What is a Patch Code?
-Patch Code to dwuwymiarowy kod kreskowy składający się z czterech oddzielnych paneli, które mogą być wydrukowane na jednej stronie. Każdy panel może być skanowany niezależnie, co czyni go idealnym do indeksowania dużych ilości dokumentów przy zachowaniu niewielkiego rozmiaru fizycznego.
+## Co to jest kod poprawki?
+Patch Code do dwuwymiarowego kodu kreskowego składającego się z czterech oddzielnych paneli, które mogą być wydrukowane na jednej stronie. Każdy panel może być skanowany, co stanowi idealne rozwiązanie dla indeksowania dużych ilości dokumentów przy zastosowaniu dodatkowym.
 
-## Why use Aspose.BarCode for Java?
-- **Full‑featured API** – supports all major barcode types, including Patch Code.
-- **Easy customization** – change size, format, margins, and more with simple property calls.
-- **Cross‑platform** – works on any Java‑enabled environment, from desktop apps to web services.
-- **Robust documentation** – extensive examples and API reference help you get up to speed fast.
+## Dlaczego warto używać Aspose.BarCode dla Java?
+- **W pełni funkcjonalny interfejs API** – obsługuje wszystkie główne typy kodów kreskowych, w tym kod kreskowy.
+- **Łatwa personalizacja** – zmieniaj rozmiar, format, marginesy i nie tylko za pomocą prostych wywołań właściwości.
+- **Wieloplatformowy** – działa w każdym środowisku obsługującym język Java, od aplikacji komputerowych po usługi internetowe.
+- **Solidna dokumentacja** – obszerne przykłady i referencje API pomogą Ci szybko opanować podstawy.
 
-## Prerequisites
+## Wymagania wstępne
 
-- **Java Development Environment** – JDK 8 or later installed.
-- **Aspose.BarCode for Java** – Download from the [download link](https://releases.aspose.com/barcode/java/).
-- **IDE or Text Editor** – Any Java‑compatible editor (IntelliJ IDEA, Eclipse, VS Code, etc.).
-- **Write permissions** to the folder where you plan to save the generated images.
+- **Środowisko programistyczne Java** – zainstalowane JDK8 lub nowsze.
+- **Aspose.BarCode dla Javy** – Pobierz z [linku do pobrania](https://releases.aspose.com/barcode/java/).
+- **IDE lub edytor tekstu** – dowolny edytor zgodny z Javą (IntelliJ IDEA, Eclipse, VSCode itp.).
+- **Uprawnienia zapisu** do folderu, w którym planujesz zapisać wygenerowane obrazy.
 
-## Import Packages
+## Importowanie pakietów
 
 Aby rozpocząć, zaimportuj niezbędne klasy. Poniższy fragment kodu pokazuje dokładnie, co jest potrzebne:
 
@@ -54,11 +54,11 @@ import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.MarginsF;
 ```
 
-## How to create patch barcode java – step by step
+## Jak utworzyć kod kreskowy w Javie – krok po kroku
 
-Poniżej znajduje się przejrzysty, numerowany przewodnik, który łączy każdy blok kodu z konkretną akcją. Śmiało kopiuj fragmenty dosłownie; są gotowe do uruchomienia po zastąpieniu ścieżki folderu w placeholderze.
+Znajduje się on, numerowany przez przewodnik, który łączy każdy blok kodu z dodatkowym akcją. Śmiało kopiuj fragmenty; są gotowe do uruchomienia po przygotowaniu folderu w placeholderze.
 
-### Step 1: Generate a Basic Patch Code
+### Krok 1: Wygeneruj podstawowy kod poprawki
 
 Ten **przykład generatora kodów kreskowych w Javie** tworzy prosty Patch Code i zapisuje go jako obraz BMP.
 
@@ -70,12 +70,12 @@ public static void generatePatchCode() throws IOException {
 }
 ```
 
-**What happens here?**
+**Co się tutaj dzieje?**
 1. `dataDir` wskazuje folder, w którym zostanie zapisany obraz.
 2. `BarcodeGenerator` jest tworzony z `EncodeTypes.PATCH_CODE` i tekstem `"Patch T"`.
 3. `save` zapisuje kod kreskowy do `patch.bmp`.
 
-### Step 2: Set the Patch Format (Paper Size)
+### Krok 2: Ustaw format wstawki (rozmiar papieru)
 
 Jeśli potrzebujesz konkretnego rozmiaru papieru, możesz ustawić format przed zapisem. To pokazuje **how to set patch format** to US Letter.
 
@@ -88,10 +88,10 @@ public static void setPatchFormat() throws IOException {
 }
 ```
 
-**Why set the format?**  
+**Po co ustawiać format?**
 Patch Code panels are arranged based on the chosen page size. Using `PatchFormat.US_LETTER` ensures the panels fit correctly on a standard letter‑size sheet.
 
-### Step 3: Generate a Whole Page (Assemble All Panels)
+### Krok 3: Wygeneruj całą stronę (złóż wszystkie panele)
 
 Poniżej znajduje się pełna procedura, która tworzy każdy panel, łączy je w kompletną stronę i zapisuje końcowy plik PNG. To miejsce, w którym zobaczysz **how to generate patch code** for a multi‑panel layout.
 
@@ -116,46 +116,48 @@ public static void generateWholePage() throws IOException {
 }
 ```
 
-**Key points to note**
-- The method generates four separate images (`topImg`, `leftImg`, `bottomImg`, `rightImg`) that represent each panel.
-- A larger `frameImg` canvas is created to stitch the panels together.
-- The final PNG is written to the folder you specified.
+**Najważniejsze punkty**
+- Metoda generuje cztery oddzielne obrazy (`topImg`, `leftImg`, `bottomImg`, `rightImg`), które reprezentują każdy panel.
+- Tworzy się większe płótno `frameImg`, aby połączyć panele.
+- Końcowy obraz PNG jest zapisywany w określonym folderze.
 
-## Common Issues & Tips
+## Typowe problemy i wskazówki
 
-- **Incorrect directory path** – Ensure `dataDir` ends with a file separator (`/` or `\\`).  
-- **Missing permissions** – The application must have write access to the target folder.  
-- **Image quality** – Adjust DPI via `generator.getParameters().getImageInfo().setResolutionX/Y()` if you need higher resolution for scanning.  
-- **Memory usage** – When generating large pages, consider calling `System.gc()` after saving to free up image buffers.
+- **Nieprawidłowa ścieżka do katalogu** – Upewnij się, że `dataDir` kończy się separatorem pliku (`/` lub `\\`).
+- **Brak uprawnień** – Aplikacja musi mieć dostęp do zapisu w folderze docelowym.
+- **Jakość obrazu** – Dostosuj DPI za pomocą `generator.getParameters().getImageInfo().setResolutionX/Y()`, jeśli potrzebujesz wyższej rozdzielczości do skanowania.
+- **Zużycie pamięci** – Podczas generowania dużych stron, rozważ wywołanie `System.gc()` po zapisaniu, aby zwolnić bufory obrazu.
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**Q:** Can I use Aspose.BarCode for Java in commercial projects?  
-**A:** Yes, a commercial license is required for production use. You can purchase one from the [Aspose's purchase page](https://purchase.aspose.com/buy).
+**P:** Czy mogę używać Aspose.BarCode dla Javy w projektach komercyjnych?
+**O:** Tak, do użytku produkcyjnego wymagana jest licencja komercyjna. Można ją kupić na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
 
-**Q:** Is there a free trial available?  
-**A:** Absolutely. Download a trial version from the [Aspose's release page](https://releases.aspose.com/).
+**P:** Czy dostępna jest bezpłatna wersja próbna?
+**O:** Oczywiście. Pobierz wersję próbną ze [strony wydania Aspose](https://releases.aspose.com/).
 
-**Q:** How do I get support?  
-**A:** Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for community help and official support channels.
+**P:** Jak uzyskać wsparcie?
+**O:** Odwiedź [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), aby uzyskać pomoc społeczności i skorzystać z oficjalnych kanałów wsparcia.
 
-**Q:** Are temporary licenses an option?  
-**A:** Yes, temporary licenses are offered via the [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/).
+**P:** Czy licencje tymczasowe są dostępne?
+**O:** Tak, licencje tymczasowe są oferowane za pośrednictwem [strony licencji tymczasowych Aspose](https://purchase.aspose.com/temporary-license/).
 
-**Q:** Where can I find the full API reference?  
-**A:** The documentation is available at the [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/).
+**P:** Gdzie mogę znaleźć pełną dokumentację API?
+**O:** Dokumentacja jest dostępna w [dokumentacji Aspose.BarCode for Java](https://reference.aspose.com/barcode/java/).
 
-## Additional Resources
+## Dodatkowe zasoby
 
-- **Sample Projects** – Explore the official Aspose.BarCode GitHub repository for full‑featured examples.  
-- **Performance Tips** – Use `generator.getParameters().getImageInfo().setResolutionX(300)` for high‑resolution scans.  
-- **Next Steps** – After mastering Patch Code, try other 2‑D barcodes like QR Code or Data Matrix using the same generator class.
+- **Przykładowe projekty** – Zapoznaj się z oficjalnym repozytorium Aspose.BarCode na GitHubie, aby uzyskać przykłady z pełną funkcjonalnością.
+
+- **Wskazówki dotyczące wydajności** – Użyj `generator.getParameters().getImageInfo().setResolutionX(300)` do skanów o wysokiej rozdzielczości.
+
+- **Kolejne kroki** – Po opanowaniu Patch Code wypróbuj inne kody kreskowe 2D, takie jak QR Code lub Data Matrix, używając tej samej klasy generatora.
 
 ---
 
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-02-15
+**Testowano z:** Aspose.BarCode dla Java 24.12 (najnowsza)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

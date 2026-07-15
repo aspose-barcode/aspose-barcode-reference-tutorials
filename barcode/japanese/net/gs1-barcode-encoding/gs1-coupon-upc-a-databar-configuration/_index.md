@@ -8,7 +8,7 @@ url: /ja/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 weight: 13
 ---
 
- produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

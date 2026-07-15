@@ -10,17 +10,7 @@ url: /vi/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
 
- a backtop button shortcode.
-
-We must ensure we keep all markdown formatting.
-
-Now produce final content with translations.
-
-Check for any missing elements: code block placeholders remain unchanged.
-
-Make sure to keep the blockquote markers.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

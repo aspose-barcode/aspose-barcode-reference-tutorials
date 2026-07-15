@@ -10,13 +10,7 @@ url: /el/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
 
-? The instruction says translate all text content naturally to Greek, keep technical terms. So we translate "Last Updated", "Tested With", "Author". Greek: "Τελευταία ενημέρωση:", "Δοκιμή με:", "Συγγραφέας:".
-
-Now produce final content.
-
-Make sure to keep shortcodes at bottom.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

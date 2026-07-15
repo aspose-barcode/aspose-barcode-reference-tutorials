@@ -9,20 +9,6 @@ url: /pl/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 weight: 13
 ---
 
--backtop-button >}}
-
-We must keep those unchanged.
-
-Now ensure we didn't miss any text.
-
-Check earlier: "Now, let’s walk through the step‑by‑step implementation." translated.
-
-Also "These directives make the Aspose.BarCode classes available in your code." translated.
-
-All good.
-
-Now produce final content with same markdown structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -10,19 +10,7 @@ url: /fr/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
 
- keep code block placeholders unchanged.
-
-Also there are headings: # Create Patch Barcode Java with Aspose.BarCode etc.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with bullet list formatting: use same dash.
-
-Also "## Introduction" => "## Introduction". Could keep same French "Introduction". Keep heading same.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,21 +10,7 @@ url: /it/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
 
- barre 2‑D come QR Code o Data Matrix usando la stessa classe generator."
-
-Then footer:
-
-**Last Updated:** 2026-02-15 -> same.
-
-**Tested With:** Aspose.BarCode for Java 24.12 (latest) -> same.
-
-**Author:** Aspose -> same.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly as original.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

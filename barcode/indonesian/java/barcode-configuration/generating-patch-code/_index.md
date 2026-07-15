@@ -10,13 +10,7 @@ url: /id/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
 
- translate any URLs. We kept them.
-
-Check we kept code block placeholders unchanged.
-
-Check we kept markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

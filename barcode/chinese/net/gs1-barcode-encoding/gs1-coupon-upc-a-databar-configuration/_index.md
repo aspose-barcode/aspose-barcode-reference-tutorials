@@ -8,20 +8,6 @@ url: /zh/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/
 weight: 13
 ---
 
- English; we translate to Chinese. So "Last Updated:" becomes "最后更新：" etc.
-
-But we must keep dates unchanged.
-
-Also keep URLs unchanged.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful to keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

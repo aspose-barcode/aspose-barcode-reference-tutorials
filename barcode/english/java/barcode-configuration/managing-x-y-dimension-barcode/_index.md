@@ -1,5 +1,5 @@
 ---
-title: Create Barcode with Aspose: Set X & Y Dimensions in Java
+title: Create Barcode with Aspose - Set X & Y Dimensions in Java
 linktitle: Managing X and Y Dimensions of Barcode
 second_title: Aspose.BarCode Java API
 description: Learn how to set barcode dimensions in Java with Aspose.BarCode. This step‑by‑step guide shows how to customize barcode, generate barcode image java, and create barcode with aspose.

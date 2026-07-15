@@ -9,29 +9,7 @@ url: /th/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
 
- high‑resolution scans.  
-
-Translate: "- **Performance Tips** – ใช้ `generator.getParameters().getImageInfo().setResolutionX(300)` สำหรับการสแกนความละเอียดสูง."
-
-- **Next Steps** – After mastering Patch Code, try other 2‑D barcodes like QR Code or Data Matrix using the same generator class.
-
-Translate: "- **Next Steps** – หลังจากเชี่ยวชาญ Patch Code ให้ลองบาร์โค้ด 2‑D อื่น ๆ เช่น QR Code หรือ Data Matrix ด้วยคลาส generator เดียวกัน."
-
-Then horizontal line "---" keep.
-
-Then "**Last Updated:** 2026-02-15" keep same.
-
-"**Tested With:** Aspose.BarCode for Java 24.12 (latest)" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Finally backtop button shortcode.
-
-We must ensure we keep all markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
