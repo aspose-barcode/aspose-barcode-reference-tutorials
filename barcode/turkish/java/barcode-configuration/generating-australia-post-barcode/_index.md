@@ -1,11 +1,11 @@
 ---
-date: 2025-12-12
-description: Aspose.BarCode ile Java’da barkod görüntüsü oluşturmayı öğrenin. Bu Java
-  barkod oluşturma örneği, adım adım entegrasyonu gösterir ve Aspose Barcode kütüphanesini
-  indirmenizi sağlar.
+date: 2026-02-12
+description: Aspose.BarCode kullanarak Java'da barkod oluşturmayı öğrenin. Bu adım
+  adım örnek, Java'da bir Australia Post barkod görüntüsü oluşturmayı ve kütüphanenin
+  nereden indirileceğini gösterir.
 linktitle: Generating Australia Post Barcode
 second_title: Aspose.BarCode Java API
-title: Java ile barkod resmi oluşturma – Australia Post Barkodu Aspose
+title: Java ile barkod nasıl oluşturulur – Aspose ile Australia Post Barkodu
 url: /tr/java/barcode-configuration/generating-australia-post-barcode/
 weight: 12
 ---
@@ -14,121 +14,121 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da barkod görüntüsü oluşturma – Avustralya Posta Barkodu Oluşturma
+# Java'da barkod oluşturma – Australia Post Barkodu Oluşturma
 
-## Introduction
+## Giriiş
 
-Bu kapsamlı öğreticide, Aspose.BarCode kütüphanesini kullanarak **create barcode image java** nasıl oluşturulacağını öğreneceksiniz. Bir gönderim modülü, fatura sistemi ya da Avustralya Posta barkodları yazdırması gereken herhangi bir uygulama geliştiriyor olun, aşağıdaki adımlar temiz ve üretim‑hazır bir uygulamayı size gösterecek. Ayrıca **barcode generation example java** örneğine de değinecek ve projeniz için **download Aspose Barcode** nasıl yapılacağını anlayacaksınız.
+Bu öğreticide Aspose.BarCode kütüphanesi ile **barkod java dosyası nasıl oluşturulur**. Bir gönderim modülü, fatura sistemi ya da Avustralya Post barkodları yazdırması gereken herhangi bir Java uygulaması geliştiriliyor, aşağıdaki adımları temiz ve üretim‑hazır bir uygulamayı size yönlendirecek. Ayrıca **barkod oluşturma örneği java** üzerinden bağlantı kodu bağlama içinde görebilecek ve projeniz için **Aspose Barcode'u indir** nasıl yapılacak anlayacaksınız.
 
-## Quick Answers
-- **Hangi kütüphane gerekiyor?** Aspose.BarCode for Java (download from the Aspose site).  
-- **Hangi barkod sembolojisi kullanılıyor?** `EncodeTypes.AUSTRALIA_POST`.  
-- **Test için lisansa ihtiyacım var mı?** A free trial works for development; a commercial license is required for production.  
-- **Hangi çıktı formatı üretiliyor?** PNG image saved to your chosen folder.  
-- **Kaç satır kod?** Just four concise lines after setup.
+## Hızlı Yanıtlar
+- **Hangi yüklemesi gerekiyor mu?** Aspose.BarCode for Java (Aspose sitesinden indirin).
+- **Hangi barkod sembolü kullanılıyor mu?** `EncodeTypes.AUSTRALIA_POST`.
+- **Test için lisansa ihtiyaç var mı?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.
+- **Hangi çıktı formatı üretiliyor mu?** Seçtiğiniz bölmedeki PNG görüntüsü.
+- **Kaç satır kod?** Kurulumdan sonra sadece dört kısa satır.
 
-## create barcode image java nedir?
+## Java barkodu nasıl oluşturulur?
 
-Java’da bir barkod görüntüsü oluşturmak, ham verileri (örneğin bir posta kodu ya da takip numarası) tarayıcıların okuyabileceği görsel bir barkoda programlı olarak dönüştürmek anlamına gelir. Aspose.BarCode bu ağır işi üstlenir: Avustralya Posta spesifikasyonuna uyar, görüntüyü oluşturur ve boyut, renk ve formatı özelleştirmenize olanak tanır.
+Java'da bir barkod görüntüsü oluşturmak, ham veriyi (posta kodu ya da takip numarası gibi) tarayıcıların okuyabileceği görsel bir barkoda programlı olarak dönüştürmek anlamına gelir. Aspose.BarCode bu ağır işlemi üstlenir: Avustralya Post spesifikasyonunun izlenmesi, görünümlerin oluşturulması ve boyutlandırılması, renk ve formatı kişiselleştirmenize izin verir.
 
-## Why use Aspose.BarCode for Java?
+## Java için Aspose.BarCode'u neden kullanmalıyım?
 
-* **Full‑featured API** – supports over 50 symbologies, including Australia Post.  
-* **No external dependencies** – pure Java, works on any JVM.  
-* **Easy customization** – change dimensions, margins, fonts, and more with simple properties.  
-* **Reliable and tested** – widely used in enterprise solutions, with regular updates.  
+* **Tam özellikli API** – Australia Post dahil 50'den fazla sembolü.
+* **Harici bağımlılık yok** – saf Java, herhangi bir JVM'de çalışır.
+* **Kolay özelleştirme** – basit özelliklerle boyutlandırma, kenar şekilleri, yazı tipleri ve daha fazlasını değiştirebilirsiniz.
+* **Güvenilir ve test edilmiştir** – kurumsal çözümlerde yaygın olarak kullanılır, düzenli güncellemeler alır.
 
-## Prerequisites
+## Önkoşullar
 
-Before we dive into the code, make sure you have:
+Kodlamaya başlamadan önce paketin yüklü olduğundan emin olun:
 
-- Java Development Kit (JDK) makinenizde kurulu olmalı.  
-- Eclipse veya IntelliJ IDEA gibi bir IDE.  
-- Aspose.BarCode for Java kütüphanesi. Bunu [buradan](https://releases.aspose.com/barcode/java/) indirebilirsiniz.  
-- Java sözdizimi ve proje kurulumuna temel aşinalık.
+- Makinenizde Java Development Kit (JDK) kuruldu.
+- Eclipse veya IntelliJ IDEA gibi bir IDE.
+- Aspose.BarCode for Java kütüphanesi. Bunu [buradan](https://releases.aspose.com/barcode/java/) indirebilirsiniz.
+- Java söz dizimi ve proje kurulumu hakkında temel bilgi.
 
-## Import Packages
+## Paketleri İçe Aktar
 
-Add the required Aspose.BarCode classes to your Java source file:
+Java dosya kaynağınıza gerekli Aspose.BarCode sınıflarını ekleyin:
 
 ```java
 import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step‑by‑Step Guide
+## Adım Adım Kılavuz
 
-### Adım 1: Kaynak Dizini Ayarla
+### Adım 1: Kaynak Dizinini Ayarlayın
 
-Define where the generated PNG will be stored.
+Oluşturulan PNG'nin nerede saklanacağını tanımlayın.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` ifadesini sisteminizdeki mutlak yol ile değiştirin (örneğin, `C:/Barcodes/`).
+`"Your Document Directory"` ifadesini sisteminizdeki mutlak yol ile değiştirin (ör. `C:/Barcodes/`).
 
-### Adım 2: BarcodeGenerator Örneğini Oluştur
+### Adım 2: Barkod Oluşturucu Örneğini Oluşturun
 
-Instantiate the generator with the Australia Post symbology and the data you want to encode.
+Generator'ı Australia Post sembolü ve kodlamak istediğiniz veri ile başlatın.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AUSTRALIA_POST, "1234567890");
 ```
 
-`"1234567890"` ifadesini gerçek posta kodu, takip numarası ya da Australia Post kurallarına uygun herhangi bir dize ile değiştirin.
+`"1234567890"` yerine gerçek posta kodunu, takip numarasını ya da Australia Post kurallarına uygun herhangi bir dizeyi koyun.
 
-### Adım 3: Barkod Görüntüsünü Kaydet
+### Adım 3: Barkod Görüntüsünü Kaydedin
 
-Write the barcode to a PNG file in the directory you specified.
+Barcode'ı belirtilen klasöre PNG dosyası olarak yazın.
 
 ```java
 generator.save(dataDir + "australiaPostBarcode.png");
 ```
 
-Çalıştırdıktan sonra, yazdırma veya gömme için hazır olan `australiaPostBarcode.png` dosyasını bulacaksınız.
+Çalıştırdıktan sonra `australiaPostBarcode.png` dosyasını yazdırma ya da gömme için hazır bulacaksınız.
 
 ### Adımların Özeti
 
-1. Kaynak dizini ayarlayın.  
-2. `EncodeTypes.AUSTRALIA_POST` ile bir `BarcodeGenerator` oluşturun.  
-3. PNG dosyasını yazmak için `save()` metodunu çağırın.
+1. Kaynak dizinini ayarlayın.
+2. `EncodeTypes.AUSTRALIA_POST` ile bir `BarcodeGenerator` oluşturun.
+3. PNG yöntemlerini yazmak için `save()` yöntemini çağırın.
 
-Artık bu kod parçacığını barkod oluşturma gerektiren herhangi bir Java servisine, web uygulamasına veya toplu işine entegre edebilirsiniz.
+Bu kod parçacığını artık barkod oluşturması gereken herhangi bir Java servisi, web uygulaması ya da toplu iş içinde entegre edebilirsiniz.
 
-## Common Issues and Solutions
+## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Sebep | Çözüm |
-|-------|--------|-----|
-| **Dosya bulunamadı** | `dataDir` yolu hatalı veya yazma izni yok. | Mutlak bir yol kullanın ve klasörün yazma izniyle mevcut olduğundan emin olun. |
-| **Geçersiz veri** | Veri, Australia Post formatına uymuyor (örneğin, uzunluk hatalı). | Generator'e göndermeden önce giriş dizesini spesifikasyona göre doğrulayın. |
-| **Lisans istisnası** | Üretimde geçerli bir lisans olmadan çalıştırılıyor. | Aspose belgelerinde açıklandığı gibi geçici ya da satın alınmış bir lisans uygulayın. |
+|----------|-----------|-----|
+| **Dosya bulunamadı** | `dataDir` yolu hatalı veya yazma izni yok. | Mutlak bir yol kullanın ve programın yazma iznine sahip olduğunuzdan emin olun. |
+| **Geçersiz veri** | Veri Australia Post formatına uymuyor (ör. uzunluk hataları). | Jeneratöre göndermeden önce dizesini spesifikasyona göre doğrulayın. |
+| **Lisans istisnası** | Üretimde uyumlu bir lisans olmadan çalışıyor. | Aspose belgelerinde açıklandığı gibi geçici ya da satın alma işlemleri bir lisans modu. |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**S: Aspose.BarCode for Java tüm Java geliştirme ortamlarıyla uyumlu mu?**  
+**S: Aspose.BarCode for Java tüm Java geliştirme ortamlarıyla uyumlu mu?**
 C: Evet, Eclipse, IntelliJ IDEA, NetBeans ve herhangi bir standart JDK ile sorunsuz çalışır.
 
-**S: Barkodun renklerini veya boyutunu özelleştirebilir miyim?**  
-C: Kesinlikle. `BarcodeGenerator` sınıfı, tam görsel kontrol için `setBarHeight`, `setForeColor` ve `setBackColor` gibi özellikler sunar.
+**S: Barkodun renklerini ya da olayların özelleşebilir mi?**
+C: elbette. `BarcodeGenerator` sınıfı `setBarHeight`, `setForeColor` ve `setBackColor` gibi özelliklerle tam görsel kontrol sağlar.
 
-**S: Aspose.BarCode için bir deneme sürümü mevcut mu?**  
-C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**S: Aspose.BarCode için deneme sürümü mevcut mu?**
+C: Evet, ücretsiz bir deneme yazılımı [buradan](https://releases.aspose.com/) indirebilirsiniz.
 
-**S: Topluluk desteği ve örnekleri nerede bulabilirim?**  
-C: İpuçları, örnek kod ve topluluk yardımı için Aspose.BarCode forumunu [buradan](https://forum.aspose.com/c/barcode/13) ziyaret edin.
+**S: Topluluk desteği ve örnek kodları Nerede bulabilirim?**
+C: dosyasına, örnek kodlar ve topluluk yardımı için Aspose.BarCode forumuna [buradan](https://forum.aspose.com/c/barcode/13) göz atın.
 
-**S: Test için geçici bir lisans nasıl alabilirim?**  
+**S: Test için geçici bir lisans nasıl alabilirim?**
 C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-## Conclusion
+## Çözüm
 
-Artık Aspose.BarCode kullanarak **create barcode image java** nasıl yapılacağını, özellikle Australia Post barkodları oluşturmayı öğrendiniz. Yukarıdaki kısa adımları izleyerek barkod oluşturmayı herhangi bir Java uygulamasına entegre edebilir, gönderim iş akışlarını hızlandırabilir ve veri yakalama doğruluğunu artırabilirsiniz.
+Artık Aspose.BarCode kullanarak **how to generate barcode java** konusunda uzmanlaştınız ve Australia Post barkodları oluşturabiliyorsunuz. Yukarıdaki kısa adımları izleyerek barcode üretimini herhangi bir Java uygulamasına entegre edebilir, gönderim süreçlerini hızlandırabilir ve veri yakalama doğruluğunu artırabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-12  
-**Test Edilen Versiyon:** Aspose.BarCode for Java 24.11 (yazım zamanındaki en son)  
+**Son Güncelleme:** 2026-02-12  
+**Test Edilen Versiyon:** Aspose.BarCode for Java 24.11 (yazım anındaki en yeni)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

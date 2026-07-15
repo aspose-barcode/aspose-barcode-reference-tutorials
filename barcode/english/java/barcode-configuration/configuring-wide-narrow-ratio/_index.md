@@ -1,28 +1,28 @@
 ---
-title: How to Generate Barcode with Wide-Narrow Ratio in Java
+title: How to Create CODE_128 Barcode with Wide‑Narrow Ratio in Java
 linktitle: Configuring Wide-Narrow Ratio
 second_title: Aspose.BarCode Java API
-description: Learn how to generate barcode with a custom wide‑narrow ratio in Java using Aspose.BarCode and generate barcode image efficiently. Follow our step‑by‑step guide.
+description: Learn how to create code128 barcode with a custom wide‑narrow ratio in Java using Aspose.BarCode, and generate barcode PNG images efficiently. Follow our step‑by‑step guide.
 weight: 17
 url: /java/barcode-configuration/configuring-wide-narrow-ratio/
-date: 2025-12-10
+date: 2026-02-12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Generate Barcode with Wide-Narrow Ratio in Java
+# How to Create CODE_128 Barcode with Wide‑Narrow Ratio in Java
 
 ## Introduction
 
-If you need to **how to generate barcode** with precise visual proportions, adjusting the wide‑narrow ratio is the key. In this tutorial we’ll walk through a **step by step barcode** creation process using Aspose.BarCode for Java, showing you how to configure the ratio, generate barcode image, and **save barcode png** to disk. Whether you’re building inventory labels, shipping tags, or any application that requires a custom‑styled CODE_128 barcode, you’ll find everything you need right here.
+If you need to **create code128 barcode** with precise visual proportions, adjusting the wide‑narrow ratio is the key. In this tutorial we’ll walk through a **step‑by‑step barcode** creation process using Aspose.BarCode for Java, showing you how to configure the ratio, **generate barcode PNG** images, and **save barcode image** to disk. Whether you’re building inventory labels, shipping tags, or any application that requires a custom‑styled CODE_128 barcode, you’ll find everything you need right here.
 
 ## Quick Answers
 - **What is the wide‑narrow ratio?** It controls the relative width of the wide bars versus the narrow bars in a barcode.  
 - **Which symbology supports ratio adjustment?** Most 1‑D symbologies, including CODE_128, allow you to set a custom ratio.  
 - **Do I need a license?** A free trial is available, but a commercial license is required for production use.  
-- **Can I generate a barcode image in PNG format?** Yes—use `generator.save(...)` to generate barcode image as PNG.  
+- **Can I generate a barcode image in PNG format?** Yes—use `generator.save(...)` to generate barcode PNG images.  
 - **Is the code compatible with Java 8+?** Absolutely; Aspose.BarCode works with all modern Java versions.
 
 ## Prerequisites
@@ -45,9 +45,9 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 The wide‑narrow ratio determines how thick the “wide” bars appear compared to the “narrow” ones. Adjusting this ratio can improve scanner readability, meet specific printing standards, or simply match a brand’s visual style.
 
-## How to generate barcode with wide‑narrow ratio in Java
+## How to create code128 barcode with wide‑narrow ratio in Java
 
-Below is a **step by step barcode** guide that walks you through each piece of the process.
+Below is a **step‑by‑step barcode** guide that walks you through each piece of the process.
 
 ### Step 1: Set Document Directory
 
@@ -56,7 +56,7 @@ Below is a **step by step barcode** guide that walks you through each piece of t
 String dataDir = "Your Document Directory";
 ```
 
-Make sure the directory exists and you have write permissions; this is where the **save barcode png** file will be placed.
+Make sure the directory exists and you have write permissions; this is where the **save barcode image** file will be placed.
 
 ### Step 2: Instantiate Barcode Object
 
@@ -66,7 +66,7 @@ Make sure the directory exists and you have write permissions; this is where the
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345678");
 ```
 
-Here we **create code_128 barcode** by passing `EncodeTypes.CODE_128` to the constructor.
+Here we **create code128 barcode** by passing `EncodeTypes.CODE_128` to the constructor.
 
 ### Step 3: Set Wide‑Narrow Ratio
 
@@ -84,7 +84,13 @@ The `setWideNarrowRatio` method lets you fine‑tune the visual spacing. A value
 generator.save(dataDir + "wideNarrowRatio.png");
 ```
 
-Calling `save` will **generate barcode image** and store it as a PNG file, completing the **save barcode png** step.
+Calling `save` will **generate barcode image** and store it as a PNG file, completing the **save barcode image** step.
+
+## Why adjust the wide‑narrow ratio?
+
+- **Scanner Compatibility:** Certain scanners prefer a ratio between 2.0 and 3.0 for optimal read rates.  
+- **Print Quality:** Adjusting the ratio can compensate for printer DPI limitations, preventing distorted bars.  
+- **Brand Consistency:** Some companies want barcodes that visually align with corporate colors or design guidelines.
 
 ## Common Issues and Solutions
 
@@ -113,7 +119,7 @@ A: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) 
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-12  
 **Tested With:** Aspose.BarCode for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 

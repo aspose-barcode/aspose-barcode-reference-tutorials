@@ -1,8 +1,7 @@
 ---
-date: 2025-12-10
-description: Pelajari cara menggunakan perpustakaan pembaca barcode Java Aspose.BarCode
-  untuk Java guna mendeteksi orientasi barcode. Ikuti panduan langkah demi langkah
-  ini untuk membaca barcode dari gambar Java dengan cepat.
+date: 2026-02-12
+description: Pelajari cara menggunakan pustaka pembaca barcode Java Aspose.BarCode
+  untuk mendeteksi orientasi barcode dan membaca barcode dari gambar dengan cepat.
 linktitle: Detecting Barcode Orientation
 second_title: Aspose.BarCode Java API
 title: 'Perpustakaan Pembaca Barcode Java: Deteksi Orientasi Barcode dengan Aspose.BarCode'
@@ -14,38 +13,38 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Barcode Reader Library: Detect Barcode Orientation with Aspose.BarCode
+# Pustaka Pembaca Barcode Java: Deteksi Orientasi Barcode dengan Aspose.BarCode
 
-## Introduction
+## Pendahuluan
 
-Jika Anda membutuhkan **java barcode reader library** yang handal untuk aplikasi Java Anda, Aspose.BarCode for Java menawarkan kemampuan pengenalan barcode yang kuat, termasuk deteksi orientasi. Pada tutorial ini kami akan menunjukkan cara **read barcode from image java** dan memperoleh sudut rotasi sehingga Anda dapat menangani barcode yang diputar dengan mudah.
+Jika Anda membutuhkan **java barcode reader library** yang handal untuk aplikasi Java Anda, Aspose.BarCode untuk Java menawarkan kemampuan pengenalan barcode yang kuat, termasuk deteksi orientasi. Dalam tutorial ini kami akan menjelaskan cara **read barcode from image java** file dan memperoleh sudut rotasi sehingga Anda dapat menangani barcode yang diputar dengan mudah.
 
-## Quick Answers
-- **What does the library do?** Detects barcode type, reads data, and returns orientation angles.  
-- **Which barcode type is used in the example?** Code 128 (`DecodeType.CODE_128`).  
-- **Do I need a license for testing?** A temporary license is available for evaluation.  
-- **Can I process multiple images?** Yes – just loop through your image files with the same reader logic.  
-- **Is it compatible with Java 8+?** Absolutely, the library works with Java 8 and later.
+## Jawaban Cepat
+- **Apa yang dilakukan pustaka ini?** Mendeteksi jenis barcode, membaca data, dan mengembalikan sudut orientasi.  
+- **Jenis barcode apa yang digunakan dalam contoh?** Code 128 (`DecodeType.CODE_128`).  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Lisensi sementara tersedia untuk evaluasi.  
+- **Bisakah saya memproses banyak gambar?** Ya – cukup lakukan loop pada file gambar Anda dengan logika pembaca yang sama.  
+- **Apakah kompatibel dengan Java 8+?** Tentu saja, pustaka ini bekerja dengan Java 8 dan versi selanjutnya.
 
-## What is a Java Barcode Reader Library?
-Sebuah Java barcode reader library menyediakan API yang memungkinkan pengembang mendekode barcode dari gambar, PDF, atau aliran video langsung langsung dalam kode Java. Aspose.BarCode adalah library komersial yang mendukung lebih dari 150 simbol barcode dan mencakup fitur lanjutan seperti deteksi orientasi, validasi checksum, dan pemrosesan multi‑halaman.
+## Apa itu Pustaka Pembaca Barcode Java?
+Pustaka pembaca barcode Java menyediakan API yang memungkinkan pengembang mendekode barcode dari gambar, PDF, atau aliran video langsung langsung dalam kode Java. Aspose.BarCode adalah pustaka komersial yang mendukung lebih dari 150 simbol barcode dan mencakup fitur lanjutan seperti deteksi orientasi, validasi checksum, dan pemrosesan multi‑halaman.
 
-## Why Use Aspose.BarCode for Orientation Detection?
-- **Accurate angle calculation** – the library returns the exact rotation angle of the barcode region.  
-- **Broad symbology support** – works with Code 128, QR, DataMatrix, and many more.  
-- **Simple API** – minimal code required to get started.  
-- **Enterprise‑ready** – high performance, robust error handling, and licensing options.
+## Mengapa Menggunakan Aspose.BarCode untuk Deteksi Orientasi?
+- **Perhitungan sudut yang akurat** – pustaka mengembalikan sudut rotasi tepat dari wilayah barcode.  
+- **Dukungan simbol yang luas** – bekerja dengan Code 128, QR, DataMatrix, dan banyak lagi.  
+- **API sederhana** – kode minimal diperlukan untuk memulai.  
+- **Siap untuk perusahaan** – kinerja tinggi, penanganan error yang kuat, dan opsi lisensi.
 
-## Prerequisites
+## Prasyarat
 
-Sebelum memulai tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
+Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- Java Development Environment: Ensure that you have a Java development environment set up on your system.  
-- Aspose.BarCode for Java Library: Download and install the Aspose.BarCode for Java library. You can find the library and related documentation [here](https://releases.aspose.com/barcode/java/).
+- Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang terpasang di sistem Anda.  
+- Pustaka Aspose.BarCode untuk Java: Unduh dan instal pustaka Aspose.BarCode untuk Java. Anda dapat menemukan pustaka dan dokumentasi terkait [di sini](https://releases.aspose.com/barcode/java/).
 
-## Import Namespaces
+## Impor Namespace
 
-Untuk memulai, impor namespace yang diperlukan ke dalam proyek Java Anda. Langkah ini penting untuk mengakses fungsionalitas yang disediakan oleh Aspose.BarCode for Java.
+Untuk memulai, impor namespace yang diperlukan ke dalam proyek Java Anda. Langkah ini penting untuk mengakses fungsionalitas yang disediakan oleh Aspose.BarCode untuk Java.
 
 ```java
 // Import Aspose.BarCode namespaces
@@ -54,26 +53,26 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-Now, let's break down the process of detecting barcode orientation into multiple steps:
+Sekarang, mari kita uraikan proses deteksi orientasi barcode menjadi beberapa langkah:
 
-## How to Read Barcodes Java with Aspose.BarCode
+## Cara Membaca Barcode Java dengan Aspose.BarCode
 Berikut adalah panduan singkat langkah‑demi‑langkah yang menunjukkan **how to read barcodes java** dan memperoleh orientasinya.
 
-### Step 1: Instantiate BarCodeReader Object
-Mulailah dengan menginstansiasi objek `BarCodeReader`, menentukan file gambar yang berisi barcode dan tipe barcode yang diinginkan.
+### Langkah 1: Membuat Objek BarCodeReader
+Mulailah dengan membuat objek `BarCodeReader`, menentukan file gambar yang berisi barcode dan jenis barcode yang diinginkan.
 
 ```java
 BarCodeReader reader = new BarCodeReader("rotatedbarcode.jpg", DecodeType.CODE_128);
 ```
 
-### Step 2: Read Code128 Bar Code
+### Langkah 2: Membaca Barcode Code128
 Gunakan metode `readBarCodes` untuk membaca barcode Code 128 dari gambar yang ditentukan.
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
 ```
 
-### Step 3: Detect Bar Code Orientation
+### Langkah 3: Mendeteksi Orientasi Barcode
 Ambil wilayah barcode dan peroleh sudut rotasinya.
 
 ```java
@@ -82,37 +81,43 @@ Ambil wilayah barcode dan peroleh sudut rotasinya.
 }
 ```
 
-Ulangi langkah‑langkah ini sesuai kebutuhan untuk beberapa barcode atau integrasikan ke dalam logika aplikasi Anda. Dengan mengikuti alur ini, Anda dapat dengan mulus menambahkan deteksi orientasi barcode ke dalam aplikasi Java menggunakan **java barcode reader library**.
+Dengan mengikuti tiga langkah sederhana ini, Anda dapat dengan mulus mengintegrasikan deteksi orientasi barcode ke dalam aplikasi Java Anda menggunakan **java barcode reader library**.
 
-## Common Issues and Solutions
-| Issue | Solution |
+## Kasus Penggunaan Umum
+- **Pemrosesan dokumen otomatis** – Pindai faktur atau label pengiriman yang mungkin datang dengan sudut acak.  
+- **Sistem inventaris ritel** – Baca barcode produk dari umpan kamera di mana barang tidak teralign dengan sempurna.  
+- **Otomasi industri** – Deteksi dan koreksi orientasi barcode pada jalur perakitan sebelum pemrosesan lebih lanjut.
+
+## Masalah Umum dan Solusinya
+
+| Masalah | Solusi |
 |-------|----------|
-| **Reader returns `null`** | Verify that the image path is correct and that the image contains a clear, high‑contrast barcode. |
-| **Incorrect angle** | Ensure the image is not heavily blurred; consider preprocessing the image (e.g., binarization) before reading. |
-| **Unsupported barcode type** | Check the list of supported symbologies in the Aspose.BarCode documentation and choose a matching `DecodeType`. |
+| **Reader mengembalikan `null`** | Verifikasi bahwa jalur gambar benar dan gambar mengandung barcode yang jelas dengan kontras tinggi. |
+| **Sudut tidak tepat** | Pastikan gambar tidak terlalu blur; pertimbangkan pra‑pemrosesan gambar (mis., binarisasi) sebelum membaca. |
+| **Jenis barcode tidak didukung** | Periksa daftar simbol yang didukung dalam dokumentasi Aspose.BarCode dan pilih `DecodeType` yang sesuai. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Is Aspose.BarCode compatible with Java 8?
-A1: Yes, Aspose.BarCode for Java is compatible with Java 8 and later versions.
+### Q1: Apakah Aspose.BarCode kompatibel dengan Java 8?
+A1: Ya, Aspose.BarCode untuk Java kompatibel dengan Java 8 dan versi selanjutnya.
 
-### Q2: Can I use Aspose.BarCode in both commercial and non‑commercial projects?
-A2: Yes, Aspose.BarCode can be used in both commercial and non‑commercial projects. Check the licensing details on the [purchase page](https://purchase.aspose.com/buy).
+### Q2: Bisakah saya menggunakan Aspose.BarCode dalam proyek komersial dan non‑komersial?
+A2: Ya, Aspose.BarCode dapat digunakan dalam proyek komersial maupun non‑komersial. Periksa detail lisensi pada [halaman pembelian](https://purchase.aspose.com/buy).
 
-### Q3: How can I get a temporary license for testing purposes?
-A3: Obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
+### Q3: Bagaimana cara mendapatkan lisensi sementara untuk tujuan pengujian?
+A3: Dapatkan lisensi sementara dari [sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 
-### Q4: Where can I find additional support or ask questions?
-A4: Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) for community support and discussions.
+### Q4: Di mana saya dapat menemukan dukungan tambahan atau mengajukan pertanyaan?
+A4: Kunjungi [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13) untuk dukungan komunitas dan diskusi.
 
-### Q5: Are there any sample codes available for different barcode operations?
-A5: Explore the [Aspose.BarCode documentation](https://reference.aspose.com/barcode/java/) for comprehensive code samples and examples.
+### Q5: Apakah ada contoh kode yang tersedia untuk berbagai operasi barcode?
+A5: Jelajahi [dokumentasi Aspose.BarCode](https://reference.aspose.com/barcode/java/) untuk contoh kode dan contoh yang komprehensif.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode 24.11 for Java  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-02-12  
+**Diuji Dengan:** Aspose.BarCode 24.11 untuk Java  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
