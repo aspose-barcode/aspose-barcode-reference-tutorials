@@ -10,17 +10,7 @@ url: /hi/java/barcode-basics/detecting-barcode-orientation/
 weight: 13
 ---
 
-:** Aspose.BarCode 24.11 for Java"
-
-Next "**Author:** Aspose" translate label: "**लेखक:** Aspose"
-
-Then closing shortcodes.
-
-Then backtop button shortcode unchanged.
-
-Now ensure we keep all markdown formatting.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

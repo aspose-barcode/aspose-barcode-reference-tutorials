@@ -16,42 +16,42 @@ weight: 17
 
 # Java में Wide‑Narrow Ratio के साथ CODE_128 बारकोड कैसे बनाएं
 
-## Introduction
+## इंट्रोडक्शन
 
 यदि आपको सटीक दृश्य अनुपात के साथ **code128 barcode** बनाना है, तो wide‑narrow ratio को समायोजित करना मुख्य है। इस ट्यूटोरियल में हम Aspose.BarCode for Java का उपयोग करके **step‑by‑step barcode** निर्माण प्रक्रिया को दिखाएंगे, जिसमें आप ratio को कॉन्फ़िगर करना, **barcode PNG** छवियां उत्पन्न करना, और **save barcode image** को डिस्क पर **save** करना सीखेंगे। चाहे आप इन्वेंट्री लेबल, शिपिंग टैग, या किसी भी एप्लिकेशन के लिए कस्टम‑स्टाइल्ड CODE_128 बारकोड बना रहे हों, आपको यहाँ सभी आवश्यक जानकारी मिल जाएगी।
 
-## Quick Answers
-- **What is the wide‑narrow ratio?** यह बारकोड में wide बार की चौड़ाई की तुलना narrow बार से नियंत्रित करता है।  
-- **Which symbology supports ratio adjustment?** अधिकांश 1‑D symbologies, जिसमें CODE_128 शामिल है, आपको कस्टम ratio सेट करने की अनुमति देती हैं।  
-- **Do I need a license?** एक मुफ्त ट्रायल उपलब्ध है, लेकिन उत्पादन उपयोग के लिए व्यावसायिक लाइसेंस आवश्यक है।  
-- **Can I generate a barcode image in PNG format?** हाँ—`generator.save(...)` का उपयोग करके barcode PNG छवियां उत्पन्न करें।  
-- **Is the code compatible with Java 8+?** बिल्कुल; Aspose.BarCode सभी आधुनिक Java संस्करणों के साथ काम करता है।
+## क्विक जवाब
+- **वाइड-नैरो रेश्यो क्या है?** यह बारकोड में वाइड बार की चौड़ाई की तुलना नैरो बार से कंट्रोल करता है।
+- **कौन सी सिंबोलॉजी रेश्यो एडजस्टमेंट को सपोर्ट करती है?** ज़्यादातर 1‑D सिंबोलॉजी, जिसमें CODE_128 शामिल है, आपको कस्टम रेश्यो सेट करने की इजाज़त देती हैं।
+- **क्या मुझे लाइसेंस चाहिए?** एक फ्री ट्रायल अवेलेबल है, लेकिन प्रोडक्शन इस्तेमाल के लिए प्रोफेशनल लाइसेंस ज़रूरी है।
+- **क्या मैं PNG फॉर्मेट में बारकोड इमेज जेनरेट कर सकता हूँ?** हाँ—`generator.save(...)` का इस्तेमाल करके बारकोड PNG जेनरेट करें।
+- **क्या कोड Java 8+ के साथ कम्पैटिबल है?** बिल्कुल; Aspose.BarCode सभी मॉडर्न Java वर्जन के साथ काम करता है।
 
-## Prerequisites
+## ज़रूरी शर्तें
 
-Before we dive into the code, ensure you have the following:
+कोड में जाने से पहले, पक्का करें कि आपके पास ये चीज़ें हैं:
 
-- Java Development Kit (JDK) installed on your machine.  
-- Aspose.BarCode for Java library. Download it from the [download link](https://releases.aspose.com/barcode/java/).
+- आपकी मशीन पर Java डेवलपमेंट किट (JDK) इंस्टॉल है।
+- Aspose.BarCode for Java लाइब्रेरी। इसे [डाउनलोड लिंक](https://releases.aspose.com/barcode/java/) से डाउनलोड करें।
 
-## Import Packages
+## पैकेज इंपोर्ट करें
 
-To start, import the essential Aspose.BarCode class into your project.
+शुरू करने के लिए, अपने प्रोजेक्ट में ज़रूरी Aspose.BarCode क्लास इंपोर्ट करें।
 
 ```java
 // Import Aspose.BarCode library
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## What is the wide‑narrow ratio and why adjust it?
+## वाइड-नैरो रेश्यो क्या है और इसे क्यों एडजस्ट करें?
 
 wide‑narrow ratio निर्धारित करता है कि “wide” बार “narrow” बार की तुलना में कितने मोटे दिखेंगे। इस ratio को समायोजित करने से स्कैनर की पठनीयता में सुधार, विशिष्ट प्रिंटिंग मानकों को पूरा करना, या केवल ब्रांड की दृश्य शैली से मेल खाना संभव होता है।
 
-## How to create code128 barcode with wide‑narrow ratio in Java
+## Java में वाइड-नैरो रेश्यो वाला code128 बारकोड कैसे बनाएं
 
-Below is a **step‑by‑step barcode** guide that walks you through each piece of the process.
+नीचे एक **स्टेप-बाय-स्टेप बारकोड** गाइड है जो आपको प्रोसेस के हर हिस्से के बारे में बताती है।
 
-### Step 1: Set Document Directory
+### स्टेप 1: डॉक्यूमेंट डायरेक्टरी सेट करें
 
 ```java
 // The path to the resource directory.
@@ -60,7 +60,7 @@ String dataDir = "Your Document Directory";
 
 सुनिश्चित करें कि डायरेक्टरी मौजूद है और आपके पास लिखने की अनुमति है; यही वह स्थान है जहाँ **save barcode image** फ़ाइल रखी जाएगी।
 
-### Step 2: Instantiate Barcode Object
+### स्टेप 2: बारकोड ऑब्जेक्ट को इंस्टैंशिएट करें
 
 ```java
 // Instantiate barcode object
@@ -70,7 +70,7 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567
 
 यहाँ हम `EncodeTypes.CODE_128` को कंस्ट्रक्टर में पास करके **code128 barcode** बनाते हैं।
 
-### Step 3: Set Wide‑Narrow Ratio
+### स्टेप 3: वाइड-नैरो रेश्यो सेट करें
 
 ```java
 // Set the wide to narrow ratio for the barcode
@@ -79,7 +79,7 @@ generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 
 `setWideNarrowRatio` मेथड आपको दृश्य अंतराल को बारीकी से समायोजित करने देता है। `3.0f` मान का अर्थ है कि wide बार narrow बार की चौड़ाई से तीन गुना है।
 
-### Step 4: Save Image to Disk
+### स्टेप 4: इमेज को डिस्क पर सेव करें
 
 ```java
 // Save the image to disk in PNG format
@@ -88,13 +88,13 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 `save` को कॉल करने से **generate barcode image** होगा और यह PNG फ़ाइल के रूप में सहेजा जाएगा, जिससे **save barcode image** चरण पूरा हो जाता है।
 
-## Why adjust the wide‑narrow ratio?
+## वाइड-नैरो रेश्यो को एडजस्ट क्यों करें?
 
-- **Scanner Compatibility:** कुछ स्कैनर 2.0‑3.0 के बीच के ratio को बेहतर पढ़ने की दर के लिए पसंद करते हैं।  
-- **Print Quality:** ratio को समायोजित करने से प्रिंटर DPI सीमाओं की भरपाई होती है, जिससे बार विकृत नहीं होते।  
-- **Brand Consistency:** कुछ कंपनियां चाहती हैं कि बारकोड उनके कॉर्पोरेट रंगों या डिज़ाइन गाइडलाइन के साथ दृश्य रूप से मेल खाए।
+- **स्कैनर कम्पैटिबिलिटी:** कुछ बुक 2.0‑3.0 के बीच के रेश्यो को बेहतर रीडिंग की दर के लिए पसंद करते हैं।
+- **प्रिंट क्वालिटी:** रेश्यो को एडजस्ट करने से प्रिंटर DPI बॉर्डर की भरपाई होती है, जिससे बार विकृत नहीं होते।
+- **ब्रांड कंसिस्टेंसी:** कुछ कंपनियां चाहती हैं कि बारकोड उनके कॉर्पोरेट रंगों या डिज़ाइन गाइडलाइन के साथ विज़ुअल रूप से मेल खाए।
 
-## Common Issues and Solutions
+## आम मुद्दे और समाधान
 
 | समस्या | कारण | समाधान |
 |-------|--------|-----|
@@ -102,7 +102,7 @@ generator.save(dataDir + "wideNarrowRatio.png");
 | फ़ाइल नहीं बनी | अमान्य `dataDir` पथ या अपर्याप्त अनुमतियां | डायरेक्टरी पथ की जाँच करें और सुनिश्चित करें कि एप्लिकेशन के पास लिखने की अनुमति है। |
 | स्कैनर बारकोड नहीं पढ़ पा रहा है | सिम्बोलॉजी के लिए अनुशंसित सीमा से बाहर अनुपात | मानक अनुपात (2.0‑3.0) उपयोग करें या लक्ष्य स्कैनर के साथ परीक्षण करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्नों
 
 **Q: क्या मैं Aspose.BarCode को अन्य Java फ्रेमवर्क के साथ उपयोग कर सकता हूँ?**  
 A: हाँ, Aspose.BarCode को Spring, Java EE, Android और अन्य Java पर्यावरणों के साथ सहजता से काम करने के लिए डिज़ाइन किया गया है।

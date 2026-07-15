@@ -124,10 +124,10 @@ generator.save(dataDir + "6segments.png");
 예, Aspose.BarCode for Java는 데스크톱 및 웹 애플리케이션 모두에 원활히 통합되도록 설계되었습니다.
 
 ### Aspose.BarCode에 대한 지원을 어떻게 받을 수 있나요?
-커뮤니티 지원은 [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)에서 받을 수 있으며, 전용 지원이 필요하면 지원 플랜 구매를 고려하십시오.
+커뮤니티 지원은 [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) 에서 받을 수 있으며, 전용 지원이 필요하면 지원 플랜 구매를 고려하십시오.
 
 ### 무료 체험판이 있나요?
-예, [free trial](https://releases.aspose.com/)에 접속해 Aspose.BarCode 기능을 체험해 보실 수 있습니다.
+예, [free trial](https://releases.aspose.com/) 에 접속해 Aspose.BarCode 기능을 체험해 보실 수 있습니다.
 
 ---
 

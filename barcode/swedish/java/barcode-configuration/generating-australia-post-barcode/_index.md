@@ -10,15 +10,7 @@ url: /sv/java/barcode-configuration/generating-australia-post-barcode/
 weight: 12
 ---
 
- of writing) (translate "Testad med")
-
-**Author:** Aspose (keep)
-
-Then closing shortcodes.
-
-Also need to keep the backtop button shortcode.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

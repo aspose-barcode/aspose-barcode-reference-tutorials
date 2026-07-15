@@ -72,23 +72,6 @@ Regola finemente l'equilibrio visivo tra barre larghe e strette per soddisfare l
 - **Dimensioni inattese** – Controlla di non aver sovrascritto le dimensioni X/Y altrove nel tuo codice.  
 - **Licenza non trovata** – Posiziona il file `Aspose.BarCode.lic` nel classpath o imposta la licenza programmaticamente all'avvio.
 
-## Domande frequenti
-
-**Q: Posso generare barcode al volo in un'applicazione web?**  
-A: Sì. Aspose.BarCode funziona perfettamente nei contenitori servlet; puoi trasmettere l'immagine direttamente nella risposta HTTP.
-
-**Q: La libreria supporta barcode a colori?**  
-A: Assolutamente. Usa i metodi `setForeColor` e `setBackColor` per personalizzare i colori di primo piano e di sfondo.
-
-**Q: È possibile generare barcode senza scrivere su disco?**  
-A: Sì. Puoi scrivere il barcode in un `ByteArrayOutputStream` e poi servirlo direttamente o incorporarlo in PDF.
-
-**Q: Come gestire la generazione di grandi batch?**  
-A: Crea un'unica istanza di `BarcodeGenerator` e riutilizzala all'interno di un ciclo, aggiornando il testo del codice ad ogni iterazione per ridurre l'overhead di creazione degli oggetti.
-
-**Q: Esistono benchmark di performance?**  
-A: Nei casi d'uso tipici, generare un barcode Code128 di 300 × 150 px richiede meno di 2 ms su una CPU moderna.
-
 ## Tutorial di configurazione barcode
 ### [Configurare barcode con segmenti in Java](./configuring-barcode-segments/)
 Genera barcode personalizzati in Java senza sforzo con Aspose.BarCode. Versatile, efficiente e friendly per gli sviluppatori.
@@ -114,15 +97,32 @@ Scopri come creare barcode dinamici in Java usando Aspose.BarCode. Guida passo�
 ### [Configurare il rapporto wide‑narrow in Java](./configuring-wide-narrow-ratio/)
 Scopri come configurare il rapporto wide‑narrow nei barcode Java usando Aspose.BarCode. Segui la nostra guida passo‑passo per una personalizzazione fluida.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Domande frequenti
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Posso generare barcode al volo in un'applicazione web?**  
+A: Sì. Aspose.BarCode funziona perfettamente nei contenitori servlet; puoi trasmettere l'immagine direttamente nella risposta HTTP.
 
-{{< blocks/products/products-backtop-button >}}
+**Q: La libreria supporta barcode a colori?**  
+A: Assolutamente. Usa i metodi `setForeColor` e `setBackColor` per personalizzare i colori di primo piano e di sfondo.
+
+**Q: È possibile generare barcode senza scrivere su disco?**  
+A: Sì. Puoi scrivere il barcode in un `ByteArrayOutputStream` e poi servirlo direttamente o incorporarlo in PDF.
+
+**Q: Come gestire la generazione di grandi batch?**  
+A: Crea un'unica istanza di `BarcodeGenerator` e riutilizzala all'interno di un ciclo, aggiornando il testo del codice ad ogni iterazione per ridurre l'overhead di creazione degli oggetti.
+
+**Q: Esistono benchmark di performance?**  
+A: Nei casi d'uso tipici, generare un barcode Code128 di 300 × 150 px richiede meno di 2 ms su una CPU moderna.
 
 ---
 
 **Ultimo aggiornamento:** 2026-02-12  
 **Testato con:** Aspose.BarCode for Java 24.11  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

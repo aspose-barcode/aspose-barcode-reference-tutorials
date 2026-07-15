@@ -11,11 +11,7 @@ url: /es/java/barcode-basics/detecting-barcode-orientation/
 weight: 13
 ---
 
-All good.
-
-Need to ensure we keep markdown formatting exactly.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

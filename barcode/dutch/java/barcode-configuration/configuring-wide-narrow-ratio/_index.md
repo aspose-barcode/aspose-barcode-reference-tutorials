@@ -10,11 +10,7 @@ url: /nl/java/barcode-configuration/configuring-wide-narrow-ratio/
 weight: 17
 ---
 
-< blocks/products/products-backtop-button >}}
-
-Make sure we keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

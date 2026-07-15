@@ -72,23 +72,6 @@ Sesuaikan keseimbangan visual antara bar lebar dan narrow untuk memenuhi spesifi
 - **Dimensi tidak terduga** – Periksa kembali bahwa Anda tidak menimpa dimensi X/Y di tempat lain dalam kode Anda.  
 - **Lisensi tidak ditemukan** – Tempatkan file `Aspose.BarCode.lic` di classpath atau atur lisensi secara programatis saat startup.
 
-## Pertanyaan yang Sering Diajukan
-
-**Q: Bisakah saya menghasilkan barcode secara langsung dalam aplikasi web?**  
-A: Ya. Aspose.BarCode bekerja sempurna di kontainer servlet; Anda dapat men-stream gambar langsung ke respons HTTP.
-
-**Q: Apakah perpustakaan mendukung barcode berwarna?**  
-A: Tentu. Gunakan metode `setForeColor` dan `setBackColor` untuk menyesuaikan warna latar depan dan latar belakang.
-
-**Q: Apakah memungkinkan menghasilkan barcode tanpa menulis ke disk?**  
-A: Ya. Anda dapat menulis barcode ke `ByteArrayOutputStream` lalu menyajikannya langsung atau menyematkannya dalam PDF.
-
-**Q: Bagaimana cara menangani pembuatan batch besar?**  
-A: Buat satu instance `BarcodeGenerator` dan gunakan kembali di dalam loop, memperbarui teks kode setiap iterasi untuk mengurangi beban pembuatan objek.
-
-**Q: Apakah ada benchmark kinerja?**  
-A: Dalam kasus penggunaan umum, menghasilkan barcode Code128 berukuran 300 × 150 px memakan waktu kurang dari 2 ms pada CPU modern.
-
 ## Tutorial Konfigurasi Barcode
 ### [Mengkonfigurasi Barcode dengan Segmen di Java](./configuring-barcode-segments/)
 Generate customized barcodes in Java effortlessly with Aspose.BarCode. Versatile, efficient, and developer‑friendly.
@@ -114,15 +97,32 @@ Learn how to create dynamic barcodes in Java using Aspose.BarCode. Step‑by‑s
 ### [Mengkonfigurasi Rasio Wide-Narrow di Java](./configuring-wide-narrow-ratio/)
 Learn how to configure wide‑narrow ratio in Java barcodes using Aspose.BarCode. Follow our step‑by‑step guide for seamless customization.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Pertanyaan yang Sering Diajukan
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Bisakah saya menghasilkan barcode secara langsung dalam aplikasi web?**  
+A: Ya. Aspose.BarCode bekerja sempurna di kontainer servlet; Anda dapat men-stream gambar langsung ke respons HTTP.
 
-{{< blocks/products/products-backtop-button >}}
+**Q: Apakah perpustakaan mendukung barcode berwarna?**  
+A: Tentu. Gunakan metode `setForeColor` dan `setBackColor` untuk menyesuaikan warna latar depan dan latar belakang.
+
+**Q: Apakah memungkinkan menghasilkan barcode tanpa menulis ke disk?**  
+A: Ya. Anda dapat menulis barcode ke `ByteArrayOutputStream` lalu menyajikannya langsung atau menyematkannya dalam PDF.
+
+**Q: Bagaimana cara menangani pembuatan batch besar?**  
+A: Buat satu instance `BarcodeGenerator` dan gunakan kembali di dalam loop, memperbarui teks kode setiap iterasi untuk mengurangi beban pembuatan objek.
+
+**Q: Apakah ada benchmark kinerja?**  
+A: Dalam kasus penggunaan umum, menghasilkan barcode Code128 berukuran 300 × 150 px memakan waktu kurang dari 2 ms pada CPU modern.
 
 ---
 
 **Terakhir Diperbarui:** 2026-02-12  
 **Diuji Dengan:** Aspose.BarCode for Java 24.11  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

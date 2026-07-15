@@ -10,14 +10,6 @@ url: /el/java/barcode-configuration/generating-australia-post-barcode/
 weight: 12
 ---
 
- δημιουργήσετε barcode java". Keep "barcode java" unchanged? The rule: technical terms in English, but "barcode" is technical but can keep English. So "Πώς να δημιουργήσετε barcode java – Δημιουργία κωδικού barcode Australia Post σε Java". Might be okay.
-
-Let's translate each section.
-
-We'll keep markdown.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

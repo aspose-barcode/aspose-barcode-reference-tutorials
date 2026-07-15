@@ -14,34 +14,34 @@ weight: 13
 
 # Java バーコードリーダーライブラリ: Aspose.BarCode でバーコードの向きを検出
 
-## Introduction
+## はじめに
 
 Java アプリケーション向けに信頼できる **java barcode reader library** が必要な場合、Aspose.BarCode for Java は、向き検出を含む強力なバーコード認識機能を提供します。このチュートリアルでは、**read barcode from image java** ファイルからバーコードを読み取り、回転角度を取得する方法を順を追って説明し、回転したバーコードを簡単に処理できるようにします。
 
-## Quick Answers
+## よくある質問
 - **ライブラリは何をしますか？** バーコードの種類を検出し、データを読み取り、向きの角度を返します。  
 - **例で使用されているバーコードタイプは何ですか？** Code 128 (`DecodeType.CODE_128`).  
 - **テストにライセンスは必要ですか？** 評価用の一時ライセンスが利用可能です。  
 - **複数の画像を処理できますか？** はい – 同じリーダーロジックで画像ファイルをループするだけです。  
 - **Java 8+ と互換性がありますか？** はい、ライブラリは Java 8 以降で動作します。
 
-## What is a Java Barcode Reader Library?
+## Javaバーコードリーダーライブラリとは？
 Java バーコードリーダーライブラリは、開発者が画像、PDF、またはライブビデオストリームからバーコードを直接 Java コード内でデコードできる API を提供します。Aspose.BarCode は商用ライブラリで、150 以上のバーコードシンボルをサポートし、向き検出、チェックサム検証、マルチページ処理などの高度な機能を備えています。
 
-## Why Use Aspose.BarCode for Orientation Detection?
+## 向き検出にAspose.BarCodeを使用する理由
 - **正確な角度計算** – ライブラリはバーコード領域の正確な回転角度を返します。  
 - **幅広いシンボルサポート** – Code 128、QR、DataMatrix など多数に対応。  
 - **シンプルな API** – 開始に必要なコードは最小限です。  
 - **エンタープライズ向け** – 高性能、堅牢なエラーハンドリング、ライセンスオプションを提供。
 
-## Prerequisites
+## 前提条件
 
 チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
 
 - Java 開発環境: システムに Java 開発環境が設定されていることを確認してください。  
 - Aspose.BarCode for Java ライブラリ: Aspose.BarCode for Java ライブラリをダウンロードしてインストールします。ライブラリと関連ドキュメントは[here](https://releases.aspose.com/barcode/java/)で入手できます。
 
-## Import Namespaces
+## 名前空間のインポート
 
 開始するには、必要な名前空間を Java プロジェクトにインポートします。この手順は、Aspose.BarCode for Java が提供する機能にアクセスするために重要です。
 
@@ -54,24 +54,24 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 
 次に、バーコードの向き検出プロセスを複数のステップに分解して説明します。
 
-## How to Read Barcodes Java with Aspose.BarCode
+## Aspose.BarCodeを使用したJavaバーコードの読み取り方法
 以下は、**how to read barcodes java** を実行し、向きを取得するための簡潔なステップバイステップガイドです。
 
-### Step 1: Instantiate BarCodeReader Object
+### ステップ1：BarCodeReaderオブジェクトのインスタンス化
 `BarCodeReader` オブジェクトをインスタンス化し、バーコードを含む画像ファイルと目的のバーコードタイプを指定します。
 
 ```java
 BarCodeReader reader = new BarCodeReader("rotatedbarcode.jpg", DecodeType.CODE_128);
 ```
 
-### Step 2: Read Code128 Bar Code
+### ステップ2：Code128バーコードの読み取り
 `readBarCodes` メソッドを使用して、指定された画像から Code 128 バーコードを読み取ります。
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
 ```
 
-### Step 3: Detect Bar Code Orientation
+### ステップ3：バーコードの向きの検出
 バーコード領域を取得し、回転角度を取得します。
 
 ```java
@@ -82,34 +82,34 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 これらの 3 つの簡単な手順に従うことで、**java barcode reader library** を使用して、Java アプリケーションにバーコード向き検出をシームレスに組み込むことができます。
 
-## Common Use Cases
+## 一般的な使用例
 - **自動文書処理** – 任意の角度で届く請求書や出荷ラベルをスキャンします。  
 - **小売在庫システム** – 商品が完全に揃っていないカメラ映像からバーコードを読み取ります。  
 - **産業オートメーション** – 組立ラインでバーコードの向きを検出・補正し、次の処理に備えます。
 
-## Common Issues and Solutions
+## よくある問題とその解決策
 | 問題 | 解決策 |
 |-------|----------|
 | **Reader returns `null`** | 画像パスが正しいこと、画像に明瞭で高コントラストのバーコードが含まれていることを確認してください。 |
 | **Incorrect angle** | 画像が過度にぼやけていないか確認し、読み取り前に画像の前処理（例: 二値化）を検討してください。 |
 | **Unsupported barcode type** | Aspose.BarCode ドキュメントのサポート対象シンボル一覧を確認し、対応する `DecodeType` を選択してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 ### Q1: Aspose.BarCode は Java 8 と互換性がありますか？
 A1: はい、Aspose.BarCode for Java は Java 8 以降のバージョンと互換性があります。
 
 ### Q2: Aspose.BarCode を商用および非商用プロジェクトの両方で使用できますか？
-A2: はい、Aspose.BarCode は商用・非商用プロジェクトの両方で使用できます。ライセンス詳細は[購入ページ](https://purchase.aspose.com/buy)をご確認ください。
+A2: はい、Aspose.BarCode は商用・非商用プロジェクトの両方で使用できます。ライセンス詳細は[購入ページ](https://purchase.aspose.com/buy) をご確認ください。
 
 ### Q3: テスト目的で一時ライセンスを取得するにはどうすればよいですか？
-A3: テストおよび評価用の一時ライセンスは[here](https://purchase.aspose.com/temporary-license/)から取得できます。
+A3: テストおよび評価用の一時ライセンスは[here](https://purchase.aspose.com/temporary-license/) から取得できます。
 
 ### Q4: 追加のサポートや質問はどこで得られますか？
-A4: コミュニティサポートやディスカッションは[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13)をご利用ください。
+A4: コミュニティサポートやディスカッションは[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13) をご利用ください。
 
 ### Q5: 異なるバーコード操作のサンプルコードはありますか？
-A5: 包括的なコードサンプルと例は[Aspose.BarCode ドキュメント](https://reference.aspose.com/barcode/java/)でご確認ください。
+A5: 包括的なコードサンプルと例は[Aspose.BarCode ドキュメント](https://reference.aspose.com/barcode/java/) でご確認ください。
 
 ---
 

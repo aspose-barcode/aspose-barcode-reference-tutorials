@@ -8,23 +8,7 @@ url: /zh-hant/java/barcode-basics/detecting-barcode-orientation/
 weight: 13
 ---
 
- to Read Barcodes Java with Aspose.BarCode: translate.
-
-Step headings.
-
-Common Use Cases: translate bullet points.
-
-Common Issues and Solutions table: translate headers "Issue" "Solution". Keep content.
-
-FAQ: translate.
-
-Last Updated etc.
-
-Now produce final markdown with same structure.
-
-Let's write translation in Traditional Chinese (Hong Kong). Use appropriate terms: "條碼", "程式庫", "偵測", "方向". Use "Java 條碼閱讀器函式庫" etc.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -72,23 +72,6 @@ Doladěte vizuální rovnováhu širokých a úzkých pruhů tak, aby vyhovovala
 - **Neočekávané rozměry** – Ověřte, že jste někde v kódu nepřepsali rozměry X/Y.  
 - **Licence nebyla nalezena** – Umístěte soubor `Aspose.BarCode.lic` do classpath nebo nastavte licenci programově při spuštění.
 
-## Často kladené otázky
-
-**Q: Mohu generovat čárové kódy za běhu ve webové aplikaci?**  
-A: Ano. Aspose.BarCode funguje perfektně v servlet kontejnerech; můžete streamovat obrázek přímo do HTTP odpovědi.
-
-**Q: Podporuje knihovna barevné čárové kódy?**  
-A: Rozhodně. Použijte metody `setForeColor` a `setBackColor` k přizpůsobení barvy popředí a pozadí.
-
-**Q: Je možné generovat čárové kódy bez zápisu na disk?**  
-A: Ano. Můžete zapsat čárový kód do `ByteArrayOutputStream` a poté jej přímo servírovat nebo vložit do PDF.
-
-**Q: Jak zvládnout generování velkých dávek?**  
-A: Vytvořte jedinou instanci `BarcodeGenerator` a znovu ji použijte ve smyčce, při každé iteraci aktualizujte text kódu, čímž snížíte režii vytváření objektů.
-
-**Q: Existují nějaké výkonnostní benchmarky?**  
-A: V typických scénářích generování 300 × 150 px Code128 čárového kódu trvá méně než 2 ms na moderním procesoru.
-
 ## Tutoriály konfigurace čárových kódů
 ### [Konfigurace čárových kódů se segmenty v Javě](./configuring-barcode-segments/)
 Vytvářejte přizpůsobené čárové kódy v Javě snadno s Aspose.BarCode. Univerzální, efektivní a přátelské pro vývojáře.
@@ -114,15 +97,32 @@ Naučte se vytvářet dynamické čárové kódy v Javě pomocí Aspose.BarCode.
 ### [Konfigurace poměru široký‑úzký v Javě](./configuring-wide-narrow-ratio/)
 Naučte se konfigurovat poměr široký‑úzký v čárových kódech v Javě pomocí Aspose.BarCode. Postupujte podle našeho krok‑za‑krokem průvodce pro bezproblémové přizpůsobení.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Často kladené otázky
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Mohu generovat čárové kódy za běhu ve webové aplikaci?**  
+A: Ano. Aspose.BarCode funguje perfektně v servlet kontejnerech; můžete streamovat obrázek přímo do HTTP odpovědi.
 
-{{< blocks/products/products-backtop-button >}}
+**Q: Podporuje knihovna barevné čárové kódy?**  
+A: Rozhodně. Použijte metody `setForeColor` a `setBackColor` k přizpůsobení barvy popředí a pozadí.
+
+**Q: Je možné generovat čárové kódy bez zápisu na disk?**  
+A: Ano. Můžete zapsat čárový kód do `ByteArrayOutputStream` a poté jej přímo servírovat nebo vložit do PDF.
+
+**Q: Jak zvládnout generování velkých dávek?**  
+A: Vytvořte jedinou instanci `BarcodeGenerator` a znovu ji použijte ve smyčce, při každé iteraci aktualizujte text kódu, čímž snížíte režii vytváření objektů.
+
+**Q: Existují nějaké výkonnostní benchmarky?**  
+A: V typických scénářích generování 300 × 150 px Code128 čárového kódu trvá méně než 2 ms na moderním procesoru.
 
 ---
 
 **Poslední aktualizace:** 2026-02-12  
 **Testováno s:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

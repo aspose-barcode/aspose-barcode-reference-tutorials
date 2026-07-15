@@ -72,23 +72,6 @@ Ajuste finamente el equilibrio visual entre barras anchas y estrechas para cumpl
 - **Dimensiones inesperadas** – Revise que no haya sobrescrito las dimensiones X/Y en otra parte de su código.  
 - **Licencia no encontrada** – Coloque el archivo `Aspose.BarCode.lic` en el classpath o establezca la licencia programáticamente al iniciar.
 
-## Preguntas frecuentes
-
-**P: ¿Puedo generar códigos de barras en tiempo real en una aplicación web?**  
-R: Sí. Aspose.BarCode funciona perfectamente en contenedores servlet; puede transmitir la imagen directamente a la respuesta HTTP.
-
-**P: ¿La biblioteca admite códigos de barras en color?**  
-R: Absolutamente. Use los métodos `setForeColor` y `setBackColor` para personalizar los colores de primer plano y de fondo.
-
-**P: ¿Es posible generar códigos de barras sin escribir en disco?**  
-R: Sí. Puede escribir el código de barras en un `ByteArrayOutputStream` y luego servirlo directamente o incrustarlo en PDFs.
-
-**P: ¿Cómo manejo la generación masiva por lotes?**  
-R: Cree una única instancia de `BarcodeGenerator` y reutilícela dentro de un bucle, actualizando el texto del código en cada iteración para reducir la sobrecarga de creación de objetos.
-
-**P: ¿Existen métricas de rendimiento?**  
-R: En casos de uso típicos, generar un código Code128 de 300 × 150 px tarda menos de 2 ms en una CPU moderna.
-
 ## Tutoriales de configuración de códigos de barras
 ### [Configurando códigos de barras con segmentos en Java](./configuring-barcode-segments/)
 Genere códigos de barras personalizados en Java sin esfuerzo con Aspose.BarCode. Versátil, eficiente y amigable para el desarrollador.
@@ -114,15 +97,32 @@ Aprenda a crear códigos de barras dinámicos en Java usando Aspose.BarCode. Gu�
 ### [Configurando la relación ancho‑estrecho en Java](./configuring-wide-narrow-ratio/)
 Aprenda a configurar la relación ancho‑estrecho en códigos de barras Java usando Aspose.BarCode. Siga nuestra guía paso a paso para una personalización sin inconvenientes.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Preguntas frecuentes
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**P: ¿Puedo generar códigos de barras en tiempo real en una aplicación web?**  
+R: Sí. Aspose.BarCode funciona perfectamente en contenedores servlet; puede transmitir la imagen directamente a la respuesta HTTP.
 
-{{< blocks/products/products-backtop-button >}}
+**P: ¿La biblioteca admite códigos de barras en color?**  
+R: Absolutamente. Use los métodos `setForeColor` y `setBackColor` para personalizar los colores de primer plano y de fondo.
+
+**P: ¿Es posible generar códigos de barras sin escribir en disco?**  
+R: Sí. Puede escribir el código de barras en un `ByteArrayOutputStream` y luego servirlo directamente o incrustarlo en PDFs.
+
+**P: ¿Cómo manejo la generación masiva por lotes?**  
+R: Cree una única instancia de `BarcodeGenerator` y reutilícela dentro de un bucle, actualizando el texto del código en cada iteración para reducir la sobrecarga de creación de objetos.
+
+**P: ¿Existen métricas de rendimiento?**  
+R: En casos de uso típicos, generar un código Code128 de 300 × 150 px tarda menos de 2 ms en una CPU moderna.
 
 ---
 
 **Última actualización:** 2026-02-12  
 **Probado con:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

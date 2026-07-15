@@ -10,7 +10,7 @@ url: /vi/java/barcode-configuration/generating-australia-post-barcode/
 weight: 12
 ---
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

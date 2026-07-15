@@ -72,23 +72,6 @@ Tinh chỉnh cân bằng hình ảnh giữa các thanh rộng và hẹp để đ
 - **Kích thước không như mong đợi** – Kiểm tra lại xem bạn có vô tình ghi đè kích thước X/Y ở nơi khác trong code không.  
 - **Không tìm thấy giấy phép** – Đặt file `Aspose.BarCode.lic` vào classpath hoặc thiết lập giấy phép bằng mã lập trình khi khởi động.
 
-## Câu hỏi thường gặp
-
-**Q: Tôi có thể tạo mã vạch ngay trong một ứng dụng web không?**  
-A: Có. Aspose.BarCode hoạt động hoàn hảo trong các servlet container; bạn có thể truyền luồng hình ảnh trực tiếp tới phản hồi HTTP.
-
-**Q: Thư viện có hỗ trợ mã vạch màu không?**  
-A: Chắc chắn. Sử dụng các phương thức `setForeColor` và `setBackColor` để tùy chỉnh màu nền và màu chữ.
-
-**Q: Có thể tạo mã vạch mà không ghi ra đĩa không?**  
-A: Có. Bạn có thể ghi mã vạch vào một `ByteArrayOutputStream` rồi phục vụ trực tiếp hoặc nhúng vào PDF.
-
-**Q: Làm sao để xử lý việc tạo hàng loạt lớn?**  
-A: Tạo một thể hiện `BarcodeGenerator` duy nhất và tái sử dụng nó trong vòng lặp, cập nhật văn bản mã mỗi lần lặp để giảm chi phí tạo đối tượng.
-
-**Q: Có các chỉ số hiệu năng nào không?**  
-A: Trong các trường hợp sử dụng điển hình, việc tạo một mã vạch Code128 kích thước 300 × 150 px mất dưới 2 ms trên CPU hiện đại.
-
 ## Các hướng dẫn cấu hình mã vạch
 ### [Configuring Barcode with Segments in Java](./configuring-barcode-segments/)
 Tạo mã vạch tùy chỉnh trong Java một cách dễ dàng với Aspose.BarCode. Đa năng, hiệu quả và thân thiện với nhà phát triển.
@@ -114,15 +97,32 @@ Tìm hiểu cách tạo mã vạch động trong Java bằng Aspose.BarCode. Hư
 ### [Configuring Wide-Narrow Ratio in Java](./configuring-wide-narrow-ratio/)
 Tìm hiểu cách cấu hình tỉ lệ rộng‑hẹp trong mã vạch Java bằng Aspose.BarCode. Thực hiện theo hướng dẫn từng bước của chúng tôi để tùy chỉnh liền mạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Câu hỏi thường gặp
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Tôi có thể tạo mã vạch ngay trong một ứng dụng web không?**  
+A: Có. Aspose.BarCode hoạt động hoàn hảo trong các servlet container; bạn có thể truyền luồng hình ảnh trực tiếp tới phản hồi HTTP.
 
-{{< blocks/products/products-backtop-button >}}
+**Q: Thư viện có hỗ trợ mã vạch màu không?**  
+A: Chắc chắn. Sử dụng các phương thức `setForeColor` và `setBackColor` để tùy chỉnh màu nền và màu chữ.
+
+**Q: Có thể tạo mã vạch mà không ghi ra đĩa không?**  
+A: Có. Bạn có thể ghi mã vạch vào một `ByteArrayOutputStream` rồi phục vụ trực tiếp hoặc nhúng vào PDF.
+
+**Q: Làm sao để xử lý việc tạo hàng loạt lớn?**  
+A: Tạo một thể hiện `BarcodeGenerator` duy nhất và tái sử dụng nó trong vòng lặp, cập nhật văn bản mã mỗi lần lặp để giảm chi phí tạo đối tượng.
+
+**Q: Có các chỉ số hiệu năng nào không?**  
+A: Trong các trường hợp sử dụng điển hình, việc tạo một mã vạch Code128 kích thước 300 × 150 px mất dưới 2 ms trên CPU hiện đại.
 
 ---
 
 **Cập nhật lần cuối:** 2026-02-12  
 **Kiểm tra với:** Aspose.BarCode for Java 24.11  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

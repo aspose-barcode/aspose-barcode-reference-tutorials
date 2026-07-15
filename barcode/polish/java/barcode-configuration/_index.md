@@ -72,23 +72,6 @@ Dostosuj wizualną równowagę szerokich i wąskich pasków, aby spełnić specy
 - **Nieoczekiwane wymiary** – Upewnij się, że nie nadpisałeś wymiarów X/Y w innym miejscu kodu.  
 - **Nie znaleziono licencji** – Umieść plik `Aspose.BarCode.lic` w classpath lub ustaw licencję programowo przy uruchamianiu.
 
-## Najczęściej zadawane pytania
-
-**Q: Czy mogę generować kody kreskowe w locie w aplikacji webowej?**  
-A: Tak. Aspose.BarCode działa doskonale w kontenerach servletów; możesz przesyłać obraz bezpośrednio w odpowiedzi HTTP.
-
-**Q: Czy biblioteka obsługuje kolorowe kody kreskowe?**  
-A: Zdecydowanie. Użyj metod `setForeColor` i `setBackColor`, aby dostosować kolory pierwszego planu i tła.
-
-**Q: Czy można generować kody kreskowe bez zapisywania ich na dysku?**  
-A: Tak. Możesz zapisać kod kreskowy do `ByteArrayOutputStream`, a następnie serwować go bezpośrednio lub osadzić w plikach PDF.
-
-**Q: Jak obsłużyć generowanie dużych partii?**  
-A: Utwórz jedną instancję `BarcodeGenerator` i używaj jej w pętli, aktualizując tekst kodu przy każdej iteracji, aby zmniejszyć narzut tworzenia obiektów.
-
-**Q: Czy istnieją benchmarki wydajności?**  
-A: W typowych przypadkach generowanie kodu Code128 o wymiarach 300 × 150 px zajmuje mniej niż 2 ms na nowoczesnym procesorze.
-
 ## Samouczki konfiguracji kodów kreskowych
 ### [Konfigurowanie kodu kreskowego z segmentami w Javie](./configuring-barcode-segments/)
 Generuj spersonalizowane kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCode. Wszechstronne, wydajne i przyjazne dla programistów.
@@ -114,15 +97,32 @@ Dowiedz się, jak tworzyć dynamiczne kody kreskowe w Javie przy użyciu Aspose.
 ### [Konfigurowanie stosunku szerokich‑wąskich w Javie](./configuring-wide-narrow-ratio/)
 Dowiedz się, jak skonfigurować stosunek szerokich‑wąskich pasków w kodach kreskowych w Javie przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną personalizację.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Najczęściej zadawane pytania
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Czy mogę generować kody kreskowe w locie w aplikacji webowej?**  
+A: Tak. Aspose.BarCode działa doskonale w kontenerach servletów; możesz przesyłać obraz bezpośrednio w odpowiedzi HTTP.
 
-{{< blocks/products/products-backtop-button >}}
+**Q: Czy biblioteka obsługuje kolorowe kody kreskowe?**  
+A: Zdecydowanie. Użyj metod `setForeColor` i `setBackColor`, aby dostosować kolory pierwszego planu i tła.
+
+**Q: Czy można generować kody kreskowe bez zapisywania ich na dysku?**  
+A: Tak. Możesz zapisać kod kreskowy do `ByteArrayOutputStream`, a następnie serwować go bezpośrednio lub osadzić w plikach PDF.
+
+**Q: Jak obsłużyć generowanie dużych partii?**  
+A: Utwórz jedną instancję `BarcodeGenerator` i używaj jej w pętli, aktualizując tekst kodu przy każdej iteracji, aby zmniejszyć narzut tworzenia obiektów.
+
+**Q: Czy istnieją benchmarki wydajności?**  
+A: W typowych przypadkach generowanie kodu Code128 o wymiarach 300 × 150 px zajmuje mniej niż 2 ms na nowoczesnym procesorze.
 
 ---
 
 **Ostatnia aktualizacja:** 2026-02-12  
 **Testowano z:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

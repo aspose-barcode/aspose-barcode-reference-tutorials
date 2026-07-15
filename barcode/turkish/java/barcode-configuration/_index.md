@@ -10,17 +10,7 @@ url: /tr/java/barcode-configuration/
 weight: 24
 ---
 
- horizontal rule and metadata.
-
-Translate "Last Updated:" etc? The metadata is probably not required to translate? It's part of content. We should translate "Last Updated:" to Turkish "Son Güncelleme:" and "Tested With:" to "Test Edilen:" maybe "Test Edildiği Versiyon:" but we can translate. Keep dates unchanged. "Author:" -> "Yazar:".
-
-Let's translate.
-
-Now produce final output with everything.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -82,23 +72,6 @@ Geniş ve dar çubukların görsel dengesini ince ayar yaparak tarayıcı spesif
 - **Beklenmeyen boyutlar** – X/Y boyutlarını kodunuzun başka bir yerinde geçersiz kılmadığınızdan emin olun.  
 - **Lisans bulunamadı** – `Aspose.BarCode.lic` dosyasını sınıf yoluna (classpath) koyun veya program başlangıcında lisansı kodla ayarlayın.
 
-## Sık Sorulan Sorular
-
-**S: Web uygulamasında barkodları anlık olarak oluşturabilir miyim?**  
-C: Evet. Aspose.BarCode servlet konteynerlerinde sorunsuz çalışır; görüntüyü doğrudan HTTP yanıtına akıtabilirsiniz.
-
-**S: Kütüphane renkli barkodları destekliyor mu?**  
-C: Kesinlikle. `setForeColor` ve `setBackColor` metodlarıyla ön ve arka plan renklerini özelleştirebilirsiniz.
-
-**S: Barkodları diske yazmadan oluşturmak mümkün mü?**  
-C: Evet. Barkodu bir `ByteArrayOutputStream`’a yazıp doğrudan sunabilir veya PDF’lere gömebilirsiniz.
-
-**S: Büyük toplu üretimi nasıl yönetirim?**  
-C: Tek bir `BarcodeGenerator` örneği oluşturup döngü içinde tekrar kullanın; her yinelemede kod metnini güncelleyerek nesne oluşturma maliyetini azaltın.
-
-**S: Performans ölçütleri var mı?**  
-C: Tipik kullanım senaryolarında, 300 × 150 px bir Code128 barkodu modern bir CPU’da 2 ms’nin altında üretilir.
-
 ## Barkod Yapılandırma Öğreticileri
 ### [Java’da Segmentli Barkod Yapılandırma](./configuring-barcode-segments/)
 Aspose.BarCode ile Java’da özelleştirilmiş barkodları zahmetsizce oluşturun. Çok yönlü, verimli ve geliştirici‑dostu.
@@ -124,15 +97,32 @@ Aspose.BarCode ile Java’da dinamik barkodlar oluşturmayı öğrenin. EAN_13 s
 ### [Java’da Geniş‑Dar Oranı Yapılandırma](./configuring-wide-narrow-ratio/)
 Aspose.BarCode ile Java barkodlarında geniş‑dar oranını nasıl yapılandıracağınızı öğrenin. Sorunsuz özelleştirme için adım‑adım rehberimizi izleyin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Sık Sorulan Sorular
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**S: Web uygulamasında barkodları anlık olarak oluşturabilir miyim?**  
+C: Evet. Aspose.BarCode servlet konteynerlerinde sorunsuz çalışır; görüntüyü doğrudan HTTP yanıtına akıtabilirsiniz.
 
-{{< blocks/products/products-backtop-button >}}
+**S: Kütüphane renkli barkodları destekliyor mu?**  
+C: Kesinlikle. `setForeColor` ve `setBackColor` metodlarıyla ön ve arka plan renklerini özelleştirebilirsiniz.
+
+**S: Barkodları diske yazmadan oluşturmak mümkün mü?**  
+C: Evet. Barkodu bir `ByteArrayOutputStream`’a yazıp doğrudan sunabilir veya PDF’lere gömebilirsiniz.
+
+**S: Büyük toplu üretimi nasıl yönetirim?**  
+C: Tek bir `BarcodeGenerator` örneği oluşturup döngü içinde tekrar kullanın; her yinelemede kod metnini güncelleyerek nesne oluşturma maliyetini azaltın.
+
+**S: Performans ölçütleri var mı?**  
+C: Tipik kullanım senaryolarında, 300 × 150 px bir Code128 barkodu modern bir CPU’da 2 ms’nin altında üretilir.
 
 ---
 
 **Son Güncelleme:** 2026-02-12  
 **Test Edilen:** Aspose.BarCode for Java 24.11  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

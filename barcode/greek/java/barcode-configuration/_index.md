@@ -72,23 +72,6 @@ Barcode generation is the process of converting data (numbers, letters, or binar
 - **Απρόσμενες διαστάσεις** – Double‑check that you haven’t overridden the X/Y dimensions elsewhere in your code.  
 - **Δεν βρέθηκε η άδεια** – Place the `Aspose.BarCode.lic` file in the classpath or set the license programmatically at startup.
 
-## Συχνές Ερωτήσεις
-
-**Q: Μπορώ να δημιουργήσω barcodes εν κινήσει σε μια web εφαρμογή;**  
-A: Ναι. Aspose.BarCode works perfectly in servlet containers; you can stream the image directly to the HTTP response.
-
-**Q: Υποστηρίζει η βιβλιοθήκη χρωματιστά barcodes;**  
-A: Absolutely. Use the `setForeColor` and `setBackColor` methods to customize foreground and background colors.
-
-**Q: Είναι δυνατόν να δημιουργήσετε barcodes χωρίς να γράψετε στο δίσκο;**  
-A: Ναι. You can write the barcode to a `ByteArrayOutputStream` and then serve it directly or embed it in PDFs.
-
-**Q: Πώς να διαχειριστώ τη δημιουργία μεγάλων batch;**  
-A: Create a single `BarcodeGenerator` instance and reuse it inside a loop, updating the code text each iteration to reduce object creation overhead.
-
-**Q: Υπάρχουν δείκτες απόδοσης;**  
-A: In typical use‑cases, generating a 300 × 150 px Code128 barcode takes under 2 ms on a modern CPU.
-
 ## Tutorials Διαμόρφωσης Barcode
 ### [Διαμόρφωση Barcode με Τμήματα σε Java](./configuring-barcode-segments/)
 Δημιουργήστε προσαρμοσμένα barcodes σε Java με ευκολία χρησιμοποιώντας το Aspose.BarCode. Πολυμορφικό, αποδοτικό και φιλικό για προγραμματιστές.
@@ -114,15 +97,32 @@ A: In typical use‑cases, generating a 300 × 150 px Code128 barcode take
 ### [Διαμόρφωση Αναλογίας Wide-Narrow σε Java](./configuring-wide-narrow-ratio/)
 Μάθετε πώς να διαμορφώσετε την αναλογία wide‑narrow σε Java barcodes χρησιμοποιώντας το Aspose.BarCode. Ακολουθήστε τον οδηγό βήμα‑βήμα για αδιάλειπτη προσαρμογή.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Συχνές Ερωτήσεις
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Μπορώ να δημιουργήσω barcodes εν κινήσει σε μια web εφαρμογή;**  
+A: Ναι. Aspose.BarCode works perfectly in servlet containers; you can stream the image directly to the HTTP response.
 
-{{< blocks/products/products-backtop-button >}}
+**Q: Υποστηρίζει η βιβλιοθήκη χρωματιστά barcodes;**  
+A: Absolutely. Use the `setForeColor` and `setBackColor` methods to customize foreground and background colors.
+
+**Q: Είναι δυνατόν να δημιουργήσετε barcodes χωρίς να γράψετε στο δίσκο;**  
+A: Ναι. You can write the barcode to a `ByteArrayOutputStream` and then serve it directly or embed it in PDFs.
+
+**Q: Πώς να διαχειριστώ τη δημιουργία μεγάλων batch;**  
+A: Create a single `BarcodeGenerator` instance and reuse it inside a loop, updating the code text each iteration to reduce object creation overhead.
+
+**Q: Υπάρχουν δείκτες απόδοσης;**  
+A: In typical use‑cases, generating a 300 × 150 px Code128 barcode takes under 2 ms on a modern CPU.
 
 ---
 
 **Τελευταία Ενημέρωση:** 2026-02-12  
 **Δοκιμάστηκε Με:** Aspose.BarCode for Java 24.11  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

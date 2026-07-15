@@ -10,22 +10,6 @@ url: /pt/java/barcode-configuration/configuring-wide-narrow-ratio/
 weight: 17
 ---
 
- Java 24.11 (latest at time of writing) (translate "Testado com:" maybe)
-
-**Author:** Aspose (keep)
-
-Then closing shortcodes.
-
-Also note: "For Portuguese, ensure proper RTL formatting if needed" Not needed.
-
-Now produce final content with same markdown.
-
-Let's craft translation.
-
-Be careful to keep bold markers.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

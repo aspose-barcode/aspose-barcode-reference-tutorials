@@ -15,59 +15,58 @@ weight: 12
 
 # Java에서 바코드 생성 방법 – 호주 포스트 바코드 만들기
 
-## Introduction
+## 소개
 
-이 포괄적인 튜토리얼에서는 Aspose.BarCode 라이브러리를 사용하여 **how to generate barcode java**를 배우게 됩니다. 배송 모듈, 청구 시스템 또는 호주 포스트 바코드를 출력해야 하는 Java 애플리케이션을 구축하든, 아래 단계가 깔끔하고 프로덕션‑ready 구현을 안내합니다. 또한 **barcode generation example java**를 살펴보면서 코드를 실제 상황에서 확인하고 프로젝트에 **download Aspose Barcode**하는 방법을 이해할 수 있습니다.
+이 기본 튜토리얼에서는 Aspose.BarCode 라이브러리를 사용하여 **바코드 java를 생성하는 방법**을 배우게 합니다. 배송 모듈, 청구 시스템 또는 호주 포스트 백업을 출력해야 하는 Java 구조를 구축할 수 있으며, 아래 단계가 서비스 준비 상태를 안내합니다. 또한 **바코드 생성 예제 java**를 살펴보니 실제 상황에서 확인하고 프로젝트에 **Aspose Barcode를 다운로드**하는 방법을 코드로 이해할 수 있습니다.
 
-## Quick Answers
-- **What library do I need?** Aspose.BarCode for Java (Aspose 사이트에서 다운로드).  
-- **Which barcode symbology is used?** `EncodeTypes.AUSTRALIA_POST`.  
-- **Do I need a license for testing?** 개발에는 무료 체험판을 사용할 수 있으며, 프로덕션에서는 상용 라이선스가 필요합니다.  
-- **What output format is generated?** 선택한 폴더에 저장되는 PNG 이미지.  
-- **How many lines of code?** 설정 후 단 4줄의 간결한 코드.
+## 빠른 답변
+- **어떤 라이브러리가 필요합니까?** Aspose.BarCode for Java (Aspose 사이트에서 다운로드).
+- **어떤 바코드 기호가 사용됩니까?** `EncodeTypes.AUSTRALIA_POST`.
+- **테스트를 위해 라이선스가 필요합니까?** 개발에는 무료 체험판을 사용할 수 있습니다.
+- **어떤 출력 형식이 생성됩니까?** 선택 폴더에 저장되는 PNG 이미지입니다.
+- **코드는 몇 줄입니까?** 설정 후 단 4줄의 간단한 코드.
 
-## How to generate barcode java?
+## 바코드 자바를 생성하는 방법은 무엇입니까?
 
-Java에서 바코드 이미지를 생성한다는 것은 원시 데이터(예: 우편 번호나 추적 번호)를 프로그램적으로 변환하여 스캐너가 읽을 수 있는 시각적 바코드로 만드는 것을 의미합니다. Aspose.BarCode가 복잡한 작업을 처리합니다: 호주 포스트 사양을 따르고 이미지를 렌더링하며 크기, 색상, 형식을 사용자 정의할 수 있게 해줍니다.
+Java에서 개체 이미지를 생성한다는 것은 원시 데이터(예: 백업 정보나 추적 번호)를 프로그램적으로 변환하여 일치시킬 수 있는 표시로 만드는 것을 의미합니다. Aspose.BarCode가 복잡한 작업을 처리했습니다: 호주 포스트 테스트를 측정할 때 이미지를 안심하고 크기, 색상, 형식을 사용자 정의할 수 있을 것입니다.
 
-## Why use Aspose.BarCode for Java?
+## Java용 Aspose.BarCode를 사용하는 이유는 무엇입니까?
 
-* **Full‑featured API** – 호주 포스트를 포함한 50개 이상의 심볼을 지원합니다.  
-* **No external dependencies** – 순수 Java이며 모든 JVM에서 작동합니다.  
-* **Easy customization** – 간단한 속성으로 치수, 여백, 폰트 등을 변경할 수 있습니다.  
-* **Reliable and tested** – 기업 솔루션에서 널리 사용되며 정기적으로 업데이트됩니다.  
+* **모든 기능을 갖춘 API** – 호주 포스트에는 50개 이상 포함하여 백업을 지원합니다.
+* **외부 종속성 없음** – Java를 통해 모든 JVM을 작동합니다.
+* **손쉬운 사용자 정의** – 속옷 속성으로 치수, 여성백, 가방 등을 포장할 수 있습니다.
+* **신뢰할 수 있고 테스트를 거쳤습니다** – 기업 솔루션에서 별도로 사용하도록 업데이트됩니다.
 
-## Prerequisites
+## 전제 조건
 
-- Java Development Kit (JDK)이 머신에 설치되어 있어야 합니다.  
-- Eclipse 또는 IntelliJ IDEA와 같은 IDE.  
-- Aspose.BarCode for Java 라이브러리. [here](https://releases.aspose.com/barcode/java/)에서 다운로드할 수 있습니다.  
-- Java 구문 및 프로젝트 설정에 대한 기본적인 이해.  
+- Java Development Kit(JDK)이 머신에 설치해야 합니다.
+- Eclipse 또는 IntelliJ IDEA와 동일한 IDE.
+- Java 라이브러리용 Aspose.BarCode. [여기](https://releases.aspose.com/barcode/java/) 에서 다운로드할 수 있습니다.
+- Java 삽입 및 프로젝트 설정에 대한 기본 이해.
 
-## Import Packages
+## 패키지 가져오기
 
-Add the required Aspose.BarCode classes to your Java source file:
+Java 소스 파일에 필수 Aspose.BarCode 클래스를 추가합니다.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step‑by‑Step Guide
+## 단계별 가이드
 
-### Step 1: Set the Resource Directory
+### 1단계: 리소스 디렉터리 설정
 
-Define where the generated PNG will be stored.
+생성된 PNG 파일이 저장될 위치를 지정합니다.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
 `"Your Document Directory"`를 시스템의 절대 경로(예: `C:/Barcodes/`)로 교체합니다.
+### 2단계: 바코드 생성기 인스턴스 생성
 
-### Step 2: Create the BarcodeGenerator Instance
-
-Instantiate the generator with the Australia Post symbology and the data you want to encode.
+호주 우체국(Australia Post) 심볼과 인코딩할 데이터를 사용하여 생성기를 인스턴스화합니다.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AUSTRALIA_POST, "1234567890");
@@ -75,9 +74,9 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AUSTRALIA_POST, "1
 
 `"1234567890"`을 실제 우편 번호, 추적 번호 또는 호주 포스트 규칙에 맞는 문자열로 교체합니다.
 
-### Step 3: Save the Barcode Image
+### 3단계: 바코드 이미지 저장
 
-Write the barcode to a PNG file in the directory you specified.
+지정한 디렉터리에 바코드를 PNG 파일로 저장합니다.
 
 ```java
 generator.save(dataDir + "australiaPostBarcode.png");
@@ -85,40 +84,40 @@ generator.save(dataDir + "australiaPostBarcode.png");
 
 실행 후 `australiaPostBarcode.png` 파일이 인쇄 또는 삽입할 준비가 된 상태로 생성됩니다.
 
-### Summary of Steps
+### 단계 요약
 
-1. 리소스 디렉터리를 설정합니다.  
-2. `EncodeTypes.AUSTRALIA_POST`를 사용해 `BarcodeGenerator`를 생성합니다.  
+1. 마일리지를 설정합니다.
+2. `EncodeTypes.AUSTRALIA_POST`를 실행하여 `BarcodeGenerator`를 생성합니다.
 3. `save()`를 호출해 PNG 파일을 저장합니다.
 
-이제 이 코드를 바코드 생성이 필요한 모든 Java 서비스, 웹 애플리케이션 또는 배치 작업에 통합할 수 있습니다.
+이제 이 코드를 작성하는 데 필요한 모든 Java 서비스, 웹 기능 또는 배치 작업에 통합할 수 있습니다.
 
-## Common Issues and Solutions
+## 일반적인 문제 및 해결 방법
 
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| **File not found** | `dataDir` 경로가 올바르지 않거나 쓰기 권한이 없습니다. | 절대 경로를 사용하고 폴더가 존재하며 쓰기 권한이 있는지 확인합니다. |
-| **Invalid data** | 데이터가 호주 포스트 형식(예: 길이 오류)을 충족하지 않습니다. | 제너레이터에 전달하기 전에 입력 문자열을 사양에 맞게 검증합니다. |
-| **License exception** | 프로덕션에서 유효한 라이선스 없이 실행하고 있습니다. | Aspose 문서에 설명된 대로 임시 또는 구매한 라이선스를 적용합니다. |
+| 이슈 | 이유 | 수정 |
+|-------|---------|-----|
+| **파일을 찾을 수 없음** | `dataDir` 경로가 올바르지 않은 경우 권한을 부여할 수 없습니다. | 절대 경로를 사용하고 폴더가 존재하는지 확인하고 권한이 있는지 확인합니다. |
+| **잘못된 데이터** | 데이터가 호주 포스트 형식(예: 길이 오류)을 발견하지 못했습니다. | 제너레이터에 전달하기 위해 입력 연결을 테스트해 보세요. |
+| **라이센스 예외** | 경우에 따라 실행하고 있습니다. | Aspose 문서에 설명된 대로 임시 또는 구매한 권한을 적용합니다. |
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
-**Q: Aspose.BarCode for Java가 모든 Java 개발 환경과 호환되나요?**  
-A: 네, Eclipse, IntelliJ IDEA, NetBeans 및 표준 JDK와 원활하게 작동합니다.
+**Q: Aspose.BarCode for Java가 모든 Java 개발 환경과 호환되나요?**
+A: 네, Eclipse, IntelliJ IDEA, NetBeans 및 표준 JDK와 관련되게 작동합니다.
 
-**Q: 바코드의 색상이나 크기를 사용자 정의할 수 있나요?**  
-A: 물론입니다. `BarcodeGenerator` 클래스는 `setBarHeight`, `setForeColor`, `setBackColor`와 같은 속성을 제공하여 시각을 완전히 제어할 수 있습니다.
+**Q: 실체의 색상 크기를 사용자 정의할 수 있습니까?**
+A: 물론입니다. `BarcodeGenerator` 클래스는 `setBarHeight`, `setForeColor`, `setBackColor`와 같은 속성을 제공하여 완료할 수 있습니다.
 
-**Q: Aspose.BarCode의 체험 버전이 있나요?**  
-A: 네, 무료 체험판을 [here](https://releases.aspose.com/)에서 다운로드할 수 있습니다.
+**Q: Aspose.BarCode의 체험 버전이 있나요?**
+A: 네, 무료 체험판을 [여기](https://releases.aspose.com/) 에서 다운로드할 수 있습니다.
 
-**Q: 커뮤니티 지원 및 예제는 어디서 찾을 수 있나요?**  
-A: 팁, 샘플 코드 및 동료 지원을 위해 Aspose.BarCode 포럼을 [here](https://forum.aspose.com/c/barcode/13)에서 방문하세요.
+**Q: 커뮤니티 지원 및 사례는 반대될 수 있습니까?**
+A: 팁, 샘플 코드 및 동료 지원을 위해 Aspose.BarCode 분량을 [여기](https://forum.aspose.com/c/barcode/13) 에서 방문하세요.
 
-**Q: 테스트용 임시 라이선스는 어떻게 얻나요?**  
-A: 임시 라이선스를 [here](https://purchase.aspose.com/temporary-license/)에서 획득할 수 있습니다.
+**Q: 테스트용 인스턴스는 어떻게 생성됩니까?**
+A: 임시 기적을 [여기](https://purchase.aspose.com/temporary-license/) 에서 획득할 수 있습니다.
 
-## Conclusion
+## 결론
 
 이제 Aspose.BarCode를 사용하여 **how to generate barcode java**를 마스터했으며, 특히 호주 포스트 바코드를 생성할 수 있습니다. 위의 간결한 단계를 따라 Java 애플리케이션에 바코드 생성을 삽입하고, 배송 워크플로를 효율화하며, 데이터 캡처 정확성을 향상시킬 수 있습니다.
 

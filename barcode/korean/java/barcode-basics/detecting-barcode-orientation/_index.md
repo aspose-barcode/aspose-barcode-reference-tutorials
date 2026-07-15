@@ -101,16 +101,16 @@ for (BarCodeResult result : reader.readBarCodes()) {
 A1: 예, Aspose.BarCode for Java는 Java 8 및 이후 버전과 호환됩니다.
 
 ### Q2: Aspose.BarCode를 상업 및 비상업 프로젝트 모두에서 사용할 수 있나요?
-A2: 예, Aspose.BarCode는 상업 및 비상업 프로젝트 모두에서 사용할 수 있습니다. 라이선스 세부 사항은 [purchase page](https://purchase.aspose.com/buy)에서 확인하십시오.
+A2: 예, Aspose.BarCode는 상업 및 비상업 프로젝트 모두에서 사용할 수 있습니다. 라이선스 세부 사항은 [purchase page](https://purchase.aspose.com/buy) 에서 확인하십시오.
 
 ### Q3: 테스트 용도로 임시 라이선스를 어떻게 얻을 수 있나요?
-A3: 테스트 및 평가를 위해 [here](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 얻으십시오.
+A3: 테스트 및 평가를 위해 [here](https://purchase.aspose.com/temporary-license/) 에서 임시 라이선스를 얻으십시오.
 
 ### Q4: 추가 지원을 받거나 질문을 하려면 어디에 가면 되나요?
 A4: 커뮤니티 지원 및 토론을 위해 [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) 을 방문하십시오.
 
 ### Q5: 다양한 바코드 작업에 대한 샘플 코드가 있나요?
-A5: 포괄적인 코드 샘플 및 예제를 보려면 [Aspose.BarCode documentation](https://reference.aspose.com/barcode/java/)을 확인하십시오.
+A5: 포괄적인 코드 샘플 및 예제를 보려면 [Aspose.BarCode documentation](https://reference.aspose.com/barcode/java/) 을 확인하십시오.
 
 ---
 

@@ -15,25 +15,25 @@ weight: 17
 
 # JavaでWide‑Narrow比率を使用してCODE_128バーコードを作成する方法
 
-## Introduction
+## はじめに
 
 正確な視覚的比率で **code128バーコードを作成** したい場合、Wide‑Narrow比率の調整が鍵となります。このチュートリアルでは、Aspose.BarCode for Java を使用した **ステップバイステップのバーコード** 作成プロセスを解説し、比率の設定方法、**バーコードPNG画像の生成**、および **バーコード画像のディスクへの保存** 方法を示します。在庫ラベル、出荷タグ、またはカスタムスタイルのCODE_128バーコードが必要なあらゆるアプリケーションに、必要な情報がすべて揃っています。
 
-## Quick Answers
+## よくある質問
 - **Wide‑Narrow比率とは何か？** バーコードの太いバー（wide）と細いバー（narrow）の相対的な幅を制御します。  
 - **どのシンボロジーが比率調整に対応しているか？** CODE_128 を含むほとんどの1次元シンボロジーでカスタム比率を設定できます。  
 - **ライセンスは必要か？** 無料トライアルは利用可能ですが、商用利用には製品ライセンスが必要です。  
 - **PNG形式でバーコード画像を生成できるか？** はい、`generator.save(...)` を使用して PNG 画像を生成できます。  
 - **コードは Java 8 以降に対応しているか？** 完全に対応しています。Aspose.BarCode はすべての最新 Java バージョンで動作します。
 
-## Prerequisites
+## 前提条件
 
 コードに入る前に、以下が揃っていることを確認してください。
 
 - Java Development Kit (JDK) がマシンにインストールされていること。  
 - Aspose.BarCode for Java ライブラリ。[ダウンロードリンク](https://releases.aspose.com/barcode/java/) から取得してください。
 
-## Import Packages
+## パッケージのインポート
 
 まず、プロジェクトに必須の Aspose.BarCode クラスをインポートします。
 
@@ -42,15 +42,15 @@ weight: 17
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## What is the wide‑narrow ratio and why adjust it?
+## ワイドナロー比率とは何か、そしてなぜ調整する必要があるのか​​？
 
 Wide‑Narrow比率は、バーコード内の「wide」バーが「narrow」バーに対してどれだけ太く表示されるかを決定します。この比率を調整することで、スキャナーの読み取り性を向上させたり、特定の印刷基準を満たしたり、ブランドのビジュアルスタイルに合わせたりできます。
 
-## How to create code128 barcode with wide‑narrow ratio in Java
+## Javaでワイドナロー比率のCode128バーコードを作成する方法
 
 以下は、プロセス全体を段階的に案内する **ステップバイステップのバーコード** ガイドです。
 
-### Step 1: Set Document Directory
+### ステップ1：ドキュメントディレクトリの設定
 
 ```java
 // The path to the resource directory.
@@ -59,7 +59,7 @@ String dataDir = "Your Document Directory";
 
 ディレクトリが存在し、書き込み権限があることを確認してください。ここに **バーコード画像の保存** ファイルが配置されます。
 
-### Step 2: Instantiate Barcode Object
+### ステップ2：バーコードオブジェクトのインスタンス化
 
 ```java
 // Instantiate barcode object
@@ -69,7 +69,7 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567
 
 `EncodeTypes.CODE_128` をコンストラクタに渡すことで、**code128バーコードを作成** します。
 
-### Step 3: Set Wide‑Narrow Ratio
+### ステップ3：ワイドナロー比率の設定
 
 ```java
 // Set the wide to narrow ratio for the barcode
@@ -78,7 +78,7 @@ generator.getParameters().getBarcode().setWideNarrowRatio(3.0f);
 
 `setWideNarrowRatio` メソッドで視覚的な間隔を微調整できます。`3.0f` の値は、wideバーがnarrowバーの幅の3倍であることを意味します。
 
-### Step 4: Save Image to Disk
+### ステップ4：イメージのディスクへの保存
 
 ```java
 // Save the image to disk in PNG format
@@ -87,13 +87,13 @@ generator.save(dataDir + "wideNarrowRatio.png");
 
 `save` を呼び出すと **バーコード画像が生成** され、PNG ファイルとして保存され、**バーコード画像の保存** 手順が完了します。
 
-## Why adjust the wide‑narrow ratio?
+## ワイド／ナロー比率を調整する理由
 
 - **スキャナー互換性:** 最適な読み取り率を得るために、2.0〜3.0 の比率を好むスキャナーがあります。  
 - **印刷品質:** 比率を調整することで、プリンターの DPI 制限を補正し、バーの歪みを防げます。  
 - **ブランド一貫性:** 企業によっては、バーコードを社色やデザインガイドラインに合わせたい場合があります。
 
-## Common Issues and Solutions
+## よくある問題とその解決策
 
 | 問題 | 原因 | 対策 |
 |------|------|------|
@@ -101,7 +101,7 @@ generator.save(dataDir + "wideNarrowRatio.png");
 | ファイルが作成されない | 無効な `dataDir` パスまたは権限不足 | ディレクトリパスを確認し、アプリケーションに書き込み権限があることを確認してください。 |
 | スキャナーがバーコードを読み取れない | シンボロジーの推奨範囲外の比率 | 標準の比率（2.0‑3.0）を使用するか、対象スキャナーでテストしてください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.BarCodeを他のJavaフレームワークと併用できますか？**  
 A: はい、Aspose.BarCodeはSpring、Java EE、Android、その他のJava環境とシームレスに連携できるよう設計されています。

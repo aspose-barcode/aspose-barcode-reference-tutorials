@@ -72,23 +72,6 @@ Finjustera den visuella balansen mellan breda och smala staplar för att möta s
 - **Oväntade dimensioner** – Dubbelkolla att du inte har överskrivit X/Y-dimensionerna någon annanstans i din kod.  
 - **Licens ej hittad** – Placera filen `Aspose.BarCode.lic` i classpath eller ange licensen programatiskt vid start.
 
-## Vanliga frågor
-
-**Q: Kan jag generera streckkoder i realtid i en webbapplikation?**  
-A: Ja. Aspose.BarCode fungerar perfekt i servlet‑behållare; du kan strömma bilden direkt till HTTP‑svaret.
-
-**Q: Stöder biblioteket färgade streckkoder?**  
-A: Absolut. Använd metoderna `setForeColor` och `setBackColor` för att anpassa förgrunds‑ och bakgrundsfärger.
-
-**Q: Är det möjligt att generera streckkoder utan att skriva till disk?**  
-A: Ja. Du kan skriva streckkoden till en `ByteArrayOutputStream` och sedan leverera den direkt eller bädda in den i PDF‑filer.
-
-**Q: Hur hanterar jag stor batch‑generering?**  
-A: Skapa en enda `BarcodeGenerator`‑instans och återanvänd den i en loop, uppdatera kodtexten varje iteration för att minska overheaden för objekt‑skapande.
-
-**Q: Finns det några prestandamått?**  
-A: I typiska användningsfall tar det under 2 ms att generera en 300 × 150 px Code128‑streckkod på en modern CPU.
-
 ## Handledningar för streckkodskonfiguration
 ### [Konfigurera streckkod med segment i Java](./configuring-barcode-segments/)
 Skapa anpassade streckkoder i Java utan ansträngning med Aspose.BarCode. Mångsidig, effektiv och utvecklarvänlig.
@@ -114,15 +97,32 @@ Lär dig hur du skapar dynamiska streckkoder i Java med Aspose.BarCode. Steg‑f
 ### [Konfigurera förhållandet bred‑till‑smal i Java](./configuring-wide-narrow-ratio/)
 Lär dig hur du konfigurerar förhållandet bred‑till‑smal i Java‑streckkoder med Aspose.BarCode. Följ vår steg‑för‑steg‑guide för sömlös anpassning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Vanliga frågor
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Kan jag generera streckkoder i realtid i en webbapplikation?**  
+A: Ja. Aspose.BarCode fungerar perfekt i servlet‑behållare; du kan strömma bilden direkt till HTTP‑svaret.
 
-{{< blocks/products/products-backtop-button >}}
+**Q: Stöder biblioteket färgade streckkoder?**  
+A: Absolut. Använd metoderna `setForeColor` och `setBackColor` för att anpassa förgrunds‑ och bakgrundsfärger.
+
+**Q: Är det möjligt att generera streckkoder utan att skriva till disk?**  
+A: Ja. Du kan skriva streckkoden till en `ByteArrayOutputStream` och sedan leverera den direkt eller bädda in den i PDF‑filer.
+
+**Q: Hur hanterar jag stor batch‑generering?**  
+A: Skapa en enda `BarcodeGenerator`‑instans och återanvänd den i en loop, uppdatera kodtexten varje iteration för att minska overheaden för objekt‑skapande.
+
+**Q: Finns det några prestandamått?**  
+A: I typiska användningsfall tar det under 2 ms att generera en 300 × 150 px Code128‑streckkod på en modern CPU.
 
 ---
 
 **Last Updated:** 2026-02-12  
 **Tested With:** Aspose.BarCode for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
