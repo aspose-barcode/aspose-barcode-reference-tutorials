@@ -1,11 +1,11 @@
 ---
-date: 2025-12-16
-description: Naučte se, jak v Javě pomocí Aspose.BarCode vytvořit čárový kód code_128,
-  přizpůsobit jeho velikost, nastavit výšku čáry a efektivně vygenerovat obrázek čárového
+date: 2026-02-15
+description: Naučte se, jak v Javě vytvořit čárový kód code128 pomocí Aspose.BarCode,
+  přizpůsobit jeho velikost, upravit rozměry a efektivně generovat obrázek čárového
   kódu.
 linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
-title: Jak vytvořit čárový kód code_128 a nastavit výšku čáry v Javě
+title: Jak vytvořit čárový kód code128 v Javě a nastavit výšku čáry
 url: /cs/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
@@ -18,44 +18,44 @@ weight: 14
 
 ## Úvod
 
-V moderních Java aplikacích často potřebujete **vytvořit čárový kód code_128** tak, aby přesně odpovídal vizuálnímu designu vašich reportů, štítků nebo účtenek. Aspose.BarCode pro Java to usnadňuje – umožňuje **přizpůsobit velikost čárového kódu**, upravit rozměry a vygenerovat obrázek čárového kódu, který Java okamžitě uloží. V tomto tutoriálu si ukážeme, jak nastavit výšku čáry při generování čárového kódu CODE_128, abyste vždy získali perfektně dimenzované čárové kódy.
+Pokud potřebujete **create code128 barcode java** pro tisk štítků, faktur nebo mobilní aplikace, budete chtít mít plnou kontrolu nad jeho vizuálními rozměry. Aspose.BarCode for Java vám umožňuje **customize barcode size**, nastavit přesnou výšku čáry a okamžitě vygenerovat obrázek čárového kódu, který odpovídá požadavkům vašeho designu. V tomto tutoriálu vás provedeme kompletním procesem vytvoření CODE_128 čárového kódu, úpravou jeho výšky a uložením obrázku — abyste mohli pokaždé vytvářet perfektně veliké čárové kódy.
 
 ## Rychlé odpovědi
-- **Co dělá hlavní metoda?** Vytvoří čárový kód CODE_128 a umožní nastavit výšku jeho čáry.  
-- **Která třída se používá?** `BarcodeGenerator` z knihovny Aspose.BarCode.  
-- **Potřebuji licenci pro testování?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkční nasazení.  
-- **Mohu měnit i jiné rozměry?** Ano, můžete upravit šířku, okraje a další parametry velikosti.  
-- **V jakém formátu je výstupní obrázek?** V libovolném formátu podporovaném Aspose.BarCode (např. JPEG, PNG).  
+- **What does the primary method do?** Vytváří CODE_128 čárový kód a umožňuje nastavit výšku čáry.  
+- **Which class is used?** `BarcodeGenerator` z knihovny Aspose.BarCode.  
+- **Do I need a license for testing?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkci.  
+- **Can I change other dimensions?** Ano, můžete upravit šířku, okraje a další parametry velikosti.  
+- **What format is the output image?** Jakýkoli formát podporovaný Aspose.BarCode (např. JPEG, PNG).  
 
-## Co je čárový kód CODE_128 a proč nastavit jeho výšku?
-CODE_128 je vysoce hustý lineární čárový kód, který kóduje celý ASCII soubor. Úprava výšky čáry je nezbytná, když musí čárový kód odpovídat fyzickým rozměrům štítku nebo se vejít do UI komponenty. Správná výška zajišťuje čitelnost skenery a zároveň udržuje vizuální rovnováhu rozvržení.
+## Co je CODE_128 čárový kód a proč nastavit jeho výšku?
+CODE_128 je vysoce hustý lineární čárový kód, který kóduje celý ASCII soubor. Úprava výšky čáry je nezbytná, když čárový kód musí odpovídat fyzickým rozměrům štítku nebo se vešít do UI komponenty. Správná výška zajišťuje čitelnost skenery a zároveň udržuje vizuální rozvržení vyvážené.
 
 ## Proč použít Aspose.BarCode pro Java?
-- **Plná kontrola** nad rozměry čárového kódu (výška, šířka, okraje).  
-- **Široká podpora formátů** – generujte PNG, JPEG, BMP a další.  
-- **Žádné externí závislosti** – čistá Java knihovna, snadno integrovatelná.  
-- **Bohaté API** – přizpůsobte barvy, text a korekci chyb bez námahy.
+- **Full control** nad rozměry čárového kódu (výška, šířka, okraje).  
+- **Wide format support** – generujte PNG, JPEG, BMP a další.  
+- **No external dependencies** – čistá Java knihovna, snadno integrovatelná.  
+- **Rich API** – snadno přizpůsobte barvy, text a opravu chyb.  
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte:
+Předtím, než začnete, ujistěte se, že máte:
 
 - Vývojové prostředí Java (JDK 8 nebo vyšší).  
-- Aspose.BarCode pro Java – stáhněte si jej z [odkazu ke stažení](https://releases.aspose.com/barcode/java/).  
+- Aspose.BarCode for Java – stáhněte jej z [download link](https://releases.aspose.com/barcode/java/).  
 
 ## Import balíčků
 
-Ve svém Java projektu importujte hlavní třídu, která poskytuje možnosti generování čárových kódů:
+Ve vašem Java projektu importujte hlavní třídu, která poskytuje možnosti generování čárových kódů:
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Jak vytvořit čárový kód code_128 a nastavit jeho výšku
+## Jak vytvořit code128 barcode java a nastavit jeho výšku
 
 ### Krok 1: Inicializace objektu Barcode
 
-Vytvořte instanci `BarcodeGenerator` pro čárový kód CODE_128 s daty, která chcete zakódovat (např. „12345678”).
+Vytvořte instanci `BarcodeGenerator` pro CODE_128 čárový kód s daty, která chcete zakódovat (např. “12345678”).
 
 ```java
 // Instantiate barcode object
@@ -64,62 +64,62 @@ BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes
 
 ### Krok 2: Úprava rozměrů čárového kódu – nastavení výšky čáry
 
-Použijte vlastnost `BarHeight` k definování výšky v milimetrech. Toto je hlavní způsob, **jak nastavit výšku čárového kódu**.
+Použijte vlastnost `BarHeight` k definování výšky v milimetrech. Toto je hlavní způsob, jak **adjust barcode dimensions**.
 
 ```java
 // Set the bar height to be 3 millimeters
 generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 ```
 
-> **Tip:** Můžete také upravit `XDimension`, abyste změnili šířku jednotlivých čar, což vám dává plnou kontrolu nad **úpravou rozměrů čárového kódu**.
+> **Pro tip:** Můžete také upravit `XDimension` pro změnu šířky jednotlivých čar, což vám dává plnou kontrolu nad **customize barcode size**.
 
 ### Krok 3: Uložení obrázku čárového kódu – generate barcode image java
 
-Nakonec zapíšete čárový kód do souboru. Metoda `save` automaticky určí formát obrázku podle přípony souboru.
+Nakonec zapište čárový kód do souboru. Metoda `save` automaticky určuje formát obrázku podle přípony souboru.
 
 ```java
 // Save the Barcode image to file
 generator.save(dataDir + "barsHeight.jpg");
 ```
 
-> **Poznámka:** Nahraďte `dataDir` skutečnou cestou, kam chcete obrázek uložit.
+> **Note:** Nahraďte `dataDir` skutečnou cestou, kam chcete obrázek uložit.
 
 ## Běžné případy použití
 
-- **Tisk štítků** – Zajistěte, aby čárový kód zapadal do předdefinované velikosti štítku.  
-- **Generování faktur** – Vložte kompaktní čárový kód, který odpovídá rozvržení vašich PDF faktur.  
-- **Mobilní aplikace** – Dynamicky generujte čárové kódy s přesnými rozměry pro skenování na obrazovce.
+- **Barcode for label printing** – Zajistěte, aby čárový kód zapadal do předdefinované velikosti štítku.  
+- **Invoice generation** – Vložte kompaktní čárový kód, který odpovídá rozvržení vašich PDF faktur.  
+- **Mobile apps** – Dynamicky generujte čárové kódy s přesnými rozměry pro skenování na obrazovce.
 
-## Řešení potíží a tipy
+## Řešení problémů a tipy
 
-| Problém | Řešení |
-|---------|--------|
-| Čárový kód se zdá příliš tenký nebo příliš tlustý | Upravit `XDimension` pomocí `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)`. |
-| Obrázek je rozmazaný | Zvyšte DPI voláním `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
-| Skener kód nečte | Ověřte, že výška čáry splňuje minimální požadavek skeneru (obvykle ≥ 2 mm). |
+| Issue | Solution |
+|-------|----------|
+| Čárový kód se zdá příliš tenký nebo příliš tlustý | Upravte `XDimension` pomocí `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)`. |
+| Image is blurry | Zvyšte DPI voláním `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
+| Scanner cannot read the code | Ověřte, že výška čáry splňuje minimální požadavek skeneru (obvykle ≥ 2 mm). |
 
 ## Často kladené otázky
 
-**Q: Mohu v Aspose.BarCode pro Java přizpůsobit typ čárového kódu?**  
-A: Rozhodně! Knihovna podporuje mnoho symbologií, jako QR, DataMatrix, PDF417 a další – stačí změnit `EncodeTypes` v konstruktoru.
+**Q: Mohu přizpůsobit typ čárového kódu v Aspose.BarCode pro Java?**  
+A: Rozhodně! Knihovna podporuje mnoho symbologií, jako QR, DataMatrix, PDF417 a další — stačí změnit `EncodeTypes` v konstruktoru.
 
 **Q: Je Aspose.BarCode kompatibilní s různými Java IDE?**  
-A: Ano, funguje hladce v Eclipse, IntelliJ IDEA, NetBeans i v jakémkoli IDE, které podporuje standardní Java projekty.
+A: Ano, funguje bez problémů s Eclipse, IntelliJ IDEA, NetBeans a jakýmkoli IDE, které podporuje standardní Java projekty.
 
-**Q: Mohu generovat čárové kódy s číselnými i alfanumerickými hodnotami?**  
-A: Ano, CODE_128 dokáže kódovat jak číselná, tak alfanumerická data, což jej činí univerzálním pro většinu aplikací.
+**Q: Mohu generovat čárové kódy s číselnými a alfanumerickými hodnotami?**  
+A: Ano, CODE_128 může kódovat jak číselná, tak alfanumerická data, což jej činí univerzálním pro většinu aplikací.
 
-**Q: Existuje zkušební verze Aspose.BarCode pro Java?**  
-A: Ano, funkce Aspose.BarCode můžete vyzkoušet zdarma prostřednictvím [zkušební verze](https://releases.aspose.com/).
+**Q: Je k dispozici zkušební verze pro Aspose.BarCode pro Java?**  
+A: Ano, můžete prozkoumat funkce Aspose.BarCode získáním bezplatné zkušební verze [zde](https://releases.aspose.com/).
 
-**Q: Kde najdu podporu pro Aspose.BarCode pro Java?**  
-A: Navštivte fórum Aspose.BarCode [zde](https://forum.aspose.com/c/barcode/13) pro komunitní podporu a diskuse.
+**Q: Kde mohu najít podporu pro Aspose.BarCode pro Java?**  
+A: Navštivte fórum Aspose.BarCode [zde](https://forum.aspose.com/c/barcode/13) pro komunitní podporu a diskuze.
 
 ---
 
-**Poslední aktualizace:** 2025-12-16  
-**Testováno s:** Aspose.BarCode pro Java 24.12 (nejnovější)  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-15  
+**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

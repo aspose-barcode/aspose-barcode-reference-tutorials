@@ -1,11 +1,11 @@
 ---
-date: 2025-12-13
-description: Aspose.BarCode kullanarak patch barkod Java'sını nasıl oluşturacağınızı
-  öğrenin – patch kodu oluşturmayı ve patch formatını ayarlamayı gösteren bir Java
-  barkod oluşturucu örneği.
+date: 2026-02-15
+description: Aspose.BarCode kullanarak Java’da yama barkodu oluşturmayı öğrenin –
+  yama kodu üretmeyi ve yama formatını ayarlamayı gösteren bir Java barkod üreteci
+  örneği.
 linktitle: Generating a Patch Code in Java
 second_title: Aspose.BarCode Java API
-title: Patch Barkodu Oluşturma Java – Aspose.BarCode ile Patch Kodu Üretme
+title: Patch Barkodu Java ile Oluştur – Aspose.BarCode ile Patch Kodu Üret
 url: /tr/java/barcode-configuration/generating-patch-code/
 weight: 11
 ---
@@ -16,36 +16,41 @@ weight: 11
 
 # Aspose.BarCode ile Java'da Patch Barkod Oluşturma
 
-## Introduction
+## Giriiş
 
-Bu kapsamlı rehberde, Aspose.BarCode for Java kullanarak **create patch barcode java** hızlı ve güvenilir bir şekilde **oluşturacaksınız**. Bir belge‑management sistemi mi inşa ediyorsunuz yoksa kağıt üzerinde veri depolamanın kompakt bir yoluna mı ihtiyacınız var, Patch Code üretmek pratik bir çözümdür. Bir **java barcode generator example** üzerinden ilerleyecek, **how to generate patch code** açıklayacak ve **how to set patch format** göstererek çıktıyı tam gereksinimlerinize göre özelleştirebileceksiniz.
+Bu ayrıntılı rehberde, Aspose.BarCode for Java kullanarak **patch barcode java**'yı hızlı ve güvenilir bir şekilde **oluşturacaksınız**. İster bir belge‑yönetim sistemi geliştiriliyor, ister kağıt üzerinde meta verileri saklamak için kompakt bir yol aranıyor olsun ya da yüksek kalitede 2‑D barkod çözümü geliştiriliyor, Patch Code oturumu pratik bir seçimdir. Bir **java barkod üreteci örneği** üzerinden iletecek, **yama kodu nasıl oluşturulur**'u açıklayacak ve **yama formatı nasıl ayarlanır**'ı göstererek çıktıyı tam özelliklerine göre özelleştirebileceksiniz.
 
-## Quick Answers
-- **What library is best for patch codes?** Aspose.BarCode for Java
-- **How many lines of code are needed?** About 20 lines for a basic example
-- **Do I need a license?** A free trial works for development; a commercial license is required for production
-- **Can I change the page size?** Yes, using `PatchFormat` (e.g., US_LETTER, A4)
-- **Supported image formats?** BMP, PNG, JPEG, GIF, and more
+## Hızlı Yanıtlar
+- **Yama kodları için en iyi kütüphane hangisidir?** Aspose.BarCode for Java
+- **Kaç satır kod gerekli?** Temel bir örnek için yaklaşık 20 satır
+- **Lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü geliştirme amaçlı çalışır; üretim için ticari lisans gereklidir
+- **Sayfa boyutunu değiştirebilir miyim?** Evet, "PatchFormat"ı kullanarak (ör. US_LETTER, A4)
+- **Desteklenen resim formatları mı?** BMP, PNG, JPEG, GIF ve daha fazlası
 
-## What is a Patch Code?
-Patch Code, tek bir sayfada basılabilen dört ayrı panelden oluşan iki‑boyutlu bir barkoddur. Her panel bağımsız olarak taranabildiği için büyük miktarda belgeyi indekslemek için idealdir.
+## Yama Kodu nedir?
+Yama Kodu, tek bir sayfada basılabilen dört ayrı panelden oluşan iki‑boyutlu bir barkoddur. Paneli bağımsız olarak taranabilir, bu da büyük miktarda belgeyi indekslemek için fiziksel alanı küçük tutarken ideal bir çözüm sunar.
 
-## Why use Aspose.BarCode for Java?
-- **Full‑featured API** – Patch Code dahil tüm büyük barkod tiplerini destekler.
-- **Easy customization** – basit özellik çağrılarıyla boyut, format, kenar boşlukları ve daha fazlasını değiştirebilirsiniz.
-- **Cross‑platform** – masaüstü uygulamalardan web servislerine kadar herhangi bir Java ortamında çalışır.
+## Java için Aspose.BarCode'u neden kullanmalıyım?
+- **Tam özellikli API** – Yama Kodu dahil tüm önemli barkod türlerini destekler.
+- **Kolay özelleştirme** – basit özellik çağrılarıyla boyutu, biçimi, kenar boşluklarını ve daha fazlasını değiştirin.
+- **Platformlar arası** – masaüstü uygulamalarından web hizmetlerine kadar Java'nın etkin olduğu tüm ortamlarda çalışır.
+- **Sağlam dokümantasyon** – kapsamlı örnekler ve API referansı, hızlı bir şekilde öğrenmenize yardımcı olur.
 
-## Prerequisites
+## Önkoşullar
 
-İlerlemeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
-- **Java Development Environment** – JDK 8 veya daha yeni bir sürüm yüklü.
-- **Aspose.BarCode for Java** – [download link](https://releases.aspose.com/barcode/java/) adresinden indirin.
-- **IDE or Text Editor** – herhangi bir Java‑compatible editor (IntelliJ IDEA, Eclipse, VS Code vb.).
+- **Java Geliştirme Ortamı** – JDK8 veya üzeri kurulu olmalı.
 
-## Import Packages
+- **Aspose.BarCode for Java** – [indirme bağlantısından](https://releases.aspose.com/barcode/java/) indirin.
 
-Başlamak için gerekli sınıfları içe aktarın. Aşağıdaki kod parçacığı tam olarak ihtiyacınız olanı gösterir:
+- **IDE veya Metin Düzenleyici** – Java uyumlu herhangi bir düzenleyici (IntelliJ IDEA, Eclipse, VSCode, vb.).
+
+- Oluşturulan görüntüleri kaydetmeyi planladığınız klasöre **yazma izinleri**.
+
+## Paketleri İçe Aktarma
+
+Başlamak için gerekli sınıfları içe aktarın. Aşağıdaki kod parçası tam olarak neye ihtiyacınız olduğunu gösteriyor:
 
 ```java
 import com.aspose.barcode.generation.PatchFormat;
@@ -53,9 +58,13 @@ import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.MarginsF;
 ```
 
-### Step 1: Generate a Basic Patch Code
+## Java ile Yama Barkodu Nasıl Oluşturulur – Adım Adım
 
-Bu **java barcode generator example**, basit bir Patch Code oluşturur ve BMP görüntüsü olarak kaydeder.
+Aşağıda, her kod bloğunu somut bir eyleme bağlayan açık ve numaralandırılmış bir yol haritası bulunmaktadır. Kod parçalarını olduğu gibi kopyalayabilirsiniz; yer tutucu klasör yolunu değiştirdikten sonra çalıştırılmaya hazırdırlar.
+
+### Adım 1: Temel Bir Yama Kodu Oluşturun
+
+Bu **Java barkod oluşturucu örneği**, basit bir Yama Kodu oluşturur ve bunu bir BMP görüntüsü olarak kaydeder.
 
 ```java
 public static void generatePatchCode() throws IOException {
@@ -65,15 +74,14 @@ public static void generatePatchCode() throws IOException {
 }
 ```
 
-Bu yöntemde:
+**Burada neler oluyor?**
+1. `dataDir`, resmin yazılacağı klasörü gösterir.
+2. `BarcodeGenerator`, `EncodeTypes.PATCH_CODE` ve "Patch T" metniyle örneklendirilir.
+3. `save`, barkodu `patch.bmp` dosyasına yazar.
 
-1. Çıktı klasörünü (`dataDir`) tanımlayın.
-2. `BarcodeGenerator`'ı `EncodeTypes.PATCH_CODE` ve `"Patch T"` metniyle örnekleyin.
-3. Oluşturulan görüntüyü diske kaydedin.
+### Adım 2: Yama Biçimini (Kağıt Boyutu) Ayarlayın
 
-### Step 2: How to Set Patch Format
-
-Eğer belirli bir kağıt boyutuna ihtiyacınız varsa, kaydetmeden önce formatı ayarlayabilirsiniz. Bu, **how to set patch format**'ı US Letter olarak göstermektedir.
+Belirli bir kağıt boyutuna ihtiyacınız varsa, kaydetmeden önce biçimi ayarlayabilirsiniz. Bu, **yama biçimini US Letter olarak nasıl ayarlayacağınızı** göstermektedir.
 
 ```java
 public static void setPatchFormat() throws IOException {
@@ -84,9 +92,12 @@ public static void setPatchFormat() throws IOException {
 }
 ```
 
-### Step 3: Generate Whole Page (Assemble All Panels)
+**Formatı neden ayarlamalıyız?**
+Yama kodu panelleri, seçilen sayfa boyutuna göre düzenlenir. `PatchFormat.US_LETTER` kullanımı, panellerin standart mektup boyutundaki bir sayfaya doğru şekilde sığmasını sağlar.
 
-Aşağıda, her paneli oluşturan, bunları tam bir sayfada birleştiren ve son PNG dosyasını yazan tam rutin bulunmaktadır. İşte çok‑panel düzeni için **how to generate patch code**'ı gördüğünüz yer.
+### Adım 3: Tam Bir Sayfa Oluşturma (Tüm Panelleri Birleştirme)
+
+Aşağıda, her paneli oluşturan, bunları eksiksiz bir sayfaya birleştiren ve son PNG dosyasını yazan tam rutin yer almaktadır. Burada, çok panelli bir düzen için **yama kodunun nasıl oluşturulacağını** göreceksiniz.
 
 ```java
 public static void generateWholePage() throws IOException {
@@ -109,33 +120,53 @@ public static void generateWholePage() throws IOException {
 }
 ```
 
-#### Common Issues & Tips
-- **Incorrect directory path** – `dataDir`'in bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.
-- **Missing permissions** – Uygulamanın hedef klasöre yazma izni olmalı.
-- **Image quality** – Gerekirse DPI'yi `generator.getParameters().getImageInfo().setResolutionX/Y()` ile ayarlayın.
+**Dikkat Edilmesi Gereken Önemli Noktalar**
+- Bu yöntem, her paneli temsil eden dört ayrı görüntü (`topImg`, `leftImg`, `bottomImg`, `rightImg`) oluşturur.
 
-## Frequently Asked Questions
+- Panelleri birleştirmek için daha büyük bir `frameImg` tuvali oluşturulur.
 
-**Q: Can I use Aspose.BarCode for Java in commercial projects?**  
-A: Evet, üretim kullanımı için ticari lisans gereklidir. Bunu [Aspose's purchase page](https://purchase.aspose.com/buy) adresinden satın alabilirsiniz.
+- Son PNG dosyası, belirttiğiniz klasöre yazılır.
 
-**Q: Is there a free trial available?**  
-A: Kesinlikle. Deneme sürümünü [Aspose's release page](https://releases.aspose.com/) adresinden indirebilirsiniz.
+## Sık Karşılaşılan Sorunlar ve İpuçları
 
-**Q: How do I get support?**  
-A: [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) adresini ziyaret edin; topluluk yardımı ve resmi destek kanalları mevcuttur.
+- **Yanlış dizin yolu** – `dataDir`'in dosya ayırıcıyla (`/` veya `\\`) bittiğinden emin olun.
 
-**Q: Are temporary licenses an option?**  
-A: Evet, geçici lisanslar [Aspose's temporary license page](https://purchase.aspose.com/temporary-license/) üzerinden sunulmaktadır.
+- **Eksik izinler** – Uygulamanın hedef klasöre yazma erişimi olmalıdır.
 
-**Q: Where can I find the full API reference?**  
-A: Dokümantasyon [Aspose.BarCode for Java documentation](https://reference.aspose.com/barcode/java/) adresinde mevcuttur.
+- **Görüntü kalitesi** – Tarama için daha yüksek çözünürlüğe ihtiyacınız varsa, `generator.getParameters().getImageInfo().setResolutionX/Y()` aracılığıyla DPI'yı ayarlayın.
+
+- **Bellek kullanımı** – Büyük sayfalar oluştururken, görüntü arabelleklerini boşaltmak için kaydettikten sonra `System.gc()` çağırmayı düşünün.
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.BarCode for Java'yı ticari projelerde kullanabilir miyim?**
+C: Evet, üretim amaçlı kullanım için ticari lisans gereklidir. [Aspose'un satın alma sayfasından](https://purchase.aspose.com/buy) satın alabilirsiniz.
+
+**S: Ücretsiz deneme sürümü mevcut mu?**
+C: Kesinlikle. [Aspose'un yayın sayfasından](https://releases.aspose.com/) deneme sürümünü indirebilirsiniz.
+
+**S: Nasıl destek alabilirim?**
+C: Topluluk yardımı ve resmi destek kanalları için [Aspose.BarCode forumunu](https://forum.aspose.com/c/barcode/13) ziyaret edin.
+
+**S: Geçici lisanslar bir seçenek mi?**
+C: Evet, geçici lisanslar [Aspose'un geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) sunulmaktadır.
+
+**S: Tam API referansını nerede bulabilirim?**
+C: Dokümantasyon, [Aspose.BarCode for Java dokümantasyonunda](https://reference.aspose.com/barcode/java/) mevcuttur.
+
+## Ek Kaynaklar
+
+- **Örnek Projeler** – Tam özellikli örnekler için resmi Aspose.BarCode GitHub deposunu inceleyin.
+
+- **Performans İpuçları** – Yüksek çözünürlüklü taramalar için `generator.getParameters().getImageInfo().setResolutionX(300)` kullanın.
+
+- **Sonraki Adımlar** – Patch Code'u öğrendikten sonra, aynı jeneratör sınıfını kullanarak QR Code veya Data Matrix gibi diğer 2 boyutlu barkodları deneyin.
 
 ---
 
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.BarCode for Java 24.12 (latest)  
-**Author:** Aspose  
+**Son Güncelleme:** 15.02.2026
+**Test Edildiği Sürüm:** Aspose.BarCode for Java 24.12 (en son sürüm)
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

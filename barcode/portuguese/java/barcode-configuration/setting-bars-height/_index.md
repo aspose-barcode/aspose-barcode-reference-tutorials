@@ -1,11 +1,11 @@
 ---
-date: 2025-12-16
-description: Aprenda a criar códigos de barras code_128 em Java usando Aspose.BarCode,
-  personalizar o tamanho do código de barras, definir a altura das barras e gerar
-  a imagem do código de barras em Java de forma eficiente.
+date: 2026-02-15
+description: Aprenda a criar código de barras Code128 em Java com Aspose.BarCode,
+  personalizar o tamanho do código de barras, ajustar as dimensões do código de barras
+  e gerar a imagem do código de barras em Java de forma eficiente.
 linktitle: Setting Bars Height
 second_title: Aspose.BarCode Java API
-title: Como criar código de barras code_128 e definir a altura da barra em Java
+title: Como criar código de barras Code128 em Java e definir a altura das barras
 url: /pt/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
@@ -18,107 +18,107 @@ weight: 14
 
 ## Introdução
 
-Em aplicações Java modernas, você frequentemente precisa **criar code_128 barcode** imagens que se ajustem ao design visual exato de seus relatórios, etiquetas ou recibos. Aspose.BarCode for Java torna isso simples, permitindo que você **customize barcode size**, ajuste as dimensões e gere uma imagem de código de barras que o Java pode salvar instantaneamente. Neste tutorial, vamos percorrer a definição da altura das barras ao gerar um código de barras CODE_128, para que você possa produzir códigos de barras perfeitamente dimensionados todas as vezes.
+Se você precisa **criar código de barras code128 java** para impressão de etiquetas, notas fiscais ou aplicativos móveis, desejará ter controle total sobre suas dimensões visuais. O Aspose.BarCode for Java permite **personalizar o tamanho do código de barras**, definir a altura exata das barras e gerar instantaneamente uma imagem de código de barras que se encaixa nos requisitos de design. Neste tutorial, percorreremos todo o processo de criação de um código de barras CODE_128, ajuste da sua altura e salvamento da imagem — para que você produza códigos de barras perfeitamente dimensionados todas as vezes.
 
 ## Respostas Rápidas
-- **O que o método principal faz?** Ele cria um CODE_128 barcode e permite que você defina sua bar height.  
+- **O que o método principal faz?** Ele cria um código de barras CODE_128 e permite definir a altura das barras.  
 - **Qual classe é usada?** `BarcodeGenerator` da biblioteca Aspose.BarCode.  
-- **Preciso de licença para testes?** Um teste gratuito está disponível; uma licença é necessária para produção.  
-- **Posso mudar outras dimensões?** Sim, você pode ajustar width, margins e outros size parameters.  
-- **Qual formato é a imagem de saída?** Qualquer formato suportado por Aspose.BarCode (por exemplo, JPEG, PNG).  
+- **Preciso de licença para testes?** Existe uma versão de avaliação gratuita; uma licença é necessária para produção.  
+- **Posso mudar outras dimensões?** Sim, você pode ajustar largura, margens e outros parâmetros de tamanho.  
+- **Qual o formato da imagem de saída?** Qualquer formato suportado pelo Aspose.BarCode (por exemplo, JPEG, PNG).  
 
-## O que é um CODE_128 barcode e por que definir sua altura?
-CODE_128 é um barcode linear de alta densidade que codifica o conjunto ASCII completo. Ajustar a bar height é essencial quando o barcode deve alinhar-se com as dimensões físicas da etiqueta ou caber dentro de um componente de UI. A altura correta garante legibilidade pelos scanners enquanto mantém o layout visual equilibrado.
+## O que é um código de barras CODE_128 e por que definir sua altura?
+CODE_128 é um código de barras linear de alta densidade que codifica todo o conjunto ASCII. Ajustar a altura das barras é essencial quando o código de barras deve alinhar‑se com as dimensões físicas da etiqueta ou caber dentro de um componente de UI. A altura correta garante a legibilidade pelos scanners enquanto mantém o layout visual equilibrado.
 
 ## Por que usar Aspose.BarCode para Java?
-- **Controle total** sobre barcode dimensions (height, width, margins).  
-- **Suporte amplo a formatos** – generate PNG, JPEG, BMP, and more.  
-- **Sem dependências externas** – pure Java library, easy to integrate.  
-- **API rica** – customize colors, text, and error correction effortlessly.
+- **Controle total** sobre as dimensões do código de barras (altura, largura, margens).  
+- **Amplo suporte a formatos** – gere PNG, JPEG, BMP e muito mais.  
+- **Sem dependências externas** – biblioteca pura Java, fácil de integrar.  
+- **API rica** – personalize cores, texto e correção de erros sem esforço.  
 
-## Pré-requisitos
+## Pré‑requisitos
 
 Antes de começar, certifique‑se de que você tem:
 
 - Um ambiente de desenvolvimento Java (JDK 8 ou superior).  
-- Aspose.BarCode for Java – faça o download a partir do [download link](https://releases.aspose.com/barcode/java/).  
+- Aspose.BarCode for Java – faça o download a partir do [link de download](https://releases.aspose.com/barcode/java/).  
 
 ## Importar Pacotes
 
-No seu projeto Java, importe a classe principal que fornece as capacidades de geração de barcode:
+No seu projeto Java, importe a classe principal que fornece recursos de geração de código de barras:
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Como criar code_128 barcode e definir sua altura
+## Como criar code128 barcode java e definir sua altura
 
-### Passo 1: Inicializar o Objeto Barcode
+### Etapa 1: Inicializar o Objeto Barcode
 
-Crie uma instância de `BarcodeGenerator` para um CODE_128 barcode com os dados que você deseja codificar (por exemplo, “12345678”).
+Crie uma instância de `BarcodeGenerator` para um código de barras CODE_128 com os dados que deseja codificar (por exemplo, “12345678”).
 
 ```java
 // Instantiate barcode object
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
 ```
 
-### Passo 2: Ajustar as Dimensões do Barcode – Definir a Altura da Barra
+### Etapa 2: Ajustar as Dimensões do Código de Barras – Definir a Altura das Barras
 
-Use a propriedade `BarHeight` para definir a height em milímetros. Esta é a forma principal de **how to set barcode height**.
+Use a propriedade `BarHeight` para definir a altura em milímetros. Esta é a forma principal de **ajustar as dimensões do código de barras**.
 
 ```java
 // Set the bar height to be 3 millimeters
 generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 ```
 
-> **Dica profissional:** Você também pode modificar `XDimension` para mudar a width das barras individuais, dando a você controle total sobre **adjust barcode dimensions**.
+> **Dica profissional:** Você também pode modificar `XDimension` para alterar a largura das barras individuais, dando controle total sobre **personalizar o tamanho do código de barras**.
 
-### Passo 3: Salvar a Imagem do Barcode – generate barcode image java
+### Etapa 3: Salvar a Imagem do Código de Barras – gerar barcode image java
 
-Finalmente, escreva o barcode em um arquivo. O método `save` determina automaticamente o formato da imagem a partir da extensão do arquivo.
+Por fim, grave o código de barras em um arquivo. O método `save` determina automaticamente o formato da imagem a partir da extensão do arquivo.
 
 ```java
 // Save the Barcode image to file
 generator.save(dataDir + "barsHeight.jpg");
 ```
 
-> **Nota:** Substitua `dataDir` pelo caminho real onde você deseja armazenar a imagem.
+> **Observação:** Substitua `dataDir` pelo caminho real onde deseja armazenar a imagem.
 
 ## Casos de Uso Comuns
 
-- **Impressão de etiquetas** – Garantir que o barcode caiba dentro de um tamanho de label pré‑definido.  
-- **Geração de faturas** – Incorporar um barcode compacto que corresponda ao layout de suas PDF invoices.  
-- **Aplicativos móveis** – Gerar dinamicamente barcodes com dimensões exatas para on‑screen scanning.
+- **Código de barras para impressão de etiquetas** – Garanta que o código de barras caiba dentro de um tamanho de etiqueta predefinido.  
+- **Geração de notas fiscais** – Incorpore um código de barras compacto que corresponda ao layout das suas notas fiscais em PDF.  
+- **Aplicativos móveis** – Gere dinamicamente códigos de barras com dimensões exatas para leitura em tela.
 
-## Solução de Problemas e Dicas
+## Solução de Problemas & Dicas
 
 | Problema | Solução |
 |----------|---------|
-| Barcode appears too thin or too thick | Adjust `XDimension` via `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)`. |
-| Image is blurry | Increase the DPI by calling `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
-| Scanner cannot read the code | Verify that the bar height meets the scanner’s minimum requirement (usually ≥ 2 mm). |
+| O código de barras parece muito fino ou muito grosso | Ajuste `XDimension` via `generator.getParameters().getBarcode().getXDimension().setMillimeters(valor)`. |
+| A imagem está borrada | Aumente o DPI chamando `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
+| O scanner não consegue ler o código | Verifique se a altura das barras atende ao requisito mínimo do scanner (geralmente ≥ 2 mm). |
 
 ## Perguntas Frequentes
 
-**Q: Posso personalizar o tipo de barcode no Aspose.BarCode para Java?**  
-A: Absolutely! The library supports many symbologies such as QR, DataMatrix, PDF417, and more—just change `EncodeTypes` in the constructor.
+**P: Posso personalizar o tipo de código de barras no Aspose.BarCode para Java?**  
+R: Absolutamente! A biblioteca suporta diversas simbologias como QR, DataMatrix, PDF417 e mais — basta alterar `EncodeTypes` no construtor.
 
-**Q: O Aspose.BarCode é compatível com diferentes IDEs Java?**  
-A: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports standard Java projects.
+**P: O Aspose.BarCode é compatível com diferentes IDEs Java?**  
+R: Sim, funciona perfeitamente com Eclipse, IntelliJ IDEA, NetBeans e qualquer IDE que suporte projetos Java padrão.
 
-**Q: Posso gerar barcodes com valores numéricos e alfanuméricos?**  
-A: Yes, CODE_128 can encode both numeric and alphanumeric data, making it versatile for most applications.
+**P: Posso gerar códigos de barras com valores numéricos e alfanuméricos?**  
+R: Sim, o CODE_128 pode codificar tanto dados numéricos quanto alfanuméricos, tornando‑o versátil para a maioria das aplicações.
 
-**Q: Existe uma versão de teste disponível para Aspose.BarCode para Java?**  
-A: Yes, you can explore the features of Aspose.BarCode by obtaining a free trial [here](https://releases.aspose.com/).
+**P: Existe uma versão de avaliação disponível para o Aspose.BarCode para Java?**  
+R: Sim, você pode explorar os recursos do Aspose.BarCode obtendo uma avaliação gratuita [aqui](https://releases.aspose.com/).
 
-**Q: Onde posso encontrar suporte para Aspose.BarCode para Java?**  
-A: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13) for community support and discussions.
+**P: Onde posso encontrar suporte para o Aspose.BarCode para Java?**  
+R: Visite o fórum do Aspose.BarCode [aqui](https://forum.aspose.com/c/barcode/13) para suporte da comunidade e discussões.
 
 ---
 
-**Última atualização:** 2025-12-16  
-**Testado com:** Aspose.BarCode for Java 24.12 (latest)  
+**Última atualização:** 2026-02-15  
+**Testado com:** Aspose.BarCode for Java 24.12 (mais recente)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
