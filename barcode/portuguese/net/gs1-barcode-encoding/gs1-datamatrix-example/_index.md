@@ -103,23 +103,6 @@ Ao executar o código, você encontrará **Gs1DataMatrixExample.png** na pasta e
 - **Image size issues** – Problemas de tamanho da imagem – Se a imagem gerada aparecer borrada, aumente o valor de `XDimension.Pixels`.  
 - **License errors** – Erros de licença – Uma licença de avaliação funciona para testes, mas uma licença completa é necessária para implantações em produção.
 
-## Perguntas Frequentes
-
-### O que é GS1 DataMatrix?
-GS1 DataMatrix é uma simbologia de código de barras bidimensional usada para codificar dados relacionados a produtos e sua identificação, particularmente nas indústrias de varejo e saúde.
-
-### O Aspose.BarCode for .NET é adequado para outros tipos de código de barras?
-Sim, o Aspose.BarCode for .NET suporta uma ampla variedade de tipos de código de barras, tornando‑o versátil para diferentes aplicações.
-
-### Posso gerar códigos de barras em outros formatos de imagem além de PNG?
-Sim, o Aspose.BarCode for .NET permite salvar códigos de barras gerados em vários formatos de imagem, como JPEG, GIF e BMP, além de PNG.
-
-### Preciso de uma licença para usar Aspose.BarCode for .NET?
-Sim, uma licença válida é necessária para uso comercial do Aspose.BarCode for .NET. Você pode obter uma licença no [site da Aspose](https://purchase.aspose.com/buy).
-
-### Onde posso obter suporte para Aspose.BarCode for .NET?
-Você pode encontrar respostas às suas perguntas e buscar suporte no [fórum Aspose.BarCode for .NET](https://forum.aspose.com/c/barcode/13).
-
 ## FAQ Adicional (Otimizado por IA)
 
 **Q: Como gerar um código de barras DataMatrix em C# sem formatação GS1?**  
@@ -143,13 +126,6 @@ Neste tutorial, exploramos como **create barcode image C#** usando Aspose.BarCod
 
 Para mais informações e documentação detalhada, consulte a [documentação do Aspose.BarCode for .NET](https://reference.aspose.com/barcode/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -157,3 +133,10 @@ Para mais informações e documentação detalhada, consulte a [documentação d
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

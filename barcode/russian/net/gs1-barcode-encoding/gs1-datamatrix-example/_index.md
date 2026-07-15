@@ -101,23 +101,6 @@ gen.Save($"{path}Gs1DataMatrixExample.png", BarCodeImageFormat.Png);
 - **Проблемы с размером изображения** – Если сгенерированное изображение выглядит размытым, увеличьте значение `XDimension.Pixels`.  
 - **Ошибки лицензии** – Пробная лицензия подходит для оценки, но для продакшн‑развёртываний требуется полная лицензия.
 
-## Часто задаваемые вопросы
-
-### Что такое GS1 DataMatrix?
-GS1 DataMatrix — это двумерная симвология штрихкода, используемая для кодирования данных, связанных с продуктами и их идентификацией, особенно в розничной торговле и здравоохранении.
-
-### Подходит ли Aspose.BarCode for .NET для других типов штрихкодов?
-Да, Aspose.BarCode for .NET поддерживает широкий спектр типов штрихкодов, делая её универсальной для различных приложений.
-
-### Могу ли я генерировать штрихкоды в других форматах изображений, кроме PNG?
-Да, Aspose.BarCode for .NET позволяет сохранять сгенерированные штрихкоды в различных форматах изображений, таких как JPEG, GIF и BMP, помимо PNG.
-
-### Нужна ли лицензия для использования Aspose.BarCode for .NET?
-Да, для коммерческого использования Aspose.BarCode for .NET требуется действующая лицензия. Вы можете получить лицензию на [веб‑сайте Aspose](https://purchase.aspose.com/buy).
-
-### Где я могу получить поддержку для Aspose.BarCode for .NET?
-Ответы на ваши вопросы и поддержку можно найти на форуме [Aspose.BarCode for .NET](https://forum.aspose.com/c/barcode/13).
-
 ## Дополнительные FAQ (AI‑оптимизированные)
 
 **В: Как сгенерировать DataMatrix штрихкод в C# без формата GS1?**  
@@ -141,13 +124,6 @@ GS1 DataMatrix — это двумерная симвология штрихко
 
 Для получения дополнительной информации и подробной документации, пожалуйста, обратитесь к [документации Aspose.BarCode for .NET](https://reference.aspose.com/barcode/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -155,3 +131,10 @@ GS1 DataMatrix — это двумерная симвология штрихко
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

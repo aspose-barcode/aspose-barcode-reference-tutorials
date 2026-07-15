@@ -101,23 +101,6 @@ gen.Save($"{path}Gs1DataMatrixExample.png", BarCodeImageFormat.Png);
 - **ปัญหาขนาดภาพ** – หากภาพที่สร้างออกมาดูเบลอ ให้เพิ่มค่า `XDimension.Pixels`  
 - **ข้อผิดพลาดลิขสิทธิ์** – ลิขสิทธิ์ทดลองใช้ได้สำหรับการประเมินผล แต่ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานในผลิตภัณฑ์จริง
 
-## คำถามที่พบบ่อย
-
-### GS1 DataMatrix คืออะไร?
-GS1 DataMatrix คือสัญลักษณ์บาร์โค้ดสองมิติที่ใช้เข้ารหัสข้อมูลเกี่ยวกับสินค้าและการระบุตัวตนของสินค้า โดยเฉพาะในอุตสาหกรรมค้าปลีกและสุขภาพ
-
-### Aspose.BarCode for .NET รองรับประเภทบาร์โค้ดอื่น ๆ หรือไม่?
-ใช่ Aspose.BarCode for .NET รองรับประเภทบาร์โค้ดหลากหลาย ทำให้สามารถใช้งานได้หลากหลายแอปพลิเคชัน
-
-### สามารถสร้างบาร์โค้ดในรูปแบบภาพอื่น ๆ นอกจาก PNG ได้หรือไม่?
-ได้ Aspose.BarCode for .NET ให้คุณบันทึกบาร์โค้ดที่สร้างเป็นรูปแบบภาพต่าง ๆ เช่น JPEG, GIF, BMP นอกเหนือจาก PNG
-
-### จำเป็นต้องมีลิขสิทธิ์เพื่อใช้ Aspose.BarCode for .NET หรือไม่?
-ใช่ จำเป็นต้องมีลิขสิทธิ์ที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์ของ Aspose.BarCode for .NET คุณสามารถรับลิขสิทธิ์ได้จาก [เว็บไซต์ Aspose](https://purchase.aspose.com/buy)
-
-### จะหาการสนับสนุนสำหรับ Aspose.BarCode for .NET ได้จากที่ไหน?
-คุณสามารถค้นหาคำตอบและขอความช่วยเหลือได้ใน [ฟอรั่ม Aspose.BarCode for .NET](https://forum.aspose.com/c/barcode/13)
-
 ## FAQ เพิ่มเติม (AI‑Optimized)
 
 **Q: จะสร้างบาร์โค้ด DataMatrix ใน C# โดยไม่ใช้รูปแบบ GS1 ได้อย่างไร?**  
@@ -141,13 +124,6 @@ A: เพิ่ม X‑dimension, เพิ่ม quiet zones (`gen.Parameters.B
 
 สำหรับข้อมูลเพิ่มเติมและเอกสารละเอียด โปรดดูที่ [เอกสาร Aspose.BarCode for .NET](https://reference.aspose.com/barcode/net/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -155,3 +131,10 @@ A: เพิ่ม X‑dimension, เพิ่ม quiet zones (`gen.Parameters.B
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

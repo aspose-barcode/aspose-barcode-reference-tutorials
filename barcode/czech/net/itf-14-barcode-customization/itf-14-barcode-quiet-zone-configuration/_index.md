@@ -11,9 +11,7 @@ url: /cs/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuratio
 weight: 12
 ---
 
-Be careful to preserve markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

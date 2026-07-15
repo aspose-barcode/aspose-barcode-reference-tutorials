@@ -122,15 +122,15 @@ Pour acheter une licence d'Aspose.BarCode for .NET, rendez‑vous sur la page d'
 ### Où puis‑je obtenir de l'aide et du support pour Aspose.BarCode for .NET ?
 Si vous avez des questions ou besoin d'assistance, vous pouvez visiter le forum de support d'Aspose.BarCode for .NET [ici](https://forum.aspose.com/c/barcode/13). La communauté et l'équipe de support sont là pour vous aider avec vos requêtes.
 
+---
+
+**Dernière mise à jour :** 2026-02-22  
+**Testé avec :** Aspose.BarCode 24.11 for .NET  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-02-22  
-**Testé avec :** Aspose.BarCode 24.11 for .NET  
-**Auteur :** Aspose

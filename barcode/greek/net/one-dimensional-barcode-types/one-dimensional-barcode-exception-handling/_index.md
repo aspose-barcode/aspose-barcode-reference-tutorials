@@ -130,15 +130,15 @@ catch (Exception e)
 ### Πού μπορώ να ζητήσω βοήθεια και υποστήριξη για το Aspose.BarCode for .NET;
 Αν έχετε ερωτήσεις ή χρειάζεστε βοήθεια, μπορείτε να επισκεφθείτε το φόρουμ υποστήριξης του Aspose.BarCode for .NET [εδώ](https://forum.aspose.com/c/barcode/13). Η κοινότητα και η ομάδα υποστήριξης είναι εκεί για να σας βοηθήσουν με τις απορίες σας.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-22  
+**Δοκιμάστηκε Με:** Aspose.BarCode 24.11 for .NET  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-22  
-**Δοκιμάστηκε Με:** Aspose.BarCode 24.11 for .NET  
-**Συγγραφέας:** Aspose

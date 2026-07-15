@@ -10,9 +10,7 @@ url: /pl/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjust
 weight: 13
 ---
 
-.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

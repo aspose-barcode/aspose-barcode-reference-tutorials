@@ -11,14 +11,6 @@ url: /pt/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuratio
 weight: 12
 ---
 
-", "Author" lines.
-
-Translate "Last Updated:" => "Última Atualização:" etc.
-
-Now produce final content with all shortcodes.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

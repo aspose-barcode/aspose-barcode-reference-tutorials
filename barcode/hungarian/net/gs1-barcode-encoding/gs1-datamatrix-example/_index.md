@@ -102,23 +102,6 @@ A kód futtatásakor a megadott mappában megtalálja a **Gs1DataMatrixExample.p
 - **Képméret problémák** – Ha a generált kép elmosódott, növelje az `XDimension.Pixels` értékét.  
 - **Licenc hibák** – A próba licenc tesztelésre elegendő, de a gyártási környezethez teljes licenc szükséges.
 
-## Gyakran feltett kérdések
-
-### Mi az a GS1 DataMatrix?
-A GS1 DataMatrix egy kétdimenziós vonalkód szimbólum, amely termékekkel és azok azonosításával kapcsolatos adatokat kódol, különösen a kiskereskedelem és az egészségügy területén.
-
-### Az Aspose.BarCode for .NET alkalmas más vonalkód típusokra is?
-Igen, az Aspose.BarCode for .NET széles körű vonalkód típusokat támogat, így sokféle alkalmazáshoz használható.
-
-### Menthetek vonalkódokat más képformátumokban a PNG‑n kívül?
-Igen, az Aspose.BarCode for .NET lehetővé teszi a generált vonalkódok mentését különböző képformátumokban, például JPEG, GIF és BMP, a PNG‑n felül.
-
-### Szükségem van licencre az Aspose.BarCode for .NET használatához?
-Igen, kereskedelmi felhasználáshoz érvényes licenc szükséges az Aspose.BarCode for .NET‑hez. Licencet szerezhet a [Aspose weboldaláról](https://purchase.aspose.com/buy).
-
-### Hol kaphatok támogatást az Aspose.BarCode for .NET‑hez?
-Válaszokat és támogatást a [Aspose.BarCode for .NET fórumon](https://forum.aspose.com/c/barcode/13) talál.
-
 ## Kiegészítő GYIK (AI‑optimalizált)
 
 **Q: Hogyan generálhatok DataMatrix vonalkódot C#‑ban GS1 formázás nélkül?**  
@@ -142,13 +125,6 @@ Ebben a tutorialban bemutattuk, hogyan **create barcode image C#** segítségév
 
 További információkért és részletes dokumentációért tekintse meg a [Aspose.BarCode for .NET dokumentációt](https://reference.aspose.com/barcode/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -156,3 +132,10 @@ További információkért és részletes dokumentációért tekintse meg a [Asp
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

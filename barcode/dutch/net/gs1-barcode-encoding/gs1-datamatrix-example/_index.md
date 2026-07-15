@@ -103,23 +103,6 @@ Wanneer u de code uitvoert, vindt u **Gs1DataMatrixExample.png** in de opgegeven
 - **Image size issues** – Als de gegenereerde afbeelding onscherp lijkt, verhoog dan de `XDimension.Pixels`‑waarde.  
 - **License errors** – Een proeflicentie werkt voor evaluatie, maar een volledige licentie is vereist voor productie‑implementaties.
 
-## Veelgestelde vragen
-
-### Wat is GS1 DataMatrix?
-GS1 DataMatrix is een tweedimensionale barcode‑symbologie die wordt gebruikt voor het coderen van gegevens met betrekking tot producten en hun identificatie, met name in de detailhandel en de gezondheidszorg.
-
-### Is Aspose.BarCode for .NET geschikt voor andere barcode‑typen?
-Ja, Aspose.BarCode for .NET ondersteunt een breed scala aan barcode‑typen, waardoor het veelzijdig is voor verschillende toepassingen.
-
-### Kan ik barcodes genereren in andere afbeeldingsformaten naast PNG?
-Ja, Aspose.BarCode for .NET stelt u in staat om gegenereerde barcodes op te slaan in verschillende afbeeldingsformaten, zoals JPEG, GIF en BMP, naast PNG.
-
-### Heb ik een licentie nodig om Aspose.BarCode for .NET te gebruiken?
-Ja, een geldige licentie is vereist voor commercieel gebruik van Aspose.BarCode for .NET. U kunt een licentie verkrijgen via de [Aspose website](https://purchase.aspose.com/buy).
-
-### Waar kan ik ondersteuning krijgen voor Aspose.BarCode for .NET?
-U kunt antwoorden op uw vragen vinden en ondersteuning zoeken in het [Aspose.BarCode for .NET forum](https://forum.aspose.com/c/barcode/13).
-
 ## Aanvullende FAQ (AI‑Geoptimaliseerd)
 
 **Q: Hoe genereer ik een DataMatrix‑barcode in C# zonder GS1‑opmaak?**  
@@ -143,13 +126,6 @@ In deze tutorial hebben we onderzocht hoe u **create barcode image C#** kunt geb
 
 Voor meer informatie en gedetailleerde documentatie, raadpleeg de [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -157,3 +133,10 @@ Voor meer informatie en gedetailleerde documentatie, raadpleeg de [Aspose.BarCod
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

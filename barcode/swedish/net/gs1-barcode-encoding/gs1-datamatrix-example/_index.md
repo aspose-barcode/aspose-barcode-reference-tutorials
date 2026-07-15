@@ -101,23 +101,6 @@ När du kör koden hittar du **Gs1DataMatrixExample.png** i den angivna mappen, 
 - **Image size issues** – Om den genererade bilden är suddig, öka värdet på `XDimension.Pixels`.  
 - **License errors** – En provlicens fungerar för utvärdering, men en full licens krävs för produktionsdistribution.
 
-## Vanliga frågor
-
-### Vad är GS1 DataMatrix?
-GS1 DataMatrix är en tvådimensionell streckkodssymbologi som används för att koda data relaterad till produkter och deras identifiering, särskilt inom detaljhandel och sjukvård.
-
-### Är Aspose.BarCode for .NET lämplig för andra streckkodstyper?
-Ja, Aspose.BarCode for .NET stöder ett brett spektrum av streckkodstyper, vilket gör den mångsidig för olika applikationer.
-
-### Kan jag generera streckkoder i andra bildformat än PNG?
-Ja, Aspose.BarCode for .NET låter dig spara genererade streckkoder i olika bildformat, såsom JPEG, GIF och BMP, förutom PNG.
-
-### Behöver jag en licens för att använda Aspose.BarCode for .NET?
-Ja, en giltig licens krävs för kommersiell användning av Aspose.BarCode for .NET. Du kan skaffa en licens från [Aspose‑webbplatsen](https://purchase.aspose.com/buy).
-
-### Var kan jag få support för Aspose.BarCode for .NET?
-Du kan hitta svar på dina frågor och söka support i [Aspose.BarCode for .NET‑forumet](https://forum.aspose.com/c/barcode/13).
-
 ## Ytterligare FAQ (AI‑optimerad)
 
 **Q: Hur genererar jag en DataMatrix‑streckkod i C# utan GS1‑formatering?**  
@@ -141,15 +124,15 @@ I den här handledningen utforskade vi hur man **create barcode image C#** med A
 
 För mer information och detaljerad dokumentation, se [Aspose.BarCode for .NET‑dokumentationen](https://reference.aspose.com/barcode/net/).
 
+---
+
+**Senast uppdaterad:** 2026-02-22  
+**Testad med:** Aspose.BarCode for .NET (senaste versionen)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-22  
-**Testad med:** Aspose.BarCode for .NET (senaste versionen)  
-**Författare:** Aspose

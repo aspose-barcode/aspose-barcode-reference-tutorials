@@ -11,10 +11,6 @@ url: /it/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuratio
 weight: 12
 ---
 
- closing shortcodes.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -100,23 +100,6 @@ When you run the code, you’ll find **Gs1DataMatrixExample.png** in the specifi
 - **Image size issues** – If the generated image appears blurry, increase the `XDimension.Pixels` value.  
 - **License errors** – A trial license works for evaluation, but a full license is required for production deployments.
 
-## Frequently Asked Questions
-
-### What is GS1 DataMatrix?
-GS1 DataMatrix is a two-dimensional barcode symbology used for encoding data related to products and their identification, particularly in the retail and healthcare industries.
-
-### Is Aspose.BarCode for .NET suitable for other barcode types?
-Yes, Aspose.BarCode for .NET supports a wide range of barcode types, making it versatile for different applications.
-
-### Can I generate barcodes in other image formats besides PNG?
-Yes, Aspose.BarCode for .NET allows you to save generated barcodes in various image formats, such as JPEG, GIF, and BMP, in addition to PNG.
-
-### Do I need a license to use Aspose.BarCode for .NET?
-Yes, a valid license is required for commercial use of Aspose.BarCode for .NET. You can obtain a license from the [Aspose website](https://purchase.aspose.com/buy).
-
-### Where can I get support for Aspose.BarCode for .NET?
-You can find answers to your questions and seek support in the [Aspose.BarCode for .NET forum](https://forum.aspose.com/c/barcode/13).
-
 ## Additional FAQ (AI‑Optimized)
 
 **Q: How do I generate a DataMatrix barcode in C# without GS1 formatting?**  
@@ -140,13 +123,6 @@ In this tutorial, we explored how to **create barcode image C#** using Aspose.Ba
 
 For more information and detailed documentation, please refer to the [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -154,3 +130,10 @@ For more information and detailed documentation, please refer to the [Aspose.Bar
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

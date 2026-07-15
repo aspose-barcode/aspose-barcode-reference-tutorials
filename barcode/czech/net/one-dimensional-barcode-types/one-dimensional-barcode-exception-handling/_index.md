@@ -9,9 +9,7 @@ url: /cs/net/one-dimensional-barcode-types/one-dimensional-barcode-exception-han
 weight: 21
 ---
 
- placeholders unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -131,15 +129,15 @@ Pro zakoupení licence na Aspose.BarCode pro .NET navštivte stránku nákupu [z
 ### Kde mohu získat pomoc a podporu pro Aspose.BarCode pro .NET?
 Pokud máte jakékoli otázky nebo potřebujete pomoc, můžete navštívit fórum podpory Aspose.BarCode pro .NET [zde](https://forum.aspose.com/c/barcode/13). Komunita a tým podpory jsou připraveni vám pomoci s vašimi dotazy.
 
+---
+
+**Poslední aktualizace:** 2026-02-22  
+**Testováno s:** Aspose.BarCode 24.11 pro .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-22  
-**Testováno s:** Aspose.BarCode 24.11 pro .NET  
-**Autor:** Aspose

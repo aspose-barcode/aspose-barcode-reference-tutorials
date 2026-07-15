@@ -19,52 +19,52 @@ weight: 12
 
 ## Introduction
 
-Les codes-barres sont essentiels dans le monde d'aujourd'hui, simplifiant les processus logistiques, de vente au détail et de fabrication. Dans les applications .NET, **Aspose.BarCode** facilite la **création de paramètres de zone silencieuse du code-barres** qui garantissent une lecture fiable. Dans ce tutoriel complet, vous apprendrez comment **créer une zone silencieuse du code-barres** pour un code-barres ITF-14 et, par conséquent, comment **générer des images de code-barres ITF-14** conformes aux normes de l'industrie.
+Les codes-barres sont essentiels dans le monde d'aujourd'hui, simplifiant les processus logistiques, de vente au détail et de fabrication. Dans les applications .NET, **Aspose.BarCode** facilite la **création de paramètres de zone silencieuse du code-barres** qui garantit une lecture fiable. Dans ce tutoriel complet, vous apprendrez comment **créer une zone silencieuse du code-barres** pour un code-barres ITF-14 et, par conséquent, comment **générer des images de code-barres ITF-14** conformes aux normes de l'industrie.
 
-## Quick Answers
-- **À quoi sert une zone silencieuse ?** Elle fournit une marge claire autour du code-barres afin que les scanners puissent le détecter de manière fiable.  
-- **Quelle bibliothèque vous aide à créer des zones silencieuses de code-barres ?** Aspose.BarCode for .NET.  
-- **Quel est le coefficient de zone silencieuse par défaut ?** Par défaut, Aspose utilise un coefficient de 10 × XDimension, mais vous pouvez le modifier.  
-- **Puis-je exporter d'autres formats d'image ?** Oui – PNG, JPEG, GIF, TIFF, PDF, etc.  
+## Réponses rapides
+- **À quoi sert une zone silencieuse ?** Elle fournit une marge claire autour du code-barres afin que les scanners puissent le détecter de manière fiable.
+- **Quelle bibliothèque vous aide à créer des zones silencieuses de code-barres ?** Aspose.BarCode for .NET.
+- **Quel est le coefficient de zone silencieuse par défaut ?** Par défaut, Aspose utilise un coefficient de 10×XDimension, mais vous pouvez le modifier.
+- **Puis-je exporter d'autres formats d'image ?** Oui – PNG, JPEG, GIF, TIFF, PDF, etc.
 - **Ai-je besoin d'une licence pour la production ?** Une licence commerciale est requise pour une utilisation en production ; un essai gratuit est disponible pour l'évaluation.
 
 ## Qu'est-ce qu'une zone silencieuse de code-barres ?
 
-Une zone silencieuse (également appelée marge) est l'espace blanc qui entoure un code-barres. Elle empêche les graphiques ou le texte environnants d'interférer avec la capacité du scanner à lire les barres. La taille de la zone silencieuse est généralement définie comme un multiple de la X‑dimension (la largeur de la barre la plus étroite).
+Une zone silencieuse (également appelée marge) est l'espace blanc qui entoure un code-barres. Elle empêche les graphiques ou le texte environnant d'interférer avec la capacité du scanner à lire les barres. La taille de la zone silencieuse est généralement définie comme un multiple de la dimension X (la largeur de la barre la plus étroite).
 
 ## Pourquoi configurer la zone silencieuse pour ITF-14 ?
 
 ITF‑14 est largement utilisé sur les conteneurs d'expédition et les cartons. Les scanners de vente au détail et de logistique attendent une zone silencieuse minimale pour éviter les erreurs de lecture. Une configuration correcte garantit :
 
-* **Conformité** aux spécifications GS1.  
-* **Fiabilité de lecture accrue** sur les convoyeurs à grande vitesse.  
+* **Conformité** aux spécifications GS1.
+* **Fiabilité de lecture accumulée** sur les convoyeurs à grande vitesse.
 * **Apparence cohérente** sur différents formats de sortie.
 
 ## Prérequis
 
-Avant de plonger dans les étapes de **création de zone silencieuse du code-barres**, assurez-vous d'avoir :
+Avant de Sous-marin dans les étapes de **création de zone silencieuse du code-barres**, assurez-vous d'avoir :
 
-1. **Visual Studio** avec un projet .NET Framework ou .NET Core.  
-2. **Aspose.BarCode for .NET** – téléchargez-le depuis le [site web](https://releases.aspose.com/barcode/net/).  
-3. Un dossier où vous souhaitez enregistrer les images générées.  
+1. **Visual Studio** avec un projet .NET Framework ou .NET Core.
+2. **Aspose.BarCode for .NET** – téléchargez-le depuis le [site web](https://releases.aspose.com/barcode/net/).
+3. Un dossier où vous souhaitez enregistrer les images générées.
 4. Une connaissance de base du **C#** (les exemples de code utilisent C#).
 
-## Import Namespaces
+## Importer des espaces de noms
 
 Dans votre projet C#, importez les espaces de noms requis afin que les classes de l'API soient disponibles.
 
-### Step 1: Import Namespaces
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-## Step‑by‑Step Guide to Create Barcode Quiet Zone
+## Guide étape par étape pour créer une zone silencieuse de codes-barres
 
 Voici un guide détaillé qui montre comment **générer des images de code-barres ITF-14** avec des paramètres de zone silencieuse personnalisés.
 
-### Step 2: Set Up the Output Directory
+### Étape 2 : Configurer le répertoire de sortie
 
 ```csharp
 string path = "Your Directory Path";
@@ -72,7 +72,7 @@ string path = "Your Directory Path";
 
 Remplacez `"Your Directory Path"` par le dossier où vous souhaitez enregistrer les fichiers PNG.
 
-### Step 3: Create an ITF‑14 Barcode Generator
+### Étape 3 : Créer un générateur de codes-barres ITF-14
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
@@ -80,7 +80,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231")
 
 Le drapeau `EncodeTypes.ITF14` indique à Aspose de produire un symbole ITF‑14, et la chaîne `"12345678901231"` représente la charge de données de 14 chiffres.
 
-### Step 4: Define X‑Dimension and Border Type
+### Étape 4 : Définir la dimension X et le type de bordure
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
@@ -90,7 +90,7 @@ gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Frame;
 * **XDimension** – largeur de la barre la plus étroite (2 px dans cet exemple).  
 * **ITF Border Type** – `Frame` ajoute une fine bordure rectangulaire autour du symbole, souvent requise pour les étiquettes d'emballage.
 
-### Step 5: Configure the Quiet Zone Coefficient and Save Images
+### Étape 5 : Configurer le coefficient de zone de silence et enregistrer les images
 
 ```csharp
 // ITF quiet zone 10 * XDimension
@@ -107,17 +107,17 @@ Le premier bloc crée un code-barres avec une **zone silencieuse de 10 × XD
 Le deuxième bloc montre une **zone silencieuse plus grande de 30 × XDimension**, ce qui peut être utile lorsque l'étiquette sera imprimée sur des imprimantes basse résolution.  
 En exécutant le code, vous obtiendrez deux fichiers PNG—`ITF14QuietZone10.png` et `ITF14QuietZone30.png`—chacun illustrant une taille de zone silencieuse différente.
 
-## Common Issues & Troubleshooting
+## Problèmes courants et dépannage
 
-| Symptom | Likely Cause | Fix |
+| Symptôme | Cause probable | Corriger |
 |---------|--------------|-----|
-| Le code-barres apparaît recadré | Zone silencieuse trop petite pour la taille d'image choisie | Augmentez `QuietZoneCoef` ou agrandissez le canevas de l'image via `ImageWidth`/`ImageHeight`. |
-| Le scanner lit « aucune donnée » | XDimension réglé à 0 ou trop faible | Définissez `XDimension.Pixels` à au moins 2 px pour la plupart des scanners. |
+| Le code-barres apparaît recadré | Zone silencieuse trop petite pour la taille d'image choisie | Augmentez `QuietZoneCoef` ou agrandissez la toile de l'image via `ImageWidth`/`ImageHeight`. |
+| Le scanner allumé « aucune donnée » | XDimension réglée à 0 ou trop faible | Définissez `XDimension.Pixels` à au moins 2px pour la plupart des scanners. |
 | Le fichier de sortie est vide | `path` invalide ou permissions d'écriture manquantes | Vérifiez que le dossier existe et que l'application a les droits d'écriture. |
 
-## Frequently Asked Questions (FAQs)
+## Questions fréquemment posées (FAQ)
 
-### Quel est le but d'une zone silencieuse dans les codes-barres ?
+### Quel est le mais d'une zone silencieuse dans les codes-barres ?
 
 La zone silencieuse dans les codes-barres est un espace blanc qui entoure le code-barres. Elle est essentielle pour garantir une lecture précise et une lisibilité.
 

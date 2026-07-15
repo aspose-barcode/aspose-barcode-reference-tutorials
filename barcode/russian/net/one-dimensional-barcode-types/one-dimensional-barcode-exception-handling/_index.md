@@ -130,15 +130,15 @@ Aspose.BarCode для .NET — мощная библиотека, позволя
 ### Где я могу получить помощь и поддержку по Aspose.BarCode для .NET?
 Если у вас возникли вопросы или нужна помощь, вы можете посетить форум поддержки Aspose.BarCode для .NET [здесь](https://forum.aspose.com/c/barcode/13). Сообщество и команда поддержки готовы помочь вам с вашими запросами.
 
+---
+
+**Последнее обновление:** 2026-02-22  
+**Тестировано с:** Aspose.BarCode 24.11 для .NET  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-02-22  
-**Тестировано с:** Aspose.BarCode 24.11 для .NET  
-**Автор:** Aspose

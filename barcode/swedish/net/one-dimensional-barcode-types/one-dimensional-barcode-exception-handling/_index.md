@@ -130,15 +130,15 @@ För att köpa en licens för Aspose.BarCode för .NET, besök inköpssidan [hä
 ### Vart kan jag få hjälp och support för Aspose.BarCode för .NET?
 Om du har frågor eller behöver assistans kan du besöka Aspose.BarCode för .NET‑supportforumet [här](https://forum.aspose.com/c/barcode/13). Communityn och supportteamet finns där för att hjälpa dig med dina ärenden.
 
+---
+
+**Senast uppdaterad:** 2026-02-22  
+**Testad med:** Aspose.BarCode 24.11 för .NET  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-22  
-**Testad med:** Aspose.BarCode 24.11 för .NET  
-**Författare:** Aspose

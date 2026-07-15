@@ -129,15 +129,15 @@ Aspose.BarCode for .NET lisansını satın almak için [buradaki](https://purcha
 ### Aspose.BarCode for .NET için yardım ve destek nasıl alınır?
 Sorularınız veya yardıma ihtiyacınız olduğunda Aspose.BarCode for .NET destek forumunu [buradan](https://forum.aspose.com/c/barcode/13) ziyaret edebilirsiniz. Topluluk ve destek ekibi sorularınıza yanıt vermek için hazırdır.
 
+---
+
+**Son Güncelleme:** 2026-02-22  
+**Test Edilen Versiyon:** Aspose.BarCode 24.11 for .NET  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-22  
-**Test Edilen Versiyon:** Aspose.BarCode 24.11 for .NET  
-**Yazar:** Aspose

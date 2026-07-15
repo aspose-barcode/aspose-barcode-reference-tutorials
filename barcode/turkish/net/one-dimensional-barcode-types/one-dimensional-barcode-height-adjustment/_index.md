@@ -9,22 +9,6 @@ url: /tr/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjust
 weight: 13
 ---
 
-" keep date.
-
-"**Tested With:** Aspose.BarCode 24.11 for .NET" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Then backtop button shortcode.
-
-Now produce final content.
-
-Be careful with markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

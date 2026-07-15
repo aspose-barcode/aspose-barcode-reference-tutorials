@@ -1,5 +1,5 @@
 ---
-title: How to Generate Barcode: One-Dimensional Barcode Types
+title: How to Generate Barcode - One-Dimensional Barcode Types
 linktitle: One-Dimensional Barcode Types
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate barcode in .NET with Aspose.BarCode, how to adjust height, handle errors, configure wide narrow ratio, and work with barcode aspect ratio.
@@ -122,15 +122,15 @@ In this tutorial series, we've delved into the world of one‑dimensional barcod
 
 With this article, you'll not only gain knowledge about various one‑dimensional barcode types but also have the confidence to implement them in your projects. Happy coding!
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.BarCode 24.11 for .NET  
-**Author:** Aspose

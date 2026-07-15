@@ -10,10 +10,6 @@ url: /it/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjust
 weight: 13
 ---
 
-Then closing shortcodes.
-
-Let's craft final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

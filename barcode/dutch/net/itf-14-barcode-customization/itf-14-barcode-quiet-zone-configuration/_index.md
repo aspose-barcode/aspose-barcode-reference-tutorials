@@ -10,17 +10,7 @@ url: /nl/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuratio
 weight: 12
 ---
 
-Last Updated:" keep date, maybe translate "Last Updated:" to "Laatst bijgewerkt:" but keep date.
-
-"Tested With:" translate "Getest met:".
-
-"Author:" translate "Auteur:".
-
-Shortcodes closing remain.
-
-Also need to ensure we keep markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

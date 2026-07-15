@@ -133,15 +133,15 @@ Aspose.BarCode for .NET のライセンス購入は [こちら](https://purchase
 ### Aspose.BarCode for .NET のサポートやヘルプはどこで受けられますか？
 質問やサポートが必要な場合は、Aspose.BarCode for .NET のサポートフォーラム [こちら](https://forum.aspose.com/c/barcode/13) へアクセスしてください。コミュニティとサポートチームが質問に対応します。
 
+---
+
+**最終更新日:** 2026-02-22  
+**テスト環境:** Aspose.BarCode 24.11 for .NET  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-22  
-**テスト環境:** Aspose.BarCode 24.11 for .NET  
-**作者:** Aspose

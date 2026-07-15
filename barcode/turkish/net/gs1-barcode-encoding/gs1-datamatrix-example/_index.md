@@ -9,32 +9,6 @@ url: /tr/net/gs1-barcode-encoding/gs1-datamatrix-example/
 weight: 14
 ---
 
- (AI‑Optimizeli)". Keep parentheses.
-
-Then Q&A.
-
-Then "## Conclusion" translate.
-
-Paragraph.
-
-Then link.
-
-Then closing shortcodes.
-
-Then backtop button shortcode.
-
-Then horizontal rule and metadata.
-
-Translate "Last Updated", "Tested With", "Author". Keep dates.
-
-Now produce final content.
-
-Be careful not to translate URLs.
-
-Also keep code placeholders unchanged.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -127,23 +101,6 @@ Kodu çalıştırdığınızda, belirtilen klasörde **Gs1DataMatrixExample.png*
 - **Görüntü boyutu sorunları** – Oluşturulan görüntü bulanık görünüyorsa, `XDimension.Pixels` değerini artırın.  
 - **Lisans hataları** – Değerlendirme için bir deneme lisansı yeterlidir, ancak üretim dağıtımları için tam lisans gereklidir.
 
-## Sık Sorulan Sorular
-
-### GS1 DataMatrix nedir?
-GS1 DataMatrix, özellikle perakende ve sağlık sektörlerinde ürünlerle ilgili verileri ve kimlik bilgilerini kodlamak için kullanılan iki‑boyutlu bir barkod sembolüdür.
-
-### Aspose.BarCode for .NET diğer barkod türleri için uygun mu?
-Evet, Aspose.BarCode for .NET geniş bir barkod tipi yelpazesini destekler ve farklı uygulamalar için çok yönlü bir çözümdür.
-
-### PNG dışındaki görüntü formatlarında barkod oluşturabilir miyim?
-Evet, Aspose.BarCode for .NET JPEG, GIF, BMP gibi çeşitli görüntü formatlarında barkodları kaydetmenize olanak tanır.
-
-### Aspose.BarCode for .NET kullanmak için lisansa ihtiyacım var mı?
-Evet, Aspose.BarCode for .NET’in ticari kullanımında geçerli bir lisans gereklidir. Lisansı [Aspose web sitesinden](https://purchase.aspose.com/buy) temin edebilirsiniz.
-
-### Aspose.BarCode for .NET için destek nereden alınır?
-Sorularınıza yanıt bulmak ve destek almak için [Aspose.BarCode for .NET forumunu](https://forum.aspose.com/c/barcode/13) ziyaret edebilirsiniz.
-
 ## Ek SSS (AI‑Optimizeli)
 
 **S: GS1 formatı olmadan C#’ta bir DataMatrix barkodu nasıl oluştururum?**  
@@ -167,15 +124,15 @@ Bu öğreticide, Aspose.BarCode for .NET kullanarak **create barcode image C#** 
 
 Daha fazla bilgi ve ayrıntılı dokümantasyon için lütfen [Aspose.BarCode for .NET dokümantasyonuna](https://reference.aspose.com/barcode/net/) göz atın.
 
+---
+
+**Son Güncelleme:** 2026-02-22  
+**Test Edilen Versiyon:** Aspose.BarCode for .NET (en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-22  
-**Test Edilen Versiyon:** Aspose.BarCode for .NET (en son sürüm)  
-**Yazar:** Aspose

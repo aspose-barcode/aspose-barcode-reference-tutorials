@@ -103,23 +103,6 @@ Khi bạn chạy mã, bạn sẽ thấy **Gs1DataMatrixExample.png** trong thư 
 - **Image size issues** – Nếu ảnh tạo ra bị mờ, tăng giá trị `XDimension.Pixels`.  
 - **License errors** – Giấy phép dùng thử hoạt động cho việc đánh giá, nhưng cần giấy phép đầy đủ cho triển khai sản xuất.
 
-## Câu hỏi thường gặp
-
-### What is GS1 DataMatrix?
-GS1 DataMatrix là một symbology mã vạch hai chiều được dùng để mã hoá dữ liệu liên quan đến sản phẩm và việc nhận dạng chúng, đặc biệt trong ngành bán lẻ và chăm sóc sức khỏe.
-
-### Is Aspose.BarCode for .NET suitable for other barcode types?
-Có, Aspose.BarCode for .NET hỗ trợ nhiều loại mã vạch, giúp nó linh hoạt cho các ứng dụng khác nhau.
-
-### Can I generate barcodes in other image formats besides PNG?
-Có, Aspose.BarCode for .NET cho phép bạn lưu mã vạch đã tạo ở nhiều định dạng ảnh khác nhau, như JPEG, GIF và BMP, bên cạnh PNG.
-
-### Do I need a license to use Aspose.BarCode for .NET?
-Có, cần một giấy phép hợp lệ để sử dụng thương mại Aspose.BarCode for .NET. Bạn có thể lấy giấy phép từ [trang web Aspose](https://purchase.aspose.com/buy).
-
-### Where can I get support for Aspose.BarCode for .NET?
-Bạn có thể tìm câu trả lời cho các câu hỏi và nhận hỗ trợ tại [diễn đàn Aspose.BarCode for .NET](https://forum.aspose.com/c/barcode/13).
-
 ## Câu hỏi thường gặp bổ sung (tối ưu AI)
 
 **Q: Làm thế nào để tạo mã vạch DataMatrix trong C# mà không có định dạng GS1?**  
@@ -143,13 +126,6 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách **tạo ảnh mã v
 
 Để biết thêm thông tin và tài liệu chi tiết, vui lòng tham khảo [tài liệu Aspose.BarCode for .NET](https://reference.aspose.com/barcode/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-02-22  
@@ -157,3 +133,10 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách **tạo ảnh mã v
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

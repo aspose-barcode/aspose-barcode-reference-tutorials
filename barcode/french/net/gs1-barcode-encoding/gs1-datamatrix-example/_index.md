@@ -101,23 +101,6 @@ Lorsque vous exécutez le code, vous trouverez **Gs1DataMatrixExample.png** dans
 - **Image size issues** – Si l’image générée apparaît floue, augmentez la valeur `XDimension.Pixels`.  
 - **License errors** – Une licence d’essai fonctionne pour l’évaluation, mais une licence complète est requise pour les déploiements en production.
 
-## Questions fréquemment posées
-
-### Qu’est‑ce que le GS1 DataMatrix ?
-Le GS1 DataMatrix est une symbologie de code‑barres bidimensionnel utilisée pour encoder des données liées aux produits et à leur identification, notamment dans les secteurs du commerce de détail et de la santé.
-
-### Aspose.BarCode for .NET convient‑il à d’autres types de code‑barres ?
-Oui, Aspose.BarCode for .NET prend en charge un large éventail de types de code‑barres, ce qui le rend polyvalent pour différentes applications.
-
-### Puis‑je générer des code‑barres dans d’autres formats d’image que le PNG ?
-Oui, Aspose.BarCode for .NET vous permet d’enregistrer les code‑barres générés dans divers formats d’image, tels que JPEG, GIF et BMP, en plus du PNG.
-
-### Ai‑je besoin d’une licence pour utiliser Aspose.BarCode for .NET ?
-Oui, une licence valide est requise pour une utilisation commerciale d’Aspose.BarCode for .NET. Vous pouvez obtenir une licence sur le [site Aspose](https://purchase.aspose.com/buy).
-
-### Où puis‑je obtenir du support pour Aspose.BarCode for .NET ?
-Vous pouvez trouver des réponses à vos questions et demander de l’aide sur le [forum Aspose.BarCode for .NET](https://forum.aspose.com/c/barcode/13).
-
 ## FAQ supplémentaire (optimisée par IA)
 
 **Q : Comment générer un code‑barres DataMatrix en C# sans formatage GS1 ?**  
@@ -141,15 +124,15 @@ Dans ce tutoriel, nous avons exploré comment **create barcode image C#** en uti
 
 Pour plus d’informations et une documentation détaillée, veuillez consulter la [documentation Aspose.BarCode for .NET](https://reference.aspose.com/barcode/net/).
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.BarCode for .NET (latest version)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.BarCode for .NET (latest version)  
-**Author:** Aspose

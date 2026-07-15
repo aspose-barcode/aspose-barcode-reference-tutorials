@@ -10,12 +10,6 @@ url: /hu/net/one-dimensional-barcode-types/one-dimensional-barcode-exception-han
 weight: 21
 ---
 
- final metadata lines: "Last Updated:", "Tested With:", "Author:" keep as is? Should we translate? Probably translate the labels but not the dates. The requirement: translate all text content. So translate "Last Updated:" to "Utolsó frissítés:" etc. Keep date unchanged. "Tested With:" to "Tesztelve ezzel:" maybe. "Author:" to "Szerző:".
-
-But need to keep formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -137,15 +131,15 @@ A licenc vásárlásához látogasd meg a vásárlási oldalt [itt](https://purc
 ### Hol kaphatok segítséget és támogatást az Aspose.BarCode for .NET-hez?
 Ha kérdésed van vagy segítségre van szükséged, felkeresheted az Aspose.BarCode for .NET támogatási fórumot [itt](https://forum.aspose.com/c/barcode/13). A közösség és a támogatási csapat szívesen segít a kérdéseidben.
 
+---
+
+**Utolsó frissítés:** 2026-02-22  
+**Tesztelve ezzel:** Aspose.BarCode 24.11 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-02-22  
-**Tesztelve ezzel:** Aspose.BarCode 24.11 for .NET  
-**Szerző:** Aspose

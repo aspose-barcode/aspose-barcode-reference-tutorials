@@ -101,23 +101,6 @@ gen.Save($"{path}Gs1DataMatrixExample.png", BarCodeImageFormat.Png);
 - **इमेज साइज समस्याएँ** – यदि जेनरेटेड इमेज धुंधली दिखे, तो `XDimension.Pixels` मान बढ़ाएँ।  
 - **लाइसेंस त्रुटियाँ** – ट्रायल लाइसेंस मूल्यांकन के लिए काम करता है, लेकिन उत्पादन परिनियोजन के लिए पूर्ण लाइसेंस आवश्यक है।
 
-## अक्सर पूछे जाने वाले प्रश्न
-
-### GS1 DataMatrix क्या है?
-GS1 DataMatrix एक दो‑आयामी बारकोड सिम्बोलॉजी है जो उत्पादों और उनकी पहचान से संबंधित डेटा को एन्कोड करने के लिए उपयोग की जाती है, विशेष रूप से रिटेल और हेल्थकेयर उद्योगों में।
-
-### क्या Aspose.BarCode for .NET अन्य बारकोड प्रकारों के लिए उपयुक्त है?
-हाँ, Aspose.BarCode for .NET कई प्रकार के बारकोड को सपोर्ट करता है, जिससे यह विभिन्न एप्लिकेशन के लिए बहुमुखी बनता है।
-
-### क्या मैं PNG के अलावा अन्य इमेज फ़ॉर्मेट में बारकोड जेनरेट कर सकता हूँ?
-हाँ, Aspose.BarCode for .NET आपको JPEG, GIF, BMP आदि सहित विभिन्न इमेज फ़ॉर्मेट में बारकोड सहेजने की अनुमति देता है।
-
-### क्या Aspose.BarCode for .NET उपयोग करने के लिए लाइसेंस चाहिए?
-हाँ, Aspose.BarCode for .NET के वाणिज्यिक उपयोग के लिए एक वैध लाइसेंस आवश्यक है। आप लाइसेंस [Aspose website](https://purchase.aspose.com/buy) से प्राप्त कर सकते हैं।
-
-### Aspose.BarCode for .NET के लिए समर्थन कहाँ मिल सकता है?
-आप अपने प्रश्नों के उत्तर और समर्थन [Aspose.BarCode for .NET forum](https://forum.aspose.com/c/barcode/13) में पा सकते हैं।
-
 ## अतिरिक्त FAQ (AI‑Optimized)
 
 **Q: GS1 फ़ॉर्मेटिंग के बिना C# में DataMatrix बारकोड कैसे जेनरेट करूँ?**  
@@ -141,13 +124,6 @@ A: X‑डायमेंशन बढ़ाएँ, क्वाइट ज़ो
 
 अधिक जानकारी और विस्तृत दस्तावेज़ीकरण के लिए कृपया [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) देखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-22  
@@ -155,3 +131,10 @@ A: X‑डायमेंशन बढ़ाएँ, क्वाइट ज़ो
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

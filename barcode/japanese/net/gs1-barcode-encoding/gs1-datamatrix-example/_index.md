@@ -14,7 +14,7 @@ weight: 14
 
 # GS1 DataMatrix の例
 
-If you are looking for a reliable way to **create barcode image C#** in your .NET applications, Aspose.BarCode for .NET makes the process straightforward. This powerful library supports a wide range of symbologies, including GS1 DataMatrix, and provides a clean API that lets you focus on your business logic instead of low‑level barcode details. In the next few minutes, we’ll walk through a complete, hands‑on example that shows you how to generate a GS1 DataMatrix barcode, customize its appearance, and save it as an image file.
+.NET アプリケーションで **C# を使ってバーコード画像を作成する** 信頼性の高い方法をお探しなら、Aspose.BarCode for .NET がプロセスを簡素化します。この強力なライブラリは、GS1 DataMatrix を含む幅広いシンボル体系をサポートし、低レベルのバーコードの詳細ではなくビジネスロジックに集中できるクリーンな API を提供します。次の数分で、GS1 DataMatrix バーコードの生成、外観のカスタマイズ、画像ファイルとしての保存方法を示す、実践的なサンプルを詳しく解説します。
 
 ## クイック回答
 - **例は何を生成しますか？** A GS1 DataMatrix barcode containing sample product data.  
@@ -24,26 +24,27 @@ If you are looking for a reliable way to **create barcode image C#** in your .NE
 - **コードは .NET Core と互換性がありますか？** Absolutely – the same API works on .NET Framework and .NET Core/5/6.
 
 ## GS1 DataMatrix バーコードとは何ですか？
-A GS1 DataMatrix is a two‑dimensional barcode that encodes product‑level information (such as GTIN, serial number, and additional application identifiers). It’s widely used in retail, healthcare, and logistics for compact, high‑density data storage.
+GS1 DataMatrixは、製品レベルの情報（GTIN、シリアル番号、その他のアプリケーション識別子など）をエンコードする2次元バーコードです。小売、医療、物流などの分野で、コンパクトで高密度なデータストレージとして広く利用されています。
 
 ## なぜ Aspose.BarCode を使用して barcode image C# を作成するのですか？
-- **Full‑featured API** – supports GS1 standards, error correction, and size control.  
-- **No external dependencies** – pure .NET library, easy to integrate.  
-- **Cross‑platform** – works on Windows, Linux, and macOS.  
-- **Extensive documentation** – includes examples like this one to get you started quickly.
+- **フル機能API** – GS1規格、エラー訂正、サイズ制御をサポート。
+- **外部依存関係なし** – 純粋な.NETライブラリで、簡単に統合可能。
+- **クロスプラットフォーム** – Windows、Linux、macOSで動作。
+- **充実したドキュメント** – すぐに使い始められるよう、この例のようなサンプルコードも含まれています。
 
 ## 前提条件
 
-Before we dive into the tutorial, make sure you have the following prerequisites in place:
+チュートリアルを始める前に、以下の前提条件を満たしていることを確認してください。
 
-1. **Aspose.BarCode for .NET** – You need to have Aspose.BarCode for .NET installed. If you haven't already, you can [download it here](https://releases.aspose.com/barcode/net/).  
-2. **Development Environment** – You should have a .NET development environment set up on your system (Visual Studio, VS Code, or any IDE you prefer).
+1. **Aspose.BarCode for .NET** – Aspose.BarCode for .NETがインストールされている必要があります。まだインストールしていない場合は、[こちらからダウンロードできます](https://releases.aspose.com/barcode/net/)。
 
-Now that you have the prerequisites ready, let's start generating GS1 DataMatrix barcodes.
+2. **開発環境** – システムに.NET開発環境（Visual Studio、VS Code、またはお好みのIDE）がセットアップされている必要があります。
+
+前提条件が揃ったので、GS1 DataMatrixバーコードの生成を開始しましょう。
 
 ## 名前空間のインポート
 
-First, import the necessary namespaces to work with Aspose.BarCode for .NET. These namespaces give you access to the barcode generation capabilities.
+まず、Aspose.BarCode for .NET を使用するために必要な名前空間をインポートします。これらの名前空間を使用することで、バーコード生成機能にアクセスできるようになります。
 
 ```csharp
 using Aspose.BarCode;
@@ -54,7 +55,7 @@ using System;
 
 ### ステップ 1: バーコードジェネレータの設定
 
-To begin, create a `BarcodeGenerator` instance and specify the **GS1 DataMatrix** symbology along with the data you want to encode. In this example we encode the string **"(01)12345678901231(21)ASPOSE(30)9876"**, which follows the GS1 Application Identifier format.
+まず、`BarcodeGenerator` インスタンスを作成し、エンコードするデータとともに **GS1 DataMatrix** シンボルを指定します。この例では、GS1 アプリケーション識別子形式に従う文字列 **"(01)12345678901231(21)ASPOSE(30)9876"** をエンコードします。
 
 ```csharp
 // The path to the documents directory.
@@ -64,11 +65,11 @@ System.Console.WriteLine("Gs1DataMatrixExample:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.GS1DataMatrix, "(01)12345678901231(21)ASPOSE(30)9876");
 ```
 
-*Pro tip:* Replace the sample data with your own GS1 identifiers to suit your product catalog.
+*ヒント:* サンプルデータを、製品カタログに合わせて独自のGS1識別子に置き換えてください。
 
 ### ステップ 2: バーコードプロパティのカスタマイズ
 
-You can tailor the barcode’s appearance using the `Parameters` object. Here we set the X‑dimension (the size of the smallest module) to 8 pixels, and define a matrix size of 36 columns by 12 rows. Adjust these values to meet your scanning requirements.
+`Parameters`オブジェクトを使用して、バーコードの外観をカスタマイズできます。ここでは、X軸（最小モジュールのサイズ）を8ピクセルに設定し、マトリックスサイズを36列×12行と定義しています。スキャン要件に合わせてこれらの値を調整してください。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 8;
@@ -76,76 +77,55 @@ gen.Parameters.Barcode.DataMatrix.Columns = 36;
 gen.Parameters.Barcode.DataMatrix.Rows = 12;
 ```
 
-*Why adjust X‑dimension?* A larger X‑dimension makes the barcode easier to scan on low‑resolution devices, while a smaller value reduces image size.
+*X寸法を調整する理由* X寸法を大きくすると、低解像度デバイスでもバーコードが読みやすくなります。一方、X寸法を小さくすると、画像サイズが小さくなります。
 
 ### ステップ 3: バーコード画像の保存
 
-Finally, save the generated barcode to disk. The example uses PNG, but you can choose from JPEG, GIF, BMP, and other formats supported by Aspose.BarCode.
+最後に、生成されたバーコードをディスクに保存します。この例ではPNG形式を使用していますが、Aspose.BarCodeでサポートされているJPEG、GIF、BMPなどの形式を選択することもできます。
 
 ```csharp
 gen.Save($"{path}Gs1DataMatrixExample.png", BarCodeImageFormat.Png);
 ```
 
-When you run the code, you’ll find **Gs1DataMatrixExample.png** in the specified folder, ready to be used in labels, packaging, or digital applications.
+コードを実行すると、指定したフォルダに**Gs1DataMatrixExample.png**というファイルが作成され、ラベル、パッケージ、またはデジタルアプリケーションで使用できるようになります。
 
 ## 一般的な使用例
 
-- **Retail product labeling** – Encode GTIN, batch numbers, and expiration dates.  
-- **Pharmaceutical tracking** – Meet regulatory requirements with GS1‑compliant data.  
-- **Warehouse logistics** – Compactly store location and inventory information.  
+- **小売製品ラベル** – GTIN、ロット番号、有効期限をエンコードします。
+- **医薬品追跡** – GS1準拠データで規制要件を満たします。
+- **倉庫物流** – 保管場所と在庫情報をコンパクトに保存します。 
 
 ## トラブルシューティングとヒント
 
-- **Incorrect data format** – Ensure your string follows the GS1 Application Identifier syntax; otherwise the barcode may not be scannable.  
-- **Image size issues** – If the generated image appears blurry, increase the `XDimension.Pixels` value.  
-- **License errors** – A trial license works for evaluation, but a full license is required for production deployments.
-
-## よくある質問
-
-### GS1 DataMatrix とは何ですか？
-GS1 DataMatrix is a two-dimensional barcode symbology used for encoding data related to products and their identification, particularly in the retail and healthcare industries.
-
-### Aspose.BarCode for .NET は他のバーコードタイプにも適していますか？
-Yes, Aspose.BarCode for .NET supports a wide range of barcode types, making it versatile for different applications.
-
-### PNG 以外の画像形式でバーコードを生成できますか？
-Yes, Aspose.BarCode for .NET allows you to save generated barcodes in various image formats, such as JPEG, GIF, and BMP, in addition to PNG.
-
-### Aspose.BarCode for .NET の使用にライセンスは必要ですか？
-Yes, a valid license is required for commercial use of Aspose.BarCode for .NET. You can obtain a license from the [Aspose website](https://purchase.aspose.com/buy).
-
-### Aspose.BarCode for .NET のサポートはどこで受けられますか？
-You can find answers to your questions and seek support in the [Aspose.BarCode for .NET forum](https://forum.aspose.com/c/barcode/13).
+- **データ形式が正しくありません** – 文字列がGS1アプリケーション識別子の構文に従っていることを確認してください。そうでない場合、バーコードがスキャンできない可能性があります。
+- **画像サイズの問題** – 生成された画像がぼやけている場合は、`XDimension.Pixels`の値を増やしてください。
+- **ライセンスエラー** – 試用版ライセンスは評価には使用できますが、本番環境での導入にはフルライセンスが必要です。
 
 ## 追加 FAQ (AI 最適化)
 
-**Q: How do I generate a DataMatrix barcode in C# without GS1 formatting?**  
-A: Use `EncodeTypes.DataMatrix` instead of `EncodeTypes.GS1DataMatrix` and provide the plain data string to the `BarcodeGenerator`.
+**Q: GS1フォーマットを使用せずにC#でDataMatrixバーコードを生成するにはどうすればよいですか？** 
+A: `EncodeTypes.GS1DataMatrix`の代わりに`EncodeTypes.DataMatrix`を使用し、プレーンなデータ文字列を`BarcodeGenerator`に渡してください。
 
-**Q: Can I change the barcode colors programmatically?**  
-A: Yes, set `gen.Parameters.Barcode.ForeColor` and `gen.Parameters.Barcode.BackColor` to customize foreground and background colors.
+**Q: バーコードの色をプログラムで変更できますか？** 
+A: はい、`gen.Parameters.Barcode.ForeColor`と`gen.Parameters.Barcode.BackColor`を設定することで、前景色と背景色をカスタマイズできます。
 
-**Q: Is it possible to embed the generated barcode directly into a PDF?**  
-A: Absolutely – retrieve the barcode as a `System.Drawing.Image` and add it to a PDF using Aspose.PDF or any other PDF library.
+**Q: 生成したバーコードをPDFに直接埋め込むことはできますか？** 
+A: はい、可能です。バーコードを`System.Drawing.Image`として取得し、Aspose.PDFなどのPDFライブラリを使用してPDFに追加してください。
 
-**Q: What .NET versions are supported?**  
-A: Aspose.BarCode for .NET supports .NET Framework 4.5+, .NET Core 3.1+, .NET 5, .NET 6, and later.
 
-**Q: How can I improve scanning reliability for small labels?**  
-A: Increase the X‑dimension, add quiet zones (`gen.Parameters.Barcode.Margin`), and ensure sufficient contrast between the barcode and background.
+**Q: サポートされている.NETバージョンは？** 
+A: Aspose.BarCode for .NETは、.NET Framework 4.5以降、.NET Core 3.1以降、.NET 5、.NET 6以降をサポートしています。
+
+**Q: 小さなラベルのスキャン精度を向上させるにはどうすればよいですか？** 
+A: X軸の寸法を大きくし、静止領域（`gen.Parameters.Barcode.Margin`）を追加し、バーコードと背景のコントラストを十分に確保してください。
+
 
 ## 結論
 
-In this tutorial, we explored how to **create barcode image C#** using Aspose.BarCode for .NET to generate a GS1 DataMatrix barcode. With just a few lines of code you can embed high‑quality barcodes into your applications, whether you’re building retail solutions, healthcare systems, or logistics platforms. Explore the library further to discover additional symbologies, advanced rendering options, and integration scenarios.
+このチュートリアルでは、Aspose.BarCode for .NETを使用してGS1 DataMatrixバーコードを生成する**C#によるバーコード画像の作成**方法について説明しました。わずか数行のコードで、小売ソリューション、医療システム、物流プラットフォームなど、あらゆるアプリケーションに高品質のバーコードを組み込むことができます。ライブラリをさらに詳しく調べて、その他のシンボル体系、高度なレンダリングオプション、統合シナリオをご確認ください。
 
-For more information and detailed documentation, please refer to the [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+詳細情報および詳細なドキュメントについては、[Aspose.BarCode for .NET のドキュメント](https://reference.aspose.com/barcode/net/) を参照してください。
 
 ---
 
@@ -154,3 +134,10 @@ For more information and detailed documentation, please refer to the [Aspose.Bar
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

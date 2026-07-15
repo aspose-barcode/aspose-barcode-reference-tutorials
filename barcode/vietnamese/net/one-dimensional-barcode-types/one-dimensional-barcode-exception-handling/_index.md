@@ -129,15 +129,15 @@ Có, bạn có thể dùng thử Aspose.BarCode cho .NET miễn phí. Chỉ cầ
 ### Tôi có thể tìm trợ giúp và hỗ trợ cho Aspose.BarCode cho .NET ở đâu?
 Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ, bạn có thể truy cập diễn đàn hỗ trợ Aspose.BarCode cho .NET [đây](https://forum.aspose.com/c/barcode/13). Cộng đồng và đội ngũ hỗ trợ sẽ giúp bạn giải đáp thắc mắc.
 
+---
+
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-02-22  
-**Kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
-**Tác giả:** Aspose

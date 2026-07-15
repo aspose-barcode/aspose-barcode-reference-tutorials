@@ -101,39 +101,24 @@ gen.Save($"{path}Gs1DataMatrixExample.png", BarCodeImageFormat.Png);
 - **Image size issues** – 若生成的图像模糊，请增大 `XDimension.Pixels` 的值。  
 - **License errors** – 试用许可证可用于评估，但生产部署必须使用正式许可证。
 
-## 常见问题
-
-### GS1 DataMatrix 是什么？
-GS1 DataMatrix 是一种用于编码与产品及其识别相关数据的二维条码符号，特别在零售和医疗保健行业中广泛使用。
-
-### Aspose.BarCode for .NET 适用于其他条码类型吗？
-是的，Aspose.BarCode for .NET 支持多种条码类型，能够满足不同应用场景的需求。
-
-### 我可以生成除 PNG 之外的其他图像格式的条码吗？
-可以，Aspose.BarCode for .NET 允许您将生成的条码保存为 JPEG、GIF、BMP 等多种图像格式，除了 PNG 之外。
-
-### 使用 Aspose.BarCode for .NET 是否需要许可证？
-是的，商业使用 Aspose.BarCode for .NET 必须拥有有效许可证。您可以在 [Aspose 网站](https://purchase.aspose.com/buy) 获取许可证。
-
-### 在哪里可以获得 Aspose.BarCode for .NET 的支持？
-您可以在 [Aspose.BarCode for .NET 论坛](https://forum.aspose.com/c/barcode/13) 中寻找答案并获取支持。
-
 ## 附加常见问题 (AI 优化)
 
-**Q: How do I generate a DataMatrix barcode in C# without GS1 formatting?**  
-A: Use `EncodeTypes.DataMatrix` instead of `EncodeTypes.GS1DataMatrix` and provide the plain data string to the `BarcodeGenerator`.
+**问：如何在 C# 中生成不使用 GS1 格式的 DataMatrix 条形码？**
+答：使用 `EncodeTypes.DataMatrix` 代替 `EncodeTypes.GS1DataMatrix`，并将纯数据字符串提供给 `BarcodeGenerator`。
 
-**Q: Can I change the barcode colors programmatically?**  
-A: Yes, set `gen.Parameters.Barcode.ForeColor` and `gen.Parameters.Barcode.BackColor` to customize foreground and background colors.
+**问：我可以通过编程方式更改条形码颜色吗？**
+答：可以，设置 `gen.Parameters.Barcode.ForeColor` 和 `gen.Parameters.Barcode.BackColor` 来自定义前景色和背景色。
 
-**Q: Is it possible to embed the generated barcode directly into a PDF?**  
-A: Absolutely – retrieve the barcode as a `System.Drawing.Image` and add it to a PDF using Aspose.PDF or any other PDF library.
+**问：是否可以将生成的条形码直接嵌入到 PDF 中？**
+答：当然可以——将条形码作为 `System.Drawing.Image` 获取，然后使用 Aspose.PDF 或任何其他 PDF 库将其添加到 PDF 中。
 
-**Q: What .NET versions are supported?**  
-A: Aspose.BarCode for .NET supports .NET Framework 4.5+, .NET Core 3.1+, .NET 5, .NET 6, and later.
+**问：支持哪些 .NET 版本？**
 
-**Q: How can I improve scanning reliability for small labels?**  
-A: Increase the X‑dimension, add quiet zones (`gen.Parameters.Barcode.Margin`), and ensure sufficient contrast between the barcode and background.
+答：Aspose.BarCode for .NET 支持 .NET Framework 4.5+、.NET Core 3.1+、.NET 5、.NET 6 及更高版本。
+
+**问：如何提高小标签的扫描可靠性？**
+
+答：增加 X 轴尺寸，添加静默区（`gen.Parameters.Barcode.Margin`），并确保条形码与背景之间有足够的对比度。
 
 ## 结论
 
@@ -141,15 +126,15 @@ A: Increase the X‑dimension, add quiet zones (`gen.Parameters.Barcode.Margin`)
 
 欲获取更多信息和详细文档，请参阅 [Aspose.BarCode for .NET 文档](https://reference.aspose.com/barcode/net/)。
 
+---
+
+**最后更新：** 2026-02-22  
+**测试环境：** Aspose.BarCode for .NET (latest version)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-22  
-**测试环境：** Aspose.BarCode for .NET (latest version)  
-**作者：** Aspose

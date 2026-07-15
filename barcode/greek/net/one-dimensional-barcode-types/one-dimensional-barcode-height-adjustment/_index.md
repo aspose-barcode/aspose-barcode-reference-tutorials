@@ -9,20 +9,6 @@ url: /el/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjust
 weight: 13
 ---
 
-/) for in-depth information on using Aspose.BarCode in your .NET projects.
-
-Greek.
-
-Conclusion section translate.
-
-Last Updated, Tested With, Author lines keep as is? Should translate labels maybe. "Last Updated:" -> "Τελευταία ενημέρωση:"; "Tested With:" -> "Δοκιμάστηκε με:"; "Author:" -> "Συγγραφέας:" but keep date, version unchanged.
-
-Make sure to keep markdown formatting.
-
-Now produce final content with all translations.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

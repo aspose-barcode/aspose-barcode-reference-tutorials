@@ -10,12 +10,6 @@ url: /pt/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjust
 weight: 13
 ---
 
- sure not to translate URLs.
-
-Also keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
