@@ -57,7 +57,7 @@ Jetzt, wo die Theorie klar ist, erzeugen wir einen Barcode. Die folgenden Schrit
 4. **Aussehen anpassen** – Farben, Ränder ändern oder bei Bedarf eine Beschriftung hinzufügen.  
 5. **Bild speichern** – Export nach PNG, JPEG oder einem anderen unterstützten Format.
 
-> **Pro‑Tipp:** Verwenden Sie dieselbe `BarcodeGenerator`‑Instanz, wenn Sie in einer Schleife mehrere Barcodes erzeugen, um die Leistung zu steigern.
+> **Pro‑Tip:** Verwenden Sie dieselbe `BarcodeGenerator`‑Instanz, wenn Sie in einer Schleife mehrere Barcodes erzeugen, um die Leistung zu steigern.
 
 ## PDF417 Barcode‑Beispiel
 
@@ -84,6 +84,14 @@ Nachfolgend eine knappe Beschreibung eines typischen Barcode‑Erstellungsszenar
 ## Compact PDF417 Codierungs‑Tutorials
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie Compact PDF417 Barcodes mit Aspose.BarCode für .NET erzeugen. Umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen und Code‑Beispielen.
+### [PDF417‑Barcode‑Metadaten in C# erstellen – vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+Erfahren Sie, wie Sie PDF417‑Barcode‑Metadaten in C# hinzufügen, inklusive Code‑Beispielen und Best Practices.
+### [PDF417-Barcode in C# generieren – Vollständiger Leitfaden](./generate-pdf417-barcode-in-c-complete-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# erstellen, mit vollständigen Code‑Beispielen und Schritt‑für‑Schritt‑Anleitung.
+### [PDF417-Barcode in C# generieren – vollständige Schritt‑für‑Schritt‑Anleitung](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# komplett Schritt für Schritt erstellen, inkl. Code‑Beispielen und Best Practices.
+### [PDF417 in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, mit vollständigen Code‑Beispielen und Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

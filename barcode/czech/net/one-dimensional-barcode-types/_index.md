@@ -78,10 +78,12 @@ vydělávejte, jak generovat čárové kódy v .NET s Aspose.BarCode pro .NET. T
 Naučte se, jak zacházet s výjimkami při generování jednorozměrných čárových kódů pomocí Aspose.BarCode for .NET. Tento průvodce krok za krokem zajišťuje řešení čárových kódů odolné proti chybám. Začněte hned!
 ### [Konfigurace jednorozměrného širokoúhlého poměru](./one-dimensional-wide-narrow-ratio-configuration/)
 Snadno generujte přizpůsobené čárové kódy pomocí Aspose.BarCode pro .NET. Průvodce krok za krokem pro jednorozměrnou konfiguraci širokého a úzkého poměru.
+### [Generování čárového kódu z textu pomocí Aspose.BarCode – C# průvodce](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Naučte se, jak pomocí Aspose.BarCode v C# vygenerovat čárový kód přímo z textu. Praktický průvodce krok za krokem.
 
 ## Závěr
 
-V této sérii výukových programů jsme se ponořili do světa jednorozměrných typů čárových kódů a zaměřili jsme se na jejich konfiguraci a přizpůsobení. S Aspose.BarCode for .NET je tento proces jednoduchý a zajišťuje, že můžete vytvářet čárové kódy přizpůsobené vašim potřebám. Takže, ať už jste zkušený vývojář nebo teprve začínáte, tyto výukové programy vám umožní využít sílu jednorozměrných čárových kódů ve vašich projektech .NET. Začněte hned a uvolněte potenciál technologie čárových kódů!
+V této sérii výukových programů jsme se ponořili do světa jednorozměrných typů čárových kódů a zaměřili se na jejich konfiguraci a přizpůsobení. S Aspose.BarCode for .NET je tento proces jednoduchý a zajišťuje, že můžete vytvářet čárové kódy přizpůsobené vašim potřebám. Takže, ať už jste zkušený vývojář nebo teprve začínáte, tyto výukové programy vám umožní využít sílu jednorozměrných čárových kódů ve vašich projektech .NET. Začněte hned a uvolněte potenciál technologie čárových kódů!
 
 tímto článkem získáte nejen znalosti o různých typech jednorozměrných čárových kódů, ale také sebevědomí je implementovat do svých projektů. Šťastné kódování!
 {{< /blocks/products/pf/tutorial-page-section >}}

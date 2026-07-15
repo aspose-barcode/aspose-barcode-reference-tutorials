@@ -77,6 +77,14 @@ Aspose.BarCode memungkinkan Anda mengatur properti `Pdf417ErrorCorrectionLevel` 
 ## Compact PDF417 Encoding Tutorials
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Pelajari cara menghasilkan barcode Compact PDF417 menggunakan Aspose.BarCode untuk .NET. Panduan komprehensif dengan instruksi langkah‑demi‑langkah dan contoh kode.
+### [Buat Metadata Barcode PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+Pelajari cara menambahkan metadata ke barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
+### [Buat Barcode PDF417 di C# – Panduan Lengkap](./generate-pdf417-barcode-in-c-complete-guide/)
+Pelajari cara menghasilkan barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
+### [Buat Barcode PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+Panduan terperinci untuk membuat barcode PDF417 di C# dengan Aspose.BarCode, lengkap dengan contoh kode langkah demi langkah.
+### [Cara Membaca PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Pelajari cara membaca barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
 
 ## Frequently Asked Questions
 

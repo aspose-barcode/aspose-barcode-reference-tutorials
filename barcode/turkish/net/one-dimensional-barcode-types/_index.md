@@ -28,7 +28,7 @@ Tek boyutlu barkodlar, veri kodlamanın temelidir ve bilgiyi depolamanın basit 
 
 ## Kod 39 Yapılandırması
 
- Eğer üretmeniz gerekiyorsa**Code 39** barkodlar, Aspose.BarCode yanınızda. Bu barkod türü endüstriyelden sağlık hizmetlerine kadar çeşitli uygulamalarda yaygın olarak kullanılmaktadır. Geliştiriciler sorunsuz bir kurulum için adım adım kılavuzumuza güvenebilirler.
+ Eğer üretmeniz gerekiyorsa**Code 39** barkodlar, Aspose.BarCode yanınızda. Bu barkod türü endüstriyetten sağlık hizmetlerine kadar çeşitli uygulamalarda yaygın olarak kullanılmaktadır. Geliştiriciler sorunsuz bir kurulum için adım adım kılavuzumuza güvenebilirler.
 
 ## Kod 93 Yapılandırması
 
@@ -78,6 +78,8 @@ Aspose.BarCode for .NET ile .NET'te barkod oluşturmayı öğrenin. Bu kapsamlı
 Aspose.BarCode for .NET'i kullanarak tek boyutlu barkodlar oluştururken istisnaları nasıl ele alacağınızı öğrenin. Bu adım adım kılavuz, hataya dayanıklı barkod çözümleri sağlar. Şimdi başla!
 ### [Tek Boyutlu Geniş-Dar Oranlı Yapılandırma](./one-dimensional-wide-narrow-ratio-configuration/)
 Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. Tek boyutlu geniş-dar oranlı yapılandırma için adım adım kılavuz.
+### [Metinden Barkod Oluşturma – Aspose.BarCode ile C# Kılavuzu](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Aspose.BarCode kullanarak C# ile metinden barkod oluşturmayı öğrenin. Adım adım kılavuzumuzla kolayca başlayın.
 
 ## Çözüm
 
