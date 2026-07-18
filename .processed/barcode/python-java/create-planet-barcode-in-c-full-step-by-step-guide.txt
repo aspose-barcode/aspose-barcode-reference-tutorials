@@ -1,0 +1,7 @@
+Title: Create Planet Barcode in C# – Full Step‑by‑Step Guide
+Slug: create-planet-barcode-in-c-full-step-by-step-guide
+Category: general
+ProcessedDate: 2026-07-18T20:24:34.486330
+SourceRepo: AI Search API
+Keywords: create planet barcode
+PRNumber: 75
