@@ -1,0 +1,7 @@
+Title: Barcode Generator Example – Build DataBar Image in C#
+Slug: barcode-generator-example-build-databar-image-in-c
+Category: general
+ProcessedDate: 2026-07-18T20:24:38.070347
+SourceRepo: AI Search API
+Keywords: barcode generator example, how to set dimensions, how to generate databar, barcode encode types, create barcode image c#
+PRNumber: 75
