@@ -54,11 +54,16 @@ GS1 DataMatrix 条形码是产品识别和可追溯性的重要组成部分。 A
 ### [GS1优惠券补充空间配置](./gs1-coupon-supplement-space-configuration/)
 了解如何使用 Aspose.BarCode for .NET 配置 GS1 优惠券补充空间。请按照我们的分步指南来掌握此功能。
 ### [GS1 优惠券 UPC-A 代码 128 编码](./gs1-coupon-upc-a-code-128-encoding/)
-使用 Aspose.BarCode for .NET 轻松生成条形码 - 您的综合条形码生成解决方案。今天就开始吧！
+使用 Aspose.BarCode for .NET 轻松生成条码 - 您的综合条码生成解决方案。今天就开始吧！
 ### [GS1 优惠券 UPC-A 数据栏配置](./gs1-coupon-upc-a-databar-configuration/)
 使用 Aspose.BarCode for .NET 了解 GS1 Coupon UPC-A Databar 配置。轻松创建条形码。现在就开始！
 ### [GS1 数据矩阵示例](./gs1-datamatrix-example/)
 了解如何使用 Aspose.BarCode 在 .NET 中创建 GS1 DataMatrix 条形码。只需几个步骤即可轻松高效地生成条形码。
+### [在 C# 中创建 GS1 条码 – 完整分步指南](./create-gs1-barcode-in-c-complete-step-by-step-guide/)
+使用 Aspose.BarCode for .NET，在 C# 中完整创建 GS1 条码的分步指南。立即开始！
+### [在 C# 中创建 GS1 条码图像 – 快速生成条码 C# 教程](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
+使用 Aspose.BarCode for .NET，快速在 C# 中生成 GS1 条码图像的完整指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

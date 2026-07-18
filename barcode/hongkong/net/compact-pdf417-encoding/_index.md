@@ -82,7 +82,32 @@ Aspose.BarCode 讓你設定 `Pdf417ErrorCorrectionLevel` 屬性 (0‑8)。較高
 
 ## 緊湊式 PDF417 編碼教學
 ### [建立緊湊式 PDF417 條碼](./compact-pdf417-basic-configuration/)
-了解如何使用 Aspose.BarCode for .NET 產生緊湊式 PDF417 條碼。完整指南包含一步一步說明與程式碼範例。
+
+### [如何在 C# 中產生條碼影像 – MicroPdf417 指南](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
+
+### [在 C# 中產生 Micro PDF417 條碼 – 完整指南](./generate-micro-pdf417-barcode-in-c-complete-guide/)
+
+### [如何在 C# 中儲存條碼 – 產生 PDF417 條碼](./how-to-save-barcode-in-c-generate-pdf417-barcodes/)
+
+### [條碼產生器教學：如何在 C# 中產生 PDF417 條碼](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
+
+### [在 C# 中建立 PDF417 條碼 – 條碼產生器指南](./create-pdf417-barcode-in-c-barcode-generator-guide/)
+
+### [在 C# 中產生 PDF417 條碼 – 完整步驟指南](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
+
+### [如何設定 PDF417 條碼錯誤等級 – 完整指南](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
+
+### [產生帶文字的條碼 – 完整 PDF417 宏指南](./generate-barcode-with-text-full-pdf417-macro-guide/)
+
+### [如何使用 Aspose 產生 PDF417 條碼 – 完整指南](./how-to-generate-pdf417-barcode-with-aspose-complete-guide/)
+
+### [如何產生 PDF417 條碼 – 完整程式設計指南](./how-to-generate-pdf417-barcode-complete-programming-guide/)
+
+### [在 C# 中建立 PDF417 條碼 – 完整程式設計指南](./create-pdf417-barcode-in-c-complete-programming-guide/)
+
+### [在 C# 中建立條碼 PNG – 步驟教學](./create-barcode-png-in-c-step-by-step-guide/)
+
+### [在 C# 中生成 PDF417 條碼 – 完整程式設計指南](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 
 ## 常見問題
 
