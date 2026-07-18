@@ -1,0 +1,7 @@
+Title: use extcodetextbuilder aspose: Generate QR Codes with Mixed ECI Text
+Slug: use-extcodetextbuilder-aspose-generate-qr-codes-with-mixed-e
+Category: general
+ProcessedDate: 2026-07-18T19:59:24.509886
+SourceRepo: AI Search API
+Keywords: use extcodetextbuilder aspose
+PRNumber: 74
