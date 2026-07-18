@@ -1,0 +1,7 @@
+Title: How to Set Error Level in PDF417 Barcode – Complete Guide
+Slug: how-to-set-error-level-in-pdf417-barcode-complete-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-18T19:52:19.437832
+SourceRepo: AI Search API
+Keywords: how to set error, generate pdf417 barcode, how to generate pdf417, barcode with custom text
+PRNumber: 73
