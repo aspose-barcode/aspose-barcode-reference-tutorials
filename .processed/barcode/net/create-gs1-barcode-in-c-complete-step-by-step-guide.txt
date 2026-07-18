@@ -1,0 +1,7 @@
+Title: Create GS1 Barcode in C# – Complete Step‑by‑Step Guide
+Slug: create-gs1-barcode-in-c-complete-step-by-step-guide
+Category: gs1-barcode-encoding
+ProcessedDate: 2026-07-18T19:52:33.917669
+SourceRepo: AI Search API
+Keywords: create gs1 barcode, how to generate barcode, how to set columns, barcode generator c#, create barcode image
+PRNumber: 73
