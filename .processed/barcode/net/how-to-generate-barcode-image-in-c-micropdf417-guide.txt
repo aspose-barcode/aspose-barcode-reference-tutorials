@@ -1,0 +1,7 @@
+Title: How to Generate Barcode Image in C# – MicroPdf417 Guide
+Slug: how-to-generate-barcode-image-in-c-micropdf417-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-18T19:52:00.345297
+SourceRepo: AI Search API
+Keywords: how to generate barcode image
+PRNumber: 73
