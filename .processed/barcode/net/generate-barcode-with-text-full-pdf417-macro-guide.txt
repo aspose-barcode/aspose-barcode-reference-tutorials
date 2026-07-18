@@ -1,0 +1,7 @@
+Title: Generate barcode with text – Full PDF417 Macro Guide
+Slug: generate-barcode-with-text-full-pdf417-macro-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-18T19:52:23.050488
+SourceRepo: AI Search API
+Keywords: generate barcode with text, how to generate pdf417
+PRNumber: 73
