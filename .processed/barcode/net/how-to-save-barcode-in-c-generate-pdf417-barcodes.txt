@@ -1,0 +1,7 @@
+Title: How to Save Barcode in C# – Generate PDF417 Barcodes
+Slug: how-to-save-barcode-in-c-generate-pdf417-barcodes
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-18T19:52:07.977478
+SourceRepo: AI Search API
+Keywords: how to save barcode, c# generate barcode, generate pdf417 barcode, create pdf417 barcode, how to generate barcode
+PRNumber: 73
