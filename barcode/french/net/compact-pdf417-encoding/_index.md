@@ -87,6 +87,48 @@ Au‑delà des bases, voici quelques astuces pratiques pour optimiser votre flux
 ### [Créer des codes-barres Compact PDF417](./compact-pdf417-basic-configuration/)
 Apprenez à générer des codes-barres Compact PDF417 en utilisant Aspose.BarCode pour .NET. Guide complet avec des instructions étape par étape et des exemples de code.
 
+### [Comment générer une image de code-barres en C# – Guide MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
+Apprenez à créer une image de code-barres MicroPdf417 en C# avec Aspose.BarCode, incluant les étapes de configuration et d’enregistrement.
+
+### [Générer un code-barres Micro PDF417 en C# – Guide complet](./generate-micro-pdf417-barcode-in-c-complete-guide/)
+Apprenez à créer un code-barres Micro PDF417 en C# avec Aspose.BarCode, incluant configuration, génération et enregistrement d'images.
+
+### [Comment enregistrer un code-barres en C# – Générer des codes-barres PDF417](./how-to-save-barcode-in-c-generate-pdf417-barcodes/)
+Apprenez à enregistrer un code-barres PDF417 en C# avec Aspose.BarCode, incluant les étapes de sauvegarde et de configuration.
+
+### [Tutoriel du générateur de code-barres : comment générer un code-barres PDF417 en C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
+Apprenez à créer un code-barres PDF417 en C# avec le générateur de code-barres Aspose.BarCode, incluant configuration et enregistrement d'image.
+
+### [Créer un code-barres PDF417 en C# – Guide du générateur de code-barres](./create-pdf417-barcode-in-c-barcode-generator-guide/)
+Apprenez à créer un code-barres PDF417 en C# avec le générateur de code-barres Aspose.BarCode, incluient configuration et enregistrement d'image.
+
+### [Comment définir le niveau d’erreur dans le code-barres PDF417 – Guide complet](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
+Apprenez à configurer le niveau de correction d’erreurs PDF417 avec Aspose.BarCode pour .NET, incluant exemples et meilleures pratiques.
+
+### [Générer un code-barres avec texte – Guide complet PDF417 Macro](./generate-barcode-with-text-full-pdf417-macro-guide/)
+Apprenez à créer un code-barres PDF417 macro contenant du texte avec Aspose.BarCode pour .NET, incluant configuration et exemples.
+
+### [Comment générer un code-barres PDF417 avec Aspose – Guide complet](./how-to-generate-pdf417-barcode-with-aspose-complete-guide/)
+Apprenez à créer un code-barres PDF417 en C# avec Aspose.BarCode, incluant configuration, génération et sauvegarde d'image.
+
+### [Comment générer un code-barres PDF417 – Guide complet de programmation](./how-to-generate-pdf417-barcode-complete-programming-guide/)
+Apprenez à créer un code-barres PDF417 en C# avec Aspose.BarCode, incluant configuration, génération et sauvegarde d'image.
+
+### [Créer un code-barres PDF417 en C# – Guide complet étape par étape](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
+Apprenez à créer un code-barres PDF417 en C# avec Aspose.BarCode, incluant la configuration, la génération et l’enregistrement d’image.
+
+### [Créer un code-barres PDF417 en C# – Guide complet de programmation](./create-pdf417-barcode-in-c-complete-programming-guide/)
+Apprenez à créer un code-barres PDF417 en C# avec Aspose.BarCode, incluant configuration, génération et sauvegarde d'image.
+
+### [Créer un code-barres PNG en C# – Guide étape par étape](./create-barcode-png-in-c-step-by-step-guide/)
+Apprenez à créer une image PNG de code-barres en C# avec Aspose.BarCode, incluant configuration et enregistrement.
+
+### [Créer un code-barres PDF417 en C# – Guide complet étape par étape](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
+Apprenez à créer un code-barres PDF417 en C# avec Aspose.BarCode, incluant la configuration, la génération et l’enregistrement d’image.
+
+### [Générer un code-barres PDF417 en C# – Guide complet de programmation](./generate-pdf417-barcode-in-c-complete-programming-guide/)
+Apprenez à générer un code-barres PDF417 en C# avec Aspose.BarCode, couvrant la configuration, la génération et l’enregistrement d’image.
+
 ## Questions fréquentes
 
 **Q : Quelle est la quantité maximale de données que je peux stocker dans un code‑barcode Compact PDF417 ?**  
