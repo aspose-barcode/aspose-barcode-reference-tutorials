@@ -1,0 +1,7 @@
+Title: .net barcode generator – change barcode height
+Slug: net-barcode-generator-change-barcode-height
+Category: general
+ProcessedDate: 2026-07-18T20:24:36.460653
+SourceRepo: AI Search API
+Keywords: .net barcode generator, how to generate barcode, change barcode height
+PRNumber: 75
