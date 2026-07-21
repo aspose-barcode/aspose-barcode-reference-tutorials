@@ -1,0 +1,7 @@
+Title: How to Read PDF417 in C# – Complete Barcode Reader Example
+Slug: how-to-read-pdf417-in-c-complete-barcode-reader-example
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-21T22:18:54.552542
+SourceRepo: AI Search API
+Keywords: how to read pdf417, read barcode from image, c# barcode reader example
+PRNumber: 76
