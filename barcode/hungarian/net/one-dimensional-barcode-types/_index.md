@@ -63,13 +63,13 @@ Ismerje meg, hogyan hozhat létre Code 93 vonalkódokat az Aspose.BarCode for .N
 ### [Egydimenziós vonalkód magasságállítás](./one-dimensional-barcode-height-adjustment/)
 Ismerje meg, hogyan állíthatja be az egydimenziós vonalkódok magasságát a .NET-ben az Aspose.BarCode segítségével a pontos testreszabás érdekében. Hozzon létre tökéletes vonalkódokat könnyedén!
 ### [Egydimenziós adattár 2D komponens konfigurációja](./one-dimensional-databar-2d-component-configuration/)
-Egydimenziós Databar 2D vonalkódok létrehozása az Aspose.BarCode segítségével .NET-hez. Kövesse lépésenkénti útmutatónkat a konfigurációhoz és a testreszabáshoz. Kezdje el egyedi vonalkódok készítését még ma!
+Egydimenziós Databar 2D vonalkódok létrehozása az Aspose.BarCode segítségével .NET-hez. Kövesse lépésről lépésre útmutatónkat a konfigurációhoz és a testreszabáshoz. Kezdje el egyedi vonalkódok készítését még ma!
 ### [Egydimenziós adatsáv képarány testreszabása](./one-dimensional-databar-aspect-ratio-customization/)
 Ismerje meg, hogyan szabhatja testre az egydimenziós adatsáv képarányait .NET-ben az Aspose.BarCode használatával. Növelje a vonalkód pontosságát és kialakítását.
 ### [Egydimenziós adatsor vonalkód magasságállítás](./one-dimensional-databar-barcode-height-adjustment/)
 Ismerje meg, hogyan állíthatja be az egydimenziós adatsáv vonalkód magasságát az Aspose.BarCode for .NET segítségével. Hozzon létre egyéni vonalkódokat néhány egyszerű lépésben. Fedezze fel a vonalkód testreszabásának erejét.
 ### [Egydimenziós adattár GS1 kódolás](./one-dimensional-databar-gs1-encoding/)
-Ismerje meg a Databar GS1 kódolású vonalkódok létrehozását .NET-ben az Aspose.BarCode segítségével. Generáljon vonalkódokat könnyedén. Kövesse lépésenkénti útmutatónkat.
+Ismerje meg a Databar GS1 kódolású vonalkódok létrehozását .NET-ben az Aspose.BarCode segítségével. Generáljon vonalkódokat könnyedén. Kövesse lépésről lépésre útmutatónkat.
 ### [Egydimenziós adatsorok és oszlopok konfigurációja](./one-dimensional-databar-row-column-configuration/)
 Dinamikus egydimenziós DataBar vonalkódok létrehozása sor- és oszlopkonfigurációval a .NET-ben az Aspose.BarCode for .NET használatával. A testreszabás egyszerű!
 ### [Egydimenziós kitöltött rudak konfigurációja](./one-dimensional-filled-bars-configuration/)
@@ -78,6 +78,8 @@ megtudhatja, hogyan hozhat létre vonalkódokat .NET-ben az Aspose.BarCode for .
 Ismerje meg, hogyan kezelheti a kivételeket, miközben egydimenziós vonalkódokat állít elő az Aspose.BarCode for .NET használatával. Ez a lépésenkénti útmutató hibatűrő vonalkód-megoldásokat biztosít. Kezd el most!
 ### [Egydimenziós széles-keskeny arány konfiguráció](./one-dimensional-wide-narrow-ratio-configuration/)
 Az Aspose.BarCode for .NET segítségével egyszerűen hozhat létre testreszabott vonalkódokat. Lépésről lépésre útmutató az egydimenziós széles-keskeny arány konfigurációhoz.
+### [Hogyan generáljunk vonalkódot C#-ban – Teljes programozási útmutató](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Ismerje meg, hogyan hozhat létre vonalkódokat C#-ban az Aspose.BarCode segítségével, lépésről lépésre útmutató.
 
 ## Következtetés
 

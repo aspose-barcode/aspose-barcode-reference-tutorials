@@ -86,7 +86,9 @@ Poza podstawami, oto kilka praktycznych wskazówek, które usprawnią Twój prze
 
 ### [Tworzenie kodów Compact PDF417](./compact-pdf417-basic-configuration/)
 
-Dowiedz się, jak generować kody Compact PDF417 przy użyciu Aspose.BarCode dla .NET. Kompleksowy przewodnik z instrukcjami krok po kroku i przykładami kodu.
+### [Utwórz kod kreskowy PDF417 z Aspose – Kompletny przewodnik](./create-pdf417-barcode-with-aspose-complete-guide/)
+
+### [Jak odczytać PDF417 w C# – Kompletny przykład czytnika kodów kreskowych](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 
 ## Najczęściej zadawane pytania
 

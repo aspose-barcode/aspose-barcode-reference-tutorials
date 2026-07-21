@@ -20,7 +20,7 @@ url: /zh/net/one-dimensional-barcode-types/
 
 ## 一维条形码的力量
 
-一维条形码是数据编码的基础，提供了一种简单有效的信息存储方式。这些条形码通常用于库存管理、零售和运输等任务。在本教程系列中，我们将重点介绍最流行的一维条形码类型以及如何配置它们。
+一维条码是数据编码的基础，提供了一种简单有效的信息存储方式。这些条形码通常用于库存管理、零售和运输等任务。在本教程系列中，我们将重点介绍最流行的一维条形码类型以及如何配置它们。
 
 ## 代码 128 配置
 
@@ -55,7 +55,7 @@ url: /zh/net/one-dimensional-barcode-types/
 我们将探索一维条形码的宽窄比配置。在 Aspose.BarCode 的指导下轻松高效地定制您的条形码。
 ## 一维条形码类型教程
 ### [一维码128配置](./one-dimensional-code-128-configuration/)
-了解如何使用 Aspose.BarCode 在 .NET 中生成一维 Code 128 条形码。请遵循我们的无缝条形码集成分步指南。
+了解如何使用 Aspose.BarCode 在 .NET 中生成一维 Code 128 条形码。请遵循我们的无缝条码集成分步指南。
 ### [一维 Code 39 配置](./one-dimensional-code-39-configuration/)
 了解如何使用 Aspose.BarCode 在 .NET 中生成一维 Code 39 条形码。开发人员的分步指南。
 ### [一维代码 93 配置](./one-dimensional-code-93-configuration/)
@@ -78,6 +78,8 @@ url: /zh/net/one-dimensional-barcode-types/
 了解如何使用 Aspose.BarCode for .NET 生成一维条形码时处理异常。本分步指南可确保条码解决方案具有容错性。现在就开始！
 ### [一维宽窄比配置](./one-dimensional-wide-narrow-ratio-configuration/)
 使用 Aspose.BarCode for .NET 轻松生成自定义条形码。一维宽窄比配置的分步指南。
+### [如何在 C# 中生成条码 – 完整编程指南](./how-to-generate-barcode-in-c-complete-programming-guide/)
+了解如何使用 Aspose.BarCode 在 C# 中完整生成条形码的步骤与技巧，涵盖从初始化到自定义的全流程。
 
 ## 结论
 

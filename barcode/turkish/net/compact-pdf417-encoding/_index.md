@@ -82,6 +82,10 @@ Temellerin ötesinde, iş akışınızı hızlandıracak bazı pratik ipuçları
 ## Kompakt PDF417 Kodlama Eğitimleri
 ### [Compact PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET'i kullanarak Compact PDF417 barkodlarını nasıl oluşturacağınızı öğrenin. Adım‑adım talimatları ve kod örnekleri içeren kapsamlı bir rehber.
+### [Aspose ile PDF417 Barkod Oluşturma – Tam Kılavuz](./create-pdf417-barcode-with-aspose-complete-guide/)
+Aspose.BarCode for .NET kullanarak PDF417 barkodlarını baştan sona nasıl oluşturacağınızı adım adım öğrenin.
+### [C# ile PDF417 Okuma – Tam Barkod Okuyucu Örneği](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+Aspose.BarCode for .NET kullanarak C# içinde PDF417 barkodlarını okuma adımlarını ve tam örnek kodu öğrenin.
 
 ## Sıkça Sorulan Sorular
 

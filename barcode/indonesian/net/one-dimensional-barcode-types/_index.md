@@ -78,6 +78,8 @@ dapatkan cara membuat kode batang di .NET dengan Aspose.BarCode untuk .NET. Tuto
 Pelajari cara menangani pengecualian saat membuat kode batang satu dimensi menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah ini memastikan solusi kode batang yang toleran terhadap kesalahan. Mulai sekarang!
 ### [Konfigurasi Rasio Lebar-Sempit Satu Dimensi](./one-dimensional-wide-narrow-ratio-configuration/)
 Hasilkan kode batang khusus dengan mudah menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk konfigurasi rasio lebar-sempit satu dimensi.
+### [Cara Membuat Barcode di C# – Panduan Pemrograman Lengkap](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Pelajari cara menghasilkan barcode di C# dengan panduan pemrograman lengkap menggunakan Aspose.BarCode untuk .NET.
 
 ## Kesimpulan
 
