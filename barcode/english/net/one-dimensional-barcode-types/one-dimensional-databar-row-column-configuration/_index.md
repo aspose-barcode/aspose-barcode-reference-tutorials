@@ -1,6 +1,6 @@
 ---
-title: Generate Databar barcode .NET – Row & Column Configuration
-linktitle: Generate Databar barcode .NET – Row & Column Configuration
+title: Generate Aspose.BarCode Databar barcode .NET – Row & Column Configuration
+linktitle: Generate Aspose.BarCode Databar barcode .NET – Row & Column Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate databar barcode .net with Aspose.BarCode – a barcode generator C# example for inventory management and custom row/column settings.
 weight: 19
@@ -160,6 +160,5 @@ Explore the extensive documentation [here](https://reference.aspose.com/barcode/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

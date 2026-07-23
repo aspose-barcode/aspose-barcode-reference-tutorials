@@ -1,5 +1,5 @@
 ---
-title: Create Barcode Generator Aspose – Databar 2D Config
+title: Generate One-Dimensional Databar 2D Barcodes with Aspose.BarCode .NET
 linktitle: One-Dimensional Databar 2D Component Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to create barcode generator Aspose for One-Dimensional Databar 2D barcodes in .NET. Follow our step‑by‑step guide for configuration and customization.
@@ -142,6 +142,5 @@ A: Increase the `XDimension` value and ensure sufficient contrast between the ba
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
