@@ -1,0 +1,7 @@
+Title: Generate Postal Barcode in C# – Complete Guide with Planet Barcode
+Slug: generate-postal-barcode-in-c-complete-guide-with-planet-barc
+Category: general
+ProcessedDate: 2026-07-25T02:59:22.818572
+SourceRepo: AI Search API
+Keywords: generate postal barcode, c# barcode generator, create planet barcode, barcode save image
+PRNumber: 82
