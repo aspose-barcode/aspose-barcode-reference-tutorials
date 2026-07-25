@@ -84,6 +84,12 @@ Nachfolgend eine knappe Beschreibung eines typischen Barcode‑Erstellungsszenar
 ## Compact PDF417 Codierungs‑Tutorials
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie Compact PDF417 Barcodes mit Aspose.BarCode für .NET erzeugen. Umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen und Code‑Beispielen.
+### [Wie man PDF417‑Barcodes mit Aspose erstellt – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+Erfahren Sie, wie Sie PDF417‑Barcodes mit Aspose.BarCode für .NET vollständig und Schritt für Schritt erstellen.
+### [PDF417‑Barcode in C# generieren – PDF417‑Barcode in C# erstellen](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# mit Aspose.BarCode für .NET erstellen.
+### [Barcodegröße anpassen – C#‑Leitfaden zur Generierung von PDF417‑Barcodes](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+Erfahren Sie, wie Sie die Größe von PDF417‑Barcodes in C# anpassen, um optimale Lesbarkeit und Layout‑Anforderungen zu erfüllen.
 
 ## Häufig gestellte Fragen
 
