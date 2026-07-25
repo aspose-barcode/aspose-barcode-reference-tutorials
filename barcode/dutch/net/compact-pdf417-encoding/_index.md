@@ -82,7 +82,11 @@ Voorbij de basis, hier zijn enkele praktische tips om je workflow te stroomlijne
 ## Compact PDF417 Codering Tutorials
 ### [Compact PDF417 Barcodes Maken](./compact-pdf417-basic-configuration/)
 
-Leer hoe je Compact PDF417 barcodes genereert met Aspose.BarCode voor .NET. Uitgebreide gids met stap‑voor‑stap instructies en code‑voorbeelden.
+### [Hoe PDF417-barcode te maken met Aspose – Complete stapsgewijze gids](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+
+### [PDF417-barcode genereren in C# – PDF417-barcode maken in C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+
+### [barcodegrootte aanpassen – C#-gids om PDF417-barcodes te genereren](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 
 ## Veelgestelde Vragen
 

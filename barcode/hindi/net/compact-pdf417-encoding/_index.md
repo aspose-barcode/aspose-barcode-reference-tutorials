@@ -86,6 +86,18 @@ Aspose.BarCode आपको `Pdf417ErrorCorrectionLevel` प्रॉपर्�
 
 Aspose.BarCode for .NET का उपयोग करके Compact PDF417 बारकोड कैसे जनरेट करें सीखें। चरण‑दर‑चरण निर्देशों और कोड उदाहरणों के साथ व्यापक गाइड।
 
+### [Aspose के साथ PDF417 बारकोड बनाना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+
+Aspose.BarCode for .NET का उपयोग करके PDF417 बारकोड को शुरू से अंत तक बनाना सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
+
+### [C# में PDF417 बारकोड बनाना – PDF417 बारकोड C# बनाएं](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+
+Aspose.BarCode for .NET का उपयोग करके C# में PDF417 बारकोड कैसे जनरेट करें सीखें। चरण‑दर‑चरण निर्देश और कोड उदाहरण।
+
+### [बारकोड आकार समायोजित करें – PDF417 बारकोड बनाने के लिए C# गाइड](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+
+Aspose.BarCode for .NET में बारकोड आकार बदलने के चरण‑दर‑चरण निर्देश, C# कोड उदाहरण सहित।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: Compact PDF417 बारकोड में मैं अधिकतम कितना डेटा स्टोर कर सकता हूँ?**  
@@ -107,7 +119,7 @@ A: कोई बाहरी फ़ॉन्ट आवश्यक नहीं 
 
 **अंतिम अपडेट:** 2026-01-09  
 **परीक्षित संस्करण:** Aspose.BarCode 24.11 for .NET  
-**लेखक:** Aspose
+**लेखक:** Aspose.BarCode
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
