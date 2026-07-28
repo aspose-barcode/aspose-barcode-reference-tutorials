@@ -1,0 +1,7 @@
+Title: How to Apply License in Aspose.BarCode for Python.NET
+Slug: how-to-apply-license-in-aspose-barcode-for-python-net
+Category: general
+ProcessedDate: 2026-07-28T02:53:02.208518
+SourceRepo: AI Search API
+Keywords: how to apply license
+PRNumber: 84
