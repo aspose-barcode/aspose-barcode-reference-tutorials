@@ -82,7 +82,10 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 
 ## Compact PDF417 kódolási útmutatók
 ### [Compact PDF417 vonalkódok létrehozása](./compact-pdf417-basic-configuration/)
-Ismerje meg, hogyan generáljon Compact PDF417 vonalkódokat az Aspose.BarCode for .NET használatával. Átfogó útmutató lépésről‑lépésre utasításokkal és kódrészletekkel.
+### [Vonalkód speciális karakterekkel – Teljes útmutató a PDF417 generálásához az Aspose használatával](./barcode-with-special-characters-complete-guide-to-generating/)
+### [PDF417 vonalkód létrehozása .NET-ben – Teljes programozási útmutató](./create-pdf417-barcode-in-net-complete-programming-guide/)
+### [Vonalkód létrehozása adatokkal C#‑ban – Lépésről‑lépésre útmutató](./create-barcode-with-data-in-c-step-by-step-guide/)
+### [PDF417 olvasása C#‑ban – Teljes vonalkód példa](./how-to-read-pdf417-in-c-complete-barcode-example/)
 
 ## Gyakran Ismételt Kérdések
 
@@ -95,10 +98,10 @@ A: A PDF417 Reed‑Solomon kódokat használ, lehetővé téve egy 0‑tól (nin
 **Q: Generálhatok-e Compact PDF417 vonalkódot egy .NET Core konzolalkalmazásban?**  
 A: Igen. Az Aspose.BarCode for .NET teljes mértékben támogatja a .NET Core 3.1-et és az azt követő verziókat.
 
-**Q: Lehet-e testreszabni a vonalkód előtér és háttér színeit?**  
+**Q: Lehet‑e testreszabni a vonalkód előtér és háttér színeit?**  
 A: Teljes mértékben. Használja a `ForeColor` és `BackColor` tulajdonságokat a generátoron, hogy megfeleljenek az UI témájának.
 
-**Q: Szükséges-e további betűtípusokat vagy erőforrásokat telepíteni?**  
+**Q: Szükséges‑e további betűtípusokat vagy erőforrásokat telepíteni?**  
 A: Nem szükséges külső betűtípus; a könyvtár minden megjelenítést belsőleg kezel.
 
 ---

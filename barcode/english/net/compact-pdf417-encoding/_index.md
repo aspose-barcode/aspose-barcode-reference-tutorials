@@ -84,6 +84,18 @@ Beyond the basics, here are some practical tips to streamline your workflow:
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Comprehensive guide with step-by-step instructions and code examples.
 
+### [Barcode with Special Characters – Complete Guide to Generating PDF417 Using Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
+Complete guide on generating PDF417 barcodes with special characters using Aspose.BarCode for .NET.
+
+### [Create PDF417 Barcode in .NET – Complete Programming Guide](./create-pdf417-barcode-in-net-complete-programming-guide/)
+Step-by-step guide to creating PDF417 barcodes in .NET using Aspose.BarCode, covering setup, encoding options, and customization.
+
+### [Create barcode with data in C# – Step‑by‑Step Guide](./create-barcode-with-data-in-c-step-by-step-guide/)
+Step-by-step guide to creating barcodes with custom data in C# using Aspose.BarCode for .NET.
+
+### [How to Read PDF417 in C# – Complete Barcode Example](./how-to-read-pdf417-in-c-complete-barcode-example/)
+Learn how to read and decode PDF417 barcodes in C# using Aspose.BarCode for .NET with a full example.
+
 ## Frequently Asked Questions
 
 **Q: What is the maximum amount of data I can store in a Compact PDF417 barcode?**  

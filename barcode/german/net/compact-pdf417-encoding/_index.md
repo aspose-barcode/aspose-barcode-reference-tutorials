@@ -57,7 +57,7 @@ Jetzt, wo die Theorie klar ist, erzeugen wir einen Barcode. Die folgenden Schrit
 4. **Aussehen anpassen** – Farben, Ränder ändern oder bei Bedarf eine Beschriftung hinzufügen.  
 5. **Bild speichern** – Export nach PNG, JPEG oder einem anderen unterstützten Format.
 
-> **Pro‑Tipp:** Verwenden Sie dieselbe `BarcodeGenerator`‑Instanz, wenn Sie in einer Schleife mehrere Barcodes erzeugen, um die Leistung zu steigern.
+> **Pro‑Tip:** Verwenden Sie dieselbe `BarcodeGenerator`‑Instanz, wenn Sie in einer Schleife mehrere Barcodes erzeugen, um die Leistung zu steigern.
 
 ## PDF417 Barcode‑Beispiel
 
@@ -84,6 +84,14 @@ Nachfolgend eine knappe Beschreibung eines typischen Barcode‑Erstellungsszenar
 ## Compact PDF417 Codierungs‑Tutorials
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie Compact PDF417 Barcodes mit Aspose.BarCode für .NET erzeugen. Umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen und Code‑Beispielen.
+### [Barcode mit Sonderzeichen – Vollständiger Leitfaden zur Generierung von PDF417 mit Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
+Erfahren Sie, wie Sie PDF417‑Barcodes mit Sonderzeichen erzeugen, inklusive Code‑Beispielen und Fehlerkorrektur.
+### [PDF417-Barcode in .NET erstellen – vollständiger Programmierleitfaden](./create-pdf417-barcode-in-net-complete-programming-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in .NET mit Aspose.BarCode vollständig programmieren, inkl. Code‑Beispielen und Konfiguration.
+### [Barcode mit Daten in C# – Schritt‑für‑Schritt‑Anleitung](./create-barcode-with-data-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie in C# Barcodes mit beliebigen Daten generieren, inklusive Code‑Beispielen und Konfiguration.
+### [Wie man PDF417 in C# liest – vollständiges Barcode‑Beispiel](./how-to-read-pdf417-in-c-complete-barcode-example/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive vollständigem Beispielcode und Schritt‑für‑Schritt‑Erklärung.
 
 ## Häufig gestellte Fragen
 

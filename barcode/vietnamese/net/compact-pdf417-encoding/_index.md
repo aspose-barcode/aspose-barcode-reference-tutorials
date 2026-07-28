@@ -84,6 +84,14 @@ Ngoài các kiến thức cơ bản, dưới đây là một số mẹo thực t
 ## Hướng dẫn Mã Hóa Compact PDF417
 ### [Tạo Mã Vạch Compact PDF417](./compact-pdf417-basic-configuration/)
 Tìm hiểu cách tạo mã vạch Compact PDF417 bằng Aspose.BarCode cho .NET. Hướng dẫn chi tiết với các bước thực hiện và ví dụ mã nguồn.
+### [Mã vạch với ký tự đặc biệt – Hướng dẫn đầy đủ tạo PDF417 bằng Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
+Hướng dẫn chi tiết cách tạo mã PDF417 chứa ký tự đặc biệt bằng Aspose.BarCode cho .NET, bao gồm cấu hình và ví dụ thực tế.
+### [Tạo Mã Vạch PDF417 trong .NET – Hướng Dẫn Lập Trình Toàn Diện](./create-pdf417-barcode-in-net-complete-programming-guide/)
+Hướng dẫn chi tiết cách tạo mã vạch PDF417 trong .NET bằng Aspose.BarCode, bao gồm cấu hình, mã nguồn mẫu và các mẹo tối ưu.
+### [Tạo mã vạch với dữ liệu trong C# – Hướng dẫn từng bước](./create-barcode-with-data-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo mã vạch bằng C# với Aspose.BarCode, bao gồm các bước cấu hình và ví dụ thực tế.
+### [Cách Đọc PDF417 trong C# – Ví dụ Mã Vạch Hoàn Chỉnh](./how-to-read-pdf417-in-c-complete-barcode-example/)
+Hướng dẫn chi tiết cách đọc mã vạch PDF417 bằng C# sử dụng Aspose.BarCode, bao gồm cấu hình và ví dụ thực tế.
 
 ## Câu hỏi thường gặp
 
