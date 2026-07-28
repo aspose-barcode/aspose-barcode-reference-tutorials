@@ -1,5 +1,5 @@
 ---
-title: 'How to Generate Barcode with Aspose.BarCode for .NET: One-Dimensional Filled Bars'
+title: 'Generate PNG Barcode with Aspose.BarCode for .NET: One-Dimensional Filled Bars'
 linktitle: One-Dimensional Filled Bars Configuration
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate barcode images in PNG format with Aspose.BarCode for .NET. This barcode generator tutorial covers creating a Code128 barcode, configuring filled bars, and saving barcode PNG files.
@@ -125,9 +125,7 @@ A temporary license is available for short‑term projects. Grab one **[this lin
 {{< /blocks/products/pf/main-wrap-class >}}
 
 ---
-
 **Last Updated:** 2026-02-28  
 **Tested With:** Aspose.BarCode 24.11 for .NET  
 **Author:** Aspose  
-
 ---

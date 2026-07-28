@@ -1,5 +1,5 @@
 ---
-title: How to Set and Adjust Barcode Height for One-Dimensional Databar using Aspose.BarCode for .NET
+title: How to Generate and Adjust Barcode Height for One-Dimensional Databar using Aspose.BarCode for .NET
 linktitle: One-Dimensional Databar Barcode Height Adjustment
 second_title: Aspose.BarCode .NET API
 description: Learn how to adjust barcode height in pixels for One-Dimensional Databar with Aspose.BarCode for .NET. Customize barcode size quickly and easily.
@@ -133,4 +133,5 @@ Feel free to experiment with different heights, combine them with other barcode 
 
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
