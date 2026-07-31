@@ -78,6 +78,8 @@ Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes in .NET generieren. 
 Erfahren Sie, wie Sie Ausnahmen beim Generieren eindimensionaler Barcodes mit Aspose.BarCode für .NET behandeln. Diese Schritt-für-Schritt-Anleitung sorgt für fehlertolerante Barcode-Lösungen. Jetzt loslegen!
 ### [Eindimensionale Breit-Schmal-Verhältnis-Konfiguration](./one-dimensional-wide-narrow-ratio-configuration/)
 Generieren Sie ganz einfach individuelle Barcodes mit Aspose.BarCode für .NET. Schritt-für-Schritt-Anleitung für die eindimensionale Breit-Schmal-Verhältniskonfiguration.
+### [Barcode aus Bild lesen – C#-Barcode-Leser-Beispiel](./read-barcode-from-image-c-barcode-reader-example/)
+Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
 
 ## Abschluss
 

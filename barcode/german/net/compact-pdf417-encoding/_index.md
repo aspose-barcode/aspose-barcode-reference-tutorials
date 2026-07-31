@@ -85,6 +85,12 @@ Nachfolgend eine knappe Beschreibung eines typischen Barcode‑Erstellungsszenar
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie Compact PDF417 Barcodes mit Aspose.BarCode für .NET erzeugen. Umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen und Code‑Beispielen.
 
+### [Wie man ein PDF417‑Barcode‑Bild in C# mit Aspose erzeugt](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET ein PDF417‑Barcode‑Bild in C# erstellen.
+
+### [Mehrere Barcodes in C# lesen – Vollständiger Leitfaden mit PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET mehrere Barcodes, einschließlich PDF417, in C# auslesen.
+
 ## Häufig gestellte Fragen
 
 **F: Wie viel Daten kann ich maximal in einem Compact PDF417 Barcode speichern?**  

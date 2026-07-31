@@ -84,7 +84,9 @@ Aspose.BarCode では `Pdf417ErrorCorrectionLevel` プロパティ（0‑8）を
 
 ### [Compact PDF417 バーコードの作成](./compact-pdf417-basic-configuration/)
 
-Aspose.BarCode for .NET を使用して Compact PDF417 バーコードを生成する方法を学びます。ステップバイステップの手順とコード例を含む包括的なガイドです。
+### [Aspose を使用した C# での PDF417 バーコード画像生成方法](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+
+### [PDF417 を使用した C# の複数バーコード読み取り – 完全ガイド](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
 
 ## よくある質問
 

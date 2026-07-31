@@ -28,7 +28,7 @@ Eğer **pdf417 nasıl oluşturulur** net konusunda, adım‑adım bir rehberde d
 
 ## Kompakt PDF417 Kodu Nedir?
 
-Kompakt PDF417, dikey doğrusal barkodlara göre daha küçük bir alana, daha fazla bilgi depolayan, yüksek kapasiteye sahip iki boyutlu bir sembolojidir. Yığılmış satır ve sütunlardan oluşan bir ızgara kullanır, her hücre birden fazla kodkelime (kod kelimesi) içerir ve sembollerin bir kısmı hasar görse bile verinin okunabilir saklanmasını sağlayan izin veren hata oranları seçeneklerine sahiptir.
+Kompakt PDF417, dikey doğrusal barkodlara göre daha küçük bir alana, daha fazla bilgi depolayan, yüksek kapasiteye sahip iki boyutlu bir sembolojidir. Yığılmış satır ve sütunlardan oluşan bir ızgara kullanır, her hücre birden fazla kodkelime (kod kelime) içerir ve sembollerin bir kısmı hasar görse bile verinin okunabilir saklanmasını sağlayan izin veren hata oranları seçeneklerine sahiptir.
 
 ## Neden Aspose.BarCode for .NET ile Kompakt PDF417 Kullanılmalı?
 
@@ -82,6 +82,12 @@ Temellerin ötesinde, iş akışınızı hızlandıracak bazı pratik ipuçları
 ## Kompakt PDF417 Kodlama Eğitimleri
 ### [Compact PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET'i kullanarak Compact PDF417 barkodlarını nasıl oluşturacağınızı öğrenin. Adım‑adım talimatları ve kod örnekleri içeren kapsamlı bir rehber.
+
+### [C# ile Aspose kullanarak PDF417 Barkod Görüntüsü Oluşturma](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+Aspose.BarCode for .NET ile C# dilinde PDF417 barkod görseli oluşturmayı öğrenin.
+
+### [PDF417 ile Çoklu Barkod Okuma C# – Tam Kılavuz](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
+Aspose.BarCode for .NET kullanarak C# ile birden fazla PDF417 barkodunu okuma adımlarını öğrenin.
 
 ## Sıkça Sorulan Sorular
 

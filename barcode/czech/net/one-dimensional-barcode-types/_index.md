@@ -78,6 +78,8 @@ vydělávejte, jak generovat čárové kódy v .NET s Aspose.BarCode pro .NET. T
 Naučte se, jak zacházet s výjimkami při generování jednorozměrných čárových kódů pomocí Aspose.BarCode for .NET. Tento průvodce krok za krokem zajišťuje řešení čárových kódů odolné proti chybám. Začněte hned!
 ### [Konfigurace jednorozměrného širokoúhlého poměru](./one-dimensional-wide-narrow-ratio-configuration/)
 Snadno generujte přizpůsobené čárové kódy pomocí Aspose.BarCode pro .NET. Průvodce krok za krokem pro jednorozměrnou konfiguraci širokého a úzkého poměru.
+### [Čtení čárového kódu z obrázku – příklad čtečky čárových kódů v C#](./read-barcode-from-image-c-barcode-reader-example/)
+Naučte se načíst čárový kód z obrázku v C# pomocí Aspose.BarCode čtečky.
 
 ## Závěr
 
