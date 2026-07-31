@@ -56,28 +56,42 @@ Exploraremos la configuración de relación amplia-estrecha para códigos de bar
 ## Tutoriales sobre tipos de códigos de barras unidimensionales
 ### [Configuración del código unidimensional 128](./one-dimensional-code-128-configuration/)
 Aprenda a generar códigos de barras Code 128 unidimensionales en .NET usando Aspose.BarCode. Siga nuestra guía paso a paso para una integración perfecta de códigos de barras.
+
 ### [Configuración del código unidimensional 39](./one-dimensional-code-39-configuration/)
 Aprenda a generar códigos de barras Code 39 unidimensionales en .NET con Aspose.BarCode. Guía paso a paso para desarrolladores.
+
 ### [Configuración del código unidimensional 93](./one-dimensional-code-93-configuration/)
 Aprenda a crear códigos de barras Code 93 con Aspose.BarCode para .NET. Guía paso a paso para la generación de códigos de barras.
+
 ### [Ajuste de altura de código de barras unidimensional](./one-dimensional-barcode-height-adjustment/)
 Aprenda a ajustar la altura de los códigos de barras unidimensionales en .NET con Aspose.BarCode para una personalización precisa. ¡Crea códigos de barras perfectos sin esfuerzo!
+
 ### [Configuración de componentes 2D de barra de datos unidimensional](./one-dimensional-databar-2d-component-configuration/)
 Genere códigos de barras 2D de barra de datos unidimensionales con Aspose.BarCode para .NET. Siga nuestra guía paso a paso para su configuración y personalización. ¡Empiece a crear códigos de barras únicos hoy!
+
 ### [Personalización de la relación de aspecto de la barra de datos unidimensional](./one-dimensional-databar-aspect-ratio-customization/)
 Aprenda a personalizar las proporciones de aspecto de la barra de datos unidimensional en .NET usando Aspose.BarCode. Mejore la precisión y el diseño de los códigos de barras.
+
 ### [Ajuste de altura del código de barras de la barra de datos unidimensional](./one-dimensional-databar-barcode-height-adjustment/)
 Aprenda a ajustar la altura del código de barras de la barra de datos unidimensional con Aspose.BarCode para .NET. Cree códigos de barras personalizados en unos sencillos pasos. Explore el poder de la personalización de códigos de barras.
+
 ### [Codificación GS1 de barra de datos unidimensional](./one-dimensional-databar-gs1-encoding/)
 Aprenda a crear códigos de barras codificados Databar GS1 en .NET usando Aspose.BarCode. Genere códigos de barras con facilidad. Sigue nuestra guía paso a paso.
+
 ### [Configuración de filas y columnas de la barra de datos unidimensional](./one-dimensional-databar-row-column-configuration/)
 Genere códigos de barras DataBar unidimensionales dinámicos con configuración de filas y columnas en .NET usando Aspose.BarCode para .NET. ¡La personalización es fácil!
+
 ### [Configuración de barras rellenas unidimensionales](./one-dimensional-filled-bars-configuration/)
 Aprenda cómo generar códigos de barras en .NET con Aspose.BarCode para .NET. Este completo tutorial cubre todo, desde la importación de espacios de nombres hasta la creación de códigos de barras unidimensionales. 
+
 ### [Manejo de excepciones de códigos de barras unidimensionales](./one-dimensional-barcode-exception-handling/)
 Aprenda a manejar excepciones mientras genera códigos de barras unidimensionales utilizando Aspose.BarCode para .NET. Esta guía paso a paso garantiza soluciones de códigos de barras tolerantes a errores. ¡Empieza ahora!
+
 ### [Configuración unidimensional de relación ancha-estrecha](./one-dimensional-wide-narrow-ratio-configuration/)
 Genere códigos de barras personalizados fácilmente con Aspose.BarCode para .NET. Guía paso a paso para la configuración unidimensional de relación ancha-estrecha.
+
+### [Leer código de barras desde una imagen – ejemplo de lector de códigos de barras en C#](./read-barcode-from-image-c-barcode-reader-example/)
+Aprenda a leer códigos de barras desde imágenes en C# usando Aspose.BarCode. Guía paso a paso.
 
 ## Conclusión
 
