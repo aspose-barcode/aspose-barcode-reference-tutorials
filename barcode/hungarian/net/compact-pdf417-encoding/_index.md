@@ -83,6 +83,14 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 ## Compact PDF417 kódolási útmutatók
 ### [Compact PDF417 vonalkódok létrehozása](./compact-pdf417-basic-configuration/)
 Ismerje meg, hogyan generáljon Compact PDF417 vonalkódokat az Aspose.BarCode for .NET használatával. Átfogó útmutató lépésről‑lépésre utasításokkal és kódrészletekkel.
+### [PDF417 vonalkód létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-pdf417-barcode-in-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre PDF417 vonalkódot C#‑ban az Aspose.BarCode segítségével, részletes lépésekkel.
+### [PDF417 vonalkód generálása C#‑ban – teljes útmutató az Aspose.BarCode használatával](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+Ismerje meg, hogyan hozhat létre PDF417 vonalkódot C#‑ban az Aspose.BarCode segítségével, részletes lépésekkel.
+### [Hogyan mentse a vonalkódot képként – teljes C# útmutató](./how-to-save-barcode-as-an-image-complete-c-guide/)
+Ismerje meg, hogyan menthet vonalkódot képként C#‑ban az Aspose.BarCode használatával, részletes lépésekkel.
+### [PDF417 vonalkód olvasása C#‑ban – vonalkódolvasó példa](./read-pdf417-barcode-in-c-barcode-reader-example/)
+Ismerje meg, hogyan olvashat PDF417 vonalkódot C#‑ban az Aspose.BarCode segítségével.
 
 ## Gyakran Ismételt Kérdések
 
@@ -95,10 +103,10 @@ A: A PDF417 Reed‑Solomon kódokat használ, lehetővé téve egy 0‑tól (nin
 **Q: Generálhatok-e Compact PDF417 vonalkódot egy .NET Core konzolalkalmazásban?**  
 A: Igen. Az Aspose.BarCode for .NET teljes mértékben támogatja a .NET Core 3.1-et és az azt követő verziókat.
 
-**Q: Lehet-e testreszabni a vonalkód előtér és háttér színeit?**  
+**Q: Lehet‑e testreszabni a vonalkód előtér és háttér színeit?**  
 A: Teljes mértékben. Használja a `ForeColor` és `BackColor` tulajdonságokat a generátoron, hogy megfeleljenek az UI témájának.
 
-**Q: Szükséges-e további betűtípusokat vagy erőforrásokat telepíteni?**  
+**Q: Szükséges‑e további betűtípusokat vagy erőforrásokat telepíteni?**  
 A: Nem szükséges külső betűtípus; a könyvtár minden megjelenítést belsőleg kezel.
 
 ---

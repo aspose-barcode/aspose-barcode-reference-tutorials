@@ -84,6 +84,14 @@ Utöver grunderna, här är några praktiska tips för att effektivisera ditt ar
 ## Kompakt PDF417-kodningshandledning
 ### [Skapa kompakta PDF417-streckkoder](./compact-pdf417-basic-configuration/)
 Lär dig hur du genererar Compact PDF417‑streckkoder med Aspose.BarCode för .NET. Omfattande guide med steg‑för‑steg‑instruktioner och kodexempel.
+### [Skapa PDF417-streckkod i C# – steg‑för‑steg‑guide](./create-pdf417-barcode-in-c-step-by-step-guide/)
+Lär dig hur du skapar en PDF417‑streckkod i C# med en detaljerad steg‑för‑steg‑guide.
+### [Generera PDF417-streckkod i C# – komplett guide med Aspose.BarCode](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+Lär dig att generera PDF417‑streckkoder i C# med en komplett guide och exempel med Aspose.BarCode.
+### [Hur man sparar streckkod som bild – komplett C#-guide](./how-to-save-barcode-as-an-image-complete-c-guide/)
+Lär dig hur du sparar en streckkod som bild i C# med en komplett steg‑för‑steg‑guide.
+### [Läs PDF417-streckkod i C# – exempel på streckkodsläsare](./read-pdf417-barcode-in-c-barcode-reader-example/)
+Lär dig hur du läser PDF417‑streckkoder i C# med Aspose.BarCode‑läsaren.
 
 ## Vanliga frågor
 

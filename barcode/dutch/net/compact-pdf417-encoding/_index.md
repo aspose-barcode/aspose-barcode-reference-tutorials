@@ -84,6 +84,22 @@ Voorbij de basis, hier zijn enkele praktische tips om je workflow te stroomlijne
 
 Leer hoe je Compact PDF417 barcodes genereert met Aspose.BarCode voor .NET. Uitgebreide gids met stap‑voor‑stap instructies en code‑voorbeelden.
 
+### [PDF417 barcode maken in C# – stapsgewijze gids](./create-pdf417-barcode-in-c-step-by-step-guide/)
+
+Leer hoe je een PDF417 barcode maakt in C# met een stapsgewijze handleiding.
+
+### [PDF417 barcode genereren in C# – volledige gids met Aspose.BarCode](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+
+Leer hoe je een PDF417 barcode genereert in C# met een volledige stap‑voor‑stap handleiding.
+
+### [Hoe een barcode op te slaan als afbeelding – volledige C#-gids](./how-to-save-barcode-as-an-image-complete-c-guide/)
+
+Leer hoe je een barcode opslaat als PNG/JPEG met Aspose.BarCode in C# met een volledige stap‑voor‑stap handleiding.
+
+### [PDF417 barcode lezen in C# – barcodelezer voorbeeld](./read-pdf417-barcode-in-c-barcode-reader-example/)
+
+Leer hoe je een PDF417 barcode leest in C# met een voorbeeld van de barcodelezer.
+
 ## Veelgestelde Vragen
 
 **V: Wat is de maximale hoeveelheid data die ik kan opslaan in een Compact PDF417 barcode?**  
