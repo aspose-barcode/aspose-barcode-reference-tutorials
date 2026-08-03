@@ -84,6 +84,13 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 ## دروس ترميز PDF417 المدمج
 ### [إنشاء باركودات PDF417 المدمجة](./compact-pdf417-basic-configuration/)
 تعلم كيفية إنشاء باركودات PDF417 المدمجة باستخدام Aspose.BarCode for .NET. دليل شامل مع تعليمات خطوة بخطوة وأمثلة شفرة.
+### [إنشاء باركود PDF417 في C# – دليل خطوة بخطوة](./create-pdf417-barcode-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء باركود PDF417 باستخدام C# خطوة بخطوة مع Aspose.BarCode.
+### [إنشاء باركود PDF417 باستخدام C# – دليل كامل مع Aspose.BarCode](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+دليل شامل لإنشاء باركود PDF417 باستخدام C# مع مكتبة Aspose.BarCode، يشمل خطوات مفصلة وأمثلة عملية.
+### [كيفية حفظ الباركود كصورة – دليل كامل C#](./how-to-save-barcode-as-an-image-complete-c-guide/)
+تعلم كيفية حفظ الباركود كملف صورة باستخدام Aspose.BarCode في C# خطوة بخطوة.
+### [قراءة باركود PDF417 في C# – مثال قارئ الباركود](./read-pdf417-barcode-in-c-barcode-reader-example/)
 
 ## الأسئلة المتكررة
 

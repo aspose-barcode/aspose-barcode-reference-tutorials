@@ -86,6 +86,18 @@ Mimo základy, zde jsou některé praktické tipy pro zefektivnění vašeho pra
 ### [Vytváření Compact PDF417 čárových kódů](./compact-pdf417-basic-configuration/)
 Naučte se generovat Compact PDF417 čárové kódy pomocí Aspose.BarCode pro .NET. Kompletní průvodce s krok‑za‑krokem instrukcemi a ukázkami kódu.
 
+### [Vytvoření PDF417 čárového kódu v C# – krok za krokem](./create-pdf417-barcode-in-c-step-by-step-guide/)
+Kompletní návod, jak v C# pomocí Aspose.BarCode vytvořit PDF417 čárový kód krok po kroku.
+
+### [Generování PDF417 čárového kódu v C# – kompletní průvodce s Aspose.BarCode](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+Kompletní návod, jak v C# vytvořit PDF417 čárový kód pomocí Aspose.BarCode, včetně nastavení a příkladů.
+
+### [Jak uložit čárový kód jako obrázek – kompletní průvodce v C#](./how-to-save-barcode-as-an-image-complete-c-guide/)
+Kompletní průvodce, jak v C# pomocí Aspose.BarCode uložit čárový kód jako obrázek.
+
+### [Čtení PDF417 čárového kódu v C# – příklad čtečky čárových kódů](./read-pdf417-barcode-in-c-barcode-reader-example/)
+Ukázka, jak pomocí Aspose.BarCode pro .NET načíst PDF417 čárový kód v C#.
+
 ## Často kladené otázky
 
 **Q:** Jaké je maximální množství dat, která mohu uložit do Compact PDF417 čárového kódu?  
