@@ -1,0 +1,7 @@
+Title: How to save barcode images in C# – complete guide
+Slug: how-to-save-barcode-images-in-c-complete-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-08-06T14:32:07.742808
+SourceRepo: AI Search API
+Keywords: how to save barcode, how to generate pdf417, barcode generator with code128
+PRNumber: 92
