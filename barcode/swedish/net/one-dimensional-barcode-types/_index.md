@@ -78,6 +78,8 @@ tjäna hur man genererar streckkoder i .NET med Aspose.BarCode för .NET. Den h�
 Lär dig hur du hanterar undantag samtidigt som du genererar endimensionella streckkoder med Aspose.BarCode för .NET. Denna steg-för-steg-guide säkerställer feltoleranta streckkodslösningar. Börja nu!
 ### [Endimensionell Wide-Narrow Ratio Configuration](./one-dimensional-wide-narrow-ratio-configuration/)
 Generera anpassade streckkoder enkelt med Aspose.BarCode för .NET. Steg-för-steg-guide för endimensionell bred-smal konfiguration.
+### [Hur man ställer in streckkod i C# – komplett Aspose.BarCode-guide](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Lär dig hur du konfigurerar streckkoder i C# med en komplett Aspose.BarCode-guide.
 
 ## Slutsats
 

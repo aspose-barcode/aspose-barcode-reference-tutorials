@@ -85,6 +85,12 @@ Ngoài các kiến thức cơ bản, dưới đây là một số mẹo thực t
 ### [Tạo Mã Vạch Compact PDF417](./compact-pdf417-basic-configuration/)
 Tìm hiểu cách tạo mã vạch Compact PDF417 bằng Aspose.BarCode cho .NET. Hướng dẫn chi tiết với các bước thực hiện và ví dụ mã nguồn.
 
+### [Tạo mã vạch PDF417 trong C# – hướng dẫn trình tạo mã vạch](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
+Hướng dẫn chi tiết cách tạo mã vạch PDF417 bằng C# sử dụng Aspose.BarCode, bao gồm cấu hình và ví dụ mã nguồn.
+
+### [Cách lưu ảnh mã vạch trong C# – hướng dẫn đầy đủ](./how-to-save-barcode-images-in-c-complete-guide/)
+Hướng dẫn chi tiết cách lưu ảnh mã vạch dưới dạng PNG, JPEG, BMP trong C# sử dụng Aspose.BarCode.
+
 ## Câu hỏi thường gặp
 
 **Q: Dung lượng tối đa tôi có thể lưu trữ trong một mã vạch Compact PDF417 là bao nhiêu?**  

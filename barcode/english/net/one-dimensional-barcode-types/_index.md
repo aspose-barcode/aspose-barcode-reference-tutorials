@@ -98,6 +98,8 @@ earn how to generate barcodes in .NET with Aspose.BarCode for .NET. This compreh
 Learn how to handle exceptions while generating one-dimensional barcodes using Aspose.BarCode for .NET. This step-by-step guide ensures error-tolerant barcode solutions. Get started now!
 ### [One-Dimensional Wide-Narrow Ratio Configuration](./one-dimensional-wide-narrow-ratio-configuration/)
 Generate customized barcodes easily with Aspose.BarCode for .NET. Step-by-step guide for one-dimensional wide-narrow ratio configuration.
+### [How to set barcode in C# – complete Aspose.BarCode guide](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Learn how to set up barcode generation in C# using Aspose.BarCode with a complete step‑by‑step guide.
 
 ## Frequently Asked Questions
 
