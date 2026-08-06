@@ -1,0 +1,7 @@
+Title: How to set barcode in C# – complete Aspose.BarCode guide
+Slug: how-to-set-barcode-in-c-complete-aspose-barcode-guide
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-08-06T14:32:11.647234
+SourceRepo: AI Search API
+Keywords: how to set barcode, how to change macro, barcode generator c#, create barcode image c#
+PRNumber: 92
