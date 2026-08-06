@@ -78,6 +78,8 @@ aprenda como gerar códigos de barras em .NET com Aspose.BarCode for .NET. Este 
 Aprenda como lidar com exceções ao gerar códigos de barras unidimensionais usando Aspose.BarCode for .NET. Este guia passo a passo garante soluções de código de barras tolerantes a erros. Comece agora!
 ### [Configuração de relação ampla-estreita unidimensional](./one-dimensional-wide-narrow-ratio-configuration/)
 Gere códigos de barras personalizados facilmente com Aspose.BarCode for .NET. Guia passo a passo para configuração unidimensional de proporção larga-estreita.
+### [Como definir código de barras em C# – guia completo Aspose.BarCode](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Aprenda a configurar códigos de barras em C# usando Aspose.BarCode com este guia passo a passo.
 
 ## Conclusão
 

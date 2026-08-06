@@ -57,7 +57,7 @@ Jetzt, wo die Theorie klar ist, erzeugen wir einen Barcode. Die folgenden Schrit
 4. **Aussehen anpassen** – Farben, Ränder ändern oder bei Bedarf eine Beschriftung hinzufügen.  
 5. **Bild speichern** – Export nach PNG, JPEG oder einem anderen unterstützten Format.
 
-> **Pro‑Tipp:** Verwenden Sie dieselbe `BarcodeGenerator`‑Instanz, wenn Sie in einer Schleife mehrere Barcodes erzeugen, um die Leistung zu steigern.
+> **Pro‑Tip:** Verwenden Sie dieselbe `BarcodeGenerator`‑Instanz, wenn Sie in einer Schleife mehrere Barcodes erzeugen, um die Leistung zu steigern.
 
 ## PDF417 Barcode‑Beispiel
 
@@ -84,6 +84,10 @@ Nachfolgend eine knappe Beschreibung eines typischen Barcode‑Erstellungsszenar
 ## Compact PDF417 Codierungs‑Tutorials
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie Compact PDF417 Barcodes mit Aspose.BarCode für .NET erzeugen. Umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen und Code‑Beispielen.
+### [PDF417-Barcode in C# generieren – Barcode‑Generator‑Leitfaden](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
+Erfahren Sie, wie Sie mit dem Barcode‑Generator in C# PDF417‑Barcodes erstellen.
+### [Wie man Barcode‑Bilder in C# speichert – vollständiger Leitfaden](./how-to-save-barcode-images-in-c-complete-guide/)
+Erfahren Sie, wie Sie Barcode‑Bilder in C# generieren und in gängigen Formaten speichern.
 
 ## Häufig gestellte Fragen
 

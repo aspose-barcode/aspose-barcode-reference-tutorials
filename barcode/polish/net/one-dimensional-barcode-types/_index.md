@@ -78,6 +78,8 @@ zarabiaj, jak generować kody kreskowe w .NET za pomocą Aspose.BarCode dla .NET
 Dowiedz się, jak obsługiwać wyjątki podczas generowania jednowymiarowych kodów kreskowych przy użyciu Aspose.BarCode dla .NET. Ten przewodnik krok po kroku zapewnia rozwiązania odporne na błędy w zakresie kodów kreskowych. Zacznij teraz!
 ### [Konfiguracja jednowymiarowego szerokiego i wąskiego współczynnika](./one-dimensional-wide-narrow-ratio-configuration/)
 Z łatwością generuj niestandardowe kody kreskowe za pomocą Aspose.BarCode dla .NET. Przewodnik krok po kroku dotyczący konfiguracji jednowymiarowego współczynnika szerokiego i wąskiego.
+### [Jak ustawić kod kreskowy w C# – kompletny przewodnik Aspose.BarCode](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Pełny przewodnik, jak w C# ustawić kod kreskowy przy użyciu Aspose.BarCode.
 
 ## Wniosek
 
