@@ -85,6 +85,18 @@ Beyond the basics, here are some practical tips to streamline your workflow:
 ### [Criando Códigos de Barras Compact PDF417](./compact-pdf417-basic-configuration/)
 Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Comprehensive guide with step-by-step instructions and code examples.
 
+### [Exemplo Aspose Barcode: gerar Macro PDF417 em C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
+Exemplo de como gerar códigos de barras Macro PDF417 usando Aspose.BarCode para .NET em C#.
+
+### [Gerar código de barras PDF417 em C# – guia passo a passo](./generate-pdf417-barcode-in-c-step-by-step-guide/)
+Aprenda a gerar códigos de barras PDF417 em C# com instruções detalhadas e exemplos de código.
+
+### [Gerar código de barras a partir de texto em C# – guia completo passo a passo](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
+Aprenda a gerar códigos de barras a partir de texto em C# com instruções detalhadas e exemplos completos.
+
+### [Como ler PDF417 em C# – guia completo de leitor de código de barras](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
+Aprenda a ler códigos de barras PDF417 em C# com um guia completo, incluindo exemplos de código e melhores práticas.
+
 ## Perguntas Frequentes
 
 **Q: Qual é a quantidade máxima de dados que posso armazenar em um código de barras Compact PDF417?**  

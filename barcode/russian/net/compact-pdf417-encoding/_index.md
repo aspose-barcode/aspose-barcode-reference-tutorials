@@ -84,6 +84,14 @@ Aspose.BarCode позволяет задать свойство `Pdf417ErrorCorr
 ## Руководства по Compact PDF417 Encoding
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Узнайте, как генерировать Compact PDF417 штрих‑коды с помощью Aspose.BarCode для .NET. Полное руководство с пошаговыми инструкциями и примерами кода.
+### [Пример Aspose.BarCode: создание Macro PDF417 на C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
+Узнайте, как сгенерировать Macro PDF417 штрих‑код в C# с помощью Aspose.BarCode.
+### [Генерация штрих‑кода PDF417 в C# – пошаговое руководство](./generate-pdf417-barcode-in-c-step-by-step-guide/)
+Подробное пошаговое руководство по созданию штрих‑кода PDF417 в C# с использованием Aspose.BarCode.
+### [Генерация штрих‑кода из текста на C# – полное пошаговое руководство](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
+Полное пошаговое руководство по генерации штрих‑кода из текста на C# с использованием Aspose.BarCode.
+### [Как считывать PDF417 в C# – полное руководство по чтению штрих‑кода](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
+Полное руководство по чтению штрих‑кода PDF417 в C# с использованием Aspose.BarCode.
 
 ## Часто задаваемые вопросы
 
