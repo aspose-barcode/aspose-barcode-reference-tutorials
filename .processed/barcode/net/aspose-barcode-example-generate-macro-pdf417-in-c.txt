@@ -1,0 +1,7 @@
+Title: Aspose barcode example: generate Macro PDF417 in C#
+Slug: aspose-barcode-example-generate-macro-pdf417-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-08-09T18:29:42.871244
+SourceRepo: AI Search API
+Keywords: aspose barcode example, barcode generator c#
+PRNumber: 95
