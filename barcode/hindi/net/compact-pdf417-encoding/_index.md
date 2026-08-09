@@ -84,7 +84,9 @@ Aspose.BarCode आपको `Pdf417ErrorCorrectionLevel` प्रॉपर्�
 ## Compact PDF417 एन्कोडिंग ट्यूटोरियल्स
 ### [Compact PDF417 बारकोड बनाना](./compact-pdf417-basic-configuration/)
 
-Aspose.BarCode for .NET का उपयोग करके Compact PDF417 बारकोड कैसे जनरेट करें सीखें। चरण‑दर‑चरण निर्देशों और कोड उदाहरणों के साथ व्यापक गाइड।
+### [C# में PDF417 बारकोड बनाना – बारकोड जेनरेटर गाइड](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
+
+### [C# में बारकोड इमेज़ को सहेजना – पूर्ण गाइड](./how-to-save-barcode-images-in-c-complete-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

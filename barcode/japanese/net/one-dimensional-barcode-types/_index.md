@@ -78,6 +78,8 @@ Aspose.BarCode for .NET を使用して .NET でバーコードを生成する�
 Aspose.BarCode for .NET を使用して 1 次元バーコードを生成する際に例外を処理する方法を学びます。このステップバイステップのガイドは、エラー耐性のあるバーコード ソリューションを保証します。今すぐ始めましょう！
 ### [1 次元のワイド/ナロー比構成](./one-dimensional-wide-narrow-ratio-configuration/)
 Aspose.BarCode for .NET を使用して、カスタマイズされたバーコードを簡単に生成します。 1 次元のワイド/ナロー比構成のステップバイステップ ガイド。
+### [C# でバーコードを設定する方法 – 完全な Aspose.BarCode ガイド](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Aspose.BarCode を使用して C# でバーコードを設定する手順をステップバイステップで解説します。
 
 ## 結論
 

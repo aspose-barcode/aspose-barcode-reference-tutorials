@@ -60,6 +60,8 @@ Leer hoe u eendimensionale Code 128-barcodes kunt genereren in .NET met behulp v
 Leer hoe u eendimensionale Code 39-barcodes kunt genereren in .NET met Aspose.BarCode. Stapsgewijze handleiding voor ontwikkelaars.
 ### [Eendimensionale Code 93-configuratie](./one-dimensional-code-93-configuration/)
 Leer hoe u Code 93-barcodes kunt maken met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het genereren van streepjescodes.
+### [Hoe een barcode instellen in C# – volledige Aspose.BarCode gids](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Leer hoe u barcodes instelt in C# met een volledige gids voor Aspose.BarCode.
 ### [Eendimensionale aanpassing van de hoogte van de streepjescode](./one-dimensional-barcode-height-adjustment/)
 Leer hoe u de hoogte van eendimensionale streepjescodes in .NET kunt aanpassen met Aspose.BarCode voor nauwkeurig maatwerk. Creëer moeiteloos perfecte barcodes!
 ### [Eendimensionale databar 2D-componentconfiguratie](./one-dimensional-databar-2d-component-configuration/)

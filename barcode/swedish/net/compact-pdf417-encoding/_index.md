@@ -42,7 +42,7 @@ Innan vi dyker ner i koden, låt oss gå igenom grunderna:
 
 - **Datastruktur:** Information delas in i kodord och ordnas sedan i rader och kolumner.
 - **Felkorrigering:** PDF417 använder Reed‑Solomon‑felkorrigering; du kan välja den nivå som balanserar redundans och storlek.
-- **Kompakt läge:** Tar bort dig utfyllnad, vilket görs i en mindre streckkod utan att offra sbarhet.
+- **Kompakt läge:** Tar bort dig utfyllnad, vilket är gjort i en mindre streckkod utan att offra sbarhet.
 
 ### PDF417 Felkorrigeringsalternativ
 Aspose.BarCode låter dig ange egenskapen `Pdf417ErrorCorrectionLevel` (0-8). Högre nivåer ökar redundansen, vilket är användbart i hårda miljöer som industriell avläsning. Välj ett nivå baserat på din risktolerans och utrymmesbegränsningar.
@@ -84,6 +84,10 @@ Utöver grunderna, här är några praktiska tips för att effektivisera ditt ar
 ## Kompakt PDF417-kodningshandledning
 ### [Skapa kompakta PDF417-streckkoder](./compact-pdf417-basic-configuration/)
 Lär dig hur du genererar Compact PDF417‑streckkoder med Aspose.BarCode för .NET. Omfattande guide med steg‑för‑steg‑instruktioner och kodexempel.
+### [Generera PDF417-streckkod i C# – streckkodsgeneratorguide](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
+Lär dig hur du skapar PDF417‑streckkoder i C# med Aspose.BarCode‑generatorn.
+### [Hur man sparar streckkodsbilder i C# – komplett guide](./how-to-save-barcode-images-in-c-complete-guide/)
+Lär dig hur du sparar genererade streckkodsbilder i C# med Aspose.BarCode, inklusive format och kodexempel.
 
 ## Vanliga frågor
 
