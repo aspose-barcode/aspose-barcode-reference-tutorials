@@ -84,6 +84,14 @@ Aspose.BarCode ให้คุณตั้งค่าคุณสมบัต�
 ## บทแนะนำการเข้ารหัส Compact PDF417
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 เรียนรู้วิธีสร้างบาร์โค้ด Compact PDF417 ด้วย Aspose.BarCode for .NET คู่มือครบถ้วนพร้อมขั้นตอนและตัวอย่างโค้ด
+### [ตัวอย่าง Aspose Barcode: สร้าง Macro PDF417 ด้วย C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
+เรียนรู้วิธีสร้าง Macro PDF417 ด้วย C# โดยใช้ Aspose.BarCode
+### [สร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./generate-pdf417-barcode-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด
+### [สร้างบาร์โค้ดจากข้อความใน C# – คู่มือขั้นตอนโดยละเอียด](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ดจากข้อความด้วย C# อย่างละเอียดตามขั้นตอน
+### [วิธีอ่าน PDF417 ด้วย C# – คู่มืออ่านบาร์โค้ดเต็มรูปแบบ](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
+เรียนรู้วิธีอ่านบาร์โค้ด PDF417 ด้วย C# อย่างครบถ้วน
 
 ## คำถามที่พบบ่อย
 

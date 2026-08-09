@@ -88,6 +88,22 @@ Poza podstawami, oto kilka praktycznych wskazówek, które usprawnią Twój prze
 
 Dowiedz się, jak generować kody Compact PDF417 przy użyciu Aspose.BarCode dla .NET. Kompleksowy przewodnik z instrukcjami krok po kroku i przykładami kodu.
 
+### [Przykład Aspose Barcode: generowanie Macro PDF417 w C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
+
+Przykład pokazujący, jak wygenerować kod Macro PDF417 w języku C# przy użyciu biblioteki Aspose.BarCode.
+
+### [Generowanie kodu kreskowego PDF417 w C# – przewodnik krok po kroku](./generate-pdf417-barcode-in-c-step-by-step-guide/)
+
+Szczegółowy przewodnik, jak wygenerować kod kreskowy PDF417 w C# przy użyciu Aspose.BarCode, z pełnym przykładem kodu.
+
+### [Generowanie kodu kreskowego z tekstu w C# – kompletny przewodnik krok po kroku](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
+
+Pełny przewodnik, jak w C# wygenerować kod kreskowy z dowolnego tekstu przy użyciu Aspose.BarCode.
+
+### [Jak odczytać PDF417 w C# – kompletny przewodnik czytnika kodów kreskowych](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
+
+Pełny przewodnik, jak w C# odczytywać kody PDF417 przy użyciu Aspose.BarCode, z przykładami kodu i wskazówkami.
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jaką maksymalną ilość danych mogę przechowywać w kodzie Compact PDF417?  

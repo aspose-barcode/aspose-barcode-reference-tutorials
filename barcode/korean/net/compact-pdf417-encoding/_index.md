@@ -86,6 +86,18 @@ Aspose.BarCode는 `Pdf417ErrorCorrectionLevel` 속성(0‑8)을 설정할 수 �
 ### [Compact PDF417 바코드 만들기](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET를 사용해 Compact PDF417 바코드를 생성하는 방법을 배웁니다. 단계별 지침과 코드 예제가 포함된 포괄적인 가이드입니다.
 
+### [Aspose 바코드 예제: C#에서 매크로 PDF417 생성](./aspose-barcode-example-generate-macro-pdf417-in-c/)
+C#을 사용해 Aspose.BarCode로 매크로 PDF417 바코드를 생성하는 방법을 단계별로 안내합니다.
+
+### [C#에서 PDF417 바코드 생성 – 단계별 가이드](./generate-pdf417-barcode-in-c-step-by-step-guide/)
+C#을 사용해 PDF417 바코드를 생성하는 방법을 단계별로 안내합니다.
+
+### [C#에서 텍스트로 바코드 생성 – 완전 단계별 가이드](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
+C#을 사용해 텍스트로 바코드를 생성하는 완전한 단계별 가이드입니다.
+
+### [C#에서 PDF417 읽는 방법 – 완전 바코드 리더 가이드](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
+C#을 사용해 PDF417 바코드를 읽는 전체 가이드를 제공합니다.
+
 ## 자주 묻는 질문
 
 **Q: Compact PDF417 바코드에 저장할 수 있는 최대 데이터 양은?**  
