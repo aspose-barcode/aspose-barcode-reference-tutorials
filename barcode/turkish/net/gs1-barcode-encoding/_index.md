@@ -59,6 +59,8 @@ Aspose.BarCode for .NET ile barkodları kolayca oluşturun - Kapsamlı barkod ol
 Aspose.BarCode for .NET ile GS1 Coupon UPC-A Databar yapılandırmasını öğrenin. Kolayca barkod oluşturun. Şimdi başla!
 ### [GS1 DataMatrix Örneği](./gs1-datamatrix-example/)
 Aspose.BarCode'u kullanarak .NET'te GS1 DataMatrix barkodlarını nasıl oluşturacağınızı öğrenin. Yalnızca birkaç adımda kolaylıkla ve verimli bir şekilde barkodlar oluşturun.
+### [C#'ta barkod PNG oluşturma – GS1 Micro PDF417 tam rehberi](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Aspose.BarCode for .NET ile GS1 Micro PDF417 barkodlarını PNG olarak oluşturmayı öğrenin. Adım adım rehber.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -59,6 +59,8 @@ GS1 DataMatrix 条形码是产品识别和可追溯性的重要组成部分。 A
 使用 Aspose.BarCode for .NET 了解 GS1 Coupon UPC-A Databar 配置。轻松创建条形码。现在就开始！
 ### [GS1 数据矩阵示例](./gs1-datamatrix-example/)
 了解如何使用 Aspose.BarCode 在 .NET 中创建 GS1 DataMatrix 条形码。只需几个步骤即可轻松高效地生成条形码。
+### [在 C# 中创建条形码 PNG – GS1 Micro PDF417 完整指南](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+使用 Aspose.BarCode for .NET 在 C# 中生成 GS1 Micro PDF417 条形码 PNG，完整分步教程。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

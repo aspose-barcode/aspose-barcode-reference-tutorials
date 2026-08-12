@@ -59,6 +59,9 @@ Generate barcodes easily with Aspose.BarCode for .NET - Your comprehensive barco
 Learn GS1 Coupon UPC-A Databar configuration with Aspose.BarCode for .NET. Create barcodes easily. Get started now!
 ### [GS1 DataMatrix Example](./gs1-datamatrix-example/)
 Learn how to create GS1 DataMatrix barcodes in .NET using Aspose.BarCode. Generate barcodes with ease and efficiency in just a few steps.
+### [Create barcode PNG in C# – full guide to GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Learn how to generate GS1 Micro PDF417 barcodes as PNG images in C# with Aspose.BarCode for .NET. Follow the full step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

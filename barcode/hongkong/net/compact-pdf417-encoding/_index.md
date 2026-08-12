@@ -84,6 +84,12 @@ Aspose.BarCode 讓你設定 `Pdf417ErrorCorrectionLevel` 屬性 (0‑8)。較高
 ### [建立緊湊式 PDF417 條碼](./compact-pdf417-basic-configuration/)
 了解如何使用 Aspose.BarCode for .NET 產生緊湊式 PDF417 條碼。完整指南包含一步一步說明與程式碼範例。
 
+### [產生條碼 Aspose – 完整 C# 指南](./generate-barcode-aspose-complete-c-guide/)
+完整說明如何使用 Aspose.BarCode for .NET 產生各類條碼的 C# 完整指南。
+
+### [在 C# 中建立微型 PDF417 圖像 – 步驟說明](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+一步一步說明如何在 C# 使用 Aspose.BarCode 產生微型 PDF417 圖像。
+
 ## 常見問題
 
 **Q: 緊湊式 PDF417 條碼最多能儲存多少資料？**  

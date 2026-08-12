@@ -59,6 +59,9 @@ Létrehoz vonalkódokat egyszerűen az Aspose.BarCode for .NET segítségével �
 Ismerje meg a GS1 kupon UPC-A adattár konfigurációját az Aspose.BarCode segítségével .NET-hez. Hozzon létre vonalkódokat egyszerűen. Kezd el most!
 ### [GS1 DataMatrix példa](./gs1-datamatrix-example/)
 Ismerje meg, hogyan hozhat létre GS1 DataMatrix vonalkódokat .NET-ben az Aspose.BarCode használatával. Generáljon vonalkódokat egyszerűen és hatékonyan, néhány lépésben.
+### [Barcode PNG létrehozása C#-ban – teljes útmutató a GS1 Micro PDF417-hez](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Ismerje meg, hogyan generálhat PNG formátumú GS1 Micro PDF417 vonalkódot C#-ban az Aspose.BarCode for .NET segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -59,6 +59,8 @@ Gere códigos de barras facilmente com Aspose.BarCode for .NET - Sua solução a
 Aprenda a configuração do GS1 Coupon UPC-A Databar com Aspose.BarCode para .NET. Crie códigos de barras facilmente. Comece agora!
 ### [Exemplo de DataMatrix GS1](./gs1-datamatrix-example/)
 Aprenda como criar códigos de barras GS1 DataMatrix em .NET usando Aspose.BarCode. Gere códigos de barras com facilidade e eficiência em apenas algumas etapas.
+### [Criar PNG de código de barras em C# – guia completo para GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Aprenda a gerar imagens PNG de códigos de barras GS1 Micro PDF417 em C# usando Aspose.BarCode. Guia passo a passo para implementação rápida.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

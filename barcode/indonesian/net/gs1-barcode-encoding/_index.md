@@ -59,6 +59,8 @@ Hasilkan kode batang dengan mudah menggunakan Aspose.BarCode untuk .NET - Solusi
 Pelajari konfigurasi Databar UPC-A Kupon GS1 dengan Aspose.BarCode untuk .NET. Buat barcode dengan mudah. Mulai sekarang!
 ### [Contoh Matriks Data GS1](./gs1-datamatrix-example/)
 Pelajari cara membuat kode batang GS1 DataMatrix di .NET menggunakan Aspose.BarCode. Hasilkan barcode dengan mudah dan efisien hanya dalam beberapa langkah.
+### [Buat barcode PNG di C# – panduan lengkap untuk GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Pelajari cara membuat barcode PNG menggunakan C# dengan Aspose.BarCode untuk .NET, panduan lengkap GS1 Micro PDF417.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

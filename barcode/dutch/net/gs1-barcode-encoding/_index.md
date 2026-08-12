@@ -59,6 +59,9 @@ Genereer eenvoudig streepjescodes met Aspose.BarCode voor .NET - Uw uitgebreide 
 Leer GS1 Coupon UPC-A Databar-configuratie met Aspose.BarCode voor .NET. Maak eenvoudig streepjescodes. Begin nu!
 ### [GS1 DataMatrix-voorbeeld](./gs1-datamatrix-example/)
 Leer hoe u GS1 DataMatrix-barcodes in .NET maakt met Aspose.BarCode. Genereer eenvoudig en efficiënt barcodes in slechts een paar stappen.
+### [Maak barcode PNG in C# – volledige gids voor GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Leer hoe u een PNG-barcode genereert in C# met Aspose.BarCode voor .NET, inclusief GS1 Micro PDF417.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

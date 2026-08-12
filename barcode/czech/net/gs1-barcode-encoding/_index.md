@@ -59,6 +59,8 @@ Snadno generujte čárové kódy pomocí Aspose.BarCode for .NET – vaše kompl
 Naučte se konfiguraci GS1 Coupon UPC-A Databar pomocí Aspose.BarCode pro .NET. Snadno vytvářejte čárové kódy. Začněte hned!
 ### [Příklad GS1 DataMatrix](./gs1-datamatrix-example/)
 Naučte se vytvářet čárové kódy GS1 DataMatrix v .NET pomocí Aspose.BarCode. Generujte čárové kódy snadno a efektivně v několika krocích.
+### [Vytvořte PNG čárového kódu v C# – kompletní průvodce GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Naučte se generovat PNG čárové kódy GS1 Micro PDF417 pomocí Aspose.BarCode pro .NET. Začněte hned!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
