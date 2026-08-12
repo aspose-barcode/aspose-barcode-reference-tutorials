@@ -84,6 +84,12 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 ### [Compact PDF417 vonalkódok létrehozása](./compact-pdf417-basic-configuration/)
 Ismerje meg, hogyan generáljon Compact PDF417 vonalkódokat az Aspose.BarCode for .NET használatával. Átfogó útmutató lépésről‑lépésre utasításokkal és kódrészletekkel.
 
+### [Vonalkód generálása Aspose – teljes C# útmutató](./generate-barcode-aspose-complete-c-guide/)
+Ismerje meg, hogyan generáljon vonalkódokat az Aspose.BarCode könyvtárral C# nyelven, részletes példákkal.
+
+### [Micro PDF417 kép létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre mikro méretű PDF417 képet C#‑ban az Aspose.BarCode segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Mi a maximális adatmennyiség, amelyet egy Compact PDF417 vonalkódban tárolhatok?**  

@@ -59,6 +59,8 @@ Aspose.BarCode for .NET を使用して GS1 クーポン サプリメント ス�
 Aspose.BarCode for .NET を使用した GS1 クーポン UPC-A データバー構成について学習します。バーコードを簡単に作成できます。今すぐ始めましょう！
 ### [GS1 データマトリックスの例](./gs1-datamatrix-example/)
 Aspose.BarCode を使用して .NET で GS1 DataMatrix バーコードを作成する方法を学びます。わずか数ステップで簡単かつ効率的にバーコードを生成します。
+### [C# でバーコード PNG を作成 – GS1 Micro PDF417 完全ガイド](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Aspose.BarCode for .NET を使用して、C# で GS1 Micro PDF417 バーコードを PNG 形式で生成する完全ガイドです。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

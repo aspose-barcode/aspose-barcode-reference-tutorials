@@ -59,6 +59,8 @@ GS1 Code 128 คือสัญลักษณ์บาร์โค้ดที�
 เรียนรู้การกำหนดค่า Databar UPC-A ของคูปอง GS1 ด้วย Aspose.BarCode สำหรับ .NET สร้างบาร์โค้ดได้อย่างง่ายดาย เริ่มตอนนี้เลย!
 ### [ตัวอย่าง GS1 DataMatrix](./gs1-datamatrix-example/)
 เรียนรู้วิธีสร้างบาร์โค้ด GS1 DataMatrix ใน .NET โดยใช้ Aspose.BarCode สร้างบาร์โค้ดได้อย่างง่ายดายและมีประสิทธิภาพเพียงไม่กี่ขั้นตอน
+### [สร้างบาร์โค้ด PNG ด้วย C# – คู่มือเต็มสำหรับ GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+เรียนรู้วิธีสร้างบาร์โค้ด PNG แบบ GS1 Micro PDF417 ด้วย C# อย่างละเอียดโดยใช้ Aspose.BarCode สำหรับ .NET
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

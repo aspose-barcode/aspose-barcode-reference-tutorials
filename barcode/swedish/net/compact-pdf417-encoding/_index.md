@@ -78,12 +78,18 @@ Utöver grunderna, här är några praktiska tips för att effektivisera ditt ar
 ## PDF417 Bästa praxis för generering av streckkoder
 
 - **Validera indata‑längd:** Säkerställ att data inte överskrider maximal kapacitet för den valda felkorrigeringsnivån.
-- **Hantera undantag:** Omslut genereringskoden i try-catch-block för att fånga licens‑ eller formatfel.
+- **Hantera undantag:** Omslut genereringskoden i try-catch‑block för att fånga licens‑ eller formatfel.
 - **Versionskontroll:** Håll din Aspose.BarCode‑biblioteksversion konsekvent över utvecklings-, staging‑ och produktionsmiljöer.
 
 ## Kompakt PDF417-kodningshandledning
 ### [Skapa kompakta PDF417-streckkoder](./compact-pdf417-basic-configuration/)
 Lär dig hur du genererar Compact PDF417‑streckkoder med Aspose.BarCode för .NET. Omfattande guide med steg‑för‑steg‑instruktioner och kodexempel.
+
+### [Generera streckkod med Aspose – komplett C#-guide](./generate-barcode-aspose-complete-c-guide/)
+En fullständig guide för att skapa streckkoder i C# med Aspose.BarCode.
+
+### [Skapa mikro PDF417‑bild i C# – steg‑för‑steg‑guide](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+Lär dig att generera en mikro‑PDF417‑bild i C# med detaljerade steg.
 
 ## Vanliga frågor
 

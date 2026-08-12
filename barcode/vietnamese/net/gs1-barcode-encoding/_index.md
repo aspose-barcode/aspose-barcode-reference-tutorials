@@ -59,6 +59,8 @@ Tạo mã vạch dễ dàng với Aspose.BarCode for .NET - Giải pháp tạo m
 Tìm hiểu cấu hình Thanh dữ liệu UPC-A của GS1 Coupon với Aspose.BarCode cho .NET. Tạo mã vạch dễ dàng. Bắt đầu ngay bây giờ!
 ### [Ví dụ về ma trận dữ liệu GS1](./gs1-datamatrix-example/)
 Tìm hiểu cách tạo mã vạch GS1 DataMatrix trong .NET bằng Aspose.BarCode. Tạo mã vạch một cách dễ dàng và hiệu quả chỉ trong vài bước.
+### [Tạo mã vạch PNG trong C# – hướng dẫn đầy đủ về GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Tạo mã vạch PNG trong C# với Aspose.BarCode cho .NET, hướng dẫn chi tiết về GS1 Micro PDF417. Bắt đầu ngay hôm nay!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

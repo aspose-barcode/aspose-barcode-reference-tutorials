@@ -59,6 +59,8 @@ url: /hi/net/gs1-barcode-encoding/
 .NET के लिए Aspose.BarCode के साथ GS1 कूपन UPC-A डेटाबार कॉन्फ़िगरेशन सीखें। आसानी से बारकोड बनाएं. अब शुरू हो जाओ!
 ### [जीएस1 डेटामैट्रिक्स उदाहरण](./gs1-datamatrix-example/)
 जानें कि Aspose.BarCode का उपयोग करके .NET में GS1 DataMatrix बारकोड कैसे बनाएं। बस कुछ ही चरणों में आसानी और दक्षता के साथ बारकोड उत्पन्न करें।
+### [C# में बारकोड PNG बनाएं – GS1 माइक्रो PDF417 की पूरी गाइड](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+C# और Aspose.BarCode का उपयोग करके GS1 माइक्रो PDF417 बारकोड को PNG फ़ॉर्मेट में कैसे जनरेट करें, इस पूर्ण मार्गदर्शिका में जानें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

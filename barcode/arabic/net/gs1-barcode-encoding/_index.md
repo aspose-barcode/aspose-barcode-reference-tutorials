@@ -59,6 +59,8 @@ GS1 Code 128 هو رمز باركود مستخدم على نطاق واسع وم
 تعرف على تكوين شريط بيانات GS1 Coupon UPC-A باستخدام Aspose.BarCode لـ .NET. إنشاء الباركود بسهولة. نبدأ الآن!
 ### [مثال GS1 DataMatrix](./gs1-datamatrix-example/)
 تعرف على كيفية إنشاء باركود GS1 DataMatrix في .NET باستخدام Aspose.BarCode. أنشئ رموزًا شريطية بسهولة وكفاءة في بضع خطوات فقط.
+### [إنشاء صورة باركود PNG في C# – دليل كامل لـ GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+تعلم كيفية إنشاء باركود GS1 Micro PDF417 بصيغة PNG باستخدام C# و Aspose.BarCode للـ .NET خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
