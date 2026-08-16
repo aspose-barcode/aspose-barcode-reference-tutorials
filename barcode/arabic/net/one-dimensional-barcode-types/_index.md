@@ -78,6 +78,8 @@ url: /ar/net/one-dimensional-barcode-types/
 تعرف على كيفية التعامل مع الاستثناءات أثناء إنشاء رموز شريطية أحادية البعد باستخدام Aspose.BarCode لـ .NET. يضمن هذا الدليل التفصيلي حلول الباركود التي تتحمل الأخطاء. نبدأ الآن!
 ### [تكوين ذو نسبة واسعة وضيقة أحادية البعد](./one-dimensional-wide-narrow-ratio-configuration/)
 قم بإنشاء رموز شريطية مخصصة بسهولة باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة لتكوين نسبة واسعة وضيقة أحادية البعد.
+### [قراءة الباركود من صورة في C# – دليل BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+تعلم كيفية قراءة الباركود من صورة باستخدام Aspose.BarCodeReader في C#.
 
 ## خاتمة
 

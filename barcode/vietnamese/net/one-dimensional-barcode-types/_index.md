@@ -78,6 +78,8 @@ tìm hiểu cách tạo mã vạch trong .NET bằng Aspose.BarCode cho .NET. H�
 Tìm hiểu cách xử lý các trường hợp ngoại lệ trong khi tạo mã vạch một chiều bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước này đảm bảo các giải pháp mã vạch có khả năng chịu lỗi. Bắt đầu ngay bây giờ!
 ### [Cấu hình tỷ lệ rộng-hẹp một chiều](./one-dimensional-wide-narrow-ratio-configuration/)
 Tạo mã vạch tùy chỉnh dễ dàng với Aspose.BarCode cho .NET. Hướng dẫn từng bước cho cấu hình tỷ lệ rộng-hẹp một chiều.
+### [Đọc mã vạch từ hình ảnh trong C# – Hướng dẫn BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Hướng dẫn cách đọc mã vạch từ ảnh trong C# bằng BarCodeReader của Aspose.BarCode.
 
 ## Phần kết luận
 

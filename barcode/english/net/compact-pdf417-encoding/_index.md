@@ -41,7 +41,7 @@ Before we dive into code, let’s cover the fundamentals:
 
 - **Data Structure:** Information is divided into codewords, then arranged into rows and columns.  
 - **Error Correction:** PDF417 uses Reed‑Solomon error correction; you can choose the level that balances redundancy and size.  
-- **Compact Mode:** Removes unnecessary padding, resulting in a smaller barcode without sacrificing readability.
+- **Compact Mode:** Removes unnecessary padding, resulting a smaller barcode without sacrificing readability.
 
 ### PDF417 Error Correction Options
 Aspose.BarCode lets you set the `Pdf417ErrorCorrectionLevel` property (0‑8). Higher levels increase redundancy, which is useful for harsh environments like industrial scanning. Choose a level based on your risk tolerance and space constraints.
@@ -83,6 +83,9 @@ Beyond the basics, here are some practical tips to streamline your workflow:
 ## Compact PDF417 Encoding Tutorials
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Comprehensive guide with step-by-step instructions and code examples.
+
+### [Create micro PDF417 barcode in C# – step‑by‑step guide](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Step-by-step guide to creating micro PDF417 barcodes in C# with Aspose.BarCode for .NET.
 
 ## Frequently Asked Questions
 
