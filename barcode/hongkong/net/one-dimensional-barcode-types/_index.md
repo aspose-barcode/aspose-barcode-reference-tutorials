@@ -78,6 +78,8 @@ url: /zh-hant/net/one-dimensional-barcode-types/
 了解如何使用 Aspose.BarCode for .NET 產生一維條碼時處理例外狀況。本逐步指南可確保條碼解決方案具有容錯性。現在就開始吧！
 ### [一維寬窄比配置](./one-dimensional-wide-narrow-ratio-configuration/)
 使用 Aspose.BarCode for .NET 輕鬆產生自訂條碼。一維寬窄比配置的分步指南。
+### [在 C# 中從圖像讀取條碼 – BarCodeReader 教學](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+了解如何使用 Aspose.BarCode 的 BarCodeReader 在 .NET 中從圖像讀取條碼的步驟指南。
 
 ## 結論
 

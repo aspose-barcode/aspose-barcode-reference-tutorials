@@ -85,6 +85,9 @@ Ngoài các kiến thức cơ bản, dưới đây là một số mẹo thực t
 ### [Tạo Mã Vạch Compact PDF417](./compact-pdf417-basic-configuration/)
 Tìm hiểu cách tạo mã vạch Compact PDF417 bằng Aspose.BarCode cho .NET. Hướng dẫn chi tiết với các bước thực hiện và ví dụ mã nguồn.
 
+### [Tạo mã vạch micro PDF417 bằng C# – hướng dẫn từng bước](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo mã vạch micro PDF417 trong C# bằng Aspose.BarCode, bao gồm các bước cấu hình và ví dụ mã nguồn.
+
 ## Câu hỏi thường gặp
 
 **Q: Dung lượng tối đa tôi có thể lưu trữ trong một mã vạch Compact PDF417 là bao nhiêu?**  

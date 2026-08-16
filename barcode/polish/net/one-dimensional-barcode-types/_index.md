@@ -78,6 +78,8 @@ zarabiaj, jak generować kody kreskowe w .NET za pomocą Aspose.BarCode dla .NET
 Dowiedz się, jak obsługiwać wyjątki podczas generowania jednowymiarowych kodów kreskowych przy użyciu Aspose.BarCode dla .NET. Ten przewodnik krok po kroku zapewnia rozwiązania odporne na błędy w zakresie kodów kreskowych. Zacznij teraz!
 ### [Konfiguracja jednowymiarowego szerokiego i wąskiego współczynnika](./one-dimensional-wide-narrow-ratio-configuration/)
 Z łatwością generuj niestandardowe kody kreskowe za pomocą Aspose.BarCode dla .NET. Przewodnik krok po kroku dotyczący konfiguracji jednowymiarowego współczynnika szerokiego i wąskiego.
+### [Odczyt kodu kreskowego z obrazu w C# – samouczek BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Dowiedz się, jak odczytać kod kreskowy z obrazu w C# przy użyciu klasy BarCodeReader w Aspose.BarCode.
 
 ## Wniosek
 

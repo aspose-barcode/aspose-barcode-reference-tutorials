@@ -83,6 +83,8 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 ## Compact PDF417 kódolási útmutatók
 ### [Compact PDF417 vonalkódok létrehozása](./compact-pdf417-basic-configuration/)
 Ismerje meg, hogyan generáljon Compact PDF417 vonalkódokat az Aspose.BarCode for .NET használatával. Átfogó útmutató lépésről‑lépésre utasításokkal és kódrészletekkel.
+### [Micro PDF417 vonalkód létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre micro PDF417 vonalkódot C#‑ban az Aspose.BarCode for .NET segítségével, részletes példákkal.
 
 ## Gyakran Ismételt Kérdések
 

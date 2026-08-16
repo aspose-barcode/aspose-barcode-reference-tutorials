@@ -48,7 +48,7 @@ För dynamiska endimensionella DataBar-streckkoder kommer vår guide om rad- och
 
 ## Hantera undantag med lätthet
 
-Även de mest erfarna utvecklarna står inför utmaningar. Lär dig hur du hanterar undantag effektivt samtidigt som du genererar endimensionella streckkoder. Aspose.BarCode är din bästa lösning för att skapa feltolerant streckkod.
+Även de mest erfarna utvecklarna står inför utmaningar. Lär dig hur du hanterar undantag effektivt samtidigt med du genererar endimensionella streckkoder. Aspose.BarCode är din bästa lösning för att skapa feltolerant streckkod.
 
 ## Konfiguration av brett och smalt förhållande
 
@@ -78,6 +78,8 @@ tjäna hur man genererar streckkoder i .NET med Aspose.BarCode för .NET. Den h�
 Lär dig hur du hanterar undantag samtidigt som du genererar endimensionella streckkoder med Aspose.BarCode för .NET. Denna steg-för-steg-guide säkerställer feltoleranta streckkodslösningar. Börja nu!
 ### [Endimensionell Wide-Narrow Ratio Configuration](./one-dimensional-wide-narrow-ratio-configuration/)
 Generera anpassade streckkoder enkelt med Aspose.BarCode för .NET. Steg-för-steg-guide för endimensionell bred-smal konfiguration.
+### [Läs streckkod från bild i C# – BarCodeReader-handledning](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Lär dig hur du läser streckkoder från bilder i C# med Aspose.BarCodeReader. En steg-för-steg-guide för enkel implementering.
 
 ## Slutsats
 

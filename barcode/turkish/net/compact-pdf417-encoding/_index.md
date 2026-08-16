@@ -83,6 +83,9 @@ Temellerin ötesinde, iş akışınızı hızlandıracak bazı pratik ipuçları
 ### [Compact PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET'i kullanarak Compact PDF417 barkodlarını nasıl oluşturacağınızı öğrenin. Adım‑adım talimatları ve kod örnekleri içeren kapsamlı bir rehber.
 
+### [C#'ta mikro PDF417 barkodu oluşturma – adım adım rehber](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+C# kullanarak mikro PDF417 barkodu oluşturmayı adım adım öğrenin. Kısa bir rehber ve örnek kodlar.
+
 ## Sıkça Sorulan Sorular
 
 **Q:** Compact PDF417 barkodunda saklayabileceğim maksimum veri miktarı nedir?  
