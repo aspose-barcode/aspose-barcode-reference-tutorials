@@ -33,7 +33,7 @@ A Databar 2D component combines a traditional linear barcode with a small 2D com
 
 ## Prerequisites
 
-1. **Installation** – Ensure Aspose.BarCode for .NET is installed. Download it from the website [here](https://releases.aspose.com/barcode/net/).  
+1. **Installation** – Ensure Aspose.BarCode for .NET is installed. Download it from the [Aspose.BarCode .NET release page](https://releases.aspose.com/barcode/net/).  
 2. **Basic Knowledge** – Familiarity with C# and .NET development will help you follow the steps.  
 3. **Development Environment** – Visual Studio, Rider, or any C#‑compatible editor.
 
@@ -87,7 +87,7 @@ gen.Save($"{path}Databar2DComponentEnabled.png", BarCodeImageFormat.Png);
 - Setting `Is2DCompositeComponent` to **false** generates a pure linear Databar.  
 - Setting it to **true** adds the composite 2D symbol, which is useful for encoding extra data.
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Invalid Path** – Ensure the folder exists and the application has write permissions.  
 - **License Exception** – If you see a licensing warning, apply your Aspose license before generating the barcode.  
@@ -116,7 +116,7 @@ If you need more examples or run into challenges, the Aspose community is a grea
 ### Where can I get support and assistance with Aspose.BarCode for .NET?
 - You can seek help and engage with the community at the [Aspose.BarCode for .NET support forum](https://forum.aspose.com/c/barcode/13).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I generate barcodes in formats other than PNG?**  
 A: Yes, the `Save` method supports BMP, JPEG, GIF, TIFF, and more by specifying the appropriate `BarCodeImageFormat`.
@@ -139,9 +139,15 @@ A: Increase the `XDimension` value and ensure sufficient contrast between the ba
 **Tested With:** Aspose.BarCode 24.12 for .NET  
 **Author:** Aspose  
 
+
+
+
+
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

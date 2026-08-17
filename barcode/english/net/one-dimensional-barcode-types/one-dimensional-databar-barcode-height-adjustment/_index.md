@@ -35,7 +35,7 @@ Barcode height adjustment lets you define how tall each bar appears in the final
 
 Before we embark on this barcode height adjustment journey, make sure you have the following prerequisites in place:
 
-1. Aspose.BarCode for .NET: If you haven't already, you can download and install it from [here](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET: If you haven't already, you can download and install it from the **Aspose.BarCode for .NET download page**(https://releases.aspose.com/barcode/net/).
 
 2. Development Environment: You should have a working development environment set up, such as Visual Studio or any other .NET development tool.
 
@@ -49,23 +49,23 @@ Now that we've covered the prerequisites, let's proceed with the step‑by‑ste
 
 Before diving into the code, you need to import the necessary namespaces. This allows you to access the classes and methods needed to work with Aspose.BarCode for .NET.
 
-### Step 1: Import Namespaces
+### Step 1: import namespaces
 ```csharp
 using Aspose.BarCode;
 ```
 
 We will now break down the process of adjusting the height of a One‑Dimensional Databar barcode into multiple steps.
 
-## Step 2: Initialize the Barcode Generator
+## Step 2: initialize the barcode generator
 
 First, we need to initialize the Barcode Generator with the barcode type and data you want to encode.
 
-### Step 2.1: Initialize the Barcode Generator
+### Step 2.1: initialize the barcode generator
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarOmniDirectional, "(01)12345678901231");
 ```
 
-## Step 3: Set X‑Dimension (Bar Width)
+## Step 3: set x‑Dimension (Bar width)
 
 The X‑Dimension represents the width of the barcode elements. You can set the X‑Dimension in pixels.
 
@@ -74,7 +74,7 @@ The X‑Dimension represents the width of the barcode elements. You can set the 
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## Step 4: Adjust Bar Height (Primary Focus)
+## Step 4: adjust bar height (Primary focus)
 
 Now, let's change the height of the barcode. This is the main focus of this tutorial.
 
@@ -92,7 +92,7 @@ gen.Save($"{path}DatabarBarHeight60Pixels.png", BarCodeImageFormat.Png);
 
 By following these steps, you can create One‑Dimensional Databar barcodes with varying heights, giving you full control over the **barcode height pixels**.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -100,7 +100,7 @@ By following these steps, you can create One‑Dimensional Databar barcodes with
 | Image is blurry | Saving at a low DPI while using a large bar height | Specify a higher resolution via `gen.Parameters.ImageResolution` before saving |
 | Path not found error | `path` variable points to a non‑existent folder | Ensure the directory exists or use `Directory.CreateDirectory(path)` beforehand |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Can I adjust the width of the bars in a barcode using Aspose.BarCode for .NET?
 Yes, you can modify the X‑Dimension, which affects the width of the bars. Refer to Step 3 in this tutorial for details.
@@ -115,7 +115,7 @@ Aspose.BarCode for .NET provides options to save barcodes in various formats, in
 Yes, Aspose.BarCode for .NET is designed for automation in .NET applications. You can integrate barcode generation into your software to meet your business needs.
 
 ### Is there a trial version available for Aspose.BarCode for .NET?
-Yes, you can get a free trial of Aspose.BarCode for .NET [here](https://releases.aspose.com/).
+Yes, you can get a free trial of Aspose.BarCode for .NET **from the Aspose.BarCode free trial download page**(https://releases.aspose.com/).
 
 ## Conclusion
 
@@ -129,9 +129,15 @@ Feel free to experiment with different heights, combine them with other barcode 
 **Tested With:** Aspose.BarCode 24.11 for .NET  
 **Author:** Aspose  
 
+
+
+
+
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
