@@ -1,6 +1,6 @@
 ---
-title: "Create Multiple Barcodes – Patch Code Set Customization"
-linktitle: "Create Multiple Barcodes – Patch Code Set Customization"
+title: "Generate Multiple Patch Code Barcodes with Aspose.BarCode for .NET – Set Customization"
+linktitle: "Generate Multiple Patch Code Barcodes with Aspose.BarCode for .NET – Set Customization"
 second_title: Aspose.BarCode .NET API
 description: "Learn how to create multiple barcodes in .NET using Aspose.BarCode, customize patch barcodes, and save barcode PNG images effortlessly."
 weight: 11
@@ -36,29 +36,29 @@ Patch Code barcodes are a compact, high‑density symbology often used for docum
 
 Before we embark on our journey with Aspose.BarCode for .NET, you need to ensure that you have the following prerequisites in place:
 
-### 1. Visual Studio
-You should have Visual Studio installed on your development machine. If not, you can download it from the [website](https://visualstudio.microsoft.com/).
+### 1. visual studio
+You should have Visual Studio installed on your development machine. If not, you can download it from the [Visual Studio download page](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.BarCode for .NET
-You must have the Aspose.BarCode for .NET library. You can download it from the [website](https://releases.aspose.com/barcode/net/). You can obtain a free trial version from [here](https://releases.aspose.com/).
+You must have the Aspose.BarCode for .NET library. You can download it from the [Aspose.BarCode .NET download page](https://releases.aspose.com/barcode/net/). You can obtain a free trial version from the [Aspose.BarCode free trial download](https://releases.aspose.com/).
 
-### 3. .NET Framework
+### 3. .NET framework
 Your development environment should be equipped with the .NET Framework. Make sure you're using a compatible version of the framework.
 
-### 4. A Text Editor
+### 4. a text editor
 You'll need a text editor or an Integrated Development Environment (IDE) like Visual Studio to write and run your .NET code.
 
 ## Import Namespaces
 
-Before diving into the code examples, you need to import the necessary namespaces to make the Aspose.BarCode library available in your project. Here's how you can do it:
+Before diving into the code examples, you need to import the necessary namespaces to make the Aspose.BarCode library available in your project. Here’s how you can do it:
 
-### Step 1: Open Your .NET Project
+### Step 1: open your .NET project
 Launch your Visual Studio and open the .NET project where you want to use Aspose.BarCode.
 
-### Step 2: Add References
+### Step 2: add references
 Right-click on your project in the Solution Explorer, select **Add** > **Reference**, and navigate to the Aspose.BarCode library you downloaded earlier.
 
-### Step 3: Import Namespaces
+### Step 3: import namespaces
 In your code file, add the following namespaces at the top:
 
 ```csharp
@@ -70,21 +70,21 @@ Now that you've got the prerequisites in place and the namespaces imported, let�
 
 ## How to create multiple barcodes – Step‑by‑Step Guide
 
-### Step 1: Setting Up Your Directory Path
+### Step 1: setting up your directory path
 Start by specifying the directory path where you want to save the generated barcode images. Replace `"Your Directory Path"` with your desired folder location.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-### Step 2: Initializing the Barcode Generator
+### Step 2: initializing the barcode generator
 We will use the `BarcodeGenerator` class to create Patch Code barcodes. Initialize the generator with the barcode type and an initial code text:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.PatchCode, "Patch I");
 ```
 
-### Step 3: Customizing Code Text Parameters
+### Step 3: customizing code text parameters
 You can customize the barcode's code text parameters. Here, we set the font size to 20 pixels so the text is clearly readable:
 
 ```csharp
@@ -92,7 +92,7 @@ gen.Parameters.Barcode.CodeTextParameters.FontMode = FontMode.Manual;
 gen.Parameters.Barcode.CodeTextParameters.Font.Size.Pixels = 20;
 ```
 
-### Step 4: Generating and Saving Barcodes
+### Step 4: generating and saving barcodes
 Now we change the `CodeText` property for each variant and **save barcode PNG** files. This is the part where we actually **create multiple barcodes** in a single run:
 
 ```csharp
@@ -125,7 +125,7 @@ gen.Save(`${path}PatchCodeVI.png`, BarCodeImageFormat.Png);
 
 Congratulations! You've successfully **created multiple barcodes** with Aspose.BarCode for .NET. The same pattern works for any other supported symbology—just change `EncodeTypes.PatchCode` to the desired type.
 
-## Common Pitfalls & Troubleshooting
+## Common pitfalls & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -133,7 +133,7 @@ Congratulations! You've successfully **created multiple barcodes** with Aspose.B
 | Barcode looks blurry | Image format set to low DPI | Adjust `gen.Parameters.ImageResolution` before saving. |
 | Text is cut off | Font size too large for the barcode size | Reduce `Font.Size.Pixels` or increase barcode dimensions via `gen.Parameters.ImageSize`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### 1. Where can I find the documentation for Aspose.BarCode for .NET?
 You can find the documentation at [https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
