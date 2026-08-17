@@ -34,9 +34,9 @@ Customizing the **supplement space** lets you meet specific label layout standar
 Before we start, make sure you have the following:
 
 ### 1. Aspose.BarCode for .NET
-You must have Aspose.BarCode for .NET installed on your system. You can find the download link [here](https://releases.aspose.com/barcode/net/). If you don't have it already, you can also obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+You must have Aspose.BarCode for .NET installed on your system. You can find the download link [Aspose.BarCode for .NET download page](https://releases.aspose.com/barcode/net/). If you don't have it already, you can also obtain a temporary license from [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-### 2. Your Directory Path
+### 2. your directory path
 Create (or choose) a folder where the generated barcode images will be saved. Replace `"Your Directory Path"` in the code examples with the actual path on your machine.
 
 ## Import Namespaces
@@ -55,21 +55,21 @@ Instantiate a `BarcodeGenerator`, specifying the barcode type (`EncodeTypes.EAN1
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-### Step 2: Adjust Barcode Width (Set X‑Dimension)
+### Step 2: adjust barcode width (Set x‑Dimension)
 The X‑Dimension controls the width of each barcode module. Setting it in pixels lets you **adjust barcode width** to suit your label size.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-### Step 3: Add Supplemental Data
+### Step 3: add supplemental data
 If your labeling standard requires supplemental data (e.g., a 5‑digit add‑on for books), assign it using the `SupplementData` property.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-### Step 4: Customize Supplement Space
+### Step 4: customize supplement space
 Control the spacing between the main barcode and the supplemental part by setting `SupplementSpace`. In this example we use 20 pixels.
 
 ```csharp
@@ -83,7 +83,7 @@ Now that the barcode is fully configured, save it to the folder you prepared. Th
 gen.Save($"{path}SupplementSpace20Pixels.png", BarCodeImageFormat.Png);
 ```
 
-### Step 6: Experiment with Different Supplement Spaces
+### Step 6: experiment with different supplement spaces
 You can repeat the process with a different `SupplementSpace` value to see how the visual layout changes. Here we switch to 40 pixels and save a second image.
 
 ```csharp
@@ -91,21 +91,21 @@ gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 40;
 gen.Save($"{path}SupplementSpace40Pixels.png", BarCodeImageFormat.Png);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Barcode appears too thin or thick:** Re‑adjust the X‑Dimension (`gen.Parameters.Barcode.XDimension.Pixels`). Typical values range from 1 to 4 pixels.
 - **Supplement data not showing:** Verify that `SupplementData` is set *before* saving the image.
 - **File not saved:** Ensure the `path` variable points to a valid directory and that your application has write permissions.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Where can I find the documentation for Aspose.BarCode for .NET?**  
-A: You can access the documentation [here](https://reference.aspose.com/barcode/net/).
+A: You can access the documentation [Aspose.BarCode .NET API documentation](https://reference.aspose.com/barcode/net/).
 
 **Q: Is there a free trial available for Aspose.BarCode for .NET?**  
-A: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+A: Yes, you can get a free trial from [Aspose.BarCode free trial page](https://releases.aspose.com/).
 
 **Q: How can I purchase a license for Aspose.BarCode for .NET?**  
-A: You can buy a license from [here](https://purchase.aspose.com/buy).
+A: You can buy a license from [Aspose.BarCode purchase page](https://purchase.aspose.com/buy).
 
 **Q: What barcode formats are supported by Aspose.BarCode for .NET?**  
 A: Aspose.BarCode for .NET supports a wide range of barcode formats, including EAN, QR, Code39, and more. You can find the complete list in the documentation.
@@ -116,12 +116,12 @@ A: Yes, Aspose.BarCode for .NET is suitable for both personal and commercial use
 ## Conclusion
 You now have a complete, hands‑on guide to **generate barcode image** files with custom X‑Dimension and supplemental spacing using Aspose.BarCode for .NET. By tweaking the width and supplement space, you can meet virtually any labeling requirement—whether you need to **create EAN13 barcode**, **adjust barcode width**, or **save barcode PNG** files for web or print. Feel free to experiment with other barcode types and image formats to extend this foundation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -130,3 +130,10 @@ You now have a complete, hands‑on guide to **generate barcode image** files wi
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
