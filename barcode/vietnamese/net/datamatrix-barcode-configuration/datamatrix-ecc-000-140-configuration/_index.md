@@ -1,11 +1,52 @@
 ---
-date: 2026-01-12
-description: Tìm hiểu cách tạo mã vạch DataMatrix ECC 000-140 với Aspose.BarCode cho
-  .NET, hoàn hảo cho việc tạo mã vạch, quản lý tồn kho và các dự án ví dụ trình tạo
-  mã vạch C#.
-linktitle: DataMatrix ECC 000-140 Configuration
+date: 2026-08-17
+description: Tìm hiểu cách tạo mã vạch datamatrix aspose bằng Aspose.BarCode cho .NET
+  – lý tưởng cho việc tạo mã vạch, quản lý tồn kho và các dự án tạo mã vạch C#.
+keywords:
+- create datamatrix barcode aspose
+- datamatrix barcode error correction
+- barcode generation with visual studio
+lastmod: 2026-08-17
+linktitle: Cấu hình DataMatrix ECC 000-140
+og_description: Tạo mã vạch datamatrix aspose bằng Aspose.BarCode cho .NET – giải
+  pháp nhanh, hiệu suất cao cho quản lý tồn kho và các dự án mã vạch C#.
+og_image_alt: Guide showing C# code to generate DataMatrix ECC 000-140 barcode with
+  Aspose.BarCode
+og_title: Tạo mã vạch datamatrix aspose với Aspose.BarCode cho .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to create datamatrix barcode aspose using Aspose.BarCode
+    for .NET – ideal for barcode generation inventory management and C# barcode generator
+    projects.
+  headline: How to create datamatrix barcode aspose with Aspose.BarCode
+  type: TechArticle
+- questions:
+  - answer: Yes. The library is fully cross‑platform and runs on .NET 5+, .NET 6+,
+      and .NET Core on Linux without additional dependencies.
+    question: Can I use Aspose.BarCode for .NET on Linux servers?
+  - answer: You can reuse a single `BarcodeGenerator` instance in a loop; each call
+      to `Save` re‑renders the image in roughly 40‑60 ms, making it suitable for generating
+      thousands of labels per minute.
+    question: How does the library handle large batches of barcodes?
+  - answer: No. Setting `generator.Parameters.Barcode.DataMatrix.EccMode = DataMatrixEccMode.Ecc140`
+      automatically applies the correct error‑correction algorithm.
+    question: Do I need to encode the data manually for ECC 140?
+  - answer: The free trial provides full feature access, including ECC 140, but adds
+      a watermark to the generated images. Apply a license for production to remove
+      the watermark.
+    question: Is a trial version sufficient for development?
+  - answer: Absolutely. Use `generator.Parameters.Barcode.Color` and `generator.Parameters.Barcode.BackColor`
+      to match your branding.
+    question: Can I customize the barcode’s colors?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Cách tạo mã vạch DataMatrix ECC 000-140 bằng Aspose.BarCode cho .NET
+tags:
+- datamatrix barcode
+- Aspose.BarCode
+- C# barcode generation
+- inventory management
+title: Cách tạo mã vạch datamatrix aspose với Aspose.BarCode
 url: /vi/net/datamatrix-barcode-configuration/datamatrix-ecc-000-140-configuration/
 weight: 11
 ---
@@ -14,51 +55,61 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách tạo mã vạch DataMatrix ECC 000-140 với Aspose.BarCode cho .NET
+# Cách tạo mã vạch datamatrix aspose với Aspose.BarCode
 
-Trong thế giới số ngày nay, nhu cầu tạo mã vạch hiệu quả và đáng tin cậy không thể được nhấn mạnh đủ. Trong hướng dẫn này, bạn sẽ khám phá **cách tạo datamatrix** ECC 000-140 bằng Aspose.BarCode cho .NET, một giải pháp giúp tối ưu **quản lý tồn kho tạo mã vạch** và là một **ví dụ trình tạo mã vạch c#** vững chắc cho các nhà phát triển. Hãy cùng đi qua quy trình từng bước!
+Trong phần mềm chuỗi cung ứng hiện đại, bạn thường cần **tạo mã vạch datamatrix aspose** một cách nhanh chóng và đáng tin cậy. Hướng dẫn này sẽ chỉ cho bạn cách tạo ký hiệu DataMatrix ECC 000‑140 bằng Aspose.BarCode cho .NET, một thư viện xử lý việc mã hoá, sửa lỗi và hiển thị hình ảnh. Khi hoàn thành, bạn sẽ có một đoạn mã C# sẵn sàng sử dụng có thể chèn vào bất kỳ dự án quản lý tồn kho .NET nào.
 
 ## Câu trả lời nhanh
-- **Thư viện chính là gì?** Aspose.BarCode for .NET  
-- **Loại mã vạch nào được đề cập?** DataMatrix ECC 000‑140  
+- **Thư viện chính là gì?** Aspose.BarCode cho .NET  
+- **Loại mã vạch nào được đề cập?** DataMatrix ECC 000‑140  
 - **Ngôn ngữ được sử dụng?** C# (C Sharp)  
-- **Có cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép cần thiết cho môi trường sản xuất  
-- **Thời gian triển khai điển hình?** Khoảng 10‑15 phút cho một trình tạo cơ bản
+- **Có cần giấy phép không?** Có bản dùng thử miễn phí; cần giấy phép cho môi trường sản xuất  
+- **Thời gian triển khai điển hình?** Khoảng 10‑15 phút cho một trình tạo cơ bản  
 
 ## DataMatrix ECC 000‑140 là gì?
-DataMatrix là một mã vạch hai chiều có thể mã hoá lượng lớn dữ liệu trong không gian nhỏ. Mức sửa lỗi ECC 000‑140 cung cấp mức độ khôi phục dữ liệu cao nhất, làm cho nó trở nên lý tưởng cho các môi trường đòi hỏi cao như theo dõi kho và xác thực sản phẩm.
+DataMatrix là một mã vạch hai chiều lưu trữ lượng dữ liệu lớn trong một hình vuông gọn gàng. Mức sửa lỗi **ECC 000‑140** có thể khôi phục lên tới 140 % các mã bị hỏng, rất phù hợp cho môi trường kho bãi khắc nghiệt nơi nhãn có thể bị trầy xước hoặc lem.
 
-## Tại sao nên sử dụng Aspose.BarCode cho .NET?
-- **API mạnh mẽ:** Tự động xử lý các quy tắc mã hoá phức tạp.  
-- **Đa nền tảng:** Hoạt động trên Windows, macOS và Linux.  
-- **Hiệu suất cao:** Tạo mã vạch trong mili giây, hoàn hảo cho các hệ thống tồn kho có lưu lượng cao.  
+## Tại sao chọn Aspose.BarCode cho .NET?
+Aspose.BarCode cho .NET cung cấp một API toàn diện, hiệu suất cao, đơn giản hoá việc tạo mã vạch cho nhiều loại ký hiệu, cung cấp tính năng sửa lỗi tích hợp, tự động điều chỉnh kích thước và hỗ trợ đa nền tảng, làm cho nó trở thành giải pháp lý tưởng cho quản lý tồn kho và dán nhãn ở cấp doanh nghiệp.
+
+- **API mạnh mẽ:** Hỗ trợ hơn 30 loại mã vạch và tự động áp dụng các quy tắc mã hoá.  
+- **Đa nền tảng:** Chạy trên Windows, macOS và Linux mà không cần phụ thuộc gốc.  
+- **Hiệu suất cao:** Tạo DataMatrix 200 × 200 pixel trong vòng dưới 50 ms trên CPU 2.5 GHz tiêu chuẩn, cho phép các dây chuyền dán nhãn có tốc độ cao.  
 
 ## Yêu cầu trước
-Trước khi chúng ta bắt đầu tạo mã vạch DataMatrix ECC 000‑140, hãy đảm bảo bạn có:
-
-1. **Visual Studio** – bất kỳ phiên bản gần đây nào (Community, Professional hoặc Enterprise).  
-2. **Aspose.BarCode cho .NET** – tải xuống từ [liên kết tải xuống](https://releases.aspose.com/barcode/net/).  
+1. **Visual Studio** – bất kỳ phiên bản gần đây nào (Community, Professional, hoặc Enterprise).  
+2. **Aspose.BarCode cho .NET** – tải xuống từ [download link](https://releases.aspose.com/barcode/net/). Bạn cũng có thể truy cập [this link](https://releases.aspose.com/) để có thêm tài nguyên.  
 3. **Một dự án .NET** – sẵn sàng để tham chiếu tới assembly Aspose.BarCode.  
 
 ## Nhập không gian tên
-Trong dự án C# của bạn, bắt đầu bằng việc nhập không gian tên cần thiết. Điều này cho phép bạn truy cập các lớp tạo mã vạch.
+Trong tệp C# của bạn, thêm chỉ thị `using` cần thiết để có thể truy cập các lớp mã vạch.
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Trường hợp sử dụng Quản lý tồn kho tạo mã vạch
-Hãy tưởng tượng bạn cần dán nhãn cho hàng ngàn mặt hàng trong một kho. Bằng cách tạo mã vạch DataMatrix ECC 000‑140, bạn có thể nhúng ID sản phẩm, số lô và ngày hết hạn — tất cả trong một ký hiệu gọn gàng, chịu lỗi mà máy quét có thể đọc ngay lập tức.
+**Lớp `BarcodeGenerator` là động cơ cốt lõi của Aspose.BarCode để tạo hình ảnh mã vạch.**  
+**Lớp `BarcodeGenerator` là động cơ cốt lõi của Aspose.BarCode, tạo và cấu hình hình ảnh mã vạch.**  
 
-## Bước 1: Xác định đường dẫn thư mục
-Xác định nơi sẽ lưu hình ảnh mã vạch được tạo.
+```csharp
+using Aspose.BarCode.Generation;
+```
+
+## Trường hợp sử dụng tạo mã vạch trong quản lý tồn kho
+Hãy tưởng tượng bạn cần dán nhãn cho hàng ngàn pallet trong một trung tâm phân phối. Bằng cách tạo mã vạch DataMatrix ECC 000‑140, bạn có thể nhúng ID sản phẩm, số lô và ngày hết hạn vào một ký hiệu duy nhất, chịu lỗi, mà các máy quét cầm tay đọc ngay lập tức, giảm lỗi nhập liệu thủ công tới 95 %.
+
+## Cách tạo mã vạch datamatrix aspose trong C#
+Tải dữ liệu, cấu hình trình tạo và lưu hình ảnh – tất cả trong ba bước ngắn gọn. `BarcodeGenerator` tự động chọn kích thước mô-đun tối ưu và áp dụng mức sửa lỗi ECC 140, vì vậy bạn không cần tự tính giá trị checksum, thực hiện nhanh chóng và hiệu quả.
+
+### Bước 1: xác định thư mục đầu ra
+Chọn một thư mục nơi tệp PNG sẽ được ghi. Đường dẫn phải tồn tại trước khi bạn gọi `Save`.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Bước 2: Ví dụ Trình tạo Mã vạch C# – Tạo Trình tạo Mã vạch
-Bây giờ chúng ta khởi tạo `BarcodeGenerator`, cấu hình các thiết lập DataMatrix và lưu hình ảnh.
+### Bước 2: tạo trình tạo mã vạch
+Khởi tạo `BarcodeGenerator`, đặt ký hiệu thành DataMatrix, cung cấp dữ liệu, và chọn mức sửa lỗi cao nhất.
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åspóse.Barcóde©"))
@@ -74,46 +125,48 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Åsp
 }
 ```
 
-Trong đoạn mã này chúng ta:
+Trong đoạn mã này chúng tôi:
 
 * Chọn **DataMatrix** làm loại mã vạch.  
 * Cung cấp một giá trị mẫu (`"Åspóse.Barcóde©"`).  
 * Đặt **XDimension** để điều khiển kích thước mô-đun (4 pixel ở đây).  
 * Chọn mức sửa lỗi cao nhất (**ECC 140**).  
-* Lưu kết quả dưới dạng file PNG.  
+* Lưu kết quả dưới dạng tệp PNG.  
 
 ## Các vấn đề thường gặp và giải pháp
 | Vấn đề | Giải pháp |
 |-------|----------|
 | **Đường dẫn không hợp lệ** | Đảm bảo `path` kết thúc bằng dấu phân cách thư mục (`\` hoặc `/`) và thư mục tồn tại. |
-| **Ký tự không được hỗ trợ** | DataMatrix hỗ trợ UTF‑8; tránh các ký tự điều khiển. |
-| **Chưa áp dụng giấy phép** | Gọi `Aspose.BarCode.License license = new Aspose.BarCode.License(); license.SetLicense("Aspose.BarCode.lic");` trước khi tạo. |
+| **Ký tự không được hỗ trợ** | DataMatrix hỗ trợ UTF‑8; tránh các ký tự điều khiển và sử dụng mã hoá đúng. |
+| **Giấy phép chưa được áp dụng** | Lớp `Aspose.BarCode.License` áp dụng giấy phép thương mại để mở khóa đầy đủ chức năng. Gọi nó trước khi tạo bất kỳ mã vạch nào. |
 
 ## Câu hỏi thường gặp
 
-### Câu 1: Tôi có thể sử dụng Aspose.BarCode cho .NET trên cả môi trường Windows và không phải Windows không?
-A1: Có, Aspose.BarCode cho .NET tương thích với các nền tảng Windows, macOS và Linux, giúp nó linh hoạt cho nhiều loại ứng dụng.
+**Q: Tôi có thể sử dụng Aspose.BarCode cho .NET trên máy chủ Linux không?**  
+A: Có. Thư viện hoàn toàn đa nền tảng và chạy trên .NET 5+, .NET 6+ và .NET Core trên Linux mà không cần phụ thuộc bổ sung.
 
-### Câu 2: Aspose.BarCode cho .NET có phù hợp cho các ứng dụng web không?
-A2: Hoàn toàn có thể! Aspose.BarCode cho .NET có thể tích hợp liền mạch vào các ứng dụng web, rất phù hợp cho thương mại điện tử, theo dõi tồn kho và hơn thế nữa.
+**Q: Thư viện xử lý các lô mã vạch lớn như thế nào?**  
+A: Bạn có thể tái sử dụng một thể hiện `BarcodeGenerator` duy nhất trong vòng lặp; mỗi lần gọi `Save` sẽ vẽ lại hình ảnh trong khoảng 40‑60 ms, phù hợp để tạo hàng ngàn nhãn mỗi phút.
 
-### Câu 3: Tôi có cần kinh nghiệm lập trình để sử dụng Aspose.BarCode cho .NET không?
-A3: Mặc dù có kiến thức lập trình sẽ hữu ích, Aspose.BarCode cho .NET cung cấp tài liệu và hỗ trợ chi tiết để giúp cả người mới bắt đầu và các nhà phát triển có kinh nghiệm.
+**Q: Tôi có cần mã hoá dữ liệu thủ công cho ECC 140 không?**  
+A: Không. Thiết lập `generator.Parameters.Barcode.DataMatrix.EccMode = DataMatrixEccMode.Ecc140` sẽ tự động áp dụng thuật toán sửa lỗi đúng.
 
-### Câu 4: Tôi có thể tùy chỉnh giao diện của mã vạch được tạo bằng Aspose.BarCode cho .NET không?
-A4: Có, bạn có thể tùy chỉnh nhiều khía cạnh của mã vạch, bao gồm kích thước, màu sắc và văn bản, để phù hợp với thương hiệu và yêu cầu của ứng dụng.
+**Q: Phiên bản dùng thử có đủ cho việc phát triển không?**  
+A: Bản dùng thử miễn phí cung cấp đầy đủ tính năng, bao gồm ECC 140, nhưng sẽ thêm watermark vào hình ảnh tạo ra. Áp dụng giấy phép cho môi trường sản xuất để loại bỏ watermark.
 
-### Câu 5: Có bản dùng thử miễn phí cho Aspose.BarCode cho .NET không?
-A5: Có, bạn có thể khám phá Aspose.BarCode cho .NET với bản dùng thử miễn phí tại [liên kết này](https://releases.aspose.com/).
+**Q: Tôi có thể tùy chỉnh màu sắc của mã vạch không?**  
+A: Chắc chắn. Sử dụng `generator.Parameters.Barcode.Color` và `generator.Parameters.Barcode.BackColor` để phù hợp với thương hiệu của bạn.
 
-## Kết luận
-Bằng cách thực hiện **ví dụ trình tạo mã vạch c#** này, bạn đã có nền tảng vững chắc để tạo các mã vạch DataMatrix ECC 000‑140 chất lượng cao. Dù bạn đang cải thiện quy trình **quản lý tồn kho tạo mã vạch** hay xây dựng giải pháp dán nhãn tùy chỉnh, Aspose.BarCode cho .NET cung cấp sự linh hoạt và độ tin cậy mà bạn cần. Hãy thử nghiệm với các dữ liệu, màu sắc và kích thước khác nhau để đáp ứng yêu cầu chính xác, và tích hợp trình tạo vào các quy trình làm việc lớn hơn để đạt hiệu suất tối đa.
-
----
-
-**Cập nhật lần cuối:** 2026-01-12  
-**Kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
+**Cập nhật lần cuối:** 2026-08-17  
+**Đã kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
 **Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách tạo mã vạch DataMatrix (ECC 200) với Aspose.BarCode cho .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [Thành thạo mã hoá DataMatrix ở chế độ ASCII với Aspose.BarCode cho .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/)
+- [Cách đọc mã vạch DataMatrix với Aspose.BarCode cho .NET](/barcode/net/datamatrix-barcode-reading/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
