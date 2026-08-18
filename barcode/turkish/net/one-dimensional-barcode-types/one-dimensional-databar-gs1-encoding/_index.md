@@ -1,43 +1,54 @@
 ---
-title: Tek Boyutlu Veri Çubuğu GS1 Kodlaması
-linktitle: Tek Boyutlu Veri Çubuğu GS1 Kodlaması
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode'u kullanarak .NET'te Databar GS1 kodlu barkodlar oluşturmayı öğrenin. Barkodları kolaylıkla oluşturun. Adım adım kılavuzumuzu takip edin.
-weight: 18
+date: 2026-03-07
+description: Aspose.BarCode kullanarak .NET’te tek boyutlu databar GS1 kodlu barkodların
+  nasıl oluşturulacağını öğrenin. Bu kılavuz, GS1’i nasıl ayarlayacağınızı, barkod
+  oluşturucuyu nasıl yapılandıracağınızı ve barkodları hızlı bir şekilde nasıl üreteceğinizi
+  gösterir.
+linktitle: One-Dimensional Databar GS1 Encoding
+second_title: Aspose.BarCode .NET API
+title: Aspose.BarCode ile Tek Boyutlu Databar GS1 Kodlaması Oluştur
 url: /tr/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tek Boyutlu Veri Çubuğu GS1 Kodlaması
+# Aspose.BarCode ile Tek Boyutlu Databar GS1 Kodlaması Oluşturma
 
+Bu öğreticide, .NET için Aspose.BarCode kütüphanesini kullanarak GS1 standardına uygun **tek boyutlu databar** barkodları oluşturacaksınız. Katı GS1 doğrulaması mı yoksa daha esnek bir barkod mu ihtiyacınız var, kütüphaneyi kurmaktan kodlama istisnalarını ele almaya kadar her adımı birlikte inceleyeceğiz; böylece kendi uygulamalarınızda güvenilir barkodlar üretebileceksiniz.
 
-Bu eğitimde, Aspose.BarCode for .NET kütüphanesini kullanarak tek boyutlu Databar GS1 kodlu barkodlar oluşturma sürecinde size yol göstereceğiz. GS1 kodlamalı veya kodlamasız barkodlar oluşturmak istiyorsanız, yanınızdayız. Bu adım adım kılavuz, önkoşulları anlamanıza, ad alanlarını içe aktarmanıza ve Databar GS1 kodlu barkodları kolaylıkla oluşturmak için her örneği göstermenize yardımcı olacaktır.
+## Hızlı Yanıtlar
+- **“tek boyutlu databar oluşturma” ne anlama geliyor?** Databar ailesine ait doğrusal (1‑D) bir barkod üretmek demektir; perakende ve lojistikte sıkça kullanılır.  
+- **GS1 doğrulamasını nasıl ayarlarım?** `DataBar` parametrelerinde `IsAllowOnlyGS1Encoding` özelliğini `true` olarak ayarlayın.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Kütüphaneyi nereden indirebilirim?** Resmi Aspose sürüm sayfasından (gereksinimlere bakın).
+
+## “tek boyutlu databar oluşturma” nedir?
+Tek boyutlu Databar (RSS olarak da bilinir), sayısal veri, tarih veya AI (Application Identifier) dizgileri kodlayabilen kompakt bir doğrusal barkoddur. GS1 kodlamasıyla birleştirildiğinde, barkod küresel olarak tanınan bir veri yapısına uyar; bu da perakende, sağlık ve tedarik zinciri senaryoları için idealdir.
+
+## Neden .NET için Aspose.BarCode kullanmalı?
+Aspose.BarCode akıcı bir API, tam GS1 desteği ve barkodun her görsel unsurunu ince ayar yapma imkanı sunar. Düşük seviyeli kodlamanın belirsizliklerini ortadan kaldırır ve iş mantığınıza odaklanmanızı sağlar.
 
 ## Önkoşullar
 
-Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-1.  Aspose.BarCode for .NET: Aspose.BarCode for .NET'in kurulu olması gerekir. Henüz yapmadıysanız adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/barcode/net/).
-
-2.  Dizin Yolunuz: Değiştir`"Your Directory Path"` oluşturulan barkod görüntülerini kaydetmek istediğiniz gerçek yolu içeren kod örneklerinde.
-
-Artık gerekli önkoşulları hazırladığınıza göre kodlama kısmına geçebiliriz.
+1. **Aspose.BarCode for .NET** – [buradan](https://releases.aspose.com/barcode/net/) indirip kurun.  
+2. **Dizin Yolunuz** – örneklerdeki `"Your Directory Path"` ifadesini yazma izniniz olan bir klasörle değiştirin.
 
 ## Ad Alanlarını İçe Aktarma
 
-Başlamak için Aspose.BarCode için ilgili ad alanlarını içe aktarmanız gerekir. .NET projenizin başına aşağıdaki kod satırlarını ekleyin:
+C# dosyanızın en üstüne gerekli `using` ifadelerini ekleyin:
 
 ```csharp
 using Aspose.BarCode;
 using System;
 ```
 
-## Adım 1: Barkod Oluşturucuyu Başlatın
+## Adım 1: Barkod Üreteci Başlatma
 
-İlk adım, BarcodeGenerator nesnesini istenen kodlama türüyle başlatmaktır. Bu durumda Databar Expanded kodlamasını kullanıyoruz. 
+`BarcodeGenerator` örneği oluşturun ve Databar Expanded sembolojisini belirtin:
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,9 +57,9 @@ System.Console.WriteLine("OneDDatabarGS1Encoding:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "");
 ```
 
-## Adım 2: GS1 Kodlamayla Barkod Oluşturun
+## Adım 2: GS1 Ayarlama – Katı GS1 doğrulamalı barkod oluşturma
 
-Şimdi GS1Encoding check ile kod metnini ayarlayıp oluşturulan barkod görüntüsünü kaydedeceğiz. 
+GS1‑only kodlamayı etkinleştirin, GS1‑uyumlu bir kod metni atayın ve görüntüyü kaydedin:
 
 ```csharp
 gen.CodeText = "(01)12345678901231";
@@ -56,9 +67,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = true;
 gen.Save($"{path}DatabarGS1RightEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## 3. Adım: Değişken Kodlama Barkodu Oluşturun
+## Adım 3: Aspose ile Barkod Oluşturma – Değişken kodlama (GS1 kontrolü yok)
 
-Bu adımda GS1Encoding kontrolü olmadan değişken kod metnine sahip bir barkod oluşturacağız.
+GS1 kurallarını **zorlamayan** bir barkod istiyorsanız kontrolü kapatın:
 
 ```csharp
 gen.CodeText = "ASPOSE";
@@ -66,9 +77,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = false;
 gen.Save($"{path}DatabarGS1VariableEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Adım 4: GS1 Kodlama Kontrolünde İstisnaları Ele Alın
+## Adım 4: Barkod Üreteci GS1 kontrolü – İstisna yakalama
 
-GS1Encoding kontrolü etkinken değişken kod metnine sahip bir barkod oluşturmaya çalışırsanız, bir istisna oluşturulacaktır. Bunu nasıl halledebileceğiniz aşağıda açıklanmıştır:
+`IsAllowOnlyGS1Encoding` `true` iken kod metni GS1‑uyumlu değilse Aspose bir istisna fırlatır. Aşağıdaki örnek, bu istisnanın nasıl yakalanıp kaydedileceğini gösterir:
 
 ```csharp
 try
@@ -83,30 +94,42 @@ catch (Exception e)
 }
 ```
 
-Artık Aspose.BarCode for .NET ile tek boyutlu Databar GS1 kodlu barkodları başarıyla oluşturdunuz. Barkod oluşturma işleminizi özel gereksinimlerinize göre daha fazla keşfedebilir ve özelleştirebilirsiniz.
+### Yaygın Tuzaklar ve İpuçları
+- **Tuzak:** GS1 kontrolü açıkken GS1 dışı bir dize sağlamak barkod oluşturmayı durdurur.  
+- **Profesyonel ipucu:** `CodeText`e atamadan önce AI dizgilerinizi doğrulayarak çalışma zamanı hatalarını önleyin.  
+- **İpucu:** Dosya adlarını platformlar arasında güvenli bir şekilde oluşturmak için mutlak yollar veya `Path.Combine` kullanın.
 
-## Çözüm
+## Sonuç
 
-Bu eğitimde Aspose.BarCode for .NET'i kullanarak tek boyutlu Databar GS1 kodlu barkodlar oluşturma sürecini ele aldık. Önkoşulları tartıştık, gerekli ad alanlarını içe aktardık ve hem GS1 kodlu hem de değişken kodlayan barkodları oluşturmaya yönelik adım adım rehberlik sağladık.
+Artık **tek boyutlu databar** barkodlarını GS1 kodlamasıyla nasıl oluşturacağınızı, GS1 kontrolünü nasıl açıp kapatacağınızı ve ilgili istisnaları nasıl yöneteceğinizi biliyorsunuz — tüm bunlar .NET için Aspose.BarCode kullanılarak yapılmaktadır. `Parameters.Barcode` nesnesi aracılığıyla barkod boyutu, rengi ve kenar boşlukları gibi ek stil seçeneklerini keşfetmekten çekinmeyin.
 
- Aspose.BarCode for .NET ile barkod oluşturma, barkod oluşturma ihtiyaçlarınız üzerinde esneklik ve kontrol sunan kusursuz bir görev haline gelir. Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, ziyaret etmekten çekinmeyin.[Aspose.BarCode belgeleri](https://reference.aspose.com/barcode/net/) veya şu konuda yardım isteyin:[Aspose.BarCode destek forumu](https://forum.aspose.com/c/barcode/13).
+Herhangi bir sorunla karşılaşırsanız resmi dokümantasyon ve topluluk forumu mükemmel kaynaklardır:
 
-## Sıkça Sorulan Sorular
+- [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+- [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13)
+
+## Sık Sorulan Sorular
 
 ### 1. Barkodlarda GS1 kodlaması nedir?
-GS1 kodlaması, uygun veri yapısını ve tanımlamayı sağlamak için barkodlamada kullanılan bir standarttır. Doğru takip ve bilgi alışverişini kolaylaştırmak için perakende, sağlık ve lojistik sektörlerindeki ürünlerde yaygın olarak kullanılır.
+GS1 kodlaması, bir barkod içinde (ör. ürün tanımlayıcıları) verileri standart bir biçimde yapılandırarak perakendeciler, üreticiler ve lojistik sağlayıcıları arasında birlikte çalışabilirliği sağlar.
 
 ### 2. Oluşturulan barkodların görünümünü özelleştirebilir miyim?
-Evet, Aspose.BarCode for .NET ile oluşturulan barkodların görünümünü özelleştirebilirsiniz. Boyut, renk ve stil gibi çeşitli parametreler üzerinde kontrol sizdedir.
+Evet. Aspose.BarCode, `Parameters.Barcode` ayarlarıyla boyut, renk, kenar boşlukları ve hatta insan tarafından okunabilir metin ekleme gibi seçenekleri ayarlamanıza olanak tanır.
 
-### 3. Aspose.BarCode için ek kaynakları ve belgeleri nerede bulabilirim?
- Kapsamlı belgeleri ve örnekleri şu adreste bulabilirsiniz:[Aspose.BarCode belgeleri](https://reference.aspose.com/barcode/net/). Öğrenme ve sorun giderme için değerli bir kaynaktır.
+### 3. Aspose.BarCode için ek kaynaklar ve dokümantasyon nerede bulunur?
+Kapsamlı dokümantasyon ve örnekleri [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) adresinde bulabilirsiniz. Öğrenme ve sorun giderme için değerli bir kaynaktır.
 
-### 4. Aspose.BarCode'un deneme sürümü mevcut mu?
- Evet, Aspose.BarCode for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+### 4. Aspose.BarCode için deneme sürümü mevcut mu?
+Evet, [buradan](https://releases.aspose.com/) .NET için ücretsiz deneme sürümünü edinebilirsiniz.
 
-### 5. Aspose.BarCode for .NET lisansını nasıl satın alabilirim?
- Aspose.BarCode for .NET lisansını satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy) Aspose'un web sitesinde.
+### 5. Aspose.BarCode for .NET lisansı nasıl satın alınır?
+Aspose web sitesindeki [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret ederek Aspose.BarCode for .NET lisansı satın alabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-03-07  
+**Test Edilen Versiyon:** Aspose.BarCode 24.11 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
