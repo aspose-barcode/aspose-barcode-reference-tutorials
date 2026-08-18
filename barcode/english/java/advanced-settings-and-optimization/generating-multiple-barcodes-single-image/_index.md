@@ -1,5 +1,5 @@
 ---
-title: Create QR Code Java – Generate Multiple Barcodes on One Image
+title: Create QR Code Java with Aspose.BarCode – Generate Multiple Barcodes on One Image
 linktitle: Generating Multiple Barcodes on a Single Image
 second_title: Aspose.BarCode Java API
 description: Learn how to create QR code java and generate multiple barcodes on a single image using Aspose.BarCode for Java. Includes setup, code, and troubleshooting.
@@ -46,7 +46,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 
 - Basic understanding of Java programming.  
 - Java Development Kit (JDK) installed on your system.  
-- Aspose.BarCode for Java library downloaded and set up. You can download it [here](https://releases.aspose.com/barcode/java/).  
+- Aspose.BarCode for Java library downloaded and set up. You can download it from the **Aspose.BarCode for Java download page**.  
 - An integrated development environment (IDE) such as Eclipse or IntelliJ IDEA.
 
 ## Import Namespaces
@@ -70,7 +70,7 @@ import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step 1: Set the Resource Directory
+## Step 1: set the resource directory
 
 Define the path to the resource directory where the generated barcodes will be saved. This directory is crucial for organizing and managing your barcode images.
 
@@ -80,7 +80,7 @@ String dataDir = Utils.getDataDir(GenerateMultipleBarcodesOnASingleImage.class)
         + "BarcodeReader/advanced_features/";
 ```
 
-## Step 2: Create a Collection of Barcodes
+## Step 2: create a collection of barcodes
 
 Initialize a `HashMap` to store the barcode data. Each entry in the collection represents a barcode with its respective encoding type.
 
@@ -94,7 +94,7 @@ collection.put("979026000043", EncodeTypes.EAN_13);
 collection.put("Aztec BarCode", EncodeTypes.AZTEC);
 ```
 
-## Step 3: Generate Barcode Images
+## Step 3: generate barcode images
 
 Iterate through the collection and generate barcode images using the Aspose.BarCode library. Store the images in an `ArrayList` for further processing.
 
@@ -107,7 +107,7 @@ for (Object key : collection.keySet()) {
 }
 ```
 
-## Step 4: Create a Combined Image
+## Step 4: create a combined image
 
 Determine the maximum width and total height of the barcode images. Create a `BufferedImage` to combine individual barcode images into a single output image.
 
@@ -135,7 +135,7 @@ for (int i = 0; i < images.size(); ++i) {
 }
 ```
 
-## Step 5: Save the Result
+## Step 5: save the result
 
 Save the final combined image to a specified file location.
 
@@ -144,19 +144,19 @@ File outputfile = new File(dataDir + "output.png");
 ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
-## Common Use Cases for Generating Multiple Barcodes
+## Common use cases for generating multiple barcodes
 
 - **Packaging labels** – combine product, batch, and shipping codes on a single label.  
 - **Event tickets** – embed QR, Data Matrix, and Code 128 identifiers for different scanning stations.  
 - **Inventory management** – display SKU, RFID tag data, and serial numbers together for quick audit.
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 
 - **Image size issues** – adjust the `offset` variable to increase or decrease spacing between barcodes.  
 - **Unsupported symbology** – verify that your Aspose.BarCode version supports the desired barcode type.  
 - **Performance** – reuse a single `Graphics` object if you generate many images in a loop.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I customize the appearance of individual barcodes in the generated image?**  
 A1: Yes, Aspose.BarCode provides extensive customization options for barcode appearance, allowing you to tailor each barcode's style to your preferences.
@@ -165,13 +165,13 @@ A1: Yes, Aspose.BarCode provides extensive customization options for barcode app
 A2: Absolutely! Aspose.BarCode supports a wide range of symbologies, including CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13, and AZTEC, as demonstrated in this tutorial.
 
 **Q3: How can I integrate Aspose.BarCode into my Java project?**  
-A3: Simply download the Aspose.BarCode for Java library from [here](https://releases.aspose.com/barcode/java/) and follow the installation instructions provided in the documentation.
+A3: Simply download the Aspose.BarCode for Java library from the **Aspose.BarCode for Java library download page** and follow the installation instructions provided in the documentation.
 
 **Q4: Can I use Aspose.BarCode for commercial applications?**  
-A4: Yes, you can obtain a license from [here](https://purchase.aspose.com/buy) to use Aspose.BarCode for commercial purposes.
+A4: Yes, you can obtain a license from the **Aspose.BarCode license purchase page** to use Aspose.BarCode for commercial purposes.
 
 **Q5: Are there any trial options available for Aspose.BarCode?**  
-A5: Certainly! You can explore the features of Aspose.BarCode by obtaining a free trial license [here](https://releases.aspose.com/).
+A5: Certainly! You can explore the features of Aspose.BarCode by obtaining a free trial license from the **Aspose.BarCode free trial download page**.
 
 **Q6: How do I generate a high‑resolution QR code for printing?**  
 A6: Set the desired DPI on the `BarcodeGenerator` before calling `generateBarCodeImage()`, then save the image in a loss‑less format such as PNG.

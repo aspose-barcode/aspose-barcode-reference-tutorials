@@ -57,22 +57,36 @@ Embedding a barcode into a PDF is as simple as three steps:
 
 > *Pro tip:* Keep the barcode image in a `ByteArrayOutputStream` to avoid writing temporary files to disk.
 
+```java
+// Generate barcode image
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "123456789");
+ByteArrayOutputStream baos = new ByteArrayOutputStream();
+generator.save(baos, BarCodeImageFormat.Png);
+
+// Create PDF and add barcode
+Document pdf = new Document();
+Page page = pdf.getPages().add();
+Image image = Image.fromStream(baos.toByteArray());
+page.getParagraphs().add(image);
+pdf.save("output.pdf");
+```
+
 ## Creating and Setting Size for Whole Picture with Barcode in Java
 When you need a barcode that occupies a specific area of a document, you can define the exact width and height in pixels or millimeters. Aspose.BarCode lets you set the `xDimension` and `BarHeight` properties, or you can scale the generated image when adding it to a PDF. This ensures the barcode looks sharp on high‑resolution prints and fits perfectly within your layout.
 
 ## Creating an Image with Exact Barcode in Java
 If your goal is to **generate barcode image java** for use outside of PDFs (e.g., web pages, mobile apps), the `BarcodeGenerator` class can output PNG, JPEG, GIF, or BMP directly to a stream. You can also specify DPI to control the image quality, which is especially helpful for printing.
 
-## Barcode Orientation Detection in Java
+## Barcode orientation detection in java
 Barcode orientation detection means the library can read a barcode even if it’s rotated (0°, 90°, 180°, 270°). This feature is crucial when scanning documents that may be scanned upside‑down or sideways. Aspose.BarCode’s `BarCodeReader` automatically handles orientation, so you don’t need to preprocess the image.
 
-## Common Use Cases
+## Common use cases
 - **Invoice generation** – embed UPC/EAN codes on each invoice PDF.  
 - **Shipping labels** – create Code128 or QR codes that encode tracking numbers.  
 - **Product catalogs** – generate high‑resolution barcode images for print catalogs.  
 - **Document scanning** – detect and read barcodes from scanned PDFs to automate data entry.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
 | Barcode appears blurry | Image DPI is too low | Set a higher DPI when calling `generator.save(stream, BarCodeImageFormat.Png, 300)` |
@@ -80,8 +94,8 @@ Barcode orientation detection means the library can read a barcode even if it’
 | Barcode size does not fit page | Incorrect scaling factor | Use `PdfPage.addImage(image, x, y, width, height)` to control exact dimensions |
 | Memory usage spikes on large batches | All images kept in memory | Write each barcode to a temporary stream, add to PDF, then release the stream |
 
-## Barcode Basics Tutorials
-### [Adding Barcode to PDF Document in Java](./adding-barcode-to-pdf-document/)
+## Barcode basics tutorials
+### [Adding barcode to PDF document in java](./adding-barcode-to-pdf-document/)
 Enhance your Java applications with Aspose.BarCode. A step‑by‑step guide to adding barcodes to PDF documents.
 
 ### [Creating and Setting Size for Whole Picture with Barcode in Java](./creating-setting-size-whole-picture-barcode/)
@@ -90,10 +104,10 @@ Explore creating and setting size for whole picture in Java with Aspose.BarCode.
 ### [Creating an Image with Exact Barcode in Java](./creating-image-exact-barcode/)
 Creating an Image with Exact barcode generation in Java with Aspose.BarCode. Create custom barcodes easily. Explore documentation, download, and get support.
 
-### [Barcode Orientation Detection in Java](./detecting-barcode-orientation/)
+### [Barcode orientation detection in java](./detecting-barcode-orientation/)
 Enhance your Java applications with barcode recognition using Aspose.BarCode for Java. Follow our step‑by‑step guide to effortlessly detect barcode orientation.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I **how to generate barcode** for a specific symbology like QR Code?**  
 A: Use `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` then call `generator.save("output.png");`.
