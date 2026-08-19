@@ -84,6 +84,10 @@ Nachfolgend eine knappe Beschreibung eines typischen Barcode‑Erstellungsszenar
 ## Compact PDF417 Codierungs‑Tutorials
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie Compact PDF417 Barcodes mit Aspose.BarCode für .NET erzeugen. Umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen und Code‑Beispielen.
+### [PDF417-Barcode in C# generieren – vollständiger Leitfaden mit kompaktem Layout](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# mit kompakter Layout‑Option erstellen – Schritt‑für‑Schritt‑Anleitung und Code‑Beispiele.
+### [Barcode in C# mit Macro PDF417 generieren – vollständiges Beispiel](./generate-barcode-c-with-macro-pdf417-full-example/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen vollständigen Macro PDF417 Barcode in C# erzeugen.
 
 ## Häufig gestellte Fragen
 
