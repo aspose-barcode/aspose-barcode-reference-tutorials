@@ -85,6 +85,12 @@ Utöver grunderna, här är några praktiska tips för att effektivisera ditt ar
 ### [Skapa kompakta PDF417-streckkoder](./compact-pdf417-basic-configuration/)
 Lär dig hur du genererar Compact PDF417‑streckkoder med Aspose.BarCode för .NET. Omfattande guide med steg‑för‑steg‑instruktioner och kodexempel.
 
+### [Generera PDF417-streckkod i C# – komplett guide med kompakt layout](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
+Lär dig steg‑för‑steg hur du skapar PDF417‑streckkoder i C# med kompakt layout med Aspose.BarCode.
+
+### [Generera streckkod C# med Macro PDF417 – fullständigt exempel](./generate-barcode-c-with-macro-pdf417-full-example/)
+Lär dig hur du skapar en fullständig Macro PDF417‑streckkod i C# med Aspose.BarCode.
+
 ## Vanliga frågor
 
 **Q: Vad är den maximala mängden data jag kan lagra i en Compact PDF417‑streckkod?**  
