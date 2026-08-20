@@ -1,5 +1,5 @@
 ---
-title: "Generate DataMatrix Barcode with Aspose.BarCode for .NET – Pro Guide"
+title: "How to Generate DataMatrix Barcodes Using Aspose.BarCode for .NET – Step‑by‑Step Guide"
 linktitle: DataMatrix Barcode Configuration
 second_title: Aspose.BarCode .NET API
 description: "Learn how to generate datamatrix barcode with Aspose.BarCode for .NET, customize aspect ratios, ECC modes, and datamatrix c40 encoding for efficient barcode creation."
@@ -166,23 +166,23 @@ Embedding a URL in the macro portion while keeping product identifiers in the pr
 *Using Aspose.BarCode For .NET Tutorials Listing*
 
 ## DataMatrix barcode configuration tutorials
-### {{< relref "datamatrix-aspect-ratio-customization/_index.md" >}}Customizing DataMatrix aspect ratio{{< /relref >}}
+### [Customizing DataMatrix aspect ratio]({{< relref "datamatrix-aspect-ratio-customization/_index.md" >}})
 Learn how to customize DataMatrix barcode aspect ratios using Aspose.BarCode for .NET. Step-by-step guide for barcode generation.
-### {{< relref "datamatrix-ecc-000-140-configuration/_index.md" >}}Generate DataMatrix ECC 000‑140 barcodes{{< /relref >}}
+### [Generate DataMatrix ECC 000‑140 barcodes]({{< relref "datamatrix-ecc-000-140-configuration/_index.md" >}})
 Create DataMatrix ECC 000‑140 barcodes with ease using Aspose.BarCode for .NET. Boost efficiency in inventory management and more.
-### {{< relref "datamatrix-ecc-200-configuration/_index.md" >}}Generate DataMatrix ECC 200 barcodes{{< /relref >}}
+### [Generate DataMatrix ECC 200 barcodes]({{< relref "datamatrix-ecc-200-configuration/_index.md" >}})
 Learn how to generate DataMatrix ECC 200 barcodes in .NET using Aspose.BarCode. Streamline operations with efficient barcode creation.
-### {{< relref "datamatrix-encoding-mode-ascii/_index.md" >}}Master DataMatrix encoding in ASCII{{< /relref >}}
+### [Master DataMatrix encoding in ASCII]({{< relref "datamatrix-encoding-mode-ascii/_index.md" >}})
 Learn to create DataMatrix barcodes in ASCII mode using Aspose.BarCode for .NET. Step-by-step guide for developers.
-### {{< relref "datamatrix-encoding-mode-auto/_index.md" >}}Generate DataMatrix Mode (Auto){{< /relref >}}
+### [Generate DataMatrix Mode (Auto)]({{< relref "datamatrix-encoding-mode-auto/_index.md" >}})
 Learn how to generate DataMatrix Mode (Auto) with Aspose.BarCode for .NET. This step-by-step guide covers everything from prerequisites to reading barcodes.
-### {{< relref "datamatrix-encoding-mode-bytes/_index.md" >}}DataMatrix Encoding Mode (Bytes){{< /relref >}}
+### [DataMatrix Encoding Mode (Bytes)]({{< relref "datamatrix-encoding-mode-bytes/_index.md" >}})
 Learn how to encode data in DataMatrix format using Bytes mode with Aspose.BarCode for .NET. Follow our step-by-step guide for barcode generation and recognition.
-### {{< relref "datamatrix-encoding-mode-c40/_index.md" >}}Master DataMatrix Encoding Mode (C40){{< /relref >}}
+### [Master DataMatrix Encoding Mode (C40)]({{< relref "datamatrix-encoding-mode-c40/_index.md" >}})
 Learn DataMatrix Encoding Mode (C40) with Aspose.BarCode for .NET. Create custom barcodes efficiently. Explore step-by-step guide.
-### {{< relref "datamatrix-extended-code-text-configuration/_index.md" >}}Configuring DataMatrix code text{{< /relref >}}
+### [Configuring DataMatrix code text]({{< relref "datamatrix-extended-code-text-configuration/_index.md" >}})
 Learn to configure DataMatrix extended code text using Aspose.BarCode for .NET. Generate, recognize, and integrate barcodes in your .NET applications.
-### {{< relref "datamatrix-macro-configuration/_index.md" >}}Master DataMatrix macro configuration{{< /relref >}}
+### [Master DataMatrix macro configuration]({{< relref "datamatrix-macro-configuration/_index.md" >}})
 Learn how to configure DataMatrix Macro barcodes with Aspose.BarCode for .NET. Generate, customize, and recognize DataMatrix barcodes in your .NET applications.
 
 ## Frequently asked questions
@@ -210,9 +210,9 @@ A: Absolutely – the library is fully compatible with .NET Framework, .NET Core
 
 ## Related Tutorials
 
-- {{< relref "datamatrix-ecc-200-configuration/_index.md" >}}How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET{{< /relref >}}
-- {{< relref "datamatrix-encoding-mode-ascii/_index.md" >}}Master DataMatrix Encoding in ASCII with Aspose.BarCode for .NET{{< /relref >}}
-- {{< relref "datamatrix-aspect-ratio-customization/_index.md" >}}Create Barcode PNG – DataMatrix Aspect Ratio – Aspose.BarCode{{< /relref >}}
+- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET]({{< relref "datamatrix-ecc-200-configuration/_index.md" >}})
+- [Master DataMatrix Encoding in ASCII with Aspose.BarCode for .NET]({{< relref "datamatrix-encoding-mode-ascii/_index.md" >}})
+- [Create Barcode PNG – DataMatrix Aspect Ratio – Aspose.BarCode]({{< relref "datamatrix-aspect-ratio-customization/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Set Code Text for a Code128 Barcode in Java"
+title: "Generate a Code128 Barcode and Set Code Text with Aspose.BarCode for Java"
 linktitle: Setting Code Text
 second_title: Aspose.BarCode Java API
 description: "Learn how to create Code128 barcode Java using Aspose.BarCode. This step‑by‑step guide shows how to generate barcode Java, set custom text, adjust bar width, and save the image."
@@ -157,9 +157,9 @@ Aspose.BarCode for Java offers a comprehensive set of features that simplify bar
 
 ## Related Tutorials
 
-- {{< relref "/barcode/java/text-and-styling/setting-code-text-location/" >}}Create data matrix barcode and set code text location in Java{{< /relref >}}
-- {{< relref "/barcode/java/text-and-styling/setting-code-text-foreground-color/" >}}How to Set Barcode Text Color in Java with Aspose.BarCode{{< /relref >}}
-- {{< relref "/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/" >}}Generate Barcode Java – Set Image Resolution with Aspose.BarCode{{< /relref >}}
+- [Create data matrix barcode and set code text location in Java]({{< relref "/barcode/java/text-and-styling/setting-code-text-location/" >}})
+- [How to Set Barcode Text Color in Java with Aspose.BarCode]({{< relref "/barcode/java/text-and-styling/setting-code-text-foreground-color/" >}})
+- [Generate Barcode Java – Set Image Resolution with Aspose.BarCode]({{< relref "/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/" >}})
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;

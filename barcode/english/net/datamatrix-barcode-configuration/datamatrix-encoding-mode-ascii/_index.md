@@ -1,5 +1,5 @@
 ---
-title: Generate DataMatrix barcode in ASCII mode using Aspose.BarCode for .NET
+title: Generate a DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET (C#)
 linktitle: DataMatrix Encoding Mode (ASCII)
 second_title: Aspose.BarCode .NET API
 description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode for .NET. This guide shows how to generate barcode C# quickly.

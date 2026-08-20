@@ -1,5 +1,5 @@
 ---
-title: DataMatrix C40 Encoding Example for .NET
+title: Generate DataMatrix C40 Barcodes with Aspose.BarCode for .NET
 linktitle: DataMatrix Encoding Mode (C40)
 second_title: Aspose.BarCode .NET API
 description: Learn how to generate DataMatrix barcodes and save PNG using C40 encoding with Aspose.BarCode – full guide for .NET Core barcode generation.

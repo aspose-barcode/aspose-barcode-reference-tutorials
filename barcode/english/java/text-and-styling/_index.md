@@ -1,5 +1,5 @@
 ---
-title: "Generate and Position Barcode Text in Java with Aspose.BarCode – Customize Text and Styling"
+title: "Learn How to Generate and Position Barcode Text in Java with Aspose.BarCode – Customize Text and Styling"
 linktitle: "Text and Styling"
 second_title: "Aspose.BarCode Java API"
 description: "Learn how to position barcode text java, customize barcode text, and generate barcodes with captions using Aspose.BarCode. Enhance visuals, set colors, and style text effortlessly."
@@ -13,14 +13,14 @@ keywords:
 - Aspose.BarCode Java
 schemas:
 - type: TechArticle
-  headline: "Generate and Position Barcode Text in Java with Aspose.BarCode – Customize Text and Styling"
+  headline: "Learn How to Generate and Position Barcode Text in Java with Aspose.BarCode – Customize Text and Styling"
   description: Learn how to position barcode text java, customize barcode text, and
     generate barcodes with captions using Aspose.BarCode. Enhance visuals, set colors,
     and style text effortlessly.
   dateModified: '2026-06-09'
   author: Aspose
 - type: HowTo
-  name: "Generate and Position Barcode Text in Java with Aspose.BarCode – Customize Text and Styling"
+  name: "Learn How to Generate and Position Barcode Text in Java with Aspose.BarCode – Customize Text and Styling"
   description: Learn how to position barcode text java, customize barcode text, and
     generate barcodes with captions using Aspose.BarCode. Enhance visuals, set colors,
     and style text effortlessly.
@@ -162,25 +162,25 @@ A: A free trial license works for development and testing; a full license is req
 **Author:** Aspose  
 
 ## Text and Styling Tutorials
-{{< relref "adding-caption-barcode" >}}Adding caption to barcode in java{{< /relref >}}
+[Adding caption to barcode in java]({{< relref "adding-caption-barcode" >}})
 Learn how to enhance barcode visuals in Java with Aspose.BarCode. Add captions effortlessly for improved user experience.  
 
-{{< relref "setting-code-text-foreground-color" >}}Setting code text foreground color in java{{< /relref >}}
+[Setting code text foreground color in java]({{< relref "setting-code-text-foreground-color" >}})
 Generate dynamic barcodes in Java effortlessly with Aspose.BarCode. Customize code text foreground color with ease using our step‑by‑step guide.  
 
-{{< relref "setting-code-text-location" >}}Setting code text location in java{{< /relref >}}
+[Setting code text location in java]({{< relref "setting-code-text-location" >}})
 Generate dynamic barcodes effortlessly in Java with Aspose.BarCode. Follow our step‑by‑step guide for code text customization and elevate your application's functionality.  
 
-{{< relref "setting-code-text" >}}Setting code text in java{{< /relref >}}
+[Setting code text in java]({{< relref "setting-code-text" >}})
 Generate barcodes effortlessly in Java with Aspose.BarCode. Follow our step‑by‑step guide for efficient code text customization.
 
 ## Related Tutorials
 
-{{< relref "/barcode/java/text-and-styling/setting-code-text-location/" >}}Create data matrix barcode and set code text location in Java{{< /relref >}}
+[Create data matrix barcode and set code text location in Java]({{< relref "/barcode/java/text-and-styling/setting-code-text-location/" >}})
 
-{{< relref "/barcode/java/text-and-styling/setting-code-text-foreground-color/" >}}How to Set Barcode Text Color in Java with Aspose.BarCode{{< /relref >}}
+[How to Set Barcode Text Color in Java with Aspose.BarCode]({{< relref "/barcode/java/text-and-styling/setting-code-text-foreground-color/" >}})
 
-{{< relref "/barcode/java/text-and-styling/adding-caption-barcode/" >}}How to Add Caption to Barcode in Java Using Aspose.BarCode{{< /relref >}}
+[How to Add Caption to Barcode in Java Using Aspose.BarCode]({{< relref "/barcode/java/text-and-styling/adding-caption-barcode/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
