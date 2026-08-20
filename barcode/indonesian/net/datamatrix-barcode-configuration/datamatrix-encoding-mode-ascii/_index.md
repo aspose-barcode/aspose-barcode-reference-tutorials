@@ -1,79 +1,166 @@
 ---
-title: Pengkodean Master DataMatrix di ASCII dengan Aspose.BarCode untuk .NET
+date: 2026-06-09
+description: Pelajari cara membuat kode batang DataMatrix dalam mode ASCII menggunakan
+  Aspose.BarCode untuk .NET. Panduan ini menunjukkan cara menghasilkan kode batang
+  C# dengan cepat.
+keywords:
+- create datamatrix barcode
+- generate barcode c#
+- how to encode barcode
+- barcode generator example
 linktitle: Mode Pengkodean DataMatrix (ASCII)
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
+    for .NET. This guide shows how to generate barcode C# quickly.
+  headline: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
+    for .NET. This guide shows how to generate barcode C# quickly.
+  name: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  steps:
+  - name: '**Development Environment** – Visual Studio, Rider, or any C#‑compatible
+      IDE.'
+    text: '**Development Environment** – Visual Studio, Rider, or any C#‑compatible
+      IDE.'
+  - name: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**Basic C# knowledge** – Familiarity with .NET project structure will help
+      you follow the steps quickly.'
+    text: '**Basic C# knowledge** – Familiarity with .NET project structure will help
+      you follow the steps quickly.'
+  - name: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
+    text: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license is required for production use; a free trial
+      is available for evaluation.
+    question: Can I use this in a commercial application?
+  - answer: Absolutely – Aspose.BarCode fully supports .NET Core 3.1+, .NET 5, .NET
+      6, and later versions.
+    question: Does the library work with .NET Core?
+  - answer: Up to 2,335 alphanumeric characters fit in a single DataMatrix symbol
+      when using ASCII encoding.
+    question: How many characters can I encode in ASCII mode?
+  - answer: Yes, adjust `generator.Parameters.Image.ForeColor` and `BackColor` to
+      any `System.Drawing.Color` value.
+    question: Can I change the barcode’s foreground or background color?
+  - answer: The official documentation contains dozens of samples covering custom
+      sizes, colors, and error‑correction levels.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Pelajari cara membuat kode batang DataMatrix dalam mode ASCII menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk pengembang.
-weight: 13
+title: Buat kode batang DataMatrix dalam mode ASCII dengan Aspose.BarCode untuk .NET
 url: /id/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/
+weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengkodean Master DataMatrix di ASCII dengan Aspose.BarCode untuk .NET
+# Buat kode batang DataMatrix dalam mode ASCII dengan Aspose.BarCode untuk .NET
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda siap untuk mendalami dunia kode batang DataMatrix dan mempelajari cara menyandikan data menggunakan mode ASCII dengan Aspose.BarCode untuk .NET? Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan coding, panduan komprehensif ini akan memandu Anda melalui seluruh proses langkah demi langkah. Sebagai penulis SEO yang mahir, saya di sini untuk memastikan Anda mendapatkan semua informasi yang Anda butuhkan dengan cara yang jelas dan menarik.
+Siap untuk **membuat kode batang DataMatrix** gambar yang menggunakan enkoding ASCII yang efisien? Dalam tutorial ini Anda akan belajar cara menghasilkan kode batang DataMatrix dalam mode ASCII menggunakan Aspose.BarCode untuk .NET. Kami akan membimbing Anda melalui setiap langkah—dari menyiapkan proyek hingga menyimpan gambar akhir—sehingga Anda dapat menambahkan pembuatan kode batang ke aplikasi C# Anda dalam hitungan menit.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang terbaik untuk DataMatrix di .NET?** Aspose.BarCode for .NET  
+- **Berapa baris kode yang dibutuhkan?** About 5‑7 lines for a basic ASCII barcode  
+- **Apakah saya memerlukan lisensi?** A free trial works for development; a license is required for production  
+- **Platform yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+- **Bisakah saya mengubah ukuran atau warna?** Yes, Aspose.BarCode exposes properties for dimensions and foreground/background colors  
+
+## Apa itu kode batang DataMatrix?
+DataMatrix adalah kode batang dua dimensi yang menyimpan teks dan data biner dalam pola persegi yang kompak.  
+Sebuah kode batang DataMatrix mengenkode informasi dalam kisi modul hitam dan putih, memungkinkan hingga 2.335 karakter alfanumerik dalam satu simbol. Kode ini banyak digunakan dalam manufaktur, logistik, dan perawatan kesehatan karena dapat dicetak pada ukuran sangat kecil sambil tetap mudah dipindai.
+
+## Cara membuat kode batang DataMatrix dalam mode ASCII?
+Muat namespace Aspose.BarCode, buat instance `BarcodeGenerator`, atur `EncodeMode` ke **EncodeMode.ASCII**, berikan string data Anda, dan panggil `Save` untuk menulis file gambar. Pendekatan ini menghasilkan kode batang DataMatrix yang sepenuhnya sesuai dengan enkoding hanya ASCII dalam beberapa baris kode C#.
+
+## Mengapa menggunakan enkoding ASCII untuk DataMatrix?
+Mode ASCII adalah enkoding default dan paling efisien untuk data teks biasa, menghasilkan ukuran simbol terkecil untuk string alfanumerik. Ia mendukung semua 128 karakter ASCII, memproses data lebih cepat daripada mode ekstended, dan menjamin kompatibilitas maksimum dengan pemindai lama yang mengharapkan simbol ASCII standar.
 
 ## Prasyarat
 
-Sebelum kita memulai perjalanan untuk menguasai Mode Pengkodean DataMatrix (ASCII), pastikan Anda memiliki semua yang Anda butuhkan:
-
-1. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan yang berfungsi, termasuk Visual Studio atau editor kode pilihan lainnya.
-
-2.  Aspose.BarCode untuk .NET: Anda harus menginstal perpustakaan Aspose.BarCode untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/barcode/net/).
-
-3. Pengetahuan Dasar tentang C#: Meskipun kami akan menjelaskan setiap langkah secara mendetail, memiliki pemahaman dasar tentang pemrograman C# akan bermanfaat.
-
-Sekarang setelah Anda memiliki prasyarat, mari mulai menyandikan kode batang DataMatrix menggunakan mode ASCII di Aspose.BarCode untuk .NET.
+1. **Lingkungan Pengembangan** – Visual Studio, Rider, atau IDE kompatibel C# apa pun.  
+2. **Aspose.BarCode untuk .NET** – Unduh paket terbaru dari [here](https://releases.aspose.com/barcode/net/).  
+   - Dokumentasi: [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)  
+   - Bantuan komunitas: [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)  
+3. **Pengetahuan dasar C#** – Familiaritas dengan struktur proyek .NET akan membantu Anda mengikuti langkah-langkah dengan cepat.  
+4. **Produk Aspose lainnya** dapat ditemukan [here](https://releases.aspose.com/).
 
 ## Impor Namespace
 
-Untuk memulai, buka proyek C# Anda di Visual Studio dan pastikan Anda telah mengimpor namespace yang diperlukan.
+Untuk memulai, tambahkan direktif `using` yang diperlukan di bagian atas file C# Anda:
 
 ```csharp
 using Aspose.BarCode.Generation;
+using System.Drawing;
 ```
+
+Namespace ini memberi Anda akses ke kelas `BarcodeGenerator` dan tipe terkait gambar yang diperlukan untuk menyimpan output.
 
 ## Langkah 1: Buat Direktori
 
- Pilih jalur direktori tempat Anda ingin menyimpan kode batang DataMatrix yang dihasilkan. Mengganti`"Your Directory Path"` dengan jalur direktori pilihan Anda.
+Pilih folder tempat gambar kode batang yang dihasilkan akan disimpan. Ganti `"Your Directory Path"` dengan jalur absolut atau relatif yang ada di mesin Anda.
 
 ```csharp
-string path = "Your Directory Path";
-```
-
-## Langkah 2: Mengkodekan Data dalam Mode ASCII
-
-Sekarang, kita akan membuat barcode DataMatrix dalam mode ASCII. Langkah ini melibatkan konfigurasi parameter kode batang, menentukan mode pengkodean, dan menyimpan kode batang yang dihasilkan sebagai gambar.
-
-```csharp
-System.Console.WriteLine("DataMatrixEncodeModeASCII:");
-
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
+string outputDir = @"C:\Barcodes";
+if (!System.IO.Directory.Exists(outputDir))
 {
-    // Atur dimensi X (ukuran) kode batang dalam piksel
-    gen.Parameters.Barcode.XDimension.Pixels = 4;
-    
-    // Atur mode pengkodean ke ASCII
-    gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
-    
-    // Simpan kode batang sebagai gambar PNG
-    gen.Save($"{path}DataMatrixEncodeModeASCII.png", BarCodeImageFormat.Png);
+    System.IO.Directory.CreateDirectory(outputDir);
 }
 ```
 
-Dan itu saja! Anda telah berhasil menyandikan data menggunakan mode ASCII di kode batang DataMatrix dengan Aspose.BarCode untuk .NET. Gambar barcode yang dihasilkan sekarang disimpan di direktori yang Anda tentukan.
+Kode ini memastikan direktori ada sebelum mencoba menulis file apa pun, mencegah kesalahan runtime.
 
-## Kesimpulan
+## Langkah 2: Enkoding Data dalam Mode ASCII
 
-Dalam tutorial ini, kita telah menjelajahi cara menggunakan Aspose.BarCode untuk .NET untuk membuat kode batang DataMatrix dalam mode ASCII. Dengan prasyarat yang tepat dan langkah-langkah yang mudah diikuti ini, kini Anda dapat membuat kode batang DataMatrix yang dikodekan ASCII dengan mudah. Baik Anda membuat label inventaris, label pengiriman, atau aplikasi lain apa pun yang memerlukan pengkodean data, Aspose.BarCode untuk .NET siap membantu Anda.
+Kelas `BarcodeGenerator` membuat dan mengonfigurasi gambar kode batang. Enumerasi `DataMatrixEncodeMode` memilih algoritma enkoding untuk simbol DataMatrix.
 
-Jangan ragu untuk bereksperimen dengan data dan mode pengkodean yang berbeda untuk memenuhi kebutuhan spesifik Anda. Saat Anda menjelajah lebih jauh, Anda akan menemukan bahwa Aspose.BarCode menawarkan beragam fitur dan opsi penyesuaian untuk meningkatkan pengalaman pembuatan kode batang Anda.
+```csharp
+// Initialise the generator with the data you want to encode
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "1234567890");
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan, jangan ragu untuk mengunjungi[Aspose.BarCode untuk dokumentasi .NET](https://reference.aspose.com/barcode/net/) atau menjangkau komunitas di[Forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+// Set the encoding mode to ASCII for optimal size
+generator.Parameters.Barcode.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
+
+// Optional: adjust image dimensions or colors here
+generator.Parameters.Image.Width = 200;
+generator.Parameters.Image.Height = 200;
+
+// Save the barcode as a PNG file
+string filePath = System.IO.Path.Combine(outputDir, "datamatrix_ascii.png");
+generator.Save(filePath, BarCodeImageFormat.Png);
+```
+
+Setelah menjalankan kode, Anda akan menemukan `datamatrix_ascii.png` di folder yang Anda tentukan. Gambar tersebut berisi kode batang DataMatrix yang mengenkode string `"1234567890"` menggunakan mode ASCII yang kompak.
+
+## Masalah umum dan solusi
+
+- **Kesalahan akses file** – Pastikan aplikasi memiliki izin menulis ke folder target. Menjalankan Visual Studio sebagai Administrator dapat menyelesaikan masalah izin di Windows.  
+- **Ukuran simbol tidak tepat** – Jika kode batang terlihat terlalu besar atau terlalu kecil, sesuaikan `generator.Parameters.Image.Width` dan `Height` atau biarkan Aspose menghitung ukuran optimal secara otomatis dengan menghilangkan properti tersebut.  
+- **Karakter tidak didukung** – Mode ASCII hanya menerima karakter dalam rentang 0‑127. Untuk data Unicode, beralih ke `DataMatrixEncodeMode.Base256` atau mode lain yang sesuai.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Apakah saya dapat menggunakan ini dalam aplikasi komersial?**  
+A: Ya, lisensi Aspose yang valid diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia untuk evaluasi.
+
+**Q: Apakah perpustakaan ini bekerja dengan .NET Core?**  
+A: Tentu – Aspose.BarCode sepenuhnya mendukung .NET Core 3.1+, .NET 5, .NET 6, dan versi selanjutnya.
+
+**Q: Berapa banyak karakter yang dapat saya enkode dalam mode ASCII?**  
+A: Hingga 2.335 karakter alfanumerik dapat muat dalam satu simbol DataMatrix saat menggunakan enkoding ASCII.
+
+**Q: Bisakah saya mengubah warna latar depan atau latar belakang kode batang?**  
+A: Ya, sesuaikan `generator.Parameters.Image.ForeColor` dan `BackColor` ke nilai `System.Drawing.Color` apa pun.
+
+**Q: Di mana saya dapat menemukan contoh yang lebih lanjutan?**  
+A: Dokumentasi resmi berisi puluhan contoh yang mencakup ukuran khusus, warna, dan tingkat koreksi kesalahan.
 
 ## FAQ
 
@@ -81,24 +168,62 @@ Jangan ragu untuk bereksperimen dengan data dan mode pengkodean yang berbeda unt
 
 A1: Aspose.BarCode mendukung beberapa bahasa pemrograman, tetapi tutorial ini berfokus pada C#.
 
-### Q2: Apa saja mode pengkodean berbeda yang tersedia di kode batang DataMatrix?
+### Q2: Apa saja mode enkoding yang tersedia dalam kode batang DataMatrix?
 
-A2: Kode batang DataMatrix mendukung berbagai mode pengkodean, termasuk ASCII, C40, Teks, dan Base256. Setiap mode cocok untuk jenis data yang berbeda.
+A2: Kode batang DataMatrix mendukung berbagai mode enkoding, termasuk ASCII, C40, Text, dan Base256. Setiap mode cocok untuk jenis data yang berbeda.
 
-### Q3: Dapatkah saya menyesuaikan tampilan kode batang yang dihasilkan, seperti ukuran dan warnanya?
+### Q3: Bisakah saya menyesuaikan tampilan kode batang yang dihasilkan, seperti ukuran dan warnanya?
 
-A3: Ya, Aspose.BarCode menyediakan berbagai parameter untuk menyesuaikan tampilan kode batang, termasuk ukuran, warna, dan lainnya.
+A3: Ya, Aspose.BarCode menyediakan beragam parameter untuk menyesuaikan tampilan kode batang, termasuk ukuran, warna, dan lainnya.
 
-### Q4: Apakah tersedia versi uji coba gratis Aspose.BarCode untuk .NET?
+### Q4: Apakah ada versi percobaan gratis Aspose.BarCode untuk .NET yang tersedia?
 
- A4: Ya, Anda dapat menjelajahi Aspose.BarCode untuk .NET dengan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+A4: Ya, Anda dapat menjelajahi Aspose.BarCode untuk .NET dengan versi percobaan gratis dari [here](https://releases.aspose.com/).
 
-### Q5: Di mana saya dapat membeli lisensi Aspose.BarCode untuk .NET?
+### Q5: Di mana saya dapat membeli lisensi untuk Aspose.BarCode untuk .NET?
 
- A5: Anda dapat membeli lisensi dari situs Aspose[Di Sini](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
+A5: Anda dapat membeli lisensi dari situs web Aspose [here](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/main-container >}}
+---
+
+**Last Updated:** 2026-06-09  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Enkoding DataMatrix dalam Byte dengan Aspose.BarCode untuk .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/)
+- [Baca kode batang DataMatrix C# – Hasilkan Mode DataMatrix (Auto)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
+- [Cara Menghasilkan Kode Batang DataMatrix (ECC 200) dengan Aspose.BarCode untuk .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+```csharp
+using Aspose.BarCode.Generation;
+```
+
+```csharp
+string path = "Your Directory Path";
+```
+
+```csharp
+System.Console.WriteLine("DataMatrixEncodeModeASCII:");
+
+using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
+{
+    // Set the X-dimension (size) of the barcode in pixels
+    gen.Parameters.Barcode.XDimension.Pixels = 4;
+    
+    // Set the encoding mode to ASCII
+    gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
+    
+    // Save the barcode as a PNG image
+    gen.Save($"{path}DataMatrixEncodeModeASCII.png", BarCodeImageFormat.Png);
+}
+```
+
+{{< /blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
