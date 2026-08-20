@@ -168,9 +168,9 @@ Congratulations! You’ve now mastered **read barcode java** using Aspose.BarCod
 
 ## Related Tutorials
 
-- {{< relref "/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/" >}}Read Barcode from Image – Mastering Barcode Region Extraction in Java with Aspose.BarCode{{< /relref >}}
-- {{< relref "/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/" >}}High Performance Barcode Reader: Faster Image Processing for Barcode Recognition in Java with Aspose.BarCode{{< /relref >}}
-- {{< relref "/barcode/java/document-barcode-recognition/recognizing-barcodes-from-pdf/" >}}Recognizing Barcodes from PDF in Java{{< /relref >}}
+- [Read Barcode from Image – Mastering Barcode Region Extraction in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
+- [High Performance Barcode Reader: Faster Image Processing for Barcode Recognition in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [Recognizing Barcodes from PDF in Java](/barcode/java/document-barcode-recognition/recognizing-barcodes-from-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

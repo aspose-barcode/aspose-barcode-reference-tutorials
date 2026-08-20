@@ -156,9 +156,9 @@ A: Use `bb.getParameters().getImage().setBackgroundColor(Color.getWhite());` bef
 
 ## Related Tutorials
 
-- {{< relref "/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/" >}}Generate Barcode Java – Set Image Resolution with Aspose.BarCode{{< /relref >}}
-- {{< relref "/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/" >}}High Performance Barcode Reader: Faster Image Processing for Barcode Recognition in Java with Aspose.BarCode{{< /relref >}}
-- {{< relref "/barcode/java/barcode-basics/creating-image-exact-barcode/" >}}How to Generate Barcode in Java: Create an Exact Barcode Image{{< /relref >}}
+- [Generate Barcode Java – Set Image Resolution with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+- [High Performance Barcode Reader: Faster Image Processing for Barcode Recognition in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [How to Generate Barcode in Java: Create an Exact Barcode Image](/barcode/java/barcode-basics/creating-image-exact-barcode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

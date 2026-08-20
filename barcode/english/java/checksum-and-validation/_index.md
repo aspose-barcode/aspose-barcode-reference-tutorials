@@ -92,13 +92,13 @@ To validate a barcode, read the image with `BarcodeReader`, retrieve the decoded
   **Tip**: Keep the library up‑to‑date (latest version recommended).
 
 ## Checksum and Validation Tutorials
-{{< relref "./always-showing-checksum" >}}Always showing checksum in Java{{< /relref >}}
+[Always showing checksum in Java](./always-showing-checksum/)
 Generate barcodes with Aspose.BarCode for Java effortlessly. Learn how to always display checksums for enhanced data integrity in this step‑by‑step guide.  
 
-{{< relref "./applying-checksum-codabar" >}}Applying checksum for Codabar in Java{{< /relref >}}
+[Applying checksum for Codabar in Java](./applying-checksum-codabar/)
 Learn how to apply checksum for Codabar in Java using Aspose.BarCode. Generate and recognize barcodes effortlessly with this step‑by‑step guide.  
 
-{{< relref "./applying-checksum-validation" >}}Applying checksum validation in Java{{< /relref >}}
+[Applying checksum validation in Java](./applying-checksum-validation/)
 Master barcode validation in Java effortlessly with Aspose.BarCode. Step‑by‑step guide for checksum validation. Boost your software's data integrity!
 
 ## Frequently asked questions
@@ -128,9 +128,9 @@ A: Any IDE that supports Java 8 or later—IntelliJ IDEA, Eclipse, NetBeans,
 
 ## Related Tutorials
 
-{{< relref "/barcode/java/checksum-and-validation/applying-checksum-codabar" >}}How to create Codabar barcode image with checksum in Java{{< /relref >}}
-{{< relref "/barcode/java/checksum-and-validation/always-showing-checksum" >}}How to create barcode with checksum in Java{{< /relref >}}
-{{< relref "/barcode/java" >}}Generate Barcode Java – Comprehensive Aspose.BarCode Tutorials{{< /relref >}}
+[How to create Codabar barcode image with checksum in Java](/barcode/java/checksum-and-validation/applying-checksum-codabar/)
+[How to create barcode with checksum in Java](/barcode/java/checksum-and-validation/always-showing-checksum/)
+[Generate Barcode Java – Comprehensive Aspose.BarCode Tutorials](/barcode/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
