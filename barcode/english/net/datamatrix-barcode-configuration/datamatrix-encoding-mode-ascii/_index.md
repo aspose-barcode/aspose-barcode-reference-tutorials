@@ -1,5 +1,5 @@
 ---
-title: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+title: Generate DataMatrix barcode in ASCII mode using Aspose.BarCode for .NET
 linktitle: DataMatrix Encoding Mode (ASCII)
 second_title: Aspose.BarCode .NET API
 description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode for .NET. This guide shows how to generate barcode C# quickly.
@@ -13,13 +13,13 @@ keywords:
 - barcode generator example
 schemas:
 - type: TechArticle
-  headline: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  headline: Generate DataMatrix barcode in ASCII mode using Aspose.BarCode for .NET
   description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
     for .NET. This guide shows how to generate barcode C# quickly.
   dateModified: '2026-06-09'
   author: Aspose
 - type: HowTo
-  name: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  name: Generate DataMatrix barcode in ASCII mode using Aspose.BarCode for .NET
   description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
     for .NET. This guide shows how to generate barcode C# quickly.
   steps:
@@ -27,14 +27,14 @@ schemas:
       IDE.'
     text: '**Development Environment** – Visual Studio, Rider, or any C#‑compatible
       IDE.'
-  - name: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
-    text: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**Aspose.BarCode for .NET** – Download the latest package from [Aspose.BarCode .NET download page](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – Download the latest package from [Aspose.BarCode .NET download page](https://releases.aspose.com/barcode/net/).'
   - name: '**Basic C# knowledge** – Familiarity with .NET project structure will help
       you follow the steps quickly.'
     text: '**Basic C# knowledge** – Familiarity with .NET project structure will help
       you follow the steps quickly.'
-  - name: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
-    text: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
+  - name: '**Other Aspose products** can be found [Aspose product releases page](https://releases.aspose.com/).'
+    text: '**Other Aspose products** can be found [Aspose product releases page](https://releases.aspose.com/).'
 - type: FAQPage
   questions:
   - question: Can I use this in a commercial application?
@@ -84,11 +84,11 @@ ASCII mode is the default and most efficient encoding for plain‑text data, del
 ## Prerequisites
 
 1. **Development Environment** – Visual Studio, Rider, or any C#‑compatible IDE.  
-2. **Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).  
+2. **Aspose.BarCode for .NET** – Download the latest package from [Aspose.BarCode .NET download page](https://releases.aspose.com/barcode/net/).  
    - Documentation: [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)  
    - Community help: [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)  
 3. **Basic C# knowledge** – Familiarity with .NET project structure will help you follow the steps quickly.  
-4. **Other Aspose products** can be found [here](https://releases.aspose.com/).
+4. **Other Aspose products** can be found [Aspose product releases page](https://releases.aspose.com/).
 
 ## Import Namespaces
 
@@ -101,7 +101,7 @@ using System.Drawing;
 
 These namespaces give you access to the `BarcodeGenerator` class and the image‑related types needed for saving the output.
 
-## Step 1: Create a Directory
+## Step 1: create a directory
 
 Choose a folder where the generated barcode images will be stored. Replace `"Your Directory Path"` with an absolute or relative path that exists on your machine.
 
@@ -115,7 +115,7 @@ if (!System.IO.Directory.Exists(outputDir))
 
 The code ensures the directory exists before attempting to write any files, preventing runtime errors.
 
-## Step 2: Encoding Data in ASCII Mode
+## Step 2: encoding data in ASCII mode
 
 The `BarcodeGenerator` class creates and configures barcode images. The `DataMatrixEncodeMode` enumeration selects the encoding algorithm for DataMatrix symbols.
 
@@ -143,7 +143,7 @@ After running the code, you’ll find `datamatrix_ascii.png` in the folder you s
 - **Incorrect symbol size** – If the barcode appears too large or too small, tweak `generator.Parameters.Image.Width` and `Height` or let Aspose automatically calculate the optimal size by omitting those properties.  
 - **Unsupported characters** – ASCII mode only accepts characters in the 0‑127 range. For Unicode data, switch to `DataMatrixEncodeMode.Base256` or another suitable mode.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this in a commercial application?**  
 A: Yes, a valid Aspose license is required for production use; a free trial is available for evaluation.
@@ -176,11 +176,11 @@ A3: Yes, Aspose.BarCode provides a wide range of parameters for customizing barc
 
 ### Q4: Is there a free trial version of Aspose.BarCode for .NET available?
 
-A4: Yes, you can explore Aspose.BarCode for .NET with a free trial from [here](https://releases.aspose.com/).
+A4: Yes, you can explore Aspose.BarCode for .NET with a free trial from [Aspose.BarCode free trial page](https://releases.aspose.com/).
 
 ### Q5: Where can I purchase a license for Aspose.BarCode for .NET?
 
-A5: You can purchase a license from the Aspose website [here](https://purchase.aspose.com/buy).
+A5: You can purchase a license from the Aspose website [Aspose BarCode license purchase page](https://purchase.aspose.com/buy).
 
 ---
 
@@ -190,14 +190,9 @@ A5: You can purchase a license from the Aspose website [here](https://purchase.a
 
 ## Related Tutorials
 
-- [DataMatrix Encoding in Bytes with Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/)
-- [Read DataMatrix barcode C# – Generate DataMatrix Mode (Auto)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
-- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
+- [DataMatrix Encoding in Bytes with Aspose.BarCode for .NET]({{< relref "barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/_index.md" >}})
+- [Read DataMatrix barcode C# – Generate DataMatrix Mode (Auto)]({{< relref "barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/_index.md" >}})
+- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET]({{< relref "barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/_index.md" >}})
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -223,5 +218,9 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspo
 }
 ```
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

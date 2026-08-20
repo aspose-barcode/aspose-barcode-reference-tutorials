@@ -1,5 +1,5 @@
 ---
-title: "Generate DataMatrix Barcode – Pro Guide with Aspose.BarCode"
+title: "Generate DataMatrix Barcode with Aspose.BarCode for .NET – Pro Guide"
 linktitle: DataMatrix Barcode Configuration
 second_title: Aspose.BarCode .NET API
 description: "Learn how to generate datamatrix barcode with Aspose.BarCode for .NET, customize aspect ratios, ECC modes, and datamatrix c40 encoding for efficient barcode creation."
@@ -86,6 +86,17 @@ The `AspectRatio` property of `BarCodeGenerator` controls the width‑to‑heigh
 2. **Adjust** `AspectRatio` to your desired value.  
 3. **Generate** the image and verify with a scanner or Aspose’s built‑in reader.
 
+```csharp
+// Example: Generate a DataMatrix barcode with custom aspect ratio and ECC 200
+using Aspose.BarCode.Generation;
+
+var generator = new BarCodeGenerator(EncodeTypes.DataMatrix);
+generator.Parameters.Barcode.DataMatrix.AspectRatio = 1.2;
+generator.Parameters.Barcode.DataMatrix.EccMode = DataMatrixEccMode.Ecc200;
+generator.Parameters.Barcode.CodeText = "ABC12345";
+generator.Save("datamatrix.png", BarCodeImageFormat.Png);
+```
+
 ## How to generate DataMatrix ECC 000‑140 barcodes
 ECC 000‑140 is ideal for short data strings where a compact symbol is required, offering up to 140 error‑correction codewords. `DataMatrixEccMode.Ecc000140` selects the ECC 000‑140 error‑correction scheme for DataMatrix.  
 
@@ -154,27 +165,27 @@ Embedding a URL in the macro portion while keeping product identifiers in the pr
 
 *Using Aspose.BarCode For .NET Tutorials Listing*
 
-## DataMatrix Barcode Configuration Tutorials
-### [Customizing DataMatrix Aspect Ratio](./datamatrix-aspect-ratio-customization/)
+## DataMatrix barcode configuration tutorials
+### {{< relref "datamatrix-aspect-ratio-customization/_index.md" >}}Customizing DataMatrix aspect ratio{{< /relref >}}
 Learn how to customize DataMatrix barcode aspect ratios using Aspose.BarCode for .NET. Step-by-step guide for barcode generation.
-### [Generate DataMatrix ECC 000-140 Barcodes](./datamatrix-ecc-000-140-configuration/)
-Create DataMatrix ECC 000-140 barcodes with ease using Aspose.BarCode for .NET. Boost efficiency in inventory management and more.
-### [Generate DataMatrix ECC 200 Barcodes](./datamatrix-ecc-200-configuration/)
+### {{< relref "datamatrix-ecc-000-140-configuration/_index.md" >}}Generate DataMatrix ECC 000‑140 barcodes{{< /relref >}}
+Create DataMatrix ECC 000‑140 barcodes with ease using Aspose.BarCode for .NET. Boost efficiency in inventory management and more.
+### {{< relref "datamatrix-ecc-200-configuration/_index.md" >}}Generate DataMatrix ECC 200 barcodes{{< /relref >}}
 Learn how to generate DataMatrix ECC 200 barcodes in .NET using Aspose.BarCode. Streamline operations with efficient barcode creation.
-### [Master DataMatrix Encoding in ASCII](./datamatrix-encoding-mode-ascii/)
+### {{< relref "datamatrix-encoding-mode-ascii/_index.md" >}}Master DataMatrix encoding in ASCII{{< /relref >}}
 Learn to create DataMatrix barcodes in ASCII mode using Aspose.BarCode for .NET. Step-by-step guide for developers.
-### [Generate DataMatrix Mode (Auto)](./datamatrix-encoding-mode-auto/)
+### {{< relref "datamatrix-encoding-mode-auto/_index.md" >}}Generate DataMatrix Mode (Auto){{< /relref >}}
 Learn how to generate DataMatrix Mode (Auto) with Aspose.BarCode for .NET. This step-by-step guide covers everything from prerequisites to reading barcodes.
-### [DataMatrix Encoding Mode (Bytes)](./datamatrix-encoding-mode-bytes/)
+### {{< relref "datamatrix-encoding-mode-bytes/_index.md" >}}DataMatrix Encoding Mode (Bytes){{< /relref >}}
 Learn how to encode data in DataMatrix format using Bytes mode with Aspose.BarCode for .NET. Follow our step-by-step guide for barcode generation and recognition.
-### [Master DataMatrix Encoding Mode (C40)](./datamatrix-encoding-mode-c40/)
+### {{< relref "datamatrix-encoding-mode-c40/_index.md" >}}Master DataMatrix Encoding Mode (C40){{< /relref >}}
 Learn DataMatrix Encoding Mode (C40) with Aspose.BarCode for .NET. Create custom barcodes efficiently. Explore step-by-step guide.
-### [Configuring DataMatrix Code Text](./datamatrix-extended-code-text-configuration/)
+### {{< relref "datamatrix-extended-code-text-configuration/_index.md" >}}Configuring DataMatrix code text{{< /relref >}}
 Learn to configure DataMatrix extended code text using Aspose.BarCode for .NET. Generate, recognize, and integrate barcodes in your .NET applications.
-### [Master DataMatrix Macro Configuration](./datamatrix-macro-configuration/)
+### {{< relref "datamatrix-macro-configuration/_index.md" >}}Master DataMatrix macro configuration{{< /relref >}}
 Learn how to configure DataMatrix Macro barcodes with Aspose.BarCode for .NET. Generate, customize, and recognize DataMatrix barcodes in your .NET applications.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I decide which ECC mode to use?**  
 A: Choose ECC 000‑140 for small data sets with limited error correction, or ECC 200 for larger data and higher reliability. Macro mode adds an extra data layer for linking.
@@ -199,12 +210,13 @@ A: Absolutely – the library is fully compatible with .NET Framework, .NET Core
 
 ## Related Tutorials
 
-- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-- [Master DataMatrix Encoding in ASCII with Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/)
-- [Create Barcode PNG – DataMatrix Aspect Ratio – Aspose.BarCode](/barcode/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/)
-
+- {{< relref "datamatrix-ecc-200-configuration/_index.md" >}}How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET{{< /relref >}}
+- {{< relref "datamatrix-encoding-mode-ascii/_index.md" >}}Master DataMatrix Encoding in ASCII with Aspose.BarCode for .NET{{< /relref >}}
+- {{< relref "datamatrix-aspect-ratio-customization/_index.md" >}}Create Barcode PNG – DataMatrix Aspect Ratio – Aspose.BarCode{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
