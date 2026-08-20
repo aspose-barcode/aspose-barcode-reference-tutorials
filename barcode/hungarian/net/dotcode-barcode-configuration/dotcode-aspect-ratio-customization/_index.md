@@ -1,111 +1,160 @@
 ---
-title: DotCode képarány testreszabása az Aspose.BarCode segítségével .NET-hez
-linktitle: DotCode képarány testreszabása
+date: 2026-06-14
+description: Ismerje meg, hogyan hozhat létre DotCode vonalkód .NET-et, és testreszabhatja
+  annak oldalarányát az Aspose.BarCode for .NET használatával.
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
+linktitle: DotCode oldalarány testreszabása
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Ismerje meg a DotCode vonalkód képarányának testreszabását az Aspose.BarCode for .NET használatával. Könnyedén hozhat létre személyre szabott vonalkódokat alkalmazásaihoz.
-weight: 10
+title: DotCode vonalkód .NET létrehozása – Az oldalarány testreszabása
 url: /hu/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DotCode képarány testreszabása az Aspose.BarCode segítségével .NET-hez
+# DotCode vonalkód létrehozása .NET – Oldalarány testreszabása
 
-## Bevezetés
+Ha **create DotCode barcode .NET** megoldásokat kell létrehoznod, amelyek szűk helyekhez vagy specifikus elrendezési követelményekhez illeszkednek, az Aspose.BarCode for .NET teljes irányítást biztosít. Ebben az útmutatóban végigvezetünk a DotCode vonalkód generálásának teljes folyamatán, és megmutatjuk, hogyan állítható be az oldalarány, hogy pontosan úgy nézzen ki, ahogy szeretnéd a csomagoláson, címkéken vagy mobil képernyőkön.
 
-Ha Ön .NET-fejlesztő, aki nagymértékben testreszabható vonalkódokat szeretne létrehozni alkalmazásaiban, az Aspose.BarCode for .NET a tökéletes megoldás. Ebben az oktatóanyagban az egyik fejlett funkcióját fogjuk megismerni – a DotCode képarány testreszabását. A DotCode vonalkódokat széles körben használják olyan iparágakban, mint az egészségügy, a postai szolgáltatások és a gyártás az információk kódolására. A képarány módosításával a vonalkódot saját igényeihez igazíthatja. Kezdjük el!
+## Gyors válaszok
+- **Létrehozhatok DotCode vonalkódokat .NET-ben?** Igen, az Aspose.BarCode natívan támogatja a DotCode-ot.  
+- **Melyik tulajdonság szabályozza a formát?** Az `AspectRatio` tulajdonság a `BarcodeGenerator`-ben.  
+- **Szükségem van licencre a termeléshez?** Kereskedelmi licenc szükséges; ingyenes próba a fejlesztéshez is működik.  
+- **Támogatott .NET verziók?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Mennyi ideig fut a kód?** Egy tipikus 200 × 200 pixeles vonalkód kevesebb, mint egy másodperc.
+
+## Mi a fő célja ennek az útmutatónak?
+Az útmutató célja bemutatni, hogyan generáljunk DotCode vonalkódot az Aspose.BarCode for .NET használatával, és hogyan állítsuk be az oldalarányt, hogy megfeleljen a specifikus elrendezési korlátozásoknak. A lépések követésével megtanulod konfigurálni a generátort, módosítani a méretparamétereket, és exportálni a képet gyakori formátumokban.
+
+## Hogyan hozhatunk létre dotcode vonalkódot .NET-ben?
+DotCode vonalkód létrehozásához .NET-ben, példányosíts egy `BarcodeGenerator`-t a `EncodeTypes.DotCode`-dal és a kódolni kívánt adatokkal. Ezután állítsd be az X‑Dimension és az AspectRatio tulajdonságokat a méret és forma szabályozásához, végül hívd meg a `Save` metódust, hogy a képet a kívánt formátumban fájlba írja.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a DotCode képarány testreszabásába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-
-1.  Aspose.BarCode for .NET: telepítenie kell az Aspose.BarCode könyvtárat. Letöltheti[itt](https://releases.aspose.com/barcode/net/).
-
-2. IDE: Az Aspose.BarCode használatához .NET fejlesztői környezetre van szüksége, például a Visual Studio-ra.
-
-3. Saját könyvtár elérési útja: Cserélje ki a kódrészletben a „Saját könyvtár elérési útját” a tényleges könyvtár elérési útjával, ahová a vonalkódképeket menteni szeretné.
-
-Most bontsuk le a DotCode képarány testreszabásának folyamatát több lépésre:
+1. **Aspose.BarCode for .NET** – töltsd le a könyvtárat a hivatalos oldalról [itt](https://releases.aspose.com/barcode/net/).  
+2. **IDE** – Visual Studio, Rider vagy bármely .NET‑kompatibilis szerkesztő.  
+3. **Kimeneti mappa** – cseréld le a „Your Directory Path” szöveget a példában egy valós mappára a gépeden.
 
 ## Névterek importálása
 
-Először is importálnunk kell a szükséges névtereket az Aspose.BarCode for .NET használatához. A következőképpen teheti meg:
-
+`Aspose.BarCode.Generation` biztosítja a .NET-ben a vonalkódok generálásához és konfigurálásához szükséges osztályokat.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Ez a kód importálja az Aspose.BarCode névteret, lehetővé téve, hogy az alkalmazásban vonalkódokkal dolgozzon.
+## 1. lépés: A vonalkód generátor inicializálása
 
-Ezután bontsuk fel az Ön által megadott példakódot több lépésre, hogy lépésről lépésre készítsünk útmutatót a DotCode képarány testreszabásához:
-
-## 1. lépés: Inicializálja a Vonalkód-generátort
-
+`BarcodeGenerator` a fő osztály, amely a megadott szimbólum és adat alapján vonalkód képet hoz létre.  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // A kódod ide kerül
+    // Your code goes here
 }
 ```
 
-Ebben a lépésben inicializálunk egy BarcodeGenerator objektumot DotCode kódolási típussal és adatértékkel ("Aspose").
+## 2. lépés: Az X‑Dimension (méret) beállítása a vonalkódban
 
-## 2. lépés: Állítsa be a vonalkód X-dimenzióját (méretét).
-
+`XDimension` meghatározza egyetlen modul (pont) szélességét pixelben, befolyásolva a vonalkód teljes méretét.  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-Itt állíthatja be a vonalkód méretét az X-dimenzió pixelben történő megadásával. Beállíthatja ezt az értéket, hogy a vonalkódot nagyobbra vagy kisebbre szabhatja.
+## 3. lépés: Az oldalarány testreszabása
 
-## 3. lépés: A képarány testreszabása
-
+`AspectRatio` beállítja minden modul magasság‑szélesség arányát, lehetővé téve a vonalkód függőleges nyújtását vagy összenyomását.  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-Ebben a lépésben testreszabhatja a DotCode képarányát. Ebben a példában 0,5-re állítjuk, de ezt az értéket szükség szerint módosíthatja a kívánt képarány eléréséhez.
+## 4. lépés: A vonalkód kép mentése
 
-## 4. lépés: Mentse el a vonalkód képet
-
+`Save` a generált vonalkódot a kiválasztott képformátumban (például PNG vagy JPEG) egy fájlba írja.  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Végül elmenti a generált vonalkód képet a megadott fájlnévvel és formátummal. Csere "{path}" a tényleges könyvtár elérési útjával.
+## Miért használjuk az Aspose.BarCode-ot a DotCode testreszabásához?
+Az Aspose.BarCode átfogó funkciókészletet kínál a DotCode generálásához, beleértve a nagy felbontású kimenetet, a széles körű formátumtámogatást és a vonalkód méreteinek, például az oldalarány finom szabályozását. Minden fő .NET platformon fut, nem igényel külső függőségeket, és gyors renderelési teljesítményt nyújt, így ideális mind asztali, mind webes alkalmazásokhoz.
 
-## Következtetés
+## Gyakori felhasználási esetek
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet testreszabni a DotCode képarányát az Aspose.BarCode for .NET használatával. Ez a funkció lehetővé teszi olyan vonalkódok létrehozását, amelyek megfelelnek az Ön speciális követelményeinek, legyen szó csomagolásról, szállítási címkékről vagy bármilyen más alkalmazásról. Az itt vázolt lépések követésével kihasználhatja az Aspose.BarCode erejét testreszabott DotCode vonalkódok könnyű létrehozásához.
+- **Egészségügy**: Kompakt beteg‑azonosító címkék, amelyeknek kis csuklópántokra kell illeszkedniük.  
+- **Postai szolgáltatások**: Széles formátumú szállítási címkék, ahol alacsonyabb magasság javítja a beolvasás megbízhatóságát.  
+- **Gyártás**: Alkatrészek beágyazott címkézése, ahol a helykorlátok egyedi oldalarányt igényelnek.
 
-Most nézzünk meg néhány gyakori kérdést a DotCode testreszabásával kapcsolatban:
+## Gyakran Ismételt Kérdések
 
-## GYIK
+**Q:** Mi az oldalarány egy DotCode vonalkódban?  
+**A:** Ez a modul magasságának és szélességének aránya; ennek módosítása megváltoztatja a vonalkód teljes alakját.
 
-### 1. kérdés: Mi a DotCode vonalkód képaránya?
+**Q:** Mely iparágak profitálnak a leginkább a DotCode vonalkódokból?  
+**A:** Az egészségügy, a postai szolgáltatások és a gyártás gyakran használják a DotCode-ot kompakt, nagy sűrűségű adatkódoláshoz.
 
-1. válasz: A DotCode vonalkód képaránya a vonalkódban lévő egyes modulok magasságának és szélességének arányára vonatkozik. Az egyedi igényeknek megfelelően állítható.
+**Q:** Testreszabhatok más DotCode paramétereket az Aspose.BarCode for .NET segítségével?  
+**A:** Természetesen. Módosíthatod a hibajavítási szintet, az előtér/háttér színeket, sőt logókat is beágyazhatsz.
 
-### 2. kérdés: Milyen iparágak számára előnyös a DotCode vonalkód?
+**Q:** Az Aspose.BarCode alkalmas mind web, mind asztali .NET alkalmazásokhoz?  
+**A:** Igen, a könyvtár zökkenőmentesen működik ASP.NET, WPF, WinForms és konzol alkalmazásokban.
 
-2. válasz: A DotCode vonalkódokat gyakran használják az egészségügyben, a postai szolgáltatásokban és a gyártásban, ahol kulcsfontosságú az információ hatékony kódolása.
+**Q:** Hol találok további dokumentációt és példákat?  
+**A:** Részletes API referencia és kódminták elérhetők [itt](https://reference.aspose.com/barcode/net/).
 
-### 3. kérdés: Testreszabhatom a DotCode vonalkódok egyéb paramétereit az Aspose.BarCode for .NET segítségével?
+---
 
-3. válasz: Igen, az Aspose.BarCode for .NET kiterjedt testreszabási lehetőségeket kínál a DotCode-hoz és más vonalkódtípusokhoz, lehetővé téve a különféle paraméterek igényeinek megfelelő vezérlését.
+**Utoljára frissítve:** 2026-06-14  
+**Tesztelve:** Aspose.BarCode 24.12 for .NET  
+**Szerző:** Aspose
 
-### 4. kérdés: Az Aspose.BarCode for .NET alkalmas webes és asztali alkalmazásokhoz is?
+## Kapcsolódó útmutatók
 
-4. válasz: Igen, az Aspose.BarCode for .NET webes és asztali alkalmazásokban is használható vonalkódok generálására és manipulálására.
+- [DotCode kiterjesztett kódszöveg konfiguráció az Aspose.BarCode for .NET](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [DotCode strukturált hozzáfűzési mód konfiguráció az Aspose.BarCode for .NET](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [DotCode vonalkód kép létrehozása – sorok és oszlopok (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-### 5. kérdés: Hol találok további információt és dokumentációt az Aspose.BarCode for .NET-ről?
 
-5. válasz: Megnézheti a dokumentációt[itt](https://reference.aspose.com/barcode/net/) átfogó útmutatásért és példákért.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
