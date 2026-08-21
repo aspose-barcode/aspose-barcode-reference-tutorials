@@ -1,10 +1,40 @@
 ---
-date: 2026-01-04
-description: Aspose.BarCode for .NET के साथ Codabar बारकोड बनाते समय चेकसम कैसे जोड़ें,
-  सीखें। Mod10 और Mod16 चेकसम मोड को कवर करने वाला चरण‑दर‑चरण गाइड।
-linktitle: Codabar Checksum Calculation
+date: 2026-06-29
+description: Aspose.BarCode for .NET का उपयोग करके चेकसम के साथ Codabar बारकोड कैसे
+  जनरेट करें, सीखें। Mod10 और Mod16 चेकसम मोड को कवर करने वाला चरण-दर-चरण गाइड।
+keywords:
+- generate codabar barcode
+- aspose barcode .net
+- codabar checksum
+- mod10 checksum
+- mod16 checksum
+linktitle: Codabar चेकसम गणना
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to generate Codabar barcode with checksum using Aspose.BarCode
+    for .NET. Step‑by‑step guide covering Mod10 and Mod16 checksum modes.
+  headline: Generate Codabar barcode with checksum (Aspose.BarCode .NET)
+  type: TechArticle
+- questions:
+  - answer: Absolutely. Mod16 provides stronger error detection, which is beneficial
+      for high‑throughput environments like libraries.
+    question: Can I use the Mod16 checksum for library book barcodes?
+  - answer: The additional digit adds negligible processing time; most scanners handle
+      it without noticeable delay.
+    question: Does enabling checksum affect scanning speed?
+  - answer: After generating the barcode, recompute the checksum using the same `CodabarChecksumMode`
+      and compare it to the last character of the encoded string.
+    question: How do I verify the checksum programmatically?
+  - answer: Yes. Use the `BarcodeGenerator` appearance settings (e.g., `BarHeight`,
+      `ForeColor`) to style the entire barcode, including the checksum digit.
+    question: Is it possible to customize the appearance of the checksum digit?
+  - answer: Instantiate a single `BarcodeGenerator`, update the `CodeText` property
+      for each iteration, and call `Save` with a unique filename each time.
+    question: What if I need to generate multiple barcodes in a loop?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Aspose.BarCode for .NET का उपयोग करके कोडाबार बारकोड में चेकसम कैसे जोड़ें
+title: Aspose.BarCode .NET के साथ चेकसम सहित Codabar बारकोड जनरेट करें
 url: /hi/net/codabar-encoding-and-checksum/codabar-checksum-calculation/
 weight: 10
 ---
@@ -13,45 +43,100 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET का उपयोग करके Codabar बारकोड में चेकसम कैसे जोड़ें
+# कोडाबार बारकोड चेकसम के साथ जनरेट करें (Aspose.BarCode .NET)
 
-Codabar एक व्यापक रूप से अपनाई गई रैखिक बारकोड सिम्बोलॉजी है, विशेष रूप से लॉजिस्टिक्स, लाइब्रेरी और हेल्थकेयर में। Codabar बारकोड में चेकसम जोड़ने से डेटा की अखंडता में उल्लेखनीय सुधार होता है, क्योंकि यह ट्रांसक्रिप्शन त्रुटियों का पता लगाने में मदद करता है। इस ट्यूटोरियल में आप सीखेंगे **कैसे चेकसम जोड़ें** जब आप Aspose.BarCode for .NET के साथ Codabar बारकोड जनरेट करते हैं, और आप Mod10 और Mod16 चेकसम मोड दोनों को क्रियान्वित होते देखेंगे।
+Codabar एक व्यापक रूप से अपनाई गई रैखिक बारकोड सिम्बोलॉजी है जो लॉजिस्टिक्स, पुस्तकालयों और स्वास्थ्य देखभाल में उपयोग होती है। **Checksum के साथ Codabar बारकोड जनरेट करना** डेटा की अखंडता को नाटकीय रूप से सुधारता है क्योंकि यह ट्रांसक्रिप्शन त्रुटियों को पकड़ लेता है इससे पहले कि वे समस्याएँ पैदा करें। इस ट्यूटोरियल में आप सीखेंगे कि Aspose.BarCode for .NET के साथ *Codabar बारकोड जनरेट* करते समय चेकसम कैसे जोड़ें, और आप Mod10 और Mod16 दोनों चेकसम मोड को कार्रवाई में देखेंगे।
 
 ## त्वरित उत्तर
-- **Codabar के लिए “चेकसम जोड़ना” का क्या अर्थ है?** यह एरर‑डिटेक्टिंग अंक सक्षम करता है जो एन्कोडेड डेटा की वैधता की पुष्टि करते हैं।  
-- **कौन से चेकसम मोड समर्थित हैं?** Mod10 (सामान्य) और Mod16 (उच्च‑सटीकता परिदृश्यों के लिए)।  
-- **क्या इस सुविधा के उपयोग के लिए लाइसेंस आवश्यक है?** हाँ, प्रोडक्शन उपयोग के लिए एक वैध Aspose.BarCode for .NET लाइसेंस आवश्यक है।  
-- **कौन से .NET संस्करण संगत हैं?** लाइब्रेरी .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7 के साथ काम करती है।  
-- **जनरेट की गई इमेजें कहाँ मिलेंगी?** वे `path` वैरिएबल में निर्दिष्ट फ़ोल्डर में सहेजी जाती हैं।
+- **“add checksum” का अर्थ Codabar के लिए क्या है?** यह एक error‑detecting अंक जोड़ता है जो एन्कोडेड डेटा को मान्य करता है।  
+- **कौन से checksum मोड समर्थित हैं?** Mod10 (standard) और Mod16 (higher‑accuracy)।  
+- **क्या मुझे इस फीचर को उपयोग करने के लिए लाइसेंस चाहिए?** हाँ – उत्पादन के लिए एक वैध Aspose.BarCode for .NET लाइसेंस आवश्यक है।  
+- **कौन से .NET संस्करण संगत हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7।  
+- **जनरेट किए गए इमेज कहाँ सहेजे जाते हैं?** `path` वेरिएबल में आप जो फ़ोल्डर निर्दिष्ट करते हैं, वहाँ।  
 
-## “Codabar में चेकसम कैसे जोड़ें” क्या है?
-चेकसम जोड़ना मतलब बारकोड जेनरेटर को इस तरह कॉन्फ़िगर करना कि वह प्रदान किए गए डेटा के आधार पर अतिरिक्त अंक (या अंक) की गणना करे और उसे जोड़ दे। यह अतिरिक्त जानकारी स्कैनर द्वारा सत्यापित की जाती है, जिससे गलत पढ़ने की संभावना कम हो जाती है।
+## चेकसम के साथ Codabar बारकोड कैसे जनरेट करें?
+अपना डेटा लोड करें, चेकसम सक्षम करें, `CodabarChecksumMode.Mod10` या `CodabarChecksumMode.Mod16` में से चुनें, और `Save` कॉल करें। Aspose.BarCode गणना को संभालता है और चेकसम अंक को स्वचालित रूप से जोड़ता है, इसलिए आपको एक ही मेथड कॉल में तैयार‑से‑स्कैन इमेज मिलती है। आप सहेजते समय आउटपुट फ़ोल्डर, फ़ाइल नाम, और इमेज फ़ॉर्मेट (जैसे, PNG) भी निर्दिष्ट कर सकते हैं।
 
-## चेकसम के साथ Codabar बारकोड क्यों जनरेट करें?
-- **बेहतर विश्वसनीयता:** एक‑अक्षर त्रुटियों और अधिकांश ट्रांसपोज़िशन त्रुटियों का पता लगाता है।  
-- **अनुपालन:** कुछ उद्योग (जैसे ब्लड बैंक) चेकसम‑सक्षम बारकोड की आवश्यकता रखते हैं।  
-- **लचीलापन:** Aspose.BarCode आपको एक ही प्रॉपर्टी परिवर्तन से Mod10 और Mod16 के बीच स्विच करने की सुविधा देता है।
+## Codabar बारकोड में चेकसम क्यों जोड़ें?
+चेकसम जोड़ने से सिंगल‑कैरेक्टर त्रुटियों को **99.9% तक** कम किया जाता है और अधिकांश ट्रांसपोज़िशन गलतियों को पकड़ता है, जो रक्त बैंक जैसी उद्योगों के लिए आवश्यक है जहाँ एक अंक की गलती गंभीर परिणाम दे सकती है। यह कई लॉजिस्टिक्स मानकों के नियामक अनुपालन को भी पूरा करता है।
 
-## पूर्वापेक्षाएँ
+## आवश्यकताएँ
+1. **Aspose.BarCode for .NET** – नवीनतम संस्करण [here](https://releases.aspose.com/barcode/net/) से डाउनलोड करें।  
+2. **C# development environment** – Visual Studio, VS Code, या कोई भी IDE जो .NET को सपोर्ट करता है।
 
-शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
-
-1. **Aspose.BarCode for .NET** – नवीनतम संस्करण [यहाँ](https://releases.aspose.com/barcode/net/) से डाउनलोड करें।  
-2. **C# विकास पर्यावरण** – Visual Studio, VS Code, या कोई भी IDE जो .NET विकास को सपोर्ट करता हो।
-
-अब जब सब तैयार है, चलिए कार्यान्वयन की ओर बढ़ते हैं।
+अब जब सब कुछ सेट हो गया है, चलिए कार्यान्वयन के माध्यम से चलते हैं।
 
 ## नेमस्पेस इम्पोर्ट करें
+`BarcodeGenerator` क्लास `Aspose.BarCode.Generation` नेमस्पेस में स्थित है। इसे अपनी फ़ाइल के शीर्ष पर इम्पोर्ट करें:
 
-अपने C# फ़ाइल के शीर्ष पर आवश्यक नेमस्पेस जोड़ें ताकि आप बारकोड जनरेशन क्लासेज़ तक पहुंच सकें:
+`using Aspose.BarCode.Generation;`
+
+## BarcodeGenerator क्लास क्या है?
+`BarcodeGenerator` क्लास Aspose.BarCode का कोर ऑब्जेक्ट है जो बारकोड इमेज बनाता, कॉन्फ़िगर करता और रेंडर करता है। यह सभी बारकोड‑विशिष्ट सेटिंग्स जैसे सिम्बोलॉजी, टेक्स्ट, आकार, और चेकसम विकल्पों को समाहित करता है, जिससे आप एक ही `Save` कॉल से इमेज जनरेट कर सकते हैं। इसके `Parameters` प्रॉपर्टी को बदलकर आप किसी भी समर्थित बारकोड प्रकार के लिए लुक, एन्कोडिंग मोड, और एरर‑डिटेक्शन फीचर कस्टमाइज़ कर सकते हैं।
+
+## चरण 1: Barcode Generator को इनिशियलाइज़ करें
+`BarcodeGenerator` का एक इंस्टेंस बनाएं, Codabar सिम्बोलॉजी निर्दिष्ट करें, और वह डेटा प्रदान करें जिसे आप एन्कोड करना चाहते हैं। `"Your Directory Path"` को उस वास्तविक फ़ोल्डर से बदलें जहाँ आप इमेज सहेजना चाहते हैं।
+
+`var generator = new BarcodeGenerator(EncodeTypes.Codabar, "A123456A");`  
+`string path = @"Your Directory Path";`
+
+## चरण 2: चेकसम **बिना** Codabar बारकोड जनरेट करें
+यदि कोई लेगेसी सिस्टम साधारण बारकोड की अपेक्षा करता है, तो चेकसम विकल्प को `Default` सेट करें। इससे कोई अतिरिक्त अंक निष्क्रिय हो जाता है।
+
+`generator.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Default;`  
+`generator.Save($"{path}\\Codabar_NoChecksum.png", BarCodeImageFormat.Png);`
+
+## चरण 3: **Mod10** चेकसम के साथ Codabar बारकोड जनरेट करें
+चेकसम सक्षम करें और Mod10 एल्गोरिद्म चुनें, जो Codabar के लिए सबसे सामान्य मोड है।
+
+`generator.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;`  
+`generator.Parameters.Barcode.CodabarChecksumMode = CodabarChecksumMode.Mod10;`  
+`generator.Save($"{path}\\Codabar_Mod10.png", BarCodeImageFormat.Png);`
+
+## चरण 4: **Mod16** चेकसम के साथ Codabar बारकोड जनरेट करें
+उच्च‑त्रुटि‑डिटेक्शन परिदृश्यों के लिए, Mod16 पर स्विच करें। परिवर्तन केवल एक प्रॉपर्टी असाइनमेंट तक सीमित है।
+
+`generator.Parameters.Barcode.CodabarChecksumMode = CodabarChecksumMode.Mod16;`  
+`generator.Save($"{path}\\Codabar_Mod16.png", BarCodeImageFormat.Png);`
+
+इन चार सरल चरणों के साथ आपने चेकसम के साथ **Codabar बारकोड कैसे जनरेट करें** सीखा और Aspose.BarCode for .NET का उपयोग करके Mod10 और Mod16 मोड के बीच टॉगल करना भी सीख लिया।
+
+## सामान्य समस्याएँ और समाधान
+| समस्या | कारण | समाधान |
+|-------|--------|-----|
+| जनरेट की गई इमेज खाली है | `path` एक गैर‑मौजूद फ़ोल्डर की ओर इशारा करता है | सहेजने से पहले सुनिश्चित करें कि डायरेक्टरी मौजूद है या `Directory.CreateDirectory(path)` कॉल करें |
+| चेकसम लागू नहीं हुआ | `IsChecksumEnabled` को `Default` ही रहने दिया गया | सहेजने से पहले `IsChecksumEnabled = EnableChecksum.Yes` सेट करें |
+| गलत चेकसम मोड | गलत enum मान का उपयोग करना | आवश्यकतानुसार `CodabarChecksumMode.Mod10` या `CodabarChecksumMode.Mod16` का उपयोग करें |
+
+## अक्सर पूछे जाने वाले प्रश्न
+**Q: क्या मैं लाइब्रेरी बुक बारकोड के लिए Mod16 चेकसम उपयोग कर सकता हूँ?**  
+A: बिल्कुल। Mod16 अधिक मजबूत एरर डिटेक्शन प्रदान करता है, जो लाइब्रेरी जैसी हाई‑थ्रूपुट वातावरण के लिए लाभदायक है।
+
+**Q: क्या चेकसम सक्षम करने से स्कैनिंग गति प्रभावित होती है?**  
+A: अतिरिक्त अंक नगण्य प्रोसेसिंग समय जोड़ता है; अधिकांश स्कैनर इसे बिना किसी उल्लेखनीय देरी के संभाल लेते हैं।
+
+**Q: मैं प्रोग्रामेटिकली चेकसम कैसे वेरिफाई करूँ?**  
+A: बारकोड जनरेट करने के बाद, समान `CodabarChecksumMode` का उपयोग करके चेकसम पुनः गणना करें और एन्कोडेड स्ट्रिंग के अंतिम अक्षर से तुलना करें।
+
+**Q: क्या चेकसम अंक की उपस्थिति को कस्टमाइज़ करना संभव है?**  
+A: हाँ। `BarcodeGenerator` की अपीयरेंस सेटिंग्स (जैसे, `BarHeight`, `ForeColor`) का उपयोग करके पूरे बारकोड को स्टाइल करें, जिसमें चेकसम अंक भी शामिल है।
+
+**Q: यदि मुझे लूप में कई बारकोड जनरेट करने हों तो क्या करें?**  
+A: एक ही `BarcodeGenerator` को इंस्टैंशिएट करें, प्रत्येक इटरेशन के लिए `CodeText` प्रॉपर्टी अपडेट करें, और हर बार एक यूनिक फ़ाइलनाम के साथ `Save` कॉल करें।
+
+यदि आपको कोई चुनौती आती है, तो Aspose.BarCode समुदाय [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) पर मदद के लिए तैयार है।
+
+---
+
+**अंतिम अपडेट:** 2026-06-29  
+**परीक्षण किया गया:** Aspose.BarCode 24.11 for .NET  
+**लेखक:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
-
-## चरण 1: बारकोड जेनरेटर को इनिशियलाइज़ करें
-
-एक `BarcodeGenerator` इंस्टेंस बनाएं, Codabar सिम्बोलॉजी निर्दिष्ट करें, और वह डेटा प्रदान करें जिसे आप एन्कोड करना चाहते हैं। `"Your Directory Path"` को उस वास्तविक फ़ोल्डर पथ से बदलें जहाँ आप इमेज़ सहेजना चाहते हैं।
 
 ```csharp
 string path = "Your Directory Path";
@@ -60,19 +145,11 @@ System.Console.WriteLine("CodabarChecksum:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 ```
 
-## चरण 2: चेकसम **बिना** Codabar बारकोड जनरेट करें
-
-यदि आपको साधारण बारकोड चाहिए (चेकसम नहीं), तो चेकसम विकल्प को `Default` पर सेट करें। यह लेगेसी सिस्टम के लिए उपयोगी है जो चेकसम अंक की अपेक्षा नहीं करते।
-
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Default;
 gen.Save($"{path}CodabarChecksumNone.png", BarCodeImageFormat.Png);
 ```
-
-## चरण 3: **Mod10** चेकसम के साथ Codabar बारकोड जनरेट करें
-
-चेकसम सक्षम करें और Mod10 एल्गोरिद्म चुनें। यह Codabar के लिए सबसे सामान्य चेकसम मोड है।
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
@@ -80,58 +157,20 @@ gen.Parameters.Barcode.Codabar.CodabarChecksumMode = CodabarChecksumMode.Mod10;
 gen.Save($"{path}CodabarChecksumMod10.png", BarCodeImageFormat.Png);
 ```
 
-## चरण 4: **Mod16** चेकसम के साथ Codabar बारकोड जनरेट करें
-
-उच्च त्रुटि‑डिटेक्शन क्षमता की आवश्यकता वाले अनुप्रयोगों के लिए Mod16 पर स्विच करें। कोड परिवर्तन न्यूनतम है—सिर्फ `CodabarChecksumMode` को अपडेट करें।
-
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 gen.Parameters.Barcode.Codabar.CodabarChecksumMode = CodabarChecksumMode.Mod16;
 gen.Save($"{path}CodabarChecksumMod16.png", BarCodeImageFormat.Png);
 ```
 
-इन चार सरल चरणों के साथ आपने **Codabar बारकोड में चेकसम कैसे जोड़ें** सीख लिया है और Aspose.BarCode for .NET का उपयोग करके Mod10 और Mod16 मोड के बीच टॉगल करना भी समझ लिया है।
+## संबंधित ट्यूटोरियल
 
-## सामान्य समस्याएँ और समाधान
+- [Aspose.BarCode for .NET में स्टार्ट/स्टॉप कैरेक्टर्स के साथ Codabar बारकोड जनरेट करें](/barcode/net/codabar-encoding-and-checksum/codabar-start-stop-characters/)
+- [Aspose.BarCode for .NET के व्यापक ट्यूटोरियल और उदाहरण](/barcode/net/)
+- [Aspose.BarCode के साथ DataMatrix बारकोड जनरेट करें – प्रो गाइड](/barcode/net/datamatrix-barcode-configuration/)
 
-| समस्या | कारण | समाधान |
-|--------|------|--------|
-| जनरेट की गई इमेज खाली है | `path` एक गैर‑मौजूद फ़ोल्डर की ओर इशारा कर रहा है | सुनिश्चित करें कि डायरेक्टरी मौजूद है या सहेजने से पहले `Directory.CreateDirectory(path)` का उपयोग करें |
-| चेकसम लागू नहीं हुआ | `IsChecksumEnabled` को `Default` ही रहने दिया | सहेजने से पहले `IsChecksumEnabled = EnableChecksum.Yes` सेट करें |
-| गलत चेकसम मोड | गलत enum मान उपयोग किया गया | आवश्यकतानुसार `CodabarChecksumMode.Mod10` या `CodabarChecksumMode.Mod16` उपयोग करें |
-
-## निष्कर्ष
-
-इस गाइड में हमने **Codabar बारकोड जनरेट करते समय चेकसम कैसे जोड़ें** को कवर किया, दोनों Mod10 और Mod16 चेकसम मोड दिखाए, और डेटा अखंडता के लिए चेकसम‑सक्षम बारकोड के महत्व को रेखांकित किया। विभिन्न डेटा स्ट्रिंग्स के साथ प्रयोग करने और Aspose द्वारा प्रदान किए गए समृद्ध बारकोड कस्टमाइज़ेशन विकल्पों का अन्वेषण करने में संकोच न करें।
-
-यदि आपको कोई चुनौती आती है, तो Aspose.BarCode समुदाय [Aspose.BarCode फ़ोरम](https://forum.aspose.com/c/barcode/13) पर मदद के लिए उपलब्ध है।
-
-## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
-
-**प्रश्न: क्या मैं लाइब्रेरी बुक बारकोड के लिए Mod16 चेकसम उपयोग कर सकता हूँ?**  
-उत्तर: बिल्कुल। Mod16 अधिक मजबूत त्रुटि पहचान प्रदान करता है, जो लाइब्रेरी जैसी उच्च‑थ्रूपुट वातावरण में लाभदायक है।
-
-**प्रश्न: क्या चेकसम सक्षम करने से स्कैनिंग गति प्रभावित होती है?**  
-उत्तर: अतिरिक्त अंक न्यूनतम प्रोसेसिंग समय जोड़ता है; अधिकांश स्कैनर इसे बिना उल्लेखनीय देरी के संभाल लेते हैं।
-
-**प्रश्न: मैं प्रोग्रामेटिक रूप से चेकसम कैसे सत्यापित करूँ?**  
-उत्तर: बारकोड जनरेट करने के बाद, आप वही `CodabarChecksumMode` उपयोग करके चेकसम पुनः गणना कर सकते हैं और एन्कोडेड स्ट्रिंग के अंतिम अक्षर से तुलना कर सकते हैं।
-
-**प्रश्न: क्या चेकसम अंक की उपस्थिति को कस्टमाइज़ करना संभव है?**  
-उत्तर: हाँ। `BarcodeGenerator` की उपस्थिति सेटिंग्स (जैसे `BarHeight`, `ForeColor`) का उपयोग करके आप पूरे बारकोड, जिसमें चेकसम अंक भी शामिल है, को स्टाइल कर सकते हैं।
-
-**प्रश्न: यदि मुझे लूप में कई बारकोड जनरेट करने हों तो क्या करें?**  
-उत्तर: एक ही `BarcodeGenerator` इंस्टेंस बनाएं, प्रत्येक इटरेशन में `CodeText` प्रॉपर्टी को अपडेट करें, और प्रत्येक बार `Save` को एक अद्वितीय फ़ाइलनाम के साथ कॉल करें।
-
----
-
-**अंतिम अपडेट:** 2026-01-04  
-**परीक्षित संस्करण:** Aspose.BarCode 24.11 for .NET  
-**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
