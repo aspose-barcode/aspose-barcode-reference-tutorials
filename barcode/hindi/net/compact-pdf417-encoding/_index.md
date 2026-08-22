@@ -171,7 +171,11 @@ Aspose.BarCode for .NET का उपयोग करके Compact PDF417 ब�
 - [बारकोड कैसे बनाएं – Aspose.BarCode के साथ कॉम्पैक्ट PDF417](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Aspose.BarCode for .NET के व्यापक ट्यूटोरियल और उदाहरण](/barcode/net/)
 - [.NET में एरर करेक्शन के साथ Aztec बारकोड कैसे बनाएं](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [C# में PDF417 बारकोड कैसे जनरेट करें और बारकोड आकार सेट करें](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+- [C# में PDF417 बारकोड बनाएं और PNG के रूप में सहेजें](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+- [C# में माइक्रो PDF417 बारकोड कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+- [C# के साथ मैक्रो PDF417 बारकोड जेनरेटर कैसे उपयोग करें](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [C# में PDF417 बारकोड कैसे पढ़ें – पूर्ण गाइड](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

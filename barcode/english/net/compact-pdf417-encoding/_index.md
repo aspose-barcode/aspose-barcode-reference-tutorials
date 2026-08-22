@@ -45,8 +45,7 @@ schemas:
   - question: Can I generate a Compact PDF417 barcode in a .NET Core console app?
     answer: Yes. Aspose.BarCode for .NET fully supports .NET Core 3.1 and later, as
       well as .NET 5/6.
-  - question: Is it possible to customize the barcode’s foreground and background
-      colors?
+  - question: Is it possible to customize the barcode’s foreground and background colors?
     answer: Absolutely. Use the `ForeColor` and `BackColor` properties of the `BarcodeGenerator`
       to match your UI theme.
   - question: Do I need to install any additional fonts or resources?
@@ -139,8 +138,22 @@ Compact PDF417’s high data density and robust error correction make it suitabl
 - **License Exceptions:** In a trial environment, the generated barcode may include a watermark. Apply a valid license to remove it.
 
 ## Compact PDF417 Encoding Tutorials
+### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+
+
+### [How to create PDF417 barcode in C# and save it as PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+
+Learn how to generate a PDF417 barcode in C# and export it as a PNG image using Aspose.BarCode.
+
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Comprehensive guide with step‑by‑step instructions and code examples.
+
+### [How to create micro PDF417 barcode in C# – step‑by‑step guide](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [How to use a barcode generator C# for Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+
+### [How to read PDF417 barcodes in C# – complete guide](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+Step‑by‑step guide to decode PDF417 barcodes in C# with Aspose.BarCode for .NET.
 
 ## Frequently Asked Questions
 

@@ -102,7 +102,7 @@ var generator = new BarcodeGenerator(EncodeTypes.Pdf417Compact, "Your data here"
 ```
 
 ### Adım 2: Hata Düzeltmeyi Yapılandırma (İsteğe Bağlı)
-`Pdf417ErrorCorrectionLevel` özelliği, PDF417 barkodları için Reed‑Solomon hata düzeltme seviyesini tanımlar.  
+`Pdf417ErrorCorrectionLevel` özelliği, PDF417 barkodları için Reed‑Solomon hata‑düzeltme seviyesini tanımlar.  
 ```csharp
 generator.Parameters.Barcode.Pdf417.Pdf417ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;
 ```
@@ -139,8 +139,21 @@ Compact PDF417'nin yüksek veri yoğunluğu ve sağlam hata düzeltmesi, alanın
 - **Lisans İstisnaları:** Deneme ortamında oluşturulan barkod bir filigran içerebilir. Filigranı kaldırmak için geçerli bir lisans uygulayın.
 
 ## Compact PDF417 Kodlama Eğitimleri
+### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+
+
 ### [Compact PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET kullanarak Compact PDF417 barkodları nasıl oluşturulur öğrenin. Adım adım talimatlar ve kod örnekleri içeren kapsamlı bir rehber.
+
+### [C#'ta micro PDF417 barkodu nasıl oluşturulur – adım adım rehber](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [Macro PDF417 için C# barcode üreteci nasıl kullanılır](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+
+### [C#'ta PDF417 barkodlarını okuma – tam rehber](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+Aspose.BarCode for .NET ile PDF417 barkodlarını okuma adımlarını öğrenin.
+
+### [C#'ta PDF417 barkodu oluşturma ve PNG olarak kaydetme](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+Aspose.BarCode for .NET kullanarak PDF417 barkodunu oluşturup PNG formatında kaydedin.
 
 ## Sıkça Sorulan Sorular
 

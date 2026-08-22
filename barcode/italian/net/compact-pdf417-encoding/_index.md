@@ -80,7 +80,7 @@ Il formato può codificare fino a **~2 KB of text or binary data** a seconda d
 
 ## Perché Usare Compact PDF417 con Aspose.BarCode per .NET?
 
-Carica il tuo codice a barre PDF417 in sole due righe e lascia che Aspose gestisca il lavoro pesante. L'API a chiamata singola della libreria seleziona automaticamente la dimensione ottimale dei moduli, applica il livello di correzione d'errore scelto e genera immagini di alta qualità, riducendo i tempi di sviluppo fino al 70 %. Supporta oltre 50 formati di output—including PNG, JPEG, SVG, and PDF—and can process multi‑hundred‑page documents without loading the entire file into memory.
+Carica il tuo codice a barre PDF417 in sole due righe e lascia che Aspose gestisca il lavoro pesante. L'API a chiamata singola della libreria seleziona automaticamente la dimensione ottimale dei moduli, applica il livello di correzione d'errore scelto e genera immagini di alta qualità, riducendo i tempi di sviluppo fino al 70 %. Supporta oltre 50 formati di output—including PNG, JPEG, SVG, and PDF-and can process multi‑hundred‑page documents without loading the entire file into memory.
 
 ## Comprendere la Codifica Compact PDF417
 
@@ -173,7 +173,11 @@ A: Nessun font esterno è richiesto; la libreria gestisce tutto il rendering int
 - [Come Creare Codice a Barre – Compact PDF417 con Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Tutorial Completi ed Esempi di Aspose.BarCode per .NET](/barcode/net/)
 - [Come creare un codice a barre Aztec con correzione degli errori in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Come generare il codice a barre PDF417 in C# e impostare le dimensioni del codice a barre](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+- [Come creare un codice a barre micro PDF417 in C# – guida passo‑per‑passo](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+- [Come utilizzare un generatore di codici a barre C# per Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [Come leggere i codici a barre PDF417 in C# – guida completa](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+- [Come creare un codice a barre PDF417 in C# e salvarlo come PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -171,7 +171,11 @@ A: Nein, es werden keine externen Schriftarten benötigt; die Bibliothek überni
 - [Wie man Barcode erstellt – Compact PDF417 mit Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Umfassende Tutorials und Beispiele für Aspose.BarCode für .NET](/barcode/net/)
 - [Wie man Aztec-Barcode mit Fehlerkorrektur in .NET erstellt](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Wie man PDF417-Barcode in C# generiert und die Barcode-Größe festlegt](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+- [Wie man PDF417-Barcode in C# erstellt und als PNG speichert](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+- [Wie man Micro PDF417 Barcode in C# erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+- [Wie man einen Barcode‑Generator in C# für Macro PDF417 verwendet](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [Wie man PDF417-Barcodes in C# liest – vollständiger Leitfaden](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

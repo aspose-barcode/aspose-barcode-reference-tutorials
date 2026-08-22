@@ -141,8 +141,21 @@ Kepadatan data tinggi dan koreksi kesalahan yang kuat pada Compact PDF417 menjad
 
 ## Tutorial Pengkodean Compact PDF417
 
+### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+
+
 ### [Membuat Barcode Compact PDF417](./compact-pdf417-basic-configuration/)
 Pelajari cara menghasilkan barcode Compact PDF417 menggunakan Aspose.BarCode untuk .NET. Panduan komprehensif dengan instruksi langkah demi langkah dan contoh kode.
+
+### [Cara membuat barcode micro PDF417 di C# – panduan langkah demi langkah](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Panduan lengkap membuat barcode micro PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan pengaturan.
+
+### [Cara menggunakan generator barcode C# untuk Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+
+### [Cara membaca barcode PDF417 di C# – panduan lengkap](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+
+### [Cara membuat barcode PDF417 di C# dan menyimpannya sebagai PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+Panduan langkah demi langkah membuat barcode PDF417 dan menyimpannya dalam format PNG menggunakan Aspose.BarCode.
 
 ## Pertanyaan yang Sering Diajukan
 

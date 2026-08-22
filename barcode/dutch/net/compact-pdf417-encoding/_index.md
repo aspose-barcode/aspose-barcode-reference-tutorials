@@ -58,7 +58,7 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe PDF417-barcode te genereren – Compact PDF417-codering
+# Hoe PDF417-barcode te genereren – Compacte PDF417-codering
 
 ## Inleiding
 
@@ -142,6 +142,16 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 ## Compact PDF417-coderingstutorials
 ### [Compact PDF417-barcode maken](./compact-pdf417-basic-configuration/)
 Leer hoe je Compact PDF417 barcodes genereert met Aspose.BarCode voor .NET. Uitgebreide gids met stap‑voor‑stap instructies en code‑voorbeelden.
+### [Hoe PDF417-barcode genereren in C# en de barcodegrootte instellen](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+Leer hoe je een PDF417-barcode maakt in C# en de grootte ervan aanpast met Aspose.BarCode.
+### [Hoe micro PDF417 barcode te maken in C# – stap‑voor‑stap gids](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Leer hoe je een micro PDF417 barcode genereert in C# met Aspose.BarCode, inclusief configuratie en opslaan.
+### [Hoe een barcodegenerator C# te gebruiken voor Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+Leer hoe je met Aspose.BarCode een Macro PDF417 barcode genereert in C#.
+### [Hoe PDF417-barcodes te lezen in C# – volledige gids](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+Leer hoe je PDF417-barcodes kunt scannen en decoderen in C# met Aspose.BarCode, inclusief voorbeeldcode en foutafhandeling.
+### [Hoe PDF417-barcode te maken in C# en op te slaan als PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+Leer hoe je een PDF417-barcode genereert in C# en opslaat als PNG-afbeelding met Aspose.BarCode.
 
 ## Veelgestelde vragen
 
