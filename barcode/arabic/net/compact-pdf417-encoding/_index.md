@@ -172,6 +172,11 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 - [كيفية إنشاء باركود – Compact PDF417 باستخدام Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [دروس شاملة وأمثلة على Aspose.BarCode for .NET](/barcode/net/)
 - [كيفية إنشاء باركود Aztec مع تصحيح الأخطاء في .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [كيفية إنشاء باركود PDF417 في C# وتحديد حجم الباركود](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+- [كيفية إنشاء باركود PDF417 في C# وحفظه كملف PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+- [كيفية إنشاء باركود micro PDF417 في C# – دليل خطوة بخطوة](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+- [كيفية استخدام مولد الباركود C# لتنسيق Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [كيفية قراءة باركود PDF417 في C# – دليل كامل](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

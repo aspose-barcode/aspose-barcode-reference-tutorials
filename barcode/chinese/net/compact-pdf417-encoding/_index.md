@@ -142,6 +142,12 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [创建紧凑型 PDF417 条形码](./compact-pdf417-basic-configuration/)
 了解如何使用 Aspose.BarCode for .NET 生成紧凑型 PDF417 条形码。提供完整的分步指南和代码示例。
 
+### [如何在 C# 中生成 PDF417 条形码并设置条形码大小](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+演示在 C# 使用 Aspose.BarCode 生成 PDF417 条形码并自定义尺寸。
+
+### [如何在 C# 中创建微型 PDF417 条形码 – 步骤指南](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+提供在 C# 使用 Aspose.BarCode 生成微型 PDF417 条形码的完整步骤和代码示例。
+
 ## 常见问题解答
 
 **问：在紧凑型 PDF417 条形码中，我可以存储的最大数据量是多少？**  
@@ -170,6 +176,9 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 - [如何使用 Aspose.BarCode 创建紧凑型 PDF417 条形码](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Aspose.BarCode for .NET 的综合教程和示例](/barcode/net/)
 - [如何在 .NET 中创建带错误纠正的 Aztec 条形码](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [如何使用 C# 条形码生成器生成宏 PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [如何在 C# 中读取 PDF417 条形码 – 完整指南](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+- [如何在 C# 中创建 PDF417 条形码并保存为 PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -144,6 +144,21 @@ Compact PDF417 の高いデータ密度と堅牢なエラー訂正により、�
 ### [Compact PDF417 バーコードの作成](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET を使用して Compact PDF417 バーコードを生成する方法を学びます。ステップバイステップの手順とコード例を含む包括的なガイドです。
 
+### [C# で PDF417 バーコードを生成し、サイズを設定する方法](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+C# で PDF417 バーコードを生成し、サイズをカスタマイズする手順を解説します。
+
+### [C# でマイクロ PDF417 バーコードを作成する方法 – ステップバイステップガイド](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Aspose.BarCode for .NET を使用して、C# でマイクロ PDF417 バーコードを作成する手順を詳しく解説します。
+
+### [Macro PDF417 用 C# バーコードジェネレータの使い方](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+Aspose.BarCode for .NET を使用して、Macro PDF417 バーコードを C# で生成する手順を解説します。
+
+### [C# で PDF417 バーコードを読み取る方法 – 完全ガイド](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+Aspose.BarCode for .NET を使用して、C# で PDF417 バーコードをスキャンし、データを抽出する手順を詳しく解説します。
+
+### [C# で PDF417 バーコードを作成し、PNG として保存する方法](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+Aspose.BarCode for .NET を使用して、C# で PDF417 バーコードを生成し PNG 形式で保存する手順を解説します。
+
 ## よくある質問
 
 **Q: Compact PDF417 バーコードに保存できる最大データ量はどれくらいですか？**  
