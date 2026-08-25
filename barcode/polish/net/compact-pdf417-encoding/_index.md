@@ -172,7 +172,8 @@ Dowiedz się, jak generować kody kreskowe Compact PDF417 przy użyciu Aspose.Ba
 - [Jak stworzyć kod kreskowy – Compact PDF417 z Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Kompleksowe samouczki i przykłady Aspose.BarCode dla .NET](/barcode/net/)
 - [Jak stworzyć kod Aztec z korekcją błędów w .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Utwórz kod kreskowy PDF417 przy użyciu Aspose.BarCode – przewodnik krok po kroku](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Jak wygenerować kod kreskowy PDF417 w C# przy użyciu Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
