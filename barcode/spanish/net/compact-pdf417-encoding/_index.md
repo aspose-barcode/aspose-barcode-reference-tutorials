@@ -141,6 +141,9 @@ La alta densidad de datos y la robusta corrección de errores de Compact PDF417 
 - **Excepciones de licencia:** En un entorno de prueba, el código de barras generado puede incluir una marca de agua. Aplica una licencia válida para eliminarla.
 
 ## Tutoriales de codificación Compact PDF417
+### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+
+
 ### [Crear códigos de barras Compact PDF417](./compact-pdf417-basic-configuration/)
 Aprende a generar códigos de barras Compact PDF417 usando Aspose.BarCode para .NET. Guía completa con instrucciones paso a paso y ejemplos de código.
 
@@ -172,7 +175,7 @@ Aprende a generar códigos de barras Compact PDF417 usando Aspose.BarCode para .
 - [Cómo crear código de barras – Compact PDF417 con Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Tutoriales y ejemplos completos de Aspose.BarCode para .NET](/barcode/net/)
 - [Cómo crear código de barras Aztec con corrección de errores en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Cómo generar código de barras PDF417 en C# con Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

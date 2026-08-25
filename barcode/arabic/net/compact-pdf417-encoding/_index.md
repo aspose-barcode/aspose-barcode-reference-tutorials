@@ -141,6 +141,12 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ## دروس ترميز Compact PDF417
 
+### [How to generate PDF417 barcode in C# with Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+
+
+### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+
+
 ### [إنشاء باركودات Compact PDF417](./compact-pdf417-basic-configuration/)
 تعلم كيفية إنشاء باركودات Compact PDF417 باستخدام Aspose.BarCode for .NET. دليل شامل مع تعليمات خطوة بخطوة وأمثلة على الشيفرة.
 

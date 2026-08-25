@@ -143,7 +143,9 @@ A Compact PDF417 magas adat sűrűsége és robusztus hibajavítása miatt szám
 ## Compact PDF417 kódolási oktatóanyagok
 ### [Compact PDF417 vonalkódok létrehozása](./compact-pdf417-basic-configuration/)
 
-Ismerje meg, hogyan generálhat Compact PDF417 vonalkódokat az Aspose.BarCode for .NET segítségével. Átfogó útmutató lépésről‑lépésre útmutatással és kódrészletekkel.
+### [PDF417 vonalkód létrehozása az Aspose.BarCode segítségével – lépésről‑lépésre útmutató](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+
+### [Hogyan generáljunk PDF417 vonalkódot C#-ban a Barcode Generator használatával](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 ## Gyakran Ismételt Kérdések
 

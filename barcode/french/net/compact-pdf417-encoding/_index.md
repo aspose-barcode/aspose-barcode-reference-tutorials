@@ -68,7 +68,7 @@ Si vous recherchez un guide clair, étape par étape sur **comment générer un 
 - **Qu'est-ce que le Compact PDF417 ?** Un code‑barres bidimensionnel qui stocke de grandes quantités de données dans une zone compacte.  
 - **Pourquoi choisir Aspose.BarCode pour .NET ?** API complète, prise en charge solide de la correction d’erreurs et intégration facile.  
 - **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour le développement ; une licence est requise pour la production.  
-- **Plateformes prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Plateformes prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
 - **Temps d’implémentation typique ?** Environ 10‑15 minutes pour un code‑barres de base.
 
 ## Qu'est-ce que l'encodage Compact PDF417 ?
@@ -173,7 +173,8 @@ A: Aucune police externe n’est requise ; la bibliothèque gère tout le rend
 - [Comment créer un code‑barres – Compact PDF417 avec Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Tutoriels complets et exemples d’Aspose.BarCode pour .NET](/barcode/net/)
 - [Comment créer un code‑barres Aztec avec correction d’erreurs en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Créer un code‑barres PDF417 avec Aspose.BarCode – guide étape par étape](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Comment générer un code‑barres PDF417 en C# avec le générateur de code‑barres](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

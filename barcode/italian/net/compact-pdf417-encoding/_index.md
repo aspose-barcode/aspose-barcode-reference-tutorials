@@ -80,7 +80,7 @@ Il formato può codificare fino a **~2 KB of text or binary data** a seconda d
 
 ## Perché Usare Compact PDF417 con Aspose.BarCode per .NET?
 
-Carica il tuo codice a barre PDF417 in sole due righe e lascia che Aspose gestisca il lavoro pesante. L'API a chiamata singola della libreria seleziona automaticamente la dimensione ottimale dei moduli, applica il livello di correzione d'errore scelto e genera immagini di alta qualità, riducendo i tempi di sviluppo fino al 70 %. Supporta oltre 50 formati di output—including PNG, JPEG, SVG, and PDF—and can process multi‑hundred‑page documents without loading the entire file into memory.
+Carica il tuo codice a barre PDF417 in sole due righe e lascia che Aspose gestisca il lavoro pesante. L'API a chiamata singola della libreria seleziona automaticamente la dimensione ottimale dei moduli, applica il livello di correzione d'errore scelto e genera immagini di alta qualità, riducendo i tempi di sviluppo fino al 70 %. Supporta oltre 50 formati di output—including PNG, JPEG, SVG, and PDF-and can process multi‑hundred‑page documents without loading the entire file into memory.
 
 ## Comprendere la Codifica Compact PDF417
 
@@ -142,8 +142,14 @@ L'alta densità di dati e la robusta correzione degli errori di Compact PDF417 l
 
 ## Tutorial sulla Codifica Compact PDF417
 
+### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+
+
 ### [Creare Codici a Barre Compact PDF417](./compact-pdf417-basic-configuration/)
 Impara come generare codici a barre Compact PDF417 usando Aspose.BarCode per .NET. Guida completa con istruzioni passo‑per‑passo ed esempi di codice.
+
+### [Come generare il codice a barre PDF417 in C# con Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+Scopri come creare un codice a barre PDF417 in C# usando la classe BarcodeGenerator di Aspose.BarCode.
 
 ## Domande Frequenti
 

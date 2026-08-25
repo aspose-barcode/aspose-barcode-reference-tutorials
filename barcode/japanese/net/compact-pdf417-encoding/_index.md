@@ -170,8 +170,10 @@ A: 外部フォントは不要です。ライブラリが内部で全てのレ�
 ## 関連チュートリアル
 
 - [バーコード作成方法 – Aspose.BarCode を使用した Compact PDF417](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Aspose.BarCode で PDF417 バーコードを作成する – ステップバイステップガイド](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
 - [Aspose.BarCode for .NET の包括的なチュートリアルとサンプル](/barcode/net/)
 - [.NET でエラー訂正付き Aztec バーコードを作成する方法](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [C# の Barcode Generator で PDF417 バーコードを生成する方法](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

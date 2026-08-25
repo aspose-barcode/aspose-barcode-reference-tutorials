@@ -171,6 +171,8 @@ A: Tidak diperlukan font eksternal; perpustakaan menangani semua rendering secar
 - [Cara Membuat Barcode – Compact PDF417 dengan Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Tutorial dan Contoh Komprehensif Aspose.BarCode untuk .NET](/barcode/net/)
 - [Cara membuat barcode Aztec dengan koreksi kesalahan di .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [Buat barcode PDF417 dengan Aspose.BarCode – panduan langkah demi langkah](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Cara menghasilkan barcode PDF417 di C# dengan Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
