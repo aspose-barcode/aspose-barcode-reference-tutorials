@@ -1,0 +1,7 @@
+Title: Create PDF417 Barcode Metadata in C# – Complete Step‑by‑Step Guide
+Slug: create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-15T14:47:54.464353
+SourceRepo: AI Search API
+Keywords: create pdf417 barcode metadata
+PRNumber: 69

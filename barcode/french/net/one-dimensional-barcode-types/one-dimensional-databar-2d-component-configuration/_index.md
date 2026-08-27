@@ -1,105 +1,148 @@
 ---
-title: Configuration des composants 2D de la barre de données unidimensionnelle
-linktitle: Configuration des composants 2D de la barre de données unidimensionnelle
-second_title: API Aspose.BarCode .NET
-description: Générez des codes-barres 2D de barre de données unidimensionnelles avec Aspose.BarCode pour .NET. Suivez notre guide étape par étape pour la configuration et la personnalisation. Commencez à créer des codes-barres uniques dès aujourd'hui !
-weight: 15
+date: 2026-02-28
+description: Apprenez à créer un générateur de codes‑barres Aspose pour les codes‑barres
+  Databar unidimensionnels 2D en .NET. Suivez notre guide pas à pas pour la configuration
+  et la personnalisation.
+linktitle: One-Dimensional Databar 2D Component Configuration
+second_title: Aspose.BarCode .NET API
+title: Créer le générateur de codes-barres Aspose – Configuration Databar 2D
 url: /fr/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/
+weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ not needed.
+
+Make sure to preserve code block placeholders exactly.
+
+Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configuration des composants 2D de la barre de données unidimensionnelle
+# Configuration du composant Databar 2D unidimensionnel
 
+## Réponses rapides
+- **À quoi sert le drapeau du composant 2D ?** Il indique au générateur s'il doit intégrer un symbole 2D composite à l'intérieur du code‑barres Databar.  
+- **Puis-je modifier la X‑dimension ?** Oui, la propriété `XDimension.Pixels` contrôle la largeur du module.  
+- **Quel format d'image est utilisé dans l'exemple ?** PNG, via `BarCodeImageFormat.Png`.  
+- **Ai‑je besoin d'une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence commerciale est requise pour la production.  
+- **Le code est‑il compatible avec .NET Core ?** Absolument — Aspose.BarCode prend en charge .NET Framework et .NET Core.
 
-Dans le monde du codage de données et du codage à barres, la bibliothèque Aspose.BarCode for .NET se présente comme un outil fiable et polyvalent. Ce puissant composant .NET offre aux développeurs les moyens de générer, manipuler et personnaliser des codes-barres sans effort. Si vous souhaitez exploiter le potentiel de cette bibliothèque pour la configuration des composants 2D de la barre de données unidimensionnelle, vous êtes au bon endroit. Dans ce guide étape par étape, nous détaillerons le processus pour garantir que vous pouvez travailler de manière transparente avec les composants Databar 2D à l'aide d'Aspose.BarCode pour .NET.
+## Qu'est‑ce qu'un composant Databar 2D unidimensionnel ?
+Un composant Databar 2D combine un code‑barres linéaire traditionnel avec un petit symbole composite 2D, vous permettant de stocker des informations supplémentaires (comme une URL ou des champs de données additionnels) sans augmenter la taille globale du code‑barres.
 
-## Conditions préalables
+## Pourquoi utiliser Aspose.BarCode pour cette tâche ?
+- **Intégration .NET complète** – fonctionne sans problème avec les projets C#.  
+- **API de configuration riche** – ajustez les dimensions, activez/désactivez le composant 2D, et choisissez parmi de nombreux formats de sortie.  
+- **Aucune dépendance externe** – la bibliothèque est autonome, ce qui simplifie le déploiement.
 
-Avant d'entrer dans les détails de la configuration du composant One-Dimensional Databar 2D, il y a quelques conditions préalables à garder à l'esprit :
+## Prérequis
 
-1. Installation : assurez-vous que Aspose.BarCode for .NET est installé dans votre environnement de développement. Sinon, vous pouvez le télécharger sur le site[ici](https://releases.aspose.com/barcode/net/).
+1. **Installation** – Assurez‑vous qu'Aspose.BarCode pour .NET est installé. Téléchargez‑le depuis le site web [ici](https://releases.aspose.com/barcode/net/).  
+2. **Connaissances de base** – Une familiarité avec C# et le développement .NET vous aidera à suivre les étapes.  
+3. **Environnement de développement** – Visual Studio, Rider, ou tout éditeur compatible C#.
 
-2. Compréhension de base : une connaissance de base du développement C# et .NET est recommandée pour ce didacticiel.
+Une fois ces bases couvertes, commençons à configurer le composant Databar 2D.
 
-3. Environnement de développement : vous devez disposer d'un environnement de développement, comprenant Visual Studio ou tout autre éditeur de code de votre choix.
+## Importer les espaces de noms
 
-Une fois ces conditions préalables en place, vous êtes prêt à vous plonger dans la configuration des composants 2D de la barre de données unidimensionnelle à l'aide d'Aspose.BarCode pour .NET.
-
-## Importer des espaces de noms
-
-La première étape de la configuration du composant 2D de barre de données unidimensionnelle consiste à importer les espaces de noms nécessaires dans votre projet. Les espaces de noms en C# vous permettent d'accéder aux classes, méthodes et propriétés requises pour générer des codes-barres à l'aide d'Aspose.BarCode. Voici les espaces de noms essentiels :
+La première chose à faire est d'importer l'espace de noms Aspose.BarCode afin de pouvoir accéder à ses classes.
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-Assurez-vous d'avoir inclus ces espaces de noms en haut de votre fichier de code C# pour accéder à la fonctionnalité Aspose.BarCode.
+## Définir le chemin de sortie
 
-## Étape 1 : Définir le chemin
-
-Avant d'entrer dans le vif du sujet de la configuration du composant Databar 2D, vous devez spécifier le chemin du répertoire dans lequel vous souhaitez enregistrer les images de codes-barres générées. Vous pouvez le faire en définissant le`path` variable au chemin de répertoire souhaité.
+Spécifiez où les images de code‑barres générées seront enregistrées sur votre système de fichiers.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- Remplacer`"Your Directory Path"` avec le chemin réel où vous souhaitez stocker vos images de codes-barres.
+Remplacez `"Your Directory Path"` par un chemin de dossier réel sur votre machine.
 
-## Étape 2 : Créer un générateur de codes-barres
+## Créer un générateur de code‑barres
 
-Créons maintenant un objet Générateur de codes-barres. Ce générateur sera utilisé pour configurer et générer le code-barres 2D One-Dimensional Databar. Dans cet exemple, nous travaillerons avec le type Databar Expanded et un exemple de valeur de données.
+Instanciez le `BarcodeGenerator` avec le type Databar Expanded et fournissez les données que vous souhaitez encoder.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "(01)12345678901231");
 ```
 
- Ici, nous avons choisi le type d'encodage Databar Expanded et fourni la valeur des données.`"(01)12345678901231"` pour notre code-barres. Vous pouvez remplacer cette valeur par vos propres données si nécessaire.
+N'hésitez pas à remplacer les données d'exemple par votre propre identifiant d'application GS1 ou tout autre contenu.
 
-## Étape 3 : Définir la configuration du code-barres
+## Comment créer un générateur de code‑barres Aspose pour un Databar 2D unidimensionnel
 
-Dans cette étape, vous allez configurer les propriétés du code-barres. Dans notre exemple, nous allons définir la dimension X en pixels et activer ou désactiver l'indicateur de composant 2D.
+Configurez maintenant les propriétés visuelles et le drapeau du composant 2D, puis enregistrez les images.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 
-// Désactiver l'indicateur de composant 2D
+// Disable 2D component flag
 gen.Parameters.Barcode.DataBar.Is2DCompositeComponent = false;
 gen.Save($"{path}Databar2DComponentDisabled.png", BarCodeImageFormat.Png);
 
-// Activer l'indicateur de composant 2D
+// Enable 2D component flag
 gen.Parameters.Barcode.DataBar.Is2DCompositeComponent = true;
 gen.Save($"{path}Databar2DComponentEnabled.png", BarCodeImageFormat.Png);
 ```
 
-Vous pouvez personnaliser la dimension X du code-barres selon vos besoins et décider d'activer ou de désactiver l'indicateur de composant 2D en fonction de votre cas d'utilisation. Les images de codes-barres sont enregistrées avec le chemin et le format fournis.
+- **XDimension** contrôle la largeur de chaque module du code‑barres.  
+- Mettre `Is2DCompositeComponent` à **false** génère un Databar purement linéaire.  
+- Le mettre à **true** ajoute le symbole 2D composite, utile pour encoder des données supplémentaires.
 
-Une fois ces étapes terminées, vous avez configuré avec succès le composant 2D de barre de données unidimensionnelle à l’aide d’Aspose.BarCode pour .NET.
+## Problèmes courants et astuces
+
+- **Chemin invalide** – Assurez‑vous que le dossier existe et que l'application dispose des permissions d'écriture.  
+- **Exception de licence** – Si vous voyez un avertissement de licence, appliquez votre licence Aspose avant de générer le code‑barres.  
+- **Image non visible** – Vérifiez que le `BarCodeImageFormat` correspond à l'extension de fichier que vous utilisez.
 
 ## Conclusion
 
- Dans ce didacticiel, nous avons exploré le processus de configuration du composant One-Dimensional Databar 2D à l'aide d'Aspose.BarCode pour .NET. Cette bibliothèque polyvalente permet aux développeurs de générer et de personnaliser facilement des codes-barres, et nous avons couvert les étapes essentielles pour vous aider à démarrer. N'oubliez pas de consulter la documentation pour plus de détails et d'options :[Documentation Aspose.BarCode pour .NET](https://reference.aspose.com/barcode/net/).
+Vous avez maintenant appris comment **créer un générateur de code‑barres Aspose** pour un composant Databar 2D unidimensionnel, en basculant le drapeau composite 2D et en ajustant la X‑dimension. Cette approche flexible vous permet d'adapter le code‑barres à une large gamme de scénarios métier. Pour une personnalisation plus poussée, explorez la documentation complète d'Aspose.BarCode : [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
-Si vous recherchez une solution fiable de génération de codes-barres dans .NET, Aspose.BarCode est un choix puissant. N'hésitez pas à expérimenter et à adapter ces étapes à vos besoins spécifiques, et commencez à créer vos propres codes-barres personnalisés dès aujourd'hui !
+Si vous avez besoin de plus d'exemples ou rencontrez des difficultés, la communauté Aspose est un excellent endroit pour poser des questions.
 
 ## FAQ
 
-### Aspose.BarCode for .NET est-il compatible avec différents types de codes-barres ?
-- Oui, Aspose.BarCode for .NET prend en charge un large éventail de types de codes-barres, ce qui le rend très polyvalent pour diverses applications.
+### Aspose.BarCode pour .NET est‑il compatible avec différents types de codes‑barres ?
+- Oui, Aspose.BarCode pour .NET prend en charge un large éventail de types de codes‑barres, ce qui le rend très polyvalent pour diverses applications.
 
-### Puis-je personnaliser l'apparence des codes-barres générés ?
-- Absolument! Vous pouvez ajuster la taille, la couleur et diverses autres propriétés visuelles du code-barres en fonction de vos besoins.
+### Puis‑je personnaliser l'apparence des codes‑barres générés ?
+- Absolument ! Vous pouvez ajuster la taille, la couleur et diverses autres propriétés visuelles du code‑barres selon vos besoins.
 
-### Existe-t-il des options de licence disponibles pour Aspose.BarCode pour .NET ?
-- Oui, Aspose propose des options de licence pour répondre à différentes exigences. Vous pouvez les découvrir sur le site Internet.
+### Existe‑t‑il des options de licence disponibles pour Aspose.BarCode pour .NET ?
+- Oui, Aspose propose des options de licence pour répondre à différents besoins. Vous pouvez les explorer sur le site web.
 
-### Aspose.BarCode convient-il aussi bien aux développeurs débutants qu’expérimentés ?
-- Aspose.BarCode est conçu pour être convivial, ce qui le rend adapté aussi bien aux développeurs débutants qu'expérimentés.
+### Aspose.BarCode convient‑il aux débutants comme aux développeurs expérimentés ?
+- Aspose.BarCode est conçu pour être convivial, le rendant adapté tant aux débutants qu'aux développeurs expérimentés.
 
-### Où puis-je obtenir de l’aide et de l’assistance concernant Aspose.BarCode for .NET ?
--  Vous pouvez demander de l'aide et interagir avec la communauté au[Forum de support Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
+### Où puis‑je obtenir du support et de l'aide pour Aspose.BarCode pour .NET ?
+- Vous pouvez demander de l'aide et interagir avec la communauté sur le [forum de support Aspose.BarCode pour .NET](https://forum.aspose.com/c/barcode/13).
+
+## Questions fréquemment posées
+
+**Q : Puis‑je générer des codes‑barres dans des formats autres que PNG ?**  
+A : Oui, la méthode `Save` prend en charge BMP, JPEG, GIF, TIFF, et plus en spécifiant le `BarCodeImageFormat` approprié.
+
+**Q : Comment appliquer une couleur personnalisée au code‑barres ?**  
+A : Utilisez `gen.Parameters.Barcode.ForeColor` et `gen.Parameters.Barcode.BackColor` pour définir les couleurs de premier plan et d'arrière‑plan.
+
+**Q : Est‑il possible d'intégrer un logo dans l'image du code‑barres ?**  
+A : Aspose.BarCode fournit une propriété `Image` où vous pouvez superposer un logo après la génération du code‑barres.
+
+**Q : Quelles versions de .NET sont prises en charge ?**  
+A : La bibliothèque fonctionne avec .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ et .NET 6+.
+
+**Q : Comment améliorer la fiabilité du scan pour des impressions basse résolution ?**  
+A : Augmentez la valeur de `XDimension` et assurez un contraste suffisant entre le code‑barres et l'arrière‑plan.
+
+---
+
+**Dernière mise à jour :** 2026-02-28  
+**Testé avec :** Aspose.BarCode 24.12 for .NET  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

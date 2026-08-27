@@ -1,0 +1,7 @@
+Title: Create omni directional databar and barcode image in Python
+Slug: create-omni-directional-databar-and-barcode-image-in-python
+Category: general
+ProcessedDate: 2026-08-12T22:36:29.474418
+SourceRepo: AI Search API
+Keywords: create omni directional databar, create barcode image python
+PRNumber: 100

@@ -1,9 +1,13 @@
 ---
-date: 2025-12-10
-description: 學習如何在 Java 中使用 Aspose.BarCode 於單張圖像上產生條碼。本指南涵蓋 Aspose 條碼 Java 整合與多條碼產生。
-linktitle: Generating Multiple Barcodes on a Single Image
+date: 2026-04-03
+description: 學習如何使用 Aspose.BarCode for Java 建立 QR 代碼並在單一圖像上產生多個條碼。包括設定、程式碼與故障排除。
+keywords:
+- create qr code java
+- aspose barcode java
+- generate barcodes java
+linktitle: 在單一圖像上產生多個條碼
 second_title: Aspose.BarCode Java API
-title: 如何在 Java 中於單張圖片生成條碼
+title: 使用 Java 建立 QR Code – 在同一張圖片上生成多個條碼
 url: /zh-hant/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 weight: 19
 ---
@@ -12,41 +16,42 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中使用 Aspose.BarCode 於單一圖像產生多條條碼
+# 建立 QR Code Java – 在單一圖像上產生多個條碼
 
-## Introduction
+## 簡介
 
-如果您正在尋找在 Java 應用程式中**產生條碼**的可靠方法，您來對地方了。使用 Aspose.BarCode for Java，您只需幾行程式碼即可將多種不同類型的條碼放置於同一張圖像上。本教學將帶您完整走過整個流程——從專案設定到儲存合併後的圖像——讓您立即在自己的解決方案中使用條碼產生功能。
+在本教學中，您將學習 **how to create QR code java**，並使用 **Aspose.BarCode for Java** 將多種不同類型的條碼合併到單一圖像上。無論您需要緊湊的 QR 標籤、產品條碼，或是 2‑D 與線性符號的混合，本指南都會一步步帶領您，從專案設定到儲存最終合併圖像，讓您立即在 Java 應用程式中整合條碼產生。
 
-## Quick Answers
-- **What library should I use?** Aspose.BarCode for Java provides the most complete set of symbologies.  
-- **Can I generate different barcode types together?** Yes, you can mix CODE_39, QR, AZTEC, and more on a single canvas.  
-- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
-- **Which Java version is supported?** Java 8 and newer are fully compatible.  
-- **Is the output format configurable?** You can export the combined image as PNG, JPEG, BMP, etc.
+## 快速解答
+- **What library should I use?** Aspose.BarCode for Java 提供最完整的符號集。  
+- **Can I generate different barcode types together?** 可以，您可以在同一畫布上混合 CODE_39、QR、AZTEC 等多種條碼。  
+- **Do I need a license for development?** 免費試用可用於測試；正式環境需商業授權。  
+- **Which Java version is supported?** 完全相容於 Java 8 及更新版本。  
+- **Is the output format configurable?** 您可以將合併圖像匯出為 PNG、JPEG、BMP 等格式。  
 
-## What is “how to generate barcodes” in Java?
+## 什麼是 create QR code java？
 
-產生條碼即是將一段資料字串轉換成掃描器可讀取的視覺圖案。Aspose.BarCode 會自動處理編碼、渲染與圖像建立的步驟，讓您專注於業務邏輯，而不必關心低階的圖像處理。
+在 Java 中建立 QR code 意味著將文字字串轉換為可供智慧手機或條碼閱讀器掃描的二維矩陣。**Aspose.BarCode for Java** 處理編碼與渲染，讓您專注於業務邏輯，而無需關注低階影像處理。
 
-## Why use Aspose.BarCode for Java barcode generation?
-- **Broad symbology support** – from classic linear codes to modern 2‑D matrices.  
-- **High‑quality rendering** – anti‑aliased output that works on any device.  
-- **Simple API** – create, customize, and combine barcodes with just a few method calls.  
-- **No external dependencies** – everything runs on the JVM without native libraries.
+## 為何使用 Aspose.BarCode Java 產生條碼 java？
 
-## Prerequisites
+- **Broad symbology support** – 從傳統線性條碼到現代 2‑D 矩陣皆支援。  
+- **High‑quality rendering** – 抗鋸齒輸出，適用於任何裝置。  
+- **Simple API** – 只需少量方法呼叫即可建立、客製化及合併條碼。  
+- **No external dependencies** – 完全在 JVM 上執行，無需原生函式庫。  
 
-在開始本教學之前，請確保您已具備以下前置條件：
+## 先決條件
 
-- Basic understanding of Java programming.  
-- Java Development Kit (JDK) installed on your system.  
-- Aspose.BarCode for Java library downloaded and set up. You can download it [here](https://releases.aspose.com/barcode/java/).  
-- An integrated development environment (IDE) such as Eclipse or IntelliJ IDEA.
+在開始本教學之前，請確保您具備以下先決條件：
 
-## Import Namespaces
+- 具備 Java 程式設計的基本概念。  
+- 系統已安裝 Java Development Kit (JDK)。  
+- 已下載並設定 Aspose.BarCode for Java 函式庫。您可於 [此處](https://releases.aspose.com/barcode/java/) 下載。  
+- 整合開發環境 (IDE)，如 Eclipse 或 IntelliJ IDEA。  
 
-在您的 Java 專案中，匯入必要的命名空間以存取 Aspose.BarCode 功能。於 Java 類別的開頭加入以下匯入語句：
+## 匯入命名空間
+
+在您的 Java 專案中，匯入必要的命名空間以使用 Aspose.BarCode 功能。於 Java 類別的開頭加入以下 import 陳述式：
 
 ```java
 import java.awt.Color;
@@ -65,9 +70,9 @@ import com.aspose.barcode.EncodeTypes;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Step 1: Set the Resource Directory
+## 步驟 1：設定資源目錄
 
-定義資源目錄的路徑，該目錄用於儲存產生的條碼圖像。此目錄對於條碼圖像的組織與管理至關重要。
+定義儲存產生條碼的資源目錄路徑。此目錄對於條碼圖像的組織與管理至關重要。
 
 ```java
 // The path to the resource directory.
@@ -75,9 +80,9 @@ String dataDir = Utils.getDataDir(GenerateMultipleBarcodesOnASingleImage.class)
         + "BarcodeReader/advanced_features/";
 ```
 
-## Step 2: Create a Collection of Barcodes
+## 步驟 2：建立條碼集合
 
-初始化一個 `HashMap` 以儲存條碼資料。集合中的每個項目代表一個條碼及其對應的編碼類型。
+初始化一個 `HashMap` 以儲存條碼資料。集合中的每個項目代表一個條碼及其相應的編碼類型。
 
 ```java
 HashMap<String, EncodeTypes> collection = new HashMap<>();
@@ -89,7 +94,7 @@ collection.put("979026000043", EncodeTypes.EAN_13);
 collection.put("Aztec BarCode", EncodeTypes.AZTEC);
 ```
 
-## Step 3: Generate Barcode Images
+## 步驟 3：產生條碼圖像
 
 遍歷集合，使用 Aspose.BarCode 函式庫產生條碼圖像。將圖像存入 `ArrayList` 以便後續處理。
 
@@ -102,9 +107,9 @@ for (Object key : collection.keySet()) {
 }
 ```
 
-## Step 4: Create a Combined Image
+## 步驟 4：建立合併圖像
 
-計算條碼圖像的最大寬度與總高度。建立一個 `BufferedImage`，將各個條碼圖像合併為單一輸出圖像。
+確定條碼圖像的最大寬度與總高度。建立 `BufferedImage`，將各個條碼圖像合併為單一輸出圖像。
 
 ```java
 int maxWidth = 0;
@@ -130,62 +135,55 @@ for (int i = 0; i < images.size(); ++i) {
 }
 ```
 
-## Step 5: Save the Result
+## 步驟 5：儲存結果
 
-將最終合併的圖像儲存至指定的檔案位置。
+將最終合併圖像儲存至指定的檔案位置。
 
 ```java
 File outputfile = new File(dataDir + "output.png");
 ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
-## Common Use Cases for Generating Multiple Barcodes
+## 產生多條碼的常見使用情境
 
-- **Packaging labels** – combine product, batch, and shipping codes on a single label.  
-- **Event tickets** – embed QR, Data Matrix, and Code 128 identifiers for different scanning stations.  
-- **Inventory management** – display SKU, RFID tag data, and serial numbers together for quick audit.
+- **Packaging labels** – 在單一標籤上結合產品、批次與運送代碼。  
+- **Event tickets** – 為不同掃描站點嵌入 QR、Data Matrix 與 Code 128 識別碼。  
+- **Inventory management** – 同時顯示 SKU、RFID 標籤資料與序號，以便快速稽核。  
 
-## Troubleshooting & Tips
+## 故障排除與技巧
 
-- **Image size issues** – adjust the `offset` variable to increase or decrease spacing between barcodes.  
-- **Unsupported symbology** – verify that your Aspose.BarCode version supports the desired barcode type.  
-- **Performance** – reuse a single `Graphics` object if you generate many images in a loop.
+- **Image size issues** – 調整 `offset` 變數以增減條碼之間的間距。  
+- **Unsupported symbology** – 確認您使用的 Aspose.BarCode 版本支援所需的條碼類型。  
+- **Performance** – 若在迴圈中產生大量圖像，請重複使用同一個 `Graphics` 物件以提升效能。  
 
-## FAQ's
+## 常見問題
 
-### Q1: Can I customize the appearance of individual barcodes in the generated image?
+**Q1: 我可以自訂產生圖像中各個條碼的外觀嗎？**  
+A1: 可以，Aspose.BarCode 提供廣泛的條碼外觀自訂選項，讓您依需求調整每個條碼的樣式。
 
-A1: Yes, Aspose.BarCode provides extensive customization options for barcode appearance, allowing you to tailor each barcode's style to your preferences.
+**Q2: Aspose.BarCode 是否相容於不同的條碼符號？**  
+A2: 絕對相容！Aspose.BarCode 支援廣泛的符號，包括 CODE_39、DATA_MATRIX、QR、CODE_128、EAN_13 以及 AZTEC，如本教學所示。
 
-### Q2: Is Aspose.BarCode compatible with different barcode symbologies?
+**Q3: 我該如何將 Aspose.BarCode 整合到我的 Java 專案中？**  
+A3: 只需從 [此處](https://releases.aspose.com/barcode/java/) 下載 Aspose.BarCode for Java 函式庫，並依照文件中的安裝說明進行設定。
 
-A2: Absolutely! Aspose.BarCode supports a wide range of symbologies, including CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13, and AZTEC, as demonstrated in this tutorial.
+**Q4: 我可以將 Aspose.BarCode 用於商業應用嗎？**  
+A4: 可以，您可於 [此處](https://purchase.aspose.com/buy) 取得授權，以商業用途使用 Aspose.BarCode。
 
-### Q3: How can I integrate Aspose.BarCode into my Java project?
+**Q5: Aspose.BarCode 有提供試用方案嗎？**  
+A5: 當然！您可於 [此處](https://releases.aspose.com/) 取得免費試用授權，體驗 Aspose.BarCode 功能。
 
-A3: Simply download the Aspose.BarCode for Java library from [here](https://releases.aspose.com/barcode/java/) and follow the installation instructions provided in the documentation.
+**Q6: 我該如何產生高解析度的 QR code 以供列印？**  
+A6: 在呼叫 `generateBarCodeImage()` 前，於 `BarcodeGenerator` 設定所需的 DPI，然後將圖像儲存為 PNG 等無損格式。
 
-### Q4: Can I use Aspose.BarCode for commercial applications?
-
-A4: Yes, you can obtain a license from [here](https://purchase.aspose.com/buy) to use Aspose.BarCode for commercial purposes.
-
-### Q5: Are there any trial options available for Aspose.BarCode?
-
-A5: Certainly! You can explore the features of Aspose.BarCode by obtaining a free trial license [here](https://releases.aspose.com/).
-
-**Additional Questions**
-
-**Q: How do I generate a QR code specifically in Java?**  
-A: Use `EncodeTypes.QR` when creating the `BarcodeGenerator` instance, as shown in the collection example.
-
-**Q: Does Aspose.BarCode support high‑resolution output for printing?**  
-A: Yes, you can specify the DPI when saving the image to meet print‑quality requirements.
+**Q7: 若合併圖像被截斷，我該怎麼辦？**  
+A7: 請確認 `offset` 與畫布尺寸計算正確考慮所有條碼高度；調整畫布高度或縮小單一條碼尺寸通常可解決截斷問題。
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode for Java 24.11  
-**Author:** Aspose  
+**最後更新:** 2026-04-03  
+**測試環境:** Aspose.BarCode for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

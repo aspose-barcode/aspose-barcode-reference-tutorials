@@ -1,0 +1,7 @@
+Title: Configure Databar barcode layout in Python – step‑by‑step guide
+Slug: configure-databar-barcode-layout-in-python-step-by-step-guid
+Category: general
+ProcessedDate: 2026-08-12T22:36:33.449924
+SourceRepo: AI Search API
+Keywords: configure databar barcode layout
+PRNumber: 100

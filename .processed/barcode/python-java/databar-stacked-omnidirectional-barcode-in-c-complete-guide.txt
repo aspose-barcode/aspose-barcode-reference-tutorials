@@ -1,0 +1,7 @@
+Title: databar stacked omnidirectional barcode in C# – Complete Guide
+Slug: databar-stacked-omnidirectional-barcode-in-c-complete-guide
+Category: general
+ProcessedDate: 2026-07-15T15:23:52.633693
+SourceRepo: AI Search API
+Keywords: databar stacked omnidirectional, barcode generator c#, how to set aspect ratio, how to generate databar, create databar barcode
+PRNumber: 71

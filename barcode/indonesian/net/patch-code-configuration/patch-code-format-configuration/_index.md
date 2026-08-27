@@ -1,76 +1,95 @@
 ---
-title: Membuat Barcode Kode Patch Menggunakan Aspose.BarCode untuk .NET
-linktitle: Konfigurasi Format Kode Patch
+date: 2026-03-02
+description: Hasilkan kode batang Patch Code dengan Aspose Barcode .NET. Pelajari
+  cara menghasilkan kode batang Patch Code dengan cepat dan meningkatkan manajemen
+  dokumen. Unduh perpustakaan sekarang!
+linktitle: Patch Code Format Configuration
 second_title: Aspose.BarCode .NET API
-description: Hasilkan kode batang Kode Patch dengan mudah menggunakan Aspose.BarCode untuk .NET. Pelajari langkah-langkah membuat kode batang Kode Patch dan menyempurnakan sistem manajemen dokumen Anda. Unduh perpustakaannya sekarang!
-weight: 10
+title: aspose barcode .net – Buat Kode Bar Patch di .NET
 url: /id/net/patch-code-configuration/patch-code-format-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Barcode Kode Patch Menggunakan Aspose.BarCode untuk .NET
+# Membuat Barcode Patch Code Menggunakan Aspose.BarCode untuk .NET
 
+Dalam tutorial ini Anda akan belajar **cara menghasilkan barcode Patch Code dengan aspose barcode .net**. Patch Code adalah simbol dua dimensi yang membantu mengatur dan mengambil dokumen dalam arsip besar. Pada akhir panduan ini Anda akan dapat menambahkan barcode Patch Code ke aplikasi .NET apa pun hanya dengan beberapa baris kode.
 
-Dalam tutorial ini, kita akan mempelajari cara membuat barcode Patch Code menggunakan Aspose.BarCode untuk .NET. Kode Patch adalah kode batang dua dimensi yang biasanya digunakan dalam pengelolaan dan pengarsipan dokumen. Aspose.BarCode menyederhanakan proses pembuatan barcode Patch Code di aplikasi .NET Anda. Dalam panduan ini, kami akan membahas pendahuluan, prasyarat, mengimpor namespace, dan rincian langkah demi langkah dari contoh yang Anda berikan.
+## Jawaban Cepat
+- **Perpustakaan apa yang dibutuhkan?** Aspose.BarCode for .NET  
+- **Bisakah saya menghasilkan Patch Code tanpa QR?** Ya – atur PatchFormat dan lewati pengaturan QR.  
+- **Format gambar apa yang direkomendasikan?** PNG bekerja paling baik untuk rendering loss‑less.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Trial gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Apakah .NET Core didukung?** Tentu – perpustakaan ini menargetkan .NET 5/6 dan .NET Core 3.1+.  
 
-## Perkenalan
+## Pendahuluan
 
-Barcode Kode Patch merupakan bagian integral dari sistem manajemen dokumen, membantu dalam identifikasi dan pengorganisasian dokumen. Aspose.BarCode untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang menghasilkan berbagai jenis kode batang, termasuk Kode Patch, dengan mudah.
+Patch Code barcode merupakan bagian integral dari sistem manajemen dokumen, membantu dalam identifikasi dan pengorganisasian dokumen. Aspose.BarCode untuk .NET adalah perpustakaan yang kuat yang memungkinkan pengembang menghasilkan berbagai jenis barcode, termasuk Patch Code, dengan mudah.
 
-Dalam tutorial ini, kita akan mempelajari cara membuat barcode Patch Code menggunakan Aspose.BarCode untuk .NET. Kami akan membahas prasyarat yang diperlukan, mengimpor namespace yang diperlukan, dan memecah contoh yang diberikan menjadi langkah-langkah terperinci. Di akhir panduan ini, Anda akan dapat membuat kode batang Kode Patch di aplikasi .NET Anda dengan mudah.
+Dalam tutorial ini, kami akan mempelajari cara membuat Patch Code barcode menggunakan Aspose.BarCode untuk .NET. Kami akan membahas prasyarat yang diperlukan, mengimpor namespace yang dibutuhkan, dan memecah contoh yang disediakan menjadi langkah‑langkah terperinci. Pada akhir panduan ini, Anda akan dapat menghasilkan Patch Code barcode dalam aplikasi .NET Anda dengan mudah.
+
+## Apa itu Aspose.BarCode untuk .NET?
+Aspose.BarCode untuk .NET adalah API yang kompatibel dengan .NET yang memungkinkan Anda **menghasilkan dan membaca** banyak simbol barcode, mulai dari kode 1‑D klasik hingga simbol 2‑D lanjutan seperti Patch Code dan QR. API ini menyembunyikan detail enkoding tingkat rendah, sehingga Anda dapat fokus pada logika bisnis.
+
+## Mengapa menghasilkan barcode Patch Code?
+- **Pengambilan dokumen cepat** – Pindai Patch Code untuk menemukan file fisik secara instan.  
+- **Penyimpanan data kompak** – Simpan metadata (mis., tipe dokumen, tanggal pembuatan) langsung dalam simbol.  
+- **Pelengkap QR bawaan** – Secara opsional tambahkan kode QR yang dapat memuat URL atau blok teks yang lebih besar.  
 
 ## Prasyarat
 
-Sebelum kita mulai membuat kode batang Kode Patch, Anda perlu memastikan bahwa Anda memiliki prasyarat berikut:
+Sebelum kita mulai menghasilkan Patch Code barcode, pastikan Anda telah menyiapkan prasyarat berikut:
 
-- Visual Studio atau lingkungan pengembangan .NET apa pun yang diinstal pada sistem Anda.
--  Aspose.BarCode untuk perpustakaan .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/barcode/net/).
-- Pengetahuan dasar tentang pemrograman C# dan .NET.
+- Visual Studio atau lingkungan pengembangan .NET apa pun yang terpasang di sistem Anda.  
+- Aspose.BarCode untuk .NET library. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/barcode/net/).  
+- Pengetahuan dasar tentang pemrograman C# dan .NET.  
 
 ## Impor Namespace
 
-Untuk memulai, pastikan untuk mengimpor namespace yang diperlukan untuk bekerja dengan Aspose.BarCode untuk .NET. Inilah cara Anda melakukannya:
+Untuk memulai, pastikan mengimpor namespace yang diperlukan untuk bekerja dengan Aspose.BarCode untuk .NET. Berikut cara melakukannya:
 
 ```csharp
 using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-Sekarang kita sudah memiliki prasyarat dan namespace, mari kita bagi contoh yang diberikan menjadi beberapa langkah.
+Sekarang setelah kami memiliki prasyarat dan namespace yang diperlukan, mari kita uraikan contoh yang diberikan menjadi beberapa langkah.
 
-## Langkah 1: Tetapkan Jalur
+## Cara menghasilkan barcode Patch Code dengan aspose barcode .net
 
-Pertama, tentukan jalur di mana Anda ingin menyimpan gambar barcode Patch Code yang dihasilkan. Anda dapat mengatur jalur direktori seperti ini:
+### Langkah 1: Atur Jalur
+
+Pertama, definisikan jalur tempat Anda ingin menyimpan gambar barcode Patch Code yang dihasilkan. Anda dapat mengatur jalur direktori seperti ini:
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-Pastikan untuk mengganti "Jalur Direktori Anda" dengan jalur sebenarnya tempat Anda ingin menyimpan gambar kode batang.
+Pastikan untuk mengganti `"Your Directory Path"` dengan folder aktual yang ingin Anda gunakan untuk gambar output.
 
-## Langkah 2: Inisialisasi Generator Barcode
+### Langkah 2: Inisialisasi Barcode Generator
 
- Buat sebuah instance dari`BarcodeGenerator` kelas untuk mulai membuat kode batang Kode Patch. Tentukan jenis barcode yang mana`EncodeTypes.PatchCode` dalam hal ini, dan teks kode unik, misalnya, "Patch I."
+Buat instance dari kelas `BarcodeGenerator` untuk memulai menghasilkan Patch Code barcode. Tentukan tipe barcode, yaitu `EncodeTypes.PatchCode` dalam kasus ini, dan teks kode unik, misalnya, `"Patch I"`.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.PatchCode, "Patch I");
 ```
 
-## Langkah 3: Hasilkan Kode Patch tanpa QR Gratis
+### Langkah 3: Hasilkan Patch Code tanpa QR Pelengkap
 
- Anda dapat membuat kode batang Kode Patch tanpa kode QR gratis. Atur Format Patch ke`PatchFormat.A4` dan simpan gambar barcode yang dihasilkan.
+Anda dapat menghasilkan Patch Code barcode tanpa QR pelengkap. Atur Patch Format ke `PatchFormat.A4` dan simpan gambar barcode yang dihasilkan.
 
 ```csharp
 gen.Parameters.Barcode.PatchCode.PatchFormat = PatchFormat.A4;
 gen.Save($"{path}PatchCodeA4WithoutQR.png", BarCodeImageFormat.Png);
 ```
 
-## Langkah 4: Hasilkan Kode Patch dengan QR Gratis
+### Langkah 4: Hasilkan Patch Code dengan QR Pelengkap
 
- Untuk menghasilkan kode batang Kode Patch dengan kode QR gratis, atur Format Patch ke`PatchFormat.A4` . Selain itu, Anda dapat menambahkan informasi tambahan ke kode batang menggunakan`ExtraBarcodeText` Properti. Atur lokasi teks kode ke`CodeLocation.None` untuk menonaktifkannya.
+Untuk menghasilkan Patch Code barcode dengan QR pelengkap, atur Patch Format ke `PatchFormat.A4`. Selain itu, Anda dapat menambahkan informasi ekstra ke barcode menggunakan properti `ExtraBarcodeText`. Atur lokasi teks kode ke `CodeLocation.None` untuk menonaktifkannya.
 
 ```csharp
 gen.Parameters.Barcode.PatchCode.PatchFormat = PatchFormat.A4;
@@ -79,28 +98,47 @@ gen.Parameters.Barcode.CodeTextParameters.Location = CodeLocation.None;
 gen.Save($"{path}PatchCodeA4WithQR.png", BarCodeImageFormat.Png);
 ```
 
-Dengan empat langkah sederhana ini, Anda dapat membuat kode batang Patch Code menggunakan Aspose.BarCode untuk .NET. Pustaka ini menyederhanakan proses, menjadikannya efisien dan ramah pengguna bagi pengembang .NET.
+Dengan empat langkah sederhana ini, Anda dapat membuat Patch Code barcode menggunakan Aspose.BarCode untuk .NET. Perpustakaan ini menyederhanakan proses, menjadikannya efisien dan ramah pengguna bagi pengembang .NET.
 
-## Kesimpulan
-
-Dalam tutorial ini, kita telah menjelajahi cara membuat barcode Patch Code menggunakan Aspose.BarCode untuk .NET. Kami membahas prasyaratnya, mengimpor namespace yang diperlukan, dan memberikan contoh rincian langkah demi langkah, memungkinkan Anda membuat kode batang Kode Patch dengan mudah di aplikasi .NET Anda. Aspose.BarCode adalah alat yang berharga untuk manajemen dokumen dan sistem pengarsipan, dan dengan pengetahuan yang diperoleh dalam tutorial ini, Anda dapat memanfaatkan kemampuannya secara efektif.
+## Masalah Umum dan Solusinya
+- **Kesalahan jalur tidak valid** – Pastikan folder ada dan aplikasi memiliki izin menulis.  
+- **Pengecualian lisensi** – Versi trial dapat digunakan untuk evaluasi; terapkan lisensi yang valid untuk produksi guna menghapus watermark.  
+- **Format gambar tidak didukung** – API mendukung PNG, JPEG, BMP, GIF, dan TIFF. Gunakan salah satu format ini saat memanggil `Save`.  
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.BarCode untuk .NET?
-Aspose.BarCode untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang .NET membuat dan membaca berbagai jenis kode batang, termasuk Kode Patch, kode QR, dan banyak lagi.
+Aspose.BarCode untuk .NET adalah perpustakaan yang kuat yang memungkinkan pengembang .NET menghasilkan dan membaca berbagai jenis barcode, termasuk Patch Code, kode QR, dan lainnya.
 
 ### Di mana saya dapat mengunduh Aspose.BarCode untuk .NET?
-Anda dapat mengunduh Aspose.BarCode untuk .NET dari[Asumsikan situs web](https://releases.aspose.com/barcode/net/).
+Anda dapat mengunduh Aspose.BarCode untuk .NET dari [situs Aspose](https://releases.aspose.com/barcode/net/).
 
 ### Apakah Aspose.BarCode untuk .NET cocok untuk sistem manajemen dokumen?
-Ya, Aspose.BarCode untuk .NET sangat cocok untuk sistem manajemen dokumen, karena dapat menghasilkan kode batang Kode Patch yang digunakan untuk identifikasi dan pengorganisasian dokumen.
+Ya, Aspose.BarCode untuk .NET sangat cocok untuk sistem manajemen dokumen, karena dapat menghasilkan Patch Code barcode yang digunakan untuk identifikasi dan pengorganisasian dokumen.
 
 ### Bisakah saya mencoba Aspose.BarCode untuk .NET sebelum membeli?
- Ya, Anda dapat mengakses uji coba gratis Aspose.BarCode untuk .NET dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengakses trial gratis Aspose.BarCode untuk .NET dari [here](https://releases.aspose.com/).
 
-### Di mana saya bisa mendapatkan dukungan untuk Aspose.BarCode untuk .NET?
- Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose.BarCode untuk .NET[Di Sini](https://forum.aspose.com/c/barcode/13).
+### Di mana saya dapat mendapatkan dukungan untuk Aspose.BarCode untuk .NET?
+Jika Anda memiliki pertanyaan atau membutuhkan bantuan, Anda dapat mengunjungi forum dukungan Aspose.BarCode untuk .NET [di sini](https://forum.aspose.com/c/barcode/13).
+
+**Additional Q&A**
+
+**Q:** *Bisakah saya menyesuaikan ukuran Patch Code yang dihasilkan?*  
+**A:** Ya. Sesuaikan `gen.Parameters.Image.Width` dan `Height` sebelum memanggil `Save`.
+
+**Q:** *Apakah memungkinkan untuk menyematkan barcode langsung ke dalam PDF?*  
+**A:** Tentu. Gunakan Aspose.PDF untuk menambahkan PNG yang dihasilkan (atau stream) ke halaman PDF.
+
+## Kesimpulan
+
+Dalam tutorial ini, kami mengeksplorasi cara menghasilkan Patch Code barcode menggunakan **aspose barcode .net**. Kami membahas prasyarat, mengimpor namespace yang diperlukan, dan melangkah melalui contoh yang jelas, langkah‑demi‑langkah yang menunjukkan cara membuat Patch Code baik tanpa QR maupun dengan QR tambahan. Dengan pengetahuan ini, Anda kini dapat mengintegrasikan pengidentifikasi yang dapat dipindai ke dalam solusi manajemen dokumen atau arsip apa pun.
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

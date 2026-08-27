@@ -1,0 +1,7 @@
+Title: Read Multiple Barcodes C# – Complete Guide with PDF417
+Slug: read-multiple-barcodes-c-complete-guide-with-pdf417
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-31T06:31:15.406771
+SourceRepo: AI Search API
+Keywords: read multiple barcodes c#
+PRNumber: 87

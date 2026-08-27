@@ -1,0 +1,7 @@
+Title: How to change barcode size in C# with DataBar Stacked
+Slug: how-to-change-barcode-size-in-c-with-databar-stacked
+Category: general
+ProcessedDate: 2026-08-22T15:54:47.690732
+SourceRepo: AI Search API
+Keywords: how to change barcode size
+PRNumber: 109

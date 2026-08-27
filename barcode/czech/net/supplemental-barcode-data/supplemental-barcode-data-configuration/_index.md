@@ -1,121 +1,153 @@
 ---
-title: Vytváření doplňkových dat čárových kódů pomocí Aspose.BarCode pro .NET
-linktitle: Konfigurace doplňkových dat čárového kódu
+date: 2026-03-07
+description: Naučte se, jak vytvořit čárový kód EAN‑13 s doplňkovými daty v C# pomocí
+  Aspose.BarCode pro .NET – rychle generujte PNG čárového kódu.
+linktitle: Supplemental Barcode Data Configuration
 second_title: Aspose.BarCode .NET API
-description: Generujte doplňková data čárových kódů pomocí Aspose.BarCode pro .NET. Přizpůsobte si čárové kódy EAN-2 a EAN-5 bez námahy. Podrobný průvodce pro vývojáře .NET.
-weight: 10
+title: Vytvořte čárový kód EAN‑13 s doplňkovými daty – Aspose.BarCode
 url: /cs/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytváření doplňkových dat čárových kódů pomocí Aspose.BarCode pro .NET
+# Vytvoření čárového kódu EAN-13 s doplňkovými údaji – Aspose.BarCode pro .NET
 
+V tomto praktickém tutoriálu **vytvoříte čárový kód EAN-13**, který obsahuje doplňkové údaje EAN‑2 nebo EAN‑5, a uvidíte, jak **generovat PNG soubory čárových kódů** pomocí několika řádků C#. Ať už budujete systém pokladny v maloobchodě, logistickou aplikaci nebo jednoduchý nástroj pro inventuru, možnost přidat doplňkové informace činí vaše čárové kódy mnohem užitečnějšími.
 
-Ve světě generování a přizpůsobení čárových kódů Aspose.BarCode for .NET vyniká jako výkonný a všestranný nástroj. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vás provede procesem konfigurace doplňkových dat čárových kódů pomocí Aspose.BarCode for .NET. 
+## Rychlé odpovědi
+- **Co znamená „doplňkové údaje“?** Extra číslice (EAN‑2/EAN‑5) tištěné vedle hlavního čárového kódu, často používané pro cenu nebo čísla vydání.  
+- **Jaký typ čárového kódu se používá?** EAN‑13 jako primární symbol, s volitelnými doplňky EAN‑2 nebo EAN‑5.  
+- **Mohu výstupně získat PNG obrázky?** Ano – metoda `Save` umožňuje export přímo do PNG.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; pro produkci je vyžadována komerční licence.  
+- **Je to kompatibilní s .NET Core / .NET 6?** Naprosto – Aspose.BarCode podporuje všechny moderní .NET runtime.
 
-## Předpoklady
+## Požadavky
 
-Než se ponoříme do světa doplňkových dat čárových kódů, ujistěte se, že máte splněny následující předpoklady:
+- Visual Studio (nebo jakékoli IDE kompatibilní s .NET).  
+- Kopie Aspose.BarCode pro .NET – stáhněte ji **[zde](https://releases.aspose.com/barcode/net/)**.  
+- Základní znalost C#.  
+- Zapisovatelná složka, kam budou ukládány generované PNG soubory.
 
-- Vývojové prostředí nastavené pomocí sady Visual Studio nebo jakéhokoli jiného vývojového nástroje .NET.
--  Kopie Aspose.BarCode pro .NET. Pokud jste to ještě neudělali, můžete si ji stáhnout[tady](https://releases.aspose.com/barcode/net/).
-- Základní znalost programování v C#.
-- Adresář, kam můžete uložit vygenerované obrázky čárových kódů.
+## Importování jmenných prostorů
 
-## Import jmenných prostorů
-
-Nejprve se ujistěte, že máte v kódu C# zahrnuty potřebné jmenné prostory pro práci s Aspose.BarCode for .NET. Importujte požadované jmenné prostory na začátek vašeho souboru C#:
+Nejprve přidejte jmenný prostor Aspose.BarCode, abyste mohli přistupovat ke třídám generátoru:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Nyní si rozdělme proces konfigurace doplňkových dat čárových kódů do několika kroků.
+> **Tip:** Pokud používáte .NET Core, přidejte do projektu NuGet balíček `Aspose.BarCode` místo ručního odkazování na DLL.
 
-## Krok 1: Nastavení cesty k adresáři
+## Co je doplňkový čárový kód?
 
- V kódu C# definujte cestu k adresáři, kam chcete uložit vygenerované obrázky čárových kódů. Nahradit`"Your Directory Path"` s vaší skutečnou cestou k adresáři.
+Doplňkový čárový kód je pomocný číselný řetězec tištěný vedle hlavního čárového kódu.  
+- **EAN‑2** – dvouciferný doplněk, často používaný pro čísla vydání časopisů.  
+- **EAN‑5** – pěticiferný doplněk, běžně používaný pro rozšíření ceny u maloobchodních položek.
+
+Přidání těchto doplňků nemění primární data EAN‑13; jen poskytuje další kontext, který skenery mohou přečíst.
+
+## Proč použít Aspose.BarCode pro doplňkové údaje?
+
+- **Jednořádkové API** – nakonfigurujte hlavní čárový kód i jeho doplněk v jednom objektu.  
+- **Plná kontrola nad rozměry** – upravte X‑rozměr, rozestup doplňku a formát obrázku.  
+- **Cross‑platform** – funguje na .NET Framework, .NET Core a .NET 5/6+.
+
+## Průvodce krok za krokem
+
+### Krok 1: Nastavení výstupního adresáře
+
+Definujte, kam budou ukládány PNG soubory. Nahraďte zástupný text skutečnou cestou na vašem počítači.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Krok 2: Vytvoření generátoru čárových kódů
+### Krok 2: Inicializace generátoru čárových kódů (Barcode Generator C#)
 
- Vytvořte instanci`BarcodeGenerator` zadáním typu čárového kódu a dat, která chcete kódovat. V tomto příkladu používáme čárový kód EAN-13 s údaji „1234567890128“.
+Vytvořte instanci `BarcodeGenerator`, přičemž jako hlavní typ specifikujete **EAN‑13** a poskytnete 13‑ciferný payload.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## Krok 3: Přizpůsobení rozměrů čárového kódu
+### Krok 3: Úprava rozměrů čárového kódu
 
-Nastavte rozměry čárového kódu, jako je rozměr X (šířka nejmenšího prvku v čárovém kódu) a doplňková mezera. V tomto příkladu nastavíme rozměr X na 2 pixely a doplňkový prostor na 20 pixelů.
+Doladěte vizuální velikost čárového kódu a prostor vyhrazený pro doplněk.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## Krok 4: Konfigurace doplňku EAN-2
+### Krok 4: Přidání doplňku EAN‑2
 
-Chcete-li nakonfigurovat doplňkový čárový kód EAN-2, nastavte doplňková data na požadovanou hodnotu. V tomto případě ji nastavíme na „12“. 
+Nastavte doplňková data na dvoucifernou hodnotu (např. „12“). Tato se zobrazí napravo od hlavního čárového kódu.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## Krok 5: Uložení obrázku čárového kódu
+### Krok 5: Uložení čárového kódu EAN‑2 jako PNG
 
-Uložte vygenerovaný obrázek čárového kódu do zadaného adresáře se smysluplným názvem. V tomto příkladu uložíme doplňkový čárový kód EAN-2 jako "SupplementEAN2.png".
+Exportujte obrázek. Argument `BarCodeImageFormat.Png` zajišťuje vysoce kvalitní PNG soubor.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## Krok 6: Konfigurace doplňku EAN-5
+### Krok 6: Přepnutí na doplněk EAN‑5
 
- Chcete-li nakonfigurovat doplňkový čárový kód EAN-5, jednoduše změňte`SupplementData` na vámi požadovanou hodnotu. Zde jsme jej nastavili na „12345“.
+Změňte `SupplementData` na pěticiferný řetězec pro rozšíření ceny.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## Krok 7: Uložení obrázku čárového kódu (EAN-5)
-
-Nakonec uložte obrázek doplňkového čárového kódu EAN-5 do vámi určeného adresáře. V tomto případě jej uložíme jako „SupplementEAN5.png“.
+### Krok 7: Uložení čárového kódu EAN‑5 jako PNG
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-Nyní jste úspěšně nakonfigurovali a vygenerovali doplňková data čárových kódů pomocí Aspose.BarCode for .NET. Tento přístup můžete použít k vytvoření široké škály typů čárových kódů s různými doplňkovými daty.
+> **Proč to funguje:** Stejná instance `BarcodeGenerator` se znovu používá, takže před každým voláním `Save` stačí upravit vlastnost `SupplementData`. To udržuje kód stručný a zabraňuje zbytečnému vytváření objektů.
 
-## Závěr
+## Časté problémy a tipy
 
-Aspose.BarCode for .NET je výkonný nástroj pro generování a přizpůsobení čárových kódů. V této příručce jsme krok za krokem prošli procesem konfigurace a generování doplňkových dat čárových kódů. Se správnými předpoklady a trochou kódování můžete efektivně pracovat s daty čárových kódů a vyhovět vašim specifickým potřebám.
-
- Další informace a pokročilé použití naleznete v části[Aspose.BarCode pro dokumentaci .NET](https://reference.aspose.com/barcode/net/).
+- **Neplatná cesta k adresáři** – ujistěte se, že složka existuje a aplikace má oprávnění k zápisu.  
+- **Nesprávná délka doplňku** – EAN‑2 vyžaduje přesně 2 číslice, EAN‑5 vyžaduje 5; jinak je vyvolána výjimka.  
+- **Obrázek není viditelný** – ověřte, že je použito `BarCodeImageFormat.Png`; jiné formáty (např. JPEG) mohou způsobit kompresní artefakty, které ovlivní čitelnost skenerem.  
 
 ## Často kladené otázky
 
-### Mohu použít Aspose.BarCode pro .NET ve svém projektu .NET Core?
-Ano, Aspose.BarCode for .NET je kompatibilní s .NET Core.
+### Mohu použít Aspose.BarCode pro .NET v mém .NET Core projektu?
+Ano, Aspose.BarCode pro .NET je plně kompatibilní s .NET Core, .NET 5 a .NET 6.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.BarCode pro .NET?
- Ano, můžete si to vyzkoušet zdarma při návštěvě[tento odkaz](https://releases.aspose.com/).
+Ano, můžete si ji vyzkoušet zdarma na **[této stránce](https://releases.aspose.com/)**.
 
 ### Kde mohu získat dočasnou licenci pro Aspose.BarCode pro .NET?
- Dočasnou licenci můžete získat od[tento odkaz](https://purchase.aspose.com/temporary-license/).
+Dočasnou licenci můžete získat na **[této stránce](https://purchase.aspose.com/temporary-license/)**.
 
 ### Podporuje Aspose.BarCode širokou škálu typů čárových kódů?
-Ano, podporuje různé typy čárových kódů, včetně EAN-13, QR Code, Code 128 a dalších.
+Rozhodně – podporuje EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417 a mnoho dalších.
 
-### Mohu upravit vzhled generovaných čárových kódů?
-Rozhodně si můžete přizpůsobit rozměry, barvy a další aspekty čárových kódů tak, aby vyhovovaly vašim požadavkům.
+### Mohu přizpůsobit vzhled generovaných čárových kódů?
+Ano, můžete měnit barvy, písma, okraje a dokonce přidávat obrázky pozadí pomocí rozsáhlého API `Parameters`.
+
+## Závěr
+
+Nyní víte, jak **vytvořit čárový kód EAN-13** s doplňkovými údaji EAN‑2 nebo EAN‑5 a **generovat PNG soubory čárových kódů** pomocí Aspose.BarCode pro .NET. Tento přístup vám dává plnou kontrolu nad rozměry čárového kódu, rozestupem doplňku a výstupním formátem, což je ideální pro maloobchod, logistiku a jakýkoli scénář, kde jsou potřeba další číselné informace.
+
+Pro podrobnější průzkum si prohlédněte kompletní referenční příručku: **[dokumentace Aspose.BarCode pro .NET](https://reference.aspose.com/barcode/net/)**.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

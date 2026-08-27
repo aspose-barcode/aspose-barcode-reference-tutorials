@@ -1,0 +1,7 @@
+Title: Create Postal Barcode in C# – Full Generator Example
+Slug: create-postal-barcode-in-c-full-generator-example
+Category: general
+ProcessedDate: 2026-07-15T15:23:40.916795
+SourceRepo: AI Search API
+Keywords: create postal barcode, barcode generator example, barcode png format, how to generate planet barcode, export barcode image
+PRNumber: 71

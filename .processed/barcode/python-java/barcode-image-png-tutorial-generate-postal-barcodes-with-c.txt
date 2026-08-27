@@ -1,0 +1,7 @@
+Title: barcode image png tutorial – generate postal barcodes with C#
+Slug: barcode-image-png-tutorial-generate-postal-barcodes-with-c
+Category: general
+ProcessedDate: 2026-07-21T22:42:35.789919
+SourceRepo: AI Search API
+Keywords: barcode image png, barcode generator c#, generate postal barcode, how to set pixel size, create planet barcode
+PRNumber: 78

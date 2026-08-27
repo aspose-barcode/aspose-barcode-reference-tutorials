@@ -1,43 +1,53 @@
 ---
-title: Codifica Databar GS1 unidimensionale
-linktitle: Codifica Databar GS1 unidimensionale
-second_title: API Aspose.BarCode .NET
-description: Impara a creare codici a barre codificati Databar GS1 in .NET utilizzando Aspose.BarCode. Genera codici a barre con facilità. Segui la nostra guida passo passo.
-weight: 18
+date: 2026-03-07
+description: Scopri come creare codici a barre databar unidimensionali codificati
+  GS1 in .NET utilizzando Aspose.BarCode. Questa guida mostra come impostare GS1,
+  configurare il generatore di codici a barre e generare rapidamente i codici a barre.
+linktitle: One-Dimensional Databar GS1 Encoding
+second_title: Aspose.BarCode .NET API
+title: Crea codifica GS1 DataBar unidimensionale con Aspose.BarCode
 url: /it/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Codifica Databar GS1 unidimensionale
+# Crea Codici Databar Unidimensionali con Codifica GS1 usando Aspose.BarCode
 
+In questo tutorial **creerai codici a barre databar unidimensionali** conformi allo standard GS1, utilizzando la libreria Aspose.BarCode per .NET. Che tu abbia bisogno di una convalida GS1 rigorosa o di un codice a barre più flessibile, ti guideremo passo passo — dall'installazione della libreria alla gestione delle eccezioni di codifica — così potrai generare codici a barre affidabili nelle tue applicazioni.
 
-In questo tutorial ti guideremo attraverso il processo di creazione di codici a barre codificati Databar GS1 unidimensionali utilizzando la libreria Aspose.BarCode per .NET. Che tu stia cercando di generare codici a barre con la codifica GS1 o senza, abbiamo la soluzione che fa per te. Questa guida passo passo ti aiuterà a comprendere i prerequisiti, a importare gli spazi dei nomi e a dimostrare ogni esempio per creare facilmente codici a barre codificati Databar GS1.
+## Risposte Rapide
+- **Cosa significa “creare un databar unidimensionale”?** Significa generare un codice a barre lineare (1‑D) della famiglia Databar, spesso usato per il retail e la logistica.  
+- **Come impostare la convalida GS1?** Imposta `IsAllowOnlyGS1Encoding` su `true` nei parametri `DataBar`.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; per la produzione è necessaria una licenza commerciale.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Dove posso scaricare la libreria?** Dalla pagina ufficiale di rilascio di Aspose (vedi i prerequisiti).
+
+## Cos'è “creare un databar unidimensionale”?
+Un Databar unidimensionale (noto anche come RSS) è un codice a barre lineare compatto che può codificare dati numerici, date o stringhe AI (Application Identifier). Quando associato alla codifica GS1, il codice a barre segue una struttura dati riconosciuta a livello globale, rendendolo ideale per scenari di retail, assistenza sanitaria e catena di fornitura.
+
+## Perché utilizzare Aspose.BarCode per .NET?
+Aspose.BarCode offre un'API fluida, supporto completo a GS1 e la possibilità di perfezionare ogni aspetto visivo del codice a barre. Elimina le ipotesi della codifica a basso livello e ti consente di concentrarti sulla logica di business.
 
 ## Prerequisiti
 
-Prima di immergerci nel codice, assicurati di avere i seguenti prerequisiti:
+1. **Aspose.BarCode per .NET** – scaricala e installala da [qui](https://releases.aspose.com/barcode/net/).  
+2. **Il tuo percorso di directory** – sostituisci `"Your Directory Path"` nei campioni con una cartella in cui hai i permessi di scrittura.
 
-1.  Aspose.BarCode per .NET: dovresti avere Aspose.BarCode per .NET installato. Se non l'hai già fatto, puoi scaricarlo da[Qui](https://releases.aspose.com/barcode/net/).
+## Importazione dei Namespace
 
-2.  Percorso della directory: Sostituisci`"Your Directory Path"` negli esempi di codice con il percorso effettivo in cui desideri salvare le immagini del codice a barre generate.
-
-Ora che hai pronti i prerequisiti necessari, procediamo alla parte di codifica.
-
-## Importazione di spazi dei nomi
-
-Per iniziare, è necessario importare gli spazi dei nomi rilevanti per Aspose.BarCode. Aggiungi le seguenti righe di codice all'inizio del tuo progetto .NET:
+Aggiungi le istruzioni `using` richieste all'inizio del tuo file C#:
 
 ```csharp
 using Aspose.BarCode;
 using System;
 ```
 
-## Passaggio 1: inizializzare il generatore di codici a barre
+## Passo 1: Inizializzare il Generatore di Codici a Barre
 
-Il primo passaggio consiste nell'inizializzare l'oggetto BarcodeGenerator con il tipo di codifica desiderato. In questo caso, stiamo utilizzando la codifica Databar Extended. 
+Crea un'istanza di `BarcodeGenerator` e specifica la simbologia Databar Expanded:
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,9 +56,9 @@ System.Console.WriteLine("OneDDatabarGS1Encoding:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "");
 ```
 
-## Passaggio 2: genera un codice a barre con la codifica GS1
+## Passo 2: Come impostare GS1 – Generare un codice a barre con convalida GS1 rigorosa
 
-Ora imposteremo il testo del codice con il controllo GS1Encoding e salveremo l'immagine del codice a barre generata. 
+Abilita la codifica solo GS1, assegna un codetext conforme a GS1 e salva l'immagine:
 
 ```csharp
 gen.CodeText = "(01)12345678901231";
@@ -56,9 +66,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = true;
 gen.Save($"{path}DatabarGS1RightEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Passaggio 3: generare un codice a barre con codifica variabile
+## Passo 3: Generazione di codici a barre con Aspose – Codifica variabile (senza verifica GS1)
 
-In questo passaggio, genereremo un codice a barre con testo in codice variabile senza controllo GS1Encoding.
+Se ti serve un codice a barre che **non** impone le regole GS1, disattiva il controllo:
 
 ```csharp
 gen.CodeText = "ASPOSE";
@@ -66,9 +76,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = false;
 gen.Save($"{path}DatabarGS1VariableEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Passaggio 4: gestire l'eccezione per il controllo della codifica GS1
+## Passo 4: Controllo GS1 del generatore di codici a barre – Gestione di un'eccezione
 
-Se provi a generare un codice a barre con testo in codice variabile con il controllo GS1Encoding abilitato, verrà generata un'eccezione. Ecco come puoi gestirlo:
+Quando `IsAllowOnlyGS1Encoding` è `true` ma il codetext non è conforme a GS1, Aspose genera un'eccezione. Il modello seguente mostra come catturarla e registrarla:
 
 ```csharp
 try
@@ -83,30 +93,42 @@ catch (Exception e)
 }
 ```
 
-Ora hai creato con successo codici a barre codificati Databar GS1 unidimensionali con Aspose.BarCode per .NET. Puoi esplorare e personalizzare ulteriormente la generazione del codice a barre in base ai tuoi requisiti specifici.
+### Problemi Comuni e Suggerimenti
+- **Problema:** Fornire una stringa non‑GS1 mentre il controllo GS1 è abilitato interromperà la generazione del codice a barre.  
+- **Suggerimento professionale:** Convalida le tue stringhe AI prima di assegnarle a `CodeText` per evitare errori a runtime.  
+- **Consiglio:** Usa percorsi assoluti o `Path.Combine` per costruire i nomi dei file in modo sicuro su tutte le piattaforme.
 
 ## Conclusione
 
-In questo tutorial, abbiamo trattato il processo di generazione di codici a barre codificati Databar GS1 unidimensionali utilizzando Aspose.BarCode per .NET. Abbiamo discusso i prerequisiti, importato gli spazi dei nomi necessari e fornito una guida passo passo per la creazione di codici a barre con codifica variabile e con codifica GS1.
+Ora sai come **creare codici a barre databar unidimensionali** con codifica GS1, come attivare o disattivare il controllo GS1 e come gestire le relative eccezioni — tutto usando Aspose.BarCode per .NET. Sentiti libero di esplorare ulteriori opzioni di stile come dimensione, colore e margini del codice a barre tramite l'oggetto `Parameters.Barcode`.
 
- Con Aspose.BarCode per .NET, la generazione di codici a barre diventa un'attività semplice, offrendo flessibilità e controllo sulle esigenze di creazione di codici a barre. Se riscontri problemi o hai domande, non esitare a visitare il[Documentazione Aspose.BarCode](https://reference.aspose.com/barcode/net/) o cercare aiuto su[Forum di supporto Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+Se incontri problemi, la documentazione ufficiale e il forum della community sono ottime risorse:
 
-## Domande frequenti
+- [Documentazione di Aspose.BarCode](https://reference.aspose.com/barcode/net/)  
+- [Forum di supporto di Aspose.BarCode](https://forum.aspose.com/c/barcode/13)
 
-### 1. Qual è la codifica GS1 nei codici a barre?
-La codifica GS1 è uno standard utilizzato nei codici a barre per garantire la corretta struttura e identificazione dei dati. Viene comunemente utilizzato per gli articoli nei settori della vendita al dettaglio, della sanità e della logistica per facilitare il monitoraggio accurato e lo scambio di informazioni.
+## Domande Frequenti
+
+### 1. Cos'è la codifica GS1 nei codici a barre?
+La codifica GS1 è un metodo standardizzato per strutturare i dati (ad esempio identificatori di prodotto) all'interno di un codice a barre, garantendo l'interoperabilità tra retailer, produttori e fornitori di logistica.
 
 ### 2. Posso personalizzare l'aspetto dei codici a barre generati?
-Sì, puoi personalizzare l'aspetto dei codici a barre generati con Aspose.BarCode per .NET. Hai il controllo su vari parametri come dimensione, colore e stile.
+Sì. Aspose.BarCode ti consente di regolare dimensioni, colori, margini e persino aggiungere testo leggibile dall'uomo tramite le impostazioni `Parameters.Barcode`.
 
-### 3. Dove posso trovare risorse e documentazione aggiuntive per Aspose.BarCode?
- È possibile trovare documentazione completa ed esempi su[Documentazione Aspose.BarCode](https://reference.aspose.com/barcode/net/). È una risorsa preziosa per l'apprendimento e la risoluzione dei problemi.
+### 3. Dove posso trovare risorse aggiuntive e documentazione per Aspose.BarCode?
+Puoi trovare una documentazione completa e esempi su [Documentazione di Aspose.BarCode](https://reference.aspose.com/barcode/net/). È una risorsa preziosa per apprendere e risolvere problemi.
 
 ### 4. È disponibile una versione di prova per Aspose.BarCode?
- Sì, puoi ottenere una versione di prova gratuita di Aspose.BarCode per .NET da[Qui](https://releases.aspose.com/).
+Sì, puoi ottenere una versione di prova gratuita di Aspose.BarCode per .NET da [qui](https://releases.aspose.com/).
 
 ### 5. Come posso acquistare una licenza per Aspose.BarCode per .NET?
- Per acquistare una licenza per Aspose.BarCode per .NET, visitare il sito[pagina di acquisto](https://purchase.aspose.com/buy) sul sito di Aspose.
+Per acquistare una licenza per Aspose.BarCode per .NET, visita la [pagina di acquisto](https://purchase.aspose.com/buy) sul sito Aspose.
+
+---
+
+**Ultimo aggiornamento:** 2026-03-07  
+**Testato con:** Aspose.BarCode 24.11 per .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

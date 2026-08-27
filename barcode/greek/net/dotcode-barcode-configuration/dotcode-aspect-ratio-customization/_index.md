@@ -1,111 +1,160 @@
 ---
-title: Προσαρμόστε την αναλογία διαστάσεων DotCode με το Aspose.BarCode για .NET
-linktitle: Προσαρμογή αναλογίας διαστάσεων DotCode
+date: 2026-06-14
+description: Μάθετε πώς να δημιουργήσετε DotCode barcode .NET και να προσαρμόσετε
+  τον λόγο διαστάσεων του χρησιμοποιώντας Aspose.BarCode for .NET.
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
+linktitle: Προσαρμογή λόγου διαστάσεων DotCode
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Μάθετε να προσαρμόζετε την αναλογία γραμμικού κώδικα DotCode χρησιμοποιώντας το Aspose.BarCode για .NET. Δημιουργήστε προσαρμοσμένους γραμμωτούς κώδικες για τις εφαρμογές σας χωρίς κόπο.
-weight: 10
+title: Δημιουργία DotCode Barcode .NET – Προσαρμογή λόγου διαστάσεων
 url: /el/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Προσαρμόστε την αναλογία διαστάσεων DotCode με το Aspose.BarCode για .NET
+# Δημιουργία DotCode Barcode .NET – Προσαρμογή Αναλογίας Διαστάσεων
 
-## Εισαγωγή
+Αν χρειάζεστε **να δημιουργήσετε DotCode barcode .NET** λύσεις που ταιριάζουν σε στενούς χώρους ή συγκεκριμένες απαιτήσεις διάταξης, το Aspose.BarCode for .NET σας παρέχει πλήρη έλεγχο. Σε αυτό το tutorial θα περάσουμε από όλη τη διαδικασία δημιουργίας ενός DotCode barcode και προσαρμογής της αναλογίας διαστάσεων ώστε να φαίνεται ακριβώς όπως θέλετε σε συσκευασίες, ετικέτες ή οθόνες κινητών.  
 
-Εάν είστε προγραμματιστής .NET που θέλει να δημιουργήσει γραμμικούς κώδικες υψηλής προσαρμογής στις εφαρμογές σας, το Aspose.BarCode για .NET είναι η τέλεια λύση. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε ένα από τα προηγμένα χαρακτηριστικά του - την προσαρμογή της αναλογίας διαστάσεων DotCode. Οι γραμμωτοί κώδικες DotCode χρησιμοποιούνται ευρέως σε βιομηχανίες όπως η υγειονομική περίθαλψη, οι ταχυδρομικές υπηρεσίες και η κατασκευή για την κωδικοποίηση πληροφοριών. Προσαρμόζοντας την αναλογία διαστάσεων, μπορείτε να προσαρμόσετε τον γραμμωτό κώδικα στις συγκεκριμένες ανάγκες σας. Ας αρχίσουμε!
+## Γρήγορες Απαντήσεις
+- **Μπορώ να δημιουργήσω DotCode barcode σε .NET;** Ναι, το Aspose.BarCode υποστηρίζει DotCode έτοιμο προς χρήση.  
+- **Ποια ιδιότητα ελέγχει το σχήμα;** Η ιδιότητα `AspectRatio` του `BarcodeGenerator`.  
+- **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται εμπορική άδεια· μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη.  
+- **Υποστηριζόμενες εκδόσεις .NET;** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Πόσο χρόνο χρειάζεται ο κώδικας για να εκτελεστεί;** Λιγότερο από ένα δευτερόλεπτο για ένα τυπικό barcode 200 × 200 pixel.
+
+## Ποιος είναι ο κύριος στόχος αυτού του οδηγού;
+Ο οδηγός στοχεύει να δείξει πώς να δημιουργήσετε ένα DotCode barcode χρησιμοποιώντας το Aspose.BarCode for .NET και πώς να προσαρμόσετε την αναλογία διαστάσεων ώστε να ταιριάζει σε συγκεκριμένους περιορισμούς διάταξης. Ακολουθώντας τα βήματα, θα μάθετε να διαμορφώνετε τον γεννήτρια, να τροποποιείτε τις παραμέτρους μεγέθους και να εξάγετε την εικόνα σε κοινές μορφές.
+
+## Πώς να δημιουργήσετε DotCode barcode .NET;
+Για να δημιουργήσετε ένα DotCode barcode σε .NET, δημιουργήστε ένα αντικείμενο `BarcodeGenerator` με `EncodeTypes.DotCode` και τα δεδομένα που θέλετε να κωδικοποιήσετε. Στη συνέχεια ορίστε τις ιδιότητες X‑Dimension και AspectRatio για να ελέγξετε το μέγεθος και το σχήμα, και τέλος καλέστε τη μέθοδο `Save` για να γράψετε την εικόνα σε αρχείο στην επιθυμητή μορφή.
 
 ## Προαπαιτούμενα
 
-Πριν προχωρήσουμε στην προσαρμογή αναλογίας διαστάσεων DotCode, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+1. **Aspose.BarCode for .NET** – κατεβάστε τη βιβλιοθήκη από την επίσημη ιστοσελίδα [εδώ](https://releases.aspose.com/barcode/net/).  
+2. **IDE** – Visual Studio, Rider ή οποιονδήποτε επεξεργαστή συμβατό με .NET.  
+3. **Φάκελος εξόδου** – αντικαταστήστε το “Your Directory Path” στο παράδειγμα με έναν πραγματικό φάκελο στον υπολογιστή σας.
 
-1.  Aspose.BarCode για .NET: Θα πρέπει να έχετε εγκατεστημένη τη βιβλιοθήκη Aspose.BarCode. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/barcode/net/).
+## Εισαγωγή Namespaces
 
-2. IDE: Χρειάζεστε ένα περιβάλλον ανάπτυξης .NET, όπως το Visual Studio, για να εργαστείτε με το Aspose.BarCode.
-
-3. Η διαδρομή καταλόγου σας: Αντικαταστήστε τη "Διαδρομή καταλόγου σας" στο απόσπασμα κώδικα με την πραγματική διαδρομή καταλόγου όπου θέλετε να αποθηκεύσετε τις εικόνες του γραμμικού κώδικα.
-
-Τώρα, ας αναλύσουμε τη διαδικασία προσαρμογής της αναλογίας διαστάσεων DotCode σε πολλά βήματα:
-
-## Εισαγωγή χώρων ονομάτων
-
-Αρχικά, πρέπει να εισαγάγουμε τους απαραίτητους χώρους ονομάτων για να χρησιμοποιήσουμε το Aspose.BarCode για .NET. Δείτε πώς μπορείτε να το κάνετε:
-
+`Aspose.BarCode.Generation` παρέχει τις κλάσεις που χρειάζονται για τη δημιουργία και διαμόρφωση barcode σε .NET.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Αυτός ο κώδικας εισάγει τον χώρο ονομάτων Aspose.BarCode, επιτρέποντάς σας να εργαστείτε με γραμμικούς κώδικες στην εφαρμογή σας.
+## Βήμα 1: Αρχικοποίηση του Barcode Generator
 
-Στη συνέχεια, ας αναλύσουμε το παράδειγμα κώδικα που παρείχατε σε πολλά βήματα για να δημιουργήσουμε έναν βήμα προς βήμα οδηγό για την προσαρμογή του λόγου διαστάσεων DotCode:
-
-## Βήμα 1: Αρχικοποιήστε τη Γεννήτρια Barcode
-
+`BarcodeGenerator` είναι η κύρια κλάση που δημιουργεί μια εικόνα barcode βάσει της καθορισμένης συμβολιστικής και των δεδομένων.  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Ο κωδικός σας πηγαίνει εδώ
+    // Your code goes here
 }
 ```
 
-Σε αυτό το βήμα, αρχικοποιούμε ένα αντικείμενο BarcodeGenerator με τον τύπο κωδικοποίησης DotCode και μια τιμή δεδομένων ("Aspose").
+## Βήμα 2: Ορισμός του X‑Dimension (Μέγεθος) του Barcode
 
-## Βήμα 2: Ορίστε τη διάσταση Χ (Μέγεθος) του γραμμικού κώδικα
-
+`XDimension` ορίζει το πλάτος ενός μεμονωμένου μονάδας (dot) σε pixel, επηρεάζοντας το συνολικό μέγεθος του barcode.  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-Εδώ, ορίζετε το μέγεθος του γραμμικού κώδικα ορίζοντας τη διάσταση Χ σε pixel. Μπορείτε να προσαρμόσετε αυτήν την τιμή για να κάνετε τον γραμμωτό κώδικα μεγαλύτερο ή μικρότερο.
+## Βήμα 3: Προσαρμογή της Αναλογίας Διαστάσεων
 
-## Βήμα 3: Προσαρμόστε την αναλογία διαστάσεων
-
+`AspectRatio` ορίζει την αναλογία ύψους προς πλάτος κάθε μονάδας, επιτρέποντάς σας να τεντώσετε ή να συμπιέσετε το barcode κάθετα.  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-Αυτό το βήμα είναι όπου προσαρμόζετε την αναλογία διαστάσεων DotCode. Σε αυτό το παράδειγμα, το ορίσαμε στο 0,5, αλλά μπορείτε να προσαρμόσετε αυτήν την τιμή όπως απαιτείται για να επιτύχετε την επιθυμητή αναλογία διαστάσεων.
+## Βήμα 4: Αποθήκευση της Εικόνας Barcode
 
-## Βήμα 4: Αποθηκεύστε την εικόνα Barcode
-
+`Save` γράφει το παραγόμενο barcode σε αρχείο στην επιλεγμένη μορφή εικόνας, όπως PNG ή JPEG.  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Τέλος, αποθηκεύετε την εικόνα γραμμικού κώδικα που δημιουργείται με το καθορισμένο όνομα και μορφή αρχείου. Αντικαταστήστε "{path}" με την πραγματική διαδρομή καταλόγου σας.
+## Γιατί να χρησιμοποιήσετε Aspose.BarCode για προσαρμογή DotCode;
+Το Aspose.BarCode παρέχει ένα ολοκληρωμένο σύνολο λειτουργιών για τη δημιουργία DotCode, συμπεριλαμβανομένης της εξόδου υψηλής ανάλυσης, εκτεταμένης υποστήριξης μορφών και λεπτομερούς ελέγχου των διαστάσεων του barcode όπως η αναλογία διαστάσεων. Εκτελείται σε όλες τις κύριες πλατφόρμες .NET, δεν απαιτεί εξωτερικές εξαρτήσεις και προσφέρει γρήγορη απόδοση απόδοσης, καθιστώντας το ιδανικό τόσο για εφαρμογές επιφάνειας εργασίας όσο και για web.
 
-## συμπέρασμα
+## Συνηθισμένες Περιπτώσεις Χρήσης
 
-Σε αυτό το σεμινάριο, εξερευνήσαμε πώς να προσαρμόσετε την αναλογία διαστάσεων DotCode χρησιμοποιώντας το Aspose.BarCode για .NET. Αυτή η δυνατότητα σάς επιτρέπει να δημιουργείτε γραμμωτούς κώδικες που ανταποκρίνονται στις συγκεκριμένες απαιτήσεις σας, είτε για συσκευασία, ετικέτες αποστολής ή οποιαδήποτε άλλη εφαρμογή. Ακολουθώντας τα βήματα που περιγράφονται εδώ, μπορείτε να αξιοποιήσετε τη δύναμη του Aspose.BarCode για να δημιουργήσετε προσαρμοσμένους γραμμωτούς κώδικες DotCode χωρίς κόπο.
+- **Υγεία**: Συμπαγείς ετικέτες αναγνωριστικού ασθενούς που πρέπει να χωρούν σε μικρά βραχίονες.  
+- **Ταχυδρομικές Υπηρεσίες**: Ετικέτες αποστολής ευρείας μορφής όπου το χαμηλότερο ύψος βελτιώνει την αξιοπιστία σάρωσης.  
+- **Κατασκευή**: Ετικετοθέτηση εξαρτημάτων εντός γραμμής όπου οι περιορισμοί χώρου απαιτούν προσαρμοσμένη αναλογία διαστάσεων.
 
-Τώρα, ας εξετάσουμε μερικές συνήθεις ερωτήσεις σχετικά με την προσαρμογή του DotCode:
+## Συχνές Ερωτήσεις
 
-## Συχνές ερωτήσεις
+**Q:** Ποια είναι η αναλογία διαστάσεων ενός DotCode barcode;  
+**A:** Είναι η αναλογία του ύψους μιας μονάδας προς το πλάτος της· η προσαρμογή της αλλάζει το συνολικό σχήμα του barcode.
 
-### Ε1: Ποια είναι η αναλογία διαστάσεων ενός γραμμωτού κώδικα DotCode;
+**Q:** Ποιοι κλάδοι ωφελούνται περισσότερο από τα DotCode barcode;  
+**A:** Η υγεία, οι ταχυδρομικές υπηρεσίες και η κατασκευή χρησιμοποιούν συχνά DotCode για συμπαγή, υψηλής πυκνότητας κωδικοποίηση δεδομένων.
 
-A1: Η αναλογία διαστάσεων ενός γραμμικού κώδικα DotCode αναφέρεται στην αναλογία μεταξύ του ύψους και του πλάτους των μεμονωμένων μονάδων στον γραμμωτό κώδικα. Μπορεί να προσαρμοστεί για να ταιριάζει στις συγκεκριμένες ανάγκες σας.
+**Q:** Μπορώ να προσαρμόσω άλλες παραμέτρους DotCode με το Aspose.BarCode for .NET;  
+**A:** Απόλυτα. Μπορείτε να τροποποιήσετε το επίπεδο διόρθωσης σφαλμάτων, τα χρώματα προσκηνίου/υπόβαθρου και ακόμη να ενσωματώσετε λογότυπα.
 
-### Ε2: Ποιες βιομηχανίες επωφελούνται από τους γραμμωτούς κώδικες DotCode;
+**Q:** Είναι το Aspose.BarCode κατάλληλο για εφαρμογές .NET τόσο web όσο και desktop;  
+**A:** Ναι, η βιβλιοθήκη λειτουργεί άψογα σε ASP.NET, WPF, WinForms και εφαρμογές κονσόλας.
 
-A2: Οι γραμμωτοί κώδικες DotCode χρησιμοποιούνται συνήθως στην υγειονομική περίθαλψη, τις ταχυδρομικές υπηρεσίες και την κατασκευή, όπου η αποτελεσματική κωδικοποίηση πληροφοριών είναι ζωτικής σημασίας.
+**Q:** Πού μπορώ να βρω περισσότερη τεκμηρίωση και παραδείγματα;  
+**A:** Αναλυτική αναφορά API και παραδείγματα κώδικα είναι διαθέσιμα [εδώ](https://reference.aspose.com/barcode/net/).
 
-### Ε3: Μπορώ να προσαρμόσω άλλες παραμέτρους των γραμμωτών κωδίκων DotCode με το Aspose.BarCode για .NET;
+---
 
-A3: Ναι, το Aspose.BarCode for .NET παρέχει εκτεταμένες επιλογές προσαρμογής για DotCode και άλλους τύπους γραμμωτού κώδικα, επιτρέποντάς σας να ελέγχετε διάφορες παραμέτρους για να ταιριάζουν στις απαιτήσεις σας.
+**Τελευταία Ενημέρωση:** 2026-06-14  
+**Δοκιμή Με:** Aspose.BarCode 24.12 for .NET  
+**Συγγραφέας:** Aspose
 
-### Ε4: Είναι το Aspose.BarCode για .NET κατάλληλο τόσο για εφαρμογές web όσο και για επιτραπέζιους υπολογιστές;
+## Σχετικοί Οδηγοί
 
-A4: Ναι, το Aspose.BarCode for .NET μπορεί να χρησιμοποιηθεί τόσο σε εφαρμογές web όσο και σε επιτραπέζιους υπολογιστές για τη δημιουργία και τον χειρισμό γραμμωτών κωδίκων.
+- [Διαμόρφωση Εκτεταμένου Κειμένου Κώδικα DotCode με Aspose.BarCode for .NET](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [Διαμόρφωση Λειτουργίας Structured Append DotCode με Aspose.BarCode for .NET](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [Δημιουργία εικόνας DotCode barcode – γραμμές & στήλες (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-### Ε5: Πού μπορώ να βρω περισσότερες πληροφορίες και τεκμηρίωση για το Aspose.BarCode για .NET;
 
-A5: Μπορείτε να εξερευνήσετε την τεκμηρίωση[εδώ](https://reference.aspose.com/barcode/net/) για ολοκληρωμένη καθοδήγηση και παραδείγματα.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,0 +1,7 @@
+Title: How to Generate PDF417 Barcode – Complete Programming Guide
+Slug: how-to-generate-pdf417-barcode-complete-programming-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-18T19:52:30.261595
+SourceRepo: AI Search API
+Keywords: how to generate pdf417, barcode utf8 encoding
+PRNumber: 73

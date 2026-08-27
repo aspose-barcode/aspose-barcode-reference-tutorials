@@ -1,0 +1,7 @@
+Title: create omni-directional barcode in C# – Step‑by‑Step Guide
+Slug: create-omni-directional-barcode-in-c-step-by-step-guide
+Category: general
+ProcessedDate: 2026-07-15T15:23:48.723718
+SourceRepo: AI Search API
+Keywords: create omni-directional barcode, how to generate barcode c#
+PRNumber: 71

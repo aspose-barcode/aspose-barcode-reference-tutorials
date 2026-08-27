@@ -1,0 +1,7 @@
+Title: How to save barcode in C# – complete barcode generator guide
+Slug: how-to-save-barcode-in-c-complete-barcode-generator-guide
+Category: general
+ProcessedDate: 2026-08-03T11:31:15.525775
+SourceRepo: AI Search API
+Keywords: how to save barcode, c# barcode generator, barcode generator example, how to generate barcode, generate planet barcode
+PRNumber: 91

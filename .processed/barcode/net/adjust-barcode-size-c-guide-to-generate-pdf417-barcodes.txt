@@ -1,0 +1,7 @@
+Title: adjust barcode size – C# guide to generate PDF417 barcodes
+Slug: adjust-barcode-size-c-guide-to-generate-pdf417-barcodes
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-25T02:30:03.731658
+SourceRepo: AI Search API
+Keywords: adjust barcode size, how to generate pdf417
+PRNumber: 80

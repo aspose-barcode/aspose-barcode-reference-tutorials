@@ -1,0 +1,7 @@
+Title: How to Generate Barcode in C# – Complete Aspose.BarCode Guide
+Slug: how-to-generate-barcode-in-c-complete-aspose-barcode-guide
+Category: general
+ProcessedDate: 2026-07-21T22:42:38.951009
+SourceRepo: AI Search API
+Keywords: how to generate barcode, create barcode with aspose
+PRNumber: 78
