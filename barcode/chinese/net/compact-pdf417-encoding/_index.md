@@ -144,8 +144,18 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ## 常见问题解答
 
-**问：在紧凑型 PDF417 条形码中，我可以存储的最大数据量是多少？**  
-答：根据所选错误纠正级别，约可存储 2 KB 的文本或二进制数据。
+### [在 C# 中创建 PDF417 条码元数据 – 完整分步指南](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+
+### [在 C# 中生成 PDF417 条形码 – 完整指南](./generate-pdf417-barcode-in-c-complete-guide/)
+
+### [在 C# 中生成 PDF417 条码 – 完整分步指南](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+
+### [在 C# 中读取 PDF417 条码 – 完整分步指南](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+
+## 常见问题
+
+**问：在紧凑 PDF417 条形码中，我可以存储的最大数据量是多少？**  
+答：这取决于错误纠正级别和字符集，但通常可以编码数千字节的数据。
 
 **问：PDF417 的错误纠正与其他条形码类型有何不同？**  
 答：PDF417 使用 Reed‑Solomon 码，提供八个可选级别（0‑8），可在冗余度和符号大小之间进行微调。

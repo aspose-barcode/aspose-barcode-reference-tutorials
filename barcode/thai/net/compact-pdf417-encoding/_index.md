@@ -140,9 +140,16 @@ Compact PDF417’s high data density and robust error correction make it suitabl
 - **License Exceptions:** ในสภาพแวดล้อมทดลอง, บาร์โค้ดที่สร้างอาจมีลายน้ำ. ใส่ไลเซนส์ที่ถูกต้องเพื่อเอาออก.
 
 ## บทแนะนำการเข้ารหัส Compact PDF417
-
-### [สร้างบาร์โค้ด Compact PDF417](./compact-pdf417-basic-configuration/)
-Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Comprehensive guide with step‑by‑step instructions and code examples.
+### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
+เรียนรู้วิธีสร้างบาร์โค้ด Compact PDF417 ด้วย Aspose.BarCode for .NET คู่มือครบถ้วนพร้อมขั้นตอนและตัวอย่างโค้ด
+### [สร้างเมตาดาต้าบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนเต็ม](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+เรียนรู้วิธีเพิ่มเมตาดาต้าให้บาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดครบถ้วน
+### [สร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือครบถ้วน](./generate-pdf417-barcode-in-c-complete-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและการตั้งค่าต่าง ๆ
+### [สร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนเต็ม](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างครบถ้วน พร้อมขั้นตอนและตัวอย่างโค้ด
+### [วิธีอ่าน PDF417 ใน C# – คู่มือขั้นตอนเต็ม](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีอ่านบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและการตั้งค่า
 
 ## คำถามที่พบบ่อย
 

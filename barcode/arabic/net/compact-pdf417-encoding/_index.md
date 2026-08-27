@@ -139,10 +139,16 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 - **مسح غير قابل للقراءة:** تأكد من وجود تباين كافٍ بين ألوان المقدمة والخلفية؛ تجنب التدرجات.  
 - **استثناءات الترخيص:** في بيئة تجريبية، قد يتضمن الباركود المولد علامة مائية. قم بتطبيق ترخيص صالح لإزالتها.
 
-## دروس ترميز Compact PDF417
-
-### [إنشاء باركودات Compact PDF417](./compact-pdf417-basic-configuration/)
-تعلم كيفية إنشاء باركودات Compact PDF417 باستخدام Aspose.BarCode for .NET. دليل شامل مع تعليمات خطوة بخطوة وأمثلة على الشيفرة.
+## دروس ترميز PDF417 المدمج
+### [إنشاء باركودات PDF417 المدمجة](./compact-pdf417-basic-configuration/)
+تعلم كيفية إنشاء باركودات PDF417 المدمجة باستخدام Aspose.BarCode for .NET. دليل شامل مع تعليمات خطوة بخطوة وأمثلة شفرة.
+### [إنشاء بيانات تعريف الباركود PDF417 في C# – دليل خطوة بخطوة كامل](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+تعلم كيفية إنشاء بيانات تعريف الباركود PDF417 في C# عبر دليل شامل خطوة بخطوة.
+### [إنشاء باركود PDF417 في C# – دليل كامل](./generate-pdf417-barcode-in-c-complete-guide/)
+دليل شامل لإنشاء باركود PDF417 في C# خطوة بخطوة باستخدام Aspose.BarCode.
+### [إنشاء باركود PDF417 في C# – دليل كامل خطوة بخطوة](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+دليل شامل يشرح خطوة بخطوة كيفية إنشاء باركود PDF417 في C# باستخدام Aspose.BarCode.
+### [كيفية قراءة PDF417 في C# – دليل خطوة بخطوة كامل](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
 ## الأسئلة المتكررة
 

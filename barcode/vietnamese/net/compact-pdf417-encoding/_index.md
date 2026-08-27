@@ -144,6 +144,18 @@ Mật độ dữ liệu cao và khả năng sửa lỗi mạnh mẽ của Compac
 ### [Tạo mã vạch Compact PDF417](./compact-pdf417-basic-configuration/)
 Tìm hiểu cách tạo mã vạch Compact PDF417 bằng Aspose.BarCode cho .NET. Hướng dẫn toàn diện với các bước chi tiết và ví dụ mã.
 
+### [Tạo siêu dữ liệu mã vạch PDF417 trong C# – Hướng dẫn chi tiết từng bước](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+Hướng dẫn chi tiết cách tạo và quản lý siêu dữ liệu cho mã vạch PDF417 bằng C# với Aspose.BarCode.
+
+### [Tạo mã vạch PDF417 trong C# – Hướng dẫn đầy đủ](./generate-pdf417-barcode-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tạo mã vạch PDF417 bằng C# với Aspose.BarCode, bao gồm các bước cấu hình và ví dụ mã nguồn.
+
+### [Tạo mã vạch PDF417 trong C# – Hướng dẫn chi tiết từng bước](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+Hướng dẫn toàn diện tạo mã vạch PDF417 bằng C# với Aspose.BarCode, bao gồm các bước cấu hình chi tiết và ví dụ mã nguồn.
+
+### [Cách Đọc PDF417 trong C# – Hướng Dẫn Chi Tiết Từng Bước](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách đọc mã vạch PDF417 bằng C# với Aspose.BarCode, bao gồm các bước cấu hình và ví dụ mã nguồn.
+
 ## Câu hỏi thường gặp
 
 **H: Compact PDF417 có thể lưu trữ tối đa bao nhiêu dữ liệu?**  

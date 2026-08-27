@@ -144,6 +144,18 @@ Compact PDF417는 높은 데이터 밀도와 견고한 오류 정정 덕분에 �
 ### [Compact PDF417 바코드 만들기](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET를 사용하여 Compact PDF417 바코드를 생성하는 방법을 배웁니다. 단계별 지침과 코드 예제가 포함된 포괄적인 가이드입니다.
 
+### [C#에서 PDF417 바코드 메타데이터 만들기 – 완전 단계별 가이드](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+C#을 사용해 PDF417 바코드에 메타데이터를 삽입하고, 전체 과정을 단계별로 안내합니다.
+
+### [C#에서 PDF417 바코드 생성 – 완전 가이드](./generate-pdf417-barcode-in-c-complete-guide/)
+C#을 사용해 PDF417 바코드를 생성하는 전체 과정을 단계별로 안내합니다.
+
+### [C#에서 PDF417 바코드 생성 – 완전 단계별 가이드](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+C#으로 PDF417 바코드를 만들고, 설정 및 저장까지 전체 과정을 단계별로 자세히 설명합니다.
+
+### [C#에서 PDF417 읽기 – 완전 단계별 가이드](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+C#을 사용해 PDF417 바코드를 읽고 디코딩하는 전체 과정을 단계별로 안내합니다.
+
 ## 자주 묻는 질문
 
 **Q: Compact PDF417 바코드에 저장할 수 있는 최대 데이터 양은 얼마인가요?**  

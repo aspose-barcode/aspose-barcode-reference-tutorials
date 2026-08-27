@@ -142,7 +142,13 @@ Compact PDF417 の高いデータ密度と堅牢なエラー訂正により、�
 ## Compact PDF417 エンコーディングチュートリアル
 
 ### [Compact PDF417 バーコードの作成](./compact-pdf417-basic-configuration/)
-Aspose.BarCode for .NET を使用して Compact PDF417 バーコードを生成する方法を学びます。ステップバイステップの手順とコード例を含む包括的なガイドです。
+### [C#でPDF417バーコードメタデータを作成する – 完全ステップバイステップガイド](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+
+### [C#でPDF417バーコードを生成する – 完全ガイド](./generate-pdf417-barcode-in-c-complete-guide/)
+
+### [C#でPDF417バーコードを生成する – 完全ステップバイステップガイド](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+
+### [C#でPDF417を読み取る – 完全ステップバイステップガイド](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
 ## よくある質問
 

@@ -139,7 +139,13 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 - **Unreadable Scans:** Zorg voor voldoende contrast tussen voor‑ en achtergrondkleur; vermijd verlopen.  
 - **License Exceptions:** In een proefomgeving kan de gegenereerde barcode een watermerk bevatten. Pas een geldige licentie toe om het te verwijderen.
 
-## Compact PDF417-coderingstutorials
+### [PDF417-barcode-metadata maken in C# – Complete stapsgewijze gids](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+
+### [PDF417-barcode genereren in C# – Complete gids](./generate-pdf417-barcode-in-c-complete-guide/)
+
+### [PDF417-barcode genereren in C# – Complete stapsgewijze gids](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+
+### [PDF417-barcode lezen in C# – Complete stapsgewijze gids](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 ### [Compact PDF417-barcode maken](./compact-pdf417-basic-configuration/)
 Leer hoe je Compact PDF417 barcodes genereert met Aspose.BarCode voor .NET. Uitgebreide gids met stap‑voor‑stap instructies en code‑voorbeelden.
 

@@ -124,7 +124,15 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 > **Pro tip:** Gunakan kembali instance `BarcodeGenerator` yang sama saat membuat beberapa barcode dalam loop untuk meningkatkan kinerja dan mengurangi penggunaan memori.
 
-## Apa Saja Kasus Penggunaan Umum untuk Compact PDF417?
+## Compact PDF417 Encoding Tutorials
+### [Buat Metadata Barcode PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+Pelajari cara menambahkan metadata ke barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
+### [Buat Barcode PDF417 di C# – Panduan Lengkap](./generate-pdf417-barcode-in-c-complete-guide/)
+Pelajari cara menghasilkan barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
+### [Buat Barcode PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+Panduan terperinci untuk membuat barcode PDF417 di C# dengan Aspose.BarCode, lengkap dengan contoh kode langkah demi langkah.
+### [Cara Membaca PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Pelajari cara membaca barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
 
 Kepadatan data tinggi dan koreksi kesalahan yang kuat pada Compact PDF417 menjadikannya cocok untuk berbagai aplikasi di mana ruang terbatas dan keandalan sangat penting. Berikut beberapa skenario umum di mana simbol ini memberikan manfaat nyata, termasuk logistik, tiket, antarmuka seluler, dan pelabelan peralatan industri.
 

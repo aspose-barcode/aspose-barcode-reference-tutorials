@@ -141,7 +141,13 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 
 ## Compact PDF417 एन्कोडिंग ट्यूटोरियल
 ### [Compact PDF417 बारकोड बनाना](./compact-pdf417-basic-configuration/)
-Aspose.BarCode for .NET का उपयोग करके Compact PDF417 बारकोड जनरेट करने के बारे में सीखें। चरण‑दर‑चरण निर्देशों और कोड उदाहरणों के साथ व्यापक गाइड।
+### [C# में PDF417 बारकोड मेटाडेटा बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
+
+### [C# में PDF417 बारकोड बनाना – पूर्ण गाइड](./generate-pdf417-barcode-in-c-complete-guide/)
+
+### [C# में PDF417 बारकोड बनाना – पूर्ण चरण‑दर‑चरण गाइड](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+
+### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
