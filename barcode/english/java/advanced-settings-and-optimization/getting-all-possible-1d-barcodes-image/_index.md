@@ -28,7 +28,7 @@ schemas:
   - answer: Absolutely. Obtain a temporary license from the [Aspose temporary‑license
       page](https://purchase.aspose.com/temporary-license/) for development and testing.
     question: Can I test the library without purchasing a license?
-  - answer: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+  - answer: The comprehensive documentation is available [Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/).
     question: Where can I find the full API reference?
   - answer: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
       where the community and Aspose engineers can assist you.
@@ -41,7 +41,7 @@ tags:
 - read 1d barcodes java
 - Aspose.BarCode
 - Java barcode processing
-title: read 1d barcodes java – Decode barcodes with Aspose.BarCode
+title: Decode 1D barcodes in Java using Aspose.BarCode – Fast barcode reading guide
 url: /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
@@ -94,7 +94,7 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Step 1: Initialize the BarCodeReader Object
+## Step 1: initialize the barCodeReader object
 
 The `BarCodeReader` class is Aspose.BarCode's core component for scanning images and extracting barcode information. Create a `BarCodeReader` instance pointing at your image file. The `DecodeType` parameter tells the engine which symbologies to look for; using `CODE_128` as an example works for many common 1D codes.
 
@@ -104,7 +104,7 @@ BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CO
 
 > **Pro tip:** If you want to scan *all* supported 1D types, pass `DecodeType.ALL_1D` instead of a single symbology.
 
-## Step 2: Read All Possible Barcodes
+## Step 2: read all possible barcodes
 
 The `BarCodeResult` object represents a single detected barcode and provides properties such as the decoded text, symbology name, rotation angle, and corner coordinates of the barcode region. Iterate through the collection returned by `readBarCodes()`. For each result we print the decoded text, symbology name, detection angle, and the four corner coordinates of the barcode region.
 
@@ -129,7 +129,7 @@ for (BarCodeResult result : reader.readBarCodes()) {
 
 The loop automatically processes every barcode found, so you don’t need to call the reader repeatedly. After the loop finishes, `iCount` holds the total number of barcodes detected.
 
-## Common Issues & How to Fix Them
+## Common issues & how to fix them
 
 | Symptom | Likely Cause | Solution |
 |---------|--------------|----------|
@@ -137,7 +137,7 @@ The loop automatically processes every barcode found, so you don’t need to cal
 | Wrong symbology reported | Incorrect `DecodeType` used | Use `DecodeType.ALL_1D` to let the engine auto‑detect any 1D type. |
 | Angle values are off | Image rotated | The API already returns the rotation angle; you can rotate the image back if needed. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.BarCode for Java suitable for commercial projects?**  
 A: Yes. A commercial license removes all evaluation limitations and grants you full redistribution rights.
@@ -146,7 +146,7 @@ A: Yes. A commercial license removes all evaluation limitations and grants you f
 A: Absolutely. Obtain a temporary license from the [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) for development and testing.
 
 **Q: Where can I find the full API reference?**  
-A: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+A: The comprehensive documentation is available [Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/).
 
 **Q: How do I get help if I run into a problem?**  
 A: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) where the community and Aspose engineers can assist you.
@@ -170,8 +170,9 @@ You’ve now learned how to **read 1D barcodes in Java** using Aspose.BarCode, a
 - [Read Barcode from Image – Mastering Barcode Region Extraction in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
 - [Aspose.Barcode Java – Getting Barcode Recognition Quality in Percent](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
