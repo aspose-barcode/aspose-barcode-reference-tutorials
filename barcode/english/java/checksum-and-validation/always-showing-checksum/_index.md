@@ -156,9 +156,9 @@ A: You can get a temporary license [temporary license request page](https://purc
 
 ## Related Tutorials
 
-- [Create CODE_128 barcode in Java]({{< relref "/barcode/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/" >}})
-- [Create Codabar barcode with checksum in Java]({{< relref "/barcode/java/checksum-and-validation/applying-checksum-codabar/" >}})
-- [Add barcode to PDF in Java]({{< relref "/barcode/java/barcode-basics/adding-barcode-to-pdf-document/" >}})
+- [Create CODE_128 barcode in Java]({{< relref "setting-size-unit-barcode-image" >}})
+- [Create Codabar barcode with checksum in Java]({{< relref "applying-checksum-codabar" >}})
+- [Add barcode to PDF in Java]({{< relref "adding-barcode-to-pdf-document" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

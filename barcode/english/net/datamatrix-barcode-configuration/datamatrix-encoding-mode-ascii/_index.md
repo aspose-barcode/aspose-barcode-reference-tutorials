@@ -190,9 +190,9 @@ A5: You can purchase a license from the Aspose website [Aspose BarCode license p
 
 ## Related Tutorials
 
-- [DataMatrix Encoding in Bytes with Aspose.BarCode for .NET]({{< relref "barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/_index.md" >}})
-- [Read DataMatrix barcode C# – Generate DataMatrix Mode (Auto)]({{< relref "barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/_index.md" >}})
-- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET]({{< relref "barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/_index.md" >}})
+- [DataMatrix Encoding in Bytes with Aspose.BarCode for .NET]({{< relref "datamatrix-encoding-mode-bytes" >}})
+- [Read DataMatrix barcode C# – Generate DataMatrix Mode (Auto)]({{< relref "datamatrix-encoding-mode-auto" >}})
+- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET]({{< relref "datamatrix-ecc-200-configuration" >}})
 
 ```csharp
 using Aspose.BarCode.Generation;

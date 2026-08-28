@@ -45,7 +45,7 @@ Before you start, make sure you have the following:
 - **Aspose.BarCode for Java** – download the latest JAR from the [Aspose releases page](https://releases.aspose.com/barcode/java/).  
 - **Output folder** – create a directory on your machine where the generated PNG will be saved; replace `"Your Document Directory"` in the code with that path.  
 
-For more details on setting up the environment, see the [Barcode basics overview]({{< relref "barcode-basics/_index.md" >}}).
+For more details on setting up the environment, see the [Barcode basics overview]({{< relref "barcode-basics" >}}).
 
 ## Import Namespaces
 We need a handful of standard Java classes plus the Aspose.BarCode namespaces.
