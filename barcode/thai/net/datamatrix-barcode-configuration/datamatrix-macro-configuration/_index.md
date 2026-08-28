@@ -1,10 +1,75 @@
 ---
-date: 2026-01-17
+date: 2026-08-17
 description: เรียนรู้วิธีสร้างบาร์โค้ด DataMatrix ด้วยอักขระแมโครโดยใช้ Aspose.BarCode
   สำหรับ .NET และค้นพบวิธีใช้ DataMatrix ในแอปพลิเคชันของคุณ
-linktitle: DataMatrix Macro Configuration
+keywords:
+- create datamatrix barcode
+- datamatrix barcode error correction
+- aspose barcode macro
+- .net barcode generation
+lastmod: 2026-08-17
+linktitle: การกำหนดค่าแมโคร DataMatrix
+og_description: เรียนรู้วิธีสร้างบาร์โค้ด DataMatrix ด้วยอักขระแมโครโดยใช้ Aspose.BarCode
+  สำหรับ .NET คู่มือนี้ให้โค้ดแบบขั้นตอนต่อขั้นตอน ตัวเลือกการปรับแต่ง และเคล็ดลับการตรวจสอบเพื่อการสร้างบาร์โค้ดที่เชื่อถือได้
+og_image_alt: Guide showing creation of DataMatrix barcode with macro characters in
+  .NET using Aspose.BarCode
+og_title: สร้างบาร์โค้ด DataMatrix ด้วยอักขระแมโครโดยใช้ Aspose.BarCode
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to create DataMatrix barcode with macro characters using
+    Aspose.BarCode for .NET and discover how to use DataMatrix in your applications.
+  headline: How to create DataMatrix barcode with macro characters in .NET
+  type: TechArticle
+- description: Learn how to create DataMatrix barcode with macro characters using
+    Aspose.BarCode for .NET and discover how to use DataMatrix in your applications.
+  name: How to create DataMatrix barcode with macro characters in .NET
+  steps:
+  - name: setting up your project
+    text: Create a new Console Application (or any .NET project) in Visual Studio.
+      Add a reference to the Aspose.BarCode DLLs that you obtained from the download.
+  - name: DataMatrix macro configuration
+    text: The core of the tutorial – here we actually **create DataMatrix barcode**
+      with a macro character. > **Pro tip:** Replace `"ASPOSE"` with any string you
+      need to encode. The macro character (`Macro05`) tells scanners that this barcode
+      is part of a macro sequence.
+  - name: customize barcode parameters for error correction
+    text: 'Before saving, you can tweak additional settings: - **XDimension** – controls
+      the size of each module (pixel). - **Margin**, **ErrorCorrection**, and **EncodingMode**
+      – all accessible via `gen.Parameters.Barcode.DataMatrix`.'
+  - name: save the barcode
+    text: The snippet above saves the image as `DataMatrixMacro.png` in the folder
+      you specified. PNG is loss‑less, making it ideal for further processing.
+  - name: recognize the barcode
+    text: '`BarCodeReader` is Aspose.BarCode''s class for decoding barcodes from images.
+      Using `BarCodeReader` we immediately read back the generated image to confirm
+      that the macro character and data are correct. This round‑trip validation is
+      especially handy during automated testing.'
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for .NET is a powerful library that allows .NET developers
+      to generate and recognize barcodes in various formats, including DataMatrix,
+      QR, and more.
+    question: What is Aspose.BarCode for .NET?
+  - answer: DataMatrix barcodes are compact, highly reliable, and can store large
+      amounts of data, making them ideal for manufacturing, logistics, and healthcare.
+    question: Why should I use DataMatrix barcodes?
+  - answer: You can find the documentation at [the Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
+    question: Where can I find the documentation for Aspose.BarCode for .NET?
+  - answer: Yes, you can download a free trial from [the free trial link](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.BarCode for .NET?
+  - answer: If you have any questions or need support, you can visit the Aspose.BarCode
+      for .NET forum at [the support forum](https://forum.aspose.com/c/barcode/13).
+    question: Where can I get support for Aspose.BarCode for .NET?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: วิธีสร้างบาร์โค้ด DataMatrix ด้วย Aspose.BarCode สำหรับ .NET
+tags:
+- datamatrix barcode
+- aspose.barcode
+- c# barcode generation
+- macro barcode
+- barcode error correction
+title: วิธีสร้างบาร์โค้ด DataMatrix ด้วยอักขระแมโครใน .NET
 url: /th/net/datamatrix-barcode-configuration/datamatrix-macro-configuration/
 weight: 18
 ---
@@ -13,30 +78,30 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การกำหนดค่า Macro DataMatrix Master ด้วย Aspose.BarCode สำหรับ .NET
+# วิธีสร้างบาร์โค้ด DataMatrix ด้วยอักขระแมโครใน .NET
 
 ## บทนำ
 
-ในแอปพลิเคชัน .NET สมัยใหม่ การ **สร้างบาร์โค้ด DataMatrix** เป็นวิธีที่เชื่อถือได้ในการเข้ารหัสข้อมูลจำนวนมากในพื้นที่จำกัด บทแนะนำนี้จะพาคุณผ่านขั้นตอนการ **สร้างบาร์โค้ด DataMatrix** พร้อมอักขระ macro, อธิบาย *วิธีใช้ DataMatrix* อย่างมีประสิทธิภาพ, และแสดงวิธีตรวจสอบผลลัพธ์ด้วย Aspose.BarCode สำหรับ .NET. เมื่อเสร็จสิ้นคุณจะสามารถสร้าง, ปรับแต่ง, และอ่านบาร์โค้ด DataMatrix ได้อย่างมั่นใจ
+การสร้าง **บาร์โค้ด DataMatrix** ที่รวมอักขระแมโครช่วยให้คุณบรรจุข้อมูลอ้างอิงเพิ่มเติมลงในสัญลักษณ์สี่เหลี่ยมจัตุรัสขนาดเล็ก ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **สร้างบาร์โค้ด DataMatrix** ด้วยอักขระแมโครโดยใช้ Aspose.BarCode for .NET ปรับขนาดและระดับการแก้ไขข้อผิดพลาด และตรวจสอบผลลัพธ์ทันที เมื่อเสร็จแล้วคุณจะพร้อมฝังบาร์โค้ดที่เปิดใช้งานแมโครลงในป้ายสินค้า เอกสาร หรืออุปกรณ์ทางการแพทย์
 
-## คำตอบสั้น ๆ
-- **ไลบรารีหลักคืออะไร?** Aspose.BarCode สำหรับ .NET  
-- **ฉันสามารถสร้างบาร์โค้ด DataMatrix พร้อมอักขระ macro ได้หรือไม่?** ได้, ใช้คุณสมบัติ `MacroCharacters`  
-- **ต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** ต้องมีลิขสิทธิ์ Aspose ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์  
-- **รองรับเวอร์ชัน .NET ใดบ้าง?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+  
-- **มีรุ่นทดลองฟรีหรือไม่?** มี – ดาวน์โหลดได้จากเว็บไซต์ทางการของ Aspose
+## คำตอบอย่างรวดเร็ว
+- **ห้องสมุดหลักคืออะไร?** Aspose.BarCode for .NET  
+- **ฉันสามารถสร้างบาร์โค้ด DataMatrix ด้วยอักขระแมโครได้หรือไม่?** Yes – set the `MacroCharacters` property.  
+- **ฉันต้องการใบอนุญาตสำหรับการผลิตหรือไม่?** A valid Aspose license is required for production use.  
+- **เวอร์ชัน .NET ใดที่รองรับ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **มีการทดลองใช้ฟรีหรือไม่?** แน่นอน – ดาวน์โหลดได้จากเว็บไซต์อย่างเป็นทางการของ Aspose.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนจะเริ่มตั้งค่า macro, ตรวจสอบว่าคุณมีสิ่งต่อไปนี้แล้ว:
+ก่อนที่จะลงลึกในการกำหนดค่าแมโคร โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-1. **Visual Studio** – รุ่นใดก็ได้ที่ทันสมัย  
-2. **Aspose.BarCode สำหรับ .NET** – ดาวน์โหลดจาก [ลิงก์ดาวน์โหลด](https://releases.aspose.com/barcode/net/)  
-3. **ความรู้พื้นฐานของ .NET** – คุ้นเคยกับ C# และระบบนิเวศของ .NET
+1. **Visual Studio** – รุ่นล่าสุดใดก็ได้จะทำงาน.  
+2. **Aspose.BarCode for .NET** – ดาวน์โหลดได้จาก [the download link](https://releases.aspose.com/barcode/net/).  
+3. **Basic .NET knowledge** – ความคุ้นเคยกับ C# และระบบนิเวศของ .NET.
 
-## นำเข้า Namespaces
+## นำเข้าเนมสเปซ
 
-เราจะเริ่มโดยการเรียกใช้ namespaces ที่จำเป็นสำหรับการสร้างและอ่านบาร์โค้ด
+เราจะเริ่มโดยการนำเข้าเนมสเปซที่จำเป็นสำหรับการสร้างและการจดจำบาร์โค้ด
 
 ```csharp
 using System;
@@ -44,25 +109,23 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-## “generate DataMatrix barcode” กับอักขระ macro คืออะไร?
+## อะไรคือ “generate DataMatrix barcode” ด้วยอักขระแมโคร?
 
-DataMatrix ที่เปิดใช้งาน macro สามารถบรรจุข้อมูลเพิ่มเติม (เช่น การอ้างอิงไปยังบาร์โค้ดอื่น) ด้วยอักขระ macro พิเศษ (Macro05, Macro06 ฯลฯ) ซึ่งมีประโยชน์ในโลจิสติกส์และการผลิตที่สัญลักษณ์เดียวอาจต้องเชื่อมต่อกับชุดข้อมูลขนาดใหญ่
+`MacroCharacters` ทำให้บาร์โค้ด DataMatrix สามารถรวมสัญลักษณ์แมโครที่อ้างอิงข้อมูลเพิ่มเติมได้ การใช้อักขระแมโครเช่น Macro05 หรือ Macro06 บาร์โค้ดเดียวสามารถชี้ไปยังชุดข้อมูลที่ใหญ่ขึ้นหรือชุดของบาร์โค้ดที่เกี่ยวข้อง ซึ่งมีคุณค่าในโลจิสติกส์ การผลิต และการติดตามเอกสารที่ต้องการการเข้ารหัสข้อมูลที่เชื่อมโยงอย่างกะทัดรัด
 
-## ทำไมต้องใช้ Aspose.BarCode เพื่อ generate DataMatrix barcode?
+## ทำไมต้องใช้ Aspose.BarCode เพื่อสร้างบาร์โค้ด DataMatrix?
 
-- **ควบคุมเต็มรูปแบบ** เกี่ยวกับขนาด, การแก้ไขข้อผิดพลาด, และการตั้งค่า macro  
-- **รองรับหลายแพลตฟอร์ม** สำหรับ .NET Framework, .NET Core, และ .NET 5/6  
-- **มีฟังก์ชันการอ่านในตัว** ช่วยให้คุณตรวจสอบบาร์โค้ดได้ทันทีหลังจากสร้าง
+Aspose.BarCode ให้การควบคุมที่แม่นยำต่อขนาด DataMatrix ระดับการแก้ไขข้อผิดพลาด และการตั้งค่าแมโคร รองรับสัญลักษณ์บาร์โค้ดมากกว่า 30 แบบและจัดการไฟล์ขนาดสูงสุด 10 MB โดยไม่ต้องโหลดภาพทั้งหมดเข้าสู่หน่วยความจำ การทำงานข้ามแพลตฟอร์มของ .NET ทำงานบน .NET Framework, .NET Core, และ .NET 5/6 และรวมการจดจำในตัวเพื่อให้คุณตรวจสอบบาร์โค้ดได้ทันที
 
-## คู่มือขั้นตอนโดยละเอียด
+## คู่มือทีละขั้นตอน
 
 ### ขั้นตอนที่ 1: ตั้งค่าโปรเจกต์ของคุณ
 
-สร้าง Console Application (หรือโปรเจกต์ .NET ใดก็ได้) ใน Visual Studio แล้วเพิ่มการอ้างอิงไปยังไฟล์ DLL ของ Aspose.BarCode ที่คุณดาวน์โหลดมา
+สร้างแอปพลิเคชันคอนโซลใหม่ (หรือโปรเจกต์ .NET ใด ๆ) ใน Visual Studio เพิ่มการอ้างอิงไปยัง DLL ของ Aspose.BarCode ที่คุณได้จากการดาวน์โหลด
 
-### ขั้นตอนที่ 2: การกำหนดค่า DataMatrix Macro
+### ขั้นตอนที่ 2: การกำหนดค่าแมโครของ DataMatrix
 
-ส่วนสำคัญของบทแนะนำ – ที่นี่เราจะ **generate DataMatrix barcode** พร้อมอักขระ macro
+หัวใจของบทเรียน – ที่นี่เราจริง ๆ **สร้างบาร์โค้ด DataMatrix** ด้วยอักขระแมโคร
 
 ```csharp
 string path = "Your Directory Path";
@@ -84,59 +147,64 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "ASPO
 }
 ```
 
-> **เคล็ดลับ:** แทนที่ `"ASPOSE"` ด้วยสตริงที่คุณต้องการเข้ารหัส. อักขระ macro (`Macro05`) จะบอกสแกนเนอร์ว่าบาร์โค้ดนี้เป็นส่วนหนึ่งของลำดับ macro
+> **เคล็ดลับ:** แทนที่ `"ASPOSE"` ด้วยสตริงใดก็ได้ที่คุณต้องการเข้ารหัส อักขระแมโคร (`Macro05`) บอกสแกนเนอร์ว่าบาร์โค้ดนี้เป็นส่วนหนึ่งของลำดับแมโคร
 
-### ขั้นตอนที่ 3: ปรับแต่งพารามิเตอร์ของบาร์โค้ด
+### ขั้นตอนที่ 3: ปรับแต่งพารามิเตอร์บาร์โค้ดสำหรับการแก้ไขข้อผิดพลาด
 
-ก่อนบันทึก, คุณสามารถปรับตั้งค่าเพิ่มเติมได้:
+ก่อนบันทึก คุณสามารถปรับแต่งการตั้งค่าเพิ่มเติมได้:
 
-- **XDimension** – ควบคุมขนาดของแต่ละโมดูล (พิกเซล)  
-- **Margin**, **ErrorCorrection**, และ **EncodingMode** – ทั้งหมดเข้าถึงได้ผ่าน `gen.Parameters.Barcode.DataMatrix`
+- **XDimension** – ควบคุมขนาดของแต่ละโมดูล (พิกเซล).  
+- **Margin**, **ErrorCorrection**, และ **EncodingMode** – ทั้งหมดเข้าถึงได้ผ่าน `gen.Parameters.Barcode.DataMatrix`.
 
 ### ขั้นตอนที่ 4: บันทึกบาร์โค้ด
 
-โค้ดตัวอย่างข้างต้นจะบันทึกภาพเป็น `DataMatrixMacro.png` ในโฟลเดอร์ที่คุณระบุ. PNG เป็นรูปแบบที่ไม่มีการสูญเสียข้อมูล, เหมาะสำหรับการประมวลผลต่อไป
+โค้ดข้างต้นบันทึกรูปภาพเป็น `DataMatrixMacro.png` ในโฟลเดอร์ที่คุณระบุ PNG เป็นรูปแบบที่ไม่มีการสูญเสียคุณภาพ ทำให้เหมาะสำหรับการประมวลผลต่อไป
 
-### ขั้นตอนที่ 5: อ่านบาร์โค้ด
+### ขั้นตอนที่ 5: จดจำบาร์โค้ด
 
-โดยใช้ `BarCodeReader` เราจะอ่านภาพที่สร้างขึ้นทันทีเพื่อยืนยันว่าอักขระ macro และข้อมูลถูกต้อง การตรวจสอบแบบรอบนี้มีประโยชน์อย่างยิ่งในการทดสอบอัตโนมัติ
+`BarCodeReader` เป็นคลาสของ Aspose.BarCode สำหรับถอดรหัสบาร์โค้ดจากภาพ การใช้ `BarCodeReader` เราจะอ่านภาพที่สร้างขึ้นกลับมาโดยทันทีเพื่อยืนยันว่าอักขระแมโครและข้อมูลถูกต้อง การตรวจสอบแบบรอบนี้มีประโยชน์อย่างยิ่งในระหว่างการทดสอบอัตโนมัติ
 
-## การใช้ DataMatrix ในสถานการณ์จริง
+## วิธีใช้ DataMatrix ในสถานการณ์จริง?
 
-- **การติดฉลากสินค้า** – ฝังหมายเลขซีเรียล, ID ของล็อต, หรือ URL  
-- **การติดตามเอกสาร** – เชื่อมโยงแบบฟอร์มที่พิมพ์กับบันทึกดิจิทัลผ่านลำดับ macro  
-- **การดูแลสุขภาพ** – เข้ารหัสข้อมูลผู้ป่วยบนแท็กขนาดกะทัดรัดสำหรับอุปกรณ์
+คุณสามารถนำบาร์โค้ด DataMatrix ที่มีอักขระแมโครไปใช้ในการติดป้ายสินค้า เชื่อมหมายเลขซีเรียลกับฐานข้อมูลศูนย์กลาง การติดตามเอกสารโดยฝังการอ้างอิงไปยังบันทึกดิจิทัล และแท็กอุปกรณ์ทางการแพทย์ที่เก็บข้อมูลผู้ป่วยหรืออุปกรณ์ในสัญลักษณ์ขนาดเล็กที่สแกนได้ กรณีการใช้งานเหล่านี้ช่วยลดการป้อนข้อมูลด้วยมือและเพิ่มความสามารถในการติดตาม
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไปและวิธีแก้
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|--------|-----|
-| บาร์โค้ดไม่สามารถอ่านได้ | ค่า `XDimension` ไม่ถูกต้องหรือความละเอียดภาพต่ำ | เพิ่ม `XDimension.Pixels` เป็น 4‑6 และบันทึกเป็น PNG หรือ TIFF |
-| อักขระ macro ถูกละเลย | ตัวอ่านไม่รองรับโหมด macro | ใช้สแกนเนอร์/รีดเดอร์ที่สนับสนุน DataMatrix macro อย่างชัดเจน (เช่น รุ่นใหม่ของ ZXing) |
-| ไม่พบพาธ | ตัวแปร `path` ไม่ถูกต้อง | ตรวจสอบให้แน่ใจว่าไดเรกทอรีมีอยู่หรือใช้ `Path.Combine` กับ `Environment.CurrentDirectory` |
+| บาร์โค้ดไม่ถูกจดจำ | ค่า `XDimension` ไม่ถูกต้องหรือความละเอียดภาพต่ำ | เพิ่ม `XDimension.Pixels` เป็น 4‑6 และบันทึกเป็น PNG หรือ TIFF |
+| อักขระแมโครถูกละเลย | รีดเดอร์ไม่รองรับโหมดแมโคร | ใช้สแกนเนอร์/รีดเดอร์ที่รองรับแมโครของ DataMatrix อย่างชัดเจน (เช่น เวอร์ชัน ZXing ที่ใหม่กว่า) |
+| ไม่พบเส้นทาง | ตัวแปร `path` ไม่ถูกต้อง | ตรวจสอบว่าไดเรกทอรีมีอยู่หรือใช้ `Path.Combine` กับ `Environment.CurrentDirectory` |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: Aspose.BarCode สำหรับ .NET คืออะไร?**  
-ตอบ: Aspose.BarCode สำหรับ .NET เป็นไลบรารีที่ทรงพลัง ช่วยให้นักพัฒนา .NET สามารถสร้างและอ่านบาร์โค้ดในรูปแบบต่าง ๆ รวมถึง DataMatrix, QR, และอื่น ๆ
+**Q: Aspose.BarCode for .NET คืออะไร?**  
+A: Aspose.BarCode for .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนา .NET สามารถสร้างและจดจำบาร์โค้ดในรูปแบบต่าง ๆ รวมถึง DataMatrix, QR, และอื่น ๆ
 
-**ถาม: ทำไมต้องใช้บาร์โค้ด DataMatrix?**  
-ตอบ: บาร์โค้ด DataMatrix มีขนาดกะทัดรัด, มีความเชื่อถือสูง, และสามารถเก็บข้อมูลจำนวนมาก ทำให้เหมาะกับการผลิต, โลจิสติกส์, และการดูแลสุขภาพ
+**Q: ทำไมต้องใช้บาร์โค้ด DataMatrix?**  
+A: บาร์โค้ด DataMatrix มีขนาดกะทัดรัด มีความน่าเชื่อถือสูง และสามารถเก็บข้อมูลจำนวนมาก ทำให้เหมาะสำหรับการผลิต โลจิสติกส์ และการดูแลสุขภาพ
 
-**ถาม: จะหาเอกสารของ Aspose.BarCode สำหรับ .NET ได้จากที่ไหน?**  
-ตอบ: คุณสามารถดูเอกสารได้ที่ [เอกสาร Aspose.BarCode สำหรับ .NET](https://reference.aspose.com/barcode/net/)
+**Q: สามารถค้นหาเอกสารประกอบของ Aspose.BarCode for .NET ได้ที่ไหน?**  
+A: คุณสามารถค้นหาเอกสารได้ที่ [the Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
 
-**ถาม: มีรุ่นทดลองฟรีสำหรับ Aspose.BarCode สำหรับ .NET หรือไม่?**  
-ตอบ: มี, คุณสามารถดาวน์โหลดรุ่นทดลองฟรีได้จาก [ลิงก์ทดลองฟรี](https://releases.aspose.com/)
+**Q: มีการทดลองใช้ฟรีสำหรับ Aspose.BarCode for .NET หรือไม่?**  
+A: มี คุณสามารถดาวน์โหลดการทดลองใช้ฟรีได้จาก [the free trial link](https://releases.aspose.com/).
 
-**ถาม: จะขอรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ .NET ได้จากที่ไหน?**  
-ตอบ: หากมีคำถามหรือจำเป็นต้องการสนับสนุน, คุณสามารถเยี่ยมชมฟอรั่ม Aspose.BarCode สำหรับ .NET ได้ที่ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/barcode/13)
+**Q: จะหาการสนับสนุนสำหรับ Aspose.BarCode for .NET ได้จากที่ไหน?**  
+A: หากคุณมีคำถามหรือจำเป็นต้องการสนับสนุน คุณสามารถเยี่ยมชมฟอรั่ม Aspose.BarCode for .NET ได้ที่ [the support forum](https://forum.aspose.com/c/barcode/13).
 
 ---
 
-**อัปเดตล่าสุด:** 2026-01-17  
-**ทดสอบด้วย:** Aspose.BarCode 24.11 สำหรับ .NET  
-**ผู้เขียน:** Aspose  
+**อัปเดตล่าสุด:** 2026-08-17  
+**ทดสอบด้วย:** Aspose.BarCode 24.11 for .NET  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [สร้างบาร์โค้ด aspose .net - การกำหนดค่า DataMatrix Code Text](/barcode/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/)
+- [วิธีสร้าง DataMatrix Barcodes (ECC 200) ด้วย Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [การกำหนดค่า DataMatrix Structured Append ด้วย Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
