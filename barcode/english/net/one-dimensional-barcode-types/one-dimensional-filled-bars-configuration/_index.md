@@ -118,17 +118,11 @@ The official support forum is a great place to ask questions and share experienc
 ### Can I purchase a temporary license for Aspose.BarCode for .NET?
 A temporary license is available for short‑term projects. Grab one **[temporary license purchase page](https://purchase.aspose.com/temporary-license/)**.
 
-
-
-{{< /blocks/products/products-backtop-button >}}
-
-
-
 ---
+
 **Last Updated:** 2026-02-28  
 **Tested With:** Aspose.BarCode 24.11 for .NET  
 **Author:** Aspose  
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
