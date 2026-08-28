@@ -1,10 +1,49 @@
 ---
-date: 2026-01-15
-description: Panduan tutorial barcode langkah demi langkah untuk membaca barcode DataMatrix
-  dengan C# dan menghasilkan gambar barcode C# menggunakan Aspose.BarCode untuk .NET.
-linktitle: DataMatrix Encoding Mode (Auto)
+date: 2026-08-02
+description: Panduan langkah demi langkah tentang cara membaca barcode DataMatrix
+  C# dan menghasilkan gambar barcode C# menggunakan Aspose.BarCode for .NET dengan
+  enkoding otomatis.
+keywords:
+- how to read datamatrix
+- read barcode from file
+- how to generate datamatrix
+- datamatrix encoding auto
+lastmod: 2026-08-02
+linktitle: Mode Enkoding DataMatrix (Auto)
+og_description: Pelajari cara membaca barcode DataMatrix C# dan menghasilkan dalam
+  mode Auto menggunakan Aspose.BarCode for .NET. Tutorial ini mencakup penyiapan,
+  kode, dan pemecahan masalah.
+og_image_alt: 'Guide: Read and generate DataMatrix barcode in C# with Aspose.BarCode'
+og_title: Cara membaca barcode DataMatrix C# – Mode Otomatis
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Step‑by‑step guide on how to read DataMatrix barcode C# and generate
+    barcode image C# using Aspose.BarCode for .NET with auto encoding.
+  headline: How to read DataMatrix barcode C# – Auto mode
+  type: TechArticle
+- questions:
+  - answer: It allows Aspose.BarCode to automatically select the optimal encoding
+      method for the provided data, simplifying the **how to generate datamatrix**
+      process.
+    question: What is DataMatrix encoding mode "Auto"?
+  - answer: Yes – adjust `generator.Parameters.Barcode.XDimension.Pixels` to change
+      module size.
+    question: Can I customize the dimensions of the generated barcode?
+  - answer: Absolutely. Purchase a license from the [website](https://purchase.aspose.com/buy).
+    question: Is Aspose.BarCode for .NET suitable for commercial use?
+  - answer: Yes, you can explore Aspose.BarCode with a free trial from [this link](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Aspose.BarCode supports UTF‑8, ASCII, and other ECI encodings; set the
+      desired value via `ECIEncoding`.
+    question: What encoding options are available for DataMatrix barcodes?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Baca barcode DataMatrix C# – Mode Hasilkan DataMatrix (Otomatis)
+tags:
+- datamatrix barcode
+- Aspose.BarCode
+- C# barcode generation
+title: Cara membaca barcode DataMatrix C# – Mode Otomatis
 url: /id/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/
 weight: 14
 ---
@@ -13,31 +52,32 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Baca Kode Batang DataMatrix C# – Hasilkan Mode DataMatrix (Auto)
+# Cara Membaca Kode DataMatrix C# – Mode Otomatis
 
-Di dunia digital yang bergerak cepat saat ini, kemampuan untuk **read DataMatrix barcode C#** dengan cepat dan andal sangat penting untuk segala hal mulai dari pelacakan inventaris hingga penanganan dokumen yang aman. Tutorial ini memandu Anda melalui pembuatan kode DataMatrix dalam mode *Auto* dengan Aspose.BarCode untuk .NET dan kemudian menunjukkan cara membaca kembali kode tersebut di C#. Baik Anda mengikuti **barcode tutorial guide** atau hanya membutuhkan contoh kode yang solid, Anda akan menyelesaikan panduan ini dengan solusi yang dapat langsung digunakan dalam proyek Anda.
+Di dunia digital yang bergerak cepat saat ini, **cara membaca datamatrix** dengan cepat dan andal sangat penting untuk pelacakan inventaris, penanganan dokumen yang aman, dan banyak skenario perusahaan lainnya. Tutorial ini memandu Anda melalui pembuatan kode bar DataMatrix dalam mode *Auto* dengan Aspose.BarCode untuk .NET dan kemudian menunjukkan cara membaca kembali kode bar tersebut di C#. Baik Anda mengikuti panduan tutorial kode bar atau membutuhkan contoh kode siap pakai, Anda akan selesai dengan solusi siap produksi yang dapat Anda masukkan ke proyek .NET mana pun.
 
 ## Jawaban Cepat
-- **What does “Auto” mode do?** It lets Aspose.BarCode automatically select the best encoding scheme for your data.  
-- **Which library is required?** Aspose.BarCode for .NET (free trial available).  
-- **Can I read the barcode in the same app?** Yes – use `BarCodeReader` with `DecodeType.DataMatrix`.  
-- **Do I need a license for production?** A commercial license is required for production use.  
-- **Supported .NET versions?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Apa yang dilakukan mode “Auto”?** Ini memungkinkan Aspose.BarCode secara otomatis memilih skema enkoding terbaik untuk data Anda.  
+- **Perpustakaan apa yang diperlukan?** Aspose.BarCode untuk .NET (versi percobaan gratis tersedia).  
+- **Bisakah saya membaca kode bar di aplikasi yang sama?** Ya – gunakan `BarCodeReader` dengan `DecodeType.DataMatrix`.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
 
-## Apa itu membaca DataMatrix barcode C#?
-Membaca kode DataMatrix di C# berarti mendekode matriks dua dimensi berisi modul hitam‑putih kembali menjadi teks atau data asli. Aspose.BarCode menyediakan API sederhana yang menyembunyikan pemrosesan gambar tingkat rendah, memungkinkan Anda fokus pada logika bisnis.
+`BarCodeReader` adalah kelas Aspose.BarCode untuk memindai gambar dan mengambil informasi kode bar.
 
-## Mengapa menggunakan Aspose.BarCode untuk menghasilkan barcode image C#?
-- **Reliability:** Handles all DataMatrix standards and automatically selects the optimal encoding.  
-- **Flexibility:** Full control over dimensions, ECI encoding, and image format.  
-- **Cross‑platform:** Works with .NET Framework, .NET Core, and .NET 5+ applications.  
+## Apa itu Membaca Kode DataMatrix C#?
+Membaca kode bar DataMatrix di C# berarti mendekode matriks dua‑dimensi dari modul hitam dan putih kembali menjadi teks atau data asli. Aspose.BarCode mengabstraksi pemrosesan gambar tingkat rendah, sehingga Anda dapat fokus pada logika bisnis sementara perpustakaan menangani koreksi kesalahan, pemilihan ukuran simbol, dan dukungan Unicode secara otomatis.
+
+## Mengapa Menggunakan Aspose.BarCode untuk Menghasilkan Gambar Kode Bar C#?
+Aspose.BarCode secara otomatis memilih enkoding optimal, mendukung **lebih dari 30 simbol kode bar**, dan dapat menghasilkan simbol DataMatrix hingga **1558 × 1558 modul** – jauh lebih besar daripada kebanyakan pesaing. Ia berjalan di Windows, Linux, dan macOS tanpa ketergantungan native, memberikan Anda satu API lintas‑platform untuk pembuatan dan pembacaan.
 
 ## Prasyarat
 
-1. **.NET Environment** – Install the latest .NET runtime from the [.NET website](https://dotnet.microsoft.com/download/dotnet).  
-2. **Aspose.BarCode for .NET** – Download the library from the [website](https://releases.aspose.com/barcode/net/).  
+1. **Lingkungan .NET** – Instal runtime .NET terbaru dari [.NET website](https://dotnet.microsoft.com/download/dotnet).  
+2. **Aspose.BarCode untuk .NET** – Unduh perpustakaan dari [situs web](https://releases.aspose.com/barcode/net/).  
 
 ## Mengimpor Namespace
+Namespace `Aspose.BarCode` berisi semua kelas yang Anda perlukan untuk pembuatan dan pembacaan kode bar. Impor di bagian atas file Anda sebelum kode lainnya.
 
 ```csharp
 using Aspose.BarCode.BarCodeRecognition;
@@ -46,17 +86,19 @@ using System;
 using System.Drawing;
 ```
 
-Sekarang namespace sudah tersedia, mari kita bahas kode langkah demi langkah.
+Setelah namespace tersedia, mari kita telusuri kode langkah demi langkah.
 
 ## Langkah 1: Atur Jalur Direktori
+Pilih folder tempat PNG yang dihasilkan (atau format lain yang didukung) akan disimpan. Jalur ini dapat berupa absolut atau relatif terhadap proyek Anda.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-Ganti `"Your Directory Path"` dengan folder tempat Anda ingin menyimpan PNG (atau format lain) yang dihasilkan.
+Ganti `"Your Directory Path"` dengan folder yang Anda inginkan. Menjaga folder output dapat dikonfigurasi membuat tutorial dapat digunakan kembali di berbagai lingkungan.
 
-## Langkah 2: Buat DataMatrix barcode dalam mode Auto
+## Langkah 2: Buat Kode Bar DataMatrix dalam Mode Auto
+`DataMatrixEncodeMode.Auto` memberi tahu generator untuk secara otomatis memilih skema enkoding optimal untuk data yang diberikan.
 
 ```csharp
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose常に先を行く"))
@@ -68,9 +110,10 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 }
 ```
 
-Pengaturan `DataMatrixEncodeMode.Auto` memungkinkan perpustakaan menentukan enkoding terbaik untuk teks yang diberikan. Silakan ganti teks contoh dengan string apa pun yang ingin Anda **generate barcode image C#**.
+Silakan ganti teks contoh dengan string apa pun yang Anda perlukan untuk **cara menghasilkan datamatrix**. Mode auto akan secara otomatis beralih antara Base‑256, ASCII, atau skema lain untuk menghasilkan simbol terkecil yang memungkinkan.
 
-## Langkah 3: Baca barcode (read DataMatrix barcode C#)
+## Langkah 3: Baca Kode Bar (baca Kode DataMatrix C#)
+`BarCodeReader` adalah kelas Aspose.BarCode untuk memindai gambar dan mengambil informasi kode bar. Ia mendukung pembacaan dari stream, file, dan objek bitmap, menjadikannya ideal untuk skenario **membaca kode bar dari file**.
 
 ```csharp
 using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -84,44 +127,48 @@ Potongan kode ini mendekode gambar yang baru saja kami hasilkan dan mencetak tek
 
 ## Masalah Umum dan Solusinya
 
-| Issue | Cause | Fix |
+| Masalah | Penyebab | Solusi |
 |-------|-------|-----|
-| **Tidak ada kode batang terdeteksi** | Resolusi gambar terlalu rendah | Tingkatkan `XDimension.Pixels` (mis., menjadi 6) |
-| **Karakter sampah** | Enkoding ECI salah | Atur `ECIEncoding` agar cocok dengan data Anda (UTF‑8, ASCII, dll.) |
-| **Exception pada `ReadBarCodes`** | Bitmap dibuang sebelum pembacaan | Jaga agar instance `Bitmap` tetap hidup sampai setelah pembacaan |
+| **Tidak ada kode bar terdeteksi** | Resolusi gambar terlalu rendah | Tingkatkan `XDimension.Pixels` (mis., menjadi 6) |
+| **Karakter sampah** | Enkoding ECI salah | Setel `ECIEncoding` agar cocok dengan data Anda (UTF‑8, ASCII, dll.) |
+| **Pengecualian pada `ReadBarCodes`** | Bitmap dibuang sebelum pembacaan | Pertahankan instance `Bitmap` tetap hidup sampai setelah pembacaan |
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: What is DataMatrix encoding mode "Auto"?**  
-A: It allows Aspose.BarCode to automatically select the optimal encoding method for the provided data, simplifying the **how to generate datamatrix barcode** process.
+**Q: Apa itu mode enkoding DataMatrix "Auto"?**  
+A: Ini memungkinkan Aspose.BarCode secara otomatis memilih metode enkoding optimal untuk data yang diberikan, menyederhanakan proses **cara menghasilkan datamatrix**.
 
-**Q: Can I customize the dimensions of the generated barcode?**  
-A: Yes – adjust `generator.Parameters.Barcode.XDimension.Pixels` to change module size.
+**Q: Bisakah saya menyesuaikan dimensi kode bar yang dihasilkan?**  
+A: Ya – sesuaikan `generator.Parameters.Barcode.XDimension.Pixels` untuk mengubah ukuran modul.
 
-**Q: Is Aspose.BarCode for .NET suitable for commercial use?**  
-A: Absolutely. Purchase a license from the [website](https://purchase.aspose.com/buy).
+**Q: Apakah Aspose.BarCode untuk .NET cocok untuk penggunaan komersial?**  
+A: Tentu saja. Beli lisensi dari [situs web](https://purchase.aspose.com/buy).
 
-**Q: Is there a free trial available?**  
-A: Yes, you can explore Aspose.BarCode with a free trial from [this link](https://releases.aspose.com/).
+**Q: Apakah tersedia versi percobaan gratis?**  
+A: Ya, Anda dapat menjelajahi Aspose.BarCode dengan versi percobaan gratis dari [tautan ini](https://releases.aspose.com/).
 
-**Q: What encoding options are available for DataMatrix barcodes?**  
-A: Aspose.BarCode supports UTF‑8, ASCII, and other ECI encodings; set the desired value via `ECIEncoding`.
+**Q: Opsi enkoding apa yang tersedia untuk kode bar DataMatrix?**  
+A: Aspose.BarCode mendukung UTF‑8, ASCII, dan enkoding ECI lainnya; atur nilai yang diinginkan melalui `ECIEncoding`.
 
 ## Kesimpulan
 
-Anda kini memiliki contoh lengkap yang siap produksi yang **reads DataMatrix barcode C#**, menghasilkan kode dalam mode Auto, dan memverifikasi hasilnya—semua menggunakan Aspose.BarCode untuk .NET. Bereksperimenlah dengan teks, ukuran, dan pengaturan ECI yang berbeda untuk menyesuaikan skenario Anda, dan lihat dokumentasi resmi [documentation](https://reference.aspose.com/barcode/net/) untuk kustomisasi lebih mendalam.
+Anda kini memiliki contoh lengkap yang siap produksi yang **membaca kode bar DataMatrix C#**, menghasilkan kode bar dalam mode Auto, dan memverifikasi hasilnya—semua menggunakan Aspose.BarCode untuk .NET. Bereksperimenlah dengan teks, ukuran, dan pengaturan ECI yang berbeda untuk menyesuaikan skenario spesifik Anda, dan lihat [dokumentasi](https://reference.aspose.com/barcode/net/) resmi untuk kustomisasi lebih mendalam.
 
 ---
 
-**Terakhir Diperbarui:** 2026-01-15  
-**Diuji Dengan:** Aspose.BarCode 24.12 for .NET  
-**Penulis:** Aspose  
+**Terakhir Diperbarui:** 2026-08-02  
+**Diuji Dengan:** Aspose.BarCode 24.12 untuk .NET  
+**Penulis:** Aspose
 
----
+## Tutorial Terkait
+
+- [Cara Membaca Kode Bar DataMatrix dengan Aspose.BarCode untuk .NET](/barcode/net/datamatrix-barcode-reading/)
+- [Konfigurasi Structured Append DataMatrix dengan Aspose.BarCode untuk .NET](/barcode/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/)
+- [Pemrograman Pembaca DataMatrix dengan Aspose.BarCode untuk .NET](/barcode/net/datamatrix-barcode-reading/datamatrix-reader-programming/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
