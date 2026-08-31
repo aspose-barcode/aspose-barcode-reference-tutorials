@@ -1,11 +1,15 @@
 ---
-date: 2025-12-10
+date: 2026-04-05
 description: Pelajari cara menghasilkan barcode Java menggunakan Aspose.BarCode. Panduan
-  langkah demi langkah ini menunjukkan pembuatan barcode dinamis dan penyimpanan gambar
-  ke aliran.
-linktitle: Saving Barcode Image to Streams
+  langkah demi langkah ini menunjukkan cara menghasilkan barcode secara dinamis dan
+  menyimpan gambar ke aliran.
+keywords:
+- how to generate barcode java
+- dynamic barcode generation java
+- save barcode image to streams
+linktitle: Menyimpan Gambar Barcode ke Stream
 second_title: Aspose.BarCode Java API
-title: 'Buat Barcode Java: Simpan ke Stream dengan Aspose.BarCode'
+title: 'Cara Membuat Barcode Java: Simpan ke Stream dengan Aspose.BarCode'
 url: /id/java/advanced-settings-and-optimization/saving-barcode-image-streams/
 weight: 14
 ---
@@ -14,27 +18,27 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menyimpan Gambar Barcode ke Stream di Java dengan Aspose.BarCode
+# Menyimpan Gambar Barcode ke Stream dalam Java dengan Aspose.BarCode
 
-## Introduction
+## Cara Membuat Barcode Java – Pendahuluan
 
-Dalam lanskap dinamis pemrograman Java, kebutuhan untuk **generate barcode Java** secara efisien sangat penting. Aspose.BarCode untuk Java menonjol sebagai solusi yang kuat, menawarkan integrasi mulus untuk pembuatan barcode dalam berbagai format. Tutorial ini akan memandu Anda melalui proses menyimpan gambar barcode ke stream menggunakan Aspose.BarCode untuk Java, memberi Anda dasar yang kuat untuk **dynamic barcode generation** dalam aplikasi Anda.
+Dalam panduan ini kami akan menunjukkan **cara menghasilkan barcode Java** secara efisien dalam lanskap dinamis pemrograman Java. Aspose.BarCode untuk Java menonjol sebagai solusi yang kuat, menawarkan integrasi mulus untuk pembuatan barcode dalam berbagai format. Tutorial ini memandu Anda melalui penyimpanan gambar barcode ke stream, teknik kunci untuk skenario **pembuatan barcode dinamis java** seperti API web dan mikro‑layanan.
 
-## Quick Answers
-- **What does this tutorial cover?** Menyimpan gambar barcode ke `ByteArrayOutputStream` menggunakan Aspose.BarCode untuk Java.  
-- **Which barcode type is used in the example?** CODE_128.  
-- **What image format is demonstrated?** JPEG.  
-- **Do I need a license to run the code?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
-- **Can I use the stream with other APIs?** Ya, `ByteArrayOutputStream` dapat diteruskan ke layanan web, disimpan ke basis data, atau dituliskan ke file.
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Menyimpan gambar barcode ke `ByteArrayOutputStream` menggunakan Aspose.BarCode untuk Java.  
+- **Jenis barcode apa yang digunakan dalam contoh?** CODE_128.  
+- **Format gambar apa yang ditunjukkan?** JPEG.  
+- **Apakah saya memerlukan lisensi untuk menjalankan kode?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya menggunakan stream dengan API lain?** Ya, `ByteArrayOutputStream` dapat diteruskan ke layanan web, disimpan ke basis data, atau ditulis ke file.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum menyelami tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- **Java Development Environment:** Siapkan lingkungan pengembangan Java di mesin Anda.  
-- **Aspose.BarCode for Java:** Unduh dan instal pustaka Aspose.BarCode. Anda dapat menemukan pustaka tersebut [di sini](https://releases.aspose.com/barcode/java/).
+- Lingkungan Pengembangan Java: Siapkan lingkungan pengembangan Java di mesin Anda.  
+- Aspose.BarCode untuk Java: Unduh dan instal pustaka Aspose.BarCode. Anda dapat menemukan pustaka tersebut [di sini](https://releases.aspose.com/barcode/java/).
 
-## Import Namespaces
+## Impor Namespace
 
 Untuk memulai perjalanan pembuatan barcode Anda, impor namespace yang diperlukan:
 
@@ -47,7 +51,7 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.EncodeTypes;
 ```
 
-## Step 1: Create Barcode Generator
+## Langkah 1: Buat Barcode Generator
 
 Inisialisasi objek `BarcodeGenerator` dengan tipe enkoding dan data yang diinginkan.
 
@@ -55,7 +59,7 @@ Inisialisasi objek `BarcodeGenerator` dengan tipe enkoding dan data yang diingin
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "123456");
 ```
 
-## Step 2: Generate Barcode Image
+## Langkah 2: Hasilkan Gambar Barcode
 
 Hasilkan gambar barcode dan simpan ke `ByteArrayOutputStream`.
 
@@ -64,63 +68,56 @@ ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 generator.save(outStream, BarCodeImageFormat.JPEG);
 ```
 
-## Step 3: Utilize the Generated Barcode
+## Langkah 3: Manfaatkan Barcode yang Dihasilkan
 
-Pada titik ini, gambar barcode disimpan dalam `ByteArrayOutputStream` (`outStream`). Anda kini dapat menggunakan atau memproses lebih lanjut gambar barcode sesuai kebutuhan dalam aplikasi Java Anda—baik itu mengirimnya melalui HTTP, menyematkannya dalam PDF, atau menyimpannya ke basis data.
+Pada titik ini, gambar barcode disimpan dalam `ByteArrayOutputStream` (`outStream`). Anda sekarang dapat menggunakan atau memproses lebih lanjut gambar barcode sesuai kebutuhan dalam aplikasi Java Anda—baik itu mengirimnya melalui HTTP, menyematkannya dalam PDF, atau menyimpannya di basis data.
 
-## Why Save to Streams?
+## Mengapa Menyimpan ke Stream?
 
-Menyimpan ke stream menjaga barcode tetap berada di memori, menghilangkan kebutuhan akan file sementara. Pendekatan ini ideal untuk:
+Menyimpan ke stream menjaga barcode Anda tetap di memori, menghilangkan kebutuhan akan file sementara. Pendekatan ini ideal untuk:
 
-- **Web APIs** yang perlu mengembalikan barcode langsung dalam respons.  
-- **Microservices** di mana overhead I/O file harus diminimalkan.  
-- **Dynamic content generation** di mana setiap permintaan dapat menghasilkan barcode unik.
+- **API Web** yang perlu mengembalikan barcode secara langsung dalam respons.  
+- **Mikrolayanan** di mana beban I/O file harus diminimalkan.  
+- **Pembuatan konten dinamis** di mana setiap permintaan dapat menghasilkan barcode unik.
 
-## Common Issues & Tips
+## Masalah Umum & Tips
 
-- **OutOfMemoryError** – Jika Anda menghasilkan barcode yang sangat besar, pertimbangkan untuk membersihkan stream secara periodik atau menggunakan `BufferedOutputStream`.  
-- **Unsupported Format** – Pastikan `BarCodeImageFormat` yang dipilih sesuai dengan kemampuan sistem hilir Anda (misalnya PNG untuk kebutuhan tanpa kehilangan).  
-- **License Exceptions** – Menjalankan tanpa lisensi yang valid dapat menambahkan watermark pada gambar yang dihasilkan.
+- **OutOfMemoryError** – Jika Anda menghasilkan barcode yang sangat besar, pertimbangkan untuk mengosongkan stream secara berkala atau menggunakan `BufferedOutputStream`.  
+- **Format Tidak Didukung** – Pastikan `BarCodeImageFormat` yang dipilih cocok dengan kemampuan sistem hilir Anda (mis., PNG untuk kebutuhan tanpa kehilangan).  
+- **Pengecualian Lisensi** – Menjalankan tanpa lisensi yang valid dapat menambahkan watermark pada gambar yang dihasilkan.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Is Aspose.BarCode compatible with all Java development environments?
+### Q1: Apakah Aspose.BarCode kompatibel dengan semua lingkungan pengembangan Java?
+A1: Ya, Aspose.BarCode dirancang untuk kompatibel dengan berbagai lingkungan pengembangan Java.
 
-A1: Ya, Aspose.BarCode dirancang agar kompatibel dengan berbagai lingkungan pengembangan Java.
+### Q2: Bisakah saya menyesuaikan tampilan barcode yang dihasilkan?
+A2: Tentu saja! Aspose.BarCode menawarkan berbagai opsi penyesuaian, memungkinkan Anda menyesuaikan tampilan barcode sesuai kebutuhan spesifik Anda.
 
-### Q2: Can I customize the appearance of the generated barcode?
+### Q3: Apakah ada percobaan gratis untuk Aspose.BarCode untuk Java?
+A3: Ya, Anda dapat menjelajahi percobaan gratis [di sini](https://releases.aspose.com/).
 
-A2: Tentu saja! Aspose.BarCode menawarkan berbagai opsi kustomisasi, memungkinkan Anda menyesuaikan tampilan barcode sesuai kebutuhan spesifik.
-
-### Q3: Is there a free trial available for Aspose.BarCode for Java?
-
-A3: Ya, Anda dapat mencoba versi percobaan gratis [di sini](https://releases.aspose.com/).
-
-### Q4: How can I get support for Aspose.BarCode for Java?
-
+### Q4: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.BarCode untuk Java?
 A4: Untuk dukungan, kunjungi [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-### Q5: Are temporary licenses available for Aspose.BarCode?
-
+### Q5: Apakah lisensi sementara tersedia untuk Aspose.BarCode?
 A5: Ya, lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Q6: Can I convert the stream to a Base64 string for JSON APIs?
-
+### Q6: Bisakah saya mengonversi stream menjadi string Base64 untuk API JSON?
 A6: Ya, cukup panggil `Base64.getEncoder().encodeToString(outStream.toByteArray())` untuk menyematkan gambar langsung dalam payload JSON.
 
-### Q7: Does this work with other image formats like PNG or GIF?
-
+### Q7: Apakah ini bekerja dengan format gambar lain seperti PNG atau GIF?
 A7: Metode `save` mendukung banyak format; ganti `BarCodeImageFormat.JPEG` dengan `BarCodeImageFormat.PNG` atau `BarCodeImageFormat.GIF` sesuai kebutuhan.
 
-## Conclusion
+## Kesimpulan
 
-Aspose.BarCode for Java menyediakan solusi yang kuat dan fleksibel untuk tugas **generate barcode Java**. Dengan mengikuti panduan langkah‑demi‑langkah ini, Anda dapat dengan mudah menyimpan gambar barcode ke stream, memungkinkan pembuatan barcode dinamis dan integrasi mulus dengan aplikasi Java modern.
+Aspose.BarCode untuk Java menyediakan solusi yang kuat dan fleksibel untuk tugas **cara menghasilkan barcode Java**. Dengan mengikuti panduan langkah‑demi‑langkah ini, Anda dapat dengan mudah menyimpan gambar barcode ke stream, memungkinkan pembuatan barcode dinamis dan integrasi mulus dengan aplikasi Java modern.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode 24.12 for Java  
-**Author:** Aspose
+**Terakhir Diperbarui:** 2026-04-05  
+**Diuji Dengan:** Aspose.BarCode 24.12 for Java  
+**Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

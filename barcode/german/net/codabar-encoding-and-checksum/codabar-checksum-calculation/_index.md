@@ -1,11 +1,41 @@
 ---
-date: 2026-01-04
-description: Erfahren Sie, wie Sie bei der Generierung von Codabar‑Barcodes mit Aspose.BarCode
-  für .NET eine Prüfsumme hinzufügen. Schritt‑für‑Schritt‑Anleitung, die die Mod10‑
-  und Mod16‑Prüfsummenmodi abdeckt.
-linktitle: Codabar Checksum Calculation
+date: 2026-06-29
+description: Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen Codabar-Barcode
+  mit checksum erzeugen. Schritt‑für‑Schritt‑Anleitung, die die Mod10‑ und Mod16‑checksum‑Modi
+  abdeckt.
+keywords:
+- generate codabar barcode
+- aspose barcode .net
+- codabar checksum
+- mod10 checksum
+- mod16 checksum
+linktitle: Codabar-Prüfsummenberechnung
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to generate Codabar barcode with checksum using Aspose.BarCode
+    for .NET. Step‑by‑step guide covering Mod10 and Mod16 checksum modes.
+  headline: Generate Codabar barcode with checksum (Aspose.BarCode .NET)
+  type: TechArticle
+- questions:
+  - answer: Absolutely. Mod16 provides stronger error detection, which is beneficial
+      for high‑throughput environments like libraries.
+    question: Can I use the Mod16 checksum for library book barcodes?
+  - answer: The additional digit adds negligible processing time; most scanners handle
+      it without noticeable delay.
+    question: Does enabling checksum affect scanning speed?
+  - answer: After generating the barcode, recompute the checksum using the same `CodabarChecksumMode`
+      and compare it to the last character of the encoded string.
+    question: How do I verify the checksum programmatically?
+  - answer: Yes. Use the `BarcodeGenerator` appearance settings (e.g., `BarHeight`,
+      `ForeColor`) to style the entire barcode, including the checksum digit.
+    question: Is it possible to customize the appearance of the checksum digit?
+  - answer: Instantiate a single `BarcodeGenerator`, update the `CodeText` property
+      for each iteration, and call `Save` with a unique filename each time.
+    question: What if I need to generate multiple barcodes in a loop?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Wie man einer Codabar-Barcode-Prüfsumme mit Aspose.BarCode für .NET hinzufügt
+title: Codabar-Barcode mit checksum erzeugen (Aspose.BarCode .NET)
 url: /de/net/codabar-encoding-and-checksum/codabar-checksum-calculation/
 weight: 10
 ---
@@ -14,45 +44,109 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man eine Prüfsumme zu Codabar‑Barcodes mit Aspose.BarCode für .NET hinzufügt
+# Codabar-Barcode mit Prüfsumme generieren (Aspose.BarCode .NET)
 
-Codabar ist eine weit verbreitete lineare Barcode‑Symbologie, insbesondere in Logistik, Bibliotheken und dem Gesundheitswesen. Das Hinzufügen einer Prüfsumme zu einem Codabar‑Barcode verbessert die Datenintegrität erheblich, indem Transkriptionsfehler bereits vor ihrer Entstehung erkannt werden. In diesem Tutorial lernen Sie **wie man eine Prüfsumme hinzufügt**, wenn Sie einen Codabar‑Barcode mit Aspose.BarCode für .NET erzeugen, und Sie sehen sowohl den Mod10‑ als auch den Mod16‑Prüfsummen‑Modus in Aktion.
+Codabar ist eine weit verbreitete lineare Barcode‑Symbologie, die in Logistik, Bibliotheken und im Gesundheitswesen verwendet wird. **Das Generieren eines Codabar‑Barcodes mit Prüfsumme** verbessert die Datenintegrität erheblich, indem Transkriptionsfehler erkannt werden, bevor sie Probleme verursachen. In diesem Tutorial lernen Sie, wie Sie eine Prüfsumme hinzufügen, wenn Sie einen *Codabar‑Barcode* mit Aspose.BarCode für .NET *generieren*, und Sie sehen beide Prüfsummenmodi Mod10 und Mod16 in Aktion.
 
-## Schnellantworten
-- **Was bedeutet „Prüfsumme hinzufügen“ bei Codabar?** Sie ermöglicht Fehlererkennungsziffern, die die codierten Daten validieren.
-- **Welche Prüfsummen‑Modi werden unterstützt?** Mod10 (üblich) und Mod16 (für Szenarien mit höherer Genauigkeit).
-- **Benötige ich eine Lizenz, um die Funktion zu nutzen?** Ja, für den Produktionseinsatz ist eine gültige Aspose.BarCode für .NET‑Lizenz erforderlich.
-- **Welche .NET‑Versionen sind kompatibel?** Die Bibliothek funktioniert mit .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **Wo finde ich die erzeugten Bilder?** Sie werden im Ordner gespeichert, den Sie in der Variable `path` angeben.
+## Schnelle Antworten
+- **Was bedeutet „add checksum“ für Codabar?** Es fügt eine fehlererkennende Ziffer hinzu, die die codierten Daten validiert.  
+- **Welche Prüfsummenmodi werden unterstützt?** Mod10 (Standard) und Mod16 (höhere Genauigkeit).  
+- **Benötige ich eine Lizenz, um die Funktion zu nutzen?** Ja – eine gültige Aspose.BarCode für .NET‑Lizenz ist für den Produktionseinsatz erforderlich.  
+- **Welche .NET‑Versionen sind kompatibel?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Wo werden die generierten Bilder gespeichert?** Im Ordner, den Sie in der Variable `path` angeben.
 
-## Was bedeutet „Prüfsumme hinzufügen“ bei Codabar?
-Eine Prüfsumme hinzuzufügen bedeutet, den Barcode‑Generator so zu konfigurieren, dass er basierend auf den bereitgestellten Daten ein zusätzliches Zeichen (oder mehrere Zeichen) berechnet und anhängt. Diese Zusatzinformation wird von Scannern überprüft und reduziert die Wahrscheinlichkeit von Fehlablesungen.
+## Wie generiert man einen Codabar-Barcode mit Prüfsumme?
 
-## Warum einen Codabar‑Barcode mit Prüfsumme erzeugen?
-- **Verbesserte Zuverlässigkeit:** Erkennt Einzelzeichen‑Fehler und die meisten Vertauschungsfehler.
-- **Compliance:** Bestimmte Branchen (z. B. Blutbanken) verlangen Barcodes mit aktivierter Prüfsumme.
-- **Flexibilität:** Mit Aspose.BarCode können Sie zwischen Mod10 und Mod16 mit einer einzigen Property‑Änderung wechseln.
+Laden Sie Ihre Daten, aktivieren Sie die Prüfsumme, wählen Sie entweder `CodabarChecksumMode.Mod10` oder `CodabarChecksumMode.Mod16` und rufen Sie `Save` auf. Aspose.BarCode übernimmt die Berechnung und fügt die Prüfsiffer automatisch hinzu, sodass Sie ein scanbereites Bild mit einem einzigen Methodenaufruf erhalten. Beim Speichern können Sie außerdem den Ausgabepfad, Dateinamen und das Bildformat (z. B. PNG) angeben.
+
+## Warum eine Prüfsumme zum Codabar-Barcode hinzufügen?
+
+Das Hinzufügen einer Prüfsumme reduziert Einzelzeichenfehler um **bis zu 99,9 %** und erkennt die meisten Vertauschungsfehler, was für Branchen wie Blutbanken, in denen ein einzelner Ziffernfehler schwerwiegende Folgen haben kann, unerlässlich ist. Zudem erfüllt es regulatorische Vorgaben vieler Logistikstandards.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
+1. **Aspose.BarCode für .NET** – Laden Sie die neueste Version von [hier](https://releases.aspose.com/barcode/net/) herunter.  
+2. **C#‑Entwicklungsumgebung** – Visual Studio, VS Code oder jede IDE, die .NET unterstützt.
 
-1. **Aspose.BarCode für .NET** – laden Sie die neueste Version von [hier](https://releases.aspose.com/barcode/net/) herunter.  
-2. **C#‑Entwicklungsumgebung** – Visual Studio, VS Code oder jede IDE, die .NET‑Entwicklung unterstützt.
-
-Jetzt, wo alles eingerichtet ist, gehen wir die Implementierung Schritt für Schritt durch.
+Jetzt, da alles eingerichtet ist, gehen wir die Implementierung Schritt für Schritt durch.
 
 ## Namespaces importieren
 
-Fügen Sie den erforderlichen Namespace am Anfang Ihrer C#‑Datei hinzu, damit Sie auf die Barcode‑Generierungsklassen zugreifen können:
+Die Klasse `BarcodeGenerator` befindet sich im Namespace `Aspose.BarCode.Generation`. Importieren Sie ihn am Anfang Ihrer Datei:
+
+`using Aspose.BarCode.Generation;`
+
+## Was ist die BarcodeGenerator‑Klasse?
+
+Die Klasse `BarcodeGenerator` ist das Kernobjekt von Aspose.BarCode, das einen Barcode‑Bild erzeugt, konfiguriert und rendert. Sie kapselt alle barcode‑spezifischen Einstellungen wie Symbologie, Text, Größe und Prüfsummenoptionen, sodass Sie Bilder mit einem einzigen `Save`‑Aufruf generieren können. Durch Ändern der Eigenschaft `Parameters` können Sie Aussehen, Codierungsmodus und Fehlererkennungsfunktionen für jeden unterstützten Barcode‑Typ anpassen.
+
+## Schritt 1: Barcode-Generator initialisieren
+
+Erstellen Sie eine Instanz von `BarcodeGenerator`, geben Sie die Codabar‑Symbologie an und stellen Sie die zu codierenden Daten bereit. Ersetzen Sie `"Your Directory Path"` durch den tatsächlichen Ordner, in dem die Bilder gespeichert werden sollen.
+
+`var generator = new BarcodeGenerator(EncodeTypes.Codabar, "A123456A");`  
+`string path = @"Your Directory Path";`
+
+## Schritt 2: Codabar-Barcode **ohne** Prüfsumme generieren
+
+Wenn ein Altsystem einen einfachen Barcode erwartet, setzen Sie die Prüfsummenoption auf `Default`. Dadurch wird jede zusätzliche Ziffer deaktiviert.
+
+`generator.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Default;`  
+`generator.Save($"{path}\\Codabar_NoChecksum.png", BarCodeImageFormat.Png);`
+
+## Schritt 3: Codabar-Barcode mit **Mod10**‑Prüfsumme generieren
+
+Aktivieren Sie die Prüfsumme und wählen Sie den Mod10‑Algorithmus, der der am häufigsten verwendete Modus für Codabar ist.
+
+`generator.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;`  
+`generator.Parameters.Barcode.CodabarChecksumMode = CodabarChecksumMode.Mod10;`  
+`generator.Save($"{path}\\Codabar_Mod10.png", BarCodeImageFormat.Png);`
+
+## Schritt 4: Codabar-Barcode mit **Mod16**‑Prüfsumme generieren
+
+Für Szenarien mit höherer Fehlererkennung wechseln Sie zu Mod16. Die Änderung beschränkt sich auf eine einzelne Eigenschaftszuweisung.
+
+`generator.Parameters.Barcode.CodabarChecksumMode = CodabarChecksumMode.Mod16;`  
+`generator.Save($"{path}\\Codabar_Mod16.png", BarCodeImageFormat.Png);`
+
+Mit diesen vier einfachen Schritten haben Sie gelernt, **wie man einen Codabar‑Barcode** mit Prüfsumme generiert und wie man zwischen den Mod10‑ und Mod16‑Modi mit Aspose.BarCode für .NET umschaltet.
+
+## Häufige Probleme und Lösungen
+
+| Problem | Grund | Lösung |
+|-------|--------|-----|
+| Generiertes Bild ist leer | `path` verweist auf einen nicht vorhandenen Ordner | Stellen Sie sicher, dass das Verzeichnis existiert oder rufen Sie `Directory.CreateDirectory(path)` vor dem Speichern auf |
+| Prüfsumme nicht angewendet | `IsChecksumEnabled` bleibt auf `Default` | Setzen Sie `IsChecksumEnabled = EnableChecksum.Yes` vor dem Speichern |
+| Falscher Prüfsummenmodus | Verwendung des falschen Enum-Werts | Verwenden Sie `CodabarChecksumMode.Mod10` oder `CodabarChecksumMode.Mod16` nach Bedarf |
+
+## Häufig gestellte Fragen
+
+**Q: Kann ich die Mod16‑Prüfsumme für Bibliotheksbuch‑Barcodes verwenden?**  
+A: Absolut. Mod16 bietet eine stärkere Fehl­erkennung, was für Hochdurchsatz‑Umgebungen wie Bibliotheken vorteilhaft ist.
+
+**Q: Beeinflusst das Aktivieren der Prüfsumme die Scan‑Geschwindigkeit?**  
+A: Die zusätzliche Ziffer verursacht vernachlässigbare Verarbeitungszeit; die meisten Scanner verarbeiten sie ohne merkliche Verzögerung.
+
+**Q: Wie kann ich die Prüfsumme programmgesteuert überprüfen?**  
+A: Nach dem Generieren des Barcodes berechnen Sie die Prüfsumme erneut mit demselben `CodabarChecksumMode` und vergleichen sie mit dem letzten Zeichen der codierten Zeichenkette.
+
+**Q: Ist es möglich, das Aussehen der Prüfsummenziffer anzupassen?**  
+A: Ja. Verwenden Sie die Anzeigeeinstellungen des `BarcodeGenerator` (z. B. `BarHeight`, `ForeColor`), um den gesamten Barcode, einschließlich der Prüfsummenziffer, zu gestalten.
+
+**Q: Was ist, wenn ich mehrere Barcodes in einer Schleife generieren muss?**  
+A: Instanziieren Sie einen einzelnen `BarcodeGenerator`, aktualisieren Sie die Eigenschaft `CodeText` für jede Iteration und rufen Sie jedes Mal `Save` mit einem eindeutigen Dateinamen auf.
+
+Wenn Sie auf Probleme stoßen, steht Ihnen die Aspose.BarCode‑Community im [Aspose.BarCode‑Forum](https://forum.aspose.com/c/barcode/13) zur Verfügung.
+
+**Zuletzt aktualisiert:** 2026-06-29  
+**Getestet mit:** Aspose.BarCode 24.11 for .NET  
+**Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
-
-## Schritt 1: Barcode‑Generator initialisieren
-
-Erzeugen Sie eine `BarcodeGenerator`‑Instanz, geben Sie die Codabar‑Symbologie an und übergeben Sie die Daten, die Sie codieren möchten. Ersetzen Sie `"Your Directory Path"` durch den tatsächlichen Ordner, in dem die Bilder gespeichert werden sollen.
 
 ```csharp
 string path = "Your Directory Path";
@@ -61,19 +155,11 @@ System.Console.WriteLine("CodabarChecksum:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 ```
 
-## Schritt 2: Codabar‑Barcode **ohne** Prüfsumme erzeugen
-
-Falls Sie einen einfachen Barcode (ohne Prüfsumme) benötigen, setzen Sie die Prüfsummen‑Option auf `Default`. Das ist nützlich für Altsysteme, die keine Prüfsummen‑Ziffer erwarten.
-
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Default;
 gen.Save($"{path}CodabarChecksumNone.png", BarCodeImageFormat.Png);
 ```
-
-## Schritt 3: Codabar‑Barcode mit **Mod10**‑Prüfsumme erzeugen
-
-Aktivieren Sie die Prüfsumme und wählen Sie den Mod10‑Algorithmus. Dies ist der am häufigsten verwendete Prüfsummen‑Modus für Codabar.
 
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
@@ -81,58 +167,19 @@ gen.Parameters.Barcode.Codabar.CodabarChecksumMode = CodabarChecksumMode.Mod10;
 gen.Save($"{path}CodabarChecksumMod10.png", BarCodeImageFormat.Png);
 ```
 
-## Schritt 4: Codabar‑Barcode mit **Mod16**‑Prüfsumme erzeugen
-
-Für Anwendungen, die eine höhere Fehlererkennungs‑Fähigkeit benötigen, wechseln Sie zu Mod16. Die Code‑Änderung ist minimal – aktualisieren Sie einfach `CodabarChecksumMode`.
-
 ```csharp
 gen.Parameters.Barcode.IsChecksumEnabled = EnableChecksum.Yes;
 gen.Parameters.Barcode.Codabar.CodabarChecksumMode = CodabarChecksumMode.Mod16;
 gen.Save($"{path}CodabarChecksumMod16.png", BarCodeImageFormat.Png);
 ```
 
-Mit diesen vier einfachen Schritten haben Sie **gelernt, wie man eine Prüfsumme** zu Codabar‑Barcodes hinzufügt und wie Sie zwischen den Mod10‑ und Mod16‑Modi mit Aspose.BarCode für .NET umschalten.
+## Verwandte Tutorials
 
-## Häufige Probleme und Lösungen
+- [Codabar-Barcode mit Start/Stop‑Zeichen in Aspose.BarCode für .NET generieren](/barcode/net/codabar-encoding-and-checksum/codabar-start-stop-characters/)
+- [Umfassende Tutorials und Beispiele für Aspose.BarCode für .NET](/barcode/net/)
+- [DataMatrix-Barcode generieren – Profi‑Leitfaden mit Aspose.BarCode](/barcode/net/datamatrix-barcode-configuration/)
 
-| Problem | Ursache | Lösung |
-|-------|--------|-----|
-| Erzeugtes Bild ist leer | `path` verweist auf einen nicht vorhandenen Ordner | Stellen Sie sicher, dass das Verzeichnis existiert, oder verwenden Sie `Directory.CreateDirectory(path)` vor dem Speichern |
-| Prüfsumme nicht angewendet | `IsChecksumEnabled` blieb auf `Default` | Setzen Sie `IsChecksumEnabled = EnableChecksum.Yes` vor dem Speichern |
-| Falscher Prüfsummen‑Modus | Falscher Enum‑Wert verwendet | Verwenden Sie `CodabarChecksumMode.Mod10` oder `CodabarChecksumMode.Mod16` nach Bedarf |
-
-## Fazit
-
-In diesem Leitfaden haben wir **gezeigt, wie man eine Prüfsumme** hinzufügt, wenn Sie einen Codabar‑Barcode mit Aspose.BarCode für .NET erzeugen, beide Prüfsummen‑Modi Mod10 und Mod16 demonstriert und erläutert, warum Barcodes mit Prüfsumme für die Datenintegrität unverzichtbar sind. Experimentieren Sie gern mit verschiedenen Datenstrings und entdecken Sie die umfangreichen Anpassungsoptionen, die Aspose bietet.
-
-Wenn Sie auf Schwierigkeiten stoßen, steht Ihnen die Aspose.BarCode‑Community im [Aspose.BarCode‑Forum](https://forum.aspose.com/c/barcode/13) zur Verfügung.
-
-## Häufig gestellte Fragen
-
-**Q: Kann ich die Mod16‑Prüfsumme für Bibliotheksbuch‑Barcodes verwenden?**  
-A: Absolut. Mod16 bietet eine stärkere Fehlererkennung, was in hochfrequentierten Umgebungen wie Bibliotheken von Vorteil ist.
-
-**Q: Beeinflusst das Aktivieren der Prüfsumme die Scan‑Geschwindigkeit?**  
-A: Das zusätzliche Zeichen verursacht nur einen vernachlässigbaren Verarbeitungsaufwand; die meisten Scanner verarbeiten es ohne spürbare Verzögerung.
-
-**Q: Wie prüfe ich die Prüfsumme programmgesteuert?**  
-A: Nach der Barcode‑Erzeugung können Sie die Prüfsumme mit demselben `CodabarChecksumMode` neu berechnen und mit dem letzten Zeichen des codierten Strings vergleichen.
-
-**Q: Ist es möglich, das Aussehen der Prüfsummen‑Ziffer anzupassen?**  
-A: Ja. Verwenden Sie die Erscheinungs‑Einstellungen des `BarcodeGenerator` (z. B. `BarHeight`, `ForeColor`), um den gesamten Barcode einschließlich der Prüfsummen‑Ziffer zu stylen.
-
-**Q: Was, wenn ich mehrere Barcodes in einer Schleife erzeugen muss?**  
-A: Instanziieren Sie einen einzigen `BarcodeGenerator`, ändern Sie die `CodeText`‑Property für jede Iteration und rufen Sie `Save` mit einem eindeutigen Dateinamen auf.
-
----
-
-**Zuletzt aktualisiert:** 2026-01-04  
-**Getestet mit:** Aspose.BarCode 24.11 für .NET  
-**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

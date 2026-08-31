@@ -1,0 +1,7 @@
+Title: How to create FCC 11 barcode in C# with Aspose.BarCode
+Slug: how-to-create-fcc-11-barcode-in-c-with-aspose-barcode
+Category: general
+ProcessedDate: 2026-08-22T15:54:42.087710
+SourceRepo: AI Search API
+Keywords: create fcc 11 barcode
+PRNumber: 109

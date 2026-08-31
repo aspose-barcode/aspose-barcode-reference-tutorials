@@ -78,6 +78,8 @@ leer hoe u streepjescodes kunt genereren in .NET met Aspose.BarCode voor .NET. D
 Leer hoe u met uitzonderingen omgaat terwijl u eendimensionale streepjescodes genereert met Aspose.BarCode voor .NET. Deze stapsgewijze handleiding zorgt voor fouttolerante barcodeoplossingen. Begin nu!
 ### [Eendimensionale configuratie met brede en smalle verhoudingen](./one-dimensional-wide-narrow-ratio-configuration/)
 Genereer eenvoudig aangepaste barcodes met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor eendimensionale configuratie van breed-nauw verhoudingen.
+### [Barcode genereren vanuit tekst met Aspose.BarCode – C#-gids](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Leer hoe u met Aspose.BarCode in C# barcodes maakt vanuit tekst, stap voor stap.
 
 ## Conclusie
 

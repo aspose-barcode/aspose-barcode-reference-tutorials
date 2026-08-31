@@ -1,0 +1,7 @@
+Title: how to save barcode as an image – complete C# guide
+Slug: how-to-save-barcode-as-an-image-complete-c-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-08-03T10:43:27.152196
+SourceRepo: AI Search API
+Keywords: how to save barcode
+PRNumber: 90

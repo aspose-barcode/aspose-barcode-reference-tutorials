@@ -1,0 +1,7 @@
+Title: Create planetary barcode in C# – Complete Programming Guide
+Slug: create-planetary-barcode-in-c-complete-programming-guide
+Category: general
+ProcessedDate: 2026-07-31T07:01:20.490018
+SourceRepo: AI Search API
+Keywords: create planetary barcode, generate planet barcode, custom barcode height, export barcode image, customize postal barcode
+PRNumber: 88

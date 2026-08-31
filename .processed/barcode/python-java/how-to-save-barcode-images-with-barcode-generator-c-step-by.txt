@@ -1,0 +1,7 @@
+Title: How to save barcode images with Barcode Generator C# – step‑by‑step guide
+Slug: how-to-save-barcode-images-with-barcode-generator-c-step-by
+Category: general
+ProcessedDate: 2026-08-22T15:54:32.761604
+SourceRepo: AI Search API
+Keywords: how to save barcode, barcode generator c#, generate postal barcode, how to generate barcode, generate planet barcode
+PRNumber: 109

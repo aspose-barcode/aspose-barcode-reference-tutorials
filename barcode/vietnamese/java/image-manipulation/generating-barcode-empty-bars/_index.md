@@ -1,36 +1,58 @@
 ---
-title: Tạo mã vạch với các thanh trống trong Java
+date: 2026-04-12
+description: Tìm hiểu cách tạo mã vạch Code128 với các thanh trống trong Java bằng
+  Aspose.BarCode. Hướng dẫn này cho bạn thấy cách tạo nhanh các hình ảnh mã vạch Java.
+keywords:
+- create code128 barcode
+- generate barcode java
+- barcode generator java example
+- java generate barcode image
 linktitle: Tạo mã vạch với các thanh trống
-second_title: API Java Aspose.BarCode
-description: Tạo mã vạch với các thanh trống một cách dễ dàng trong Java bằng Aspose.BarCode. Tùy chỉnh giao diện và tích hợp liền mạch. Hãy khám phá hướng dẫn ngay bây giờ!
-weight: 14
+second_title: Aspose.BarCode Java API
+title: Cách tạo mã vạch Code128 với các thanh trống trong Java
 url: /vi/java/image-manipulation/generating-barcode-empty-bars/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo mã vạch với các thanh trống trong Java
-
+# Cách Tạo Mã vạch Code128 với Các Thanh Trống trong Java
 
 ## Giới thiệu
 
-Trong thế giới phát triển phần mềm năng động, việc tích hợp khả năng tạo mã vạch vào các ứng dụng Java đã trở thành một yêu cầu chung. Aspose.BarCode for Java nổi bật như một giải pháp mạnh mẽ, cung cấp cho các nhà phát triển một bộ công cụ mạnh mẽ để tạo nhiều loại mã vạch khác nhau. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình tạo mã vạch có các thanh trống bằng Aspose.BarCode cho Java.
+Việc tích hợp tạo mã vạch vào các ứng dụng Java là một yêu cầu thường gặp, cho dù bạn đang xây dựng hệ thống quản lý tồn kho, nền tảng bán vé, hoặc giải pháp điểm bán hàng. Với **Aspose.BarCode for Java**, bạn có thể **tạo hình ảnh mã vạch Code128** chỉ trong vài dòng mã. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước để **tạo hình ảnh mã vạch Java** có các thanh trống (không được tô đầy), giúp bạn kiểm soát hoàn toàn phong cách hiển thị của mã vạch.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào?** Aspose.BarCode for Java  
+- **Trường hợp sử dụng chính?** Tạo mã vạch Code128 với các thanh trống cho thiết kế UI tùy chỉnh  
+- **Yêu cầu tiên quyết?** Java JDK 8+, Aspose.BarCode JAR, quyền ghi vào thư mục để lưu ảnh đầu ra  
+- **Thời gian triển khai điển hình?** 5‑10 phút cho một ví dụ cơ bản  
+- **Có thể tùy chỉnh màu sắc không?** Có – API cung cấp các tùy chọn định dạng phong phú  
 
-Trước khi chúng tôi bắt đầu hành trình tạo mã vạch, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Code128 là gì?
 
-1. Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên máy của mình.
+Code128 là một ký hiệu mã vạch tuyến tính mật độ cao, mã hoá toàn bộ bộ ký tự ASCII. Nó được sử dụng rộng rãi trong logistics, vận chuyển và bán lẻ vì có thể biểu diễn dữ liệu alphanumeric một cách gọn gàng. Mặc định, Aspose.BarCode hiển thị các thanh Code128 dưới dạng hình chữ nhật đặc; việc đặt thuộc tính **FilledBars** thành `false` sẽ biến chúng thành các thanh trống (đường viền), hữu ích cho việc tạo thương hiệu theo phong cách.
 
-2.  Thư viện Aspose.BarCode cho Java: Tải xuống và cài đặt thư viện Aspose.BarCode cho Java từ[trang tải xuống](https://releases.aspose.com/barcode/java/).
+## Tại sao nên sử dụng Aspose.BarCode cho Java?
 
-3. Thư mục tài liệu: Tạo một thư mục trên hệ thống của bạn để lưu trữ hình ảnh mã vạch được tạo.
+- **Bộ tính năng phong phú** – hỗ trợ hơn 50 loại mã vạch, bao gồm QR, DataMatrix và PDF417.  
+- **Không phụ thuộc bên ngoài** – một JAR duy nhất hoạt động trên bất kỳ môi trường Java nào.  
+- **Kiểm soát chi tiết** – bạn có thể điều chỉnh độ rộng thanh, màu sắc, phông chữ và thuộc tính `FilledBars`.  
+- **Đa nền tảng** – hoạt động trên Windows, Linux và macOS mà không cần thư viện gốc.  
 
-## Gói nhập khẩu
+## Yêu cầu tiên quyết
 
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để làm việc với Aspose.BarCode:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+
+1. **Môi trường phát triển Java** – JDK 8 hoặc mới hơn đã được cài đặt và cấu hình `JAVA_HOME`.  
+2. **Aspose.BarCode cho Java** – tải JAR mới nhất từ [trang tải xuống](https://releases.aspose.com/barcode/java/).  
+3. **Thư mục tài liệu** – một thư mục trên máy tính của bạn để lưu ảnh mã vạch được tạo.  
+
+## Nhập các gói
+
+Trong dự án Java của bạn, nhập các lớp cần thiết để làm việc với Aspose.BarCode:
 
 ```java
 import java.io.IOException;
@@ -38,64 +60,91 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Bước 1: Thiết lập thư mục tài nguyên
+Các import này cung cấp cho bạn quyền truy cập vào trình tạo mã vạch, liệt kê định dạng ảnh và xử lý ngoại lệ.
+
+## Bước 1: Thiết lập Thư mục tài nguyên
 
 ```java
-// Đường dẫn đến thư mục tài nguyên.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"Your Document Directory"` bằng đường dẫn tuyệt đối tới thư mục bạn đã tạo trong phần yêu cầu tiên quyết. Đây là nơi tệp PNG sẽ được ghi.
 
-## Bước 2: Tạo phiên bản tạo mã vạch
+## Bước 2: Tạo Instance Trình tạo Mã vạch Code128
 
 ```java
-// Tạo một phiên bản của BarcodeGenerator và khởi tạo nó bằng CodeText và Symbology
+// Create an instance of BarcodeGenerator and initialize it with CodeText and Symbology
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "TEXT");
 ```
 
-Ở đây, chúng tôi đang tạo một phiên bản BarcodeGenerator có ký hiệu CODE_128 và văn bản "TEXT" làm mã được mã hóa.
+Ở đây chúng ta khởi tạo `BarcodeGenerator` với ký hiệu **CODE_128** và văn bản mẫu `"TEXT"`. Đây là một **ví dụ Java về trình tạo mã vạch** mà bạn có thể điều chỉnh cho bất kỳ chuỗi nào cần mã hoá.
 
-## Bước 3: Đặt thuộc tính FilledBars thành Sai
+## Bước 3: Đặt Thuộc tính FilledBars thành False
 
 ```java
-// Đặt thuộc tính FilledBars thành false
+// Set the FilledBars property to false
 generator.getParameters().getBarcode().setFilledBars(false);
 ```
 
- Bằng cách thiết lập`FilledBars` ĐẾN`false`, chúng tôi đảm bảo rằng mã vạch được tạo sẽ có các thanh trống.
+Bằng cách đặt `FilledBars` thành `false`, mã vạch được tạo sẽ hiển thị các thanh trống thay vì các thanh đặc, đạt được hiệu ứng hình ảnh mà chúng ta mong muốn.
 
-## Bước 4: Lưu hình ảnh mã vạch
+## Bước 4: Lưu Ảnh Mã vạch
 
 ```java
-// Lưu hình ảnh mã vạch kết quả vào đĩa
+// Save the resultant barcode image on disk
 generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 ```
 
-Bước này liên quan đến việc lưu hình ảnh mã vạch được tạo vào thư mục được chỉ định ở định dạng PNG.
+Phương thức `save` ghi mã vạch vào thư mục đã chỉ định ở định dạng PNG. Bạn có thể thay đổi `BarCodeImageFormat.PNG` thành `JPG`, `BMP`, hoặc `TIFF` nếu cần loại ảnh khác.
 
-Lặp lại các bước này trong ứng dụng Java của bạn để dễ dàng tạo mã vạch có các thanh trống bằng Aspose.BarCode for Java.
+## Các trường hợp sử dụng phổ biến
 
-## Phần kết luận
+- **Thương hiệu tùy chỉnh** – các thanh trống có thể được phủ lên các mẫu nền hoặc màu sắc.  
+- **Tài sản sẵn sàng in** – tạo PNG độ phân giải cao để đưa vào hoá đơn hoặc nhãn vận chuyển.  
+- **Tạo động** – tạo mã vạch ngay lập tức trong các dịch vụ web hoặc ứng dụng desktop.  
 
-Tóm lại, hướng dẫn này đã hướng dẫn bạn quy trình tạo mã vạch có các thanh trống trong Java bằng thư viện Aspose.BarCode. Với API trực quan và tài liệu mở rộng, Aspose.BarCode đơn giản hóa việc tích hợp mã vạch, khiến nó trở thành tài sản quý giá cho các nhà phát triển.
+## Mẹo khắc phục sự cố
+
+- **Đường dẫn không hợp lệ** – đảm bảo `dataDir` kết thúc bằng ký tự phân tách tệp (`/` hoặc `\\`) hoặc nối bằng `File.separator`.  
+- **Cần giấy phép** – bản dùng thử hoạt động cho việc đánh giá, nhưng cần giấy phép đầy đủ cho môi trường sản xuất.  
+- **Ký tự không được hỗ trợ** – Code128 hỗ trợ toàn bộ bộ ASCII; tránh các ký tự Unicode trừ khi bạn chuyển sang ký hiệu khác.  
+
+## Kết luận
+
+Bây giờ bạn đã biết cách **tạo hình ảnh mã vạch Code128** với các thanh trống bằng Aspose.BarCode cho Java. Cách tiếp cận đơn giản này cho phép bạn nhanh chóng tạo đồ họa mã vạch có thể tùy chỉnh, dù bạn đang xây dựng công cụ quản lý tồn kho trên desktop hay API dựa trên đám mây.
 
 ## Câu hỏi thường gặp
 
-### Aspose.BarCode có tương thích với tất cả các môi trường phát triển Java không?
-Có, Aspose.BarCode được thiết kế để tích hợp liền mạch với các môi trường phát triển Java khác nhau.
+### Aspose.BarCode có tương thích với mọi môi trường phát triển Java không?
+Có, Aspose.BarCode được thiết kế để tích hợp liền mạch với bất kỳ IDE Java nào hoặc hệ thống xây dựng nào, bao gồm Maven, Gradle và các dự án JAR thuần.
 
 ### Tôi có thể tùy chỉnh giao diện của mã vạch được tạo không?
-Tuyệt đối! Aspose.BarCode cung cấp nhiều tùy chọn để tùy chỉnh, cho phép bạn điều chỉnh mã vạch theo nhu cầu cụ thể của mình.
+Chắc chắn! Ngoài `FilledBars`, bạn có thể thay đổi màu sắc, độ rộng thanh, lề, và thậm chí thêm văn bản có thể đọc được bằng con người bằng API phong phú.
 
 ### Có phiên bản dùng thử cho Aspose.BarCode không?
- Có, bạn có thể khám phá các khả năng của Aspose.BarCode bằng cách dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể khám phá các khả năng của Aspose.BarCode bằng cách nhận bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.BarCode?
- Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[Diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+### Làm thế nào tôi có thể nhận hỗ trợ cho Aspose.BarCode?
+Đối với bất kỳ câu hỏi hoặc hỗ trợ nào, hãy truy cập [diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
-### Tôi có thể tìm tài liệu chi tiết về Aspose.BarCode ở đâu?
- Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/barcode/java/).
+### Tôi có thể tìm tài liệu chi tiết cho Aspose.BarCode ở đâu?
+Tài liệu chi tiết có sẵn [tại đây](https://reference.aspose.com/barcode/java/).
+
+**Câu hỏi bổ sung**
+
+**Q: Làm sao để tôi tạo ảnh mã vạch ở định dạng khác, như JPEG?**  
+A: Thay đổi đối số thứ hai của `save` thành `BarCodeImageFormat.JPEG`.
+
+**Q: Tôi có thể tạo nhiều mã vạch trong một vòng lặp không?**  
+A: Có – khởi tạo một `BarcodeGenerator` mới trong vòng lặp của bạn hoặc tái sử dụng cùng một instance với `CodeText` mới.
+
+---
+
+**Cập nhật lần cuối:** 2026-04-12  
+**Đã kiểm tra với:** Aspose.BarCode for Java 24.11  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

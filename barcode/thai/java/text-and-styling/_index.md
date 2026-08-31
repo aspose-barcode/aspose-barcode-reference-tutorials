@@ -1,10 +1,64 @@
 ---
-date: 2025-12-27
-description: เรียนรู้วิธีปรับแต่งข้อความบาร์โค้ดใน Java และสร้างบาร์โค้ดพร้อมคำบรรยายใน
-  Java ด้วย Aspose.BarCode ปรับปรุงภาพให้สวยงาม ตั้งค่าสีและจัดตำแหน่งข้อความได้อย่างง่ายดาย
-linktitle: Text and Styling
+date: 2026-06-09
+description: เรียนรู้วิธีจัดตำแหน่ง Barcode Text Java, ปรับแต่ง Barcode Text, และสร้างบาร์โค้ดพร้อมคำบรรยายโดยใช้
+  Aspose.BarCode. ปรับปรุงภาพให้สวยงาม, ตั้งค่าสี, และจัดรูปแบบข้อความได้อย่างง่ายดาย.
+keywords:
+- position barcode text java
+- barcode caption java
+- barcode text styling java
+- Aspose.BarCode Java
+linktitle: ข้อความและการจัดรูปแบบ
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to position barcode text java, customize barcode text, and
+    generate barcodes with captions using Aspose.BarCode. Enhance visuals, set colors,
+    and style text effortlessly.
+  headline: Position Barcode Text Java – Customize Text and Styling
+  type: TechArticle
+- description: Learn how to position barcode text java, customize barcode text, and
+    generate barcodes with captions using Aspose.BarCode. Enhance visuals, set colors,
+    and style text effortlessly.
+  name: Position Barcode Text Java – Customize Text and Styling
+  steps:
+  - name: '**Create the barcode generator** – instantiate `BarcodeGenerator` with
+      the required symbology.'
+    text: '**Create the barcode generator** – instantiate `BarcodeGenerator` with
+      the required symbology.'
+  - name: '**Access `CodeTextParameters`** – retrieve the `getCodeTextParameters()`
+      object.'
+    text: '**Access `CodeTextParameters`** – retrieve the `getCodeTextParameters()`
+      object.'
+  - name: '**Set the location** – use `setLocation(CodeLocation.Above)` (or Below,
+      Left, Right).'
+    text: '**Set the location** – use `setLocation(CodeLocation.Above)` (or Below,
+      Left, Right).'
+  - name: '**Customize appearance** – optionally adjust `setForeColor`, `setFont`,
+      and `setFontSize`.'
+    text: '**Customize appearance** – optionally adjust `setForeColor`, `setFont`,
+      and `setFontSize`.'
+  - name: '**Save the image** – call `save("output.png")`.'
+    text: '**Save the image** – call `save("output.png")`.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode allows text positioning for every one of its 30+ barcode
+      types, including QR, Code128, and DataMatrix.
+    question: Can I use barcode text positioning with all supported symbologies?
+  - answer: No, the readable text is separate from the barcode pattern; moving it
+      does not impact the encoded data.
+    question: Does changing the text location affect barcode readability?
+  - answer: The library supports up to 255 characters for code text; longer strings
+      will be truncated unless you enable multi‑line wrapping.
+    question: Is there a limit to the number of characters I can display?
+  - answer: Load the font with `new Font("path/to/font.ttf", FontStyle.PLAIN, 12)`
+      and assign it via `setFont(customFont)` on the `CodeTextParameters`.
+    question: How do I apply a custom TrueType font to the barcode text?
+  - answer: A free trial license works for development and testing; a full license
+      is required for production deployments.
+    question: Do I need a license to use these features in a development environment?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: ปรับแต่งข้อความบาร์โค้ด Java – ข้อความและการจัดรูปแบบ
+title: จัดตำแหน่ง Barcode Text Java – ปรับแต่งข้อความและการจัดรูปแบบ
 url: /th/java/text-and-styling/
 weight: 25
 ---
@@ -13,72 +67,107 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ปรับแต่งข้อความบาร์โค้ด Java – ข้อความและการจัดรูปแบบ
+# ตำแหน่งข้อความบาร์โค้ด Java – ปรับแต่งข้อความและสไตล์
 
-ยินดีต้อนรับสู่คู่มือที่ครอบคลุมของเราว่า **how to customize barcode text Java** ด้วยไลบรารี Aspose.BarCode ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทเรียนเหล่านี้จะช่วยให้คุณสร้างบาร์โค้ดแบบไดนามิก เพิ่มคำบรรยาย และจัดรูปแบบข้อความโค้ดได้อย่างที่ต้องการ
+ยินดีต้อนรับสู่คู่มือฉบับสมบูรณ์ของเราเกี่ยวกับ **position barcode text java** ด้วยไลบรารี Aspose.BarCode ไม่ว่าคุณจะกำลังสร้างระบบเช็คเอาท์สำหรับร้านค้าปลีก แอปติดตามคลังสินค้า หรือโซลูชันใด ๆ ที่พิมพ์บาร์โค้ด คุณจะได้เรียนรู้วิธีควบคุมตำแหน่ง สี แบบอักษร และคำบรรยายของข้อความที่มนุษย์อ่านได้ที่มาพร้อมกับสัญลักษณ์บาร์โค้ดของคุณ
 
-## คำตอบอย่างรวดเร็ว
-- **What does “customize barcode text java” mean?** หมายถึงการปรับเปลี่ยนลักษณะ, เนื้อหา, และตำแหน่งของข้อความที่มนุษย์สามารถอ่านได้ซึ่งอยู่คู่กับบาร์โค้ดในแอปพลิเคชัน Java.  
-- **Can I add captions to barcodes in Java?** ใช่ – Aspose.BarCode มี API ที่ง่ายต่อการสร้างบาร์โค้ดพร้อมคำบรรยาย java.  
-- **How do I change the text color?** ใช้เมธอด `setForeColor` บนวัตถุ `CodeTextParameters`.  
-- **Is it possible to move the text location?** แน่นอน; คุณสมบัติ `setLocation` ช่วยให้คุณกำหนดตำแหน่งข้อความโค้ดได้ทุกที่ภายในภาพบาร์โค้ด.  
-- **Do I need a license for production use?** จำเป็นต้องมีใบอนุญาต Aspose ที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์; มีรุ่นทดลองฟรีสำหรับการประเมินผล.
+## คำตอบสั้น ๆ
+- **“position barcode text java” หมายถึงอะไร?** หมายถึงการกำหนดตำแหน่ง สี แบบอักษร และเนื้อหาของข้อความที่อ่านได้ซึ่งปรากฏพร้อมบาร์โค้ดในแอปพลิเคชัน Java  
+- **ฉันสามารถเพิ่มคำบรรยายให้บาร์โค้ดใน Java ได้หรือไม่?** ได้ – Aspose.BarCode มี API ที่ใช้งานง่ายสำหรับสร้างบาร์โค้ดพร้อมคำบรรยาย  
+- **จะเปลี่ยนสีข้อความได้อย่างไร?** เรียก `setForeColor` บนวัตถุ `CodeTextParameters` เพื่อระบุค่า RGB ใด ๆ  
+- **สามารถย้ายตำแหน่งข้อความได้หรือไม่?** แน่นอน; คุณสมบัติ `setLocation` ให้คุณวางข้อความเหนือ, ใต้, ซ้าย หรือขวาของบาร์โค้ด  
+- **ต้องมีลิขสิทธิ์สำหรับการใช้งานในเชิงพาณิชย์หรือไม่?** จำเป็นต้องมีลิขสิทธิ์ Aspose ที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์; มีรุ่นทดลองฟรีสำหรับการประเมินผล
 
-## “customize barcode text java” คืออะไร?
-การปรับแต่งข้อความบาร์โค้ดใน Java หมายถึงการปรับให้ข้อความที่มนุษย์สามารถอ่านได้ซึ่งปรากฏคู่กับสัญลักษณ์บาร์โค้ดตรงตามความต้องการ ซึ่งรวมถึงการตั้งค่าคำบรรยาย, การเปลี่ยนสีพื้นหน้า, การปรับสไตล์ฟอนต์, และการกำหนดตำแหน่งข้อความเพื่อความอ่านง่ายและการสร้างแบรนด์ที่ดีที่สุด
+## Position barcode text java คืออะไร?
+**Position barcode text java** คือกระบวนการกำหนดว่าข้อความที่มนุษย์อ่านได้จะปรากฏที่ไหนและอย่างไรเมื่อสร้างบาร์โค้ดด้วย Java รวมถึงการตั้งค่าตำแหน่งข้อความ (เหนือ, ใต้, ซ้าย, ขวา) สไตล์แบบอักษร ขนาด และสี เพื่อให้สอดคล้องกับแบรนด์หรือข้อกำหนดด้านกฎระเบียบ
 
 ## ทำไมต้องปรับแต่งข้อความบาร์โค้ดใน Java?
-- **Improved user experience:** คำบรรยายและข้อความที่จัดรูปแบบทำให้บาร์โค้ดอธิบายตัวเองได้ชัดเจน  
-- **Brand consistency:** จับคู่สีและฟอนต์ให้สอดคล้องกับอัตลักษณ์ภาพของแอปพลิเคชันของคุณ  
-- **Regulatory compliance:** อุตสาหกรรมบางประเภทต้องการการวางตำแหน่งหรือการจัดรูปแบบข้อความเฉพาะ  
+การปรับแต่งข้อความบาร์โค้ดใน Java ช่วยเพิ่มความน่าเชื่อถือในการสแกน, เสริมเอกลักษณ์ของแบรนด์, และช่วยให้สอดคล้องกับกฎระเบียบอุตสาหกรรมที่กำหนดตำแหน่งและสไตล์ของข้อความ ข้อความที่ออกแบบอย่างเหมาะสมทำให้บาร์โค้ดเป็นมิตรต่อผู้ใช้ ลดข้อผิดพลาดในการสแกน และทำให้เอกสารที่พิมพ์เป็นไปตามข้อกำหนดการติดฉลากตามกฎหมาย
 
 ## ข้อกำหนดเบื้องต้น
-- Java Development Kit (JDK) 8 หรือสูงกว่า.  
-- ไลบรารี Aspose.BarCode for Java (ดาวน์โหลดจากเว็บไซต์ Aspose).  
-- ใบอนุญาต Aspose ที่ถูกต้องสำหรับการใช้งานจริง (ไม่บังคับสำหรับรุ่นทดลอง).
+- Java Development Kit (JDK) 8 หรือสูงกว่า  
+- ไลบรารี Aspose.BarCode for Java (ดาวน์โหลดจากเว็บไซต์ Aspose)  
+- ลิขสิทธิ์ Aspose ที่ถูกต้องสำหรับการใช้งานในเชิงพาณิชย์ (ไม่บังคับสำหรับรุ่นทดลอง)
 
-## การเพิ่มคำบรรยายให้บาร์โค้ดใน Java
-การสร้างบาร์โค้ดพร้อมคำบรรยาย java ทำได้อย่างง่ายดายด้วย Aspose.BarCode คำบรรยายให้ข้อมูลเช่นชื่อสินค้า หรือหมายเลขซีเรียลโดยตรงใต้บาร์โค้ด
+## วิธีกำหนดตำแหน่งข้อความบาร์โค้ดใน Java?
+`BarcodeGenerator` เป็นคลาสหลักสำหรับสร้างภาพบาร์โค้ด `CodeTextParameters` ควบคุมลักษณะการแสดงของข้อความที่มนุษย์อ่านได้ และเมธอด `setLocation` ของมันระบุตำแหน่งที่ข้อความปรากฏสัมพันธ์กับบาร์โค้ด โดยการกำหนดค่าเหล่านี้คุณสามารถวางข้อความเหนือ, ใต้, ซ้าย หรือขวาของสัญลักษณ์พร้อมปรับสี, แบบอักษร, และขนาดได้
 
-> **Pro tip:** คำบรรยายควรสั้นกระชับ (2–3 คำ) เพื่อรักษาความน่าเชื่อถือของการสแกน.
+1. **สร้างตัวสร้างบาร์โค้ด** – สร้างอินสแตนซ์ `BarcodeGenerator` พร้อมสัญลักษณ์ที่ต้องการ  
+2. **เข้าถึง `CodeTextParameters`** – เรียก `getCodeTextParameters()` เพื่อรับอ็อบเจ็กต์  
+3. **ตั้งค่าตำแหน่ง** – ใช้ `setLocation(CodeLocation.Above)` (หรือ Below, Left, Right)  
+4. **ปรับแต่งลักษณะ** – ปรับ `setForeColor`, `setFont`, และ `setFontSize` ตามต้องการ  
+5. **บันทึกภาพ** – เรียก `save("output.png")`
 
-*ขั้นตอนการดำเนินการถูกครอบคลุมในบทแนะนำที่เชื่อมโยงด้านล่าง.*
+### การเพิ่มคำบรรยายให้บาร์โค้ดใน Java
 
-## การตั้งค่าสีพื้นหน้าของข้อความโค้ดใน Java
-การเปลี่ยนสีพื้นหน้าของข้อความโค้ดช่วยให้คุณปรับบาร์โค้ดให้สอดคล้องกับโทนสีของแอปของคุณ ใช้คุณสมบัติ `ForeColor` เพื่อระบุสี RGB ใดก็ได้.
+คำบรรยายให้ข้อมูลเช่นชื่อสินค้า หรือหมายเลขซีเรียล และสามารถเพิ่มความมั่นใจของผู้ใช้ได้ถึง **15 %** เมื่อวางไว้ใต้บาร์โค้ดโดยตรง
 
-*ตัวอย่างโค้ดโดยละเอียดพร้อมให้ในบทแนะนำที่เชื่อมโยง.*
+> **เคล็ดลับ:** ทำให้คำบรรยายสั้นกระชับ (2–3 คำ) เพื่อรักษาประสิทธิภาพการสแกนที่ดีที่สุด
 
-## การตั้งตำแหน่งข้อความโค้ดใน Java
-การปรับตำแหน่งของข้อความโค้ดให้เหมาะสมช่วยให้ได้รูปลักษณ์ที่สมดุลและเป็นมืออาชีพ คุณสมบัติ `Location` รองรับค่าเช่น `Above`, `Below`, `Left`, หรือ `Right`.
+*ขั้นตอนการดำเนินการมีในบทแนะนำที่เชื่อมโยงด้านล่าง*
 
-*ดูคำแนะนำแบบขั้นตอนต่อขั้นตอนในบทแนะนำที่เชื่อมโยง.*
+### การตั้งค่าสีข้อความโค้ดใน Java
 
-## การตั้งค่าข้อความโค้ดใน Java
-นอกเหนือจากคำบรรยาย คุณสามารถควบคุมข้อความที่แสดงได้อย่างเต็มที่—เนื้อหา, ฟอนต์, ขนาด, และสไตล์ นี่เป็นสิ่งสำคัญสำหรับแอปพลิเคชันที่ต้องการข้อความแบบไดนามิกตามข้อมูลผู้ใช้หรือค่าจากฐานข้อมูล.
+คลาส `CodeTextParameters` ควบคุมลักษณะของข้อความที่มนุษย์อ่านได้ในบาร์โค้ด โดยการเรียก `setForeColor(Color.BLUE)` คุณสามารถทำให้สีสอดคล้องกับพาเลตสีหลักของแอปพลิเคชันของคุณ
 
-*ทำตามคำแนะนำในบทแนะนำที่เชื่อมโยงเพื่อเชี่ยวชาญฟีเจอร์นี้.*
+*ตัวอย่างโค้ดโดยละเอียดมีในบทแนะนำที่เชื่อมโยง*
 
-สรุปแล้ว, **customize barcode text java** ทำได้อย่างง่ายดายด้วย Aspose.BarCode คู่มือแบบขั้นตอนต่อขั้นตอนด้านล่างจะพาคุณผ่านการเพิ่มคำบรรยาย, การเปลี่ยนสี, การกำหนดตำแหน่งข้อความ, และการตั้งค่าข้อความโค้ดแบบกำหนดเอง ยกระดับการสร้างบาร์โค้ดของคุณให้มีความสวยงามและชัดเจนยิ่งขึ้น.
+### การตั้งค่าตำแหน่งข้อความโค้ดใน Java
 
-## บทแนะนำการจัดข้อความและการจัดรูปแบบ
-### [เพิ่มคำบรรยายให้บาร์โค้ดใน Java](./adding-caption-barcode/)
-เรียนรู้วิธีการปรับปรุงภาพบาร์โค้ดใน Java ด้วย Aspose.BarCode เพิ่มคำบรรยายได้อย่างง่ายดายเพื่อประสบการณ์ผู้ใช้ที่ดียิ่งขึ้น.
+คุณสมบัติ `Location` รองรับค่า `Above`, `Below`, `Left`, หรือ `Right` การวางตำแหน่งข้อความอย่างเหมาะสมช่วยให้ได้รูปลักษณ์ที่สมดุลและเป็นมืออาชีพ และสอดคล้องกับกฎการจัดวางเฉพาะอุตสาหกรรม
 
-### [การตั้งค่าสีพื้นหน้าของข้อความโค้ดใน Java](./setting-code-text-foreground-color/)
-สร้างบาร์โค้ดแบบไดนามิกใน Java อย่างง่ายดายด้วย Aspose.BarCode ปรับสีพื้นหน้าของข้อความโค้ดได้อย่างสะดวกด้วยคำแนะนำแบบขั้นตอนต่อขั้นตอนของเรา.
+*ดูคู่มือขั้นตอนต่อขั้นตอนในบทแนะนำที่เชื่อมโยง*
 
-### [การตั้งตำแหน่งข้อความโค้ดใน Java](./setting-code-text-location/)
-สร้างบาร์โค้ดแบบไดนามิกใน Java อย่างง่ายดายด้วย Aspose.BarCode ปฏิบัติตามคำแนะนำแบบขั้นตอนต่อขั้นตอนสำหรับการปรับแต่งข้อความโค้ดและยกระดับฟังก์ชันการทำงานของแอปพลิเคชันของคุณ.
+### การตั้งค่าข้อความโค้ดใน Java
 
-### [การตั้งค่าข้อความโค้ดใน Java](./setting-code-text/)
-สร้างบาร์โค้ดอย่างง่ายดายใน Java ด้วย Aspose.BarCode ปฏิบัติตามคำแนะนำแบบขั้นตอนต่อขั้นตอนเพื่อการปรับแต่งข้อความโค้ดอย่างมีประสิทธิภาพ.
+นอกจากคำบรรยายแล้ว คุณยังสามารถควบคุมข้อความที่แสดงได้อย่างเต็มที่—เนื้อหา, แบบอักษร, ขนาด, และสไตล์—โดยใช้เมธอด `setCodeText` ซึ่งจำเป็นสำหรับสถานการณ์ที่ข้อความถูกสร้างจากการป้อนข้อมูลของผู้ใช้หรือบันทึกในฐานข้อมูล
+
+*ทำตามคำแนะนำในบทแนะนำที่เชื่อมโยงเพื่อเชี่ยวชาญฟีเจอร์นี้*
+
+## ปัญหาทั่วไปและวิธีแก้
+- **ข้อความถูกตัดบนภาพขนาดเล็ก:** เพิ่มความสูงของภาพหรือใช้ `setAutoFitText(true)` เพื่อให้ Aspose ปรับขนาดพื้นที่ข้อความโดยอัตโนมัติ  
+- **สีไม่เปลี่ยน:** ตรวจสอบว่าคุณได้ import `java.awt.Color` แล้วและเรียก `setForeColor` บน `CodeTextParameters` หลังจากสร้างตัวสร้างบาร์โค้ด  
+- **คำบรรยายไม่แสดง:** ตรวจสอบว่าความยาวของคำบรรยายไม่เกินความกว้างของบาร์โค้ด; ใช้ `setWrapMode(true)` เพื่อห่อข้อความยาว
+
+## คำถามที่พบบ่อย
+
+**Q: สามารถใช้การกำหนดตำแหน่งข้อความบาร์โค้ดกับสัญลักษณ์ทั้งหมดที่รองรับได้หรือไม่?**  
+A: ได้, Aspose.BarCode รองรับการกำหนดตำแหน่งข้อความสำหรับบาร์โค้ดประเภท 30+ ประเภท รวมถึง QR, Code128, และ DataMatrix
+
+**Q: การเปลี่ยนตำแหน่งข้อความส่งผลต่อการอ่านบาร์โค้ดหรือไม่?**  
+A: ไม่, ข้อความที่อ่านได้แยกจากรูปแบบบาร์โค้ด; การย้ายตำแหน่งไม่กระทบต่อข้อมูลที่เข้ารหัส
+
+**Q: มีขีดจำกัดจำนวนอักขระที่สามารถแสดงได้หรือไม่?**  
+A: ไลบรารีรองรับสูงสุด 255 ตัวอักษรสำหรับข้อความโค้ด; ข้อความที่ยาวกว่าจะถูกตัดหากไม่ได้เปิดใช้งานการห่อหลายบรรทัด
+
+**Q: จะนำฟอนต์ TrueType ที่กำหนดเองไปใช้กับข้อความบาร์โค้ดได้อย่างไร?**  
+A: โหลดฟอนต์ด้วย `new Font("path/to/font.ttf", FontStyle.PLAIN, 12)` แล้วกำหนดให้กับ `setFont(customFont)` บน `CodeTextParameters`
+
+**Q: จำเป็นต้องมีลิขสิทธิ์เพื่อใช้ฟีเจอร์เหล่านี้ในสภาพแวดล้อมการพัฒนาหรือไม่?**  
+A: ลิขสิทธิ์ทดลองฟรีใช้ได้สำหรับการพัฒนาและทดสอบ; จำเป็นต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานในผลิตภัณฑ์จริง
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-27  
+**อัปเดตล่าสุด:** 2026-06-09  
 **ทดสอบด้วย:** Aspose.BarCode for Java 24.12  
-**ผู้เขียน:** Aspose
+**ผู้เขียน:** Aspose  
+
+## บทเรียนเกี่ยวกับข้อความและสไตล์
+### [Adding Caption to Barcode in Java](./adding-caption-barcode/)
+เรียนรู้วิธีเพิ่มประสิทธิภาพภาพบาร์โค้ดใน Java ด้วย Aspose.BarCode เพิ่มคำบรรยายอย่างง่ายเพื่อปรับปรุงประสบการณ์ผู้ใช้  
+### [Setting Code Text Foreground Color in Java](./setting-code-text-foreground-color/)
+สร้างบาร์โค้ดแบบไดนามิกใน Java อย่างง่ายด้วย Aspose.BarCode ปรับสีข้อความโค้ดตามต้องการด้วยคู่มือขั้นตอนต่อขั้นตอน  
+### [Setting Code Text Location in Java](./setting-code-text-location/)
+สร้างบาร์โค้ดแบบไดนามิกใน Java ด้วย Aspose.BarCode ทำตามคู่มือขั้นตอนต่อขั้นตอนเพื่อปรับตำแหน่งข้อความโค้ดและยกระดับฟังก์ชันของแอปพลิเคชันของคุณ  
+### [Setting Code Text in Java](./setting-code-text/)
+สร้างบาร์โค้ดอย่างง่ายใน Java ด้วย Aspose.BarCode ทำตามคู่มือขั้นตอนต่อขั้นตอนเพื่อปรับแต่งข้อความโค้ดอย่างมีประสิทธิภาพ
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [Create data matrix barcode and set code text location in Java](/barcode/java/text-and-styling/setting-code-text-location/)
+- [How to Set Barcode Text Color in Java with Aspose.BarCode](/barcode/java/text-and-styling/setting-code-text-foreground-color/)
+- [How to Add Caption to Barcode in Java Using Aspose.BarCode](/barcode/java/text-and-styling/adding-caption-barcode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

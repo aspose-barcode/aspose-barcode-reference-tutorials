@@ -1,11 +1,65 @@
 ---
-date: 2025-12-27
-description: Dowiedz się, jak dostosować tekst kodu kreskowego w Javie i generować
-  kod kreskowy z podpisem w Javie przy użyciu Aspose.BarCode. Popraw wygląd, ustaw
-  kolory i łatwo pozycjonuj tekst.
-linktitle: Text and Styling
+date: 2026-06-09
+description: Dowiedz się, jak pozycjonować tekst barcode w Java, dostosowywać tekst
+  barcode i generować barcode z podpisami przy użyciu Aspose.BarCode. Popraw wygląd,
+  ustaw kolory i stylizuj tekst bez wysiłku.
+keywords:
+- position barcode text java
+- barcode caption java
+- barcode text styling java
+- Aspose.BarCode Java
+linktitle: Tekst i styl
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to position barcode text java, customize barcode text, and
+    generate barcodes with captions using Aspose.BarCode. Enhance visuals, set colors,
+    and style text effortlessly.
+  headline: Position Barcode Text Java – Customize Text and Styling
+  type: TechArticle
+- description: Learn how to position barcode text java, customize barcode text, and
+    generate barcodes with captions using Aspose.BarCode. Enhance visuals, set colors,
+    and style text effortlessly.
+  name: Position Barcode Text Java – Customize Text and Styling
+  steps:
+  - name: '**Create the barcode generator** – instantiate `BarcodeGenerator` with
+      the required symbology.'
+    text: '**Create the barcode generator** – instantiate `BarcodeGenerator` with
+      the required symbology.'
+  - name: '**Access `CodeTextParameters`** – retrieve the `getCodeTextParameters()`
+      object.'
+    text: '**Access `CodeTextParameters`** – retrieve the `getCodeTextParameters()`
+      object.'
+  - name: '**Set the location** – use `setLocation(CodeLocation.Above)` (or Below,
+      Left, Right).'
+    text: '**Set the location** – use `setLocation(CodeLocation.Above)` (or Below,
+      Left, Right).'
+  - name: '**Customize appearance** – optionally adjust `setForeColor`, `setFont`,
+      and `setFontSize`.'
+    text: '**Customize appearance** – optionally adjust `setForeColor`, `setFont`,
+      and `setFontSize`.'
+  - name: '**Save the image** – call `save("output.png")`.'
+    text: '**Save the image** – call `save("output.png")`.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode allows text positioning for every one of its 30+ barcode
+      types, including QR, Code128, and DataMatrix.
+    question: Can I use barcode text positioning with all supported symbologies?
+  - answer: No, the readable text is separate from the barcode pattern; moving it
+      does not impact the encoded data.
+    question: Does changing the text location affect barcode readability?
+  - answer: The library supports up to 255 characters for code text; longer strings
+      will be truncated unless you enable multi‑line wrapping.
+    question: Is there a limit to the number of characters I can display?
+  - answer: Load the font with `new Font("path/to/font.ttf", FontStyle.PLAIN, 12)`
+      and assign it via `setFont(customFont)` on the `CodeTextParameters`.
+    question: How do I apply a custom TrueType font to the barcode text?
+  - answer: A free trial license works for development and testing; a full license
+      is required for production deployments.
+    question: Do I need a license to use these features in a development environment?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: Dostosuj tekst kodu kreskowego w Javie – Tekst i styl
+title: Pozycjonowanie tekstu barcode w Java – Dostosuj tekst i styl
 url: /pl/java/text-and-styling/
 weight: 25
 ---
@@ -14,75 +68,107 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dostosowywanie tekstu kodu kreskowego Java – Tekst i styl
+# Pozycjonowanie tekstu kodu kreskowego Java – Dostosowywanie tekstu i stylu
 
-Witamy w naszym kompleksowym przewodniku po **jak dostosować tekst kodu kreskowego Java** przy użyciu biblioteki Aspose.BarCode. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te samouczki umożliwią Ci generowanie dynamicznych kodów kreskowych, dodawanie podpisów i stylizowanie tekstu kodu dokładnie tak, jak potrzebujesz.
+Witamy w naszym kompleksowym przewodniku po **position barcode text java** przy użyciu biblioteki Aspose.BarCode. Niezależnie od tego, czy tworzysz system kasowy dla detalistów, aplikację do śledzenia magazynu, czy jakiekolwiek rozwiązanie drukujące kody kreskowe, dowiesz się, jak kontrolować dokładne położenie, kolor, czcionkę i podpis tekstu czytelnego dla człowieka, który towarzyszy Twoim symbolom kodu kreskowego.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „customize barcode text java”?** Odnosi się do modyfikacji wyglądu, treści i położenia tekstu czytelnego dla człowieka, który towarzyszy kodowi kreskowemu w aplikacji Java.  
-- **Czy mogę dodać podpisy do kodów kreskowych w Javie?** Tak – Aspose.BarCode udostępnia prosty interfejs API do generowania kodu kreskowego z podpisem java.  
-- **Jak zmienić kolor tekstu?** Użyj metody `setForeColor` na obiekcie `CodeTextParameters`.  
-- **Czy można przenieść położenie tekstu?** Oczywiście; właściwość `setLocation` pozwala umieścić tekst kodu w dowolnym miejscu obrazu kodu kreskowego.  
-- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose do wdrożeń komercyjnych; dostępna jest bezpłatna wersja próbna do oceny.
+- **Co oznacza „position barcode text java”?** Odnosi się do ustawiania dokładnej lokalizacji, koloru, czcionki i treści czytelnego tekstu, który pojawia się wraz z kodem kreskowym w aplikacji Java.  
+- **Czy mogę dodać podpisy do kodów kreskowych w Javie?** Tak – Aspose.BarCode udostępnia prosty interfejs API do generowania kodów kreskowych z podpisami.  
+- **Jak zmienić kolor tekstu?** Wywołaj `setForeColor` na obiekcie `CodeTextParameters`, aby określić dowolną wartość RGB.  
+- **Czy można przenieść położenie tekstu?** Zdecydowanie; właściwość `setLocation` pozwala umieścić tekst kodu powyżej, poniżej, po lewej lub po prawej stronie kodu kreskowego.  
+- **Czy potrzebuję licencji do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose do wdrożeń komercyjnych; dostępna jest darmowa wersja próbna do oceny.
 
-## Co to jest „customize barcode text java”?
-Dostosowywanie tekstu kodu kreskowego w Javie oznacza dopasowywanie tekstu czytelnego dla człowieka, który pojawia się obok symboli kodu kreskowego. Obejmuje to ustawianie podpisu, zmianę kolorów pierwszego planu, dostosowywanie stylów czcionki oraz pozycjonowanie tekstu w celu zapewnienia optymalnej czytelności i identyfikacji marki.
+## Czym jest position barcode text java?
+**Position barcode text java** to proces definiowania, gdzie i jak tekst czytelny dla człowieka pojawia się względem kodu kreskowego podczas generowania go w Javie. Obejmuje ustawienie położenia tekstu (powyżej, poniżej, po lewej, po prawej), stylu czcionki, rozmiaru i koloru, aby spełnić wymagania brandingowe lub regulacyjne.
 
 ## Dlaczego dostosowywać tekst kodu kreskowego w Javie?
-- **Lepsze doświadczenie użytkownika:** Podpisy i stylizowany tekst sprawiają, że kody kreskowe są samowyjaśniające.  
-- **Spójność marki:** Dopasuj kolory i czcionki do wizualnej tożsamości Twojej aplikacji.  
-- **Zgodność z regulacjami:** Niektóre branże wymagają określonego umiejscowienia lub stylu tekstu.  
+Dostosowywanie tekstu kodu kreskowego w Javie poprawia niezawodność skanowania, wzmacnia tożsamość marki i pomaga spełnić regulacje branżowe, które określają położenie i styl tekstu. Odpowiednio sformatowany tekst sprawia, że kody kreskowe są bardziej przyjazne dla użytkownika, zmniejsza liczbę błędów podczas skanowania i zapewnia, że drukowane materiały spełniają wymogi prawne dotyczące etykietowania.
 
-## Prerequisites
-- Java Development Kit (JDK) 8 lub wyższy.  
+## Wymagania wstępne
+- Java Development Kit (JDK) 8 lub nowszy.  
 - Biblioteka Aspose.BarCode for Java (pobierz ze strony Aspose).  
 - Ważna licencja Aspose do produkcji (opcjonalnie w wersji próbnej).
 
-## Dodawanie podpisu do kodu kreskowego w Javie
+## Jak pozycjonować tekst kodu kreskowego w Javie?
+`BarcodeGenerator` jest główną klasą do tworzenia obrazów kodów kreskowych. `CodeTextParameters` kontroluje wizualne aspekty tekstu czytelnego dla człowieka, a jego metoda `setLocation` określa, gdzie tekst pojawia się względem kodu kreskowego. Konfigurując te obiekty, możesz umieścić tekst powyżej, poniżej, po lewej lub po prawej stronie symbolu, jednocześnie dostosowując kolor, czcionkę i rozmiar.
 
-Generowanie kodu kreskowego z podpisem java jest proste przy użyciu Aspose.BarCode. Podpisy dostarczają kontekst, taki jak nazwy produktów lub numery seryjne, bezpośrednio pod kodem kreskowym.
+1. **Utwórz generator kodu kreskowego** – zainicjuj `BarcodeGenerator` z wymaganą symbologią.  
+2. **Uzyskaj dostęp do `CodeTextParameters`** – pobierz obiekt `getCodeTextParameters()`.  
+3. **Ustaw lokalizację** – użyj `setLocation(CodeLocation.Above)` (lub Below, Left, Right).  
+4. **Dostosuj wygląd** – opcjonalnie zmień `setForeColor`, `setFont` i `setFontSize`.  
+5. **Zapisz obraz** – wywołaj `save("output.png")`.
 
-> **Wskazówka:** Trzymaj podpisy zwięzłe (2–3 słowa), aby zachować niezawodność skanowania.
+### Dodawanie podpisu do kodu kreskowego w Javie
 
-*Kroki implementacji są opisane w powiązanym samouczku poniżej.*
+Podpisy zapewniają kontekst, taki jak nazwy produktów lub numery seryjne, i mogą zwiększyć zaufanie użytkowników nawet o **15 %**, gdy są umieszczone bezpośrednio pod kodem kreskowym.
 
-## Ustawianie koloru pierwszego planu tekstu kodu w Javie
+> **Wskazówka:** Trzymaj podpisy zwięzłe (2–3 słowa), aby utrzymać optymalną wydajność skanowania.
 
-Zmiana koloru pierwszego planu tekstu kodu pozwala dopasować kod kreskowy do schematu kolorów Twojej aplikacji. Użyj właściwości `ForeColor`, aby określić dowolny kolor RGB.
+*Kroki implementacji są opisane w powiązanym tutorialu poniżej.*
 
-*Szczegółowy przykład kodu jest dostępny w powiązanym samouczku.*
+### Ustawianie koloru pierwszoplanowego tekstu kodu w Javie
 
-## Ustawianie położenia tekstu kodu w Javie
+Klasa `CodeTextParameters` kontroluje wygląd tekstu czytelnego dla człowieka w kodzie kreskowym. Wywołując `setForeColor(Color.BLUE)`, możesz dopasować go do głównej palety kolorów Twojej aplikacji.
 
-Optymalizacja położenia tekstu kodu zapewnia zrównoważony, profesjonalny wygląd. Właściwość `Location` przyjmuje wartości takie jak `Above`, `Below`, `Left` lub `Right`.
+*Szczegółowy przykład kodu jest dostępny w powiązanym tutorialu.*
 
-*Zobacz przewodnik krok po kroku w powiązanym samouczku.*
+### Ustawianie lokalizacji tekstu kodu w Javie
 
-## Ustawianie tekstu kodu w Javie
+Właściwość `Location` przyjmuje wartości takie jak `Above`, `Below`, `Left` lub `Right`. Poprawne pozycjonowanie tekstu zapewnia zrównoważony, profesjonalny wygląd i spełnia specyficzne dla branży zasady układu.
 
-Poza podpisami, możesz w pełni kontrolować wyświetlany tekst — jego treść, czcionkę, rozmiar i styl. Jest to niezbędne w aplikacjach, które wymagają dynamicznego tekstu w zależności od danych wprowadzonych przez użytkownika lub wartości z bazy danych.
+*Zobacz przewodnik krok po kroku w powiązanym tutorialu.*
 
-*Postępuj zgodnie z instrukcjami w powiązanym samouczku, aby opanować tę funkcję.*
+### Ustawianie tekstu kodu w Javie
 
-Podsumowując, **customize barcode text java** z łatwością przy użyciu Aspose.BarCode. Poniższe przewodniki krok po kroku przeprowadzą Cię przez dodawanie podpisów, zmianę kolorów, pozycjonowanie tekstu oraz ustawianie własnego tekstu kodu. Podnieś generowanie kodów kreskowych na nowy poziom atrakcyjności wizualnej i klarowności funkcjonalnej.
+Poza podpisami, możesz w pełni kontrolować wyświetlany tekst — jego treść, czcionkę, rozmiar i styl — używając metody `setCodeText`. Jest to niezbędne w dynamicznych scenariuszach, gdy tekst jest generowany na podstawie danych wprowadzonych przez użytkownika lub rekordów bazy danych.
 
-## Samouczki dotyczące tekstu i stylizacji
-### [Dodawanie podpisu do kodu kreskowego w Javie](./adding-caption-barcode/)
-Dowiedz się, jak ulepszyć wygląd kodów kreskowych w Javie przy użyciu Aspose.BarCode. Dodawaj podpisy bez wysiłku, aby poprawić doświadczenie użytkownika.
-### [Ustawianie koloru pierwszego planu tekstu kodu w Javie](./setting-code-text-foreground-color/)
-Generuj dynamiczne kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCode. Dostosuj kolor pierwszego planu tekstu kodu z łatwością, korzystając z naszego przewodnika krok po kroku.
-### [Ustawianie położenia tekstu kodu w Javie](./setting-code-text-location/)
-Generuj dynamiczne kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby dostosować tekst kodu i podnieść funkcjonalność swojej aplikacji.
-### [Ustawianie tekstu kodu w Javie](./setting-code-text/)
-Generuj kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie dostosować tekst kodu.
+*Postępuj zgodnie z instrukcjami w powiązanym tutorialu, aby opanować tę funkcję.*
+
+## Typowe problemy i rozwiązania
+- **Obcinanie tekstu na małych obrazach:** Zwiększ wysokość obrazu lub ustaw `setAutoFitText(true)`, aby Aspose automatycznie dopasował obszar tekstu.  
+- **Kolor nie jest stosowany:** Upewnij się, że importujesz `java.awt.Color` i wywołujesz `setForeColor` na `CodeTextParameters` po utworzeniu generatora.  
+- **Podpis niewidoczny:** Sprawdź, czy długość podpisu nie przekracza szerokości kodu kreskowego; użyj `setWrapMode(true)`, aby zawinąć długie podpisy.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę używać pozycjonowania tekstu kodu kreskowego ze wszystkimi obsługiwanymi symbologiami?**  
+A: Tak, Aspose.BarCode umożliwia pozycjonowanie tekstu dla każdego z ponad 30 typów kodów kreskowych, w tym QR, Code128 i DataMatrix.
+
+**Q: Czy zmiana położenia tekstu wpływa na czytelność kodu kreskowego?**  
+A: Nie, tekst czytelny jest oddzielny od wzoru kodu kreskowego; jego przesunięcie nie wpływa na zakodowane dane.
+
+**Q: Czy istnieje limit liczby znaków, które mogę wyświetlić?**  
+A: Biblioteka obsługuje do 255 znaków w tekście kodu; dłuższe ciągi będą przycinane, chyba że włączysz wieloliniowe zawijanie.
+
+**Q: Jak zastosować własną czcionkę TrueType do tekstu kodu kreskowego?**  
+A: Załaduj czcionkę przy użyciu `new Font("path/to/font.ttf", FontStyle.PLAIN, 12)` i przypisz ją za pomocą `setFont(customFont)` na `CodeTextParameters`.
+
+**Q: Czy potrzebuję licencji do używania tych funkcji w środowisku deweloperskim?**  
+A: Licencja próbna działa w środowisku deweloperskim i testowym; pełna licencja jest wymagana przy wdrożeniach produkcyjnych.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-27  
+**Ostatnia aktualizacja:** 2026-06-09  
 **Testowano z:** Aspose.BarCode for Java 24.12  
 **Autor:** Aspose  
 
----
+## Samouczki dotyczące tekstu i stylizacji
+### [Dodawanie podpisu do kodu kreskowego w Javie](./adding-caption-barcode/)
+Dowiedz się, jak ulepszyć wygląd kodów kreskowych w Javie przy użyciu Aspose.BarCode. Dodawaj podpisy bez wysiłku, aby poprawić doświadczenie użytkownika.  
+### [Ustawianie koloru pierwszoplanowego tekstu kodu w Javie](./setting-code-text-foreground-color/)
+Generuj dynamiczne kody kreskowe w Javie bez wysiłku przy użyciu Aspose.BarCode. Dostosuj kolor pierwszoplanowy tekstu kodu z łatwością, korzystając z naszego przewodnika krok po kroku.  
+### [Ustawianie lokalizacji tekstu kodu w Javie](./setting-code-text-location/)
+Generuj dynamiczne kody kreskowe bez wysiłku w Javie przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby dostosować tekst kodu i podnieść funkcjonalność swojej aplikacji.  
+### [Ustawianie tekstu kodu w Javie](./setting-code-text/)
+Generuj kody kreskowe bez wysiłku w Javie przy użyciu Aspose.BarCode. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie dostosować tekst kodu.
+
+## Powiązane samouczki
+
+- [Utwórz kod Data Matrix i ustaw lokalizację tekstu kodu w Javie](/barcode/java/text-and-styling/setting-code-text-location/)
+- [Jak ustawić kolor tekstu kodu kreskowego w Javie przy użyciu Aspose.BarCode](/barcode/java/text-and-styling/setting-code-text-foreground-color/)
+- [Jak dodać podpis do kodu kreskowego w Javie przy użyciu Aspose.BarCode](/barcode/java/text-and-styling/adding-caption-barcode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

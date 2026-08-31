@@ -78,6 +78,8 @@ Aprenda cómo generar códigos de barras en .NET con Aspose.BarCode para .NET. E
 Aprenda a manejar excepciones mientras genera códigos de barras unidimensionales utilizando Aspose.BarCode para .NET. Esta guía paso a paso garantiza soluciones de códigos de barras tolerantes a errores. ¡Empieza ahora!
 ### [Configuración unidimensional de relación ancha-estrecha](./one-dimensional-wide-narrow-ratio-configuration/)
 Genere códigos de barras personalizados fácilmente con Aspose.BarCode para .NET. Guía paso a paso para la configuración unidimensional de relación ancha-estrecha.
+### [Generar código de barras a partir de texto usando Aspose.BarCode – Guía C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Aprenda a crear códigos de barras desde texto en .NET con Aspose.BarCode y C#. Guía paso a paso.
 
 ## Conclusión
 

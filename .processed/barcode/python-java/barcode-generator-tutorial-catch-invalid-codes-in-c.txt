@@ -1,0 +1,7 @@
+Title: Barcode generator tutorial: catch invalid codes in C#
+Slug: barcode-generator-tutorial-catch-invalid-codes-in-c
+Category: general
+ProcessedDate: 2026-08-22T15:54:34.606525
+SourceRepo: AI Search API
+Keywords: barcode generator tutorial, generate barcode image, how to generate barcode, invalid barcode example, how to catch barcode
+PRNumber: 109

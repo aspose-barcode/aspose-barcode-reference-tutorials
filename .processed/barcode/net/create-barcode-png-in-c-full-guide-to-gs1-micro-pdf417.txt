@@ -1,0 +1,7 @@
+Title: Create barcode PNG in C# – full guide to GS1 Micro PDF417
+Slug: create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417
+Category: gs1-barcode-encoding
+ProcessedDate: 2026-08-12T22:19:13.118641
+SourceRepo: AI Search API
+Keywords: create barcode png, generate pdf417 barcode c#, barcode generator usage
+PRNumber: 99

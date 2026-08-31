@@ -1,0 +1,7 @@
+Title: Barcode generator c# – Custom barcode dimensions guide
+Slug: barcode-generator-c-custom-barcode-dimensions-guide
+Category: general
+ProcessedDate: 2026-07-21T22:42:37.394179
+SourceRepo: AI Search API
+Keywords: barcode generator c#, custom barcode dimensions, barcode pixel height, barcode image height, change barcode height
+PRNumber: 78

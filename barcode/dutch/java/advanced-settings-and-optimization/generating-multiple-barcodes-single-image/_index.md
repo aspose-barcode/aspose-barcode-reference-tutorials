@@ -1,11 +1,14 @@
 ---
-date: 2025-12-10
-description: Leer hoe je barcodes op één afbeelding kunt genereren in Java met Aspose.BarCode.
-  Deze gids behandelt Aspose Barcode Java‑integratie en het genereren van meerdere
-  barcodes.
-linktitle: Generating Multiple Barcodes on a Single Image
+date: 2026-04-03
+description: Leer hoe je QR-codes in Java maakt en meerdere barcodes op één afbeelding
+  genereert met Aspose.BarCode voor Java. Inclusief installatie, code en probleemoplossing.
+keywords:
+- create qr code java
+- aspose barcode java
+- generate barcodes java
+linktitle: Meerdere barcodes genereren op één afbeelding
 second_title: Aspose.BarCode Java API
-title: Hoe barcodes op één afbeelding te genereren in Java
+title: QR-code maken in Java – Meerdere barcodes op één afbeelding genereren
 url: /nl/java/advanced-settings-and-optimization/generating-multiple-barcodes-single-image/
 weight: 19
 ---
@@ -14,42 +17,40 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Meerdere barcodes genereren op één afbeelding in Java met Aspose.BarCode
+# Maak QR-code Java – Meerdere barcodes op één afbeelding genereren
 
-## Inleiding
+## Introductie
 
-Als je op zoek bent naar een betrouwbare manier **hoe barcodes te genereren** in een Java‑applicatie, ben je hier aan het juiste adres. Met Aspose.BarCode voor Java kun je verschillende barcode‑typen op één afbeelding plaatsen met slechts een paar regels code. Deze tutorial leidt je door het volledige proces — van het opzetten van het project tot het opslaan van de gecombineerde afbeelding — zodat je direct barcode‑generatie in je eigen oplossingen kunt gebruiken.
+In deze tutorial leer je **hoe QR-code Java te maken** en verschillende barcode‑typen combineren tot één afbeelding met behulp van **Aspose.BarCode for Java**. Of je nu een compact QR‑label, een productbarcode of een mix van 2‑D‑ en lineaire symbologieën nodig hebt, deze gids leidt je stap voor stap—van projectconfiguratie tot het opslaan van de uiteindelijke gecombineerde afbeelding—zodat je direct barcode‑generatie in je Java‑applicaties kunt integreren.
 
 ## Snelle antwoorden
-- **Welke bibliotheek moet ik gebruiken?** Aspose.BarCode for Java provides the most complete set of symbologies.  
-- **Kan ik verschillende barcode‑typen samen genereren?** Yes, you can mix CODE_39, QR, AZTEC, and more on a single canvas.  
-- **Heb ik een licentie nodig voor ontwikkeling?** A free trial works for testing; a commercial license is required for production.  
-- **Welke Java‑versie wordt ondersteund?** Java 8 and newer are fully compatible.  
-- **Is het uitvoerformaat configureerbaar?** You can export the combined image as PNG, JPEG, BMP, etc.
+- **Welke bibliotheek moet ik gebruiken?** Aspose.BarCode for Java biedt de meest volledige set symbologieën.  
+- **Kan ik verschillende barcode‑typen samen genereren?** Ja, je kunt CODE_39, QR, AZTEC en meer combineren op één canvas.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
+- **Welke Java‑versie wordt ondersteund?** Java 8 en nieuwer zijn volledig compatibel.  
+- **Is het uitvoerformaat configureerbaar?** Je kunt de gecombineerde afbeelding exporteren als PNG, JPEG, BMP, enz.  
 
-## Wat betekent “hoe barcodes te genereren” in Java?
+## Wat is create QR code java?
 
-Barcodes genereren betekent een tekenreeks omzetten in een visueel patroon dat scanners kunnen lezen. Aspose.BarCode verzorgt automatisch de codering, weergave en het maken van de afbeelding, zodat je je kunt concentreren op de bedrijfslogica in plaats van op low‑level beeldverwerking.
+Een QR-code maken in Java betekent het omzetten van een tekststring naar een tweedimensionale matrix die kan worden gescand door smartphones of barcode‑lezers. **Aspose.BarCode for Java** verzorgt de codering en weergave, zodat je je kunt concentreren op de bedrijfslogica in plaats van op low‑level beeldverwerking.
 
-## Waarom Aspose.BarCode voor Java gebruiken voor barcode‑generatie?
+## Waarom Aspose.BarCode Java gebruiken voor het genereren van barcodes in Java?
 
-- **Broad symbology support** – from classic linear codes to modern 2‑D matrices.  
-- **High‑quality rendering** – anti‑aliased output that works on any device.  
-- **Simple API** – create, customize, and combine barcodes with just a few method calls.  
-- **No external dependencies** – everything runs on the JVM without native libraries.
+- **Brede symbologie‑ondersteuning** – van klassieke lineaire codes tot moderne 2‑D‑matrices.  
+- **Hoge‑kwaliteit rendering** – anti‑aliased output die op elk apparaat werkt.  
+- **Eenvoudige API** – maak, pas aan en combineer barcodes met slechts een paar methode‑aanroepen.  
+- **Geen externe afhankelijkheden** – alles draait op de JVM zonder native libraries.  
 
-## Voorvereisten
-
-Voordat je aan de tutorial begint, zorg ervoor dat je de volgende voorvereisten hebt:
+## Vereisten
 
 - Basiskennis van Java‑programmeren.  
 - Java Development Kit (JDK) geïnstalleerd op je systeem.  
-- Aspose.BarCode voor Java‑bibliotheek gedownload en geïnstalleerd. Je kunt het downloaden [hier](https://releases.aspose.com/barcode/java/).  
-- Een geïntegreerde ontwikkelomgeving (IDE) zoals Eclipse of IntelliJ IDEA.
+- Aspose.BarCode for Java‑bibliotheek gedownload en geïnstalleerd. Je kunt het downloaden [hier](https://releases.aspose.com/barcode/java/).  
+- Een geïntegreerde ontwikkelomgeving (IDE) zoals Eclipse of IntelliJ IDEA.  
 
-## Importer namespaces
+## Namespaces importeren
 
-Importeer in je Java‑project de benodigde namespaces om toegang te krijgen tot de Aspose.BarCode‑functionaliteit. Voeg de volgende import‑statements toe aan het begin van je Java‑klasse:
+In je Java‑project importeer je de benodigde namespaces om toegang te krijgen tot de Aspose.BarCode‑functionaliteit. Voeg de volgende import‑statements toe aan het begin van je Java‑klasse:
 
 ```java
 import java.awt.Color;
@@ -142,53 +143,46 @@ File outputfile = new File(dataDir + "output.png");
 ImageIO.write(resultBitmap, "png", outputfile);
 ```
 
-## Veelvoorkomende gebruikssituaties voor het genereren van meerdere barcodes
+## Veelvoorkomende use‑cases voor het genereren van meerdere barcodes
 
-- **Verpakkingslabels** – combine product, batch, and shipping codes on a single label.  
-- **Evenementtickets** – embed QR, Data Matrix, and Code 128 identifiers for different scanning stations.  
-- **Voorraadbeheer** – display SKU, RFID tag data, and serial numbers together for quick audit.
+- **Verpakkingslabels** – combineer product-, batch‑ en verzendcodes op één label.  
+- **Evenementtickets** – integreer QR, Data Matrix en Code 128‑identifiers voor verschillende scan‑stations.  
+- **Voorraadbeheer** – toon SKU, RFID‑taggegevens en serienummers samen voor een snelle audit.  
 
-## Probleemoplossing & Tips
+## Probleemoplossing & tips
 
-- **Problemen met afbeeldingsgrootte** – adjust the `offset` variable to increase or decrease spacing between barcodes.  
-- **Niet‑ondersteunde symbologie** – verify that your Aspose.BarCode version supports the desired barcode type.  
-- **Prestaties** – reuse a single `Graphics` object if you generate many images in a loop.
+- **Problemen met afbeeldingsgrootte** – pas de `offset`‑variabele aan om de afstand tussen barcodes te vergroten of te verkleinen.  
+- **Niet‑ondersteunde symbologie** – controleer of jouw Aspose.BarCode‑versie het gewenste barcode‑type ondersteunt.  
+- **Prestaties** – hergebruik één `Graphics`‑object als je veel afbeeldingen in een lus genereert.  
 
-## FAQ's
+## Veelgestelde vragen
 
-### Q1: Kan ik het uiterlijk van individuele barcodes in de gegenereerde afbeelding aanpassen?
+**Q1: Kan ik het uiterlijk van individuele barcodes in de gegenereerde afbeelding aanpassen?**  
+A1: Ja, Aspose.BarCode biedt uitgebreide aanpassingsopties voor het uiterlijk van barcodes, zodat je de stijl van elke barcode kunt afstemmen op je voorkeuren.
 
-A1: Ja, Aspose.BarCode biedt uitgebreide aanpassingsopties voor het uiterlijk van barcodes, waardoor je elke barcode kunt afstemmen op je voorkeuren.
-
-### Q2: Is Aspose.BarCode compatibel met verschillende barcode‑symbologieën?
-
+**Q2: Is Aspose.BarCode compatibel met verschillende barcode‑symbologieën?**  
 A2: Absoluut! Aspose.BarCode ondersteunt een breed scala aan symbologieën, waaronder CODE_39, DATA_MATRIX, QR, CODE_128, EAN_13 en AZTEC, zoals in deze tutorial wordt getoond.
 
-### Q3: Hoe kan ik Aspose.BarCode integreren in mijn Java‑project?
+**Q3: Hoe kan ik Aspose.BarCode integreren in mijn Java‑project?**  
+A3: Download eenvoudig de Aspose.BarCode for Java‑bibliotheek van [hier](https://releases.aspose.com/barcode/java/) en volg de installatie‑instructies die in de documentatie staan.
 
-A3: Download eenvoudig de Aspose.BarCode voor Java‑bibliotheek van [hier](https://releases.aspose.com/barcode/java/) en volg de installatie‑instructies die in de documentatie staan.
-
-### Q4: Mag ik Aspose.BarCode gebruiken voor commerciële toepassingen?
-
+**Q4: Mag ik Aspose.BarCode gebruiken voor commerciële toepassingen?**  
 A4: Ja, je kunt een licentie verkrijgen via [hier](https://purchase.aspose.com/buy) om Aspose.BarCode commercieel te gebruiken.
 
-### Q5: Zijn er proefopties beschikbaar voor Aspose.BarCode?
-
+**Q5: Zijn er proefopties beschikbaar voor Aspose.BarCode?**  
 A5: Zeker! Je kunt de functies van Aspose.BarCode verkennen door een gratis proeflicentie te verkrijgen [hier](https://releases.aspose.com/).
 
-**Additional Questions**
+**Q6: Hoe genereer ik een hoge‑resolutie QR‑code voor afdrukken?**  
+A6: Stel de gewenste DPI in op de `BarcodeGenerator` voordat je `generateBarCodeImage()` aanroept, en sla de afbeelding vervolgens op in een verliesvrije indeling zoals PNG.
 
-**Q: Hoe genereer ik specifiek een QR‑code in Java?**  
-A: Gebruik `EncodeTypes.QR` bij het maken van de `BarcodeGenerator`‑instance, zoals getoond in het collectie‑voorbeeld.
-
-**Q: Ondersteunt Aspose.BarCode hoge‑resolutie‑output voor afdrukken?**  
-A: Ja, je kunt de DPI specificeren bij het opslaan van de afbeelding om te voldoen aan de eisen voor afdrukkwaliteit.
+**Q7: Wat moet ik doen als de gecombineerde afbeelding afgekapt lijkt?**  
+A7: Controleer of de `offset`‑ en canvas‑grootte‑berekeningen correct rekening houden met alle barcode‑hoogtes; het verhogen van de canvas‑hoogte of het verkleinen van individuele barcode‑groottes lost de meeste afkappingsproblemen op.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.BarCode for Java 24.11  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 2026-04-03  
+**Getest met:** Aspose.BarCode for Java 24.11  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
