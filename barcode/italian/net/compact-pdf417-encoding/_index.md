@@ -141,6 +141,14 @@ L'alta densità di dati e la robusta correzione degli errori di Compact PDF417 l
 - **Eccezioni di Licenza:** In un ambiente di prova, il codice a barre generato può includere una filigrana. Applica una licenza valida per rimuoverla.
 
 ## Tutorial di codifica Compact PDF417
+### [Come generare un'immagine di codice a barre in C# – Guida MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
+### [Genera codice a barre Micro PDF417 in C# – Guida completa](./generate-micro-pdf417-barcode-in-c-complete-guide/)
+### [Come generare un codice a barre PDF417 con Aspose – Guida completa](./how-to-generate-pdf417-barcode-with-aspose-complete-guide/)
+### [Come generare un codice a barre PDF417 – Guida completa di programmazione](./how-to-generate-pdf417-barcode-complete-programming-guide/)
+### [Crea PNG di codice a barre in C# – Guida passo‑passo](./create-barcode-png-in-c-step-by-step-guide/)
+### [Crea codice a barre PDF417 in C# – Guida completa passo‑passo](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
+### [Creare codice a barre PDF417 in C# – Guida completa di programmazione](./create-pdf417-barcode-in-c-complete-programming-guide/)
+### [Genera codice a barre PDF417 in C# – Guida completa di programmazione](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 
 ### [Crea metadati del codice a barre PDF417 in C# – Guida completa passo‑per‑step...](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Scopri come aggiungere e gestire i metadati nei codici a barre PDF417 usando C# e Aspose.BarCode, con esempi pratici passo‑per‑step.
