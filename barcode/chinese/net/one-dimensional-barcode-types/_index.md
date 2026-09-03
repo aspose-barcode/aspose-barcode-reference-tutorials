@@ -20,7 +20,7 @@ url: /zh/net/one-dimensional-barcode-types/
 
 ## 一维条形码的力量
 
-一维条形码是数据编码的基础，提供了一种简单有效的信息存储方式。这些条形码通常用于库存管理、零售和运输等任务。在本教程系列中，我们将重点介绍最流行的一维条形码类型以及如何配置它们。
+一维条码是数据编码的基础，提供了一种简单有效的信息存储方式。这些条形码通常用于库存管理、零售和运输等任务。在本教程系列中，我们将重点介绍最流行的一维条形码类型以及如何配置它们。
 
 ## 代码 128 配置
 
@@ -80,6 +80,8 @@ url: /zh/net/one-dimensional-barcode-types/
 使用 Aspose.BarCode for .NET 轻松生成自定义条形码。一维宽窄比配置的分步指南。
 ### [使用 Aspose.BarCode 从文本生成条形码 – C# 指南](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 了解如何使用 Aspose.BarCode 在 .NET 中通过文本生成条形码的 C# 示例。请遵循我们的分步指南。
+### [如何在 C# 中生成条码 – 完整编程指南](./how-to-generate-barcode-in-c-complete-programming-guide/)
+了解如何使用 Aspose.BarCode 在 C# 中完整生成条形码的步骤与技巧，涵盖从初始化到自定义的全流程。
 
 ## 结论
 

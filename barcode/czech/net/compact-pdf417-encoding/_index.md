@@ -193,6 +193,12 @@ Naučte se vytvořit PDF417 čárový kód v C# s podrobným programovacím náv
 ### [Vytvoření PDF417 čárového kódu v C# – Kompletní krok‑za‑krokem průvodce](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
 Naučte se vytvořit PDF417 čárový kód v C# pomocí Aspose.BarCode pro .NET s podrobným krok‑za‑krokem návodem a ukázkovým kódem.
 
+### [Vytvoření PDF417 čárového kódu pomocí Aspose – Kompletní průvodce](./create-pdf417-barcode-with-aspose-complete-guide/)
+Kompletní návod, jak pomocí Aspose.BarCode pro .NET vytvořit a přizpůsobit PDF417 čárový kód od základů až po pokročilé možnosti.
+
+### [Jak číst PDF417 v C# – Kompletní příklad čtečky čárových kódů](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+Naučte se, jak pomocí Aspose.BarCode pro .NET číst PDF417 kódy v C# s kompletním příkladem.
+
 ## Často kladené otázky
 
 **Q: Jaké je maximální množství dat, která mohu uložit do Compact PDF417 čárového kódu?**  

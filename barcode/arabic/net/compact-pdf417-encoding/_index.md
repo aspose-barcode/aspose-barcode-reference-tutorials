@@ -175,6 +175,10 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 دليل شامل لإنشاء باركود PDF417 باستخدام Aspose.BarCode في C# مع شرح كامل للبرمجة خطوة بخطوة.
 ### [إنشاء باركود PDF417 في C# – دليل برمجة كامل](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 دليل شامل يوضح خطوة بخطوة كيفية إنشاء باركود PDF417 في C# باستخدام Aspose.BarCode للـ .NET مع أمثلة برمجية.
+### [إنشاء باركود PDF417 باستخدام Aspose – دليل كامل](./create-pdf417-barcode-with-aspose-complete-guide/)
+دليل شامل لإنشاء باركود PDF417 باستخدام مكتبة Aspose.BarCode للـ .NET مع أمثلة عملية وتخصيص كامل.
+### [كيفية قراءة PDF417 في C# – مثال كامل لقارئ الباركود](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+تعلم كيفية قراءة باركود PDF417 باستخدام C# مع مثال كامل للقراءة باستخدام Aspose.BarCode.
 
 ## الأسئلة المتكررة
 

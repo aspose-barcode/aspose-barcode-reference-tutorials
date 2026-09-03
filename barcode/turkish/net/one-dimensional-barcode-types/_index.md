@@ -80,6 +80,8 @@ Aspose.BarCode for .NET'i kullanarak tek boyutlu barkodlar oluştururken istisna
 Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. Tek boyutlu geniş-dar oranlı yapılandırma için adım adım kılavuz.
 ### [Metinden Barkod Oluşturma – Aspose.BarCode ile C# Kılavuzu](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Aspose.BarCode kullanarak C# ile metinden barkod oluşturmayı öğrenin. Adım adım kılavuzumuzla kolayca başlayın.
+### [C#'ta Barkod Oluşturma – Tam Programlama Kılavuzu](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Aspose.BarCode kullanarak C#'ta barkod oluşturmayı öğrenin. Adım adım tam bir programlama rehberi.
 
 ## Çözüm
 

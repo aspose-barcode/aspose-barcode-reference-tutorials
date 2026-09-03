@@ -176,6 +176,10 @@ Compact PDF417’s high data density and robust error correction make it suitabl
 เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
 ### [สร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและการตั้งค่าที่ครบถ้วน
+### [สร้างบาร์โค้ด PDF417 ด้วย Aspose – คู่มือครบถ้วน](./create-pdf417-barcode-with-aspose-complete-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ด PDF417 อย่างละเอียดด้วย Aspose.BarCode for .NET พร้อมตัวอย่างโค้ดและการตั้งค่าต่าง ๆ
+### [วิธีอ่าน PDF417 ด้วย C# – ตัวอย่างการอ่านบาร์โค้ดครบวงจร](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+เรียนรู้วิธีอ่านบาร์โค้ด PDF417 ด้วย C# โดยใช้ Aspose.BarCode ตัวอย่างเต็มขั้นตอน
 
 ## คำถามที่พบบ่อย
 

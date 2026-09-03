@@ -201,6 +201,14 @@ Aspose.BarCode for .NET का उपयोग करके C# में बा�
 
 Aspose.BarCode for .NET का उपयोग करके C# में PDF417 बारकोड बनाने की विस्तृत चरण‑दर‑चरण गाइड।
 
+### [Aspose के साथ PDF417 बारकोड बनाएं – पूर्ण गाइड](./create-pdf417-barcode-with-aspose-complete-guide/)
+
+Aspose.BarCode for .NET का उपयोग करके PDF417 बारकोड बनाने की पूरी प्रक्रिया, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
+
+### [C# में PDF417 कैसे पढ़ें – पूर्ण बारकोड रीडर उदाहरण](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+
+Aspose.BarCode for .NET का उपयोग करके C# में PDF417 बारकोड को पढ़ने के लिए पूर्ण कोड उदाहरण।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: मैं Compact PDF417 बारकोड में अधिकतम कितना डेटा स्टोर कर सकता हूँ?**  

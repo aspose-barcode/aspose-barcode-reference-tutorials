@@ -174,6 +174,9 @@ Compact PDF417 の高いデータ密度と堅牢なエラー訂正により、�
 ### [C#で PDF417 バーコードを作成する – 完全プログラミングガイド](./create-pdf417-barcode-in-c-complete-programming-guide/)
 
 ### [C#で PDF417 バーコードを生成する – 完全プログラミングガイド](./generate-pdf417-barcode-in-c-complete-programming-guide/)
+### [AsposeでPDF417バーコードを作成する – 完全ガイド](./create-pdf417-barcode-with-aspose-complete-guide/)
+
+### [C#でPDF417を読み取る方法 – 完全バーコードリーダー例](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 
 ## よくある質問
 

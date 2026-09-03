@@ -80,6 +80,8 @@ url: /ar/net/one-dimensional-barcode-types/
 قم بإنشاء رموز شريطية مخصصة بسهولة باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة لتكوين نسبة واسعة وضيقة أحادية البعد.
 ### [إنشاء باركود من النص باستخدام Aspose.BarCode – دليل C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 تعلم كيفية إنشاء باركود من نص باستخدام Aspose.BarCode في C# خطوة بخطوة.
+### [كيفية إنشاء باركود في C# – دليل برمجة كامل](./how-to-generate-barcode-in-c-complete-programming-guide/)
+تعلم خطوة بخطوة كيفية إنشاء باركود باستخدام C# مع Aspose.BarCode في دليل برمجة شامل.
 
 ## خاتمة
 

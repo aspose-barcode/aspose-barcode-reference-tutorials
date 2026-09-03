@@ -80,6 +80,8 @@ url: /el/net/one-dimensional-barcode-types/
 Δημιουργήστε εύκολα προσαρμοσμένους γραμμικούς κώδικες με το Aspose.BarCode για .NET. Οδηγός βήμα προς βήμα για μονοδιάστατη διαμόρφωση ευρείας-στενής αναλογίας.
 ### [Δημιουργία barcode από κείμενο με Aspose.BarCode – Οδηγός C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Μάθετε πώς να δημιουργείτε barcode από κείμενο σε C# με το Aspose.BarCode, βήμα-βήμα οδηγός.
+### [Πώς να δημιουργήσετε barcode σε C# – Πλήρης οδηγός προγραμματισμού](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Μάθετε πώς να δημιουργήσετε barcode σε C# με βήμα‑βήμα οδηγίες και πλήρη προγραμματιστική υλοποίηση.
 
 ## συμπέρασμα
 

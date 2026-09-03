@@ -80,6 +80,8 @@ url: /th/net/one-dimensional-barcode-types/
 สร้างบาร์โค้ดแบบกำหนดเองได้อย่างง่ายดายด้วย Aspose.BarCode สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการกำหนดค่าอัตราส่วนกว้าง-แคบหนึ่งมิติ
 ### [สร้างบาร์โค้ดจากข้อความโดยใช้ Aspose.BarCode – คู่มือ C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 เรียนรู้วิธีสร้างบาร์โค้ดจากข้อความใน C# ด้วย Aspose.BarCode อย่างง่ายและรวดเร็ว
+### [วิธีสร้างบาร์โค้ดใน C# – คู่มือการเขียนโปรแกรมครบถ้วน](./how-to-generate-barcode-in-c-complete-programming-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ดใน C# ด้วย Aspose.BarCode พร้อมคำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
 
 ## บทสรุป
 

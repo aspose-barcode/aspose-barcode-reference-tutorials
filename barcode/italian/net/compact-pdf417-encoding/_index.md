@@ -149,6 +149,10 @@ L'alta densità di dati e la robusta correzione degli errori di Compact PDF417 l
 ### [Crea codice a barre PDF417 in C# – Guida completa passo‑passo](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
 ### [Creare codice a barre PDF417 in C# – Guida completa di programmazione](./create-pdf417-barcode-in-c-complete-programming-guide/)
 ### [Genera codice a barre PDF417 in C# – Guida completa di programmazione](./generate-pdf417-barcode-in-c-complete-programming-guide/)
+### [Crea codice a barre PDF417 con Aspose – Guida completa](./create-pdf417-barcode-with-aspose-complete-guide/)
+Scopri come creare codici a barre PDF417 con Aspose, passo dopo passo, includendo esempi e configurazioni avanzate.
+### [Come leggere PDF417 in C# – Esempio completo di lettore di codici a barre](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+Scopri come leggere codici a barre PDF417 in C# con un esempio completo usando Aspose.BarCode.
 
 ### [Crea metadati del codice a barre PDF417 in C# – Guida completa passo‑per‑step...](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Scopri come aggiungere e gestire i metadati nei codici a barre PDF417 usando C# e Aspose.BarCode, con esempi pratici passo‑per‑step.

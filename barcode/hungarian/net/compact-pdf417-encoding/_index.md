@@ -184,6 +184,10 @@ Ismerje meg, hogyan hozhat létre PDF417 vonalkódot a teljes programozási útm
 Ismerje meg, hogyan generáljon PNG formátumú vonalkódot C#‑ban az Aspose.BarCode for .NET segítségével, részletes lépésekkel.
 
 ### [PDF417 vonalkód létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
+### [PDF417 vonalkód létrehozása Aspose-szal – Teljes útmutató](./create-pdf417-barcode-with-aspose-complete-guide/)
+Ismerje meg, hogyan hozhat létre PDF417 vonalkódokat az Aspose segítségével, részletes lépésekkel és kódrészletekkel.
+### [PDF417 beolvasása C#‑ban – Teljes vonalkódolvasó példa](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+Ismerje meg, hogyan olvashat PDF417 vonalkódokat C#‑ban az Aspose.BarCode for .NET segítségével, részletes lépésekkel és kódrészletekkel.
 
 ## Gyakran Ismételt Kérdések
 

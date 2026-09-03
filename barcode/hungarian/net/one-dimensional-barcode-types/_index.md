@@ -63,7 +63,7 @@ Ismerje meg, hogyan hozhat létre Code 93 vonalkódokat az Aspose.BarCode for .N
 ### [Egydimenziós vonalkód magasságállítás](./one-dimensional-barcode-height-adjustment/)
 Ismerje meg, hogyan állíthatja be az egydimenziós vonalkódok magasságát a .NET-ben az Aspose.BarCode segítségével a pontos testreszabás érdekében. Hozzon létre tökéletes vonalkódokat könnyedén!
 ### [Egydimenziós adattár 2D komponens konfigurációja](./one-dimensional-databar-2d-component-configuration/)
-Egydimenziós Databar 2D vonalkódok létrehozása az Aspose.BarCode segítségével .NET-hez. Kövesse lépésenkénti útmutatónkat a konfigurációhoz és a testreszabáshoz. Kezdje el egyedi vonalkódok készítését még ma!
+Egydimenziós Databar 2D vonalkódok létrehozása az Aspose.BarCode segítségével .NET-hez. Kövesse lépésről lépésre útmutatónkat a konfigurációhoz és a testreszabáshoz. Kezdje el egyedi vonalkódok készítését még ma!
 ### [Egydimenziós adatsáv képarány testreszabása](./one-dimensional-databar-aspect-ratio-customization/)
 Ismerje meg, hogyan szabhatja testre az egydimenziós adatsáv képarányait .NET-ben az Aspose.BarCode használatával. Növelje a vonalkód pontosságát és kialakítását.
 ### [Egydimenziós adatsor vonalkód magasságállítás](./one-dimensional-databar-barcode-height-adjustment/)
@@ -80,6 +80,8 @@ Ismerje meg, hogyan kezelheti a kivételeket, miközben egydimenziós vonalkódo
 Az Aspose.BarCode for .NET segítségével egyszerűen hozhat létre testreszabott vonalkódokat. Lépésről lépésre útmutató az egydimenziós széles-keskeny arány konfigurációhoz.
 ### [Szövegből történő vonalkód generálás az Aspose.BarCode segítségével – C# útmutató](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Ismerje meg, hogyan hozhat létre vonalkódot szövegből C#-ban az Aspose.BarCode használatával, lépésről lépésre útmutatóval.
+### [Hogyan generáljunk vonalkódot C#-ban – Teljes programozási útmutató](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Ismerje meg, hogyan hozhat létre vonalkódokat C#-ban az Aspose.BarCode segítségével, lépésről lépésre útmutató.
 
 ## Következtetés
 
