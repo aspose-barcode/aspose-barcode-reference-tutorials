@@ -1,0 +1,7 @@
+Title: Create Postal Barcode Images – Change Barcode Height Easily
+Slug: create-postal-barcode-images-change-barcode-height-easily
+Category: general
+ProcessedDate: 2026-07-25T02:59:21.099539
+SourceRepo: AI Search API
+Keywords: create postal barcode images, how to change barcode height
+PRNumber: 82

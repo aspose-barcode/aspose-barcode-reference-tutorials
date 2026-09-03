@@ -1,0 +1,7 @@
+Title: display product name using Python barcode library – step‑by‑step guide
+Slug: display-product-name-using-python-barcode-library-step-by-st
+Category: general
+ProcessedDate: 2026-07-21T22:25:40.277510
+SourceRepo: AI Search API
+Keywords: display product name, how to get version, how to display product, print version number, show release date
+PRNumber: 77

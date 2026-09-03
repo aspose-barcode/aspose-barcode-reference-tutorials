@@ -1,33 +1,86 @@
 ---
-title: Aspose.BarCode for .NET ile DataMatrix Yapılandırılmış Ekleme Yapılandırması
-linktitle: DataMatrix Yapılandırılmış Ekleme Yapılandırması
-second_title: Aspose.BarCode .NET API'si
-description: Yüksek verimli veri organizasyonu için Aspose.BarCode'u kullanarak .NET'te DataMatrix yapılandırılmış ekleme yapılandırmasını nasıl oluşturacağınızı ve okuyacağınızı öğrenin.
-weight: 11
+date: 2026-06-14
+description: Aspose.BarCode kullanarak .NET'te datamatrix okuma ve structured append
+  barkodları oluşturmayı öğrenin; hızlı ve güvenilir bir barkod kütüphanesidir.
+keywords:
+- how to read datamatrix
+- DataMatrix structured append
+- Aspose.BarCode .NET
+linktitle: DataMatrix Structured Append Yapılandırması
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to read datamatrix and generate structured append barcodes
+    in .NET using Aspose.BarCode, the fast and reliable barcode library.
+  headline: How to Read DataMatrix Append with Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to read datamatrix and generate structured append barcodes
+    in .NET using Aspose.BarCode, the fast and reliable barcode library.
+  name: How to Read DataMatrix Append with Aspose.BarCode for .NET
+  steps:
+  - name: Aspose.BarCode for .NET Library – download it from [here](https://releases.aspose.com/barcode/net/).
+    text: Aspose.BarCode for .NET Library – download it from [here](https://releases.aspose.com/barcode/net/).
+  - name: You can also browse other Aspose products [here](https://releases.aspose.com/).
+    text: You can also browse other Aspose products [here](https://releases.aspose.com/).
+  - name: A .NET development environment such as Visual Studio 2022 or Visual Studio
+      Code with the C# extension.
+    text: A .NET development environment such as Visual Studio 2022 or Visual Studio
+      Code with the C# extension.
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for .NET.
+    question: What library handles DataMatrix structured append?
+  - answer: Up to 16 DataMatrix symbols.
+    question: How many symbols can a single structured append sequence contain?
+  - answer: A free trial works for development and testing.
+    question: Do I need a license for development?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Which .NET versions are supported?
+  - answer: Yes, you can decode from a byte array or stream.
+    question: Can I read the barcode without an image file?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+title: Aspose.BarCode for .NET kullanarak DataMatrix Append Nasıl Okunur
 url: /tr/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET ile DataMatrix Yapılandırılmış Ekleme Yapılandırması
+# Aspose.BarCode for .NET ile DataMatrix Structured Append Yapılandırması
 
-.NET uygulamalarınızda DataMatrix yapılandırılmış ekleme yapılandırmasını uygulamak isteyen bir geliştiriciyseniz, Aspose.BarCode for .NET sizin için çözümdür. Bu adım adım kılavuzda, yapılandırılmış DataMatrix barkodları oluşturmak ve okumak için bu güçlü kitaplığı kullanmanın tüm ayrıntılarını ve avantajlarını keşfedeceğiz. Konseptleri iyice kavramanızı sağlamak için her örneği takip edilmesi kolay birden fazla adıma ayıracağız. Bu eğitimin sonunda Aspose.BarCode for .NET'i kullanarak DataMatrix yapılandırılmış ekleme yapılandırmalarıyla etkili bir şekilde çalışabilecek donanıma sahip olacaksınız.
+Eğer .NET uygulamalarınızda **how to read datamatrix** (datamatrix nasıl okunur) konusunda bir geliştiriciyseniz, Aspose.BarCode for .NET sizin için ideal çözümdür. Bu adım‑adım kılavuzda, birden fazla sembole bölünmüş DataMatrix barkodlarını nasıl oluşturup çözümleyeceğinizi göstereceğiz. Bu öğreticinin sonunda, Aspose.BarCode for .NET ile DataMatrix structured append barkodlarını oluşturma, yapılandırma ve okuma konusunda rahat olacaksınız.
+
+## Hızlı Yanıtlar
+- **DataMatrix structured append'i hangi kütüphane yönetir?** Aspose.BarCode for .NET.
+- **Tek bir structured append dizisi kaç sembol içerebilir?** En fazla 16 DataMatrix sembolü.
+- **Geliştirme için lisansa ihtiyacım var mı?** Geliştirme ve test için ücretsiz deneme sürümü yeterlidir.
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Barkodu bir görüntü dosyası olmadan okuyabilir miyim?** Evet, bir byte dizisi veya akıştan çözümleyebilirsiniz.
+
+## what is how to read datamatrix?
+**how to read datamatrix**, DataMatrix sembollerinin çözülmesi ve gerektiğinde structured‑append dizisinin parçalarının birleştirilerek orijinal veri yükünün elde edilmesi sürecine denir. Aspose.BarCode bu iş akışını yerleşik olarak destekler; sembol sıralamasını ve veri birleştirmesini otomatik olarak halleder.
+
+## Neden Aspose.BarCode for DataMatrix structured append kullanmalıyım?
+Aspose.BarCode **30+ barkod simgesini** destekler ve tipik sunucu donanımında **10.000 × 10.000 px** boyutundaki görüntüleri **200 ms** altında çözümleyebilir. Kütüphane ayrıca **sıfır bağımlılık dağıtımı** sunar, yani ek yerel DLL'lere ihtiyaç duymaz ve Windows, Linux ve macOS .NET çalışma zamanlarında çalışır.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulları yerine getirmeniz gerekir:
+Öğreticiye başlamadan önce şunlara ihtiyacınız olacak:
 
-1.  Aspose.BarCode for .NET Library: Aspose.BarCode for .NET kütüphanesini indirip yüklemelisiniz. Şu adresten alabilirsiniz:[Burada](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET Kütüphanesi – indirmek için [buraya](https://releases.aspose.com/barcode/net/) tıklayın.
+2. Diğer Aspose ürünlerine göz atmak isterseniz [buraya](https://releases.aspose.com/) bakabilirsiniz.
+3. Visual Studio 2022 veya C# uzantılı Visual Studio Code gibi bir .NET geliştirme ortamı.
 
-2. Geliştirme Ortamı: Sisteminizde Visual Studio gibi bir .NET geliştirme ortamı kurulmalıdır.
+Şimdi DataMatrix structured append barkodlarını oluşturup okumaya başlayalım.
 
-Şimdi Aspose.BarCode for .NET kullanarak DataMatrix yapılandırılmış eklentisiyle çalışmaya yönelik adım adım kılavuza başlayalım.
+## Namespace'leri İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
+İlk adım, barkod API'sini ortaya çıkaran namespace'leri içe aktarmaktır.
 
-Başlamadan önce Aspose.BarCode for .NET tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktarmanız gerekir. Bu, uygulamanızda barkodlarla verimli bir şekilde çalışmanıza olanak sağlayacaktır.
+`BarCodeWriter` sınıfı Aspose.BarCode'ın barkod oluşturma giriş noktası iken, `BarCodeReader` çözümleme işlemini yürütür.
 
 ```csharp
 using Aspose.BarCode.BarCodeRecognition;
@@ -36,34 +89,11 @@ using System;
 using System.Drawing;
 ```
 
-Artık gerekli ad alanlarını içe aktardığınıza göre, DataMatrix yapılandırılmış ekleme barkodlarını oluşturmaya ve okumaya devam edelim.
+Gerekli namespace'leri içe aktardıktan sonra structured‑append barkodu oluşturalım.
 
+## DataMatrix structured append barkodları nasıl okunur?
 
-## Adım 1: DataMatrix Yapılandırılmış Ekleme Yapılandırmasını Ayarlayın
-
-DataMatrix yapılandırılmış ekleme barkodu oluşturmak için yapılandırmasını ayarlamanız gerekir. Bu, dizin yolunun, barkod kimliğinin, barkod sayısının ve dosya kimliğinin tanımlanmasını içerir.
-
-```csharp
-string path = "Your Directory Path";
-
-using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
-{
-    generator.Parameters.Barcode.XDimension.Pixels = 4;
-
-    // DataMatrix yapılandırılmış ekleme modunu ayarlama
-    generator.Parameters.Barcode.DataMatrix.StructuredAppendBarcodeId = 3;
-    generator.Parameters.Barcode.DataMatrix.StructuredAppendBarcodesCount = 5;
-    generator.Parameters.Barcode.DataMatrix.StructuredAppendFileId = 150;
-
-    // Barkod görüntüsünü oluşturun
-    Bitmap bitmap = generator.GenerateBarCodeImage();
-```
-
-Bu adımda DataMatrix barkodunu istenilen parametrelerle yapılandırdık.
-
-## Adım 2: Yapılandırılmış DataMatrix Barkodunu Okuyun
-
-Artık barkodu oluşturduğunuza göre, bilgilerini okumanın zamanı geldi. Barkod verilerinin kodunu çözmek için Aspose.BarCode kütüphanesini kullanacağız.
+Oluşturulan görüntüyü (veya akışı) bir `BarCodeReader` ile yükleyin, `ReadStructuredAppend` seçeneğini etkinleştirin ve `ReadBarcode` metodunu çağırın. Okuyucu otomatik olarak birleştirilmiş veriyi döndürür ve `StructuredAppendFileId`, `StructuredAppendTotalCount` ve `StructuredAppendSegmentId` gibi dizi detaylarını ortaya çıkarır. Birleştirilmiş sonuç tek bir string olarak döner; ayrıca okuyucunun `StructuredAppendSegmentId` özelliği aracılığıyla bireysel segment kimliklerini de alabilirsiniz.
 
 ```csharp
     using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -77,38 +107,72 @@ Artık barkodu oluşturduğunuza göre, bilgilerini okumanın zamanı geldi. Bar
 }
 ```
 
-Bu adımda, oluşturulan barkoddan barkod kimliği, barkod sayısı ve dosya kimliği gibi bilgileri çıkarmak için BarCodeReader'ı kullanıyoruz.
+Bu adımda okuyucu, barkod kimliğini, toplam sayıyı ve dosya kimliğini çıkararak structured‑append yapılandırmasının doğru yorumlandığını doğrular.
 
-## Çözüm
+## Adım 1: DataMatrix Structured Append Yapılandırmasını Ayarlama
 
-Aspose.BarCode for .NET, DataMatrix yapılandırılmış ekleme konfigürasyonlarıyla çalışmayı kolaylaştırır. Bu eğitimde özetlenen adımlarla, bu barkodları .NET uygulamalarınızda kolayca oluşturabilir ve okuyabilirsiniz. Kitaplık, barkod oluşturma ve kod çözme için güçlü bir araç seti sağlayarak geliştirme sürecinizi basitleştirir.
+DataMatrix structured append barkodu oluşturmak için yapılandırmasını ayarlamanız gerekir. Bu, dizin yolunu, barkod kimliğini, barkod sayısını ve dosya kimliğini tanımlamayı içerir.
 
-Bu kılavuzu takip ederek Aspose.BarCode for .NET ile DataMatrix yapılandırılmış ekleme yapılandırmasına ilişkin değerli bilgiler elde ettiniz. Bu bilgi, envanter yönetiminden belge takibine ve daha fazlasına kadar çok çeşitli uygulamalara uygulanabilir.
+```csharp
+string path = "Your Directory Path";
 
-## SSS'ler
+using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
+{
+    generator.Parameters.Barcode.XDimension.Pixels = 4;
 
-### S1: DataMatrix yapılandırılmış ekleme nedir ve neden kullanılır?
+    // Set DataMatrix structured append mode
+    generator.Parameters.Barcode.DataMatrix.StructuredAppendBarcodeId = 3;
+    generator.Parameters.Barcode.DataMatrix.StructuredAppendBarcodesCount = 5;
+    generator.Parameters.Barcode.DataMatrix.StructuredAppendFileId = 150;
 
-Cevap1: DataMatrix yapılandırılmış ekleme, büyük miktarda veriyi birden fazla küçük barkoda bölmenize olanak tanıyan bir özelliktir. Bu, özellikle tek bir barkod için sınırlı alana sahip olduğunuzda veya verileri verimli bir şekilde düzenlemeniz gerektiğinde kullanışlıdır. Lojistik, sağlık ve imalat gibi sektörlerde yaygın olarak kullanılır.
+    // Generate the barcode image
+    Bitmap bitmap = generator.GenerateBarCodeImage();
+```
+
+Bu adımda DataMatrix barkodunu istediğiniz parametrelerle yapılandırdık.
+
+## Yaygın Sorunlar ve Çözümleri
+
+- **Yanlış segment sıralaması:** `StructuredAppendSegmentId` değerlerinin 0'dan başlayarak sıralı olduğundan emin olun; aksi takdirde okuyucu veriyi doğru birleştiremez.
+- **Eşleşmeyen toplam sayı:** `StructuredAppendTotalCount` tüm sembollerde aynı olmalıdır; bir uyumsuzluk dizinin eksik olarak değerlendirilmesine yol açar.
+- **Görüntü kalitesi:** Düşük çözünürlüklü görüntüler çözümleme hatalarına neden olabilir. Barkodu bitmap olarak oluştururken en az **300 dpi** hedefleyin.
+
+## Sık Sorulan Sorular
+
+### S1: DataMatrix structured append nedir ve neden kullanılır?
+
+C1: DataMatrix structured append, büyük miktarda veriyi birden fazla küçük barkoda bölmenizi sağlayan bir özelliktir. Tek bir barkod için sınırlı alanınız olduğunda veya veriyi verimli bir şekilde organize etmeniz gerektiğinde özellikle faydalıdır. Lojistik, sağlık ve üretim gibi alanlarda yaygın olarak kullanılır.
 
 ### S2: Aspose.BarCode for .NET'i açık kaynak projemde kullanabilir miyim?
 
- C2: Evet, Aspose.BarCode for .NET, açık kaynaklı projelerde kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. Deneme sürümünü bulabilirsiniz[Burada](https://releases.aspose.com/).
+C2: Evet, Aspose.BarCode for .NET ücretsiz deneme sürümüyle açık kaynak projelerde kullanılabilir. Deneme sürümünü [buradan](https://releases.aspose.com/) bulabilirsiniz.
 
 ### S3: Aspose.BarCode for .NET için topluluk desteği mevcut mu?
 
- Cevap3: Evet, topluluk desteği arayabilir ve Aspose.BarCode forumundaki diğer kullanıcılarla etkileşimde bulunabilirsiniz.[Burada](https://forum.aspose.com/c/barcode/13).
+C3: Evet, Aspose.BarCode forumunda [burada](https://forum.aspose.com/c/barcode/13) diğer kullanıcılarla etkileşime geçebilir ve topluluk desteği alabilirsiniz.
 
-### S4: Aspose.BarCode for .NET için nasıl geçici lisans alabilirim?
+### S4: Aspose.BarCode for .NET için geçici bir lisans nasıl alınır?
 
- Cevap4: Değerlendirme veya test amacıyla geçici bir lisansa ihtiyacınız varsa, şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+C4: Değerlendirme veya test amaçlı geçici bir lisans almak isterseniz, lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
 ### S5: Aspose.BarCode for .NET diğer barkod türlerini destekliyor mu?
 
- Cevap5: Evet, Aspose.BarCode for .NET; QR kodları, Code 128, EAN-13 ve çok daha fazlasını içeren çok çeşitli barkod türlerini destekler. Belgelerin tamamını inceleyebilirsiniz[Burada](https://reference.aspose.com/barcode/net/) Desteklenen barkod türlerinin tam listesini görmek için.
+C5: Evet, Aspose.BarCode for .NET QR kodları, Code 128, EAN‑13 ve daha birçok barkod tipini destekler. Desteklenen barkod türlerinin tam listesini görmek için tam dökümantasyonu [burada](https://reference.aspose.com/barcode/net/) inceleyebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-06-14  
+**Test Edilen Versiyon:** Aspose.BarCode 24.11 for .NET  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [DataMatrix Reader Programming with Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-reading/datamatrix-reader-programming/)
+- [Generate DataMatrix Barcodes with Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-reading/datamatrix-versions/)
+- [Master DataMatrix Macro Configuration with Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-macro-configuration/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -59,6 +59,11 @@ Z łatwością generuj kody kreskowe za pomocą Aspose.BarCode dla .NET - Twoje 
 Poznaj konfigurację paska danych UPC-A z kuponem GS1 za pomocą Aspose.BarCode dla .NET. Z łatwością twórz kody kreskowe. Zacznij teraz!
 ### [Przykład GS1 DataMatrix](./gs1-datamatrix-example/)
 Dowiedz się, jak tworzyć kody kreskowe GS1 DataMatrix w .NET przy użyciu Aspose.BarCode. Generuj kody kreskowe z łatwością i wydajnością w zaledwie kilku krokach.
+### [Utwórz kod kreskowy GS1 w C# – Kompletny przewodnik krok po kroku](./create-gs1-barcode-in-c-complete-step-by-step-guide/)
+Poznaj, jak w C# wygenerować kod kreskowy GS1 przy użyciu Aspose.BarCode dla .NET. Szczegółowy przewodnik krok po kroku.
+### [Utwórz obrazy kodów kreskowych GS1 w C# – Jak szybko generować kody kreskowe w C#](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
+Dowiedz się, jak szybko generować obrazy kodów kreskowych GS1 w C# przy użyciu Aspose.BarCode dla .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

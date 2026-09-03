@@ -1,0 +1,7 @@
+Title: Generate barcode C# – Create DataBar barcode
+Slug: generate-barcode-c-create-databar-barcode
+Category: general
+ProcessedDate: 2026-07-21T22:42:40.518816
+SourceRepo: AI Search API
+Keywords: generate barcode c#, create databar barcode, customize barcode size, change barcode dimensions, export barcode image
+PRNumber: 78

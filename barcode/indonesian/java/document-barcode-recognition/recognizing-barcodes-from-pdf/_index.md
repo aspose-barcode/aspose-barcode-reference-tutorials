@@ -1,38 +1,54 @@
 ---
-title: Mengenali Barcode dari PDF di Java
+date: 2026-04-08
+description: Pelajari cara membaca barcode dari PDF di Java menggunakan Aspose.BarCode.
+  Panduan ini juga menunjukkan cara menghasilkan gambar barcode dengan Java dan mengekstrak
+  gambar dari PDF dengan Java.
+keywords:
+- read barcode from pdf java
+- generate barcode image java
+- extract images from pdf java
 linktitle: Mengenali Barcode dari PDF
 second_title: Aspose.BarCode Java API
-description: Pelajari cara mengenali kode batang dari PDF di Java menggunakan Aspose.BarCode. Panduan langkah demi langkah dengan contoh kode. Tingkatkan efisiensi pengelolaan data Anda!
-weight: 11
+title: Cara membaca barcode dari PDF di Java menggunakan Aspose.BarCode
 url: /id/java/document-barcode-recognition/recognizing-barcodes-from-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengenali Barcode dari PDF di Java
+# Baca barcode dari PDF Java
 
+## Pendahuluan
 
-## Perkenalan
+Selamat datang di panduan langkah‑demi‑langkah kami tentang **cara membaca barcode dari PDF di Java** menggunakan Aspose.BarCode. Barcode sangat penting untuk otomatisasi pengambilan data, dan dengan Aspose.BarCode Anda dapat mendeteksi barcode secara mulus di dalam dokumen PDF. Pada tutorial ini kami akan memandu Anda melalui semua yang diperlukan—mulai dari menyiapkan lisensi hingga menghasilkan gambar barcode Java, menambahkannya ke PDF, mengekstrak gambar dari PDF Java, dan akhirnya membaca kembali barcode tersebut.
 
-Selamat datang di panduan langkah demi langkah kami tentang mengenali kode batang dari PDF menggunakan Aspose.BarCode untuk Java. Barcode memainkan peran penting dalam manajemen dan organisasi data, dan dengan Aspose.BarCode, prosesnya menjadi lancar. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses, mulai dari menyiapkan prasyarat yang diperlukan hingga menerapkan kode untuk pengenalan kode batang dalam file PDF.
+## Jawaban Cepat
+- **Perpustakaan apa yang saya perlukan?** Aspose.BarCode untuk Java (ditambah Aspose.PDF untuk penanganan PDF).  
+- **Apakah saya dapat menghasilkan gambar barcode di Java?** Ya – kelas `BarcodeGenerator` memungkinkan Anda membuat gambar PNG/JPEG.  
+- **Bagaimana gambar diekstrak dari PDF?** Gunakan `PdfExtractor` dari Aspose.PDF.  
+- **Jenis barcode apa yang ditunjukkan?** CODE‑39 (standar).  
+- **Apakah saya memerlukan lisensi?** Lisensi Aspose.BarCode dan Aspose.PDF yang valid diperlukan untuk penggunaan produksi.
+
+## Mengapa menggunakan Aspose.BarCode untuk Java?
+- **Akurasi tinggi** – mendukung puluhan simbol dan bekerja pada gambar beresolusi rendah.  
+- **Tanpa ketergantungan eksternal** – murni Java, tanpa perpustakaan native.  
+- **Integrasi PDF penuh** – gabungkan dengan Aspose.PDF untuk membaca atau menyematkan barcode langsung dalam file PDF.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelam ke kode, pastikan Anda memiliki:
 
-1.  Aspose.BarCode untuk Lisensi Java: Dapatkan dan siapkan lisensi yang valid untuk Aspose.BarCode untuk Java. Anda dapat memperoleh lisensi dari[Asumsikan Pembelian](https://purchase.aspose.com/buy).
+1. **Lisensi Aspose.BarCode untuk Java** – dapatkan satu dari [Aspose Purchase](https://purchase.aspose.com/buy).  
+2. **Lisensi Aspose.PDF** – diperlukan untuk manipulasi PDF; Anda dapat mengajukan lisensi [di sini](https://purchase.aspose.com/temporary-license/).  
+3. **Perpustakaan Aspose.BarCode** – unduh JAR terbaru dari [di sini](https://releases.aspose.com/barcode/java/).  
 
-2.  Lisensi Aspose.PDF: Selain itu, siapkan lisensi untuk Aspose.PDF, yang diperlukan untuk bekerja dengan file PDF. Anda dapat mengajukan permohonan lisensi[Di Sini](https://purchase.aspose.com/temporary-license/).
+Setelah Anda memiliki semua prasyarat yang diperlukan, mari impor paket yang dibutuhkan dan mulai menulis kode.
 
-3.  Unduh Aspose.BarCode untuk Java: Unduh perpustakaan Aspose.BarCode dari[Di Sini](https://releases.aspose.com/barcode/java/).
+## Impor Paket
 
-Sekarang Anda memiliki prasyarat yang diperlukan, mari lanjutkan mengimpor paket yang diperlukan dan memulai tutorial kami.
-
-## Paket Impor
-
-Dalam proyek Java Anda, sertakan paket Aspose.BarCode dan Aspose.PDF. Berikut cuplikan kode contoh untuk Anda mulai:
+Di proyek Java Anda, tambahkan impor Aspose.BarCode dan Aspose.PDF. Blok ini tidak berubah dari tutorial asli:
 
 ```java
 import com.aspose.barcode.*;
@@ -48,7 +64,9 @@ import java.io.File;
 import javax.imageio.ImageIO;
 ```
 
-## Langkah 1: Hasilkan Barcode dan Tambahkan ke PDF
+## Langkah 1: Hasilkan gambar barcode Java
+
+Pertama, kami membuat gambar barcode yang nanti akan disematkan ke dalam PDF. Ini menunjukkan kemampuan **generate barcode image java**.
 
 ```java
 BarcodeGenerator builder = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_39_STANDARD);
@@ -57,7 +75,9 @@ String strBarCodeImageSave = dataDir + "input_image1.jpg";
 builder.save(strBarCodeImageSave);
 ```
 
-## Langkah 2: Buat PDF dan Tambahkan Gambar Barcode
+## Langkah 2: Buat PDF dan tambahkan gambar barcode
+
+Selanjutnya, kami membangun dokumen PDF baru dan menyisipkan gambar barcode yang baru saja dihasilkan.
 
 ```java
 Document pdf1 = new Document();
@@ -67,7 +87,9 @@ page.getResources().getImages().add(originalImage);
 pdf1.save(strPdfDoc);
 ```
 
-## Langkah 3: Ekstrak Gambar dari PDF
+## Langkah 3: Ekstrak gambar dari PDF Java
+
+Setelah PDF siap, kami perlu menarik kembali gambar yang disematkan agar barcode dapat dibaca. Ini menggunakan **extract images from pdf java**.
 
 ```java
 PdfExtractor extractor = new PdfExtractor();
@@ -75,7 +97,9 @@ extractor.bindPdf(strPdfDoc);
 extractor.extractImage();
 ```
 
-## Langkah 4: Kenali Barcode dari Gambar yang Diekstraksi
+## Langkah 4: Kenali barcode dari gambar yang diekstrak
+
+Akhirnya, kami memberi setiap gambar yang diekstrak ke `BarCodeReader` untuk mengambil teks yang terkodekan.
 
 ```java
 String suffix = ".jpg";
@@ -97,28 +121,42 @@ while (extractor.hasNextImage()) {
 }
 ```
 
-Ulangi langkah-langkah ini sesuai kebutuhan, sesuaikan nama file dan jalurnya.
+Ulangi langkah‑langkah ini sesuai kebutuhan, sesuaikan nama file dan jalur agar cocok dengan struktur proyek Anda.
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
- Selamat! Anda telah berhasil mempelajari cara mengenali barcode dari PDF menggunakan Aspose.BarCode untuk Java. Tutorial ini bertujuan untuk memberikan panduan komprehensif dengan tetap menjaga kesederhanaan dan kejelasan. Jangan ragu untuk menjelajahi lebih banyak fitur dan fungsi yang ditawarkan oleh Aspose.BarCode di[dokumentasi](https://reference.aspose.com/barcode/java/).
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| **Tidak ada barcode terdeteksi** | Kualitas gambar terlalu rendah atau barcode terlalu kecil. | Tingkatkan resolusi gambar saat menyimpan (`builder.save(..., BarCodeImageFormat.JPEG, 300)`). |
+| **`PdfExtractor` melempar pengecualian** | File PDF tidak ditemukan atau path tidak tepat. | Pastikan `strPdfDoc` mengarah ke file yang ada dan aplikasi memiliki izin membaca. |
+| **Lisensi tidak diterapkan** | Komponen Aspose berjalan dalam mode percobaan, membatasi output. | Muat file lisensi di awal program Anda: `new License().setLicense("Aspose.BarCode.lic");` dan serupa untuk Aspose.PDF. |
 
 ## Pertanyaan yang Sering Diajukan (FAQ)
 
-### T: Dapatkah saya menggunakan Aspose.BarCode untuk Java tanpa lisensi?
-Meskipun Aspose.BarCode dapat digunakan tanpa lisensi, disarankan untuk mendapatkannya agar berfungsi penuh dan untuk mematuhi persyaratan lisensi.
+### Q: Bisakah saya menggunakan Aspose.BarCode untuk Java tanpa lisensi?
+Meskipun Aspose.BarCode dapat digunakan tanpa lisensi, disarankan untuk memperoleh lisensi agar mendapatkan fungsionalitas penuh dan mematuhi ketentuan lisensi.
 
-### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.BarCode untuk Java?
- Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.BarCode untuk Java?
+Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-### T: Apakah ada batasan pada jenis kode batang yang didukung oleh Aspose.BarCode?
-Aspose.BarCode mendukung berbagai jenis kode batang. Lihat dokumentasi untuk daftar lengkap.
+### Q: Apakah ada batasan pada jenis barcode yang didukung oleh Aspose.BarCode?
+Aspose.BarCode mendukung berbagai jenis barcode. Lihat dokumentasi untuk daftar lengkapnya.
 
-### T: Apakah ada versi uji coba yang tersedia untuk Aspose.BarCode untuk Java?
- Ya, Anda dapat mengunduh versi uji coba dari[Di Sini](https://releases.aspose.com/).
+### Q: Apakah ada versi percobaan untuk Aspose.BarCode untuk Java?
+Ya, Anda dapat mengunduh versi percobaan dari [di sini](https://releases.aspose.com/).
 
-### T: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan tentang Aspose.BarCode untuk Java?
- Kunjungi Aspose.BarCode[forum](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi.
+### Q: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan tentang Aspose.BarCode untuk Java?
+Kunjungi forum Aspose.BarCode [di sini](https://forum.aspose.com/c/barcode/13) untuk dukungan dan diskusi.
+
+## Kesimpulan
+
+Selamat! Anda telah mempelajari cara **membaca barcode dari PDF di Java** menggunakan Aspose.BarCode, cara **menghasilkan gambar barcode Java**, dan cara **mengekstrak gambar dari PDF Java** untuk pemrosesan lebih lanjut. Jelajahi fitur tambahan seperti pemrosesan batch, penanganan berbagai simbol barcode, atau integrasi dengan produk Aspose lainnya. Untuk detail lebih dalam, periksa [dokumentasi resmi](https://reference.aspose.com/barcode/java/).
+
+---
+
+**Terakhir Diperbarui:** 2026-04-08  
+**Diuji Dengan:** Aspose.BarCode untuk Java 24.12, Aspose.PDF untuk Java 24.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

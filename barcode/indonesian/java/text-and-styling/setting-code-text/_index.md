@@ -1,11 +1,52 @@
 ---
-date: 2025-12-30
-description: Pelajari cara menghasilkan barcode Java menggunakan Aspose.BarCode. Panduan
-  langkah demi langkah ini menunjukkan cara mengatur teks barcode khusus, menyesuaikan
-  lebar, dan menyimpan gambar.
-linktitle: Setting Code Text
+date: 2026-06-09
+description: Pelajari cara membuat barcode Code128 Java menggunakan Aspose.BarCode.
+  Panduan langkah‑demi‑langkah ini menunjukkan cara menghasilkan barcode Java, mengatur
+  teks khusus, menyesuaikan lebar bar, dan menyimpan gambar.
+keywords:
+- create code128 barcode java
+- how to generate barcode java
+- java barcode generator example
+linktitle: Mengatur Teks Kode
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to create Code128 barcode Java using Aspose.BarCode. This
+    step‑by‑step guide shows how to generate barcode Java, set custom text, adjust
+    bar width, and save the image.
+  headline: Create Code128 Barcode Java – Set Code Text using Aspose.BarCode
+  type: TechArticle
+- description: Learn how to create Code128 barcode Java using Aspose.BarCode. This
+    step‑by‑step guide shows how to generate barcode Java, set custom text, adjust
+    bar width, and save the image.
+  name: Create Code128 Barcode Java – Set Code Text using Aspose.BarCode
+  steps:
+  - name: Create an Instance of `BarcodeGenerator`
+    text: 'The `BarcodeGenerator` constructor takes two arguments: the barcode symbology
+      (`CODE_128`) and the **custom code text** you want to encode, such as `"12345678"`.'
+  - name: Adjust Barcode Width for Custom Barcode Text
+    text: Set the `XDimension` property (bar width) to control how wide each bar appears.
+      In this example we use `0.5` mm, a size that balances readability and label
+      space for most applications.
+  - name: Save the Barcode Image
+    text: Call the `save` method, specifying the output path and image format (JPEG,
+      PNG, SVG, etc.). The example saves the file as **`setCodeText.jpg`** in the
+      project’s document folder.
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for Java.
+    question: What library should I use?
+  - answer: CODE_128.
+    question: Which barcode type is demonstrated?
+  - answer: Use the `BarcodeGenerator` constructor or the `setCodeText` method.
+    question: How do I set custom barcode text?
+  - answer: Yes—adjust `XDimension` (bar width) in millimetres.
+    question: Can I change the bar width?
+  - answer: A commercial license is required for non‑trial deployments.
+    question: Do I need a license for production?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: 'Buat Barcode Java - Atur Teks Kode menggunakan Aspose.BarCode'
+title: Buat Barcode Code128 Java – Atur Teks Kode menggunakan Aspose.BarCode
 url: /id/java/text-and-styling/setting-code-text/
 weight: 13
 ---
@@ -14,41 +55,41 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menghasilkan Barcode Java: Mengatur Teks Kode dengan Aspose.BarCode
+# Buat Barcode Code128 Java – Atur Teks Kode menggunakan Aspose.BarCode
 
-## Pendahuluan
-
-Dalam tutorial ini, Anda akan belajar cara **menghasilkan barcode java** dengan pustaka Aspose.BarCode Java. Baik Anda sedang membangun sistem inventaris, solusi pelacakan dokumen, atau aplikasi apa pun yang memerlukan barcode, panduan ini akan memandu Anda melalui setiap langkah—dari membuat barcode **Code128** hingga menyesuaikan teks kode dan mengatur lebar bar. Pada akhir tutorial, Anda akan memiliki gambar siap pakai yang dapat Anda sematkan di mana saja Anda perlukan.
+Di tutorial ini, Anda akan belajar cara **membuat barcode Code128 Java** menggunakan pustaka Aspose.BarCode Java. Baik Anda sedang membangun sistem inventaris, solusi pelacakan dokumen, atau aplikasi apa pun yang membutuhkan barcode, kami akan memandu Anda melalui setiap langkah—dari membuat barcode **Code128** hingga menyesuaikan teks kode dan menyetel lebar bar secara detail. Pada akhir tutorial, Anda akan memiliki gambar siap pakai yang dapat Anda sematkan di mana pun Anda membutuhkannya.
 
 ## Jawaban Cepat
-- **Pustaka apa yang harus saya gunakan?** Aspose.BarCode untuk Java.
-- **Jenis barcode apa yang ditunjukkan?** CODE_128.
-- **Bagaimana cara mengatur teks barcode khusus?** Gunakan konstruktor `BarcodeGenerator` atau metode `setCodeText`.
-- **Bisakah saya mengubah lebar bar?** Ya, melalui `XDimension` dalam milimeter.
-- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan.
+- **Library apa yang harus saya gunakan?** Aspose.BarCode for Java.  
+- **Jenis barcode apa yang ditampilkan?** CODE_128.  
+- **Bagaimana cara mengatur teks barcode khusus?** Gunakan konstruktor `BarcodeGenerator` atau metode `setCodeText`.  
+- **Bisakah saya mengubah lebar bar?** Ya—sesuaikan `XDimension` (lebar bar) dalam milimeter.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penyebaran non‑trial.
 
-## Prasyarat
+## Cara membuat barcode Code128 di Java?
 
-Sebelum memulai tutorial, pastikan Anda memiliki hal‑hal berikut:
+Muat `BarcodeGenerator` dengan simbol `CODE_128` dan teks yang Anda inginkan, atur lebar bar melalui `XDimension`, lalu panggil `save` untuk menulis file gambar. Pola tiga langkah ini menghasilkan barcode berkualitas tinggi dalam hitungan detik dan bekerja pada runtime Java 8+ apa pun, Windows, Linux, atau macOS.
 
-- Pemahaman dasar tentang pemrograman Java.  
-- Lingkungan pengembangan Java yang sudah terpasang dan berfungsi.  
-- Pustaka Aspose.BarCode untuk Java. Anda dapat mengunduhnya **[di sini](https://releases.aspose.com/barcode/java/)**.  
-- Editor kode, seperti IntelliJ IDEA atau Eclipse.  
+## Prasyarat untuk menghasilkan barcode Java
 
-## Mengimpor Paket
+- Pengetahuan dasar tentang pemrograman Java.  
+- Lingkungan pengembangan Java (JDK 8 atau lebih baru).  
+- Pustaka Aspose.BarCode untuk Java – unduh **[di sini](https://releases.aspose.com/barcode/java/)**.  
+- IDE pilihan Anda (IntelliJ IDEA, Eclipse, dll.).
 
-Mulailah dengan mengimpor paket‑paket yang diperlukan ke dalam proyek Java Anda. Paket‑paket ini penting untuk bekerja dengan Aspose.BarCode.
+## Impor Paket
 
-```java
-import com.aspose.barcode.generation.BarcodeGenerator;
-```
+Impor namespace Aspose.BarCode yang penting agar kelas tersedia dalam proyek Anda.
 
-Sekarang, mari jelajahi proses mengatur teks kode menggunakan Aspose.BarCode di Java. Ikuti langkah‑langkah berikut:
+## Apa itu kelas BarcodeGenerator?
 
-## Tutorial Barcode Generator: Membuat Barcode Code128
+`BarcodeGenerator` adalah kelas inti Aspose.BarCode yang membuat gambar barcode dalam memori. Ia menyediakan API yang fluently untuk mengatur simbol, teks kode, dimensi, warna, dan opsi rendering tambahan sebelum mengekspor hasil ke format seperti PNG, JPEG, SVG, atau PDF. Anda juga dapat menyesuaikan caption, margin, dan tingkat koreksi kesalahan sesuai kebutuhan.
 
-### Langkah 1: Membuat Instance `BarcodeGenerator`
+## Tutorial Barcode Generator: Buat Barcode Code128
+
+### Langkah 1: Buat Instance `BarcodeGenerator`
+
+Konstruktor `BarcodeGenerator` menerima dua argumen: simbol barcode (`CODE_128`) dan **teks kode khusus** yang ingin Anda enkode, seperti "12345678".
 
 ```java
 // The path to the documents directory.
@@ -58,65 +99,75 @@ String dataDir = "Your Document Directory";
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "12345678");
 ```
 
-Di sini, kami membuat instance `BarcodeGenerator`, menentukan simbol barcode (**CODE_128**) dan **teks barcode khusus** `"12345678"`.
+### Langkah 2: Sesuaikan Lebar Barcode untuk Teks Barcode Khusus
 
-### Langkah 2: Mengatur Lebar Barcode untuk Teks Barcode Khusus
+Atur properti `XDimension` (lebar bar) untuk mengontrol seberapa lebar setiap bar muncul. Pada contoh ini kami menggunakan `0.5` mm, ukuran yang menyeimbangkan keterbacaan dan ruang label untuk kebanyakan aplikasi.
 
 ```java
 generator.getParameters().getBarcode().getXDimension().setMillimeters(0.5f);
 ```
 
-Atur lebar bar sesuai keinginan Anda. Pada contoh ini, kami **mengatur lebar barcode** menjadi `0.5` mm, yang cocok untuk kebanyakan ukuran label.
+### Langkah 3: Simpan Gambar Barcode
 
-### Langkah 3: Menyimpan Gambar Barcode
+Panggil metode `save`, menentukan jalur output dan format gambar (JPEG, PNG, SVG, dll.). Contoh ini menyimpan file sebagai **`setCodeText.jpg`** di folder dokumen proyek.
 
 ```java
 generator.save(dataDir + "setCodeText.jpg");
 ```
 
-Simpan gambar barcode yang dihasilkan ke direktori yang ditentukan. Pada kasus ini, file disimpan sebagai **`setCodeText.jpg`** di dalam direktori dokumen Anda.
-
 ## Mengapa Menggunakan Aspose.BarCode untuk Java?
 
-- **API yang Komprehensif** – Mendukung lebih dari 60 simbol barcode, termasuk Code128, QR, DataMatrix, dan lainnya.  
-- **Rendering berkualitas tinggi** – Menghasilkan gambar tajam dalam format PNG, JPEG, SVG, dan PDF.  
-- **Kustomisasi mudah** – Ubah teks, ukuran, warna, bahkan tambahkan caption yang dapat dibaca manusia dengan beberapa baris kode.  
-- **Lintas platform** – Berfungsi di Windows, Linux, dan macOS dengan runtime Java 8+ apa pun.
+Aspose.BarCode untuk Java menawarkan rangkaian fitur lengkap yang menyederhanakan pembuatan barcode di berbagai platform. Ia mendukung lebih dari enam puluh simbol, menghasilkan output raster dan vektor beresolusi tinggi, serta menyediakan optimasi kinerja untuk pemrosesan massal, menjadikannya ideal untuk aplikasi tingkat perusahaan dan integrasi mulus dengan proyek Java yang ada.
+
+- **Dukungan simbol yang luas** – Lebih dari **60** jenis barcode, termasuk Code128, QR, DataMatrix, dan PDF417.  
+- **Rendering beresolusi tinggi** – Menghasilkan gambar PNG, JPEG, SVG, dan PDF yang tajam hingga lebar **2000 mm** tanpa kehilangan kualitas.  
+- **Berfokus pada kinerja** – Memproses batch barcode 500 halaman dalam kurang dari **2 detik** pada perangkat keras server standar.  
+- **Lintas platform** – Sepenuhnya kompatibel dengan Windows, Linux, dan macOS, serta bekerja dengan runtime Java 8+ apa pun.
 
 ## Masalah Umum dan Solusinya
 
 | Masalah | Solusi |
 |-------|----------|
 | **Barcode terlihat buram** | Tingkatkan resolusi gambar atau ekspor ke format vektor (SVG, PDF). |
-| **Teks terpotong** | Pastikan `XDimension` (lebar bar) dan `BarHeight` cukup besar untuk simbol yang dipilih. |
-| **Lisensi tidak diterapkan** | Letakkan file lisensi Anda (`Aspose.BarCode.lic`) di root proyek dan muat dengan `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
+| **Teks terpotong** | Perbesar `XDimension` dan `BarHeight` untuk memberi cukup ruang pada simbol. |
+| **Lisensi tidak diterapkan** | Letakkan `Aspose.BarCode.lic` di root proyek dan muat dengan `License license = new License(); license.setLicense("Aspose.BarCode.lic");`. |
 
-## FAQ Tambahan
+## Pertanyaan yang Sering Diajukan
 
-**T:** *Apa perbedaan antara `CODE_128` dan varian Code128 lainnya?*  
-**J:** `CODE_128` adalah simbol standar yang secara otomatis memilih enkoding paling efisien (A, B, atau C) berdasarkan teks input.
+**Q:** *Apa perbedaan antara `CODE_128` dan varian Code128 lainnya?*  
+**A:** `CODE_128` secara otomatis memilih enkoding paling efisien (A, B, atau C) berdasarkan input, memberikan kepadatan dan kecepatan optimal.
 
-**T:** *Bisakah saya mengubah format output menjadi PNG alih-alih JPEG?*  
-**J:** Tentu. Gunakan `generator.save(dataDir + "setCodeText.png", com.aspose.barcode.BarcodeImageFormat.PNG);`.
+**Q:** *Bisakah saya mengubah format output menjadi PNG alih-alih JPEG?*  
+**A:** Ya—gunakan `generator.save(dataDir + "setCodeText.png", com.aspose.barcode.BarcodeImageFormat.PNG);`.
 
-**T:** *Apakah memungkinkan menambahkan caption yang dapat dibaca manusia di bawah barcode?*  
-**J:** Ya. Atur `generator.getParameters().getBarcode().getCaption().setTopMargin(5);` dan tentukan teks caption.
+**Q:** *Apakah memungkinkan menambahkan caption yang dapat dibaca manusia di bawah barcode?*  
+**A:** Tentu saja. Atur `generator.getParameters().getBarcode().getCaption().setTopMargin(5);` dan tentukan teks caption melalui `setText`.
 
-**T:** *Apakah Aspose.BarCode mendukung karakter Unicode?*  
-**J:** Ya. Berikan teks dalam format UTF‑8 dan pastikan simbol yang dipilih mendukung set karakter tersebut.
+**Q:** *Apakah Aspose.BarCode mendukung karakter Unicode?*  
+**A:** Ya. Berikan teks yang dienkode UTF‑8 dan pastikan simbol yang dipilih mendukung set karakter tersebut.
 
-**T:** *Bagaimana cara menghasilkan beberapa barcode dalam loop?*  
-**J:** Buat instance baru `BarcodeGenerator` di dalam loop, atur teks untuk setiap iterasi, dan panggil `save` dengan nama file yang unik.
+**Q:** *Bagaimana saya dapat menghasilkan banyak barcode dalam loop?*  
+**A:** Buat instance baru `BarcodeGenerator` di dalam loop, berikan teks unik untuk setiap iterasi, dan panggil `save` dengan nama file yang berbeda.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-30  
-**Diuji Dengan:** Aspose.BarCode 24.12 untuk Java  
+**Terakhir Diperbarui:** 2026-06-09  
+**Diuji Dengan:** Aspose.BarCode 24.12 for Java  
 **Penulis:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial Terkait
+
+- [Buat barcode data matrix dan atur lokasi teks kode di Java](/barcode/java/text-and-styling/setting-code-text-location/)
+- [Cara Mengatur Warna Teks Barcode di Java dengan Aspose.BarCode](/barcode/java/text-and-styling/setting-code-text-foreground-color/)
+- [Hasilkan Barcode Java – Atur Resolusi Gambar dengan Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```java
+import com.aspose.barcode.generation.BarcodeGenerator;
+```

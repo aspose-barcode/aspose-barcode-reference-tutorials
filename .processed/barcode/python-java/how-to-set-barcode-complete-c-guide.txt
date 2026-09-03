@@ -1,0 +1,7 @@
+Title: How to set barcode – complete C# guide
+Slug: how-to-set-barcode-complete-c-guide
+Category: general
+ProcessedDate: 2026-08-16T02:34:07.113636
+SourceRepo: AI Search API
+Keywords: how to set barcode, how to generate barcode, create databar barcode, generate barcode image c#
+PRNumber: 102

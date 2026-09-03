@@ -1,0 +1,7 @@
+Title: How to Generate Barcode in C# – Complete Programming Guide
+Slug: how-to-generate-barcode-in-c-complete-programming-guide
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-07-21T22:18:50.803446
+SourceRepo: AI Search API
+Keywords: how to generate barcode, how to set dimensions, how to change columns, barcode generator for png
+PRNumber: 76

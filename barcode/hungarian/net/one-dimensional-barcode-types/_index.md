@@ -78,6 +78,8 @@ megtudhatja, hogyan hozhat létre vonalkódokat .NET-ben az Aspose.BarCode for .
 Ismerje meg, hogyan kezelheti a kivételeket, miközben egydimenziós vonalkódokat állít elő az Aspose.BarCode for .NET használatával. Ez a lépésenkénti útmutató hibatűrő vonalkód-megoldásokat biztosít. Kezd el most!
 ### [Egydimenziós széles-keskeny arány konfiguráció](./one-dimensional-wide-narrow-ratio-configuration/)
 Az Aspose.BarCode for .NET segítségével egyszerűen hozhat létre testreszabott vonalkódokat. Lépésről lépésre útmutató az egydimenziós széles-keskeny arány konfigurációhoz.
+### [Szövegből történő vonalkód generálás az Aspose.BarCode segítségével – C# útmutató](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Ismerje meg, hogyan hozhat létre vonalkódot szövegből C#-ban az Aspose.BarCode használatával, lépésről lépésre útmutatóval.
 ### [Hogyan generáljunk vonalkódot C#-ban – Teljes programozási útmutató](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Ismerje meg, hogyan hozhat létre vonalkódokat C#-ban az Aspose.BarCode segítségével, lépésről lépésre útmutató.
 

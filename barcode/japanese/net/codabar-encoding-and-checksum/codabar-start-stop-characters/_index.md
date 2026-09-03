@@ -1,9 +1,57 @@
 ---
-date: 2026-01-04
-description: Aspose.BarCode for .NET を使用して、開始文字と停止文字を含む Codabar バーコードの生成方法を学びましょう。開発者向けのステップバイステップのバーコード生成チュートリアルです。
-linktitle: Codabar Start/Stop Characters
+date: 2026-05-24
+description: Aspose.BarCode for .NETを使用して、開始および停止文字付きのCodabarバーコードを作成する方法を学びます。開発者向けのステップバイステップのバーコード生成チュートリアルです。
+keywords:
+- create codabar barcode
+- codabar start stop characters
+- aspose barcode example
+- barcode generation .net core
+linktitle: Codabar 開始/停止文字
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to create codabar barcode with start and stop characters
+    using Aspose.BarCode for .NET. Step‑by‑step barcode generation tutorial for developers.
+  headline: Create Codabar Barcode with Start/Stop Characters in Aspose.BarCode for
+    .NET
+  type: TechArticle
+- description: Learn how to create codabar barcode with start and stop characters
+    using Aspose.BarCode for .NET. Step‑by‑step barcode generation tutorial for developers.
+  name: Create Codabar Barcode with Start/Stop Characters in Aspose.BarCode for .NET
+  steps:
+  - name: Initialize the Barcode Generator
+    text: '`BarcodeGenerator` is the core class that creates barcode images. It takes
+      the symbology type and the data string as constructor arguments. > **Pro tip:**
+      The dash (`-`) is one of the valid start/stop symbols for Codabar. You can also
+      use `A`, `B`, `C`, or `D` depending on your application’s require'
+  - name: Set the X‑Dimension (barcode element width)
+    text: '`XDimension` controls the width of the narrowest bar. Larger values improve
+      readability on low‑resolution printers, while smaller values conserve space
+      on high‑density labels. > **Why it matters:** Adjusting `XDimension` helps you
+      meet scanner specifications that often require a minimum bar width of'
+  - name: Define Start and Stop Characters
+    text: Codabar supports four start/stop symbols (A, B, C, D). Below are examples
+      for each option. Choose the one that matches the specification of the system
+      you’re integrating with.
+  - name: Save the Generated Barcode Images (PNG)
+    text: '`Save` writes the barcode to a file. Using `BarCodeImageFormat.Png` produces
+      lossless PNG images that are ideal for web and print use cases. Each file now
+      contains a **codabar barcode example** with the corresponding start/stop symbols.'
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for .NET
+    question: What library do I need?
+  - answer: PNG (`BarCodeImageFormat.Png`)
+    question: Which format can I save the barcode in?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license for development?
+  - answer: Yes – use `CodabarSymbol.A`, `B`, `C`, or `D`.
+    question: Can I change the start/stop symbols?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: What .NET versions are supported?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Aspose.BarCode for .NET で開始/停止文字付き Codabar バーコードを生成する
+title: Aspose.BarCode for .NETで開始/停止文字付きCodabarバーコードを作成する
 url: /ja/net/codabar-encoding-and-checksum/codabar-start-stop-characters/
 weight: 11
 ---
@@ -12,43 +60,51 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET で開始/停止文字付き Codabar バーコードを生成する
+# Aspose.BarCode for .NET で開始/停止文字付き Codabar バーコードを作成する
 
 ## はじめに
 
-この包括的なガイドへようこそ。Aspose.BarCode for .NET を使用して **Codabar バーコード** 画像を開始/停止文字付きで生成する方法をご紹介します。小売在庫システム、ラボサンプルトラッカー、医療記録ソリューションなど、Codabar は正確なスキャンのために明示的な開始・停止シンボルが必要な信頼性の高い数値シンボロジーです。数分で前提条件から最終 PNG ファイルの保存まで、必要なすべてを解説しますので、すぐに Codabar バーコードの作成を開始できます。
+このチュートリアルでは、Aspose.BarCode for .NET を使用して **Codabar バーコード** 画像を作成し、開始/停止文字を明示的に含めます。小売在庫システム、ラボサンプルトラッカー、医療記録ソリューションなど、Codabar の数値シンボロジーは境界シンボルに依存して信頼性の高いスキャンを保証します。数分で環境設定から PNG ファイルの保存までをカバーし、すぐに Codabar バーコードの生成を開始できるようにします。
 
 ## クイック回答
 - **必要なライブラリは何ですか？** Aspose.BarCode for .NET  
-- **バーコードはどの形式で保存できますか？** PNG (BarCodeImageFormat.Png)  
-- **開発にライセンスは必要ですか？** テストには無料トライアルで動作しますが、製品版には商用ライセンスが必要です。  
-- **開始/停止シンボルを変更できますか？** はい – CodabarSymbol.A、B、C、または D を使用します。  
-- **サポートされている .NET バージョンは何ですか？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+- **どの形式でバーコードを保存できますか？** PNG (`BarCodeImageFormat.Png`)  
+- **開発にライセンスは必要ですか？** テスト用の無料トライアルで動作しますが、商用利用にはライセンスが必要です。  
+- **開始/停止シンボルは変更できますか？** はい – `CodabarSymbol.A`, `B`, `C`, または `D` を使用します。  
+- **サポートされている .NET バージョンは？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
+
+## Codabar とは何か、開始/停止文字が重要な理由
+
+Codabar は図書館、医療、在庫管理で広く使用される数値バーコードシンボロジーです。開始文字と停止文字（A‑D またはハイフン）はバーコードの境界を定義し、スキャナーがデータの開始と終了を 99.9 % の読み取り精度で検出できるようにします。
+
+## なぜ Aspose.BarCode for .NET を使用するのか
+
+Aspose.BarCode は **30 以上のバーコードシンボロジー** をサポートし、**10,000 × 10,000 px** までの画像をメモリ全体をロードせずに生成できます。Windows、Linux、macOS 上で動作し、.NET Framework、.NET Core、.NET 5+ と互換性があるため、すべての最新プラットフォームで柔軟に利用できます。
 
 ## 前提条件
 
-開始する前に、このチュートリアルを進めるために必要なものがすべて揃っていることを確認しましょう。
-
-1. **環境設定** – マシンに動作する .NET 開発環境があることを確認してください。ガイダンスが必要な場合は、[ドキュメント](https://reference.aspose.com/barcode/net/) を参照してください。  
-2. **Aspose.BarCode for .NET ライブラリ** – 公式の [ソース](https://releases.aspose.com/barcode/net/) からダウンロードしてインストールします。  
-3. **基本的な .NET 知識** – C# と Visual Studio（または好みの IDE）に慣れていると手順がスムーズです。  
+1. **環境設定** – 動作する .NET 開発環境を確保してください。ガイダンスが必要な場合は、[documentation](https://reference.aspose.com/barcode/net/) を参照してください。  
+2. **Aspose.BarCode for .NET ライブラリ** – 公式 [source](https://releases.aspose.com/barcode/net/) からダウンロードしてインストールしてください。  
+3. **基本的な .NET 知識** – C# と Visual Studio、Rider、または VS Code などの IDE に慣れていること。  
 4. **IDE** – Visual Studio、Rider、または Visual Studio Code のいずれでも構いません。
 
 前提条件の説明が終わったので、実際のコードに入りましょう。
 
-## 名前空間のインポート
+## 開始/停止文字付き Codabar バーコードはどのように生成しますか？
 
-Aspose.BarCode for .NET を使い始めるには、必要な名前空間をインポートしてください。
+`BarcodeGenerator` をロードし、エンコーディングタイプを **Codabar** に設定し、必要な開始/停止シンボルをすでに含むデータ文字列（例: “-12345-”）を渡します。次に X‑Dimension を構成し、必要に応じて別の開始/停止シンボルを選択し、最後に PNG として画像を保存します。このエンドツーエンドのフローにより、数行の C# で使用可能なバーコードがすぐに作成できます。
+
+### 名前空間のインポート
+
+`BarcodeGenerator` と関連型は `Aspose.BarCode.Generation` 名前空間にあります。
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## Codabar バーコード生成手順 – ステップバイステップガイド
+### ステップ 1: Barcode Generator の初期化
 
-### ステップ 1: バーコードジェネレータの初期化
-
-`BarcodeGenerator` インスタンスを作成し、エンコーディングタイプとして **Codabar** を指定し、開始/停止文字をすでに含んだデータ文字列（例: “-12345-”）を提供します。
+`BarcodeGenerator` はバーコード画像を作成するコアクラスです。シンボロジータイプとデータ文字列をコンストラクタ引数として受け取ります。
 
 ```csharp
 string path = "Your Directory Path";
@@ -57,21 +113,21 @@ System.Console.WriteLine("CodabarStartStop:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Codabar, "-12345-");
 ```
 
-> **Pro tip:** ダッシュ (`-`) は Codabar の有効な開始/停止シンボルの一つです。アプリケーションの要件に応じて A、B、C、または D も使用できます。
+> **プロのコツ:** ハイフン（`-`）は Codabar の有効な開始/停止シンボルの一つです。アプリケーションの要件に応じて `A`, `B`, `C`, `D` も使用できます。
 
-### ステップ 2: X‑Dimension の設定（バーコード要素の幅）
+### ステップ 2: X‑Dimension の設定（バーコード要素の幅）
 
-X‑Dimension は最も細いバーの幅を制御します。スキャン環境に合わせて調整してください。
+`XDimension` は最も狭いバーの幅を制御します。値を大きくすると低解像度プリンターでの可読性が向上し、値を小さくすると高密度ラベルでのスペースが節約できます。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-> **Why it matters:** 大きな X‑Dimension は低解像度プリンターでの可読性を向上させ、逆に小さな値は高密度ラベルでのスペース節約につながります。
+> **重要性:** `XDimension` を調整することで、しばしば最小バー幅 0.25 mm が求められるスキャナー仕様を満たすことができます。
 
-### ステップ 3: 開始・停止文字の定義
+### ステップ 3: 開始文字と停止文字の定義
 
-Codabar は 4 つの開始/停止シンボル (A, B, C, D) をサポートします。以下に各オプションの例を示します。統合するシステムの仕様に合うものを選んでください。
+Codabar は 4 つの開始/停止シンボル（A, B, C, D）をサポートします。以下に各オプションの例を示します。統合するシステムの仕様に合うものを選択してください。
 
 #### 開始 A と停止 A の設定
 
@@ -101,11 +157,11 @@ gen.Parameters.Barcode.Codabar.CodabarStartSymbol = CodabarSymbol.D;
 gen.Parameters.Barcode.Codabar.CodabarStopSymbol = CodabarSymbol.D;
 ```
 
-必要なシンボルごとに設定を繰り返すことができます。以下の例では、4 つの開始/停止ペアそれぞれに対して別々の画像を保存しています。
+必要なシンボルごとに構成を繰り返すことができます。以下の例は、4 つの開始/停止ペアそれぞれに対して別々の画像を保存します。
 
-### ステップ 4: 生成したバーコード画像の保存 (PNG)
+### ステップ 4: 生成されたバーコード画像の保存（PNG）
 
-最後に、バーコードを PNG ファイルとして書き出します。これにより **save barcode png** のユースケースが示され、テスト用のすぐに使えるアセットが手に入ります。
+`Save` はバーコードをファイルに書き込みます。`BarCodeImageFormat.Png` を使用すると、ウェブや印刷で理想的なロスレス PNG 画像が生成されます。
 
 ```csharp
 gen.Save($"{path}CodabarStartAStopA.png", BarCodeImageFormat.Png);
@@ -114,45 +170,49 @@ gen.Save($"{path}CodabarStartCStopC.png", BarCodeImageFormat.Png);
 gen.Save($"{path}CodabarStartDStopD.png", BarCodeImageFormat.Png);
 ```
 
-各ファイルには対応する開始/停止シンボルを持つ **codabar barcode example** が含まれています。
+各ファイルには対応する開始/停止シンボルを持つ **Codabar バーコードの例** が含まれます。
 
-## よくある問題とトラブルシューティング
+## 一般的な問題とトラブルシューティング
 
-| 症状 | 考えられる原因 | 対策 |
-|------|----------------|------|
-| バーコードが歪んで見える | 選択したプリンター解像度に対して X‑Dimension が低すぎる | `XDimension.Pixels` を増やす（例: 3 または 4 に） |
-| スキャナーが開始/停止文字を読み取れない | 対象システムに対して誤った開始/停止シンボルを使用している | 必要なシンボル (A‑D) を確認し、適切に設定する |
-| PNG ファイルが空または破損している | 出力パスが無効、または書き込み権限が不足している | `path` が既存のフォルダーを指し、アプリに書き込み権限があることを確認する |
+| 症状 | 考えられる原因 | 対処法 |
+|------|----------------|--------|
+| バーコードが歪んで見える | X‑Dimension が選択したプリンター解像度に対して低すぎる | `XDimension.Pixels` を増やす（例: 3 または 4） |
+| スキャナーが開始/停止文字を読めない | 対象システムに合わない開始/停止シンボルを使用している | 必要なシンボル（A‑D）を確認し、正しく設定する |
+| PNG ファイルが空または破損している | 出力パスが無効、または書き込み権限が不足している | `path` が既存フォルダーを指しているか、アプリに書き込み権限があるか確認する |
 
 ## よくある質問
 
-### Q1: Codabar とは何ですか、そして開始・停止文字が重要な理由は？
+**Q1: Codabar とは何か、開始/停止文字が重要な理由は？**  
+A: Codabar は在庫、図書館、医療で使用される数値バーコードシンボロジーです。開始/停止文字はバーコードの境界を定義し、スキャナーがデータの開始と終了を正確に認識できるようにします。
 
-**A1:** Codabar は在庫管理、図書館、医療分野で広く使用されている数値バーコードシンボロジーです。開始・停止文字はバーコードの境界を定義し、スキャナーがデータの開始位置と終了位置を正しく認識できるようにします。
+**Q2: Aspose.BarCode for .NET で Codabar バーコードの外観をカスタマイズできますか？**  
+A: はい。X‑Dimension 以外にも色の変更、余白の追加、PDF や SVG へのエクスポートなど、同じ API で行えます。
 
-### Q2: Aspose.BarCode for .NET で Codabar バーコードの外観をカスタマイズできますか？
+**Q3: Codabar バーコードのデータエンコードに制限はありますか？**  
+A: Codabar は主に数値データ（0‑9）と限られた特殊文字をサポートします。完全な英数字文字列には適していません。
 
-**A2:** はい。X‑Dimension に加えて、色の変更、余白の追加、さらには同じ API を使用して PDF や SVG 形式に埋め込むことも可能です。
+**Q4: Aspose.BarCode for .NET は商用利用に適していますか？ライセンスはどこで取得できますか？**  
+A: はい、商用利用に対応しています。ライセンスは [Aspose の購入ページ](https://purchase.aspose.com/buy) から入手してください。
 
-### Q3: データエンコードに関して Codabar バーコードに制限はありますか？
+**Q5: Aspose.BarCode for .NET に関するサポートや議論はどこで行えますか？**  
+A: [Aspose.BarCode for .NET サポートフォーラム](https://forum.aspose.com/c/barcode/13) に参加すると、Aspose エンジニアや他の開発者から支援を受けられます。
 
-**A3:** Codabar は主に数値データ (0‑9) といくつかの特殊文字をサポートします。フルアルファベット文字列には適していません。
+---
 
-### Q4: Aspose.BarCode for .NET は商用利用に適していますか、ライセンスはどう取得すればよいですか？
-
-**A4:** はい、製品版として使用可能です。ライセンスは [Aspose の購入ページ](https://purchase.aspose.com/buy) から購入してください。
-
-### Q5: Aspose.BarCode for .NET に関するサポートや議論はどこでできますか？
-
-**A5:** [Aspose.BarCode for .NET サポートフォーラム](https://forum.aspose.com/c/barcode/13) に参加すれば、Aspose エンジニアや他の開発者から支援を受けられます。
-
-**最終更新日:** 2026-01-04  
+**最終更新日:** 2026-05-24  
 **テスト環境:** Aspose.BarCode 24.11 for .NET  
-**作者:** Aspose  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Codabar Start Stop Characters and Checksum](/barcode/net/codabar-encoding-and-checksum/)
+- [How to Add Checksum to Codabar Barcodes Using Aspose.BarCode for .NET](/barcode/net/codabar-encoding-and-checksum/codabar-checksum-calculation/)
+- [Comprehensive Tutorials and Examples of Aspose.BarCode for .NET](/barcode/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

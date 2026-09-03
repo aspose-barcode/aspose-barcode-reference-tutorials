@@ -1,11 +1,61 @@
 ---
-date: 2025-12-30
-description: Узнайте, как использовать генератор штрих‑кодов .net для кодирования
-  Aztec Bytes, преобразовать массив байтов в строку c# и считывать азтек‑штрих‑код
-  с помощью Aspose.BarCode.
-linktitle: Aztec Bytes Encoding
+date: 2026-05-19
+description: Узнайте, как кодировать штрихкоды Aztec с помощью Aspose.BarCode, преобразовать
+  массив байтов C# в строку и генерировать 2D‑штрихкод C# в .NET.
+keywords:
+- how to encode aztec
+- convert byte array c#
+- generate 2d barcode c#
+linktitle: Кодирование байтов Aztec
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to encode Aztec barcodes with Aspose.BarCode, convert byte
+    array C# to string, and generate 2D barcode C# in .NET.
+  headline: How to Encode Aztec Bytes Using Barcode Generator .NET
+  type: TechArticle
+- description: Learn how to encode Aztec barcodes with Aspose.BarCode, convert byte
+    array C# to string, and generate 2D barcode C# in .NET.
+  name: How to Encode Aztec Bytes Using Barcode Generator .NET
+  steps:
+  - name: Define the Directory Path
+    text: Specify a folder where the generated image will be written. Ensure the path
+      ends with a directory separator (`\` or `/`) to avoid file‑not‑found errors.
+  - name: Initialize the Byte Array
+    text: Create a sample **byte array** that represents the binary payload you want
+      to embed.
+  - name: Create the Aztec Barcode
+    text: '`BarcodeGenerator` is configured with `EncodeTypes.Aztec` and `EncodeTypes.AztecSymbolMode.Bytes`
+      to indicate raw‑byte encoding. The `CodeText` property receives the string produced
+      in the previous step.'
+  - name: Save the Barcode Image
+    text: Call the `Save` method with a PNG format to obtain a lossless image suitable
+      for verification and downstream processing.
+  - name: Verify by reading the Aztec barcode
+    text: '`BarCodeReader` is the Aspose.BarCode class used to read and decode barcodes
+      from images or streams. It reads the generated PNG, extracts the encoded string,
+      and lets you compare it with the original payload to ensure correctness. With
+      these steps you have successfully performed **Aztec Bytes Encodi'
+  type: HowTo
+- questions:
+  - answer: It’s a method of embedding raw binary data directly into an Aztec 2‑D
+      barcode, enabling compact storage of any byte sequence.
+    question: What is Aztec Bytes Encoding?
+  - answer: 'You can download it from the official site: [Download Aspose.BarCode
+      for .NET](https://releases.aspose.com/barcode/net/).'
+    question: Where can I download Aspose.BarCode for .NET?
+  - answer: Visit the [Temporary License page](https://purchase.aspose.com/temporary-license/)
+      to request a trial license.
+    question: How can I obtain a temporary license?
+  - answer: Yes—Aspose.BarCode can be used in both personal and commercial applications
+      with a valid license.
+    question: Is the library suitable for commercial projects?
+  - answer: Absolutely—QR codes, Code 128, UPC, DataMatrix, and more than 30 additional
+      symbologies are fully supported.
+    question: Does Aspose.BarCode support other barcode types?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Кодирование байтов Aztec с помощью генератора штрихкодов .NET
+title: Как закодировать байты Aztec с помощью Barcode Generator .NET
 url: /ru/net/aztec-barcode-encoding/aztec-bytes-encoding/
 weight: 11
 ---
@@ -14,31 +64,32 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Кодирование Aztec Bytes с помощью barcode generator .net
+# Как кодировать байты Aztec с помощью Barcode Generator .NET
 
-В этом полном руководстве вы узнаете, как выполнять **Aztec Bytes Encoding** с помощью **barcode generator .net**, предоставляемого Aspose.BarCode. Мы пройдём всё необходимое — от предварительных требований и импортов пространств имён до генерации, сохранения и операций **read aztec barcode**. К концу вы также будете знать, как эффективно преобразовать **byte array to string c#** для создания штрих‑кода. Приступим!
+В этом подробном руководстве вы узнаете **как кодировать Aztec** штрихкоды с помощью **barcode generator .NET**, поставляемого Aspose.BarCode. Мы рассмотрим всё: от установки библиотеки и импорта пространств имён до преобразования массива байтов в строку в C#, генерации 2‑D Aztec штрихкода, сохранения изображения и, наконец, чтения Aztec штрихкода для проверки результата. К концу вы сможете внедрить любой двоичный полезный груз — файлы, хэши или зашифрованные данные — непосредственно в символ Aztec.
 
 ## Быстрые ответы
-- **Какая библиотека нужна?** Aspose.BarCode for .NET (полнофункциональный barcode generator .net).  
-- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Как преобразовать данные?** Используйте `StringBuilder` для преобразования **byte array to string c#**.  
-- **Можно ли проверить результат?** Да — используйте `BarCodeReader` для **read aztec barcode** после генерации.  
-- **Нужна ли лицензия?** Для продакшна требуется временная лицензия; доступна бесплатная пробная версия.
+- **Какая библиотека мне нужна?** Aspose.BarCode for .NET, полнофункциональный генератор штрихкодов .NET, поддерживающий более 30 символогий.  
+- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **Как преобразовать данные?** Используйте `StringBuilder`, чтобы преобразовать **byte array to string C#**; генератор затем принимает строковый полезный груз.  
+- **Могу ли я проверить результат?** Да — `BarCodeReader` считывает Aztec штрихкод после генерации.  
+- **Нужна ли лицензия?** Для продакшн требуется временная лицензия; доступна бесплатная пробная версия.
 
-## Что такое barcode generator .net?
-**barcode generator .net** — это .NET‑библиотека, позволяющая разработчикам программно создавать широкий спектр 1‑D и 2‑D штрих‑кодов. Aspose.BarCode предоставляет обширную поддержку Aztec, QR, Code 128, UPC и многих других символьных систем, что делает её идеальной для корпоративных приложений.
+## Что такое barcode generator .NET?
+**barcode generator .NET** — это библиотека .NET, позволяющая разработчикам программно создавать широкий спектр 1‑D и 2‑D штрихкодов. Aspose.BarCode предоставляет обширную поддержку Aztec, QR, Code 128, UPC и многих других символогий, делая её идеальной для корпоративных приложений.
 
-## Почему использовать Aztec Bytes Encoding?
-Коды Aztec — компактные, высокоплотные 2‑D штрих‑коды, способные хранить бинарные данные без отдельной «тихой зоны». Кодирование необработанных байтов (вместо обычного текста) позволяет внедрять файлы, криптографические хэши или любой бинарный полезный груз непосредственно в штрих‑код. Это особенно полезно для систем учёта, защищённого билетерования и приложений в стиле data‑matrix.
+## Почему использовать кодирование байтов Aztec?
+Коды Aztec — это компактные, высокоплотные 2‑D штрихкоды, которые могут хранить двоичные данные без отдельной «тихой зоны». Кодирование необработанных байтов (вместо обычного текста) позволяет внедрять файлы, криптографические хэши или любой двоичный полезный груз непосредственно в штрихкод. Это особенно полезно для систем инвентаризации, защищённого билета и приложений в стиле data‑matrix.
 
 ## Предварительные требования
 
-1. **Aspose.BarCode for .NET** — скачайте здесь: [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).  
-2. **Среда разработки .NET** — Visual Studio, VS Code или любой IDE, поддерживающий C#.
+1. **Aspose.BarCode for .NET** – Скачайте его здесь: [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).  
+2. **.NET Development Environment** – Visual Studio, VS Code или любой IDE, поддерживающий C#.
 
-Теперь, когда у вас есть всё необходимое, импортируем нужные пространства имён.
+Теперь, когда у вас есть все необходимые компоненты, импортируем необходимые пространства имён.
 
 ## Импорт пространств имён
+`BarcodeGenerator` — основной класс Aspose.BarCode, создающий изображения штрихкодов. `BarCodeReader` считывает штрихкоды из изображений или потоков.
 
 ```csharp
 using System;
@@ -47,25 +98,25 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-После импорта пространств имён мы можем приступить к построению Aztec‑кода.
+## Как кодировать Aztec с помощью barcode generator .NET?
+`BarcodeGenerator` — класс Aspose.BarCode, создающий изображения штрихкодов из предоставленных данных. Загрузите свои данные, преобразуйте массив байтов в строку, настройте `BarcodeGenerator` для Aztec, сохраните изображение и, наконец, проверьте его с помощью `BarCodeReader`. Этот сквозной процесс занимает всего несколько строк кода C# и работает на любой поддерживаемой среде .NET.
 
-## Шаг 1: Определите путь к каталогу
+### Шаг 1: Определите путь к каталогу
+Укажите папку, в которую будет записано сгенерированное изображение. Убедитесь, что путь заканчивается разделителем каталогов (`\` или `/`), чтобы избежать ошибок «файл не найден».
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Шаг 2: Инициализируйте массив байтов
-
-Здесь мы создаём пример **byte array**, который позже закодируем.
+### Шаг 2: Инициализируйте массив байтов
+Создайте пример **byte array**, представляющий двоичный полезный груз, который вы хотите внедрить.
 
 ```csharp
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 ```
 
-## Преобразование byte array to string c# — Шаг 3
-
-Мы преобразуем массив байтов в строку с помощью `StringBuilder`. Это преобразование **byte array to string c#** необходимо, потому что barcode generator ожидает строковый payload.
+### Преобразование массива байтов в строку C# – Шаг 3
+Класс `StringBuilder` эффективно создает строку, добавляя символы, что идеально подходит для преобразования массивов байтов в текст.  
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -73,9 +124,8 @@ foreach (byte bval in encodedArr)
     strBld.Append((char)bval);
 ```
 
-## Шаг 4: Создайте Aztec‑штрих‑код
-
-Теперь используем **barcode generator .net** для создания кода Aztec. Устанавливаем тип кодирования, режим символов и удобный отображаемый текст.
+### Шаг 4: Создайте Aztec штрихкод
+`BarcodeGenerator` настроен с `EncodeTypes.Aztec` и `EncodeTypes.AztecSymbolMode.Bytes` для указания кодирования необработанными байтами. Свойство `CodeText` получает строку, полученную на предыдущем шаге.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, strBld.ToString());
@@ -84,15 +134,15 @@ gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Auto;
 gen.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "Bytes mode";
 ```
 
-## Шаг 5: Сохраните изображение штрих‑кода
+### Шаг 5: Сохраните изображение штрихкода
+Вызовите метод `Save` с форматом PNG, чтобы получить без потерь изображение, подходящее для проверки и последующей обработки.
 
 ```csharp
 gen.Save($"{path}AztecBytesEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Шаг 6: Проверка чтением Aztec‑штрих‑кода
-
-Чтобы **read aztec barcode** и подтвердить корректность кодирования, используем `BarCodeReader` для сгенерированного изображения.
+### Шаг 6: Проверьте, считав Aztec штрихкод
+`BarCodeReader` — класс Aspose.BarCode, используемый для чтения и декодирования штрихкодов из изображений или потоков. Он считывает сгенерированный PNG, извлекает закодированную строку и позволяет сравнить её с оригинальным полезным грузом, чтобы убедиться в правильности.
 
 ```csharp
 BarCodeReader read = new BarCodeReader(gen.GenerateBarCodeImage(), DecodeType.Aztec);
@@ -100,43 +150,54 @@ foreach (BarCodeResult result in read.ReadBarCodes())
     Console.WriteLine("AztecBytesEncoding:" + BitConverter.ToString(result.CodeBytes));
 ```
 
-Выполнив эти шаги, вы успешно реализовали Aztec Bytes Encoding с помощью **barcode generator .net** и проверили результат.
+С помощью этих шагов вы успешно выполнили **Aztec Bytes Encoding** с использованием **barcode generator .NET**, сохранили результат и подтвердили полезный груз, считав Aztec штрихкод.
 
 ## Распространённые проблемы и советы
 
-- **Неправильный путь** — убедитесь, что переменная `path` заканчивается разделителем каталога (`\` или `/`).  
-- **Ошибки лицензии** — если появляются предупреждения о лицензировании, примените временную или постоянную лицензию перед вызовом `BarcodeGenerator`.  
-- **Преобразование байт‑в‑символ** — некоторые значения байтов могут соответствовать непечатаемым Unicode‑символам; это нормально для бинарных полезных грузов.  
-- **Формат изображения** — рекомендуется PNG для безпотерьного качества; при необходимости можно использовать JPEG или BMP.
+- **Неправильный путь** – Убедитесь, что переменная `path` заканчивается разделителем каталогов (`\` или `/`).  
+- **Ошибки лицензии** – Примените временную или постоянную лицензию перед созданием экземпляра `BarcodeGenerator`, чтобы подавить предупреждения об оценке.  
+- **Преобразование байт‑в‑символ** – Некоторые значения байтов соответствуют непечатаемым символам Unicode; это ожидаемо для двоичных полезных грузов.  
+- **Формат изображения** – Рекомендуется PNG для без потерь качества; JPEG или BMP могут использоваться, когда важен размер.  
 
 ## Часто задаваемые вопросы
 
-**В: Что такое Aztec Bytes Encoding?**  
-О: Это метод кодирования необработанных бинарных данных в 2‑D штрих‑код Aztec, позволяющий компактно хранить любую последовательность байтов.
+**Q: Что такое Aztec Bytes Encoding?**  
+A: Это метод внедрения необработанных двоичных данных непосредственно в Aztec 2‑D штрихкод, позволяющий компактно хранить любую последовательность байтов.
 
-**В: Где скачать Aspose.BarCode for .NET?**  
-О: Скачать можно с официального сайта: [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).
+**Q: Где можно скачать Aspose.BarCode for .NET?**  
+A: Вы можете скачать его с официального сайта: [Download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).
 
-**В: Как получить временную лицензию?**  
-О: Перейдите на страницу [Temporary License page](https://purchase.aspose.com/temporary-license/) и запросите пробную лицензию.
+**Q: Как получить временную лицензию?**  
+A: Перейдите на страницу [Temporary License page](https://purchase.aspose.com/temporary-license/), чтобы запросить пробную лицензию.
 
-**В: Подходит ли библиотека для коммерческих проектов?**  
-О: Да, Aspose.BarCode может использоваться в личных и коммерческих приложениях при наличии действующей лицензии.
+**Q: Подходит ли библиотека для коммерческих проектов?**  
+A: Да — Aspose.BarCode может использоваться как в личных, так и в коммерческих приложениях при наличии действующей лицензии.
 
-**В: Поддерживает ли Aspose.BarCode другие типы штрих‑кодов?**  
-О: Конечно — QR‑коды, Code 128, UPC, DataMatrix и многие другие полностью поддерживаются.
+**Q: Поддерживает ли Aspose.BarCode другие типы штрихкодов?**  
+A: Конечно — QR‑коды, Code 128, UPC, DataMatrix и более 30 дополнительных символогий полностью поддерживаются.
 
-## Заключение
-
-В этом руководстве мы рассмотрели, как с помощью **barcode generator .net** создать Aztec‑штрих‑код из **byte array to string c#**, сохранить его как изображение и затем **read aztec barcode** для проверки результата. Aspose.BarCode for .NET делает весь процесс простым, надёжным и готовым к интеграции в любое .NET‑приложение.
-
-Если возникнут трудности, задавайте вопросы на [форуме поддержки Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+**Q: Где можно получить помощь или задать вопросы?**  
+A: Используйте [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13) для получения помощи от сообщества и сотрудников.
 
 ---
 
-**Последнее обновление:** 2025-12-30  
+**Последнее обновление:** 2026-05-19  
 **Тестировано с:** Aspose.BarCode 24.11 for .NET  
-**Автор:** Aspose  
+**Автор:** Aspose
+
+```csharp
+using System;
+using System.Text;
+using Aspose.BarCode.Generation;
+using Aspose.BarCode.BarCodeRecognition;
+```
+
+## Связанные руководства
+
+- [Кодирование текста Aztec с помощью Aspose.BarCode for .NET](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
+- [Как сгенерировать Aztec штрихкод с пользовательским соотношением сторон, используя Aspose.BarCode for .NET](/barcode/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [Как создать Aztec штрихкод с коррекцией ошибок в .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

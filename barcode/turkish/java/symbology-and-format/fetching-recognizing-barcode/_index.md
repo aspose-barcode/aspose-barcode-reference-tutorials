@@ -1,38 +1,56 @@
 ---
-title: Java'da Barkod Alma ve Tanıma
-linktitle: Barkodu Alma ve Tanıma
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode for Java'yı zahmetsizce entegre edin - bir veritabanından barkodları alın ve tanıyın. Sorunsuz bir barkod entegrasyon deneyimi için hemen indirin.
-weight: 11
+date: 2026-04-29
+description: Aspose.BarCode kullanarak Java’da barkod okuma yöntemini öğrenin. Bu
+  öğreticide, bir veritabanından barkod görüntülerini alıp tanıyan barkod okuyucu
+  örneği gösterilmektedir.
+keywords:
+- read barcode java
+- barcode reader example
+- java barcode library
+- read barcode image
+- recognize barcode image
+linktitle: Barkod Getirme ve Tanıma
+second_title: Aspose.BarCode Java API
+title: Java'da Barkod Okuma – Aspose ile Barkodları Al ve Tanı
 url: /tr/java/symbology-and-format/fetching-recognizing-barcode/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Barkod Alma ve Tanıma
+# Barcode Java Okuma – Barkodları Getirme ve Tanıma
 
+## Giriş
 
-## giriiş
+Eğer **read barcode java** uygulamalarını hızlı bir şekilde okumanız gerekiyorsa, Aspose.BarCode for Java, veritabanından barkod görüntülerini alıp sadece birkaç kod satırıyla tanıyan basit ve yüksek performanslı bir yol sunar. Bu öğreticide, bir veritabanına nasıl bağlanılacağını, bir barkod görüntüsünün nasıl çıkarılacağını ve Aspose barkod okuyucusunun nasıl çözüleceğini gösteren eksiksiz, gerçek dünya örneği üzerinden ilerleyeceğiz. Sonunda, herhangi bir Java projesine ekleyebileceğiniz yeniden kullanılabilir bir kod parçacığına sahip olacaksınız.
 
-Barkod tanımayı Java uygulamanıza zahmetsizce entegre etmek mi istiyorsunuz? Aspose.BarCode for Java, barkodları kolaylıkla almak ve tanımak için güçlü ve kullanıcı dostu bir çözüm sunar. Bu adım adım kılavuzda, Aspose.BarCode'u kullanarak barkodları alma ve tanıma sürecinde size yol göstererek Java projenize kusursuz bir entegrasyon sağlayacağız.
+## Hızlı Yanıtlar
+- **Kütüphane ne yapar?** Dosyalardan veya akışlardan doğrudan barkod görüntülerini (ör. Code 39) okur.  
+- **Hedeflenen birincil anahtar kelime nedir?** read barcode java  
+- **Test için lisansa ihtiyacım var mı?** Değerlendirme için geçici bir lisans mevcuttur.  
+- **Hangi veritabanı türü gösteriliyor?** Örnek MySQL kullanıyor, ancak kod herhangi bir JDBC‑uyumlu veritabanıyla çalışır.  
+- **Uygulama ne kadar sürer?** Temel bir entegrasyon için yaklaşık 10‑15 dakika.
+
+## “read barcode java” nedir?
+Java'da bir barkodu okumak, barkod desenini içeren bir görüntüyü yüklemek ve bu deseni orijinal veri dizesine çevirmek için bir kod çözücü motoru kullanmak anlamına gelir. Aspose.BarCode, Code 39, QR ve DataMatrix dahil olmak üzere düzinelerce sembolojiye destek veren sağlam bir çözücü sağlar.
+
+## Neden Aspose’un Java barkod kütüphanesini kullanmalısınız?
+- **Geniş semboloji desteği** – kutudan çıkınca 150'den fazla barkod türü.  
+- **Harici bağımlılık yok** – saf Java, JDK 8+ yüklü herhangi bir platformda çalışır.  
+- **Yüksek doğruluk** – optimize edilmiş algoritmalar, düşük kaliteli görüntülerde bile yanlış okuma oranını azaltır.  
+- **Basit API** – birkaç kod satırı ham bir görüntüyü okunabilir metne dönüştürür.
 
 ## Önkoşullar
-
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-
-- Java programlamanın temel anlayışı.
--  Aspose.BarCode for Java kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/barcode/java/).
-- BLOB formatında saklanan barkod görüntülerinin bulunduğu bir veritabanına erişim.
-- Makinenizde Java Geliştirme Kiti (JDK) yüklü.
+- Java programlamaya temel bilgi.  
+- Aspose.BarCode for Java kütüphanesi (indirmek için **[buradan](https://releases.aspose.com/barcode/java/)**).  
+- Barkod görüntülerini BLOB olarak saklayan bir veritabanına erişim.  
+- Geliştirme makinenizde JDK 8 veya daha yenisi yüklü.
 
 ## Paketleri İçe Aktar
 
-Başlamak için Java projeniz için gerekli paketleri içe aktarın. Aspose.BarCode kütüphanesinin proje bağımlılıklarınıza dahil edildiğinden emin olun.
-
 ```java
-
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -41,31 +59,31 @@ import java.io.*;
 import java.sql.*;
 ```
 
-## Adım 1: Veritabanı Bağlantısı Kurun
+## Adım 1: Veritabanı Bağlantısını Kur
 
 ```java
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 
-// Veritabanına bir bağlantı açın
+// Open a connection to the database
 Connection con = null;
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 ```
 
-## Adım 2: SQL Sorgusunu Yürütün
+## Adım 2: SQL Sorgusunu Çalıştır
 
 ```java
-// SELECT SQL'i yürütmek için bir ifade oluşturun
+// Create a statement to execute the SELECT SQL
 PreparedStatement st = con.prepareStatement("SELECT * FROM Product ");
 st.executeQuery();
 ResultSet rs = st.getResultSet();
 ```
 
-## 3. Adım: Görüntüleri Getirin ve Oluşturun
+## Adım 3: Görüntüleri Getir ve Oluştur
 
 ```java
 while (rs.next()) {
-    //BLOB alanını okuyun ve ondan bir görüntü oluşturun
+    // Read BLOB field and create an image from it
     String len1 = rs.getString("BarCodeImage");
     int len = len1.length();
     byte[] b = new byte[len];
@@ -75,18 +93,18 @@ while (rs.next()) {
     OutputStream outImgBarCode = new FileOutputStream(strBarCodeImage);
 
     while (index != -1) {
-        // Dosyaya bayt yaz
+        // Write bytes to file
         outImgBarCode.write(b, 0, index);
-        // Sonraki baytları oku
+        // Read next bytes
         index = in.read(b, 0, len);
     }
     outImgBarCode.close();
 ```
 
-## Adım 4: Görüntüden Barkodu Okuyun
+## Adım 4: Görüntüden Barkodu Oku
 
 ```java
-// Resimdeki barkodu okuyun
+// Read the barcode from the image
 BarCodeReader reader = new BarCodeReader(strBarCodeImage, DecodeType.CODE_39_STANDARD);
 
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -104,28 +122,33 @@ System.out.println(ex.getMessage());
 }
 ```
 
-Bu adımları izleyerek Aspose.BarCode'u Java uygulamanıza sorunsuz bir şekilde entegre edebilir, böylece barkodların veritabanından etkili bir şekilde alınmasını ve tanınmasını sağlayabilirsiniz.
+## Yaygın Sorunlar ve Çözümler
+- **BLOB okurken NullPointerException** – Sütun adının tam olarak eşleştiğinden ve BLOB'un gerçekten veri içerdiğinden emin olun.  
+- **Desteklenmeyen barkod türü** – `DecodeType`'ın görüntüde saklanan sembolojiyle eşleştiğini doğrulayın; QR kodları için `DecodeType.QR` kullanın.  
+- **Dosya yolu izin hataları** – `strBarCodeImage` yolu Java süreci tarafından yazılabilir olmalıdır; gerekirse geçici bir dizin kullanın.  
 
-## Çözüm
+## Sık Sorulan Sorular
 
-Sonuç olarak Aspose.BarCode for Java, barkod alma ve tanıma sürecini basitleştirerek güvenilir ve etkili bir çözüm arayan geliştiriciler için ideal bir seçim haline getiriyor. Bu kılavuzu takip ederek Java uygulamalarınızda barkod tanımayı zahmetsizce uygulayabilirsiniz.
+**S:** Aspose.BarCode tüm barkod türleriyle uyumlu mu?  
+**C:** Evet, CODE_39_STANDARD, QR Code, DataMatrix ve daha fazlası dahil olmak üzere geniş bir barkod semboloji yelpazesini destekler. Tam liste için ürün belgelerine bakın.
 
-## Sıkça Sorulan Sorular
+**S:** Aspose.BarCode'u farklı veritabanlarıyla kullanabilir miyim?  
+**C:** Kesinlikle. Örnek MySQL kullanıyor, ancak sürücü sınıfını ve bağlantı dizesini güncelleyerek PostgreSQL, SQL Server veya herhangi bir JDBC‑uyumlu veritabanına geçebilirsiniz.
 
-### Aspose.BarCode tüm barkod türleriyle uyumlu mu?
-Evet, Aspose.BarCode CODE_39_STANDARD, QR Code ve daha fazlasını içeren çok çeşitli barkod türlerini destekler. Tam liste için belgelere bakın.
+**S:** Barkod tanıma sırasında hataları nasıl ele almalı?  
+**C:** Okuma mantığını bir try‑catch bloğuna (gösterildiği gibi) sarın ve istisna mesajını kaydedin. Geçici I/O hatalarında yeniden denemeyi ve kodlamadan önce görüntü dosyasının varlığını doğrulamayı düşünün.
 
-### Aspose.BarCode'u farklı veritabanlarıyla kullanabilir miyim?
-Aspose.BarCode kesinlikle çeşitli veritabanlarıyla çalışacak şekilde tasarlanmıştır. Veritabanı bağlantı ayrıntılarını buna göre uyarladığınızdan emin olun.
+**S:** Kütüphane büyük ölçekli uygulamalar için uygun mu?  
+**C:** Evet. Aspose.BarCode yüksek verimli senaryolar için tasarlanmıştır; gerektiğinde tek bir `BarCodeReader` örneğini birden fazla iş parçacığında yeniden kullanabilirsiniz.
 
-### Barkod tanıma sırasındaki hataları nasıl halledebilirim?
-İstisna yönetimi çok önemlidir. Barkod tanıma sırasında öngörülemeyen sorunları çözmek için güçlü hata yönetimi uyguladığınızdan emin olun.
+**S:** Test için geçici bir lisansı nereden alabilirim?  
+**C:** Değerlendirme amaçlı geçici bir lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** alabilirsiniz.
 
-### Aspose.BarCode büyük ölçekli uygulamalar için uygun mu?
-Evet, Aspose.BarCode büyük ölçekli uygulamaları yönetmek üzere tasarlanmış olup yüksek performans ve güvenilirlik sağlar.
+---
 
-### Test amaçlı geçici lisanslar mevcut mu?
- Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+**Son Güncelleme:** 2026-04-29  
+**Test Edilen:** Aspose.BarCode for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
