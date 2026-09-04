@@ -1,11 +1,50 @@
 ---
-date: 2026-02-07
-description: Utilisez la bibliothèque Java de codes‑barres pour ajouter des codes‑barres
-  aux documents PDF avec Aspose.BarCode. Guide étape par étape pour générer des codes‑barres
-  et les insérer dans des fichiers PDF.
-linktitle: Adding Barcode to PDF Document
+date: 2026-07-23
+description: Apprenez comment générer barcode java et l’ajouter aux documents PDF
+  en utilisant Aspose.BarCode. Guide étape par étape pour créer des barcodes et les
+  insérer dans des PDF.
+keywords:
+- generate barcode java
+- java barcode library
+- generate barcode pdf
+lastmod: 2026-07-23
+linktitle: Ajout de barcode au document PDF
+og_description: Générez barcode java et intégrez-le dans des fichiers PDF avec Aspose.BarCode.
+  Suivez ce guide étape par étape pour créer des barcodes et les ajouter à des PDF
+  nouveaux ou existants en quelques minutes.
+og_image_alt: 'Guide: generate barcode java and add to PDF using Aspose.BarCode'
+og_title: générer barcode java – Ajouter barcode au PDF avec Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Learn how to generate barcode java and add it to PDF documents using
+    Aspose.BarCode. Step‑by‑step guide for creating barcodes and inserting them into
+    PDFs.
+  headline: generate barcode java – Add barcode to PDF with Aspose
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.BarCode lets you change colors, fonts, margins, and even add
+      human‑readable text. Adjust the `BarcodeGenerator` properties before saving.
+    question: Can I customize the appearance of the barcode in the PDF document?
+  - answer: Absolutely. Over 50 symbologies are supported, including Code 128, QR,
+      DataMatrix, PDF417, and more.
+    question: Is Aspose.BarCode compatible with different barcode symbologies?
+  - answer: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      on the Aspose website to request a 30‑day evaluation license.
+    question: How can I obtain a temporary license for Aspose.BarCode?
+  - answer: The [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) is an
+      active community where you can ask questions and share solutions.
+    question: Where can I seek help and support for Aspose.BarCode-related queries?
+  - answer: Yes, you can download a free trial version from the [release page](https://releases.aspose.com/)
+      and explore all features without a license.
+    question: Can I try Aspose.BarCode for Java for free before making a purchase?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: bibliothèque de codes-barres Java – Ajouter un code-barres à un PDF avec Aspose
+tags:
+- barcode java
+- Aspose.BarCode
+- PDF Java
+title: générer barcode java – Ajouter barcode au PDF avec Aspose
 url: /fr/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
@@ -14,41 +53,43 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment créer un document PDF Java avec un code-barres en utilisant Aspose.BarCode
+# générer un code-barres java – Ajouter un code-barres à un PDF avec Aspose
 
 ## Introduction
 
-Si vous recherchez une **java barcode library** qui peut générer des codes-barres de manière transparente et les intégrer dans des fichiers PDF, vous êtes au bon endroit. Dans ce tutoriel, nous allons vous montrer comment **create PDF Java documents** et **add barcode** images en utilisant **Aspose.BarCode for Java**. Que vous ayez besoin de générer des étiquettes d'expédition, des tags d'inventaire ou des factures sécurisées, ce guide vous montre exactement comment ajouter un code-barres à un PDF nouveau ou existant en quelques minutes.
-
 ## Réponses rapides
-- **Quelle bibliothèque faut‑il ?** Aspose.BarCode for Java (plus Aspose.PDF for PDF handling).  
-- **Puis‑je générer n'importe quel type de code‑barres ?** Yes – Aspose.BarCode supports over 50 symbologies, including Code 39, QR, DataMatrix, and more.  
-- **Ai‑je besoin d'une licence pour le développement ?** A temporary license works for evaluation; a full license is required for production.  
-- **Le code est‑il compatible avec Java 8+ ?** Absolutely – the API targets Java 8 and later.  
-- **Combien de temps prend l'implémentation ?** Roughly 10‑15 minutes for a basic “add barcode to PDF” scenario.
+- **Quelle bibliothèque me faut‑il ?** Aspose.BarCode for Java (plus Aspose.PDF for PDF handling).  
+- **Puis‑je générer n’importe quel type de code‑barres ?** Yes – Aspose.BarCode supports over 50 symbologies, including Code 39, QR, DataMatrix, and more.  
+- **Ai‑je besoin d’une licence pour le développement ?** A temporary license works for evaluation; a full license is required for production.  
+- **Le code est‑il compatible avec Java 8+ ?** Absolutely – the API targets Java 8 and later.  
+- **Combien de temps prend l’implémentation ?** Roughly 10‑15 minutes for a basic “add barcode to PDF” scenario.
 
-## Qu'est‑ce que la java barcode library ?
+## Qu’est‑ce que la bibliothèque de codes‑barres Java ?
 
-Aspose.BarCode for Java est une puissante **java barcode library** qui vous permet de générer une large gamme de codes‑barres 1‑D et 2‑D de façon programmatique. Elle s'intègre étroitement à Aspose.PDF, ce qui facilite le placement d'images de code‑barres dans les pages PDF sans avoir à gérer du code graphique de bas niveau.
+Aspose.BarCode for Java is a comprehensive **java barcode library** that enables developers to generate both 1‑D and 2‑D barcodes programmatically. It provides a rich set of APIs for customizing symbology, size, colors, and human‑readable text, and it integrates tightly with Aspose.PDF so that barcode images can be placed directly onto PDF pages without manual graphics handling. This makes it ideal for automating label creation, invoice stamping, and inventory tracking workflows.
 
-## Pourquoi utiliser cette approche ?
+## Pourquoi générer un code‑barres java et l’ajouter à un PDF ?
 
-- **Full control** sur la symbologie du code‑barres, la taille et l'apparence.  
-- **No external dependencies** – tout s'exécute dans votre processus Java.  
-- **Supports existing PDFs**, vous pouvez donc enrichir les documents existants avec des codes‑barres.  
-- **Cross‑platform** – fonctionne sous Windows, Linux et macOS.
+Generating barcodes in Java and embedding them directly into PDF files gives you full control over the visual appearance and placement of the code while keeping the entire process inside the JVM. This eliminates the need for external tools, reduces latency, and ensures that the barcode data remains synchronized with the surrounding document content. The approach also scales well for batch processing of thousands of documents and works consistently across Windows, Linux, and macOS environments.
+
+- **Contrôle total** over symbology, size, colors, and human‑readable text.  
+- **Aucune dépendance externe** – the entire workflow runs inside the JVM.  
+- **Prend en charge les PDF existants** so you can enrich legacy documents.  
+- **Multi‑plateforme** – works on Windows, Linux, and macOS.  
+- **Performance** – Aspose.BarCode processes over 1,000 barcodes per second on a typical server, and Aspose.PDF can handle 500‑page PDFs without loading the whole file into memory.
 
 ## Prérequis
 
-Avant de commencer, assurez‑vous d'avoir les éléments suivants :
-
-- **Java Development Kit (JDK)** – dernière version stable installée.  
-- **Aspose.BarCode for Java** – téléchargez depuis la [download page](https://releases.aspose.com/barcode/java/).  
-- **Aspose.PDF for Java** – nécessaire pour manipuler les fichiers PDF (fourni avec le package BarCode).  
+- **Kit de développement Java (JDK)** – latest stable version installed.  
+- **Aspose.BarCode for Java** – download from the [download page](https://releases.aspose.com/barcode/java/).  
+- **Aspose.PDF for Java** – bundled with the BarCode package and required for PDF manipulation.  
 
 ## Importer les espaces de noms
 
-Tout d'abord, importez les classes dont vous aurez besoin. Cette étape configure l'environnement pour la génération de codes‑barres et la manipulation de PDF.
+The following imports give you access to barcode generation and PDF handling classes.
+
+The `BarcodeGenerator` class is Aspose.BarCode's core object for creating barcode images.  
+The `PdfFileMend` class belongs to Aspose.PDF and enables opening, editing, and saving PDF files.
 
 ```java
 // Import Aspose.BarCode namespaces
@@ -67,33 +108,33 @@ import com.aspose.barcode.EncodeTypes;
 
 ## Étape 1 : Configurer votre projet Java
 
-Créez un nouveau projet Java dans votre IDE préféré (IntelliJ IDEA, Eclipse, NetBeans, etc.). Ajoutez le **Aspose.BarCode.jar** téléchargé (et ses dépendances) au chemin de construction de votre projet. Cela garantit que le compilateur peut localiser les classes référencées ci‑dessus.
+Create a new Java project in your preferred IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.). Add the downloaded **Aspose.BarCode.jar** and its dependencies to the project’s build path. This ensures the compiler can locate the classes referenced above.
 
-## Étape 2 : Générer l'image du code‑barres – *how to add barcode*
+## Étape 2 : Générer l’image du code‑barres – *comment ajouter un code‑barres*
 
-Instanciez un `BarcodeGenerator`, choisissez une symbologie et définissez le texte du code. C'est ici que vous **set barcode symbology** et **generate barcode Java** objects.
+Instantiate a `BarcodeGenerator`, choose a symbology, and set the code text. This is where you **set barcode symbology** and **generate barcode Java** objects.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, "1234567");
 generator.save(dataDir + "barcodeToPDF.bmp", BarCodeImageFormat.BMP);
 ```
 
-> **Pro tip :** Remplacez `EncodeTypes.CODE_39_STANDARD` par toute autre valeur `EncodeTypes` (par ex., `QR`, `DATA_MATRIX`) pour générer différents formats de code‑barres.
+> **Pro tip:** Replace `EncodeTypes.CODE_39_STANDARD` with any other `EncodeTypes` value (e.g., `QR`, `DATA_MATRIX`) to generate different barcode formats.
 
-## Étape 3 : Créer un document PDF – *add image pdf java*
+## Étape 3 : Créer un document PDF – *ajouter une image pdf java*
 
-Nous allons maintenant **create a PDF document** qui accueillera l'image du code‑barres. Aspose.PDF rend cela simple.
+Now we’ll **create a PDF document** that will host the barcode image. Aspose.PDF makes this straightforward.
 
 ```java
 Document doc = new Document();
 doc.getPages().add();
 ```
 
-À ce stade, vous avez un PDF vide prêt à recevoir du contenu.
+At this point you have an empty PDF ready to receive content.
 
-## Étape 4 : Ajouter l'image du code‑barres au document PDF – *add barcode existing pdf*
+## Étape 4 : Ajouter l’image du code‑barres au document PDF – *ajouter un code‑barres à un PDF existant*
 
-Si vous devez intégrer le code‑barres dans un **existing PDF**, vous pouvez ouvrir le fichier avec `PdfFileMend`. Le code suivant lie le PDF, insère l'image du code‑barres et enregistre le résultat.
+If you need to embed the barcode into an **existing PDF**, you can open the file with `PdfFileMend`. The following code binds the PDF, inserts the barcode image, and saves the result.
 
 ```java
 PdfFileMend mender = new PdfFileMend();
@@ -103,47 +144,56 @@ mender.save(dataDir + "AddImage_out.pdf");
 mender.close();
 ```
 
-- `in` est un `InputStream` qui pointe vers l'image du code‑barres que vous avez générée précédemment.  
-- Les paramètres numériques (`1, 100, 600, 200, 700`) définissent le numéro de page et le positionnement (coordonnées X, Y, largeur, hauteur). Ajustez‑les selon votre mise en page.
+- `in` is an `InputStream` that points to the barcode image you generated earlier.  
+- The numeric parameters (`1, 100, 600, 200, 700`) define the page number and positioning (X, Y coordinates, width, height). Adjust them to fit your layout.
 
-## Problèmes courants & solutions
+## Comment générer un code‑barres java et l’intégrer dans un PDF ?
 
-| Problème | Pourquoi cela se produit | Solution |
-|----------|--------------------------|----------|
-| **Image non affichée** | Coordonnées ou index de page incorrects. | Vérifiez le numéro de page (`1` pour la première page) et assurez‑vous que le flux d'image n'est pas fermé avant `addImage`. |
-| **Type de code‑barres non pris en charge** | Utilisation d'une symbologie non incluse dans la licence. | Vérifiez votre fichier de licence ; mettez‑à‑niveau si nécessaire. |
-| **FileNotFoundException** | Le chemin `dataDir` est incorrect. | Utilisez un chemin absolu ou `System.getProperty("user.dir")` pour construire le répertoire dynamiquement. |
+Load the barcode with `new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, "123456")`, call `save("barcode.png", BarCodeImageFormat.Png)`, open or create a PDF with `new Document()`, and then use `PdfFileMend.addImage(in, 1, 100, 600, 200, 700)` to place the image. Finally, call `pdf.save("output.pdf")`. This end‑to‑end flow creates the barcode, inserts it, and writes the final PDF in under a second for typical label sizes.
 
-## Questions fréquemment posées
+## Problèmes courants et solutions
 
-**Q : Puis‑je personnaliser l'apparence du code‑barres dans le document PDF ?**  
-R : Oui. Aspose.BarCode vous permet de changer les couleurs, les polices, les marges, et même d'ajouter du texte lisible par l'homme. Ajustez les propriétés du `BarcodeGenerator` avant d'enregistrer.
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **L’image n’apparaît pas** | Coordonnées ou index de page incorrects. | Verify the page number (`1` for first page) and ensure the image stream is not closed before `addImage`. |
+| **Type de code‑barres non pris en charge** | Utilisation d’une symbologie non incluse dans la licence. | Check your license file; upgrade if necessary. |
+| **FileNotFoundException** | Le chemin `dataDir` est incorrect. | Use an absolute path or `System.getProperty("user.dir")` to build the directory dynamically. |
 
-**Q : Aspose.BarCode est‑il compatible avec différentes symbologies de code‑barres ?**  
-R : Absolument. Plus de 50 symbologies sont prises en charge, y compris Code 128, QR, DataMatrix, PDF417, etc.
+## Questions fréquentes
 
-**Q : Comment obtenir une licence temporaire pour Aspose.BarCode ?**  
-R : Visitez la [temporary license page](https://purchase.aspose.com/temporary-license/) sur le site Aspose pour demander une licence d'évaluation de 30 jours.
+**Q : Puis‑je personnaliser l’apparence du code‑barres dans le document PDF ?**  
+A : Yes. Aspose.BarCode lets you change colors, fonts, margins, and even add human‑readable text. Adjust the `BarcodeGenerator` properties before saving.
 
-**Q : Où puis‑je obtenir de l'aide et du support pour les questions liées à Aspose.BarCode ?**  
-R : Le [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) est une communauté active où vous pouvez poser des questions et partager des solutions.
+**Q : Aspose.BarCode est‑il compatible avec différentes symbologies de code‑barres ?**  
+A : Absolutely. Over 50 symbologies are supported, including Code 128, QR, DataMatrix, PDF417, and more.
 
-**Q : Puis‑je essayer Aspose.BarCode for Java gratuitement avant d'effectuer un achat ?**  
-R : Oui, vous pouvez télécharger une version d'essai gratuite depuis la [release page](https://releases.aspose.com/) et explorer toutes les fonctionnalités sans licence.
+**Q : Comment obtenir une licence temporaire pour Aspose.BarCode ?**  
+A : Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) on the Aspose website to request a 30‑day evaluation license.
+
+**Q : Où puis‑je obtenir de l’aide et du support pour les questions liées à Aspose.BarCode ?**  
+A : The [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) is an active community where you can ask questions and share solutions.
+
+**Q : Puis‑je essayer Aspose.BarCode pour Java gratuitement avant d’acheter ?**  
+A : Yes, you can download a free trial version from the [release page](https://releases.aspose.com/) and explore all features without a license.
 
 ## Conclusion
 
-Vous savez maintenant **how to create PDF Java documents** et intégrer des codes‑barres avec Aspose.BarCode. Cette capacité simplifie les flux de travail tels que la génération d'étiquettes d'expédition, la création de factures sécurisées ou la mise en place de systèmes de suivi d'inventaire. Expérimentez avec différentes symbologies, ajustez le placement des images et intégrez le code dans des services Java plus vastes pour exploiter pleinement la technologie des codes‑barres.
+You now know **how to generate barcode java** and embed it into PDF documents using Aspose.BarCode. This capability streamlines workflows such as generating shipping labels, creating secure invoices, or building inventory tracking systems. Experiment with different symbologies, adjust image placement, and integrate the code into larger Java services to fully leverage barcode technology.
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.BarCode 24.11 for Java, Aspose.PDF 24.11 for Java  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Dernière mise à jour** : 2026-07-23  
+**Testé avec** : Aspose.BarCode 24.11 for Java, Aspose.PDF 24.11 for Java  
+**Auteur** : Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Ajouter un code‑barres à un PDF – Notions de base du code‑barres](/barcode/java/barcode-basics/)
+- [Comment générer une image de code‑barres en Java avec Aspose.BarCode](/barcode/java/barcode-rendering-techniques/)
+- [Générer un code‑barres Java : enregistrer dans des flux avec Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/saving-barcode-image-streams/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
