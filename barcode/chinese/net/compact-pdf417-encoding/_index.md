@@ -139,8 +139,18 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ## 紧凑型 PDF417 编码教程
 
+### [How to generate barcode in C# with Aspose.BarCode and add metadata](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
+
+
 ### [创建紧凑型 PDF417 条形码](./compact-pdf417-basic-configuration/)
 了解如何使用 Aspose.BarCode for .NET 生成紧凑型 PDF417 条形码。提供完整的分步指南和代码示例。
+
+### [在 C# 中使用紧凑设置生成 PDF417 条形码](./generate-pdf417-barcode-with-compact-settings-in-c/)
+演示如何在 C# 中使用 Aspose.BarCode 的紧凑设置生成 PDF417 条形码的完整步骤。
+
+### [如何在 C# 中生成微型 PDF417 条形码 – 步骤指南](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [如何在 C# 中使用 BarCodeReader 解码 PDF417 条形码](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 
 ## 常见问题解答
 
@@ -179,6 +189,9 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [使用 Aspose 创建 PDF417 条码 – 完整指南](./create-pdf417-barcode-with-aspose-complete-guide/)
 
 ### [如何在 C# 中读取 PDF417 – 完整条码读取示例](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+
+### [如何在 C# 中使用自定义尺寸生成 PDF417 条形码](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
+演示如何在 C# 中使用 Aspose.BarCode 设置自定义模块尺寸生成 PDF417 条形码。
 
 ## 常见问题
 
