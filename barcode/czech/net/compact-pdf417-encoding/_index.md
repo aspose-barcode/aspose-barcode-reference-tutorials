@@ -145,6 +145,9 @@ Learn how to generate Compact PDF417 barcodes using Aspose.BarCode for .NET. Com
 ### [Vytvoření metadat čárového kódu PDF417 v C# – Kompletní průvodce krok za krokem](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Naučte se, jak pomocí Aspose.BarCode pro .NET přidat a spravovat metadata v PDF417 čárových kódech v jazyce C#.
 
+### [Jak vygenerovat čárový kód v C# pomocí Aspose.BarCode a přidat metadata](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
+Naučte se, jak v C# pomocí Aspose.BarCode vygenerovat čárový kód a přidat k němu metadata.
+
 ### [Generování PDF417 čárového kódu v C# – Kompletní průvodce](./generate-pdf417-barcode-in-c-complete-guide/)
 Naučte se, jak pomocí Aspose.BarCode pro .NET vygenerovat PDF417 čárový kód v jazyce C# krok za krokem.
 
@@ -199,6 +202,12 @@ Kompletní návod, jak pomocí Aspose.BarCode pro .NET vytvořit a přizpůsobit
 ### [Jak číst PDF417 v C# – Kompletní příklad čtečky čárových kódů](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 Naučte se, jak pomocí Aspose.BarCode pro .NET číst PDF417 kódy v C# s kompletním příkladem.
 
+### [Jak vygenerovat micro PDF417 čárový kód v C# – krok za krokem průvodce](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Kompletní krok‑za‑krokem návod, jak v C# vytvořit micro PDF417 čárový kód pomocí Aspose.BarCode.
+
+### [Jak vygenerovat PDF417 čárový kód v C# s vlastními rozměry](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
+Naučte se nastavit vlastní rozměry čárového kódu PDF417 v C# pomocí Aspose.BarCode.
+
 ## Často kladené otázky
 
 **Q: Jaké je maximální množství dat, která mohu uložit do Compact PDF417 čárového kódu?**  
@@ -225,7 +234,8 @@ A: Ne, nejsou potřeba žádné externí fonty; knihovna provádí veškeré vyk
 - [Jak vytvořit čárový kód – Compact PDF417 s Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Komplexní tutoriály a příklady Aspose.BarCode pro .NET](/barcode/net/)
 - [Jak vytvořit Aztec čárový kód s korekcí chyb v .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Vygenerovat PDF417 čárový kód s kompaktním nastavením v C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
+- [Jak dekódovat PDF417 čárové kódy v C# pomocí BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
