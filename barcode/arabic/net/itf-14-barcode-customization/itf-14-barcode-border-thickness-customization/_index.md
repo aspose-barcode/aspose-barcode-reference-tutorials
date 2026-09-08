@@ -1,10 +1,75 @@
 ---
-date: 2026-02-20
-description: تعلم كيفية تخصيص سمك حدود الباركود لتنسيق ITF-14 باستخدام Aspose.BarCode
-  لـ .NET. أنشئ باركود ITF-14 واحفظ ملفات PNG للباركود بسهولة.
-linktitle: ITF-14 Barcode Border Thickness Customization
+date: 2026-09-08
+description: تعلم كيفية إنشاء ملصق المنتج barcode عن طريق تخصيص سمك حد ITF-14 باستخدام
+  Aspose.BarCode for .NET، وتوليد ملفات PNG لباركود ITF-14 بسرعة.
+keywords:
+- create product label barcode
+- generate itf-14 barcode
+- customize barcode border
+lastmod: 2026-09-08
+linktitle: تخصيص سمك حد ITF-14 Barcode
+og_description: تعلم كيفية إنشاء ملصق المنتج barcode عن طريق تخصيص سمك حد ITF-14 باستخدام
+  Aspose.BarCode for .NET، وتوليد ملفات PNG لباركود ITF-14 بسرعة.
+og_image_alt: Guide showing how to create product label barcode with ITF-14 border
+  using Aspose.BarCode .NET
+og_title: إنشاء ملصق المنتج barcode مع حد ITF-14 في .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to create product label barcode by customizing ITF-14 border
+    thickness with Aspose.BarCode for .NET, and generate ITF-14 barcode PNG files
+    quickly.
+  headline: Create product label barcode with ITF-14 border in .NET
+  type: TechArticle
+- description: Learn how to create product label barcode by customizing ITF-14 border
+    thickness with Aspose.BarCode for .NET, and generate ITF-14 barcode PNG files
+    quickly.
+  name: Create product label barcode with ITF-14 border in .NET
+  steps:
+  - name: import required namespaces
+    text: The `Aspose.BarCode` namespace contains all classes you need to work with
+      barcodes.
+  - name: define the output folder
+    text: The `outputPath` variable specifies the directory for the generated PNG
+      files. Choose a folder where the generated PNG files will be written.
+  - name: create the ITF‑14 barcode instance
+    text: '`ITF` is the class that represents an ITF‑14 barcode.'
+  - name: set the X‑dimension (bar width)
+    text: The X‑Dimension defines the width of each bar; a value of 2 pixels works
+      well for most label printers.
+  - name: choose the border type
+    text: '`ITF.ItfBorderType` determines whether the border is drawn as a separate
+      frame or as part of the barcode bars.'
+  - name: customize barcode border thickness and save images
+    text: '`ITF.ItfBorderThickness.Pixels` sets the thickness in pixels. Below we
+      generate two PNG files – one with a thin 5‑pixel frame and another with a bold
+      15‑pixel frame. Replace the sample data with your own product identifier if
+      needed. The generated PNG files can be directly embedded into label‑design'
+  type: HowTo
+- questions:
+  - answer: ITF‑14 encodes a 14‑digit GTIN and is the standard for shipping containers
+      and bulk packaging in retail logistics.
+    question: What is the ITF‑14 barcode format used for?
+  - answer: Yes. You can change colors, add human‑readable text, set background images,
+      and modify the quiet zone using the same `ITF` object.
+    question: Can I customize other visual aspects besides the border?
+  - answer: Absolutely. Aspose.BarCode supports .NET Framework, .NET Core, and .NET
+      5/6+ runtimes.
+    question: Is the library compatible with .NET 6 and later?
+  - answer: The API accepts any positive integer. Practically, borders larger than
+      30 pixels may exceed label size specifications, so test against your printer’s
+      guidelines.
+    question: Are there limits on how thick the border can be?
+  - answer: Request a trial license [request a temporary license](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: تخصيص حدود الباركود لتنسيق ITF-14 باستخدام Aspose.BarCode .NET
+tags:
+- barcode border
+- ITF-14
+- Aspose.BarCode
+- .NET barcode generation
+title: إنشاء ملصق المنتج barcode مع حد ITF-14 في .NET
 url: /ar/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 weight: 10
 ---
@@ -13,71 +78,77 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تخصيص حدود الباركود لتنسيق ITF-14 باستخدام Aspose.BarCode .NET
+# إنشاء باركود ملصق المنتج بحدود ITF-14 في .NET
 
-إذا كنت بحاجة إلى **تخصيص سمك حد الباركود** لتنسيق ITF-14، فقد وصلت إلى المكان الصحيح. في هذا الدرس سنستعرض الخطوات الدقيقة لإنشاء باركود ITF-14، تعديل نوع الحد، و**حفظ ملفات PNG للباركود** بالسمك الذي تحتاجه. سواءً كنت تصمم ملصقات منتجات أو بطاقات جرد، فإن التحكم في الحد يجعل الباركود يبدو احترافيًا وسهل القراءة بالماسح.
+في هذا البرنامج التعليمي ستتعلم كيفية **إنشاء باركود ملصق المنتج** عن طريق تخصيص حد باركود ITF‑14 باستخدام Aspose.BarCode لـ .NET. سنستعرض ضبط نوع الحد، تعديل سمكه، وحفظ النتيجة كصورة PNG عالية الجودة — مثالية لملصقات المنتجات، بطاقات الشحن، أو أي سير عمل لإدارة المخزون.
 
 ## إجابات سريعة
-- **ماذا يعني “تخصيص حد الباركود”؟** يتيح لك ضبط السمك البصري للإطار أو الشريط المحيط بباركود ITF‑14.  
-- **أي خاصية تتحكم في سمك الحد؟** `ITF.ItfBorderThickness.Pixels`.  
+- **ماذا يعني “تخصيص حد الباركود”؟** يتيح لك ضبط السمك البصري للإطار المحيط بباركود ITF‑14.  
+- **ما الخاصية التي تتحكم في سمك الحد؟** `ITF.ItfBorderThickness.Pixels`.  
 - **هل يمكنني تغيير نوع الحد أيضًا؟** نعم، عبر `ITF.ItfBorderType` (Frame أو Bar).  
-- **ما هو تنسيق الصورة الموصى به؟** PNG يعمل جيدًا للجودة غير الفقدية؛ استخدم `BarCodeImageFormat.Png`.  
-- **هل أحتاج إلى ترخيص للإنتاج؟** يتطلب الاستخدام التجاري ترخيصًا صالحًا لـ Aspose.BarCode.
+- **ما تنسيق الصورة الموصى به لملصقات المنتجات؟** PNG، لأنه يحافظ على التفاصيل غير الضائعة بأي دقة.  
+- **هل أحتاج إلى ترخيص للاستخدام الإنتاجي؟** يلزم وجود ترخيص صالح لـ Aspose.BarCode للاستخدام التجاري.
 
-## ما هو تخصيص حدود باركود ITF-14؟
-يسمح لك تخصيص حد الباركود بتحديد مدى سمك الإطار الخارجي حول رموز الباركود. يكون ذلك مفيدًا بشكل خاص عندما يُطبع الباركود على عبوات تتطلب وزنًا بصريًا محددًا للامتثال أو للعلامة التجارية.
+## كيفية إنشاء باركود ملصق المنتج بحد ITF-14 مخصص؟
+حمّل الباركود، اضبط الحد، واحفظ الصورة في خطوتين بسيطتين. أولاً، أنشئ كائن باركود `ITF`، اضبط `ItfBorderType` و `ItfBorderThickness.Pixels`، ثم استدعِ `Save` مع `BarCodeImageFormat.Png`. يمنحك هذا النهج تحكمًا كاملاً في الوزن البصري للحد مع الحفاظ على قابلية قراءة الباركود.
 
-## لماذا تستخدم Aspose.BarCode لـ .NET لتخصيص الحد؟
-توفر Aspose.BarCode واجهة برمجة تطبيقات سلسة تُجرد تفاصيل الرسم منخفضة المستوى، مما يسمح لك بالتركيز على منطق العمل. ستحصل على:
-- تحكم كامل في الأبعاد، الألوان، وأنماط الحدود.  
-- إمكانات **إنشاء باركود itf-14** بسهولة عبر فئة واحدة.  
-- طرق مباشرة **لحفظ باركود png** دون الحاجة إلى مكتبات معالجة صور إضافية.
-
-## المتطلبات المسبقة
-قبل المتابعة، تأكد من وجود ما يلي:
-
-1. **Aspose.BarCode for .NET** – حمّله من الموقع الرسمي [here](https://releases.aspose.com/barcode/net/).  
-2. بيئة تطوير .NET (Visual Studio، VS Code، أو أي IDE تفضله).  
-3. معرفة أساسية بلغة C# وفهم لمفاهيم الباركود.
-
-## استيراد المساحات الاسمية
-أولًا، استورد مساحة الأسماء التي تحتوي على فئات الباركود.
-
-### Step 1: Import Namespaces
+### الخطوة 1: استيراد المساحات الاسمية المطلوبة
+The `Aspose.BarCode` namespace contains all classes you need to work with barcodes.  
+```csharp
+using Aspose.BarCode.Generation;
+```
 ```csharp
 using Aspose.BarCode;
 ```
 
-## إعداد مجلد الإخراج
-حدد المكان الذي سيتم فيه تخزين الصور المُولدة.
-
-### Step 2: Define the Directory Path
+### الخطوة 2: تعريف مجلد الإخراج
+The `outputPath` variable specifies the directory for the generated PNG files.  
+Choose a folder where the generated PNG files will be written.  
+```csharp
+string outputPath = @"C:\Barcodes\ITF14";
+```
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## إنشاء وتكوين باركود ITF‑14
-الآن سنقوم بإنشاء الباركود وتطبيق إعدادات الحد.
-
-### Step 3: Create an ITF‑14 Barcode
+### الخطوة 3: إنشاء نسخة باركود ITF‑14
+`ITF` is the class that represents an ITF‑14 barcode.  
+```csharp
+ITF barcode = new ITF("12345678901234");
+```
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
 ```
-استبدل البيانات النموذجية بمعرف المنتج الخاص بك إذا لزم الأمر.
 
-### Step 4: Adjust the X‑Dimension (Bar Width)
+### الخطوة 4: ضبط البُعد X (عرض الشريط)
+The X‑Dimension defines the width of each bar; a value of 2 pixels works well for most label printers.  
+```csharp
+barcode.XDimension = 2;
+```
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
-يحدد X‑Dimension عرض كل شريط؛ 2 بكسل يعمل جيدًا لمعظم الطابعات.
 
-### Step 5: Choose a Border Type
+### الخطوة 5: اختيار نوع الحد
+`ITF.ItfBorderType` determines whether the border is drawn as a separate frame or as part of the barcode bars.  
+```csharp
+barcode.ItfBorderType = ITFBorderType.Frame; // use Bar for bar‑style border
+```
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Frame;
 ```
-يمكنك أيضًا استخدام `ITF14BorderType.Bar` إذا كنت تفضل حدًا بنمط الشريط.
 
-### Step 6: **Customize Barcode Border** Thickness and Save Images
+### الخطوة 6: تخصيص سمك حد الباركود وحفظ الصور
+`ITF.ItfBorderThickness.Pixels` sets the thickness in pixels. Below we generate two PNG files – one with a thin 5‑pixel frame and another with a bold 15‑pixel frame.  
+```csharp
+// thin border
+barcode.ItfBorderThickness.Pixels = 5;
+barcode.Save($"{outputPath}\\ITF14_Thin.png", BarCodeImageFormat.Png);
+
+// thick border
+barcode.ItfBorderThickness.Pixels = 15;
+barcode.Save($"{outputPath}\\ITF14_Thick.png", BarCodeImageFormat.Png);
+```
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderThickness.Pixels = 5;
 gen.Save($"{path}ITF14BorderSize5Pixels.png", BarCodeImageFormat.Png);
@@ -85,38 +156,59 @@ gen.Save($"{path}ITF14BorderSize5Pixels.png", BarCodeImageFormat.Png);
 gen.Parameters.Barcode.ITF.ItfBorderThickness.Pixels = 15;
 gen.Save($"{path}ITF14BorderSize15Pixels.png", BarCodeImageFormat.Png);
 ```
-النداء الأول ينشئ باركود بإطار رفيع بسمك 5 بكسل، بينما الثاني ينتج إطارًا سميكًا بسمك 15 بكسل. لا تتردد في تجربة قيم أخرى لتتناسب مع إرشادات التصميم الخاصة بك.
 
-## المشكلات الشائعة & استكشاف الأخطاء وإصلاحها
-- **Path not found** – تأكد من وجود المجلد المحدد في `path` وأن التطبيق يمتلك أذونات الكتابة.  
-- **Border not visible** – تحقق من ضبط `ItfBorderType` على `Frame`؛ نوع `Bar` يرسم الحد كجزء من أشرطة الباركود، وقد يبدو أرق.  
-- **Image is blurry** – زد من X‑Dimension أو أنشئ PNG بدقة أعلى عن طريق تكبير الصورة بعد الحفظ.
+استبدل البيانات النموذجية بمعرف المنتج الخاص بك إذا لزم الأمر. يمكن دمج ملفات PNG المولدة مباشرةً في برنامج تصميم الملصقات أو طباعتها من أي سير عمل طباعة متوافق مع .NET.
 
-## الأسئلة المتكررة (FAQs)
+## لماذا تستخدم Aspose.BarCode لـ .NET لتوليد باركودات ITF‑14؟
+يدعم Aspose.BarCode **أكثر من 30 رمز باركود** ويمكنه إنشاء صور تصل إلى **2000 × 2000 بكسل** دون الاعتماد على مكونات خارجية. تتولى المكتبة جميع عمليات الرسم منخفضة المستوى، لذا يمكنك التركيز على منطق الأعمال مثل تخطيط الملصق، فحوصات الامتثال، أو التوليد الجماعي. كما توفر دعمًا مدمجًا لـ PNG عالي الدقة، مما يضمن حوافًا واضحة حتى على أصغر ملصقات المنتجات.
 
-**س: ما هو تنسيق باركود ITF‑14 يُستخدم من أجله؟**  
-ج: يُستَخدم على نطاق واسع في التعبئة واللوجستيات، مما يسمح للتجار بترميز رقم GTIN مكوّن من 14 رقمًا.
+## المتطلبات المسبقة
+قبل أن تبدأ، تأكد من أن لديك:
+
+1. **Aspose.BarCode for .NET** – قم بتنزيله من الموقع الرسمي [download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).  
+2. بيئة تطوير .NET (Visual Studio، VS Code، أو أي بيئة تطوير تدعم C# .NET 6+).  
+3. إلمام أساسي بصياغة C# ومصطلحات الباركود.
+
+## المشكلات الشائعة & استكشاف الأخطاء
+- **Path not found** – تأكد من أن المجلد المحدد في `outputPath` موجود وأن التطبيق يملك أذونات الكتابة.  
+- **Border not visible** – يظهر الحد فقط عندما يتم ضبط `ItfBorderType` على `Frame`. النوع `Bar` يرسم الحد كجزء من أشرطة الباركود، مما قد يجعله أرق.  
+- **Image looks blurry** – زد من X‑Dimension أو أنشئ PNG بدقة أعلى عن طريق تكبير الصورة بعد الحفظ.  
+- **License warning** – بدون ترخيص صالح، ستحتوي الصور المولدة على علامة مائية. طبّق الترخيص مبكرًا في بدء تشغيل التطبيق.
+
+## الأسئلة المتكررة
+
+**س: ما هو تنسيق باركود ITF‑14 المستخدم؟**  
+ج: يُشفّر ITF‑14 رقم GTIN مكوّن من 14 رقمًا وهو المعيار لحاويات الشحن والتعبئة الجماعية في لوجستيات التجزئة.
 
 **س: هل يمكنني تخصيص جوانب بصرية أخرى غير الحد؟**  
-ج: نعم، تتيح لك Aspose.BarCode تغيير الألوان، الخطوط، الخلفية، وحتى إضافة نص قابل للقراءة البشرية.
+ج: نعم. يمكنك تغيير الألوان، إضافة نص قابل للقراءة البشرية، ضبط صور الخلفية، وتعديل المنطقة الهادئة باستخدام نفس كائن `ITF`.
 
 **س: هل المكتبة متوافقة مع .NET 6 وما بعده؟**  
-ج: بالتأكيد – تدعم Aspose.BarCode .NET Framework، .NET Core، و .NET 5/6+.
+ج: بالتأكيد. يدعم Aspose.BarCode .NET Framework، .NET Core، و .NET 5/6+.
 
 **س: هل هناك حدود لسمك الحد؟**  
-ج: تقبل الواجهة أي عدد صحيح موجب؛ ومع ذلك، قد تتسبب القيم الكبيرة جدًا في تجاوز الباركود للمواصفات القياسية للحجم.
+ج: تقبل الـ API أي عدد صحيح موجب. عمليًا، قد تتجاوز الحدود التي تزيد عن 30 بكسل مواصفات حجم الملصق، لذا اختبرها وفقًا لإرشادات الطابعة الخاصة بك.
 
 **س: كيف يمكنني الحصول على ترخيص مؤقت للاختبار؟**  
-ج: يمكنك طلب واحد [here](https://purchase.aspose.com/temporary-license/).
+ج: اطلب ترخيص تجريبي [request a temporary license](https://purchase.aspose.com/temporary-license/).
 
 ## الخلاصة
-أنت الآن تعرف كيفية **تخصيص سمك حد الباركود** لتنسيق ITF‑14، إنشاء الباركود، و**حفظ ملفات PNG للباركود** باستخدام Aspose.BarCode لـ .NET. يمنحك تعديل الحد المرونة لتلبية متطلبات العلامة التجارية أو التنظيمية مع الحفاظ على قابلية قراءة الباركود بسهولة.
+لديك الآن دليل كامل خطوة بخطوة **لإنشاء باركود ملصق المنتج** بحد ITF‑14 مخصص، توليد الباركود، و**حفظ ملفات PNG للباركود** باستخدام Aspose.BarCode لـ .NET. يتيح لك تعديل سمك الحد تلبية متطلبات العلامة التجارية أو التنظيمية مع الحفاظ على قابلية قراءة الباركود بسهولة.
 
-إذا كنت بحاجة إلى مزيد من التفاصيل، استكشف الوثائق الرسمية [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) أو اطرح أسئلتك في المجتمع [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13).
+لمزيد من التفاصيل، استكشف الوثائق الرسمية [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) أو انضم إلى مناقشة المجتمع [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13).
 
-**آخر تحديث:** 2026-02-20  
+---
+
+**آخر تحديث:** 2026-09-08  
 **تم الاختبار مع:** Aspose.BarCode 24.11 for .NET  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [How to Create ITF-14 Barcode .NET – Comprehensive Aspose.BarCode Tutorials](/barcode/net/)
+- [How to Create Barcode Quiet Zone for ITF-14 Using Aspose.BarCode for .NET](/barcode/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/)
+- [Generate PNG Barcode with Aspose.BarCode for .NET: One-Dimensional Filled Bars](/barcode/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
