@@ -179,6 +179,18 @@ Wysoka gęstość danych i solidna korekcja błędów Compact PDF417 sprawiają,
 
 ### [Jak odczytać PDF417 w C# – Kompletny przykład czytnika kodów kreskowych](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 
+### [Jak stworzyć kod kreskowy PDF417 z Aspose – Kompletny przewodnik krok po kroku](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+
+Pełny przewodnik, jak wygenerować kod kreskowy PDF417 przy użyciu Aspose.BarCode w .NET, krok po kroku z przykładami kodu.
+
+### [Generowanie kodu kreskowego PDF417 w C# – Tworzenie kodu PDF417 w C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+
+Dowiedz się, jak w C# wygenerować kod kreskowy PDF417 przy użyciu Aspose.BarCode, z przykładami kodu i wskazówkami konfiguracji.
+
+### [Dostosowanie rozmiaru kodu kreskowego – przewodnik C# do generowania kodów PDF417](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+
+Jak zmienić rozmiar kodu PDF417 w C# przy użyciu Aspose.BarCode, z przykładami i praktycznymi wskazówkami.
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jaka jest maksymalna ilość danych, które mogę przechowywać w kodzie Compact PDF417?  

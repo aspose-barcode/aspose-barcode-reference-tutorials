@@ -178,6 +178,18 @@ Compact PDF417 の高いデータ密度と堅牢なエラー訂正により、�
 
 ### [C#でPDF417を読み取る方法 – 完全バーコードリーダー例](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 
+### [AsposeでPDF417バーコードを作成する方法 – 完全ステップバイステップガイド](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-step-ga/)
+
+Aspose.BarCode for .NET を使用して PDF417 バーコードを作成する完全な手順を提供します。コード例と設定の詳細を網羅。
+
+### [C#でPDF417バーコードを生成 – PDF417バーコード作成（C#）](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+
+Aspose.BarCode for .NET を使用して C# で PDF417 バーコードを作成する手順を解説します。
+
+### [バーコードサイズを調整する – PDF417バーコード生成のC#ガイド](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+
+Aspose.BarCode for .NET で PDF417 バーコードのサイズを変更する方法と、C# コード例を紹介します。
+
 ## よくある質問
 
 **Q: Compact PDF417 バーコードに保存できる最大データ量はどれくらいですか？**  

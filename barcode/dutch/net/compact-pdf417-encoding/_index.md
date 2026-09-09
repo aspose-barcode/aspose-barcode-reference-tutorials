@@ -149,6 +149,11 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 ### [Compact PDF417-barcode maken](./compact-pdf417-basic-configuration/)
 Leer hoe je Compact PDF417 barcodes genereert met Aspose.BarCode voor .NET. Uitgebreide gids met stap‑voor‑stap instructies en code‑voorbeelden.
 ### [PDF417 Barcode maken met Aspose – Complete gids](./create-pdf417-barcode-with-aspose-complete-guide/)
+### [Hoe PDF417-barcode te maken met Aspose – Complete stapsgewijze gids](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+
+### [PDF417-barcode genereren in C# – PDF417-barcode maken in C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+
+### [barcodegrootte aanpassen – C#-gids om PDF417-barcodes te genereren](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 
 ### [Hoe PDF417 in C# te lezen – Volledig barcode-lezer voorbeeld](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 
