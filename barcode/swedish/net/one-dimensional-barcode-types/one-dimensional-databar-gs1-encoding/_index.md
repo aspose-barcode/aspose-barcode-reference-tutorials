@@ -1,43 +1,53 @@
 ---
-title: Endimensionell datafält GS1-kodning
-linktitle: Endimensionell datafält GS1-kodning
+date: 2026-03-07
+description: Lär dig hur du skapar endimensionella databar GS1‑kodade streckkoder
+  i .NET med Aspose.BarCode. Den här guiden visar hur du ställer in GS1, konfigurerar
+  streckkodsgeneratorn och snabbt genererar streckkoder.
+linktitle: One-Dimensional Databar GS1 Encoding
 second_title: Aspose.BarCode .NET API
-description: Lär dig att skapa Databar GS1-kodade streckkoder i .NET med Aspose.BarCode. Generera streckkoder med lätthet. Följ vår steg-för-steg-guide.
-weight: 18
+title: Skapa endimensionell Databar GS1‑kodning med Aspose.BarCode
 url: /sv/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Endimensionell datafält GS1-kodning
+# Skapa endimensionell Databar GS1‑kodning med Aspose.BarCode
 
+I den här handledningen kommer du **att skapa endimensionella databar**‑streckkoder som följer GS1‑standarden, med hjälp av Aspose.BarCode‑biblioteket för .NET. Oavsett om du behöver strikt GS1‑validering eller en mer flexibel streckkod, går vi igenom varje steg – från installation av biblioteket till hantering av kodningsundantag – så att du kan generera pålitliga streckkoder i dina egna applikationer.
 
-I den här handledningen går vi igenom processen att skapa endimensionella Databar GS1-kodade streckkoder med hjälp av Aspose.BarCode for .NET-biblioteket. Oavsett om du vill generera streckkoder med GS1-kodning eller utan den, så har vi dig täckt. Den här steg-för-steg-guiden hjälper dig att förstå förutsättningarna, importera namnrymder och demonstrera varje exempel för att enkelt skapa Databar GS1-kodade streckkoder.
+## Snabba svar
+- **Vad betyder “skapa endimensionell databar”?** Det betyder att generera en linjär (1‑D) streckkod från Databar‑familjen, ofta använd inom detaljhandel och logistik.  
+- **Hur ställer jag in GS1‑validering?** Sätt `IsAllowOnlyGS1Encoding` till `true` på `DataBar`‑parametrarna.  
+- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Vilka .NET‑versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Var kan jag ladda ner biblioteket?** Från den officiella Aspose‑utgivningssidan (se förutsättningar).
+
+## Vad är “skapa endimensionell databar”?
+En endimensionell Databar (även känd som RSS) är en kompakt linjär streckkod som kan koda numerisk data, datum eller AI‑strängar (Application Identifier). När den kombineras med GS1‑kodning följer streckkoden en globalt erkänd datastruktur, vilket gör den idealisk för detaljhandel, sjukvård och leveranskedjor.
+
+## Varför använda Aspose.BarCode för .NET?
+Aspose.BarCode erbjuder ett flytande API, full GS1‑support och möjlighet att finjustera varje visuellt aspekt av streckkoden. Det eliminerar gissningsarbetet kring låg‑nivå‑kodning och låter dig fokusera på affärslogik.
 
 ## Förutsättningar
 
-Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
+1. **Aspose.BarCode för .NET** – ladda ner och installera det från [here](https://releases.aspose.com/barcode/net/).  
+2. **Din katalogsökväg** – ersätt `"Your Directory Path"` i exemplen med en mapp där du har skrivbehörighet.
 
-1.  Aspose.BarCode för .NET: Du bör ha Aspose.BarCode för .NET installerat. Om du inte redan har gjort det kan du ladda ner det från[här](https://releases.aspose.com/barcode/net/).
+## Importera namnrymder
 
-2.  Din katalogsökväg: Ersätt`"Your Directory Path"` i kodexemplen med den faktiska sökvägen där du vill spara de genererade streckkodsbilderna.
-
-Nu när du har de nödvändiga förutsättningarna redo, låt oss gå vidare till kodningsdelen.
-
-## Importera namnområden
-
-För att komma igång måste du importera relevanta namnområden för Aspose.BarCode. Lägg till följande kodrader i början av ditt .NET-projekt:
+Lägg till de nödvändiga `using`‑satserna högst upp i din C#‑fil:
 
 ```csharp
 using Aspose.BarCode;
 using System;
 ```
 
-## Steg 1: Initiera streckkodsgeneratorn
+## Steg 1: Initiera Barcode‑generatorn
 
-Det första steget är att initiera BarcodeGenerator-objektet med önskad kodningstyp. I det här fallet använder vi Databar Expanded-kodning. 
+Skapa en `BarcodeGenerator`‑instans och ange Databar Expanded‑symbologi:
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,9 +56,9 @@ System.Console.WriteLine("OneDDatabarGS1Encoding:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DatabarExpanded, "");
 ```
 
-## Steg 2: Generera en streckkod med GS1-kodning
+## Steg 2: Så här ställer du in GS1 – Generera en streckkod med strikt GS1‑validering
 
-Nu kommer vi att ställa in kodtexten med GS1Encoding check och spara den genererade streckkodsbilden. 
+Aktivera endast GS1‑kodning, tilldela en GS1‑kompatibel kodtext och spara bilden:
 
 ```csharp
 gen.CodeText = "(01)12345678901231";
@@ -56,9 +66,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = true;
 gen.Save($"{path}DatabarGS1RightEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Steg 3: Generera en streckkod för variabel kodning
+## Steg 3: Barcode‑generering med Aspose – Variabel kodning (utan GS1‑kontroll)
 
-I det här steget kommer vi att generera en streckkod med variabel kodtext utan kontroll av GS1Encoding.
+Om du behöver en streckkod som **inte** upprätthåller GS1‑regler, stäng av kontrollen:
 
 ```csharp
 gen.CodeText = "ASPOSE";
@@ -66,9 +76,9 @@ gen.Parameters.Barcode.DataBar.IsAllowOnlyGS1Encoding = false;
 gen.Save($"{path}DatabarGS1VariableEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Steg 4: Hantera undantag för GS1-kodningskontroll
+## Steg 4: Barcode‑generatorns GS1‑kontroll – Hantera ett undantag
 
-Om du försöker generera en streckkod med variabel kodtext med GS1Encoding-kontroll aktiverad, kommer det att skapa ett undantag. Så här kan du hantera det:
+När `IsAllowOnlyGS1Encoding` är `true` men kodtexten inte är GS1‑kompatibel, kastar Aspose ett undantag. Följande mönster visar hur du fångar och loggar det:
 
 ```csharp
 try
@@ -83,30 +93,42 @@ catch (Exception e)
 }
 ```
 
-Nu har du framgångsrikt skapat endimensionella Databar GS1-kodade streckkoder med Aspose.BarCode för .NET. Du kan ytterligare utforska och anpassa din streckkodsgenerering baserat på dina specifika krav.
+### Vanliga fallgropar & tips
+- **Fallgrop:** Att ange en icke‑GS1‑sträng medan GS1‑kontrollen är aktiverad avbryter streckkodsgenereringen.  
+- **Proffstips:** Validera dina AI‑strängar innan du tilldelar dem till `CodeText` för att undvika körningsfel.  
+- **Tips:** Använd absoluta sökvägar eller `Path.Combine` för att bygga filnamn på ett säkert sätt över plattformar.
 
 ## Slutsats
 
-den här handledningen har vi täckt processen att generera endimensionella Databar GS1-kodade streckkoder med Aspose.BarCode för .NET. Vi diskuterade förutsättningarna, importerade de nödvändiga namnrymden och gav steg-för-steg-vägledning för att skapa både GS1-kodade och variabla streckkoder.
+Du vet nu hur du **skapar endimensionella databar**‑streckkoder med GS1‑kodning, hur du växlar GS1‑kontrollen och hur du hanterar relaterade undantag – allt med Aspose.BarCode för .NET. Utforska gärna ytterligare stilalternativ som streckkodsstorlek, färg och marginaler via `Parameters.Barcode`‑objektet.
 
- Med Aspose.BarCode för .NET blir streckkodsgenerering en sömlös uppgift, som erbjuder flexibilitet och kontroll över dina streckkodsskapande behov. Om du stöter på några problem eller har frågor, tveka inte att besöka[Aspose.BarCode dokumentation](https://reference.aspose.com/barcode/net/) eller sök hjälp på[Aspose.BarCode supportforum](https://forum.aspose.com/c/barcode/13).
+Om du stöter på problem är den officiella dokumentationen och community‑forumet utmärkta resurser:
+
+- [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/)  
+- [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13)
 
 ## Vanliga frågor
 
-### 1. Vad är GS1-kodning i streckkoder?
-GS1-kodning är en standard som används vid streckkodning för att säkerställa korrekt datastruktur och identifiering. Det används ofta för varor inom detaljhandeln, sjukvården och logistiken för att underlätta korrekt spårning och informationsutbyte.
+### 1. Vad är GS1‑kodning i streckkoder?
+GS1‑kodning är ett standardiserat sätt att strukturera data (t.ex. produktidentifierare) i en streckkod, vilket säkerställer interoperabilitet mellan återförsäljare, tillverkare och logistikleverantörer.
 
 ### 2. Kan jag anpassa utseendet på de genererade streckkoderna?
-Ja, du kan anpassa utseendet på streckkoderna som genereras med Aspose.BarCode för .NET. Du har kontroll över olika parametrar som storlek, färg och stil.
+Ja. Aspose.BarCode låter dig justera storlek, färger, marginaler och till och med lägga till mänskligt läsbar text via `Parameters.Barcode`‑inställningarna.
 
 ### 3. Var kan jag hitta ytterligare resurser och dokumentation för Aspose.BarCode?
- Du hittar omfattande dokumentation och exempel på[Aspose.BarCode dokumentation](https://reference.aspose.com/barcode/net/). Det är en värdefull resurs för lärande och felsökning.
+Du hittar omfattande dokumentation och exempel på [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/). Det är en värdefull källa för lärande och felsökning.
 
-### 4. Finns det en testversion tillgänglig för Aspose.BarCode?
- Ja, du kan få en gratis testversion av Aspose.BarCode för .NET från[här](https://releases.aspose.com/).
+### 4. Finns det en provversion av Aspose.BarCode?
+Ja, du kan få en gratis provversion av Aspose.BarCode för .NET från [here](https://releases.aspose.com/).
 
 ### 5. Hur kan jag köpa en licens för Aspose.BarCode för .NET?
- För att köpa en licens för Aspose.BarCode för .NET, besök[köpsidan](https://purchase.aspose.com/buy) på Asposes hemsida.
+För att köpa en licens för Aspose.BarCode för .NET, besök [purchase page](https://purchase.aspose.com/buy) på Aspose‑webbplatsen.
+
+---
+
+**Senast uppdaterad:** 2026-03-07  
+**Testad med:** Aspose.BarCode 24.11 för .NET  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

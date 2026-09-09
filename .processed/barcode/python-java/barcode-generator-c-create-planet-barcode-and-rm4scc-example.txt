@@ -1,0 +1,7 @@
+Title: Barcode generator C# – create Planet barcode and RM4SCC example
+Slug: barcode-generator-c-create-planet-barcode-and-rm4scc-example
+Category: general
+ProcessedDate: 2026-08-03T11:31:12.278768
+SourceRepo: AI Search API
+Keywords: barcode generator c#, create planet barcode
+PRNumber: 91

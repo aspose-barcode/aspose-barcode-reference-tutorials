@@ -1,0 +1,7 @@
+Title: Create barcode with data in C# – Step‑by‑Step Guide
+Slug: create-barcode-with-data-in-c-step-by-step-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-28T02:34:59.943991
+SourceRepo: AI Search API
+Keywords: create barcode with data, create pdf417 barcode c#
+PRNumber: 83

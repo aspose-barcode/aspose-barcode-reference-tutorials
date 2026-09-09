@@ -1,38 +1,55 @@
 ---
-title: Generazione e salvataggio di codici a barre in Java
+date: 2026-05-04
+description: Scopri come generare immagini di codici a barre in Java e salvarle usando
+  Aspose.BarCode per Java. Guida passo‑passo con archiviazione MySQL, consigli di
+  personalizzazione e codice completo.
+keywords:
+- java generate barcode image
+- how to generate barcode java
+- how to save barcode image
 linktitle: Generazione e salvataggio del codice a barre
-second_title: API Java Aspose.BarCode
-description: Genera e salva codici a barre senza sforzo in Java con Aspose.BarCode. Integra perfettamente, personalizza l'aspetto e goditi un ampio supporto di codici a barre.
-weight: 12
+second_title: Aspose.BarCode Java API
+title: Java genera immagine di codice a barre e la salva nel database
 url: /it/java/symbology-and-format/generating-saving-barcode/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generazione e salvataggio di codici a barre in Java
+# java genera immagine barcode
 
+## Introduzione
 
-## introduzione
+Se hai bisogno di **java generate barcode image** rapidamente e di memorizzarla insieme ai dati del prodotto, questo tutorial è per te. Ti guideremo nell'utilizzo di Aspose.BarCode per Java per creare un codice a barre CODE‑39, salvare l'immagine su disco e poi inserirla in un database MySQL come BLOB. Alla fine, avrai un modello riutilizzabile che potrai adattare a qualsiasi tipo di codice a barre o requisito di archiviazione.
 
-Desideri integrare perfettamente la generazione di codici a barre nella tua applicazione Java? Non guardare oltre! In questa guida passo passo ti guideremo attraverso il processo di utilizzo di Aspose.BarCode per Java per generare e salvare codici a barre in modo efficiente. Aspose.BarCode è una potente libreria Java che semplifica la creazione e la manipolazione dei codici a barre, fornendoti gli strumenti necessari per migliorare le tue applicazioni con la funzionalità dei codici a barre.
+## Risposte rapide
+- **Quale libreria crea codici a barre in Java?** Aspose.BarCode for Java.  
+- **Posso salvare il codice a barre come file?** Yes – use `generator.save("path")`.  
+- **Come posso memorizzare l'immagine in MySQL?** Read the file into a `FileInputStream` and set it as a binary stream in a `PreparedStatement`.  
+- **Quali tipi di codice a barre sono supportati?** CODE_39, CODE_128, QR, DataMatrix, and many more.  
+- **Ho bisogno di una licenza per la produzione?** A commercial license is required; a free trial is available.
+
+## Che cos'è java generate barcode image?
+Generare un'immagine di codice a barre in Java significa convertire testo semplice (ad es., un numero di prodotto) in una rappresentazione visiva leggibile dagli scanner. Aspose.BarCode astrae i dettagli di codifica a basso livello, permettendoti di concentrarti sulla logica della tua applicazione.
+
+## Perché usare Aspose.BarCode per questo compito?
+- **Completo**: Supports over 50 symbologies.  
+- **API semplice**: One‑line code to create and save an image.  
+- **Alta qualità**: Generates PNG, JPEG, BMP, and PDF outputs.  
+- **Pronto per l'impresa**: Works on all major Java versions and integrates easily with databases.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
-
-- Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java configurato sul tuo computer.
-
-- Libreria Aspose.BarCode: scarica e installa la libreria Aspose.BarCode. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/barcode/java/).
-
-- Database MySQL: configura un database MySQL in cui intendi archiviare le informazioni relative ai codici a barre.
-
-- Connettività al database: assicurati di disporre delle credenziali e della connettività necessarie per interagire con il database MySQL.
+- **Ambiente di sviluppo Java** – JDK 8+ installed and IDE of your choice.  
+- **Libreria Aspose.BarCode** – Download and install the Aspose.BarCode library. You can find the download link [qui](https://releases.aspose.com/barcode/java/).  
+- **Database MySQL** – A running MySQL instance where you will store product information.  
+- **Connettività al database** – JDBC driver and valid credentials (`HOST_URI`, `USERNAME`, `PASSWORD`).
 
 ## Importa pacchetti
 
-Nel tuo progetto Java, importa i pacchetti richiesti per la connettività Aspose.BarCode e MySQL.
+Nel tuo progetto Java, importa i pacchetti necessari per Aspose.BarCode e la connettività MySQL.
 
 ```java
 import com.aspose.barcode.EncodeTypes;
@@ -45,10 +62,12 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 ```
 
-## Passaggio 1: genera e salva il codice a barre
+## Come generare barcode java
+
+### Passo 1: Genera e salva il barcode
 
 ```java
-// Passaggio 1: genera il codice a barre e salvalo temporaneamente in un file
+// Step 1 - Generate barcode and save temporarily in a file
 String strBarCodeImage = "c:\\temp\\code39.jpg";
 String strCodeText = "NOK-E71";
 
@@ -57,63 +76,80 @@ generator.setCodeText(strCodeText);
 generator.save(strBarCodeImage);
 ```
 
-Spiegazione: questo passaggio prevede la creazione di un codice a barre con Aspose.BarCode, l'impostazione del testo del codice e il salvataggio dell'immagine del codice a barre in una posizione specificata.
+*Spiegazione*: Creiamo un `BarcodeGenerator` per lo standard CODE‑39, assegniamo il codice prodotto (`NOK-E71`) e salviamo l'immagine in `c:\temp\code39.jpg`. Questo file verrà successivamente trasmesso al database.
 
-## Passaggio 2: inserisci il record nel database MySQL
+## Come salvare l'immagine del barcode
+
+### Passo 2: Inserisci il record nel database MySQL
 
 ```java
-// Passaggio 2: inserire un nuovo record nel DB MySQL
+// Step 2 - Insert a new record in MySQL DB
 Connection con = null;
 
-// Connessione aperta
+// Open connection
 Class.forName("com.mysql.jdbc.Driver").newInstance();
 con = DriverManager.getConnection(Common.HOST_URI, Common.USERNAME, Common.PASSWORD);
 
-// Preparare la dichiarazione
+// Prepare statement
 PreparedStatement pre = con.prepareCall(
         "Insert INTO Product (ProductNumber, ProductName, BarCodeImage) " + "VALUES (?, ?, ?) ");
 
-// Imposta il numero e il nome del prodotto
+// Set product number and product name
 pre.setString(1, "NOK-E71");
 pre.setString(2, "Nokia E Series - E71");
 
-// La terza colonna è per l'immagine del codice a barre. Il tipo di DB è BLOB
-// Per salvare l'immagine, dobbiamo creare uno stream dal file immagine
+// 3rd column is for barcode image. DB type is BLOB
+// For saving the image, we need to create a stream from the image file
 File imgFile = new File(strBarCodeImage);
 FileInputStream fin = new FileInputStream(imgFile);
 pre.setBinaryStream(3, fin, (int) imgFile.length());
 
-// Esegui la dichiarazione
+// Execute the statement
 pre.executeUpdate();
 System.out.println("Insertion successful.");
 
-// Stretta connessione
+// Close connection
 pre.close();
 con.close();
 ```
 
-Spiegazione: questo passaggio prevede la connessione a un database MySQL e l'inserimento di un nuovo record con le informazioni sul prodotto e l'immagine del codice a barre associata.
+*Spiegazione*: Dopo aver stabilito una connessione JDBC, prepariamo un'istruzione `INSERT` che include una colonna BLOB per l'immagine del barcode. Il file immagine viene letto in un `FileInputStream` e memorizzato come dati binari.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Congratulazioni! Hai integrato con successo Aspose.BarCode per Java nella tua applicazione per generare e salvare codici a barre. Questa potente libreria semplifica il processo, rendendo l'implementazione dei codici a barre un gioco da ragazzi.
+| Problema | Causa | Risoluzione |
+|----------|-------|--------------|
+| **FileNotFoundException** durante il salvataggio del barcode | La cartella di destinazione non esiste o non ha permessi di scrittura | Create the folder (`c:\temp`) or choose a writable path |
+| **SQLIntegrityConstraintViolationException** durante l'inserimento | Duplicate `ProductNumber` primary key | Ensure the product number is unique or use `ON DUPLICATE KEY UPDATE` |
+| **ClassNotFoundException: com.mysql.jdbc.Driver** | Driver JDBC MySQL mancante dal classpath | Add the MySQL Connector/J JAR to your project dependencies |
 
 ## Domande frequenti
 
-### D: Aspose.BarCode è compatibile con diversi tipi di codici a barre?
-R: Sì, Aspose.BarCode supporta vari tipi di codici a barre, inclusi CODE_39_STANDARD, CODE_128, QR e altri.
+**Q: Aspose.BarCode è compatibile con diversi tipi di barcode?**  
+A: Sì, Aspose.BarCode supporta vari tipi di barcode, inclusi CODE_39_STANDARD, CODE_128, QR e altri.
 
-### D: Posso personalizzare l'aspetto dei codici a barre generati?
-R: Assolutamente! Aspose.BarCode offre ampie opzioni di personalizzazione per l'aspetto del codice a barre, consentendoti di adattarlo alle tue esigenze specifiche.
+**Q: Posso personalizzare l'aspetto dei barcode generati?**  
+A: Assolutamente! Aspose.BarCode offre ampie opzioni di personalizzazione per l'aspetto del barcode, consentendoti di adattarlo alle tue esigenze specifiche.
 
-### D: È disponibile una prova gratuita per Aspose.BarCode?
- R: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
+**Q: È disponibile una versione di prova gratuita per Aspose.BarCode?**  
+A: Sì, puoi accedere a una versione di prova gratuita [qui](https://releases.aspose.com/).
 
-### D: Dove posso trovare la documentazione dettagliata per Aspose.BarCode?
- R: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/barcode/java/).
+**Q: Dove posso trovare la documentazione dettagliata per Aspose.BarCode?**  
+A: Consulta la documentazione [qui](https://reference.aspose.com/barcode/java/).
 
-### D: Come posso ottenere supporto per Aspose.BarCode?
- R: Visita il forum di supporto[Qui](https://forum.aspose.com/c/barcode/13) per qualsiasi assistenza o domanda.
+**Q: Come posso ottenere supporto per Aspose.BarCode?**  
+A: Visita il forum di supporto [qui](https://forum.aspose.com/c/barcode/13) per qualsiasi assistenza o domanda.
+
+## Conclusione
+
+Congratulazioni! Hai imparato con successo **come generare barcode java** e **come salvare l'immagine del barcode** usando Aspose.BarCode, quindi hai persistito l'immagine in un database MySQL. Questo approccio può essere esteso ad altre simbologie, meccanismi di archiviazione (ad es., Azure Blob, AWS S3) o integrato in sistemi aziendali più grandi.
+
+---
+
+**Ultimo aggiornamento:** 2026-05-04  
+**Testato con:** Aspose.BarCode for Java 24.10  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

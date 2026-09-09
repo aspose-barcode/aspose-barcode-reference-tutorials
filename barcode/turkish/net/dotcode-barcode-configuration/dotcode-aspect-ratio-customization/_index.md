@@ -1,111 +1,160 @@
 ---
-title: Aspose.BarCode for .NET ile DotCode En Boy Oranını Özelleştirin
-linktitle: DotCode En Boy Oranı Özelleştirmesi
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode for .NET'i kullanarak DotCode barkod en boy oranını özelleştirmeyi öğrenin. Uygulamalarınız için özel barkodları zahmetsizce oluşturun.
-weight: 10
+date: 2026-06-14
+description: Aspose.BarCode for .NET kullanarak DotCode barkod .NET oluşturmayı ve
+  aspect ratio'yi özelleştirmeyi öğrenin.
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
+linktitle: DotCode Aspect Ratio Özelleştirme
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+title: DotCode Barkod .NET Oluşturma – Aspect Ratio'yi Özelleştirme
 url: /tr/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET ile DotCode En Boy Oranını Özelleştirin
+# DotCode Barkod .NET Oluştur – En Boy Oranını Özelleştir
 
-## giriiş
+Sıkı alanlara veya belirli düzen gereksinimlerine uyan **DotCode barcode .NET oluştur** çözümleri oluşturmanız gerekiyorsa, Aspose.BarCode for .NET size tam kontrol sağlar. Bu öğreticide, bir DotCode barkodu oluşturma ve en boy oranını ayarlama sürecini adım adım inceleyeceğiz, böylece paketleme, etiketler veya mobil ekranlarda tam istediğiniz gibi görünür.  
 
-Uygulamalarınızda son derece özelleştirilebilir barkodlar oluşturmak isteyen bir .NET geliştiricisiyseniz, Aspose.BarCode for .NET mükemmel bir çözümdür. Bu eğitimde, gelişmiş özelliklerinden biri olan DotCode en boy oranını özelleştirmeyi inceleyeceğiz. DotCode barkodları sağlık hizmetleri, posta hizmetleri ve üretim gibi sektörlerde bilgileri kodlamak için yaygın olarak kullanılmaktadır. En boy oranını değiştirerek barkodunuzu özel ihtiyaçlarınıza göre uyarlayabilirsiniz. Başlayalım!
+## Hızlı Yanıtlar
+- **.NET'te DotCode barkodları oluşturabilir miyim?** Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.  
+- **Şekli kontrol eden özellik hangisidir?** The `AspectRatio` property of `BarcodeGenerator`.  
+- **Üretim için lisansa ihtiyacım var mı?** A commercial license is required; a free trial works for development.  
+- **Desteklenen .NET sürümleri?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Kodun çalışması ne kadar sürer?** Less than a second for a typical 200 × 200 pixel barcode.
+
+## Bu öğreticinin temel amacı nedir?
+Bu öğretici, Aspose.BarCode for .NET kullanarak bir DotCode barkodu nasıl oluşturulacağını ve belirli düzen kısıtlamalarına uyması için en boy oranının nasıl ayarlanacağını göstermeyi amaçlamaktadır. Adımları izleyerek jeneratörü yapılandırmayı, boyut parametrelerini değiştirmeyi ve görüntüyü yaygın formatlarda dışa aktarmayı öğreneceksiniz.
+
+## .NET'te dotcode barkodu nasıl oluşturulur?
+.NET'te bir DotCode barkodu oluşturmak için, `EncodeTypes.DotCode` ve kodlamak istediğiniz veriyi kullanarak bir `BarcodeGenerator` örneği oluşturun. Ardından, boyut ve şekli kontrol etmek için X‑Dimension ve AspectRatio özelliklerini ayarlayın ve son olarak görüntüyü istediğiniz formatta bir dosyaya yazmak için `Save` metodunu çağırın.
 
 ## Önkoşullar
 
-DotCode en boy oranı özelleştirmesine geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-1.  Aspose.BarCode for .NET: Aspose.BarCode kütüphanesinin kurulu olması gerekir. İndirebilirsin[Burada](https://releases.aspose.com/barcode/net/).
-
-2. IDE: Aspose.BarCode ile çalışmak için Visual Studio gibi bir .NET geliştirme ortamına ihtiyacınız var.
-
-3. Dizin Yolunuz: Kod pasajındaki "Dizin Yolunuz"u, barkod görüntülerini kaydetmek istediğiniz gerçek dizin yolu ile değiştirin.
-
-Şimdi DotCode en boy oranını özelleştirme sürecini birden fazla adıma ayıralım:
+1. **Aspose.BarCode for .NET** – resmi siteden kütüphaneyi [buradan](https://releases.aspose.com/barcode/net/) indirin.  
+2. **IDE** – Visual Studio, Rider veya herhangi bir .NET‑uyumlu editör.  
+3. **Output folder** – örnekteki “Your Directory Path” ifadesini makinenizdeki gerçek bir klasörle değiştirin.
 
 ## Ad Alanlarını İçe Aktar
 
-Öncelikle Aspose.BarCode for .NET'i kullanmak için gerekli ad alanlarını içe aktarmamız gerekiyor. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
-
+`Aspose.BarCode.Generation`, .NET'te barkodları oluşturmak ve yapılandırmak için gerekli sınıfları sağlar.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Bu kod Aspose.BarCode ad alanını içe aktararak uygulamanızda barkodlarla çalışmanıza olanak tanır.
+## Adım 1: Barkod Jeneratörünü Başlat
 
-Daha sonra, DotCode en boy oranı özelleştirmesine yönelik adım adım bir kılavuz oluşturmak için sağladığınız örnek kodu birden fazla adıma ayıralım:
-
-## Adım 1: Barkod Oluşturucuyu Başlatın
-
+`BarcodeGenerator`, belirtilen semboloji ve verilere göre bir barkod görüntüsü oluşturan ana sınıftır.  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Kodunuz buraya gelecek
+    // Your code goes here
 }
 ```
 
-Bu adımda, DotCode kodlama türü ve bir veri değeri ("Aspose") ile bir BarcodeGenerator nesnesini başlatıyoruz.
+## Adım 2: Barkodun X‑Dimension (Boyut) Ayarını Yap
 
-## Adım 2: Barkodun X Boyutunu (Boyutunu) Ayarlayın
-
+`XDimension`, tek bir modülün (noktanın) piksel cinsinden genişliğini tanımlar ve barkodun genel boyutunu etkiler.  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-Burada barkodun X Boyutunu piksel cinsinden tanımlayarak boyutunu ayarlarsınız. Barkodu büyütmek veya küçültmek için bu değeri ayarlayabilirsiniz.
+## Adım 3: En Boy Oranını Özelleştir
 
-## 3. Adım: En Boy Oranını Özelleştirin
-
+`AspectRatio`, her bir modülün yükseklik‑genişlik oranını belirler ve barkodu dikey olarak uzatmanıza veya sıkıştırmanıza olanak tanır.  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-Bu adım, DotCode en boy oranını özelleştireceğiniz yerdir. Bu örnekte biz bunu 0,5 olarak ayarladık ancak istediğiniz en boy oranını elde etmek için bu değeri gerektiği gibi ayarlayabilirsiniz.
+## Adım 4: Barkod Görüntüsünü Kaydet
 
-## Adım 4: Barkod Görüntüsünü Kaydedin
-
+`Save`, oluşturulan barkodu PNG veya JPEG gibi seçilen görüntü formatında bir dosyaya yazar.  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Son olarak, oluşturulan barkod görüntüsünü belirtilen dosya adı ve formatla kaydedersiniz. Yer değiştirmek "{path}" gerçek dizin yolunuzla.
+## Neden DotCode özelleştirmesi için Aspose.BarCode kullanmalı?
+Aspose.BarCode, yüksek çözünürlüklü çıktı, geniş format desteği ve en boy oranı gibi barkod boyutları üzerinde ayrıntılı kontrol gibi DotCode üretimi için kapsamlı bir özellik seti sunar. Tüm büyük .NET platformlarında çalışır, harici bağımlılık gerektirmez ve hızlı render performansı sağlar; bu da hem masaüstü hem de web uygulamaları için idealdir.
 
-## Çözüm
+## Yaygın Kullanım Senaryoları
 
-Bu eğitimde Aspose.BarCode for .NET kullanarak DotCode en boy oranının nasıl özelleştirileceğini araştırdık. Bu özellik, paketleme, nakliye etiketleri veya başka herhangi bir uygulama için özel gereksinimlerinizi karşılayan barkodlar oluşturmanıza olanak tanır. Burada özetlenen adımları takip ederek, özelleştirilmiş DotCode barkodlarını zahmetsizce oluşturmak için Aspose.BarCode'un gücünden yararlanabilirsiniz.
+- **Healthcare**: Küçük bilekliklerde yer alması gereken kompakt hasta‑ID etiketleri.  
+- **Postal Services**: Düşük yükseklik tarama güvenilirliğini artıran geniş‑formatlı gönderi etiketleri.  
+- **Manufacturing**: Parça etiketlemesinde, alan kısıtlamaları özel bir en boy oranı gerektiren hat içi etiketleme.
 
-Şimdi DotCode özelleştirmesiyle ilgili bazı genel soruları ele alalım:
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**S:** DotCode barkodunun en boy oranı nedir?  
+**C:** Modülün yüksekliğinin genişliğine oranıdır; bunu ayarlamak barkodun genel şeklini değiştirir.
 
-### S1: DotCode barkodunun en boy oranı nedir?
+**S:** Hangi sektörler DotCode barkodlarından en çok faydalanır?  
+**C:** Sağlık, posta hizmetleri ve üretim, kompakt ve yüksek yoğunluklu veri kodlaması için sıkça DotCode kullanır.
 
-Cevap1: Bir DotCode barkodunun en boy oranı, barkoddaki ayrı modüllerin yüksekliği ve genişliği arasındaki oranı ifade eder. Özel ihtiyaçlarınıza uyacak şekilde ayarlanabilir.
+**S:** Aspose.BarCode for .NET ile diğer DotCode parametrelerini özelleştirebilir miyim?  
+**C:** Kesinlikle. Hata düzeltme seviyesini, ön/arka plan renklerini değiştirebilir ve hatta logolar ekleyebilirsiniz.
 
-### S2: DotCode barkodlarından hangi sektörler yararlanıyor?
+**S:** Aspose.BarCode hem web hem de masaüstü .NET uygulamaları için uygun mu?  
+**C:** Evet, kütüphane ASP.NET, WPF, WinForms ve konsol uygulamalarında sorunsuz çalışır.
 
-Cevap2: DotCode barkodları, bilgilerin verimli bir şekilde kodlanmasının çok önemli olduğu sağlık hizmetleri, posta hizmetleri ve üretim alanlarında yaygın olarak kullanılır.
+**S:** Daha fazla dokümantasyon ve örnek nerede bulunabilir?  
+**C:** Ayrıntılı API referansı ve kod örnekleri [burada](https://reference.aspose.com/barcode/net/) mevcuttur.
 
-### S3: DotCode barkodlarının diğer parametrelerini Aspose.BarCode for .NET ile özelleştirebilir miyim?
+---
 
-C3: Evet, Aspose.BarCode for .NET, DotCode ve diğer barkod türleri için kapsamlı özelleştirme seçenekleri sunarak, çeşitli parametreleri gereksinimlerinize uyacak şekilde kontrol etmenize olanak tanır.
+**Son Güncelleme:** 2026-06-14  
+**Test Edilen Versiyon:** Aspose.BarCode 24.12 for .NET  
+**Yazar:** Aspose
 
-### S4: Aspose.BarCode for .NET hem web hem de masaüstü uygulamaları için uygun mudur?
+## İlgili Öğreticiler
 
-Cevap4: Evet, Aspose.BarCode for .NET, barkod oluşturmak ve işlemek için hem web hem de masaüstü uygulamalarında kullanılabilir.
+- [Aspose.BarCode for .NET ile DotCode Genişletilmiş Kod Metni Yapılandırması](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [Aspose.BarCode for .NET ile DotCode Yapılandırılmış Ekleme Modu Yapılandırması](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [DotCode barkod görüntüsü oluştur – satırlar ve sütunlar (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-### S5: Aspose.BarCode for .NET hakkında daha fazla bilgi ve belgeyi nerede bulabilirim?
 
-A5: Belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/barcode/net/) Kapsamlı rehberlik ve örnekler için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

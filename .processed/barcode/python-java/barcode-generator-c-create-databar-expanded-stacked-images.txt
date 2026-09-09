@@ -1,0 +1,7 @@
+Title: Barcode Generator C# – Create DataBar Expanded Stacked Images
+Slug: barcode-generator-c-create-databar-expanded-stacked-images
+Category: general
+ProcessedDate: 2026-07-25T02:59:27.353334
+SourceRepo: AI Search API
+Keywords: barcode generator c#, generate barcode image, how to set columns, how to set rows, create databar barcode
+PRNumber: 82

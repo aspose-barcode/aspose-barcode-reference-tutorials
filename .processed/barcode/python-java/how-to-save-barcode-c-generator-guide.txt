@@ -1,0 +1,7 @@
+Title: How to Save Barcode – C# Generator Guide
+Slug: how-to-save-barcode-c-generator-guide
+Category: general
+ProcessedDate: 2026-07-25T02:59:25.877482
+SourceRepo: AI Search API
+Keywords: how to save barcode, barcode generator c#, how to generate databar, export barcode image
+PRNumber: 82

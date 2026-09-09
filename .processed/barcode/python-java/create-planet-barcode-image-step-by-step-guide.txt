@@ -1,0 +1,7 @@
+Title: create planet barcode image – Step‑by‑Step Guide
+Slug: create-planet-barcode-image-step-by-step-guide
+Category: general
+ProcessedDate: 2026-07-28T03:20:18.455072
+SourceRepo: AI Search API
+Keywords: create planet barcode image, how to generate planet barcode
+PRNumber: 85

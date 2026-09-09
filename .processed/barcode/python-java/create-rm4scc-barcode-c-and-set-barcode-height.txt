@@ -1,0 +1,7 @@
+Title: Create RM4SCC barcode C# and set barcode height
+Slug: create-rm4scc-barcode-c-and-set-barcode-height
+Category: general
+ProcessedDate: 2026-08-25T19:21:45.642837
+SourceRepo: AI Search API
+Keywords: create rm4scc barcode c#, how to set barcode height
+PRNumber: 112

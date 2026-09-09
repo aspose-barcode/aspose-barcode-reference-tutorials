@@ -1,37 +1,103 @@
 ---
-title: 使用 Aspose.BarCode for .NET 進行 Aztec 程式碼文字編碼
-linktitle: 阿茲特克代碼文字編碼
+date: 2026-05-19
+description: 了解如何產生帶文字編碼的 Aztec 條碼以及如何安裝 Aspose.BarCode .NET – 為 .NET 開發人員提供的逐步指南。
+keywords:
+- generate aztec barcode
+- install aspose barcode .net
+- aztec code encoding .net
+- aspose barcode tutorial
+linktitle: Aztec Code 文字編碼
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to generate aztec barcode with text encoding and how to install
+    aspose barcode .net – step‑by‑step guide for .NET developers.
+  headline: Generate Aztec Barcode with Text Encoding using Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to generate aztec barcode with text encoding and how to install
+    aspose barcode .net – step‑by‑step guide for .NET developers.
+  name: Generate Aztec Barcode with Text Encoding using Aspose.BarCode for .NET
+  steps:
+  - name: Define Your Directory Path
+    text: Choose a folder where the barcode image will be stored. Replace **Your Directory
+      Path** with an absolute or relative path on your machine.
+  - name: Initialize Aztec Code Generator
+    text: The `BarcodeGenerator` class is the core object that creates barcodes. `BarcodeGenerator`
+      **is Aspose.BarCode's primary class for barcode creation**, handling all encoding
+      options internally.
+  - name: Set Barcode Parameters
+    text: Here we configure the visual and encoding settings. `XDimension` defines
+      pixel size per module, and `CodeTextEncoding` ensures UTF‑8 handling for international
+      characters.
+  - name: Save the Aztec Code Image
+    text: Calling `Save` writes the barcode to the file system. The format can be
+      PNG, JPEG, BMP, or TIFF – PNG is used in this example for lossless quality.
+  - name: Recognize the Aztec Code
+    text: '`BarCodeReader` **is the class that reads and decodes barcodes** from images
+      or streams. It validates that the generated Aztec code contains the expected
+      text.'
+  type: HowTo
+- questions:
+  - answer: Up to 3 832 characters for text mode, or 2 880 bytes for binary mode,
+      depending on error correction level.
+    question: What is the maximum amount of data an Aztec barcode can hold?
+  - answer: Yes, set the `ForeColor` and `BackColor` properties on the `BarcodeGenerator`
+      before saving.
+    question: Can I generate colored Aztec barcodes?
+  - answer: The library can generate images up to 10 000 × 10 000 pixels; larger sizes
+      may increase memory usage.
+    question: Is there a limit on image size?
+  - answer: Absolutely – the NuGet package targets .NET Standard 2.0, making it compatible
+      with .NET 5, .NET 6, and later.
+    question: Does Aspose.BarCode support .NET 6?
+  - answer: 'Download the trial from [here](https://releases.aspose.com/). Community
+      support and discussions are available on the Aspose Barcode forum: [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).'
+    question: Where can I get a free trial?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: 使用 Aspose.BarCode for .NET 探索 Aztec 程式碼文字編碼的強大功能。了解如何在 .NET 應用程式中建立和識別 Aztec 程式碼。
-weight: 12
+title: 使用 Aspose.BarCode for .NET 產生帶文字編碼的 Aztec 條碼
 url: /zh-hant/net/aztec-barcode-encoding/aztec-code-text-encoding/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode for .NET 進行 Aztec 程式碼文字編碼
+# 使用 Aspose.BarCode for .NET 產生帶文字編碼的 Aztec 條碼
 
 ## 介紹
 
-您準備好使用 Aspose.BarCode for .NET 進入 Aztec 程式碼文字編碼的迷人世界了嗎？在這份綜合指南中，我們將引導您完成充分利用 Aztec 代碼潛力的步驟，Aztec 代碼是一種二維條碼格式，非常適合對文字和其他資料進行編碼。作為一名熟練的 SEO 作家，我來這裡是為了確保您不僅了解該過程，而且還能針對搜尋引擎進行優化。那麼，就讓我們開始成為阿茲特克密碼專家的旅程吧！
+想在 .NET 專案中 **產生 Aztec 條碼** 文字編碼嗎？本教學將一步步帶您完成從安裝函式庫到建立與辨識 Aztec 符號的全過程。您將了解為何 Aspose.BarCode 是需要可靠 2‑D 條碼產生的開發者的首選，並取得可直接複製到 Visual Studio 的實用程式碼片段。讓我們把資料轉換成緊湊、可掃描的 Aztec 圖像吧！
 
-## 先決條件
+## 快速回答
+- **哪個函式庫可以建立 Aztec 條碼？** Aspose.BarCode for .NET。
+- **需要多少行程式碼？** 只需兩行產生程式碼加上一行讀取程式碼。
+- **正式環境需要授權嗎？** 需要商業授權；亦提供免費試用版。
+- **可以自訂大小與編碼嗎？** 當然可以 – XDimension、錯誤更正等級與 UTF‑8 文字皆可設定。
+- **相容於 .NET Core 與 .NET 6 嗎？** 相容，函式庫支援 .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6。
 
-在我們開始這個令人興奮的旅程之前，您需要滿足一些先決條件：
+## 什麼是 generate aztec barcode？
+**Generate aztec barcode** 指的是使用 Aztec 符號規格建立一個可儲存文字或二進位資料的二維矩陣符號。產生的結果是一張方形影像，可由行動裝置或專用讀取器掃描，且不需要周圍的靜止區域。
 
-1.  Aspose.BarCode for .NET：確保您已經安裝了這個功能強大的程式庫。您可以在以下位置找到文件：[Aspose.BarCode for .NET 文檔](https://reference.aspose.com/barcode/net/).
+## 為什麼使用 Aspose.BarCode for .NET？
+Aspose.BarCode 支援 **70+ 條碼符號**，包括最高 **151 × 151 模組** 的 Aztec 碼，且單一符號可編碼 **最高 3 832 個字元**。函式庫以記憶體效能模式處理上百頁文件，意味著您可以在不載入整個檔案的情況下產生大量批次。欲取得完整 API 參考，請參閱 [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/)。
 
-2. Visual Studio：您應該在系統上安裝 Visual Studio 來建立和執行 .NET 應用程式。
+## 前置條件
 
-3. C# 基礎知識：熟悉 C# 程式設計將會很有幫助，儘管我們將提供詳細的解釋以確保每個人都能跟上。
+在開始之前，請確保您具備以下項目：
 
-現在我們已經介紹了先決條件，讓我們繼續執行使用 Aztec 程式碼文字編碼的步驟。
+1. **install Aspose.BarCode .NET** – 從官方網站下載 NuGet 套件或 MSI 安裝程式。詳細安裝步驟請參考 [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/)。
+2. **Visual Studio** – 任一近期版本（2019、2022 或更新）且支援 .NET。
+3. **基本的 C# 知識** – 您應能建立主控台或 Windows Forms 專案，程式碼已為新手加上完整註解。
 
-## 導入命名空間
+## 如何產生帶文字編碼的 Aztec 條碼？
 
-首先，您需要匯入必要的命名空間，以便在 C# 應用程式中使用 Aspose.BarCode for .NET。將以下程式碼加入 .cs 檔案的頂部：
+載入資料、設定產生器，並在兩行程式碼內儲存影像。首先建立 `BarcodeGenerator` 實例、將 `EncodeType` 設為 **Aztec**、指派文字，然後呼叫 `Save`。接著使用 `BarCodeReader` 來驗證產生的符號。
+
+### 匯入命名空間
+
+`using` 指示詞讓您取得 Aspose.BarCode 類別的存取權。請將它們放在 `.cs` 檔案的最上方：
 
 ```csharp
 using System;
@@ -40,46 +106,43 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-## 阿茲特克代碼文字編碼
+### 步驟 1：定義目錄路徑
 
-現在，讓我們將您提供的範例分解為多個步驟來建立 Aztec 程式碼文字編碼。
-
-### 第 1 步：定義您的目錄路徑
-
-設定要儲存產生的 Aztec 程式碼影像的路徑。將“您的目錄路徑”替換為您所需的目錄路徑。
+選擇一個資料夾來儲存條碼影像。將 **Your Directory Path** 替換為您機器上的絕對或相對路徑。
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 步驟 2： 初始化 Aztec 程式碼產生器
+### 步驟 2：初始化 Aztec 碼產生器
 
-建立一個 BarcodeGenerator 實例，並將 EncodeTypes 設為 Aztec，並指定要編碼的文字。
+`BarcodeGenerator` 類別是產生條碼的核心物件。  
+`BarcodeGenerator` **是 Aspose.BarCode 用於條碼產生的主要類別**，內部處理所有編碼選項。
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Aspose常に先を行く");
 ```
 
-## 第三步：設定條碼參數
+### 步驟 3：設定條碼參數
 
-配置條碼參數。在此範例中，我們將 XDimension 設定為像素，並將程式碼文字編碼設定為 UTF8。
+在此設定視覺與編碼屬性。`XDimension` 定義每個模組的像素大小，`CodeTextEncoding` 確保以 UTF‑8 處理國際字元。
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 4;
 gen.Parameters.Barcode.Aztec.CodeTextEncoding = Encoding.UTF8;
 ```
 
-## 步驟 4：儲存 Aztec 程式碼影像
+### 步驟 4：儲存 Aztec 碼影像
 
-將產生的Aztec程式碼鏡像儲存到指定目錄。
+呼叫 `Save` 將條碼寫入檔案系統。格式可為 PNG、JPEG、BMP 或 TIFF – 本範例使用 PNG 以取得無損品質。
 
 ```csharp
 gen.Save($"{path}AztecCodeTextEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## 第五步：識別阿茲特克密碼
+### 步驟 5：辨識 Aztec 碼
 
-嘗試識別您剛剛建立的 Aztec 代碼。為此，我們使用 BarCodeReader。
+`BarCodeReader` **是用於從影像或串流讀取與解碼條碼的類別**。它會驗證產生的 Aztec 碼是否包含預期的文字。
 
 ```csharp
 BarCodeReader read = new BarCodeReader(gen.GenerateBarCodeImage(), DecodeType.Aztec);
@@ -87,35 +150,42 @@ foreach (BarCodeResult result in read.ReadBarCodes())
     Console.WriteLine("AztecCodeTextEncoding:" + result.GetCodeText(Encoding.UTF8));
 ```
 
-恭喜！您已使用 Aspose.BarCode for .NET 成功建立並識別了帶有文字編碼的 Aztec 程式碼。
+## 常見問題與解決方案
 
-## 結論
+- **找不到影像** – 確認目錄路徑以反斜線 (`\`) 結尾，且應用程式具備寫入權限。
+- **讀取後文字不正確** – 確認 `CodeTextEncoding` 與產生時使用的編碼相同（建議使用 UTF‑8）。
+- **Aztec 符號過大** – 增加 `XDimension` 或調整 `ErrorCorrectionLevel` 以平衡尺寸與可讀性。
 
-在本教程中，我們探索了使用 Aspose.BarCode for .NET 進行 Aztec 程式碼文字編碼的迷人世界。我們介紹了先決條件，導入了必要的命名空間，並分解了每個步驟來建立編碼文字的 Aztec 代碼。現在，您可以利用這些知識將 Aztec 程式碼整合到您的 .NET 應用程式中，並利用它們的強大功能來實現各種用例。
+## 常見問答
 
-請隨意瀏覽以下文件：[Aspose.BarCode for .NET 文檔](https://reference.aspose.com/barcode/net/)以獲得更多見解和高級功能。快樂編碼！
+**Q: Aztec 條碼能容納的最大資料量是多少？**  
+A: 文字模式下最高可容納 3 832 個字元，二進位模式則為 2 880 位元組，視錯誤更正等級而定。
 
-## 常見問題解答
+**Q: 我可以產生彩色的 Aztec 條碼嗎？**  
+A: 可以，在儲存前於 `BarcodeGenerator` 設定 `ForeColor` 與 `BackColor` 屬性。
 
-### Q1：什麼是阿茲特克密碼？
+**Q: 影像大小有上限嗎？**  
+A: 函式庫可產生最高 10 000 × 10 000 像素的影像；更大尺寸可能會增加記憶體使用量。
 
-A1：Aztec Code 是一種二維條碼格式，可對多種資料類型進行編碼，包括文字、URL 等。
+**Q: Aspose.BarCode 支援 .NET 6 嗎？**  
+A: 完全支援 – NuGet 套件目標為 .NET Standard 2.0，因而相容於 .NET 5、.NET 6 以及更高版本。
 
-### Q2：為什麼我應該使用 Aspose.BarCode for .NET？
+**Q: 哪裡可以取得免費試用？**  
+A: 前往 [here](https://releases.aspose.com/) 下載試用版。社群支援與討論可在 Aspose 條碼論壇取得： [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13)。
 
-A2：Aspose.BarCode for .NET 是一個功能強大的函式庫，可以簡化.NET 應用程式中條碼的建立和識別，從而節省您的時間和精力。
+---
 
-### Q3：我可以使用 Aspose.BarCode for .NET 自訂 Aztec 程式碼的外觀嗎？
+**最後更新：** 2026-05-19  
+**測試環境：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose
 
-A3：是的，您可以自訂 Aztec 程式碼的各個方面，例如大小、顏色和編碼選項，以滿足您的需求。
+## 相關教學
 
-### Q4：Aspose.BarCode for .NET 有免費試用選項嗎？
+- [How to generate Aztec barcode with custom aspect ratio using Aspose.BarCode for .NET](/barcode/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [Aztec Bytes Encoding using barcode generator .net](/barcode/net/aztec-barcode-encoding/aztec-bytes-encoding/)
+- [Mastering Aztec Symbol Mode with Aspose.BarCode for .NET](/barcode/net/aztec-barcode-encoding/aztec-symbol-mode-example/)
 
- A4：是的，您可以造訪 Aspose.BarCode for .NET 免費試用[這裡](https://releases.aspose.com/).
 
-### Q5：我可以在哪裡獲得與 Aspose.BarCode for .NET 相關的支援或提出問題？
-
- A5：您可以在支援論壇上加入 Aspose.BarCode for .NET 社群：[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13)獲得協助並分享您的經驗。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

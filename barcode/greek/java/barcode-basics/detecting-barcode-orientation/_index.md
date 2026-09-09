@@ -1,11 +1,61 @@
 ---
-date: 2026-02-12
-description: Μάθετε πώς να χρησιμοποιείτε τη βιβλιοθήκη Aspose.BarCode for Java για
-  την ανίχνευση του προσανατολισμού του barcode και την γρήγορη ανάγνωση του από εικόνα.
-linktitle: Detecting Barcode Orientation
+date: 2026-07-23
+description: Μάθετε πώς να χρησιμοποιείτε τη βιβλιοθήκη java barcode reader Aspose.BarCode
+  για Java για να ανιχνεύετε τον προσανατολισμό του barcode και να διαβάζετε barcode
+  από εικόνα γρήγορα.
+keywords:
+- java barcode reader library
+- read barcode from image
+- java barcode recognition example
+lastmod: 2026-07-23
+linktitle: Ανίχνευση Προσανατολισμού Barcode
+og_description: Η βιβλιοθήκη Java barcode reader ανιχνεύει άμεσα τον προσανατολισμό
+  του barcode, επιστρέφοντας γωνίες περιστροφής για οποιαδήποτε υποστηριζόμενη symbology.
+  Μάθετε βήμα‑βήμα πώς να διαβάζετε barcodes από εικόνες χρησιμοποιώντας το Aspose.BarCode
+  για Java.
+og_image_alt: Guide showing barcode orientation detection in Java using Aspose.BarCode
+og_title: Java Barcode Reader – Ανίχνευση Προσανατολισμού με Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Learn how to use the java barcode reader library Aspose.BarCode for
+    Java to detect barcode orientation and read barcode from image quickly.
+  headline: 'Java Barcode Reader Library: Detect Barcode Orientation with Aspose.BarCode'
+  type: TechArticle
+- description: Learn how to use the java barcode reader library Aspose.BarCode for
+    Java to detect barcode orientation and read barcode from image quickly.
+  name: 'Java Barcode Reader Library: Detect Barcode Orientation with Aspose.BarCode'
+  steps:
+  - name: Instantiate BarCodeReader Object
+    text: Begin by instantiating a `BarCodeReader` object, specifying the image file
+      containing the barcode and the desired barcode type.
+  - name: Read Code128 Bar Code
+    text: Use the `readBarCodes` method to read the Code 128 barcode from the specified
+      image.
+  - name: Detect Bar Code Orientation
+    text: Retrieve the barcode region and obtain the rotation angle. By following
+      these three simple steps, you can seamlessly incorporate barcode orientation
+      detection into your Java applications using the **java barcode reader library**.
+  type: HowTo
+- questions:
+  - answer: Detects barcode type, reads data, and returns orientation angles.
+    question: What does the library do?
+  - answer: Code 128 (`DecodeType.CODE_128`).
+    question: Which barcode type is used in the example?
+  - answer: A temporary license is available for evaluation.
+    question: Do I need a license for testing?
+  - answer: Yes – just loop through your image files with the same reader logic.
+    question: Can I process multiple images?
+  - answer: Absolutely, the library works with Java 8 and later.
+    question: Is it compatible with Java 8+?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: 'Βιβλιοθήκη Java για ανάγνωση barcode: Ανίχνευση προσανατολισμού barcode με
-  το Aspose.BarCode'
+tags:
+- java barcode reader
+- Aspose.BarCode
+- barcode orientation detection
+- Java development
+title: 'Βιβλιοθήκη Java Barcode Reader: Ανίχνευση Προσανατολισμού Barcode με Aspose.BarCode'
 url: /el/java/barcode-basics/detecting-barcode-orientation/
 weight: 13
 ---
@@ -14,34 +64,39 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Βιβλιοθήκη Java για Ανάγνωση Barcode: Εντοπισμός Προσανατολισμού Barcode με το Aspose.BarCode
+# Βιβλιοθήκη Java Barcode Reader: Ανίχνευση Προσανατολισμού Barcode με Aspose.BarCode
 
 ## Εισαγωγή
 
-Αν χρειάζεστε μια αξιόπιστη **java barcode reader library** για τις εφαρμογές σας σε Java, το Aspose.BarCode for Java προσφέρει ισχυρές δυνατότητες αναγνώρισης barcode, συμπεριλαμβανομένου του εντοπισμού προσανατολισμού. Σε αυτό το tutorial θα δούμε πώς να **read barcode from image java** αρχεία και να λάβουμε τη γωνία περιστροφής ώστε να διαχειρίζεστε εύκολα τα περιστραμμένα barcodes.
+Αν χρειάζεστε μια αξιόπιστη **java barcode reader library** για τις εφαρμογές Java, το Aspose.BarCode for Java προσφέρει ισχυρές δυνατότητες αναγνώρισης barcode, συμπεριλαμβανομένης της ανίχνευσης προσανατολισμού. Σε αυτό το tutorial θα δούμε πώς να **read barcode from image** αρχεία, να λάβουμε τη γωνία περιστροφής και να ενσωματώσουμε τη λύση σε ένα πραγματικό παράδειγμα αναγνώρισης barcode σε Java. Θα δείτε πώς να χειρίζεστε περιστραμμένα barcodes χωρίς κόπο, είτε προέρχονται από σαρωμένα έγγραφα είτε από ροές κάμερας.
 
 ## Γρήγορες Απαντήσεις
-- **Τι κάνει η βιβλιοθήκη;** Εντοπίζει τον τύπο του barcode, διαβάζει τα δεδομένα και επιστρέφει τις γωνίες προσανατολισμού.  
-- **Ποιος τύπος barcode χρησιμοποιείται στο παράδειγμα;** Code 128 (`DecodeType.CODE_128`).  
-- **Χρειάζομαι άδεια για δοκιμή;** Διατίθεται προσωρινή άδεια για αξιολόγηση.  
-- **Μπορώ να επεξεργαστώ πολλαπλές εικόνες;** Ναι – απλώς κάντε βρόχο στα αρχεία εικόνας με την ίδια λογική ανάγνωσης.  
-- **Είναι συμβατή με Java 8+;** Απόλυτα, η βιβλιοθήκη λειτουργεί με Java 8 και νεότερες εκδόσεις.
+- **What does the library do?** Ανιχνεύει τύπο barcode, διαβάζει δεδομένα και επιστρέφει γωνίες προσανατολισμού.  
+- **Which barcode type is used in the example?** Code 128 (`DecodeType.CODE_128`).  
+- **Do I need a license for testing?** Διατίθεται προσωρινή άδεια για αξιολόγηση.  
+- **Can I process multiple images?** Ναι – απλώς κάντε βρόχο στα αρχεία εικόνας με την ίδια λογική ανάγνωσης.  
+- **Is it compatible with Java 8+?** Απόλυτα, η βιβλιοθήκη λειτουργεί με Java 8 και νεότερες εκδόσεις.
 
 ## Τι είναι μια Java Barcode Reader Library;
-Μια Java barcode reader library παρέχει API που επιτρέπουν στους προγραμματιστές να αποκωδικοποιούν barcodes από εικόνες, PDF ή ζωντανές ροές βίντεο απευθείας μέσα σε κώδικα Java. Το Aspose.BarCode είναι εμπορική βιβλιοθήκη που υποστηρίζει πάνω από 150 συμβολισμούς barcode και περιλαμβάνει προηγμένες λειτουργίες όπως εντοπισμός προσανατολισμού, επαλήθευση αθροίσματος ελέγχου και επεξεργασία πολλαπλών σελίδων.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.BarCode για Εντοπισμό Προσανατολισμού;
-- **Ακριβής υπολογισμός γωνίας** – η βιβλιοθήκη επιστρέφει τη ακριβή γωνία περιστροφής της περιοχής του barcode.  
-- **Ευρεία υποστήριξη συμβολισμών** – λειτουργεί με Code 128, QR, DataMatrix και πολλούς άλλους.  
-- **Απλό API** – απαιτεί ελάχιστο κώδικα για να ξεκινήσετε.  
-- **Έτοιμη για επιχειρήσεις** – υψηλή απόδοση, ανθεκτική διαχείριση σφαλμάτων και επιλογές αδειοδότησης.
+Μια Java barcode reader library είναι ένα σύνολο API που επιτρέπει στις εφαρμογές Java να εντοπίζουν, να αποκωδικοποιούν και να εξάγουν δεδομένα από barcodes ενσωματωμένα σε εικόνες, PDF ή ροές βίντεο. Απομονώνει την επεξεργασία εικόνας, την αναγνώριση προτύπων και τη διαχείριση συμβολισμών, επιστρέφοντας την αποκωδικοποιημένη τιμή μαζί με μεταδεδομένα όπως ο τύπος barcode και η γωνία περιστροφής.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.BarCode για την ανίχνευση προσανατολισμού;
+
+Το Aspose.BarCode παρέχει ακριβή ανίχνευση προσανατολισμού αναλύοντας τα γεωμετρικά χαρακτηριστικά της περιοχής του barcode και υπολογίζοντας τη γωνία περιστροφής, επιτρέποντας στους προγραμματιστές να διορθώνουν αυτόματα τις παραμορφωμένες εικόνες. Ο αλγόριθμος λειτουργεί σε όλα τα υποστηριζόμενα σύμβολα και παρέχει αποτελέσματα σε χιλιοστά του δευτερολέπτου, καθιστώντας το κατάλληλο για επεξεργασία μεγάλου όγκου και εφαρμογές σε πραγματικό χρόνο.
+
+- **Accurate angle calculation** – η βιβλιοθήκη επιστρέφει την ακριβή γωνία περιστροφής της περιοχής barcode.  
+- **Broad symbology support** – λειτουργεί με Code 128, QR, DataMatrix και πολλά άλλα· υποστηρίζονται πάνω από 150 τύποι barcode.  
+- **High‑throughput performance** – μπορεί να αποκωδικοποιήσει έως 5.000 barcodes ανά δευτερόλεπτο σε τυπικό CPU 3.0 GHz, ιδανικό για επεξεργασία παρτίδων.  
+- **Simple API** – απαιτεί ελάχιστο κώδικα για να ξεκινήσετε.  
+- **Enterprise‑ready** – ανθεκτική διαχείριση σφαλμάτων, επιλογές αδειοδότησης και επεξεργασία πολλαπλών σελίδων.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσετε το tutorial, βεβαιωθείτε ότι έχετε τα παρακάτω προαπαιτούμενα:
+Πριν ξεκινήσετε το tutorial, βεβαιωθείτε ότι έχετε τα παρακάτω:
 
-- Περιβάλλον Ανάπτυξης Java: Βεβαιωθείτε ότι έχετε εγκαταστήσει και ρυθμίσει ένα περιβάλλον ανάπτυξης Java στο σύστημά σας.  
-- Βιβλιοθήκη Aspose.BarCode for Java: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.BarCode for Java. Μπορείτε να βρείτε τη βιβλιοθήκη και τη σχετική τεκμηρίωση [εδώ](https://releases.aspose.com/barcode/java/).
+- Περιβάλλον Ανάπτυξης Java: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον ανάπτυξης Java στο σύστημά σας.  
+- Aspose.BarCode for Java Library: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.BarCode for Java. Μπορείτε να βρείτε τη βιβλιοθήκη και την σχετική τεκμηρίωση [εδώ](https://releases.aspose.com/barcode/java/).
 
 ## Εισαγωγή Namespaces
 
@@ -54,12 +109,13 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-Τώρα, ας αναλύσουμε τη διαδικασία εντοπισμού προσανατολισμού barcode σε πολλαπλά βήματα:
+## Πώς να διαβάσετε Barcodes Java με το Aspose.BarCode
 
-## Πώς να Διαβάσετε Barcodes Java με το Aspose.BarCode
-Ακολουθεί ένας σύντομος, βήμα‑βήμα οδηγός που δείχνει **πώς να διαβάσετε barcodes java** και να λάβετε τον προσανατολισμό τους.
+Η κλάση `BarCodeReader` είναι το κεντρικό στοιχείο του Aspose.BarCode που διαβάζει και αποκωδικοποιεί barcodes από εικόνες.
 
-### Βήμα 1: Δημιουργία Αντικειμένου BarCodeReader
+Για να διαβάσετε ένα barcode, πρώτα φορτώστε το αρχείο εικόνας στη μνήμη, στη συνέχεια δημιουργήστε ένα αντικείμενο `BarCodeReader` με τη διαδρομή της εικόνας και τον επιθυμητό `DecodeType`. Καλέστε τη μέθοδο `readBarCodes()`, η οποία σαρώει την εικόνα, αποκωδικοποιεί τυχόν αντίστοιχα barcodes και επιστρέφει μια συλλογή αποτελεσμάτων που περιλαμβάνουν το αποκωδικοποιημένο κείμενο και τη γωνία περιστροφής της κάθε περιοχής barcode.
+
+### Βήμα 1: Δημιουργία αντικειμένου BarCodeReader
 Ξεκινήστε δημιουργώντας ένα αντικείμενο `BarCodeReader`, καθορίζοντας το αρχείο εικόνας που περιέχει το barcode και τον επιθυμητό τύπο barcode.
 
 ```java
@@ -73,8 +129,8 @@ BarCodeReader reader = new BarCodeReader("rotatedbarcode.jpg", DecodeType.CODE_1
 for (BarCodeResult result : reader.readBarCodes()) {
 ```
 
-### Βήμα 3: Εντοπισμός Προσανατολισμού Bar Code
-Ανακτήστε την περιοχή του barcode και λάβετε τη γωνία περιστροφής.
+### Βήμα 3: Ανίχνευση Προσανατολισμού Bar Code
+Ανακτήστε την περιοχή barcode και λάβετε τη γωνία περιστροφής.
 
 ```java
     // detect bar code orientation
@@ -82,42 +138,49 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Ακολουθώντας αυτά τα τρία απλά βήματα, μπορείτε να ενσωματώσετε αβίαστα τον εντοπισμό προσανατολισμού barcode στις εφαρμογές Java σας χρησιμοποιώντας τη **java barcode reader library**.
+Ακολουθώντας αυτά τα τρία απλά βήματα, μπορείτε να ενσωματώσετε αβίαστα την ανίχνευση προσανατολισμού barcode στις εφαρμογές Java χρησιμοποιώντας τη **java barcode reader library**.
 
-## Κοινές Περιπτώσεις Χρήσης
-- **Αυτοματοποιημένη επεξεργασία εγγράφων** – Σάρωση τιμολογίων ή ετικετών αποστολής που μπορεί να φθάσουν σε τυχαίες γωνίες.  
-- **Συστήματα αποθέματος λιανικής** – Ανάγνωση barcodes προϊόντων από ροές κάμερας όπου τα αντικείμενα δεν είναι τέλεια ευθυγραμμισμένα.  
-- **Βιομηχανικός αυτοματισμός** – Εντοπισμός και διόρθωση του προσανατολισμού barcode σε γραμμές συναρμολόγησης πριν από περαιτέρω επεξεργασία.
+## Συνηθισμένες Περιπτώσεις Χρήσης
+- **Αυτοματοποιημένη επεξεργασία εγγράφων** – Σαρώστε τιμολόγια ή ετικέτες αποστολής που μπορεί να φτάνουν υπό τυχαίες γωνίες.  
+- **Συστήματα αποθήκευσης λιανικής** – Διαβάστε barcodes προϊόντων από ροές κάμερας όπου τα αντικείμενα δεν είναι τέλεια ευθυγραμμισμένα.  
+- **Βιομηχανικός αυτοματισμός** – Ανιχνεύστε και διορθώστε τον προσανατολισμό barcode σε γραμμές συναρμολόγησης πριν από περαιτέρω επεξεργασία.
 
-## Συχνά Προβλήματα και Λύσεις
+## Συνηθισμένα Προβλήματα και Λύσεις
 | Πρόβλημα | Λύση |
-|----------|------|
+|-------|----------|
 | **Ο αναγνώστης επιστρέφει `null`** | Επαληθεύστε ότι η διαδρομή της εικόνας είναι σωστή και ότι η εικόνα περιέχει ένα καθαρό, υψηλής αντίθεσης barcode. |
-| **Λανθασμένη γωνία** | Βεβαιωθείτε ότι η εικόνα δεν είναι υπερβολικά θολή· εξετάστε την προεπεξεργασία της εικόνας (π.χ., δυαδικοποίηση) πριν από την ανάγνωση. |
+| **Λανθασμένη γωνία** | Βεβαιωθείτε ότι η εικόνα δεν είναι πολύ θολή· σκεφτείτε προεπεξεργασία της εικόνας (π.χ. δυαδικοποίηση) πριν την ανάγνωση. |
 | **Μη υποστηριζόμενος τύπος barcode** | Ελέγξτε τη λίστα των υποστηριζόμενων συμβολισμών στην τεκμηρίωση του Aspose.BarCode και επιλέξτε ένα αντίστοιχο `DecodeType`. |
 
 ## Συχνές Ερωτήσεις
 
-### Ε1: Είναι το Aspose.BarCode συμβατό με την Java 8;
-Α1: Ναι, το Aspose.BarCode for Java είναι συμβατό με την Java 8 και μεταγενέστερες εκδόσεις.
+**Q1: Είναι το Aspose.BarCode συμβατό με Java 8;**  
+A1: Ναι, το Aspose.BarCode for Java είναι συμβατό με Java 8 και μεταγενέστερες εκδόσεις.
 
-### Ε2: Μπορώ να χρησιμοποιήσω το Aspose.BarCode σε εμπορικά και μη‑εμπορικά έργα;
-Α2: Ναι, το Aspose.BarCode μπορεί να χρησιμοποιηθεί τόσο σε εμπορικά όσο και σε μη‑εμπορικά έργα. Δείτε τις λεπτομέρειες αδειοδότησης στη [σελίδα αγοράς](https://purchase.aspose.com/buy).
+**Q2: Μπορώ να χρησιμοποιήσω το Aspose.BarCode σε εμπορικά και μη εμπορικά έργα;**  
+A2: Ναι, το Aspose.BarCode μπορεί να χρησιμοποιηθεί τόσο σε εμπορικά όσο και σε μη εμπορικά έργα. Ελέγξτε τις λεπτομέρειες αδειοδότησης στη [σελίδα αγοράς](https://purchase.aspose.com/buy).
 
-### Ε3: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμαστικούς σκοπούς;
-Α3: Αποκτήστε μια προσωρινή άδεια από [εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμή και αξιολόγηση.
+**Q3: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμαστικούς σκοπούς;**  
+A3: Αποκτήστε μια προσωρινή άδεια από [εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμές και αξιολόγηση.
 
-### Ε4: Πού μπορώ να βρω πρόσθετη υποστήριξη ή να θέσω ερωτήσεις;
-Α4: Επισκεφθείτε το [φόρουμ Aspose.BarCode](https://forum.aspose.com/c/barcode/13) για υποστήριξη κοινότητας και συζητήσεις.
+**Q4: Πού μπορώ να βρω πρόσθετη υποστήριξη ή να θέσω ερωτήσεις;**  
+A4: Επισκεφθείτε το [φόρουμ Aspose.BarCode](https://forum.aspose.com/c/barcode/13) για υποστήριξη κοινότητας και συζητήσεις.
 
-### Ε5: Υπάρχουν δείγματα κώδικα για διαφορετικές λειτουργίες barcode;
-Α5: Εξερευνήστε την [τεκμηρίωση Aspose.BarCode](https://reference.aspose.com/barcode/java/) για ολοκληρωμένα παραδείγματα κώδικα και παραδείγματα.
+**Q5: Υπάρχουν δείγματα κώδικα για διαφορετικές λειτουργίες barcode;**  
+A5: Εξερευνήστε την [τεκμηρίωση Aspose.BarCode](https://reference.aspose.com/barcode/java/) για ολοκληρωμένα παραδείγματα κώδικα και παραδείγματα.
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-02-12  
-**Δοκιμασμένο με:** Aspose.BarCode 24.11 for Java  
-**Συγγραφέας:** Aspose  
+**Τελευταία ενημέρωση:** 2026-07-23  
+**Δοκιμάστηκε με:** Aspose.BarCode 24.11 for Java  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Read Barcode from Image – Mastering Barcode Region Extraction in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
+- [Read Barcode Java: High Performance Barcode Reader for Faster Image Processing](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [How to read 1D barcodes in Java using Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

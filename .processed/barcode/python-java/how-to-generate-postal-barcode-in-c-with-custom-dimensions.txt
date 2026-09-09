@@ -1,0 +1,7 @@
+Title: How to generate postal barcode in C# with custom dimensions
+Slug: how-to-generate-postal-barcode-in-c-with-custom-dimensions
+Category: general
+ProcessedDate: 2026-08-22T15:54:30.684682
+SourceRepo: AI Search API
+Keywords: generate postal barcode, barcode generator c#, barcode x dimension, barcode image format, change barcode width
+PRNumber: 109

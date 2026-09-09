@@ -1,0 +1,7 @@
+Title: How to create planet barcode PNG with C# – step‑by‑step guide
+Slug: how-to-create-planet-barcode-png-with-c-step-by-step-guide
+Category: general
+ProcessedDate: 2026-09-07T11:04:10.395330
+SourceRepo: AI Search API
+Keywords: create planet barcode png, how to generate planet barcode
+PRNumber: 117

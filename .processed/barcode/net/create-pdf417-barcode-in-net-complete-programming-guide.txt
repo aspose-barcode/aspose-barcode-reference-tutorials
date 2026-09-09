@@ -1,0 +1,7 @@
+Title: Create PDF417 Barcode in .NET – Complete Programming Guide
+Slug: create-pdf417-barcode-in-net-complete-programming-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-07-28T02:34:58.415010
+SourceRepo: AI Search API
+Keywords: create pdf417 barcode, barcode generator .net, how to generate barcode, adjust barcode size, generate pdf417 barcode
+PRNumber: 83

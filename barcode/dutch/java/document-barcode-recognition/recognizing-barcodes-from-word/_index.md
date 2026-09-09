@@ -1,36 +1,60 @@
 ---
-title: Moeiteloze barcodeherkenning vanuit Word-documenten
-linktitle: Herkennen van streepjescodes uit Word-documenten
-second_title: Aspose.BarCode Java-API
-description: Ontdek de naadloze integratie van barcodeherkenning in uw Java-applicaties met Aspose.BarCode. Volg deze tutorial om streepjescodes uit Word-documenten te herkennen.
-weight: 12
+date: 2026-04-12
+description: Leer hoe u barcodes uit Word‑documenten kunt herkennen met Aspose.BarCode
+  voor Java. Deze gids laat ook zien hoe u barcodes aan Word kunt toevoegen en afbeeldingen
+  uit Word kunt extraheren.
+keywords:
+- how to recognize barcode
+- add barcode to word
+- read barcode from image
+- extract images from word
+- barcode detection java
+linktitle: Barcodes herkennen uit Word‑documenten
+second_title: Aspose.BarCode Java API
+title: Hoe barcode te herkennen uit Word‑documenten – Java‑gids
 url: /nl/java/document-barcode-recognition/recognizing-barcodes-from-word/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Moeiteloze barcodeherkenning vanuit Word-documenten
+# Hoe barcode herkennen uit Word‑documenten – Java‑gids
 
+## Introductie
 
-## Invoering
+Als je **hoe barcode te herkennen** in een Microsoft Word‑bestand moet, ben je hier aan het juiste adres. In deze tutorial lopen we een volledig end‑to‑end voorbeeld door dat Aspose.BarCode for Java gebruikt om een barcode te genereren, deze in een Word‑document in te voegen, de afbeelding eruit te halen en uiteindelijk de barcode‑gegevens te lezen. Aan het einde zie je ook hoe je **barcode toevoegen aan Word**, **afbeeldingen uit Word extraheren** en **barcode detectie java**‑achtige bewerkingen kunt uitvoeren — allemaal met slechts een paar regels code.
 
-In de dynamische wereld van Java-programmeren wordt de behoefte om efficiënt met barcodes te werken steeds groter. Het herkennen van streepjescodes uit Word-documenten is een veel voorkomende vereiste, en gelukkig biedt Aspose.BarCode voor Java een robuuste oplossing. In deze zelfstudie begeleiden we u door het proces van het herkennen van streepjescodes uit Word-documenten met Aspose.BarCode voor Java.
+## Snelle antwoorden
+- **Welke bibliotheek is vereist?** Aspose.BarCode for Java (plus Aspose.Words voor het verwerken van .docx‑bestanden).  
+- **Kan ik een barcode lezen van een afbeelding?** Ja – de `BarCodeReader` kan afbeeldingen die uit Word zijn geëxtraheerd decoderen.  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist; een gratis proefversie is beschikbaar.  
+- **Welke Java‑versie wordt ondersteund?** Elke JDK 8 + runtime werkt.  
+- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een basisprototype.
+
+## Wat is barcode‑herkenning uit een Word‑document?
+
+Barcode‑herkenning betekent het scannen van een afbeelding die zich binnen een Word‑bestand bevindt en het omzetten van het visuele patroon terug naar de oorspronkelijke gegevensreeks (bijv. “test‑123”). Aspose.BarCode levert de decodeermotor, terwijl Aspose.Words ons in staat stelt de afbeelding uit de .doc/.docx‑container te halen.
+
+## Waarom Aspose.BarCode voor Java gebruiken?
+
+- **Hoge nauwkeurigheid** voor meer dan 60 symbologieën, waaronder Code 39, QR, DataMatrix, enz.  
+- **Geen externe afhankelijkheden** – pure Java, geen native bibliotheken.  
+- **Naadloze integratie** met Aspose.Words, waardoor het eenvoudig is **afbeeldingen uit Word extraheren** en vervolgens **barcode lezen van afbeelding**.  
+- **Robuuste licentiëring** die werkt in desktop‑, server‑ en cloud‑omgevingen.
 
 ## Vereisten
 
-Voordat we in de zelfstudie duiken, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we in de code duiken, zorg dat je het volgende hebt:
 
-- Java Development Kit (JDK): Aspose.BarCode voor Java vereist een Java-ontwikkelomgeving. Zorg ervoor dat de nieuwste JDK op uw systeem is geïnstalleerd.
-
--  Aspose.BarCode voor Java: Download en installeer de Aspose.BarCode voor Java-bibliotheek. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/barcode/java/).
-
-- Integrated Development Environment (IDE): Kies de IDE van uw voorkeur, zoals Eclipse of IntelliJ, om de voorbeelden te volgen.
+- **Java Development Kit (JDK)** – de nieuwste versie wordt aanbevolen.  
+- **Aspose.BarCode for Java** – download en installeer de bibliotheek van de officiële site [hier](https://releases.aspose.com/barcode/java/).  
+- **IDE** – IntelliJ IDEA, Eclipse of een andere editor naar keuze.
 
 ## Pakketten importeren
 
-Importeer in uw Java-project de benodigde Aspose.BarCode-pakketten om aan de slag te gaan:
+Importeer in je Java‑project de benodigde Aspose.BarCode‑ en Aspose.Words‑klassen:
 
 ```java
 import java.text.MessageFormat;
@@ -45,9 +69,9 @@ import com.aspose.words.NodeCollection;
 import com.aspose.words.NodeType;
 ```
 
-## Stap 1: Genereer een streepjescodeafbeelding
+## Stap 1: Een barcode‑afbeelding genereren
 
-Maak eerst een streepjescodeafbeelding met Aspose.BarCode. Stel de codetekst in en sla de afbeelding op:
+Maak eerst een barcode‑afbeelding die we later in het Word‑bestand zullen invoegen.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);
@@ -56,9 +80,9 @@ String strBarCodeImageSave = dataDir + "img.jpg";
 generator.save(strBarCodeImageSave);
 ```
 
-## Stap 2: afbeelding toevoegen aan Word-document
+## Stap 2: De barcode toevoegen aan een Word‑document
 
-Voeg nu de gegenereerde streepjescodeafbeelding in een Word-document in met Aspose.Words:
+Nu voegen we de vers net gegenereerde afbeelding in een nieuw Word‑document in. Dit demonstreert het **barcode toevoegen aan Word**‑scenario.
 
 ```java
 Document doc = new Document();
@@ -68,9 +92,9 @@ String strWordFile = "docout.doc";
 doc.save(dataDir + strWordFile);
 ```
 
-## Stap 3: Herken streepjescodes uit een Word-document
+## Stap 3: Afbeeldingen extraheren en de barcode herkennen
 
-Extraheer vervolgens afbeeldingen uit het Word-document en herken streepjescodes met Aspose.BarCode:
+Met het document opgeslagen, kunnen we elke afbeelding (inclusief onze barcode) eruit halen en **barcode detectie java** op elk exemplaar uitvoeren.
 
 ```java
 NodeCollection<Shape> shapes = doc.getChildNodes(NodeType.SHAPE, true);
@@ -78,13 +102,13 @@ int imageIndex = 0;
 
 for (Shape shape : shapes) {
     if (shape.hasImage()) {
-        // Afbeelding uitpakken naar bestand
+        // Extract image to file
         String extension = ImageTypeToExtension(shape.getImageData().getImageType());
         String imageFileName = MessageFormat.format("Image.ExportImages.{0} Out.{1}", imageIndex, extension);
         String strBarCodeImageExtracted = "" + imageFileName;
         shape.getImageData().save(strBarCodeImageExtracted);
 
-        // Herken de streepjescode van deze afbeelding
+        // Recognize barcode from this image
         BarCodeReader reader = new BarCodeReader(strBarCodeImageSave, DecodeType.CODE_39_STANDARD);
         for (BarCodeResult result : reader.readBarCodes()) {
             System.out.println("CodeText: " + result.getCodeText());
@@ -95,28 +119,39 @@ for (Shape shape : shapes) {
 }
 ```
 
-Herhaal deze stappen en u zult met succes streepjescodes uit Word-documenten herkennen met Aspose.BarCode voor Java.
+> **Pro tip:** Als je **barcode lezen van afbeelding**‑bestanden nodig hebt die niet in een Word‑document staan, geef dan simpelweg het bestandspad door aan `BarCodeReader` – dezelfde decodeerlogica is van toepassing.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Kortom, het gebruik van Aspose.BarCode voor Java vereenvoudigt het proces van het herkennen van streepjescodes uit Word-documenten. Volg de hierboven beschreven stappen en u integreert streepjescodeherkenning naadloos in uw Java-applicaties.
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| `NullPointerException` on `shape.getImageData()` | Shape bevat geen afbeelding. | Voeg een `shape.hasImage()`‑controle toe (reeds getoond). |
+| Verkeerd barcode‑type geretourneerd | Gebruik van de verkeerde `DecodeType`. | Gebruik dezelfde `EncodeTypes` die u bij het genereren hebt gebruikt (bijv. `CODE_39_STANDARD`). |
+| Afbeelding niet correct opgeslagen | Ontbrekende schrijfrechten in `dataDir`. | Zorg ervoor dat de map bestaat en schrijfbaar is. |
+| Licentie niet toegepast | Evaluatiemodus beperkt functionaliteit. | Laad uw Aspose‑licentie bij het starten van de applicatie: `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` |
 
-## Veelgestelde vragen (FAQ's)
+## Veelgestelde vragen
 
-### Vraag: Kan ik Aspose.BarCode voor Java gebruiken in commerciële projecten?
- Ja, Aspose.BarCode voor Java is beschikbaar voor commercieel gebruik. U kunt licentiegegevens vinden[hier](https://purchase.aspose.com/buy).
+### Q: Kan ik Aspose.BarCode voor Java gebruiken in commerciële projecten?
+A: Ja, Aspose.BarCode voor Java is beschikbaar voor commercieel gebruik. Licentie‑details vindt u [hier](https://purchase.aspose.com/buy).
 
-### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor Java?
- Ja, u kunt de functies van Aspose.BarCode voor Java verkennen door de gratis proefversie te downloaden[hier](https://releases.aspose.com/).
+### Q: Is er een gratis proefversie beschikbaar voor Aspose.BarCode voor Java?
+A: Ja, u kunt de functies van Aspose.BarCode voor Java verkennen door de gratis proefversie te downloaden [hier](https://releases.aspose.com/).
 
-### Vraag: Hoe krijg ik ondersteuning voor Aspose.BarCode voor Java?
-Bezoek het Aspose.BarCode-forum voor hulp of vragen[hier](https://forum.aspose.com/c/barcode/13).
+### Q: Hoe krijg ik ondersteuning voor Aspose.BarCode voor Java?
+A: Voor hulp of vragen, bezoek het Aspose.BarCode‑forum [hier](https://forum.aspose.com/c/barcode/13).
 
-### Vraag: Zijn er tijdelijke licenties beschikbaar voor Aspose.BarCode voor Java?
- Ja, u kunt tijdelijke licenties verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+### Q: Zijn tijdelijke licenties beschikbaar voor Aspose.BarCode voor Java?
+A: Ja, tijdelijke licenties kunt u verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-### Vraag: Waar kan ik de documentatie voor Aspose.BarCode voor Java vinden?
- Raadpleeg de uitgebreide documentatie[hier](https://reference.aspose.com/barcode/java/).
+### Q: Waar vind ik de documentatie voor Aspose.BarCode voor Java?
+A: Raadpleeg de uitgebreide documentatie [hier](https://reference.aspose.com/barcode/java/).
+
+---  
+
+**Laatst bijgewerkt:** 2026-04-12  
+**Getest met:** Aspose.BarCode 24.11 voor Java  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

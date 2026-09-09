@@ -1,0 +1,7 @@
+Title: How to Change Barcode Height in C# – Complete Guide
+Slug: how-to-change-barcode-height-in-c-complete-guide
+Category: general
+ProcessedDate: 2026-07-25T02:59:24.374455
+SourceRepo: AI Search API
+Keywords: how to change barcode, barcode generator c#, barcode image png, how to generate barcode, adjust barcode height
+PRNumber: 82

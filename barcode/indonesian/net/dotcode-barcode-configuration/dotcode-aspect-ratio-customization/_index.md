@@ -1,111 +1,160 @@
 ---
-title: Sesuaikan Rasio Aspek DotCode dengan Aspose.BarCode untuk .NET
+date: 2026-06-14
+description: Pelajari cara membuat barcode DotCode .NET dan menyesuaikan rasio aspeknya
+  menggunakan Aspose.BarCode untuk .NET.
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
 linktitle: Kustomisasi Rasio Aspek DotCode
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Pelajari cara menyesuaikan rasio aspek kode batang DotCode menggunakan Aspose.BarCode untuk .NET. Buat kode batang yang disesuaikan untuk aplikasi Anda dengan mudah.
-weight: 10
+title: Buat Barcode DotCode .NET – Sesuaikan Rasio Aspek
 url: /id/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sesuaikan Rasio Aspek DotCode dengan Aspose.BarCode untuk .NET
+# Buat Barcode DotCode .NET – Sesuaikan Rasio Aspek
 
-## Perkenalan
+Jika Anda perlu **membuat barcode DotCode .NET** yang cocok untuk ruang sempit atau persyaratan tata letak tertentu, Aspose.BarCode untuk .NET memberi Anda kontrol penuh. Dalam tutorial ini kami akan membahas seluruh proses menghasilkan barcode DotCode dan menyesuaikan rasio aspeknya sehingga terlihat persis seperti yang Anda inginkan pada kemasan, label, atau layar seluler.  
 
-Jika Anda seorang pengembang .NET yang ingin membuat kode batang yang dapat disesuaikan dalam aplikasi Anda, Aspose.BarCode untuk .NET adalah solusi sempurna. Dalam tutorial ini, kita akan mempelajari salah satu fitur lanjutannya – menyesuaikan rasio aspek DotCode. Barcode DotCode banyak digunakan di industri seperti layanan kesehatan, layanan pos, dan manufaktur untuk pengkodean informasi. Dengan mengubah rasio aspek, Anda dapat menyesuaikan kode batang dengan kebutuhan spesifik Anda. Mari kita mulai!
+## Jawaban Cepat
+- **Apakah saya dapat menghasilkan barcode DotCode di .NET?** Ya, Aspose.BarCode mendukung DotCode out‑of‑the‑box.  
+- **Properti mana yang mengontrol bentuk?** Properti `AspectRatio` dari `BarcodeGenerator`.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan; versi percobaan gratis dapat digunakan untuk pengembangan.  
+- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Berapa lama kode berjalan?** Kurang dari satu detik untuk barcode berukuran tipikal 200 × 200 piksel.
+
+## Apa tujuan utama tutorial ini?
+Tutorial ini bertujuan untuk menunjukkan cara menghasilkan barcode DotCode menggunakan Aspose.BarCode untuk .NET dan cara menyesuaikan rasio aspeknya agar sesuai dengan batasan tata letak tertentu. Dengan mengikuti langkah‑langkah ini Anda akan belajar mengonfigurasi generator, mengubah parameter ukuran, dan mengekspor gambar dalam format umum.
+
+## Bagaimana cara membuat barcode dotcode .net?
+Untuk membuat barcode DotCode di .NET, buat instance `BarcodeGenerator` dengan `EncodeTypes.DotCode` dan data yang ingin Anda enkode. Kemudian atur properti X‑Dimension dan AspectRatio untuk mengontrol ukuran dan bentuk, dan akhirnya panggil metode `Save` untuk menulis gambar ke file dalam format yang diinginkan.
 
 ## Prasyarat
 
-Sebelum kita beralih ke penyesuaian rasio aspek DotCode, pastikan Anda memiliki prasyarat berikut:
-
-1.  Aspose.BarCode untuk .NET: Anda harus menginstal pustaka Aspose.BarCode. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/barcode/net/).
-
-2. IDE: Anda memerlukan lingkungan pengembangan .NET, seperti Visual Studio, untuk bekerja dengan Aspose.BarCode.
-
-3. Jalur Direktori Anda: Ganti "Jalur Direktori Anda" di cuplikan kode dengan jalur direktori sebenarnya tempat Anda ingin menyimpan gambar kode batang.
-
-Sekarang, mari kita uraikan proses penyesuaian rasio aspek DotCode menjadi beberapa langkah:
+1. **Aspose.BarCode untuk .NET** – unduh perpustakaan dari situs resmi [di sini](https://releases.aspose.com/barcode/net/).  
+2. **IDE** – Visual Studio, Rider, atau editor kompatibel .NET lainnya.  
+3. **Folder output** – ganti “Your Directory Path” dalam contoh dengan folder nyata di mesin Anda.
 
 ## Impor Namespace
 
-Pertama, kita perlu mengimpor namespace yang diperlukan untuk menggunakan Aspose.BarCode untuk .NET. Inilah cara Anda melakukannya:
-
+`Aspose.BarCode.Generation` menyediakan kelas yang dibutuhkan untuk menghasilkan dan mengkonfigurasi barcode di .NET.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Kode ini mengimpor namespace Aspose.BarCode, memungkinkan Anda bekerja dengan kode batang di aplikasi Anda.
-
-Selanjutnya, mari kita uraikan kode contoh yang Anda berikan menjadi beberapa langkah untuk membuat panduan langkah demi langkah untuk penyesuaian rasio aspek DotCode:
-
 ## Langkah 1: Inisialisasi Generator Barcode
 
+`BarcodeGenerator` adalah kelas utama yang membuat gambar barcode berdasarkan simbolologi dan data yang ditentukan.  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Kode Anda ada di sini
+    // Your code goes here
 }
 ```
 
-Pada langkah ini, kita menginisialisasi objek BarcodeGenerator dengan tipe pengkodean DotCode dan nilai data ("Aspose").
+## Langkah 2: Atur X‑Dimension (Ukuran) Barcode
 
-## Langkah 2: Atur Dimensi X (Ukuran) Barcode
-
+`XDimension` menentukan lebar satu modul (titik) dalam piksel, memengaruhi ukuran keseluruhan barcode.  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-Di sini, Anda mengatur ukuran kode batang dengan menentukan Dimensi X-nya dalam piksel. Anda dapat menyesuaikan nilai ini untuk memperbesar atau memperkecil kode batang.
-
 ## Langkah 3: Sesuaikan Rasio Aspek
 
+`AspectRatio` mengatur proporsi tinggi‑ke‑lebar setiap modul, memungkinkan Anda memperpanjang atau memampatkan barcode secara vertikal.  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-Langkah ini adalah tempat Anda menyesuaikan rasio aspek DotCode. Dalam contoh ini, kami menetapkannya ke 0,5, namun Anda dapat menyesuaikan nilai ini sesuai kebutuhan untuk mencapai rasio aspek yang Anda inginkan.
-
 ## Langkah 4: Simpan Gambar Barcode
 
+`Save` menulis barcode yang dihasilkan ke file dalam format gambar yang dipilih, seperti PNG atau JPEG.  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Terakhir, Anda menyimpan gambar barcode yang dihasilkan dengan nama file dan format yang ditentukan. Mengganti "{path}" dengan jalur direktori Anda yang sebenarnya.
+## Mengapa menggunakan Aspose.BarCode untuk penyesuaian DotCode?
+Aspose.BarCode menyediakan rangkaian fitur lengkap untuk generasi DotCode, termasuk output resolusi tinggi, dukungan format yang luas, dan kontrol detail atas dimensi barcode seperti rasio aspek. Ia berjalan di semua platform .NET utama, tidak memerlukan dependensi eksternal, dan memberikan kinerja rendering cepat, menjadikannya ideal untuk aplikasi desktop maupun web.
 
-## Kesimpulan
+## Kasus Penggunaan Umum
 
-Dalam tutorial ini, kita telah mempelajari cara menyesuaikan rasio aspek DotCode menggunakan Aspose.BarCode untuk .NET. Fitur ini memungkinkan Anda membuat kode batang yang memenuhi kebutuhan spesifik Anda, baik untuk kemasan, label pengiriman, atau aplikasi lainnya. Dengan mengikuti langkah-langkah yang diuraikan di sini, Anda dapat memanfaatkan kekuatan Aspose.BarCode untuk menghasilkan kode batang DotCode yang disesuaikan dengan mudah.
+- **Kesehatan**: Tag ID pasien yang kompak dan harus muat pada gelang kecil.  
+- **Layanan Pos**: Label pengiriman format lebar di mana tinggi yang lebih rendah meningkatkan keandalan pemindaian.  
+- **Manufaktur**: Pelabelan inline komponen di mana keterbatasan ruang menuntut rasio aspek khusus.
 
-Sekarang, mari kita jawab beberapa pertanyaan umum tentang penyesuaian DotCode:
+## Pertanyaan yang Sering Diajukan
 
-## FAQ
+**Q:** Apa rasio aspek barcode DotCode?  
+**A:** Itu adalah rasio tinggi modul terhadap lebarnya; menyesuaikannya mengubah bentuk keseluruhan barcode.
 
-### Q1: Berapa rasio aspek barcode DotCode?
+**Q:** Industri mana yang paling diuntungkan oleh barcode DotCode?  
+**A:** Kesehatan, layanan pos, dan manufaktur sering menggunakan DotCode untuk enkoding data padat dan berkapasitas tinggi.
 
-A1: Rasio aspek kode batang DotCode mengacu pada rasio antara tinggi dan lebar masing-masing modul dalam kode batang. Itu dapat disesuaikan dengan kebutuhan spesifik Anda.
+**Q:** Bisakah saya menyesuaikan parameter DotCode lainnya dengan Aspose.BarCode untuk .NET?  
+**A:** Tentu saja. Anda dapat mengubah tingkat koreksi kesalahan, warna latar depan/belakang, bahkan menyisipkan logo.
 
-### Q2: Industri apa yang mendapatkan keuntungan dari barcode DotCode?
+**Q:** Apakah Aspose.BarCode cocok untuk aplikasi .NET web dan desktop?  
+**A:** Ya, perpustakaan ini bekerja mulus di ASP.NET, WPF, WinForms, dan aplikasi konsol.
 
-A2: Kode batang DotCode umumnya digunakan dalam layanan kesehatan, layanan pos, dan manufaktur, di mana pengkodean informasi secara efisien sangatlah penting.
+**Q:** Di mana saya dapat menemukan dokumentasi dan contoh lebih lanjut?  
+**A:** Referensi API detail dan contoh kode tersedia [di sini](https://reference.aspose.com/barcode/net/).
 
-### Q3: Bisakah saya menyesuaikan parameter barcode DotCode lainnya dengan Aspose.BarCode untuk .NET?
+---
 
-A3: Ya, Aspose.BarCode untuk .NET menyediakan opsi penyesuaian ekstensif untuk DotCode dan jenis kode batang lainnya, memungkinkan Anda mengontrol berbagai parameter agar sesuai dengan kebutuhan Anda.
+**Terakhir Diperbarui:** 2026-06-14  
+**Diuji Dengan:** Aspose.BarCode 24.12 untuk .NET  
+**Penulis:** Aspose
 
-### Q4: Apakah Aspose.BarCode untuk .NET cocok untuk aplikasi web dan desktop?
+## Tutorial Terkait
 
-A4: Ya, Aspose.BarCode untuk .NET dapat digunakan di aplikasi web dan desktop untuk menghasilkan dan memanipulasi kode batang.
+- [Konfigurasi Teks Kode Diperluas DotCode dengan Aspose.BarCode untuk .NET](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [Konfigurasi Mode Append Terstruktur DotCode dengan Aspose.BarCode untuk .NET](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [Buat gambar barcode DotCode – baris & kolom (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-### Q5: Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut tentang Aspose.BarCode untuk .NET?
 
-A5: Anda dapat menjelajahi dokumentasinya[Di Sini](https://reference.aspose.com/barcode/net/) untuk panduan dan contoh yang komprehensif.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

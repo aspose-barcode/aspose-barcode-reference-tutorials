@@ -1,121 +1,155 @@
 ---
-title: .NET용 Aspose.BarCode를 사용하여 추가 바코드 데이터 생성
-linktitle: 보충 바코드 데이터 구성
+date: 2026-03-07
+description: C#와 Aspose.BarCode for .NET을 사용하여 보조 데이터가 포함된 EAN‑13 바코드를 만드는 방법을 배우세요
+  – 바코드 PNG를 빠르게 생성합니다.
+linktitle: Supplemental Barcode Data Configuration
 second_title: Aspose.BarCode .NET API
-description: .NET용 Aspose.BarCode를 사용하여 보충 바코드 데이터를 생성합니다. EAN-2 및 EAN-5 바코드를 손쉽게 사용자 정의하세요. .NET 개발자를 위한 단계별 가이드입니다.
-weight: 10
+title: 보조 데이터가 포함된 EAN‑13 바코드 생성 – Aspose.BarCode
 url: /ko/net/supplemental-barcode-data/supplemental-barcode-data-configuration/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.BarCode를 사용하여 추가 바코드 데이터 생성
+# 보조 데이터가 포함된 EAN-13 바코드 생성 – Aspose.BarCode for .NET
 
+이 실습 튜토리얼에서는 보조 EAN‑2 또는 EAN‑5 데이터를 포함하는 **EAN-13 바코드**를 **생성**하고, 몇 줄의 C# 코드만으로 **바코드 PNG** 파일을 **생성**하는 방법을 보여줍니다. 소매 결제 시스템, 물류 애플리케이션, 간단한 재고 관리 도구를 구축하든, 보조 정보를 추가하면 바코드의 활용도가 크게 향상됩니다.
 
-바코드 생성 및 사용자 정의 분야에서 Aspose.BarCode for .NET은 강력하고 다재다능한 도구로 돋보입니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 .NET용 Aspose.BarCode를 사용하여 보충 바코드 데이터를 구성하는 과정을 안내합니다. 
+## 빠른 답변
+- **“보조 데이터”란 무엇인가요?** 메인 바코드 옆에 인쇄되는 추가 숫자(EAN‑2/EAN‑5)로, 주로 가격이나 호수에 사용됩니다.  
+- **어떤 바코드 유형을 사용하나요?** 기본 심볼은 EAN‑13이며, 선택적으로 EAN‑2 또는 EAN‑5 보조를 사용할 수 있습니다.  
+- **PNG 이미지를 출력할 수 있나요?** 예 – `Save` 메서드를 사용하면 직접 PNG로 내보낼 수 있습니다.  
+- **개발에 라이선스가 필요합니까?** 테스트용으로는 무료 체험판을 사용할 수 있으며, 실제 운영을 위해서는 상용 라이선스가 필요합니다.  
+- **.NET Core / .NET 6과 호환되나요?** 물론입니다 – Aspose.BarCode는 모든 최신 .NET 런타임을 지원합니다.
 
-## 전제 조건
+## 사전 요구 사항
 
-보충 바코드 데이터의 세계로 뛰어들기 전에 다음 전제 조건이 갖추어져 있는지 확인하십시오.
+Before we dive into the code, make sure you have:
 
-- Visual Studio 또는 기타 .NET 개발 도구를 사용하여 설정된 개발 환경입니다.
--  .NET용 Aspose.BarCode 사본. 아직 다운로드하지 않았다면 다운로드할 수 있습니다.[여기](https://releases.aspose.com/barcode/net/).
-- C# 프로그래밍에 대한 기본 지식.
-- 생성된 바코드 이미지를 저장할 수 있는 디렉터리입니다.
+- Visual Studio(또는 .NET 호환 IDE).  
+- Aspose.BarCode for .NET 사본 – **[여기](https://releases.aspose.com/barcode/net/)**에서 다운로드하세요.  
+- 기본 C# 지식.  
+- 생성된 PNG 파일이 저장될 쓰기 가능한 폴더.
 
 ## 네임스페이스 가져오기
 
-먼저 .NET용 Aspose.BarCode를 사용하기 위해 C# 코드에 필요한 네임스페이스가 포함되어 있는지 확인하세요. C# 파일 시작 부분에서 필수 네임스페이스를 가져옵니다.
+First, add the Aspose.BarCode namespace so you can access the generator classes:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-이제 보충 바코드 데이터를 구성하는 프로세스를 여러 단계로 나누어 보겠습니다.
+> **팁:** .NET Core를 사용하는 경우, DLL을 수동으로 참조하는 대신 NuGet 패키지 `Aspose.BarCode`를 프로젝트에 추가하세요.
 
-## 1단계: 디렉터리 경로 설정
+## 보조 바코드란 무엇인가요?
 
- C# 코드에서 생성된 바코드 이미지를 저장할 디렉터리의 경로를 정의합니다. 바꾸다`"Your Directory Path"` 실제 디렉토리 경로로.
+A supplemental barcode is an auxiliary numeric string printed next to the main barcode.  
+- **EAN‑2** – 두 자리 보조 숫자로, 주로 잡지 호수에 사용됩니다.  
+- **EAN‑5** – 다섯 자리 보조 숫자로, 소매 품목의 가격 연장에 일반적으로 사용됩니다.
+
+Adding these supplements does not change the primary EAN‑13 data; it simply provides extra context that scanners can read.
+
+## 보조 데이터에 Aspose.BarCode를 사용하는 이유
+
+- **One‑line API** – 메인 바코드와 보조 바코드를 하나의 객체에서 구성합니다.  
+- **Full control over dimensions** – X‑dimension, 보조 간격, 이미지 포맷을 조정할 수 있습니다.  
+- **Cross‑platform** – .NET Framework, .NET Core, .NET 5/6+에서 모두 작동합니다.
+
+## 단계별 가이드
+
+### 단계 1: 출력 디렉터리 설정
+
+Define where the PNG files will be stored. Replace the placeholder with a real path on your machine.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 2단계: 바코드 생성기 만들기
+### 단계 2: 바코드 제너레이터 초기화 (Barcode Generator C#)
 
- 인스턴스 만들기`BarcodeGenerator` 바코드 유형과 인코딩하려는 데이터를 지정하여 이 예에서는 "1234567890128" 데이터가 포함된 EAN-13 바코드를 사용하고 있습니다.
+Create a `BarcodeGenerator` instance, specifying **EAN‑13** as the main type and providing the 13‑digit payload.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## 3단계: 바코드 크기 사용자 정의
+### 단계 3: 바코드 크기 조정
 
-X 치수(바코드에서 가장 작은 요소의 너비) 및 보조 공간 등 바코드의 치수를 설정합니다. 이 예에서는 X 치수를 2픽셀로 설정하고 보조 공간을 20픽셀로 설정했습니다.
+Fine‑tune the visual size of the barcode and the space reserved for the supplement.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## 4단계: EAN-2 보충 구성
+### 단계 4: EAN‑2 보조 추가
 
-EAN-2 보충 바코드를 구성하려면 보충 데이터를 원하는 값으로 설정하십시오. 이 경우에는 "12"로 설정했습니다. 
+Set the supplemental data to a two‑digit value (e.g., “12”). This will appear to the right of the main barcode.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12";
 ```
 
-## 5단계: 바코드 이미지 저장
+### 단계 5: EAN‑2 바코드를 PNG로 저장
 
-생성된 바코드 이미지를 의미 있는 이름으로 지정된 디렉터리에 저장합니다. 이 예에서는 EAN-2 보충 바코드를 "SupplementEAN2.png"로 저장합니다.
+Export the image. The `BarCodeImageFormat.Png` argument ensures a high‑quality PNG file.
 
 ```csharp
 gen.Save($"{path}SupplementEAN2.png", BarCodeImageFormat.Png);
 ```
 
-## 6단계: EAN-5 보충 구성
+### 단계 6: EAN‑5 보조로 전환
 
- EAN-5 보충 바코드를 구성하려면 간단히`SupplementData` 원하는 값으로. 여기서는 "12345"로 설정했습니다.
+Change the `SupplementData` to a five‑digit string for price extensions.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## 7단계: 바코드 이미지 저장(EAN-5)
-
-마지막으로 지정된 디렉터리에 EAN-5 보조 바코드 이미지를 저장합니다. 이 경우 "SupplementEAN5.png"로 저장합니다.
+### 단계 7: EAN‑5 바코드를 PNG로 저장
 
 ```csharp
 gen.Save($"{path}SupplementEAN5.png", BarCodeImageFormat.Png);
 ```
 
-이제 .NET용 Aspose.BarCode를 사용하여 추가 바코드 데이터를 성공적으로 구성하고 생성했습니다. 이 접근 방식을 사용하면 다양한 보충 데이터로 광범위한 바코드 유형을 생성할 수 있습니다.
+> **왜 이렇게 동작하나요:** 동일한 `BarcodeGenerator` 인스턴스를 재사용하므로 각 `Save` 호출 전에 `SupplementData` 속성만 수정하면 됩니다. 이렇게 하면 코드가 간결해지고 불필요한 객체 생성을 방지할 수 있습니다.
 
-## 결론
+## 일반적인 문제 및 팁
 
-Aspose.BarCode for .NET은 바코드 생성 및 사용자 정의를 위한 강력한 도구입니다. 이 가이드에서는 보충 바코드 데이터를 구성하고 생성하는 과정을 단계별로 살펴보았습니다. 올바른 전제 조건과 약간의 코딩만 있으면 바코드 데이터로 효율적으로 작업하고 특정 요구 사항을 충족할 수 있습니다.
-
- 자세한 내용과 고급 사용법은 다음을 참조하세요.[.NET 문서용 Aspose.BarCode](https://reference.aspose.com/barcode/net/).
+- **잘못된 디렉터리 경로** – 폴더가 존재하고 애플리케이션에 쓰기 권한이 있는지 확인하세요.  
+- **보조 길이 오류** – EAN‑2는 정확히 2자리, EAN‑5는 5자리를 요구합니다; 그렇지 않으면 예외가 발생합니다.  
+- **이미지가 보이지 않음** – `BarCodeImageFormat.Png`가 사용되었는지 확인하세요; 다른 포맷(예: JPEG)은 압축 아티팩트를 발생시켜 스캐너 판독성을 저하시킬 수 있습니다.
 
 ## 자주 묻는 질문
 
-### 내 .NET Core 프로젝트에서 .NET용 Aspose.BarCode를 사용할 수 있나요?
-예, .NET용 Aspose.BarCode는 .NET Core와 호환됩니다.
+### .NET Core 프로젝트에서 Aspose.BarCode for .NET을 사용할 수 있나요?
+예, Aspose.BarCode for .NET은 .NET Core, .NET 5, .NET 6과 완전히 호환됩니다.
 
-### .NET용 Aspose.BarCode에 대한 무료 평가판이 있습니까?
- 네, 방문하시면 무료로 체험해 보실 수 있습니다.[이 링크](https://releases.aspose.com/).
+### Aspose.BarCode for .NET의 무료 체험판이 있나요?
+예, **[이 링크](https://releases.aspose.com/)**를 방문하면 무료로 체험할 수 있습니다.
 
-### .NET용 Aspose.BarCode의 임시 라이선스는 어디서 구할 수 있나요?
- 임시면허를 취득하실 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
+### Aspose.BarCode for .NET의 임시 라이선스는 어디서 얻을 수 있나요?
+**[이 링크](https://purchase.aspose.com/temporary-license/)**에서 임시 라이선스를 받을 수 있습니다.
 
-### Aspose.BarCode는 광범위한 바코드 유형을 지원합니까?
-예, EAN-13, QR 코드, 코드 128 등을 포함한 다양한 바코드 유형을 지원합니다.
+### Aspose.BarCode가 다양한 바코드 유형을 지원하나요?
+물론입니다 – EAN‑13, QR Code, Code 128, DataMatrix, PDF‑417 등 다양한 유형을 지원합니다.
 
-### 생성된 바코드의 모양을 사용자 정의할 수 있습니까?
-물론, 요구 사항에 맞게 바코드의 치수, 색상 및 기타 측면을 사용자 정의할 수 있습니다.
+### 생성된 바코드의 외관을 맞춤 설정할 수 있나요?
+예, 색상, 폰트, 여백을 수정하고, 광범위한 `Parameters` API를 사용해 배경 이미지를 추가할 수도 있습니다.
+
+## 결론
+
+이제 **EAN‑13 바코드**에 보조 EAN‑2 또는 EAN‑5 데이터를 추가하고 Aspose.BarCode for .NET을 사용해 **바코드 PNG** 파일을 **생성**하는 방법을 알게 되었습니다. 이 방법을 통해 바코드 크기, 보조 간격, 출력 포맷을 완벽히 제어할 수 있어 소매, 물류 및 추가 숫자 정보가 필요한 모든 상황에 이상적입니다.
+
+더 자세히 살펴보려면 전체 레퍼런스 가이드를 확인하세요: **[Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)**.
+
+---
+
+**마지막 업데이트:** 2026-03-07  
+**테스트 환경:** Aspose.BarCode 24.11 for .NET  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

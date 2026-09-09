@@ -1,11 +1,18 @@
 ---
-date: 2025-12-21
-description: Tanulja meg, hogyan adhat szegélyt a vonalkód képekhez Java-ban, és hogyan
-  generálhat szegéllyel ellátott vonalkódot az Aspose.BarCode segítségével. Kövesse
-  ezt a lépésről‑lépésre útmutatót egy kifinomult, nyomtatható vonalkódhoz.
-linktitle: Adding Borders to Barcode Image
+date: 2026-04-12
+description: Tudja meg, hogyan hozhat létre vonalkód képet Java-ban, és generálhat
+  vonalkódot kerettel az Aspose.BarCode segítségével. Ez a lépésről‑lépésre útmutató
+  bemutatja, hogyan adhat hozzá testreszabható keretet egy kifinomult, nyomtatható
+  vonalkódhoz.
+keywords:
+- create barcode image java
+- generate barcode with border
+- Aspose.BarCode Java
+- barcode border customization
+- Java barcode generation
+linktitle: Szegélyek hozzáadása a vonalkód képhez
 second_title: Aspose.BarCode Java API
-title: Hogyan adjunk keretet a vonalkód képhez Java-ban
+title: Hogyan hozzunk létre vonalkód képet Java-ban – Keret hozzáadása az Aspose segítségével
 url: /hu/java/image-manipulation/adding-borders-barcode-image/
 weight: 10
 ---
@@ -14,31 +21,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan adjunk keretet a vonalkód képhez Java-ban
+# Hogyan hozzunk létre vonalkód képet Java-ban – Szegély hozzáadása az Aspose segítségével
 
-A vonalkód képek létrehozása Java-ban gyakori igény, és sok fejlesztő arra kíváncsi, **hogyan adjunk hozzá keretet**, hogy a vonalkód kiemelkedjen a nyomtatott dokumentumokon vagy képernyőkön. Ebben az útmutatóban megmutatjuk, hogyan generáljunk keretes vonalkódot az Aspose.BarCode könyvtár segítségével, amely teljes irányítást ad a stílus, szélesség, szín és margók felett.
+A vonalkód képek létrehozása Java-ban gyakori igény, és sok fejlesztő arra kíváncsi, **hogyan adhatunk hozzá szegélyt**, hogy a vonalkód kiemelkedjen a nyomtatott dokumentumokon vagy a képernyőkön. Ebben az útmutatóban **vonalkód képet Java-ban hozunk létre**, és megtanulja, hogyan **generáljon vonalkódot szegéllyel** az Aspose.BarCode könyvtár segítségével, amely teljes irányítást biztosít a stílus, a szélesség, a szín és a margók felett.
 
 ## Bevezetés
 
-Vizualis keret hozzáadása a vonalkód köré javíthatja az olvashatóságot, egységbe hozhatja a vállalati arculatot, és segítheti a szkennereket gyorsabban megtalálni a kódot. Az alábbiakban lépésről lépésre bemutatjuk, hogyan alkalmazzunk testreszabható keretet bármely, Java-ban generált vonalkódra.
+A vizuális szegély hozzáadása a vonalkód köré javíthatja az olvashatóságot, összhangba hozhatja a vállalati arculattal, és segítheti a szkennereket a kód gyorsabb megtalálásában. Az alábbiakban végigvezetjük a pontos lépéseken, amelyek szükségesek egy testreszabható szegély alkalmazásához bármely, Java-ban generált vonalkódhoz.
 
 ## Gyors válaszok
-- **Melyik könyvtár szükséges?** Aspose.BarCode for Java
-- **Testreszabhatom a keret színét?** Igen – bármely `java.awt.Color` érték
-- **Alapértelmezés szerint látható a keret?** Nem, be kell állítani a `setVisible(true)`-t
-- **Melyik vonalkód típusok működnek?** Az Aspose.BarCode által támogatott összes szimbólum
-- **Szükség van licencre a termeléshez?** Igen, kereskedelmi licenc szükséges
+
+- **Milyen könyvtár szükséges?** Aspose.BarCode for Java  
+- **Testreszabhatom a szegély színét?** Yes – any `java.awt.Color` value  
+- **Alapértelmezés szerint látható a szegély?** No, you must set `setVisible(true)`  
+- **Mely vonalkód típusok működnek?** All symbologies supported by Aspose.BarCode  
+- **Szükségem van licencre a termeléshez?** Yes, a commercial license is required  
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk, győződj meg róla, hogy rendelkezel:
+Before we dive in, make sure you have:
 
-- Java fejlesztői környezet (JDK 8 vagy újabb)
-- Aspose.BarCode for Java – töltsd le a hivatalos [download page](https://releases.aspose.com/barcode/java/) oldalról
+- A Java fejlesztői környezet (JDK 8 vagy újabb)  
+- Aspose.BarCode for Java – töltse le a hivatalos [download page](https://releases.aspose.com/barcode/java/)
 
 ## Csomagok importálása
 
-A kezdéshez importáld a szükséges csomagokat a Java projektedben. Add hozzá a következő import utasításokat a Java fájlod elejéhez:
+To get started, import the necessary packages in your Java project. Add the following import statements at the beginning of your Java file:
 
 ```java
 import java.io.IOException;
@@ -47,9 +55,17 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## 1. lépés: A vonalkód generátor beállítása
+## Mi a „Create Barcode Image Java” folyamat?
 
-Ebben a lépésben létrehozunk egy `BarcodeGenerator` példányt, és a **CODE_128** szimbólumot választjuk. Nyugodtan cseréld le bármely más típusra, amelyre **keretes vonalkódot kell generálni**.
+A folyamat három fő lépésből áll:
+
+1. **Példányosítás** egy `BarcodeGenerator`-rel a kívánt szimbólummal és adatokkal.  
+2. **Konfigurálás** a szegély tulajdonságait (stílus, szélesség, szín, margók).  
+3. **Mentés** a keletkezett kép lemezre.
+
+## Lépésről‑lépésre útmutató
+
+### 1. lépés: A vonalkód generátor beállítása
 
 ```java
 // The path to the resource directory.
@@ -60,18 +76,18 @@ String dataDir = "Your Document Directory";
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-## 2. lépés: A keret stílusának beállítása szilárd vonalra
+Ebben a lépésben létrehozunk egy `BarcodeGenerator` példányt, és a **CODE_128** szimbólumot választjuk. Nyugodtan cserélje le bármely más típusra, amelyre szüksége van a **generate barcode with border** funkcióhoz.
 
-A szilárd vonal a legletisztább megjelenést biztosítja, de kísérletezhetsz más `BorderDashStyle` beállításokkal is, ha pontozott vagy szaggatott keretet szeretnél.
+### 2. lépés: A szegély stílusának beállítása szilárd vonalra
 
 ```java
 // Set border style to solid
 bb.getParameters().getBorder().setDashStyle(BorderDashStyle.SOLID);
 ```
 
-## 3. lépés: A keret margóinak beállítása
+A szilárd vonal a legletisztább megjelenést biztosítja, de kísérletezhet más `BorderDashStyle` beállításokkal, ha pontozott vagy szaggatott szegélyt szeretne.
 
-A kitöltés (padding) beállítása biztosítja, hogy a keret ne ütközzön a vonalkód csendes zónájába, és kiegyensúlyozott megjelenést nyújtson.
+### 3. lépés: A szegély margóinak beállítása
 
 ```java
 // Set border margins for Top, Right, Left, and Bottom
@@ -81,76 +97,82 @@ bb.getParameters().getBarcode().getPadding().getLeft().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getBottom().setPixels(2f);
 ```
 
-## 4. lépés: A keret vastagságának beállítása
+A kitöltés (padding) beállítása biztosítja, hogy a szegély ne ütközzön a vonalkód csendes zónájával, és kiegyensúlyozott megjelenést biztosít.
 
-Itt határozzuk meg, milyen vastag legyen a keret vonala. A tipikus értékek 1 és 5 pixel között vannak, a tervezési igényektől függően.
+### 4. lépés: A szegély szélességének beállítása
 
 ```java
 // Set border width
 bb.getParameters().getBorder().getWidth().setPixels(2.5f);
 ```
 
-## 5. lépés: A keret színének beállítása
+Itt definiáljuk, hogy milyen vastag legyen a szegély vonala. A tipikus értékek 1 és 5 pixel között vannak, a tervezési igényektől függően.
 
-A `Color.RED` helyett bármely `java.awt.Color` értéket használhatsz (pl. `Color.BLUE`, `new Color(0,128,0)`), hogy illeszkedjen a márkádhoz.
+### 5. lépés: A szegély színének beállítása
 
 ```java
 // Set the border's color to red
 bb.getParameters().getBorder().setColor(Color.RED);
 ```
 
-## 6. lépés: Képkeret engedélyezése
+A `Color.RED` helyett bármely `java.awt.Color` értéket használhat (pl. `Color.BLUE`, `new Color(0,128,0)`), hogy illeszkedjen a márkájához.
 
-E flag nélkül a keret beállításai figyelmen kívül maradnak, ezért győződj meg róla, hogy `true`-ra van állítva.
+### 6. lépés: Képszegély engedélyezése
 
 ```java
 // Enable border to be shown in the barcode
 bb.getParameters().getBorder().setVisible(true);
 ```
 
-## 7. lépés: A kép mentése
+E flag nélkül a szegély beállítások figyelmen kívül maradnak, ezért győződjön meg róla, hogy `true`-ra van állítva.
 
-A vonalkód kép, most már egy piros szilárd kerettel keretezve, a megadott helyre kerül mentésre.
+### 7. lépés: A kép mentése
 
 ```java
 // Save the image
 bb.save(dataDir + "barcode-image-borders.jpg");
 ```
 
-## Miért adjunk keretet a vonalkódhoz?
+A vonalkód kép, most egy piros szilárd szegéllyel keretezve, a megadott helyre kerül mentésre.
 
-- **Javított beolvasás:** A tiszta perem segíti a kézi szkennereket gyorsabban megtalálni a kódot.
-- **Márka konzisztencia:** A keret színét egyeztesd a vállalati színpalettával.
-- **Esztétikai vonzerő:** A vonalkód így kifinomultabbnak tűnik jelentésekben, számlákon és címkékben.
+## Miért adjunk szegélyt a vonalkódhoz?
+
+- **Javított szkennelés:** A tiszta keret segíti a kézi szkennereket a kód gyorsabb megtalálásában.  
+- **Márka konzisztencia:** Igazítsa a szegély színét a vállalati színpalettához.  
+- **Esztétikai vonzerő:** A vonalkódot kifinomultabbá teszi jelentésekben, számlákon és címkékben.
 
 ## Gyakori problémák és hibaelhárítás
 
 | Tünet | Valószínű ok | Megoldás |
 |---------|--------------|-----|
-| A keret nem látható | `setVisible(true)` kihagyva | Győződj meg róla, hogy a láthatósági flag be van állítva |
-| A keret átfedi a vonalkódot | A padding túl alacsony | Növeld a padding értékeket |
-| A szín nem alkalmazódik | Nem támogatott `Color` objektum használata | Használj egy szabványos `java.awt.Color` példányt |
+| A szegély nem látható | `setVisible(true)` kihagyva | Győződjön meg róla, hogy a láthatósági flag be van állítva |
+| A szegély átfedi a vonalkódot | A kitöltés túl alacsony | Növelje a kitöltés értékét |
+| A szín nem alkalmazódik | Nem támogatott `Color` objektum használata | Használjon szabványos `java.awt.Color` példányt |
 
 ## Gyakran feltett kérdések
 
-**Q: Testreszabhatom a keret stílusát tovább?**  
-A: Igen, az Aspose.BarCode több `BorderDashStyle` opciót kínál, például `DOT`, `DASH`, és `DASH_DOT`.
+**Q: Testreszabhatom a szegély stílusát tovább?**  
+A: Igen, az Aspose.BarCode több `BorderDashStyle` opciót kínál, például `DOT`, `DASH` és `DASH_DOT`.
 
 **Q: Az Aspose.BarCode kompatibilis különböző vonalkód szimbólumokkal?**  
-A: Teljesen. A könyvtár széles körű szimbólumokat támogat, így **keretes vonalkódot generálhatsz** QR, DataMatrix, PDF417 és egyéb típusokra is.
+A: Teljes mértékben. A könyvtár széles körű szimbólumokat támogat, így **generate barcode with border** QR, DataMatrix, PDF417 és mások esetén is.
 
-**Q: Dinamikusan változtathatom a keret színét bizonyos feltételek alapján?**  
-A: Természetesen. A mentés előtt programozottan beállíthatod a színt, például: `if (isHighPriority) { setColor(Color.RED); } else { setColor(Color.GRAY); }`.
+**Q: Dinamikusan megváltoztathatom a szegély színét bizonyos feltételek alapján?**  
+A: Természetesen. A színt programozottan beállíthatja mentés előtt, például a `if (isHighPriority) { setColor(Color.RED); } else { setColor(Color.GRAY); }` használatával.
 
 **Q: Hogyan integráljam az Aspose.BarCode-ot a Maven projektembe?**  
-A: Add hozzá az Aspose.BarCode függőséget a `pom.xml`-hez, ahogy az a hivatalos [documentation](https://reference.aspose.com/barcode/java/) oldalon látható.
+A: Adja hozzá az Aspose.BarCode függőséget a `pom.xml`-hez, ahogy azt a hivatalos [documentation](https://reference.aspose.com/barcode/java/) mutatja.
 
-**Q: Elérhető próba verziója az Aspose.BarCode-nak?**  
-A: Igen, a teljes funkciókészletet megtekintheted a [free trial version](https://releases.aspose.com/) letöltésével.
+**Q: Elérhető-e az Aspose.BarCode próba verziója?**  
+A: Igen, a teljes funkciókészletet felfedezheti a [free trial version](https://releases.aspose.com/) letöltésével.
+
+## Összegzés
+
+Most már rendelkezik egy teljes, vég‑től‑végig megoldással a **creating barcode image java** testreszabható szegéllyel. A szegély stílusának, szélességének, színének és kitöltésének finomhangolásával a vonalkód megjelenését bármely márka vagy nyomtatási igényhez igazíthatja. Nyugodtan kísérletezzen más szimbólumokkal és szegélybeállításokkal, hogy megfeleljen a projekt igényeinek.
 
 ---
 
-**Utoljára frissítve:** 2025-12-21  
+**Utolsó frissítés:** 2026-04-12  
 **Tesztelve a következővel:** Aspose.BarCode 24.11 for Java  
 **Szerző:** Aspose  
 

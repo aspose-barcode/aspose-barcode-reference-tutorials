@@ -217,8 +217,9 @@ using Aspose.BarCode.BarCodeRecognition;
 BarCodeReader reader = new BarCodeReader(outputPath, DecodeType.Pdf417);
 if (reader.Read())
 {
-    Console.WriteLine($"🔎
-
+    Console.WriteLine("🔎 Barcode decoded successfully.");
+}
+```
 
 ## What Should You Learn Next?
 

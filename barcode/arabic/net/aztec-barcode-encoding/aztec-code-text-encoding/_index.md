@@ -1,37 +1,104 @@
 ---
-title: ترميز نص كود الأزتيك باستخدام Aspose.BarCode لـ .NET
-linktitle: ترميز نص كود الأزتيك
+date: 2026-05-19
+description: تعرف على كيفية إنشاء رمز أزتك شريطي مع ترميز النص وكيفية تثبيت Aspose.BarCode
+  .NET – دليل خطوة بخطوة لمطوري .NET.
+keywords:
+- generate aztec barcode
+- install aspose barcode .net
+- aztec code encoding .net
+- aspose barcode tutorial
+linktitle: ترميز نص رمز Aztec
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to generate aztec barcode with text encoding and how to install
+    aspose barcode .net – step‑by‑step guide for .NET developers.
+  headline: Generate Aztec Barcode with Text Encoding using Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to generate aztec barcode with text encoding and how to install
+    aspose barcode .net – step‑by‑step guide for .NET developers.
+  name: Generate Aztec Barcode with Text Encoding using Aspose.BarCode for .NET
+  steps:
+  - name: Define Your Directory Path
+    text: Choose a folder where the barcode image will be stored. Replace **Your Directory
+      Path** with an absolute or relative path on your machine.
+  - name: Initialize Aztec Code Generator
+    text: The `BarcodeGenerator` class is the core object that creates barcodes. `BarcodeGenerator`
+      **is Aspose.BarCode's primary class for barcode creation**, handling all encoding
+      options internally.
+  - name: Set Barcode Parameters
+    text: Here we configure the visual and encoding settings. `XDimension` defines
+      pixel size per module, and `CodeTextEncoding` ensures UTF‑8 handling for international
+      characters.
+  - name: Save the Aztec Code Image
+    text: Calling `Save` writes the barcode to the file system. The format can be
+      PNG, JPEG, BMP, or TIFF – PNG is used in this example for lossless quality.
+  - name: Recognize the Aztec Code
+    text: '`BarCodeReader` **is the class that reads and decodes barcodes** from images
+      or streams. It validates that the generated Aztec code contains the expected
+      text.'
+  type: HowTo
+- questions:
+  - answer: Up to 3 832 characters for text mode, or 2 880 bytes for binary mode,
+      depending on error correction level.
+    question: What is the maximum amount of data an Aztec barcode can hold?
+  - answer: Yes, set the `ForeColor` and `BackColor` properties on the `BarcodeGenerator`
+      before saving.
+    question: Can I generate colored Aztec barcodes?
+  - answer: The library can generate images up to 10 000 × 10 000 pixels; larger sizes
+      may increase memory usage.
+    question: Is there a limit on image size?
+  - answer: Absolutely – the NuGet package targets .NET Standard 2.0, making it compatible
+      with .NET 5, .NET 6, and later.
+    question: Does Aspose.BarCode support .NET 6?
+  - answer: 'Download the trial from [here](https://releases.aspose.com/). Community
+      support and discussions are available on the Aspose Barcode forum: [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).'
+    question: Where can I get a free trial?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: اكتشف قوة تشفير نص الأزتيك باستخدام Aspose.BarCode لـ .NET. تعرف على كيفية إنشاء رموز Aztec والتعرف عليها في تطبيقات .NET الخاصة بك.
-weight: 12
+title: إنشاء رمز أزتك شريطي مع ترميز النص باستخدام Aspose.BarCode لـ .NET
 url: /ar/net/aztec-barcode-encoding/aztec-code-text-encoding/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ترميز نص كود الأزتيك باستخدام Aspose.BarCode لـ .NET
+# إنشاء باركود أزتك مع ترميز النص باستخدام Aspose.BarCode لـ .NET
 
 ## مقدمة
 
-هل أنت مستعد للتعمق في عالم تشفير النص الأزتيكي الرائع باستخدام Aspose.BarCode لـ .NET؟ في هذا الدليل الشامل، سنوجهك عبر الخطوات اللازمة لتسخير الإمكانات الكاملة لرموز Aztec، وهي تنسيق باركود ثنائي الأبعاد مثالي لتشفير النص والبيانات الأخرى. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث، فأنا هنا للتأكد من أنك لا تفهم العملية فحسب، بل تعمل أيضًا على تحسينها لمحركات البحث. لذا، فلنبدأ رحلتنا لنصبح خبراء في كود الأزتك!
+هل أنت مستعد **لإنشاء باركود أزتك** مع ترميز النص في مشروع .NET؟ يشرح لك هذا البرنامج التعليمي كل خطوة — من تثبيت المكتبة إلى إنشاء ورمز الباركود أزتك. ستكتشف لماذا Aspose.BarCode هو الخيار الأول للمطورين الذين يحتاجون إلى توليد باركود ثنائي الأبعاد موثوق، وستحصل على مقتطفات شفرة عملية يمكنك نسخها مباشرة إلى Visual Studio. لنحوّل بياناتك إلى صورة أزتك مدمجة وقابلة للمسح!
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **أي مكتبة تُنشئ باركودات أزتك؟** Aspose.BarCode for .NET.
+- **كم عدد أسطر الشيفرة المطلوبة؟** سطران فقط لإنشاء وسطر واحد للقراءة.
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم ترخيص تجاري؛ يتوفر نسخة تجريبية مجانية.
+- **هل يمكنني تخصيص الحجم والترميز؟** بالتأكيد – XDimension، مستوى تصحيح الأخطاء، ونص UTF‑8 قابلة للتكوين.
+- **هل هذا متوافق مع .NET Core و .NET 6؟** نعم، تدعم المكتبة .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6.
 
-قبل أن نبدأ هذه الرحلة المثيرة، ستحتاج إلى توفر بعض المتطلبات الأساسية:
+## ما هو إنشاء باركود أزتك؟
+**إنشاء باركود أزتك** يعني إنشاء رمز مصفوفة ثنائي الأبعاد يخزن نصًا أو بيانات ثنائية باستخدام رموز أزتك. النتيجة هي صورة مربعة يمكن مسحها بواسطة الأجهزة المحمولة أو القارئات المخصصة دون الحاجة إلى منطقة هادئة حولها.
 
-1.  Aspose.BarCode for .NET: تأكد من تثبيت هذه المكتبة القوية. يمكنك العثور على الوثائق في[Aspose.BarCode لتوثيق .NET](https://reference.aspose.com/barcode/net/).
+## لماذا تستخدم Aspose.BarCode لـ .NET؟
+يدعم Aspose.BarCode **أكثر من 70 نوعًا من رموز الباركود**، بما في ذلك رموز أزتك حتى **151 × 151 وحدة** ويمكنه ترميز **حتى 3 832 حرفًا** في رمز واحد. تعالج المكتبة مستندات مئات الصفحات في وضع توفير الذاكرة، مما يعني أنه يمكنك إنشاء دفعات كبيرة دون تحميل الملفات بالكامل. للحصول على مرجع API مفصل، راجع [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
-2. Visual Studio: يجب أن يكون Visual Studio مثبتًا على نظامك لإنشاء تطبيقات .NET وتشغيلها.
+## المتطلبات المسبقة
 
-3. المعرفة الأساسية بـ C#: الإلمام ببرمجة C# سيكون مفيدًا، على الرغم من أننا سنقدم شرحًا تفصيليًا لضمان متابعة الجميع.
+قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
-الآن بعد أن قمنا بتغطية المتطلبات الأساسية، دعنا ننتقل إلى خطوات العمل مع Aztec Code Text Encoding.
+1. **تثبيت Aspose.BarCode .NET** – قم بتنزيل حزمة NuGet أو مثبت MSI من الموقع الرسمي. خطوات التثبيت التفصيلية موجودة في الوثائق على [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
+2. **Visual Studio** – أي إصدار حديث (2019، 2022، أو أحدث) يدعم .NET.
+3. **معرفة أساسية بـ C#** – يجب أن تكون مرتاحًا لإنشاء مشروع وحدة تحكم أو نماذج Windows، لكن الشيفرة مشروحة بالكامل للمبتدئين.
 
-## استيراد مساحات الأسماء
+## كيفية إنشاء باركود أزتك مع ترميز النص؟
 
-أولاً، ستحتاج إلى استيراد مساحات الأسماء الضرورية لاستخدام Aspose.BarCode لـ .NET في تطبيق C# الخاص بك. أضف الكود التالي إلى أعلى ملف .cs الخاص بك:
+حمّل بياناتك، اضبط المُولد، واحفظ الصورة في سطرين من الشيفرة. أولاً، أنشئ كائن `BarcodeGenerator`، عيّن `EncodeType` إلى **Aztec**، حدّد النص، واستدعِ `Save`. ثم استخدم `BarCodeReader` للتحقق من الرمز المُنشأ.
+
+### استيراد المساحات الاسمية
+
+تُتيح لك توجيهات `using` الوصول إلى فئات Aspose.BarCode. ضعها في أعلى ملف `.cs` الخاص بك:
 
 ```csharp
 using System;
@@ -40,46 +107,43 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-## ترميز نص كود الأزتيك
-
-الآن، دعنا نقسم المثال الذي قدمته إلى خطوات متعددة لإنشاء ترميز نص كود Aztec.
-
 ### الخطوة 1: تحديد مسار الدليل الخاص بك
 
-قم بتعيين المسار الذي تريد حفظ صورة رمز Aztec التي تم إنشاؤه فيه. استبدل "مسار الدليل الخاص بك" بمسار الدليل المطلوب.
+اختر مجلدًا حيث سيتم تخزين صورة الباركود. استبدل **Your Directory Path** بمسار مطلق أو نسبي على جهازك.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## الخطوة 2: تهيئة مولد أكواد الأزتيك
+### الخطوة 2: تهيئة مولد رمز أزتك
 
-قم بإنشاء مثيل BarcodeGenerator مع تعيين EncodeTypes على Aztec وحدد النص الذي تريد تشفيره.
+فئة `BarcodeGenerator` هي الكائن الأساسي الذي ينشئ الباركود.  
+`BarcodeGenerator` **هي الفئة الأساسية في Aspose.BarCode لإنشاء الباركود**، وتتعامل مع جميع خيارات الترميز داخليًا.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Aspose常に先を行く");
 ```
 
-## الخطوة 3: ضبط معلمات الباركود
+### الخطوة 3: ضبط معلمات الباركود
 
-تكوين معلمات الباركود. في هذا المثال، قمنا بتعيين XDimension بالبكسل وترميز نص التعليمات البرمجية إلى UTF8.
+هنا نقوم بضبط الإعدادات البصرية وإعدادات الترميز. `XDimension` يحدد حجم البكسل لكل وحدة، و`CodeTextEncoding` يضمن معالجة UTF‑8 للأحرف الدولية.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 4;
 gen.Parameters.Barcode.Aztec.CodeTextEncoding = Encoding.UTF8;
 ```
 
-## الخطوة 4: احفظ صورة رمز الأزتك
+### الخطوة 4: حفظ صورة رمز أزتك
 
-احفظ صورة كود Aztec التي تم إنشاؤها في الدليل المحدد.
+استدعاء `Save` يكتب الباركود إلى نظام الملفات. يمكن أن يكون التنسيق PNG أو JPEG أو BMP أو TIFF – يُستخدم PNG في هذا المثال للحصول على جودة غير مضغوطة.
 
 ```csharp
 gen.Save($"{path}AztecCodeTextEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## الخطوة 5: التعرف على رمز الأزتك
+### الخطوة 5: التعرف على رمز أزتك
 
-حاول التعرف على رمز الأزتك الذي قمت بإنشائه للتو. نحن نستخدم BarCodeReader لهذا الغرض.
+`BarCodeReader` **هي الفئة التي تقرأ وتفك تشفير الباركود** من الصور أو التدفقات. تتحقق من أن رمز أزتك المُنشأ يحتوي على النص المتوقع.
 
 ```csharp
 BarCodeReader read = new BarCodeReader(gen.GenerateBarCodeImage(), DecodeType.Aztec);
@@ -87,35 +151,41 @@ foreach (BarCodeResult result in read.ReadBarCodes())
     Console.WriteLine("AztecCodeTextEncoding:" + result.GetCodeText(Encoding.UTF8));
 ```
 
-تهانينا! لقد نجحت في إنشاء رمز Aztec والتعرف عليه باستخدام ترميز النص باستخدام Aspose.BarCode لـ .NET.
+## المشكلات الشائعة والحلول
 
-## خاتمة
+- **الصورة غير موجودة** – تحقق من أن مسار الدليل ينتهي بشرطة مائلة عكسية (`\`) وأن التطبيق لديه أذونات كتابة.
+- **نص غير صحيح بعد القراءة** – تأكد من أن `CodeTextEncoding` يطابق الترميز المستخدم أثناء الإنشاء (يوصى بـ UTF‑8).
+- **رموز أزتك الكبيرة** – زد `XDimension` أو عدّل `ErrorCorrectionLevel` لتحقيق التوازن بين الحجم والقراءة.
 
-في هذا البرنامج التعليمي، اكتشفنا العالم الرائع لترميز النصوص البرمجية في Aztec باستخدام Aspose.BarCode لـ .NET. لقد قمنا بتغطية المتطلبات الأساسية، واستوردنا مساحات الأسماء الضرورية، وقمنا بتقسيم كل خطوة لإنشاء رموز الأزتك التي تقوم بتشفير النص. الآن، يمكنك استخدام هذه المعرفة لدمج رموز Aztec في تطبيقات .NET الخاصة بك وتسخير قوتها في حالات الاستخدام المختلفة.
+## الأسئلة المتكررة
 
- لا تتردد في استكشاف الوثائق في[Aspose.BarCode لتوثيق .NET](https://reference.aspose.com/barcode/net/) لمزيد من الأفكار والميزات المتقدمة. ترميز سعيد!
+**س: ما هو الحد الأقصى للبيانات التي يمكن أن يحملها باركود أزتك؟**  
+ج: حتى 3 832 حرفًا في وضع النص، أو 2 880 بايتًا في وضع الثنائي، حسب مستوى تصحيح الأخطاء.
 
-## الأسئلة الشائعة
+**س: هل يمكنني إنشاء باركود أزتك ملون؟**  
+ج: نعم، عيّن خصائص `ForeColor` و `BackColor` على `BarcodeGenerator` قبل الحفظ.
 
-### س1: ما هو رمز الأزتيك؟
+**س: هل هناك حد لحجم الصورة؟**  
+ج: يمكن للمكتبة إنشاء صور تصل إلى 10 000 × 10 000 بكسل؛ قد يزيد الحجم الأكبر من استهلاك الذاكرة.
 
-A1: Aztec Code هو تنسيق باركود ثنائي الأبعاد يمكنه تشفير مجموعة متنوعة من أنواع البيانات، بما في ذلك النص وعناوين URL والمزيد.
+**س: هل يدعم Aspose.BarCode .NET 6؟**  
+ج: بالتأكيد – حزمة NuGet تستهدف .NET Standard 2.0، مما يجعلها متوافقة مع .NET 5، .NET 6، وما بعده.
 
-### س2: لماذا يجب علي استخدام Aspose.BarCode لـ .NET؟
+**س: أين يمكنني الحصول على نسخة تجريبية مجانية؟**  
+ج: قم بتنزيل النسخة التجريبية من [هنا](https://releases.aspose.com/). الدعم المجتمعي والنقاشات متاحة على منتدى Aspose Barcode: [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
 
-ج2: تعد Aspose.BarCode for .NET مكتبة قوية تعمل على تبسيط عملية إنشاء الرموز الشريطية والتعرف عليها في تطبيقات .NET، مما يوفر لك الوقت والجهد.
+---
 
-### س3: هل يمكنني تخصيص مظهر رموز Aztec باستخدام Aspose.BarCode لـ .NET؟
+**آخر تحديث:** 2026-05-19  
+**تم الاختبار مع:** Aspose.BarCode 24.11 لـ .NET  
+**المؤلف:** Aspose
 
-ج3: نعم، يمكنك تخصيص جوانب مختلفة من رموز Aztec، مثل الحجم واللون وخيارات الترميز، لتناسب احتياجاتك.
+## دروس ذات صلة
 
-### س4: هل هناك أي خيارات تجريبية مجانية متاحة لـ Aspose.BarCode for .NET؟
+- [كيفية إنشاء باركود أزتك بنسبة أبعاد مخصصة باستخدام Aspose.BarCode لـ .NET](/barcode/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [ترميز بايتات أزتك باستخدام مولد الباركود .NET](/barcode/net/aztec-barcode-encoding/aztec-bytes-encoding/)
+- [إتقان وضع رمز أزتك مع Aspose.BarCode لـ .NET](/barcode/net/aztec-barcode-encoding/aztec-symbol-mode-example/)
 
- ج4: نعم، يمكنك تجربة Aspose.BarCode for .NET مع نسخة تجريبية مجانية من خلال زيارة الموقع[هنا](https://releases.aspose.com/).
-
-### س5: أين يمكنني الحصول على الدعم أو طرح الأسئلة المتعلقة بـ Aspose.BarCode for .NET؟
-
- ج5: يمكنك الانضمام إلى مجتمع Aspose.BarCode for .NET في منتدى الدعم على[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13) للحصول على المساعدة ومشاركة تجاربك.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

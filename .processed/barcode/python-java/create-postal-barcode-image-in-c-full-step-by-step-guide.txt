@@ -1,0 +1,7 @@
+Title: Create Postal Barcode Image in C# – Full Step‑by‑Step Guide
+Slug: create-postal-barcode-image-in-c-full-step-by-step-guide
+Category: general
+ProcessedDate: 2026-07-28T03:20:14.689504
+SourceRepo: AI Search API
+Keywords: create postal barcode image, how to generate postal barcode, generate planet barcode, how to set barcode height
+PRNumber: 85

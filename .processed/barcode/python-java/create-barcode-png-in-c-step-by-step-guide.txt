@@ -1,0 +1,7 @@
+Title: Create barcode PNG in C# – step‑by‑step guide
+Slug: create-barcode-png-in-c-step-by-step-guide
+Category: general
+ProcessedDate: 2026-08-03T11:31:18.918423
+SourceRepo: AI Search API
+Keywords: create barcode png, how to change aspect ratio
+PRNumber: 91

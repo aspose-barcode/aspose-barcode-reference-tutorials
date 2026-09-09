@@ -1,11 +1,15 @@
 ---
-date: 2025-12-18
-description: Leer hoe je een barcodegenerator maakt en een barcode afdrukt in Java
-  met Aspose.BarCode. Deze gids behandelt hoe je een barcode rendert, de barcodegrootte
-  instelt en een barcode afdrukt in Java.
-linktitle: Rendering Barcode to Printer
+date: 2026-04-05
+description: Leer hoe je een barcode in Java genereert en afdrukt met Aspose.BarCode.
+  Deze tutorial behandelt het renderen van barcodes, het instellen van de grootte
+  en het oplossen van problemen bij het afdrukken van barcodes.
+keywords:
+- generate barcode java
+- how to generate barcode
+- how to print barcode
+linktitle: Barcode renderen naar printer
 second_title: Aspose.BarCode Java API
-title: Maak een barcodegenerator en print een barcode in Java
+title: Hoe Barcode te genereren in Java en Barcode af te drukken met Aspose
 url: /nl/java/barcode-rendering-techniques/rendering-barcode-printer/
 weight: 12
 ---
@@ -14,43 +18,43 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Barcodegenerator maken en barcode afdrukken in Java
+# Barcode Java genereren en Barcode afdrukken met Aspose
 
 ## Inleiding
 
-In deze tutorial **maak je een barcodegenerator** en leer je **hoe je een barcode** direct vanuit een Java‑applicatie kunt afdrukken met Aspose.BarCode. Of je nu inventoriesystemen, verzendetiketten of point‑of‑sale terminals bouwt, een barcode renderen en naar een printer sturen is een veelvoorkomende eis. We lopen elke stap door, van het genereren van de afbeelding tot het weergeven ervan op een frame dat naar elke printer kan worden gestuurd.
+In deze tutorial **generate barcode java** en leer je **how to print barcode** direct vanuit een Java‑applicatie met Aspose.BarCode. Of je nu tools voor voorraadbeheer, verzendlabel‑generatoren of point‑of‑sale‑terminals bouwt, het omzetten van gegevens in een scanbare barcode en deze rechtstreeks naar een printer sturen is een veelvoorkomende eis. We lopen elke stap door — van het maken van de barcode‑afbeelding, het renderen ervan op een UI‑component, tot het afdrukken zonder je code te verlaten.
 
 ## Snelle antwoorden
-- **Wat is de primaire bibliotheek?** Aspose.BarCode voor Java.  
-- **Kan ik de barcode‑grootte instellen?** Ja – je kunt de afmetingen regelen via de parameters van de generator.  
-- **Hoe render ik een barcode naar een printer?** Render naar een afbeelding, teken deze vervolgens op een `Frame` die kan worden afgedrukt.  
-- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.BarCode‑licentie is vereist voor commercieel gebruik.  
-- **Is dit compatibel met Java 8+?** Absoluut – werkt met alle moderne JDK‑versies.
+- **What library should I use?** Aspose.BarCode for Java is de meest betrouwbare optie voor het genereren en afdrukken van barcodes.  
+- **Can I control barcode size?** Ja – gebruik de size‑gerelateerde eigenschappen van de generator of stel de frame‑afmetingen in.  
+- **How do I render barcode to a printer?** Render de barcode naar een `BufferedImage`, teken deze op een `Frame` en stuur vervolgens het frame (of de afbeelding) naar een `PrinterJob`.  
+- **Do I need a license for production?** Een geldige Aspose.BarCode‑licentie is vereist voor commerciële implementaties.  
+- **Is it compatible with Java 8 and newer?** Absoluut – werkt met Java 8+, Java 11 en latere releases.
 
-## Wat is een barcodegenerator?
+## Wat is generate barcode java?
 
-Een barcodegenerator maakt een visuele weergave van gegevens die scanners kunnen lezen. Met Aspose.BarCode kun je veel symbologieën (CODE_128, QR, DataMatrix, enz.) genereren en het uiterlijk, de grootte en het uitvoerformaat aanpassen.
+`generate barcode java` verwijst naar het proces waarbij Java‑code wordt gebruikt om een visuele barcode‑representatie te maken die scanners kunnen lezen. Aspose.BarCode ondersteunt meer dan 50 symbologieën, zodat je het juiste type kunt kiezen (bijv. CODE_128, QR, DataMatrix) voor jouw zakelijke scenario.
 
-## Waarom Aspose.BarCode voor Java gebruiken?
+## Waarom generate barcode java met Aspose.BarCode?
 
-- **Rijke API** – ondersteunt meer dan 50 barcode‑typen.  
-- **Hoge getrouwe weergave** – scherpe afbeeldingen geschikt voor afdrukken.  
-- **Eenvoudige integratie** – eenvoudige Java‑klassen, geen native afhankelijkheden.  
-- **Aanpasbaar** – wijzig grootte, kleur, marges en meer.
+- **Rich API** – meer dan 50 barcode‑typen en volledige aanpassingsopties.  
+- **High‑resolution rendering** – perfect voor scherpe afdrukken op elke printer.  
+- **Zero native dependencies** – pure Java, eenvoudig te integreren in elk project.  
+- **Built‑in printing support** – combineer met de Java‑print‑API voor naadloze workflows.  
 
 ## Vereisten
 
-Zorg ervoor dat je het volgende hebt:
+Before we dive in, make sure you have:
 
-- Java Development Kit (JDK) geïnstalleerd op uw machine.  
-- Aspose.BarCode voor Java‑bibliotheek. Je kunt deze downloaden van [hier](https://releases.aspose.com/barcode/java/).  
-- Een geïntegreerde ontwikkelomgeving (IDE) zoals Eclipse of IntelliJ.
+- Java Development Kit (JDK) 8 of nieuwer geïnstalleerd.  
+- Aspose.BarCode for Java library – download it from [here](https://releases.aspose.com/barcode/java/).  
+- Een IDE zoals Eclipse, IntelliJ IDEA, of VS Code met Java‑ondersteuning.  
 
-## Barcodegenerator maken in Java
+## Stapsgewijze handleiding voor generate barcode java
 
-### Importeer pakketten
+### Pakketten importeren
 
-In je Java‑project importeer je de benodigde pakketten om de functionaliteit van Aspose.BarCode te benutten. Voeg de volgende import‑statements toe aan je Java‑klasse:
+Importeer eerst de klassen die je nodig hebt. Deze imports geven je toegang tot de barcode‑generator, beeldverwerking en basis‑AWT‑componenten.
 
 ```java
 import java.awt.Dimension;
@@ -60,32 +64,34 @@ import java.awt.image.BufferedImage;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-### Stap 1: Frame‑instantie maken
+### Stap 1: Een Frame‑instantie maken
+
+Een `Frame` biedt een eenvoudig venster waarin de gegenereerde barcode kan worden bekeken voordat deze wordt afgedrukt.
 
 ```java
 Frame f = new Frame();
 f.setSize(300, 300);
 ```
 
-Maak een frame‑instantie, stel de grootte in en bereid deze voor om de barcode weer te geven.
+### Stap 2: De Barcode‑generator initialiseren (hoe barcode te genereren)
 
-### Stap 2: Barcode‑instantie maken
+Maak een `BarcodeGenerator`‑object, specificeer de symbologie (CODE_128 in dit voorbeeld) en geef de gegevens door die je wilt coderen.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-Initialiseer een `BarcodeGenerator`‑instantie met het gewenste barcode‑type en de gegevens.
+### Stap 3: De Barcode‑afbeelding genereren (hoe barcode te renderen)
 
-### Stap 3: Barcode‑afbeelding genereren
+Vraag de generator om een `BufferedImage` te produceren. Deze afbeelding kan worden weergegeven, opgeslagen of naar een printer worden gestuurd.
 
 ```java
 BufferedImage bimg = (BufferedImage) bb.generateBarCodeImage();
 ```
 
-Genereer de barcode‑afbeelding met de `BarcodeGenerator`‑instantie. Deze stap **genereert barcode‑afbeelding java**‑stijl en retourneert een `BufferedImage`.
+### Stap 4: RGB‑informatie extraheren (handig voor aangepaste rendering)
 
-### Stap 4: RGB‑informatie extraheren
+Als je kleuren wilt manipuleren of pixelgegevens wilt inspecteren, haal dan de RGB‑waarden uit de afbeelding.
 
 ```java
 int w = bimg.getWidth();
@@ -98,64 +104,69 @@ if (rgb.length > 0) {
 }
 ```
 
-Extraheer RGB‑informatie uit de gegenereerde barcode‑afbeelding. Het kennen van de pixelgegevens kan nuttig zijn als je kleuren wilt manipuleren of **barcode‑grootte** dynamisch wilt instellen.
+### Stap 5: De Barcode weergeven op het Frame (hoe barcode te renderen)
 
-### Stap 5: Barcode weergeven op frame
+Teken de afbeelding op de graphics‑context van het frame zodat je het resultaat kunt zien vóór het afdrukken.
 
 ```java
+Graphics g = f.getGraphics();
 g.drawImage(bimg, 0, 0, this);
 ```
 
-Geef de barcode weer op het frame met behulp van de `Graphics`‑klasse. Hier **hoe je een barcode rendert** op een UI‑component vóór het afdrukken.
+### Stap 6: Het Frame zichtbaar maken
 
-### Stap 6: Frame‑zichtbaarheid instellen
+Toon het venster aan de gebruiker. Op dit punt heb je een live‑preview van de barcode.
 
 ```java
 f.setVisible(true);
 ```
 
-Maak het frame zichtbaar, zodat de gerenderde barcode wordt getoond.
+## Hoe barcode af te drukken in Java (hoe barcode af te drukken)
 
-## Hoe barcode af te drukken in Java
+Nu de barcode zichtbaar is, kun je deze overhandigen aan de Java‑print‑API. De typische workflow is:
 
-Zodra de barcode op het frame wordt weergegeven, kun je het frame (of de `BufferedImage`) naar een printer sturen met Java's print‑API. Het bovenstaande voorbeeld toont al een visueel voorbeeld; om daadwerkelijk af te drukken, verkrijg je een `PrinterJob`‑instantie en teken je de afbeelding binnen de `print`‑methode.
+1. Maak een `PrinterJob`‑instantie.  
+2. Roep `printerJob.printDialog()` aan zodat de gebruiker een printer kan kiezen.  
+3. Implementeer de `Printable`‑interface en teken de `BufferedImage` binnen de `print`‑methode.  
+4. Roep `printerJob.print()` aan.
 
-> **Pro tip:** Gebruik `PrinterJob.printDialog()` om gebruikers een printer te laten kiezen, en roep `printerJob.print()` aan nadat de afbeelding naar de graphics‑context is gerenderd.
+> **Pro tip:** Roep altijd `printerJob.setJobName("Barcode Print Job")` aan om de taak herkenbaar te maken in de printerwachtrij.
 
-## Veelvoorkomende problemen & oplossingen
+## Veelvoorkomende problemen bij het afdrukken van barcodes en oplossingen
 
 | Probleem | Oplossing |
 |----------|-----------|
-| **Barcode verschijnt onscherp** | Vergroot de frame‑grootte of stel een hogere resolutie in via `BarcodeGenerator.setResolution()` voordat je de afbeelding genereert. |
-| **Geen output op printer** | Zorg ervoor dat de printerdriver het afbeeldingsformaat ondersteunt; gebruik `PrintServiceLookup` om een compatibele printer te selecteren. |
-| **Onjuiste barcode‑gegevens** | Controleer of de invoerreeks (`"1234567"` in het voorbeeld) voldoet aan de eisen van de symbologie (bijv. lengte voor CODE_128). |
-| **RGB‑extractie geeft lege array** | Bevestig dat de afbeelding succesvol is gegenereerd; controleer `bimg != null` voordat je `getRGB` aanroept. |
+| **Barcode appears blurry** | Vergroot de frame‑grootte of roep `bb.setResolution(300)` aan vóór het genereren van de afbeelding. |
+| **No output on printer** | Controleer of het printerstuurprogramma het afbeeldingsformaat ondersteunt; gebruik `PrintServiceLookup` om een compatibele printer te selecteren. |
+| **Incorrect data encoded** | Controleer of de invoerstring voldoet aan de vereisten van de symbologie (bijv. lengte voor CODE_128). |
+| **RGB extraction returns an empty array** | Zorg ervoor dat `bimg` niet `null` is voordat `getRGB` wordt aangeroepen. |
+| **Printing throws `PrinterException`** | Vang de uitzondering op en log de stack‑trace; vaak komt dit door ontbrekende printerrechten. |
 
 ## Veelgestelde vragen
 
-**V:** Kan ik het uiterlijk van de gegenereerde barcode aanpassen?  
-**A:** Ja, Aspose.BarCode biedt diverse aanpassingsopties voor het uiterlijk van de barcode, inclusief grootte, kleur en lettertype.
+**Q:** Kan ik het uiterlijk van de gegenereerde barcode aanpassen?  
+**A:** Ja, Aspose.BarCode laat je grootte, kleur, marges wijzigen en zelfs mens‑leesbare tekst toevoegen.
 
-**V:** Is Aspose.BarCode compatibel met verschillende barcode‑typen?  
-**A:** Absoluut. Aspose.BarCode ondersteunt een breed scala aan barcode‑typen, zoals CODE_128, QR‑code en DataMatrix.
+**Q:** Is Aspose.BarCode compatibel met alle barcode‑typen?  
+**A:** Absoluut. Het ondersteunt meer dan 50 symbologieën, waaronder CODE_128, QR‑Code, DataMatrix en nog veel meer.
 
-**V:** Hoe kan ik een tijdelijke licentie voor Aspose.BarCode verkrijgen?  
-**A:** Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
+**Q:** Hoe kan ik een tijdelijke licentie voor evaluatie verkrijgen?  
+**A:** Je kunt een tijdelijke licentie krijgen [here](https://purchase.aspose.com/temporary-license/).
 
-**V:** Waar kan ik ondersteuning vinden voor vragen over Aspose.BarCode?  
-**A:** Bezoek het [Aspose.BarCode‑forum](https://forum.aspose.com/c/barcode/13) voor community‑ondersteuning en discussies.
+**Q:** Waar kan ik hulp vragen als ik problemen ondervind?  
+**A:** Bezoek het [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) voor community‑ondersteuning en officiële antwoorden.
 
-**V:** Is er een gratis proefversie beschikbaar voor Aspose.BarCode?  
-**A:** Ja, je kunt de gratis proefversie benaderen [hier](https://releases.aspose.com/).
+**Q:** Is er een gratis proefversie die ik kan downloaden?  
+**A:** Ja, een gratis proefversie is beschikbaar [here](https://releases.aspose.com/).
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt met succes **een barcodegenerator gemaakt** en een barcode afgedrukt in Java met behulp van Aspose.BarCode. Deze gids besloeg alles, van het opzetten van de omgeving, het genereren van de afbeelding, het extraheren van pixelgegevens, het weergeven op een frame, tot het voorbereiden op afdrukken. Verken de uitgebreide [documentatie](https://reference.aspose.com/barcode/java/) om geavanceerde functies te ontdekken, zoals het toevoegen van tekst, het wijzigen van kleuren en het batch‑verwerken van meerdere barcodes.
+Je hebt nu geleerd hoe je **generate barcode java** kunt **genereren**, weergeven op een UI‑component en afdrukken met Aspose.BarCode. Dit end‑to‑end‑voorbeeld behandelt alles, van het opzetten van de omgeving tot het oplossen van veelvoorkomende afdrukproblemen. Voor diepere aanpassingen — zoals bijschriften toevoegen, kleuren wijzigen of honderden barcodes in batch te verwerken — bekijk de volledige [documentation](https://reference.aspose.com/barcode/java/).
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** Aspose.BarCode 24.11 voor Java  
+**Laatst bijgewerkt:** 2026-04-05  
+**Getest met:** Aspose.BarCode 24.12 for Java  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

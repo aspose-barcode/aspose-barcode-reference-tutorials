@@ -1,0 +1,7 @@
+Title: barcode generator example – step‑by‑step guide for custom pixel sizes
+Slug: barcode-generator-example-step-by-step-guide-for-custom-pixe
+Category: general
+ProcessedDate: 2026-08-12T22:36:17.492044
+SourceRepo: AI Search API
+Keywords: barcode generator example, how to generate barcode, barcode pixel size, generate planet barcode
+PRNumber: 100

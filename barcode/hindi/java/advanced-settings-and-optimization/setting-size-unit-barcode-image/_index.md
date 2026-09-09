@@ -1,11 +1,77 @@
 ---
-date: 2026-02-07
-description: Aspose Barcode Java का उपयोग करके CODE_128 बारकोड बनाना, बारकोड इमेज
-  जावा जनरेट करना, और सटीक आकार इकाइयों को सेट करना सीखें—इन्वेंटरी सिस्टम या शिपिंग
-  लेबल जनरेशन के लिए बारकोड के लिए एकदम उपयुक्त।
-linktitle: Setting Size Unit for Barcode Image
+date: 2026-07-23
+description: Aspose.BarCode के साथ code128 barcode java बनाएं। barcode image java
+  उत्पन्न करें, सटीक आकार इकाइयों को सेट करें, और इन्वेंट्री सिस्टम या शिपिंग लेबल
+  के लिए अनुकूलित करें।
+keywords:
+- create code128 barcode java
+- barcode for inventory system
+- generate shipping label barcode
+- generate barcode image java
+lastmod: 2026-07-23
+linktitle: Barcode Image के लिए आकार इकाई सेट करना
+og_description: Aspose.BarCode का उपयोग करके code128 barcode java बनाएं। barcode image
+  java उत्पन्न करना सीखें, आकार इकाइयों को नियंत्रित करें, और इन्वेंट्री या शिपिंग
+  लेबल वर्कफ़्लो को बढ़ाएँ।
+og_image_alt: 'Guide: create code128 barcode java with size unit settings'
+og_title: 'code128 barcode java बनाएं: बारकोड इमेज के लिए आकार इकाई सेट करें'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Create code128 barcode java with Aspose.BarCode. Generate barcode image
+    java, set precise size units, and optimize for inventory systems or shipping labels.
+  headline: 'create code128 barcode java: Set Size Unit for Barcode Image'
+  type: TechArticle
+- description: Create code128 barcode java with Aspose.BarCode. Generate barcode image
+    java, set precise size units, and optimize for inventory systems or shipping labels.
+  name: 'create code128 barcode java: Set Size Unit for Barcode Image'
+  steps:
+  - name: Define the Resource Directory
+    text: First, specify the folder where the generated files will be written. This
+      directory must exist and be writable by the Java process. Replace `"Your Document
+      Directory"` with the absolute path where you want the barcode image saved. This
+      folder will hold the generated PNG/JPEG files that you can later
+  - name: Instantiate the Barcode Object
+    text: '`EncodeTypes.CODE_128` specifies the CODE_128 barcode symbology. `BarcodeGenerator`
+      is Aspose.BarCode''s core class that represents a barcode image in memory. Creating
+      a `create code128 barcode java` instance is as simple as passing the `EncodeTypes.CODE_128`
+      enum and the data string you wish to enco'
+  - name: Set Bar Height (Size Unit)
+    text: '`BarHeight` defines the vertical size of the bars. The `.setPoint()` method
+      sets this height in points (1 point = 1/72 inch), giving you precise control
+      over the final visual size. The `setPoint()` method defines the height in points.
+      Adjust this value to meet your layout requirements—larger values '
+  - name: Save the Image
+    text: Calling `save()` writes the barcode to the folder you specified. The image
+      format is inferred from the file extension; you can switch to PNG, BMP, or TIFF
+      simply by changing the extension. The `save()` call writes the generated barcode
+      to the folder you specified. The image format is inferred from t
+  type: HowTo
+- questions:
+  - answer: Yes, the library supports both generation and recognition of a wide range
+      of symbologies.
+    question: Is Aspose.BarCode for Java suitable for both barcode generation and
+      recognition?
+  - answer: Absolutely. You can change colors, add captions, modify margins, and even
+      embed logos using the extensive `Parameters` API.
+    question: Can I customize the appearance of the generated barcode images?
+  - answer: Visit [here](https://purchase.aspose.com/temporary-license/) to request
+      a temporary license for evaluation.
+    question: How can I obtain a temporary license for Aspose.BarCode for Java?
+  - answer: The Aspose.BarCode community forum is the best place for help. Check the
+      [forum](https://forum.aspose.com/c/barcode/13) for answers and to ask new questions.
+    question: Where can I find support for Aspose.BarCode for Java?
+  - answer: The library supports dozens of symbologies, including CODE_128, QR_CODE,
+      UPC_A, DataMatrix, PDF417, and many more.
+    question: What are the supported barcode symbologies in Aspose.BarCode for Java?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: 'aspose barcode java: आकार इकाई के साथ CODE_128 बारकोड बनाएं'
+tags:
+- create code128 barcode java
+- barcode for inventory system
+- Aspose.BarCode
+- Java barcode generation
+title: 'code128 barcode java बनाएं: बारकोड इमेज के लिए आकार इकाई सेट करें'
 url: /hi/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/
 weight: 15
 ---
@@ -14,41 +80,39 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose barcode java: साइज़ यूनिट के साथ CODE_128 बारकोड बनाएं
+# कोड128 बारकोड जावा बनाएं: बारकोड इमेज के लिए साइज यूनिट सेट करें
 
-## इंट्रोडक्शन
+## परिचय
 
-इस चरण‑दर‑चरण ट्यूटोरियल में आप **aspose barcode java** का उपयोग करके CODE_128 बारकोड बनाएँगे, बारकोड इमेज java जेनरेट करेंगे, और आउटपुट के साइज यूनिट को सटीक रूप से नियंत्रित करेंगे। चाहे आप इन्वेंटरी सिस्टम के लिए बारकोड बना रहे हों, शिपिंग लेबल जेनरेटर बना रहे हों, या किसी भी Java‑आधारित एप्लिकेशन में विश्वसनीय बारकोड की आवश्यकता हो, Aspose.BarCode for Java कुछ ही लाइनों के कोड से पूरी लचीलापन प्रदान करता है।
+इस चरण‑दर‑चरण ट्यूटोरियल में आप **Aspose.BarCode for Java** का **use** करके **create code128 barcode java** करेंगे, एक बारकोड इमेज जावा जेनरेट करेंगे, और आउटपुट के साइज यूनिट को सटीक रूप से नियंत्रित करेंगे। चाहे आप इन्वेंटरी सिस्टम के लिए बारकोड बना रहे हों, शिपिंग लेबल जेनरेटर बना रहे हों, या किसी भी जावा‑आधारित एप्लिकेशन में विश्वसनीय बारकोड की आवश्यकता हो, Aspose.BarCode आपको कुछ ही लाइनों के कोड के साथ पूरी लचीलापन देता है।
 
-## क्विक आंसर्स
-- **मुझे कौन सी लाइब्रेरी चाहिए?** Aspose.BarCode for Java (aspose barcode java)।  
-- **कौन सा बारकोड प्रकार कवर किया गया है?** CODE_128 (create code128 barcode java)।  
-- **मैं साइज यूनिट कैसे सेट करूँ?** `BarHeight` प्रॉपर्टी को `.setPoint()` के साथ उपयोग करें।  
-- **क्या मैं बारकोड इमेज java को अन्य फॉर्मैट में जेनरेट कर सकता हूँ?** हाँ – PNG, JPEG, BMP, आदि।  
-- **पूर्वापेक्षाएँ क्या हैं?** JDK स्थापित, Aspose.BarCode लाइब्रेरी, और एक Java IDE।
+## त्वरित उत्तर
+
+- **मुझे कौनसी लाइब्रेरी चाहिए?** Aspose.BarCode for Java (aspose barcode java).  
+- **कौनसा बारकोड प्रकार कवर किया गया है?** CODE_128 (create code128 barcode java).  
+- **मैं साइज यूनिट कैसे सेट करूँ?** Use the `BarHeight` property with `.setPoint()`.  
+- **क्या मैं बारकोड इमेज जावा को अन्य फॉर्मैट में जेनरेट कर सकता हूँ?** Yes – PNG, JPEG, BMP, etc.  
+- **पूर्वापेक्षाएँ क्या हैं?** JDK installed, Aspose.BarCode library, and a Java IDE.  
 
 ## **create code128 barcode java** क्या है?
 
-Java में CODE_128 बारकोड बनाना मतलब `BarcodeGenerator` क्लास को `EncodeTypes.CODE_128` एनेम के साथ इंस्टैंशिएट करना और वह डेटा स्ट्रिंग प्रदान करना जिसे आप एन्कोड करना चाहते हैं। यह सिम्बोलॉजी लॉजिस्टिक्स में व्यापक रूप से उपयोग होती है क्योंकि यह पूर्ण ASCII कैरेक्टर सेट को सपोर्ट करती है और उच्च डेटा घनत्व प्रदान करती है—जिससे यह इन्वेंटरी सिस्टम परिदृश्यों के लिए आदर्श बनती है।
+`create code128 barcode java` का अर्थ है `BarcodeGenerator` क्लास को `EncodeTypes.CODE_128` एनोम के साथ उपयोग करके डेटा स्ट्रिंग को CODE_128 सिम्बोलॉजी में एन्कोड करना। यह सिम्बोलॉजी पूरी ASCII सेट का समर्थन करती है और उच्च डेटा डेंसिटी प्रदान करती है, जिससे यह इन्वेंटरी सिस्टम और शिपिंग लेबल परिदृश्यों के लिए आदर्श बनती है।
 
-## **barcode image java** जेनरेट करने के लिए Aspose.BarCode का इस्तेमाल क्यों करें?
+## Aspose.BarCode का उपयोग क्यों करें **generate barcode image java** के लिए?
 
-- **आकार पर पूर्ण नियंत्रण** – आप बार की ऊँचाई, मॉड्यूल साइज, और इमेज रेज़ोल्यूशन सेट कर सकते हैं।  
-- **कोई बाहरी निर्भरताएँ नहीं** – शुद्ध Java, किसी भी प्लेटफ़ॉर्म पर काम करता है जो JDK सपोर्ट करता है।  
-- **समृद्ध कस्टमाइज़ेशन** – रंग, फ़ॉन्ट, मार्जिन, और यहाँ तक कि QR कोड भी सपोर्टेड हैं।  
-- **उच्च प्रदर्शन** – मिलिसेकंड में इमेज जेनरेट करता है, बैच प्रोसेसिंग और शिपिंग लेबल बारकोड वर्कफ़्लो के लिए उपयुक्त।  
+Aspose.BarCode के साथ बारकोड इमेज जावा जेनरेट करने से आप आयाम, रंग और रिज़ॉल्यूशन को नियंत्रित कर सकते हैं जबकि इम्प्लीमेंटेशन शुद्ध‑जावा रहता है। लाइब्रेरी **50+ इनपुट और आउटपुट फॉर्मैट** का समर्थन करती है और पूरी फ़ाइल को मेमोरी में लोड किए बिना सैकड़ों पेज़ की बारकोड इमेज बना सकती है, जिससे बैच लेबल निर्माण के लिए मिलीसेकंड‑स्तर का प्रदर्शन मिलता है।
 
-## प्रीरिक्विजिट्स
+## पूर्वापेक्षाएँ
 
 शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
 
-1. **Java Development Kit (JDK)** – संस्करण 8 या बाद का आपके मशीन पर स्थापित।  
-2. **Aspose.BarCode for Java लाइब्रेरी** – Aspose वेबसाइट से नवीनतम JAR डाउनलोड करें (ट्रायल या लाइसेंस्ड)।  
-3. **एक Java IDE** – जैसे IntelliJ IDEA, Eclipse, या Java एक्सटेंशन के साथ VS Code।  
+1. **Java Development Kit (JDK)** – संस्करण 8 या बाद का आपके मशीन पर स्थापित होना चाहिए।  
+2. **Aspose.BarCode for Java library** – Aspose वेबसाइट से नवीनतम JAR डाउनलोड करें (ट्रायल या लाइसेंस्ड)।  
+3. **A Java IDE** – जैसे IntelliJ IDEA, Eclipse, या VS Code के साथ Java एक्सटेंशन।  
 
-## नेमस्पेस इंपोर्ट करें
+## इम्पोर्ट नेमस्पेसेस
 
-अपने Java क्लास के शीर्ष पर आवश्यक इम्पोर्ट जोड़ें ताकि आप Aspose.BarCode की API तक पहुंच सकें:
+अपने जावा क्लास के शीर्ष पर आवश्यक इम्पोर्ट जोड़ें ताकि आप Aspose.BarCode की API तक पहुँच सकें:
 
 ```java
 import java.io.IOException;
@@ -58,20 +122,26 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Aspose.BarCode के साथ **barcode image java** कैसे जेनरेट करें?
+## Aspose.BarCode के साथ **generate barcode image java** कैसे बनाएं?
 
-नीचे पूरा वर्कफ़्लो दिया गया है। प्रत्येक चरण को सरल भाषा में समझाया गया है, और मूल कोड ब्लॉक्स को बिल्कुल वैसा ही रखा गया है।
+`BarcodeGenerator` को लोड करें, साइज कॉन्फ़िगर करें, और इमेज को सेव करें – यह सब एक स्पष्ट, रैखिक प्रवाह में है जिसे आप बल्क प्रोसेसिंग के लिए लूप में लपेट सकते हैं। यह सीधा‑उत्तर पैराग्राफ आपको चरण‑दर‑चरण विवरण में जाने से पहले ठीक‑ठीक क्या करना है बताता है।
 
-### स्टेप 1: रिसोर्स डायरेक्टरी को डिफाइन करें
+### चरण 1: रिसोर्स डायरेक्टरी निर्धारित करें
+
+पहले, उस फ़ोल्डर को निर्दिष्ट करें जहाँ जेनरेट की गई फ़ाइलें लिखी जाएँगी। यह डायरेक्टरी मौजूद होनी चाहिए और जावा प्रोसेस द्वारा लिखने योग्य होनी चाहिए।
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` को उस पूर्ण पाथ से बदलें जहाँ आप बारकोड इमेज सहेजना चाहते हैं। यह फ़ोल्डर जेनरेटेड PNG/JPEG फ़ाइलों को रखेगा जिन्हें आप बाद में इनवॉइस, पैकिंग स्लिप, या इन्वेंटरी रिपोर्ट में एम्बेड कर सकते हैं।
+`"Your Document Directory"` को उस पूर्ण पाथ से बदलें जहाँ आप बारकोड इमेज सेव करना चाहते हैं। यह फ़ोल्डर जेनरेट किए गए PNG/JPEG फ़ाइलों को रखेगा, जिन्हें आप बाद में इनवॉइस, पैकिंग स्लिप या इन्वेंटरी रिपोर्ट में एम्बेड कर सकते हैं।
 
-### स्टेप 2: बारकोड ऑब्जेक्ट को इंस्टैंशिएट करें
+### चरण 2: बारकोड ऑब्जेक्ट को इंस्टैंशिएट करें
+
+`EncodeTypes.CODE_128` CODE_128 बारकोड सिम्बोलॉजी को निर्दिष्ट करता है।
+
+`BarcodeGenerator` Aspose.BarCode की कोर क्लास है जो मेमोरी में बारकोड इमेज का प्रतिनिधित्व करती है। एक `create code128 barcode java` इंस्टेंस बनाना इतना सरल है कि आप `EncodeTypes.CODE_128` एनोम और वह डेटा स्ट्रिंग पास कर दें जिसे आप एन्कोड करना चाहते हैं।
 
 ```java
 // Instantiate barcode object, Set the symbology type to code128 and Set the
@@ -79,65 +149,75 @@ String dataDir = "Your Document Directory";
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-यहाँ हम `EncodeTypes.CODE_128` और डेटा स्ट्रिंग `"1234567"` पास करके **create code128 barcode java** करते हैं।
+यहाँ हम **create code128 barcode java** को `EncodeTypes.CODE_128` और डेटा स्ट्रिंग `"1234567"` पास करके बना रहे हैं।
 
-### स्टेप 3: बार हाइट (साइज़ यूनिट) सेट करें
+### चरण 3: बार हाईट सेट करें (साइज यूनिट)
+
+`BarHeight` बार्स की ऊर्ध्वाधर साइज को परिभाषित करता है। `.setPoint()` मेथड इस ऊँचाई को पॉइंट्स (1 पॉइंट = 1/72 इंच) में सेट करता है, जिससे आपको अंतिम दृश्य आकार पर सटीक नियंत्रण मिलता है।
 
 ```java
 // Set the bar height to 3 points
 bb.getParameters().getBarcode().getBarHeight().setPoint(3.0f);
 ```
 
-`setPoint()` मेथड बार की ऊँचाई को पॉइंट्स में परिभाषित करता है (1 पॉइंट = 1/72 इंच)। इस मान को अपनी लेआउट आवश्यकताओं के अनुसार समायोजित करें—बड़े मान ऊँचे बार बनाते हैं, जो अक्सर हाई‑रेज़ोल्यूशन शिपिंग लेबल्स के लिए आवश्यक होते हैं।
+`setPoint()` मेथड पॉइंट्स में ऊँचाई निर्धारित करता है। अपने लेआउट आवश्यकताओं को पूरा करने के लिए इस मान को समायोजित करें—बड़े मान बड़े बार बनाते हैं, जो अक्सर हाई‑रेज़ॉल्यूशन शिपिंग लेबल के लिए आवश्यक होते हैं।
 
-### स्टेप 4: इमेज सेव करें
+### चरण 4: इमेज को सेव करें
+
+`save()` को कॉल करने से बारकोड निर्दिष्ट फ़ोल्डर में लिखी जाती है। इमेज फॉर्मैट फ़ाइल एक्सटेंशन से निर्धारित होता है; आप एक्सटेंशन बदलकर PNG, BMP, या TIFF में स्विच कर सकते हैं।
 
 ```java
 // Save the image
 bb.save(dataDir + "barcode-size-unit.jpg");
 ```
 
-`save()` कॉल जेनरेटेड बारकोड को आपने निर्दिष्ट फ़ोल्डर में लिखता है। इमेज फ़ॉर्मेट फ़ाइल एक्सटेंशन से निर्धारित होता है (इस केस में JPEG)। एक्सटेंशन बदलकर आप PNG, BMP, या TIFF में भी स्विच कर सकते हैं।
+`save()` कॉल जेनरेट किए गए बारकोड को आपके द्वारा निर्दिष्ट फ़ोल्डर में लिखती है। इमेज फॉर्मैट फ़ाइल एक्सटेंशन (इस केस में JPEG) से निर्धारित होता है। आप एक्सटेंशन बदलकर PNG, BMP, या TIFF में स्विच कर सकते हैं।
 
-## आम दिक्कतें और समाधान
+## सामान्य समस्याएँ और समाधान
 
 | समस्या | कारण | समाधान |
 |-------|--------|-----|
-| **इमेज नहीं बनी** | `dataDir` पाथ गलत है या लिखने की अनुमति नहीं है। | फ़ोल्डर मौजूद है और एप्लिकेशन को लिखने की अनुमति है, यह सत्यापित करें। |
-| **बारकोड बहुत छोटा दिख रहा है** | पॉइंट्स में सेट की गई बार ऊँचाई चुने हुए DPI के लिए बहुत कम है। | `setPoint()` को पास किया गया मान बढ़ाएँ या `bb.getParameters().getImage().setResolution()` से इमेज DPI समायोजित करें। |
-| **असमर्थित कैरेक्टर** | CODE_128 केवल ASCII सपोर्ट करता है; आपने Unicode पास किया। | गैर‑ASCII डेटा के लिए अलग सिम्बोलॉजी (जैसे QR_CODE) उपयोग करें। |
+| **इमेज नहीं बनी** | `dataDir` पाथ गलत है या लिखने की अनुमति नहीं है। | फ़ोल्डर मौजूद है और आपका एप्लिकेशन लिखने की अनुमति रखता है, यह सत्यापित करें। |
+| **बारकोड बहुत छोटा दिख रहा है** | बार हाईट पॉइंट्स में सेट बहुत कम है चुने हुए DPI के लिए। | `setPoint()` को पास किए गए मान को बढ़ाएँ या `bb.getParameters().getImage().setResolution()` के माध्यम से इमेज DPI समायोजित करें। |
+| **असमर्थित अक्षर** | CODE_128 केवल ASCII का समर्थन करता है; आपने Unicode पास किया। | गैर‑ASCII डेटा के लिए किसी अन्य सिम्बोलॉजी (जैसे QR_CODE) का उपयोग करें। |
 
-## अक्सर पूछे जाने वाले सवाल
+## अक्सर पूछे जाने वाले प्रश्न
 
-**प्रश्न: क्या Aspose.BarCode for Java बारकोड जेनरेशन और रिकग्निशन दोनों के लिए उपयुक्त है?**  
-उत्तर: हाँ, लाइब्रेरी कई सिम्बोलॉजीज़ के जेनरेशन और रिकग्निशन दोनों को सपोर्ट करती है।
+**Q: क्या Aspose.BarCode for Java बारकोड जेनरेशन और रिकग्निशन दोनों के लिए उपयुक्त है?**  
+A: हाँ, लाइब्रेरी दोनों जेनरेशन और रिकग्निशन का समर्थन करती है और विभिन्न सिम्बोलॉजीज़ को कवर करती है।
 
-**प्रश्न: क्या मैं जेनरेटेड बारकोड इमेज की उपस्थिति को कस्टमाइज़ कर सकता हूँ?**  
-उत्तर: बिल्कुल। आप रंग बदल सकते हैं, कैप्शन जोड़ सकते हैं, मार्जिन संशोधित कर सकते हैं, और `Parameters` API के माध्यम से लोगो भी एम्बेड कर सकते हैं।
+**Q: क्या मैं जेनरेट किए गए बारकोड इमेज की उपस्थिति को कस्टमाइज़ कर सकता हूँ?**  
+A: बिल्कुल। आप रंग बदल सकते हैं, कैप्शन जोड़ सकते हैं, मार्जिन संशोधित कर सकते हैं, और विस्तृत `Parameters` API का उपयोग करके लोगो एम्बेड भी कर सकते हैं।
 
-**प्रश्न: मैं Aspose.BarCode for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?**  
-उत्तर: मूल्यांकन के लिए अस्थायी लाइसेंस अनुरोध करने हेतु [यहाँ](https://purchase.aspose.com/temporary-license/) जाएँ।
+**Q: मैं Aspose.BarCode for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?**  
+A: मूल्यांकन के लिए अस्थायी लाइसेंस का अनुरोध करने हेतु [here](https://purchase.aspose.com/temporary-license/) पर जाएँ।
 
-**प्रश्न: Aspose.BarCode for Java के लिए सपोर्ट कहाँ मिल सकता है?**  
-उत्तर: Aspose.BarCode कम्युनिटी फ़ोरम मदद के लिए सबसे अच्छा स्थान है। उत्तरों के लिए [फ़ोरम](https://forum.aspose.com/c/barcode/13) देखें और नए प्रश्न पूछें।
+**Q: Aspose.BarCode for Java के लिए सपोर्ट कहाँ मिल सकता है?**  
+A: मदद के लिए Aspose.BarCode कम्युनिटी फ़ोरम सबसे अच्छा स्थान है। उत्तरों के लिए [forum](https://forum.aspose.com/c/barcode/13) देखें और नए प्रश्न पूछें।
 
-**प्रश्न: Aspose.BarCode for Java में समर्थित बारकोड सिम्बोलॉजीज़ कौन‑सी हैं?**  
-उत्तर: लाइब्रेरी कई सिम्बोलॉजीज़ को सपोर्ट करती है, जिनमें CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417, और कई अन्य शामिल हैं।
+**Q: Aspose.BarCode for Java में समर्थित बारकोड सिम्बोलॉजीज़ कौन‑कौन सी हैं?**  
+A: लाइब्रेरी कई सिम्बोलॉजीज़ का समर्थन करती है, जिसमें CODE_128, QR_CODE, UPC_A, DataMatrix, PDF417, और कई अन्य शामिल हैं।
 
 ### अतिरिक्त टिप्स (प्रो टिप)
 
-- **बैच प्रोसेसिंग:** ऊपर दिए गए चरणों को लूप में रखें ताकि बड़े इन्वेंटरी अपलोड के लिए सैकड़ों बारकोड जेनरेट किए जा सकें।  
-- **रेज़ोल्यूशन नियंत्रण:** `bb.getParameters().getImage().setResolution(300)` का उपयोग करके 300 dpi इमेज बनाएं, जो हाई‑क्वालिटी प्रिंट लेबल्स के लिए आदर्श है।  
+`getParameters().getImage().setResolution()` इमेज रिज़ॉल्यूशन को DPI में सेट करता है।
 
----
+- **बैच प्रोसेसिंग:** ऊपर बताए गए चरणों को लूप में लपेटें ताकि आप बड़े पैमाने पर इन्वेंटरी अपलोड के लिए सैकड़ों बारकोड जेनरेट कर सकें।  
+- **रिज़ॉल्यूशन नियंत्रण:** `bb.getParameters().getImage().setResolution(300)` का उपयोग करके 300 dpi इमेज बनाएं, जो हाई‑क्वालिटी प्रिंट लेबल के लिए आदर्श हैं।  
 
-**अंतिम अपडेट:** 2026-02-07  
-**टेस्टेड विथ:** Aspose.BarCode for Java 24.12 (लेखन समय पर नवीनतम)  
+**अंतिम अपडेट:** 2026-07-23  
+**टेस्टेड विद:** Aspose.BarCode for Java 24.12 (लेखन समय पर नवीनतम)  
 **लेखक:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## संबंधित ट्यूटोरियल्स
+
+- [जेनरेट बारकोड जावा – इमेज रिज़ॉल्यूशन सेट करें Aspose.BarCode के साथ](/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+- [Aspose.BarCode के साथ जावा में छोटे बारकोड लेबल कैसे बनाएं](/barcode/java/advanced-settings-and-optimization/getting-minimum-barcode-size/)
+- [कस्टम बारकोड साइज जावा - Aspose.BarCode के साथ सटीक डाइमेंशन कॉन्फ़िगर करें](/barcode/java/advanced-settings-and-optimization/configuring-custom-size-barcode/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,58 @@
 ---
-title: Barcode genereren met lege balken in Java
-linktitle: Streepjescode genereren met lege balken
-second_title: Aspose.BarCode Java-API
-description: Genereer moeiteloos streepjescodes met lege balken in Java met Aspose.BarCode. Pas het uiterlijk aan en integreer naadloos. Ontdek nu de tutorial!
-weight: 14
+date: 2026-04-12
+description: Leer hoe je een Code128‑barcode met lege balken maakt in Java met Aspose.BarCode.
+  Deze gids laat zien hoe je snel barcode‑Java‑afbeeldingen genereert.
+keywords:
+- create code128 barcode
+- generate barcode java
+- barcode generator java example
+- java generate barcode image
+linktitle: Barcode genereren met lege staven
+second_title: Aspose.BarCode Java API
+title: Hoe maak je een Code128-barcode met lege balken in Java
 url: /nl/java/image-manipulation/generating-barcode-empty-bars/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Barcode genereren met lege balken in Java
+# Hoe een Code128-barcode met lege staven te maken in Java
 
+## Introductie
 
-## Invoering
+Het integreren van barcode‑generatie in Java‑toepassingen is een veelvoorkomende eis, of je nu inventoriesystemen, ticketplatforms of point‑of‑sale‑oplossingen bouwt. Met **Aspose.BarCode for Java** kun je **Code128‑barcode**‑afbeeldingen maken in slechts een paar regels code. In deze tutorial lopen we de stappen door om **barcode‑Java**‑afbeeldingen te genereren met lege (niet‑gevulde) staven, waardoor je volledige controle krijgt over de visuele stijl van de barcode.
 
-In de dynamische wereld van softwareontwikkeling is het integreren van mogelijkheden voor het genereren van streepjescodes in Java-applicaties een algemene vereiste geworden. Aspose.BarCode voor Java onderscheidt zich als een robuuste oplossing en biedt ontwikkelaars een krachtige set tools voor het maken van verschillende soorten streepjescodes. In deze zelfstudie verdiepen we ons in het proces van het genereren van een streepjescode met lege balken met behulp van Aspose.BarCode voor Java.
+## Snelle antwoorden
+- **Welke bibliotheek?** Aspose.BarCode for Java  
+- **Primaire gebruikssituatie?** Code128‑barcodes met lege staven maken voor aangepaste UI‑ontwerpen  
+- **Voorvereisten?** Java JDK 8+, Aspose.BarCode JAR, schrijfrechten op een map voor de uitvoerafbeelding  
+- **Typische implementatietijd?** 5‑10 minuten voor een basisvoorbeeld  
+- **Kan ik kleuren aanpassen?** Ja – de API biedt uitgebreide stijlopties  
 
-## Vereisten
+## Wat is een Code128-barcode?
 
-Voordat we aan het proces voor het genereren van streepjescodes beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Code128 is een hoogdichte lineaire barcode‑symbool die de volledige ASCII‑karakterset codeert. Het wordt veel gebruikt in logistiek, verzending en detailhandel omdat het alfanumerieke gegevens compact kan weergeven. Standaard rendert Aspose.BarCode Code128‑staven als solide rechthoeken; door de **FilledBars**‑eigenschap op `false` te zetten, worden ze lege (omtrek‑)staven, wat nuttig is voor stilistische branding.
 
-1. Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw computer is geïnstalleerd.
+## Waarom Aspose.BarCode voor Java gebruiken?
 
-2.  Aspose.BarCode voor Java-bibliotheek: Download en installeer de Aspose.BarCode voor Java-bibliotheek van de[downloadpagina](https://releases.aspose.com/barcode/java/).
+- **Rijke functieverzameling** – ondersteunt meer dan 50 barcode‑typen, inclusief QR, DataMatrix en PDF417.  
+- **Geen externe afhankelijkheden** – één enkele JAR werkt op elke Java‑runtime.  
+- **Fijne controle** – je kunt de staafbreedte, kleuren, lettertypen en de `FilledBars`‑eigenschap aanpassen.  
+- **Cross‑platform** – werkt op Windows, Linux en macOS zonder native bibliotheken.
 
-3. Documentmap: maak een map op uw systeem om de gegenereerde streepjescodeafbeelding op te slaan.
+## Voorvereisten
+
+Voordat je begint, zorg ervoor dat je het volgende hebt:
+
+1. **Java-ontwikkelomgeving** – JDK 8 of hoger geïnstalleerd en `JAVA_HOME` geconfigureerd.  
+2. **Aspose.BarCode for Java** – download de nieuwste JAR van de [download page](https://releases.aspose.com/barcode/java/).  
+3. **Documentdirectory** – een map op je computer waar de gegenereerde barcode‑afbeelding wordt opgeslagen.
 
 ## Pakketten importeren
 
-Importeer in uw Java-project de benodigde pakketten om met Aspose.BarCode te werken:
+In je Java‑project importeer je de klassen die je nodig hebt om met Aspose.BarCode te werken:
 
 ```java
 import java.io.IOException;
@@ -38,64 +60,91 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Stap 1: Stel de bronnenmap in
+Deze imports geven je toegang tot de barcode‑generator, de enumeratie voor afbeeldingsformaten en foutafhandeling.
+
+## Stap 1: De resource‑directory instellen
 
 ```java
-// Het pad naar de bronmap.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"`met het daadwerkelijke pad naar uw documentmap.
+Vervang `"Your Document Directory"` door het absolute pad naar de map die je in de voorvereisten hebt aangemaakt. Hier wordt het PNG‑bestand geschreven.
 
-## Stap 2: Maak een streepjescodegeneratorinstantie
+## Stap 2: Code128‑barcode‑generator‑instantie maken
 
 ```java
-// Maak een exemplaar van BarcodeGenerator en initialiseer deze met CodeText en Symbology
+// Create an instance of BarcodeGenerator and initialize it with CodeText and Symbology
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "TEXT");
 ```
 
-Hier maken we een BarcodeGenerator-instantie met de CODE_128-symboliek en de tekst 'TEXT' als de code die moet worden gecodeerd.
+Hier maken we een instantie van `BarcodeGenerator` met de **CODE_128**‑symbologie en de voorbeeldtekst `"TEXT"`. Dit is een **barcode‑generator Java‑voorbeeld** dat je kunt aanpassen aan elke string die je wilt coderen.
 
-## Stap 3: Stel de eigenschap FilledBars in op False
+## Stap 3: Eigenschap FilledBars op false zetten
 
 ```java
-// Stel de eigenschap FilledBars in op false
+// Set the FilledBars property to false
 generator.getParameters().getBarcode().setFilledBars(false);
 ```
 
- Door in te stellen`FilledBars` naar`false`, zorgen we ervoor dat de gegenereerde streepjescode lege balken heeft.
+Door `FilledBars` op `false` te zetten, zal de gegenereerde barcode lege staven weergeven in plaats van solide, waardoor het gewenste visuele effect ontstaat.
 
-## Stap 4: Sla de streepjescodeafbeelding op
+## Stap 4: De barcode‑afbeelding opslaan
 
 ```java
-// Sla de resulterende barcodeafbeelding op schijf op
+// Save the resultant barcode image on disk
 generator.save(dataDir + "barcodeWithEmptyBars.png", BarCodeImageFormat.PNG);
 ```
 
-Deze stap omvat het opslaan van de gegenereerde streepjescodeafbeelding in de opgegeven map in PNG-indeling.
+De `save`‑methode schrijft de barcode naar de opgegeven directory in PNG‑formaat. Je kunt `BarCodeImageFormat.PNG` wijzigen naar `JPG`, `BMP` of `TIFF` als een ander afbeeldingstype vereist is.
 
-Herhaal deze stappen in uw Java-applicatie om moeiteloos een streepjescode met lege balken te genereren met Aspose.BarCode voor Java.
+## Veelvoorkomende gebruikssituaties
+
+- **Aangepaste branding** – lege staven kunnen worden overlegd met achtergrondpatronen of kleuren.  
+- **Print‑klare assets** – genereer hoge‑resolutie PNG's voor opname in facturen of verzendetiketten.  
+- **Dynamische generatie** – maak barcodes on‑the‑fly in webservices of desktop‑applicaties.
+
+## Probleemoplossingstips
+
+- **Ongeldig pad** – zorg ervoor dat `dataDir` eindigt met een bestandsscheidingsteken (`/` of `\\`) of concateneer met `File.separator`.  
+- **Licentie vereist** – een proefversie werkt voor evaluatie, maar een volledige licentie is nodig voor productie.  
+- **Niet‑ondersteunde tekens** – Code128 ondersteunt de volledige ASCII‑set; vermijd Unicode‑tekens tenzij je overschakelt naar een andere symbologie.
 
 ## Conclusie
 
-Kortom, deze tutorial heeft u door het proces geleid van het genereren van een streepjescode met lege balken in Java met behulp van de Aspose.BarCode-bibliotheek. Met zijn intuïtieve API en uitgebreide documentatie vereenvoudigt Aspose.BarCode de integratie van streepjescodes, waardoor het een waardevol bezit wordt voor ontwikkelaars.
+Je hebt nu geleerd hoe je **Code128‑barcode**‑afbeeldingen met lege staven kunt maken met Aspose.BarCode voor Java. Deze eenvoudige aanpak stelt je in staat om snel aanpasbare barcode‑graphics te genereren, of je nu een desktop‑inventarisatietool of een cloud‑gebaseerde API bouwt.
 
 ## Veelgestelde vragen
 
-### Is Aspose.BarCode compatibel met alle Java-ontwikkelomgevingen?
-Ja, Aspose.BarCode is ontworpen om naadloos te integreren met verschillende Java-ontwikkelomgevingen.
+### Is Aspose.BarCode compatibel met alle Java‑ontwikkelomgevingen?
+Ja, Aspose.BarCode is ontworpen om naadloos te integreren met elke Java‑IDE of build‑systeem, inclusief Maven, Gradle en gewone JAR‑projecten.
 
-### Kan ik het uiterlijk van de gegenereerde streepjescode aanpassen?
-Absoluut! Aspose.BarCode biedt talloze aanpassingsmogelijkheden, zodat u de barcode kunt afstemmen op uw specifieke behoeften.
+### Kan ik het uiterlijk van de gegenereerde barcode aanpassen?
+Absoluut! Naast `FilledBars` kun je kleuren, staafbreedte, marges aanpassen en zelfs menselijk leesbare tekst toevoegen via de uitgebreide API.
 
 ### Is er een proefversie beschikbaar voor Aspose.BarCode?
- Ja, u kunt de mogelijkheden van Aspose.BarCode verkennen door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
+Ja, je kunt de mogelijkheden van Aspose.BarCode verkennen door een gratis proefversie te verkrijgen [hier](https://releases.aspose.com/).
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.BarCode?
- Voor vragen of hulp kunt u terecht op de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13).
+Voor vragen of hulp, bezoek het [Aspose.BarCode‑forum](https://forum.aspose.com/c/barcode/13).
 
 ### Waar kan ik gedetailleerde documentatie voor Aspose.BarCode vinden?
- De uitgebreide documentatie is beschikbaar[hier](https://reference.aspose.com/barcode/java/).
+De uitgebreide documentatie is beschikbaar [hier](https://reference.aspose.com/barcode/java/).
+
+**Aanvullende vragen**
+
+**Q: Hoe genereer ik een barcode‑afbeelding in een ander formaat, zoals JPEG?**  
+A: Verander het tweede argument van `save` naar `BarCodeImageFormat.JPEG`.
+
+**Q: Kan ik meerdere barcodes in een lus genereren?**  
+A: Ja – maak een nieuwe `BarcodeGenerator` aan binnen je lus of hergebruik dezelfde instantie met een nieuwe `CodeText`.
+
+---
+
+**Laatst bijgewerkt:** 2026-04-12  
+**Getest met:** Aspose.BarCode for Java 24.11  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

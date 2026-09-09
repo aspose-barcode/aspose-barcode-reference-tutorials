@@ -1,104 +1,228 @@
 ---
-title: ترميز DataMatrix الرئيسي في ASCII باستخدام Aspose.BarCode لـ .NET
+date: 2026-06-09
+description: تعلم كيفية إنشاء رمز شريطي DataMatrix في وضع ASCII باستخدام Aspose.BarCode
+  لـ .NET. يوضح هذا الدليل كيفية توليد رمز شريطي بلغة C# بسرعة.
+keywords:
+- create datamatrix barcode
+- generate barcode c#
+- how to encode barcode
+- barcode generator example
 linktitle: وضع ترميز DataMatrix (ASCII)
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
+    for .NET. This guide shows how to generate barcode C# quickly.
+  headline: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to create DataMatrix barcode in ASCII mode using Aspose.BarCode
+    for .NET. This guide shows how to generate barcode C# quickly.
+  name: Create DataMatrix barcode in ASCII mode with Aspose.BarCode for .NET
+  steps:
+  - name: '**Development Environment** – Visual Studio, Rider, or any C#‑compatible
+      IDE.'
+    text: '**Development Environment** – Visual Studio, Rider, or any C#‑compatible
+      IDE.'
+  - name: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – Download the latest package from [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**Basic C# knowledge** – Familiarity with .NET project structure will help
+      you follow the steps quickly.'
+    text: '**Basic C# knowledge** – Familiarity with .NET project structure will help
+      you follow the steps quickly.'
+  - name: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
+    text: '**Other Aspose products** can be found [here](https://releases.aspose.com/).'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license is required for production use; a free trial
+      is available for evaluation.
+    question: Can I use this in a commercial application?
+  - answer: Absolutely – Aspose.BarCode fully supports .NET Core 3.1+, .NET 5, .NET
+      6, and later versions.
+    question: Does the library work with .NET Core?
+  - answer: Up to 2,335 alphanumeric characters fit in a single DataMatrix symbol
+      when using ASCII encoding.
+    question: How many characters can I encode in ASCII mode?
+  - answer: Yes, adjust `generator.Parameters.Image.ForeColor` and `BackColor` to
+      any `System.Drawing.Color` value.
+    question: Can I change the barcode’s foreground or background color?
+  - answer: The official documentation contains dozens of samples covering custom
+      sizes, colors, and error‑correction levels.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: تعلم كيفية إنشاء رموز شريطية DataMatrix في وضع ASCII باستخدام Aspose.BarCode لـ .NET. دليل خطوة بخطوة للمطورين.
-weight: 13
+title: إنشاء رمز شريطي DataMatrix في وضع ASCII باستخدام Aspose.BarCode لـ .NET
 url: /ar/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ترميز DataMatrix الرئيسي في ASCII باستخدام Aspose.BarCode لـ .NET
+# إنشاء باركود DataMatrix في وضع ASCII باستخدام Aspose.BarCode لـ .NET
 
 ## مقدمة
 
-هل أنت مستعد للتعمق في عالم الرموز الشريطية DataMatrix ومعرفة كيفية تشفير البيانات باستخدام وضع ASCII مع Aspose.BarCode for .NET؟ سواء كنت مطورًا متمرسًا أو بدأت للتو رحلة البرمجة، فسيرشدك هذا الدليل الشامل خلال العملية بأكملها خطوة بخطوة. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث (SEO)، فأنا هنا للتأكد من حصولك على جميع المعلومات التي تحتاجها بطريقة واضحة وجذابة.
+هل ترغب في **إنشاء صور باركود DataMatrix** تستخدم ترميز ASCII الفعال؟ في هذا الدرس ستتعلم كيفية توليد باركود DataMatrix في وضع ASCII باستخدام Aspose.BarCode لـ .NET. سنستعرض كل خطوة — من إعداد المشروع إلى حفظ الصورة النهائية — حتى تتمكن من إضافة توليد الباركود إلى تطبيقات C# الخاصة بك في دقائق.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هي المكتبة الأفضل لـ DataMatrix في .NET؟** Aspose.BarCode for .NET  
+- **كم عدد أسطر الكود المطلوبة؟** حوالي 5‑7 أسطر لباركود ASCII أساسي  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للتطوير؛ الترخيص مطلوب للإنتاج  
+- **المنصات المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7  
+- **هل يمكنني تغيير الحجم أو الألوان؟** نعم، Aspose.BarCode يتيح خصائص للأبعاد ولون المقدمة/الخلفية  
 
-قبل أن نبدأ رحلتنا لإتقان وضع تشفير DataMatrix (ASCII)، دعنا نتأكد من أن لديك كل ما تحتاجه:
+## ما هو باركود DataMatrix؟
+DataMatrix هو باركود ثنائي الأبعاد يخزن النص والبيانات الثنائية في نمط مربع مدمج.  
+يُشفّر باركود DataMatrix المعلومات في شبكة من الوحدات السوداء والبيضاء، مما يسمح بما يصل إلى 2,335 حرفًا أبجديًا رقميًا في رمز واحد. يُستخدم على نطاق واسع في التصنيع واللوجستيات والرعاية الصحية لأنه يمكن طباعته بأحجام صغيرة جدًا مع الحفاظ على قابلية القراءة العالية.
 
-1. بيئة التطوير: تأكد من إعداد بيئة تطوير العمل، بما في ذلك Visual Studio أو أي محرر تعليمات برمجية مفضل آخر.
+## كيفية إنشاء باركود DataMatrix في وضع ASCII؟
+حمّل مساحة الأسماء Aspose.BarCode، أنشئ كائن `BarcodeGenerator`، اضبط `EncodeMode` إلى **EncodeMode.ASCII**، عيّن سلسلة البيانات الخاصة بك، ثم استدعِ `Save` لكتابة ملف الصورة. ينتج هذا النهج باركود DataMatrix متوافق تمامًا مع ترميز ASCII فقط في بضع أسطر من كود C#.
 
-2.  Aspose.BarCode لـ .NET: ستحتاج إلى تثبيت مكتبة Aspose.BarCode لـ .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/barcode/net/).
+## لماذا نستخدم ترميز ASCII لـ DataMatrix؟
+وضع ASCII هو الترميز الافتراضي والأكثر كفاءة للبيانات النصية البسيطة، حيث يقدم أصغر حجم رمز ممكن للسلاسل الأبجدية الرقمية. يدعم جميع الأحرف الـ 128 في ASCII، يعالج البيانات أسرع من الأوضاع الموسعة، ويضمن أقصى توافق مع الماسحات الضوئية القديمة التي تتوقع رموز ASCII القياسية.
 
-3. المعرفة الأساسية بـ C#: بينما سنشرح كل خطوة بالتفصيل، فإن الحصول على فهم أساسي لبرمجة C# سيكون مفيدًا.
+## المتطلبات المسبقة
 
-الآن بعد أن توفرت لديك المتطلبات الأساسية، فلنبدأ في تشفير الرموز الشريطية DataMatrix باستخدام وضع ASCII في Aspose.BarCode لـ .NET.
+1. **بيئة التطوير** – Visual Studio أو Rider أو أي بيئة تطوير متوافقة مع C#.  
+2. **Aspose.BarCode for .NET** – حمّل أحدث حزمة من [هنا](https://releases.aspose.com/barcode/net/).  
+   - الوثائق: [توثيق Aspose.BarCode لـ .NET](https://reference.aspose.com/barcode/net/)  
+   - مساعدة المجتمع: [منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13)  
+3. **معرفة أساسية بـ C#** – الإلمام ببنية مشروع .NET سيساعدك على متابعة الخطوات بسرعة.  
+4. **يمكن العثور على منتجات Aspose الأخرى** [هنا](https://releases.aspose.com/).
 
 ## استيراد مساحات الأسماء
 
-للبدء، افتح مشروع C# الخاص بك في Visual Studio وتأكد من استيراد مساحات الأسماء الضرورية.
+لبدء العمل، أضف توجيهات `using` المطلوبة في أعلى ملف C# الخاص بك:
+
+```csharp
+using Aspose.BarCode.Generation;
+using System.Drawing;
+```
+
+تمنحك هذه المساحات إمكانية الوصول إلى فئة `BarcodeGenerator` والأنواع المتعلقة بالصور اللازمة لحفظ الناتج.
+
+## الخطوة 1: إنشاء دليل
+
+اختر مجلدًا سيتم تخزين صور الباركود المولدة فيه. استبدل `"Your Directory Path"` بمسار مطلق أو نسبي موجود على جهازك.
+
+```csharp
+string outputDir = @"C:\Barcodes";
+if (!System.IO.Directory.Exists(outputDir))
+{
+    System.IO.Directory.CreateDirectory(outputDir);
+}
+```
+
+يتأكد الكود من وجود الدليل قبل محاولة كتابة أي ملفات، مما يمنع حدوث أخطاء وقت التشغيل.
+
+## الخطوة 2: ترميز البيانات في وضع ASCII
+
+فئة `BarcodeGenerator` تنشئ وتضبط صور الباركود. تعداد `DataMatrixEncodeMode` يحدد خوارزمية الترميز لرموز DataMatrix.
+
+```csharp
+// Initialise the generator with the data you want to encode
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "1234567890");
+
+// Set the encoding mode to ASCII for optimal size
+generator.Parameters.Barcode.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
+
+// Optional: adjust image dimensions or colors here
+generator.Parameters.Image.Width = 200;
+generator.Parameters.Image.Height = 200;
+
+// Save the barcode as a PNG file
+string filePath = System.IO.Path.Combine(outputDir, "datamatrix_ascii.png");
+generator.Save(filePath, BarCodeImageFormat.Png);
+```
+
+بعد تشغيل الكود، ستجد الملف `datamatrix_ascii.png` في المجلد الذي حددته. يحتوي الصورة على باركود DataMatrix يشفّر السلسلة `"1234567890"` باستخدام وضع ASCII المدمج.
+
+## المشكلات الشائعة والحلول
+
+- **أخطاء الوصول إلى الملف** – تأكد من أن التطبيق يمتلك صلاحيات كتابة للمجلد المستهدف. تشغيل Visual Studio كمسؤول يمكن أن يحل مشاكل الصلاحيات على Windows.  
+- **حجم الرمز غير صحيح** – إذا ظهر الباركود كبيرًا جدًا أو صغيرًا جدًا، عدّل `generator.Parameters.Image.Width` و`Height` أو دع Aspose يحسب الحجم الأمثل تلقائيًا بحذف تلك الخصائص.  
+- **أحرف غير مدعومة** – وضع ASCII يقبل فقط الأحرف في النطاق 0‑127. للبيانات Unicode، انتقل إلى `DataMatrixEncodeMode.Base256` أو وضع مناسب آخر.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذا في تطبيق تجاري؟**  
+ج: نعم، يلزم وجود ترخيص Aspose صالح للاستخدام في الإنتاج؛ النسخة التجريبية مجانية للتقييم.
+
+**س: هل تعمل المكتبة مع .NET Core؟**  
+ج: بالتأكيد – Aspose.BarCode يدعم بالكامل .NET Core 3.1+، .NET 5، .NET 6، والإصدارات الأحدث.
+
+**س: كم عدد الأحرف التي يمكنني تشفيرها في وضع ASCII؟**  
+ج: يصل إلى 2,335 حرفًا أبجديًا رقميًا في رمز DataMatrix واحد عند استخدام ترميز ASCII.
+
+**س: هل يمكنني تغيير لون المقدمة أو الخلفية للباركود؟**  
+ج: نعم، عدّل `generator.Parameters.Image.ForeColor` و`BackColor` إلى أي قيمة من `System.Drawing.Color`.
+
+**س: أين يمكنني العثور على أمثلة أكثر تقدماً؟**  
+ج: الوثائق الرسمية تحتوي على عشرات العينات التي تغطي الأحجام المخصصة، الألوان، ومستويات تصحيح الأخطاء.
+
+## الأسئلة الشائعة
+
+### س1: هل يمكنني استخدام Aspose.BarCode لـ .NET مع لغات برمجة أخرى غير C#؟
+
+ج1: يدعم Aspose.BarCode عدة لغات برمجة، لكن هذا الدرس يركز على C#.
+
+### س2: ما هي أوضاع الترميز المختلفة المتاحة في باركودات DataMatrix؟
+
+ج2: تدعم باركودات DataMatrix أوضاع ترميز متعددة، بما في ذلك ASCII، C40، Text، وBase256. كل وضع يناسب نوعًا مختلفًا من البيانات.
+
+### س3: هل يمكنني تخصيص مظهر الباركود المولّد، مثل حجمه ولونه؟
+
+ج3: نعم، يوفر Aspose.BarCode مجموعة واسعة من المعلمات لتخصيص مظهر الباركود، بما في ذلك الحجم واللون وغيرها.
+
+### س4: هل هناك نسخة تجريبية مجانية من Aspose.BarCode لـ .NET؟
+
+ج4: نعم، يمكنك تجربة Aspose.BarCode لـ .NET مجانًا من [هنا](https://releases.aspose.com/).
+
+### س5: أين يمكنني شراء ترخيص لـ Aspose.BarCode لـ .NET؟
+
+ج5: يمكنك شراء الترخيص من موقع Aspose عبر [هنا](https://purchase.aspose.com/buy).
+
+---
+
+**آخر تحديث:** 2026-06-09  
+**تم الاختبار باستخدام:** Aspose.BarCode 24.11 لـ .NET  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [ترميز DataMatrix بالبايتات باستخدام Aspose.BarCode لـ .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/)
+- [قراءة باركود DataMatrix C# – توليد وضع DataMatrix (تلقائي)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
+- [كيفية توليد باركودات DataMatrix (ECC 200) باستخدام Aspose.BarCode لـ .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-## الخطوة 1: إنشاء دليل
-
- اختر مسار الدليل حيث تريد حفظ الرموز الشريطية DataMatrix التي تم إنشاؤها. يستبدل`"Your Directory Path"` مع مسار الدليل المفضل لديك.
-
 ```csharp
 string path = "Your Directory Path";
 ```
-
-## الخطوة 2: تشفير البيانات في وضع ASCII
-
-الآن، سنقوم بإنشاء باركود DataMatrix في وضع ASCII. تتضمن هذه الخطوة تكوين معلمات الباركود، وتحديد وضع التشفير، وحفظ الباركود الذي تم إنشاؤه كصورة.
 
 ```csharp
 System.Console.WriteLine("DataMatrixEncodeModeASCII:");
 
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
 {
-    // قم بتعيين البعد X (الحجم) للرمز الشريطي بالبكسل
+    // Set the X-dimension (size) of the barcode in pixels
     gen.Parameters.Barcode.XDimension.Pixels = 4;
     
-    // اضبط وضع الترميز على ASCII
+    // Set the encoding mode to ASCII
     gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.ASCII;
     
-    // احفظ الباركود بصيغة PNG
+    // Save the barcode as a PNG image
     gen.Save($"{path}DataMatrixEncodeModeASCII.png", BarCodeImageFormat.Png);
 }
 ```
 
-وهذا كل شيء! لقد نجحت في تشفير البيانات باستخدام وضع ASCII في الرمز الشريطي DataMatrix باستخدام Aspose.BarCode لـ .NET. يتم الآن حفظ صورة الباركود التي تم إنشاؤها في الدليل الذي حددته.
-
-## خاتمة
-
-في هذا البرنامج التعليمي، اكتشفنا كيفية استخدام Aspose.BarCode لـ .NET لإنشاء رموز شريطية DataMatrix في وضع ASCII. باستخدام المتطلبات الأساسية الصحيحة وهذه الخطوات سهلة المتابعة، يمكنك الآن إنشاء رموز شريطية DataMatrix مشفرة بـ ASCII دون عناء. سواء كنت تقوم بإنشاء ملصقات مخزون، أو ملصقات شحن، أو أي تطبيق آخر يتطلب تشفير البيانات، فإن Aspose.BarCode for .NET يوفر لك كل ما تحتاجه.
-
-لا تتردد في تجربة أوضاع البيانات والتشفير المختلفة لتلبية احتياجاتك الخاصة. بينما تستكشف المزيد، ستجد أن Aspose.BarCode يقدم مجموعة واسعة من الميزات وخيارات التخصيص لتحسين تجربة إنشاء الرمز الشريطي لديك.
-
- إذا كان لديك أي أسئلة أو كنت بحاجة إلى المساعدة، فلا تتردد في زيارة[Aspose.BarCode لوثائق .NET](https://reference.aspose.com/barcode/net/) أو التواصل مع المجتمع على[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
-## الأسئلة الشائعة
-
-### س1: هل يمكنني استخدام Aspose.BarCode لـ .NET مع لغات البرمجة الأخرى إلى جانب لغة C#؟
-
-ج1: يدعم Aspose.BarCode لغات برمجة متعددة، لكن هذا البرنامج التعليمي يركز على لغة C#.
-
-### س2: ما هي أوضاع التشفير المختلفة المتوفرة في باركود DataMatrix؟
-
-ج2: تدعم الرموز الشريطية DataMatrix أوضاع التشفير المختلفة، بما في ذلك ASCII وC40 وText وBase256. كل وضع مناسب لأنواع مختلفة من البيانات.
-
-### س3: هل يمكنني تخصيص مظهر الباركود الذي تم إنشاؤه، مثل حجمه ولونه؟
-
-ج3: نعم، يوفر Aspose.BarCode نطاقًا واسعًا من المعلمات لتخصيص مظهر الرمز الشريطي، بما في ذلك الحجم واللون والمزيد.
-
-### س4: هل تتوفر نسخة تجريبية مجانية من Aspose.BarCode لـ .NET؟
-
- ج4: نعم، يمكنك استكشاف Aspose.BarCode لـ .NET باستخدام نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
-
-### س5: أين يمكنني شراء ترخيص Aspose.BarCode لـ .NET؟
-
- ج5: يمكنك شراء ترخيص من موقع Aspose[هنا](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

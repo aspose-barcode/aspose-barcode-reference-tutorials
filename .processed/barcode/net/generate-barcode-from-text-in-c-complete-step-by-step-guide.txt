@@ -1,0 +1,7 @@
+Title: Generate barcode from text in C# – complete step‑by‑step guide
+Slug: generate-barcode-from-text-in-c-complete-step-by-step-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-08-09T18:29:51.135606
+SourceRepo: AI Search API
+Keywords: generate barcode from text, how to generate barcode, barcode with special characters, barcode encode types, create pdf417 barcode c#
+PRNumber: 95
