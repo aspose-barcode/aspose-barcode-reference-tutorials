@@ -199,6 +199,18 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [Ρύθμιση μεγέθους barcode – Οδηγός C# για δημιουργία PDF417 barcode](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 Μάθετε πώς να προσαρμόσετε το μέγεθος των PDF417 barcode σε C# με το Aspose.BarCode.
 
+### [Γραμμωτός κώδικας με ειδικούς χαρακτήρες – Πλήρης οδηγός δημιουργίας PDF417 με το Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
+Μάθετε πώς να δημιουργείτε PDF417 με ειδικούς χαρακτήρες χρησιμοποιώντας το Aspose.BarCode for .NET. Αναλυτικός οδηγός με παραδείγματα κώδικα.
+
+### [Δημιουργία PDF417 Barcode σε .NET – Πλήρης Οδηγός Προγραμματισμού](./create-pdf417-barcode-in-net-complete-programming-guide/)
+Μάθετε πώς να δημιουργήσετε πλήρη PDF417 barcode σε .NET με αναλυτικές οδηγίες προγραμματισμού και παραδείγματα κώδικα.
+
+### [Δημιουργία barcode με δεδομένα σε C# – Οδηγός βήμα‑βήμα](./create-barcode-with-data-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε barcode με προσαρμοσμένα δεδομένα σε C# μέσα από έναν πλήρη οδηγό βήμα‑βήμα.
+
+### [Πώς να διαβάσετε PDF417 σε C# – Πλήρες Παράδειγμα Barcode](./how-to-read-pdf417-in-c-complete-barcode-example/)
+Μάθετε πώς να διαβάσετε κώδικες PDF417 σε C# με ένα πλήρες παράδειγμα barcode.
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Ποιο είναι το μέγιστο ποσό δεδομένων που μπορώ να αποθηκεύσω σε έναν Compact PDF417 γραμμωτό κώδικα;**  

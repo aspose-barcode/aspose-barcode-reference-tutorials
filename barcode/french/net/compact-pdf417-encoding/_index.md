@@ -211,6 +211,18 @@ Apprenez à créer un code-barres PDF417 en C# avec Aspose.BarCode, incluant les
 ### [Ajuster la taille du code-barres – Guide C# pour générer des codes-barres PDF417](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 Apprenez à modifier la taille des codes-barres PDF417 en C# avec Aspose.BarCode, incluant les paramètres de dimension et de mise à l’échelle.
 
+### [Code-barres avec caractères spéciaux – Guide complet pour générer PDF417 avec Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
+Apprenez à créer des codes‑barres PDF417 contenant des caractères spéciaux avec Aspose.BarCode, incluant des exemples et meilleures pratiques.
+
+### [Créer un code-barres PDF417 en .NET – Guide complet de programmation](./create-pdf417-barcode-in-net-complete-programming-guide/)
+Apprenez à générer des codes‑barres PDF417 en .NET avec un guide détaillé, incluant le code complet et les meilleures pratiques.
+
+### [Créer un code-barres avec des données en C# – Guide étape par étape](./create-barcode-with-data-in-c-step-by-step-guide/)
+Apprenez à générer un code-barres à partir de données en C# avec Aspose.BarCode, en suivant un guide détaillé pas à pas.
+
+### [Comment lire le PDF417 en C# – Exemple complet de code-barres](./how-to-read-pdf417-in-c-complete-barcode-example/)
+Apprenez à décoder les codes‑barres PDF417 en C# avec un exemple complet, incluant la lecture, la validation et la gestion des erreurs.
+
 ## Questions fréquentes
 
 **Q : Quelle est la quantité maximale de données que je peux stocker dans un code‑barres Compact PDF417 ?**  
