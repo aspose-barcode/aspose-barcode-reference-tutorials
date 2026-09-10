@@ -82,6 +82,8 @@ Genereer eenvoudig aangepaste barcodes met Aspose.BarCode voor .NET. Stapsgewijz
 Leer hoe u met Aspose.BarCode in C# barcodes maakt vanuit tekst, stap voor stap.
 ### [Hoe een barcode te genereren in C# – Complete programmeergids](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Leer stap voor stap hoe u barcodes genereert in C# met Aspose.BarCode, inclusief codevoorbeelden en configuratieopties.
+### [Hoe barcode-parameters in C# instellen met Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Leer hoe u barcode-parameters configureert in C# met Aspose.BarCode voor optimale resultaten.
 
 ## Conclusie
 

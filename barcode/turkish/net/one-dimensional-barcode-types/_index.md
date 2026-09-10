@@ -82,6 +82,8 @@ Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. T
 Aspose.BarCode kullanarak C# ile metinden barkod oluşturmayı öğrenin. Adım adım kılavuzumuzla kolayca başlayın.
 ### [C#'ta Barkod Oluşturma – Tam Programlama Kılavuzu](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Aspose.BarCode kullanarak C#'ta barkod oluşturmayı öğrenin. Adım adım tam bir programlama rehberi.
+### [C#'ta Aspose.BarCode Kullanarak Barkod Parametrelerini Ayarlama](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Aspose.BarCode ile C#'ta barkod parametrelerini nasıl ayarlayacağınızı öğrenin.
 
 ## Çözüm
 

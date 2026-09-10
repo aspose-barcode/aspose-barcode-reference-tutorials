@@ -166,11 +166,11 @@ C#을 사용해 PDF417 바코드를 읽고 디코딩하는 전체 과정을 단�
 ### [C#에서 PDF417 바코드 만들기 – 완전 프로그래밍 가이드](./create-pdf417-barcode-in-c-complete-programming-guide/)
 ### [C#에서 PDF417 바코드 생성 – 완전 프로그래밍 가이드](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 ### [C#에서 PDF417 바코드 만들기 – 완전 단계별 가이드](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
-
+### [C#에서 PDF417 바코드 생성 – 완전 단계별 가이드](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
 ### [Aspose로 PDF417 바코드 만들기 – 완전 가이드](./create-pdf417-barcode-with-aspose-complete-guide/)
 Aspose.BarCode for .NET를 사용해 PDF417 바코드를 처음부터 끝까지 생성하는 전체 가이드입니다.
 
-### [C#에서 PDF417 읽는 방법 – 완전 바코드 리더 예제](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+### [C#에서 PDF417 바코드 읽는 방법 – 완전 바코드 리더 예제](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 Aspose.BarCode for .NET를 활용해 C#에서 PDF417 바코드를 읽는 전체 예제와 단계별 가이드를 제공합니다.
 
 ### [Aspose로 PDF417 바코드 만들기 – 완전 단계별 가이드](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
@@ -193,6 +193,8 @@ Aspose.BarCode for .NET를 사용해 C#에서 데이터를 입력해 바코드�
 
 ### [C#에서 PDF417 바코드 읽기 – 완전 바코드 예제](./how-to-read-pdf417-in-c-complete-barcode-example/)
 Aspose.BarCode for .NET를 사용해 C#에서 PDF417 바코드를 읽는 전체 예제를 제공합니다.
+
+### [C#에서 PDF417 바코드 생성 – 단계별 가이드](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 
 ## 자주 묻는 질문
 
@@ -220,6 +222,9 @@ A: 외부 폰트가 필요하지 않으며, 라이브러리가 내부적으로 �
 - [바코드 생성 방법 – Aspose.BarCode와 함께 Compact PDF417](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Aspose.BarCode for .NET 포괄적인 튜토리얼 및 예제](/barcode/net/)
 - [.NET에서 오류 정정이 포함된 Aztec 바코드 생성 방법](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [C#에서 Aspose.BarCode를 사용해 PDF417 바코드 생성 방법](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+- [C#에서 Compact 모드로 PDF417 바코드 생성 방법](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+- [이미지에서 바코드 디코딩 – C# 바코드 리더 예제](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,6 +82,8 @@ Générez facilement des codes-barres personnalisés avec Aspose.BarCode pour .N
 Apprenez à créer un code-barres à partir de texte en C# avec Aspose.BarCode. Guide étape par étape pour une intégration facile.
 ### [Comment générer un code-barres en C# – Guide complet de programmation](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Découvrez comment générer des codes-barres en C# avec Aspose.BarCode pour .NET. Suivez notre guide complet étape par étape.
+### [Comment définir les paramètres du code-barres en C# avec Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Apprenez à configurer les paramètres des codes-barres en C# avec Aspose.BarCode. Guide étape par étape pour une personnalisation facile.
 
 ## Conclusion
 

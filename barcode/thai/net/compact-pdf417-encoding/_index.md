@@ -140,6 +140,9 @@ Compact PDF417’s high data density and robust error correction make it suitabl
 - **License Exceptions:** ในสภาพแวดล้อมทดลอง, บาร์โค้ดที่สร้างอาจมีลายน้ำ. ใส่ไลเซนส์ที่ถูกต้องเพื่อเอาออก.
 
 ## บทแนะนำการเข้ารหัส Compact PDF417
+### [How to generate PDF417 barcodes in C# with Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+
+
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 เรียนรู้วิธีสร้างบาร์โค้ด Compact PDF417 ด้วย Aspose.BarCode for .NET คู่มือครบถ้วนพร้อมขั้นตอนและตัวอย่างโค้ด
 ### [สร้างเมตาดาต้าบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนเต็ม](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
@@ -194,6 +197,8 @@ Compact PDF417’s high data density and robust error correction make it suitabl
 เรียนรู้วิธีสร้างบาร์โค้ดจากข้อมูลใน C# ด้วยขั้นตอนทีละขั้นตอนโดยใช้ Aspose.BarCode for .NET
 ### [วิธีอ่าน PDF417 ใน C# – ตัวอย่างบาร์โค้ดครบถ้วน](./how-to-read-pdf417-in-c-complete-barcode-example/)
 เรียนรู้วิธีอ่านบาร์โค้ด PDF417 ด้วย C# พร้อมตัวอย่างโค้ดเต็มรูปแบบและการตั้งค่าที่จำเป็น
+### [วิธีสร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+วิธีสร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน
 
 ## คำถามที่พบบ่อย
 
@@ -223,7 +228,9 @@ A: No external fonts are required; the library handles all rendering internally.
 - [วิธีสร้างบาร์โค้ด – Compact PDF417 ด้วย Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [บทแนะนำและตัวอย่างครบถ้วนของ Aspose.BarCode สำหรับ .NET](/barcode/net/)
 - [วิธีสร้างบาร์โค้ด Aztec พร้อมการแก้ไขข้อผิดพลาดใน .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [วิธีสร้างบาร์โค้ด PDF417 ใน C# ด้วยโหมดคอมแพคท์](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+- [วิธีสร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+- [ถอดรหัสบาร์โค้ดจากภาพด้วยตัวอย่างอ่านบาร์โค้ด C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

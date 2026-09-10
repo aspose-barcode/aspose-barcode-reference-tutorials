@@ -82,6 +82,7 @@ Hasilkan kode batang khusus dengan mudah menggunakan Aspose.BarCode untuk .NET. 
 Pelajari cara menghasilkan barcode dari teks di .NET menggunakan Aspose.BarCode dengan contoh kode C#. Ikuti panduan langkah demi langkah kami.
 ### [Cara Membuat Barcode di C# – Panduan Pemrograman Lengkap](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Pelajari cara menghasilkan barcode di C# dengan panduan pemrograman lengkap menggunakan Aspose.BarCode untuk .NET.
+### [Cara Mengatur Parameter Barcode di C# menggunakan Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 
 ## Kesimpulan
 

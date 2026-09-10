@@ -82,6 +82,8 @@ Gere códigos de barras personalizados facilmente com Aspose.BarCode for .NET. G
 Aprenda a gerar códigos de barras a partir de texto em C# com Aspose.BarCode, passo a passo para integração rápida.
 ### [Como gerar código de barras em C# – Guia completo de programação](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Aprenda como gerar códigos de barras em C# usando Aspose.BarCode. Guia passo a passo para integração completa.
+### [Como definir parâmetros de código de barras em C# usando Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Aprenda a configurar parâmetros de códigos de barras em C# com Aspose.BarCode, passo a passo para personalização avançada.
 
 ## Conclusão
 

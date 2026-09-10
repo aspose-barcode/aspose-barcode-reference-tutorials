@@ -82,6 +82,8 @@ Az Aspose.BarCode for .NET segítségével egyszerűen hozhat létre testreszabo
 Ismerje meg, hogyan hozhat létre vonalkódot szövegből C#-ban az Aspose.BarCode használatával, lépésről lépésre útmutatóval.
 ### [Hogyan generáljunk vonalkódot C#-ban – Teljes programozási útmutató](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Ismerje meg, hogyan hozhat létre vonalkódokat C#-ban az Aspose.BarCode segítségével, lépésről lépésre útmutató.
+### [Hogyan állítsuk be a vonalkód paramétereit C#-ban az Aspose.BarCode használatával](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Ismerje meg, hogyan konfigurálhatja a vonalkód beállításait C#-ban az Aspose.BarCode segítségével.
 
 ## Következtetés
 

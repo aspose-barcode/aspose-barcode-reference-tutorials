@@ -82,6 +82,8 @@ url: /zh-hant/net/one-dimensional-barcode-types/
 了解如何使用 Aspose.BarCode 在 .NET 中透過 C# 從文字生成條碼，遵循簡明的分步指南。
 ### [如何在 C# 中產生條碼 – 完整程式設計指南](./how-to-generate-barcode-in-c-complete-programming-guide/)
 了解如何使用 Aspose.BarCode 在 .NET 中以 C# 完整生成條碼，提供逐步程式設計指南。
+### [如何在 C# 中使用 Aspose.BarCode 設定條碼參數](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+了解如何在 C# 中使用 Aspose.BarCode 設定條碼參數的步驟與技巧。
 
 ## 結論
 
