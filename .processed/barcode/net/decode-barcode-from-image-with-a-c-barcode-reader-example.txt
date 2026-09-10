@@ -1,0 +1,7 @@
+Title: Decode barcode from image with a C# barcode reader example
+Slug: decode-barcode-from-image-with-a-c-barcode-reader-example
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-10T14:36:44.533175
+SourceRepo: AI Search API
+Keywords: decode barcode from image, c# barcode reader example
+PRNumber: 119
