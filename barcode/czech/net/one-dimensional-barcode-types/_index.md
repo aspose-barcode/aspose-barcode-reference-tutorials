@@ -82,6 +82,8 @@ Snadno generujte přizpůsobené čárové kódy pomocí Aspose.BarCode pro .NET
 Naučte se, jak pomocí Aspose.BarCode v C# vygenerovat čárový kód přímo z textu. Praktický průvodce krok za krokem.
 ### [Jak generovat čárový kód v C# – Kompletní programovací průvodce](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Kompletní průvodce generováním čárových kódů v C# pomocí Aspose.BarCode.
+### [Jak nastavit parametry čárového kódu v C# pomocí Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Naučte se nastavit parametry čárových kódů v C# s Aspose.BarCode.
 
 ## Závěr
 

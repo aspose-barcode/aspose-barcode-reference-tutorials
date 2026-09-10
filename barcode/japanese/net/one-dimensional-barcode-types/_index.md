@@ -72,12 +72,14 @@ Aspose.BarCode for .NET を使用して One-Dimensional Databar バーコード�
 Aspose.BarCode を使用して、.NET で Databar GS1 エンコードされたバーコードを作成する方法を学びます。バーコードを簡単に生成します。ステップバイステップのガイドに従ってください。
 ### [1 次元データバーの行と列の構成](./one-dimensional-databar-row-column-configuration/)
 Aspose.BarCode for .NET を使用して、.NET で行と列の構成を持つ動的 1 次元 DataBar バーコードを生成します。カスタマイズも簡単に！
-### [1 次元の塗りつぶしバーの構成](./one-dimensional-filled-bars-configuration/)
+### [1次元の塗りつぶしバーの構成](./one-dimensional-filled-bars-configuration/)
 Aspose.BarCode for .NET を使用して .NET でバーコードを生成する方法を学びます。この包括的なチュートリアルでは、名前空間のインポートから 1 次元バーコードの作成までのすべてをカバーしています。 
 ### [1次元バーコードの例外処理](./one-dimensional-barcode-exception-handling/)
 Aspose.BarCode for .NET を使用して 1 次元バーコードを生成する際に例外を処理する方法を学びます。このステップバイステップのガイドは、エラー耐性のあるバーコード ソリューションを保証します。今すぐ始めましょう！
 ### [1 次元のワイド/ナロー比構成](./one-dimensional-wide-narrow-ratio-configuration/)
 Aspose.BarCode for .NET を使用して、カスタマイズされたバーコードを簡単に生成します。 1 次元のワイド/ナロー比構成のステップバイステップ ガイド。
+### [C# で Aspose.BarCode を使用してバーコードパラメータを設定する方法](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Aspose.BarCode を使い、C# でバーコードの各種パラメータ設定方法をステップバイステップで解説します。
 ### [Aspose.BarCode を使用してテキストからバーコードを生成する – C# ガイド](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Aspose.BarCode と C# を使って、テキストからバーコードを作成する手順をステップバイステップで解説します。
 

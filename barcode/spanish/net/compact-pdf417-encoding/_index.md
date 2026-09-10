@@ -141,6 +141,12 @@ La alta densidad de datos y la robusta corrección de errores de Compact PDF417 
 - **Excepciones de licencia:** En un entorno de prueba, el código de barras generado puede incluir una marca de agua. Aplica una licencia válida para eliminarla.
 
 ## Tutoriales de codificación Compact PDF417
+### [How to create PDF417 barcode in C# with compact mode](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+
+
+### [How to generate PDF417 barcodes in C# with Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+
+
 ### [Crear códigos de barras Compact PDF417](./compact-pdf417-basic-configuration/)
 Aprende a generar códigos de barras Compact PDF417 usando Aspose.BarCode para .NET. Guía completa con instrucciones paso a paso y ejemplos de código.
 ### [Crear metadatos de código de barras PDF417 en C# – Guía completa paso a paso](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
@@ -240,7 +246,8 @@ Aprende a leer códigos PDF417 en C# con un ejemplo completo, paso a paso, usand
 - [Cómo crear código de barras – Compact PDF417 con Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Tutoriales y ejemplos completos de Aspose.BarCode para .NET](/barcode/net/)
 - [Cómo crear código de barras Aztec con corrección de errores en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Cómo generar código de barras PDF417 en C# – guía paso a paso](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+- [Decodificar código de barras desde una imagen con un ejemplo de lector de códigos de barras en C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

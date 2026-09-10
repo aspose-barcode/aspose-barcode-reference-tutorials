@@ -141,6 +141,15 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 - **Αποκλίσεις Άδειας:** Σε περιβάλλον δοκιμής, ο παραγόμενος γραμμωτός κώδικας μπορεί να περιλαμβάνει υδατογράφημα. Εφαρμόστε μια έγκυρη άδεια για να το αφαιρέσετε.
 
 ## Συμμετοχικά Σεμινάρια Συμπαγούς PDF417
+### [Decode barcode from image with a C# barcode reader example](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+
+
+### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+
+
+### [How to create PDF417 barcode in C# with compact mode](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+
+
 ### [Δημιουργία Συμπαγών PDF417 Κωδικών](./compact-pdf417-basic-configuration/)
 ### [Δημιουργία Μεταδεδομένων PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 ### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός](./generate-pdf417-barcode-in-c-complete-guide/)
@@ -190,6 +199,7 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [Πώς να Διαβάσετε PDF417 σε C# – Πλήρες Παράδειγμα Αναγνώστη Barcode](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 Μάθετε πώς να διαβάσετε κώδικες PDF417 σε C# με το Aspose.BarCode, μέσω ενός πλήρους παραδείγματος κώδικα.
+
 ### [Πώς να δημιουργήσετε κωδικό PDF417 με το Aspose – Πλήρης οδηγός βήμα‑βήμα](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
 Μάθετε πώς να δημιουργήσετε πλήρη PDF417 barcode...
 
@@ -210,6 +220,8 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [Πώς να διαβάσετε PDF417 σε C# – Πλήρες Παράδειγμα Barcode](./how-to-read-pdf417-in-c-complete-barcode-example/)
 Μάθετε πώς να διαβάσετε κώδικες PDF417 σε C# με ένα πλήρες παράδειγμα barcode.
+
+### [Πώς να δημιουργήσετε PDF417 barcode σε C# με Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 
 ## Συχνές Ερωτήσεις
 

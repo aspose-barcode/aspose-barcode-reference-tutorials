@@ -78,6 +78,8 @@ guadagna come generare codici a barre in .NET con Aspose.BarCode per .NET. Quest
 Scopri come gestire le eccezioni durante la generazione di codici a barre unidimensionali utilizzando Aspose.BarCode per .NET. Questa guida passo passo garantisce soluzioni per codici a barre tolleranti agli errori. Inizia ora!
 ### [Configurazione unidimensionale del rapporto largo-stretto](./one-dimensional-wide-narrow-ratio-configuration/)
 Genera facilmente codici a barre personalizzati con Aspose.BarCode per .NET. Guida passo passo per la configurazione unidimensionale del rapporto largo-stretto.
+### [Come impostare i parametri del codice a barre in C# con Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Impara a configurare i parametri dei codici a barre in C# con Aspose.BarCode. Guida passo passo per una generazione personalizzata.
 ### [Genera codice a barre da testo con Aspose.BarCode – Guida C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Impara a creare codici a barre a partire da testo in C# con Aspose.BarCode. Guida passo passo per una generazione rapida e personalizzabile.
 ### [Come generare un codice a barre in C# – Guida completa di programmazione](./how-to-generate-barcode-in-c-complete-programming-guide/)

@@ -102,6 +102,7 @@ Generate customized barcodes easily with Aspose.BarCode for .NET. Step-by-step g
 Learn how to generate a barcode from text in C# using Aspose.BarCode. Follow our step‑by‑step guide for quick implementation.
 ### [How to Generate Barcode in C# – Complete Programming Guide](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Comprehensive guide to generating barcodes in C# using Aspose.BarCode, covering setup, encoding options, and customization.
+### [How to set barcode parameters in C# using Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 
 ## Frequently Asked Questions
 

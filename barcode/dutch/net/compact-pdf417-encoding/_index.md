@@ -58,7 +58,7 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe PDF417-barcode te genereren – Compact PDF417-codering
+# Hoe PDF417-barcode te genereren – Compacte PDF417-codering
 
 ## Inleiding
 
@@ -139,6 +139,9 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 - **Unreadable Scans:** Zorg voor voldoende contrast tussen voor‑ en achtergrondkleur; vermijd verlopen.  
 - **License Exceptions:** In een proefomgeving kan de gegenereerde barcode een watermerk bevatten. Pas een geldige licentie toe om het te verwijderen.
 
+### [How to generate PDF417 barcodes in C# with Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+
+
 ### [PDF417-barcode-metadata maken in C# – Complete stapsgewijze gids](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 
 ### [PDF417-barcode genereren in C# – Complete gids](./generate-pdf417-barcode-in-c-complete-guide/)
@@ -151,7 +154,7 @@ Leer hoe je Compact PDF417 barcodes genereert met Aspose.BarCode voor .NET. Uitg
 ### [PDF417 Barcode maken met Aspose – Complete gids](./create-pdf417-barcode-with-aspose-complete-guide/)
 ### [Hoe PDF417-barcode te maken met Aspose – Complete stapsgewijze gids](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
 
-### [PDF417-barcode genereren in C# – PDF417-barcode maken in C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+### [PDF417 Barcode genereren in C# – PDF417-barcode maken in C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
 ### [Barcode met speciale tekens – Complete gids voor het genereren van PDF417 met Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
 
 Leer hoe je PDF417 barcodes maakt met speciale tekens, inclusief configuratie‑opties en foutcorrectie, met Aspose.BarCode voor .NET.
@@ -202,7 +205,9 @@ A: Geen externe lettertypen zijn nodig; de bibliotheek verwerkt alle rendering i
 - [Hoe barcode maken – Compact PDF417 met Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Uitgebreide tutorials en voorbeelden van Aspose.BarCode voor .NET](/barcode/net/)
 - [Hoe Aztec barcode maken met foutcorrectie in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Hoe PDF417-barcode te maken in C# met compacte modus](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+- [Hoe PDF417-barcode te genereren in C# – stapsgewijze gids](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+- [Barcode decoderen van afbeelding met een C# barcode-lezer voorbeeld](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
