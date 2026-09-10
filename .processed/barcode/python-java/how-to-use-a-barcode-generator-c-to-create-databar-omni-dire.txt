@@ -1,0 +1,7 @@
+Title: How to use a barcode generator C# to create DataBar Omni‑directional barcodes
+Slug: how-to-use-a-barcode-generator-c-to-create-databar-omni-dire
+Category: general
+ProcessedDate: 2026-08-22T15:54:45.603669
+SourceRepo: AI Search API
+Keywords: barcode generator c#, how to generate barcode, generate barcode png, create databar barcode, adjust barcode height
+PRNumber: 109

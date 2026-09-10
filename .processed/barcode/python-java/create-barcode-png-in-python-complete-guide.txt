@@ -1,0 +1,7 @@
+Title: Create barcode PNG in Python – Complete Guide
+Slug: create-barcode-png-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-07-31T07:01:27.997245
+SourceRepo: AI Search API
+Keywords: create barcode png, how to change barcode, how to generate databar, barcode with sample data, adjust barcode height
+PRNumber: 88

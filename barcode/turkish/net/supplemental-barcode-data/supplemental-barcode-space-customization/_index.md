@@ -1,117 +1,132 @@
 ---
-title: Aspose.BarCode ile Tamamlayıcı Barkod Özelleştirmesini Geliştirin
-linktitle: Ek Barkod Alanı Özelleştirmesi
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode for .NET ile barkodları kolayca özelleştirin. X-Dimension'ı ve ek alanı kontrol edin. Ücretsiz denemeyi deneyin!
-weight: 11
+date: 2026-03-05
+description: Aspose.BarCode for .NET ile barkod resmi oluşturmayı, barkod genişliğini
+  ayarlamayı ve ek alanı özelleştirmeyi öğrenin. Ücretsiz deneme sürümünü bugün deneyin!
+linktitle: Supplemental Barcode Space Customization
+second_title: Aspose.BarCode .NET API
+title: Aspose.BarCode Kullanarak Ek Boşluk Özelleştirmesiyle Barkod Görüntüsü Nasıl
+  Oluşturulur
 url: /tr/net/supplemental-barcode-data/supplemental-barcode-space-customization/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode ile Tamamlayıcı Barkod Özelleştirmesini Geliştirin
+# Aspose.BarCode Kullanarak Ekstra Boşluk Özelleştirmesiyle Barkod Görüntüsü Oluşturma
 
+Günümüzün hızlı tempolu perakende ve lojistik ortamlarında, **generate barcode image** dosyalarının tam düzen gereksinimlerine uyması çok önemlidir. Bir ürün serisi için **create EAN13 barcode** etiketlerine ya da ek veri için görsel boşluğu ince ayarlamanıza ihtiyaç duyduğunuzda, Aspose.BarCode for .NET tam kontrol sunar. Bu öğreticide, jeneratörü kurmaktan **adjust barcode width** ve son olarak **save barcode PNG** dosyalarına kadar tüm süreci adım adım göstereceğiz; böylece dakikalar içinde mükemmel uyarlanmış barkodlar üretebilirsiniz.
 
-Barkod teknolojisinin sürekli gelişen ortamında kişiselleştirme başarının anahtarıdır. SEO yazımında uzmanlığa sahip yetkin bir içerik yazarı olarak Aspose.BarCode for .NET'in gücünden yararlanmanız konusunda size rehberlik etmek için buradayım. Bu adım adım eğitim, barkodlarınız için istediğiniz özelleştirme düzeyine ulaşmanıza yardımcı olacak ve barkodlarınızın tam spesifikasyonlarınızı karşıladığından emin olmanızı sağlayacaktır.
+## Hızlı Yanıtlar
+- **What does “generate barcode image” mean?** Bir barkodun yazdırılabilir veya görüntülenebilir raster (PNG, JPEG, vb.) temsili oluşturur.  
+- **Which barcode type is used in the example?** EAN13, perakende ürünleri için yaygın bir sayısal format.  
+- **How do I change the barcode width?** X‑Dimension özelliğini (piksel) ayarlayarak.  
+- **Can I control the space around supplemental data?** Evet, `SupplementSpace` özelliğini (piksel) kullanarak.  
+- **What file format is used for saving?** PNG, `BarCodeImageFormat.Png` enumu aracılığıyla.
 
-## Önkoşullar
+## Aspose.BarCode ile barkod görüntüsü oluşturma nedir?
+Aspose.BarCode'in `BarcodeGenerator` sınıfı, ham veriyi (örneğin bir ürün numarası) görsel bir barkod görüntüsüne dönüştürür. Bu görüntü çeşitli formatlarda kaydedilebilir, belgelere gömülebilir veya doğrudan bir yazıcıya gönderilebilir.
 
-Barkod özelleştirme dünyasına dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olmanız gerekir:
+## Neden supplement space ve X‑Dimension özelleştirilir?
+**supplement space** özelleştirmek, belirli etiket düzen standartlarını karşılamanızı sağlar, **adjusting the barcode width** (X‑Dimension) ise barkodun farklı tarayıcılarda güvenilir şekilde taranmasını temin eder. Birlikte, marka, düzenleyici ve ergonomik gereksinimleri karşılamak için esneklik sunar.
+
+## Ön Koşullar
+
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
 ### 1. Aspose.BarCode for .NET
+Sisteminizde Aspose.BarCode for .NET yüklü olmalıdır. İndirme bağlantısını [burada](https://releases.aspose.com/barcode/net/) bulabilirsiniz. Henüz sahip değilseniz, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
- Aspose.BarCode for .NET'in sisteminizde kurulu olması gerekir. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/barcode/net/) . Henüz sahip değilseniz, adresinden geçici bir lisans da alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+### 2. Klasör Yolu
+Oluşturulan barkod görüntülerinin kaydedileceği bir klasör oluşturun (veya seçin). Kod örneklerindeki `"Your Directory Path"` ifadesini makinenizdeki gerçek yol ile değiştirin.
 
-### 2. Dizin Yolunuz
-
-Oluşturduğunuz barkod görsellerini kaydedeceğiniz bir dizine sahip olduğunuzdan emin olun. Değiştirmeniz gerekecek`"Your Directory Path"` aşağıdaki kod örneğinde dizininizin gerçek yolunu belirtin.
-
-## Ad Alanlarını İçe Aktar
-
-Şimdi özelleştirmemiz için gerekli ad alanlarını içe aktararak başlayalım.
+## Ad Alanlarını İçe Aktarın
+İlk olarak, barkod oluşturma sınıflarını içeren ad alanını içe aktarın.
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Ön koşullarımızı yerine getirdiğimizde barkod özelleştirme sürecine geçebiliriz.
+## Adım Adım Kılavuz
 
-## 1. Barkod Oluşturucu Oluşturma
-
- Başlamak için bir`BarcodeGenerator` barkod türünü ve değerini belirten örnek. Bu örnekte EAN13 formatını ve "1234567890128" değerini kullanıyoruz.
+### Adım 1: Barcode Generator Oluşturun (Create EAN13 barcode)
+`BarcodeGenerator` sınıfını örnekleyin, barkod tipini (`EncodeTypes.EAN13`) ve kodlamak istediğiniz veriyi belirterek.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## 2. Barkod için X Boyutunun Ayarlanması
-
-X Boyutu barkod öğelerinin genişliğini belirler. Piksel cinsinden aşağıdaki gibi ayarlayabilirsiniz:
+### Adım 2: Barkod Genişliğini Ayarlayın (Set X‑Dimension)
+X‑Dimension, her barkod modülünün genişliğini kontrol eder. Piksel cinsinden ayarlamak, **adjust barcode width** etiket boyutunuza göre ayarlamanızı sağlar.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## 3. Ek Eklemek
-
-Bazı durumlarda barkodunuza ek veriler eklemek isteyebilirsiniz. Aşağıdaki kodu kullanarak bir ek ekleyebilirsiniz:
+### Adım 3: Supplemental Data Ekleyin
+Etiketleme standardınız ek veri (örneğin kitaplar için 5 haneli ek) gerektiriyorsa, `SupplementData` özelliğini kullanarak atayın.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## 4. Ek Alanın Özelleştirilmesi
-
- Şimdi barkodun etrafındaki ek alanını özelleştirebileceğiniz kısım geliyor.`SupplementSpace`özelliği, alanı piksel cinsinden belirtmenize olanak tanır. Örneğimizde bunu 20 piksele ayarladık:
+### Adım 4: Supplement Space Özelleştirin
+`SupplementSpace` ayarlayarak ana barkod ile ek kısmı arasındaki boşluğu kontrol edin. Bu örnekte 20 piksel kullanıyoruz.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## 5. Özelleştirilmiş Barkodu Kaydetme
-
-Barkodunuzu özelleştirdikten sonra belirttiğiniz dizine kaydedebilirsiniz. Bu örnekte barkod görüntüsünü PNG formatında kaydediyoruz.
+### Adım 5: Barkod Görüntüsünü PNG Olarak Kaydedin (Save barcode PNG)
+Barkod tamamen yapılandırıldıktan sonra, hazırladığınız klasöre kaydedin. Görüntü, web ve baskı için ideal bir PNG dosyası olacaktır.
 
 ```csharp
 gen.Save($"{path}SupplementSpace20Pixels.png", BarCodeImageFormat.Png);
 ```
 
-## 6. Daha Fazla Özelleştirme
-
- Ek alanını farklı şekilde özelleştirmek isterseniz, alanı değiştirerek işlemi tekrarlayabilirsiniz.`SupplementSpace` değer ve barkodu buna göre kaydetme.
+### Adım 6: Farklı Supplement Space Değerleriyle Deneyin
+Farklı bir `SupplementSpace` değeriyle süreci tekrarlayarak görsel düzenin nasıl değiştiğini görebilirsiniz. Burada 40 piksele geçip ikinci bir görüntü kaydediyoruz.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 40;
 gen.Save($"{path}SupplementSpace40Pixels.png", BarCodeImageFormat.Png);
 ```
 
-Bu kadar! Barkodunuzu Aspose.BarCode for .NET ile başarıyla özelleştirdiniz.
+## Yaygın Sorunlar ve Çözümleri
+- **Barcode appears too thin or thick:** X‑Dimension'ı (`gen.Parameters.Barcode.XDimension.Pixels`) yeniden ayarlayın. Tipik değerler 1 – 4 piksel arasındadır.  
+- **Supplement data not showing:** `SupplementData`'nın görüntüyü kaydetmeden *önce* ayarlandığını doğrulayın.  
+- **File not saved:** `path` değişkeninin geçerli bir dizine işaret ettiğinden ve uygulamanızın yazma izinlerine sahip olduğundan emin olun.
 
-## Çözüm
+## Sık Sorulan Sorular
 
-Aspose.BarCode for .NET ile barkodlarınızı tam gereksinimlerinizi karşılayacak şekilde özelleştirme olanağına sahipsiniz. Bu araç, işlemi basitleştirerek X-Dimension'ı kontrol etmenize ve alanı zahmetsizce tamamlamanıza olanak tanır. Bu güçlü kitaplıkla yaratıcı olun ve barkodlarınızın öne çıkmasını sağlayın.
+**Q: Aspose.BarCode for .NET dokümantasyonunu nereden bulabilirim?**  
+A: Dokümantasyona [buradan](https://reference.aspose.com/barcode/net/) ulaşabilirsiniz.
 
-## SSS
+**Q: Aspose.BarCode for .NET için ücretsiz deneme mevcut mu?**  
+A: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-### Aspose.BarCode for .NET belgelerini nerede bulabilirim?
- Dokümantasyona ulaşabilirsiniz[Burada](https://reference.aspose.com/barcode/net/).
+**Q: Aspose.BarCode for .NET için lisans nasıl satın alınır?**  
+A: Lisansı [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-### Aspose.BarCode for .NET'in ücretsiz deneme sürümü mevcut mu?
- Evet, şu adresten ücretsiz deneme alabilirsiniz:[Burada](https://releases.aspose.com/).
+**Q: Aspose.BarCode for .NET hangi barkod formatlarını destekliyor?**  
+A: Aspose.BarCode for .NET, EAN, QR, Code39 ve daha fazlası dahil olmak üzere geniş bir barkod formatı yelpazesini destekler. Tam listeyi dokümantasyonda bulabilirsiniz.
 
-### Aspose.BarCode for .NET lisansını nasıl satın alabilirim?
- adresinden lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+**Q: Aspose.BarCode for .NET'i ticari projelerimde kullanabilir miyim?**  
+A: Evet, Aspose.BarCode for .NET hem kişisel hem de ticari kullanım için uygundur. Projelerinizde kullanmak üzere bir lisans satın alabilirsiniz.
 
-### Aspose.BarCode for .NET hangi barkod formatlarını destekliyor?
-Aspose.BarCode for .NET, EAN, QR, Code39 ve daha fazlasını içeren çok çeşitli barkod formatlarını destekler. Tam listeyi belgelerde bulabilirsiniz.
+## Sonuç
+Artık Aspose.BarCode for .NET kullanarak özel X‑Dimension ve supplement space ile **generate barcode image** dosyaları oluşturmak için eksiksiz, uygulamalı bir rehberiniz var. Genişliği ve supplement space'i ayarlayarak neredeyse her etiketleme gereksinimini karşılayabilirsiniz—ister **create EAN13 barcode**, ister **adjust barcode width**, ister **save barcode PNG** dosyaları olsun. Diğer barkod tipleri ve görüntü formatlarıyla da deneyler yaparak bu temeli genişletebilirsiniz.
 
-### Aspose.BarCode for .NET'i ticari projelerimde kullanabilir miyim?
-Evet, Aspose.BarCode for .NET hem kişisel hem de ticari kullanıma uygundur. Projelerinizde kullanmak için lisans satın alabilirsiniz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose

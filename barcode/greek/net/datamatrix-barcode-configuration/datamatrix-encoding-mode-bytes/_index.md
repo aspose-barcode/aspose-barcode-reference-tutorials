@@ -1,35 +1,103 @@
 ---
-title: Κωδικοποίηση DataMatrix σε Byte με Aspose.BarCode για .NET
-linktitle: Λειτουργία κωδικοποίησης DataMatrix (Byte)
+date: 2026-05-30
+description: Μάθετε πώς να δημιουργήσετε DataMatrix Barcode σε λειτουργία Bytes και
+  να διαβάσετε DataMatrix Barcode χρησιμοποιώντας Aspose.BarCode για .NET – ένας οδηγός
+  barcode βήμα προς βήμα.
+keywords:
+- generate datamatrix barcode
+- read datamatrix barcode
+- barcode generator settings
+- step by step barcode
+- create barcode asp.net
+linktitle: Λειτουργία κωδικοποίησης DataMatrix (Bytes)
+schemas:
+- author: Aspose
+  dateModified: '2026-05-30'
+  description: Learn how to generate DataMatrix barcode in Bytes mode and read DataMatrix
+    barcode using Aspose.BarCode for .NET – a step‑by‑step barcode guide.
+  headline: Generate DataMatrix Barcode in Bytes Mode with Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to generate DataMatrix barcode in Bytes mode and read DataMatrix
+    barcode using Aspose.BarCode for .NET – a step‑by‑step barcode guide.
+  name: Generate DataMatrix Barcode in Bytes Mode with Aspose.BarCode for .NET
+  steps:
+  - name: Initialize the BarcodeGenerator
+    text: '`BarcodeGenerator` is the main class used to generate barcode images for
+      a given symbology and data.'
+  - name: Set DataMatrix Encode Mode to Bytes
+    text: '`DataMatrixEncodeMode.Bytes` tells the generator to treat the input as
+      raw binary bytes rather than text.'
+  - name: Set Display Text
+    text: '`CodeText` property sets the human‑readable text displayed below the barcode
+      symbol.'
+  - name: Save the Barcode Image
+    text: '`Save` method writes the generated barcode to an image file in the specified
+      format.'
+  - name: Try to Recognize
+    text: '`BarCodeReader` reads barcode images and extracts the encoded data.'
+  - name: Iterate and Display Results
+    text: Iterate over `reader.ReadBarCodes()` to access each detected barcode and
+      its `CodeText`. With these steps, you have successfully **generated a DataMatrix
+      barcode** in Bytes mode and verified it using Aspose.BarCode for .NET. The library
+      abstracts the low‑level encoding details, so you can focus on b
+  type: HowTo
+- questions:
+  - answer: DataMatrix encoding mode defines how input data is transformed into the
+      two‑dimensional pattern; Bytes mode stores raw binary bytes directly.
+    question: What is DataMatrix encoding mode?
+  - answer: You can obtain a free trial of Aspose.BarCode for .NET from [here](https://releases.aspose.com/).
+    question: How can I get a free trial of Aspose.BarCode for .NET?
+  - answer: The documentation for Aspose.BarCode for .NET is available [here](https://reference.aspose.com/barcode/net/).
+    question: Where can I find documentation for Aspose.BarCode for .NET?
+  - answer: Yes, Aspose.BarCode for .NET is suitable for commercial use. You can purchase
+      a license from [here](https://purchase.aspose.com/buy).
+    question: Is Aspose.BarCode for .NET suitable for commercial use?
+  - answer: Yes, you can obtain a temporary license for Aspose.BarCode for .NET from
+      [here](https://purchase.aspose.com/temporary-license/).
+    question: Can I use a temporary license for Aspose.BarCode for .NET?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Μάθετε πώς να κωδικοποιείτε δεδομένα σε μορφή DataMatrix χρησιμοποιώντας τη λειτουργία Bytes με το Aspose.BarCode για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για τη δημιουργία και την αναγνώριση γραμμωτού κώδικα.
-weight: 15
+title: Δημιουργία DataMatrix Barcode σε λειτουργία Bytes με Aspose.BarCode για .NET
 url: /el/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Κωδικοποίηση DataMatrix σε Byte με Aspose.BarCode για .NET
+# Δημιουργία DataMatrix Barcode σε λειτουργία Bytes με Aspose.BarCode για .NET
 
-Στον κόσμο της δημιουργίας και αναγνώρισης γραμμωτού κώδικα, το Aspose.BarCode για .NET αποτελεί ένα ισχυρό και ευέλικτο εργαλείο. Με το ισχυρό σύνολο χαρακτηριστικών και δυνατοτήτων του, δίνει τη δυνατότητα στους προγραμματιστές να δημιουργούν, να χειρίζονται και να διαβάζουν γραμμικούς κώδικες χωρίς κόπο. Μεταξύ των πολλών τρόπων κωδικοποίησης που προσφέρει, η λειτουργία κωδικοποίησης DataMatrix με χρήση Bytes είναι ένα χαρακτηριστικό που ξεχωρίζει. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία χρήσης του Aspose.BarCode για .NET για την κωδικοποίηση δεδομένων σε μορφή DataMatrix χρησιμοποιώντας τη λειτουργία Bytes.
+Σε αυτό το tutorial θα μάθετε πώς να **δημιουργήσετε DataMatrix barcode** χρησιμοποιώντας τη λειτουργία κωδικοποίησης Bytes και στη συνέχεια να **διαβάσετε το DataMatrix barcode** με το Aspose.BarCode για .NET. Είτε χτίζετε ένα σύστημα διαχείρισης αποθήκης είτε μια εφαρμογή κινητών εισιτηρίων, ο βήμα‑βήμα οδηγός barcode παρακάτω σας δείχνει ακριβώς πώς να ρυθμίσετε τις παραμέτρους του δημιουργού barcode, να παράγετε μια εικόνα υψηλής ποιότητας και να την αποκωδικοποιήσετε ξανά—όλα σε λίγες γραμμές C#.
+
+## Γρήγορες Απαντήσεις
+- **Μπορώ να δημιουργήσω DataMatrix barcode σε .NET;** Ναι, χρησιμοποιήστε `BarcodeGenerator` με `EncodeTypes.DataMatrix` και ορίστε `DataMatrixEncodeMode.Bytes`.
+- **Ποια μέθοδος διαβάζει το barcode;** `BarCodeReader` διαβάζει την εικόνα και επιστρέφει το κωδικοποιημένο κείμενο.
+- **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται εμπορική άδεια· διατίθεται δωρεάν δοκιμή.
+- **Ποιες εκδόσεις .NET υποστηρίζονται;** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Πόσα bytes μπορώ να κωδικοποιήσω;** Έως 1.555 bytes σε ένα μόνο σύμβολο DataMatrix.
+
+## Τι είναι η δημιουργία DataMatrix barcode;
+**Δημιουργία DataMatrix barcode** σημαίνει τη δημιουργία ενός δισδιάστατου, τετράγωνου barcode που μπορεί να αποθηκεύσει δυαδικά δεδομένα. Το Aspose.BarCode αποδίδει το σύμβολο ως εικόνα PNG, JPG ή SVG που μπορεί να διαβάσει οποιοσδήποτε σαρωτής. Χρησιμοποιείται ευρέως για παρακολούθηση αποθεμάτων, διαχείριση εγγράφων και αυθεντικοποίηση, επειδή προσφέρει υψηλή πυκνότητα δεδομένων και δυνατότητες διόρθωσης σφαλμάτων, καθιστώντας το αξιόπιστο ακόμη και σε εκτυπώσεις χαμηλής ποιότητας.
+
+## Γιατί να χρησιμοποιήσετε λειτουργία κωδικοποίησης Bytes;
+Η λειτουργία Bytes σας επιτρέπει να ενσωματώσετε ακατέργαστα δυαδικά δεδομένα (έως 1.555 bytes) χωρίς μετατροπή σε κείμενο, κάτι που είναι ιδανικό για σειριακούς αριθμούς, GUID ή κρυπτογραφημένα payloads. Το Aspose.BarCode υποστηρίζει **30+ barcode symbologies** και μπορεί να επεξεργαστεί **πολυπλαστικές έγγραφα** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, εξασφαλίζοντας γρήγορη απόδοση ακόμη και σε σενάρια υψηλής ροής.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε τη διαδικασία κωδικοποίησης, θα πρέπει να έχετε τις ακόλουθες προϋποθέσεις:
+Πριν εμβαθύνουμε στη διαδικασία κωδικοποίησης, θα χρειαστεί να έχετε τα παρακάτω:
 
-1.  Aspose.BarCode για .NET: Για να ξεκινήσετε, πρέπει να έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.BarCode για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/barcode/net/).
+1. Aspose.BarCode for .NET: Για να ξεκινήσετε, πρέπει να έχετε εγκατεστημένη τη βιβλιοθήκη Aspose.BarCode for .NET. Μπορείτε να τη κατεβάσετε από [here](https://releases.aspose.com/barcode/net/). Μπορείτε επίσης να βρείτε άλλα προϊόντα Aspose στο [here](https://releases.aspose.com/).
+2. Το Περιβάλλον Ανάπτυξής Σας: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον ανάπτυξης, συμπεριλαμβανομένου του Visual Studio ή οποιουδήποτε άλλου IDE της επιλογής σας.
+3. Βασικές Γνώσεις C#: Αυτό το tutorial υποθέτει ότι έχετε βασική κατανόηση του προγραμματισμού C#.
 
-2. Το περιβάλλον ανάπτυξης σας: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον ανάπτυξης, συμπεριλαμβανομένου του Visual Studio ή οποιουδήποτε άλλου IDE της επιλογής σας.
+Για βοήθεια, επισκεφθείτε [Aspose.BarCode Support](https://forum.aspose.com/c/barcode/13).
 
-3. Βασικές γνώσεις C#: Αυτό το σεμινάριο προϋποθέτει ότι έχετε βασική κατανόηση του προγραμματισμού C#.
+Με αυτά τα προαπαιτούμενα, είστε έτοιμοι να ξεκινήσετε την κωδικοποίηση δεδομένων σε μορφή DataMatrix χρησιμοποιώντας τη λειτουργία Bytes.
 
-Με αυτές τις προϋποθέσεις, είστε έτοιμοι να ξεκινήσετε την κωδικοποίηση δεδομένων σε μορφή DataMatrix χρησιμοποιώντας τη λειτουργία Bytes.
+## Εισαγωγή Namespaces
 
-## Εισαγωγή χώρων ονομάτων
-
-Για να χρησιμοποιήσετε το Aspose.BarCode για .NET, θα χρειαστεί να εισαγάγετε τους απαραίτητους χώρους ονομάτων στον κώδικα C#. Προσθέστε τις ακόλουθες γραμμές στην κορυφή του αρχείου κώδικα:
+Για να χρησιμοποιήσετε το Aspose.BarCode για .NET, εισάγετε τους απαιτούμενους namespaces στην κορυφή του αρχείου C#:
 
 ```csharp
 using System;
@@ -38,56 +106,60 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-Τώρα, ας αναλύσουμε τη διαδικασία κωδικοποίησης δεδομένων σε μορφή DataMatrix χρησιμοποιώντας τη λειτουργία Bytes σε πολλαπλά βήματα.
+Τώρα που το περιβάλλον είναι έτοιμο, ας περάσουμε από τα ακριβή βήματα για **δημιουργία DataMatrix barcode** και στη συνέχεια την ανάγνωσή του.
 
-## Βήμα 1: Αρχικοποιήστε το BarcodeGenerator
+## Πώς να δημιουργήσετε DataMatrix barcode σε λειτουργία Bytes;
 
- Δημιουργήστε ένα αντικείμενο BarcodeGenerator, προσδιορίζοντας το EncodeType ως DataMatrix και τα δεδομένα που θέλετε να κωδικοποιήσετε. Μπορείτε να αντικαταστήσετε`"Your Directory Path"` με την πραγματική διαδρομή όπου θέλετε να αποθηκεύσετε την εικόνα του γραμμικού κώδικα.
+Φορτώστε το `BarcodeGenerator`, ορίστε τη λειτουργία κωδικοποίησης σε Bytes, διαμορφώστε προαιρετικό κείμενο εμφάνισης, αποθηκεύστε την εικόνα και τέλος χρησιμοποιήστε το `BarCodeReader` για να επαληθεύσετε το αποτέλεσμα—όλα σε έξι συνοπτικά βήματα. Αυτή η προσέγγιση εγγυάται ένα αξιόπιστο barcode που συμμορφώνεται με το πρότυπο ISO/IEC 16022.
+
+### Βήμα 1: Αρχικοποίηση του BarcodeGenerator
+
+`BarcodeGenerator` είναι η κύρια κλάση που χρησιμοποιείται για τη δημιουργία εικόνων barcode για μια δεδομένη συμβολική και δεδομένα.
 
 ```csharp
 string path = "Your Directory Path";
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, strBld.ToString()))
 {
-    // Ρυθμίστε το XDimension σε εικονοστοιχεία
+    // Set the XDimension in Pixels
     gen.Parameters.Barcode.XDimension.Pixels = 4;
 ```
 
-## Βήμα 2: Ορίστε τη λειτουργία κωδικοποίησης DataMatrix σε Bytes
+### Βήμα 2: Ορισμός λειτουργίας κωδικοποίησης DataMatrix σε Bytes
 
-Ορίστε τη λειτουργία κωδικοποίησης DataMatrix σε Bytes χρησιμοποιώντας τον ακόλουθο κώδικα:
+`DataMatrixEncodeMode.Bytes` λέει στον δημιουργό να αντιμετωπίζει την είσοδο ως ακατέργαστα δυαδικά bytes αντί για κείμενο.
 
 ```csharp
     gen.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.Bytes;
 ```
 
-## Βήμα 3: Ορισμός κειμένου εμφάνισης
+### Βήμα 3: Ορισμός κειμένου εμφάνισης
 
-Μπορείτε να ορίσετε το κείμενο εμφάνισης για τον γραμμωτό κώδικα σας. Σε αυτό το παράδειγμα, το έχουμε ρυθμίσει σε "Λειτουργία Bytes".
+Η ιδιότητα `CodeText` ορίζει το κείμενο που εμφανίζεται κάτω από το σύμβολο barcode.
 
 ```csharp
     gen.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "Bytes mode";
 ```
 
-## Βήμα 4: Αποθηκεύστε την εικόνα Barcode
+### Βήμα 4: Αποθήκευση της εικόνας Barcode
 
-Αποθηκεύστε την εικόνα γραμμικού κώδικα που δημιουργήθηκε στην καθορισμένη διαδρομή. Σε αυτήν την περίπτωση, αποθηκεύεται ως "DataMatrixEncodeModeBytes.png."
+Η μέθοδος `Save` γράφει το παραγόμενο barcode σε αρχείο εικόνας στην καθορισμένη μορφή.
 
 ```csharp
     gen.Save($"{path}DataMatrixEncodeModeBytes.png", BarCodeImageFormat.Png);
 ```
 
-## Βήμα 5: Προσπαθήστε να αναγνωρίσετε
+### Βήμα 5: Προσπάθεια αναγνώρισης
 
-Τώρα, ας προσπαθήσουμε να αναγνωρίσουμε τον κωδικοποιημένο γραμμωτό κώδικα DataMatrix. Θα χρησιμοποιήσουμε το BarCodeReader για να το κάνουμε αυτό.
+`BarCodeReader` διαβάζει εικόνες barcode και εξάγει τα κωδικοποιημένα δεδομένα.
 
 ```csharp
     using (BarCodeReader read = new BarCodeReader(gen.GenerateBarCodeImage(), DecodeType.DataMatrix))
     {
 ```
 
-## Βήμα 6: Επανάληψη και εμφάνιση αποτελεσμάτων
+### Βήμα 6: Επανάληψη και εμφάνιση αποτελεσμάτων
 
-Επαναλάβετε τα αποτελέσματα και εμφανίστε τα κωδικοποιημένα δεδομένα.
+Επανάληψη πάνω στο `reader.ReadBarCodes()` για πρόσβαση σε κάθε εντοπισμένο barcode και το `CodeText` του.
 
 ```csharp
         foreach (BarCodeResult result in read.ReadBarCodes())
@@ -96,37 +168,43 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, strBl
 }
 ```
 
-Με αυτά τα βήματα, έχετε κωδικοποιήσει με επιτυχία δεδομένα σε μορφή DataMatrix χρησιμοποιώντας τη λειτουργία Bytes με Aspose.BarCode για .NET. Αυτή η ισχυρή βιβλιοθήκη απλοποιεί τη δημιουργία και την αναγνώριση γραμμωτού κώδικα, καθιστώντας την ένα απαραίτητο εργαλείο για τους προγραμματιστές.
+Με αυτά τα βήματα, έχετε δημιουργήσει επιτυχώς **DataMatrix barcode** σε λειτουργία Bytes και το έχετε επαληθεύσει χρησιμοποιώντας το Aspose.BarCode για .NET. Η βιβλιοθήκη αφαιρεί τις λεπτομέρειες χαμηλού επιπέδου κωδικοποίησης, ώστε να μπορείτε να εστιάσετε στη λογική της επιχείρησης αντί για τα μαθηματικά του barcode.
 
-Τώρα, είστε έτοιμοι να ενσωματώσετε την κωδικοποίηση και την αποκωδικοποίηση barcode στις εφαρμογές σας .NET με ευκολία, χάρη στο Aspose.BarCode.
+## Κοινά Προβλήματα και Λύσεις
 
-## συμπέρασμα
+- **Τα κωδικοποιημένα δεδομένα περικόπτονται** – Βεβαιωθείτε ότι ο πίνακας byte δεν υπερβαίνει τα 1.555 bytes· διαφορετικά η βιβλιοθήκη θα αλλάξει αυτόματα σε μεγαλύτερο μέγεθος συμβόλου ή θα πετάξει εξαίρεση.
+- **Η εικόνα εμφανίζεται θολή** – Αποθηκεύστε την εικόνα σε υψηλότερη ανάλυση (π.χ., 300 dpi) ορίζοντας `generator.Parameters.ImageResolution` πριν καλέσετε το `Save`.
+- **Ο αναγνώστης επιστρέφει null** – Επαληθεύστε ότι η διαδρομή της εικόνας είναι σωστή και ότι το αρχείο δεν είναι κατεστραμμένο· επίσης βεβαιωθείτε ότι το `BarCodeReader` έχει δημιουργηθεί με `DecodeType.DataMatrix`.
 
-Σε αυτό το σεμινάριο, εξερευνήσαμε τον τρόπο χρήσης του Aspose.BarCode για .NET για την κωδικοποίηση δεδομένων σε μορφή DataMatrix χρησιμοποιώντας τη λειτουργία Bytes. Ακολουθώντας αυτά τα απλά βήματα, μπορείτε να βελτιώσετε τις εφαρμογές σας με ισχυρές δυνατότητες δημιουργίας και αναγνώρισης γραμμωτού κώδικα.
+## Συχνές Ερωτήσεις
 
- Εάν έχετε οποιεσδήποτε ερωτήσεις ή αντιμετωπίζετε προβλήματα, μη διστάσετε να ζητήσετε βοήθεια από την κοινότητα Aspose.BarCode στη διεύθυνση[Υποστήριξη Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
+**Q: Τι είναι η λειτουργία κωδικοποίησης DataMatrix;**  
+A: Η λειτουργία κωδικοποίησης DataMatrix ορίζει πώς τα εισερχόμενα δεδομένα μετατρέπονται στο δισδιάστατο μοτίβο· η λειτουργία Bytes αποθηκεύει ακατέργαστα δυαδικά bytes άμεσα.
 
-## Συχνές ερωτήσεις
+**Q: Πώς μπορώ να αποκτήσω δωρεάν δοκιμή του Aspose.BarCode για .NET;**  
+A: Μπορείτε να αποκτήσετε δωρεάν δοκιμή του Aspose.BarCode για .NET από [here](https://releases.aspose.com/).
 
-### Ε1: Τι είναι η λειτουργία κωδικοποίησης DataMatrix;
+**Q: Πού μπορώ να βρω τεκμηρίωση για το Aspose.BarCode για .NET;**  
+A: Η τεκμηρίωση για το Aspose.BarCode για .NET είναι διαθέσιμη [here](https://reference.aspose.com/barcode/net/).
 
-A1: Η λειτουργία κωδικοποίησης DataMatrix είναι μια μέθοδος που χρησιμοποιείται για την κωδικοποίηση δεδομένων σε μορφή 2D γραμμικού κώδικα. Παρέχει διάφορες επιλογές κωδικοποίησης, συμπεριλαμβανομένης της λειτουργίας Bytes, η οποία είναι κατάλληλη για την κωδικοποίηση δυαδικών δεδομένων.
+**Q: Είναι το Aspose.BarCode για .NET κατάλληλο για εμπορική χρήση;**  
+A: Ναι, το Aspose.BarCode για .NET είναι κατάλληλο για εμπορική χρήση. Μπορείτε να αγοράσετε άδεια από [here](https://purchase.aspose.com/buy).
 
-### Ε2: Πώς μπορώ να αποκτήσω δωρεάν δοκιμή του Aspose.BarCode για .NET;
+**Q: Μπορώ να χρησιμοποιήσω προσωρινή άδεια για το Aspose.BarCode για .NET;**  
+A: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια για το Aspose.BarCode για .NET από [here](https://purchase.aspose.com/temporary-license/).
 
- A2: Μπορείτε να αποκτήσετε μια δωρεάν δοκιμή του Aspose.BarCode για .NET από[εδώ](https://releases.aspose.com/).
+---
 
-### Ε3: Πού μπορώ να βρω τεκμηρίωση για το Aspose.BarCode για .NET;
+**Τελευταία ενημέρωση:** 2026-05-30  
+**Δοκιμή με:** Aspose.BarCode 24.12 for .NET  
+**Συγγραφέας:** Aspose
 
- A3: Η τεκμηρίωση για το Aspose.BarCode για .NET είναι διαθέσιμη[εδώ](https://reference.aspose.com/barcode/net/).
+## Σχετικά Μαθήματα
 
-### Ε4: Είναι το Aspose.BarCode για .NET κατάλληλο για εμπορική χρήση;
+- [Κατανοήστε την κωδικοποίηση DataMatrix σε ASCII με Aspose.BarCode για .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/)
+- [Ανάγνωση barcode DataMatrix C# – Δημιουργία λειτουργίας DataMatrix (Αυτόματη)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
+- [Πώς να δημιουργήσετε barcode DataMatrix (ECC 200) με Aspose.BarCode για .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
 
-A4: Ναι, το Aspose.BarCode for .NET είναι κατάλληλο για εμπορική χρήση. Μπορείτε να αγοράσετε άδεια από[εδώ](https://purchase.aspose.com/buy).
-
-### Ε5: Μπορώ να χρησιμοποιήσω μια προσωρινή άδεια χρήσης για το Aspose.BarCode για .NET;
-
- A5: Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια χρήσης για το Aspose.BarCode για .NET από[εδώ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

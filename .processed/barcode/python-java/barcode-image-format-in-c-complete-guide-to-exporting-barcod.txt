@@ -1,0 +1,7 @@
+Title: Barcode Image Format in C# – Complete Guide to Exporting Barcodes
+Slug: barcode-image-format-in-c-complete-guide-to-exporting-barcod
+Category: general
+ProcessedDate: 2026-07-28T03:20:22.186772
+SourceRepo: AI Search API
+Keywords: barcode image format, how to export barcode, custom barcode dimensions, c# barcode example, barcode pixel height
+PRNumber: 85

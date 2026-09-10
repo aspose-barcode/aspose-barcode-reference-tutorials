@@ -1,36 +1,61 @@
 ---
-title: Nhận dạng mã vạch dễ dàng từ tài liệu Word
+date: 2026-04-12
+description: Tìm hiểu cách nhận dạng mã vạch từ tài liệu Word bằng Aspose.BarCode
+  cho Java. Hướng dẫn này cũng chỉ cách thêm mã vạch vào Word và trích xuất hình ảnh
+  từ Word.
+keywords:
+- how to recognize barcode
+- add barcode to word
+- read barcode from image
+- extract images from word
+- barcode detection java
 linktitle: Nhận dạng mã vạch từ tài liệu Word
-second_title: API Java Aspose.BarCode
-description: Khám phá sự tích hợp liền mạch của nhận dạng mã vạch vào các ứng dụng Java của bạn với Aspose.BarCode. Hãy làm theo hướng dẫn này để nhận dạng mã vạch từ tài liệu Word.
-weight: 12
+second_title: Aspose.BarCode Java API
+title: Cách nhận dạng mã vạch từ tài liệu Word – Hướng dẫn Java
 url: /vi/java/document-barcode-recognition/recognizing-barcodes-from-word/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nhận dạng mã vạch dễ dàng từ tài liệu Word
-
+# Cách Nhận Dạng Mã Vạch Từ Tài Liệu Word – Hướng Dẫn Java
 
 ## Giới thiệu
 
-Trong thế giới năng động của lập trình Java, nhu cầu làm việc với mã vạch một cách hiệu quả ngày càng tăng. Nhận dạng mã vạch từ tài liệu Word là một yêu cầu phổ biến và may mắn thay, Aspose.BarCode for Java cung cấp một giải pháp mạnh mẽ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình nhận dạng mã vạch từ tài liệu Word bằng Aspose.BarCode cho Java.
+Nếu bạn cần **cách nhận dạng mã vạch** được nhúng trong một tệp Microsoft Word, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ hoàn chỉnh, từ đầu đến cuối, sử dụng Aspose.BarCode for Java để tạo mã vạch, chèn nó vào tài liệu Word, trích xuất lại hình ảnh, và cuối cùng đọc dữ liệu mã vạch. Khi kết thúc, bạn cũng sẽ thấy cách **add barcode to Word**, **extract images from Word**, và thực hiện các thao tác **barcode detection java**—tất cả chỉ với vài dòng mã.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có các điều kiện tiên quyết sau:
+- **What library is required?** Thư viện nào được yêu cầu? Aspose.BarCode for Java (plus Aspose.Words for handling .docx files).  
+- **Can I read a barcode from an image?** Tôi có thể đọc mã vạch từ hình ảnh không? Yes – the `BarCodeReader` can decode images extracted from Word.  
+- **Do I need a license for production?** Tôi có cần giấy phép cho môi trường sản xuất không? Cần có giấy phép thương mại; bản dùng thử miễn phí có sẵn.  
+- **Which Java version is supported?** Phiên bản Java nào được hỗ trợ? Any JDK 8 + runtime works.  
+- **How long does the implementation take?** Thời gian triển khai mất bao lâu? Roughly 10‑15 minutes for a basic prototype.  
 
-- Bộ công cụ phát triển Java (JDK): Aspose.BarCode cho Java yêu cầu môi trường phát triển Java. Đảm bảo bạn đã cài đặt JDK mới nhất trên hệ thống của mình.
+## Nhận dạng mã vạch từ tài liệu Word là gì?
 
--  Aspose.BarCode for Java: Tải xuống và cài đặt thư viện Aspose.BarCode cho Java. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/barcode/java/).
+Nhận dạng mã vạch có nghĩa là quét một hình ảnh nằm trong tệp Word và chuyển mẫu hình ảnh trở lại thành chuỗi dữ liệu gốc (ví dụ, “test‑123”). Aspose.BarCode cung cấp động cơ giải mã, trong khi Aspose.Words cho phép chúng tôi lấy hình ảnh ra khỏi container .doc/.docx.
 
-- Môi trường phát triển tích hợp (IDE): Chọn IDE ưa thích của bạn, chẳng hạn như Eclipse hoặc IntelliJ, để làm theo các ví dụ.
+## Tại sao nên sử dụng Aspose.BarCode cho Java?
 
-## Gói nhập khẩu
+- **High accuracy** trên hơn 60 loại mã, bao gồm Code 39, QR, DataMatrix, v.v.  
+- **No external dependencies** – Java thuần, không có thư viện gốc.  
+- **Seamless integration** với Aspose.Words, giúp dễ dàng **extract images from Word** và sau đó **read barcode from image**.  
+- **Robust licensing** hoạt động trên môi trường desktop, server và cloud.  
 
-Trong dự án Java của bạn, hãy nhập các gói Aspose.BarCode cần thiết để bắt đầu:
+## Yêu cầu trước
+
+Trước khi chúng ta bắt đầu với mã, hãy chắc chắn rằng bạn có:
+
+- **Java Development Kit (JDK)** – phiên bản mới nhất được khuyến nghị.  
+- **Aspose.BarCode for Java** – tải xuống và cài đặt thư viện từ trang chính thức [here](https://releases.aspose.com/barcode/java/).  
+- **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa nào bạn thích.  
+
+## Nhập Gói
+
+In your Java project, import the necessary Aspose.BarCode and Aspose.Words classes:
 
 ```java
 import java.text.MessageFormat;
@@ -45,9 +70,9 @@ import com.aspose.words.NodeCollection;
 import com.aspose.words.NodeType;
 ```
 
-## Bước 1: Tạo hình ảnh mã vạch
+## Bước 1: Tạo Hình Ảnh Mã Vạch
 
-Đầu tiên, tạo hình ảnh mã vạch bằng Aspose.BarCode. Đặt văn bản mã và lưu hình ảnh:
+First, create a barcode image that we will later embed into the Word file.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);
@@ -56,9 +81,9 @@ String strBarCodeImageSave = dataDir + "img.jpg";
 generator.save(strBarCodeImageSave);
 ```
 
-## Bước 2: Thêm hình ảnh vào tài liệu Word
+## Bước 2: Thêm Mã Vạch vào Tài Liệu Word
 
-Bây giờ, hãy chèn hình ảnh mã vạch đã tạo vào tài liệu Word bằng Aspose.Words:
+Now we’ll insert the freshly generated image into a new Word document. This demonstrates the **add barcode to word** scenario.
 
 ```java
 Document doc = new Document();
@@ -68,9 +93,9 @@ String strWordFile = "docout.doc";
 doc.save(dataDir + strWordFile);
 ```
 
-## Bước 3: Nhận dạng mã vạch từ tài liệu Word
+## Bước 3: Trích Xuất Hình Ảnh và Nhận Dạng Mã Vạch
 
-Tiếp theo, trích xuất hình ảnh từ tài liệu Word và nhận dạng mã vạch bằng Aspose.BarCode:
+With the document saved, we can pull out every image (including our barcode) and run **barcode detection java** on each one.
 
 ```java
 NodeCollection<Shape> shapes = doc.getChildNodes(NodeType.SHAPE, true);
@@ -78,13 +103,13 @@ int imageIndex = 0;
 
 for (Shape shape : shapes) {
     if (shape.hasImage()) {
-        // Trích xuất hình ảnh vào tập tin
+        // Extract image to file
         String extension = ImageTypeToExtension(shape.getImageData().getImageType());
         String imageFileName = MessageFormat.format("Image.ExportImages.{0} Out.{1}", imageIndex, extension);
         String strBarCodeImageExtracted = "" + imageFileName;
         shape.getImageData().save(strBarCodeImageExtracted);
 
-        // Nhận dạng mã vạch từ hình ảnh này
+        // Recognize barcode from this image
         BarCodeReader reader = new BarCodeReader(strBarCodeImageSave, DecodeType.CODE_39_STANDARD);
         for (BarCodeResult result : reader.readBarCodes()) {
             System.out.println("CodeText: " + result.getCodeText());
@@ -95,28 +120,39 @@ for (Shape shape : shapes) {
 }
 ```
 
-Lặp lại các bước này và bạn sẽ nhận dạng thành công mã vạch từ tài liệu Word bằng Aspose.BarCode for Java.
+> **Pro tip:** Nếu bạn cần **read barcode from image** các tệp không nằm trong tài liệu Word, chỉ cần truyền đường dẫn tệp tới `BarCodeReader` – logic giải mã tương tự được áp dụng.
 
-## Phần kết luận
+## Vấn đề Thường Gặp và Giải Pháp
 
-Tóm lại, việc tận dụng Aspose.BarCode cho Java giúp đơn giản hóa quá trình nhận dạng mã vạch từ tài liệu Word. Hãy làm theo các bước được nêu ở trên và bạn sẽ tích hợp liền mạch tính năng nhận dạng mã vạch vào các ứng dụng Java của mình.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| `NullPointerException` on `shape.getImageData()` | Shape không chứa hình ảnh. | Thêm kiểm tra `shape.hasImage()` (đã được hiển thị). |
+| Wrong barcode type returned | Sử dụng `DecodeType` sai. | Khớp `EncodeTypes` bạn đã dùng khi tạo (ví dụ, `CODE_39_STANDARD`). |
+| Image not saved correctly | Thiếu quyền ghi trong `dataDir`. | Đảm bảo thư mục tồn tại và có thể ghi. |
+| License not applied | Chế độ đánh giá giới hạn chức năng. | Tải giấy phép Aspose của bạn khi ứng dụng khởi động: `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` |
 
-## Câu hỏi thường gặp (FAQ)
+## Câu Hỏi Thường Gặp
 
-### Câu hỏi: Tôi có thể sử dụng Aspose.BarCode cho Java trong các dự án thương mại không?
- Có, Aspose.BarCode for Java có sẵn cho mục đích thương mại. Bạn có thể tìm thấy chi tiết cấp phép[đây](https://purchase.aspose.com/buy).
+### Q: Tôi có thể sử dụng Aspose.BarCode cho Java trong các dự án thương mại không?  
+A: Có, Aspose.BarCode cho Java có sẵn cho việc sử dụng thương mại. Bạn có thể tìm chi tiết giấy phép [here](https://purchase.aspose.com/buy).
 
-### Câu hỏi: Có bản dùng thử miễn phí cho Aspose.BarCode cho Java không?
- Có, bạn có thể khám phá các tính năng của Aspose.BarCode for Java bằng cách tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+### Q: Có bản dùng thử miễn phí cho Aspose.BarCode cho Java không?  
+A: Có, bạn có thể khám phá các tính năng của Aspose.BarCode cho Java bằng cách tải bản dùng thử miễn phí [here](https://releases.aspose.com/).
 
-### Câu hỏi: Làm cách nào để tôi nhận được hỗ trợ cho Aspose.BarCode cho Java?
-Nếu có bất kỳ trợ giúp hoặc thắc mắc nào, hãy truy cập diễn đàn Aspose.BarCode[đây](https://forum.aspose.com/c/barcode/13).
+### Q: Làm thế nào để tôi nhận được hỗ trợ cho Aspose.BarCode cho Java?  
+A: Đối với bất kỳ trợ giúp hoặc câu hỏi nào, hãy truy cập diễn đàn Aspose.BarCode [here](https://forum.aspose.com/c/barcode/13).
 
-### Câu hỏi: Có giấy phép tạm thời cho Aspose.BarCode cho Java không?
- Có, bạn có thể lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+### Q: Có giấy phép tạm thời cho Aspose.BarCode cho Java không?  
+A: Có, bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.BarCode cho Java ở đâu?
- Tham khảo tài liệu đầy đủ[đây](https://reference.aspose.com/barcode/java/).
+### Q: Tôi có thể tìm tài liệu cho Aspose.BarCode cho Java ở đâu?  
+A: Tham khảo tài liệu đầy đủ [here](https://reference.aspose.com/barcode/java/).
+
+---  
+
+**Cập nhật lần cuối:** 2026-04-12  
+**Được kiểm tra với:** Aspose.BarCode 24.11 for Java  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

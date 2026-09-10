@@ -1,0 +1,7 @@
+Title: databar expanded stacked barcode guide – how to generate and size it in C#
+Slug: databar-expanded-stacked-barcode-guide-how-to-generate-and-s
+Category: general
+ProcessedDate: 2026-07-28T03:20:29.729839
+SourceRepo: AI Search API
+Keywords: databar expanded stacked, how to generate barcode, how to set dimensions, create databar barcode, configure barcode size
+PRNumber: 85

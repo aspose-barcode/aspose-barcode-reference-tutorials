@@ -1,0 +1,7 @@
+Title: Create barcode image with C# barcode generator – guide
+Slug: create-barcode-image-with-c-barcode-generator-guide
+Category: general
+ProcessedDate: 2026-08-09T18:43:07.817435
+SourceRepo: AI Search API
+Keywords: create barcode image, c# barcode generator, generate multiple barcodes
+PRNumber: 97

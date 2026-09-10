@@ -1,0 +1,7 @@
+Title: How to set dimensions for Mailmark barcodes in C#
+Slug: how-to-set-dimensions-for-mailmark-barcodes-in-c
+Category: general
+ProcessedDate: 2026-08-22T15:54:43.816735
+SourceRepo: AI Search API
+Keywords: how to set dimensions
+PRNumber: 109

@@ -1,0 +1,7 @@
+Title: Create 4‑column databar barcode in C# – step‑by‑step guide
+Slug: create-4-column-databar-barcode-in-c-step-by-step-guide
+Category: general
+ProcessedDate: 2026-08-09T18:43:09.534058
+SourceRepo: AI Search API
+Keywords: create 4‑column databar barcode
+PRNumber: 97

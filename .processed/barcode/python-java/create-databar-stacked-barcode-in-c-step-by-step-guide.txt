@@ -1,0 +1,7 @@
+Title: Create databar stacked barcode in C# – step‑by‑step guide
+Slug: create-databar-stacked-barcode-in-c-step-by-step-guide
+Category: general
+ProcessedDate: 2026-08-06T14:50:06.119046
+SourceRepo: AI Search API
+Keywords: create databar stacked barcode
+PRNumber: 93

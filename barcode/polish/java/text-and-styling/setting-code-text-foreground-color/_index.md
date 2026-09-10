@@ -1,10 +1,14 @@
 ---
-date: 2025-12-27
+date: 2026-05-04
 description: Dowiedz się, jak ustawić kolor tekstu kodu kreskowego w Javie przy użyciu
   Aspose.BarCode i odkryj, jak generować kod kreskowy w kolorze dla dowolnej aplikacji.
-linktitle: Setting Code Text Foreground Color
+keywords:
+- set barcode text color
+- barcode text foreground color
+- Aspose.BarCode Java
+linktitle: Ustawianie koloru pierwszego planu tekstu kodu
 second_title: Aspose.BarCode Java API
-title: Jak ustawić kolor tekstu kodu kreskowego w Javie z Aspose.BarCode
+title: Jak ustawić kolor tekstu kodu kreskowego w Javie przy użyciu Aspose.BarCode
 url: /pl/java/text-and-styling/setting-code-text-foreground-color/
 weight: 11
 ---
@@ -13,24 +17,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw kolor tekstu kodu kreskowego w Javie przy użyciu Aspose.BarCode
+# Ustaw kolor tekstu kodu kreskowego w Javie z Aspose.BarCode
 
 ## Wprowadzenie
-W nowoczesnych aplikacjach Java możliwość **ustawienia koloru tekstu kodu kreskowego** daje elastyczność dopasowania się do wytycznych brandingowych lub poprawy czytelności w mediach drukowanych. Aspose.BarCode for Java umożliwia łatwe dostosowanie każdego wizualnego aspektu kodu kreskowego, w tym koloru pierwszego planu tekstu kodu. W tym przewodniku przeprowadzimy Cię krok po kroku przez **ustawienie koloru tekstu kodu kreskowego** i pokażemy, jak **generować kod kreskowy w kolorze**, który świetnie wygląda w każdym środowisku.
+W nowoczesnych aplikacjach Java możliwość **ustawienia koloru tekstu kodu kreskowego** daje elastyczność dopasowania do wytycznych marki lub poprawy czytelności w mediach drukowanych. Aspose.BarCode for Java ułatwia dostosowanie każdego wizualnego aspektu kodu kreskowego, w tym koloru pierwszego planu tekstu kodu. W tym przewodniku przeprowadzimy Cię przez dokładne kroki, aby **ustawić kolor tekstu kodu kreskowego**, oraz pokażemy, jak **generować kod kreskowy w kolorze**, który wygląda świetnie w każdym środowisku.
 
 ## Szybkie odpowiedzi
-- **Jaka jest podstawowa metoda zmiany koloru tekstu kodu kreskowego?** Użyj `getCodeTextParameters().setColor(Color.YOUR_COLOR)`.
-- **Która biblioteka zapewnia tę funkcję?** Aspose.BarCode for Java.
-- **Czy potrzebna jest licencja do zmiany kolorów?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja jest wymagana w produkcji.
-- **Czy mogę używać dowolnego koloru AWT?** Tak, każdy stały `java.awt.Color` lub niestandardowa wartość RGB jest obsługiwana.
-- **Czy zmiana jest widoczna we wszystkich formatach kodów kreskowych?** Ustawienie koloru tekstu ma zastosowanie do wszystkich obsługiwanych symbologii.
+- **Jaka jest podstawowa metoda zmiany koloru tekstu kodu kreskowego?** Use `generator.getParameters().getBarcode().getCodeTextParameters().setColor(Color.YOUR_COLOR)`.  
+- **Która biblioteka zapewnia tę funkcję?** Aspose.BarCode for Java.  
+- **Czy potrzebna jest licencja, aby zmieniać kolory?** A free trial works for development; a license is required for production.  
+- **Czy mogę używać dowolnego koloru AWT?** Yes—any `java.awt.Color` constant or custom RGB value is supported.  
+- **Czy zmiana jest widoczna we wszystkich formatach kodów kreskowych?** The text‑color setting applies to all supported symbologies.
+
+## Co to jest „ustaw kolor tekstu kodu kreskowego”?
+Ustawienie koloru tekstu kodu kreskowego oznacza zmianę koloru pierwszego planu znaków czytelnych dla człowieka, które pojawiają się pod lub obok pasków. Ta zmiana wizualna nie wpływa na zakodowane dane; wpływa jedynie na sposób renderowania tekstu w ostatecznym obrazie.
+
+## Dlaczego ustawiać kolor tekstu kodu kreskowego?
+- Dopasowanie kodu kreskowego do identyfikacji wizualnej firmy.  
+- Poprawa kontrastu na ciemnych lub kolorowych tłach.  
+- Tworzenie atrakcyjnych wizualnie etykiet do materiałów marketingowych.  
+- Spełnienie wymogów dostępności poprzez zapewnienie odpowiedniego kontrastu.
 
 ## Wymagania wstępne
-Zanim przejdziesz do kodu, upewnij się, że masz następujące elementy:
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
 
-- **Java Development Kit (JDK)** – kompatybilny JDK zainstalowany na komputerze. Pobierz go [tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).
-- **Aspose.BarCode for Java library** – pobierz najnowszą wersję ze [strony pobierania](https://releases.aspose.com/barcode/java/). Postępuj zgodnie z przewodnikiem instalacji, aby dodać plik JAR do classpath projektu.
-- **IDE według własnego wyboru** – Eclipse, IntelliJ IDEA lub NetBeans będą działały równie dobrze.
+- **Java Development Kit (JDK)** – kompatybilny JDK zainstalowany na twoim komputerze. Pobierz go z [tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Biblioteka Aspose.BarCode for Java** – pobierz najnowszą wersję ze [strony pobierania](https://releases.aspose.com/barcode/java/). Postępuj zgodnie z przewodnikiem instalacji, aby dodać plik JAR do classpath projektu.  
+- **IDE według wyboru** – Eclipse, IntelliJ IDEA lub NetBeans będą działać równie dobrze.
 
 ## Importowanie pakietów
 Dodaj wymagane importy do swojej klasy Java, aby móc pracować z generatorem kodów kreskowych i obiektami koloru.
@@ -43,7 +56,7 @@ import java.awt.Color;
 ## Przewodnik krok po kroku
 
 ### Krok 1: Określ katalogi
-Zdefiniuj, gdzie zostanie zapisany wygenerowany obraz kodu kreskowego. Dostosuj ścieżki do struktury swojego projektu.
+Określ, gdzie zostanie zapisany wygenerowany obraz kodu kreskowego. Dostosuj ścieżki do struktury swojego projektu.
 
 ```java
 String path = "Your Directory Path";
@@ -65,54 +78,51 @@ generator.getParameters().getBarcode().getCodeTextParameters().setColor(Color.RE
 ```
 
 ### Krok 4: Zapisz obraz kodu kreskowego
-Na koniec zapisz spersonalizowany kod kreskowy na dysku. Format obrazu (JPEG, PNG itp.) jest wywnioskowany z rozszerzenia pliku.
+Na koniec zapisz dostosowany kod kreskowy na dysku. Format obrazu (JPEG, PNG itp.) jest określany na podstawie rozszerzenia pliku.
 
 ```java
 generator.save(dataDir + "codeTextForegroundColor.jpg");
 ```
 
-> **Pro tip:** Jeśli potrzebujesz wygenerować kod kreskowy z określonym kolorem tła, użyj metod `generator.getParameters().getBarcode().getBarColor()` oraz `setBackColor()`.
+> **Wskazówka:** Jeśli potrzebujesz wygenerować kod kreskowy z określonym kolorem tła, użyj `generator.getParameters().getBarcode().setBackColor(Color.YOUR_BG)` oraz `generator.getParameters().getBarcode().setBarColor(Color.YOUR_BAR)`.
 
-## Dlaczego ustawiać kolor tekstu kodu kreskowego?
-Dostosowanie koloru tekstu pomaga:
-
-- Dopasowanie kodu kreskowego do identyfikacji wizualnej firmy.
-- Poprawa kontrastu na ciemnych lub kolorowych tłach.
-- Tworzenie atrakcyjnych wizualnie etykiet do materiałów marketingowych.
+## Typowe przypadki użycia
+- **Opakowanie zgodne z marką:** Dopasuj kolor tekstu do swojego logo, aby uzyskać spójny wygląd.  
+- **Paragony w trybie ciemnym:** Użyj jasnego koloru tekstu na ciemnym tle, aby kod kreskowy pozostał czytelny.  
+- **Materiały promocyjne:** Podkreśl tekst kontrastującym kolorem, aby przyciągnąć uwagę klientów.
 
 ## Typowe problemy i rozwiązania
-
 | Problem | Rozwiązanie |
 |-------|----------|
 | **Kolor tekstu się nie zmienia** | Upewnij się, że wywołujesz `setColor` **po** utworzeniu `BarcodeGenerator`, ale **przed** zapisaniem obrazu. |
 | **Nieobsługiwany kolor** | Użyj standardowych stałych `java.awt.Color` lub utwórz nowy `Color` z wartościami RGB. |
-| **Plik nie został zapisany** | Sprawdź, czy `dataDir` wskazuje istniejący folder z prawami zapisu. |
+| **Plik nie został zapisany** | Sprawdź, czy `dataDir` wskazuje na istniejący folder z prawami zapisu. |
 
 ## Najczęściej zadawane pytania (FAQ)
 
-### Czy mogę dostosować inne elementy kodu kreskowego przy użyciu Aspose.BarCode for Java?
-Tak, Aspose.BarCode oferuje szeroki zakres opcji dostosowywania, w tym wybór symbologii, regulację rozmiaru oraz dostosowanie czcionki tekstu.
+**P: Czy mogę dostosować inne aspekty kodu kreskowego przy użyciu Aspose.BarCode for Java?**  
+O: Tak, Aspose.BarCode oferuje szeroki zakres opcji personalizacji, w tym wybór symbologii, regulację rozmiaru, zmianę koloru pasków oraz stylizację czcionki tekstu.
 
-### Czy Aspose.BarCode jest kompatybilny z różnymi IDE Java?
-Zdecydowanie. Aspose.BarCode bezproblemowo integruje się z popularnymi IDE Java, takimi jak Eclipse, IntelliJ i NetBeans.
+**P: Czy Aspose.BarCode jest kompatybilny z różnymi IDE Java?**  
+O: Zdecydowanie. Biblioteka integruje się bezproblemowo z Eclipse, IntelliJ IDEA, NetBeans i innymi popularnymi środowiskami programistycznymi Java.
 
-### Gdzie mogę uzyskać wsparcie w sprawach związanych z Aspose.BarCode?
-Odwiedź [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), aby uzyskać pomoc od społeczności i ekspertów Aspose.
+**P: Gdzie mogę uzyskać wsparcie w sprawach związanych z Aspose.BarCode?**  
+O: Odwiedź [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), aby uzyskać pomoc od społeczności i ekspertów Aspose.
 
-### Czy dostępna jest darmowa wersja próbna Aspose.BarCode for Java?
-Tak, możesz zapoznać się z możliwościami Aspose.BarCode, pobierając darmową wersję próbną [tutaj](https://releases.aspose.com/).
+**P: Czy dostępna jest darmowa wersja próbna Aspose.BarCode for Java?**  
+O: Tak, możesz zapoznać się z możliwościami Aspose.BarCode, pobierając darmową wersję próbną z [tutaj](https://releases.aspose.com/).
 
-### Jak mogę zakupić licencję na Aspose.BarCode for Java?
-Przejdź na [stronę zakupu](https://purchase.aspose.com/buy), aby nabyć licencję i odblokować pełny potencjał Aspose.BarCode.
+**P: Jak mogę zakupić licencję na Aspose.BarCode for Java?**  
+O: Przejdź na [stronę zakupu](https://purchase.aspose.com/buy), aby nabyć licencję i odblokować pełny potencjał Aspose.BarCode.
 
 ## Podsumowanie
-Teraz wiesz, jak **ustawić kolor tekstu kodu kreskowego** w Javie przy użyciu Aspose.BarCode i jak łatwo **generować kod kreskowy w kolorze**, który spełnia Twoje wymagania projektowe. Aby uzyskać głębsze możliwości dostosowywania – takie jak zmiana kolorów pasków, dodawanie podpisów czy tworzenie wielostronicowych dokumentów z kodami kreskowymi – zapoznaj się z oficjalną [dokumentacją](https://reference.aspose.com/barcode/java/).
+Teraz wiesz, jak **ustawić kolor tekstu kodu kreskowego** w Javie przy użyciu Aspose.BarCode i jak łatwo **generować kod kreskowy w kolorze**, który spełnia Twoje wymagania projektowe. Aby uzyskać głębszą personalizację — taką jak zmiana kolorów pasków, dodawanie podpisów czy tworzenie wielostronicowych dokumentów z kodami kreskowymi — zapoznaj się z oficjalną [dokumentacją](https://reference.aspose.com/barcode/java/).
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-27  
-**Testowano z:** Aspose.BarCode 24.12 for Java  
-**Autor:** Aspose  
+**Last Updated:** 2026-05-04  
+**Tested With:** Aspose.BarCode 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
