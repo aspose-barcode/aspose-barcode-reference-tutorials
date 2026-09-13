@@ -185,18 +185,16 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 دليل خطوة بخطوة لإنشاء باركود PDF417 باستخدام لغة C# ومكتبة Aspose.BarCode for .NET.
 ### [ضبط حجم الباركود – دليل C# لإنشاء باركودات PDF417](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 دليل يوضح كيفية ضبط حجم باركود PDF417 في C# باستخدام Aspose.BarCode لتناسب مختلف التطبيقات والمساحات.
-
 ### [الباركود مع الأحرف الخاصة – دليل كامل لإنشاء PDF417 باستخدام Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
 تعلم كيفية إنشاء باركود PDF417 يحتوي على أحرف خاصة باستخدام Aspose.BarCode لـ .NET، مع نصائح الترميز وأمثلة الشفرة.
-
 ### [إنشاء باركود PDF417 في .NET – دليل برمجة كامل](./create-pdf417-barcode-in-net-complete-programming-guide/)
 دليل شامل لإنشاء باركود PDF417 في .NET مع شرح كامل للبرمجة وأمثلة عملية.
-
 ### [إنشاء باركود بالبيانات في C# – دليل خطوة بخطوة](./create-barcode-with-data-in-c-step-by-step-guide/)
 تعلم كيفية إنشاء باركود مع بيانات مخصصة في C# باستخدام Aspose.BarCode for .NET خطوة بخطوة.
-
 ### [كيفية قراءة PDF417 في C# – مثال كامل للباركود](./how-to-read-pdf417-in-c-complete-barcode-example/)
 تعلم كيفية قراءة باركود PDF417 باستخدام C# مع مثال كامل للباركود.
+### [كيفية إنشاء صورة باركود PDF417 في C# مع خيارات Macro PDF417](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+دليل خطوة بخطوة لإنشاء صورة باركود PDF417 في C# مع خيارات Macro PDF417 باستخدام Aspose.BarCode.
 
 ## الأسئلة المتكررة
 
@@ -219,13 +217,15 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 **آخر تحديث:** 2026-07-04  
 **تم الاختبار مع:** Aspose.BarCode 24.11 for .NET  
-**المؤلف:** Aspose
+**المؤلف:** Aspose.BarCode
 
 ## الدروس ذات الصلة
 
 - [كيفية إنشاء باركود – Compact PDF417 باستخدام Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [دروس شاملة وأمثلة على Aspose.BarCode for .NET](/barcode/net/)
 - [كيفية إنشاء باركود Aztec مع تصحيح الأخطاء في .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [كيفية إنشاء باركود pdf417 في C# – دليل خطوة بخطوة](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+- [كيفية فك تشفير باركود PDF417 في C# – دليل كامل](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
