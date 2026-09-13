@@ -150,7 +150,7 @@ Compact PDF417’s high data density and robust error correction make it suitabl
 เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างครบถ้วน พร้อมขั้นตอนและตัวอย่างโค้ด
 ### [วิธีอ่าน PDF417 ใน C# – คู่มือขั้นตอนเต็ม](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีอ่านบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและการตั้งค่า
-### [วิธีสร้างภาพบาร์โค้ดใน C# – คู่มือ MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
+### [วิธีสร้างภาพบาร์โค้ด MicroPdf417 ใน C# – คู่มือ MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
 เรียนรู้วิธีสร้างภาพบาร์โค้ด MicroPdf417 ด้วย C# โดยใช้ Aspose.BarCode for .NET พร้อมตัวอย่างโค้ด
 ### [สร้างบาร์โค้ด Micro PDF417 ด้วย C# – คู่มือฉบับสมบูรณ์](./generate-micro-pdf417-barcode-in-c-complete-guide/)
 เรียนรู้วิธีสร้างบาร์โค้ด Micro PDF417 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและการตั้งค่า
@@ -194,6 +194,9 @@ Compact PDF417’s high data density and robust error correction make it suitabl
 เรียนรู้วิธีสร้างบาร์โค้ดจากข้อมูลใน C# ด้วยขั้นตอนทีละขั้นตอนโดยใช้ Aspose.BarCode for .NET
 ### [วิธีอ่าน PDF417 ใน C# – ตัวอย่างบาร์โค้ดครบถ้วน](./how-to-read-pdf417-in-c-complete-barcode-example/)
 เรียนรู้วิธีอ่านบาร์โค้ด PDF417 ด้วย C# พร้อมตัวอย่างโค้ดเต็มรูปแบบและการตั้งค่าที่จำเป็น
+### [วิธีสร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมขั้นตอนและตัวอย่างโค้ด
+- [วิธีถอดรหัสบาร์โค้ด PDF417 ด้วย C# – คู่มือเต็ม](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 
 ## คำถามที่พบบ่อย
 
@@ -223,7 +226,8 @@ A: No external fonts are required; the library handles all rendering internally.
 - [วิธีสร้างบาร์โค้ด – Compact PDF417 ด้วย Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [บทแนะนำและตัวอย่างครบถ้วนของ Aspose.BarCode สำหรับ .NET](/barcode/net/)
 - [วิธีสร้างบาร์โค้ด Aztec พร้อมการแก้ไขข้อผิดพลาดใน .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [วิธีสร้างภาพบาร์โค้ด PDF417 ใน C# ด้วยตัวเลือก Macro PDF417](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+- [วิธีสร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

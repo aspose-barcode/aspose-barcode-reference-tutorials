@@ -26,7 +26,7 @@ schemas:
     text: '`Pdf417ErrorCorrectionLevel` property defines the Reed‑Solomon error‑correction
       level for PDF417 barcodes.'
   - name: Customize Appearance (Optional)
-    text: You can change foreground/background colors, margins, or add a caption.
+    text: You can change foreground/background colors, margins or add a caption.
   - name: Save the Barcode Image
     text: Export to any supported raster or vector format. > **Pro tip:** Reuse the
       same `BarcodeGenerator` instance when creating multiple barcodes in a loop to
@@ -201,7 +201,7 @@ Aprenda a gerar códigos de barras PDF417 completos usando Aspose.BarCode para .
 ### [Como ler PDF417 em C# – Exemplo completo de leitor de código de barras](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 Aprenda a ler códigos de barras PDF417 em C# usando Aspose.BarCode, com exemplo completo e passo a passo.
 
-### [Como criar código de barras PDF417 com Aspose – Guia completo passo a passo](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+### [Como criar código de barras PDF417 com Aspose – Guia completo passo a paso](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
 Aprenda a gerar códigos de barras PDF417 usando Aspose.BarCode para .NET com instruções detalhadas e exemplos de código.
 
 ### [Gerar Código de Barras PDF417 em C# – Criar Código de Barras PDF417 C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
@@ -221,6 +221,9 @@ Aprenda a gerar códigos de barras a partir de dados usando C# com instruções 
 
 ### [Como Ler PDF417 em C# – Exemplo Completo de Código de Barras](./how-to-read-pdf417-in-c-complete-barcode-example/)
 Aprenda a ler códigos PDF417 em C# com um exemplo completo, incluindo captura, decodificação e tratamento de erros.
+
+### [Como criar código de barras PDF417 em C# – guia passo a passo](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+Aprenda passo a passo a gerar códigos de barras PDF417 em C# usando Aspose.BarCode, com exemplos de código e dicas de implementação.
 
 ## Perguntas Frequentes
 
@@ -250,7 +253,8 @@ A: Não são necessárias fontes externas; a biblioteca lida com toda a renderiz
 - [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Comprehensive Tutorials and Examples of Aspose.BarCode for .NET](/barcode/net/)
 - [How to create Aztec barcode with error correction in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Como criar imagem de código de barras PDF417 em C# com opções Macro PDF417](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+- [Como decodificar códigos de barras PDF417 em C# – guia completo](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

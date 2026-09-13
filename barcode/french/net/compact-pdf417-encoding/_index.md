@@ -142,6 +142,9 @@ La haute densité de données et la correction d’erreurs robuste du Compact PD
 
 ## Tutoriels d’encodage Compact PDF417
 
+### [How to create pdf417 barcode in C# – step‑by‑step guide](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+
+
 ### [Créer des codes‑barres Compact PDF417](./compact-pdf417-basic-configuration/)
 Apprenez à générer des codes‑barres Compact PDF417 en utilisant Aspose.BarCode pour .NET. Guide complet avec des instructions étape par étape et des exemples de code.
 
@@ -249,9 +252,10 @@ A: Aucune police externe n’est requise ; la bibliothèque gère tout le rend
 ## Tutoriels associés
 
 - [Comment créer un code‑barres – Compact PDF417 avec Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Comment créer une image de code‑barres PDF417 en C# avec les options Macro PDF417](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
 - [Tutoriels complets et exemples d’Aspose.BarCode pour .NET](/barcode/net/)
 - [Comment créer un code‑barres Aztec avec correction d’erreurs en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Comment décoder les codes‑barres PDF417 en C# – guide complet](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

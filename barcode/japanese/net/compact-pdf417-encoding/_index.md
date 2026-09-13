@@ -200,7 +200,8 @@ Aspose.BarCode for .NET を使って PDF417 バーコードを作成する手順
 Aspose.BarCode for .NET を使い、C# でデータをエンコードしたバーコードを作成する手順とコード例を紹介します。
 
 ### [C# で PDF417 を読み取る方法 – 完全バーコード例](./how-to-read-pdf417-in-c-complete-barcode-example/)
-Aspose.BarCode for .NET を使用して C# で PDF417 バーコードを読み取る手順と完全なサンプルコードを解説します。
+
+### [C#でMacro PDF417オプションを使用してPDF417バーコード画像を作成する方法](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
 
 ## よくある質問
 
@@ -230,6 +231,8 @@ A: 外部フォントは不要です。ライブラリが内部で全てのレ�
 - [バーコード作成方法 – Aspose.BarCode を使用した Compact PDF417](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Aspose.BarCode for .NET の包括的なチュートリアルとサンプル](/barcode/net/)
 - [.NET でエラー訂正付き Aztec バーコードを作成する方法](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [C#でPDF417バーコードを作成する – ステップバイステップガイド](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+- [C#でPDF417バーコードをデコードする方法 – 完全ガイド](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

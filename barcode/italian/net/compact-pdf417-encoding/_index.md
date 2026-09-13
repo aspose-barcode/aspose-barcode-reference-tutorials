@@ -141,6 +141,9 @@ L'alta densità di dati e la robusta correzione degli errori di Compact PDF417 l
 - **Eccezioni di Licenza:** In un ambiente di prova, il codice a barre generato può includere una filigrana. Applica una licenza valida per rimuoverla.
 
 ## Tutorial di codifica Compact PDF417
+### [How to create PDF417 barcode image in C# with Macro PDF417 options](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+
+
 ### [Come generare un'immagine di codice a barre in C# – Guida MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
 ### [Genera codice a barre Micro PDF417 in C# – Guida completa](./generate-micro-pdf417-barcode-in-c-complete-guide/)
 ### [Come generare un codice a barre PDF417 con Aspose – Guida completa](./how-to-generate-pdf417-barcode-with-aspose-complete-guide/)
@@ -211,7 +214,8 @@ A: Nessun font esterno è richiesto; la libreria gestisce tutto il rendering int
 - [Come Creare Codice a Barre – Compact PDF417 con Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Tutorial Completi ed Esempi di Aspose.BarCode per .NET](/barcode/net/)
 - [Come creare un codice a barre Aztec con correzione degli errori in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Come creare un codice a barre PDF417 in C# – guida passo‑per‑passo](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+- [Come decodificare i codici a barre PDF417 in C# – guida completa](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
