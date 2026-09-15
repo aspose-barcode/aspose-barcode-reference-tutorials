@@ -223,6 +223,12 @@ Apprenez à générer un code-barres à partir de données en C# avec Aspose.Bar
 ### [Comment lire le PDF417 en C# – Exemple complet de code-barres](./how-to-read-pdf417-in-c-complete-barcode-example/)
 Apprenez à décoder les codes‑barres PDF417 en C# avec un exemple complet, incluant la lecture, la validation et la gestion des erreurs.
 
+### [Comment générer une image de code-barres PDF417 en C# avec Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+Apprenez à créer une image de code-barres PDF417 en C# en utilisant la bibliothèque Aspose.BarCode.
+
+### [Lire plusieurs codes-barres C# – Guide complet avec PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
+Apprenez à lire plusieurs codes-barres PDF417 en C# avec Aspose.BarCode, incluant la détection et le décodage en lot.
+
 ## Questions fréquentes
 
 **Q : Quelle est la quantité maximale de données que je peux stocker dans un code‑barres Compact PDF417 ?**  

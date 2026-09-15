@@ -78,6 +78,9 @@ Aspose.BarCode for .NET ile .NET'te barkod oluşturmayı öğrenin. Bu kapsamlı
 Aspose.BarCode for .NET'i kullanarak tek boyutlu barkodlar oluştururken istisnaları nasıl ele alacağınızı öğrenin. Bu adım adım kılavuz, hataya dayanıklı barkod çözümleri sağlar. Şimdi başla!
 ### [Tek Boyutlu Geniş-Dar Oranlı Yapılandırma](./one-dimensional-wide-narrow-ratio-configuration/)
 Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. Tek boyutlu geniş-dar oranlı yapılandırma için adım adım kılavuz.
+### [Görüntüden Barkod Okuma – C# barkod okuyucu örneği](./read-barcode-from-image-c-barcode-reader-example/)
+Aspose.BarCode kullanarak C# ile bir görüntüden barkod okuma örneğini adım adım öğrenin.
+
 ### [Metinden Barkod Oluşturma – Aspose.BarCode ile C# Kılavuzu](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Aspose.BarCode kullanarak C# ile metinden barkod oluşturmayı öğrenin. Adım adım kılavuzumuzla kolayca başlayın.
 ### [C#'ta Barkod Oluşturma – Tam Programlama Kılavuzu](./how-to-generate-barcode-in-c-complete-programming-guide/)
