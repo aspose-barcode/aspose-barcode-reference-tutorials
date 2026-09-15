@@ -1,0 +1,7 @@
+Title: Encode non ASCII characters in QR code and save QR code image
+Slug: encode-non-ascii-characters-in-qr-code-and-save-qr-code-imag
+Category: general
+ProcessedDate: 2026-09-10T14:41:50.832609
+SourceRepo: AI Search API
+Keywords: encode non ascii characters, save qr code image
+PRNumber: 120

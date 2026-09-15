@@ -1,0 +1,7 @@
+Title: Generate barcode image in C# with Aspose.BarCode
+Slug: generate-barcode-image-in-c-with-aspose-barcode
+Category: general
+ProcessedDate: 2026-08-06T14:50:01.923032
+SourceRepo: AI Search API
+Keywords: generate barcode image, how to generate databar, custom barcode size, create databar barcode, change barcode height
+PRNumber: 93

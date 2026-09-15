@@ -1,0 +1,7 @@
+Title: Create barcode PNG in Python – step‑by‑step guide
+Slug: create-barcode-png-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-08-03T11:31:22.184150
+SourceRepo: AI Search API
+Keywords: create barcode png, how to generate barcode image, generate planet barcode
+PRNumber: 91

@@ -1,0 +1,7 @@
+Title: How to generate barcode in C# – create barcode image c# with DataBar Expanded
+Slug: how-to-generate-barcode-in-c-create-barcode-image-c-with-dat
+Category: general
+ProcessedDate: 2026-08-22T15:54:53.341481
+SourceRepo: AI Search API
+Keywords: how to generate barcode, create barcode image c#
+PRNumber: 109

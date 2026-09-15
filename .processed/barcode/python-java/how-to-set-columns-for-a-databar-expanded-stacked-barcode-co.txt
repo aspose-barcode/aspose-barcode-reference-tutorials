@@ -1,0 +1,7 @@
+Title: How to set columns for a Databar Expanded Stacked barcode – complete C# guide
+Slug: how-to-set-columns-for-a-databar-expanded-stacked-barcode-co
+Category: general
+ProcessedDate: 2026-08-06T14:50:11.113143
+SourceRepo: AI Search API
+Keywords: how to set columns, how to generate barcode, how to set rows, barcode save file
+PRNumber: 93

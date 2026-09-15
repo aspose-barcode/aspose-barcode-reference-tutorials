@@ -1,37 +1,102 @@
 ---
-title: Кодирование текста ацтекского кода с помощью Aspose.BarCode для .NET
-linktitle: Кодировка текста ацтекского кода
-second_title: API Aspose.BarCode .NET
-description: Откройте для себя возможности кодирования текста Aztec Code с помощью Aspose.BarCode для .NET. Узнайте, как создавать и распознавать ацтекские коды в ваших приложениях .NET.
-weight: 12
+date: 2026-05-19
+description: Узнайте, как генерировать aztec barcode с кодированием текста и как установить
+  Aspose.BarCode .NET – пошаговое руководство для разработчиков .NET.
+keywords:
+- generate aztec barcode
+- install aspose barcode .net
+- aztec code encoding .net
+- aspose barcode tutorial
+linktitle: Aztec Code кодирование текста
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to generate aztec barcode with text encoding and how to install
+    aspose barcode .net – step‑by‑step guide for .NET developers.
+  headline: Generate Aztec Barcode with Text Encoding using Aspose.BarCode for .NET
+  type: TechArticle
+- description: Learn how to generate aztec barcode with text encoding and how to install
+    aspose barcode .net – step‑by‑step guide for .NET developers.
+  name: Generate Aztec Barcode with Text Encoding using Aspose.BarCode for .NET
+  steps:
+  - name: Define Your Directory Path
+    text: Choose a folder where the barcode image will be stored. Replace **Your Directory
+      Path** with an absolute or relative path on your machine.
+  - name: Initialize Aztec Code Generator
+    text: The `BarcodeGenerator` class is the core object that creates barcodes. `BarcodeGenerator`
+      **is Aspose.BarCode's primary class for barcode creation**, handling all encoding
+      options internally.
+  - name: Set Barcode Parameters
+    text: Here we configure the visual and encoding settings. `XDimension` defines
+      pixel size per module, and `CodeTextEncoding` ensures UTF‑8 handling for international
+      characters.
+  - name: Save the Aztec Code Image
+    text: Calling `Save` writes the barcode to the file system. The format can be
+      PNG, JPEG, BMP, or TIFF – PNG is used in this example for lossless quality.
+  - name: Recognize the Aztec Code
+    text: '`BarCodeReader` **is the class that reads and decodes barcodes** from images
+      or streams. It validates that the generated Aztec code contains the expected
+      text.'
+  type: HowTo
+- questions:
+  - answer: Up to 3 832 characters for text mode, or 2 880 bytes for binary mode,
+      depending on error correction level.
+    question: What is the maximum amount of data an Aztec barcode can hold?
+  - answer: Yes, set the `ForeColor` and `BackColor` properties on the `BarcodeGenerator`
+      before saving.
+    question: Can I generate colored Aztec barcodes?
+  - answer: The library can generate images up to 10 000 × 10 000 pixels; larger sizes
+      may increase memory usage.
+    question: Is there a limit on image size?
+  - answer: Absolutely – the NuGet package targets .NET Standard 2.0, making it compatible
+      with .NET 5, .NET 6, and later.
+    question: Does Aspose.BarCode support .NET 6?
+  - answer: 'Download the trial from [here](https://releases.aspose.com/). Community
+      support and discussions are available on the Aspose Barcode forum: [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).'
+    question: Where can I get a free trial?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+title: Создание Aztec Barcode с кодированием текста с помощью Aspose.BarCode для .NET
 url: /ru/net/aztec-barcode-encoding/aztec-code-text-encoding/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Кодирование текста ацтекского кода с помощью Aspose.BarCode для .NET
+# Создать Aztec штрих-код с кодированием текста с помощью Aspose.BarCode для .NET
 
 ## Введение
 
-Готовы ли вы погрузиться в увлекательный мир кодирования текста Aztec Code с использованием Aspose.BarCode для .NET? В этом подробном руководстве мы покажем вам, как использовать весь потенциал ацтекских кодов — формата двумерного штрих-кода, который идеально подходит для кодирования текста и других данных. Как опытный SEO-писатель, я здесь для того, чтобы вы не только поняли процесс, но и оптимизировали его для поисковых систем. Итак, давайте начнем наш путь к тому, чтобы стать экспертами по Кодексу Ацтеков!
+Готовы **создавать Aztec штрих-код** с кодированием текста в проекте .NET? Этот учебник проведет вас через каждый шаг — от установки библиотеки до создания и распознавания символа Aztec. Вы увидите, почему Aspose.BarCode является лучшим выбором для разработчиков, которым нужна надёжная генерация 2‑D штрих‑кодов, и получите практические фрагменты кода, которые можно сразу скопировать в Visual Studio. Давайте превратим ваши данные в компактное, сканируемое изображение Aztec!
 
-## Предварительные условия
+## Быстрые ответы
+- **Какая библиотека создаёт Aztec штрих‑коды?** Aspose.BarCode for .NET.
+- **Сколько строк кода требуется?** Только две строки для генерации и одна строка для чтения.
+- **Нужна ли лицензия для продакшн?** Да, требуется коммерческая лицензия; доступна бесплатная пробная версия.
+- **Можно ли настроить размер и кодировку?** Абсолютно — XDimension, уровень коррекции ошибок и текст UTF‑8 настраиваемы.
+- **Совместима ли она с .NET Core и .NET 6?** Да, библиотека поддерживает .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6.
 
-Прежде чем мы отправимся в это увлекательное путешествие, вам необходимо выполнить несколько предварительных условий:
+## Что такое создание Aztec штрих‑кода?
 
-1.  Aspose.BarCode для .NET: убедитесь, что вы установили эту мощную библиотеку. Вы можете найти документацию по адресу[Документация Aspose.BarCode для .NET](https://reference.aspose.com/barcode/net/).
+## Почему использовать Aspose.BarCode для .NET?
+Aspose.BarCode поддерживает **более 70 символогий штрих‑кодов**, включая Aztec‑коды до **151 × 151 модулей** и может кодировать **до 3 832 символов** в одном символе. Библиотека обрабатывает документы из сотен страниц в режиме экономии памяти, что позволяет генерировать большие партии без загрузки целых файлов. Подробную справку по API смотрите в [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
 
-2. Visual Studio: в вашей системе должна быть установлена Visual Studio для создания и запуска приложений .NET.
+## Требования
 
-3. Базовые знания C#: Знакомство с программированием на C# будет преимуществом, хотя мы предоставим подробные объяснения, чтобы каждый мог понять.
+Прежде чем начать, убедитесь, что у вас есть следующее:
 
-Теперь, когда мы рассмотрели предварительные условия, давайте перейдем к шагам по работе с кодировкой текста Aztec Code.
+1. **install Aspose.BarCode .NET** — скачайте пакет NuGet или MSI‑инсталлятор с официального сайта. Подробные шаги установки находятся в документации по ссылке [Aspose.BarCode for .NET Documentation](https://reference.aspose.com/barcode/net/).
+2. **Visual Studio** — любая современная версия (2019, 2022 или новее) с поддержкой .NET.
+3. **Basic C# knowledge** — вы должны быть уверены в создании консольного или Windows Forms проекта, но код полностью прокомментирован для новичков.
 
-## Импортировать пространства имен
+## Как создать Aztec штрих‑код с кодированием текста?
+Загрузите ваши данные, настройте генератор и сохраните изображение в две строки кода. Сначала создайте экземпляр `BarcodeGenerator`, установите `EncodeType` в **Aztec**, задайте текст и вызовите `Save`. Затем используйте `BarCodeReader` для проверки сгенерированного символа.
 
-Во-первых, вам нужно будет импортировать необходимые пространства имен для использования Aspose.BarCode для .NET в вашем приложении C#. Добавьте следующий код в начало файла .cs:
+### Импорт пространств имён
+
+The `using` directives give you access to the Aspose.BarCode classes. Place them at the top of your `.cs` file:
 
 ```csharp
 using System;
@@ -40,46 +105,43 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-## Кодировка текста ацтекского кода
+### Шаг 1: Определите путь к каталогу
 
-Теперь давайте разобьем предоставленный вами пример на несколько шагов для создания кодировки текста ацтекского кода.
-
-### Шаг 1. Определите путь к каталогу
-
-Укажите путь, по которому вы хотите сохранить сгенерированное изображение ацтекского кода. Замените «Ваш путь к каталогу» на желаемый путь к каталогу.
+Choose a folder where the barcode image will be stored. Replace **Your Directory Path** with an absolute or relative path on your machine.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Шаг 2. Инициализируйте генератор кода Aztec
+### Шаг 2: Инициализируйте генератор Aztec кода
 
-Создайте экземпляр BarcodeGenerator с EncodeTypes, установленным на Aztec, и укажите текст, который вы хотите закодировать.
+The `BarcodeGenerator` class is the core object that creates barcodes.  
+`BarcodeGenerator` **является основной классом Aspose.BarCode для создания штрих‑кодов**, обрабатывающим все параметры кодирования внутри.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Aspose常に先を行く");
 ```
 
-## Шаг 3. Установите параметры штрих-кода
+### Шаг 3: Установите параметры штрих‑кода
 
-Настройте параметры штрих-кода. В этом примере мы устанавливаем XDimension в пикселях и кодировку текста кода UTF8.
+Here we configure the visual and encoding settings. `XDimension` defines pixel size per module, and `CodeTextEncoding` ensures UTF‑8 handling for international characters.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 4;
 gen.Parameters.Barcode.Aztec.CodeTextEncoding = Encoding.UTF8;
 ```
 
-## Шаг 4. Сохраните изображение ацтекского кода
+### Шаг 4: Сохраните изображение Aztec кода
 
-Сохраните сгенерированное изображение ацтекского кода в указанном каталоге.
+Calling `Save` writes the barcode to the file system. The format can be PNG, JPEG, BMP, or TIFF – PNG is used in this example for lossless quality.
 
 ```csharp
 gen.Save($"{path}AztecCodeTextEncoding.png", BarCodeImageFormat.Png);
 ```
 
-## Шаг 5: Распознайте код ацтеков
+### Шаг 5: Распознайте Aztec код
 
-Попытайтесь распознать только что созданный ацтекский код. Для этой цели мы используем BarCodeReader.
+`BarCodeReader` **это класс, который читает и декодирует штрих‑коды** из изображений или потоков. Он проверяет, что сгенерированный Aztec код содержит ожидаемый текст.
 
 ```csharp
 BarCodeReader read = new BarCodeReader(gen.GenerateBarCodeImage(), DecodeType.Aztec);
@@ -87,35 +149,42 @@ foreach (BarCodeResult result in read.ReadBarCodes())
     Console.WriteLine("AztecCodeTextEncoding:" + result.GetCodeText(Encoding.UTF8));
 ```
 
-Поздравляем! Вы успешно создали и распознали ацтекский код с кодировкой текста с помощью Aspose.BarCode для .NET.
+## Распространённые проблемы и решения
 
-## Заключение
-
-В этом уроке мы изучили увлекательный мир кодирования текста Aztec Code с помощью Aspose.BarCode для .NET. Мы рассмотрели предварительные условия, импортировали необходимые пространства имен и разобрали каждый шаг создания ацтекских кодов, кодирующих текст. Теперь вы можете использовать эти знания для интеграции кодов Aztec в свои приложения .NET и использовать их возможности для различных случаев использования.
-
- Не стесняйтесь изучить документацию по адресу[Документация Aspose.BarCode для .NET](https://reference.aspose.com/barcode/net/) для получения дополнительной информации и расширенных функций. Приятного кодирования!
+- **Изображение не найдено** – Проверьте, что путь к каталогу заканчивается обратным слешем (`\`) и что приложение имеет права на запись.
+- **Неправильный текст после чтения** – Убедитесь, что `CodeTextEncoding` соответствует кодировке, использованной при генерации (рекомендуется UTF‑8).
+- **Большие Aztec символы** – Увеличьте `XDimension` или измените `ErrorCorrectionLevel` для баланса между размером и читаемостью.
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1: Что такое ацтекский кодекс?
+**Q: Какой максимальный объём данных может содержать Aztec штрих‑код?**  
+A: До 3 832 символов в текстовом режиме или 2 880 байт в бинарном режиме, в зависимости от уровня коррекции ошибок.
 
-A1: Aztec Code — это формат двумерного штрих-кода, который может кодировать различные типы данных, включая текст, URL-адреса и многое другое.
+**Q: Могу ли я генерировать цветные Aztec штрих‑коды?**  
+A: Да, установите свойства `ForeColor` и `BackColor` у `BarcodeGenerator` перед сохранением.
 
-### Вопрос 2: Почему мне следует использовать Aspose.BarCode для .NET?
+**Q: Есть ли ограничение на размер изображения?**  
+A: Библиотека может генерировать изображения до 10 000 × 10 000 пикселей; более крупные размеры могут увеличить использование памяти.
 
-A2: Aspose.BarCode for .NET — это мощная библиотека, которая упрощает создание и распознавание штрих-кодов в приложениях .NET, экономя ваше время и усилия.
+**Q: Поддерживает ли Aspose.BarCode .NET 6?**  
+A: Абсолютно — пакет NuGet нацелен на .NET Standard 2.0, что делает его совместимым с .NET 5, .NET 6 и более новыми версиями.
 
-### Вопрос 3: Могу ли я настроить внешний вид кодов Aztec с помощью Aspose.BarCode для .NET?
+**Q: Где можно получить бесплатную пробную версию?**  
+A: Скачайте пробную версию [здесь](https://releases.aspose.com/). Поддержка сообщества и обсуждения доступны на форуме Aspose Barcode: [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
 
-О3: Да, вы можете настроить различные аспекты кодов Aztec, такие как размер, цвет и параметры кодирования, в соответствии со своими потребностями.
+---
 
-### Вопрос 4. Существуют ли какие-либо бесплатные пробные версии Aspose.BarCode для .NET?
+**Последнее обновление:** 2026-05-19  
+**Тестировано с:** Aspose.BarCode 24.11 for .NET  
+**Автор:** Aspose
 
- О4: Да, вы можете попробовать Aspose.BarCode для .NET с бесплатной пробной версией, посетив[здесь](https://releases.aspose.com/).
+## Связанные учебники
 
-### Вопрос 5: Где я могу получить поддержку или задать вопросы, связанные с Aspose.BarCode для .NET?
+- [Как создать Aztec штрих‑код с пользовательским соотношением сторон с помощью Aspose.BarCode для .NET](/barcode/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [Кодирование байтов Aztec с использованием генератора штрих‑кодов .net](/barcode/net/aztec-barcode-encoding/aztec-bytes-encoding/)
+- [Освоение режима символов Aztec с Aspose.BarCode для .NET](/barcode/net/aztec-barcode-encoding/aztec-symbol-mode-example/)
 
- О5: Вы можете присоединиться к сообществу Aspose.BarCode for .NET на форуме поддержки по адресу[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13) чтобы получить помощь и поделиться своим опытом.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

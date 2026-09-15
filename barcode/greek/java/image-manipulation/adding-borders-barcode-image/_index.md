@@ -1,11 +1,18 @@
 ---
-date: 2025-12-21
-description: Μάθετε πώς να προσθέσετε περίγραμμα σε εικόνες barcode στη Java και να
-  δημιουργήσετε barcode με περίγραμμα χρησιμοποιώντας το Aspose.BarCode. Ακολουθήστε
-  αυτόν τον οδηγό βήμα‑βήμα για ένα επαγγελματικό, εκτυπώσιμο barcode.
-linktitle: Adding Borders to Barcode Image
+date: 2026-04-12
+description: Μάθετε πώς να δημιουργήσετε εικόνα barcode σε Java και να δημιουργήσετε
+  barcode με περίγραμμα χρησιμοποιώντας το Aspose.BarCode. Αυτός ο οδηγός βήμα‑βήμα
+  δείχνει πώς να προσθέσετε προσαρμόσιμο περίγραμμα για ένα επαγγελματικό, εκτυπώσιμο
+  barcode.
+keywords:
+- create barcode image java
+- generate barcode with border
+- Aspose.BarCode Java
+- barcode border customization
+- Java barcode generation
+linktitle: Προσθήκη περιγραμμάτων στην εικόνα barcode
 second_title: Aspose.BarCode Java API
-title: Πώς να προσθέσετε περιθώριο σε εικόνα barcode στην Java
+title: Πώς να δημιουργήσετε εικόνα barcode Java – Προσθήκη περιγράμματος με το Aspose
 url: /el/java/image-manipulation/adding-borders-barcode-image/
 weight: 10
 ---
@@ -14,31 +21,31 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Προσθέσετε Περιθώριο σε Εικόνα Barcode σε Java
+# Πώς να δημιουργήσετε Barcode Image Java – Προσθήκη περιγράμματος με Aspose
 
-Η δημιουργία εικόνων barcode σε Java είναι συχνή απαίτηση, και πολλοί προγραμματιστές αναρωτιούνται **πώς να προσθέσουν περιθώριο** ώστε το barcode να ξεχωρίζει σε εκτυπωμένα έγγραφα ή οθόνες. Σε αυτό το tutorial θα δείτε πώς να δημιουργήσετε barcode με περιθώριο χρησιμοποιώντας τη βιβλιοθήκη Aspose.BarCode, δίνοντάς σας πλήρη έλεγχο στο στυλ, το πλάτος, το χρώμα και τα περιθώρια.
+Creating barcode images in Java is a common requirement, and many developers wonder **how to add a border** to make the barcode stand out on printed documents or screens. In this guide you’ll **create barcode image java** and learn how to **generate barcode with border** using the Aspose.BarCode library, giving you full control over style, width, color, and margins.
 
 ## Εισαγωγή
 
-Η προσθήκη οπτικού περιθωρίου γύρω από ένα barcode μπορεί να βελτιώσει την αναγνωσιμότητα, να ταιριάζει με την εταιρική ταυτότητα και να βοηθήσει τους σαρωτές να εντοπίζουν τον κώδικα πιο γρήγορα. Παρακάτω θα περάσουμε βήμα-βήμα τις ακριβείς ενέργειες που απαιτούνται για την εφαρμογή προσαρμόσιμου περιθωρίου σε οποιοδήποτε barcode δημιουργείτε σε Java.
+Adding a visual border around a barcode can improve readability, match corporate branding, and help scanners locate the code more quickly. Below we’ll walk through the exact steps needed to apply a customizable border to any barcode you generate in Java.
 
 ## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη χρειάζεται;** Aspose.BarCode for Java
-- **Μπορώ να προσαρμόσω το χρώμα του περιθωρίου;** Ναι – οποιαδήποτε τιμή `java.awt.Color`
-- **Είναι το περιθώριο ορατό από προεπιλογή;** Όχι, πρέπει να ορίσετε `setVisible(true)`
-- **Ποιοι τύποι barcode λειτουργούν;** Όλες οι συμβολοσειρές που υποστηρίζονται από το Aspose.BarCode
-- **Χρειάζομαι άδεια για παραγωγή;** Ναι, απαιτείται εμπορική άδεια
+- **What library is needed?** Aspose.BarCode for Java  
+- **Can I customize border color?** Yes – any `java.awt.Color` value  
+- **Is the border visible by default?** No, you must set `setVisible(true)`  
+- **Which barcode types work?** All symbologies supported by Aspose.BarCode  
+- **Do I need a license for production?** Yes, a commercial license is required  
 
 ## Προαπαιτούμενα
 
-Πριν προχωρήσουμε, βεβαιωθείτε ότι έχετε:
+Before we dive in, make sure you have:
 
-- Περιβάλλον ανάπτυξης Java (JDK 8 ή νεότερο)
-- Aspose.BarCode for Java – κατεβάστε το από την επίσημη [σελίδα λήψης](https://releases.aspose.com/barcode/java/)
+- A Java development environment (JDK 8 or later)  
+- Aspose.BarCode for Java – download it from the official [download page](https://releases.aspose.com/barcode/java/)
 
 ## Εισαγωγή Πακέτων
 
-Για να ξεκινήσετε, εισάγετε τα απαραίτητα πακέτα στο έργο Java σας. Προσθέστε τις παρακάτω δηλώσεις import στην αρχή του αρχείου Java:
+To get started, import the necessary packages in your Java project. Add the following import statements at the beginning of your Java file:
 
 ```java
 import java.io.IOException;
@@ -47,7 +54,19 @@ import com.aspose.barcode.*;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Βήμα 1: Ρύθμιση του Barcode Generator
+## Ποια είναι η διαδικασία “Create Barcode Image Java”;
+
+The process consists of three core actions:
+
+1. **Instantiate** a `BarcodeGenerator` with the desired symbology and data.  
+2. **Configure** border properties (style, width, color, margins).  
+3. **Save** the resulting image to disk.
+
+Understanding each step helps you tweak the output for different branding or printing requirements.
+
+## Οδηγός βήμα‑βήμα
+
+### Βήμα 1: Ρύθμιση του Barcode Generator
 
 ```java
 // The path to the resource directory.
@@ -58,18 +77,18 @@ String dataDir = "Your Document Directory";
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
 ```
 
-Σε αυτό το βήμα δημιουργούμε ένα αντικείμενο `BarcodeGenerator` και επιλέγουμε **CODE_128** ως συμβολοσειρά. Μπορείτε να το αντικαταστήσετε με οποιονδήποτε άλλο τύπο χρειάζεστε για **δημιουργία barcode με περιθώριο**.
+In this step we create a `BarcodeGenerator` instance and choose **CODE_128** as the symbology. Feel free to replace it with any other type you need to **generate barcode with border**.
 
-## Βήμα 2: Ορισμός Στυλ Περιθωρίου σε Στερεό
+### Βήμα 2: Ορισμός στυλ περιγράμματος σε Solid
 
 ```java
 // Set border style to solid
 bb.getParameters().getBorder().setDashStyle(BorderDashStyle.SOLID);
 ```
 
-Μία στερεή γραμμή προσφέρει την πιο καθαρή εμφάνιση, αλλά μπορείτε να πειραματιστείτε με άλλες επιλογές `BorderDashStyle` αν προτιμάτε διακεκομμένο ή παύλο περιθώριο.
+A solid line gives the cleanest look, but you can experiment with other `BorderDashStyle` options if you prefer a dotted or dashed border.
 
-## Βήμα 3: Ορισμός Περιθωρίων Περιγράμματος
+### Βήμα 3: Ορισμός περιθωρίων περιγράμματος
 
 ```java
 // Set border margins for Top, Right, Left, and Bottom
@@ -79,80 +98,84 @@ bb.getParameters().getBarcode().getPadding().getLeft().setPixels(2f);
 bb.getParameters().getBarcode().getPadding().getBottom().setPixels(2f);
 ```
 
-Η ρύθμιση του padding εξασφαλίζει ότι το περιθώριο δεν συγκρούεται με τη ζώνη ησυχίας του barcode και προσφέρει ισορροπημένη εμφάνιση.
+Adjusting padding ensures the border doesn’t clash with the barcode’s quiet zone and gives a balanced appearance.
 
-## Βήμα 4: Ορισμός Πλάτους Περιγράμματος
+### Βήμα 4: Ορισμός πλάτους περιγράμματος
 
 ```java
 // Set border width
 bb.getParameters().getBorder().getWidth().setPixels(2.5f);
 ```
 
-Εδώ καθορίζουμε το πάχος της γραμμής του περιθωρίου. Τυπικές τιμές κυμαίνονται μεταξύ 1 και 5 pixel, ανάλογα με τις ανάγκες του σχεδίου σας.
+Here we define how thick the border line should be. Typical values are between 1 and 5 pixels, depending on your design needs.
 
-## Βήμα 5: Ορισμός Χρώματος Περιγράμματος
+### Βήμα 5: Ορισμός χρώματος περιγράμματος
 
 ```java
 // Set the border's color to red
 bb.getParameters().getBorder().setColor(Color.RED);
 ```
 
-Μπορείτε να αντικαταστήσετε το `Color.RED` με οποιοδήποτε `java.awt.Color` (π.χ., `Color.BLUE`, `new Color(0,128,0)`) για να ταιριάζει με την εταιρική σας ταυτότητα.
+You can replace `Color.RED` with any `java.awt.Color` (e.g., `Color.BLUE`, `new Color(0,128,0)`) to match your branding.
 
-## Βήμα 6: Ενεργοποίηση Περιθωρίου Εικόνας
+### Βήμα 6: Ενεργοποίηση περιγράμματος εικόνας
 
 ```java
 // Enable border to be shown in the barcode
 bb.getParameters().getBorder().setVisible(true);
 ```
 
-Χωρίς αυτή τη σημαία οι ρυθμίσεις περιθωρίου αγνοούνται, οπότε βεβαιωθείτε ότι είναι ορισμένη σε `true`.
+Without this flag the border settings are ignored, so be sure it’s set to `true`.
 
-## Βήμα 7: Αποθήκευση της Εικόνας
+### Βήμα 7: Αποθήκευση της εικόνας
 
 ```java
 // Save the image
 bb.save(dataDir + "barcode-image-borders.jpg");
 ```
 
-Η εικόνα barcode, τώρα περιτυλιγμένη με ένα κόκκινο στερεό περιθώριο, αποθηκεύεται στην τοποθεσία που καθορίσατε.
+The barcode image, now framed with a red solid border, is saved to the location you specified.
 
-## Γιατί να Προσθέσετε Περιθώριο στο Barcode σας;
+## Γιατί να προσθέσετε περίγραμμα στο Barcode σας;
 
-- **Βελτιωμένη Σάρωση:** Ένα σαφές περίγραμμα βοηθά τους φορητούς σαρωτές να εντοπίζουν τον κώδικα πιο γρήγορα.
-- **Συνεπής Επωνυμία:** Ταιριάστε το χρώμα του περιθωρίου με την εταιρική παλέτα σας.
-- **Αισθητική Έλξη:** Κάνει το barcode να φαίνεται πιο επαγγελματικό σε εκθέσεις, τιμολόγια και ετικέτες.
+- **Improved Scanning:** A clear perimeter helps handheld scanners locate the code faster.  
+- **Brand Consistency:** Match the border color to your corporate palette.  
+- **Aesthetic Appeal:** Makes the barcode look polished in reports, invoices, and labels.
 
-## Συχνά Προβλήματα & Επίλυση
+## Συχνά Προβλήματα & Αντιμετώπιση
 
 | Συμπτωμα | Πιθανή Αιτία | Διόρθωση |
-|----------|--------------|----------|
-| Το περιθώριο δεν εμφανίζεται | Παράλειψη `setVisible(true)` | Βεβαιωθείτε ότι η σημαία ορατότητας είναι ορισμένη |
-| Το περιθώριο επικαλύπτει το barcode | Πολύ μικρό padding | Αυξήστε τις τιμές padding |
-| Το χρώμα δεν εφαρμόζεται | Χρήση μη υποστηριζόμενου αντικειμένου `Color` | Χρησιμοποιήστε μια τυπική παρουσία `java.awt.Color` |
+|---------|--------------|----------|
+| Border not visible | `setVisible(true)` omitted | Ensure the visibility flag is set |
+| Border overlaps barcode | Padding too low | Increase padding values |
+| Color not applied | Using an unsupported `Color` object | Use a standard `java.awt.Color` instance |
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Μπορώ να προσαρμόσω περαιτέρω το στυλ του περιθωρίου;**  
-Α: Ναι, το Aspose.BarCode προσφέρει πολλαπλές επιλογές `BorderDashStyle` όπως `DOT`, `DASH` και `DASH_DOT`.
+**Q: Can I customize the border style further?**  
+A: Yes, Aspose.BarCode offers multiple `BorderDashStyle` options such as `DOT`, `DASH`, and `DASH_DOT`.
 
-**Ε: Είναι το Aspose.BarCode συμβατό με διαφορετικές συμβολοσειρές barcode;**  
-Α: Απόλυτα. Η βιβλιοθήκη υποστηρίζει ευρύ φάσμα συμβολοσειρών, ώστε να μπορείτε να **δημιουργήσετε barcode με περιθώριο** για QR, DataMatrix, PDF417 και άλλα.
+**Q: Is Aspose.BarCode compatible with different barcode symbologies?**  
+A: Absolutely. The library supports a wide range of symbologies, so you can **generate barcode with border** for QR, DataMatrix, PDF417, and more.
 
-**Ε: Μπορώ να αλλάξω το χρώμα του περιθωρίου δυναμικά βάσει ορισμένων συνθηκών;**  
-Α: Φυσικά. Μπορείτε να ορίσετε το χρώμα προγραμματιστικά πριν την αποθήκευση, π.χ., `if (isHighPriority) { setColor(Color.RED); } else { setColor(Color.GRAY); }`.
+**Q: Can I change the border color dynamically based on certain conditions?**  
+A: Certainly. You can set the color programmatically before saving, for example, using `if (isHighPriority) { setColor(Color.RED); } else { setColor(Color.GRAY); }`.
 
-**Ε: Πώς ενσωματώνω το Aspose.BarCode στο Maven project μου;**  
-Α: Προσθέστε την εξάρτηση Aspose.BarCode στο `pom.xml` όπως φαίνεται στην επίσημη [τεκμηρίωση](https://reference.aspose.com/barcode/java/).
+**Q: How do I integrate Aspose.BarCode into my Maven project?**  
+A: Add the Aspose.BarCode dependency to your `pom.xml` as shown in the official [documentation](https://reference.aspose.com/barcode/java/).
 
-**Ε: Υπάρχει δοκιμαστική έκδοση του Aspose.BarCode;**  
-Α: Ναι, μπορείτε να εξερευνήσετε το πλήρες σύνολο λειτουργιών κατεβάζοντας τη [δωρεάν δοκιμαστική έκδοση](https://releases.aspose.com/).
+**Q: Is there a trial version of Aspose.BarCode available?**  
+A: Yes, you can explore the full feature set by downloading the [free trial version](https://releases.aspose.com/).
+
+## Συμπέρασμα
+
+You now have a complete, end‑to‑end solution for **creating barcode image java** with a customizable border. By tweaking the border style, width, color, and padding, you can align the barcode’s appearance with any branding or printing requirement. Feel free to experiment with other symbologies and border configurations to suit your project’s needs.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2025-12-21  
-**Δοκιμασμένο Με:** Aspose.BarCode 24.11 for Java  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-04-12  
+**Tested With:** Aspose.BarCode 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

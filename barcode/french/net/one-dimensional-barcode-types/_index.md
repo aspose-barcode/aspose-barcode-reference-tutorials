@@ -81,6 +81,11 @@ Générez facilement des codes-barres personnalisés avec Aspose.BarCode pour .N
 ### [Lire le code-barres à partir d'une image – Exemple de lecteur de code-barres C#](./read-barcode-from-image-c-barcode-reader-example/)
 Apprenez à lire des codes-barres à partir d'images en C# avec Aspose.BarCode. Guide étape par étape pour l'intégration.
 
+### [Générer un code-barres à partir du texte avec Aspose.BarCode – Guide C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Apprenez à créer un code-barres à partir de texte en C# avec Aspose.BarCode. Guide étape par étape pour une intégration facile.
+### [Comment générer un code-barres en C# – Guide complet de programmation](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Découvrez comment générer des codes-barres en C# avec Aspose.BarCode pour .NET. Suivez notre guide complet étape par étape.
+
 ## Conclusion
 
 Dans cette série de didacticiels, nous avons plongé dans le monde des types de codes-barres unidimensionnels, en nous concentrant sur leur configuration et leur personnalisation. Avec Aspose.BarCode pour .NET, le processus est simplifié, garantissant que vous pouvez créer des codes-barres adaptés à vos besoins. Ainsi, que vous soyez un développeur chevronné ou débutant, ces didacticiels vous permettront d'exploiter la puissance des codes-barres unidimensionnels dans vos projets .NET. Commencez dès maintenant et libérez le potentiel de la technologie des codes-barres !

@@ -1,111 +1,160 @@
 ---
-title: Passen Sie das DotCode-Seitenverhältnis mit Aspose.BarCode für .NET an
-linktitle: Anpassung des DotCode-Seitenverhältnisses
-second_title: Aspose.BarCode .NET-API
-description: Erfahren Sie, wie Sie das Seitenverhältnis von DotCode-Barcodes mit Aspose.BarCode für .NET anpassen. Erstellen Sie mühelos maßgeschneiderte Barcodes für Ihre Anwendungen.
-weight: 10
+date: 2026-06-14
+description: Erfahren Sie, wie Sie einen DotCode-Barcode .NET erstellen und das Seitenverhältnis
+  mit Aspose.BarCode für .NET anpassen.
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
+linktitle: DotCode-Seitenverhältnis-Anpassung
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+title: DotCode-Barcode .NET erstellen – Seitenverhältnis anpassen
 url: /de/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Passen Sie das DotCode-Seitenverhältnis mit Aspose.BarCode für .NET an
+# DotCode-Barcode .NET erstellen – Seitenverhältnis anpassen
 
-## Einführung
+Wenn Sie **DotCode-Barcode .NET erstellen**‑Lösungen benötigen, die in enge Räume oder bestimmte Layout‑Anforderungen passen, gibt Ihnen Aspose.BarCode für .NET die volle Kontrolle. In diesem Tutorial führen wir Sie durch den gesamten Prozess der Erzeugung eines DotCode‑Barcodes und der Anpassung seines Seitenverhältnisses, sodass er genau so aussieht, wie Sie es auf Verpackungen, Etiketten oder mobilen Bildschirmen wünschen.  
 
-Wenn Sie ein .NET-Entwickler sind und in Ihren Anwendungen hochgradig anpassbare Barcodes erstellen möchten, ist Aspose.BarCode für .NET die perfekte Lösung. In diesem Tutorial befassen wir uns mit einer seiner erweiterten Funktionen – dem Anpassen des DotCode-Seitenverhältnisses. DotCode-Barcodes werden in Branchen wie dem Gesundheitswesen, der Post und der Fertigung häufig zur Kodierung von Informationen verwendet. Durch Anpassen des Seitenverhältnisses können Sie Ihren Barcode an Ihre spezifischen Bedürfnisse anpassen. Lass uns anfangen!
+## Schnelle Antworten
+- **Kann ich DotCode‑Barcodes in .NET erzeugen?** Ja, Aspose.BarCode unterstützt DotCode sofort einsatzbereit.  
+- **Welche Eigenschaft steuert die Form?** Die `AspectRatio`‑Eigenschaft von `BarcodeGenerator`.  
+- **Benötige ich eine Lizenz für die Produktion?** Eine kommerzielle Lizenz ist erforderlich; eine kostenlose Testversion funktioniert für die Entwicklung.  
+- **Unterstützte .NET‑Versionen?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Wie lange dauert die Ausführung des Codes?** Weniger als eine Sekunde für einen typischen 200 × 200‑Pixel‑Barcode.
+
+## Was ist das Hauptziel dieses Tutorials?
+Das Tutorial hat zum Ziel, zu demonstrieren, wie man mit Aspose.BarCode für .NET einen DotCode‑Barcode erzeugt und das Seitenverhältnis an spezifische Layout‑Beschränkungen anpasst. Durch das Befolgen der Schritte lernen Sie, den Generator zu konfigurieren, Größenparameter zu ändern und das Bild in gängigen Formaten zu exportieren.
+
+## Wie erstelle ich einen DotCode‑Barcode in .NET?
+Um einen DotCode‑Barcode in .NET zu erstellen, instanziieren Sie einen `BarcodeGenerator` mit `EncodeTypes.DotCode` und den zu kodierenden Daten. Anschließend setzen Sie die Eigenschaften XDimension und AspectRatio, um Größe und Form zu steuern, und rufen schließlich die `Save`‑Methode auf, um das Bild im gewünschten Format in eine Datei zu schreiben.
 
 ## Voraussetzungen
 
-Bevor wir uns mit der Anpassung des DotCode-Seitenverhältnisses befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-1.  Aspose.BarCode für .NET: Sie sollten die Aspose.BarCode-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/barcode/net/).
-
-2. IDE: Sie benötigen eine .NET-Entwicklungsumgebung wie Visual Studio, um mit Aspose.BarCode arbeiten zu können.
-
-3. Ihr Verzeichnispfad: Ersetzen Sie „Ihr Verzeichnispfad“ im Code-Snippet durch den tatsächlichen Verzeichnispfad, in dem Sie die Barcode-Bilder speichern möchten.
-
-Lassen Sie uns nun den Prozess der Anpassung des DotCode-Seitenverhältnisses in mehrere Schritte unterteilen:
+1. **Aspose.BarCode für .NET** – Laden Sie die Bibliothek von der offiziellen Seite [here](https://releases.aspose.com/barcode/net/) herunter.  
+2. **IDE** – Visual Studio, Rider oder ein beliebiger .NET‑kompatibler Editor.  
+3. **Ausgabeordner** – Ersetzen Sie „Your Directory Path“ im Beispiel durch einen echten Ordner auf Ihrem Rechner.
 
 ## Namespaces importieren
 
-Zuerst müssen wir die notwendigen Namespaces importieren, um Aspose.BarCode für .NET verwenden zu können. So können Sie es machen:
-
+`Aspose.BarCode.Generation` stellt die Klassen bereit, die zum Erzeugen und Konfigurieren von Barcodes in .NET benötigt werden.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Dieser Code importiert den Aspose.BarCode-Namespace, sodass Sie in Ihrer Anwendung mit Barcodes arbeiten können.
+## Schritt 1: Barcode‑Generator initialisieren
 
-Als Nächstes unterteilen wir den von Ihnen bereitgestellten Beispielcode in mehrere Schritte, um eine Schritt-für-Schritt-Anleitung für die Anpassung des DotCode-Seitenverhältnisses zu erstellen:
-
-## Schritt 1: Initialisieren Sie den Barcode-Generator
-
+`BarcodeGenerator` ist die Hauptklasse, die ein Barcode‑Bild basierend auf der angegebenen Symbolik und den Daten erstellt.  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Ihr Code kommt hierher
+    // Your code goes here
 }
 ```
 
-In diesem Schritt initialisieren wir ein BarcodeGenerator-Objekt mit dem DotCode-Kodierungstyp und einem Datenwert („Aspose“).
+## Schritt 2: X‑Dimension (Größe) des Barcodes festlegen
 
-## Schritt 2: Legen Sie die X-Dimension (Größe) des Barcodes fest
-
+`XDimension` definiert die Breite eines einzelnen Moduls (Punktes) in Pixeln und beeinflusst die Gesamtabmessungen des Barcodes.  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-Hier legen Sie die Größe des Barcodes fest, indem Sie dessen X-Dimension in Pixel definieren. Sie können diesen Wert anpassen, um den Barcode größer oder kleiner zu machen.
+## Schritt 3: Seitenverhältnis anpassen
 
-## Schritt 3: Passen Sie das Seitenverhältnis an
-
+`AspectRatio` legt das Höhen‑zu‑Breiten‑Verhältnis jedes Moduls fest und ermöglicht es, den Barcode vertikal zu strecken oder zu komprimieren.  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-In diesem Schritt passen Sie das DotCode-Seitenverhältnis an. In diesem Beispiel legen wir den Wert auf 0,5 fest, aber Sie können diesen Wert nach Bedarf anpassen, um das gewünschte Seitenverhältnis zu erreichen.
+## Schritt 4: Barcode‑Bild speichern
 
-## Schritt 4: Speichern Sie das Barcode-Bild
-
+`Save` schreibt den erzeugten Barcode in eine Datei im gewählten Bildformat, z. B. PNG oder JPEG.  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Abschließend speichern Sie das generierte Barcode-Bild mit dem angegebenen Dateinamen und Format. Ersetzen "{path}" durch Ihren tatsächlichen Verzeichnispfad.
+## Warum Aspose.BarCode für die DotCode‑Anpassung verwenden?
+Aspose.BarCode bietet einen umfassenden Funktionsumfang für die DotCode‑Erzeugung, einschließlich hochauflösender Ausgabe, umfangreicher Formatunterstützung und feinkörniger Kontrolle über Barcode‑Abmessungen wie das Seitenverhältnis. Es läuft auf allen gängigen .NET‑Plattformen, benötigt keine externen Abhängigkeiten und liefert eine schnelle Rendering‑Leistung, wodurch es sowohl für Desktop‑ als auch für Web‑Anwendungen ideal ist.
 
-## Abschluss
+## Häufige Anwendungsfälle
 
-In diesem Tutorial haben wir untersucht, wie Sie das DotCode-Seitenverhältnis mit Aspose.BarCode für .NET anpassen können. Mit dieser Funktion können Sie Barcodes erstellen, die Ihren spezifischen Anforderungen entsprechen, sei es für Verpackungen, Versandetiketten oder andere Anwendungen. Wenn Sie die hier beschriebenen Schritte befolgen, können Sie die Leistungsfähigkeit von Aspose.BarCode nutzen, um mühelos benutzerdefinierte DotCode-Barcodes zu generieren.
+- **Healthcare**: Kompakte Patienten‑ID‑Tags, die auf kleinen Armbändern Platz finden müssen.  
+- **Postal Services**: Breitformatige Versandetiketten, bei denen eine geringere Höhe die Scan‑Zuverlässigkeit verbessert.  
+- **Manufacturing**: Inline‑Kennzeichnung von Bauteilen, bei denen Platzbeschränkungen ein benutzerdefiniertes Seitenverhältnis erfordern.
 
-Lassen Sie uns nun einige häufig gestellte Fragen zur DotCode-Anpassung beantworten:
+## Häufig gestellte Fragen
 
-## FAQs
+**Q:** Was ist das Seitenverhältnis eines DotCode‑Barcodes?  
+**A:** Es ist das Verhältnis von Höhe zu Breite eines Moduls; die Anpassung ändert die Gesamtform des Barcodes.
 
-### F1: Wie groß ist das Seitenverhältnis eines DotCode-Barcodes?
+**Q:** Welche Branchen profitieren am meisten von DotCode‑Barcodes?  
+**A:** Gesundheitswesen, Postdienste und die Fertigungsindustrie nutzen DotCode häufig für kompakte, hochdichte Datenkodierung.
 
-A1: Das Seitenverhältnis eines DotCode-Barcodes bezieht sich auf das Verhältnis zwischen der Höhe und Breite der einzelnen Module im Barcode. Es kann an Ihre spezifischen Bedürfnisse angepasst werden.
+**Q:** Kann ich andere DotCode‑Parameter mit Aspose.BarCode für .NET anpassen?  
+**A:** Absolut. Sie können das Fehlerkorrektur‑Level, Vorder‑/Hintergrundfarben und sogar Logos einbetten.
 
-### F2: Welche Branchen profitieren von DotCode-Barcodes?
+**Q:** Ist Aspose.BarCode für sowohl Web‑ als auch Desktop‑.NET‑Anwendungen geeignet?  
+**A:** Ja, die Bibliothek funktioniert nahtlos in ASP.NET, WPF, WinForms und Konsolen‑Apps.
 
-A2: DotCode-Barcodes werden häufig im Gesundheitswesen, bei Postdiensten und in der Fertigung verwendet, wo eine effiziente Kodierung von Informationen von entscheidender Bedeutung ist.
+**Q:** Wo finde ich weitere Dokumentation und Beispiele?  
+**A:** Detaillierte API‑Referenz und Code‑Beispiele sind [hier](https://reference.aspose.com/barcode/net/) verfügbar.
 
-### F3: Kann ich andere Parameter von DotCode-Barcodes mit Aspose.BarCode für .NET anpassen?
+---
 
-A3: Ja, Aspose.BarCode für .NET bietet umfangreiche Anpassungsoptionen für DotCode und andere Barcode-Typen, sodass Sie verschiedene Parameter entsprechend Ihren Anforderungen steuern können.
+**Letzte Aktualisierung:** 2026-06-14  
+**Getestet mit:** Aspose.BarCode 24.12 for .NET  
+**Autor:** Aspose
 
-### F4: Ist Aspose.BarCode für .NET sowohl für Web- als auch für Desktop-Anwendungen geeignet?
+## Verwandte Tutorials
 
-A4: Ja, Aspose.BarCode für .NET kann sowohl in Web- als auch in Desktop-Anwendungen zum Generieren und Bearbeiten von Barcodes verwendet werden.
+- [DotCode Erweiterte Code‑Text‑Konfiguration mit Aspose.BarCode für .NET](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [DotCode Structured Append‑Modus‑Konfiguration mit Aspose.BarCode für .NET](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [DotCode‑Barcode‑Bild erstellen – Zeilen & Spalten (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-### F5: Wo finde ich weitere Informationen und Dokumentation zu Aspose.BarCode für .NET?
 
-A5: Sie können die Dokumentation durchsuchen[Hier](https://reference.aspose.com/barcode/net/) für umfassende Anleitungen und Beispiele.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

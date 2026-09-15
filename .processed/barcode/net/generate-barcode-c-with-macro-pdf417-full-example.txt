@@ -1,0 +1,7 @@
+Title: Generate barcode C# with Macro PDF417 – full example
+Slug: generate-barcode-c-with-macro-pdf417-full-example
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-08-19T10:16:17.337407
+SourceRepo: AI Search API
+Keywords: generate barcode c#, how to generate pdf417, create barcode custom text, generate barcode image file
+PRNumber: 104

@@ -81,6 +81,11 @@ url: /zh/net/one-dimensional-barcode-types/
 ### [读取条码（图像） – C# 条码读取示例](./read-barcode-from-image-c-barcode-reader-example/)
 了解如何使用 Aspose.BarCode 在 .NET 中读取图像中的条码。
 
+### [使用 Aspose.BarCode 从文本生成条形码 – C# 指南](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+了解如何使用 Aspose.BarCode 在 .NET 中通过文本生成条形码的 C# 示例。请遵循我们的分步指南。
+### [如何在 C# 中生成条码 – 完整编程指南](./how-to-generate-barcode-in-c-complete-programming-guide/)
+了解如何使用 Aspose.BarCode 在 C# 中完整生成条形码的步骤与技巧，涵盖从初始化到自定义的全流程。
+
 ## 结论
 
 在本教程系列中，我们深入研究了一维条形码类型的世界，重点关注它们的配置和自定义。借助 Aspose.BarCode for .NET，该过程变得简单，确保您可以创建适合您需求的条形码。因此，无论您是经验丰富的开发人员还是新手，这些教程都将帮助您在 .NET 项目中利用一维条形码的强大功能。立即开始，释放条码技术的潜力！

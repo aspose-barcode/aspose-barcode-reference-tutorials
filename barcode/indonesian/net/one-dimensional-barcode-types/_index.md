@@ -80,6 +80,11 @@ Pelajari cara menangani pengecualian saat membuat kode batang satu dimensi mengg
 Hasilkan kode batang khusus dengan mudah menggunakan Aspose.BarCode untuk .NET. Panduan langkah demi langkah untuk konfigurasi rasio lebar-sempit satu dimensi.
 ### [Baca barcode dari gambar – contoh pembaca barcode C#](./read-barcode-from-image-c-barcode-reader-example/)
 
+### [Menghasilkan barcode dari teks menggunakan Aspose.BarCode – Panduan C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Pelajari cara menghasilkan barcode dari teks di .NET menggunakan Aspose.BarCode dengan contoh kode C#. Ikuti panduan langkah demi langkah kami.
+### [Cara Membuat Barcode di C# – Panduan Pemrograman Lengkap](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Pelajari cara menghasilkan barcode di C# dengan panduan pemrograman lengkap menggunakan Aspose.BarCode untuk .NET.
+
 ## Kesimpulan
 
 Dalam seri tutorial ini, kita telah mempelajari dunia tipe barcode satu dimensi, dengan fokus pada konfigurasi dan penyesuaiannya. Dengan Aspose.BarCode untuk .NET, prosesnya menjadi sederhana, memastikan bahwa Anda dapat membuat kode batang yang disesuaikan dengan kebutuhan Anda. Jadi, apakah Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberdayakan Anda untuk memanfaatkan kekuatan kode batang satu dimensi dalam proyek .NET Anda. Mulailah sekarang dan keluarkan potensi teknologi barcode!

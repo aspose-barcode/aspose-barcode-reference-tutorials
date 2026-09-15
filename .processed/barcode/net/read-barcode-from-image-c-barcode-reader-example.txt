@@ -1,0 +1,7 @@
+Title: Read barcode from image – C# barcode reader example
+Slug: read-barcode-from-image-c-barcode-reader-example
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-07-31T06:31:13.731579
+SourceRepo: AI Search API
+Keywords: read barcode from image, c# barcode reader example
+PRNumber: 87

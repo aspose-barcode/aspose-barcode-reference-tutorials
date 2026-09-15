@@ -1,111 +1,160 @@
 ---
-title: Tùy chỉnh tỷ lệ khung hình DotCode với Aspose.BarCode cho .NET
-linktitle: Tùy chỉnh tỷ lệ khung hình DotCode
-second_title: API Aspose.BarCode .NET
-description: Tìm hiểu cách tùy chỉnh tỷ lệ khung hình mã vạch DotCode bằng Aspose.BarCode cho .NET. Tạo mã vạch phù hợp cho ứng dụng của bạn một cách dễ dàng.
-weight: 10
+date: 2026-06-14
+description: Tìm hiểu cách tạo mã vạch DotCode .NET và tùy chỉnh aspect ratio của
+  nó bằng Aspose.BarCode for .NET.
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
+linktitle: Tùy chỉnh Aspect Ratio cho DotCode
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+title: Tạo mã vạch DotCode .NET – Tùy chỉnh Aspect Ratio
 url: /vi/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chỉnh tỷ lệ khung hình DotCode với Aspose.BarCode cho .NET
+# Tạo mã vạch DotCode .NET – Tùy chỉnh tỷ lệ khung hình
 
-## Giới thiệu
+Nếu bạn cần **tạo mã vạch DotCode .NET** giải pháp phù hợp với không gian chật hẹp hoặc yêu cầu bố cục cụ thể, Aspose.BarCode cho .NET cung cấp cho bạn toàn quyền kiểm soát. Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quá trình tạo mã vạch DotCode và điều chỉnh tỷ lệ khung hình sao cho nó hiển thị chính xác như bạn mong muốn trên bao bì, nhãn mác hoặc màn hình di động.  
 
-Nếu bạn là nhà phát triển .NET đang tìm cách tạo mã vạch có khả năng tùy chỉnh cao trong ứng dụng của mình thì Aspose.BarCode for .NET là giải pháp hoàn hảo. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một trong những tính năng nâng cao của nó – tùy chỉnh tỷ lệ khung hình DotCode. Mã vạch DotCode được sử dụng rộng rãi trong các ngành như chăm sóc sức khỏe, dịch vụ bưu chính và sản xuất để mã hóa thông tin. Bằng cách điều chỉnh tỷ lệ khung hình, bạn có thể điều chỉnh mã vạch theo nhu cầu cụ thể của mình. Bắt đầu nào!
+## Câu trả lời nhanh
+- **Bạn có thể tạo mã vạch DotCode trong .NET không?** Có, Aspose.BarCode hỗ trợ DotCode ngay từ đầu.  
+- **Thuộc tính nào kiểm soát hình dạng?** Thuộc tính `AspectRatio` của `BarcodeGenerator`.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép thương mại; bản dùng thử miễn phí hoạt động cho phát triển.  
+- **Các phiên bản .NET được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Mã chạy mất bao lâu?** Ít hơn một giây cho mã vạch 200 × 200 pixel điển hình.
 
-## Điều kiện tiên quyết
+## Mục tiêu chính của hướng dẫn này là gì?
+Hướng dẫn nhằm minh họa cách tạo mã vạch DotCode bằng Aspose.BarCode cho .NET và cách điều chỉnh tỷ lệ khung hình để phù hợp với các ràng buộc bố cục cụ thể. Bằng cách thực hiện các bước, bạn sẽ học cách cấu hình trình tạo, sửa đổi các tham số kích thước và xuất ảnh ở các định dạng phổ biến.
 
-Trước khi chúng ta chuyển sang tùy chỉnh tỷ lệ khung hình DotCode, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Cách tạo mã vạch dotcode .net?
+Để tạo mã vạch DotCode trong .NET, khởi tạo một `BarcodeGenerator` với `EncodeTypes.DotCode` và dữ liệu bạn muốn mã hoá. Sau đó đặt các thuộc tính X‑Dimension và AspectRatio để kiểm soát kích thước và hình dạng, cuối cùng gọi phương thức `Save` để ghi ảnh vào tệp ở định dạng mong muốn.
 
-1.  Aspose.BarCode for .NET: Bạn nên cài đặt thư viện Aspose.BarCode. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/barcode/net/).
+## Yêu cầu trước
 
-2. IDE: Bạn cần có môi trường phát triển .NET, chẳng hạn như Visual Studio, để hoạt động với Aspose.BarCode.
-
-3. Đường dẫn thư mục của bạn: Thay thế "Đường dẫn thư mục của bạn" trong đoạn mã bằng đường dẫn thư mục thực tế mà bạn muốn lưu hình ảnh mã vạch.
-
-Bây giờ, hãy chia quá trình tùy chỉnh tỷ lệ khung hình DotCode thành nhiều bước:
+1. **Aspose.BarCode for .NET** – tải thư viện từ trang chính [here](https://releases.aspose.com/barcode/net/).  
+2. **IDE** – Visual Studio, Rider, hoặc bất kỳ trình chỉnh sửa nào tương thích với .NET.  
+3. **Thư mục đầu ra** – thay thế “Your Directory Path” trong mẫu bằng thư mục thực trên máy của bạn.
 
 ## Nhập không gian tên
 
-Đầu tiên, chúng ta cần nhập các không gian tên cần thiết để sử dụng Aspose.BarCode cho .NET. Đây là cách bạn có thể làm điều đó:
-
+`Aspose.BarCode.Generation` provides the classes needed to generate and configure barcodes in .NET.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Mã này nhập không gian tên Aspose.BarCode, cho phép bạn làm việc với mã vạch trong ứng dụng của mình.
+## Bước 1: Khởi tạo Trình tạo Mã vạch
 
-Tiếp theo, hãy chia mã ví dụ bạn đã cung cấp thành nhiều bước để tạo hướng dẫn từng bước cho việc tùy chỉnh tỷ lệ khung hình DotCode:
-
-## Bước 1: Khởi tạo Trình tạo mã vạch
-
+`BarcodeGenerator` is the main class that creates a barcode image based on the specified symbology and data.  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    // Mã của bạn ở đây
+    // Your code goes here
 }
 ```
 
-Trong bước này, chúng ta khởi tạo đối tượng BarcodeGenerator với kiểu mã hóa DotCode và giá trị dữ liệu ("Aspose").
+## Bước 2: Đặt X‑Dimension (Kích thước) của Mã vạch
 
-## Bước 2: Đặt kích thước X (Kích thước) của mã vạch
-
+`XDimension` defines the width of a single module (dot) in pixels, affecting the overall size of the barcode.  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-Tại đây, bạn đặt kích thước của mã vạch bằng cách xác định Kích thước X của mã vạch bằng pixel. Bạn có thể điều chỉnh giá trị này để làm cho mã vạch lớn hơn hoặc nhỏ hơn.
+## Bước 3: Tùy chỉnh Tỷ lệ Khung hình
 
-## Bước 3: Tùy chỉnh tỷ lệ khung hình
-
+`AspectRatio` sets the height‑to‑width proportion of each module, allowing you to stretch or compress the barcode vertically.  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-Bước này là nơi bạn tùy chỉnh tỷ lệ khung hình DotCode. Trong ví dụ này, chúng tôi đặt giá trị này thành 0,5 nhưng bạn có thể điều chỉnh giá trị này nếu cần để đạt được tỷ lệ khung hình mong muốn.
+## Bước 4: Lưu Ảnh Mã vạch
 
-## Bước 4: Lưu hình ảnh mã vạch
-
+`Save` writes the generated barcode to a file in the chosen image format, such as PNG or JPEG.  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-Cuối cùng, bạn lưu hình ảnh mã vạch được tạo với tên tệp và định dạng được chỉ định. Thay thế "{path}" bằng đường dẫn thư mục thực tế của bạn.
+## Tại sao nên sử dụng Aspose.BarCode để tùy chỉnh DotCode?
+Aspose.BarCode provides a comprehensive set of features for DotCode generation, including high‑resolution output, extensive format support, and fine‑grained control over barcode dimensions such as aspect ratio. It runs on all major .NET platforms, requires no external dependencies, and delivers fast rendering performance, making it ideal for both desktop and web applications.
 
-## Phần kết luận
+## Các trường hợp sử dụng phổ biến
 
-Trong hướng dẫn này, chúng ta đã khám phá cách tùy chỉnh tỷ lệ khung hình DotCode bằng Aspose.BarCode cho .NET. Tính năng này cho phép bạn tạo mã vạch đáp ứng các yêu cầu cụ thể của bạn, cho dù là dành cho bao bì, nhãn vận chuyển hay bất kỳ ứng dụng nào khác. Bằng cách làm theo các bước được nêu ở đây, bạn có thể khai thác sức mạnh của Aspose.BarCode để tạo mã vạch DotCode tùy chỉnh một cách dễ dàng.
-
-Bây giờ, hãy giải quyết một số câu hỏi phổ biến về tùy chỉnh DotCode:
+- **Chăm sóc sức khỏe**: Thẻ ID bệnh nhân gọn nhẹ cần vừa trên vòng tay nhỏ.  
+- **Dịch vụ bưu chính**: Nhãn vận chuyển rộng, nơi chiều cao thấp hơn cải thiện độ tin cậy khi quét.  
+- **Sản xuất**: Ghi nhãn linh kiện ngay trên dây chuyền, nơi hạn chế không gian yêu cầu tỷ lệ khung hình tùy chỉnh.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tỷ lệ khung hình của mã vạch DotCode là bao nhiêu?
+**Q:** Tỷ lệ khung hình của mã vạch DotCode là gì?  
+**A:** Đó là tỷ lệ chiều cao so với chiều rộng của một mô-đun; việc điều chỉnh nó thay đổi hình dạng tổng thể của mã vạch.
 
-Câu trả lời 1: Tỷ lệ khung hình của mã vạch DotCode đề cập đến tỷ lệ giữa chiều cao và chiều rộng của các mô-đun riêng lẻ trong mã vạch. Nó có thể được điều chỉnh cho phù hợp với nhu cầu cụ thể của bạn.
+**Q:** Ngành nào hưởng lợi nhất từ mã vạch DotCode?  
+**A:** Chăm sóc sức khỏe, dịch vụ bưu chính và sản xuất thường sử dụng DotCode cho việc mã hoá dữ liệu mật độ cao, gọn nhẹ.
 
-### Câu hỏi 2: Những ngành nào được hưởng lợi từ mã vạch DotCode?
+**Q:** Tôi có thể tùy chỉnh các tham số DotCode khác với Aspose.BarCode cho .NET không?  
+**A:** Chắc chắn. Bạn có thể thay đổi mức độ sửa lỗi, màu nền/tiền, và thậm chí nhúng logo.
 
-Câu trả lời 2: Mã vạch DotCode thường được sử dụng trong chăm sóc sức khỏe, dịch vụ bưu chính và sản xuất, trong đó việc mã hóa thông tin hiệu quả là rất quan trọng.
+**Q:** Aspose.BarCode có phù hợp cho cả ứng dụng web và desktop .NET không?  
+**A:** Có, thư viện hoạt động liền mạch trong ASP.NET, WPF, WinForms và ứng dụng console.
 
-### Câu hỏi 3: Tôi có thể tùy chỉnh các tham số khác của mã vạch DotCode bằng Aspose.BarCode cho .NET không?
+**Q:** Tôi có thể tìm tài liệu và ví dụ thêm ở đâu?  
+**A:** Tham khảo API chi tiết và các mẫu mã có sẵn [here](https://reference.aspose.com/barcode/net/).
 
-Câu trả lời 3: Có, Aspose.BarCode for .NET cung cấp các tùy chọn tùy chỉnh mở rộng cho DotCode và các loại mã vạch khác, cho phép bạn kiểm soát các thông số khác nhau để phù hợp với yêu cầu của mình.
+---
 
-### Câu hỏi 4: Aspose.BarCode cho .NET có phù hợp cho cả ứng dụng web và máy tính để bàn không?
+**Cập nhật lần cuối:** 2026-06-14  
+**Kiểm tra với:** Aspose.BarCode 24.12 cho .NET  
+**Tác giả:** Aspose
 
-Câu trả lời 4: Có, Aspose.BarCode cho .NET có thể được sử dụng trong cả ứng dụng web và máy tính để bàn để tạo và thao tác mã vạch.
+## Hướng dẫn liên quan
 
-### Câu hỏi 5: Tôi có thể tìm thêm thông tin và tài liệu về Aspose.BarCode cho .NET ở đâu?
+- [Cấu hình Văn bản Mã mở rộng DotCode với Aspose.BarCode cho .NET](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [Cấu hình Chế độ Nối cấu trúc DotCode với Aspose.BarCode cho .NET](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [Tạo ảnh mã vạch DotCode – hàng & cột (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-A5: Bạn có thể khám phá tài liệu[đây](https://reference.aspose.com/barcode/net/) để được hướng dẫn đầy đủ và có ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

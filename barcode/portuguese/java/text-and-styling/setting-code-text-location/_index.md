@@ -1,12 +1,18 @@
 ---
-date: 2025-12-27
-description: Aprenda a criar códigos de barras Data Matrix e como definir a localização
-  do texto do código de barras em Java usando Aspose.BarCode. Siga nosso guia passo
-  a passo para personalização completa.
-linktitle: Setting Code Text Location
+date: 2026-05-04
+description: Aprenda a criar um código de barras Data Matrix usando uma biblioteca
+  de códigos de barras Java e definir a localização do texto do código de barras acima
+  do símbolo com Aspose.BarCode. Siga nosso exemplo passo a passo de geração de código
+  de barras.
+keywords:
+- java barcode library
+- barcode generation example
+- barcode text above
+- customize barcode text
+linktitle: Configuração da localização do texto do código
 second_title: Aspose.BarCode Java API
-title: Criar código de barras Data Matrix e definir a localização do texto do código
-  em Java
+title: Criar código de barras Data Matrix com a biblioteca Java Barcode e definir
+  a localização do texto do código
 url: /pt/java/text-and-styling/setting-code-text-location/
 weight: 12
 ---
@@ -15,18 +21,29 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Criar código de barras Data Matrix e definir a localização do texto do código em Java
+# Criar código de barras Data Matrix com Biblioteca de Código de Barras Java e Definir a Localização do Texto do Código
 
 ## Introdução
 
-Gerar códigos de barras é uma necessidade rotineira para inventário, envio e muitas outras aplicações baseadas em Java. Com **Aspose.BarCode for Java** você pode **criar código de barras Data Matrix** rapidamente e controlar todos os aspectos visuais, incluindo onde o texto legível por humanos aparece. Neste tutorial, percorreremos os passos exatos para **criar código de barras Data Matrix** e demonstraremos **como definir o texto do código de barras** acima do símbolo para que corresponda às especificações de design.
+Se você está construindo um sistema de inventário, envio ou rastreamento em Java, descobrirá rapidamente que uma **java barcode library** confiável é essencial. Com **Aspose.BarCode for Java** você pode gerar um **Data Matrix barcode** em apenas algumas linhas de código e controlar totalmente o layout visual, incluindo onde o texto legível por humanos aparece. Neste tutorial, percorreremos um **barcode generation example** completo, mostraremos como **customize barcode text** a posição e explicaremos por que posicionar o texto acima do símbolo pode melhorar a usabilidade.
 
 ## Respostas Rápidas
 - **Qual biblioteca é usada?** Aspose.BarCode for Java  
 - **Qual tipo de código de barras é demonstrado?** Data Matrix  
-- **Como posicionar o texto do código?** Usando `CodeLocation.ABOVE`  
-- **É necessário uma licença para produção?** Sim, é necessária uma licença comercial  
-- **O código pode ser executado em Java 8+?** Absolutamente, ele suporta Java 8 e versões posteriores  
+- **Como posicionar o texto do código?** Using `CodeLocation.ABOVE` (you can also use `BELOW`)  
+- **É necessário uma licença para produção?** Yes, a commercial license is required  
+- **O código pode ser executado em Java 8+?** Absolutely, it supports Java 8 and later  
+
+## O que é uma biblioteca de código de barras Java?
+
+Uma **java barcode library** fornece aos desenvolvedores APIs prontas para criar, ler e estilizar códigos de barras 1‑D e 2‑D diretamente de aplicações Java. Ela abstrai as regras complexas de codificação e permite que você se concentre na lógica de negócios em vez do processamento de imagem de baixo nível.
+
+## Por que usar uma biblioteca de código de barras Java para exemplo de geração de código de barras?
+
+- **Velocidade:** Generate high‑quality barcodes in milliseconds.  
+- **Confiabilidade:** Built‑in compliance with ISO/IEC standards.  
+- **Flexibilidade:** Full control over size, color, margins, and **barcode text** placement.  
+- **Multiplataforma:** Works on any JVM‑based environment, from desktop apps to cloud services.
 
 ## O que é um código de barras Data Matrix?
 
@@ -34,14 +51,14 @@ Um código de barras Data Matrix é um símbolo bidimensional (2‑D) que armaze
 
 ## Por que definir a localização do texto do código de barras?
 
-Colocar o texto legível por humanos **acima**, **abaixo** ou **ao lado** do código de barras ajuda os usuários a verificar rapidamente os dados codificados sem precisar escanear. Ajustar a localização do texto melhora a consistência da interface do usuário e atende às diretrizes de branding.
+Colocar o texto legível por humanos **acima**, **abaixo** ou **ao lado** do código de barras ajuda os usuários a verificar rapidamente os dados codificados sem escanear. Ajustar a localização do texto melhora a consistência da UI, atende às diretrizes de marca e pode reduzir erros na entrada manual de dados.
 
 ## Pré-requisitos
 
 - Conhecimento básico de programação Java.  
 - Java Development Kit (JDK) instalado.  
 - Uma IDE como Eclipse ou IntelliJ IDEA.  
-- Biblioteca Aspose.BarCode for Java (faça o download [aqui](https://releases.aspose.com/barcode/java/)).  
+- Aspose.BarCode for Java library (download it from [here](https://releases.aspose.com/barcode/java/)).  
 
 ## Importar Pacotes
 
@@ -52,11 +69,12 @@ import com.aspose.barcode.generation.CodeLocation;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
+Essas importações dão acesso ao gerador de códigos de barras e à enumeração que controla a posição do texto.
+
 ## Guia passo a passo
 
 ### Etapa 1: Definir caminhos de diretório
-
-Especifique onde você deseja ler/gravar arquivos. Substitua os marcadores pelos caminhos reais em sua máquina.
+Especifique onde você deseja ler/gravar arquivos. Substitua os marcadores de posição pelos caminhos reais em sua máquina.
 
 ```java
 String path = "Your Directory Path";
@@ -64,7 +82,6 @@ String dataDir = "Your Document Directory";
 ```
 
 ### Etapa 2: Criar uma instância de BarcodeGenerator
-
 Instancie `BarcodeGenerator` com o tipo **Data Matrix** e forneça o texto do código que deseja codificar.
 
 ```java
@@ -72,31 +89,31 @@ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX,
         "GTIN:898978777776665655 " + "UID: 121212121212121212 " + "Batch:GH768 " + "Exp.Date:150923");
 ```
 
-### Etapa 3: Como definir a localização do texto do código de barras
-
-Use a enumeração `CodeLocation` para mover o texto legível por humanos. Neste exemplo, posicionamos o texto **acima** do código de barras.
+### Etapa 3: Definir a localização do texto do código de barras (personalizar texto do código de barras)
+Use a enumeração `CodeLocation` para mover o texto legível por humanos. Neste exemplo, posicionamos **acima** do código de barras.
 
 ```java
 generator.getParameters().getBarcode().getCodeTextParameters().setLocation(CodeLocation.ABOVE);
 ```
 
-### Etapa 4: Salvar a imagem do código de barras gerado
+> **Dica profissional:** Para posicionar o texto **abaixo** do símbolo, basta mudar `CodeLocation.ABOVE` para `CodeLocation.BELOW`.
 
+### Etapa 4: Salvar a imagem do código de barras gerado
 Finalmente, grave a imagem do código de barras no disco. O arquivo conterá o símbolo Data Matrix com o texto posicionado acima dele.
 
 ```java
 generator.save(dataDir + "codetextAbove.png");
 ```
 
-## Problemas Comuns e Soluções
-- **Texto não aparece:** Certifique-se de que está usando uma versão do Aspose.BarCode que suporte `CodeLocation`.  
-- **Erros no caminho do arquivo:** Verifique se `dataDir` termina com um separador de arquivos (`/` ou `\\`) apropriado para o seu SO.  
-- **Caracteres não suportados:** Data Matrix pode codificar apenas um conjunto limitado de caracteres; evite símbolos especiais que não estejam no padrão ISO/IEC 16022.  
+## Problemas comuns e soluções
+- **Texto não aparece:** Ensure you are using a version of Aspose.BarCode that supports `CodeLocation`.  
+- **Erros de caminho de arquivo:** Verify that `dataDir` ends with a file separator (`/` or `\\`) appropriate for your OS.  
+- **Caracteres não suportados:** Data Matrix can encode only a limited set of characters; avoid special symbols not in the ISO/IEC 16022 standard.  
 
 ## Perguntas Frequentes (FAQs)
 
 ### Q: Posso personalizar a aparência do código de barras gerado?
-A: Sim, Aspose.BarCode oferece opções extensas de personalização, permitindo controlar cores, margens e estilos de fonte.
+A: Sim, o Aspose.BarCode oferece amplas opções de personalização, permitindo controlar cores, margens e estilos de fonte.
 
 ### Q: O Aspose.BarCode é compatível com Java 8 e versões posteriores?
 A: Absolutamente, a biblioteca funciona com Java 8 e todas as versões subsequentes.
@@ -123,11 +140,11 @@ A: Use `generator.getParameters().getBarcode().getCodeTextParameters().setFontSi
 
 ## Conclusão
 
-Agora você aprendeu como **criar código de barras Data Matrix** em Java e controlar precisamente **como definir a localização do texto do código de barras** usando Aspose.BarCode. Experimente outros valores de `CodeLocation` e opções de estilo para atender aos requisitos de design da sua aplicação.
+Agora você aprendeu como **criar um código de barras Data Matrix** em Java usando uma **java barcode library** e controlar precisamente **como definir a localização do texto do código de barras** com o Aspose.BarCode. Experimente outros valores de `CodeLocation`, configurações de fonte e opções de cor para atender aos requisitos de design da sua aplicação.
 
 ---
 
-**Última atualização:** 2025-12-27  
+**Última atualização:** 2026-05-04  
 **Testado com:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 

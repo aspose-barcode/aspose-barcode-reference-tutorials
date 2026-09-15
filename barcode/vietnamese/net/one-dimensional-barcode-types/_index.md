@@ -81,6 +81,11 @@ Tạo mã vạch tùy chỉnh dễ dàng với Aspose.BarCode cho .NET. Hướng
 ### [Đọc mã vạch từ hình ảnh – ví dụ C#](./read-barcode-from-image-c-barcode-reader-example/)
 Hướng dẫn cách đọc mã vạch từ hình ảnh trong .NET bằng Aspose.BarCode và C# qua ví dụ thực tế.
 
+### [Tạo mã vạch từ văn bản bằng Aspose.BarCode – Hướng dẫn C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Hướng dẫn tạo mã vạch từ chuỗi văn bản trong C# bằng Aspose.BarCode, bao gồm các bước cấu hình và ví dụ thực tế.
+### [Cách tạo mã vạch trong C# – Hướng dẫn lập trình toàn diện](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách tạo mã vạch bằng C# sử dụng Aspose.BarCode, bao gồm các bước cấu hình và tùy chỉnh.
+
 ## Phần kết luận
 
 Trong loạt bài hướng dẫn này, chúng ta đã đi sâu vào thế giới của các loại mã vạch một chiều, tập trung vào cấu hình và tùy chỉnh của chúng. Với Aspose.BarCode cho .NET, quy trình này được thực hiện đơn giản, đảm bảo rằng bạn có thể tạo mã vạch phù hợp với nhu cầu của mình. Vì vậy, cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này sẽ giúp bạn khai thác sức mạnh của mã vạch một chiều trong các dự án .NET của mình. Hãy bắt đầu ngay bây giờ và giải phóng tiềm năng của công nghệ mã vạch!

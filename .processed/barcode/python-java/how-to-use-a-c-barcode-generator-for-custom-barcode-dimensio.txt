@@ -1,0 +1,7 @@
+Title: How to use a C# barcode generator for custom barcode dimensions
+Slug: how-to-use-a-c-barcode-generator-for-custom-barcode-dimensio
+Category: general
+ProcessedDate: 2026-08-22T15:54:49.434145
+SourceRepo: AI Search API
+Keywords: c# barcode generator, change barcode size, custom barcode dimensions, generate barcode multiple rows, adjust barcode dimensions
+PRNumber: 109

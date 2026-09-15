@@ -1,0 +1,7 @@
+Title: Barcode generator example in C# – set width and height
+Slug: barcode-generator-example-in-c-set-width-and-height
+Category: general
+ProcessedDate: 2026-08-03T11:31:17.182341
+SourceRepo: AI Search API
+Keywords: barcode generator example, how to change height, how to set width, how to generate barcode, create barcode image c#
+PRNumber: 91

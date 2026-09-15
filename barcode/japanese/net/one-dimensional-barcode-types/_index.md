@@ -81,6 +81,12 @@ Aspose.BarCode for .NET を使用して、カスタマイズされたバーコ�
 ### [画像からバーコードを読み取る – C# バーコードリーダーの例](./read-barcode-from-image-c-barcode-reader-example/)
 Aspose.BarCode を使用して C# で画像からバーコードを読み取る方法を学びます。
 
+### [Aspose.BarCode を使用してテキストからバーコードを生成する – C# ガイド](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Aspose.BarCode と C# を使って、テキストからバーコードを作成する手順をステップバイステップで解説します。
+
+### [C# でバーコードを生成する方法 – 完全プログラミングガイド](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Aspose.BarCode を使用して C# でバーコードを作成する完全なガイドです。ステップバイステップで解説します。
+
 ## 結論
 
 このチュートリアル シリーズでは、その構成とカスタマイズに焦点を当てて、1 次元バーコード タイプの世界を掘り下げてきました。 Aspose.BarCode for .NET を使用すると、プロセスがシンプルになり、ニーズに合わせたバーコードを作成できるようになります。したがって、経験豊富な開発者であっても、初心者であっても、これらのチュートリアルは、.NET プロジェクトで 1 次元バーコードの力を活用するのに役立ちます。今すぐ始めて、バーコードテクノロジーの可能性を解き放ちましょう!
