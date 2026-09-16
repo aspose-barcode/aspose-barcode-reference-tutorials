@@ -101,7 +101,7 @@ Scopri come leggere più codici a barre, incluso PDF417, usando C# e Aspose.BarC
 Scopri come creare codici a barre PDF417 con Aspose, passo dopo passo, includendo esempi e configurazioni avanzate.
 ### [Come leggere PDF417 in C# – Esempio completo di lettore di codici a barre](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 Scopri come leggere codici a barre PDF417 in C# con un esempio completo usando Aspose.BarCode.
-### [Come creare un codice a barre PDF417 con Aspose – Guida completa passo‑per‑passo](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+### [Come creare un codice a barre PDF417 con Aspose – Guida completa passo‑per‑step](./how-to-create-pdf417-barcode-with-aspose-complete-step‑per‑st/)
 Impara a generare codici a barre PDF417 con Aspose.BarCode per .NET, dalla configurazione alla personalizzazione, con esempi pratici.
 ### [Genera codice a barre PDF417 in C# – Crea PDF417 Barcode C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
 Scopri come generare un codice a barre PDF417 in C# con Aspose.BarCode, con esempi passo‑per‑step.
@@ -115,18 +115,197 @@ Impara a generare codici a barre PDF417 in .NET con esempi completi e consigli p
 Scopri come generare un codice a barre con dati personalizzati in C# usando Aspose.BarCode, con esempi chiari e istruzioni dettagliate.
 ### [Come leggere PDF417 in C# – Esempio completo di codice a barre](./how-to-read-pdf417-in-c-complete-barcode-example/)
 Scopri come leggere codici a barre PDF417 in C# con un esempio completo, includendo configurazione, decodifica e gestione degli errori.
-
 ### [Crea metadati del codice a barre PDF417 in C# – Guida completa passo‑per‑step...](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Scopri come aggiungere e gestire i metadati nei codici a barre PDF417 usando C# e Aspose.BarCode, con esempi pratici passo‑per‑step.
-
 ### [Genera codice a barre PDF417 in C# – Guida completa](./generate-pdf417-barcode-in-c-complete-guide/)
 Scopri come generare codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑passo, includendo esempi di codice e consigli pratici.
-
-### [Genera codice a barre PDF417 in C# – Guida completa passo‑per‑passo](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+### [Genera codice a barre PDF417 in C# – Guida completa passo‑per‑step](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
 Scopri come generare un codice a barre PDF417 in C# con Aspose.BarCode, seguendo una guida dettagliata passo‑per‑step.
-
 ### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
+
+### [Come creare un codice a barre macro PDF417 in C# usando Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+Guida passo‑per‑step per generare un codice a barre macro PDF417 in C# con Aspose.BarCode.
+
+### [Come generare un codice a barre PDF417 in C# – esempio compatto](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+Esempio compatto per generare un codice a barre PDF417 in C# con Aspose.BarCode.
+
+### [Come generare un codice a barre in C# con Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+Guida passo‑per‑step per creare un codice a barre in C# utilizzando Aspose.BarCode.
 
 ## Domande frequenti
 
@@ -136,7 +315,7 @@ R: Dipende dal livello di correzione degli errori e dal set di caratteri, ma tip
 **D: In che modo la correzione degli errori PDF417 differisce da altri tipi di codici a barre?**  
 R: PDF417 utilizza codici Reed‑Solomon, consentendo di scegliere un livello da 0 (nessuna correzione) a 8 (alta ridondanza), offrendo un controllo fine sull’affidabilità.
 
-**D: Posso generare un codice a barre Compact PDF417 in un’app console .NET Core?**  
+**D: Posso generare un codice a barre Compact PDF417 in un’app console .NET?**  
 R: Sì. Aspose.BarCode per .NET supporta pienamente .NET Core 3.1 e versioni successive.
 
 **D: È possibile personalizzare i colori di primo piano e di sfondo del codice a barre?**  
@@ -144,8 +323,6 @@ R: Assolutamente. Usa le proprietà `ForeColor` e `BackColor` del generatore per
 
 **D: Devo installare font o risorse aggiuntive?**  
 R: No, non sono richiesti font esterni; la libreria gestisce tutto il rendering internamente.
-
----
 
 **Ultimo aggiornamento:** 2026-01-09  
 **Testato con:** Aspose.BarCode 24.11 per .NET  

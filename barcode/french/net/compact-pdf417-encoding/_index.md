@@ -269,7 +269,9 @@ A: Aucune police externe n’est requise ; la bibliothèque gère tout le rend
 - [Comment créer un code‑barres – Compact PDF417 avec Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Tutoriels complets et exemples d’Aspose.BarCode pour .NET](/barcode/net/)
 - [Comment créer un code‑barres Aztec avec correction d’erreurs en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Comment créer un code‑barres macro PDF417 en C# avec Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+- [Comment générer un code‑barres PDF417 en C# – exemple compact](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+- [Comment générer un code‑barres en C# avec Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
