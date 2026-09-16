@@ -144,7 +144,6 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [在 C# 中產生 PDF417 條碼 – 完整步驟指南](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
 ### [在 C# 中讀取 PDF417 – 完整步驟指南](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 ### [如何在 C# 中產生條碼影像 – MicroPdf417 指南](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
-
 ### [在 C# 中產生 Micro PDF417 條碼 – 完整指南](./generate-micro-pdf417-barcode-in-c-complete-guide/)
 ### [使用 Aspose 建立 PDF417 條碼 – 完整指南](./create-pdf417-barcode-with-aspose-complete-guide/)
 完整說明如何使用 Aspose.BarCode for .NET 產生 PDF417 條碼，涵蓋設定、範例與最佳實踐。

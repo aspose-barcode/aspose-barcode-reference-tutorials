@@ -176,6 +176,22 @@ Leer hoe je een PDF417 barcode‑afbeelding maakt in C# met behulp van Aspose.Ba
 
 Leer hoe je met Aspose.BarCode meerdere PDF417‑barcodes in één scan kunt lezen met C#.
 
+### [PDF417 barcode maken in C# – stapsgewijze gids](./create-pdf417-barcode-in-c-step-by-step-guide/)
+
+Leer hoe je een PDF417 barcode maakt in C# met een stapsgewijze handleiding.
+
+### [PDF417 barcode genereren in C# – volledige gids met Aspose.BarCode](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+
+Leer hoe je een PDF417 barcode genereert in C# met een volledige stap‑voor‑stap handleiding.
+
+### [Hoe een barcode op te slaan als afbeelding – volledige C#-gids](./how-to-save-barcode-as-an-image-complete-c-guide/)
+
+Leer hoe je een barcode opslaat als PNG/JPEG met Aspose.BarCode in C# met een volledige stap‑voor‑stap handleiding.
+
+### [PDF417 barcode lezen in C# – barcodelezer voorbeeld](./read-pdf417-barcode-in-c-barcode-reader-example/)
+
+Leer hoe je een PDF417 barcode leest in C# met een voorbeeld van de barcodelezer.
+
 ## Veelgestelde Vragen
 
 ### [barcodegrootte aanpassen – C#-gids om PDF417-barcodes te genereren](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)

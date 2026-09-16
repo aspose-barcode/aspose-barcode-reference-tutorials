@@ -150,7 +150,6 @@ Lär dig att skapa PDF417‑streckkoder i C# med en fullständig steg‑för‑s
 Detaljerad guide för att generera PDF417‑streckkoder i C# med kodexempel och bästa praxis.
 ### [Hur man läser PDF417 i C# – Komplett steg‑för‑steg‑guide](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 Lär dig att läsa PDF417‑streckkoder i C# med en detaljerad steg‑för‑steg‑instruktion och kodexempel.
-
 ### [Hur man genererar streckkodsbild i C# – MicroPdf417‑guide](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
 Lär dig steg‑för‑steg hur du skapar en streckkodsbild med MicroPdf417 i C# med Aspose.BarCode.
 

@@ -182,6 +182,18 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [Чтение нескольких штрих‑кодов C# – Полное руководство с PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
 Узнайте, как считывать несколько штрих‑кодов, включая PDF417, с помощью Aspose.BarCode в C#.
 
+### [Создание штрих‑кода PDF417 на C# – пошаговое руководство](./create-pdf417-barcode-in-c-step-by-step-guide/)
+Пошаговое руководство по созданию штрих‑кода PDF417 на C# с использованием Aspose.BarCode.
+
+### [Генерация штрих‑кода PDF417 на C# – полное руководство с Aspose.BarCode](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+Полное пошаговое руководство по созданию штрих‑кода PDF417 на C# с использованием Aspose.BarCode.
+
+### [Как сохранить штрих‑код как изображение – полное руководство C#](./how-to-save-barcode-as-an-image-complete-c-guide/)
+Полное руководство по сохранению штрих‑кода в виде изображения с помощью Aspose.BarCode и C#.
+
+### [Чтение штрих‑кода PDF417 на C# – пример считывателя штрих‑кода](./read-pdf417-barcode-in-c-barcode-reader-example/)
+Пример кода на C# для чтения штрих‑кода PDF417 с помощью Aspose.BarCode.
+
 ## Часто задаваемые вопросы
 
 **В: Какой максимальный объём данных можно хранить в Compact PDF417 штрих‑коде?**  
