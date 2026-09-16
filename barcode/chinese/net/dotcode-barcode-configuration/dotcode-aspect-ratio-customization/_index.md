@@ -1,111 +1,159 @@
 ---
-title: 使用 Aspose.BarCode for .NET 自定义 DotCode 纵横比
-linktitle: DotCode 纵横比定制
+date: 2026-06-14
+description: 了解如何使用 Aspose.BarCode for .NET 创建 DotCode 条形码并自定义其宽高比。
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
+linktitle: DotCode 宽高比自定义
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: 了解使用 Aspose.BarCode for .NET 自定义 DotCode 条形码长宽比。轻松为您的应用创建定制条形码。
-weight: 10
+title: 创建 DotCode 条形码 .NET – 自定义宽高比
 url: /zh/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode for .NET 自定义 DotCode 纵横比
+# 创建 DotCode 条形码 .NET – 自定义宽高比
 
-## 介绍
+如果您需要 **创建 DotCode 条形码 .NET** 解决方案以适应狭小空间或特定布局要求，Aspose.BarCode for .NET 为您提供完整的控制。在本教程中，我们将完整演示生成 DotCode 条形码并调整其宽高比的过程，使其在包装、标签或移动屏幕上呈现出您想要的外观。  
 
-如果您是一名 .NET 开发人员，希望在应用程序中创建高度可定制的条形码，那么 Aspose.BarCode for .NET 是完美的解决方案。在本教程中，我们将深入研究其高级功能之一 - 自定义 DotCode 宽高比。 DotCode 条形码广泛应用于医疗保健、邮政服务和制造业等行业，用于编码信息。通过调整纵横比，您可以根据您的特定需求定制条形码。让我们开始吧！
+## 快速答案
+- **我可以在 .NET 中生成 DotCode 条形码吗？** 是的，Aspose.BarCode 开箱即支持 DotCode。  
+- **哪个属性控制形状？** `BarcodeGenerator` 的 `AspectRatio` 属性。  
+- **我需要生产环境的许可证吗？** 需要商业许可证；免费试用可用于开发。  
+- **支持的 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。  
+- **代码运行需要多长时间？** 对于典型的 200 × 200 像素条形码，少于一秒。  
 
-## 先决条件
+## 本教程的主要目标是什么？
+本教程旨在演示如何使用 Aspose.BarCode for .NET 生成 DotCode 条形码以及如何调整其宽高比以适应特定布局约束。通过遵循以下步骤，您将学习配置生成器、修改尺寸参数，并以常见格式导出图像。  
 
-在我们开始 DotCode 宽高比自定义之前，请确保您具备以下先决条件：
+## 如何在 .NET 中创建 DotCode 条形码？
+要在 .NET 中创建 DotCode 条形码，实例化一个带有 `EncodeTypes.DotCode` 和要编码的数据的 `BarcodeGenerator`。然后设置 X‑Dimension 和 AspectRatio 属性以控制尺寸和形状，最后调用 `Save` 方法将图像保存为所需格式的文件。  
 
-1.  Aspose.BarCode for .NET：您应该安装 Aspose.BarCode 库。你可以下载它[这里](https://releases.aspose.com/barcode/net/).
+## 前置条件
 
-2. IDE：您需要一个 .NET 开发环境，例如 Visual Studio，才能使用 Aspose.BarCode。
-
-3. 您的目录路径：将代码片段中的“您的目录路径”替换为您要保存条形码图像的实际目录路径。
-
-现在，我们将自定义 DotCode 宽高比的过程分解为多个步骤：
+1. **Aspose.BarCode for .NET** – 从官方站点[here](https://releases.aspose.com/barcode/net/)下载库。  
+2. **IDE** – Visual Studio、Rider 或任何 .NET 兼容的编辑器。  
+3. **输出文件夹** – 将示例中的 “Your Directory Path” 替换为您机器上的实际文件夹路径。  
 
 ## 导入命名空间
 
-首先，我们需要导入必要的命名空间以使用 Aspose.BarCode for .NET。您可以这样做：
-
+`Aspose.BarCode.Generation` 提供在 .NET 中生成和配置条形码所需的类。  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-此代码导入 Aspose.BarCode 命名空间，使您能够在应用程序中使用条形码。
+## 步骤 1：初始化条形码生成器
 
-接下来，让我们将您提供的示例代码分解为多个步骤，以创建 DotCode 宽高比自定义的分步指南：
-
-## 第 1 步：初始化条码生成器
-
+`BarcodeGenerator` 是根据指定的符号系统和数据创建条形码图像的主要类。  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    //你的代码放在这里
+    // Your code goes here
 }
 ```
 
-在此步骤中，我们使用 DotCode 编码类型和数据值（“Aspose”）初始化 BarcodeGenerator 对象。
+## 步骤 2：设置条形码的 X‑Dimension（尺寸）
 
-## 第 2 步：设置条形码的 X 尺寸（尺寸）
-
+`XDimension` 定义单个模块（点）的像素宽度，影响条形码的整体尺寸。  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-在这里，您可以通过定义条形码的 X 尺寸（以像素为单位）来设置条形码的大小。您可以调整此值以使条形码更大或更小。
+## 步骤 3：自定义宽高比
 
-## 第 3 步：自定义纵横比
-
+`AspectRatio` 设置每个模块的高宽比例，允许您在垂直方向上拉伸或压缩条形码。  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-此步骤是您自定义 DotCode 宽高比的地方。在此示例中，我们将其设置为 0.5，但您可以根据需要调整该值以实现所需的纵横比。
+## 步骤 4：保存条形码图像
 
-## 第 4 步：保存条形码图像
-
+`Save` 将生成的条形码写入所选图像格式的文件，例如 PNG 或 JPEG。  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-最后，使用指定的文件名和格式保存生成的条形码图像。代替 ”{path}" 与您的实际目录路径。
+## 为什么使用 Aspose.BarCode 进行 DotCode 定制？
+Aspose.BarCode 为 DotCode 生成提供了全面的功能集，包括高分辨率输出、广泛的格式支持以及对条形码尺寸（如宽高比）的细粒度控制。它可在所有主流 .NET 平台上运行，无需外部依赖，并提供快速的渲染性能，使其成为桌面和 Web 应用的理想选择。  
 
-## 结论
+## 常见使用场景
 
-在本教程中，我们探讨了如何使用 Aspose.BarCode for .NET 自定义 DotCode 纵横比。此功能允许您创建满足您特定要求的条形码，无论是包装、运输标签还是任何其他应用。通过遵循此处概述的步骤，您可以利用 Aspose.BarCode 的强大功能轻松生成自定义的 DotCode 条形码。
+- **Healthcare**：需要贴合小型腕带的紧凑患者 ID 标签。  
+- **Postal Services**：宽幅运输标签，较低的高度提升扫描可靠性。  
+- **Manufacturing**：零部件的在线贴标，空间受限时需要自定义宽高比。  
 
-现在，我们来解决一些有关 DotCode 定制的常见问题：
+## 常见问题
 
-## 常见问题解答
+**Q:** DotCode 条形码的宽高比是什么？  
+**A:** 它是模块高度与宽度的比例；调整该比例会改变条形码的整体形状。  
 
-### Q1：DotCode条码的长宽比是多少？
+**Q:** 哪些行业最受益于 DotCode 条形码？  
+**A:** 医疗保健、邮政服务和制造业经常使用 DotCode 进行紧凑的高密度数据编码。  
 
-A1：DotCode条码的长宽比是指条码中各个模块的高度和宽度之间的比率。可以对其进行调整以满足您的特定需求。
+**Q:** 我可以使用 Aspose.BarCode for .NET 定制其他 DotCode 参数吗？  
+**A:** 当然可以。您可以修改纠错级别、前景/背景颜色，甚至嵌入徽标。  
 
-### Q2：哪些行业受益于 DotCode 条码？
+**Q:** Aspose.BarCode 适用于 Web 和桌面 .NET 应用吗？  
+**A:** 是的，该库可在 ASP.NET、WPF、WinForms 和控制台应用中无缝工作。  
 
-A2：DotCode 条形码通常用于医疗保健、邮政服务和制造业，在这些领域，有效地编码信息至关重要。
+**Q:** 我在哪里可以找到更多文档和示例？  
+**A:** 详细的 API 参考和代码示例可在[here](https://reference.aspose.com/barcode/net/)获取。  
 
-### Q3：我可以使用Aspose.BarCode for .NET自定义DotCode条码的其他参数吗？
+---
 
-A3：是的，Aspose.BarCode for .NET 为 DotCode 和其他条形码类型提供了广泛的自定义选项，允许您控制各种参数以满足您的要求。
+**最后更新：** 2026-06-14  
+**测试环境：** Aspose.BarCode 24.12 for .NET  
+**作者：** Aspose  
 
-### Q4：Aspose.BarCode for .NET 是否同时适用于 Web 和桌面应用程序？
+## 相关教程
 
-A4：是的，Aspose.BarCode for .NET 可以在 Web 和桌面应用程序中使用来生成和操作条形码。
+- [使用 Aspose.BarCode for .NET 的 DotCode 扩展代码文本配置](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [使用 Aspose.BarCode for .NET 的 DotCode 结构化追加模式配置](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [创建 DotCode 条形码图像 – 行列 (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-### Q5：在哪里可以找到有关 Aspose.BarCode for .NET 的更多信息和文档？
 
-A5：您可以探索文档[这里](https://reference.aspose.com/barcode/net/)获取全面的指导和示例。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

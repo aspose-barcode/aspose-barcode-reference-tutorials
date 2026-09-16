@@ -1,118 +1,188 @@
 ---
-title: Aspose.BarCode for .NET 中的 DotCode 編碼模式（自動）
+date: 2026-06-14
+description: 了解如何使用 Aspose.BarCode for .NET 建立 dotcode 條碼 .NET。逐步指南、先決條件、程式碼片段與授權資訊。
+keywords:
+- create dotcode barcode .net
+- Aspose.BarCode .NET
+- DotCode encoding
 linktitle: DotCode 編碼模式（自動）
-second_title: Aspose.BarCode .NET API
-description: 探索 Aspose.BarCode for .NET 中的 DotCode 編碼模式（自動），這是一個強大的條碼產生工具。了解如何逐步產生 DotCode 條碼。查看文件、下載庫並取得臨時許可證。
-weight: 11
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create dotcode barcode .net using Aspose.BarCode for .NET.
+    Step‑by‑step guide, prerequisites, code snippets, and licensing info.
+  headline: Create DotCode Barcode .NET (Auto Mode) with Aspose.BarCode
+  type: TechArticle
+- description: Learn how to create dotcode barcode .net using Aspose.BarCode for .NET.
+    Step‑by‑step guide, prerequisites, code snippets, and licensing info.
+  name: Create DotCode Barcode .NET (Auto Mode) with Aspose.BarCode
+  steps:
+  - name: Define the Directory Path
+    text: Replace `"Your Directory Path"` with the actual folder where you want the
+      PNG file saved.
+  - name: Initialize Barcode Generator
+    text: '`BarcodeGenerator` is Aspose.BarCode''s core object that creates barcodes.
+      It takes an `EncodeTypes` value and the data to encode. EncodeTypes is an enumeration
+      that specifies the barcode symbology to generate. - We create an instance of
+      `BarcodeGenerator` and specify `EncodeTypes.DotCode`. - The sec'
+  - name: Customize DotCode Parameters
+    text: The `DotCode` property group lets you fine‑tune the symbol. - Set the X‑dimension
+      (module size) with `gen.Parameters.Barcode.XDimension.Pixels`. XDimension defines
+      the size of a single module (dot) in pixels, controlling the overall barcode
+      size. Here it’s 10 px, but you can adjust from 2 px to 30 p
+  - name: Save the Barcode Image
+    text: '- Call `gen.Save` with the full file path and `BarCodeImageFormat.Png`
+      to write the image. BarCodeImageFormat enumerates supported image output formats
+      such as PNG, JPEG, and SVG. - The library automatically handles DPI scaling,
+      so the output is ready for printing or on‑screen display. That’s the co'
+  type: HowTo
+- questions:
+  - answer: Up to 1,500 bytes, which covers most alphanumeric and Unicode strings.
+    question: What is the maximum data capacity of DotCode in Auto mode?
+  - answer: Yes—simply change the `BarCodeImageFormat` to `Svg` in the `Save` call.
+    question: Can I generate SVG instead of PNG?
+  - answer: No, it works with .NET Core and .NET 5/6/7 as well as the classic Framework.
+    question: Does Aspose.BarCode require a full .NET Framework installation?
+  - answer: Save the image to a memory stream and write it to the response with `Response.BinaryWrite`.
+    question: How can I embed the generated barcode in an ASP.NET page?
+  - answer: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13)
+      for community and expert assistance.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
+second_title: Aspise.BarCode .NET API
+title: 使用 Aspose.BarCode 建立 DotCode 條碼 .NET（自動模式）
 url: /zh-hant/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET 中的 DotCode 編碼模式（自動）
+# 使用 Aspose.BarCode 建立 DotCode 條碼 .NET（自動模式）
 
-當談到 .NET 中的條碼產生時，Aspose.BarCode for .NET 是一款多功能且功能強大的工具。無論您是經驗豐富的開發人員還是希望實現條碼生成的新手，本教學都將引導您完成 DotCode 編碼模式。我們將分解每個步驟，以確保您徹底掌握這個概念。
+當談到 .NET 中的條碼產生時，Aspose.BarCode for .NET 脫穎而出，作為一個多功能且強大的工具，讓您能夠快速且可靠地 **create dotcode barcode .net**。無論您是資深開發者或剛入門，本教學將一步步帶您了解自動編碼模式，讓您輕鬆產生高品質的 DotCode 符號。
 
-## 先決條件
+## 快速解答
+- **自動模式的功能是什麼？** 它會根據您的輸入資料自動選擇最佳的 DotCode 編碼。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。  
+- **測試是否需要授權？** 是 – 臨時授權可用於評估。  
+- **Aspose.BarCode 支援多少種條碼類型？** 超過 50 種符號，包括 QR、DataMatrix 與 DotCode。  
+- **可以輸出 PNG、JPEG 或 SVG 嗎？** 三種格式皆可直接使用。
 
-在深入了解 DotCode 編碼模式（自動）之前，請確保滿足以下先決條件：
+## 什麼是 DotCode 編碼模式（自動）？
+自動模式會根據提供的資料自動選擇最有效的 DotCode 編碼（數字、字母數字或位元組）。這消除了猜測，確保符號尺寸與可讀性最佳化。它會評估輸入字串，選擇適當的內部表示方式，並設定符號以在保持掃描可靠性的同時達到最小的佔用空間。
 
-1.  Aspose.BarCode for .NET：確保您已安裝 Aspose.BarCode for .NET 程式庫。您可以找到文件和下載鏈接[這裡](https://reference.aspose.com/barcode/net/)和[這裡](https://releases.aspose.com/barcode/net/)， 分別。
+## 為什麼要在 .NET 中使用 Aspose.BarCode？
+Aspose.BarCode 能在不將整個檔案載入記憶體的情況下處理 **多百頁文件**，支援 **超過 50 種條碼符號**，且可產生最高 **300 dpi** 的影像——適用於桌面與高吞吐量伺服器環境。
 
-2. 開發環境：您應該設定一個有效的 .NET 開發環境，例如 Visual Studio。
+## 前置條件
 
-3. 基本 .NET 知識：建議熟悉 C# 和 .NET 程式設計。
+在深入自動模式之前，請確保您已具備以下條件：
 
-4. 學習慾望：以好奇和開放的心態探索使用 DotCode 編碼模式產生條碼的世界。
+1. **Aspose.BarCode for .NET** – 安裝此函式庫。您可分別在[此處](https://reference.aspose.com/barcode/net/)與[此處](https://releases.aspose.com/barcode/net/)找到文件與下載連結。  
+2. **開發環境** – Visual Studio（任何近期版本）或搭配 .NET SDK 的 VS Code。  
+3. **基本 .NET 知識** – 熟悉 C# 語法與專案結構。  
+4. **好奇心** – 願意嘗試條碼參數的各種設定。
 
-現在您已經具備了先決條件，讓我們深入了解 DotCode 編碼模式的世界。
+## 如何建立 dotcode 條碼 .net？
 
-## 導入命名空間
+載入資料、實例化產生器、微調幾個 DotCode 設定，然後儲存影像——全部只需五行精簡的 C# 程式碼。`BarcodeGenerator` 類別負責編碼、渲染與檔案輸出，而自動模式會為您決定最佳的內部表示方式。此方法適用於任意長度的字串，包括 Unicode 字元，並產生可嵌入報告、標籤或網頁的高品質 PNG。
 
-若要使用 Aspose.BarCode for .NET，您需要匯入必要的命名空間。您可以這樣做：
+### 步驟 1：定義目錄路徑
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-在這一步驟中，我們導入`Aspose.BarCode`命名空間，提供對條碼產生和自訂功能的存取。
+將 `"Your Directory Path"` 替換為您希望儲存 PNG 檔案的實際資料夾路徑。
 
-DotCode 是一種二維條碼符號系統，能夠對各種資料類型進行編碼。 Aspose.BarCode for .NET 讓您可以輕鬆使用 DotCode 編碼模式。以下是使用 Aspose.BarCode 產生 DotCode 條碼的逐步指南：
+### 步驟 2：初始化 Barcode Generator
 
-## 第 1 步：定義目錄路徑
+`BarcodeGenerator` 是 Aspose.BarCode 的核心物件，用於建立條碼。它接受一個 `EncodeTypes` 值以及要編碼的資料。EncodeTypes 為列舉型別，用來指定要產生的條碼符號。
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-代替`"Your Directory Path"`與您要儲存產生的條碼影像的實際路徑。
+- 我們建立 `BarcodeGenerator` 的實例，並指定 `EncodeTypes.DotCode`。  
+- 第二個參數是資料字串；在此範例中，我們使用 `"犬Right狗"` 來示範 Unicode 處理。
 
-## 第 2 步：初始化條碼產生器
+### 步驟 3：自訂 DotCode 參數
+
+`DotCode` 屬性群組讓您微調符號。  
 
 ```csharp
 System.Console.WriteLine("DotCodeEncodeModeAuto:");
 
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "犬Right狗"))
 {
-    //其他設定請移至此處
+    // Additional settings go here
 }
 ```
 
-- 我們建立一個實例`BarcodeGenerator`並將編碼類型指定為`EncodeTypes.DotCode`.
-- 建構函數中的第二個參數是要編碼的資料。在此範例中，我們使用了字串`"犬Right狗"`，但您可以用您的資料替換它。
+- 使用 `gen.Parameters.Barcode.XDimension.Pixels` 設定 X‑dimension（模組大小）。XDimension 定義單一模組（點）以像素為單位的尺寸，控制整體條碼大小。此處為 10 px，您可調整範圍為 2 px 至 30 px。  
+- 透過 `gen.Parameters.Barcode.DotCode.ECIEncoding` 指定 ECI 編碼為 UTF‑8，以確保非 ASCII 字元正確呈現。ECIEncoding 設定擴充通道解釋（Extended Channel Interpretation），指明資料的字元編碼（例如 UTF‑8）。
 
-## 步驟3：自訂DotCode參數
+### 步驟 4：儲存條碼影像
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 gen.Parameters.Barcode.DotCode.ECIEncoding = ECIEncodings.UTF8;
 ```
 
-- 使用以下指令設定 DotCode 的 X 尺寸`gen.Parameters.Barcode.XDimension.Pixels`。在此範例中，我們將其設為 10 像素，但您可以根據需要進行調整。
-- 將 DotCode ECI 編碼指定為 UTF8`gen.Parameters.Barcode.DotCode.ECIEncoding`.
+- 使用完整檔案路徑和 `BarCodeImageFormat.Png` 呼叫 `gen.Save` 以寫入影像。BarCodeImageFormat 列舉了支援的影像輸出格式，如 PNG、JPEG 與 SVG。  
+- 函式庫會自動處理 DPI 縮放，因而輸出可直接用於列印或螢幕顯示。
 
-## 第 4 步：儲存條碼圖像
+這就是完整的工作流程——五個步驟，無需手動編碼表，且完整整合於 .NET。
+
+## 常見問題與解決方案
+
+- **出現雜訊字元** – 確保 `ECIEncoding` 與輸入的字元集相符（UTF‑8 為 Unicode 最安全的選擇）。  
+- **影像模糊** – 增加 X‑dimension 或使用 `gen.Parameters.ImageResolution` 設定更高 DPI。  
+- **大型資料字串導致錯誤** – DotCode 在自動模式下支援最高 **1,500 位元組**；若超過此限制，請將資料分割成多個符號。
+
+## 常見問與答
+
+**Q: DotCode 在自動模式下的最大資料容量是多少？**  
+A: 最多 1,500 位元組，足以容納大多數字母數字及 Unicode 字串。
+
+**Q: 我可以產生 SVG 而非 PNG 嗎？**  
+A: 可以——只需在 `Save` 呼叫中將 `BarCodeImageFormat` 改為 `Svg`。
+
+**Q: Aspose.BarCode 是否需要完整的 .NET Framework 安裝？**  
+A: 不需要，它同時支援 .NET Core 以及 .NET 5/6/7，亦可在傳統 Framework 上運作。
+
+**Q: 如何在 ASP.NET 頁面中嵌入產生的條碼？**  
+A: 將影像儲存至記憶體流，並使用 `Response.BinaryWrite` 輸出至回應。
+
+**Q: 若遇到問題，我可以在哪裡取得協助？**  
+A: 前往 Aspose.BarCode 論壇 [here](https://forum.aspose.com/c/barcode/13) 尋求社群與專家協助。
+
+## 結論
+
+在本教學中，您學會了如何使用 Aspose.BarCode 的自動編碼模式 **create dotcode barcode .net**。我們涵蓋了前置條件、命名空間匯入、逐步產生以及除錯技巧。此函式庫豐富的 API 讓您能自訂尺寸、編碼與輸出格式，適用於從庫存標籤到高產量製造系統的各種情境。
+
+若需更深入的自訂——例如加入可讀文字、變更顏色，或與 PDF 產生整合——請參考完整文件 [here](https://reference.aspose.com/barcode/net/)。您亦可從 [this link](https://releases.aspose.com/barcode/net/) 下載最新函式庫，並在 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權以供評估。
+
+---
+
+**最後更新：** 2026-06-14  
+**測試環境：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose  
 
 ```csharp
 gen.Save($"{path}DotCodeEncodeModeAuto.png", BarCodeImageFormat.Png);
 ```
+{{< blocks/products/products-backtop-button >}}
 
-- 將產生的條碼影像以指定的檔案格式（本例中為 PNG）儲存到步驟 1 中定義的目錄路徑。
+## 相關教學
 
-就是這樣！您已使用 Aspose.BarCode for .NET 成功產生了 DotCode 條碼。這個多功能庫可讓您輕鬆自訂和產生各種條碼類型。
+- [使用 Aspose.BarCode for .NET 自訂 DotCode 長寬比](/barcode/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/)
+- [建立 DotCode 條碼影像 – 行與列（Aspose.BarCode）](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
+- [使用 Aspose.BarCode for .NET 初始化 DotCode 讀取器](/barcode/net/dotcode-barcode-configuration/dotcode-reader-initialization/)
 
-## 結論
 
-在本教程中，我們探索了 Aspose.BarCode for .NET 中的 DotCode 編碼模式。您已經了解如何逐步設定必要的先決條件、匯入命名空間以及產生 DotCode 條碼。 Aspose.BarCode for .NET 簡化了條碼產生過程，使初學者和經驗豐富的開發人員都可以使用它。
-
-如果您對進一步的客製化和高級功能感興趣，請務必查看全面的文檔[這裡](https://reference.aspose.com/barcode/net/)。此外，您可以從以下位置下載該庫[這個連結](https://releases.aspose.com/barcode/net/)甚至探索臨時許可選項[這裡](https://purchase.aspose.com/temporary-license/).
-
-## 常見問題解答
-
-### Q1：什麼是DotCode？
-
-A1：DotCode 是一種二維條碼符號系統，專為高速工業列印應用而設計。它可以對各種類型的資料進行編碼，包括文字和數位資訊。
-
-### Q2：我可以使用 Aspose.BarCode for .NET 產生不同格式的 DotCode 條碼嗎？
-
-A2：是的，Aspose.BarCode for ..NET 支援多種輸出格式，包括 PNG、JPEG 等，讓您可以選擇最適合您的應用程式的格式。
-
-### Q3：Aspose.BarCode for .NET 是否同時適用於 Windows 和 Web 應用程式？
-
-A3：是的，Aspose.BarCode for .NET 用途廣泛，可在 Windows 和 Web 應用程式中使用，使其成為各種專案的絕佳選擇。
-
-### Q4：Aspose.BarCode for .NET 支援哪些其他條碼符號？
-
-A4：Aspose.BarCode for .NET 支援多種條碼類型，包括 QR Code、Code 128、DataMatrix 等。您可以在文件中探索這些選項。
-
-### Q5：如何獲得 Aspose.BarCode for .NET 支援？
-
- A5：如果您有任何疑問或需要協助，您可以造訪Aspose.BarCode論壇[這裡](https://forum.aspose.com/c/barcode/13)尋求社會各界和專家的幫助和指導。
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

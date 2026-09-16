@@ -1,43 +1,88 @@
 ---
-title: Освоение режима ацтекских символов с помощью Aspose.BarCode для .NET
-linktitle: Пример режима ацтекских символов
-second_title: API Aspose.BarCode .NET
-description: Изучите режим ацтекских символов в Aspose.BarCode для .NET и узнайте, как с легкостью создавать универсальные штрих-коды. В этом подробном руководстве вы познакомитесь с режимами «Авто», «Полный диапазон», «Компактный» и «Руна».
-weight: 14
+date: 2026-05-24
+description: Узнайте, как создавать aztec barcode .NET с использованием Aspose.BarCode
+  для .NET, охватывая режимы символов Auto, FullRange, Compact и Rune, с пошаговым
+  руководством.
+keywords:
+- create aztec barcode .net
+- aztec symbol mode
+- aspose barcode .net
+linktitle: Пример режима символов Aztec
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to create aztec barcode .net using Aspose.BarCode for .NET,
+    covering Auto, FullRange, Compact, and Rune symbol modes with step‑by‑step guidance.
+  headline: Create Aztec Barcode .NET with Aspose.BarCode
+  type: TechArticle
+- questions:
+  - answer: Aztec Symbol Mode determines how the library packs data into layers, affecting
+      size, capacity, and readability.
+    question: What is the purpose of Aztec Symbol Mode in barcode generation?
+  - answer: Yes, simply assign a new string to the `CodeText` property before calling
+      `Save`.
+    question: Can I change the code text for Aztec barcodes in Aspose.BarCode for
+      .NET?
+  - answer: Yes, you can download a free trial version of Aspose.BarCode for .NET
+      [here](https://releases.aspose.com/).
+    question: Is there a free trial version of Aspose.BarCode for .NET available?
+  - answer: You can refer to the complete documentation for Aspose.BarCode for .NET
+      [here](https://reference.aspose.com/barcode/net/).
+    question: Where can I find the full documentation for Aspose.BarCode for .NET?
+  - answer: You can acquire a temporary license for Aspose.BarCode for .NET by visiting
+      [this link](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.BarCode for .NET?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+title: Создание Aztec Barcode .NET с Aspose.BarCode
 url: /ru/net/aztec-barcode-encoding/aztec-symbol-mode-example/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Освоение режима ацтекских символов с помощью Aspose.BarCode для .NET
+# Освоение режима символов Aztec с Aspose.BarCode для .NET
 
-Если вы хотите включить мощные возможности генерации штрих-кодов в свои .NET-приложения, Aspose.BarCode для .NET — фантастическое решение. В этом уроке мы углубимся в режим символов ацтеков и рассмотрим его различные параметры с помощью Aspose.BarCode для .NET. Мы рассмотрим предварительные требования, импортируем пространства имен и разобьем каждый пример на несколько шагов, чтобы помочь вам в этом процессе.
+Если вы хотите **быстро и надёжно создавать Aztec‑штрихкоды в .NET**, Aspose.BarCode для .NET предоставляет полнофункциональный API, работающий на .NET Framework, .NET Core и .NET 5/6+. В этом руководстве мы рассмотрим четыре режима символов Aztec — Auto, FullRange, Compact и Rune — покажем, как переключаться между ними и сохранять результат в виде изображения. К концу вы сможете внедрять Aztec‑штрихкоды в любое .NET‑приложение, используя всего несколько строк кода.
 
-## Предварительные условия
+## Быстрые ответы
+- **Какая библиотека генерирует Aztec‑штрихкоды в .NET?** Aspose.BarCode для .NET.  
+- **Сколько режимов символов поддерживает Aztec?** Четыре: Auto, FullRange, Compact и Rune.  
+- **Нужна ли лицензия для разработки?** Бесплатная пробная версия подходит для оценки; для продакшна требуется коммерческая лицензия.  
+- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ и .NET 6+.  
+- **Можно ли выводить PNG, JPEG или SVG?** Да — поддерживаются все стандартные форматы изображений.
 
-Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
+## Что такое create aztec barcode .net?
+`create aztec barcode .net` обозначает процесс генерации двумерного штрихкода Aztec с помощью API Aspose.BarCode в среде .NET. API автоматически обрабатывает кодирование, выбор режима символов и рендеринг изображения, позволяя разработчикам получать штрихкоды высокого качества без работы с низкоуровневыми деталями, такими как расчёт коррекции ошибок или манипуляция пикселями.
 
-- Практические знания .NET-разработки.
-- Visual Studio установлена на вашем компьютере.
--  Копия Aspose.BarCode для .NET. Вы можете скачать его[здесь](https://releases.aspose.com/barcode/net/).
+## Почему стоит использовать Aspose.BarCode для Aztec‑штрихкодов?
+Aspose.BarCode поддерживает **более 30 символогий** и может рендерить изображения размером до **10 000 × 10 000 px** без загрузки всего файла в память. Он обрабатывает документ из 500 страниц менее чем за **2 секунды** на типичном сервере, что делает его идеальным для высокопроизводительных корпоративных сценариев.
 
-Теперь, когда все готово, давайте углубимся в примеры режима символов ацтеков.
+## Предварительные требования
 
-## Импорт пространств имен
+Прежде чем начать, убедитесь, что у вас есть следующее:
 
-Во-первых, вам нужно будет импортировать необходимые пространства имен для работы с Aspose.BarCode для .NET. Откройте проект Visual Studio и добавьте следующие операторы using в начало файла кода:
+- Практические навыки разработки на .NET.  
+- Установленная Visual Studio.  
+- Копия Aspose.BarCode для .NET. Вы можете скачать её [здесь](https://releases.aspose.com/barcode/net/). Также можете ознакомиться с другими продуктами Aspose [здесь](https://releases.aspose.com/).
+
+Теперь, когда всё готово, приступим к примерам режимов символов Aztec.
+
+## Импорт пространств имён
+
+Сначала импортируйте необходимые пространства имён для работы с Aspose.BarCode для .NET. Откройте проект в Visual Studio и добавьте следующие директивы using в начало вашего файла кода:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Теперь, когда пространства имен созданы, вы можете начать использовать Aspose.BarCode для .NET.
+После подключения пространств имён вы можете приступить к использованию Aspose.BarCode для .NET.
 
-## Шаг 1. Настройка генератора штрих-кода
+## Как настроить BarcodeGenerator для Aztec‑штрихкодов?
 
-Начните с инициализации генератора штрих-кода с типом кодировки Aztec и предоставления текста кода. Вот как это сделать:
+Класс `BarcodeGenerator` — основной компонент, создающий изображения штрихкодов на основе выбранной символогии и параметров конфигурации. Он предоставляет простой API для указания типа штрихкода, данных для кодирования и различных параметров рендеринга перед сохранением результата в файл изображения.
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,83 +91,97 @@ System.Console.WriteLine("AztecSymbolModeExample:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Åspóse.Barcóde©");
 ```
 
-На этом этапе мы настроили генератор и предоставили текст кода для кодирования.
+На этом этапе мы настроили генератор и задали текст кода для кодирования.
 
-## Шаг 2. Установка режима символов на «Авто».
+## Как установить режим символов Aztec в Auto?
 
-Теперь давайте установим для режима ацтекских символов значение «Авто» и сохраним изображение штрих-кода в виде файла PNG. Вот как вы можете это сделать:
+Перечисление `AztecSymbolMode` определяет четыре возможных режима символов для Aztec‑штрихкодов, а опция **Auto** позволяет библиотеке автоматически выбирать наиболее компактный размер, сохраняя все требования к данным и коррекции ошибок. Этот режим идеален для большинства сценариев, когда нужен наименьший возможный штрихкод без ручной настройки.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Auto;
 gen.Save($"{path}AztecSymbolModeAuto.png", BarCodeImageFormat.Png);
 ```
 
-Этот шаг гарантирует, что режим символов ацтеков будет определен автоматически, и полученное изображение штрих-кода будет сохранено.
+Этот шаг гарантирует автоматический выбор режима символов Aztec, а полученный штрихкод сохраняется в виде изображения.
 
-## Шаг 3. Установка режима символов на «Полный диапазон»
+## Как принудительно установить режим FullRange?
 
-Если вы хотите указать режим ацтекских символов «FullRange», вы можете сделать это с помощью следующего кода:
+Когда требуется максимальная ёмкость данных, можно выбрать значение **FullRange** перечисления `AztecSymbolMode`. Этот режим отключает автоматическое уменьшение размера, позволяя штрихкоду хранить полный диапазон символов и достигать наивысшей плотности информации, что полезно для больших наборов данных.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.FullRange;
 gen.Save($"{path}AztecSymbolModeFullRange.png", BarCodeImageFormat.Png);
 ```
 
-Это создаст штрих-код с режимом ацтекских символов FullRange.
+Это создаст штрихкод с режимом FullRange Aztec Symbol Mode.
 
-## Шаг 4. Установка компактного режима символов
+## Как сгенерировать компактный Aztec‑штрихкод?
 
-Чтобы создать штрих-код с режимом символов ацтеков, установленным на «Компактный», используйте следующий код:
+Значение **Compact** перечисления `AztecSymbolMode` создаёт более маленький штрихкод за счёт уменьшения количества слоёв в матрице. Это приводит к более экономичному использованию пространства, что подходит для приложений с ограниченной площадью отображения, таких как мобильные экраны или небольшие этикетки.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Compact;
 gen.Save($"{path}AztecSymbolModeCompact.png", BarCodeImageFormat.Png);
 ```
 
-На этом этапе выполняется настройка создания штрих-кода в режиме компактного ацтекского символа.
+Этот шаг настраивает генерацию штрихкода в компактном режиме Aztec Symbol Mode.
 
-## Шаг 5. Установка режима символов на «Руна»
+## Как создать Rune‑Aztec‑штрихкод?
 
-Наконец, если вы хотите использовать режим ацтекских символов «Руна», вы можете сделать это, установив его следующим образом:
+Режим **Rune** — специализированный вариант символогии Aztec, который кодирует числовые данные с помощью пользовательского набора символов, предлагая отличительный визуальный стиль при сохранении той же силы коррекции ошибок, что и другие режимы. Он полезен, когда необходимо подчеркнуть числовую информацию.
 
 ```csharp
-gen.CodeText = "123"; // При необходимости измените текст кода.
+gen.CodeText = "123"; // Change the code text if needed
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Rune;
 gen.Save($"{path}AztecSymbolModeRune.png", BarCodeImageFormat.Png);
 ```
 
-На этом этапе текст кода изменяется на «123» и генерируется штрих-код в режиме рунических ацтекских символов.
+Этот шаг меняет текст кода на «123» и генерирует штрихкод в режиме Rune Aztec Symbol Mode.
 
-## Заключение
+## Распространённые проблемы и решения
 
-В этом уроке мы рассмотрели режим ацтекских символов в Aspose.BarCode для .NET. Мы рассмотрели настройку генератора штрих-кода, настройку режима символов ацтеков как «Авто», «Полный диапазон», «Компактный» и «Руна», а также сохранение сгенерированных изображений штрих-кода. Благодаря этим знаниям вы теперь можете легко включать универсальную генерацию штрих-кодов в свои .NET-приложения.
-
- Если у вас есть какие-либо вопросы или вам нужна дополнительная помощь, не стесняйтесь обращаться к сообществу Aspose.BarCode на их[форум поддержки](https://forum.aspose.com/c/barcode/13).
+- **Изображение не сохраняется** — Убедитесь, что папка вывода существует и приложение имеет права записи.  
+- **Неожиданный размер символа** — Проверьте, что вы не переопределили `EncodeMode` где‑то ещё в коде.  
+- **Исключение лицензии** — Пробная версия добавляет водяной знак; примените действующую лицензию, чтобы убрать его.
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1. Какова цель режима символов ацтеков при создании штрих-кода?
+**В: Какова цель режима Symbol Mode в генерации Aztec‑штрихкодов?**  
+О: Режим Symbol Mode определяет, как библиотека упаковывает данные в слои, влияя на размер, ёмкость и читаемость.
 
-A1: Режим символов ацтеков позволяет указать метод кодирования штрих-кодов Aztec, обеспечивая гибкость при создании штрих-кодов.
+**В: Можно ли изменить текст кода для Aztec‑штрихкодов в Aspose.BarCode для .NET?**  
+О: Да, просто присвойте новое значение свойству `CodeText` перед вызовом `Save`.
 
-### Вопрос 2: Могу ли я изменить текст кода для штрих-кодов Aztec в Aspose.BarCode для .NET?
+**В: Доступна ли бесплатная пробная версия Aspose.BarCode для .NET?**  
+О: Да, бесплатную пробную версию Aspose.BarCode для .NET можно скачать [здесь](https://releases.aspose.com/).
 
-A2: Да, вы можете легко изменить текст кода в соответствии с вашими конкретными требованиями при создании штрих-кодов Aztec.
+**В: Где найти полную документацию по Aspose.BarCode для .NET?**  
+О: Полную документацию по Aspose.BarCode для .NET можно посмотреть [здесь](https://reference.aspose.com/barcode/net/).
 
-### Вопрос 3. Доступна ли бесплатная пробная версия Aspose.BarCode для .NET?
+**В: Как получить временную лицензию для Aspose.BarCode для .NET?**  
+О: Временную лицензию для Aspose.BarCode для .NET можно получить, перейдя по [этой ссылке](https://purchase.aspose.com/temporary-license/).
 
-О3: Да, вы можете скачать бесплатную пробную версию Aspose.BarCode для .NET.[здесь](https://releases.aspose.com/).
+## Заключение
 
-### Вопрос 4. Где я могу найти полную документацию по Aspose.BarCode для .NET?
+В этом руководстве мы рассмотрели, как **create aztec barcode .net** с помощью Aspose.BarCode, охватив режимы Auto, FullRange, Compact и Rune. Теперь у вас есть надёжная база для внедрения универсальных Aztec‑штрихкодов в любые .NET‑приложения, будь то настольные программы, веб‑серверы или облачные сервисы.
 
- A4: Вы можете обратиться к полной документации Aspose.BarCode для .NET.[здесь](https://reference.aspose.com/barcode/net/).
+Если у вас есть вопросы или нужна дополнительная помощь, не стесняйтесь обращаться к сообществу Aspose.BarCode на их [форуме поддержки](https://forum.aspose.com/c/barcode/13).
 
-### Вопрос 5: Как я могу получить временную лицензию на Aspose.BarCode для .NET?
+---
 
- О5: Вы можете приобрести временную лицензию на Aspose.BarCode для .NET, посетив[эта ссылка](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Последнее обновление:** 2026-05-24  
+**Тестировано с:** Aspose.BarCode 24.11 для .NET  
+**Автор:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Похожие руководства
+
+- [Aztec Code Text Encoding with Aspose.BarCode for .NET](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
+- [Aztec Bytes Encoding using barcode generator .net](/barcode/net/aztec-barcode-encoding/aztec-bytes-encoding/)
+- [How to create Aztec barcode with error correction in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

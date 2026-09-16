@@ -1,0 +1,7 @@
+Title: Read barcode from image in C# – BarCodeReader tutorial
+Slug: read-barcode-from-image-in-c-barcodereader-tutorial
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-08-16T02:16:40.916167
+SourceRepo: AI Search API
+Keywords: read barcode from image, read multiple barcodes c#, how to read pdf417 barcode, c# barcodereader example
+PRNumber: 101

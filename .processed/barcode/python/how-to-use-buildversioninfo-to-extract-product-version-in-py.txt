@@ -1,0 +1,7 @@
+Title: How to use BuildVersionInfo to extract product version in Python
+Slug: how-to-use-buildversioninfo-to-extract-product-version-in-py
+Category: general
+ProcessedDate: 2026-09-13T18:39:18.837975
+SourceRepo: AI Search API
+Keywords: use buildversioninfo, extract product version
+PRNumber: 123

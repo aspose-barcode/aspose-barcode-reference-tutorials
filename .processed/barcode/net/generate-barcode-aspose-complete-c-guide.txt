@@ -1,0 +1,7 @@
+Title: Generate barcode aspose – complete C# guide
+Slug: generate-barcode-aspose-complete-c-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-08-12T22:19:08.889445
+SourceRepo: AI Search API
+Keywords: generate barcode aspose, how to generate pdf417, create barcode custom text
+PRNumber: 99

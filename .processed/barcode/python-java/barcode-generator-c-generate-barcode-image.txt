@@ -1,0 +1,7 @@
+Title: Barcode generator C# – generate barcode image
+Slug: barcode-generator-c-generate-barcode-image
+Category: general
+ProcessedDate: 2026-08-03T11:31:20.505802
+SourceRepo: AI Search API
+Keywords: barcode generator c#, generate barcode image
+PRNumber: 91

@@ -1,0 +1,7 @@
+Title: Barcode image PNG in C# generate barcodes, change height
+Slug: barcode-image-png-in-c-generate-barcodes-change-height
+Category: general
+ProcessedDate: 2026-08-16T02:33:59.323683
+SourceRepo: AI Search API
+Keywords: barcode image png, barcode generator c#, generate postal barcode, create planet barcode, change barcode height
+PRNumber: 102
