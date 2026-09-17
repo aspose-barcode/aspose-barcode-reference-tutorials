@@ -128,6 +128,12 @@ Scopri come generare un codice a barre PDF417 in C# con Aspose.BarCode, seguendo
 ### [Come leggere PDF417 in C# – Guida completa passo‑per‑step](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 Scopri come leggere codici a barre PDF417 in C# con Aspose.BarCode, passo‑per‑step, includendo esempi di codice e consigli pratici.
 
+### [Genera codice a barre PDF417 in C# – guida al generatore di codici a barre](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
+Scopri come generare codici a barre PDF417 in C# utilizzando il generatore di codici a barre di Aspose.
+
+### [Come salvare le immagini dei codici a barre in C# – guida completa](./how-to-save-barcode-images-in-c-complete-guide/)
+Scopri come salvare le immagini dei codici a barre generate con Aspose.BarCode in C#, con esempi di codice e opzioni di formato.
+
 ## Domande frequenti
 
 **D: Qual è la quantità massima di dati che posso memorizzare in un codice a barre Compact PDF417?**  

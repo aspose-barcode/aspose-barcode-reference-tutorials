@@ -141,6 +141,12 @@ Ismerje meg, hogyan olvashat PDF417 vonalkódokat C#‑ban az Aspose.BarCode for
 ### [Vonalkód létrehozása adatokkal C#‑ban – Lépésről‑lépésre útmutató](./create-barcode-with-data-in-c-step-by-step-guide/)
 ### [PDF417 olvasása C#‑ban – Teljes vonalkód példa](./how-to-read-pdf417-in-c-complete-barcode-example/)
 
+### [PDF417 vonalkód generálása C#‑ban – vonalkód generátor útmutató](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
+Ismerje meg, hogyan hozhat létre PDF417 vonalkódot C#‑ban az Aspose.BarCode segítségével, részletes lépésekkel és példákkal.
+
+### [Hogyan mentse el a vonalkód képeket C#‑ban – teljes útmutató](./how-to-save-barcode-images-in-c-complete-guide/)
+Ismerje meg, hogyan menthet és kezelhet vonalkód képeket C#‑ban az Aspose.BarCode segítségével, részletes lépésekkel és példákkal.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Mi a maximális adatmennyiség, amelyet egy Compact PDF417 vonalkódban tárolhatok?**  

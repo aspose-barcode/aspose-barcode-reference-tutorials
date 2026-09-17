@@ -192,6 +192,14 @@ Leer hoe je een barcode opslaat als PNG/JPEG met Aspose.BarCode in C# met een vo
 
 Leer hoe je een PDF417 barcode leest in C# met een voorbeeld van de barcodelezer.
 
+### [Genereer PDF417 barcode in C# – barcodegenerator gids](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
+
+Leer hoe je een PDF417 barcode genereert in C# met de Aspose.BarCode generator.
+
+### [Hoe barcode‑afbeeldingen op te slaan in C# – volledige gids](./how-to-save-barcode-images-in-c-complete-guide/)
+
+Leer hoe je barcode‑afbeeldingen opslaat in C# met Aspose.BarCode, inclusief code‑voorbeelden en best practices.
+
 ## Veelgestelde Vragen
 
 ### [barcodegrootte aanpassen – C#-gids om PDF417-barcodes te genereren](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
