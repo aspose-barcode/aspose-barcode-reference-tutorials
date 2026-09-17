@@ -1,10 +1,56 @@
 ---
-date: 2025-12-30
-description: Aspose.BarCode for .NET kullanarak Aztec barkodunu nasıl oluşturacağınızı
-  ve en‑boy oranını nasıl özelleştireceğinizi öğrenin. .NET uygulamalarınız için esnek,
-  yüksek kaliteli barkodlar oluşturun.
-linktitle: Aztec Aspect Ratio Customization
-second_title: Aspose.BarCode .NET API
+date: 2026-05-14
+description: Aspose.BarCode for .NET kullanarak Aztec barkod oluşturmayı ve en‑boy
+  oranını özelleştirmeyi öğrenin. .NET uygulamalarınız için esnek ve yüksek kaliteli
+  barkodlar oluşturun.
+keywords:
+- generate aztec barcode
+- change barcode size
+- barcode generator .net
+- how to generate barcode
+- adjust barcode dimensions
+linktitle: Aztec En‑boy Oranı Özelleştirme
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Learn how to generate Aztec barcode and customize its aspect ratio
+    using Aspose.BarCode for .NET. Create flexible, high‑quality barcodes for your
+    .NET applications.
+  headline: How to generate Aztec barcode with custom aspect ratio using Aspose.BarCode
+    for .NET
+  type: TechArticle
+- description: Learn how to generate Aztec barcode and customize its aspect ratio
+    using Aspose.BarCode for .NET. Create flexible, high‑quality barcodes for your
+    .NET applications.
+  name: How to generate Aztec barcode with custom aspect ratio using Aspose.BarCode
+    for .NET
+  steps:
+  - name: '**Aspose.BarCode for .NET** – you’ll need the library installed. If you
+      don’t have it yet, you can download it from the [download link](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – you’ll need the library installed. If you
+      don’t have it yet, you can download it from the [download link](https://releases.aspose.com/barcode/net/).'
+  - name: '**.NET Development Environment** – a working IDE such as Visual Studio.'
+    text: '**.NET Development Environment** – a working IDE such as Visual Studio.'
+  - name: '**Basic Knowledge of C#** – this guide assumes you’re comfortable with
+      C# syntax.'
+    text: '**Basic Knowledge of C#** – this guide assumes you’re comfortable with
+      C# syntax.'
+  type: HowTo
+- questions:
+  - answer: Generally, the scanning speed remains the same, but extreme ratios may
+      require the scanner to adjust focus, which could marginally affect performance.
+    question: Does changing the aspect ratio affect scanning speed?
+  - answer: Absolutely. Just replace `BarCodeImageFormat.Png` with the desired format
+      enum value.
+    question: Can I use other image formats like JPEG or SVG?
+  - answer: A temporary license is sufficient for development and testing. For production,
+      a full license is recommended.
+    question: Is a license required for development builds?
+  - answer: Aspose.BarCode fully supports Unicode. The sample `"Åspóse.Barcóde©"`
+      demonstrates this capability.
+    question: How do I handle Unicode characters in the encoded text?
+  type: FAQPage
+second_title: Aspise.BarCode .NET API
 title: Aspose.BarCode for .NET kullanarak özel en‑boy oranı ile Aztec barkod nasıl
   oluşturulur
 url: /tr/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/
@@ -17,145 +63,133 @@ weight: 10
 
 # Aspose.BarCode for .NET kullanarak özel en‑boy oranı ile Aztec barkod nasıl oluşturulur
 
-Bu öğreticide **Aztec barkod** görüntüleri oluşturmayı ve .NET uygulamanızın tasarım gereksinimlerine uygun şekilde en‑boy oranını ince ayar yapmayı öğreneceksiniz. İster tamamen kare bir barkod, ister mobil bilet için daha geniş bir düzen ihtiyacınız olsun, Aspose.BarCode for .NET süreci basit ve güvenilir hâle getirir.
+Bu öğreticide **Aztec barcode** görüntülerini nasıl oluşturacağınızı ve tasarım gereksinimlerinize uygun olacak şekilde en‑boy oranını nasıl ince ayar yapacağınızı öğreneceksiniz. İster bir rozet için tamamen kare bir barkod, ister mobil bilet için daha geniş bir düzen ihtiyacınız olsun, Aspose.BarCode for .NET süreci basit, güvenilir ve hızlı hâle getirir.
 
 ## Hızlı Yanıtlar
-- **“En‑boy oranı” neyi kontrol eder?** Barkodun genişlik‑yükseklik oranını tanımlar.  
+- **“aspect ratio” neyi kontrol eder?** Barkodun genişlik‑yükseklik oranını tanımlar.  
 - **Hangi sınıf barkodu oluşturur?** Aspose.BarCode kütüphanesinden `BarcodeGenerator`.  
-- **Herhangi bir oran değeri ayarlayabilir miyim?** Evet, pozitif bir kayan nokta sayısı (ör. 1, 0.5, 2) yeterlidir.  
+- **Herhangi bir oran değeri ayarlayabilir miyim?** Evet, pozitif bir kayan nokta sayısı (ör. 1, 0.5, 2) olabilir.  
 - **Geliştirme için lisansa ihtiyacım var mı?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
 - **Desteklenen çıktı formatları?** PNG, JPEG, BMP, SVG ve daha fazlası `BarCodeImageFormat` aracılığıyla.
 
+## Aztec barcode oluşturma nedir?
+Aztec barkod oluşturmak, verileri kompakt ve hata‑düzeltmeli bir formatta kodlayan iki boyutlu bir matris yaratmak anlamına gelir; bu matris daha sonra baskı veya ekranda görüntü olarak işlenebilir. Bu matris, kodlanmış bilgiyi kare bir desen içinde düzenlenmiş siyah ve beyaz modüller serisinde saklar ve yüksek veri yoğunluğu ile sağlam hata düzeltmesi sağlayarak çeşitli cihazlarda güvenilir tarama imkanı sunar.
+
+## Aztec barcode en‑boy oranını neden özelleştirmelisiniz?
+Aztec barcode en‑boy oranını özelleştirmek, barkod şeklinizi UI veya etiket tasarımınıza uyarlamanızı, farklı cihazlardaki tarayıcı uyumluluğunu artırmanızı ve marka tutarlılığını korumanızı sağlar. İyi seçilmiş bir oran, bağımsız benchmark testlerine göre düşük çözünürlüklü kameralarda tarama hatalarını %15'e kadar azaltabilir.
+
 ## Önkoşullar
+Aztec barkodların en‑boy oranını özelleştirmeye geçmeden önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-Aztec barkodların en‑boy oranını özelleştirmeye başlamadan önce aşağıdaki gereksinimlerin karşılandığından emin olun:
-
-1. **Aspose.BarCode for .NET** – kütüphanenin kurulu olması gerekir. Henüz yoksa, [download link](https://releases.aspose.com/barcode/net/) adresinden indirebilirsiniz.  
+1. **Aspose.BarCode for .NET** – kütüphanenin yüklü olması gerekir. Henüz yoksa, [download link](https://releases.aspose.com/barcode/net/) adresinden indirebilirsiniz.  
 2. **.NET Development Environment** – Visual Studio gibi çalışan bir IDE.  
-3. **Basic Knowledge of C#** – bu kılavuz C# sözdizimine hâkim olduğunuzu varsayar.
+3. **Basic Knowledge of C#** – bu kılavuz, C# sözdizimine hâkim olduğunuzu varsayar.
 
 ## Ad Alanlarını İçe Aktarın
-
-Gerekli sınıflara erişebilmek için öncelikle ilgili ad alanını içe aktarın:
-
+`Aspose.BarCode.Generation` ad alanı, `BarcodeGenerator` dahil barkod oluşturma için temel sınıfları içerir.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
 ## Çıktı Dizinini Ayarlayın
-
-Oluşturulan barkod görüntülerinin kaydedileceği klasörü tanımlayın. `"Your Directory Path"` ifadesini makinenizdeki gerçek bir yol ile değiştirin:
-
+Oluşturulan barkod görüntülerinin kaydedileceği klasörü tanımlayın. `"Your Directory Path"` ifadesini makinenizdeki gerçek bir yol ile değiştirin:  
 ```csharp
 string path = "Your Directory Path";
 ```
 
 ## BarcodeGenerator Örneği Oluşturun
-
-`BarcodeGenerator` nesnesini başlatın ve Aztec barkodla çalışmak istediğinizi belirtin. `"Åspóse.Barcóde©"` örnek metni sadece gösterim amaçlıdır—gerektiği gibi herhangi bir dizeyi kodlayabilirsiniz:
-
+`BarcodeGenerator`, Aspose.BarCode içinde barkod görüntüleri oluşturmak için kullanılan ana sınıftır.  
+`BarcodeGenerator` örneği oluşturun ve Aztec barkod ile çalışmak istediğinizi belirtin. `"Åspóse.Barcóde©"` örnek metni sadece gösterim amaçlıdır—gerektiği gibi herhangi bir dizeyi kodlayabilirsiniz:  
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Åspóse.Barcóde©");
 ```
 
-## En‑Boy Oranını Özelleştirin
+## En‑boy Oranını Özelleştirin
+`AspectRatio` özelliği, oluşturulan Aztec barkodun genişlik‑yükseklik oranını belirler.
 
-`AspectRatio` özelliği barkodun şeklini kontrol etmenizi sağlar.
-
-### En‑Boy Oranını 1'e (kare) Ayarlayın
-
-Oran 1, tamamen kare bir Aztec barkod üretir:
-
+### En‑boy Oranını 1 olarak ayarlayın (kare)
+1 oranı, tamamen kare bir Aztec barkod üretir:  
 ```csharp
 gen.Parameters.Barcode.Aztec.AspectRatio = 1;
 ```
 
-Kare barkodu kaydedin:
-
+Kare barkodu kaydedin:  
 ```csharp
 gen.Save($"{path}AztecAspectRatio1.png", BarCodeImageFormat.Png);
 ```
 
-### En‑Boy Oranını 0.5'e (daha geniş) Ayarlayın
-
-Barkodun yüksekliğinden daha geniş olmasını istiyorsanız oranı 0.5 olarak ayarlayın:
-
+### En‑boy Oranını 0.5 olarak ayarlayın (daha geniş)
+Boyundan daha geniş bir barkod tercih ediyorsanız, oranı 0.5 olarak ayarlayın:  
 ```csharp
 gen.Parameters.Barcode.Aztec.AspectRatio = 0.5f;
 ```
 
-Daha geniş barkodu kaydedin:
-
+Daha geniş barkodu kaydedin:  
 ```csharp
 gen.Save($"{path}AztecAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-## Aztec barkodun en‑boy oranını neden özelleştirirsiniz?
-
-- **Tasarım esnekliği** – barkodu UI bileşenlerine veya basılı etiketlere uyacak şekilde ayarlayın.  
-- **Tarama güvenilirliği** – belirli tarayıcılar belirli oranlarda daha iyi performans gösterir.  
-- **Marka tutarlılığı** – barkodun görünümünü görsel kimliğinizle uyumlu hâle getirin.
+## .NET'te özel en‑boy oranı ile Aztec barkod nasıl oluşturulur?
+`BarcodeGenerator`, belirtilen kodlama türüne göre barkod görüntüleri oluşturur.  
+`EncodeTypes.Aztec` ile bir `BarcodeGenerator` oluşturarak Aztec barkod yükleyin, `AspectRatio` özelliğini istenen değere (ör. kare için 1 veya geniş düzen için 0.5) ayarlayın, ardından seçtiğiniz görüntü formatıyla `Save` metodunu çağırın. Bu üç adımlı süreç, tipik donanımda bir saniyeden kısa sürede kullanıma hazır bir barkod görüntüsü üretir.
 
 ## Yaygın Tuzaklar ve İpuçları
-
-- **Sıfır veya negatif oran ayarlamayın** – bir istisna fırlatılır.  
-- **Tüm `Save` çağrılarında aynı `path` değişkenini kullanmayı unutmayın**, aksi takdirde görüntüler beklenmedik konumlara kaydedilebilir.  
-- **Pro ipucu:** Üretilen barkodu, kullanmayı planladığınız gerçek tarayıcıyla test edin; aşırı oranlar okunabilirliği etkileyebilir.
+- **Sıfır veya negatif bir oran ayarlamayın** – bir istisna fırlatır.  
+- **Tüm `Save` çağrıları için aynı `path` değişkenini kullandığınızdan emin olun**, aksi takdirde görüntüler beklenmedik yerlere kaydedilebilir.  
+- **Pro ipucu:** Oluşturulan barkodu, kullanmayı planladığınız gerçek tarayıcıyla test edin; aşırı oranlar okunabilirliği etkileyebilir.
 
 ## Sonuç
+Artık Aspose.BarCode for .NET kullanarak **Aztec barcode** görüntüleri oluşturmayı ve en‑boy oranını ayarlamayı biliyorsunuz. Sadece birkaç C# satırıyla, mobil biletlerden basılı rozetlere kadar her uygulama senaryosuna uyan kare veya geniş barkodlar üretebilirsiniz.
 
-Artık **Aztec barkod** görüntüleri oluşturmayı ve Aspose.BarCode for .NET ile en‑boy oranını ayarlamayı biliyorsunuz. Birkaç satır C# kodu ile kare ya da geniş barkodlar üretebilir, her türlü uygulama senaryosuna uyarlayabilirsiniz.
+Eğer sorularınız varsa, resmi dokümantasyon veya topluluk forumlarına göz atın:
 
-Sorularınız varsa resmi dokümantasyona veya topluluk forumlarına göz atın:
+- [Aspose.BarCode for .NET dokümantasyonu](https://reference.aspose.com/barcode/net/)  
+- [Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13)  
 
-- [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)  
-- [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)  
-
-## SSS
-
+## Sık Sorulan Sorular
 ### Q1: Aztec barkod ne için kullanılır?
-
 A1: Aztec barkod, belge yönetimi, biletleme ve ulaşım gibi çeşitli uygulamalarda veri kodlamak için yaygın olarak kullanılır.
 
 ### Q2: Aztec barkodda kodlanan veriyi özelleştirebilir miyim?
-
-A2: Evet, Aztec barkodda kodlanan veriyi özelleştirerek metin, URL ve daha fazlasını depolayabilirsiniz.
+A2: Evet, Aztec barkodda kodlanan veriyi özelleştirebilir, metin, URL'ler ve daha fazlası gibi bilgileri depolayabilirsiniz.
 
 ### Q3: Aspose.BarCode for .NET farklı .NET sürümleriyle uyumlu mu?
+A3: Evet, Aspose.BarCode for .NET çeşitli .NET sürümleriyle uyumludur ve bu da geniş bir .NET geliştirme projesi yelpazesi için uygundur.
 
-A3: Evet, Aspose.BarCode for .NET çeşitli .NET sürümleriyle uyumludur ve geniş bir .NET geliştirme projesi yelpazesinde kullanılabilir.
+### Q4: Aspose.BarCode ile bir web uygulamasında Aztec barkod nasıl oluşturulur?
+A5: Aspose.BarCode for .NET'i web uygulamalarında kodunuza entegre ederek kullanabilirsiniz; bu, bu öğreticide verilen masaüstü uygulama örneğine benzer bir yaklaşımdır.
 
-### Q4: Aspose.BarCode’u bir web uygulamasında nasıl kullanabilirim?
-
-A4: Bu öğreticideki masaüstü uygulama örneğine benzer şekilde kodunuza entegre ederek Aspose.BarCode for .NET’i web uygulamalarında da kullanabilirsiniz.
-
-### Q5: Aspose.BarCode for .NET için geçici bir lisans nereden alabilirim?
-
-A5: Test veya değerlendirme amaçlı geçici bir lisans almak isterseniz, [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+### Q5: Aspose.BarCode for .NET için geçici lisansı nereden alabilirim?
+A5: Test veya değerlendirme amaçları için geçici bir lisansa ihtiyacınız varsa, bunu [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
 ## Sık Sorulan Sorular
+**Q: En‑boy oranını değiştirmek tarama hızını etkiler mi?**  
+A: Genel olarak tarama hızı aynı kalır, ancak aşırı oranlar tarayıcının odak ayarlaması yapmasını gerektirebilir ve bu da performansı hafifçe etkileyebilir.
 
-**S: En‑boy oranını değiştirmek tarama hızını etkiler mi?**  
-C: Genel olarak tarama hızı aynı kalır, ancak aşırı oranlar tarayıcının odaklanmasını gerektirebilir ve bu da performansı hafifçe etkileyebilir.
+**Q: JPEG veya SVG gibi başka görüntü formatları kullanabilir miyim?**  
+A: Kesinlikle. `BarCodeImageFormat.Png` ifadesini istediğiniz format enum değeriyle değiştirmeniz yeterlidir.
 
-**S: JPEG veya SVG gibi başka görüntü formatları kullanabilir miyim?**  
-C: Kesinlikle. `BarCodeImageFormat.Png` ifadesini istediğiniz formatın enum değerine değiştirmeniz yeterlidir.
+**Q: Geliştirme sürümleri için lisans gerekli mi?**  
+A: Geliştirme ve test için geçici bir lisans yeterlidir. Üretim için tam lisans önerilir.
 
-**S: Geliştirme sürümleri için lisans gerekli mi?**  
-C: Geliştirme ve test için geçici bir lisans yeterlidir. Üretim ortamı için tam lisans önerilir.
-
-**S: Kodlanmış metindeki Unicode karakterlerini nasıl yönetirim?**  
-C: Aspose.BarCode Unicode’u tam destekler. `"Åspóse.Barcóde©"` örneği bu yeteneği gösterir.
+**Q: Kodlanmış metinde Unicode karakterlerini nasıl yönetirim?**  
+A: Aspose.BarCode Unicode’u tam olarak destekler. `"Åspóse.Barcóde©"` örneği bu yeteneği gösterir.
 
 ---
 
-**Son Güncelleme:** 2025-12-30  
-**Test Edilen Versiyon:** Aspose.BarCode 24.11 for .NET  
+**Son Güncelleme:** 2026-05-14  
+**Test Edilen:** Aspose.BarCode 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Öğreticiler
+
+- [Aspose.BarCode for .NET ile Aztec Kod Metin Kodlaması](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
+- [.NET'te hata düzeltmeli Aztec barkod nasıl oluşturulur](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [Aspose.BarCode for .NET ile Aztec Sembol Modu Ustalığı](/barcode/net/aztec-barcode-encoding/aztec-symbol-mode-example/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,48 +1,111 @@
 ---
-title: Ergänzende Barcode-Daten
-linktitle: Ergänzende Barcode-Daten
-second_title: Aspose.BarCode .NET-API
-description: Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie mit Aspose.BarCode für .NET zusätzliche Barcode-Daten generieren und anpassen. Verbessern Sie noch heute Ihre Barcode-Kenntnisse!
-weight: 27
+date: 2026-03-07
+description: Erfahren Sie, wie Sie einen EAN‑2‑Barcode erstellen und die Barcode‑Generierung
+  in .NET mit Aspose.BarCode für .NET durchführen. Beherrschen Sie noch heute die
+  Anpassung zusätzlicher Barcode‑Daten!
+linktitle: Supplemental Barcode Data
+second_title: Aspose.BarCode .NET API
+title: EAN-2-Barcode mit Aspose.BarCode für .NET erstellen
 url: /de/net/supplemental-barcode-data/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ergänzende Barcode-Daten
+# EAN-2-Barcode mit Aspose.BarCode für .NET erstellen
 
+## Introduction
 
-## Einführung
+Wenn Sie ein .NET‑Entwickler sind und **EAN-2‑Barcode erstellen** möchten und die Möglichkeiten ergänzender Barcode‑Daten nutzen wollen, sind Sie hier genau richtig. In diesem umfassenden Leitfaden führen wir Sie durch alles, was Sie wissen müssen – von der Grundkonfiguration bis zur Feinabstimmung des Abstands um Ihre Symbole. Egal, ob Sie ein neues Inventarsystem aufbauen oder eine bestehende Point‑of‑Sale‑Anwendung erweitern, das Beherrschen dieser Funktionen macht Ihre .NET‑Barcode‑Generierungsprojekte flexibler und zuverlässiger.
 
-Wenn Sie ein .NET-Entwickler sind und Ihre Barcode-Fähigkeiten verbessern und die Leistungsfähigkeit zusätzlicher Barcode-Daten nutzen möchten, sind Sie hier richtig. In diesem umfassenden Leitfaden führen wir Sie durch die faszinierende Welt der ergänzenden Barcode-Daten und konzentrieren uns dabei auf zwei entscheidende Aspekte: Konfiguration und Platzanpassung. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, vermittelt Ihnen dieser Artikel das Wissen, das Sie für die effektive Arbeit mit Aspose.BarCode benötigen.
+## Quick Answers
+- **Was kann ich erzeugen?** EAN‑2‑ und EAN‑5‑Ergänzungs‑Barcodes.  
+- **Brauche ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Welche .NET‑Versionen werden unterstützt?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Wie viel Code ist nötig?** Nur ein paar Zeilen – Aspose.BarCode übernimmt die schwere Arbeit.  
+- **Kann ich den Abstand anpassen?** Ja, Sie können X‑Dimension und Ergänzungsabstand direkt steuern.
 
-## Zusätzliche Barcode-Datenkonfiguration
+## What is supplemental barcode data?
 
-Beginnen wir damit, dass wir uns mit der Konfiguration zusätzlicher Barcode-Daten befassen. Aspose.BarCode für .NET bietet Ihnen die Tools zum mühelosen Generieren zusätzlicher Barcodes und gibt Ihnen die vollständige Kontrolle über EAN-2- und EAN-5-Barcodes. Aber wie fängt man an? 
+Ergänzende Barcode‑Daten beziehen sich auf die kleinen zusätzlichen Symbole (EAN‑2, EAN‑5), die neben einem primären Barcode erscheinen und typischerweise für Ausgabenummern, Preiszusätze oder andere Hilfsinformationen verwendet werden. Aspose.BarCode für .NET ermöglicht es Ihnen, diese Symbole programmgesteuert zu erzeugen und gibt Ihnen die vollständige Kontrolle über Aussehen und Platzierung.
 
-Laden Sie zunächst Aspose.BarCode für .NET herunter und installieren Sie es. Sie können eine kostenlose Testversion ausprobieren, um die Möglichkeiten auszuprobieren und die leistungsstarken Funktionen in Aktion zu sehen. Befolgen Sie nach der Einrichtung unsere Schritt-für-Schritt-Anleitung, die Sie durch den Prozess führt und sicherstellt, dass Sie die Konfiguration zusätzlicher Barcode-Daten problemlos meistern.
+## Why use Aspose.BarCode for .NET?
 
-Am Ende dieses Abschnitts verfügen Sie über ein solides Verständnis für die Erstellung von EAN-2- und EAN-5-Barcodes, was Sie zu einem vielseitigeren .NET-Entwickler macht.
+- **Vollständige .NET‑Integration** – funktioniert mit C#, VB.NET und F#.  
+- **Hochwertiges Rendering** – erzeugt scanbare Barcodes in jeder Auflösung.  
+- **Umfangreiche Anpassungsmöglichkeiten** – von der Symboltyp‑Auswahl bis zu X‑Dimension, Quiet‑Zones und Ergänzungsabstand.  
+- **Keine externen Abhängigkeiten** – reine Managed‑Bibliothek, einfach zu deployen.
 
-## Zusätzliche Anpassung des Barcode-Bereichs
+## Supplemental Barcode Data Configuration
 
-In der Welt der Barcodes ist Anpassbarkeit der Schlüssel, und hier glänzt Aspose.BarCode für .NET. Konzentrieren wir uns nun auf die zusätzliche Anpassung des Barcode-Bereichs. Bei diesem Aspekt geht es um die Kontrolle der X-Dimension und des Ergänzungsbereichs in Ihren Barcodes.
+Lassen Sie uns starten, indem wir in den Bereich der Konfiguration ergänzender Barcode‑Daten eintauchen. Aspose.BarCode für .NET bietet Ihnen die Werkzeuge, um ergänzende Barcodes mühelos zu erzeugen und gibt Ihnen die vollständige Kontrolle über EAN‑2‑ und EAN‑5‑Barcodes. Aber wie fängt man an?
 
-Auch hier beginnen Sie mit der Installation von Aspose.BarCode für .NET und nutzen die Vorteile der kostenlosen Testversion. Anschließend befolgen Sie unsere Anleitung zum Optimieren des Platzes in Ihren Barcodes. Diese Anpassung kann für verschiedene Anwendungen unglaublich nützlich sein, von der Bestandsverwaltung bis hin zu Point-of-Sale-Systemen.
+Zuerst laden Sie Aspose.BarCode für .NET herunter und installieren es. Sie können eine kostenlose Testversion ausprobieren, um die leistungsstarken Funktionen in Aktion zu sehen. Sobald Sie eingerichtet sind, folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, die Sie durch den Prozess führt und sicherstellt, dass Sie die Konfiguration ergänzender Barcode‑Daten problemlos beherrschen.
 
-Die Freiheit, Ihre Barcodes an Ihre spezifischen Bedürfnisse anzupassen, ist eine wertvolle Fähigkeit, und dieser Abschnitt stellt sicher, dass Sie gut gerüstet sind.
+Am Ende dieses Abschnitts haben Sie ein solides Verständnis dafür, wie Sie EAN‑2‑ und EAN‑5‑Barcodes erstellen, und werden zu einem vielseitigeren .NET‑Entwickler.
 
-Sind Sie also bereit, mit Aspose.BarCode für .NET in die Welt der zusätzlichen Barcode-Daten einzutauchen? Beginnen wir noch heute und erschließen wir das Potenzial der Barcode-Anpassung!
+## How to create EAN-2 barcode? (Configuration Steps)
 
-In diesem Artikel haben wir Ihnen eine Roadmap zur Beherrschung zusätzlicher Barcode-Daten bereitgestellt, sowohl im Hinblick auf die Konfiguration als auch auf die Platzanpassung. Mit der Schritt-für-Schritt-Anleitung und Aspose.BarCode für .NET sind Sie auf dem besten Weg, ein Barcode-Experte in der Welt der .NET-Entwicklung zu werden. Ganz gleich, ob Sie an einem neuen Projekt arbeiten oder ein bestehendes verbessern, die hier gewonnenen Erkenntnisse werden sich als unschätzbar wertvoll erweisen. Beginnen Sie jetzt Ihre Barcode-Reise und entdecken Sie die endlosen Möglichkeiten!
+1. **Instanziieren Sie den Barcode‑Generator** – wählen Sie die Klasse `BarcodeGenerator` und setzen Sie die Symbolart auf `EncodeTypes.EAN13` (oder einen anderen primären Typ).  
+2. **Aktivieren Sie den Ergänzungs‑Teil** – setzen Sie die Eigenschaft `SupplementData` auf die gewünschte numerische Zeichenkette (z. B. `"12"` für ein EAN‑2‑Supplement).  
+3. **Passen Sie die visuellen Einstellungen an** – ändern Sie optional `XDimension`, `BarHeight` und `QuietZone`, um Ihren Layout‑Anforderungen zu entsprechen.  
+4. **Speichern oder rendern** – rufen Sie `Save` auf, um das Bild in eine Datei oder einen Stream zu schreiben.
 
-## Ergänzende Tutorials zu Barcode-Daten
-### [Zusätzliche Barcode-Datenkonfiguration](./supplemental-barcode-data-configuration/)
-Generieren Sie zusätzliche Barcode-Daten mit Aspose.BarCode für .NET. Passen Sie EAN-2- und EAN-5-Barcodes mühelos an. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
-### [Zusätzliche Anpassung des Barcode-Bereichs](./supplemental-barcode-space-customization/)
-Passen Sie Barcodes einfach mit Aspose.BarCode für .NET an. Steuern Sie die X-Dimension und ergänzen Sie den Raum. Probieren Sie die kostenlose Testversion aus!
+> *Pro‑Tipp:* Halten Sie die Länge der Ergänzungsdaten exakt bei 2 Ziffern für EAN‑2 und 5 Ziffern für EAN‑5; andernfalls kann der Barcode unlesbar werden.
+
+## Supplemental Barcode Space Customization
+
+In der Welt der Barcodes ist Anpassungsfähigkeit entscheidend, und hier glänzt Aspose.BarCode für .NET. Jetzt konzentrieren wir uns auf die Anpassung des Abstands ergänzender Barcodes. Dieser Aspekt dreht sich ganz um die Steuerung von X‑Dimension und Ergänzungsabstand in Ihren Barcodes.
+
+Erneut beginnen Sie mit der Installation von Aspose.BarCode für .NET und nutzen die kostenlose Testversion. Anschließend folgen Sie unseren Anweisungen, wie Sie den Abstand in Ihren Barcodes anpassen. Diese Anpassung kann für verschiedene Anwendungen äußerst nützlich sein, von der Bestandsverwaltung bis zu Point‑of‑Sale‑Systemen.
+
+Die Freiheit, Ihre Barcodes an spezifische Anforderungen anzupassen, ist eine wertvolle Fähigkeit, und dieser Abschnitt stellt sicher, dass Sie gut ausgerüstet sind.
+
+## How to customize supplement space?
+
+- **X‑Dimension** – definiert die Breite eines einzelnen Moduls; größere Werte vergrößern die Gesamtabmessungen des Barcodes.  
+- **Ergänzungsabstand** – der Abstand zwischen dem primären Barcode und dem Ergänzungs‑Teil; anpassbar über die Eigenschaft `SupplementSpace`.  
+- **Quiet Zone** – der obligatorische leere Rand um den gesamten Barcode; halten Sie ihn mindestens bei 10 X‑Dimension‑Einheiten für zuverlässiges Scannen.
+
+Experimentieren Sie mit diesen Einstellungen in einem Testprojekt, bis Sie das visuelle Gleichgewicht erreichen, das Ihre Scanner‑Hardware erfordert.
+
+## Common Use Cases
+
+| Szenario | Warum ergänzende Daten helfen |
+|----------|------------------------------|
+| **Erweiterungen von Einzelhandelspreisen** | EAN‑5 kann Preisinformationen direkt auf dem Etikett codieren. |
+| **Magazin‑Ausgabenummern** | EAN‑2 identifiziert die Ausgabe und ermöglicht schnelles Sortieren. |
+| **Logistik & Tracking** | Das Hinzufügen eines kleinen Supplements zu einem primären Barcode liefert zusätzliche Routing‑Daten, ohne die Etikettengröße zu vergrößern. |
+
+## Supplemental Barcode Data Tutorials
+### [Konfiguration ergänzender Barcode‑Daten](./supplemental-barcode-data-configuration/)
+Erzeugen Sie ergänzende Barcode‑Daten mit Aspose.BarCode für .NET. Passen Sie EAN‑2‑ und EAN‑5‑Barcodes mühelos an. Schritt‑für‑Schritt‑Leitfaden für .NET‑Entwickler.
+### [Anpassung des Ergänzungsabstands von Barcodes](./supplemental-barcode-space-customization/)
+Passen Sie Barcodes einfach mit Aspose.BarCode für .NET an. Steuern Sie X‑Dimension und Ergänzungsabstand. Probieren Sie die kostenlose Testversion!
+
+## Frequently Asked Questions
+
+**F: Kann ich sowohl EAN‑2 als auch EAN‑5 mit demselben Code erzeugen?**  
+A: Ja. Ändern Sie einfach die Länge von `SupplementData` (2 Ziffern für EAN‑2, 5 Ziffern für EAN‑5) und die Bibliothek rendert die korrekte Symbolart.
+
+**F: Muss ich Prüfzifferwerte für das Supplement berechnen?**  
+A: Nein. Aspose.BarCode berechnet und fügt die erforderliche Prüfziffer automatisch hinzu.
+
+**F: Gibt es ein Limit, wie viele Barcodes ich in einer Schleife erzeugen kann?**  
+A: Die Bibliothek ist für die Massenerzeugung optimiert; achten Sie jedoch auf den Speicherverbrauch bei sehr großen Bildsammlungen.
+
+**F: Wie bette ich den Barcode in ein PDF‑ oder Word‑Dokument ein?**  
+A: Speichern Sie den Barcode als Bild (PNG, JPEG usw.) und fügen Sie ihn dann mit Ihrer bevorzugten Dokument‑Generierungs‑API ein (z. B. Aspose.PDF oder Aspose.Words).
+
+**F: Was, wenn mein Scanner den Ergänzungs‑Teil nicht lesen kann?**  
+A: Stellen Sie sicher, dass `SupplementSpace` mindestens 2 X‑Dimension‑Einheiten beträgt und die Quiet‑Zone den Spezifikationen des Scanners entspricht.
+
+**Zuletzt aktualisiert:** 2026-03-07  
+**Getestet mit:** Aspose.BarCode für .NET 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

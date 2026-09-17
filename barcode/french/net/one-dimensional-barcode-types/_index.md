@@ -80,6 +80,12 @@ Découvrez comment gérer les exceptions lors de la génération de codes-barres
 Générez facilement des codes-barres personnalisés avec Aspose.BarCode pour .NET. Guide étape par étape pour la configuration unidimensionnelle du rapport large-étroit.
 ### [Comment définir un code-barres en C# – guide complet Aspose.BarCode](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
 Apprenez à configurer et générer des codes-barres en C# avec Aspose.BarCode grâce à ce guide complet étape par étape.
+### [Lire le code-barres à partir d'une image – Exemple de lecteur de code-barres C#](./read-barcode-from-image-c-barcode-reader-example/)
+Apprenez à lire des codes-barres à partir d'images en C# avec Aspose.BarCode. Guide étape par étape pour l'intégration.
+### [Générer un code-barres à partir du texte avec Aspose.BarCode – Guide C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Apprenez à créer un code-barres à partir de texte en C# avec Aspose.BarCode. Guide étape par étape pour une intégration facile.
+### [Comment générer un code-barres en C# – Guide complet de programmation](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Découvrez comment générer des codes-barres en C# avec Aspose.BarCode pour .NET. Suivez notre guide complet étape par étape.
 
 ## Conclusion
 

@@ -1,0 +1,7 @@
+Title: How to create a barcode PNG file with adjustable height in C#
+Slug: how-to-create-a-barcode-png-file-with-adjustable-height-in-c
+Category: general
+ProcessedDate: 2026-08-19T10:39:37.507973
+SourceRepo: AI Search API
+Keywords: barcode png file, how to generate barcode, adjust barcode height, change barcode height
+PRNumber: 106
