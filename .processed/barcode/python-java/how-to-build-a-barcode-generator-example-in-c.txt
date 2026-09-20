@@ -1,0 +1,7 @@
+Title: How to build a barcode generator example in C#
+Slug: how-to-build-a-barcode-generator-example-in-c
+Category: general
+ProcessedDate: 2026-09-20T02:49:03.243640
+SourceRepo: AI Search API
+Keywords: barcode generator example, how to create barcode, c# barcode generation, generate planet barcode, set barcode size
+PRNumber: 132
