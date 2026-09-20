@@ -86,6 +86,8 @@ Lär dig hur du läser streckkoder från en bild i C# med Aspose.BarCode.
 Lär dig hur du skapar streckkoder från text i C# med Aspose.BarCode.
 ### [Hur man genererar streckkod i C# – Komplett programmeringsguide](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Lär dig steg-för-steg hur du skapar streckkoder i C# med Aspose.BarCode i en komplett programmeringsguide.
+### [Hur man genererar streckkod med Aspose i C#](./how-to-generate-barcode-with-aspose-in-c/)
+Lär dig hur du skapar streckkoder i C# med Aspose.BarCode i en steg-för-steg-guide.
 
 ## Slutsats
 

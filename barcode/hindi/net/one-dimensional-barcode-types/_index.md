@@ -86,6 +86,7 @@ Aspose.BarCode का उपयोग करके .NET में इमेज �
 Aspose.BarCode का उपयोग करके .NET में C# के साथ टेक्स्ट से बारकोड कैसे बनाएं, चरण-दर-चरण मार्गदर्शिका।
 ### [C# में बारकोड कैसे जनरेट करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Aspose.BarCode का उपयोग करके C# में बारकोड बनाने के सभी चरणों को सीखें। विस्तृत कोड उदाहरण और सर्वोत्तम प्रथाएँ।
+### [Aspose के साथ C# में बारकोड कैसे जेनरेट करें](./how-to-generate-barcode-with-aspose-in-c/)
 
 ## निष्कर्ष
 

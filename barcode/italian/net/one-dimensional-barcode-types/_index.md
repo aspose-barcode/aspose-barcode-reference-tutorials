@@ -86,6 +86,8 @@ Scopri come leggere codici a barre da un'immagine in C# usando Aspose.BarCode co
 Impara a creare codici a barre a partire da testo in C# con Aspose.BarCode. Guida passo passo per una generazione rapida e personalizzabile.
 ### [Come generare un codice a barre in C# – Guida completa di programmazione](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Impara a creare codici a barre in C# con Aspose.BarCode, passo dopo passo, dalla configurazione alla generazione.
+### [Come generare un codice a barre con Aspose in C#](./how-to-generate-barcode-with-aspose-in-c/)
+Scopri come creare codici a barre in C# usando Aspose.BarCode con esempi passo passo.
 
 ## Conclusione
 

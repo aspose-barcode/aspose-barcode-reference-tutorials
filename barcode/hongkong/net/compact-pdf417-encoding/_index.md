@@ -180,8 +180,6 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [在 C# 中儲存條碼影像 – 完整指南](./how-to-save-barcode-images-in-c-complete-guide/)
 說明如何在 C# 中將條碼儲存為圖像檔案的完整步驟。
 
-## 常見問題
-
 ### [如何在 C# 中儲存條碼 – 產生 PDF417 條碼](./how-to-save-barcode-in-c-generate-pdf417-barcodes/)
 
 ### [條碼產生器教學：如何在 C# 中產生 PDF417 條碼](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
@@ -205,9 +203,14 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [在 C# 中生成 PDF417 條碼 – 完整程式設計指南](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 
 ### [建立緊湊型 PDF417 條碼](./compact-pdf417-basic-configuration/)
-了解如何使用 Aspose.BarCode for .NET 產生緊湊型 PDF417 條碼。完整指南，提供逐步說明與程式碼範例。
 
-## 常見問與答
+### [如何在 C# 中產生條碼並自訂 PDF417 條碼](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
+
+### [如何在 C# 中建立 PDF417 條碼並匯出 PNG](./how-to-create-pdf417-barcode-and-export-png-in-c/)
+
+### [如何在 C# 中使用條碼閱讀器範例解碼 PDF417](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
+
+## 常見問題與解決方案
 
 **Q: 緊湊型 PDF417 條碼最多能儲存多少資料？**  
 A: 約 2 KB 的文字或二進位資料，視您選擇的錯誤更正等級而定。

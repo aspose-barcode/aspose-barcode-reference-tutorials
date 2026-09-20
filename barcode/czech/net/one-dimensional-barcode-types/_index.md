@@ -86,6 +86,8 @@ Naučte se načíst čárový kód z obrázku v C# pomocí Aspose.BarCode čteč
 Naučte se, jak pomocí Aspose.BarCode v C# vygenerovat čárový kód přímo z textu. Praktický průvodce krok za krokem.
 ### [Jak generovat čárový kód v C# – Kompletní programovací průvodce](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Kompletní průvodce generováním čárových kódů v C# pomocí Aspose.BarCode.
+### [Jak generovat čárový kód pomocí Aspose v C#](./how-to-generate-barcode-with-aspose-in-c/)
+Kompletní průvodce generováním čárových kódů v C# pomocí Aspose.BarCode.
 
 ## Závěr
 

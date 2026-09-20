@@ -131,24 +131,24 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 دليل خطوة بخطوة لإنشاء باركود PDF417 باستخدام لغة C# ومكتبة Aspose.BarCode for .NET.
 ### [ضبط حجم الباركود – دليل C# لإنشاء باركودات PDF417](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 دليل يوضح كيفية ضبط حجم باركود PDF417 في C# باستخدام Aspose.BarCode لتناسب مختلف التطبيقات والمساحات.
-
 ### [الباركود مع الأحرف الخاصة – دليل كامل لإنشاء PDF417 باستخدام Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
 تعلم كيفية إنشاء باركود PDF417 يحتوي على أحرف خاصة باستخدام Aspose.BarCode لـ .NET، مع نصائح الترميز وأمثلة الشفرة.
-
 ### [إنشاء باركود PDF417 في .NET – دليل برمجة كامل](./create-pdf417-barcode-in-net-complete-programming-guide/)
 دليل شامل لإنشاء باركود PDF417 في .NET مع شرح كامل للبرمجة وأمثلة عملية.
-
 ### [إنشاء باركود بالبيانات في C# – دليل خطوة بخطوة](./create-barcode-with-data-in-c-step-by-step-guide/)
 تعلم كيفية إنشاء باركود مع بيانات مخصصة في C# باستخدام Aspose.BarCode for .NET خطوة بخطوة.
-
 ### [كيفية قراءة PDF417 في C# – مثال كامل للباركود](./how-to-read-pdf417-in-c-complete-barcode-example/)
 تعلم كيفية قراءة باركود PDF417 باستخدام C# مع مثال كامل للباركود.
-
 ### [إنشاء باركود PDF417 في C# – دليل مولد الباركود](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
 تعلم كيفية إنشاء باركود PDF417 باستخدام C# ومولد الباركود من Aspose.
-
 ### [كيفية حفظ صور الباركود في C# – دليل كامل](./how-to-save-barcode-images-in-c-complete-guide/)
 دليل شامل يوضح كيفية حفظ صور الباركود كملفات PNG أو JPEG باستخدام C# ومكتبة Aspose.BarCode.
+### [كيفية إنشاء باركود وتخصيص باركود PDF417 في C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
+دليل خطوة بخطوة لإنشاء باركود PDF417 وتخصيصه في C# باستخدام Aspose.BarCode.
+### [كيفية إنشاء باركود PDF417 وتصدير PNG في C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
+تعلم كيفية إنشاء باركود PDF417 وتصديره كملف PNG باستخدام C# ومكتبة Aspose.BarCode.
+### [كيفية فك ترميز PDF417 في C# مع مثال قارئ الباركود](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
+دليل خطوة بخطوة لفك ترميز PDF417 باستخدام C# ومكتبة Aspose.BarCode.
 
 ## الأسئلة المتكررة
 

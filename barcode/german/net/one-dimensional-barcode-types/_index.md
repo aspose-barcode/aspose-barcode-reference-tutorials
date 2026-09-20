@@ -83,9 +83,11 @@ Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – komplette 
 ### [Barcode aus Bild lesen – C#-Barcode-Leser-Beispiel](./read-barcode-from-image-c-barcode-reader-example/)
 Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
 ### [Barcode aus Text generieren mit Aspose.BarCode – C#-Leitfaden](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
-Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes aus Text generieren. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes aus Text generieren. Schritt‑für‑Schritt‑Anleitung für .NET-Entwickler.
 ### [Wie man Barcodes in C# generiert – Vollständiger Programmierleitfaden](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – ein umfassender Leitfaden für Entwickler.
+### [Wie man Barcode mit Aspose in C# generiert](./how-to-generate-barcode-with-aspose-in-c/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – Schritt‑für‑Schritt‑Anleitung.
 
 ## Abschluss
 
