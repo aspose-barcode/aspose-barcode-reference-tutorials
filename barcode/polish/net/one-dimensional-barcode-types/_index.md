@@ -86,6 +86,8 @@ Dowiedz się, jak odczytać kod kreskowy z obrazu w C# przy użyciu Aspose.BarCo
 Dowiedz się, jak generować kody kreskowe z tekstu w .NET przy użyciu Aspose.BarCode w C#. Przewodnik krok po kroku.
 ### [Jak generować kod kreskowy w C# – Kompletny przewodnik programistyczny](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Dowiedz się, jak w pełni wygenerować kody kreskowe w C# przy użyciu Aspose.BarCode, krok po kroku od konfiguracji po renderowanie.
+### [Jak generować kod kreskowy przy użyciu Aspose w C#](./how-to-generate-barcode-with-aspose-in-c/)
+Dowiedz się, jak generować kody kreskowe w C# przy użyciu Aspose.BarCode.
 
 ## Wniosek
 

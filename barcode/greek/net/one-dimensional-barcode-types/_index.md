@@ -86,6 +86,8 @@ url: /el/net/one-dimensional-barcode-types/
 Μάθετε πώς να δημιουργείτε barcode από κείμενο σε C# με το Aspose.BarCode, βήμα-βήμα οδηγός.
 ### [Πώς να δημιουργήσετε barcode σε C# – Πλήρης οδηγός προγραμματισμού](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Μάθετε πώς να δημιουργήσετε barcode σε C# με βήμα‑βήμα οδηγίες και πλήρη προγραμματιστική υλοποίηση.
+### [Πώς να δημιουργήσετε barcode με Aspose σε C#](./how-to-generate-barcode-with-aspose-in-c/)
+Μάθετε πώς να δημιουργήσετε barcode χρησιμοποιώντας Aspose σε C# με βήμα‑βήμα οδηγίες.
 
 ## συμπέρασμα
 
