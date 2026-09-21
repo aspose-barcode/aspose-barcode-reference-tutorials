@@ -1,117 +1,133 @@
 ---
-title: Tingkatkan Kustomisasi Barcode Tambahan dengan Aspose.BarCode
-linktitle: Kustomisasi Ruang Barcode Tambahan
+date: 2026-03-05
+description: Pelajari cara menghasilkan gambar barcode, mengatur lebar barcode, dan
+  menyesuaikan spasi tambahan dengan Aspose.BarCode untuk .NET. Coba versi percobaan
+  gratis hari ini!
+linktitle: Supplemental Barcode Space Customization
 second_title: Aspose.BarCode .NET API
-description: Sesuaikan kode batang dengan mudah dengan Aspose.BarCode untuk .NET. Kontrol Dimensi X dan ruang tambahan. Coba uji coba gratis!
-weight: 11
+title: Cara Menghasilkan Gambar Barcode dengan Kustomisasi Ruang Tambahan menggunakan
+  Aspose.BarCode
 url: /id/net/supplemental-barcode-data/supplemental-barcode-space-customization/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tingkatkan Kustomisasi Barcode Tambahan dengan Aspose.BarCode
+# Cara Menghasilkan Gambar Barcode dengan Kustomisasi Ruang Suplemen menggunakan Aspose.BarCode
 
+Di lingkungan ritel dan logistik yang bergerak cepat saat ini, kemampuan untuk **generate barcode image** file yang sesuai dengan persyaratan tata letak yang tepat sangat penting. Baik Anda perlu **create EAN13 barcode** label untuk lini produk atau menyempurnakan jarak visual untuk data suplemen, Aspose.BarCode untuk .NET memberi Anda kontrol penuh. Dalam tutorial ini kami akan membimbing Anda melalui seluruh proses—dari menyiapkan generator hingga **adjust barcode width** dan akhirnya **save barcode PNG** file—sehingga Anda dapat menghasilkan barcode yang disesuaikan dengan sempurna dalam hitungan menit.
 
-Dalam lanskap teknologi barcode yang terus berkembang, penyesuaian adalah kunci kesuksesan. Sebagai penulis konten mahir dengan keahlian dalam penulisan SEO, saya di sini untuk memandu Anda dalam memanfaatkan kekuatan Aspose.BarCode untuk .NET. Tutorial langkah demi langkah ini akan membantu Anda mencapai tingkat penyesuaian yang Anda inginkan untuk kode batang Anda, memastikan bahwa kode tersebut memenuhi spesifikasi persis Anda.
+## Quick Answers
+- **What does “generate barcode image” mean?** It creates a raster (PNG, JPEG, etc.) representation of a barcode that can be printed or displayed.  
+- **Which barcode type is used in the example?** EAN13, a common numeric format for retail products.  
+- **How do I change the barcode width?** By setting the X‑Dimension property (pixels).  
+- **Can I control the space around supplemental data?** Yes, using the `SupplementSpace` property (pixels).  
+- **What file format is used for saving?** PNG, via the `BarCodeImageFormat.Png` enum.
 
-## Prasyarat
+## What is barcode image generation with Aspose.BarCode?
+Aspose.BarCode’s `BarcodeGenerator` class converts raw data (like a product number) into a visual barcode image. This image can be saved in various formats, embedded in documents, or sent directly to a printer.
 
-Sebelum kita mempelajari dunia penyesuaian kode batang, Anda perlu memastikan bahwa Anda memiliki prasyarat berikut:
+## Why customize supplemental space and X‑Dimension?
+Customizing the **supplement space** lets you meet specific label layout standards, while **adjusting the barcode width** (X‑Dimension) ensures the barcode scans reliably across different scanners. Together, they give you the flexibility to meet branding, regulatory, and ergonomic requirements.
 
-### 1. Aspose.BarCode untuk .NET
+## Prerequisites
 
- Anda harus menginstal Aspose.BarCode for .NET di sistem Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/barcode/net/) . Jika Anda belum memilikinya, Anda juga dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Before we start, make sure you have the following:
 
-### 2. Jalur Direktori Anda
+### 1. Aspose.BarCode for .NET
+You must have Aspose.BarCode for .NET installed on your system. You can find the download link [here](https://releases.aspose.com/barcode/net/). If you don't have it already, you can also obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
-Pastikan Anda memiliki direktori tempat Anda akan menyimpan gambar barcode yang Anda hasilkan. Anda harus menggantinya`"Your Directory Path"` dalam contoh kode di bawah ini dengan jalur sebenarnya ke direktori Anda.
+### 2. Your Directory Path
+Create (or choose) a folder where the generated barcode images will be saved. Replace `"Your Directory Path"` in the code examples with the actual path on your machine.
 
-## Impor Namespace
-
-Sekarang, mari kita mulai dengan mengimpor namespace yang diperlukan untuk penyesuaian kita.
+## Import Namespaces
+First, import the namespace that contains the barcode generation classes.
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Dengan prasyarat yang kita miliki, kita dapat melanjutkan proses penyesuaian barcode.
+## Step‑by‑Step Guide
 
-## 1. Membuat Generator Barcode
-
- Untuk memulai, buat a`BarcodeGenerator` misalnya menentukan jenis dan nilai kode batang. Dalam contoh ini, kami menggunakan format EAN13 dan nilai "1234567890128".
+### Step 1: Create a Barcode Generator (Create EAN13 barcode)
+Instantiate a `BarcodeGenerator`, specifying the barcode type (`EncodeTypes.EAN13`) and the data you want to encode.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## 2. Mengatur Dimensi X untuk Barcode
-
-Dimensi X menentukan lebar elemen barcode. Anda dapat mengaturnya dalam piksel sebagai berikut:
+### Step 2: Adjust Barcode Width (Set X‑Dimension)
+The X‑Dimension controls the width of each barcode module. Setting it in pixels lets you **adjust barcode width** to suit your label size.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## 3. Menambahkan Suplemen
-
-Dalam beberapa kasus, Anda mungkin ingin memasukkan data tambahan ke dalam kode batang Anda. Anda dapat menambahkan suplemen menggunakan kode berikut:
+### Step 3: Add Supplemental Data
+If your labeling standard requires supplemental data (e.g., a 5‑digit add‑on for books), assign it using the `SupplementData` property.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## 4. Menyesuaikan Ruang Tambahan
-
- Sekarang sampai pada bagian di mana Anda dapat menyesuaikan ruang suplemen di sekitar kode batang. Itu`SupplementSpace`properti memungkinkan Anda menentukan ruang dalam piksel. Dalam contoh kami, kami menetapkannya menjadi 20 piksel:
+### Step 4: Customize Supplement Space
+Control the spacing between the main barcode and the supplemental part by setting `SupplementSpace`. In this example we use 20 pixels.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## 5. Menyimpan Barcode yang Disesuaikan
-
-Setelah menyesuaikan kode batang, Anda dapat menyimpannya ke direktori yang Anda tentukan. Pada contoh ini, kita menyimpan gambar barcode dalam format PNG.
+### Step 5: Save the Barcode Image as PNG (Save barcode PNG)
+Now that the barcode is fully configured, save it to the folder you prepared. The image will be a PNG file, ideal for web and print use.
 
 ```csharp
 gen.Save($"{path}SupplementSpace20Pixels.png", BarCodeImageFormat.Png);
 ```
 
-## 6. Kustomisasi Lebih Lanjut
-
- Jika Anda ingin menyesuaikan ruang tambahan secara berbeda, Anda dapat mengulangi prosesnya dengan mengubah`SupplementSpace` nilai dan menyimpan kode batang yang sesuai.
+### Step 6: Experiment with Different Supplement Spaces
+You can repeat the process with a different `SupplementSpace` value to see how the visual layout changes. Here we switch to 40 pixels and save a second image.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 40;
 gen.Save($"{path}SupplementSpace40Pixels.png", BarCodeImageFormat.Png);
 ```
 
-Itu dia! Anda telah berhasil mengkustomisasi kode batang Anda dengan Aspose.BarCode untuk .NET.
+## Common Issues and Solutions
+- **Barcode appears too thin or thick:** Re‑adjust the X‑Dimension (`gen.Parameters.Barcode.XDimension.Pixels`). Typical values range from 1 to 4 pixels.
+- **Supplement data not showing:** Verify that `SupplementData` is set *before* saving the image.
+- **File not saved:** Ensure the `path` variable points to a valid directory and that your application has write permissions.
 
-## Kesimpulan
+## Frequently Asked Questions
 
-Dengan Aspose.BarCode untuk .NET, Anda memiliki kemampuan untuk menyesuaikan kode batang untuk memenuhi kebutuhan Anda. Alat ini menyederhanakan proses, memungkinkan Anda mengontrol Dimensi X dan menambah ruang dengan mudah. Jadilah kreatif dan buat kode batang Anda menonjol dengan perpustakaan canggih ini.
+**Q: Where can I find the documentation for Aspose.BarCode for .NET?**  
+A: You can access the documentation [here](https://reference.aspose.com/barcode/net/).
 
-## FAQ
+**Q: Is there a free trial available for Aspose.BarCode for .NET?**  
+A: Yes, you can get a free trial from [here](https://releases.aspose.com/).
 
-### Di mana saya dapat menemukan dokumentasi Aspose.BarCode untuk .NET?
- Anda dapat mengakses dokumentasinya[Di Sini](https://reference.aspose.com/barcode/net/).
+**Q: How can I purchase a license for Aspose.BarCode for .NET?**  
+A: You can buy a license from [here](https://purchase.aspose.com/buy).
 
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.BarCode untuk .NET?
- Ya, Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+**Q: What barcode formats are supported by Aspose.BarCode for .NET?**  
+A: Aspose.BarCode for .NET supports a wide range of barcode formats, including EAN, QR, Code39, and more. You can find the complete list in the documentation.
 
-### Bagaimana cara membeli lisensi Aspose.BarCode untuk .NET?
- Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy).
+**Q: Can I use Aspose.BarCode for .NET in my commercial projects?**  
+A: Yes, Aspose.BarCode for .NET is suitable for both personal and commercial use. You can purchase a license to use it in your projects.
 
-### Format kode batang apa yang didukung oleh Aspose.BarCode untuk .NET?
-Aspose.BarCode untuk .NET mendukung berbagai format kode batang, termasuk EAN, QR, Code39, dan banyak lagi. Anda dapat menemukan daftar lengkapnya di dokumentasi.
+## Conclusion
+You now have a complete, hands‑on guide to **generate barcode image** files with custom X‑Dimension and supplemental spacing using Aspose.BarCode for .NET. By tweaking the width and supplement space, you can meet virtually any labeling requirement—whether you need to **create EAN13 barcode**, **adjust barcode width**, or **save barcode PNG** files for web or print. Feel free to experiment with other barcode types and image formats to extend this foundation.
 
-### Bisakah saya menggunakan Aspose.BarCode untuk .NET di proyek komersial saya?
-Ya, Aspose.BarCode untuk .NET cocok untuk penggunaan pribadi dan komersial. Anda dapat membeli lisensi untuk menggunakannya dalam proyek Anda.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose

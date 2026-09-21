@@ -195,13 +195,6 @@ public class Pdf417Metadata
 
 Populate the model:
 
-```csharp
-Pdf417Metadata meta = new Pdf417Metadata
-{
-    FileID = result.Extended.Pdf417.MacroPdf417FileID,
-    SegmentID = result.Extended.Pdf417.MacroPdf417SegmentID
-
-
 ## What Should You Learn Next?
 
 

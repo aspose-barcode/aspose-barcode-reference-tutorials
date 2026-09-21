@@ -1,36 +1,60 @@
 ---
-title: Word दस्तावेज़ों से सरल बारकोड पहचान
-linktitle: Word दस्तावेज़ों से बारकोड को पहचानना
-second_title: Aspose.BarCode जावा एपीआई
-description: Aspose.BarCode के साथ अपने जावा अनुप्रयोगों में बारकोड पहचान के निर्बाध एकीकरण का अन्वेषण करें। Word दस्तावेज़ों से बारकोड पहचानने के लिए इस ट्यूटोरियल का अनुसरण करें।
-weight: 12
+date: 2026-04-12
+description: Aspose.BarCode for Java का उपयोग करके Word दस्तावेज़ों से बारकोड को पहचानना
+  सीखें। यह गाइड यह भी दिखाता है कि Word में बारकोड कैसे जोड़ें और Word से छवियों
+  को कैसे निकालें।
+keywords:
+- how to recognize barcode
+- add barcode to word
+- read barcode from image
+- extract images from word
+- barcode detection java
+linktitle: वर्ड दस्तावेज़ों से बारकोड की पहचान
+second_title: Aspose.BarCode Java API
+title: Word दस्तावेज़ों से बारकोड कैसे पहचानें – जावा गाइड
 url: /hi/java/document-barcode-recognition/recognizing-barcodes-from-word/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word दस्तावेज़ों से सरल बारकोड पहचान
-
+# वर्ड दस्तावेज़ों से बारकोड पहचानने का तरीका – जावा गाइड
 
 ## परिचय
 
-जावा प्रोग्रामिंग की गतिशील दुनिया में, बारकोड के साथ कुशलता से काम करने की आवश्यकता लगातार बढ़ रही है। Word दस्तावेज़ों से बारकोड को पहचानना एक सामान्य आवश्यकता है, और सौभाग्य से, Java के लिए Aspose.BarCode एक मजबूत समाधान प्रदान करता है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.BarCode का उपयोग करके Word दस्तावेज़ों से बारकोड को पहचानने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
+यदि आपको Microsoft Word फ़ाइल में एम्बेडेड **बारकोड कैसे पहचानें** की आवश्यकता है, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम एक पूर्ण, अंत‑से‑अंत उदाहरण के माध्यम से चलेंगे जो Aspose.BarCode for Java का उपयोग करके बारकोड उत्पन्न करता है, उसे Word दस्तावेज़ में सम्मिलित करता है, छवि को वापस निकालता है, और अंत में बारकोड डेटा पढ़ता है। अंत तक आप यह भी देखेंगे कि कैसे **बारकोड को Word में जोड़ें**, **Word से छवियों को निकालें**, और **बारकोड डिटेक्शन जावा**‑शैली के ऑपरेशन करें—सिर्फ कुछ पंक्तियों के कोड के साथ।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **कौनसी लाइब्रेरी आवश्यक है?** Aspose.BarCode for Java (plus Aspose.Words for handling .docx files).  
+- **क्या मैं छवि से बारकोड पढ़ सकता हूँ?** हाँ – `BarCodeReader` Word से निकाली गई छवियों को डिकोड कर सकता है।  
+- **क्या उत्पादन के लिए लाइसेंस चाहिए?** एक व्यावसायिक लाइसेंस आवश्यक है; एक मुफ्त ट्रायल उपलब्ध है।  
+- **कौनसा जावा संस्करण समर्थित है?** कोई भी JDK 8 + रनटाइम काम करता है।  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** बेसिक प्रोटोटाइप के लिए लगभग 10‑15 मिनट।
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+## Word दस्तावेज़ से बारकोड पहचान क्या है?
 
-- जावा डेवलपमेंट किट (जेडीके): जावा के लिए Aspose.BarCode को जावा डेवलपमेंट वातावरण की आवश्यकता होती है। सुनिश्चित करें कि आपके सिस्टम पर नवीनतम JDK स्थापित है।
+बारकोड पहचान का अर्थ है Word फ़ाइल के भीतर मौजूद छवि को स्कैन करना और दृश्य पैटर्न को उसके मूल डेटा स्ट्रिंग (जैसे, “test‑123”) में वापस बदलना। Aspose.BarCode डिकोडिंग इंजन प्रदान करता है, जबकि Aspose.Words हमें .doc/.docx कंटेनर से छवि निकालने देता है।
 
--  जावा के लिए Aspose.BarCode: जावा लाइब्रेरी के लिए Aspose.BarCode को डाउनलोड और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/barcode/java/).
+## जावा के लिए Aspose.BarCode क्यों उपयोग करें?
 
-- एकीकृत विकास पर्यावरण (आईडीई): उदाहरणों के साथ अनुसरण करने के लिए अपनी पसंदीदा आईडीई चुनें, जैसे कि एक्लिप्स या इंटेलीजे।
+- **उच्च सटीकता** 60+ सिम्बोलॉजीज में, जिसमें Code 39, QR, DataMatrix आदि शामिल हैं।  
+- **कोई बाहरी निर्भरताएँ नहीं** – शुद्ध जावा, **कोई** नेटिव **लाइब्रेरी** नहीं।  
+- **Aspose.Words के साथ सहज एकीकरण**, जिससे **Word से छवियों को निकालना** और फिर **छवि से बारकोड पढ़ना** आसान हो जाता है।  
+- **मजबूत लाइसेंसिंग** जो **डेस्कटॉप**, **सर्वर**, और **क्लाउड** परिवेशों में काम करती है।
 
-## पैकेज आयात करें
+## पूर्वापेक्षाएँ
 
-अपने जावा प्रोजेक्ट में, आरंभ करने के लिए आवश्यक Aspose.BarCode पैकेज आयात करें:
+कोड में डुबकी लगाने से पहले, सुनिश्चित करें कि आपके पास है:
+
+- **Java Development Kit (JDK)** – नवीनतम संस्करण की सिफारिश की जाती है।  
+- **Aspose.BarCode for Java** – आधिकारिक साइट से लाइब्रेरी डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/barcode/java/).  
+- **IDE** – IntelliJ IDEA, Eclipse, या कोई भी एडिटर जो आप पसंद करते हैं।
+
+## पैकेज इम्पोर्ट करें
+
+अपने जावा प्रोजेक्ट में, आवश्यक Aspose.BarCode और Aspose.Words क्लासेस इम्पोर्ट करें:
 
 ```java
 import java.text.MessageFormat;
@@ -45,9 +69,9 @@ import com.aspose.words.NodeCollection;
 import com.aspose.words.NodeType;
 ```
 
-## चरण 1: बारकोड छवि उत्पन्न करें
+## चरण 1: बारकोड छवि उत्पन्न करें
 
-सबसे पहले, Aspose.BarCode का उपयोग करके एक बारकोड छवि बनाएं। कोड टेक्स्ट सेट करें और छवि सहेजें:
+पहले, एक बारकोड छवि बनाएं जिसे हम बाद में Word फ़ाइल में एम्बेड करेंगे।
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);
@@ -56,9 +80,9 @@ String strBarCodeImageSave = dataDir + "img.jpg";
 generator.save(strBarCodeImageSave);
 ```
 
-## चरण 2: वर्ड दस्तावेज़ में छवि जोड़ें
+## चरण 2: बारकोड को Word दस्तावेज़ में जोड़ें
 
-अब, Aspose.Words का उपयोग करके जेनरेट की गई बारकोड छवि को Word दस्तावेज़ में डालें:
+अब हम नई उत्पन्न छवि को एक नए Word दस्तावेज़ में सम्मिलित करेंगे। यह **बारकोड को Word में जोड़ें** परिदृश्य को दर्शाता है।
 
 ```java
 Document doc = new Document();
@@ -68,9 +92,9 @@ String strWordFile = "docout.doc";
 doc.save(dataDir + strWordFile);
 ```
 
-## चरण 3: वर्ड दस्तावेज़ से बारकोड को पहचानें
+## चरण 3: छवियों को निकालें और बारकोड पहचानें
 
-इसके बाद, Word दस्तावेज़ से छवियां निकालें और Aspose.BarCode का उपयोग करके बारकोड को पहचानें:
+दस्तावेज़ सहेजने के बाद, हम हर छवि (हमारे बारकोड सहित) निकाल सकते हैं और प्रत्येक पर **बारकोड डिटेक्शन जावा** चलाते हैं।
 
 ```java
 NodeCollection<Shape> shapes = doc.getChildNodes(NodeType.SHAPE, true);
@@ -78,13 +102,13 @@ int imageIndex = 0;
 
 for (Shape shape : shapes) {
     if (shape.hasImage()) {
-        // फ़ाइल में छवि निकालें
+        // Extract image to file
         String extension = ImageTypeToExtension(shape.getImageData().getImageType());
         String imageFileName = MessageFormat.format("Image.ExportImages.{0} Out.{1}", imageIndex, extension);
         String strBarCodeImageExtracted = "" + imageFileName;
         shape.getImageData().save(strBarCodeImageExtracted);
 
-        // इस छवि से बारकोड को पहचानें
+        // Recognize barcode from this image
         BarCodeReader reader = new BarCodeReader(strBarCodeImageSave, DecodeType.CODE_39_STANDARD);
         for (BarCodeResult result : reader.readBarCodes()) {
             System.out.println("CodeText: " + result.getCodeText());
@@ -95,28 +119,39 @@ for (Shape shape : shapes) {
 }
 ```
 
-इन चरणों को दोहराएँ, और आप Java के लिए Aspose.BarCode का उपयोग करके Word दस्तावेज़ों से बारकोड को सफलतापूर्वक पहचान लेंगे।
+> **प्रो टिप:** यदि आपको Word दस्तावेज़ के बाहर की **छवि से बारकोड पढ़ना** आवश्यक है, तो बस फ़ाइल पथ को `BarCodeReader` को पास करें – वही डिकोडिंग लॉजिक लागू होता है।
 
-## निष्कर्ष
+## सामान्य समस्याएँ और समाधान
 
-अंत में, जावा के लिए Aspose.BarCode का लाभ उठाने से Word दस्तावेज़ों से बारकोड को पहचानने की प्रक्रिया सरल हो जाती है। ऊपर बताए गए चरणों का पालन करें, और आप अपने जावा अनुप्रयोगों में बारकोड पहचान को सहजता से एकीकृत कर लेंगे।
+| समस्या | कारण | समाधान |
+|-------|-------|-----|
+| `shape.getImageData()` पर `NullPointerException` | शेप में कोई छवि नहीं है। | `shape.hasImage()` जांच जोड़ें (पहले ही दिखाया गया है)। |
+| गलत बारकोड प्रकार लौटाया गया | `DecodeType` का गलत उपयोग। | जनरेट करते समय उपयोग किए गए `EncodeTypes` से मिलाएँ (जैसे, `CODE_39_STANDARD`). |
+| छवि सही ढंग से सहेजी नहीं गई | `dataDir` में लिखने की अनुमति नहीं है। | सुनिश्चित करें कि डायरेक्टरी मौजूद है और लिखने योग्य है। |
+| लाइसेंस लागू नहीं हुआ | इवैल्यूएशन मोड कार्यक्षमता को सीमित करता है। | एप्लिकेशन शुरू होने पर अपना Aspose लाइसेंस लोड करें: `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` |
 
-## अक्सर पूछे जाने वाले प्रश्न (एफएक्यू)
+## अक्सर पूछे जाने वाले प्रश्न
 
-### प्रश्न: क्या मैं व्यावसायिक परियोजनाओं में जावा के लिए Aspose.BarCode का उपयोग कर सकता हूँ?
- हाँ, Java के लिए Aspose.BarCode व्यावसायिक उपयोग के लिए उपलब्ध है। आप लाइसेंसिंग विवरण पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+### Q: क्या मैं Aspose.BarCode for Java को व्यावसायिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?
+A: हाँ, Aspose.BarCode for Java व्यावसायिक उपयोग के लिए उपलब्ध है। आप लाइसेंसिंग विवरण [यहाँ](https://purchase.aspose.com/buy) पा सकते हैं।
 
-### प्रश्न: क्या जावा के लिए Aspose.BarCode का निःशुल्क परीक्षण उपलब्ध है?
- हां, आप नि:शुल्क परीक्षण डाउनलोड करके जावा के लिए Aspose.BarCode की सुविधाओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+### Q: क्या Aspose.BarCode for Java के लिए मुफ्त ट्रायल उपलब्ध है?
+A: हाँ, आप Aspose.BarCode for Java की सुविधाओं को मुफ्त ट्रायल डाउनलोड करके [यहाँ](https://releases.aspose.com/) देख सकते हैं।
 
-### प्रश्न: मैं जावा के लिए Aspose.BarCode के लिए समर्थन कैसे प्राप्त करूं?
-किसी भी सहायता या प्रश्न के लिए Aspose.BarCode फोरम पर जाएं[यहाँ](https://forum.aspose.com/c/barcode/13).
+### Q: Aspose.BarCode for Java के लिए समर्थन कैसे प्राप्त करें?
+A: किसी भी सहायता या प्रश्न के लिए, Aspose.BarCode फ़ोरम [यहाँ](https://forum.aspose.com/c/barcode/13) पर जाएँ।
 
-### प्रश्न: क्या जावा के लिए Aspose.BarCode के लिए अस्थायी लाइसेंस उपलब्ध हैं?
- हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+### Q: क्या Aspose.BarCode for Java के लिए अस्थायी लाइसेंस उपलब्ध हैं?
+A: हाँ, आप अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त कर सकते हैं।
 
-### प्रश्न: मैं जावा के लिए Aspose.BarCode के लिए दस्तावेज़ कहां पा सकता हूं?
- व्यापक दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/barcode/java/).
+### Q: Aspose.BarCode for Java की दस्तावेज़ीकरण कहाँ मिल सकता है?
+A: व्यापक दस्तावेज़ीकरण के लिए [यहाँ](https://reference.aspose.com/barcode/java/) देखें।
+
+---  
+
+**अंतिम अपडेट:** 2026-04-12  
+**परीक्षण किया गया:** Aspose.BarCode 24.11 for Java  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

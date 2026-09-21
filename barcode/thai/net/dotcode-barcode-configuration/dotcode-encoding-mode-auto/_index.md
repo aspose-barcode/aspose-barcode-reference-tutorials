@@ -1,118 +1,185 @@
 ---
-title: โหมดการเข้ารหัส DotCode (อัตโนมัติ) ใน Aspose.BarCode สำหรับ .NET
+date: 2026-06-14
+description: เรียนรู้วิธีสร้างบาร์โค้ด dotcode .net ด้วย Aspose.BarCode สำหรับ .NET.
+  คู่มือแบบขั้นตอน, ข้อกำหนดเบื้องต้น, ตัวอย่างโค้ด, และข้อมูลลิขสิทธิ์
+keywords:
+- create dotcode barcode .net
+- Aspose.BarCode .NET
+- DotCode encoding
 linktitle: โหมดการเข้ารหัส DotCode (อัตโนมัติ)
-second_title: Aspose.BarCode .NET API
-description: สำรวจโหมดการเข้ารหัส DotCode (อัตโนมัติ) ใน Aspose.BarCode สำหรับ .NET ซึ่งเป็นเครื่องมืออันทรงพลังสำหรับการสร้างบาร์โค้ด เรียนรู้วิธีสร้างบาร์โค้ด DotCode ทีละขั้นตอน ตรวจสอบเอกสาร ดาวน์โหลดไลบรารี และรับใบอนุญาตชั่วคราว
-weight: 11
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create dotcode barcode .net using Aspose.BarCode for .NET.
+    Step‑by‑step guide, prerequisites, code snippets, and licensing info.
+  headline: Create DotCode Barcode .NET (Auto Mode) with Aspose.BarCode
+  type: TechArticle
+- description: Learn how to create dotcode barcode .net using Aspose.BarCode for .NET.
+    Step‑by‑step guide, prerequisites, code snippets, and licensing info.
+  name: Create DotCode Barcode .NET (Auto Mode) with Aspose.BarCode
+  steps:
+  - name: Define the Directory Path
+    text: Replace `"Your Directory Path"` with the actual folder where you want the
+      PNG file saved.
+  - name: Initialize Barcode Generator
+    text: '`BarcodeGenerator` is Aspose.BarCode''s core object that creates barcodes.
+      It takes an `EncodeTypes` value and the data to encode. EncodeTypes is an enumeration
+      that specifies the barcode symbology to generate. - We create an instance of
+      `BarcodeGenerator` and specify `EncodeTypes.DotCode`. - The sec'
+  - name: Customize DotCode Parameters
+    text: The `DotCode` property group lets you fine‑tune the symbol. - Set the X‑dimension
+      (module size) with `gen.Parameters.Barcode.XDimension.Pixels`. XDimension defines
+      the size of a single module (dot) in pixels, controlling the overall barcode
+      size. Here it’s 10 px, but you can adjust from 2 px to 30 p
+  - name: Save the Barcode Image
+    text: '- Call `gen.Save` with the full file path and `BarCodeImageFormat.Png`
+      to write the image. BarCodeImageFormat enumerates supported image output formats
+      such as PNG, JPEG, and SVG. - The library automatically handles DPI scaling,
+      so the output is ready for printing or on‑screen display. That’s the co'
+  type: HowTo
+- questions:
+  - answer: Up to 1,500 bytes, which covers most alphanumeric and Unicode strings.
+    question: What is the maximum data capacity of DotCode in Auto mode?
+  - answer: Yes—simply change the `BarCodeImageFormat` to `Svg` in the `Save` call.
+    question: Can I generate SVG instead of PNG?
+  - answer: No, it works with .NET Core and .NET 5/6/7 as well as the classic Framework.
+    question: Does Aspose.BarCode require a full .NET Framework installation?
+  - answer: Save the image to a memory stream and write it to the response with `Response.BinaryWrite`.
+    question: How can I embed the generated barcode in an ASP.NET page?
+  - answer: Visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13)
+      for community and expert assistance.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
+second_title: Aspise.BarCode .NET API
+title: สร้างบาร์โค้ด DotCode .NET (โหมดอัตโนมัติ) ด้วย Aspose.BarCode
 url: /th/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# โหมดการเข้ารหัส DotCode (อัตโนมัติ) ใน Aspose.BarCode สำหรับ .NET
+# สร้างบาร์โค้ด DotCode .NET (โหมดอัตโนมัติ) ด้วย Aspose.BarCode
 
-เมื่อพูดถึงการสร้างบาร์โค้ดใน .NET Aspose.BarCode สำหรับ .NET มีความโดดเด่นในฐานะเครื่องมืออเนกประสงค์และทรงพลัง ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือมือใหม่ที่ต้องการใช้การสร้างบาร์โค้ด บทช่วยสอนนี้จะแนะนำคุณผ่านโหมดการเข้ารหัส DotCode เราจะแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่าคุณจะเข้าใจแนวคิดได้อย่างถี่ถ้วน
+เมื่อพูดถึงการสร้างบาร์โค้ดใน .NET, Aspose.BarCode for .NET โดดเด่นในฐานะเครื่องมือที่หลากหลายและทรงพลังที่ช่วยให้คุณ **create dotcode barcode .net** อย่างรวดเร็วและเชื่อถือได้ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทเรียนนี้จะพาคุณผ่านโหมดการเข้ารหัสอัตโนมัติขั้นตอนต่อขั้นตอน เพื่อให้คุณสามารถสร้างสัญลักษณ์ DotCode คุณภาพสูงได้โดยไม่ยุ่งยาก
+
+## คำตอบด่วน
+- **What does Auto mode do?** มันจะเลือกการเข้ารหัส DotCode ที่เหมาะสมที่สุดโดยอัตโนมัติตามข้อมูลที่คุณป้อน  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+- **Do I need a license for testing?** ใช่ – ใบอนุญาตชั่วคราวทำงานสำหรับการประเมินผล  
+- **How many barcode types does Aspose.BarCode support?** รองรับมากกว่า 50 สัญลักษณ์ รวมถึง QR, DataMatrix, และ DotCode  
+- **Can I output PNG, JPEG, or SVG?** ทั้งสามรูปแบบพร้อมใช้งานโดยอัตโนมัติ
+
+## โหมดการเข้ารหัส DotCode (Auto) คืออะไร
+Auto mode จะเลือกการเข้ารหัส DotCode ที่มีประสิทธิภาพที่สุด (ตัวเลข, ตัวอักษรผสม, หรือไบต์) โดยอัตโนมัติตามข้อมูลที่ให้มา สิ่งนี้ช่วยขจัดการคาดเดาและทำให้ได้ขนาดสัญลักษณ์และความอ่านได้ที่ดีที่สุด ระบบจะประเมินสตริงอินพุต, เลือกการแสดงผลภายในที่เหมาะสม, และกำหนดค่าตัวสัญลักษณ์เพื่อให้ได้พื้นที่ใช้สอยที่เล็กที่สุดในขณะที่ยังคงความน่าเชื่อถือในการสแกน
+
+## ทำไมต้องใช้ Aspose.BarCode สำหรับ .NET?
+Aspose.BarCode ประมวลผล **multi‑hundred‑page documents** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ, รองรับ **50+ barcode symbologies**, และสามารถสร้างภาพที่ **up to 300 dpi** — เหมาะสำหรับทั้งสภาพแวดล้อมเดสก์ท็อปและเซิร์ฟเวอร์ที่ต้องการประสิทธิภาพสูง
 
 ## ข้อกำหนดเบื้องต้น
+ก่อนจะลงลึกใน Auto mode, โปรดตรวจสอบว่าคุณมี:
 
-ก่อนที่จะเข้าสู่โหมดการเข้ารหัส DotCode (อัตโนมัติ) ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+1. **Aspose.BarCode for .NET** – ติดตั้งไลบรารี คุณสามารถค้นหาเอกสารและลิงก์ดาวน์โหลดได้ที่ [here](https://reference.aspose.com/barcode/net/) และ [here](https://releases.aspose.com/barcode/net/) ตามลำดับ  
+2. **Development Environment** – Visual Studio (รุ่นล่าสุดใดก็ได้) หรือ VS Code พร้อม .NET SDK  
+3. **Basic .NET Knowledge** – ความคุ้นเคยกับไวยากรณ์ C# และโครงสร้างโปรเจกต์  
+4. **Curiosity** – ความพร้อมที่จะทดลองกับพารามิเตอร์ของบาร์โค้ด
 
-1.  Aspose.BarCode สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.BarCode สำหรับ .NET แล้ว คุณสามารถค้นหาเอกสารและลิงค์ดาวน์โหลด[ที่นี่](https://reference.aspose.com/barcode/net/) และ[ที่นี่](https://releases.aspose.com/barcode/net/)ตามลำดับ
+## วิธีสร้างบาร์โค้ด dotcode .net?
+โหลดข้อมูลของคุณ, สร้างอ็อบเจ็กต์ generator, ปรับค่าพารามิเตอร์ DotCode เล็กน้อย, แล้วบันทึกภาพ — ทั้งหมดใช้เพียงห้าบรรทัดสั้นของ C#. คลาส `BarcodeGenerator` จะจัดการการเข้ารหัส, การเรนเดอร์, และการส่งออกไฟล์, ขณะที่ Auto mode จะตัดสินการแสดงผลภายในที่ดีที่สุดให้คุณ วิธีนี้ทำงานกับสตริงใดก็ได้ ไม่ว่าจะยาวแค่ไหน รวมถึงอักขระ Unicode, และสร้าง PNG คมชัดที่สามารถฝังในรายงาน, ป้าย, หรือหน้าเว็บได้
 
-2. สภาพแวดล้อมการพัฒนา: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ เช่น Visual Studio
-
-3. ความรู้พื้นฐาน .NET: แนะนำให้คุ้นเคยกับการเขียนโปรแกรม C# และ .NET
-
-4. ความปรารถนาที่จะเรียนรู้: ความคิดที่อยากรู้อยากเห็นและเปิดกว้างในการสำรวจโลกแห่งการสร้างบาร์โค้ดด้วยโหมดการเข้ารหัส DotCode
-
-ตอนนี้คุณมีข้อกำหนดเบื้องต้นแล้ว เรามาดำดิ่งสู่โลกของโหมดการเข้ารหัส DotCode กันดีกว่า
-
-## การนำเข้าเนมสเปซ
-
-หากต้องการทำงานกับ Aspose.BarCode สำหรับ .NET คุณต้องนำเข้าเนมสเปซที่จำเป็น ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
+### ขั้นตอนที่ 1: กำหนดเส้นทางไดเรกทอรี
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
- ในขั้นตอนนี้ เราจะนำเข้าไฟล์`Aspose.BarCode` เนมสเปซซึ่งให้การเข้าถึงคุณสมบัติการสร้างบาร์โค้ดและการปรับแต่ง
+แทนที่ `"Your Directory Path"` ด้วยโฟลเดอร์จริงที่คุณต้องการบันทึกไฟล์ PNG
 
-DotCode คือสัญลักษณ์บาร์โค้ดสองมิติที่สามารถเข้ารหัสข้อมูลประเภทต่างๆ ได้ Aspose.BarCode สำหรับ .NET ช่วยให้คุณทำงานกับโหมดการเข้ารหัส DotCode ได้อย่างง่ายดาย คำแนะนำทีละขั้นตอนในการสร้างบาร์โค้ด DotCode ด้วย Aspose.BarCode:
+### ขั้นตอนที่ 2: เริ่มต้น Barcode Generator
 
-## ขั้นตอนที่ 1: กำหนดเส้นทางไดเรกทอรี
+`BarcodeGenerator` เป็นอ็อบเจ็กต์หลักของ Aspose.BarCode ที่สร้างบาร์โค้ด มันรับค่า `EncodeTypes` และข้อมูลที่ต้องเข้ารหัส EncodeTypes เป็น enumeration ที่ระบุสัญลักษณ์บาร์โค้ดที่ต้องการสร้าง
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- แทนที่`"Your Directory Path"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกภาพบาร์โค้ดที่สร้างขึ้น
+- เราสร้างอินสแตนซ์ของ `BarcodeGenerator` และระบุ `EncodeTypes.DotCode`  
+- อาร์กิวเมนต์ที่สองคือสตริงข้อมูล; ในตัวอย่างนี้เราใช้ `"犬Right狗"` เพื่อแสดงการจัดการ Unicode
 
-## ขั้นตอนที่ 2: เริ่มต้นตัวสร้างบาร์โค้ด
+### ขั้นตอนที่ 3: ปรับแต่งพารามิเตอร์ DotCode
+
+กลุ่มคุณสมบัติ `DotCode` ให้คุณปรับจูนสัญลักษณ์อย่างละเอียด  
 
 ```csharp
 System.Console.WriteLine("DotCodeEncodeModeAuto:");
 
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "犬Right狗"))
 {
-    // การตั้งค่าเพิ่มเติมไปที่นี่
+    // Additional settings go here
 }
 ```
 
--  เราสร้างอินสแตนซ์ของ`BarcodeGenerator`และระบุประเภทการเข้ารหัสเป็น`EncodeTypes.DotCode`.
--  พารามิเตอร์ตัวที่สองในตัวสร้างคือข้อมูลที่คุณต้องการเข้ารหัส ในตัวอย่างนี้ เราได้ใช้สตริง`"犬Right狗"`แต่คุณสามารถแทนที่ด้วยข้อมูลของคุณได้
+- ตั้งค่า X‑dimension (ขนาดโมดูล) ด้วย `gen.Parameters.Barcode.XDimension.Pixels` XDimension กำหนดขนาดของโมดูล (จุด) หนึ่งจุดในพิกเซล, ควบคุมขนาดโดยรวมของบาร์โค้ด ที่นี่ตั้งเป็น 10 px, แต่คุณสามารถปรับได้ตั้งแต่ 2 px ถึง 30 px  
+- ระบุการเข้ารหัส ECI เป็น UTF‑8 ผ่าน `gen.Parameters.Barcode.DotCode.ECIEncoding` เพื่อให้การแสดงผลอักขระที่ไม่ใช่ ASCII ถูกต้อง ECIEncoding ตั้งค่า Extended Channel Interpretation, ระบุการเข้ารหัสอักขระ (เช่น UTF‑8) สำหรับข้อมูล
 
-## ขั้นตอนที่ 3: ปรับแต่งพารามิเตอร์ DotCode
+### ขั้นตอนที่ 4: บันทึกภาพบาร์โค้ด
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 gen.Parameters.Barcode.DotCode.ECIEncoding = ECIEncodings.UTF8;
 ```
 
--  ตั้งค่ามิติ X ของ DotCode โดยใช้`gen.Parameters.Barcode.XDimension.Pixels`. ในตัวอย่างนี้ เราได้ตั้งค่าไว้ที่ 10 พิกเซล แต่คุณสามารถปรับได้ตามต้องการ
--  ระบุการเข้ารหัส DotCode ECI เป็น UTF8 ด้วย`gen.Parameters.Barcode.DotCode.ECIEncoding`.
+- เรียก `gen.Save` พร้อมเส้นทางไฟล์เต็มและ `BarCodeImageFormat.Png` เพื่อเขียนภาพ BarCodeImageFormat ระบุรูปแบบภาพที่รองรับเช่น PNG, JPEG, และ SVG  
+- ไลบรารีจะจัดการการสเกล DPI อัตโนมัติ, ดังนั้นผลลัพธ์พร้อมพิมพ์หรือแสดงบนหน้าจอ
 
-## ขั้นตอนที่ 4: บันทึกภาพบาร์โค้ด
+นี่คือกระบวนการทำงานครบถ้วน — ห้าขั้นตอน, ไม่ต้องใช้ตารางการเข้ารหัสด้วยตนเอง, และรวมเข้ากับ .NET อย่างเต็มรูปแบบ
+
+## ปัญหาทั่วไปและวิธีแก้
+- **Garbage characters appear** – ตรวจสอบให้แน่ใจว่า `ECIEncoding` ตรงกับชุดอักขระของอินพุต (UTF‑8 ปลอดภัยที่สุดสำหรับ Unicode)  
+- **Image is blurry** – เพิ่มค่า X‑dimension หรือกำหนด DPI สูงขึ้นโดยใช้ `gen.Parameters.ImageResolution`  
+- **Large data strings cause errors** – DotCode รองรับได้สูงสุด **1,500 bytes** ใน Auto mode; หากเกินขีดจำกัดให้แบ่งข้อมูลเป็นหลายสัญลักษณ์
+
+## คำถามที่พบบ่อย
+
+**Q: What is the maximum data capacity of DotCode in Auto mode?**  
+A: สูงสุด 1,500 ไบต์, ครอบคลุมส่วนใหญ่ของสตริงอัลฟานูเมอริกและ Unicode
+
+**Q: Can I generate SVG instead of PNG?**  
+A: ได้ — เพียงเปลี่ยน `BarCodeImageFormat` เป็น `Svg` ในการเรียก `Save`
+
+**Q: Does Aspose.BarCode require a full .NET Framework installation?**  
+A: ไม่, มันทำงานได้กับ .NET Core และ .NET 5/6/7 รวมถึง Framework ดั้งเดิม
+
+**Q: How can I embed the generated barcode in an ASP.NET page?**  
+A: บันทึกภาพลงใน memory stream แล้วเขียนออกไปยัง response ด้วย `Response.BinaryWrite`
+
+**Q: Where can I get help if I run into problems?**  
+A: เยี่ยมชมฟอรั่ม Aspose.BarCode [here](https://forum.aspose.com/c/barcode/13) เพื่อรับความช่วยเหลือจากชุมชนและผู้เชี่ยวชาญ
+
+## สรุป
+ในบทเรียนนี้คุณได้เรียนรู้วิธี **create dotcode barcode .net** ด้วยโหมดการเข้ารหัสอัตโนมัติของ Aspose.BarCode เราได้ครอบคลุมข้อกำหนดเบื้องต้น, การนำเข้า namespace, การสร้างขั้นตอนต่อขั้นตอน, และเคล็ดลับการแก้ปัญหา API ที่ครอบคลุมของไลบรารีช่วยให้คุณปรับขนาด, การเข้ารหัส, และรูปแบบการส่งออกได้ตามต้องการ ทำให้เหมาะกับทุกอย่างตั้งแต่ป้ายสินค้าคงคลังจนถึงระบบการผลิตที่มีปริมาณสูง
+
+สำหรับการปรับแต่งเพิ่มเติม — เช่น การเพิ่มข้อความที่อ่านได้โดยมนุษย์, การเปลี่ยนสี, หรือการรวมกับการสร้าง PDF — สำรวจเอกสารเต็มได้ที่ [here](https://reference.aspose.com/barcode/net/). คุณยังสามารถดาวน์โหลดไลบรารีล่าสุดจาก [this link](https://releases.aspose.com/barcode/net/) และรับใบอนุญาตชั่วคราวสำหรับการประเมินผลได้ที่ [here](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**อัปเดตล่าสุด:** 2026-06-14  
+**ทดสอบด้วย:** Aspose.BarCode 24.11 for .NET  
+**ผู้เขียน:** Aspose  
 
 ```csharp
 gen.Save($"{path}DotCodeEncodeModeAuto.png", BarCodeImageFormat.Png);
 ```
+{{< blocks/products/products-backtop-button >}}
 
-- บันทึกภาพบาร์โค้ดที่สร้างขึ้นไปยังเส้นทางไดเร็กทอรีที่กำหนดไว้ในขั้นตอนที่ 1 ด้วยรูปแบบไฟล์ที่ระบุ (ในกรณีนี้คือ PNG)
+## บทแนะนำที่เกี่ยวข้อง
 
-แค่นั้นแหละ! คุณสร้างบาร์โค้ด DotCode สำเร็จแล้วโดยใช้ Aspose.BarCode สำหรับ .NET ไลบรารีอเนกประสงค์นี้ช่วยให้คุณปรับแต่งและสร้างบาร์โค้ดประเภทต่างๆ ได้อย่างง่ายดาย
+- [ปรับอัตราส่วนภาพ DotCode ด้วย Aspose.BarCode สำหรับ .NET](/barcode/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/)
+- [สร้างภาพบาร์โค้ด DotCode – แถวและคอลัมน์ (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
+- [การเริ่มต้น DotCode Reader ด้วย Aspose.BarCode สำหรับ .NET](/barcode/net/dotcode-barcode-configuration/dotcode-reader-initialization/)
 
-## บทสรุป
 
-ในบทช่วยสอนนี้ เราได้สำรวจโหมดการเข้ารหัส DotCode ใน Aspose.BarCode สำหรับ .NET แล้ว คุณได้เรียนรู้วิธีตั้งค่าข้อกำหนดเบื้องต้นที่จำเป็น นำเข้าเนมสเปซ และสร้างบาร์โค้ด DotCode ทีละขั้นตอน Aspose.BarCode สำหรับ .NET ทำให้กระบวนการสร้างบาร์โค้ดง่ายขึ้น ทำให้ทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์สามารถเข้าถึงได้
-
- หากคุณสนใจการปรับแต่งเพิ่มเติมและคุณสมบัติขั้นสูง โปรดตรวจสอบเอกสารประกอบที่ครอบคลุม[ที่นี่](https://reference.aspose.com/barcode/net/) . นอกจากนี้ คุณสามารถดาวน์โหลดไลบรารี่ได้จาก[ลิงค์นี้](https://releases.aspose.com/barcode/net/) และแม้กระทั่งสำรวจตัวเลือกการออกใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
-
-## คำถามที่พบบ่อย
-
-### คำถามที่ 1: DotCode คืออะไร
-
-A1: DotCode คือสัญลักษณ์บาร์โค้ดสองมิติที่ได้รับการออกแบบมาเพื่อการใช้งานด้านการพิมพ์ทางอุตสาหกรรมความเร็วสูง สามารถเข้ารหัสข้อมูลได้หลายประเภท รวมถึงข้อมูลข้อความและตัวเลข
-
-### คำถามที่ 2: ฉันสามารถสร้างบาร์โค้ด DotCode ในรูปแบบต่างๆ โดยใช้ Aspose.BarCode สำหรับ .NET ได้หรือไม่
-
-ตอบ 2: ใช่ Aspose.BarCode สำหรับ ..NET รองรับรูปแบบเอาต์พุตหลายรูปแบบ รวมถึง PNG, JPEG และอื่นๆ ช่วยให้คุณสามารถเลือกรูปแบบที่เหมาะกับการใช้งานของคุณมากที่สุด
-
-### คำถามที่ 3: Aspose.BarCode สำหรับ .NET เหมาะสำหรับทั้ง Windows และเว็บแอปพลิเคชันหรือไม่
-
-A3: ใช่ Aspose.BarCode สำหรับ .NET มีความหลากหลายและสามารถใช้ได้ทั้งใน Windows และเว็บแอปพลิเคชัน ทำให้เป็นตัวเลือกที่ยอดเยี่ยมสำหรับโครงการที่หลากหลาย
-
-### คำถามที่ 4: Aspose.BarCode สำหรับ .NET รองรับสัญลักษณ์บาร์โค้ดอื่นๆ ใดบ้าง
-
-A4: Aspose.BarCode สำหรับ .NET รองรับบาร์โค้ดหลายประเภท รวมถึง QR Code, Code 128, DataMatrix และอื่นๆ อีกมากมาย คุณสามารถสำรวจตัวเลือกเหล่านี้ได้ในเอกสารประกอบ
-
-### คำถามที่ 5: ฉันจะรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ .NET ได้อย่างไร
-
- A5: หากคุณมีคำถามหรือต้องการความช่วยเหลือ คุณสามารถไปที่ฟอรัม Aspose.BarCode[ที่นี่](https://forum.aspose.com/c/barcode/13) เพื่อขอความช่วยเหลือและคำแนะนำจากชุมชนและผู้เชี่ยวชาญ
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

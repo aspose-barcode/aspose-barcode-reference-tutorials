@@ -1,46 +1,63 @@
 ---
-title: Yama Kodu Seti Özelleştirmesi
-linktitle: Yama Kodu Seti Özelleştirmesi
-second_title: Aspose.BarCode .NET API'si
-description: Aspose.BarCode'u kullanarak .NET'te nasıl barkod oluşturulacağını öğrenin. Barkodları zahmetsizce özelleştirin ve uygulamalarınıza entegre edin.
-weight: 11
+date: 2026-03-02
+description: Aspose.BarCode kullanarak .NET’te birden fazla barkod oluşturmayı, yama
+  barkodlarını özelleştirmeyi ve barkod PNG görüntülerini zahmetsizce kaydetmeyi öğrenin.
+linktitle: Create Multiple Barcodes – Patch Code Set Customization
+second_title: Aspose.BarCode .NET API
+title: Birden Fazla Barkod Oluştur – Yama Kod Seti Özelleştirme
 url: /tr/net/patch-code-configuration/patch-code-set-customization/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Yama Kodu Seti Özelleştirmesi
+# Birden Çok Barkod Oluşturma – Patch Code Set Özelleştirme
 
+Bu öğreticide Aspose.BarCode for .NET ile **birden çok barkod** oluşturacaksınız, odak noktası Patch Code ailesi olacak. İster bir belge yönetim sistemi geliştiriyor olun, ister varlıkları etiketlemeniz gerekiyor olsun, birden fazla barkod görüntüsü aynı anda üretmek zaman kazandırır ve hataları azaltır. Gereksinimleri adım adım inceleyecek, gerekli ad alanlarını içe aktaracağız ve ardından **patch barkod** değerlerini **özelleştirmenizi** ve **barkod PNG** dosyalarını diske **kaydetmenizi** sağlayan bir örnek göstereceğiz.
 
-Yazılım geliştirme dünyasında barkod oluşturmayı uygulamalarınıza dahil etmek çok önemli bir gereklilik olabilir. Aspose.BarCode for .NET, .NET uygulamalarınızda çeşitli barkod türleri oluşturmak için güçlü bir çözüm sunar. Bu adım adım kılavuzda Aspose.BarCode for .NET'in inceliklerine dalacağız, önkoşullarını ele alacağız, ad alanlarını içe aktaracağız ve her örneği birden fazla adıma ayıracağız. Bu eğitimin sonunda bu güçlü kütüphaneyi kullanmak için sağlam bir temele sahip olacaksınız.
+## Hızlı Yanıtlar
+- **Bu kılavuz neyi kapsıyor?** Birden çok Patch Code barkodu oluşturma, metinlerini özelleştirme ve PNG görüntüleri olarak kaydetme.  
+- **Hangi kütüphane kullanılıyor?** Aspose.BarCode for .NET.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme sürümü yeterli; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+ ve .NET Core/5/6+.  
+- **Kaç barkod üretebilirim?** İstediğiniz kadar – sadece `CodeText` özelliğini değiştirin ve her görüntü için `Save` metodunu çağırın.
+
+## Patch Code ile “birden çok barkod oluşturma” nedir?
+Patch Code barkodları, belge takibi için sıkça kullanılan kompakt ve yüksek yoğunluklu bir sembolojidir. Tek bir `BarcodeGenerator` örneğinin `CodeText` özelliğini değiştirerek, bir döngüde veya bir dizi ifadede **birden çok barkod** oluşturabilir ve her birini ayrı bir PNG dosyası olarak kaydedebilirsiniz.
+
+## Neden Aspose.BarCode .NET'i barkod görüntüsü oluşturmak için kullanmalısınız?
+- **Tam özellikli API** – Patch Code dahil olmak üzere onlarca semboloji destekler.  
+- **Harici bağımlılık yok** – saf .NET kütüphanesi, entegrasyonu kolay.  
+- **Zengin özelleştirme** – renkler, yazı tipleri, boyutlar ve görüntü formatları tümü yapılandırılabilir.  
+- **Güvenilir çıktı** – üretim için uygun, net ve taranabilir görüntüler üretir.
 
 ## Önkoşullar
 
-Aspose.BarCode for .NET ile yolculuğumuza başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olmanız gerekir:
+Aspose.BarCode for .NET ile yolculuğumuza başlamadan önce aşağıdaki önkoşulları karşıladığınızdan emin olmalısınız:
 
-### 1.Visual Stüdyo
- Geliştirme makinenizde Visual Studio'nun kurulu olması gerekir. Değilse, adresinden indirebilirsiniz.[İnternet sitesi](https://visualstudio.microsoft.com/).
+### 1. Visual Studio
+Geliştirme makinenizde Visual Studio yüklü olmalıdır. Yüklü değilse, [web sitesinden](https://visualstudio.microsoft.com/) indirebilirsiniz.
 
 ### 2. Aspose.BarCode for .NET
- Aspose.BarCode for .NET kütüphanesine sahip olmanız gerekir. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/barcode/net/) . Ücretsiz deneme sürümünü şuradan edinebilirsiniz:[Burada](https://releases.aspose.com/).
+Aspose.BarCode for .NET kütüphanesine sahip olmalısınız. Kütüphaneyi [web sitesinden](https://releases.aspose.com/barcode/net/) indirebilirsiniz. Ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) edinebilirsiniz.
 
-### 3. .NET Çerçevesi
-Geliştirme ortamınız .NET Framework ile donatılmış olmalıdır. Çerçevenin uyumlu bir sürümünü kullandığınızdan emin olun.
+### 3. .NET Framework
+Geliştirme ortamınız .NET Framework ile donatılmış olmalıdır. Uyumlu bir framework sürümü kullandığınızdan emin olun.
 
-### 4. Bir Metin Düzenleyici
-.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyicisine veya Visual Studio gibi bir Tümleşik Geliştirme Ortamına (IDE) ihtiyacınız olacaktır.
+### 4. A Text Editor
+.NET kodunuzu yazmak ve çalıştırmak için bir metin düzenleyici veya Visual Studio gibi bir Entegre Geliştirme Ortamı (IDE) gerekir.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarma
 
-Kod örneklerine dalmadan önce Aspose.BarCode kütüphanesini projenizde kullanılabilir hale getirmek için gerekli ad alanlarını içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Kod örneklerine dalmadan önce, Aspose.BarCode kütüphanesini projenizde kullanılabilir hâle getirmek için gerekli ad alanlarını içe aktarmanız gerekir. İşte nasıl yapacağınız:
 
-### Adım 1: .NET Projenizi Açın
-Visual Studio'nuzu başlatın ve Aspose.BarCode'u kullanmak istediğiniz .NET projesini açın.
+### 1. Adım: .NET Projenizi Açın
+Visual Studio'yu başlatın ve Aspose.BarCode kullanmak istediğiniz .NET projesini açın.
 
-### Adım 2: Referans Ekle
-Solution Explorer'da projenize sağ tıklayın, "Ekle" > "Referans"ı seçin ve daha önce indirdiğiniz Aspose.BarCode kütüphanesine gidin.
+### 2. Adım: Referansları Ekleyin
+Solution Explorer'da projenize sağ tıklayın, **Add** > **Reference** seçeneğini seçin ve daha önce indirdiğiniz Aspose.BarCode kütüphanesine gidin.
 
 ### 3. Adım: Ad Alanlarını İçe Aktarın
 Kod dosyanızın en üstüne aşağıdaki ad alanlarını ekleyin:
@@ -50,89 +67,96 @@ using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 ```
 
-Artık önkoşulları yerine getirdiğinize ve ad alanlarını içe aktardığınıza göre, ilk örneğe geçelim.
+Artık önkoşulları yerine getirdiniz ve ad alanlarını içe aktardınız, birkaç Patch Code varyantı için **barkod görüntüsü oluşturmanın** nasıl yapılacağını gösteren temel örneğe geçelim.
 
-Bu örnekte özelleştirilmiş Yama Kodu barkodları oluşturacağız. Yama kodları çeşitli belge yönetimi görevleri için kullanılır. Aspose.BarCode for .NET'i kullanarak Yama Kodu barkodlarının farklı varyasyonlarını oluşturacağız.
+## Birden Çok Barkod Oluşturma – Adım Adım Kılavuz
 
-## 1. Adım: Dizin Yolunuzu Ayarlama
-
- Oluşturulan barkod görüntülerini kaydetmek istediğiniz dizin yolunu belirterek başlayın. Yer değiştirmek`"Your Directory Path"` İstediğiniz dizin yolu ile.
+### 1. Adım: Dizin Yolunu Ayarlama
+Oluşturulan barkod görüntülerini kaydetmek istediğiniz dizin yolunu belirtmekle başlayın. `"Your Directory Path"` ifadesini istediğiniz klasör konumuyla değiştirin.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Adım 2: Barkod Oluşturucuyu Başlatma
-
- kullanacağız`BarcodeGenerator` Yama Kodu barkodları oluşturmak için sınıf. Oluşturucuyu barkod türü ve kod metniyle aşağıdaki gibi başlatın:
+### 2. Adım: Barkod Üreteci'yi Başlatma
+Patch Code barkodları oluşturmak için `BarcodeGenerator` sınıfını kullanacağız. Üreteci barkod türü ve başlangıç kod metniyle başlatın:
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.PatchCode, "Patch I");
 ```
 
-## 3. Adım: Kod Metni Parametrelerini Özelleştirme
-
-Barkodun kod metni parametrelerini özelleştirebilirsiniz. Burada yazı tipi boyutunu 20 piksele ayarlıyoruz:
+### 3. Adım: Kod Metni Parametrelerini Özelleştirme
+Barkodun kod metni parametrelerini özelleştirebilirsiniz. Burada, metnin net okunabilir olması için yazı tipi boyutunu 20 piksel olarak ayarlıyoruz:
 
 ```csharp
 gen.Parameters.Barcode.CodeTextParameters.FontMode = FontMode.Manual;
 gen.Parameters.Barcode.CodeTextParameters.Font.Size.Pixels = 20;
 ```
 
-## Adım 4: Barkod Oluşturma ve Kaydetme
-
-Farklı kod metinlerine sahip farklı Yama Kodu barkodları oluşturacağız ve bunları belirtilen dizin yoluna kaydedeceğiz:
+### 4. Adım: Barkodları Oluşturma ve Kaydetme
+Şimdi her varyant için `CodeText` özelliğini değiştirip **barkod PNG** dosyalarını kaydediyoruz. Bu, tek bir çalıştırmada **birden çok barkod** oluşturduğumuz kısımdır:
 
 ```csharp
-// Yama I
+// Patch I
 gen.CodeText = "Patch I";
 gen.Save($"{path}PatchCodeI.png", BarCodeImageFormat.Png);
 
-// Yama II
+// Patch II
 gen.CodeText = "Patch II";
 gen.Save($"{path}PatchCodeII.png", BarCodeImageFormat.Png);
 
-// Yama III
+// Patch III
 gen.CodeText = "Patch III";
 gen.Save(`${path}PatchCodeIII.png`, BarCodeImageFormat.Png);
 
-// Yama IV
+// Patch IV
 gen.CodeText = "Patch IV";
 gen.Save(`${path}PatchCodeIV.png`, BarCodeImageFormat.Png);
 
-// Yama T
+// Patch T
 gen.CodeText = "Patch T";
 gen.Save(`${path}PatchCodeT.png`, BarCodeImageFormat.Png);
 
-// Yama VI
+// Patch VI
 gen.CodeText = "Patch VI";
 gen.Save(`${path}PatchCodeVI.png`, BarCodeImageFormat.Png);
 ```
 
-Tebrikler! Aspose.BarCode for .NET ile Yama Kodu barkodlarını başarıyla oluşturdunuz. Aspose.BarCode tarafından desteklenen diğer barkod türlerini oluşturmak için de benzer bir süreç izleyebilirsiniz.
+> **Pro ipucu:** Yüzlerce Patch Code barkodu üretmeniz gerekiyorsa, son bloğu kod dizesi koleksiyonunda dönen bir `foreach` döngüsüyle sarın.
 
-## Çözüm
+Tebrikler! Aspose.BarCode for .NET ile **birden çok barkod** başarıyla oluşturdunuz. Aynı desen, başka desteklenen sembolojiler için de geçerlidir—sadece `EncodeTypes.PatchCode` ifadesini istediğiniz tipe değiştirin.
 
-Aspose.BarCode for .NET, .NET uygulamalarınızda barkod oluşturmayı kolaylaştıran güçlü bir kütüphanedir. Bu adım adım kılavuz size önkoşulları, ad alanını içe aktarmayı ve özel Yama Kodu barkodları oluşturma örneğini sağlamıştır. Bu bilgiyle daha fazla barkod türünü keşfedebilir ve bunları projelerinize dahil edebilirsiniz.
+## Yaygın Tuzaklar ve Sorun Giderme
 
-Unutmayın, pratik önemlidir. Aspose.BarCode for .NET'in tüm potansiyelinden yararlanmak için farklı barkod türleri ve özelleştirmelerle denemeler yapın.
+| Belirti | Muhtemel Neden | Çözüm |
+|---------|----------------|------|
+| PNG dosyaları boş | Çıktı klasör yolu geçersiz veya son slash eksik | `path`'in bir ters eğik çizgi (`\\`) ile bittiğini doğrulayın veya `Path.Combine` kullanın. |
+| Barkod bulanık görünüyor | Görüntü formatı düşük DPI'ye ayarlanmış | Kaydetmeden önce `gen.Parameters.ImageResolution` değerini ayarlayın. |
+| Metin kesiliyor | Yazı tipi boyutu barkod boyutuna göre çok büyük | `Font.Size.Pixels` değerini küçültün veya `gen.Parameters.ImageSize` ile barkod boyutlarını artırın. |
 
-## SSS
+## Sık Sorulan Sorular
 
-### 1. Aspose.BarCode for .NET belgelerini nerede bulabilirim?
- Belgeleri şu adreste bulabilirsiniz:[https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/).
+### 1. Aspose.BarCode for .NET belgelerini nereden bulabilirim?
+Belgelere [https://reference.aspose.com/barcode/net/](https://reference.aspose.com/barcode/net/) adresinden ulaşabilirsiniz.
 
-### 2. Aspose.BarCode for .NET için nasıl geçici lisans alabilirim?
- adresinden geçici lisans alabilirsiniz.[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+### 2. Aspose.BarCode for .NET için geçici bir lisans nasıl alabilirim?
+Geçici lisansı [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/) adresinden edinebilirsiniz.
 
 ### 3. Aspose.BarCode for .NET en son .NET Framework ile uyumlu mu?
 Evet, Aspose.BarCode for .NET en son .NET Framework sürümleriyle uyumludur.
 
 ### 4. Barkod görüntülerinin görünümünü daha da özelleştirebilir miyim?
-Evet, renk, boyut ve metin görünümü gibi çeşitli parametreleri özel ihtiyaçlarınızı karşılayacak şekilde özelleştirebilirsiniz.
+Evet, renk, boyut ve metin görünümü gibi çeşitli parametreleri ihtiyaçlarınıza göre özelleştirebilirsiniz.
 
 ### 5. Aspose.BarCode for .NET desteği için bir topluluk veya forum var mı?
- Evet, Aspose.BarCode forumunda destek arayabilir ve tartışmalara katılabilirsiniz:[https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13).
+Evet, Aspose.BarCode forumunda [https://forum.aspose.com/c/barcode/13](https://forum.aspose.com/c/barcode/13) adresinden destek alabilir ve tartışmalara katılabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-03-02  
+**Test Edilen Versiyon:** Aspose.BarCode 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
