@@ -228,6 +228,12 @@ C#을 사용해 텍스트로 바코드를 생성하는 완전한 단계별 가�
 ### [C#에서 PDF417 읽는 방법 – 완전 바코드 리더 가이드](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
 C#을 사용해 PDF417 바코드를 읽는 전체 가이드를 제공합니다.
 
+### [Aspose 바코드 생성 – 완전 C# 가이드](./generate-barcode-aspose-complete-c-guide/)
+Aspose.BarCode를 사용하여 C#에서 바코드를 완전하게 생성하는 방법을 단계별로 안내합니다.
+
+### [C#에서 마이크로 PDF417 이미지 만들기 – 단계별 가이드](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+C#를 사용해 마이크로 PDF417 이미지를 단계별로 생성하는 방법을 안내합니다.
+
 ## 자주 묻는 질문
 
 **Q: Compact PDF417 바코드에 저장할 수 있는 최대 데이터 양은 얼마인가요?**  

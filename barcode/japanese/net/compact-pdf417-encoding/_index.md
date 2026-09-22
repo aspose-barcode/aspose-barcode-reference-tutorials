@@ -162,6 +162,10 @@ Aspose.BarCode を使用して、C# でバーコード画像を PNG、JPEG な�
 
 ### [C# で PDF417 を読み取る – 完全なバーコードリーダーガイド](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
 
+### [Asposeでバーコード生成 – 完全C#ガイド](./generate-barcode-aspose-complete-c-guide/)
+
+### [C#でマイクロPDF417画像を作成する – ステップバイステップガイド](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+
 ## よくある質問
 
 **Q: Compact PDF417 バーコードに保存できる最大データ量はどれくらいですか？**  

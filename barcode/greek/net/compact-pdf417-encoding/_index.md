@@ -152,6 +152,9 @@ weight: 29
 
 ### [Πώς να διαβάσετε PDF417 σε C# – πλήρης οδηγός ανάγνωσης barcode](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
 Οδηγός βήμα‑βήμα για την ανάγνωση κωδίκων PDF417 σε C# με το Aspose.BarCode.
+### [Δημιουργία barcode aspose – πλήρης οδηγός C#](./generate-barcode-aspose-complete-c-guide/)
+### [Δημιουργία μικρογραφίας PDF417 σε C# – βήμα‑βήμα οδηγός](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε μικρή εικόνα PDF417 σε C# με αναλυτικές οδηγίες βήμα‑βήμα.
 
 ## Συχνές Ερωτήσεις
 

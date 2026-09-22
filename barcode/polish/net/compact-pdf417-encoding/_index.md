@@ -149,6 +149,9 @@ Pełny przewodnik, jak w C# wygenerować kod kreskowy z dowolnego tekstu przy u�
 ### [Jak odczytać PDF417 w C# – kompletny przewodnik czytnika kodów kreskowych](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
 
 Pełny przewodnik, jak w C# odczytywać kody PDF417 przy użyciu Aspose.BarCode, z przykładami kodu i wskazówkami.
+### [Generowanie kodu kreskowego Aspose – kompletny przewodnik C#](./generate-barcode-aspose-complete-c-guide/)
+
+### [Utwórz obraz micro PDF417 w C# – przewodnik krok po kroku](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 
 ## Najczęściej zadawane pytania
 

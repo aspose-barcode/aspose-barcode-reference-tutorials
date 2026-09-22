@@ -210,6 +210,12 @@ Fullständig guide för att skapa streckkoder från text i C# med Aspose.BarCode
 ### [Hur man läser PDF417 i C# – komplett streckkodsläsarguide](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
 Fullständig guide för att läsa PDF417‑streckkoder i C# med Aspose.BarCode, inklusive kodexempel och konfiguration.
 
+### [Generera streckkod med Aspose – komplett C#-guide](./generate-barcode-aspose-complete-c-guide/)
+En fullständig guide för att skapa streckkoder i C# med Aspose.BarCode.
+
+### [Skapa mikro PDF417‑bild i C# – steg‑för‑steg‑guide](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+Lär dig att generera en mikro‑PDF417‑bild i C# med detaljerade steg.
+
 ## Vanliga frågor
 
 **Q: Vad är den maximala mängden data jag kan lagra i en Compact PDF417‑streckkod?**  
