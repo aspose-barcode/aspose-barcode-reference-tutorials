@@ -1,0 +1,7 @@
+Title: How to generate barcode images with custom size in C#
+Slug: how-to-generate-barcode-images-with-custom-size-in-c
+Category: general
+ProcessedDate: 2026-08-22T15:54:40.134208
+SourceRepo: AI Search API
+Keywords: how to generate barcode, change barcode size, export barcode image
+PRNumber: 109

@@ -1,0 +1,7 @@
+Title: How to generate barcode with Aspose in C#
+Slug: how-to-generate-barcode-with-aspose-in-c
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-09-20T02:28:49.406889
+SourceRepo: AI Search API
+Keywords: how to generate barcode, create barcode with aspose
+PRNumber: 130

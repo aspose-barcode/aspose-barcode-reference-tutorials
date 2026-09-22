@@ -1,0 +1,7 @@
+Title: How to build a barcode generator example in C# with DataBar Expanded Stacked
+Slug: how-to-build-a-barcode-generator-example-in-c-with-databar-e
+Category: general
+ProcessedDate: 2026-09-20T02:49:09.125223
+SourceRepo: AI Search API
+Keywords: barcode generator example, generate barcode c#
+PRNumber: 132

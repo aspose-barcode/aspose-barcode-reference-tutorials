@@ -1,0 +1,7 @@
+Title: How to generate barcode and customize PDF417 barcode in C#
+Slug: how-to-generate-barcode-and-customize-pdf417-barcode-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-20T02:28:51.311394
+SourceRepo: AI Search API
+Keywords: how to generate barcode, customize pdf417 barcode, create barcode image c#
+PRNumber: 130

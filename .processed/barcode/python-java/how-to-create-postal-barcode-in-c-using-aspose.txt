@@ -1,0 +1,7 @@
+Title: How to create postal barcode in C# using Aspose
+Slug: how-to-create-postal-barcode-in-c-using-aspose
+Category: general
+ProcessedDate: 2026-08-22T15:54:36.471327
+SourceRepo: AI Search API
+Keywords: create postal barcode, barcode generator c#, how to generate barcode image, how to set barcode size, create barcode with aspose
+PRNumber: 109

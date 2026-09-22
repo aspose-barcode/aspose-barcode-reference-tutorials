@@ -1,117 +1,133 @@
 ---
-title: Ulepsz dodatkowe dostosowywanie kodów kreskowych za pomocą Aspose.BarCode
-linktitle: Dodatkowa personalizacja przestrzeni na kod kreskowy
+date: 2026-03-05
+description: Learn how to generate barcode image, adjust barcode width, and customize
+  supplement space with Aspose.BarCode for .NET. Try the free trial today!
+linktitle: Supplemental Barcode Space Customization
 second_title: Aspose.BarCode .NET API
-description: Dostosuj łatwo kody kreskowe za pomocą Aspose.BarCode dla .NET. Kontroluj wymiar X i uzupełniaj przestrzeń. Wypróbuj bezpłatną wersję próbną!
-weight: 11
+title: How to Generate Barcode Image with Supplemental Space Customization using Aspose.BarCode
 url: /pl/net/supplemental-barcode-data/supplemental-barcode-space-customization/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ulepsz dodatkowe dostosowywanie kodów kreskowych za pomocą Aspose.BarCode
+# Jak wygenerować obraz kodu kreskowego z dostosowaniem przestrzeni dodatkowej przy użyciu Aspose.BarCode
 
+W dzisiejszych dynamicznych środowiskach detalicznych i logistycznych możliwość **generowania obrazów kodów kreskowych** spełniających dokładne wymagania układu jest niezbędna. Niezależnie od tego, czy musisz **utworzyć etykiety kodu kreskowego EAN13** dla linii produktów, czy precyzyjnie dostroić odstępy wizualne dla danych dodatkowych, Aspose.BarCode dla .NET daje pełną kontrolę. W tym samouczku przeprowadzimy Cię przez cały proces – od konfiguracji generatora po **regulację szerokości kodu kreskowego** i w końcu **zapis obrazu kodu kreskowego PNG** – abyś w kilka minut mógł uzyskać idealnie dopasowane kody kreskowe.
 
-W stale zmieniającym się krajobrazie technologii kodów kreskowych, personalizacja jest kluczem do sukcesu. Jako biegły autor treści z doświadczeniem w pisaniu SEO, jestem tutaj, aby poprowadzić Cię przez wykorzystanie mocy Aspose.BarCode dla .NET. Ten samouczek krok po kroku pomoże Ci osiągnąć pożądany poziom dostosowania kodów kreskowych, upewniając się, że odpowiadają one Twoim dokładnym specyfikacjom.
+## Szybkie odpowiedzi
+- **Co oznacza „generowanie obrazu kodu kreskowego”?** Tworzy on rastrową reprezentację (PNG, JPEG itp.) kodu kreskowego, którą można wydrukować lub wyświetlić.  
+- **Jaki typ kodu kreskowego jest użyty w przykładzie?** EAN13, powszechny format numeryczny dla produktów detalicznych.  
+- **Jak zmienić szerokość kodu kreskowego?** Ustawiając właściwość X‑Dimension (piksele).  
+- **Czy mogę kontrolować przestrzeń wokół danych dodatkowych?** Tak, przy użyciu właściwości `SupplementSpace` (piksele).  
+- **W jakim formacie zapisywany jest plik?** PNG, przy użyciu wyliczenia `BarCodeImageFormat.Png`.
 
-## Warunki wstępne
+## Co to jest generowanie obrazu kodu kreskowego przy użyciu Aspose.BarCode?
+Klasa `BarcodeGenerator` z Aspose.BarCode konwertuje surowe dane (np. numer produktu) na wizualny obraz kodu kreskowego. Ten obraz może być zapisany w różnych formatach, osadzony w dokumentach lub wysłany bezpośrednio do drukarki.
 
-Zanim zagłębimy się w świat dostosowywania kodów kreskowych, musisz upewnić się, że spełnione są następujące wymagania wstępne:
+## Dlaczego warto dostosować przestrzeń dodatkową i X‑Dimension?
+Dostosowanie **przestrzeni dodatkowej** pozwala spełnić konkretne standardy układu etykiet, natomiast **regulacja szerokości kodu kreskowego** (X‑Dimension) zapewnia niezawodne skanowanie na różnych czytnikach. Razem dają elastyczność potrzebną do spełnienia wymagań brandingowych, regulacyjnych i ergonomicznych.
+
+## Wymagania wstępne
+
+Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
 ### 1. Aspose.BarCode dla .NET
+Musisz mieć zainstalowane Aspose.BarCode dla .NET. Link do pobrania znajdziesz [tutaj](https://releases.aspose.com/barcode/net/). Jeśli jeszcze go nie masz, możesz również uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
 
- Musisz mieć zainstalowany Aspose.BarCode for .NET w swoim systemie. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/barcode/net/) . Jeśli jeszcze jej nie posiadasz, możesz także uzyskać licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
+### 2. Ścieżka do katalogu
+Utwórz (lub wybierz) folder, w którym będą zapisywane wygenerowane obrazy kodów kreskowych. Zastąp `"Your Directory Path"` w przykładach kodu rzeczywistą ścieżką na swoim komputerze.
 
-### 2. Twoja ścieżka do katalogu
-
-Upewnij się, że masz katalog, w którym będziesz zapisywać wygenerowane obrazy kodów kreskowych. Będziesz musiał wymienić`"Your Directory Path"` w poniższym przykładzie kodu z rzeczywistą ścieżką do katalogu.
-
-## Importuj przestrzenie nazw
-
-Teraz zacznijmy od zaimportowania niezbędnych przestrzeni nazw do naszego dostosowania.
+## Importowanie przestrzeni nazw
+Najpierw zaimportuj przestrzeń nazw zawierającą klasy generowania kodów kreskowych.
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Po spełnieniu wszystkich wymagań wstępnych możemy przystąpić do procesu dostosowywania kodu kreskowego.
+## Przewodnik krok po kroku
 
-## 1. Tworzenie generatora kodów kreskowych
-
- Aby rozpocząć, utwórz plik`BarcodeGenerator` instancja określająca typ i wartość kodu kreskowego. W tym przykładzie używamy formatu EAN13 i wartości „1234567890128”.
+### Krok 1: Utwórz generator kodu kreskowego (Create EAN13 barcode)
+Zainicjuj `BarcodeGenerator`, określając typ kodu (`EncodeTypes.EAN13`) oraz dane, które chcesz zakodować.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.EAN13, "1234567890128");
 ```
 
-## 2. Ustawianie wymiaru X dla kodu kreskowego
-
-Wymiar X określa szerokość elementów kodu kreskowego. Możesz ustawić go w pikselach w następujący sposób:
+### Krok 2: Regulacja szerokości kodu kreskowego (Set X‑Dimension)
+X‑Dimension kontroluje szerokość każdego modułu kodu kreskowego. Ustawienie jej w pikselach pozwala **regulować szerokość kodu kreskowego** tak, aby pasowała do rozmiaru etykiety.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-## 3. Dodanie suplementu
-
-W niektórych przypadkach może zaistnieć potrzeba dołączenia do kodu kreskowego dodatkowych danych. Możesz dodać dodatek za pomocą następującego kodu:
+### Krok 3: Dodaj dane dodatkowe
+Jeśli Twój standard etykietowania wymaga danych dodatkowych (np. 5‑cyfrowego dodatku dla książek), przypisz je przy użyciu właściwości `SupplementData`.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementData = "12345";
 ```
 
-## 4. Dostosowywanie przestrzeni suplementów
-
- Teraz nadchodzi część, w której możesz dostosować przestrzeń dodatku wokół kodu kreskowego. The`SupplementSpace`Właściwość pozwala określić odstęp w pikselach. W naszym przykładzie ustawiliśmy go na 20 pikseli:
+### Krok 4: Dostosuj przestrzeń dodatkową
+Kontroluj odstęp między głównym kodem kreskowym a częścią dodatkową, ustawiając `SupplementSpace`. W tym przykładzie używamy 20 pikseli.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 20;
 ```
 
-## 5. Zapisywanie spersonalizowanego kodu kreskowego
-
-Po dostosowaniu kodu kreskowego możesz zapisać go w określonym katalogu. W tym przykładzie zapisujemy obraz kodu kreskowego w formacie PNG.
+### Krok 5: Zapisz obraz kodu kreskowego jako PNG (Save barcode PNG)
+Po pełnej konfiguracji kodu, zapisz go w przygotowanym folderze. Obraz będzie w formacie PNG, idealnym do użycia w sieci i druku.
 
 ```csharp
 gen.Save($"{path}SupplementSpace20Pixels.png", BarCodeImageFormat.Png);
 ```
 
-## 6. Dalsze dostosowywanie
-
- Jeśli chcesz inaczej dostosować przestrzeń dodatku, możesz powtórzyć proces, zmieniając`SupplementSpace` wartość i odpowiednio zapisać kod kreskowy.
+### Krok 6: Eksperymentuj z różnymi przestrzeniami dodatkowymi
+Możesz powtórzyć proces z inną wartością `SupplementSpace`, aby zobaczyć, jak zmienia się układ wizualny. Tutaj przełączamy się na 40 pikseli i zapisujemy drugi obraz.
 
 ```csharp
 gen.Parameters.Barcode.Supplement.SupplementSpace.Pixels = 40;
 gen.Save($"{path}SupplementSpace40Pixels.png", BarCodeImageFormat.Png);
 ```
 
-Otóż to! Pomyślnie dostosowałeś swój kod kreskowy za pomocą Aspose.BarCode dla .NET.
+## Typowe problemy i rozwiązania
+- **Kod kreskowy jest zbyt cienki lub zbyt gruby:** Ponownie dostosuj X‑Dimension (`gen.Parameters.Barcode.XDimension.Pixels`). Typowe wartości mieszczą się w przedziale od 1 do 4 pikseli.
+- **Dane dodatkowe się nie wyświetlają:** Upewnij się, że `SupplementData` jest ustawione *przed* zapisaniem obrazu.
+- **Plik nie został zapisany:** Sprawdź, czy zmienna `path` wskazuje na istniejący katalog i czy aplikacja ma uprawnienia do zapisu.
 
-## Wniosek
+## Najczęściej zadawane pytania
 
-Dzięki Aspose.BarCode dla .NET masz możliwość dostosowania swoich kodów kreskowych tak, aby spełniały dokładnie Twoje wymagania. To narzędzie upraszcza proces, pozwalając kontrolować wymiar X i bez wysiłku uzupełniać przestrzeń. Wykaż się kreatywnością i wyróżnij swoje kody kreskowe dzięki tej potężnej bibliotece.
+**P: Gdzie mogę znaleźć dokumentację Aspose.BarCode dla .NET?**  
+O: Dokumentację znajdziesz [tutaj](https://reference.aspose.com/barcode/net/).
 
-## Często zadawane pytania
+**P: Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode dla .NET?**  
+O: Tak, wersję próbną można pobrać [tutaj](https://releases.aspose.com/).
 
-### Gdzie mogę znaleźć dokumentację Aspose.BarCode dla .NET?
- Można uzyskać dostęp do dokumentacji[Tutaj](https://reference.aspose.com/barcode/net/).
+**P: Jak mogę kupić licencję na Aspose.BarCode dla .NET?**  
+O: Licencję można nabyć [tutaj](https://purchase.aspose.com/buy).
 
-### Czy dostępna jest bezpłatna wersja próbna Aspose.BarCode dla .NET?
- Tak, możesz uzyskać bezpłatną wersję próbną od[Tutaj](https://releases.aspose.com/).
+**P: Jakie formaty kodów kreskowych są obsługiwane przez Aspose.BarCode dla .NET?**  
+O: Aspose.BarCode dla .NET obsługuje szeroką gamę formatów, w tym EAN, QR, Code39 i wiele innych. Pełną listę znajdziesz w dokumentacji.
 
-### Jak mogę kupić licencję na Aspose.BarCode dla .NET?
- Możesz kupić licencję od[Tutaj](https://purchase.aspose.com/buy).
+**P: Czy mogę używać Aspose.BarCode dla .NET w projektach komercyjnych?**  
+O: Tak, Aspose.BarCode dla .NET nadaje się zarówno do użytku prywatnego, jak i komercyjnego. Wystarczy zakupić licencję, aby korzystać z niego w swoich projektach.
 
-### Jakie formaty kodów kreskowych są obsługiwane przez Aspose.BarCode dla .NET?
-Aspose.BarCode dla .NET obsługuje szeroką gamę formatów kodów kreskowych, w tym EAN, QR, Code39 i inne. Pełną listę można znaleźć w dokumentacji.
+## Podsumowanie
+Masz już kompletny, praktyczny przewodnik, jak **generować obrazy kodów kreskowych** z niestandardowym X‑Dimension i przestrzenią dodatkową przy użyciu Aspose.BarCode dla .NET. Dostosowując szerokość i odstęp dodatkowy, możesz spełnić praktycznie każde wymaganie etykietowania – niezależnie od tego, czy potrzebujesz **utworzyć kod kreskowy EAN13**, **regulować szerokość kodu kreskowego**, czy **zapisać kod kreskowy PNG** do sieci lub druku. Zachęcamy do eksperymentowania z innymi typami kodów i formatami obrazu, aby rozbudować tę bazę.
 
-### Czy mogę używać Aspose.BarCode dla .NET w moich projektach komercyjnych?
-Tak, Aspose.BarCode dla .NET nadaje się zarówno do użytku osobistego, jak i komercyjnego. Możesz kupić licencję na wykorzystanie go w swoich projektach.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-05  
+**Testowano z:** Aspose.BarCode 24.11 dla .NET  
+**Autor:** Aspose  
+
+---

@@ -1,0 +1,7 @@
+Title: How to print library version in Python using Aspose.Barcode
+Slug: how-to-print-library-version-in-python-using-aspose-barcode
+Category: general
+ProcessedDate: 2026-09-16T22:36:39.435470
+SourceRepo: AI Search API
+Keywords: print library version python, get major minor version, extract product version
+PRNumber: 127
