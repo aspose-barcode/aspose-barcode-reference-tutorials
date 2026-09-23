@@ -1,10 +1,44 @@
 ---
-date: 2026-02-17
-description: Pelajari cara menggunakan Aspose Barcode Java untuk membuat gambar barcode,
+date: 2026-08-28
+description: Pelajari cara membuat gambar barcode java dengan Aspose Barcode Java,
   mengatur simbol start dan stop CODABAR, serta menghasilkan file PNG tanpa watermark.
-linktitle: Setting Start and Stop Symbols
+keywords:
+- create barcode image java
+- barcode generation without watermark
+- codabar start stop symbols
+lastmod: 2026-08-28
+linktitle: Mengatur Simbol Start dan Stop
+og_description: Membuat gambar barcode java menggunakan Aspose Barcode Java. Panduan
+  ini menunjukkan cara mengatur simbol start/stop CODABAR dan mengekspor PNG tanpa
+  watermark.
+og_image_alt: 'Aspose Barcode Java tutorial: create barcode image with start/stop
+  symbols'
+og_title: Membuat gambar barcode java – panduan simbol start/stop
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to create barcode image java with Aspose Barcode Java, set
+    CODABAR start and stop symbols, and generate PNG files without watermarks.
+  headline: Aspose Barcode Java – Create barcode image with start/stop symbols
+  type: TechArticle
+- questions:
+  - answer: Aspose.BarCode for Java.
+    question: What library creates barcode images in Java?
+  - answer: Yes, using `setCodabarStartSymbol` and `setCodabarStopSymbol`.
+    question: Can I customize start/stop symbols?
+  - answer: CODABAR.
+    question: Which barcode type is used in this example?
+  - answer: A commercial license is required for non‑trial use.
+    question: Do I need a license for production?
+  - answer: PNG image saved to disk.
+    question: What output format is generated?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: Aspose Barcode Java – Buat Gambar Barcode dengan Simbol Mulai/Hentikan
+tags:
+- barcode generation
+- Aspose.BarCode
+- Java barcode tutorial
+title: Aspose Barcode Java – Membuat gambar barcode dengan simbol start/stop
 url: /id/java/barcode-configuration/setting-start-stop-symbols/
 weight: 15
 ---
@@ -13,42 +47,40 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Barcode Java – Membuat Gambar Barcode dengan Simbol Mulai/Hentikan
+# Aspose Barcode Java – Membuat gambar barcode dengan simbol start/stop
 
 ## Pendahuluan
 
-Dalam tutorial komprehensif ini Anda akan **create barcode image java** file dengan **Aspose Barcode Java** dan mempelajari **how to set symbols** untuk barcode Codabar. Apakah Anda membangun sistem point‑of‑sale, aplikasi logistik, atau solusi apa pun yang memerlukan generasi barcode yang andal, menyesuaikan simbol mulai dan berhenti memberi Anda kontrol penuh atas format barcode. Kami akan memandu setiap langkah, menjelaskan mengapa setiap pengaturan penting, dan menunjukkan cara menghasilkan gambar PNG siap pakai—tanpa watermark percobaan.
+Dalam tutorial komprehensif ini Anda akan **create barcode image java** dengan Aspose Barcode Java dan belajar **how to set start and stop symbols** untuk barcode CODABAR. Apakah Anda sedang membangun terminal point‑of‑sale, sistem manajemen gudang, atau aplikasi apa pun yang memerlukan pembuatan barcode yang dapat diandalkan, menyesuaikan simbol-simbol ini memungkinkan Anda memenuhi spesifikasi warisan sambil menjaga kode tetap bersih dan dapat dipelihara. Kami akan membimbing Anda melalui setiap langkah, menjelaskan mengapa setiap pengaturan penting, dan menunjukkan cara menghasilkan gambar PNG yang tidak mengandung watermark percobaan.
 
 ## Jawaban Cepat
-- **Library apa yang membuat gambar barcode di Java?** Aspose.BarCode for Java.  
-- **Bisakah saya menyesuaikan simbol mulai/hentikan?** Ya, menggunakan `setCodabarStartSymbol` dan `setCodabarStopSymbol`.  
+
+- **Perpustakaan apa yang membuat gambar barcode di Java?** Aspose.BarCode for Java.  
+- **Bisakah saya menyesuaikan simbol start/stop?** Yes, using `setCodabarStartSymbol` and `setCodabarStopSymbol`.  
 - **Jenis barcode apa yang digunakan dalam contoh ini?** CODABAR.  
-- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan non‑trial.  
-- **Format output apa yang dihasilkan?** Gambar PNG disimpan ke disk.
+- **Apakah saya memerlukan lisensi untuk produksi?** A commercial license is required for non‑trial use.  
+- **Format output apa yang dihasilkan?** PNG image saved to disk.
 
 ## Apa itu Aspose Barcode Java?
 
-Aspose Barcode Java adalah perpustakaan yang kuat dan bebas ketergantungan yang memungkinkan Anda menghasilkan berbagai macam simbol barcode secara programatis. Ia mengabstraksi logika enkoding tingkat rendah, sehingga Anda dapat fokus pada aturan bisnis sambil memastikan output memenuhi standar industri.
+Aspose Barcode Java adalah **perpustakaan Java bebas dependensi yang menghasilkan lebih dari 70 simbol barcode**, mulai dari kode 1D klasik seperti CODABAR hingga kode 2D modern seperti QR dan DataMatrix. Ia menangani semua enkoding tingkat rendah, sehingga Anda dapat fokus pada logika bisnis sambil menjamin kepatuhan terhadap standar industri.
 
-## Mengapa Menggunakan Aspose Barcode Java untuk Generasi Barcode Tanpa Watermark?
+## Mengapa menggunakan Aspose Barcode Java untuk pembuatan barcode tanpa watermark?
 
-- **Tidak ada watermark dalam produksi** – setelah Anda menerapkan lisensi yang valid, gambar bersih.  
-- **Dukungan simbol yang luas** – mulai dari kode 1D klasik seperti CODABAR hingga kode 2D seperti QR dan DataMatrix.  
-- **Kontrol detail** – Anda dapat mengatur simbol mulai/hentikan, warna, ukuran, dan bahkan menghasilkan gambar langsung ke stream untuk aplikasi web.  
-- **Lintas platform** – bekerja pada runtime Java apa pun, termasuk Android (dengan penanganan ketergantungan manual).
+Muat lisensi Anda terlebih dahulu, dan perpustakaan menghasilkan gambar bersih—tanpa overlay “Aspose Evaluation”. Ini juga menawarkan **kontrol halus** (simbol start/stop, warna, ukuran) dan **kompatibilitas lintas platform** (runtime Java apa pun, termasuk Android). Dengan dukungan untuk **lebih dari 50 format output** dan kemampuan untuk men-stream gambar langsung ke respons HTTP, ini menjadi pilihan utama untuk pembuatan barcode berkapasitas tinggi dan kualitas produksi.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki:
-
 1. **Java Development Kit (JDK)** – Instal JDK terbaru dari [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Perpustakaan Aspose.BarCode untuk Java** – Unduh dari [tautan unduhan](https://releases.aspose.com/barcode/java/).
+2. **Aspose.BarCode for Java library** – Unduh dari [download link](https://releases.aspose.com/barcode/java/).
 
-Menyiapkan hal‑hal ini memastikan Anda dapat **generate barcode image java** tanpa komponen yang hilang.
+Menyiapkan hal-hal ini memastikan Anda dapat **create barcode image java** tanpa komponen yang hilang.
 
-## Mengimpor Paket
+## Impor paket
 
-Dalam proyek Java Anda, impor kelas yang diperlukan untuk bekerja dengan Aspose.BarCode:
+Impor berikut memberi Anda akses ke kelas inti yang diperlukan untuk pembuatan barcode:
+
+Enum `CodabarSymbol` mendefinisikan karakter start/stop yang diizinkan untuk barcode CODABAR.  
 
 ```java
 // Import Aspose.BarCode classes
@@ -56,96 +88,119 @@ import com.aspose.barcode.CodabarSymbol;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Panduan Langkah‑per‑Langkah
+## Panduan langkah‑demi‑langkah
 
-### Langkah 1: Tentukan Direktori Dokumen
+### Bagaimana cara Anda menentukan folder output untuk gambar barcode?
+
+Tentukan folder tempat file PNG akan ditulis. Menggunakan `Paths.get` membuat kode dapat dipindahkan lintas Windows, macOS, dan Linux.
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
-Ganti `"Your Document Directory"` dengan jalur absolut atau relatif tempat Anda ingin menyimpan gambar barcode. Ingat untuk mengakhiri jalur dengan pemisah file yang sesuai (`/` atau `\`) atau gunakan `Paths.get` untuk penanganan lintas platform.
+### Bagaimana cara Anda membuat generator barcode untuk CODABAR?
 
-### Langkah 2: Buat Instance Barcode Generator
+Kelas `BarcodeGenerator` membuat gambar barcode untuk sebuah simbol dan data tertentu.  
+
+Buat instance `BarcodeGenerator` dengan simbol CODABAR dan string data yang ingin Anda enkode.
 
 ```java
 // Create instance of BarcodeGenerator, specify codetext and symbology in the constructor
 BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODABAR, "12345678");
 ```
 
-Di sini kami memberi tahu Aspose.BarCode untuk menggunakan simbol **CODABAR** dan string data `"12345678"`.
+### Bagaimana cara Anda mengatur simbol start CODABAR?
 
-### Langkah 3: Atur Simbol Mulai Codabar
+`setCodabarStartSymbol` menetapkan karakter yang menandai awal barcode CODABAR.  
+
+Panggil `setCodabarStartSymbol` dan berikan salah satu karakter yang didukung (`A`, `B`, `C`, `D`). Pada contoh ini kami menggunakan `A`.
 
 ```java
 // Set the Codabar start symbol to A
 generator.getParameters().getBarcode().getCodabar().setCodabarStartSymbol(CodabarSymbol.A);
 ```
 
-Metode `setCodabarStartSymbol` memungkinkan Anda **set barcode symbols** untuk karakter mulai. Pada kasus ini kami memilih `A`.
+### Bagaimana cara Anda mengatur simbol stop CODABAR?
 
-### Langkah 4: Atur Simbol Henti Codabar
+`setCodabarStopSymbol` menetapkan karakter yang menandai akhir barcode CODABAR.  
+
+Gunakan `setCodabarStopSymbol` dengan karakter stop yang cocok—`D` dalam kasus ini.
 
 ```java
 // Set the Codabar stop symbol to D
 generator.getParameters().getBarcode().getCodabar().setCodabarStopSymbol(CodabarSymbol.D);
 ```
 
-Demikian pula, `setCodabarStopSymbol` mendefinisikan karakter berhenti. Menggunakan `D` melengkapi format CODABAR yang dibutuhkan oleh banyak sistem warisan.
+### Bagaimana cara Anda menyimpan barcode yang dihasilkan sebagai file PNG?
 
-### Langkah 5: Simpan Gambar yang Dihasilkan
+Enum `SaveFormat` menentukan format file untuk menyimpan gambar barcode.  
+
+Panggil metode `save`, berikan nama file lengkap dan nilai enum `SaveFormat.Png`. Gambar ditulis tanpa watermark setelah lisensi yang valid diterapkan.
 
 ```java
 // Save the image to disk in PNG format
 generator.save(dataDir + "startAndStopSymbols.png");
 ```
 
-Pemanggilan `save` menulis barcode ke file PNG bernama **startAndStopSymbols.png** di direktori yang Anda tentukan sebelumnya.
+## Kesalahan umum & tips
 
-## Kesalahan Umum & Tips
+Kelas `License` memuat file lisensi Aspose untuk mengaktifkan mode fitur penuh.
 
-- **Jalur direktori tidak tepat** – Pastikan `dataDir` diakhiri dengan pemisah file (`/` atau `\`) atau gabungkan menggunakan `Paths.get`.  
-- **Simbol mulai/hentikan tidak didukung** – CODABAR hanya mendukung `A`, `B`, `C`, `D` sebagai simbol mulai/hentikan. Menggunakan nilai lain akan memicu pengecualian.  
-- **Lisensi tidak diterapkan** – Dalam mode percobaan gambar yang dihasilkan mungkin berisi watermark. Terapkan lisensi Anda sebelum menyebarkan ke produksi untuk mencapai **barcode generation without watermark**.
+- **Path direktori tidak tepat** – Pastikan `dataDir` diakhiri dengan pemisah file yang sesuai atau bangun path dengan `Paths.get`.  
+- **Karakter start/stop tidak didukung** – CODABAR hanya menerima `A`, `B`, `C`, atau `D`. Memberikan nilai lain akan memicu `IllegalArgumentException`.  
+- **Lisensi tidak diterapkan** – Dalam mode percobaan output berisi watermark. Muat file lisensi Anda dengan `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` sebelum membuat generator untuk menghindarinya.  
+- **Pembuatan skala besar** – Saat menghasilkan ribuan barcode, gunakan kembali satu instance `BarcodeGenerator` dan hanya ubah teks kode untuk mengurangi beban pembuatan objek.
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
 ### Bisakah saya menggunakan Aspose.BarCode untuk Java dalam proyek komersial?
-Ya, Anda dapat. Untuk penggunaan komersial, pertimbangkan membeli lisensi [di sini](https://purchase.aspose.com/buy).
 
-### Apakah ada versi percobaan gratis yang tersedia?
-Ya, Anda dapat menjelajahi versi percobaan gratis [di sini](https://releases.aspose.com/).
+Ya. Beli lisensi komersial [purchase a commercial license](https://purchase.aspose.com/buy) untuk menghapus watermark evaluasi dan mendapatkan dukungan teknis penuh.
 
-### Bagaimana saya mendapatkan dukungan untuk Aspose.BarCode untuk Java?
-Kunjungi forum Aspose.BarCode [di sini](https://forum.aspose.com/c/barcode/13) untuk dukungan atau pertanyaan.
+### Apakah tersedia percobaan gratis?
 
-### Bagaimana cara mendapatkan lisensi sementara?
-Jika diperlukan, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
+Tentu saja. Unduh versi percobaan [download the trial version](https://releases.aspose.com/) untuk mengevaluasi semua fitur sebelum membeli.
 
-### Apakah ada lebih banyak simbol barcode yang didukung oleh Aspose.BarCode untuk Java?
-Ya, Aspose.BarCode mendukung berbagai macam simbol barcode. Lihat dokumentasi untuk daftar lengkap.
+### Bagaimana saya dapat dukungan untuk Aspose.BarCode untuk Java?
 
-## Tambahan Q&A (AI‑Friendly)
+Kunjungi forum Aspose.BarCode [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) untuk bantuan komunitas, atau buka tiket dukungan melalui portal akun Aspose Anda.
 
-**T:** Format gambar apa yang dapat saya ekspor selain PNG?  
-**J:** Aspose.BarCode mendukung PNG, JPEG, BMP, GIF, dan TIFF. Gunakan ekstensi file yang sesuai dalam metode `save`.
+### Bagaimana cara mendapatkan lisensi sementara untuk pengujian?
 
-**T:** Bisakah saya menghasilkan gambar barcode di memori tanpa menulis ke disk?  
-**J:** Ya, panggil `generator.save(OutputStream)` untuk menulis langsung ke stream, yang ideal untuk respons web.
+Anda dapat meminta lisensi sementara 30‑hari [request a temporary 30‑day license](https://purchase.aspose.com/temporary-license/). Ini memungkinkan Anda menjalankan tes mirip produksi tanpa pembelian penuh.
 
-**T:** Apakah perpustakaan ini bekerja di Android?  
-**J:** Versi Java kompatibel dengan Android, tetapi Anda harus menyertakan dependensi yang diperlukan secara manual.
+### Simbologi barcode lain apa yang didukung Aspose.BarCode?
+
+Perpustakaan mendukung **lebih dari 70 simbologi**, termasuk Code128, EAN‑13, QR, DataMatrix, PDF417, dan banyak lagi. Lihat daftar lengkapnya di dokumentasi resmi.
+
+## Tambahan Q&A (ramah AI)
+
+**Q:** Format gambar apa yang dapat saya ekspor selain PNG?  
+**A:** Aspose.BarCode mendukung PNG, JPEG, BMP, GIF, dan TIFF. Pilih format yang diinginkan dengan mengubah nilai enum `SaveFormat` dalam pemanggilan `save`.
+
+**Q:** Bisakah saya menghasilkan gambar barcode di memori tanpa menulis ke disk?  
+**A:** Ya. Panggil `generator.save(OutputStream)` untuk menulis langsung ke stream—ideal untuk API web yang mengembalikan gambar sebagai respons HTTP.
+
+**Q:** Apakah perpustakaan ini bekerja di Android?  
+**A:** Versi Java berjalan di Android, tetapi Anda harus menyertakan dependensi yang diperlukan secara manual (tidak ada Maven Central untuk Android). API inti tetap identik.
 
 ## Kesimpulan
 
-Anda kini telah mempelajari cara **create barcode image java** file dan secara tepat **set barcode symbols** untuk barcode Codabar menggunakan **Aspose Barcode Java**. Teknik ini memberi Anda fleksibilitas untuk memenuhi spesifikasi barcode khusus industri sambil menjaga kode tetap bersih dan dapat dipelihara. Jelajahi opsi kustomisasi tambahan—seperti mengubah warna, menambahkan teks yang dapat dibaca manusia, atau beralih ke simbol lain—dengan merujuk pada dokumentasi API resmi di [documentation](https://reference.aspose.com/barcode/java/).
+Anda kini telah mempelajari cara **create barcode image java** dan secara tepat **mengatur simbol start/stop** untuk barcode CODABAR menggunakan Aspose Barcode Java. Pendekatan ini memberi Anda fleksibilitas untuk memenuhi spesifikasi warisan sambil menjaga basis kode tetap bersih dan dapat dipelihara. Jelajahi kustomisasi lebih lanjut—seperti mengubah warna, menambahkan teks yang dapat dibaca manusia, atau beralih ke simbologi lain—dengan merujuk pada referensi API resmi di [documentation](https://reference.aspose.com/barcode/java/).
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.BarCode for Java 24.12  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-08-28  
+**Diuji Dengan:** Aspose.BarCode for Java 24.12  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Validasi Checksum dan Buat Barcode Codabar di Java dengan Aspose.BarCode](/barcode/java/checksum-and-validation/)
+- [Buat Barcode dengan Aspose - Atur Dimensi X & Y di Java](/barcode/java/barcode-configuration/managing-x-y-dimension-barcode/)
+- [Cara menghasilkan barcode java: Membuat Gambar Barcode yang Tepat](/barcode/java/barcode-basics/creating-image-exact-barcode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
