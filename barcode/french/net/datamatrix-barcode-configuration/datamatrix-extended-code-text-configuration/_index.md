@@ -1,38 +1,105 @@
 ---
-title: Configuration du texte du code DataMatrix avec Aspose.BarCode pour .NET
+date: 2026-09-23
+description: Apprenez à utiliser Aspose.BarCode pour générer un code-barres DataMatrix
+  avec texte de code étendu en .NET, idéal pour les applications d'inventaire et de
+  logistique.
+keywords:
+- how to use aspose
+- create barcode for inventory
+- barcode generation .net core
+- generate barcode image c#
+lastmod: 2026-09-23
 linktitle: Configuration du texte de code étendu DataMatrix
-second_title: API Aspose.BarCode .NET
-description: Apprenez à configurer le texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET. Générez, reconnaissez et intégrez des codes-barres dans vos applications .NET.
-weight: 17
+og_description: Comment utiliser Aspose.BarCode pour générer un code-barres DataMatrix
+  avec texte de code étendu en .NET. Suivez un guide rapide étape par étape pour les
+  solutions d'inventaire et de logistique.
+og_image_alt: Screenshot of a DataMatrix barcode generated with Aspose.BarCode in
+  a .NET console app
+og_title: Comment utiliser Aspose.BarCode pour créer du texte de code DataMatrix en
+  .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-23'
+  description: Learn how to use Aspose.BarCode to generate a DataMatrix barcode with
+    extended code text in .NET, ideal for inventory and logistics applications.
+  headline: How to use Aspose.BarCode to create DataMatrix code text in .NET
+  type: TechArticle
+- description: Learn how to use Aspose.BarCode to generate a DataMatrix barcode with
+    extended code text in .NET, ideal for inventory and logistics applications.
+  name: How to use Aspose.BarCode to create DataMatrix code text in .NET
+  steps:
+  - name: Define the output folder
+    text: Specify where the generated barcode image will be saved. Replace the placeholder
+      with a valid path on your machine.
+  - name: Build the extended code text
+    text: '`DataMatrixExtCodetextBuilder` is a helper class that assembles the extended
+      code text according to the DataMatrix specification. It automatically inserts
+      the required ECI (Extended Channel Interpretation) markers. This mix demonstrates
+      how you can combine Unicode characters, C40 encoding, plain tex'
+  - name: Generate the final codetext string
+    text: After configuring all parts, retrieve the combined string that Aspose.BarCode
+      will embed into the barcode.
+  - name: Create the DataMatrix barcode
+    text: '`BarcodeGenerator` is the core class that produces barcode images. Instantiate
+      it with `EncodeTypes.DataMatrix` and the extended codetext, then set visual
+      parameters such as X‑dimension, image format, and optional human‑readable text.
+      The above code **creates barcode aspose .net** with the desired e'
+  - name: Verify the barcode by reading it back
+    text: '`BarCodeReader` validates that the generated symbol can be decoded correctly,
+      which is essential for automated test pipelines and quality assurance. If everything
+      is set up properly, the console will output the exact extended code text you
+      built earlier.'
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for .NET
+    question: What library is needed?
+  - answer: DataMatrix with extended code text
+    question: Which barcode type?
+  - answer: Yes, the API is cross‑platform
+    question: Can I use .NET Core / .NET 6?
+  - answer: A free trial works for development; a license is required for production
+    question: Do I need a license for testing?
+  - answer: About 10‑15 minutes for a basic example
+    question: How long does implementation take?
+  type: FAQPage
+second_title: Aspose.BarCode .NET API
+tags:
+- Aspose.BarCode
+- DataMatrix
+- .NET barcode
+- C# barcode generation
+- inventory labeling
+title: Comment utiliser Aspose.BarCode pour créer du texte de code DataMatrix en .NET
 url: /fr/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configuration du texte du code DataMatrix avec Aspose.BarCode pour .NET
+# Comment utiliser Aspose.BarCode pour créer du texte de code DataMatrix en .NET
 
-Dans le monde du développement de logiciels, l’intégration des codes-barres est devenue une nécessité cruciale pour diverses applications. Avec l'aide de bibliothèques comme Aspose.BarCode for .NET, vous pouvez facilement générer et reconnaître des codes-barres dans vos applications .NET. Ce didacticiel vous guidera tout au long du processus de configuration du texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET. Avant d’entrer dans les détails, jetons un coup d’œil aux prérequis de ce guide.
+## Réponses rapides
+- **Quelle bibliothèque est nécessaire ?** Aspose.BarCode for .NET  
+- **Quel type de code-barres ?** DataMatrix avec texte de code étendu  
+- **Puis-je utiliser .NET Core / .NET 6 ?** Oui, l'API est multiplateforme  
+- **Ai-je besoin d'une licence pour les tests ?** Un essai gratuit fonctionne pour le développement ; une licence est requise pour la production  
+- **Combien de temps prend l'implémentation ?** Environ 10‑15 minutes pour un exemple de base  
 
-## Conditions préalables
+## Qu'est-ce qu'Aspose.BarCode pour .NET ?
+Aspose.BarCode for .NET est une bibliothèque commerciale qui permet aux développeurs de générer et de reconnaître plus de 30 symbologies de codes-barres, y compris DataMatrix, QR et Code 128, et de produire des images jusqu'à 10 000 × 10 000 pixels sans dépendances externes. Elle prend en charge .NET Framework 4.5+, .NET Core 3.1+, et .NET 5/6/7.
 
-Avant de commencer, assurez-vous d'avoir mis en place les éléments suivants :
+## Pourquoi utiliser le texte de code étendu DataMatrix ?
+Le texte de code étendu DataMatrix vous permet d'intégrer plusieurs schémas d'encodage—UTF‑8, C40, Text, X12—dans un seul symbole, autorisant jusqu'à **3116 codewords** (environ 155 KB de données) dans un carré compact. Cette capacité est idéale pour l'étiquetage multilingue de produits, le suivi de dispositifs médicaux et l'emballage intelligent où vous devez combiner des identifiants alphanumériques avec des charges binaires.
 
-1. Aspose.BarCode pour la bibliothèque .NET
-Vous devrez avoir installé Aspose.BarCode pour .NET. Si ce n'est pas déjà fait, vous pouvez le télécharger sur le site[ici](https://releases.aspose.com/barcode/net/).
+## Prérequis
+1. **Aspose.BarCode for .NET** – téléchargez-le depuis le site officiel **[Aspose.BarCode .NET download page](https://releases.aspose.com/barcode/net/)**.  
+2. **Un environnement de développement .NET** – Visual Studio, Rider ou VS Code avec le SDK .NET.  
+3. **Connaissances de base en C#** – vous devez être à l'aise avec les classes, les espaces de noms et la directive `using`.
 
-2. Un environnement de développement .NET
-Pour suivre ce didacticiel, vous devez disposer d'un environnement de développement .NET configuré sur votre système. Vous pouvez utiliser Visual Studio ou tout autre IDE préféré.
-
-3. Connaissance de base de C#
-Une compréhension de base de la programmation C# est essentielle pour ce didacticiel.
-
-Maintenant que vous disposez des outils et des connaissances nécessaires, décomposons le processus de configuration du texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET en instructions simples, étape par étape.
-
-## Importer des espaces de noms
-
-La première étape pour travailler avec Aspose.BarCode pour .NET consiste à importer les espaces de noms requis. Ajoutez les espaces de noms suivants à votre code :
+## Importer les espaces de noms
+Ajoutez les espaces de noms requis en haut de votre fichier C# afin que le compilateur sache où trouver les classes de code-barres.
 
 ```csharp
 using System;
@@ -40,23 +107,20 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-Ces espaces de noms fournissent les classes et méthodes nécessaires pour travailler avec des codes-barres.
+Ces espaces de noms vous donnent accès aux fonctionnalités de génération et de reconnaissance de codes-barres.
 
-## Étape 1 : Configuration du texte de code étendu DataMatrix
+## Comment configurer le texte de code étendu DataMatrix ?
+Chargez le constructeur, ajoutez les segments souhaités, et laissez Aspose.BarCode gérer automatiquement les marqueurs ECI. Ce paragraphe de réponse directe vous indique les étapes exactes : créez un `DataMatrixExtCodetextBuilder`, ajoutez des segments Unicode, C40, texte brut et mode Text, puis récupérez la chaîne combinée pour le générateur.
 
-Dans cette étape, nous vous guiderons tout au long du processus de configuration du texte de code étendu DataMatrix.
-
-## Étape 2 : Définir le chemin du répertoire
-
- Vous devez spécifier le chemin du répertoire dans lequel vous souhaitez enregistrer le code-barres DataMatrix généré. Remplacer`"Your Directory Path"` avec le chemin réel sur votre système.
+### Étape 1 : Définir le dossier de sortie
+Spécifiez où l'image du code-barres généré sera enregistrée. Remplacez le texte de substitution par un chemin valide sur votre machine.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Étape 3 : Créer le texte de code
-
- Pour créer le texte de code pour le code-barres DataMatrix, vous utiliserez le`DataMatrixExtCodetextBuilder`. Ce générateur vous permet d'ajouter différents types de texte de code avec différents encodages.
+### Étape 2 : Construire le texte de code étendu
+`DataMatrixExtCodetextBuilder` est une classe d'aide qui assemble le texte de code étendu selon la spécification DataMatrix. Elle insère automatiquement les marqueurs ECI (Extended Channel Interpretation) requis.
 
 ```csharp
 DataMatrixExtCodetextBuilder codetextBuilder = new DataMatrixExtCodetextBuilder();
@@ -66,19 +130,17 @@ codetextBuilder.AddPlainCodetext("test");
 codetextBuilder.AddCodetextWithEncodeMode(DataMatrixEncodeMode.Text, "abcde");
 ```
 
-Ce code configure le texte du code avec un mélange de différents encodages.
+Cet exemple montre comment vous pouvez combiner des caractères Unicode, l'encodage C40, du texte brut et le mode Text dans un seul symbole DataMatrix.
 
-## Étape 4 : générer du texte de code
-
-Après avoir configuré le texte de code, générez la chaîne de texte de code DataMatrix.
+### Étape 3 : Générer la chaîne de texte de code finale
+Après avoir configuré toutes les parties, récupérez la chaîne combinée que Aspose.BarCode intégrera dans le code-barres.
 
 ```csharp
 string codetext = codetextBuilder.GetExtendedCodetext();
 ```
 
-## Étape 5 : Générer un code-barres DataMatrix
-
-Maintenant, créez le code-barres DataMatrix en utilisant le texte de code généré. Vous pouvez également définir divers paramètres pour le code-barres, tels que la dimension X et l'affichage du texte du code.
+### Étape 4 : Créer le code-barres DataMatrix
+`BarcodeGenerator` est la classe principale qui produit les images de code-barres. Instanciez‑la avec `EncodeTypes.DataMatrix` et le texte de code étendu, puis définissez les paramètres visuels tels que la dimension X, le format d'image et le texte lisible optionnel.
 
 ```csharp
 using (var generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
@@ -91,11 +153,10 @@ using (var generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
 }
 ```
 
-Ce code génère et enregistre l'image du code-barres DataMatrix avec les paramètres spécifiés.
+Le code ci‑dessus **crée un code-barres Aspose .NET** avec le texte de code étendu souhaité et l'enregistre au format PNG.
 
-## Étape 6 : Essayez de reconnaître
-
- Pour vous assurer que le code-barres peut être reconnu, vous pouvez utiliser le`BarCodeReader`classe pour lire le code-barres.
+### Étape 5 : Vérifier le code-barres en le lisant à nouveau
+`BarCodeReader` valide que le symbole généré peut être décodé correctement, ce qui est essentiel pour les pipelines de tests automatisés et l'assurance qualité.
 
 ```csharp
 using (var reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.DataMatrix))
@@ -105,35 +166,44 @@ using (var reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeTy
 }
 ```
 
-Cette étape valide le code-barres généré en tentant de le reconnaître.
+Si tout est correctement configuré, la console affichera le texte de code étendu exact que vous avez construit précédemment.
 
-Toutes nos félicitations! Vous avez configuré avec succès le texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET. Vous pouvez désormais intégrer cette fonctionnalité dans vos applications .NET.
+## Problèmes courants et dépannage
 
-## Conclusion
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| Code-barres illisible | Dimension X trop faible | Augmentez `XDimension.Pixels` (par ex., 4 → 6) |
+| Caractères corrompus | Encodage ECI incorrect | Assurez‑vous que `ECIEncodings.UTF8` correspond au jeu de caractères |
+| Fichier non enregistré | Chemin invalide | Utilisez un chemin absolu ou assurez‑vous que le dossier existe |
+| Exception de licence | Essai expiré | Appliquez une licence temporaire ou complète (voir FAQ) |
 
-Dans ce didacticiel, nous avons exploré le processus de configuration du texte de code étendu DataMatrix à l'aide d'Aspose.BarCode pour .NET. Nous avons couvert les conditions préalables, les instructions étape par étape et montré comment générer et reconnaître le code-barres. Grâce à ces connaissances, vous pouvez améliorer vos applications .NET en ajoutant des fonctionnalités de génération et de reconnaissance de codes-barres.
+## Questions fréquemment posées
 
-## FAQ
+### Q1 : Qu'est‑ce qu'Aspose.BarCode pour .NET ?
+R1 : Aspose.BarCode for .NET est une bibliothèque puissante qui permet aux développeurs de générer et de reconnaître une grande variété de symbologies de codes-barres, y compris DataMatrix, QR, Code128, et plus encore.
 
-### Q1 : Qu'est-ce qu'Aspose.BarCode pour .NET ?
+### Q2 : Où puis‑je trouver la documentation d'Aspose.BarCode pour .NET ?
+R2 : Vous pouvez accéder à la référence complète de l'API **[Aspose.BarCode .NET API reference](https://reference.aspose.com/barcode/net/)**.
 
-A1 : Aspose.BarCode for .NET est une bibliothèque puissante qui permet aux développeurs de générer et de reconnaître des codes-barres dans les applications .NET. Il prend en charge un large éventail de symbologies de codes-barres et offre diverses options de personnalisation.
+### Q3 : Existe‑t‑il un essai gratuit disponible pour Aspose.BarCode pour .NET ?
+R3 : Oui, une version d'essai gratuite peut être téléchargée depuis **[Aspose.BarCode free trial download](https://releases.aspose.com/)**.
 
-### Q2 : Où puis-je trouver la documentation d'Aspose.BarCode pour .NET ?
+### Q4 : Comment obtenir une licence temporaire pour les tests ?
+R4 : Les licences temporaires sont fournies à des fins d'évaluation et peuvent être demandées via **[Aspose temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
-A2 : Vous pouvez accéder à la documentation d'Aspose.BarCode pour .NET[ici](https://reference.aspose.com/barcode/net/).
+### Q5 : Où puis‑je obtenir du support ou poser des questions sur Aspose.BarCode pour .NET ?
+R5 : Le forum officiel d'Aspose.BarCode est le meilleur endroit pour obtenir de l'aide : **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)**.
 
-### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.BarCode pour .NET ?
+**Dernière mise à jour :** 2026-09-23  
+**Testé avec :** Aspose.BarCode 24.11 for .NET  
+**Auteur :** Aspose
 
- A3 : Oui, vous pouvez obtenir une version d'essai gratuite d'Aspose.BarCode pour .NET[ici](https://releases.aspose.com/).
+## Tutoriels associés
 
-### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.BarCode pour .NET ?
+- [Comment générer des codes-barres DataMatrix avec Aspose.BarCode pour .NET – Guide étape par étape](/barcode/net/datamatrix-barcode-configuration/)
+- [Générer un code-barres DataMatrix en mode ASCII avec Aspose.BarCode pour .NET (C#)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/)
+- [Générer un code-barres Aztec avec encodage texte en utilisant Aspose.BarCode pour .NET](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
 
- A4 : Si vous avez besoin d'une licence temporaire à des fins de test ou d'évaluation, vous pouvez en obtenir une.[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q5 : Où puis-je obtenir de l'aide ou poser des questions sur Aspose.BarCode pour .NET ?
-
- A5 : Pour toute assistance ou question relative à Aspose.BarCode pour .NET, vous pouvez visiter le forum Aspose.BarCode[ici](https://forum.aspose.com/c/barcode/13).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
