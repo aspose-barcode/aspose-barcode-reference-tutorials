@@ -154,7 +154,9 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [Генерация штрих‑кода PDF417 в C# – Полное пошаговое руководство](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
 Подробное руководство по созданию штрих‑кода PDF417 в C# с использованием Aspose.BarCode, включающее все шаги и примеры кода.
 ### [Как читать PDF417 в C# – Полное пошаговое руководство](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-Узнайте, как считывать штрих‑коды PDF417 в C# с помощью Aspose.BarCode, включая примеры кода и настройку параметров.
+Подробное руководство по чтению штрих‑кодов PDF417 в C# с использованием Aspose.BarCode, включая примеры кода и настройку параметров.
+### [Как считывать штрих‑коды PDF417 в C# – полное пошаговое руководство](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
+Подробное руководство по чтению штрих‑кодов PDF417 в C# с использованием Aspose.BarCode, включая примеры кода и настройки.
 ### [Создать штрих‑код PDF417 с Aspose – Полное руководство](./create-pdf417-barcode-with-aspose-complete-guide/)
 Полное пошаговое руководство по созданию PDF417 штрих‑кода с использованием Aspose.BarCode для .NET.
 ### [Как читать PDF417 в C# – Полный пример считывателя штрих‑кодов](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
@@ -199,6 +201,12 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 Полное руководство по генерации штрих‑кодов с помощью Aspose на C#.
 ### [Создание изображения micro PDF417 в C# – пошаговое руководство](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 Пошаговое руководство по созданию изображения micro PDF417 в C# с использованием Aspose.BarCode.
+### [Как создать штрих‑код PDF417 и задать его размер в C#](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
+Узнайте, как сгенерировать штрих‑код PDF417 и настроить его размер в C# с помощью Aspose.BarCode.
+### [Создать macro PDF417 штрих‑код с Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
+Узнайте, как сгенерировать macro PDF417 штрих‑код в C# с помощью Aspose.BarCode.
+### [Создать штрих‑код PDF417 в C# – полное руководство](./create-pdf417-barcode-in-c-complete-guide/)
+Узнайте, как полностью создать PDF417 штрих‑код в C# с помощью Aspose.BarCode, включая все шаги и примеры кода.
 
 ## Часто задаваемые вопросы
 

@@ -26,7 +26,7 @@ schemas:
     text: '`Pdf417ErrorCorrectionLevel` property defines the Reed‑Solomon error‑correction
       level for PDF417 barcodes.'
   - name: Customize Appearance (Optional)
-    text: You can change foreground/background colors, margins, or add a caption.
+    text: You can change foreground/background colors, margins or add a caption.
   - name: Save the Barcode Image
     text: Export to any supported raster or vector format. > **Pro tip:** Reuse the
       same `BarcodeGenerator` instance when creating multiple barcodes in a loop to
@@ -292,7 +292,10 @@ A: Não são necessárias fontes externas; a biblioteca lida com toda a renderiz
 - [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Comprehensive Tutorials and Examples of Aspose.BarCode for .NET](/barcode/net/)
 - [How to create Aztec barcode with error correction in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Como criar código de barras PDF417 e definir seu tamanho em C#](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
+- [Criar código de barras macro PDF417 com Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
+- [Como ler códigos de barras PDF417 em C# – guia completo passo a passo](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
+- [Criar código de barras PDF417 em C# – guia completo](./create-pdf417-barcode-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

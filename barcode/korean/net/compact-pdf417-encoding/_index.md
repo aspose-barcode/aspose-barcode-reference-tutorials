@@ -253,13 +253,17 @@ A: 외부 폰트가 필요하지 않으며, 라이브러리가 내부적으로 �
 
 **마지막 업데이트:** 2026-07-04  
 **테스트 환경:** Aspose.BarCode 24.11 for .NET  
-**작성자:** Aspose
+**작성자:** Aspose.BarCode
 
 ## 관련 튜토리얼
 
 - [바코드 생성 방법 – Aspose.BarCode와 함께 Compact PDF417](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Aspose.BarCode for .NET 포괄적인 튜토리얼 및 예제](/barcode/net/)
 - [.NET에서 오류 정정이 포함된 Aztec 바코드 생성 방법](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [C#에서 PDF417 바코드 만들고 크기를 설정하는 방법](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
+- [Aspose.BarCode로 매크로 PDF417 바코드 생성 (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
+- [C#에서 PDF417 바코드 읽는 방법 – 완전 단계별 가이드](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
+- [C#에서 PDF417 바코드 만들기 – 완전 가이드](./create-pdf417-barcode-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
