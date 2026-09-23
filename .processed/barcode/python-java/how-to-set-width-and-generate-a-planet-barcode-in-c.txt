@@ -1,0 +1,7 @@
+Title: How to set width and generate a Planet barcode in C#
+Slug: how-to-set-width-and-generate-a-planet-barcode-in-c
+Category: general
+ProcessedDate: 2026-09-16T22:48:37.083199
+SourceRepo: AI Search API
+Keywords: how to set width, how to make empty, how to fill bars, generate planet barcode
+PRNumber: 128

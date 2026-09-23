@@ -1,0 +1,7 @@
+Title: How to use a barcode generator C# for Macro PDF417
+Slug: how-to-use-a-barcode-generator-c-for-macro-pdf417
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-08-22T14:41:08.034425
+SourceRepo: AI Search API
+Keywords: barcode generator c#
+PRNumber: 107

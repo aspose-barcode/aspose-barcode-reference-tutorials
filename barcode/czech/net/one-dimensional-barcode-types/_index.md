@@ -78,6 +78,14 @@ vydělávejte, jak generovat čárové kódy v .NET s Aspose.BarCode pro .NET. T
 Naučte se, jak zacházet s výjimkami při generování jednorozměrných čárových kódů pomocí Aspose.BarCode for .NET. Tento průvodce krok za krokem zajišťuje řešení čárových kódů odolné proti chybám. Začněte hned!
 ### [Konfigurace jednorozměrného širokoúhlého poměru](./one-dimensional-wide-narrow-ratio-configuration/)
 Snadno generujte přizpůsobené čárové kódy pomocí Aspose.BarCode pro .NET. Průvodce krok za krokem pro jednorozměrnou konfiguraci širokého a úzkého poměru.
+### [Jak nastavit čárový kód v C# – kompletní průvodce Aspose.BarCode](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Kompletní návod, jak v C# nastavit čárový kód pomocí Aspose.BarCode.
+### [Čtení čárového kódu z obrázku – příklad čtečky čárových kódů v C#](./read-barcode-from-image-c-barcode-reader-example/)
+Naučte se načíst čárový kód z obrázku v C# pomocí Aspose.BarCode čtečky.
+### [Generování čárového kódu z textu pomocí Aspose.BarCode – C# průvodce](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
+Naučte se, jak pomocí Aspose.BarCode v C# vygenerovat čárový kód přímo z textu. Praktický průvodce krok za krokem.
+### [Jak generovat čárový kód v C# – Kompletní programovací průvodce](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Kompletní průvodce generováním čárových kódů v C# pomocí Aspose.BarCode.
 ### [Čtení čárového kódu z obrázku v C# – tutoriál BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Naučte se, jak pomocí Aspose.BarCode v .NET načíst čárový kód z obrázku pomocí třídy BarCodeReader.
 

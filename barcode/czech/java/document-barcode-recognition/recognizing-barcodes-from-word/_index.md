@@ -1,36 +1,60 @@
 ---
-title: Snadné rozpoznávání čárových kódů z dokumentů aplikace Word
-linktitle: Rozpoznávání čárových kódů z dokumentů aplikace Word
+date: 2026-04-12
+description: Naučte se rozpoznávat čárový kód z dokumentů Word pomocí Aspose.BarCode
+  pro Javu. Tento průvodce také ukazuje, jak přidat čárový kód do Wordu a extrahovat
+  obrázky z Wordu.
+keywords:
+- how to recognize barcode
+- add barcode to word
+- read barcode from image
+- extract images from word
+- barcode detection java
+linktitle: Rozpoznávání čárových kódů z dokumentů Word
 second_title: Aspose.BarCode Java API
-description: Prozkoumejte bezproblémovou integraci rozpoznávání čárových kódů do vašich aplikací Java s Aspose.BarCode. Podle tohoto návodu rozpoznáte čárové kódy z dokumentů aplikace Word.
-weight: 12
+title: Jak rozpoznat čárový kód v dokumentech Word – Java průvodce
 url: /cs/java/document-barcode-recognition/recognizing-barcodes-from-word/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Snadné rozpoznávání čárových kódů z dokumentů aplikace Word
-
+# Jak rozpoznat čárový kód z dokumentů Word – průvodce pro Java
 
 ## Úvod
 
-dynamickém světě programování Java neustále roste potřeba efektivně pracovat s čárovými kódy. Rozpoznávání čárových kódů z dokumentů aplikace Word je běžným požadavkem a naštěstí Aspose.BarCode for Java poskytuje robustní řešení. V tomto tutoriálu vás provedeme procesem rozpoznávání čárových kódů z dokumentů aplikace Word pomocí Aspose.BarCode for Java.
+Pokud potřebujete **how to recognize barcode** vložený do souboru Microsoft Word, jste na správném místě. V tomto tutoriálu projdeme kompletním, end‑to‑end příkladem, který používá Aspose.BarCode pro Java k vygenerování čárového kódu, vložení do dokumentu Word, extrahování obrázku zpět a nakonec přečtení dat čárového kódu. Na konci také uvidíte, jak **add barcode to Word**, **extract images from Word**, a provést operace ve stylu **barcode detection java** – vše jen s několika řádky kódu.
 
-## Předpoklady
+## Rychlé odpovědi
+- **What library is required?** Aspose.BarCode for Java (plus Aspose.Words for handling .docx files).  
+- **Can I read a barcode from an image?** Yes – the `BarCodeReader` can decode images extracted from Word.  
+- **Do I need a license for production?** A commercial license is required; a free trial is available.  
+- **Which Java version is supported?** Any JDK 8 + runtime works.  
+- **How long does the implementation take?** Roughly 10‑15 minutes for a basic prototype.
 
-Než se pustíme do výukového programu, ujistěte se, že máte následující předpoklady:
+## Co je rozpoznávání čárových kódů z dokumentu Word?
 
-- Java Development Kit (JDK): Aspose.BarCode for Java vyžaduje vývojové prostředí Java. Ujistěte se, že máte v systému nainstalovanou nejnovější verzi JDK.
+Rozpoznávání čárových kódů znamená skenování obrázku, který se nachází uvnitř souboru Word, a převod vizuálního vzoru zpět na původní datový řetězec (např. “test‑123”). Aspose.BarCode poskytuje dekódovací engine, zatímco Aspose.Words nám umožňuje vytáhnout obrázek z kontejneru .doc/.docx.
 
--  Aspose.BarCode for Java: Stáhněte a nainstalujte knihovnu Aspose.BarCode for Java. Odkaz ke stažení najdete[tady](https://releases.aspose.com/barcode/java/).
+## Proč použít Aspose.BarCode pro Java?
 
-- Integrované vývojové prostředí (IDE): Vyberte si preferované IDE, jako je Eclipse nebo IntelliJ, podle příkladů.
+- **High accuracy** across 60+ symbologies, including Code 39, QR, DataMatrix, etc.  
+- **No external dependencies** – pure Java, no native libraries.  
+- **Seamless integration** with Aspose.Words, making it easy to **extract images from Word** and then **read barcode from image**.  
+- **Robust licensing** that works in desktop, server, and cloud environments.
 
-## Importujte balíčky
+## Požadavky
 
-Ve svém projektu Java importujte potřebné balíčky Aspose.BarCode, abyste mohli začít:
+Předtím, než se ponoříme do kódu, ujistěte se, že máte:
+
+- **Java Development Kit (JDK)** – latest version recommended.  
+- **Aspose.BarCode for Java** – download and install the library from the official site [here](https://releases.aspose.com/barcode/java/).  
+- **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.
+
+## Import balíčků
+
+In your Java project, import the necessary Aspose.BarCode and Aspose.Words classes:
 
 ```java
 import java.text.MessageFormat;
@@ -45,9 +69,9 @@ import com.aspose.words.NodeCollection;
 import com.aspose.words.NodeType;
 ```
 
-## Krok 1: Vygenerujte obrázek čárového kódu
+## Krok 1: Vytvořit obrázek čárového kódu
 
-Nejprve vytvořte obrázek čárového kódu pomocí Aspose.BarCode. Nastavte text kódu a uložte obrázek:
+First, create a barcode image that we will later embed into the Word file.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD);
@@ -56,9 +80,9 @@ String strBarCodeImageSave = dataDir + "img.jpg";
 generator.save(strBarCodeImageSave);
 ```
 
-## Krok 2: Přidejte obrázek do dokumentu aplikace Word
+## Krok 2: Přidat čárový kód do dokumentu Word
 
-Nyní vložte vygenerovaný obrázek čárového kódu do dokumentu aplikace Word pomocí Aspose.Words:
+Now we’ll insert the freshly generated image into a new Word document. This demonstrates the **add barcode to word** scenario.
 
 ```java
 Document doc = new Document();
@@ -68,9 +92,9 @@ String strWordFile = "docout.doc";
 doc.save(dataDir + strWordFile);
 ```
 
-## Krok 3: Rozpoznejte čárové kódy z dokumentu aplikace Word
+## Krok 3: Extrahovat obrázky a rozpoznat čárový kód
 
-Dále extrahujte obrázky z dokumentu aplikace Word a rozpoznávejte čárové kódy pomocí Aspose.BarCode:
+With the document saved, we can pull out every image (including our barcode) and run **barcode detection java** on each one.
 
 ```java
 NodeCollection<Shape> shapes = doc.getChildNodes(NodeType.SHAPE, true);
@@ -78,13 +102,13 @@ int imageIndex = 0;
 
 for (Shape shape : shapes) {
     if (shape.hasImage()) {
-        // Extrahujte obrázek do souboru
+        // Extract image to file
         String extension = ImageTypeToExtension(shape.getImageData().getImageType());
         String imageFileName = MessageFormat.format("Image.ExportImages.{0} Out.{1}", imageIndex, extension);
         String strBarCodeImageExtracted = "" + imageFileName;
         shape.getImageData().save(strBarCodeImageExtracted);
 
-        // Rozpoznejte čárový kód z tohoto obrázku
+        // Recognize barcode from this image
         BarCodeReader reader = new BarCodeReader(strBarCodeImageSave, DecodeType.CODE_39_STANDARD);
         for (BarCodeResult result : reader.readBarCodes()) {
             System.out.println("CodeText: " + result.getCodeText());
@@ -95,28 +119,39 @@ for (Shape shape : shapes) {
 }
 ```
 
-Opakujte tyto kroky a pomocí Aspose.BarCode for Java budete úspěšně rozpoznávat čárové kódy z dokumentů aplikace Word.
+> **Tip:** Pokud potřebujete **read barcode from image** soubory, které nejsou uvnitř dokumentu Word, jednoduše předávejte cestu k souboru `BarCodeReader` – stejná logika dekódování se použije.
 
-## Závěr
+## Časté problémy a řešení
 
-Závěrem lze říci, že využití Aspose.BarCode for Java zjednodušuje proces rozpoznávání čárových kódů z dokumentů aplikace Word. Postupujte podle výše uvedených kroků a bezproblémově integrujete rozpoznávání čárových kódů do svých aplikací Java.
+| Problém | Příčina | Řešení |
+|-------|-------|-----|
+| `NullPointerException` on `shape.getImageData()` | Shape does not contain an image. | Add a `shape.hasImage()` check (already shown). |
+| Wrong barcode type returned | Using the wrong `DecodeType`. | Match the `EncodeTypes` you used when generating (e.g., `CODE_39_STANDARD`). |
+| Image not saved correctly | Missing write permissions in `dataDir`. | Ensure the directory exists and is writable. |
+| License not applied | Evaluation mode limits functionality. | Load your Aspose license at application start: `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` |
 
-## Často kladené otázky (FAQ)
+## Často kladené otázky
 
-### Otázka: Mohu použít Aspose.BarCode for Java v komerčních projektech?
- Ano, Aspose.BarCode for Java je k dispozici pro komerční použití. Podrobnosti o licencích najdete[tady](https://purchase.aspose.com/buy).
+### Q: Can I use Aspose.BarCode for Java in commercial projects?  
+A: Yes, Aspose.BarCode for Java is available for commercial use. You can find licensing details [here](https://purchase.aspose.com/buy).
 
-### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.BarCode pro Java?
- Ano, funkce Aspose.BarCode for Java můžete prozkoumat stažením bezplatné zkušební verze[tady](https://releases.aspose.com/).
+### Q: Is there a free trial available for Aspose.BarCode for Java?  
+A: Yes, you can explore the features of Aspose.BarCode for Java by downloading the free trial [here](https://releases.aspose.com/).
 
-### Otázka: Jak získám podporu pro Aspose.BarCode for Java?
-Pro jakoukoli pomoc nebo dotazy navštivte fórum Aspose.BarCode[tady](https://forum.aspose.com/c/barcode/13).
+### Q: How do I get support for Aspose.BarCode for Java?  
+A: For any assistance or queries, visit the Aspose.BarCode forum [here](https://forum.aspose.com/c/barcode/13).
 
-### Otázka: Jsou k dispozici dočasné licence pro Aspose.BarCode for Java?
- Ano, můžete získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+### Q: Are temporary licenses available for Aspose.BarCode for Java?  
+A: Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/temporary-license/).
 
-### Otázka: Kde najdu dokumentaci k Aspose.BarCode for Java?
- Podívejte se na komplexní dokumentaci[tady](https://reference.aspose.com/barcode/java/).
+### Q: Where can I find the documentation for Aspose.BarCode for Java?  
+A: Refer to the comprehensive documentation [here](https://reference.aspose.com/barcode/java/).
+
+---  
+
+**Last Updated:** 2026-04-12  
+**Tested With:** Aspose.BarCode 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

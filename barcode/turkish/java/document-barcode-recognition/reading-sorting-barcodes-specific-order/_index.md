@@ -1,37 +1,61 @@
 ---
-title: Java'da Barkodları Belirli Sırayla Okumak ve Sıralamak
-linktitle: Barkodları Belirli Sırayla Okumak ve Sıralamak
-second_title: Aspose.BarCode Java API'si
-description: Aspose.BarCode ile Java uygulamalarınızı geliştirin! Barkodları verimli bir şekilde okumayı ve sıralamayı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-04-08
+description: Aspose.BarCode for Java kullanarak barkodları nasıl okuyacağınızı ve
+  belirli bir sıraya göre nasıl sıralayacağınızı öğrenin. Bu adım adım kılavuz, Aspose,
+  Java barkod okuyucusunu nasıl kullanacağınızı ve Code128 barkodunu nasıl çözeceğinizi
+  gösterir.
+keywords:
+- how to read barcodes
+- java barcode reader
+- aspose barcode java
+linktitle: Barkodları Belirli Bir Sırada Okuma ve Sıralama
+second_title: Aspose.BarCode Java API
+title: Java Kullanarak Barkodları Belirli Bir Sırayla Okuma
 url: /tr/java/document-barcode-recognition/reading-sorting-barcodes-specific-order/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Barkodları Belirli Sırayla Okumak ve Sıralamak
+# Java Kullanarak Barkodları Belirli Sırada Okuma
 
+## Giriş
 
-## giriiş
+Eğer **barkodları okuma** ve ardından onları belirli bir sıraya koyma ihtiyacınız varsa, Aspose.BarCode for Java bunu temiz ve yüksek performanslı bir şekilde yapmanızı sağlar. Birçok Java uygulamasında—envanter sistemleri, nakliye çözümleri veya satış noktası terminalleri—birden fazla barkodu okuyup metinsel değerlerine göre sıralamak sık bir gereksinimdir. Bu öğretici, ortamı kurmaktan sıralanmış sonuçları görüntülemeye kadar tüm süreci adım adım gösterir, böylece barkod işleme entegrasyonunu hızlı ve güvenli bir şekilde gerçekleştirebilirsiniz.
 
-Java programlamanın dinamik dünyasında barkodların verimli bir şekilde işlenmesi birçok uygulama için ortak bir gereksinimdir. Aspose.BarCode for Java, barkod okuma ve sıralama için kusursuz entegrasyon sunan güçlü bir araç olarak ortaya çıkıyor. Bu eğitimde Aspose.BarCode for Java'yı kullanarak barkodları belirli bir sırayla nasıl okuyacağınızı ve sıralayacağınızı keşfedeceğiz.
+## Hızlı Yanıtlar
+- **Barkod okuma işlemini hangi kütüphane yönetir?** Aspose.BarCode for Java  
+- **Örnekte kullanılan barkod türü nedir?** CODE_128  
+- **Geliştirme için lisansa ihtiyacım var mı?** Geçici bir lisans test için çalışır; üretim için tam lisans gereklidir.  
+- **Diğer kriterlere göre sıralama yapabilir miyim?** Evet—konum, güven vb. sıralamak için karşılaştırıcıyı değiştirin.  
+- **Hangi Java sürümü gereklidir?** Java 8 veya üzeri (Aspose kütüphanesini destekleyen herhangi bir JDK).
+
+## Java’da “barkodları okuma” nedir?
+
+Barkodları okumak, görsel deseni orijinal veri dizesine çözmek anlamına gelir. Aspose.BarCode, düşük seviyeli görüntü işleme detaylarını soyutlayan bir `BarCodeReader` sınıfı sunar, böylece sıralama veya doğrulama gibi iş mantığına odaklanabilirsiniz.
+
+## Neden Aspose.BarCode for Java kullanmalısınız?
+
+- **Sağlam kod çözme** – Code 128, QR, DataMatrix ve daha fazlası dahil olmak üzere 50'den fazla semboloji destekler.  
+- **Yüksek doğruluk** – Optimize edilmiş algoritmalar düşük çözünürlüklü görüntülerde bile yanlış okuma oranını azaltır.  
+- **Basit API** – Birkaç satır kodla görüntüden metne ulaşabilirsiniz.  
+- **Çapraz platform** – Masaüstünden sunucu ortamlarına kadar herhangi bir Java çalışma zamanında çalışır.
 
 ## Önkoşullar
 
-Koda dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Kodun içine dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
--  Java Geliştirme Kiti (JDK): Aspose.BarCode for Java, çalışan bir JDK gerektirir. En son sürümü indirebilirsiniz[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Aspose.BarCode for Java çalışır bir JDK gerektirir. En son sürümü [buradan](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.  
+- Aspose.BarCode Kütüphanesi: Aspose.BarCode kütüphanesine sahip olduğunuzdan emin olun. [İndirme bağlantısından](https://releases.aspose.com/barcode/java/) temin edebilirsiniz.
 
--  Aspose.BarCode Kütüphanesi: Aspose.BarCode kütüphanesine sahip olduğunuzdan emin olun. adresinden temin edebilirsiniz.[İndirme: {link](https://releases.aspose.com/barcode/java/).
+## Paketleri İçe Aktarma
 
-## Paketleri İçe Aktar
-
-Gerekli paketleri Java projenize aktararak başlayın. Bu paketler barkodlarla çalışmak için gerekli sınıfları ve yöntemleri sağlar.
+Java projenize gerekli paketleri içe aktararak başlayın. Bu paketler barkodlarla çalışmak için gerekli sınıf ve metodları sağlar.
 
 ```java
-// Aspose.BarCode sınıflarını içe aktar
+// Import Aspose.BarCode classes
 import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
@@ -43,40 +67,40 @@ import java.util.Comparator;
 import java.util.List;
 ```
 
-Şimdi kodu adım adım kılavuza ayıralım:
+Şimdi, kodu adım adım bir rehbere ayıralım:
 
-## 1. Adım: Kaynak Dizinini Ayarlayın
+## Adım 1: Kaynak Dizinini Ayarlama
 
 ```java
-// Kaynak dizininin yolu.
+// The path to the resource directory.
 String dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"`belge dizininizin gerçek yolu ile.
+`"Your Document Directory"` ifadesini gerçek belge dizininizin yolu ile değiştirin.
 
-## Adım 2: Barkod Görüntü Yolunu Belirleyin ve Reader'ı Başlatın
+## Adım 2: Barkod Görüntü Yolunu Belirtin ve Okuyucuyu Başlatın
 
 ```java
 String path = dataDir + "barcode.png";
 List<FoundBarCodes> found = new ArrayList<FoundBarCodes>();
 
-// BarCodeReader'ı belirtilen yol ve kod çözme türüyle başlatın
+// Initialize BarCodeReader with the specified path and decode type
 BarCodeReader reader = new BarCodeReader(path, DecodeType.CODE_128);
 ```
 
-## 3. Adım: Barkodları Okuyun ve Sonuçları Saklayın
+## Adım 3: Barkodları Oku ve Sonuçları Depola
 
 ```java
-// Barkodları yineleyin ve sonuçları saklayın
+// Iterate through barcodes and store results
 for (BarCodeResult result : reader.readBarCodes()) {
     found.add(new FoundBarCodes(result.getCodeText(), result.getRegion()));
 }
 ```
 
-## Adım 4: Sıralama için Karşılaştırıcıyı Tanımlayın
+## Adım 4: Sıralama İçin Karşılaştırıcı Tanımla
 
 ```java
-// Barkodları kod metnine göre sıralamak için bir karşılaştırıcı tanımlayın
+// Define a comparator for sorting barcodes based on code text
 Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
     @Override
     public int compare(FoundBarCodes e1, FoundBarCodes e2) {
@@ -85,17 +109,17 @@ Comparator<FoundBarCodes> foundComparator = new Comparator<FoundBarCodes>() {
 };
 ```
 
-## Adım 5: Barkodları Sıralayın
+## Adım 5: Barkodları Sırala
 
 ```java
-// Tanımlanan karşılaştırıcıyı kullanarak barkod listesini sıralayın
+// Sort the list of barcodes using the defined comparator
 found.sort(foundComparator);
 ```
 
-## Adım 6: Sıralanmış Barkodları Görüntüleyin
+## Adım 6: Sıralanmış Barkodları Görüntüle
 
 ```java
-// Sıralanmış barkodları koordinatlarıyla birlikte görüntüleyin
+// Display sorted barcodes with their coordinates
 int i = 1;
 for (FoundBarCodes barcode : found) {
     Point[] point = barcode.BarCodeRegion.getPoints();
@@ -109,26 +133,35 @@ for (FoundBarCodes barcode : found) {
 }
 ```
 
-## Çözüm
+## Yaygın Tuzaklar ve İpuçları
 
-Bu eğitimde, barkodları belirli bir sıraya göre okumak ve sıralamak için Aspose.BarCode for Java'dan nasıl yararlanılacağını araştırdık. Adım adım kılavuzu takip ederek Java uygulamalarınızı verimli barkod işleme yetenekleriyle geliştirebilirsiniz.
+- **Yanlış görüntü yolu** – `dataDir`'in bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun, böylece tam yol doğru çözülür.  
+- **Desteklenmeyen barkod türü** – farklı bir semboloji çözmeniz gerekiyorsa, `DecodeType.CODE_128`'i uygun enum değeriyle değiştirin (ör. `DecodeType.QR`).  
+- **Sayısal değere göre sıralama** – varsayılan karşılaştırıcı leksikografik olarak sıralar. Sayısal sıralama için, karşılaştırıcı içinde `CodeText`'i tam sayıya dönüştürün.  
+- **Kaynak temizliği** – `BarCodeReader` `Closeable` arayüzünü uygular. Üretim kodunda, temel akışı serbest bırakmak için try‑with‑resources bloğu içinde kullanın.
 
-## SSS
+## Sıkça Sorulan Sorular
 
 ### S: Aspose.BarCode for Java belgelerini nerede bulabilirim?
- Belgeler mevcut[Burada](https://reference.aspose.com/barcode/java/).
+Dokümantasyon [burada](https://reference.aspose.com/barcode/java/) mevcuttur.
 
-### S: Aspose.BarCode for Java'yı nasıl indirebilirim?
- adresinden indirebilirsiniz.[İndirme: {link](https://releases.aspose.com/barcode/java/).
+### S: Aspose.BarCode for Java'ı nasıl indirebilirim?
+[İndirme bağlantısından](https://releases.aspose.com/barcode/java/) indirebilirsiniz.
 
 ### S: Ücretsiz deneme mevcut mu?
- Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
 ### S: Geçici lisans bilgilerini nasıl alabilirim?
- Geçici lisans alınabilecek[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisansları [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-### S: Nereden destek alabilirim veya soru sorabilirim?
- Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/barcode/13).
+### S: Destek alabileceğim ya da soru sorabileceğim yer neresi?
+Destek forumunu [burada](https://forum.aspose.com/c/barcode/13) ziyaret edin.
+
+---
+
+**Son Güncelleme:** 2026-04-08  
+**Test Edilen Sürüm:** Aspose.BarCode 24.10 for Java  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
