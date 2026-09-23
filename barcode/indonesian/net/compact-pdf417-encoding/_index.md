@@ -157,6 +157,9 @@ Panduan lengkap langkah‑demi‑langkah untuk menghasilkan barcode menggunakan 
 ### [Buat gambar micro PDF417 di C# – panduan langkah demi langkah](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 Panduan lengkap membuat gambar micro PDF417 menggunakan C# dengan Aspose.BarCode secara langkah demi langkah.
 
+### [Buat barcode micro PDF417 dalam C# – panduan langkah demi langkah](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Panduan lengkap untuk membuat barcode micro PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan konfigurasi.
+
 ## Frequently Asked Questions
 
 **Q: Apa jumlah maksimum data yang dapat saya simpan dalam barcode Compact PDF417?**  

@@ -216,6 +216,9 @@ En fullständig guide för att skapa streckkoder i C# med Aspose.BarCode.
 ### [Skapa mikro PDF417‑bild i C# – steg‑för‑steg‑guide](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 Lär dig att generera en mikro‑PDF417‑bild i C# med detaljerade steg.
 
+### [Skapa mikro PDF417-streckkod i C# – steg‑för‑steg‑guide](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Lär dig att skapa en mikro PDF417‑streckkod i C# med en detaljerad steg‑för‑steg‑guide.
+
 ## Vanliga frågor
 
 **Q: Vad är den maximala mängden data jag kan lagra i en Compact PDF417‑streckkod?**  

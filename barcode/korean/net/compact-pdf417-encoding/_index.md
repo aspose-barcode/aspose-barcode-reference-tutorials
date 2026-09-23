@@ -234,6 +234,8 @@ Aspose.BarCode를 사용하여 C#에서 바코드를 완전하게 생성하는 �
 ### [C#에서 마이크로 PDF417 이미지 만들기 – 단계별 가이드](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 C#를 사용해 마이크로 PDF417 이미지를 단계별로 생성하는 방법을 안내합니다.
 
+### [C#에서 마이크로 PDF417 바코드 만들기 – 단계별 가이드](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
 ## 자주 묻는 질문
 
 **Q: Compact PDF417 바코드에 저장할 수 있는 최대 데이터 양은 얼마인가요?**  

@@ -264,6 +264,9 @@ Aprenda a gerar códigos de barras a partir de texto em C# com instruções deta
 ### [Como ler PDF417 em C# – guia completo de leitor de código de barras](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
 Aprenda a ler códigos de barras PDF417 em C# com um guia completo, incluindo exemplos de código e melhores práticas.
 
+### [Criar código de barras micro PDF417 em C# – guia passo a passo](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Aprenda a gerar códigos de barras micro PDF417 em C# com instruções detalhadas passo a passo.
+
 ## Perguntas Frequentes
 
 **Q: Qual é a quantidade máxima de dados que posso armazenar em um código de barras Compact PDF417?**  

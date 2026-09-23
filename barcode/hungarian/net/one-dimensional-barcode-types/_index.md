@@ -86,6 +86,8 @@ Ismerje meg, hogyan olvashat vonalkódot képből C#-ban az Aspose.BarCode haszn
 Ismerje meg, hogyan hozhat létre vonalkódot szövegből C#-ban az Aspose.BarCode használatával, lépésről lépésre útmutatóval.
 ### [Hogyan generáljunk vonalkódot C#-ban – Teljes programozási útmutató](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Ismerje meg, hogyan hozhat létre vonalkódokat C#-ban az Aspose.BarCode segítségével, lépésről lépésre útmutató.
+### [Vonalkód olvasása képből C#-ban – BarCodeReader oktatóanyag](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Ismerje meg, hogyan olvashat vonalkódot képfájlokból C#-ban az Aspose.BarCode BarCodeReader használatával.
 
 ## Következtetés
 

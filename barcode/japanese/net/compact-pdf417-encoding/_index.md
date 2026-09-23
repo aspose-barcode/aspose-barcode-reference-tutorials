@@ -165,6 +165,7 @@ Aspose.BarCode を使用して、C# でバーコード画像を PNG、JPEG な�
 ### [Asposeでバーコード生成 – 完全C#ガイド](./generate-barcode-aspose-complete-c-guide/)
 
 ### [C#でマイクロPDF417画像を作成する – ステップバイステップガイド](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+### [C#でマイクロPDF417バーコードを作成する – ステップバイステップガイド](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 
 ## よくある質問
 

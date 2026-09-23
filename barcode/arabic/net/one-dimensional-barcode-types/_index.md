@@ -85,6 +85,8 @@ url: /ar/net/one-dimensional-barcode-types/
 تعلم كيفية إنشاء باركود من نص باستخدام Aspose.BarCode في C# خطوة بخطوة.
 ### [كيفية إنشاء باركود في C# – دليل برمجة كامل](./how-to-generate-barcode-in-c-complete-programming-guide/)
 تعلم خطوة بخطوة كيفية إنشاء باركود باستخدام C# مع Aspose.BarCode في دليل برمجة شامل.
+### [قراءة الباركود من صورة في C# – دليل BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+تعلم كيفية قراءة الباركود من صورة باستخدام Aspose.BarCodeReader في C#.
 
 ## خاتمة
 

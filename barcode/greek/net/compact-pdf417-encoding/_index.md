@@ -85,6 +85,8 @@ weight: 29
 ## Συμμετοχικά Σεμινάρια Συμπαγούς PDF417
 ### [Δημιουργία Συμπαγών PDF417 Κωδικών](./compact-pdf417-basic-configuration/)
 Μάθετε πώς να δημιουργείτε Συμπαγείς PDF417 κωδικούς χρησιμοποιώντας το Aspose.BarCode for .NET. Αναλυτικός οδηγός με βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
+### [Δημιουργία μικρού κώδικα PDF417 σε C# – βήμα‑βήμα οδηγός](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
 ### [Δημιουργία κωδικού PDF417 σε C# – οδηγός γεννήτριας barcode](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
 Μάθετε πώς να δημιουργήσετε κωδικούς PDF417 σε C# χρησιμοποιώντας το Aspose.BarCode Generator.
 ### [Πώς να αποθηκεύσετε εικόνες barcode σε C# – πλήρης οδηγός](./how-to-save-barcode-images-in-c-complete-guide/)

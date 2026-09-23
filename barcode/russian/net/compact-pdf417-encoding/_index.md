@@ -199,6 +199,8 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 Полное руководство по генерации штрих‑кодов с помощью Aspose на C#.
 ### [Создание изображения micro PDF417 в C# – пошаговое руководство](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 Пошаговое руководство по созданию изображения micro PDF417 в C# с использованием Aspose.BarCode.
+### [Создайте микроштрих‑код PDF417 в C# – пошаговое руководство](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Пошаговое руководство по созданию микроштрих‑кода PDF417 в C# с использованием Aspose.BarCode.
 
 ## Часто задаваемые вопросы
 
