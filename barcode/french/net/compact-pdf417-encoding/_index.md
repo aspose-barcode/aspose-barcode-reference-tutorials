@@ -268,6 +268,12 @@ Guide concis pour créer une image micro PDF417 avec Aspose.BarCode en C#, inclu
 ### [Créer un code-barres micro PDF417 en C# – guide étape par étape](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 Apprenez à créer un code-barres micro PDF417 en C# avec Aspose.BarCode, incluant configuration, paramètres et exemples de code.
 
+### [Générer un code-barres PDF417 en C# – guide complet avec mise en page compacte](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
+Apprenez à créer un code-barres PDF417 compact en C# avec Aspose.BarCode, incluant configuration et exemples complets.
+
+### [Générer un code-barres C# avec Macro PDF417 – exemple complet](./generate-barcode-c-with-macro-pdf417-full-example/)
+Apprenez à créer un code-barres Macro PDF417 en C# avec Aspose.BarCode, incluant un exemple complet et toutes les options de configuration.
+
 ## Questions fréquentes
 
 **Q : Quelle est la quantité maximale de données que je peux stocker dans un code‑barres Compact PDF417 ?**  

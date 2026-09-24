@@ -153,6 +153,9 @@ Pełny przewodnik, jak w C# odczytywać kody PDF417 przy użyciu Aspose.BarCode,
 
 ### [Utwórz obraz micro PDF417 w C# – przewodnik krok po kroku](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 ### [Utwórz mikro kod PDF417 w C# – przewodnik krok po kroku](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+### [Generowanie kodu kreskowego PDF417 w C# – kompletny przewodnik z układem kompaktowym](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
+
+### [Generowanie kodu kreskowego C# z Macro PDF417 – pełny przykład](./generate-barcode-c-with-macro-pdf417-full-example/)
 
 ## Najczęściej zadawane pytania
 
