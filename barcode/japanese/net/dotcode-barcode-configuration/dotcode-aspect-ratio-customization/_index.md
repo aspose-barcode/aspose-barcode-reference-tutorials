@@ -1,111 +1,159 @@
 ---
-title: Aspose.BarCode for .NET を使用して DotCode のアスペクト比をカスタマイズする
-linktitle: DotCode アスペクト比のカスタマイズ
+date: 2026-06-14
+description: Aspose.BarCode for .NET を使用して、DotCode バーコード .NET の作成方法とアスペクト比のカスタマイズ方法を学びます。
+keywords:
+- create dotcode barcode .net
+- dotcode aspect ratio
+- aspose barcode .net
+- barcode customization
+- .net barcode generation
+linktitle: DotCode アスペクト比カスタマイズ
+schemas:
+- author: Aspose
+  dateModified: '2026-06-14'
+  description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  headline: Create DotCode Barcode .NET – Customize Aspect Ratio
+  type: TechArticle
+- description: Learn how to create DotCode barcode .NET and customize its aspect ratio
+    using Aspose.BarCode for .NET.
+  name: Create DotCode Barcode .NET – Customize Aspect Ratio
+  steps:
+  - name: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download the library from the official site [here](https://releases.aspose.com/barcode/net/).'
+  - name: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+    text: '**IDE** – Visual Studio, Rider, or any .NET‑compatible editor.'
+  - name: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+    text: '**Output folder** – replace “Your Directory Path” in the sample with a
+      real folder on your machine.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode supports DotCode out‑of‑the‑box.
+    question: Can I generate DotCode barcodes in .NET?
+  - answer: The `AspectRatio` property of `BarcodeGenerator`.
+    question: Which property controls the shape?
+  - answer: A commercial license is required; a free trial works for development.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Supported .NET versions?
+  - answer: Less than a second for a typical 200 × 200 pixel barcode.
+    question: How long does the code take to run?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Aspose.BarCode for .NET を使用して DotCode バーコードのアスペクト比をカスタマイズする方法を学びます。アプリケーションに合わせてカスタマイズしたバーコードを簡単に作成できます。
-weight: 10
+title: DotCode バーコード .NET の作成 – アスペクト比のカスタマイズ
 url: /ja/net/dotcode-barcode-configuration/dotcode-aspect-ratio-customization/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET を使用して DotCode のアスペクト比をカスタマイズする
+# DotCode バーコード .NET の作成 – アスペクト比のカスタマイズ
 
-## 導入
+If you need to **create DotCode barcode .NET** solutions that fit tight spaces or specific layout requirements, Aspose.BarCode for .NET gives you full control. In this tutorial we’ll walk through the entire process of generating a DotCode barcode and adjusting its aspect ratio so it looks exactly how you want on packaging, labels, or mobile screens.  
 
-アプリケーションで高度にカスタマイズ可能なバーコードを作成したい .NET 開発者にとって、Aspose.BarCode for .NET は完璧なソリューションです。このチュートリアルでは、その高度な機能の 1 つである DotCode のアスペクト比のカスタマイズについて詳しく説明します。 DotCode バーコードは、医療、郵便サービス、製造などの業界で情報をエンコードするために広く使用されています。アスペクト比を調整することで、バーコードを特定のニーズに合わせて調整できます。始めましょう！
+## クイック回答
+- **.NET で DotCode バーコードを生成できますか？** はい、Aspose.BarCode は DotCode を標準でサポートしています。  
+- **形状を制御するプロパティはどれですか？** `BarcodeGenerator` の `AspectRatio` プロパティです。  
+- **本番環境でライセンスが必要ですか？** 商用ライセンスが必要です。開発には無料トライアルが利用できます。  
+- **サポートされている .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。  
+- **コードの実行時間はどれくらいですか？** 標準的な 200 × 200 ピクセルのバーコードで 1 秒未満です。
+
+## このチュートリアルの主な目的は何ですか？
+The tutorial aims to demonstrate how to generate a DotCode barcode using Aspose.BarCode for .NET and how to adjust its aspect ratio to fit specific layout constraints. By following the steps you will learn to configure the generator, modify size parameters, and export the image in common formats.
+
+## .NET で DotCode バーコードを作成する方法は？
+To create a DotCode barcode in .NET, instantiate a `BarcodeGenerator` with `EncodeTypes.DotCode` and the data you wish to encode. Then set the X‑Dimension and AspectRatio properties to control size and shape, and finally call the `Save` method to write the image to a file in the desired format.
 
 ## 前提条件
 
-DotCode のアスペクト比のカスタマイズに入る前に、次の前提条件が満たされていることを確認してください。
-
-1.  Aspose.BarCode for .NET: Aspose.BarCode ライブラリがインストールされている必要があります。ダウンロードできます[ここ](https://releases.aspose.com/barcode/net/).
-
-2. IDE: Aspose.BarCode を使用するには、Visual Studio などの .NET 開発環境が必要です。
-
-3. ディレクトリ パス: コード スニペット内の「ディレクトリ パス」を、バーコード イメージを保存する実際のディレクトリ パスに置き換えます。
-
-ここで、DotCode のアスペクト比をカスタマイズするプロセスを複数のステップに分けてみましょう。
+1. **Aspose.BarCode for .NET** – 公式サイトからライブラリをダウンロードしてください [こちら](https://releases.aspose.com/barcode/net/)。  
+2. **IDE** – Visual Studio、Rider、または任意の .NET 対応エディタ。  
+3. **出力フォルダー** – サンプル内の “Your Directory Path” を実際のフォルダーに置き換えてください。
 
 ## 名前空間のインポート
 
-まず、Aspose.BarCode for .NET を使用するために必要な名前空間をインポートする必要があります。その方法は次のとおりです。
-
+`Aspose.BarCode.Generation` provides the classes needed to generate and configure barcodes in .NET.  
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-このコードは Aspose.BarCode 名前空間をインポートし、アプリケーションでバーコードを操作できるようにします。
+## 手順 1: バーコードジェネレーターの初期化
 
-次に、提供したコード例を複数のステップに分割して、DotCode のアスペクト比をカスタマイズするためのステップバイステップのガイドを作成しましょう。
-
-## ステップ 1: バーコード ジェネレーターを初期化する
-
+`BarcodeGenerator` is the main class that creates a barcode image based on the specified symbology and data.  
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
 {
-    //コードはここに入力します
+    // Your code goes here
 }
 ```
 
-このステップでは、DotCode エンコーディング タイプとデータ値 (「Aspose」) を使用して BarcodeGenerator オブジェクトを初期化します。
+## 手順 2: バーコードの X‑Dimension（サイズ）を設定
 
-## ステップ 2: バーコードの X 次元 (サイズ) を設定する
-
+`XDimension` defines the width of a single module (dot) in pixels, affecting the overall size of the barcode.  
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-ここでは、バーコードの X 次元をピクセル単位で定義して、バーコードのサイズを設定します。この値を調整して、バーコードを大きくしたり小さくしたりできます。
+## 手順 3: アスペクト比のカスタマイズ
 
-## ステップ 3: アスペクト比をカスタマイズする
-
+`AspectRatio` sets the height‑to‑width proportion of each module, allowing you to stretch or compress the barcode vertically.  
 ```csharp
 gen.Parameters.Barcode.DotCode.AspectRatio = 0.5f;
 ```
 
-このステップでは、DotCode のアスペクト比をカスタマイズします。この例では 0.5 に設定していますが、必要に応じてこの値を調整して、目的のアスペクト比を実現できます。
+## 手順 4: バーコード画像を保存
 
-## ステップ 4: バーコード画像を保存する
-
+`Save` writes the generated barcode to a file in the chosen image format, such as PNG or JPEG.  
 ```csharp
 gen.Save($"{path}DotCodeAspectRatio0.5.png", BarCodeImageFormat.Png);
 ```
 
-最後に、生成されたバーコード イメージを指定したファイル名と形式で保存します。交換する "{path}" を実際のディレクトリ パスに置き換えます。
+## DotCode カスタマイズに Aspose.BarCode を使用する理由
+Aspose.BarCode provides a comprehensive set of features for DotCode generation, including high‑resolution output, extensive format support, and fine‑grained control over barcode dimensions such as aspect ratio. It runs on all major .NET platforms, requires no external dependencies, and delivers fast rendering performance, making it ideal for both desktop and web applications.
 
-## 結論
+## 一般的な使用例
 
-このチュートリアルでは、Aspose.BarCode for .NET を使用して DotCode のアスペクト比をカスタマイズする方法を検討しました。この機能を使用すると、梱包、配送ラベル、その他の用途を問わず、特定の要件を満たすバーコードを作成できます。ここで説明する手順に従うことで、Aspose.BarCode の機能を利用して、カスタマイズされた DotCode バーコードを簡単に生成できます。
-
-ここで、DotCode のカスタマイズに関するよくある質問に答えてみましょう。
+- **ヘルスケア**: 小さなリストバンドに収まるコンパクトな患者 ID タグ。  
+- **郵便サービス**: 高さが低いとスキャン信頼性が向上するワイドフォーマットの配送ラベル。  
+- **製造業**: スペース制約がありカスタムアスペクト比が必要な部品のインラインラベリング。
 
 ## よくある質問
 
-### Q1: DotCode バーコードのアスペクト比は何ですか?
+**Q:** DotCode バーコードのアスペクト比とは何ですか？  
+**A:** モジュールの高さと幅の比率です。調整するとバーコード全体の形状が変わります。
 
-A1: DotCode バーコードのアスペクト比は、バーコード内の個々のモジュールの高さと幅の比率を指します。特定のニーズに合わせて調整できます。
+**Q:** DotCode バーコードから最も恩恵を受ける業界はどこですか？  
+**A:** ヘルスケア、郵便サービス、製造業が主に利用しています。
 
-### Q2: DotCode バーコードから恩恵を受けるのはどの業界ですか?
+**Q:** Aspose.BarCode for .NET で他の DotCode パラメータもカスタマイズできますか？  
+**A:** もちろんです。エラー訂正レベル、前景/背景色、ロゴ埋め込みなども変更できます。
 
-A2: DotCode バーコードは、医療、郵便サービス、製造業で一般的に使用されており、情報を効率的にエンコードすることが重要です。
+**Q:** Aspose.BarCode は Web とデスクトップの .NET アプリケーションの両方に適していますか？  
+**A:** はい、ASP.NET、WPF、WinForms、コンソールアプリでシームレスに動作します。
 
-### Q3: Aspose.BarCode for .NET を使用して DotCode バーコードの他のパラメータをカスタマイズできますか?
+**Q:** さらにドキュメントやサンプルはどこで見つけられますか？  
+**A:** 詳細な API リファレンスとコードサンプルは [こちら](https://reference.aspose.com/barcode/net/) にあります。
 
-A3: はい。Aspose.BarCode for .NET は、DotCode およびその他のバーコード タイプの広範なカスタマイズ オプションを提供し、要件に合わせてさまざまなパラメータを制御できます。
+---
 
-### Q4: Aspose.BarCode for .NET は Web アプリケーションとデスクトップ アプリケーションの両方に適していますか?
+**最終更新日:** 2026-06-14  
+**テスト環境:** Aspose.BarCode 24.12 for .NET  
+**作者:** Aspose
 
-A4: はい、Aspose.BarCode for .NET は Web アプリケーションとデスクトップ アプリケーションの両方でバーコードの生成と操作に使用できます。
+## 関連チュートリアル
 
-### Q5: Aspose.BarCode for .NET に関する詳細情報とドキュメントはどこで入手できますか?
+- [DotCode 拡張コードテキスト構成 (Aspose.BarCode for .NET)](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
+- [DotCode 構造化付加モード構成 (Aspose.BarCode for .NET)](/barcode/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/)
+- [DotCode バーコード画像の作成 – 行と列 (Aspose.BarCode)](/barcode/net/dotcode-barcode-configuration/dotcode-rows-columns-configuration/)
 
-A5: ドキュメントを参照してください。[ここ](https://reference.aspose.com/barcode/net/)包括的なガイダンスと例を参照してください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

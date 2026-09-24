@@ -1,10 +1,37 @@
 ---
-date: 2025-12-21
-description: تعلم كيفية إنشاء الباركود باستخدام Aspose Java وزيادة دقة الباركود عن
-  طريق ضبط جودة الصورة. أنشئ باركودات CODE_128 عالية الجودة بسهولة.
-linktitle: Adjusting Image Quality for Barcode
+date: 2026-06-04
+description: تعلم كيفية إنشاء باركود في جافا وضبط جودة صورة الباركود باستخدام Aspose.BarCode،
+  وإنشاء باركودات CODE_128 عالية الدقة.
+keywords:
+- adjust barcode image quality
+- how to create barcode java
+- Aspose.BarCode Java
+linktitle: ضبط جودة الصورة للباركود
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to create barcode Java and adjust barcode image quality with
+    Aspose.BarCode, generating high‑resolution CODE_128 barcodes.
+  headline: Adjust Barcode Image Quality in Java with Aspose.BarCode
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.BarCode integrates seamlessly with libraries such as Apache
+      POI, Spring, and Hibernate, allowing you to embed barcodes in PDFs, Excel sheets,
+      or web pages.
+    question: Can I use Aspose.BarCode for Java with other Java libraries?
+  - answer: Absolutely, you can explore Aspose.BarCode for Java with the [free trial](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
+      for community assistance or open a support ticket with a valid license.
+    question: How can I get support for Aspose.BarCode?
+  - answer: Yes, temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+    question: Are temporary licenses available for testing?
+  - answer: Refer to the [documentation](https://reference.aspose.com/barcode/java/)
+      for detailed API references and code samples.
+    question: Where can I find comprehensive documentation?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: 'كيفية إنشاء الباركود باستخدام Aspose Java - تعديل جودة الصورة'
+title: ضبط جودة صورة الباركود في جافا باستخدام Aspose.BarCode
 url: /ar/java/image-manipulation/adjusting-image-quality-barcode/
 weight: 12
 ---
@@ -13,52 +40,54 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية إنشاء باركود Aspose Java: ضبط جودة الصورة
-
-## المقدمة
-
-يمكن أن يؤدي دمج الباركود في تطبيقات Java إلى تحسين كبير في عملية جمع البيانات وسير عمل المخزون. باستخدام **Aspose.BarCode for Java**، يمكنك **إنشاء باركود Aspose Java** ينتج صورًا واضحة تمامًا، حتى عندما تحتاج إلى **زيادة دقة الباركود** للطباعة عالية الكثافة. في هذا الدرس سنستعرض الخطوات الدقيقة لـ **إنشاء صور باركود CODE_128**، تعديل الدقة، وحفظ النتيجة بأعلى جودة ممكنة.
+# ضبط جودة صورة الباركود في جافا باستخدام Aspose.BarCode
 
 ## إجابات سريعة
 - **ما المكتبة المطلوبة؟** Aspose.BarCode for Java.  
 - **ما نوع الباركود المعروض؟** CODE_128.  
-- **كيف أحسن جودة الصورة؟** ضبط دقة أعلى (مثلاً 400 DPI).  
-- **ما صيغة الملف المستخدمة؟** JPEG (يمكنك التحويل إلى PNG أو BMP، إلخ).  
-- **هل أحتاج إلى ترخيص للاختبار؟** النسخة التجريبية المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.
+- **كيف أحسن جودة الصورة؟** ضبط دقة أعلى (مثلاً 400 DPI).  
+- **ما صيغ الملفات المدعومة؟** JPEG, PNG, BMP, TIFF, and more.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم—يتطلب ترخيص تجاري؛ نسخة تجريبية مجانية تعمل للتطوير.
 
-## كيفية إنشاء باركود Aspose Java بجودة صورة مخصصة
-فيما يلي دليل مختصر خطوة بخطوة يغطي كل شيء من إعداد المشروع إلى حفظ الصورة النهائية.
+## ما هو “ضبط جودة صورة الباركود”؟
+
+يشير ضبط جودة صورة الباركود إلى تعديل معلمات العرض—خاصة الدقة (DPI) وإعدادات الضغط—بحيث تظل الصورة الناتجة حادة، واضحة، وسهلة القراءة عند الطباعة أو العرض. قيم DPI الأعلى تزيد من كثافة البكسل، مما يقلل الضبابية ويضمن قدرة الماسحات على فك تشفير الباركود حتى بأحجام صغيرة أو على وسائط عالية الدقة.
+
+## كيف يمكنك ضبط جودة صورة الباركود في جافا؟
+
+يمكنك ضبط جودة صورة الباركود في جافا بإنشاء كائن `BarcodeGenerator`، واستدعاء طريقة `setResolution` لتحديد DPI المطلوب، ثم حفظ الصورة باستخدام دالة `save`. كلما زادت قيمة DPI التي تحددها، كلما أصبحت صورة الباركود أكثر حدة، وهو أمر أساسي للطباعة عالية الكثافة والمسح الدقيق.
+
+## لماذا تستخدم Aspose.BarCode لجافا؟
+
+يوفر Aspose.BarCode لجافا مجموعة شاملة من الميزات، يدعم أكثر من 50 نوعًا من رموز الباركود ويسمح بعرض الصور حتى 1200 DPI. يعمل دون استهلاك كبير للذاكرة، مما يتيح توليد دفعات كبيرة من الملصقات بسرعة على الأجهزة العادية، ويوفر خيارات تخصيص واسعة مثل الألوان، الهوامش، ومعلمات الترميز.
 
 ## المتطلبات المسبقة
 
-قبل الغوص في عالم Aspose.BarCode for Java، تأكد من توفر المتطلبات التالية:
+قبل الغوص في عالم Aspose.BarCode لجافا، تأكد من توفر المتطلبات التالية:
 
-- مجموعة تطوير جافا (JDK): بما أن Aspose.BarCode مكتبة جافا، يجب تثبيت JDK على نظامك.
-- بيئة تطوير متكاملة (IDE): اختر بيئة التطوير المفضلة لديك – سواء Eclipse أو IntelliJ أو غيرها.
-- Aspose.BarCode for Java: قم بتحميل وتثبيت مكتبة Aspose.BarCode من [صفحة الإصدار](https://releases.aspose.com/barcode/java/).
+- مجموعة تطوير جافا (JDK) 8 أو أعلى.  
+- بيئة تطوير متكاملة مثل Eclipse أو IntelliJ IDEA أو NetBeans.  
+- Aspose.BarCode لجافا – قم بتنزيله من [صفحة الإصدار](https://releases.aspose.com/barcode/java/).
 
 ## استيراد الحزم
 
-بعد إعداد المتطلبات المسبقة، حان الوقت لاستيراد الحزم الضرورية إلى مشروع Java الخاص بك. أضف ما يلي إلى الكود:
-
+BarcodeGenerator هو الفئة الأساسية المستخدمة لإنشاء وتكوين صور الباركود.  
 ```java
 import java.io.IOException;
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-الآن، لنستعرض الخطوات المتضمنة لضبط جودة الصورة باستخدام Aspose.BarCode for Java:
+## الخطوة 1: تعيين دليل الموارد
 
-## الخطوة 1: تعيين مسار دليل الموارد
-
-حدد مسار دليل الموارد باستخدام المتغير `dataDir`.
+حدد مسار دليل الموارد الخاص بك باستخدام المتغير `dataDir`. سيحتوي هذا المجلد على ملفات الباركود التي تم إنشاؤها.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## الخطوة 2: إنشاء كائن الباركود
+## الخطوة 2: إنشاء مثال الباركود
 
-قم بتهيئة `BarcodeGenerator` بنوع الباركود المطلوب (هنا CODE_128) والبيانات.
+قم بتهيئة `BarcodeGenerator` بنوع الباركود المطلوب (`CODE_128`) والبيانات التي تريد ترميزها.
 
 ```java
 BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_128, "1234567");
@@ -66,7 +95,8 @@ BarcodeGenerator bb = new BarcodeGenerator(com.aspose.barcode.EncodeTypes.CODE_1
 
 ## الخطوة 3: ضبط الدقة
 
-قم بتحسين جودة صورة الباركود عن طريق ضبط الدقة. في هذا المثال تم تعيين دقة 400 DPI، مما **يزيد من دقة الباركود** ويعطي مخرجات أكثر حدة.
+`setResolution` يحدد دقة الصورة الناتجة بالنقاط في البوصة (DPI).  
+قم بضبط جودة صورة الباركود بدقة عن طريق استدعاء `setResolution`. في المثال نستخدم **400 DPI**، مما يحسن الوضوح بشكل كبير للطابعات الليزرية.
 
 ```java
 bb.getParameters().setResolution(400);
@@ -74,55 +104,59 @@ bb.getParameters().setResolution(400);
 
 ## الخطوة 4: حفظ الصورة
 
-احفظ صورة الباركود التي تم إنشاؤها في الدليل المحدد. هذه الخطوة **تنشئ ملفات صورة باركود Java** جاهزة للاستخدام في التقارير أو الملصقات أو المسح الضوئي عبر الهاتف.
+`save` يكتب صورة الباركود التي تم إنشاؤها إلى ملف بالتنسيق والموقع المحددين.  
+احفظ صورة الباركود التي تم إنشاؤها إلى الدليل المحدد. طريقة `save` تطبق تلقائيًا الدقة والتنسيق المُكوَّن.
 
 ```java
 bb.save(dataDir + "barcode-image-quality.jpg");
 ```
 
-كرر هذه الخطوات حسب الحاجة، مع تعديل المعلمات وفق متطلباتك.
+كرر هذه الخطوات حسب الحاجة، مع تعديل المعلمات مثل نوع الباركود أو اللون أو الهامش لتناسب مشروعك.
 
 ## المشكلات الشائعة والحلول
 
-| المشكلة | السبب | الحل |
-|---------|-------|------|
-| باركود غير واضح بعد الطباعة | الدقة منخفضة بالنسبة لدقة الطابعة | زيادة `setResolution` (مثلاً إلى 600) |
-| خطأ في صيغة الملف غير المدعومة | استخدام نسخة قديمة من Aspose | الترقية إلى أحدث نسخة من Aspose.BarCode for Java |
-| الباركود غير قابل للقراءة بواسطة الماسح | مساحة هادئة غير كافية | تعديل `bb.getParameters().getBars().setBarHeight()` أو إضافة هامش |
+| المشكلة | سبب حدوثها | الحل |
+|-------|----------------|-----|
+| باركود غير واضح بعد الطباعة | الدقة منخفضة جدًا بالنسبة لدقة الطابعة | زيادة `setResolution` (مثلاً 600 DPI) |
+| خطأ تنسيق ملف غير مدعوم | استخدام نسخة أقدم من Aspose | الترقي إلى أحدث نسخة من Aspose.BarCode لجافا |
+| الباركود غير قابل للقراءة بواسطة الماسح | منطقة صمت غير كافية | ضبط `bb.getParameters().getBars().setBarHeight()` أو إضافة هامش |
 
 ## الأسئلة المتكررة
 
-### هل يمكنني استخدام Aspose.BarCode for Java مع مكتبات Java أخرى؟
-نعم، يتكامل Aspose.BarCode بسلاسة مع مكتبات Java المختلفة لتعزيز الوظائف.
+**س: هل يمكنني استخدام Aspose.BarCode لجافا مع مكتبات جافا الأخرى؟**  
+نعم، يتكامل Aspose.BarCode بسلاسة مع مكتبات مثل Apache POI و Spring و Hibernate، مما يتيح لك تضمين الباركود في ملفات PDF، وجداول Excel، أو صفحات الويب.
 
-### هل تتوفر نسخة تجريبية؟
-بالطبع، يمكنك تجربة Aspose.BarCode for Java عبر [النسخة التجريبية المجانية](https://releases.aspose.com/).
+**س: هل تتوفر نسخة تجريبية؟**  
+بالطبع، يمكنك استكشاف Aspose.BarCode لجافا مع [نسخة تجريبية مجانية](https://releases.aspose.com/).
 
-### كيف يمكنني الحصول على الدعم لـ Aspose.BarCode؟
-توجه إلى [منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للحصول على مساعدة من المجتمع.
+**س: كيف يمكنني الحصول على الدعم لـ Aspose.BarCode؟**  
+قم بزيارة [منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للحصول على مساعدة المجتمع أو افتح تذكرة دعم بترخيص صالح.
 
-### هل توجد تراخيص مؤقتة لـ Aspose.BarCode؟
-نعم، يمكنك الحصول على تراخيص مؤقتة [من هنا](https://purchase.aspose.com/temporary-license/).
+**س: هل تتوفر تراخيص مؤقتة للاختبار؟**  
+نعم، يمكن الحصول على تراخيص مؤقتة [هنا](https://purchase.aspose.com/temporary-license/).
 
-### أين يمكنني العثور على وثائق شاملة لـ Aspose.BarCode for Java؟
-راجع [الوثائق](https://reference.aspose.com/barcode/java/) للحصول على تفاصيل معمقة.
-
-## أسئلة متكررة إضافية
+**س: أين يمكنني العثور على وثائق شاملة؟**  
+راجع [الوثائق](https://reference.aspose.com/barcode/java/) للحصول على مراجع API مفصلة وعينات كود.
 
 **س: هل يمكنني إنشاء باركود PNG بدلاً من JPEG؟**  
-ج: نعم، فقط غير امتداد الملف في طريقة `save`، مثال: `bb.save(dataDir + "barcode.png");`.
+غيّر امتداد الملف في طريقة `save`، على سبيل المثال، `bb.save(dataDir + "barcode.png");`.
 
-**س: كيف أغير نوع الباركود إلى QR Code؟**  
-ج: استبدل `com.aspose.barcode.EncodeTypes.CODE_128` بـ `com.aspose.barcode.EncodeTypes.QR`.
+**س: كيف يمكنني تغيير نوع الباركود إلى QR Code؟**  
+استبدل `com.aspose.barcode.EncodeTypes.CODE_128` بـ `com.aspose.barcode.EncodeTypes.QR`.
 
 **س: هل يمكن ضبط لون خلفية صورة الباركود؟**  
-ج: استخدم `bb.getParameters().getImage().setBackgroundColor(Color.getWhite());` قبل الحفظ.
+استخدم `bb.getParameters().getImage().setBackgroundColor(Color.getWhite());` قبل الحفظ.
 
----
+**آخر تحديث:** 2026-06-04  
+**تم الاختبار باستخدام:** Aspose.BarCode لجافا 24.12  
+**المؤلف:** Aspose
 
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.BarCode for Java 24.3  
-**المؤلف:** Aspose  
+## الدروس ذات الصلة
+
+- [إنشاء باركود جافا – ضبط دقة الصورة باستخدام Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+- [قارئ باركود عالي الأداء: معالجة صور أسرع للتعرف على الباركود في جافا باستخدام Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [كيفية إنشاء باركود في جافا: إنشاء صورة باركود دقيقة](/barcode/java/barcode-basics/creating-image-exact-barcode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

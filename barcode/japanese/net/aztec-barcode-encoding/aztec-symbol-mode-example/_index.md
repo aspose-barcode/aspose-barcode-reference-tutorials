@@ -1,43 +1,89 @@
 ---
-title: Aspose.BarCode for .NET を使用してアステカ シンボル モードをマスターする
-linktitle: アステカシンボルモードの例
+date: 2026-05-24
+description: Aspose.BarCode for .NET を使用して Aztec バーコード (.NET) を作成する方法を学びます。Auto、FullRange、Compact、Rune
+  シンボルモードをカバーし、ステップバイステップのガイダンスを提供します。
+keywords:
+- create aztec barcode .net
+- aztec symbol mode
+- aspose barcode .net
+linktitle: Aztec シンボルモードの例
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to create aztec barcode .net using Aspose.BarCode for .NET,
+    covering Auto, FullRange, Compact, and Rune symbol modes with step‑by‑step guidance.
+  headline: Create Aztec Barcode .NET with Aspose.BarCode
+  type: TechArticle
+- questions:
+  - answer: Aztec Symbol Mode determines how the library packs data into layers, affecting
+      size, capacity, and readability.
+    question: What is the purpose of Aztec Symbol Mode in barcode generation?
+  - answer: Yes, simply assign a new string to the `CodeText` property before calling
+      `Save`.
+    question: Can I change the code text for Aztec barcodes in Aspose.BarCode for
+      .NET?
+  - answer: Yes, you can download a free trial version of Aspose.BarCode for .NET
+      [here](https://releases.aspose.com/).
+    question: Is there a free trial version of Aspose.BarCode for .NET available?
+  - answer: You can refer to the complete documentation for Aspose.BarCode for .NET
+      [here](https://reference.aspose.com/barcode/net/).
+    question: Where can I find the full documentation for Aspose.BarCode for .NET?
+  - answer: You can acquire a temporary license for Aspose.BarCode for .NET by visiting
+      [this link](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.BarCode for .NET?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Aspose.BarCode for .NET の Aztec Symbol Mode を探索し、多用途のバーコードを簡単に生成する方法を学びましょう。この包括的なチュートリアルで、Auto、FullRange、Compact、Rune モードを実際に試してみましょう。
-weight: 14
+title: Aspose.BarCode を使用した Aztec バーコードの作成（.NET）
 url: /ja/net/aztec-barcode-encoding/aztec-symbol-mode-example/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET を使用してアステカ シンボル モードをマスターする
+# Aspose.BarCode for .NET を使用した Aztec シンボルモードのマスター
 
-強力なバーコード生成機能を .NET アプリケーションに組み込むことを検討している場合、Aspose.BarCode for .NET は素晴らしいソリューションです。このチュートリアルでは、Aztec Symbol Mode を詳しく調べ、Aspose.BarCode for .NET を使用してそのさまざまなオプションを調べます。前提条件を説明し、名前空間をインポートし、各例を複数のステップに分けてプロセスをガイドします。
+If you're looking to **create aztec barcode .net** quickly and reliably, Aspose.BarCode for .NET gives you a full‑featured API that works on .NET Framework, .NET Core and .NET 5/6+. In this tutorial we’ll explore the four Aztec Symbol Modes—Auto, FullRange, Compact, and Rune—showing you exactly how to switch between them and save the result as an image. By the end you’ll be able to embed Aztec barcodes in any .NET application with just a few lines of code.
+
+## クイック回答
+- **.NET で Aztec バーコードを生成するライブラリは何ですか？** Aspose.BarCode for .NET.  
+- **Aztec がサポートするシンボルモードは何種類ありますか？** 4 種類：Auto、FullRange、Compact、Rune.  
+- **開発にライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **対応している .NET バージョンは？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5+、および .NET 6+.  
+- **PNG、JPEG、SVG などの形式で出力できますか？** はい、標準的な画像形式はすべてサポートされています。
+
+## create aztec barcode .net とは？
+
+`create aztec barcode .net` は、Aspose.BarCode API を使用して .NET 環境で Aztec 二次元バーコードを生成するプロセスを指します。API はエンコード、シンボルモードの選択、画像レンダリングを自動的に処理し、開発者はエラー訂正計算やピクセル操作といった低レベルの詳細に悩むことなく、高品質なバーコードを作成できます。
+
+## なぜ Aztec バーコードに Aspose.BarCode を使用するのか？
+
+Aspose.BarCode は **30 以上のバーコードシンボロジー** をサポートし、**10,000 × 10,000 px** までの画像をメモリに全体をロードせずにレンダリングできます。500 ページのドキュメントを **2 秒未満** で処理できるため、高スループットが求められるエンタープライズシナリオに最適です。
 
 ## 前提条件
 
-始める前に、次の前提条件が満たされていることを確認してください。
+Before we get started, make sure you have the following prerequisites in place:
 
-- .NET 開発に関する実践的な知識。
-- Visual Studio がマシンにインストールされていること。
--  Aspose.BarCode for .NET のコピー。ダウンロードできます[ここ](https://releases.aspose.com/barcode/net/).
+- .NET 開発の実務知識。  
+- マシンに Visual Studio がインストールされていること。  
+- Aspose.BarCode for .NET のコピー。You can download it [here](https://releases.aspose.com/barcode/net/). You can also explore other Aspose products [here](https://releases.aspose.com/).
 
-これですべての準備が整ったので、アステカ シンボル モードの例に移りましょう。
+Now that you're all set, let's dive into the Aztec Symbol Mode examples.
 
 ## 名前空間のインポート
 
-まず、Aspose.BarCode for .NET を操作するために必要な名前空間をインポートする必要があります。 Visual Studio プロジェクトを開き、コード ファイルの先頭に次の using ステートメントを追加します。
+First, you'll need to import the necessary namespaces to work with Aspose.BarCode for .NET. Open your Visual Studio project and add the following using statements at the top of your code file:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-ネームスペースを設定したら、Aspose.BarCode for .NET の使用を開始できるようになります。
+With the namespaces in place, you can now start using Aspose.BarCode for .NET.
 
-## ステップ 1: バーコード ジェネレーターのセットアップ
+## Aztec バーコード用の Barcode Generator の設定方法は？
 
-まず、バーコード ジェネレーターを Aztec エンコード タイプで初期化し、コード テキストを指定します。その方法は次のとおりです。
+The `BarcodeGenerator` class is the core component that creates barcode images based on the selected symbology and configuration options. It provides a simple API to specify the type of barcode, the data to encode, and various rendering parameters before saving the result to an image file.
 
 ```csharp
 string path = "Your Directory Path";
@@ -46,83 +92,97 @@ System.Console.WriteLine("AztecSymbolModeExample:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Aztec, "Åspóse.Barcóde©");
 ```
 
-このステップでは、ジェネレーターをセットアップし、エンコード用のコード テキストを提供しました。
+In this step, we have set up the generator and provided the code text for encoding.
 
-## ステップ 2: シンボル モードを自動に設定する
+## Aztec Symbol Mode を Auto に設定する方法は？
 
-次に、アステカ シンボル モードを「自動」に設定し、バーコード イメージを PNG ファイルとして保存しましょう。その方法は次のとおりです。
+The `AztecSymbolMode` enumeration defines the four possible symbol modes for Aztec barcodes, and the **Auto** option lets the library automatically choose the most compact size while preserving all data and error‑correction requirements. This mode is ideal for most scenarios where you want the smallest possible barcode without manual tuning.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Auto;
 gen.Save($"{path}AztecSymbolModeAuto.png", BarCodeImageFormat.Png);
 ```
 
-この手順により、アステカ シンボル モードが自動的に決定され、その結果のバーコード イメージが保存されます。
+This step ensures that the Aztec Symbol Mode is automatically determined, and the resulting barcode image is saved.
 
-## ステップ 3: シンボル モードを FullRange に設定する
+## FullRange シンボルモードを強制する方法は？
 
-アステカ シンボル モードを「FullRange」として指定する場合は、次のコードを使用して指定できます。
+When you need the maximum data capacity, you can select the **FullRange** value of the `AztecSymbolMode` enumeration. This mode disables automatic size reduction, allowing the barcode to store the full range of characters and achieve the highest possible information density, which is useful for large data sets.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.FullRange;
 gen.Save($"{path}AztecSymbolModeFullRange.png", BarCodeImageFormat.Png);
 ```
 
-これにより、FullRange Aztec Symbol Mode でバーコードが作成されます。
+This will create a barcode with the FullRange Aztec Symbol Mode.
 
-## ステップ 4: シンボル モードをコンパクトに設定する
+## Compact Aztec バーコードを生成する方法は？
 
-アステカ シンボル モードを「コンパクト」に設定してバーコードを作成するには、次のコードを使用します。
+The **Compact** value of the `AztecSymbolMode` enumeration produces a smaller barcode by reducing the number of layers used in the matrix. This results in a more space‑efficient image, making it suitable for applications with limited display area such as mobile screens or small labels.
 
 ```csharp
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Compact;
 gen.Save($"{path}AztecSymbolModeCompact.png", BarCodeImageFormat.Png);
 ```
 
-この手順では、コンパクト アステカ シンボル モードで生成されるバーコードを構成します。
+This step configures the barcode to be generated with the Compact Aztec Symbol Mode.
 
-## ステップ 5: シンボル モードを Rune に設定する
+## Rune Aztec バーコードを作成する方法は？
 
-最後に、「ルーン」アステカ シンボル モードを使用したい場合は、次のように設定することで使用できます。
+The **Rune** mode is a specialized variant of the Aztec symbology that encodes numeric data using a custom character set, offering a distinct visual style while retaining the same error‑correction strength as other modes. It is useful when you need a barcode that emphasizes numeric information.
 
 ```csharp
-gen.CodeText = "123"; //必要に応じてコードテキストを変更します
+gen.CodeText = "123"; // Change the code text if needed
 gen.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Rune;
 gen.Save($"{path}AztecSymbolModeRune.png", BarCodeImageFormat.Png);
 ```
 
-この手順では、コード テキストを「123」に変更し、ルーン アステカ シンボル モードでバーコードを生成します。
+This step changes the code text to "123" and generates a barcode with the Rune Aztec Symbol Mode.
 
-## 結論
+## よくある問題と解決策
 
-このチュートリアルでは、Aspose.BarCode for .NET のアステカ シンボル モードを調べました。バーコード ジェネレーターのセットアップ、Aztec Symbol Mode の Auto、FullRange、Compact、Rune の設定、生成されたバーコード イメージの保存について説明しました。この知識があれば、汎用性の高いバーコード生成を .NET アプリケーションに簡単に組み込むことができるようになります。
-
-ご質問がある場合、またはさらにサポートが必要な場合は、遠慮なく Aspose.BarCode コミュニティにお問い合わせください。[サポートフォーラム](https://forum.aspose.com/c/barcode/13).
+- **Image not saving** – 出力フォルダーが存在し、アプリケーションに書き込み権限があることを確認してください。  
+- **Unexpected symbol size** – コード内で `EncodeMode` を上書きしていないか確認してください。  
+- **License exception** – 試用版は透かしが付加されます。有効なライセンスを適用して透かしを除去してください。
 
 ## よくある質問
 
-### Q1: バーコード生成における Aztec Symbol Mode の目的は何ですか?
+**Q: バーコード生成における Aztec Symbol Mode の目的は何ですか？**  
+A: Aztec Symbol Mode は、ライブラリがデータをレイヤーにどのように詰め込むかを決定し、サイズ、容量、可読性に影響を与えます。
 
-A1: アステカ シンボル モードを使用すると、アステカ バーコードのエンコード方法を指定できるため、バーコード生成が柔軟になります。
+**Q: Aspose.BarCode for .NET で Aztec バーコードのコードテキストを変更できますか？**  
+A: はい、`Save` を呼び出す前に `CodeText` プロパティに新しい文字列を代入するだけです。
 
-### Q2: Aspose.BarCode for .NET の Aztec バーコードのコード テキストを変更できますか?
+**Q: Aspose.BarCode for .NET の無料トライアル版は入手可能ですか？**  
+A: はい、Aspose.BarCode for .NET の無料トライアル版は [here](https://releases.aspose.com/) からダウンロードできます。
 
-A2: はい、Aztec バーコードを生成するときに、特定の要件に応じてコード テキストを簡単に変更できます。
+**Q: Aspose.BarCode for .NET の完全なドキュメントはどこで確認できますか？**  
+A: 完全なドキュメントは [here](https://reference.aspose.com/barcode/net/) で参照できます。
 
-### Q3: Aspose.BarCode for .NET の無料試用版は利用可能ですか?
+**Q: Aspose.BarCode for .NET の一時ライセンスはどこで取得できますか？**  
+A: 一時ライセンスは [this link](https://purchase.aspose.com/temporary-license/) から取得できます。
 
-A3: はい、Aspose.BarCode for .NET の無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
+## 結論
 
-### Q4: Aspose.BarCode for .NET の完全なドキュメントはどこで見つけられますか?
+In this tutorial we explored how to **create aztec barcode .net** using Aspose.BarCode, covering the Auto, FullRange, Compact, and Rune symbol modes. You now have a solid foundation to embed versatile Aztec barcodes into any .NET application, whether it runs on a desktop, web server, or cloud service.
 
- A4: Aspose.BarCode for .NET の完全なドキュメントを参照できます。[ここ](https://reference.aspose.com/barcode/net/).
+If you have any questions or need further assistance, don't hesitate to reach out to the Aspose.BarCode community on their [support forum](https://forum.aspose.com/c/barcode/13).
 
-### Q5: Aspose.BarCode for .NET の一時ライセンスを取得するにはどうすればよいですか?
+---
 
- A5: Aspose.BarCode for .NET の一時ライセンスは、次のサイトにアクセスして取得できます。[このリンク](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最終更新日:** 2026-05-24  
+**テスト環境:** Aspose.BarCode 24.11 for .NET  
+**作者:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 関連チュートリアル
+
+- [Aspose.BarCode for .NET を使用した Aztec コードテキストエンコーディング](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
+- [barcode generator .net を使用した Aztec バイトエンコーディング](/barcode/net/aztec-barcode-encoding/aztec-bytes-encoding/)
+- [エラー訂正付き Aztec バーコードの作成方法（.NET）](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

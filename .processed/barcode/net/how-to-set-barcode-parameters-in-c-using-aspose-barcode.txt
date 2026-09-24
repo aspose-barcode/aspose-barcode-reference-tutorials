@@ -1,0 +1,7 @@
+Title: How to set barcode parameters in C# using Aspose.BarCode
+Slug: how-to-set-barcode-parameters-in-c-using-aspose-barcode
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-09-10T14:36:35.594108
+SourceRepo: AI Search API
+Keywords: how to set barcode, how to create barcode, c# barcode generation
+PRNumber: 119
