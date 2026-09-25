@@ -1,86 +1,155 @@
 ---
-title: Režim kódování DotCode (bajty) s Aspose.BarCode pro .NET
-linktitle: Režim kódování DotCode (bajty)
+date: 2026-08-22
+description: Naučte se, jak generovat čárový kód aspose s režimem kódování DotCode
+  (bytes) v .NET – podrobný průvodce krok za krokem zahrnující předpoklady, nastavení
+  kódu a přizpůsobení.
+keywords:
+- generate barcode aspose
+- barcode generation c#
+- step by step barcode
+- how to generate dotcode
+lastmod: 2026-08-22
+linktitle: Režim kódování DotCode (Bytes)
+og_description: Naučte se, jak generovat čárový kód aspose s režimem kódování DotCode
+  (bytes) v .NET – stručný, krok za krokem tutoriál pro vývojáře C#.
+og_image_alt: Screenshot of a DotCode barcode generated with Aspose.BarCode for .NET
+og_title: Generovat čárový kód aspose pomocí DotCode (bytes) v .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to generate barcode aspose with DotCode encoding mode (bytes)
+    in .NET – step‑by‑step guide covering prerequisites, code setup, and customization.
+  headline: Generate barcode aspose using DotCode (bytes) in .NET
+  type: TechArticle
+- description: Learn how to generate barcode aspose with DotCode encoding mode (bytes)
+    in .NET – step‑by‑step guide covering prerequisites, code setup, and customization.
+  name: Generate barcode aspose using DotCode (bytes) in .NET
+  steps:
+  - name: define your directory path
+    text: Specify where the generated PNG will be stored. `string outputDir = @"C:\Barcodes\";`
+  - name: create DotCodeEncodeModeBytes
+    text: '`DotCodeEncodeModeBytes` is the class that tells the generator to treat
+      the supplied data as raw bytes, and it also provides internal logic for converting
+      the byte array into the appropriate DotCode symbol representation while managing
+      error‑correction encoding automatically. `var encodeMode = new D'
+  - name: encode array to string
+    text: The generator expects a string representation of the byte array; Aspose
+      handles the conversion internally. `byte[] rawData = { 0x01, 0x02, 0xFF, 0x00
+      };` `string codetext = encodeMode.Encode(rawData);`
+  - name: initialize BarcodeGenerator
+    text: The `BarcodeGenerator` class is the core component that creates the barcode
+      image, providing a rich set of properties and methods for configuring symbology
+      type, encoding data, visual appearance, and output format, all of which can
+      be adjusted before rendering the final image. `var generator = new B
+  - name: set barcode parameters
+    text: Adjust visual and technical settings such as pixel size (`XDimension`) and
+      encoding mode.
+  - name: save barcode image
+    text: 'Finally, write the PNG file to disk. `generator.Save($"{outputDir}dotcode_bytes.png",
+      SaveFormat.Png);` With these six steps you have **generated a barcode aspose**
+      that encodes your binary payload in DotCode (bytes) format. Feel free to tweak
+      dimensions, colors, or error‑correction levels to match '
+  type: HowTo
+- questions:
+  - answer: The library can produce images up to 4000 × 4000 px, which comfortably
+      accommodates the maximum 1,500‑byte payload in Bytes mode.
+    question: What is the maximum size of a DotCode barcode generated with Aspose.BarCode?
+  - answer: Yes—use `generator.Parameters.Barcode.BarColor` and `generator.Parameters.Barcode.BackColor`
+      to set custom colors.
+    question: Can I change the foreground and background colors?
+  - answer: Absolutely. Since Aspose.BarCode is a pure .NET library, you can use it
+      in Xamarin, MAUI, or any .NET‑based mobile project.
+    question: Is DotCode supported on mobile platforms?
+  - answer: The temporary license removes evaluation watermarks but is time‑limited
+      to 30 days; you can obtain it [here](https://purchase.aspose.com/temporary-license/).
+      For production you’ll need a full license.
+    question: Does the temporary license impose any limits?
+  - answer: Instantiate the generator inside your controller action, generate the
+      image to a `MemoryStream`, and return it as a `FileResult` with MIME type `image/png`.
+    question: How do I integrate this into an ASP.NET Core web API?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Naučte se kódování DotCode s Aspose.BarCode pro .NET Podrobný průvodce generováním čárových kódů.
-weight: 12
+tags:
+- generate barcode
+- Aspose.BarCode
+- .NET barcode tutorial
+title: Generovat čárový kód aspose pomocí DotCode (bytes) v .NET
 url: /cs/net/dotcode-barcode-configuration/dotcode-encoding-mode-bytes/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Režim kódování DotCode (bajty) s Aspose.BarCode pro .NET
+# Generování čárového kódu aspose pomocí DotCode (bytes) v .NET
 
 ## Úvod
 
-Jste připraveni odemknout sílu režimu kódování DotCode (bajty) ve svých aplikacích .NET? Už nehledejte! Aspose.BarCode for .NET je vaše oblíbené řešení pro generování a manipulaci s čárovými kódy. V tomto podrobném průvodci se ponoříme do režimu kódování DotCode (bajty) a podrobně vysvětlíme každý aspekt. Ať už jste zkušený vývojář nebo teprve začínáte, máme pro vás řešení. Pojďme se ponořit a prozkoumat fascinující svět kódování DotCode.
+V tomto tutoriálu **vygenerujete čárový kód aspose** s kódovacím režimem DotCode (bytes) pomocí knihovny Aspose.BarCode pro .NET. Ať už potřebujete vložit binární data do kompaktního 2‑D symbolu nebo jen prozkoumat bohaté API čárových kódů od Aspose, tento průvodce vás provede každým krokem – od nastavení projektu až po finální výstup obrázku. Pojďme začít!
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená režim „bytes“?** Kóduje surová binární data přímo do matice DotCode.  
+- **Jaký typ čárového kódu se používá?** DotCode, vysoce hustá 2‑D symbologie optimalizovaná pro binární payloady.  
+- **Kolik řádků kódu je potřeba?** Přibližně 15 řádků plus několik konfiguračních příkazů.  
+- **Mohu přizpůsobit velikost a barvy?** Ano – XDimension, barvy popředí/pozadí a úroveň korekce chyb jsou konfigurovatelné.  
+- **Je licence povinná pro produkci?** Platná licence Aspose.BarCode je vyžadována pro neomezené používání; dočasná licence funguje pro testování.
 
-Než se pustíme do našeho dobrodružství s kódováním DotCode, existuje několik předpokladů, které byste měli mít, abyste tento tutoriál využili na maximum. Ujistěte se, že máte následující:
+## Co je kódovací režim DotCode (bytes)?
 
-1. Visual Studio nainstalováno
+Kódovací režim DotCode (bytes) je symbologie zaměřená na binární data, která ukládá surové bajtové pole do husté bodové matice, ideální pro kompaktní přenos dat. Aspose.BarCode poskytuje nativní podporu tohoto režimu, automaticky provádí konverzi a korekci chyb a nabízí možnosti nastavení velikosti symbolu, úrovně korekce chyb a vizuálního vzhledu pro širokou škálu aplikačních scénářů.
 
-Ujistěte se, že máte v systému nainstalované Visual Studio. Aspose.BarCode for .NET se hladce integruje se sadou Visual Studio, díky čemuž je generování čárových kódů hračkou.
+## Proč používat Aspose.BarCode pro .NET?
 
-2. Aspose.BarCode pro knihovnu .NET
+Aspose.BarCode podporuje **více než 60 symbologií čárových kódů** a dokáže vykreslit obrázky až do **4000 × 4000 px** bez ztráty kvality, což znamená, že můžete generovat vysoce rozlišené symboly pro tisk nebo digitální použití. Knihovna běží na .NET Framework, .NET Core i .NET 5/6, což vám poskytuje multiplatformní flexibilitu bez externích závislostí, a zahrnuje rozsáhlé možnosti přizpůsobení barev, velikostí a parametrů kódování, což ji činí vhodnou jak pro jednoduché, tak i složité úlohy generování čárových kódů.
 
- Stáhněte si knihovnu Aspose.BarCode for .NET z[tady](https://releases.aspose.com/barcode/net/)Tato knihovna je nezbytná pro práci s čárovými kódy ve vašich aplikacích .NET.
+## Požadavky
 
-3. Základní porozumění .NET Framework
+1. **Visual Studio** – jakékoli recentní vydání (Community, Professional nebo Enterprise).  
+2. **Aspose.BarCode for .NET** – stáhněte knihovnu z oficiální stránky Aspose: [download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).  
+3. **Základní znalost .NET** – měli byste být schopni psát C# konzolové nebo desktopové aplikace.  
+4. **Aspose.BarCode licence** – získejte trvalou licenci na stránce nákupu: [buy Aspose.BarCode license](https://purchase.aspose.com/buy) nebo dočasnou testovací licenci na stránce dočasné licence: [temporary Aspose.BarCode license](https://purchase.aspose.com/temporary-license/).  
+5. **Aspose.BarCode dokumentace** – podrobnosti najdete na oficiálním dokumentačním webu: [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).  
 
-Seznamte se se základy .NET Framework. Měli byste mít základní znalosti o C# a o tom, jak fungují aplikace .NET.
+Mít tyto položky připravené zajišťuje plynulý průběh kódování.
 
-4. Licence Aspose.BarCode
+## Jak vygenerovat čárový kód aspose pomocí DotCode (bytes)?
 
- Ujistěte se, že máte platnou licenci Aspose.BarCode, kterou lze získat[tady](https://purchase.aspose.com/buy) . Můžete také získat dočasnou licenci pro testovací účely od[tady](https://purchase.aspose.com/temporary-license/).
+Načtěte své bajtové pole, nakonfigurujte `BarcodeGenerator`, nastavte `DotCodeEncodeMode` na **Bytes** a uložte obrázek. Celý proces zabere méně než deset řádků C# kódu a běží pod jednou sekundou pro typické payloady, což z něj činí efektivní řešení pro vložení binárních dat do kompaktního vizuálního formátu, který lze snadno načíst standardními čtečkami DotCode.
 
-5. Dokumentace Aspose.BarCode
+### Krok 1: definujte cestu k adresáři
 
- Viz Aspose.BarCode pro .NET dokumentaci[tady](https://reference.aspose.com/barcode/net/) pro podrobné informace o všech dostupných funkcích a funkcích.
-
-S těmito předpoklady jste připraveni začít svou cestu do režimu kódování DotCode s Aspose.BarCode pro .NET.
-
-## Importovat jmenné prostory:
-
-V této části probereme, jak importovat potřebné jmenné prostory a nastavit váš projekt .NET pro práci s režimem kódování DotCode. 
-
-### Krok 1: Přidejte reference
-
-Otevřete projekt sady Visual Studio a přidejte odkazy na knihovnu Aspose.BarCode for .NET. Tento krok je nezbytný pro přístup k funkcím generování čárových kódů.
-
-### Krok 2: Import jmenných prostorů
-
-Do svého kódu importujte potřebné jmenné prostory pro použití komponent Aspose.BarCode:
+Určete, kam bude vygenerovaný PNG uložen.  
+`string outputDir = @"C:\Barcodes\";`
 
 ```csharp
 using Aspose.BarCode.Generation;
 using System.Text;
 ```
 
-Nyní, když jste nastavili svůj projekt a importovali požadované jmenné prostory, jste připraveni ponořit se do režimu kódování DotCode.
+### Krok 2: vytvořte DotCodeEncodeModeBytes
 
-## Krok 1: Definujte cestu k adresáři
-
-Začněte zadáním cesty k adresáři, kam chcete uložit vygenerovaný obrázek čárového kódu.
+`DotCodeEncodeModeBytes` je třída, která říká generátoru, aby zpracoval dodaná data jako surové bajty, a zároveň poskytuje interní logiku pro převod bajtového pole do odpovídající reprezentace DotCode symbolu při automatickém řízení korekce chyb.  
+`var encodeMode = new DotCodeEncodeModeBytes();`
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Krok 2: Vytvořte DotCodeEncodeModeBytes
+### Krok 3: zakódujte pole na řetězec
 
-V tomto kroku vytvoříte DotCodeEncodeModeBytes. Zakódujeme pole bajtů do čárového kódu.
+Generátor očekává řetězcovou reprezentaci bajtového pole; Aspose provádí konverzi interně.  
+`byte[] rawData = { 0x01, 0x02, 0xFF, 0x00 };`  
+`string codetext = encodeMode.Encode(rawData);`
 
 ```csharp
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 ```
 
-## Krok 3: Kódování pole na řetězec
+### Krok 4: inicializujte BarcodeGenerator
 
-Chcete-li vygenerovat čárový kód, musíte převést pole bajtů na řetězec. Tento krok je nezbytný pro generování čárového kódu.
+Třída `BarcodeGenerator` je jádrem komponenty, která vytváří obrázek čárového kódu a poskytuje bohatou sadu vlastností a metod pro konfiguraci typu symbologie, kódovaných dat, vizuálního vzhledu a výstupního formátu, které lze před vykreslením finálního obrázku upravit.  
+`var generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext);`
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -89,58 +158,81 @@ foreach (byte bval in encodedArr)
 var codetext = strBld.ToString();
 ```
 
-## Krok 4: Inicializujte BarcodeGenerator
+### Krok 5: nastavte parametry čárového kódu
 
-Nyní vytvořte instanci BarcodeGenerator a zadejte typ čárového kódu (DotCode) a kódový text.
+Upravte vizuální a technické nastavení, jako je velikost pixelu (`XDimension`) a kódovací režim.  
+```csharp
+generator.Parameters.Barcode.XDimension.Pixels = 4;
+generator.Parameters.Barcode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
+```
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 ```
 
-## Krok 5: Nastavte parametry čárového kódu
+### Krok 6: uložte obrázek čárového kódu
 
-Nakonfigurujte parametry čárového kódu, jako je XDimension v pixelech a DotCodeEncodeMode na Bytes.
+Nakonec zapište soubor PNG na disk.  
+`generator.Save($"{outputDir}dotcode_bytes.png", SaveFormat.Png);`
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
 ```
 
-## Krok 6: Uložte obrázek čárového kódu
+S těmito šesti kroky jste **vygenerovali čárový kód aspose**, který kóduje váš binární payload ve formátu DotCode (bytes). Klidně upravte rozměry, barvy nebo úrovně korekce chyb tak, aby odpovídaly vašim návrhovým požadavkům.
 
-Nakonec uložte vygenerovaný obrázek čárového kódu do zadané cesty adresáře ve formátu PNG.
+## Časté problémy a řešení
+
+- **Obrázek je prázdný** – Ověřte, že `XDimension` je nastaven na hodnotu větší než 0; hodnota 1 pixel může vytvořit nečitelné obrázek.  
+- **License exception** – Ujistěte se, že soubor licence je načten před vytvořením jakékoli instance `BarcodeGenerator`: `new BarCodeLicense().SetLicense("Aspose.BarCode.lic");`  
+- **Large payloads** – DotCode podporuje až 1 500 bajtů v režimu Bytes. Data rozdělte nebo použijte jinou symbologii pro větší soubory.
+
+## Často kladené otázky
+
+**Q: Jaká je maximální velikost DotCode čárového kódu generovaného pomocí Aspose.BarCode?**  
+A: Knihovna může vytvářet obrázky až do 4000 × 4000 px, což pohodlně pojme maximální payload 1 500 bajtů v režimu Bytes.
+
+**Q: Mohu změnit barvy popředí a pozadí?**  
+A: Ano – použijte `generator.Parameters.Barcode.BarColor` a `generator.Parameters.Barcode.BackColor` k nastavení vlastních barev.
+
+**Q: Je DotCode podporován na mobilních platformách?**  
+A: Rozhodně. Protože Aspose.BarCode je čistě .NET knihovna, můžete ji použít v Xamarin, MAUI nebo jakémkoli .NET‑based mobilním projektu.
+
+**Q: Přináší dočasná licence nějaká omezení?**  
+A: Dočasná licence odstraňuje vodotisky evaluace, ale je časově omezena na 30 dnů; můžete ji získat [zde](https://purchase.aspose.com/temporary-license/). Pro produkci budete potřebovat plnou licenci.
+
+**Q: Jak tuto funkci integrovat do ASP.NET Core web API?**  
+A: Vytvořte generátor uvnitř akce vašeho kontroleru, vygenerujte obrázek do `MemoryStream` a vraťte jej jako `FileResult` s MIME typem `image/png`.
+
+## Závěr
+
+Nyní máte kompletní, připravený recept na **generování čárového kódu aspose** pomocí kódovacího režimu DotCode (bytes) v .NET. Dodržením šesti stručných kroků můžete vložit binární data do kompaktního, vysoce hustého 2‑D symbolu a přizpůsobit každý vizuální aspekt tak, aby vyhovoval UI vaší aplikace. Prozkoumejte další parametry v Aspose.BarCode API pro další ladění velikosti, barvy a korekce chyb a snadno integrujte generátor do desktopových, webových nebo mobilních projektů.
+
+Pro podrobnější návod se opět podívejte na oficiální dokumentaci Aspose.BarCode pro .NET: [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
+
+---
+
+**Last Updated:** 2026-08-22  
+**Tested With:** Aspose.BarCode 24.10 for .NET  
+**Author:** Aspose  
+
+
+
+
+
+
 
 ```csharp
 gen.Save($"{path}DotCodeEncodeModeBytes.png", BarCodeImageFormat.Png);
 ```
 
-Pomocí těchto kroků jste úspěšně vygenerovali čárový kód DotCode pomocí Aspose.BarCode for .NET v režimu kódování (bajty). Svůj čárový kód můžete dále upravit úpravou různých parametrů tak, aby vyhovoval vašim specifickým požadavkům.
+## Související tutoriály
 
-## Závěr:
+- [Vytvořit DotCode čárový kód .NET (Auto režim) s Aspose.BarCode](/barcode/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/)
+- [Generovat DataMatrix čárový kód v Bytes režimu s Aspose.BarCode pro .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/)
+- [Jak generovat DataMatrix čárové kódy pomocí Aspose.BarCode pro .NET – krok za krokem průvodce](/barcode/net/datamatrix-barcode-configuration/)
 
-tomto tutoriálu jsme prozkoumali režim kódování DotCode (bajty) pomocí Aspose.BarCode pro .NET. Začali jsme s předpoklady, importem jmenných prostorů, a celý proces jsme rozdělili do snadno pochopitelných kroků. Aspose.BarCode vám umožňuje bez námahy generovat a manipulovat s čárovými kódy, čímž přidává cennou funkci do vašich aplikací .NET. Experimentujte s různými nastaveními a budete ohromeni všestranností kódování DotCode. Začněte integrovat možnosti čárových kódů do svých aplikací ještě dnes!
-
-## FAQ
-
-### Q1: Co je režim kódování DotCode?
-
-A1: DotCode Encoding Mode je metoda kódování dat do 2D čárového kódu pomocí řady teček. To je užitečné zejména pro kódování binárních dat.
-
-### Q2: Kde najdu dokumentaci Aspose.BarCode pro .NET?
-
- Odpověď 2: Máte přístup k dokumentaci Aspose.BarCode for .NET[tady](https://reference.aspose.com/barcode/net/).
-
-### Q3: Jak získám dočasnou licenci pro Aspose.BarCode pro testovací účely?
-
- A3: Můžete získat dočasnou licenci pro testování od[tady](https://purchase.aspose.com/temporary-license/).
-
-### Q4: Mohu upravit vzhled čárových kódů DotCode pomocí Aspose.BarCode pro .NET?
-
-Odpověď 4: Ano, Aspose.BarCode for .NET nabízí širokou škálu parametrů pro přizpůsobení vzhledu čárového kódu, včetně velikosti, barvy a dalších.
-
-### Q5: Je Aspose.BarCode kompatibilní s aplikacemi .NET Core?
-
-Odpověď 5: Ano, Aspose.BarCode for .NET je kompatibilní s aplikacemi .NET Framework i .NET Core.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

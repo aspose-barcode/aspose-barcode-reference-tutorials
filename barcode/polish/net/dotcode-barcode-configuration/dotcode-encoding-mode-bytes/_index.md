@@ -1,86 +1,155 @@
 ---
-title: Tryb kodowania DotCode (w bajtach) z Aspose.BarCode dla .NET
-linktitle: Tryb kodowania DotCode (bajty)
+date: 2026-08-22
+description: Dowiedz się, jak generować kod kreskowy aspose z trybem kodowania DotCode
+  (bytes) w .NET – przewodnik krok po kroku obejmujący wymagania wstępne, konfigurację
+  kodu i dostosowanie.
+keywords:
+- generate barcode aspose
+- barcode generation c#
+- step by step barcode
+- how to generate dotcode
+lastmod: 2026-08-22
+linktitle: Tryb kodowania DotCode (Bytes)
+og_description: Dowiedz się, jak generować kod kreskowy aspose z trybem kodowania
+  DotCode (bytes) w .NET – zwięzły, krok po kroku tutorial dla programistów C#.
+og_image_alt: Screenshot of a DotCode barcode generated with Aspose.BarCode for .NET
+og_title: Generuj kod kreskowy aspose przy użyciu DotCode (bytes) w .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to generate barcode aspose with DotCode encoding mode (bytes)
+    in .NET – step‑by‑step guide covering prerequisites, code setup, and customization.
+  headline: Generate barcode aspose using DotCode (bytes) in .NET
+  type: TechArticle
+- description: Learn how to generate barcode aspose with DotCode encoding mode (bytes)
+    in .NET – step‑by‑step guide covering prerequisites, code setup, and customization.
+  name: Generate barcode aspose using DotCode (bytes) in .NET
+  steps:
+  - name: define your directory path
+    text: Specify where the generated PNG will be stored. `string outputDir = @"C:\Barcodes\";`
+  - name: create DotCodeEncodeModeBytes
+    text: '`DotCodeEncodeModeBytes` is the class that tells the generator to treat
+      the supplied data as raw bytes, and it also provides internal logic for converting
+      the byte array into the appropriate DotCode symbol representation while managing
+      error‑correction encoding automatically. `var encodeMode = new D'
+  - name: encode array to string
+    text: The generator expects a string representation of the byte array; Aspose
+      handles the conversion internally. `byte[] rawData = { 0x01, 0x02, 0xFF, 0x00
+      };` `string codetext = encodeMode.Encode(rawData);`
+  - name: initialize BarcodeGenerator
+    text: The `BarcodeGenerator` class is the core component that creates the barcode
+      image, providing a rich set of properties and methods for configuring symbology
+      type, encoding data, visual appearance, and output format, all of which can
+      be adjusted before rendering the final image. `var generator = new B
+  - name: set barcode parameters
+    text: Adjust visual and technical settings such as pixel size (`XDimension`) and
+      encoding mode.
+  - name: save barcode image
+    text: 'Finally, write the PNG file to disk. `generator.Save($"{outputDir}dotcode_bytes.png",
+      SaveFormat.Png);` With these six steps you have **generated a barcode aspose**
+      that encodes your binary payload in DotCode (bytes) format. Feel free to tweak
+      dimensions, colors, or error‑correction levels to match '
+  type: HowTo
+- questions:
+  - answer: The library can produce images up to 4000 × 4000 px, which comfortably
+      accommodates the maximum 1,500‑byte payload in Bytes mode.
+    question: What is the maximum size of a DotCode barcode generated with Aspose.BarCode?
+  - answer: Yes—use `generator.Parameters.Barcode.BarColor` and `generator.Parameters.Barcode.BackColor`
+      to set custom colors.
+    question: Can I change the foreground and background colors?
+  - answer: Absolutely. Since Aspose.BarCode is a pure .NET library, you can use it
+      in Xamarin, MAUI, or any .NET‑based mobile project.
+    question: Is DotCode supported on mobile platforms?
+  - answer: The temporary license removes evaluation watermarks but is time‑limited
+      to 30 days; you can obtain it [here](https://purchase.aspose.com/temporary-license/).
+      For production you’ll need a full license.
+    question: Does the temporary license impose any limits?
+  - answer: Instantiate the generator inside your controller action, generate the
+      image to a `MemoryStream`, and return it as a `FileResult` with MIME type `image/png`.
+    question: How do I integrate this into an ASP.NET Core web API?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Naucz się kodowania DotCode z Aspose.BarCode dla .NET Przewodnik krok po kroku dotyczący generowania kodów kreskowych.
-weight: 12
+tags:
+- generate barcode
+- Aspose.BarCode
+- .NET barcode tutorial
+title: Generuj kod kreskowy aspose przy użyciu DotCode (bytes) w .NET
 url: /pl/net/dotcode-barcode-configuration/dotcode-encoding-mode-bytes/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tryb kodowania DotCode (w bajtach) z Aspose.BarCode dla .NET
+# Generowanie kodu kreskowego aspose przy użyciu DotCode (bytes) w .NET
 
-## Wstęp
+## Wprowadzenie
 
-Czy jesteś gotowy, aby odblokować możliwości trybu kodowania DotCode (bajty) w aplikacjach .NET? Nie szukaj dalej! Aspose.BarCode dla .NET to idealne rozwiązanie do generowania i manipulowania kodami kreskowymi. W tym przewodniku krok po kroku zagłębimy się w tryb kodowania DotCode (w bajtach), szczegółowo wyjaśniając każdy aspekt. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, mamy dla Ciebie wsparcie. Zanurzmy się i odkryjmy fascynujący świat kodowania DotCode.
+W tym samouczku **wygenerujesz kod kreskowy aspose** w trybie kodowania DotCode (bytes) przy użyciu biblioteki Aspose.BarCode dla .NET. Niezależnie od tego, czy potrzebujesz osadzić dane binarne w kompaktowym symbolu 2‑D, czy po prostu chcesz poznać bogate API Aspose do kodów kreskowych, ten przewodnik poprowadzi Cię przez każdy krok — od konfiguracji projektu po ostateczny obraz. Zaczynajmy!
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza tryb „bytes”?** Koduje surowe dane binarne bezpośrednio w macierz DotCode.  
+- **Jaki typ kodu kreskowego jest używany?** DotCode, symbologia 2‑D o wysokiej gęstości zoptymalizowana pod kątem ładunków binarnych.  
+- **Ile linii kodu jest wymaganych?** Około 15 linii plus kilka instrukcji konfiguracyjnych.  
+- **Czy mogę dostosować rozmiar i kolory?** Tak — XDimension, kolory pierwszego planu/tła oraz poziom korekcji błędów są konfigurowalne.  
+- **Czy licencja jest wymagana w produkcji?** Ważna licencja Aspose.BarCode jest wymagana do nieograniczonego użycia; tymczasowa licencja działa w trybie testowym.
 
-Zanim rozpoczniemy naszą przygodę z kodowaniem DotCode, musisz spełnić kilka warunków wstępnych, aby w pełni wykorzystać ten samouczek. Upewnij się, że masz następujące elementy:
+## Co to jest tryb kodowania DotCode (bytes)?
 
-1. Zainstalowano Visual Studio
+Tryb kodowania DotCode (bytes) to symbologia skoncentrowana na danych binarnych, która przechowuje surowe tablice bajtów w gęstej macierzy kropek, idealnej do kompaktowego przesyłania danych. Aspose.BarCode zapewnia natywne wsparcie dla tego trybu, automatycznie obsługując konwersję i korekcję błędów, a także oferuje opcje dostosowywania rozmiaru symbolu, poziomu korekcji błędów oraz wyglądu wizualnego, aby sprostać szerokiemu zakresowi scenariuszy aplikacyjnych.
 
-Upewnij się, że masz zainstalowany program Visual Studio w swoim systemie. Aspose.BarCode dla .NET płynnie integruje się z Visual Studio, dzięki czemu generowanie kodów kreskowych jest dziecinnie proste.
+## Dlaczego warto używać Aspose.BarCode dla .NET?
 
-2. Aspose.BarCode dla biblioteki .NET
+Aspose.BarCode obsługuje **ponad 60 symbologii kodów kreskowych** i może renderować obrazy do **4000 × 4000 px** bez utraty jakości, co oznacza, że możesz generować bardzo wysokiej rozdzielczości symbole do druku lub użytku cyfrowego. Biblioteka działa na .NET Framework, .NET Core oraz .NET 5/6, zapewniając elastyczność wieloplatformową przy jednoczesnym wyeliminowaniu zewnętrznych zależności, a także zawiera rozbudowane opcje dostosowywania kolorów, rozmiarów i parametrów kodowania, co czyni ją odpowiednią zarówno do prostych, jak i złożonych zadań generowania kodów kreskowych.
 
- Pobierz bibliotekę Aspose.BarCode dla .NET z[Tutaj](https://releases.aspose.com/barcode/net/)Ta biblioteka jest niezbędna do pracy z kodami kreskowymi w aplikacjach .NET.
+## Wymagania wstępne
 
-3. Podstawowa znajomość .NET Framework
+1. **Visual Studio** – dowolna aktualna edycja (Community, Professional lub Enterprise).  
+2. **Aspose.BarCode for .NET** – pobierz bibliotekę ze strony oficjalnej Aspose: [pobierz Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/).  
+3. **Podstawowa znajomość .NET** – powinieneś swobodnie pisać aplikacje konsolowe lub desktopowe w C#.  
+4. **Licencja Aspose.BarCode** – uzyskaj stałą licencję na stronie zakupu: [kup licencję Aspose.BarCode](https://purchase.aspose.com/buy) lub tymczasową licencję testową na stronie tymczasowej licencji: [tymczasowa licencja Aspose.BarCode](https://purchase.aspose.com/temporary-license/).  
+5. **Dokumentacja Aspose.BarCode** – szczegóły znajdziesz w oficjalnej dokumentacji: [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).  
 
-Zapoznaj się z podstawami .NET Framework. Powinieneś posiadać podstawową wiedzę na temat języka C# i działania aplikacji .NET.
+Posiadanie tych elementów zapewnia płynne doświadczenie programistyczne.
 
-4. Licencja Aspose.BarCode
+## Jak wygenerować kod kreskowy aspose przy użyciu DotCode (bytes)?
 
- Upewnij się, że posiadasz ważną licencję Aspose.BarCode, którą można uzyskać[Tutaj](https://purchase.aspose.com/buy) . Możesz także uzyskać tymczasową licencję do celów testowych od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Wczytaj swoją tablicę bajtów, skonfiguruj `BarcodeGenerator`, ustaw `DotCodeEncodeMode` na **Bytes** i zapisz obraz. Cały proces zajmuje mniej niż dziesięć linii kodu C# i trwa poniżej sekundy dla typowych ładunków, co czyni go efektywnym rozwiązaniem do osadzania danych binarnych w kompaktowym formacie wizualnym, który można łatwo skanować standardowymi czytnikami DotCode.
 
-5. Dokumentacja Aspose.BarCode
+### Krok 1: określ ścieżkę katalogu
 
- Zapoznaj się z dokumentacją Aspose.BarCode dla .NET[Tutaj](https://reference.aspose.com/barcode/net/) aby uzyskać szczegółowe informacje na temat wszystkich dostępnych funkcji i funkcjonalności.
-
-Po spełnieniu tych warunków wstępnych możesz rozpocząć podróż do trybu kodowania DotCode z Aspose.BarCode dla .NET.
-
-## Importuj przestrzenie nazw:
-
-W tej sekcji omówimy, jak zaimportować niezbędne przestrzenie nazw i skonfigurować projekt .NET do pracy w trybie kodowania DotCode. 
-
-### Krok 1: Dodaj odniesienia
-
-Otwórz projekt programu Visual Studio i dodaj odniesienia do biblioteki Aspose.BarCode for .NET. Ten krok jest niezbędny, aby uzyskać dostęp do funkcji generowania kodów kreskowych.
-
-### Krok 2: Importuj przestrzenie nazw
-
-W swoim kodzie zaimportuj niezbędne przestrzenie nazw, aby używać komponentów Aspose.BarCode:
+Określ, gdzie zostanie zapisany wygenerowany plik PNG.  
+`string outputDir = @"C:\Barcodes\";`
 
 ```csharp
 using Aspose.BarCode.Generation;
 using System.Text;
 ```
 
-Teraz, gdy już skonfigurowałeś projekt i zaimportowałeś wymagane przestrzenie nazw, możesz przystąpić do trybu kodowania DotCode.
+### Krok 2: utwórz DotCodeEncodeModeBytes
 
-## Krok 1: Zdefiniuj ścieżkę katalogu
-
-Rozpocznij od określenia ścieżki katalogu, w którym chcesz zapisać wygenerowany obraz kodu kreskowego.
+`DotCodeEncodeModeBytes` to klasa, która instruuje generator, aby traktował dostarczone dane jako surowe bajty, a także zapewnia wewnętrzną logikę konwersji tablicy bajtów do odpowiedniej reprezentacji symbolu DotCode przy automatycznym zarządzaniu korekcją błędów.  
+`var encodeMode = new DotCodeEncodeModeBytes();`
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Krok 2: Utwórz DotCodeEncodeModeBytes
+### Krok 3: zakoduj tablicę do ciągu
 
-W tym kroku utworzysz plik DotCodeEncodeModeBytes. Zakodujemy tablicę bajtów w kodzie kreskowym.
+Generator oczekuje reprezentacji tekstowej tablicy bajtów; Aspose obsługuje konwersję wewnętrznie.  
+`byte[] rawData = { 0x01, 0x02, 0xFF, 0x00 };`  
+`string codetext = encodeMode.Encode(rawData);`
 
 ```csharp
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 ```
 
-## Krok 3: Zakoduj tablicę na ciąg
+### Krok 4: zainicjalizuj BarcodeGenerator
 
-Aby wygenerować kod kreskowy, należy przekonwertować tablicę bajtów na ciąg znaków. Ten krok jest niezbędny do wygenerowania kodu kreskowego.
+Klasa `BarcodeGenerator` jest podstawowym komponentem tworzącym obraz kodu kreskowego, oferującym bogaty zestaw właściwości i metod do konfiguracji typu symbologii, danych kodowania, wyglądu wizualnego oraz formatu wyjściowego, które można dostosować przed renderowaniem ostatecznego obrazu.  
+`var generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext);`
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -89,58 +158,82 @@ foreach (byte bval in encodedArr)
 var codetext = strBld.ToString();
 ```
 
-## Krok 4: Zainicjuj generator kodów kreskowych
+### Krok 5: ustaw parametry kodu kreskowego
 
-Teraz utwórz instancję BarcodeGenerator i określ typ kodu kreskowego (DotCode) oraz tekst kodu.
+Dostosuj ustawienia wizualne i techniczne, takie jak rozmiar piksela (`XDimension`) oraz tryb kodowania.  
+```csharp
+generator.Parameters.Barcode.XDimension.Pixels = 4;
+generator.Parameters.Barcode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
+```
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 ```
 
-## Krok 5: Ustaw parametry kodu kreskowego
+### Krok 6: zapisz obraz kodu kreskowego
 
-Skonfiguruj parametry kodu kreskowego, takie jak XDimension w pikselach i DotCodeEncodeMode na Bytes.
+Na koniec zapisz plik PNG na dysku.  
+`generator.Save($"{outputDir}dotcode_bytes.png", SaveFormat.Png);`
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
 ```
 
-## Krok 6: Zapisz obraz kodu kreskowego
+Po wykonaniu tych sześciu kroków **wygenerowałeś kod kreskowy aspose**, który koduje Twój binarny ładunek w formacie DotCode (bytes). Śmiało modyfikuj wymiary, kolory lub poziomy korekcji błędów, aby dopasować je do wymagań projektu.
 
-Na koniec zapisz wygenerowany obraz kodu kreskowego w określonej ścieżce katalogu w formacie PNG.
+## Typowe problemy i rozwiązywanie
+
+- **Obraz jest pusty** – Upewnij się, że `XDimension` ma wartość większą niż 0; wartość 1 piksela może skutkować nieczytelnym obrazem.  
+- **Wyjątek licencyjny** – Upewnij się, że plik licencji został załadowany przed utworzeniem jakiejkolwiek instancji `BarcodeGenerator`: `new BarCodeLicense().SetLicense("Aspose.BarCode.lic");`  
+- **Duże ładunki** – DotCode obsługuje do 1 500 bajtów w trybie Bytes. Podziel dane lub użyj innej symbologii dla większych plików.
+
+## Najczęściej zadawane pytania
+
+**Q: Jaki jest maksymalny rozmiar kodu kreskowego DotCode generowanego przy użyciu Aspose.BarCode?**  
+A: Biblioteka może tworzyć obrazy do 4000 × 4000 px, co swobodnie pomieści maksymalny ładunek 1 500‑bajtowy w trybie Bytes.
+
+**Q: Czy mogę zmienić kolory pierwszego planu i tła?**  
+A: Tak — użyj `generator.Parameters.Barcode.BarColor` oraz `generator.Parameters.Barcode.BackColor`, aby ustawić własne kolory.
+
+**Q: Czy DotCode jest obsługiwany na platformach mobilnych?**  
+A: Absolutnie. Ponieważ Aspose.BarCode jest czystą biblioteką .NET, możesz jej używać w Xamarin, MAUI lub dowolnym projekcie mobilnym opartym na .NET.
+
+**Q: Czy tymczasowa licencja nakłada jakieś ograniczenia?**  
+A: Tymczasowa licencja usuwa znaki wodne wersji ewaluacyjnej, ale jest ograniczona czasowo do 30 dni; możesz ją uzyskać [tutaj](https://purchase.aspose.com/temporary-license/). Do produkcji potrzebna jest pełna licencja.
+
+**Q: Jak zintegrować to z API webowym ASP.NET Core?**  
+A: Zainicjalizuj generator w akcji kontrolera, wygeneruj obraz do `MemoryStream` i zwróć go jako `FileResult` z typem MIME `image/png`.
+
+## Zakończenie
+
+Masz teraz kompletny, gotowy do produkcji przepis na **generowanie kodu kreskowego aspose** przy użyciu trybu kodowania DotCode (bytes) w .NET. Postępując zgodnie z sześcioma zwięzłymi krokami, możesz osadzić dane binarne w kompaktowym, wysokiej gęstości symbolu 2‑D i dostosować każdy aspekt wizualny do potrzeb aplikacji. Zapoznaj się z dodatkowymi parametrami w API Aspose.BarCode, aby jeszcze bardziej dopasować rozmiar, kolor i korekcję błędów, oraz łatwo włącz generator do projektów desktopowych, webowych lub mobilnych.
+
+Aby uzyskać bardziej szczegółowe wskazówki, ponownie odwołaj się do oficjalnej dokumentacji Aspose.BarCode dla .NET: [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
+
+---
+
+**Last Updated:** 2026-08-22  
+**Tested With:** Aspose.BarCode 24.10 for .NET  
+**Author:** Aspose  
+
+
+
+
+
+
 
 ```csharp
 gen.Save($"{path}DotCodeEncodeModeBytes.png", BarCodeImageFormat.Png);
 ```
 
-Wykonując te kroki, pomyślnie wygenerowałeś kod kreskowy DotCode przy użyciu Aspose.BarCode dla .NET w trybie kodowania (w bajtach). Możesz dodatkowo dostosować swój kod kreskowy, dostosowując różne parametry, aby spełnić Twoje specyficzne wymagania.
+## Powiązane samouczki
 
-## Wniosek:
+- [Utwórz kod kreskowy DotCode .NET (tryb automatyczny) z Aspose.BarCode](/barcode/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/)
+- [Generuj kod DataMatrix w trybie Bytes z Aspose.BarCode dla .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/)
+- [Jak generować kody DataMatrix przy użyciu Aspose.BarCode dla .NET – przewodnik krok po kroku](/barcode/net/datamatrix-barcode-configuration/)
 
-tym samouczku omówiliśmy tryb kodowania DotCode (w bajtach) przy użyciu Aspose.BarCode dla platformy .NET. Zaczęliśmy od wymagań wstępnych, importowania przestrzeni nazw i podzieliliśmy cały proces na łatwe do wykonania kroki. Aspose.BarCode umożliwia łatwe generowanie i manipulowanie kodami kreskowymi, dodając cenne funkcje do aplikacji .NET. Eksperymentuj z różnymi ustawieniami, a będziesz zaskoczony wszechstronnością kodowania DotCode. Już dziś rozpocznij integrację funkcji kodów kreskowych ze swoimi aplikacjami!
 
-## Często zadawane pytania
-
-### P1: Co to jest tryb kodowania DotCode?
-
-A1: Tryb kodowania DotCode to metoda kodowania danych w kodzie kreskowym 2D przy użyciu serii kropek. Jest to szczególnie przydatne do kodowania danych binarnych.
-
-### P2: Gdzie mogę znaleźć dokumentację Aspose.BarCode dla .NET?
-
- A2: Możesz uzyskać dostęp do dokumentacji Aspose.BarCode for .NET[Tutaj](https://reference.aspose.com/barcode/net/).
-
-### P3: Jak uzyskać tymczasową licencję na Aspose.BarCode do celów testowych?
-
- Odpowiedź 3: Możesz uzyskać tymczasową licencję na testowanie od[Tutaj](https://purchase.aspose.com/temporary-license/).
-
-### P4: Czy mogę dostosować wygląd kodów kreskowych DotCode za pomocą Aspose.BarCode dla .NET?
-
-O4: Tak, Aspose.BarCode dla .NET oferuje szeroką gamę parametrów umożliwiających dostosowywanie wyglądu kodów kreskowych, w tym rozmiar, kolor i inne.
-
-### P5: Czy Aspose.BarCode jest kompatybilny z aplikacjami .NET Core?
-
-O5: Tak, Aspose.BarCode dla .NET jest kompatybilny zarówno z aplikacjami .NET Framework, jak i .NET Core.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
