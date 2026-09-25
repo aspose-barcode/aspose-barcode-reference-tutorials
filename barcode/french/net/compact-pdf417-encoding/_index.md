@@ -68,7 +68,7 @@ Si vous recherchez un guide clair, étape par étape sur **comment générer un 
 - **Qu'est-ce que le Compact PDF417 ?** Un code‑barres bidimensionnel qui stocke de grandes quantités de données dans une zone compacte.  
 - **Pourquoi choisir Aspose.BarCode pour .NET ?** API complète, prise en charge solide de la correction d’erreurs et intégration facile.  
 - **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour le développement ; une licence est requise pour la production.  
-- **Plateformes prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Plateformes prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
 - **Temps d’implémentation typique ?** Environ 10‑15 minutes pour un code‑barres de base.
 
 ## Qu'est-ce que l'encodage Compact PDF417 ?
@@ -148,6 +148,12 @@ La haute densité de données et la correction d’erreurs robuste du Compact PD
 
 ### [Créer des codes‑barres Compact PDF417](./compact-pdf417-basic-configuration/)
 Apprenez à générer des codes‑barres Compact PDF417 en utilisant Aspose.BarCode pour .NET. Guide complet avec des instructions étape par étape et des exemples de code.
+
+### [Comment créer un code‑barres micro PDF417 en C# – guide étape par étape](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [Comment utiliser un générateur de code‑barres C# pour Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+
+### [Comment lire les codes‑barres PDF417 en C# – guide complet](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
 ### [Créer des métadonnées de code-barres PDF417 en C# – Guide complet étape par étape](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Apprenez à ajouter et gérer des métadonnées dans les codes-barres PDF417 avec C#, grâce à un guide complet pas à pas.
@@ -279,14 +285,6 @@ Apprenez à créer un code-barres PDF417 compact en C# avec Aspose.BarCode, incl
 Apprenez à créer un code-barres Macro PDF417 en C# avec Aspose.BarCode, incluant un exemple complet et toutes les options de configuration.
 
 ## Questions fréquentes
-### [Comment créer un code‑barres micro PDF417 en C# – guide étape par étape](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
-
-### [Comment utiliser un générateur de code‑barres C# pour Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
-
-### [Comment lire les codes‑barres PDF417 en C# – guide complet](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
-
-
-## Foire aux questions
 
 **Q : Quelle est la quantité maximale de données que je peux stocker dans un code‑barres Compact PDF417 ?**  
 A: Jusqu’à environ 2 KB de texte ou de données binaires, selon le niveau de correction d’erreurs que vous choisissez.
