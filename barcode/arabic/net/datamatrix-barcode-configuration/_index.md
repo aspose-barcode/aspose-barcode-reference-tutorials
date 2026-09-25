@@ -56,8 +56,8 @@ url: /ar/net/datamatrix-barcode-configuration/
 weight: 30
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء باركود DataMatrix – دليل محترف مع Aspose.BarCode
@@ -199,7 +199,10 @@ ECC 200 هو الوضع الأكثر انتشارًا لباركود DataMatri
 - [إتقان ترميز DataMatrix في ASCII باستخدام Aspose.BarCode لـ .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/)
 - [إنشاء PNG للباركود – نسبة أبعاد DataMatrix – Aspose.BarCode](/barcode/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/)
 
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -59,6 +59,13 @@ GS1 DataMatrix 바코드는 제품 식별 및 추적성에 있어 중요한 부�
 .NET용 Aspose.BarCode를 사용하여 GS1 쿠폰 UPC-A 데이터바 구성을 알아보세요. 바코드를 쉽게 생성하세요. 지금 시작하세요!
 ### [GS1 DataMatrix 예](./gs1-datamatrix-example/)
 Aspose.BarCode를 사용하여 .NET에서 GS1 DataMatrix 바코드를 생성하는 방법을 알아보세요. 단 몇 단계만 거치면 쉽고 효율적으로 바코드를 생성할 수 있습니다.
+### [C#에서 바코드 PNG 생성 – GS1 마이크로 PDF417 전체 가이드](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+.NET용 Aspose.BarCode를 사용하여 C#에서 GS1 마이크로 PDF417 바코드 PNG를 생성하는 방법을 단계별로 안내합니다.
+
+### [C#에서 GS1 바코드 생성 – 완전한 단계별 가이드](./create-gs1-barcode-in-c-complete-step-by-step-guide/)
+.NET용 Aspose.BarCode를 사용해 C#에서 GS1 바코드를 만드는 방법을 단계별로 안내합니다. 지금 바로 시작하세요!
+### [C#에서 GS1 바코드 이미지 생성 – 바코드 C# 빠르게 생성하는 방법](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
+.NET용 Aspose.BarCode를 사용해 C#에서 GS1 바코드 이미지를 빠르게 생성하는 방법을 단계별로 안내합니다. 지금 시작하세요!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

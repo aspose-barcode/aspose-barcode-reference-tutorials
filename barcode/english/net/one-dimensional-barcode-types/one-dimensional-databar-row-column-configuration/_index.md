@@ -157,12 +157,6 @@ Explore the extensive documentation [Aspose.BarCode .NET API reference](https://
 **Tested With:** Aspose.BarCode 24.12 for .NET  
 **Author:** Aspose  
 
-
-
-
-
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

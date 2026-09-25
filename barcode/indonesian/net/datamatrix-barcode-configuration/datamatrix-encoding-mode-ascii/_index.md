@@ -56,8 +56,8 @@ url: /id/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/
 weight: 13
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat kode batang DataMatrix dalam mode ASCII dengan Aspose.BarCode untuk .NET
@@ -197,10 +197,6 @@ A5: Anda dapat membeli lisensi dari situs web Aspose [here](https://purchase.asp
 - [Cara Menghasilkan Kode Batang DataMatrix (ECC 200) dengan Aspose.BarCode untuk .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
 
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ```csharp
 using Aspose.BarCode.Generation;
 ```
@@ -225,5 +221,9 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspo
 }
 ```
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

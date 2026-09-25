@@ -129,12 +129,6 @@ Feel free to experiment with different heights, combine them with other barcode 
 **Tested With:** Aspose.BarCode 24.11 for .NET  
 **Author:** Aspose  
 
-
-
-
-
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -139,12 +139,6 @@ A: Increase the `XDimension` value and ensure sufficient contrast between the ba
 **Tested With:** Aspose.BarCode 24.12 for .NET  
 **Author:** Aspose  
 
-
-
-
-
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

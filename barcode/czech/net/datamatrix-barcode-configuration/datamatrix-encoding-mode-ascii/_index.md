@@ -55,8 +55,8 @@ url: /cs/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/
 weight: 13
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytvořte DataMatrix čárový kód v ASCII režimu pomocí Aspose.BarCode pro .NET
@@ -195,11 +195,6 @@ A5: Licenci můžete zakoupit na webu Aspose [zde](https://purchase.aspose.com/b
 - [Čtení DataMatrix čárového kódu C# – Generování DataMatrix režimu (Auto)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
 - [Jak generovat DataMatrix čárové kódy (ECC 200) s Aspose.BarCode pro .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
 
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ```csharp
 using Aspose.BarCode.Generation;
 ```
@@ -224,5 +219,9 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspo
 }
 ```
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

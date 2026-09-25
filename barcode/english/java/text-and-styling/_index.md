@@ -176,11 +176,11 @@ Generate barcodes effortlessly in Java with Aspose.BarCode. Follow our step‑by
 
 ## Related Tutorials
 
-[Create data matrix barcode and set code text location in Java]({{< relref "/barcode/java/text-and-styling/setting-code-text-location/" >}})
+[Create data matrix barcode and set code text location in Java]({{< relref "setting-code-text-location" >}})
 
-[How to Set Barcode Text Color in Java with Aspose.BarCode]({{< relref "/barcode/java/text-and-styling/setting-code-text-foreground-color/" >}})
+[How to Set Barcode Text Color in Java with Aspose.BarCode]({{< relref "setting-code-text-foreground-color" >}})
 
-[How to Add Caption to Barcode in Java Using Aspose.BarCode]({{< relref "/barcode/java/text-and-styling/adding-caption-barcode/" >}})
+[How to Add Caption to Barcode in Java Using Aspose.BarCode]({{< relref "adding-caption-barcode" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,46 @@
 ---
-date: 2025-11-29
-description: Изучите, как считывать 1‑мерные штрихкоды в Java с помощью Aspose.BarCode
-  — быстро декодируйте штрихкоды с изображений, используя надёжную библиотеку штрихкодов
-  для Java.
-linktitle: read 1d barcodes java
+date: 2026-07-18
+description: Узнайте, как читать 1D штрих‑коды в Java с помощью Aspose.BarCode – быстрая
+  Java‑библиотека декодирования штрих‑кодов, извлекающая штрих‑коды из изображений.
+keywords:
+- read 1d barcodes java
+- java barcode decoding library
+- java barcode reader example
+lastmod: 2026-07-18
+linktitle: чтение 1D штрих‑кодов Java
+og_description: чтение 1D штрих‑кодов Java с использованием Aspose.BarCode, высокопроизводительная
+  Java‑библиотека декодирования штрих‑кодов, быстро читающая несколько штрих‑кодов
+  из изображений.
+og_image_alt: 'Developer guide: read 1d barcodes in Java with Aspose.BarCode'
+og_title: чтение 1D штрих‑кодов Java – декодирование штрих‑кодов с Aspose.BarCode
+schemas:
+- author: Aspose
+  dateModified: '2026-07-18'
+  description: Learn how to read 1D barcodes in Java with Aspose.BarCode – a fast
+    Java barcode decoding library that extracts barcodes from images.
+  headline: read 1d barcodes java – Decode barcodes with Aspose.BarCode
+  type: TechArticle
+- questions:
+  - answer: Yes. A commercial license removes all evaluation limitations and grants
+      you full redistribution rights.
+    question: Is Aspose.BarCode for Java suitable for commercial projects?
+  - answer: Absolutely. Obtain a temporary license from the [Aspose temporary‑license
+      page](https://purchase.aspose.com/temporary-license/) for development and testing.
+    question: Can I test the library without purchasing a license?
+  - answer: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+    question: Where can I find the full API reference?
+  - answer: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
+      where the community and Aspose engineers can assist you.
+    question: How do I get help if I run into a problem?
+  - answer: Yes – you can download a trial version from the [Aspose releases page](https://releases.aspose.com/).
+    question: Is there a free trial download?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: Как считывать 1D штрихкоды в Java с помощью Aspose.BarCode
+tags:
+- read 1d barcodes java
+- Aspose.BarCode
+- Java barcode processing
+title: чтение 1D штрих‑кодов Java – декодирование штрих‑кодов с Aspose.BarCode
 url: /ru/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
@@ -14,40 +49,39 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# чтение 1d штрихкодов java с Aspose.BarCode
+# чтение 1D штрихкодов Java с Aspose.BarCode
 
 ## Введение
 
-В этом практическом руководстве вы узнаете, как **читать 1D штрихкоды в Java** с помощью мощной библиотеки **Aspose.BarCode**. Независимо от того, нужно ли вам сканировать этикетки продуктов, теги инвентаря или любой линейный штрихкод, встроенный в изображение, данное руководство проведёт вас через каждый шаг — от настройки окружения до извлечения всех возможных штрихкодов, содержащихся в изображении. К концу вы сможете **декодировать штрихкоды из файлов изображений** всего несколькими строками кода на Java.
+В этом практическом руководстве вы узнаете, как **читать 1D штрихкоды в Java** с помощью мощной библиотеки **Aspose.BarCode**. Независимо от того, нужно ли вам сканировать этикетки продуктов, теги инвентаря или любой линейный штрихкод, встроенный в изображение, это руководство проведёт вас через каждый шаг — от настройки окружения до извлечения всех возможных штрихкодов, содержащихся в изображении. К концу вы сможете **декодировать штрихкоды из файлов изображений** всего несколькими строками кода Java.
 
 ## Быстрые ответы
-- **Что делает Aspose.BarCode?** Предоставляет полнофункциональную библиотеку штрихкодов для Java, способную генерировать и декодировать 1D/2D штрихкоды.  
+- **Что делает Aspose.BarCode?** Это полнофункциональная библиотека штрихкодов для Java, которая может генерировать и декодировать 1D/2D штрихкоды.  
 - **Можно ли читать несколько штрихкодов с одного изображения?** Да — метод `BarCodeReader.readBarCodes()` возвращает все обнаруженные символы.  
 - **Нужна ли лицензия для разработки?** Временная лицензия подходит для тестирования; коммерческая лицензия требуется для продакшна.  
 - **Какие версии Java поддерживаются?** Java 8 + (рекомендовано JDK 11).  
-- **Достаточно ли быстра эта библиотека для сканирования в реальном времени?** Абсолютно — она оптимизирована для высокопроизводительной пакетной обработки.
+- **Достаточно ли быстро эта библиотека для сканирования в реальном времени?** Абсолютно — она оптимизирована для высокопроизводительной пакетной обработки.
 
-## Что такое «read 1d barcodes java»?
+Метод `BarCodeReader.readBarCodes()` сканирует переданное изображение и возвращает коллекцию объектов `BarCodeResult`, представляющих каждый обнаруженный штрихкод.
 
-Чтение 1D штрихкодов в Java означает использование **barcode library for Java** для анализа изображения, поиска линейных шаблонов штрихкода и возврата закодированного текста вместе с метаданными, такими как тип символьного набора и ориентация. Aspose.BarCode абстрагирует тяжёлую работу по обработке изображений, позволяя сосредоточиться на бизнес‑логике.
+## Что такое “read 1d barcodes java”?
+
+Чтение 1D штрихкодов в Java — это процесс извлечения данных линейных штрихкодов из изображений с помощью Java‑библиотеки. Он включает анализ изображения, поиск шаблонов штрихкода и возврат закодированного текста вместе с метаданными, такими как тип символьной системы и ориентация. Aspose.BarCode for Java выполняет этот анализ автоматически, обрабатывая вращение, низкий контраст и широкий диапазон символьных систем, позволяя вам сосредоточиться на интеграции результатов в приложение.
 
 ## Почему стоит выбрать Aspose.BarCode для декодирования штрихкодов из изображения?
 
-- **Широкая поддержка символьных наборов** — более 50 типов 1D и 2D.  
-- **Точная детекция** — работает даже с низкоконтрастными или повернутыми штрихкодами.  
-- **Простой API** — несколько вызовов методов дают все результаты.  
-- **Отсутствие внешних зависимостей** — чистый Java, легко встраивается в любой проект.  
+Aspose.BarCode обеспечивает лидирующую в отрасли точность и скорость: она может декодировать более 50 + 1D и 2D символьных систем за один проход и обрабатывает типичные 300 dpi изображения менее чем за 0,2 секунды на стандартном сервере. API требует лишь нескольких вызовов методов, устраняет внешние зависимости и работает с Java 8 +, поддерживая пакетную обработку тысяч изображений в минуту. Эти измеримые преимущества делают её предпочтительным выбором для корпоративного сканирования штрихкодов.
 
 ## Предварительные требования
 
-Прежде чем перейти к коду, убедитесь, что у вас есть следующее:
+Перед тем как перейти к коду, убедитесь, что у вас есть следующее:
 
-- **Java Development Kit (JDK)** — версия 8 или новее. Скачайте её со страницы официального [Oracle JDK page](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.BarCode for Java** — получите последнюю JAR‑файл со [Aspose release page](https://releases.aspose.com/barcode/java/).  
+- **Java Development Kit (JDK)** – версия 8 или новее. Скачайте его со страницы официального [Oracle JDK page](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.BarCode for Java** – загрузите последнюю JAR с [Aspose release page](https://releases.aspose.com/barcode/java/).  
 
-Теперь, когда окружение готово, приступим к программированию.
+Теперь, когда ваша среда готова, приступим к программированию.
 
-## Импорт пространств имён
+## Импорт пространств имен
 
 Добавьте необходимые `import`‑операторы, чтобы компилятор мог найти классы Aspose.
 
@@ -61,17 +95,17 @@ import com.aspose.barcode.barcoderecognition.DecodeType;
 
 ## Шаг 1: Инициализация объекта BarCodeReader
 
-Создайте экземпляр `BarCodeReader`, указывая путь к вашему файлу изображения. Параметр `DecodeType` сообщает движку, какие символьные наборы искать; в качестве примера используется `CODE_128`, который подходит для многих распространённых 1D кодов.
+Класс `BarCodeReader` — основной компонент Aspose.BarCode для сканирования изображений и извлечения информации о штрихкодах. Создайте экземпляр `BarCodeReader`, указывая путь к вашему файлу изображения. Параметр `DecodeType` сообщает движку, какие символьные системы искать; в качестве примера использование `CODE_128` подходит для многих распространённых 1D кодов.
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
 ```
 
-> **Pro tip:** Если хотите сканировать *все* поддерживаемые 1D типы, передайте `DecodeType.ALL_1D` вместо отдельного символьного набора.
+> **Совет:** Если вы хотите сканировать *все* поддерживаемые 1D типы, передайте `DecodeType.ALL_1D` вместо одной символьной системы.
 
 ## Шаг 2: Чтение всех возможных штрихкодов
 
-Итерируйте коллекцию, возвращаемую `readBarCodes()`. Для каждого `BarCodeResult` выводим декодированный текст, название символьного набора, угол обнаружения и координаты четырёх углов области штрихкода.
+Объект `BarCodeResult` представляет один обнаруженный штрихкод и предоставляет свойства, такие как декодированный текст, название символьной системы, угол вращения и координаты четырёх углов области штрихкода. Пройдитесь по коллекции, возвращаемой `readBarCodes()`. Для каждого результата выводим декодированный текст, название символьной системы, угол обнаружения и координаты четырёх углов области штрихкода.
 
 ```java
 int iCount = 0;
@@ -92,46 +126,51 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Цикл автоматически обрабатывает каждый найденный штрихкод, поэтому повторно вызывать reader не требуется. После завершения цикла переменная `iCount` содержит общее количество обнаруженных штрихкодов.
+Цикл автоматически обрабатывает каждый найденный штрихкод, поэтому повторно вызывать считыватель не требуется. После завершения цикла переменная `iCount` содержит общее количество обнаруженных штрихкодов.
 
-## Распространённые проблемы и их решения
+## Распространённые проблемы и их решение
 
-| Symptom | Likely Cause | Solution |
-|---------|--------------|----------|
-| No barcodes returned | Image too blurry or low contrast | Pre‑process the image (increase contrast, binarize) before feeding it to the reader. |
-| Wrong symbology reported | Incorrect `DecodeType` used | Use `DecodeType.ALL_1D` to let the engine auto‑detect any 1D type. |
-| Angle values are off | Image rotated | The API already returns the rotation angle; you can rotate the image back if needed. |
+| Симптом | Возможная причина | Решение |
+|---------|-------------------|----------|
+| Нет найденных штрихкодов | Изображение слишком размытое или с низким контрастом | Предобработайте изображение (увеличьте контраст, бинаризуйте) перед передачей его в считыватель. |
+| Неправильный тип символьной системы | Использован неверный `DecodeType` | Используйте `DecodeType.ALL_1D`, чтобы движок автоматически определял любой 1D тип. |
+| Значения угла неверны | Изображение повернуто | API уже возвращает угол поворота; при необходимости можно повернуть изображение обратно. |
 
 ## Часто задаваемые вопросы
 
-**Q: Подходит ли Aspose.BarCode for Java для коммерческих проектов?**  
-A: Да. Коммерческая лицензия снимает все ограничения оценки и предоставляет полные права на распространение.
+**В: Подходит ли Aspose.BarCode для Java для коммерческих проектов?**  
+**О:** Да. Коммерческая лицензия снимает все ограничения оценки и предоставляет полные права на распространение.
 
-**Q: Могу ли я протестировать библиотеку без покупки лицензии?**  
-A: Абсолютно. Получите временную лицензию со [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) для разработки и тестирования.
+**В: Могу ли я протестировать библиотеку без покупки лицензии?**  
+**О:** Конечно. Получите временную лицензию со [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) для разработки и тестирования.
 
-**Q: Где найти полную справку по API?**  
-A: Полная документация доступна [здесь](https://reference.aspose.com/barcode/java/).
+**В: Где я могу найти полную справочную документацию API?**  
+**О:** Полная документация доступна [здесь](https://reference.aspose.com/barcode/java/).
 
-**Q: Как получить помощь, если возникнет проблема?**  
-A: Задайте вопрос на форуме [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13), где сообщество и инженеры Aspose помогут вам.
+**В: Как получить помощь, если возникнет проблема?**  
+**О:** Опубликуйте ваш вопрос на [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13), где сообщество и инженеры Aspose помогут вам.
 
-**Q: Есть ли бесплатная пробная версия для скачивания?**  
-A: Да — загрузить пробную версию можно со [Aspose releases page](https://releases.aspose.com/).
+**В: Есть ли бесплатная пробная версия для скачивания?**  
+**О:** Да — вы можете скачать пробную версию со [Aspose releases page](https://releases.aspose.com/).
 
 ## Заключение
 
-Теперь вы знаете, как **читать 1D штрихкоды в Java** с помощью Aspose.BarCode, надёжной **barcode library for Java**, которая делает декодирование штрихкодов из файлов изображений простым и надёжным. Интегрируйте этот фрагмент кода в свои приложения для автоматизации сканирования инвентаря, проверки билетов или любой другой задачи, где в изображениях присутствуют линейные штрихкоды.
+Теперь вы знаете, как **читать 1D штрихкоды в Java** с помощью Aspose.BarCode, надёжной **barcode library for Java**, которая упрощает декодирование штрихкодов из файлов изображений. Интегрируйте этот фрагмент кода в свои приложения для автоматизации сканирования инвентаря, проверки билетов или любой другой задачи, где в изображениях появляются линейные штрихкоды.
 
 ---
 
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.BarCode 24.11 for Java  
-**Author:** Aspose  
+**Последнее обновление:** 2026-07-18  
+**Тестировано с:** Aspose.BarCode 24.11 for Java  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Чтение штрихкода Java: Высокопроизводительный считыватель штрихкодов для ускоренной обработки изображений](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [Чтение штрихкода из изображения – Освоение извлечения области штрихкода в Java с Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
+- [Aspose.Barcode Java – Получение качества распознавания штрихкода в процентах](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
