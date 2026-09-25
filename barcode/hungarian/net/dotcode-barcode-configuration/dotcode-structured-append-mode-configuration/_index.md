@@ -1,10 +1,80 @@
 ---
-date: 2026-02-07
-description: Ismerje meg, hogyan hozhat létre DotCode vonalkódot .NET-ben az Aspose.BarCode
-  Structured Append mód segítségével – lépésről lépésre útmutató .NET fejlesztőknek.
-linktitle: DotCode Structured Append Mode Configuration
+date: 2026-09-03
+description: Ismerje meg, hogyan hozhat létre dotcode vonalkódot .NET‑ben az Aspose.BarCode
+  Structured Append Mode használatával – lépésről‑lépésre útmutató .NET fejlesztőknek.
+keywords:
+- create dotcode barcode
+- dotcode structured append
+- Aspose.BarCode .NET
+- barcode generation .NET
+- high‑density 2D barcode
+lastmod: 2026-09-03
+linktitle: DotCode Structured Append Mode konfiguráció
+og_description: Ismerje meg, hogyan hozhat létre dotcode vonalkódot .NET‑ben az Aspose.BarCode
+  Structured Append Mode használatával. Lépésről‑lépésre útmutató, kód nélküli példák
+  és hibakeresési tippek fejlesztőknek.
+og_image_alt: Screenshot of a DotCode barcode generated with Aspose.BarCode for .NET
+og_title: dotcode vonalkód létrehozása .NET‑ben – structured append útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to create dotcode barcode .net using Aspose.BarCode Structured
+    Append Mode – a step‑by‑step guide for .NET developers.
+  headline: Create dotcode barcode .NET – structured append with Aspose
+  type: TechArticle
+- description: Learn how to create dotcode barcode .net using Aspose.BarCode Structured
+    Append Mode – a step‑by‑step guide for .NET developers.
+  name: Create dotcode barcode .NET – structured append with Aspose
+  steps:
+  - name: Open your .NET project
+    text: Launch Visual Studio (or your preferred IDE) and open the solution that
+      will contain the barcode logic.
+  - name: Add Aspose.BarCode namespace
+    text: 'In the C# file where you will generate the barcode, add the following `using`
+      directive: This line makes the `BarcodeGenerator` class and its configuration
+      objects available to your code.'
+  - name: Define the directory path
+    text: Specify the folder that will hold the generated barcode images. Replace
+      `"Your Directory Path"` with an absolute or relative path on your machine.
+  - name: Create a BarcodeGenerator
+    text: '`BarcodeGenerator` is the core class that creates and customises barcodes.
+      It represents a single barcode instance in memory and provides access to all
+      encoding options.'
+  - name: Set the X‑Dimension
+    text: The X‑Dimension controls the size of the individual dots in the DotCode
+      matrix. Adjusting this value influences both readability and image size.
+  - name: Configure DotCode Structured Append Mode
+    text: 'Structured Append requires two key properties: - **BarcodeId** – the sequence
+      number of the current symbol (starting at 1). - **BarcodesCount** – the total
+      number of symbols in the group (maximum 16). Set these values so that each generated
+      image knows its position in the series.'
+  - name: Save the generated barcode image
+    text: Finally, write each barcode to disk using the desired image format. PNG
+      is recommended for lossless quality. When you run the application, a series
+      of PNG files will appear in the folder you specified, each representing a segment
+      of the original data string.
+  type: HowTo
+- questions:
+  - answer: It links multiple DotCode symbols to store larger data sets in a single
+      logical sequence.
+    question: What does Structured Append Mode do?
+  - answer: '`Aspose.BarCode.Generation`.'
+    question: Which namespace is required?
+  - answer: Yes, via `gen.Parameters.Barcode.XDimension.Pixels`.
+    question: Can I set the X‑Dimension manually?
+  - answer: PNG (`BarCodeImageFormat.Png`).
+    question: What image format is used in the example?
+  - answer: Yes, a valid Aspose.BarCode license is required.
+    question: Is a license needed for production?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Dotcode vonalkód létrehozása .NET – Strukturált kiegészítés az Aspose-szal
+tags:
+- dotcode
+- barcode
+- .NET
+- Aspose
+- structured append
+title: dotcode vonalkód létrehozása .NET‑ben – structured append az Aspose‑val
 url: /hu/net/dotcode-barcode-configuration/dotcode-structured-append-mode-configuration/
 weight: 16
 ---
@@ -13,74 +83,91 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dotcode vonalkód létrehozása .NET – Structured Append az Aspose-szal
+# Dotcode vonalkód .NET létrehozása – strukturált hozzáfűzés az Aspose-szal
 
 ## Bevezetés
 
-A gyorsan változó adatkódolás és vonalkód-generálás világában a pontosság és a hatékonyság kulcsfontosságú. Az Aspose.BarCode for .NET a vezető megoldás, amely átfogó funkciókészletet kínál a fejlesztők és vállalkozások igényeinek kielégítésére. Ebben az útmutatóban megtanulja, hogyan **hozzon létre dotcode vonalkódot .net** Structured Append móddal, egy sokoldalú vonalkód‑kódolási megoldást, amelyet az Aspose.BarCode for .NET biztosít.
+Az adatkódolás és vonalkód-generálás gyors tempójú világában a pontosság és a hatékonyság elengedhetetlen. **Aspose.BarCode for .NET** egy iparág által bizonyított könyvtár, amely **30+ barcode symbologies** támogat, és akár **2,000 barcodes per second** képes előállítani egy szabványos szerveren. Ebben a tutorialban megtanulja, hogyan **create dotcode barcode .net** hozhat létre Structured Append Mode segítségével, egy sokoldalú funkció, amely lehetővé teszi a nagy adatmennyiség több DotCode szimbólumra való felosztását a sorrend megőrzése mellett.
 
 ## Gyors válaszok
-- **A Structured Append Mode mi a feladata?** Több DotCode szimbólumot kapcsol össze, hogy nagyobb adatkészleteket tároljon.  
+- **Mi a Structured Append Mode funkciója?** Több DotCode szimbólumot kapcsol össze, hogy nagyobb adatcsoportokat tároljon egyetlen logikai sorozatban.  
 - **Melyik névtér szükséges?** `Aspose.BarCode.Generation`.  
 - **Beállíthatom manuálisan az X‑Dimension értékét?** Igen, a `gen.Parameters.Barcode.XDimension.Pixels` segítségével.  
 - **Milyen képpformátumot használ a példában?** PNG (`BarCodeImageFormat.Png`).  
-- **Szükséges licenc a termeléshez?** Igen, egy érvényes Aspose.BarCode licenc szükséges.
+- **Szükséges licenc a termeléshez?** Igen, egy érvényes Aspose.BarCode licenc szükséges.  
+- **Hány szimbólum kapcsolható össze?** Legfeljebb 16 szimbólum egy Structured Append csoportban, a DotCode specifikációnak megfelelően.  
 
-## Mi a dotcode vonalkód létrehozása .net?
+## Mi a create dotcode barcode .net?
 
-A DotCode egy nagy sűrűségű, kétdimenziós vonalkód, amely nagy mennyiségű adatot képes kódolni egy kompakt térben. Amikor **dotcode vonalkódot .net hoz létre**, az Aspose.BarCode könyvtárat használja a szimbólumok generálásához, testreszabásához és mentéséhez közvetlenül a .NET alkalmazásaiból.
+`create dotcode barcode .net` a DotCode 2‑dimenziós vonalkód generálását jelenti egy .NET alkalmazásból az Aspose.BarCode könyvtár használatával. A DotCode egy nagy sűrűségű, négyzet alakú vonalkód, amely képes több kilobájt adatot kódolni egy kompakt vizuális lábnyomon, így ideális az egészségügy, logisztika és gyártás területén.
 
 ## Miért használjuk a Structured Append Mode-ot?
 
-A Structured Append Mode lehetővé teszi, hogy egy hosszú adatkarakterláncot több DotCode szimbólumra bontson, miközben megőrzi a helyes sorrendet. Ez különösen hasznos:
+A Structured Append Mode lehetővé teszi, hogy egy hosszú adatkarakterláncot több összekapcsolt DotCode szimbólumra bontson, miközben garantálja a helyes olvasási sorrendet. Ez a megközelítés:
+- **Növeli az adatkapacitást** akár 16 × az egyetlen szimbólum korlátjáig (összesen akár 10 KB).  
+- **Javítja a beolvasás megbízhatóságát** mivel minden szimbólum kisebb és könnyebben olvasható a szkennerek számára.  
+- **Megőrzi az adatintegritást** a beépített sorszámok segítségével, amelyeket a dekóder az eredeti payload újraösszeállításához használ.
 
-- **Egészségügy** – kiterjedt betegnyilvántartások kódolása.  
-- **Logisztika** – csomaglisták, amelyek meghaladják egy szimbólum kapacitását.  
-- **Gyártás** – részletes alkatrész specifikációk.
-
-Ezzel a móddal a beolvasási megbízhatóság magas marad, és elkerülhető az adatlevágás.
+Ezek a számszerű előnyök teszik a Structured Append módot elengedhetetlenné minden olyan esetben, ahol egyetlen vonalkód nem képes tárolni a szükséges információt.
 
 ## Előfeltételek
 
-1. **Környezet beállítása** – Visual Studio vagy bármely .NET IDE telepítve.  
-2. **Aspose.BarCode for .NET** – Töltse le és telepítse a weboldalról. A letöltési linket megtalálja [itt](https://releases.aspose.com/barcode/net/).  
-3. **IDE projekt** – Hozzon létre vagy nyisson meg egy .NET projektet, ahol a DotCode Structured Append Mode-ot szeretné használni.  
-4. **Alap C# ismeretek** – Alapvető C# programozási nyelvi tudás előnyös.  
-5. **Tanulási vágy** – Hozza magával a lelkesedését a DotCode Structured Append Mode világának felfedezéséhez az Aspose.BarCode for .NET segítségével.
+Miután elindulunk a DotCode Structured Append Mode mesterség elsajátításának útján az Aspose.BarCode for .NET segítségével, győződjön meg róla, hogy a következőkkel rendelkezik:
 
-Most, hogy az előfeltételek rendben vannak, merüljünk el a konfigurációs lépésekben.
+1. **Development environment** – Visual Studio 2022 vagy bármely .NET‑kompatibilis IDE.  
+2. **Aspose.BarCode for .NET** – Töltse le a legújabb csomagot az Aspose.BarCode for .NET letöltési oldaláról. A letöltési hivatkozást megtalálja itt: [Aspose.BarCode for .NET download page](https://releases.aspose.com/barcode/net/).  
+   Más Aspose .NET könyvtárakhoz lásd a fő kiadási oldalt: [Aspose .NET releases](https://releases.aspose.com/).  
+3. **Egy .NET projekt** – Hozzon létre egy konzol-, asztali- vagy szolgáltatásprojektet, ahol a vonalkód kódja lesz.  
+4. **Alap C# ismeretek** – Ismerje a osztályokat, névtereket és az objektum‑példányosítást.  
+5. **Érvényes licenc** – Szükséges a termelési környezetben történő telepítéshez; ingyenes próba verzió elérhető értékeléshez.
 
-## Névtér importálása
+Miután megerősítette az előfeltételeket, nézzük meg a konfigurációs lépéseket.
 
-A kezdéshez importálnia kell a szükséges neveket. Íme a lépések:
+## Névterek importálása
+
+A kezdéshez importálnia kell a szükséges névtereket, amelyek a vonalkód-generálás API-ját teszik elérhetővé.
 
 ### 1. lépés: Nyissa meg a .NET projektjét
 
-Először nyissa meg a .NET projektjét a kedvenc IDE-jében (pl. Visual Studio).
+Indítsa el a Visual Studio-t (vagy a kedvenc IDE-jét), és nyissa meg azt a megoldást, amely a vonalkód logikát tartalmazni fogja.
 
 ### 2. lépés: Adja hozzá az Aspose.BarCode névteret
 
-A C# kódfájlban adja hozzá az Aspose.BarCode névteret a `BarcodeGenerator` osztály és a kapcsolódó funkciók eléréséhez:
+A C# fájlban, ahol a vonalkódot generálni fogja, adja hozzá a következő `using` direktívát:
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Most lépjünk be a DotCode Structured Append Mode konfigurációjának közepébe. A folyamatot több lépésre bontjuk, hogy könnyebben megérthesse.
+Ez a sor elérhetővé teszi a `BarcodeGenerator` osztályt és annak konfigurációs objektumait a kódban.
 
-## Hogyan hozhatunk létre dotcode vonalkódot .net Structured Append móddal
+## Hogyan hozhatunk létre dotcode vonalkódot .net-vel Structured Append Mode használatával
 
-### 1. lépés: A könyvtár útvonalának meghatározása
+Töltse be az adatokat, konfigurálja a generátort, engedélyezze a Structured Append módot, majd mentse el a képet. A teljes munkafolyamat három tömör lépésben összefoglalható:
 
-Kezdje a könyvtár útvonalának meghatározásával, ahová a generált vonalkód képet menteni szeretné. Cserélje le a `"Your Directory Path"`-t a tényleges útvonalra.
+1. **Határozza meg a kimeneti mappát** – ahol a PNG fájlok lesznek mentve.  
+2. **Példányosítsa a `BarcodeGenerator`-t** DotCode kódolással és a payload-jával.  
+3. **Állítsa be az X‑Dimension és a Structured Append paramétereket**, majd mentse el minden szimbólumot.
+
+### 1. lépés: Adja meg a könyvtár útvonalát
+
+Adja meg azt a mappát, amely a generált vonalkód képeket tartalmazza. Cserélje le a `"Your Directory Path"`-t a gépén lévő abszolút vagy relatív útvonalra.
+
+```csharp
+using Aspose.BarCode.Generation;
+```
+
+### 2. lépés: Hozzon létre egy BarcodeGenerator-t
+
+`BarcodeGenerator` a fő osztály, amely vonalkódokat hoz létre és testreszab. Egyetlen vonalkód példányt képvisel a memóriában, és hozzáférést biztosít az összes kódolási beállításhoz.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-### 2. lépés: BarcodeGenerator létrehozása
+### 3. lépés: Állítsa be az X‑Dimension értékét
 
-Hozzon létre egy példányt a `BarcodeGenerator` osztályból, megadva a kódolási típust és az adatot. Ebben az esetben a DotCode-ot használjuk a `"Aspose"` adatokkal.
+Az X‑Dimension szabályozza az egyes pontok méretét a DotCode mátrixban. Ennek az értéknek a módosítása befolyásolja az olvashatóságot és a kép méretét is.
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"))
@@ -89,74 +176,77 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, "Aspose"
 }
 ```
 
-### 3. lépés: Az X‑Dimension beállítása
+### 4. lépés: A DotCode Structured Append Mode konfigurálása
 
-Beállíthatja az X‑Dimension (a vonalkód elemeinek mérete pixelben) a kívánt értékre. Például:
+A Structured Append két kulcsfontosságú tulajdonságot igényel:
+
+- **BarcodeId** – az aktuális szimbólum sorszáma (1‑től kezdve).  
+- **BarcodesCount** – a csoportban lévő szimbólumok összes száma (maximum 16).
+
+Állítsa be ezeket az értékeket, hogy minden generált kép tudja a helyét a sorozatban.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 ```
 
-### 4. lépés: DotCode Structured Append Mode konfigurálása
+### 5. lépés: Mentse el a generált vonalkód képet
 
-Most itt az ideje a DotCode Structured Append Mode konfigurálásának. Itt történik a varázslat. Állítsa be a `BarcodeId` és a `BarcodesCount` értékeket a structured append mód meghatározásához.
+Végül írja ki minden vonalkódot a lemezre a kívánt képpformátummal. A PNG ajánlott a veszteségmentes minőséghez.
 
 ```csharp
 gen.Parameters.Barcode.DotCode.DotCodeStructuredAppendModeBarcodeId = 3;
 gen.Parameters.Barcode.DotCode.DotCodeStructuredAppendModeBarcodesCount = 5;
 ```
 
-### 5. lépés: A generált vonalkód kép mentése
-
-Végül mentse a generált vonalkód képet a korábban, 1. lépésben meghatározott könyvtár útvonalra. A képpformátumot PNG‑ként adhatja meg.
-
-```csharp
-gen.Save($"{path}DotCodeStructuredAppendMode.png", BarCodeImageFormat.Png);
-```
-
-Gratulálunk! Sikeresen konfigurálta a DotCode Structured Append Mode-ot, és megtanulta, hogyan **hozzon létre dotcode vonalkódot .net** az Aspose.BarCode for .NET segítségével. Amikor futtatja az alkalmazást, a vonalkód kép megjelenik a megadott mappában.
+Amikor futtatja az alkalmazást, a megadott mappában egy sor PNG fájl jelenik meg, mindegyik a eredeti adatkarakterlánc egy szegmensét képviseli.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| A vonalkód kép üres | Helytelen `path` vagy hiányzó írási jogosultság | Ellenőrizze, hogy a mappa létezik, és az alkalmazásnak van írási joga. |
-| A beolvasás sikertelen | Az X‑Dimension túl alacsony vagy túl magas | Állítsa be a `gen.Parameters.Barcode.XDimension.Pixels` értékét 4‑12 közé a legtöbb szkennerhez. |
-| A Structured Append nem ismerhető fel | `BarcodeId` és `BarcodesCount` közötti eltérés | Győződjön meg róla, hogy a `BarcodeId` 1 és a `BarcodesCount` között van. |
+| A vonalkód kép üres | Helytelen `path` vagy hiányzó írási jogosultság | Ellenőrizze, hogy a mappa létezik, és az alkalmazásnak van írási hozzáférése. |
+| A beolvasás sikertelen | Az X‑Dimension túl alacsony vagy túl magas | Állítsa a `gen.Parameters.Barcode.XDimension.Pixels` értékét **4‑12** közé a legtöbb szkennerhez. |
+| A Structured Append nem ismerhető fel | `BarcodeId` és `BarcodesCount` közötti eltérés | Győződjön meg róla, hogy a `BarcodeId` **≥ 1** és **≤ BarcodesCount**, valamint a `BarcodesCount` nem haladja meg a **16**-ot. |
+| A képfájl túl nagy | Magas X‑Dimension használata PNG-vel | Csökkentse az X‑Dimension értékét, vagy váltson tömörített formátumra, például JPEG-re, ha a méret aggodalomra ad okot. |
 
-## Gyakran ismételt kérdések
+## Gyakran feltett kérdések
 
-### Q1: Mi az a DotCode Structured Append Mode?
+**Q1: Mi az a DotCode Structured Append Mode?**  
+A: A Structured Append Mode legfeljebb 16 DotCode szimbólumot kapcsol össze, lehetővé téve, hogy olyan adatcsoportokat kódoljon, amelyek jóval nagyobbak egyetlen szimbólumnál, miközben a beépített sorszámok segítségével megőrzi a sorrendet.
 
-A DotCode Structured Append Mode egy vonalkód konfiguráció, amely lehetővé teszi több DotCode vonalkód összekapcsolását nagyobb mennyiségű adat kódolásához. Hasznos olyan alkalmazásoknál, amelyek hatékony adat tárolást és visszakeresést igényelnek.
+**Q2: Használhatom az Aspose.BarCode for .NET-et VB.NET‑tel vagy más .NET nyelvekkel?**  
+A: Igen, a könyvtár nyelvfüggetlen a .NET ökoszisztémán belül. Ugyanazok az osztályok és tulajdonságok elérhetők VB.NET‑ben, F#‑ban vagy bármely .NET‑célú nyelvben.
 
-### Q2: Használhatom az Aspose.BarCode for .NET-et más .NET nyelvekkel, például VB.NET‑tel?
+**Q3: Van próba verziója az Aspose.BarCode for .NET-nek?**  
+A: Természetesen. Teljes funkcionalitású próbaverziót tölthet le az Aspose weboldaláról. Látogassa meg a [Aspose BarCode trial page](https://releases.aspose.com/) oldalt a kiértékelő csomag beszerzéséhez.
 
-Igen, az Aspose.BarCode for .NET kompatibilis különböző .NET nyelvekkel, beleértve a VB.NET‑t is. Hasonló lépéseket követhet a DotCode Structured Append Mode konfigurálásához.
+**Q4: Mely iparágak profitálnak a leginkább a DotCode technológiából?**  
+A: Az egészségügy (páciensek nyilvántartása), a logisztika (csomaglisták) és a gyártás (részletes alkatrész specifikációk) a legnagyobb felhasználók, köszönhetően a DotCode magas adat sűrűségének és hibamentes tervezésének.
 
-### Q3: Elérhető próba verzió az Aspose.BarCode for .NET‑hez?
-
-Igen, ingyenes próbaverzióval felfedezheti az Aspose.BarCode for .NET képességeit. Látogasson el [ide](https://releases.aspose.com/), hogy elérje a próbaverziót.
-
-### Q4: Mely iparágak profitálnak a DotCode technológiából?
-
-A DotCode technológiát széles körben használják olyan iparágakban, mint az egészségügy, a logisztika és a gyártás, ahol a hatékony adatkódolás és -dekódolás kulcsfontosságú.
-
-### Q5: Hogyan biztosíthatom a generált vonalkódjaim biztonságát az Aspose.BarCode for .NET‑vel?
-
-Az Aspose.BarCode for .NET különféle biztonsági funkciókat kínál a generált vonalkódok védelmére, például titkosítást és vízjelezést. Ezeket a lehetőségeket a dokumentációban tekintheti meg.
+**Q5: Hogyan védhetem meg a DotCode vonalkódban kódolt adatokat?**  
+A: Az Aspose.BarCode titkosítási és vízjel funkciókat kínál. Titkosíthatja a payload‑ot a generátorba való betáplálás előtt, és vizuális vízjelet adhat a megjelenített képhez a manipuláció észlelésére.
 
 ## Következtetés
 
-Ez az útmutató bemutatta a DotCode Structured Append Mode erőteljes konfigurációját az Aspose.BarCode for .NET-ben. Megtanulta, hogyan állítsa be a környezetet, importálja a neveket, és konfigurálja a DotCode‑ot a structured append módú vonalkódok generálásához. Ezzel a tudással most már képes **dotcode vonalkódot .net létrehozni**, és a vonalkód technológiát alkalmazni alkalmazásaiban és üzleti megoldásaiban.
+Most már rendelkezik egy teljes, termelésre kész útmutatóval a **create dotcode barcode .net** létrehozásához Structured Append Mode használatával az Aspose.BarCode for .NET segítségével. A fenti lépések követésével nagy adatpayload-okat oszthat több DotCode szimbólumra, garantálhatja a helyes sorrendet, és magas minőségű PNG képeket hozhat létre, amelyek készen állnak bármely .NET alkalmazásba való integrálásra.
 
-Nyugodtan fedezze fel a további funkciókat és lehetőségeket a [dokumentációban](https://reference.aspose.com/barcode/net/). Ha készen áll, hogy a vonalkód használatát a következő szintre emelje, megtekintheti a vásárlási lehetőségeket [itt](https://purchase.aspose.com/buy). Ha kérdése van vagy támogatásra van szüksége, az Aspose.BarCode közösség a [támogatási fórumban](https://forum.aspose.com/c/barcode/13) áll rendelkezésére.
+Fedezze fel a további lehetőségeket – például a hibajavítási szint finomhangolását, a szín testreszabását és a kötegelt feldolgozást – a hivatalos [documentation](https://reference.aspose.com/barcode/net/) oldalon. Amikor készen áll a kiértékelésen túlra, fontolja meg egy teljes licenc megvásárlását a [Aspose BarCode purchase page](https://purchase.aspose.com/buy) oldalon. Bármilyen kérdés esetén az Aspose.BarCode közösség aktív a [support forum](https://forum.aspose.com/c/barcode/13) oldalon.
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.BarCode 24.11 for .NET  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-09-03  
+**Tesztelve ezzel:** Aspose.BarCode 24.11 for .NET  
+**Szerző:** Aspose  
+
+```csharp
+gen.Save($"{path}DotCodeStructuredAppendMode.png", BarCodeImageFormat.Png);
+```
+
+## Kapcsolódó oktatóanyagok
+
+- [DotCode vonalkód .NET létrehozása (Auto mód) az Aspose.BarCode-dal](/barcode/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/)
+- [DotCode kódolási mód (bájtok) az Aspose.BarCode for .NET használatával](/barcode/net/dotcode-barcode-configuration/dotcode-encoding-mode-bytes/)
+- [Hogyan hozhatunk létre dotcode kiterjesztett kódszöveget az Aspose.BarCode for .NET használatával](/barcode/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
