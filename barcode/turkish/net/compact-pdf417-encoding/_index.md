@@ -80,8 +80,20 @@ Temellerin ötesinde, iş akışınızı hızlandıracak bazı pratik ipuçları
 - **Sürüm Kontrolü:** Aspose.BarCode sürümünüzü geliştirme, test ve üretim ortamları arasında kalmayı sürdürün.
 
 ## Kompakt PDF417 Kodlama Eğitimleri
+### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+
 ### [Compact PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET'i kullanarak Compact PDF417 barkodlarını nasıl oluşturacağınızı öğrenin. Adım‑adım talimatları ve kod örnekleri içeren kapsamlı bir rehber.
+
+### [C#'ta micro PDF417 barkodu nasıl oluşturulur – adım adım rehber](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [Macro PDF417 için C# barcode üreteci nasıl kullanılır](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+
+### [C#'ta PDF417 barkodlarını okuma – tam rehber](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+Aspose.BarCode for .NET ile PDF417 barkodlarını okuma adımlarını öğrenin.
+
+### [C#'ta PDF417 barkodu oluşturma ve PNG olarak kaydetme](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+Aspose.BarCode for .NET kullanarak PDF417 barkodunu oluşturup PNG formatında kaydedin.
 
 ### [C#'ta PDF417 barkodu oluşturma – kompakt düzenli tam rehber](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
 

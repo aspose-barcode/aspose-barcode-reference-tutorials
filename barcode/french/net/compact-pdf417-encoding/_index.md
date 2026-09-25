@@ -142,8 +142,18 @@ La haute densité de données et la correction d’erreurs robuste du Compact PD
 
 ## Tutoriels d’encodage Compact PDF417
 
+### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+
+### [Comment créer un code‑barres PDF417 en C# et l’enregistrer au format PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+
 ### [Créer des codes‑barres Compact PDF417](./compact-pdf417-basic-configuration/)
 Apprenez à générer des codes‑barres Compact PDF417 en utilisant Aspose.BarCode pour .NET. Guide complet avec des instructions étape par étape et des exemples de code.
+
+### [Comment créer un code‑barres micro PDF417 en C# – guide étape par étape](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [Comment utiliser un générateur de code‑barres C# pour Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+
+### [Comment lire les codes‑barres PDF417 en C# – guide complet](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
 ### [Créer des métadonnées de code-barres PDF417 en C# – Guide complet étape par étape](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Apprenez à ajouter et gérer des métadonnées dans les codes-barres PDF417 avec C#, grâce à un guide complet pas à pas.

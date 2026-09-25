@@ -163,6 +163,21 @@ weight: 29
 
 ### [Δημιουργία barcode C# με Macro PDF417 – πλήρης παράδειγμα](./generate-barcode-c-with-macro-pdf417-full-example/)
 
+### [Πώς να δημιουργήσετε PDF417 barcode σε C# και να ορίσετε το μέγεθος του barcode](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# και να ρυθμίσετε το μέγεθος του.
+
+### [Πώς να δημιουργήσετε PDF417 barcode σε C# και να το αποθηκεύσετε ως PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# και να το αποθηκεύσετε ως αρχείο PNG.
+
+### [Πώς να δημιουργήσετε micro PDF417 barcode σε C# – βήμα‑βήμα οδηγός](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε micro PDF417 γραμμωτό κώδικα σε C# με αναλυτικές οδηγίες βήμα‑βήμα.
+
+### [Πώς να χρησιμοποιήσετε έναν γεννήτρια γραμμωτού κώδικα C# για Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+Μάθετε πώς να δημιουργήσετε Macro PDF417 barcode χρησιμοποιώντας τον BarcodeGenerator σε C#.
+
+### [Πώς να διαβάσετε γραμμωτούς κώδικες PDF417 σε C# – πλήρης οδηγός](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+Μάθετε πώς να διαβάζετε PDF417 γραμμωτούς κώδικες σε C# χρησιμοποιώντας το Aspose.BarCode for .NET, με παραδείγματα κώδικα και βέλτιστες πρακτικές.
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Ποιο είναι το μέγιστο ποσό δεδομένων που μπορώ να αποθηκεύσω σε έναν Συμπαγή PDF417 κώδικα;**  
