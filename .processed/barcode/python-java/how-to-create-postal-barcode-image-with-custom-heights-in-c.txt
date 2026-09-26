@@ -1,0 +1,7 @@
+Title: How to create postal barcode image with custom heights in C#
+Slug: how-to-create-postal-barcode-image-with-custom-heights-in-c
+Category: general
+ProcessedDate: 2026-09-26T10:50:35.534226
+SourceRepo: AI Search API
+Keywords: create postal barcode image, generate planet barcode, barcode generator custom height, how to set barcode height
+PRNumber: 138
