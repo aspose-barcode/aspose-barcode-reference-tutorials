@@ -1,0 +1,7 @@
+Title: How to generate PDF417 barcode in C# – complete guide
+Slug: how-to-generate-pdf417-barcode-in-c-complete-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-26T10:31:00.239087
+SourceRepo: AI Search API
+Keywords: generate pdf417 barcode, pdf417 barcode generator c#
+PRNumber: 137
