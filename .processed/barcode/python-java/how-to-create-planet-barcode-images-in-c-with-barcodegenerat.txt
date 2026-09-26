@@ -1,0 +1,7 @@
+Title: How to create planet barcode images in C# with BarcodeGenerator
+Slug: how-to-create-planet-barcode-images-in-c-with-barcodegenerat
+Category: general
+ProcessedDate: 2026-09-26T10:50:39.592297
+SourceRepo: AI Search API
+Keywords: create planet barcode
+PRNumber: 138
