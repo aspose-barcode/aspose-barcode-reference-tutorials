@@ -200,6 +200,8 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 - [كيفية إنشاء باركود micro PDF417 في C# – دليل خطوة بخطوة](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [كيفية استخدام مولد الباركود C# لتنسيق Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
 - [كيفية قراءة باركود PDF417 في C# – دليل كامل](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+- [كيفية إنشاء باركود PDF417 في C# – دليل كامل](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+- [كيفية فك تشفير PDF417 في C# – مثال قارئ الباركود](./how-to-decode-pdf417-in-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
