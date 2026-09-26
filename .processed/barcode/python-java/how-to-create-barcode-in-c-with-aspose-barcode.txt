@@ -1,0 +1,7 @@
+Title: How to create barcode in C# with Aspose.BarCode
+Slug: how-to-create-barcode-in-c-with-aspose-barcode
+Category: general
+ProcessedDate: 2026-09-26T10:50:43.701746
+SourceRepo: AI Search API
+Keywords: create barcode c#, barcode generator example, how to adjust bar height, change barcode height, generate barcode aspose
+PRNumber: 138
