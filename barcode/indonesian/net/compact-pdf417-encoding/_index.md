@@ -133,44 +133,8 @@ Panduan lengkap untuk membuat barcode PDF417 menggunakan Aspose.BarCode di .NET,
 Panduan langkah‑demi‑langkah untuk membuat barcode PDF417 menggunakan C# dengan Aspose.BarCode untuk .NET.
 ### [Sesuaikan ukuran barcode – Panduan C# untuk menghasilkan barcode PDF417](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 Pelajari cara mengatur ukuran barcode PDF417 dalam C# menggunakan Aspose.BarCode untuk .NET.
-
-Kepadatan data tinggi dan koreksi kesalahan yang kuat pada Compact PDF417 menjadikannya cocok untuk berbagai aplikasi di mana ruang terbatas dan keandalan sangat penting. Berikut beberapa skenario umum di mana simbol ini memberikan manfaat nyata, termasuk logistik, tiket, antarmuka seluler, dan pelabelan peralatan industri.
-
-- **Pengiriman & Logistik:** Enkode nomor pelacakan, ID batch, dan informasi rute pada label kecil.  
-- **Tiket:** Simpan detail acara, nomor kursi, dan data keamanan pada tiket kompak.  
-- **Aplikasi Seluler:** Render barcode pada layar di mana ruang piksel terbatas.  
-- **Otomasi Industri:** Sematkan data diagnostik pada panel peralatan di mana ketahanan penting.
-
-### [Contoh barcode Aspose: menghasilkan Macro PDF417 dalam C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
-Contoh kode C# untuk membuat barcode Macro PDF417 menggunakan Aspose.BarCode.
-
-### [Menghasilkan barcode PDF417 di C# – panduan langkah‑demi‑langkah](./generate-pdf417-barcode-in-c-step-by-step-guide/)
-Panduan lengkap untuk membuat barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan konfigurasi.
-
-### [Menghasilkan barcode dari teks di C# – panduan langkah‑demi‑langkah lengkap](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
-Panduan lengkap untuk membuat barcode dari teks menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan konfigurasi.
-
-### [Cara Membaca PDF417 di C# – Panduan Pembaca Barcode Lengkap](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
-Panduan lengkap membaca barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan konfigurasi.
-### [Panduan Lengkap C# Menghasilkan Barcode dengan Aspose](./generate-barcode-aspose-complete-c-guide/)
-Panduan lengkap langkah‑demi‑langkah untuk menghasilkan barcode menggunakan Aspose.BarCode dengan C#.
-### [Buat gambar micro PDF417 di C# – panduan langkah demi langkah](./create-micro-pdf417-image-in-c-step-by-step-guide/)
-Panduan lengkap membuat gambar micro PDF417 menggunakan C# dengan Aspose.BarCode secara langkah demi langkah.
-
-### [Buat barcode micro PDF417 dalam C# – panduan langkah demi langkah](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
-Panduan lengkap untuk membuat barcode micro PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan konfigurasi.
-### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
-
-
-### [Cara membuat barcode micro PDF417 di C# – panduan langkah demi langkah](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
-Panduan lengkap membuat barcode micro PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan pengaturan.
-
-### [Cara menggunakan generator barcode C# untuk Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
-
-### [Cara membaca barcode PDF417 di C# – panduan lengkap](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
-
-### [Cara membuat barcode PDF417 di C# dan menyimpannya sebagai PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
-Panduan langkah demi langkah membuat barcode PDF417 dan menyimpannya dalam format PNG menggunakan Aspose.BarCode.
+### [Cara mendekode PDF417 di C# – contoh pembaca barcode](./how-to-decode-pdf417-in-c-barcode-reader-example/)
+Panduan langkah demi langkah membaca barcode PDF417 dengan Aspose.BarCode di C#.
 
 ## Pertanyaan yang Sering Diajukan
 
