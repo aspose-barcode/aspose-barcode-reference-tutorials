@@ -284,6 +284,11 @@ Naučte se, jak pomocí Aspose.BarCode v C# generovat Macro PDF417 čárové kó
 
 ### [Jak číst PDF417 čárové kódy v C# – kompletní průvodce](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 Kompletní návod, jak pomocí Aspose.BarCode v C# načíst a dekódovat PDF417 čárové kódy.
+### [Vytvořte PDF417 čárový kód s Aspose.BarCode – krok za krokem průvodce](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.BarCode v .NET vytvořit PDF417 čárový kód krok po kroku.
+
+### [Jak generovat PDF417 čárový kód v C# pomocí Barcode Generatoru](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+Naučte se, jak v C# vytvořit PDF417 čárový kód pomocí třídy BarcodeGenerator.
 
 ## Často kladené otázky
 

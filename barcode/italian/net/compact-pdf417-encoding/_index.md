@@ -83,8 +83,13 @@ Oltre alle basi, ecco alcuni consigli pratici per ottimizzare il tuo flusso di l
 - **Controllo di versione:** Mantieni coerente la versione della libreria Aspose.BarCode tra sviluppo, staging e produzione.
 
 ## Tutorial di codifica Compact PDF417
+### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Scopri come generare codici a barre Compact PDF417 usando Aspose.BarCode per .NET. Guida completa con istruzioni passo‑per‑step ed esempi di codice.
+### [Come generare il codice a barre PDF417 in C# con Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+Scopri come creare un codice a barre PDF417 in C# usando la classe BarcodeGenerator di Aspose.BarCode.
+
 ### [Genera codice a barre Aspose – guida completa C#](./generate-barcode-aspose-complete-c-guide/)
 Guida completa per generare codici a barre con Aspose in C#, passo‑passo con esempi pratici.
 

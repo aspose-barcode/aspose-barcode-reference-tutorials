@@ -145,6 +145,10 @@ Compact PDF417는 높은 데이터 밀도와 견고한 오류 정정 덕분에 �
 
 
 ### [C#에서 PDF417 바코드를 생성하고 PNG로 저장하는 방법](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+### [How to generate PDF417 barcode in C# with Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+
+
+### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
 
 
 ### [Compact PDF417 바코드 만들기](./compact-pdf417-basic-configuration/)

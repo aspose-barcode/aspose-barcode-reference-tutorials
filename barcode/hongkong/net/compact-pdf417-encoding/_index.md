@@ -266,6 +266,8 @@ A: 不需要額外字型；函式庫會在內部處理所有渲染。
 - [如何在 C# 中使用條碼產生器產生宏 PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
 - [如何在 C# 中讀取 PDF417 條碼 – 完整指南](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
+- [使用 Aspose.BarCode 建立 PDF417 條碼 – 步驟指南](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [如何在 C# 中使用條碼產生器產生 PDF417 條碼](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

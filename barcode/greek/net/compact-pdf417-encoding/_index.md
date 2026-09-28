@@ -178,6 +178,12 @@ weight: 29
 ### [Πώς να διαβάσετε γραμμωτούς κώδικες PDF417 σε C# – πλήρης οδηγός](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 Μάθετε πώς να διαβάζετε PDF417 γραμμωτούς κώδικες σε C# χρησιμοποιώντας το Aspose.BarCode for .NET, με παραδείγματα κώδικα και βέλτιστες πρακτικές.
 
+### [Δημιουργία PDF417 barcode με Aspose.BarCode – βήμα‑βήμα οδηγός](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε PDF417 barcode χρησιμοποιώντας Aspose.BarCode σε .NET με αναλυτικές οδηγίες βήμα‑βήμα.
+
+### [Πώς να δημιουργήσετε PDF417 barcode σε C# με Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# χρησιμοποιώντας το Barcode Generator της Aspose.BarCode.
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Ποιο είναι το μέγιστο ποσό δεδομένων που μπορώ να αποθηκεύσω σε έναν Συμπαγή PDF417 κώδικα;**  
