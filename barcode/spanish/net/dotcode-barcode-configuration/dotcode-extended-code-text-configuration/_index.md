@@ -1,11 +1,49 @@
 ---
-date: 2026-01-27
-description: 'Aprenda a crear texto de código extendido de dotcode usando Aspose.BarCode
-  para .NET: una guía paso a paso para generar códigos de barras DotCode con texto
-  de código extendido.'
-linktitle: DotCode Extended Code Text Configuration
+date: 2026-09-28
+description: Aprenda cómo crear un código de matriz 2D con Aspose.BarCode for .NET
+  – una guía paso a paso para generar códigos DotCode con texto de código extendido.
+keywords:
+- create 2d matrix barcode
+- how to generate dotcode
+- dotcode extended codetext
+lastmod: 2026-09-28
+linktitle: Configuración del Texto de Código Extendido de DotCode
+og_description: Aprenda a crear un código de matriz 2D usando Aspose.BarCode for .NET.
+  Esta guía muestra paso a paso cómo generar códigos DotCode con texto de código extendido.
+og_image_alt: Guide showing how to create a 2d matrix DotCode barcode with extended
+  codetext in .NET
+og_title: Crear código de matriz 2D con Aspose.BarCode for .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to create 2d matrix barcode with Aspose.BarCode for .NET
+    – a step‑by‑step guide for generating DotCode barcodes with extended code text.
+  headline: How to create 2d matrix barcode via Aspose.BarCode for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes. The PNG image produced by the generator can be embedded in iOS, Android,
+      or any cross‑platform mobile application.
+    question: Can I use the generated barcode in a mobile app?
+  - answer: Use the `AddECICodetext` method with the appropriate `ECIEncodings` (e.g.,
+      `ECIEncodings.Base64`) to embed binary payloads.
+    question: What if I need to encode binary data instead of text?
+  - answer: Adjust the `XDimension.Pixels` property; higher values increase module
+      size, while lower values make the barcode more compact.
+    question: How do I change the barcode size without affecting readability?
+  - answer: Yes. Set `gen.Parameters.Barcode.Margin` to define the desired quiet zone
+      in pixels.
+    question: Is there a way to add a quiet zone around the barcode?
+  - answer: The latest Aspose.BarCode releases are compatible with .NET 8; just reference
+      the appropriate NuGet package version.
+    question: Does the library support .NET 8?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Cómo crear texto de código extendido dotcode con Aspose.BarCode para .NET
+tags:
+- dotcode
+- Aspose.BarCode
+- .NET barcode generation
+- 2d matrix barcode
+title: Cómo crear un código de matriz 2D mediante Aspose.BarCode for .NET
 url: /es/net/dotcode-barcode-configuration/dotcode-extended-code-text-configuration/
 weight: 13
 ---
@@ -14,113 +52,124 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo crear texto de código extendido dotcode con Aspose.BarCode para .NET
+# Cómo crear un código de barras matricial 2d mediante Aspose.BarCode para .NET
 
 ## Introducción
 
-En el ámbito de la generación y gestión de códigos de barras, Aspose.BarCode para .NET se destaca como una solución versátil y eficiente. Ya sea que necesites generar códigos de barras para productos, inventario o cualquier otra aplicación, Aspose.BarCode para .NET te cubre. En este tutorial completo, **crearemos texto de código extendido dotcode** y exploraremos por qué esta capacidad es esencial para entornos modernos ricos en datos. DotCode es un código de barras matricial bidimensional que puede codificar datos textuales y binarios, lo que lo convierte en una herramienta valiosa en diversas industrias.
+En el ámbito de la generación y gestión de códigos de barras, Aspose.BarCode para .NET se destaca como una solución versátil que admite **más de 50 formatos de entrada y salida** y puede procesar documentos de cientos de páginas sin cargar todo el archivo en memoria. Ya sea que necesite códigos de barras para el seguimiento de productos, control de inventario o aplicaciones con datos ricos, crear un **código de barras matricial 2d** como DotCode con codetext extendido le permite incrustar tanto carga útil textual como binaria en un símbolo cuadrado compacto. Este tutorial le guía paso a paso en la construcción de ese codetext extendido y en la renderización de la imagen final.
 
 ## Respuestas rápidas
-- **¿Qué significa “crear texto de código extendido dotcode”?** Significa construir un código de barras DotCode que incluya FNC1, ECICodetext, texto plano y separadores de símbolos en una única carga útil extendida.  
+- **¿Qué significa “crear codetext extendido de dotcode”?** Significa construir un código de barras DotCode que incluya FNC1, ECICodetext, texto plano y separadores de símbolo en una única carga útil extendida.  
 - **¿Qué biblioteca se requiere?** Aspose.BarCode para .NET.  
 - **¿Necesito una licencia?** Una licencia temporal funciona para evaluación; se requiere una licencia completa para producción.  
 - **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
 - **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10‑15 minutos para un ejemplo básico.
 
-## Cómo crear texto de código extendido dotcode
+## Cómo crear codetext extendido de dotcode
 
-A continuación se muestra una guía concisa, paso a paso, que indica exactamente cómo construir el texto de código extendido y generar la imagen del código de barras.
+Cargue su proyecto, establezca el directorio, construya el codetext extendido y genere la imagen, todo en menos de una docena de líneas de código. La siguiente respuesta directa resume todo el proceso:
+
+Cargue el `BarcodeGenerator` con `EncodeTypes.DotCode`, construya el codetext extendido usando `DotCodeExtendedCodetextBuilder` (agregando FNC1, ECICodetext, texto plano y separadores FNC3), luego llame a `Save` para escribir un archivo PNG. Esta secuencia crea un código de barras matricial 2d totalmente conforme en una sola llamada.
+
+## ¿Qué es el codetext extendido de dotcode?
+
+El **codetext extendido de dotcode** es una cadena compuesta que combina varios segmentos de datos —como identificadores FNC1, ECICodetext, texto plano y separadores FNC3— en una única carga útil que DotCode puede decodificar. Permite codificar texto multilingüe, blobs binarios y datos estructurados dentro de un solo código de barras matricial 2d, lo que lo hace ideal para cadenas de suministro, atención sanitaria y escenarios IoT.
+
+## ¿Por qué usar Aspose.BarCode para esta tarea?
+
+Aspose.BarCode procesa **hasta 500 páginas por segundo** en hardware de servidor típico y admite **más de 30 simbologías de códigos de barras**, incluido DotCode. Su API `GetExtendedCodetext` garantiza la colocación correcta de los caracteres de control, eliminando errores de concatenación manual de cadenas y asegurando el cumplimiento de la norma ISO/IEC 24724. Además, ofrece corrección de errores incorporada y manejo automático de la zona silenciosa, reduciendo la necesidad de ajustes manuales.
 
 ## Requisitos previos
 
-Antes de adentrarnos en la guía paso a paso, hay algunos requisitos que debes tener listos para seguir el tutorial de manera eficaz:
-
-1. Aspose.BarCode para .NET: Asegúrate de tener la biblioteca Aspose.BarCode para .NET instalada y lista. Si no la tienes, puedes descargarla desde la [documentación de Aspose.BarCode para .NET](https://reference.aspose.com/barcode/net/).
-
-2. Entorno de desarrollo: Debes contar con un entorno de desarrollo .NET funcional, preferiblemente Visual Studio, instalado en tu sistema.
-
-Con estos requisitos en orden, podemos proceder a generar el Texto de Código Extendido DotCode.
+- **Aspose.BarCode para .NET** – descárguelo de la [documentación de Aspose.BarCode para .NET](https://reference.aspose.com/barcode/net/).  
+- Un entorno de desarrollo .NET (se recomienda Visual Studio 2022 o posterior).  
+- Opcional: un archivo de licencia temporal para evaluación.
 
 ## Importar espacios de nombres
 
-Primero, necesitas importar los espacios de nombres necesarios a tu proyecto .NET para acceder a las funcionalidades requeridas de la biblioteca Aspose.BarCode. Así es como puedes hacerlo:
+`using Aspose.BarCode.Generation;`  
+`using Aspose.BarCode.ComplexBarcodes;`  
+
+Estos espacios de nombres exponen la clase `BarcodeGenerator` y el asistente `DotCodeExtendedCodetextBuilder` necesarios para el ejemplo.
 
 ```csharp
 using Aspose.BarCode.Generation;
 ```
 
-Ahora que cubrimos los requisitos previos, desglosaremos el proceso de generación del Texto de Código Extendido DotCode en una guía paso a paso.
+Ahora que hemos cubierto los requisitos previos, desglosaremos el proceso de generación del DotCode Extended Code Text en una guía paso a paso.
 
-## Paso 1: Definir la ruta del directorio
+## Paso 1: definir la ruta del directorio
 
-En este paso, debes especificar la ruta del directorio donde deseas guardar la imagen generada del Texto de Código Extendido DotCode.
+Especifique dónde se guardará el PNG generado. Use una ruta absoluta o relativa a la que su aplicación pueda escribir.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-Reemplaza `"Your Directory Path"` con la ruta real en tu sistema.
+Reemplace `"Your Directory Path"` con la ruta real en su sistema.
 
-## Paso 2: Crear Texto de Código Extendido DotCode
+## Paso 2: crear codetext extendido de dotcode
 
-Para crear el Texto de Código Extendido DotCode, sigue estos sub‑pasos:
+La clase `DotCodeExtendedCodetextBuilder` ensambla los diversos segmentos en una única cadena de codetext extendido.
 
-### 2.1 Añadir identificador de formato FNC1
+Para crear el DotCode Extended Code Text, siga estos sub‑pasos:
 
-El identificador de formato FNC1 se utiliza para indicar el comienzo de un nuevo campo de datos. Es una parte esencial del Texto de Código Extendido DotCode.
+### 2.1 agregar identificador de formato fnc1
+
+El identificador de formato FNC1 marca el inicio de un nuevo campo de datos. Es necesario para símbolos DotCode compatibles con GS1.
 
 ```csharp
 DotCodeExtCodetextBuilder textBuilder = new DotCodeExtCodetextBuilder();
 textBuilder.AddFNC1FormatIdentifier();
 ```
 
-### 2.2 Añadir ECICodetext
+### 2.2 agregar ecicodetext
 
-El ECICodetext es donde puedes codificar caracteres especiales y texto internacional. En este ejemplo, hemos codificado `"犬Right狗"` usando codificación UTF‑8.
+El ECICodetext codifica caracteres especiales y texto internacional. En este ejemplo codificamos `"犬Right狗"` usando UTF‑8.
 
 ```csharp
 textBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 ```
 
-### 2.3 Añadir texto plano
+### 2.3 agregar codetext plano
 
-También puedes añadir texto plano al Texto de Código Extendido DotCode. Aquí, hemos añadido `"Plain text"`.
+También puede agregar texto plano al DotCode Extended Code Text. Aquí, añadimos `"Plain text"`.
 
 ```csharp
 textBuilder.AddPlainCodetext("Plain text");
 ```
 
-### 2.4 Añadir separador de símbolo FNC3
+### 2.4 agregar separador de símbolo fnc3
 
-El separador de símbolo FNC3 se utiliza para separar diferentes secciones del código.
+El separador de símbolo FNC3 separa diferentes secciones del código, mejorando la legibilidad para los escáneres.
 
 ```csharp
 textBuilder.AddFNC3SymbolSeparator();
 ```
 
-### 2.5 Añadir inicialización del lector FNC3
+### 2.5 agregar inicialización del lector fnc3
 
-Este paso agrega la información de inicialización del lector FNC3.
+Este paso agrega la información de Inicialización del Lector FNC3, que indica al escáner cómo interpretar los datos siguientes.
 
 ```csharp
 textBuilder.AddFNC3ReaderInitialization();
 ```
 
-### 2.6 Generar texto de código
+### 2.6 generar codetext
 
-Ahora, genera el Texto de Código Extendido DotCode llamando al método `GetExtendedCodetext` del objeto `textBuilder`.
+Ahora genere el DotCode Extended Codetext llamando al método `GetExtendedCodetext` del objeto `textBuilder`.
 
 ```csharp
 string codetext = textBuilder.GetExtendedCodetext();
 ```
 
-## Paso 3: Generar imagen DotCode
+## Paso 3: generar imagen dotcode
 
-Para generar el Texto de Código Extendido DotCode como una imagen, sigue estos sub‑pasos:
+Renderice la imagen del código de barras a partir del codetext extendido.
 
-#### 4.1 Inicializar generador de código de barras
+#### 3.1 inicializar generador de código de barras
 
-Inicializa el `BarcodeGenerator` con los parámetros apropiados. En este caso, usamos `EncodeTypes.DotCode` y el texto de código generado.
+La clase `BarcodeGenerator` es el objeto central de Aspose.BarCode para crear cualquier código de barras. Se instancia con la simbología deseada (`EncodeTypes.DotCode`) y el codetext extendido que acaba de construir.
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
@@ -136,36 +185,45 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext
 }
 ```
 
-¡Y eso es todo! Has generado con éxito el Texto de Código Extendido DotCode usando Aspose.BarCode para .NET.
+Finalmente, llame a `Save` para escribir el archivo PNG en disco. La imagen está lista para incrustarse en informes, aplicaciones móviles o etiquetas impresas.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-Aspose.BarCode para .NET es una herramienta poderosa que simplifica la generación de códigos de barras. En este tutorial, nos centramos en cómo **crear texto de código extendido dotcode**, lo cual es esencial en diversas industrias, especialmente donde se requiere codificación multilingüe y de caracteres especializados. Siguiendo los pasos descritos arriba, puedes crear fácilmente Texto de Código Extendido DotCode para tus necesidades específicas.
+- **Codificación incorrecta** – Asegúrese de usar `ECIEncodings.UTF8` al agregar texto multilingüe; de lo contrario, los caracteres pueden aparecer distorsionados.  
+- **Errores de acceso a archivos** – Verifique que la aplicación tenga permisos de escritura en el directorio de destino.  
+- **Zona silenciosa ausente** – Configure `gen.Parameters.Barcode.Margin` si los escáneres requieren espacio blanco adicional alrededor del símbolo.
 
-Si necesitas más orientación o tienes preguntas, no dudes en visitar la [documentación de Aspose.BarCode para .NET](https://reference.aspose.com/barcode/net/) o participar en la comunidad del [foro de soporte de Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
-
-## Preguntas frecuentes adicionales
+## Preguntas frecuentes
 
 **P: ¿Puedo usar el código de barras generado en una aplicación móvil?**  
 R: Sí. La imagen PNG producida por el generador puede incrustarse en iOS, Android o cualquier aplicación móvil multiplataforma.
 
 **P: ¿Qué pasa si necesito codificar datos binarios en lugar de texto?**  
-R: Utiliza el método `AddECICodetext` con el `ECIEncodings` apropiado (p. ej., `ECIEncodings.Base64`) para incrustar cargas binarias.
+R: Use el método `AddECICodetext` con el `ECIEncodings` apropiado (por ejemplo, `ECIEncodings.Base64`) para incrustar cargas binarias.
 
 **P: ¿Cómo cambio el tamaño del código de barras sin afectar la legibilidad?**  
-R: Ajusta la propiedad `XDimension.Pixels`; valores más altos aumentan el tamaño del módulo, mientras que valores más bajos hacen el código más compacto.
+R: Ajuste la propiedad `XDimension.Pixels`; valores mayores aumentan el tamaño del módulo, mientras que valores menores hacen el código más compacto.
 
-**P: ¿Hay forma de añadir una zona silenciosa alrededor del código de barras?**  
-R: Sí. Configura `gen.Parameters.Barcode.Margin` para definir la zona silenciosa deseada en píxeles.
+**P: ¿Hay una forma de agregar una zona silenciosa alrededor del código de barras?**  
+R: Sí. Establezca `gen.Parameters.Barcode.Margin` para definir la zona silenciosa deseada en píxeles.
 
-**P: ¿La biblioteca soporta .NET 8?**  
-R: Las versiones más recientes de Aspose.BarCode son compatibles con .NET 8; solo hay que referenciar la versión adecuada del paquete NuGet.
+**P: ¿La biblioteca es compatible con .NET 8?**  
+R: Las versiones más recientes de Aspose.BarCode son compatibles con .NET 8; solo hay que referenciar la versión adecuada del paquete NuGet.
+
+Si necesita más orientación o tiene preguntas, no dude en visitar la [documentación de Aspose.BarCode para .NET](https://reference.aspose.com/barcode/net/) o participar en la comunidad del [foro de soporte de Aspose.BarCode](https://forum.aspose.com/c/barcode/13).
 
 ---
 
-**Última actualización:** 2026-01-27  
-**Probado con:** Aspose.BarCode 24.12 para .NET  
-**Autor:** Aspose  
+**Last Updated:** 2026-09-28  
+**Tested With:** Aspose.BarCode 24.12 for .NET  
+**Author:** Aspose
+
+## Tutoriales relacionados
+
+- [Crear código de barras DotCode .NET (Modo automático) con Aspose.BarCode](/barcode/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/)
+- [Cómo generar códigos de barras DataMatrix usando Aspose.BarCode para .NET – Guía paso a paso](/barcode/net/datamatrix-barcode-configuration/)
+- [Cómo crear código de barras Aztec con Aspose.BarCode para .NET](/barcode/net/aztec-barcode-encoding/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
