@@ -148,6 +148,8 @@ Lär dig hur du genererar en PDF417‑streckkod i C# och sparar den som PNG‑fi
 
 ### [Skapa Compact PDF417‑streckkoder](./compact-pdf417-basic-configuration/)
 Lär dig hur du genererar Compact PDF417‑streckkoder med Aspose.BarCode för .NET. Omfattande guide med steg‑för‑steg‑instruktioner och kodexempel.
+- [Skapa PDF417-streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Hur man genererar PDF417-streckkod i C# med Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 ### [Generera PDF417-streckkod i C# – streckkodsgeneratorguide](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
 Lär dig hur du skapar PDF417‑streckkoder i C# med Aspose.BarCode‑generatorn.
 ### [Hur man sparar streckkodsbilder i C# – komplett guide](./how-to-save-barcode-images-in-c-complete-guide/)
@@ -258,15 +260,14 @@ A: Inga externa typsnitt krävs; biblioteket hanterar all rendering internt.
 
 **Senast uppdaterad:** 2026-07-04  
 **Testat med:** Aspose.BarCode 24.11 för .NET  
-**Författare:** Aspose.BarCode .NET API
+**Författare:** Aspose
 
 ## Relaterade handledningar
 
 - [Hur man skapar streckkod – Compact PDF417 med Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Omfattande handledningar och exempel för Aspose.BarCode för .NET](/barcode/net/)
 - [Hur man skapar Aztec‑streckkod med felkorrigering i .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-- [Skapa PDF417-streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
-- [Hur man genererar PDF417-streckkod i C# med Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
