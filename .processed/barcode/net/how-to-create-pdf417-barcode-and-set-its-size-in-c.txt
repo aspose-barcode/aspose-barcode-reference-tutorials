@@ -1,0 +1,7 @@
+Title: How to create PDF417 barcode and set its size in C#
+Slug: how-to-create-pdf417-barcode-and-set-its-size-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-23T07:06:00.539381
+SourceRepo: AI Search API
+Keywords: create pdf417 barcode, how to create pdf417, set barcode size, create barcode image c#
+PRNumber: 133

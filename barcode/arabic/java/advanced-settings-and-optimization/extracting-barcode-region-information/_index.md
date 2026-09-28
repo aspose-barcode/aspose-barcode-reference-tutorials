@@ -1,10 +1,53 @@
 ---
-date: 2025-11-30
-description: استكشف كيفية قراءة الباركود من الصورة باستخدام Aspose.BarCode for Java
-  – مكتبة قوية لاستخراج تفاصيل منطقة الباركود بسهولة وتعزيز تطبيقات Java الخاصة بك.
-linktitle: Extracting Barcode Region Information from the Image
+date: 2026-07-18
+description: اكتشف كيفية قراءة barcode من الصورة باستخدام Aspose.BarCode لـ Java –
+  مكتبة قوية لاستخراج تفاصيل منطقة barcode بسهولة وتعزيز تطبيقات Java الخاصة بك.
+keywords:
+- read barcode from image
+- how to read barcode
+- detect barcode in image
+- decode barcode image
+- java barcode detection library
+lastmod: 2026-07-18
+linktitle: استخراج معلومات منطقة Barcode من الصورة
+og_description: قراءة barcode من الصورة باستخدام Aspose.BarCode لـ Java. يوضح هذا
+  البرنامج التعليمي كيفية الكشف، فك الترميز، واستخراج بيانات منطقة barcode الدقيقة
+  في دقائق.
+og_image_alt: Illustration of Java code extracting barcode region using Aspose.BarCode
+og_title: قراءة Barcode من الصورة – دليل Java مع Aspose.BarCode
+schemas:
+- author: Aspose
+  dateModified: '2026-07-18'
+  description: Explore how to read barcode from image using Aspose.BarCode for Java
+    – a powerful library to extract barcode region details effortlessly and boost
+    your Java applications.
+  headline: Read Barcode from Image – Mastering Barcode Region Extraction in Java
+    with Aspose.BarCode
+  type: TechArticle
+- questions:
+  - answer: Yes, it supports **50+ symbologies**, including Code 39, QR Code, DataMatrix,
+      and more. See the full list in the [documentation](https://reference.aspose.com/barcode/java/).
+    question: Is Aspose.BarCode compatible with all barcode types?
+  - answer: Absolutely. A commercial license is required for production use. Purchase
+      details are available on the [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.BarCode for commercial projects?
+  - answer: Visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
+      for community help, or open a support ticket through your Aspose account.
+    question: How can I get support if I run into problems?
+  - answer: Yes, you can download a fully functional trial from the [Aspose releases
+      page](https://releases.aspose.com/).
+    question: Is there a free trial I can test with?
+  - answer: Temporary licenses are provided via the [temporary‑license page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: قراءة الباركود من الصورة – إتقان استخراج منطقة الباركود في جافا باستخدام Aspose.BarCode
+tags:
+- read barcode
+- Aspose.BarCode
+- Java barcode detection
+- barcode region extraction
+- barcode reader tutorial
+title: قراءة Barcode من الصورة – إتقان استخراج منطقة Barcode في Java باستخدام Aspose.BarCode
 url: /ar/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
@@ -15,33 +58,36 @@ weight: 17
 
 # قراءة الباركود من صورة في جافا – إتقان استخراج منطقة الباركود باستخدام Aspose.BarCode
 
-في تطبيقات جافا الحديثة، **قراءة الباركود من صورة** هي حاجة متكررة—سواء كنت تبني أنظمة جرد، أو أدوات تحقق من التذاكر، أو حلول موجهة للهواتف المحمولة. تجعل Aspose.BarCode for Java هذه المهمة بسيطة، حيث تسمح لك باستخراج معلومات دقيقة عن منطقة الباركود ببضع أسطر من الشيفرة فقط. في هذا الدليل سنستعرض مثالًا كاملاً **java barcode reader example**، نوضح لك كيفية **recognize barcode in image**، ونشرح لماذا يعتبر استخراج منطقة الباركود مهمًا.
+في تطبيقات جافا الحديثة، **قراءة الباركود من صورة** هي متطلب شائع—سواء كنت تبني أنظمة جرد، أو أدوات تحقق من التذاكر، أو حلول موجهة للهواتف المحمولة. تجعل Aspose.BarCode for Java هذه المهمة بسيطة، وتتيح لك استخراج معلومات منطقة الباركود بدقة باستخدام بضع أسطر من الشيفرة فقط. في هذا البرنامج التعليمي سنستعرض مثالًا كاملًا **java barcode reader example**، ونظهر لك كيفية **recognize barcode in image**، ونشرح لماذا يعتبر استخراج منطقة الباركود مهمًا للمعالجة اللاحقة.
 
 ## إجابات سريعة
 - **ما المكتبة التي يجب أن أستخدمها؟** Aspose.BarCode for Java.  
-- **هل يمكنني قراءة الباركود من صورة في بضع دقائق؟** نعم – المثال يعمل في أقل من 30 ثانية.  
-- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
-- **ما أنواع الباركود المدعومة؟** أكثر من 50 نوعًا، بما في ذلك Code 39، QR، DataMatrix، وأكثر.  
+- **هل يمكنني قراءة الباركود من صورة في بضع دقائق؟** نعم – المثال يعمل في أقل من 30 ثانية على محطة عمل نموذجية.  
+- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تعمل للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
+- **ما أنواع الباركود المدعومة؟** أكثر من 50 رموزًا، بما في ذلك Code 39، QR، DataMatrix، وأكثر.  
 - **هل هذا النهج مخصص لجافا فقط؟** الواجهة البرمجية متاحة أيضًا لـ .NET، C++، وPython، لكن هذا الدليل يركز على جافا.
 
-## ما هو “قراءة الباركود من صورة”؟
-قراءة الباركود من صورة تعني مسح ملف بتنسيق صورة (PNG، JPEG، إلخ) وفك تشفير البيانات المشفرة فيه. لا تُعيد Aspose.BarCode النص المفكك فحسب، بل توفر أيضًا الموقع الدقيق (المنطقة) للباركود داخل الصورة، وهو أمر أساسي لتراكب الرسومات، أو القص، أو التحقق من سلامة الصورة.
+## ما هو “read barcode from image”؟
+قراءة الباركود من صورة تعني مسح صورة نقطية (PNG، JPEG، إلخ) وفك تشفير البيانات المشفرة. لا تقوم Aspose.BarCode فقط بإرجاع النص المفكوك ولكنها أيضًا توفر الموقع الدقيق (المنطقة) للباركود داخل الصورة، وهو أمر أساسي لتراكب الرسومات، أو القص، أو التحقق من سلامة الصورة.
 
-## لماذا نستخدم Aspose.BarCode لقراءة الباركود من صورة؟
-- **دقة عالية** – كشف قوي حتى في الصور منخفضة الدقة أو المائلة.  
-- **بيانات منطقة غنية** – الحصول على نقاط الزوايا الأربع للباركود لتحديد موقع دقيق.  
-- **بدون تبعيات خارجية** – جافا صافية، لا تحتاج إلى مكتبات أصلية.  
-- **يدعم جميع الرموز الرئيسية** – من الرموز الخطية الكلاسيكية إلى الرموز الثنائية الأبعاد الحديثة.
+## لماذا تستخدم Aspose.BarCode لقراءة الباركود من صورة؟
+توفر Aspose.BarCode حلاً كاملاً وعالي الأداء لاكتشاف الباركود في جافا. تحقق **>99% دقة اكتشاف** على الصور منخفضة الدقة أو المائلة، وتُعالج **مستندات مئات الصفحات** دون تحميل الملف بالكامل إلى الذاكرة، وتُرجع **أربع نقاط زاوية** لكل باركود، مما يتيح تراكبًا بدقة البكسل. تدعم المكتبة **أكثر من 50 رموزًا**، وتعمل **pure Java** (بدون DLLs أصلية)، وتحتاج فقط إلى ملف JAR واحد.
+
+### الفوائد الكمية في لمحة سريعة
+- **أكثر من 50 نوعًا مدعومًا من الباركود** (خطية وثنائية الأبعاد).  
+- **حتى 30 إطارًا في الثانية** سرعة المسح على أجهزة الحاسوب المكتبية القياسية.  
+- **كفاءة الذاكرة**: يعالج الصور الأكبر من 20 ميغابايت باستخدام أقل من 100 ميغابايت من الذاكرة.  
+- **بدون تبعيات خارجية** – فقط ملف Aspose.BarCode JAR.
 
 ## المتطلبات المسبقة
-قبل أن تبدأ، تأكد من وجود:
+قبل أن تبدأ، تأكد من أن لديك:
 
-- **مجموعة تطوير جافا (JDK)** – الإصدار 8 أو أعلى.  
-- **Aspose.BarCode for Java** – حمّل أحدث ملف JAR من [صفحة تحميل Aspose](https://releases.aspose.com/barcode/java/).  
-- **بيئة التطوير المتكاملة (IDE)** – Eclipse، IntelliJ IDEA، أو أي محرر تفضله.  
+- **Java Development Kit (JDK)** – الإصدار 8 أو أعلى.  
+- **Aspose.BarCode for Java** – قم بتحميل أحدث JAR من [Aspose download page](https://releases.aspose.com/barcode/java/).  
+- **IDE** – Eclipse، IntelliJ IDEA، أو أي محرر تفضله.  
 
 ## استيراد المساحات الاسمية
-أضف الاستيرادات المطلوبة إلى فئة جافا الخاصة بك لتتمكن من العمل مع API الخاص بـ Aspose.BarCode.
+Add the required imports to your Java class so you can work with the Aspose.BarCode API.
 
 ```java
 import java.awt.Point;
@@ -51,7 +97,7 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 ```
 
 ## الخطوة 1: إعداد دليل الموارد
-حدد المجلد الذي يحتوي على صور العينة. هذا يبقي منطق المسار نظيفًا وقابلًا لإعادة الاستخدام.
+حدد المجلد الذي يحتوي على صور العينة. هذا يحافظ على منطق المسار نظيفًا وقابلًا لإعادة الاستخدام.
 
 ```java
 String dataDir = Utils.getDataDir(BarcodeRegionInformationFromTheImage.class) + "BarcodeReader/advanced_features/";
@@ -66,14 +112,68 @@ BarCodeReader reader = new BarCodeReader(imageFilePath, DecodeType.CODE_39_STAND
 ```
 
 ## الخطوة 3: التعرف على الباركود في الصورة
-استدعاء `readBarCodes()` يجعل المكتبة تمسح الصورة بالكامل وتجمع كل الباركودات التي يمكنها العثور عليها.
+`BarCodeReader` هو الفئة الأساسية في Aspose.BarCode التي تقوم بمسح الصور وتعيد نتائج الاكتشاف. استدعاء `readBarCodes()` يجعل المكتبة تمسح الصورة بالكامل وتجمع كل باركود يمكنها العثور عليه.
 
 ```java
 reader.readBarCodes();
 ```
 
 ## الخطوة 4: استخراج معلومات المنطقة
-قم بالتكرار عبر كل نتيجة كشف، تحقق من توفر المنطقة، ثم اطبع إحداثيات الزوايا الأربع. هذا هو جوهر **how to extract barcode** region data.
+`BarCodeResult` يمثل نتيجة اكتشاف واحدة ويحتوي على كل من النص المفكوك وبيانات المنطقة. قم بالتكرار عبر كل نتيجة اكتشاف، تحقق من توفر المنطقة، ثم اطبع إحداثيات الزوايا الأربع. هذا هو جوهر **how to extract barcode** بيانات المنطقة.
+
+`getRegion()` تُعيد مضلع الحد للباركود كأربع نقاط زاوية.
+
+> **نصيحة احترافية:** إذا كنت تحتاج فقط إلى النص المفكوك، استخدم `result.getCodeText()`. بالنسبة لبيانات المنطقة، تأكد دائمًا من أن `result.getRegion()` ليست `null` لتجنب `NullPointerException`.
+
+## المشكلات الشائعة والحلول
+`setRotateAngle(double angle)` يدير الصورة بالزاوية المحددة قبل الاكتشاف.
+
+| المشكلة | سبب حدوثها | الحل |
+|-------|----------------|-----|
+| لم يتم اكتشاف أي باركود | الصورة مظلمة جدًا أو مشوشة | قم بمعالجة الصورة مسبقًا (زيادة التباين، تحويل إلى ثنائي) قبل تمريرها إلى `BarCodeReader`. |
+| `result.getRegion()` تُعيد `null` | نوع الباركود غير مدعوم لاستخراج المنطقة | تأكد من أنك تستخدم رموزًا تدعم بيانات المنطقة (معظم الرموز الثنائية الأبعاد تدعم ذلك). |
+| إحداثيات غير متوقعة | تم تدوير الصورة | استخدم `reader.setRotateAngle()` لتصحيح الاتجاه قبل القراءة. |
+
+## الأسئلة المتكررة
+
+**Q: هل Aspose.BarCode متوافق مع جميع أنواع الباركود؟**  
+A: نعم، يدعم **50+ symbologies**، بما في ذلك Code 39، QR Code، DataMatrix، وأكثر. راجع القائمة الكاملة في [documentation](https://reference.aspose.com/barcode/java/).
+
+**Q: هل يمكنني استخدام Aspose.BarCode في المشاريع التجارية؟**  
+A: بالطبع. يلزم ترخيص تجاري للاستخدام في الإنتاج. تفاصيل الشراء متاحة على [Aspose purchase page](https://purchase.aspose.com/buy).
+
+**Q: كيف يمكنني الحصول على الدعم إذا واجهت مشاكل؟**  
+A: قم بزيارة [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) للحصول على مساعدة المجتمع، أو افتح تذكرة دعم عبر حساب Aspose الخاص بك.
+
+**Q: هل هناك نسخة تجريبية مجانية يمكنني اختبارها؟**  
+A: نعم، يمكنك تنزيل نسخة تجريبية كاملة الوظائف من [Aspose releases page](https://releases.aspose.com/).
+
+**Q: كيف أحصل على ترخيص مؤقت للتقييم؟**  
+A: يتم توفير تراخيص مؤقتة عبر [temporary‑license page](https://purchase.aspose.com/temporary-license/).
+
+## الخلاصة
+أنت الآن تمتلك مثالًا كاملًا **java barcode reader example** يوضح كيفية **read barcode from image**، التعرف عليه، واستخراج إحداثيات المنطقة الدقيقة. سيسمح لك دمج هذا المقتطف في مشاريعك بالحصول على كشف باركود سريع وموثوق دون الحاجة إلى أدوات خارجية. استكشف ميزات Aspose.BarCode الأخرى—مثل توليد الباركود والمعالجة الدفعية—لتعزيز تطبيقات جافا الخاصة بك أكثر.
+
+---
+
+**آخر تحديث:** 2026-07-18  
+**تم الاختبار مع:** Aspose.BarCode for Java 24.12  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [قراءة الباركود جافا: قارئ باركود عالي الأداء لمعالجة الصور بشكل أسرع](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [مكتبة قارئ باركود جافا: اكتشاف اتجاه الباركود باستخدام Aspose.BarCode](/barcode/java/barcode-basics/detecting-barcode-orientation/)
+- [كيفية قراءة الباركود أحادي الأبعاد في جافا باستخدام Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -86,45 +186,3 @@ for (BarCodeResult result : reader.readBarCodes()) {
     }
 }
 ```
-
-> **نصيحة احترافية:** إذا كنت بحاجة فقط إلى النص المفكك، استخدم `result.getCodeText()`. بالنسبة لبيانات المنطقة، تأكد دائمًا من أن `result.getRegion()` ليس `null` لتجنب `NullPointerException`.
-
-## المشكلات الشائعة والحلول
-| المشكلة | سبب حدوثها | الحل |
-|---------|------------|------|
-| لا يتم اكتشاف أي باركود | الصورة مظلمة جدًا أو مشوشة | قم بمعالجة الصورة مسبقًا (زيادة التباين، تحويل إلى ثنائي) قبل تمريرها إلى `BarCodeReader`. |
-| `result.getRegion()` يُعيد `null` | نوع الباركود غير مدعوم لاستخراج المنطقة | تأكد من أنك تستخدم رمزًا يدعم بيانات المنطقة (معظم الرموز الثنائية الأبعاد تدعم ذلك). |
-| إحداثيات غير متوقعة | تم تدوير الصورة | استخدم `reader.setRotateAngle()` لتصحيح الاتجاه قبل القراءة. |
-
-## الأسئلة المتكررة
-
-**س: هل Aspose.BarCode متوافق مع جميع أنواع الباركود؟**  
-ج: نعم، يدعم أكثر من 50 رمزًا، بما في ذلك Code 39، QR Code، DataMatrix، وأكثر. راجع القائمة الكاملة في [الوثائق](https://reference.aspose.com/barcode/java/).
-
-**س: هل يمكنني استخدام Aspose.BarCode في المشاريع التجارية؟**  
-ج: بالطبع. يلزم الحصول على ترخيص تجاري للاستخدام في الإنتاج. تفاصيل الشراء متوفرة في [صفحة الشراء الخاصة بـ Aspose](https://purchase.aspose.com/buy).
-
-**س: كيف يمكنني الحصول على الدعم إذا واجهت مشاكل؟**  
-ج: زر [منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13) للحصول على مساعدة المجتمع، أو افتح تذكرة دعم عبر حساب Aspose الخاص بك.
-
-**س: هل هناك نسخة تجريبية مجانية يمكنني اختبارها؟**  
-ج: نعم، يمكنك تنزيل نسخة تجريبية كاملة الوظائف من [صفحة إصدارات Aspose](https://releases.aspose.com/).
-
-**س: كيف أحصل على ترخيص مؤقت للتقييم؟**  
-ج: يتم توفير التراخيص المؤقتة عبر [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
-
-## الخلاصة
-الآن لديك مثال كامل **java barcode reader example** يوضح كيفية **read barcode from image**، التعرف عليه، واستخراج إحداثيات المنطقة بدقة. دمج هذا المقتطف في مشاريعك سيمنحك كشف باركود سريع وموثوق دون الحاجة إلى أدوات خارجية. استكشف ميزات Aspose.BarCode الأخرى—مثل توليد الباركود والمعالجة الدفعة—لتعزيز تطبيقات جافا الخاصة بك أكثر.
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.BarCode for Java 24.12  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

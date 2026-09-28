@@ -59,6 +59,13 @@ Generieren Sie ganz einfach Barcodes mit Aspose.BarCode für .NET – Ihrer umfa
 Erfahren Sie mehr über die GS1 Coupon UPC-A Databar-Konfiguration mit Aspose.BarCode für .NET. Erstellen Sie ganz einfach Barcodes. Jetzt loslegen!
 ### [GS1 DataMatrix-Beispiel](./gs1-datamatrix-example/)
 Erfahren Sie, wie Sie mit Aspose.BarCode GS1 DataMatrix-Barcodes in .NET erstellen. Generieren Sie Barcodes einfach und effizient in nur wenigen Schritten.
+### [GS1-Barcode in C# erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-gs1-barcode-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET GS1-Barcodes in C# vollständig und Schritt für Schritt erstellen.
+### [GS1-Barcode-Bilder in C# erstellen – So generieren Sie Barcodes in C# schnell](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET schnell GS1-Barcode-Bilder in C# erzeugen.
+
+### [Barcode-PNG in C# erstellen – vollständige Anleitung zu GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET GS1 Micro PDF417 Barcodes als PNG in C# generieren. Schritt‑für‑Schritt‑Anleitung.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

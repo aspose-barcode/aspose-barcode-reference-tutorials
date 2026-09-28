@@ -1,0 +1,7 @@
+Title: How to use barcode generator C# for rows and columns
+Slug: how-to-use-barcode-generator-c-for-rows-and-columns
+Category: general
+ProcessedDate: 2026-09-26T10:50:52.016539
+SourceRepo: AI Search API
+Keywords: barcode generator c#, how to set rows, how to set columns
+PRNumber: 138

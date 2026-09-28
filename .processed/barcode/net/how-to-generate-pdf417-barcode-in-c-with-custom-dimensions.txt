@@ -1,0 +1,7 @@
+Title: How to generate PDF417 barcode in C# with custom dimensions
+Slug: how-to-generate-pdf417-barcode-in-c-with-custom-dimensions
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-07T10:41:23.515976
+SourceRepo: AI Search API
+Keywords: generate pdf417 barcode, how to generate pdf417 barcode, how to set barcode dimensions
+PRNumber: 115

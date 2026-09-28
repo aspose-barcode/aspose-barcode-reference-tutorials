@@ -1,0 +1,7 @@
+Title: How to display info from a barcode library in Python
+Slug: how-to-display-info-from-a-barcode-library-in-python
+Category: general
+ProcessedDate: 2026-09-07T10:45:56.180056
+SourceRepo: AI Search API
+Keywords: how to display info, display product name, show release date, get library version, how to read version
+PRNumber: 116

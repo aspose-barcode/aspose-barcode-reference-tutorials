@@ -157,9 +157,9 @@ Aspose.BarCode for Java offers a comprehensive set of features that simplify bar
 
 ## Related Tutorials
 
-- [Create data matrix barcode and set code text location in Java]({{< relref "/barcode/java/text-and-styling/setting-code-text-location/" >}})
-- [How to Set Barcode Text Color in Java with Aspose.BarCode]({{< relref "/barcode/java/text-and-styling/setting-code-text-foreground-color/" >}})
-- [Generate Barcode Java – Set Image Resolution with Aspose.BarCode]({{< relref "/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/" >}})
+- [Create data matrix barcode and set code text location in Java]({{< relref "setting-code-text-location" >}})
+- [How to Set Barcode Text Color in Java with Aspose.BarCode]({{< relref "setting-code-text-foreground-color" >}})
+- [Generate Barcode Java – Set Image Resolution with Aspose.BarCode]({{< relref "setting-image-resolution-barcode" >}})
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
