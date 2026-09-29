@@ -1,0 +1,7 @@
+Title: How to build a barcode generator tutorial in C# that creates compact PDF417 barcodes
+Slug: how-to-build-a-barcode-generator-tutorial-in-c-that-creates
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-29T14:59:16.756132
+SourceRepo: AI Search API
+Keywords: barcode generator tutorial, generate pdf417 barcode, create compact barcode, c# generate pdf417
+PRNumber: 140
