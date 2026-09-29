@@ -83,6 +83,7 @@ weight: 29
 - **Έλεγχος Έκδοσης:** Διατηρήστε την έκδοση της βιβλιοθήκης Aspose.BarCode συνεπή σε ανάπτυξη, δοκιμή και παραγωγή.
 
 ## Συμμετοχικά Σεμινάρια Συμπαγούς PDF417
+
 ### [Δημιουργία Συμπαγών PDF417 Κωδικών](./compact-pdf417-basic-configuration/)
 Μάθετε πώς να δημιουργείτε Συμπαγείς PDF417 κωδικούς χρησιμοποιώντας το Aspose.BarCode for .NET. Αναλυτικός οδηγός με βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
 ### [Δημιουργία μικρού κώδικα PDF417 σε C# – βήμα‑βήμα οδηγός](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
@@ -97,6 +98,7 @@ weight: 29
 ### [Δημιουργία Μεταδεδομένων PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 ### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός](./generate-pdf417-barcode-in-c-complete-guide/)
 ### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+### [Δημιουργία PDF417 barcode με συμπαγείς ρυθμίσεις σε C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
 ### [Πώς να Διαβάσετε PDF417 σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 ### [Πώς να δημιουργήσετε εικόνα barcode σε C# – Οδηγός MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
 Μάθετε πώς να δημιουργήσετε εικόνα barcode τύπου MicroPdf417...
@@ -184,6 +186,10 @@ weight: 29
 ### [Πώς να δημιουργήσετε PDF417 barcode σε C# με Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# χρησιμοποιώντας το Barcode Generator της Aspose.BarCode.
 
+### [Πώς να δημιουργήσετε barcode σε C# με Aspose.BarCode και να προσθέσετε μεταδεδομένα](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
+
+### [Δημιουργία Micro PDF417 Barcode σε C# – οδηγός βήμα‑βήμα](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Ποιο είναι το μέγιστο ποσό δεδομένων που μπορώ να αποθηκεύσω σε έναν Συμπαγή PDF417 κώδικα;**  
@@ -206,6 +212,14 @@ weight: 29
 **Τελευταία Ενημέρωση:** 2026-01-09  
 **Δοκιμασμένο Με:** Aspose.BarCode 24.11 for .NET  
 **Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Πώς να Δημιουργήσετε Barcode – Compact PDF417 με Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Πλήρεις Οδηγοί και Παραδείγματα του Aspose.BarCode για .NET](/barcode/net/)
+- [Πώς να δημιουργήσετε Aztec barcode με διόρθωση σφαλμάτων σε .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [Πώς να δημιουργήσετε PDF417 barcode σε C# με προσαρμοσμένες διαστάσεις](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
+- [Πώς να αποκωδικοποιήσετε PDF417 barcode σε C# με BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

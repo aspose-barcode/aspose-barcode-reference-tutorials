@@ -95,6 +95,9 @@ Panduan langkah demi langkah menghasilkan gambar barcode PDF417 menggunakan Aspo
 Panduan lengkap untuk membaca banyak barcode, termasuk PDF417, menggunakan C# dan Aspose.BarCode.
 ### [Buat Metadata Barcode PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Pelajari cara menambahkan metadata ke barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
+### [Cara menghasilkan barcode di C# dengan Aspose.BarCode dan menambahkan metadata](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
+Pelajari cara menghasilkan barcode menggunakan C# dengan Aspose.BarCode dan menambahkan metadata, lengkap dengan contoh kode.
+
 ### [Buat Barcode PDF417 di C# – Panduan Lengkap](./generate-pdf417-barcode-in-c-complete-guide/)
 Pelajari cara menghasilkan barcode PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode lengkap.
 ### [Buat Barcode PDF417 di C# – Panduan Lengkap Langkah‑per‑Langkah](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
@@ -105,6 +108,9 @@ Pelajari cara membaca barcode PDF417 menggunakan C# dengan Aspose.BarCode, terma
 Panduan langkah‑demi‑langkah untuk membuat gambar barcode MicroPdf417 menggunakan C# dengan Aspose.BarCode.
 ### [Menghasilkan Barcode Micro PDF417 di C# – Panduan Lengkap](./generate-micro-pdf417-barcode-in-c-complete-guide/)
 Panduan lengkap untuk membuat barcode Micro PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan langkah‑langkah detail.
+### [Cara menghasilkan barcode micro PDF417 di C# – panduan langkah‑per‑langkah](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Panduan langkah‑demi‑step lengkap untuk menghasilkan barcode micro PDF417 menggunakan C# dengan Aspose.BarCode.
+
 ### [Cara Menyimpan Barcode di C# – Menghasilkan Barcode PDF417](./how-to-save-barcode-in-c-generate-pdf417-barcodes/)
 Panduan langkah‑demi‑langkah untuk menyimpan barcode PDF417 sebagai gambar menggunakan C# dengan Aspose.BarCode.
 ### [Tutorial Generator Barcode: Cara Menghasilkan Barcode PDF417 di C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
@@ -127,6 +133,15 @@ Panduan langkah‑demi‑langkah untuk menghasilkan gambar barcode PNG menggunak
 Panduan langkah‑demi‑langkah lengkap untuk membuat barcode PDF417 menggunakan C# dengan Aspose.BarCode.
 ### [Buat Barcode PDF417 di C# – Panduan Pemrograman Lengkap](./create-pdf417-barcode-in-c-complete-programming-guide/)
 Panduan langkah‑demi‑langkah lengkap untuk membuat barcode PDF417 menggunakan C# dengan Aspose.BarCode.
+### [Hasilkan barcode PDF417 dengan pengaturan kompak di C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
+Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dengan pengaturan kompak menggunakan C# dan Aspose.BarCode.
+
+### [Cara menghasilkan barcode PDF417 di C# dengan dimensi khusus](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
+Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dengan dimensi khusus menggunakan C# dan Aspose.BarCode.
+
+### [Cara mendekode barcode PDF417 di C# dengan BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+Pelajari cara mendekode barcode PDF417 menggunakan C# dengan BarCodeReader dari Aspose.BarCode, termasuk contoh kode lengkap.
+
 ### [Cara Membuat Barcode PDF417 dengan Aspose – Panduan Langkah‑demi‑Langkah Lengkap](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
 Panduan lengkap untuk membuat barcode PDF417 menggunakan Aspose.BarCode di .NET, dengan contoh kode dan penjelasan detail.
 ### [Menghasilkan Barcode PDF417 di C# – Membuat Barcode PDF417 C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
