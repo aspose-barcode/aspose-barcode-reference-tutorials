@@ -66,6 +66,10 @@ Aprenda a gerar imagens de códigos de barras GS1 em C# rapidamente usando Aspos
 
 ### [Criar PNG de código de barras em C# – guia completo para GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Aprenda a gerar imagens PNG de códigos de barras GS1 Micro PDF417 em C# usando Aspose.BarCode. Guia passo a passo para implementação rápida.
+
+### [Criar código de barras GS1 em C# e exportá-lo como PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
+Aprenda a gerar códigos de barras GS1 em C# e exportá-los como imagens PNG usando Aspose.BarCode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

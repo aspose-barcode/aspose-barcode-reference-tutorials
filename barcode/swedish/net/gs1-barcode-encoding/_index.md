@@ -65,6 +65,9 @@ Lär dig hur du skapar GS1-streckkoder i C# med Aspose.BarCode för .NET. Följ 
 Lär dig snabbt skapa GS1 streckkods‑bilder i C# med Aspose.BarCode. Följ vår enkla steg‑för‑steg‑guide.
 ### [Skapa streckkod PNG i C# – fullständig guide till GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Lär dig att generera GS1 Micro PDF417 streckkoder som PNG-filer i C# med Aspose.BarCode för .NET. Följ vår steg-för-steg-guide.
+### [Skapa GS1-streckkod i C# och exportera den som PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
+Lär dig hur du skapar GS1-streckkod i C# och exporterar den som PNG med Aspose.BarCode för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

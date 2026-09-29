@@ -65,6 +65,8 @@ url: /ru/net/gs1-barcode-encoding/
 Узнайте, как быстро создавать изображения штрих‑кода GS1 в C# с помощью Aspose.BarCode. Пошаговое руководство.
 ### [Создание PNG штрих‑кода в C# – полное руководство по GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Узнайте, как с помощью Aspose.BarCode для .NET генерировать PNG‑изображения штрих‑кода GS1 Micro PDF417 на C#.
+### [Создание штрих‑кода GS1 в C# и экспорт в PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
+Узнайте, как быстро генерировать штрих‑код GS1 в C# и сохранять его как PNG‑изображение с помощью Aspose.BarCode.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
