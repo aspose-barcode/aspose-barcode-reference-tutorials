@@ -1,0 +1,7 @@
+Title: How to read assembly and check build with Aspose.Barcode
+Slug: how-to-read-assembly-and-check-build-with-aspose-barcode
+Category: general
+ProcessedDate: 2026-09-20T02:36:03.965790
+SourceRepo: AI Search API
+Keywords: how to read assembly, how to get version, how to check build
+PRNumber: 131

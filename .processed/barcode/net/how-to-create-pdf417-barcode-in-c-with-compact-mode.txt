@@ -1,0 +1,7 @@
+Title: How to create PDF417 barcode in C# with compact mode
+Slug: how-to-create-pdf417-barcode-in-c-with-compact-mode
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-10T14:36:31.234607
+SourceRepo: AI Search API
+Keywords: create pdf417 barcode, enable compact mode, barcode generator c#, how to generate barcode, how to set columns
+PRNumber: 119

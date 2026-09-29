@@ -1,0 +1,7 @@
+Title: How to set barcode columns and rows with C# BarcodeGenerator
+Slug: how-to-set-barcode-columns-and-rows-with-c-barcodegenerator
+Category: general
+ProcessedDate: 2026-09-16T22:48:39.263411
+SourceRepo: AI Search API
+Keywords: set barcode columns
+PRNumber: 128

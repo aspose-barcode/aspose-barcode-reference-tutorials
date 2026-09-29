@@ -1,0 +1,7 @@
+Title: How to set barcode properties with the C# Barcode Generator
+Slug: how-to-set-barcode-properties-with-the-c-barcode-generator
+Category: general
+ProcessedDate: 2026-09-10T14:49:08.129189
+SourceRepo: AI Search API
+Keywords: how to set barcode, c# barcode generator, barcode module width, how to generate barcode, how to save barcode
+PRNumber: 121

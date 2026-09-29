@@ -1,0 +1,7 @@
+Title: How to generate micro pdf417 barcode in C# – step‑by‑step guide
+Slug: how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-07T10:41:19.531882
+SourceRepo: AI Search API
+Keywords: generate micro pdf417 barcode
+PRNumber: 115

@@ -1,0 +1,7 @@
+Title: How to generate barcode in C# with Aspose.BarCode and add metadata
+Slug: how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-07T10:41:11.046260
+SourceRepo: AI Search API
+Keywords: generate barcode in c#, how to add metadata, how to set timestamp, how to generate pdf417, create barcode with aspose
+PRNumber: 115

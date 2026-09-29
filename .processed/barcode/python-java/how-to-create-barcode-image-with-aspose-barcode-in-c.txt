@@ -1,0 +1,7 @@
+Title: How to create barcode image with Aspose.Barcode in C#
+Slug: how-to-create-barcode-image-with-aspose-barcode-in-c
+Category: general
+ProcessedDate: 2026-09-13T18:54:38.769385
+SourceRepo: AI Search API
+Keywords: create barcode image, generate barcode png, how to save barcode, aspose barcode generator, custom barcode dimensions
+PRNumber: 124

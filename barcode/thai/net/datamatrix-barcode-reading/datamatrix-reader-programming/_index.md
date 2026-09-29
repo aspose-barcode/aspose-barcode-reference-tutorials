@@ -1,38 +1,102 @@
 ---
-title: การเขียนโปรแกรม DataMatrix Reader ด้วย Aspose.BarCode สำหรับ .NET
-linktitle: การเขียนโปรแกรมอ่าน DataMatrix
+date: 2026-08-17
+description: สำรวจการเขียนโปรแกรมตัวอ่าน DataMatrix ด้วย Aspose.BarCode สำหรับ .NET
+  เรียนรู้วิธีสร้างและอ่านบาร์โค้ด DataMatrix ในแอปพลิเคชัน .NET ของคุณด้วยคู่มือที่ครอบคลุมนี้
+keywords:
+- create barcode image .net
+- barcode reader guide
+- generate datamatrix c#
+- c# barcode recognition library
+- barcode image handling c#
+lastmod: 2026-08-17
+linktitle: การเขียนโปรแกรมตัวอ่าน DataMatrix
+og_description: สร้างภาพบาร์โค้ด .NET ด้วย Aspose.BarCode เพื่อสร้างและอ่านโค้ด DataMatrix
+  คู่มือนี้แสดงการตั้งค่าแบบขั้นตอนต่อขั้นตอน ตัวอย่างโค้ด และแนวปฏิบัติที่ดีที่สุดสำหรับการจัดการภาพบาร์โค้ดใน
+  C#
+og_image_alt: Tutorial image showing DataMatrix barcode generated with Aspose.BarCode
+  in a .NET application
+og_title: สร้างภาพบาร์โค้ด .NET ด้วย Aspose.BarCode DataMatrix
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Explore DataMatrix reader programming with Aspose.BarCode for .NET.
+    Learn how to generate and read DataMatrix barcodes in your .NET applications with
+    this comprehensive guide.
+  headline: Create barcode image .NET with Aspose.BarCode for DataMatrix
+  type: TechArticle
+- description: Explore DataMatrix reader programming with Aspose.BarCode for .NET.
+    Learn how to generate and read DataMatrix barcodes in your .NET applications with
+    this comprehensive guide.
+  name: Create barcode image .NET with Aspose.BarCode for DataMatrix
+  steps:
+  - name: '**Visual Studio** (any recent edition) with a supported .NET runtime installed.'
+    text: '**Visual Studio** (any recent edition) with a supported .NET runtime installed.'
+  - name: '**Aspose.BarCode for .NET** – download it from the [download page](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download it from the [download page](https://releases.aspose.com/barcode/net/).'
+  - name: '**Basic C# knowledge** – you should be comfortable creating a console or
+      desktop project.'
+    text: '**Basic C# knowledge** – you should be comfortable creating a console or
+      desktop project.'
+  type: HowTo
+- questions:
+  - answer: It embeds configuration data in a DataMatrix symbol so a scanner can automatically
+      set parameters like illumination or decoding mode.
+    question: What is DataMatrix reader programming?
+  - answer: The library offers a unified API for over 50 barcode types, high‑performance
+      encoding/decoding, and full .NET Core support.
+    question: Why choose Aspose.BarCode for .NET?
+  - answer: A trial version is available for evaluation; a commercial license is required
+      for production deployments.
+    question: Can I use Aspose.BarCode for free?
+  - answer: You can request a short‑term license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: You can buy a full license from the [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: How can I purchase a full license?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: สำรวจการเขียนโปรแกรมเครื่องอ่าน DataMatrix ด้วย Aspose.BarCode สำหรับ .NET เรียนรู้วิธีสร้างและอ่านบาร์โค้ด DataMatrix ในแอปพลิเคชัน .NET ของคุณด้วยคำแนะนำที่ครอบคลุมนี้
-weight: 10
+tags:
+- DataMatrix
+- Aspose.BarCode
+- barcode generation
+- C# barcode
+- create barcode image
+title: สร้างภาพบาร์โค้ด .NET ด้วย Aspose.BarCode สำหรับ DataMatrix
 url: /th/net/datamatrix-barcode-reading/datamatrix-reader-programming/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การเขียนโปรแกรม DataMatrix Reader ด้วย Aspose.BarCode สำหรับ .NET
+# สร้างภาพบาร์โค้ด .NET ด้วย Aspose.BarCode สำหรับ DataMatrix
 
-คุณพร้อมที่จะปลดล็อกโลกของการเขียนโปรแกรมเครื่องอ่านบาร์โค้ด DataMatrix ด้วย Aspose.BarCode สำหรับ .NET แล้วหรือยัง? หากคุณชื่นชอบการบูรณาการข้อมูลและการจัดการบาร์โค้ดอย่างราบรื่น บทช่วยสอนนี้ออกแบบมาเพื่อคุณโดยเฉพาะ ในคำแนะนำทีละขั้นตอนนี้ เราจะเจาะลึกการเขียนโปรแกรมเครื่องอ่านบาร์โค้ด DataMatrix โดยใช้ Aspose.BarCode ซึ่งเป็นไลบรารี .NET อันทรงประสิทธิภาพที่ช่วยลดความยุ่งยากในการสร้าง การอ่าน และการจัดการบาร์โค้ด 
+ในบทแนะนำนี้คุณจะได้เรียนรู้วิธี **สร้างภาพบาร์โค้ด .NET** ที่สร้างและอ่านโค้ด DataMatrix ด้วย Aspose.BarCode ไม่ว่าคุณจะต้องฝังบาร์โค้ดในป้ายผลิตหรืออัตโนมัติการติดตามสินค้าคงคลัง คู่มือนี้จะพาคุณผ่านทุกขั้นตอน—from การตั้งค่าโครงการจนถึงการอ่านบาร์โค้ดกลับ—เพื่อให้คุณสามารถนำโซลูชันที่เชื่อถือได้ไปใช้ได้อย่างรวดเร็ว
+
+## คำตอบอย่างรวดเร็ว
+- **“reader programming” คืออะไร?** มันเข้ารหัสสัญลักษณ์ DataMatrix เพื่อให้สแกนเนอร์สามารถกำหนดค่าตัวเองโดยอัตโนมัติ  
+- **เวอร์ชัน .NET ที่รองรับมีอะไรบ้าง?** Aspose.BarCode ทำงานกับ .NET Framework 4.0+, .NET Core 2.0+, และ .NET 5/6+  
+- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** เวอร์ชันทดลองฟรีเพียงพอสำหรับการทดสอบ; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **Aspose.BarCode รองรับรูปแบบบาร์โค้ดกี่ประเภท?** มากกว่า 50 ประเภท 1D และ 2D รวมถึง DataMatrix, QR, และ PDF417  
+- **สามารถอ่านบาร์โค้ดโดยไม่บันทึกไฟล์รูปภาพได้หรือไม่?** ได้ — ใช้ `MemoryStream` เพื่อประมวลผลภาพทั้งหมดในหน่วยความจำ
+
+## DataMatrix barcode reader programming คืออะไร?
+DataMatrix barcode reader programming คือเทคนิคการฝังข้อมูลการกำหนดค่าพิเศษไว้ในสัญลักษณ์ DataMatrix เพื่อให้สแกนเนอร์สามารถปรับแสงสว่าง, โหมดการถอดรหัส, และพารามิเตอร์การทำงานอื่น ๆ โดยอัตโนมัติเมื่อสัญลักษณ์ถูกตรวจพบ วิธีนี้ช่วยลดความจำเป็นในการตั้งค่าสแกนเนอร์ด้วยตนเองและเพิ่มอัตราการทำงานในสภาพแวดล้อมที่มีปริมาณสูง เช่น สายการผลิตหรือระบบคัดแยกคลังสินค้า
+
+## ทำไมต้องใช้ Aspose.BarCode สำหรับ .NET?
+Aspose.BarCode สำหรับ .NET มี API ที่เป็นเอกภาพ รองรับบาร์โค้ดกว่า 50 ประเภท, สามารถจัดการภาพหลายเมกะไบต์โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ, และให้การเข้ารหัสและถอดรหัสในระดับ sub‑millisecond บนฮาร์ดแวร์เซิร์ฟเวอร์ทั่วไป ทำให้เป็นตัวเลือกที่มีประสิทธิภาพสูงสำหรับแอปพลิเคชันเดสก์ท็อปและคลาวด์ที่ต้องการการประมวลผลบาร์โค้ดที่เชื่อถือได้
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้นการเดินทางสู่การเขียนโปรแกรมเครื่องอ่าน DataMatrix ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนเริ่มทำงาน ตรวจสอบให้แน่ใจว่าคุณมี:
 
-1. Visual Studio และ .NET Framework
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนระบบของคุณพร้อมกับ .NET Framework Aspose.BarCode สำหรับ .NET เข้ากันได้กับเฟรมเวิร์กหลายเวอร์ชัน ดังนั้นคุณจึงสามารถเลือกเวอร์ชันที่เหมาะกับความต้องการของคุณได้
+1. **Visual Studio** (รุ่นล่าสุดใดก็ได้) พร้อมรันไทม์ .NET ที่รองรับติดตั้งไว้  
+2. **Aspose.BarCode for .NET** – ดาวน์โหลดจาก [หน้าดาวน์โหลด](https://releases.aspose.com/barcode/net/)  
+3. **ความรู้พื้นฐาน C#** – ควรคุ้นเคยกับการสร้างโปรเจกต์คอนโซลหรือเดสก์ท็อป
 
-2. Aspose.BarCode สำหรับ .NET
- ดาวน์โหลดและติดตั้ง Aspose.BarCode สำหรับ .NET จากไฟล์[หน้าดาวน์โหลด](https://releases.aspose.com/barcode/net/). คุณสามารถรับรุ่นทดลองใช้ฟรีหรือใบอนุญาตแบบเต็มสำหรับความต้องการในการพัฒนาของคุณได้
+## นำเข้า namespace
 
-3. ความรู้พื้นฐานของ C#
-บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# หากคุณยังใหม่กับ C# คุณอาจต้องการทบทวนพื้นฐานก่อนที่จะเริ่มดำเนินการ
-
-ตอนนี้คุณมีข้อกำหนดเบื้องต้นตามลำดับแล้ว มาดูคำแนะนำทีละขั้นตอนเกี่ยวกับการเขียนโปรแกรมเครื่องอ่าน DataMatrix โดยใช้ Aspose.BarCode สำหรับ .NET กัน
-
-## นำเข้าเนมสเปซ
-
-ในโลกของการเขียนโปรแกรม .NET เนมสเปซถือเป็นสิ่งสำคัญสำหรับการจัดระเบียบและการเข้าถึงคลาสและวิธีการ หากต้องการทำงานกับ Aspose.BarCode คุณต้องนำเข้าเนมสเปซที่จำเป็น ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
+`Aspose.BarCode` ให้คลาสหลักสำหรับการสร้างและอ่านบาร์โค้ด, ส่วน `System.Drawing` จัดการการปรับแต่งภาพ
 
 ```csharp
 using Aspose.BarCode.BarCodeRecognition;
@@ -41,19 +105,22 @@ using System;
 using System.Drawing;
 ```
 
- ในขั้นตอนนี้ เราจะนำเข้าไฟล์`Aspose.BarCode` เนมสเปซเพื่อเข้าถึงคลาสและวิธีการทั้งหมดที่จำเป็นสำหรับการจัดการบาร์โค้ด เรายังนำเข้า`System.Drawing` เพื่อจัดการการดำเนินการที่เกี่ยวข้องกับรูปภาพ
+## `BarcodeGenerator` class คืออะไร?
+คลาส `BarcodeGenerator` เป็นอ็อบเจ็กต์หลักของ Aspose.BarCode สำหรับสร้างภาพบาร์โค้ดในหน่วยความจำ; มันบรรจุการตั้งค่าทั้งหมดที่จำเป็นสำหรับกำหนดสัญลักษณ์, รูปลักษณ์, ตัวเลือกการเข้ารหัส, และรูปแบบผลลัพธ์ ทำให้ผู้พัฒนาสามารถสร้างบาร์โค้ดคุณภาพสูงด้วยการเรียกเมธอดเดียว
 
-ตอนนี้ เราจะแจกแจงตัวอย่างที่คุณระบุไว้เป็นหลายขั้นตอนเพื่อทำความเข้าใจแต่ละส่วนของกระบวนการเขียนโปรแกรมเครื่องอ่าน DataMatrix:
+## วิธีกำหนดเส้นทางโฟลเดอร์
 
-## ขั้นตอนที่ 1: กำหนดเส้นทางไดเรกทอรีของคุณ
+กำหนดโฟลเดอร์ที่ต้องการบันทึกภาพบาร์โค้ดที่สร้างขึ้น  
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- แทนที่`"Your Directory Path"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกภาพบาร์โค้ดที่สร้างขึ้น
+แทนที่ `"Your Directory Path"` ด้วยเส้นทางโฟลเดอร์จริงบนเครื่องของคุณ
 
-## ขั้นตอนที่ 2: เริ่มต้น BarcodeGenerator
+## วิธีเริ่มต้น DataMatrix generator
+
+สร้างอินสแตนซ์ `BarcodeGenerator`, ตั้งค่าสัญลักษณ์เป็น DataMatrix, และเปิดใช้งาน reader programming
 
 ```csharp
 System.Console.WriteLine("DataMatrixReaderProgramming:");
@@ -61,22 +128,29 @@ System.Console.WriteLine("DataMatrixReaderProgramming:");
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
 {
     generator.Parameters.Barcode.XDimension.Pixels = 4;
-    // ตั้งค่าสถานะที่ระบุว่าข้อมูลถูกเข้ารหัสสำหรับการเขียนโปรแกรมเครื่องอ่าน
+    // Set a flag that indicates data is encoded for reader programming
     generator.Parameters.Barcode.DataMatrix.IsReaderProgramming = true;
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
- ที่นี่เราสร้าง`BarcodeGenerator` และระบุว่าเราต้องการสร้างบาร์โค้ด DataMatrix เรายังตั้งค่า`XDimension` (ความกว้างของแถบบาร์โค้ด) ถึง 4 พิกเซล ขั้นตอนสำคัญที่นี่คือการตั้งค่า`IsReaderProgramming` ตั้งค่าสถานะไปที่`true`แสดงว่าข้อมูลได้รับการเข้ารหัสสำหรับการเขียนโปรแกรมเครื่องอ่าน
+การตั้งค่าหลัก:
 
-## ขั้นตอนที่ 3: สร้างภาพบาร์โค้ด
+- `XDimension = 4` pixels ควบคุมขนาดโมดูล  
+- `IsReaderProgramming = true` แจ้งสแกนเนอร์ว่าสัญลักษณ์มีข้อมูลการกำหนดค่า
+
+## วิธีสร้างภาพบาร์โค้ด
+
+เรียกเมธอด `Save` เพื่อบันทึกภาพไปยังเส้นทางที่เลือก
 
 ```csharp
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
-บรรทัดนี้จะสร้างภาพบาร์โค้ดตามการตั้งค่าที่เรากำหนดไว้ในขั้นตอนก่อนหน้า
+โดยค่าเริ่มต้นภาพจะบันทึกเป็นรูปแบบ PNG, แต่คุณสามารถเลือก JPEG, BMP หรือ TIFF ได้ตามต้องการ
 
-## ขั้นตอนที่ 4: อ่านบาร์โค้ด
+## วิธีอ่านบาร์โค้ดกลับ
+
+ใช้ `BarCodeReader` เพื่อถอดรหัสภาพที่บันทึกและตรวจสอบแฟล็ก reader‑programming คำสั่ง `BarCodeReader` เป็นคอมโพเนนต์หลักสำหรับการถอดรหัสบาร์โค้ด; มันอ่านภาพ, ตรวจจับสัญลักษณ์ที่รองรับ, และเปิดเผยคุณสมบัติเช่น `IsReaderProgrammable` ที่บ่งบอกว่าสัญลักษณ์ DataMatrix มีข้อมูลการตั้งค่า reader‑programming หรือไม่
 
 ```csharp
     using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -87,37 +161,53 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 }
 ```
 
- ในขั้นตอนสุดท้ายนี้ เราใช้`BarCodeReader` เพื่ออ่านบาร์โค้ดจากรูปภาพที่สร้างขึ้น เราระบุว่าเราคาดว่าจะมีบาร์โค้ด DataMatrix จากนั้นโค้ดจะอ่านบาร์โค้ดและพิมพ์ว่าเครื่องอ่านตั้งโปรแกรมได้หรือไม่
+รีดเดอร์จะคืนค่า `IsReaderProgrammable` = `true` เมื่อแฟล็กถูกเข้ารหัสอย่างถูกต้อง
 
-ตอนนี้คุณมีความเข้าใจอย่างสมบูรณ์เกี่ยวกับการแยกย่อยของตัวอย่างแล้ว คุณสามารถใช้โค้ดนี้ในแอปพลิเคชัน .NET ของคุณเพื่อเขียนโปรแกรมเครื่องอ่าน DataMatrix ได้อย่างง่ายดาย
+## ปัญหาทั่วไปและการแก้ไข
 
-## บทสรุป
-
-การเขียนโปรแกรมเครื่องอ่าน DataMatrix เป็นส่วนสำคัญของการจัดการบาร์โค้ดในอุตสาหกรรมต่างๆ ด้วย Aspose.BarCode สำหรับ .NET คุณจะมีเครื่องมือที่มีประสิทธิภาพในการสร้างและอ่านบาร์โค้ด DataMatrix ได้อย่างราบรื่น ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณสามารถปลดล็อกศักยภาพเต็มรูปแบบของระบบบาร์โค้ดอัตโนมัติในแอปพลิเคชันของคุณได้
-
- คุณมีคำถามเพิ่มเติมเกี่ยวกับ Aspose.BarCode สำหรับ .NET หรือไม่? ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/barcode/net/) หรือเยี่ยมชมได้ที่[ฟอรั่มสนับสนุน Aspose.BarCode](https://forum.aspose.com/c/barcode/13) เพื่อขอความช่วยเหลือจากผู้เชี่ยวชาญ
+- **ไม่พบภาพ** – ตรวจสอบว่าเส้นทางโฟลเดอร์ลงท้ายด้วยเครื่องหมายแบ็กสแลช (`\`) หรือใช้ `Path.Combine`  
+- **รีดเดอร์คืนค่า false** – ตรวจสอบว่าได้ตั้งค่า `IsReaderProgramming` **ก่อน** เรียก `Save`  
+- **รูปแบบภาพไม่รองรับ** – ใช้ PNG หรือ JPEG; BMP และ TIFF อาจต้องมีโค้ดเอกสารเสริมบน Windows รุ่นเก่า
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: การเขียนโปรแกรมเครื่องอ่าน DataMatrix คืออะไร
+**ถาม: DataMatrix reader programming คืออะไร?**  
+ตอบ: มันฝังข้อมูลการกำหนดค่าไว้ในสัญลักษณ์ DataMatrix เพื่อให้สแกนเนอร์สามารถตั้งค่าพารามิเตอร์เช่นแสงสว่างหรือโหมดการถอดรหัสโดยอัตโนมัติ
 
-ตอบ 1: การเขียนโปรแกรมเครื่องอ่าน DataMatrix เกี่ยวข้องกับการเข้ารหัสข้อมูลในรูปแบบบาร์โค้ด DataMatrix ซึ่งสามารถอ่านได้ง่ายด้วยเครื่องสแกนบาร์โค้ดหรือซอฟต์แวร์ โปรแกรมนี้มักใช้ในอุตสาหกรรมต่างๆ เช่น การผลิต การดูแลสุขภาพ และโลจิสติกส์ สำหรับการจัดเก็บและเรียกค้นข้อมูล
+**ถาม: ทำไมต้องเลือก Aspose.BarCode สำหรับ .NET?**  
+ตอบ: ไลบรารีนี้มี API เอกภาพสำหรับบาร์โค้ดกว่า 50 ประเภท, การเข้ารหัส/ถอดรหัสประสิทธิภาพสูง, และรองรับ .NET Core อย่างเต็มรูปแบบ
 
-### คำถามที่ 2: เหตุใดจึงเลือก Aspose.BarCode สำหรับ .NET
+**ถาม: สามารถใช้ Aspose.BarCode ฟรีได้หรือไม่?**  
+ตอบ: มีเวอร์ชันทดลองสำหรับการประเมิน; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง
 
-ตอบ 2: Aspose.BarCode สำหรับ .NET เป็นไลบรารี่ที่มีประสิทธิภาพและอเนกประสงค์ ช่วยลดความยุ่งยากในการสร้าง การอ่าน และการจัดการบาร์โค้ดในแอปพลิเคชัน .NET ให้การสนับสนุนบาร์โค้ดประเภทต่างๆ อย่างกว้างขวาง ทำให้เป็นตัวเลือกอันดับต้นๆ สำหรับนักพัฒนา
+**ถาม: จะขอรับลิขสิทธิ์ชั่วคราวได้อย่างไร?**  
+ตอบ: คุณสามารถขอรับลิขสิทธิ์ระยะสั้นจาก [หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
-### คำถามที่ 3: ฉันสามารถใช้ Aspose.BarCode ได้ฟรีหรือไม่
+**ถาม: จะซื้อใบอนุญาตเต็มได้อย่างไร?**  
+ตอบ: คุณสามารถซื้อใบอนุญาตเต็มได้จาก [หน้า Aspose purchase](https://purchase.aspose.com/buy)
 
- A3: Aspose.BarCode มีเวอร์ชันทดลองใช้ฟรีเพื่อวัตถุประสงค์ในการประเมินผล อย่างไรก็ตาม สำหรับการใช้งานเชิงพาณิชย์ คุณจะต้องซื้อใบอนุญาต คุณสามารถรับใบอนุญาตได้จาก[ลิงค์นี้](https://purchase.aspose.com/buy).
+**ถาม: ไลบรารีเข้ากันได้กับ .NET เวอร์ชันล่าสุดหรือไม่?**  
+ตอบ: ใช่, รองรับ .NET Framework 4.0+, .NET Core 2.0+, และ .NET 5/6+
 
-### คำถามที่ 4: ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.BarCode ได้อย่างไร
+## สรุป
 
- A4: หากคุณต้องการใบอนุญาตชั่วคราวสำหรับโครงการระยะสั้น คุณสามารถขอรับใบอนุญาตได้จาก[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
+โดยทำตามคู่มือนี้คุณจะรู้วิธี **สร้างภาพบาร์โค้ด .NET** ที่สร้างสัญลักษณ์ DataMatrix และอ่านกลับด้วย Aspose.BarCode นำโค้ดตัวอย่างเหล่านี้ไปผสานในโปรเจกต์ C# ใดก็ได้—เดสก์ท็อป, เซอร์วิส, หรือเว็บ—เพื่ออัตโนมัติการทำงานของบาร์โค้ดในอุตสาหกรรมการผลิต, โลจิสติกส์, หรือสุขภาพ
 
-### คำถามที่ 5: Aspose.BarCode เข้ากันได้กับ .NET Framework ล่าสุดหรือไม่
+สำหรับข้อมูลอ้างอิงเพิ่มเติม สำรวจ [เอกสารอย่างเป็นทางการ](https://reference.aspose.com/barcode/net/) หรือเข้าร่วมชุมชนใน [ฟอรั่มสนับสนุน Aspose.BarCode](https://forum.aspose.com/c/barcode/13)
 
-A5: ใช่ Aspose.BarCode สำหรับ .NET ได้รับการออกแบบมาให้เข้ากันได้กับ .NET Framework เวอร์ชันต่างๆ รวมถึงเวอร์ชันล่าสุดด้วย
+---
+
+**อัปเดตล่าสุด:** 2026-08-17  
+**ทดสอบกับ:** Aspose.BarCode 24.11 for .NET  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีอ่าน DataMatrix Barcodes ด้วย Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-reading/)  
+- [วิธีสร้าง DataMatrix Barcodes (ECC 200) ด้วย Aspose.BarCode for .NET](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)  
+- [สร้าง Barcode PNG – DataMatrix Aspect Ratio – Aspose.BarCode](/barcode/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

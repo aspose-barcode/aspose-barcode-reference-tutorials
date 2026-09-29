@@ -1,0 +1,7 @@
+Title: How to resize barcode in C# with Aspose.BarCode – step‑by‑step guide
+Slug: how-to-resize-barcode-in-c-with-aspose-barcode-step-by-step
+Category: general
+ProcessedDate: 2026-09-23T07:30:12.775389
+SourceRepo: AI Search API
+Keywords: how to resize barcode, generate barcode c#, barcode generator example, create databar barcode, export barcode image
+PRNumber: 135

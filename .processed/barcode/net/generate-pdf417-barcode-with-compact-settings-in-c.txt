@@ -1,0 +1,7 @@
+Title: Generate PDF417 barcode with compact settings in C#
+Slug: generate-pdf417-barcode-with-compact-settings-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-07T10:41:15.447746
+SourceRepo: AI Search API
+Keywords: generate pdf417 barcode
+PRNumber: 115

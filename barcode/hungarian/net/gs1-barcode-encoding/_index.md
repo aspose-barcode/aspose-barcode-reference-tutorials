@@ -63,6 +63,8 @@ Ismerje meg, hogyan hozhat létre GS1 DataMatrix vonalkódokat .NET-ben az Aspos
 Ismerje meg, hogyan hozhat létre GS1 vonalkódot C#‑ban az Aspose.BarCode for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [GS1 vonalkód képek létrehozása C#‑ban – Hogyan generáljunk gyorsan vonalkódot C#‑ban](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
 Ismerje meg, hogyan hozhat létre GS1 vonalkód képeket C#‑ban gyors és egyszerű módon az Aspose.BarCode segítségével.
+### [Barcode PNG létrehozása C#-ban – teljes útmutató a GS1 Micro PDF417-hez](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Ismerje meg, hogyan generálhat PNG formátumú GS1 Micro PDF417 vonalkódot C#-ban az Aspose.BarCode for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

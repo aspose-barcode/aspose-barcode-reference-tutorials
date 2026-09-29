@@ -1,0 +1,7 @@
+Title: How to create macro PDF417 barcode in C# using Aspose.BarCode
+Slug: how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-16T22:30:49.320584
+SourceRepo: AI Search API
+Keywords: create macro pdf417 barcode
+PRNumber: 126
