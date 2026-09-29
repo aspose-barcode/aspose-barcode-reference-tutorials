@@ -71,6 +71,10 @@ Aspose.BarCode for .NET を使用し、C# で GS1 バーコード画像を迅速
 
 ### [C# でバーコード PNG を作成 – GS1 Micro PDF417 完全ガイド](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Aspose.BarCode for .NET を使用して、C# で GS1 Micro PDF417 バーコードを PNG 形式で生成する完全ガイドです。
+
+### [C# で GS1 バーコードを作成し PNG としてエクスポート](./create-barcode-gs1-in-c-and-export-it-as-png/)
+Aspose.BarCode for .NET を使用して、C# で GS1 バーコードを作成し PNG 形式でエクスポートする手順を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
