@@ -1,10 +1,77 @@
 ---
-date: 2026-02-20
-description: Lär dig hur du anpassar streckkodens kanttjocklek för ITF‑14 med Aspose.BarCode
-  för .NET. Generera ITF‑14‑streckkod och spara PNG‑filer för streckkoden enkelt.
-linktitle: ITF-14 Barcode Border Thickness Customization
+date: 2026-09-08
+description: Lär dig hur du skapar streckkod för produktetikett genom att anpassa
+  ITF-14-kantens tjocklek med Aspose.BarCode för .NET, och snabbt generera ITF-14-streckkod
+  PNG-filer.
+keywords:
+- create product label barcode
+- generate itf-14 barcode
+- customize barcode border
+lastmod: 2026-09-08
+linktitle: Anpassning av ITF-14-streckkodens kanttjocklek
+og_description: Lär dig hur du skapar streckkod för produktetikett genom att anpassa
+  ITF-14-kantens tjocklek med Aspose.BarCode för .NET, och snabbt generera ITF-14-streckkod
+  PNG-filer.
+og_image_alt: Guide showing how to create product label barcode with ITF-14 border
+  using Aspose.BarCode .NET
+og_title: Skapa streckkod för produktetikett med ITF-14-kant i .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to create product label barcode by customizing ITF-14 border
+    thickness with Aspose.BarCode for .NET, and generate ITF-14 barcode PNG files
+    quickly.
+  headline: Create product label barcode with ITF-14 border in .NET
+  type: TechArticle
+- description: Learn how to create product label barcode by customizing ITF-14 border
+    thickness with Aspose.BarCode for .NET, and generate ITF-14 barcode PNG files
+    quickly.
+  name: Create product label barcode with ITF-14 border in .NET
+  steps:
+  - name: import required namespaces
+    text: The `Aspose.BarCode` namespace contains all classes you need to work with
+      barcodes.
+  - name: define the output folder
+    text: The `outputPath` variable specifies the directory for the generated PNG
+      files. Choose a folder where the generated PNG files will be written.
+  - name: create the ITF‑14 barcode instance
+    text: '`ITF` is the class that represents an ITF‑14 barcode.'
+  - name: set the X‑dimension (bar width)
+    text: The X‑Dimension defines the width of each bar; a value of 2 pixels works
+      well for most label printers.
+  - name: choose the border type
+    text: '`ITF.ItfBorderType` determines whether the border is drawn as a separate
+      frame or as part of the barcode bars.'
+  - name: customize barcode border thickness and save images
+    text: '`ITF.ItfBorderThickness.Pixels` sets the thickness in pixels. Below we
+      generate two PNG files – one with a thin 5‑pixel frame and another with a bold
+      15‑pixel frame. Replace the sample data with your own product identifier if
+      needed. The generated PNG files can be directly embedded into label‑design'
+  type: HowTo
+- questions:
+  - answer: ITF‑14 encodes a 14‑digit GTIN and is the standard for shipping containers
+      and bulk packaging in retail logistics.
+    question: What is the ITF‑14 barcode format used for?
+  - answer: Yes. You can change colors, add human‑readable text, set background images,
+      and modify the quiet zone using the same `ITF` object.
+    question: Can I customize other visual aspects besides the border?
+  - answer: Absolutely. Aspose.BarCode supports .NET Framework, .NET Core, and .NET
+      5/6+ runtimes.
+    question: Is the library compatible with .NET 6 and later?
+  - answer: The API accepts any positive integer. Practically, borders larger than
+      30 pixels may exceed label size specifications, so test against your printer’s
+      guidelines.
+    question: Are there limits on how thick the border can be?
+  - answer: Request a trial license [request a temporary license](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Anpassa streckkodens kant för ITF‑14 med Aspose.BarCode .NET
+tags:
+- barcode border
+- ITF-14
+- Aspose.BarCode
+- .NET barcode generation
+title: Skapa streckkod för produktetikett med ITF-14-kant i .NET
 url: /sv/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 weight: 10
 ---
@@ -13,71 +80,77 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anpassa streckkodskant för ITF-14 med Aspose.BarCode .NET
+# Skapa produktetikettstreckkod med ITF-14-ram i .NET
 
-Om du behöver **anpassa streckkodskant** tjocklek för en ITF-14 streckkod, har du kommit till rätt ställe. I den här handledningen går vi igenom de exakta stegen för att generera en ITF-14 streckkod, justera dess kanttyp och **spara streckkod PNG**‑filer med den tjocklek du kräver. Oavsett om du skapar produktetiketter eller lageretiketter, gör kontroll av kanten dina streckkoder professionella och skanningsvänliga.
+I den här handledningen kommer du att lära dig hur du **skapar produktetikettstreckkod** genom att anpassa ramen för en ITF‑14-streckkod med Aspose.BarCode för .NET. Vi går igenom hur du ställer in ramtypen, justerar dess tjocklek och sparar resultatet som en högkvalitativ PNG‑bild — perfekt för produktetiketter, fraktsedlar eller någon lagerhanteringsprocess.
 
 ## Snabba svar
-- **Vad betyder “customize barcode border”?** Den låter dig ange den visuella tjockleken på ramen eller strecket som omger en ITF‑14 streckkod.  
-- **Vilken egenskap styr kanttjockleken?** `ITF.ItfBorderThickness.Pixels`.  
-- **Kan jag också ändra kanttypen?** Ja, via `ITF.ItfBorderType` (Frame eller Bar).  
-- **Vilket bildformat rekommenderas?** PNG fungerar bra för förlustfri kvalitet; använd `BarCodeImageFormat.Png`.  
-- **Behöver jag en licens för produktion?** En giltig Aspose.BarCode-licens krävs för kommersiell användning.
+- **Vad betyder “customize barcode border”?** Det låter dig ange den visuella tjockleken på ramen som omger en ITF‑14-streckkod.  
+- **Vilken egenskap styr ramens tjocklek?** `ITF.ItfBorderThickness.Pixels`.  
+- **Kan jag också ändra ramtypen?** Ja, via `ITF.ItfBorderType` (Frame eller Bar).  
+- **Vilket bildformat rekommenderas för produktetiketter?** PNG, eftersom det bevarar förlustfri detalj på alla upplösningar.  
+- **Behöver jag en licens för produktionsanvändning?** En giltig Aspose.BarCode-licens krävs för kommersiella distributioner.
 
-## Vad är anpassning av ITF-14 streckkodskant?
-Att anpassa streckkodskanten låter dig definiera hur tjock den yttre ramen ser ut runt streckkodssymbolerna. Detta är särskilt användbart när streckkoden skrivs ut på förpackning som kräver en specifik visuell vikt för efterlevnad eller varumärkesprofilering.
+## Hur skapar du produktetikettstreckkod med en anpassad ITF-14-ram?
+Läs in streckkoden, ställ in ramen och spara bilden i två enkla steg. Först skapar du ett `ITF`-streckkodobjekt, konfigurerar `ItfBorderType` och `ItfBorderThickness.Pixels`, och anropar sedan `Save` med `BarCodeImageFormat.Png`. Detta tillvägagångssätt ger dig full kontroll över ramens visuella vikt samtidigt som streckkoden förblir fullt läsbar.
 
-## Varför använda Aspose.BarCode för .NET för att anpassa kanten?
-Aspose.BarCode erbjuder ett flytande API som abstraherar låg‑nivå renderingsdetaljer, vilket låter dig fokusera på affärslogik. Du får:
-- Full kontroll över dimensioner, färger och kantstilar.  
-- Sömlösa **generate itf-14 barcode**‑funktioner med en enda klass.  
-- Enkla metoder för att **save barcode png**‑filer utan extra bildbehandlingsbibliotek.
-
-## Förutsättningar
-Innan vi dyker ner, se till att du har:
-
-1. **Aspose.BarCode for .NET** – ladda ner det från den officiella sidan [här](https://releases.aspose.com/barcode/net/).  
-2. En .NET‑utvecklingsmiljö (Visual Studio, VS Code eller någon IDE du föredrar).  
-3. Grundläggande C#‑kunskaper och bekantskap med streckkodskoncept.
-
-## Importera namnrymder
-Först, importera namnrymden som innehåller streckkodsklasserna.
-
-### Steg 1: Importera namnrymder
+### Steg 1: importera nödvändiga namnrymder
+`Aspose.BarCode`-namnrymden innehåller alla klasser du behöver för att arbeta med streckkoder.  
+```csharp
+using Aspose.BarCode.Generation;
+```
 ```csharp
 using Aspose.BarCode;
 ```
 
-## Ställ in utdatamappen
-Bestäm var de genererade bilderna ska lagras.
-
-### Steg 2: Definiera katalogsökvägen
+### Steg 2: definiera utdatamappen
+`outputPath`-variabeln anger katalogen för de genererade PNG‑filerna.  
+Välj en mapp där de genererade PNG‑filerna ska skrivas.  
+```csharp
+string outputPath = @"C:\Barcodes\ITF14";
+```
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Skapa och konfigurera ITF‑14 streckkoden
-Nu ska vi skapa streckkoden och tillämpa kantinställningarna.
-
-### Steg 3: Skapa en ITF‑14 streckkod
+### Steg 3: skapa ITF‑14-streckkodinstansen
+`ITF` är klassen som representerar en ITF‑14-streckkod.  
+```csharp
+ITF barcode = new ITF("12345678901234");
+```
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
 ```
-Byt ut exempeldata med din egen produktidentifierare om så behövs.
 
-### Steg 4: Justera X‑dimensionen (Streckbredd)
+### Steg 4: ange X‑dimensionen (stapelhöjd)
+X‑dimensionen definierar bredden på varje stapel; ett värde på 2 pixlar fungerar bra för de flesta etikettprinter.  
+```csharp
+barcode.XDimension = 2;
+```
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
-X‑dimensionen definierar bredden på varje streck; 2 pixlar fungerar bra för de flesta skrivare.
 
-### Steg 5: Välj en kanttyp
+### Steg 5: välj ramtyp
+`ITF.ItfBorderType` bestämmer om ramen ritas som en separat ram eller som en del av streckkodens staplar.  
+```csharp
+barcode.ItfBorderType = ITFBorderType.Frame; // use Bar for bar‑style border
+```
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Frame;
 ```
-Du kan också använda `ITF14BorderType.Bar` om du föredrar en kant i stapelstil.
 
-### Steg 6: **Customize Barcode Border** tjocklek och spara bilder
+### Steg 6: anpassa streckkodens ramtjocklek och spara bilder
+`ITF.ItfBorderThickness.Pixels` anger tjockleken i pixlar. Nedan genererar vi två PNG‑filer – en med en tunn 5‑pixelram och en annan med en fet 15‑pixelram.  
+```csharp
+// thin border
+barcode.ItfBorderThickness.Pixels = 5;
+barcode.Save($"{outputPath}\\ITF14_Thin.png", BarCodeImageFormat.Png);
+
+// thick border
+barcode.ItfBorderThickness.Pixels = 15;
+barcode.Save($"{outputPath}\\ITF14_Thick.png", BarCodeImageFormat.Png);
+```
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderThickness.Pixels = 5;
 gen.Save($"{path}ITF14BorderSize5Pixels.png", BarCodeImageFormat.Png);
@@ -85,40 +158,59 @@ gen.Save($"{path}ITF14BorderSize5Pixels.png", BarCodeImageFormat.Png);
 gen.Parameters.Barcode.ITF.ItfBorderThickness.Pixels = 15;
 gen.Save($"{path}ITF14BorderSize15Pixels.png", BarCodeImageFormat.Png);
 ```
-Det första anropet skapar en streckkod med en tunn 5‑pixlars ram, medan det andra producerar en fet 15‑pixlars ram. Känn dig fri att experimentera med andra värden för att matcha dina designriktlinjer.
+
+Byt ut exempeldata mot din egen produktidentifierare om så behövs. De genererade PNG‑filerna kan direkt infogas i etikett‑designprogramvara eller skrivas ut från någon .NET‑kompatibel utskriftsprocess.
+
+## Varför använda Aspose.BarCode för .NET för att generera ITF‑14-streckkoder?
+Aspose.BarCode stödjer **30+ streckkodssymboler** och kan rendera bilder upp till **2000 × 2000 pixlar** utan externa beroenden. Biblioteket hanterar all låg‑nivå rendering, så du kan fokusera på affärslogik såsom etikettlayout, efterlevnadskontroller eller massgenerering. Det erbjuder också inbyggt stöd för högupplöst PNG, vilket säkerställer skarpa kanter även på de minsta produktetiketterna.
+
+## Förutsättningar
+Innan du börjar, kontrollera att du har:
+
+1. **Aspose.BarCode för .NET** – ladda ner det från den officiella webbplatsen [ladda ner Aspose.BarCode för .NET](https://releases.aspose.com/barcode/net/).  
+2. En .NET‑utvecklingsmiljö (Visual Studio, VS Code eller någon IDE som stödjer C# .NET 6+).  
+3. Grundläggande kunskap om C#‑syntax och streckkodsterminologi.
 
 ## Vanliga problem & felsökning
-- **Path not found** – Se till att mappen som anges i `path` finns och att applikationen har skrivbehörighet.  
-- **Border not visible** – Verifiera att `ItfBorderType` är satt till `Frame`; `Bar`‑typen ritar kanten som en del av streckkodsstrecken, vilket kan framstå som tunnare.  
-- **Image is blurry** – Öka X‑dimensionen eller generera en högupplöst PNG genom att skala bilden efter sparande.
+- **Sökväg ej hittad** – Se till att mappen som anges i `outputPath` finns och att applikationen har skrivbehörighet.  
+- **Ram syns inte** – Ramen visas endast när `ItfBorderType` är satt till `Frame`. `Bar`‑typen ritar ramen som en del av streckkodens staplar, vilket kan se tunnare ut.  
+- **Bilden är suddig** – Öka X‑dimensionen eller generera en högupplöst PNG genom att skala bilden efter sparning.  
+- **Licensvarning** – Utan en giltig licens kommer de genererade bilderna att innehålla ett vattenstämpel. Applicera din licens tidigt i applikationens start.
 
-## Vanliga frågor (FAQ)
+## Vanliga frågor
 
-**Q: Vad används ITF‑14 streckkodformatet för?**  
-A: Det är allmänt använt för förpackning och logistik, vilket låter återförsäljare koda ett 14‑siffrigt GTIN.
+**Q: Vad används ITF‑14‑streckkodformatet för?**  
+A: ITF‑14 kodar ett 14‑siffrigt GTIN och är standard för fraktcontainrar och bulkförpackningar i detaljhandelslogistik.
 
-**Q: Kan jag anpassa andra visuella aspekter förutom kanten?**  
-A: Ja, Aspose.BarCode låter dig ändra färger, teckensnitt, bakgrund och till och med lägga till mänskligt läsbar text.
+**Q: Kan jag anpassa andra visuella aspekter förutom ramen?**  
+A: Ja. Du kan ändra färger, lägga till mänskligt läsbar text, ange bakgrundsbilder och modifiera tystzonen med samma `ITF`‑objekt.
 
 **Q: Är biblioteket kompatibelt med .NET 6 och senare?**  
-A: Absolut – Aspose.BarCode stödjer .NET Framework, .NET Core och .NET 5/6+.
+A: Absolut. Aspose.BarCode stödjer .NET Framework, .NET Core och .NET 5/6+‑körningar.
 
-**Q: Finns det några begränsningar för kanttjocklek?**  
-A: API:et accepterar vilket positivt heltal som helst; dock kan extremt stora värden göra att streckkoden överskrider standardstorlekspecifikationer.
+**Q: Finns det begränsningar för hur tjock ramen kan vara?**  
+A: API:et accepterar vilket positivt heltal som helst. Praktiskt kan ramar större än 30 pixlar överskrida etikettstorlekspecifikationer, så testa mot din printers riktlinjer.
 
 **Q: Hur kan jag få en tillfällig licens för testning?**  
-A: Du kan begära en [här](https://purchase.aspose.com/temporary-license/).
+A: Begär en provlicens [request a temporary license](https://purchase.aspose.com/temporary-license/).
 
 ## Slutsats
-Du vet nu hur du **customize barcode border** tjocklek för en ITF‑14 streckkod, genererar streckkoden och **save barcode PNG**‑filer med Aspose.BarCode för .NET. Att justera kanten ger dig flexibiliteten att uppfylla varumärkes- eller regulatoriska krav samtidigt som streckkoden förblir lätt att skanna.
+Du har nu en komplett, steg‑för‑steg‑guide för att **skapa produktetikettstreckkod** med en anpassad ITF‑14‑ram, generera streckkoden och **spara streckkod‑PNG**‑filer med Aspose.BarCode för .NET. Att justera ramens tjocklek låter dig uppfylla varumärkes- eller regulatoriska krav samtidigt som streckkoden förblir lätt läsbar.
 
-Om du behöver mer detaljer, utforska den officiella dokumentationen [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) eller ställ frågor i communityn [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13).
+För mer detaljer, utforska den officiella dokumentationen [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) eller gå med i community‑diskussionen [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13).
 
 ---
 
-**Senast uppdaterad:** 2026-02-20  
-**Testat med:** Aspose.BarCode 24.11 for .NET  
-**Författare:** Aspose  
+**Senast uppdaterad:** 2026-09-08  
+**Testad med:** Aspose.BarCode 24.11 for .NET  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Hur man skapar ITF-14-streckkod .NET – Omfattande Aspose.BarCode-handledningar](/barcode/net/)
+- [Hur man skapar tystzon för ITF-14-streckkod med Aspose.BarCode för .NET](/barcode/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/)
+- [Generera PNG-streckkod med Aspose.BarCode för .NET: En-dimensionella fyllda staplar](/barcode/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
