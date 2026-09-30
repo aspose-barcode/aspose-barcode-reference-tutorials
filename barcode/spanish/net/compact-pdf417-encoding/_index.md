@@ -84,6 +84,10 @@ Más allá de lo básico, aquí tienes algunos consejos prácticos para optimiza
 
 ## Tutoriales de codificación Compact PDF417
 ### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+### [How to create PDF417 barcode in C# with compact mode](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+
+
+### [How to generate PDF417 barcodes in C# with Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 
 
 ### [Crear códigos de barras Compact PDF417](./compact-pdf417-basic-configuration/)
@@ -219,6 +223,8 @@ R: No se requieren fuentes externas; la biblioteca maneja todo el renderizado in
 - [Cómo leer códigos de barras PDF417 en C# – guía completa](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
 - [Cómo generar código de barras PDF417 en C# con Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+- [Cómo generar código de barras PDF417 en C# – guía paso a paso](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+- [Decodificar código de barras desde una imagen con un ejemplo de lector de códigos de barras en C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

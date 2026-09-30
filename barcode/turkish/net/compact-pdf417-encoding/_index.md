@@ -155,6 +155,15 @@ PDF417 barkodlarının boyutunu C# ile nasıl ayarlayacağınızı adım adım g
 ### [PDF417 Barkodu .NET'te Oluşturma – Tam Programlama Kılavuzu](./create-pdf417-barcode-in-net-complete-programming-guide/)
 ### [C# ile veri kullanarak barkod oluşturma – Adım adım rehber](./create-barcode-with-data-in-c-step-by-step-guide/)
 ### [C# ile PDF417 Okuma – Tam Barkod Örneği](./how-to-read-pdf417-in-c-complete-barcode-example/)
+### [C# ile Aspose.BarCode kullanarak PDF417 barkodları nasıl oluşturulur](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+Aspose.BarCode for .NET ile C# içinde PDF417 barkodlarını adım adım oluşturun.
+
+### [C# ile Compact Modda PDF417 Barkodu Oluşturma](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+
+### [C#'ta PDF417 Barkod Oluşturma – Adım Adım Kılavuz](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [Görüntüden barkodu çözme – C# barkod okuyucu örneği](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+
 ### [Aspose barkod örneği: C#'ta Macro PDF417 oluşturma](./aspose-barcode-example-generate-macro-pdf417-in-c/)
 C# kullanarak Macro PDF417 barkodu oluşturmak için Aspose.BarCode örnek kodu.
 

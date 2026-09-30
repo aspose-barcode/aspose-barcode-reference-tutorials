@@ -88,6 +88,8 @@ url: /el/net/one-dimensional-barcode-types/
 Μάθετε πώς να δημιουργήσετε barcode σε C# με βήμα‑βήμα οδηγίες και πλήρη προγραμματιστική υλοποίηση.
 ### [Ανάγνωση barcode από εικόνα σε C# – BarCodeReader tutorial](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Μάθετε πώς να διαβάζετε barcode από εικόνα σε C# χρησιμοποιώντας το BarCodeReader του Aspose.BarCode.
+### [Πώς να ορίσετε παραμέτρους barcode σε C# χρησιμοποιώντας το Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Μάθετε πώς να ρυθμίσετε τις παραμέτρους του barcode σε C# με το Aspose.BarCode.
 
 ## συμπέρασμα
 

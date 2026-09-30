@@ -102,6 +102,8 @@ Ismerje meg, hogyan olvashat több vonalkódot C#‑ban a PDF417 használatával
 ### [PDF417 vonalkód metaadatok létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 ### [PDF417 vonalkód generálása C#‑ban – Teljes útmutató](./generate-pdf417-barcode-in-c-complete-guide/)
 ### [PDF417 vonalkód generálása C#‑ban – Teljes lépésről‑lépésre útmutató](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+
 ### [PDF417 olvasása C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
 ### [Hogyan generáljunk vonalkódot C#‑ban az Aspose.BarCode‑dal és adjunk hozzá metaadatokat](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
@@ -176,6 +178,13 @@ Ismerje meg, hogyan olvashat PDF417 vonalkódokat C#‑ban az Aspose.BarCode for
 ### [PDF417 vonalkód létrehozása .NET-ben – Teljes programozási útmutató](./create-pdf417-barcode-in-net-complete-programming-guide/)
 ### [Vonalkód létrehozása adatokkal C#‑ban – Lépésről‑lépésre útmutató](./create-barcode-with-data-in-c-step-by-step-guide/)
 ### [PDF417 olvasása C#‑ban – Teljes vonalkód példa](./how-to-read-pdf417-in-c-complete-barcode-example/)
+
+### [PDF417 vonalkódok generálása C#‑ban az Aspose.BarCode segítségével](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+Ismerje meg, hogyan generálhat PDF417 vonalkódot C#‑ban.
+
+### [Hogyan hozzunk létre PDF417 vonalkódot C#‑ban kompakt móddal](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+
+### [Vonalkód dekódolása képről C# vonalkódolvasó példával](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 ### [PDF417 vonalkód generálása C#‑ban – vonalkód generátor útmutató](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
 Ismerje meg, hogyan hozhat létre PDF417 vonalkódot C#‑ban az Aspose.BarCode segítségével, részletes lépésekkel és példákkal.

@@ -267,12 +267,16 @@ A: Inga externa typsnitt krävs; biblioteket hanterar all rendering internt.
 ## Relaterade handledningar
 
 - [Hur man skapar streckkod – Compact PDF417 med Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Hur man genererar PDF417‑streckkod i C# med Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+- [Hur man genererar PDF417‑streckkod i C# – steg‑för‑steg‑guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 - [Omfattande handledningar och exempel för Aspose.BarCode för .NET](/barcode/net/)
 - [Hur man skapar Aztec‑streckkod med felkorrigering i .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [Hur man genererar streckkod i C# med Aspose.BarCode och lägger till metadata](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
 - [Hur man genererar micro PDF417‑streckkod i C# – steg‑för‑steg‑guide](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [Hur man genererar PDF417‑streckkod i C# med anpassade dimensioner](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
 - [Hur man avkodar PDF417‑streckkoder i C# med BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+- [Hur man skapar PDF417‑streckkod i C# med kompakt läge](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+- [Avkoda streckkod från bild med ett C#-streckkodsläsare‑exempel](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -86,6 +86,9 @@ url: /ru/net/one-dimensional-barcode-types/
 Узнайте, как создать штрих-код из текста в C# с помощью Aspose.BarCode. Пошаговое руководство.
 ### [Как сгенерировать штрих-код в C# – Полное руководство по программированию](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Узнайте, как генерировать штрих-коды в C# с помощью Aspose.BarCode. Полное пошаговое руководство по программированию.
+### [Как установить параметры штрих‑кода в C# с помощью Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Узнайте, как задать параметры штрих‑кода в C# с использованием Aspose.BarCode.
+
 ### [Считывание штрих‑кода из изображения в C# – руководство BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Узнайте, как с помощью Aspose.BarCode считывать штрих‑коды из изображений в C# с использованием BarCodeReader.
 

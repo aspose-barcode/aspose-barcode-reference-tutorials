@@ -88,6 +88,8 @@ Aspose.BarCode kullanarak C# ile metinden barkod oluşturmayı öğrenin. Adım 
 Aspose.BarCode kullanarak C#'ta barkod oluşturmayı öğrenin. Adım adım tam bir programlama rehberi.
 ### [C#'ta Görüntüden Barkod Okuma – BarCodeReader Eğitimi](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Aspose.BarCode kullanarak C# ile bir görüntüden barkod okuma adımlarını öğrenin.
+### [C#'ta Aspose.BarCode Kullanarak Barkod Parametrelerini Ayarlama](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Aspose.BarCode ile C#'ta barkod parametrelerini nasıl ayarlayacağınızı öğrenin.
 
 ## Çözüm
 
