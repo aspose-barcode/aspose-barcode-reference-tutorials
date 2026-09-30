@@ -1,0 +1,7 @@
+Title: How to use barcode generator C# for Planet barcode
+Slug: how-to-use-barcode-generator-c-for-planet-barcode
+Category: general
+ProcessedDate: 2026-09-20T02:49:05.224979
+SourceRepo: AI Search API
+Keywords: barcode generator c#, how to generate barcode, create planet barcode, export barcode image
+PRNumber: 132

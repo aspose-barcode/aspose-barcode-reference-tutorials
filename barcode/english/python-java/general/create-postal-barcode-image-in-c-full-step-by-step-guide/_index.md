@@ -1,0 +1,247 @@
+---
+category: general
+date: 2026-07-27
+description: Create postal barcode image in C# quickly—learn how to generate postal
+  barcode, generate planet barcode, and how to set barcode height.
+draft: false
+images:
+- PLACEHOLDER_URL/og-image.png
+keywords:
+- create postal barcode image
+- how to generate postal barcode
+- generate planet barcode
+- how to set barcode height
+language: en
+lastmod: 2026-07-27
+og_description: Create postal barcode image in C# and master how to generate postal
+  barcode, generate planet barcode, and how to set barcode height for perfect results.
+og_image_alt: Sample PNG showing Planet and RM4SCC postal barcodes generated with
+  Aspose.BarCode
+og_title: Create Postal Barcode Image in C# – Complete Programming Walkthrough
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Create postal barcode image in C# quickly—learn how to generate postal
+    barcode, generate planet barcode, and how to set barcode height.
+  headline: Create Postal Barcode Image in C# – Full Step‑by‑Step Guide
+  type: TechArticle
+- description: Create postal barcode image in C# quickly—learn how to generate postal
+    barcode, generate planet barcode, and how to set barcode height.
+  name: Create Postal Barcode Image in C# – Full Step‑by‑Step Guide
+  steps:
+  - name: Why set `XDimension`?
+    text: '`XDimension` is the pixel width of the smallest bar. If you leave it at
+      the library’s default (usually 1 px), the barcode can look cramped on high‑resolution
+      screens. Setting it to **4 px** gives a nicely spaced image that prints cleanly
+      on most printers.'
+  - name: What does `BarHeight.Pixels` actually do?
+    text: When you **set barcode height**, you override the library’s automatic calculation.
+      By default Aspose.BarCode chooses a height that keeps the barcode square‑ish,
+      which is fine for many use‑cases. However, postal standards sometimes demand
+      a minimum bar height (e.g., 100 px for high‑resolution printin
+  - name: Edge Cases & Common Pitfalls
+    text: '- **Zero or negative height** – the library throws `ArgumentException`.
+      Always validate user input. - **Non‑integer pixel values** – the property is
+      an `int`, so fractions are rounded down automatically. - **Changing DPI after
+      setting height** – the visual size changes, but the pixel count stays the'
+  - name: Expected Output
+    text: 'When you open the generated PNG files you’ll see:'
+  type: HowTo
+tags:
+- barcode
+- C#
+- Aspose
+- postal
+title: Create Postal Barcode Image in C# – Full Step‑by‑Step Guide
+url: /python-java/general/create-postal-barcode-image-in-c-full-step-by-step-guide/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Postal Barcode Image in C# – Full Step‑by‑Step Guide
+
+Ever needed to **create postal barcode image** in C# but weren’t sure which properties to tweak? You’re not alone. Whether you’re building a mailing label system or just experimenting with postal symbologies, mastering the right API calls makes the whole thing a piece of cake.
+
+In this tutorial we’ll walk through **how to generate postal barcode** images for both Planet and RM4SCC formats, and we’ll show you **how to set barcode height** so the bars look exactly how you expect. By the end you’ll have a ready‑to‑run console app that spits out four PNG files—two with default heights and two with an explicit 100 px bar height.
+
+## What You’ll Need
+
+- **.NET 6.0** or later (the code compiles on .NET Framework 4.6+ as well)  
+- **Aspose.BarCode for .NET** – the NuGet package that powers `BarcodeGenerator`  
+- A folder on disk where the PNG files can be saved (replace `YOUR_DIRECTORY` in the sample)  
+
+If you’ve never used Aspose.BarCode before, grab it from NuGet:
+
+```bash
+dotnet add package Aspose.BarCode
+```
+
+That’s it—no extra DLLs, no native dependencies. Let’s dive in.
+
+## Create Postal Barcode Image – Initialize the Generator
+
+The first thing you do is create a `BarcodeGenerator` instance. This object is the entry point for *any* barcode you want to render. You pass two arguments to the constructor:
+
+1. The **encoding type** (`EncodeTypes.Planet` or `EncodeTypes.RM4SCC`)  
+2. The **data string** (the numeric postal code, for example `"123456"`)
+
+```csharp
+using Aspose.BarCode.Generation;
+
+class Program
+{
+    static void Main()
+    {
+        // Folder where PNG files will be saved
+        const string outputFolder = @"C:\Temp\Barcodes";
+
+        // Ensure the folder exists
+        System.IO.Directory.CreateDirectory(outputFolder);
+
+        // ---------- Planet barcode with default height ----------
+        var planetGenerator = new BarcodeGenerator(EncodeTypes.Planet, "123456");
+        // X‑dimension controls the width of the narrowest bar (in pixels)
+        planetGenerator.Parameters.Barcode.XDimension.Pixels = 4;
+        string planetDefaultPath = System.IO.Path.Combine(outputFolder, "PlanetDefault.png");
+        planetDefaultPath = System.IO.Path.ChangeExtension(planetDefaultPath, "png");
+        planetGenerator.Save(planetDefaultPath, BarCodeImageFormat.Png);
+
+        // ---------- RM4SCC barcode with default height ----------
+        var rm4sccGenerator = new BarcodeGenerator(EncodeTypes.RM4SCC, "123456");
+        rm4sccGenerator.Parameters.Barcode.XDimension.Pixels = 4;
+        string rm4sccDefaultPath = System.IO.Path.Combine(outputFolder, "RM4SCCDefault.png");
+        rm4sccGenerator.Save(rm4sccDefaultPath, BarCodeImageFormat.Png);
+```
+
+### Why set `XDimension`?
+
+`XDimension` is the pixel width of the smallest bar. If you leave it at the library’s default (usually 1 px), the barcode can look cramped on high‑resolution screens. Setting it to **4 px** gives a nicely spaced image that prints cleanly on most printers.
+
+## How to Generate Postal Barcode – Planet and RM4SCC Types
+
+Now that we have a generator, let’s talk about the *two* most common postal symbologies: **Planet** (used in the UK) and **RM4SCC** (used in the US). The only difference in code is the `EncodeTypes` enum value. Everything else—like saving, DPI, or PNG format—remains the same.
+
+```csharp
+        // ---------- Planet barcode with explicit 100 px height ----------
+        var planetHeightGenerator = new BarcodeGenerator(EncodeTypes.Planet, "123456");
+        planetHeightGenerator.Parameters.Barcode.XDimension.Pixels = 4;
+        // Here we answer the “how to set barcode height” question.
+        planetHeightGenerator.Parameters.Barcode.BarHeight.Pixels = 100;
+        string planetHeightPath = System.IO.Path.Combine(outputFolder, "PlanetHeight100.png");
+        planetHeightGenerator.Save(planetHeightPath, BarCodeImageFormat.Png);
+
+        // ---------- RM4SCC barcode with explicit 100 px height ----------
+        var rm4sccHeightGenerator = new BarcodeGenerator(EncodeTypes.RM4SCC, "123456");
+        rm4sccHeightGenerator.Parameters.Barcode.XDimension.Pixels = 4;
+        rm4sccHeightGenerator.Parameters.Barcode.BarHeight.Pixels = 100;
+        string rm4sccHeightPath = System.IO.Path.Combine(outputFolder, "RM4SCCHeight100.png");
+        rm4sccHeightGenerator.Save(rm4sccHeightPath, BarCodeImageFormat.Png);
+    }
+}
+```
+
+### What does `BarHeight.Pixels` actually do?
+
+When you **set barcode height**, you override the library’s automatic calculation. By default Aspose.BarCode chooses a height that keeps the barcode square‑ish, which is fine for many use‑cases. However, postal standards sometimes demand a minimum bar height (e.g., 100 px for high‑resolution printing). The `BarHeight.Pixels` property lets you meet those specs precisely.
+
+## How to Set Barcode Height – Controlling Bar Height for Postal Standards
+
+If you’re wondering **how to set barcode height** for a specific printer DPI, you can combine `BarHeight.Pixels` with `Resolution` settings:
+
+```csharp
+        // Example: 300 DPI, 1 inch tall => 300 px
+        planetHeightGenerator.Parameters.ImageResolution = 300;
+        planetHeightGenerator.Parameters.Barcode.BarHeight.Pixels = 300; // 1‑inch bar at 300 DPI
+```
+
+> **Pro tip:** Always test a few different heights on your target printer. Too tall and the barcode may exceed the label’s printable area; too short and scanners might miss the quiet zone.
+
+### Edge Cases & Common Pitfalls
+
+- **Zero or negative height** – the library throws `ArgumentException`. Always validate user input.  
+- **Non‑integer pixel values** – the property is an `int`, so fractions are rounded down automatically.  
+- **Changing DPI after setting height** – the visual size changes, but the pixel count stays the same. If you need a physical size (e.g., 1 cm), calculate `pixels = DPI * cm / 2.54`.
+
+## Full Working Example – All Steps Combined
+
+Below is the complete, copy‑paste‑ready program. It includes error handling, folder creation, and comments that explain each line. Run it from a console project and you’ll get four PNG files in `C:\Temp\Barcodes`.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.BarCode.Generation;
+
+namespace PostalBarcodeDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            const string outputFolder = @"C:\Temp\Barcodes";
+            Directory.CreateDirectory(outputFolder);
+
+            try
+            {
+                // 1️⃣ Planet barcode – default (automatic) height
+                var planetDefault = new BarcodeGenerator(EncodeTypes.Planet, "123456");
+                planetDefault.Parameters.Barcode.XDimension.Pixels = 4;
+                string planetDefaultPath = Path.Combine(outputFolder, "PlanetDefault.png");
+                planetDefault.Save(planetDefaultPath, BarCodeImageFormat.Png);
+                Console.WriteLine($"Saved: {planetDefaultPath}");
+
+                // 2️⃣ RM4SCC barcode – default (automatic) height
+                var rm4sccDefault = new BarcodeGenerator(EncodeTypes.RM4SCC, "123456");
+                rm4sccDefault.Parameters.Barcode.XDimension.Pixels = 4;
+                string rm4sccDefaultPath = Path.Combine(outputFolder, "RM4SCCDefault.png");
+                rm4sccDefault.Save(rm4sccDefaultPath, BarCodeImageFormat.Png);
+                Console.WriteLine($"Saved: {rm4sccDefaultPath}");
+
+                // 3️⃣ Planet barcode – explicit 100 px height
+                var planetHeight = new BarcodeGenerator(EncodeTypes.Planet, "123456");
+                planetHeight.Parameters.Barcode.XDimension.Pixels = 4;
+                planetHeight.Parameters.Barcode.BarHeight.Pixels = 100;
+                string planetHeightPath = Path.Combine(outputFolder, "PlanetHeight100.png");
+                planetHeight.Save(planetHeightPath, BarCodeImageFormat.Png);
+                Console.WriteLine($"Saved: {planetHeightPath}");
+
+                // 4️⃣ RM4SCC barcode – explicit 100 px height
+                var rm4sccHeight = new BarcodeGenerator(EncodeTypes.RM4SCC, "123456");
+                rm4sccHeight.Parameters.Barcode.XDimension.Pixels = 4;
+                rm4sccHeight.Parameters.Barcode.BarHeight.Pixels = 100;
+                string rm4sccHeightPath = Path.Combine(outputFolder, "RM4SCCHeight100.png");
+                rm4sccHeight.Save(rm4sccHeightPath, BarCodeImageFormat.Png);
+                Console.WriteLine($"Saved: {rm4sccHeightPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Something went wrong: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### Expected Output
+
+When you open the generated PNG files you’ll see:
+
+| File | Symbology | Height | Visual notes |
+|------|-----------|--------|--------------|
+| `PlanetDefault.png` | Planet | Automatic (≈ 50 px) | Thin
+
+
+## What Should You Learn Next?
+
+
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+
+- [How to Generate Barcode - One-Dimensional Barcode Types](/barcode/english/net/one-dimensional-barcode-types/)
+- [How to Generate Barcode – Code 39 Configuration with Aspose.BarCode](/barcode/english/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/)
+- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

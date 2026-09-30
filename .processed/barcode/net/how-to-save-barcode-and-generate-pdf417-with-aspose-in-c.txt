@@ -1,0 +1,7 @@
+Title: How to save barcode and generate PDF417 with Aspose in C#
+Slug: how-to-save-barcode-and-generate-pdf417-with-aspose-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-29T14:59:09.728772
+SourceRepo: AI Search API
+Keywords: how to save barcode, how to generate pdf417, how to set pdf417, generate barcode with aspose
+PRNumber: 140

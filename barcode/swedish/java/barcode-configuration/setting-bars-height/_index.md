@@ -1,11 +1,67 @@
 ---
-date: 2026-02-15
-description: Lär dig hur du skapar code128‑streckkod i Java med Aspose.BarCode, anpassar
-  streckkodens storlek, justerar streckkodens dimensioner och genererar streckkodsbilder
-  i Java på ett effektivt sätt.
-linktitle: Setting Bars Height
+date: 2026-08-12
+description: Lär dig hur du ställer in stapelhöjd med barcode generator aspose i Java,
+  anpassa barcode size och generera barcode image java effektivt.
+keywords:
+- barcode generator aspose
+- generate barcode image java
+- code128 barcode java
+- set bar height java
+lastmod: 2026-08-12
+linktitle: Ställa in stapelhöjd
+og_description: Lär dig hur du ställer in stapelhöjd med barcode generator aspose
+  i Java, anpassa barcode size och generera barcode image java effektivt.
+og_image_alt: Tutorial showing barcode generator aspose setting bar height in Java
+og_title: Hur man ställer in stapelhöjd med barcode generator aspose i Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to set bar height using the barcode generator aspose in Java,
+    customize barcode size, and generate barcode image java efficiently.
+  headline: How to set bar height with barcode generator aspose in Java
+  type: TechArticle
+- description: Learn how to set bar height using the barcode generator aspose in Java,
+    customize barcode size, and generate barcode image java efficiently.
+  name: How to set bar height with barcode generator aspose in Java
+  steps:
+  - name: Initialize the barcode object
+    text: The `BarcodeGenerator` class is Aspose.BarCode's core object for creating
+      and configuring barcodes. Create an instance for a CODE_128 barcode with the
+      data you want to encode (e.g., “12345678”).
+  - name: Adjust barcode dimensions – set bar height
+    text: The `BarHeight` property defines the height of the bars in millimeters.
+      Changing this value directly influences how tall the printed or displayed barcode
+      will appear. > **Pro tip:** You can also modify `XDimension` to change the width
+      of individual bars, giving you full control over **customize barc
+  - name: Save the barcode image – generate barcode image java
+    text: Calling the `save` method writes the barcode to a file; the image format
+      is inferred from the file extension you provide (e.g., `.png`, `.jpeg`). > **Note:**
+      Replace `dataDir` with the actual path where you want the image stored.
+  type: HowTo
+- questions:
+  - answer: Absolutely! The library supports many symbologies such as QR, DataMatrix,
+      PDF417, and more—just change the `EncodeTypes` argument in the constructor.
+    question: Can I customize the barcode type in Aspose.BarCode for Java?
+  - answer: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and any
+      IDE that supports standard Java projects.
+    question: Is Aspose.BarCode compatible with different Java IDEs?
+  - answer: Yes, CODE_128 can encode both numeric and alphanumeric data, making it
+      versatile for most applications.
+    question: Can I generate barcodes with numeric and alphanumeric values?
+  - answer: Yes, you can explore the features of Aspose.BarCode by obtaining a free
+      trial [Aspose free trial page](https://releases.aspose.com/).
+    question: Is there a trial version available for Aspose.BarCode for Java?
+  - answer: Visit the Aspose.BarCode forum [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
+      for community support and discussions.
+    question: Where can I find support for Aspose.BarCode for Java?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: Hur man skapar code128‑streckkod i Java och ställer in stapelhöjd
+tags:
+- barcode generator
+- Aspose.BarCode
+- Java barcode
+- set bar height
+title: Hur man ställer in stapelhöjd med barcode generator aspose i Java
 url: /sv/java/barcode-configuration/setting-bars-height/
 weight: 14
 ---
@@ -14,48 +70,47 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inställning av stapelhöjd i Java
+# Ställa in stapelhöjd i Java
 
 ## Introduktion
 
-Om du behöver **create code128 barcode java** för etikettutskrift, fakturor eller mobila appar, vill du ha full kontroll över dess visuella dimensioner. Aspose.BarCode for Java låter dig **customize barcode size**, ange den exakta stapelhöjden och omedelbart generera en streckkodsbild som passar dina designkrav. I den här handledningen går vi igenom hela processen för att skapa en CODE_128‑streckkod, justera dess höjd och spara bilden—så att du kan producera perfekt dimensionerade streckkoder varje gång.
+Om du behöver **create code128 barcode java** för etikettutskrift, fakturor eller mobilappar, vill du ha full kontroll över dess visuella dimensioner. **barcode generator aspose** ger dig den kontrollen, så att du kan definiera exakt stapelhöjd, justera bredd och exportera bilden i det format du behöver. I den här handledningen går vi igenom hela processen för att skapa en CODE_128‑streckkod, ställa in dess höjd och spara bilden — så att du kan producera perfekt dimensionerade streckkoder varje gång.
 
 ## Snabba svar
-- **Vad gör huvudmetoden?** Den skapar en CODE_128‑streckkod och låter dig ange dess stapelhöjd.  
+- **Vad gör huvudmetoden?** Den skapar en CODE_128‑streckkod och låter dig ange stapelhöjden i ett enda anrop.  
 - **Vilken klass används?** `BarcodeGenerator` från Aspose.BarCode‑biblioteket.  
-- **Behöver jag en licens för testning?** En gratis provversion finns tillgänglig; en licens krävs för produktion.  
+- **Behöver jag en licens för testning?** En gratis provversion finns tillgänglig; en licens krävs för produktionsanvändning.  
 - **Kan jag ändra andra dimensioner?** Ja, du kan justera bredd, marginaler och andra storleksparametrar.  
-- **Vilket format har utdata‑bilden?** Alla format som stöds av Aspose.BarCode (t.ex. JPEG, PNG).  
+- **Vilket format har utdata‑bilden?** Alla format som stöds av Aspose.BarCode (t.ex. JPEG, PNG, BMP).  
 
-## Vad är en CODE_128‑streckkod och varför ange dess höjd?
-CODE_128 är en högdensitets linjär streckkod som kodar hela ASCII‑uppsättningen. Att justera stapelhöjden är avgörande när streckkoden måste anpassas till fysiska etikettmått eller passa inom en UI‑komponent. Rätt höjd säkerställer läsbarhet för skannrar samtidigt som den visuella layouten förblir balanserad.
+## Vad är en CODE_128‑streckkod och varför ställa in dess höjd?
+
+En CODE_128‑streckkod är en högdensitets‑linjär symbologi som kan koda hela ASCII‑teckenuppsättningen. Att ställa in stapelhöjden säkerställer att streckkoden passar i den fysiska etikettutrymmet, uppfyller skanners minsta höjdkrav (vanligtvis ≥ 2 mm), och håller den visuella layouten balanserad för både utskrift och skärmvisning.
 
 ## Varför använda Aspose.BarCode för Java?
-- **Full control** över streckkodens dimensioner (höjd, bredd, marginaler).  
-- **Wide format support** – generera PNG, JPEG, BMP och mer.  
-- **No external dependencies** – rent Java‑bibliotek, enkelt att integrera.  
-- **Rich API** – anpassa färger, text och felkorrigering utan ansträngning.  
+
+Aspose.BarCode låter dig generera streckkoder utan externa beroenden, stöder **70+ barcode symbologies**, och kan rendera bilder upp till **10 000 × 10 000 pixlar** samtidigt som minnesanvändningen hålls låg. API‑et ger detaljerad kontroll över höjd, bredd, marginaler, färger och text, vilket gör det idealiskt för företagsklassade etikett‑ och fakturagenerering.
 
 ## Förutsättningar
 
-Innan du börjar, se till att du har:
-
 - En Java‑utvecklingsmiljö (JDK 8 eller högre).  
-- Aspose.BarCode for Java – ladda ner det från [download link](https://releases.aspose.com/barcode/java/).  
+- Aspose.BarCode för Java – ladda ner den från [download link](https://releases.aspose.com/barcode/java/).  
 
 ## Importera paket
 
-I ditt Java‑projekt importerar du huvudklassen som tillhandahåller streckkodsgenereringsfunktioner:
+`BarcodeGenerator` är huvudklassen som används för att generera streckkoder i Aspose.BarCode för Java.  
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-## Hur man skapar code128 barcode java och anger dess höjd
+## Hur man skapar code128 barcode java och ställer in dess höjd
 
-### Steg 1: Initiera Barcode‑objektet
+Läs in `BarcodeGenerator`, ange CODE_128‑symbologin, sätt önskad stapelhöjd och spara bilden — allt i tre enkla steg. Detta tillvägagångssätt fungerar för alla Java‑applikationer, från konsolverktyg till Android‑tjänster, och säkerställer att den genererade streckkoden uppfyller både visuella och skanningskrav.
 
-Skapa en `BarcodeGenerator`‑instans för en CODE_128‑streckkod med den data du vill koda (t.ex. “12345678”).
+### Steg 1: Initiera streckkodobjektet
+
+Klassen `BarcodeGenerator` är Aspose.BarCode:s kärnobjekt för att skapa och konfigurera streckkoder. Skapa en instans för en CODE_128‑streckkod med de data du vill koda (t.ex. “12345678”).
 
 ```java
 // Instantiate barcode object
@@ -64,7 +119,7 @@ BarcodeGenerator generator = new BarcodeGenerator(com.aspose.barcode.EncodeTypes
 
 ### Steg 2: Justera streckkodens dimensioner – ange stapelhöjd
 
-Använd egenskapen `BarHeight` för att definiera höjden i millimeter. Detta är det primära sättet att **adjust barcode dimensions**.
+Egenskapen `BarHeight` definierar staplarnas höjd i millimeter. Att ändra detta värde påverkar direkt hur hög den utskrivna eller visade streckkoden blir.
 
 ```java
 // Set the bar height to be 3 millimeters
@@ -75,57 +130,61 @@ generator.getParameters().getBarcode().getBarHeight().setMillimeters(3.0f);
 
 ### Steg 3: Spara streckkodsbilden – generera streckkodsbild java
 
-Skriv slutligen streckkoden till en fil. Metoden `save` bestämmer automatiskt bildformatet från filändelsen.
+Genom att anropa `save`‑metoden skrivs streckkoden till en fil; bildformatet härleds från filändelsen du anger (t.ex. `.png`, `.jpeg`).
 
 ```java
 // Save the Barcode image to file
 generator.save(dataDir + "barsHeight.jpg");
 ```
 
-> **Note:** Ersätt `dataDir` med den faktiska sökvägen där du vill lagra bilden.
+> **Obs:** Ersätt `dataDir` med den faktiska sökvägen där du vill lagra bilden.
 
 ## Vanliga användningsområden
 
 - **Barcode for label printing** – Säkerställ att streckkoden passar inom en fördefinierad etikettstorlek.  
-- **Invoice generation** – Bädda in en kompakt streckkod som matchar layouten i dina PDF‑fakturor.  
-- **Mobile apps** – Generera dynamiskt streckkoder med exakta dimensioner för skanning på skärmen.
+- **Invoice generation** – Bädda in en kompakt streckkod som matchar layouten på dina PDF‑fakturor.  
+- **Mobile apps** – Generera dynamiskt streckkoder med exakta dimensioner för skärmavläsning.
 
-## Felsökning och tips
+## Felsökning & tips
 
-| Issue | Solution |
-|-------|----------|
-| Barcode appears too thin or too thick | Adjust `XDimension` via `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)`. |
-| Image is blurry | Increase the DPI by calling `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
-| Scanner cannot read the code | Verify that the bar height meets the scanner’s minimum requirement (usually ≥ 2 mm). |
+| Problem | Lösning |
+|---------|----------|
+| Streckkoden visas för tunn eller för tjock | Justera `XDimension` via `generator.getParameters().getBarcode().getXDimension().setMillimeters(value)`. |
+| Bilden är suddig | Öka DPI genom att anropa `generator.save(..., BarCodeImageFormat.JPEG, 300)`. |
+| Skannern kan inte läsa koden | Verifiera att stapelhöjden uppfyller skannerns minsta krav (vanligtvis ≥ 2 mm). |
 
 ## Vanliga frågor
 
-**F: Kan jag anpassa streckkodstypen i Aspose.BarCode för Java?**
-S: Absolut! Biblioteket stöder många symbologier som QR, DataMatrix, PDF417 och mer – ändra bara `EncodeTypes` i konstruktorn.
+**Q: Kan jag anpassa streckkodstypen i Aspose.BarCode för Java?**  
+A: Absolut! Biblioteket stöder många symbologier såsom QR, DataMatrix, PDF417 och fler — ändra bara `EncodeTypes`‑argumentet i konstruktorn.
 
-**F: Är Aspose.BarCode kompatibel med olika Java IDE:er?**
-S: Ja, det fungerar sömlöst med Eclipse, IntelliJ IDEA, NetBeans och alla IDE:er som stöder standard Java-projekt.
+**Q: Är Aspose.BarCode kompatibel med olika Java‑IDE:n?**  
+A: Ja, det fungerar sömlöst med Eclipse, IntelliJ IDEA, NetBeans och alla IDE:n som stödjer standard‑Java‑projekt.
 
-**F: Kan jag generera streckkoder med numeriska och alfanumeriska värden?**
-S: Ja, CODE_128 kan koda både numerisk och alfanumerisk data, vilket gör den mångsidig för de flesta applikationer.
+**Q: Kan jag generera streckkoder med numeriska och alfanumeriska värden?**  
+A: Ja, CODE_128 kan koda både numeriska och alfanumeriska data, vilket gör den mångsidig för de flesta applikationer.
 
-**F: Finns det en testversion tillgänglig för Aspose.BarCode för Java?**
-S: Ja, du kan utforska funktionerna i Aspose.BarCode genom att hämta en gratis testversion [här](https://releases.aspose.com/).
+**Q: Finns det en provversion tillgänglig för Aspose.BarCode för Java?**  
+A: Ja, du kan utforska funktionerna i Aspose.BarCode genom att skaffa en gratis provversion [Aspose free trial page](https://releases.aspose.com/).
 
-** **F: Var kan jag hitta support för Aspose.BarCode för Java?**
-S: Besök Aspose.BarCode-forumet [här](https://forum.aspose.com/c/barcode/13) för communitysupport och diskussioner.
-
+**Q: Var kan jag hitta support för Aspose.BarCode för Java?**  
+A: Besök Aspose.BarCode‑forumet [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) för gemenskapsstöd och diskussioner.
 
 ---
 
-
-**Senast uppdaterad:** 2026-02-15
-**Testad med:** Aspose.BarCode för Java 24.12 (senaste)
+**Senast uppdaterad:** 2026-08-12  
+**Testad med:** Aspose.BarCode for Java 24.12 (latest)  
 **Författare:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Relaterade handledningar
+
+- [Generera streckkod Java – Ställ in bildupplösning med Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+- [aspose barcode java: Skapa CODE_128‑streckkod med storleksenhet](/barcode/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/)
+- [Generera streckkod Java – Ställ in kodtext med Aspose.BarCode](/barcode/java/text-and-styling/setting-code-text/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

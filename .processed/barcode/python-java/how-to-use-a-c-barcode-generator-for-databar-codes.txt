@@ -1,0 +1,7 @@
+Title: How to use a C# barcode generator for DataBar codes
+Slug: how-to-use-a-c-barcode-generator-for-databar-codes
+Category: general
+ProcessedDate: 2026-09-23T07:30:14.887236
+SourceRepo: AI Search API
+Keywords: c# barcode generator, how to generate barcode
+PRNumber: 135

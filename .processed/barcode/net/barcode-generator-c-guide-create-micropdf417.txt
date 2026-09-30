@@ -1,0 +1,7 @@
+Title: Barcode generator C# guide: create MicroPdf417
+Slug: barcode-generator-c-guide-create-micropdf417
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-29T14:59:23.010181
+SourceRepo: AI Search API
+Keywords: barcode generator c#, how to generate barcode, how to change dimensions, how to set columns, customize barcode size
+PRNumber: 140

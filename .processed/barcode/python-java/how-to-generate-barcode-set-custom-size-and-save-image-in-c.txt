@@ -1,0 +1,7 @@
+Title: How to generate barcode set custom size and save image in C#
+Slug: how-to-generate-barcode-set-custom-size-and-save-image-in-c
+Category: general
+ProcessedDate: 2026-09-13T18:54:41.598128
+SourceRepo: AI Search API
+Keywords: how to generate barcode, custom barcode size, save barcode image
+PRNumber: 124
