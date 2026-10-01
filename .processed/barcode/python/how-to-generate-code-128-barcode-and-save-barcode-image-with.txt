@@ -1,0 +1,7 @@
+Title: How to generate Code 128 barcode and save barcode image with Aspose.BarCode
+Slug: how-to-generate-code-128-barcode-and-save-barcode-image-with
+Category: general
+ProcessedDate: 2026-09-23T07:12:33.118231
+SourceRepo: AI Search API
+Keywords: generate code 128 barcode, save barcode image
+PRNumber: 134

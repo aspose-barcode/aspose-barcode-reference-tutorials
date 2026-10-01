@@ -63,6 +63,8 @@ GS1 Code 128 هو رمز باركود مستخدم على نطاق واسع وم
 تعلم كيفية إنشاء باركود GS1 باستخدام C# و Aspose.BarCode للـ .NET خطوة بخطوة بسهولة.
 ### [إنشاء صور باركود GS1 في C# – كيفية توليد الباركود بسرعة في C#](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
 تعلم كيفية إنشاء صور باركود GS1 بسرعة باستخدام C# و Aspose.BarCode. دليل خطوة بخطوة لتوليد الباركود بفعالية.
+### [إنشاء صورة باركود PNG في C# – دليل كامل لـ GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+تعلم كيفية إنشاء باركود GS1 Micro PDF417 بصيغة PNG باستخدام C# و Aspose.BarCode للـ .NET خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

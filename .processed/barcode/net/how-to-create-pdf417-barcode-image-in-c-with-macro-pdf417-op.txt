@@ -1,0 +1,7 @@
+Title: How to create PDF417 barcode image in C# with Macro PDF417 options
+Slug: how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-13T18:33:53.526668
+SourceRepo: AI Search API
+Keywords: create pdf417 barcode image
+PRNumber: 122

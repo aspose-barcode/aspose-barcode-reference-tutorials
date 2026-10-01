@@ -64,6 +64,8 @@ Kompletní návod, jak v C# pomocí Aspose.BarCode vytvořit GS1 čárový kód 
 ### [Vytvořte obrázky GS1 čárových kódů v C# – Jak rychle generovat čárový kód v C#](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
 Rychlý návod, jak v C# pomocí Aspose.BarCode generovat obrázky GS1 čárových kódů během několika kroků.
 
+### [Vytvořte PNG čárového kódu v C# – kompletní průvodce GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Naučte se generovat PNG čárové kódy GS1 Micro PDF417 pomocí Aspose.BarCode pro .NET. Začněte hned!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

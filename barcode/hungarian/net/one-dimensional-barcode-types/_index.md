@@ -63,7 +63,7 @@ Ismerje meg, hogyan hozhat létre Code 93 vonalkódokat az Aspose.BarCode for .N
 ### [Egydimenziós vonalkód magasságállítás](./one-dimensional-barcode-height-adjustment/)
 Ismerje meg, hogyan állíthatja be az egydimenziós vonalkódok magasságát a .NET-ben az Aspose.BarCode segítségével a pontos testreszabás érdekében. Hozzon létre tökéletes vonalkódokat könnyedén!
 ### [Egydimenziós adattár 2D komponens konfigurációja](./one-dimensional-databar-2d-component-configuration/)
-Egydimenziós Databar 2D vonalkódok létrehozása az Aspose.BarCode segítségével .NET-hez. Kövesse lépésről lépésre útmutatónkat a konfigurációhoz és a testreszabáshoz. Kezdje el egyedi vonalkódok készítését még ma!
+Egydimenziós Databar 2D vonalkódok létrehozása az Aspose.BarCode segítségével .NET-hez. Kövesse lépésenkénti útmutatónkat a konfigurációhoz és a testreszabáshoz. Kezdje el egyedi vonalkódok készítését még ma!
 ### [Egydimenziós adatsáv képarány testreszabása](./one-dimensional-databar-aspect-ratio-customization/)
 Ismerje meg, hogyan szabhatja testre az egydimenziós adatsáv képarányait .NET-ben az Aspose.BarCode használatával. Növelje a vonalkód pontosságát és kialakítását.
 ### [Egydimenziós adatsor vonalkód magasságállítás](./one-dimensional-databar-barcode-height-adjustment/)
@@ -78,10 +78,18 @@ megtudhatja, hogyan hozhat létre vonalkódokat .NET-ben az Aspose.BarCode for .
 Ismerje meg, hogyan kezelheti a kivételeket, miközben egydimenziós vonalkódokat állít elő az Aspose.BarCode for .NET használatával. Ez a lépésenkénti útmutató hibatűrő vonalkód-megoldásokat biztosít. Kezd el most!
 ### [Egydimenziós széles-keskeny arány konfiguráció](./one-dimensional-wide-narrow-ratio-configuration/)
 Az Aspose.BarCode for .NET segítségével egyszerűen hozhat létre testreszabott vonalkódokat. Lépésről lépésre útmutató az egydimenziós széles-keskeny arány konfigurációhoz.
+### [Hogyan állítsunk be vonalkódot C#-ban – teljes Aspose.BarCode útmutató](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Ismerje meg, hogyan állíthat be vonalkódot C#-ban az Aspose.BarCode segítségével, lépésről lépésre útmutató.
+### [Vonalkód olvasása képből – C# vonalkódolvasó példa](./read-barcode-from-image-c-barcode-reader-example/)
+Ismerje meg, hogyan olvashat vonalkódot képből C#-ban az Aspose.BarCode használatával.
 ### [Szövegből történő vonalkód generálás az Aspose.BarCode segítségével – C# útmutató](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Ismerje meg, hogyan hozhat létre vonalkódot szövegből C#-ban az Aspose.BarCode használatával, lépésről lépésre útmutatóval.
 ### [Hogyan generáljunk vonalkódot C#-ban – Teljes programozási útmutató](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Ismerje meg, hogyan hozhat létre vonalkódokat C#-ban az Aspose.BarCode segítségével, lépésről lépésre útmutató.
+### [Vonalkód olvasása képből C#-ban – BarCodeReader oktatóanyag](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Ismerje meg, hogyan olvashat vonalkódot képfájlokból C#-ban az Aspose.BarCode BarCodeReader használatával.
+### [Hogyan állítsuk be a vonalkód paramétereit C#-ban az Aspose.BarCode használatával](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Ismerje meg, hogyan konfigurálhatja a vonalkód beállításait C#-ban az Aspose.BarCode segítségével.
 
 ## Következtetés
 
