@@ -207,7 +207,6 @@ Je hebt nu een compleet, productie‑klaar voorbeeld van hoe je **create barcode
 **Getest met:** Aspose.BarCode for Java 24.11  
 **Auteur:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Gerelateerde tutorials
 

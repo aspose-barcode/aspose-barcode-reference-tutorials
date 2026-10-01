@@ -208,7 +208,6 @@ Sie haben nun ein vollständiges, produktionsreifes Beispiel, wie Sie **create b
 **Getestet mit:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Verwandte Tutorials
 

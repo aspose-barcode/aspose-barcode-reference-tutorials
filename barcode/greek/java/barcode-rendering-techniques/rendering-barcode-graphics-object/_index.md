@@ -209,7 +209,6 @@ A: Απόλυτα. Χρησιμοποιήστε `bb.save(fileName, BarCodeImageF
 **Δοκιμάστηκε με:** Aspose.BarCode for Java 24.11  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Σχετικές οδηγίες
 

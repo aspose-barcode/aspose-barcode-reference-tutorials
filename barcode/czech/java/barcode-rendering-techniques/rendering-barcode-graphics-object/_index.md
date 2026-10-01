@@ -208,7 +208,6 @@ Nyní máte kompletní, připravený příklad pro produkci, jak **create barcod
 **Testováno s:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Související tutoriály
 

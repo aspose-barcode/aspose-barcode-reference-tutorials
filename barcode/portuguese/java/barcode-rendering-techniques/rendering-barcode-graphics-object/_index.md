@@ -208,7 +208,6 @@ Agora você tem um exemplo completo e pronto para produção de como **criar gr�
 **Testado com:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Tutoriais relacionados
 

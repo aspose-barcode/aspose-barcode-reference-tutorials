@@ -208,7 +208,6 @@ Bạn giờ đã có một ví dụ hoàn chỉnh, sẵn sàng cho môi trườn
 **Kiểm tra với:** Aspose.BarCode for Java 24.11  
 **Tác giả:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Hướng dẫn liên quan
 

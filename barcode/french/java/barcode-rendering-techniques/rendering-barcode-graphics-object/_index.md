@@ -209,7 +209,6 @@ Vous disposez maintenant d'un exemple complet, prêt pour la production, montran
 **Testé avec :** Aspose.BarCode for Java 24.11  
 **Auteur :** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Tutoriels associés
 
