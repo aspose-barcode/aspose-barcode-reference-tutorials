@@ -257,6 +257,11 @@ Erfahren Sie, wie Sie PDF417‑Barcodes in C# Schritt für Schritt erstellen, in
 
 ### [Wie man PDF417‑Barcodes in C# dekodiert – vollständiger Leitfaden](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# lesen und dekodieren, inklusive Code‑Beispielen und Fehlerbehandlung.
+### [Wie man einen Macro PDF417 Barcode in C# mit Aspose.BarCode erstellt](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# einen Macro PDF417 Barcode erzeugen – Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie man Barcode in C# mit Aspose.BarCode generiert](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erzeugen.
 
 ## Häufig gestellte Fragen
 
@@ -291,6 +296,7 @@ A: Nein, es werden keine externen Schriftarten benötigt; die Bibliothek überni
 - [Wie man Micro PDF417 Barcode in C# erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [Wie man einen Barcode‑Generator in C# für Macro PDF417 verwendet](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
 - [Wie man PDF417-Barcodes in C# liest – vollständiger Leitfaden](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+- [Wie man PDF417-Barcode in C# generiert – kompaktes Beispiel](./how-to-generate-pdf417-barcode-in-c-compact-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

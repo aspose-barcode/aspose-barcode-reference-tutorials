@@ -155,6 +155,15 @@ Aspose.BarCode ให้คุณตั้งค่าคุณสมบัต�
 เรียนรู้วิธีสร้างบาร์โค้ดจากข้อมูลใน C# ด้วยขั้นตอนทีละขั้นตอนโดยใช้ Aspose.BarCode for .NET
 ### [วิธีอ่าน PDF417 ใน C# – ตัวอย่างบาร์โค้ดครบถ้วน](./how-to-read-pdf417-in-c-complete-barcode-example/)
 เรียนรู้วิธีอ่านบาร์โค้ด PDF417 ด้วย C# พร้อมตัวอย่างโค้ดเต็มรูปแบบและการตั้งค่าที่จำเป็น
+### [วิธีสร้างบาร์โค้ด Macro PDF417 ด้วย C# และ Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+เรียนรู้วิธีสร้างบาร์โค้ด Macro PDF417 ด้วย C# และ Aspose.BarCode
+
+### [วิธีสร้างบาร์โค้ด PDF417 ใน C# – ตัวอย่างแบบกะทัดรัด](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+เรียนรู้วิธีสร้างบาร์โค้ด PDF417 แบบ Compact ด้วย C# และ Aspose.BarCode อย่างรวดเร็ว
+
+### [วิธีสร้างบาร์โค้ดใน C# ด้วย Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+เรียนรู้วิธีสร้างบาร์โค้ดใน C# ด้วย Aspose.BarCode อย่างง่าย
+
 ### [วิธีสร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
 เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ด้วย C# อย่างละเอียด พร้อมขั้นตอนและตัวอย่างโค้ด
 - [วิธีถอดรหัสบาร์โค้ด PDF417 ด้วย C# – คู่มือเต็ม](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
