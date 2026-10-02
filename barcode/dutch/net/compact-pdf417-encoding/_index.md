@@ -58,7 +58,7 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe PDF417-barcode te genereren – Compacte PDF417-codering
+# Hoe PDF417-barcode te genereren – Compact PDF417-codering
 
 ## Inleiding
 
@@ -260,6 +260,9 @@ Leer hoe je een micro PDF417 barcode genereert in C# met Aspose.BarCode, inclusi
 
 ### [Hoe PDF417 in C# te lezen – Volledig barcode-lezer voorbeeld](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 
+- [Hoe macro PDF417-barcode te maken in C# met Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+- [Hoe PDF417-barcode te genereren in C# – compact voorbeeld](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+- [Hoe een barcode te genereren in C# met Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 - [Hoe pdf417 barcode te maken in C# – stap‑voor‑stap gids](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
 - [Hoe PDF417-barcode te maken in C# met compacte modus](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
 - [Hoe PDF417-barcode te genereren in C# – stapsgewijze gids](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
@@ -295,9 +298,7 @@ A: Geen externe lettertypen zijn nodig; de bibliotheek verwerkt alle rendering i
 - [Hoe barcode maken – Compact PDF417 met Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Uitgebreide tutorials en voorbeelden van Aspose.BarCode voor .NET](/barcode/net/)
 - [Hoe Aztec barcode maken met foutcorrectie in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-- [Hoe macro PDF417-barcode te maken in C# met Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
-- [Hoe PDF417-barcode te genereren in C# – compact voorbeeld](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-- [Hoe een barcode te genereren in C# met Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

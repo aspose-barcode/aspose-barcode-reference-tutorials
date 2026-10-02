@@ -87,6 +87,9 @@ Temellerin ötesinde, iş akışınızı hızlandıracak bazı pratik ipuçları
 ### [Compact PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
 Aspose.BarCode for .NET'i kullanarak Compact PDF417 barkodlarını nasıl oluşturacağınızı öğrenin. Adım‑adım talimatları ve kod örnekleri içeren kapsamlı bir rehber.
 
+### [C#'ta PDF417 barkodu oluşturma – kompakt örnek](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+C# ile kompakt PDF417 barkodu oluşturmayı adım adım öğrenin.
+
 ### [C#'ta micro PDF417 barkodu nasıl oluşturulur – adım adım rehber](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 
 ### [Macro PDF417 için C# barcode üreteci nasıl kullanılır](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
@@ -105,9 +108,6 @@ Aspose.BarCode for .NET kullanarak PDF417 barkodunu oluşturup PNG formatında k
 C# ile PDF417 barkodu oluşturmayı adım adım öğrenin.
 ### [C#'ta barkod görüntülerini kaydetme – tam rehber](./how-to-save-barcode-images-in-c-complete-guide/)
 C# ile Aspose.BarCode kullanarak barkod resimlerini farklı formatlarda kaydetmeyi adım adım öğrenin.
-### [C#'ta PDF417 barkodu oluşturma – kompakt örnek](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-C# ile kompakt PDF417 barkodu oluşturmayı adım adım öğrenin.
-
 ### [C# ile Aspose kullanarak PDF417 Barkod Görüntüsü Oluşturma](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
 Aspose.BarCode for .NET ile C# dilinde PDF417 barkod görseli oluşturmayı öğrenin.
 ### [PDF417 ile Çoklu Barkod Okuma C# – Tam Kılavuz](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
@@ -140,7 +140,7 @@ C# kullanarak micro PDF417 barkodu oluşturmayı adım adım öğrenin.
 ### [C#'ta Barkod PNG Oluşturma – Adım Adım Kılavuz](./create-barcode-png-in-c-step-by-step-guide/)
 ### [C#'ta PDF417 Barkod Oluşturma – Tam Adım Adım Kılavuz](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
 ### [C#'ta PDF417 Barkod Oluşturma – Tam Programlama Kılavuzu](./create-pdf417-barcode-in-c-complete-programming-guide/)
-### [C#'ta PDF417 Barkod Oluşturma – Tam Programlama Kılavuzu](./generate-pdf417-barcode-in-c-complete-programming-guide/)
+### [C#'ta PDF417 Barkodu Oluşturma – Tam Programlama Kılavuzu](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 ### [Aspose ile PDF417 Barkod Oluşturma – Tam Kılavuz](./create-pdf417-barcode-with-aspose-complete-guide/)
 Aspose.BarCode for .NET kullanarak PDF417 barkodlarını baştan sona nasıl oluşturacağınızı adım adım öğrenin.
 ### [C#'ta kompakt ayarlarla PDF417 barkodu oluşturma](./generate-pdf417-barcode-with-compact-settings-in-c/)
@@ -158,6 +158,12 @@ PDF417 barkodlarının boyutunu C# ile nasıl ayarlayacağınızı adım adım g
 ### [PDF417 Barkodu .NET'te Oluşturma – Tam Programlama Kılavuzu](./create-pdf417-barcode-in-net-complete-programming-guide/)
 ### [C# ile veri kullanarak barkod oluşturma – Adım adım rehber](./create-barcode-with-data-in-c-step-by-step-guide/)
 ### [C# ile PDF417 Okuma – Tam Barkod Örneği](./how-to-read-pdf417-in-c-complete-barcode-example/)
+### [C# ile Aspose.BarCode kullanarak macro PDF417 barkodu oluşturma](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+C# ile Aspose.BarCode kullanarak macro PDF417 barkodu oluşturmayı öğrenin.
+
+### [C# ile Aspose.BarCode kullanarak barkod oluşturma](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+Aspose.BarCode for .NET ile C# dilinde barkod oluşturmayı adım adım öğrenin.
+
 ### [C#'ta Macro PDF417 seçenekleriyle PDF417 barkod görüntüsü oluşturma](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
 
 ### [C#'ta PDF417 Barkodu Nasıl Oluşturulur – Adım Adım Kılavuz](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
@@ -198,12 +204,6 @@ Aspose.BarCode kullanarak PDF417 barkodunu adım adım nasıl oluşturacağını
 
 ### [C# ile Barcode Generator kullanarak PDF417 barkodu nasıl oluşturulur](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 Aspose.BarCode BarcodeGenerator sınıfı ile C# dilinde PDF417 barkodu oluşturmayı adım adım öğrenin.
-
-### [C# ile Aspose.BarCode kullanarak macro PDF417 barkodu oluşturma](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
-C# ile Aspose.BarCode kullanarak macro PDF417 barkodu oluşturmayı öğrenin.
-
-### [C# ile Aspose.BarCode kullanarak barkod oluşturma](./how-to-generate-barcode-in-c-with-aspose-barcode/)
-Aspose.BarCode for .NET ile C# dilinde barkod oluşturmayı adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 
