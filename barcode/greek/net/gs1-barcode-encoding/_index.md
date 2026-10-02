@@ -59,6 +59,9 @@ GS1 Coupon UPC-A Κωδικός 128 κωδικοποίηση είναι μια �
 Μάθετε τη διαμόρφωση της γραμμής δεδομένων GS1 Coupon UPC-A με το Aspose.BarCode για .NET. Δημιουργήστε γραμμικούς κodes εύκολα. Ξεκινήστε τώρα!
 ### [Παράδειγμα GS1 DataMatrix](./gs1-datamatrix-example/)
 Μάθετε πώς να δημιουργείτε γραμμωτούς κώδικες GS1 DataMatrix στο .NET χρησιμοποιώντας το Aspose.BarCode. Δημιουργήστε γραμμικούς κώδικες με ευκολία και αποτελεσματικότητα σε λίγα μόλις βήματα.
+### [Δημιουργία barcode PNG σε C# – πλήρης οδηγός για GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+Μάθετε πώς να δημιουργήσετε εικόνα PNG barcode GS1 Micro PDF417 σε C# με το Aspose.BarCode για .NET. Οδηγός βήμα‑βήμα.
+
 ### [Δημιουργία GS1 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-gs1-barcode-in-c-complete-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε barcode GS1 σε C# με έναν πλήρη οδηγό βήμα‑βήμα, χρησιμοποιώντας το Aspose.BarCode για .NET.
 ### [Δημιουργία εικόνων GS1 Barcode σε C# – Πώς να δημιουργήσετε barcode C# γρήγορα](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)

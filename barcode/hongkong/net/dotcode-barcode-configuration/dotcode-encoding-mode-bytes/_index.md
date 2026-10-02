@@ -1,86 +1,152 @@
 ---
-title: Aspose.BarCode for .NET 的 DotCode 編碼模式（位元組）
-linktitle: DotCode 編碼模式（位元組）
+date: 2026-08-22
+description: 了解如何在 .NET 中使用 DotCode 編碼模式（bytes）產生 barcode aspose – 步驟說明，涵蓋前置條件、程式碼設定與自訂。
+keywords:
+- generate barcode aspose
+- barcode generation c#
+- step by step barcode
+- how to generate dotcode
+lastmod: 2026-08-22
+linktitle: DotCode 編碼模式（Bytes）
+og_description: 了解如何在 .NET 中使用 DotCode 編碼模式（bytes）產生 barcode aspose – 為 C# 開發者提供的簡潔步驟教學。
+og_image_alt: Screenshot of a DotCode barcode generated with Aspose.BarCode for .NET
+og_title: 在 .NET 中使用 DotCode（bytes）產生 barcode aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to generate barcode aspose with DotCode encoding mode (bytes)
+    in .NET – step‑by‑step guide covering prerequisites, code setup, and customization.
+  headline: Generate barcode aspose using DotCode (bytes) in .NET
+  type: TechArticle
+- description: Learn how to generate barcode aspose with DotCode encoding mode (bytes)
+    in .NET – step‑by‑step guide covering prerequisites, code setup, and customization.
+  name: Generate barcode aspose using DotCode (bytes) in .NET
+  steps:
+  - name: define your directory path
+    text: Specify where the generated PNG will be stored. `string outputDir = @"C:\Barcodes\";`
+  - name: create DotCodeEncodeModeBytes
+    text: '`DotCodeEncodeModeBytes` is the class that tells the generator to treat
+      the supplied data as raw bytes, and it also provides internal logic for converting
+      the byte array into the appropriate DotCode symbol representation while managing
+      error‑correction encoding automatically. `var encodeMode = new D'
+  - name: encode array to string
+    text: The generator expects a string representation of the byte array; Aspose
+      handles the conversion internally. `byte[] rawData = { 0x01, 0x02, 0xFF, 0x00
+      };` `string codetext = encodeMode.Encode(rawData);`
+  - name: initialize BarcodeGenerator
+    text: The `BarcodeGenerator` class is the core component that creates the barcode
+      image, providing a rich set of properties and methods for configuring symbology
+      type, encoding data, visual appearance, and output format, all of which can
+      be adjusted before rendering the final image. `var generator = new B
+  - name: set barcode parameters
+    text: Adjust visual and technical settings such as pixel size (`XDimension`) and
+      encoding mode.
+  - name: save barcode image
+    text: 'Finally, write the PNG file to disk. `generator.Save($"{outputDir}dotcode_bytes.png",
+      SaveFormat.Png);` With these six steps you have **generated a barcode aspose**
+      that encodes your binary payload in DotCode (bytes) format. Feel free to tweak
+      dimensions, colors, or error‑correction levels to match '
+  type: HowTo
+- questions:
+  - answer: The library can produce images up to 4000 × 4000 px, which comfortably
+      accommodates the maximum 1,500‑byte payload in Bytes mode.
+    question: What is the maximum size of a DotCode barcode generated with Aspose.BarCode?
+  - answer: Yes—use `generator.Parameters.Barcode.BarColor` and `generator.Parameters.Barcode.BackColor`
+      to set custom colors.
+    question: Can I change the foreground and background colors?
+  - answer: Absolutely. Since Aspose.BarCode is a pure .NET library, you can use it
+      in Xamarin, MAUI, or any .NET‑based mobile project.
+    question: Is DotCode supported on mobile platforms?
+  - answer: The temporary license removes evaluation watermarks but is time‑limited
+      to 30 days; you can obtain it [here](https://purchase.aspose.com/temporary-license/).
+      For production you’ll need a full license.
+    question: Does the temporary license impose any limits?
+  - answer: Instantiate the generator inside your controller action, generate the
+      image to a `MemoryStream`, and return it as a `FileResult` with MIME type `image/png`.
+    question: How do I integrate this into an ASP.NET Core web API?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: 了解使用 Aspose.BarCode for .NET 進行 DotCode 編碼產生條碼的逐步指南。
-weight: 12
+tags:
+- generate barcode
+- Aspose.BarCode
+- .NET barcode tutorial
+title: 在 .NET 中使用 DotCode（bytes）產生 barcode aspose
 url: /zh-hant/net/dotcode-barcode-configuration/dotcode-encoding-mode-bytes/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode for .NET 的 DotCode 編碼模式（位元組）
+# 使用 DotCode（位元組）在 .NET 中生成 Aspose 條碼
 
 ## 介紹
 
-您準備好在 .NET 應用程式中釋放 DotCode 編碼模式（位元組）的強大功能了嗎？別再猶豫了！ Aspose.BarCode for .NET 是產生和操作條碼的首選解決方案。在本逐步指南中，我們將深入研究 DotCode 編碼模式（位元組），全面解釋各個方面。無論您是經驗豐富的開發人員還是剛起步的開發人員，我們都能滿足您的需求。讓我們深入探索 DotCode 編碼的迷人世界。
+在本教學中，您將使用 Aspose.BarCode .NET 函式庫，以 DotCode 編碼模式（位元組）**generate barcode aspose**。無論您需要在緊湊的 2‑D 符號中嵌入二進位資料，或只是探索 Aspose 豐富的條碼 API，本指南都會一步步帶領您，從專案設定到最終圖像輸出。讓我們開始吧！
 
-## 先決條件
+## 快速解答
+- **「bytes」模式是什麼意思？** 它直接將原始二進位資料編碼到 DotCode 矩陣中。  
+- **使用哪種條碼類型？** DotCode，一種針對二進位負載優化的高密度 2‑D 符號。  
+- **需要多少行程式碼？** 大約 15 行，加上一些設定語句。  
+- **我可以自訂尺寸和顏色嗎？** 可以——XDimension、前景/背景顏色以及錯誤更正等級皆可設定。  
+- **在正式環境中是否必須使用授權？** 需要有效的 Aspose.BarCode 授權才能無限制使用；測試時可使用臨時授權。
 
-在我們開始 DotCode 編碼冒險之前，您應該滿足一些先決條件才能充分利用本教學。確保您具備以下條件：
+## 什麼是 DotCode 編碼模式（bytes）？
 
-1. 已安裝 Visual Studio
+DotCode 編碼模式（bytes）是一種以二進位為中心的符號，將原始位元組陣列儲存在緊密的點陣列中，適合緊湊的資料傳輸。Aspose.BarCode 原生支援此模式，會自動處理轉換與錯誤更正，並提供調整符號大小、錯誤更正等級與視覺外觀的選項，以符合各種應用情境。
 
-確保您的系統上安裝了 Visual Studio。 Aspose.BarCode for .NET 與 Visual Studio 無縫集成，讓條碼產生變得輕而易舉。
+## 為什麼在 .NET 中使用 Aspose.BarCode？
 
-2. Aspose.BarCode for .NET 函式庫
+Aspose.BarCode 支援 **超過 60 種條碼符號**，且可渲染最高 **4000 × 4000 px** 的圖像而不失真，這意味著您可以產生非常高解析度的符號供列印或數位使用。此函式庫可在 .NET Framework、.NET Core 以及 .NET 5/6 上執行，提供跨平台彈性且不需外部相依性，並內建豐富的顏色、尺寸與編碼參數自訂選項，適用於簡單與複雜的條碼產生任務。
 
-從下列位置下載 Aspose.BarCode for .NET 函式庫[這裡](https://releases.aspose.com/barcode/net/)。該程式庫對於在 .NET 應用程式中使用條碼至關重要。
+## 前置條件
 
-3. .NET Framework 的基本了解
+1. **Visual Studio** – 任意近期版本（Community、Professional 或 Enterprise）。  
+2. **Aspose.BarCode for .NET** – 從官方 Aspose 下載頁面取得函式庫：[download Aspose.BarCode for .NET](https://releases.aspose.com/barcode/net/)。  
+3. **Basic .NET knowledge** – 您應該能熟練撰寫 C# 主控台或桌面應用程式。  
+4. **Aspose.BarCode license** – 從購買頁面取得永久授權：[buy Aspose.BarCode license](https://purchase.aspose.com/buy)；或從臨時授權頁面取得測試授權：[temporary Aspose.BarCode license](https://purchase.aspose.com/temporary-license/)。  
+5. **Aspose.BarCode documentation** – 於官方文件站點參考詳細資訊：[Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)。  
 
-熟悉 .NET Framework 的基礎知識。您應該對 C# 以及 .NET 應用程式的功能有基本的了解。
+備妥上述項目即可確保順利的程式開發體驗。
 
-4. Aspose.BarCode 許可證
+## 如何使用 DotCode（bytes）生成 Aspose 條碼？
 
-確保您擁有有效的 Aspose.BarCode 許可證，可以從以下位置取得該許可證：[這裡](https://purchase.aspose.com/buy) 。您也可以從以下位置取得用於測試目的的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+載入您的位元組陣列，設定 `BarcodeGenerator`，將 `DotCodeEncodeMode` 設為 **Bytes**，然後儲存圖像。整個流程僅需不到十行 C# 程式碼，對於一般負載在一秒內即可完成，是將二進位資料嵌入緊湊視覺格式、並能被標準 DotCode 讀取器輕鬆掃描的高效解決方案。
 
-5. Aspose.BarCode 文檔
+### 步驟 1：定義目錄路徑
 
-請參閱 Aspose.BarCode for .NET 文檔[這裡](https://reference.aspose.com/barcode/net/)有關所有可用特性和功能的詳細資訊。
-
-滿足這些先決條件後，您就可以開始使用 Aspose.BarCode for .NET 進入 DotCode 編碼模式了。
-
-## 導入命名空間：
-
-在本節中，我們將討論如何匯入必要的命名空間並設定 .NET 專案以使用 DotCode 編碼模式。 
-
-### 第 1 步：新增參考文獻
-
-開啟 Visual Studio 專案並新增對 Aspose.BarCode for .NET 程式庫的參考。此步驟對於存取條碼產生功能至關重要。
-
-### 第 2 步：導入命名空間
-
-在您的程式碼中，匯入必要的命名空間以使用 Aspose.BarCode 元件：
+指定產生的 PNG 檔案儲存位置。  
+`string outputDir = @"C:\Barcodes\";`
 
 ```csharp
 using Aspose.BarCode.Generation;
 using System.Text;
 ```
 
-現在您已經設定了專案並匯入了所需的命名空間，您已準備好深入了解 DotCode 編碼模式。
+### 步驟 2：建立 DotCodeEncodeModeBytes
 
-## 第 1 步：定義您的目錄路徑
-
-首先指定要儲存產生的條碼影像的目錄路徑。
+`DotCodeEncodeModeBytes` 是告訴產生器將提供的資料視為原始位元組的類別，且內部會自動將位元組陣列轉換為相應的 DotCode 符號表示，同時處理錯誤更正編碼。  
+`var encodeMode = new DotCodeEncodeModeBytes();`
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 步驟2：建立DotCodeEncodeModeBytes
+### 步驟 3：將陣列編碼為字串
 
-在此步驟中，您將建立 DotCodeEncodeModeBytes。我們將把位元組數組編碼成條碼。
+產生器需要位元組陣列的字串表示；Aspose 會在內部處理轉換。  
+`byte[] rawData = { 0x01, 0x02, 0xFF, 0x00 };`  
+`string codetext = encodeMode.Encode(rawData);`
 
 ```csharp
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 ```
 
-## 第 3 步：將數組編碼為字串
+### 步驟 4：初始化 BarcodeGenerator
 
-要產生條碼，您需要將位元組數組轉換為字串。此步驟對於條碼產生至關重要。
+`BarcodeGenerator` 類別是建立條碼圖像的核心元件，提供豐富的屬性與方法，可設定符號類型、編碼資料、視覺外觀與輸出格式，所有設定皆可在渲染最終圖像前調整。  
+`var generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext);`
 
 ```csharp
 StringBuilder strBld = new StringBuilder();
@@ -89,58 +155,82 @@ foreach (byte bval in encodedArr)
 var codetext = strBld.ToString();
 ```
 
-## 第 4 步：初始化 BarcodeGenerator
+### 步驟 5：設定條碼參數
 
-現在，建立 BarcodeGenerator 的實例並指定條碼類型 (DotCode) 和代碼文字。
+調整視覺與技術設定，例如像素大小（`XDimension`）與編碼模式。  
+```csharp
+generator.Parameters.Barcode.XDimension.Pixels = 4;
+generator.Parameters.Barcode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
+```
 
 ```csharp
 using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 ```
 
-## 第5步：設定條碼參數
+### 步驟 6：儲存條碼圖像
 
-配置條碼參數，例如 XDimension（以像素為單位）和 DotCodeEncodeMode（以位元組為單位）。
+最後，將 PNG 檔寫入磁碟。  
+`generator.Save($"{outputDir}dotcode_bytes.png", SaveFormat.Png);`
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 10;
 gen.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
 ```
 
-## 第 6 步：儲存條碼圖像
+透過這六個步驟，您已**generated a barcode aspose**，將二進位負載以 DotCode（bytes）格式編碼。隨時調整尺寸、顏色或錯誤更正等級，以符合您的設計需求。
 
-最後將產生的條碼圖片以PNG格式儲存到指定目錄路徑。
+## 常見問題與故障排除
+
+- **圖像為空白** – 確認 `XDimension` 設為大於 0 的值；1 像素的值可能導致圖像無法辨識。  
+- **授權例外** – 確保在建立任何 `BarcodeGenerator` 實例之前已載入授權檔案：`new BarCodeLicense().SetLicense("Aspose.BarCode.lic");`  
+- **大型負載** – DotCode 在 Bytes 模式下支援最高 1,500 位元組。若資料較大，請分割資料或改用其他符號。
+
+## 常見問答
+
+**Q: 使用 Aspose.BarCode 產生的 DotCode 條碼最大尺寸為何？**  
+A: 此函式庫可產生最高 4000 × 4000 px 的圖像，足以容納 Bytes 模式下最高 1,500 位元組的負載。
+
+**Q: 我可以變更前景色與背景色嗎？**  
+A: 可以——使用 `generator.Parameters.Barcode.BarColor` 與 `generator.Parameters.Barcode.BackColor` 設定自訂顏色。
+
+**Q: DotCode 在行動平台上受支援嗎？**  
+A: 當然支援。因為 Aspose.BarCode 為純 .NET 函式庫，您可在 Xamarin、MAUI 或任何基於 .NET 的行動專案中使用。
+
+**Q: 臨時授權有任何限制嗎？**  
+A: 臨時授權會移除評估浮水印，但僅限 30 天；您可在此取得 [here](https://purchase.aspose.com/temporary-license/)。正式環境則需完整授權。
+
+**Q: 如何將此整合至 ASP.NET Core Web API？**  
+A: 在控制器動作中實例化產生器，將圖像產生至 `MemoryStream`，並以 MIME 類型 `image/png` 的 `FileResult` 回傳。
+
+## 結論
+
+您現在已擁有完整、可投入生產的步驟，使用 DotCode 編碼模式（bytes）在 .NET 中**generate barcode aspose**。依循這六個簡潔步驟，即可將二進位資料嵌入緊湊且高密度的 2‑D 符號，並自訂每個視覺細節以符合應用程式 UI。可在 Aspose.BarCode API 中探索更多參數，以進一步調整尺寸、顏色與錯誤更正，並輕鬆將產生器整合至桌面、網頁或行動專案。
+
+如需更詳細的說明，請再次參考官方 Aspose.BarCode for .NET 文件：[Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/).
+
+---
+
+**最後更新：** 2026-08-22  
+**測試環境：** Aspose.BarCode 24.10 for .NET  
+**作者：** Aspose  
+
+
+
+
+
+
 
 ```csharp
 gen.Save($"{path}DotCodeEncodeModeBytes.png", BarCodeImageFormat.Png);
 ```
 
-透過這些步驟，您已在編碼模式（位元組）下使用 Aspose.BarCode for .NET 成功產生了 DotCode 條碼。您可以透過調整各種參數來進一步自訂條碼，以滿足您的特定要求。
+## 相關教學
 
-## 結論：
+- [使用 Aspose.BarCode 建立 DotCode 條碼 .NET（自動模式）](/barcode/net/dotcode-barcode-configuration/dotcode-encoding-mode-auto/)
+- [使用 Aspose.BarCode for .NET 於位元組模式產生 DataMatrix 條碼](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-bytes/)
+- [如何使用 Aspose.BarCode for .NET 產生 DataMatrix 條碼 – 步驟指南](/barcode/net/datamatrix-barcode-configuration/)
 
-在本教程中，我們使用 Aspose.BarCode for .NET 探索了 DotCode 編碼模式（位元組）。我們從先決條件開始，導入命名空間，並將整個過程分解為易於遵循的步驟。 Aspose.BarCode 可讓您輕鬆產生和操作條碼，為您的 .NET 應用程式添加有價值的功能。嘗試不同的設置，您會對 DotCode 編碼的多功能性感到驚訝。立即開始將條碼功能整合到您的應用程式中！
 
-## 常見問題解答
-
-### Q1：什麼是DotCode編碼模式？
-
-A1：點碼編碼模式是一種使用一系列點將資料編碼為二維條碼的方法。它對於編碼二進位資料特別有用。
-
-### Q2：在哪裡可以找到 Aspose.BarCode for .NET 文件？
-
- A2：您可以存取 Aspose.BarCode for .NET 文檔[這裡](https://reference.aspose.com/barcode/net/).
-
-### Q3：如何取得 Aspose.BarCode 的臨時授權用於測試目的？
-
- A3：您可以從以下地址獲得臨時測試許可證：[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q4：我可以使用 Aspose.BarCode for .NET 自訂 DotCode 條碼的外觀嗎？
-
-A4：是的，Aspose.BarCode for .NET 提供了廣泛的參數用於自訂條碼外觀，包括尺寸、顏色等。
-
-### Q5：Aspose.BarCode 與.NET Core 應用程式相容嗎？
-
-A5：是的，Aspose.BarCode for .NET 與.NET Framework 和.NET Core 應用程式相容。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

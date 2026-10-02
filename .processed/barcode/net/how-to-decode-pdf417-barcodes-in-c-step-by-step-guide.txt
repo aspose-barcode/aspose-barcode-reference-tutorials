@@ -1,0 +1,7 @@
+Title: How to decode PDF417 barcodes in C# – step‑by‑step guide
+Slug: how-to-decode-pdf417-barcodes-in-c-step-by-step-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-09-29T14:59:27.513389
+SourceRepo: AI Search API
+Keywords: how to decode pdf417, how to read barcode, barcode reader example, read pdf417 barcode, read barcode image c#
+PRNumber: 140

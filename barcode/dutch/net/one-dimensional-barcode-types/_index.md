@@ -60,6 +60,8 @@ Leer hoe u eendimensionale Code 128-barcodes kunt genereren in .NET met behulp v
 Leer hoe u eendimensionale Code 39-barcodes kunt genereren in .NET met Aspose.BarCode. Stapsgewijze handleiding voor ontwikkelaars.
 ### [Eendimensionale Code 93-configuratie](./one-dimensional-code-93-configuration/)
 Leer hoe u Code 93-barcodes kunt maken met Aspose.BarCode voor .NET. Stapsgewijze handleiding voor het genereren van streepjescodes.
+### [Hoe een barcode instellen in C# – volledige Aspose.BarCode gids](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+Leer hoe u barcodes instelt in C# met een volledige gids voor Aspose.BarCode.
 ### [Eendimensionale aanpassing van de hoogte van de streepjescode](./one-dimensional-barcode-height-adjustment/)
 Leer hoe u de hoogte van eendimensionale streepjescodes in .NET kunt aanpassen met Aspose.BarCode voor nauwkeurig maatwerk. Creëer moeiteloos perfecte barcodes!
 ### [Eendimensionale databar 2D-componentconfiguratie](./one-dimensional-databar-2d-component-configuration/)
@@ -85,6 +87,10 @@ Leer hoe u barcodes uit een afbeelding kunt lezen met Aspose.BarCode in C#. Volg
 Leer hoe u met Aspose.BarCode in C# barcodes maakt vanuit tekst, stap voor stap.
 ### [Hoe een barcode te genereren in C# – Complete programmeergids](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Leer stap voor stap hoe u barcodes genereert in C# met Aspose.BarCode, inclusief codevoorbeelden en configuratieopties.
+### [Barcode lezen vanuit afbeelding in C# – BarCodeReader-tutorial](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Leer hoe u barcodes uit afbeeldingen kunt lezen in C# met de BarCodeReader van Aspose.BarCode.
+### [Hoe barcode-parameters in C# instellen met Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Leer hoe u barcode-parameters configureert in C# met Aspose.BarCode voor optimale resultaten.
 
 ## Conclusie
 

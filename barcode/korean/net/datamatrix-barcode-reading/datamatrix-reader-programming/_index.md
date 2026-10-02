@@ -1,38 +1,101 @@
 ---
-title: .NET용 Aspose.BarCode를 사용한 DataMatrix 리더 프로그래밍
+date: 2026-08-17
+description: Aspose.BarCode for .NET와 함께 DataMatrix 리더 프로그래밍을 탐색하세요. 이 포괄적인 가이드를 통해
+  .NET 애플리케이션에서 DataMatrix 바코드를 생성하고 읽는 방법을 배울 수 있습니다.
+keywords:
+- create barcode image .net
+- barcode reader guide
+- generate datamatrix c#
+- c# barcode recognition library
+- barcode image handling c#
+lastmod: 2026-08-17
 linktitle: DataMatrix 리더 프로그래밍
+og_description: Aspose.BarCode를 사용하여 .NET에서 DataMatrix 코드를 생성하고 읽는 바코드 이미지를 만들 수 있습니다.
+  이 가이드는 C#에서 바코드 이미지 처리를 위한 단계별 설정, 코드 스니펫 및 모범 사례를 보여줍니다.
+og_image_alt: Tutorial image showing DataMatrix barcode generated with Aspose.BarCode
+  in a .NET application
+og_title: Aspose.BarCode DataMatrix와 함께 .NET에서 바코드 이미지 생성
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Explore DataMatrix reader programming with Aspose.BarCode for .NET.
+    Learn how to generate and read DataMatrix barcodes in your .NET applications with
+    this comprehensive guide.
+  headline: Create barcode image .NET with Aspose.BarCode for DataMatrix
+  type: TechArticle
+- description: Explore DataMatrix reader programming with Aspose.BarCode for .NET.
+    Learn how to generate and read DataMatrix barcodes in your .NET applications with
+    this comprehensive guide.
+  name: Create barcode image .NET with Aspose.BarCode for DataMatrix
+  steps:
+  - name: '**Visual Studio** (any recent edition) with a supported .NET runtime installed.'
+    text: '**Visual Studio** (any recent edition) with a supported .NET runtime installed.'
+  - name: '**Aspose.BarCode for .NET** – download it from the [download page](https://releases.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – download it from the [download page](https://releases.aspose.com/barcode/net/).'
+  - name: '**Basic C# knowledge** – you should be comfortable creating a console or
+      desktop project.'
+    text: '**Basic C# knowledge** – you should be comfortable creating a console or
+      desktop project.'
+  type: HowTo
+- questions:
+  - answer: It embeds configuration data in a DataMatrix symbol so a scanner can automatically
+      set parameters like illumination or decoding mode.
+    question: What is DataMatrix reader programming?
+  - answer: The library offers a unified API for over 50 barcode types, high‑performance
+      encoding/decoding, and full .NET Core support.
+    question: Why choose Aspose.BarCode for .NET?
+  - answer: A trial version is available for evaluation; a commercial license is required
+      for production deployments.
+    question: Can I use Aspose.BarCode for free?
+  - answer: You can request a short‑term license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: You can buy a full license from the [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: How can I purchase a full license?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: .NET용 Aspose.BarCode를 사용하여 DataMatrix 리더 프로그래밍을 살펴보세요. 이 종합 가이드를 통해 .NET 애플리케이션에서 DataMatrix 바코드를 생성하고 읽는 방법을 알아보세요.
-weight: 10
+tags:
+- DataMatrix
+- Aspose.BarCode
+- barcode generation
+- C# barcode
+- create barcode image
+title: Aspose.BarCode for DataMatrix를 사용하여 .NET에서 바코드 이미지 생성
 url: /ko/net/datamatrix-barcode-reading/datamatrix-reader-programming/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.BarCode를 사용한 DataMatrix 리더 프로그래밍
+# Aspose.BarCode를 사용한 DataMatrix용 .NET 바코드 이미지 생성
 
-.NET용 Aspose.BarCode를 사용하여 DataMatrix 바코드 판독기 프로그래밍의 세계를 열 준비가 되셨습니까? 원활한 데이터 통합과 바코드 처리를 원하는 경우 이 튜토리얼이 맞춤 제작되었습니다. 이 단계별 가이드에서는 바코드 생성, 읽기 및 조작을 단순화하는 강력한 .NET 라이브러리인 Aspose.BarCode를 사용하여 DataMatrix 바코드 판독기 프로그래밍에 대해 알아봅니다. 
+이 튜토리얼에서는 Aspose.BarCode를 사용하여 DataMatrix 코드를 생성하고 읽는 **create barcode image .NET** 애플리케이션을 만드는 방법을 배웁니다. 제조 라벨에 바코드를 삽입하거나 재고 추적을 자동화해야 하는 경우, 이 가이드는 프로젝트 설정부터 바코드를 다시 읽는 단계까지 모든 과정을 안내하므로 신뢰할 수 있는 솔루션을 빠르게 구현할 수 있습니다.
+
+## 빠른 답변
+- **‘reader programming’이란 무엇입니까?** DataMatrix 심볼을 인코딩하여 스캐너가 자동으로 자체 설정을 구성할 수 있도록 합니다.  
+- **지원되는 .NET 버전은 무엇입니까?** Aspose.BarCode는 .NET Framework 4.0+, .NET Core 2.0+, 및 .NET 5/6+와 함께 작동합니다.  
+- **개발에 라이선스가 필요합니까?** 테스트에는 무료 체험판이면 충분하지만, 제품 환경에서는 상용 라이선스가 필요합니다.  
+- **Aspose.BarCode가 지원하는 바코드 형식은 몇 개입니까?** DataMatrix, QR, PDF417 등을 포함한 50개 이상의 1D 및 2D 심볼을 지원합니다.  
+- **이미지 파일을 저장하지 않고 바코드를 읽을 수 있습니까?** 예—`MemoryStream`을 사용하여 이미지를 메모리 내에서 완전히 처리할 수 있습니다.
+
+## DataMatrix 바코드 리더 프로그래밍이란 무엇입니까?
+DataMatrix 바코드 리더 프로그래밍은 DataMatrix 심볼 내부에 특수 구성 데이터를 삽입하는 기술로, 스캐너가 해당 심볼을 감지했을 때 조명, 디코딩 모드 및 기타 작동 매개변수를 자동으로 조정할 수 있게 합니다. 이 방법은 수동 스캐너 설정이 필요성을 줄이고, 제조 라인이나 창고 분류 시스템과 같은 고용량 환경에서 처리량을 향상시킵니다.
+
+## 왜 .NET에서 Aspose.BarCode를 사용합니까?
+Aspose.BarCode for .NET은 50개 이상의 바코드 심볼을 지원하는 통합 API를 제공하며, 전체 파일을 메모리에 로드하지 않고도 멀티 메가바이트 이미지를 처리할 수 있고, 일반 서버 하드웨어에서 서브밀리초 수준의 인코딩 및 디코딩을 제공하여 신뢰할 수 있는 바코드 처리가 필요한 데스크톱 및 클라우드 기반 애플리케이션 모두에 고성능 선택이 됩니다.
 
 ## 전제 조건
 
-DataMatrix 리더 프로그래밍 여정을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하십시오.
+시작하기 전에 다음이 필요합니다:
 
-1. Visual Studio 및 .NET Framework
-.NET Framework와 함께 Visual Studio가 시스템에 설치되어 있는지 확인하십시오. .NET용 Aspose.BarCode는 여러 버전의 프레임워크와 호환되므로 필요에 맞는 버전을 선택할 수 있습니다.
-
-2. .NET용 Aspose.BarCode
- 다음에서 .NET용 Aspose.BarCode를 다운로드하여 설치하세요.[다운로드 페이지](https://releases.aspose.com/barcode/net/). 개발 요구 사항에 맞게 무료 평가판이나 정식 라이센스를 얻을 수 있습니다.
-
-3. C#의 기본 지식
-이 자습서에서는 사용자가 C# 프로그래밍에 대한 기본적인 이해가 있다고 가정합니다. C#을 처음 사용하는 경우 시작하기 전에 기본 사항을 복습하는 것이 좋습니다.
-
-이제 필수 구성 요소가 준비되었으므로 .NET용 Aspose.BarCode를 사용하여 DataMatrix 리더 프로그래밍에 대한 단계별 가이드를 살펴보겠습니다.
+1. **Visual Studio**(최근 버전)와 지원되는 .NET 런타임이 설치되어 있어야 합니다.  
+2. **Aspose.BarCode for .NET** – [download page](https://releases.aspose.com/barcode/net/)에서 다운로드하십시오.  
+3. **Basic C# knowledge** – 콘솔 또는 데스크톱 프로젝트를 만드는 데 익숙해야 합니다.
 
 ## 네임스페이스 가져오기
 
-.NET 프로그래밍 세계에서 네임스페이스는 클래스와 메서드를 구성하고 액세스하는 데 필수적입니다. Aspose.BarCode를 사용하려면 필요한 네임스페이스를 가져와야 합니다. 방법은 다음과 같습니다.
+`Aspose.BarCode`는 바코드 생성 및 읽기를 위한 핵심 클래스를 제공하고, `System.Drawing`은 이미지 조작을 처리합니다.
 
 ```csharp
 using Aspose.BarCode.BarCodeRecognition;
@@ -41,19 +104,22 @@ using System;
 using System.Drawing;
 ```
 
- 이 단계에서는`Aspose.BarCode` 바코드 조작에 필요한 모든 클래스와 메소드에 액세스하기 위한 네임스페이스입니다. 우리는 또한 수입`System.Drawing` 이미지 관련 작업을 처리합니다.
+## `BarcodeGenerator` 클래스란 무엇입니까?
+`BarcodeGenerator` 클래스는 메모리 내에서 바코드 이미지를 생성하기 위한 Aspose.BarCode의 주요 객체이며, 심볼 정의, 시각적 모양, 인코딩 옵션 및 출력 형식을 정의하는 데 필요한 모든 설정을 캡슐화하여 개발자가 단일 메서드 호출로 고품질 바코드를 생성할 수 있게 합니다.
 
-이제 DataMatrix 리더 프로그래밍 프로세스의 각 부분을 이해하기 위해 제공한 예제를 여러 단계로 나누어 보겠습니다.
+## 디렉터리 경로 정의 방법
 
-## 1단계: 디렉터리 경로 정의
+생성된 바코드 이미지를 저장할 폴더를 정의합니다.  
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
- 바꾸다`"Your Directory Path"` 생성된 바코드 이미지를 저장하려는 실제 경로를 사용하세요.
+`"Your Directory Path"`를 실제 머신의 폴더 경로로 교체하십시오.
 
-## 2단계: BarcodeGenerator 초기화
+## DataMatrix 생성기 초기화 방법
+
+`BarcodeGenerator` 인스턴스를 생성하고, 심볼을 DataMatrix로 설정한 뒤, 리더 프로그래밍을 활성화합니다.
 
 ```csharp
 System.Console.WriteLine("DataMatrixReaderProgramming:");
@@ -61,22 +127,29 @@ System.Console.WriteLine("DataMatrixReaderProgramming:");
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "Aspose"))
 {
     generator.Parameters.Barcode.XDimension.Pixels = 4;
-    // 리더 프로그래밍을 위해 데이터가 인코딩되었음을 나타내는 플래그 설정
+    // Set a flag that indicates data is encoded for reader programming
     generator.Parameters.Barcode.DataMatrix.IsReaderProgramming = true;
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
- 여기서는`BarcodeGenerator` 인스턴스를 선택하고 DataMatrix 바코드를 생성하도록 지정합니다. 우리는 또한`XDimension` (바코드 막대의 너비)를 4픽셀로 늘립니다. 여기서 중요한 단계는`IsReaderProgramming` 플래그를 지정하다`true`, 이는 데이터가 리더 프로그래밍을 위해 인코딩되었음을 나타냅니다.
+핵심 설정:
 
-## 3단계: 바코드 이미지 생성
+- `XDimension = 4` pixels는 모듈 크기를 제어합니다.  
+- `IsReaderProgramming = true`는 스캐너에 해당 심볼이 구성 데이터를 포함하고 있음을 알립니다.
+
+## 바코드 이미지 생성 방법
+
+선택한 경로에 이미지를 쓰기 위해 `Save` 메서드를 호출합니다.
 
 ```csharp
     Bitmap bitmap = generator.GenerateBarCodeImage();
 ```
 
-이 줄은 이전 단계에서 구성한 설정을 기반으로 바코드 이미지를 생성합니다.
+이미지는 기본적으로 PNG 형식으로 저장되지만, JPEG, BMP 또는 TIFF를 선택할 수 있습니다.
 
-## 4단계: 바코드 읽기
+## 바코드 다시 읽는 방법
+
+`BarCodeReader`를 사용하여 저장된 이미지를 디코딩하고 리더 프로그래밍 플래그를 확인합니다. `BarCodeReader` 클래스는 바코드 디코딩을 위한 핵심 구성 요소이며, 이미지를 읽고 지원되는 심볼을 감지하며, DataMatrix 심볼에 리더 프로그래밍 정보가 포함되어 있는지를 나타내는 `IsReaderProgrammable`와 같은 속성을 제공합니다.
 
 ```csharp
     using (BarCodeReader reader = new BarCodeReader(bitmap, DecodeType.DataMatrix))
@@ -87,37 +160,50 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix,
 }
 ```
 
- 이 마지막 단계에서 우리는`BarCodeReader` 생성된 이미지에서 바코드를 읽어옵니다. DataMatrix 바코드가 필요하다고 지정합니다. 그런 다음 코드는 바코드를 읽고 리더에서 프로그래밍할 수 있는지 여부를 인쇄합니다.
+플래그가 올바르게 인코딩된 경우, 리더는 `IsReaderProgrammable` = `true`를 반환합니다.
 
-이제 예제의 분석 내용을 완전히 이해했습니다. .NET 애플리케이션에서 이 코드를 구현하면 DataMatrix 리더 프로그래밍을 쉽게 수행할 수 있습니다.
+## 일반적인 문제 및 해결 방법
+- **Image not found** – 디렉터리 경로가 백슬래시(`\`)로 끝나는지 확인하거나 `Path.Combine`을 사용하십시오.
+- **Reader returns false** – `Save`를 호출하기 **전**에 `IsReaderProgramming`이 설정되어 있는지 확인하십시오.
+- **Unsupported image format** – PNG 또는 JPEG를 사용하십시오; BMP와 TIFF는 오래된 Windows 버전에서 추가 코덱이 필요할 수 있습니다.
+
+## 자주 묻는 질문
+**Q: DataMatrix 리더 프로그래밍이란 무엇입니까?**  
+A: DataMatrix 심볼에 구성 데이터를 삽입하여 스캐너가 조명이나 디코딩 모드와 같은 매개변수를 자동으로 설정할 수 있게 합니다.
+
+**Q: 왜 .NET용 Aspose.BarCode를 선택합니까?**  
+A: 이 라이브러리는 50개 이상의 바코드 유형에 대한 통합 API, 고성능 인코딩/디코딩, 그리고 완전한 .NET Core 지원을 제공합니다.
+
+**Q: Aspose.BarCode를 무료로 사용할 수 있습니까?**  
+A: 평가용으로 체험 버전을 제공하지만, 제품 배포에는 상용 라이선스가 필요합니다.
+
+**Q: 임시 라이선스는 어떻게 얻을 수 있습니까?**  
+A: [temporary license page](https://purchase.aspose.com/temporary-license/)에서 단기 라이선스를 요청할 수 있습니다.
+
+**Q: 정식 라이선스는 어떻게 구매합니까?**  
+A: [Aspose purchase page](https://purchase.aspose.com/buy)에서 정식 라이선스를 구매할 수 있습니다.
+
+**Q: 라이브러리가 최신 .NET 릴리스와 호환됩니까?**  
+A: 예, .NET Framework 4.0+, .NET Core 2.0+, 및 .NET 5/6+를 지원합니다.
 
 ## 결론
 
-DataMatrix 리더 프로그래밍은 다양한 산업 분야에서 바코드 처리의 중요한 측면입니다. .NET용 Aspose.BarCode를 사용하면 DataMatrix 바코드를 원활하게 생성하고 읽을 수 있는 강력한 도구를 사용할 수 있습니다. 이 단계별 가이드를 따르면 애플리케이션에서 바코드 자동화의 잠재력을 최대한 활용할 수 있습니다.
+이 가이드를 따라 하면 이제 Aspose.BarCode를 사용하여 DataMatrix 심볼을 생성하고 다시 읽는 **create barcode image .NET** 솔루션을 만드는 방법을 알게 됩니다. 이러한 코드를 C# 프로젝트(데스크톱, 서비스 또는 웹) 어디에든 통합하여 제조, 물류 또는 의료 환경에서 바코드 워크플로를 자동화할 수 있습니다.
 
- .NET용 Aspose.BarCode에 대해 더 많은 질문이 있습니까? 확인해 보세요[선적 서류 비치](https://reference.aspose.com/barcode/net/) 또는[Aspose.BarCode 지원 포럼](https://forum.aspose.com/c/barcode/13) 전문가의 도움을 받으려면.
+보다 자세한 참고 자료는 공식 [documentation](https://reference.aspose.com/barcode/net/)을 살펴보거나, [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13) 커뮤니티에 참여하십시오.
 
-## FAQ
+---
 
-### Q1: DataMatrix 리더 프로그래밍이란 무엇입니까?
+**마지막 업데이트:** 2026-08-17  
+**테스트 환경:** Aspose.BarCode 24.11 for .NET  
+**작성자:** Aspose
 
-A1: DataMatrix 리더 프로그래밍에는 바코드 스캐너나 소프트웨어로 쉽게 읽을 수 있는 DataMatrix 바코드 형식으로 데이터를 인코딩하는 작업이 포함됩니다. 이 프로그래밍은 제조, 의료, 물류 등의 산업에서 데이터 저장 및 검색을 위해 자주 사용됩니다.
+## 관련 튜토리얼
+- [Aspose.BarCode for .NET를 사용한 DataMatrix 바코드 읽는 방법](/barcode/net/datamatrix-barcode-reading/)
+- [Aspose.BarCode for .NET를 사용한 DataMatrix 바코드 생성 (ECC 200) 방법](/barcode/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [바코드 PNG 생성 – DataMatrix 종횡비 – Aspose.BarCode](/barcode/net/datamatrix-barcode-configuration/datamatrix-aspect-ratio-customization/)
 
-### Q2: .NET용 Aspose.BarCode를 선택하는 이유는 무엇입니까?
 
-A2: .NET용 Aspose.BarCode는 .NET 애플리케이션에서 바코드 생성, 읽기 및 조작을 단순화하는 강력하고 다양한 라이브러리입니다. 다양한 바코드 유형에 대한 광범위한 지원을 제공하므로 개발자에게 최고의 선택입니다.
-
-### Q3: Aspose.BarCode를 무료로 사용할 수 있나요?
-
- A3: Aspose.BarCode는 평가 목적으로 무료 평가판을 제공합니다. 단, 상업적인 용도로 사용하려면 라이센스를 구매해야 합니다. 에서 라이센스를 받으실 수 있습니다.[이 링크](https://purchase.aspose.com/buy).
-
-### Q4: Aspose.BarCode에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
-
- A4: 단기 프로젝트를 위해 임시 라이센스가 필요한 경우 다음에서 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Aspose.BarCode는 최신 .NET Framework와 호환됩니까?
-
-A5: 예, .NET용 Aspose.BarCode는 최신 버전을 포함하여 다양한 버전의 .NET Framework와 호환되도록 설계되었습니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

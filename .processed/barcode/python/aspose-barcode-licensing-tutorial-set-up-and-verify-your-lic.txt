@@ -1,0 +1,7 @@
+Title: Aspose barcode licensing tutorial – set up and verify your license in Python
+Slug: aspose-barcode-licensing-tutorial-set-up-and-verify-your-lic
+Category: general
+ProcessedDate: 2026-09-20T02:35:59.950988
+SourceRepo: AI Search API
+Keywords: aspose barcode licensing tutorial, load license from file
+PRNumber: 131

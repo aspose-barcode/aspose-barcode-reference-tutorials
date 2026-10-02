@@ -1,0 +1,7 @@
+Title: How to set width and adjust height for a GS1 DataBar Omni‑Directional barcode in C#
+Slug: how-to-set-width-and-adjust-height-for-a-gs1-databar-omni-di
+Category: general
+ProcessedDate: 2026-09-29T15:23:23.417568
+SourceRepo: AI Search API
+Keywords: how to set width, how to change height
+PRNumber: 142
