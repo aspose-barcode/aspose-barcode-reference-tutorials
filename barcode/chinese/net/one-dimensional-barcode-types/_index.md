@@ -53,7 +53,7 @@ url: /zh/net/one-dimensional-barcode-types/
 ## 宽窄比配置
 
 我们将探索一维条形码的宽窄比配置。在 Aspose.BarCode 的指导下轻松高效地定制您的条形码。
-## 一维条形码类型教程
+## 一维条码类型教程
 ### [一维码128配置](./one-dimensional-code-128-configuration/)
 了解如何使用 Aspose.BarCode 在 .NET 中生成一维 Code 128 条形码。请遵循我们的无缝条形码集成分步指南。
 ### [一维 Code 39 配置](./one-dimensional-code-39-configuration/)
@@ -89,6 +89,8 @@ url: /zh/net/one-dimensional-barcode-types/
 ### [在 C# 中从图像读取条形码 – BarCodeReader 教程](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 了解如何使用 Aspose.BarCode 在 C# 中从图像读取条形码。分步指南帮助您快速实现读取功能。
 ### [如何在 C# 中使用 Aspose.BarCode 设置条码参数](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+### [在 C# 中生成包含特殊字符的条码](./how-to-generate-a-barcode-with-special-characters-in-c/)
+了解如何在 C# 中使用 Aspose.BarCode 生成包含特殊字符的条码。
 
 ## 结论
 
