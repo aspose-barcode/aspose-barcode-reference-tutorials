@@ -90,6 +90,8 @@ url: /th/net/one-dimensional-barcode-types/
 เรียนรู้วิธีอ่านบาร์โค้ดจากไฟล์ภาพด้วย BarCodeReader ใน C# อย่างละเอียด
 ### [วิธีตั้งค่าพารามิเตอร์บาร์โค้ดใน C# ด้วย Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 เรียนรู้วิธีกำหนดค่าพารามิเตอร์บาร์โค้ดใน C# ด้วย Aspose.BarCode อย่างละเอียด
+### [วิธีสร้างบาร์โค้ดด้วยอักขระพิเศษใน C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
+เรียนรู้วิธีสร้างบาร์โค้ดที่มีอักขระพิเศษใน C# ด้วย Aspose.BarCode อย่างง่ายและรวดเร็ว
 
 ## บทสรุป
 

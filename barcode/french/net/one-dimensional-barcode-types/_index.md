@@ -90,6 +90,8 @@ Découvrez comment générer des codes-barres en C# avec Aspose.BarCode pour .NE
 Apprenez à lire des codes-barres à partir d'images en C# avec BarCodeReader d'Aspose.BarCode.
 ### [Comment définir les paramètres du code-barres en C# avec Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Apprenez à configurer les paramètres des codes-barres en C# avec Aspose.BarCode. Guide étape par étape pour une personnalisation facile.
+### [Comment générer un code-barres avec des caractères spéciaux en C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
+Apprenez à créer des codes-barres contenant des caractères spéciaux en C# avec Aspose.BarCode.
 
 ## Conclusion
 
