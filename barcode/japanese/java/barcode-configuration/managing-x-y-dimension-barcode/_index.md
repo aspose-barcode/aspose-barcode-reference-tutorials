@@ -1,10 +1,67 @@
 ---
-date: 2025-12-14
-description: Aspose.BarCode を使用して Java でバーコードのサイズ設定方法を学びましょう。このステップバイステップガイドでは、バーコードのカスタマイズ方法、Java
-  でのバーコード画像生成、そして Aspose を使ったバーコードの作成方法を示します。
-linktitle: Managing X and Y Dimensions of Barcode
+date: 2026-09-18
+description: Aspose.BarCodeというJava向けの主要なバーコードライブラリを使用して、Javaでバーコードのサイズをカスタマイズする方法を学びます。X
+  と Y のサイズを調整し、画像を生成し、簡単に統合できます。
+keywords:
+- how to customize barcode
+- barcode library for java
+- create barcode with aspose
+lastmod: 2026-09-18
+linktitle: バーコードの X と Y のサイズ管理
+og_description: Aspose.BarCodeというJava向けの主要なバーコードライブラリを使用して、Javaでバーコードのサイズをカスタマイズする方法を学びます。X
+  と Y のサイズを調整し、画像を生成し、簡単に統合できます。
+og_image_alt: 'Developer guide: customize barcode dimensions in Java using Aspose.BarCode'
+og_title: JavaでAspose.BarCodeを使用したバーコードサイズのカスタマイズ方法
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to customize barcode dimensions in Java using Aspose.BarCode,
+    the leading barcode library for Java. Adjust X and Y sizes, generate images, and
+    integrate easily.
+  headline: How to customize barcode dimensions in Java with Aspose
+  type: TechArticle
+- description: Learn how to customize barcode dimensions in Java using Aspose.BarCode,
+    the leading barcode library for Java. Adjust X and Y sizes, generate images, and
+    integrate easily.
+  name: How to customize barcode dimensions in Java with Aspose
+  steps:
+  - name: Instantiate `BarcodeGenerator` with the **CODE_128** symbology.
+    text: Instantiate `BarcodeGenerator` with the **CODE_128** symbology.
+  - name: Call `setMillimeters(0.5f)` to define a 0.5 mm bar width.
+    text: Call `setMillimeters(0.5f)` to define a 0.5 mm bar width.
+  - name: Save the result as **xDimension.jpg**.
+    text: Save the result as **xDimension.jpg**.
+  - name: Use the **PDF_417** symbology, which often benefits from taller bars.
+    text: Use the **PDF_417** symbology, which often benefits from taller bars.
+  - name: Set the bar height to **4 mm**.
+    text: Set the bar height to **4 mm**.
+  - name: Store the output as **yDimension.jpg**.
+    text: Store the output as **yDimension.jpg**.
+  type: HowTo
+- questions:
+  - answer: Yes, a commercial license is required. Purchase a license on the **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Can I use Aspose.BarCode for Java in commercial projects?
+  - answer: Absolutely, you can download a free trial from the **[Aspose download
+      page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: The documentation is available at the **[Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/)**.
+    question: Where can I find the full API documentation?
+  - answer: You can ask questions in the **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)**.
+    question: How do I get support if I run into problems?
+  - answer: Yes, a temporary license can be requested on the **[temporary license
+      request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Can I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: JavaでバーコードのX・Y寸法を設定する方法
+tags:
+- customize barcode
+- Aspose.BarCode
+- Java barcode
+- barcode dimensions
+- X dimension
+- Y dimension
+title: JavaでAspose.BarCodeを使用したバーコードサイズのカスタマイズ方法
 url: /ja/java/barcode-configuration/managing-x-y-dimension-barcode/
 weight: 13
 ---
@@ -13,44 +70,57 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# JavaでバーコードのXおよびY寸法を設定する方法
+# JavaでAsposeを使用したバーコードサイズのカスタマイズ方法
 
-Java開発において、**how to set barcode** の寸法設定は、ラベル、チケット、在庫タグなどで鮮明で読み取りやすいバーコードが必要な場合に共通の要件です。このチュートリアルでは、Aspose.BarCode Java API を使用して、X（狭いバーの幅）と Y（バーの高さ）の両方の寸法を制御する方法を説明します。最後まで読むと、**customize barcode**、**barcode image java** を生成し、任意のプロジェクトで **create barcode with aspose** を自信を持って行えるようになります。
+ラベル、チケット、在庫タグのために **Asposeでバーコードを作成** する必要がある場合、各バーの正確なサイズを制御することは不可欠です。このチュートリアルでは、Aspose.BarCode Java API を使用して **バーコードのカスタマイズ方法** を学びます—X‑ディメンション（狭いバー幅）と Y‑ディメンション（全体のバー高さ）の両方です。最後まで読むと、**バーコードのカスタマイズ**、**Javaでバーコード画像を生成**、そして **Asposeでバーコードを作成** できるようになります。
 
-## クイック回答
-- **バーコード寸法制御に最適なライブラリは何ですか？** Aspose.BarCode for Java.
-- **X‑dimension を設定するメソッドはどれですか？** `getXDimension().setMillimeters(...)`.
-- **Y‑dimension（バーの高さ）を設定するメソッドはどれですか？** `getBarHeight().setMillimeters(...)`.
-- **本番環境で使用するためにライセンスが必要ですか？** はい、商用ライセンスが必要です。
-- **PNG、JPG、または BMP 画像を生成できますか？** すべての一般的なラスタ形式がサポートされています。
+## Quick answers
+- **バーコードサイズ制御に最適なライブラリは何ですか？** Aspose.BarCode for Java.  
+- **X‑ディメンションを設定するメソッドはどれですか？** `getXDimension().setMillimeters(...)`.  
+- **Y‑ディメンション（バー高さ）を設定するメソッドはどれですか？** `getBarHeight().setMillimeters(...)`.  
+- **本番環境で使用するにはライセンスが必要ですか？** はい、商用ライセンスが必要です。  
+- **PNG、JPG、BMP 画像を生成できますか？** すべての一般的なラスターフォーマットがサポートされています。
 
-## Aspose.BarCode の文脈で「how to set barcode」とは何ですか？
-バーコードの寸法設定とは、各バーの物理的なサイズ（X‑dimension）とバー全体の高さ（Y‑dimension）を定義することです。適切な寸法設定により、さまざまなプリンターやスキャナーでバーコードが確実に読み取れるようになります。
+## Aspose.BarCode のコンテキストで「バーコードの設定」とは何ですか？
 
-## バーコード寸法をカスタマイズするために Aspose.BarCode for Java を使用する理由
-- **Precision control** – ミリメートル単位の調整で正確なサイズ設定が可能です。
-- **Wide format support** – PNG、JPG、BMP、GIF など多数の形式に対応しています。
-- **No external dependencies** – 純粋な Java ライブラリで、任意の IDE に簡単に統合できます。
-- **Comprehensive documentation** – 有用なサンプルと API リファレンスが提供されています。
+バーコードのサイズ設定とは、各バーの物理的なサイズ（X‑ディメンション）とバー全体の高さ（Y‑ディメンション）を定義することです。適切なサイズ設定により、さまざまなプリンターやスキャナーでバーコードが確実に読み取れ、業界固有のサイズ要件（例：小売ラベルの ISO/IEC 標準）を満たす柔軟性が得られます。
+
+## Aspose.BarCode for Java を使用してバーコードサイズをカスタマイズする理由
+
+Aspose.BarCode はミリメートル単位の精度を提供し、**50 以上のバーコードシンボロジー** をサポートし、**5 以上のラスターフォーマット**（PNG、JPG、BMP、GIF、TIFF）で画像をレンダリングできます。このライブラリは純粋な Java で、**外部依存関係がゼロ** であり、200 を超えるコード例を含む豊富なドキュメントが提供されているため、エンタープライズアプリケーションへの統合が迅速かつ信頼性の高いものになります。
 
 ## Prerequisites
-開始する前に、以下が揃っていることを確認してください。
 
-- マシンに Java Development Kit (JDK) がインストールされていること。
-- Aspose.BarCode for Java ライブラリを [here](https://releases.aspose.com/barcode/java/) からダウンロードしていること。
-- Eclipse や IntelliJ IDEA などの Java IDE があること。
+- Java Development Kit (JDK) がマシンにインストールされていること。  
+- Aspose.BarCode for Java ライブラリを **[Aspose.BarCode for Java ダウンロードページ](https://releases.aspose.com/barcode/java/)** からダウンロードすること。  
+- 他の Aspose 製品は **[Aspose リリースページ](https://releases.aspose.com/)** でも確認できます。  
+- Eclipse や IntelliJ IDEA などの Java IDE。
 
-## Import Packages
-Java クラスで、Aspose.BarCode の生成パッケージをインポートします：
+## Import packages
+
+Java クラスで Aspose.BarCode の生成パッケージをインポートします。
+
+`BarcodeGenerator` は Aspose.BarCode for Java でバーコード画像を作成・設定するためのメインクラスです。  
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-それでは、各寸法設定の手順を順に説明します。
+```java
+import com.aspose.barcode.generation.BarcodeGenerator;
+```
 
-## Step 1: Setting the X‑Dimension (Bar Width)
-X‑dimension は最も狭いバーの幅を制御します。典型的な値は 0.2 mm から 0.5 mm の間です。
+それでは、各ディメンション設定をステップバイステップで見ていきましょう。
+
+## How to set the X‑dimension (bar width)?
+
+バーコードジェネレータをロードし、シンボロジーを選択して、狭いバー幅をミリメートル単位で設定します。高密度コードの典型的な X‑ディメンションは **0.2 mm から 0.5 mm** の範囲で、ほとんどのプリンターで可読性とスペース使用のバランスを取ります。これらの設定により、異なる印刷解像度でも一貫したスキャン結果が得られます。
+
+`BarcodeGenerator` クラスは、選択されたシンボロジーとパラメータに基づいてバーコード画像を生成するコアオブジェクトです。  
+
+```java
+// Example code for setting X‑dimension
+```
 
 ```java
 public static void setXDimension() throws IOException {
@@ -68,14 +138,20 @@ public static void setXDimension() throws IOException {
 }
 ```
 
-このスニペットでは:
-
-1. **CODE_128** シンボロジーで `BarcodeGenerator` をインスタンス化します。
-2. `setMillimeters(0.5f)` を呼び出して、0.5 mm のバー幅を定義します。
+このスニペットでは以下を行います：
+1. **CODE_128** シンボロジーで `BarcodeGenerator` をインスタンス化します。  
+2. `setMillimeters(0.5f)` を呼び出して、0.5 mm のバー幅を設定します。  
 3. 結果を **xDimension.jpg** として保存します。
 
-## Step 2: Setting the Y‑Dimension (Bar Height)
-Y‑dimension（バー高さとも呼ばれます）は、各バーの高さを決定します。データ量やスキャン距離に応じて調整します。
+## How to set the Y‑dimension (bar height)?
+
+データ量と想定されるスキャン距離に合わせてバー高さを調整します。PDF‑417 のような 2‑D コードでは、より高いバー高さ（例：**4 mm**）にすることで可読性が向上し、特に大きなラベルに印刷する場合に効果的です。適切な Y‑ディメンションを選択することで、低解像度スキャナーでの読み取りエラーを防止できます。
+
+`BarHeight` は生成されたバーコードのバーの垂直サイズを指定します。  
+
+```java
+// Example code for setting Y‑dimension
+```
 
 ```java
 public static void setYDimension() throws IOException {
@@ -93,45 +169,52 @@ public static void setYDimension() throws IOException {
 }
 ```
 
-ここでは:
-
-1. **PDF_417** シンボロジーを使用します。これはしばしば高いバーが有利です。
-2. バー高さを **4 mm** に設定します。
+ここでは以下を行います：
+1. **PDF_417** シンボロジーを使用します。これはしばしば高いバーが有利です。  
+2. バー高さを **4 mm** に設定します。  
 3. 出力を **yDimension.jpg** として保存します。
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | 問題 | 原因 | 対策 |
-|------|------|------|
-| バーコードが細すぎるまたは太すぎる | プリンターの DPI に合わない X‑dimension | `setMillimeters` の値を調整する（例：高解像度プリンターでは 0.3 mm）。 |
-| スキャナーがコードを読み取れない | シンボロジーに対して Y‑dimension が低すぎる | `setMillimeters` を使用してバー高さを増やす（例：PDF_417 では 5 mm）。 |
-| 画像ファイルが破損している | 出力パスが存在しない、または書き込み権限がない | `dataDir` が既存の書き込み可能なフォルダーを指しているか確認する。 |
+|-------|-------|-----|
+| バーコードが細すぎるまたは太すぎる | X‑ディメンションがプリンターの DPI に適していない | `setMillimeters` の値を調整する（例：高解像度プリンターの場合は 0.3 mm）。 |
+| スキャナーがコードを読み取れない | シンボロジーに対して Y‑ディメンションが低すぎる | `setMillimeters` を使用してバー高さを増やす（例：PDF_417 の場合は 5 mm）。 |
+| 画像ファイルが破損している | 出力パスが存在しない、または書き込み権限がない | `dataDir` が既存の書き込み可能なフォルダーを指していることを確認する。 |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Aspose.BarCode for Java を商用プロジェクトで使用できますか？**  
-A: はい、商用ライセンスが必要です。ライセンスは [here](https://purchase.aspose.com/buy) から購入できます。
+**A:** はい、商用ライセンスが必要です。ライセンスは **[Aspose 購入ページ](https://purchase.aspose.com/buy)** で購入してください。
 
 **Q: 無料トライアルは利用できますか？**  
-A: もちろん、無料トライアルは [here](https://releases.aspose.com/) からダウンロードできます。
+**A:** もちろん、**[Aspose ダウンロードページ](https://releases.aspose.com/)** から無料トライアルをダウンロードできます。
 
 **Q: 完全な API ドキュメントはどこで見つけられますか？**  
-A: ドキュメントは [here](https://reference.aspose.com/barcode/java/) で入手できます。
+**A:** ドキュメントは **[Aspose.BarCode Java API リファレンス](https://reference.aspose.com/barcode/java/)** にあります。
 
 **Q: 問題が発生した場合、どのようにサポートを受けられますか？**  
-A: Aspose.BarCode フォーラムで質問できます（[here](https://forum.aspose.com/c/barcode/13)）。
+**A:** **[Aspose.BarCode フォーラム](https://forum.aspose.com/c/barcode/13)** で質問できます。
 
 **Q: テスト用の一時ライセンスを取得できますか？**  
-A: はい、一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) からリクエストできます。
+**A:** はい、**[一時ライセンス申請ページ](https://purchase.aspose.com/temporary-license/)** で一時ライセンスをリクエストできます。
 
 ## Conclusion
-Aspose.BarCode for Java を使用した X および Y の寸法管理は簡単です。X‑dimension をバー幅に、Y‑dimension をバー高さに調整することで、**customize barcode**、**barcode image java** を生成し、**create barcode with aspose** を実現して、あらゆるスキャン要件を満たすことができます。さまざまな値を試して、特定のユースケースに最適なバランスを見つけてください。
+
+Aspose.BarCode for Java を使用した X および Y ディメンションの管理はシンプルです。X‑ディメンションでバー幅を、Y‑ディメンションでバー高さを調整することで、**バーコードのカスタマイズ**、**Javaでバーコード画像を生成**、そして **Asposeでバーコードを作成** が可能になり、あらゆるスキャン要件を満たすことができます。さまざまな値を試して、特定のユースケースに最適なバランスを見つけてください。
 
 ---
 
-**最終更新日:** 2025-12-14  
+**最終更新日:** 2026-09-18  
 **テスト環境:** Aspose.BarCode for Java 24.8  
-**作者:** Aspose  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [カスタムバーコードサイズ Java - Aspose.BarCode で正確なサイズを設定](/barcode/java/advanced-settings-and-optimization/configuring-custom-size-barcode/)
+- [Javaで小さなバーコードラベルを作成する方法 - Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-minimum-barcode-size/)
+- [バーコードマージン設定 Java – Asposeでバーコード画像の間隔を調整](/barcode/java/image-manipulation/setting-margins-barcode-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
