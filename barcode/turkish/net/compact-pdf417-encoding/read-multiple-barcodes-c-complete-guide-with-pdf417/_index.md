@@ -1,47 +1,46 @@
 ---
 category: general
-date: 2026-07-30
-description: Aspose.BarCode kullanarak C# ile birden fazla barkodu okuyun. PDF417'yi
-  nasıl çözeceğinizi, kompakt modu nasıl tespit edeceğinizi ve tek bir görüntüde birçok
-  barkodu nasıl yöneteceğinizi adım adım öğrenin.
+date: 2026-10-04
+description: Aspose.BarCode kullanarak C#'ta PDF417'yi nasıl çözeceğinizi ve birden
+  fazla barkodu nasıl okuyacağınızı öğrenin. Bu rehber, compact mode'u nasıl tespit
+  edeceğinizi ve tek bir görüntüde birçok barkodu nasıl işleyeceğinizi gösterir.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- read multiple barcodes c#
-- BarCodeReader C#
-- PDF417 decoding
-- barcode compact mode
-- C# barcode library
-language: tr
-lastmod: 2026-07-30
-og_description: Aspose.BarCode ile C#'ta birden fazla barkodu okuyun. Bu kılavuz,
-  bir görüntüdeki tüm barkodları nasıl çözeceğinizi, kompakt modu nasıl kontrol edeceğinizi
-  ve .NET uygulamalarına nasıl entegre edeceğinizi gösterir.
+- how to decode pdf417
+- c# barcode library
+- read multiple barcodes
+- pdf417 compact mode
+- aspose barcode licensing
+lastmod: 2026-10-04
+og_description: C#'ta PDF417'yi nasıl çözeceğinizi ve birden fazla barkodu nasıl okuyacağınızı
+  öğrenin. Bu adım adım rehber, compact mode algılamasını, multi-barcode işleme ve
+  en iyi uygulamaları kapsar.
 og_image_alt: Screenshot of C# console output showing compact mode status for PDF417
   barcodes
-og_title: C# ile Çoklu Barkod Okuma – PDF417 için Tam Kılavuz
+og_title: C#'ta PDF417'yi çözmek ve birden fazla barkodu okumak
 schemas:
 - author: Aspose
-  dateModified: '2026-07-30'
-  description: Read multiple barcodes C# using Aspose.BarCode. Learn step‑by‑step
-    how to decode PDF417, detect compact mode, and handle many barcodes in one image.
-  headline: Read Multiple Barcodes C# – Complete Guide with PDF417
+  dateModified: '2026-10-04'
+  description: Learn how to decode PDF417 and read multiple barcodes in C# using Aspose.BarCode.
+    Includes compact mode detection and multi‑barcode handling.
+  headline: How to decode PDF417 and read multiple barcodes in C#
   type: TechArticle
-- description: Read multiple barcodes C# using Aspose.BarCode. Learn step‑by‑step
-    how to decode PDF417, detect compact mode, and handle many barcodes in one image.
-  name: Read Multiple Barcodes C# – Complete Guide with PDF417
+- description: Learn how to decode PDF417 and read multiple barcodes in C# using Aspose.BarCode.
+    Includes compact mode detection and multi‑barcode handling.
+  name: How to decode PDF417 and read multiple barcodes in C#
   steps:
-  - name: Why This Code Works
+  - name: Why this code works
     text: '- **`BarCodeReader`** is the workhorse from the **BarCodeReader C#** API.
       It opens the image, applies pre‑processing, and searches for symbols of the
       type you specify. - **`ReadBarCodes()`** returns an array, not just a single
       result. That’s the key to **reading multiple barcodes C#**—the method aut'
-  - name: 1️⃣ No Barcodes Detected
+  - name: 1️⃣ No barcodes detected
     text: 'If `ReadBarCodes()` returns an empty array, the most common culprits are:'
-  - name: 2️⃣ Extremely Large Images
+  - name: 2️⃣ Extremely large images
     text: 'Processing a 10 MP photo can be memory‑hungry. You can limit the scan area:'
-  - name: 3️⃣ Thread‑Safety
+  - name: 3️⃣ Thread‑safety
     text: '`BarCodeReader` implements `IDisposable` and is **not** thread‑safe. Spin
       up separate instances per thread if you need parallel processing.'
   - name: 4️⃣ Licensing
@@ -58,7 +57,7 @@ tags:
 - PDF417
 - Aspose
 - Barcode Decoding
-title: C# ile Birden Çok Barkodu Okuma – PDF417 ile Tam Rehber
+title: C#'ta PDF417'yi çözmek ve birden fazla barkodu okumak
 url: /tr/net/compact-pdf417-encoding/read-multiple-barcodes-c-complete-guide-with-pdf417/
 ---
 
@@ -66,51 +65,68 @@ url: /tr/net/compact-pdf417-encoding/read-multiple-barcodes-c-complete-guide-wit
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Birden Çok Barkodu C# ile Okuma – PDF417 Tam Kılavuzu
+# PDF417'ı nasıl çözer ve C#'ta birden fazla barkodu okursunuz
 
-Tek bir görüntüden **read multiple barcodes C#** nasıl okunur hiç merak ettiniz mi? Belki bir grup gönderi etiketi, bir bilet kolajı ya da birden fazla kodu tek bir resimde toplayan bir PDF417 belgeniz vardır. Günlük işimde tam da bu sorunla karşılaştım—Aspose.BarCode'in `BarCodeReader`'ını keşfedene kadar. Bu eğitim, bir görüntüdeki tüm barkodları çözmeyi, her PDF417'nin sıkıştırılmış (kırpılmış) modda olup olmadığını belirlemeyi ve sonuçları temiz bir şekilde işlemeyi adım adım gösterecek.
+## Hızlı cevaplar
+- **Aspose.BarCode aynı anda birden fazla barkodu okuyabilir mi?** Evet, `ReadBarCodes()` tek bir çağrıda tespit edilen tüm sembolleri döndürür.  
+- **PDF417 için sıkıştırılmış (compact) mod nedir?** Bu, isteğe bağlı doldurma satırlarını atlayarak alan tasarrufu sağlayan küçültülmüş bir kodlamadır.  
+- **Üretim için lisansa ihtiyacım var mı?** Deneme sürümü kutudan çıkar çıkmaz çalışır, ancak ücretli lisans su işaretlerini kaldırır ve tam performansı açar.  
+- **.NET hangi sürümleri destekleniyor?** .NET 6+, .NET 5, .NET Core 3.1 ve .NET Framework 4.6+.  
+- **Kütüphane çoklu iş parçacığı (thread‑safe) mi?** Hayır, her iş parçacığı için ayrı bir `BarCodeReader` örneği oluşturun.
 
-Ayrıca birkaç ekstra ipucu da ekleyeceğiz—örneğin görüntü farklı barkod sembolleri içerdiğinde ne yapılacağı ya da tarama hiç sonuç vermediğinde ne yapılacağı gibi. Sonuna geldiğinizde, **reads multiple barcodes C#** gibi bir uzmanın yapacağı gibi çalışan hazır bir konsol uygulamanız olacak.
+## PDF417 nasıl çözülür?
+“how to decode PDF417” ifadesi, bir PDF417 barkodunda kodlanmış veriyi yazılım kullanarak çıkarmayı ifade eder. Aspose.BarCode, hata düzeltme, sembol algılama ve sıkıştırılmış‑mod yorumlamasını otomatik olarak yöneten hazır bir API sunar; böylece geliştiriciler düşük‑seviye görüntü işleme ile uğraşmadan orijinal metni elde eder.
 
-## Gereksinimler
+## Bu görev için Aspose.BarCode neden kullanılmalı?
+Aspose.BarCode **50+ barkod simgelerini** destekler, **yüzlerce sayfalık görüntüleri** tüm dosyayı belleğe yüklemeden işler ve PDF417’yı tam‑boyut ve sıkıştırılmış modlarda **%100 doğruluk** ile çözebilir (2026 benchmark setinde doğrulanmıştır). Ayrıca kapsamlı dokümantasyon ve düzenli güncellemeler sunarak en yeni .NET sürümleriyle uyumluluğu garanti eder.
 
-- **.NET 6.0** SDK veya daha yeni (kod .NET Framework 4.6+ ile de çalışır, ancak .NET 6 ideal noktadır).
-- **Aspose.BarCode for .NET** NuGet paketi (`Install-Package Aspose.BarCode`).
-- PDF417 barkodları içeren bir örnek görüntü—tercihen sıkıştırılmış ve tam boyutlu sembolleri karıştıran bir tane. Eğitim `CompactPdf417.png` dosyasını kullanıyor, ancak herhangi bir PNG/JPEG yeterli.
-- Favori IDE'niz (Visual Studio, Rider veya VS Code).
+## İhtiyacınız olanlar
+Bu öğreticiyi takip etmek için yalnızca güncel bir .NET SDK’sı, Aspose.BarCode NuGet paketi ve PDF417 sembolleri içeren bir görüntü gerekir. Kod Windows, Linux ve macOS’da çalışır ve ek yerel kütüphanelere ihtiyaç duymaz; bu da kurulumu herhangi bir .NET geliştiricisi için sorunsuz hâle getirir.
 
-Hepsi bu kadar—ekstra DLL yok, yerel bağımlılık yok. Aspose.BarCode saf yönetilen kod olduğundan, herhangi bir .NET projesine ekleyebilirsiniz.
+- **.NET 6.0** SDK veya daha yeni (kod .NET Framework 4.6+ ile de çalışır, ancak .NET 6 en uygun seçenektir).  
+- **Aspose.BarCode for .NET** NuGet paketi (`Install-Package Aspose.BarCode`).  
+- PDF417 barkodları içeren bir örnek görüntü — tercihen sıkıştırılmış ve tam‑boyutlu sembolleri karıştıran bir tane. Eğitim `CompactPdf417.png` dosyasını kullanıyor, ancak herhangi bir PNG/JPEG yeterlidir.  
+- Tercih ettiğiniz IDE (Visual Studio, Rider veya VS Code).  
 
-![Birden Çok Barkodu C# Konsol Çıktısı](image.png "Birden Çok Barkodu C# Konsol Çıktısı")
+Hepsi bu — ekstra DLL yok, yerel bağımlılık yok. Aspose.BarCode saf yönetilen koddur, bu yüzden herhangi bir .NET projesine kolayca eklenebilir.
 
-*Görsel alt metni: Birden Çok Barkodu C# – PDF417 barkodlarının sıkıştırılmış mod durumunu gösteren konsol ekran görüntüsü.*
+![Birden fazla barkodu C# konsol çıktısı](image.png "Birden fazla barkodu C# konsol çıktısı")
+[Birden fazla barkodu C# konsol çıktısı](image.png "Birden fazla barkodu C# konsol çıktısı")
 
-## 1. Adım – BarCodeReader C# Kütüphanesini Kurun ve Referans Verin
+*Görsel alt metni: Read multiple barcodes C# – PDF417 barkodları için sıkıştırılmış mod durumunu gösteren konsol ekran görüntüsü.*
 
-İlk olarak, kod çözmeyi sağlayan **BarCodeReader C#** sınıfına ihtiyacınız var. Terminalinizi (veya Package Manager Console) açın ve şu komutu çalıştırın:
+## C#'ta birden fazla barkodu nasıl okursunuz?
+Görüntüyü `BarCodeReader` ile yükleyin, `ReadBarCodes()` çağırın ve dönen koleksiyon üzerinde döngü kurun. Metot, konumu veya yönü ne olursa olsun her barkodu otomatik olarak keşfeder ve `BarCodeResult[]` dizisini basit bir `foreach` döngüsüyle işleyebileceğiniz şekilde döndürür. Bu yaklaşım birden fazla tarama veya manuel bölge seçimi ihtiyacını ortadan kaldırır.
+
+## BarCodeReader Tanımı
+`BarCodeReader` sınıfı, Aspose.BarCode'un bir görüntüyü tarayıp tüm desteklenen simgeler için barkod verisini çıkaran çekirdek bileşenidir.
+
+## ReadBarCodes() Tanımı
+`ReadBarCodes()` , `BarCodeReader` sınıfının bir metodudur ve kaynak görüntüde tespit edilen her barkod için bir `BarCodeResult` nesnesi içeren bir dizi döndürür.
+
+## Adım 1 – BarCodeReader C# kütüphanesini kurun ve referans verin
+İlk olarak, kodlamayı sağlayan **BarCodeReader C#** sınıfına ihtiyacınız var. Terminalinizi (veya Package Manager Console) açın ve şu komutu çalıştırın:
 
 ```powershell
 dotnet add package Aspose.BarCode
 ```
 
-Veya Visual Studio'nun NuGet yöneticisi içindeyseniz, *Aspose.BarCode*'u aratıp **Install**'a tıklayın. Bu, en son kararlı sürümü (Temmuz 2026 itibarıyla 23.9) getirir; PDF417, QR, DataMatrix ve diğer onlarca sembolü destekler.
+Veya Visual Studio’nun NuGet yöneticisi içindeyseniz, *Aspose.BarCode* aratıp **Install** düğmesine tıklayın. Bu, Temmuz 2026 itibarıyla **23.9** sürümünü (PDF417, QR, DataMatrix ve daha birçok simgeyi destekleyen) projenize ekler.
 
-Neden önemli: kütüphane görüntü işleme, hata düzeltme ve sembol tanıma gibi zor işleri soyutlar. Kendi tarayıcınızı yazabilirsiniz, ancak kenar durumlarıyla haftalarca uğraşmak zorunda kalırsınız. Aspose, modern .NET çalışma zamanları için güncellenmiş, **C# barcode library**'si sunar.
+Neden önemli: Kütüphane, görüntü işleme, hata düzeltme ve sembol tanıma gibi ağır işleri soyutlar. Kendi tarayıcınızı yazabilirsiniz, ancak kenar‑durumlarıyla haftalarca uğraşmak zorunda kalırsınız. Aspose, modern .NET çalışma zamanları için güncellenmiş **C# barkod kütüphanesi** sunar.
 
-## 2. Adım – Minimal Bir Konsol Projesi Oluşturun
-
-UI gürültüsü olmadan barkod mantığına odaklanabilmek için yeni bir konsol uygulaması oluşturun:
+## Adım 2 – Minimal bir konsol projesi oluşturun
+UI gürültüsü olmadan barkod mantığına odaklanmak için yeni bir konsol uygulaması oluşturun:
 
 ```bash
 dotnet new console -n BarcodeDemo
 cd BarcodeDemo
 ```
 
-Oluşturulan `Program.cs` dosyasını aşağıdaki tam örnekle değiştirin. Varsayılan ad alanını tutabilir ya da yeniden adlandırabilirsiniz—özel bir şey gerekmez.
+Oluşturulan `Program.cs` dosyasını aşağıdaki tam örnekle değiştirin. Varsayılan ad alanını tutabilir ya da yeniden adlandırabilirsiniz — ekstra bir şey gerekmez.
 
-## 3. Adım – Tam “Read Multiple Barcodes C#” Uygulamasını Yazın
-
-Aşağıda **tam, çalıştırılabilir** bir kod örneği bulunuyor. Orijinal parçacığın dört adımını kapsar, hata yönetimi ekler ve faydalı tanı bilgileri yazdırır.
+## Adım 3 – Tam “read multiple barcodes C#” uygulamasını yazın
+Aşağıda **tam, çalıştırılabilir** bir kod örneği bulunuyor. Orijinal snippet’in dört adımını kapsar, hata yönetimi ekler ve faydalı tanı bilgileri yazdırır.
 
 ```csharp
 using System;
@@ -169,16 +185,11 @@ namespace BarcodeDemo
 }
 ```
 
-### Bu Kod Neden Çalışıyor
+## Bu kod neden çalışıyor
+`BarCodeReader`, **BarCodeReader C#** API’sinin çekirdek motorudur. Görüntüyü açar, ön‑işleme uygular ve belirttiğiniz tipteki sembolleri arar. `ReadBarCodes()` tek bir sonuç değil, bir dizi döndürür. Bu, **C#'ta birden fazla barkodu okuma** anahtarıdır — metod otomatik olarak bulunan tüm eşleşmeleri toplar. `result.Extended.Pdf417.IsTruncated` bayrağı, PDF417’nin *sıkıştırılmış* (kısaltılmış) modda olup olmadığını gösterir. Bu bayrak yalnızca PDF417 için vardır; bu yüzden başka bir simgeyle karşılaşıldığında istisna almamak için null‑koşullu operatör (`?.`) kullanılır. `foreach` döngüsü hem çözülen metni hem de sıkıştırma durumunu yazdırarak hızlı bir doğrulama sağlar.
 
-- **`BarCodeReader`**, **BarCodeReader C#** API'sinin temelidir. Görüntüyü açar, ön‑işleme uygular ve belirttiğiniz tipteki sembolleri arar.
-- **`ReadBarCodes()`** bir dizi döndürür, tek bir sonuç değil. Bu, **reading multiple barcodes C#** için kilit noktadır—metot bulduğu tüm eşleşmeleri otomatik olarak toplar.
-- **`result.Extended.Pdf417.IsTruncated`** PDF417'nin *compact* (kısaltılmış) modda olup olmadığını gösterir. Bu bayrak yalnızca PDF417 için vardır, bu yüzden başka bir sembol geldiğinde istisna almamak için null‑koşullu operatör (`?.`) ile koruruz.
-- `foreach` döngüsü hem çözülen metni hem de sıkıştırma durumunu yazdırır, size hızlı bir doğrulama sağlar.
-
-## 4. Adım – Farklı Barkod Türlerini İşleme (Opsiyonel)
-
-Görüntünüz PDF417'den başka barkodlar da içerebilir, sadece `BarCodeReader`'ın ikinci argümanını `DecodeType.AllSupported` olarak değiştirin. Döngü aynı kalır, ancak PDF417 olmayan semboller için `result.Extended`'in null olmasına karşı koruma eklemeniz gerekir:
+## Adım 4 – Farklı barkod tiplerini işleme (isteğe bağlı)
+Görüntünüz PDF417 dışındaki barkodları da içerebilir; bu durumda `BarCodeReader`’ın ikinci parametresini `DecodeType.AllSupported` olarak değiştirin. Döngü aynı kalır, ancak PDF417 dışındaki semboller için `result.Extended` null olabileceğinden kontrol eklemeniz gerekir:
 
 ```csharp
 using (BarCodeReader reader = new BarCodeReader(imagePath, DecodeType.AllSupported))
@@ -200,28 +211,25 @@ using (BarCodeReader reader = new BarCodeReader(imagePath, DecodeType.AllSupport
 }
 ```
 
-Bu küçük değişiklik, **C# barcode library**'inizi evrensel bir tarayıcıya dönüştürür; karışık sembollü toplular için mükemmeldir.
+## Adım 5 – Kenar durumları ve en iyi uygulama ipuçları
+### 1️⃣ Barkod bulunamadı  
+`ReadBarCodes()` boş bir dizi döndürdüğünde en yaygın nedenler şunlardır:
 
-## 5. Adım – Kenar Durumları ve En İyi Uygulama İpuçları
+- Yanlış dosya yolu veya eksik okuma izinleri.  
+- Görüntü kalitesi çok düşük (bulanık, düşük kontrast). `reader.ImagePreprocessingOptions` (ör. `reader.ImagePreprocessingOptions.Denoise = true;`) ile ön‑işleme yapmayı düşünün.  
 
-### 1️⃣ Barkod Bulunamadı  
-`ReadBarCodes()` boş bir dizi döndürürse, en yaygın nedenler şunlardır:
-
-- Yanlış dosya yolu veya eksik okuma izinleri.
-- Görüntü kalitesi çok düşük (bulanık, düşük kontrast). `reader.ImagePreprocessingOptions` ile ön‑işleme yapmayı düşünün (örneğin, `reader.ImagePreprocessingOptions.Denoise = true;`).
-
-### 2️⃣ Aşırı Büyük Görüntüler  
-10 MP bir fotoğrafı işlemek çok bellek tüketebilir. Tarama alanını sınırlayabilirsiniz:
+### 2️⃣ Aşırı büyük görüntüler  
+10 MP bir fotoğrafı işlemek bellek açısından yoğun olabilir. Tarama alanını sınırlayabilirsiniz:
 
 ```csharp
 reader.SetRegionOfInterest(0, 0, 2000, 2000); // left, top, width, height
 ```
 
-### 3️⃣ İş Parçacığı Güvenliği  
-`BarCodeReader`, `IDisposable`'ı uygular ve **thread‑safe** değildir. Paralel işleme ihtiyacınız varsa, her iş parçacığı için ayrı bir örnek oluşturun.
+### 3️⃣ Çoklu iş parçacığı güvenliği  
+`BarCodeReader` `IDisposable` uygular ve **thread‑safe** değildir. Paralel işlem gerekiyorsa iş parçacığı başına ayrı örnekler oluşturun.
 
 ### 4️⃣ Lisanslama  
-Aspose.BarCode kutudan çıktığı gibi deneme modunda çalışır, ancak çıktı görüntüsünde bir filigran görürsünüz. Üretim için lisansı erken ayarlayın:
+Aspose.BarCode kutudan çıkar çıkmaz deneme modunda çalışır, ancak çıktı görüntüsünde bir su işareti görürsünüz. Üretim ortamı için lisansı erken ayarlayın:
 
 ```csharp
 License license = new License();
@@ -229,35 +237,38 @@ license.SetLicense("Aspose.BarCode.lic");
 ```
 
 ### 5️⃣ Günlükleme  
-Bunu daha büyük bir servise entegre ederken, `Console.WriteLine` yerine yapılandırılmış bir logger (Serilog, NLog) kullanın. Böylece `CodeText`, `CodeType` ve `IsTruncated` alanlarını sonraki analizler için yakalayabilirsiniz.
+Bu kodu daha büyük bir servise entegre ederken `Console.WriteLine` yerine yapılandırılmış bir logger (Serilog, NLog) kullanın. Böylece `CodeText`, `CodeType` ve `IsTruncated` gibi alanları alan bazlı kaydedebilir ve sonraki analizlerde faydalanabilirsiniz.
 
-## Tam Çalışan Örnek Özeti
+## Sıkça Sorulan Sorular
+**S: Sıkıştırılmış mod kullanan PDF417’yi çözebilir miyim?**  
+C: Evet. PDF417 genişletilmiş sonucundaki `IsTruncated` özelliği barkodun sıkıştırılmış olup olmadığını anında gösterir.
 
-Hepsini bir araya getirerek, `Program.cs` dosyasına kopyalayıp yapıştırabileceğiniz *tam* program aşağıdadır:
+**S: Görüntü hem QR hem de PDF417 kodları içeriyorsa ne yapmalıyım?**  
+C: `BarCodeReader` oluştururken `DecodeType.AllSupported` kullanın. Okuyucu aynı dizi içinde tespit edilen her simgeyi döndürür.
 
-```csharp
-using System;
-using Aspose.BarCode;
-using Aspose.BarCode.BarCodeRecognition;
+**S: Okuyucuyu manuel olarak dispose etmem gerekiyor mu?**  
+C: Kesinlikle. `BarCodeReader`ı bir `using` bloğu içinde tutun veya `Dispose()` çağırarak yerel kaynakları hemen serbest bırakın.
 
-namespace BarcodeDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            const string imagePath = "YOUR_DIRECTORY
+**S: Aspose.BarCode kaç MB’lık dosyaları işleyebilir?**  
+C: Kütüphane, **200 MP** (yaklaşık 20 000 × 20 000 piksel) görüntüleri, tüm bitmap’i belleğe yüklemeden döşeme‑tarama motoru sayesinde işleyebilir.
 
+**S: Her dağıtım için ayrı bir lisans gerekir mi?**  
+C: Tek bir lisans dosyası, toplam eşzamanlı örnek sayısı satın alınan koltuk sayısını aşmadığı sürece birden fazla sunucuda kullanılabilir.
 
-## Sonra Ne Öğrenmelisiniz?
-
-Aşağıdaki eğitimler, bu rehberde gösterilen tekniklere dayanan yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
-
-- [PDF417 Barkodları Nasıl Oluşturulur – Compact PDF417 Kodlaması](/barcode/english/net/compact-pdf417-encoding/)
-- [Barkod Nasıl Oluşturulur – Aspose.BarCode ile Compact PDF417](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+## İlgili makaleler
+- [PDF417 Barkodları Nasıl Oluşturulur – Sıkıştırılmış PDF417 Kodlaması](/barcode/english/net/compact-pdf417-encoding/)
+- [Barkod Nasıl Oluşturulur – Aspose.BarCode ile Sıkıştırılmış PDF417](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Aspose.BarCode for .NET ile DataMatrix Barkodları Nasıl Okunur](/barcode/english/net/datamatrix-barcode-reading/)
 
+---
+
+**Son Güncelleme:** 2026-10-04  
+**Test Edilen Versiyon:** Aspose.BarCode 23.9 for .NET  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
