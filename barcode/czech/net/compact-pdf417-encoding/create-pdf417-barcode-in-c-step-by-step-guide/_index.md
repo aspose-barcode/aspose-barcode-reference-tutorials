@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-08-03
+date: 2026-10-04
 description: Rychle vytvořte čárový kód PDF417 v C#. Naučte se, jak generovat čárový
   kód PDF417 a jak uložit obrázek čárového kódu jako PNG pomocí Aspose.Barcode.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- create pdf417 barcode
-- how to generate pdf417 barcode
-- how to save barcode image
-language: cs
-lastmod: 2026-08-03
-og_description: Vytvořte čárový kód PDF417 v C# pomocí Aspose.Barcode. Postupujte
-  podle tohoto návodu k vygenerování čárového kódu PDF417 a k efektivnímu uložení
-  obrázku čárového kódu.
-og_image_alt: Screenshot of a generated compact PDF417 barcode saved as PNG
-og_title: Vytvořte PDF417 čárový kód v C# – kompletní programovací tutoriál
+- create pdf417 barcode c#
+- barcode for mobile scanning
+- aspose barcode png generation
+lastmod: 2026-10-04
+og_description: Vytvořte čárový kód PDF417 v C# s Aspose.Barcode. Tento tutoriál vám
+  ukáže, jak generovat kompaktní čárový kód PDF417, nastavit jeho vzhled a uložit
+  jej jako PNG obrázek pro mobilní skenování nebo tisk štítků.
+og_image_alt: 'Developer guide: Create PDF417 barcode in C# and save as PNG using
+  Aspose.Barcode'
+og_title: Vytvořte čárový kód PDF417 v C# – kompletní průvodce krok za krokem
 schemas:
 - author: Aspose
-  dateModified: '2026-08-03'
+  dateModified: '2026-10-04'
   description: Create PDF417 barcode in C# quickly. Learn how to generate PDF417 barcode
     and how to save barcode image as PNG with Aspose.Barcode.
   headline: Create PDF417 barcode in C# – step‑by‑step guide
@@ -49,6 +49,7 @@ tags:
 - C#
 - PDF417
 - image generation
+- Aspose.Barcode
 title: Vytvořte čárový kód PDF417 v C# – průvodce krok za krokem
 url: /cs/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-guide/
 ---
@@ -57,48 +58,59 @@ url: /cs/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření čárového kódu PDF417 v C# – krok za krokem
+# Vytvořte čárový kód PDF417 v C# – krok za krokem
 
-Pokud potřebujete **vytvořit čárový kód PDF417** v .NET aplikaci, tento návod vám přesně ukáže, jak vygenerovat čárový kód PDF417 a jak uložit obrázek čárového kódu. Výsledkem bude soubor PNG, který lze použít v reportech, vstupenkách nebo mobilních skenovacích aplikacích.
+Pokud potřebujete **vytvořit čárový kód PDF417** v aplikaci .NET, tento průvodce vám ukáže, jak přesně vygenerovat čárový kód PDF417 a jak uložit obrázek čárového kódu jako soubor PNG. Výsledkem bude kompaktní obrázek, který se skvěle hodí pro mobilní skenování, systémy vstupenek nebo tiskárny štítků.
 
-Návod pokrývá vše od nastavení projektu až po finální soubor PNG. Není potřeba žádná externí dokumentace; stačí postupovat podle kroků a spustit kód.
+## Rychlé odpovědi
+- **Která knihovna zajišťuje generování PDF417?** Aspose.Barcode for .NET.  
+- **Do jakého formátu vzorek ukládá?** PNG, pomocí `BarCodeImageFormat.Png`.  
+- **Kolik řádků kódu je potřeba?** Přibližně 10 řádků po nastavení projektu.  
+- **Mohu přizpůsobit velikost a zkrácení?** Ano – vlastnosti `Columns`, `Rows` a `Truncate`.  
+- **Je kód kompatibilní s .NET‑6?** Ano, plně, a také funguje s .NET Framework 4.7+.
 
-## Co budete potřebovat
+## Co potřebujete k vytvoření čárového kódu PDF417 v C#?
+Na začátek potřebujete aktuální .NET SDK, IDE jako Visual Studio 2022 a **Aspose.Barcode for .NET** NuGet balíček. Tyto nástroje umožní, aby se ukázkový kód zkompiloval a spustil bez další konfigurace.
 
-* .NET 6.0 SDK nebo novější (kód také funguje s .NET Framework 4.7+)
-* Visual Studio 2022 nebo jakékoli IDE podporující C#
-* Přístup k internetu pro instalaci balíčku **Aspose.Barcode for .NET** NuGet
+- .NET 6.0 SDK nebo novější (funguje také s .NET Framework 4.7+)
+- Visual Studio 2022 nebo jakýkoli editor podporující C#
+- Přístup k internetu pro stažení NuGet balíčku Aspose.Barcode
 
-Tyto předpoklady zajišťují, že kód se zkompiluje bez další konfigurace.
+## Jak nastavit .NET projekt pro generování čárového kódu PDF417?
+Vytvořte nový konzolový projekt, přidejte balíček Aspose.Barcode a otevřete vygenerovaný `Program.cs`. Tím připravíte čisté pracovní prostředí, kde můžete vytvořit generátor čárových kódů a zapsat výstupní soubor.
 
-## Vytvoření čárového kódu PDF417 – nastavení projektu
-
-1. Otevřete příkazový řádek a vytvořte nový konzolový projekt:
-
-   ```bash
+```bash
    dotnet new console -n Pdf417Demo
    cd Pdf417Demo
    ```
 
-2. Přidejte knihovnu Aspose.Barcode:
+## Jak můžete vygenerovat čárový kód PDF417 pomocí Aspose.Barcode?
+`BarcodeGenerator` je třída Aspose.Barcode, která vytváří obrázky čárových kódů z poskytnutých dat a symbologie. Zvolíte symbologii PDF417, zadáte text k zakódování a případně upravíte velikost nebo nastavení korekce chyb.
 
-   ```bash
+```bash
    dotnet add package Aspose.Barcode
    ```
 
-3. Otevřete vygenerovaný soubor `Program.cs`. `using` direktivy v horní části vám poskytují přístup ke třídám čárových kódů:
+### Proč je to důležité
+* **EncodeTypes.Pdf417** říká knihovně, aby použila standard PDF417, který podporuje velké objemy dat a korekci chyb.
+* Poskytnutí Unicode znaků dokazuje, že generátor zvládá vstup mimo ASCII bez další konfigurace.
 
-   ```csharp
+## Jak nakonfigurovat vzhled čárového kódu PDF417?
+Můžete řídit velikost modulu, počet sloupců a zda čárový kód používá kompaktní (zkrácený) režim. Tato nastavení přímo ovlivňují čitelnost na malých obrazovkách a celkovou velikost souboru PNG.
+
+`generator.Parameters.Barcode.XDimension` nastavuje šířku jednoho modulu, zatímco `Columns` a `Rows` definují rozměry matice. Nastavením `Truncate` na `true` odstraníte tiché zóny pro kompaktnější obrázek.
+
+```csharp
    using System;
    using Aspose.Barcode.Generation;
    using Aspose.Barcode;
    ```
 
-Projekt je nyní připraven **vytvořit čárový kód PDF417**.
+### Praktický tip
+Pokud potřebujete vyšší čárový kód při omezeném horizontálním prostoru, zvyšte `Columns`. Nastavení `Truncate` na `true` snižuje celkovou výšku odstraněním tichých zón, což je ideální pro mobilní obrazovky.
 
-## Jak vygenerovat čárový kód PDF417 pomocí Aspose.Barcode
-
-Jádro tvorby čárového kódu se nachází ve třídě `BarcodeGenerator`. Zadejte symbologii (`EncodeTypes.Pdf417`) a data, která chcete zakódovat.
+## Jak uložit obrázek čárového kódu jako PNG?
+`Save` je metoda třídy `BarcodeGenerator`, která zapíše vygenerovaný obrázek do souboru. Předáte cestu k souboru a `BarCodeImageFormat.Png` a vytvoříte PNG obrázek v jediném kroku.
 
 ```csharp
 // Step 1: Initialise the generator with PDF417 symbology and sample text.
@@ -106,14 +118,11 @@ Jádro tvorby čárového kódu se nachází ve třídě `BarcodeGenerator`. Zad
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-### Proč je to důležité
+### Očekávaný výsledek
+Spuštěním programu se v adresáři projektu vytvoří soubor `CompactPdf417.png`. Otevřením souboru uvidíte kompaktní PDF417 čárový kód, který kóduje řetězec *Åspóse.Barcóde©*. Obrázek lze vložit do HTML, PDF reportů nebo vytisknout na štítky.
 
-* **EncodeTypes.Pdf417** říká knihovně, aby použila standard PDF417, který podporuje velké objemy dat a korekci chyb.
-* Poskytnutí Unicode znaků dokazuje, že generátor zvládá vstup mimo ASCII bez další konfigurace.
-
-## Jak nastavit vzhled čárového kódu
-
-Můžete řídit velikost jednotlivých modulů, počet sloupců a zda čárový kód používá kompaktní (zkrácený) režim. Tato nastavení ovlivňují jak čitelnost, tak velikost souboru.
+## Jak můžete ověřit vygenerovaný soubor čárového kódu?
+Po dokončení programu můžete rychlým příkazem ověřit, že soubor existuje. Tento jednoduchý kontrolní krok potvrzuje, že generování a uložení proběhly bez chyb.
 
 ```csharp
 // Step 2: Set the module (X) dimension – each barcode element will be 2 pixels wide.
@@ -124,13 +133,51 @@ generator.Parameters.Barcode.Pdf417.Columns = 3;      // Number of columns (affe
 generator.Parameters.Barcode.Pdf417.Truncate = true; // Enable compact mode
 ```
 
-### Praktický tip
+Pokud se soubor objeví, proces **vytvoření čárového kódu PDF417** byl úspěšný.
 
-Pokud potřebujete vyšší čárový kód pro omezený horizontální prostor, zvyšte `Columns`. Nastavení `Truncate` na `true` snižuje celkovou výšku odstraněním tichých zón, což je ideální pro mobilní obrazovky.
+## Jaké jsou běžné varianty a okrajové případy při generování čárových kódů PDF417?
+Různé scénáře mohou vyžadovat úpravy nastavení generátoru. Níže je rychlá referenční tabulka, která ukazuje, jak řešit typické varianty.
 
-## Jak uložit obrázek čárového kódu jako PNG
+| Situace | Úprava |
+|-----------|------------|
+| **Delší datový řetězec** | Zvyšte `Columns` nebo nastavte `Rows` tak, aby pojmuly více kódových slov. |
+| **Jiný formát obrázku** | Nahraďte `BarCodeImageFormat.Png` za `Jpeg`, `Bmp` nebo `Gif`. |
+| **Vyšší rozlišení** | Nastavte `generator.Parameters.ImageResolution` před voláním `Save`. |
+| **Barva pozadí** | Použijte `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;`. |
+| **Zpracování výjimek** | Zabalte `generator.Save` do bloku `try/catch` pro zachycení I/O chyb. |
 
-Po nastavení generátoru zavolejte `Save` s cestou k souboru a požadovaným formátem obrázku. Metoda zapíše obrázek přímo na disk.
+Tyto varianty vám umožní přizpůsobit čárový kód konkrétním zařízením nebo požadavkům na značku.
+
+## Jaký je další krok po vytvoření čárového kódu?
+Nyní, když můžete generovat a ukládat PDF417 čárový kód, můžete prozkoumat související možnosti, jako je generování QR kódů, vkládání čárových kódů do PDF dokumentů nebo přizpůsobení barev pro sladění se značkou. Všechny tyto funkce používají stejnou API `BarcodeGenerator`, takže můžete rozšířit ukázku s minimálním úsilím.
+
+## Související návody
+- [Jak vytvořit čárový kód – Kompaktní PDF417 s Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Jak generovat DataMatrix čárové kódy (ECC 200) pomocí Aspose.BarCode pro .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [Jak generovat Aztec čárový kód s vlastním poměrem stran pomocí Aspose.BarCode pro .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+
+## Často kladené otázky
+
+**Q: Mohu tento kód použít ve webové aplikaci?**  
+A: Ano. Stejná třída `BarcodeGenerator` funguje v projektech ASP.NET, MVC nebo Blazor; stačí zajistit, aby server měl oprávnění k zápisu do výstupní složky.
+
+**Q: Podporuje Aspose.Barcode i jiné 2‑D symbologie?**  
+A: Rozhodně. Podporováno je více než 30 typů 2‑D čárových kódů, včetně QR, DataMatrix a Aztec.
+
+**Q: Jak velký čárový kód mohu vytvořit?**  
+A: PDF417 může zakódovat až 1 850 znaků v jednom symbolu; můžete také rozdělit data do více řádků úpravou `Rows` a `Columns`.
+
+**Q: Je licence vyžadována pro produkční použití?**  
+A: Ano. K vyzkoušení je k dispozici bezplatná zkušební verze, ale pro nasazení do produkce je potřeba komerční licence.
+
+**Q: Jaké verze .NET jsou kompatibilní?**  
+A: Aspose.Barcode podporuje .NET Framework 4.5+, .NET Core 3.1+, a .NET 5/6/7.
+
+---
+
+**Poslední aktualizace:** 2026-10-04  
+**Testováno s:** Aspose.Barcode 24.11 for .NET  
+**Autor:** Aspose  
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image.
@@ -138,15 +185,6 @@ string outputPath = @"./CompactPdf417.png";
 generator.Save(outputPath, BarCodeImageFormat.Png);
 Console.WriteLine($"Barcode saved to {outputPath}");
 ```
-
-### Očekávaný výsledek
-
-Spuštěním programu se v adresáři projektu vytvoří soubor `CompactPdf417.png`. Otevřením souboru uvidíte kompaktní PDF417 čárový kód, který kóduje řetězec *Åspóse.Barcóde©*. Obrázek lze vložit do HTML, PDF reportů nebo vytisknout na štítky.
-
-## Kompletní zdrojový kód
-
-Níže je kompletní spustitelný program. Zkopírujte jej do `Program.cs` a spusťte `dotnet run`.
-
 ```csharp
 using System;
 using Aspose.Barcode.Generation;
@@ -181,44 +219,13 @@ namespace Pdf417Demo
     }
 }
 ```
-
-### Ověření výstupu
-
-Po dokončení programu můžete rychlým příkazem ověřit, že soubor existuje:
-
 ```bash
 dotnet run && ls -l CompactPdf417.png
 ```
 
-Pokud se soubor zobrazí, proces **vytvoření čárového kódu PDF417** byl úspěšný.
-
-## Běžné varianty a okrajové případy
-
-| Situace | Úprava |
-|-----------|------------|
-| **Delší řetězec dat** | Zvyšte `Columns` nebo nastavte `Rows`, aby pojaly více kódových slov. |
-| **Jiný formát obrázku** | Nahraďte `BarCodeImageFormat.Png` za `Jpeg`, `Bmp` nebo `Gif`. |
-| **Vyšší rozlišení** | Nastavte `generator.Parameters.ImageResolution` před voláním `Save`. |
-| **Barva pozadí** | Použijte `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;` |
-| **Zpracování výjimek** | Zabalte `generator.Save` do bloku `try/catch` pro zachycení I/O chyb. |
-
-Tyto varianty vám umožní přizpůsobit čárový kód konkrétním zařízením nebo požadavkům na značku.
-
-## Závěr
-
-Nyní víte, jak **vytvořit čárový kód PDF417** v C# pomocí Aspose.Barcode, nastavit jeho vzhled a **uložit obrázek čárového kódu** jako soubor PNG. Kompletní příklad ukazuje každý potřebný krok, od nastavení projektu až po ověření, takže můžete integraci generování čárových kódů použít v jakémkoli .NET řešení.
-
-Dále zvažte prozkoumání souvisejících témat, jako je **jak generovat QR kódy**, **vkládání čárových kódů do PDF dokumentů** nebo **přizpůsobení barev čárových kódů**. Každé z nich staví na stejném API generátoru, což vám umožní rozšířit skenovací schopnosti vaší aplikace s minimálním úsilím. Šťastné programování!
-
-## Co byste se měli naučit dál?
-
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto návodu. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
-
-- [Jak vytvořit čárový kód – Kompaktní PDF417 s Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Jak generovat DataMatrix čárové kódy (ECC 200) s Aspose.BarCode pro .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-- [Jak generovat Aztec čárový kód s vlastním poměrem stran pomocí Aspose.BarCode pro .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
