@@ -91,6 +91,8 @@ Lär dig hur du skapar streckkoder från text i C# med Aspose.BarCode.
 Lär dig steg-för-steg hur du skapar streckkoder i C# med Aspose.BarCode i en komplett programmeringsguide.
 ### [Hur man ställer in streckkodparametrar i C# med Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Lär dig hur du konfigurerar streckkodparametrar i C# med Aspose.BarCode.
+### [Hur man genererar streckkod med Aspose i C#](./how-to-generate-barcode-with-aspose-in-c/)
+Lär dig hur du skapar streckkoder i C# med Aspose.BarCode i en steg-för-steg-guide.
 
 ## Slutsats
 

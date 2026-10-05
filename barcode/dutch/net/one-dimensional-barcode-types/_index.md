@@ -91,6 +91,8 @@ Leer stap voor stap hoe u barcodes genereert in C# met Aspose.BarCode, inclusief
 Leer hoe u barcodes uit afbeeldingen kunt lezen in C# met de BarCodeReader van Aspose.BarCode.
 ### [Hoe barcode-parameters in C# instellen met Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Leer hoe u barcode-parameters configureert in C# met Aspose.BarCode voor optimale resultaten.
+### [Hoe een barcode genereren met Aspose in C#](./how-to-generate-barcode-with-aspose-in-c/)
+Leer hoe u met Aspose.BarCode in C# barcodes genereert, stap voor stap.
 
 ## Conclusie
 

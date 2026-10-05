@@ -174,6 +174,12 @@ Pełny przewodnik generowania kodu PDF417 w C# przy użyciu Aspose.BarCode, krok
 Dowiedz się, jak w C# zapisać wygenerowany kod kreskowy jako plik obrazu przy użyciu Aspose.BarCode.
 ### [Odczyt kodu kreskowego PDF417 w C# – przykład czytnika kodów](./read-pdf417-barcode-in-c-barcode-reader-example/)
 
+### [Jak generować kod kreskowy i dostosować kod PDF417 w C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
+
+### [Jak utworzyć kod kreskowy PDF417 i wyeksportować PNG w C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
+
+### [Jak odczytać PDF417 w C# – przykład czytnika kodów kreskowych](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
+
 Przykład użycia Aspose.BarCode do odczytu kodu PDF417 w aplikacji C#.
 
 ### [Przykład Aspose Barcode: generowanie Macro PDF417 w C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
