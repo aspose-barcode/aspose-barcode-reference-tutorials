@@ -1,0 +1,7 @@
+Title: Create barcode GS1 in C# and export it as PNG
+Slug: create-barcode-gs1-in-c-and-export-it-as-png
+Category: gs1-barcode-encoding
+ProcessedDate: 2026-09-29T14:59:25.512125
+SourceRepo: AI Search API
+Keywords: create barcode gs1, generate barcode png, barcode generator c#, how to generate barcode, export barcode image
+PRNumber: 140

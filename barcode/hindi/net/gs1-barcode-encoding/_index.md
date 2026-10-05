@@ -64,6 +64,8 @@ C# में Aspose.BarCode का उपयोग करके GS1 बारक
 ### [C# में GS1 बारकोड इमेज बनाएं – बारकोड जल्दी जेनरेट करने का तरीका](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
 C# में Aspose.BarCode से तेज़ी से GS1 बारकोड इमेज बनाना सीखें। सरल चरण‑दर‑चरण मार्गदर्शिका। अभी शुरू करें!
 
+### [C# में बारकोड PNG बनाएं – GS1 माइक्रो PDF417 की पूरी गाइड](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+C# और Aspose.BarCode का उपयोग करके GS1 माइक्रो PDF417 बारकोड को PNG फ़ॉर्मेट में कैसे जनरेट करें, इस पूर्ण मार्गदर्शिका में जानें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

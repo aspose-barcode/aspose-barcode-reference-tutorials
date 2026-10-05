@@ -1,11 +1,71 @@
 ---
-date: 2026-02-15
-description: Ismerje meg, hogyan generálhat vonalkódot karakterláncból az Aspose.BarCode
-  for .NET használatával. Ez a vonalkód-generálási oktatóanyag C# példája lépésről
-  lépésre bemutatja a GS1 kupon UPC‑A Code 128 létrehozását.
-linktitle: Generate barcode from string – GS1 Coupon UPC-A Code 128
+date: 2026-09-03
+description: Ismerje meg, hogyan generáljon vonalkódot karakterláncból az Aspose.BarCode
+  for .NET használatával. Ez a vonalkód‑generálási útmutató C# példája lépésről‑lépésre
+  bemutatja a GS1 Coupon UPC‑A Code 128 létrehozását.
+keywords:
+- generate barcode from string
+- how to generate barcode
+- convert text to barcode
+- generate code 128 barcode
+- barcode generation tutorial c#
+lastmod: 2026-09-03
+linktitle: Vonalkód generálása karakterláncból – GS1 Coupon UPC-A Code 128
+og_description: Vonalkód generálása karakterláncból az Aspose.BarCode for .NET használatával.
+  Ez az útmutató lépésről‑lépésre bemutat egy C# példát a GS1 Coupon UPC‑A Code 128
+  vonalkód gyors létrehozásához.
+og_image_alt: Tutorial showing how to generate a GS1 Coupon UPC‑A Code 128 barcode
+  from a string in C# using Aspose.BarCode
+og_title: Vonalkód generálása karakterláncból – GS1 Coupon UPC-A Code 128
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to generate barcode from string using Aspose.BarCode for
+    .NET. This barcode generation tutorial C# example shows step‑by‑step creation
+    of a GS1 Coupon UPC‑A Code 128.
+  headline: Generate barcode from string – GS1 Coupon UPC-A Code 128
+  type: TechArticle
+- description: Learn how to generate barcode from string using Aspose.BarCode for
+    .NET. This barcode generation tutorial C# example shows step‑by‑step creation
+    of a GS1 Coupon UPC‑A Code 128.
+  name: Generate barcode from string – GS1 Coupon UPC-A Code 128
+  steps:
+  - name: set the directory path
+    text: Begin by defining the directory path where you want to save the generated
+      barcode image. Replace `"Your Directory Path"` with the actual path on your
+      system.
+  - name: create a barcode generator
+    text: '`BarcodeGenerator` is Aspose.BarCode''s core class that creates barcode
+      images from supplied data. Initialize a `BarcodeGenerator` object with the desired
+      encoding type and data to encode. You can replace the data with your own if
+      needed.'
+  - name: customize barcode parameters
+    text: You can fine‑tune various parameters for your barcode, such as the X‑Dimension
+      (size of the smallest bar), image format, and more. In this example, we set
+      the X‑Dimension to 2 pixels. Feel free to adjust these parameters according
+      to your project requirements.
+  - name: save the barcode image
+    text: Now, save the generated barcode as an image in your specified directory.
+      We are saving it in PNG format. You can change the filename and image format
+      as needed. By following these four simple steps, you've successfully generated
+      a GS1 Coupon UPC‑A Code 128 barcode using Aspose.BarCode for .NET.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode for .NET fully supports .NET Core 3.1 and later, as
+      well as .NET 5/6.
+    question: Does the library support .NET Core?
+  - answer: Absolutely. Use `BarCodeImageFormat.Svg` or `Pdf` when calling `gen.Save()`.
+    question: Can I generate barcodes in vector formats?
+  - answer: Set `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;` and
+      adjust font settings via `CodeTextParameters`.
+    question: How do I add a human‑readable caption below the barcode?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Vonalkód generálása szövegből – GS1 kupon UPC-A Code 128
+tags:
+- barcode generation
+- Aspose.BarCode
+- .NET barcode
+title: Vonalkód generálása karakterláncból – GS1 Coupon UPC-A Code 128
 url: /hu/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
 weight: 12
 ---
@@ -14,157 +74,162 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# GS1 Kupon UPC‑A Code 128 Kódolás
+# GS1 Kupon UPC‑A Code 128 kódolás
 
 ## Bevezetés
 
-A vonalkódok a csendes munkások a kiskereskedelmi polcok, raktárak és akár a mobil kuponok mögött. Ha valaha **vonalkódot kellett generálni karakterláncból** egy .NET alkalmazásban, az Aspose.BarCode for .NET tiszta, megbízható módot kínál erre. Ebben a **vonalkód generálás tutorial C#**‑ban egy teljes **vonalkód generátor C# példa** látható, amely egy GS1 Kupon UPC‑A Code 128 vonalkódot hoz létre egy egyszerű szöveges karakterláncból. A útmutató végére képes leszel a vonalkódokat közvetlenül a saját projektjeidbe ágyazni anélkül, hogy alacsony szintű kódolási logikával kellene bajlódni.
+A vonalkódok a csendes munkagépek a kiskereskedelmi polcok, raktárak és még a mobil kuponok mögött. Ha valaha is **generate barcode from string** adatot kellett generálnia egy .NET alkalmazásban, az Aspose.BarCode for .NET tiszta, megbízható módot biztosít ehhez. Ebben a **barcode generation tutorial C#** láthat egy teljes **barcode generator C# example** példát, amely egy egyszerű szöveges karakterláncból hoz létre egy GS1 Kupon UPC‑A Code 128 vonalkódot. A útmutató végére képes lesz közvetlenül beágyazni a vonalkódokat saját projektjeibe anélkül, hogy alacsony szintű kódolási logikával kellene küzdenie.
 
 ## Gyors válaszok
-- **Mit csinál az elsődleges API?** Egy egyszerű karakterláncot teljesen szabványos GS1 Kupon UPC‑A Code 128 vonalkóddá konvertál.  
+- **Mi csinál az elsődleges API?** Átalakít egy egyszerű karakterláncot egy teljesen szabványos GS1 Kupon UPC‑A Code 128 vonalkóddá.  
 - **Melyik könyvtár szükséges?** Aspose.BarCode for .NET (elérhető ingyenes próbaverzióként).  
-- **Szükség van licencre fejlesztéshez?** Nem, a próbaverzió fejlesztéshez és teszteléshez is használható.  
+- **Szükségem van licencre a fejlesztéshez?** Nem, a próbaverzió fejlesztésre és tesztelésre is használható.  
 - **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 5‑10 perc egy működő kép elkészítéséhez.
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 5‑10 perc a működő kép elkészítéséhez.
 
 ## Előfeltételek
 
-Mielőtt belemerülnél a vonalkód generálás világába az Aspose.BarCode for .NET‑tel, fontos, hogy a szükséges eszközök és tudás rendelkezésedre álljanak.
+Mielőtt elmerülnél a vonalkód generálás világában az Aspose.BarCode for .NET használatával, elengedhetetlen, hogy a szükséges eszközök és tudás rendelkezésedre álljanak.
 
-1. Fejlesztői környezet: Győződj meg róla, hogy működő fejlesztői környezeted van beállítva. Ez magában foglalja a Visual Studio‑t vagy bármely más általad választott IDE‑t, amellyel .NET kódot írhatsz és fordíthatsz.  
+1. **Fejlesztői környezet:** Győződj meg róla, hogy működő fejlesztői környezeted van beállítva. Ez magában foglalja a Visual Studio-t vagy bármely más általad választott IDE-t a .NET kód írásához és fordításához.
 
-2. Aspose.BarCode for .NET könyvtár: Telepítened kell az Aspose.BarCode for .NET‑et a rendszeredre. Ha még nem tetted meg, letöltheted [innen](https://releases.aspose.com/barcode/net/).  
+2. **Aspose.BarCode for .NET könyvtár:** Telepítened kell az Aspose.BarCode for .NET-et a rendszeredre. Ha még nem tetted meg, letöltheted a [Aspose.BarCode for .NET download page](https://releases.aspose.com/barcode/net/) oldalról.
 
-3. Alap C# ismeretek: A C# programozási nyelv ismerete elengedhetetlen, mivel kódot fogsz írni a vonalkódok generálásához.
+3. **Alap C# ismeretek:** A C# programozási nyelv ismerete elengedhetetlen, mivel a vonalkódok generálásához kódot kell írnod.
 
 ## Névterek importálása
 
-Miután lefedtük az előfeltételeket, itt az ideje megismerni a szükséges névtereket az Aspose.BarCode for .NET használatához.
+Miután lefedtük az előfeltételeket, itt az ideje megérteni a szükséges névtereket az Aspose.BarCode for .NET használatához.
 
-1. Aspose.BarCode névtér hozzáadása: Kezdd azzal, hogy a projektedbe belefoglalod az Aspose.BarCode névteret. Itt található a vonalkód generálás teljes funkcionalitása.
+1. **Aspose.BarCode névtér beillesztése:** Kezdd az Aspose.BarCode névtér beillesztésével a projektedbe. Itt található a vonalkód generálás teljes funkcionalitása.
 
    ```csharp
    using Aspose.BarCode;
    ```
 
-2. További névterek: A konkrét igényeidtől függően előfordulhat, hogy más névtereket is be kell vonnod a képkezeléshez vagy fájlkezeléshez. Például:
+2. **További névterek:** A konkrét igényeidtől függően más névterekre is szükséged lehet képfeldolgozáshoz vagy fájlkezeléshez. Például:
 
    ```csharp
    using System;
    using System.IO;
    ```
 
-Ezekkel a névterekkel a projektedben most már készen állsz a vonalkódok létrehozására és testreszabására.
+Ezekkel a névterekkel a projektedben most már készen állsz vonalkódok létrehozására és testreszabására.
 
 ## Mi az a GS1 Kupon UPC‑A Code 128?
 
-A GS1 Kupon UPC‑A Code 128 vonalkód a hagyományos UPC‑A numerikus formátumot kombinálja további GS1 Alkalmazási Azonosítókkal (AI‑k), amelyek kupon‑specifikus adatokat tartalmaznak, például kedvezményösszegeket vagy lejárati dátumokat. Ennek az információnak a **karakterláncként** történő kódolása, majd az Aspose általi konvertálás elkerüli a manuális ellenőrzőösszeg‑számításokat és a formátum‑különbségeket.
+A GS1 Kupon UPC‑A Code 128 vonalkód a szabványos 12‑jegyű UPC‑A numerikus adatot kódolja a GS1 Alkalmazási Azonosítókkal (AI), amelyek kupon‑specifikus információkat, például kedvezményértéket vagy lejárati dátumot tartalmaznak. A formátum a GS1 specifikációknak megfelelően, a Code 128 szimbólumot használja a numerikus termékkód és az AI‑prefixel adat egyetlen lineáris vonalkódban való ábrázolásához.
 
-## Miért használjuk az Aspose.BarCode‑t ehhez a feladathoz?
+## Miért használjuk az Aspose.BarCode-ot ehhez a feladathoz?
 
-- **Null‑függőségű kódolás** – a könyvtár pontosan ismeri a GS1 szabályokat.  
-- **Magas minőségű kimenet** – egy hívással generálhatsz PNG, JPEG, SVG vagy PDF formátumot.  
-- **Teljes irányítás** – finomhangolhatod a méreteket, színeket és a csendes zónákat anélkül, hogy elhagynád a C#‑t.
+Mivel az Aspose.BarCode megvalósítja a teljes GS1 specifikációt, automatikusan kezeli az ellenőrzőösszeg számítást, az AI formázást és a nagy felbontású megjelenítést, lehetővé téve, hogy egyetlen API hívással generálj szabványos UPC‑A Code 128 kuponokat. A könyvtár több mint 50 kimeneti formátumot, kötegelt feldolgozást és finomhangolt vizuális testreszabást támogat külső függőségek nélkül.
 
-## Lépésről‑lépésre útmutató a vonalkód generálásához karakterláncból – GGS1 Kupon UPC‑A Code 128
+## Lépésről‑lépésre útmutató a vonalkód generálásához karakterláncból – GS1 Kupon UPC‑A Code 128
 
-Nézzük meg a lépésről‑lépésre folyamatot, amely egy GGS1 Kupon UPC‑A Code 128 vonalkód generálását mutatja be az Aspose.BarCode for .NET‑tel. Ebben a példában a kódot kezelhető részekre bontjuk a könnyebb megértés érdekében.
+Vizsgáljuk meg a lépésről‑lépésre folyamatot egy GS1 Kupon UPC‑A Code 128 vonalkód generálásához az Aspose.BarCode for .NET használatával. Ebben a példában a kódot kezelhető lépésekre bontjuk a könnyű megértés érdekében.
 
-### 1. lépés: A könyvtár útvonalának beállítása
+### 1. lépés: a könyvtár útvonal beállítása
 
-Definiáld azt a könyvtár útvonalat, ahová a generált vonalkód képet menteni szeretnéd.
+Kezdd a könyvtár útvonal meghatározásával, ahová a generált vonalkód képet menteni szeretnéd.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-Cseréld le a `"Your Directory Path"`‑t a rendszered tényleges útvonalára.
+Cseréld le a `"Your Directory Path"`-t a rendszereden lévő tényleges útvonalra.
 
-### 2. lépés: Vonalkód generátor létrehozása
+### 2. lépés: vonalkód generátor létrehozása
 
-Inicializálj egy `BarcodeGenerator` objektumot a kívánt kódolási típussal és a kódolandó adatokkal. Ebben az esetben egy GGS1 Kupon UPC‑A Code 128 vonalkódot hozunk létre a `"123456789012(8110)ASPOSE"` adatokkal.
+A `BarcodeGenerator` az Aspose.BarCode központi osztálya, amely a megadott adatokból vonalkód képeket hoz létre. Inicializálj egy `BarcodeGenerator` objektumot a kívánt kódolási típussal és a kódolandó adatokkal.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "123456789012(8110)ASPOSE");
 ```
 
-A szükség szerint cserélheted a adatot a sajátodra.
+Szükség esetén a saját adataiddal is helyettesítheted.
 
-### 3. lépés: Vonalkód paraméterek testreszabása
+### 3. lépés: a vonalkód paramétereinek testreszabása
 
-Finomhangolhatod a vonalkód különböző paramétereit, például az X‑Dimenziót (a legkisebb vonal mérete), a képformátumot és egyebeket. Ebben a példában az X‑Dimenziót 2 pixelre állítjuk.
+Különféle paramétereket finomhangolhatsz a vonalkódodhoz, például az X‑Dimensiont (a legkisebb vonal mérete), a képformátumot és egyebeket. Ebben a példában az X‑Dimensiont 2 pixelre állítjuk.
 
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
 
-Szabadon módosíthatod ezeket a paramétereket a projekted igényei szerint.
+Nyugodtan állítsd be ezeket a paramétereket a projekted követelményei szerint.
 
-### 4. lépés: A vonalkód kép mentése
+### 4. lépés: a vonalkód kép mentése
 
-Most mentsd el a generált vonalkódot egy képként a megadott könyvtárba. PNG formátumban mentjük.
+Most mentsd a generált vonalkódot képként a megadott könyvtárba. PNG formátumban mentjük.
 
 ```csharp
 gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
 ```
 
-A fájlnevet és a képformátumot igény szerint megváltoztathatod.
+Szükség szerint megváltoztathatod a fájlnevet és a képformátumot.
 
-E négy egyszerű lépés követésével sikeresen generáltál egy GGS1 Kupon UPC‑A Code 128 vonalkódot az Aspose.BarCode for .NET‑tel.
+E négy egyszerű lépés követésével sikeresen generáltál egy GS1 Kupon UPC‑A Code 128 vonalkódot az Aspose.BarCode for .NET segítségével.
 
-## Gyakori felhasználási esetek
+## Általános felhasználási esetek
 
-- **Kiskereskedelmi kuponok** – kedvezményinformációk közvetlen beágyazása a termékcsomagolásra.  
-- **Raktári címkézés** – termékazonosítók kombinálása tétel‑ vagy lejárati adatokkal.  
+- **Kiskereskedelmi kuponok** – a kedvezményinformáció közvetlen beágyazása a termék csomagolásába.  
+- **Raktári címkézés** – termékazonosítók kombinálása tétel vagy lejárati adatokkal.  
 - **Mobil promóciók** – nyomtatható vonalkódok generálása QR‑kód nélküli kuponbeváltáshoz.  
 
-## Hibaelhárítás és tippek
+## Hibakeresés és tippek
 
-- **Útvonal problémák** – győződj meg róla, hogy a könyvtár létezik, és az alkalmazásnak van írási joga.  
-- **Érvénytelen adatformátum** – a karakterláncnak követnie kell a GS1 szintaxist (`(AI)Data`).  
-- **Képminőség** – növeld az `XDimension`‑t a nagyobb felbontású nyomtatáshoz.  
+- **Útvonal problémák** – győződj meg arról, hogy a könyvtár létezik és az alkalmazásnak írási jogosultsága van.  
+- **Érvénytelen adatformátum** – a karakterláncnak a GS1 szintaxisnak (`(AI)Data`) kell megfelelnie.  
+- **Képminőség** – növeld az `XDimension` értékét a nagy felbontású nyomtatáshoz.  
 
-## Következtetés
+## Összegzés
 
-Ebben a tutorialban alaposan megvizsgáltuk a vonalkód generálást az Aspose.BarCode for .NET‑tel. Áttekintettük az előfeltételeket, importáltuk a szükséges névtereket, és lépésről‑lépésre végigmentünk egy gyakorlati **vonalkód generátor C# példán**. Ezzel a tudással most már **vonalkódot generálhatsz karakterláncból** bármely GS1‑kompatibilis szituációban, legyen az kupon, készletcímke vagy egyedi promóció.
+Ebben a tutorialban alaposan megvizsgáltuk a vonalkód generálást az Aspose.BarCode for .NET használatával. Áttekintettük az előfeltételeket, importáltuk a szükséges névtereket, és lépésről‑lépésre végigvezettük a gyakorlati **barcode generator C# example** példát. Ezzel a tudással most már **generate barcode from string** adatokat tudsz generálni bármely GS1‑kompatibilis helyzetben, legyen az kupon, készletcímke vagy egyedi promóció.
 
-Az Aspose.BarCode for .NET sokoldalú és felhasználóbarát megoldást kínál minden vonalkód generálási igényedhez. Legyen szó készletkezelésről, termékkövetésről vagy adatkódolásról, ez a könyvtár leegyszerűsíti a folyamatot.
+Az Aspose.BarCode for .NET sokoldalú és felhasználóbarát megoldást nyújt minden vonalkód generálási igényedhez. Legyen szó készletkezelésről, termékkövetésről vagy adatkódolásról, ez a könyvtár leegyszerűsíti a folyamatot.
 
-Ha kérdésed van, vagy további segítségre van szükséged, ne habozz felkeresni az [Aspose.BarCode dokumentációt](https://reference.aspose.com/barcode/net/) vagy a [Aspose.BarCode fórumot](https://forum.aspose.com/c/barcode/13).
+Ha bármilyen kérdésed van vagy további segítségre van szükséged, ne habozz felkeresni az [Aspose.BarCode documentation](https://reference.aspose.com/barcode/net/) oldalt vagy segítséget kérni az [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13/) fórumon.
 
-## Gyakran ismételt kérdések
+## GYIK
 
-### K: Használhatom az Aspose.BarCode for .NET‑et kereskedelmi projektekben?
-Igen, az Aspose.BarCode for .NET alkalmas személyes és kereskedelmi projektekre egyaránt. Licencet vásárolhatsz [itt](https://purchase.aspose.com/buy).
+### K: Használhatom az Aspose.BarCode for .NET-et kereskedelmi projektekhez?
+A: Igen, az Aspose.BarCode for .NET alkalmas személyes és kereskedelmi projektekhez egyaránt. Licencet vásárolhatsz a [Aspose.BarCode license purchase page](https://purchase.aspose.com/buy) oldalon.
 
-### K: Elérhető ingyenes próbaverzió az Aspose.BarCode for .NET‑hez?
-Igen, egy ingyenes próbaverziót letölthetsz [itt](https://releases.aspose.com/). Lehetővé teszi a könyvtár funkcióinak tesztelését vásárlás előtt.
+### K: Elérhető ingyenes próba az Aspose.BarCode for .NET-hez?
+A: Igen, elérhető egy ingyenes próba verzió [Aspose.BarCode free trial download](https://releases.aspose.com/). Lehetővé teszi a könyvtár funkcióinak tesztelését vásárlás előtt.
 
-### K: Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for .NET‑hez?
-Ha ideiglenes licencre van szükséged értékelés vagy tesztelés céljából, azt [itt](https://purchase.aspose.com/temporary-license/) kaphatod meg.
+### K: Hogyan szerezhetek ideiglenes licencet az Aspose.BarCode for .NET-hez?
+A: Ha ideiglenes licencre van szükséged értékeléshez vagy teszteléshez, kérhetsz egyet a [temporary license request page](https://purchase.aspose.com/temporary-license/) oldalon.
 
-### K: Testreszabhatom a generált vonalkódok megjelenését?
-Természetesen. Az Aspose.BarCode for .NET számos paramétert és beállítást kínál a vonalkódok megjelenésének és viselkedésének testreszabásához. A részletekért tekintsd meg a dokumentációt.
+### K: Testreszabhatom a generált vonalkódok megjelenését további módon?
+A: Természetesen. Az Aspose.BarCode for .NET különféle paramétereket és beállításokat biztosít a vonalkódok megjelenésének és viselkedésének testreszabásához. A dokumentációban további részleteket találsz.
 
 ### K: Vannak más kódolási típusok is, amelyeket az Aspose.BarCode for .NET támogat?
-Igen, az Aspose.BarCode for .NET széles körű kódolási típusokat támogat, többek között UPC‑A, Code 128, QR‑kódok és még sok más. A teljes listát a dokumentációban találod.
+A: Igen, az Aspose.BarCode for .NET számos kódolási típust támogat, beleértve az UPC‑A, Code 128, QR kódokat és még sok mást. A teljes listát a dokumentációban találod.
 
 ## További gyakran ismételt kérdések
 
-**K: Támogatja a könyvtár a .NET Core‑t?**  
-V: Igen, az Aspose.BarCode for .NET teljes mértékben támogatja a .NET Core 3.1‑et és újabb verziókat, valamint a .NET 5/6‑ot.
+**Q: Támogatja a könyvtár a .NET Core-t?**  
+A: Igen, az Aspose.BarCode for .NET teljes mértékben támogatja a .NET Core 3.1-et és későbbi verziókat, valamint a .NET 5/6-ot.
 
-**K: Generálhatok vonalkódokat vektoros formátumokban?**  
-V: Természetesen. Használd a `BarCodeImageFormat.Svg` vagy `Pdf` értéket a `gen.Save()` hívásakor.
+**Q: Generálhatok vonalkódokat vektoros formátumokban?**  
+A: Természetesen. Használd a `BarCodeImageFormat.Svg` vagy `Pdf` értéket a `gen.Save()` hívásakor.
 
-**K: Hogyan adhatok hozzá emberi olvasható feliratot a vonalkód alá?**  
-V: Állítsd be a `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;` értéket, és a betűtípus‑beállításokat a `CodeTextParameters`‑on keresztül módosíthatod.
+**Q: Hogyan adhatok ember által olvasható feliratot a vonalkód alá?**  
+A: Állítsd be a `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;`-t és a betűtípus beállításait a `CodeTextParameters` segítségével.
 
 ---
 
-**Utoljára frissítve:** 2026-02-15  
-**Tesztelve a következővel:** Aspose.BarCode for .NET 24.11  
-**Szerző:** Aspose  
+**Utolsó frissítés:** 2026-09-03  
+**Tesztelve ezzel:** Aspose.BarCode for .NET 24.11  
+**Szerző:** Aspose
+
+## Kapcsolódó tutorialok
+
+- [Aztec vonalkód generálása szövegkódolással az Aspose.BarCode for .NET használatával](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
+- [Hogyan generáljunk DataMatrix vonalkódokat az Aspose.BarCode for .NET használatával – Lépésről‑lépésre útmutató](/barcode/net/datamatrix-barcode-configuration/)
+- [Egydimenziós Databar 2D vonalkódok generálása az Aspose.BarCode .NET API használatával](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
