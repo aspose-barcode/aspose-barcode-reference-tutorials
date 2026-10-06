@@ -197,30 +197,6 @@ using (var reader = new BarCodeReader("ExtPDF417Meta.png", DecodeType.Pdf417))
 | **画像形式の選択** | 無限に拡大可能なベクタ画像が必要なときは `BarCodeImageFormat.Svg` を使用します。 |
 | **パフォーマンス** | 多数のバーコードを生成する際は、`BarcodeGenerator` インスタンスを再利用し、イテレーションごとに `Parameters` だけを変更してください。 |
 
-## 完全な実行可能サンプル
-
-以下は、NuGet パッケージがインストールされている前提で、変更なしでコピー＆ペーストして実行できる完全プログラムです。
-
-```csharp
-using Aspose.BarCode;
-using Aspose.BarCode.Generation;
-using Aspose.BarCode.BarCodeRecognition;
-using System;
-
-class Program
-{
-    static void Main()
-    {
-        // Create a Macro PDF417 barcode generator with the desired text
-        using (var barcodeGenerator = new BarcodeGenerator(EncodeTypes.MacroPdf417, "Åspóse.Barcóde©"))
-        {
-            // Set basic barcode dimensions
-            barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2;
-            barcodeGenerator.Parameters.Barcode.Pdf417.Columns = 5;
-
-            // Configure Macro PDF
-
-
 ## 次に学ぶべきことは？
 
 以下のチュートリアルは、本ガイドで示した手法を応用した関連トピックをカバーしています。各リソースには、ステップバイステップの解説と完全なコード例が含まれており、API の追加機能を習得したり、独自プロジェクトで代替実装を検討したりするのに役立ちます。

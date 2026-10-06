@@ -200,30 +200,6 @@ This snippet demonstrates how to read back the macro metadata programmatically, 
 | **Different image formats** | Use `BarCodeImageFormat.Svg` for vector graphics when you need infinitely scalable barcodes. |
 | **Performance** | Reuse a single `BarcodeGenerator` instance when generating many barcodes; only change the `Parameters` between iterations. |
 
-## Full, runnable example
-
-Below is the complete program you can copy, paste, and run without modification (assuming the NuGet package is installed).
-
-```csharp
-using Aspose.BarCode;
-using Aspose.BarCode.Generation;
-using Aspose.BarCode.BarCodeRecognition;
-using System;
-
-class Program
-{
-    static void Main()
-    {
-        // Create a Macro PDF417 barcode generator with the desired text
-        using (var barcodeGenerator = new BarcodeGenerator(EncodeTypes.MacroPdf417, "Åspóse.Barcóde©"))
-        {
-            // Set basic barcode dimensions
-            barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2;
-            barcodeGenerator.Parameters.Barcode.Pdf417.Columns = 5;
-
-            // Configure Macro PDF
-
-
 ## What Should You Learn Next?
 
 
