@@ -1,0 +1,7 @@
+Title: How to create PDF417 barcode and save it as PNG in C#
+Slug: how-to-create-pdf417-barcode-and-save-it-as-png-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-06T02:38:33.860950
+SourceRepo: AI Search API
+Keywords: create pdf417 barcode, generate barcode png, how to generate pdf417
+PRNumber: 146
