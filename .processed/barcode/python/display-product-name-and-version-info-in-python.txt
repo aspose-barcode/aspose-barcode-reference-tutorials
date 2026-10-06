@@ -1,0 +1,7 @@
+Title: Display product name and version info in Python
+Slug: display-product-name-and-version-info-in-python
+Category: general
+ProcessedDate: 2026-09-29T15:04:10.292954
+SourceRepo: AI Search API
+Keywords: display product name, print release date, how to get version, how to print product, show minor version
+PRNumber: 141

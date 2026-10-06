@@ -83,32 +83,44 @@ Más allá de lo básico, aquí tienes algunos consejos prácticos para optimiza
 - **Control de versiones:** Mantén la versión de la biblioteca Aspose.BarCode consistente en los entornos de desarrollo, pruebas y producción.
 
 ## Tutoriales de codificación Compact PDF417
+### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+### [How to create PDF417 barcode in C# with compact mode](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+
+
+### [How to generate PDF417 barcodes in C# with Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+### [How to create PDF417 barcode image in C# with Macro PDF417 options](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+
+
 ### [Crear códigos de barras Compact PDF417](./compact-pdf417-basic-configuration/)
 Aprende a generar códigos de barras Compact PDF417 usando Aspose.BarCode para .NET. Guía completa con instrucciones paso a paso y ejemplos de código.
-### [Crear código de barras PDF417 en C# – Guía del Generador de Códigos de Barras](./create-pdf417-barcode-in-c-barcode-generator-guide/)
-Aprende a generar códigos de barras PDF417 usando el generador de Aspose.BarCode en C#, con ejemplos claros y configuraciones detalladas.
 ### [Crear código de barras PDF417 en C# – guía completa](./create-pdf417-barcode-in-c-complete-guide/)
 Aprende a crear un código de barras PDF417 en C# paso a paso con Aspose.BarCode, con ejemplos claros y configuraciones detalladas.
-### [Crear código de barras PDF417 en C# – Guía completa paso a paso](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
-Guía detallada para generar códigos de barras PDF417 en C# usando Aspose.BarCode, con ejemplos paso a paso.
 ### [Cómo guardar imágenes de códigos de barras en C# – guía completa](./how-to-save-barcode-images-in-c-complete-guide/)
 Aprende a guardar imágenes de códigos de barras generadas en C# usando Aspose.BarCode, con ejemplos paso a paso y opciones de formato.
 ### [Cómo generar una imagen de código de barras PDF417 en C# con Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
 Aprende a crear una imagen de código de barras PDF417 en C# usando Aspose.BarCode.
-### [Leer varios códigos de barras C# – Guía completa con PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
-Aprende a leer múltiples códigos de barras, incluido PDF417, usando C# y Aspose.BarCode.
 ### [Crear metadatos de código de barras PDF417 en C# – Guía completa paso a paso](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Aprende a generar metadatos en códigos de barras PDF417 con C# usando Aspose.BarCode, paso a paso y con ejemplos claros.
+### [Cómo generar código de barras en C# con Aspose.BarCode y agregar metadatos](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
+Aprende a crear códigos de barras en C# usando Aspose.BarCode y añadir metadatos, con ejemplos claros paso a paso.
+
 ### [Generar código de barras PDF417 en C# – Guía completa](./generate-pdf417-barcode-in-c-complete-guide/)
 Aprende a crear códigos de barras PDF417 en C# con Aspose.BarCode, paso a paso y con ejemplos claros.
 ### [Generar código de barras PDF417 en C# – Guía completa paso a paso](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
-Guía detallada para generar códigos de barras PDF417 en C# usando Aspose.BarCode, con ejemplos paso a paso.
-### [Cómo leer PDF417 en C# – Guía completa paso a paso](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-Aprende a leer códigos de barras PDF417 en C# usando Aspose.BarCode, paso a paso y con ejemplos claros.
+Guía detallada para generar códigos de barras PDF417 en C# usando Aspose.BarCode, con ejemplos y mejores prácticas.
+### [Cómo generar código de barras PDF417 en C# con dimensiones personalizadas](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
+Aprende a generar códigos de barras PDF417 en C# con dimensiones personalizadas usando Aspose.BarCode, con ejemplos claros y paso a paso.
+
+### [Cómo decodificar códigos de barras PDF417 en C# con BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+Aprende a leer códigos de barras PDF417 en C# usando BarCodeReader de Aspose.BarCode, con ejemplos paso a paso.
+
 ### [Cómo generar una imagen de código de barras en C# – Guía MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
 Aprende a crear imágenes de códigos de barras MicroPdf417 en C# con Aspose.BarCode, con ejemplos claros y configuraciones recomendadas.
 ### [Generar código de barras Micro PDF417 en C# – Guía completa](./generate-micro-pdf417-barcode-in-c-complete-guide/)
 Aprende a generar códigos de barras Micro PDF417 en C# con Aspose.BarCode, paso a paso y con ejemplos prácticos.
+### [Cómo generar código de barras micro PDF417 en C# – guía paso a paso](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Aprende a crear códigos de barras micro PDF417 en C# con Aspose.BarCode, paso a paso y con ejemplos claros.
+
 ### [Cómo guardar códigos de barras en C# – Generar códigos PDF417](./how-to-save-barcode-in-c-generate-pdf417-barcodes/)
 Aprende a guardar códigos de barras en C# y generar códigos PDF417 con Aspose.BarCode, con ejemplos claros y pasos detallados.
 ### [Tutorial del Generador de Códigos de Barras: Cómo generar un código de barras PDF417 en C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
@@ -133,9 +145,11 @@ Aprende a generar códigos de barras PDF417 en C# paso a paso con ejemplos de c�
 Aprende a generar códigos de barras PDF417 en C# paso a paso con ejemplos de código y configuraciones avanzadas usando Aspose.BarCode para .NET.
 ### [Crear código de barras PDF417 con Aspose – Guía completa](./create-pdf417-barcode-with-aspose-complete-guide/)
 Aprende a crear códigos de barras PDF417 con Aspose paso a paso, con ejemplos y mejores prácticas para .NET.
-### [Cómo leer PDF417 en C# – Ejemplo completo de lector de códigos de barras](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
-Aprende a leer códigos de barras PDF417 en C# con Aspose.BarCode, paso a paso y con ejemplo completo.
+### [Generar código de barras PDF417 con configuración compacta en C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
+Aprende a generar códigos de barras PDF417 con ajustes compactos en C# usando Aspose.BarCode, con ejemplos claros y paso a paso.
+
 ### [Cómo crear códigos de barras PDF417 con Aspose – Guía completa paso a paso](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+### [Cómo crear códigos de barras PDF417 con Aspose – Guía completa paso a paso](./how-to-create-pdf417-barcode-with-aspose-complete-step-to-st/)
 Aprende a generar códigos de barras PDF417 con Aspose paso a paso, con ejemplos de código y configuraciones detalladas.
 ### [Generar código de barras PDF417 en C# – Crear código de barras PDF417 C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
 Aprende a generar códigos de barras PDF417 en C# usando Aspose.BarCode, con ejemplos paso a paso y configuración completa.
@@ -157,8 +171,6 @@ Aprende a generar códigos de barras Macro PDF417 en C# usando Aspose.BarCode. G
 Aprende a crear códigos de barras PDF417 en C# con Aspose.BarCode, siguiendo una guía detallada paso a paso.
 ### [Generar código de barras a partir de texto en C# – guía completa paso a paso](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
 Aprende a generar códigos de barras a partir de texto en C# con Aspose.BarCode, siguiendo una guía completa paso a paso.
-### [Cómo leer PDF417 en C# – guía completa del lector de códigos de barras](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
-Aprende a leer códigos de barras PDF417 en C# usando Aspose.BarCode, con ejemplos completos y mejores prácticas.
 ### [Cómo leer PDF417 en C# – Ejemplo completo de lector de códigos de barras](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 Aprende a leer códigos de barras PDF417 en C# con Aspose.BarCode, paso a paso y con ejemplo completo.
 ### [Cómo leer PDF417 en C# – Guía completa paso a paso](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
@@ -173,6 +185,27 @@ Aprende a leer códigos de barras PDF417 en C# con Aspose.BarCode, paso a paso y
 Guía completa para generar códigos de barras con Aspose en C#, paso a paso.
 ### [Crear imagen micro PDF417 en C# – guía paso a paso](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 Aprende a generar una imagen micro PDF417 en C# con Aspose.BarCode, siguiendo una guía detallada paso a paso.
+### [Crear código de barras micro PDF417 en C# – guía paso a paso](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Aprende a generar códigos de barras micro PDF417 en C# con Aspose.BarCode, siguiendo una guía detallada paso a paso.
+### [Generar código de barras PDF417 en C# – guía completa con diseño compacto](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
+Aprende a crear códigos de barras PDF417 en C# con diseño compacto usando Aspose.BarCode, paso a paso y con ejemplos.
+### [Generar código de barras C# con Macro PDF417 – ejemplo completo](./generate-barcode-c-with-macro-pdf417-full-example/)
+Aprende a crear un código de barras Macro PDF417 en C# con un ejemplo completo paso a paso.
+
+### [Cómo decodificar códigos de barras PDF417 en C# – guía completa](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
+Aprende a leer y decodificar códigos de barras PDF417 en C# usando Aspose.BarCode, paso a paso con ejemplos claros.
+### [Cómo crear un código de barras macro PDF417 en C# usando Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+Aprende a generar códigos de barras macro PDF417 en C# con Aspose.BarCode paso a paso.
+### [Cómo generar un código de barras PDF417 en C# – ejemplo compacto](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+Ejemplo compacto de generación de códigos de barras PDF417 en C# usando Aspose.BarCode, con pasos claros y código listo para usar.
+### [Cómo generar código de barras en C# con Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+Aprende a crear códigos de barras en C# usando Aspose.BarCode paso a paso.
+### [Cómo generar código de barras y personalizar código de barras PDF417 en C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
+Aprende a generar y personalizar códigos de barras PDF417 en C# usando Aspose.BarCode, con ejemplos paso a paso.
+### [Cómo crear un código de barras PDF417 y exportar PNG en C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
+Aprende a generar un código de barras PDF417 y guardarlo como PNG usando C# y Aspose.BarCode.
+### [Cómo decodificar PDF417 en C# con un ejemplo de lector de códigos de barras](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
+Aprende a leer códigos de barras PDF417 en C# usando Aspose.BarCode con un ejemplo práctico de lector.
 ### [Crear código de barras macro PDF417 con Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
 Aprende a generar un código de barras macro PDF417 usando Aspose.BarCode en C#.
 
@@ -198,6 +231,21 @@ R: No se requieren fuentes externas; la biblioteca maneja todo el renderizado in
 **Última actualización:** 2026-01-09  
 **Probado con:** Aspose.BarCode 24.11 para .NET  
 **Autor:** Aspose
+
+## Tutoriales relacionados
+
+- [Cómo crear código de barras – Compact PDF417 con Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Cómo generar código de barras PDF417 en C# y establecer el tamaño del código de barras](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+- [Cómo crear código de barras PDF417 en C# y guardarlo como PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+- [Cómo crear código de barras micro PDF417 en C# – guía paso a paso](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+- [Tutoriales y ejemplos completos de Aspose.BarCode para .NET](/barcode/net/)
+- [Cómo crear código de barras Aztec con corrección de errores en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
+- [Cómo usar un generador de códigos de barras C# para Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [Cómo leer códigos de barras PDF417 en C# – guía completa](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+
+- [Cómo generar código de barras PDF417 en C# con Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+- [Cómo generar código de barras PDF417 en C# – guía paso a paso](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+- [Decodificar código de barras desde una imagen con un ejemplo de lector de códigos de barras en C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

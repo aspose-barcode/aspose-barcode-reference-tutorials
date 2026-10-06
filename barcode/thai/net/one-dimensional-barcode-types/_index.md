@@ -86,6 +86,12 @@ url: /th/net/one-dimensional-barcode-types/
 เรียนรู้วิธีสร้างบาร์โค้ดจากข้อความใน C# ด้วย Aspose.BarCode อย่างง่ายและรวดเร็ว
 ### [วิธีสร้างบาร์โค้ดใน C# – คู่มือการเขียนโปรแกรมครบถ้วน](./how-to-generate-barcode-in-c-complete-programming-guide/)
 เรียนรู้วิธีสร้างบาร์โค้ดใน C# ด้วย Aspose.BarCode พร้อมคำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
+### [อ่านบาร์โค้ดจากภาพใน C# – บทแนะนำ BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+เรียนรู้วิธีอ่านบาร์โค้ดจากไฟล์ภาพด้วย BarCodeReader ใน C# อย่างละเอียด
+### [วิธีตั้งค่าพารามิเตอร์บาร์โค้ดใน C# ด้วย Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+เรียนรู้วิธีกำหนดค่าพารามิเตอร์บาร์โค้ดใน C# ด้วย Aspose.BarCode อย่างละเอียด
+### [วิธีสร้างบาร์โค้ดด้วย Aspose ใน C#](./how-to-generate-barcode-with-aspose-in-c/)
+เรียนรู้วิธีสร้างบาร์โค้ดใน C# ด้วย Aspose.BarCode อย่างง่ายและรวดเร็ว
 
 ## บทสรุป
 

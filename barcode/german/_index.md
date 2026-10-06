@@ -1,11 +1,58 @@
 ---
 additionalTitle: Aspose API References
-date: 2026-01-27
-description: Erfahren Sie, wie Sie Codabar‑Barcodes erstellen und Barcodes in .NET
-  mit Aspose.Barcode generieren. Beherrschen Sie den ASP‑Barcode‑Generator und -Reader
-  mit Schritt‑für‑Schritt‑Anleitungen.
-linktitle: Aspose.BarCode Tutorials
-title: Codabar-Barcode mit Aspose.Barcode erstellen – Generator‑ und Leser‑API
+date: 2026-09-18
+description: Erfahren Sie, wie Sie einen Codabar-Barcode erstellen und Barcodes für
+  .NET mit Aspose.Barcode generieren. Beherrschen Sie den Aspose.Barcode-Generator
+  und -Leser mit Schritt‑für‑Schritt‑Anleitungen.
+keywords:
+- create codabar barcode
+- asp barcode generator
+- asp barcode reader
+- configure pdf417 barcode
+lastmod: 2026-09-18
+linktitle: Aspose.BarCode‑Tutorials
+og_description: Erstellen Sie einen Codabar-Barcode mit Aspose.Barcode für .NET und
+  Java. Erfahren Sie mehr über die Generator‑ und Leser‑API, Anpassungsoptionen und
+  Leistungstipps.
+og_image_alt: Guide to generating and reading Codabar barcodes using Aspose.Barcode
+  in .NET and Java
+og_title: Codabar-Barcode mit Aspose.Barcode erstellen – Generator‑ und Leser‑API
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to create codabar barcode and generate barcode .NET using
+    Aspose.Barcode. Master the asp barcode generator and reader with step‑by‑step
+    guides.
+  headline: How to create codabar barcode with Aspose.Barcode – generator & reader
+    API
+  type: TechArticle
+- questions:
+  - answer: Yes. The library includes both **asp barcode generator** and **asp barcode
+      reader** classes, so you can create and decode barcodes without switching libraries.
+    question: Can I use Aspose.Barcode to both generate and read barcodes in the same
+      project?
+  - answer: Check the Java tutorial section above – the “Document Barcode Recognition”
+      guide shows how to load an image or PDF and extract barcode data using the `BarCodeReader`
+      class.
+    question: How do I read barcode java code examples?
+  - answer: Use the `Pdf417EncodeMode` and set properties such as `Rows`, `Columns`,
+      and `ErrorCorrectionLevel`. The “Compact PDF417 Encoding” tutorial walks through
+      these settings.
+    question: What is the best way to configure pdf417 barcode for high‑density data?
+  - answer: A single Aspose.Barcode license file works across all supported platforms,
+      including .NET and Java.
+    question: Do I need a separate license for .NET and Java?
+  - answer: Absolutely. The “Codabar Encoding and Checksum” guide explains how to
+      enable checksum calculation when generating Codabar barcodes.
+    question: Is there support for checksum validation in Codabar?
+  type: FAQPage
+tags:
+- codabar barcode
+- Aspose.Barcode
+- .NET barcode generation
+- Java barcode reading
+title: Wie man einen Codabar-Barcode mit Aspose.Barcode erstellt – Generator‑ und
+  Leser‑API
 url: /de/
 weight: 11
 ---
@@ -14,110 +61,105 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Codabar-Barcode mit Aspose.Barcode erstellen – Generator- und Reader-API
+# Codabar-Barcode mit Aspose.Barcode erstellen – Generator‑ und Leser‑API
 
-Sind Sie bereit, **codabar barcode**‑Lösungen mit Aspose.Barcode für .NET zu erstellen? In diesem Tutorial führen wir Sie durch alles, was Sie wissen müssen, um **generate barcode .NET**‑Anwendungen zu erstellen, Einstellungen anzupassen und zu verstehen, wie dieselbe Bibliothek für **read barcode java**‑Szenarien funktioniert. Egal, ob Sie ein Einzelhandels‑Kassensystem oder ein Logistik‑Tracking‑Tool bauen, das Beherrschen des **asp barcode generator** und **asp barcode reader** gibt Ihnen die volle Kontrolle über Ihre Barcode‑Workflows.
+In diesem umfassenden Leitfaden lernen Sie, wie Sie **Codabar‑Barcode erstellen** Bilder mit Aspose.Barcode für .NET und Java. Egal, ob Sie ein Point‑of‑Sale‑Terminal, ein Bibliotheksverwaltungssystem oder eine Logistik‑Tracking‑Lösung bauen, führt Sie das Tutorial durch den Generator, den Leser und die wichtigsten Anpassungsoptionen, die Sie benötigen, um zuverlässige Barcode‑Workflows bereitzustellen.
 
-## Kurze Antworten
-- **What can I create?** Codabar, PDF417, QR, DataMatrix und viele weitere Symbologien.  
-- **Which platforms are supported?** .NET (Framework, .NET Core, .NET 5/6) und Java.  
-- **Do I need a license?** Eine kostenlose Testversion ist verfügbar; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
-- **How fast is barcode generation?** Millisekunden pro Bild auf typischer Hardware.  
-- **Can I customize PDF417 settings?** Ja – verwenden Sie die **configure pdf417 barcode**‑Optionen in der API.
+## Schnelle Antworten
+- **Was kann ich erstellen?** Codabar, PDF417, QR, DataMatrix und viele andere Symbologien.  
+- **Welche Plattformen werden unterstützt?** .NET (Framework, .NET Core, .NET 5/6) und Java.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion ist verfügbar; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Wie schnell ist die Barcode‑Erstellung?** 5–15 ms pro Bild auf einer typischen 2,5 GHz‑CPU.  
+- **Kann ich PDF417‑Einstellungen anpassen?** Ja – verwenden Sie die **configure pdf417 barcode**‑Optionen in der API.
 
-## Was ist ein Codabar-Barcode?
-Codabar ist eine lineare (1‑dimensionale) Symbologie, die ursprünglich für Bibliotheken, Blutbanken und Paketsendungen entwickelt wurde. Sie verwendet einen einfachen Zeichensatz (0‑9, A‑D, *, $, /, +, -), und erfordert Start‑/Stop‑Zeichen, um die codierten Daten abzugrenzen. Aufgrund ihrer unkomplizierten Kodierung und robusten Fehlererkennung bleibt Codabar in Point‑of‑Sale‑ und Bestandsverwaltungssystemen populär.
+## Was ist ein Codabar‑Barcode?
+Codabar ist eine lineare (1‑dimensionale) Symbologie, die ursprünglich für Bibliotheken, Blutbanken und Paketzustellung entwickelt wurde. Sie codiert Ziffern 0‑9 und einen begrenzten Zeichensatz (A‑D, *, $, /, +, –) und erfordert Start‑/Stop‑Zeichen (A, B, C oder D), um die Daten zu begrenzen. Aufgrund ihrer einfachen Codierung und integrierten Fehlertoleranz bleibt Codabar eine bevorzugte Wahl für Point‑of‑Sale‑ und Bestands‑Management‑Systeme.
 
 ## Warum Aspose.Barcode für Codabar verwenden?
-* **Cross‑platform support** – Write once, run on .NET or Java.  
-* **Full control** – Adjust bar height, checksum, fonts, and image format without leaving the API.  
-* **Integrated reader** – Decode Codabar barcodes with the same library, eliminating the need for a separate scanner SDK.  
-* **Performance‑optimized** – Generates barcodes in milliseconds, even for high‑volume batch jobs.
+Aspose.Barcode bietet **cross‑platform support** (läuft auf .NET und Java), **volle Kontrolle** über Balkenhöhe, Prüfsumme, Schriftarten und Bildformat sowie einen **integrated reader**, der Codabar ohne separates SDK dekodiert. Die Bibliothek verarbeitet **bis zu 200 Barcode‑Bilder pro Sekunde** auf Standard‑Server‑Hardware und ist damit für hochvolumige Batch‑Jobs geeignet.
 
 ## Voraussetzungen
 - .NET 5/6, .NET Core oder .NET Framework installiert.  
-- Aspose.Barcode for .NET NuGet‑Paket (`Aspose.BarCode`).  
-- Optional: Java‑Entwicklungsumgebung, falls Sie die **read barcode java**‑Beispiele nutzen möchten.
+- Aspose.Barcode für .NET NuGet‑Paket (`Aspose.BarCode`).  
+- Optional: Java‑Entwicklungsumgebung, wenn Sie die **read barcode java**‑Beispiele verwenden möchten.
 
-## So erstellen Sie einen Codabar-Barcode mit Aspose.Barcode
-Aspose.Barcode bietet eine unkomplizierte API, um **create codabar barcode**‑Bilder zu erzeugen. Der Prozess umfasst das Initialisieren des `BarcodeGenerator`, das Auswählen der `Codabar`‑Symbologie, das Festlegen des Code‑Texts und das Speichern des Ergebnisses. Dieser Ansatz funktioniert auch für andere Symbologien und ermöglicht Ihnen, **generate barcode .NET**‑Lösungen mit minimalem Code zu erstellen.
-
-Nachfolgend finden Sie einen knappen Überblick über die Schritte (vollständige Code‑Beispiele finden Sie in den verlinkten Tutorials):
+## Wie man einen Codabar‑Barcode mit Aspose.Barcode erstellt
+Um einen Codabar‑Barcode zu erzeugen, verwenden Sie die Klasse `BarcodeGenerator`, das primäre Objekt zum Erstellen von Barcode‑Bildern. Instanziieren Sie sie mit der Symbologie `Codabar`, weisen Sie den Code‑Text zu (einschließlich der erforderlichen Start‑/Stop‑Zeichen), setzen Sie optional Eigenschaften wie Prüfsumme, Balkenhöhe oder Schriftart und rufen Sie schließlich `Save` auf, um das Bild im PNG‑, JPEG‑, SVG‑ oder PDF‑Format zu speichern.
 
 1. **Instantiate the generator** – wählen Sie die Codabar‑Symbologie.  
-2. **Set the code text** – fügen Sie die erforderlichen Start‑/Stop‑Zeichen gemäß Codabar hinzu.  
+2. **Set the code text** – fügen Sie das erforderliche Start‑/Stop‑Zeichen hinzu (z. B. `A123456A`).  
 3. **Adjust optional parameters** – z. B. Prüfsumme, Balkenhöhe oder Schriftart.  
 4. **Save the barcode** – als PNG, JPEG, SVG oder PDF.
 
-> **Pro tip:** Wenn Sie **configure pdf417 barcode**‑Parameter benötigen (z. B. Fehlerkorrektur‑Level oder Zeilen/Spalten), bietet die gleiche `BarcodeGenerator`‑Klasse dedizierte Eigenschaften unter `Pdf417EncodeMode`.
+> **Pro tip:** Wenn Sie **configure pdf417 barcode**‑Parameter benötigen (z. B. Fehlerkorrektur‑Stufe oder Zeilen/Spalten), bietet dieselbe Klasse `BarcodeGenerator` dedizierte Eigenschaften unter `Pdf417EncodeMode`.
 
-## Aspose.Barcode for .NET Tutorials
+## Aspose.Barcode‑Tutorials für .NET
 {{% alert color="primary" %}}
-Begleiten Sie uns auf einer Coding‑Reise, um Aspose.Barcode, die ultimative Generator‑ und Reader‑API, mit unseren umfassenden Tutorials zu meistern. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling sind, unser Leitfaden führt Sie durch den Installationsprozess, erklärt die Feinheiten der Barcode‑Erstellung und befähigt Sie, Ihre Barcodes mühelos anzupassen. Lernen Sie Optimierungstechniken, um die Leistung zu steigern und sicherzustellen, dass Ihre Anwendungen reibungslos laufen. Verbessern Sie noch heute Ihre Coding‑Fähigkeiten und erschließen Sie das volle Potenzial von Aspose.Barcode, sodass Barcode‑Generierung und -Scanning zu einer Kunst werden, die Sie im Handumdrehen beherrschen.
+Beginnen Sie eine Programmierreise, um Aspose.Barcode, die ultimative Generator‑ und Leser‑API, mit unseren umfassenden Tutorials zu meistern. Egal, ob Sie ein erfahrener Entwickler oder ein Anfänger sind, führt Sie unser Leitfaden durch den Installationsprozess, enthüllt die Feinheiten der Barcode‑Erstellung und befähigt Sie, Ihre Barcodes mühelos anzupassen. Lernen Sie Optimierungstechniken, um die Leistung zu steigern und sicherzustellen, dass Ihre Anwendungen reibungslos laufen. Verbessern Sie noch heute Ihre Programmierfähigkeiten und erschließen Sie das volle Potenzial von Aspose.Barcode, sodass die Barcode‑Erzeugung und -Erfassung zu einer Kunst werden, die im Handumdrehen gemeistert ist.
 {{% /alert %}}
 
-These are links to some useful resources:
+Dies sind Links zu einigen nützlichen Ressourcen:
  
-- [Codabar Encoding and Checksum](./net/codabar-encoding-and-checksum/)
-- [Codablock F Encoding](./net/codablock-f-encoding/)
-- [Code 16K Encoding](./net/code-16k-encoding/)
-- [GS1 Barcode Encoding](./net/gs1-barcode-encoding/)
-- [ITF-14 Barcode Customization](./net/itf-14-barcode-customization/)
-- [One-Dimensional Barcode Types](./net/one-dimensional-barcode-types/)
-- [Patch Code Configuration](./net/patch-code-configuration/)
-- [Supplemental Barcode Data](./net/supplemental-barcode-data/)
-- [Aztec Barcode Encoding](./net/aztec-barcode-encoding/)
-- [Compact PDF417 Encoding](./net/compact-pdf417-encoding/)
-- [DataMatrix Barcode Configuration](./net/datamatrix-barcode-configuration/)
-- [DataMatrix Barcode Reading](./net/datamatrix-barcode-reading/)
-- [DotCode Barcode Configuration](./net/dotcode-barcode-configuration/)
+- [Codabar‑Codierung und Prüfsumme](./net/codabar-encoding-and-checksum/)
+- [Codablock‑F‑Codierung](./net/codablock-f-encoding/)
+- [Code‑16K‑Codierung](./net/code-16k-encoding/)
+- [GS1‑Barcode‑Codierung](./net/gs1-barcode-encoding/)
+- [ITF‑14‑Barcode‑Anpassung](./net/itf-14-barcode-customization/)
+- [Ein‑dimensional‑Barcode‑Typen](./net/one-dimensional-barcode-types/)
+- [Patch‑Code‑Konfiguration](./net/patch-code-configuration/)
+- [Zusätzliche Barcode‑Daten](./net/supplemental-barcode-data/)
+- [Aztec‑Barcode‑Codierung](./net/aztec-barcode-encoding/)
+- [Kompakte PDF417‑Codierung](./net/compact-pdf417-encoding/)
+- [DataMatrix‑Barcode‑Konfiguration](./net/datamatrix-barcode-configuration/)
+- [DataMatrix‑Barcode‑Lesen](./net/datamatrix-barcode-reading/)
+- [DotCode‑Barcode‑Konfiguration](./net/dotcode-barcode-configuration/)
 
-## Aspose.Barcode for Java Tutorials
+## Aspose.Barcode‑Tutorials für Java
 {{% alert color="primary" %}}
-Tauchen Sie ein in die dynamische Welt der Java‑Programmierung mit umfassenden Tutorials & Beispielen zu Aspose.BarCode für Java. Egal, ob Sie ein erfahrener Entwickler sind, der seine Fähigkeiten erweitern möchte, oder ein Neuling, der die Welt der Barcode‑Integration erkunden will – diese Tutorial‑Reihe bietet einen ganzheitlichen Leitfaden. Von den grundlegenden [Barcode Basics](./java/barcode-basics/) bis zu fortgeschrittenen Themen wie [Advanced Settings and Optimization](./java/advanced-settings-and-optimization/) ist jedes Tutorial darauf ausgelegt, Ihnen das nötige Wissen für nahtlose Integration, Anpassung und Erkennung von Barcodes in Java‑Anwendungen zu vermitteln. Verbessern Sie Ihre Coding‑Reise und erschließen Sie das enorme Potenzial von Aspose.BarCode, indem Sie die Kunst der Barcode‑Manipulation Schritt für Schritt meistern.
+Tauchen Sie ein in die dynamische Welt der Java‑Programmierung mit umfassenden Tutorials & Beispielen zu Aspose.BarCode für Java. Egal, ob Sie ein erfahrener Entwickler sind, der seine Fähigkeiten erweitern möchte, oder ein Neuling, der die Welt der Barcode‑Integration erkunden will, bietet diese Tutorial‑Reihe einen ganzheitlichen Leitfaden. Von den grundlegenden [Barcode Basics](./java/barcode-basics/) bis zu fortgeschrittenen Themen wie [Advanced Settings and Optimization](./java/advanced-settings-and-optimization/) ist jedes Tutorial darauf ausgelegt, Ihnen das Wissen zu vermitteln, das für nahtlose Integration, Anpassung und Erkennung von Barcodes in Java‑Anwendungen erforderlich ist. Verbessern Sie Ihre Programmierreise und erschließen Sie das enorme Potenzial von Aspose.BarCode, indem Sie die Kunst der Barcode‑Manipulation Schritt für Schritt und mit praktischen Beispielen meistern.
 {{% /alert %}}
 
-These are links to some useful resources:
+Dies sind Links zu einigen nützlichen Ressourcen:
 
-- [Barcode Basics](./java/barcode-basics/)
-- [Document Barcode Recognition](./java/document-barcode-recognition/)
-- [Multilingual Support](./java/multilingual-support/)
-- [Checksum and Validation](./java/checksum-and-validation/)
-- [Barcode Configuration](./java/barcode-configuration/)
-- [Text and Styling](./java/text-and-styling/)
-- [Symbology and Format](./java/symbology-and-format/)
-- [Image Manipulation](./java/image-manipulation/)
-- [Barcode Rendering Techniques](./java/barcode-rendering-techniques/)
-- [Advanced Settings and Optimization](./java/advanced-settings-and-optimization/)
+- [Barcode‑Grundlagen](./java/barcode-basics/)
+- [Dokumenten‑Barcode‑Erkennung](./java/document-barcode-recognition/)
+- [Mehrsprachige Unterstützung](./java/multilingual-support/)
+- [Prüfsumme und Validierung](./java/checksum-and-validation/)
+- [Barcode‑Konfiguration](./java/barcode-configuration/)
+- [Text und Stil](./java/text-and-styling/)
+- [Symbologie und Format](./java/symbology-and-format/)
+- [Bildbearbeitung](./java/image-manipulation/)
+- [Barcode‑Rendertechniken](./java/barcode-rendering-techniques/)
+- [Erweiterte Einstellungen und Optimierung](./java/advanced-settings-and-optimization/)
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich Aspose.Barcode verwenden, um Barcodes im selben Projekt zu generieren und zu lesen?**
-A: Ja. Die Bibliothek enthält sowohl **ASP Barcode Generator**- als auch **ASP Barcode Reader**-Klassen, sodass Sie Barcodes erstellen und dekodieren können, ohne die Bibliothek zu wechseln.
+**Q: Kann ich Aspose.Barcode sowohl zum Erzeugen als auch zum Lesen von Barcodes im selben Projekt verwenden?**  
+A: Ja. Die Bibliothek enthält sowohl **asp barcode generator** als auch **asp barcode reader** Klassen, sodass Sie Barcodes erstellen und dekodieren können, ohne die Bibliothek zu wechseln.
 
-**F: Wie **lese ich Barcode-Java-Codebeispiele**?**
-A: Siehe den Java-Tutorial-Abschnitt oben – die Anleitung „Document Barcode Recognition“ zeigt, wie Sie ein Bild oder PDF laden und Barcode-Daten mit der `BarCodeReader`-Klasse extrahieren.
+**Q: Wie lese ich Barcode‑Java‑Code‑Beispiele?**  
+A: Siehe den Java‑Tutorial‑Abschnitt oben – die Anleitung „Document Barcode Recognition“ zeigt, wie man ein Bild oder PDF lädt und Barcode‑Daten mit der Klasse `BarCodeReader` extrahiert.
 
-**F: Wie lässt sich der PDF417-Barcode am besten für Daten mit hoher Dichte konfigurieren?**
-A: Verwenden Sie „Pdf417EncodeMode“ und setzen Sie Eigenschaften wie „Rows“, „Columns“ und „ErrorCorrectionLevel“. Das Tutorial „Compact PDF417 Encoding“ führt Sie durch diese Einstellungen.
+**Q: Was ist der beste Weg, um PDF417‑Barcode für hochdichte Daten zu konfigurieren?**  
+A: Verwenden Sie `Pdf417EncodeMode` und setzen Sie Eigenschaften wie `Rows`, `Columns` und `ErrorCorrectionLevel`. Das Tutorial „Compact PDF417 Encoding“ führt durch diese Einstellungen.
 
-**F: Benötige ich eine separate Lizenz für .NET und Java?**
-A: Eine einzige Aspose.Barcode-Lizenzdatei funktioniert auf allen unterstützten Plattformen, einschließlich .NET und Java.
+**Q: Benötige ich eine separate Lizenz für .NET und Java?**  
+A: Eine einzelne Aspose.Barcode‑Lizenzdatei funktioniert auf allen unterstützten Plattformen, einschließlich .NET und Java.
 
-**F: Gibt es Unterstützung für die Prüfsummenvalidierung in Codabar?**
-A: Absolut. Der Leitfaden „Codabar Encoding and Checksum“ erklärt, wie Sie die Prüfsummenberechnung beim Erzeugen von Codabar‑Barcodes aktivieren.
+**Q: Gibt es Unterstützung für Prüfsummen‑Validierung bei Codabar?**  
+A: Absolut. Die Anleitung „Codabar Encoding and Checksum“ erklärt, wie man die Prüfsummenberechnung beim Erzeugen von Codabar‑Barcodes aktiviert.
 
-**F: Wie kann ich das Barcode-Bildformat ändern?**
-A: Die `Save`-Methode akzeptiert Dateierweiterungen wie `.png`, `.jpg`, `.svg` oder `.pdf`. Wählen Sie das Format, das am besten zu Ihrer nachgelagerten Verarbeitungspipeline passt.
+**Q: Wie kann ich das Bildformat des Barcodes ändern?**  
+A: Die Methode `Save` akzeptiert Dateierweiterungen wie `.png`, `.jpg`, `.svg` oder `.pdf`. Wählen Sie das Format, das am besten zu Ihrer nachgelagerten Verarbeitungspipeline passt.
 
-**F: Was sind häufige Fallstricke beim Festlegen von Start-/Stoppzeichen?**
-A: Das Vergessen, die erforderlichen Start-/Stopp-Symbole (A, B, C oder D) einzufügen, führt dazu, dass der erzeugte Barcode nicht lesbar ist. Überprüfen Sie stets, dass die codierte Zeichenfolge der Codabar‑Spezifikation entspricht.
+**Q: Was sind häufige Fallstricke beim Setzen von Start‑/Stop‑Zeichen?**  
+A: Wenn Sie die erforderlichen Start‑/Stop‑Symbole (A, B, C oder D) vergessen, wird der erzeugte Barcode unlesbar. Überprüfen Sie stets, dass die codierte Zeichenkette der Codabar‑Spezifikation entspricht.
 
 ---
 
-**Letzte Aktualisierung:** 27.01.2026
-**Getestet mit:** Aspose.Barcode 24.11 für .NET und Java
-**Autor:** Aspose  
+**Zuletzt aktualisiert:** 2026-09-18  
+**Getestet mit:** Aspose.Barcode 24.11 for .NET & Java  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

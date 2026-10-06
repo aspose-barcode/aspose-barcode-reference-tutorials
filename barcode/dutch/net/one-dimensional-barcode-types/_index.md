@@ -87,6 +87,12 @@ Leer hoe u barcodes uit een afbeelding kunt lezen met Aspose.BarCode in C#. Volg
 Leer hoe u met Aspose.BarCode in C# barcodes maakt vanuit tekst, stap voor stap.
 ### [Hoe een barcode te genereren in C# – Complete programmeergids](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Leer stap voor stap hoe u barcodes genereert in C# met Aspose.BarCode, inclusief codevoorbeelden en configuratieopties.
+### [Barcode lezen vanuit afbeelding in C# – BarCodeReader-tutorial](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Leer hoe u barcodes uit afbeeldingen kunt lezen in C# met de BarCodeReader van Aspose.BarCode.
+### [Hoe barcode-parameters in C# instellen met Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Leer hoe u barcode-parameters configureert in C# met Aspose.BarCode voor optimale resultaten.
+### [Hoe een barcode genereren met Aspose in C#](./how-to-generate-barcode-with-aspose-in-c/)
+Leer hoe u met Aspose.BarCode in C# barcodes genereert, stap voor stap.
 
 ## Conclusie
 

@@ -136,18 +136,35 @@ Die hohe Datendichte und robuste Fehlerkorrektur von Compact PDF417 machen ihn f
 - **Lizenzausnahmen:** In einer Testumgebung kann der erzeugte Barcode ein Wasserzeichen enthalten. Eine gültige Lizenz entfernt dieses.
 
 ## Compact PDF417 Codierungs‑Tutorials
+### [Generate PDF417 barcode with compact settings in C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
+
+
+### [Wie man PDF417-Barcode in C# mit benutzerdefinierten Abmessungen generiert](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
+
+
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Erfahren Sie, wie Sie Compact PDF417 Barcodes mit Aspose.BarCode für .NET erzeugen. Umfassender Leitfaden mit Schritt‑für‑Schritt‑Anweisungen und Code‑Beispielen.
+### [PDF417-Barcode mit Aspose.BarCode erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes mit Aspose.BarCode in .NET Schritt für Schritt generieren.
+
+### [Wie man PDF417-Barcode in C# mit dem Barcode-Generator erstellt](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+Erfahren Sie, wie Sie mit dem Barcode‑Generator in C# PDF417‑Barcodes erzeugen.
+
 ### [PDF417-Barcode in C# generieren – Barcode‑Generator‑Leitfaden](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
 Erfahren Sie, wie Sie mit dem Barcode‑Generator in C# PDF417‑Barcodes erstellen.
 ### [Wie man Barcode‑Bilder in C# speichert – vollständiger Leitfaden](./how-to-save-barcode-images-in-c-complete-guide/)
 Erfahren Sie, wie Sie Barcode‑Bilder in C# generieren und in gängigen Formaten speichern.
 ### [PDF417‑Barcode‑Metadaten in C# erstellen – vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 Erfahren Sie, wie Sie PDF417‑Barcode‑Metadaten in C# hinzufügen, inklusive Code‑Beispielen und Best Practices.
+### [Wie man Barcode in C# mit Aspose.BarCode generiert und Metadaten hinzufügt](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erzeugen und Metadaten hinzufügen – Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
 ### [PDF417-Barcode in C# generieren – Vollständiger Leitfaden](./generate-pdf417-barcode-in-c-complete-guide/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# erstellen, mit vollständigen Code‑Beispielen und Schritt‑für‑Schritt‑Anleitung.
 ### [PDF417-Barcode in C# generieren – vollständige Schritt‑für‑Schritt‑Anleitung](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# komplett Schritt für Schritt erstellen, inkl. Code‑Beispielen und Best Practices.
+### [Wie man PDF417-Barcode in C# generiert – Schritt‑für‑Schritt‑Anleitung](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# Schritt für Schritt erstellen, inkl. Code‑Beispielen und Konfiguration.
+
 ### [PDF417 in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, mit vollständigen Code‑Beispielen und Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man Barcode‑Bild in C# erzeugt – MicroPdf417‑Leitfaden](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
@@ -188,6 +205,13 @@ Erfahren Sie, wie Sie PDF417‑Barcodes in .NET mit Aspose.BarCode vollständig 
 Erfahren Sie, wie Sie in C# Barcodes mit beliebigen Daten generieren, inklusive Code‑Beispielen und Konfiguration.
 ### [Wie man PDF417 in C# liest – vollständiges Barcode‑Beispiel](./how-to-read-pdf417-in-c-complete-barcode-example/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive vollständigem Beispielcode und Schritt‑für‑Schritt‑Erklärung.
+### [Wie man PDF417‑Barcodes in C# mit Aspose.BarCode generiert](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# mit Aspose.BarCode erstellen, inkl. Code‑Beispielen und Schritt‑für‑Schritt‑Anleitung.
+
+### [Barcode aus Bild mit einem C#-Barcode-Reader-Beispiel decodieren](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes aus Bildern in C# auslesen.
+
+- [Wie man PDF417‑Barcode in C# mit kompaktem Modus erstellt](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
 ### [Wie man ein PDF417‑Barcode‑Bild in C# mit Aspose erzeugt](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET ein PDF417‑Barcode‑Bild in C# erstellen.
 ### [Mehrere Barcodes in C# lesen – Vollständiger Leitfaden mit PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
@@ -200,6 +224,16 @@ Erfahren Sie, wie Sie einen PDF417‑Barcode in C# vollständig erstellen, inklu
 Erfahren Sie, wie Sie Barcodes in C# als Bilddatei speichern, inkl. Code‑Beispielen und Optionen für Formate.
 ### [PDF417-Barcode in C# lesen – Barcode‑Reader‑Beispiel](./read-pdf417-barcode-in-c-barcode-reader-example/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen können, inklusive Beispielcode für den Barcode‑Reader.
+
+### [Wie man Barcodes generiert und PDF417‑Barcodes in C# anpasst](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
+Erfahren Sie, wie Sie Barcodes erzeugen und PDF417‑Barcodes in C# individuell anpassen können.
+
+### [Wie man PDF417‑Barcode erstellt und als PNG exportiert in C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# PDF417‑Barcodes erzeugen und als PNG‑Datei speichern.
+
+### [Wie man PDF417 in C# mit einem Barcode‑Reader‑Beispiel dekodiert](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# mit dem Aspose.BarCode‑Reader auslesen.
+
 ### [Aspose Barcode‑Beispiel: Macro PDF417 in C# erzeugen](./aspose-barcode-example-generate-macro-pdf417-in-c/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen Macro PDF417 Barcode in C# erzeugen.
 ### [PDF417-Barcode in C# generieren – Schritt‑für‑Schritt‑Anleitung](./generate-pdf417-barcode-in-c-step-by-step-guide/)
@@ -211,198 +245,34 @@ Erfahren Sie, wie Sie mit Aspose.BarCode für .NET PDF417‑Barcodes in C# ausle
 ### [Barcode mit Aspose generieren – vollständiger C#‑Leitfaden](./generate-barcode-aspose-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen Barcode in C# erzeugen.
 ### [Erstellen Sie ein Mikro‑PDF417‑Bild in C# – Schritt‑für‑Schritt‑Anleitung](./create-micro-pdf417-image-in-c-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.BarCode für .NET ein Mikro‑PDF417‑Bild in C# erstellen.
+### [Erstellen Sie einen Micro PDF417 Barcode in C# – Schritt‑für‑Schritt‑Anleitung](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie einen Micro PDF417 Barcode in C# erzeugen – detaillierte Anleitung mit Code‑Beispielen.
+### [PDF417-Barcode in C# generieren – vollständiger Leitfaden mit kompaktem Layout](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# mit kompakter Layout‑Option erstellen – Schritt‑für‑Schritt‑Anleitung und Code‑Beispiele.
+### [Barcode in C# mit Macro PDF417 generieren – vollständiges Beispiel](./generate-barcode-c-with-macro-pdf417-full-example/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen vollständigen Macro PDF417 Barcode in C# erzeugen.
+### [Wie man Micro PDF417 Barcode in C# generiert – Schritt‑für‑Schritt‑Anleitung](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie einen Micro PDF417 Barcode in C# Schritt für Schritt erstellen.
+### [Wie man PDF417‑Barcodes in C# mit BarCodeReader dekodiert](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# mit dem BarCodeReader von Aspose dekodieren.
+### [Wie man PDF417‑Barcode‑Bild in C# mit Macro‑PDF417‑Optionen erstellt](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+
+### [Wie man PDF417-Barcode in C# erstellt – Schritt‑für‑Schritt‑Leitfaden](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# Schritt für Schritt erstellen, inklusive Code‑Beispielen und Konfiguration.
+
+### [Wie man PDF417‑Barcodes in C# dekodiert – vollständiger Leitfaden](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
+Erfahren Sie, wie Sie PDF417‑Barcodes in C# lesen und dekodieren, inklusive Code‑Beispielen und Fehlerbehandlung.
+### [Wie man einen Macro PDF417 Barcode in C# mit Aspose.BarCode erstellt](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# einen Macro PDF417 Barcode erzeugen – Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie man Barcode in C# mit Aspose.BarCode generiert](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erzeugen.
 ### [Wie man PDF417‑Barcode erstellt und seine Größe in C# festlegt](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET PDF417‑Barcodes erzeugen und die Größe anpassen.
 ### [Macro PDF417-Barcode mit Aspose.BarCode erstellen (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# einen Macro PDF417-Barcode generieren.
 ### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispielen und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispielen und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispielen und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispielen und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispielen und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispielen und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispielen und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-### [PDF417‑Barcode in C# lesen – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie PDF417‑Barcodes in C# auslesen, inklusive Code‑Beispiele und vollständiger Schritt‑für‑Schritt‑Anleitung.
-
 ### [PDF417-Barcode in C# erstellen – vollständiger Leitfaden](./create-pdf417-barcode-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen PDF417-Barcode in C# vollständig erstellen, inkl. Code‑Beispielen und Konfiguration.
 
@@ -434,7 +304,12 @@ A: Nein, es werden keine externen Schriftarten benötigt; die Bibliothek überni
 - [Wie man Barcode erstellt – Compact PDF417 mit Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Umfassende Tutorials und Beispiele für Aspose.BarCode für .NET](/barcode/net/)
 - [Wie man Aztec-Barcode mit Fehlerkorrektur in .NET erstellt](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-
+- [Wie man PDF417-Barcode in C# generiert und die Barcode-Größe festlegt](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+- [Wie man PDF417-Barcode in C# erstellt und als PNG speichert](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+- [Wie man Micro PDF417 Barcode in C# erstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+- [Wie man einen Barcode‑Generator in C# für Macro PDF417 verwendet](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [Wie man PDF417-Barcodes in C# liest – vollständiger Leitfaden](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
+- [Wie man PDF417-Barcode in C# generiert – kompaktes Beispiel](./how-to-generate-pdf417-barcode-in-c-compact-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

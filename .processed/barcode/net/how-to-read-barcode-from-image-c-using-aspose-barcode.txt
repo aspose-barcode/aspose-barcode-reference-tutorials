@@ -1,0 +1,7 @@
+Title: How to read barcode from image c# using Aspose.BarCode
+Slug: how-to-read-barcode-from-image-c-using-aspose-barcode
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-02T23:04:03.350518
+SourceRepo: AI Search API
+Keywords: read barcode from image c#, how to decode pdf417 barcode
+PRNumber: 143

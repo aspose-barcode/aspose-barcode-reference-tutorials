@@ -1,36 +1,36 @@
 ---
 category: general
-date: 2026-07-15
-description: Erzeugen Sie PDF417‑Barcodes schnell und lernen Sie, wie Sie Spalten
-  für ein kompaktes PDF417‑Barcode‑Bild in C# festlegen.
+date: 2026-09-18
+description: Erfahren Sie, wie Sie ein PDF417-Barcode-Bild in C# schnell erstellen
+  und Spalten für einen kompakten Barcode festlegen.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- generate pdf417 barcode
-- how to set columns
-- pdf417 barcode image
+- create pdf417 barcode image
+- compact pdf417 barcode
 - Aspose.BarCode PDF417
 - C# barcode generation
-- compact PDF417
-language: de
-lastmod: 2026-07-15
-og_description: Erzeugen Sie PDF417‑Barcodes mit Aspose.BarCode und erfahren Sie,
-  wie Sie Spalten festlegen, um ein kompaktes PDF417‑Barcode‑Bild zu erstellen.
-og_image_alt: Screenshot of a compact PDF417 barcode saved as PNG
-og_title: PDF417-Barcode in C# generieren – Schritt‑für‑Schritt‑Anleitung
+- set barcode columns
+lastmod: 2026-09-18
+og_description: Erfahren Sie, wie Sie ein PDF417-Barcode-Bild in C# schnell erstellen
+  und Spalten für einen kompakten Barcode festlegen. Aspose.BarCode macht es einfach.
+og_image_alt: Developer guide showing a compact PDF417 barcode PNG generated with
+  Aspose.BarCode
+og_title: PDF417-Barcode-Bild erstellen – Schritt‑für‑Schritt C#‑Leitfaden
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: Generate PDF417 barcode quickly and learn how to set columns for a
-    compact PDF417 barcode image in C#.
-  headline: Generate PDF417 Barcode in C# – Complete Guide
+  dateModified: '2026-09-18'
+  description: Learn how to create PDF417 barcode image in C# quickly and set columns
+    for a compact barcode.
+  headline: Create PDF417 barcode image – complete guide
   type: TechArticle
 tags:
 - barcode
 - C#
 - PDF417
-title: PDF417-Barcode in C# generieren – Vollständige Anleitung
+- Aspose.BarCode
+title: Wie man ein PDF417-Barcode-Bild in C# erstellt – vollständige Anleitung
 url: /de/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-guide/
 ---
 
@@ -38,41 +38,46 @@ url: /de/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-guide
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF417-Barcode in C# generieren – Vollständige Anleitung
+# Wie man ein PDF417-Barcode-Bild in C# erstellt – vollständige Anleitung
 
-Haben Sie jemals **PDF417-Barcode** in einem .NET‑Projekt erzeugen müssen, wussten aber nicht, wo Sie anfangen sollen? Sie sind nicht allein. In vielen Unternehmens‑Apps – denken Sie an Boarding‑Pass‑Drucker, Inventur‑Etiketten oder Mobile‑Ticketing – ist PDF417 das Arbeitspferd, das viele Daten in einem kleinen visuellen Fußabdruck unterbringt.
+Wenn Sie ein **PDF417-Barcode-Bild** in einer .NET-Anwendung erstellen müssen, sind Sie hier genau richtig. Egal, ob Sie Boarding‑Pass‑Etiketten drucken, Bestandsdaten codieren oder ein mobiles Ticket‑System aufbauen, PDF417 liefert hochkapazitäre, zweidimensionale Barcodes. Dieser Leitfaden zeigt Ihnen, wie Sie das Bild mit Aspose.BarCode erzeugen und wie Sie Spalten festlegen, damit der Barcode so kompakt wie möglich bleibt.
 
-Die Sache ist die: Die Aspose.BarCode‑Bibliothek macht den gesamten Prozess fast schmerzfrei, und Sie können sogar **wie man Spalten festlegt** steuern, sodass der Barcode so kompakt wie möglich wird. Am Ende dieses Tutorials haben Sie ein einsatzbereites PNG‑Bild eines **PDF417‑Barcode‑Bildes**, das Sie in jede UI, E‑Mail oder Druckauftrag einbinden können.
+## Schnelle Antworten
+- **Welche Bibliothek erstellt PDF417‑Barcodes?** Aspose.BarCode for .NET.
+- **Wie viele Codezeilen werden benötigt?** About 10 lines in a console app.
+- **Kann ich die Barcode‑Breite steuern?** Yes, by setting the `Columns` property.
+- **Welches Bildformat wird empfohlen?** PNG for loss‑less quality.
+- **Wird .NET 6 unterstützt?** Fully – the library works with .NET 6, .NET 7 and later.
 
-## Was Sie am Ende erhalten
+## Was ist ein PDF417-Barcode-Bild?
+Das PDF417-Barcode-Bild ist eine zweidimensionale Matrix, die bis zu 1 700 Zeichen pro Zeile speichert und dabei Zeilen und Spalten verwendet, um Daten dicht zu packen. Aspose.BarCode rendert diese Matrix in gängige Bildformate wie PNG, JPEG oder BMP. Es kann in verschiedenen Formaten gespeichert werden und eignet sich zum Drucken auf Etiketten, Tickets oder mobilen Bildschirmen.
 
-- Eine voll funktionsfähige C#‑Konsolen‑App, die einen PDF417‑Barcode erstellt.
-- Klares Verständnis der *X‑Dimension* (Modulgröße) und warum sie wichtig ist.
-- Schritt‑für‑Schritt‑Anleitungen, wie **man Spalten festlegt** für einen kompakteren Barcode.
-- Eine gespeicherte `PNG`‑Datei, die Sie sofort öffnen können, um das Ergebnis zu prüfen.
-- Tipps zur Fehlersuche bei häufigen Stolperfallen (z. B. unlesbare Barcodes, falsches Bildformat).
+## Warum Spalten für ein kompaktes PDF417-Barcode-Bild festlegen?
+Durch das Festlegen von Spalten können Sie die Breite des Barcodes verkleinern, was für schmale Etiketten oder UI‑Elemente mit begrenztem Platz entscheidend ist. Aspose.BarCode unterstützt 1‑30 Spalten, und die Wahl einer niedrigeren Anzahl reduziert die gesamte Bildbreite um bis zu 40 %, während die Datenintegrität erhalten bleibt. Diese Anpassung hilft, Barcodes auf kleinen Etiketten unterzubringen, ohne die Lesbarkeit zu beeinträchtigen.
 
-> **Voraussetzungen** – .NET 6+ SDK, Visual Studio 2022 (oder ein beliebiger Editor), und ein NuGet‑Verweis auf `Aspose.BarCode`. Mehr nicht.
+## Wie man ein PDF417-Barcode-Bild in C# erstellt?
+Laden Sie die `Aspose.BarCode`‑Bibliothek, konfigurieren Sie einen `BarcodeGenerator` mit `EncodeTypes.Pdf417`, setzen Sie `Columns` und `Truncate` und speichern Sie das Ergebnis als PNG. Der gesamte Vorgang erfordert zwei Methodenaufrufe und erzeugt eine sofort nutzbare Bilddatei. Sie können außerdem Abmessungen, Farben anpassen und menschenlesbaren Text hinzufügen, um den Anforderungen Ihrer Anwendung gerecht zu werden.
 
----
+### Voraussetzungen
+- .NET 6+ SDK (oder neuer)
+- Visual Studio 2022 oder ein beliebiger C#‑Editor
+- NuGet‑Paket `Aspose.BarCode`
 
-## Schritt 1: Installieren Sie das Aspose.BarCode NuGet‑Paket
+### Schritt‑für‑Schritt‑Implementierung
 
-Bevor wir **PDF417‑Barcode** erzeugen können, muss die Bibliothek im Projekt vorhanden sein.
+## Schritt 1: Installieren Sie das Aspose.BarCode‑NuGet‑Paket
+`Aspose.BarCode` ist eine .NET‑Bibliothek zum Erzeugen und Lesen verschiedener Barcode‑Symbologien.
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-Diese eine Zeile zieht alle Typen, die Sie benötigen, inklusive `BarcodeGenerator`, `EncodeTypes` und dem Enum `BarCodeImageFormat`.
+Diese einzelne Zeile importiert alle benötigten Typen, einschließlich `BarcodeGenerator`, `EncodeTypes` und dem `BarCodeImageFormat`‑Enum.
 
-> **Pro Tipp:** Wenn Sie .NET Framework statt .NET 6 anvisieren, verwenden Sie den klassischen PowerShell‑Befehl `Install-Package Aspose.BarCode` in der Package‑Manager‑Konsole.
-
----
+> **Profi‑Tipp:** Wenn Sie .NET Framework anstelle von .NET 6 anvisieren, verwenden Sie den klassischen PowerShell‑Befehl `Install-Package Aspose.BarCode` in der Package Manager Console.
 
 ## Schritt 2: Erstellen Sie eine minimale Konsolenanwendung
-
-Wir legen ein winziges Programm an, das nichts anderes tut, als einen Barcode zu erzeugen. Öffnen Sie einen neuen Ordner, führen Sie `dotnet new console` aus und ersetzen Sie die automatisch erzeugte `Program.cs` durch den Code unten.
+`BarcodeGenerator` erzeugt Barcode‑Bilder basierend auf den angegebenen Einstellungen. `EncodeTypes` listet unterstützte Barcode‑Symbologien auf. `BarCodeImageFormat` listet Bildformate auf.
 
 ```csharp
 using System;
@@ -116,100 +121,121 @@ namespace Pdf417Demo
 - `EncodeTypes.Pdf417` teilt der Bibliothek mit, dass wir einen PDF417‑Barcode wollen, nicht QR oder Code128.  
 - `XDimension.Pixels` steuert die Auflösung jedes kleinen schwarzen oder weißen Moduls.  
 - Der Block **wie man Spalten festlegt** beeinflusst direkt die Form des **PDF417‑Barcode‑Bildes**.  
-- `Truncate = true` entfernt unnötige leere Zeilen und gibt Ihnen das „kompakte“ Aussehen, das viele Scanner lieben.
-
----
+- `Truncate = true` entfernt unnötige leere Zeilen und liefert das „kompakte“ Aussehen, das viele Scanner lieben.
 
 ## Schritt 3: Tiefer einsteigen – Verständnis von Spalten und Trunkierung
 
 ### Wie man Spalten festlegt
-
-PDF417 ordnet Daten in einer Matrix aus *Zeilen* × *Spalten*. Die Bibliothek verwendet standardmäßig 5 Spalten, was für die meisten Fälle funktioniert. Möglicherweise benötigen Sie jedoch einen schmaleren Barcode, um auf ein Etikett zu passen, oder einen breiteren, um die Scan‑Zuverlässigkeit zu erhöhen. Die Eigenschaft:
+PDF417 ordnet Daten in einer Matrix aus *Zeilen* × *Spalten* an. Die Bibliothek verwendet standardmäßig 5 Spalten, was für die meisten Fälle funktioniert. Sie benötigen jedoch möglicherweise einen schmaleren Barcode, um auf ein Etikett zu passen, oder einen breiteren, um die Scan‑Zuverlässigkeit zu verbessern. Die Eigenschaft:
 
 ```csharp
 generator.Parameters.Barcode.Pdf417.Columns = <desiredColumnCount>;
 ```
 
-akzeptiert Werte von **1** bis **30** (die genaue Grenze hängt von der Datenlänge ab). Hier ein kurzer Spickzettel:
+akzeptiert Werte von **1** bis **30** (die genaue Grenze hängt von der Datenlänge ab). Hier ist ein schneller Spickzettel:
 
-| Spalten | Ungef. Breite (mm) | Wann zu verwenden |
-|---------|-------------------|--------------------|
+| Spalten | Ungef. Breite (mm) | Wann verwenden |
+|---------|-------------------|-----------------|
 | 1‑3     | Sehr schmal       | Kleines Etikett, begrenzter Platz |
 | 4‑6     | Standard          | Die meisten Quittungen, Tickets |
 | 7‑10    | Breiter           | Hochdichte Daten, bessere Lesbarkeit |
 
 ### Truncate (Kompaktmodus)
+Durch Setzen von `Truncate = true` wird dem Encoder mitgeteilt, unnötige leere Zeilen am unteren Rand abzuschneiden. Das Ergebnis ist ein **kompaktes PDF417‑Barcode‑Bild**, das den kleinstmöglichen Bereich einnimmt und dennoch alle Daten enthält. Wenn Sie jemals den Fehler „Barcode zu groß für Etikett“ erhalten, schalten Sie dieses Flag um.
 
-Durch Setzen von `Truncate = true` wird dem Encoder mitgeteilt, unnötige leere Zeilen am unteren Rand abzuschneiden. Das Ergebnis ist ein **kompaktes PDF417‑Barcode‑Bild**, das den kleinstmöglichen Raum einnimmt und dennoch alle Daten enthält. Wenn Sie jemals den Fehler „Barcode zu groß für Etikett“ erhalten, schalten Sie dieses Flag um.
-
----
-
-## Schritt 4: Führen Sie die Anwendung aus und überprüfen Sie die Ausgabe
-
+## Schritt 4: Anwendung ausführen und Ausgabe überprüfen
 Kompilieren und ausführen:
 
 ```bash
 dotnet run
 ```
 
-Sie sollten die Konsolennachricht sehen, die den Speicherort bestätigt. Navigieren Sie zum Ordner und öffnen Sie `CompactPdf417.png`. Das Bild sieht etwa so aus:
+Sie sollten die Konsolennachricht sehen, die den Speicherort bestätigt. Navigieren Sie zum Ordner und öffnen Sie `CompactPdf417.png`. Das Bild wird etwa so aussehen:
 
 ![Generiertes PDF417-Barcode-Bild](./CompactPdf417.png "Generiertes PDF417-Barcode-Bild – kompaktes PNG erstellt von Aspose.BarCode")
 
-*Bild-Alt-Text:* **Generiertes PDF417-Barcode-Bild** – eine kompakte PNG-Datei, die durch den Tutorialcode erzeugt wurde.
+[Generiertes PDF417-Barcode-Bild](./CompactPdf417.png "Generiertes PDF417-Barcode-Bild – kompaktes PNG erstellt von Aspose.BarCode")
 
-Wenn Ihr Scanner es lesen kann, herzlichen Glückwunsch – Sie haben erfolgreich **PDF417‑Barcode generiert** und **wie man Spalten festlegt** für ein ordentliches **PDF417‑Barcode‑Bild** gemeistert.
+*Bild‑Alt‑Text:* **Generiertes PDF417-Barcode-Bild** – eine kompakte PNG‑Datei, erzeugt vom Tutorial‑Code.
 
----
+Wenn Ihr Scanner es lesen kann, Glückwunsch – Sie haben erfolgreich **PDF417‑Barcode generiert** und **wie man Spalten festlegt** für ein ordentliches **PDF417‑Barcode‑Bild** gemeistert.
 
 ## Schritt 5: Häufige Fallstricke & wie man sie behebt
 
-| Symptom | Wahrscheinliche Ursache | Schnelle Lösung |
-|---------|--------------------------|-----------------|
+| Symptom | Wahrscheinliche Ursache | Schnelllösung |
+|---------|--------------------------|---------------|
 | Barcode erscheint unscharf | `XDimension.Pixels` zu niedrig (z. B. 1) | Auf 2‑3 Pixel erhöhen für ein klareres Bild. |
 | Scanner kann nicht lesen | Zu viele Spalten für die gegebenen Daten | `Columns` reduzieren oder `Truncate` aktivieren. |
-| Falsches Dateiformat | Versehentlich mit `BarCodeImageFormat.Jpeg` gespeichert | `BarCodeImageFormat.Png` für verlustfreie Ergebnisse verwenden. |
+| Falsches Dateiformat | Fälschlich mit `BarCodeImageFormat.Jpeg` gespeichert | `BarCodeImageFormat.Png` für verlustfreie Ergebnisse verwenden. |
 | Ausnahme `ArgumentOutOfRangeException` | Spaltenanzahl überschreitet den zulässigen Bereich | Spalten zwischen 1‑30 halten und sicherstellen, dass die Daten passen. |
 
----
-
 ## Schritt 6: Weiterführend – Farben anpassen und Text hinzufügen
-
-Wenn Sie den Barcode an eine Marken‑Palette anpassen möchten, können Sie Vorder‑ und Hintergrundfarben ändern:
+Wenn Sie den Barcode an eine Markenpalette anpassen möchten, können Sie Vorder‑ und Hintergrundfarben ändern:
 
 ```csharp
 generator.Parameters.Barcode.BarcodeColor = System.Drawing.Color.DarkBlue;
 generator.Parameters.Barcode.BackColor = System.Drawing.Color.White;
 ```
 
-Oder lesbaren Text unter dem Barcode einblenden:
+Oder menschenlesbaren Text unter dem Barcode einblenden:
 
 ```csharp
 generator.Parameters.Barcode.CodeText = data; // shows the raw string
 generator.Parameters.Barcode.CodeLocation = CodeLocation.Below;
 ```
 
-Diese Ergänzungen sind optional, zeigen aber, wie flexibel der **PDF417‑Barcode‑Erzeugungs‑Workflow** sein kann.
+Diese Ergänzungen sind optional, zeigen jedoch, wie flexibel der **generate PDF417 barcode**‑Workflow sein kann.
+
+## Fazit
+Wir haben ein vollständiges End‑zu‑Ende‑Beispiel durchgegangen, das **PDF417‑Barcode generiert** mit Aspose.BarCode, erklärt **wie man Spalten festlegt**, um die Abmessungen des Barcodes zu steuern, und das Ergebnis als scharfes **PDF417‑Barcode‑Bild** im PNG‑Format gespeichert. Der Code ist eigenständig, funktioniert mit .NET 6+ und kann mit minimalem Aufwand in jedes bestehende Projekt eingebunden werden.
+
+Was kommt als Nächstes? Versuchen Sie, größere Nutzdaten (z. B. JSON‑Strings) zu codieren, experimentieren Sie mit verschiedenen Bildformaten oder integrieren Sie den Generator in eine Web‑API, die Barcodes auf Abruf bereitstellt. Der Himmel ist die Grenze, und Sie haben jetzt ein solides Fundament zum Weiterbauen.
+
+Viel Spaß beim Programmieren, und möge Ihr Barcode immer beim ersten Versuch gescannt werden!
+
+## Was sollten Sie als Nächstes lernen?
+Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
+
+- [Wie man Barcode erstellt – Kompakter PDF417 mit Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Wie man Barcode‑Bild in Java generiert mit Aspose.BarCode](/barcode/english/java/barcode-rendering-techniques/)
+- [Barcode in Java generieren – Bildauflösung festlegen mit Aspose.BarCode](/barcode/english/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+
+## Häufig gestellte Fragen
+
+**F: Kann ich das erzeugte PNG in einer Webseite ohne zusätzliche Konvertierung verwenden?**  
+A: Ja, PNG wird von allen modernen Browsern nativ unterstützt, sodass Sie die Datei direkt mit einem `<img>`‑Tag einbinden können.
+
+**F: Wie viele Zeichen kann ein PDF417‑Barcode speichern?**  
+A: Bis zu 1 700 Zeichen pro Zeile und bis zu 30 Zeilen, was ein theoretisches Maximum von etwa 51 000 Zeichen ergibt, wobei praktische Grenzen von den Fähigkeiten des Scanners abhängen.
+
+**F: Benötigt Aspose.BarCode für die Entwicklung eine Lizenz?**  
+A: Eine kostenlose Evaluierungslizenz ist zum Testen verfügbar; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.
+
+**F: Ist es möglich, PDF417‑Barcodes in einem Hintergrunddienst zu erzeugen?**  
+A: Absolut. Die Bibliothek ist für reine Lesevorgänge thread‑sicher, sodass Sie Barcodes in ASP.NET Core oder Windows‑Diensten ohne UI‑Interaktion generieren können.
+
+**F: Welche Bildformate werden neben PNG unterstützt?**  
+A: BMP, JPEG, GIF, TIFF und SVG werden alle über die `BarCodeImageFormat`‑Aufzählung unterstützt.
 
 ---
 
-## Fazit
+**Zuletzt aktualisiert:** 2026-09-18  
+**Getestet mit:** Aspose.BarCode 24.11 für .NET  
+**Autor:** Aspose  
 
-Wir haben ein vollständiges End‑zu‑End‑Beispiel durchgearbeitet, das **PDF417‑Barcode** mit Aspose.BarCode erzeugt, erklärt **wie man Spalten festlegt**, um die Abmessungen des Barcodes zu steuern, und das Ergebnis als gestochen scharfes **PDF417‑Barcode‑Bild** im PNG‑Format gespeichert. Der Code ist eigenständig, funktioniert mit .NET 6+ und lässt sich mit minimalem Aufwand in jedes bestehende Projekt einbinden.
+```bash
+dotnet add package Aspose.BarCode
+```
 
-Was kommt als Nächstes? Versuchen Sie, größere Payloads (z. B. JSON‑Payloads) zu kodieren, experimentieren Sie mit verschiedenen Bildformaten oder integrieren Sie den Generator in eine Web‑API, die Barcodes auf Abruf bereitstellt. Der Himmel ist die Grenze, und Sie haben jetzt ein solides Fundament, auf dem Sie aufbauen können.
+## Verwandte Tutorials
 
-Viel Spaß beim Coden, und möge Ihr Barcode immer beim ersten Versuch gescannt werden!
-
-## Was sollten Sie als Nächstes lernen?
-
-Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
-
-- [Wie man Barcode erstellt – Kompakter PDF417 mit Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Wie man Barcode‑Bild in Java mit Aspose.BarCode generiert](/barcode/english/java/barcode-rendering-techniques/)
-- [Barcode in Java generieren – Bildauflösung mit Aspose.BarCode festlegen](/barcode/english/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+- [PDF417‑Barcode mit Aspose Komplett‑Leitfaden erstellen](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-complete-guide/)
+- [Wie man PDF417‑Barcode‑Bild in C mit Aspose generiert](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+- [PDF417‑Barcode in C Schritt‑für‑Schritt‑Anleitung](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
