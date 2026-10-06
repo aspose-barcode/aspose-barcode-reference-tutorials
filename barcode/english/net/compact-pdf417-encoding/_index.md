@@ -109,6 +109,12 @@ Learn how to read PDF417 barcodes in C# using Aspose.BarCode, with clear step‑
 Step-by-step guide to generate barcode images using MicroPdf417 in C#, covering setup, encoding, and image export.
 ### [Generate Micro PDF417 Barcode in C# – Complete Guide](./generate-micro-pdf417-barcode-in-c-complete-guide/)
 Comprehensive guide to creating Micro PDF417 barcodes in C# with detailed steps and code samples.
+### [How to read PDF417 barcodes in C# – complete step‑by‑step guide](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
+Step‑by‑step guide to reading PDF417 barcodes in C# using Aspose.BarCode for .NET, covering setup, decoding options, and error handling.
+### [How to Read PDF417 Barcode Image in C# – Complete Guide](./how-to-read-pdf417-barcode-image-in-c-complete-guide/)
+Step‑by‑step guide to reading PDF417 barcode images in C# using Aspose.BarCode for .NET.
+### [Create PDF417 barcode in C# – complete guide](./create-pdf417-barcode-in-c-complete-guide/)
+Learn how to create PDF417 barcodes in C# using Aspose.BarCode, with step‑by‑step instructions and code examples.
 
 ### [How to Generate Micro PDF417 Barcode – Complete Guide](./how-to-generate-micro-pdf417-barcode-complete-guide/)
 Step‑by‑step guide to generate a Micro PDF417 barcode using Aspose.BarCode for .NET, covering setup, encoding options, and image export.
@@ -121,7 +127,6 @@ Step-by-step guide on saving generated PDF417 barcodes to files in C#, covering 
 ### [Barcode Generator Tutorial: How to Generate PDF417 Barcode in C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
 A detailed tutorial showing how to generate PDF417 barcodes in C# using Aspose.BarCode, covering setup, encoding, and image export.
 ### [Create PDF417 Barcode in C# – Barcode Generator Guide](./create-pdf417-barcode-in-c-barcode-generator-guide/)
-Step-by-step guide to creating PDF417 barcodes in C# using the Aspose.BarCode generator, covering setup, encoding, and customization.
 ### [How to Set Error Level in PDF417 Barcode – Complete Guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 Step-by-step guide on configuring PDF417 error correction levels with Aspose.BarCode for .NET.
 ### [Generate barcode with text – Full PDF417 Macro Guide](./generate-barcode-with-text-full-pdf417-macro-guide/)
@@ -145,7 +150,6 @@ Detailed walkthrough for generating PDF417 barcodes in C# using Aspose.BarCode, 
 ### [Create PDF417 Barcode with Aspose – Complete Guide](./create-pdf417-barcode-with-aspose-complete-guide/)
 Step‑by‑step guide to creating PDF417 barcodes using Aspose.BarCode for .NET, covering setup, encoding options, and customization.
 ### [How to Read PDF417 in C# – Complete Barcode Reader Example](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
-Learn how to read PDF417 barcodes in C# using Aspose.BarCode, with full code example and usage tips.
 ### [How to generate barcode in C# with Aspose.BarCode and add metadata](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
 Learn how to generate barcodes in C# with Aspose.BarCode and embed metadata, with clear step‑by‑step instructions.
 
@@ -203,12 +207,19 @@ Step‑by‑step guide to generate PDF417 barcodes in C# using Aspose.BarCode, c
 Step-by-step guide to generate PDF417 barcodes in C# using Aspose.BarCode's BarcodeGenerator.
 ### [How to save barcode images in C# – complete guide](./how-to-save-barcode-images-in-c-complete-guide/)
 Detailed guide on saving barcode images in C# using Aspose.BarCode, covering formats, options, and best practices.
+
 ### [Aspose barcode example: generate Macro PDF417 in C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
 Learn how to generate Macro PDF417 barcodes in C# using Aspose.BarCode for .NET with a step‑by‑step example.
+
+### [Create macro PDF417 barcode with Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
+Learn how to generate a Macro PDF417 barcode using Aspose.BarCode for .NET with C# code examples.
+
 ### [Generate PDF417 barcode in C# – step‑by‑step guide](./generate-pdf417-barcode-in-c-step-by-step-guide/)
 Step‑by‑step guide to generate PDF417 barcodes in C# using Aspose.BarCode for .NET.
+
 ### [Generate barcode from text in C# – complete step‑by‑step guide](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
 Full step‑by‑step tutorial on generating barcodes from text in C# using Aspose.BarCode for .NET.
+
 ### [How to read PDF417 in C# – complete barcode reader guide](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
 Learn how to read PDF417 barcodes in C# using Aspose.BarCode for .NET with a full step‑by‑step guide.
 
@@ -235,6 +246,9 @@ Step-by-step guide to generate a PDF417 barcode and export it as a PNG image usi
 ### [How to decode PDF417 in C# with a barcode reader example](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
 Step-by-step guide to decode PDF417 barcodes in C# using Aspose.BarCode reader, with code examples and best practices.
 
+### [How to create PDF417 barcode and set its size in C#](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
+Learn how to generate a PDF417 barcode in C# and adjust its dimensions using Aspose.BarCode for .NET.
+
 ## Frequently Asked Questions
 
 **Q: What is the maximum amount of data I can store in a Compact PDF417 barcode?**  
@@ -244,12 +258,12 @@ A: It depends on the error‑correction level and character set, but typically u
 A: PDF417 uses Reed‑Solomon codes, allowing you to choose a level from 0 (no correction) to 8 (high redundancy), giving you fine‑grained control over reliability.
 
 **Q: Can I generate a Compact PDF417 barcode in a .NET Core console app?**  
-A: Yes. Aspose.BarCode for .NET fully supports .NET Core 3.1 and later versions.
+A: Yes. Aspose.BarCode fully supports .NET Core 3.1 and later versions.
 
 **Q: Is it possible to customize the barcode’s foreground and background colors?**  
 A: Absolutely. Use the `ForeColor` and `BackColor` properties of the generator to match your UI theme.
 
-**Q: Do I need to install any additional fonts or resources?**  
+**Q: Do I need to install any additional fonts?**  
 A: No external fonts are required; the library handles all rendering internally.
 
 ---

@@ -324,7 +324,7 @@ A: 외부 폰트가 필요하지 않으며, 라이브러리가 내부적으로 �
 
 **마지막 업데이트:** 2026-07-04  
 **테스트 환경:** Aspose.BarCode 24.11 for .NET  
-**작성자:** Aspose
+**작성자:** Aspose.BarCode
 
 ## 관련 튜토리얼
 
@@ -334,6 +334,10 @@ A: 외부 폰트가 필요하지 않으며, 라이브러리가 내부적으로 �
 - [C#에서 Aspose.BarCode를 사용해 PDF417 바코드 생성 방법](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 - [C#에서 Compact 모드로 PDF417 바코드 생성 방법](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
 - [이미지에서 바코드 디코딩 – C# 바코드 리더 예제](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+- [C#에서 PDF417 바코드 만들고 크기를 설정하는 방법](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
+- [Aspose.BarCode로 매크로 PDF417 바코드 생성 (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
+- [C#에서 PDF417 바코드 읽는 방법 – 완전 단계별 가이드](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
+- [C#에서 PDF417 바코드 만들기 – 완전 가이드](./create-pdf417-barcode-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
