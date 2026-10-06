@@ -141,6 +141,9 @@ Compact PDF417는 높은 데이터 밀도와 견고한 오류 정정 덕분에 �
 
 ## Compact PDF417 인코딩 튜토리얼
 
+### [How to create PDF417 barcode and save it as PNG in C#](./how-to-create-pdf417-barcode-and-save-it-as-png-in-c/)
+
+
 ### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 
 
@@ -169,8 +172,6 @@ C#을 사용해 PDF417 바코드에 메타데이터를 삽입하고, 전체 과�
 C#을 사용해 PDF417 바코드를 생성하는 전체 과정을 단계별로 안내합니다.
 
 
-C#으로 PDF417 바코드를 만들고, 설정 및 저장까지 전체 과정을 단계별로 자세히 설명합니다.
-
 ### [C#에서 PDF417 읽기 – 완전 단계별 가이드](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
 C#을 사용해 PDF417 바코드를 읽고 디코딩하는 전체 과정을 단계별로 안내합니다.
@@ -192,7 +193,7 @@ C#을 사용해 PDF417 바코드를 읽고 디코딩하는 전체 과정을 단�
 ### [C#에서 Aspose.BarCode를 사용해 매크로 PDF417 바코드 만들기](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
 Aspose.BarCode for .NET를 사용해 C#에서 매크로 PDF417 바코드를 생성하는 방법을 단계별로 안내합니다.
 
-### [Aspose로 PDF417 바코드 생성 방법 – 완전 가이드](./how-to-generate-pdf417-barcode-with-aspose-complete-guide/)
+### [Aspose.BarCode for .NET를 사용해 PDF417 바코드 생성 방법 – 완전 가이드](./how-to-generate-pdf417-barcode-with-aspose-complete-guide/)
 
 ### [PDF417 바코드 생성 방법 – 완전 프로그래밍 가이드](./how-to-generate-pdf417-barcode-complete-programming-guide/)
 
@@ -204,6 +205,7 @@ Aspose.BarCode for .NET를 사용해 C#에서 매크로 PDF417 바코드를 생�
 
 ### [C#에서 PDF417 바코드 만들기 – 완전 단계별 가이드](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
 ### [C#에서 PDF417 바코드 생성 – 완전 단계별 가이드](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+
 ### [Aspose로 PDF417 바코드 만들기 – 완전 가이드](./create-pdf417-barcode-with-aspose-complete-guide/)
 
 Aspose.BarCode for .NET를 사용해 PDF417 바코드를 처음부터 끝까지 생성하는 전체 가이드입니다.
@@ -215,7 +217,7 @@ Aspose.BarCode for .NET를 활용해 C#에서 PDF417 바코드를 읽는 전체 
 ### [Aspose로 PDF417 바코드 만들기 – 완전 단계별 가이드](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
 Aspose.BarCode를 사용해 PDF417 바코드를 처음부터 끝까지 생성하는 전체 과정과 코드를 제공합니다.
 
-### [C#에서 PDF417 바코드 생성 – PDF417 바코드 만들기 C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+### [C#에서 PDF417 바코드 만들기 – PDF417 바코드 만들기 C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
 Aspose.BarCode for .NET를 사용해 C#에서 PDF417 바코드를 생성하는 방법을 단계별로 안내합니다.
 
 ### [바코드 크기 조정 – PDF417 바코드 생성을 위한 C# 가이드](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
@@ -234,7 +236,7 @@ Aspose.BarCode for .NET를 사용해 C#에서 데이터를 입력해 바코드�
 Aspose.BarCode for .NET를 사용해 C#에서 PDF417 바코드를 읽는 전체 예제를 제공합니다.
 
 ### [Aspose를 사용하여 C#에서 PDF417 바코드 이미지 생성 방법](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
-Aspose.BarCode for .NET를 활용해 C#에서 PDF417 바코드 이미지를 만드는 단계별 가이드입니다.
+Aspose.BarCode for .NET를 활용해 C#에서 PDF417 바코드 이미지를 만드는 단계별 가이드를 제공합니다.
 
 ### [C#에서 PDF417을 사용한 다중 바코드 읽기 – 완전 가이드](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
 C#에서 PDF417을 활용해 여러 바코드를 읽는 방법을 단계별로 안내합니다.
@@ -249,7 +251,7 @@ Aspose.BarCode for .NET를 사용해 바코드를 이미지 파일로 저장하�
 
 ### [C#에서 PDF417 바코드 읽기 – 바코드 리더 예제](./read-pdf417-barcode-in-c-barcode-reader-example/)
 
-### [C#에서 PDF417 바코드 생성 방법 – 컴팩트 예제](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+### [C#에서 PDF417 바코드 생성 – 컴팩트 예제](./how-to-generate-pdf417-barcode-in-c-compact-example/)
 
 - [C#에서 Aspose.BarCode로 바코드 생성 방법](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 ### [C#에서 PDF417 바코드 생성 – 바코드 생성기 가이드](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
@@ -334,6 +336,8 @@ A: 외부 폰트가 필요하지 않으며, 라이브러리가 내부적으로 �
 - [C#에서 Aspose.BarCode를 사용해 PDF417 바코드 생성 방법](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 - [C#에서 Compact 모드로 PDF417 바코드 생성 방법](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
 - [이미지에서 바코드 디코딩 – C# 바코드 리더 예제](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+- [C#에서 Aspose Barcode Generator를 사용해 MacroPdf417 바코드 생성 방법](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
+- [이미지에서 바코드 읽기 C# – 매크로 PDF417 완전 가이드](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
