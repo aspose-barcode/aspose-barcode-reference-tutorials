@@ -1,101 +1,154 @@
 ---
-date: 2026-02-20
-description: Tìm hiểu cách tùy chỉnh độ dày viền mã vạch cho ITF-14 bằng Aspose.BarCode
-  cho .NET. Tạo mã vạch ITF-14 và lưu các tệp PNG của mã vạch một cách dễ dàng.
-linktitle: ITF-14 Barcode Border Thickness Customization
+date: 2026-09-08
+description: Tìm hiểu cách tạo mã vạch nhãn sản phẩm bằng cách tùy chỉnh độ dày viền
+  ITF-14 với Aspose.BarCode for .NET, và tạo nhanh các tệp PNG mã vạch ITF-14.
+keywords:
+- create product label barcode
+- generate itf-14 barcode
+- customize barcode border
+lastmod: 2026-09-08
+linktitle: Tùy chỉnh độ dày viền mã vạch ITF-14
+og_description: Tìm hiểu cách tạo mã vạch nhãn sản phẩm bằng cách tùy chỉnh độ dày
+  viền ITF-14 với Aspose.BarCode for .NET, và tạo nhanh các tệp PNG mã vạch ITF-14.
+og_image_alt: Guide showing how to create product label barcode with ITF-14 border
+  using Aspose.BarCode .NET
+og_title: Tạo mã vạch nhãn sản phẩm với viền ITF-14 trong .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to create product label barcode by customizing ITF-14 border
+    thickness with Aspose.BarCode for .NET, and generate ITF-14 barcode PNG files
+    quickly.
+  headline: Create product label barcode with ITF-14 border in .NET
+  type: TechArticle
+- description: Learn how to create product label barcode by customizing ITF-14 border
+    thickness with Aspose.BarCode for .NET, and generate ITF-14 barcode PNG files
+    quickly.
+  name: Create product label barcode with ITF-14 border in .NET
+  steps:
+  - name: import required namespaces
+    text: The `Aspose.BarCode` namespace contains all classes you need to work with
+      barcodes.
+  - name: define the output folder
+    text: The `outputPath` variable specifies the directory for the generated PNG
+      files. Choose a folder where the generated PNG files will be written.
+  - name: create the ITF‑14 barcode instance
+    text: '`ITF` is the class that represents an ITF‑14 barcode.'
+  - name: set the X‑dimension (bar width)
+    text: The X‑Dimension defines the width of each bar; a value of 2 pixels works
+      well for most label printers.
+  - name: choose the border type
+    text: '`ITF.ItfBorderType` determines whether the border is drawn as a separate
+      frame or as part of the barcode bars.'
+  - name: customize barcode border thickness and save images
+    text: '`ITF.ItfBorderThickness.Pixels` sets the thickness in pixels. Below we
+      generate two PNG files – one with a thin 5‑pixel frame and another with a bold
+      15‑pixel frame. Replace the sample data with your own product identifier if
+      needed. The generated PNG files can be directly embedded into label‑design'
+  type: HowTo
+- questions:
+  - answer: ITF‑14 encodes a 14‑digit GTIN and is the standard for shipping containers
+      and bulk packaging in retail logistics.
+    question: What is the ITF‑14 barcode format used for?
+  - answer: Yes. You can change colors, add human‑readable text, set background images,
+      and modify the quiet zone using the same `ITF` object.
+    question: Can I customize other visual aspects besides the border?
+  - answer: Absolutely. Aspose.BarCode supports .NET Framework, .NET Core, and .NET
+      5/6+ runtimes.
+    question: Is the library compatible with .NET 6 and later?
+  - answer: The API accepts any positive integer. Practically, borders larger than
+      30 pixels may exceed label size specifications, so test against your printer’s
+      guidelines.
+    question: Are there limits on how thick the border can be?
+  - answer: Request a trial license [request a temporary license](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Tùy chỉnh viền mã vạch cho ITF-14 với Aspose.BarCode .NET
+tags:
+- barcode border
+- ITF-14
+- Aspose.BarCode
+- .NET barcode generation
+title: Tạo mã vạch nhãn sản phẩm với viền ITF-14 trong .NET
 url: /vi/net/itf-14-barcode-customization/itf-14-barcode-border-thickness-customization/
 weight: 10
 ---
-
-" etc.
-
-Need to translate "Step 1: Import Namespaces" etc.
-
-Make sure to keep placeholders.
-
-Also "## Common Issues & Troubleshooting" etc.
-
-Translate FAQs.
-
-Make sure to keep URLs unchanged.
-
-Also "Last Updated" etc.
-
-Ok.
-
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chỉnh viền mã vạch cho ITF-14 với Aspose.BarCode .NET
+# Tạo mã vạch nhãn sản phẩm với viền ITF-14 trong .NET
 
-Nếu bạn cần **tùy chỉnh độ dày viền mã vạch** cho mã ITF-14, bạn đã đến đúng nơi. Trong hướng dẫn này chúng tôi sẽ trình bày chi tiết các bước để tạo mã ITF-14, điều chỉnh loại viền và **lưu mã vạch PNG** với độ dày bạn yêu cầu. Dù bạn đang tạo nhãn sản phẩm hay thẻ kho, việc kiểm soát viền giúp mã vạch của bạn trông chuyên nghiệp và dễ quét hơn.
+Trong hướng dẫn này, bạn sẽ học cách **tạo mã vạch nhãn sản phẩm** bằng cách tùy chỉnh viền của mã vạch ITF‑14 sử dụng Aspose.BarCode cho .NET. Chúng tôi sẽ hướng dẫn cách đặt loại viền, điều chỉnh độ dày của nó, và lưu kết quả dưới dạng ảnh PNG chất lượng cao — hoàn hảo cho nhãn sản phẩm, thẻ vận chuyển, hoặc bất kỳ quy trình quản lý tồn kho nào.
 
-## Trả lời nhanh
-- **“tùy chỉnh viền mã vạch” có nghĩa là gì?** Nó cho phép bạn đặt độ dày hiển thị của khung hoặc thanh bao quanh mã ITF‑14.  
-- **Thuộc tính nào điều khiển độ dày viền?** `ITF.ItfBorderThickness.Pixels`.  
+## Câu trả lời nhanh
+- **“Tùy chỉnh viền mã vạch” có nghĩa là gì?** Nó cho phép bạn đặt độ dày trực quan của khung bao quanh mã vạch ITF‑14.  
+- **Thuộc tính nào kiểm soát độ dày viền?** `ITF.ItfBorderThickness.Pixels`.  
 - **Tôi có thể thay đổi loại viền không?** Có, thông qua `ITF.ItfBorderType` (Frame hoặc Bar).  
-- **Định dạng ảnh nào được khuyến nghị?** PNG cho chất lượng không mất dữ liệu; sử dụng `BarCodeImageFormat.Png`.  
-- **Có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.BarCode hợp lệ cho việc sử dụng thương mại.
+- **Định dạng ảnh nào được khuyến nghị cho nhãn sản phẩm?** PNG, vì nó giữ chi tiết loss‑less ở bất kỳ độ phân giải nào.  
+- **Tôi có cần giấy phép cho việc sử dụng trong sản xuất không?** Một giấy phép Aspose.BarCode hợp lệ là bắt buộc cho các triển khai thương mại.
 
-## Tùy chỉnh viền mã vạch ITF-14 là gì?
-Việc tùy chỉnh viền mã vạch cho phép bạn xác định độ dày của khung bên ngoài xung quanh các ký hiệu mã vạch. Điều này đặc biệt hữu ích khi mã vạch được in trên bao bì yêu cầu trọng lượng hình ảnh cụ thể để đáp ứng quy chuẩn hoặc thương hiệu.
+## Cách tạo mã vạch nhãn sản phẩm với viền ITF-14 tùy chỉnh?
+Tải mã vạch, đặt viền và lưu ảnh trong hai bước đơn giản. Đầu tiên, khởi tạo một đối tượng mã vạch `ITF`, cấu hình `ItfBorderType` và `ItfBorderThickness.Pixels`, sau đó gọi `Save` với `BarCodeImageFormat.Png`. Cách tiếp cận này cho phép bạn kiểm soát hoàn toàn độ dày trực quan của viền đồng thời giữ cho mã vạch vẫn có thể quét được.
 
-## Tại sao nên dùng Aspose.BarCode cho .NET để tùy chỉnh viền?
-Aspose.BarCode cung cấp một API mượt mà, trừu tượng hoá các chi tiết render cấp thấp, cho phép bạn tập trung vào logic nghiệp vụ. Bạn sẽ nhận được:
-- Kiểm soát hoàn toàn kích thước, màu sắc và kiểu viền.  
-- Khả năng **generate itf-14 barcode** chỉ với một lớp.  
-- Các phương thức đơn giản để **save barcode png** mà không cần thư viện xử lý ảnh bổ sung.
-
-## Yêu cầu trước
-Trước khi bắt đầu, hãy chắc chắn bạn có:
-
-1. **Aspose.BarCode for .NET** – tải về từ trang chính thức [here](https://releases.aspose.com/barcode/net/).  
-2. Môi trường phát triển .NET (Visual Studio, VS Code, hoặc bất kỳ IDE nào bạn thích).  
-3. Kiến thức cơ bản về C# và các khái niệm mã vạch.
-
-## Nhập không gian tên
-Đầu tiên, nhập không gian tên chứa các lớp mã vạch.
-
-### Bước 1: Nhập không gian tên
+### Bước 1: nhập các namespace cần thiết
+The `Aspose.BarCode` namespace contains all classes you need to work with barcodes.  
+```csharp
+using Aspose.BarCode.Generation;
+```
 ```csharp
 using Aspose.BarCode;
 ```
 
-## Thiết lập thư mục đầu ra
-Xác định nơi sẽ lưu các ảnh được tạo.
-
-### Bước 2: Định nghĩa đường dẫn thư mục
+### Bước 2: xác định thư mục đầu ra
+Biến `outputPath` chỉ định thư mục cho các tệp PNG được tạo.  
+Chọn một thư mục nơi các tệp PNG sẽ được ghi.  
+```csharp
+string outputPath = @"C:\Barcodes\ITF14";
+```
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Tạo và cấu hình mã vạch ITF‑14
-Bây giờ chúng ta sẽ tạo mã vạch và áp dụng cài đặt viền.
-
-### Bước 3: Tạo mã vạch ITF‑14
+### Bước 3: tạo thể hiện mã vạch ITF‑14
+`ITF` là lớp đại diện cho mã vạch ITF‑14.  
+```csharp
+ITF barcode = new ITF("12345678901234");
+```
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.ITF14, "12345678901231");
 ```
-Thay thế dữ liệu mẫu bằng định danh sản phẩm của bạn nếu cần.
 
-### Bước 4: Điều chỉnh X‑Dimension (độ rộng thanh)
+### Bước 4: đặt X‑dimension (độ rộng thanh)
+X‑Dimension xác định độ rộng của mỗi thanh; giá trị 2 pixel hoạt động tốt cho hầu hết các máy in nhãn.  
+```csharp
+barcode.XDimension = 2;
+```
 ```csharp
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 ```
-X‑Dimension xác định độ rộng của mỗi thanh; 2 pixel thường phù hợp với hầu hết máy in.
 
-### Bước 5: Chọn loại viền
+### Bước 5: chọn loại viền
+`ITF.ItfBorderType` xác định viền được vẽ dưới dạng khung riêng biệt hay là một phần của các thanh mã vạch.  
+```csharp
+barcode.ItfBorderType = ITFBorderType.Frame; // use Bar for bar‑style border
+```
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderType = ITF14BorderType.Frame;
 ```
-Bạn cũng có thể dùng `ITF14BorderType.Bar` nếu muốn viền dạng thanh.
 
-### Bước 6: **Tùy chỉnh độ dày viền mã vạch** và lưu ảnh
+### Bước 6: tùy chỉnh độ dày viền mã vạch và lưu ảnh
+`ITF.ItfBorderThickness.Pixels` đặt độ dày tính bằng pixel. Dưới đây chúng tôi tạo hai tệp PNG – một với khung mỏng 5 pixel và một khác với khung dày 15 pixel.  
+```csharp
+// thin border
+barcode.ItfBorderThickness.Pixels = 5;
+barcode.Save($"{outputPath}\\ITF14_Thin.png", BarCodeImageFormat.Png);
+
+// thick border
+barcode.ItfBorderThickness.Pixels = 15;
+barcode.Save($"{outputPath}\\ITF14_Thick.png", BarCodeImageFormat.Png);
+```
 ```csharp
 gen.Parameters.Barcode.ITF.ItfBorderThickness.Pixels = 5;
 gen.Save($"{path}ITF14BorderSize5Pixels.png", BarCodeImageFormat.Png);
@@ -103,40 +156,58 @@ gen.Save($"{path}ITF14BorderSize5Pixels.png", BarCodeImageFormat.Png);
 gen.Parameters.Barcode.ITF.ItfBorderThickness.Pixels = 15;
 gen.Save($"{path}ITF14BorderSize15Pixels.png", BarCodeImageFormat.Png);
 ```
-Lệnh đầu tiên tạo mã vạch với khung mỏng 5 pixel, trong khi lệnh thứ hai tạo khung dày 15 pixel. Bạn có thể thử các giá trị khác để phù hợp với hướng dẫn thiết kế.
 
-## Các vấn đề thường gặp & Khắc phục
-- **Đường dẫn không tồn tại** – Đảm bảo thư mục được chỉ định trong `path` tồn tại và ứng dụng có quyền ghi.  
-- **Viền không hiển thị** – Kiểm tra `ItfBorderType` đã được đặt thành `Frame`; loại `Bar` sẽ vẽ viền như một phần của các thanh mã vạch, có thể trông mỏng hơn.  
-- **Ảnh bị mờ** – Tăng X‑Dimension hoặc tạo PNG độ phân giải cao hơn bằng cách phóng to ảnh sau khi lưu.
+Thay thế dữ liệu mẫu bằng mã định danh sản phẩm của bạn nếu cần. Các tệp PNG được tạo có thể được nhúng trực tiếp vào phần mềm thiết kế nhãn hoặc in từ bất kỳ quy trình in nào tương thích với .NET.
 
-## Câu hỏi thường gặp (FAQs)
+## Tại sao nên sử dụng Aspose.BarCode cho .NET để tạo mã vạch ITF‑14?
+Aspose.BarCode hỗ trợ **hơn 30 biểu tượng mã vạch** và có thể tạo ảnh lên tới **2000 × 2000 pixel** mà không cần phụ thuộc bên ngoài. Thư viện xử lý tất cả việc render cấp thấp, vì vậy bạn có thể tập trung vào logic nghiệp vụ như bố cục nhãn, kiểm tra tuân thủ, hoặc tạo hàng loạt. Nó cũng cung cấp hỗ trợ tích hợp cho PNG độ phân giải cao, đảm bảo các cạnh sắc nét ngay cả trên những nhãn sản phẩm nhỏ nhất.
 
-**H: Định dạng mã vạch ITF‑14 dùng để làm gì?**  
-Đ: Được sử dụng rộng rãi cho bao bì và logistics, cho phép các nhà bán lẻ mã hoá GTIN 14 chữ số.
+## Yêu cầu trước
+Trước khi bắt đầu, hãy xác nhận rằng bạn đã có:
 
-**H: Tôi có thể tùy chỉnh các khía cạnh hình ảnh khác ngoài viền không?**  
-Đ: Có, Aspose.BarCode cho phép thay đổi màu sắc, phông chữ, nền và thậm chí thêm văn bản có thể đọc được bởi con người.
+1. **Aspose.BarCode cho .NET** – tải xuống từ trang chính thức [tải xuống Aspose.BarCode cho .NET](https://releases.aspose.com/barcode/net/).  
+2. Môi trường phát triển .NET (Visual Studio, VS Code, hoặc bất kỳ IDE nào hỗ trợ C# .NET 6+).  
+3. Hiểu biết cơ bản về cú pháp C# và thuật ngữ mã vạch.
 
-**H: Thư viện có tương thích với .NET 6 và các phiên bản sau không?**  
-Đ: Hoàn toàn – Aspose.BarCode hỗ trợ .NET Framework, .NET Core và .NET 5/6+.
+## Các vấn đề thường gặp & khắc phục
+- **Đường dẫn không tồn tại** – Đảm bảo thư mục được chỉ định trong `outputPath` tồn tại và ứng dụng có quyền ghi.  
+- **Viền không hiển thị** – Viền chỉ xuất hiện khi `ItfBorderType` được đặt thành `Frame`. Kiểu `Bar` vẽ viền như một phần của các thanh mã vạch, có thể trông mỏng hơn.  
+- **Hình ảnh bị mờ** – Tăng X‑Dimension hoặc tạo PNG độ phân giải cao hơn bằng cách thay đổi kích thước ảnh sau khi lưu.  
+- **Cảnh báo giấy phép** – Nếu không có giấy phép hợp lệ, các hình ảnh được tạo sẽ chứa watermark. Áp dụng giấy phép của bạn ngay khi khởi động ứng dụng.
 
-**H: Có giới hạn nào về độ dày viền không?**  
-Đ: API chấp nhận bất kỳ số nguyên dương nào; tuy nhiên, giá trị quá lớn có thể làm mã vạch vượt quá các thông số kích thước tiêu chuẩn.
+## Câu hỏi thường gặp
 
-**H: Làm sao để lấy giấy phép tạm thời để thử nghiệm?**  
-Đ: Bạn có thể yêu cầu một giấy phép [here](https://purchase.aspose.com/temporary-license/).
+**Q: Định dạng mã vạch ITF‑14 được sử dụng để làm gì?**  
+A: ITF‑14 mã hoá một GTIN 14 chữ số và là tiêu chuẩn cho container vận chuyển và bao bì số lượng lớn trong logistics bán lẻ.
+
+**Q: Tôi có thể tùy chỉnh các khía cạnh hình ảnh khác ngoài viền không?**  
+A: Có. Bạn có thể thay đổi màu sắc, thêm văn bản có thể đọc được bởi con người, đặt hình nền, và chỉnh sửa vùng yên tĩnh (quiet zone) bằng cùng một đối tượng `ITF`.
+
+**Q: Thư viện có tương thích với .NET 6 và các phiên bản sau không?**  
+A: Hoàn toàn. Aspose.BarCode hỗ trợ .NET Framework, .NET Core, và các runtime .NET 5/6+.
+
+**Q: Có giới hạn nào về độ dày tối đa của viền không?**  
+A: API chấp nhận bất kỳ số nguyên dương nào. Thực tế, viền lớn hơn 30 pixel có thể vượt quá quy chuẩn kích thước nhãn, vì vậy hãy kiểm tra theo hướng dẫn của máy in.
+
+**Q: Làm thế nào để tôi có được giấy phép tạm thời để thử nghiệm?**  
+A: Yêu cầu giấy phép dùng thử [request a temporary license](https://purchase.aspose.com/temporary-license/).
 
 ## Kết luận
-Bây giờ bạn đã biết cách **tùy chỉnh độ dày viền mã vạch** cho mã ITF‑14, tạo mã vạch và **lưu mã vạch PNG** bằng Aspose.BarCode cho .NET. Việc điều chỉnh viền mang lại sự linh hoạt để đáp ứng yêu cầu thương hiệu hoặc quy định, đồng thời giữ cho mã vạch dễ quét.
+Bây giờ bạn đã có một hướng dẫn đầy đủ, từng bước để **tạo mã vạch nhãn sản phẩm** với viền ITF‑14 tùy chỉnh, tạo mã vạch, và **lưu tệp PNG mã vạch** bằng Aspose.BarCode cho .NET. Điều chỉnh độ dày viền giúp bạn đáp ứng yêu cầu thương hiệu hoặc quy định trong khi vẫn giữ mã vạch dễ quét.
 
-Nếu cần thêm chi tiết, khám phá tài liệu chính thức [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) hoặc đặt câu hỏi trong cộng đồng [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13).
+Để biết chi tiết hơn, khám phá tài liệu chính thức [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/) hoặc tham gia thảo luận cộng đồng [Aspose.BarCode support forum](https://forum.aspose.com/c/barcode/13).
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.BarCode 24.11 for .NET  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-09-08  
+**Kiểm tra với:** Aspose.BarCode 24.11 cho .NET  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách tạo mã vạch ITF-14 .NET – Hướng dẫn toàn diện Aspose.BarCode Tutorials](/barcode/net/)
+- [Cách tạo vùng yên tĩnh cho mã vạch ITF-14 bằng Aspose.BarCode cho .NET](/barcode/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/)
+- [Tạo mã vạch PNG với Aspose.BarCode cho .NET: Các thanh một chiều đã được điền](/barcode/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

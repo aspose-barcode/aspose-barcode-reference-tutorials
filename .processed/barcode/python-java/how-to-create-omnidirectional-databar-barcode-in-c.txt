@@ -1,0 +1,7 @@
+Title: How to create omnidirectional Databar barcode in C#
+Slug: how-to-create-omnidirectional-databar-barcode-in-c
+Category: general
+ProcessedDate: 2026-09-29T15:23:27.809574
+SourceRepo: AI Search API
+Keywords: create omnidirectional databar barcode
+PRNumber: 142

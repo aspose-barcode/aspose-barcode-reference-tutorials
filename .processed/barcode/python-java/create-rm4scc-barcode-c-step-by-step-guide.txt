@@ -1,0 +1,7 @@
+Title: Create RM4SCC barcode C# – step‑by‑step guide
+Slug: create-rm4scc-barcode-c-step-by-step-guide
+Category: general
+ProcessedDate: 2026-09-29T15:23:15.044650
+SourceRepo: AI Search API
+Keywords: create rm4scc barcode c#, barcode generator example c#, how to generate planet barcode
+PRNumber: 142

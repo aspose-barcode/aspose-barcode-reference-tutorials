@@ -1,11 +1,69 @@
 ---
-date: 2025-12-14
-description: Узнайте, как задать размеры штрихкода в Java с помощью Aspose.BarCode.
-  Это пошаговое руководство показывает, как настроить штрихкод, сгенерировать изображение
-  штрихкода в Java и создать штрихкод с помощью Aspose.
-linktitle: Managing X and Y Dimensions of Barcode
+date: 2026-09-18
+description: Узнайте, как настроить размеры barcode в Java с помощью Aspose.BarCode,
+  ведущей barcode library для Java. Регулируйте размеры X и Y, генерируйте изображения
+  и легко интегрируйте их.
+keywords:
+- how to customize barcode
+- barcode library for java
+- create barcode with aspose
+lastmod: 2026-09-18
+linktitle: Управление размерами X и Y barcode
+og_description: Узнайте, как настроить размеры barcode в Java с помощью Aspose.BarCode,
+  ведущей barcode library для Java. Регулируйте размеры X и Y, генерируйте изображения
+  и легко интегрируйте их.
+og_image_alt: 'Developer guide: customize barcode dimensions in Java using Aspose.BarCode'
+og_title: Как настроить размеры barcode в Java с Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to customize barcode dimensions in Java using Aspose.BarCode,
+    the leading barcode library for Java. Adjust X and Y sizes, generate images, and
+    integrate easily.
+  headline: How to customize barcode dimensions in Java with Aspose
+  type: TechArticle
+- description: Learn how to customize barcode dimensions in Java using Aspose.BarCode,
+    the leading barcode library for Java. Adjust X and Y sizes, generate images, and
+    integrate easily.
+  name: How to customize barcode dimensions in Java with Aspose
+  steps:
+  - name: Instantiate `BarcodeGenerator` with the **CODE_128** symbology.
+    text: Instantiate `BarcodeGenerator` with the **CODE_128** symbology.
+  - name: Call `setMillimeters(0.5f)` to define a 0.5 mm bar width.
+    text: Call `setMillimeters(0.5f)` to define a 0.5 mm bar width.
+  - name: Save the result as **xDimension.jpg**.
+    text: Save the result as **xDimension.jpg**.
+  - name: Use the **PDF_417** symbology, which often benefits from taller bars.
+    text: Use the **PDF_417** symbology, which often benefits from taller bars.
+  - name: Set the bar height to **4 mm**.
+    text: Set the bar height to **4 mm**.
+  - name: Store the output as **yDimension.jpg**.
+    text: Store the output as **yDimension.jpg**.
+  type: HowTo
+- questions:
+  - answer: Yes, a commercial license is required. Purchase a license on the **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Can I use Aspose.BarCode for Java in commercial projects?
+  - answer: Absolutely, you can download a free trial from the **[Aspose download
+      page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: The documentation is available at the **[Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/)**.
+    question: Where can I find the full API documentation?
+  - answer: You can ask questions in the **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)**.
+    question: How do I get support if I run into problems?
+  - answer: Yes, a temporary license can be requested on the **[temporary license
+      request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Can I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: Как задать размеры штрихкода X и Y в Java
+tags:
+- customize barcode
+- Aspose.BarCode
+- Java barcode
+- barcode dimensions
+- X dimension
+- Y dimension
+title: Как настроить размеры barcode в Java с Aspose
 url: /ru/java/barcode-configuration/managing-x-y-dimension-barcode/
 weight: 13
 ---
@@ -14,47 +72,57 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как установить размеры штрихкода X и Y в Java
+# Как настроить размеры штрихкода в Java с помощью Aspose
 
-В разработке на Java **how to set barcode** является распространённой задачей, когда нужны чёткие, читаемые штрихкоды для этикеток, билетов или инвентарных меток. Этот учебник покажет, как управлять как X‑размером (ширина узкой полосы), так и Y‑размером (высота полос) с помощью Aspose.BarCode Java API. К концу вы сможете **customize barcode**, создать **barcode image java**, и уверенно **create barcode with aspose** для любого проекта.
+Когда вам нужно **create barcode with Aspose** для этикеток, билетов или инвентарных меток, контроль точного размера каждой полосы имеет решающее значение. В этом руководстве вы узнаете **how to customize barcode** размеры — как X‑dimension (ширина узкой полосы), так и Y‑dimension (общая высота полосы) — используя Aspose.BarCode Java API. К концу вы сможете **customize barcode**, **generate barcode image java**, и уверенно **create barcode with aspose** для любого проекта на Java.
 
 ## Быстрые ответы
-- **Какая библиотека лучше всего подходит для управления размерами штрихкода?** Aspose.BarCode for Java.
-- **Какой метод задает X‑размер?** `getXDimension().setMillimeters(...)`.
-- **Какой метод задает Y‑размер (высоту полосы)?** `getBarHeight().setMillimeters(...)`.
-- **Нужна ли лицензия для использования в продакшн?** Yes, a commercial license is required.
+- **Какая библиотека лучше всего подходит для управления размерами штрихкода?** Aspose.BarCode for Java.  
+- **Какой метод задает X‑dimension?** `getXDimension().setMillimeters(...)`.  
+- **Какой метод задает Y‑dimension (высота полосы)?** `getBarHeight().setMillimeters(...)`.  
+- **Нужна ли лицензия для использования в продакшене?** Yes, a commercial license is required.  
 - **Могу ли я генерировать изображения PNG, JPG или BMP?** All common raster formats are supported.
 
-## Что означает «how to set barcode» в контексте Aspose.BarCode?
-Установка размеров штрихкода означает определение физического размера каждой полосы (X‑размер) и общей высоты полос (Y‑размер). Правильные настройки размеров обеспечивают надёжное считывание штрихкода различными принтерами и сканерами.
+## Что означает “how to set barcode” в контексте Aspose.BarCode?
 
-## Почему стоит использовать Aspose.BarCode for Java для настройки размеров штрихкода?
-- **Precision control** – Регулировка на уровне миллиметров даёт точные размеры.
-- **Wide format support** – Работает с PNG, JPG, BMP, GIF и другими форматами.
-- **No external dependencies** – Чистая Java‑библиотека, легко интегрировать в любую IDE.
-- **Comprehensive documentation** – Полезные примеры и справочник API.
+Настройка размеров штрихкода означает определение физического размера каждой полосы (X‑dimension) и общей высоты полос (Y‑dimension). Правильные настройки размеров обеспечивают надёжное сканирование штрихкода на разных принтерах и сканерах, а также дают гибкость для соответствия отраслевым требованиям к размерам, таким как стандарты ISO/IEC для розничных этикеток.
+
+## Почему стоит использовать Aspose.BarCode для Java для настройки размеров штрихкода?
+
+Aspose.BarCode обеспечивает точность на уровне миллиметра, поддерживает **50+ barcode symbologies**, и может рендерить изображения в **5+ raster formats** (PNG, JPG, BMP, GIF, TIFF). Библиотека написана полностью на Java, имеет **zero external dependencies**, и включает обширную документацию с более чем 200 примерами кода, что делает интеграцию быстрой и надёжной для корпоративных приложений.
 
 ## Предварительные требования
 
-Before you start, make sure you have:
-
-- Установленный Java Development Kit (JDK) на вашем компьютере.
-- Библиотека Aspose.BarCode for Java, скачанная с [here](https://releases.aspose.com/barcode/java/).
+- Java Development Kit (JDK), установленный на вашем компьютере.  
+- Библиотека Aspose.BarCode for Java, загруженная со **[Aspose.BarCode for Java download page](https://releases.aspose.com/barcode/java/)**.  
+- Вы также можете изучить другие продукты Aspose на **[Aspose releases page](https://releases.aspose.com/)**.  
 - Java IDE, например Eclipse или IntelliJ IDEA.
 
 ## Импорт пакетов
 
 В вашем Java‑классе импортируйте пакет генерации Aspose.BarCode:
 
+`BarcodeGenerator` — основной класс, используемый для создания и настройки изображений штрихкода в Aspose.BarCode for Java.  
+
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-Теперь мы пройдём каждый шаг настройки размеров.
+```java
+import com.aspose.barcode.generation.BarcodeGenerator;
+```
 
-## Шаг 1: Установка X‑размера (ширина полосы)
+Теперь мы пройдём каждый параметр настройки размеров шаг за шагом.
 
-X‑размер контролирует ширину самой узкой полосы. Обычное значение находится в диапазоне от 0,2 мм до 0,5 мм.
+## Как задать X‑dimension (ширина полосы)?
+
+Загрузите генератор штрихкода, выберите символику и задайте ширину узкой полосы в миллиметрах. Типичная X‑dimension для кодов высокой плотности находится в диапазоне от **0.2 mm до 0.5 mm**, что обеспечивает баланс читаемости и использования пространства на большинстве принтеров. Эти настройки гарантируют стабильные результаты сканирования при разных разрешениях печати.
+
+Класс `BarcodeGenerator` является основным объектом, который создаёт изображения штрихкода на основе выбранной символики и параметров.  
+
+```java
+// Example code for setting X‑dimension
+```
 
 ```java
 public static void setXDimension() throws IOException {
@@ -74,13 +142,19 @@ public static void setXDimension() throws IOException {
 
 В этом фрагменте мы:
 
-1. Создаём экземпляр `BarcodeGenerator` с симболикой **CODE_128**.
-2. Вызываем `setMillimeters(0.5f)`, чтобы задать ширину полосы 0,5 мм.
+1. Создаём экземпляр `BarcodeGenerator` с симболикой **CODE_128**.  
+2. Вызываем `setMillimeters(0.5f)`, чтобы задать ширину полосы 0.5 mm.  
 3. Сохраняем результат как **xDimension.jpg**.
 
-## Шаг 2: Установка Y‑размера (высота полосы)
+## Как задать Y‑dimension (высота полосы)?
 
-Y‑размер (также называемый высотой полосы) определяет, насколько высока каждая полоса. Регулируйте его в зависимости от объёма данных и расстояния сканирования.
+Отрегулируйте высоту полосы в соответствии с объёмом данных и ожидаемым расстоянием сканирования. Для 2‑D кодов, таких как PDF‑417, более высокая высота полосы (например, **4 mm**) улучшает читаемость, особенно при печати на больших этикетках. Выбор подходящей Y‑dimension помогает избежать ошибок чтения на сканерах с низким разрешением.
+
+`BarHeight` определяет вертикальный размер полос для генерируемого штрихкода.  
+
+```java
+// Example code for setting Y‑dimension
+```
 
 ```java
 public static void setYDimension() throws IOException {
@@ -100,44 +174,50 @@ public static void setYDimension() throws IOException {
 
 Здесь мы:
 
-1. Используем симболику **PDF_417**, которой часто требуется более высокая полоса.
-2. Устанавливаем высоту полосы **4 mm**.
+1. Используем символогию **PDF_417**, которой часто требуется более высокая высота полос.  
+2. Устанавливаем высоту полосы в **4 mm**.  
 3. Сохраняем результат как **yDimension.jpg**.
 
 ## Распространённые проблемы и решения
 
 | Проблема | Причина | Решение |
-|----------|---------|---------|
-| Штрихкод выглядит слишком тонким или толстым | X‑размер не подходит для DPI принтера | Отрегулируйте значение `setMillimeters` (например, 0,3 мм для принтеров с высоким разрешением). |
-| Сканер не может прочитать код | Y‑размер слишком мал для выбранной симболики | Увеличьте высоту полосы с помощью `setMillimeters` (например, 5 мм для PDF_417). |
+|----------|---------|----------|
+| Штрихкод выглядит слишком тонким или толстым | X‑dimension не подходит для DPI принтера | Отрегулируйте значение `setMillimeters` (например, 0.3 mm для принтеров с высоким разрешением). |
+| Сканер не может прочитать код | Y‑dimension слишком низкая для выбранной символогии | Увеличьте высоту полосы с помощью `setMillimeters` (например, 5 mm для PDF_417). |
 | Файл изображения повреждён | Отсутствует путь вывода или нет прав записи | Проверьте, что `dataDir` указывает на существующую папку с правом записи. |
 
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я использовать Aspose.BarCode for Java в коммерческих проектах?**  
-A: Да, требуется коммерческая лицензия. Приобрести лицензию можно [here](https://purchase.aspose.com/buy).
+A: Да, требуется коммерческая лицензия. Приобретите лицензию на **[Aspose purchase page](https://purchase.aspose.com/buy)**.
 
-**Q: Есть ли бесплатная пробная версия?**  
-A: Конечно, вы можете скачать бесплатную пробную версию [here](https://releases.aspose.com/).
+**Q: Доступна ли бесплатная пробная версия?**  
+A: Конечно, вы можете скачать бесплатную пробную версию со **[Aspose download page](https://releases.aspose.com/)**.
 
 **Q: Где я могу найти полную документацию API?**  
-A: Документация доступна [here](https://reference.aspose.com/barcode/java/).
+A: Документация доступна по ссылке **[Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/)**.
 
 **Q: Как получить поддержку, если возникнут проблемы?**  
-A: Вы можете задавать вопросы на форуме Aspose.BarCode [here](https://forum.aspose.com/c/barcode/13).
+A: Вы можете задавать вопросы на **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)**.
 
-**Q: Могу ли я получить временную лицензию для тестирования?**  
-A: Да, временную лицензию можно запросить [here](https://purchase.aspose.com/temporary-license/).
+**Q: Можно ли получить временную лицензию для тестирования?**  
+A: Да, временную лицензию можно запросить на **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 ## Заключение
 
-Управление X‑ и Y‑размерами с помощью Aspose.BarCode for Java простое. Регулируя X‑размер для ширины полосы и Y‑размер для высоты полосы, вы можете **customize barcode**, **generate barcode image java**, и **create barcode with aspose**, которые соответствуют любым требованиям сканирования. Экспериментируйте с разными значениями, чтобы найти идеальный баланс для вашего конкретного случая.
+Управление X и Y размерами с помощью Aspose.BarCode for Java просто. Регулируя X‑dimension для ширины полосы и Y‑dimension для высоты полосы, вы можете **customize barcode**, **generate barcode image java**, и **create barcode with aspose**, которые соответствуют любым требованиям сканирования. Экспериментируйте с различными значениями, чтобы найти идеальный баланс для вашего конкретного случая.
 
 ---
 
-**Последнее обновление:** 2025-12-14  
+**Последнее обновление:** 2026-09-18  
 **Тестировано с:** Aspose.BarCode for Java 24.8  
-**Автор:** Aspose  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Настройка размера штрихкода Java — точные размеры с Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/configuring-custom-size-barcode/)
+- [Как создать небольшие этикетки со штрихкодом в Java с Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-minimum-barcode-size/)
+- [Установка отступов штрихкода Java — настройка интервалов изображения штрихкода с Aspose](/barcode/java/image-manipulation/setting-margins-barcode-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

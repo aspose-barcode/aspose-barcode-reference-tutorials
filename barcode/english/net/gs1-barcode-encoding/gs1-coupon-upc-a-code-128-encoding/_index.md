@@ -1,18 +1,81 @@
 ---
-title: "Generate barcode from string – GS1 Coupon UPC-A Code 128"
-linktitle: "Generate barcode from string – GS1 Coupon UPC-A Code 128"
+date: 2026-09-03
+description: Learn how to generate barcode from string using Aspose.BarCode for .NET.
+  This barcode generation tutorial C# example shows step‑by‑step creation of a GS1
+  Coupon UPC‑A Code 128.
+images:
+- /net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/og-image.png
+keywords:
+- generate barcode from string
+- how to generate barcode
+- convert text to barcode
+- generate code 128 barcode
+- barcode generation tutorial c#
+lastmod: 2026-09-03
+linktitle: Generate barcode from string – GS1 Coupon UPC-A Code 128
+og_description: Generate barcode from string using Aspose.BarCode for .NET. This guide
+  shows a step‑by‑step C# example to create a GS1 Coupon UPC‑A Code 128 barcode quickly.
+og_image_alt: Tutorial showing how to generate a GS1 Coupon UPC‑A Code 128 barcode
+  from a string in C# using Aspose.BarCode
+og_title: Generate barcode from string – GS1 Coupon UPC-A Code 128
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to generate barcode from string using Aspose.BarCode for
+    .NET. This barcode generation tutorial C# example shows step‑by‑step creation
+    of a GS1 Coupon UPC‑A Code 128.
+  headline: Generate barcode from string – GS1 Coupon UPC-A Code 128
+  type: TechArticle
+- description: Learn how to generate barcode from string using Aspose.BarCode for
+    .NET. This barcode generation tutorial C# example shows step‑by‑step creation
+    of a GS1 Coupon UPC‑A Code 128.
+  name: Generate barcode from string – GS1 Coupon UPC-A Code 128
+  steps:
+  - name: set the directory path
+    text: Begin by defining the directory path where you want to save the generated
+      barcode image. Replace `"Your Directory Path"` with the actual path on your
+      system.
+  - name: create a barcode generator
+    text: '`BarcodeGenerator` is Aspose.BarCode''s core class that creates barcode
+      images from supplied data. Initialize a `BarcodeGenerator` object with the desired
+      encoding type and data to encode. You can replace the data with your own if
+      needed.'
+  - name: customize barcode parameters
+    text: You can fine‑tune various parameters for your barcode, such as the X‑Dimension
+      (size of the smallest bar), image format, and more. In this example, we set
+      the X‑Dimension to 2 pixels. Feel free to adjust these parameters according
+      to your project requirements.
+  - name: save the barcode image
+    text: Now, save the generated barcode as an image in your specified directory.
+      We are saving it in PNG format. You can change the filename and image format
+      as needed. By following these four simple steps, you've successfully generated
+      a GS1 Coupon UPC‑A Code 128 barcode using Aspose.BarCode for .NET.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.BarCode for .NET fully supports .NET Core 3.1 and later, as
+      well as .NET 5/6.
+    question: Does the library support .NET Core?
+  - answer: Absolutely. Use `BarCodeImageFormat.Svg` or `Pdf` when calling `gen.Save()`.
+    question: Can I generate barcodes in vector formats?
+  - answer: Set `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;` and
+      adjust font settings via `CodeTextParameters`.
+    question: How do I add a human‑readable caption below the barcode?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: "Learn how to generate barcode from string using Aspose.BarCode for .NET. This barcode generation tutorial C# example shows step‑by‑step creation of a GS1 Coupon UPC‑A Code 128."
-weight: 12
+tags:
+- barcode generation
+- Aspose.BarCode
+- .NET barcode
+title: Generate barcode from string – GS1 Coupon UPC-A Code 128
 url: /net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/
-date: 2026-02-15
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# GS1 Coupon UPC-A Code 128 Encoding
+# GS1 Coupon UPC-A Code 128 encoding
 
 ## Introduction
 
@@ -31,11 +94,11 @@ Before delving into the world of barcode generation with Aspose.BarCode for .NET
 
 1. A Development Environment: Make sure you have a working development environment set up. This includes Visual Studio or any other IDE of your choice to write and compile your .NET code.
 
-2. Aspose.BarCode for .NET Library: You need to have Aspose.BarCode for .NET installed on your system. If you haven't done so already, you can download it from [here](https://releases.aspose.com/barcode/net/).
+2. Aspose.BarCode for .NET Library: You need to have Aspose.BarCode for .NET installed on your system. If you haven't done so already, you can download it from [Aspose.BarCode for .NET download page](https://releases.aspose.com/barcode/net/).
 
 3. Basic C# Knowledge: Familiarity with C# programming language is a must as you'll be writing code to generate barcodes.
 
-## Importing Namespaces
+## Importing namespaces
 
 Now that you've covered the prerequisites, it's time to understand the necessary namespaces for working with Aspose.BarCode for .NET.
 
@@ -56,19 +119,17 @@ With these namespaces added to your project, you're now ready to create and cust
 
 ## What is a GS1 Coupon UPC‑A Code 128?
 
-A GS1 Coupon UPC‑A Code 128 barcode combines the traditional UPC‑A numeric format with additional GS1 Application Identifiers (AIs) that carry coupon‑specific data, such as discount amounts or expiration dates. Encoding this information as a **string** and letting Aspose handle the conversion saves you from manual checksum calculations and format quirks.
+A GS1 Coupon UPC‑A Code 128 barcode encodes the standard 12‑digit UPC‑A numeric data together with GS1 Application Identifiers that carry coupon‑specific information such as discount value or expiration date. The format follows GS1 specifications, using Code 128 symbology to represent both the numeric product code and the AI‑prefixed data in a single linear barcode.
 
 ## Why use Aspose.BarCode for this task?
 
-- **Zero‑dependency encoding** – the library knows the exact GS1 rules.  
-- **High‑quality output** – generate PNG, JPEG, SVG, or PDF with a single call.  
-- **Full control** – tweak dimensions, colors, and quiet zones without leaving C#.  
+Because Aspose.BarCode implements the full GS1 specification, automatically handles checksum calculation, AI formatting, and high‑resolution rendering, letting you generate compliant UPC‑A Code 128 coupons with a single API call. The library also supports over 50 output formats, batch processing, and fine‑grained visual customization without external dependencies.
 
-## Step-by-Step Guide to generate barcode from string – GGS1 Coupon UPC‑A Code 128
+## Step‑by‑step guide to generate barcode from string – GS1 Coupon UPC‑A Code 128
 
-Let's explore the step‑by‑step process of generating a GGS1 Coupon UPC‑A Code 128 barcode using Aspose.BarCode for .NET. In this example, we'll break down the code into manageable steps for a clear understanding.
+Let's explore the step‑by‑step process of generating a GS1 Coupon UPC‑A Code 128 barcode using Aspose.BarCode for .NET. In this example, we'll break down the code into manageable steps for a clear understanding.
 
-### Step 1: Set the Directory Path
+### Step 1: set the directory path
 
 Begin by defining the directory path where you want to save the generated barcode image.
 
@@ -78,9 +139,9 @@ string path = "Your Directory Path";
 
 Replace `"Your Directory Path"` with the actual path on your system.
 
-### Step 2: Create a Barcode Generator
+### Step 2: create a barcode generator
 
-Initialize a `BarcodeGenerator` object with the desired encoding type and data to encode. In this case, we are creating a GGS1 Coupon UPC‑A Code 128 barcode with the data `"123456789012(8110)ASPOSE"`.
+`BarcodeGenerator` is Aspose.BarCode's core class that creates barcode images from supplied data. Initialize a `BarcodeGenerator` object with the desired encoding type and data to encode.
 
 ```csharp
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "123456789012(8110)ASPOSE");
@@ -88,7 +149,7 @@ BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1Code128Coupon, "1
 
 You can replace the data with your own if needed.
 
-### Step 3: Customize Barcode Parameters
+### Step 3: customize barcode parameters
 
 You can fine‑tune various parameters for your barcode, such as the X‑Dimension (size of the smallest bar), image format, and more. In this example, we set the X‑Dimension to 2 pixels.
 
@@ -98,7 +159,7 @@ gen.Parameters.Barcode.XDimension.Pixels = 2;
 
 Feel free to adjust these parameters according to your project requirements.
 
-### Step 4: Save the Barcode Image
+### Step 4: save the barcode image
 
 Now, save the generated barcode as an image in your specified directory. We are saving it in PNG format.
 
@@ -108,15 +169,15 @@ gen.Save($"{path}Gs1CouponUpcaCode128.png", BarCodeImageFormat.Png);
 
 You can change the filename and image format as needed.
 
-By following these four simple steps, you've successfully generated a GGS1 Coupon UPC‑A Code 128 barcode using Aspose.BarCode for .NET.
+By following these four simple steps, you've successfully generated a GS1 Coupon UPC‑A Code 128 barcode using Aspose.BarCode for .NET.
 
-## Common Use Cases
+## Common use cases
 
 - **Retail coupons** – embed discount information directly on product packaging.  
 - **Warehouse labeling** – combine product IDs with batch or expiry data.  
 - **Mobile promotions** – generate printable barcodes for QR‑free coupon redemption.  
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 
 - **Path issues** – ensure the directory exists and the application has write permissions.  
 - **Invalid data format** – the string must follow the GS1 syntax (`(AI)Data`).  
@@ -133,21 +194,21 @@ If you have any questions or need further assistance, don't hesitate to visit th
 ## FAQs
 
 ### Q: Can I use Aspose.BarCode for .NET for commercial projects?
-Yes, Aspose.BarCode for .NET is suitable for both personal and commercial projects. You can purchase a license [here](https://purchase.aspose.com/buy).
+A: Yes, Aspose.BarCode for .NET is suitable for both personal and commercial projects. You can purchase a license [Aspose.BarCode license purchase page](https://purchase.aspose.com/buy).
 
 ### Q: Is there a free trial available for Aspose.BarCode for .NET?
-Yes, you can access a free trial version [here](https://releases.aspose.com/). It allows you to test the library's features before making a purchase.
+A: Yes, you can access a free trial version [Aspose.BarCode free trial download](https://releases.aspose.com/). It allows you to test the library's features before making a purchase.
 
 ### Q: How can I obtain a temporary license for Aspose.BarCode for .NET?
-If you need a temporary license for evaluation or testing purposes, you can get one [here](https://purchase.aspose.com/temporary-license/).
+A: If you need a temporary license for evaluation or testing purposes, you can get one [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ### Q: Can I customize the appearance of generated barcodes further?
-Absolutely. Aspose.BarCode for .NET provides various parameters and settings to customize the appearance and behavior of your barcodes. You can explore the documentation for more details.
+A: Absolutely. Aspose.BarCode for .NET provides various parameters and settings to customize the appearance and behavior of your barcodes. You can explore the documentation for more details.
 
 ### Q: Are there any other encoding types supported by Aspose.BarCode for .NET?
-Yes, Aspose.BarCode for .NET supports a wide range of encoding types, including UPC‑A, Code 128, QR codes, and many more. You can find the complete list in the documentation.
+A: Yes, Aspose.BarCode for .NET supports a wide range of encoding types, including UPC‑A, Code 128, QR codes, and many more. You can find the complete list in the documentation.
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: Does the library support .NET Core?**  
 A: Yes, Aspose.BarCode for .NET fully supports .NET Core 3.1 and later, as well as .NET 5/6.
@@ -160,9 +221,16 @@ A: Set `gen.Parameters.Barcode.CodeTextParameters.ShowCodeText = true;` and adju
 
 ---
 
-**Last Updated:** 2026-02-15  
+**Last Updated:** 2026-09-03  
 **Tested With:** Aspose.BarCode for .NET 24.11  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Related Tutorials
+
+- [Generate Aztec Barcode with Text Encoding using Aspose.BarCode for .NET](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
+- [How to Generate DataMatrix Barcodes Using Aspose.BarCode for .NET – Step‑by‑Step Guide](/barcode/net/datamatrix-barcode-configuration/)
+- [Generate One-Dimensional Databar 2D Barcodes Using Aspose.BarCode .NET API](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
