@@ -291,7 +291,6 @@ Naučte se generovat PDF417 čárové kódy v C# s kompaktním rozvržením pomo
 
 ### [Generování čárového kódu v C# s Macro PDF417 – kompletní příklad](./generate-barcode-c-with-macro-pdf417-full-example/)
 Ukázkový kód pro generování čárového kódu Macro PDF417 v C# pomocí Aspose.BarCode.
-
 ### [Jak generovat PDF417 čárový kód v C# a nastavit velikost čárového kódu](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 Naučte se generovat PDF417 čárový kód v C# a upravit jeho velikost pomocí Aspose.BarCode.
 
@@ -306,6 +305,12 @@ Naučte se, jak pomocí Aspose.BarCode v C# generovat Macro PDF417 čárové kó
 
 ### [Jak číst PDF417 čárové kódy v C# – kompletní průvodce](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 Kompletní návod, jak pomocí Aspose.BarCode v C# načíst a dekódovat PDF417 čárové kódy.
+### [Jak generovat PDF417 čárový kód v C# – kompletní průvodce](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+Kompletní návod, jak v C# pomocí Aspose.BarCode vygenerovat PDF417 čárový kód s podrobným příkladem kódu.
+
+### [Jak dekódovat PDF417 v C# – příklad čtečky čárových kódů](./how-to-decode-pdf417-in-c-barcode-reader-example/)
+Naučte se, jak pomocí Aspose.BarCode v C# načíst a dekódovat PDF417 čárový kód s ukázkovým příkladem čtečky.
+
 ### [Vytvořte PDF417 čárový kód s Aspose.BarCode – krok za krokem průvodce](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.BarCode v .NET vytvořit PDF417 čárový kód krok po kroku.
 
@@ -344,12 +349,6 @@ Naučte se pomocí Aspose.BarCode v C# vygenerovat PDF417 čárový kód a ulož
 ### [Jak dekódovat PDF417 v C# s příkladem čtečky čárových kódů](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
 
 Naučte se, jak pomocí Aspose.BarCode v C# dekódovat PDF417 čárový kód s ukázkovým čtečkou.
-
-### [Jak generovat PDF417 čárový kód v C# – kompletní průvodce](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
-Kompletní návod, jak v C# pomocí Aspose.BarCode vygenerovat PDF417 čárový kód s podrobným příkladem kódu.
-
-### [Jak dekódovat PDF417 v C# – příklad čtečky čárových kódů](./how-to-decode-pdf417-in-c-barcode-reader-example/)
-Naučte se, jak pomocí Aspose.BarCode v C# načíst a dekódovat PDF417 čárový kód s ukázkovým příkladem čtečky.
 
 ## Často kladené otázky
 

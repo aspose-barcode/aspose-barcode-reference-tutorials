@@ -165,6 +165,8 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [在 C# 中產生 Micro PDF417 條碼 – 完整步驟指南](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
 
 ### [使用 Aspose 建立 PDF417 條碼 – 完整指南](./create-pdf417-barcode-with-aspose-complete-guide/)
+
+
 ### [如何在 C# 中讀取 PDF417 – 完整條碼閱讀器範例](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 
 
@@ -222,12 +224,15 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [在 C# 中建立微型 PDF417 圖像 – 步驟說明](./create-micro-pdf417-image-in-c-step-by-step-guide/)
 
 ### [在 C# 中建立微型 PDF417 條碼 – 步驟指南](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
+一步一步說明如何在 C# 使用 Aspose.BarCode 產生微型 PDF417 條碼。
 ### [在 C# 中產生 PDF417 條碼 – 完整指南（緊湊版）](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
 ### [在 C# 中產生 Macro PDF417 條碼 – 完整範例](./generate-barcode-c-with-macro-pdf417-full-example/)
+### [在 C# 中產生 PDF417 條碼 – 完整指南](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+
+### [如何在 C# 中解碼 PDF417 – 條碼閱讀器範例](./how-to-decode-pdf417-in-c-barcode-reader-example/)
+
 ### [如何在 C# 中解碼 PDF417 條碼 – 完整指南](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 說明如何在 C# 使用 Aspose.BarCode 讀取並解碼 PDF417 條碼，提供完整範例與步驟。
-### [在 C# 中產生 PDF417 條碼 – 完整指南](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
-### [如何在 C# 中解碼 PDF417 – 條碼閱讀器範例](./how-to-decode-pdf417-in-c-barcode-reader-example/)
 
 ## 常見問題
 ### [如何在 C# 中使用 Aspose.BarCode 建立宏 PDF417 條碼](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)

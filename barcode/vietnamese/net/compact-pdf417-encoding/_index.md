@@ -49,7 +49,7 @@ schemas:
     question: Do I need to install any additional fonts or resources?
   type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Cách tạo mã vạch PDF417 – Mã Hoá PDF417 Compact
+title: Cách tạo mã vạch PDF417 – Mã hoá PDF417 Compact
 url: /vi/net/compact-pdf417-encoding/
 weight: 29
 ---
@@ -245,6 +245,12 @@ Hướng dẫn chi tiết cách tạo mã vạch bằng C# với Aspose.BarCode,
 ### [Cách Đọc PDF417 trong C# – Ví dụ Mã Vạch Hoàn Chỉnh](./how-to-read-pdf417-in-c-complete-barcode-example/)
 Hướng dẫn chi tiết cách đọc mã vạch PDF417 bằng C# sử dụng Aspose.BarCode, bao gồm cấu hình và ví dụ thực tế.
 
+### [Cách tạo mã vạch PDF417 trong C# – hướng dẫn đầy đủ](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tạo mã vạch PDF417 trong C# bằng Aspose.BarCode, bao gồm các bước cấu hình và ví dụ thực tế.
+
+### [Cách giải mã PDF417 trong C# – ví dụ trình đọc mã vạch](./how-to-decode-pdf417-in-c-barcode-reader-example/)
+Hướng dẫn chi tiết cách giải mã PDF417 trong C# bằng Aspose.BarCode, kèm ví dụ thực tế.
+
 ### [Cách tạo mã vạch PDF417 trong C# với Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 Hướng dẫn chi tiết cách tạo mã vạch PDF417 bằng C# sử dụng thư viện Aspose.BarCode.
 
@@ -290,11 +296,6 @@ Hướng dẫn chi tiết cách tạo mã vạch PDF417 bằng C# với bố c�
 
 ### [Tạo mã vạch C# với Macro PDF417 – ví dụ đầy đủ](./generate-barcode-c-with-macro-pdf417-full-example/)
 Ví dụ đầy đủ về cách tạo mã vạch Macro PDF417 bằng C# sử dụng Aspose.BarCode.
-### [Cách tạo mã vạch PDF417 trong C# – hướng dẫn đầy đủ](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
-Hướng dẫn chi tiết cách tạo mã vạch PDF417 trong C# bằng Aspose.BarCode, bao gồm các bước cấu hình và ví dụ thực tế.
-
-### [Cách giải mã PDF417 trong C# – ví dụ trình đọc mã vạch](./how-to-decode-pdf417-in-c-barcode-reader-example/)
-Hướng dẫn chi tiết cách giải mã PDF417 trong C# bằng Aspose.BarCode, kèm ví dụ thực tế.
 
 ## Câu hỏi thường gặp
 
