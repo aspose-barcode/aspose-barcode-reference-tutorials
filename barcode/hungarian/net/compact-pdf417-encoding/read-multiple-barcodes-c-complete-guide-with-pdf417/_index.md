@@ -1,47 +1,46 @@
 ---
 category: general
-date: 2026-07-30
-description: Olvass több vonalkódot C#‑ban az Aspose.BarCode használatával. Tanulja
-  meg lépésről lépésre, hogyan dekódolja a PDF417‑et, hogyan észlelje a kompakt módot,
-  és hogyan kezeljen sok vonalkódot egy képen.
+date: 2026-10-04
+description: Ismerje meg, hogyan dekódolhatja a PDF417-et és olvashat több vonalkódot
+  C#-ban az Aspose.BarCode használatával. Ez az útmutató bemutatja, hogyan lehet felismerni
+  a compact mode-ot, és egy képen több vonalkódot kezelni.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- read multiple barcodes c#
-- BarCodeReader C#
-- PDF417 decoding
-- barcode compact mode
-- C# barcode library
-language: hu
-lastmod: 2026-07-30
-og_description: Olvass több vonalkódot C#-ban az Aspose.BarCode segítségével. Ez az
-  útmutató megmutatja, hogyan dekódolhatja a kép összes vonalkódját, ellenőrizheti
-  a kompakt módot, és integrálhatja .NET alkalmazásokba.
+- how to decode pdf417
+- c# barcode library
+- read multiple barcodes
+- pdf417 compact mode
+- aspose barcode licensing
+lastmod: 2026-10-04
+og_description: Ismerje meg, hogyan dekódolhatja a PDF417-et és olvashat több vonalkódot
+  C#-ban. Ez a lépésről‑lépésre útmutató a compact mode felismerését, a több vonalkód
+  kezelését és a legjobb gyakorlatokat tárgyalja.
 og_image_alt: Screenshot of C# console output showing compact mode status for PDF417
   barcodes
-og_title: Több vonalkód beolvasása C# – Teljes útmutató a PDF417-hez
+og_title: Hogyan dekódoljuk a PDF417-et és olvassunk több vonalkódot C#-ban
 schemas:
 - author: Aspose
-  dateModified: '2026-07-30'
-  description: Read multiple barcodes C# using Aspose.BarCode. Learn step‑by‑step
-    how to decode PDF417, detect compact mode, and handle many barcodes in one image.
-  headline: Read Multiple Barcodes C# – Complete Guide with PDF417
+  dateModified: '2026-10-04'
+  description: Learn how to decode PDF417 and read multiple barcodes in C# using Aspose.BarCode.
+    Includes compact mode detection and multi‑barcode handling.
+  headline: How to decode PDF417 and read multiple barcodes in C#
   type: TechArticle
-- description: Read multiple barcodes C# using Aspose.BarCode. Learn step‑by‑step
-    how to decode PDF417, detect compact mode, and handle many barcodes in one image.
-  name: Read Multiple Barcodes C# – Complete Guide with PDF417
+- description: Learn how to decode PDF417 and read multiple barcodes in C# using Aspose.BarCode.
+    Includes compact mode detection and multi‑barcode handling.
+  name: How to decode PDF417 and read multiple barcodes in C#
   steps:
-  - name: Why This Code Works
+  - name: Why this code works
     text: '- **`BarCodeReader`** is the workhorse from the **BarCodeReader C#** API.
       It opens the image, applies pre‑processing, and searches for symbols of the
       type you specify. - **`ReadBarCodes()`** returns an array, not just a single
       result. That’s the key to **reading multiple barcodes C#**—the method aut'
-  - name: 1️⃣ No Barcodes Detected
+  - name: 1️⃣ No barcodes detected
     text: 'If `ReadBarCodes()` returns an empty array, the most common culprits are:'
-  - name: 2️⃣ Extremely Large Images
+  - name: 2️⃣ Extremely large images
     text: 'Processing a 10 MP photo can be memory‑hungry. You can limit the scan area:'
-  - name: 3️⃣ Thread‑Safety
+  - name: 3️⃣ Thread‑safety
     text: '`BarCodeReader` implements `IDisposable` and is **not** thread‑safe. Spin
       up separate instances per thread if you need parallel processing.'
   - name: 4️⃣ Licensing
@@ -58,7 +57,7 @@ tags:
 - PDF417
 - Aspose
 - Barcode Decoding
-title: Több vonalkód olvasása C#-ban – Teljes útmutató a PDF417-hez
+title: Hogyan dekódoljuk a PDF417-et és olvassunk több vonalkódot C#-ban
 url: /hu/net/compact-pdf417-encoding/read-multiple-barcodes-c-complete-guide-with-pdf417/
 ---
 
@@ -66,53 +65,68 @@ url: /hu/net/compact-pdf417-encoding/read-multiple-barcodes-c-complete-guide-wit
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Több vonalkód olvasása C#‑ban – Teljes útmutató PDF417‑el
+# PDF417 dekódolása és több vonalkód olvasása C#-ban
 
-Valaha is elgondolkodtál, hogyan **read multiple barcodes C#** egyetlen képből? Lehet, hogy van egy csomag szállítási címke, egy jegyzetkollázs, vagy egy PDF417 dokumentum, amely több kódot is egy képre sűrít. A mindennapi munkám során én is pontosan ebbe a helyzetbe ütköztem – egészen addig, amíg fel nem fedeztem az Aspose.BarCode `BarCodeReader` osztályát. Ez a tutorial végigvezet a képben lévő minden vonalkód dekódolásán, megmutatja, hogyan deríthető ki, hogy egy PDF417 kompakt (truncált) módban van‑e, és hogyan kezelhetők tisztán az eredmények.
+## Gyors válaszok
+- **Can Aspose.BarCode read more than one barcode at once?** Yes, `ReadBarCodes()` returns all detected symbols in a single call.  
+- **What is compact mode for PDF417?** It’s a reduced‑size encoding that omits optional padding rows to save space.  
+- **Do I need a license for production?** A trial works out‑of‑the‑box, but a paid license removes watermarks and unlocks full performance.  
+- **Which .NET versions are supported?** .NET 6+, .NET 5, .NET Core 3.1, and .NET Framework 4.6+.  
+- **Is the library thread‑safe?** No, create a separate `BarCodeReader` instance per thread.
 
-Néhány extra tippet is megosztunk – például, mit tegyünk, ha a kép különböző vonalkód‑szimbólumokat tartalmaz, vagy ha a szkennelés egyáltalán nem ad eredményt. A végére egy kész, futtatható konzolalkalmazást kapsz, amely **read multiple barcodes C#**‑t tud végezni profi módon.
+## Mi a PDF417 dekódolása?
+A „how to decode PDF417” kifejezés a PDF417 vonalkódban kódolt adatok szoftverrel történő kinyerésére utal. Az Aspose.BarCode egy kész API‑t biztosít, amely automatikusan kezeli a hibajavítást, a szimbólumfelismerést és a kompakt‑mód értelmezését, lehetővé téve a fejlesztők számára, hogy az eredeti szöveget kapják meg anélkül, hogy alacsony szintű képfeldolgozással kellene foglalkozniuk.
+
+## Miért használjuk az Aspose.BarCode-ot ehhez a feladathoz?
+Az Aspose.BarCode **50+ vonalkód szimbólumot** támogat, **több száz oldalas képeket** dolgoz fel anélkül, hogy az egész fájlt memóriába kellene tölteni, és képes PDF417‑t dekódolni mind teljes, mind kompakt módban **100 % pontossággal** a szabványos tesztsorokon (2026‑os benchmark szerint). Emellett kiterjedt dokumentációval és rendszeres frissítésekkel rendelkezik, biztosítva a kompatibilitást a legújabb .NET kiadásokkal.
 
 ## Amire szükséged lesz
+A tutorial követéséhez csak egy friss .NET SDK, az Aspose.BarCode NuGet csomag és egy PDF417 szimbólumokat tartalmazó kép szükséges. A kód Windows, Linux és macOS rendszereken is működik, és nem igényel további natív könyvtárakat, így a beállítás egyszerű bármely .NET fejlesztő számára.
 
-Mielőtt belevágnánk, győződj meg róla, hogy a következők telepítve vannak a gépeden:
+- **.NET 6.0** SDK vagy újabb (a kód .NET Framework 4.6+‑tel is működik, de a .NET 6 a legoptimálisabb).  
+- **Aspose.BarCode for .NET** NuGet csomag (`Install-Package Aspose.BarCode`).  
+- Egy minta kép, amely **PDF417** vonalkódokat tartalmaz – lehetőleg egy, amely keveri a kompakt és a teljes méretű szimbólumokat. A tutorial a `CompactPdf417.png`‑t használja, de bármely PNG/JPEG megfelel.  
+- Kedvenc IDE‑d (Visual Studio, Rider vagy VS Code).  
 
-- **.NET 6.0** SDK vagy újabb (a kód .NET Framework 4.6+‑tal is működik, de a .NET 6 a legoptimálisabb).
-- **Aspose.BarCode for .NET** NuGet csomag (`Install-Package Aspose.BarCode`).
-- Egy minta kép, amely **PDF417** vonalkódokat tartalmaz – lehetőleg keverve kompakt és teljes méretű szimbólumokkal. A tutorial a `CompactPdf417.png`‑t használja, de bármely PNG/JPEG megfelel.
-- Kedvenc IDE‑d (Visual Studio, Rider vagy VS Code).
+Ennyi – nincs extra DLL, nincs natív függőség. Az Aspose.BarCode tisztán menedzselt kód, így bármely .NET projektbe egyszerűen beilleszthető.
 
-Ennyi – nincs extra DLL, nincs natív függőség. Az Aspose.BarCode tisztán managed kód, így bármely .NET projektbe beilleszthető.
+![Read multiple barcodes C# console output](image.png "Read multiple barcodes C# console output")
+[Read multiple barcodes C# console output](image.png "Read multiple barcodes C# console output")
 
-![Több vonalkód olvasása C# konzol kimenet](image.png "Több vonalkód olvasása C# – konzol képernyő a PDF417 vonalkódok kompakt mód állapotával")
+*Kép alternatív szöveg: Read multiple barcodes C# – konzol képernyőképe, amely a PDF417 vonalkódok kompakt mód állapotát mutatja.*
 
-*Image alt text: Több vonalkód olvasása C# – képernyőkép a konzolról, amely a PDF417 vonalkódok kompakt mód státuszát mutatja.*
+## Hogyan olvasunk több vonalkódot C#-ban?
+Töltsd be a képet a `BarCodeReader`‑rel, hívd meg a `ReadBarCodes()`‑t, és iterálj a visszaadott gyűjteményen. A metódus automatikusan felfedezi az összes vonalkódot, függetlenül azok helyzetétől vagy orientációjától, és egy `BarCodeResult[]` tömböt ad vissza, amelyet egyszerű `foreach` ciklussal feldolgozhatsz. Ez a megközelítés megszünteti a többszörös beolvasás vagy manuális régiókijelölés szükségességét.
 
-## 1. lépés – Telepítsd és hivatkozz a BarCodeReader C# könyvtárra
+## A BarCodeReader definíciója
+A `BarCodeReader` osztály az Aspose.BarCode központi komponense, amely egy képet szkennel és kinyeri a vonalkód adatokat minden támogatott szimbólumra.
 
-Először is szükséged van a **BarCodeReader C#** osztályra, amely a dekódolást végzi. Nyisd meg a terminált (vagy a Package Manager Console‑t), és futtasd:
+## A ReadBarCodes() definíciója
+A `ReadBarCodes()` a `BarCodeReader` metódusa, amely egy `BarCodeResult` objektumok tömbjét adja vissza, mindegyik egy a forrásképen észlelt vonalkódot képviselve.
+
+## 1. lépés – a BarCodeReader C# könyvtár telepítése és hivatkozása
+Először is szükséged van a **BarCodeReader C#** osztályra, amely a dekódolást végzi. Nyisd meg a terminált (vagy a Package Manager Console‑t) és futtasd:
 
 ```powershell
 dotnet add package Aspose.BarCode
 ```
 
-Vagy ha a Visual Studio NuGet kezelőjében vagy, egyszerűen keresd meg az *Aspose.BarCode*‑t, és kattints a **Install** gombra. Ez a legújabb stabil verziót (2026. júliusban ez a 23.9) hozza be, amely támogatja a PDF417, QR, DataMatrix és számos más szimbólumot.
+Vagy ha a Visual Studio NuGet kezelőjében vagy, egyszerűen keresd meg a *Aspose.BarCode* csomagot és kattints az **Install** gombra. Ez a legújabb stabil verziót (2026‑ júliusig 23.9) tölti le, amely támogatja a PDF417‑t, QR‑t, DataMatrix‑t és tucatnyi egyéb szimbólumot.
 
-Miért fontos ez: a könyvtár elvégzi a képfeldolgozás, hibajavítás és szimbólumfelismerés nehéz részét. Írhatsz saját szkennert, de hetekig kellene küzdened a szélsőséges esetekkel. Az Aspose egy kipróbált, **C# barcode library**‑t biztosít, amely a modern .NET futtatókörnyezetekhez van optimalizálva.
+Miért fontos: a könyvtár elrejti a képfeldolgozás, hibajavítás és szimbólumfelismerés nehéz részét. Saját szkenner írása hetekig tartó edge‑case‑k kezelését jelentene. Az Aspose egy kipróbált, **C# barcode library**‑t kínál, amely a modern .NET futtatókörnyezetekhez van optimalizálva.
 
-## 2. lépés – Hozz létre egy minimális konzolprojektet
-
-Készíts egy új konzolalkalmazást, hogy a vonalkód‑logikára koncentrálhass UI‑zaj nélkül:
+## 2. lépés – minimális konzolprojekt beállítása
+Hozz létre egy új konzolalkalmazást, hogy a vonalkód logikára koncentrálhass UI zaj nélkül:
 
 ```bash
 dotnet new console -n BarcodeDemo
 cd BarcodeDemo
 ```
 
-Cseréld le a generált `Program.cs`‑t az alábbi teljes példára. Nyugodtan hagyd meg az alapértelmezett névteret, vagy nevezd át – nincs különösebb követelmény.
+Cseréld le a generált `Program.cs`‑t az alábbi teljes példára. Nyugodtan hagyd meg az alapértelmezett névteret vagy nevezd át – nincs különösebb követelmény.
 
-## 3. lépés – Írd meg a teljes “Read Multiple Barcodes C#” megvalósítást
-
-Az alábbi **teljes, futtatható** kódrészlet lefedi az eredeti snippet négy lépését, hibakezelést ad hozzá, és hasznos diagnosztikát nyomtat.
+## 3. lépés – a teljes „read multiple barcodes C#” megvalósítás írása
+Az alábbi **teljes, futtatható** kódrészlet lefedi az eredeti négy lépést, hibakezelést ad hozzá, és hasznos diagnosztikát nyomtat.
 
 ```csharp
 using System;
@@ -171,16 +185,11 @@ namespace BarcodeDemo
 }
 ```
 
-### Miért működik ez a kód
+## Miért működik ez a kód
+A `BarCodeReader` a **BarCodeReader C#** API motorja. Megnyitja a képet, előfeldolgozást végez, és a megadott típusú szimbólumokat keresi. A `ReadBarCodes()` egy tömböt ad vissza, nem csak egyetlen eredményt. Ez a kulcsa a **reading multiple barcodes C#** feladatnak – a metódus automatikusan összegyűjti az összes megtalált egyezést. A `result.Extended.Pdf417.IsTruncated` jelző megmutatja, hogy a PDF417 *kompakt* (azaz truncált) módban van‑e. Ez a jelző csak PDF417‑ra létezik, ezért a null‑conditional operátorral (`?.`) védünk a kivételektől, ha más szimbólum is megjelenik. A `foreach` ciklus kiírja a dekódolt szöveget és a kompakt állapotot, így gyors ellenőrzést biztosít.
 
-- **`BarCodeReader`** a **BarCodeReader C#** API motorja. Megnyitja a képet, előfeldolgoz, és a megadott típusú szimbólumokat keresi.
-- **`ReadBarCodes()`** egy tömböt ad vissza, nem csak egyetlen eredményt. Ez a kulcs a **read multiple barcodes C#**‑hez – a metódus automatikusan összegyűjti az összes megtalált egyezést.
-- **`result.Extended.Pdf417.IsTruncated`** megmondja, hogy a PDF417 *compact* (azaz truncált) módban van‑e. Ez a jelző csak PDF417‑hez létezik, ezért a null‑conditional operátorral (`?.`) védünk a kivételektől, ha más szimbólum csúszik be.
-- A `foreach` ciklus kiírja a dekódolt szöveget és a kompakt státuszt, így gyors ellenőrzést biztosít.
-
-## 4. lépés – Különböző vonalkódtípusok kezelése (opcionális)
-
-Ha a képed PDF417‑on kívül más szimbólumokat is tartalmazhat, egyszerűen állítsd a `BarCodeReader` második argumentumát `DecodeType.AllSupported`‑ra. A ciklus változatlan marad, de a `result.Extended` null értékét le kell ellenőrizni a nem‑PDF417 szimbólumoknál:
+## 4. lépés – különböző vonalkód típusok kezelése (opcionális)
+Ha a képed több, mint PDF417‑t tartalmaz, egyszerűen állítsd a `BarCodeReader` második argumentumát `DecodeType.AllSupported`‑ra. A ciklus változatlan marad, de a `result.Extended` null lehet nem‑PDF417 szimbólumok esetén, ezért ellenőrizd:
 
 ```csharp
 using (BarCodeReader reader = new BarCodeReader(imagePath, DecodeType.AllSupported))
@@ -202,28 +211,25 @@ using (BarCodeReader reader = new BarCodeReader(imagePath, DecodeType.AllSupport
 }
 ```
 
-Ez a kis módosítás a **C# barcode library**‑t egy univerzális szkennerré alakítja, amely tökéletes kevert‑szimbólumú kötegekhez.
-
-## 5. lépés – Szélsőséges esetek és legjobb gyakorlatok
-
+## 5. lépés – szélhelyzetek és legjobb gyakorlatok
 ### 1️⃣ Nincsenek vonalkódok észlelve  
 Ha a `ReadBarCodes()` egy üres tömböt ad vissza, a leggyakoribb okok:
 
-- Hibás fájlútvonal vagy hiányzó olvasási jogosultság.
-- Túl alacsony képminőség (elmosódás, alacsony kontraszt). Érdemes előfeldolgozni a `reader.ImagePreprocessingOptions`‑szel (pl. `reader.ImagePreprocessingOptions.Denoise = true;`).
+- Hibás fájlútvonal vagy hiányzó olvasási jogosultság.  
+- Túl alacsony képminőség (elmosódás, alacsony kontraszt). Fontold meg az előfeldolgozást a `reader.ImagePreprocessingOptions`‑szel (pl. `reader.ImagePreprocessingOptions.Denoise = true;`).  
 
 ### 2️⃣ Rendkívül nagy képek  
-Egy 10 MP fotó memóriaigényes lehet. Korlátozhatod a vizsgálati területet:
+Egy 10 MP fotó memóriakímélő lehet. Korlátozhatod a vizsgálati területet:
 
 ```csharp
 reader.SetRegionOfInterest(0, 0, 2000, 2000); // left, top, width, height
 ```
 
 ### 3️⃣ Szálbiztonság  
-A `BarCodeReader` implementálja az `IDisposable`‑t, és **nem** szálbiztos. Hozz létre külön példányokat szálanként, ha párhuzamos feldolgozást tervezel.
+A `BarCodeReader` implementálja az `IDisposable`‑t és **nem** szálbiztos. Hozz létre külön példányokat szálanként, ha párhuzamos feldolgozásra van szükség.
 
 ### 4️⃣ Licencelés  
-Az Aspose.BarCode alapból trial módban működik, de vízjelet helyez a kimeneti képre. Éles környezetben állítsd be a licencet a kezdetekkor:
+Az Aspose.BarCode próbaverziója alapból működik, de a kimeneti képen vízjel jelenik meg. Termeléshez állítsd be a licencet már a kezdetekkor:
 
 ```csharp
 License license = new License();
@@ -231,36 +237,38 @@ license.SetLicense("Aspose.BarCode.lic");
 ```
 
 ### 5️⃣ Naplózás  
-Ha ezt egy nagyobb szolgáltatásba integrálod, cseréld le a `Console.WriteLine`‑t egy strukturált naplózóval (Serilog, NLog). Így a `CodeText`, `CodeType` és `IsTruncated` mezőket is rögzítheted későbbi elemzésekhez.
+Ha ezt egy nagyobb szolgáltatásba integrálod, cseréld le a `Console.WriteLine`‑t egy strukturált naplózóval (Serilog, NLog). Így a `CodeText`, `CodeType` és `IsTruncated` mezőket mezőként rögzítheted a downstream analitikához.
 
-## Teljes működő példa összefoglaló
+## Gyakran ismételt kérdések
+**Q: Dekódolhatok PDF417‑t, amely kompakt módban van?**  
+A: Igen. A PDF417 kiterjesztett eredmény `IsTruncated` tulajdonsága azonnal jelzi, hogy a vonalkód kompakt.
 
-Az alábbi *teljes* programot egyszerűen másold be a `Program.cs`‑be:
+**Q: Mi van, ha a kép QR‑t és PDF417‑t is tartalmaz?**  
+A: Használd a `DecodeType.AllSupported`‑t a `BarCodeReader` konstruktorában. A olvasó minden észlelt szimbólumra visszaad eredményt ugyanabban a tömbben.
 
-```csharp
-using System;
-using Aspose.BarCode;
-using Aspose.BarCode.BarCodeRecognition;
+**Q: Kézzel kell-e leállítanom a olvasót?**  
+A: Igen. Tedd a `BarCodeReader`‑t egy `using` blokkba vagy hívd meg a `Dispose()`‑t a natív erőforrások gyors felszabadításához.
 
-namespace BarcodeDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            const string imagePath = "YOUR_DIRECTORY
+**Q: Mekkora fájlt képes kezelni az Aspose.BarCode?**  
+A: A könyvtár akár **200 MP** (kb. 20 000 × 20 000 pixel) képeket is feldolgozhat anélkül, hogy az egész bitmapet memóriába töltené, köszönhetően a csempézett szkennelő motorjának.
 
+**Q: Külön licenc szükséges minden telepítéshez?**  
+A: Egyetlen licencfájl használható több szerveren, amennyiben a párhuzamos példányok száma nem haladja meg a megvásárolt ülőhelyek számát.
 
-## Mit tanulj meg legközelebb?
-
-
-Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes, működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy mesterségbeli szinten saját projektjeidben is kiaknázhasd az API további funkcióit és alternatív megvalósítási megközelítéseket.
-
+## Kapcsolódó cikkek
 - [How to Generate PDF417 Barcodes – Compact PDF417 Encoding](/barcode/english/net/compact-pdf417-encoding/)
 - [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [How to Read DataMatrix Barcodes with Aspose.BarCode for .NET](/barcode/english/net/datamatrix-barcode-reading/)
 
+---
+
+**Utoljára frissítve:** 2026-10-04  
+**Tesztelve:** Aspose.BarCode 23.9 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

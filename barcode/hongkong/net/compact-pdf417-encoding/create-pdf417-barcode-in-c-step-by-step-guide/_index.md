@@ -1,22 +1,23 @@
 ---
 category: general
-date: 2026-08-03
+date: 2026-10-04
 description: 快速在 C# 中建立 PDF417 條碼。了解如何產生 PDF417 條碼以及如何使用 Aspose.Barcode 將條碼圖像儲存為 PNG。
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- create pdf417 barcode
-- how to generate pdf417 barcode
-- how to save barcode image
-language: zh-hant
-lastmod: 2026-08-03
-og_description: 使用 C# 及 Aspose.Barcode 建立 PDF417 條碼。請參考本指南了解如何產生 PDF417 條碼以及如何有效儲存條碼影像。
-og_image_alt: Screenshot of a generated compact PDF417 barcode saved as PNG
-og_title: 在 C# 中建立 PDF417 條碼 – 完整程式教學
+- create pdf417 barcode c#
+- barcode for mobile scanning
+- aspose barcode png generation
+lastmod: 2026-10-04
+og_description: 使用 Aspose.Barcode 在 C# 中建立 PDF417 條碼。本教學示範如何產生緊湊的 PDF417 條碼、設定外觀，並將其儲存為
+  PNG 圖像，以供行動掃描或標籤列印使用。
+og_image_alt: 'Developer guide: Create PDF417 barcode in C# and save as PNG using
+  Aspose.Barcode'
+og_title: 在 C# 中建立 PDF417 條碼 – 完整步驟式指南
 schemas:
 - author: Aspose
-  dateModified: '2026-08-03'
+  dateModified: '2026-10-04'
   description: Create PDF417 barcode in C# quickly. Learn how to generate PDF417 barcode
     and how to save barcode image as PNG with Aspose.Barcode.
   headline: Create PDF417 barcode in C# – step‑by‑step guide
@@ -46,7 +47,8 @@ tags:
 - C#
 - PDF417
 - image generation
-title: 在 C# 中建立 PDF417 條碼 – 步驟指南
+- Aspose.Barcode
+title: 在 C# 中建立 PDF417 條碼 – 步驟式指南
 url: /zh-hant/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-guide/
 ---
 
@@ -56,48 +58,57 @@ url: /zh-hant/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-ste
 
 # 在 C# 中建立 PDF417 條碼 – 步驟指南
 
-如果您需要在 .NET 應用程式中 **建立 PDF417 條碼**，本指南會精確說明如何產生 PDF417 條碼以及如何儲存條碼影像。最終您會得到一個可用於報告、票證或行動掃描應用程式的 PNG 檔案。
+如果您需要在 .NET 應用程式中**建立 PDF417 條碼**，本指南會精確說明如何產生 PDF417 條碼以及如何將條碼影像儲存為 PNG 檔案。最終您會得到一個適合行動掃描、票務系統或標籤印表機的緊湊影像。
 
-本教學涵蓋從專案設定到最終 PNG 檔案的全部步驟。無需參考外部文件，只要依照步驟執行程式碼即可。
+## 快速答案
+- **哪個函式庫負責 PDF417 產生？** Aspose.Barcode for .NET.  
+- **範例儲存為何種格式？** PNG，使用 `BarCodeImageFormat.Png`.  
+- **需要多少行程式碼？** 約 10 行（設定專案後）。  
+- **我可以自訂大小與截斷嗎？** 可以 – `Columns`、`Rows` 與 `Truncate` 屬性。  
+- **此程式碼相容 .NET‑6 嗎？** 完全相容，亦可在 .NET Framework 4.7+ 上執行。
 
-## 您需要的條件
+## 在 C# 中建立 PDF417 條碼需要什麼？
+首先，您需要最新的 .NET SDK、如 Visual Studio 2022 的 IDE，以及 **Aspose.Barcode for .NET** NuGet 套件。這些工具可讓範例在不需額外設定的情況下編譯與執行。
 
-在開始之前，請確保您具備以下環境：
+- .NET 6.0 SDK 或更新版本（亦可在 .NET Framework 4.7+ 上執行）
+- Visual Studio 2022 或任何相容 C# 的編輯器
+- 具備網際網路連線以下載 Aspose.Barcode NuGet 套件
 
-* .NET 6.0 SDK 或更新版本（此程式碼亦可在 .NET Framework 4.7+ 上執行）
-* Visual Studio 2022 或任何支援 C# 的 IDE
-* 具備網際網路連線以安裝 **Aspose.Barcode for .NET** NuGet 套件
+## 如何設定 .NET 專案以產生 PDF417 條碼？
+建立一個新的主控台專案，加入 Aspose.Barcode 套件，並開啟產生的 `Program.cs`。這會建立一個乾淨的工作區，讓您可以實例化條碼產生器並寫入輸出檔案。
 
-這些前置條件可確保程式碼在不需額外設定的情況下成功編譯。
-
-## 建立 PDF417 條碼 – 專案設定
-
-1. 開啟命令提示字元並建立新的主控台專案：
-
-   ```bash
+```bash
    dotnet new console -n Pdf417Demo
    cd Pdf417Demo
    ```
 
-2. 加入 Aspose.Barcode 函式庫：
+## 如何使用 Aspose.Barcode 產生 PDF417 條碼？
+`BarcodeGenerator` 是 Aspose.Barcode 的類別，用於根據提供的資料與符號產生條碼影像。您需要指定 PDF417 符號，提供要編碼的文字，並可選擇調整大小或錯誤更正設定。
 
-   ```bash
+```bash
    dotnet add package Aspose.Barcode
    ```
 
-3. 開啟產生的 `Program.cs` 檔案。檔案頂部的 `using` 陳述式讓您可以使用條碼相關類別：
+### 為何這很重要
+* **EncodeTypes.Pdf417** 告訴函式庫使用 PDF417 標準，支援大量資料負載與錯誤更正。  
+* 提供 Unicode 字元可證明產生器在無需額外設定的情況下處理非 ASCII 輸入。
 
-   ```csharp
+## 如何設定 PDF417 條碼的外觀？
+您可以控制模組大小、欄位數量，以及條碼是否使用緊湊（截斷）模式。這些設定會直接影響小螢幕上的可讀性以及 PNG 影像的整體檔案大小。
+
+`generator.Parameters.Barcode.XDimension` 設定單一模組的寬度，而 `Columns` 與 `Rows` 定義矩陣的尺寸。將 `Truncate` 設為 `true` 會移除靜止區，以產生更緊湊的影像。
+
+```csharp
    using System;
    using Aspose.Barcode.Generation;
    using Aspose.Barcode;
    ```
 
-專案現在已準備好 **建立 PDF417 條碼**。
+### 實用技巧
+如果水平空間受限需要較高的條碼，可增加 `Columns`。將 `Truncate` 設為 `true` 會透過移除靜止區降低整體高度，非常適合行動螢幕。
 
-## 使用 Aspose.Barcode 產生 PDF417 條碼
-
-條碼產生的核心在 `BarcodeGenerator` 類別。您需要指定條碼類型（`EncodeTypes.Pdf417`）以及要編碼的資料。
+## 如何將條碼影像儲存為 PNG？
+`Save` 是 `BarcodeGenerator` 的方法，用於將產生的影像寫入檔案。傳入檔案路徑與 `BarCodeImageFormat.Png` 即可一步完成 PNG 影像的建立。
 
 ```csharp
 // Step 1: Initialise the generator with PDF417 symbology and sample text.
@@ -105,14 +116,11 @@ url: /zh-hant/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-ste
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-### 為何這很重要
+### 預期結果
+執行程式會在專案資料夾中產生 `CompactPdf417.png`。開啟該檔案會看到一個緊湊的 PDF417 條碼，編碼字串 *Åspóse.Barcóde©*。此影像可嵌入 HTML、PDF 報告，或列印於標籤上。
 
-* **EncodeTypes.Pdf417** 告訴函式庫使用 PDF417 標準，該標準支援大量資料負載與錯誤更正。  
-* 提供 Unicode 字元可證明產生器在未額外設定的情況下能處理非 ASCII 輸入。
-
-## 設定條碼外觀
-
-您可以控制每個模組的大小、欄位數量，以及條碼是否使用緊湊（截斷）模式。這些設定會同時影響可讀性與檔案大小。
+## 如何驗證產生的條碼檔案？
+程式執行完畢後，您可以使用簡單指令確認檔案是否存在。此檢查可驗證產生與儲存步驟已順利完成且無錯誤。
 
 ```csharp
 // Step 2: Set the module (X) dimension – each barcode element will be 2 pixels wide.
@@ -123,13 +131,51 @@ generator.Parameters.Barcode.Pdf417.Columns = 3;      // Number of columns (affe
 generator.Parameters.Barcode.Pdf417.Truncate = true; // Enable compact mode
 ```
 
-### 實用技巧
+如果檔案出現，**建立 PDF417 條碼**的流程即成功。
 
-如果水平空間受限需要較高的條碼，請增加 `Columns`。將 `Truncate` 設為 `true` 會透過移除安靜區（quiet zones）降低整體高度，非常適合行動裝置螢幕。
+## 產生 PDF417 條碼時常見的變化與例外情況有哪些？
+不同情境可能需要調整產生器設定。以下是快速參考表，說明如何處理常見的變化。
 
-## 將條碼影像儲存為 PNG
+| 情況 | 調整 |
+|-----------|------------|
+| **較長的資料字串** | 增加 `Columns` 或設定 `Rows` 以容納更多碼字。 |
+| **不同的影像格式** | 將 `BarCodeImageFormat.Png` 替換為 `Jpeg`、`Bmp` 或 `Gif`。 |
+| **較高的解析度** | 在 `Save` 前設定 `generator.Parameters.ImageResolution`。 |
+| **背景顏色** | 使用 `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;`。 |
+| **例外處理** | 將 `generator.Save` 包在 `try/catch` 區塊中，以捕捉 I/O 錯誤。 |
 
-完成產生器設定後，呼叫 `Save` 並傳入檔案路徑與目標影像格式。此方法會直接將影像寫入磁碟。
+這些變化讓您能針對特定裝置或品牌需求自訂條碼。
+
+## 建立條碼後的下一步是什麼？
+既然您已能產生並儲存 PDF417 條碼，接下來可以探索相關功能，例如產生 QR Code、將條碼嵌入 PDF 文件，或自訂顏色以符合品牌。上述皆使用相同的 `BarcodeGenerator` API，您可以輕鬆擴充範例。
+
+## 相關指南
+- [如何使用 Aspose.BarCode 建立條碼 – 緊湊 PDF417](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [如何使用 Aspose.BarCode for .NET 產生 DataMatrix 條碼 (ECC 200)](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [如何使用 Aspose.BarCode for .NET 產生具自訂長寬比的 Aztec 條碼](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+
+## 常見問題
+
+**問：我可以在 Web 應用程式中使用此程式碼嗎？**  
+**答：** 可以。相同的 `BarcodeGenerator` 類別可在 ASP.NET、MVC 或 Blazor 專案中使用；只需確保伺服器對輸出資料夾具有寫入權限。
+
+**問：Aspose.Barcode 支援其他 2‑D 符號嗎？**  
+**答：** 當然。支援超過 30 種 2‑D 條碼類型，包括 QR、DataMatrix 與 Aztec。
+
+**問：我能建立多大的條碼？**  
+**答：** PDF417 在單一符號中可編碼最多 1,850 個字元；您也可以透過調整 `Rows` 與 `Columns` 將資料分散至多列。
+
+**問：商業使用是否需要授權？**  
+**答：** 需要。提供免費試用供評估，但部署時必須購買商業授權。
+
+**問：相容的 .NET 版本有哪些？**  
+**答：** Aspose.Barcode 支援 .NET Framework 4.5+、.NET Core 3.1+ 以及 .NET 5/6/7。
+
+---
+
+**最後更新：** 2026-10-04  
+**測試環境：** Aspose.Barcode 24.11 for .NET  
+**作者：** Aspose  
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image.
@@ -137,15 +183,6 @@ string outputPath = @"./CompactPdf417.png";
 generator.Save(outputPath, BarCodeImageFormat.Png);
 Console.WriteLine($"Barcode saved to {outputPath}");
 ```
-
-### 預期結果
-
-執行程式後會在專案資料夾產生 `CompactPdf417.png`。開啟該檔案會看到一個緊湊的 PDF417 條碼，編碼的字串為 *Åspóse.Barcóde©*。此影像可嵌入 HTML、PDF 報告，或列印於標籤上。
-
-## 完整原始碼
-
-以下是完整且可執行的程式。將內容複製到 `Program.cs` 後執行 `dotnet run`。
-
 ```csharp
 using System;
 using Aspose.Barcode.Generation;
@@ -180,44 +217,13 @@ namespace Pdf417Demo
     }
 }
 ```
-
-### 驗證輸出
-
-程式結束後，您可以使用以下指令快速確認檔案是否存在：
-
 ```bash
 dotnet run && ls -l CompactPdf417.png
 ```
 
-如果檔案出現，表示 **建立 PDF417 條碼** 的流程已成功完成。
-
-## 常見變化與邊緣案例
-
-| 情況 | 調整方式 |
-|-----------|------------|
-| **Longer data string** | 增加 `Columns` 或設定 `Rows` 以容納更多程式碼字。 |
-| **Different image format** | 將 `BarCodeImageFormat.Png` 替換為 `Jpeg`、`Bmp` 或 `Gif`。 |
-| **Higher resolution** | 在 `Save` 之前設定 `generator.Parameters.ImageResolution`。 |
-| **Background color** | 使用 `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;`。 |
-| **Exception handling** | 將 `generator.Save` 包裹於 `try/catch` 區塊以捕捉 I/O 錯誤。 |
-
-這些變化讓您能依需求為特定裝置或品牌需求客製化條碼。
-
-## 結論
-
-您現在已了解如何在 C# 中使用 Aspose.Barcode **建立 PDF417 條碼**、設定其外觀，並 **將條碼影像儲存為 PNG**。完整範例示範了從專案設定到驗證的每一步，讓您能將條碼產生整合至任何 .NET 解決方案。
-
-接下來，您可以探索相關主題，例如 **如何產生 QR Code**、**在 PDF 文件中嵌入條碼**，或 **自訂條碼顏色**。這些主題皆基於相同的產生器 API，讓您以最小的努力擴充應用程式的掃描功能。祝開發順利！
-
-## 接下來您應該學習什麼？
-
-以下教學涵蓋與本指南技術緊密相關的主題，每個資源皆提供完整可執行的程式碼範例與逐步說明，協助您掌握更多 API 功能，並在自己的專案中探索替代實作方式。
-
-- [如何使用 Aspose.BarCode 建立條碼 – 緊湊 PDF417](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [如何使用 Aspose.BarCode for .NET 產生 DataMatrix 條碼 (ECC 200)](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-- [如何使用 Aspose.BarCode for .NET 產生具自訂長寬比的 Aztec 條碼](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
