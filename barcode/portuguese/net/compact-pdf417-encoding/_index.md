@@ -143,6 +143,8 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 ## Tutoriais de Codificação Compacta PDF417
 ### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 
+### [Como gerar código de barras PDF417 em C# – guia completo](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+
 ### [Como criar código de barras PDF417 em C# e salvá-lo como PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
 ### [Create PDF417 barcode with Aspose.BarCode – step-by-step guide](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
 
@@ -308,6 +310,8 @@ Aprenda a gerar códigos de barras micro PDF417 em C# com instruções detalhada
 
 ### [Gerar código de barras PDF417 em C# – guia completo com layout compacto](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
 Aprenda a gerar códigos de barras PDF417 em C# com layout compacto, passo a passo e exemplos completos.
+
+### [Como decodificar PDF417 em C# – exemplo de leitor de código de barras](./how-to-decode-pdf417-in-c-barcode-reader-example/)
 
 ### [Gerar código de barras C# com Macro PDF417 – exemplo completo](./generate-barcode-c-with-macro-pdf417-full-example/)
 Exemplo completo de geração de código de barras Macro PDF417 em C# usando Aspose.BarCode para .NET.

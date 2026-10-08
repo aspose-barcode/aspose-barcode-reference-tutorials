@@ -149,6 +149,8 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 
 ### [How to create PDF417 barcode and export PNG in C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
 
+### [How to generate PDF417 barcode in C# – complete guide](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+
 ### [PDF417-barcode-metadata maken in C# – Complete stapsgewijze gids](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
 
 ### [PDF417-barcode genereren in C# – Complete gids](./generate-pdf417-barcode-in-c-complete-guide/)
@@ -226,6 +228,8 @@ Leer hoe je een PDF417 barcode genereert in C# met een volledige stap‑voor‑s
 Leer hoe je een barcode opslaat als PNG/JPEG met Aspose.BarCode in C# met een volledige stap‑voor‑stap handleiding.
 
 ### [PDF417 barcode lezen in C# – barcodelezer voorbeeld](./read-pdf417-barcode-in-c-barcode-reader-example/)
+
+### [Hoe PDF417 te decoderen in C# – barcodelezer voorbeeld](./how-to-decode-pdf417-in-c-barcode-reader-example/)
 
 Leer hoe je een PDF417 barcode leest in C# met een voorbeeld van de barcodelezer.
 

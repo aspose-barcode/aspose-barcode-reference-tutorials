@@ -255,6 +255,11 @@ Aspose.BarCode for .NET를 사용해 바코드를 이미지 파일로 저장하�
 ### [C#에서 PDF417 바코드 생성 – 바코드 생성기 가이드](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
 Aspose.BarCode for .NET를 사용해 C#에서 PDF417 바코드를 생성하는 방법을 단계별로 안내합니다.
 
+### [C#에서 PDF417 바코드 생성 – 완전 가이드](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+C#을 사용해 Aspose.BarCode로 PDF417 바코드를 완전하게 생성하는 단계별 가이드입니다.
+
+### [C#에서 PDF417 디코드하는 방법 – 바코드 리더 예제](./how-to-decode-pdf417-in-c-barcode-reader-example/)
+
 ### [C#에서 바코드 이미지 저장하기 – 완전 가이드](./how-to-save-barcode-images-in-c-complete-guide/)
 Aspose.BarCode for .NET를 사용해 C#에서 바코드 이미지를 저장하는 전체 가이드를 제공합니다.
 
