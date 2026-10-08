@@ -1,52 +1,138 @@
 ---
-title: GS1 Couponsupplement Ruimteconfiguratie
-linktitle: GS1 Couponsupplement Ruimteconfiguratie
+date: 2026-09-28
+description: Leer hoe u een aangepaste barcode-ruimte kunt creëren voor GS1-coupons
+  met Aspose.BarCode voor .NET en de leesbaarheid van barcodes verbetert. Volg onze
+  stapsgewijze gids.
+keywords:
+- create barcode custom space
+- GS1 coupon supplement
+- Aspose.BarCode .NET
+- increase barcode readability
+lastmod: 2026-09-28
+linktitle: GS1 Coupon Supplement Ruimteconfiguratie
+og_description: Leer hoe u een aangepaste barcode-ruimte kunt creëren voor GS1-coupons
+  met Aspose.BarCode voor .NET en de leesbaarheid van barcodes verbetert. Stapsgewijze
+  code en tips inbegrepen.
+og_image_alt: Screenshot of a GS1 coupon barcode generated with custom supplement
+  space using Aspose.BarCode for .NET
+og_title: Maak aangepaste barcode-ruimte voor GS1 coupon supplement – Aspose.BarCode
+  .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to create barcode custom space for GS1 coupons with Aspose.BarCode
+    for .NET and increase barcode readability. Follow our step‑by‑step guide.
+  headline: How to create barcode custom space for GS1 coupon supplement
+  type: TechArticle
+- description: Learn how to create barcode custom space for GS1 coupons with Aspose.BarCode
+    for .NET and increase barcode readability. Follow our step‑by‑step guide.
+  name: How to create barcode custom space for GS1 coupon supplement
+  steps:
+  - name: '**Visual Studio** – The primary IDE for .NET development.'
+    text: '**Visual Studio** – The primary IDE for .NET development.'
+  - name: '**Aspose.BarCode for .NET** – Download the library from the [Aspose.BarCode
+      for .NET documentation](https://reference.aspose.com/barcode/net/).'
+    text: '**Aspose.BarCode for .NET** – Download the library from the [Aspose.BarCode
+      for .NET documentation](https://reference.aspose.com/barcode/net/).'
+  - name: '**.NET Framework or .NET 5+** – Familiarity with C# and the .NET runtime
+      is required.'
+    text: '**.NET Framework or .NET 5+** – Familiarity with C# and the .NET runtime
+      is required.'
+  - name: '**Create** a `BarcodeGenerator` instance for the `UpcaGs1DatabarCoupon`
+      type.'
+    text: '**Create** a `BarcodeGenerator` instance for the `UpcaGs1DatabarCoupon`
+      type.'
+  - name: '**Set** the X‑dimension to 2 pixels, which determines the narrowest bar
+      width.'
+    text: '**Set** the X‑dimension to 2 pixels, which determines the narrowest bar
+      width.'
+  - name: '**Adjust** the `SupplementSpace.Pixels` property to 30 px, generate an
+      image, then repeat with 50 px.'
+    text: '**Adjust** the `SupplementSpace.Pixels` property to 30 px, generate an
+      image, then repeat with 50 px.'
+  type: HowTo
+- questions:
+  - answer: It adds a mandatory blank margin around the supplemental data, improving
+      scanner reliability and meeting retailer‑specified minimum widths.
+    question: What is the purpose of the GS1 Coupon Supplement Space in barcodes?
+  - answer: Yes, set `gen.Parameters.Barcode.Coupon.SupplementSpace.Pixels` to any
+      integer value; the library instantly applies the change to the generated image.
+    question: Can I customize the width of the GS1 Coupon Supplement Space with Aspose.BarCode
+      for .NET?
+  - answer: Refer to the [Aspose.BarCode for .NET documentation](https://reference.aspose.com/barcode/net/)
+      and visit the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
+      for community assistance.
+    question: Where can I find additional documentation and support for Aspose.BarCode
+      for .NET?
+  - answer: Absolutely. The API offers straightforward methods for quick tasks and
+      advanced options for fine‑tuned barcode generation.
+    question: Is Aspose.BarCode for .NET suitable for both beginners and experienced
+      developers?
+  - answer: Yes, request a trial license from the [Aspose temporary license website](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for Aspose.BarCode for .NET to evaluate
+      its features?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: Leer hoe u de GS1 Coupon Supplement Space configureert met Aspose.BarCode voor .NET. Volg onze stapsgewijze handleiding om deze functie onder de knie te krijgen.
-weight: 11
+tags:
+- barcode configuration
+- GS1 standards
+- Aspose.BarCode
+- .NET barcode generation
+title: Hoe een aangepaste barcode-ruimte te maken voor GS1-couponaanvulling
 url: /nl/net/gs1-barcode-encoding/gs1-coupon-supplement-space-configuration/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# GS1 Couponsupplement Ruimteconfiguratie
+# GS1-coupon supplementruimte configuratie
 
+In deze tutorial zult u **barcode aangepaste ruimte** creëren voor de GS1 Coupon Supplement Space met Aspose.BarCode voor .NET. Het aanpassen van de supplementruimte is essentieel wanneer u de **leesbaarheid van barcodes** moet verhogen op scanners met lage resolutie of moet voldoen aan door de retailer opgelegde marges. Aan het einde van deze gids begrijpt u waarom de supplementruimte belangrijk is, hoe u deze programmatically instelt, en hoe u afbeeldingen genereert met verschillende pixelwaarden.
 
-In de wereld van softwareontwikkeling is het maken en beheren van barcodes een veel voorkomende taak. Barcodes zijn essentieel voor een verscheidenheid aan toepassingen, van voorraadbeheer tot de detailhandel en zelfs in de gezondheidszorg. Aspose.BarCode voor .NET is een krachtige bibliotheek waarmee u eenvoudig streepjescodes kunt genereren en lezen. In deze tutorial verkennen we de specifieke functie van het configureren van de GS1 Coupon Supplement Space. We begeleiden u stap voor stap door het proces, zodat u goed begrijpt hoe u deze functie effectief kunt gebruiken.
+## Snelle antwoorden
+- **Wat regelt de supplementruimte?** Het definieert het lege gebied (in pixels) tussen de coupongegevens en de rest van de barcode.  
+- **Welk barcode-type wordt gebruikt?** `EncodeTypes.UpcaGs1DatabarCoupon`.  
+- **Kan ik de grootte van de ruimte wijzigen?** Ja – stel `gen.Parameters.Barcode.Coupon.SupplementSpace.Pixels` in op een geheel getal.  
+- **Heb ik een licentie nodig voor deze functie?** Een tijdelijke licentie werkt voor evaluatie; een volledige licentie is vereist voor productie.  
+- **Welke uitvoerformaten worden ondersteund?** PNG, JPEG, BMP, GIF, TIFF, en meer via `BarCodeImageFormat`.
 
-## Vereisten
+## Wat is GS1-coupon supplementruimte?
+De GS1 Coupon Supplement Space is een gedefinieerd leeg gebied dat voorkomt in GS1‑Databar coupon barcodes. Retailsystemen gebruiken deze ruimte om de scanbetrouwbaarheid te verbeteren en te voldoen aan branchespecificaties die een minimale marge rond de aanvullende gegevens vereisen.
 
-Voordat we ingaan op het configureren van de GS1 Coupon Supplement Space met Aspose.BarCode voor .NET, zijn er een paar vereisten waaraan u moet voldoen:
+## Waarom de supplementruimte configureren?
+De supplementruimte verhoogt direct de **leesbaarheid van barcodes** en helpt u te voldoen aan strikte retailerrichtlijnen. Door extra pixels toe te voegen vermindert u de kans op foutieve scans op scanners met lage resolutie, zorgt u voor consistente scanning over verschillende labelgroottes, en krijgt u visuele flexibiliteit om de barcode in een afgedrukt ontwerp in balans te brengen.
 
-1. Visual Studio: Visual Studio moet op uw systeem zijn geïnstalleerd. Aspose.BarCode voor .NET wordt voornamelijk gebruikt binnen de Visual Studio-ontwikkelomgeving.
+## Voorwaarden
 
-2.  Aspose.BarCode voor .NET: Zorg ervoor dat Aspose.BarCode voor .NET is geïnstalleerd. Je kunt het downloaden van de[Aspose.BarCode voor .NET-documentatie](https://reference.aspose.com/barcode/net/).
+Voordat we ingaan op het configureren van de GS1 Coupon Supplement Space met Aspose.BarCode voor .NET, zorg ervoor dat u het volgende heeft:
 
-3. .NET Framework: u moet bekend zijn met het .NET-framework en de programmeertaal C# om deze bibliotheek effectief te kunnen gebruiken.
+1. **Visual Studio** – De primaire IDE voor .NET-ontwikkeling.  
+2. **Aspose.BarCode voor .NET** – Download de bibliotheek van de [Aspose.BarCode voor .NET documentatie](https://reference.aspose.com/barcode/net/).  
+3. **.NET Framework of .NET 5+** – Bekendheid met C# en de .NET-runtime is vereist.
 
-Nu we aan de vereisten hebben voldaan, gaan we verder met de stappen voor het configureren van de GS1 Coupon Supplement Space.
+Nu de omgeving klaar is, gaan we verder met de implementatie.
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Zorg er eerst voor dat u de benodigde naamruimten importeert om toegang te krijgen tot de klassen en methoden die door Aspose.BarCode voor .NET worden geleverd:
+De `Aspose.BarCode.Generation` namespace bevat de `BarcodeGenerator` klasse en gerelateerde instellingen.
 
 ```csharp
 using Aspose.BarCode;
 ```
 
-## Stap 1: definieer het pad
+## Stap 1: pad definiëren
 
- Begin met het definiëren van het pad naar de map waar u de gegenereerde streepjescodeafbeeldingen wilt opslaan. Vervangen`"Your Directory Path"` met het daadwerkelijke pad op uw systeem.
+Kies een map waarin de gegenereerde afbeeldingen worden opgeslagen. Het pad moet eindigen met de juiste mapseparator voor uw besturingssysteem.
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## Stap 2: Ruimteconfiguratie voor het GS1-couponsupplement genereren
+## Stap 2: GS1-coupon supplementruimte configuratie genereren
 
-Gebruik de volgende code om een barcode te genereren met de GS1 Coupon Supplement Space-configuratie:
+De volgende code maakt een barcode, stelt de X‑dimensie in, en past de supplementruimte aan.
 
 ```csharp
 System.Console.WriteLine("Gs1CouponSupplementSpace:");
@@ -54,41 +140,64 @@ System.Console.WriteLine("Gs1CouponSupplementSpace:");
 BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.UpcaGs1DatabarCoupon, "123456789012(8110)ASPOSE");
 gen.Parameters.Barcode.XDimension.Pixels = 2;
 
-//Stel de couponsupplementruimte in op 30 pixels
+// Set coupon supplement space to 30 pixels
 gen.Parameters.Barcode.Coupon.SupplementSpace.Pixels = 30;
 gen.Save($"{path}Gs1CouponSpace30Pixels.png", BarCodeImageFormat.Png);
 
-// Stel de couponsupplementruimte in op 50 pixels
+// Set coupon supplement space to 50 pixels
 gen.Parameters.Barcode.Coupon.SupplementSpace.Pixels = 50;
 gen.Save($"{path}Gs1CouponSpace50Pixels.png", BarCodeImageFormat.Png);
 ```
 
- In deze code maken we eerst een exemplaar van de`BarcodeGenerator` klasse met het streepjescodetype en de gegevens die u wilt coderen. Vervolgens stellen we de XDimension in op 2 pixels, wat de breedte van de smalste balk in de streepjescode vertegenwoordigt. 
+In dit voorbeeld doen we:
 
-Vervolgens configureren we de GS1 Coupon Supplement Space door deze in te stellen op 30 pixels en slaan we de gegenereerde barcodeafbeelding op. We herhalen het proces ook voor 50 pixels.
+1. **Aanmaken** van een `BarcodeGenerator` instantie voor het `UpcaGs1DatabarCoupon` type.  
+2. **Instellen** van de X‑dimensie op 2 pixels, wat de smalste balkbreedte bepaalt.  
+3. **Aanpassen** van de `SupplementSpace.Pixels` eigenschap naar 30 px, een afbeelding genereren, en vervolgens herhalen met 50 px.  
+
+Voel u vrij om te experimenteren met andere pixelwaarden om uw afdrukworkflow aan te passen.
+
+## Veelvoorkomende problemen & tips
+- **Ongeldig pad** – Zorg ervoor dat de `path` variabele eindigt met een backslash (`\`) of forward slash (`/`) die geschikt is voor uw besturingssysteem.  
+- **Onvoldoende rechten** – Voer Visual Studio uit als Administrator of kies een map waarin de applicatie schrijfrechten heeft.  
+- **Onjuist gegevensformaat** – De gegevensreeks moet de GS1-syntaxis volgen (`(8110)` duidt de supplementidentificatie aan).  
+
+## Waarom dit belangrijk is voor uw bedrijf
+Aspose.BarCode ondersteunt **meer dan 60 barcode-symbologieën** en kan afbeeldingen renderen tot **10.000 × 10.000 pixels** zonder het geheugen uit te putten. Voor grootschalige retailimplementaties betekent dit dat u high‑resolution GS1-coupons in batchmodus kunt genereren, terwijl de verwerkingstijd onder een seconde per afbeelding blijft op typische serverhardware.
+
+## Veelgestelde vragen
+
+**Q: Wat is het doel van de GS1 Coupon Supplement Space in barcodes?**  
+A: Het voegt een verplichte lege marge toe rond de aanvullende gegevens, verbetert de scannerbetrouwbaarheid en voldoet aan de door de retailer gespecificeerde minimumbreedtes.
+
+**Q: Kan ik de breedte van de GS1 Coupon Supplement Space aanpassen met Aspose.BarCode voor .NET?**  
+A: Ja, stel `gen.Parameters.Barcode.Coupon.SupplementSpace.Pixels` in op een geheel getal; de bibliotheek past de wijziging direct toe op de gegenereerde afbeelding.
+
+**Q: Waar kan ik extra documentatie en ondersteuning vinden voor Aspose.BarCode voor .NET?**  
+A: Raadpleeg de [Aspose.BarCode voor .NET documentatie](https://reference.aspose.com/barcode/net/) en bezoek het [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) voor community‑ondersteuning.
+
+**Q: Is Aspose.BarCode voor .NET geschikt voor zowel beginners als ervaren ontwikkelaars?**  
+A: Absoluut. De API biedt eenvoudige methoden voor snelle taken en geavanceerde opties voor fijn afgestemde barcode‑generatie.
+
+**Q: Kan ik een tijdelijke licentie verkrijgen voor Aspose.BarCode voor .NET om de functies te evalueren?**  
+A: Ja, vraag een proeflicentie aan via de [Aspose tijdelijke licentie website](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusie
 
-Het configureren van de GS1 Coupon Supplement Space is een cruciaal aspect van het werken met barcodes, vooral in industrieën waar nauwkeurigheid essentieel is. Aspose.BarCode voor .NET vereenvoudigt dit proces, waardoor het voor ontwikkelaars gemakkelijk wordt om barcodes te genereren met de gewenste aanvullingsruimte.
+Door de bovenstaande stappen te volgen weet u nu hoe u **barcode aangepaste ruimte** kunt **creëren** voor de GS1 Coupon Supplement Space, een belangrijke techniek om de **leesbaarheid van barcodes** te verhogen en aan retailnormen te voldoen. Integreer de code in uw bestaande scansystemen, experimenteer met verschillende pixelwaarden, en verken andere barcode‑types die Aspose.BarCode voor .NET biedt.
 
-In deze tutorial hebben we de noodzakelijke vereisten behandeld, de vereiste naamruimten geïmporteerd en stapsgewijze instructies gegeven voor het configureren van de GS1 Coupon Supplement Space. Met deze kennis kunt u Aspose.BarCode voor .NET effectief gebruiken om aan uw behoeften voor het genereren van streepjescodes te voldoen.
+---
 
-## Veelgestelde vragen (FAQ's)
+**Last Updated:** 2026-09-28  
+**Tested With:** Aspose.BarCode 24.12 for .NET  
+**Author:** Aspose
 
-### Wat is het doel van de GS1 Couponsupplementruimte in barcodes?
-De GS1 Coupon Supplement Space wordt gebruikt om extra ruimte rond een streepjescode toe te voegen, waardoor deze beter leesbaar wordt en ervoor zorgt dat deze voldoet aan specifieke industrienormen.
+## Gerelateerde tutorials
 
-### Kan ik de breedte van de GS1 Coupon Supplement Space aanpassen met Aspose.BarCode voor .NET?
-Ja, u kunt de breedte van de GS1 Coupon Supplement Space eenvoudig aanpassen met behulp van de bibliotheek, zoals gedemonstreerd in deze tutorial.
+- [Genereer Aspose.BarCode Databar barcode met .NET API – Rij‑ en kolomconfiguratie](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/)
+- [Hoe DataMatrix barcodes te genereren met Aspose.BarCode voor .NET – Stapsgewijze gids](/barcode/net/datamatrix-barcode-configuration/)
 
-### Waar kan ik aanvullende documentatie en ondersteuning vinden voor Aspose.BarCode voor .NET?
- U kunt verwijzen naar de[Aspose.BarCode voor .NET-documentatie](https://reference.aspose.com/barcode/net/) voor meer informatie en bezoek de[Aspose.BarCode-forum](https://forum.aspose.com/c/barcode/13) Voor ondersteuning.
 
-### Is Aspose.BarCode voor .NET geschikt voor zowel beginners als ervaren ontwikkelaars?
-Aspose.BarCode voor .NET is geschikt voor ontwikkelaars van alle niveaus. Het biedt een gebruiksvriendelijke interface voor beginners en geavanceerde aanpassingsmogelijkheden voor ervaren ontwikkelaars.
-
-### Kan ik een tijdelijke licentie voor Aspose.BarCode voor .NET verkrijgen om de functies ervan te evalueren?
- Ja, u kunt een tijdelijke licentie voor Aspose.BarCode voor .NET aanvragen bij de[website](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

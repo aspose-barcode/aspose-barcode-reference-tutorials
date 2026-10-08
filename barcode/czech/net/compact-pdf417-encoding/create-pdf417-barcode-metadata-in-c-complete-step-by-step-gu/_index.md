@@ -1,34 +1,34 @@
 ---
 category: general
-date: 2026-07-15
-description: Vytvořte metadata čárového kódu PDF417 v C# pomocí Aspose.BarCode. Naučte
-  se nastavení Macro PDF417, uložte jako PNG a pracujte s Unicode textem.
+date: 2026-09-28
+description: Vytvořte metadata čárového kódu PDF417 v C# pomocí Aspose.BarCode. Tento
+  průvodce ukazuje všechna nastavení, která potřebujete k vložení ID souboru, časových
+  razítek a dalších informací.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
 - create pdf417 barcode metadata
-- macro pdf417
+- increase barcode resolution
+- macro pdf417 c#
 - aspose barcode c#
 - barcode metadata fields
-- c# barcode generation
-language: cs
-lastmod: 2026-07-15
-og_description: Vytvořte metadata čárového kódu PDF417 v C# pomocí Aspose.BarCode.
-  Tento průvodce ukazuje všechna nastavení, která potřebujete k vložení ID souboru,
-  časových razítek a dalších informací.
+lastmod: 2026-09-28
+og_description: Naučte se, jak vytvořit metadata čárového kódu PDF417 v C# pomocí
+  Aspose.BarCode. Tutoriál pokrývá nastavení Macro PDF417, pole metadat, export obrázků
+  a podporu Unicode.
 og_image_alt: Screenshot of a generated PDF417 barcode containing metadata fields
-og_title: Vytvořte metadata pro čárový kód PDF417 v C# – Kompletní programovací průvodce
+og_title: Vytvoření metadat čárového kódu PDF417 v C# – průvodce krok za krokem
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
+  dateModified: '2026-09-28'
   description: Create PDF417 barcode metadata in C# using Aspose.BarCode. Learn Macro
     PDF417 settings, save as PNG, and handle Unicode text.
-  headline: Create PDF417 Barcode Metadata in C# – Complete Step‑by‑Step Guide
+  headline: Create PDF417 barcode metadata in C# – Complete Step‑by‑Step Guide
   type: TechArticle
 - description: Create PDF417 barcode metadata in C# using Aspose.BarCode. Learn Macro
     PDF417 settings, save as PNG, and handle Unicode text.
-  name: Create PDF417 Barcode Metadata in C# – Complete Step‑by‑Step Guide
+  name: Create PDF417 barcode metadata in C# – Complete Step‑by‑Step Guide
   steps:
   - name: Setting up the Aspose.BarCode NuGet package.
     text: Setting up the Aspose.BarCode NuGet package.
@@ -60,7 +60,7 @@ tags:
 - csharp
 - aspose
 - pdf417
-title: Vytvořte metadata čárového kódu PDF417 v C# – kompletní průvodce krok po kroku
+title: Vytvoření metadat čárového kódu PDF417 v C# – Kompletní průvodce krok za krokem
 url: /cs/net/compact-pdf417-encoding/create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/
 ---
 
@@ -70,30 +70,37 @@ url: /cs/net/compact-pdf417-encoding/create-pdf417-barcode-metadata-in-c-complet
 
 # Vytvoření metadat čárového kódu PDF417 v C# – Kompletní průvodce krok za krokem
 
-Už jste někdy potřebovali **vytvořit metadata čárového kódu PDF417** v C#, ale nebyli jste si jisti, které vlastnosti upravit? Nejste v tom sami – vývojáři často narazí na problém, když specifikace vyžaduje například ID souboru, počet segmentů nebo vlastní časová razítka.  
+Už jste někdy potřebovali **vytvořit metadata čárového kódu PDF417** v C#, ale nebyli jste si jisti, které vlastnosti nastavit? Nejste v tom sami — vývojáři často narazí na problém, když specifikace vyžaduje například ID souboru, počet segmentů nebo vlastní časová razítka.
 
-Dobrou zprávou je, že Aspose.BarCode to dělá hračkou. V tomto tutoriálu vytvoříme `BarcodeGenerator` pro **Macro PDF417**, přidáme všechna důležitá metadata a výsledek uložíme jako PNG obrázek. Na konci budete mít plně vybavený čárový kód připravený pro jakýkoli systém řízení dodavatelského řetězce nebo správu dokumentů.
+Dobrou zprávou je, že Aspose.BarCode to dělá hračkou. V tomto tutoriálu spustíme `BarcodeGenerator` pro **Macro PDF417**, přidáme všechna důležitá metadata a výsledek uložíme jako PNG obrázek. Na konci budete mít plně funkční čárový kód připravený pro jakýkoli řetězec dodávek nebo systém správy dokumentů.
+
+## Rychlé odpovědi
+- **Jaká třída je hlavní pro generování čárových kódů?** Třída `BarcodeGenerator` vytváří obrázky čárových kódů na základě zadaných nastavení.  
+- **Které nastavení ovlivňuje ostrost obrázku?** Zvyšte `XDimension.Pixels` nebo použijte formát s vyšším rozlišením, například PNG.  
+- **Musím vyplnit všechna pole metadat?** Ne. Pouze pole požadovaná vaším downstream systémem jsou povinná.  
+- **Mohu vložit Unicode znaky?** Ano — Aspose.BarCode podporuje UTF‑8 přímo, jak ukazuje ukázkový text.  
+- **Kolik typů čárových kódů Aspose.BarCode podporuje?** Více než 30 symbologií, včetně PDF417 až do 5 000 modulů na délku.
 
 ## Co tento průvodce pokrývá
 
-Projdeme následující:
+Projdeme si:
 
 1. Nastavení NuGet balíčku Aspose.BarCode.  
 2. Inicializaci `BarcodeGenerator` pro **Macro PDF417**.  
-3. Vyplnění každého užitečného **pole metadat čárového kódu** (ID souboru, ID segmentu, kontrolní součet atd.).  
+3. Vyplnění všech užitečných **polí metadat čárového kódu** (ID souboru, ID segmentu, kontrolní součet atd.).  
 4. Uložení čárového kódu na disk a ověření výstupu.  
 
-Předchozí zkušenost s Macro PDF417 není vyžadována – stačí základní znalost C# a aktuální .NET runtime.  
+Předchozí zkušenost s Macro PDF417 není vyžadována — stačí základní znalost C# a aktuální .NET runtime.
 
-Proč by vás to mělo zajímat? Vkládání bohatých metadat přímo do čárového kódu umožňuje následným skenerům ověřovat celé přenosy souborů, detekovat chybějící segmenty nebo dokonce spouštět automatizované pracovní postupy. Jinými slovy získáte **robustní, samo‑popisná data** bez nutnosti samostatného databázového vyhledávání.
+Proč je to důležité? Vkládání bohatých metadat přímo do čárového kódu umožňuje downstream skenerům ověřovat celé přenosy souborů, detekovat chybějící segmenty nebo dokonce spouštět automatické workflow. Jinými slovy získáte **robustní, samodeskribující data** bez nutnosti samostatné databáze.
 
-## Požadavky
+## Jak vytvořit metadata čárového kódu PDF417 v C#?
 
-- .NET 6.0 nebo novější (kód funguje také na .NET Framework 4.7+).  
-- Visual Studio 2022 (nebo jakékoli IDE dle vašeho výběru).  
-- NuGet balíček **Aspose.BarCode for .NET** (k dispozici bezplatná zkušební verze).  
+Načtěte `BarcodeGenerator` nakonfigurovaný pro `EncodeTypes.MacroPdf417`, nastavte požadované vlastnosti metadat a zavolejte `Save`, aby se zapsal PNG soubor. Tento tříkrokový tok zvládá Unicode text, přiřadí jedinečné ID souboru a volitelně rozdělí velké payloady do více segmentů. Přístup funguje na .NET 6+, .NET Framework 4.7+ a vyžaduje pouze NuGet balíček Aspose.BarCode.
 
-Balíček můžete nainstalovat pomocí následujícího příkazu:
+### Krok 1: instalace NuGet balíčku Aspose.BarCode
+
+Můžete balíček nainstalovat následujícím příkazem:
 
 ```bash
 dotnet add package Aspose.BarCode
@@ -101,9 +108,9 @@ dotnet add package Aspose.BarCode
 
 Nyní, když máme základ, ponořme se do samotné implementace.
 
-## Krok 1: Inicializace BarcodeGenerator pro Macro PDF417
+## Krok 1: inicializace BarcodeGenerator pro Macro PDF417
 
-Prvním, co potřebujeme, je instance `BarcodeGenerator` nakonfigurovaná pro **Macro PDF417**. Tím říkáme Aspose.BarCode, který algoritmus kódování použít, a získáme místo pro zadání lidsky čitelného textu.
+Třída `BarcodeGenerator` vytváří obrázky čárových kódů na základě zadaných nastavení. Prvním, co potřebujeme, je instance `BarcodeGenerator` nakonfigurovaná pro **Macro PDF417**. Tím říkáme Aspose.BarCode, který kódovací algoritmus použít, a získáme místo, kam vložit lidsky čitelný text.
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -117,11 +124,11 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MacroPdf417
 }
 ```
 
-> **Proč je to důležité:** `EncodeTypes.MacroPdf417` aktivuje rozšířený režim PDF417, který podporuje metadata jako ID souboru a čísla segmentů. Vzorkový text obsahuje Unicode znaky (`Å`, `ó`, `©`), aby se ukázalo, že generátor zvládá vstup mimo ASCII bez problémů.
+> **Proč je to důležité:** `EncodeTypes.MacroPdf417` aktivuje rozšířený režim PDF417, který podporuje metadata jako ID souboru a čísla segmentů. Ukázkový text obsahuje Unicode znaky (`Å`, `ó`, `©`), aby se prokázalo, že generátor zvládá vstup mimo ASCII.
 
-## Krok 2: Definice základního vzhledu čárového kódu
+## Krok 2: definice základního vzhledu čárového kódu
 
-Než začneme přidávat metadata, měli bychom nastavit několik vizuálních parametrů, aby čárový kód nebyl mikroskopickou tečkou. `XDimension` řídí šířku modulu, zatímco `Columns` ovlivňuje celkový tvar.
+`XDimension` určuje šířku každého modulu čárového kódu v pixelech. Než začneme přidávat metadata, měli bychom nastavit několik vizuálních parametrů, aby čárový kód nebyl mikroskopickou tečkou. `XDimension` řídí šířku modulu, zatímco `Columns` ovlivňuje celkový tvar.
 
 ```csharp
 // Step 2: Define basic barcode appearance
@@ -129,11 +136,11 @@ generator.Parameters.Barcode.XDimension.Pixels = 2;   // module width
 generator.Parameters.Barcode.Pdf417.Columns = 5;     // number of columns
 ```
 
-> **Pro tip:** Šířka pixelu `2` funguje dobře pro zobrazení na obrazovce i většinu tiskáren. Pokud potřebujete vyšší rozlišení tisku, zvyšte ji na `3` nebo `4`.
+> **Tip:** Šířka pixelu `2` funguje dobře pro zobrazení na obrazovce i většinu tiskáren. Pokud potřebujete vyšší rozlišení, zvyšte ji na `3` nebo `4`.
 
-## Krok 3: Vyplnění polí metadat Macro PDF417
+## Krok 3: naplnění polí metadat Macro PDF417
 
-Nyní přichází jádro tutoriálu – přidání **polí metadat čárového kódu**. Každá vlastnost přímo odpovídá segmentu specifikace Macro PDF417.
+Nyní přichází jádro tutoriálu — přidání **polí metadat čárového kódu**. Každá vlastnost přímo odpovídá segmentu specifikace Macro PDF417.
 
 ```csharp
 // Step 3: Set Macro PDF417 metadata
@@ -151,35 +158,35 @@ generator.Parameters.Barcode.Pdf417.MacroPdf417Terminator = Pdf417MacroTerminato
 
 ### Co každá vlastnost dělá
 
-| Property | Účel | Typická hodnota |
-|----------|------|-----------------|
-| **MacroPdf417FileID** | Globálně jedinečný identifikátor pro celý souborový set. | `12345678` |
+| Property | Purpose | Typical value |
+|----------|---------|---------------|
+| **MacroPdf417FileID** | Globálně unikátní identifikátor celého souboru. | `12345678` |
 | **MacroPdf417SegmentID** | Index aktuálního segmentu (začíná na `0`). | `12` |
 | **MacroPdf417SegmentsCount** | Celkový počet segmentů očekávaných pro soubor. | `20` |
 | **MacroPdf417FileName** | Lidsky čitelný název, často původní název souboru. | `"file01"` |
 | **MacroPdf417Checksum** | 16‑bitový CCITT kontrolní součet pro detekci chyb. | `1234` |
 | **MacroPdf417FileSize** | Velikost původního souboru v bajtech. | `400000` |
 | **MacroPdf417TimeStamp** | Kdy byl soubor vygenerován. | `new DateTime(2019,11,1)` |
-| **MacroPdf417Addressee** | Volitelné pole udávající destinaci. | `"street"` |
-| **MacroPdf417Sender** | Volitelné pole udávající zdrojový systém. | `"aspose"` |
-| **MacroPdf417Terminator** | Příznak, který říká skeneru, že se jedná o poslední segment. | `Pdf417MacroTerminator.Set` |
+| **MacroPdf417Addressee** | Volitelné pole označující příjemce. | `"street"` |
+| **MacroPdf417Sender** | Volitelné pole označující odesílací systém. | `"aspose"` |
+| **MacroPdf417Terminator** | Příznak, který skeneru říká, že jde o poslední segment. | `Pdf417MacroTerminator.Set` |
 
-> **Proč je potřebujete:** Skenery, které rozumí Macro PDF417, mohou znovu sestavit multi‑segmentní soubor, ověřit integritu pomocí kontrolního součtu a dokonce odmítnout zastaralá data na základě časového razítka. To eliminuje potřebu samostatného manifest souboru.
+> **Proč to potřebujete:** Skenery, které rozumí Macro PDF417, dokážou znovu složit soubor z více segmentů, ověřit integritu pomocí kontrolního součtu a dokonce odmítnout zastaralá data na základě časového razítka. Tím se eliminuje potřeba samostatného manifest souboru.
 
-## Krok 4: Uložení obrázku čárového kódu
+## Krok 4: uložení obrázku čárového kódu
 
-Jakmile jsou všechny parametry nastaveny, jednoduše zavoláme `Save`. Příklad zapíše PNG soubor do složky, kterou určíte.
+`Save` zapíše vygenerovaný obrázek čárového kódu do souboru ve zvoleném formátu. Jakmile jsou všechny parametry nastaveny, jednoduše zavoláme `Save`. Příklad uloží PNG soubor do složky, kterou určíte.
 
 ```csharp
 // Step 4: Save the barcode image
 generator.Save("YOUR_DIRECTORY/ExtPDF417Meta.png", BarCodeImageFormat.Png);
 ```
 
-> **Okrajový případ:** Pokud plánujete později vložit čárový kód do PDF, můžete upřednostnit `BarCodeImageFormat.Jpeg` nebo `Pdf`. PNG zachovává bezztrátové detaily, což je užitečné pro ověření.
+> **Hraniční případ:** Pokud plánujete později vložit čárový kód do PDF, můžete raději použít `BarCodeImageFormat.Jpeg` nebo `Pdf`. PNG zachovává bezztrátové detaily, což je užitečné pro ověřování.
 
 ## Kompletní funkční příklad
 
-Spojením všeho dohromady získáte kompletní program, který můžete zkopírovat a vložit do konzolové aplikace:
+Sestavením všeho dohromady získáte kompletní program, který můžete zkopírovat a vložit do konzolové aplikace:
 
 ```csharp
 using System;
@@ -220,41 +227,71 @@ class Program
 
 ### Očekávaný výstup
 
-Spuštěním programu se vytvoří soubor s názvem **ExtPDF417Meta.png** ve složce spustitelného souboru. Otevřete jej libovolným prohlížečem obrázků a uvidíte hustý, vysoce kontrastní PDF417 čárový kód. Pokud jej naskenujete čtečkou čárových kódů, která podporuje Macro PDF417, skener vrátí nastavené hodnoty metadat – ID souboru `12345678`, segment `12` z `20` a tak dále.
+Spuštěním programu se vytvoří soubor **ExtPDF417Meta.png** ve složce spustitelného souboru. Otevřete jej v libovolném prohlížeči obrázků a uvidíte hustý, vysoce kontrastní PDF417 čárový kód. Pokud jej naskenujete čtečkou podporující Macro PDF417, čtečka vrátí nastavené hodnoty metadat — ID souboru `12345678`, segment `12` z `20` atd.
 
 ## Časté otázky a úskalí
 
-- **Co když čárový kód vypadá rozmazaně?** Zvyšte `XDimension.Pixels` nebo přepněte na formát obrázku s vyšším rozlišením.  
-- **Musím nastavit každé pole metadat?** Ne. Pouze pole požadovaná vaším následným systémem jsou povinná. Nepoužitá pole mohou zůstat v jejich výchozím nastavení.  
-- **Mohu automaticky generovat multi‑segmentní soubor?** Ano – projděte data v cyklu, inkrementujte `MacroPdf417SegmentID` a vygenerujte samostatný čárový kód pro každý segment. Nezapomeňte zachovat `MacroPdf417FileID` konzistentní napříč všemi segmenty.  
-- **Je podporováno Unicode?** Rozhodně. Vzorkový text obsahuje `Å`, `ó` a `©`, což ukazuje, že Aspose.BarCode zpracovává UTF‑8 přímo.
+- **Co když čárový kód vypadá rozmazaně?** Zvyšte `XDimension.Pixels` nebo přejděte na formát s vyšším rozlišením.  
+- **Musím nastavit všechna pole metadat?** Ne. Pouze pole požadovaná vaším downstream systémem jsou povinná. Nepoužitá pole mohou zůstat v defaultním stavu.  
+- **Mohu automaticky generovat soubor s více segmenty?** Ano — projít data v cyklu, inkrementovat `MacroPdf417SegmentID` a pro každý segment vygenerovat samostatný čárový kód. Nezapomeňte, aby `MacroPdf417FileID` zůstalo stejné napříč všemi segmenty.  
+- **Je podporována Unicode?** Rozhodně. Ukázkový text obsahuje `Å`, `ó` a `©`, což dokazuje, že Aspose.BarCode zvládá UTF‑8 přímo z krabice.
 
-## Další kroky: Přes základní použití
+## Často kladené otázky
 
-Nyní, když víte, jak **vytvořit metadata čárového kódu PDF417**, můžete chtít prozkoumat:
+**Q: Kolik formátů čárových kódů Aspose.BarCode podporuje?**  
+A: Aspose.BarCode podporuje více než 30 symbologií, včetně 1D, 2D a poštovních kódů, a může generovat PDF417 kódy až do 5 000 modulů na délku.
+
+**Q: Mohu vložit čárový kód přímo do PDF dokumentu?**  
+A: Ano — použijte knihovnu `Aspose.Pdf` k umístění vygenerovaného PNG nebo JPEG na stránku PDF a zachovejte vektorovou kvalitu.
+
+**Q: Jaké verze .NET jsou kompatibilní?**  
+A: Knihovna funguje s .NET Framework 4.7+, .NET Core 3.1, .NET 5, .NET 6 a novějšími.
+
+**Q: Jak mohu po skenování ověřit metadata?**  
+A: Použijte `BarcodeReader` s `DecodeType = DecodeType.MacroPdf417` a programově načtěte pole metadat.
+
+**Q: Existuje limit velikosti souboru, který mohu zakódovat?**  
+A: Aspose.BarCode zvládne soubory až do 10 MB surových dat v jednom Macro PDF417 proudu a automaticky rozdělí větší payloady do více segmentů.
+
+## Další kroky: za hranice základů
+
+Nyní, když víte, jak **vytvořit metadata čárového kódu PDF417**, můžete zkusit:
 
 - **Vkládání čárových kódů do PDF** pomocí `Aspose.Pdf` pro end‑to‑end generování dokumentů.  
-- **Čtení zpětných metadat** pomocí `BarcodeReader` pro programové ověřování skenů.  
-- **Přizpůsobení barev** (popředí/pozadí) pro brandingové účely.  
-- **Integrace s databází** pro automatické vyplňování polí jako `FileID` nebo `Timestamp`.  
+- **Načítání metadat zpět** s `BarcodeReader` pro programové ověřování skenů.  
+- **Přizpůsobení barev** (popředí/pozadí) pro branding.  
+- **Integraci s databází** pro automatické vyplňování polí jako `FileID` nebo `Timestamp`.
 
-Všechny tyto témata se vztahují k našim sekundárním klíčovým slovům – **macro pdf417**, **aspose barcode c#**, **barcode metadata fields** a **c# barcode generation** – takže najdete spoustu materiálu pro další učení.
+Všechny tyto témata souvisejí s našimi sekundárními klíčovými slovy — **increase barcode resolution**, **macro pdf417**, **aspose barcode c#**, **barcode metadata fields** a **c# barcode generation** — takže najdete spoustu materiálu pro další učení.
 
 ## Závěr
 
-Právě jsme prošli kompletním, připraveným příkladem pro produkci, jak **vytvořit metadata čárového kódu PDF417** v C#. Od instalace Aspose.BarCode, inicializace `BarcodeGenerator`, vyplnění každého relevantního **pole metadat čárového kódu**, až po finální uložení ostrého PNG, je proces jednoduchý, jakmile znáte správné vlastnosti.  
+Právě jsme prošli kompletním, produkčně připraveným příkladem, jak **vytvořit metadata čárového kódu PDF417** v C#. Od instalace Aspose.BarCode, přes inicializaci `BarcodeGenerator`, vyplnění všech relevantních **polí metadat čárového kódu**, až po uložení ostrého PNG, je proces přímočarý, jakmile znáte správné vlastnosti.  
 
-Vyzkoušejte to, upravte hodnoty a podívejte se, jak skenery reagují. Flexibilita Macro PDF417 vám umožní vložit vše, co následný systém potřebuje – vše v jediném, skenovatelném obrázku. Šťastné kódování a ať jsou vaše čárové kódy vždy bez chyb!
+Vyzkoušejte to, upravte hodnoty a sledujte, jak skenery reagují. Flexibilita Macro PDF417 vám umožní vložit vše, co downstream systém potřebuje — vše v jediném, skenovatelném obrázku. Šťastné programování a ať jsou vaše čárové kódy vždy bez chyb!
 
 ## Co byste se měli naučit dál?
 
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
+Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními krok za krokem, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
 
 - [Jak vytvořit čárový kód – Kompaktní PDF417 s Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [java knihovna čárových kódů – Přidat čárový kód do PDF pomocí Aspose](/barcode/english/java/barcode-basics/adding-barcode-to-pdf-document/)
-- [Jak vytvořit čárový kód – Kompaktní PDF417 s Aspose.BarCode](/barcode/german/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [java barcode library – Přidat čárový kód do PDF pomocí Aspose](/barcode/english/java/barcode-basics/adding-barcode-to-pdf-document/)
+- [So erstellen Sie einen Barcode – Kompaktes PDF417 mit Aspose.BarCode](/barcode/german/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+
+---  
+**Last Updated:** 2026-09-28  
+**Tested With:** Aspose.BarCode 24.10 for .NET  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Create Pdf417 Barcode With Aspose Barcode Step By Step Guide](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Aspose Barcode Example Generate Macro Pdf417 In C](/barcode/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/)
+- [How To Generate Pdf417 Barcode Image In C With Aspose](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
