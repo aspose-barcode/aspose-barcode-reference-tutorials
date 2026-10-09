@@ -238,11 +238,10 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [Как сгенерировать штрих‑код PDF417 в C# с помощью Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 Подробное руководство по созданию PDF417 штрих‑кода в C# с использованием Barcode Generator из Aspose.BarCode.
-### [Как сгенерировать штрих‑код PDF417 в C# – полное руководство по программированию](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+### [Как сгенерировать PDF417 штрих‑код в C# – полное руководство по программированию](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
 Подробное руководство по созданию PDF417 штрих‑кода в C# с использованием Aspose.BarCode.
 
 ### [Как создать учебник по генератору штрих‑кодов в C#, который создает компактные PDF417 штрих‑коды](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
-Подробное руководство по созданию учебника по генератору штрих‑кодов в C#, который создает компактные PDF417 штрих‑коды.
 
 ### [Как генерировать штрих‑коды PDF417 в C# с Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 Узнайте, как создавать штрих‑коды PDF417 в C# с помощью Aspose.BarCode, включая примеры кода и настройки.
@@ -265,6 +264,11 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 Узнайте, как сгенерировать macro PDF417 штрих‑код в C# с помощью Aspose.BarCode.
 ### [Создать штрих‑код PDF417 в C# – полное руководство](./create-pdf417-barcode-in-c-complete-guide/)
 Узнайте, как полностью создать PDF417 штрих‑код в C# с помощью Aspose.BarCode, включая все шаги и примеры кода.
+
+### [Генерация штрих‑кода PDF417 в C# с использованием Aspose – пошаговое руководство](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
+
+### [Как сгенерировать штрих‑код PDF417 и создать изображение штрих‑кода C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
+Узнайте, как сгенерировать штрих‑код PDF417 и сохранить его как изображение в C# с помощью Aspose.BarCode.
 
 ## Часто задаваемые вопросы
 ### [Как сгенерировать штрих‑код в C# с Aspose.BarCode и добавить метаданные](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
