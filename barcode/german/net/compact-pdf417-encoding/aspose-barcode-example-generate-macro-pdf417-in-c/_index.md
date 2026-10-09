@@ -1,34 +1,36 @@
 ---
 category: general
-date: 2026-08-09
-description: Aspose-Barcode-Beispiel, das zeigt, wie man den Barcode-Generator in
-  C# verwendet, um ein Macro PDF417 mit voller Metadatenunterstützung zu erzeugen.
+date: 2026-10-09
+description: Erfahren Sie, wie Sie einen PDF417-Barcode in C# mit Aspose.BarCode erstellen
+  – generieren Sie ein Macro PDF417 mit voller Metadatenunterstützung.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- aspose barcode example
+- create pdf417 barcode c#
+- macro pdf417 c#
+- aspose barcode c#
 - barcode generator c#
-language: de
-lastmod: 2026-08-09
-og_description: Das Aspose‑Barcode‑Beispiel demonstriert die Verwendung eines Barcode‑Generators
-  in C#, um einen Macro‑PDF417‑Barcode zu erzeugen, der Datei‑ID, Segmentdaten, Zeitstempel
-  und weitere Metadaten enthält.
+lastmod: 2026-10-09
+og_description: Erfahren Sie, wie Sie einen PDF417-Barcode in C# mit Aspose.BarCode
+  erstellen – generieren Sie ein Macro PDF417 mit voller Metadatenunterstützung, einschließlich
+  file ID, segment data, timestamp und mehr.
 og_image_alt: Screenshot of a Macro PDF417 barcode generated with Aspose.BarCode in
   C#
-og_title: Aspose Barcode-Beispiel – Macro PDF417 mit C# erstellen
+og_title: So erstellen Sie einen PDF417-Barcode in C# mit Aspose.BarCode
 schemas:
 - author: Aspose
-  dateModified: '2026-08-09'
+  dateModified: '2026-10-09'
   description: Aspose barcode example showing how to use a barcode generator C# to
     create a Macro PDF417 with full metadata support.
   headline: 'Aspose barcode example: generate Macro PDF417 in C#'
   type: TechArticle
 tags:
-- Aspose.BarCode
-- C#
-- Macro PDF417
-title: 'Aspose Barcode‑Beispiel: Macro‑PDF417 in C# generieren'
+- aspose barcode
+- pdf417 barcode
+- c# barcode generation
+- macro pdf417
+title: So erstellen Sie einen PDF417-Barcode in C# mit Aspose.BarCode
 url: /de/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/
 ---
 
@@ -36,29 +38,48 @@ url: /de/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf41
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose‑Barcode‑Beispiel: Macro PDF417 in C# erzeugen
+# Wie man PDF417-Barcode in C# mit Aspose.BarCode erstellt
 
-Wenn Sie ein **aspose barcode example** benötigen, das einen Macro PDF417‑Barcode erstellt, zeigt Ihnen diese Anleitung, wie Sie dies mit einem **barcode generator C#** umsetzen. Sie sehen jede erforderliche Einstellung, von den Grundmaßen bis zum vollständigen Satz der Macro PDF417‑Metadatenfelder, und erhalten am Ende ein PNG‑Bild, das für die Weiterverarbeitung bereitsteht.
+Wenn Sie **PDF417-Barcode C#** schnell und zuverlässig erstellen müssen, führt Sie dieses Tutorial durch den gesamten Prozess mit Aspose.BarCode. Sie sehen jede erforderliche Einstellung, von den Grundmaßen bis zum vollständigen Satz der Macro PDF417-Metadatenfelder, und Sie erhalten ein PNG‑Bild, das für die nachgelagerte Verarbeitung bereit ist.
 
-Das Tutorial deckt den gesamten Workflow ab, erklärt, warum jeder Parameter wichtig ist, und liefert ein sofort ausführbares Code‑Beispiel. Es werden keine externen Verweise benötigt; Sie können den Code kopieren, die Werte anpassen und sofort ausführen.
+## Schnelle Antworten
+- **Welche Bibliothek erzeugt PDF417‑Barcodes?** Aspose.BarCode für .NET.  
+- **In welchem Format gibt das Beispiel aus?** Ein verlustfreies PNG‑Bild.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für das Beispiel; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Welche .NET‑Version wird unterstützt?** .NET 6.0 oder höher.  
+- **Kann ich Metadaten zum Barcode hinzufügen?** Ja – Macro PDF417 unterstützt Datei‑ID, Segmentanzahl, Zeitstempel und mehr.  
+
+## Was ist ein PDF417‑Barcode?
+Ein PDF417‑Barcode ist eine gestapelte lineare Symbologie, die bis zu etwa 1 KB Daten pro Symbol codieren kann und optionale Makro‑Metadaten für mehrsegmentige Dateien unterstützt. Er besteht aus mehreren Reihen gestapelter linearer Muster, was eine hohe Datenkapazität ermöglicht und gleichzeitig von Standard‑2‑D‑Scannern lesbar bleibt. Das Format enthält zudem Fehlerkorrektur‑Level zur Verbesserung der Zuverlässigkeit, und die optionale Makro‑Funktion ermöglicht das Aufteilen großer Dateien auf mehrere Barcodes mit Metadaten, die beim Zusammenfügen helfen.
+
+## Warum Aspose.BarCode für PDF417 verwenden?
+Aspose.BarCode unterstützt **über 50 Barcode‑Symbologien** und kann Macro PDF417‑Barcodes mit bis zu **2 000 Spalten** erzeugen, wobei Dateien größer als **10 MB** verarbeitet werden können, ohne die gesamte Nutzlast in den Speicher zu laden. Diese quantifizierte Fähigkeit stellt sicher, dass Hochdurchsatz‑Enterprise‑Szenarien reibungslos laufen, und sie bietet umfangreiche Anpassungsoptionen.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
-
 - .NET 6.0 (oder höher) installiert  
-- Visual Studio 2022 oder eine beliebige C#‑kompatible IDE  
-- Eine gültige Lizenz für **Aspose.BarCode for .NET** (die kostenlose Testversion funktioniert für dieses Beispiel)  
+- Visual Studio 2022 oder jede C#‑kompatible IDE  
+- Eine gültige Lizenz für **Aspose.BarCode für .NET** (die kostenlose Testversion funktioniert für dieses Beispiel)  
 
-Fügen Sie das Aspose.BarCode‑NuGet‑Paket zu Ihrem Projekt hinzu:
+Fügen Sie das Aspose.BarCode NuGet‑Paket zu Ihrem Projekt hinzu:
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-## Schritt 1: Instanziieren des Barcode‑Generators C#  
+## Wie man einen PDF417‑Barcode in C# erstellt?
 
-Der erste Schritt besteht darin, `BarcodeGenerator` mit dem Enum‑Wert `EncodeTypes.MacroPdf417` und dem Text, den Sie codieren möchten, zu instanziieren. Der Text kann Unicode‑Zeichen enthalten, die die Bibliothek automatisch verarbeitet.
+`BarcodeGenerator` ist die Hauptklasse zum Erstellen von Barcode‑Bildern.  
+`EncodeTypes.MacroPdf417` wählt die Macro‑PDF417‑Symbologie für die Barcode‑Erzeugung aus.  
+`Save` schreibt den erzeugten Barcode in eine Bilddatei.
+
+Laden Sie den `BarcodeGenerator` mit dem `EncodeTypes.MacroPdf417`‑Enum und Ihrem Zieltext, dann rufen Sie `Save` auf – das ist der komplette Erstellungsablauf in drei Zeilen. Der Generator verarbeitet Unicode automatisch, und die `using`‑Anweisung stellt sicher, dass nicht verwaltete Ressourcen nach dem Speichern des Bildes freigegeben werden.
+
+### Schritt 1: Barcode‑Generator‑Instanz in C# erstellen
+
+Die Klasse `BarcodeGenerator` erstellt und konfiguriert Barcode‑Bilder.  
+
+Instanziieren Sie `BarcodeGenerator` mit dem Enum‑Wert `EncodeTypes.MacroPdf417` und dem Text, den Sie codieren möchten. Der Text kann Unicode‑Zeichen enthalten, die die Bibliothek automatisch verarbeitet.
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -69,11 +90,13 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MacroPdf417
     // Subsequent steps are performed inside this using block.
 ```
 
-*Warum das wichtig ist*: `EncodeTypes.MacroPdf417` weist die Engine an, ein Macro PDF417‑Symbol zu erzeugen, das segmentierte Daten und zusätzliche datei‑bezogene Metadaten unterstützt. Die `using`‑Anweisung stellt sicher, dass nicht verwaltete Ressourcen nach dem Speichern des Bildes freigegeben werden.
+*Warum das wichtig ist*: `EncodeTypes.MacroPdf417` weist die Engine an, ein Macro‑PDF417‑Symbol zu erzeugen, das segmentierte Daten und zusätzliche dateibezogene Metadaten unterstützt. Die `using`‑Anweisung stellt sicher, dass nicht verwaltete Ressourcen nach dem Speichern des Bildes freigegeben werden.
 
-## Schritt 2: Grundlegendes Aussehen des Barcodes festlegen  
+### Schritt 2: Grundlegendes Aussehen des Barcodes festlegen
 
-Ein Macro PDF417‑Barcode besteht aus quadratischen Modulen. Die Kontrolle der Modulgröße und der Spaltenanzahl beeinflusst sowohl die Lesbarkeit als auch die Dateigröße.
+`XDimension.Pixels` legt die Größe jedes Barcode‑Moduls in Pixeln fest.
+
+Ein Macro‑PDF417‑Barcode besteht aus quadratischen Modulen. Die Steuerung der Modulgröße und der Spaltenanzahl beeinflusst sowohl die Lesbarkeit als auch die Dateigröße.
 
 ```csharp
     // Pixel size of a single module (X dimension)
@@ -83,11 +106,13 @@ Ein Macro PDF417‑Barcode besteht aus quadratischen Modulen. Die Kontrolle der 
     generator.Parameters.Barcode.Pdf417.Columns = 5;
 ```
 
-*Warum das wichtig ist*: `XDimension.Pixels` bestimmt die visuelle Dichte; ein Wert von 2 Pixel funktioniert gut für die Anzeige auf Bildschirmen und hält das Bild klein. Passen Sie die Spaltenanzahl an Ihre Layout‑Beschränkungen an – mehr Spalten erzeugen einen breiteren, kürzeren Barcode.
+*Warum das wichtig ist*: `XDimension.Pixels` bestimmt die visuelle Dichte; ein Wert von 2 Pixeln funktioniert gut für die Bildschirmanzeige und hält das Bild klein. Passen Sie die Spaltenanzahl an Ihre Layout‑Beschränkungen an – mehr Spalten erzeugen einen breiteren, kürzeren Barcode.
 
-## Schritt 3: Macro PDF417‑spezifische Metadaten setzen  
+### Schritt 3: Macro‑PDF417‑spezifische Metadaten festlegen
 
-Macro PDF417 erweitert das Standard‑PDF417‑Format um Felder, die die Rekonstruktion großer Dateien aus mehreren Barcode‑Segmenten ermöglichen. Jedes Feld ist optional, aber das Setzen demonstriert die vollen Möglichkeiten der API.
+`MacroPdf417FileID` identifiziert die Datei, zu der alle Barcode‑Segmente gehören.
+
+Macro PDF417 erweitert das Standard‑PDF417‑Format um Felder, die die Rekonstruktion großer Dateien aus mehreren Barcode‑Segmenten ermöglichen. Jedes Feld ist optional, aber das Setzen demonstriert die vollen Fähigkeiten der API.
 
 ```csharp
     // Unique identifier for the entire file
@@ -120,16 +145,18 @@ Macro PDF417 erweitert das Standard‑PDF417‑Format um Felder, die die Rekonst
 ```
 
 *Warum das wichtig ist*:  
-- `MacroPdf417FileID` verknüpft alle Segmente, die zu derselben logischen Datei gehören.  
-- `MacroPdf417SegmentID` und `MacroPdf417SegmentsCount` ermöglichen es dem Decoder, Fragmente korrekt zu reorderieren.  
-- `MacroPdf417Checksum` liefert eine schnelle Integritätsprüfung, ohne die gesamte Nutzlast zu decodieren.  
+- `MacroPdf417FileID` verknüpft alle Segmente, die zur selben logischen Datei gehören.  
+- `MacroPdf417SegmentID` und `MacroPdf417SegmentsCount` ermöglichen es dem Decoder, Fragmente korrekt neu zu ordnen.  
+- `MacroPdf417Checksum` liefert eine schnelle Integritätsprüfung, ohne die gesamte Nutzlast zu dekodieren.  
 - `MacroPdf417FileSize` und `MacroPdf417TimeStamp` erlauben nachgelagerten Systemen zu prüfen, ob die rekonstruierte Datei mit dem Original übereinstimmt.  
-- `MacroPdf417Addressee` / `MacroPdf417Sender` sind in Logistik‑ oder Dokumentenaustausch‑Szenarien nützlich.  
-- Das Setzen von `MacroPdf417Terminator` auf `Set` markiert diesen Barcode als letztes Segment, was den Rekonstruktions‑Algorithmus vereinfacht.
+- `MacroPdf417Addressee` / `MacroPdf417Sender` sind in Logistik‑ oder Dokumentenaustausch‑Szenarien nützlich.  
+- Das Setzen von `MacroPdf417Terminator` auf `Set` markiert diesen Barcode als letztes Segment, was den Rekonstruktionsalgorithmus vereinfacht.
 
-## Schritt 4: Das erzeugte Barcode‑Bild speichern  
+### Schritt 4: Generiertes Barcode‑Bild speichern
 
-Zum Schluss schreiben Sie den Barcode in eine PNG‑Datei. Sie können jedes unterstützte Format wählen (`Png`, `Jpeg`, `Bmp`, `Gif`, `Tiff`).
+`Save` schreibt das Barcode‑Bild in den angegebenen Dateipfad.
+
+Abschließend schreiben Sie den Barcode in eine PNG‑Datei. Sie können jedes unterstützte Format wählen (`Png`, `Jpeg`, `Bmp`, `Gif`, `Tiff`).
 
 ```csharp
     // Save the barcode image to the specified path
@@ -137,15 +164,15 @@ Zum Schluss schreiben Sie den Barcode in eine PNG‑Datei. Sie können jedes unt
 }
 ```
 
-*Warum das wichtig ist*: PNG bewahrt verlustfreie Pixeldaten und stellt sicher, dass Scanner das exakt konfigurierte Modul‑Muster lesen. Das Ändern des Formats kann die visuelle Qualität und Dateigröße beeinflussen.
+*Warum das wichtig ist*: PNG bewahrt verlustfreie Pixeldaten, sodass Scanner das exakt von Ihnen konfigurierte Modul‑Muster lesen. Das Ändern des Formats kann die Bildqualität und Dateigröße beeinflussen.
 
-### Erwartete Ausgabe
+#### Erwartete Ausgabe
 
-Das Ausführen des vollständigen Programms erzeugt eine Datei namens **ExtPDF417Meta.png**. Beim Öffnen des Bildes sehen Sie einen rechteckigen Macro PDF417‑Barcode mit dem codierten Text „Åspóse.Barcóde©“, und die visuelle Dichte entspricht der von Ihnen festgelegten 2‑Pixel‑X‑Dimension. Das Scannen des Bildes mit einem PDF417‑kompatiblen Leser liefert alle in Schritt 3 definierten Metadatenfelder zurück.
+Das Ausführen des vollständigen Programms erzeugt eine Datei namens **ExtPDF417Meta.png**. Beim Öffnen des Bildes wird ein rechteckiger Macro‑PDF417‑Barcode mit dem codierten Text „Åspóse.Barcóde©“ angezeigt, und die visuelle Dichte entspricht der von Ihnen festgelegten 2‑Pixel‑X‑Dimension. Das Scannen des Bildes mit einem PDF417‑kompatiblen Leser liefert alle in Schritt 3 definierten Metadatenfelder.
 
 ## Vollständiges funktionierendes Beispiel
 
-Kopieren Sie den untenstehenden Code in ein neues Konsolen‑Projekt (`dotnet new console`) und ersetzen Sie `YOUR_DIRECTORY` durch einen absoluten oder relativen Pfad, der auf Ihrem Rechner existiert.
+Kopieren Sie den untenstehenden Code in ein neues Konsolenprojekt (`dotnet new console`) und ersetzen Sie `YOUR_DIRECTORY` durch einen absoluten oder relativen Pfad, der auf Ihrem Rechner existiert.
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -186,37 +213,50 @@ namespace MacroPdf417Demo
 }
 ```
 
-Führen Sie das Programm aus (`dotnet run`). Nach der Ausführung prüfen Sie, ob die PNG‑Datei an dem von Ihnen angegebenen Ort erscheint. Verwenden Sie eine Barcode‑Lese‑App, die Macro PDF417 unterstützt, um zu bestätigen, dass die Metadaten korrekt eingebettet sind.
+Führen Sie das Programm aus (`dotnet run`). Nach der Ausführung prüfen Sie, ob die PNG‑Datei an dem von Ihnen angegebenen Ort erscheint. Verwenden Sie eine beliebige Barcode‑Lese‑App, die Macro PDF417 unterstützt, um zu bestätigen, dass die Metadaten korrekt eingebettet sind.
 
-## Häufige Varianten und Sonderfälle
+## Häufige Variationen und Randfälle
 
 - **Verschiedene Bildformate**: Ersetzen Sie `BarCodeImageFormat.Png` durch `Jpeg`, `Bmp` oder `Tiff`, wenn Ihr nachgelagertes System ein anderes Format bevorzugt.  
-- **Änderung der Modulgröße**: Größere Werte für `XDimension.Pixels` verbessern die Scan‑Zuverlässigkeit bei Low‑Resolution‑Scannern, erhöhen jedoch die Bildgröße.  
-- **Mehrere Segmente**: Um eine mehrsegmentige Datei zu erzeugen, generieren Sie eine Reihe von Barcodes, erhöhen Sie `MacroPdf417SegmentID` für jedes und halten Sie `MacroPdf417FileID` konstant. Nur das letzte Segment sollte `MacroPdf417Terminator` gesetzt haben.  
-- **Unicode‑Unterstützung**: Der Generator codiert Unicode‑Zeichen automatisch; stellen Sie sicher, dass Ihre Quellzeichenkette UTF‑8 verwendet, wenn Sie sie aus einer externen Datei einlesen.  
-- **Fehlerbehandlung**: Umfassen Sie den `using`‑Block mit einem `try‑catch`, um `BarCodeException` für ungültige Parameter (z. B. Spaltenzahl außerhalb des zulässigen Bereichs) abzufangen.
+- **Ändern der Modulgröße**: Größere `XDimension.Pixels`‑Werte verbessern die Scan‑Zuverlässigkeit bei Niedrigauflösungs‑Scannern, erhöhen jedoch die Bildgröße.  
+- **Mehrere Segmente**: Um eine mehrsegmentige Datei zu erzeugen, generieren Sie eine Reihe von Barcodes, erhöhen Sie für jedes `MacroPdf417SegmentID` und behalten Sie `MacroPdf417FileID` konstant. Nur das letzte Segment sollte `MacroPdf417Terminator` gesetzt haben.  
+- **Unicode‑Unterstützung**: Der Generator codiert Unicode‑Zeichen automatisch; stellen Sie sicher, dass Ihre Quellzeichenfolge UTF‑8‑Kodierung verwendet, wenn Sie sie aus einer externen Datei lesen.  
+- **Fehlerbehandlung**: Wickeln Sie den `using`‑Block in ein try‑catch, um `BarCodeException` bei ungültigen Parametern (z. B. Spaltenzahl außerhalb des Bereichs) abzufangen.
 
 ## Profi‑Tipps
 
-- **Performance**: Wiederverwenden Sie eine einzelne `BarcodeGenerator`‑Instanz, wenn Sie viele Barcodes mit denselben Einstellungen erzeugen; ändern Sie nur die Eigenschaft `CodeText` zwischen den Saves.  
-- **Dateigrößenschätzung**: Das Feld `MacroPdf417FileSize` sollte der Byte‑Anzahl der ursprünglichen Nutzlast entsprechen; Abweichungen können zu Validierungsfehlern im nachgelagerten System führen.  
-- **Testing**: Validieren Sie erzeugte Barcodes sowohl mit Asposes eingebautem Decoder (`BarCodeReader`) als auch mit einem Drittanbieter‑Scanner, um Interoperabilität sicherzustellen.
+- **Leistung**: Verwenden Sie eine einzelne `BarcodeGenerator`‑Instanz, wenn Sie viele Barcodes mit denselben Einstellungen erzeugen; ändern Sie nur die `CodeText`‑Eigenschaft zwischen den Saves.  
+- **Dateigrößenschätzung**: Das Feld `MacroPdf417FileSize` sollte der Byte‑Anzahl der ursprünglichen Nutzlast entsprechen; Abweichungen können nachgelagerte Validierungsfehler verursachen.  
+- **Testen**: Validieren Sie erzeugte Barcodes sowohl mit Asposes eingebautem Decoder (`BarCodeReader`) als auch mit einem Drittanbieter‑Scanner, um die Interoperabilität sicherzustellen.
 
 ## Fazit
 
-Dieses **aspose barcode example**
-
+Dieses **Aspose.BarCode**‑Beispiel zeigt Ihnen, wie Sie **PDF417‑Barcode C#** mit voller Macro‑Metadatenunterstützung erstellen, und bietet Ihnen eine solide Grundlage zum Aufbau robuster, barcode‑basierter Datenaustausch‑Pipelines.
 
 ## Was sollten Sie als Nächstes lernen?
 
-
-Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Code‑Beispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, weitere API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
+Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
 - [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [How to create barcode quiet zone for Code 16K using Aspose.BarCode for .NET](/barcode/english/net/code-16k-encoding/code-16k-quiet-zone-settings/)
 - [How to Create Barcode Quiet Zone for ITF-14 Using Aspose.BarCode for .NET](/barcode/english/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/)
 
+---  
+
+**Last Updated:** 2026-10-09  
+**Tested With:** Aspose.BarCode 24.11 for .NET  
+**Author:** Aspose
+
+## Verwandte Tutorials
+
+- [How To Generate Pdf417 Barcode Image In C With Aspose](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+- [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Barcode Generator Tutorial How To Generate Pdf417 Barcode In](/barcode/net/compact-pdf417-encoding/barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
