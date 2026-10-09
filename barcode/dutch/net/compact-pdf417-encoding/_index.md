@@ -167,12 +167,12 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 
 ### [Compact PDF417-barcode maken](./compact-pdf417-basic-configuration/)
 Leer hoe je Compact PDF417 barcodes genereert met Aspose.BarCode voor .NET. Uitgebreide gids met stap‑voor‑stap instructies en code‑voorbeelden.
-### [Hoe PDF417-barcode genereren in C# – volledige programmeergids](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
-
 - [PDF417-barcode maken met Aspose.BarCode – stapsgewijze gids](./create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
 - [Hoe PDF417-barcode genereren in C# met Barcode Generator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
+### [Hoe PDF417-barcode genereren in C# – volledige programmeergids](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+
 ### [Hoe PDF417-barcode genereren in C# en de barcodegrootte instellen](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
-Leer hoe je een PDF417 barcode maakt in C# en de grootte ervan aanpast met Aspose.BarCode.
+Leer hoe je een PDF417-barcode maakt in C# en de grootte ervan aanpast met Aspose.BarCode.
 
 ### [Hoe micro PDF417 barcode te maken in C# – stap‑voor‑stap gids](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 Leer hoe je een micro PDF417 barcode genereert in C# met Aspose.BarCode, inclusief configuratie en opslaan.
@@ -184,7 +184,7 @@ Leer hoe je met Aspose.BarCode een Macro PDF417 barcode genereert in C#.
 Leer hoe je PDF417-barcodes kunt scannen en decoderen in C# met Aspose.BarCode, inclusief voorbeeldcode en foutafhandeling.
 
 ### [Hoe PDF417-barcode te maken in C# en op te slaan als PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
-Leer hoe je een PDF417 barcode genereert in C# en opslaat als PNG-afbeelding met Aspose.BarCode.
+Leer hoe je een PDF417-barcode genereert in C# en opslaat als PNG-afbeelding met Aspose.BarCode.
 
 ### [PDF417 Barcode maken met Aspose – Complete gids](./create-pdf417-barcode-with-aspose-complete-guide/)
 
@@ -294,10 +294,12 @@ Leer hoe je PDF417-barcodes decodeert in C# met Aspose.BarCode, inclusief voorbe
 - [Hoe PDF417 barcode genereren in C# met aangepaste afmetingen](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
 - [Hoe micro PDF417 barcode te genereren in C# – stapsgewijze gids](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [Hoe PDF417-barcodes te decoderen in C# met BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+- [Hoe een barcode‑generator‑tutorial in C# te bouwen die compacte PDF417‑barcodes maakt](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
+- [Barcodegenerator C#‑gids: MicroPdf417 maken](./barcode-generator-c-guide-create-micropdf417/)
 ## Veelgestelde vragen
 
 **Q: Wat is de maximale hoeveelheid data die ik kan opslaan in een Compact PDF417 barcode?**  
-A: Tot ongeveer 2 KB tekst of binaire data, afhankelijk van het gekozen fout‑correctieniveau dat je kiest.
+A: Tot ongeveer 2 KB tekst of binaire data, afhankelijk van het fout‑correctieniveau dat je kiest.
 
 **Q: Hoe verschilt PDF417 foutcorrectie van andere barcode‑typen?**  
 A: PDF417 gebruikt Reed‑Solomon‑codes, met acht selecteerbare niveaus (0‑8) waarmee je de redundantie kunt afstemmen op de symboolgrootte.
@@ -324,8 +326,6 @@ A: Geen externe lettertypen zijn nodig; de bibliotheek verwerkt alle rendering i
 - [Hoe Aztec barcode maken met foutcorrectie in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [Hoe PDF417-barcode te maken en de grootte in C# in te stellen](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
 - [Macro PDF417 barcode maken met Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
-- [Hoe een barcode‑generator‑tutorial in C# te bouwen die compacte PDF417‑barcodes maakt](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
-- [Barcodegenerator C#‑gids: MicroPdf417 maken](./barcode-generator-c-guide-create-micropdf417/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
