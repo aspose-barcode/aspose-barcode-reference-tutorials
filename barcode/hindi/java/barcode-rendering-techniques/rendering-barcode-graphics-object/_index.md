@@ -207,7 +207,6 @@ A: बिल्कुल। आउटपुट फ़ॉर्मेट बद�
 **परीक्षित संस्करण:** Aspose.BarCode for Java 24.11  
 **लेखक:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## संबंधित ट्यूटोरियल
 

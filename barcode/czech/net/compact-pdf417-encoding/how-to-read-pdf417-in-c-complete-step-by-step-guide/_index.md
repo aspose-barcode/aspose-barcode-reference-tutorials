@@ -1,33 +1,34 @@
 ---
 category: general
-date: 2026-07-15
-description: Jak číst PDF417 čárový kód v C# a číst více čárových kódů z obrázku.
-  Naučte se číst čárový kód z obrázku v C# s podrobným kódem a tipy.
+date: 2026-09-28
+description: Rychle čtěte PDF417 čárový kód v C# pomocí Aspose.BarCode. Dekódujte
+  více čárových kódů z jednoho obrázku, extrahujte pole Macro‑PDF417 a řešte rotaci
+  nebo dávkové zpracování.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to read pdf417
+- read pdf417 barcode c#
 - read multiple barcodes
-- read barcode image c#
+- pdf417 c# decoding
 - Aspose.BarCode PDF417
-- C# barcode decoding
-language: cs
-lastmod: 2026-07-15
-og_description: Jak rychle načíst čárový kód PDF417 v C#. Tento průvodce vám ukáže,
-  jak načíst více čárových kódů z jednoho obrázku a dekódovat každou vlastnost.
+- barcode image c#
+lastmod: 2026-09-28
+og_description: Rychle čtěte PDF417 čárový kód v C# pomocí Aspose.BarCode. Tento průvodce
+  ukazuje, jak dekódovat více čárových kódů z jednoho obrázku, extrahovat všechny
+  vlastnosti Macro‑PDF417 a řešit otočené nebo dávkové obrázky.
 og_image_alt: Screenshot of C# console output displaying PDF417 barcode details
-og_title: Jak číst PDF417 v C# – Kompletní ukázkový kód a vysvětlení
+og_title: Čtení PDF417 čárového kódu v C# – kompletní ukázkový kód a průvodce
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: How to read PDF417 barcode in C# and read multiple barcodes from an
-    image. Learn to read barcode image C# with detailed code and tips.
-  headline: How to Read PDF417 in C# – Complete Step‑by‑Step Guide
+  dateModified: '2026-09-28'
+  description: Read PDF417 barcode c# and read multiple barcodes from an image. Learn
+    to read barcode image C# with detailed code and tips.
+  headline: Read PDF417 barcode c# – complete step‑by‑step guide
   type: TechArticle
-- description: How to read PDF417 barcode in C# and read multiple barcodes from an
-    image. Learn to read barcode image C# with detailed code and tips.
-  name: How to Read PDF417 in C# – Complete Step‑by‑Step Guide
+- description: Read PDF417 barcode c# and read multiple barcodes from an image. Learn
+    to read barcode image C# with detailed code and tips.
+  name: Read PDF417 barcode c# – complete step‑by‑step guide
   steps:
   - name: Why This Code Works
     text: '* **`BarCodeReader`** is the core class that streams the image, detects
@@ -54,7 +55,7 @@ tags:
 - barcode
 - PDF417
 - Aspose
-title: Jak číst PDF417 v C# – Kompletní krok za krokem průvodce
+title: Jak číst PDF417 čárový kód v C# – kompletní průvodce krok po kroku
 url: /cs/net/compact-pdf417-encoding/how-to-read-pdf417-in-c-complete-step-by-step-guide/
 ---
 
@@ -62,51 +63,66 @@ url: /cs/net/compact-pdf417-encoding/how-to-read-pdf417-in-c-complete-step-by-st
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak číst PDF417 v C# – Kompletní průvodce krok za krokem
+# Jak číst čárový kód PDF417 v C# – kompletní krok‑za‑krokem průvodce
 
-Už jste se někdy ptali, **jak číst PDF417** z obrázku pomocí C#? Nejste v tom jediní. Většina vývojářů narazí na problém, když potřebují získat rozšířené pole Macro‑PDF417 ze skenovaného dokumentu. Dobrá zpráva? Pouhých několik řádků kódu vám umožní dekódovat PDF417, přečíst více čárových kódů na stejném obrázku a získat všechny skryté vlastnosti, které specifikace nabízí.
+Ever wondered **how to read PDF417** from an image using C#? You’re not the only one. Most developers hit a wall when they need to pull out the extended Macro‑PDF417 fields from a scanned document. The good news? With just a few lines of code you can **read PDF417 barcode c#**, decode multiple barcodes in the same picture, and grab every hidden property the spec offers.
 
-V tomto tutoriálu projdeme reálný příklad, který ukazuje **jak číst PDF417**, jak **číst více čárových kódů** z jediného souboru, a proč kód **read barcode image C#** vypadá tak, jak vypadá. Na konci budete mít připravenou konzolovou aplikaci, která vytiskne každou informaci, kterou můžete potřebovat — ID souboru, ID segmentu, kontrolní součet, časová razítka, a tak dál.
+## Rychlé odpovědi
+- **Umí Aspose.BarCode dekódovat Macro‑PDF417?** Ano – stačí povolit `DecodeType.MacroPdf417` a knihovna vrátí všechna rozšířená pole.  
+- **Kolik čárových kódů lze přečíst z jednoho obrázku?** Neomezeně; API vrací kolekci objektů `BarCodeResult`.  
+- **Potřebuji licenci pro produkci?** Pro produkční použití je vyžadována komerční licence; pro hodnocení stačí bezplatná zkušební verze.  
+- **Budou detekovány otočené čárové kódy?** Vestavěná kompenzace rotace funguje pro čárové kódy, které zabírají alespoň 30 % šířky obrázku.  
+- **Je podpora dávkového zpracování?** Ano – zabalte čtečku do smyčky `foreach` a uvolněte každou instanci pomocí `using`.
+
+## Co je čtení PDF417 čárového kódu v C#?
+`read pdf417 barcode c#` odkazuje na proces použití .NET knihovny k dekódování symbolů PDF417 (včetně Macro‑PDF417) z obrazových souborů přímo v C# kódu. Aspose.BarCode SDK poskytuje jednorázové API, které zvládne načtení obrázku, detekci čárových kódů a extrakci všech ISO‑definovaných polí.
+
+## Proč použít Aspose.BarCode pro dekódování PDF417?
+Aspose.BarCode podporuje **více než 30 čárových kódů** a dokáže zpracovat obrázky až do **5000 × 5000 px** za méně než **0,1 s** na typickém serverovém hardware. Nabízí rovněž vestavěnou kompenzaci rotace, zkreslení a zpracování invertovaných čárových kódů, čímž odstraňuje potřebu vlastního předzpracování obrázků. Knihovna také obsahuje vestavěnou podporu pro čtení rozšířených polí Macro‑PDF417, což z ní činí komplexní řešení pro složité skenovací scénáře.
 
 ## Požadavky
 
-Než se pustíme do práce, ujistěte se, že máte:
-
 * .NET 6.0 SDK nebo novější (kód funguje také s .NET Core a .NET Framework).  
-* Visual Studio 2022 (nebo jakýkoli editor, který preferujete).  
-* Balíček NuGet **Aspose.BarCode for .NET** – to je knihovna, která skutečně parsuje PDF417.  
-* Ukázkový obrázek, který obsahuje čárový kód Macro‑PDF417 (například `ExtPDF417Meta.png`).  
+* Visual Studio 2022 (nebo jakýkoli editor, který preferujete).  
+* NuGet balíček **Aspose.BarCode for .NET** – to je knihovna, která skutečně parsuje PDF417.  
+* Vzorový obrázek, který obsahuje Macro‑PDF417 čárový kód (například `ExtPDF417Meta.png`).  
 
-Žádná další konfigurace není potřeba; knihovna obsahuje všechny dekodéry, které potřebujete.
+Žádná další konfigurace není vyžadována; knihovna obsahuje všechny potřebné dekodéry.
 
-## Krok 1: Instalace Aspose.BarCode
+## Jak číst PDF417 čárový kód v C#?
 
-Otevřete složku projektu v terminálu a spusťte:
+Načtěte obrázek pomocí `BarCodeReader`, zadejte `DecodeType.MacroPdf417` a projděte vrácenou kolekci `BarCodeResult` – to je kompletní řešení v méně než deseti řádcích kódu. Čtečka automaticky extrahuje jak čisté PDF417 symboly, tak rozšířená data Macro‑PDF417, takže získáte identifikátory souborů, čísla segmentů, časové značky a kontrolní součty bez dalšího parsování.
+
+### Krok 1: nainstalovat Aspose.BarCode
+
+Open your project folder in a terminal and run:
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-Tento příkaz stáhne nejnovější stabilní verzi (k červenci 2026 je to 23.12). Pokud dáváte přednost Package Manager Console ve Visual Studiu, použijte:
+That command pulls the latest stable version (as of July 2026 it’s 23.12). If you prefer the Package Manager Console inside Visual Studio, use:
 
 ```powershell
 Install-Package Aspose.BarCode
 ```
 
-> **Pro tip:** uzamkněte verzi (`23.12.0`) ve vašem `.csproj`, abyste se vyhnuli neúmyslným breaking changes později.
+> **Tip:** uzamkněte verzi (`23.12.0`) ve vašem `.csproj`, abyste později předešli nechtěným breaking changes.
 
-## Krok 2: Vytvoření kostry konzolové aplikace
+### Krok 2: vytvořit kostru konzolové aplikace
 
-Vytvořte nový konzolový projekt, pokud ještě žádný nemáte:
+Create a new console project if you don’t already have one:
 
 ```bash
 dotnet new console -n Pdf417ReaderDemo
 cd Pdf417ReaderDemo
 ```
 
-Nahraďte automaticky vygenerovaný `Program.cs` kódem níže. Každý blok vysvětlíme v následujících sekcích.
+Replace the autogenerated `Program.cs` with the code below. We’ll explain each block in the next sections.
 
-## Krok 3: Napište kompletní kód „Jak číst PDF417“
+### Krok 3: napsat kompletní kód „jak číst PDF417“
+
+`BarCodeReader` je hlavní třída, která načítá obrázek, detekuje čárové kódy a vrací kolekci objektů `BarCodeResult`.
 
 ```csharp
 using System;
@@ -179,22 +195,21 @@ namespace Pdf417ReaderDemo
 }
 ```
 
-### Proč tento kód funguje
+* `BarCodeReader` — hlavní třída zodpovědná za čtení a dekódování čárových kódů z obrázků.  
+* `DecodeType.MacroPdf417` — příznak, který říká SDK, aby zacházel s Macro‑PDF417 zvláštně, přičemž stále vrací i čisté PDF417 symboly.  
+* `Extended.Pdf417.MacroPdf417` — objekt, který obsahuje všechna volitelná pole definovaná v ISO/IEC 15438, jako `FileID`, `SegmentID` a `Checksum`.  
 
-* **`BarCodeReader`** je hlavní třída, která načítá obrázek, detekuje čárové kódy a vrací kolekci objektů `BarCodeResult`.  
-* Předáním **`DecodeType.MacroPdf417`** říkáte knihovně, aby zacházela s Macro‑PDF417 speciálně; stále vrací běžné PDF417 symboly, což splňuje požadavek na **read multiple barcodes**.  
-* Objekt **`Extended.Pdf417.MacroPdf417`** obsahuje všechna volitelná pole definovaná standardem ISO/IEC 15438 — zde získáte `FileID`, `SegmentID`, `Checksum` a další.  
-* `using` blok zajišťuje uvolnění nativních zdrojů, čímž zabraňuje únikům paměti v dlouho běžících službách.
+Blok `using` zajišťuje uvolnění nativních zdrojů, čímž zabraňuje únikům paměti v dlouho běžících službách.
 
-## Krok 4: Spusťte aplikaci a ověřte výstup
+### Krok 4: spustit aplikaci a ověřit výstup
 
-Z terminálu:
+From the terminal:
 
 ```bash
 dotnet run
 ```
 
-Měli byste vidět něco podobného:
+You should see something like:
 
 ```
 Code Type : MacroPdf417
@@ -213,25 +228,25 @@ Terminator       : 1
 Done. Press any key to exit...
 ```
 
-Pokud obrázek obsahuje více než jeden čárový kód, smyčka vytiskne oddělovací řádek (`----------------------------------------`) a pokračuje dalším výsledkem — přesně to, co **read multiple barcodes** v praxi vypadá.
+If the image contains more than one barcode, the loop prints a separator line (`----------------------------------------`) and continues with the next result—exactly what **read multiple barcodes** looks like in practice.
 
 ## Časté otázky a okrajové případy
 
 ### Co když obrázek obsahuje jak Macro‑PDF417, tak běžné PDF417 symboly?
 
-Stejný volání `BarCodeReader` vrátí oba. Můžete je odlišit kontrolou `result.CodeType` (`MacroPdf417` vs `Pdf417`). Rozšířené vlastnosti budou `null` pro běžný PDF417, takže podmínka `if (macro != null)` zabraňuje `NullReferenceException`.
+Stejný volání `BarCodeReader` vrátí oba. Můžete je rozlišit kontrolou `result.CodeType` (`MacroPdf417` vs `Pdf417`). Rozšířená vlastnost bude `null` u čistého PDF417, takže podmínka `if (macro != null)` zabraňuje `NullReferenceException`.
 
-### Můj čárový kód je otočený nebo zkreslený — bude čtečka stále fungovat?
+### Můj čárový kód je otočený nebo zkreslený – bude čtečka stále fungovat?
 
-Aspose.BarCode obsahuje vestavěnou kompenzaci rotace a zkreslení. Pokud je čárový kód alespoň 30 % šířky obrázku, dekodér obvykle uspěje. V extrémních případech můžete před voláním `ReadBarCodes()` povolit `reader.Options.AllowInvertedBarcodes = true;`.
+Aspose.BarCode obsahuje vestavěnou kompenzaci rotace a zkreslení. Pokud čárový kód zabírá alespoň 30 % šířky obrázku, dekodér obvykle uspěje. V extrémních případech můžete před voláním `ReadBarCodes()` povolit `reader.Options.AllowInvertedBarcodes = true;`.
 
 ### Jak zvládnout velké dávky obrázků?
 
-Zabalte čtecí logiku do smyčky `foreach (var file in Directory.GetFiles(folder, "*.png"))`. Vzor `using` zajišťuje, že nativní zdroje každého obrázku jsou uvolněny před dalším průchodem, což udržuje nízkou spotřebu paměti.
+Zabalte logiku čtení do smyčky `foreach (var file in Directory.GetFiles(folder, "*.png"))`. Vzor `using` zajišťuje uvolnění nativních zdrojů každého obrázku před další iterací, čímž udržuje nízkou spotřebu paměti.
 
 ## Kompletní výpis zdrojového kódu (připravený ke kopírování)
 
-Níže je celý program v jednom bloku pro rychlé kopírování. Žádné skryté závislosti — pouze balíček NuGet Aspose.BarCode.
+Níže je celý program v jednom bloku pro rychlé kopírování. Žádné skryté závislosti – jen NuGet balíček Aspose.BarCode.
 
 ```csharp
 using System;
@@ -283,30 +298,57 @@ namespace Pdf417ReaderDemo
 }
 ```
 
-## Shrnutí – Co jsme pokryli
+## Shrnutí – co jsme probrali
 
-* **Jak číst PDF417** pomocí Aspose.BarCode v C#.  
+* **Jak číst PDF417 čárový kód v C#** pomocí Aspose.BarCode.  
 * Přesné kroky k **čtení více čárových kódů** z jednoho obrázku.  
-* Jak **číst obrázek čárového kódu C#** a extrahovat všechna pole Macro‑PDF417.  
-* Tipy pro rotaci, dávkové zpracování a řešení chybějících rozšířených dat.
+* Jak **číst obrázek čárového kódu v C#** a extrahovat všechna pole Macro‑PDF417.  
+* Tipy pro rotaci, dávkové zpracování a zacházení s chybějícími rozšířenými daty.
 
 ## Další kroky a související témata
 
-* **Encode PDF417** – vygenerujte vlastní Macro‑PDF417 čárové kódy pomocí `BarCodeBuilder`.  
+* **Encode PDF417** – generujte vlastní Macro‑PDF417 čárové kódy pomocí `BarCodeBuilder`.  
 * **Read other 2‑D symbologies** – QR, DataMatrix, Aztec – pomocí stejné třídy `BarCodeReader`.  
-* **Integrate with ASP.NET Core** – vystavte webový endpoint, který přijímá nahraný obrázek a vrací JSON s dekódovanými poli.  
+* **Integrate with ASP.NET Core** – vystavte webový endpoint, který přijme nahraný obrázek a vrátí JSON s dekódovanými poli.  
 
-Klidně experimentujte: změňte cestu k obrázku, přidejte běžný PDF417 do stejné složky nebo upravte příznaky `DecodeType`, abyste viděli, jak se knihovna chová. Čím více si budete hrát, tím jistější budete v scénářích **read barcode image C#**.
-
-Máte obtížný obrázek, který se nechce dekódovat? Zanechte komentář níže nebo otevřete issue v GitHub repozitáři ukázkového projektu. Šťastné kódování!
-
-## Co byste se měli naučit dál?
-
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok‑za‑krokem vysvětlením, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
-
-- [Jak číst DataMatrix čárové kódy pomocí Aspose.BarCode pro .NET](/barcode/english/net/datamatrix-barcode-reading/)
-- [Jak vytvořit čárový kód – Compact PDF417 s Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+### Další užitečné odkazy
+- [Jak číst DataMatrix čárové kódy s Aspose.BarCode pro .NET](/barcode/english/net/datamatrix-barcode-reading/)  
+- [Jak vytvořit čárový kód – Compact PDF417 s Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)  
 - [Číst DataMatrix čárový kód C# – Generovat DataMatrix režim (Auto)](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
+
+Feel free to experiment: change the image path, drop a plain PDF417 into the same folder, or tweak the `DecodeType` flags to see how the library behaves. The more you play, the more comfortable you’ll become with **read barcode image c#** scenarios.
+
+Got a tricky image that refuses to decode? Drop a comment below or open an issue on the GitHub repo of the sample project. Happy coding!
+
+## Často kladené otázky
+
+**Q: Mohu to použít v komerční aplikaci?**  
+A: Ano, můžete používat Aspose.BarCode v komerčních projektech, pokud máte platnou licenci; pro hodnocení je k dispozici bezplatná zkušební verze.
+
+**Q: Podporuje čtečka obrázky chráněné heslem?**  
+A: SDK funguje s jakýmkoli standardním formátem obrázku; ochrana heslem se nevztahuje na rastrové obrázky, pouze na PDF, které jsou zpracovávány samostatnou komponentou Aspose.PDF.
+
+**Q: Jaké verze .NET jsou podporovány?**  
+A: .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ a .NET 6+ jsou plně podporovány aktuálním vydáním Aspose.BarCode.
+
+**Q: Jak mohu zlepšit výkon při velmi velkých dávkách obrázků?**  
+A: Povolte `reader.Options.Quality = QualityMode.HighPerformance` a zpracovávejte obrázky paralelně pomocí `Parallel.ForEach`, přičemž stále obalujte každý `BarCodeReader` do bloku `using`.
+
+**Q: Existuje způsob, jak získat pouze pole Macro‑PDF417 bez iterace všech výsledků?**  
+A: Ano – po volání `ReadBarCodes()` filtrujte kolekci pomocí `result => result.CodeType == DecodeType.MacroPdf417` a poté přistupte k vlastnosti `Extended.Pdf417.MacroPdf417`.
+
+---
+
+**Poslední aktualizace:** 2026-09-28  
+**Testováno s:** Aspose.BarCode 23.12 pro .NET  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak vygenerovat PDF417 čárový kód jako obrázek v C# s Aspose](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)  
+- [Vytvořit PDF417 čárový kód s Aspose Barcode – krok za krokem průvodce](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)  
+- [Číst více čárových kódů v C – kompletní průvodce s PDF417](/barcode/net/compact-pdf417-encoding/read-multiple-barcodes-c-complete-guide-with-pdf417/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -208,7 +208,6 @@ Artık **aspose barcode java** kullanarak **barcode grafiklerini oluşturma java
 **Test Edilen Versiyon:** Aspose.BarCode for Java 24.11  
 **Yazar:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## İlgili Öğreticiler
 

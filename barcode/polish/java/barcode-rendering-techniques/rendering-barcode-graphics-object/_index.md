@@ -210,7 +210,6 @@ Masz teraz kompletny, gotowy do produkcji przykład, jak **create barcode graphi
 **Testowano z:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Powiązane samouczki
 

@@ -206,7 +206,6 @@ A: もちろんです。`bb.save(fileName, BarCodeImageFormat.Jpeg)`または`Ba
 **テスト済み:** Aspose.BarCode for Java 24.11  
 **作者:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## 関連チュートリアル
 

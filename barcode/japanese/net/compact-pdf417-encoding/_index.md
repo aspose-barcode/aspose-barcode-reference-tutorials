@@ -81,6 +81,12 @@ Aspose.BarCode では `Pdf417ErrorCorrectionLevel` プロパティ（0‑8）を
 - **バージョン管理:** 開発、ステージング、本番環境で Aspose.BarCode ライブラリのバージョンを統一してください。
 
 ## Compact PDF417 エンコーディングチュートリアル
+### [How to create PDF417 barcode in C# with compact mode](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
+### [Create PDF417 barcode in C# – complete guide](./create-pdf417-barcode-in-c-complete-guide/)
+
+
+### [How to generate PDF417 barcode in C# – complete guide](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+
 ### [Compact PDF417 バーコードの作成](./compact-pdf417-basic-configuration/)
 
 ### [Aspose を使用した C# での PDF417 バーコード画像生成方法](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
@@ -94,6 +100,8 @@ Aspose.BarCode では `Pdf417ErrorCorrectionLevel` プロパティ（0‑8）を
 ### [C#でPDF417バーコードを生成する – 完全ステップバイステップガイド](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
 
 ### [C#でPDF417を読み取る – 完全ステップバイステップガイド](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
+
+### [C#でPDF417バーコードを読み取る – 完全ステップバイステップガイド](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 
 ### [C#でバーコード画像を生成する方法 – MicroPdf417 ガイド](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
 
@@ -145,6 +153,8 @@ Aspose.BarCode では `Pdf417ErrorCorrectionLevel` プロパティ（0‑8）を
 
 ### [バーコードサイズを調整する – PDF417バーコード生成のC#ガイド](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
 
+Aspose.BarCode for .NET で PDF417バーコードのサイズを変更する方法と、C# コード例を紹介します。
+
 ### [特殊文字を含むバーコード – Aspose を使用した PDF417 生成完全ガイド](./barcode-with-special-characters-complete-guide-to-generating/)
 
 ### [PDF417 バーコードを .NET で作成する – 完全プログラミングガイド](./create-pdf417-barcode-in-net-complete-programming-guide/)
@@ -153,9 +163,27 @@ Aspose.BarCode では `Pdf417ErrorCorrectionLevel` プロパティ（0‑8）を
 
 ### [C# で PDF417 を読み取る方法 – 完全バーコード例](./how-to-read-pdf417-in-c-complete-barcode-example/)
 
+### [C#でMacro PDF417オプションを使用してPDF417バーコード画像を作成する方法](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+
+- [C#でPDF417バーコードを作成する – ステップバイステップガイド](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+- [C#でPDF417バーコードをデコードする方法 – 完全ガイド](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
+### [C# で Aspose.BarCode を使用して PDF417 バーコードを生成する方法](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
+
+### [C#でPDF417バーコードを生成する – ステップバイステップガイド](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+
+### [C# バーコードリーダー例で画像からバーコードをデコードする](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+
 ### [C# で PDF417 バーコードを生成する – バーコードジェネレータガイド](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
 
 ### [C# でバーコード画像を保存する方法 – 完全ガイド](./how-to-save-barcode-images-in-c-complete-guide/)
+
+### [C# でバーコードを生成し、PDF417 バーコードをカスタマイズする方法](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
+
+### [C#で PDF417 バーコードを作成し PNG としてエクスポートする方法](./how-to-create-pdf417-barcode-and-export-png-in-c/)
+
+### [C#でバーコードリーダー例を使用してPDF417をデコードする方法](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
+
+Aspose.BarCode を使用して、C# でバーコード画像を PNG、JPEG などの形式で保存する手順を詳しく解説します。
 
 ### [Aspose バーコード例: C# で Macro PDF417 を生成](./aspose-barcode-example-generate-macro-pdf417-in-c/)
 
@@ -178,9 +206,17 @@ Aspose.BarCode では `Pdf417ErrorCorrectionLevel` プロパティ（0‑8）を
 ### [C# で PDF417 バーコードを生成し、サイズを設定する方法](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 
 ### [C# で PDF417 バーコードを作成し、PNG として保存する方法](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+### [C#でPDF417バーコードをデコードする方法 – バーコードリーダー例](./how-to-decode-pdf417-in-c-barcode-reader-example/)
 
-### [C#でバーコード画像を保存する方法 – 完全ガイド](./how-to-save-barcode-images-in-c-complete-guide/)
+### [C# で Aspose.BarCode を使用してマクロ PDF417 バーコードを作成する方法](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
 
+### [C# で PDF417 バーコードを生成する方法 – コンパクト例](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+
+### [C# で Aspose.BarCode を使用してバーコードを生成する方法](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+
+### [C#でPDF417バーコードを作成しサイズを設定する方法](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
+
+### [C#で Aspose.BarCode を使用して Macro PDF417 バーコードを作成する](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
 ### [C#でコンパクトPDF417バーコードを作成するバーコードジェネレータチュートリアルの作り方](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
 
 ### [C# バーコードジェネレータ ガイド：MicroPdf417 を作成](./barcode-generator-c-guide-create-micropdf417/)

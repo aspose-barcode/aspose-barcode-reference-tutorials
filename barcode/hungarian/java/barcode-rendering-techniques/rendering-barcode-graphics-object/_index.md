@@ -209,7 +209,6 @@ Most már rendelkezik egy teljes, termelésre kész példával arról, hogyan **
 **Tesztelve ezzel:** Aspose.BarCode for Java 24.11  
 **Szerző:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Kapcsolódó bemutatók
 

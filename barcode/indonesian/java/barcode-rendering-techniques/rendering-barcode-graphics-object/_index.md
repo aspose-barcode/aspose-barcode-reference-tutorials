@@ -208,7 +208,6 @@ Anda kini memiliki contoh lengkap yang siap produksi tentang cara **create barco
 **Tested With:** Aspose.BarCode for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Tutorial Terkait
 

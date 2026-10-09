@@ -1,0 +1,7 @@
+Title: Read barcode from image C# – complete guide with Macro PDF417
+Slug: read-barcode-from-image-c-complete-guide-with-macro-pdf417
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-06T02:38:37.495425
+SourceRepo: AI Search API
+Keywords: read barcode from image c#
+PRNumber: 146

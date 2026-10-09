@@ -1,0 +1,7 @@
+Title: How to create planet barcode with filled and empty bars
+Slug: how-to-create-planet-barcode-with-filled-and-empty-bars
+Category: general
+ProcessedDate: 2026-09-29T15:23:19.422667
+SourceRepo: AI Search API
+Keywords: create planet barcode
+PRNumber: 142

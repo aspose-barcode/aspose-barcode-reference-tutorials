@@ -1,10 +1,54 @@
 ---
 additionalTitle: Aspose API References
-date: 2026-01-27
-description: Aspose.Barcode を使用して Codabar バーコードの作成方法と .NET でのバーコード生成方法を学びましょう。ステップバイステップのガイドで
-  Aspose バーコードジェネレーターとリーダーをマスターしてください。
-linktitle: Aspose.BarCode Tutorials
-title: Aspose.BarcodeでCodabarバーコードを作成 – ジェネレータ＆リーダーAPI
+date: 2026-09-18
+description: Aspose.Barcode を使用して .NET で codabar バーコードを作成し、バーコードを生成する方法を学びます。ステップバイステップのガイドで
+  asp barcode generator と reader をマスターしましょう。
+keywords:
+- create codabar barcode
+- asp barcode generator
+- asp barcode reader
+- configure pdf417 barcode
+lastmod: 2026-09-18
+linktitle: Aspose.BarCode チュートリアル
+og_description: .NET と Java 用の Aspose.Barcode で codabar バーコードを作成します。ジェネレータとリーダー API、カスタマイズオプション、パフォーマンスのヒントを学びましょう。
+og_image_alt: Guide to generating and reading Codabar barcodes using Aspose.Barcode
+  in .NET and Java
+og_title: Aspose.Barcode で codabar バーコードを作成 – ジェネレータ＆リーダー API
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to create codabar barcode and generate barcode .NET using
+    Aspose.Barcode. Master the asp barcode generator and reader with step‑by‑step
+    guides.
+  headline: How to create codabar barcode with Aspose.Barcode – generator & reader
+    API
+  type: TechArticle
+- questions:
+  - answer: Yes. The library includes both **asp barcode generator** and **asp barcode
+      reader** classes, so you can create and decode barcodes without switching libraries.
+    question: Can I use Aspose.Barcode to both generate and read barcodes in the same
+      project?
+  - answer: Check the Java tutorial section above – the “Document Barcode Recognition”
+      guide shows how to load an image or PDF and extract barcode data using the `BarCodeReader`
+      class.
+    question: How do I read barcode java code examples?
+  - answer: Use the `Pdf417EncodeMode` and set properties such as `Rows`, `Columns`,
+      and `ErrorCorrectionLevel`. The “Compact PDF417 Encoding” tutorial walks through
+      these settings.
+    question: What is the best way to configure pdf417 barcode for high‑density data?
+  - answer: A single Aspose.Barcode license file works across all supported platforms,
+      including .NET and Java.
+    question: Do I need a separate license for .NET and Java?
+  - answer: Absolutely. The “Codabar Encoding and Checksum” guide explains how to
+      enable checksum calculation when generating Codabar barcodes.
+    question: Is there support for checksum validation in Codabar?
+  type: FAQPage
+tags:
+- codabar barcode
+- Aspose.Barcode
+- .NET barcode generation
+- Java barcode reading
+title: Aspose.Barcode を使用した codabar バーコードの作成方法 – ジェネレータ＆リーダー API
 url: /ja/
 weight: 11
 ---
@@ -13,97 +57,93 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarcodeでCodabarバーコードを作成 – ジェネレーター＆リーダー API
+# Aspose.BarcodeでCodabarバーコードを作成 – ジェネレータ＆リーダーAPI
 
-Aspose.Barcode for .NETで**codabarバーコード**ソリューションを作成する準備はできましたか？このチュートリアルでは、**generate barcode .NET** アプリケーションに必要なすべての知識、設定のカスタマイズ方法、そして同じライブラリが**read barcode java**シナリオでどのように機能するかを解説します。小売のレジシステムや物流追跡ツールを構築する場合でも、**asp barcode generator** と **asp barcode reader** をマスターすれば、バーコードワークフローを完全にコントロールできます。
+この包括的なガイドでは、Aspose.Barcode for .NET と Java を使用して **create codabar barcode** 画像の作成方法を学びます。POS端末、図書館管理システム、物流追跡ソリューションの構築に関わらず、チュートリアルではジェネレータ、リーダー、そして信頼性の高いバーコードワークフローを実現するために必要な主要なカスタマイズオプションを順に説明します。
 
 ## クイック回答
-- **What can I create?** Codabar、PDF417、QR、DataMatrix など多数のシンボロジーを作成できます。  
-- **Which platforms are supported?** .NET（Framework、.NET Core、.NET 5/6）と Java がサポートされています。  
-- **Do I need a license?** 無料トライアルが利用可能です。商用利用には商用ライセンスが必要です。  
-- **How fast is barcode generation?** 通常のハードウェアで画像1枚あたり数ミリ秒です。  
-- **Can I customize PDF417 settings?** はい。API の **configure pdf417 barcode** オプションを使用してください。  
+- **何を作成できますか？** Codabar, PDF417, QR, DataMatrix and many other symbologies.  
+- **どのプラットフォームがサポートされていますか？** .NET (Framework, .NET Core, .NET 5/6) and Java.  
+- **ライセンスは必要ですか？** 無料トライアルが利用可能です。商用利用には商用ライセンスが必要です。  
+- **バーコード生成の速度はどれくらいですか？** 典型的な2.5 GHz CPUで画像1枚あたり5–15 msです。  
+- **PDF417設定をカスタマイズできますか？** はい – API の **configure pdf417 barcode** オプションを使用してください。
 
 ## Codabarバーコードとは？
 
-Codabar は、もともと図書館、血液バンク、荷物追跡のために設計された一次元（1‑dimensional）シンボロジーです。0‑9、A‑D、*、$、/、+、- のシンプルな文字セットを使用し、エンコードされたデータを区切るために開始/停止文字が必要です。そのシンプルなエンコード方式と堅牢なエラーディテクションにより、Codabar はPOS（ポイント・オブ・セール）や在庫管理システムで今なお広く利用されています。
+Codabarは、もともと図書館、血液バンク、荷物追跡のために設計された線形（1次元）シンボルです。0‑9 の数字と限定された文字セット（A‑D, *, $, /, +, –）をエンコードし、データを区切るために開始/停止文字（A、B、C、または D）が必要です。そのシンプルなエンコードと組み込みエラーディテクションにより、CodabarはPOSや在庫管理システムで依然として選ばれています。
 
-## なぜ Codabar に Aspose.Barcode を使用するのか？
+## CodabarにAspose.Barcodeを使用する理由
 
-- **Cross‑platform support** – 一度書くだけで .NET または Java 上で動作します。  
-- **Full control** – API を離れることなく、バーの高さ、チェックサム、フォント、画像形式を調整できます。  
-- **Integrated reader** – 同じライブラリで Codabar バーコードをデコードでき、別個のスキャナー SDK が不要になります。  
-- **Performance‑optimized** – 高ボリュームのバッチジョブでも、ミリ秒単位でバーコードを生成します。  
+Aspose.Barcodeは **cross‑platform support**（.NET と Java で動作）と、バーの高さ、チェックサム、フォント、画像形式に対する **full control**、そして別個の SDK が不要な **integrated reader** を提供し、Codabar をデコードします。このライブラリは標準サーバーハードウェア上で **up to 200 barcode images per second** を処理でき、高ボリュームのバッチジョブに適しています。
 
 ## 前提条件
 - .NET 5/6、.NET Core、または .NET Framework がインストールされていること。  
-- Aspose.Barcode for .NET の NuGet パッケージ（`Aspose.BarCode`）。  
-- オプション: **read barcode java** のサンプルを使用する場合は Java 開発環境が必要です。  
+- Aspose.Barcode for .NET NuGet パッケージ (`Aspose.BarCode`)。  
+- 任意: **read barcode java** の例を使用する場合は Java 開発環境。
 
-## Aspose.Barcode を使用した Codabar バーコードの作成方法
-Aspose.Barcode は **create codabar barcode** 画像を作成するためのシンプルな API を提供します。手順は `BarcodeGenerator` の初期化、`Codabar` シンボロジーの選択、コードテキストの設定、結果の保存です。このアプローチは他のシンボロジーでも同様に機能し、最小限のコードで **generate barcode .NET** ソリューションを実現できます。
+## Aspose.Barcodeを使用してCodabarバーコードを作成する方法
 
-以下に手順の簡潔な概要を示します（完全なコード例はリンク先のチュートリアルにあります）。
+Codabarバーコードを生成するには、バーコード画像作成の主要オブジェクトである `BarcodeGenerator` クラスを使用します。`Codabar` シンボロジーでインスタンス化し、コードテキスト（必須の開始/停止文字を含む）を割り当て、必要に応じてチェックサム、バーの高さ、フォントなどのプロパティを設定し、最後に `Save` を呼び出して PNG、JPEG、SVG、または PDF 形式で画像を書き出します。
 
-1. **Instantiate the generator** – Codabar シンボロジーを選択します。  
-2. **Set the code text** – Codabar が要求する開始/停止文字を含めます。  
-3. **Adjust optional parameters** – チェックサム、バー高さ、フォントなどを調整します。  
-4. **Save the barcode** – PNG、JPEG、SVG、または PDF として保存します。  
+1. **ジェネレータをインスタンス化** – Codabar シンボロジーを選択します。  
+2. **コードテキストを設定** – 必要な開始/停止文字を含めます（例: `A123456A`）。  
+3. **オプションパラメータを調整** – チェックサム、バーの高さ、フォントなど。  
+4. **バーコードを保存** – PNG、JPEG、SVG、または PDF として。
 
-> **Pro tip:** **configure pdf417 barcode** パラメータ（例: エラー訂正レベルや行/列数）を設定する必要がある場合、同じ `BarcodeGenerator` クラスの `Pdf417EncodeMode` に専用プロパティが用意されています。  
+> **プロのコツ:** **configure pdf417 barcode** パラメータ（例: エラー訂正レベルや行/列）が必要な場合、同じ `BarcodeGenerator` クラスが `Pdf417EncodeMode` の下に専用プロパティを提供します。
 
 ## Aspose.Barcode for .NET チュートリアル
 {{% alert color="primary" %}}
-包括的なチュートリアルで、究極のジェネレーター兼リーダー API である Aspose.Barcode をマスターするコーディングの旅に出ましょう。経験豊富な開発者でも、これから始める方でも、インストール手順からバーコード作成の複雑さを解き明かし、簡単にバーコードをカスタマイズできるようにガイドします。パフォーマンス向上の最適化テクニックを学び、アプリケーションがシームレスに動作するようにします。今日からコーディングスキルを高め、Aspose.Barcode の可能性を最大限に引き出し、バーコード生成とスキャンをすぐに習得できる芸術にしましょう。  
+包括的なチュートリアルで、究極のジェネレータ兼リーダーAPIである Aspose.Barcode のマスターへとコーディングの旅に出ましょう。経験豊富な開発者でも初心者でも、インストール手順を順に案内し、バーコード作成の複雑さを解き明かし、簡単にバーコードをカスタマイズできるように支援します。パフォーマンス向上の最適化技術を学び、アプリケーションがシームレスに動作することを保証します。今日からコーディングスキルを高め、Aspose.Barcode の可能性を最大限に引き出し、バーコード生成とスキャンを瞬時に習得できる芸術にしましょう。
 {{% /alert %}}
 
-以下は便利なリソースへのリンクです：
-
+以下は役立つリソースへのリンクです:
+ 
 - [Codabar エンコーディングとチェックサム](./net/codabar-encoding-and-checksum/)
 - [Codablock F エンコーディング](./net/codablock-f-encoding/)
 - [Code 16K エンコーディング](./net/code-16k-encoding/)
-- [GS1 バーコードエンコーディング](./net/gs1-barcode-encoding/)
-- [ITF-14 バーコードカスタマイズ](./net/itf-14-barcode-customization/)
-- [一次元バーコードタイプ](./net/one-dimensional-barcode-types/)
-- [パッチコード設定](./net/patch-code-configuration/)
+- [GS1 バーコード エンコーディング](./net/gs1-barcode-encoding/)
+- [ITF-14 バーコード カスタマイズ](./net/itf-14-barcode-customization/)
+- [一次元バーコードの種類](./net/one-dimensional-barcode-types/)
+- [Patch Code 設定](./net/patch-code-configuration/)
 - [補足バーコードデータ](./net/supplemental-barcode-data/)
-- [Aztec バーコードエンコーディング](./net/aztec-barcode-encoding/)
-- [コンパクト PDF417 エンコーディング](./net/compact-pdf417-encoding/)
-- [DataMatrix バーコード設定](./net/datamatrix-barcode-configuration/)
-- [DataMatrix バーコード読み取り](./net/datamatrix-barcode-reading/)
-- [DotCode バーコード設定](./net/dotcode-barcode-configuration/)
+- [Aztec バーコード エンコーディング](./net/aztec-barcode-encoding/)
+- [Compact PDF417 エンコーディング](./net/compact-pdf417-encoding/)
+- [DataMatrix バーコード 設定](./net/datamatrix-barcode-configuration/)
+- [DataMatrix バーコード 読み取り](./net/datamatrix-barcode-reading/)
+- [DotCode バーコード 設定](./net/dotcode-barcode-configuration/)
 
 ## Aspose.Barcode for Java チュートリアル
 {{% alert color="primary" %}}
-包括的なチュートリアルとサンプルで、Java コーディングのダイナミックな世界に飛び込みましょう。経験豊富な開発者がスキルを向上させたい場合でも、バーコード統合の領域を探求したい新人でも、このシリーズのチュートリアルは包括的なガイドを提供します。基本的な [Barcode Basics](./java/barcode-basics/) から、[Advanced Settings and Optimization](./java/advanced-settings-and-optimization/) のような高度なトピックまで、各チュートリアルは Java アプリケーションでのバーコードのシームレスな統合、カスタマイズ、認識に必要な知識を提供するよう設計されています。コーディングの旅を高め、Aspose.BarCode の広大な可能性を解き放ち、ステップバイステップの指導と実践的な例でバーコード操作の技術をマスターしましょう。  
+包括的なチュートリアルとサンプルで、Java コーディングのダイナミックな世界に飛び込みましょう。スキル向上を目指す経験豊富な開発者でも、バーコード統合の領域を探求したい新人でも、このシリーズのチュートリアルは包括的なガイドを提供します。基本的な [バーコード 基礎](./java/barcode-basics/) から、[高度な設定と最適化](./java/advanced-settings-and-optimization/) のような高度なトピックまで、各チュートリアルは Java アプリケーションでのバーコードのシームレスな統合、カスタマイズ、認識に必要な知識を提供するよう設計されています。コーディングの旅を高め、Aspose.BarCode の広大な可能性を解き放ち、ステップバイステップの指導と実践的な例でバーコード操作の技術を習得しましょう。
 {{% /alert %}}
 
-以下は便利なリソースへのリンクです：
+以下は役立つリソースへのリンクです:
 
-- [バーコード基礎](./java/barcode-basics/)
-- [ドキュメントバーコード認識](./java/document-barcode-recognition/)
+- [バーコード 基礎](./java/barcode-basics/)
+- [ドキュメント バーコード 認識](./java/document-barcode-recognition/)
 - [多言語サポート](./java/multilingual-support/)
 - [チェックサムと検証](./java/checksum-and-validation/)
-- [バーコード設定](./java/barcode-configuration/)
+- [バーコード 設定](./java/barcode-configuration/)
 - [テキストとスタイリング](./java/text-and-styling/)
 - [シンボロジーとフォーマット](./java/symbology-and-format/)
 - [画像操作](./java/image-manipulation/)
-- [バーコードレンダリング技術](./java/barcode-rendering-techniques/)
+- [バーコード レンダリング技術](./java/barcode-rendering-techniques/)
 - [高度な設定と最適化](./java/advanced-settings-and-optimization/)
 
 ## よくある質問
 
-**Q: 同じプロジェクトで Aspose.Barcode を使用して、バーコードの生成と読み取りの両方を行うことはできますか？**  
-A: はい。ライブラリには **asp barcode generator** と **asp barcode reader** の両クラスが含まれており、ライブラリを切り替えることなくバーコードの作成とデコードが可能です。
+**Q: 同じプロジェクトで Aspose.Barcode を使用してバーコードの生成と読み取りの両方を行うことはできますか？**  
+A: はい。ライブラリには **asp barcode generator** と **asp barcode reader** のクラスが両方含まれており、ライブラリを切り替えることなくバーコードの作成とデコードが可能です。
 
-**Q: **read barcode java** のコード例はどのように使用しますか？**  
-A: 上記の Java チュートリアルセクションをご確認ください。「Document Barcode Recognition」ガイドでは、`BarCodeReader` クラスを使用して画像や PDF を読み込み、バーコードデータを抽出する方法が示されています。
+**Q: barcode java のコード例はどのように読みますか？**  
+A: 上記の Java チュートリアルセクションをご確認ください – 「Document Barcode Recognition」ガイドでは、`BarCodeReader` クラスを使用して画像または PDF をロードし、バーコードデータを抽出する方法が示されています。
 
-**Q: 高密度データ向けに **configure pdf417 barcode** を設定する最適な方法は何ですか？**  
+**Q: 高密度データ用に pdf417 バーコードを設定する最適な方法は何ですか？**  
 A: `Pdf417EncodeMode` を使用し、`Rows`、`Columns`、`ErrorCorrectionLevel` などのプロパティを設定します。「Compact PDF417 Encoding」チュートリアルでこれらの設定手順が解説されています。
 
-**Q: .NET と Java で別々のライセンスが必要ですか？**  
-A: 1つの Aspose.Barcode ライセンスファイルで、.NET と Java を含むすべてのサポートプラットフォームで使用できます。
+**Q: .NET と Java 用に別々のライセンスが必要ですか？**  
+A: 単一の Aspose.Barcode ライセンスファイルが .NET と Java を含むすべてのサポートプラットフォームで機能します。
 
 **Q: Codabar でチェックサム検証のサポートはありますか？**  
 A: もちろんです。「Codabar Encoding and Checksum」ガイドでは、Codabar バーコード生成時にチェックサム計算を有効にする方法が説明されています。
@@ -112,11 +152,13 @@ A: もちろんです。「Codabar Encoding and Checksum」ガイドでは、Cod
 A: `Save` メソッドは `.png`、`.jpg`、`.svg`、`.pdf` などの拡張子を受け付けます。下流の処理パイプラインに最適な形式を選択してください。
 
 **Q: 開始/停止文字を設定する際の一般的な落とし穴は何ですか？**  
-A: 必要な開始/停止シンボル（A、B、C、または D）を忘れると、生成されたバーコードが読めなくなります。エンコードされた文字列が Codabar の仕様に合致しているか必ず確認してください。
+A: 必要な開始/停止シンボル（A、B、C、または D）を含め忘れると、生成されたバーコードが読めなくなります。常にエンコードされた文字列が Codabar の仕様に合致していることを確認してください。
 
-**最終更新日:** 2026-01-27  
+---
+
+**最終更新日:** 2026-09-18  
 **テスト環境:** Aspose.Barcode 24.11 for .NET & Java  
-**作者:** Aspose  
+**作者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

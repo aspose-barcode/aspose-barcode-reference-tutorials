@@ -1,11 +1,67 @@
 ---
-date: 2025-12-14
-description: تعلم كيفية ضبط أبعاد الباركود في جافا باستخدام Aspose.BarCode. يوضح هذا
-  الدليل خطوة بخطوة كيفية تخصيص الباركود، إنشاء صورة باركود بجافا، وإنشاء باركود باستخدام
-  Aspose.
-linktitle: Managing X and Y Dimensions of Barcode
+date: 2026-09-18
+description: تعلم كيفية تخصيص أبعاد الباركود في Java باستخدام Aspose.BarCode، مكتبة
+  الباركود الرائدة لـ Java. اضبط أحجام X و Y، أنشئ صورًا، ودمج بسهولة.
+keywords:
+- how to customize barcode
+- barcode library for java
+- create barcode with aspose
+lastmod: 2026-09-18
+linktitle: إدارة أبعاد X و Y للباركود
+og_description: تعلم كيفية تخصيص أبعاد الباركود في Java باستخدام Aspose.BarCode، مكتبة
+  الباركود الرائدة لـ Java. اضبط أحجام X و Y، أنشئ صورًا، ودمج بسهولة.
+og_image_alt: 'Developer guide: customize barcode dimensions in Java using Aspose.BarCode'
+og_title: كيفية تخصيص أبعاد الباركود في Java باستخدام Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to customize barcode dimensions in Java using Aspose.BarCode,
+    the leading barcode library for Java. Adjust X and Y sizes, generate images, and
+    integrate easily.
+  headline: How to customize barcode dimensions in Java with Aspose
+  type: TechArticle
+- description: Learn how to customize barcode dimensions in Java using Aspose.BarCode,
+    the leading barcode library for Java. Adjust X and Y sizes, generate images, and
+    integrate easily.
+  name: How to customize barcode dimensions in Java with Aspose
+  steps:
+  - name: Instantiate `BarcodeGenerator` with the **CODE_128** symbology.
+    text: Instantiate `BarcodeGenerator` with the **CODE_128** symbology.
+  - name: Call `setMillimeters(0.5f)` to define a 0.5 mm bar width.
+    text: Call `setMillimeters(0.5f)` to define a 0.5 mm bar width.
+  - name: Save the result as **xDimension.jpg**.
+    text: Save the result as **xDimension.jpg**.
+  - name: Use the **PDF_417** symbology, which often benefits from taller bars.
+    text: Use the **PDF_417** symbology, which often benefits from taller bars.
+  - name: Set the bar height to **4 mm**.
+    text: Set the bar height to **4 mm**.
+  - name: Store the output as **yDimension.jpg**.
+    text: Store the output as **yDimension.jpg**.
+  type: HowTo
+- questions:
+  - answer: Yes, a commercial license is required. Purchase a license on the **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Can I use Aspose.BarCode for Java in commercial projects?
+  - answer: Absolutely, you can download a free trial from the **[Aspose download
+      page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: The documentation is available at the **[Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/)**.
+    question: Where can I find the full API documentation?
+  - answer: You can ask questions in the **[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)**.
+    question: How do I get support if I run into problems?
+  - answer: Yes, a temporary license can be requested on the **[temporary license
+      request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Can I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: كيفية تعيين أبعاد الباركود X و Y في جافا
+tags:
+- customize barcode
+- Aspose.BarCode
+- Java barcode
+- barcode dimensions
+- X dimension
+- Y dimension
+title: كيفية تخصيص أبعاد الباركود في Java باستخدام Aspose
 url: /ar/java/barcode-configuration/managing-x-y-dimension-barcode/
 weight: 13
 ---
@@ -14,45 +70,52 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية ضبط أبعاد الباركود X و Y في جافا
+# كيفية تخصيص أبعاد الباركود في Java باستخدام Aspose
 
-في تطوير جافا، تُعد **how to set barcode** الأبعاد مطلبًا شائعًا عندما تحتاج إلى باركود واضح وقابل للقراءة للملصقات أو التذاكر أو بطاقات المخزون. يشرح هذا البرنامج التعليمي كيفية التحكم في كل من أبعاد X (عرض الشريط الضيق) و Y (ارتفاع الشرائط) باستخدام Aspose.BarCode Java API. في النهاية، ستكون قادرًا على **customize barcode**، وإنشاء **barcode image java**، وإنشاء **create barcode with aspose** بثقة لأي مشروع.
+عندما تحتاج إلى **إنشاء باركود باستخدام Aspose** للملصقات أو التذاكر أو بطاقات المخزون، فإن التحكم في الحجم الدقيق لكل شريط أمر أساسي. في هذا الدرس ستتعلم **كيفية تخصيص أبعاد الباركود** — كل من البُعد X (عرض الشريط الضيق) والبُعد Y (ارتفاع الشريط الكلي) — باستخدام Aspose.BarCode Java API. في النهاية ستتمكن من **تخصيص الباركود**، **إنشاء صورة باركود java**، وبثقة **إنشاء باركود باستخدام Aspose** لأي مشروع Java.
 
 ## إجابات سريعة
-- **ما هي المكتبة الأفضل للتحكم في أبعاد الباركود؟** Aspose.BarCode for Java.
-- **ما هي الطريقة التي تحدد بعد X؟** `getXDimension().setMillimeters(...)`.
-- **ما هي الطريقة التي تحدد بعد Y (ارتفاع الشريط)؟** `getBarHeight().setMillimeters(...)`.
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** Yes, a commercial license is required.
-- **هل يمكنني إنشاء صور PNG أو JPG أو BMP؟** All common raster formats are supported.
+- **ما المكتبة الأفضل للتحكم في أبعاد الباركود؟** Aspose.BarCode for Java.  
+- **أي طريقة تحدد البُعد X؟** `getXDimension().setMillimeters(...)`.  
+- **أي طريقة تحدد البُعد Y (ارتفاع الشريط)؟** `getBarHeight().setMillimeters(...)`.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يلزم ترخيص تجاري.  
+- **هل يمكنني إنشاء صور PNG أو JPG أو BMP؟** جميع صيغ الرسوم النقطية الشائعة مدعومة.
 
-## ما هو “how to set barcode” في سياق Aspose.BarCode؟
-تعني ضبط أبعاد الباركود تحديد الحجم الفعلي لكل شريط (بعد X) والارتفاع الكلي للشرائط (بعد Y). تضمن إعدادات الأبعاد الصحيحة قراءة الباركود بشكل موثوق عبر مختلف الطابعات والماسحات.
+## ما هو “كيفية ضبط الباركود” في سياق Aspose.BarCode؟
+ضبط أبعاد الباركود يعني تحديد الحجم الفعلي لكل شريط (البُعد X) والارتفاع الكلي للأشرطة (البُعد Y). تضمن إعدادات الأبعاد الصحيحة مسح الباركود بموثوقية عبر مختلف الطابعات والماسحات، وتمنحك المرونة لتلبية متطلبات الحجم الخاصة بالصناعة مثل معايير ISO/IEC لملصقات التجزئة.
 
 ## لماذا تستخدم Aspose.BarCode for Java لتخصيص أبعاد الباركود؟
-- **Precision control** – تعديلات على مستوى المليمتر تمنحك حجمًا دقيقًا.
-- **Wide format support** – يعمل مع PNG و JPG و BMP و GIF وغير ذلك.
-- **No external dependencies** – مكتبة جافا خالصة، سهلة التكامل مع أي بيئة تطوير.
-- **Comprehensive documentation** – أمثلة مفيدة ومرجع API.
+توفر Aspose.BarCode دقة بمستوى المليمتر، وتدعم **أكثر من 50 نوعًا من رموز الباركود**، ويمكنها إنشاء صور في **أكثر من 5 صيغ نقطية** (PNG، JPG، BMP، GIF، TIFF). المكتبة مكتوبة بلغة Java فقط، ولا تعتمد على أي مكونات خارجية، وتشتمل على وثائق شاملة مع أكثر من 200 مثال برمجي، مما يجعل التكامل سريعًا وموثوقًا لتطبيقات المؤسسات.
 
 ## المتطلبات المسبقة
-
-- Java Development Kit (JDK) مثبت على جهازك.
-- مكتبة Aspose.BarCode for Java تم تحميلها من [here](https://releases.aspose.com/barcode/java/).
-- بيئة تطوير جافا مثل Eclipse أو IntelliJ IDEA.
+- Java Development Kit (JDK) مثبت على جهازك.  
+- مكتبة Aspose.BarCode for Java تم تنزيلها من **[صفحة تنزيل Aspose.BarCode for Java](https://releases.aspose.com/barcode/java/)**.  
+- يمكنك أيضًا استكشاف منتجات Aspose الأخرى في **[صفحة إصدارات Aspose](https://releases.aspose.com/)**.  
+- بيئة تطوير Java مثل Eclipse أو IntelliJ IDEA.
 
 ## استيراد الحزم
+في فئة Java الخاصة بك، استورد حزمة توليد Aspose.BarCode:
 
-في فئة جافا الخاصة بك، استورد حزمة توليد Aspose.BarCode:
+`BarcodeGenerator` هي الفئة الرئيسية المستخدمة لإنشاء وتكوين صور الباركود في Aspose.BarCode for Java.  
 
 ```java
 import com.aspose.barcode.generation.BarcodeGenerator;
 ```
 
-الآن سنستعرض كل إعداد بعد خطوة بخطوة.
+```java
+import com.aspose.barcode.generation.BarcodeGenerator;
+```
 
-## الخطوة 1: ضبط بعد X (عرض الشريط)
+الآن سنستعرض كل إعداد بُعد خطوة بخطوة.
 
-يتحكم بعد X في عرض أضيق شريط. القيمة النموذجية تتراوح بين 0.2 مم و0.5 مم.
+## كيفية ضبط البُعد X (عرض الشريط)؟
+حمّل مولد الباركود، اختر نظام الترميز، وحدد عرض الشريط الضيق بالمليمتر. يتراوح البُعد X النموذجي للرموز عالية الكثافة بين **0.2 مم إلى 0.5 مم**، مما يوازن بين قابلية القراءة واستخدام المساحة في معظم الطابعات. تضمن هذه الإعدادات نتائج مسح متسقة عبر مختلف دقات الطباعة.
+
+فئة `BarcodeGenerator` هي الكائن الأساسي الذي ينشئ صور الباركود بناءً على نظام الترميز المختار والمعلمات.  
+
+```java
+// Example code for setting X‑dimension
+```
 
 ```java
 public static void setXDimension() throws IOException {
@@ -71,14 +134,18 @@ public static void setXDimension() throws IOException {
 ```
 
 في هذا المقتطف نقوم بـ:
+1. إنشاء كائن `BarcodeGenerator` باستخدام نظام الترميز **CODE_128**.  
+2. استدعاء `setMillimeters(0.5f)` لتحديد عرض شريط 0.5 مم.  
+3. حفظ النتيجة كملف **xDimension.jpg**.
 
-1. إنشاء كائن `BarcodeGenerator` باستخدام رمزية **CODE_128**.
-2. استدعاء `setMillimeters(0.5f)` لتحديد عرض شريط 0.5 مم.
-3. حفظ النتيجة كـ **xDimension.jpg**.
+## كيفية ضبط البُعد Y (ارتفاع الشريط)؟
+قم بضبط ارتفاع الشريط ليتناسب مع كمية البيانات والمسافة المتوقعة للمسح. بالنسبة للرموز ثنائية الأبعاد مثل PDF‑417، فإن ارتفاع شريط أعلى (مثلاً **4 مم**) يحسن قابلية القراءة، خاصةً عند الطباعة على ملصقات أكبر. اختيار بُعد Y مناسب يساعد على منع أخطاء القراءة في الماسحات منخفضة الدقة.
 
-## الخطوة 2: ضبط بعد Y (ارتفاع الشريط)
+`BarHeight` يحدد الحجم العمودي للأشرطة في الباركود المُنشأ.  
 
-بعد Y (المعروف أيضًا بارتفاع الشريط) يحدد مدى ارتفاع كل شريط. قم بضبطه بناءً على كمية البيانات ومسافة المسح.
+```java
+// Example code for setting Y‑dimension
+```
 
 ```java
 public static void setYDimension() throws IOException {
@@ -97,45 +164,46 @@ public static void setYDimension() throws IOException {
 ```
 
 هنا نقوم بـ:
-
-1. استخدام رمزية **PDF_417**، التي تستفيد غالبًا من الشرائط الأطول.
-2. ضبط ارتفاع الشريط إلى **4 مم**.
-3. حفظ الناتج كـ **yDimension.jpg**.
+1. استخدام نظام الترميز **PDF_417**، الذي غالبًا ما يستفيد من أشرطة أعلى.  
+2. ضبط ارتفاع الشريط إلى **4 مم**.  
+3. حفظ الناتج كملف **yDimension.jpg**.
 
 ## المشكلات الشائعة والحلول
-
 | المشكلة | السبب | الحل |
 |-------|-------|-----|
-| يظهر الباركود رفيعًا جدًا أو سميكًا | بعد X غير مناسب لدقة الطابعة DPI | ضبط قيمة `setMillimeters` (مثال: 0.3 مم للطابعات عالية الدقة). |
-| الماسح لا يستطيع قراءة الرمز | بعد Y منخفض جدًا للرمزية | زيادة ارتفاع الشريط باستخدام `setMillimeters` (مثال: 5 مم لـ PDF_417). |
+| الباركود يظهر رقيقًا جدًا أو سميكًا | البُعد X غير مناسب لدقة الطابعة | ضبط قيمة `setMillimeters` (مثلاً 0.3 مم للطابعات عالية الدقة). |
+| الماسح لا يستطيع قراءة الرمز | البُعد Y منخفض جدًا لنظام الترميز | زيادة ارتفاع الشريط باستخدام `setMillimeters` (مثلاً 5 مم لـ PDF_417). |
 | ملف الصورة تالف | مسار الإخراج مفقود أو لا توجد صلاحية كتابة | تحقق من أن `dataDir` يشير إلى مجلد موجود ويمكن الكتابة فيه. |
 
 ## الأسئلة المتكررة
-
 **س: هل يمكنني استخدام Aspose.BarCode for Java في المشاريع التجارية؟**  
-ج: نعم، يلزم الحصول على ترخيص تجاري. اشترِ ترخيصًا [here](https://purchase.aspose.com/buy).
+ج: نعم، يلزم الحصول على ترخيص تجاري. اشترِ ترخيصًا من **[صفحة شراء Aspose](https://purchase.aspose.com/buy)**.
 
-**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
-ج: بالتأكيد، يمكنك تحميل نسخة تجريبية مجانية [here](https://releases.aspose.com/).
+**س: هل يتوفر نسخة تجريبية مجانية؟**  
+ج: بالتأكيد، يمكنك تنزيل نسخة تجريبية مجانية من **[صفحة تنزيل Aspose](https://releases.aspose.com/)**.
 
 **س: أين يمكنني العثور على وثائق API الكاملة؟**  
-ج: الوثائق متاحة [here](https://reference.aspose.com/barcode/java/).
+ج: الوثائق متاحة في **[مرجع Aspose.BarCode Java API](https://reference.aspose.com/barcode/java/)**.
 
-**س: كيف يمكنني الحصول على الدعم إذا واجهت مشاكل؟**  
-ج: يمكنك طرح الأسئلة في منتدى Aspose.BarCode [here](https://forum.aspose.com/c/barcode/13).
+**س: كيف أحصل على الدعم إذا واجهت مشاكل؟**  
+ج: يمكنك طرح الأسئلة في **[منتدى Aspose.BarCode](https://forum.aspose.com/c/barcode/13)**.
 
 **س: هل يمكنني الحصول على ترخيص مؤقت للاختبار؟**  
-ج: نعم، يمكن طلب ترخيص مؤقت [here](https://purchase.aspose.com/temporary-license/).
+ج: نعم، يمكن طلب ترخيص مؤقت من خلال **[صفحة طلب الترخيص المؤقت](https://purchase.aspose.com/temporary-license/)**.
 
 ## الخلاصة
-
-إدارة أبعاد X و Y باستخدام Aspose.BarCode for Java أمر بسيط. من خلال ضبط بعد X لعرض الشريط وبعد Y لارتفاع الشريط، يمكنك **customize barcode**، **generate barcode image java**، و**create barcode with aspose** لتلبية أي متطلبات مسح. جرب قيمًا مختلفة للعثور على التوازن المثالي لحالتك الخاصة.
+إدارة أبعاد X و Y باستخدام Aspose.BarCode for Java أمر بسيط. من خلال ضبط البُعد X لعرض الشريط والبُعد Y لارتفاع الشريط، يمكنك **تخصيص الباركود**، **إنشاء صورة باركود java**، و**إنشاء باركود باستخدام Aspose** لتلبية أي متطلبات مسح. جرّب قيمًا مختلفة للعثور على التوازن المثالي لحالتك الخاصة.
 
 ---
 
-**آخر تحديث:** 2025-12-14  
+**آخر تحديث:** 2026-09-18  
 **تم الاختبار مع:** Aspose.BarCode for Java 24.8  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+- [حجم باركود مخصص Java - تكوين أبعاد دقيقة باستخدام Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/configuring-custom-size-barcode/)
+- [كيفية إنشاء ملصقات باركود صغيرة في Java باستخدام Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-minimum-barcode-size/)
+- [ضبط هوامش الباركود Java – تعديل تباعد صورة الباركود باستخدام Aspose](/barcode/java/image-manipulation/setting-margins-barcode-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

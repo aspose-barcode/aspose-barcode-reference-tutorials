@@ -207,7 +207,6 @@ Ahora tienes un ejemplo completo y listo para producción de cómo **crear gráf
 **Probado con:** Aspose.BarCode for Java 24.11  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Tutoriales relacionados
 

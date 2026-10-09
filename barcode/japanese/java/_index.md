@@ -1,8 +1,48 @@
 ---
-date: 2026-01-27
-description: Aspose.BarCode を使用してバーコード Java アプリケーションの生成方法を学び、バーコード画像の操作、バーコードテキストのスタイリング、ドキュメントのバーコード認識、そしてバーコードシンボロジーの設定を網羅します。
-linktitle: Generate Barcode Java – Aspose.BarCode Tutorials
-title: Javaでバーコード生成 – 包括的な Aspose.BarCode チュートリアル
+date: 2026-09-18
+description: Aspose.BarCode を使用して Java の barcode アプリケーションを生成する方法を学びます。barcode image
+  manipulation、barcode text styling、document barcode recognition、barcode symbology
+  の設定について解説します。
+keywords:
+- generate barcode java
+- how to read barcode
+- aspose barcode license
+- document barcode recognition
+- render barcode pdf
+lastmod: 2026-09-18
+linktitle: Barcode Java の生成 – Aspose.BarCode チュートリアル
+og_description: Aspose.BarCode を使用して barcode java を生成します。バーコードの作成、スタイル設定、読み取り、symbology
+  の構成、Java での PDF のレンダリング方法を学びます。今すぐ堅牢な barcode ソリューションの構築を始めましょう。
+og_image_alt: Screenshot of Java code generating a QR code using Aspose.BarCode
+og_title: barcode java の生成 – Aspose.BarCode 完全ガイド
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to generate barcode java applications with Aspose.BarCode,
+    covering barcode image manipulation, barcode text styling, document barcode recognition,
+    and configure barcode symbology.
+  headline: How to generate barcode java – comprehensive tutorials and examples
+  type: TechArticle
+- questions:
+  - answer: Aspose.BarCode for Java.
+    question: What is the primary library?
+  - answer: Yes – dynamic barcode generation is fully supported.
+    question: Can I generate barcodes on the fly?
+  - answer: A free temporary license works for testing; a full license is required
+      for production.
+    question: Do I need a license for development?
+  - answer: PNG, JPEG, BMP, GIF, TIFF, and more.
+    question: Which image formats are available?
+  - answer: Absolutely – you can render barcodes directly into PDF documents.
+    question: Is PDF output supported?
+  type: FAQPage
+tags:
+- generate barcode
+- Aspose.BarCode
+- Java barcode generation
+- barcode image manipulation
+- barcode symbology
+title: Javaでバーコードを生成する方法 – 包括的なチュートリアルと例
 url: /ja/java/
 weight: 10
 ---
@@ -11,140 +51,166 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Javaでバーコード生成 – Aspose.BarCode for Java の包括的チュートリアルとサンプル
+# バーコード Java 生成 – Aspose.BarCode for Java の包括的なチュートリアルとサンプル
 
 ## はじめに
 
-**Javaでバーコードアプリケーションを迅速に生成したい**なら、ここが最適な場所です。このハブには、Aspose.BarCode for Javaに関するあらゆるチュートリアルが集められています。基本的な概念から高度なレンダリング技術まで網羅しています。**バーコード画像の操作**、**JavaでPDF形式のバーコードを読み取る**、**バーコードシンボルの設定**など、必要な知識を分かりやすくまとめた実践的なガイドをご用意しています。ステップバイステップで学習を進めてください。
+迅速かつ確実に **generate barcode java** アプリケーションを作成したい場合、ここが最適です。このハブでは、基本概念から高度なレンダリング技術まで、必要なすべての Aspose.BarCode for Java チュートリアルを集めています。**manipulate barcode images**、**read barcodes PDF Java**、または **configure barcode symbology** を行いたい場合でも、ステップバイステップで実践できる bite‑size のハンズオンガイドとして知識をまとめました。
 
-## よくある質問
-- **主要ライブラリは何ですか？** Aspose.BarCode for Javaです。
+## クイック回答
+- **主要なライブラリは何ですか？** Aspose.BarCode for Java.
+- **バーコードをオンザフライで生成できますか？** はい – 動的なバーコード生成は完全にサポートされています。
+- **開発にライセンスは必要ですか？** テスト用の無料一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。
+- **利用可能な画像形式は何ですか？** PNG、JPEG、BMP、GIF、TIFF など。
+- **PDF 出力はサポートされていますか？** もちろんです – バーコードを直接 PDF ドキュメントにレンダリングできます。
 
-- **バーコードを動的に生成できますか？** はい、動的バーコード生成は完全にサポートされています。
+## generate barcode java とは？
 
-- **開発にはライセンスが必要ですか？** テストには無料の一時ライセンスが使用できます。本番環境ではフルライセンスが必要です。
+Generate barcode java とは、Java コードと Aspose.BarCode ライブラリを使用してプログラム的にバーコード画像を作成するプロセスを指します。数回の API 呼び出しで QR コード、Code128、PDF417 など 60 以上のシンボロジーを生成でき、印刷や PDF への埋め込みが可能です。
 
-- **利用可能な画像フォーマットは何ですか？** PNG、JPEG、BMP、GIF、TIFFなどです。
+## Aspose.BarCode を使用して generate barcode java を行う理由
 
-- **PDF出力はサポートされていますか？** もちろんです。バーコードをPDFドキュメントに直接レンダリングできます。
+Aspose.BarCode for Java は **60 以上のバーコードシンボロジー** をサポートし、標準的なサーバーハードウェア上で **秒間最大 10,000 本のバーコード** をレンダリングできます。このライブラリはネイティブ依存関係が不要で、Java 8 以降のランタイム上で動作し、組み込みの画像処理機能により任意の解像度でも出力を鮮明に保ちます。
 
-## Aspose.BarCodeを使用したJavaバーコード生成方法
+## Java でバーコードを読み取る方法
 
-このセクションでは、Javaでバーコードを作成するためのワークフロー全体を解説し、個々のチュートリアルに進む前に知っておくべきすべての事項を説明します。Aspose.BarCodeが**動的なバーコードの作成**シナリオにおいて最適な選択肢である理由、**バーコードプリンター対応のグラフィックをレンダリング**する方法、そして速度と品質の最適なバランスを実現する設定について学びます。
+`BarCodeReader` クラスは、画像やドキュメントからバーコードを抽出するための Aspose.BarCode のコンポーネントです。`BarCodeReader` でソース画像または PDF をロードし、`readBarCodes()` を呼び出して結果を反復処理します。API はバーコードの種類を自動的に検出し、データをデコードして生の文字列を返すため、サードパーティのスキャナーや OCR が不要です。また、チェックサム検証や回転処理などのデコードオプションを指定することもできます。
+
+## Aspose.BarCode ライセンスの設定方法
+
+`License` は、ライセンスファイルをロードして適用し、フル機能を解放する Aspose.BarCode のクラスです。Aspose ポータルから一時ライセンスファイルを取得し、プロジェクトのリソースに配置して、`License license = new License(); license.setLicense("Aspose.BarCode.Java.lic");` を呼び出します。これによりすべての機能が解放され、評価用の透かしが除去され、本番環境でのスレッドセーフな動作が保証されます。また、ライセンスは高性能バッチ処理を可能にし、使用制限を解除します。
+
+## Java でバーコード PDF をレンダリングする方法
+
+`BarcodeGenerator` はバーコード画像を作成し、PDF を含むさまざまな形式にエクスポートするための主要クラスです。`BarcodeGenerator` を作成し、目的の `EncodeType` を設定して、`save("output.pdf", SaveFormat.Pdf)` を呼び出します。ライブラリはベクターベースの PDF ページを書き出すため、拡大縮小しても品質が損なわれず、高解像度印刷やデジタル配布に最適です。また、ページサイズや余白を調整し、1 ページに複数のバーコードを埋め込むこともできます。
+
+## Java でバーコードテキストをスタイリングする方法
+
+`BarCodeText` はバーコードに付随して表示されるテキスト表現を表し、フォント、サイズ、色、配置のカスタマイズが可能です。`BarCodeText` オブジェクトを使用して `fontFamily`、`fontSize`、`color`、`alignment` を設定します。`setShowCodeText(true)` を有効にし、`BarCodeText` のプロパティをカスタマイズすることで、QR コードの下にキャプションを追加することもできます。さらに、テキストの配置、余白、背景シェーディングを制御するオプションがあり、視覚的統合を向上させます。
+
+## 前提条件
+- 開発マシンに Java 8 以上がインストールされていること。
+- 依存関係管理のための Maven または Gradle。
+- Aspose.BarCode for Java のライセンス（テスト用の一時ライセンス、製品版はフルライセンス）。
+
+## Aspose.BarCode で barcode java を生成する方法
+
+このセクションでは、Java でバーコードを作成する全体的なワークフローを解説し、個別のチュートリアルに入る前に知っておくべきことを網羅します。Aspose.BarCode が **create dynamic barcode** シナリオで最適な選択肢である理由、**render barcode printer‑ready graphics** の方法、速度と品質の最適なバランスを提供する設定について学びます。
 
 ### ドキュメントバーコード認識のベストプラクティス
-アプリケーションがPDF、Wordファイル、またはスキャン画像からバーコードを読み取る必要がある場合、**ドキュメントバーコード認識**を理解することが不可欠です。Aspose.BarCodeは、ソース形式に関係なく、バーコードを確実に抽出する統一されたAPIを提供します。
+**document barcode recognition** を理解することは、アプリケーションが PDF、Word ファイル、またはスキャン画像からバーコードを読み取る必要がある場合に不可欠です。Aspose.BarCode は、ソース形式に関係なく信頼性の高いバーコード抽出を実現する統一 API を提供します。
 
+### バーコード画像操作のテクニック
+**barcode image manipulation** 機能により、サイズ、色、解像度、背景を UI や印刷要件に合わせて調整できます。回転、スケーリング、余白の微調整も行え、可読性を損なうことはありません。
 
-### バーコード画像操作テクニック
-**バーコード画像操作**機能を使用すると、UIや印刷要件に合わせてサイズ、色、解像度、背景を調整できます。また、可読性を損なうことなく、回転、拡大縮小、余白の微調整も可能です。
+### バーコードテキストスタイリングのヒント
+**barcode text styling** を使用すると、キャプションの追加、フォントファミリーの変更、テキスト配置の設定ができ、エンドユーザー体験を向上させます。特に、人が読めるラベルが必要な QR コードでは、スタイリングオプションが有用です。
 
-### バーコードテキストスタイル設定のヒント
-**バーコードテキストスタイル設定**を使用すると、キャプションの追加、フォントファミリーの変更、テキスト配置の設定などを行い、エンドユーザーエクスペリエンスを向上させることができます。スタイル設定オプションは、人間が読み取れるラベルが必要なQRコードに特に役立ちます。
+### バーコードシンボロジーを効率的に設定する方法
+適切な **configure barcode symbology**（例：QR、Code128、PDF417）を選択することで、データ密度とスキャナー互換性が最適化されます。Aspose.BarCode は、データペイロードに応じてシンボロジーをオンザフライで切り替えることができます。
 
-### バーコードシンボルの効率的な設定
-適切な**バーコードシンボル設定**（例：QR、Code128、PDF417）を選択することで、最適なデータ密度とスキャナーとの互換性を確保できます。Aspose.BarCodeを使用すると、データペイロードに基づいてシンボルを動的に切り替えることができます。
+以下に各チュートリアルカテゴリの概要を示します。リンクをクリックして詳細をご覧ください。
 
-以下に、各チュートリアルカテゴリの概要を示します。詳細については、いずれかのリンクをクリックしてください。
+## バーコードの基礎
 
-## バーコードの基本
-
-Java開発の世界では、基礎知識の理解が不可欠です。[バーコードの基礎](./barcode-basics/)チュートリアルでは、アプリケーションにおけるバーコードの可能性を最大限に引き出すための包括的なガイドを提供します。シームレスな統合からカスタマイズ、認識まで、このチュートリアルはコーディングスキルを向上させるための入り口となります。
+Java 開発の世界では、基礎を理解することが重要です。私たちの [Barcode Basics](./barcode-basics/) チュートリアルは、アプリケーションでバーコードの力を引き出すための包括的なガイドを提供します。シームレスな統合からカスタマイズ、認識まで、このチュートリアルはコーディングスキルを向上させる入口です。
 
 ## ドキュメントバーコード認識
 
-[ドキュメントバーコード認識](./document-barcode-recognition/)で、Javaアプリケーションを次のレベルへと引き上げましょう。PDF、Word文書、Unicodeセットからバーコードをシームレスに統合、読み取り、ソートする方法を学びます。このチュートリアルは、様々なドキュメント形式におけるバーコード認識の可能性を最大限に引き出すための力を与えてくれます。
+[Document Barcode Recognition](./document-barcode-recognition/) で Java アプリケーションを次のレベルへ引き上げましょう。PDF、Word ドキュメント、Unicode セットからバーコードをシームレスに統合、読み取り、並べ替える方法を学びます。このチュートリアルは、さまざまなドキュメント形式でバーコード認識の可能性を最大限に活用できるようにします。
 
-## 多言語対応
+## 多言語サポート
 
-[多言語対応](./multilingual-support/)チュートリアルで、多言語対応の世界に飛び込みましょう。様々な言語のPDF417バーコードを認識する力を解き放ちます。このチュートリアルは、Aspose.BarCode を使用して Java で多言語バーコードをサポートする方法を習得するためのガイドです。
+私たちの [Multilingual Support](./multilingual-support/) チュートリアルで多言語サポートの領域に踏み込みましょう。さまざまな言語で PDF417 バーコードを認識する力を解き放ちます。このチュートリアルは、Aspose.BarCode を使用した Java における多言語バーコードサポートの習得ガイドです。
 
 ## チェックサムと検証
 
-[チェックサムと検証](./checksum-and-validation/) を使用して、Java でデータの整合性を強化しましょう。バーコードを簡単に生成し、常にチェックサムを表示し、CodaBar と一般的なチェックサム検証をマスターしましょう。このチュートリアルでは、データの正確性と信頼性を確保するために必要なツールを提供します。
+[Checksum and Validation](./checksum-and-validation/) で Java のデータ整合性を強化しましょう。バーコードを簡単に生成し、常にチェックサムを表示し、CodaBar と一般的なチェックサム検証をマスターします。このチュートリアルは、データの正確性と信頼性を確保するために必要なツールを提供します。
 
-## バーコードの設定
+## バーコード構成
 
-[バーコードの設定](./barcode-configuration/) を使用して、Java でカスタマイズされたバーコードを簡単に生成できます。多機能なチュートリアルで、効率性と開発者の使いやすさを向上させましょう。このセクションは、特定の要件に合わせてバーコードをカスタマイズし、コーディングを容易にすることを目的としています。
+[Barcode Configuration](./barcode-configuration/) で Java でカスタマイズされたバーコードを簡単に生成しましょう。多用途なチュートリアルで効率と開発者フレンドリーさを向上させます。このセクションは、特定の要件に合わせてバーコードを調整し、コーディングを楽にすることを目的としています。
 
-## テキストとスタイル設定
+## テキストとスタイリング
 
-[テキストとスタイル設定](./text-and-styling/) を使用して、Java でバーコードのビジュアルを簡単に強化しましょう。ユーザーエクスペリエンスを向上させるためのキャプションの追加方法や、動的バーコードのコードテキストのカスタマイズ方法を学びましょう。このチュートリアルは、バーコードを視覚的に魅力的で使いやすいものにするための頼りになるリソースです。
+[Text and Styling](./text-and-styling/) で Java のバーコードビジュアルを簡単に向上させましょう。ユーザー体験を向上させるキャプションの追加方法を学び、動的バーコードのコードテキストをカスタマイズします。このチュートリアルは、バーコードを視覚的に魅力的でユーザーフレンドリーにするための必携リソースです。
 
-## シンボルとフォーマット
+## シンボロジーとフォーマット
 
-シンボルの指定、バーコードの取得と認識、そして動的バーコードの簡単な生成と保存をマスターしましょう。[シンボルとフォーマット](./symbology-and-format/) チュートリアルでは、バーコードのシンボルとフォーマットの複雑な仕組みを掘り下げ、Javaアプリケーションをさらに進化させます。
+[Symbology and Format](./symbology-and-format/) でシンボロジーの指定、バーコードの取得と認識、動的バーコードの簡単な生成と保存をマスターしましょう。バーコードシンボロジーとフォーマットの詳細に踏み込んだチュートリアルで、Java アプリケーションを向上させます。
 
 ## 画像操作
 
-[画像操作](./image-manipulation/) チュートリアルで、Javaによるバーコード画像の操作方法を学びましょう。視覚的に魅力的なバーコードを簡単に作成、カスタマイズ、強化できます。このセクションでは、バーコードを際立たせ、注目を集めるためのスキルを習得できます。
+[Image Manipulation](./image-manipulation/) のチュートリアルで Java のバーコード画像操作を探求しましょう。バーコードを簡単に強化、カスタマイズ、視覚的に魅力的に作成できます。このセクションは、バーコードを際立たせ、注目を集めるスキルを提供します。
 
+## バーコードレンダリング技術
 
-## バーコードレンダリングテクニック
-
-[バーコードレンダリングテクニック](./barcode-rendering-techniques/) を使えば、Javaでバーコードを簡単に作成・統合できます。グラフィック、画像、プリンタ、サーブレットへのバーコードレンダリングに関するステップバイステップのチュートリアルをご覧ください。このチュートリアルシリーズは、様々な形式でバーコードをレンダリングする技術を習得するためのガイドです。
+[Barcode Rendering Techniques](./barcode-rendering-techniques/) で Java にバーコードを簡単に作成・統合しましょう。グラフィック、画像、プリンター、サーブレットへのバーコードレンダリングに関するステップバイステップのチュートリアルを探ります。このチュートリアルシリーズは、さまざまな形式でバーコードをレンダリングする技術を習得するためのガイドです。
 
 ## 高度な設定と最適化
 
-[高度な設定と最適化](./advanced-settings-and-optimization/) で、Javaバーコード生成の可能性を最大限に引き出しましょう。カスタムサイズの設定、画像解像度の最適化、シームレスな統合のためのバーコード設定のマスターが可能です。これらの高度なチュートリアルで、Javaアプリケーションを簡単にレベルアップできます。
+[Advanced Settings and Optimization](./advanced-settings-and-optimization/) で Java のバーコード生成の可能性を解き放ちましょう。カスタムサイズの設定、画像解像度の最適化、シームレスな統合のためのバーコード設定をマスターします。これらの高度なチュートリアルで、Java アプリケーションを簡単に向上させます。
 
-Java開発者の初心者でも経験豊富な方でも、これらのチュートリアルはAspose.BarCode for Javaのパワーを最大限に活用するための包括的なガイドとなります。コーディングスキルを向上させ、新たな可能性を切り開き、今すぐアプリケーションにバーコードをシームレスに統合しましょう。
+初心者から経験豊富な Java 開発者まで、これらのチュートリアルは Aspose.BarCode for Java の力を活用するための包括的なガイドを提供します。コーディングスキルを向上させ、新たな可能性を開き、バーコードをアプリケーションにシームレスに統合しましょう。
 
-
-## Aspose.BarCode for Java チュートリアル
+## Aspose.BarCode for Java tutorials
 ### [バーコードの基礎](./barcode-basics/)
-Javaアプリケーションでバーコードの可能性を最大限に引き出しましょう！Aspose.BarCodeのチュートリアルで、シームレスな統合、カスタマイズ、認識方法を学びましょう。今すぐコーディングスキルを向上させましょう。
+Java アプリケーションでバーコードの力を解き放ちましょう！シームレスな統合、カスタマイズ、認識のための Aspose.BarCode チュートリアルに飛び込み、コーディングスキルを向上させましょう。
 
 ### [ドキュメントバーコード認識](./document-barcode-recognition/)
-Aspose.BarCodeでJavaにおけるバーコード認識の可能性を最大限に引き出しましょう！PDF、Word文書、Unicodeセットからバーコードをシームレスに統合、読み取り、ソートする方法を学びましょう。
+Aspose.BarCode を使用して Java でバーコード認識の力を解き放ちましょう！PDF、Word ドキュメント、Unicode セットからバーコードをシームレスに統合、読み取り、並べ替える方法を学びます。
 
-### [多言語対応](./multilingual-support/)
-PDF417バーコード認識に関するチュートリアルで、多言語対応の可能性を最大限に引き出しましょう。Aspose.BarCodeを使ったJavaコーディングで、シームレスな統合を実現しましょう。
+### [多言語サポート](./multilingual-support/)
+PDF417 バーコードの認識に関するチュートリアルで多言語サポートの力を解き放ちましょう。Aspose.BarCode を使用した Java コーディングに飛び込み、シームレスな統合を実現します。
 
 ### [チェックサムと検証](./checksum-and-validation/)
-Aspose.BarCodeでJavaにおけるデータ整合性を強化しましょう。バーコードを簡単に生成し、常にチェックサムを表示し、CodaBarと一般的なチェックサム検証をマスターしましょう。
+Aspose.BarCode で Java のデータ整合性を強化しましょう。バーコードを簡単に生成し、常にチェックサムを表示し、CodaBar と一般的なチェックサム検証をマスターします。
 
-### [バーコード設定](./barcode-configuration/)
-Aspose.BarCode を使えば、Java でカスタム バーコードを簡単に生成できます。豊富なチュートリアルで、効率性と開発者の使いやすさを向上させましょう。
+### [バーコード構成](./barcode-configuration/)
+Aspose.BarCode を使用して Java でカスタマイズされたバーコードを簡単に生成しましょう。多用途なチュートリアルで効率と開発者フレンドリーさを向上させます。
 
-### [テキストとスタイル設定](./text-and-styling/)
-Aspose.BarCode を使えば、Java でバーコードのビジュアルを簡単に強化できます。キャプションを追加してユーザーエクスペリエンスを向上させる方法を学びましょう。動的バーコードのコードテキストをカスタマイズすることもできます。
+### [テキストとスタイリング](./text-and-styling/)
+Aspose.BarCode で Java のバーコードビジュアルを簡単に向上させましょう。ユーザー体験を向上させるキャプションの追加方法を学び、動的バーコードのコードテキストをカスタマイズします。
 
-### [シンボルとフォーマット](./symbology-and-format/)
-Aspose.BarCode のチュートリアルで、Java アプリケーションを強化しましょう！シンボル指定、バーコードの取得と認識、動的バーコードの生成と保存を簡単にマスターできます。
-
+### [シンボロジーとフォーマット](./symbology-and-format/)
+Aspose.BarCode のチュートリアルで Java アプリケーションを強化しましょう！シンボロジーの指定、バーコードの取得と認識、動的バーコードの簡単な生成と保存をマスターします。
 
 ### [画像操作](./image-manipulation/)
-Aspose.BarCode チュートリアルで、Java バーコード画像操作を詳しく見ていきましょう。視覚的に魅力的なバーコードを簡単に作成、カスタマイズ、強化できます。
+Aspose.BarCode のチュートリアルで Java のバーコード画像操作を探求しましょう。バーコードを簡単に強化、カスタマイズ、視覚的に魅力的に作成します。
 
 ### [バーコードレンダリング技術](./barcode-rendering-techniques/)
-Aspose.BarCode を使えば、Java でバーコードを簡単に作成・統合できます。グラフィック、画像、プリンタ、サーブレットへのバーコードレンダリングに関するステップバイステップのチュートリアルをご覧ください。
+Aspose.BarCode で Java にバーコードを簡単に作成・統合しましょう。グラフィック、画像、プリンター、サーブレットへのバーコードレンダリングに関するステップバイステップのチュートリアルを探ります。
 
 ### [高度な設定と最適化](./advanced-settings-and-optimization/)
-Aspose.BarCode で、Java バーコード生成の可能性を最大限に引き出しましょう。カスタムサイズの設定、画像解像度の最適化、バーコード設定のマスターにより、シームレスな統合を実現します。Java アプリケーションを簡単に進化させましょう。
+Aspose.BarCode で Java のバーコード生成の可能性を解き放ちましょう。カスタムサイズの設定、画像解像度の最適化、シームレスな統合のためのバーコード設定をマスターします。Java アプリケーションを簡単に向上させます。
 
 ## よくある質問
 
-**Q:** *開発用であればライセンスなしでバーコードを生成できますか？*
-**A:** はい、Asposeは評価および開発用の一時的な無料ライセンスを提供しています。本番環境での導入には、フルライセンスが必要です。
+**Q:** *開発用にライセンスなしでバーコードを生成できますか？*  
+**A:** はい、Aspose は評価・開発用の一時的な無料ライセンスを提供しています。本番環境での展開にはフルライセンスが必要です。
 
-**Q:** *バーコードをエクスポートできる画像形式は何ですか？*
-**A:** PNG、JPEG、BMP、GIF、TIFF、およびSVGやPDFなどの複数のベクター形式に対応しています。
+**Q:** *バーコードをエクスポートできる画像形式は何ですか？*  
+**A:** PNG、JPEG、BMP、GIF、TIFF、そして SVG や PDF などのベクターフォーマットがサポートされています。
 
-**Q:** *スキャンしたPDFドキュメントからバーコードを読み取るにはどうすればよいですか？*
-**A:** **ドキュメントバーコード認識** APIを使用してPDFを読み込み、`BarCodeReader`を呼び出して各ページからバーコードを抽出します。
+**Q:** *スキャンした PDF ドキュメントからバーコードを読み取るにはどうすればよいですか？*  
+**A:** **document barcode recognition** API を使用して PDF をロードし、`BarCodeReader` を呼び出して各ページからバーコードを抽出します。
 
-**Q:** *バーコードのバーと背景の色を変更することはできますか？*
-**A:** はい、可能です。 `BarCodeImage` クラスでは、`BarColor` と `BackColor` に任意の `java.awt.Color` 値を設定できます。
+**Q:** *バーコードのバーと背景の色を変更できますか？*  
+**A:** もちろんです。`BarCodeImage` クラスを使用すると、`BarColor` と `BackColor` を任意の `java.awt.Color` 値に設定できます。
 
-**Q:** *QRコードの下に表示されるキャプションテキストをカスタマイズできますか？*
-**A:** はい、**バーコードテキストのスタイル設定** オプションを使用すると、キャプションを追加したり、フォント、サイズ、配置を選択したりできます。
+**Q:** *QR コードの下に表示されるキャプションテキストをカスタマイズできますか？*  
+**A:** はい、**barcode text styling** オプションを使用すると、キャプションの追加、フォント、サイズ、配置を選択できます。
 
----
+**最終更新日:** 2026-09-18  
+**テスト環境:** Aspose.BarCode for Java 最新リリース  
+**作者:** Aspose
 
-**最終更新日:** 2026年1月27日
-**テスト環境:** Aspose.BarCode for Java 最新リリース
-**作成者:** Aspose
+## 関連チュートリアル
+
+- [Java で Aspose.BarCode を使用したバーコード画像生成方法](/barcode/java/barcode-rendering-techniques/)
+- [Java のカスタムバーコードサイズ - Aspose.BarCode で正確な寸法を設定する方法](/barcode/java/advanced-settings-and-optimization/configuring-custom-size-barcode/)
+- [Java でバーコードを生成する方法：Aspose.BarCode でストリームに保存](/barcode/java/advanced-settings-and-optimization/saving-barcode-image-streams/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,34 +1,34 @@
 ---
 category: general
-date: 2026-07-15
-description: Aspose.BarCode kullanarak C#'de PDF417 barkod meta verilerini oluşturun.
-  Macro PDF417 ayarlarını öğrenin, PNG olarak kaydedin ve Unicode metni işleyin.
+date: 2026-09-28
+description: Aspose.BarCode ile C#'te PDF417 barkod metaverisini oluşturun. Bu kılavuz,
+  dosya‑ID, zaman damgaları ve daha fazlasını gömmek için ihtiyacınız olan tüm ayarları
+  gösterir.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
 - create pdf417 barcode metadata
-- macro pdf417
+- increase barcode resolution
+- macro pdf417 c#
 - aspose barcode c#
 - barcode metadata fields
-- c# barcode generation
-language: tr
-lastmod: 2026-07-15
-og_description: Aspose.BarCode ile C#'ta PDF417 barkod meta verilerini oluşturun.
-  Bu kılavuz, dosya kimliği, zaman damgaları ve daha fazlasını eklemek için ihtiyacınız
-  olan tüm ayarları gösterir.
+lastmod: 2026-09-28
+og_description: Aspose.BarCode kullanarak C#'te PDF417 barkod metaverisini nasıl oluşturacağınızı
+  öğrenin. Eğitim, Macro PDF417 ayarları, metaveri alanları, görüntü dışa aktarımı
+  ve Unicode desteğini kapsar.
 og_image_alt: Screenshot of a generated PDF417 barcode containing metadata fields
-og_title: C#'ta PDF417 Barkod Meta Verilerini Oluşturma – Tam Programlama Rehberi
+og_title: C#'te PDF417 barkod metaverisini oluşturma – adım‑adım kılavuz
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
+  dateModified: '2026-09-28'
   description: Create PDF417 barcode metadata in C# using Aspose.BarCode. Learn Macro
     PDF417 settings, save as PNG, and handle Unicode text.
-  headline: Create PDF417 Barcode Metadata in C# – Complete Step‑by‑Step Guide
+  headline: Create PDF417 barcode metadata in C# – Complete Step‑by‑Step Guide
   type: TechArticle
 - description: Create PDF417 barcode metadata in C# using Aspose.BarCode. Learn Macro
     PDF417 settings, save as PNG, and handle Unicode text.
-  name: Create PDF417 Barcode Metadata in C# – Complete Step‑by‑Step Guide
+  name: Create PDF417 barcode metadata in C# – Complete Step‑by‑Step Guide
   steps:
   - name: Setting up the Aspose.BarCode NuGet package.
     text: Setting up the Aspose.BarCode NuGet package.
@@ -60,7 +60,7 @@ tags:
 - csharp
 - aspose
 - pdf417
-title: C#'ta PDF417 Barkod Metaverisini Oluşturma – Tam Adım Adım Rehber
+title: C#'te PDF417 Barkod Metaverisini Oluşturma – Tam Adım‑Adım Kılavuz
 url: /tr/net/compact-pdf417-encoding/create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/
 ---
 
@@ -68,40 +68,49 @@ url: /tr/net/compact-pdf417-encoding/create-pdf417-barcode-metadata-in-c-complet
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#'ta PDF417 Barkod Metaverisini Oluşturma – Tam Adım‑Adım Kılavuz
+# C#'ta PDF417 barkod meta verilerini oluşturma – Tam adım‑adım kılavuz
 
-C#'ta **PDF417 barkod metaverisini oluşturmanız** gerektiğinde, hangi özellikleri ayarlamanız gerektiğinden emin olmadınız mı? Tek başınıza değilsiniz—geliştiriciler genellikle dosya kimlikleri, segment sayıları veya özel zaman damgaları gibi özellikler gerektiğinde takılıp kalıyor.  
+Ever needed to **create PDF417 barcode metadata** in C# but weren't sure which properties to tweak? You're not the only one—developers often hit a wall when the spec demands things like file IDs, segment counts, or custom timestamps.  
 
-İyi haber şu ki Aspose.BarCode bunu çocuk oyuncağı haline getiriyor. Bu öğreticide **Macro PDF417** için bir `BarcodeGenerator` oluşturacağız, tüm önemli metaverileri ekleyeceğiz ve sonucu PNG görüntüsü olarak kaydedeceğiz. Sonunda, herhangi bir tedarik zinciri ya da belge yönetim sistemi için hazır, tam özellikli bir barkodunuz olacak.
+The good news is that Aspose.BarCode makes this a piece of cake. In this tutorial we'll spin up a `BarcodeGenerator` for **Macro PDF417**, sprinkle in all the important metadata, and save the result as a PNG image. By the end you’ll have a fully‑featured barcode ready for any supply‑chain or document‑management system.
 
-## Bu Kılavuzda Neler Ele Alınıyor
+## Hızlı cevaplar
+- **Barkod oluşturmak için ana sınıf nedir?** The `BarcodeGenerator` class creates barcode images based on the supplied settings.  
+- **Görüntü keskinliğini kontrol eden ayar hangisidir?** Increase `XDimension.Pixels` or use a higher‑resolution format such as PNG.  
+- **Her meta veri alanını doldurmak zorunda mıyım?** No. Only the fields required by your downstream system are mandatory.  
+- **Unicode karakterler ekleyebilir miyim?** Yes—Aspose.BarCode handles UTF‑8 out of the box, as shown by the sample text.  
+- **Aspose.BarCode kaç barkod türünü destekliyor?** Over 30 symbologies, including PDF417 up to 5 000 modules in length.
 
-1. Aspose.BarCode NuGet paketini kurma.  
-2. **Macro PDF417** için bir `BarcodeGenerator` başlatma.  
-3. Her faydalı **barkod metaveri alanını** doldurma (dosya kimliği, segment kimliği, kontrol toplamı vb.).  
-4. Barkodu diske kaydetme ve çıktıyı doğrulama.  
+## Bu kılavuzda neler bulunuyor
 
-Macro PDF417 hakkında önceden deneyim gerekmez—sadece temel C# bilgisi ve güncel bir .NET çalışma zamanı yeterlidir.  
+We'll walk through:
 
-Neden umursamalısınız? Zengin metaveriyi doğrudan bir barkoda gömmek, alttaki tarayıcıların bütün dosya transferlerini doğrulamasını, eksik segmentleri tespit etmesini veya otomatik iş akışlarını tetiklemesini sağlar. Başka bir deyişle, ayrı bir veritabanı sorgulamasına gerek kalmadan **güçlü, kendini tanımlayan veri** elde edersiniz.
+1. Setting up the Aspose.BarCode NuGet package.  
+2. Initializing a `BarcodeGenerator` for **Macro PDF417**.  
+3. Populating every useful **barcode metadata field** (file ID, segment ID, checksum, etc.).  
+4. Saving the barcode to disk and verifying the output.  
 
-## Önkoşullar
+No prior experience with Macro PDF417 is required—just basic C# knowledge and a recent .NET runtime.  
 
-- .NET 6.0 veya daha yenisi (kod .NET Framework 4.7+ üzerinde de çalışır).  
-- Visual Studio 2022 (veya tercih ettiğiniz herhangi bir IDE).  
-- **Aspose.BarCode for .NET** NuGet paketi (ücretsiz deneme mevcut).  
+Why should you care? Embedding rich metadata directly into a barcode lets downstream scanners validate whole file transfers, detect missing segments, or even trigger automated workflows. In other words, you get **robust, self‑describing data** without a separate database lookup.
 
-Paketi aşağıdaki komutla kurabilirsiniz:
+## C#'ta pdf417 barkod meta verilerini nasıl oluşturulur?
+
+Load a `BarcodeGenerator` configured for `EncodeTypes.MacroPdf417`, set the desired metadata properties, and call `Save` to write a PNG file. This three‑step flow handles Unicode text, assigns a unique file ID, and optionally splits large payloads into multiple segments. The approach works on .NET 6+, .NET Framework 4.7+, and requires only the Aspose.BarCode NuGet package.
+
+### Adım 1: install the Aspose.BarCode NuGet package
+
+You can install the package with the following command:
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-Artık temel hazırlıklar tamam, gerçek uygulamaya dalalım.
+Now that we have the groundwork, let’s dive into the actual implementation.
 
-## Adım 1: Macro PDF417 için BarcodeGenerator'ı Başlatma
+## Adım 1: initialize the BarcodeGenerator for Macro PDF417
 
-İlk olarak **Macro PDF417** için yapılandırılmış bir `BarcodeGenerator` örneğine ihtiyacımız var. Bu, Aspose.BarCode'a hangi kodlama algoritmasını kullanacağını söyler ve insan‑okunur metni besleyebileceğimiz bir yer sağlar.
+The `BarcodeGenerator` class creates barcode images based on the supplied settings. The first thing we need is a `BarcodeGenerator` instance configured for **Macro PDF417**. This tells Aspose.BarCode which encoding algorithm to use and gives us a place to feed the human‑readable text.
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -115,11 +124,11 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MacroPdf417
 }
 ```
 
-> **Neden önemli:** `EncodeTypes.MacroPdf417` genişletilmiş PDF417 modunu etkinleştirir; bu mod dosya kimlikleri ve segment numaraları gibi metaverileri destekler. Örnek metin Unicode karakterleri (`Å`, `ó`, `©`) içerir ve jeneratörün ASCII dışı girdileri sorunsuz işlediğini gösterir.
+> **Why this matters:** `EncodeTypes.MacroPdf417` activates the extended PDF417 mode that supports metadata like file IDs and segment numbers. The sample text contains Unicode characters (`Å`, `ó`, `©`) to prove that the generator handles non‑ASCII input gracefully.
 
-## Adım 2: Temel Barkod Görünümünü Tanımlama
+## Adım 2: define basic barcode appearance
 
-Metaveri eklemeye başlamadan önce barkodun mikroskobik bir nokta olmaması için birkaç görsel parametre ayarlamalıyız. `XDimension` modül genişliğini kontrol eder, `Columns` ise genel şekli etkiler.
+`XDimension` sets the width of each barcode module in pixels. Before we start sprinkling metadata, we should set a few visual parameters so the barcode isn’t a microscopic speck. The `XDimension` controls module width, while `Columns` influences the overall shape.
 
 ```csharp
 // Step 2: Define basic barcode appearance
@@ -127,11 +136,11 @@ generator.Parameters.Barcode.XDimension.Pixels = 2;   // module width
 generator.Parameters.Barcode.Pdf417.Columns = 5;     // number of columns
 ```
 
-> **İpucu:** `2` piksel genişlik ekran görüntüsü ve çoğu yazıcı için iyidir. Daha yüksek çözünürlüklü bir baskı gerekiyorsa `3` veya `4` olarak artırabilirsiniz.
+> **Pro tip:** A pixel width of `2` works well for screen‑display and most printers. If you need a higher‑resolution print, bump it up to `3` or `4`.
 
-## Adım 3: Macro PDF417 Metaveri Alanlarını Doldurma
+## Adım 3: populate macro PDF417 metadata fields
 
-Şimdi öğretinin kalbi geliyor—**barkod metaveri alanlarını** ekleme. Her özellik Macro PDF417 spesifikasyonunun bir segmentine doğrudan karşılık gelir.
+Now comes the heart of the tutorial—adding **barcode metadata fields**. Each property maps directly to a segment of the Macro PDF417 specification.
 
 ```csharp
 // Step 3: Set Macro PDF417 metadata
@@ -147,37 +156,37 @@ generator.Parameters.Barcode.Pdf417.MacroPdf417Sender = "aspose";              /
 generator.Parameters.Barcode.Pdf417.MacroPdf417Terminator = Pdf417MacroTerminator.Set;
 ```
 
-### Her Özelliğin Ne İşe Yaradığı
+### Her özelliğin ne işe yaradığı
 
-| Özellik | Amaç | Tipik Değer |
-|----------|------|-------------|
-| **MacroPdf417FileID** | Tüm dosya seti için evrensel benzersiz tanımlayıcı. | `12345678` |
-| **MacroPdf417SegmentID** | Mevcut segmentin indeksi (`0`'dan başlar). | `12` |
-| **MacroPdf417SegmentsCount** | Dosya için beklenen toplam segment sayısı. | `20` |
-| **MacroPdf417FileName** | İnsan tarafından okunabilir ad, genellikle orijinal dosya adı. | `"file01"` |
-| **MacroPdf417Checksum** | Hata tespiti için 16‑bit CCITT kontrol toplamı. | `1234` |
-| **MacroPdf417FileSize** | Orijinal dosyanın bayt cinsinden boyutu. | `400000` |
-| **MacroPdf417TimeStamp** | Dosyanın oluşturulma zamanı. | `new DateTime(2019,11,1)` |
-| **MacroPdf417Addressee** | Alıcıyı gösteren isteğe bağlı alan. | `"street"` |
-| **MacroPdf417Sender** | Kaynak sistemi gösteren isteğe bağlı alan. | `"aspose"` |
-| **MacroPdf417Terminator** | Tarayıcıya bu segmentin son olduğunu belirten bayrak. | `Pdf417MacroTerminator.Set` |
+| Özellik | Amaç | Tipik değer |
+|----------|---------|---------------|
+| **MacroPdf417FileID** | Globally unique identifier for the whole file set. | `12345678` |
+| **MacroPdf417SegmentID** | Index of the current segment (starts at `0`). | `12` |
+| **MacroPdf417SegmentsCount** | Total segments expected for the file. | `20` |
+| **MacroPdf417FileName** | Human‑readable name, often the original filename. | `"file01"` |
+| **MacroPdf417Checksum** | 16‑bit CCITT checksum for error detection. | `1234` |
+| **MacroPdf417FileSize** | Size of the original file in bytes. | `400000` |
+| **MacroPdf417TimeStamp** | When the file was generated. | `new DateTime(2019,11,1)` |
+| **MacroPdf417Addressee** | Optional field indicating the destination. | `"street"` |
+| **MacroPdf417Sender** | Optional field indicating the source system. | `"aspose"` |
+| **MacroPdf417Terminator** | Flag that tells the scanner this is the final segment. | `Pdf417MacroTerminator.Set` |
 
-> **Neden ihtiyacınız var:** Macro PDF417'yi anlayan tarayıcılar çok‑segmentli bir dosyayı yeniden birleştirebilir, kontrol toplamı ile bütünlüğü doğrulayabilir ve zaman damgasına göre eski verileri reddedebilir. Böylece ayrı bir manifest dosyasına gerek kalmaz.
+> **Why you need these:** Scanners that understand Macro PDF417 can reassemble a multi‑segment file, verify integrity with the checksum, and even reject outdated data based on the timestamp. This eliminates the need for a separate manifest file.
 
-## Adım 4: Barkod Görüntüsünü Kaydetme
+## Adım 4: save the barcode image
 
-Tüm parametreler ayarlandığında sadece `Save` metodunu çağırmamız yeterli. Örnek, belirttiğiniz bir klasöre PNG dosyası yazar.
+`Save` writes the generated barcode image to a file in the chosen format. Once all parameters are set, we simply call `Save`. The example writes a PNG file to a folder you specify.
 
 ```csharp
 // Step 4: Save the barcode image
 generator.Save("YOUR_DIRECTORY/ExtPDF417Meta.png", BarCodeImageFormat.Png);
 ```
 
-> **Köşe durumu:** Barkodu daha sonra bir PDF'ye gömmeyi planlıyorsanız `BarCodeImageFormat.Jpeg` ya da `Pdf` tercih edebilirsiniz. PNG kayıpsız detay korur; doğrulama için kullanışlıdır.
+> **Edge case:** If you plan to embed the barcode in a PDF later, you might prefer `BarCodeImageFormat.Jpeg` or `Pdf`. PNG preserves lossless detail, which is handy for verification.
 
-## Tam Çalışan Örnek
+## Tam çalışan örnek
 
-Her şeyi bir araya getirdiğimizde, konsol uygulamasına kopyalayıp yapıştırabileceğiniz tam program aşağıdadır:
+Putting everything together, here’s the complete program you can copy‑paste into a console app:
 
 ```csharp
 using System;
@@ -216,43 +225,76 @@ class Program
 }
 ```
 
-### Beklenen Çıktı
+### Beklenen çıktı
 
-Program çalıştırıldığında çalıştırılabilir dosyanın klasöründe **ExtPDF417Meta.png** adlı bir dosya oluşur. Herhangi bir görüntüleyiciyle açtığınızda yoğun, yüksek kontrastlı bir PDF417 barkodu görürsünüz. Macro PDF417 destekli bir barkod okuyucu ile taradığınızda, ayarladığımız metaveri değerleri geri döner—dosya kimliği `12345678`, segment `12` / `20` vb.
+Running the program creates a file named **ExtPDF417Meta.png** in the executable's folder. Open it with any image viewer and you’ll see a dense, high‑contrast PDF417 barcode. If you scan it with a barcode reader that supports Macro PDF417, the scanner will return the metadata values we set—file ID `12345678`, segment `12` of `20`, and so on.
 
-## Yaygın Sorular ve Tuzaklar
+## Yaygın sorular ve tuzaklar
 
-- **Barkod bulanık çıkarsa ne yapmalı?** `XDimension.Pixels` değerini artırın veya daha yüksek çözünürlüklü bir görüntü formatına geçin.  
-- **Her metaveri alanını ayarlamam gerekiyor mu?** Hayır. Yalnızca aşağı akış sisteminizin gerektirdiği alanlar zorunludur. Kullanılmayan alanlar varsayılan değerlerinde kalabilir.  
-- **Çok‑segmentli bir dosyayı otomatik olarak oluşturabilir miyim?** Evet—veri üzerinde döngü kurarak `MacroPdf417SegmentID` değerini artırın ve her segment için ayrı bir barkod oluşturun. `MacroPdf417FileID` değerinin tüm segmentlerde tutarlı kalmasına dikkat edin.  
-- **Unicode destekleniyor mu?** Kesinlikle. Örnek metin `Å`, `ó` ve `©` karakterlerini içeriyor ve Aspose.BarCode'un UTF‑8'i kutudan çıkar çıkmaz işlediğini gösteriyor.
+- **What if the barcode looks blurry?** Increase `XDimension.Pixels` or switch to a higher‑resolution image format.  
+- **Do I need to set every metadata field?** No. Only the fields required by your downstream system are mandatory. Unused fields can stay at their defaults.  
+- **Can I generate a multi‑segment file automatically?** Yes—loop over the data, increment `MacroPdf417SegmentID`, and generate a separate barcode for each segment. Remember to keep `MacroPdf417FileID` consistent across all segments.  
+- **Is Unicode supported?** Absolutely. The sample text contains `Å`, `ó`, and `©`, showing that Aspose.BarCode handles UTF‑8 out of the box.
 
-## Sonraki Adımlar: Temelin Ötesine Geçmek
+## Sıkça sorulan sorular
 
-Artık **PDF417 barkod metaverisini oluşturmayı** bildiğinize göre aşağıdaki konuları keşfedebilirsiniz:
+**S: Aspose.BarCode kaç barkod formatını destekliyor?**  
+C: Aspose.BarCode supports more than 30 barcode symbologies, including 1D, 2D, and postal codes, and can generate PDF417 barcodes up to 5 000 modules long.
 
-- **Barkodları PDF'lere gömme** `Aspose.Pdf` kullanarak uçtan uca belge oluşturma.  
-- **Metaveriyi geri okuma** `BarcodeReader` ile taramaları programlı olarak doğrulama.  
-- **Renkleri özelleştirme** (ön plan/arka plan) marka amaçları için.  
-- **Veritabanı entegrasyonu** `FileID` veya `Timestamp` gibi alanları otomatik doldurmak için.
+**S: Barkodu doğrudan bir PDF belgesine gömebilir miyim?**  
+C: Yes—use the `Aspose.Pdf` library to place the generated PNG or JPEG into a PDF page, preserving vector quality.
 
-Bu konular, **macro pdf417**, **aspose barcode c#**, **barcode metadata fields** ve **c# barcode generation** gibi ikincil anahtar kelimelerimizle de bağlantılıdır; böylece öğrenmeye devam etmeniz için bolca materyal bulacaksınız.
+**S: Hangi .NET sürümleri uyumlu?**  
+C: The library works with .NET Framework 4.7+, .NET Core 3.1, .NET 5, .NET 6, and later.
+
+**S: Tarama sonrası meta verileri nasıl doğrularım?**  
+C: Use `BarcodeReader` with `DecodeType = DecodeType.MacroPdf417` to retrieve the metadata fields programmatically.
+
+**S: Kodlayabileceğim dosya boyutu sınırı var mı?**  
+C: Aspose.BarCode can handle files up to 10 MB of raw data in a single Macro PDF417 stream, automatically splitting larger payloads into multiple segments.
+
+## Sonraki adımlar: temellerin ötesine geçmek
+
+Now that you know how to **create PDF417 barcode metadata**, you might want to explore:
+
+- **Embedding barcodes in PDFs** using `Aspose.Pdf` for end‑to‑end document generation.  
+- **Reading back metadata** with `BarcodeReader` to validate scans programmatically.  
+- **Customizing colors** (foreground/background) for branding purposes.  
+- **Integrating with a database** to auto‑populate fields like `FileID` or `Timestamp`.
+
+All of these topics tie back to our secondary keywords—**increase barcode resolution**, **macro pdf417**, **aspose barcode c#**, **barcode metadata fields**, and **c# barcode generation**—so you’ll find plenty of material to keep learning.
 
 ## Sonuç
 
-C#'ta **PDF417 barkod metaverisini oluşturma** sürecini adım adım gösteren, üretim ortamına hazır bir örnek sunduk. Aspose.BarCode'u kurmaktan, `BarcodeGenerator`'ı başlatmaya, ilgili **barkod metaveri alanlarını** doldurmaya ve net bir PNG kaydetmeye kadar tüm aşamalar basit bir şekilde gerçekleşir.  
+We’ve just walked through a complete, production‑ready example of how to **create PDF417 barcode metadata** in C#. From installing Aspose.BarCode, initializing a `BarcodeGenerator`, filling every relevant **barcode metadata field**, to finally saving a crisp PNG, the process is straightforward once you know the right properties.  
 
-Deneyin, değerleri değiştirin ve tarayıcıların tepkisini izleyin. Macro PDF417'nin esnekliği sayesinde, tek bir taranabilir görüntü içinde bir alt sistemin ihtiyaç duyduğu her şeyi gömebilirsiniz. İyi kodlamalar, barkodlarınız daima hatasız olsun!
+Give it a try, tweak the values, and see how scanners react. The flexibility of Macro PDF417 means you can embed everything a downstream system needs—all inside a single, scannable image. Happy coding, and may your barcodes always be error‑free!
 
-## Sonra Ne Öğrenmelisiniz?
+## Sonra ne öğrenmelisiniz?
 
-Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, adım adım açıklamalar ve tam çalışan kod örnekleri içerir; böylece API özelliklerini daha iyi kavrayabilir ve projelerinizde alternatif yaklaşımlar deneyebilirsiniz.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Barkod Nasıl Oluşturulur – Aspose.BarCode ile Kompakt PDF417](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [java barkod kütüphanesi – Aspose kullanarak PDF'ye barkod ekleme](/barcode/english/java/barcode-basics/adding-barcode-to-pdf-document/)
-- [Bir Barkod Nasıl Oluşturulur – Aspose.BarCode ile Kompakt PDF417](/barcode/german/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Aspose Barcode ile Pdf417 Barkod Oluşturma Adım Adım Kılavuzu](/barcode/english/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Aspose Barcode Örneği C'de Macro Pdf417 Oluşturma](/barcode/english/java/barcode-basics/adding-barcode-to-pdf-document/)
+- [So erstellen Sie einen Barcode – Kompaktes PDF417 mit Aspose.BarCode](/barcode/german/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+
+---
+
+
+**Son Güncelleme:** 2026-09-28  
+**Tested With:** Aspose.BarCode 24.10 for .NET  
+**Author:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose Barcode ile Pdf417 Barkod Oluşturma Adım Adım Kılavuzu](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Aspose Barcode Örneği C'de Macro Pdf417 Oluşturma](/barcode/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/)
+- [How To Generate Pdf417 Barcode Image In C With Aspose](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

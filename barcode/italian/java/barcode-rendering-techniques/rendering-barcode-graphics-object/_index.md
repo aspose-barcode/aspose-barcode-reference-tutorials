@@ -208,7 +208,6 @@ Ora disponi di un esempio completo, pronto per la produzione, su come **creare g
 **Testato con:** Aspose.BarCode for Java 24.11  
 **Autore:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## Tutorial correlati
 

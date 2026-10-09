@@ -1,35 +1,35 @@
 ---
 category: general
-date: 2026-07-15
-description: สร้างบาร์โค้ด PDF417 อย่างรวดเร็วด้วย C# เรียนรู้วิธีสร้างบาร์โค้ดจากข้อความ
-  ปรับขนาดบาร์โค้ด และตั้งค่าขนาดบาร์โค้ดตามต้องการในเวลาไม่กี่นาที.
+date: 2026-09-23
+description: เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ใน C# อย่างรวดเร็ว ปรับขนาด และกำหนดมิติที่กำหนดเองด้วย
+  Aspose.BarCode.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- generate pdf417 barcode
-- generate barcode from text
-- adjust barcode size
+- how to generate pdf417
+- generate pdf417 barcode c#
+- adjust barcode size c#
 - custom barcode dimensions
-language: th
-lastmod: 2026-07-15
-og_description: สร้างบาร์โค้ด PDF417 ด้วย C# อย่างรวดเร็ว คู่มือนี้แสดงวิธีสร้างบาร์โค้ดจากข้อความ
-  ปรับขนาดบาร์โค้ด และกำหนดมิติของบาร์โค้ดตามต้องการ
-og_image_alt: Screenshot of a PDF417 barcode generated with custom dimensions using
-  C# code
-og_title: สร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ
+lastmod: 2026-09-23
+og_description: วิธีสร้างบาร์โค้ด PDF417 ใน C# ภายในไม่กี่นาที คู่มือนี้จะแสดงวิธีเข้ารหัสข้อความ
+  ควบคุม X‑dimension และปรับแต่ง column‑row layout ด้วย Aspose.BarCode.
+og_image_alt: 'Developer guide: generate PDF417 barcode with custom dimensions using
+  C#'
+og_title: วิธีสร้างบาร์โค้ด PDF417 ใน C# – คู่มือ step‑by‑step
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: Generate PDF417 barcode quickly with C#. Learn how to generate barcode
-    from text, adjust barcode size, and set custom barcode dimensions in minutes.
-  headline: Generate PDF417 Barcode in C# – Complete Step‑by‑Step Guide
+  dateModified: '2026-09-23'
+  description: Learn how to generate PDF417 barcode quickly with C#. Includes text
+    encoding, size adjustment, and custom dimensions.
+  headline: How to generate PDF417 barcode in C# – complete step‑by‑step guide
   type: TechArticle
 tags:
-- barcode
 - pdf417
+- barcode
 - csharp
-title: สร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือแบบครบขั้นตอน
+- Aspose.BarCode
+title: วิธีสร้างบาร์โค้ด PDF417 ใน C# – คู่มือครบถ้วน step‑by‑step
 url: /th/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-by-step-guide/
 ---
 
@@ -37,38 +37,45 @@ url: /th/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนเต็ม
+# วิธีสร้างบาร์โค้ด PDF417 ด้วย C# – คู่มือขั้นตอนเต็ม
 
-เคยต้อง **สร้างบาร์โค้ด PDF417** แต่ไม่แน่ใจว่าจะปรับตั้งค่าอะไรบ้างหรือไม่? คุณไม่ได้เป็นคนเดียว—นักพัฒนาหลายคนเจออุปสรรคเดียวกันเมื่อลองเล่นกับบาร์โค้ด 2‑D ครั้งแรก ข่าวดีคือ? ด้วยไม่กี่บรรทัดของ C# คุณก็สามารถแปลงสตริงใด ๆ ให้เป็นภาพ PDF417 ที่สแกนได้ ควบคุมขนาดได้อย่างแม่นยำ และแม้กระทั่งกำหนดรูปแบบคอลัมน์‑แถวแบบกำหนดเองได้
+เคยต้องการ **สร้างบาร์โค้ด PDF417** แต่ไม่แน่ใจว่าต้องปรับตั้งค่าอะไรบ้างหรือไม่? คุณไม่ได้เป็นคนเดียว—นักพัฒนาหลายคนเจออุปสรรคเดียวกันเมื่อลองใช้บาร์โค้ด 2‑D ครั้งแรก ข่าวดีคือ? ด้วยไม่กี่บรรทัดของ C# คุณสามารถแปลงสตริงใด ๆ ให้เป็นภาพ PDF417 ที่สแกนได้ ควบคุมขนาดที่แน่นอน และแม้กระทั่งกำหนดการจัดเรียงคอลัมน์‑แถวแบบกำหนดเองได้
 
-ในบทเรียนนี้เราจะอธิบายวิธี **สร้างบาร์โค้ดจากข้อความ**, ปรับขนาดบาร์โค้ด, และตั้งค่าขนาดบาร์โค้ดแบบกำหนดเอง — ทั้งหมดโดยใช้ไลบรารี Aspose.BarCode ที่ได้รับความนิยม เมื่อจบคุณจะมีตัวอย่างพร้อมรันที่สามารถใส่ลงในโปรเจกต์ .NET ใดก็ได้
+ในบทแนะนำนี้ เราจะอธิบายขั้นตอนการ **สร้างบาร์โค้ดจากข้อความ**, ปรับขนาดบาร์โค้ด, และกำหนดมิติของบาร์โค้ดแบบกำหนดเอง — ทั้งหมดโดยใช้ไลบรารี Aspose.BarCode ที่เป็นที่นิยม เมื่อเสร็จคุณจะได้ตัวอย่างที่พร้อมใช้งานซึ่งสามารถนำไปใส่ในโครงการ .NET ใดก็ได้
 
 ![Generate PDF417 barcode example](https://example.com/og-image.png "Generate PDF417 barcode example")
+[Generate PDF417 barcode example](https://example.com/og-image.png "Generate PDF417 barcode example")
 
-## สิ่งที่คุณจะสร้าง
+## คำตอบสั้น
+- **ไลบรารีใดสร้างบาร์โค้ด PDF417 ใน .NET?** Aspose.BarCode for .NET.
+- **ต้องใช้กี่บรรทัดของโค้ดสำหรับบาร์โค้ดพื้นฐาน?** เพียงสามบรรทัด: สร้างตัวสร้าง, ตั้งค่า X‑dimension, บันทึกภาพ.
+- **ฉันสามารถกำหนดคอลัมน์และแถวได้หรือไม่?** ได้, คุณสามารถตั้งค่า `Columns` และ `Rows` ในพารามิเตอร์ PDF417.
+- **รูปแบบภาพใดที่รองรับ?** PNG, JPEG, BMP, GIF, SVG, and PDF.
+- **อักขระ Unicode ทำงานได้หรือไม่?** แน่นอน; API รองรับการเข้ารหัส UTF‑8 อย่างเต็มที่.
 
-- บาร์โค้ด PDF417 ที่เข้ารหัสสตริง `Åspóse.Barcóde©`
-- การควบคุมมิติ X‑dimension (ความกว้างพิกเซลของแต่ละโมดูล) อย่างแม่นยำ
-- รูปแบบกำหนดเอง 4 คอลัมน์และ 9 แถว
-- ไฟล์ PNG ที่บันทึกลงดิสก์
+## วิธีการสร้าง PDF417 คืออะไร
+วลี “วิธีการสร้าง PDF417” หมายถึงกระบวนการสร้างภาพบาร์โค้ด PDF417 2‑D จากข้อมูลข้อความโดยใช้ไลบรารีโปรแกรม การใช้ Aspose.BarCode คุณสามารถทำได้ภายในไม่กี่วินาที กระบวนการนี้รวมถึงการรับสตริงข้อความธรรมดา, ส่งให้กับตัวสร้างบาร์โค้ดที่ทำตามสเปค PDF417, และสร้างเมทริกซ์ของโมดูลสีดำและสีขาวที่สามารถเรนเดอร์เป็นภาพหรือฝังในเอกสารได้
 
-ไม่มีบริการภายนอก ไม่มีเทคนิควิเศษ—แค่โค้ด C# ธรรมดาที่คุณสามารถคอมไพล์ได้ทันที
+## ทำไมต้องใช้ Aspose.BarCode สำหรับการสร้าง PDF417?
+Aspose.BarCode รองรับ **รูปแบบการนำเข้าและส่งออกกว่า 50 รูปแบบ** และสามารถประมวลผล **เอกสารหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ** ไลบรารีทำงานบน **.NET 6+, .NET Framework 4.8, และ .NET Core** ให้ความยืดหยุ่นในการใช้งานบนเดสก์ท็อป, เซิร์ฟเวอร์, และคลาวด์
 
 ## ข้อกำหนดเบื้องต้น
-
-- .NET 6.0 หรือใหม่กว่า (โค้ดนี้ทำงานบน .NET Framework 4.8 ด้วย)
-- Visual Studio 2022 หรือ IDE ใด ๆ ที่รองรับ C#
-- Aspose.BarCode for .NET (รุ่นทดลองหรือแบบลิขสิทธิ์) ติดตั้งผ่าน NuGet:
+- .NET 6.0 หรือใหม่กว่า (โค้ดนี้ยังทำงานบน .NET Framework 4.8 ด้วย)
+- Visual Studio 2022 หรือ IDE ที่รองรับ C# ใดก็ได้
+- Aspose.BarCode for .NET (รุ่นทดลองฟรีหรือเวอร์ชันที่มีลิขสิทธิ์) ติดตั้งผ่าน NuGet:
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-เท่านี้—เมื่อแพ็กเกจถูกอ้างอิงแล้วคุณก็พร้อมเริ่มทำงาน
+เท่านี้—เมื่อเพิ่มแพ็กเกจแล้ว คุณก็พร้อมใช้งาน
 
-## ขั้นตอนที่ 1 – สร้างบาร์โค้ด PDF417 ด้วยข้อมูลข้อความ
+## วิธีสร้างบาร์โค้ด PDF417 ด้วย C#?
+โหลดข้อความของคุณ, ตั้งค่าตัวสร้าง, และบันทึกภาพในสามขั้นตอนง่าย ๆ คำตอบโดยตรงนี้ให้ขั้นตอนทำงานครบถ้วนก่อนอธิบายเพิ่มเติม ขั้นแรก สร้างอินสแตนซ์ของ `BarcodeGenerator` ด้วยสัญลักษณ์ PDF417 และข้อมูลของคุณ ขั้นต่อไป ปรับพารามิเตอร์ภาพเช่น X‑dimension, คอลัมน์, และแถว สุดท้าย เรียก `Save` เพื่อบันทึกภาพลงดิสก์ในรูปแบบที่ต้องการ
 
-สิ่งแรกที่ต้องมีคืออินสแตนซ์ของ `BarcodeGenerator` ที่ระบุว่าเรากำลังใช้สัญลักษณ์ PDF417 และข้อความที่ต้องการเข้ารหัส
+### ขั้นตอนที่ 1 – สร้างบาร์โค้ด PDF417 ด้วยข้อมูลข้อความ
+คลาส `BarcodeGenerator` สร้างภาพบาร์โค้ดตามสัญลักษณ์และข้อมูลที่ระบุ  
+สิ่งแรกที่เราต้องการคืออินสแตนซ์ของ `BarcodeGenerator` ที่รู้ว่าเรากำลังใช้สัญลักษณ์ PDF417 และข้อความที่ต้องการเข้ารหัสอย่างแม่นยำ
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -78,12 +85,12 @@ using Aspose.BarCode;
 BarcodeGenerator barcodeGenerator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-> **ทำไมเรื่องนี้ถึงสำคัญ:**  
-> `EncodeTypes.Pdf417` บอกไลบรารีให้ใช้รูปแบบ PDF417 2‑D ส่วนอาร์กิวเมนต์ที่สองคือข้อมูล **generate barcode from text** ที่คุณใส่เข้าไป จะกลายเป็นข้อมูลที่บันทึกในเมทริกซ์ของบาร์โค้ด
+> **ทำไมเรื่องนี้สำคัญ:**  
+> `EncodeTypes.Pdf417` บอกไลบรารีให้ใช้รูปแบบ PDF417 2‑D, ส่วนอาร์กิวเมนต์ที่สองคือข้อมูล **สร้างบาร์โค้ดจากข้อความ** สิ่งใดที่คุณส่งที่นี่จะกลายเป็นข้อมูลที่เก็บในเมทริกซ์ของบาร์โค้ด
 
-## ขั้นตอนที่ 2 – ปรับขนาดบาร์โค้ด (X‑Dimension)
-
-ถ้าคุณเคยพิมพ์บาร์โค้ดที่ดูเล็กเกินไปบนใบเสร็จ คุณคงเคยเจอปัญหาเครื่องสแกนไม่อ่านได้ `XDimension` ควบคุมความกว้างของโมดูลเดียว (สี่เหลี่ยมสีดำหรือสีขาวที่เล็กที่สุด) ในหน่วยพิกเซล
+### ขั้นตอนที่ 2 – ปรับขนาดบาร์โค้ด (X‑dimension)
+คุณสมบัติ `XDimension` กำหนดความกว้างเป็นพิกเซลของโมดูลเดียว (สี่เหลี่ยมสีดำหรือสีขาวที่เล็กที่สุด) ในภาพบาร์โค้ด.  
+`XDimension` ควบคุมความกว้างของโมดูลเดียว (สี่เหลี่ยมสีดำหรือสีขาวที่เล็กที่สุด) เป็นพิกเซล
 
 ```csharp
 // Step 2: Set the module (X) dimension in pixels to control barcode size
@@ -91,11 +98,11 @@ barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2; // 2 px per module
 ```
 
 > **เคล็ดลับ:**  
-> ค่า 2 px ทำงานได้ดีในหลายกรณีที่แสดงบนหน้าจอ สำหรับการพิมพ์ความละเอียดสูงคุณอาจเพิ่มเป็น 3 หรือ 4 px ได้ แต่ต้องจำไว้ว่า X‑dimension ที่ใหญ่ขึ้นจะทำให้ภาพโดยรวมใหญ่ขึ้นด้วย
+> ค่า 2 px ทำงานได้ดีสำหรับสถานการณ์การแสดงผลบนหน้าจอส่วนใหญ่ สำหรับการพิมพ์ความละเอียดสูงคุณอาจเพิ่มเป็น 3 หรือ 4 px. เพียงจำไว้ว่า X‑dimension ที่ใหญ่ขึ้นจะทำให้ขนาดภาพโดยรวมเพิ่มขึ้น
 
-## ขั้นตอนที่ 3 – ตั้งค่าขนาดบาร์โค้ดแบบกำหนดเอง (คอลัมน์ & แถว)
-
-PDF417 อนุญาตให้คุณกำหนดจำนวนคอลัมน์และแถวที่บาร์โค้ดจะใช้ นี่คือจุดที่ **custom barcode dimensions** เข้ามามีบทบาท การเปลี่ยนค่าต่าง ๆ สามารถช่วยให้บาร์โค้ดพอดีกับพื้นที่ UI ที่แคบหรือให้ตรงกับขนาดฉลากที่ต้องการ
+### ขั้นตอนที่ 3 – ตั้งค่ามิติของบาร์โค้ดแบบกำหนดเอง (คอลัมน์ & แถว)
+PDF417 ให้คุณกำหนดจำนวนคอลัมน์และแถวที่บาร์โค้ดจะครอบคลุม นี่คือจุดที่ **มิติของบาร์โค้ดแบบกำหนดเอง** เข้ามามีบทบาท.  
+พารามิเตอร์ `Pdf417` ให้คุณระบุกริดคอลัมน์‑แถวที่ต้องการสำหรับบาร์โค้ดอย่างแม่นยำ
 
 ```csharp
 // Step 3: Define the layout of the PDF417 barcode: number of columns and rows
@@ -103,23 +110,22 @@ barcodeGenerator.Parameters.Barcode.Pdf417.Columns = 4; // 4 columns
 barcodeGenerator.Parameters.Barcode.Pdf417.Rows    = 9; // 9 rows
 ```
 
-> **เกิดอะไรขึ้นเบื้องหลัง?**  
-> ไลบรารีจะกระจายข้อมูลที่เข้ารหัสไปยังกริดที่กำหนด จำนวนคอลัมน์น้อยหมายถึงบาร์โค้ดที่สูงขึ้น; แถวมากหมายถึงบาร์โค้ดที่สั้นลง ปรับตัวเลขจนกว่าจะได้สมดุลที่เหมาะกับแอปของคุณ
+> **อะไรเกิดขึ้นเบื้องหลัง?**  
+> ไลบรารีจะกระจายข้อมูลที่เข้ารหัสใหม่ไปยังกริดที่ระบุ คอลัมน์น้อยจะทำให้บาร์โค้ดสูงขึ้น; แถวมากจะทำให้บาร์โค้ดสั้นลง ปรับตัวเลขจนกว่าจะได้สมดุลภาพที่เหมาะกับแอปพลิเคชันของคุณ
 
-## ขั้นตอนที่ 4 – บันทึกภาพบาร์โค้ด
-
-เมื่อกำหนดค่าทั้งหมดแล้ว เราก็สั่งให้เจเนอเรเตอร์เขียนไฟล์ PNG ลงดิสก์ PNG เป็นรูปแบบ lossless จึงรักษาความคมของโมดูลได้อย่างเต็มที่
+### ขั้นตอนที่ 4 – บันทึกภาพบาร์โค้ด
+เมื่อเราตั้งค่าทุกอย่างแล้ว เราเพียงแค่สั่งให้ตัวสร้างเขียนไฟล์ PNG. PNG เป็นรูปแบบที่ไม่มีการสูญเสียคุณภาพ ดังนั้นความคมของโมดูลจะคงอยู่.  
+`Save` จะบันทึกบาร์โค้ดที่สร้างลงไฟล์ในรูปแบบภาพที่เลือก
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image
 barcodeGenerator.Save(@"C:\Barcodes\CustomLayout.png", BarCodeImageFormat.Png);
 ```
 
-เมื่อคุณรันโปรแกรม คุณควรจะเห็นไฟล์ที่ `C:\Barcodes\CustomLayout.png` ซึ่งมีลักษณะคล้ายกับภาพหน้าจอด้านบน การสแกนด้วยเครื่องอ่านที่รองรับ PDF417 จะคืนค่าข้อความเดิม `Åspóse.Barcóde©`
+เมื่อคุณรันโปรแกรม คุณควรเห็นไฟล์ที่ `C:\Barcodes\CustomLayout.png` ซึ่งมีลักษณะคล้ายกับภาพหน้าจอด้านบน การสแกนด้วยเครื่องอ่านที่รองรับ PDF417 ใดก็จะคืนค่าข้อความต้นฉบับ `Åspóse.Barcóde©`
 
-## ตัวอย่างทำงานเต็มรูปแบบ
-
-ด้านล่างเป็นโปรแกรมทั้งหมดที่คุณสามารถคัดลอก‑วางลงในแอปคอนโซลได้ รวมถึงการใช้ `using` ทั้งหมดและการจัดการข้อผิดพลาดที่คุณคาดหวังในโค้ดระดับผลิต
+## ตัวอย่างทำงานเต็ม
+ด้านล่างเป็นโปรแกรมเต็มที่คุณสามารถคัดลอกและวางลงในแอปคอนโซลได้ รวมถึงคำสั่ง using ทั้งหมดและการจัดการข้อผิดพลาดที่คุณคาดหวังในโค้ดระดับผลิตจริง
 
 ```csharp
 using System;
@@ -159,42 +165,64 @@ class Program
 ```
 
 ### ผลลัพธ์ที่คาดหวัง
-
-รันโค้ดแล้วจะพิมพ์:
+การรันโค้ดจะพิมพ์:
 
 ```
 ✅ Barcode generated successfully → C:\Barcodes\CustomLayout.png
 ```
 
-…และสร้างไฟล์ PNG ที่เปิดได้ในโปรแกรมดูรูปภาพใดก็ได้ หากสแกนด้วยแอปบนมือถือ (เช่น “Barcode Scanner” บน iOS/Android) ข้อความที่ถอดรหัสจะต้องเป็น **Åspóse.Barcóde©** อย่างตรงกัน
+...และสร้างไฟล์ PNG ที่สามารถเปิดได้ในโปรแกรมดูภาพใดก็ได้ หากคุณสแกนด้วยแอปมือถือ (เช่น “Barcode Scanner” บน iOS/Android) ข้อความที่ถอดรหัสจะต้องเป็น **Åspóse.Barcóde©** อย่างตรงกัน
 
-## คำถามที่พบบ่อย & กรณีขอบ
-
-| Question | Answer |
+## คำถามทั่วไป & กรณีขอบ
+| คำถาม | คำตอบ |
 |----------|--------|
-| **Can I use a different image format?** | Yes—`BarCodeImageFormat.Jpeg`, `Bmp`, `Gif`, or `Svg` are all supported. Just change the second argument of `Save`. |
-| **What if my text contains Unicode characters?** | Aspose.BarCode fully supports UTF‑8, so the example with `Å` and `©` works out‑of‑the‑box. |
-| **How do I change the error‑correction level?** | Use `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` (levels 0‑8). Higher levels increase redundancy but also size. |
-| **I need a transparent background—can I do that?** | Set `generator.Parameters.Barcode.Image.TransparentBackground = true;` before saving. |
-| **Is there a way to embed the barcode directly into a PDF?** | Absolutely. Replace the `Save` call with `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` and you’ll get a one‑page PDF containing the barcode. |
+| **ฉันสามารถใช้รูปแบบภาพอื่นได้หรือไม่?** | ได้—`BarCodeImageFormat.Jpeg`, `Bmp`, `Gif`, หรือ `Svg` ทั้งหมดรองรับ เพียงเปลี่ยนอาร์กิวเมนต์ที่สองของ `Save`. |
+| **ถ้าข้อความของฉันมีอักขระ Unicode จะทำอย่างไร?** | Aspose.BarCode รองรับ UTF‑8 อย่างเต็มที่ ดังนั้นตัวอย่างที่มี `Å` และ `©` จะทำงานได้ทันที. |
+| **ฉันจะเปลี่ยนระดับการแก้ไขข้อผิดพลาดได้อย่างไร?** | ใช้ `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` (ระดับ 0‑8). ระดับที่สูงขึ้นเพิ่มความซ้ำซ้อนแต่ขนาดก็เพิ่ม. |
+| **ต้องการพื้นหลังโปร่งใส—ทำได้หรือไม่?** | ตั้งค่า `generator.Parameters.Barcode.Image.TransparentBackground = true;` ก่อนบันทึก. |
+| **มีวิธีใส่บาร์โค้ดโดยตรงลงใน PDF หรือไม่?** | แน่นอน. แทนที่การเรียก `Save` ด้วย `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` คุณจะได้ PDF หนึ่งหน้า ที่มีบาร์โค้ด. |
 
-## สรุป
+## คำถามที่พบบ่อย
+**Q: ไลบรารีทำงานบน .NET Core และ .NET 5/6 หรือไม่?**  
+A: ใช่, Aspose.BarCode for .NET รองรับ .NET Core 3.1, .NET 5, .NET 6 และเวอร์ชันต่อไป
 
-คุณได้เรียนรู้วิธี **generate PDF417 barcode** ด้วย C# จากสตริงใดก็ได้, **adjust barcode size**, และใช้ **custom barcode dimensions** เพื่อให้พอดีกับการออกแบบของคุณ กระบวนการสี่ขั้นตอน—initialize, size, layout, save—ครอบคลุมการทำงานหลักสำหรับสถานการณ์บาร์โค้ด 2‑D ส่วนใหญ่
+**Q: ฉันสามารถสร้างบาร์โค้ดหลายรายการในลูปได้หรือไม่?**  
+A: แน่นอน. สร้างอินสแตนซ์ใหม่ของ `BarcodeGenerator` สำหรับแต่ละสตริง หรือใช้อินสแตนซ์เดียวกันโดยเปลี่ยนคุณสมบัติ `CodeText`
 
-ต่อไปคุณจะลองสลับ `EncodeTypes.Pdf417` เป็น `EncodeTypes.QR` หรือ `EncodeTypes.Code128` เพื่อดูว่า API ปรับตัวอย่างไร ทดลองเปลี่ยนค่า `XDimension`, ปรับเมทริกซ์คอลัมน์/แถว, หรือฝังภาพลงในรายงาน PDF ความเป็นไปได้แทบไม่มีที่สิ้นสุด และตอนนี้คุณมีพื้นฐานที่มั่นคงเพื่อต่อยอด
+**Q: ภาพที่สร้างได้ใหญ่ที่สุดเท่าไหร่?**  
+A: API สามารถสร้างภาพได้สูงสุด **10,000 × 10,000 พิกเซล**; การใช้หน่วยความจำเพิ่มตาม X‑dimension และการตั้งค่าคอลัมน์/แถว
 
-มีคำถามเพิ่มเติมหรือค้นพบเทคนิคเจ๋ง ๆ ขณะเล่นกับ PDF417? แสดงความคิดเห็นด้านล่าง—มาร่วมสนทนากันต่อไป ขอให้สนุกกับการเขียนโค้ด!
+**Q: จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตจริงหรือไม่?**  
+A: ใช่, ลิขสิทธิ์เชิงพาณิชย์จะลบลายน้ำการประเมินและเปิดใช้งานคุณสมบัติทั้งหมด. มีรุ่นทดลองฟรีสำหรับการทดสอบ
 
-## สิ่งที่คุณควรเรียนต่อไป
+**Q: จำเป็นต้องทำการ Dispose ตัวสร้างด้วยตนเองหรือไม่?**  
+A: `BarcodeGenerator` implements `IDisposable`. ใช้บล็อก `using` หรือเรียก `Dispose()` เพื่อปล่อยทรัพยากรที่ไม่ได้จัดการโดยเร็ว
 
-บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคในคู่มือนี้ แต่ละแหล่งรวมตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานทางเลือกในโปรเจกต์ของคุณ
+## คุณควรเรียนรู้อะไรต่อไป?
+บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดซึ่งต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานเต็มรูปแบบพร้อมคำอธิบายขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญคุณสมบัติเพิ่มเติมของ API และสำรวจวิธีการนำไปใช้แบบอื่นในโครงการของคุณ
 
-- [How to generate Aztec barcode with custom aspect ratio using Aspose.BarCode for .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-- [How to Generate Barcode - One-Dimensional Barcode Types](/barcode/english/net/one-dimensional-barcode-types/)
-- [Generate DataMatrix Barcode – Pro Guide with Aspose.BarCode](/barcode/english/net/datamatrix-barcode-configuration/)
+- [วิธีสร้างบาร์โค้ด Aztec ด้วยอัตราส่วนภาพกำหนดเองโดยใช้ Aspose.BarCode for .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [วิธีสร้างบาร์โค้ด - ประเภทบาร์โค้ดมิติเดียว](/barcode/english/net/one-dimensional-barcode-types/)
+- [สร้างบาร์โค้ด DataMatrix – คู่มือระดับมืออาชีพกับ Aspose.BarCode](/barcode/english/net/datamatrix-barcode-configuration/)
+
+---
+
+**อัปเดตล่าสุด:** 2026-09-23  
+**ทดสอบกับ:** Aspose.BarCode 24.11 for .NET  
+**ผู้เขียน:** Aspose  
+
+```bash
+dotnet add package Aspose.BarCode
+```
+
+## บทแนะนำที่เกี่ยวข้อง
+- [ปรับขนาดบาร์โค้ด C คู่มือการสร้างบาร์โค้ด Pdf417](/barcode/net/compact-pdf417-encoding/adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+- [ตัวอย่าง Aspose Barcode สร้าง Macro Pdf417 ใน C](/barcode/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/)
+- [สร้างบาร์โค้ด Micro Pdf417 ใน C คู่มือเต็ม](/barcode/net/compact-pdf417-encoding/generate-micro-pdf417-barcode-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

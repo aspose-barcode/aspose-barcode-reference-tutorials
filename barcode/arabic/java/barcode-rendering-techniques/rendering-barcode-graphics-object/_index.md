@@ -207,7 +207,6 @@ class MyBarCode extends java.awt.Canvas {
 **تم الاختبار مع:** Aspose.BarCode for Java 24.11  
 **المؤلف:** Aspose  
 
-{{< blocks/products/pf/backtop-button >}}
 
 ## دروس ذات صلة
 
