@@ -1,0 +1,7 @@
+Title: Generate PDF417 barcode and create barcode image C#
+Slug: generate-pdf417-barcode-and-create-barcode-image-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-09T06:39:46.900595
+SourceRepo: AI Search API
+Keywords: generate pdf417 barcode, how to generate pdf417, create barcode image c#
+PRNumber: 150
