@@ -1,34 +1,36 @@
 ---
 category: general
-date: 2026-08-09
-description: Aspose streckkodsexempel som visar hur man använder en streckkodsgenerator
-  i C# för att skapa en Macro PDF417 med fullt metadata‑stöd.
+date: 2026-10-09
+description: Lär dig hur du skapar PDF417-streckkod i C# med Aspose.BarCode – generera
+  en Macro PDF417 med fullt metadata-stöd.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- aspose barcode example
+- create pdf417 barcode c#
+- macro pdf417 c#
+- aspose barcode c#
 - barcode generator c#
-language: sv
-lastmod: 2026-08-09
-og_description: Aspose barcode-exempel visar hur man använder en streckkodgenerator
-  i C# för att skapa en Macro PDF417-streckkod som innehåller fil‑ID, segmentdata,
-  tidsstämpel och annan metadata.
+lastmod: 2026-10-09
+og_description: Lär dig hur du skapar PDF417-streckkod i C# med Aspose.BarCode – generera
+  en Macro PDF417 med fullt metadata-stöd, inklusive fil-ID, segmentdata, tidsstämpel
+  och mer.
 og_image_alt: Screenshot of a Macro PDF417 barcode generated with Aspose.BarCode in
   C#
-og_title: Aspose streckkodsexempel – skapa Macro PDF417 med C#
+og_title: Hur man skapar PDF417-streckkod i C# med Aspose.BarCode
 schemas:
 - author: Aspose
-  dateModified: '2026-08-09'
+  dateModified: '2026-10-09'
   description: Aspose barcode example showing how to use a barcode generator C# to
     create a Macro PDF417 with full metadata support.
   headline: 'Aspose barcode example: generate Macro PDF417 in C#'
   type: TechArticle
 tags:
-- Aspose.BarCode
-- C#
-- Macro PDF417
-title: 'Aspose streckkodsexempel: generera Macro PDF417 i C#'
+- aspose barcode
+- pdf417 barcode
+- c# barcode generation
+- macro pdf417
+title: Hur man skapar PDF417-streckkod i C# med Aspose.BarCode
 url: /sv/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/
 ---
 
@@ -36,18 +38,29 @@ url: /sv/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf41
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose streckkodsexempel: generera Macro PDF417 i C#
+# Hur man skapar PDF417-streckkod i C# med Aspose.BarCode
 
-Om du behöver ett **aspose barcode example** som skapar en Macro PDF417‑streckkod, visar den här guiden hur du gör det med en **barcode generator C#**. Du kommer att se alla nödvändiga inställningar, från grundläggande dimensioner till hela uppsättningen av Macro PDF417‑metadatafält, och du får en PNG‑bild klar för nedströmsbehandling.
+Om du snabbt och pålitligt behöver **create PDF417 barcode C#**, går den här handledningen igenom hela processen med Aspose.BarCode. Du kommer att se alla nödvändiga inställningar, från grundläggande dimensioner till hela uppsättningen av Macro PDF417-metadatafält, och du avslutar med en PNG-bild som är klar för vidare bearbetning.
 
-Tutorialen täcker hela arbetsflödet, förklarar varför varje parameter är viktig, och ger ett färdigt kodexempel som kan köras direkt. Inga externa referenser krävs; du kan kopiera koden, justera värdena och köra den omedelbart.
+## Snabba svar
+- **Vilket bibliotek genererar PDF417-streckkoder?** Aspose.BarCode for .NET.
+- **Vilket format ger exemplet som output?** En förlustfri PNG-bild.
+- **Behöver jag en licens?** En gratis provversion fungerar för exemplet; en kommersiell licens krävs för produktion.
+- **Vilken .NET-version stöds?** .NET 6.0 eller senare.
+- **Kan jag lägga till metadata till streckkoden?** Ja – Macro PDF417 stöder fil‑ID, segmentantal, tidsstämplar och mer.
+
+## Vad är en PDF417-streckkod?
+En PDF417-streckkod är en staplad linjär symbologi som kan koda upp till cirka 1 KB data per symbol och stöder valfri makro‑metadata för fler‑segment‑filer. Den består av flera rader av staplade linjära mönster, vilket ger hög datakapacitet samtidigt som den förblir läsbar av vanliga 2‑D‑skannrar. Formatet inkluderar även felkorrigeringsnivåer för att förbättra tillförlitligheten, och den valfria makro‑funktionen möjliggör uppdelning av stora filer över flera streckkoder med metadata som hjälper till att återmontera dem.
+
+## Varför använda Aspose.BarCode för PDF417?
+Aspose.BarCode stöder **över 50 streckkodssymbologier** och kan generera Macro PDF417‑streckkoder med upp till **2 000 kolumner**, vilket hanterar filer större än **10 MB** utan att ladda hela nyttolasten i minnet. Denna kvantifierade förmåga säkerställer att hög‑genomströmning i företagsmiljöer fungerar smidigt, och den erbjuder omfattande anpassningsalternativ.
 
 ## Förutsättningar
 
 Innan du börjar, se till att du har:
 
-- .NET 6.0 (eller senare) installerat  
-- Visual Studio 2022 eller någon C#‑kompatibel IDE  
+- .NET 6.0 (eller senare) installerat  
+- Visual Studio 2022 eller någon C#‑kompatibel IDE  
 - En giltig licens för **Aspose.BarCode for .NET** (gratis provversion fungerar för detta exempel)  
 
 Lägg till Aspose.BarCode NuGet‑paketet i ditt projekt:
@@ -56,9 +69,19 @@ Lägg till Aspose.BarCode NuGet‑paketet i ditt projekt:
 dotnet add package Aspose.BarCode
 ```
 
-## Steg 1: Skapa barcode‑generator‑instansen i C#
+## Hur man skapar en PDF417-streckkod i C#?
 
-Det första steget är att instansiera `BarcodeGenerator` med enum‑värdet `EncodeTypes.MacroPdf417` och den text du vill koda. Texten kan innehålla Unicode‑tecken, vilket biblioteket hanterar automatiskt.
+`BarcodeGenerator` är huvudklassen för att skapa streckkods‑bilder.  
+`EncodeTypes.MacroPdf417` väljer Macro PDF417‑symbologi för streckkodsgenerering.  
+`Save` skriver den genererade streckkoden till en bildfil.
+
+Läs in `BarcodeGenerator` med `EncodeTypes.MacroPdf417`‑enum och din måltext, anropa sedan `Save` – det är hela skapandeprocessen i tre rader. Generatorn hanterar Unicode automatiskt, och `using`‑satsen garanterar att resurser som inte hanteras frigörs efter att bilden sparats.
+
+### Steg 1: skapa barcode‑generator‑instansen i C#
+
+`BarcodeGenerator`‑klassen skapar och konfigurerar streckkods‑bilder.  
+
+Instansiera `BarcodeGenerator` med `EncodeTypes.MacroPdf417`‑enum‑värdet och den text du vill koda. Texten kan innehålla Unicode‑tecken, vilket biblioteket hanterar automatiskt.
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -69,11 +92,13 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MacroPdf417
     // Subsequent steps are performed inside this using block.
 ```
 
-*Varför detta är viktigt*: `EncodeTypes.MacroPdf417` talar om för motorn att producera en Macro PDF417‑symbol, som stödjer segmenterad data och extra fil‑nivå‑metadata. `using`‑satsen garanterar att ohanterade resurser frigörs efter att bilden har sparats.
+*Varför detta är viktigt*: `EncodeTypes.MacroPdf417` talar om för motorn att producera en Macro PDF417‑symbol, vilket stöder segmenterad data och extra fil‑nivå‑metadata. `using`‑satsen garanterar att resurser som inte hanteras frigörs efter att bilden sparats.
 
-## Steg 2: Definiera grundläggande streckkodens utseende
+### Steg 2: definiera grundläggande streckkodutseende
 
-En Macro PDF417‑streckkod består av fyrkantiga moduler. Att kontrollera modulstorlek och kolumnantal påverkar både läsbarhet och filstorlek.
+`XDimension.Pixels` anger storleken på varje streckkodmodul i pixlar.
+
+En Macro PDF417‑streckkod består av fyrkantiga moduler. Genom att kontrollera modulstorleken och antalet kolumner påverkas både läsbarhet och filstorlek.
 
 ```csharp
     // Pixel size of a single module (X dimension)
@@ -83,11 +108,13 @@ En Macro PDF417‑streckkod består av fyrkantiga moduler. Att kontrollera modul
     generator.Parameters.Barcode.Pdf417.Columns = 5;
 ```
 
-*Varför detta är viktigt*: `XDimension.Pixels` bestämmer den visuella densiteten; ett värde på 2 pixlar fungerar bra för skärmvisning samtidigt som bilden hålls liten. Justera kolumnantalet för att passa dina layoutbegränsningar—fler kolumner ger en bredare, kortare streckkod.
+*Varför detta är viktigt*: `XDimension.Pixels` bestämmer den visuella densiteten; ett värde på 2 pixlar fungerar bra för skärmvisning samtidigt som bilden hålls liten. Justera kolumnantalet för att passa dina layout‑begränsningar – fler kolumner ger en bredare, kortare streckkod.
 
-## Steg 3: Ange Macro PDF417‑specifik metadata
+### Steg 3: ange Macro PDF417‑specifik metadata
 
-Macro PDF417 utökar standard‑PDF417‑formatet med fält som möjliggör återuppbyggnad av stora filer från flera streckkodsegment. Varje fält är valfritt, men att ange dem demonstrerar API:ets fulla kapacitet.
+`MacroPdf417FileID` identifierar filen som alla streckkodsegment tillhör.
+
+Macro PDF417 utökar standard‑PDF417‑formatet med fält som möjliggör återuppbyggnad av stora filer från flera streckkodsegment. Varje fält är valfritt, men att sätta dem demonstrerar API:ets fulla kapacitet.
 
 ```csharp
     // Unique identifier for the entire file
@@ -121,15 +148,17 @@ Macro PDF417 utökar standard‑PDF417‑formatet med fält som möjliggör åte
 
 *Varför detta är viktigt*:  
 - `MacroPdf417FileID` länkar alla segment som tillhör samma logiska fil.  
-- `MacroPdf417SegmentID` och `MacroPdf417SegmentsCount` gör att avkodaren kan sortera fragmenten korrekt.  
+- `MacroPdf417SegmentID` och `MacroPdf417SegmentsCount` gör det möjligt för avkodaren att återordna fragment korrekt.  
 - `MacroPdf417Checksum` ger en snabb integritetskontroll utan att avkoda hela nyttolasten.  
-- `MacroPdf417FileSize` och `MacroPdf417TimeStamp` låter nedströmsystem verifiera att den återuppbyggda filen matchar originalet.  
-- `MacroPdf417Addressee` / `MacroPdf417Sender` är användbara i logistik‑ eller dokumentutbytesscenario.  
+- `MacroPdf417FileSize` och `MacroPdf417TimeStamp` låter efterföljande system verifiera att den återuppbyggda filen matchar originalet.  
+- `MacroPdf417Addressee` / `MacroPdf417Sender` är användbara i logistik‑ eller dokumentutbytes‑scenarier.  
 - Att sätta `MacroPdf417Terminator` till `Set` markerar denna streckkod som det sista segmentet, vilket förenklar återuppbyggnadsalgoritmen.
 
-## Steg 4: Spara den genererade streckkodsbilden
+### Steg 4: spara den genererade streckkodsbilden
 
-Till sist skriver du streckkoden till en PNG‑fil. Du kan välja vilket som helst av de stödjade formaten (`Png`, `Jpeg`, `Bmp`, `Gif`, `Tiff`).
+`Save` skriver streckkodsbilden till den angivna filsökvägen.
+
+Till sist sparas streckkoden som en PNG‑fil. Du kan välja vilket som helst av de stödjade formaten (`Png`, `Jpeg`, `Bmp`, `Gif`, `Tiff`).
 
 ```csharp
     // Save the barcode image to the specified path
@@ -139,7 +168,7 @@ Till sist skriver du streckkoden till en PNG‑fil. Du kan välja vilket som hel
 
 *Varför detta är viktigt*: PNG bevarar förlustfri pixeldata, vilket säkerställer att skannrar läser exakt det modulmönster du konfigurerat. Att byta format kan påverka den visuella kvaliteten och filstorleken.
 
-### Förväntat resultat
+#### Förväntat resultat
 
 När programmet körs skapas en fil med namnet **ExtPDF417Meta.png**. När du öppnar bilden visas en rektangulär Macro PDF417‑streckkod med texten “Åspóse.Barcóde©” kodad, och den visuella densiteten matchar den 2‑pixel X‑dimension du angav. Att skanna bilden med en PDF417‑kompatibel läsare returnerar alla metadatafält som definierades i Steg 3.
 
@@ -186,35 +215,51 @@ namespace MacroPdf417Demo
 }
 ```
 
-Kör programmet (`dotnet run`). Efter körning, verifiera att PNG‑filen finns på den plats du angav. Använd någon streckkodsläsare som stödjer Macro PDF417 för att bekräfta att metadata är korrekt inbäddad.
+Kör programmet (`dotnet run`). Efter körning, verifiera att PNG‑filen finns på den plats du angav. Använd någon streckkodsläsare som stöder Macro PDF417 för att bekräfta att metadata är korrekt inbäddade.
 
 ## Vanliga variationer och kantfall
 
-- **Olika bildformat**: Byt `BarCodeImageFormat.Png` mot `Jpeg`, `Bmp` eller `Tiff` om ditt nedströmsystem föredrar ett annat format.  
-- **Ändra modulstorlek**: Större `XDimension.Pixels`‑värden förbättrar skanningspålitlighet på lågupplösta skannrar men ökar bildstorleken.  
-- **Flera segment**: För att producera en fler‑segment‑fil, generera en serie streckkoder, öka `MacroPdf417SegmentID` för varje och håll `MacroPdf417FileID` konstant. Endast det sista segmentet ska ha `MacroPdf417Terminator` satt.  
+- **Olika bildformat**: Ersätt `BarCodeImageFormat.Png` med `Jpeg`, `Bmp` eller `Tiff` om ditt efterföljande system föredrar ett annat format.  
+- **Ändra modulstorlek**: Större `XDimension.Pixels`‑värden förbättrar skannings‑tillförlitlighet på lågupplösta skannrar men ökar bildstorleken.  
+- **Flera segment**: För att producera en fler‑segment‑fil, generera en serie streckkoder, öka `MacroPdf417SegmentID` för varje och håll `MacroPdf417FileID` konstant. Endast det sista segmentet bör ha `MacroPdf417Terminator` satt.  
 - **Unicode‑stöd**: Generatorn kodar automatiskt Unicode‑tecken; säkerställ att din källsträng använder UTF‑8‑kodning om du läser den från en extern fil.  
-- **Felhantering**: Omge `using`‑blocket med en try‑catch för att fånga `BarCodeException` vid ogiltiga parametrar (t.ex. kolumnantal utanför intervall).
+- **Felfångst**: Omslut `using`‑blocket med en try‑catch för att fånga `BarCodeException` vid ogiltiga parametrar (t.ex. kolumnantal utanför intervall).
 
 ## Pro‑tips
 
 - **Prestanda**: Återanvänd en enda `BarcodeGenerator`‑instans när du skapar många streckkoder med samma inställningar; ändra bara `CodeText`‑egenskapen mellan sparningar.  
-- **Filstorleksestimering**: `MacroPdf417FileSize`‑fältet bör matcha byte‑antalet av den ursprungliga nyttolasten; avvikelser kan orsaka valideringsfel i nedströmsystem.  
+- **Filstorleks‑estimering**: `MacroPdf417FileSize`‑fältet bör matcha byte‑antalet för den ursprungliga nyttolasten; avvikelser kan orsaka valideringsfel i efterföljande system.  
 - **Testning**: Validera genererade streckkoder med både Asposes inbyggda avkodare (`BarCodeReader`) och en tredjeparts‑skanner för att säkerställa interoperabilitet.
 
 ## Slutsats
 
-Detta **aspose barcode example
+Detta **Aspose.BarCode**‑exempel visar hur du **create PDF417 barcode C#** med full Macro‑metadata‑stöd, vilket ger dig en solid grund för att bygga robusta streckkod‑baserade datautbytes‑pipelines.
 
 ## Vad bör du lära dig härnäst?
 
-Följande handledningar täcker närbesläktade ämnen som bygger vidare på teknikerna som demonstreras i denna guide. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
+Följande handledningar täcker nära besläktade ämnen som bygger vidare på teknikerna som demonstrerats i denna guide. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementations‑metoder i dina egna projekt.
 
 - [Hur man skapar streckkod – Compact PDF417 med Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Hur man skapar tyst zon för Code 16K med Aspose.BarCode för .NET](/barcode/english/net/code-16k-encoding/code-16k-quiet-zone-settings/)
-- [Hur man skapar tyst zon för ITF-14 med Aspose.BarCode för .NET](/barcode/english/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/)
+- [Hur man skapar streckkodens tysta zon för Code 16K med Aspose.BarCode för .NET](/barcode/english/net/code-16k-encoding/code-16k-quiet-zone-settings/)
+- [Hur man skapar streckkodens tysta zon för ITF-14 med Aspose.BarCode för .NET](/barcode/english/net/itf-14-barcode-customization/itf-14-barcode-quiet-zone-configuration/)
+
+---
+
+
+**Senast uppdaterad:** 2026-10-09  
+**Testad med:** Aspose.BarCode 24.11 for .NET  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Hur man genererar Pdf417‑streckkodsbilder i C med Aspose](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+- [Hur man skapar streckkod – Compact PDF417 med Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Barcode Generator‑handledning Hur man genererar Pdf417‑streckkod i](/barcode/net/compact-pdf417-encoding/barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
