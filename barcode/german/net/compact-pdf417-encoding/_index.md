@@ -185,6 +185,16 @@ Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen PDF417‑Barcode in C# 
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen PDF417‑Barcode in C# vollständig programmieren, inkl. Code‑Beispielen und Konfiguration.
 ### [Wie man PDF417‑Barcode generiert – Vollständiger Programmierleitfaden](./how-to-generate-pdf417-barcode-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET PDF417‑Barcodes vollständig programmieren, inklusive Code‑Beispielen und Konfiguration.
+### [Wie man PDF417‑Barcode in C# generiert – vollständiger Programmierleitfaden (GUI)](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+
+### [Wie man Barcode speichert und PDF417 mit Aspose in C# generiert](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
+
+### [Wie man ein Barcode‑Generator‑Tutorial in C# erstellt, das kompakte PDF417‑Barcodes erzeugt](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
+
+### [Barcode‑Generator‑C#‑Leitfaden: MicroPdf417 erstellen](./barcode-generator-c-guide-create-micropdf417/)
+
+### [Wie man PDF417‑Barcode in C# decodiert – Schritt‑für‑Schritt‑Anleitung](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
+
 ### [PDF417-Barcode in C# generieren – Vollständiger Programmierleitfaden](./generate-pdf417-barcode-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen PDF417‑Barcode in C# vollständig programmieren, inkl. Code‑Beispielen und Konfiguration.
 ### [PDF417‑Barcode mit Aspose erstellen – Komplett‑Guide](./create-pdf417-barcode-with-aspose-complete-guide/)

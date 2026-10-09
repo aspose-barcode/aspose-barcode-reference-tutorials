@@ -66,6 +66,9 @@ Khám phá cách tạo nhanh hình ảnh mã vạch GS1 trong C# với Aspose.Ba
 
 ### [Tạo mã vạch PNG trong C# – hướng dẫn đầy đủ về GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Tạo mã vạch PNG trong C# với Aspose.BarCode cho .NET, hướng dẫn chi tiết về GS1 Micro PDF417. Bắt đầu ngay hôm nay!
+### [Tạo mã vạch GS1 trong C# và xuất ra PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
+Hướng dẫn chi tiết cách tạo mã vạch GS1 bằng C# và lưu dưới dạng PNG với Aspose.BarCode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

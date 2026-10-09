@@ -152,6 +152,9 @@ Lär dig hur du skapar en PDF417‑streckkod i C# med en fullständig steg‑fö
 Lär dig hur du genererar en PDF417‑streckkod i C# och sparar den som PNG‑fil.
 ### [Generate PDF417 barcode with compact settings in C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
 
+### [Hur man sparar streckkod och genererar PDF417 med Aspose i C#](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
+Lär dig hur du sparar en streckkod och genererar PDF417 med Aspose i C#.
+
 
 ### [How to create PDF417 barcode and set its size in C#](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
 
@@ -183,6 +186,9 @@ Lär dig steg‑för‑steg hur du skapar en PDF417‑streckkod i C# med Aspose.
 Lär dig hur du sparar en PDF417‑streckkod i C# med Aspose.BarCode, inklusive filformat och kodexempel.
 ### [Barcode Generator‑handledning: Hur man genererar PDF417‑streckkod i C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
 Lär dig steg‑för‑steg hur du skapar en PDF417‑streckkod i C# med Barcode Generator‑guiden i Aspose.BarCode.
+### [Hur man bygger en streckkodsgeneratorhandledning i C# som skapar Compact PDF417‑streckkoder](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
+Lär dig hur du bygger en tutorial för streckkodsgenerator i C# som skapar Compact PDF417‑streckkoder.
+
 ### [Skapa PDF417‑streckkod i C# – Barcode Generator‑guide](./create-pdf417-barcode-in-c-barcode-generator-guide/)
 Lär dig steg‑för‑steg hur du skapar en PDF417‑streckkod i C# med Barcode Generator‑guiden i Aspose.BarCode.
 ### [Hur du ställer in felnivå i PDF417‑streckkod – Komplett guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
@@ -204,7 +210,6 @@ Lär dig att skapa PDF417‑streckkoder med Aspose i en fullständig steg‑för
 Lär dig att läsa PDF417‑streckkoder i C# med ett komplett exempel på streckkodsläsning.
 ### [Hur man skapar PDF417‑streckkod med Aspose – Komplett steg‑för‑steg‑guide](./how-to-create-pdf417-barcode-with-aspose-complete-step‑st/)
 Lär dig att skapa PDF417‑streckkoder med Aspose i en komplett steg‑för‑steg‑guide med kodexempel.
-
 ### [Hur man skapar PDF417-streckkod med Aspose – Komplett steg‑för‑steg‑guide](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
 Lär dig att skapa PDF417‑streckkoder med Aspose i en komplett steg‑för‑steg‑guide med kodexempel.
 ### [Generera PDF417‑streckkod i C# – Skapa PDF417‑streckkod C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
@@ -275,6 +280,12 @@ Lär dig hur du skapar en fullständig Macro PDF417‑streckkod i C# med Aspose.
 ### [Hur man läser PDF417‑streckkoder i C# – komplett guide](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 Lär dig hur du läser PDF417‑streckkoder i C# med Aspose.BarCode, inklusive kodexempel och felsökning.
 
+### [Hur man genererar PDF417‑streckkod i C# – komplett programmeringsguide](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+En komplett guide för att skapa PDF417‑streckkoder i C# med Aspose.BarCode.
+
+### [Barcode‑generator C#‑guide: skapa MicroPdf417](./barcode-generator-c-guide-create-micropdf417/)
+Lär dig hur du skapar en MicroPdf417‑streckkod i C# med Barcode‑generatorn.
+
 ## Vanliga frågor
 
 **Q: Vad är den maximala mängden data jag kan lagra i en Compact PDF417‑streckkod?**  
@@ -309,6 +320,7 @@ A: Inga externa typsnitt krävs; biblioteket hanterar all rendering internt.
 - [Hur man genererar micro PDF417‑streckkod i C# – steg‑för‑steg‑guide](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [Hur man genererar PDF417‑streckkod i C# med anpassade dimensioner](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
 - [Hur man avkodar PDF417‑streckkoder i C# med BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+- [Hur du avkodar PDF417‑streckkoder i C# – steg‑för‑steg‑guide](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
 - [Hur man skapar PDF417‑streckkod i C# med kompakt läge](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
 - [Avkoda streckkod från bild med ett C#-streckkodsläsare‑exempel](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 

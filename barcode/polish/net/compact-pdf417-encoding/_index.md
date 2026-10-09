@@ -83,6 +83,8 @@ Poza podstawami, oto kilka praktycznych wskazówek, które usprawnią Twój prze
 - **Kontrola wersji:** Utrzymuj spójną wersję biblioteki Aspose.BarCode we wszystkich środowiskach: deweloperskim, testowym i produkcyjnym.  
 
 ## Samouczki kodowania Compact PDF417
+### [How to generate PDF417 barcode in C# – complete programming guide](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+
 ### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 
 ### [Decode barcode from image with a C# barcode reader example](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
@@ -138,10 +140,14 @@ Poza podstawami, oto kilka praktycznych wskazówek, które usprawnią Twój prze
 ### [Utwórz kod kreskowy PDF417 z Aspose – Kompletny przewodnik](./create-pdf417-barcode-with-aspose-complete-guide/)
 ### [Jak odczytać PDF417 w C# – Kompletny przykład czytnika kodów kreskowych](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 ### [Jak stworzyć kod kreskowy PDF417 z Aspose – Kompletny przewodnik krok po kroku](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+### [Jak odkodować kody kreskowe PDF417 w C# – przewodnik krok po kroku](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
+
 ### [Jak wygenerować kod kreskowy w C# przy użyciu Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 
 Pełny przewodnik, jak wygenerować kod kreskowy PDF417 przy użyciu Aspose.BarCode w .NET, krok po kroku z przykładami kodu.
 ### [Generowanie kodu kreskowego PDF417 w C# – Tworzenie kodu PDF417 w C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+
+### [Generator kodów kreskowych C# – przewodnik: tworzenie MicroPdf417](./barcode-generator-c-guide-create-micropdf417/)
 
 Dowiedz się, jak w C# wygenerować kod kreskowy PDF417 przy użyciu Aspose.BarCode, z przykładami kodu i wskazówkami konfiguracji.
 ### [Dostosowanie rozmiaru kodu kreskowego – przewodnik C# do generowania kodów PDF417](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)

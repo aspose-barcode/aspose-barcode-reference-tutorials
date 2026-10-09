@@ -75,6 +75,8 @@ Aspose.BarCode memungkinkan Anda mengatur properti `Pdf417ErrorCorrectionLevel` 
 - **Kontrol Versi:** Jaga agar versi pustaka Aspose.BarCode Anda konsisten di seluruh lingkungan pengembangan, staging, dan produksi.
 
 ## Compact PDF417 Encoding Tutorials
+### [How to generate PDF417 barcode in C# – complete programming guide](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+
 ### [Creating Compact PDF417 Barcodes](./compact-pdf417-basic-configuration/)
 Pelajari cara menghasilkan barcode Compact PDF417 menggunakan Aspose.BarCode untuk .NET. Panduan komprehensif dengan instruksi langkah‑demi‑langkah dan contoh kode.
 ### [Menghasilkan barcode PDF417 di C# – panduan generator barcode](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
@@ -138,6 +140,9 @@ Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dengan pengaturan
 
 ### [Cara menghasilkan barcode PDF417 di C# dengan dimensi khusus](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
 Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dengan dimensi khusus menggunakan C# dan Aspose.BarCode.
+
+### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
+Panduan langkah‑demi‑step lengkap untuk mendekode barcode PDF417 menggunakan C# dengan Aspose.BarCode.
 
 ### [Cara mendekode barcode PDF417 di C# dengan BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 Pelajari cara mendekode barcode PDF417 menggunakan C# dengan BarCodeReader dari Aspose.BarCode, termasuk contoh kode lengkap.
@@ -226,6 +231,9 @@ Panduan langkah demi langkah untuk membuat barcode PDF417 dengan layout kompak m
 
 ### [Menghasilkan barcode C# dengan Macro PDF417 – contoh lengkap](./generate-barcode-c-with-macro-pdf417-full-example/)
 Panduan lengkap contoh kode untuk menghasilkan barcode Macro PDF417 menggunakan C# dengan Aspose.BarCode.
+
+### [Panduan Generator Barcode C#: Buat MicroPdf417](./barcode-generator-c-guide-create-micropdf417/)
+Panduan langkah demi langkah untuk menghasilkan barcode MicroPdf417 menggunakan generator barcode C# dengan Aspose.BarCode.
 
 ## Frequently Asked Questions
 

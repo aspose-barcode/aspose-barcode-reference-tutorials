@@ -321,6 +321,18 @@ Kompletní krok‑za‑krokem návod, jak v C# vytvořit micro PDF417 čárový 
 
 ### [Jak vygenerovat PDF417 čárový kód v C# s vlastními rozměry](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
 Naučte se nastavit vlastní rozměry čárového kódu PDF417 v C# pomocí Aspose.BarCode.
+### [Jak vygenerovat PDF417 čárový kód v C# – kompletní programovací průvodce](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+Naučte se kompletně vygenerovat PDF417 čárový kód v C# s podrobnými ukázkami kódu a nastavením.
+
+### [Jak uložit čárový kód a vygenerovat PDF417 pomocí Aspose v C#](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
+Naučte se, jak pomocí Aspose.BarCode v C# uložit čárový kód a vytvořit PDF417 s podrobným příkladem.
+
+### [Jak vytvořit tutoriál generátoru čárových kódů v C#, který vytváří kompaktní PDF417 čárové kódy](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
+Naučte se krok za krokem vytvořit generátor čárových kódů v C# pro kompaktní PDF417 pomocí Aspose.BarCode.
+
+### [Generátor čárových kódů C# – návod: vytvořit MicroPdf417](./barcode-generator-c-guide-create-micropdf417/)
+Naučte se pomocí Aspose.BarCode v C# generovat MicroPdf417 čárový kód s podrobným návodem.
+
 ### [Jak generovat PDF417 čárové kódy v C# s Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 Naučte se generovat PDF417 čárové kódy v C# pomocí Aspose.BarCode.
 
@@ -378,6 +390,7 @@ A: Ne, nejsou potřeba žádné externí fonty; knihovna provádí veškeré vyk
 - [Jak vytvořit Aztec čárový kód s korekcí chyb v .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [Vygenerovat PDF417 čárový kód s kompaktním nastavením v C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
 - [Jak dekódovat PDF417 čárové kódy v C# pomocí BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+- [Jak dekódovat PDF417 čárové kódy v C# – krok za krokem](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
