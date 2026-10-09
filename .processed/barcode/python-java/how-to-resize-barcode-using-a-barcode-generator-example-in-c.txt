@@ -1,0 +1,7 @@
+Title: How to resize barcode using a barcode generator example in C#
+Slug: how-to-resize-barcode-using-a-barcode-generator-example-in-c
+Category: general
+ProcessedDate: 2026-10-09T07:00:43.191024
+SourceRepo: AI Search API
+Keywords: how to resize barcode, barcode generator example c#
+PRNumber: 151
