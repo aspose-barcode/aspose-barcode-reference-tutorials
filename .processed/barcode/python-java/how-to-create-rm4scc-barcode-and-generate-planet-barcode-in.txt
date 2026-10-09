@@ -1,0 +1,7 @@
+Title: How to create RM4SCC barcode and generate planet barcode in C#
+Slug: how-to-create-rm4scc-barcode-and-generate-planet-barcode-in
+Category: general
+ProcessedDate: 2026-10-09T07:00:35.168286
+SourceRepo: AI Search API
+Keywords: create rm4scc barcode, how to generate postal barcode, generate planet barcode
+PRNumber: 151
