@@ -50,7 +50,7 @@ Hiệu quả và độ chính xác là chìa khóa trong thế giới kinh doanh
 Tóm lại, việc thành thạo mã hóa mã vạch GS1 bằng Aspose.BarCode cho .NET là điều cần thiết đối với bất kỳ ai tham gia vào việc tạo mã vạch. Những hướng dẫn này đề cập đến nhiều khía cạnh khác nhau của mã vạch GS1, đảm bảo bạn có kiến thức và công cụ để tạo mã vạch chính xác và hiệu quả cho ngành của mình. Đừng bỏ lỡ cơ hội trở thành chuyên gia mã hóa mã vạch. Bắt đầu bây giờ!
 ## Hướng dẫn mã hóa mã vạch GS1
 ### [Ví dụ mã GS1 128](./gs1-code-128-example/)
-Tìm hiểu cách tạo mã vạch GS 128 bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước tạo mã vạch trong C#. Bắt đầu ngay bây giờ!
+Tìm hiểu cách tạo mã vạch GS1 Code 128 bằng Aspose.BarCode cho .NET. Hướng dẫn từng bước tạo mã vạch trong C#. Bắt đầu ngay bây giờ!
 ### [Cấu hình không gian bổ sung phiếu giảm giá GS1](./gs1-coupon-supplement-space-configuration/)
 Tìm hiểu cách định cấu hình Không gian bổ sung phiếu giảm giá GS1 bằng Aspose.BarCode cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để làm chủ tính năng này.
 ### [Phiếu giảm giá GS1 Mã UPC-A 128](./gs1-coupon-upc-a-code-128-encoding/)
@@ -66,7 +66,6 @@ Khám phá cách tạo nhanh hình ảnh mã vạch GS1 trong C# với Aspose.Ba
 
 ### [Tạo mã vạch PNG trong C# – hướng dẫn đầy đủ về GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Tạo mã vạch PNG trong C# với Aspose.BarCode cho .NET, hướng dẫn chi tiết về GS1 Micro PDF417. Bắt đầu ngay hôm nay!
-
 ### [Tạo mã vạch GS1 trong C# và xuất ra PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
 Hướng dẫn chi tiết cách tạo mã vạch GS1 bằng C# và lưu dưới dạng PNG với Aspose.BarCode.
 

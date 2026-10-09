@@ -67,6 +67,7 @@ GS1 Code 128 คือสัญลักษณ์บาร์โค้ดที�
 เรียนรู้วิธีสร้างบาร์โค้ด PNG แบบ GS1 Micro PDF417 ด้วย C# อย่างละเอียดโดยใช้ Aspose.BarCode สำหรับ .NET
 ### [สร้างบาร์โค้ด GS1 ด้วย C# และส่งออกเป็น PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
 เรียนรู้วิธีสร้างบาร์โค้ด GS1 ด้วย C# และบันทึกเป็นไฟล์ PNG อย่างง่ายดายด้วย Aspose.BarCode สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

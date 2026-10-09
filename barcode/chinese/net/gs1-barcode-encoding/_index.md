@@ -66,7 +66,6 @@ GS1 DataMatrix 条形码是产品识别和可追溯性的重要组成部分。 A
 
 ### [在 C# 中创建条形码 PNG – GS1 Micro PDF417 完整指南](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 使用 Aspose.BarCode for .NET 在 C# 中生成 GS1 Micro PDF417 条形码 PNG，完整分步教程。
-
 ### [在 C# 中创建 GS1 条码并导出为 PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
 使用 Aspose.BarCode for .NET，在 C# 中生成 GS1 条码并将其保存为 PNG 图像的完整分步指南。
 
