@@ -201,6 +201,26 @@ namespace BarcodeSpecialCharsDemo
 
                 // MacroPdf417 metadata
 
+                generator.Parameters.Barcode.Pdf417.MacroPdf417FileID = 12345678;
+                generator.Parameters.Barcode.Pdf417.MacroPdf417SegmentID = 12;
+                generator.Parameters.Barcode.Pdf417.MacroPdf417SegmentsCount = 20;
+                generator.Parameters.Barcode.Pdf417.MacroPdf417FileName = "file01";
+                generator.Parameters.Barcode.Pdf417.MacroPdf417Checksum = 1234; // CCITT‑16 checksum
+                generator.Parameters.Barcode.Pdf417.MacroPdf417FileSize = 400000;
+                generator.Parameters.Barcode.Pdf417.MacroPdf417TimeStamp = new DateTime(2019, 11, 1);
+                generator.Parameters.Barcode.Pdf417.MacroPdf417Addressee = "street";
+                generator.Parameters.Barcode.Pdf417.MacroPdf417Sender = "aspose";
+                generator.Parameters.Barcode.Pdf417.MacroPdf417Terminator = Pdf417MacroTerminator.Set;
+
+                // Save the generated barcode as a PNG image
+                generator.Save("ExtPDF417Meta.png", BarCodeImageFormat.Png);
+            }
+
+            Console.WriteLine("Barcode with special characters generated successfully.");
+        }
+    }
+}
+```
 
 ## Mit érdemes még megtanulni?
 
