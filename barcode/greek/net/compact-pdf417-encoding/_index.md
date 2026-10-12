@@ -83,6 +83,10 @@ weight: 29
 - **Έλεγχος Έκδοσης:** Διατηρήστε την έκδοση της βιβλιοθήκης Aspose.BarCode συνεπή σε ανάπτυξη, δοκιμή και παραγωγή.
 
 ## Συμμετοχικά Σεμινάρια Συμπαγούς PDF417
+### [How to create micro pdf417 barcode in C# and save it as PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
+
+### [How to create barcode from text in C# with Aspose.BarCode](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
+
 ### [Decode barcode from image with a C# barcode reader example](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 
 
@@ -243,6 +247,9 @@ weight: 29
 
 ### [Πώς να δημιουργήσετε barcode σε C# με το Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 Μάθετε πώς να δημιουργήσετε barcode σε C# χρησιμοποιώντας το Aspose.BarCode.
+
+### [Πώς να διαβάσετε barcode από εικόνα C# χρησιμοποιώντας Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
+Μάθετε πώς να διαβάσετε κωδικούς barcode από εικόνα σε C# με το Aspose.BarCode.
 
 ## Συχνές Ερωτήσεις
 

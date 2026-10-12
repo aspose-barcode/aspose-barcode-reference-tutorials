@@ -92,6 +92,8 @@ url: /th/net/one-dimensional-barcode-types/
 เรียนรู้วิธีกำหนดค่าพารามิเตอร์บาร์โค้ดใน C# ด้วย Aspose.BarCode อย่างละเอียด
 ### [วิธีสร้างบาร์โค้ดด้วย Aspose ใน C#](./how-to-generate-barcode-with-aspose-in-c/)
 เรียนรู้วิธีสร้างบาร์โค้ดใน C# ด้วย Aspose.BarCode อย่างง่ายและรวดเร็ว
+### [วิธีสร้างบาร์โค้ดด้วยอักขระพิเศษใน C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
+เรียนรู้วิธีสร้างบาร์โค้ดที่มีอักขระพิเศษใน C# ด้วย Aspose.BarCode อย่างง่ายและรวดเร็ว
 
 ## บทสรุป
 

@@ -162,6 +162,9 @@ Panduan langkah demi langkah membuat barcode macro PDF417 di C# dengan Aspose.Ba
 ### [Cara menghasilkan barcode PDF417 di C# – contoh kompak](./how-to-generate-pdf417-barcode-in-c-compact-example/)
 ### [Cara menghasilkan barcode di C# dengan Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 Panduan langkah demi langkah untuk menghasilkan barcode menggunakan C# dan Aspose.BarCode, termasuk contoh kode lengkap.
+### [Cara membuat barcode dari teks di C# dengan Aspose.BarCode](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
+Panduan langkah demi langkah membuat barcode dari teks menggunakan C# dan Aspose.BarCode.
+
 ### [Cara menghasilkan barcode dan menyesuaikan barcode PDF417 di C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
 Kepadatan data tinggi dan koreksi kesalahan yang kuat pada Compact PDF417 menjadikannya cocok untuk berbagai aplikasi di mana ruang terbatas dan keandalan sangat penting. Berikut beberapa skenario umum di mana simbol ini memberikan manfaat nyata, termasuk logistik, tiket, antarmuka seluler, dan pelabelan peralatan industri.
 
@@ -206,6 +209,12 @@ Panduan lengkap untuk membuat barcode micro PDF417 menggunakan C# dengan Aspose.
 
 ### [Cara membuat barcode micro PDF417 di C# – panduan langkah demi langkah](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 Panduan lengkap membuat barcode micro PDF417 menggunakan C# dengan Aspose.BarCode, termasuk contoh kode dan pengaturan.
+
+### [Cara membuat barcode micro PDF417 di C# dan menyimpannya sebagai PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
+Panduan langkah demi langkah membuat barcode micro PDF417 di C# dan menyimpannya sebagai file PNG.
+
+### [Cara Membaca Barcode dari Gambar C# dengan Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
+Panduan langkah demi langkah membaca barcode dari file gambar menggunakan Aspose.BarCode di C#.
 
 ### [Cara menggunakan generator barcode C# untuk Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
 
