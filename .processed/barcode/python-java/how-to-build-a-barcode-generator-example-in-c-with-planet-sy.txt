@@ -1,0 +1,7 @@
+Title: How to build a barcode generator example in C# with Planet symbology
+Slug: how-to-build-a-barcode-generator-example-in-c-with-planet-sy
+Category: general
+ProcessedDate: 2026-10-06T02:55:29.724610
+SourceRepo: AI Search API
+Keywords: barcode generator example, generate planet barcode, create barcode image c#
+PRNumber: 148

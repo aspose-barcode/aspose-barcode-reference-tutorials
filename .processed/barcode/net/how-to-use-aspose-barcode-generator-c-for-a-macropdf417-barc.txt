@@ -1,0 +1,7 @@
+Title: How to use Aspose Barcode Generator C# for a MacroPdf417 barcode
+Slug: how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-06T02:38:35.863550
+SourceRepo: AI Search API
+Keywords: aspose barcode generator c#, how to add macro, how to generate pdf417
+PRNumber: 146

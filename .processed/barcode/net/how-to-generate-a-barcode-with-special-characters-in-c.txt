@@ -1,0 +1,7 @@
+Title: How to generate a barcode with special characters in C#
+Slug: how-to-generate-a-barcode-with-special-characters-in-c
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-10-02T23:03:59.414193
+SourceRepo: AI Search API
+Keywords: barcode with special characters, how to generate barcode c#
+PRNumber: 143

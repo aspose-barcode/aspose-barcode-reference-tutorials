@@ -1,36 +1,36 @@
 ---
 category: general
-date: 2026-07-15
-description: Szybko generuj kod kreskowy PDF417 w C#. Dowiedz się, jak generować kod
-  kreskowy z tekstu, dostosować jego rozmiar i ustawić własne wymiary w kilka minut.
+date: 2026-09-23
+description: Dowiedz się, jak szybko wygenerować kod kreskowy PDF417 w C#, dostosować
+  jego rozmiar i ustawić niestandardowe wymiary przy użyciu Aspose.BarCode.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- generate pdf417 barcode
-- generate barcode from text
-- adjust barcode size
+- how to generate pdf417
+- generate pdf417 barcode c#
+- adjust barcode size c#
 - custom barcode dimensions
-language: pl
-lastmod: 2026-07-15
-og_description: Generuj kod kreskowy PDF417 w C# natychmiast. Ten przewodnik pokazuje,
-  jak wygenerować kod kreskowy z tekstu, dostosować rozmiar kodu i zastosować niestandardowe
-  wymiary kodu.
-og_image_alt: Screenshot of a PDF417 barcode generated with custom dimensions using
-  C# code
-og_title: Generowanie kodu kreskowego PDF417 w C# – Pełny samouczek programistyczny
+lastmod: 2026-09-23
+og_description: Jak wygenerować kod kreskowy PDF417 w C# w kilka minut. Ten przewodnik
+  pokazuje, jak zakodować tekst, kontrolować X‑dimension oraz dostosować column‑row
+  layout przy użyciu Aspose.BarCode.
+og_image_alt: 'Developer guide: generate PDF417 barcode with custom dimensions using
+  C#'
+og_title: Jak wygenerować kod kreskowy PDF417 w C# – przewodnik krok po kroku
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: Generate PDF417 barcode quickly with C#. Learn how to generate barcode
-    from text, adjust barcode size, and set custom barcode dimensions in minutes.
-  headline: Generate PDF417 Barcode in C# – Complete Step‑by‑Step Guide
+  dateModified: '2026-09-23'
+  description: Learn how to generate PDF417 barcode quickly with C#. Includes text
+    encoding, size adjustment, and custom dimensions.
+  headline: How to generate PDF417 barcode in C# – complete step‑by‑step guide
   type: TechArticle
 tags:
-- barcode
 - pdf417
+- barcode
 - csharp
-title: Generowanie kodu kreskowego PDF417 w C# – Kompletny przewodnik krok po kroku
+- Aspose.BarCode
+title: Jak wygenerować kod kreskowy PDF417 w C# – kompletny przewodnik krok po kroku
 url: /pl/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-by-step-guide/
 ---
 
@@ -38,38 +38,47 @@ url: /pl/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generowanie kodu kreskowego PDF417 w C# – Kompletny przewodnik krok po kroku
+# Jak wygenerować kod kreskowy PDF417 w C# – kompletny przewodnik krok po kroku
 
-Kiedykolwiek potrzebowałeś **wygenerować kod kreskowy PDF417**, ale nie wiedziałeś, które ustawienia zmienić? Nie jesteś sam — wielu programistów napotyka ten sam problem, gdy po raz pierwszy pracuje z kodami 2‑D. Dobra wiadomość? Kilka linijek C# pozwoli Ci zamienić dowolny ciąg znaków w skanowalny obraz PDF417, kontrolować jego dokładny rozmiar i nawet zdefiniować własny układ kolumn‑wierszy.
+Kiedykolwiek potrzebowałeś **wygenerować kod kreskowy PDF417**, ale nie byłeś pewien, które ustawienia zmienić? Nie jesteś jedyny — wielu programistów napotyka ten sam problem, gdy po raz pierwszy pracują z kodami 2‑D. Dobra wiadomość? Kilka linii C# pozwala zamienić dowolny ciąg znaków w skanowalny obraz PDF417, kontrolować jego dokładny rozmiar i nawet zdefiniować niestandardowy układ kolumn‑wierszy.
 
-W tym samouczku przejdziemy przez **generowanie kodu kreskowego z tekstu**, regulację rozmiaru kodu oraz ustawienie własnych wymiarów — wszystko przy użyciu popularnej biblioteki Aspose.BarCode. Po zakończeniu będziesz mieć gotowy przykład, który możesz wkleić do dowolnego projektu .NET.
+W tym samouczku przejdziemy przez **generowanie kodu kreskowego z tekstu**, dostosujemy rozmiar kodu oraz ustawimy niestandardowe wymiary kodu — wszystko przy użyciu popularnej biblioteki Aspose.BarCode. Po zakończeniu będziesz mieć gotowy przykład, który możesz wkleić do dowolnego projektu .NET.
 
-![Generate PDF417 barcode example](https://example.com/og-image.png "Generate PDF417 barcode example")
+![Przykład generowania kodu kreskowego PDF417](https://example.com/og-image.png "Przykład generowania kodu kreskowego PDF417")
+[Przykład generowania kodu kreskowego PDF417](https://example.com/og-image.png "Przykład generowania kodu kreskowego PDF417")
 
-## Co zbudujesz
+## Szybkie odpowiedzi
+- **Jaką bibliotekę tworzy kody PDF417 w .NET?** Aspose.BarCode for .NET.
+- **Ile linii kodu potrzebnych jest do podstawowego kodu kreskowego?** Tylko trzy linie: utwórz generator, ustaw wymiar X i zapisz obraz.
+- **Czy mogę dostosować kolumny i wiersze?** Tak, możesz ustawić `Columns` i `Rows` w parametrach PDF417.
+- **Jakie formaty obrazu są obsługiwane?** PNG, JPEG, BMP, GIF, SVG i PDF.
+- **Czy znaki Unicode działają?** Zdecydowanie; API w pełni obsługuje kodowanie UTF‑8.
 
-- Kod kreskowy PDF417, który koduje ciąg `Åspóse.Barcóde©`.
-- Precyzyjną kontrolę nad wymiarem X (szerokość każdego modułu w pikselach).
-- Własny układ 4 kolumn i 9 wierszy.
-- Plik PNG zapisany na dysku.
+## Co to jest generowanie PDF417?
+Fraza „jak wygenerować PDF417” odnosi się do procesu tworzenia obrazu kodu kreskowego PDF417 2‑D z danych tekstowych przy użyciu biblioteki programistycznej. Z Aspose.BarCode możesz to zrobić w mniej niż minutę. Polega to na przekazaniu zwykłego ciągu znaków do generatora kodów, który implementuje specyfikację PDF417, i uzyskaniu macierzy czarnych i białych modułów, które mogą być renderowane jako obraz lub osadzone w dokumencie.
 
-Bez zewnętrznych usług, bez magicznych sztuczek — po prostu czysty kod C#, który możesz skompilować od razu.
+## Dlaczego używać Aspose.BarCode do generowania PDF417?
+Aspose.BarCode obsługuje **ponad 50 formatów wejścia i wyjścia** oraz może przetwarzać **dokumenty wielostronicowe bez ładowania całego pliku do pamięci**. Biblioteka działa na **.NET 6+, .NET Framework 4.8 i .NET Core**, dając elastyczność w środowiskach desktop, serwerowych i chmurowych.
 
 ## Wymagania wstępne
-
-- .NET 6.0 lub nowszy (kod działa także na .NET Framework 4.8).
-- Visual Studio 2022 lub dowolne IDE obsługujące C#.
-- Aspose.BarCode for .NET (wersja próbna lub licencjonowana). Instalacja przez NuGet:
+- .NET 6.0 lub nowszy (kod działa również na .NET Framework 4.8).
+- Visual Studio 2022 lub dowolne IDE kompatybilne z C#.
+- Aspose.BarCode for .NET (bezpłatna wersja próbna lub licencjonowana). Instalacja przez NuGet:
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-To wszystko — po dodaniu pakietu możesz przystąpić do pracy.
+To wszystko — po odwołaniu pakietu możesz rozpocząć.
 
-## Krok 1 – Generowanie kodu PDF417 z danymi tekstowymi
+## Jak wygenerować kod kreskowy PDF417 w C#?
 
-Pierwszą rzeczą, której potrzebujemy, jest instancja `BarcodeGenerator`, która wie, że używamy symbologii PDF417 oraz dokładnego tekstu, który chcemy zakodować.
+Wczytaj swój tekst, skonfiguruj generator i zapisz obraz w trzech prostych krokach. Ta bezpośrednia odpowiedź daje kompletny przepływ pracy przed dodatkowymi wyjaśnieniami. Najpierw utwórz instancję `BarcodeGenerator` z symbologią PDF417 i swoimi danymi. Następnie dostosuj parametry wizualne, takie jak wymiar X, kolumny i wiersze. Na koniec wywołaj `Save`, aby zapisać obraz na dysku w wybranym formacie.
+
+### Krok 1 – wygeneruj kod PDF417 z danymi tekstowymi
+
+Klasa `BarcodeGenerator` tworzy obrazy kodów kreskowych na podstawie określonej symbologii i danych.  
+Pierwszą rzeczą, której potrzebujemy, jest instancja `BarcodeGenerator`, która wie, że pracujemy z symbologią PDF417 i dokładnym tekstem, który chcemy zakodować.
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -80,23 +89,27 @@ BarcodeGenerator barcodeGenerator = new BarcodeGenerator(EncodeTypes.Pdf417, "Å
 ```
 
 > **Dlaczego to ważne:**  
-> `EncodeTypes.Pdf417` informuje bibliotekę, że ma używać formatu PDF417 2‑D, a drugi argument to ładunek **generowania kodu kreskowego z tekstu**. Wszystko, co tu podasz, zostaje zapisane w macierzy kodu.
+> `EncodeTypes.Pdf417` informuje bibliotekę, że ma użyć formatu PDF417 2‑D, a drugi argument to ładunek **generowanie kodu kreskowego z tekstu**. Wszystko, co tutaj przekażesz, stanie się danymi przechowywanymi w macierzy kodu.
 
-## Krok 2 – Regulacja rozmiaru kodu (wymiar X)
+### Krok 2 – dostosuj rozmiar kodu (wymiar X)
 
-Jeśli kiedykolwiek drukowałeś kod kreskowy, który był zbyt mały na paragonie, znasz frustrację, gdy skaner go nie wykrywa. Właściwość `XDimension` kontroluje szerokość pojedynczego modułu (najmniejszego czarnego lub białego kwadratu) w pikselach.
+Właściwość `XDimension` definiuje szerokość w pikselach pojedynczego modułu (najmniejszego czarnego lub białego kwadratu) w obrazie kodu kreskowego.
+
+`XDimension` kontroluje szerokość pojedynczego modułu (najmniejszego czarnego lub białego kwadratu) w pikselach.
 
 ```csharp
 // Step 2: Set the module (X) dimension in pixels to control barcode size
 barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2; // 2 px per module
 ```
 
-> **Porada:**  
-> Wartość 2 px sprawdza się w większości scenariuszy wyświetlania na ekranie. Przy wydrukach wysokiej rozdzielczości możesz podnieść ją do 3 lub 4 px. Pamiętaj, że większe wymiary X zwiększają ogólny rozmiar obrazu.
+> **Wskazówka:**  
+> Wartość 2 px sprawdza się w większości scenariuszy wyświetlania na ekranie. Dla wydruków wysokiej rozdzielczości możesz podnieść ją do 3 lub 4 px. Pamiętaj, że większe wymiary X zwiększają ogólny rozmiar obrazu.
 
-## Krok 3 – Ustawienie własnych wymiarów kodu (kolumny i wiersze)
+### Krok 3 – ustaw niestandardowe wymiary kodu (kolumny i wiersze)
 
-PDF417 pozwala określić, ile kolumn i wierszy ma zajmować kod. To właśnie tutaj wchodzą w grę **własne wymiary kodu**. Zmiana tych wartości może pomóc dopasować kod do ciasnego interfejsu UI lub spełnić określone wymagania etykiety.
+PDF417 pozwala określić, ile kolumn i wierszy ma zajmować kod. To właśnie **niestandardowe wymiary kodu** wchodzą w grę.
+
+Parametry `Pdf417` pozwalają określić dokładną siatkę kolumna‑wiersz dla kodu.
 
 ```csharp
 // Step 3: Define the layout of the PDF417 barcode: number of columns and rows
@@ -104,19 +117,20 @@ barcodeGenerator.Parameters.Barcode.Pdf417.Columns = 4; // 4 columns
 barcodeGenerator.Parameters.Barcode.Pdf417.Rows    = 9; // 9 rows
 ```
 
-> **Co się dzieje pod maską?**  
-> Biblioteka rozdziela zakodowane dane na określoną siatkę. Mniej kolumn oznacza wyższy kod; więcej wierszy — niższy. Eksperymentuj z liczbami, aż uzyskasz pożądany balans wizualny dla swojej aplikacji.
+> **Co się dzieje w tle?**  
+> Biblioteka rozdziela zakodowane dane na określoną siatkę. Mniej kolumn oznacza wyższe kody; więcej wierszy sprawia, że są niższe. Eksperymentuj z liczbami, aż uzyskasz wizualną równowagę odpowiednią dla Twojej aplikacji.
 
-## Krok 4 – Zapis obrazu kodu
+### Krok 4 – zapisz obraz kodu
 
-Po skonfigurowaniu wszystkiego po prostu prosimy generator o zapisanie pliku PNG. PNG jest bezstratny, więc ostrość modułów pozostaje nienaruszona.
+Teraz, gdy wszystko jest skonfigurowane, po prostu prosimy generator o zapisanie pliku PNG. PNG jest bezstratny, więc ostrość modułów pozostaje nienaruszona.  
+`Save` zapisuje wygenerowany kod do pliku w wybranym formacie obrazu.
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image
 barcodeGenerator.Save(@"C:\Barcodes\CustomLayout.png", BarCodeImageFormat.Png);
 ```
 
-Po uruchomieniu programu powinien pojawić się plik w `C:\Barcodes\CustomLayout.png`, który wygląda podobnie do zrzutu ekranu powyżej. Zeskanowanie go dowolnym czytnikiem obsługującym PDF417 zwróci oryginalny ciąg `Åspóse.Barcóde©`.
+Po uruchomieniu programu powinien pojawić się plik w `C:\Barcodes\CustomLayout.png`, wyglądający podobnie do zrzutu ekranu powyżej. Skanowanie go dowolnym czytnikiem obsługującym PDF417 zwróci oryginalny ciąg `Åspóse.Barcóde©`.
 
 ## Pełny działający przykład
 
@@ -167,37 +181,68 @@ Uruchomienie kodu wypisuje:
 ✅ Barcode generated successfully → C:\Barcodes\CustomLayout.png
 ```
 
-…i tworzy plik PNG, który można otworzyć w dowolnym przeglądarce obrazów. Jeśli zeskanujesz go aplikacją mobilną (np. „Barcode Scanner” na iOS/Android), odkodowany tekst powinien być dokładnie **Åspóse.Barcóde©**.
+…i tworzy plik PNG, który można otworzyć w dowolnej przeglądarce obrazów. Jeśli zeskanujesz go aplikacją mobilną (np. „Barcode Scanner” na iOS/Android), odkodowany tekst powinien być dokładnie **Åspóse.Barcóde©**.
 
-## Często zadawane pytania i przypadki brzegowe
+## Częste pytania i przypadki brzegowe
 
 | Pytanie | Odpowiedź |
-|----------|--------|
-| **Czy mogę użyć innego formatu obrazu?** | Tak — `BarCodeImageFormat.Jpeg`, `Bmp`, `Gif` lub `Svg` są obsługiwane. Wystarczy zmienić drugi argument metody `Save`. |
+|----------|-----------|
+| **Czy mogę użyć innego formatu obrazu?** | Tak — `BarCodeImageFormat.Jpeg`, `Bmp`, `Gif` lub `Svg` są wszystkie obsługiwane. Wystarczy zmienić drugi argument metody `Save`. |
 | **Co jeśli mój tekst zawiera znaki Unicode?** | Aspose.BarCode w pełni obsługuje UTF‑8, więc przykład z `Å` i `©` działa od razu. |
-| **Jak zmienić poziom korekcji błędów?** | Użyj `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` (poziomy 0‑8). Wyższe poziomy zwiększają redundancję, ale także rozmiar. |
+| **Jak zmienić poziom korekcji błędów?** | Użyj `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` (poziomy 0‑8). Wyższe poziomy zwiększają nadmiarowość, ale także rozmiar. |
 | **Potrzebuję przezroczystego tła — czy to możliwe?** | Ustaw `generator.Parameters.Barcode.Image.TransparentBackground = true;` przed zapisem. |
-| **Czy da się osadzić kod bezpośrednio w pliku PDF?** | Oczywiście. Zastąp wywołanie `Save` przez `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` i otrzymasz jednosktronicowy PDF zawierający kod. |
+| **Czy istnieje sposób na osadzenie kodu bezpośrednio w PDF?** | Oczywiście. Zastąp wywołanie `Save` przez `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` i otrzymasz jednosstronicowy PDF zawierający kod. |
 
-## Zakończenie
+## Najczęściej zadawane pytania
 
-Teraz wiesz, jak **generować kod kreskowy PDF417** w C# z dowolnego ciągu, **regulować rozmiar kodu** i stosować **własne wymiary kodu**, aby dopasować go do swojego układu. Czterostopniowy przepływ — inicjalizacja, rozmiar, układ, zapis — obejmuje podstawowy proces dla większości scenariuszy kodów 2‑D.
+**P:** Czy biblioteka działa na .NET Core i .NET 5/6?  
+**O:** Tak, Aspose.BarCode for .NET obsługuje .NET Core 3.1, .NET 5, .NET 6 i nowsze wersje.
 
-Co dalej? Spróbuj zamienić `EncodeTypes.Pdf417` na `EncodeTypes.QR` lub `EncodeTypes.Code128`, aby zobaczyć, jak API się zachowuje. Eksperymentuj z różnymi wartościami `XDimension`, baw się macierzą kolumn/wierszy lub osadź obraz w raporcie PDF. Możliwości są praktycznie nieograniczone, a Ty masz solidne podstawy do dalszej pracy.
+**P:** Czy mogę generować wiele kodów kreskowych w pętli?  
+**O:** Oczywiście. Utwórz nową instancję `BarcodeGenerator` dla każdego ciągu lub ponownie użyj tej samej po zmianie właściwości `CodeText`.
 
-Masz więcej pytań lub odkryłeś sprytny trik podczas pracy z PDF417? Dodaj komentarz poniżej — kontynuujmy dyskusję. Szczęśliwego kodowania!
+**P:** Jak duży może być wygenerowany obraz?  
+**O:** API może tworzyć obrazy do **10 000 × 10 000 pikseli**; zużycie pamięci rośnie wraz z wymiarem X oraz ustawieniami kolumn/wierszy.
 
+**P:** Czy wymagana jest licencja do użytku produkcyjnego?  
+**O:** Tak, licencja komercyjna usuwa znak wodny wersji ewaluacyjnej i odblokowuje pełny zestaw funkcji. Dostępna jest bezpłatna wersja próbna do testów.
+
+**P:** Czy muszę ręcznie zwolnić generator?  
+**O:** `BarcodeGenerator` implementuje `IDisposable`. Umieść go w bloku `using` lub wywołaj `Dispose()`, aby szybko zwolnić zasoby niezarządzane.
 
 ## Co powinieneś nauczyć się dalej?
 
+Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne przykłady kodu oraz wyjaśnienia krok po kroku, pomagające opanować dodatkowe funkcje API i eksplorować alternatywne podejścia w własnych projektach.
 
-Poniższe samouczki dotyczą ściśle powiązanych tematów, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu oraz wyjaśnienia krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i poznać alternatywne podejścia w własnych projektach.
+- [Jak wygenerować kod Aztec z niestandardowym współczynnikiem proporcji przy użyciu Aspose.BarCode dla .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [Jak generować kody kreskowe – typy jednowymiarowe](/barcode/english/net/one-dimensional-barcode-types/)
+- [Generowanie kodu DataMatrix – profesjonalny przewodnik z Aspose.BarCode](/barcode/english/net/datamatrix-barcode-configuration/)
 
-- [How to generate Aztec barcode with custom aspect ratio using Aspose.BarCode for .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-- [How to Generate Barcode - One-Dimensional Barcode Types](/barcode/english/net/one-dimensional-barcode-types/)
-- [Generate DataMatrix Barcode – Pro Guide with Aspose.BarCode](/barcode/english/net/datamatrix-barcode-configuration/)
+---
+
+**Ostatnia aktualizacja:** 2026-09-23  
+**Testowano z:** Aspose.BarCode 24.11 for .NET  
+**Autor:** Aspose  
+
+
+
+
+
+
+```bash
+dotnet add package Aspose.BarCode
+```
+
+## Powiązane samouczki
+
+- [Dostosuj rozmiar kodu C – przewodnik generowania kodów Pdf417](/barcode/net/compact-pdf417-encoding/adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+- [Przykład Aspose Barcode – generowanie Macro Pdf417 w C](/barcode/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/)
+- [Generowanie mikro kodu Pdf417 w C – kompletny przewodnik](/barcode/net/compact-pdf417-encoding/generate-micro-pdf417-barcode-in-c-complete-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

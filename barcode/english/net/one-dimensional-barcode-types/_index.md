@@ -111,6 +111,8 @@ Learn how to generate barcodes with special characters in C# using Aspose.BarCod
 ### [Read barcode from image in C# – BarCodeReader tutorial](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Learn how to read barcodes from images in C# using Aspose.BarCodeReader. Follow our step‑by‑step guide for easy implementation.
 ### [How to set barcode parameters in C# using Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+### [How to generate barcode with Aspose in C#](./how-to-generate-barcode-with-aspose-in-c/)
+Learn how to generate barcodes in C# using Aspose.BarCode with a step‑by‑step guide.
 
 ## Frequently Asked Questions
 

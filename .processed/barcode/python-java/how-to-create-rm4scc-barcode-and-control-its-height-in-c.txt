@@ -1,0 +1,7 @@
+Title: How to create rm4scc barcode and control its height in C#
+Slug: how-to-create-rm4scc-barcode-and-control-its-height-in-c
+Category: general
+ProcessedDate: 2026-10-02T23:41:52.854368
+SourceRepo: AI Search API
+Keywords: create rm4scc barcode, how to generate postal barcode, generate planet barcode, how to set barcode height
+PRNumber: 144

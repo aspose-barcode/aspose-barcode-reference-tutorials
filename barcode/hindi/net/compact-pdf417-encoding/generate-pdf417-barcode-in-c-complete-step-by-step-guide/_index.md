@@ -1,36 +1,36 @@
 ---
 category: general
-date: 2026-07-15
-description: C# के साथ PDF417 बारकोड जल्दी बनाएं। टेक्स्ट से बारकोड बनाना, बारकोड
-  का आकार समायोजित करना, और मिनटों में कस्टम बारकोड आयाम सेट करना सीखें।
+date: 2026-09-23
+description: C# में PDF417 बारकोड को जल्दी से जनरेट करना, उसका आकार समायोजित करना,
+  और Aspose.BarCode के साथ कस्टम आयाम सेट करना सीखें।
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- generate pdf417 barcode
-- generate barcode from text
-- adjust barcode size
+- how to generate pdf417
+- generate pdf417 barcode c#
+- adjust barcode size c#
 - custom barcode dimensions
-language: hi
-lastmod: 2026-07-15
-og_description: C# में तुरंत PDF417 बारकोड जेनरेट करें। यह गाइड दिखाता है कि टेक्स्ट
-  से बारकोड कैसे बनाएं, बारकोड का आकार कैसे समायोजित करें, और कस्टम बारकोड आयाम कैसे
-  लागू करें।
-og_image_alt: Screenshot of a PDF417 barcode generated with custom dimensions using
-  C# code
-og_title: C# में PDF417 बारकोड जनरेट करें – पूर्ण प्रोग्रामिंग ट्यूटोरियल
+lastmod: 2026-09-23
+og_description: C# में PDF417 बारकोड को मिनटों में जनरेट करना। यह गाइड आपको टेक्स्ट
+  एन्कोड करने, X‑dimension को नियंत्रित करने, और Aspose.BarCode के साथ column‑row
+  लेआउट को कस्टमाइज़ करने का तरीका दिखाता है।
+og_image_alt: 'Developer guide: generate PDF417 barcode with custom dimensions using
+  C#'
+og_title: C# में PDF417 बारकोड कैसे जनरेट करें – चरण‑दर‑चरण गाइड
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: Generate PDF417 barcode quickly with C#. Learn how to generate barcode
-    from text, adjust barcode size, and set custom barcode dimensions in minutes.
-  headline: Generate PDF417 Barcode in C# – Complete Step‑by‑Step Guide
+  dateModified: '2026-09-23'
+  description: Learn how to generate PDF417 barcode quickly with C#. Includes text
+    encoding, size adjustment, and custom dimensions.
+  headline: How to generate PDF417 barcode in C# – complete step‑by‑step guide
   type: TechArticle
 tags:
-- barcode
 - pdf417
+- barcode
 - csharp
-title: C# में PDF417 बारकोड जनरेट करें – पूर्ण चरण‑दर‑चरण गाइड
+- Aspose.BarCode
+title: C# में PDF417 बारकोड कैसे जनरेट करें – पूर्ण चरण‑दर‑चरण गाइड
 url: /hi/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-by-step-guide/
 ---
 
@@ -38,38 +38,47 @@ url: /hi/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C# में PDF417 बारकोड उत्पन्न करें – पूर्ण चरण‑दर‑चरण गाइड
+# C# में PDF417 बारकोड कैसे जनरेट करें – पूर्ण चरण‑दर‑चरण गाइड
 
-क्या आपको कभी **PDF417 बारकोड उत्पन्न** करने की ज़रूरत पड़ी है लेकिन सेटिंग्स को कैसे बदलें, यह नहीं पता था? आप अकेले नहीं हैं—कई डेवलपर्स को 2‑D बारकोड के साथ पहली बार काम करते समय यही समस्या आती है। अच्छी खबर? कुछ ही पंक्तियों के C# कोड से आप किसी भी स्ट्रिंग को स्कैन करने योग्य PDF417 इमेज में बदल सकते हैं, उसका सटीक आकार नियंत्रित कर सकते हैं, और यहाँ तक कि कस्टम कॉलम‑रो लेआउट भी निर्धारित कर सकते हैं।
+क्या आपको कभी **generate PDF417 barcode** करने की ज़रूरत पड़ी लेकिन सेटिंग्स को कैसे बदलें, यह नहीं पता था? आप अकेले नहीं हैं—कई डेवलपर्स पहली बार 2‑D बारकोड के साथ काम करते समय इसी समस्या का सामना करते हैं। अच्छी खबर? कुछ ही पंक्तियों के C# कोड से आप किसी भी स्ट्रिंग को स्कैन करने योग्य PDF417 इमेज में बदल सकते हैं, उसका सटीक आकार नियंत्रित कर सकते हैं, और कस्टम कॉलम‑रो लेआउट भी निर्धारित कर सकते हैं।
 
-इस ट्यूटोरियल में हम **टेक्स्ट से बारकोड उत्पन्न** करने, बारकोड का आकार समायोजित करने, और कस्टम बारकोड आयाम सेट करने की प्रक्रिया को लोकप्रिय Aspose.BarCode लाइब्रेरी का उपयोग करके देखेंगे। अंत तक आपके पास एक तैयार‑से‑चलाने वाला सैंपल होगा जिसे आप किसी भी .NET प्रोजेक्ट में डाल सकते हैं।
+इस ट्यूटोरियल में हम **generate barcode from text** कैसे करें, बारकोड का आकार कैसे समायोजित करें, और कस्टम बारकोड आयाम कैसे सेट करें — सब कुछ लोकप्रिय Aspose.BarCode लाइब्रेरी का उपयोग करके। अंत तक आपके पास एक तैयार‑से‑चलाने वाला सैंपल होगा जिसे आप किसी भी .NET प्रोजेक्ट में डाल सकते हैं।
 
-![Generate PDF417 barcode example](https://example.com/og-image.png "Generate PDF417 barcode example")
+![PDF417 बारकोड उदाहरण उत्पन्न करें](https://example.com/og-image.png "PDF417 बारकोड उदाहरण उत्पन्न करें")
+[PDF417 बारकोड उदाहरण उत्पन्न करें](https://example.com/og-image.png "PDF417 बारकोड उदाहरण उत्पन्न करें")
 
-## आप क्या बनाएँगे
+## त्वरित उत्तर
+- **कौन सी लाइब्रेरी .NET में PDF417 बारकोड बनाती है?** Aspose.BarCode for .NET.
+- **एक बेसिक बारकोड के लिए कितनी पंक्तियों का कोड चाहिए?** केवल तीन पंक्तियाँ: एक जेनरेटर बनाएं, X‑dimension सेट करें, इमेज सहेजें.
+- **क्या मैं कॉलम और रो को कस्टमाइज़ कर सकता हूँ?** हाँ, आप PDF417 पैरामीटर्स पर `Columns` और `Rows` सेट कर सकते हैं.
+- **कौन‑से इमेज फ़ॉर्मेट सपोर्टेड हैं?** PNG, JPEG, BMP, GIF, SVG, और PDF.
+- **क्या Unicode कैरेक्टर्स काम करते हैं?** बिल्कुल; API पूरी तरह से UTF‑8 एन्कोडिंग को सपोर्ट करता है.
 
-- एक PDF417 बारकोड जो स्ट्रिंग `Åspóse.Barcóde©` को एन्कोड करता है।
-- X‑डायमेंशन (प्रत्येक मॉड्यूल की पिक्सेल चौड़ाई) पर सटीक नियंत्रण।
-- 4 कॉलम और 9 रो का कस्टम लेआउट।
-- डिस्क पर सहेजी गई PNG फ़ाइल।
+## PDF417 कैसे जनरेट किया जाता है?
+वाक्यांश “how to generate PDF417” का अर्थ है प्रोग्रामिंग लाइब्रेरी का उपयोग करके टेक्स्ट डेटा से PDF417 2‑D बारकोड इमेज बनाना। Aspose.BarCode के साथ आप यह काम एक मिनट से भी कम समय में कर सकते हैं। इसमें एक साधारण‑टेक्स्ट स्ट्रिंग को बारकोड जेनरेटर को देना शामिल है जो PDF417 स्पेसिफिकेशन को लागू करता है, और काले‑सफ़ेद मॉड्यूल की मैट्रिक्स बनाता है जिसे इमेज के रूप में रेंडर या डॉक्यूमेंट में एम्बेड किया जा सकता है।
 
-कोई बाहरी सेवाएँ नहीं, कोई जादू‑छड़ी ट्रिक्स नहीं—सिर्फ साधारण C# कोड जिसे आप अभी कंपाइल कर सकते हैं।
+## PDF417 जनरेशन के लिए Aspose.BarCode क्यों उपयोग करें?
+Aspose.BarCode **50+ इनपुट और आउटपुट फ़ॉर्मेट** सपोर्ट करता है और **सैकड़ों‑पेज़ वाले डॉक्यूमेंट्स को पूरी फ़ाइल को मेमोरी में लोड किए बिना प्रोसेस** कर सकता है। लाइब्रेरी **.NET 6+, .NET Framework 4.8, और .NET Core** पर चलती है, जिससे आप डेस्कटॉप, सर्वर, और क्लाउड वातावरण में लचीलापन प्राप्त करते हैं।
 
-## आवश्यकताएँ
-
-- .NET 6.0 या बाद का (कोड .NET Framework 4.8 पर भी काम करता है)।
-- Visual Studio 2022 या कोई भी IDE जो C# को सपोर्ट करता हो।
+## पूर्वापेक्षाएँ
+- .NET 6.0 या बाद का संस्करण (कोड .NET Framework 4.8 पर भी काम करता है)।
+- Visual Studio 2022 या कोई भी C#‑compatible IDE।
 - Aspose.BarCode for .NET (फ्री ट्रायल या लाइसेंस्ड संस्करण)। NuGet के माध्यम से इंस्टॉल करें:
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-बस इतना ही—एक बार पैकेज रेफ़रेंस हो जाने पर आप तैयार हैं।
+बस इतना ही—पैकेज रेफ़रेंस करने के बाद आप तैयार हैं।
 
-## चरण 1 – टेक्स्ट डेटा के साथ PDF417 बारकोड उत्पन्न करें
+## C# में PDF417 बारकोड कैसे जनरेट करें?
 
-सबसे पहले हमें `BarcodeGenerator` का एक इंस्टेंस चाहिए जो यह जानता हो कि हम PDF417 सिंबोलॉजी का उपयोग कर रहे हैं और वह ठीक वही टेक्स्ट जिसे हम एन्कोड करना चाहते हैं।
+टेक्स्ट लोड करें, जेनरेटर को कॉन्फ़िगर करें, और इमेज को तीन सरल चरणों में सहेजें। यह सीधा उत्तर आपको अतिरिक्त व्याख्या से पहले पूरा वर्कफ़्लो देता है। सबसे पहले, `BarcodeGenerator` को PDF417 सिम्बॉलॉजी और आपके डेटा के साथ इंस्टैंशिएट करें। फिर, X‑dimension, कॉलम, और रो जैसे विज़ुअल पैरामीटर समायोजित करें। अंत में, `Save` को कॉल करके इमेज को इच्छित फ़ॉर्मेट में डिस्क पर लिखें।
+
+### चरण 1 – टेक्स्ट डेटा के साथ PDF417 बारकोड जनरेट करें
+
+`BarcodeGenerator` क्लास निर्दिष्ट सिम्बॉलॉजी और डेटा के आधार पर बारकोड इमेज बनाता है।  
+पहले हमें `BarcodeGenerator` का एक इंस्टेंस चाहिए जो यह जानता हो कि हम PDF417 सिम्बॉलॉजी के साथ काम कर रहे हैं और वह ठीक वही टेक्स्ट एन्कोड करे जिसे हम पास करेंगे।
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -80,11 +89,13 @@ BarcodeGenerator barcodeGenerator = new BarcodeGenerator(EncodeTypes.Pdf417, "Å
 ```
 
 > **Why this matters:**  
-> `EncodeTypes.Pdf417` लाइब्रेरी को PDF417 2‑D फ़ॉर्मेट उपयोग करने के लिए बताता है, जबकि दूसरा आर्ग्यूमेंट **generate barcode from text** पेलोड है। यहाँ पास किया गया कोई भी डेटा बारकोड मैट्रिक्स में संग्रहीत हो जाता है।
+> `EncodeTypes.Pdf417` लाइब्रेरी को PDF417 2‑D फ़ॉर्मेट उपयोग करने के लिए बताता है, जबकि दूसरा आर्ग्यूमेंट **generate barcode from text** पेलोड है। आप यहाँ जो भी पास करेंगे वह बारकोड मैट्रिक्स में स्टोर हो जाता है।
 
-## चरण 2 – बारकोड आकार समायोजित करें (X‑Dimension)
+### चरण 2 – बारकोड आकार समायोजित करें (X‑dimension)
 
-यदि आपने कभी रसीद पर बहुत छोटा दिखने वाला बारकोड प्रिंट किया है, तो आप जानते हैं कि स्कैनर उसे मिस कर देता है। `XDimension` प्रॉपर्टी एकल मॉड्यूल (सबसे छोटा काला या सफ़ेद वर्ग) की चौड़ाई पिक्सेल में नियंत्रित करती है।
+`XDimension` प्रॉपर्टी बारकोड इमेज में एक सिंगल मॉड्यूल (सबसे छोटा काला या सफ़ेद स्क्वायर) की पिक्सेल चौड़ाई को परिभाषित करती है।  
+
+`XDimension` पिक्सेल में एक सिंगल मॉड्यूल की चौड़ाई को नियंत्रित करता है।
 
 ```csharp
 // Step 2: Set the module (X) dimension in pixels to control barcode size
@@ -92,11 +103,13 @@ barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2; // 2 px per module
 ```
 
 > **Pro tip:**  
-> 2 px का मान अधिकांश स्क्रीन‑डिस्प्ले पर अच्छा काम करता है। हाई‑रिज़ॉल्यूशन प्रिंट्स के लिए आप इसे 3 या 4 px तक बढ़ा सकते हैं। बस याद रखें कि बड़े X‑डायमेंशन से इमेज का कुल आकार बढ़ जाता है।
+> 2 px का मान अधिकांश स्क्रीन‑डिस्प्ले पर अच्छी तरह काम करता है। हाई‑रेज़ोल्यूशन प्रिंट्स के लिए आप इसे 3 या 4 px तक बढ़ा सकते हैं। बस याद रखें कि बड़े X‑dimensions इमेज का कुल आकार बढ़ाते हैं।
 
-## चरण 3 – कस्टम बारकोड आयाम सेट करें (कॉलम और रो)
+### चरण 3 – कस्टम बारकोड आयाम सेट करें (columns & rows)
 
-PDF417 आपको यह निर्धारित करने की अनुमति देता है कि बारकोड कितने कॉलम और रो लेगा। यही वह जगह है जहाँ **custom barcode dimensions** काम आते हैं। इन मानों को बदलने से आप बारकोड को टाइट UI स्पेस में फिट कर सकते हैं या किसी विशेष लेबल साइज को पूरा कर सकते हैं।
+PDF417 आपको यह निर्धारित करने की अनुमति देता है कि बारकोड कितने कॉलम और रो लेगा। यही वह जगह है जहाँ **custom barcode dimensions** काम आते हैं।  
+
+`Pdf417` पैरामीटर्स आपको बारकोड के लिए सटीक कॉलम‑रो ग्रिड निर्दिष्ट करने देते हैं।
 
 ```csharp
 // Step 3: Define the layout of the PDF417 barcode: number of columns and rows
@@ -105,22 +118,23 @@ barcodeGenerator.Parameters.Barcode.Pdf417.Rows    = 9; // 9 rows
 ```
 
 > **What’s happening under the hood?**  
-> लाइब्रेरी निर्दिष्ट ग्रिड में एन्कोडेड डेटा को पुनः वितरित करती है। कम कॉलम का मतलब ऊँचा बारकोड, अधिक रो का मतलब छोटा बारकोड। अपने एप्लिकेशन के लिए विज़ुअल बैलेंस सही लगने तक संख्याओं के साथ प्रयोग करें।
+> लाइब्रेरी निर्दिष्ट ग्रिड में एन्कोडेड डेटा को पुनः वितरित करती है। कम कॉलम का मतलब ऊँचे बारकोड, अधिक रो का मतलब छोटे बारकोड। अपने एप्लिकेशन के लिए विज़ुअल बैलेंस सही लगने तक नंबरों के साथ प्रयोग करें।
 
-## चरण 4 – बारकोड इमेज सहेजें
+### चरण 4 – बारकोड इमेज सहेजें
 
-अब जब हमने सब कुछ कॉन्फ़िगर कर लिया है, तो हम बस जेनरेटर को PNG फ़ाइल लिखने के लिए कहते हैं। PNG लॉसलेस है, इसलिए मॉड्यूल की स्पष्टता बनी रहती है।
+अब जब हमने सब कुछ कॉन्फ़िगर कर लिया है, हम जेनरेटर को PNG फ़ाइल लिखने के लिए कहते हैं। PNG लॉसलेस है, इसलिए मॉड्यूल की स्पष्टता बनी रहती है।  
+`Save` जेनरेटेड बारकोड को चुने हुए इमेज फ़ॉर्मेट में फ़ाइल में लिखता है।
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image
 barcodeGenerator.Save(@"C:\Barcodes\CustomLayout.png", BarCodeImageFormat.Png);
 ```
 
-जब आप प्रोग्राम चलाएँगे, तो आपको `C:\Barcodes\CustomLayout.png` पर एक फ़ाइल दिखनी चाहिए जो ऊपर की स्क्रीनशॉट के समान होगी। इसे किसी भी PDF417‑कम्पैटिबल रीडर से स्कैन करने पर मूल स्ट्रिंग `Åspóse.Barcóde©` वापस मिलेगी।
+जब आप प्रोग्राम चलाएँगे, तो `C:\Barcodes\CustomLayout.png` पर एक फ़ाइल दिखाई देगी जो ऊपर की स्क्रीनशॉट के समान दिखेगी। इसे किसी भी PDF417‑कम्पैटिबल रीडर से स्कैन करने पर मूल स्ट्रिंग `Åspóse.Barcóde©` वापस मिलेगी।
 
 ## पूर्ण कार्यशील उदाहरण
 
-नीचे पूरा प्रोग्राम दिया गया है जिसे आप कॉन्सोल ऐप में कॉपी‑पेस्ट कर सकते हैं। इसमें सभी `using` निर्देश और प्रोडक्शन कोड में अपेक्षित एरर हैंडलिंग शामिल है।
+नीचे पूरा प्रोग्राम दिया गया है जिसे आप कॉन्सोल ऐप में कॉपी‑पेस्ट कर सकते हैं। इसमें सभी `using` डायरेक्टिव्स और प्रोडक्शन कोड में अपेक्षित एरर हैंडलिंग शामिल है।
 
 ```csharp
 using System;
@@ -161,39 +175,74 @@ class Program
 
 ### अपेक्षित आउटपुट
 
+कोड चलाने पर यह प्रिंट करेगा:
+
 ```
 ✅ Barcode generated successfully → C:\Barcodes\CustomLayout.png
 ```
 
-…और एक PNG बनाता है जिसे कोई भी इमेज व्यूअर खोल सकता है। यदि आप इसे मोबाइल ऐप (जैसे iOS/Android पर “Barcode Scanner”) से स्कैन करते हैं, तो डिकोडेड टेक्स्ट बिल्कुल **Åspóse.Barcóde©** होना चाहिए।
+…और एक PNG बनाएगा जिसे किसी भी इमेज व्यूअर में खोला जा सकता है। यदि आप इसे मोबाइल ऐप (जैसे iOS/Android पर “Barcode Scanner”) से स्कैन करते हैं, तो डिकोडेड टेक्स्ट बिल्कुल **Åspóse.Barcóde©** होना चाहिए।
 
 ## सामान्य प्रश्न और किनारे के मामले
 
-| Question | Answer |
+| प्रश्न | उत्तर |
 |----------|--------|
-| **Can I use a different image format?** | Yes—`BarCodeImageFormat.Jpeg`, `Bmp`, `Gif`, or `Svg` are all supported. Just change the second argument of `Save`. |
-| **What if my text contains Unicode characters?** | Aspose.BarCode fully supports UTF‑8, so the example with `Å` and `©` works out‑of‑the‑box. |
-| **How do I change the error‑correction level?** | Use `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` (levels 0‑8). Higher levels increase redundancy but also size. |
-| **I need a transparent background—can I do that?** | Set `generator.Parameters.Barcode.Image.TransparentBackground = true;` before saving. |
-| **Is there a way to embed the barcode directly into a PDF?** | Absolutely. Replace the `Save` call with `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` and you’ll get a one‑page PDF containing the barcode. |
+| **क्या मैं अलग इमेज फ़ॉर्मेट उपयोग कर सकता हूँ?** | हाँ—`BarCodeImageFormat.Jpeg`, `Bmp`, `Gif`, या `Svg` सभी सपोर्टेड हैं। बस `Save` के दूसरे आर्ग्यूमेंट को बदलें। |
+| **अगर मेरे टेक्स्ट में Unicode कैरेक्टर्स हों तो?** | Aspose.BarCode पूरी तरह UTF‑8 सपोर्ट करता है, इसलिए `Å` और `©` वाले उदाहरण बिना किसी बदलाव के काम करेंगे। |
+| **एरर‑करैक्शन लेवल कैसे बदलूँ?** | `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` (लेवल 0‑8)। उच्च लेवल रिडंडेंसी बढ़ाते हैं लेकिन आकार भी बढ़ता है। |
+| **मुझे ट्रांसपेरेंट बैकग्राउंड चाहिए—क्या संभव है?** | `generator.Parameters.Barcode.Image.TransparentBackground = true;` को `Save` से पहले सेट करें। |
+| **क्या बारकोड को सीधे PDF में एम्बेड कर सकता हूँ?** | बिल्कुल। `Save` कॉल को `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` से बदलें और आपको बारकोड वाला एक‑पेज PDF मिलेगा। |
 
-## निष्कर्ष
+## अक्सर पूछे जाने वाले प्रश्न
 
-अब आप जानते हैं कि **C# में PDF417 बारकोड कैसे उत्पन्न करें**, **बारकोड आकार कैसे समायोजित करें**, और **कस्टम बारकोड आयाम** को अपने लेआउट की जरूरतों के अनुसार कैसे लागू करें। चार‑चरणीय प्रक्रिया—इनीशियलाइज़, साइज, लेआउट, सेव—अधिकांश 2‑D बारकोड परिदृश्यों के लिए कोर वर्कफ़्लो को कवर करती है।
+**Q: क्या लाइब्रेरी .NET Core और .NET 5/6 पर काम करती है?**  
+A: हाँ, Aspose.BarCode for .NET .NET Core 3.1, .NET 5, .NET 6 और बाद के संस्करणों को सपोर्ट करता है।
 
-अब आगे क्या? `EncodeTypes.Pdf417` को `EncodeTypes.QR` या `EncodeTypes.Code128` से बदलें और देखें कि API कैसे अनुकूलित होता है। विभिन्न `XDimension` मानों के साथ प्रयोग करें, कॉलम/रो मैट्रिक्स को ट्यून करें, या इमेज को PDF रिपोर्ट में एम्बेड करें। संभावनाएँ व्यावहारिक रूप से अनंत हैं, और अब आपके पास एक ठोस नींव है जिस पर आप निर्माण कर सकते हैं।
+**Q: क्या मैं लूप में कई बारकोड जनरेट कर सकता हूँ?**  
+A: बिल्कुल। प्रत्येक स्ट्रिंग के लिए नया `BarcodeGenerator` इंस्टैंसिएट करें या `CodeText` प्रॉपर्टी बदलने के बाद उसी इंस्टेंस का पुनः उपयोग करें।
 
-क्या आपके पास और प्रश्न हैं, या PDF417 के साथ काम करते हुए कोई चतुर ट्रिक मिली? नीचे कमेंट करें—आइए बातचीत जारी रखें। Happy coding!
+**Q: जेनरेटेड इमेज कितना बड़ा हो सकता है?**  
+A: API **10,000 × 10,000 पिक्सेल** तक की इमेज बना सकता है; मेमोरी खपत X‑dimension और कॉलम/रो सेटिंग्स के साथ स्केल करती है।
 
-## आगे आप क्या सीखें?
+**Q: प्रोडक्शन उपयोग के लिए लाइसेंस आवश्यक है?**  
+A: हाँ, कॉमर्शियल लाइसेंस मूल्यांकन वाटरमार्क को हटाता है और पूरी फीचर सेट अनलॉक करता है। परीक्षण के लिए फ्री ट्रायल उपलब्ध है।
 
-निम्नलिखित ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जिससे आप अतिरिक्त API फीचर्स में महारत हासिल कर सकें और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन अप्रोच को एक्सप्लोर कर सकें।
+**Q: क्या मुझे जेनरेटर को मैन्युअली डिस्पोज़ करना चाहिए?**  
+A: `BarcodeGenerator` `IDisposable` को इम्प्लीमेंट करता है। इसे `using` ब्लॉक में रैप करें या `Dispose()` कॉल करके अनमैनेज्ड रिसोर्सेज़ को तुरंत फ्री करें।
 
-- [Aspose.BarCode for .NET का उपयोग करके कस्टम आस्पेक्ट रेशियो के साथ Aztec बारकोड कैसे जनरेट करें](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-- [बारकोड कैसे जनरेट करें - एक-आयामी बारकोड प्रकार](/barcode/english/net/one-dimensional-barcode-types/)
-- [DataMatrix बारकोड जनरेट करें – Aspose.BarCode के साथ प्रो गाइड](/barcode/english/net/datamatrix-barcode-configuration/)
+## आगे क्या सीखें?
+
+निम्नलिखित ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक रिसोर्स में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जिससे आप अतिरिक्त API फीचर्स में महारत हासिल कर सकें और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन अप्रोचेज़ को एक्सप्लोर कर सकें।
+
+- [How to generate Aztec barcode with custom aspect ratio using Aspose.BarCode for .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [How to Generate Barcode - One-Dimensional Barcode Types](/barcode/english/net/one-dimensional-barcode-types/)
+- [Generate DataMatrix Barcode – Pro Guide with Aspose.BarCode](/barcode/english/net/datamatrix-barcode-configuration/)
+
+---
+
+**अंतिम अपडेट:** 2026-09-23  
+**टेस्टेड विथ:** Aspose.BarCode 24.11 for .NET  
+**लेखक:** Aspose  
+
+
+
+
+
+
+```bash
+dotnet add package Aspose.BarCode
+```
+
+## संबंधित ट्यूटोरियल
+
+- [Adjust Barcode Size C Guide To Generate Pdf417 Barcodes](/barcode/net/compact-pdf417-encoding/adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+- [Aspose Barcode Example Generate Macro Pdf417 In C](/barcode/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/)
+- [Generate Micro Pdf417 Barcode In C Complete Guide](/barcode/net/compact-pdf417-encoding/generate-micro-pdf417-barcode-in-c-complete-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

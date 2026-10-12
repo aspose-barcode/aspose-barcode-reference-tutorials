@@ -1,0 +1,7 @@
+Title: How to use a C# barcode generator to create DataBar barcodes with custom columns and rows
+Slug: how-to-use-a-c-barcode-generator-to-create-databar-barcodes
+Category: general
+ProcessedDate: 2026-10-02T23:42:07.892442
+SourceRepo: AI Search API
+Keywords: c# barcode generator, how to set columns, how to set rows, create databar barcode
+PRNumber: 144

@@ -90,6 +90,7 @@ Aspose.BarCode का उपयोग करके C# में बारको�
 
 ### [C# में Aspose.BarCode का उपयोग करके बारकोड पैरामीटर सेट करना](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Aspose.BarCode के साथ C# में बारकोड के विभिन्न पैरामीटर कैसे कॉन्फ़िगर करें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
+### [Aspose के साथ C# में बारकोड कैसे जेनरेट करें](./how-to-generate-barcode-with-aspose-in-c/)
 
 ### [C# में विशेष अक्षरों के साथ बारकोड कैसे जनरेट करें](./how-to-generate-a-barcode-with-special-characters-in-c/)
 
