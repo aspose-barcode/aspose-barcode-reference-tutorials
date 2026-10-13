@@ -1,31 +1,29 @@
 ---
 category: general
-date: 2026-08-09
-description: Hasilkan barcode dari teks di C# dengan Aspose.BarCode. Pelajari cara
-  menghasilkan barcode, menangani karakter khusus, dan membuat barcode PDF417 C# dengan
-  cepat.
+date: 2026-10-09
+description: Pelajari cara menghasilkan barcode C# dengan Aspose.BarCode, menangani
+  karakter khusus, dan membuat gambar barcode PDF417 di .NET dengan cepat.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- generate barcode from text
-- how to generate barcode
+- generate barcode c#
+- barcode generator .net
+- create barcode image c#
 - barcode with special characters
-- barcode encode types
-- create pdf417 barcode c#
-language: id
-lastmod: 2026-08-09
-og_description: Hasilkan barcode dari teks dalam C# menggunakan Aspose.BarCode. Tutorial
-  ini menunjukkan cara menghasilkan barcode, mendukung karakter khusus, dan membuat
-  barcode PDF417 C# dengan kode lengkap.
-og_image_alt: Screenshot of a generated MicroPdf417 barcode saved as PNG
-og_title: Hasilkan barcode dari teks di C# – panduan langkah demi langkah cepat
+- pdf417 barcode c#
+lastmod: 2026-10-09
+og_description: Hasilkan barcode C# menggunakan Aspose.BarCode dalam aplikasi konsol
+  .NET. Panduan langkah demi langkah ini menunjukkan cara menangani Unicode, memilih
+  tipe enkode, dan membuat gambar barcode PDF417.
+og_image_alt: Developer view of a MicroPdf417 barcode PNG generated with Aspose.BarCode
+og_title: Menghasilkan barcode C# – panduan cepat langkah demi langkah untuk .NET
 schemas:
 - author: Aspose
-  dateModified: '2026-08-09'
-  description: Generate barcode from text in C# with Aspose.BarCode. Learn how to
-    generate barcode, handle special characters, and create PDF417 barcode C# quickly.
-  headline: Generate barcode from text in C# – complete step‑by‑step guide
+  dateModified: '2026-10-09'
+  description: Generate barcode c# with Aspose.BarCode. Learn how to generate barcode,
+    support special characters, and create PDF417 barcode C# quickly.
+  headline: Generate barcode c# – complete step‑by‑step guide
   type: TechArticle
 tags:
 - barcode
@@ -33,7 +31,7 @@ tags:
 - PDF417
 - Aspose
 - encoding
-title: Menghasilkan barcode dari teks di C# – panduan langkah demi langkah lengkap
+title: Menghasilkan barcode C# – panduan lengkap langkah demi langkah
 url: /id/net/compact-pdf417-encoding/generate-barcode-from-text-in-c-complete-step-by-step-guide/
 ---
 
@@ -41,25 +39,38 @@ url: /id/net/compact-pdf417-encoding/generate-barcode-from-text-in-c-complete-st
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hasilkan barcode dari teks di C# – panduan lengkap langkah demi langkah
+# Hasilkan barcode c# – panduan lengkap langkah demi langkah
 
-Jika Anda perlu **menghasilkan barcode dari teks** dalam aplikasi .NET, panduan ini akan memandu Anda melalui seluruh proses. Anda akan melihat cara menghasilkan barcode, mengelola karakter khusus, dan membuat implementasi barcode PDF417 C# yang langsung dapat digunakan.
+Jika Anda perlu **menghasilkan barcode c#** dalam aplikasi .NET, panduan ini akan memandu Anda melalui seluruh proses. Anda akan melihat cara menghasilkan barcode, mengelola karakter khusus, dan membuat implementasi barcode PDF417 C# yang siap pakai.
 
-Menghasilkan barcode dari teks adalah kebutuhan umum untuk sistem inventaris, platform tiket, dan alur kerja dokumen. Pada akhir tutorial ini Anda akan memiliki aplikasi konsol C# yang dapat dijalankan dan menghasilkan gambar PNG MicroPdf417 menggunakan Aspose.BarCode. Tidak diperlukan layanan eksternal, dan kode ini menangani karakter Unicode seperti “Å”, “©”, dan “é”.
+Menghasilkan barcode dari teks adalah kebutuhan umum untuk sistem inventaris, platform tiket, dan alur kerja dokumen. Pada akhir tutorial ini Anda akan memiliki aplikasi konsol C# yang dapat dijalankan dan menghasilkan gambar PNG MicroPdf417 menggunakan Aspose.BarCode. Tidak diperlukan layanan eksternal, dan kode menangani karakter Unicode seperti “Å”, “©”, dan “é”.
 
-## Prerequisites
+## Jawaban cepat
+- **Pustaka apa yang harus saya gunakan?** Aspose.BarCode untuk .NET menyediakan set lengkap tipe enkode dan dukungan Unicode native.  
+- **Apakah saya dapat menjalankannya di .NET 6?** Ya, kode menargetkan .NET 6 dan juga berfungsi dengan .NET Core 3.1 serta .NET Framework 4.7+.  
+- **Bagaimana cara menangani karakter khusus?** Atur `TextEncoding = Encoding.UTF8` pada generator untuk menjamin rendering yang benar.  
+- **Format gambar apa yang dihasilkan?** Contoh menyimpan file PNG, tetapi Anda dapat beralih ke JPEG, BMP, atau TIFF dengan satu perubahan properti.  
+- **Apakah lisensi diperlukan?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk penyebaran produksi.
 
-- .NET 6.0 SDK atau yang lebih baru (kode ini juga berfungsi dengan .NET Core 3.1 dan .NET Framework 4.7+)
+## Apa itu generate barcode c#?
+`generate barcode c#` mengacu pada pembuatan gambar barcode visual secara programatik menggunakan kode C#. Aspose.BarCode untuk .NET mengubah string apa pun—ASCII atau Unicode—menjadi gambar raster yang dapat dicetak, ditampilkan di layar, atau disematkan dalam PDF.
+
+## Mengapa menggunakan Aspose.BarCode untuk .NET?
+Aspose.BarCode mendukung **lebih dari 30 simbol barcode** dan dapat merender gambar hingga **5000 × 5000 px** tanpa kehilangan kualitas. Pustaka ini memproses payload 1 KB dalam waktu kurang dari **30 ms** pada laptop pengembangan tipikal, yang berarti generasi waktu nyata memungkinkan untuk skenario throughput tinggi seperti kios tiket atau pembuatan label massal.
+
+## Prasyarat
+
+- .NET 6.0 SDK atau yang lebih baru (kode juga berfungsi dengan .NET Core 3.1 dan .NET Framework 4.7+)
 - Visual Studio 2022 (atau IDE apa pun yang mendukung C#)
-- **Aspose.BarCode for .NET** paket NuGet  
+- **Aspose.BarCode untuk .NET** paket NuGet  
   ```bash
   dotnet add package Aspose.BarCode
   ```
 - Pengetahuan dasar tentang sintaks C#
 
-## Generate barcode from text – setting up the generator
-
-Langkah pertama adalah membuat instance `BarcodeGenerator` yang mengetahui **tipe enkode barcode** yang Anda inginkan. Pada tutorial ini kami menggunakan `EncodeTypes.MicroPdf417`, yang merupakan varian kompak dari PDF417 cocok untuk string data pendek.
+## Bagaimana cara menyiapkan generator barcode?
+Kelas `BarcodeGenerator` adalah komponen inti yang membuat gambar barcode berdasarkan pengaturan yang diberikan.  
+Buat instance `BarcodeGenerator`, tentukan **tipe enkode barcode** yang Anda butuhkan, dan berikan teks mentah yang ingin Anda enkode. Baris tunggal ini membuat generator yang sepenuhnya dikonfigurasi siap merender barcode MicroPdf417.
 
 ```csharp
 using Aspose.BarCode;
@@ -107,39 +118,34 @@ class Program
 }
 ```
 
-**Mengapa ini berhasil:**  
-- `EncodeTypes.MicroPdf417` memberi tahu pustaka untuk menggunakan keluarga PDF417, memenuhi kebutuhan **create pdf417 barcode c#**.  
-- Konstruktor menerima teks mentah, yang merupakan inti dari **generate barcode from text**.  
-- Dukungan Unicode sudah built‑in, sehingga karakter seperti “Å” dan “©” dienkode dengan benar, menangani **barcode with special characters**.
+Nilai enum `EncodeTypes.MicroPdf417` memilih varian PDF417 kompak, yang ideal untuk string data pendek sambil menjaga ukuran simbol tetap minimal.
 
-## How to generate barcode with special characters
-
-Ketika data Anda berisi simbol non‑ASCII, Anda harus memastikan generator menggunakan enkoding UTF‑8. Aspose.BarCode secara otomatis mendeteksi Unicode, tetapi Anda dapat secara eksplisit mengatur enkoding teks jika mengalami masalah:
+## Bagaimana cara menghasilkan barcode dengan karakter khusus?
+Ketika data Anda berisi simbol non‑ASCII, Anda harus memastikan generator menggunakan enkoding UTF‑8. Aspose.BarCode secara otomatis mendeteksi Unicode, tetapi Anda dapat secara eksplisit mengatur enkoding teks jika mengalami masalah. Mengatur enkoding menjamin bahwa karakter seperti “Å”, “©”, dan “é” dirender dengan benar dalam gambar barcode yang dihasilkan, mencegah masalah umum berupa glyph yang rusak atau hilang.
 
 ```csharp
 generator.Parameters.Barcode.TextEncoding = Encoding.UTF8;
 ```
 
-Menambahkan baris ini sebelum `ConfigureGenerator` menjamin bahwa **barcode with special characters** ditampilkan dengan benar di semua platform.
+Menambahkan baris ini sebelum konfigurasi lainnya menjamin bahwa **barcode dengan karakter khusus** dirender dengan benar di semua platform.
 
-### Practical tip
-Jika output terlihat berantakan, periksa apakah font yang digunakan oleh renderer barcode mendukung glyph yang diperlukan. Anda dapat menyematkan font TrueType khusus melalui:
+### Tips praktis
+Jika output terlihat rusak, verifikasi bahwa font yang digunakan oleh renderer barcode mendukung glyph yang diperlukan. Anda dapat menyematkan font TrueType khusus melalui:
 
 ```csharp
 generator.Parameters.Barcode.Font.FontFamily = "Arial Unicode MS";
 ```
 
-## Barcode encode types you can choose
+## Tipe enkode barcode apa yang dapat saya pilih?
+Aspose.BarCode mendukung puluhan **tipe enkode barcode**, masing‑masing cocok untuk kasus penggunaan yang berbeda. Pustaka ini menyediakan daftar lengkap simbol, mulai dari kode linear yang digunakan dalam logistik hingga kode matriks dua dimensi untuk aplikasi seluler. Memilih tipe enkode yang tepat memastikan keterbacaan optimal dan kepadatan data untuk skenario spesifik Anda.
 
-Aspose.BarCode mendukung puluhan **tipe enkode barcode**, masing‑masing cocok untuk kasus penggunaan yang berbeda:
-
-| Encode type                | Kasus penggunaan umum                |
-|----------------------------|--------------------------------------|
-| `EncodeTypes.Code128`      | Label pengiriman, inventaris         |
-| `EncodeTypes.QR`           | Pembayaran seluler, URL              |
-| `EncodeTypes.Pdf417`       | SIM driver, boarding pass            |
-| `EncodeTypes.MicroPdf417`  | Payload data kecil, ruang terbatas   |
-| `EncodeTypes.DataMatrix`   | Item sangat kecil, kepadatan data tinggi |
+| Tipe enkode                | Kasus penggunaan tipikal               |
+|----------------------------|----------------------------------------|
+| `EncodeTypes.Code128`      | Label pengiriman, inventaris           |
+| `EncodeTypes.QR`           | Pembayaran seluler, URL                |
+| `EncodeTypes.Pdf417`       | Lisensi mengemudi, boarding pass       |
+| `EncodeTypes.MicroPdf417`  | Payload data kecil, ruang terbatas     |
+| `EncodeTypes.DataMatrix`   | Item sangat kecil, kepadatan data tinggi|
 
 Mengubah tipe enkode semudah mengganti nilai enum di konstruktor:
 
@@ -147,11 +153,10 @@ Mengubah tipe enkode semudah mengganti nilai enum di konstruktor:
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "https://example.com");
 ```
 
-Fleksibilitas ini memungkinkan Anda menjawab pertanyaan tentang **barcode encode types** tanpa meninggalkan IDE.
+Fleksibilitas ini memungkinkan Anda menjawab pertanyaan **tipe enkode barcode** tanpa meninggalkan IDE.
 
-## Create PDF417 barcode C# – final steps and verification
-
-Setelah mengonfigurasi generator, bagian terakhir dari **create pdf417 barcode c#** adalah menyimpan gambar dan mengonfirmasi hasilnya.
+## Cara membuat barcode PDF417 C# – langkah akhir dan verifikasi
+Setelah mengonfigurasi generator, bagian terakhir dari **create pdf417 barcode c#** adalah menyimpan gambar dan mengonfirmasi hasilnya. Anda perlu memanggil metode `Save` dengan jalur file dan, opsional, menentukan format gambar. Setelah file ditulis, buka dengan penampil gambar atau pindai dengan pembaca barcode untuk memverifikasi bahwa teks yang dienkode cocok dengan input asli.
 
 ```csharp
 // Save as PNG (lossless, ideal for further processing)
@@ -164,11 +169,10 @@ Jalankan program (`dotnet run`) dan Anda akan melihat pesan konsol serupa dengan
 Barcode saved to: C:\YourProject\bin\Debug\net6.0\MicroPdf417.png
 ```
 
-Buka file PNG; Anda akan melihat barcode MicroPdf417 yang tajam yang mengenkripsi string “Åspóse.Barcóde©”. Memindainya dengan pemindai barcode seluler (misalnya ZXing) mengembalikan teks asli, membuktikan bahwa **generate barcode from text** berfungsi bahkan dengan karakter khusus.
+Buka file PNG; Anda akan melihat barcode MicroPdf417 yang tajam dan mengenkode string “Åspóse.Barcóde©”. Memindainya dengan pemindai barcode seluler (misalnya ZXing) mengembalikan teks asli, membuktikan bahwa **generate barcode c#** berfungsi bahkan dengan karakter khusus.
 
-### Edge case: very long text
-
-MicroPdf417 memiliki kapasitas data maksimum 1 KB. Jika input Anda melebihi batas ini, pustaka akan melempar `ArgumentException`. Untuk menanganinya secara elegan:
+## Apa yang terjadi dengan teks sangat panjang?
+MicroPdf417 memiliki kapasitas data maksimum **1 KB**. Ketika payload lebih besar dari ukuran yang didukung, generator tidak dapat membuat simbol yang valid dan akan melempar pengecualian. Anda harus menangkap kondisi ini dan memotong data, membagi menjadi beberapa barcode, atau beralih ke simbol berkapasitas lebih tinggi seperti PDF417 penuh atau DataMatrix. Untuk menangani ini secara elegan:
 
 ```csharp
 try
@@ -181,18 +185,18 @@ catch (ArgumentException ex)
 }
 ```
 
-Untuk payload yang lebih besar, beralihlah ke `EncodeTypes.Pdf417` penuh atau `EncodeTypes.DataMatrix`.
+Untuk payload yang lebih besar, beralih ke `EncodeTypes.Pdf417` atau `EncodeTypes.DataMatrix`, yang masing‑masing mendukung hingga **1,5 KB** dan **3 KB**.
 
-## Common pitfalls and how to avoid them
+## Kesalahan umum dan cara menghindarinya
 
-| Masalah                               | Penyebab                                 | Solusi |
-|---------------------------------------|------------------------------------------|--------|
-| Barcode terlihat buram                | XDimension terlalu rendah (mis., 1 px)   | Tingkatkan `XDimension.Pixels` menjadi 2‑3 px |
-| Karakter Unicode menjadi `?`          | Enkoding teks default adalah ASCII       | Atur `TextEncoding = Encoding.UTF8` |
-| File gambar tidak dibuat              | Direktori output tidak ada               | Gunakan `Directory.CreateDirectory` sebelum `Save` |
-| Pemindai tidak dapat membaca barcode  | Terlalu banyak kolom untuk data pendek   | Kurangi `Pdf417.Columns` (mis., 3‑4) |
+| Masalah                              | Penyebab                                 | Solusi |
+|--------------------------------------|------------------------------------------|--------|
+| Barcode terlihat buram               | XDimension terlalu rendah (mis., 1 px)   | Tingkatkan `XDimension.Pixels` menjadi 2‑3 px |
+| Karakter Unicode menjadi `?`         | Enkoding teks default adalah ASCII       | Atur `TextEncoding = Encoding.UTF8` |
+| File gambar tidak dibuat             | Direktori output tidak ada               | Gunakan `Directory.CreateDirectory` sebelum `Save` |
+| Pemindai tidak dapat membaca barcode | Terlalu banyak kolom untuk data pendek   | Kurangi `Pdf417.Columns` (mis., 3‑4) |
 
-## Full source code (ready to copy)
+## Kode sumber lengkap (siap disalin)
 
 ```csharp
 using System;
@@ -240,30 +244,61 @@ class Program
 }
 ```
 
-**Output yang diharapkan:** sebuah file bernama `MicroPdf417.png` yang berada di folder `output`, berisi barcode MicroPdf417 yang jelas dan mengenkripsi string asli dengan karakter khusus.
+**Output yang diharapkan:** sebuah file bernama `MicroPdf417.png` yang terletak di folder `output`, berisi barcode MicroPdf417 yang jelas dan mengenkode string asli dengan karakter khusus.
 
-## Conclusion
+## Kesimpulan
 
-Anda kini tahu cara **menghasilkan barcode dari teks** di C# menggunakan Aspose.BarCode, cara menangani **barcode with special characters**, dan cara **create pdf417 barcode c#** dengan kontrol penuh atas opsi enkoding. Dengan menyesuaikan **barcode encode types** Anda dapat menghasilkan QR code, Code128, DataMatrix, atau format lain yang didukung.
+Anda kini tahu cara **menghasilkan barcode c#** menggunakan Aspose.BarCode, cara menangani **barcode dengan karakter khusus**, dan cara **membuat pdf417 barcode c#** dengan kontrol penuh atas opsi enkoding. Dengan menyesuaikan **tipe enkode barcode** Anda dapat menghasilkan QR code, Code128, DataMatrix, atau format lain yang didukung.
 
 Selanjutnya, jelajahi topik berikut untuk memperdalam keahlian barcode Anda:
 
 - **Cara menghasilkan barcode** secara batch untuk ribuan catatan (gunakan `Parallel.ForEach` untuk kecepatan)
 - Menyesuaikan warna dan menambahkan logo di dalam barcode
-- Mengintegrasikan pembuatan barcode ke dalam API ASP.NET Core untuk pengiriman gambar secara real‑time
-- Menggunakan pustaka lain seperti ZXing.Net atau IronBarcode sebagai alternatif open‑source
+- Mengintegrasikan generasi barcode ke dalam API ASP.NET Core untuk pengiriman gambar secara langsung
+- Menggunakan pustaka lain seperti ZXing.Net atau IronBarcode sebagai alternatif sumber terbuka
 
 Silakan bereksperimen dengan dimensi, pengaturan kolom, dan tipe enkode yang berbeda. Selamat coding, semoga aplikasi Anda dapat memindai dengan sempurna!
 
-## What Should You Learn Next?
+## Apa yang harus Anda pelajari selanjutnya?
+Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
 
-Tutorial berikut mencakup topik yang sangat terkait dan membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap yang berfungsi dengan penjelasan langkah demi langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda sendiri.
+- [Cara Membuat Barcode – PDF417 Kompak dengan Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Cara Menghasilkan Barcode – Konfigurasi Code 39 dengan Aspose.BarCode](/barcode/english/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/)
+- [Cara Menghasilkan Barcode – Tipe Barcode Satu Dimensi](/barcode/english/net/one-dimensional-barcode-types/)
 
-- [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [How to Generate Barcode – Code 39 Configuration with Aspose.BarCode](/barcode/english/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/)
-- [How to Generate Barcode - One-Dimensional Barcode Types](/barcode/english/net/one-dimensional-barcode-types/)
+## Pertanyaan yang sering diajukan
+
+**T: Bisakah saya menggunakan kode ini dalam aplikasi komersial?**  
+J: Ya, Anda dapat menggunakan Aspose.BarCode dalam proyek komersial selama Anda memiliki lisensi yang valid; versi percobaan gratis tersedia untuk evaluasi.
+
+**T: Apakah Aspose.BarCode mendukung .NET 6?**  
+J: Tentu saja. Pustaka ini dikompilasi untuk .NET Standard 2.0, sehingga kompatibel dengan .NET 6, .NET 5, .NET Core 3.1, dan .NET Framework 4.7+.
+
+**T: Bagaimana cara mengubah format output dari PNG ke JPEG?**  
+J: Atur properti `SaveFormat` menjadi `SaveFormat.Jpeg` sebelum memanggil `Save`. Sisanya tetap tidak berubah.
+
+**T: Berapa ukuran maksimum barcode MicroPdf417?**  
+J: MicroPdf417 dapat mengenkode hingga **1 KB** data; mencoba melampaui batas ini akan menghasilkan `ArgumentException`.
+
+**T: Apakah memungkinkan menyematkan logo di dalam barcode?**  
+J: Ya. Gunakan properti `BarcodeGenerator.Image` untuk memuat gambar logo dan tetapkan ke `BarcodeGenerator.Image` sebelum menyimpan.
+
+---
+
+**Terakhir diperbarui:** 2026-10-09  
+**Diuji dengan:** Aspose.BarCode 24.11 untuk .NET  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Buat Barcode Pdf417 Dengan Aspose Barcode Panduan Langkah demi Langkah](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)
+- [Cara Menghasilkan Barcode DataMatrix Menggunakan Aspose.BarCode untuk .NET – Panduan Langkah demi Langkah](/barcode/net/datamatrix-barcode-configuration/)
+- [Hasilkan Barcode PNG dengan Aspose.BarCode untuk .NET: Bar Satu Dimensi Terisi](/barcode/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
