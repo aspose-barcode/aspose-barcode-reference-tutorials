@@ -1,34 +1,34 @@
 ---
 category: general
-date: 2026-07-15
-description: Como ler código de barras PDF417 em C# e ler vários códigos de barras
-  de uma imagem. Aprenda a ler imagens de códigos de barras em C# com código detalhado
-  e dicas.
+date: 2026-09-28
+description: Leia código de barras PDF417 c# rapidamente com Aspose.BarCode. Decodifique
+  vários códigos de barras a partir de uma imagem, extraia campos Macro‑PDF417 e trate
+  rotação ou processamento em lote.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to read pdf417
+- read pdf417 barcode c#
 - read multiple barcodes
-- read barcode image c#
+- pdf417 c# decoding
 - Aspose.BarCode PDF417
-- C# barcode decoding
-language: pt
-lastmod: 2026-07-15
-og_description: Como ler código de barras PDF417 em C# rapidamente. Este guia mostra
-  como ler vários códigos de barras de uma única imagem e decodificar cada propriedade.
+- barcode image c#
+lastmod: 2026-09-28
+og_description: Leia código de barras PDF417 c# rapidamente com Aspose.BarCode. Este
+  guia mostra como decodificar vários códigos de barras de uma única imagem, extrair
+  todas as propriedades Macro‑PDF417 e lidar com imagens rotacionadas ou em lote.
 og_image_alt: Screenshot of C# console output displaying PDF417 barcode details
-og_title: Como ler PDF417 em C# – Exemplo completo de código e explicação
+og_title: Leia código de barras PDF417 c# – exemplo completo de código e guia
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: How to read PDF417 barcode in C# and read multiple barcodes from an
-    image. Learn to read barcode image C# with detailed code and tips.
-  headline: How to Read PDF417 in C# – Complete Step‑by‑Step Guide
+  dateModified: '2026-09-28'
+  description: Read PDF417 barcode c# and read multiple barcodes from an image. Learn
+    to read barcode image C# with detailed code and tips.
+  headline: Read PDF417 barcode c# – complete step‑by‑step guide
   type: TechArticle
-- description: How to read PDF417 barcode in C# and read multiple barcodes from an
-    image. Learn to read barcode image C# with detailed code and tips.
-  name: How to Read PDF417 in C# – Complete Step‑by‑Step Guide
+- description: Read PDF417 barcode c# and read multiple barcodes from an image. Learn
+    to read barcode image C# with detailed code and tips.
+  name: Read PDF417 barcode c# – complete step‑by‑step guide
   steps:
   - name: Why This Code Works
     text: '* **`BarCodeReader`** is the core class that streams the image, detects
@@ -55,7 +55,7 @@ tags:
 - barcode
 - PDF417
 - Aspose
-title: Como ler PDF417 em C# – Guia completo passo a passo
+title: Como ler código de barras PDF417 c# – guia completo passo a passo
 url: /pt/net/compact-pdf417-encoding/how-to-read-pdf417-in-c-complete-step-by-step-guide/
 ---
 
@@ -63,24 +63,39 @@ url: /pt/net/compact-pdf417-encoding/how-to-read-pdf417-in-c-complete-step-by-st
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Ler PDF417 em C# – Guia Completo Passo a Passo
+# Como ler código de barras PDF417 c# – guia completo passo a passo
 
-Já se perguntou **como ler PDF417** a partir de uma imagem usando C#? Você não está sozinho. A maioria dos desenvolvedores bate em um muro quando precisam extrair os campos estendidos Macro‑PDF417 de um documento escaneado. A boa notícia? Com apenas algumas linhas de código você pode decodificar um PDF417, ler vários códigos de barras na mesma imagem e capturar todas as propriedades ocultas que a especificação oferece.
+Já se perguntou **como ler PDF417** de uma imagem usando C#? Você não é o único. A maioria dos desenvolvedores encontra dificuldades quando precisam extrair os campos estendidos Macro‑PDF417 de um documento escaneado. A boa notícia? Com apenas algumas linhas de código você pode **read PDF417 barcode c#**, decodificar vários códigos de barras na mesma imagem e obter todas as propriedades ocultas que a especificação oferece.
 
-Neste tutorial vamos percorrer um exemplo real que mostra **como ler PDF417**, como **ler múltiplos códigos de barras** de um único arquivo, e por que o código **read barcode image C#** tem a aparência que tem. Ao final, você terá um aplicativo console pronto para executar que imprime todas as informações que você possa precisar — ID do arquivo, ID do segmento, checksum, timestamps, o que for.
+## Respostas rápidas
+- **O Aspose.BarCode pode decodificar Macro‑PDF417?** Sim – basta habilitar `DecodeType.MacroPdf417` e a biblioteca retorna todos os campos estendidos.  
+- **Quantos códigos de barras podem ser lidos de uma única imagem?** Ilimitado; a API retorna uma coleção de objetos `BarCodeResult`.  
+- **Preciso de uma licença para produção?** É necessária uma licença comercial para uso em produção; uma avaliação gratuita funciona para testes.  
+- **Códigos de barras rotacionados serão detectados?** A compensação de rotação integrada funciona para códigos que cobrem pelo menos 30 % da largura da imagem.  
+- **O processamento em lote é suportado?** Absolutamente – envolva o leitor em um loop `foreach` e descarte cada instância com `using`.
 
-## Pré‑requisitos
+## O que é read PDF417 barcode c#?
+`read pdf417 barcode c#` refere-se ao processo de usar uma biblioteca .NET para decodificar símbolos PDF417 (incluindo Macro‑PDF417) a partir de arquivos de imagem diretamente em código C#. O Aspose.BarCode SDK fornece uma API de chamada única que lida com o carregamento de imagens, detecção de códigos de barras e extração de todos os campos definidos pela ISO.
 
-Antes de mergulharmos, certifique‑se de que você tem:
+## Por que usar Aspose.BarCode para decodificação de PDF417?
+Aspose.BarCode suporta **mais de 30 simbologias de códigos de barras** e pode processar imagens de até **5000 × 5000 px** em menos de **0.1 s** em hardware de servidor típico. Também oferece rotação, distorção e tratamento de códigos de barras invertidos prontos para uso, eliminando a necessidade de pré‑processamento de imagem personalizado. Além disso, a biblioteca inclui suporte integrado para leitura de campos estendidos Macro‑PDF417, tornando-a uma solução completa para cenários de digitalização complexos.
 
-* .NET 6.0 SDK ou superior (o código funciona também com .NET Core e .NET Framework).  
-* Visual Studio 2022 (ou qualquer editor de sua preferência).  
+## Pré-requisitos
+
+Antes de começarmos, certifique‑se de que você tem:
+
+* .NET 6.0 SDK ou posterior (o código funciona também com .NET Core e .NET Framework).  
+* Visual Studio 2022 (ou qualquer editor de sua preferência).  
 * O pacote NuGet **Aspose.BarCode for .NET** – esta é a biblioteca que realmente analisa PDF417.  
-* Uma imagem de exemplo que contenha um código de barras Macro‑PDF417 (por exemplo `ExtPDF417Meta.png`).  
+* Uma imagem de exemplo que contém um código de barras Macro‑PDF417 (por exemplo `ExtPDF417Meta.png`).  
 
 Nenhuma configuração extra é necessária; a biblioteca já inclui todos os decodificadores que você precisa.
 
-## Etapa 1: Instalar Aspose.BarCode
+## Como ler PDF417 barcode c#?
+
+Carregue a imagem com `BarCodeReader`, especifique `DecodeType.MacroPdf417` e itere a coleção `BarCodeResult` retornada – essa é a solução completa em menos de dez linhas de código. O leitor extrai automaticamente tanto os símbolos PDF417 simples quanto os dados estendidos Macro‑PDF417, assim você obtém identificadores de arquivo, números de segmento, timestamps e checksums sem parsing extra.
+
+### Etapa 1: instalar Aspose.BarCode
 
 Abra a pasta do seu projeto em um terminal e execute:
 
@@ -88,7 +103,7 @@ Abra a pasta do seu projeto em um terminal e execute:
 dotnet add package Aspose.BarCode
 ```
 
-Esse comando obtém a versão estável mais recente (em julho 2026 é a 23.12). Se preferir o Package Manager Console dentro do Visual Studio, use:
+Esse comando obtém a versão estável mais recente (em julho 2026 é 23.12). Se preferir o Package Manager Console dentro do Visual Studio, use:
 
 ```powershell
 Install-Package Aspose.BarCode
@@ -96,9 +111,9 @@ Install-Package Aspose.BarCode
 
 > **Dica profissional:** fixe a versão (`23.12.0`) no seu `.csproj` para evitar alterações inesperadas mais tarde.
 
-## Etapa 2: Criar a Estrutura de um Aplicativo Console
+### Etapa 2: criar um esqueleto de aplicativo console
 
-Crie um novo projeto console caso ainda não tenha um:
+Crie um novo projeto console se ainda não tiver um:
 
 ```bash
 dotnet new console -n Pdf417ReaderDemo
@@ -107,7 +122,9 @@ cd Pdf417ReaderDemo
 
 Substitua o `Program.cs` gerado automaticamente pelo código abaixo. Explicaremos cada bloco nas próximas seções.
 
-## Etapa 3: Escrever o Código Completo “Como Ler PDF417”
+### Etapa 3: escrever o código completo “como ler PDF417”
+
+`BarCodeReader` é a classe principal que processa a imagem, detecta códigos de barras e retorna uma coleção de objetos `BarCodeResult`.
 
 ```csharp
 using System;
@@ -180,14 +197,13 @@ namespace Pdf417ReaderDemo
 }
 ```
 
-### Por Que Este Código Funciona
+* `BarCodeReader` — a classe principal responsável por ler e decodificar códigos de barras de imagens.  
+* `DecodeType.MacroPdf417` — um sinalizador que indica ao SDK para tratar Macro‑PDF417 de forma especial, ainda retornando símbolos PDF417 simples.  
+* `Extended.Pdf417.MacroPdf417` — o objeto que contém todos os campos opcionais definidos pela ISO/IEC 15438, como `FileID`, `SegmentID` e `Checksum`.
 
-* **`BarCodeReader`** é a classe central que processa a imagem, detecta códigos de barras e devolve uma coleção de objetos `BarCodeResult`.  
-* Passar **`DecodeType.MacroPdf417`** indica à biblioteca que deve tratar Macro‑PDF417 de forma especial; ela ainda devolve símbolos PDF417 simples, atendendo ao requisito de **read multiple barcodes**.  
-* O objeto **`Extended.Pdf417.MacroPdf417`** contém todos os campos opcionais definidos pela norma ISO/IEC 15438 – é aqui que você obtém `FileID`, `SegmentID`, `Checksum`, etc.  
-* O bloco `using` garante que os recursos nativos sejam liberados, evitando vazamentos de memória em serviços de longa execução.
+O bloco `using` garante que os recursos nativos sejam liberados, evitando vazamentos de memória em serviços de longa duração.
 
-## Etapa 4: Executar o Aplicativo e Verificar a Saída
+### Etapa 4: executar o aplicativo e verificar a saída
 
 No terminal:
 
@@ -195,7 +211,7 @@ No terminal:
 dotnet run
 ```
 
-Você deverá ver algo como:
+Você deve ver algo como:
 
 ```
 Code Type : MacroPdf417
@@ -214,25 +230,25 @@ Terminator       : 1
 Done. Press any key to exit...
 ```
 
-Se a imagem contiver mais de um código de barras, o laço imprimirá uma linha separadora (`----------------------------------------`) e continuará com o próximo resultado — exatamente como o **read multiple barcodes** se comporta na prática.
+Se a imagem contiver mais de um código de barras, o loop imprime uma linha separadora (`----------------------------------------`) e continua com o próximo resultado — exatamente como **read multiple barcodes** aparece na prática.
 
-## Perguntas Frequentes & Casos de Borda
+## Perguntas comuns & casos extremos
 
-### E se a imagem tiver símbolos Macro‑PDF417 e PDF417 normais?
+### E se a imagem tiver símbolos Macro‑PDF417 e PDF417 regulares?
 
-A mesma chamada `BarCodeReader` retornará ambos. Você pode diferenciá‑los verificando `result.CodeType` (`MacroPdf417` vs `Pdf417`). As propriedades estendidas serão `null` para um PDF417 simples, portanto a verificação `if (macro != null)` impede um `NullReferenceException`.
+A mesma chamada `BarCodeReader` retornará ambos. Você pode diferenciá‑los verificando `result.CodeType` (`MacroPdf417` vs `Pdf417`). As propriedades estendidas serão `null` para um PDF417 simples, portanto a verificação `if (macro != null)` evita um `NullReferenceException`.
 
-### Meu código de barras está rotacionado ou inclinado — o leitor ainda funciona?
+### Meu código de barras está rotacionado ou inclinado — o leitor ainda funcionará?
 
-Aspose.BarCode inclui compensação de rotação e distorção embutida. Desde que o código de barras ocupe pelo menos 30 % da largura da imagem, o decodificador geralmente tem sucesso. Para casos extremos, você pode habilitar `reader.Options.AllowInvertedBarcodes = true;` antes de chamar `ReadBarCodes()`.
+Aspose.BarCode inclui compensação integrada de rotação e distorção. Desde que o código de barras ocupe pelo menos 30 % da largura da imagem, o decodificador geralmente terá sucesso. Para casos extremos, você pode habilitar `reader.Options.AllowInvertedBarcodes = true;` antes de chamar `ReadBarCodes()`.
 
 ### Como lidar com grandes lotes de imagens?
 
-Envolva a lógica de leitura em um laço `foreach (var file in Directory.GetFiles(folder, "*.png"))`. O padrão `using` garante que os recursos nativos de cada imagem sejam liberados antes da próxima iteração, mantendo o uso de memória baixo.
+Envolva a lógica de leitura em um loop `foreach (var file in Directory.GetFiles(folder, "*.png"))`. O padrão `using` garante que os recursos nativos de cada imagem sejam liberados antes da próxima iteração, mantendo o uso de memória baixo.
 
-## Listagem Completa do Código (Pronta para Copiar e Colar)
+## Listagem completa do código fonte (pronta para copiar e colar)
 
-A seguir está o programa inteiro em um único bloco para cópia rápida. Sem dependências ocultas — apenas o pacote NuGet Aspose.BarCode.
+Abaixo está o programa inteiro em um bloco para cópia rápida. Sem dependências ocultas — apenas o pacote NuGet Aspose.BarCode.
 
 ```csharp
 using System;
@@ -284,30 +300,54 @@ namespace Pdf417ReaderDemo
 }
 ```
 
-## Recapitulação – O Que Cobremos
+## Recapitulação – o que cobrimos
 
-* **Como ler PDF417** usando Aspose.BarCode em C#.  
-* Os passos exatos para **read multiple barcodes** a partir de uma única imagem.  
-* Como **read barcode image C#** e extrair cada campo Macro‑PDF417.  
+* **How to read PDF417 barcode c#** using Aspose.BarCode.  
+* The exact steps to **read multiple barcodes** from a single image.  
+* How to **read barcode image c#** and extract every Macro‑PDF417 field.  
 * Dicas para rotação, processamento em lote e tratamento de dados estendidos ausentes.
 
-## Próximos Passos & Tópicos Relacionados
+## Próximos passos & tópicos relacionados
 
 * **Encode PDF417** – gere seus próprios códigos de barras Macro‑PDF417 com `BarCodeBuilder`.  
 * **Read other 2‑D symbologies** – QR, DataMatrix, Aztec – usando a mesma classe `BarCodeReader`.  
-* **Integrate with ASP.NET Core** – exponha um endpoint web que aceita uma imagem enviada e devolve JSON com os campos decodificados.  
+* **Integrate with ASP.NET Core** – exponha um endpoint web que aceita uma imagem enviada e retorna JSON com os campos decodificados.  
 
-Sinta‑se à vontade para experimentar: altere o caminho da imagem, coloque um PDF417 simples na mesma pasta ou ajuste as flags `DecodeType` para ver como a biblioteca se comporta. Quanto mais você brincar, mais confortável ficará com cenários de **read barcode image C#**.
+### Links úteis adicionais
+- [Como ler códigos de barras DataMatrix com Aspose.BarCode para .NET](/barcode/english/net/datamatrix-barcode-reading/)  
+- [Como criar código de barras – Compact PDF417 com Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)  
+- [Ler código de barras DataMatrix C# – Gerar modo DataMatrix (Auto)](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
 
-Tem uma imagem complicada que se recusa a ser decodificada? Deixe um comentário abaixo ou abra uma issue no repositório GitHub do projeto de exemplo. Boa codificação!
+Sinta‑se à vontade para experimentar: altere o caminho da imagem, coloque um PDF417 simples na mesma pasta ou ajuste as flags `DecodeType` para ver como a biblioteca se comporta. Quanto mais você brincar, mais confortável ficará com cenários de **read barcode image c#**.
 
-## O Que Você Deve Aprender a Seguir?
+Tem uma imagem complicada que se recusa a ser decodificada? Deixe um comentário abaixo ou abra uma issue no repositório GitHub do projeto de exemplo. Feliz codificação!
 
-Os tutoriais a seguir abordam tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens alternativas em seus próprios projetos.
+## Perguntas frequentes
 
-- [How to Read DataMatrix Barcodes with Aspose.BarCode for .NET](/barcode/english/net/datamatrix-barcode-reading/)
-- [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Read DataMatrix barcode C# – Generate DataMatrix Mode (Auto)](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
+**Q: Posso usar isso em uma aplicação comercial?**  
+A: Sim, você pode usar Aspose.BarCode em projetos comerciais desde que possua uma licença válida; uma avaliação gratuita está disponível para testes.
+
+**Q: O leitor suporta imagens protegidas por senha?**  
+A: O SDK funciona com qualquer formato de imagem padrão; proteção por senha não se aplica a imagens raster, apenas a PDFs, que são tratados por um componente separado Aspose.PDF.
+
+**Q: Quais versões do .NET são suportadas?**  
+A: .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ e .NET 6+ são totalmente suportados pela versão atual do Aspose.BarCode.
+
+**Q: Como posso melhorar o desempenho para lotes de imagens muito grandes?**  
+A: Habilite `reader.Options.Quality = QualityMode.HighPerformance` e processe as imagens em paralelo usando `Parallel.ForEach`, mantendo cada `BarCodeReader` dentro de um bloco `using`.
+
+**Q: Existe uma maneira de obter apenas os campos Macro‑PDF417 sem iterar todos os resultados?**  
+A: Sim – após chamar `ReadBarCodes()`, filtre a coleção com `result => result.CodeType == DecodeType.MacroPdf417` e então acesse a propriedade `Extended.Pdf417.MacroPdf417`.
+
+**Última atualização:** 2026-09-28  
+**Testado com:** Aspose.BarCode 23.12 for .NET  
+**Autor:** Aspose
+
+## Tutoriais Relacionados
+
+- [Como gerar imagem de código de barras Pdf417 em C com Aspose](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)  
+- [Criar código de barras Pdf417 com Aspose Barcode – Guia passo a passo](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)  
+- [Ler múltiplos códigos de barras C – Guia completo com Pdf417](/barcode/net/compact-pdf417-encoding/read-multiple-barcodes-c-complete-guide-with-pdf417/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

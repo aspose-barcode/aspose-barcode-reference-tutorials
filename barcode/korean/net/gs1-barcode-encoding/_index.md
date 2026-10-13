@@ -62,6 +62,9 @@ Aspose.BarCode를 사용하여 .NET에서 GS1 DataMatrix 바코드를 생성하�
 ### [C#에서 바코드 PNG 생성 – GS1 마이크로 PDF417 전체 가이드](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 .NET용 Aspose.BarCode를 사용하여 C#에서 GS1 마이크로 PDF417 바코드 PNG를 생성하는 방법을 단계별로 안내합니다.
 
+### [C#에서 GS1 바코드 생성 및 PNG로 내보내기](./create-barcode-gs1-in-c-and-export-it-as-png/)
+.NET용 Aspose.BarCode를 사용하여 C#에서 GS1 바코드를 생성하고 PNG 파일로 내보내는 방법을 단계별로 안내합니다.
+
 ### [C#에서 GS1 바코드 생성 – 완전한 단계별 가이드](./create-gs1-barcode-in-c-complete-step-by-step-guide/)
 .NET용 Aspose.BarCode를 사용해 C#에서 GS1 바코드를 만드는 방법을 단계별로 안내합니다. 지금 바로 시작하세요!
 ### [C#에서 GS1 바코드 이미지 생성 – 바코드 C# 빠르게 생성하는 방법](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)

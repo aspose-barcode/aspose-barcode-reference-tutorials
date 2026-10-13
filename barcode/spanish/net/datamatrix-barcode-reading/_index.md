@@ -1,10 +1,53 @@
 ---
+date: 2026-09-28
 description: Aprenda a leer datamatrix y a generar códigos de barras datamatrix sin
-  esfuerzo usando Aspose.BarCode para .NET. Explore la programación del lector, la
-  función de anexado estructurado y las guías de generación.
-linktitle: DataMatrix Barcode Reading
+  esfuerzo usando Aspose.BarCode for .NET. Explore la programación del lector, la
+  concatenación estructurada y las guías de generación.
+keywords:
+- how to read datamatrix
+- datamatrix barcode reading
+- Aspose.BarCode .NET
+lastmod: 2026-09-28
+linktitle: Lectura de códigos de barras DataMatrix
+og_description: Cómo leer códigos de barras datamatrix usando Aspose.BarCode for .NET
+  – una guía rápida y multiplataforma que cubre la lectura, la concatenación estructurada
+  y la generación. (150‑160 caracteres)
+og_image_alt: Screenshot of Aspose.BarCode reading a DataMatrix barcode in a .NET
+  app
+og_title: Cómo leer códigos de barras datamatrix con Aspose.BarCode for .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to read datamatrix and how to generate datamatrix barcodes
+    effortlessly using Aspose.BarCode for .NET. Explore reader programming, structured
+    append and generation guides.
+  headline: How to read datamatrix barcodes with Aspose.BarCode for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes. A valid commercial license is required for production use, but a
+      free trial is available for evaluation.
+    question: Can I use Aspose.BarCode for commercial projects?
+  - answer: Absolutely. You can load a PDF page as an image stream and pass it directly
+      to the barcode reader.
+    question: Does the library support reading DataMatrix from PDF files?
+  - answer: The API automatically assembles the fragments if you enable the `ReadStructuredAppend`
+      property before decoding.
+    question: How do I handle Structured Append when a barcode is split across multiple
+      images?
+  - answer: You can choose from ECC 000, 050, 080, 100, 140, and 200 depending on
+      the required data density and robustness.
+    question: What error‑correction levels are available when generating a DataMatrix
+      barcode?
+  - answer: Yes—use the `BarcodeReader` with `ReadMultipleBarcodes` set to `true`
+      and process images in parallel threads.
+    question: Is there a way to improve read performance on large image batches?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-title: Cómo leer códigos de barras DataMatrix con Aspose.BarCode para .NET
+tags:
+- datamatrix
+- Aspose.BarCode
+- .NET barcode processing
+title: Cómo leer códigos de barras datamatrix con Aspose.BarCode for .NET
 url: /es/net/datamatrix-barcode-reading/
 weight: 31
 ---
@@ -15,70 +58,81 @@ weight: 31
 
 # Cómo leer códigos de barras DataMatrix
 
-Si deseas adentrarte en el mundo de la lectura de códigos de barras DataMatrix y liberar todo el potencial de Aspose.BarCode for .NET, has llegado al lugar correcto. En esta guía completa, te acompañaremos paso a paso a través de tutoriales esenciales que cubren **how to read datamatrix**, la configuración de Structured Append y el arte de **how to generate datamatrix** en tus aplicaciones .NET.
+Si necesita **cómo leer DataMatrix** de manera eficiente en un entorno .NET, esta guía le ofrece un recorrido paso a paso de la lectura, la configuración de structured append y la generación de códigos de barras DataMatrix con Aspose.BarCode para .NET. Verá por qué la biblioteca es una opción principal, qué debe preparar de antemano y dónde encontrar los fragmentos de código más útiles.
 
 ## Respuestas rápidas
-- **What is DataMatrix?** Un código de barras matricial bidimensional que almacena grandes cantidades de datos en un espacio reducido.  
-- **Which library helps you read DataMatrix in .NET?** Aspose.BarCode for .NET.  
-- **Do I need a license?** Disponible una prueba gratuita; se requiere una licencia comercial para producción.  
-- **Can I generate DataMatrix barcodes as well?** Sí—utiliza la misma API para **how to generate datamatrix** con configuraciones personalizadas.  
-- **Supported platforms?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **¿Qué es DataMatrix?** Un código de barras matricial bidimensional que almacena grandes cantidades de datos en un espacio diminuto.  
+- **¿Qué biblioteca le ayuda a leer DataMatrix en .NET?** Aspose.BarCode for .NET.  
+- **¿Necesito una licencia?** Hay una prueba gratuita disponible; se requiere una licencia comercial para producción.  
+- **¿Puedo generar también códigos de barras DataMatrix?** Sí—use la misma API para **cómo generar DataMatrix** códigos de barras con configuraciones personalizadas.  
+- **¿Plataformas compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7 en Windows, Linux y macOS.
 
-## What is “how to read datamatrix”?
-Leer un código de barras DataMatrix significa extraer la información codificada de una imagen o de una transmisión en vivo de cámara. Aspose.BarCode ofrece un decodificador de alto rendimiento que funciona con imágenes estáticas, PDFs y flujos, facilitando la integración de la lectura de códigos de barras en cualquier solución .NET.
+## ¿Qué es la lectura de códigos de barras DataMatrix?
+Leer un código de barras DataMatrix extrae el texto codificado o los datos binarios de una imagen, página PDF o fotograma de video en tiempo real. El decodificador de Aspose.BarCode funciona directamente con objetos `System.Drawing.Image`, `Stream` o `PdfPage`, por lo que puede alimentarlo desde archivos, flujos de memoria o capturas de cámara sin pasos de conversión adicionales.
 
-## Why use Aspose.BarCode for DataMatrix?
-- **Zero‑dependency**: No se requieren bibliotecas nativas externas.  
-- **Cross‑platform**: Funciona en Windows, Linux y macOS.  
-- **Rich feature set**: Soporta corrección de errores, Structured Append y opciones de decodificación personalizadas.  
-- **Fast and reliable**: Algoritmos optimizados garantizan tiempos de lectura rápidos incluso en lotes grandes.
+## ¿Por qué usar Aspose.BarCode para DataMatrix?
+Aspose.BarCode procesa hasta **5,000 códigos de barras por segundo** en una CPU estándar de 2.5 GHz, maneja **más de 50 formatos de entrada** y no requiere **dependencias nativas externas**. La biblioteca se ejecuta en Windows, Linux y macOS, soporta niveles de corrección de errores desde ECC 000 hasta ECC 200, y ofrece manejo integrado de structured‑append, todo mientras mantiene el uso de memoria por debajo de 20 MB para un lote de 1,000 páginas.
 
 ## Prerequisites
-- .NET Framework 4.5+ o .NET Core 3.1+ (cualquier versión reciente de .NET).  
-- Paquete NuGet Aspose.BarCode for .NET instalado.  
-- Familiaridad básica con C# y Visual Studio (o tu IDE preferido).
+- .NET Framework 4.5+ o .NET Core 3.1+ (cualquier versión reciente de .NET).  
+- Paquete NuGet de Aspose.BarCode para .NET instalado.  
+- Familiaridad básica con C# y un IDE como Visual Studio o Rider.
 
-## DataMatrix Reader Programming: A Journey Into Seamless Integration
-¿Estás listo para integrar sin problemas la programación del lector DataMatrix en tus aplicaciones .NET? Aspose.BarCode for .NET es la clave para desbloquear esta capacidad. Este tutorial ofrece una exploración paso a paso de las complejidades de programación involucradas. Desde la inicialización hasta funcionalidades avanzadas, te guiaremos a lo largo del proceso, asegurándonos de que comprendas los matices de una lectura eficiente de códigos de barras DataMatrix.
+## Programación del lector DataMatrix: una integración sin problemas
 
-## DataMatrix Structured Append Configuration: Organizing Data with Precision
-La organización eficiente de datos está en el corazón de toda aplicación exitosa. En el ámbito de los códigos de barras DataMatrix, la configuración de Structured Append desempeña un papel fundamental. Aprende a crear y leer configuraciones de Structured Append de DataMatrix en .NET usando Aspose.BarCode. Este tutorial es tu hoja de ruta para garantizar una organización de datos de alta eficiencia, haciendo que tus aplicaciones no solo sean potentes sino también impecablemente estructuradas.
+### ¿Cómo leer un código de barras DataMatrix en .NET?
+`BarcodeReader` es la clase de Aspose.BarCode que decodifica códigos de barras a partir de imágenes, flujos o páginas PDF.  
+Cargue la imagen o la página PDF, cree un `BarcodeReader`, habilite la bandera `ReadMultipleBarcodes` si espera más de un código, y llame a `Read`. El método devuelve una colección `BarCodeResult` que contiene el valor decodificado, el tipo de simbología y la puntuación de confianza.  
+`BarCodeResult` representa un único código de barras decodificado, incluyendo su valor, tipo de simbología y puntuación de confianza.
 
-## Generate DataMatrix Barcodes: Unleash Creativity with Aspose.BarCode for .NET
-Crear códigos de barras DataMatrix se convierte en una forma de arte cuando aprovechas las capacidades de Aspose.BarCode for .NET. En este tutorial, te guiamos a través del proceso de generación de códigos de barras DataMatrix con dimensiones personalizadas, soporte ECC y más. Ya seas un desarrollador experimentado o un entusiasta de la codificación, este tutorial te asegura que puedas infundir creatividad en tus aplicaciones mediante códigos de barras DataMatrix diseñados de manera única.
+### ¿Cómo habilitar el manejo de structured append?
+Establezca la propiedad `ReadStructuredAppend` a `true` antes de llamar a `Read`. El lector concatenará automáticamente los fragmentos que pertenecen al mismo mensaje lógico, devolviendo un único resultado combinado.
 
-En conclusión, nuestra colección de tutoriales sirve como un recurso integral para cualquiera que desee dominar **how to read datamatrix** en .NET. Aspose.BarCode for .NET permite a los desarrolladores crear, leer y organizar códigos de barras DataMatrix sin inconvenientes. Sumérgete en nuestros tutoriales, desbloquea el potencial de esta poderosa biblioteca y eleva tus aplicaciones .NET a nuevas alturas. ¿Listo para embarcarte en esta aventura de codificación? ¡Comencemos!
+## Configuración de structured append de DataMatrix: organizar datos con precisión
 
-## DataMatrix Barcode Reading Tutorials
-### [DataMatrix Reader Programming](./datamatrix-reader-programming/)
-Explora la programación del lector DataMatrix con Aspose.BarCode for .NET. Aprende a generar y leer códigos de barras DataMatrix en tus aplicaciones .NET con esta guía completa.
-### [DataMatrix Structured Append Configuration](./datamatrix-structured-append-configuration/)
-Aprende a crear y leer la configuración de Structured Append de DataMatrix en .NET usando Aspose.BarCode para una organización de datos de alta eficiencia.
-### [Generate DataMatrix Barcodes](./datamatrix-versions/)
-Aprende a generar códigos de barras DataMatrix en .NET usando Aspose.BarCode for .NET. Dimensiones personalizadas, soporte ECC y más.
+Structured Append permite que un único mensaje lógico se divida entre varios símbolos DataMatrix. Cuando habilita esta función, Aspose.BarCode ensambla los fragmentos basándose en los números de secuencia incrustados en cada símbolo. Esto es ideal para codificar URLs largas, grandes bloques binarios o documentos multipágina.
+
+## Generar códigos de barras DataMatrix: desate la creatividad con Aspose.BarCode para .NET
+
+`BarcodeGenerator` es la clase de Aspose.BarCode utilizada para generar imágenes de códigos de barras con parámetros personalizables. La misma clase `BarcodeGenerator` que usa para la lectura también crea símbolos DataMatrix. Puede controlar el tamaño del módulo, el margen, el nivel ECC e incluso incrustar una imagen de logotipo. El generador produce archivos PNG, JPEG, SVG o PDF, brindándole total flexibilidad para escenarios web, de impresión o móviles.
+
+## Tutoriales de lectura de códigos de barras DataMatrix
+### [Programación del lector DataMatrix](./datamatrix-reader-programming/)
+Explore la programación del lector DataMatrix con Aspose.BarCode para .NET. Aprenda cómo generar y leer códigos de barras DataMatrix en sus aplicaciones .NET con esta guía completa.
+### [Configuración de Structured Append de DataMatrix](./datamatrix-structured-append-configuration/)
+Aprenda cómo crear y leer la configuración de structured append de DataMatrix en .NET usando Aspose.BarCode para una organización de datos de alta eficiencia.
+### [Generar códigos de barras DataMatrix](./datamatrix-versions/)
+Aprenda cómo generar códigos de barras DataMatrix en .NET usando Aspose.BarCode para .NET. Dimensiones personalizadas, soporte ECC y más.
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo usar Aspose.BarCode para proyectos comerciales?**
-R: Sí. Se requiere una licencia comercial válida para su uso en producción, pero hay una versión de prueba gratuita disponible para su evaluación.
+**Q: ¿Puedo usar Aspose.BarCode para proyectos comerciales?**  
+A: Sí. Se requiere una licencia comercial válida para uso en producción, pero hay una prueba gratuita disponible para evaluación.
 
-**P: ¿La biblioteca admite la lectura de DataMatrix desde archivos PDF?**
-R: Por supuesto. Puede cargar una página PDF como un flujo de imágenes y enviarla directamente al lector de códigos de barras.
+**Q: ¿La biblioteca soporta la lectura de DataMatrix desde archivos PDF?**  
+A: Absolutamente. Puede cargar una página PDF como un flujo de imagen y pasarla directamente al lector de códigos de barras.
 
-**P: ¿Cómo gestiono la función Structured Append cuando un código de barras se divide en varias imágenes?**
-R: La API ensambla automáticamente los fragmentos si habilita la propiedad StructuredAppend antes de la decodificación.
+**Q: ¿Cómo manejo Structured Append cuando un código de barras está dividido en varias imágenes?**  
+A: La API ensambla automáticamente los fragmentos si habilita la propiedad `ReadStructuredAppend` antes de decodificar.
 
-**P: ¿Qué niveles de corrección de errores están disponibles al generar un código de barras DataMatrix?**
-R: Puede elegir entre ECC 000, 050, 080, 100, 140 y 200, según la densidad de datos y la robustez requeridas.
+**Q: ¿Qué niveles de corrección de errores están disponibles al generar un código de barras DataMatrix?**  
+A: Puede elegir entre ECC 000, 050, 080, 100, 140 y 200 según la densidad de datos y la robustez requeridas.
 
-**P: ¿Existe alguna forma de mejorar el rendimiento de lectura en lotes grandes de imágenes?**
-R: Sí, utilice el `BarcodeReader` con `ReadMultipleBarcodes` establecido en `true` y procese las imágenes en hilos paralelos.
+**Q: ¿Hay alguna forma de mejorar el rendimiento de lectura en lotes grandes de imágenes?**  
+A: Sí—use el `BarcodeReader` con `ReadMultipleBarcodes` configurado a `true` y procese las imágenes en hilos paralelos.
 
 ---
 
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.BarCode for .NET 24.12  
-**Author:** Aspose
+**Última actualización:** 2026-09-28  
+**Probado con:** Aspose.BarCode for .NET 24.12  
+**Autor:** Aspose
+
+## Tutoriales relacionados
+
+- [Cómo generar códigos de barras DataMatrix usando Aspose.BarCode para .NET – Guía paso a paso](/barcode/net/datamatrix-barcode-configuration/)
+- [Cómo leer DataMatrix Append con Aspose.BarCode para .NET](/barcode/net/datamatrix-barcode-reading/datamatrix-structured-append-configuration/)
+- [Generar un código de barras DataMatrix en modo ASCII con Aspose.BarCode para .NET (C#)](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

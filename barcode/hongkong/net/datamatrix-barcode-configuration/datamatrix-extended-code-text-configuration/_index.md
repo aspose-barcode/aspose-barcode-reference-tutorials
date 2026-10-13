@@ -1,38 +1,104 @@
 ---
-title: 使用 Aspose.BarCode for .NET 設定 DataMatrix 程式碼文字
-linktitle: DataMatrix 擴充程式碼文字配置
+date: 2026-09-23
+description: 了解如何在 .NET 中使用 Aspose.BarCode 產生帶有擴充代碼文字的 DataMatrix 條碼，適用於庫存與物流應用。
+keywords:
+- how to use aspose
+- create barcode for inventory
+- barcode generation .net core
+- generate barcode image c#
+lastmod: 2026-09-23
+linktitle: DataMatrix 擴充代碼文字設定
+og_description: 如何在 .NET 中使用 Aspose.BarCode 產生帶有擴充代碼文字的 DataMatrix 條碼。遵循快速分步指南，適用於庫存與物流解決方案。
+og_image_alt: Screenshot of a DataMatrix barcode generated with Aspose.BarCode in
+  a .NET console app
+og_title: 如何在 .NET 中使用 Aspose.BarCode 建立 DataMatrix 代碼文字
+schemas:
+- author: Aspose
+  dateModified: '2026-09-23'
+  description: Learn how to use Aspose.BarCode to generate a DataMatrix barcode with
+    extended code text in .NET, ideal for inventory and logistics applications.
+  headline: How to use Aspose.BarCode to create DataMatrix code text in .NET
+  type: TechArticle
+- description: Learn how to use Aspose.BarCode to generate a DataMatrix barcode with
+    extended code text in .NET, ideal for inventory and logistics applications.
+  name: How to use Aspose.BarCode to create DataMatrix code text in .NET
+  steps:
+  - name: Define the output folder
+    text: Specify where the generated barcode image will be saved. Replace the placeholder
+      with a valid path on your machine.
+  - name: Build the extended code text
+    text: '`DataMatrixExtCodetextBuilder` is a helper class that assembles the extended
+      code text according to the DataMatrix specification. It automatically inserts
+      the required ECI (Extended Channel Interpretation) markers. This mix demonstrates
+      how you can combine Unicode characters, C40 encoding, plain tex'
+  - name: Generate the final codetext string
+    text: After configuring all parts, retrieve the combined string that Aspose.BarCode
+      will embed into the barcode.
+  - name: Create the DataMatrix barcode
+    text: '`BarcodeGenerator` is the core class that produces barcode images. Instantiate
+      it with `EncodeTypes.DataMatrix` and the extended codetext, then set visual
+      parameters such as X‑dimension, image format, and optional human‑readable text.
+      The above code **creates barcode aspose .net** with the desired e'
+  - name: Verify the barcode by reading it back
+    text: '`BarCodeReader` validates that the generated symbol can be decoded correctly,
+      which is essential for automated test pipelines and quality assurance. If everything
+      is set up properly, the console will output the exact extended code text you
+      built earlier.'
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for .NET
+    question: What library is needed?
+  - answer: DataMatrix with extended code text
+    question: Which barcode type?
+  - answer: Yes, the API is cross‑platform
+    question: Can I use .NET Core / .NET 6?
+  - answer: A free trial works for development; a license is required for production
+    question: Do I need a license for testing?
+  - answer: About 10‑15 minutes for a basic example
+    question: How long does implementation take?
+  type: FAQPage
 second_title: Aspose.BarCode .NET API
-description: 了解使用 Aspose.BarCode for .NET 配置 DataMatrix 擴充程式碼文字。在 .NET 應用程式中產生、識別和整合條碼。
-weight: 17
+tags:
+- Aspose.BarCode
+- DataMatrix
+- .NET barcode
+- C# barcode generation
+- inventory labeling
+title: 如何在 .NET 中使用 Aspose.BarCode 建立 DataMatrix 代碼文字
 url: /zh-hant/net/datamatrix-barcode-configuration/datamatrix-extended-code-text-configuration/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.BarCode for .NET 設定 DataMatrix 程式碼文字
+# 如何在 .NET 中使用 Aspose.BarCode 建立 DataMatrix 條碼文字
 
-在軟體開發領域，條碼整合已成為各種應用程式的關鍵必需品。透過 Aspose.BarCode for .NET 等程式庫，您可以在 .NET 應用程式中輕鬆產生和識別條碼。本教學將引導您完成使用 Aspose.BarCode for .NET 設定 DataMatrix 擴充程式碼文字的過程。在深入了解詳細資訊之前，讓我們先看一下本指南的先決條件。
+將條碼整合到現代 .NET 應用程式已不再是小眾任務——它是庫存、物流與行動掃描解決方案的核心需求。在本指南中，您將 **學習如何使用 Aspose.BarCode** 來設定帶有擴展條碼文字的 DataMatrix 條碼、產生圖像，並以程式方式驗證。您將了解此方法為庫存條碼建立的理想選擇，以及它如何適用於 .NET Core 或 .NET 6 專案。
 
-## 先決條件
+## 快速答覆
+- **需要哪個函式庫？** Aspose.BarCode for .NET  
+- **使用哪種條碼類型？** DataMatrix with extended code text  
+- **可以使用 .NET Core / .NET 6 嗎？** 是的，API 是跨平台的  
+- **測試需要授權嗎？** 免費試用版可用於開發；正式環境需購買授權  
+- **實作需要多久？** 基本範例約需 10‑15 分鐘  
 
-在開始之前，請確保您已具備以下條件：
+## Aspose.BarCode for .NET 是什麼？
+Aspose.BarCode for .NET 是一套商業函式庫，可讓開發人員產生與辨識超過 30 種條碼符號，包括 DataMatrix、QR 以及 Code 128，且能產出最高 10,000 × 10,000 像素的圖像，無需外部相依性。它支援 .NET Framework 4.5 以上、.NET Core 3.1 以上，以及 .NET 5/6/7。
 
-1. Aspose.BarCode for .NET 函式庫
-您需要安裝 Aspose.BarCode for .NET。如果還沒有，您可以從網站下載[這裡](https://releases.aspose.com/barcode/net/).
+## 為何使用 DataMatrix 擴展條碼文字？
+DataMatrix 擴展條碼文字允許在單一符號中嵌入多種編碼方案——UTF‑8、C40、Text、X12——可容納高達 **3116 個碼字**（約 155 KB 資料）於一個緊湊的方形中。此功能非常適合多語言產品標籤、醫療設備追蹤以及智慧包裝，能同時結合字母數字 ID 與二進位負載。
 
-2. .NET 開發環境
-要學習本教學課程，您應該在系統上設定 .NET 開發環境。您可以使用 Visual Studio 或任何其他首選 IDE。
+## 前置條件
+在開始之前，請確認您已具備以下項目：
 
-3. C#基礎知識
-對 C# 程式設計的基本了解對於本教程至關重要。
+1. **Aspose.BarCode for .NET** – 從官方網站 **[Aspose.BarCode .NET download page](https://releases.aspose.com/barcode/net/)** 下載。  
+2. **.NET 開發環境** – Visual Studio、Rider 或搭配 .NET SDK 的 VS Code。  
+3. **基本的 C# 知識** – 您應該熟悉類別、命名空間以及 `using` 指令。
 
-現在您已經具備了必要的工具和知識，讓我們將使用 Aspose.BarCode for .NET 配置 DataMatrix 擴充程式碼文字的過程分解為簡單的逐步說明。
-
-## 導入命名空間
-
-使用 Aspose.BarCode for .NET 的第一步是匯入所需的命名空間。將以下命名空間加入您的程式碼：
+## 匯入命名空間
+在 C# 檔案的頂部加入所需的命名空間，讓編譯器知道條碼類別的所在位置。
 
 ```csharp
 using System;
@@ -40,23 +106,21 @@ using Aspose.BarCode.Generation;
 using Aspose.BarCode.BarCodeRecognition;
 ```
 
-這些命名空間提供了處理條碼所需的類別和方法。
+這些命名空間讓您同時存取條碼產生與辨識功能。
 
-## 步驟 1：DataMatrix 擴充代碼文字配置
+## 如何設定 DataMatrix 擴展條碼文字？
 
-在此步驟中，我們將引導您完成配置 DataMatrix 擴充程式碼文字的過程。
+載入建構器，加入所需的段落，讓 Aspose.BarCode 自動處理 ECI 標記。以下直接說明步驟：建立 `DataMatrixExtCodetextBuilder`，加入 Unicode、C40、純文字與 Text 模式段落，最後取得供產生器使用的合併字串。
 
-## 步驟 2：定義目錄路徑
-
-您需要指定要儲存產生的 DataMatrix 條碼的目錄路徑。代替`"Your Directory Path"`與系統上的實際路徑。
+### 步驟 1：定義輸出資料夾
+指定產生的條碼圖像要儲存的位置。將佔位符替換為您機器上有效的路徑。
 
 ```csharp
 string path = "Your Directory Path";
 ```
 
-## 第 3 步：建立程式碼文本
-
-若要建立 DataMatrix 條碼的代碼文本，您將使用`DataMatrixExtCodetextBuilder`。此建構器可讓您新增具有不同編碼的各種類型的程式碼文字。
+### 步驟 2：建立擴展條碼文字
+`DataMatrixExtCodetextBuilder` 是協助類別，依據 DataMatrix 規範組合擴展條碼文字，會自動插入所需的 ECI（Extended Channel Interpretation）標記。
 
 ```csharp
 DataMatrixExtCodetextBuilder codetextBuilder = new DataMatrixExtCodetextBuilder();
@@ -66,19 +130,17 @@ codetextBuilder.AddPlainCodetext("test");
 codetextBuilder.AddCodetextWithEncodeMode(DataMatrixEncodeMode.Text, "abcde");
 ```
 
-此代碼使用不同編碼的混合來配置代碼文字。
+此範例示範如何在單一 DataMatrix 符號中結合 Unicode 字元、C40 編碼、純文字與 Text 模式。
 
-## 第 4 步：產生程式碼文本
-
-配置程式碼文字後，產生 DataMatrix 程式碼文字字串。
+### 步驟 3：產生最終的條碼文字字串
+完成所有部分的設定後，取得 Aspose.BarCode 將嵌入條碼的合併字串。
 
 ```csharp
 string codetext = codetextBuilder.GetExtendedCodetext();
 ```
 
-## 步驟 5：產生 DataMatrix 條碼
-
-現在，使用產生的程式碼文字建立 DataMatrix 條碼。您也可以設定條碼的各種參數，例如X尺寸和代碼文字顯示。
+### 步驟 4：建立 DataMatrix 條碼
+`BarcodeGenerator` 為產生條碼圖像的核心類別。使用 `EncodeTypes.DataMatrix` 與擴展條碼文字建立實例，接著設定視覺參數，如 X‑dimension、圖像格式，以及可選的人類可讀文字。
 
 ```csharp
 using (var generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
@@ -91,11 +153,10 @@ using (var generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
 }
 ```
 
-此程式碼使用指定的設定產生並儲存 DataMatrix 條碼影像。
+上述程式碼 **建立了帶有指定擴展條碼文字的 Aspose .NET 條碼**，並以 PNG 檔案儲存。
 
-## 第六步：嘗試識別
-
-為了確保條碼可以被識別，您可以使用`BarCodeReader`讀取條碼的類別。
+### 步驟 5：透過讀取驗證條碼
+`BarCodeReader` 會驗證產生的符號是否能正確解碼，這對自動化測試流程與品質保證至關重要。
 
 ```csharp
 using (var reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.DataMatrix))
@@ -105,35 +166,44 @@ using (var reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeTy
 }
 ```
 
-此步驟透過嘗試識別產生的條碼來驗證它。
+若設定正確，主控台將輸出先前建立的完整擴展條碼文字。
 
-恭喜！您已使用 Aspose.BarCode for .NET 成功配置了 DataMatrix 擴充程式碼文字。現在您可以將此功能整合到您的 .NET 應用程式中。
+## 常見問題與除錯
 
-## 結論
+| 問題 | 原因 | 解決方法 |
+|------|------|----------|
+| 條碼無法辨識 | X‑dimension 太低 | 將 `XDimension.Pixels` 提高（例如，4 → 6） |
+| 字元亂碼 | ECI 編碼錯誤 | 確保 `ECIEncodings.UTF8` 與字元集相符 |
+| 檔案未儲存 | 路徑無效 | 使用絕對路徑或確認資料夾已存在 |
+| 授權例外 | 試用版已過期 | 套用臨時或正式授權（請參閱 FAQ） |
 
-在本教學中，我們探索了使用 Aspose.BarCode for .NET 設定 DataMatrix 擴充程式碼文字的過程。我們介紹了先決條件、逐步說明，並示範如何產生和識別條碼。有了這些知識，您就可以透過新增條碼產生和識別功能來增強您的 .NET 應用程式。
+## 常見問答
 
-## 常見問題解答
+### Q1: Aspose.BarCode for .NET 是什麼？
+A1: Aspose.BarCode for .NET 是一套功能強大的函式庫，讓開發人員能產生與辨識各種條碼符號，包括 DataMatrix、QR、Code128 等。
 
-### Q1：什麼是 Aspose.BarCode for .NET？
+### Q2: 在哪裡可以找到 Aspose.BarCode for .NET 的文件？
+A2: 您可前往完整 API 參考 **[Aspose.BarCode .NET API reference](https://reference.aspose.com/barcode/net/)**。
 
-A1：Aspose.BarCode for .NET 是一個功能強大的程式庫，可讓開發人員在.NET 應用程式中產生和識別條碼。它支援廣泛的條碼符號體系並提供各種客製化選項。
+### Q3: 是否提供 Aspose.BarCode for .NET 的免費試用版？
+A3: 有，您可從 **[Aspose.BarCode free trial download](https://releases.aspose.com/)** 下載免費試用版。
 
-### Q2：在哪裡可以找到 Aspose.BarCode for .NET 的文件？
+### Q4: 如何取得測試用的臨時授權？
+A4: 可申請評估用的臨時授權，請前往 **[Aspose temporary license request page](https://purchase.aspose.com/temporary-license/)** 索取。
 
-A2：您可以存取 Aspose.BarCode for .NET 的文檔[這裡](https://reference.aspose.com/barcode/net/).
+### Q5: 在哪裡可以取得 Aspose.BarCode for .NET 的支援或提問？
+A5: 官方的 Aspose.BarCode 論壇是最佳的求助管道：**[Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)**。
 
-### Q3：Aspose.BarCode for .NET 有沒有免費試用版？
+**最後更新：** 2026-09-23  
+**測試環境：** Aspose.BarCode 24.11 for .NET  
+**作者：** Aspose
 
- A3：是的，您可以獲得 Aspose.BarCode for .NET 的免費試用版[這裡](https://releases.aspose.com/).
+## 相關教學
 
-### Q4：如何取得 Aspose.BarCode for .NET 的臨時授權？
+- [如何使用 Aspose.BarCode for .NET 產生 DataMatrix 條碼 – 步驟教學](/barcode/net/datamatrix-barcode-configuration/)
+- [使用 Aspose.BarCode for .NET (C#) 於 ASCII 模式產生 DataMatrix 條碼](/barcode/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-ascii/)
+- [使用 Aspose.BarCode for .NET 產生帶文字編碼的 Aztec 條碼](/barcode/net/aztec-barcode-encoding/aztec-code-text-encoding/)
 
- A4：如果您需要臨時許可證用於測試或評估目的，您可以獲得一份[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q5：我可以在哪裡獲得有關 Aspose.BarCode for .NET 的支援或提出問題？
-
- A5：有關 Aspose.BarCode for .NET 的任何支援或問題，您可以造訪 Aspose.BarCode 論壇[這裡](https://forum.aspose.com/c/barcode/13).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

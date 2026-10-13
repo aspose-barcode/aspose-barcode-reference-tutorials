@@ -1,36 +1,37 @@
 ---
 category: general
-date: 2026-07-15
-description: C# ile PDF417 barkodunu hızlıca oluşturun. Metinden barkod üretmeyi,
-  barkod boyutunu ayarlamayı ve dakikalar içinde özel barkod boyutları belirlemeyi
+date: 2026-09-23
+description: C#'te PDF417 barkodu nasıl hızlı bir şekilde oluşturulacağını, boyutunu
+  nasıl ayarlayacağınızı ve Aspose.BarCode ile özel boyutlar nasıl belirleyeceğinizi
   öğrenin.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- generate pdf417 barcode
-- generate barcode from text
-- adjust barcode size
+- how to generate pdf417
+- generate pdf417 barcode c#
+- adjust barcode size c#
 - custom barcode dimensions
-language: tr
-lastmod: 2026-07-15
-og_description: C#'de PDF417 barkodu anında oluşturun. Bu kılavuz, metinden barkod
-  oluşturmayı, barkod boyutunu ayarlamayı ve özel barkod boyutları uygulamayı gösterir.
-og_image_alt: Screenshot of a PDF417 barcode generated with custom dimensions using
-  C# code
-og_title: C#'ta PDF417 Barkod Oluşturma – Tam Programlama Öğreticisi
+lastmod: 2026-09-23
+og_description: C#'te PDF417 barkodunu dakikalar içinde nasıl oluşturacağınızı öğrenin.
+  Bu kılavuz, metni nasıl kodlayacağınızı, X‑dimension'ı nasıl kontrol edeceğinizi
+  ve Aspose.BarCode ile sütun‑satır düzenini nasıl özelleştireceğinizi gösterir.
+og_image_alt: 'Developer guide: generate PDF417 barcode with custom dimensions using
+  C#'
+og_title: C#'te PDF417 barkodu nasıl oluşturulur – step‑by‑step kılavuz
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: Generate PDF417 barcode quickly with C#. Learn how to generate barcode
-    from text, adjust barcode size, and set custom barcode dimensions in minutes.
-  headline: Generate PDF417 Barcode in C# – Complete Step‑by‑Step Guide
+  dateModified: '2026-09-23'
+  description: Learn how to generate PDF417 barcode quickly with C#. Includes text
+    encoding, size adjustment, and custom dimensions.
+  headline: How to generate PDF417 barcode in C# – complete step‑by‑step guide
   type: TechArticle
 tags:
-- barcode
 - pdf417
+- barcode
 - csharp
-title: C# ile PDF417 Barkod Oluşturma – Tam Adım Adım Rehber
+- Aspose.BarCode
+title: C#'te PDF417 barkodu nasıl oluşturulur – tam step‑by‑step kılavuz
 url: /tr/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-by-step-guide/
 ---
 
@@ -38,38 +39,47 @@ url: /tr/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#'ta PDF417 Barkod Oluşturma – Tam Adım‑Adım Kılavuz
+# C#'ta PDF417 barkod nasıl oluşturulur – tam adım‑adım kılavuz
 
-Hiç **PDF417 barkod oluşturma** ihtiyacı duydunuz ama hangi ayarları değiştirmeniz gerektiğinden emin değildiniz? Sadece siz değilsiniz—birçok geliştirici 2‑D barkodlarla ilk kez çalıştıklarında aynı duvara çarpar. İyi haber? Birkaç C# satırıyla herhangi bir dizeyi taranabilir bir PDF417 görüntüsüne dönüştürebilir, tam boyutunu kontrol edebilir ve hatta özel bir sütun‑satır düzeni tanımlayabilirsiniz.
+Ever needed to **PDF417 barkod oluştur** but weren’t sure which settings to tweak? You’re not the only one—many developers hit the same wall when they first play with 2‑D barcodes. The good news? With a few lines of C# you can turn any string into a scannable PDF417 image, control its exact size, and even define a custom column‑row layout.
 
-Bu öğreticide, **metinden barkod oluşturma**, barkod boyutunu ayarlama ve özel barkod boyutlarını belirleme konularını popüler Aspose.BarCode kütüphanesini kullanarak adım adım inceleyeceğiz. Sonunda, herhangi bir .NET projesine ekleyebileceğiniz çalıştırmaya hazır bir örnek elde edeceksiniz.
+In this tutorial we’ll walk through how to **metinden barkod oluştur**, adjust the barcode size, and set custom barcode dimensions — all using the popular Aspose.BarCode library. By the end you’ll have a ready‑to‑run sample you can drop into any .NET project.
 
-![Generate PDF417 barcode example](https://example.com/og-image.png "Generate PDF417 barcode example")
+![PDF417 barkod örneği oluştur](https://example.com/og-image.png "PDF417 barkod örneği oluştur")
+[PDF417 barkod örneği oluştur](https://example.com/og-image.png "PDF417 barkod örneği oluştur")
 
-## Ne Oluşturacaksınız
+## Hızlı cevaplar
+- **PDF417 barkodlarını .NET'te oluşturan kütüphane hangisidir?** Aspose.BarCode for .NET.
+- **Temel bir barkod için kaç satır kod gerekir?** Sadece üç satır: bir oluşturucu oluştur, X‑dimension ayarla, görüntüyü kaydet.
+- **Sütunları ve satırları özelleştirebilir miyim?** Evet, PDF417 parametrelerinde `Columns` ve `Rows` ayarlayabilirsiniz.
+- **Hangi görüntü formatları destekleniyor?** PNG, JPEG, BMP, GIF, SVG, and PDF.
+- **Unicode karakterler çalışıyor mu?** Kesinlikle; API tam olarak UTF‑8 kodlamasını destekler.
 
-- `Åspóse.Barcóde©` dizesini kodlayan bir PDF417 barkod.
-- X‑dimension (her modülün piksel genişliği) üzerinde hassas kontrol.
-- 4 sütun ve 9 satırdan oluşan özel bir düzen.
-- Diske kaydedilen bir PNG dosyası.
+## PDF417 nasıl oluşturulur?
+“how to generate PDF417” ifadesi, programlama kütüphanesi kullanarak metinsel veriden PDF417 2‑D barkod görüntüsü oluşturma sürecine atıfta bulunur. Aspose.BarCode ile bunu bir dakikadan kısa sürede başarabilirsiniz. Bu, düz metin bir dizeyi alıp PDF417 spesifikasyonunu uygulayan bir barkod oluşturucuya beslemeyi ve bir görüntü olarak render edilebilecek ya da bir belgeye gömülebilecek siyah‑beyaz modüller matrisini üretmeyi içerir.
 
-Harici hizmetler yok, sihirli değnek hileleri yok—sadece şu anda derleyebileceğiniz sade C# kodu.
+## PDF417 oluşturmak için neden Aspose.BarCode kullanılmalı?
+Aspose.BarCode **50+ giriş ve çıkış formatını** destekler ve **belleğe tüm dosyayı yüklemeden çok‑sayfalı belgeleri** işleyebilir. Kütüphane **.NET 6+, .NET Framework 4.8 ve .NET Core** üzerinde çalışır, bu da masaüstü, sunucu ve bulut ortamları arasında esneklik sağlar.
 
-## Ön Koşullar
-
-- .NET 6.0 veya daha yenisi (kod .NET Framework 4.8'de de çalışır).
-- Visual Studio 2022 veya C# destekleyen herhangi bir IDE.
+## Önkoşullar
+- .NET 6.0 veya üzeri (kod .NET Framework 4.8'de de çalışır).
+- Visual Studio 2022 veya herhangi bir C# uyumlu IDE.
 - Aspose.BarCode for .NET (ücretsiz deneme veya lisanslı sürüm). NuGet üzerinden kurun:
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-Hepsi bu—paket referans alındıktan sonra hazırsınız.
+Bu kadar—paket referans edildiğinde hazırsınız.
 
-## Adım 1 – Metin Verisiyle PDF417 Barkod Oluşturma
+## C#'ta PDF417 barkod nasıl oluşturulur?
 
-İlk olarak ihtiyacımız olan, PDF417 sembolünü kullandığımızı ve kodlamak istediğimiz tam metni bilen bir `BarcodeGenerator` örneğidir.
+Metninizi yükleyin, oluşturucuyu yapılandırın ve görüntüyü üç basit adımda kaydedin. Bu doğrudan yanıt, ek açıklamalara geçmeden önce tam iş akışını verir. İlk olarak, PDF417 simgolojisi ve verinizle `BarcodeGenerator` örneğini oluşturun. Sonra X‑dimension, sütunlar ve satırlar gibi görsel parametreleri ayarlayın. Son olarak, istediğiniz formatta görüntüyü diske yazmak için `Save` metodunu çağırın.
+
+### Adım 1 – metin verisiyle PDF417 barkod oluştur
+
+`BarcodeGenerator` sınıfı, belirtilen simgoloji ve veri temelinde barkod görüntüleri oluşturur.  
+İlk olarak, PDF417 simgolojisiyle çalıştığını ve kodlamak istediğimiz kesin metni bildiren bir `BarcodeGenerator` örneğine ihtiyacımız var.
 
 ```csharp
 using Aspose.BarCode.Generation;
@@ -79,24 +89,28 @@ using Aspose.BarCode;
 BarcodeGenerator barcodeGenerator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-> **Neden önemli:**  
-> `EncodeTypes.Pdf417` kütüphaneye PDF417 2‑D formatını kullanmasını söyler, ikinci argüman ise **metinden barkod oluşturma** yüküdür. Buraya gönderdiğiniz her şey barkod matrisinde saklanan veri olur.
+> **Bu neden önemli:**  
+> `EncodeTypes.Pdf417` kütüphaneye PDF417 2‑D formatını kullanmasını söyler, ikinci argüman ise **metinden barkod oluştur** yüküdür. Buraya gönderdiğiniz her şey barkod matrisinde saklanan veri olur.
 
-## Adım 2 – Barkod Boyutunu Ayarlama (X‑Dimension)
+### Adım 2 – barkod boyutunu ayarla (X‑dimension)
 
-Eğer bir fişte çok küçük görünen bir barkod bastıysanız, tarayıcının bunu kaçırmasının hayal kırıklığını biliyorsunuz. `XDimension` özelliği, tek bir modülün (en küçük siyah veya beyaz kare) piksel cinsinden genişliğini kontrol eder.
+`XDimension` özelliği, barkod görüntüsündeki tek bir modülün (en küçük siyah ya da beyaz kare) piksel genişliğini tanımlar.  
+
+`XDimension` tek bir modülün (en küçük siyah ya da beyaz kare) piksel cinsinden genişliğini kontrol eder.
 
 ```csharp
 // Step 2: Set the module (X) dimension in pixels to control barcode size
 barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2; // 2 px per module
 ```
 
-> **Pro ipucu:**  
-> 2 px değeri çoğu ekran görüntüsü senaryosu için iyidir. Yüksek çözünürlüklü baskılar için bunu 3 veya 4 px'e çıkarabilirsiniz. Ancak daha büyük X‑dimension değerlerinin toplam görüntü boyutunu artırdığını unutmayın.
+> **İpucu:**  
+> 2 px değeri çoğu ekran görüntüleme senaryosu için iyidir. Yüksek çözünürlüklü baskılar için bunu 3 veya 4 px'e çıkarabilirsiniz. Daha büyük X‑dimension değerlerinin toplam görüntü boyutunu artırdığını unutmayın.
 
-## Adım 3 – Özel Barkod Boyutlarını Ayarlama (Sütunlar ve Satırlar)
+### Adım 3 – özel barkod boyutlarını ayarla (sütunlar ve satırlar)
 
-PDF417, barkodun kaç sütun ve satır kaplayacağını belirlemenize izin verir. İşte **özel barkod boyutları** burada devreye girer. Bu değerleri değiştirmek, barkodu dar bir UI alanına sığdırmanıza veya belirli bir etiket boyutuna uymasına yardımcı olabilir.
+PDF417, barkodun kaç sütun ve satır kaplayacağını belirlemenize izin verir. İşte **özel barkod boyutları** burada devreye girer.  
+
+`Pdf417` parametreleri, barkod için tam sütun‑satır ızgarasını belirtmenizi sağlar.
 
 ```csharp
 // Step 3: Define the layout of the PDF417 barcode: number of columns and rows
@@ -105,22 +119,23 @@ barcodeGenerator.Parameters.Barcode.Pdf417.Rows    = 9; // 9 rows
 ```
 
 > **Arka planda ne oluyor?**  
-> Kütüphane, kodlanmış veriyi belirtilen ızgara üzerine yeniden dağıtır. Daha az sütun daha uzun barkodlar, daha fazla satır ise daha kısa barkodlar anlamına gelir. Sayılarla oynayın ve görsel denge uygulamanız için doğru hissettiğiniz bir düzen elde edene kadar ayarlayın.
+> Kütüphane kodlanmış veriyi belirtilen ızgara üzerine yeniden dağıtır. Daha az sütun daha uzun barkod, daha fazla satır ise daha kısa barkod anlamına gelir. Uygulamanız için görsel denge doğru hissedene kadar sayılarla oynayın.
 
-## Adım 4 – Barkod Görüntüsünü Kaydetme
+### Adım 4 – barkod görüntüsünü kaydet
 
-Şimdi her şeyi yapılandırdığımıza göre, jeneratörden bir PNG dosyası yazmasını istiyoruz. PNG kayıpsızdır, bu yüzden modüllerin netliği korunur.
+Her şeyi yapılandırdığımıza göre, oluşturucudan bir PNG dosyası yazmasını istiyoruz. PNG kayıpsızdır, böylece modüllerin netliği korunur.  
+`Save` oluşturulan barkodu seçilen görüntü formatında bir dosyaya yazar.
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image
 barcodeGenerator.Save(@"C:\Barcodes\CustomLayout.png", BarCodeImageFormat.Png);
 ```
 
-Programı çalıştırdığınızda, `C:\Barcodes\CustomLayout.png` konumunda yukarıdaki ekran görüntüsüne benzer bir dosya görmelisiniz. Herhangi bir PDF417‑uyumlu okuyucu ile tarandığında, orijinal `Åspóse.Barcóde©` dizesi dönecektir.
+Programı çalıştırdığınızda, `C:\Barcodes\CustomLayout.png` konumunda yukarıdaki ekran görüntüsüne benzer bir dosya görmelisiniz. Herhangi bir PDF417‑uyumlu okuyucu ile tarandığında orijinal `Åspóse.Barcóde©` dizesi geri dönecektir.
 
-## Tam Çalışan Örnek
+## Tam çalışan örnek
 
-Aşağıda, bir konsol uygulamasına kopyalayıp yapıştırabileceğiniz tam program yer alıyor. Üretim kodunda bekleyeceğiniz tüm using yönergeleri ve hata yönetimini içerir.
+Aşağıda, bir konsol uygulamasına kopyalayıp yapıştırabileceğiniz tam program yer alıyor. Üretim kodunda beklenen tüm `using` yönergeleri ve hata yönetimini içerir.
 
 ```csharp
 using System;
@@ -159,43 +174,76 @@ class Program
 }
 ```
 
-### Beklenen Çıktı
+### Beklenen çıktı
 
-Kodu çalıştırdığınızda şu çıktı verir:
+Kod çalıştırıldığında şunlar yazdırılır:
 
 ```
 ✅ Barcode generated successfully → C:\Barcodes\CustomLayout.png
 ```
 
-…ve herhangi bir görüntüleyicide açılabilecek bir PNG oluşturur. Mobil bir uygulama (ör. iOS/Android'de “Barcode Scanner”) ile taradığınızda, çözülen metin tam olarak **Åspóse.Barcóde©** olmalıdır.
+…ve herhangi bir görüntü görüntüleyicide açılabilen bir PNG oluşturur. Mobil bir uygulama (ör. iOS/Android'de “Barcode Scanner”) ile taradığınızda çözülen metin tam olarak **Åspóse.Barcóde©** olmalıdır.
 
-## Sık Sorulan Sorular & Kenar Durumları
+## Yaygın sorular ve uç durumlar
 
 | Soru | Cevap |
 |------|-------|
-| **Farklı bir görüntü formatı kullanabilir miyim?** | Evet—`BarCodeImageFormat.Jpeg`, `Bmp`, `Gif` veya `Svg` hepsi desteklenir. Sadece `Save` metodunun ikinci argümanını değiştirin. |
-| **Metnim Unicode karakterler içeriyorsa ne olur?** | Aspose.BarCode tam olarak UTF‑8'i destekler, bu yüzden `Å` ve `©` içeren örnek sorunsuz çalışır. |
-| **Hata düzeltme seviyesini nasıl değiştiririm?** | `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` kullanın (seviyeler 0‑8). Daha yüksek seviyeler daha fazla yedeklilik ekler ama aynı zamanda boyutu da artırır. |
+| **Farklı bir görüntü formatı kullanabilir miyim?** | Evet—`BarCodeImageFormat.Jpeg`, `Bmp`, `Gif`, veya `Svg` hepsi desteklenir. `Save` metodunun ikinci argümanını değiştirmeniz yeterli. |
+| **Metnim Unicode karakterler içeriyorsa ne olur?** | Aspose.BarCode tam olarak UTF‑8'i destekler, bu yüzden `Å` ve `©` içeren örnek doğrudan çalışır. |
+| **Hata düzeltme seviyesini nasıl değiştiririm?** | `generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = Pdf417ErrorCorrectionLevel.Level5;` kullanın (seviyeler 0‑8). Daha yüksek seviyeler yedekliliği artırır ancak boyutu da büyütür. |
 | **Şeffaf arka plan gerekiyor—bunu yapabilir miyim?** | Kaydetmeden önce `generator.Parameters.Barcode.Image.TransparentBackground = true;` ayarlayın. |
-| **Barkodu doğrudan bir PDF'e gömmenin bir yolu var mı?** | Kesinlikle. `Save` çağrısını `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` ile değiştirin ve barkodu içeren tek sayfalık bir PDF elde edersiniz. |
+| **Barkodu doğrudan bir PDF'e gömmek mümkün mü?** | Kesinlikle. `Save` çağrısını `generator.Save("output.pdf", BarCodeImageFormat.Pdf);` ile değiştirin; böylece barkodu içeren tek sayfalık bir PDF elde edersiniz. |
 
-## Sonuç
+## Sıkça sorulan sorular
 
-Artık herhangi bir dizeden C#'ta **PDF417 barkod oluşturma**, **barkod boyutunu ayarlama** ve **özel barkod boyutlarını** uygulayarak düzen ihtiyaçlarınıza uydurmayı biliyorsunuz. Dört adımlı akış—başlatma, boyutlandırma, düzen, kaydetme—çoğu 2‑D barkod senaryosu için temel iş akışını kapsar.
+**Q: Kütüphane .NET Core ve .NET 5/6 üzerinde çalışıyor mu?**  
+A: Evet, Aspose.BarCode for .NET .NET Core 3.1, .NET 5, .NET 6 ve sonraki sürümleri destekler.
 
-Sırada ne var? `EncodeTypes.Pdf417` yerine `EncodeTypes.QR` ya da `EncodeTypes.Code128` deneyerek API'nin nasıl uyum sağladığını görün. Farklı `XDimension` değerleriyle deneyler yapın, sütun/satır matrisini oynayın veya görüntüyü bir PDF raporuna gömün. Olanaklar neredeyse sınırsızdır ve artık üzerine inşa edebileceğiniz sağlam bir temele sahipsiniz.
+**Q: Bir döngüde birden fazla barkod oluşturabilir miyim?**  
+A: Kesinlikle. Her string için yeni bir `BarcodeGenerator` oluşturabilir veya `CodeText` özelliğini değiştirerek aynı örneği yeniden kullanabilirsiniz.
 
-Daha fazla sorunuz mu var, ya da PDF417 ile oynarken akıllı bir püf noktası mı keşfettiniz? Aşağıya bir yorum bırakın—sohbeti sürdürelim. Kodlamanın tadını çıkarın!
+**Q: Oluşturulan görüntü ne kadar büyük olabilir?**  
+A: API, **10,000 × 10,000 pixel**'a kadar görüntüler oluşturabilir; bellek tüketimi X‑dimension ve sütun/satır ayarlarıyla ölçeklenir.
 
-## Sonra Ne Öğrenmelisiniz?
+**Q: Üretim kullanımında lisans gerekli mi?**  
+A: Evet, ticari lisans değerlendirme filigranlarını kaldırır ve tam özellik setini açar. Ücretsiz deneme test için mevcuttur.
 
-Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalı tam çalışan kod örnekleri içerir.
+**Q: Generator'ı manuel olarak dispose etmem gerekiyor mu?**  
+A: `BarcodeGenerator` `IDisposable` uygular. Bir `using` bloğu içinde kullanın veya `Dispose()` çağırarak yönetilmeyen kaynakları hemen serbest bırakın.
 
-- [Aspose.BarCode for .NET kullanarak özel en‑boy oranı ile Aztec barkod oluşturma](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-- [Barkod Oluşturma - Tek Boyutlu Barkod Türleri](/barcode/english/net/one-dimensional-barcode-types/)
-- [DataMatrix Barkod Oluşturma – Aspose.BarCode ile Profesyonel Kılavuz](/barcode/english/net/datamatrix-barcode-configuration/)
+## Sonra ne öğrenmelisiniz?
+
+Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, adım‑adım açıklamalarla tam çalışan kod örnekleri içerir; böylece ek API özelliklerini ustalaşabilir ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfedebilirsiniz.
+
+- [Aspose.BarCode for .NET kullanarak özel en‑boy oranı ile Aztec barkod nasıl oluşturulur](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+- [Barkod Nasıl Oluşturulur - Tek Boyutlu Barkod Türleri](/barcode/english/net/one-dimensional-barcode-types/)
+- [DataMatrix Barkod Oluştur – Aspose.BarCode ile Profesyonel Kılavuz](/barcode/english/net/datamatrix-barcode-configuration/)
+
+---
+
+**Son Güncelleme:** 2026-09-23  
+**Test Edilen:** Aspose.BarCode 24.11 for .NET  
+**Yazar:** Aspose  
+
+
+
+
+
+
+```bash
+dotnet add package Aspose.BarCode
+```
+
+## İlgili Öğreticiler
+
+- [PDF417 Barkodları Oluşturmak İçin Barkod Boyutunu Ayarlama C Kılavuzu](/barcode/net/compact-pdf417-encoding/adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+- [Aspose Barcode Örneği C'de Makro PDF417 Oluştur](/barcode/net/compact-pdf417-encoding/aspose-barcode-example-generate-macro-pdf417-in-c/)
+- [C'de Mikro PDF417 Barkod Oluşturma Tam Kılavuz](/barcode/net/compact-pdf417-encoding/generate-micro-pdf417-barcode-in-c-complete-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

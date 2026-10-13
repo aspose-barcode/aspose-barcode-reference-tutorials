@@ -36,7 +36,7 @@ Endimensionella streckkoder är grunden för datakodning, vilket ger ett enkelt 
 
 ## Höjdjustering och anpassning
 
-Streckkodsanpassning är en bris med Aspose.BarCode. Lär dig hur du justerar höjden på endimensionella streckkoder, vilket säkerställer precision i dina mönster. Dina streckkoder kommer att skräddarsys för att möta dina specifika krav.
+Streckkodsanpassning är en bris med Aspose.BarCode. Lär dig hur du justerar höjden på endimensionella streckkoder, vilket säkerställer precision i dina mönster. Dina streckkoder kommer att skräddarsydda för att möta dina specifika krav.
 
 ## Databar och GS1-kodning
 
@@ -93,6 +93,8 @@ Lär dig steg-för-steg hur du skapar streckkoder i C# med Aspose.BarCode i en k
 Lär dig hur du konfigurerar streckkodparametrar i C# med Aspose.BarCode.
 ### [Hur man genererar streckkod med Aspose i C#](./how-to-generate-barcode-with-aspose-in-c/)
 Lär dig hur du skapar streckkoder i C# med Aspose.BarCode i en steg-för-steg-guide.
+### [Hur man genererar en streckkod med specialtecken i C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
+Lär dig hur du skapar streckkoder med specialtecken i C# med Aspose.BarCode. En steg-för-steg-guide för korrekt kodning.
 
 ## Slutsats
 

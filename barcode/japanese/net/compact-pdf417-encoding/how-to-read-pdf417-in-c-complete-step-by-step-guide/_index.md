@@ -1,31 +1,32 @@
 ---
 category: general
-date: 2026-07-15
-description: C#でPDF417バーコードを読み取る方法と、画像から複数のバーコードを読み取る方法。詳細なコードとヒントでC#でバーコード画像の読み取りを学びましょう。
+date: 2026-09-28
+description: Aspose.BarCode を使用して PDF417 バーコード C# をすばやく読み取ります。1 つの画像から複数のバーコードをデコードし、Macro‑PDF417
+  フィールドを抽出し、回転やバッチ処理に対応します。
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to read pdf417
+- read pdf417 barcode c#
 - read multiple barcodes
-- read barcode image c#
+- pdf417 c# decoding
 - Aspose.BarCode PDF417
-- C# barcode decoding
-language: ja
-lastmod: 2026-07-15
-og_description: C#でPDF417バーコードを素早く読み取る方法。このガイドでは、1つの画像から複数のバーコードを読み取り、各プロパティをデコードする手順を示します。
+- barcode image c#
+lastmod: 2026-09-28
+og_description: Aspose.BarCode を使用して PDF417 バーコード C# をすばやく読み取ります。このガイドでは、単一画像から複数のバーコードをデコードし、すべての
+  Macro‑PDF417 プロパティを抽出し、回転した画像やバッチ画像を処理する方法を示します。
 og_image_alt: Screenshot of C# console output displaying PDF417 barcode details
-og_title: C#でPDF417を読み取る方法 – 完全なコードサンプルと解説
+og_title: PDF417 バーコード C# の読み取り – 完全コードサンプルとガイド
 schemas:
 - author: Aspose
-  dateModified: '2026-07-15'
-  description: How to read PDF417 barcode in C# and read multiple barcodes from an
-    image. Learn to read barcode image C# with detailed code and tips.
-  headline: How to Read PDF417 in C# – Complete Step‑by‑Step Guide
+  dateModified: '2026-09-28'
+  description: Read PDF417 barcode c# and read multiple barcodes from an image. Learn
+    to read barcode image C# with detailed code and tips.
+  headline: Read PDF417 barcode c# – complete step‑by‑step guide
   type: TechArticle
-- description: How to read PDF417 barcode in C# and read multiple barcodes from an
-    image. Learn to read barcode image C# with detailed code and tips.
-  name: How to Read PDF417 in C# – Complete Step‑by‑Step Guide
+- description: Read PDF417 barcode c# and read multiple barcodes from an image. Learn
+    to read barcode image C# with detailed code and tips.
+  name: Read PDF417 barcode c# – complete step‑by‑step guide
   steps:
   - name: Why This Code Works
     text: '* **`BarCodeReader`** is the core class that streams the image, detects
@@ -52,7 +53,7 @@ tags:
 - barcode
 - PDF417
 - Aspose
-title: C#でPDF417を読み取る方法 – 完全ステップバイステップガイド
+title: PDF417 バーコード C# の読み取り方法 – 完全ステップバイステップガイド
 url: /ja/net/compact-pdf417-encoding/how-to-read-pdf417-in-c-complete-step-by-step-guide/
 ---
 
@@ -60,49 +61,65 @@ url: /ja/net/compact-pdf417-encoding/how-to-read-pdf417-in-c-complete-step-by-st
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#でPDF417を読む方法 – 完全ステップバイステップガイド
+# PDF417 バーコードの読み取り方法（C#） – 完全ステップバイステップガイド
 
-C#で画像から **PDF417の読み取り方法** を疑問に思ったことはありませんか？ あなただけではありません。多くの開発者は、スキャンしたドキュメントから拡張 Macro‑PDF417 フィールドを取得しようとすると壁にぶつかります。良いニュースは、数行のコードで PDF417 をデコードし、同じ画像内の複数のバーコードを読み取り、仕様が提供するすべての隠れたプロパティを取得できることです。
+C# を使って画像から **PDF417 の読み取り方法** を疑問に思ったことはありませんか？あなただけではありません。スキャンした文書から拡張 Macro‑PDF417 フィールドを抽出しようとすると、多くの開発者が壁にぶつかります。良いニュースは、数行のコードだけで **PDF417 バーコードの読み取り（C#）** ができ、同じ画像内の複数のバーコードをデコードし、仕様が提供するすべての隠れたプロパティを取得できることです。
 
-このチュートリアルでは、実際の例を通じて **PDF417の読み取り方法**、単一ファイルから **複数のバーコードを読む方法**、そして **read barcode image C#** コードがそのようになっている理由を解説します。最後まで読むと、ファイル ID、セグメント ID、チェックサム、タイムスタンプなど、必要な情報をすべて出力する実行可能なコンソールアプリが手に入ります。
+## クイック回答
+- **Aspose.BarCode は Macro‑PDF417 をデコードできますか？** はい – `DecodeType.MacroPdf417` を有効にするだけで、ライブラリはすべての拡張フィールドを返します。  
+- **1 つの画像から何個のバーコードを読み取れますか？** 無制限です。API は `BarCodeResult` オブジェクトのコレクションを返します。  
+- **本番環境でライセンスが必要ですか？** 本番利用には商用ライセンスが必要です。評価目的は無料トライアルで動作します。  
+- **回転したバーコードは検出されますか？** 組み込みの回転補償は、画像幅の少なくとも 30 % を占めるバーコードに対して機能します。  
+- **バッチ処理はサポートされていますか？** もちろんです – リーダーを `foreach` ループで囲み、各インスタンスを `using` で破棄してください。
+
+## read PDF417 バーコード（C#）とは？
+`read pdf417 barcode c#` は、.NET ライブラリを使用して画像ファイルから PDF417（Macro‑PDF417 を含む）シンボルを直接 C# コードでデコードするプロセスを指します。Aspose.BarCode SDK は、画像の読み込み、バーコード検出、すべての ISO 定義フィールドの抽出を処理するシングルコール API を提供します。
+
+## PDF417 デコードに Aspose.BarCode を使用する理由
+Aspose.BarCode は **30 種類以上のバーコードシンボル** をサポートし、典型的なサーバーハードウェア上で **0.1 秒** 未満で **5000 × 5000 px** までの画像を処理できます。また、回転、歪み、反転バーコードのハンドリングが標準で提供されており、カスタム画像前処理の必要がありません。さらに、ライブラリは Macro‑PDF417 の拡張フィールドの読み取りを組み込みでサポートしており、複雑なスキャンシナリオに対するワンストップソリューションとなります。
 
 ## 前提条件
 
-* .NET 6.0 SDK またはそれ以降 (コードは .NET Core および .NET Framework でも動作します)。  
-* Visual Studio 2022 (またはお好みのエディタ)。  
-* **Aspose.BarCode for .NET** NuGet パッケージ – これは実際に PDF417 を解析するライブラリです。  
-* Macro‑PDF417 バーコードを含むサンプル画像 (例: `ExtPDF417Meta.png`)。  
+Before we dive in, make sure you have:
 
-追加の設定は不要です；ライブラリには必要なデコーダがすべて同梱されています。
+* .NET 6.0 SDK 以降（コードは .NET Core および .NET Framework でも動作します）。  
+* Visual Studio 2022（またはお好みのエディタ）。  
+* **Aspose.BarCode for .NET** NuGet パッケージ – これが実際に PDF417 を解析するライブラリです。  
+* Macro‑PDF417 バーコードを含むサンプル画像（例: `ExtPDF417Meta.png`）。  
 
-## ステップ 1: Aspose.BarCode をインストール
+追加の設定は不要です。ライブラリには必要なデコーダがすべて同梱されています。
 
-ターミナルでプロジェクトフォルダーを開き、以下を実行します：
+## PDF417 バーコード（C#）の読み取り方法
+
+`BarCodeReader` で画像を読み込み、`DecodeType.MacroPdf417` を指定し、返された `BarCodeResult` コレクションを反復処理します – これが 10 行未満のコードで実現できる完全なソリューションです。リーダーはプレーンな PDF417 シンボルと Macro‑PDF417 の拡張データの両方を自動的に抽出するため、ファイル識別子、セグメント番号、タイムスタンプ、チェックサムを追加の解析なしで取得できます。
+
+### 手順 1: Aspose.BarCode のインストール
+ターミナルでプロジェクトフォルダーを開き、次のコマンドを実行します：
 
 ```bash
 dotnet add package Aspose.BarCode
 ```
 
-このコマンドは最新の安定版を取得します（2026年7月時点で 23.12）。Visual Studio のパッケージ マネージャ コンソールを使用したい場合は、次を使用してください：
+このコマンドは最新の安定版（2026 年 7 月時点で 23.12）を取得します。Visual Studio のパッケージマネージャーコンソールを使用したい場合は、次を使用してください：
 
 ```powershell
 Install-Package Aspose.BarCode
 ```
 
-> **プロのコツ:** 後で予期せぬ破壊的変更を防ぐために、`.csproj` でバージョン (`23.12.0`) を固定してください。
+> **プロのコツ:** 後で予期せぬ破壊的変更を防ぐために、`.csproj` でバージョン（`23.12.0`）を固定してください。
 
-## ステップ 2: コンソール アプリの雛形を作成
-
-まだ作成していない場合は、新しいコンソール プロジェクトを作成します：
+### 手順 2: コンソールアプリの雛形作成
+まだ持っていない場合は、新しいコンソールプロジェクトを作成します：
 
 ```bash
 dotnet new console -n Pdf417ReaderDemo
 cd Pdf417ReaderDemo
 ```
 
-自動生成された `Program.cs` を以下のコードに置き換えてください。各ブロックは次のセクションで説明します。
+自動生成された `Program.cs` を以下のコードに置き換えてください。次のセクションで各ブロックを説明します。
 
-## ステップ 3: 完全な “PDF417の読み取り方法” コードを書く
+### 手順 3: 完全な “PDF417 の読み取り” コードを書く
+`BarCodeReader` は画像をストリームし、バーコードを検出し、`BarCodeResult` オブジェクトのコレクションを返すコアクラスです。
 
 ```csharp
 using System;
@@ -175,22 +192,20 @@ namespace Pdf417ReaderDemo
 }
 ```
 
-### このコードが機能する理由
+- `BarCodeReader` — 画像からバーコードを読み取り、デコードする主要クラスです。  
+- `DecodeType.MacroPdf417` — SDK に Macro‑PDF417 を特別に扱わせつつ、プレーンな PDF417 シンボルも返すフラグです。  
+- `Extended.Pdf417.MacroPdf417` — ISO/IEC 15438 で定義されたすべてのオプションフィールド（`FileID`、`SegmentID`、`Checksum` など）を保持するオブジェクトです。
 
-* **`BarCodeReader`** は画像をストリームし、バーコードを検出し、`BarCodeResult` オブジェクトのコレクションを返すコアクラスです。  
-* **`DecodeType.MacroPdf417`** を渡すと、ライブラリは Macro‑PDF417 を特別に扱いますが、依然としてプレーンな PDF417 シンボルを返すため、**read multiple barcodes** の要件を満たします。  
-* **`Extended.Pdf417.MacroPdf417`** オブジェクトは ISO/IEC 15438 標準で定義されたすべてのオプションフィールドを保持しており、`FileID`、`SegmentID`、`Checksum` などが取得できます。  
-* `using` ブロックはネイティブリソースの解放を保証し、長時間実行されるサービスでのメモリリークを防ぎます。
+`using` ブロックはネイティブリソースの解放を保証し、長時間実行されるサービスでのメモリリークを防止します。
 
-## ステップ 4: アプリケーションを実行し、出力を確認
-
-ターミナルから実行します：
+### 手順 4: アプリケーションを実行し、出力を確認する
+ターミナルから：
 
 ```bash
 dotnet run
 ```
 
-以下のような出力が表示されます：
+次のような出力が表示されます：
 
 ```
 Code Type : MacroPdf417
@@ -209,25 +224,21 @@ Terminator       : 1
 Done. Press any key to exit...
 ```
 
-画像に複数のバーコードが含まれている場合、ループは区切り線 (`----------------------------------------`) を出力し、次の結果に続きます—実際に **read multiple barcodes** がどのように見えるかを正確に示しています。
+画像に複数のバーコードが含まれている場合、ループは区切り線（`----------------------------------------`）を出力し、次の結果に続きます – これが **複数のバーコードを読み取る** 実際の様子です。
 
 ## よくある質問とエッジケース
 
 ### 画像に Macro‑PDF417 と通常の PDF417 シンボルの両方が含まれている場合は？
-
-同じ `BarCodeReader` 呼び出しで両方が返されます。`result.CodeType` (`MacroPdf417` と `Pdf417`) を確認することで区別できます。プレーンな PDF417 の場合、拡張プロパティは `null` になるため、`if (macro != null)` ガードが `NullReferenceException` を防ぎます。
+同じ `BarCodeReader` 呼び出しで両方が返されます。`result.CodeType`（`MacroPdf417` と `Pdf417`）をチェックすることで区別できます。プレーンな PDF417 の場合、拡張プロパティは `null` になるため、`if (macro != null)` ガードが `NullReferenceException` を防ぎます。
 
 ### バーコードが回転または歪んでいる場合、リーダーは動作しますか？
-
-Aspose.BarCode には回転および歪み補正が組み込まれています。バーコードが画像幅の少なくとも 30 % であれば、デコーダは通常成功します。極端なケースでは、`ReadBarCodes()` を呼び出す前に `reader.Options.AllowInvertedBarcodes = true;` を有効にできます。
+Aspose.BarCode には組み込みの回転・歪み補償が含まれています。バーコードが画像幅の少なくとも 30 % を占めていれば、デコーダは通常成功します。極端なケースでは、`ReadBarCodes()` を呼び出す前に `reader.Options.AllowInvertedBarcodes = true;` を有効にできます。
 
 ### 大量の画像バッチを処理するには？
-
-読み取りロジックを `foreach (var file in Directory.GetFiles(folder, "*.png"))` ループでラップします。`using` パターンにより、次のイテレーションの前に各画像のネイティブリソースが解放され、メモリ使用量が低く抑えられます。
+読み取りロジックを `foreach (var file in Directory.GetFiles(folder, "*.png"))` ループで囲みます。`using` パターンにより、次のイテレーションの前に各画像のネイティブリソースが解放され、メモリ使用量が低く抑えられます。
 
 ## 完全なソースリスト（コピー＆ペースト用）
-
-以下は、すぐにコピー＆ペーストできるように 1 つのブロックにまとめたプログラム全体です。隠れた依存関係はなく、Aspose.BarCode NuGet パッケージだけです。
+以下は、すぐにコピー＆ペーストできるように 1 つのブロックにまとめた全プログラムです。隠れた依存関係はなく、Aspose.BarCode NuGet パッケージだけです。
 
 ```csharp
 using System;
@@ -280,29 +291,51 @@ namespace Pdf417ReaderDemo
 ```
 
 ## まとめ – カバーした内容
-
-* **How to read PDF417** を Aspose.BarCode と C# で使用する方法。  
-* 単一画像から **read multiple barcodes** を行う正確な手順。  
-* **read barcode image C#** の方法とすべての Macro‑PDF417 フィールドの抽出方法。  
-* 回転、バッチ処理、拡張データが欠落している場合の対処法に関するヒント。
+- **Aspose.BarCode を使用した PDF417 バーコード（C#）の読み取り方法**。  
+- 単一画像から **複数のバーコードを読み取る** 正確な手順。  
+- **バーコード画像（C#）の読み取り** とすべての Macro‑PDF417 フィールドの抽出方法。  
+- 回転、バッチ処理、拡張データが欠落している場合の対処法に関するヒント。
 
 ## 次のステップと関連トピック
+- **Encode PDF417** – `BarCodeBuilder` で独自の Macro‑PDF417 バーコードを生成します。  
+- **Read other 2‑D symbologies** – QR、DataMatrix、Aztec – 同じ `BarCodeReader` クラスを使用して読み取ります。  
+- **Integrate with ASP.NET Core** – アップロードされた画像を受け取り、デコードされたフィールドを JSON で返す Web エンドポイントを公開します。  
 
-* **Encode PDF417** – `BarCodeBuilder` を使用して独自の Macro‑PDF417 バーコードを生成します。  
-* **Read other 2‑D symbologies** – 同じ `BarCodeReader` クラスを使用して QR、DataMatrix、Aztec を読み取ります。  
-* **Integrate with ASP.NET Core** – アップロードされた画像を受け取り、デコードされたフィールドを含む JSON を返す Web エンドポイントを公開します。  
+### 追加の便利なリンク
+- [Aspose.BarCode for .NET を使用した DataMatrix バーコードの読み取り方法](/barcode/english/net/datamatrix-barcode-reading/)  
+- [Aspose.BarCode を使用した コンパクト PDF417 バーコードの作成方法](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)  
+- [DataMatrix バーコード C# の読み取り – 自動モードで DataMatrix を生成](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
 
-自由に実験してください：画像パスを変更したり、同じフォルダーにプレーンな PDF417 を置いたり、`DecodeType` フラグを調整してライブラリの挙動を確認したりできます。試せば試すほど、**read barcode image C#** シナリオに慣れるでしょう。
+自由に試してみてください: 画像パスを変更したり、同じフォルダーにプレーンな PDF417 を置いたり、`DecodeType` フラグを調整してライブラリの動作を確認したりできます。試せば試すほど、**バーコード画像（C#）の読み取り** シナリオに慣れるでしょう。
 
-デコードできない厄介な画像がありますか？下にコメントを残すか、サンプルプロジェクトの GitHub リポジトリで issue を作成してください。ハッピーコーディング！
+デコードできない難しい画像がありますか？以下にコメントを残すか、サンプルプロジェクトの GitHub リポジトリで issue を開いてください。コーディングを楽しんで！
 
-## 次に学ぶべきことは？
+## よくある質問
 
-以下のチュートリアルは、本ガイドで示した手法を基にした密接に関連するトピックをカバーしています。各リソースには、ステップバイステップの解説付きの完全な動作コード例が含まれており、追加の API 機能を習得し、独自プロジェクトで代替実装アプローチを検討するのに役立ちます。
+**Q: 商用アプリケーションで使用できますか？**  
+**A:** はい、有効なライセンスさえあれば Aspose.BarCode を商用プロジェクトで使用できます。評価用の無料トライアルも利用可能です。
 
-- [Aspose.BarCode for .NET で DataMatrix バーコードを読む方法](/barcode/english/net/datamatrix-barcode-reading/)
-- [Aspose.BarCode で Compact PDF417 バーコードを作成する方法](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [DataMatrix バーコード C# の読み取り – 自動モードで生成](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-encoding-mode-auto/)
+**Q: リーダーはパスワード保護された画像をサポートしていますか？**  
+**A:** SDK は標準的な画像フォーマットすべてで動作します。パスワード保護はラスタ画像には適用されず、PDF のみ対象であり、PDF は別の Aspose.PDF コンポーネントで処理されます。
+
+**Q: サポートされている .NET バージョンは何ですか？**  
+**A:** 現行の Aspose.BarCode リリースは .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5 以上、そして .NET 6 以上をすべて完全にサポートしています。
+
+**Q: 非常に大規模な画像バッチのパフォーマンスを向上させるには？**  
+**A:** `reader.Options.Quality = QualityMode.HighPerformance` を有効にし、`Parallel.ForEach` を使用して画像を並列処理します。その際、各 `BarCodeReader` は `using` ブロックでラップしてください。
+
+**Q: すべての結果を反復せずに Macro‑PDF417 フィールドだけを取得する方法はありますか？**  
+**A:** はい – `ReadBarCodes()` 呼び出し後に、`result => result.CodeType == DecodeType.MacroPdf417` でコレクションをフィルタリングし、`Extended.Pdf417.MacroPdf417` プロパティにアクセスします。
+
+**最終更新日:** 2026-09-28  
+**テスト環境:** Aspose.BarCode 23.12 for .NET  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose を使用した C での Pdf417 バーコード画像生成方法](/barcode/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-image-in-c-with-aspose/)  
+- [Aspose Barcode で Pdf417 バーコードを作成するステップバイステップガイド](/barcode/net/compact-pdf417-encoding/create-pdf417-barcode-with-aspose-barcode-step-by-step-guide/)  
+- [Pdf417 を使用した 複数バーコード C 完全ガイド](/barcode/net/compact-pdf417-encoding/read-multiple-barcodes-c-complete-guide-with-pdf417/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

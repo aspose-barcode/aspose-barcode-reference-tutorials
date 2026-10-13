@@ -1,0 +1,7 @@
+Title: How to build an Aspose barcode example with MacroPdf417 in C#
+Slug: how-to-build-an-aspose-barcode-example-with-macropdf417-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-12T11:15:22.195477
+SourceRepo: AI Search API
+Keywords: aspose barcode example
+PRNumber: 152
