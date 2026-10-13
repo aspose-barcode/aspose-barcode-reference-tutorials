@@ -297,6 +297,9 @@ Naučte se generovat PDF417 čárový kód v C# a upravit jeho velikost pomocí 
 ### [Jak vytvořit PDF417 čárový kód v C# a uložit jej jako PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
 Naučte se generovat PDF417 čárový kód v C# a uložit jej jako PNG soubor pomocí Aspose.BarCode.
 
+### [Jak vytvořit PDF417 čárový kód a uložit jej jako PNG v C#](./how-to-create-pdf417-barcode-and-save-it-as-png-in-c/)
+Naučte se v C# pomocí Aspose.BarCode vygenerovat PDF417 čárový kód a uložit jej jako PNG soubor.
+
 ### [Jak vytvořit micro PDF417 čárový kód v C# – krok za krokem](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 Podrobný průvodce vytvářením micro PDF417 čárových kódů v C# pomocí Aspose.BarCode.
 
@@ -355,6 +358,9 @@ Naučte se, jak pomocí Aspose.BarCode v C# vytvořit kompaktní PDF417 čárov�
 
 ### [Jak vygenerovat čárový kód v C# s Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 Naučte se, jak v C# pomocí Aspose.BarCode generovat různé typy čárových kódů.
+### [Jak použít Aspose Barcode Generator C# pro MacroPdf417 čárový kód](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
+Naučte se, jak pomocí Aspose.BarCode v C# vygenerovat MacroPdf417 čárový kód.
+
 ### [Jak vytvořit micro PDF417 čárový kód v C# a uložit jej jako PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
 Naučte se vygenerovat micro PDF417 čárový kód v C# a uložit jej jako PNG soubor pomocí Aspose.BarCode.
 
@@ -402,6 +408,7 @@ A: Ne, nejsou potřeba žádné externí fonty; knihovna provádí veškeré vyk
 - [Jak vytvořit Aztec čárový kód s korekcí chyb v .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [Vygenerovat PDF417 čárový kód s kompaktním nastavením v C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
 - [Jak dekódovat PDF417 čárové kódy v C# pomocí BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
+- [Číst čárový kód z obrázku C# – kompletní průvodce s Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 - [Jak dekódovat PDF417 čárové kódy v C# – krok za krokem](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -229,6 +229,8 @@ Scopri come creare codici a barre PDF417 in C# con layout compatto usando Aspose
 ### [Genera codice a barre C# con Macro PDF417 – esempio completo](./generate-barcode-c-with-macro-pdf417-full-example/)
 Scopri come creare un codice a barre Macro PDF417 in C# con un esempio completo usando Aspose.BarCode per .NET.
 
+- [Come utilizzare Aspose Barcode Generator C# per un codice a barre MacroPdf417](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
+- [Leggi codice a barre da immagine C# – guida completa con Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 ### [Come leggere il codice a barre da immagine C# usando Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
 
 ## Domande frequenti

@@ -244,6 +244,9 @@ Erfahren Sie, wie Sie Barcodes erzeugen und PDF417‑Barcodes in C# individuell 
 ### [Wie man PDF417‑Barcode erstellt und als PNG exportiert in C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# PDF417‑Barcodes erzeugen und als PNG‑Datei speichern.
 
+### [Wie man PDF417‑Barcode in C# erstellt und als PNG speichert](./how-to-create-pdf417-barcode-and-save-it-as-png-in-c/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET einen PDF417‑Barcode erzeugen und als PNG‑Datei speichern.
+
 ### [Wie man PDF417 in C# mit einem Barcode‑Reader‑Beispiel dekodiert](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
 Erfahren Sie, wie Sie PDF417‑Barcodes in C# mit dem Aspose.BarCode‑Reader auslesen.
 
@@ -337,6 +340,7 @@ A: Nein, es werden keine externen Schriftarten benötigt; die Bibliothek überni
 - [Wie man einen Barcode‑Generator in C# für Macro PDF417 verwendet](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
 - [Wie man PDF417-Barcodes in C# liest – vollständiger Leitfaden](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 - [Wie man PDF417-Barcode in C# generiert – kompaktes Beispiel](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+- [Barcode aus Bild lesen C# – vollständige Anleitung mit Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 ### [Wie man einen Barcode aus Text in C# mit Aspose.BarCode erstellt](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes aus Text generieren, inklusive Code‑Beispielen und Konfiguration.
 
