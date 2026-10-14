@@ -283,8 +283,17 @@ class Program
             macroPdf417.Parameters.Barcode.Pdf417.MacroPdf417FileName = "file01";
             macroPdf417.Parameters.Barcode.Pdf417.MacroPdf417Checksum = 1234;
             macroPdf417.Parameters.Barcode.Pdf417.MacroPdf417FileSize = 400_000;
-            macroPdf
+            macroPdf417.Parameters.Barcode.Pdf417.MacroPdf417TimeStamp = new DateTime(2019, 11, 1);
+            macroPdf417.Parameters.Barcode.Pdf417.MacroPdf417Addressee = "street";
+            macroPdf417.Parameters.Barcode.Pdf417.MacroPdf417Sender = "aspose";
+            macroPdf417.Parameters.Barcode.Pdf417.MacroPdf417Terminator = Pdf417MacroTerminator.Set;
 
+            macroPdf417.Save("MacroPdf417.png", BarCodeImageFormat.Png);
+            Console.WriteLine("Macro PDF417 saved as MacroPdf417.png");
+        }
+    }
+}
+```
 
 ## Bạn nên học gì tiếp theo?
 
