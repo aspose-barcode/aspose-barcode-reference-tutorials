@@ -1,0 +1,7 @@
+Title: How to set Aspose license in Python – load license with io example
+Slug: how-to-set-aspose-license-in-python-load-license-with-io-exa
+Category: general
+ProcessedDate: 2026-10-12T11:25:30.606848
+SourceRepo: AI Search API
+Keywords: how to set aspose license, load license with io
+PRNumber: 153

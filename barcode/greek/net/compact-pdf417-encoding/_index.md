@@ -83,7 +83,13 @@ weight: 29
 - **Έλεγχος Έκδοσης:** Διατηρήστε την έκδοση της βιβλιοθήκης Aspose.BarCode συνεπή σε ανάπτυξη, δοκιμή και παραγωγή.
 
 ## Συμμετοχικά Σεμινάρια Συμπαγούς PDF417
+### [How to create micro pdf417 barcode in C# and save it as PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
+
+### [How to create barcode from text in C# with Aspose.BarCode](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
+
 ### [Decode barcode from image with a C# barcode reader example](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+
+### [Ανάγνωση barcode από εικόνα C# – πλήρης οδηγός με Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 
 
 ### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
@@ -152,9 +158,18 @@ weight: 29
 Μάθετε πώς να δημιουργήσετε PDF417 barcode με πλήρη προγραμματιστικό οδηγό.
 ### [Δημιουργία barcode PNG σε C# – Οδηγός βήμα‑βήμα](./create-barcode-png-in-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε εικόνα barcode PNG σε C# χρησιμοποιώντας Aspose.BarCode, με πλήρη βήματα και παραδείγματα κώδικα.
+### [Πώς να δημιουργήσετε κωδικό PDF417 και να τον αποθηκεύσετε ως PNG σε C#](./how-to-create-pdf417-barcode-and-save-it-as-png-in-c/)
+Μάθετε πώς να δημιουργήσετε κωδικό PDF417 και να τον αποθηκεύσετε ως PNG με C# και Aspose.BarCode.
+
 ### [Πώς να δημιουργήσετε κωδικό PDF417 και να εξάγετε PNG σε C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
 
 ### [Δημιουργία PDF417 barcode και δημιουργία εικόνας barcode C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
+
+### [Πώς να χρησιμοποιήσετε το Aspose Barcode Generator C# για έναν κώδικα MacroPdf417](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
+Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε MacroPdf417 barcode με το Aspose Barcode Generator σε C#.
+
+### [Πώς να διαβάσετε barcode από εικόνα C# χρησιμοποιώντας Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
+Μάθετε πώς να διαβάσετε κωδικούς barcode από εικόνα σε C# με το Aspose.BarCode.
 
 ## Συχνές Ερωτήσεις
 

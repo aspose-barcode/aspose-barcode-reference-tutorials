@@ -1,0 +1,7 @@
+Title: How to create barcode image and adjust its aspect ratio in C#
+Slug: how-to-create-barcode-image-and-adjust-its-aspect-ratio-in-c
+Category: general
+ProcessedDate: 2026-10-09T07:00:47.233251
+SourceRepo: AI Search API
+Keywords: create barcode image, how to adjust aspect ratio
+PRNumber: 151

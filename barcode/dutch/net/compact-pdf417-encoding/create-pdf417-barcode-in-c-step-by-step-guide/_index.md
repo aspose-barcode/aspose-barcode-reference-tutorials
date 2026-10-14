@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-08-03
-description: Creëer snel een PDF417‑barcode in C#. Leer hoe je een PDF417‑barcode
-  genereert en hoe je de barcode‑afbeelding opslaat als PNG met Aspose.Barcode.
+date: 2026-10-04
+description: Maak snel een PDF417-barcode in C#. Leer hoe je een PDF417-barcode genereert
+  en hoe je de barcode-afbeelding opslaat als PNG met Aspose.Barcode.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- create pdf417 barcode
-- how to generate pdf417 barcode
-- how to save barcode image
-language: nl
-lastmod: 2026-08-03
-og_description: Maak een PDF417-barcode in C# met Aspose.Barcode. Volg deze gids om
-  een PDF417-barcode te genereren en hoe je de barcode‑afbeelding efficiënt opslaat.
-og_image_alt: Screenshot of a generated compact PDF417 barcode saved as PNG
-og_title: PDF417-barcode maken in C# – volledige programmeertutorial
+- create pdf417 barcode c#
+- barcode for mobile scanning
+- aspose barcode png generation
+lastmod: 2026-10-04
+og_description: PDF417-barcode maken in C# met Aspose.Barcode. Deze tutorial laat
+  zien hoe je een compacte PDF417-barcode genereert, het uiterlijk configureert en
+  opslaat als PNG-afbeelding voor mobiel scannen of labelafdrukken.
+og_image_alt: 'Developer guide: Create PDF417 barcode in C# and save as PNG using
+  Aspose.Barcode'
+og_title: PDF417-barcode maken in C# – volledige stapsgewijze handleiding
 schemas:
 - author: Aspose
-  dateModified: '2026-08-03'
+  dateModified: '2026-10-04'
   description: Create PDF417 barcode in C# quickly. Learn how to generate PDF417 barcode
     and how to save barcode image as PNG with Aspose.Barcode.
   headline: Create PDF417 barcode in C# – step‑by‑step guide
@@ -48,7 +49,8 @@ tags:
 - C#
 - PDF417
 - image generation
-title: PDF417‑barcode maken in C# – stapsgewijze handleiding
+- Aspose.Barcode
+title: PDF417-barcode maken in C# – stapsgewijze handleiding
 url: /nl/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-guide/
 ---
 
@@ -56,48 +58,59 @@ url: /nl/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF417-streepjescode maken in C# – stapsgewijze handleiding
+# PDF417-barcode maken in C# – stapsgewijze handleiding
 
-Als je een **PDF417-streepjescode** moet maken in een .NET‑applicatie, laat deze handleiding je precies zien hoe je een PDF417‑streepjescode genereert en hoe je de streepjescode‑afbeelding opslaat. Je krijgt een PNG‑bestand dat kan worden gebruikt in rapporten, tickets of mobiele scan‑apps.
+Als je een **PDF417-barcode** moet maken in een .NET‑applicatie, laat deze handleiding je precies zien hoe je een PDF417-barcode genereert en hoe je de barcode‑afbeelding opslaat als een PNG‑bestand. Je krijgt een compacte afbeelding die uitstekend werkt voor mobiel scannen, ticketsystemen of labelprinters.
 
-De tutorial behandelt alles, van projectopzet tot het uiteindelijke PNG‑bestand. Er is geen externe documentatie nodig; volg gewoon de stappen en voer de code uit.
+## Snelle antwoorden
+- **Welke bibliotheek verwerkt de PDF417‑generatie?** Aspose.Barcode for .NET.  
+- **In welk formaat slaat het voorbeeld op?** PNG, met `BarCodeImageFormat.Png`.  
+- **Hoeveel regels code zijn nodig?** Ongeveer 10 regels na het project opzetten.  
+- **Kan ik grootte en inkorting aanpassen?** Ja – de eigenschappen `Columns`, `Rows` en `Truncate`.  
+- **Is de code .NET‑6‑compatibel?** Ja, volledig, en hij werkt ook met .NET Framework 4.7+.
 
-## Wat je nodig hebt
+## Wat heb je nodig om een PDF417-barcode te maken in C#?
+Om te beginnen heb je een recente .NET SDK, een IDE zoals Visual Studio 2022, en het **Aspose.Barcode for .NET** NuGet‑pakket nodig. Deze tools laten het voorbeeld compileren en uitvoeren zonder extra configuratie.
 
-* .NET 6.0 SDK of later (de code werkt ook met .NET Framework 4.7+)
-* Visual Studio 2022 of een IDE die C# ondersteunt
-* Internettoegang om het **Aspose.Barcode for .NET** NuGet‑pakket te installeren
+- .NET 6.0 SDK of later (werkt ook met .NET Framework 4.7+)
+- Visual Studio 2022 of een andere C#‑compatible editor
+- Internettoegang om het Aspose.Barcode NuGet‑pakket te downloaden
 
-Deze vereisten zorgen ervoor dat de code compileert zonder extra configuratie.
+## Hoe stel je een .NET‑project in voor PDF417‑barcode‑generatie?
+Maak een nieuw console‑project, voeg het Aspose.Barcode‑pakket toe, en open het gegenereerde `Program.cs`. Dit bereidt een schone werkomgeving voor waarin je de barcode‑generator kunt instantieren en het uitvoerbestand kunt schrijven.
 
-## PDF417-streepjescode maken – projectopzet
-
-1. Open een opdrachtprompt en maak een nieuw console‑project aan:
-
-   ```bash
+```bash
    dotnet new console -n Pdf417Demo
    cd Pdf417Demo
    ```
 
-2. Voeg de Aspose.Barcode‑bibliotheek toe:
+## Hoe kun je een PDF417-barcode genereren met Aspose.Barcode?
+`BarcodeGenerator` is de Aspose.Barcode‑klasse die barcode‑afbeeldingen maakt van opgegeven data en symbologie. Je specificeert de PDF417‑symbologie, levert de te coderen tekst, en past eventueel grootte‑ of foutcorrectie‑instellingen aan.
 
-   ```bash
+```bash
    dotnet add package Aspose.Barcode
    ```
 
-3. Open het gegenereerde `Program.cs`‑bestand. De `using`‑statements bovenaan geven je toegang tot de streepjescode‑klassen:
+### Waarom dit belangrijk is
+* **EncodeTypes.Pdf417** vertelt de bibliotheek om de PDF417‑standaard te gebruiken, die grote gegevenspayloads en foutcorrectie ondersteunt.
+* Het leveren van Unicode‑tekens bewijst dat de generator niet‑ASCII‑invoer aankan zonder extra configuratie.
 
-   ```csharp
+## Hoe configureer je het uiterlijk van een PDF417-barcode?
+Je kunt de module‑grootte, het aantal kolommen en of de barcode een compacte (ingekorte) modus gebruikt, regelen. Deze instellingen beïnvloeden direct de leesbaarheid op kleine schermen en de totale bestandsgrootte van de PNG‑afbeelding.
+
+`generator.Parameters.Barcode.XDimension` bepaalt de breedte van één module, terwijl `Columns` en `Rows` de matrixafmetingen definiëren. Het instellen van `Truncate` op `true` verwijdert de stille zones voor een compactere afbeelding.
+
+```csharp
    using System;
    using Aspose.Barcode.Generation;
    using Aspose.Barcode;
    ```
 
-Het project is nu klaar om **PDF417‑streepjescode te maken**.
+### Praktische tip
+Als je een hogere barcode nodig hebt voor beperkte horizontale ruimte, verhoog dan `Columns`. Het instellen van `Truncate` op `true` verkleint de totale hoogte door stille zones te verwijderen, wat ideaal is voor mobiele schermen.
 
-## Hoe PDF417‑streepjescode te genereren met Aspose.Barcode
-
-De kern van het maken van de streepjescode bevindt zich in de `BarcodeGenerator`‑klasse. Je specificeert de symbologie (`EncodeTypes.Pdf417`) en de gegevens die je wilt coderen.
+## Hoe sla je de barcode‑afbeelding op als PNG?
+`Save` is een methode van `BarcodeGenerator` die de gegenereerde afbeelding naar een bestand schrijft. Geef een bestandspad en `BarCodeImageFormat.Png` door om in één stap een PNG‑afbeelding te maken.
 
 ```csharp
 // Step 1: Initialise the generator with PDF417 symbology and sample text.
@@ -105,14 +118,11 @@ De kern van het maken van de streepjescode bevindt zich in de `BarcodeGenerator`
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-### Waarom dit belangrijk is
+### Verwacht resultaat
+Het uitvoeren van het programma maakt `CompactPdf417.png` aan in de projectmap. Het openen van het bestand toont een compacte PDF417‑barcode die de string *Åspóse.Barcóde©* codeert. De afbeelding kan worden ingebed in HTML, PDF‑rapporten, of afgedrukt op labels.
 
-* **EncodeTypes.Pdf417** geeft de bibliotheek aan de PDF417‑standaard te gebruiken, die grote gegevenspayloads en foutcorrectie ondersteunt.
-* Het verstrekken van Unicode‑tekens bewijst dat de generator niet‑ASCII‑invoer zonder extra configuratie kan verwerken.
-
-## Hoe de weergave van de streepjescode te configureren
-
-Je kunt de grootte van elke module, het aantal kolommen en of de streepjescode compacte (afgekorte) modus gebruikt, regelen. Deze instellingen beïnvloeden zowel de leesbaarheid als de bestandsgrootte.
+## Hoe kun je het gegenereerde barcode‑bestand verifiëren?
+Na afloop van het programma kun je met een snelle opdracht controleren of het bestand bestaat. Deze eenvoudige controle bevestigt dat de generatie‑ en opslaan‑stappen zonder fouten zijn voltooid.
 
 ```csharp
 // Step 2: Set the module (X) dimension – each barcode element will be 2 pixels wide.
@@ -123,13 +133,49 @@ generator.Parameters.Barcode.Pdf417.Columns = 3;      // Number of columns (affe
 generator.Parameters.Barcode.Pdf417.Truncate = true; // Enable compact mode
 ```
 
-### Praktische tip
+Als het bestand verschijnt, is het **PDF417‑barcode‑maken**‑proces geslaagd.
 
-Als je een hogere streepjescode nodig hebt voor beperkte horizontale ruimte, verhoog dan `Columns`. Het instellen van `Truncate` op `true` verkleint de totale hoogte door de stille zones te verwijderen, wat ideaal is voor mobieltjeschermen.
+## Wat zijn veelvoorkomende variaties en randgevallen bij het genereren van PDF417‑barcodes?
+Verschillende scenario's kunnen aanpassingen van de generatorinstellingen vereisen. Hieronder een snelle referentietabel die laat zien hoe je typische variaties kunt afhandelen.
 
-## Hoe de streepjescode‑afbeelding op te slaan als PNG
+| Situatie | Aanpassing |
+|-----------|------------|
+| **Langere gegevensreeks** | Verhoog `Columns` of stel `Rows` in om meer codewoorden te kunnen verwerken. |
+| **Ander afbeeldingsformaat** | Vervang `BarCodeImageFormat.Png` door `Jpeg`, `Bmp` of `Gif`. |
+| **Hogere resolutie** | Stel `generator.Parameters.ImageResolution` in vóór `Save`. |
+| **Achtergrondkleur** | Gebruik `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;`. |
+| **Foutafhandeling** | Omring `generator.Save` met een `try/catch`‑blok om I/O‑fouten op te vangen. |
 
-Na het configureren van de generator roep je `Save` aan met een bestandspad en het gewenste afbeeldingsformaat. De methode schrijft de afbeelding direct naar de schijf.
+Deze variaties laten je de barcode afstemmen op specifieke apparaten of merkrichtlijnen.
+
+## Wat is de volgende stap na het maken van de barcode?
+Nu je een PDF417‑barcode kunt genereren en opslaan, kun je gerelateerde mogelijkheden verkennen, zoals het genereren van QR‑codes, het insluiten van barcodes in PDF‑documenten, of het aanpassen van kleuren voor merkaanpassing. Al deze functionaliteiten gebruiken dezelfde `BarcodeGenerator`‑API, zodat je het voorbeeld met minimale inspanning kunt uitbreiden.
+
+## Gerelateerde handleidingen
+- [Hoe een barcode maken – Compact PDF417 met Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Hoe DataMatrix‑barcodes (ECC 200) genereren met Aspose.BarCode voor .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [Hoe een Aztec‑barcode genereren met aangepaste beeldverhouding met Aspose.BarCode voor .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+
+## Veelgestelde vragen
+
+**V: Kan ik deze code gebruiken in een webapplicatie?**  
+Ja. Dezelfde `BarcodeGenerator`‑klasse werkt in ASP.NET-, MVC- of Blazor‑projecten; zorg er alleen voor dat de server schrijfrechten heeft voor de doelmap.
+
+**V: Ondersteunt Aspose.Barcode andere 2‑D‑symbologieën?**  
+Zeker. Meer dan 30 2‑D‑barkodetypen worden ondersteund, waaronder QR, DataMatrix en Aztec.
+
+**V: Hoe groot kan een barcode zijn?**  
+PDF417 kan tot 1.850 tekens coderen in één symbool; je kunt data ook over meerdere rijen verdelen door `Rows` en `Columns` aan te passen.
+
+**V: Is een licentie vereist voor productiegebruik?**  
+Ja. Er is een gratis proefversie beschikbaar voor evaluatie, maar een commerciële licentie is nodig voor productie.
+
+**V: Welke .NET‑versies zijn compatibel?**  
+Aspose.Barcode ondersteunt .NET Framework 4.5+, .NET Core 3.1+ en .NET 5/6/7.
+
+**Laatst bijgewerkt:** 2026-10-04  
+**Getest met:** Aspose.Barcode 24.11 for .NET  
+**Auteur:** Aspose  
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image.
@@ -137,15 +183,6 @@ string outputPath = @"./CompactPdf417.png";
 generator.Save(outputPath, BarCodeImageFormat.Png);
 Console.WriteLine($"Barcode saved to {outputPath}");
 ```
-
-### Verwacht resultaat
-
-Het uitvoeren van het programma maakt `CompactPdf417.png` aan in de projectmap. Het openen van het bestand toont een compacte PDF417‑streepjescode die de tekenreeks *Åspóse.Barcóde©* codeert. De afbeelding kan worden ingebed in HTML, PDF‑rapporten of afgedrukt op labels.
-
-## Volledige broncode
-
-Hieronder staat het volledige, uitvoerbare programma. Kopieer het naar `Program.cs` en voer `dotnet run` uit.
-
 ```csharp
 using System;
 using Aspose.Barcode.Generation;
@@ -180,42 +217,13 @@ namespace Pdf417Demo
     }
 }
 ```
-
-### De output verifiëren
-
-Nadat het programma is voltooid, kun je met een snelle opdracht controleren of het bestand bestaat:
-
 ```bash
 dotnet run && ls -l CompactPdf417.png
 ```
 
-Als het bestand verschijnt, is het **PDF417‑streepjescode maken** proces geslaagd.
-
-## Veelvoorkomende variaties en randgevallen
-
-| Situation | Adjustment |
-|-----------|------------|
-| **Langere gegevensreeks** | Verhoog `Columns` of stel `Rows` in om meer codewoorden te huisvesten. |
-| **Ander afbeeldingsformaat** | Vervang `BarCodeImageFormat.Png` door `Jpeg`, `Bmp` of `Gif`. |
-| **Hogere resolutie** | Stel `generator.Parameters.ImageResolution` in vóór `Save`. |
-| **Achtergrondkleur** | Gebruik `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;` |
-| **Foutafhandeling** | Plaats `generator.Save` in een `try/catch`‑blok om I/O‑fouten op te vangen. |
-
-## Conclusie
-
-Je weet nu hoe je een **PDF417‑streepjescode** in C# kunt **maken** met Aspose.Barcode, hoe je de weergave kunt configureren, en hoe je een **streepjescode‑afbeelding** als PNG‑bestand kunt **opslaan**. Het volledige voorbeeld toont elke benodigde stap, van projectopzet tot verificatie, zodat je barcode‑generatie kunt integreren in elke .NET‑oplossing.
-
-Vervolgens kun je gerelateerde onderwerpen verkennen, zoals **hoe je QR‑codes genereert**, **streepjescodes in PDF‑documenten embedden**, of **barcode‑kleuren aanpassen**. Elk van deze bouwt voort op dezelfde generator‑API, waardoor je de scan‑mogelijkheden van je applicatie met minimale inspanning kunt uitbreiden. Veel programmeerplezier!
-
-## Wat moet je hierna leren?
-
-De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze handleiding worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stapsgewijze uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
-
-- [Hoe een streepjescode te maken – Compact PDF417 met Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Hoe DataMatrix‑streepjescodes (ECC 200) te genereren met Aspose.BarCode voor .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-- [Hoe een Aztec‑streepjescode te genereren met aangepaste beeldverhouding met Aspose.BarCode voor .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

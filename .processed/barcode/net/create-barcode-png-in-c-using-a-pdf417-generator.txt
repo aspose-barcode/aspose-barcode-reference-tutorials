@@ -1,0 +1,7 @@
+Title: Create barcode png in C# using a PDF417 generator
+Slug: create-barcode-png-in-c-using-a-pdf417-generator
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-12T11:15:24.359528
+SourceRepo: AI Search API
+Keywords: create barcode png, generate pdf417 barcode, pdf417 barcode image, how to generate pdf417, c# pdf417 generator
+PRNumber: 152

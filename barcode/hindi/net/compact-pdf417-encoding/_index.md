@@ -140,6 +140,8 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 - **लाइसेंस अपवाद:** ट्रायल वातावरण में जनरेटेड बारकोड में वॉटरमार्क हो सकता है। इसे हटाने के लिए वैध लाइसेंस लागू करें।
 
 ## Compact PDF417 एन्कोडिंग ट्यूटोरियल
+### [How to create micro pdf417 barcode in C# and save it as PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
+
 ### [How to generate PDF417 barcodes in C# with Aspose.BarCode](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
 
 
@@ -224,6 +226,8 @@ Aspose.BarCode for .NET का उपयोग करके C# में PDF417 
 - [C# में BarCodeReader के साथ PDF417 बारकोड कैसे डिकोड करें](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 ### [Aspose के साथ PDF417 बारकोड बनाना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-create-pdf417-barcode-with-aspose-complete-step-st/)
 
+### [Aspose के साथ PDF417 बारकोड बनाना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+
 Aspose.BarCode for .NET का उपयोग करके PDF417 बारकोड को शुरू से अंत तक बनाना सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
 ### [C# में PDF417 बारकोड बनाना – PDF417 बारकोड C# बनाएं](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
 
@@ -238,6 +242,8 @@ Aspose.BarCode for .NET के साथ विशेष अक्षरों �
 
 Aspose.BarCode for .NET का उपयोग करके PDF417 बारकोड बनाने के विस्तृत चरण‑दर‑चरण निर्देश और कोड उदाहरण।
 ### [डेटा के साथ C# में बारकोड बनाना – चरण‑दर‑चरण गाइड](./create-barcode-with-data-in-c-step-by-step-guide/)
+
+### [C# में PDF417 पढ़ना – पूर्ण बारकोड उदाहरण](./how-to-read-pdf417-barcode-in-c-barcode-reader-example/)
 
 Aspose.BarCode for .NET का उपयोग करके C# में डेटा के साथ बारकोड बनाने के चरण‑दर‑चरण निर्देश और कोड उदाहरण।
 ### [C# में PDF417 पढ़ना – पूर्ण बारकोड उदाहरण](./how-to-read-pdf417-in-c-complete-barcode-example/)
@@ -300,7 +306,9 @@ Aspose.BarCode for .NET का उपयोग करके C# में मा�
 
 ### [C# में PDF417 बारकोड जनरेट करें – कॉम्पैक्ट लेआउट के साथ पूर्ण गाइड](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
 
+- [C# में टेक्स्ट से बारकोड बनाएं – Aspose.BarCode के साथ](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
 Aspose.BarCode for .NET का उपयोग करके C# में कॉम्पैक्ट लेआउट के साथ PDF417 बारकोड बनाने की पूरी प्रक्रिया।
+- [C# में इमेज से बारकोड पढ़ना – Aspose.BarCode का उपयोग](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
 
 ### [Macro PDF417 के साथ C# में बारकोड जनरेट करें – पूर्ण उदाहरण](./generate-barcode-c-with-macro-pdf417-full-example/)
 
@@ -340,6 +348,7 @@ Aspose.BarCode for .NET का उपयोग करके C# में PDF417 
 - [.NET में एरर करेक्शन के साथ Aztec बारकोड कैसे बनाएं](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [C# में PDF417 बारकोड कैसे जनरेट करें और बारकोड आकार सेट करें](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
 - [C# में PDF417 बारकोड बनाएं और PNG के रूप में सहेजें](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+- [C# में PDF417 बारकोड बनाएं और PNG के रूप में सहेजें](./how-to-create-pdf417-barcode-and-save-it-as-png-in-c/)
 - [C# में माइक्रो PDF417 बारकोड कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [C# के साथ मैक्रो PDF417 बारकोड जेनरेटर कैसे उपयोग करें](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
 - [C# में PDF417 बारकोड कैसे पढ़ें – पूर्ण गाइड](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
@@ -352,6 +361,7 @@ Aspose.BarCode for .NET का उपयोग करके C# में PDF417 
 - [बारकोड जेनरेटर C# गाइड: माइक्रो PDF417 बनाएं](./barcode-generator-c-guide-create-micropdf417/)
 - [C# में कॉम्पैक्ट मोड के साथ PDF417 बारकोड कैसे बनाएं](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
 - [C# में PDF417 बारकोड कैसे जनरेट करें – चरण‑दर‑चरण गाइड](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
+- [इमेज से बारकोड पढ़ें C# – मैक्रो PDF417 के साथ पूर्ण गाइड](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 - [इमेज से बारकोड डिकोड करें C# बारकोड रीडर उदाहरण के साथ](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 - [C# में PDF417 बारकोड बनाएं और PNG निर्यात करें](./how-to-create-pdf417-barcode-and-export-png-in-c/)
 - [C# में PDF417 डिकोड करने का बारकोड रीडर उदाहरण](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
