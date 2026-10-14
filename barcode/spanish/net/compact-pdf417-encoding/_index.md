@@ -271,6 +271,7 @@ R: No se requieren fuentes externas; la biblioteca maneja todo el renderizado in
 - [Cómo generar código de barras PDF417 en C# y establecer el tamaño del código de barras](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 - [Leer código de barras desde una imagen C# – guía completa con Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 - [Cómo crear código de barras PDF417 en C# y guardarlo como PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+- [Generar código de barras PDF417 y crear imagen de código de barras C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
 - [Cómo crear código de barras micro PDF417 en C# – guía paso a paso](./how-to-create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [Tutoriales y ejemplos completos de Aspose.BarCode para .NET](/barcode/net/)
 - [Cómo crear código de barras Aztec con corrección de errores en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
@@ -281,6 +282,7 @@ R: No se requieren fuentes externas; la biblioteca maneja todo el renderizado in
 - [Cómo crear MicroPdf417 con el generador de códigos de barras C#](./barcode-generator-c-guide-create-micropdf417/)
 - [Cómo generar código de barras PDF417 en C# – guía paso a paso](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 - [Decodificar código de barras desde una imagen con un ejemplo de lector de códigos de barras en C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
+- [Generar código de barras PDF417 en C# usando Aspose – guía paso a paso](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
 - [Cómo leer código de barras desde una imagen en C# usando Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

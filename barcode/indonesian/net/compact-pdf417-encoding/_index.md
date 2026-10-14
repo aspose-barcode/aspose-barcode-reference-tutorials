@@ -174,6 +174,12 @@ Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dan menyimpan seb
 ### [Cara mendekode PDF417 di C# dengan contoh pembaca barcode](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
 Panduan langkah demi langkah untuk mendekode barcode PDF417 menggunakan Aspose.BarCode Reader di C# dengan contoh kode lengkap.
 
+### [Menghasilkan barcode PDF417 di C# menggunakan Aspose – panduan langkah‑demi‑langkah](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
+Panduan lengkap langkah demi langkah untuk menghasilkan barcode PDF417 menggunakan Aspose di C#.
+
+### [Menghasilkan barcode PDF417 dan membuat gambar barcode C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
+Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dan menyimpan sebagai gambar menggunakan C# dan Aspose.BarCode.
+
 Kepadatan data tinggi dan koreksi kesalahan yang kuat pada Compact PDF417 menjadikannya cocok untuk berbagai aplikasi di mana ruang terbatas dan keandalan sangat penting. Berikut beberapa skenario umum di mana simbol ini memberikan manfaat nyata, termasuk logistik, tiket, antarmuka seluler, dan pelabelan peralatan industri.
 
 - **Pengiriman & Logistik:** Enkode nomor pelacakan, ID batch, dan informasi rute pada label kecil.  

@@ -227,6 +227,10 @@ Aspose.BarCode for .NET を使用して、C# で PDF417 バーコードを生成
 
 ### [C# で PDF417 バーコードを生成する方法 – コンパクト例](./how-to-generate-pdf417-barcode-in-c-compact-example/)
 
+### [Aspose を使用して C# で PDF417 バーコードを生成する – ステップバイステップガイド](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
+
+### [C#でPDF417バーコードを生成し、バーコード画像を作成する](./generate-pdf417-barcode-and-create-barcode-image-c/)
+
 ### [C# で Aspose.BarCode を使用してバーコードを生成する方法](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 
 ### [C#でMicro PDF417バーコードを作成し、PNGとして保存する方法](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)

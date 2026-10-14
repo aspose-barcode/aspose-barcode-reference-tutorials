@@ -407,6 +407,8 @@ A: Ne, nejsou potřeba žádné externí fonty; knihovna provádí veškeré vyk
 - [Komplexní tutoriály a příklady Aspose.BarCode pro .NET](/barcode/net/)
 - [Jak vytvořit Aztec čárový kód s korekcí chyb v .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [Vygenerovat PDF417 čárový kód s kompaktním nastavením v C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
+- [Generovat PDF417 čárový kód v C# pomocí Aspose – krok‑za‑krokem průvodce](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
+- [Generovat PDF417 čárový kód a vytvořit obrázek čárového kódu C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
 - [Jak dekódovat PDF417 čárové kódy v C# pomocí BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 - [Číst čárový kód z obrázku C# – kompletní průvodce s Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 - [Jak dekódovat PDF417 čárové kódy v C# – krok za krokem](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)

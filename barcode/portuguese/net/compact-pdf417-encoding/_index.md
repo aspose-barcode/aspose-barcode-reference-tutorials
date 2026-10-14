@@ -357,6 +357,8 @@ A: Não são necessárias fontes externas; a biblioteca lida com toda a renderiz
 - [Criar código de barras macro PDF417 com Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
 - [Como ler códigos de barras PDF417 em C# – guia completo passo a passo](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 - [Criar código de barras PDF417 em C# – guia completo](./create-pdf417-barcode-in-c-complete-guide/)
+- [Gerar código de barras PDF417 em C# usando Aspose – guia passo a passo](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
+- [Gerar código de barras PDF417 e criar imagem de código de barras C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
 - [Como usar o Aspose Barcode Generator C# para um código de barras MacroPdf417](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
 - [Ler código de barras de imagem C# – guia completo com Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 

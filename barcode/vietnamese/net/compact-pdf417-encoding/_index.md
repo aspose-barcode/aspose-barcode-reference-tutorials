@@ -241,6 +241,9 @@ Hướng dẫn cách thay đổi kích thước mã vạch PDF417 trong C# bằn
 ### [Cách tạo mã vạch PDF417 và đặt kích thước trong C#](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
 Hướng dẫn chi tiết cách tạo mã vạch PDF417 và điều chỉnh kích thước trong C# bằng Aspose.BarCode.
 
+### [Tạo mã vạch PDF417 và tạo hình ảnh mã vạch C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
+Hướng dẫn tạo mã vạch PDF417 và lưu dưới dạng hình ảnh bằng C# và Aspose.BarCode.
+
 ### [Mã vạch với ký tự đặc biệt – Hướng dẫn đầy đủ tạo PDF417 bằng Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
 Hướng dẫn chi tiết cách tạo mã PDF417 chứa ký tự đặc biệt bằng Aspose.BarCode cho .NET, bao gồm cấu hình và ví dụ thực tế.
 ### [Tạo Mã Vạch PDF417 trong .NET – Hướng Dẫn Lập Trình Toàn Diện](./create-pdf417-barcode-in-net-complete-programming-guide/)
@@ -349,6 +352,7 @@ Hướng dẫn chi tiết cách đọc mã vạch từ hình ảnh trong C# sử
 - [Hướng Dẫn Toàn Diện và Ví Dụ của Aspose.BarCode cho .NET](/barcode/net/)
 - [Cách tạo mã vạch Aztec với sửa lỗi trong .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [Cách tạo mã vạch và tùy chỉnh mã PDF417 trong C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
+- [Tạo mã vạch PDF417 trong C# bằng Aspose – hướng dẫn từng bước](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
