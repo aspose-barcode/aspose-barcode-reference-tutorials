@@ -85,7 +85,7 @@ url: /zh/net/one-dimensional-barcode-types/
 ### [使用 Aspose.BarCode 从文本生成条形码 – C# 指南](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 了解如何使用 Aspose.BarCode 在 .NET 中通过文本生成条形码的 C# 示例。请遵循我们的分步指南。
 ### [如何在 C# 中生成条码 – 完整编程指南](./how-to-generate-barcode-in-c-complete-programming-guide/)
-了解如何使用 Aspose.BarCode 在 C# 中完整生成条形码的步骤与技巧，涵盖从初始化到自定义的全流程。
+了解如何使用 Aspose.BarCode 在 C# 中完整生成条码的步骤与技巧，涵盖从初始化到自定义的全流程。
 ### [如何使用 Aspose 在 C# 中生成条码](./how-to-generate-barcode-with-aspose-in-c/)
 了解如何在 C# 中使用 Aspose 生成条码的完整指南。
 
@@ -94,6 +94,9 @@ url: /zh/net/one-dimensional-barcode-types/
 ### [如何在 C# 中使用 Aspose.BarCode 设置条码参数](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 ### [在 C# 中生成包含特殊字符的条码](./how-to-generate-a-barcode-with-special-characters-in-c/)
 了解如何在 C# 中使用 Aspose.BarCode 生成包含特殊字符的条码。
+
+### [在 C# 中读取条码图像 – 完整示例指南](./how-to-read-barcode-images-in-c-full-example-guide/)
+了解如何在 C# 中使用 Aspose.BarCode 完整读取条码图像的示例指南。
 
 ## 结论
 

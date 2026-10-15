@@ -67,7 +67,7 @@ Aspose.BarCode를 사용하여 .NET에서 1차원 Code 39 바코드를 생성하
 ### [1차원 데이터바 종횡비 사용자 정의](./one-dimensional-databar-aspect-ratio-customization/)
 Aspose.BarCode를 사용하여 .NET에서 1차원 DataBar 종횡비를 사용자 정의하는 방법을 알아보세요. 바코드 정밀도와 디자인을 향상시킵니다.
 ### [1차원 데이터바 바코드 높이 조정](./one-dimensional-databar-barcode-height-adjustment/)
-.NET용 Aspose.BarCode를 사용하여 1차원 데이터바 바코드 높이를 조정하는 방법을 알아보세요. 몇 가지 간단한 단계를 통해 맞춤형 바코드를 만드세요. 바코드 사용자 정의의 힘을 살펴보세요.
+.NET용 Aspose.BarCode를 사용하여 1차원 데이터바 바코드 높이를 조정하는 방법을 알아보세요. 몇 가지 간단한 단계로 맞춤형 바코드를 만드세요. 바코드 사용자 정의의 힘을 살펴보세요.
 ### [1차원 데이터바 GS1 인코딩](./one-dimensional-databar-gs1-encoding/)
 Aspose.BarCode를 사용하여 .NET에서 Databar GS1 인코딩 바코드를 만드는 방법을 알아보세요. 쉽게 바코드를 생성하세요. 단계별 가이드를 따르세요.
 ### [1차원 데이터바 행 및 열 구성](./one-dimensional-databar-row-column-configuration/)
@@ -88,6 +88,8 @@ Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 
 Aspose.BarCode를 사용하여 C#에서 바코드를 생성하는 전체 가이드를 확인하세요.
 ### [C#에서 이미지로부터 바코드 읽기 – BarCodeReader 튜토리얼](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Aspose.BarCode의 BarCodeReader를 사용하여 C#에서 이미지 파일의 바코드를 읽는 방법을 단계별로 안내합니다.
+### [C#에서 바코드 이미지 읽기 – 전체 예제 가이드](./how-to-read-barcode-images-in-c-full-example-guide/)
+Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 전체 예제 가이드를 단계별로 안내합니다.
 ### [Aspose를 사용하여 C#에서 바코드 생성하는 방법](./how-to-generate-barcode-with-aspose-in-c/)
 Aspose.BarCode를 사용하여 C#에서 바코드를 생성하는 방법을 단계별로 안내합니다.
 ### [특수 문자를 사용한 C# 바코드 생성 방법](./how-to-generate-a-barcode-with-special-characters-in-c/)

@@ -95,6 +95,8 @@ Leer hoe u barcode-parameters configureert in C# met Aspose.BarCode voor optimal
 Leer hoe u met Aspose.BarCode in C# barcodes genereert, stap voor stap.
 ### [Hoe een barcode met speciale tekens genereren in C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Leer hoe u barcodes met speciale tekens maakt in C# met Aspose.BarCode.
+### [Hoe barcode-afbeeldingen lezen in C# – volledige voorbeeldgids](./how-to-read-barcode-images-in-c-full-example-guide/)
+Leer hoe u barcode-afbeeldingen in C# kunt lezen met een volledige voorbeeldgids.
 
 ## Conclusie
 

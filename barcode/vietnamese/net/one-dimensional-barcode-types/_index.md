@@ -84,6 +84,8 @@ Hướng dẫn chi tiết cách tạo và cấu hình mã vạch trong C# bằng
 Hướng dẫn tạo mã vạch chứa ký tự đặc biệt trong C# bằng Aspose.BarCode, bao gồm các bước cấu hình và ví dụ thực tế.
 ### [Đọc mã vạch từ hình ảnh – ví dụ C#](./read-barcode-from-image-c-barcode-reader-example/)
 Hướng dẫn cách đọc mã vạch từ hình ảnh trong .NET bằng Aspose.BarCode và C# qua ví dụ thực tế.
+### [Cách đọc hình ảnh mã vạch trong C# – hướng dẫn đầy đủ ví dụ](./how-to-read-barcode-images-in-c-full-example-guide/)
+Hướng dẫn chi tiết cách đọc mã vạch từ hình ảnh trong C# bằng Aspose.BarCode, kèm ví dụ đầy đủ.
 ### [Cách thiết lập các tham số mã vạch trong C# bằng Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Hướng dẫn từng bước để cấu hình các tham số mã vạch trong C# bằng Aspose.BarCode, giúp bạn tùy chỉnh mã vạch một cách dễ dàng.
 ### [Tạo mã vạch từ văn bản bằng Aspose.BarCode – Hướng dẫn C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
