@@ -152,7 +152,7 @@ Naučte se, jak v C# pomocí Aspose.BarCode vygenerovat čárový kód a přidat
 Naučte se, jak pomocí Aspose.BarCode pro .NET vygenerovat PDF417 čárový kód v jazyce C# krok za krokem.
 
 ### [Generování PDF417 čárového kódu v C# – Kompletní průvodce krok za krokem](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
-Podrobný návod, jak v C# vytvořit PDF417 čárový kód s Aspose.BarCode, včetně nastavení a optimalizace.
+Podrobný návod, jak v C# pomocí Aspose.BarCode vygenerovat PDF417 čárový kód s ukázkovým kódem.
 
 ### [Jak číst PDF417 v C# – Kompletní průvodce krok za krokem](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.BarCode pro .NET načíst a dekódovat PDF417 čárové kódy v C# krok za krokem.
@@ -160,7 +160,7 @@ Naučte se, jak pomocí Aspose.BarCode pro .NET načíst a dekódovat PDF417 č�
 ### [Jak číst PDF417 čárové kódy v C# – kompletní krok‑za‑krokem průvodce](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.BarCode pro .NET načíst a dekódovat PDF417 čárové kódy v C# krok za krokem.
 
-### [Jak vygenerovat obrázek čárového kódu v C# – Průvodce MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
+### [Jak vygenerovat obrázek čárového kódu MicroPdf417 v C# – Průvodce MicroPdf417](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
 Naučte se vytvořit obrázek čárového kódu MicroPdf417 v C# pomocí Aspose.BarCode.
 
 ### [Vytvoření PNG čárového kódu v C# – Krok‑za‑krokem průvodce](./create-barcode-png-in-c-step-by-step-guide/)
@@ -209,9 +209,9 @@ Kompletní návod, jak v C# pomocí Aspose.BarCode vygenerovat PDF417 čárový 
 Kompletní návod, jak pomocí Aspose.BarCode pro .NET vytvořit a přizpůsobit PDF417 čárový kód od základů až po pokročilé možnosti.
 
 ### [Jak číst PDF417 v C# – Kompletní příklad čtečky čárových kódů](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
-Naučte se, jak pomocí Aspose.BarCode pro .NET číst PDF417 kódy v C# s kompletním příkladem.
+Naučte se, jak pomocí Aspose.BarCode pro .NET načíst PDF417 kódy v C# s kompletním příkladem.
 
-### [Jak vytvořit PDF417 čárový kód s Aspose – Kompletní průvodce krok za krokem](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
+### [Jak vytvořit PDF417 čárový kód s Aspose – Kompletní průvodce krok za krokem](./how-to-create-pdf417-barcode-with-aspose-complete-step-st/)
 Kompletní návod, jak pomocí Aspose.BarCode pro .NET vytvořit PDF417 čárový kód od nastavení po uložení obrázku.
 
 ### [Generovat PDF417 čárový kód v C# – Vytvořit PDF417 čárový kód C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
@@ -253,14 +253,65 @@ Kompletní návod, jak v C# vytvořit PDF417 čárový kód pomocí Aspose.BarCo
 ### [Jak uložit čárový kód jako obrázek – kompletní průvodce v C#](./how-to-save-barcode-as-an-image-complete-c-guide/)
 Kompletní průvodce, jak v C# pomocí Aspose.BarCode uložit čárový kód jako obrázek.
 
-### [Čtení PDF417 čárového kódu v C# – příklad čtečky čárových kódů](./read-pdf417-barcode-in-c-barcode-reader-example/)
-Ukázka, jak pomocí Aspose.BarCode pro .NET načíst PDF417 čárový kód v C#.
+### [Příklad Aspose Barcode: generování Macro PDF417 v C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
+Ukázka, jak pomocí Aspose.BarCode pro .NET vygenerovat Macro PDF417 čárový kód v jazyce C#.
 
-### [Generování PDF417 čárového kódu v C# – průvodce generátorem čárových kódů](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
-Naučte se generovat PDF417 čárový kód v C# pomocí generátoru čárových kódů.
+### [Generování PDF417 čárového kódu v C# – krok za krokem](./generate-pdf417-barcode-in-c-step-by-step-guide/)
+Podrobný návod, jak v C# pomocí Aspose.BarCode vytvořit PDF417 čárový kód s ukázkovým kódem.
 
-### [Jak uložit obrázky čárových kódů v C# – kompletní průvodce](./how-to-save-barcode-images-in-c-complete-guide/)
-Kompletní návod, jak v C# uložit vygenerované čárové kódy jako obrázky v různých formátech.
+### [Generování čárového kódu z textu v C# – kompletní krok‑za‑krokem průvodce](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
+Kompletní návod, jak v C# pomocí Aspose.BarCode vygenerovat čárový kód z libovolného textu.
+
+### [Jak číst PDF417 v C# – kompletní průvodce čtečkou čárových kódů](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
+Kompletní návod, jak v C# pomocí Aspose.BarCode načíst a dekódovat PDF417 čárové kódy.
+
+### [Generování čárových kódů Aspose – kompletní průvodce C#](./generate-barcode-aspose-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose.BarCode v C# generovat různé typy čárových kódů od základů po pokročilé funkce.
+
+### [Vytvoření micro PDF417 obrázku v C# – krok‑za‑krokem průvodce](./create-micro-pdf417-image-in-c-step-by-step-guide/)
+Naučte se vytvořit micro PDF417 obrázek v C# pomocí Aspose.BarCode, s podrobným krok‑za‑krokem návodem.
+
+### [Jak vytvořit PDF417 čárový kód s Aspose – Kompletní průvodce krok za krokem](./how-to-create-pdf417-barcode-with-aspose-complete-step-st/)
+Kompletní návod, jak pomocí Aspose.BarCode pro .NET vytvořit PDF417 čárový kód od nastavení po uložení obrázku.
+
+### [Generovat PDF417 čárový kód v C# – Vytvořit PDF417 čárový kód C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
+Naučte se, jak pomocí Aspose.BarCode pro .NET v C# vytvořit PDF417 čárový kód a uložit jej jako obrázek.
+
+### [Úprava velikosti čárového kódu – C# průvodce generováním PDF417 čárových kódů](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
+Naučte se, jak pomocí Aspose.BarCode v C# nastavit a upravit velikost PDF417 čárových kódů pro různé aplikace.
+
+### [Čárový kód se speciálními znaky – Kompletní průvodce generováním PDF417 pomocí Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
+Naučte se, jak generovat PDF417 čárové kódy obsahující speciální znaky s využitím Aspose.BarCode pro .NET.
+
+### [Vytvoření PDF417 čárového kódu v .NET – Kompletní programovací průvodce](./create-pdf417-barcode-in-net-complete-programming-guide/)
+Kompletní návod, jak v .NET vytvořit PDF417 čárový kód, včetně nastavení, přizpůsobení a ukládání.
+
+### [Vytvoření čárového kódu s daty v C# – krok‑za‑krokem](./create-barcode-with-data-in-c-step-by-step-guide/)
+Naučte se, jak v C# pomocí Aspose.BarCode vytvořit čárový kód s vlastními daty, včetně nastavení, přizpůsobení a uložení.
+
+### [Jak číst PDF417 v C# – kompletní příklad čárového kódu](./how-to-read-pdf417-in-c-complete-barcode-example/)
+Kompletní příklad, jak v C# načíst a dekódovat PDF417 čárový kód pomocí Aspose.BarCode.
+
+### [Jak vytvořit PDF417 čárový kód v C# – krok‑za‑krokem průvodce](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.BarCode pro .NET v C# vytvořit PDF417 čárový kód krok za krokem.
+
+### [Jak dekódovat PDF417 čárové kódy v C# – kompletní průvodce](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
+Naučte se, jak pomocí Aspose.BarCode pro .NET v C# načíst a dekódovat PDF417 čárové kódy krok za krokem.
+
+### [Jak vygenerovat obrázek čárového kódu PDF417 v C# s Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
+Naučte se generovat obrázek PDF417 čárového kódu v C# pomocí Aspose.
+
+### [Čtení více čárových kódů v C# – Kompletní průvodce s PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
+Naučte se, jak pomocí Aspose.BarCode načíst více čárových kódů najednou v C# s podporou PDF417.
+
+### [Vytvoření PDF417 čárového kódu v C# – krok za krokem](./create-pdf417-barcode-in-c-step-by-step-guide/)
+Kompletní návod, jak v C# pomocí Aspose.BarCode vytvořit PDF417 čárový kód krok po kroku.
+
+### [Generování PDF417 čárového kódu v C# – kompletní průvodce s Aspose.BarCode](./generate-pdf417-barcode-c-complete-guide-with-aspose-barcode/)
+Kompletní návod, jak v C# vytvořit PDF417 čárový kód pomocí Aspose.BarCode, včetně nastavení a příkladů.
+
+### [Jak uložit čárový kód jako obrázek – kompletní průvodce v C#](./how-to-save-barcode-as-an-image-complete-c-guide/)
+Kompletní průvodce, jak v C# pomocí Aspose.BarCode uložit čárový kód jako obrázek.
 
 ### [Příklad Aspose Barcode: generování Macro PDF417 v C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
 Ukázka, jak pomocí Aspose.BarCode pro .NET vygenerovat Macro PDF417 čárový kód v jazyce C#.
@@ -291,6 +342,7 @@ Naučte se generovat PDF417 čárové kódy v C# s kompaktním rozvržením pomo
 
 ### [Generování čárového kódu v C# s Macro PDF417 – kompletní příklad](./generate-barcode-c-with-macro-pdf417-full-example/)
 Ukázkový kód pro generování čárového kódu Macro PDF417 v C# pomocí Aspose.BarCode.
+
 ### [Jak generovat PDF417 čárový kód v C# a nastavit velikost čárového kódu](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 Naučte se generovat PDF417 čárový kód v C# a upravit jeho velikost pomocí Aspose.BarCode.
 
@@ -311,6 +363,7 @@ Kompletní návod, jak pomocí Aspose.BarCode v C# načíst a dekódovat PDF417 
 
 ### [Jak číst PDF417 čárové kódy v C# – kompletní průvodce](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 Kompletní návod, jak pomocí Aspose.BarCode v C# načíst a dekódovat PDF417 čárové kódy.
+
 ### [Jak generovat PDF417 čárový kód v C# – kompletní průvodce](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
 Kompletní návod, jak v C# pomocí Aspose.BarCode vygenerovat PDF417 čárový kód s podrobným příkladem kódu.
 
@@ -322,11 +375,13 @@ Naučte se, jak pomocí Aspose.BarCode v .NET vytvořit PDF417 čárový kód kr
 
 ### [Jak generovat PDF417 čárový kód v C# pomocí Barcode Generatoru](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 Naučte se, jak v C# vytvořit PDF417 čárový kód pomocí třídy BarcodeGenerator.
+
 ### [Jak vygenerovat micro PDF417 čárový kód v C# – krok za krokem průvodce](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
 Kompletní krok‑za‑krokem návod, jak v C# vytvořit micro PDF417 čárový kód pomocí Aspose.BarCode.
 
 ### [Jak vygenerovat PDF417 čárový kód v C# s vlastními rozměry](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
 Naučte se nastavit vlastní rozměry čárového kódu PDF417 v C# pomocí Aspose.BarCode.
+
 ### [Jak vygenerovat PDF417 čárový kód v C# – kompletní programovací průvodce](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
 Naučte se kompletně vygenerovat PDF417 čárový kód v C# s podrobnými ukázkami kódu a nastavením.
 
@@ -350,6 +405,7 @@ Naučte se, jak pomocí Aspose.BarCode pro .NET v C# vytvořit PDF417 čárový 
 
 ### [Dekódování čárového kódu z obrázku pomocí čtečky v C# – příklad](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
 Ukázka, jak pomocí Aspose.BarCode v C# načíst a dekódovat čárový kód z obrázku.
+
 ### [Jak vytvořit makro PDF417 čárový kód v C# pomocí Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
 Naučte se vytvořit makro PDF417 čárový kód v C# pomocí Aspose.BarCode s podrobným příkladem kódu.
 
@@ -358,33 +414,27 @@ Naučte se, jak pomocí Aspose.BarCode v C# vytvořit kompaktní PDF417 čárov�
 
 ### [Jak vygenerovat čárový kód v C# s Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
 Naučte se, jak v C# pomocí Aspose.BarCode generovat různé typy čárových kódů.
+
 ### [Jak použít Aspose Barcode Generator C# pro MacroPdf417 čárový kód](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
 Naučte se, jak pomocí Aspose.BarCode v C# vygenerovat MacroPdf417 čárový kód.
 
 ### [Jak vytvořit micro PDF417 čárový kód v C# a uložit jej jako PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
-Naučte se vygenerovat micro PDF417 čárový kód v C# a uložit jej jako PNG soubor pomocí Aspose.BarCode.
+Naučte se v C# pomocí Aspose.BarCode vygenerovat micro PDF417 čárový kód a uložit jej jako PNG soubor.
 
-### [Jak číst čárový kód z obrázku v C# pomocí Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
-Naučte se, jak v C# pomocí Aspose.BarCode načíst čárový kód z obrázku, včetně ukázek kódu a nastavení čtečky.
+### [Jak vygenerovat PDF417 čárový kód v C# – kompaktní příklad](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+Naučte se, jak pomocí Aspose.BarCode v C# vytvořit kompaktní PDF417 čárový kód s praktickým příkladem.
 
-### [Jak vytvořit čárový kód z textu v C# pomocí Aspose.BarCode](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
-Naučte se generovat čárový kód z textu v C# pomocí Aspose.BarCode s praktickými ukázkami kódu.
+### [Jak vygenerovat čárový kód v C# s Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
+Naučte se, jak v C# pomocí Aspose.BarCode generovat různé typy čárových kódů.
 
-### [Jak generovat čárový kód a přizpůsobit PDF417 čárový kód v C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
-Naučte se, jak v C# vytvořit a přizpůsobit PDF417 čárový kód pomocí Aspose.BarCode.
+### [Jak vygenerovat PDF417 čárový kód v C# s nastavením Macro‑PDF417](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
+Naučte se v C# generovat PDF417 čárový kód s nastavením Macro‑PDF417 pomocí Aspose.BarCode.
 
-### [Jak vytvořit PDF417 čárový kód a exportovat PNG v C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
-Naučte se pomocí Aspose.BarCode v C# vygenerovat PDF417 čárový kód a uložit jej jako PNG soubor.
+### [Jak vytvořit PNG čárového kódu v C# – krok‑za‑krokem průvodce](./how-to-create-barcode-png-in-c-step-by-step-guide/)
+Naučte se, jak v C# pomocí Aspose.BarCode vytvořit PNG obrázek čárového kódu krok za krokem.
 
-### [Jak dekódovat PDF417 v C# s příkladem čtečky čárových kódů](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
-
-Naučte se, jak pomocí Aspose.BarCode v C# dekódovat PDF417 čárový kód s ukázkovým čtečkou.
-
-### [Jak vytvořit micro PDF417 čárový kód a převést jej do PNG v C#](./how-to-create-micro-pdf417-barcode-and-convert-it-to-png-in/)
-Naučte se, jak v C# vytvořit micro PDF417 čárový kód a uložit jej jako PNG obrázek pomocí Aspose.BarCode.
-
-### [Vytvořit PNG čárového kódu v C# pomocí PDF417 generátoru](./create-barcode-png-in-c-using-a-pdf417-generator/)
-Naučte se, jak v C# pomocí Aspose.BarCode vygenerovat PNG obrázek PDF417 čárového kódu.
+### [Vytvořit PNG čárového kódu s PDF417 v C# – kompletní průvodce](./create-barcode-png-with-pdf417-in-c-complete-guide/)
+Naučte se, jak v C# pomocí Aspose.BarCode vygenerovat PDF417 čárový kód a uložit jej jako PNG soubor.
 
 ## Často kladené otázky
 

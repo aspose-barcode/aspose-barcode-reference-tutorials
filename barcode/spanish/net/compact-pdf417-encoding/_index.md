@@ -276,6 +276,8 @@ R: No se requieren fuentes externas; la biblioteca maneja todo el renderizado in
 - [Tutoriales y ejemplos completos de Aspose.BarCode para .NET](/barcode/net/)
 - [Cómo crear código de barras Aztec con corrección de errores en .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
 - [Cómo usar un generador de códigos de barras C# para Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
+- [Cómo crear un tutorial de generador de códigos de barras en C# que crea códigos Compact PDF417](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
+- [Cómo generar código de barras PDF417 en C# con Macro‑PDF417 settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 - [Cómo leer códigos de barras PDF417 en C# – guía completa](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 
 - [Cómo crear código de barras micro PDF417 en C# – guía paso a paso](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
@@ -290,7 +292,11 @@ R: No se requieren fuentes externas; la biblioteca maneja todo el renderizado in
 - [Generar código de barras PDF417 en C# usando Aspose – guía paso a paso](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
 - [Cómo leer código de barras desde una imagen en C# usando Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
 - [Cómo crear un ejemplo de código de barras Aspose con MacroPdf417 en C#](./how-to-build-an-aspose-barcode-example-with-macropdf417-in-c/)
-- [Crear PNG de código de barras en C# usando un generador PDF417](./create-barcode-png-in-c-using-a-pdf417-generator/)
+- [Crear PNG de código de barras en C# – guía paso a paso](./create-barcode-png-in-c-step-by-step-guide/)
+Aprende a crear imágenes PNG de códigos de barras en C# paso a paso usando Aspose.BarCode.
+
+### [Crear PNG de código de barras con PDF417 en C# – guía completa](./create-barcode-png-with-pdf417-in-c-complete-guide/)
+Aprende a crear un PNG de código de barras PDF417 en C# con una guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

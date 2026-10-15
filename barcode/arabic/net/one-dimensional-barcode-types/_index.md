@@ -93,6 +93,7 @@ url: /ar/net/one-dimensional-barcode-types/
 تعلم كيفية إنشاء باركود باستخدام Aspose في C# خطوة بخطوة.
 ### [كيفية إنشاء باركود بأحرف خاصة في C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 تعلم كيفية إنشاء باركود يحتوي على أحرف خاصة في C# باستخدام Aspose.BarCode خطوة بخطوة.
+### [كيفية قراءة صور الباركود في C# – دليل كامل بالأمثلة](./how-to-read-barcode-images-in-c-full-example-guide/)
 
 ## خاتمة
 

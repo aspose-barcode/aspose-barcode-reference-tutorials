@@ -95,6 +95,8 @@ Aspose.BarCode を使用して C# で画像からバーコードを読み取る�
 Aspose.BarCode を使用して C# でバーコードを生成する手順を学びます。
 ### [C# で特殊文字を含むバーコードを生成する方法](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Aspose.BarCode を使用して C# で特殊文字を含むバーコードを生成する手順をステップバイステップで解説します。
+### [C# でバーコード画像を読み取る方法 – 完全例ガイド](./how-to-read-barcode-images-in-c-full-example-guide/)
+Aspose.BarCode を使用して C# でバーコード画像を読み取る完全な例ガイドです。
 
 ## 結論
 

@@ -80,11 +80,12 @@ Lär dig hur du hanterar undantag samtidigt som du genererar endimensionella str
 Generera anpassade streckkoder enkelt med Aspose.BarCode för .NET. Steg-för-steg-guide för endimensionell bred-smal konfiguration.
 ### [Läs streckkod från bild i C# – BarCodeReader-handledning](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Lär dig hur du läser streckkoder från bilder i C# med Aspose.BarCodeReader. En steg-för-steg-guide för enkel implementering.
-
 ### [Hur man ställer in streckkod i C# – komplett Aspose.BarCode-guide](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
 Lär dig hur du konfigurerar streckkoder i C# med en komplett Aspose.BarCode-guide.
 ### [Läs streckkod från bild – C# streckkodsläsare exempel](./read-barcode-from-image-c-barcode-reader-example/)
 Lär dig hur du läser streckkoder från en bild i C# med Aspose.BarCode.
+### [Hur man läser streckkodsbilder i C# – fullständig exempelguide](./how-to-read-barcode-images-in-c-full-example-guide/)
+Lär dig hur du läser streckkodsbilder i C# med ett komplett exempel och Aspose.BarCode.
 ### [Generera streckkod från text med Aspose.BarCode – C#-guide](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Lär dig hur du skapar streckkoder från text i C# med Aspose.BarCode.
 ### [Hur man genererar streckkod i C# – Komplett programmeringsguide](./how-to-generate-barcode-in-c-complete-programming-guide/)

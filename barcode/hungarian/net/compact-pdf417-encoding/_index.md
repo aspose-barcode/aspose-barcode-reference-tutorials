@@ -136,6 +136,10 @@ Ismerje meg, hogyan hozhat létre MicroPdf417 vonalkódot C#‑ban az Aspose.Bar
 
 ### [Macro PDF417 vonalkód generálása C#‑ban – teljes példa](./generate-barcode-c-with-macro-pdf417-full-example/)
 Ismerje meg, hogyan hozhat létre teljes körű Macro PDF417 vonalkódot C#‑ban az Aspose.BarCode for .NET segítségével.
+
+### [Hogyan generáljunk PDF417 vonalkódot C#‑ban Macro‑PDF417 beállításokkal](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
+Ismerje meg, hogyan állíthatja be a Macro‑PDF417 beállításokat PDF417 vonalkód generálásához C#‑ban.
+
 ### [PDF417 vonalkód létrehozása Aspose-szal – Teljes útmutató](./create-pdf417-barcode-with-aspose-complete-guide/)
 Ismerje meg, hogyan hozhat létre PDF417 vonalkódokat az Aspose segítségével, részletes lépésekkel és kódrészletekkel.
 ### [Hogyan generáljunk PDF417 vonalkódot C#‑ban – kompakt példa](./how-to-generate-pdf417-barcode-in-c-compact-example/)
@@ -155,7 +159,7 @@ Ismerje meg, hogyan hozhat létre MacroPdf417 vonalkód példát C#‑ban az Asp
 ### [Hogyan hozzunk létre vonalkódot szövegből C#‑ban az Aspose.BarCode‑dal](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
 Ismerje meg, hogyan hozhat létre vonalkódot szöveges adatokból C#‑ban az Aspose.BarCode használatával.
 
-### [Hogyan mentse el a vonalkódot és generáljon PDF417-et az Aspose használatával C#-ban](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
+### [Hogyan mentse el a vonalkódot és generáljon PDF417-et az Aspose használatával C#‑ban](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
 
 ### [Hogyan építsünk egy vonalkód-generátor útmutatót C#‑ban, amely kompakt PDF417 vonalkódokat hoz létre](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
 
@@ -212,7 +216,7 @@ Ismerje meg, hogyan generáljon PNG formátumú vonalkódot C#‑ban az Aspose.B
 ### [PDF417 vonalkód létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-pdf417-barcode-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF417 vonalkódokat az Aspose segítségével, részletes lépésekkel és kódrészletekkel.
 ### [PDF417 vonalkód beolvasása C#‑ban – Teljes vonalkódolvasó példa](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
-Ismerje meg, hogyan olvashat PDF417 vonalkódokat C#‑ban az Aspose.BarCode for .NET segítségével, részletes lépésekkel és kódrészletekkel.
+Ismerje meg, hogyan olvashat PDF417 vonalkódokat C#‑ban az Aspose.BarCode for .NET segítségével, részletes lépésekkel és példákkal.
 ### [PDF417 vonalkód létrehozása Aspose‑szal – Teljes lépésről‑lépésre útmutató](./how-to-create-pdf417-barcode-with-aspose-complete-step-st/)
 
 ### [PDF417 vonalkód generálása C#‑ban egyedi méretekkel](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
@@ -294,3 +298,9 @@ A: Nem szükséges külső betűtípus; a könyvtár minden megjelenítést bels
 
 ### [PDF417 generátorral PNG vonalkód létrehozása C#‑ban](./create-barcode-png-in-c-using-a-pdf417-generator/)
 Ismerje meg, hogyan hozhat létre PNG vonalkódot PDF417 generátorral C#‑ban.
+
+### [Hogyan hozzunk létre vonalkód PNG-t C#‑ban – lépésről‑lépésre útmutató](./how-to-create-barcode-png-in-c-step-by-step-guide/)
+Ismerje meg, hogyan generáljon vonalkód PNG-t C#‑ban lépésről‑lépésre.
+
+### [PDF417 vonalkód PNG létrehozása C#‑ban – teljes útmutató](./create-barcode-png-with-pdf417-in-c-complete-guide/)
+Ismerje meg, hogyan hozhat létre PDF417 vonalkód PNG-t C#‑ban teljes körű útmutatóval.

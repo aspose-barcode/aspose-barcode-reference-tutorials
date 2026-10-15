@@ -83,9 +83,9 @@ url: /ru/net/one-dimensional-barcode-types/
 ### [Чтение штрих‑кода с изображения – пример считывателя штрих‑кода на C#](./read-barcode-from-image-c-barcode-reader-example/)
 Узнайте, как считывать штрих‑коды из изображений с помощью Aspose.BarCode в C#.
 ### [Генерация штрих-кода из текста с помощью Aspose.BarCode – руководство C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
-Узнайте, как создать штрих-код из текста в C# с помощью Aspose.BarCode. Пошаговое руководство.
-### [Как сгенерировать штрих-код в C# – Полное руководство по программированию](./how-to-generate-barcode-in-c-complete-programming-guide/)
-Узнайте, как генерировать штрих-коды в C# с помощью Aspose.BarCode. Полное пошаговое руководство по программированию.
+Узнайте, как создать штрих‑код из текста в C# с помощью Aspose.BarCode. Пошаговое руководство.
+### [Как сгенерировать штрих‑код в C# – Полное руководство по программированию](./how-to-generate-barcode-in-c-complete-programming-guide/)
+Узнайте, как генерировать штрих‑коды в C# с помощью Aspose.BarCode. Полное пошаговое руководство по программированию.
 ### [Как сгенерировать штрих‑код с Aspose в C#](./how-to-generate-barcode-with-aspose-in-c/)
 Узнайте, как генерировать штрих‑коды в C# с помощью Aspose.BarCode.
 
@@ -94,6 +94,9 @@ url: /ru/net/one-dimensional-barcode-types/
 
 ### [Считывание штрих‑кода из изображения в C# – руководство BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Узнайте, как с помощью Aspose.BarCode считывать штрих‑коды из изображений в C# с использованием BarCodeReader.
+
+### [Как читать изображения штрих‑кода в C# – полное руководство с примером](./how-to-read-barcode-images-in-c-full-example-guide/)
+Полное руководство по чтению изображений штрих‑кода в C# с примером кода.
 
 ### [Как сгенерировать штрих‑код со специальными символами в C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Узнайте, как генерировать штрих‑коды с особыми символами в C# с помощью Aspose.BarCode.

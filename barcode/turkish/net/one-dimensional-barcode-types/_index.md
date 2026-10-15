@@ -82,18 +82,15 @@ Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. T
 C# ile Aspose.BarCode kullanarak barkod ayarlamayı adım adım öğrenin. Tam rehberde tüm detaylar.
 ### [Görüntüden Barkod Okuma – C# barkod okuyucu örneği](./read-barcode-from-image-c-barcode-reader-example/)
 Aspose.BarCode kullanarak C# ile bir görüntüden barkod okuma örneğini adım adım öğrenin.
+### [C#'ta Barkod Görüntülerini Okuma – Tam Örnek Rehberi](./how-to-read-barcode-images-in-c-full-example-guide/)
+Aspose.BarCode kullanarak C# ile bir görüntüden barkod okuma örneğini adım adım öğrenin.
 ### [Metinden Barkod Oluşturma – Aspose.BarCode ile C# Kılavuzu](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
-Aspose.BarCode kullanarak C# ile metinden barkod oluşturmayı öğrenin. Adım adım kılavuzumuzla kolayca başlayın.
+Aspose.BarCode kullanarak C# ile metinden barkod oluşturmayı öğrenin. Adım adım tam bir rehber.
 ### [C#'ta Barkod Oluşturma – Tam Programlama Kılavuzu](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Aspose.BarCode kullanarak C#'ta barkod oluşturmayı öğrenin. Adım adım tam bir programlama rehberi.
 ### [C#'ta Görüntüden Barkod Okuma – BarCodeReader Eğitimi](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Aspose.BarCode kullanarak C# ile bir görüntüden barkod okuma adımlarını öğrenin.
-### [C#'ta Aspose.BarCode Kullanarak Barkod Parametrelerini Ayarlama](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
-Aspose.BarCode ile C#'ta barkod parametrelerini nasıl ayarlayacağınızı öğrenin.
-### [C#'ta Aspose ile Barkod Oluşturma](./how-to-generate-barcode-with-aspose-in-c/)
-Aspose.BarCode kullanarak C# ile barkod oluşturmayı adım adım öğrenin.
-### [C#'ta özel karakterlerle barkod oluşturma](./how-to-generate-a-barcode-with-special-characters-in-c/)
-Aspose.BarCode kullanarak C# içinde özel karakter içeren barkodları nasıl oluşturacağınızı öğrenin.
+### [C'
 
 ## Çözüm
 
