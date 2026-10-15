@@ -1,0 +1,7 @@
+Title: How to generate PDF417 barcode in C# with Macro‑PDF417 settings
+Slug: how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-15T15:12:40.047884
+SourceRepo: AI Search API
+Keywords: how to generate pdf417 barcode
+PRNumber: 156
