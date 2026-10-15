@@ -1,0 +1,7 @@
+Title: How to read barcode images in C# – full example guide
+Slug: how-to-read-barcode-images-in-c-full-example-guide
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-10-15T15:12:54.206884
+SourceRepo: AI Search API
+Keywords: how to read barcode, read multiple barcodes, c# barcode reader example
+PRNumber: 156
