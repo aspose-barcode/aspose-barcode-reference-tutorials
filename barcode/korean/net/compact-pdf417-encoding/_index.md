@@ -332,6 +332,11 @@ C#에서 BarCodeReader를 사용해 PDF417 바코드를 디코딩하는 단계�
 
 ### [Aspose를 사용해 C#에서 PDF417 바코드 생성 – 단계별 가이드](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
 
+### [C#에서 마이크로 PDF417 바코드를 생성하고 PNG로 변환하는 방법](./how-to-create-micro-pdf417-barcode-and-convert-it-to-png-in/)
+
+
+### [PDF417 생성기를 사용하여 C#에서 바코드 PNG 만들기](./create-barcode-png-in-c-using-a-pdf417-generator/)
+
 ## 자주 묻는 질문
 
 **Q: Compact PDF417 바코드에 저장할 수 있는 최대 데이터 양은 얼마인가요?**  
@@ -368,6 +373,7 @@ A: 외부 폰트가 필요하지 않으며, 라이브러리가 내부적으로 �
 - [C#에서 Aspose Barcode Generator를 사용해 MacroPdf417 바코드 생성 방법](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
 - [이미지에서 바코드 읽기 C# – 매크로 PDF417 완전 가이드](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 - [C#에서 PDF417 바코드 생성 및 이미지 만들기](./generate-pdf417-barcode-and-create-barcode-image-c/)
+- [C#에서 MacroPdf417를 사용해 Aspose 바코드 예제 만들기](./how-to-build-an-aspose-barcode-example-with-macropdf417-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

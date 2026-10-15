@@ -224,6 +224,16 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 ### [كيفية إنشاء باركود PDF417 وتصدير PNG في C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
 تعلم كيفية إنشاء باركود PDF417 وتصديره كملف PNG باستخدام C# ومكتبة Aspose.BarCode.
 
+### [How to create micro PDF417 barcode and convert it to PNG in C#](./how-to-create-micro-pdf417-barcode-and-convert-it-to-png-in/)
+
+
+### [كيفية إنشاء باركود Macro PDF417 في C# – دليل شامل](./generate-macro-pdf417-barcode-in-c-complete-guide/)
+دليل شامل لإنشاء باركود Macro PDF417 في C#.
+
+### [كيفية بناء مثال باركود Aspose باستخدام MacroPdf417 في C#](./how-to-build-an-aspose-barcode-example-with-macropdf417-in-c/)
+
+### [إنشاء صورة باركود PNG في C# باستخدام مولد PDF417](./create-barcode-png-in-c-using-a-pdf417-generator/)
+
 ## الأسئلة المتكررة
 
 **س: ما هو الحد الأقصى للبيانات التي يمكن تخزينها في باركود PDF417 المدمج؟**  

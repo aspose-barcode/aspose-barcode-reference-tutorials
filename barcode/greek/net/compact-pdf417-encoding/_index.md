@@ -263,6 +263,14 @@ weight: 29
 ### [Πώς να διαβάσετε barcode από εικόνα C# χρησιμοποιώντας Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
 Μάθετε πώς να διαβάσετε κωδικούς barcode από εικόνα σε C# με το Aspose.BarCode.
 
+### [Πώς να δημιουργήσετε μικρό barcode PDF417 και να το μετατρέψετε σε PNG σε C#](./how-to-create-micro-pdf417-barcode-and-convert-it-to-png-in/)
+
+### [Πώς να δημιουργήσετε κωδικό PDF417 με το Aspose – Πλήρης οδηγός βήμα‑βήμα](./how-to-create-pdf417-barcode-with-aspose-complete-step-st/)
+Μάθετε πώς να δημιουργήσετε πλήρη PDF417 barcode...
+### [Πώς να δημιουργήσετε παράδειγμα barcode Aspose με MacroPdf417 σε C#](./how-to-build-an-aspose-barcode-example-with-macropdf417-in-c/)
+
+### [Δημιουργία barcode png σε C# χρησιμοποιώντας γεννήτρια PDF417](./create-barcode-png-in-c-using-a-pdf417-generator/)
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Ποιο είναι το μέγιστο ποσό δεδομένων που μπορώ να αποθηκεύσω σε έναν Συμπαγή PDF417 κώδικα;**  

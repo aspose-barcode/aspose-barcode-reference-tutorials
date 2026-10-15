@@ -257,6 +257,15 @@ Panduan lengkap contoh kode untuk menghasilkan barcode Macro PDF417 menggunakan 
 ### [Panduan Generator Barcode C#: Buat MicroPdf417](./barcode-generator-c-guide-create-micropdf417/)
 Panduan langkah demi langkah untuk menghasilkan barcode MicroPdf417 menggunakan generator barcode C# dengan Aspose.BarCode.
 
+### [How to create micro PDF417 barcode and convert it to PNG in C#](./how-to-create-micro-pdf417-barcode-and-convert-it-to-png-in/)
+
+
+### [Create barcode png in C# using a PDF417 generator](./create-barcode-png-in-c-using-a-pdf417-generator/)
+
+
+### [Cara menghasilkan contoh barcode Aspose dengan MacroPdf417 di C#](./how-to-build-an-aspose-barcode-example-with-macropdf417-in-c/)
+Panduan langkah demi langkah membuat contoh barcode MacroPdf417 menggunakan Aspose.BarCode di C#.
+
 ## Frequently Asked Questions
 
 **Q: Apa jumlah maksimum data yang dapat saya simpan dalam barcode Compact PDF417?**  

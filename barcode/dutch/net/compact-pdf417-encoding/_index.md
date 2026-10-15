@@ -139,6 +139,9 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 - **Unreadable Scans:** Zorg voor voldoende contrast tussen voor‑ en achtergrondkleur; vermijd verlopen.  
 - **License Exceptions:** In een proefomgeving kan de gegenereerde barcode een watermerk bevatten. Pas een geldige licentie toe om het te verwijderen.
 
+### [How to create micro PDF417 barcode and convert it to PNG in C#](./how-to-create-micro-pdf417-barcode-and-convert-it-to-png-in/)
+
+
 ### [How to read barcode from image c# using Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
 
 
@@ -340,6 +343,8 @@ A: Geen externe lettertypen zijn nodig; de bibliotheek verwerkt alle rendering i
 - [Macro PDF417 barcode maken met Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
 - [Barcode lezen vanuit afbeelding C# – volledige gids met Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 - [PDF417-barcode genereren en barcode‑afbeelding maken C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
+- [Hoe een Aspose‑barcode‑voorbeeld met MacroPdf417 in C# te bouwen](./how-to-build-an-aspose-barcode-example-with-macropdf417-in-c/)
+- [Barcode PNG maken in C# met een PDF417-generator](./create-barcode-png-in-c-using-a-pdf417-generator/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
