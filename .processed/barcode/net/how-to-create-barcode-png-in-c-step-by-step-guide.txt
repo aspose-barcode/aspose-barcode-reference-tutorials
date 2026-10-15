@@ -1,0 +1,7 @@
+Title: How to create barcode PNG in C# – step‑by‑step guide
+Slug: how-to-create-barcode-png-in-c-step-by-step-guide
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-15T15:12:45.584476
+SourceRepo: AI Search API
+Keywords: create barcode png, how to create barcode, how to set columns, c# barcode example
+PRNumber: 156
