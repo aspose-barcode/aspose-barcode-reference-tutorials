@@ -1,0 +1,7 @@
+Title: How to set barcode height, generate DataBar barcode in C#
+Slug: how-to-set-barcode-height-generate-databar-barcode-in-c
+Category: general
+ProcessedDate: 2026-10-12T11:40:56.026481
+SourceRepo: AI Search API
+Keywords: how to set barcode, generate barcode c#, how to create databar, create databar barcode, change barcode height
+PRNumber: 154

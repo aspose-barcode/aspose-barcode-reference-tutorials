@@ -1,22 +1,23 @@
 ---
 category: general
-date: 2026-08-03
-description: 在 C# 中快速创建 PDF417 条码。了解如何生成 PDF417 条码以及如何使用 Aspose.Barcode 将条码图像保存为 PNG。
+date: 2026-10-04
+description: 快速在 C# 中创建 PDF417 条码。了解如何生成 PDF417 条码以及如何使用 Aspose.Barcode 将条码图像保存为 PNG。
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- create pdf417 barcode
-- how to generate pdf417 barcode
-- how to save barcode image
-language: zh
-lastmod: 2026-08-03
-og_description: 使用 Aspose.Barcode 在 C# 中创建 PDF417 条码。请按照本指南生成 PDF417 条码并高效保存条码图像。
-og_image_alt: Screenshot of a generated compact PDF417 barcode saved as PNG
-og_title: 在 C# 中创建 PDF417 条码 – 完整编码教程
+- create pdf417 barcode c#
+- barcode for mobile scanning
+- aspose barcode png generation
+lastmod: 2026-10-04
+og_description: 使用 Aspose.Barcode 在 C# 中创建 PDF417 条码。本教程展示了如何生成紧凑的 PDF417 条码、配置其外观，并将其保存为
+  PNG 图像，以便用于移动扫描或标签打印。
+og_image_alt: 'Developer guide: Create PDF417 barcode in C# and save as PNG using
+  Aspose.Barcode'
+og_title: 在 C# 中创建 PDF417 条码 – 完整步骤指南
 schemas:
 - author: Aspose
-  dateModified: '2026-08-03'
+  dateModified: '2026-10-04'
   description: Create PDF417 barcode in C# quickly. Learn how to generate PDF417 barcode
     and how to save barcode image as PNG with Aspose.Barcode.
   headline: Create PDF417 barcode in C# – step‑by‑step guide
@@ -46,6 +47,7 @@ tags:
 - C#
 - PDF417
 - image generation
+- Aspose.Barcode
 title: 在 C# 中创建 PDF417 条码 – 步骤指南
 url: /zh/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-guide/
 ---
@@ -54,50 +56,59 @@ url: /zh/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中创建 PDF417 条形码 – 步骤指南
+# 创建 PDF417 条码（C#） – 步骤指南
 
-如果您需要在 .NET 应用程序中**创建 PDF417 条形码**，本指南将准确展示如何生成 PDF417 条形码以及如何保存条形码图像。您最终会得到一个可用于报表、票据或移动扫描应用的 PNG 文件。
+如果您需要在 .NET 应用程序中**创建 PDF417 条码**，本指南将准确展示如何生成 PDF417 条码以及如何将条码图像保存为 PNG 文件。您将得到一个紧凑的图像，适用于移动扫描、票务系统或标签打印机。
 
-本教程涵盖从项目设置到最终 PNG 文件的全部过程。无需查阅外部文档，只需按照步骤操作并运行代码即可。
+## 快速答案
+- **哪个库负责 PDF417 生成？** Aspose.Barcode for .NET.  
+- **示例保存为何种格式？** PNG，使用 `BarCodeImageFormat.Png`.  
+- **需要多少行代码？** 项目设置完成后约 10 行。  
+- **我可以自定义尺寸和截断吗？** 可以 – `Columns`、`Rows` 和 `Truncate` 属性。  
+- **代码兼容 .NET‑6 吗？** 完全兼容，也可在 .NET Framework 4.7+ 上运行。
 
-## 您需要的条件
+## 在 C# 中创建 PDF417 条码需要什么？
+首先，您需要一个最新的 .NET SDK、如 Visual Studio 2022 的 IDE，以及 **Aspose.Barcode for .NET** NuGet 包。这些工具使示例能够编译并运行，无需额外配置。
 
-在开始之前，请确保您具备以下条件：
+- .NET 6.0 SDK 或更高版本（也可在 .NET Framework 4.7+ 上运行）
+- Visual Studio 2022 或任何兼容 C# 的编辑器
+- 互联网访问以下载 Aspose.Barcode NuGet 包
 
-* .NET 6.0 SDK 或更高版本（代码同样适用于 .NET Framework 4.7+）
-* Visual Studio 2022 或任何支持 C# 的 IDE
-* Internet 访问以安装 **Aspose.Barcode for .NET** NuGet 包
+## 如何为 PDF417 条码生成设置 .NET 项目？
+创建一个新的控制台项目，添加 Aspose.Barcode 包，并打开生成的 `Program.cs`。这将准备一个干净的工作区，您可以在其中实例化条码生成器并写入输出文件。
 
-这些前置条件可确保代码在无需额外配置的情况下成功编译。
-
-## 创建 PDF417 条形码 – 项目设置
-
-1. 打开命令提示符并创建一个新的控制台项目：
-
-   ```bash
+```bash
    dotnet new console -n Pdf417Demo
    cd Pdf417Demo
    ```
 
-2. 添加 Aspose.Barcode 库：
+## 如何使用 Aspose.Barcode 生成 PDF417 条码？
+`BarcodeGenerator` 是 Aspose.Barcode 的类，用于根据提供的数据和符号生成条码图像。您指定 PDF417 符号，提供要编码的文本，并可选择调整尺寸或纠错设置。
 
-   ```bash
+```bash
    dotnet add package Aspose.Barcode
    ```
 
-3. 打开生成的 `Program.cs` 文件。文件顶部的 `using` 语句为您提供对条形码类的访问：
+### 为什么这很重要
+* **EncodeTypes.Pdf417** 告诉库使用 PDF417 标准，该标准支持大数据负载和错误纠正。
+* 提供 Unicode 字符证明生成器能够在无需额外配置的情况下处理非 ASCII 输入。
 
-   ```csharp
+## 如何配置 PDF417 条码的外观？
+您可以控制模块大小、列数以及条码是否使用紧凑（截断）模式。这些设置直接影响小屏幕上的可读性以及 PNG 图像的整体文件大小。
+
+`generator.Parameters.Barcode.XDimension` 设置单个模块的宽度，而 `Columns` 和 `Rows` 定义矩阵尺寸。将 `Truncate` 设置为 `true` 可去除安静区，从而得到更紧凑的图像。
+
+```csharp
    using System;
    using Aspose.Barcode.Generation;
    using Aspose.Barcode;
    ```
 
-项目现在已准备好**创建 PDF417 条形码**。
+### 实用技巧
+如果水平空间受限需要更高的条码，请增加 `Columns`。将 `Truncate` 设置为 `true` 可通过去除安静区降低整体高度，这对于移动屏幕非常理想。
 
-## 使用 Aspose.Barcode 生成 PDF417 条形码
-
-条形码创建的核心位于 `BarcodeGenerator` 类中。您需要指定符号类型（`EncodeTypes.Pdf417`）以及要编码的数据。
+## 如何将条码图像保存为 PNG？
+`Save` 是 `BarcodeGenerator` 的方法，用于将生成的图像写入文件。传入文件路径和 `BarCodeImageFormat.Png` 即可一步创建 PNG 图像。
 
 ```csharp
 // Step 1: Initialise the generator with PDF417 symbology and sample text.
@@ -105,14 +116,11 @@ url: /zh/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-gui
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-### 为什么这很重要
+### 预期结果
+运行程序后会在项目文件夹中生成 `CompactPdf417.png`。打开该文件会显示一个紧凑的 PDF417 条码，编码字符串 *Åspóse.Barcóde©*。该图像可嵌入 HTML、PDF 报告或打印在标签上。
 
-* **EncodeTypes.Pdf417** 告诉库使用 PDF417 标准，该标准支持大容量数据和错误纠正。
-* 提供 Unicode 字符可证明生成器能够在无需额外配置的情况下处理非 ASCII 输入。
-
-## 如何配置条形码外观
-
-您可以控制每个模块的大小、列数以及条形码是否使用紧凑（截断）模式。这些设置会影响可读性和文件大小。
+## 如何验证生成的条码文件？
+程序完成后，您可以使用简短命令验证文件是否存在。此简单检查确认生成和保存步骤已成功完成且无错误。
 
 ```csharp
 // Step 2: Set the module (X) dimension – each barcode element will be 2 pixels wide.
@@ -123,13 +131,49 @@ generator.Parameters.Barcode.Pdf417.Columns = 3;      // Number of columns (affe
 generator.Parameters.Barcode.Pdf417.Truncate = true; // Enable compact mode
 ```
 
-### 实用技巧
+如果文件出现，则 **创建 PDF417 条码** 过程成功。
 
-如果水平空间受限，需要更高的条形码，可增大 `Columns`。将 `Truncate` 设置为 `true` 可通过去除安静区来降低整体高度，这在移动设备屏幕上尤为适用。
+## 生成 PDF417 条码时常见的变体和边缘情况有哪些？
+不同场景可能需要调整生成器设置。下面是一张快速参考表，展示如何处理常见的变体。
 
-## 如何将条形码图像保存为 PNG
+| 情况 | 调整 |
+|-----------|------------|
+| **更长的数据字符串** | 增加 `Columns` 或设置 `Rows` 以容纳更多代码字。 |
+| **不同的图像格式** | 将 `BarCodeImageFormat.Png` 替换为 `Jpeg`、`Bmp` 或 `Gif`。 |
+| **更高的分辨率** | 在 `Save` 之前设置 `generator.Parameters.ImageResolution`。 |
+| **背景颜色** | 使用 `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;`。 |
+| **异常处理** | 将 `generator.Save` 包裹在 `try/catch` 块中以捕获 I/O 错误。 |
 
-在配置好生成器后，使用 `Save` 方法并提供文件路径和所需的图像格式。该方法会直接将图像写入磁盘。
+## 创建条码后下一步是什么？
+既然您已经能够生成并保存 PDF417 条码，接下来可以探索相关功能，例如生成 QR 码、在 PDF 文档中嵌入条码，或自定义颜色以符合品牌。所有这些都使用相同的 `BarcodeGenerator` API，您可以轻松扩展示例。
+
+## 相关指南
+- [如何创建条码 – 使用 Aspose.BarCode 的紧凑 PDF417](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [如何使用 Aspose.BarCode for .NET 生成 DataMatrix 条码 (ECC 200)](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [如何使用 Aspose.BarCode for .NET 生成自定义宽高比的 Aztec 条码](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+
+## 常见问题
+
+**问：我可以在 Web 应用程序中使用此代码吗？**  
+答：可以。相同的 `BarcodeGenerator` 类可在 ASP.NET、MVC 或 Blazor 项目中使用；只需确保服务器对输出文件夹具有写入权限。
+
+**问：Aspose.Barcode 支持其他 2‑D 符号吗？**  
+答：当然。支持超过 30 种 2‑D 条码类型，包括 QR、DataMatrix 和 Aztec。
+
+**问：我能创建多大的条码？**  
+答：PDF417 在单个符号中可编码最多 1,850 个字符；您也可以通过调整 `Rows` 和 `Columns` 将数据分布在多行中。
+
+**问：生产环境使用是否需要许可证？**  
+答：是的。提供免费试用供评估，但部署时需要商业许可证。
+
+**问：兼容哪些 .NET 版本？**  
+答：Aspose.Barcode 支持 .NET Framework 4.5+、.NET Core 3.1+ 以及 .NET 5/6/7。
+
+---
+
+**最后更新：** 2026-10-04  
+**已测试：** Aspose.Barcode 24.11 for .NET  
+**作者：** Aspose  
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image.
@@ -137,15 +181,6 @@ string outputPath = @"./CompactPdf417.png";
 generator.Save(outputPath, BarCodeImageFormat.Png);
 Console.WriteLine($"Barcode saved to {outputPath}");
 ```
-
-### 预期结果
-
-运行程序后会在项目文件夹中生成 `CompactPdf417.png`。打开该文件即可看到一个紧凑的 PDF417 条形码，编码的字符串为 *Åspóse.Barcóde©*。该图像可嵌入 HTML、PDF 报告或打印在标签上。
-
-## 完整源代码
-
-下面是完整的可运行程序。将其复制到 `Program.cs` 中并执行 `dotnet run`。
-
 ```csharp
 using System;
 using Aspose.Barcode.Generation;
@@ -180,44 +215,13 @@ namespace Pdf417Demo
     }
 }
 ```
-
-### 验证输出
-
-程序执行完毕后，您可以使用以下命令快速检查文件是否存在：
-
 ```bash
 dotnet run && ls -l CompactPdf417.png
 ```
 
-如果文件出现，则**创建 PDF417 条形码**的过程已成功。
-
-## 常见变体和边缘情况
-
-| 情形 | 调整 |
-|-----------|------------|
-| **Longer data string** | Increase `Columns` or set `Rows` to accommodate more codewords. |
-| **Different image format** | Replace `BarCodeImageFormat.Png` with `Jpeg`, `Bmp`, or `Gif`. |
-| **Higher resolution** | Set `generator.Parameters.ImageResolution` before `Save`. |
-| **Background color** | Use `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;` |
-| **Exception handling** | Wrap `generator.Save` in a `try/catch` block to capture I/O errors. |
-
-这些变体可帮助您根据特定设备或品牌需求定制条形码。
-
-## 结论
-
-您现在已经掌握了如何在 C# 中使用 Aspose.Barcode **创建 PDF417 条形码**、配置其外观，并将条形码图像 **保存为 PNG 文件**。完整示例展示了从项目设置到验证的每一步，使您能够将条形码生成集成到任何 .NET 解决方案中。
-
-接下来，您可以进一步探索以下相关主题，如**如何生成 QR 码**、**在 PDF 文档中嵌入条形码**或**自定义条形码颜色**。这些内容均基于相同的生成器 API，帮助您以最小的工作量扩展应用的扫描能力。祝编码愉快！
-
-## 接下来您应该学习什么？
-
-以下教程涵盖与本指南技术紧密相关的主题，帮助您在自己的项目中进一步掌握 API 功能并探索替代实现方式。
-
-- [如何使用 Aspose.BarCode 创建条形码 – 紧凑 PDF417](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [如何使用 Aspose.BarCode for .NET 生成 DataMatrix 条形码（ECC 200）](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-- [如何使用 Aspose.BarCode for .NET 生成自定义宽高比的 Aztec 条形码](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

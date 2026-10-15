@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-08-03
-description: إنشاء رمز شريطي PDF417 في C# بسرعة. تعلم كيفية توليد رمز شريطي PDF417
-  وكيفية حفظ صورة الرمز الشريطي بصيغة PNG باستخدام Aspose.Barcode.
+date: 2026-10-04
+description: إنشاء رمز شريطي PDF417 في C# بسرعة. تعلّم كيفية توليد رمز PDF417 وكيفية
+  حفظ صورة الرمز بصيغة PNG باستخدام Aspose.Barcode.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- create pdf417 barcode
-- how to generate pdf417 barcode
-- how to save barcode image
-language: ar
-lastmod: 2026-08-03
-og_description: إنشاء رمز شريطي PDF417 في C# باستخدام Aspose.Barcode. اتبع هذا الدليل
-  لإنشاء رمز شريطي PDF417 وكيفية حفظ صورة الرمز الشريطي بكفاءة.
-og_image_alt: Screenshot of a generated compact PDF417 barcode saved as PNG
-og_title: إنشاء باركود PDF417 في C# – دليل برمجة كامل
+- create pdf417 barcode c#
+- barcode for mobile scanning
+- aspose barcode png generation
+lastmod: 2026-10-04
+og_description: إنشاء رمز شريطي PDF417 في C# باستخدام Aspose.Barcode. يوضح لك هذا
+  الدليل كيفية توليد رمز PDF417 مضغوط، وضبط مظهره، وحفظه كصورة PNG للمسح الضوئي عبر
+  الهاتف المحمول أو طباعة الملصقات.
+og_image_alt: 'Developer guide: Create PDF417 barcode in C# and save as PNG using
+  Aspose.Barcode'
+og_title: إنشاء رمز شريطي PDF417 في C# – دليل خطوة بخطوة كامل
 schemas:
 - author: Aspose
-  dateModified: '2026-08-03'
+  dateModified: '2026-10-04'
   description: Create PDF417 barcode in C# quickly. Learn how to generate PDF417 barcode
     and how to save barcode image as PNG with Aspose.Barcode.
   headline: Create PDF417 barcode in C# – step‑by‑step guide
@@ -48,6 +49,7 @@ tags:
 - C#
 - PDF417
 - image generation
+- Aspose.Barcode
 title: إنشاء رمز شريطي PDF417 في C# – دليل خطوة بخطوة
 url: /ar/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-guide/
 ---
@@ -56,50 +58,59 @@ url: /ar/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء شيفرة PDF417 في C# – دليل خطوة بخطوة
+# إنشاء رمز شريطي PDF417 في C# – دليل خطوة بخطوة
 
-إذا كنت بحاجة إلى **إنشاء شيفرة PDF417** في تطبيق .NET، يوضح لك هذا الدليل بالضبط كيفية توليد شيفرة PDF417 وكيفية حفظ صورة الشيفرة. ستحصل في النهاية على ملف PNG يمكن استخدامه في التقارير، التذاكر، أو تطبيقات المسح على الهواتف المحمولة.
+إذا كنت بحاجة إلى **إنشاء رمز شريطي PDF417** في تطبيق .NET، يوضح لك هذا الدليل بالضبط كيفية إنشاء رمز شريطي PDF417 وكيفية حفظ صورة الرمز الشريطي كملف PNG. ستحصل على صورة مدمجة تعمل بشكل رائع للمسح الضوئي عبر الهاتف المحمول، وأنظمة التذاكر، أو طابعات الملصقات.
 
-يغطي الدرس كل شيء من إعداد المشروع حتى ملف PNG النهائي. لا تحتاج إلى وثائق خارجية؛ فقط اتبع الخطوات وشغّل الكود.
+## إجابات سريعة
+- **أي مكتبة تتعامل مع إنشاء PDF417؟** Aspose.Barcode for .NET.  
+- **ما الصيغة التي يحفظها العينة؟** PNG، باستخدام `BarCodeImageFormat.Png`.  
+- **كم عدد أسطر الكود المطلوبة؟** حوالي 10 أسطر بعد إعداد المشروع.  
+- **هل يمكنني تخصيص الحجم والاقتطاع؟** نعم – خصائص `Columns` و `Rows` و `Truncate`.  
+- **هل الكود متوافق مع .NET‑6؟** نعم تمامًا، كما يعمل أيضًا مع .NET Framework 4.7+.
 
-## ما ستحتاجه
+## ما الذي تحتاجه لإنشاء رمز شريطي PDF417 في C#؟
+للبدء، تحتاج إلى SDK .NET حديث، وبيئة تطوير متكاملة مثل Visual Studio 2022، وحزمة NuGet **Aspose.Barcode for .NET**. تتيح لك هذه الأدوات تجميع العينة وتشغيلها دون إعداد إضافي.
 
-قبل أن تبدأ، تأكد من توفر ما يلي:
+- .NET 6.0 SDK أو أحدث (يعمل أيضًا مع .NET Framework 4.7+)
+- Visual Studio 2022 أو أي محرر متوافق مع C#
+- اتصال بالإنترنت لتنزيل حزمة NuGet Aspose.Barcode
 
-* .NET 6.0 SDK أو أحدث (الكود يعمل أيضاً مع .NET Framework 4.7+)
-* Visual Studio 2022 أو أي بيئة تطوير تدعم C#
-* اتصال بالإنترنت لتثبيت حزمة **Aspose.Barcode for .NET** عبر NuGet
+## كيف تقوم بإعداد مشروع .NET لإنشاء رمز شريطي PDF417؟
+أنشئ مشروع وحدة تحكم جديد، أضف حزمة Aspose.Barcode، وافتح الملف `Program.cs` الذي تم إنشاؤه. يجهز هذا بيئة عمل نظيفة حيث يمكنك إنشاء مولد الرمز الشريطي وكتابة ملف الإخراج.
 
-هذه المتطلبات المسبقة تضمن أن الكود يُترجم دون الحاجة إلى إعدادات إضافية.
-
-## إنشاء شيفرة PDF417 – إعداد المشروع
-
-1. افتح موجه الأوامر وأنشئ مشروع console جديد:
-
-   ```bash
+```bash
    dotnet new console -n Pdf417Demo
    cd Pdf417Demo
    ```
 
-2. أضف مكتبة Aspose.Barcode:
+## كيف يمكنك إنشاء رمز شريطي PDF417 باستخدام Aspose.Barcode؟
+`BarcodeGenerator` هو الصف في Aspose.Barcode الذي ينشئ صور الرموز الشريطية من البيانات والرموز المقدمة. تحدد رمزية PDF417، وتزود بالنص المراد ترميزه، وتضبط حجم الصورة أو إعدادات تصحيح الأخطاء اختياريًا.
 
-   ```bash
+```bash
    dotnet add package Aspose.Barcode
    ```
 
-3. افتح ملف `Program.cs` الذي تم إنشاؤه. توضح عبارات `using` في الأعلى كيفية الوصول إلى فئات الشيفرة:
+### لماذا هذا مهم
+* **EncodeTypes.Pdf417** يخبر المكتبة باستخدام معيار PDF417، الذي يدعم أحمال بيانات كبيرة وتصحيح الأخطاء.
+* توفير أحرف Unicode يثبت أن المولد يتعامل مع مدخلات غير ASCII دون إعداد إضافي.
 
-   ```csharp
+## كيف تقوم بتكوين مظهر رمز شريطي PDF417؟
+يمكنك التحكم في حجم الوحدة، وعدد الأعمدة، وما إذا كان الرمز الشريطي يستخدم الوضع المدمج (المقتطع). تؤثر هذه الإعدادات مباشرة على قابلية القراءة على الشاشات الصغيرة وحجم ملف PNG الإجمالي.
+
+`generator.Parameters.Barcode.XDimension` يحدد عرض الوحدة الواحدة، بينما `Columns` و `Rows` يحددان أبعاد المصفوفة. ضبط `Truncate` على `true` يزيل المناطق الهادئة للحصول على صورة أكثر دمجًا.
+
+```csharp
    using System;
    using Aspose.Barcode.Generation;
    using Aspose.Barcode;
    ```
 
-المشروع الآن جاهز **لإنشاء شيفرة PDF417**.
+### نصيحة عملية
+إذا كنت بحاجة إلى رمز شريطي أطول بسبب مساحة أفقية محدودة، قم بزيادة `Columns`. ضبط `Truncate` على `true` يقلل الارتفاع الكلي بإزالة المناطق الهادئة، وهو مثالي للشاشات المحمولة.
 
-## كيفية توليد شيفرة PDF417 باستخدام Aspose.Barcode
-
-تكمن جوهر عملية إنشاء الشيفرة في الفئة `BarcodeGenerator`. تقوم بتحديد نوع الترميز (`EncodeTypes.Pdf417`) والبيانات التي تريد ترميزها.
+## كيف تحفظ صورة الرمز الشريطي كملف PNG؟
+`Save` هي طريقة في `BarcodeGenerator` تكتب الصورة المولدة إلى ملف. مرّر مسار ملف و `BarCodeImageFormat.Png` لإنشاء صورة PNG في خطوة واحدة.
 
 ```csharp
 // Step 1: Initialise the generator with PDF417 symbology and sample text.
@@ -107,14 +118,11 @@ url: /ar/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-gui
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-### لماذا هذا مهم
+### النتيجة المتوقعة
+تشغيل البرنامج ينشئ `CompactPdf417.png` في مجلد المشروع. فتح الملف يظهر رمز شريطي PDF417 مدمج يرمز السلسلة *Åspóse.Barcóde©*. يمكن تضمين الصورة في HTML، تقارير PDF، أو طباعتها على الملصقات.
 
-* **EncodeTypes.Pdf417** يوجه المكتبة لاستخدام معيار PDF417، الذي يدعم أحجام بيانات كبيرة وتصحيح الأخطاء.
-* توفير أحرف Unicode يثبت أن المولد يتعامل مع مدخلات غير ASCII دون إعدادات إضافية.
-
-## كيفية ضبط مظهر الشيفرة
-
-يمكنك التحكم في حجم كل وحدة، عدد الأعمدة، وما إذا كانت الشيفرة تستخدم الوضع المضغوط (truncated). تؤثر هذه الإعدادات على كل من قابلية القراءة وحجم الملف.
+## كيف يمكنك التحقق من ملف الرمز الشريطي المُولد؟
+بعد انتهاء البرنامج، يمكنك التحقق من وجود الملف باستخدام أمر سريع. هذا الفحص البسيط يؤكد أن خطوات الإنشاء والحفظ اكتملت دون أخطاء.
 
 ```csharp
 // Step 2: Set the module (X) dimension – each barcode element will be 2 pixels wide.
@@ -125,13 +133,51 @@ generator.Parameters.Barcode.Pdf417.Columns = 3;      // Number of columns (affe
 generator.Parameters.Barcode.Pdf417.Truncate = true; // Enable compact mode
 ```
 
-### نصيحة عملية
+إذا ظهر الملف، فإن عملية **إنشاء رمز شريطي PDF417** نجحت.
 
-إذا كنت بحاجة إلى شيفرة أطول لوجود مساحة أفقية محدودة، قم بزيادة قيمة `Columns`. ضبط `Truncate` على `true` يقلل الارتفاع الكلي بإزالة مناطق الصمت، وهو مثالي لشاشات الهواتف المحمولة.
+## ما هي التغييرات الشائعة وحالات الحافة عند إنشاء رموز شريطية PDF417؟
+قد تتطلب السيناريوهات المختلفة تعديل إعدادات المولد. أدناه جدول مرجعي سريع يوضح كيفية التعامل مع التغييرات الشائعة.
 
-## كيفية حفظ صورة الشيفرة بصيغة PNG
+| الحالة | التعديل |
+|-----------|------------|
+| **سلسلة بيانات أطول** | زيادة `Columns` أو ضبط `Rows` لاستيعاب المزيد من الكلمات الرمزية. |
+| **تنسيق صورة مختلف** | استبدال `BarCodeImageFormat.Png` بـ `Jpeg` أو `Bmp` أو `Gif`. |
+| **دقة أعلى** | ضبط `generator.Parameters.ImageResolution` قبل `Save`. |
+| **لون الخلفية** | استخدام `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;`. |
+| **معالجة الاستثناءات** | إحاطة `generator.Save` بكتلة `try/catch` لالتقاط أخطاء الإدخال/الإخراج. |
 
-بعد ضبط المولد، استدعِ الدالة `Save` مع مسار الملف وصيغة الصورة المطلوبة. تقوم الطريقة بكتابة الصورة مباشرة إلى القرص.
+تتيح لك هذه التغييرات تخصيص الرمز الشريطي لأجهزة معينة أو متطلبات العلامة التجارية.
+
+## ما هي الخطوة التالية بعد إنشاء الرمز الشريطي؟
+الآن بعد أن أصبحت قادرًا على إنشاء وحفظ رمز شريطي PDF417، قد ترغب في استكشاف القدرات المرتبطة مثل إنشاء رموز QR، دمج الرموز الشريطية في مستندات PDF، أو تخصيص الألوان لتوافق العلامة التجارية. جميع هذه تستخدم نفس واجهة برمجة التطبيقات `BarcodeGenerator`، لذا يمكنك توسيع العينة بجهد قليل.
+
+## أدلة ذات صلة
+- [كيفية إنشاء رمز شريطي – PDF417 مدمج باستخدام Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [كيفية إنشاء رموز DataMatrix (ECC 200) باستخدام Aspose.BarCode لـ .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [كيفية إنشاء رمز شريطي Aztec بنسبة عرض إلى ارتفاع مخصصة باستخدام Aspose.BarCode لـ .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذا الكود في تطبيق ويب؟**  
+ج: نعم. نفس الصف `BarcodeGenerator` يعمل في مشاريع ASP.NET أو MVC أو Blazor؛ فقط تأكد من أن الخادم لديه إذن كتابة للمجلد الناتج.
+
+**س: هل يدعم Aspose.Barcode رموزًا شريطية ثنائية الأبعاد أخرى؟**  
+ج: بالتأكيد. يدعم أكثر من 30 نوعًا من الرموز الشريطية ثنائية الأبعاد، بما في ذلك QR و DataMatrix و Aztec.
+
+**س: ما هو أقصى حجم يمكنني إنشاء رمز شريطي به؟**  
+ج: يمكن لـ PDF417 ترميز ما يصل إلى 1,850 حرفًا في رمز واحد؛ يمكنك أيضًا تقسيم البيانات عبر عدة صفوف بضبط `Rows` و `Columns`.
+
+**س: هل يلزم وجود ترخيص للاستخدام في الإنتاج؟**  
+ج: نعم. يتوفر نسخة تجريبية مجانية للتقييم، لكن يلزم ترخيص تجاري للنشر.
+
+**س: ما إصدارات .NET المتوافقة؟**  
+ج: يدعم Aspose.Barcode .NET Framework 4.5+، .NET Core 3.1+، و .NET 5/6/7.
+
+---
+
+**آخر تحديث:** 2026-10-04  
+**تم الاختبار مع:** Aspose.Barcode 24.11 لـ .NET  
+**المؤلف:** Aspose  
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image.
@@ -139,15 +185,6 @@ string outputPath = @"./CompactPdf417.png";
 generator.Save(outputPath, BarCodeImageFormat.Png);
 Console.WriteLine($"Barcode saved to {outputPath}");
 ```
-
-### النتيجة المتوقعة
-
-تشغيل البرنامج ينشئ ملف `CompactPdf417.png` في مجلد المشروع. عند فتح الملف ستظهر شيفرة PDF417 مضغوطة ترمز السلسلة *Åspóse.Barcóde©*. يمكن تضمين الصورة في HTML، تقارير PDF، أو طباعتها على الملصقات.
-
-## الكود الكامل
-
-فيما يلي البرنامج الكامل القابل للتنفيذ. انسخه إلى `Program.cs` ثم نفّذ الأمر `dotnet run`.
-
 ```csharp
 using System;
 using Aspose.Barcode.Generation;
@@ -182,44 +219,13 @@ namespace Pdf417Demo
     }
 }
 ```
-
-### التحقق من النتيجة
-
-بعد انتهاء البرنامج، يمكنك التحقق من وجود الملف بأمر سريع:
-
 ```bash
 dotnet run && ls -l CompactPdf417.png
 ```
 
-إذا ظهر الملف، فإن عملية **إنشاء شيفرة PDF417** نجحت.
-
-## الاختلافات الشائعة وحالات الحافة
-
-| الحالة | التعديل |
-|-----------|------------|
-| **سلسلة بيانات أطول** | زيادة `Columns` أو ضبط `Rows` لاستيعاب المزيد من الكلمات المشفرة. |
-| **صيغة صورة مختلفة** | استبدال `BarCodeImageFormat.Png` بـ `Jpeg` أو `Bmp` أو `Gif`. |
-| **دقة أعلى** | ضبط `generator.Parameters.ImageResolution` قبل استدعاء `Save`. |
-| **لون الخلفية** | استخدم `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;` |
-| **معالجة الاستثناءات** | غلف `generator.Save` بكتلة `try/catch` لالتقاط أخطاء الإدخال/الإخراج. |
-
-تتيح لك هذه التعديلات تخصيص الشيفرة لتناسب الأجهزة أو متطلبات العلامة التجارية الخاصة بك.
-
-## الخلاصة
-
-أنت الآن تعرف كيف **تنشئ شيفرة PDF417** في C# باستخدام Aspose.Barcode، وتضبط مظهرها، و**تحفظ صورة الشيفرة** بصيغة PNG. يوضح المثال الكامل كل خطوة مطلوبة، من إعداد المشروع حتى التحقق، لتتمكن من دمج توليد الشيفرات في أي حل .NET.
-
-بعد ذلك، يمكنك استكشاف مواضيع ذات صلة مثل **كيفية توليد رموز QR**، **إدراج الشيفرات في مستندات PDF**، أو **تخصيص ألوان الشيفرة**. جميع هذه المواضيع تعتمد على نفس واجهة برمجة التطبيقات، مما يتيح لك توسيع قدرات المسح في تطبيقك بأقل جهد. برمجة سعيدة!
-
-## ما الذي يجب أن تتعلمه بعد ذلك؟
-
-الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مصدر يتضمن أمثلة شيفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
-
-- [How to Create Barcode – Compact PDF417 with Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [How to Generate DataMatrix Barcodes (ECC 200) with Aspose.BarCode for .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-- [How to generate Aztec barcode with custom aspect ratio using Aspose.BarCode for .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

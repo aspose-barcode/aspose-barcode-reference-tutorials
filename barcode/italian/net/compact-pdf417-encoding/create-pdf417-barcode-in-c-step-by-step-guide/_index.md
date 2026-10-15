@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-08-03
-description: Crea rapidamente un codice a barre PDF417 in C#. Scopri come generare
-  un codice a barre PDF417 e come salvare l'immagine del codice a barre come PNG con
+date: 2026-10-04
+description: Crea rapidamente il codice a barre PDF417 in C#. Scopri come generare
+  il codice a barre PDF417 e come salvare l'immagine del codice a barre in PNG con
   Aspose.Barcode.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- create pdf417 barcode
-- how to generate pdf417 barcode
-- how to save barcode image
-language: it
-lastmod: 2026-08-03
-og_description: Crea un codice a barre PDF417 in C# con Aspose.Barcode. Segui questa
-  guida per generare il codice a barre PDF417 e per salvare l'immagine del codice
-  a barre in modo efficiente.
-og_image_alt: Screenshot of a generated compact PDF417 barcode saved as PNG
-og_title: Crea codice a barre PDF417 in C# – tutorial completo di programmazione
+- create pdf417 barcode c#
+- barcode for mobile scanning
+- aspose barcode png generation
+lastmod: 2026-10-04
+og_description: Crea il codice a barre PDF417 in C# con Aspose.Barcode. Questo tutorial
+  mostra come generare un codice a barre PDF417 compatto, configurarne l'aspetto e
+  salvarlo come immagine PNG per la scansione mobile o la stampa di etichette.
+og_image_alt: 'Developer guide: Create PDF417 barcode in C# and save as PNG using
+  Aspose.Barcode'
+og_title: Crea il codice a barre PDF417 in C# – guida completa passo‑passo
 schemas:
 - author: Aspose
-  dateModified: '2026-08-03'
+  dateModified: '2026-10-04'
   description: Create PDF417 barcode in C# quickly. Learn how to generate PDF417 barcode
     and how to save barcode image as PNG with Aspose.Barcode.
   headline: Create PDF417 barcode in C# – step‑by‑step guide
@@ -50,7 +50,8 @@ tags:
 - C#
 - PDF417
 - image generation
-title: Crea codice a barre PDF417 in C# – guida passo passo
+- Aspose.Barcode
+title: Crea il codice a barre PDF417 in C# – guida passo‑passo
 url: /it/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-guide/
 ---
 
@@ -58,50 +59,59 @@ url: /it/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea un codice a barre PDF417 in C# – guida passo‑passo
+# Crea barcode PDF417 in C# – guida passo‑passo
 
-Se hai bisogno di **creare un codice a barre PDF417** in un'applicazione .NET, questa guida ti mostra esattamente come generare il codice a barre PDF417 e come salvare l’immagine del codice a barre. Otterrai un file PNG che potrà essere usato in report, ticket o app di scansione mobile.
+Se hai bisogno di **creare barcode PDF417** in un'applicazione .NET, questa guida ti mostra esattamente come generare un barcode PDF417 e come salvare l'immagine del barcode come file PNG. Otterrai un'immagine compatta che funziona benissimo per la scansione mobile, i sistemi di biglietteria o le stampanti di etichette.
 
-Il tutorial copre tutto, dall’impostazione del progetto al file PNG finale. Non è necessaria alcuna documentazione esterna; basta seguire i passaggi e eseguire il codice.
+## Risposte rapide
+- **Quale libreria gestisce la generazione PDF417?** Aspose.Barcode for .NET.  
+- **In quale formato salva il campione?** PNG, using `BarCodeImageFormat.Png`.  
+- **Quante righe di codice sono necessarie?** Circa 10 righe dopo la configurazione del progetto.  
+- **Posso personalizzare dimensione e troncamento?** Sì – `Columns`, `Rows`, and `Truncate` properties.  
+- **Il codice è compatibile con .NET‑6?** Completamente, e funziona anche con .NET Framework 4.7+.
 
-## Cosa ti servirà
+## Cosa ti serve per creare un barcode PDF417 in C#?
+Per iniziare, ti serve un SDK .NET recente, un IDE come Visual Studio 2022 e il pacchetto NuGet **Aspose.Barcode for .NET**. Questi strumenti consentono al campione di compilare ed eseguire senza configurazioni aggiuntive.
 
-Prima di iniziare, assicurati di avere:
+- .NET 6.0 SDK o successivo (funziona anche con .NET Framework 4.7+)
+- Visual Studio 2022 o qualsiasi editor compatibile con C#
+- Accesso a Internet per scaricare il pacchetto NuGet Aspose.Barcode
 
-* .NET 6.0 SDK o successivo (il codice funziona anche con .NET Framework 4.7+)
-* Visual Studio 2022 o qualsiasi IDE che supporti C#
-* Accesso a Internet per installare il pacchetto NuGet **Aspose.Barcode for .NET**
+## Come configurare un progetto .NET per la generazione di barcode PDF417?
+Crea un nuovo progetto console, aggiungi il pacchetto Aspose.Barcode e apri il file `Program.cs` generato. Questo prepara un'area di lavoro pulita dove puoi istanziare il generatore di barcode e scrivere il file di output.
 
-Questi prerequisiti garantiscono che il codice si compili senza configurazioni aggiuntive.
-
-## Crea un codice a barre PDF417 – configurazione del progetto
-
-1. Apri un prompt dei comandi e crea un nuovo progetto console:
-
-   ```bash
+```bash
    dotnet new console -n Pdf417Demo
    cd Pdf417Demo
    ```
 
-2. Aggiungi la libreria Aspose.Barcode:
+## Come generare un barcode PDF417 con Aspose.Barcode?
+`BarcodeGenerator` è la classe Aspose.Barcode che crea immagini di barcode dai dati e dalla simbologia forniti. Specifica la simbologia PDF417, fornisci il testo da codificare e, opzionalmente, regola le impostazioni di dimensione o correzione d'errore.
 
-   ```bash
+```bash
    dotnet add package Aspose.Barcode
    ```
 
-3. Apri il file `Program.cs` generato. Le istruzioni `using` in cima ti danno accesso alle classi del barcode:
+### Perché è importante
+* **EncodeTypes.Pdf417** indica alla libreria di utilizzare lo standard PDF417, che supporta grandi quantità di dati e correzione d'errore.
+* Fornire caratteri Unicode dimostra che il generatore gestisce input non‑ASCII senza configurazioni aggiuntive.
 
-   ```csharp
+## Come configurare l'aspetto di un barcode PDF417?
+Puoi controllare la dimensione del modulo, il numero di colonne e se il barcode utilizza la modalità compatta (troncata). Queste impostazioni influenzano direttamente la leggibilità su schermi piccoli e la dimensione complessiva del file PNG.
+
+`generator.Parameters.Barcode.XDimension` imposta la larghezza di un singolo modulo, mentre `Columns` e `Rows` definiscono le dimensioni della matrice. Impostare `Truncate` a `true` rimuove le zone silenziose per un'immagine più compatta.
+
+```csharp
    using System;
    using Aspose.Barcode.Generation;
    using Aspose.Barcode;
    ```
 
-Il progetto è ora pronto per **creare un codice a barre PDF417**.
+### Consiglio pratico
+Se ti serve un barcode più alto per spazio orizzontale limitato, aumenta `Columns`. Impostare `Truncate` a `true` riduce l'altezza complessiva rimuovendo le zone silenziose, ideale per schermi mobili.
 
-## Come generare un codice a barre PDF417 con Aspose.Barcode
-
-Il cuore della creazione del codice a barre risiede nella classe `BarcodeGenerator`. Specifici la simbologia (`EncodeTypes.Pdf417`) e i dati che vuoi codificare.
+## Come salvare l'immagine del barcode come PNG?
+`Save` è un metodo di `BarcodeGenerator` che scrive l'immagine generata su un file. Fornisci un percorso file e `BarCodeImageFormat.Png` per creare un'immagine PNG in un unico passaggio.
 
 ```csharp
 // Step 1: Initialise the generator with PDF417 symbology and sample text.
@@ -109,14 +119,11 @@ Il cuore della creazione del codice a barre risiede nella classe `BarcodeGenerat
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "Åspóse.Barcóde©");
 ```
 
-### Perché è importante
+### Risultato atteso
+Eseguendo il programma viene creato `CompactPdf417.png` nella cartella del progetto. Aprendo il file si vede un barcode PDF417 compatto che codifica la stringa *Åspóse.Barcóde©*. L'immagine può essere incorporata in HTML, report PDF o stampata su etichette.
 
-* **EncodeTypes.Pdf417** indica alla libreria di utilizzare lo standard PDF417, che supporta grandi quantità di dati e correzione d'errore.
-* L’inserimento di caratteri Unicode dimostra che il generatore gestisce input non‑ASCII senza configurazioni aggiuntive.
-
-## Come configurare l’aspetto del codice a barre
-
-Puoi controllare la dimensione di ogni modulo, il numero di colonne e se il codice a barre utilizza la modalità compatta (troncata). Queste impostazioni influenzano sia la leggibilità sia la dimensione del file.
+## Come verificare il file barcode generato?
+Dopo che il programma termina, puoi verificare che il file esista con un comando rapido. Questo semplice controllo conferma che i passaggi di generazione e salvataggio sono completati senza errori.
 
 ```csharp
 // Step 2: Set the module (X) dimension – each barcode element will be 2 pixels wide.
@@ -127,13 +134,51 @@ generator.Parameters.Barcode.Pdf417.Columns = 3;      // Number of columns (affe
 generator.Parameters.Barcode.Pdf417.Truncate = true; // Enable compact mode
 ```
 
-### Consiglio pratico
+Se il file appare, il processo di **creare barcode PDF417** è riuscito.
 
-Se ti serve un codice a barre più alto per spazio orizzontale limitato, aumenta `Columns`. Impostare `Truncate` a `true` riduce l’altezza complessiva eliminando le zone silenziose, ideale per schermi mobili.
+## Quali sono le variazioni comuni e i casi limite nella generazione di barcode PDF417?
+Diversi scenari possono richiedere aggiustamenti alle impostazioni del generatore. Di seguito una tabella di riferimento rapido che mostra come gestire le variazioni tipiche.
 
-## Come salvare l’immagine del codice a barre come PNG
+| Situazione | Adeguamento |
+|-----------|------------|
+| **Stringa di dati più lunga** | Increase `Columns` or set `Rows` to accommodate more codewords. |
+| **Formato immagine diverso** | Replace `BarCodeImageFormat.Png` with `Jpeg`, `Bmp`, or `Gif`. |
+| **Risoluzione più alta** | Set `generator.Parameters.ImageResolution` before `Save`. |
+| **Colore di sfondo** | Use `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;`. |
+| **Gestione delle eccezioni** | Wrap `generator.Save` in a `try/catch` block to capture I/O errors. |
 
-Dopo aver configurato il generatore, chiama `Save` passando un percorso file e il formato immagine desiderato. Il metodo scrive l’immagine direttamente su disco.
+Queste variazioni ti permettono di personalizzare il barcode per dispositivi specifici o requisiti di branding.
+
+## Qual è il passo successivo dopo aver creato il barcode?
+Ora che puoi generare e salvare un barcode PDF417, potresti esplorare funzionalità correlate come la generazione di QR code, l'incorporamento di barcode in documenti PDF o la personalizzazione dei colori per allineamento al brand. Tutte queste utilizzano la stessa API `BarcodeGenerator`, così puoi estendere il campione con uno sforzo minimo.
+
+## Guide correlate
+- [Come creare barcode – PDF417 compatto con Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
+- [Come generare barcode DataMatrix (ECC 200) con Aspose.BarCode per .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
+- [Come generare barcode Aztec con rapporto d'aspetto personalizzato usando Aspose.BarCode per .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
+
+## Domande frequenti
+
+**Q: Posso usare questo codice in un'applicazione web?**  
+A: Sì. La stessa classe `BarcodeGenerator` funziona in progetti ASP.NET, MVC o Blazor; assicurati solo che il server abbia i permessi di scrittura per la cartella di output.
+
+**Q: Aspose.Barcode supporta altre simbologie 2‑D?**  
+A: Assolutamente. Sono supportati oltre 30 tipi di barcode 2‑D, inclusi QR, DataMatrix e Aztec.
+
+**Q: Quanto grande può essere un barcode?**  
+A: PDF417 può codificare fino a 1.850 caratteri in un singolo simbolo; puoi anche suddividere i dati su più righe regolando `Rows` e `Columns`.
+
+**Q: È necessaria una licenza per l'uso in produzione?**  
+A: Sì. È disponibile una versione di prova gratuita per la valutazione, ma è necessaria una licenza commerciale per il deployment.
+
+**Q: Quali versioni .NET sono compatibili?**  
+A: Aspose.Barcode supporta .NET Framework 4.5+, .NET Core 3.1+ e .NET 5/6/7.
+
+---
+
+**Ultimo aggiornamento:** 2026-10-04  
+**Testato con:** Aspose.Barcode 24.11 for .NET  
+**Autore:** Aspose  
 
 ```csharp
 // Step 4: Save the generated barcode as a PNG image.
@@ -141,15 +186,6 @@ string outputPath = @"./CompactPdf417.png";
 generator.Save(outputPath, BarCodeImageFormat.Png);
 Console.WriteLine($"Barcode saved to {outputPath}");
 ```
-
-### Risultato atteso
-
-L’esecuzione del programma crea `CompactPdf417.png` nella cartella del progetto. Aprendo il file vedrai un codice a barre PDF417 compatto che codifica la stringa *Åspóse.Barcóde©*. L’immagine può essere inserita in HTML, report PDF o stampata su etichette.
-
-## Codice sorgente completo
-
-Di seguito trovi il programma completo e pronto all’esecuzione. Copialo in `Program.cs` ed esegui `dotnet run`.
-
 ```csharp
 using System;
 using Aspose.Barcode.Generation;
@@ -184,44 +220,13 @@ namespace Pdf417Demo
     }
 }
 ```
-
-### Verifica dell’output
-
-Al termine del programma, puoi verificare che il file esista con un semplice comando:
-
 ```bash
 dotnet run && ls -l CompactPdf417.png
 ```
 
-Se il file appare, il processo di **creazione del codice a barre PDF417** è riuscito.
-
-## Varianti comuni e casi limite
-
-| Situazione | Regolazione |
-|------------|-------------|
-| **Stringa di dati più lunga** | Aumenta `Columns` o imposta `Rows` per ospitare più codeword. |
-| **Formato immagine diverso** | Sostituisci `BarCodeImageFormat.Png` con `Jpeg`, `Bmp` o `Gif`. |
-| **Risoluzione più alta** | Imposta `generator.Parameters.ImageResolution` prima di `Save`. |
-| **Colore di sfondo** | Usa `generator.Parameters.Barcode.ImageBackgroundColor = Color.White;` |
-| **Gestione delle eccezioni** | Avvolgi `generator.Save` in un blocco `try/catch` per catturare errori I/O. |
-
-Queste varianti ti consentono di personalizzare il codice a barre per dispositivi specifici o requisiti di branding.
-
-## Conclusione
-
-Ora sai come **creare un codice a barre PDF417** in C# usando Aspose.Barcode, configurarne l’aspetto e **salvare l’immagine del codice a barre** come file PNG. L’esempio completo dimostra ogni passaggio necessario, dall’impostazione del progetto alla verifica, così da poter integrare la generazione di codici a barre in qualsiasi soluzione .NET.
-
-Successivamente, potresti approfondire argomenti correlati come **come generare codici QR**, **incorporare codici a barre in documenti PDF** o **personalizzare i colori del codice a barre**. Ognuno di questi si basa sulla stessa API del generatore, permettendoti di estendere le capacità di scansione della tua applicazione con il minimo sforzo. Buon coding!
-
-## Cosa dovresti imparare dopo?
-
-I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell’API e a esplorare approcci di implementazione alternativi nei tuoi progetti.
-
-- [Come creare un codice a barre – PDF417 compatto con Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Come generare codici a barre DataMatrix (ECC 200) con Aspose.BarCode per .NET](/barcode/english/net/datamatrix-barcode-configuration/datamatrix-ecc-200-configuration/)
-- [Come generare un codice a barre Aztec con rapporto d’aspetto personalizzato usando Aspose.BarCode per .NET](/barcode/english/net/aztec-barcode-encoding/aztec-aspect-ratio-customization/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
