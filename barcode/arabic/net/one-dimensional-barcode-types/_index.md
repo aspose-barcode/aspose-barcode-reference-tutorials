@@ -88,12 +88,10 @@ url: /ar/net/one-dimensional-barcode-types/
 ### [قراءة الباركود من صورة في C# – دليل BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 تعلم كيفية قراءة الباركود من صورة باستخدام Aspose.BarCodeReader في C#.
 ### [كيفية ضبط معلمات الباركود في C# باستخدام Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
-تعلم كيفية ضبط معلمات الباركود في C# باستخدام Aspose.BarCode خطوة بخطوة.
 ### [كيفية إنشاء باركود باستخدام Aspose في C#](./how-to-generate-barcode-with-aspose-in-c/)
-تعلم كيفية إنشاء باركود باستخدام Aspose في C# خطوة بخطوة.
 ### [كيفية إنشاء باركود بأحرف خاصة في C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
-تعلم كيفية إنشاء باركود يحتوي على أحرف خاصة في C# باستخدام Aspose.BarCode خطوة بخطوة.
 ### [كيفية قراءة صور الباركود في C# – دليل كامل بالأمثلة](./how-to-read-barcode-images-in-c-full-example-guide/)
+### [كيفية قراءة الباركود من صورة في C# باستخدام Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
 
 ## خاتمة
 

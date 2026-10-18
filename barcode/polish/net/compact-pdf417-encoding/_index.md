@@ -259,6 +259,8 @@ Pełny przewodnik, jak w C# odczytywać kody PDF417 przy użyciu Aspose.BarCode,
 
 ### [Jak utworzyć kod kreskowy PNG w C# – Przewodnik krok po kroku](./how-to-create-barcode-png-in-c-step-by-step-guide/)
 
+### [Utwórz kod kreskowy PDF417 w C# przy użyciu Aspose.BarCode – przewodnik krok po kroku](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jaką maksymalną ilość danych mogę przechowywać w kodzie Compact PDF417?  

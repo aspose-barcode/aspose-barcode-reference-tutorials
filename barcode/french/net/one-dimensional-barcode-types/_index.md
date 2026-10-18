@@ -73,7 +73,7 @@ Apprenez à créer des codes à barres codés Databar GS1 dans .NET à l'aide d'
 ### [Configuration des lignes et des colonnes de la barre de données unidimensionnelle](./one-dimensional-databar-row-column-configuration/)
 Générez des codes-barres DataBar unidimensionnels dynamiques avec une configuration de lignes et de colonnes dans .NET à l'aide d'Aspose.BarCode pour .NET. La personnalisation simplifiée !
 ### [Configuration des barres remplies unidimensionnelles](./one-dimensional-filled-bars-configuration/)
-Découvrez comment générer des codes-barres dans .NET avec Aspose.BarCode pour .NET. Ce didacticiel complet couvre tout, de l'importation d'espaces de noms à la création de codes-barres unidimensionnels. 
+Découvrez comment générer des codes-barres dans .NET avec Aspose.BarCode pour .NET. Ce didacticiel complet couvre tout, de l'importation d'espaces de noms à la création de codes-barres unimensionnels. 
 ### [Gestion des exceptions de codes-barres unidimensionnelles](./one-dimensional-barcode-exception-handling/)
 Découvrez comment gérer les exceptions lors de la génération de codes-barres unidimensionnels à l'aide d'Aspose.BarCode for .NET. Ce guide étape par étape garantit des solutions de codes-barres tolérantes aux erreurs. Commencez maintenant!
 ### [Configuration unidimensionnelle à rapport large-étroit](./one-dimensional-wide-narrow-ratio-configuration/)
@@ -96,6 +96,8 @@ Apprenez à configurer les paramètres des codes-barres en C# avec Aspose.BarCod
 Apprenez à créer des codes-barres en C# avec Aspose.BarCode grâce à ce guide complet étape par étape.
 ### [Comment générer un code-barres avec des caractères spéciaux en C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Apprenez à créer des codes-barres contenant des caractères spéciaux en C# avec Aspose.BarCode.
+### [Lire un code-barres à partir d'une image en C# avec Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Apprenez à lire des codes-barres à partir d'images en C# avec Aspose.BarCode. Guide complet étape par étape.
 
 ## Conclusion
 

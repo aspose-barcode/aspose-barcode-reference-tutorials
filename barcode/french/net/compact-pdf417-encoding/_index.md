@@ -387,6 +387,8 @@ A: Aucune police externe n’est requise ; la bibliothèque gère tout le rend
 
 - [Créer un code‑barres PNG avec PDF417 en C# – guide complet](./create-barcode-png-with-pdf417-in-c-complete-guide/)
 
+- [Créer un code‑barres PDF417 en C# avec Aspose.BarCode – guide étape par étape](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

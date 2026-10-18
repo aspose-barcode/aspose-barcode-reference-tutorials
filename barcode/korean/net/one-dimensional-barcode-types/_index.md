@@ -90,6 +90,8 @@ Aspose.BarCode를 사용하여 C#에서 바코드를 생성하는 전체 가이�
 Aspose.BarCode의 BarCodeReader를 사용하여 C#에서 이미지 파일의 바코드를 읽는 방법을 단계별로 안내합니다.
 ### [C#에서 바코드 이미지 읽기 – 전체 예제 가이드](./how-to-read-barcode-images-in-c-full-example-guide/)
 Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 전체 예제 가이드를 단계별로 안내합니다.
+### [C#에서 Aspose.BarCode를 사용하여 이미지에서 바코드 읽는 방법](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 방법을 단계별로 안내합니다.
 ### [Aspose를 사용하여 C#에서 바코드 생성하는 방법](./how-to-generate-barcode-with-aspose-in-c/)
 Aspose.BarCode를 사용하여 C#에서 바코드를 생성하는 방법을 단계별로 안내합니다.
 ### [특수 문자를 사용한 C# 바코드 생성 방법](./how-to-generate-a-barcode-with-special-characters-in-c/)
