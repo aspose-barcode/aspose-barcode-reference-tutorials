@@ -1,0 +1,7 @@
+Title: Create databar expanded barcode in Java – full guide
+Slug: create-databar-expanded-barcode-in-java-full-guide
+Category: general
+ProcessedDate: 2026-10-18T19:08:15.390229
+SourceRepo: AI Search API
+Keywords: create databar expanded barcode, how to generate databar, barcode generator rows, export barcode image
+PRNumber: 159
