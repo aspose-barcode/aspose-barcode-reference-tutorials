@@ -1,0 +1,7 @@
+Title: How to read barcode from image in C# using Aspose.BarCode
+Slug: how-to-read-barcode-from-image-in-c-using-aspose-barcode
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-10-18T18:46:56.002723
+SourceRepo: AI Search API
+Keywords: how to read barcode from image
+PRNumber: 158
