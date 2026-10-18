@@ -84,6 +84,8 @@ url: /el/net/one-dimensional-barcode-types/
 Μάθετε πώς να διαβάζετε γραμμωτούς κώδικες από εικόνα σε C# χρησιμοποιώντας το Aspose.BarCode.
 ### [Πώς να διαβάσετε εικόνες barcode σε C# – πλήρης οδηγός παραδείγματος](./how-to-read-barcode-images-in-c-full-example-guide/)
 Μάθετε πώς να διαβάζετε εικόνες barcode σε C# με πλήρη παράδειγμα οδηγό.
+### [Πώς να διαβάσετε barcode από εικόνα σε C# χρησιμοποιώντας το Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Μάθετε πώς να διαβάζετε γραμμωτούς κώδικες από εικόνα σε C# χρησιμοποιώντας το Aspose.BarCode.
 ### [Δημιουργία barcode από κείμενο με Aspose.BarCode – Οδηγός C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Μάθετε πώς να δημιουργείτε barcode από κείμενο σε C# με το Aspose.BarCode, βήμα-βήμα οδηγός.
 ### [Πώς να δημιουργήσετε barcode σε C# – Πλήρης οδηγός προγραμματισμού](./how-to-generate-barcode-in-c-complete-programming-guide/)

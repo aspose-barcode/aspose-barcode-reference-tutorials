@@ -96,6 +96,8 @@ Scopri come creare codici a barre in C# usando Aspose.BarCode con esempi passo p
 Scopri come generare codici a barre con caratteri speciali in C# usando Aspose.BarCode, con esempi passo passo.
 ### [Come leggere le immagini di codici a barre in C# – guida completa con esempio](./how-to-read-barcode-images-in-c-full-example-guide/)
 Scopri come leggere codici a barre da immagini in C# con Aspose.BarCode, passo passo con un esempio completo.
+### [Come leggere il codice a barre da immagine in C# usando Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Scopri come leggere codici a barre da un'immagine in C# con Aspose.BarCode, passo passo con esempi pratici.
 
 ## Conclusione
 

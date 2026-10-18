@@ -83,6 +83,9 @@ Oltre alle basi, ecco alcuni consigli pratici per ottimizzare il tuo flusso di l
 - **Controllo di versione:** Mantieni coerente la versione della libreria Aspose.BarCode tra sviluppo, staging e produzione.
 
 ## Tutorial di codifica Compact PDF417
+### [Create PDF417 barcode in C# using Aspose.BarCode – step‑by‑step guide](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
+
+
 ### [Create barcode PNG with PDF417 in C# – complete guide](./create-barcode-png-with-pdf417-in-c-complete-guide/)
 
 

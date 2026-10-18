@@ -83,6 +83,11 @@ Pelajari cara mengatur barcode di C# dengan panduan lengkap Aspose.BarCode.
 ### [Cara membaca gambar barcode di C# – panduan contoh lengkap](./how-to-read-barcode-images-in-c-full-example-guide/)
 Panduan lengkap untuk membaca barcode dari gambar menggunakan C# dengan Aspose.BarCode.
 ### [Baca barcode dari gambar – contoh pembaca barcode C#](./read-barcode-from-image-c-barcode-reader-example/)
+### [Membaca barcode dari gambar di C# – tutorial BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Pelajari cara membaca barcode dari gambar menggunakan BarCodeReader di C#. Ikuti panduan langkah demi langkah kami.
+### [Cara membaca barcode dari gambar di C# menggunakan Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Panduan lengkap untuk membaca barcode dari gambar menggunakan Aspose.BarCode di C#.
+### [Baca barcode dari gambar – contoh pembaca barcode C#](./read-barcode-from-image-c-barcode-reader-example/)
 ### [Menghasilkan barcode dari teks menggunakan Aspose.BarCode – Panduan C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Pelajari cara menghasilkan barcode dari teks di .NET menggunakan Aspose.BarCode dengan contoh kode C#. Ikuti panduan langkah demi langkah kami.
 ### [Cara Membuat Barcode di C# – Panduan Pemrograman Lengkap](./how-to-generate-barcode-in-c-complete-programming-guide/)

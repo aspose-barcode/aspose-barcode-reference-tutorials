@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – Schritt‑
 Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
 ### [Barcode aus Bild in C# lesen – vollständige Beispielanleitung](./how-to-read-barcode-images-in-c-full-example-guide/)
 Erfahren Sie, wie Sie Barcode‑Bilder in C# vollständig auslesen – ein umfassendes Beispiel.
+### [Barcode aus Bild in C# lesen – mit Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
 ### [Wie man Barcode-Parameter in C# mit Aspose.BarCode festlegt](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Erfahren Sie, wie Sie Barcode-Parameter in C# mit Aspose.BarCode konfigurieren. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
 ### [Wie man in C# einen Barcode mit Sonderzeichen generiert](./how-to-generate-a-barcode-with-special-characters-in-c/)

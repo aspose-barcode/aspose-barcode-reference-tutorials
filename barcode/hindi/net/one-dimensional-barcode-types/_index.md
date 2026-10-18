@@ -88,6 +88,9 @@ Aspose.BarCode का उपयोग करके .NET में C# के स�
 Aspose.BarCode का उपयोग करके C# में बारकोड बनाने के सभी चरणों को सीखें। विस्तृत कोड उदाहरण और सर्वोत्तम प्रथाएँ।
 ### [C# में इमेज से बारकोड पढ़ें – BarCodeReader ट्यूटोरियल](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 
+### [C# में इमेज से बारकोड पढ़ें – Aspose.BarCode का उपयोग करके](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Aspose.BarCode का उपयोग करके .NET में C# के साथ इमेज से बारकोड पढ़ने की चरण-दर-चरण मार्गदर्शिका।
+
 ### [C# में Aspose.BarCode का उपयोग करके बारकोड पैरामीटर सेट करना](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Aspose.BarCode के साथ C# में बारकोड के विभिन्न पैरामीटर कैसे कॉन्फ़िगर करें, इस चरण-दर-चरण मार्गदर्शिका में सीखें।
 ### [Aspose के साथ C# में बारकोड कैसे जेनरेट करें](./how-to-generate-barcode-with-aspose-in-c/)

@@ -355,6 +355,7 @@ A: Inga externa typsnitt krävs; biblioteket hanterar all rendering internt.
 - [Hur du genererar PDF417‑streckkod i C# med Macro‑PDF417‑inställningar](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 - [Hur man skapar streckkod PNG i C# – steg‑för‑steg‑guide](./how-to-create-barcode-png-in-c-step-by-step-guide/)
 - [Skapa streckkod PNG med PDF417 i C# – komplett guide](./create-barcode-png-with-pdf417-in-c-complete-guide/)
+- [Skapa PDF417‑streckkod i C# med Aspose.BarCode – steg‑för‑steg‑guide](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

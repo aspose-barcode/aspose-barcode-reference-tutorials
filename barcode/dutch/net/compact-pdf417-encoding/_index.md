@@ -139,6 +139,9 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 - **Unreadable Scans:** Zorg voor voldoende contrast tussen voor‑ en achtergrondkleur; vermijd verlopen.  
 - **License Exceptions:** In een proefomgeving kan de gegenereerde barcode een watermerk bevatten. Pas een geldige licentie toe om het te verwijderen.
 
+### [Create PDF417 barcode in C# using Aspose.BarCode – step‑by‑step guide](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
+
+
 ### [How to generate PDF417 barcode in C# with Macro‑PDF417 settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 
 
