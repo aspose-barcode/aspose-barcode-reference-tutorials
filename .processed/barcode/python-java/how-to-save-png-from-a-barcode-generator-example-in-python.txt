@@ -1,0 +1,7 @@
+Title: How to save PNG from a barcode generator example in Python
+Slug: how-to-save-png-from-a-barcode-generator-example-in-python
+Category: general
+ProcessedDate: 2026-10-18T19:08:11.338537
+SourceRepo: AI Search API
+Keywords: how to save png, barcode generator example, how to adjust aspect ratio, how to generate databar, export barcode image
+PRNumber: 159
