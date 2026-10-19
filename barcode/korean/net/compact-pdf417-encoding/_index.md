@@ -343,8 +343,8 @@ C#에서 BarCodeReader를 사용해 PDF417 바코드를 디코딩하는 단계�
 
 - [C#에서 매크로‑PDF417 설정으로 PDF417 바코드 생성 방법](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
