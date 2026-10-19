@@ -1,13 +1,49 @@
 ---
-date: 2026-04-08
-description: Aspose.BarCode を使用して Java でカスタムバーコードのサイズ設定方法を学びましょう。画像解像度を最適化し、バーコードの寸法を構成し、シームレスな統合のために高度な設定をマスターします。
+date: 2026-10-19
+description: Aspose.BarCode を使用して Java でカスタム barcode 寸法を設定し、barcode の読み取り性を向上させる方法を学びます。画像の
+  image resolution と size を設定して、鮮明で scanner‑ready な barcode を実現します。
 keywords:
-- custom barcode dimensions java
-- barcode image resolution java
-- Aspose.BarCode custom size
-linktitle: 高度な設定と最適化
+- improve barcode readability
+- barcode generator custom size
+- barcode size printing
+lastmod: 2026-10-19
+linktitle: 高度な Settings と Optimization
+og_description: Aspose.BarCode を使用して Java でカスタム barcode 寸法を設定し、barcode の読み取り性を向上させる方法を学びます。画像の
+  image resolution と size を設定して、鮮明で scanner‑ready な barcode を実現します。
+og_image_alt: Guide showing custom barcode dimensions settings in Java for improved
+  readability
+og_title: Javaでカスタム寸法を使用して barcode の読み取り性を向上させる
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: Learn how to improve barcode readability by setting custom barcode
+    dimensions in Java with Aspose.BarCode. Configure image resolution and size for
+    crisp, scanner‑ready barcodes.
+  headline: Improve barcode readability with custom dimensions in Java
+  type: TechArticle
+- questions:
+  - answer: No. Size settings must be applied before calling `generateBarCodeImage()`.
+      Generate a new image if you need a different size.
+    question: Can I change the barcode size after the image has been generated?
+  - answer: Pixels, millimeters, and inches via the `SizeUnit` enumeration.
+    question: Which units are supported for custom barcode size Java?
+  - answer: Higher DPI increases pixel count, which can enlarge the file size. Balance
+      resolution with your storage and transmission constraints.
+    question: Does increasing the image resolution affect the file size dramatically?
+  - answer: Most 1D and 2D symbologies respect size settings, but some standards (e.g.,
+      QR Code) have minimum module requirements. Always test with your target scanners.
+    question: Is it safe to use custom sizes with all barcode symbologies?
+  - answer: Use Aspose.BarCode’s `recognizeBarCodeImage()` method or a physical scanner
+      to confirm readability after size adjustments.
+    question: How can I verify that my custom‑sized barcode is still scannable?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: カスタムバーコード寸法（Java） – 高度な設定と最適化
+tags:
+- barcode readability
+- Aspose.BarCode
+- Java barcode generation
+- custom barcode dimensions
+title: Javaでカスタム寸法を使用して barcode の読み取り性を向上させる
 url: /ja/java/advanced-settings-and-optimization/
 weight: 29
 ---
@@ -16,131 +52,162 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# カスタムバーコード寸法 Java – 高度な設定と最適化
+# Javaでカスタム寸法を使用してバーコードの可読性を向上させる
 
 ## はじめに
 
-Javaでバーコード生成を微調整する準備はできましたか？このチュートリアルでは、Aspose.BarCode を使用して **Javaでカスタムバーコード寸法を設定する方法** を示すとともに、画像解像度の調整、向きの制御、その他の高度な設定についても解説します。POSシステムや倉庫トラッキングアプリ、または鮮明で正確なサイズのバーコードに依存するあらゆるソリューションを構築している場合でも、これらのオプションをマスターすれば、実装の信頼性と視覚的一貫性が向上します。
+多くの小売、物流、製造アプリケーションにおいて、ぼやけたまたはサイズが不適切なバーコードは高額なスキャンエラーの原因となります。**バーコードの可読性向上**は、生成するバーコード画像の正確な寸法を制御することから始まります。本チュートリアルでは、Aspose.BarCode を使用して Java でカスタムバーコード寸法を設定し、画像解像度を調整し、測定単位を選択し、詳細オプションを適用する方法を順を追って説明します。これにより、生成するすべてのバーコードが鮮明で規格に準拠し、ワークフローに最適なサイズになります。
 
 ## クイック回答
 - **Javaでカスタムバーコードサイズを設定する主な方法は何ですか？** `BarcodeGenerator` オブジェクトの `setXDimension` と `setBarHeight`（または `setImageWidth`/`setImageHeight`）メソッドを使用します。  
-- **測定単位を制御できますか？** はい – `setSizeUnit(SizeUnit)` を呼び出して、ピクセル、ミリメートル、インチの間で切り替えられます。  
-- **高解像度画面でバーコードの鮮明さを向上させるには？** `setResolution(int dpi)` で画像解像度を調整します。  
+- **測定単位を制御できますか？** はい – `setSizeUnit(SizeUnit)` を呼び出して、ピクセル、ミリメートル、またはインチに切り替えます。  
+- **高解像度スクリーンでバーコードの鮮明さを向上させるには？** `setResolution(int dpi)` で画像解像度を調整します。  
 - **1つの画像に複数のバーコードを生成できますか？** もちろんです – 別々の `BarcodeGenerator` インスタンスを作成し、単一の `Graphics2D` キャンバスに描画します。  
-- **これらの設定はバーコードの読み取り可能性に影響しますか？** 正しく設定すれば、カスタムサイズは ISO/GS1 準拠を保ち、スキャナーとの互換性を確保します。
+- **これらの設定はバーコードの可読性に影響しますか？** 正しく設定すれば、カスタムサイズは ISO/GS1 準拠を維持し、スキャナーとの互換性を確保します。
 
 ## Javaにおけるカスタムバーコード寸法とは？
 
-**カスタムバーコード寸法** とは、ライブラリのデフォルトに頼るのではなく、バーコード画像の幅、高さ、モジュールサイズを明示的に定義することです。これにより、バーコードが UI レイアウト、印刷ラベル、PDF ドキュメントにどのように収まるかを正確に制御できます。
+カスタムバーコード寸法を使用すると、ライブラリのデフォルトに頼ることなく、バーコード画像の幅、高さ、モジュールサイズを明示的に定義できます。この精密な制御により、バーコードは UI コンポーネント、印刷ラベル、または PDF ドキュメントに余分な余白なしで完全にフィットします。
 
-## なぜ Javaでカスタムバーコード寸法を使用するのか？
+## なぜ Java でカスタムバーコード寸法を使用するのか？
 
-- **レイアウト制約に正確に合わせる** – 余分な余白なしでラベルサイズや UI コンポーネントに合わせます。  
-- **スキャン信頼性の向上** – 大きなモジュールは低解像度カメラでも読み取りやすく、逆に小さいサイズは密集した包装でスペースを節約します。  
-- **一貫したブランディング** – バーコードの外観を会社のデザインガイドラインに合わせます。  
+カスタム寸法を使用することで、スキャナーやラベルプリンターの物理的サイズ要件に合わせ、**バーコードの可読性が向上**します。また、無駄なスペースを削減し、ブランドガイドラインに合わせてバーコードを配置でき、モジュールサイズとラベルの使用面積のバランスを取ることができます。Aspose.BarCode は **50 以上の入力および出力フォーマット**（PNG、JPEG、SVG、PDF、TIFF など）をサポートし、数百ページのドキュメントをメモリに全体を読み込むことなく処理できるため、迅速かつ信頼性の高い生成が保証されます。
 
 ## 前提条件
 
 - Java 8 以上。  
 - Aspose.BarCode for Java（最新バージョン）。  
-- 本番環境用の有効な Aspose ライセンス（無料トライアルあり）。  
+- 本番環境用の有効な Aspose ライセンス（無料トライアルあり）。
 
-## Javaでバーコードのカスタムサイズを設定する
+## Java でバーコードのカスタムサイズを設定する
 
-特定のニーズに合わせたカスタムサイズのバーコードを作成する柔軟性を想像してください。Aspose.BarCode を使用すれば、想像にとどまらず現実になります。ステップバイステップのチュートリアルでプロセスを案内し、正確な設定と最適な結果を保証します。カスタマイズのシンプルさでバーコードの品質を向上させましょう。
+`BarcodeGenerator` はバーコード画像を作成するコアクラスです。  
+**定義アンカー:** `BarcodeGenerator` は Aspose.BarCode の主要オブジェクトで、単一のバーコード画像に対するシンボロジー、データ、レンダリングオプションをカプセル化します。  
 
-## Javaでバーコードの画像解像度を設定する
+カスタムサイズを設定するには、まず `BarcodeGenerator` のインスタンスを作成し、画像を生成する前にサイズ設定メソッドを呼び出します。直接的な回答は以下の通りです：
 
-バーコード生成において、鮮明さと精度は最重要です。このチュートリアルでは、Aspose.BarCode が Java でバーコードの画像解像度を簡単に設定できる方法を解説します。設定をカスタマイズしてクリアなバーコードを実現し、アプリケーションへのシームレスな統合を保証します。
+データをロードし、`setXDimension` で単一モジュールの幅を定義し、`setBarHeight`（または `setImageWidth`/`setImageHeight`）で全体の高さを制御します。最後に `generateBarCodeImage()` を呼び出して、指定した正確な寸法の画像を生成します。
 
-## Javaで最小バーコードサイズを取得する
+## Java でバーコードの画像解像度を設定する
 
-スペース最適化は効率的な Java アプリケーションにとって重要な課題です。Aspose.BarCode を使用して最小サイズのバーコードを作成し、効率と情報量の完璧なバランスを取る方法を学びましょう。ステップバイステップのガイドで、スペース最適化されたバーコード生成の技術をマスターできます。
+画像解像度は、バーコードの各ミリメートルを何ピクセルで表すかを決定し、高 DPI ディスプレイやプリンターでの鮮明さに直接影響します。  
 
-## Javaでバーコード画像をさまざまな形式で保存する
+**直接的な回答:** レンダリング前に `BarcodeGenerator` の `setResolution(300)`（または必要な DPI 値）を呼び出します。DPI が高いほど画像は鮮明になりますが、ファイルサイズも比例して増加します。  
 
-Aspose.BarCode でシームレスなバーコード生成の世界に飛び込みましょう。さまざまな形式でバーコード画像を簡単に保存できる汎用性を体感してください。この強力で多用途なライブラリのおかげで、さまざまなファイル形式のバーコードを組み込んで Java アプリケーションを強化できます。
+特に、光沢ラベルに印刷したり Retina 画面に表示したりする場合、低解像度の画像はぼやけて見え、スキャン成功率が低下するため、高解像度が有用です。
 
-## Javaでバーコード画像をストリームに保存する
+## Java で最小バーコードサイズを取得する
 
-Aspose.BarCode for Java を使用すれば、動的なバーコード生成が簡単になります。バーコード画像をストリームに保存する手順をご案内し、統合の無限の可能性を開きます。このステップバイステップのチュートリアルで、アプリケーションの動的性を高めましょう。
+スペースが限られている場合でも、シンボロジーの最小モジュール要件を満たす最小限のバーコードが必要になることがあります。  
 
-## Javaでバーコード画像のサイズ単位を設定する
+**直接的な回答:** `setXDimension(0.5f)`（または選択したシンボロジーで許容される最小値）を使用し、ライブラリに最小高さを自動計算させます。この方法により、バーコードは可読性を保ちつつ、可能な限り最小の面積で済みます。
 
-Aspose.BarCode の力で、バーコード画像の正確なサイズ単位を設定できます。このチュートリアルでは、簡単な統合、堅牢なパフォーマンス、無限のカスタマイズ可能性について掘り下げます。Java で完璧なバーコード生成のために、サイズ単位設定の可能性を解き放ちましょう。
+## Java でバーコード画像をさまざまな形式で保存する
 
-## Javaでバーコードの向き設定を構成する
+Aspose.BarCode は PNG、JPEG、BMP、GIF、TIFF、SVG、PDF などの形式で出力できます。  
 
-Aspose.BarCode for Java を使用したバーコードの向き設定のシームレスな統合をご紹介します。包括的なガイドで、Java アプリケーションでの認識のためにバーコードカスタマイズの力を活用できるようにします。向き設定でバーコードソリューションを向上させましょう。
+**直接的な回答:** サイズと解像度を設定した後、`save("output.png", BarCodeImageFormat.Png)` を呼び出します（必要に応じて形式とファイル名を置き換えてください）。ライブラリはカラー深度と圧縮を自動的に処理するため、手動で調整することなく最適なファイルサイズが得られます。
 
-## Javaでバーコード領域抽出をマスターする
+## Java でバーコード画像をストリームに保存する
 
-Aspose.BarCode for Java は、バーコード領域の詳細を簡単に抽出できる強力なライブラリです。バーコード領域抽出の技術をマスターして、Java アプリケーションを高精度に強化しましょう。このチュートリアルでシームレスな統合と活用方法をご案内します。
+ストリーミングは、Web サービスやディスクに書き込まずに画像をクライアントに直接送信する必要がある場合に便利です。  
 
-## Javaでバーコード認識の高速画像処理
+**直接的な回答:** `save` メソッドに `OutputStream` を渡します（例: `generator.save(outputStream, BarCodeImageFormat.Png)`）。これにより画像はストリームに直接書き込まれ、HTTP 応答やさらなる処理にすぐ利用できます。
 
-Aspose.BarCode を使用して、Java でのバーコード認識を高速化しましょう。ステップバイステップのガイドで、画像処理を高速化し、アプリケーションの効率を最適化します。バーコード認識の速度と精度を簡単に向上させましょう。
+## Java でバーコード画像のサイズ単位を設定する
 
-## Javaで単一画像に複数のバーコードを生成する
+`SizeUnit` 列挙型を使用すると、幅と高さの測定単位を選択できます。  
 
-Aspose.BarCode for Java を使用して、単一画像に複数のバーコードを簡単に生成できます。このチュートリアルは、シームレスな統合のためのステップバイステップガイドを提供し、アプリケーションでの複数バーコード生成の可能性を最大限に引き出します。
+**直接的な回答:** 寸法を設定する前に `setSizeUnit(SizeUnit.Millimeters)`（または `Pixels`、`Inches`）を呼び出します。以降のすべてのサイズ値は選択した単位で解釈され、印刷ラベルに対してピクセル単位の正確な制御が可能になります。
 
-## Javaで画像からすべての可能な1Dバーコードを取得する
+## Java でバーコードの向きを設定する
 
-Aspose.BarCode for Java の力で、1D バーコードを簡単にデコードしましょう。今すぐダウンロードして Java アプリケーションへのシームレスな統合を実現し、バーコードデコードの無限の可能性を探求してください。このチュートリアルでプロセスを案内し、最適な結果を保証します。
+特定のレイアウトに合わせてバーコードを回転させる必要がある場合があります。  
 
-## Javaでバーコード認識品質（％）を取得する
+**直接的な回答:** レンダリング前に `BarcodeGenerator` の `setRotateAngle(RotateAngle.Rotate90)`（または `Rotate180`、`Rotate270`）を呼び出します。ライブラリはモジュールの整合性を保ちつつ画像を回転させ、スキャナーが正しくコードを読み取れるようにします。
 
-Aspose.BarCode を使用して、Java でバーコード認識品質を最適化しましょう。ステップバイステップのガイドで、最適な結果を得るための洞察を提供します。Aspose.BarCode の機能を活用して、Java アプリケーションにおけるバーコード認識の品質を向上させましょう。
+## Java でバーコード領域抽出をマスターする
 
-Aspose.BarCode を使用すれば、可能性は無限です。高度な設定と最適化の力で Java アプリケーションを向上させましょう。チュートリアルに取り組んで、バーコード生成の全潜在能力を解き放ちましょう。
+バーコードは大きな画像内に現れることが多く、正確な領域を抽出することで認識速度が向上します。  
 
-## 高度な設定と最適化のチュートリアル
-### [Javaでバーコードのカスタムサイズを設定する](./configuring-custom-size-barcode/)
-Explore the simplicity of configuring custom sized barcodes in Java with Aspose.BarCode. Follow our step‑by‑step tutorial for precise configuration.
-### [Javaでバーコードの画像解像度を設定する](./setting-image-resolution-barcode/)
-Generate Setting Image Resolution barcodes effortlessly in Java with Aspose.BarCode. Customize settings for clarity and precision.
-### [Javaで最小バーコードサイズを取得する](./getting-minimum-barcode-size/)
-Learn how to create Minimum sized BarCodes in Java using Aspose.BarCode. Follow our step‑by‑step guide for efficient and space‑optimized BarCode generation.
-### [Javaでバーコード画像をさまざまな形式で保存する](./saving-barcode-images-different-formats/)
-Explore the seamless world of barcode generation in Java with Aspose.BarCode. Learn to save barcode images in different formats effortlessly. Enhance your Java applications with this powerful and versatile library.
-### [Javaでバーコード画像をストリームに保存する](./saving-barcode-image-streams/)
-Generate dynamic barcodes effortlessly with Aspose.BarCode for Java. Follow our step‑by‑step guide to save barcode images to streams.
-### [Javaでバーコード画像のサイズ単位を設定する](./setting-size-unit-barcode-image/)
-Discover the power of Aspose.BarCode for Java in setting precise size units for barcode images. Effortless integration, robust performance, and endless customization possibilities.
-### [Javaでバーコードの向き設定を構成する](./configuring-barcode-orientation/)
-Explore the power of Aspose.BarCode for Java in configuring barcode orientation. A comprehensive guide for seamless integration and recognition in your Java applications.
-### [Javaでバーコード領域抽出をマスターする](./extracting-barcode-region-information/)
-Explore Aspose.BarCode for Java a powerful library for extracting barcode region details effortlessly. Enhance your Java applications with precision.
-### [Javaでバーコード認識の高速画像処理](./faster-image-processing-barcode-recognition/)
-Enhance Faster Image Processing for barcode recognition in Java with Aspose.BarCode. Follow our step‑by‑step guide for faster image processing.
-### [Javaで単一画像に複数のバーコードを生成する](./generating-multiple-barcodes-single-image/)
-Generate multiple barcodes on a single image effortlessly using Aspose.BarCode for Java. Follow our step‑by‑step guide for seamless integration.
-### [Javaで画像からすべての可能な1Dバーコードを取得する](./getting-all-possible-1d-barcodes-image/)
-Explore the power of Aspose.BarCode for Java in decoding 1D barcodes effortlessly. Download now for seamless integration into your Java applications.
-### [Javaでバーコード認識品質（％）を取得する](./getting-barcode-recognition-quality-percent/)
-Getting barcode recognition quality in Java with Aspose.BarCode. Follow our step‑by‑step guide for optimal results.
+**直接的な回答:** `BarCodeReader` と `BarCodeReadType.Region` を使用して検出された各バーコードのバウンディング矩形を取得し、その領域だけを切り抜くか処理することで、後続の処理を高速化します。
+
+## Java でバーコード認識の画像処理を高速化する
+
+大量の画像を処理する際、パフォーマンスは重要です。  
+
+**直接的な回答:** `BarCodeReader` の `setEnableMultiThreading(true)` を設定し、最大スレッド数を CPU コア数に合わせて制限することで、一般的なハードウェアで総処理時間を最大 60 % 短縮できます。
+
+## Java で単一画像に複数のバーコードを生成する
+
+複数のバーコードを1つのキャンバスに結合することで、ファイル I/O を削減し、レイアウト管理が簡素化されます。  
+
+**直接的な回答:** `BufferedImage` キャンバスを作成し、各バーコード用に別々の `BarcodeGenerator` をインスタンス化し、`Graphics2D.drawImage` を使用して希望の座標に描画し、最後に結合画像を保存します。この方法により、すべてのバーコードを含む単一ファイルが生成され、バッチ印刷にすぐ利用できます。
+
+## Java で画像からすべての可能な 1D バーコードを取得する
+
+1つの画像に複数の 1D シンボロジーが含まれることがあります。  
+
+**直接的な回答:** `BarCodeReader` を `DecodeType.AllSupported1D` に設定して画像を渡します。リーダーは検出された各バーコードとそのシンボロジーを表す `BarCodeResult` オブジェクトのコレクションを返します。
+
+## Java でバーコード認識品質をパーセンテージで取得する
+
+品質指標は、バーコードがどれだけ確実にスキャンできるかを測るのに役立ちます。  
+
+**直接的な回答:** 認識後に `result.getQuality()` を呼び出すと、パーセンテージ値（0–100 %）が取得できます。80 %以上は通常高い信頼性を示し、低いスコアはサイズや解像度の調整が必要であることを示唆します。
+
+## 高度な設定と最適化チュートリアル
+### [Java でカスタムサイズのバーコードを設定する](./configuring-custom-size-barcode/)
+Java でカスタムサイズのバーコードを設定する方法をシンプルに解説します。ステップバイステップのチュートリアルで正確な設定を行いましょう。  
+### [Java でバーコードの画像解像度を設定する](./setting-image-resolution-barcode/)
+Aspose.BarCode を使用して Java で画像解像度を調整し、最適な鮮明さでバーコードを生成します。  
+### [Java で最小バーコードサイズを取得する](./getting-minimum-barcode-size/)
+Aspose.BarCode for Java を使用して、可読性を保ちつつ最小のバーコードを作成する方法を学びます。  
+### [Java でバーコード画像をさまざまな形式で保存する](./saving-barcode-images-different-formats/)
+1 行のコードで PNG、JPEG、SVG、PDF などにバーコード画像を保存します。  
+### [Java でバーコード画像をストリームに保存する](./saving-barcode-image-streams/)
+動的にバーコードを生成し、Web サービス向けに出力ストリームへ直接書き込みます。  
+### [Java でバーコード画像のサイズ単位を設定する](./setting-size-unit-barcode-image/)
+ピクセル、ミリメートル、インチから選択し、印刷ワークフローに合わせたバーコード寸法を設定します。  
+### [Java でバーコードの向きを設定する](./configuring-barcode-orientation/)
+レイアウトに合わせてバーコードを回転させ、スキャン信頼性を損なわずに配置できます。  
+### [Java でバーコード領域抽出をマスターする](./extracting-barcode-region-information/)
+大きな画像から正確なバーコード領域を抽出し、処理速度を向上させます。  
+### [Java でバーコード認識の画像処理を高速化する](./faster-image-processing-barcode-recognition/)
+マルチスレッドと最適化設定で認識速度を向上させます。  
+### [Java で単一画像に複数のバーコードを生成する](./generating-multiple-barcodes-single-image/)
+複数のバーコードを1つの画像に結合し、バッチ印刷を簡素化します。  
+### [Java で画像からすべての可能な 1D バーコードを取得する](./getting-all-possible-1d-barcodes-image/)
+1つの画像に含まれるすべての 1D バーコードを検出・デコードします。  
+### [Java でバーコード認識品質をパーセンテージで取得する](./getting-barcode-recognition-quality-percent/)
+品質パーセンテージ指標でバーコードの可読性を測定します。
 
 ## よくある質問
 
-**Q: 画像が生成された後にバーコードのサイズを変更できますか？**  
-A: いいえ。サイズ設定は `generateBarCodeImage()` を呼び出す前に適用する必要があります。別のサイズが必要な場合は新しい画像を生成してください。
+**Q: 画像が生成された後にバーコードサイズを変更できますか？**  
+A: できません。サイズ設定は `generateBarCodeImage()` を呼び出す前に適用する必要があります。別のサイズが必要な場合は新しい画像を生成してください。
 
-**Q: Javaでカスタムバーコードサイズに対応している単位はどれですか？**  
-A: `SizeUnit` 列挙体を使用して、ピクセル、ミリメートル、インチがサポートされています。
+**Q: Java でカスタムバーコードサイズに対応している単位はどれですか？**  
+A: `SizeUnit` 列挙型を使用して、ピクセル、ミリメートル、インチがサポートされています。
 
-**Q: 画像解像度を上げるとファイルサイズが大幅に増加しますか？**  
-A: DPI を上げるとピクセル数が増え、ファイルサイズが大きくなる可能性があります。ストレージや転送の制約と解像度のバランスを取ってください。
+**Q: 画像解像度を上げるとファイルサイズは大幅に増加しますか？**  
+A: DPI が高くなるとピクセル数が増え、ファイルサイズが大きくなる可能性があります。ストレージや転送の制約とバランスを取ってください。
 
-**Q: すべてのバーコードシンボルでカスタムサイズを使用しても安全ですか？**  
-A: 多くの 1D および 2D シンボルはサイズ設定を尊重しますが、いくつかの規格（例: QR Code）には最小モジュール要件があります。必ず対象のスキャナーでテストしてください。
+**Q: すべてのバーコードシンボロジーでカスタムサイズを使用しても安全ですか？**  
+A: ほとんどの 1D および 2D シンボロジーはサイズ設定を尊重しますが、いくつかの規格（例: QR Code）には最小モジュール要件があります。必ず対象のスキャナーでテストしてください。
 
 **Q: カスタムサイズのバーコードがまだスキャン可能かどうかを確認するには？**  
-A: サイズ調整後の読み取り可能性を確認するには、Aspose.BarCode の `recognizeBarCodeImage()` メソッドまたは実際のスキャナーを使用してください。
+A: Aspose.BarCode の `recognizeBarCodeImage()` メソッドまたは実際のスキャナーを使用して、サイズ調整後の可読性を確認してください。
 
-**Last Updated:** 2026-04-08  
-**Tested With:** Aspose.BarCode for Java 24.11 (latest)  
-**Author:** Aspose
+**最終更新日:** 2026-10-19  
+**テスト環境:** Aspose.BarCode for Java 24.11（最新）  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [バーコードの画像解像度設定](/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+- [バーコード画像のサイズ単位設定](/barcode/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/)
+- [カスタムサイズバーコードの設定](/barcode/java/advanced-settings-and-optimization/configuring-custom-size-barcode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

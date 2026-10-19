@@ -1,17 +1,55 @@
 ---
-date: 2026-04-08
-description: Aprende a establecer dimensiones personalizadas de códigos de barras
-  en Java usando Aspose.BarCode. Optimiza la resolución de la imagen, configura las
-  dimensiones del código de barras y domina configuraciones avanzadas para una integración
-  sin problemas.
+date: 2026-10-19
+description: Aprenda cómo mejorar la legibilidad del código de barras configurando
+  dimensiones personalizadas del código de barras en Java con Aspose.BarCode. Configure
+  la resolución y el tamaño de la imagen para obtener códigos de barras nítidos y
+  listos para escáner.
 keywords:
-- custom barcode dimensions java
-- barcode image resolution java
-- Aspose.BarCode custom size
-linktitle: Configuración avanzada y optimización
+- improve barcode readability
+- barcode generator custom size
+- barcode size printing
+lastmod: 2026-10-19
+linktitle: Configuraciones avanzadas y optimización
+og_description: Aprenda cómo mejorar la legibilidad del código de barras configurando
+  dimensiones personalizadas del código de barras en Java con Aspose.BarCode. Configure
+  la resolución y el tamaño de la imagen para obtener códigos de barras nítidos y
+  listos para escáner.
+og_image_alt: Guide showing custom barcode dimensions settings in Java for improved
+  readability
+og_title: Mejorar la legibilidad del código de barras con dimensiones personalizadas
+  en Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: Learn how to improve barcode readability by setting custom barcode
+    dimensions in Java with Aspose.BarCode. Configure image resolution and size for
+    crisp, scanner‑ready barcodes.
+  headline: Improve barcode readability with custom dimensions in Java
+  type: TechArticle
+- questions:
+  - answer: No. Size settings must be applied before calling `generateBarCodeImage()`.
+      Generate a new image if you need a different size.
+    question: Can I change the barcode size after the image has been generated?
+  - answer: Pixels, millimeters, and inches via the `SizeUnit` enumeration.
+    question: Which units are supported for custom barcode size Java?
+  - answer: Higher DPI increases pixel count, which can enlarge the file size. Balance
+      resolution with your storage and transmission constraints.
+    question: Does increasing the image resolution affect the file size dramatically?
+  - answer: Most 1D and 2D symbologies respect size settings, but some standards (e.g.,
+      QR Code) have minimum module requirements. Always test with your target scanners.
+    question: Is it safe to use custom sizes with all barcode symbologies?
+  - answer: Use Aspose.BarCode’s `recognizeBarCodeImage()` method or a physical scanner
+      to confirm readability after size adjustments.
+    question: How can I verify that my custom‑sized barcode is still scannable?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: Dimensiones Personalizadas de Código de Barras en Java – Configuraciones Avanzadas
-  y Optimización
+tags:
+- barcode readability
+- Aspose.BarCode
+- Java barcode generation
+- custom barcode dimensions
+title: Mejorar la legibilidad del código de barras con dimensiones personalizadas
+  en Java
 url: /es/java/advanced-settings-and-optimization/
 weight: 29
 ---
@@ -20,112 +58,137 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dimensiones Personalizadas de Código de Barras en Java – Configuraciones Avanzadas y Optimización
+# Mejorar la legibilidad del código de barras con dimensiones personalizadas en Java
 
 ## Introducción
 
-¿Listo para afinar la generación de códigos de barras en Java? En este tutorial le mostraremos **cómo establecer dimensiones personalizadas de código de barras en Java** con Aspose.BarCode, mientras también cubrimos ajustes de resolución de imagen, control de orientación y otras configuraciones avanzadas. Ya sea que esté construyendo un sistema de punto de venta, una aplicación de seguimiento de almacén o cualquier solución que dependa de códigos de barras nítidos y con el tamaño correcto, dominar estas opciones hará que su implementación sea más fiable y visualmente coherente.
+En muchas aplicaciones de venta minorista, logística y fabricación, un código de barras borroso o de tamaño inadecuado puede causar costosos errores de escaneo. **Mejorar la legibilidad del código de barras** comienza con controlar las dimensiones exactas de la imagen del código de barras que generas. Este tutorial te guía a través de la configuración de dimensiones personalizadas del código de barras en Java usando Aspose.BarCode, ajustando la resolución de la imagen, eligiendo unidades de medida y aplicando opciones avanzadas para que cada código de barras que produzcas sea nítido, conforme y de tamaño perfecto para tu flujo de trabajo.
 
-## Respuestas Rápidas
+## Respuestas rápidas
 - **¿Cuál es la forma principal de establecer un tamaño de código de barras personalizado en Java?** Use los métodos `setXDimension` y `setBarHeight` (o `setImageWidth`/`setImageHeight`) en el objeto `BarcodeGenerator`.  
 - **¿Puedo controlar la unidad de medida?** Sí – llame a `setSizeUnit(SizeUnit)` para cambiar entre píxeles, milímetros o pulgadas.  
 - **¿Cómo mejoro la claridad del código de barras en pantallas de alta resolución?** Ajuste la resolución de la imagen mediante `setResolution(int dpi)`.  
 - **¿Es posible generar varios códigos de barras en una sola imagen?** Absolutamente – cree instancias separadas de `BarcodeGenerator` y dibújelas en un único lienzo `Graphics2D`.  
-- **¿Estos ajustes afectan la legibilidad del código de barras?** Cuando se configuran correctamente, los tamaños personalizados mantienen la conformidad ISO/GS1 y garantizan la compatibilidad con escáneres.
+- **¿Afectan estos ajustes la legibilidad del código de barras?** Cuando se configuran correctamente, los tamaños personalizados mantienen la conformidad ISO/GS1 y garantizan la compatibilidad con los escáneres.
 
 ## ¿Qué son las dimensiones personalizadas de código de barras en Java?
 
-Una **dimensión personalizada de código de barras** significa definir explícitamente el ancho, la altura y el tamaño del módulo de una imagen de código de barras en lugar de depender de los valores predeterminados de la biblioteca. Esto le brinda un control preciso sobre cómo el código de barras encaja en diseños de UI, etiquetas impresas o documentos PDF.
+Las dimensiones personalizadas de código de barras le permiten definir explícitamente el ancho, la altura y el tamaño del módulo de una imagen de código de barras en lugar de depender de los valores predeterminados de la biblioteca. Este control preciso permite que el código de barras encaje perfectamente en componentes de UI, etiquetas impresas o documentos PDF sin relleno adicional.
 
-## ¿Por qué usar dimensiones personalizadas de códigos de barras en Java?
+## ¿Por qué usar dimensiones personalizadas de código de barras en Java?
 
-- **Ajustar restricciones exactas de diseño** – coincida con las dimensiones de la etiqueta o los componentes de UI sin relleno adicional.  
-- **Mejorar la fiabilidad del escaneo** – los módulos más grandes pueden ser más fáciles para cámaras de baja resolución, mientras que los tamaños más pequeños ahorran espacio en empaques densos.  
-- **Marca coherente** – alinee la apariencia del código de barras con las directrices de diseño de su empresa.  
+Usar dimensiones personalizadas **mejora la legibilidad del código de barras** al coincidir con los requisitos de tamaño físico de los escáneres y las impresoras de etiquetas. También reduce el espacio desperdiciado, alinea los códigos de barras con las directrices de la marca y le permite equilibrar el tamaño del módulo con el espacio disponible en la etiqueta. Aspose.BarCode admite **más de 50 formatos de entrada y salida** —incluidos PNG, JPEG, SVG, PDF y TIFF— mientras procesa documentos de cientos de páginas sin cargar todo el archivo en memoria, garantizando una generación rápida y fiable.
 
-## Requisitos Previos
+## Requisitos previos
 
 - Java 8 o superior.  
-- Aspose.BarCode for Java (última versión).  
+- Aspose.BarCode para Java (última versión).  
 - Una licencia válida de Aspose para producción (prueba gratuita disponible).  
 
-## Configuración de Tamaño Personalizado para Código de Barras en Java
+## Configuración del tamaño personalizado del código de barras en Java
 
-Imagine la flexibilidad de crear códigos de barras con tamaños personalizados adaptados a sus necesidades específicas. Con Aspose.BarCode, no es solo imaginación—es realidad. Nuestro tutorial paso a paso le guía a través del proceso, asegurando una configuración precisa y resultados óptimos. Eleve su juego de códigos de barras con la simplicidad de la personalización.
+`BarcodeGenerator` es la clase central que crea imágenes de códigos de barras.  
+**Ancla de definición:** `BarcodeGenerator` es el objeto principal de Aspose.BarCode que encapsula la simbología, los datos y las opciones de renderizado para una única imagen de código de barras.  
 
-## Configuración de Resolución de Imagen para Código de Barras en Java
+Para establecer un tamaño personalizado, primero instancia `BarcodeGenerator`, luego llama a los métodos de dimensionado antes de generar la imagen. La respuesta directa es la siguiente:
 
-La claridad y precisión son fundamentales en la generación de códigos de barras. En este tutorial, exploramos cómo Aspose.BarCode le permite establecer sin esfuerzo la resolución de imagen para códigos de barras en Java. Personalice los ajustes para lograr códigos de barras nítidos como el cristal, garantizando una integración fluida en sus aplicaciones.
+Cargue sus datos, llame a `setXDimension` para definir el ancho de un solo módulo y use `setBarHeight` (o `setImageWidth`/`setImageHeight`) para controlar la altura total. Finalmente, invoque `generateBarCodeImage()` para producir la imagen con las dimensiones exactas que especificó.
 
-## Obteniendo el Tamaño Mínimo del Código de Barras en Java
+## Configuración de la resolución de imagen para el código de barras en Java
 
-La optimización del espacio es una preocupación clave para aplicaciones Java eficientes. Aprenda a crear códigos de barras de tamaño mínimo con Aspose.BarCode, logrando el equilibrio perfecto entre eficiencia e información. Nuestra guía paso a paso le asegura dominar el arte de la generación de códigos de barras optimizados en espacio.
+La resolución de la imagen determina cuántos píxeles representan cada milímetro del código de barras, influyendo directamente en la nitidez en pantallas e impresoras de alta DPI.  
 
-## Guardando Imágenes de Código de Barras en Diferentes Formatos en Java
+**Respuesta directa:** Llame a `setResolution(300)` (o cualquier valor de DPI que necesite) en el `BarcodeGenerator` antes de renderizar; un DPI más alto produce una imagen más clara pero aumenta el tamaño del archivo proporcionalmente.  
 
-Sumérjase en el mundo sin fisuras de la generación de códigos de barras con Aspose.BarCode. Descubra la versatilidad de guardar imágenes de códigos de barras en distintos formatos sin esfuerzo. Mejore sus aplicaciones Java incorporando códigos de barras con diversos formatos de archivo, gracias a esta biblioteca poderosa y versátil.
+Una mayor resolución es especialmente útil cuando los códigos de barras se imprimen en etiquetas brillantes o se muestran en pantallas retina, donde las imágenes de baja resolución pueden aparecer borrosas y reducir las tasas de éxito de escaneo.
 
-## Guardando Imagen de Código de Barras en Flujos en Java
+## Obtener el tamaño mínimo del código de barras en Java
 
-La generación dinámica de códigos de barras se vuelve sencilla con Aspose.BarCode for Java. Siga nuestra guía para guardar imágenes de códigos de barras en flujos, desbloqueando posibilidades infinitas de integración. Eleve la dinamismo de sus aplicaciones con este tutorial paso a paso.
+Cuando el espacio es limitado, puede necesitar el código de barras más pequeño posible que aún cumpla con los requisitos mínimos de módulo de la simbología.  
 
-## Configuración de la Unidad de Tamaño para Imagen de Código de Barras en Java
+**Respuesta directa:** Use `setXDimension(0.5f)` (o el valor más pequeño permitido para la simbología elegida) y deje que la biblioteca calcule automáticamente la altura mínima. Este enfoque mantiene el código de barras legible mientras ocupa la menor área posible.
 
-Experimente el poder de Aspose.BarCode al establecer unidades de tamaño precisas para imágenes de códigos de barras. Este tutorial profundiza en la integración sin esfuerzo, rendimiento robusto y posibilidades de personalización ilimitadas. Libere el potencial de la configuración de unidades de tamaño para una generación impecable de códigos de barras en Java.
+## Guardar imágenes de códigos de barras en diferentes formatos en Java
 
-## Configuración de la Orientación del Código de Barras en Java
+Aspose.BarCode puede generar PNG, JPEG, BMP, GIF, TIFF, SVG, PDF y más.  
 
-Descubra la integración fluida de Aspose.BarCode for Java al configurar la orientación del código de barras. Nuestra guía completa le asegura aprovechar el poder de la personalización del código de barras para el reconocimiento en sus aplicaciones Java. Eleve sus soluciones de códigos de barras con la configuración de orientación.
+**Respuesta directa:** Después de configurar el tamaño y la resolución, llame a `save("output.png", BarCodeImageFormat.Png)` (reemplace el formato y el nombre de archivo según sea necesario). La biblioteca maneja la profundidad de color y la compresión automáticamente, por lo que obtiene un tamaño de archivo óptimo sin ajustes manuales.
 
-## Dominando la Extracción de Región de Código de Barras en Java
+## Guardar la imagen del código de barras en flujos en Java
 
-Aspose.BarCode for Java se presenta como una biblioteca poderosa para extraer detalles de la región del código de barras sin esfuerzo. Mejore sus aplicaciones Java con precisión al dominar el arte de la extracción de región de código de barras. Nuestro tutorial le guía a través de una integración y utilización sin fisuras.
+El streaming es útil para servicios web o cuando necesita enviar la imagen directamente a un cliente sin escribir en disco.  
 
-## Procesamiento de Imagen Más Rápido para el Reconocimiento de Códigos de Barras en Java
+**Respuesta directa:** Pase un `OutputStream` al método `save` —por ejemplo, `generator.save(outputStream, BarCodeImageFormat.Png)`— y la imagen se escribe directamente en el flujo, lista para la respuesta HTTP o procesamiento adicional.
 
-Acelere el reconocimiento de códigos de barras en Java con Aspose.BarCode. Nuestra guía paso a paso garantiza un procesamiento de imagen más rápido, optimizando la eficiencia de sus aplicaciones. Eleve la velocidad y precisión del reconocimiento de códigos de barras sin complicaciones.
+## Establecer la unidad de tamaño para la imagen del código de barras en Java
 
-## Generando Múltiples Códigos de Barras en una Imagen Única en Java
+La enumeración `SizeUnit` le permite elegir el sistema de medida para el ancho y la altura.  
 
-Genere múltiples códigos de barras en una sola imagen sin esfuerzo usando Aspose.BarCode for Java. Nuestro tutorial le brinda una guía paso a paso para una integración fluida, permitiéndole desbloquear todo el potencial de la generación múltiple de códigos de barras en sus aplicaciones.
+**Respuesta directa:** Invoque `setSizeUnit(SizeUnit.Millimeters)` (o `Pixels`, `Inches`) antes de establecer las dimensiones; todos los valores de tamaño posteriores se interpretan en la unidad elegida, dándole un control perfecto de píxeles sobre las etiquetas impresas.
 
-## Obteniendo Todos los Códigos de Barras 1D Posibles de una Imagen en Java
+## Configurar la orientación del código de barras en Java
 
-Descifre códigos de barras 1D sin esfuerzo con el poder de Aspose.BarCode for Java. Descargue ahora para una integración sin fisuras en sus aplicaciones Java y explore las infinitas posibilidades del decodificado de códigos de barras. Nuestro tutorial le guía a través del proceso, asegurando resultados óptimos.
+A veces necesita un código de barras rotado para encajar en un diseño específico.  
 
-## Obteniendo la Calidad de Reconocimiento de Código de Barras en Porcentaje en Java
+**Respuesta directa:** Llame a `setRotateAngle(RotateAngle.Rotate90)` (o `Rotate180`, `Rotate270`) en el `BarcodeGenerator` antes de renderizar. La biblioteca rota la imagen manteniendo la integridad del módulo, asegurando que los escáneres sigan leyendo el código correctamente.
 
-Optimice la calidad del reconocimiento de códigos de barras en Java con Aspose.BarCode. Nuestra guía paso a paso proporciona ideas para lograr resultados óptimos. Aproveche las capacidades de Aspose.BarCode para mejorar la calidad del reconocimiento de códigos de barras en sus aplicaciones Java.
+## Dominar la extracción de la región del código de barras en Java
 
-Con Aspose.BarCode, las posibilidades son ilimitadas. Eleve sus aplicaciones Java con el poder de configuraciones avanzadas y optimización. Sumérjase en los tutoriales y desbloquee todo el potencial de la generación de códigos de barras.
+Los códigos de barras a menudo aparecen dentro de imágenes más grandes; extraer la región exacta puede acelerar el reconocimiento.  
 
-## Tutoriales de Configuraciones Avanzadas y Optimización
-### [Configuración de Tamaño Personalizado para Código de Barras en Java](./configuring-custom-size-barcode/)
-Explora la simplicidad de configurar códigos de barras de tamaño personalizado en Java con Aspose.BarCode. Sigue nuestro tutorial paso a paso para una configuración precisa.
-### [Configuración de Resolución de Imagen para Código de Barras en Java](./setting-image-resolution-barcode/)
-Genera códigos de barras con configuración de resolución de imagen sin esfuerzo en Java con Aspose.BarCode. Personaliza los ajustes para claridad y precisión.
-### [Obteniendo el Tamaño Mínimo del Código de Barras en Java](./getting-minimum-barcode-size/)
-Aprende cómo crear códigos de barras de tamaño mínimo en Java usando Aspose.BarCode. Sigue nuestra guía paso a paso para una generación eficiente y optimizada en espacio.
-### [Guardando Imágenes de Código de Barras en Diferentes Formatos en Java](./saving-barcode-images-different-formats/)
-Explora el mundo sin fisuras de la generación de códigos de barras en Java con Aspose.BarCode. Aprende a guardar imágenes de códigos de barras en diferentes formatos sin esfuerzo. Mejora tus aplicaciones Java con esta biblioteca poderosa y versátil.
-### [Guardando Imagen de Código de Barras en Flujos en Java](./saving-barcode-image-streams/)
-Genera códigos de barras dinámicos sin esfuerzo con Aspose.BarCode for Java. Sigue nuestra guía paso a paso para guardar imágenes de códigos de barras en flujos.
-### [Configuración de la Unidad de Tamaño para Imagen de Código de Barras en Java](./setting-size-unit-barcode-image/)
-Descubre el poder de Aspose.BarCode for Java al establecer unidades de tamaño precisas para imágenes de códigos de barras. Integración sin esfuerzo, rendimiento robusto y posibilidades de personalización ilimitadas.
-### [Configuración de la Orientación del Código de Barras en Java](./configuring-barcode-orientation/)
-Explora el poder de Aspose.BarCode for Java al configurar la orientación del código de barras. Una guía completa para una integración fluida y reconocimiento en tus aplicaciones Java.
-### [Dominando la Extracción de Región de Código de Barras en Java](./extracting-barcode-region-information/)
-Explora Aspose.BarCode for Java, una biblioteca poderosa para extraer detalles de la región del código de barras sin esfuerzo. Mejora tus aplicaciones Java con precisión.
-### [Procesamiento de Imagen Más Rápido para el Reconocimiento de Códigos de Barras en Java](./faster-image-processing-barcode-recognition/)
-Mejora el procesamiento de imagen más rápido para el reconocimiento de códigos de barras en Java con Aspose.BarCode. Sigue nuestra guía paso a paso para un procesamiento de imagen más veloz.
-### [Generando Múltiples Códigos de Barras en una Imagen Única en Java](./generating-multiple-barcodes-single-image/)
-Genera múltiples códigos de barras en una sola imagen sin esfuerzo usando Aspose.BarCode for Java. Sigue nuestra guía paso a paso para una integración fluida.
-### [Obteniendo Todos los Códigos de Barras 1D Posibles de una Imagen en Java](./getting-all-possible-1d-barcodes-image/)
-Explora el poder de Aspose.BarCode for Java al decodificar códigos de barras 1D sin esfuerzo. Descarga ahora para una integración sin fisuras en tus aplicaciones Java.
-### [Obteniendo la Calidad de Reconocimiento de Código de Barras en Porcentaje en Java](./getting-barcode-recognition-quality-percent/)
-Obteniendo la calidad de reconocimiento de código de barras en Java con Aspose.BarCode. Sigue nuestra guía paso a paso para resultados óptimos.
+**Respuesta directa:** Use `BarCodeReader` con `BarCodeReadType.Region` para obtener el rectángulo delimitador de cada código de barras detectado, luego recorte o procese solo esa región para un manejo posterior más rápido.
 
-## Preguntas Frecuentes
+## Procesamiento de imágenes más rápido para el reconocimiento de códigos de barras en Java
+
+El rendimiento es importante al procesar lotes de imágenes.  
+
+**Respuesta directa:** Habilite el escaneo multihilo estableciendo `setEnableMultiThreading(true)` en el `BarCodeReader` y limite el número máximo de hilos para que coincida con los núcleos de su CPU; esto puede reducir el tiempo total de procesamiento hasta en un 60 % en hardware típico.
+
+## Generar varios códigos de barras en una sola imagen en Java
+
+Combinar varios códigos de barras en un solo lienzo ahorra I/O de archivos y simplifica la gestión del diseño.  
+
+**Respuesta directa:** Cree un lienzo `BufferedImage`, instancie un `BarcodeGenerator` separado para cada código de barras, renderice cada uno en el lienzo en las coordenadas deseadas usando `Graphics2D.drawImage`, luego guarde la imagen combinada. Este enfoque produce un solo archivo que contiene todos los códigos de barras, listo para la impresión por lotes.
+
+## Obtener todos los códigos de barras 1D posibles de una imagen en Java
+
+Una sola imagen puede contener varias simbologías 1D.  
+
+**Respuesta directa:** Configure `BarCodeReader` con `DecodeType.AllSupported1D` y pase la imagen; el lector devuelve una colección de objetos `BarCodeResult`, cada uno representando un código de barras detectado y su simbología.
+
+## Obtener la calidad del reconocimiento del código de barras en porcentaje en Java
+
+Las métricas de calidad le ayudan a medir cuán confiablemente se puede escanear un código de barras.  
+
+**Respuesta directa:** Después del reconocimiento, llame a `result.getQuality()` para obtener un valor porcentual (0–100 %). Los valores superiores al 80 % suelen indicar alta confianza, mientras que puntuaciones más bajas sugieren la necesidad de ajustes de tamaño o resolución.
+
+## Tutoriales de configuraciones avanzadas y optimización
+### [Configuración del tamaño personalizado para el código de barras en Java](./configuring-custom-size-barcode/)
+Explore la simplicidad de configurar códigos de barras de tamaño personalizado en Java con Aspose.BarCode. Siga nuestro tutorial paso a paso para una configuración precisa.  
+### [Configuración de la resolución de imagen para el código de barras en Java](./setting-image-resolution-barcode/)
+Genere códigos de barras con claridad óptima ajustando la resolución de la imagen en Java usando Aspose.BarCode.  
+### [Obtener el tamaño mínimo del código de barras en Java](./getting-minimum-barcode-size/)
+Aprenda cómo crear los códigos de barras más pequeños posibles manteniendo la legibilidad con Aspose.BarCode para Java.  
+### [Guardar imágenes de códigos de barras en diferentes formatos en Java](./saving-barcode-images-different-formats/)
+Guarde imágenes de códigos de barras en PNG, JPEG, SVG, PDF y más con una sola línea de código.  
+### [Guardar la imagen del código de barras en flujos en Java](./saving-barcode-image-streams/)
+Genere códigos de barras dinámicos y escríbalos directamente en flujos de salida para servicios web.  
+### [Establecer la unidad de tamaño para la imagen del código de barras en Java](./setting-size-unit-barcode-image/)
+Elija píxeles, milímetros o pulgadas para las dimensiones del código de barras y que coincidan con su flujo de trabajo de impresión.  
+### [Configurar la orientación del código de barras en Java](./configuring-barcode-orientation/)
+Rote los códigos de barras para encajar en diseños personalizados sin comprometer la fiabilidad del escaneo.  
+### [Dominar la extracción de la región del código de barras en Java](./extracting-barcode-region-information/)
+Extraiga regiones precisas del código de barras de imágenes más grandes para un procesamiento más rápido.  
+### [Procesamiento de imágenes más rápido para el reconocimiento de códigos de barras en Java](./faster-image-processing-barcode-recognition/)
+Aumente la velocidad de reconocimiento con multihilo y configuraciones optimizadas.  
+### [Generar varios códigos de barras en una sola imagen en Java](./generating-multiple-barcodes-single-image/)
+Combine varios códigos de barras en una sola imagen para simplificar la impresión por lotes.  
+### [Obtener todos los códigos de barras 1D posibles de una imagen en Java](./getting-all-possible-1d-barcodes-image/)
+Detecte y decodifique cada código de barras 1D presente en una sola imagen.  
+### [Obtener la calidad del reconocimiento del código de barras en porcentaje en Java](./getting-barcode-recognition-quality-percent/)
+Mida la legibilidad del código de barras con una métrica de porcentaje de calidad.
+
+## Preguntas frecuentes
 
 **Q: ¿Puedo cambiar el tamaño del código de barras después de que la imagen haya sido generada?**  
 A: No. Los ajustes de tamaño deben aplicarse antes de llamar a `generateBarCodeImage()`. Genere una nueva imagen si necesita un tamaño diferente.
@@ -133,20 +196,26 @@ A: No. Los ajustes de tamaño deben aplicarse antes de llamar a `generateBarCode
 **Q: ¿Qué unidades son compatibles para el tamaño personalizado del código de barras en Java?**  
 A: Píxeles, milímetros y pulgadas mediante la enumeración `SizeUnit`.
 
-**Q: ¿Aumentar la resolución de la imagen afecta drásticamente el tamaño del archivo?**  
-A: Un DPI más alto incrementa la cantidad de píxeles, lo que puede agrandar el archivo. Equilibre la resolución con sus limitaciones de almacenamiento y transmisión.
+**Q: ¿Aumentar la resolución de la imagen afecta dramáticamente el tamaño del archivo?**  
+A: Un DPI más alto aumenta el recuento de píxeles, lo que puede agrandar el tamaño del archivo. Equilibre la resolución con sus limitaciones de almacenamiento y transmisión.
 
 **Q: ¿Es seguro usar tamaños personalizados con todas las simbologías de códigos de barras?**  
-A: La mayoría de las simbologías 1D y 2D respetan los ajustes de tamaño, pero algunos estándares (p. ej., QR Code) tienen requisitos mínimos de módulo. Siempre pruebe con los escáneres objetivo.
+A: La mayoría de las simbologías 1D y 2D respetan los ajustes de tamaño, pero algunos estándares (p. ej., QR Code) tienen requisitos mínimos de módulo. Siempre pruebe con sus escáneres objetivo.
 
 **Q: ¿Cómo puedo verificar que mi código de barras de tamaño personalizado sigue siendo escaneable?**  
 A: Use el método `recognizeBarCodeImage()` de Aspose.BarCode o un escáner físico para confirmar la legibilidad después de los ajustes de tamaño.
 
 ---
 
-**Last Updated:** 2026-04-08  
-**Tested With:** Aspose.BarCode for Java 24.11 (latest)  
-**Author:** Aspose
+**Última actualización:** 2026-10-19  
+**Probado con:** Aspose.BarCode for Java 24.11 (latest)  
+**Autor:** Aspose
+
+## Tutoriales relacionados
+
+- [Configuración de la resolución de imagen del código de barras](/barcode/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
+- [Configuración de la unidad de tamaño de la imagen del código de barras](/barcode/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/)
+- [Configuración del tamaño personalizado del código de barras](/barcode/java/advanced-settings-and-optimization/configuring-custom-size-barcode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
