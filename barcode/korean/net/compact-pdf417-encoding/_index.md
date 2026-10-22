@@ -222,7 +222,7 @@ Aspose.BarCode for .NET를 사용해 C#에서 매크로 PDF417 바코드를 생�
 
 Aspose.BarCode for .NET를 사용해 PDF417 바코드를 처음부터 끝까지 생성하는 전체 가이드입니다.
 
-### [C#에서 PDF417 읽는 방법 – 완전 바코드 리더 예제](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
+### [C#에서 PDF417 읽는 방법 – 완전 바코드 리더 예제](./how-to-read-pdf417-in-c-complete-barcode-example/)
 
 Aspose.BarCode for .NET를 활용해 C#에서 PDF417 바코드를 읽는 전체 예제와 단계별 가이드를 제공합니다.
 
@@ -318,7 +318,6 @@ C#를 사용해 마이크로 PDF417 바코드를 생성하는 방법을 단계�
 C#에서 Macro PDF417 바코드를 생성하는 방법을 단계별로 안내합니다.
 
 ### [C#에서 PDF417 바코드 읽는 방법 – 완전 가이드](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
-Aspose.BarCode for .NET를 사용해 C#에서 PDF417 바코드를 읽는 전체 과정과 코드 예제를 제공합니다.
 
 ### [C#에서 BarCodeReader로 PDF417 바코드 디코딩하는 방법](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 
@@ -342,6 +341,17 @@ C#에서 BarCodeReader를 사용해 PDF417 바코드를 디코딩하는 단계�
 ### [Aspose.BarCode를 사용하여 C#에서 PDF417 바코드 만들기 – 단계별 가이드](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
 
 - [C#에서 매크로‑PDF417 설정으로 PDF417 바코드 생성 방법](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
+
+### [C#에서 매크로 지원으로 PDF417 바코드 생성 방법](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
+
+### [C#에서 사용자 정의 열 및 행으로 PDF417 바코드 생성](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
+
+### [How to read PDF417 barcodes in C# – full guide](./how-to-read-pdf417-barcodes-in-c-full-guide/)
+
+
+### [C#에서 PDF417 바코드 읽기 – 바코드 리더 예제](./how-to-read-pdf417-in-c-complete-barcode-example/)
+
+### [C#에서 PDF417 바코드 읽는 방법 – 전체 바코드 리더 가이드](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
