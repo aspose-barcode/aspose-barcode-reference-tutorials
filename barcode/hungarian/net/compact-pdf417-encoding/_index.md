@@ -81,6 +81,12 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 - **Verziókezelés:** Tartsa az Aspose.BarCode könyvtár verzióját konzisztensen a fejlesztés, teszt és éles környezetekben.
 
 ## Compact PDF417 kódolási útmutatók
+### [Generate pdf417 barcode in C# with custom columns and rows](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
+
+
+### [How to generate PDF417 barcode in C# with macro support](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
+
+
 ### [Generate PDF417 barcode and create barcode image C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
 
 
@@ -273,10 +279,7 @@ Ismerje meg, hogyan hozhat létre PDF417 vonalkódot C#‑ban az Aspose.BarCode 
 ### [Vonalkód generálása szövegből C#‑ban – teljes lépésről‑lépésre útmutató](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre vonalkódot szöveges adatból C#‑ban az Aspose.BarCode for .NET segítségével.
 
-### [Hogyan olvassuk be a PDF417-et C#‑ban – teljes vonalkód-olvasó útmutató](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
-Ismerje meg, hogyan olvassa be a PDF417 vonalkódot C#‑ban az Aspose.BarCode for .NET segítségével.
-
-### [Hogyan dekódoljuk a PDF417-et C#‑ban – vonalkódolvasó példa](./how-to-decode-pdf417-in-c-barcode-reader-example/)
+### [Hogyan olvassuk be a PDF417-et C#‑ban – teljes vonalkódolvasó útmutató](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
 **Q: Generálhatok-e Compact PDF417 vonalkódot egy .NET Core konzolalkalmazásban?**  
 A: Igen. Az Aspose.BarCode for .NET teljes mértékben támogatja a .NET Core 3.1-et és az azt követő verziókat.
