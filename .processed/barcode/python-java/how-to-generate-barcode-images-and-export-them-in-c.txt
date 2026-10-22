@@ -1,0 +1,7 @@
+Title: How to generate barcode images and export them in C#
+Slug: how-to-generate-barcode-images-and-export-them-in-c
+Category: general
+ProcessedDate: 2026-10-22T03:29:36.395173
+SourceRepo: AI Search API
+Keywords: how to generate barcode, how to export barcode
+PRNumber: 163
