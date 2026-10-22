@@ -1,0 +1,7 @@
+Title: Generate pdf417 barcode in C# with custom columns and rows
+Slug: generate-pdf417-barcode-in-c-with-custom-columns-and-rows
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-22T03:05:19.350957
+SourceRepo: AI Search API
+Keywords: generate pdf417 barcode, how to generate pdf417 barcode
+PRNumber: 162
