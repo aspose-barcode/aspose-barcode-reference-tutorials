@@ -165,6 +165,10 @@ weight: 29
 ### [Δημιουργία κώδικα pdf417 σε C# με προσαρμοσμένες στήλες και σειρές](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
 Μάθετε πώς να δημιουργήσετε κώδικα pdf417 σε C# ορίζοντας προσαρμοσμένες στήλες και σειρές.
 
+### [Πώς να δημιουργήσετε PDF417 barcode σε C# με Aspose.BarCode](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
+
+### [Πώς να διαβάσετε PDF417 barcode σε C# – πλήρης οδηγός αναγνώστη barcode](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -173,3 +177,5 @@ weight: 29
 {{< blocks/products/products-backtop-button >}}
 
 ### [Πώς να διαβάσετε PDF417 barcode σε C# – πλήρης οδηγός αναγνώστη barcode](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
+
+### [Πώς να διαβάσετε PDF417 barcode σε C# με Aspose – βήμα‑βήμα οδηγός](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)

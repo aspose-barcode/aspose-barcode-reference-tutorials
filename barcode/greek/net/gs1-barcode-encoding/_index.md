@@ -68,6 +68,8 @@ GS1 Coupon UPC-A Κωδικός 128 κωδικοποίηση είναι μια �
 Μάθετε πώς να δημιουργήσετε εικόνες GS1 barcode σε C# γρήγορα με το Aspose.BarCode για .NET.
 ### [Δημιουργία barcode GS1 σε C# και εξαγωγή ως PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
 Μάθετε πώς να δημιουργήσετε barcode GS1 σε C# και να το εξάγετε ως PNG με το Aspose.BarCode για .NET.
+### [Πώς να δημιουργήσετε barcode GS1 σε ASP.NET με Aspose.BarCode](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
+Μάθετε πώς να δημιουργήσετε barcode GS1 σε ASP.NET χρησιμοποιώντας το Aspose.BarCode για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

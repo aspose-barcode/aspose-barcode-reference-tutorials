@@ -259,6 +259,8 @@ A: Geen externe lettertypen zijn nodig; de bibliotheek verwerkt alle rendering i
 - [Hoe PDF417-barcode te genereren in C# – volledige gids met macro‑ondersteuning](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
 - [Genereer pdf417 barcode in C# met aangepaste kolommen en rijen](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
 - [Hoe PDF417-barcode te lezen in C# – volledige barcode‑lezer gids](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
+- [Hoe PDF417-barcode te genereren met Aspose.BarCode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
+- [Hoe PDF417-barcode lezen in C# met Aspose – stapsgewijze gids](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
