@@ -1,0 +1,7 @@
+Title: Barcode generator example – create Planet and RM4SCC barcodes with custom height
+Slug: barcode-generator-example-create-planet-and-rm4scc-barcodes
+Category: general
+ProcessedDate: 2026-10-25T06:45:08.444438
+SourceRepo: AI Search API
+Keywords: barcode generator example, how to create planet barcode, how to set barcode height
+PRNumber: 166
