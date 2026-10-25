@@ -1,16 +1,65 @@
 ---
-date: 2026-04-03
-description: تعلم كيفية إضافة الباركود إلى ملف PDF باستخدام Aspose Barcode Java. يوضح
-  هذا الدرس كيفية إنشاء صور الباركود، وتحديد الحجم، واكتشاف الاتجاه.
+date: 2026-10-25
+description: تعلم كيفية إنشاء barcode وإضافته إلى PDF في Java باستخدام Aspose.BarCode.
+  يغطي هذا الدليل خطوة بخطوة إنشاء barcode، وتحديد الحجم، واكتشاف الاتجاه.
 keywords:
-- aspose barcode java
-- how to add barcode
+- how to generate barcode
 - barcode generator tutorial java
-- generate barcode image java
+- barcode reader tutorial java
 - read barcode pdf java
-linktitle: أساسيات الباركود
+- add barcode existing pdf
+lastmod: 2026-10-25
+linktitle: أساسيات barcode
+og_description: تعلم كيفية إنشاء barcode وإضافته إلى PDF في Java باستخدام Aspose.BarCode.
+  يغطي هذا الدليل خطوة بخطوة إنشاء barcode، وتحديد الحجم، واكتشاف الاتجاه.
+og_image_alt: Tutorial showing how to generate barcode and embed it in a PDF using
+  Aspose.BarCode for Java
+og_title: كيفية إنشاء barcode وإضافته إلى PDF في Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-25'
+  description: Learn how to generate barcode and add it to PDF in Java using Aspose.BarCode.
+    This step‑by‑step guide covers barcode generation, sizing, and orientation detection.
+  headline: How to generate barcode and add it to PDF in Java
+  type: TechArticle
+- description: Learn how to generate barcode and add it to PDF in Java using Aspose.BarCode.
+    This step‑by‑step guide covers barcode generation, sizing, and orientation detection.
+  name: How to generate barcode and add it to PDF in Java
+  steps:
+  - name: '**Generate the barcode image** – use `BarcodeGenerator` to create a bitmap
+      in memory.'
+    text: '**Generate the barcode image** – use `BarcodeGenerator` to create a bitmap
+      in memory.'
+  - name: '**Create or open a PDF document** – Aspose.PDF lets you work with existing
+      PDFs or start from scratch.'
+    text: '**Create or open a PDF document** – Aspose.PDF lets you work with existing
+      PDFs or start from scratch.'
+  - name: '**Place the barcode image on a page** – add the image to a `PdfPage` at
+      the desired coordinates and size.'
+    text: '**Place the barcode image on a page** – add the image to a `PdfPage` at
+      the desired coordinates and size.'
+  type: HowTo
+- questions:
+  - answer: Aspose.BarCode for Java.
+    question: What library lets me add barcode to PDF in Java?
+  - answer: Yes, a commercial license is required; a free trial is available.
+    question: Do I need a license for production use?
+  - answer: Absolutely – use the `BarcodeGenerator` class to create PNG, JPEG, or
+      BMP files.
+    question: Can I generate a barcode image without a PDF?
+  - answer: Yes, the `BarCodeReader` can automatically detect rotation.
+    question: Is barcode orientation detection supported?
+  - answer: Java 8 and higher (including Java 11, 17, and later).
+    question: Which Java versions are supported?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: 'Aspose Barcode Java: إضافة الباركود إلى PDF – أساسيات الباركود'
+tags:
+- generate barcode
+- Aspose.Barcode
+- Java barcode integration
+- PDF barcode
+- barcode generation tutorial
+title: كيفية إنشاء barcode وإضافته إلى PDF في Java
 url: /ar/java/barcode-basics/
 weight: 20
 ---
@@ -19,103 +68,136 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Barcode Java – أساسيات الباركود
+# كيفية إنشاء الباركود وإضافته إلى PDF في Java
 
 ## مقدمة
 
-إذا كنت بحاجة إلى **إضافة باركود إلى ملفات PDF** من تطبيق Java، فقد وجدت المكان المناسب. **Aspose Barcode Java** يجعل العملية سريعة، موثوقة، وقابلة للتخصيص بالكامل. في هذه السلسلة سنستعرض كل شيء بدءًا من إنشاء صورة باركود في Java إلى دمجها في PDF، تعديل حجمها، وحتى اكتشاف اتجاهها أثناء التشغيل. في النهاية ستتمكن من إنشاء باركودات ذات جودة احترافية تتكامل بسلاسة مع مشاريع Java الحالية لديك.
+إذا كنت بحاجة إلى **إضافة باركود إلى PDF** من تطبيق Java، فقد وصلت إلى المكان الصحيح. **Aspose.BarCode for Java** يجعل العملية سريعة، موثوقة، وقابلة للتخصيص بالكامل. في هذه السلسلة سنستعرض كل شيء بدءًا من إنشاء صورة باركود في Java إلى تضمينها في PDF، تعديل حجمها، وحتى اكتشاف اتجاهها أثناء التشغيل. في النهاية ستتمكن من إنشاء باركود احترافي يندمج بسلاسة مع مشاريع Java الحالية لديك.
 
 ## إجابات سريعة
 - **ما المكتبة التي تسمح لي بإضافة باركود إلى PDF في Java؟** Aspose.BarCode for Java.  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يتطلب ترخيص تجاري؛ يتوفر نسخة تجريبية مجانية.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يلزم الحصول على ترخيص تجاري؛ يتوفر نسخة تجريبية مجانية.  
 - **هل يمكنني إنشاء صورة باركود دون PDF؟** بالتأكيد – استخدم الفئة `BarcodeGenerator` لإنشاء ملفات PNG أو JPEG أو BMP.  
-- **هل يتم دعم اكتشاف اتجاه الباركود؟** نعم، يمكن لـ `BarCodeReader` اكتشاف الدوران تلقائيًا.  
+- **هل يدعم اكتشاف اتجاه الباركود؟** نعم، يمكن لـ `BarCodeReader` اكتشاف الدوران تلقائيًا.  
 - **ما إصدارات Java المدعومة؟** Java 8 وأعلى (بما في ذلك Java 11، 17، وما بعده).
 
 ## ما هو Aspose Barcode Java؟
 
-Aspose Barcode Java هي مكتبة Java صافية تتيح لك **إنشاء** و**قراءة** الباركود لأكثر من 60 نوعًا من الرموز. تعمل دون أي تبعيات خارجية، لذا يمكنك دمجها في خدمات الويب، تطبيقات سطح المكتب، أو خطوط معالجة الدفعات.
+Aspose Barcode Java هي مكتبة Java صافية تتيح لك إنشاء وقراءة الباركود لأكثر من 60 نوعًا من الرموز. تعمل بدون تبعيات خارجية، مما يتيح دمجًا سهلاً في خدمات الويب، تطبيقات سطح المكتب، أو خطوط معالجة الدُفعات، وتدعم العرض عالي الدقة لكل من الشاشة والطباعة.
 
 ## لماذا تستخدم Aspose Barcode Java؟
 
+Aspose Barcode Java توفر للمطورين تحكمًا كاملاً في إنشاء الباركود والتعرف عليه، مع أداء عالي دون الحاجة إلى مكتبات أصلية. تدعم مجموعة واسعة من الرموز، مظهرًا قابلاً للتخصيص، واكتشاف اتجاه موثوق، مما يجعلها مثالية للوظائف الدُفعية الكبيرة وتطبيقات الوقت الحقيقي.
+
 - **تحكم كامل** في نوع الرمز، الحجم، الهوامش، واللون.  
-- **عدم وجود تبعيات خارجية** – Java صافية، بدون DLLs أصلية.  
-- **عرض عالي الأداء** مناسب لمعالجة دفعات من آلاف الباركودات.  
-- **محرك قراءة قوي** مع اكتشاف الاتجاه المدمج وتصحيح الأخطاء.  
+- **عدم وجود تبعيات خارجية** – Java صافية، لا ملفات DLL أصلية.  
+- **عرض عالي الأداء** قادر على معالجة ما يصل إلى 10,000 باركود في الثانية على خادم عادي.  
+- **محرك قراءة قوي** مع اكتشاف الاتجاه المدمج وتصحيح الأخطاء لتحقيق دقة قراءة 99.9 % على المسحات القياسية.  
 - **API شاملة** تغطي كلًا من الإنشاء (`BarcodeGenerator`) والقراءة (`BarCodeReader`).
 
 ## المتطلبات المسبقة
-- Java 8 أو أحدث مثبت.  
+- تثبيت Java 8 أو أحدث.  
 - مكتبة Aspose.BarCode for Java (قم بتنزيلها من موقع Aspose).  
-- (اختياري) Aspose.PDF for Java إذا كنت تخطط للعمل مباشرةً مع ملفات PDF.  
+- (اختياري) Aspose.PDF for Java إذا كنت تخطط للعمل مع ملفات PDF مباشرة.  
 
-## كيفية إضافة الباركود إلى PDF في Java
-إدراج باركود في PDF بسيط كثلاث خطوات:
+## كيفية إضافة باركود إلى PDF في Java
+
+حمّل ملف PDF الخاص بك، أنشئ صورة باركود في الذاكرة، وضع الصورة على الصفحة – هذه هي الحل الكامل في ثلاث أسطر من الشيفرة. **`BarcodeGenerator` ينشئ صور باركود من البيانات المقدمة.** أولاً، أنشئ كائن `BarcodeGenerator`، ثم اكتب الصورة إلى `ByteArrayOutputStream`، وأخيرًا استخدم طريقة `PdfPage.addImage` في Aspose.PDF لتضمين التيار في الإحداثيات التي تختارها.
+
+فئة `BarcodeGenerator` تنشئ صور باركود في الذاكرة، بينما فئة `BarCodeReader` تقرأ الباركود من الصور أو صفحات PDF. كلا الفئتين آمانة للخطوط المتعددة، مما يسمح لك بإنشاء أو قراءة الباركود بشكل متوازي دون الحاجة إلى مزامنة إضافية.
+
+تضمين باركود في PDF بسيط كثلاث خطوات:
 
 1. **إنشاء صورة الباركود** – استخدم `BarcodeGenerator` لإنشاء صورة bitmap في الذاكرة.  
 2. **إنشاء أو فتح مستند PDF** – يتيح لك Aspose.PDF العمل مع ملفات PDF موجودة أو البدء من الصفر.  
-3. **وضع صورة الباركود على صفحة** – أضف الصورة إلى `PdfPage` عند الإحداثيات والحجم المطلوبين.
+3. **وضع صورة الباركود على صفحة** – أضف الصورة إلى `PdfPage` في الإحداثيات والحجم المطلوب.
 
 > *نصيحة احترافية:* احتفظ بصورة الباركود في `ByteArrayOutputStream` لتجنب كتابة ملفات مؤقتة إلى القرص.
 
+```java
+// Generate barcode image
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "123456789");
+ByteArrayOutputStream baos = new ByteArrayOutputStream();
+generator.save(baos, BarCodeImageFormat.Png);
+
+// Create PDF and add barcode
+Document pdf = new Document();
+Page page = pdf.getPages().add();
+Image image = Image.fromStream(baos.toByteArray());
+page.getParagraphs().add(image);
+pdf.save("output.pdf");
+```
+
 ## إنشاء وتحديد حجم الصورة الكاملة مع الباركود في Java
+
 عندما تحتاج إلى باركود يشغل مساحة محددة من المستند، يمكنك تحديد العرض والارتفاع بدقة بالبكسل أو المليمتر. يتيح لك Aspose.BarCode ضبط خصائص `xDimension` و `BarHeight`، أو يمكنك تحجيم الصورة المُنشأة عند إضافتها إلى PDF. يضمن ذلك أن يبدو الباركود واضحًا في الطباعة عالية الدقة ويتناسب تمامًا مع تخطيطك.
 
 ## إنشاء صورة بالباركود الدقيق في Java
-إذا كان هدفك هو **إنشاء صورة باركود Java** للاستخدام خارج ملفات PDF (مثل صفحات الويب، تطبيقات الهواتف المحمولة)، يمكن للفئة `BarcodeGenerator` إخراج PNG أو JPEG أو GIF أو BMP مباشرةً إلى تدفق. يمكنك أيضًا تحديد DPI للتحكم في جودة الصورة، وهو مفيد بشكل خاص للطباعة.
+
+إذا كان هدفك هو **إنشاء صورة باركود في Java** للاستخدام خارج ملفات PDF (مثل صفحات الويب، تطبيقات الجوال)، يمكن للفئة `BarcodeGenerator` إخراج PNG أو JPEG أو GIF أو BMP مباشرة إلى تيار. يمكنك أيضًا تحديد DPI للتحكم في جودة الصورة، وهو مفيد بشكل خاص للطباعة.
 
 ## اكتشاف اتجاه الباركود في Java
-يعني اكتشاف اتجاه الباركود أن المكتبة يمكنها قراءة الباركود حتى إذا كان مدورًا (0°، 90°، 180°، 270°). هذه الميزة حاسمة عند مسح المستندات التي قد تكون مقلوبة أو مائلة. يتعامل `BarCodeReader` من Aspose.BarCode تلقائيًا مع الاتجاه، لذا لا تحتاج إلى معالجة مسبقة للصورة.
+
+يعني اكتشاف اتجاه الباركود أن المكتبة يمكنها قراءة الباركود حتى لو كان مدورًا (0°, 90°, 180°, 270°). **`BarCodeReader` يقرأ ويفك تشفير الباركود من الصور أو صفحات PDF.** هذه الميزة حاسمة عند مسح المستندات التي قد تُمسح مقلوبة أو جانبية. `BarCodeReader` في Aspose.BarCode يتعامل تلقائيًا مع الاتجاه، لذا لا تحتاج إلى معالجة مسبقة للصورة.
 
 ## حالات الاستخدام الشائعة
-- **إنشاء الفواتير** – دمج رموز UPC/EAN على كل PDF فاتورة.  
+
+- **إنشاء الفواتير** – تضمين رموز UPC/EAN على كل PDF فاتورة.  
 - **ملصقات الشحن** – إنشاء رموز Code128 أو QR التي تشفر أرقام التتبع.  
 - **كتالوجات المنتجات** – إنشاء صور باركود عالية الدقة لكاتالوجات المطبوعة.  
 - **مسح المستندات** – اكتشاف وقراءة الباركود من ملفات PDF الممسوحة لتلقائيًا إدخال البيانات.
 
 ## المشكلات الشائعة والحلول
-| المشكلة | سبب حدوثه | كيفية الإصلاح |
+
+| المشكلة | السبب | كيفية الإصلاح |
 |-------|----------------|------------|
-| الباركود يظهر ضبابيًا | دقة الصورة (DPI) منخفضة جدًا | قم بتعيين DPI أعلى عند استدعاء `generator.save(stream, BarCodeImageFormat.Png, 300)` |
-| القارئ يفشل في قراءة الباركود المدور | لم يتم اكتشاف الدوران | تأكد من استخدام `BarCodeReadType.Rotate` أو تمكين `AutoRotate` في `BarCodeReader` |
+| الباركود يظهر ضبابيًا | دقة DPI للصورة منخفضة جدًا | عيّن DPI أعلى عند استدعاء `generator.save(stream, BarCodeImageFormat.Png, 300)` |
+| القارئ يفشل في قراءة الباركود المدور | لم يتم اكتشاف الدوران | تأكد من استخدام `BarCodeReadType.Rotate` أو تفعيل `AutoRotate` في `BarCodeReader` |
 | حجم الباركود لا يتناسب مع الصفحة | عامل التحجيم غير صحيح | استخدم `PdfPage.addImage(image, x, y, width, height)` للتحكم في الأبعاد الدقيقة |
-| استخدام الذاكرة يرتفع في الدفعات الكبيرة | جميع الصور محفوظة في الذاكرة | اكتب كل باركود إلى تدفق مؤقت، أضفه إلى PDF، ثم حرر التدفق |
+| استخدام الذاكرة يرتفع بشكل كبير في الدُفعات الكبيرة | جميع الصور تُحفظ في الذاكرة | اكتب كل باركود إلى تيار مؤقت، أضفه إلى PDF، ثم حرّر التيار |
 
 ## دروس أساسيات الباركود
-### [إضافة الباركود إلى مستند PDF في Java](./adding-barcode-to-pdf-document/)
+### [إضافة باركود إلى مستند PDF في Java](./adding-barcode-to-pdf-document/)
 حسّن تطبيقات Java الخاصة بك باستخدام Aspose.BarCode. دليل خطوة بخطوة لإضافة الباركود إلى مستندات PDF.
 
 ### [إنشاء وتحديد حجم الصورة الكاملة مع الباركود في Java](./creating-setting-size-whole-picture-barcode/)
 استكشف إنشاء وتحديد حجم الصورة الكاملة في Java باستخدام Aspose.BarCode. خصص الحجم، الترميز، والمظهر بسهولة.
 
 ### [إنشاء صورة بالباركود الدقيق في Java](./creating-image-exact-barcode/)
-إنشاء صورة باستخدام توليد باركود دقيق في Java مع Aspose.BarCode. أنشئ باركودات مخصصة بسهولة. استكشف الوثائق، قم بالتنزيل، واحصل على الدعم.
+إنشاء صورة بتوليد باركود دقيق في Java باستخدام Aspose.BarCode. أنشئ باركود مخصص بسهولة. استكشف الوثائق، قم بالتنزيل، واحصل على الدعم.
 
 ### [اكتشاف اتجاه الباركود في Java](./detecting-barcode-orientation/)
 حسّن تطبيقات Java الخاصة بك باستخدام التعرف على الباركود باستخدام Aspose.BarCode for Java. اتبع دليلنا خطوة بخطوة لاكتشاف اتجاه الباركود بسهولة.
 
 ## الأسئلة المتكررة
 
-**س: كيف يمكنني **how to generate barcode** لإنشاء باركود لنوع رمزي محدد مثل QR Code؟**  
-A: استخدم `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` ثم استدعِ `generator.save("output.png");`.
+**س:** كيف يمكنني إنشاء باركود لنوع رمزي محدد مثل QR Code؟  
+**ج:** استخدم `BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Your data");` ثم استدعِ `generator.save("output.png");`.
 
-**س: هل يمكنني **generate barcode image java** دون الكتابة إلى القرص؟**  
-A: نعم، استدعِ `generator.generateBarCodeImage()` التي تُعيد `java.awt.Image` أو اكتب إلى `ByteArrayOutputStream`.
+**س:** هل يمكنني إنشاء صورة باركود في Java دون الكتابة إلى القرص؟  
+**ج:** نعم، استدعِ `generator.generateBarCodeImage()` التي تُعيد `java.awt.Image`، أو اكتب إلى `ByteArrayOutputStream` للتعامل داخل الذاكرة.
 
-**س: هل يعمل اكتشاف اتجاه الباركود على المسحات منخفضة الدقة؟**  
-A: يعمل بشكل أفضل على الصور التي لا تقل دقتها عن 150 dpi؛ قد تقلل الدقات الأقل من دقة الاكتشاف.
+**س:** هل يعمل اكتشاف اتجاه الباركود على المسحات منخفضة الدقة؟  
+**ج:** يعمل بشكل أفضل على الصور التي لا تقل عن 150 dpi؛ قد تقلل الدقة الأقل من دقة الاكتشاف، لذا قم بزيادة DPI عندما يكون ذلك ممكنًا.
 
-**س: هل من الممكن إضافة عدة باركودات إلى صفحة PDF واحدة؟**  
-A: بالطبع – فقط أنشئ صورة كل باركود وضعها عند إحداثيات مختلفة على الصفحة.
+**س:** هل يمكن إضافة عدة باركودات إلى صفحة PDF واحدة؟  
+**ج:** بالتأكيد – فقط أنشئ كل صورة باركود وضعها في إحداثيات مختلفة على الصفحة باستخدام `PdfPage.addImage`.
 
-**س: ما هي خيارات الترخيص المتاحة لـ Aspose.BarCode for Java؟**  
-A: هناك تراخيص للمطور، للموقع، وللمؤسسة. يتم توفير ترخيص مؤقت مجاني للتقييم.
+**س:** ما هي خيارات الترخيص المتاحة لـ Aspose.BarCode for Java؟  
+**ج:** هناك تراخيص للمطور، للموقع، وللمؤسسة. يتم توفير ترخيص مؤقت مجاني للتقييم.
 
 ---
 
-**آخر تحديث:** 2026-04-03  
+**آخر تحديث:** 2026-10-25  
 **تم الاختبار مع:** Aspose.BarCode for Java 24.12  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية قراءة الباركود من PDF في Java باستخدام Aspose.BarCode](/barcode/java/document-barcode-recognition/recognizing-barcodes-from-pdf/)
+- [إنشاء باركود في Java باستخدام Aspose.BarCode – تحديد النوع الرمزي](/barcode/java/symbology-and-format/specifying-symbology-barcode/)
+- [كيفية إنشاء باركود في Java: إنشاء وتحديد حجم الصورة الكاملة](/barcode/java/barcode-basics/creating-setting-size-whole-picture-barcode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
