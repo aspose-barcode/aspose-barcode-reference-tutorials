@@ -1,0 +1,7 @@
+Title: How to generate PDF417 barcode with Aspose.BarCode in C#
+Slug: how-to-generate-pdf417-barcode-with-aspose-barcode-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-25T06:37:46.414328
+SourceRepo: AI Search API
+Keywords: generate pdf417 barcode
+PRNumber: 165
