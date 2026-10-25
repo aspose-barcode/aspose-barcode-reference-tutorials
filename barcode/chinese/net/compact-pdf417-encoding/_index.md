@@ -82,6 +82,9 @@ Aspose.BarCode 允许您设置 `Pdf417ErrorCorrectionLevel` 属性（0‑8）。
 - **版本控制：** 在开发、预发布和生产环境中保持 Aspose.BarCode 库版本一致。
 
 ## 紧凑 PDF417 编码教程
+### [How to generate PDF417 barcode with Aspose.BarCode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
+
+
 ### [Create PDF417 barcode in C# using Aspose.BarCode – step‑by‑step guide](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
 
 
@@ -205,6 +208,8 @@ Aspose.BarCode 允许您设置 `Pdf417ErrorCorrectionLevel` 属性（0‑8）。
 完整指南，演示如何使用 Aspose.BarCode for .NET 在 C# 中解码 PDF417 条形码。
 
 - [如何在 C# 中使用宏 PDF417 选项创建 PDF417 条码图像](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
+
+### [如何在 C# 中使用 Aspose 读取 PDF417 条码 – 步骤指南](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
 
 ### [如何在 C# 中生成带宏支持的 PDF417 条码](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
 

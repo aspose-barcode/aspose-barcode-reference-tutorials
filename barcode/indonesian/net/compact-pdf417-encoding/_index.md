@@ -77,6 +77,8 @@ Aspose.BarCode memungkinkan Anda mengatur properti `Pdf417ErrorCorrectionLevel` 
 ## Compact PDF417 Encoding Tutorials
 ### [How to read PDF417 barcode in C# – full barcode reader guide](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
+### [Cara membaca barcode PDF417 di C# dengan Aspose – panduan langkah‑demi‑langkah](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
+
 
 ### [Create PDF417 barcode in C# using Aspose.BarCode – step‑by‑step guide](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
 
@@ -180,32 +182,6 @@ Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dan menyimpan seb
 ### [Cara mendekode PDF417 di C# dengan contoh pembaca barcode](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
 Panduan langkah demi langkah untuk mendekode barcode PDF417 menggunakan Aspose.BarCode Reader di C# dengan contoh kode lengkap.
 
-### [Menghasilkan barcode PDF417 di C# menggunakan Aspose – panduan langkah‑demi‑step](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
-Panduan lengkap langkah demi langkah untuk menghasilkan barcode PDF417 menggunakan Aspose di C#.
-
-### [Menghasilkan barcode PDF417 dan membuat gambar barcode C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
-Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dan menyimpan sebagai gambar menggunakan C# dan Aspose.BarCode.
-
-### [Cara menghasilkan barcode micro PDF417 di C# – panduan langkah‑per‑langkah](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
-Panduan langkah‑demi‑step lengkap untuk menghasilkan barcode micro PDF417 menggunakan C# dengan Aspose.BarCode.
-
-### [Cara menghasilkan barcode PDF417 di C# – contoh kompak](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-### [Cara menghasilkan barcode di C# dengan Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
-Panduan langkah demi langkah menghasilkan barcode menggunakan C# dan Aspose.BarCode, termasuk contoh kode lengkap.
-
-### [Cara membuat barcode dari teks di C# dengan Aspose.BarCode](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
-Panduan langkah demi langkah membuat barcode dari teks menggunakan C# dan Aspose.BarCode.
-
-### [Cara menghasilkan barcode dan menyesuaikan barcode PDF417 di C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
-Kepadatan data tinggi dan koreksi kesalahan yang kuat pada Compact PDF417 menjadikannya cocok untuk berbagai aplikasi di mana ruang terbatas dan keandalan sangat penting. Berikut beberapa skenario umum di mana simbol ini memberikan manfaat nyata, termasuk logistik, tiket, antarmuka seluler, dan pelabelan peralatan industri.
-
-### [Cara membuat barcode PDF417 dan mengekspor PNG di C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
-Panduan langkah demi langkah untuk menghasilkan barcode PDF417 dan menyimpan sebagai file PNG menggunakan C# dengan Aspose.BarCode.
-
-### [Cara mendekode PDF417 di C# dengan contoh pembaca barcode](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
-Panduan langkah demi langkah untuk mendekode barcode PDF417 menggunakan Aspose.BarCode Reader di C# dengan contoh kode lengkap.
-
 ### [How to create barcode png in C# using a PDF417 generator](./create-barcode-png-in-c-using-a-pdf417-generator/)
 
 ### [Buat PNG Barcode dengan PDF417 di C# – panduan lengkap](./create-barcode-png-with-pdf417-in-c-complete-guide/)
@@ -266,7 +242,8 @@ Panduan langkah demi langkah untuk mendekode barcode PDF417 menggunakan Aspose.B
 ### [Cara membuat barcode PNG di C# – panduan langkah‑demi‑step](./how-to-create-barcode-png-in-c-step-by-step-guide/)
 
 ### [Generate pdf417 barcode in C# with custom columns and rows](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
-Panduan langkah demi langkah menghasilkan barcode PDF417 dengan mengatur kolom dan baris secara khusus di C#.
+
+### [Cara menghasilkan barcode PDF417 dengan Aspose.BarCode di C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
 ## Pertanyaan yang Sering Diajukan
 

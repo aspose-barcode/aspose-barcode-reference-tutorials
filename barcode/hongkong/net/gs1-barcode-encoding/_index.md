@@ -69,6 +69,9 @@ GS1 DataMatrix 條碼是產品識別和可追溯性的重要組成部分。 Aspo
 ### [在 C# 中建立 GS1 條碼並匯出為 PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
 使用 Aspose.BarCode for .NET，在 C# 中產生 GS1 條碼並導出 PNG 圖像，簡易步驟教學。
 
+### [如何在 ASP.NET 中使用 Aspose.BarCode 建立 GS1 條碼](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
+使用 Aspose.BarCode for .NET，在 ASP.NET 應用程式中快速產生 GS1 條碼的完整教學。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

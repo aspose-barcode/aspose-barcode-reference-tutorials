@@ -69,6 +69,9 @@ Leer hoe u een PNG-barcode genereert in C# met Aspose.BarCode voor .NET, inclusi
 ### [Maak GS1-barcode in C# en exporteer deze als PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
 Leer hoe u met Aspose.BarCode voor .NET een GS1-barcode maakt in C# en deze opslaat als PNG-afbeelding.
 
+### [Hoe maak je een GS1-barcode in ASP.NET met Aspose.BarCode](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
+Leer hoe u met Aspose.BarCode een GS1-barcode genereert in een ASP.NET-toepassing.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
