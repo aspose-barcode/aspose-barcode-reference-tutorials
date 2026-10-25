@@ -1,0 +1,7 @@
+Title: How to read PDF417 barcode in C# with Aspose – step‑by‑step guide
+Slug: how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-25T06:37:50.675766
+SourceRepo: AI Search API
+Keywords: how to read pdf417 barcode, read barcode image c#, read barcode with aspose
+PRNumber: 165
