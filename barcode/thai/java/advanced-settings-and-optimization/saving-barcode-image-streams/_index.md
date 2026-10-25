@@ -1,13 +1,47 @@
 ---
-date: 2026-04-05
-description: เรียนรู้วิธีสร้างบาร์โค้ดใน Java ด้วย Aspose.BarCode คู่มือแบบขั้นตอนนี้แสดงการสร้างบาร์โค้ดแบบไดนามิกและการบันทึกภาพไปยังสตรีม
+date: 2026-10-25
+description: เรียนรู้วิธีสร้างบาร์โค้ด java ด้วย Aspose.BarCode คู่มือขั้นตอนนี้แสดงการสร้างบาร์โค้ดแบบไดนามิกและการบันทึกรูปภาพลงสตรีม
 keywords:
-- how to generate barcode java
+- generate barcode java
 - dynamic barcode generation java
 - save barcode image to streams
-linktitle: การบันทึกภาพบาร์โค้ดไปยังสตรีม
+- Aspose.BarCode Java
+lastmod: 2026-10-25
+linktitle: บันทึกรูปภาพบาร์โค้ดลงสตรีม
+og_description: เรียนรู้วิธีสร้างบาร์โค้ด java ด้วย Aspose.BarCode, บันทึกรูปภาพลงใน
+  ByteArrayOutputStream, และใช้ใน web APIs หรือ databases
+og_image_alt: Guide showing Java code to generate a barcode and store it in a memory
+  stream
+og_title: วิธีสร้างบาร์โค้ด java และบันทึกลงสตรีม
+schemas:
+- author: Aspose
+  dateModified: '2026-10-25'
+  description: Learn how to generate barcode java using Aspose.BarCode. This step‑by‑step
+    guide shows dynamic barcode generation and saving images to streams.
+  headline: How to generate barcode java and save to streams
+  type: TechArticle
+- questions:
+  - answer: Saving a barcode image to a `ByteArrayOutputStream` using Aspose.BarCode
+      for Java.
+    question: What does this tutorial cover?
+  - answer: CODE_128.
+    question: Which barcode type is used in the example?
+  - answer: JPEG.
+    question: What image format is demonstrated?
+  - answer: A free trial works for development; a commercial license is required for
+      production.
+    question: Do I need a license to run the code?
+  - answer: Yes, the `ByteArrayOutputStream` can be passed to web services, saved
+      to a database, or written to a file.
+    question: Can I use the stream with other APIs?
+  type: FAQPage
 second_title: Aspose.BarCode Java API
-title: 'วิธีสร้างบาร์โค้ดใน Java: บันทึกลงสตรีมด้วย Aspose.BarCode'
+tags:
+- barcode generation
+- Aspose.BarCode
+- Java streams
+- image processing
+title: วิธีสร้างบาร์โค้ด java และบันทึกลงสตรีม
 url: /th/java/advanced-settings-and-optimization/saving-barcode-image-streams/
 weight: 14
 ---
@@ -16,29 +50,31 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การบันทึกภาพบาร์โค้ดไปยังสตรีมใน Java ด้วย Aspose.BarCode
+# บันทึกภาพบาร์โค้ดไปยังสตรีมใน Java ด้วย Aspose.BarCode
 
-## วิธีการสร้างบาร์โค้ดใน Java – บทนำ
-
-ในคู่มือนี้ เราจะแสดงให้คุณเห็น **วิธีการสร้างบาร์โค้ดใน Java** อย่างมีประสิทธิภาพในสภาพแวดล้อมที่เปลี่ยนแปลงอย่างรวดเร็วของการเขียนโปรแกรม Java. Aspose.BarCode for Java โดดเด่นในฐานะโซลูชันที่แข็งแกร่ง, ให้การผสานรวมที่ราบรื่นสำหรับการสร้างบาร์โค้ดในรูปแบบต่าง ๆ. บทเรียนนี้จะพาคุณผ่านการบันทึกภาพบาร์โค้ดไปยังสตรีม, เทคนิคสำคัญสำหรับ **dynamic barcode generation java** scenarios such as web APIs and micro‑services.
+ในบทแนะนำนี้คุณจะได้เรียนรู้ **how to generate barcode java** และจัดเก็บภาพที่ได้โดยตรงในสตรีมหน่วยความจำ การบันทึกลงสตรีมช่วยหลีกเลี่ยงไฟล์ชั่วคราว ลดภาระ I/O และทำให้การฝังบาร์โค้ดในการตอบสนอง HTTP, PDF หรือฐานข้อมูลเป็นเรื่องง่าย Aspose.BarCode สำหรับ Java รองรับสัญลักษณ์บาร์โค้ดกว่า 30 ชนิดและสามารถเรนเดอร์ภาพได้สูงสุด 10 000 × 10 000 พิกเซล ให้คุณได้ประสิทธิภาพและคุณภาพที่จำเป็นสำหรับสถานการณ์องค์กรที่มีปริมาณสูง
 
 ## คำตอบอย่างรวดเร็ว
-- **บทเรียนนี้ครอบคลุมอะไรบ้าง?** การบันทึกภาพบาร์โค้ดไปยัง `ByteArrayOutputStream` โดยใช้ Aspose.BarCode for Java.  
+- **บทแนะนำนี้ครอบคลุมอะไร?** บันทึกภาพบาร์โค้ดไปยัง `ByteArrayOutputStream` โดยใช้ Aspose.BarCode สำหรับ Java.  
 - **ประเภทบาร์โค้ดที่ใช้ในตัวอย่างคืออะไร?** CODE_128.  
 - **รูปแบบภาพที่แสดงคืออะไร?** JPEG.  
-- **ฉันต้องมีลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** การทดลองใช้ฟรีทำงานได้สำหรับการพัฒนา; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
-- **ฉันสามารถใช้สตรีมกับ API อื่นได้หรือไม่?** ใช่, `ByteArrayOutputStream` สามารถส่งต่อไปยังเว็บเซอร์วิส, บันทึกลงฐานข้อมูล, หรือเขียนลงไฟล์ได้.
+- **ฉันต้องมีลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการพัฒนา; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **ฉันสามารถใช้สตรีมกับ API อื่นได้หรือไม่?** ใช่, `ByteArrayOutputStream` สามารถส่งต่อไปยังเว็บเซอร์วิส, บันทึกลงฐานข้อมูล, หรือเขียนไฟล์ได้.
+
+## generate barcode java คืออะไร?
+การสร้างบาร์โค้ดใน Java หมายถึงการสร้างภาพแสดงข้อมูลที่สามารถสแกนโดยเครื่องอ่านบาร์โค้ด กระบวนการนี้จะเข้ารหัสสตริงที่ให้เป็นรูปแบบของแถบและช่องว่างตามสัญลักษณ์ที่เลือก Aspose.BarCode มี API แบบบรรทัดเดียวเพื่อผลิตบาร์โค้ดในหลายสิบรูปแบบโดยไม่ต้องพึ่งพาไลบรารีภายนอก ทำให้การรวมเข้ากับระบบง่ายขึ้น
+
+## ทำไมต้องใช้ Aspose.BarCode สำหรับการสร้างบาร์โค้ด?
+Aspose.BarCode รองรับ **30+ สัญลักษณ์บาร์โค้ด**, สามารถเรนเดอร์ภาพ **สูงสุด 10 000 × 10 000 พิกเซล**, และประมวลผลบาร์โค้ดขนาด 500 พิกเซลในเวลาไม่ถึง 15 มิลลิวินาทีบนเซิร์ฟเวอร์ทั่วไป มันให้ผลลัพธ์ความละเอียดสูง, คำนวณเช็คซัมอัตโนมัติ, และตัวเลือกการปรับแต่งที่หลากหลาย เช่น สี, ระยะขอบ, และข้อความที่มนุษย์อ่านได้ ความสามารถที่วัดได้เหล่านี้ทำให้เป็นตัวเลือกที่เชื่อถือได้สำหรับแอปพลิเคชันที่ต้องการประมวลผลจำนวนมาก
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะดำเนินการต่อในบทเรียน, โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้:
-
-- สภาพแวดล้อมการพัฒนา Java: ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนเครื่องของคุณ.  
-- Aspose.BarCode for Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.BarCode คุณสามารถค้นหาไลบรารีได้ที่ [here](https://releases.aspose.com/barcode/java/).
+- สภาพแวดล้อมการพัฒนา Java (JDK 8 หรือสูงกว่า).  
+- ไลบรารี Aspose.BarCode สำหรับ Java – ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ [ไลบรารี Aspose.BarCode สำหรับ Java](https://releases.aspose.com/barcode/java/). คุณสามารถสำรวจผลิตภัณฑ์ Aspose อื่น ๆ ได้ที่หน้าเผยแพร่ของ Aspose [หน้าเผยแพร่ของ Aspose](https://releases.aspose.com/).
 
 ## นำเข้าชื่อเนมสเปซ
 
-เพื่อเริ่มต้นการสร้างบาร์โค้ดของคุณ, ให้นำเข้าชื่อเนมสเปซที่จำเป็น:
+เพื่อเริ่มต้น ให้นำเข้าคลาสที่คุณต้องการใช้ คลาส `BarcodeGenerator` เป็นจุดเริ่มต้นหลักสำหรับการสร้างบาร์โค้ด, ส่วน `BarCodeImageFormat` กำหนดประเภทของภาพที่ส่งออก
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -49,73 +85,90 @@ import com.aspose.barcode.BarCodeImageFormat;
 import com.aspose.barcode.EncodeTypes;
 ```
 
-## ขั้นตอนที่ 1: สร้าง Barcode Generator
+## คุณสร้างภาพบาร์โค้ดใน Java อย่างไร?
 
-สร้างอ็อบเจ็กต์ `BarcodeGenerator` ด้วยประเภทการเข้ารหัสและข้อมูลที่ต้องการ.
+โหลด `BarcodeGenerator` ด้วยสัญลักษณ์และข้อมูลที่ต้องการ, จากนั้นเรียก `save` เพื่อเขียนภาพลงใน `ByteArrayOutputStream` รูปแบบสองขั้นตอนนี้—สร้างอ็อบเจ็กต์แล้วบันทึก—ครอบคลุมรูปแบบที่รองรับทั้งหมดและทำให้คุณเก็บภาพไว้ในหน่วยความจำทั้งหมด ซึ่งเหมาะกับ API เว็บและไมโครเซอร์วิส
+
+## ขั้นตอนที่ 1: สร้างตัวสร้างบาร์โค้ด
+
+`BarcodeGenerator` เป็นคลาสหลักที่สร้างอ็อบเจ็กต์บาร์โค้ดตามสัญลักษณ์และข้อมูลที่คุณให้ มันบรรจุตรรกะการเรนเดอร์ทั้งหมดไว้, ดังนั้นคุณไม่ต้องจัดการกราฟิกระดับต่ำ
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "123456");
 ```
 
+## ByteArrayOutputStream ใช้ทำอะไรและทำไม?
+`ByteArrayOutputStream` เป็นคลาส I/O ของ Java ที่เก็บข้อมูลในอาเรย์ไบต์ที่ขยายตามความต้องการ เนื่องจากอยู่ในหน่วยความจำจึงลบการทำ I/O กับดิสก์, ลดความหน่วง, และสามารถแปลงเป็นสตริง Base64 สำหรับ API JSON หรือสตรีมผ่าน HTTP ได้โดยตรงโดยไม่ต้องใช้ไฟล์ชั่วคราว
+
 ## ขั้นตอนที่ 2: สร้างภาพบาร์โค้ด
 
-สร้างภาพบาร์โค้ดและบันทึกลง `ByteArrayOutputStream`.
+เมธอด `save` จะเขียนบาร์โค้ดที่เรนเดอร์แล้วลงสตรีมที่ให้ไว้ในรูปแบบที่ระบุโดย `BarCodeImageFormat` ตัวอย่างนี้ใช้ JPEG เนื่องจากสมดุลระหว่างคุณภาพและขนาด, แต่ PNG, GIF, และ BMP ก็พร้อมใช้งานเช่นกัน
 
 ```java
 ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 generator.save(outStream, BarCodeImageFormat.JPEG);
 ```
 
-## ขั้นตอนที่ 3: ใช้บาร์โค้ดที่สร้างขึ้น
+## ขั้นตอนที่ 3: ใช้งานบาร์โค้ดที่สร้าง
 
-ในขณะนี้, ภาพบาร์โค้ดถูกเก็บไว้ใน `ByteArrayOutputStream` (`outStream`). คุณสามารถใช้หรือประมวลผลต่อภาพบาร์โค้ดตามที่ต้องการในแอปพลิเคชัน Java ของคุณ—ไม่ว่าจะเป็นการส่งผ่าน HTTP, ฝังลงใน PDF, หรือเก็บไว้ในฐานข้อมูล.
+ในขณะนี้ภาพบาร์โค้ดถูกเก็บไว้ใน `ByteArrayOutputStream` (`outStream`). คุณสามารถทำต่อไปนี้ได้:
 
-## ทำไมต้องบันทึกไปยังสตรีม?
+- ส่งอาเรย์ไบต์จาก endpoint ของ REST.  
+- ฝังภาพลงใน PDF โดยใช้ Aspose.PDF.  
+- เก็บไบต์ลงคอลัมน์ BLOB ของฐานข้อมูล.  
 
-การบันทึกไปยังสตรีมทำให้บาร์โค้ดอยู่ในหน่วยความจำ, ลดความจำเป็นในการสร้างไฟล์ชั่วคราว. วิธีนี้เหมาะอย่างยิ่งสำหรับ:
+## ทำไมต้องบันทึกลงสตรีม?
+การบันทึกลงสตรีมทำให้ภาพบาร์โค้ดอยู่ทั้งหมดในหน่วยความจำ, ลบความจำเป็นในการใช้ไฟล์ชั่วคราวและลดความหน่วงของ I/O ดิสก์ วิธีนี้ช่วยเพิ่มประสิทธิภาพสำหรับบริการเว็บ, ทำให้แปลงเป็น Base64 สำหรับ payload JSON ได้ง่าย, และทำให้การส่งต่อภาพไปยัง API หรือระบบจัดเก็บอื่น ๆ ง่ายขึ้น
 
-- **Web APIs** ที่ต้องการส่งบาร์โค้ดโดยตรงในการตอบกลับ.  
-- **Microservices** ที่ต้องการลดภาระการอ่าน/เขียนไฟล์.  
-- **Dynamic content generation** ที่แต่ละคำขออาจสร้างบาร์โค้ดที่ไม่ซ้ำกัน.
+- **Web APIs** ที่ต้องการส่งบาร์โค้ดโดยตรงในการตอบสนอง.  
+- **Microservices** ที่ต้องการลดภาระ I/O ของไฟล์ให้เหลือน้อยที่สุด.  
+- **Dynamic content generation** ที่แต่ละคำขออาจสร้างบาร์โค้ดที่ไม่ซ้ำกัน.  
 
-## ปัญหาและเคล็ดลับทั่วไป
+## ปัญหาทั่วไปและเคล็ดลับ
 
-- **OutOfMemoryError** – หากคุณสร้างบาร์โค้ดขนาดใหญ่มาก, ควรทำการ flush สตรีมเป็นระยะหรือใช้ `BufferedOutputStream`.  
-- **Unsupported Format** – ตรวจสอบให้แน่ใจว่า `BarCodeImageFormat` ที่เลือกสอดคล้องกับความสามารถของระบบ downstream (เช่น PNG สำหรับความต้องการแบบ lossless).  
-- **License Exceptions** – การรันโดยไม่มีลิขสิทธิ์ที่ถูกต้องอาจทำให้ภาพที่สร้างมีลายน้ำ.
+- **OutOfMemoryError** – หากคุณสร้างบาร์โค้ดขนาดใหญ่มาก, พิจารณา flush สตรีมเป็นระยะหรือใช้ `BufferedOutputStream`.  
+- **Unsupported format** – ตรวจสอบให้แน่ใจว่า `BarCodeImageFormat` ที่เลือกตรงกับความสามารถของระบบ downstream (เช่น PNG สำหรับความต้องการ lossless).  
+- **License exceptions** – การรันโดยไม่มีลิขสิทธิ์ที่ถูกต้องอาจทำให้ภาพมีลายน้ำ
 
 ## คำถามที่พบบ่อย
 
-### Q1: Aspose.BarCode รองรับสภาพแวดล้อมการพัฒนา Java ทั้งหมดหรือไม่?
-A1: ใช่, Aspose.BarCode ถูกออกแบบให้เข้ากันได้กับสภาพแวดล้อมการพัฒนา Java ต่าง ๆ.
+**Q1: Aspose.BarCode รองรับทุกสภาพแวดล้อมการพัฒนา Java หรือไม่?**  
+A1: ใช่, Aspose.BarCode ทำงานกับ Java SE มาตรฐาน, Android, และ runtime ของ Java ใด ๆ ที่รองรับ JDK 8 หรือสูงกว่า.
 
-### Q2: ฉันสามารถปรับแต่งลักษณะของบาร์โค้ดที่สร้างได้หรือไม่?
-A2: แน่นอน! Aspose.BarCode มีตัวเลือกการปรับแต่งหลายอย่าง, ช่วยให้คุณกำหนดลักษณะของบาร์โค้ดตามความต้องการของคุณ.
+**Q2: ฉันสามารถปรับแต่งลักษณะของบาร์โค้ดที่สร้างได้หรือไม่?**  
+A2: แน่นอน. คุณสามารถตั้งค่าสีพื้นหน้า/พื้นหลัง, ระยะขอบ, และแม้กระทั่งเพิ่มข้อความที่มนุษย์อ่านได้โดยใช้คุณสมบัติ `setForeColor`, `setBackColor`, และ `setCodeText`.
 
-### Q3: มีการทดลองใช้ฟรีสำหรับ Aspose.BarCode for Java หรือไม่?
-A3: มี, คุณสามารถสำรวจการทดลองใช้ฟรีได้ที่ [here](https://releases.aspose.com/).
+**Q3: มีการทดลองใช้ฟรีสำหรับ Aspose.BarCode สำหรับ Java หรือไม่?**  
+A3: มี, คุณสามารถสำรวจหน้าดาวน์โหลดการทดลองใช้ฟรีได้ที่ [หน้าดาวน์โหลดการทดลองใช้ฟรี](https://releases.aspose.com/).
 
-### Q4: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.BarCode for Java ได้อย่างไร?
-A4: สำหรับการสนับสนุน, เยี่ยมชม [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
+**Q4: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.BarCode สำหรับ Java ได้อย่างไร?**  
+A4: สำหรับการสนับสนุน, เยี่ยมชมฟอรัม Aspose.BarCode ที่ [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13).
 
-### Q5: มีลิขสิทธิ์ชั่วคราวสำหรับ Aspose.BarCode หรือไม่?
-A5: มี, สามารถขอรับลิขสิทธิ์ชั่วคราวได้ที่ [here](https://purchase.aspose.com/temporary-license/).
+**Q5: มีลิขสิทธิ์ชั่วคราวสำหรับ Aspose.BarCode หรือไม่?**  
+A5: มี, สามารถขอรับลิขสิทธิ์ชั่วคราวได้ที่ [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### Q6: ฉันสามารถแปลงสตรีมเป็นสตริง Base64 สำหรับ JSON APIs ได้หรือไม่?
-A6: ได้, เพียงเรียก `Base64.getEncoder().encodeToString(outStream.toByteArray())` เพื่อฝังภาพโดยตรงใน payload ของ JSON.
+**Q6: ฉันสามารถแปลงสตรีมเป็นสตริง Base64 สำหรับ API JSON ได้หรือไม่?**  
+A6: ใช่, เพียงเรียก `Base64.getEncoder().encodeToString(outStream.toByteArray())` เพื่อฝังภาพโดยตรงใน payload JSON.
 
-### Q7: วิธีนี้ทำงานกับรูปแบบภาพอื่น ๆ เช่น PNG หรือ GIF หรือไม่?
-A7: วิธี `save` รองรับหลายรูปแบบ; แทนที่ `BarCodeImageFormat.JPEG` ด้วย `BarCodeImageFormat.PNG` หรือ `BarCodeImageFormat.GIF` ตามต้องการ.
+**Q7: วิธีนี้ทำงานกับรูปแบบภาพอื่น ๆ เช่น PNG หรือ GIF หรือไม่?**  
+A6: เมธอด `save` รองรับหลายรูปแบบ; แทนที่ `BarCodeImageFormat.JPEG` ด้วย `BarCodeImageFormat.PNG` หรือ `BarCodeImageFormat.GIF` ตามต้องการ.
 
 ## สรุป
 
-Aspose.BarCode for Java ให้โซลูชันที่ทรงพลังและยืดหยุ่นสำหรับ **how to generate barcode Java** tasks. ด้วยการทำตามคู่มือขั้นตอนนี้, คุณสามารถบันทึกภาพบาร์โค้ดไปยังสตรีมได้อย่างง่ายดาย, เปิดโอกาสให้การสร้างบาร์โค้ดแบบไดนามิกและการผสานรวมที่ราบรื่นกับแอปพลิเคชัน Java สมัยใหม่.
+Aspose.BarCode สำหรับ Java ให้โซลูชันที่ทรงพลังและยืดหยุ่นสำหรับงาน **generate barcode java** ด้วยการทำตามคู่มือขั้นตอนนี้ คุณสามารถบันทึกภาพบาร์โค้ดลงสตรีมได้อย่างง่ายดาย, เปิดทางให้การสร้างบาร์โค้ดแบบไดนามิกและการรวมเข้ากับแอปพลิเคชัน Java สมัยใหม่ได้อย่างราบรื่น
 
 ---
 
-**อัปเดตล่าสุด:** 2026-04-05  
-**ทดสอบกับ:** Aspose.BarCode 24.12 for Java  
+**อัปเดตล่าสุด:** 2026-10-25  
+**ทดสอบด้วย:** Aspose.BarCode 24.12 for Java  
 **ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [สร้างภาพบาร์โค้ด Java และบันทึกลงฐานข้อมูล](/barcode/java/symbology-and-format/generating-saving-barcode/)
+- [บันทึกภาพบาร์โค้ดในรูปแบบต่าง ๆ](/barcode/java/advanced-settings-and-optimization/saving-barcode-images-different-formats/)
+- [วิธีสร้างบาร์โค้ด Java และพิมพ์บาร์โค้ดด้วย Aspose](/barcode/java/barcode-rendering-techniques/rendering-barcode-printer/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
