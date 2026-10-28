@@ -1,0 +1,7 @@
+Title: How to create extended codetext in Python with ExtCodetextBuilder
+Slug: how-to-create-extended-codetext-in-python-with-extcodetextbu
+Category: general
+ProcessedDate: 2026-10-28T11:10:29.648593
+SourceRepo: AI Search API
+Keywords: create extended codetext
+PRNumber: 168
