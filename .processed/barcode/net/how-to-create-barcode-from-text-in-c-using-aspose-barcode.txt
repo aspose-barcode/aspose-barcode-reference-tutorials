@@ -1,0 +1,7 @@
+Title: How to create barcode from text in C# using Aspose.BarCode
+Slug: how-to-create-barcode-from-text-in-c-using-aspose-barcode
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-10-28T10:55:11.787718
+SourceRepo: AI Search API
+Keywords: create barcode from text, generate barcode c#, generate pdf417 barcode, pdf417 barcode image
+PRNumber: 167
