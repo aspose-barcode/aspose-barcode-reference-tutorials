@@ -377,3 +377,11 @@ A: Aucune police externe n’est requise ; la bibliothèque gère tout le rend
 - [Comment générer un code‑barres PDF417 avec Aspose.BarCode en C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
 - [Comment lire le PDF417 en C# – guide pas à pas GUI](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

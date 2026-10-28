@@ -282,3 +282,11 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 
 
 ---
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
