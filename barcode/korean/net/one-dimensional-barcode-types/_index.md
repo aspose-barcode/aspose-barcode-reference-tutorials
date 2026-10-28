@@ -96,6 +96,8 @@ Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 
 Aspose.BarCode를 사용하여 C#에서 바코드를 생성하는 방법을 단계별로 안내합니다.
 ### [특수 문자를 사용한 C# 바코드 생성 방법](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Aspose.BarCode를 사용하여 C#에서 특수 문자를 포함한 바코드를 생성하는 방법을 단계별로 안내합니다.
+### [Aspose.BarCode for .NET를 사용하여 사용자 지정 텍스트로 바코드 생성하는 방법](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Aspose.BarCode를 활용해 .NET에서 원하는 텍스트를 포함한 바코드를 만드는 단계별 가이드.
 
 ## 결론
 

@@ -36,7 +36,7 @@ url: /zh/net/one-dimensional-barcode-types/
 
 ## 高度调整和定制
 
-使用 Aspose.BarCode 进行条形码定制变得轻而易举。了解如何调整一维条形码的高度，确保设计的精度。您的条形码将根据您的具体要求量身定制。
+使用 Aspose.BarCode 进行条码定制变得轻而易举。了解如何调整一维条形码的高度，确保设计的精度。您的条形码将根据您的具体要求量身定制。
 
 ## 数据栏和 GS1 编码
 
@@ -69,7 +69,7 @@ url: /zh/net/one-dimensional-barcode-types/
 ### [一维Databar条码高度调整](./one-dimensional-databar-barcode-height-adjustment/)
 了解如何使用 Aspose.BarCode for .NET 调整一维 Databar 条形码高度。只需几个简单的步骤即可创建自定义条形码。探索条形码定制的力量。
 ### [一维 Databar GS1 编码](./one-dimensional-databar-gs1-encoding/)
-学习使用 Aspose.BarCode 在 .NET 中创建 Databar GS1 编码条形码。轻松生成条形码。请遵循我们的分步指南。
+学习使用 Aspose.BarCode 在 .NET 中创建 Databar GS1 编码条码。轻松生成条码。请遵循我们的分步指南。
 ### [一维数据栏行和列配置](./one-dimensional-databar-row-column-configuration/)
 使用 Aspose.BarCode for .NET 在 .NET 中生成具有行和列配置的动态一维 DataBar 条形码。定制变得简单！
 ### [一维填充条配置](./one-dimensional-filled-bars-configuration/)
@@ -84,6 +84,8 @@ url: /zh/net/one-dimensional-barcode-types/
 了解如何使用 Aspose.BarCode 在 .NET 中读取图像中的条码。
 ### [使用 Aspose.BarCode 从文本生成条形码 – C# 指南](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 了解如何使用 Aspose.BarCode 在 .NET 中通过文本生成条形码的 C# 示例。请遵循我们的分步指南。
+### [使用 Aspose.BarCode for .NET 生成自定义文本条码](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+了解如何使用 Aspose.BarCode for .NET 在 .NET 中生成包含自定义文本的条形码，分步实现完整示例。
 ### [如何在 C# 中生成条码 – 完整编程指南](./how-to-generate-barcode-in-c-complete-programming-guide/)
 了解如何使用 Aspose.BarCode 在 C# 中完整生成条码的步骤与技巧，涵盖从初始化到自定义的全流程。
 ### [如何使用 Aspose 在 C# 中生成条码](./how-to-generate-barcode-with-aspose-in-c/)

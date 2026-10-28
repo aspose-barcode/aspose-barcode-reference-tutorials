@@ -255,12 +255,16 @@ A: Geen externe lettertypen zijn nodig; de bibliotheek verwerkt alle rendering i
 - [Hoe barcode maken – Compact PDF417 met Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Uitgebreide tutorials en voorbeelden van Aspose.BarCode voor .NET](/barcode/net/)
 - [Hoe Aztec barcode maken met foutcorrectie in .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-- [Hoe PDF417-barcode te genereren in C# met Macro‑PDF417 instellingen](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
-- [Hoe PDF417-barcode te genereren in C# – volledige gids met macro‑ondersteuning](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
+- [Hoe PDF417-barcode genereren in C# met Macro‑PDF417 instellingen](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
+- [Hoe PDF417-barcode genereren in C# – volledige gids met macro‑ondersteuning](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
 - [Genereer pdf417 barcode in C# met aangepaste kolommen en rijen](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
 - [Hoe PDF417-barcode te lezen in C# – volledige barcode‑lezer gids](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 - [Hoe PDF417-barcode te genereren met Aspose.BarCode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 - [Hoe PDF417-barcode lezen in C# met Aspose – stapsgewijze gids](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
+- [Hoe barcode van tekst maken in C# met Aspose.BarCode](./how-to-create-barcode-from-text-in-c-using-aspose-barcode/)
+- [Hoe PDF417-barcodes te decoderen in C# en barcode‑afbeelding lezen in C#](./how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c/)
+- [Hoe micro PDF417 barcode te maken en PNG te genereren in C#](./how-to-create-micro-pdf417-barcode-and-generate-png-in-c/)
+- [PDF417-barcode genereren als PNG in C# – stap‑voor‑stap gids](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

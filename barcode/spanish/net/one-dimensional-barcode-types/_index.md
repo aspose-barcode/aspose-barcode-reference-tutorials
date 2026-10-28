@@ -110,6 +110,9 @@ Aprenda a generar códigos de barras en C# usando Aspose.BarCode paso a paso.
 ### [Cómo generar un código de barras con caracteres especiales en C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Aprenda a crear códigos de barras que incluyan caracteres especiales en C# usando Aspose.BarCode.
 
+### [Cómo generar código de barras con texto personalizado usando Aspose.BarCode para .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Aprenda a crear códigos de barras a partir de texto personalizado en .NET con Aspose.BarCode. Guía paso a paso.
+
 ## Conclusión
 
 En esta serie de tutoriales, hemos profundizado en el mundo de los tipos de códigos de barras unidimensionales, centrándonos en su configuración y personalización. Con Aspose.BarCode para .NET, el proceso se simplifica, lo que garantiza que pueda crear códigos de barras adaptados a sus necesidades. Entonces, ya sea que sea un desarrollador experimentado o recién esté comenzando, estos tutoriales le permitirán aprovechar el poder de los códigos de barras unidimensionales en sus proyectos .NET. ¡Empiece ahora y libere el potencial de la tecnología de códigos de barras!

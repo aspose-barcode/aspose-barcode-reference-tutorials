@@ -98,6 +98,8 @@ Kompletní průvodce generováním čárových kódů v C# pomocí Aspose.BarCod
 Naučte se generovat čárové kódy se speciálními znaky v C# pomocí Aspose.BarCode.
 ### [Jak číst obrázky čárových kódů v C# – kompletní příkladový průvodce](./how-to-read-barcode-images-in-c-full-example-guide/)
 Kompletní průvodce čtením čárových kódů z obrázků v C# pomocí Aspose.BarCode.
+### [Jak vygenerovat čárový kód s vlastním textem pomocí Aspose.BarCode pro .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Naučte se vytvořit čárový kód s vlastním textem v .NET pomocí Aspose.BarCode.
 
 ## Závěr
 

@@ -98,6 +98,8 @@ Lär dig hur du konfigurerar streckkodparametrar i C# med Aspose.BarCode.
 Lär dig hur du skapar streckkoder i C# med Aspose.BarCode i en steg-för-steg-guide.
 ### [Hur man genererar en streckkod med specialtecken i C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Lär dig hur du skapar streckkoder med specialtecken i C# med Aspose.BarCode. En steg-för-steg-guide för korrekt kodning.
+### [Hur man genererar streckkod med anpassad text med Aspose.BarCode för .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Lär dig hur du skapar streckkoder med anpassad text i .NET med Aspose.BarCode.
 
 ## Slutsats
 
