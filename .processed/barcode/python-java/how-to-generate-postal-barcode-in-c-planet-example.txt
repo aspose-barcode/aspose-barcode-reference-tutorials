@@ -1,0 +1,7 @@
+Title: How to generate postal barcode in C# – planet example
+Slug: how-to-generate-postal-barcode-in-c-planet-example
+Category: general
+ProcessedDate: 2026-10-28T11:24:16.734385
+SourceRepo: AI Search API
+Keywords: generate postal barcode, set barcode width, planet barcode example
+PRNumber: 169
