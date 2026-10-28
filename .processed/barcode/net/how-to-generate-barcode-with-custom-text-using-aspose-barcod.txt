@@ -1,0 +1,7 @@
+Title: How to generate barcode with custom text using Aspose.BarCode for .NET
+Slug: how-to-generate-barcode-with-custom-text-using-aspose-barcod
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-10-28T10:55:14.240567
+SourceRepo: AI Search API
+Keywords: how to generate barcode, generate barcode custom text, create barcode aspose
+PRNumber: 167
