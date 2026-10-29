@@ -98,6 +98,8 @@ url: /zh-hant/net/one-dimensional-barcode-types/
 了解如何在 C# 中使用 Aspose.BarCode 完整示範讀取條碼圖像的步驟與技巧。
 ### [如何在 C# 中使用 Aspose.BarCode 從圖像讀取條碼](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
 了解如何在 C# 中使用 Aspose.BarCode 從圖像讀取條碼的步驟與技巧。
+### [如何使用 Aspose.BarCode for .NET 產生自訂文字條碼](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+了解如何在 .NET 中使用 Aspose.BarCode 從自訂文字生成條碼的完整步驟。
 
 ## 結論
 

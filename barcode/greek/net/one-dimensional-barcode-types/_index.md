@@ -98,6 +98,8 @@ url: /el/net/one-dimensional-barcode-types/
 Μάθετε πώς να δημιουργήσετε barcode χρησιμοποιώντας Aspose σε C# με βήμα‑βήμα οδηγίες.
 ### [Πώς να δημιουργήσετε barcode με ειδικούς χαρακτήρες σε C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 Μάθετε πώς να δημιουργήσετε barcode που περιέχει ειδικούς χαρακτήρες σε C# χρησιμοποιώντας το Aspose.BarCode.
+### [Πώς να δημιουργήσετε barcode με προσαρμοσμένο κείμενο χρησιμοποιώντας το Aspose.BarCode για .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Μάθετε πώς να δημιουργήσετε barcode με προσαρμοσμένο κείμενο στο .NET χρησιμοποιώντας το Aspose.BarCode.
 
 ## συμπέρασμα
 

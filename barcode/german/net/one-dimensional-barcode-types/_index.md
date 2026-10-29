@@ -88,23 +88,25 @@ Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes aus Text generieren. Sch
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – ein umfassender Leitfaden für Entwickler.
 ### [Wie man Barcode mit Aspose in C# generiert](./how-to-generate-barcode-with-aspose-in-c/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – Schritt‑für‑Schritt‑Anleitung.
-
-### [Barcode aus Bild in C# lesen – BarCodeReader‑Tutorial](./read-barcode-from-image-in-c-barcodereader-tutorial/)
-Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
-### [Barcode aus Bild in C# lesen – vollständige Beispielanleitung](./how-to-read-barcode-images-in-c-full-example-guide/)
-Erfahren Sie, wie Sie Barcode‑Bilder in C# vollständig auslesen – ein umfassendes Beispiel.
-### [Barcode aus Bild in C# lesen – mit Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
-Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
-### [Wie man Barcode-Parameter in C# mit Aspose.BarCode festlegt](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
-Erfahren Sie, wie Sie Barcode-Parameter in C# mit Aspose.BarCode konfigurieren. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
-### [Wie man in C# einen Barcode mit Sonderzeichen generiert](./how-to-generate-a-barcode-with-special-characters-in-c/)
-Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes mit Sonderzeichen erzeugen.
+### [Barcode mit benutzerdefiniertem Text generieren – Aspose.BarCode für .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes mit eigenem Text erstellen – Schritt‑für‑Schritt‑Anleitung.
 
 ## Abschluss
 
 In dieser Tutorial‑Reihe sind wir in die Welt der eindimensionalen Barcode‑Typen eingetaucht und haben uns auf deren Konfiguration und Anpassung konzentriert. Mit Aspose.BarCode für .NET wird der Prozess vereinfacht und sichergestellt, dass Sie Barcodes erstellen können, die auf Ihre Bedürfnisse zugeschnitten sind. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen: Mit diesen Tutorials können Sie die Leistungsfähigkeit eindimensionaler Barcodes in Ihren .NET‑Projekten nutzen. Starten Sie jetzt durch und entfesseln Sie das Potenzial der Barcode‑Technologie!
 
 Mit diesem Artikel erwerben Sie nicht nur Kenntnisse über verschiedene eindimensionale Barcode‑Typen, sondern gewinnen auch die Sicherheit, diese in Ihren Projekten umzusetzen. Viel Spaß beim Codieren!
+### [Wie man in C# einen Barcode mit Sonderzeichen generiert](./how-to-generate-a-barcode-with-special-characters-in-c/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes mit Sonderzeichen erzeugen.
+### [Barcode aus Bild in C# lesen – mit Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
+### [Barcode aus Bild in C# lesen – vollständige Beispielanleitung](./how-to-read-barcode-images-in-c-full-example-guide/)
+Erfahren Sie, wie Sie Barcode‑Bilder in C# vollständig auslesen – ein umfassendes Beispiel.
+### [Wie man Barcode-Parameter in C# mit Aspose.BarCode festlegt](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+Erfahren Sie, wie Sie Barcode-Parameter in C# mit Aspose.BarCode konfigurieren. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
+### [Barcode aus Bild in C# lesen – BarCodeReader‑Tutorial](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

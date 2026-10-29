@@ -98,7 +98,8 @@ Dowiedz się, jak generować kody kreskowe w C# przy użyciu Aspose.BarCode.
 Dowiedz się, jak generować kody kreskowe ze znakami specjalnymi w C# przy użyciu Aspose.BarCode.
 ### [Jak odczytać obrazy kodów kreskowych w C# – kompletny przewodnik](./how-to-read-barcode-images-in-c-full-example-guide/)
 Dowiedz się, jak w pełnym przykładzie odczytać obrazy kodów kreskowych w C# przy użyciu Aspose.BarCode.
-
+### [Jak generować kod kreskowy z niestandardowym tekstem przy użyciu Aspose.BarCode dla .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Dowiedz się, jak tworzyć kody kreskowe z własnym tekstem w .NET przy pomocy Aspose.BarCode.
 ## Wniosek
 
 W tej serii tutoriali zagłębiliśmy się w świat jednowymiarowych typów kodów kreskowych, koncentrując się na ich konfiguracji i dostosowywaniu. Dzięki Aspose.BarCode dla .NET proces jest prosty, zapewniając możliwość tworzenia kodów kreskowych dostosowanych do Twoich potrzeb. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te samouczki pozwolą Ci wykorzystać moc jednowymiarowych kodów kreskowych w projektach .NET. Zacznij już teraz i uwolnij potencjał technologii kodów kreskowych!

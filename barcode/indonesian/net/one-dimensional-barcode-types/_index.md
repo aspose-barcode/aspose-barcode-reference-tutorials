@@ -97,6 +97,8 @@ Pelajari cara membaca barcode dari gambar menggunakan BarCodeReader di C#. Ikuti
 ### [Cara Mengatur Parameter Barcode di C# menggunakan Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 ### [Cara menghasilkan barcode dengan Aspose di C#](./how-to-generate-barcode-with-aspose-in-c/)
 Pelajari cara menghasilkan barcode menggunakan Aspose di C# dengan contoh kode lengkap dan langkah-langkah mudah.
+### [Cara menghasilkan barcode dengan teks khusus menggunakan Aspose.BarCode untuk .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
+Pelajari cara menghasilkan barcode dengan teks khusus menggunakan Aspose.BarCode di .NET dengan contoh kode lengkap.
 ### [Cara menghasilkan barcode dengan karakter khusus di C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 
 ## Kesimpulan
