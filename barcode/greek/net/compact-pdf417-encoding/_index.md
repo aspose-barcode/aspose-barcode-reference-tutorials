@@ -11,7 +11,9 @@ weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Πώς να Δημιουργήσετε Κώδικες PDF417 (Συμπαγής Κωδικοποίηση PDF417)
@@ -98,7 +100,6 @@ weight: 29
 
 ### [Ανάγνωση barcode από εικόνα C# – πλήρης οδηγός με Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 
-
 ### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 
 ### [Δημιουργία barcode PDF417 σε C# χρησιμοποιώντας Aspose – βήμα‑βήμα οδηγός](./generate-pdf417-barcode-in-c-using-aspose-step-by-step-guide/)
@@ -111,7 +112,6 @@ weight: 29
 ### [Πώς να αποκωδικοποιήσετε PDF417 barcode σε C# και να διαβάσετε εικόνα barcode C#](./how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c/)
 
 ### [How to create pdf417 barcode in C# – step‑by‑step guide](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
-
 
 ### [Δημιουργία Συμπαγών PDF417 Κωδικών](./compact-pdf417-basic-configuration/)
 Μάθετε πώς να δημιουργείτε Συμπαγείς PDF417 κωδικούς χρησιμοποιώντας το Aspose.BarCode for .NET. Αναλυτικός οδηγός με βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
@@ -173,15 +173,15 @@ weight: 29
 
 ### [Πώς να διαβάσετε PDF417 barcode σε C# – πλήρης οδηγός αναγνώστη barcode](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ### [Πώς να διαβάσετε PDF417 barcode σε C# – πλήρης οδηγός αναγνώστη barcode](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
 ### [Πώς να διαβάσετε PDF417 barcode σε C# με Aspose – βήμα‑βήμα οδηγός](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
 
 ### [Δημιουργία PDF417 barcode as PNG σε C# – βήμα‑βήμα οδηγός](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

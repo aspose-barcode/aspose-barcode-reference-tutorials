@@ -159,142 +159,22 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 ### [How to generate PDF417 barcode in C# – complete guide](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
 
 
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
+### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 
 
 ### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 
 
-### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
-
-
-### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)
-
-
-### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-
-
-### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-
-### [How to generate PDF417 barcode in C# – macro settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
-
-
-### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-
-
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-
-### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
-
-
-### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)
+### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 
 
 ### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 
 
-### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-
-### [How to generate PDF417 barcode in C# – macro settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
-
-
-### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-
-
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-
-### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
-
-
-### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)
-
-
 ### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 
 
-### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-
-### [How to generate PDF417 barcode in C# – macro settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
-
-
-### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-
-
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-
-### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
-
-
-### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)
-
-
 ### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
-
-
-### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-
-### [How to generate PDF417 barcode in C# – macro settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
-
-
-### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-
-
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-
-### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
-
-
-### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)
-
-
-### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
-
-
-### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-
-### [How to generate PDF417 barcode in C# – macro settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
-
-
-### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-
-
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-
-### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
-
-
-### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)
-
-
-### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
-
-
-### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-
-### [How to generate PDF417 barcode in C# – macro settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
-
-
-### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-
-
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-
-### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
-
-
-### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)
 
 
 ### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
@@ -333,3 +213,11 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 
 
 ---
+### [Como ler código de barras PDF417 em C# com Aspose – guia passo a passo](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

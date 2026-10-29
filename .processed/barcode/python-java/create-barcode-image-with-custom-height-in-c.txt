@@ -1,0 +1,7 @@
+Title: Create barcode image with custom height in C#
+Slug: create-barcode-image-with-custom-height-in-c
+Category: general
+ProcessedDate: 2026-10-28T11:24:19.131363
+SourceRepo: AI Search API
+Keywords: create barcode image, how to adjust height, c# barcode generator, custom barcode height, change barcode height
+PRNumber: 169

@@ -86,7 +86,8 @@ Más allá de lo básico, aquí tienes algunos consejos prácticos para optimiza
 ### [Generate pdf417 barcode in C# with custom columns and rows](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
 
 
-### [How to use Aspose Barcode Generator C# for a MacroPdf417 barcode](./how-to-use-aspose-barcode-generator-c-for-a-macro...
+### [Cómo usar Aspose Barcode Generator C# para un código de barras MacroPdf417](./how-to-use-aspose-barcode-generator-c-for-a-macropdf417-barc/)
+Aspose Barcode Generator C# le permite agregar datos macro y generar códigos de barras PDF417 sin esfuerzo. Aprenda paso a paso cómo agregar metadatos macro y crear una imagen PDF417.
 
 ### [Cómo generar código de barras PDF417 en C# y establecer el tamaño del código de barras](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 

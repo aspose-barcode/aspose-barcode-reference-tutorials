@@ -317,6 +317,7 @@ Aspose.BarCode 允许您设置 `Pdf417ErrorCorrectionLevel` 属性（0‑8）。
 - [如何使用 C# 条形码生成器生成宏 PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
 - [如何在 C# 中读取 PDF417 条码 – 完整指南](./how-to-read-pdf417-barcodes-in-c-complete-guide/)
 - [如何在 C# 中创建 PDF417 条码并保存为 PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
+### [如何在 C# 中解码 PDF417 条形码 – 完整指南](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

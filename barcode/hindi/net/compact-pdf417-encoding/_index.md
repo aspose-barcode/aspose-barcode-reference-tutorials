@@ -55,7 +55,9 @@ weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF417 बारकोड कैसे जनरेट करें – कॉम्पैक्ट PDF417 एन्कोडिंग
@@ -142,13 +144,11 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 ## Compact PDF417 एन्कोडिंग ट्यूटोरियल
 ### [How to decode PDF417 barcodes in C# and read barcode image C#](./how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c/)
 
-
 ### [How to create barcode PNG in C# – step‑by‑step guide](./how-to-create-barcode-png-in-c-step-by-step-guide/)
 
 ### [How to generate PDF417 barcode in C# with Macro‑PDF417 settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 
 ### [C# में मैक्रो समर्थन के साथ PDF417 बारकोड कैसे जनरेट करें](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
-
 
 ### [How to create micro pdf417 barcode in C# and save it as PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
 
@@ -161,7 +161,6 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 ### [How to read PDF417 barcodes in C# – complete step‑by‑step guide](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 
 ### [Create macro PDF417 barcode with Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
-
 
 ### [How to decode PDF417 barcodes in C# – step‑by‑step guide](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
 
@@ -351,13 +350,6 @@ Aspose.BarCode का उपयोग करके C# में बारको�
 
 ### [C# में PDF417 बारकोड को PNG के रूप में जनरेट करें – चरण‑दर‑चरण गाइड](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ### [C# में PDF417 के साथ बारकोड PNG बनाएं – पूर्ण गाइड](./create-barcode-png-with-pdf417-in-c-complete-guide/)
 
 ### [C# में माइक्रो PDF417 बारकोड बनाएं और PNG उत्पन्न करें](./how-to-create-micro-pdf417-barcode-and-generate-png-in-c/)
@@ -367,3 +359,10 @@ Aspose.BarCode का उपयोग करके C# में बारको�
 ### [Aspose.BarCode के साथ C# में PDF417 बारकोड कैसे जनरेट करें](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
 ### [C# में टेक्स्ट से बारकोड कैसे बनाएं – Aspose.BarCode के साथ](./how-to-create-barcode-from-text-in-c-using-aspose-barcode/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

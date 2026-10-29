@@ -1,0 +1,7 @@
+Title: How to create barcode image with C# using Barcode Generator
+Slug: how-to-create-barcode-image-with-c-using-barcode-generator
+Category: general
+ProcessedDate: 2026-10-28T11:24:21.253171
+SourceRepo: AI Search API
+Keywords: create barcode image, barcode generator c#, how to set pixel size, how to change aspect ratio, how to generate databar
+PRNumber: 169

@@ -100,7 +100,6 @@ Pelajari cara menghasilkan barcode menggunakan Aspose di C# dengan contoh kode l
 ### [Cara menghasilkan barcode dengan teks khusus menggunakan Aspose.BarCode untuk .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Pelajari cara menghasilkan barcode dengan teks khusus menggunakan Aspose.BarCode di .NET dengan contoh kode lengkap.
 ### [Cara menghasilkan barcode dengan karakter khusus di C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
-### [Cara menghasilkan barcode dengan karakter khusus di C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 
 ## Kesimpulan
 

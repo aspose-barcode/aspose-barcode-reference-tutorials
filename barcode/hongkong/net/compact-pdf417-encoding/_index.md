@@ -266,8 +266,6 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [在 C# 中使用 PDF417 產生器建立條碼 PNG](./create-barcode-png-in-c-using-a-pdf417-generator/)
 
-### [在 C# 中產生自訂欄列的 PDF417 條碼](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
-
 ## 常見問與答
 
 **Q: 緊湊型 PDF417 條碼最多能儲存多少資料？**  

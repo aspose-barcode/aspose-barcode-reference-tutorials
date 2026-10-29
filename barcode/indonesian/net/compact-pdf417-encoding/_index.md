@@ -252,8 +252,6 @@ Panduan langkah demi langkah untuk mendekode barcode PDF417 menggunakan Aspose.B
 ### [Cara menghasilkan barcode PDF417 dengan Aspose.BarCode di C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
 ### [Cara membuat barcode dari teks di C# menggunakan Aspose.BarCode](./how-to-create-barcode-from-text-in-c-using-aspose-barcode/)
-### [Cara membuat barcode dari teks di C# menggunakan Aspose.BarCode](./how-to-create-barcode-from-text-in-c-using-aspose-barcode/)
-
 ### [Cara mendekode barcode PDF417 di C# dan membaca gambar barcode C#](./how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c/)
 
 ## Pertanyaan yang Sering Diajukan
