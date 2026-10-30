@@ -1,23 +1,29 @@
 ---
-date: 2026-07-18
-description: Zjistěte, jak číst 1D čárové kódy v Java pomocí Aspose.BarCode – rychlá
-  Java knihovna pro dekódování čárových kódů, která extrahuje čárové kódy z obrázků.
+date: 2026-10-30
+description: Naučte se, jak dekódovat čárové kódy v Javě pomocí Aspose.BarCode, vysoce
+  výkonné java knihovny pro čárové kódy, která rychle čte více 1D čárových kódů z
+  obrázků.
+images:
+- /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/og-image.png
 keywords:
-- read 1d barcodes java
-- java barcode decoding library
-- java barcode reader example
-lastmod: 2026-07-18
-linktitle: číst 1d čárové kódy java
-og_description: číst 1d čárové kódy java pomocí Aspose.BarCode, vysoce výkonná Java
-  knihovna pro dekódování čárových kódů, která rychle čte více čárových kódů z obrázků.
+- how to decode barcodes
+- java barcode library
+- read barcodes from image
+- java barcode reader
+- java barcode decoding
+lastmod: 2026-10-30
+linktitle: číst 1D čárové kódy v Java
+og_description: Jak dekódovat čárové kódy v Javě pomocí Aspose.BarCode, rychlé java
+  knihovny pro čárové kódy, která během několika sekund extrahuje více 1D symbolů
+  z obrázků.
 og_image_alt: 'Developer guide: read 1d barcodes in Java with Aspose.BarCode'
-og_title: číst 1d čárové kódy java – Dekódovat čárové kódy pomocí Aspose.BarCode
+og_title: Jak dekódovat čárové kódy v Javě – průvodce Aspose.BarCode
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
-  description: Learn how to read 1D barcodes in Java with Aspose.BarCode – a fast
-    Java barcode decoding library that extracts barcodes from images.
-  headline: read 1d barcodes java – Decode barcodes with Aspose.BarCode
+  dateModified: '2026-10-30'
+  description: Learn how to decode barcodes in Java using Aspose.BarCode, a fast Java
+    barcode decoding library that extracts multiple barcodes from images.
+  headline: How to decode barcodes in Java with Aspose.BarCode
   type: TechArticle
 - questions:
   - answer: Yes. A commercial license removes all evaluation limitations and grants
@@ -26,7 +32,8 @@ schemas:
   - answer: Absolutely. Obtain a temporary license from the [Aspose temporary‑license
       page](https://purchase.aspose.com/temporary-license/) for development and testing.
     question: Can I test the library without purchasing a license?
-  - answer: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+  - answer: The comprehensive documentation is available [Aspose.BarCode Java API
+      reference](https://reference.aspose.com/barcode/java/).
     question: Where can I find the full API reference?
   - answer: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
       where the community and Aspose engineers can assist you.
@@ -39,7 +46,9 @@ tags:
 - read 1d barcodes java
 - Aspose.BarCode
 - Java barcode processing
-title: číst 1d čárové kódy java – Dekódovat čárové kódy pomocí Aspose.BarCode
+- java barcode library
+- barcode decoding
+title: Jak rychle dekódovat čárové kódy v Javě pomocí Aspose.BarCode
 url: /cs/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
@@ -48,39 +57,39 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# číst 1d čárové kódy v Javě s Aspose.BarCode
+# Jak rychle dekódovat čárové kódy v Javě pomocí Aspose.BarCode
 
 ## Úvod
 
-V tomto praktickém průvodci se dozvíte, jak **číst 1D čárové kódy v Javě** pomocí výkonné knihovny **Aspose.BarCode**. Ať už potřebujete skenovat štítky produktů, inventární značky nebo jakýkoli lineární čárový kód vložený do obrázku, tento tutoriál vás provede každým krokem – od nastavení prostředí až po extrakci všech možných čárových kódů, které obrázek obsahuje. Na konci budete schopni **dekódovat čárové kódy z obrázkových souborů** pomocí několika řádků Java kódu.
+V tomto praktickém průvodci objevíte **jak dekódovat čárové kódy** v Javě pomocí výkonné knihovny **Aspose.BarCode**. Ať už potřebujete skenovat produktové štítky, inventární značky nebo jakýkoli lineární čárový kód vložený do obrázku, tento tutoriál vás provede každým krokem – od nastavení prostředí po extrakci všech možných čárových kódů, které obrázek obsahuje. Na konci budete schopni dekódovat čárové kódy z obrazových souborů pomocí několika řádků Java kódu.
 
 ## Rychlé odpovědi
-- **Co dělá Aspose.BarCode?** Poskytuje plnohodnotnou knihovnu čárových kódů pro Javu, která dokáže generovat i dekódovat 1D/2D čárové kódy.  
+- **Co Aspose.BarCode dělá?** Poskytuje plnohodnotnou knihovnu čárových kódů pro Javu, která dokáže generovat i dekódovat 1D/2D čárové kódy.  
 - **Mohu přečíst více čárových kódů z jednoho obrázku?** Ano – metoda `BarCodeReader.readBarCodes()` vrací všechny detekované symboly.  
 - **Potřebuji licenci pro vývoj?** Dočasná licence funguje pro testování; pro produkci je vyžadována komerční licence.  
 - **Jaké verze Javy jsou podporovány?** Java 8 + (doporučeno JDK 11).  
-- **Je tato knihovna dostatečně rychlá pro skenování v reálném čase?** Rozhodně – je optimalizována pro vysoce výkonné dávkové zpracování.
+- **Je tato knihovna dostatečně rychlá pro skenování v reálném čase?** Rozhodně – zpracuje typické 300 dpi obrázky za méně než 0,2 sekundy.  
 
-Metoda `BarCodeReader.readBarCodes()` prohledá poskytnutý obrázek a vrátí kolekci objektů `BarCodeResult`, které představují každý detekovaný čárový kód.
+Metoda `BarCodeReader.readBarCodes()` skenuje poskytnutý obrázek a vrací kolekci objektů `BarCodeResult`, které představují každý detekovaný čárový kód.
 
 ## Co je „read 1d barcodes java“?
 
-Čtení 1D čárových kódů v Javě je proces extrakce dat lineárního čárového kódu z obrázků pomocí Java knihovny. Zahrnuje analýzu obrázku, vyhledání vzorů čárového kódu a vrácení zakódovaného textu spolu s metadaty, jako je typ symbologie a orientace. Aspose.BarCode pro Javu provádí tuto analýzu automaticky, zvládá rotaci, nízký kontrast a širokou škálu symbologií, takže se můžete soustředit na integraci výsledků do vaší aplikace.
+Čtení 1D čárových kódů v Javě znamená extrahování lineárních dat čárových kódů z obrázku pomocí Java knihovny; proces analyzuje obrázek, lokalizuje vzory čárových kódů a vrací zakódovaný text plus metadata jako symbologii a orientaci. Aspose.BarCode pro Javu provádí tuto analýzu automaticky, zvládá rotaci, nízký kontrast a širokou škálu symbologií, takže se můžete soustředit na integraci výsledků do vaší aplikace.
 
 ## Proč zvolit Aspose.BarCode pro dekódování čárových kódů z obrázku?
 
-Aspose.BarCode nabízí špičkovou přesnost a rychlost: dokáže dekódovat více než 50 + 1D a 2D symbologií v jednom průchodu a zpracovává typické 300 dpi obrázky za méně než 0,2 sekundy na standardním serveru. API vyžaduje jen několik volání metod, eliminuje externí závislosti a funguje s Java 8 + při podpoře dávkového zpracování tisíců obrázků za minutu. Tyto kvantifikovatelné výhody z něj činí preferovanou volbu pro podnikovou skenování čárových kódů.
+Aspose.BarCode nabízí špičkovou přesnost a rychlost: dokáže dekódovat více než **50 + 1D a 2D symbologií** v jednom průchodu a zpracuje typické 300 dpi obrázky **za méně než 0,2 sekundy** na standardním serveru. API vyžaduje jen několik volání metod, eliminuje externí závislosti a funguje s Java 8 + při podpoře hromadného zpracování tisíců obrázků za minutu. Tyto kvantifikované výhody z něj činí preferovanou volbu pro podnikovou skenování čárových kódů.
 
-## Předpoklady
+## Prerequisites
 
 Než se pustíme do kódu, ujistěte se, že máte následující:
 
-- **Java Development Kit (JDK)** – verze 8 nebo novější. Stáhněte jej z oficiální [Oracle JDK page](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.BarCode for Java** – stáhněte nejnovější JAR ze [Aspose release page](https://releases.aspose.com/barcode/java/).  
+- **Java Development Kit (JDK)** – verze 8 nebo novější. Stáhněte jej z oficiální [stránky Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.BarCode for Java** – stáhněte nejnovější JAR ze [stránky vydání Aspose](https://releases.aspose.com/barcode/java/).  
 
 Nyní, když je vaše prostředí připravené, pojďme začít programovat.
 
-## Import Namespaces
+## Importovat jmenné prostory
 
 Přidejte potřebné `import` příkazy, aby kompilátor mohl najít třídy Aspose.
 
@@ -92,19 +101,19 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Krok 1: Inicializace objektu BarCodeReader
+## Krok 1: inicializovat objekt barCodeReader
 
-Třída `BarCodeReader` je jádrem Aspose.BarCode pro skenování obrázků a extrakci informací o čárových kódech. Vytvořte instanci `BarCodeReader`, která ukazuje na váš soubor s obrázkem. Parametr `DecodeType` říká enginu, jaké symbologie má hledat; použití `CODE_128` jako příkladu funguje pro mnoho běžných 1D kódů.
+Třída `BarCodeReader` je jádrovou komponentou Aspose.BarCode, která skenuje obrázek a extrahuje data čárových kódů. Vytvořte instanci `BarCodeReader`, která ukazuje na váš soubor s obrázkem. Parametr `DecodeType` určuje, jaké symbologie má engine hledat; použití `CODE_128` jako příkladu funguje pro mnoho běžných 1D kódů.
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
 ```
 
-> **Tip:** Pokud chcete skenovat *všechny* podporované 1D typy, použijte `DecodeType.ALL_1D` místo jedné konkrétní symbologie.
+> **Pro tip:** Pokud chcete skenovat *všechny* podporované 1D typy, použijte `DecodeType.ALL_1D` místo jedné konkrétní symbologie.
 
-## Krok 2: Přečtěte všechny možné čárové kódy
+## Krok 2: přečíst všechny možné čárové kódy
 
-Objekt `BarCodeResult` představuje jeden detekovaný čárový kód a poskytuje vlastnosti jako dekódovaný text, název symbologie, úhel rotace a souřadnice čtyř rohů oblasti čárového kódu. Procházejte kolekci vrácenou metodou `readBarCodes()`. Pro každý výsledek vypíšeme dekódovaný text, název symbologie, úhel detekce a souřadnice čtyř rohů oblasti čárového kódu.
+Objekt `BarCodeResult` představuje jeden detekovaný čárový kód a poskytuje vlastnosti jako dekódovaný text, název symbologie, úhel rotace a souřadnice rohů oblasti čárového kódu. `readBarCodes()` skenuje obrázek a vrací pole objektů `BarCodeResult`. Projděte kolekci vrácenou metodou `readBarCodes()`.
 
 ```java
 int iCount = 0;
@@ -125,51 +134,52 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Smyčka automaticky zpracuje každý nalezený čárový kód, takže není potřeba čtečku volat opakovaně. Po skončení smyčky proměnná `iCount` obsahuje celkový počet detekovaných čárových kódů.
+Smyčka automaticky zpracuje každý nalezený čárový kód, takže není nutné čtečku volat opakovaně. Po skončení smyčky proměnná `iCount` obsahuje celkový počet detekovaných čárových kódů.
 
-## Časté problémy a jejich řešení
+## Časté problémy a jak je opravit
 
 | Příznak | Pravděpodobná příčina | Řešení |
 |---------|-----------------------|--------|
-| Žádné čárové kódy nebyly vráceny | Obrázek je příliš rozmazaný nebo má nízký kontrast | Předzpracujte obrázek (zvyšte kontrast, binarizujte) před předáním čtečce. |
-| Nesprávná symbologie hlášena | Použita nesprávná `DecodeType` | Použijte `DecodeType.ALL_1D`, aby engine automaticky detekoval jakýkoli 1D typ. |
+| Nebyly vráceny žádné čárové kódy | Obrázek je příliš rozmazaný nebo má nízký kontrast | Před předáním čtečce předzpracujte obrázek (zvyšte kontrast, binarizujte). |
+| Nesprávná symbologie nahlášena | Použita nesprávná `DecodeType` | Použijte `DecodeType.ALL_1D`, aby engine automaticky detekoval jakýkoli 1D typ. |
 | Úhly jsou nesprávné | Obrázek je otočen | API již vrací úhel rotace; v případě potřeby můžete obrázek otočit zpět. |
 
 ## Často kladené otázky
 
-**Q: Je Aspose.BarCode pro Javu vhodný pro komerční projekty?**  
-A: Ano. Komerční licence odstraňuje všechna omezení hodnocení a poskytuje plná práva k redistribuci.
+**Q: Je Aspose.BarCode pro Java vhodný pro komerční projekty?**  
+A: Ano. Komerční licence odstraňuje všechna omezení evaluace a poskytuje plná práva na redistribuci.
 
 **Q: Mohu knihovnu testovat bez zakoupení licence?**  
-A: Rozhodně. Získejte dočasnou licenci na [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) pro vývoj a testování.
+A: Rozhodně. Získejte dočasnou licenci na [stránce dočasné licence Aspose](https://purchase.aspose.com/temporary-license/) pro vývoj a testování.
 
-**Q: Kde najdu kompletní referenci API?**  
-A: Rozsáhlá dokumentace je k dispozici [zde](https://reference.aspose.com/barcode/java/).
+**Q: Kde najdu úplnou referenci API?**  
+A: Kompletní dokumentace je k dispozici na [Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/).
 
 **Q: Jak získám pomoc, pokud narazím na problém?**  
-A: Položte svůj dotaz na [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13), kde vám pomohou komunita i inženýři Aspose.
+A: Položte svůj dotaz na [fóru Aspose.BarCode](https://forum.aspose.com/c/barcode/13), kde vám pomohou komunita i inženýři Aspose.
 
-**Q: Existuje bezplatná zkušební verze ke stažení?**  
-A: Ano – zkušební verzi můžete stáhnout ze [Aspose releases page](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatné zkušební stažení?**  
+A: Ano – můžete si stáhnout zkušební verzi na [stránce vydání Aspose](https://releases.aspose.com/).
 
 ## Závěr
 
-Nyní jste se naučili, jak **číst 1D čárové kódy v Javě** pomocí Aspose.BarCode, robustní **knihovny čárových kódů pro Javu**, která usnadňuje dekódování čárových kódů z obrázkových souborů. Začleňte tento úryvek do vlastních aplikací a automatizujte skenování zásob, ověřování vstupenek nebo jakýkoli scénář, kde se v obrázcích objevují lineární čárové kódy.
+Nyní jste se naučili **jak dekódovat čárové kódy** v Javě pomocí Aspose.BarCode, robustní knihovny, která usnadňuje a spolehlivě provádí dekódování čárových kódů z obrazových souborů. Integrujte tento úryvek do svých aplikací a automatizujte skenování zásob, ověřování vstupenek nebo jakýkoli scénář, kde se v obrázcích objevují lineární čárové kódy.
 
 ---
 
-**Poslední aktualizace:** 2026-07-18  
-**Testováno s:** Aspose.BarCode 24.11 pro Java  
-**Autor:** Aspose
+**Last Updated:** 2026-10-30  
+**Tested With:** Aspose.BarCode 24.11 for Java  
+**Author:** Aspose
 
 ## Související tutoriály
 
-- [Read Barcode Java: High Performance Barcode Reader for Faster Image Processing](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
-- [Read Barcode from Image – Mastering Barcode Region Extraction in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
-- [Aspose.Barcode Java – Getting Barcode Recognition Quality in Percent](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
-
+- [Číst čárový kód Java: Vysoce výkonný čteč čárových kódů pro rychlejší zpracování obrázků](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [Číst čárový kód z obrázku – Ovládání extrakce oblasti čárového kódu v Javě s Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
+- [Aspose.Barcode Java – Získání kvality rozpoznání čárových kódů v procentech](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

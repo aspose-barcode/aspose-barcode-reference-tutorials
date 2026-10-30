@@ -1,26 +1,28 @@
 ---
-date: 2026-07-18
-description: Dowiedz się, jak odczytywać 1D kody kreskowe w Java przy użyciu Aspose.BarCode
-  – szybkiej biblioteki Java do dekodowania kodów kreskowych, która wyodrębnia kody
-  kreskowe z obrazów.
+date: 2026-10-30
+description: Dowiedz się, jak dekodować barcode w Java przy użyciu Aspose.BarCode,
+  high‑performance java barcode library, która szybko odczytuje wiele 1D barcode z
+  obrazów.
+images:
+- /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/og-image.png
 keywords:
-- read 1d barcodes java
-- java barcode decoding library
-- java barcode reader example
-lastmod: 2026-07-18
-linktitle: odczyt 1d kodów kreskowych java
-og_description: odczyt 1D kodów kreskowych w Java przy użyciu Aspose.BarCode, wysokowydajnej
-  biblioteki Java do dekodowania kodów kreskowych, która szybko odczytuje wiele kodów
-  kreskowych z obrazów.
+- how to decode barcodes
+- java barcode library
+- read barcodes from image
+- java barcode reader
+- java barcode decoding
+lastmod: 2026-10-30
+linktitle: czytaj 1d barcode java
+og_description: Jak dekodować barcode w Java z Aspose.BarCode, szybka java barcode
+  library, która w ciągu sekund wyodrębnia wiele 1D symboli z obrazów.
 og_image_alt: 'Developer guide: read 1d barcodes in Java with Aspose.BarCode'
-og_title: odczyt 1D kodów kreskowych w Java – dekodowanie kodów kreskowych przy użyciu
-  Aspose.BarCode
+og_title: Jak dekodować barcode w Java – Aspose.BarCode guide
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
-  description: Learn how to read 1D barcodes in Java with Aspose.BarCode – a fast
-    Java barcode decoding library that extracts barcodes from images.
-  headline: read 1d barcodes java – Decode barcodes with Aspose.BarCode
+  dateModified: '2026-10-30'
+  description: Learn how to decode barcodes in Java using Aspose.BarCode, a fast Java
+    barcode decoding library that extracts multiple barcodes from images.
+  headline: How to decode barcodes in Java with Aspose.BarCode
   type: TechArticle
 - questions:
   - answer: Yes. A commercial license removes all evaluation limitations and grants
@@ -29,7 +31,8 @@ schemas:
   - answer: Absolutely. Obtain a temporary license from the [Aspose temporary‑license
       page](https://purchase.aspose.com/temporary-license/) for development and testing.
     question: Can I test the library without purchasing a license?
-  - answer: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+  - answer: The comprehensive documentation is available [Aspose.BarCode Java API
+      reference](https://reference.aspose.com/barcode/java/).
     question: Where can I find the full API reference?
   - answer: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
       where the community and Aspose engineers can assist you.
@@ -42,8 +45,9 @@ tags:
 - read 1d barcodes java
 - Aspose.BarCode
 - Java barcode processing
-title: odczyt 1D kodów kreskowych w Java – dekodowanie kodów kreskowych przy użyciu
-  Aspose.BarCode
+- java barcode library
+- barcode decoding
+title: Jak dekodować barcode w Java z Aspose.BarCode szybko
 url: /pl/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
@@ -52,35 +56,33 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# odczytywanie kodów kreskowych 1d w javie z Aspose.BarCode
+# Jak szybko dekodować kody kreskowe w Javie przy użyciu Aspose.BarCode
 
 ## Wprowadzenie
 
-W tym praktycznym przewodniku dowiesz się, jak **odczytywać kody kreskowe 1D w Javie** przy użyciu potężnej biblioteki **Aspose.BarCode**. Niezależnie od tego, czy musisz skanować etykiety produktów, tagi inwentaryzacyjne, czy jakikolwiek liniowy kod kreskowy osadzony w obrazie, ten tutorial przeprowadzi Cię przez każdy krok — od konfiguracji środowiska po wyodrębnienie wszystkich możliwych kodów kreskowych, które zawiera obraz. Po zakończeniu będziesz w stanie **dekodować kody kreskowe z obrazów** przy użyciu kilku linijek kodu Java.
+W tym praktycznym przewodniku odkryjesz **jak dekodować kody kreskowe** w Javie przy użyciu potężnej biblioteki **Aspose.BarCode**. Niezależnie od tego, czy musisz skanować etykiety produktów, tagi inwentaryzacyjne, czy dowolny liniowy kod kreskowy osadzony w obrazie, ten samouczek przeprowadzi Cię przez każdy krok — od konfiguracji środowiska po wyodrębnienie wszystkich możliwych kodów kreskowych zawartych w obrazie. Po zakończeniu będziesz w stanie dekodować kody kreskowe z plików obrazów przy użyciu zaledwie kilku linii kodu Java.
 
 ## Szybkie odpowiedzi
 - **Co robi Aspose.BarCode?** Dostarcza w pełni funkcjonalną bibliotekę kodów kreskowych dla Javy, która może generować i dekodować kody 1D/2D.  
 - **Czy mogę odczytać wiele kodów kreskowych z jednego obrazu?** Tak – metoda `BarCodeReader.readBarCodes()` zwraca wszystkie wykryte symbole.  
-- **Czy potrzebuję licencji do rozwoju?** Tymczasowa licencja działa w testach; licencja komercyjna jest wymagana w produkcji.  
-- **Jakie wersje Javy są wspierane?** Java 8 + (zalecany JDK 11).  
-- **Czy ta biblioteka jest wystarczająco szybka do skanowania w czasie rzeczywistym?** Zdecydowanie – jest zoptymalizowana pod kątem wysokowydajnego przetwarzania wsadowego.
+- **Czy potrzebna jest licencja do rozwoju?** Tymczasowa licencja działa w testach; licencja komercyjna jest wymagana w produkcji.  
+- **Jakie wersje Javy są obsługiwane?** Java 8 + (zalecany JDK 11).  
+- **Czy ta biblioteka jest wystarczająco szybka do skanowania w czasie rzeczywistym?** Absolutnie – przetwarza typowe obrazy 300 dpi w czasie krótszym niż 0,2 sekundy.  
 
-Metoda `BarCodeReader.readBarCodes()` skanuje podany obraz i zwraca kolekcję obiektów `BarCodeResult` reprezentujących każdy wykryty kod kreskowy.
+Metoda `BarCodeReader.readBarCodes()` skanuje dostarczony obraz i zwraca kolekcję obiektów `BarCodeResult` reprezentujących każdy wykryty kod kreskowy.
 
-## Co to jest „odczytywanie kodów kreskowych 1d w javie”?
+## Co to jest „read 1d barcodes java”?
 
-Odczytywanie kodów kreskowych 1D w Javie to proces wyodrębniania danych liniowych kodów kreskowych z obrazów przy użyciu biblioteki Java. Polega na analizie obrazu, wykrywaniu wzorców kodu i zwracaniu zakodowanego tekstu wraz z metadanymi, takimi jak typ symbolu i orientacja. Aspose.BarCode dla Javy wykonuje tę analizę automatycznie, obsługując rotację, niski kontrast oraz szeroki zakres symboli, dzięki czemu możesz skupić się na integracji wyników w swojej aplikacji.
+Odczytywanie kodów kreskowych 1D w Javie oznacza wyodrębnianie danych liniowych kodów kreskowych z obrazu przy użyciu biblioteki Java; proces analizuje obraz, lokalizuje wzorce kodów i zwraca zakodowany tekst oraz metadane, takie jak symbologia i orientacja. Aspose.BarCode dla Javy wykonuje tę analizę automatycznie, obsługując rotację, niski kontrast i szeroki zakres symbologii, dzięki czemu możesz skupić się na integracji wyników w swojej aplikacji.
 
-## Dlaczego warto wybrać Aspose.BarCode do dekodowania kodów kreskowych z obrazu?
+## Dlaczego wybrać Aspose.BarCode do dekodowania kodów kreskowych z obrazu?
 
-Aspose.BarCode zapewnia wiodącą w branży dokładność i szybkość: potrafi dekodować ponad 50 + symbologii 1D i 2D w jednym przebiegu i przetwarza typowe obrazy 300 dpi w czasie krótszym niż 0,2 sekundy na standardowym serwerze. API wymaga tylko kilku wywołań metod, eliminuje zewnętrzne zależności i działa z Java 8 +, wspierając przetwarzanie wsadowe tysięcy obrazów na minutę. Te wymierne korzyści czynią go wyborem numer jeden dla skanowania kodów kreskowych w środowiskach korporacyjnych.
+Aspose.BarCode zapewnia wiodącą w branży dokładność i szybkość: potrafi dekodować ponad **50 + symbologii 1D i 2D** w jednym przebiegu i przetwarza typowe obrazy 300 dpi w **poniżej 0,2 sekundy** na standardowym serwerze. API wymaga zaledwie kilku wywołań metod, eliminuje zewnętrzne zależności i działa z Java 8 +, jednocześnie obsługując przetwarzanie wsadowe tysięcy obrazów na minutę. Te wymierne korzyści czynią go pierwszym wyborem do skanowania kodów kreskowych w środowiskach korporacyjnych.
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
-
 - **Java Development Kit (JDK)** – wersja 8 lub nowsza. Pobierz go z oficjalnej [strony Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.BarCode for Java** – pobierz najnowszy plik JAR ze [strony wydania Aspose](https://releases.aspose.com/barcode/java/).  
+- **Aspose.BarCode for Java** – pobierz najnowszy plik JAR ze [strony wydań Aspose](https://releases.aspose.com/barcode/java/).  
 
 Teraz, gdy środowisko jest gotowe, rozpocznijmy kodowanie.
 
@@ -96,9 +98,9 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Krok 1: Zainicjalizuj obiekt BarCodeReader
+## Krok 1: zainicjalizuj obiekt BarCodeReader
 
-Klasa `BarCodeReader` jest podstawowym komponentem Aspose.BarCode do skanowania obrazów i wyodrębniania informacji o kodach kreskowych. Utwórz instancję `BarCodeReader`, wskazującą na plik obrazu. Parametr `DecodeType` informuje silnik, które symbologie ma szukać; użycie `CODE_128` jako przykładu działa dla wielu popularnych kodów 1D.
+Klasa `BarCodeReader` jest podstawowym komponentem Aspose.BarCode, który skanuje obraz i wyodrębnia dane kodu kreskowego. Utwórz instancję `BarCodeReader`, wskazując na plik obrazu. Parametr `DecodeType` określa, które symbologie mają być wyszukane; użycie `CODE_128` jako przykładu działa dla wielu popularnych kodów 1D.
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
@@ -106,9 +108,9 @@ BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CO
 
 > **Wskazówka:** Jeśli chcesz skanować *wszystkie* obsługiwane typy 1D, przekaż `DecodeType.ALL_1D` zamiast pojedynczej symbologii.
 
-## Krok 2: Odczytaj wszystkie możliwe kody kreskowe
+## Krok 2: odczytaj wszystkie możliwe kody kreskowe
 
-Obiekt `BarCodeResult` reprezentuje pojedynczy wykryty kod kreskowy i udostępnia właściwości takie jak odkodowany tekst, nazwa symbologii, kąt obrotu oraz współrzędne czterech rogów obszaru kodu. Iteruj po kolekcji zwróconej przez `readBarCodes()`. Dla każdego wyniku wypisujemy odkodowany tekst, nazwę symbologii, kąt wykrycia oraz cztery współrzędne rogów obszaru kodu.
+Obiekt `BarCodeResult` reprezentuje pojedynczy wykryty kod kreskowy i udostępnia właściwości takie jak zdekodowany tekst, nazwa symbologii, kąt obrotu oraz współrzędne narożników regionu kodu kreskowego. `readBarCodes()` skanuje obraz i zwraca tablicę obiektów `BarCodeResult`. Iteruj po kolekcji zwróconej przez `readBarCodes()`.
 
 ```java
 int iCount = 0;
@@ -129,51 +131,52 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Pętla automatycznie przetwarza każdy znaleziony kod, więc nie musisz wywoływać czytnika wielokrotnie. Po zakończeniu pętli zmienna `iCount` zawiera łączną liczbę wykrytych kodów.
+Pętla automatycznie przetwarza każdy znaleziony kod kreskowy, więc nie musisz wielokrotnie wywoływać czytnika. Po zakończeniu pętli zmienna `iCount` zawiera łączną liczbę wykrytych kodów kreskowych.
 
 ## Typowe problemy i jak je naprawić
 
-| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+| Symptom | Likely cause | Solution |
 |---------|--------------|----------|
-| Nie zwrócono kodów kreskowych | Obraz jest zbyt rozmyty lub ma niski kontrast | Wstępnie przetwórz obraz (zwiększ kontrast, binaryzuj) przed przekazaniem go do czytnika. |
-| Zgłoszono nieprawidłową symbologię | Użyto nieprawidłowego `DecodeType` | Użyj `DecodeType.ALL_1D`, aby silnik automatycznie wykrywał dowolny typ 1D. |
+| Brak zwróconych kodów kreskowych | Obraz zbyt rozmyty lub o niskim kontraście | Wstępnie przetwórz obraz (zwiększ kontrast, binaryzuj) przed przekazaniem go do czytnika. |
+| Zgłoszona niewłaściwa symbologia | Użyto nieprawidłowego `DecodeType` | Użyj `DecodeType.ALL_1D`, aby silnik automatycznie wykrywał dowolny typ 1D. |
 | Wartości kąta są nieprawidłowe | Obraz obrócony | API już zwraca kąt obrotu; w razie potrzeby możesz obrócić obraz z powrotem. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy Aspose.BarCode dla Javy nadaje się do projektów komercyjnych?**  
-A: Tak. Licencja komercyjna usuwa wszystkie ograniczenia wersji testowej i daje pełne prawa do dystrybucji.
+**P:** Czy Aspose.BarCode dla Javy jest odpowiedni dla projektów komercyjnych?  
+**O:** Tak. Licencja komercyjna usuwa wszystkie ograniczenia wersji ewaluacyjnej i daje pełne prawa do dystrybucji.
 
-**Q: Czy mogę przetestować bibliotekę bez zakupu licencji?**  
-A: Oczywiście. Uzyskaj tymczasową licencję ze [strony tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/) do rozwoju i testów.
+**P:** Czy mogę testować bibliotekę bez zakupu licencji?  
+**O:** Oczywiście. Uzyskaj tymczasową licencję ze [strony tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/) do rozwoju i testów.
 
-**Q: Gdzie mogę znaleźć pełną dokumentację API?**  
-A: Kompleksowa dokumentacja jest dostępna [tutaj](https://reference.aspose.com/barcode/java/).
+**P:** Gdzie mogę znaleźć pełną dokumentację API?  
+**O:** Kompleksowa dokumentacja jest dostępna w [referencji API Aspose.BarCode Java](https://reference.aspose.com/barcode/java/).
 
-**Q: Jak uzyskać pomoc, jeśli napotkam problem?**  
-A: Zamieść pytanie na [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), gdzie społeczność i inżynierowie Aspose mogą Ci pomóc.
+**P:** Jak uzyskać pomoc, jeśli napotkam problem?  
+**O:** Zamieść pytanie na [forum Aspose.BarCode](https://forum.aspose.com/c/barcode/13), gdzie społeczność i inżynierowie Aspose mogą pomóc.
 
-**Q: Czy dostępny jest bezpłatny trial do pobrania?**  
-A: Tak – możesz pobrać wersję próbną ze [strony wydań Aspose](https://releases.aspose.com/).
+**P:** Czy dostępny jest bezpłatny wersja próbna do pobrania?  
+**O:** Tak — możesz pobrać wersję próbną ze [strony wydań Aspose](https://releases.aspose.com/).
 
 ## Podsumowanie
 
-Teraz wiesz, jak **odczytywać kody kreskowe 1D w Javie** przy użyciu Aspose.BarCode, solidnej **biblioteki kodów kreskowych dla Javy**, która sprawia, że dekodowanie kodów z plików obrazów jest proste i niezawodne. Zintegruj ten fragment kodu w swoich aplikacjach, aby automatyzować skanowanie inwentarza, weryfikację biletów lub każdy scenariusz, w którym w obrazach pojawiają się liniowe kody kreskowe.
+Nauczyłeś się teraz **jak dekodować kody kreskowe** w Javie przy użyciu Aspose.BarCode, solidnej biblioteki kodów kreskowych, która sprawia, że dekodowanie kodów z plików obrazów jest proste i niezawodne. Zintegruj ten fragment kodu ze swoimi aplikacjami, aby automatyzować skanowanie inwentarza, weryfikację biletów lub każdy scenariusz, w którym w obrazach pojawiają się liniowe kody kreskowe.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-07-18  
-**Testowano z:** Aspose.BarCode 24.11 for Java  
-**Autor:** Aspose
+**Last Updated:** 2026-10-30  
+**Tested With:** Aspose.BarCode 24.11 for Java  
+**Author:** Aspose
 
-## Powiązane tutoriale
+## Powiązane samouczki
 
-- [Odczytaj kod kreskowy Java: Czytnik kodów kreskowych o wysokiej wydajności dla szybszego przetwarzania obrazów](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
-- [Odczytaj kod kreskowy z obrazu – opanowanie wyodrębniania regionu kodu w Javie z Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
-- [Aspose.Barcode Java – Uzyskiwanie jakości rozpoznawania kodu kreskowego w procentach](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
-
+- [Read Barcode Java: High Performance Barcode Reader for Faster Image Processing](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [Read Barcode from Image – Mastering Barcode Region Extraction in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
+- [Aspose.Barcode Java – Getting Barcode Recognition Quality in Percent](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,23 +1,28 @@
 ---
-date: 2026-07-18
-description: Aspose.BarCode के साथ Java में 1D बारकोड पढ़ने का तरीका जानें – एक तेज़
-  Java बारकोड डिकोडिंग लाइब्रेरी जो छवियों से बारकोड निकालती है।
+date: 2026-10-30
+description: Aspose.BarCode का उपयोग करके Java में barcode को decode करने का तरीका
+  सीखें, एक high‑performance java barcode लाइब्रेरी जो images से कई 1D barcode को
+  जल्दी पढ़ती है।
+images:
+- /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/og-image.png
 keywords:
-- read 1d barcodes java
-- java barcode decoding library
-- java barcode reader example
-lastmod: 2026-07-18
-linktitle: पढ़ें 1d बारकोड्स जावा
-og_description: Aspose.BarCode का उपयोग करके read 1d barcodes java, एक उच्च‑प्रदर्शन
-  Java बारकोड डिकोडिंग लाइब्रेरी जो छवियों से कई बारकोड तेज़ी से पढ़ती है।
+- how to decode barcodes
+- java barcode library
+- read barcodes from image
+- java barcode reader
+- java barcode decoding
+lastmod: 2026-10-30
+linktitle: Java में 1D barcode पढ़ें
+og_description: Aspose.BarCode के साथ Java में barcode को decode करने का तरीका, एक
+  fast java barcode लाइब्रेरी जो images से कई 1D symbols को सेकंडों में निकालती है।
 og_image_alt: 'Developer guide: read 1d barcodes in Java with Aspose.BarCode'
-og_title: पढ़ें 1d बारकोड्स जावा – Aspose.BarCode के साथ बारकोड डिकोड करें
+og_title: Java में barcode को decode करने का तरीका – Aspose.BarCode गाइड
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
-  description: Learn how to read 1D barcodes in Java with Aspose.BarCode – a fast
-    Java barcode decoding library that extracts barcodes from images.
-  headline: read 1d barcodes java – Decode barcodes with Aspose.BarCode
+  dateModified: '2026-10-30'
+  description: Learn how to decode barcodes in Java using Aspose.BarCode, a fast Java
+    barcode decoding library that extracts multiple barcodes from images.
+  headline: How to decode barcodes in Java with Aspose.BarCode
   type: TechArticle
 - questions:
   - answer: Yes. A commercial license removes all evaluation limitations and grants
@@ -26,7 +31,8 @@ schemas:
   - answer: Absolutely. Obtain a temporary license from the [Aspose temporary‑license
       page](https://purchase.aspose.com/temporary-license/) for development and testing.
     question: Can I test the library without purchasing a license?
-  - answer: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+  - answer: The comprehensive documentation is available [Aspose.BarCode Java API
+      reference](https://reference.aspose.com/barcode/java/).
     question: Where can I find the full API reference?
   - answer: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
       where the community and Aspose engineers can assist you.
@@ -39,7 +45,9 @@ tags:
 - read 1d barcodes java
 - Aspose.BarCode
 - Java barcode processing
-title: पढ़ें 1d बारकोड्स जावा – Aspose.BarCode के साथ बारकोड डिकोड करें
+- java barcode library
+- barcode decoding
+title: Aspose.BarCode के साथ Java में barcode को जल्दी decode करने का तरीका
 url: /hi/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
@@ -48,41 +56,41 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.BarCode के साथ Java में 1D बारकोड पढ़ें
+# जावा में Aspose.BarCode के साथ बारकोड को जल्दी डिकोड कैसे करें
 
 ## परिचय
 
-इस व्यावहारिक गाइड में आप शक्तिशाली **Aspose.BarCode** लाइब्रेरी का उपयोग करके **Java में 1D बारकोड पढ़ना** सीखेंगे। चाहे आपको उत्पाद लेबल, इन्वेंटरी टैग, या किसी भी इमेज में एम्बेडेड लीनियर बारकोड स्कैन करना हो, यह ट्यूटोरियल आपको हर चरण से ले जाता है—पर्यावरण सेटअप से लेकर इमेज में मौजूद सभी संभावित बारकोड निकालने तक। अंत तक, आप केवल कुछ ही Java कोड लाइनों के साथ **इमेज फ़ाइलों से बारकोड डिकोड** कर सकेंगे।
+इस व्यावहारिक गाइड में आप **जावा में बारकोड को डिकोड करने** का तरीका सीखेंगे, जिसमें शक्तिशाली **Aspose.BarCode** लाइब्रेरी का उपयोग किया गया है। चाहे आपको प्रोडक्ट लेबल, इन्वेंटरी टैग, या किसी भी इमेज में एम्बेडेड लीनियर बारकोड स्कैन करना हो, यह ट्यूटोरियल आपको पर्यावरण सेटअप से लेकर इमेज में मौजूद सभी संभावित बारकोड निकालने तक हर कदम पर मार्गदर्शन करता है। अंत तक, आप कुछ ही जावा कोड लाइनों से इमेज फ़ाइलों से बारकोड डिकोड कर पाएँगे।
 
 ## त्वरित उत्तर
-- **What does Aspose.BarCode do?** यह Java के लिए एक पूर्ण‑विशेषताओं वाला बारकोड लाइब्रेरी प्रदान करता है जो 1D/2D बारकोड जनरेट और डिकोड कर सकता है।  
-- **Can I read multiple barcodes from one image?** हाँ – `BarCodeReader.readBarCodes()` मेथड सभी पहचाने गए सिम्बॉल्स लौटाता है।  
-- **Do I need a license for development?** टेस्टिंग के लिए एक अस्थायी लाइसेंस काम करता है; उत्पादन के लिए एक व्यावसायिक लाइसेंस आवश्यक है।  
-- **Which Java versions are supported?** Java 8 + (JDK 11 की सिफारिश)।  
-- **Is this library fast enough for real‑time scanning?** बिल्कुल – यह हाई‑परफ़ॉर्मेंस बैच प्रोसेसिंग के लिए ऑप्टिमाइज़्ड है।
+- **Aspose.BarCode क्या करता है?** यह Java के लिए एक पूर्ण‑विशेषताओं वाला बारकोड लाइब्रेरी प्रदान करता है जो 1D/2D बारकोड बना और डिकोड कर सकता है।  
+- **क्या मैं एक इमेज से कई बारकोड पढ़ सकता हूँ?** हाँ – `BarCodeReader.readBarCodes()` मेथड सभी पहचाने गए सिम्बॉल्स को लौटाता है।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक अस्थायी लाइसेंस काम करता है; उत्पादन के लिए वाणिज्यिक लाइसेंस आवश्यक है।  
+- **कौन से Java संस्करण समर्थित हैं?** Java 8 + (JDK 11 की सिफारिश)।  
+- **क्या यह लाइब्रेरी रीयल‑टाइम स्कैनिंग के लिए पर्याप्त तेज़ है?** बिल्कुल – यह सामान्य 300 dpi इमेज को 0.2 सेकंड से कम समय में प्रोसेस करता है।  
 
-`BarCodeReader.readBarCodes()` मेथड प्रदान की गई इमेज को स्कैन करता है और प्रत्येक पहचाने गए बारकोड को दर्शाने वाले `BarCodeResult` ऑब्जेक्ट्स का संग्रह लौटाता है।
+`BarCodeReader.readBarCodes()` मेथड प्रदान की गई इमेज को स्कैन करता है और प्रत्येक पहचाने गए बारकोड का प्रतिनिधित्व करने वाले `BarCodeResult` ऑब्जेक्ट्स का संग्रह लौटाता है।
 
 ## “read 1d barcodes java” क्या है?
 
-Java में 1D बारकोड पढ़ना इमेज से लीनियर बारकोड डेटा निकालने की प्रक्रिया है, जो एक Java लाइब्रेरी का उपयोग करती है। इसमें इमेज का विश्लेषण, बारकोड पैटर्न का पता लगाना, और एन्कोडेड टेक्स्ट के साथ साथ सिम्बोलॉजी प्रकार और अभिविन्यास जैसी मेटाडेटा लौटाना शामिल है। Aspose.BarCode for Java यह विश्लेषण स्वतः करता है, रोटेशन, कम कंट्रास्ट, और विभिन्न सिम्बोलॉजीज़ को संभालता है ताकि आप परिणामों को अपने एप्लिकेशन में एकीकृत करने पर ध्यान दे सकें।
+जावा में 1D बारकोड पढ़ना का अर्थ है इमेज से लीनियर बारकोड डेटा निकालना, जिसके लिए एक जावा लाइब्रेरी का उपयोग किया जाता है; प्रक्रिया इमेज का विश्लेषण करती है, बारकोड पैटर्न को ढूँढती है, और एन्कोडेड टेक्स्ट के साथ-साथ सिम्बोलॉजी और अभिविन्यास जैसी मेटाडेटा लौटाती है। Aspose.BarCode for Java यह विश्लेषण स्वचालित रूप से करता है, घूर्णन, कम कंट्रास्ट, और विभिन्न सिम्बोलॉजी को संभालता है ताकि आप परिणामों को अपने एप्लिकेशन में एकीकृत करने पर ध्यान केंद्रित कर सकें।
 
 ## इमेज से बारकोड डिकोड करने के लिए Aspose.BarCode क्यों चुनें?
 
-Aspose.BarCode उद्योग‑स्तरीय सटीकता और गति प्रदान करता है: यह एक ही पास में 50 + 1D और 2D सिम्बोलॉजीज़ को डिकोड कर सकता है और मानक सर्वर पर सामान्य 300 dpi इमेज को 0.2 सेकंड से कम समय में प्रोसेस करता है। API को केवल कुछ मेथड कॉल्स की आवश्यकता होती है, बाहरी निर्भरताओं को समाप्त करता है, और Java 8 + के साथ काम करता है जबकि प्रति मिनट हजारों इमेज की बैच प्रोसेसिंग को सपोर्ट करता है। ये मापनीय लाभ इसे एंटरप्राइज़‑ग्रेड बारकोड स्कैनिंग के लिए प्रमुख विकल्प बनाते हैं।
+Aspose.BarCode उद्योग‑स्तरीय सटीकता और गति प्रदान करता है: यह एक ही पास में **50 + 1D और 2D सिम्बोलॉजी** को डिकोड कर सकता है और सामान्य 300 dpi इमेज को **0.2 सेकंड से कम** समय में प्रोसेस करता है। API केवल कुछ मेथड कॉल्स की आवश्यकता रखती है, बाहरी निर्भरताओं को समाप्त करती है, और Java 8 + के साथ काम करती है जबकि प्रति मिनट हजारों इमेज की बैच प्रोसेसिंग का समर्थन करती है। ये मात्रात्मक लाभ इसे एंटरप्राइज़‑ग्रेड बारकोड स्कैनिंग के लिए प्रमुख विकल्प बनाते हैं।
 
 ## पूर्वापेक्षाएँ
 
-कोड में डुबकी लगाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+कोड में डुबकी लगाने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
 
 - **Java Development Kit (JDK)** – संस्करण 8 या नया। इसे आधिकारिक [Oracle JDK पेज](https://www.oracle.com/java/technologies/javase-downloads.html) से डाउनलोड करें।  
-- **Aspose.BarCode for Java** – नवीनतम JAR को [Aspose रिलीज पेज](https://releases.aspose.com/barcode/java/) से प्राप्त करें।  
+- **Aspose.BarCode for Java** – नवीनतम JAR को [Aspose रिलीज़ पेज](https://releases.aspose.com/barcode/java/) से प्राप्त करें।  
 
-अब आपका पर्यावरण तैयार है, चलिए कोडिंग शुरू करते हैं।
+अब आपका पर्यावरण तैयार है, चलिए कोड लिखना शुरू करते हैं।
 
-## इम्पोर्ट नेमस्पेसेस
+## नेमस्पेस इम्पोर्ट करें
 
-आवश्यक `import` स्टेटमेंट्स जोड़ें ताकि कंपाइलर Aspose की क्लासेस को ढूँढ सके।
+आवश्यक `import` स्टेटमेंट्स जोड़ें ताकि कंपाइलर Aspose की क्लासेज़ को ढूँढ सके।
 
 ```java
 import java.awt.Point;
@@ -92,19 +100,19 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## चरण 1: BarCodeReader ऑब्जेक्ट को इनिशियलाइज़ करें
+## चरण 1: barCodeReader ऑब्जेक्ट को इनिशियलाइज़ करें
 
-`BarCodeReader` क्लास Aspose.BarCode का मुख्य घटक है जो इमेज स्कैन करने और बारकोड जानकारी निकालने के लिए उपयोग होता है। अपने इमेज फ़ाइल की ओर इशारा करने वाला `BarCodeReader` इंस्टेंस बनाएं। `DecodeType` पैरामीटर इंजन को बताता है कि कौन सी सिम्बोलॉजीज़ खोजनी हैं; `CODE_128` का उपयोग कई सामान्य 1D कोड्स के लिए काम करता है।
+`BarCodeReader` क्लास Aspose.BarCode का मुख्य घटक है जो इमेज को स्कैन करता है और बारकोड डेटा निकालता है। अपने इमेज फ़ाइल की ओर इशारा करते हुए एक `BarCodeReader` इंस्टेंस बनाएँ। `DecodeType` पैरामीटर इंजन को बताता है कि कौन सी सिम्बोलॉजीज़ देखनी हैं; `CODE_128` का उपयोग कई सामान्य 1D कोड्स के लिए किया जा सकता है।
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
 ```
 
-> **Pro tip:** यदि आप सभी समर्थित 1D प्रकार स्कैन करना चाहते हैं, तो एकल सिम्बोलॉजी के बजाय `DecodeType.ALL_1D` पास करें।
+> **प्रो टिप:** यदि आप *सभी* समर्थित 1D प्रकार स्कैन करना चाहते हैं, तो एकल सिम्बोलॉजी के बजाय `DecodeType.ALL_1D` पास करें।
 
 ## चरण 2: सभी संभावित बारकोड पढ़ें
 
-`BarCodeResult` ऑब्जेक्ट एकल पहचाने गए बारकोड को दर्शाता है और डिकोडेड टेक्स्ट, सिम्बोलॉजी नाम, रोटेशन एंगल, और बारकोड क्षेत्र के कोने के निर्देशांक जैसी प्रॉपर्टीज़ प्रदान करता है। `readBarCodes()` द्वारा लौटाए गए संग्रह पर इटररेट करें। प्रत्येक परिणाम के लिए हम डिकोडेड टेक्स्ट, सिम्बोलॉजी नाम, डिटेक्शन एंगल, और बारकोड क्षेत्र के चार कोने के निर्देशांक प्रिंट करते हैं।
+`BarCodeResult` ऑब्जेक्ट एकल पहचाने गए बारकोड का प्रतिनिधित्व करता है और डिकोडेड टेक्स्ट, सिम्बोलॉजी नाम, घूर्णन कोण, तथा बारकोड क्षेत्र के कोनों के निर्देशांक जैसी प्रॉपर्टीज़ प्रदान करता है। `readBarCodes()` इमेज को स्कैन करता है और `BarCodeResult` ऑब्जेक्ट्स की एक एरे लौटाता है। `readBarCodes()` द्वारा लौटाए गए संग्रह पर इटरेट करें।
 
 ```java
 int iCount = 0;
@@ -125,51 +133,52 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-लूप स्वचालित रूप से पाए गए प्रत्येक बारकोड को प्रोसेस करता है, इसलिए आपको रीडर को बार‑बार कॉल करने की आवश्यकता नहीं है। लूप समाप्त होने के बाद, `iCount` में पहचाने गए बारकोड की कुल संख्या रहती है।
+लूप स्वचालित रूप से प्रत्येक पाए गए बारकोड को प्रोसेस करता है, इसलिए आपको रीडर को बार‑बार कॉल करने की आवश्यकता नहीं है। लूप समाप्त होने के बाद, `iCount` में कुल पहचाने गए बारकोड की संख्या होगी।
 
-## सामान्य समस्याएँ और उनके समाधान
+## सामान्य समस्याएँ और समाधान
 
 | लक्षण | संभावित कारण | समाधान |
 |---------|--------------|----------|
-| कोई बारकोड नहीं मिला | इमेज बहुत धुंधली या कम कंट्रास्ट | रीडर को फीड करने से पहले इमेज को प्री‑प्रोसेस करें (कंट्रास्ट बढ़ाएँ, बाइनराइज़ करें)। |
+| कोई बारकोड नहीं मिला | इमेज बहुत धुंधली या कम कंट्रास्ट वाली | रीडर को फ़ीड करने से पहले इमेज को प्री‑प्रोसेस करें (कंट्रास्ट बढ़ाएँ, बाइनराइज़ करें)। |
 | गलत सिम्बोलॉजी रिपोर्ट हुई | गलत `DecodeType` उपयोग किया गया | `DecodeType.ALL_1D` उपयोग करें ताकि इंजन किसी भी 1D प्रकार को ऑटो‑डिटेक्ट कर सके। |
-| एंगल वैल्यूज़ गलत हैं | इमेज घुमाई गई | API पहले से ही रोटेशन एंगल लौटाता है; आवश्यकता होने पर आप इमेज को वापस घुमा सकते हैं। |
+| कोण मान गलत हैं | इमेज घुमा हुआ है | API पहले से ही घूर्णन कोण लौटाती है; आवश्यकता होने पर इमेज को वापस घुमा सकते हैं। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: क्या Aspose.BarCode for Java व्यावसायिक प्रोजेक्ट्स के लिए उपयुक्त है?**  
-A: हाँ। एक व्यावसायिक लाइसेंस सभी मूल्यांकन सीमाओं को हटाता है और आपको पूर्ण पुनर्वितरण अधिकार देता है।
+**प्र: क्या Aspose.BarCode for Java व्यावसायिक प्रोजेक्ट्स के लिए उपयुक्त है?**  
+उ: हाँ। वाणिज्यिक लाइसेंस सभी मूल्यांकन सीमाओं को हटाता है और आपको पूर्ण पुनर्वितरण अधिकार देता है।
 
-**Q: क्या मैं लाइसेंस खरीदे बिना लाइब्रेरी का परीक्षण कर सकता हूँ?**  
-A: बिल्कुल। विकास और परीक्षण के लिए आप [Aspose अस्थायी‑लाइसेंस पेज](https://purchase.aspose.com/temporary-license/) से एक अस्थायी लाइसेंस प्राप्त कर सकते हैं।
+**प्र: क्या मैं लाइसेंस खरीदे बिना लाइब्रेरी का परीक्षण कर सकता हूँ?**  
+उ: बिल्कुल। विकास और परीक्षण के लिए आप [Aspose अस्थायी‑लाइसेंस पेज](https://purchase.aspose.com/temporary-license/) से एक अस्थायी लाइसेंस प्राप्त कर सकते हैं।
 
-**Q: पूरी API रेफ़रेंस कहाँ मिल सकती है?**  
-A: विस्तृत दस्तावेज़ीकरण [यहाँ](https://reference.aspose.com/barcode/java/) उपलब्ध है।
+**प्र: पूर्ण API रेफ़रेंस कहाँ मिल सकता है?**  
+उ: व्यापक दस्तावेज़ीकरण [Aspose.BarCode Java API रेफ़रेंस](https://reference.aspose.com/barcode/java/) पर उपलब्ध है।
 
-**Q: यदि मैं समस्या का सामना करता हूँ तो मदद कैसे प्राप्त करूँ?**  
-A: अपना प्रश्न [Aspose.BarCode फ़ोरम](https://forum.aspose.com/c/barcode/13) पर पोस्ट करें जहाँ समुदाय और Aspose इंजीनियर मदद करेंगे।
+**प्र: यदि मुझे कोई समस्या आती है तो मदद कैसे प्राप्त करूँ?**  
+उ: आप अपने प्रश्न को [Aspose.BarCode फ़ोरम](https://forum.aspose.com/c/barcode/13) पर पोस्ट कर सकते हैं जहाँ समुदाय और Aspose इंजीनियर सहायता करेंगे।
 
-**Q: क्या कोई मुफ्त ट्रायल डाउनलोड उपलब्ध है?**  
-A: हाँ – आप [Aspose रिलीज़ पेज](https://releases.aspose.com/) से ट्रायल संस्करण डाउनलोड कर सकते हैं।
+**प्र: क्या कोई फ्री ट्रायल डाउनलोड उपलब्ध है?**  
+उ: हाँ – आप [Aspose रिलीज़ पेज](https://releases.aspose.com/) से ट्रायल संस्करण डाउनलोड कर सकते हैं।
 
 ## निष्कर्ष
 
-अब आपने Aspose.BarCode का उपयोग करके **Java में 1D बारकोड पढ़ना** सीख लिया है, जो एक मजबूत **Java के लिए बारकोड लाइब्रेरी** है और इमेज फ़ाइलों से बारकोड डिकोड करना सरल और विश्वसनीय बनाती है। इस स्निपेट को अपने एप्लिकेशन में एकीकृत करें ताकि इन्वेंटरी स्कैन, टिकट वैलिडेशन, या किसी भी स्थिति में जहाँ इमेज में लीनियर बारकोड दिखते हैं, स्वचालित हो सके।
+आपने अब **जावा में Aspose.BarCode का उपयोग करके बारकोड डिकोड करना** सीख लिया है, जो एक मजबूत बारकोड लाइब्रेरी है और इमेज फ़ाइलों से बारकोड डिकोड करना सरल और भरोसेमंद बनाती है। इस स्निपेट को अपने एप्लिकेशन में एकीकृत करके इन्वेंट्री स्कैन, टिकट वैधता, या किसी भी परिदृश्य को स्वचालित कर सकते हैं जहाँ इमेज में लीनियर बारकोड मौजूद हों।
 
 ---
 
-**अंतिम अपडेट:** 2026-07-18  
-**परीक्षित संस्करण:** Aspose.BarCode 24.11 for Java  
+**अंतिम अपडेट:** 2026-10-30  
+**टेस्टेड विद:** Aspose.BarCode 24.11 for Java  
 **लेखक:** Aspose
 
 ## संबंधित ट्यूटोरियल
 
-- [बारकोड जावा पढ़ें: तेज़ इमेज प्रोसेसिंग के लिए हाई परफ़ॉर्मेंस बारकोड रीडर](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
-- [इमेज से बारकोड पढ़ें – Aspose.BarCode के साथ Java में बारकोड रीजन एक्सट्रैक्शन में महारत](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
-- [Aspose.Barcode Java – प्रतिशत में बारकोड पहचान गुणवत्ता प्राप्त करना](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
-
+- [Read Barcode Java: High Performance Barcode Reader for Faster Image Processing](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [Read Barcode from Image – Mastering Barcode Region Extraction in Java with Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
+- [Aspose.Barcode Java – Getting Barcode Recognition Quality in Percent](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

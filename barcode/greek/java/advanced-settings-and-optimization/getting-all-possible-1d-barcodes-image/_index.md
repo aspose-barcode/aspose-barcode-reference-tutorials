@@ -1,23 +1,28 @@
 ---
-date: 2026-07-18
-description: Μάθετε πώς να διαβάζετε 1D barcodes σε Java με Aspose.BarCode – μια γρήγορη
-  Java barcode decoding library που εξάγει barcodes από εικόνες.
+date: 2026-10-30
+description: Μάθετε πώς να αποκωδικοποιήσετε barcodes σε Java χρησιμοποιώντας το Aspose.BarCode,
+  μια υψηλής απόδοσης βιβλιοθήκη java barcode που διαβάζει πολλαπλά 1D barcodes από
+  εικόνες γρήγορα.
+images:
+- /java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/og-image.png
 keywords:
-- read 1d barcodes java
-- java barcode decoding library
-- java barcode reader example
-lastmod: 2026-07-18
-linktitle: ανάγνωση 1D barcodes Java
-og_description: ανάγνωση 1D barcodes Java χρησιμοποιώντας Aspose.BarCode, μια high‑performance
-  Java barcode decoding library που διαβάζει πολλαπλά barcodes από εικόνες γρήγορα.
+- how to decode barcodes
+- java barcode library
+- read barcodes from image
+- java barcode reader
+- java barcode decoding
+lastmod: 2026-10-30
+linktitle: διάβαση 1D barcodes java
+og_description: Πώς να αποκωδικοποιήσετε barcodes σε Java με το Aspose.BarCode, μια
+  γρήγορη βιβλιοθήκη java barcode που εξάγει πολλαπλά 1D σύμβολα από εικόνες σε δευτερόλεπτα.
 og_image_alt: 'Developer guide: read 1d barcodes in Java with Aspose.BarCode'
-og_title: ανάγνωση 1D barcodes Java – Decode barcodes with Aspose.BarCode
+og_title: Πώς να αποκωδικοποιήσετε barcodes σε Java – Οδηγός Aspose.BarCode
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
-  description: Learn how to read 1D barcodes in Java with Aspose.BarCode – a fast
-    Java barcode decoding library that extracts barcodes from images.
-  headline: read 1d barcodes java – Decode barcodes with Aspose.BarCode
+  dateModified: '2026-10-30'
+  description: Learn how to decode barcodes in Java using Aspose.BarCode, a fast Java
+    barcode decoding library that extracts multiple barcodes from images.
+  headline: How to decode barcodes in Java with Aspose.BarCode
   type: TechArticle
 - questions:
   - answer: Yes. A commercial license removes all evaluation limitations and grants
@@ -26,7 +31,8 @@ schemas:
   - answer: Absolutely. Obtain a temporary license from the [Aspose temporary‑license
       page](https://purchase.aspose.com/temporary-license/) for development and testing.
     question: Can I test the library without purchasing a license?
-  - answer: The comprehensive documentation is available [here](https://reference.aspose.com/barcode/java/).
+  - answer: The comprehensive documentation is available [Aspose.BarCode Java API
+      reference](https://reference.aspose.com/barcode/java/).
     question: Where can I find the full API reference?
   - answer: Post your question on the [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13)
       where the community and Aspose engineers can assist you.
@@ -39,7 +45,9 @@ tags:
 - read 1d barcodes java
 - Aspose.BarCode
 - Java barcode processing
-title: ανάγνωση 1D barcodes Java – Decode barcodes with Aspose.BarCode
+- java barcode library
+- barcode decoding
+title: Πώς να αποκωδικοποιήσετε barcodes σε Java με το Aspose.BarCode γρήγορα
 url: /el/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/
 weight: 20
 ---
@@ -48,28 +56,28 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ανάγνωση 1D barcode σε Java με Aspose.BarCode
+# Πώς να αποκωδικοποιήσετε γραμμικούς κώδικες σε Java με το Aspose.BarCode γρήγορα
 
 ## Εισαγωγή
 
-Σε αυτόν τον πρακτικό οδηγό θα ανακαλύψετε πώς να **διαβάζετε 1D barcode σε Java** χρησιμοποιώντας τη δυνατή βιβλιοθήκη **Aspose.BarCode**. Είτε χρειάζεστε να σαρώσετε ετικέτες προϊόντων, ετικέτες αποθέματος ή οποιοδήποτε γραμμικό barcode ενσωματωμένο σε μια εικόνα, αυτό το tutorial σας οδηγεί βήμα‑βήμα—από τη ρύθμιση του περιβάλλοντος μέχρι την εξαγωγή κάθε δυνατού barcode που περιέχει η εικόνα. Στο τέλος, θα μπορείτε να **αποκωδικοποιήσετε barcode από εικόνες** με λίγες μόνο γραμμές κώδικα Java.
+Σε αυτόν τον πρακτικό οδηγό θα ανακαλύψετε **πώς να αποκωδικοποιήσετε γραμμικούς κώδικες** σε Java χρησιμοποιώντας τη δυναμική βιβλιοθήκη **Aspose.BarCode**. Είτε χρειάζεστε να σαρώσετε ετικέτες προϊόντων, ετικέτες αποθέματος ή οποιονδήποτε γραμμικό κώδικα ενσωματωμένο σε μια εικόνα, αυτό το tutorial σας καθοδηγεί βήμα‑βήμα—from τη ρύθμιση του περιβάλλοντος μέχρι την εξαγωγή κάθε πιθανού κώδικα που περιέχει η εικόνα. Στο τέλος, θα μπορείτε να αποκωδικοποιήσετε γραμμικούς κώδικες από αρχεία εικόνας με λίγες μόνο γραμμές κώδικα Java.
 
-## Γρήγορες Απαντήσεις
-- **Τι κάνει το Aspose.BarCode;** Παρέχει μια πλήρη βιβλιοθήκη barcode για Java που μπορεί να δημιουργεί και να αποκωδικοποιεί 1D/2D barcode.  
-- **Μπορώ να διαβάσω πολλαπλά barcode από μία εικόνα;** Ναι – η μέθοδος `BarCodeReader.readBarCodes()` επιστρέφει όλα τα ανιχνευμένα σύμβολα.  
+## Γρήγορες απαντήσεις
+- **Τι κάνει το Aspose.BarCode;** Παρέχει μια πλήρη βιβλιοθήκη γραμμικών κωδίκων για Java που μπορεί να δημιουργεί και να αποκωδικοποιεί 1D/2D κώδικες.  
+- **Μπορώ να διαβάσω πολλαπλούς κώδικες από μία εικόνα;** Ναι – η μέθοδος `BarCodeReader.readBarCodes()` επιστρέφει όλα τα ανιχνευμένα σύμβολα.  
 - **Χρειάζομαι άδεια για ανάπτυξη;** Μια προσωρινή άδεια λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 + (συνιστάται JDK 11).  
-- **Είναι αυτή η βιβλιοθήκη αρκετά γρήγορη για σάρωση σε πραγματικό χρόνο;** Απόλυτα – είναι βελτιστοποιημένη για υψηλής απόδοσης επεξεργασία παρτίδων.
+- **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 + (συνίσταται JDK 11).  
+- **Είναι αυτή η βιβλιοθήκη αρκετά γρήγορη για σάρωση σε πραγματικό χρόνο;** Απόλυτα – επεξεργάζεται τυπικές εικόνες 300 dpi σε λιγότερο από 0.2 δευτερόλεπτα.  
 
-Η μέθοδος `BarCodeReader.readBarCodes()` σαρώει την παρεχόμενη εικόνα και επιστρέφει μια συλλογή από αντικείμενα `BarCodeResult` που αντιπροσωπεύουν κάθε ανιχνευμένο barcode.
+Η μέθοδος `BarCodeReader.readBarCodes()` σαρώει την παρεχόμενη εικόνα και επιστρέφει μια συλλογή αντικειμένων `BarCodeResult` που αντιπροσωπεύουν κάθε ανιχνευμένο γραμμικό κώδικα.
 
-## Τι είναι η «read 1d barcodes java»;
+## Τι είναι το “read 1d barcodes java”
 
-Η ανάγνωση 1D barcode σε Java είναι η διαδικασία εξαγωγής γραμμικών δεδομένων barcode από εικόνες χρησιμοποιώντας μια βιβλιοθήκη Java. Περιλαμβάνει την ανάλυση μιας εικόνας, τον εντοπισμό των προτύπων barcode και την επιστροφή του κωδικοποιημένου κειμένου μαζί με μεταδεδομένα όπως ο τύπος συμβολισμού και ο προσανατολισμός. Το Aspose.BarCode for Java εκτελεί αυτήν την ανάλυση αυτόματα, διαχειριζόμενο την περιστροφή, το χαμηλό αντίθεση και μια ευρεία γκάμα συμβολισμών, ώστε να μπορείτε να εστιάσετε στην ενσωμάτωση των αποτελεσμάτων στην εφαρμογή σας.
+Η ανάγνωση 1D γραμμικών κωδίκων σε Java σημαίνει την εξαγωγή δεδομένων γραμμικού κώδικα από μια εικόνα χρησιμοποιώντας μια βιβλιοθήκη Java· η διαδικασία αναλύει την εικόνα, εντοπίζει τα μοτίβα του κώδικα και επιστρέφει το κωδικοποιημένο κείμενο μαζί με μεταδεδομένα όπως η συμβολική και η προσανατολισμός. Το Aspose.BarCode for Java εκτελεί αυτήν την ανάλυση αυτόματα, διαχειρίζεται περιστροφές, χαμηλή αντίθεση και ένα ευρύ φάσμα συμβολικών ώστε να μπορείτε να εστιάσετε στην ενσωμάτωση των αποτελεσμάτων στην εφαρμογή σας.
 
-## Γιατί να επιλέξετε Aspose.BarCode για την αποκωδικοποίηση barcode από εικόνα;
+## Γιατί να επιλέξετε το Aspose.BarCode για την αποκωδικοποίηση γραμμικών κωδίκων από εικόνα;
 
-Το Aspose.BarCode προσφέρει ακρίβεια και ταχύτητα κορυφαίας βιομηχανίας: μπορεί να αποκωδικοποιήσει πάνω από 50 + 1D και 2D συμβολισμούς σε μία μόνο διεργασία και επεξεργάζεται τυπικές εικόνες 300 dpi σε λιγότερο από 0,2 δευτερόλεπτα σε έναν τυπικό διακομιστή. Το API απαιτεί μόνο λίγες κλήσεις μεθόδων, εξαλείφει εξωτερικές εξαρτήσεις και λειτουργεί με Java 8 + ενώ υποστηρίζει επεξεργασία παρτίδων χιλιάδων εικόνων ανά λεπτό. Αυτά τα ποσοτικοποιημένα οφέλη το καθιστούν την προτιμώμενη επιλογή για επιχειρησιακής κλίμακας σάρωση barcode.
+Το Aspose.BarCode προσφέρει ακρίβεια και ταχύτητα κορυφαίας βιομηχανίας: μπορεί να αποκωδικοποιήσει πάνω από **50 + 1D και 2D συμβολικές** σε μία μόνο διεργασία και επεξεργάζεται τυπικές εικόνες 300 dpi σε **λιγότερο από 0.2 δευτερόλεπτα** σε έναν τυπικό διακομιστή. Το API απαιτεί μόνο λίγες κλήσεις μεθόδων, εξαλείφει εξωτερικές εξαρτήσεις και λειτουργεί με Java 8 + ενώ υποστηρίζει επεξεργασία παρτίδας χιλιάδων εικόνων ανά λεπτό. Αυτά τα ποσοτικοποιημένα οφέλη το καθιστούν την προτιμώμενη επιλογή για επιχειρησιακό επίπεδο σάρωσης γραμμικών κωδίκων.
 
 ## Προαπαιτούμενα
 
@@ -78,9 +86,9 @@ weight: 20
 - **Java Development Kit (JDK)** – έκδοση 8 ή νεότερη. Κατεβάστε το από την επίσημη [Oracle JDK page](https://www.oracle.com/java/technologies/javase-downloads.html).  
 - **Aspose.BarCode for Java** – κατεβάστε το τελευταίο JAR από τη [Aspose release page](https://releases.aspose.com/barcode/java/).  
 
-Τώρα που το περιβάλλον σας είναι έτοιμο, ας ξεκινήσουμε τον κώδικα.
+Τώρα που το περιβάλλον σας είναι έτοιμο, ας αρχίσουμε τον κώδικα.
 
-## Εισαγωγή Namespaces
+## Εισαγωγή ονοματοχώρων
 
 Προσθέστε τις απαιτούμενες δηλώσεις `import` ώστε ο μεταγλωττιστής να εντοπίζει τις κλάσεις του Aspose.
 
@@ -92,9 +100,9 @@ import com.aspose.barcode.barcoderecognition.BarCodeResult;
 import com.aspose.barcode.barcoderecognition.DecodeType;
 ```
 
-## Βήμα 1: Αρχικοποίηση του αντικειμένου BarCodeReader
+## Βήμα 1: αρχικοποίηση του αντικειμένου barCodeReader
 
-Η κλάση `BarCodeReader` είναι το βασικό στοιχείο του Aspose.BarCode για σάρωση εικόνων και εξαγωγή πληροφοριών barcode. Δημιουργήστε ένα στιγμιότυπο `BarCodeReader` που δείχνει στο αρχείο εικόνας σας. Η παράμετρος `DecodeType` λέει στη μηχανή ποιους συμβολισμούς να αναζητήσει· η χρήση του `CODE_128` ως παράδειγμα λειτουργεί για πολλούς κοινούς 1D κώδικες.
+Η κλάση `BarCodeReader` είναι το κεντρικό στοιχείο του Aspose.BarCode που σαρώει μια εικόνα και εξάγει δεδομένα γραμμικού κώδικα. Δημιουργήστε μια παρουσία `BarCodeReader` που δείχνει στο αρχείο εικόνας σας. Η παράμετρος `DecodeType` καθορίζει ποιες συμβολικές να αναζητήσει η μηχανή· η χρήση του `CODE_128` ως παράδειγμα λειτουργεί για πολλούς κοινούς 1D κώδικες.
 
 ```java
 BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CODE_128);
@@ -102,9 +110,9 @@ BarCodeReader reader = new BarCodeReader("path/to/your/image.png", DecodeType.CO
 
 > **Συμβουλή:** Αν θέλετε να σαρώσετε *όλους* τους υποστηριζόμενους τύπους 1D, περάστε `DecodeType.ALL_1D` αντί για μια μόνο συμβολική.
 
-## Βήμα 2: Ανάγνωση όλων των δυνατών barcode
+## Βήμα 2: ανάγνωση όλων των πιθανών κωδίκων
 
-Το αντικείμενο `BarCodeResult` αντιπροσωπεύει ένα ενιαίο ανιχνευμένο barcode και παρέχει ιδιότητες όπως το αποκωδικοποιημένο κείμενο, το όνομα συμβολισμού, τη γωνία περιστροφής και τις συντεταγμένες των γωνιών της περιοχής του barcode. Επανάληψη στη συλλογή που επιστρέφει η `readBarCodes()`. Για κάθε αποτέλεσμα εκτυπώνουμε το αποκωδικοποιημένο κείμενο, το όνομα συμβολισμού, τη γωνία ανίχνευσης και τις τέσσερις γωνίες της περιοχής του barcode.
+Το αντικείμενο `BarCodeResult` αντιπροσωπεύει έναν εντοπισμένο γραμμικό κώδικα και παρέχει ιδιότητες όπως το αποκωδικοποιημένο κείμενο, το όνομα συμβολικής, τη γωνία περιστροφής και τις συντεταγμένες γωνιών της περιοχής του κώδικα. Η `readBarCodes()` σαρώει την εικόνα και επιστρέφει έναν πίνακα αντικειμένων `BarCodeResult`. Επανάληψη μέσω της συλλογής που επιστρέφει η `readBarCodes()`.
 
 ```java
 int iCount = 0;
@@ -125,50 +133,52 @@ for (BarCodeResult result : reader.readBarCodes()) {
 }
 ```
 
-Ο βρόχος επεξεργάζεται αυτόματα κάθε barcode που βρέθηκε, οπότε δεν χρειάζεται να καλέσετε επανειλημμένα τον αναγνώστη. Μετά το τέλος του βρόχου, το `iCount` περιέχει το συνολικό αριθμό των ανιχνευμένων barcode.
+Ο βρόχος επεξεργάζεται αυτόματα κάθε κώδικα που βρέθηκε, οπότε δεν χρειάζεται να καλέσετε ξανά τον αναγνώστη. Μετά το τέλος του βρόχου, το `iCount` περιέχει το συνολικό αριθμό των εντοπισμένων κωδίκων.
 
-## Κοινά Προβλήματα & Πώς να τα Διορθώσετε
+## Συχνά προβλήματα & πώς να τα διορθώσετε
 
-| Συμπτωμα | Πιθανή Αιτία | Λύση |
+| Συμπτωμα | Πιθανή αιτία | Λύση |
 |----------|--------------|------|
-| Δεν επιστράφηκαν barcode | Η εικόνα είναι πολύ θολή ή χαμηλής αντίθεσης | Προεπεξεργαστείτε την εικόνα (αυξήστε την αντίθεση, δυαδικοποιήστε) πριν τη δώσετε στον αναγνώστη. |
-| Αναφέρθηκε λανθασμένος συμβολισμός | Χρησιμοποιήθηκε λανθασμένο `DecodeType` | Χρησιμοποιήστε `DecodeType.ALL_1D` για να αφήσετε τη μηχανή να ανιχνεύσει αυτόματα οποιονδήποτε 1D τύπο. |
+| Δεν επιστράφηκαν κώδικες | Η εικόνα είναι πολύ θολή ή χαμηλής αντίθεσης | Προεπεξεργαστείτε την εικόνα (αυξήστε την αντίθεση, δυαδικοποιήστε) πριν τη δώσετε στον αναγνώστη. |
+| Αναφέρθηκε λανθασμένη συμβολική | Χρησιμοποιήθηκε λανθασμένο `DecodeType` | Χρησιμοποιήστε `DecodeType.ALL_1D` για να αφήσετε τη μηχανή να εντοπίσει αυτόματα οποιονδήποτε τύπο 1D. |
 | Οι τιμές γωνίας είναι λανθασμένες | Η εικόνα είναι περιστραμμένη | Το API επιστρέφει ήδη τη γωνία περιστροφής· μπορείτε να περιστρέψετε την εικόνα πίσω αν χρειάζεται. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Ε: Είναι το Aspose.BarCode for Java κατάλληλο για εμπορικά έργα;**  
-Α: Ναι. Μια εμπορική άδεια αφαιρεί όλους τους περιορισμούς αξιολόγησης και σας παρέχει πλήρη δικαιώματα διανομής.
+**Q: Είναι το Aspose.BarCode for Java κατάλληλο για εμπορικά έργα;**  
+A: Ναι. Μια εμπορική άδεια αφαιρεί όλους τους περιορισμούς αξιολόγησης και σας παρέχει πλήρη δικαιώματα διανομής.
 
-**Ε: Μπορώ να δοκιμάσω τη βιβλιοθήκη χωρίς να αγοράσω άδεια;**  
-Α: Απόλυτα. Αποκτήστε μια προσωρινή άδεια από τη [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) για ανάπτυξη και δοκιμές.
+**Q: Μπορώ να δοκιμάσω τη βιβλιοθήκη χωρίς να αγοράσω άδεια;**  
+A: Απόλυτα. Αποκτήστε μια προσωρινή άδεια από τη [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/) για ανάπτυξη και δοκιμές.
 
-**Ε: Πού μπορώ να βρω την πλήρη αναφορά API;**  
-Α: Η ολοκληρωμένη τεκμηρίωση είναι διαθέσιμη [εδώ](https://reference.aspose.com/barcode/java/).
+**Q: Πού μπορώ να βρω την πλήρη αναφορά API;**  
+A: Η ολοκληρωμένη τεκμηρίωση είναι διαθέσιμη στο [Aspose.BarCode Java API reference](https://reference.aspose.com/barcode/java/).
 
-**Ε: Πώς μπορώ να λάβω βοήθεια αν αντιμετωπίσω πρόβλημα;**  
-Α: Δημοσιεύστε την ερώτησή σας στο [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) όπου η κοινότητα και οι μηχανικοί της Aspose μπορούν να σας βοηθήσουν.
+**Q: Πώς μπορώ να λάβω βοήθεια αν αντιμετωπίσω πρόβλημα;**  
+A: Δημοσιεύστε την ερώτησή σας στο [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) όπου η κοινότητα και οι μηχανικοί της Aspose μπορούν να σας βοηθήσουν.
 
-**Ε: Υπάρχει δωρεάν έκδοση δοκιμής για λήψη;**  
-Α: Ναι – μπορείτε να κατεβάσετε μια δοκιμαστική έκδοση από τη [Aspose releases page](https://releases.aspose.com/).
+**Q: Υπάρχει δωρεάν δοκιμαστική λήψη;**  
+A: Ναι – μπορείτε να κατεβάσετε μια δοκιμαστική έκδοση από τη [Aspose releases page](https://releases.aspose.com/).
 
 ## Συμπέρασμα
 
-Τώρα έχετε μάθει πώς να **διαβάζετε 1D barcode σε Java** χρησιμοποιώντας το Aspose.BarCode, μια ισχυρή **βιβλιοθήκη barcode για Java** που κάνει την αποκωδικοποίηση barcode από αρχεία εικόνας απλή και αξιόπιστη. Ενσωματώστε αυτό το απόσπασμα στις δικές σας εφαρμογές για αυτοματοποίηση σάρωσης αποθεμάτων, επικύρωση εισιτηρίων ή οποιοδήποτε σενάριο όπου εμφανίζονται γραμμικά barcode σε εικόνες.
+Μάθατε τώρα **πώς να αποκωδικοποιήσετε γραμμικούς κώδικες** σε Java χρησιμοποιώντας το Aspose.BarCode, μια ισχυρή βιβλιοθήκη που κάνει την αποκωδικοποίηση γραμμικών κωδίκων από αρχεία εικόνας απλή και αξιόπιστη. Ενσωματώστε αυτό το απόσπασμα στις δικές σας εφαρμογές για αυτοματοποίηση σάρωσης αποθεμάτων, επικύρωση εισιτηρίων ή οποιοδήποτε σενάριο όπου εμφανίζονται γραμμικοί κώδικες σε εικόνες.
 
 ---
 
-**Last Updated:** 2026-07-18  
-**Tested With:** Aspose.BarCode 24.11 for Java  
-**Author:** Aspose
+**Τελευταία ενημέρωση:** 2026-10-30  
+**Δοκιμή με:** Aspose.BarCode 24.11 for Java  
+**Συγγραφέας:** Aspose
 
-## Σχετικά Μαθήματα
+## Σχετικά μαθήματα
 
-- [Ανάγνωση Barcode Java: Αναγνώστης Barcode Υψηλής Απόδοσης για Ταχύτερη Επεξεργασία Εικόνας](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [Ανάγνωση Barcode Java: Υψηλής Απόδοσης Αναγνώστης Barcode για Ταχύτερη Επεξεργασία Εικόνας](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
 - [Ανάγνωση Barcode από Εικόνα – Κατάκτηση Εξαγωγής Περιοχής Barcode σε Java με Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/extracting-barcode-region-information/)
 - [Aspose.Barcode Java – Λήψη Ποιότητας Αναγνώρισης Barcode σε Ποσοστό](/barcode/java/advanced-settings-and-optimization/getting-barcode-recognition-quality-percent/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
