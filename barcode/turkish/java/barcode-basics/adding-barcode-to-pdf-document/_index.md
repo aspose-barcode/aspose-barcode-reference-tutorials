@@ -1,31 +1,35 @@
 ---
-date: 2026-07-23
-description: Aspose.BarCode kullanarak Java ile barkod oluşturmayı ve PDF belgelerine
-  eklemeyi öğrenin. Barkod oluşturma ve PDF'lere yerleştirme adım adım rehberi.
+date: 2026-11-04
+description: Aspose.BarCode kullanarak barcode java oluşturmayı ve PDF dosyalarına
+  yerleştirmeyi öğrenin. Barcode oluşturma ve PDF'lere ekleme için adım adım rehber.
+images:
+- /java/barcode-basics/adding-barcode-to-pdf-document/og-image.png
 keywords:
 - generate barcode java
-- java barcode library
-- generate barcode pdf
-lastmod: 2026-07-23
-linktitle: PDF Belgesine Barkod Ekleme
-og_description: Aspose.BarCode ile Java barkod oluşturun ve PDF dosyalarına yerleştirin.
-  Dakikalar içinde yeni ya da mevcut PDF'lere barkod eklemek için bu adım adım rehberi
-  izleyin.
+- generate qr code java
+- add barcode to pdf
+- insert barcode into pdf
+- embed barcode in pdf
+lastmod: 2026-11-04
+linktitle: PDF Belgesine Barcode Ekleme
+og_description: Aspose.BarCode ile barcode java oluşturun ve PDF dosyalarına yerleştirin.
+  Dakikalar içinde yeni veya mevcut PDF'lere barcode oluşturmak, özelleştirmek ve
+  eklemek için bu kısa rehberi izleyin.
 og_image_alt: 'Guide: generate barcode java and add to PDF using Aspose.BarCode'
-og_title: Java ile barkod oluşturma – Aspose ile PDF'ye barkod ekleme
+og_title: Java ile barcode oluşturma – Aspose ile PDF'ye barcode ekleme
 schemas:
 - author: Aspose
-  dateModified: '2026-07-23'
+  dateModified: '2026-11-04'
   description: Learn how to generate barcode java and add it to PDF documents using
     Aspose.BarCode. Step‑by‑step guide for creating barcodes and inserting them into
     PDFs.
-  headline: generate barcode java – Add barcode to PDF with Aspose
+  headline: Generate barcode java – add barcode to PDF with Aspose
   type: TechArticle
 - questions:
   - answer: Yes. Aspose.BarCode lets you change colors, fonts, margins, and even add
       human‑readable text. Adjust the `BarcodeGenerator` properties before saving.
     question: Can I customize the appearance of the barcode in the PDF document?
-  - answer: Absolutely. Over 50 symbologies are supported, including Code 128, QR,
+  - answer: Absolutely. Over 50 symbologies are supported, including Code 128, QR,
       DataMatrix, PDF417, and more.
     question: Is Aspose.BarCode compatible with different barcode symbologies?
   - answer: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/)
@@ -43,7 +47,9 @@ tags:
 - barcode java
 - Aspose.BarCode
 - PDF Java
-title: Java ile barkod oluşturma – Aspose ile PDF'ye barkod ekleme
+- java barcode library
+- pdf barcode integration java
+title: Java ile barcode oluşturma – Aspose ile PDF'ye barcode ekleme
 url: /tr/java/barcode-basics/adding-barcode-to-pdf-document/
 weight: 10
 ---
@@ -52,45 +58,39 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da barkod oluşturma – Aspose kullanarak PDF'ye barkod ekleme
+# Java ile barkod oluşturma – Aspose kullanarak PDF'ye barkod ekleme
 
 ## Giriş
 
-Java'da **generate barcode java** ve sonucu doğrudan bir PDF'ye gömmeniz gerekiyorsa, Aspose.BarCode for Java tüm süreci sorunsuz hâle getirir. Bu öğreticide bir barkod görüntüsü oluşturmayı, bir PDF'yi açmayı veya oluşturmayı ve barkodu eklemeyi—sadece birkaç Java kod satırıyla—adım adım göstereceğiz. Nakliye etiketleri, envanter etiketleri veya güvenli faturalar oluşturuyor olsanız da, bu yaklaşımın PDF'lere barkod eklemenin en esnek ve güvenilir yolu olduğunu göreceksiniz.
+If you need to **generate barcode java** and embed the result directly into a PDF, Aspose.BarCode for Java makes the whole process painless. In this tutorial we’ll walk through creating a barcode image, opening or creating a PDF, and inserting the barcode—all with just a few lines of Java code. Whether you’re building shipping labels, inventory tags, or secure invoices, you’ll see why this approach is the most flexible and reliable way to add barcodes to PDFs.
 
 ## Hızlı Yanıtlar
-- **What library do I need?** Aspose.BarCode for Java (plus Aspose.PDF for PDF handling).  
-- **Can I generate any barcode type?** Yes – Aspose.BarCode supports over 50 symbologies, including Code 39, QR, DataMatrix, and more.  
-- **Do I need a license for development?** A temporary license works for evaluation; a full license is required for production.  
-- **Is the code compatible with Java 8+?** Absolutely – the API targets Java 8 and later.  
-- **How long does the implementation take?** Roughly 10‑15 minutes for a basic “add barcode to PDF” scenario.
+- **Hangi kütüphane gerekiyor?** Aspose.BarCode for Java (plus Aspose.PDF for PDF handling).  
+- **Herhangi bir barkod türü oluşturabilir miyim?** Yes – Aspose.BarCode supports over 50 symbologies, including Code 39, QR, DataMatrix, and more.  
+- **Geliştirme için lisansa ihtiyacım var mı?** A temporary license works for evaluation; a full license is required for production.  
+- **Kod Java 8+ ile uyumlu mu?** Absolutely – the API targets Java 8 and later.  
+- **Uygulama ne kadar sürer?** Roughly 10‑15 minutes for a basic “add barcode to PDF” scenario.
 
 ## Java barkod kütüphanesi nedir?
 
-Aspose.BarCode for Java, geliştiricilerin hem 1‑D hem de 2‑D barkodları programlı olarak oluşturmasını sağlayan kapsamlı bir **java barcode library**'dir. Semboloji, boyut, renk ve insan‑okunabilir metin özelleştirmeleri için zengin bir API seti sunar ve barkod görüntülerinin manuel grafik işleme gerek kalmadan doğrudan PDF sayfalarına yerleştirilebilmesi için Aspose.PDF ile sıkı bir entegrasyon sağlar. Bu, etiket oluşturma, fatura damgalama ve envanter takibi iş akışlarını otomatikleştirmek için idealdir.
+Aspose.BarCode for Java is a comprehensive **java barcode library** that enables developers to generate both 1‑D and 2‑D barcodes programmatically. It provides a rich set of APIs for customizing symbology, size, colors, and human‑readable text, and it integrates tightly with Aspose.PDF so that barcode images can be placed directly onto PDF pages without manual graphics handling. This makes it ideal for automating label creation, invoice stamping, and inventory tracking workflows.
 
-## Neden Java'da barkod oluşturup bir PDF'ye ekleyelim?
+## Neden Java'da barkod oluşturup PDF'ye ekleyelim?
 
-Java'da barkod oluşturmak ve bunları doğrudan PDF dosyalarına gömmek, kodun görsel görünümü ve konumu üzerinde tam kontrol sağlar ve tüm süreci JVM içinde tutar. Bu, harici araçlara olan ihtiyacı ortadan kaldırır, gecikmeyi azaltır ve barkod verilerinin çevredeki belge içeriğiyle senkronize kalmasını sağlar. Yaklaşım, binlerce belgeyi toplu işleme için de iyi ölçeklenir ve Windows, Linux ve macOS ortamlarında tutarlı çalışır.
-
-- **Full control** over symbology, size, colors, and human‑readable text.  
-- **Zero external dependencies** – the entire workflow runs inside the JVM.  
-- **Supports existing PDFs** so you can enrich legacy documents.  
-- **Cross‑platform** – works on Windows, Linux, and macOS.  
-- **Performance** – Aspose.BarCode processes over 1,000 barcodes per second on a typical server, and Aspose.PDF can handle 500‑page PDFs without loading the whole file into memory.
+You can generate barcodes in Java and embed them directly into PDF files, giving you full control over visual appearance and placement while keeping the entire workflow inside the JVM. This eliminates external tools, reduces latency, and guarantees that barcode data stays synchronized with surrounding document content. The approach also scales efficiently for batch processing of thousands of documents and runs consistently on Windows, Linux, and macOS.
 
 ## Önkoşullar
 
+Before we start, ensure you have:
+
 - **Java Development Kit (JDK)** – latest stable version installed.  
-- **Aspose.BarCode for Java** – download from the [indirme sayfası](https://releases.aspose.com/barcode/java/).  
+- **Aspose.BarCode for Java** – download from the [download page](https://releases.aspose.com/barcode/java/).  
 - **Aspose.PDF for Java** – bundled with the BarCode package and required for PDF manipulation.  
 
-## Ad Alanlarını İçe Aktarma
+## İsim alanlarını içe aktar
 
-Aşağıdaki içe aktarmalar, barkod oluşturma ve PDF işleme sınıflarına erişim sağlar.
-
-`BarcodeGenerator` sınıfı, barkod görüntüleri oluşturmak için Aspose.BarCode'ın temel nesnesidir.  
-`PdfFileMend` sınıfı ise Aspose.PDF'ye aittir ve PDF dosyalarını açma, düzenleme ve kaydetme imkanı verir.
+`BarcodeGenerator` is Aspose.BarCode's core class for creating barcode images.  
+`PdfFileMend` belongs to Aspose.PDF and enables opening, editing, and saving PDF files.
 
 ```java
 // Import Aspose.BarCode namespaces
@@ -107,35 +107,36 @@ import java.io.OutputStream;
 import com.aspose.barcode.EncodeTypes;
 ```
 
-## Adım 1: Java Projenizi Kurun
+## Adım 1: Java projenizi kurun
 
-Tercih ettiğiniz IDE'de (IntelliJ IDEA, Eclipse, NetBeans vb.) yeni bir Java projesi oluşturun. İndirilen **Aspose.BarCode.jar** dosyasını ve bağımlılıklarını projenin derleme yoluna ekleyin. Bu, derleyicinin yukarıda referans verilen sınıfları bulmasını sağlar.
+Create a new Java project in your preferred IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.). Add the downloaded **Aspose.BarCode.jar** and its dependencies to the project’s build path. This ensures the compiler can locate the classes referenced above.
 
-## Adım 2: Barkod Görüntüsü Oluştur – *barkod ekleme*
+## Adım 2: barkod resmi oluşturma – *barkod ekleme nasıl yapılır*
 
-`BarcodeGenerator`'ı örnekleyin, bir semboloji seçin ve kod metnini ayarlayın. İşte **set barcode symbology** ve **generate barcode Java** nesnelerini oluşturduğunuz yer.
+Instantiate a `BarcodeGenerator`, choose a symbology, and set the code text. This is where you **set barcode symbology** and **generate barcode Java** objects.
 
 ```java
 BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, "1234567");
 generator.save(dataDir + "barcodeToPDF.bmp", BarCodeImageFormat.BMP);
 ```
 
-> **Pro tip:** `EncodeTypes.CODE_39_STANDARD` ifadesini başka bir `EncodeTypes` değeriyle (ör. `QR`, `DATA_MATRIX`) değiştirerek farklı barkod formatları oluşturabilirsiniz.
+> **Pro tip:** Replace `EncodeTypes.CODE_39_STANDARD` with any other `EncodeTypes` value (e.g., `QR`, `DATA_MATRIX`) to generate different barcode formats.
 
-## Adım 3: PDF Belgesi Oluştur – *pdf java'ya resim ekleme*
+## Adım 3: PDF belgesi oluşturma – *PDF Java'ya resim ekleme*
 
-Şimdi barkod görüntüsünü barındıracak **bir PDF belgesi oluşturacağız**. Aspose.PDF bunu basit hale getirir.
+Now we’ll **create a PDF document** that will host the barcode image. Aspose.PDF makes this straightforward.  
+`Document` is the Aspose.PDF class that represents a PDF file and provides methods for adding content and saving the document.
 
 ```java
 Document doc = new Document();
 doc.getPages().add();
 ```
 
-Bu noktada içeriği alacak boş bir PDF'niz var.
+At this point you have an empty PDF ready to receive content.
 
-## Adım 4: Barkod Görüntüsünü PDF Belgesine Ekle – *var olan pdf'ye barkod ekleme*
+## Adım 4: barkod resmini PDF belgesine ekleme – *mevcut PDF'ye barkod ekleme*
 
-Barkodu **var olan bir PDF**'ye gömmek istiyorsanız, dosyayı `PdfFileMend` ile açabilirsiniz. Aşağıdaki kod PDF'yi bağlar, barkod görüntüsünü ekler ve sonucu kaydeder.
+If you need to embed the barcode into an **existing PDF**, you can open the file with `PdfFileMend`. The following code binds the PDF, inserts the barcode image, and saves the result.
 
 ```java
 PdfFileMend mender = new PdfFileMend();
@@ -145,57 +146,59 @@ mender.save(dataDir + "AddImage_out.pdf");
 mender.close();
 ```
 
-- `in`, daha önce oluşturduğunuz barkod görüntüsüne işaret eden bir `InputStream`'dir.  
-- Sayısal parametreler (`1, 100, 600, 200, 700`) sayfa numarasını ve konumlandırmayı (X, Y koordinatları, genişlik, yükseklik) tanımlar. Düzeninize uyacak şekilde ayarlayın.
+- `in` is an `InputStream` that points to the barcode image you generated earlier.  
+- The numeric parameters (`1, 100, 600, 200, 700`) define the page number and positioning (X, Y coordinates, width, height). Adjust them to fit your layout.
 
-## Java'da barkod nasıl oluşturulur ve PDF'ye nasıl gömülür?
+## Java'da barkod nasıl oluşturulur ve PDF'ye gömülür?
 
-Barkodu `new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, "123456")` ile yükleyin, `save("barcode.png", BarCodeImageFormat.Png)` çağrısını yapın, bir PDF'yi `new Document()` ile açın veya oluşturun ve ardından görüntüyü yerleştirmek için `PdfFileMend.addImage(in, 1, 100, 600, 200, 700)` kullanın. Son olarak `pdf.save("output.pdf")` çağırın. Bu uçtan uca akış, barkodu oluşturur, ekler ve tipik etiket boyutları için bir saniyeden kısa sürede son PDF'yi yazar.
+Load the barcode with `new BarcodeGenerator(EncodeTypes.CODE_39_STANDARD, "123456")`, call `save("barcode.png", BarCodeImageFormat.Png)`, open or create a PDF with `new Document()`, and then use `PdfFileMend.addImage(in, 1, 100, 600, 200, 700)` to place the image. Finally, call `pdf.save("output.pdf")`. This end‑to‑end flow creates the barcode, inserts it, and writes the final PDF in under a second for typical label sizes.
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 
-| Sorun | Neden Oluşur | Çözüm |
+| Sorun | Neden oluşur | Çözüm |
 |-------|----------------|-----|
-| **Görsel görünmüyor** | Yanlış koordinatlar veya sayfa indeksi. | Sayfa numarasını (`1` ilk sayfa için) doğrulayın ve `addImage`'den önce görüntü akışının kapatılmadığından emin olun. |
-| **Desteklenmeyen barkod türü** | Lisans içinde bulunmayan bir semboloji kullanmak. | Lisans dosyanızı kontrol edin; gerekirse yükseltin. |
-| **FileNotFoundException** | `dataDir` yolu yanlış. | Mutlak bir yol kullanın veya dizini dinamik olarak oluşturmak için `System.getProperty("user.dir")` kullanın. |
+| **Image not showing** | Wrong coordinates or page index. | Verify the page number (`1` for first page) and ensure the image stream is not closed before `addImage`. |
+| **Unsupported barcode type** | Using a symbology not included in the license. | Check your license file; upgrade if necessary. |
+| **FileNotFoundException** | `dataDir` path is incorrect. | Use an absolute path or `System.getProperty("user.dir")` to build the directory dynamically. |
 
 ## Sıkça Sorulan Sorular
 
-**Q: PDF belgesindeki barkodun görünümünü özelleştirebilir miyim?**  
-A: Evet. Aspose.BarCode, renkleri, yazı tiplerini, kenar boşluklarını değiştirebilir ve hatta insan‑okunabilir metin ekleyebilir. Kaydetmeden önce `BarcodeGenerator` özelliklerini ayarlayın.
+**Q: Can I customize the appearance of the barcode in the PDF document?**  
+A: Yes. Aspose.BarCode lets you change colors, fonts, margins, and even add human‑readable text. Adjust the `BarcodeGenerator` properties before saving.
 
-**Q: Aspose.BarCode farklı barkod sembolojileriyle uyumlu mu?**  
-A: Kesinlikle. Code 128, QR, DataMatrix, PDF417 ve daha fazlası dahil olmak üzere 50'den fazla semboloji desteklenir.
+**Q: Is Aspose.BarCode compatible with different barcode symbologies?**  
+A: Absolutely. Over 50 symbologies are supported, including Code 128, QR, DataMatrix, PDF417, and more.
 
-**Q: Aspose.BarCode için geçici bir lisans nasıl alabilirim?**  
-A: Aspose web sitesindeki [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) ziyaret ederek 30‑günlük bir değerlendirme lisansı talep edebilirsiniz.
+**Q: How can I obtain a temporary license for Aspose.BarCode?**  
+A: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) on the Aspose website to request a 30‑day evaluation license.
 
-**Q: Aspose.BarCode ile ilgili sorular için yardım ve destek nereden alabilirim?**  
-A: [Aspose.BarCode forumu](https://forum.aspose.com/c/barcode/13) aktif bir topluluktur; burada sorular sorabilir ve çözümler paylaşabilirsiniz.
+**Q: Where can I seek help and support for Aspose.BarCode-related queries?**  
+A: The [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) is an active community where you can ask questions and share solutions.
 
-**Q: Satın almadan önce Aspose.BarCode for Java'ı ücretsiz deneyebilir miyim?**  
-A: Evet, [sürüm sayfası](https://releases.aspose.com/) üzerinden ücretsiz deneme sürümünü indirebilir ve lisans olmadan tüm özellikleri keşfedebilirsiniz.
+**Q: Can I try Aspose.BarCode for Java for free before making a purchase?**  
+A: Yes, you can download a free trial version from the [release page](https://releases.aspose.com/) and explore all features without a license.
 
 ## Sonuç
 
-Artık **how to generate barcode java** ve Aspose.BarCode kullanarak PDF belgelerine nasıl gömüleceğini biliyorsunuz. Bu yetenek, nakliye etiketleri oluşturma, güvenli faturalar hazırlama veya envanter takibi sistemleri kurma gibi iş akışlarını basitleştirir. Farklı sembolojilerle deney yapın, görüntü yerleşimini ayarlayın ve kodu daha büyük Java hizmetlerine entegre ederek barkod teknolojisinden tam olarak yararlanın.
+You now know **how to generate barcode Java** and embed it into PDF documents using Aspose.BarCode. This capability streamlines workflows such as generating shipping labels, creating secure invoices, or building inventory tracking systems. Experiment with different symbologies, adjust image placement, and integrate the code into larger Java services to fully leverage barcode technology.
 
 ---
 
-**Son Güncelleme:** 2026-07-23  
-**Test Edilen:** Aspose.BarCode 24.11 for Java, Aspose.PDF 24.11 for Java  
-**Yazar:** Aspose  
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.BarCode 24.11 for Java, Aspose.PDF 24.11 for Java  
+**Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
-## İlgili Öğreticiler
+
+## İlgili öğreticiler
 
 - [PDF'ye Barkod Ekle – Barkod Temelleri](/barcode/java/barcode-basics/)
-- [Aspose.BarCode ile Java'da Barkod Görüntüsü Nasıl Oluşturulur](/barcode/java/barcode-rendering-techniques/)
+- [Java'da Aspose.BarCode ile Barkod Resmi Nasıl Oluşturulur](/barcode/java/barcode-rendering-techniques/)
 - [Java'da Barkod Oluşturma: Aspose.BarCode ile Akışlara Kaydetme](/barcode/java/advanced-settings-and-optimization/saving-barcode-image-streams/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
