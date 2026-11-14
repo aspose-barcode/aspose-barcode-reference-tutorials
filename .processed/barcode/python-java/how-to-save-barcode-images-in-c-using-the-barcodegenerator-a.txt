@@ -1,0 +1,7 @@
+Title: How to save barcode images in C# using the BarcodeGenerator API
+Slug: how-to-save-barcode-images-in-c-using-the-barcodegenerator-a
+Category: general
+ProcessedDate: 2026-11-14T17:29:09.556126
+SourceRepo: AI Search API
+Keywords: how to save barcode, generate barcode c#, barcode generator example, how to adjust aspect ratio, create databar barcode
+PRNumber: 173
