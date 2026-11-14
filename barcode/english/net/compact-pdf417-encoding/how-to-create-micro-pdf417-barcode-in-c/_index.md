@@ -45,7 +45,7 @@ tags:
 - C#
 - Aspose
 - image generation
-title: How to create micro PDF417 barcode in C#
+title: How to create a micro PDF417 barcode in C# using Aspose.BarCode
 url: /net/compact-pdf417-encoding/how-to-create-micro-pdf417-barcode-in-c/
 ---
 
@@ -160,8 +160,6 @@ A file named **MicroPdf417.png** appears in the project folder. Open it with any
 
 ## Step 5: Verify the barcode  
 
-To ensure the barcode scans correctly:
-
 1. Open the PNG in an image viewer.  
 2. Use any smartphone barcode‑scanning app that supports PDF417 (most “QR‑code scanner” apps include it).  
 3. Scan the image; the app should display the original text `"Åspóse.Barcóde©"`.
@@ -180,14 +178,14 @@ You now know how to **create micro pdf417 barcode** in C# using Aspose.BarCode. 
 From here you can explore additional features such as color customization, embedding the barcode in PDFs, or generating barcodes on the fly in ASP.NET Core web APIs. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create barcode PNG in C# – full guide to GS1 Micro PDF417](/barcode/english/net/gs1-barcode-encoding/create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
-- [How to create macro PDF417 barcode in C# using Aspose.BarCode](/barcode/english/net/compact-pdf417-encoding/how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
-- [Create PDF417 barcode in C# using Aspose.BarCode – step‑by‑step guide](/barcode/english/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
+- {{< relref "barcode/english/net/gs1-barcode-encoding/create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/" >}}Create barcode PNG in C# – full guide to GS1 Micro PDF417
+- {{< relref "barcode/english/net/compact-pdf417-encoding/how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/" >}}How to create macro PDF417 barcode in C# using Aspose.BarCode
+- {{< relref "barcode/english/net/compact-pdf417-encoding/create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/" >}}Create PDF417 barcode in C# using Aspose.BarCode – step‑by‑step guide
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

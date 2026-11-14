@@ -40,7 +40,7 @@ tags:
 - barcode
 - pdf417
 - C#
-title: How to create PDF417 barcode with custom layout in C#
+title: Create a PDF417 barcode with custom layout in C# using Aspose.BarCode
 url: /net/compact-pdf417-encoding/how-to-create-pdf417-barcode-with-custom-layout-in-c/
 ---
 
@@ -243,14 +243,14 @@ You now know how to **create pdf417 barcode** from start to finish, how to **gen
 Happy coding, and may your barcodes always scan on the first try!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to generate PDF417 barcode in C# – step‑by‑step guide](/barcode/english/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
-- [How to generate barcode and customize PDF417 barcode in C#](/barcode/english/net/compact-pdf417-encoding/how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
-- [How to create PDF417 barcode and export PNG in C#](/barcode/english/net/compact-pdf417-encoding/how-to-create-pdf417-barcode-and-export-png-in-c/)
+- [How to generate PDF417 barcode in C# – step‑by‑step guide]({{< relref "../how-to-generate-pdf417-barcode-in-c-step-by-step-guide/_index.md" >}})
+- [How to generate barcode and customize PDF417 barcode in C#]({{< relref "../how-to-generate-barcode-and-customize-pdf417-barcode-in-c/_index.md" >}})
+- [How to create PDF417 barcode and export PNG in C#]({{< relref "../how-to-create-pdf417-barcode-and-export-png-in-c/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
