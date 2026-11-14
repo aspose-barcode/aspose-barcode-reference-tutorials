@@ -156,6 +156,8 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [How to create micro pdf417 barcode in C# and save it as PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
 
+### [如何在 C# 中建立微型 PDF417 條碼](./how-to-create-micro-pdf417-barcode-in-c/)
+
 ### [How to create pdf417 barcode in C# – step‑by‑step guide](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
 
 ### [How to create barcode PNG in C# – step‑by‑step guide](./how-to-create-barcode-png-in-c-step-by-step-guide/)
@@ -237,6 +239,8 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [在 C# 中產生自訂欄列的 PDF417 條碼](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
 
 ### [在 C# 中產生 PDF417 條碼為 PNG – 步驟說明指南](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
+
+### [如何在 C# 中使用自訂版面建立 PDF417 條碼](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
 
 ## 常見問題與解答
 

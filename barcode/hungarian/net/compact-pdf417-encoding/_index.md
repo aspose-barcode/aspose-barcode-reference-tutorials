@@ -83,6 +83,9 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 - **Verziókezelés:** Tartsa az Aspose.BarCode könyvtár verzióját konzisztensen a fejlesztés, teszt és éles környezetekben.
 
 ## Compact PDF417 kódolási útmutatók
+### [How to create micro PDF417 barcode in C#](./how-to-create-micro-pdf417-barcode-in-c/)
+
+
 ### [Generate PDF417 barcode as PNG in C# – step‑by‑step guide](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
 
 ### [How to create micro pdf417 barcode and generate PNG in C#](./how-to-create-micro-pdf417-barcode-and-generate-png-in-c/)
@@ -92,6 +95,9 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 ### [How to generate PDF417 barcode with Aspose.BarCode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
 ### [Generate pdf417 barcode in C# with custom columns and rows](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
+
+### [Hogyan hozzunk létre PDF417 vonalkódot egyedi elrendezéssel C#‑ban](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
+Ismerje meg, hogyan hozhat létre PDF417 vonalkódot egyedi sor- és oszlopbeállításokkal C#‑ban.
 
 ### [How to generate PDF417 barcode in C# with macro support](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
 

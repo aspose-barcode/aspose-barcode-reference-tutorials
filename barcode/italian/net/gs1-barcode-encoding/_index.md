@@ -63,9 +63,10 @@ Scopri come creare codici a barre GS1 DataMatrix in .NET utilizzando Aspose.BarC
 Scopri come creare un codice a barre GS1 in C# con Aspose.BarCode per .NET, seguendo una guida dettagliata passo‑passo.
 ### [Crea immagini di codici a barre GS1 in C# – Come generare rapidamente codici a barre in C#](./create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
 Scopri come generare rapidamente immagini di codici a barre GS1 in C# con Aspose.BarCode per .NET.
-
 ### [Crea barcode PNG in C# – guida completa a GS1 Micro PDF417](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Impara a generare immagini PNG di codici a barre GS1 Micro PDF417 in C# con Aspose.BarCode per .NET. Segui la nostra guida passo passo.
+### [Come creare immagine di codice a barre in C# con GS1 MicroPDF417](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Scopri come generare rapidamente immagini di codici a barre GS1 MicroPDF417 in C# con Aspose.BarCode per .NET.
 ### [Crea codice a barre GS1 in C# e esportalo come PNG](./create-barcode-gs1-in-c-and-export-it-as-png/)
 Scopri come generare un codice a barre GS1 in C# e salvarlo come immagine PNG con Aspose.BarCode per .NET.
 ### [Come creare un codice a barre GS1 in ASP.NET con Aspose.BarCode](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)

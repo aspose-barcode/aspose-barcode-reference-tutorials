@@ -77,6 +77,9 @@ Aspose.BarCode for .NET を使用して、C# で GS1 バーコードを作成し
 ### [ASP.NET で Aspose.BarCode を使用して GS1 バーコードを作成する方法](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
 Aspose.BarCode for .NET を利用し、ASP.NET で GS1 バーコードを簡単に生成する手順を学びます。今すぐ始めましょう！
 
+### [C# で GS1 MicroPDF417 バーコード画像を作成する方法](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Aspose.BarCode for .NET を使用して、C# で GS1 MicroPDF417 バーコード画像を迅速に生成する手順を学びます。すぐに始めましょう！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

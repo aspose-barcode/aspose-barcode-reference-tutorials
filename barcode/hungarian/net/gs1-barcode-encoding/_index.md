@@ -72,6 +72,9 @@ Ismerje meg, hogyan hozhat létre GS1 vonalkódot C#-ban, és exportálja PNG fo
 ### [GS1 vonalkód létrehozása ASP.NET-ben az Aspose.BarCode segítségével](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
 Ismerje meg, hogyan generálhat GS1 vonalkódot ASP.NET alkalmazásban az Aspose.BarCode használatával.
 
+### [Hogyan hozzunk létre vonalkód képet C#-ban a GS1 MicroPDF417 használatával](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Ismerje meg, hogyan generálhat vonalkód képet C#-ban a GS1 MicroPDF417 formátummal az Aspose.BarCode segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

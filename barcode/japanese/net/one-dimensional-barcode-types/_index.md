@@ -72,7 +72,7 @@ Aspose.BarCode for .NET を使用して One-Dimensional Databar バーコード�
 Aspose.BarCode を使用して、.NET で Databar GS1 エンコードされたバーコードを作成する方法を学びます。バーコードを簡単に生成します。ステップバイステップのガイドに従ってください。
 ### [1 次元データバーの行と列の構成](./one-dimensional-databar-row-column-configuration/)
 Aspose.BarCode for .NET を使用して、.NET で行と列の構成を持つ動的 1 次元 DataBar バーコードを生成します。カスタマイズも簡単に！
-### [1 次元の塗りつぶしバーの構成](./one-dimensional-filled-bars-configuration/)
+### [1次元の塗りつぶしバーの構成](./one-dimensional-filled-bars-configuration/)
 Aspose.BarCode for .NET を使用して .NET でバーコードを生成する方法を学びます。この包括的なチュートリアルでは、名前空間のインポートから 1 次元バーコードの作成までのすべてをカバーしています。 
 ### [1次元バーコードの例外処理](./one-dimensional-barcode-exception-handling/)
 Aspose.BarCode for .NET を使用して 1 次元バーコードを生成する際に例外を処理する方法を学びます。このステップバイステップのガイドは、エラー耐性のあるバーコード ソリューションを保証します。今すぐ始めましょう！
@@ -100,6 +100,12 @@ Aspose.BarCode を使用して C# で特殊文字を含むバーコードを生�
 Aspose.BarCode を使用して C# でバーコード画像を読み取る完全な例ガイドです。
 ### [C# で Aspose.BarCode を使用して画像からバーコードを読み取る方法](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
 Aspose.BarCode を使用して C# で画像からバーコードを読み取る手順をステップバイステップで解説します。
+
+### [C# を使用して画像からバーコードを読み取る方法 – ステップバイステップ ガイド](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
+Aspose.BarCode を使用して C# で画像からバーコードを読み取る方法をステップバイステップで学びます。
+
+### [Aspose.BarCode for .NET を使用してバーコードを画像として保存する方法](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
+Aspose.BarCode を使用して .NET でバーコードを画像ファイルとして保存する手順を学びます。
 
 ##結論
 

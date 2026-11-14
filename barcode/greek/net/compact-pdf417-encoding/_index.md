@@ -91,6 +91,7 @@ weight: 29
 
 ### [How to create micro pdf417 barcode in C# and save it as PNG](./how-to-create-micro-pdf417-barcode-in-c-and-save-it-as-png/)
 ### [Πώς να δημιουργήσετε μικρό pdf417 barcode και να δημιουργήσετε PNG σε C#](./how-to-create-micro-pdf417-barcode-and-generate-png-in-c/)
+### [Πώς να δημιουργήσετε μικρό PDF417 barcode σε C#](./how-to-create-micro-pdf417-barcode-in-c/)
 
 ### [How to create barcode from text in C# with Aspose.BarCode](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
 
@@ -178,6 +179,8 @@ weight: 29
 ### [Πώς να διαβάσετε PDF417 barcode σε C# με Aspose – βήμα‑βήμα οδηγός](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
 
 ### [Δημιουργία PDF417 barcode as PNG σε C# – βήμα‑βήμα οδηγός](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
+
+### [Πώς να δημιουργήσετε κώδικα PDF417 με προσαρμοσμένη διάταξη σε C#](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

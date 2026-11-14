@@ -69,6 +69,8 @@ Lär dig att generera GS1 Micro PDF417 streckkoder som PNG-filer i C# med Aspose
 Lär dig hur du skapar GS1-streckkod i C# och exporterar den som PNG med Aspose.BarCode för .NET.
 ### [Hur man skapar GS1-streckkod i ASP.NET med Aspose.BarCode](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
 Lär dig hur du skapar GS1-streckkoder i ASP.NET med Aspose.BarCode för .NET. Följ vår enkla steg‑för‑steg‑guide.
+### [Hur man skapar streckkodsbild i C# med GS1 MicroPDF417](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Lär dig snabbt generera GS1 MicroPDF417 streckkodsbild som PNG i C# med Aspose.BarCode för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

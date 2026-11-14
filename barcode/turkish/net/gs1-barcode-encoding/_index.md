@@ -66,6 +66,8 @@ Aspose.BarCode for .NET kullanarak C# ile GS1 barkod görüntülerini hızlıca 
 
 ### [C#'ta barkod PNG oluşturma – GS1 Micro PDF417 tam rehberi](./create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
 Aspose.BarCode for .NET ile GS1 Micro PDF417 barkodlarını PNG olarak oluşturmayı öğrenin. Adım adım rehber.
+### [C#'ta GS1 MicroPDF417 ile barkod görüntüsü oluşturma](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Aspose.BarCode for .NET kullanarak C# ile GS1 MicroPDF417 barkod görüntüsü oluşturmayı öğrenin. Adım adım rehber.
 ### [C#'ta GS1 barkod oluşturma ve PNG olarak dışa aktarma](./create-barcode-gs1-in-c-and-export-it-as-png/)
 Aspose.BarCode for .NET kullanarak C# ile GS1 barkodlarını oluşturun ve PNG formatında kaydedin. Adım adım rehber.
 ### [ASP.NET'te Aspose.BarCode ile GS1 barkod oluşturma](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
