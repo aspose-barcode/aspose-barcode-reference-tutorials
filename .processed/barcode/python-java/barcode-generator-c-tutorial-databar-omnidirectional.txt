@@ -1,0 +1,7 @@
+Title: Barcode generator C# tutorial: DataBar Omnidirectional
+Slug: barcode-generator-c-tutorial-databar-omnidirectional
+Category: general
+ProcessedDate: 2026-11-14T17:29:07.562021
+SourceRepo: AI Search API
+Keywords: barcode generator c# tutorial
+PRNumber: 173
