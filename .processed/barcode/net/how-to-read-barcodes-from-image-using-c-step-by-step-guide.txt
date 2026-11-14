@@ -1,0 +1,7 @@
+Title: How to read barcodes from image using C# – step‑by‑step guide
+Slug: how-to-read-barcodes-from-image-using-c-step-by-step-guide
+Category: one-dimensional-barcode-types
+ProcessedDate: 2026-11-14T17:17:58.920310
+SourceRepo: AI Search API
+Keywords: read barcodes from image, barcode reader tutorial c#
+PRNumber: 172
