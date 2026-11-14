@@ -1,0 +1,7 @@
+Title: How to fill barcode in C# using Aspose.BarCode – step‑by‑step guide
+Slug: how-to-fill-barcode-in-c-using-aspose-barcode-step-by-step-g
+Category: general
+ProcessedDate: 2026-11-14T17:29:05.451432
+SourceRepo: AI Search API
+Keywords: how to fill barcode, barcode generator c#, generate postal barcode, create empty barcode, create planet barcode
+PRNumber: 173
