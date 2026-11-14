@@ -1,0 +1,7 @@
+Title: How to create barcode image in C# with GS1 MicroPDF417
+Slug: how-to-create-barcode-image-in-c-with-gs1-micropdf417
+Category: gs1-barcode-encoding
+ProcessedDate: 2026-11-14T17:17:55.142599
+SourceRepo: AI Search API
+Keywords: create barcode image, how to generate barcode, barcode generator c#, create gs1 barcode, barcode image from data
+PRNumber: 172
