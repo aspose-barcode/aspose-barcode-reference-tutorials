@@ -94,6 +94,10 @@ url: /ar/net/one-dimensional-barcode-types/
 ### [كيفية إنشاء باركود بأحرف خاصة في C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 ### [كيفية قراءة صور الباركود في C# – دليل كامل بالأمثلة](./how-to-read-barcode-images-in-c-full-example-guide/)
 ### [كيفية قراءة الباركود من صورة في C# باستخدام Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
+### [كيفية حفظ الباركود كصورة باستخدام Aspose.BarCode لـ .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
+تعرف على كيفية حفظ الباركود كملف صورة باستخدام Aspose.BarCode في .NET.
+### [كيفية قراءة الباركود من صورة باستخدام C# – دليل خطوة بخطوة](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
+تعلم كيفية قراءة الباركود من صورة باستخدام C# خطوة بخطوة مع Aspose.BarCode.
 
 ## خاتمة
 

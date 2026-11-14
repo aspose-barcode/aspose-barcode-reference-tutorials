@@ -153,6 +153,9 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 ### [Como criar código de barras micro PDF417 e gerar PNG em C#](./how-to-create-micro-pdf417-barcode-and-generate-png-in-c/)
 
 
+### [Como criar código de barras micro PDF417 em C#](./how-to-create-micro-pdf417-barcode-in-c/)
+
+
 ### [How to generate PDF417 barcode in C# and set barcode size](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 
 
@@ -205,6 +208,9 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 
 
 ### [Como decodificar códigos de barras PDF417 em C# e ler a imagem do código de barras C#](./how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c/)
+
+
+### [Como criar código de barras PDF417 com layout personalizado em C#](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
 
 
 ## Como gerar código de barras PDF417 em C# – guia completo de programação

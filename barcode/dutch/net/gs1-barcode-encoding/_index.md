@@ -72,6 +72,9 @@ Leer hoe u met Aspose.BarCode voor .NET een GS1-barcode maakt in C# en deze opsl
 ### [Hoe maak je een GS1-barcode in ASP.NET met Aspose.BarCode](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
 Leer hoe u met Aspose.BarCode een GS1-barcode genereert in een ASP.NET-toepassing.
 
+### [Hoe een barcode-afbeelding te maken in C# met GS1 MicroPDF417](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Leer hoe u een barcode-afbeelding genereert in C# met GS1 MicroPDF417 via Aspose.BarCode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

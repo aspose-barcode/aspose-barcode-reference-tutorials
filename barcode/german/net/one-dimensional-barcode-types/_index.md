@@ -55,41 +55,43 @@ Selbst die erfahrensten Entwickler stehen vor Herausforderungen. Erfahren Sie, w
 Wir werden die Konfiguration des Breit-Schmal-Verhältnisses für eindimensionale Barcodes untersuchen. Passen Sie Ihre Barcodes einfach und effizient mit der Anleitung von Aspose.BarCode an.
 ## Tutorials zu eindimensionalen Barcode-Typen
 ### [Konfiguration des eindimensionalen Codes 128](./one-dimensional-code-128-configuration/)
-Erfahren Sie, wie Sie mit Aspose.BarCode eindimensionale Code 128-Barcodes in .NET generieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Barcode-Integration.
+Erfahren Sie, wie Sie mit Aspose.BarCode eindimensionale Code 128-Barcodes in .NET generieren. Befolgen Sie unsere Schritt‑für‑Schritt‑Anleitung für eine nahtlose Barcode-Integration.
 ### [Eindimensionale Code 39-Konfiguration](./one-dimensional-code-39-configuration/)
-Erfahren Sie, wie Sie mit Aspose.BarCode eindimensionale Code 39-Barcodes in .NET generieren. Schritt-für-Schritt-Anleitung für Entwickler.
+Erfahren Sie, wie Sie mit Aspose.BarCode eindimensionale Code 39-Barcodes in .NET generieren. Schritt‑für‑Schritt‑Anleitung für Entwickler.
 ### [Eindimensionale Code 93-Konfiguration](./one-dimensional-code-93-configuration/)
-Erfahren Sie, wie Sie Code 93-Barcodes mit Aspose.BarCode für .NET erstellen. Schritt-für-Schritt-Anleitung zur Barcode-Generierung.
+Erfahren Sie, wie Sie Code 93-Barcodes mit Aspose.BarCode für .NET erstellen. Schritt‑für‑Schritt‑Anleitung zur Barcode-Generierung.
 ### [Eindimensionale Barcode-Höhenverstellung](./one-dimensional-barcode-height-adjustment/)
 Erfahren Sie, wie Sie die Höhe eindimensionaler Barcodes in .NET mit Aspose.BarCode für eine präzise Anpassung anpassen. Erstellen Sie mühelos perfekte Barcodes!
 ### [Eindimensionale Datenleisten-2D-Komponentenkonfiguration](./one-dimensional-databar-2d-component-configuration/)
-Generieren Sie eindimensionale Databar-2D-Barcodes mit Aspose.BarCode für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung zur Konfiguration und Anpassung. Beginnen Sie noch heute mit der Erstellung einzigartiger Barcodes!
+Generieren Sie eindimensionale Databar-2D-Barcodes mit Aspose.BarCode für .NET. Befolgen Sie unsere Schritt‑für‑Schritt‑Anleitung zur Konfiguration und Anpassung. Beginnen Sie noch heute mit der Erstellung einzigartiger Barcodes!
 ### [Anpassung des eindimensionalen Datenleisten-Seitenverhältnisses](./one-dimensional-databar-aspect-ratio-customization/)
 Erfahren Sie, wie Sie mit Aspose.BarCode die Seitenverhältnisse eindimensionaler DataBars in .NET anpassen. Verbessern Sie die Präzision und das Design von Barcodes.
 ### [Eindimensionale Databar-Barcode-Höhenanpassung](./one-dimensional-databar-barcode-height-adjustment/)
 Erfahren Sie, wie Sie die Höhe des eindimensionalen Databar-Barcodes mit Aspose.BarCode für .NET anpassen. Erstellen Sie in wenigen einfachen Schritten benutzerdefinierte Barcodes. Entdecken Sie die Möglichkeiten der Barcode-Anpassung.
 ### [Eindimensionale Databar GS1-Kodierung](./one-dimensional-databar-gs1-encoding/)
-Erfahren Sie, wie Sie mit Aspose.BarCode Databar GS1-codierte Barcodes in .NET erstellen. Generieren Sie ganz einfach Barcodes. Folgen Sie unserer Schritt-für-Schritt-Anleitung.
+Erfahren Sie, wie Sie mit Aspose.BarCode Databar GS1-codierte Barcodes in .NET erstellen. Generieren Sie ganz einfach Barcodes. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung.
 ### [Eindimensionale Datenleisten-Zeilen- und Spaltenkonfiguration](./one-dimensional-databar-row-column-configuration/)
 Generieren Sie dynamische eindimensionale DataBar-Barcodes mit Zeilen- und Spaltenkonfiguration in .NET mit Aspose.BarCode für .NET. Individualisierung leicht gemacht!
 ### [Konfiguration eindimensionaler gefüllter Balken](./one-dimensional-filled-bars-configuration/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes in .NET generieren. Dieses umfassende Tutorial deckt alles ab, vom Importieren von Namespaces bis zum Erstellen eindimensionaler Barcodes. 
 ### [Eindimensionale Barcode-Ausnahmebehandlung](./one-dimensional-barcode-exception-handling/)
-Erfahren Sie, wie Sie Ausnahmen beim Generieren eindimensionaler Barcodes mit Aspose.BarCode für .NET behandeln. Diese Schritt-für-Schritt-Anleitung sorgt für fehlertolerante Barcode-Lösungen. Jetzt loslegen!
+Erfahren Sie, wie Sie Ausnahmen beim Generieren eindimensionaler Barcodes mit Aspose.BarCode für .NET behandeln. Diese Schritt‑für‑Schritt‑Anleitung sorgt für fehlertolerante Barcode‑Lösungen. Jetzt loslegen!
 ### [Eindimensionale Breit-Schmal-Verhältnis-Konfiguration](./one-dimensional-wide-narrow-ratio-configuration/)
-Generieren Sie ganz einfach individuelle Barcodes mit Aspose.BarCode für .NET. Schritt-für-Schritt-Anleitung für die eindimensionale Breit-Schmal-Verhältniskonfiguration.
+Generieren Sie ganz einfach individuelle Barcodes mit Aspose.BarCode für .NET. Schritt‑für‑Schritt‑Anleitung für die eindimensionale Breit‑Schmal‑Verhältniskonfiguration.
 ### [Wie man Barcode in C# festlegt – vollständige Aspose.BarCode-Anleitung](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – komplette Schritt‑für‑Schritt‑Anleitung.
 ### [Barcode aus Bild lesen – C#-Barcode-Leser-Beispiel](./read-barcode-from-image-c-barcode-reader-example/)
 Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
 ### [Barcode aus Text generieren mit Aspose.BarCode – C#-Leitfaden](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
-Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes aus Text generieren. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes aus Text generieren. Schritt‑für‑Schritt‑Anleitung für .NET-Entwickler.
 ### [Wie man Barcodes in C# generiert – Vollständiger Programmierleitfaden](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – ein umfassender Leitfaden für Entwickler.
 ### [Wie man Barcode mit Aspose in C# generiert](./how-to-generate-barcode-with-aspose-in-c/)
 Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – Schritt‑für‑Schritt‑Anleitung.
 ### [Barcode mit benutzerdefiniertem Text generieren – Aspose.BarCode für .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes mit eigenem Text erstellen – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man einen Barcode als Bild speichert – Aspose.BarCode für .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
+Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes als Bilddatei speichern – Schritt‑für‑Schritt‑Anleitung.
 
 ## Abschluss
 
@@ -103,9 +105,12 @@ Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
 ### [Barcode aus Bild in C# lesen – vollständige Beispielanleitung](./how-to-read-barcode-images-in-c-full-example-guide/)
 Erfahren Sie, wie Sie Barcode‑Bilder in C# vollständig auslesen – ein umfassendes Beispiel.
 ### [Wie man Barcode-Parameter in C# mit Aspose.BarCode festlegt](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
-Erfahren Sie, wie Sie Barcode-Parameter in C# mit Aspose.BarCode konfigurieren. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
+Erfahren Sie, wie Sie Barcode-Parameter in C# mit Aspose.BarCode konfigurieren. Schritt‑für‑Schritt‑Anleitung für .NET-Entwickler.
 ### [Barcode aus Bild in C# lesen – BarCodeReader‑Tutorial](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bildern in C# auslesen.
+
+### [Barcodes aus Bild in C# lesen – Schritt‑für‑Schritt‑Anleitung](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.BarCode Barcodes aus Bilddateien in C# auslesen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

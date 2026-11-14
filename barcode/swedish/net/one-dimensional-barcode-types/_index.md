@@ -100,6 +100,10 @@ Lär dig hur du skapar streckkoder i C# med Aspose.BarCode i en steg-för-steg-g
 Lär dig hur du skapar streckkoder med specialtecken i C# med Aspose.BarCode. En steg-för-steg-guide för korrekt kodning.
 ### [Hur man genererar streckkod med anpassad text med Aspose.BarCode för .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Lär dig hur du skapar streckkoder med anpassad text i .NET med Aspose.BarCode.
+### [Hur man sparar streckkod som bild med Aspose.BarCode för .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
+Lär dig hur du sparar en genererad streckkod som bildfil i .NET med Aspose.BarCode.
+### [Hur man läser streckkoder från bild i C# – steg‑för‑steg‑guide](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
+Lär dig hur du läser streckkoder från en bild i C# med Aspose.BarCode i en steg‑för‑steg‑guide.
 
 ## Slutsats
 

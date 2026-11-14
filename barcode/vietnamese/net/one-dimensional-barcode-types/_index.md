@@ -88,18 +88,22 @@ Hướng dẫn cách đọc mã vạch từ hình ảnh trong .NET bằng Aspose
 Hướng dẫn chi tiết cách đọc mã vạch từ hình ảnh trong C# bằng Aspose.BarCode, kèm ví dụ đầy đủ.
 ### [Cách đọc mã vạch từ hình ảnh trong C# bằng Aspose.BarCode](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
 Hướng dẫn chi tiết cách đọc mã vạch từ ảnh trong C# bằng Aspose.BarCode, kèm ví dụ thực tế.
+### [Đọc mã vạch từ hình ảnh trong C# – Hướng dẫn BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
+Hướng dẫn cách đọc mã vạch từ ảnh trong C# bằng BarCodeReader của Aspose.BarCode.
+### [Cách đọc mã vạch từ hình ảnh bằng C# – hướng dẫn từng bước](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách đọc mã vạch từ hình ảnh trong C# bằng Aspose.BarCode, từng bước một.
 ### [Cách thiết lập các tham số mã vạch trong C# bằng Aspose.BarCode](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 Hướng dẫn từng bước để cấu hình các tham số mã vạch trong C# bằng Aspose.BarCode, giúp bạn tùy chỉnh mã vạch một cách dễ dàng.
 ### [Tạo mã vạch từ văn bản bằng Aspose.BarCode – Hướng dẫn C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Hướng dẫn tạo mã vạch từ chuỗi văn bản trong C# bằng Aspose.BarCode, bao gồm các bước cấu hình và ví dụ thực tế.
 ### [Cách tạo mã vạch trong C# – Hướng dẫn lập trình toàn diện](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách tạo mã vạch bằng C# sử dụng Aspose.BarCode, bao gồm các bước cấu hình và tùy chỉnh.
-### [Đọc mã vạch từ hình ảnh trong C# – Hướng dẫn BarCodeReader](./read-barcode-from-image-in-c-barcodereader-tutorial/)
-Hướng dẫn cách đọc mã vạch từ ảnh trong C# bằng BarCodeReader của Aspose.BarCode.
 ### [Cách tạo mã vạch với Aspose trong C#](./how-to-generate-barcode-with-aspose-in-c/)
 Hướng dẫn chi tiết cách tạo mã vạch trong C# bằng Aspose.BarCode, bao gồm các bước cấu hình và ví dụ thực tế.
 ### [Cách tạo mã vạch với văn bản tùy chỉnh bằng Aspose.BarCode cho .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Hướng dẫn tạo mã vạch chứa văn bản tùy chỉnh trong .NET bằng Aspose.BarCode, kèm ví dụ thực tế.
+### [Cách lưu mã vạch dưới dạng hình ảnh bằng Aspose.BarCode cho .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
+Hướng dẫn từng bước lưu mã vạch dưới dạng hình ảnh trong .NET bằng Aspose.BarCode.
 
 ## Phần kết luận
 

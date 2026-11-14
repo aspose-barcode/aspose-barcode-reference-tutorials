@@ -78,17 +78,18 @@ Aspose.BarCode를 사용하여 .NET에서 Databar GS1 인코딩 바코드를 만
 .NET용 Aspose.BarCode를 사용하여 1차원 바코드를 생성하는 동안 예외를 처리하는 방법을 알아보세요. 이 단계별 가이드는 오류 방지 바코드 솔루션을 보장합니다. 지금 시작하세요!
 ### [1차원 광폭-협폭 구성](./one-dimensional-wide-narrow-ratio-configuration/)
 .NET용 Aspose.BarCode를 사용하여 맞춤형 바코드를 쉽게 생성하세요. 1차원 광폭-협폭 비율 구성을 위한 단계별 가이드입니다.
+### [Aspose.BarCode for .NET을 사용하여 바코드를 이미지로 저장하는 방법](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 ### [C#에서 바코드 설정 방법 – 완전한 Aspose.BarCode 가이드](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
 Aspose.BarCode를 사용하여 C#에서 바코드를 설정하고 활용하는 전체 가이드를 확인하세요.
 ### [이미지에서 바코드 읽기 – C# 바코드 리더 예제](./read-barcode-from-image-c-barcode-reader-example/)
 Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 방법을 단계별로 안내합니다.
-### [Aspose.BarCode를 사용하여 C#에서 바코드 매개변수 설정하는 방법](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+### [C#에서 바코드 매개변수 설정하는 방법](./how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
 ### [Aspose.BarCode를 사용하여 텍스트에서 바코드 생성 – C# 가이드](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 ### [C#에서 바코드 생성하는 방법 – 완전 프로그래밍 가이드](./how-to-generate-barcode-in-c-complete-programming-guide/)
 Aspose.BarCode를 사용하여 C#에서 바코드를 생성하는 전체 가이드를 확인하세요.
 ### [C#에서 이미지로부터 바코드 읽기 – BarCodeReader 튜토리얼](./read-barcode-from-image-in-c-barcodereader-tutorial/)
 Aspose.BarCode의 BarCodeReader를 사용하여 C#에서 이미지 파일의 바코드를 읽는 방법을 단계별로 안내합니다.
-### [C#에서 바코드 이미지 읽기 – 전체 예제 가이드](./how-to-read-barcode-images-in-c-full-example-guide/)
+### [C#에서 이미지로부터 바코드 읽기 – 전체 예제 가이드](./how-to-read-barcode-images-in-c-full-example-guide/)
 Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 전체 예제 가이드를 단계별로 안내합니다.
 ### [C#에서 Aspose.BarCode를 사용하여 이미지에서 바코드 읽는 방법](./how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
 Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 읽는 방법을 단계별로 안내합니다.
@@ -98,6 +99,8 @@ Aspose.BarCode를 사용하여 C#에서 바코드를 생성하는 방법을 단�
 Aspose.BarCode를 사용하여 C#에서 특수 문자를 포함한 바코드를 생성하는 방법을 단계별로 안내합니다.
 ### [Aspose.BarCode for .NET를 사용하여 사용자 지정 텍스트로 바코드 생성하는 방법](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Aspose.BarCode를 활용해 .NET에서 원하는 텍스트를 포함한 바코드를 만드는 단계별 가이드.
+### [C#를 사용하여 이미지에서 바코드 읽는 방법 – 단계별 가이드](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
+Aspose.BarCode를 사용하여 C#에서 이미지 파일의 바코드를 단계별로 읽는 방법을 안내합니다.
 
 ## 결론
 

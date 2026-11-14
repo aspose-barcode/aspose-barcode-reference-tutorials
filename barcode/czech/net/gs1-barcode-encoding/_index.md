@@ -70,6 +70,8 @@ Naučte se generovat PNG čárové kódy GS1 Micro PDF417 pomocí Aspose.BarCode
 Naučte se v C# pomocí Aspose.BarCode vytvořit GS1 čárový kód a exportovat jej jako PNG obrázek.
 ### [Jak vytvořit GS1 čárový kód v ASP.NET s Aspose.BarCode](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
 Naučte se generovat GS1 čárový kód v ASP.NET pomocí Aspose.BarCode. Kompletní průvodce krok za krokem.
+### [Jak vytvořit obrázek čárového kódu v C# s GS1 MicroPDF417](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Naučte se generovat obrázek čárového kódu GS1 MicroPDF417 v C# pomocí Aspose.BarCode během několika kroků.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

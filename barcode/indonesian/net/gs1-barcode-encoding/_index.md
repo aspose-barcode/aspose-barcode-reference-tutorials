@@ -69,6 +69,8 @@ Pelajari cara membuat barcode PNG menggunakan C# dengan Aspose.BarCode untuk .NE
 Pelajari cara membuat kode batang GS1 di C# dan mengekspornya sebagai file PNG menggunakan Aspose.BarCode.
 ### [Cara membuat barcode GS1 di ASP.NET dengan Aspose.BarCode](./how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
 Pelajari cara membuat barcode GS1 dalam aplikasi ASP.NET menggunakan Aspose.BarCode.
+### [Cara membuat gambar barcode di C# dengan GS1 MicroPDF417](./how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+Pelajari cara cepat menghasilkan gambar barcode GS1 MicroPDF417 menggunakan C# dengan Aspose.BarCode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

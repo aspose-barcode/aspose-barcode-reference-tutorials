@@ -84,6 +84,9 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 - **إدارة الإصدارات:** حافظ على توافق نسخة مكتبة Aspose.BarCode عبر بيئات التطوير، الاختبار، والإنتاج.
 
 ## دروس ترميز PDF417 المدمج
+### [How to create PDF417 barcode with custom layout in C#](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
+
+
 ### [How to create barcode from text in C# with Aspose.BarCode](./how-to-create-barcode-from-text-in-c-with-aspose-barcode/)
 ### [كيفية إنشاء باركود من النص في C# باستخدام Aspose.BarCode](./how-to-create-barcode-from-text-in-c-using-aspose-barcode/)
 ### [Read barcode from image C# – complete guide with Macro PDF417](./read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
@@ -149,90 +152,21 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 تعلم كيفية قراءة باركود PDF417 باستخدام C# مع مثال كامل للباركود.
 
 - [كيفية إنشاء باركود في C# باستخدام Aspose.BarCode وإضافة بيانات تعريف](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
-- [إنشاء باركود PDF417 بإعدادات مدمجة في C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
-- [كيفية إنشاء باركود Micro PDF417 في C# – دليل خطوة بخطوة](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
-- [كيفية إنشاء باركود PDF417 في C# بأبعاد مخصصة](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-- [كيفية فك ترميز باركودات PDF417 في C# – دليل خطوة بخطوة](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-- [كيفية إنشاء باركود PDF417 في C# – دليل برمجة كامل](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
-- [كيفية فك ترميز باركودات PDF417 في C# باستخدام BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
-### [إنشاء باركود PDF417 في C# – دليل مولد الباركود](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
-تعلم كيفية إنشاء باركود PDF417 باستخدام C# ومولد الباركود من Aspose.
-تعلم كيفية حفظ صورة الباركود في C# وإنشاء باركودات PDF417 باستخدام Aspose.BarCode.
-تعلم كيفية إنشاء باركود PDF417 باستخدام مولد الباركود في C# مع Aspose.BarCode خطوة بخطوة.
-تعلم كيفية إنشاء باركود PDF417 في C# باستخدام مولد الباركود مع Aspose.BarCode.
-دليل شامل يوضح كيفية ضبط مستوى تصحيح الأخطاء في باركود PDF417 باستخدام Aspose.BarCode for .NET.
-تعلم كيفية إنشاء باركود PDF417 مع نص مدمج باستخدام Aspose.BarCode for .NET، مع شرح كامل للماكرو وإعدادات متقدمة.
-دليل شامل لإنشاء باركود PDF417 باستخدام Aspose.BarCode for .NET خطوة بخطوة مع أمثلة عملية.
-تعلم كيفية إنشاء باركود PDF417 باستخدام Aspose.BarCode للـ .NET مع شرح كامل للبرمجة خطوة بخطوة.
-دليل شامل لإنشاء صورة باركود PNG باستخدام C# و Aspose.BarCode خطوة بخطوة.
-تعلم كيفية إنشاء باركود PDF417 في C# باستخدام Aspose.BarCode من خلال دليل شامل خطوة بخطوة.
-دليل شامل لإنشاء باركود PDF417 باستخدام Aspose.BarCode في C# مع شرح كامل للبرمجة خطوة بخطوة.
-دليل شامل يوضح خطوة بخطوة كيفية إنشاء باركود PDF417 في C# باستخدام Aspose.BarCode للـ .NET مع أمثلة برمجية.
-دليل شامل لإنشاء باركود PDF417 باستخدام مكتبة Aspose.BarCode للـ .NET مع أمثلة عملية وتخصيص كامل.
-تعلم كيفية قراءة باركود PDF417 باستخدام C# مع مثال كامل للقراءة باستخدام Aspose.BarCode.
-### [كيفية إنشاء باركود PDF417 باستخدام Aspose – دليل خطوة بخطوة كامل](./how-to-create-pdf417-barcode-with-aspose-complete-step-by-st/)
-دليل شامل يوضح كيفية إنشاء باركود PDF417 باستخدام Aspose خطوة بخطوة مع أمثلة عملية.
-### [إنشاء باركود PDF417 بلغة C# – إنشاء باركود PDF417 باستخدام C#](./generate-pdf417-barcode-in-c-create-pdf417-barcode-c/)
-دليل خطوة بخطوة لإنشاء باركود PDF417 باستخدام لغة C# ومكتبة Aspose.BarCode for .NET.
-### [ضبط حجم الباركود – دليل C# لإنشاء باركودات PDF417](./adjust-barcode-size-c-guide-to-generate-pdf417-barcodes/)
-دليل يوضح كيفية ضبط حجم باركود PDF417 في C# باستخدام Aspose.BarCode لتناسب مختلف التطبيقات والمساحات.
-### [الباركود مع الأحرف الخاصة – دليل كامل لإنشاء PDF417 باستخدام Aspose](./barcode-with-special-characters-complete-guide-to-generating/)
-تعلم كيفية إنشاء باركود PDF417 يحتوي على أحرف خاصة باستخدام Aspose.BarCode لـ .NET، مع نصائح الترميز وأمثلة الشفرة.
-### [إنشاء باركود PDF417 في .NET – دليل برمجة كامل](./create-pdf417-barcode-in-net-complete-programming-guide/)
-دليل شامل لإنشاء باركود PDF417 في .NET مع شرح كامل للبرمجة وأمثلة عملية.
-### [إنشاء باركود بالبيانات في C# – دليل خطوة بخطوة](./create-barcode-with-data-in-c-step-by-step-guide/)
-تعلم كيفية إنشاء باركود مع بيانات مخصصة في C# باستخدام Aspose.BarCode for .NET خطوة بخطوة.
-### [كيفية قراءة PDF417 في C# – مثال كامل للباركود](./how-to-read-pdf417-in-c-complete-barcode-example/)
-تعلم كيفية قراءة باركود PDF417 باستخدام C# مع مثال كامل للباركود.
-### [كيفية إنشاء باركود Macro PDF417 في C# باستخدام Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
-دليل خطوة بخطوة لإنشاء باركود Macro PDF417 في C# باستخدام Aspose.BarCode.
-### [كيفية إنشاء باركود PDF417 باستخدام Aspose – دليل مختصر](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-دليل مختصر لإنشاء باركود PDF417 مدمج باستخدام C# و Aspose.BarCode.
-### [كيفية إنشاء باركود في C# باستخدام Aspose.BarCode](./how-to-generate-barcode-in-c-with-aspose-barcode/)
-دليل خطوة بخطوة لإنشاء باركود باستخدام C# ومكتبة Aspose.BarCode.
+- [إنشاء باركودات PDF417 المدمجة](./compact-pdf417-basic-configuration/)
+- [إنشاء باركود PDF417 في C# – دليل كامل](./generate-pdf417-barcode-in-c-complete-guide/)
+- [إنشاء باركود PDF417 في C# – دليل كامل (إنشاء)](./create-pdf417-barcode-in-c-complete-guide/)
+- [إنشاء باركود PDF417 في C# – دليل كامل خطوة بخطوة](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
+- [إنشاء باركود PDF417 في C# – دليل كامل خطوة بخطوة (إنشاء)](./create-pdf417-barcode-in-c-complete-guide/)
+- [إنشاء باركود PDF417 في C# – دليل كامل خطوة بخطوة مع التخطيط المدمج](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
 
-### [كيفية إنشاء صورة باركود PDF417 في C# مع خيارات Macro PDF417](./how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
-دليل خطوة بخطوة لإنشاء صورة باركود PDF417 في C# مع خيارات Macro PDF417 باستخدام Aspose.BarCode.
+### [How to create micro PDF417 barcode in C#](./how-to-create-micro-pdf417-barcode-in-c/)
 
-### [إنشاء باركود PDF417 كصورة PNG في C# – دليل خطوة بخطوة](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
-دليل خطوة بخطوة لإنشاء باركود PDF417 وحفظه كملف PNG باستخدام C# و Aspose.BarCode.
-
-- [كيفية إنشاء باركود PDF417 في C# مع دعم الماكرو](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
-
-### [كيفية إنشاء باركود PDF417 باستخدام Aspose.BarCode في C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
-
-### [كيفية قراءة باركود PDF417 في C# باستخدام Aspose – دليل خطوة بخطوة](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
-- [مثال Aspose للباركود: إنشاء Macro PDF417 بلغة C#](./aspose-barcode-example-generate-macro-pdf417-in-c/)
-### [إنشاء صورة باركود PNG في C# باستخدام مولد PDF417](./create-barcode-png-in-c-using-a-pdf417-generator/)
-### [إنشاء باركود Micro PDF417 في C# – دليل خطوة بخطوة](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
-تعلم كيفية إنشاء باركود Micro PDF417 في C# خطوة بخطوة مع Aspose.BarCode.
+- [كيفية إنشاء باركود Micro PDF417 في C# باستخدام Aspose.BarCode](./how-to-create-micro-pdf417-barcode-in-c/)
+- [إنشاء باركود Micro PDF417 في C# – دليل شامل](./generate-micro-pdf417-barcode-in-c-complete-guide/)
+- [إنشاء باركود Micro PDF417 في C# – دليل خطوة بخطوة](./create-micro-pdf417-barcode-in-c-step-by-step-guide/)
 - [إنشاء صورة micro PDF417 في C# – دليل خطوة بخطوة](./create-micro-pdf417-image-in-c-step-by-step-guide/)
-### [إنشاء باركود C# مع Macro PDF417 – مثال كامل](./generate-barcode-c-with-macro-pdf417-full-example/)
-مثال كامل لإنشاء باركود C# باستخدام Macro PDF417 مع Aspose.BarCode.
-- [إنشاء باركود من النص في C# – دليل خطوة بخطوة كامل](./generate-barcode-from-text-in-c-complete-step-by-step-guide/)
-### [كيفية إنشاء باركود Macro PDF417 في C# – دليل شامل](./generate-macro-pdf417-barcode-in-c-complete-guide/)
-دليل شامل لإنشاء باركود Macro PDF417 في C#.
-### [إنشاء باركود PDF417 في C# – دليل شامل خطوة بخطوة مع التخطيط المدمج](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
-دليل شامل لإنشاء باركود PDF417 باستخدام C# مع تخطيط مدمج.
-- [إنشاء باركود PDF417 بلغة C# – دليل خطوة بخطوة](./generate-pdf417-barcode-in-c-step-by-step-guide/)
-- [إنشاء باركود pdf417 في C# مع أعمدة وصفوف مخصصة](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
-### [كيفية بناء مثال باركود Aspose باستخدام MacroPdf417 في C#](./how-to-build-an-aspose-barcode-example-with-macropdf417-in-c/)
-### [How to create micro PDF417 barcode and convert it to PNG in C#](./how-to-create-micro-pdf417-barcode-and-convert-it-to-png-in/)
-### [كيفية إنشاء باركود PDF417 وتصدير PNG في C#](./how-to-create-pdf417-barcode-and-export-png-in-c/)
-تعلم كيفية إنشاء باركود PDF417 وتصديره كملف PNG باستخدام C# ومكتبة Aspose.BarCode.
-### [كيفية إنشاء باركود PDF417 وتحديد حجمه في C#](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
-- [كيفية إنشاء باركود PDF417 في C# وحفظه كملف PNG](./how-to-create-pdf417-barcode-in-c-and-save-it-as-png/)
-- [كيفية إنشاء باركود PDF417 في C# – دليل خطوة بخطوة مع التخطيط المدمج](./how-to-create-pdf417-barcode-in-c-compact-example/)
-- [كيفية إنشاء باركود pdf417 في C# – دليل خطوة بخطوة](./how-to-create-pdf417-barcode-in-c-step-by-step-guide/)
-### [كيفية إنشاء باركود PDF417 في C# باستخدام الوضع المدمج](./how-to-create-pdf417-barcode-in-c-with-compact-mode/)
-دليل خطوة بخطوة لإنشاء باركود PDF417 في وضع مضغوط باستخدام Aspose.BarCode لـ .NET.
-- [كيفية فك تشفير باركود PDF417 في C# – دليل كامل](./how-to-decode-pdf417-barcodes-in-c-full-guide/)
-### [كيفية إنشاء باركود وتخصيص باركود PDF417 في C#](./how-to-generate-barcode-and-customize-pdf417-barcode-in-c/)
-دليل خطوة بخطوة لإنشاء باركود PDF417 وتخصيصه في C# باستخدام Aspose.BarCode.
-- [كيفية إنشاء باركود PDF417 في C# وتحديد حجم الباركود](./how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
-- [كيفية قراءة باركود PDF417 في C# – دليل قارئ الباركود الكامل](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
-- [كيفية قراءة PDF417 في C# – دليل كامل لقارئ الباركود](./how-to-read-pdf417-in-c-complete-barcode-reader-guide/)
-- [كيفية حفظ صور الباركود في C# – دليل كامل](./how-to-save-barcode-images-in-c-complete-guide/)
+- [كيفية إنشاء باركود PDF417 في C# – دليل كامل (إنشاء)](./create-pdf417-barcode-in-c-complete-guide/)
+- [إنشاء باركود PDF417 في C# – دليل شامل خطوة بخطوة مع التخطيط المدمج](./generate-pdf417-barcode-in-c-complete-guide-with-compact-lay/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
