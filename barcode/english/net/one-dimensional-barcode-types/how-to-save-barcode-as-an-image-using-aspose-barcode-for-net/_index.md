@@ -225,9 +225,9 @@ class Program
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Generate Code 128 barcode and save image]({{< relref "barcode/english/python/general/how-to-generate-code-128-barcode-and-save-barcode-image-with" >}})
-- [Create PDF417 barcode and save it as PNG in C#]({{< relref "barcode/english/net/compact-pdf417-encoding/how-to-create-pdf417-barcode-and-save-it-as-png-in-c" >}})
-- [Create barcode image with Aspose.BarCode – step‑by‑step guide]({{< relref "barcode/english/python-java/general/how-to-create-barcode-image-with-aspose-barcode-step-by-step" >}})
+- [Generate Code 128 barcode and save image](/barcode/python/general/how-to-generate-code-128-barcode-and-save-barcode-image-with/)
+- [Create PDF417 barcode and save it as PNG in C#](/barcode/net/compact-pdf417-encoding/how-to-create-pdf417-barcode-and-save-it-as-png-in-c/)
+- [Create barcode image with Aspose.BarCode – step‑by‑step guide](/barcode/python-java/general/how-to-create-barcode-image-with-aspose-barcode-step-by-step/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

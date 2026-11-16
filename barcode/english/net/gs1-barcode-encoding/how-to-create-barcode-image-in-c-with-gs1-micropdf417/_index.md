@@ -214,9 +214,9 @@ Happy coding, and let your applications start **creating barcode images** that w
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "/barcode/english/python-java/general/how-to-create-barcode-image-with-aspose-barcode-in-c/" >}} – How to create barcode image with Aspose.Barcode in C#
-- {{< relref "/barcode/english/python-java/general/how-to-create-postal-barcode-image-in-c-using-aspose-barcode/" >}} – How to create postal barcode image in C# using Aspose.BarCode
-- {{< relref "/barcode/english/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-guide/" >}} – How to create PDF417 barcode image in C# – complete guide
+- [How to create barcode image with Aspose.Barcode in C#](/barcode/python-java/general/how-to-create-barcode-image-with-aspose-barcode-in-c/)
+- [How to create postal barcode image in C# using Aspose.BarCode](/barcode/python-java/general/how-to-create-postal-barcode-image-in-c-using-aspose-barcode/)
+- [How to create PDF417 barcode image in C# – complete guide](/barcode/net/compact-pdf417-encoding/generate-pdf417-barcode-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

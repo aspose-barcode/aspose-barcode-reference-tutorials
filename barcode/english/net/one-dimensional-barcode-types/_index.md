@@ -83,56 +83,56 @@ We'll explore the **wide‑narrow ratio** configuration for one‑dimensional ba
 Understanding the **barcode aspect ratio** helps you create legible, scanner‑friendly images. This section shows you how to tweak aspect ratios for optimal readability.
 
 ## One-Dimensional barcode types tutorials
-### [One-Dimensional code 128 configuration]({{< relref "one-dimensional-code-128-configuration/_index.md" >}})
+### [One-Dimensional code 128 configuration](/barcode/net/one-dimensional-barcode-types/one-dimensional-code-128-configuration/)
 Learn how to generate one-dimensional Code 128 barcodes in .NET using Aspose.BarCode. Follow our step-by-step guide for seamless barcode integration.
-### [One-Dimensional code 39 configuration]({{< relref "one-dimensional-code-39-configuration/_index.md" >}})
+### [One-Dimensional code 39 configuration](/barcode/net/one-dimensional-barcode-types/one-dimensional-code-39-configuration/)
 Learn how to generate one-dimensional Code 39 barcodes in .NET with Aspose.BarCode. Step-by-step guide for developers.
-### [One-Dimensional code 93 configuration]({{< relref "one-dimensional-code-93-configuration/_index.md" >}})
+### [One-Dimensional code 93 configuration](/barcode/net/one-dimensional-barcode-types/one-dimensional-code-93-configuration/)
 Learn how to create Code 93 barcodes with Aspose.BarCode for .NET. Step-by-step guide for barcode generation.
-### [One-Dimensional barcode height adjustment]({{< relref "one-dimensional-barcode-height-adjustment/_index.md" >}})
+### [One-Dimensional barcode height adjustment](/barcode/net/one-dimensional-barcode-types/one-dimensional-barcode-height-adjustment/)
 Learn how to adjust the height of one-dimensional barcodes in .NET with Aspose.BarCode for precise customization. Create perfect barcodes effortlessly!
-### [One-Dimensional databar 2D component configuration]({{< relref "one-dimensional-databar-2d-component-configuration/_index.md" >}})
+### [One-Dimensional databar 2D component configuration](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-2d-component-configuration/)
 Generate One-Dimensional Databar 2D barcodes with Aspose.BarCode for .NET. Follow our step-by-step guide for configuration and customization. Start creating unique barcodes today!
-### [One-Dimensional databar aspect ratio customization]({{< relref "one-dimensional-databar-aspect-ratio-customization/_index.md" >}})
+### [One-Dimensional databar aspect ratio customization](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-aspect-ratio-customization/)
 Learn how to customize One-Dimensional DataBar aspect ratios in .NET using Aspose.BarCode. Enhance barcode precision and design.
-### [One-Dimensional databar barcode height adjustment]({{< relref "one-dimensional-databar-barcode-height-adjustment/_index.md" >}})
+### [One-Dimensional databar barcode height adjustment](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-barcode-height-adjustment/)
 Learn how to adjust One-Dimensional Databar barcode height with Aspose.BarCode for .NET. Create custom barcodes in a few simple steps. Explore the power of barcode customization.
-### [One-Dimensional databar GS1 encoding]({{< relref "one-dimensional-databar-gs1-encoding/_index.md" >}})
+### [One-Dimensional databar GS1 encoding](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-gs1-encoding/)
 Learn to create Databar GS1 encoded barcodes in .NET using Aspose.BarCode. Generate barcodes with ease. Follow our step-by-step guide.
-### [One-Dimensional databar row and column configuration]({{< relref "one-dimensional-databar-row-column-configuration/_index.md" >}})
+### [One-Dimensional databar row and column configuration](/barcode/net/one-dimensional-barcode-types/one-dimensional-databar-row-column-configuration/)
 Generate dynamic one-dimensional DataBar barcodes with row and column configuration in .NET using Aspose.BarCode for .NET. Customization made easy!
-### [One-Dimensional filled bars configuration]({{< relref "one-dimensional-filled-bars-configuration/_index.md" >}})
+### [One-Dimensional filled bars configuration](/barcode/net/one-dimensional-barcode-types/one-dimensional-filled-bars-configuration/)
 Earn how to generate barcodes in .NET with Aspose.BarCode for .NET. This comprehensive tutorial covers everything from importing namespaces to creating one-dimensional barcodes. 
-### [One-Dimensional barcode exception handling]({{< relref "one-dimensional-barcode-exception-handling/_index.md" >}})
+### [One-Dimensional barcode exception handling](/barcode/net/one-dimensional-barcode-types/one-dimensional-barcode-exception-handling/)
 Learn how to handle exceptions while generating one-dimensional barcodes using Aspose.BarCode for .NET. This step-by-step guide ensures error-tolerant barcode solutions. Get started now!
-### [One-Dimensional wide-Narrow ratio configuration]({{< relref "one-dimensional-wide-narrow-ratio-configuration/_index.md" >}})
+### [One-Dimensional wide-Narrow ratio configuration](/barcode/net/one-dimensional-barcode-types/one-dimensional-wide-narrow-ratio-configuration/)
 Generate customized barcodes easily with Aspose.BarCode for .NET. Step-by-step guide for one-dimensional wide-narrow ratio configuration.
-### [How to set barcode in C# – complete Aspose.BarCode guide]({{< relref "how-to-set-barcode-in-c-complete-aspose-barcode-guide/_index.md" >}})
+### [How to set barcode in C# – complete Aspose.BarCode guide](/barcode/net/one-dimensional-barcode-types/how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
 Learn how to set up barcode generation in C# using Aspose.BarCode with a complete step‑by‑step guide.
-### [Read barcode from image – C# barcode reader example]({{< relref "read-barcode-from-image-c-barcode-reader-example/_index.md" >}})
+### [Read barcode from image – C# barcode reader example](/barcode/net/one-dimensional-barcode-types/read-barcode-from-image-c-barcode-reader-example/)
 Learn how to read barcodes from images in C# using Aspose.BarCode .NET with a step‑by‑step example.
-### [Read barcode from image in C# – BarCodeReader tutorial]({{< relref "read-barcode-from-image-in-c-barcodereader-tutorial/_index.md" >}})
+### [Read barcode from image in C# – BarCodeReader tutorial](/barcode/net/one-dimensional-barcode-types/read-barcode-from-image-in-c-barcodereader-tutorial/)
 Learn how to read barcodes from images in C# using Aspose.BarCodeReader. Follow our step‑by‑step guide for easy implementation.
-### [How to read barcode images in C# – full example guide]({{< relref "how-to-read-barcode-images-in-c-full-example-guide/_index.md" >}})
+### [How to read barcode images in C# – full example guide](/barcode/net/one-dimensional-barcode-types/how-to-read-barcode-images-in-c-full-example-guide/)
 Full example guide on reading barcode images in C# using Aspose.BarCode, covering setup, decoding, and error handling.
-### [Read barcode from image in C# – BarCodeReader tutorial]({{< relref "read-barcode-from-image-in-c-barcodereader-tutorial/_index.md" >}})
+### [Read barcode from image in C# – BarCodeReader tutorial](/barcode/net/one-dimensional-barcode-types/read-barcode-from-image-in-c-barcodereader-tutorial/)
 Learn how to read barcodes from images in C# using Aspose.BarCodeReader. Follow our step‑by‑step guide for easy implementation.
-### [How to read barcode from image in C# using Aspose.BarCode]({{< relref "how-to-read-barcode-from-image-in-c-using-aspose-barcode/_index.md" >}})
+### [How to read barcode from image in C# using Aspose.BarCode](/barcode/net/one-dimensional-barcode-types/how-to-read-barcode-from-image-in-c-using-aspose-barcode/)
 Learn how to read barcodes from images in C# using Aspose.BarCode with a step‑by‑step guide.
-### [How to read barcodes from image using C# – step‑by‑step guide]({{< relref "how-to-read-barcodes-from-image-using-c-step-by-step-guide/_index.md" >}})
+### [How to read barcodes from image using C# – step‑by‑step guide](/barcode/net/one-dimensional-barcode-types/how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
 Step‑by‑step guide to reading barcodes from images in C# with Aspose.BarCode, covering setup, decoding, and error handling.
-### [Generate barcode from text using Aspose.BarCode – C# Guide]({{< relref "generate-barcode-from-text-using-aspose-barcode-c-guide/_index.md" >}})
+### [Generate barcode from text using Aspose.BarCode – C# Guide](/barcode/net/one-dimensional-barcode-types/generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Learn how to generate a barcode from text in C# using Aspose.BarCode. Follow our step‑by‑step guide for quick implementation.
-### [How to generate barcode with custom text using Aspose.BarCode for .NET]({{< relref "how-to-generate-barcode-with-custom-text-using-aspose-barcod/_index.md" >}})
+### [How to generate barcode with custom text using Aspose.BarCode for .NET](/barcode/net/one-dimensional-barcode-types/how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Learn how to generate barcodes with custom text in .NET using Aspose.BarCode. Step‑by‑step guide for developers.
-### [How to Generate Barcode in C# – Complete Programming Guide]({{< relref "how-to-generate-barcode-in-c-complete-programming-guide/_index.md" >}})
+### [How to Generate Barcode in C# – Complete Programming Guide](/barcode/net/one-dimensional-barcode-types/how-to-generate-barcode-in-c-complete-programming-guide/)
 Comprehensive guide to generating barcodes in C# using Aspose.BarCode, covering setup, encoding options, and customization.
-### [How to generate a barcode with special characters in C#]({{< relref "how-to-generate-a-barcode-with-special-characters-in-c/_index.md" >}})
+### [How to generate a barcode with special characters in C#](/barcode/net/one-dimensional-barcode-types/how-to-generate-a-barcode-with-special-characters-in-c/)
 Learn how to generate barcodes with special characters in C# using Aspose.BarCode, with clear step‑by‑step instructions.
-### [How to set barcode parameters in C# using Aspose.Barcode]({{< relref "how-to-set-barcode-parameters-in-c-using-aspose-barcode/_index.md" >}})
-### [How to generate barcode with Aspose in C#]({{< relref "how-to-generate-barcode-with-aspose-in-c/_index.md" >}})
+### [How to set barcode parameters in C# using Aspose.Barcode](/barcode/net/one-dimensional-barcode-types/how-to-set-barcode-parameters-in-c-using-aspose-barcode/)
+### [How to generate barcode with Aspose in C#](/barcode/net/one-dimensional-barcode-types/how-to-generate-barcode-with-aspose-in-c/)
 Learn how to generate barcodes in C# using Aspose.BarCode with a step‑by‑step guide.
-### [How to save barcode as an image using Aspose.BarCode for .NET]({{< relref "how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/_index.md" >}})
+### [How to save barcode as an image using Aspose.BarCode for .NET](/barcode/net/one-dimensional-barcode-types/how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Learn how to save generated barcodes as image files using Aspose.BarCode for .NET, with step‑by‑step instructions.
 
 ## Frequently asked questions

@@ -58,18 +58,17 @@ Efficiency and accuracy are key in today's business world, and mastering GS1 Dat
 
 In conclusion, mastering GS1 barcode encoding with Aspose.BarCode for .NET is essential for anyone involved in barcode generation. These tutorials cover various aspects of GS1 barcodes, ensuring you have the knowledge and tools to create accurate and efficient barcodes for your industry. Don't miss the opportunity to become a barcode encoding expert. Start now!
 ## GS1 barcode encoding tutorials
-### {{< relref "gs1-code-128-example" >}}
-### {{< relref "gs1-coupon-supplement-space-configuration" >}}
-### {{< relref "gs1-coupon-upc-a-code-128-encoding" >}}
-### {{< relref "gs1-coupon-upc-a-databar-configuration" >}}
-### {{< relref "gs1-datamatrix-example" >}}
-### {{< relref "create-gs1-barcode-in-c-complete-step-by-step-guide" >}}
-### {{< relref "create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui" >}}
-### {{< relref "create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417" >}}
-### {{< relref "how-to-create-barcode-image-in-c-with-gs1-micropdf417" >}}
-### {{< relref "create-barcode-gs1-in-c-and-export-it-as-png" >}}
-### {{< relref "how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode" >}}
-
+### [How to create code 128 barcode with GS1 using Aspose.BarCode](/barcode/net/gs1-barcode-encoding/gs1-code-128-example/)
+### [How to create barcode custom space for GS1 coupon supplement](/barcode/net/gs1-barcode-encoding/gs1-coupon-supplement-space-configuration/)
+### [Generate barcode from string – GS1 Coupon UPC-A Code 128](/barcode/net/gs1-barcode-encoding/gs1-coupon-upc-a-code-128-encoding/)
+### [How to generate barcode .net with GS1 Coupon UPC‑A Databar](/barcode/net/gs1-barcode-encoding/gs1-coupon-upc-a-databar-configuration/)
+### [Create barcode image C# – GS1 DataMatrix Example](/barcode/net/gs1-barcode-encoding/gs1-datamatrix-example/)
+### [Create GS1 Barcode in C# – Complete Step‑by‑Step Guide](/barcode/net/gs1-barcode-encoding/create-gs1-barcode-in-c-complete-step-by-step-guide/)
+### [Create GS1 Barcode Images in C# – How to Generate Barcode C# Quickly](/barcode/net/gs1-barcode-encoding/create-gs1-barcode-images-in-c-how-to-generate-barcode-c-qui/)
+### [Create barcode PNG in C# – full guide to GS1 Micro PDF417](/barcode/net/gs1-barcode-encoding/create-barcode-png-in-c-full-guide-to-gs1-micro-pdf417/)
+### [Generate a GS1 MicroPDF417 barcode image in C# with Aspose.BarCode](/barcode/net/gs1-barcode-encoding/how-to-create-barcode-image-in-c-with-gs1-micropdf417/)
+### [Create barcode GS1 in C# and export it as PNG](/barcode/net/gs1-barcode-encoding/create-barcode-gs1-in-c-and-export-it-as-png/)
+### [How to create GS1 barcode in ASP.NET with Aspose.BarCode](/barcode/net/gs1-barcode-encoding/how-to-create-gs1-barcode-in-asp-net-with-aspose-barcode/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

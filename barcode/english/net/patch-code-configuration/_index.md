@@ -73,10 +73,10 @@ Customizing Patch Code sets is an essential skill for those who want to optimize
 By applying the steps above, you’ll be able to implement a reliable **document management barcode** strategy that scales with your organization.
 
 ## Patch code configuration tutorials
-### [Patch code format configuration]({{< relref "patch-code-format-configuration/_index.md" >}})
+### [Patch code format configuration](/barcode/net/patch-code-configuration/patch-code-format-configuration/)
 Generate Patch Code barcodes effortlessly with Aspose.BarCode for .NET. Learn the steps to create Patch Code barcodes and enhance your document management system. Download the library now!
 
-### [Patch code set customization]({{< relref "patch-code-set-customization/_index.md" >}})
+### [Patch code set customization](/barcode/net/patch-code-configuration/patch-code-set-customization/)
 Learn how to generate barcodes in .NET using Aspose.BarCode. Customize and integrate barcodes into your applications effortlessly.
 
 ## Frequently asked questions

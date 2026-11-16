@@ -152,15 +152,14 @@ A: You can get a temporary license [temporary license request page](https://purc
 **Tested With:** Aspose.BarCode for Java latest version  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
-- [Create CODE_128 barcode in Java]({{< relref "setting-size-unit-barcode-image" >}})
-- [Create Codabar barcode with checksum in Java]({{< relref "applying-checksum-codabar" >}})
-- [Add barcode to PDF in Java]({{< relref "adding-barcode-to-pdf-document" >}})
-
+- [Create CODE_128 barcode in Java](/barcode/java/advanced-settings-and-optimization/setting-size-unit-barcode-image/)
+- [Create Codabar barcode with checksum in Java](/barcode/java/checksum-and-validation/applying-checksum-codabar/)
+- [Add barcode to PDF in Java](/barcode/java/barcode-basics/adding-barcode-to-pdf-document/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
