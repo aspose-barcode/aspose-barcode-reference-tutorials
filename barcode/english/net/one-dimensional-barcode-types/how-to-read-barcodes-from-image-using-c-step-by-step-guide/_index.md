@@ -263,9 +263,9 @@ Happy coding, and feel free to experiment with different image sources and barco
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Decode PDF417 barcodes in C# and read barcode image]({{< relref "compact-pdf417-encoding/how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c.md" >}})
-- [Read barcode from image in C# using Aspose.BarCode]({{< relref "compact-pdf417-encoding/how-to-read-barcode-from-image-c-using-aspose-barcode.md" >}})
-- [Read barcode from image C# – complete guide with Macro PDF417]({{< relref "compact-pdf417-encoding/read-barcode-from-image-c-complete-guide-with-macro-pdf417.md" >}})
+- [Decode PDF417 barcodes in C# and read barcode image](/barcode/net/compact-pdf417-encoding/how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c/)
+- [Read barcode from image in C# using Aspose.BarCode](/barcode/net/compact-pdf417-encoding/how-to-read-barcode-from-image-c-using-aspose-barcode/)
+- [Read barcode from image C# – complete guide with Macro PDF417](/barcode/net/compact-pdf417-encoding/read-barcode-from-image-c-complete-guide-with-macro-pdf417/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
