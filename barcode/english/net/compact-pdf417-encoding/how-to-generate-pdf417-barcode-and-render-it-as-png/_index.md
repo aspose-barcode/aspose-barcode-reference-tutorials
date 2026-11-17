@@ -76,7 +76,6 @@ First, set up a minimal console application that will host the barcode generatio
 
 ```csharp
 using System;
-using Aspose.BarCode;
 using Aspose.BarCode.Generation;
 
 namespace Pdf417Demo
@@ -101,7 +100,7 @@ Now we’ll **generate PDF417 barcode** and specify the module (X‑dimension) s
 static void GeneratePdf417(string text, string outputPath)
 {
     // Initialize a PDF417 barcode generator with the desired text
-    BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, text);
+    BarcodeGenerator generator = new BarcodeGenerator(Aspose.BarCode.Generation.EncodeTypes.Pdf417, text);
 
     // Set the size of a single barcode module (X‑dimension) in pixels
     generator.Parameters.Barcode.XDimension.Pixels = 2; // 2 px per module
@@ -111,7 +110,7 @@ static void GeneratePdf417(string text, string outputPath)
     generator.Parameters.Barcode.Pdf417.Rows    = 9;   // 9 rows
 
     // Render the barcode and save it as a PNG image
-    generator.Save(outputPath, BarCodeImageFormat.Png);
+    generator.Save(outputPath, Aspose.BarCode.Generation.BarCodeImageFormat.Png);
 }
 ```
 
@@ -157,7 +156,7 @@ If the scan fails, double‑check the X‑dimension and column/row values—larg
 |----------|------------|
 | **More data** (e.g., a URL) | Increase `Columns` or `Rows` to accommodate extra codewords. |
 | **High‑resolution print** | Raise `XDimension.Pixels` to 3‑4 px for sharper bars. |
-| **Transparent background** | Use `generator.Save(outputPath, BarCodeImageFormat.Png, new ImageOptions { BackgroundColor = Color.Transparent })`. |
+| **Transparent background** | Use `generator.Save(outputPath, Aspose.BarCode.Generation.BarCodeImageFormat.Png, new Aspose.BarCode.ImageOptions { BackgroundColor = System.Drawing.Color.Transparent })`. |
 | **Different image format** | Replace `BarCodeImageFormat.Png` with `Jpeg` or `Bmp` as needed. |
 
 These variations answer the **how to generate PDF417** question for different requirements while keeping the core logic identical.
@@ -171,7 +170,7 @@ Next, explore related topics such as **embedding the PNG in a PDF** (look up *re
 Happy coding, and let your barcodes do the heavy lifting!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

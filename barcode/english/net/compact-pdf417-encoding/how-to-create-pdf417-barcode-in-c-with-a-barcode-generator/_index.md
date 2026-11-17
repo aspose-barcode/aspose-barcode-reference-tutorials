@@ -111,11 +111,11 @@ class Program
 
 ## Step 2 – Configure the X‑dimension (module width)
 
-The X‑dimension controls the width of the smallest bar (module). A common value for on‑screen rendering is 2 pixels.
+The X‑dimension controls the width of the smallest bar (module). A common value for on‑screen rendering is 2 units.
 
 ```csharp
-        // Step 2: Set the X‑dimension (module width) to 2 pixels
-        barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2;
+        // Step 2: Set the X‑dimension (module width) to 2 (units)
+        barcodeGenerator.Parameters.Barcode.XDimension = 2;
 ```
 
 Setting the X‑dimension explicitly prevents the generator from using its default, which might produce a barcode that is too small for some scanners.
@@ -221,7 +221,7 @@ class Program
             EncodeTypes.Pdf417, gs1Data);
 
         // Configure appearance
-        generator.Parameters.Barcode.XDimension.Pixels = 2;   // module width
+        generator.Parameters.Barcode.XDimension = 2;   // module width
         generator.Parameters.Barcode.Pdf417.Columns = 4;    // compact layout
         generator.Parameters.Barcode.Pdf417.ErrorCorrectionLevel = 5; // optional
 
@@ -268,7 +268,7 @@ With this foundation you can generate any PDF417 or GS1 barcode directly from a 
 Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

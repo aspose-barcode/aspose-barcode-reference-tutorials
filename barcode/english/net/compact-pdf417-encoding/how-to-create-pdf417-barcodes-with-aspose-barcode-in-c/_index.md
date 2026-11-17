@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-17
-description: How to create PDF417 barcodes using Aspose.BarCode – step‑by‑step guide
-  that also shows how to create barcode aspose in C#.
+description: Learn how to generate PDF417 barcodes using Aspose.BarCode – step‑by‑step guide that also shows how to create barcode aspose in C#.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -11,27 +10,22 @@ keywords:
 - create barcode aspose
 language: en
 lastmod: 2026-11-17
-og_description: How to create PDF417 barcodes using Aspose.BarCode. This tutorial
-  walks you through the exact steps to create barcode aspose, configure Macro PDF417
-  metadata, and save the image.
+og_description: Learn how to generate PDF417 barcodes using Aspose.BarCode. This tutorial walks you through the exact steps to create barcode aspose, configure Macro PDF417 metadata, and save the image.
 og_image_alt: Screenshot of a PDF417 barcode generated with Aspose.BarCode in C#
 og_title: How to create PDF417 barcodes with Aspose.BarCode – complete C# guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-17'
-  description: How to create PDF417 barcodes using Aspose.BarCode – step‑by‑step guide
-    that also shows how to create barcode aspose in C#.
+  description: Learn how to generate PDF417 barcodes using Aspose.BarCode – step‑by‑step guide that also shows how to create barcode aspose in C#.
   headline: How to create PDF417 barcodes with Aspose.BarCode in C#
   type: TechArticle
-- description: How to create PDF417 barcodes using Aspose.BarCode – step‑by‑step guide
-    that also shows how to create barcode aspose in C#.
+- description: Learn how to generate PDF417 barcodes using Aspose.BarCode – step‑by‑step guide that also shows how to create barcode aspose in C#.
   name: How to create PDF417 barcodes with Aspose.BarCode in C#
   steps:
   - name: Set up the project and import Aspose.BarCode
     text: 'Create a new console project and add the Aspose.BarCode NuGet package:'
   - name: Initialise the `BarcodeGenerator` for Macro PDF417
-    text: The `BarcodeGenerator` constructor takes the barcode type and the text you
-      want to encode. For Macro PDF417 you use `EncodeTypes.MacroPdf417`.
+    text: The `BarcodeGenerator` constructor takes the barcode type and the text you want to encode. For Macro PDF417 you use `EncodeTypes.Pdf417Macro`.
   - name: Configure appearance and Macro PDF417 metadata
     text: Configure appearance and Macro PDF417 metadata
   - name: Save the barcode image
@@ -39,8 +33,7 @@ schemas:
       string outputPath = "MacroPdf417.png"; generator.Save(outputPath, BarCodeImageFormat.Png);
       Console.WriteLine($"PDF417 barcode saved to {outputPath}"); } ```'
   - name: Full, runnable example
-    text: 'Putting everything together, here’s the complete program you can compile
-      and run immediately:'
+    text: 'Putting everything together, here’s the complete program you can compile and run immediately:'
   type: HowTo
 tags:
 - barcode
@@ -98,12 +91,12 @@ using Aspose.BarCode.Generation;
 
 ### Step 2: Initialise the `BarcodeGenerator` for Macro PDF417
 
-The `BarcodeGenerator` constructor takes the barcode type and the text you want to encode. For Macro PDF417 you use `EncodeTypes.MacroPdf417`.
+The `BarcodeGenerator` constructor takes the barcode type and the text you want to encode. For Macro PDF417 you use `EncodeTypes.Pdf417Macro`.
 
 ```csharp
 // Initialise a Macro PDF417 generator with the data you want to encode.
 using (BarcodeGenerator generator = 
-       new BarcodeGenerator(EncodeTypes.MacroPdf417, "Sample text for PDF417"))
+       new BarcodeGenerator(EncodeTypes.Pdf417Macro, "Sample text for PDF417"))
 {
     // The generator instance will be disposed automatically at the end of the block.
 ```
@@ -194,7 +187,7 @@ namespace Pdf417Demo
         {
             // Step 1‑4: generate a Macro PDF417 barcode and save it as PNG
             using (BarcodeGenerator generator = 
-                   new BarcodeGenerator(EncodeTypes.MacroPdf417, "Sample text for PDF417"))
+                   new BarcodeGenerator(EncodeTypes.Pdf417Macro, "Sample text for PDF417"))
             {
                 // Appearance
                 generator.Parameters.Barcode.XDimension.Pixels = 2;
@@ -233,9 +226,7 @@ namespace Pdf417Demo
 | *Can I generate multiple segments in a loop?* | Yes. Increment `MacroPdf417SegmentID` for each iteration, keep `MacroPdf417FileID` constant, and update `MacroPdf417SegmentsCount` only after you know the total number of segments. |
 | *What if the data exceeds a single PDF417 symbol?* | Macro
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 

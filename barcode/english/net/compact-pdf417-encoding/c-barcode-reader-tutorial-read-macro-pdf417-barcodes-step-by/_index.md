@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-17
-description: c# barcode reader tutorial that shows how to decode Macro PDF417 barcodes
-  using BarCodeReader. Includes full code, explanations, and tips.
+description: c# barcode reader tutorial that shows how to decode Macro PDF417 barcodes using GroupDocs.Barcode BarCodeReader. Includes full code, explanations, and tips.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,22 +13,20 @@ keywords:
 - barcode scanning in C#
 language: en
 lastmod: 2026-11-17
-og_description: c# barcode reader tutorial walks you through reading Macro PDF417
-  barcodes with BarCodeReader. Complete code, why it works, and common pitfalls.
+og_description: c# barcode reader tutorial walks you through reading Macro PDF417 barcodes with GroupDocs.Barcode BarCodeReader. Complete code, why it works, and common pitfalls.
 og_image_alt: Console window displaying Macro PDF417 barcode fields read by a C# program
-og_title: c# barcode reader tutorial – decode Macro PDF417 barcodes
+og_title: c# barcode reader tutorial – decode Macro PDF417 barcodes with GroupDocs.Barcode
 schemas:
 - author: GroupDocs
   dateModified: '2026-11-17'
-  description: c# barcode reader tutorial that shows how to decode Macro PDF417 barcodes
-    using BarCodeReader. Includes full code, explanations, and tips.
-  headline: c# barcode reader tutorial – read Macro PDF417 barcodes step by step
+  description: c# barcode reader tutorial that shows how to decode Macro PDF417 barcodes using GroupDocs.Barcode BarCodeReader. Includes full code, explanations, and tips.
+  headline: c# barcode reader tutorial – read Macro PDF417 barcodes step by step with GroupDocs.Barcode
   type: TechArticle
 tags:
 - barcode
 - C#
 - .NET
-title: c# barcode reader tutorial – read Macro PDF417 barcodes step by step
+title: c# barcode reader tutorial – read Macro PDF417 barcodes step by step using GroupDocs.Barcode
 url: /net/compact-pdf417-encoding/c-barcode-reader-tutorial-read-macro-pdf417-barcodes-step-by/
 ---
 
@@ -45,7 +42,7 @@ You’ll finish this tutorial with a complete, runnable console application that
 
 ## What this tutorial covers
 
-* Setting up the **BarCodeReader class** from the GroupDocs.Barcode (or Aspose.Barcode) library.  
+* Setting up the **BarCodeReader class** from the GroupDocs.Barcode (or Aspose.BarCode) library.  
 * Using the **DecodeType enumeration** to target Macro PDF417 specifically.  
 * Accessing the extended result object to read Macro PDF417‑specific information.  
 * Tips for **barcode scanning in C#** when dealing with multi‑segment PDFs, error handling, and performance considerations.  
@@ -54,10 +51,10 @@ You’ll finish this tutorial with a complete, runnable console application that
 
 * .NET 6.0 SDK or later installed.  
 * An IDE such as Visual Studio 2022 or VS Code.  
-* The NuGet package `GroupDocs.Barcode` (or `Aspose.Barcode`) added to your project.  
+* The NuGet package `GroupDocs.Barcode` (or `Aspose.BarCode`) added to your project.  
 * A sample image that contains a Macro PDF417 barcode (e.g., `MacroPdf417.png`).  
 
-> **Pro tip:** If you use `GroupDocs.Barcode`, the namespace is `GroupDocs.Barcode.BarcodeReader`; for `Aspose.Barcode` the class name is identical, so the code below works with either library after you reference the correct package.
+> **Pro tip:** If you use `GroupDocs.Barcode`, the namespace is `GroupDocs.Barcode.BarcodeReader`; for `Aspose.BarCode` the class name is identical, so the code below works with either library after you reference the correct package.
 
 ## Step 1: Install the barcode library
 
@@ -66,7 +63,7 @@ Open a terminal in your project folder and run:
 ```bash
 dotnet add package GroupDocs.Barcode
 # or, for Aspose users:
-# dotnet add package Aspose.Barcode
+# dotnet add package Aspose.BarCode
 ```
 
 The package adds the `BarCodeReader` class and the `DecodeType` enumeration that we’ll need for Macro PDF417 decoding.
@@ -86,7 +83,7 @@ Replace the generated `Program.cs` with the code shown in the next step.
 
 ```csharp
 using System;
-using GroupDocs.Barcode;               // Change to Aspose.Barcode if you installed Aspose
+using GroupDocs.Barcode;               // Change to Aspose.BarCode if you installed Aspose
 using GroupDocs.Barcode.Common;        // Holds DecodeType enumeration
 
 namespace MacroPdf417Reader
@@ -183,7 +180,7 @@ This **c# barcode reader tutorial** gave you a complete, production‑ready exam
 You now have the fundamentals of **barcode scanning in C#** for macro‑enabled PDF417 symbols. Try extending the code to batch‑process folders, add asynchronous execution, or feed the extracted metadata into a document‑assembly pipeline. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

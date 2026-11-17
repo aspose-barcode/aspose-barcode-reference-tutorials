@@ -56,7 +56,7 @@ tags:
 - csharp
 - image generation
 title: How to save barcode as PNG and enable compact mode in C#
-url: /net/compact-pdf417-encoding/how-to-save-barcode-as-png-and-enable-compact-mode-in-c/
+url: /barcode/english/net/compact-pdf417-encoding/how-to-save-barcode-as-png-and-enable-compact-mode-in-c/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -220,7 +220,7 @@ From here you can explore related topics such as adding a logo to the barcode, c
 Feel free to experiment with different column counts, X‑dimensions, and image formats to meet the exact specifications of your project. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
