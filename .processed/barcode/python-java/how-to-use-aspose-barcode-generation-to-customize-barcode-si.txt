@@ -1,0 +1,7 @@
+Title: How to use Aspose barcode generation to customize barcode size in C#
+Slug: how-to-use-aspose-barcode-generation-to-customize-barcode-si
+Category: general
+ProcessedDate: 2026-11-17T20:22:31.599310
+SourceRepo: AI Search API
+Keywords: aspose barcode generation, customize barcode size, barcode with module width, adjust barcode dimensions
+PRNumber: 175
