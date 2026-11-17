@@ -183,6 +183,15 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 ### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 
 
+### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
+
+
+### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
+
+
+### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
+
+
 ### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
 
 
@@ -204,6 +213,9 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 ### [Como gerar código de barras PDF417 com Aspose.BarCode em C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
 
+### [Como criar códigos de barras PDF417 com Aspose.BarCode em C#](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
+
+
 ### [Como criar código de barras a partir de texto em C# usando Aspose.BarCode](./how-to-create-barcode-from-text-in-c-using-aspose-barcode/)
 
 
@@ -211,6 +223,18 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 
 
 ### [Como criar código de barras PDF417 com layout personalizado em C#](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
+
+
+### [Como salvar código de barras como PNG e habilitar modo compacto em C#](./how-to-save-barcode-as-png-and-enable-compact-mode-in-c/)
+
+
+### [Como criar código de barras PDF417 em C# – guia completo de programação](./how-to-create-pdf417-barcode-in-c-with-a-barcode-generator/)
+
+
+### [Como gerar código de barras PDF417 e renderizá‑lo como PNG](./how-to-generate-pdf417-barcode-and-render-it-as-png/)
+
+
+### [Tutorial de leitor de código de barras C# – ler códigos de barras Macro PDF417 passo a passo](./c-barcode-reader-tutorial-read-macro-pdf417-barcodes-step-by/)
 
 
 ## Como gerar código de barras PDF417 em C# – guia completo de programação

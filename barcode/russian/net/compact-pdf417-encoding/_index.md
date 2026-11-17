@@ -139,15 +139,19 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [Generate PDF417 barcode as PNG in C# – step‑by‑step guide](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
 
+### [Как сгенерировать штрих‑код PDF417 и отобразить его в формате PNG](./how-to-generate-pdf417-barcode-and-render-it-as-png/)
 
 ### [How to read PDF417 barcode in C# – full barcode reader guide](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
 
-### [How to generate PDF417 barcode in C# with macro support](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
+### [How to generate PDF417 barcode in C# with macro support](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-support/)
 
 
 ### [How to create barcode PNG in C# – step‑by‑step guide](./how-to-create-barcode-png-in-c-step-by-step-guide/)
 
+### [How to create PDF417 barcodes with Aspose.BarCode in C#](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
+
+### [How to create PDF417 barcode in C# with a barcode generator](./how-to-create-pdf417-barcode-in-c-with-a-barcode-generator/)
 
 ### [How to generate PDF417 barcode in C# with Macro‑PDF417 settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 
@@ -169,6 +173,7 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [How to decode PDF417 barcodes in C# with BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 
+### [C# учебник по считыванию штрих‑кодов – чтение Macro PDF417 штрих‑кодов шаг за шагом](./c-barcode-reader-tutorial-read-macro-pdf417-barcodes-step-by/)
 
 - [Как декодировать штрих‑коды PDF417 в C# и считывать изображение штрих‑кода C#](./how-to-decode-pdf417-barcodes-in-c-and-read-barcode-image-c/)
 
@@ -221,40 +226,6 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 ### [Как считывать штрих‑коды PDF417 в C# с Aspose – пошаговое руководство](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
 
-## Часто задаваемые вопросы
-### [Как сгенерировать штрих‑код в C# с Aspose.BarCode и добавить метаданные](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
-Узнайте, как создать штрих‑код в C# с помощью Aspose.BarCode и добавить к нему метаданные.
-### [Как сгенерировать micro pdf417 штрих‑код в C# – пошаговое руководство](./how-to-generate-micro-pdf417-barcode-in-c-step-by-step-guide/)
-Узнайте, как создать micro PDF417 штрих‑код в C# с помощью Aspose.BarCode, шаг за шагом.
-### [Как сгенерировать штрих‑код PDF417 в C# с пользовательскими размерами](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
-Узнайте, как задать пользовательские размеры штрих‑кода PDF417 в C# с помощью Aspose.BarCode.
-
-### [Как считывать штрих‑код с изображения в C# с использованием Aspose.BarCode](./how-to-read-barcode-from-image-c-using-aspose-barcode/)
-Узнайте, как считывать штрих‑коды с изображений в C# с помощью Aspose.BarCode, включая настройку параметров чтения.
-
-**В: Какой максимальный объём данных можно хранить в Compact PDF417 штрих‑коде?**  
-О: Около 2 KB текста или бинарных данных, в зависимости от выбранного уровня коррекции ошибок.
-
-**В: Чем коррекция ошибок PDF417 отличается от других типов штрих‑кодов?**  
-О: PDF417 использует коды Рида‑Соломона, предлагая восемь выбираемых уровней (0‑8), позволяющих точно настроить избыточность относительно размера символа.
-
-**В: Можно ли сгенерировать Compact PDF417 штрих‑код в консольном приложении .NET Core?**  
-О: Да. Aspose.BarCode для .NET полностью поддерживает .NET Core 3.1 и более новые версии, а также .NET 5/6.
-
-**В: Можно ли настроить цвета переднего и заднего плана штрих‑кода?**  
-О: Абсолютно. Используйте свойства `ForeColor` и `BackColor` класса `BarcodeGenerator`, чтобы подобрать цвета под тему вашего интерфейса.
-
-**В: Нужно ли устанавливать какие‑либо дополнительные шрифты или ресурсы?**  
-О: Внешние шрифты не требуются; библиотека обрабатывает всё рендеринг внутри.
-
----
-
-**Last Updated:** 2026-07-04  
-**Tested With:** Aspose.BarCode 24.11 for .NET  
-**Author:** Aspose
-
-## Связанные учебные материалы
-
 - [Как создать штрих‑код – Compact PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
 - [Полные учебные материалы и примеры Aspose.BarCode для .NET](/barcode/net/)
 - [Как создать Aztec штрих‑код с коррекцией ошибок в .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
@@ -264,130 +235,7 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 - [Как сохранять изображения штрих‑кодов в C# – полное руководство](/barcode/net/)
 - [Создание метаданных штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
 - [Генерация штрих‑кода PDF417 в C# – Полное руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 с компактными настройками в C#](/barcode/net/)
-- [Как читать PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Как считывать штрих‑коды PDF417 в C# – полное пошаговое руководство](/barcode/net/)
-- [Как создать штрих‑код PDF417 с Aspose – Полное руководство](/barcode/net/)
-- [Как читать PDF417 в C# – Полный пример считывателя штрих‑кодов](/barcode/net/)
-- [Как создать штрих‑код PDF417 с Aspose – Полное пошаговое руководство](/barcode/net/)
-- [Как декодировать штрих‑коды PDF417 в C# – пошаговое руководство](/barcode/net/)
-- [Генерировать штрих‑код PDF417 в C# – полное руководство с компактным макетом](/barcode/net/)
-- [Генерация штрих‑кода C# с Macro PDF417 – полный пример](/barcode/net/)
-- [Как создать микро‑pdf417 штрих‑код и сгенерировать PNG в C#](/barcode/net/)
-- [Как создать микро PDF417 штрих‑код в C#](/barcode/net/)
-- [Как использовать генератор штрих‑кода C# для Macro PDF417](/barcode/net/)
-- [Как использовать генератор штрих‑кода C# для Macro PDF417](/barcode/net/)
-- [Как считывать штрих‑коды PDF417 в C# с Aspose – пошаговое руководство](/barcode/net/)
-- [Как создать штрих‑код – Compact PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Как создать штрих‑код PDF417 в C# – Полное руководство](/barcode/net/)
-- [Как создать micro PDF417 штрих‑код в C# – пошаговое руководство](/barcode/net/)
-- [Как создать micro штрих‑код PDF417 в C# – пошаговое руководство](/barcode/net/)
-- [Как создать штрих‑код PDF417 в C# и сохранить его как PNG](/barcode/net/)
-- [Создать PNG‑изображение штрих‑кода PDF417 в C# – полное руководство](/barcode/net/)
-- [Настройка размера штрих‑кода – руководство на C# по генерации PDF417](/barcode/net/)
-- [Пример Aspose.BarCode: создание Macro PDF417 на C#](/barcode/net/)
-- [Гид по генератору штрих‑кодов C#: создание MicroPdf417](/barcode/net/)
-- [Штрих‑код со специальными символами – Полное руководство по генерации PDF417 с помощью Aspose](/barcode/net/)
-- [Создать PNG‑изображение штрих‑кода в C# с помощью генератора PDF417](/barcode/net/)
-- [Создать штрих‑код с данными на C# – пошаговое руководство](/barcode/net/)
-- [Создайте микроштрих‑код PDF417 в C# – пошаговое руководство](/barcode/net/)
-- [Создание изображения micro PDF417 в C# – пошаговое руководство](/barcode/net/)
-- [Создание штрих‑кода PDF417 на C# – пошаговое руководство](/barcode/net/)
-- [Создать штрих‑код PDF417 в .NET – Полное руководство по программированию](/barcode/net/)
-- [Генерация штрих‑кода Aspose – полное руководство на C#](/barcode/net/)
-- [Генерация штрих‑кода из текста на C# – полное пошаговое руководство](/barcode/net/)
-- [Генерация штрих‑кода из текста на C# – полное пошаговое руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 на C# – полное руководство с Aspose.BarCode](/barcode/net/)
-- [Генерировать штрих‑код PDF417 в C# – Создание штрих‑кода PDF417 C#](/barcode/net/)
-- [Генерация штрих‑кода PDF417 в C# – пошаговое руководство](/barcode/net/)
-- [Как создать micro PDF417 штрих‑код и конвертировать его в PNG на C#](/barcode/net/)
-- [Как создать изображение штрих‑кода PDF417 в C# с параметрами Macro PDF417](/barcode/net/)
-- [Как декодировать штрих‑коды PDF417 в C# – полное руководство](/barcode/net/)
-- [Как сгенерировать изображение штрих‑кода в C# – Руководство по MicroPdf417](/barcode/net/)
-- [Как создать изображение штрих‑кода PDF417 в C# с помощью Aspose](/barcode/net/)
-- [Как читать PDF417 в C# – Полный пример штрих‑кода](/barcode/net/)
-- [Как читать PDF417 в C# – полное руководство по чтению штрих‑кода](/barcode/net/)
-- [Как сохранить штрих‑код как изображение – полное руководство C#](/barcode/net/)
-- [Как использовать генератор штрих‑кода Aspose Barcode в C# для MacroPdf417](/barcode/net/)
-- [Считать штрих‑код с изображения C# – полное руководство с Macro PDF417](/barcode/net/)
-- [Чтение нескольких штрих‑кодов C# – Полное руководство с PDF417](/barcode/net/)
-- [Чтение штрих‑кода PDF417 на C# – пример считывателя штрих‑кода](/barcode/net/)
-
-- [Как создать штрих‑код – Compact PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Полные учебные материалы и примеры Aspose.BarCode для .NET](/barcode/net/)
-- [Как создать Aztec штрих‑код с коррекцией ошибок в .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-- [Декодировать штрих‑код с изображения с примером считывателя штрих‑кодов на C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
-- [Как создать штрих‑код PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Генерация PDF417 штрих‑кода в C# – руководство по генератору штрих‑кодов](/barcode/net/)
-- [Как сохранять изображения штрих‑кодов в C# – полное руководство](/barcode/net/)
-- [Создание метаданных штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
 - [Генерация штрих‑кода PDF417 в C# – Полное руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 с компактными настройками в C#](/barcode/net/)
-- [Как читать PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Как считывать штрих‑коды PDF417 в C# – полное пошаговое руководство](/barcode/net/)
-- [Создать штрих‑код PDF417 с Aspose – Полное руководство](/barcode/net/)
-- [Как читать PDF417 в C# – Полный пример считывателя штрих‑кодов](/barcode/net/)
-- [Как создать штрих‑код PDF417 с Aspose – Полное пошаговое руководство](/barcode/net/)
-- [Как декодировать штрих‑коды PDF417 в C# – пошаговое руководство](/barcode/net/)
-- [Генерировать штрих‑код PDF417 в C# – полное руководство с компактным макетом](/barcode/net/)
-- [Генерация штрих‑кода C# с Macro PDF417 – полный пример](/barcode/net/)
-- [Как создать микро‑pdf417 штрих‑код и сгенерировать PNG в C#](./how-to-create-micro-pdf417-barcode-and-generate-png-in-c/)
-
-
-- [Как создать микро PDF417 штрих‑код в C#](./how-to-create-micro-pdf417-barcode-in-c/)
-
-
-- [Как использовать генератор штрих‑кода C# для Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
-
-### [Как использовать генератор штрих‑кода C# для Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
-
-
-### [Как считывать штрих‑коды PDF417 в C# с Aspose – пошаговое руководство](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
-
-- [Как создать штрих‑код – Compact PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Полные учебные материалы и примеры Aspose.BarCode для .NET](/barcode/net/)
-- [Как создать Aztec штрих‑код с коррекцией ошибок в .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-- [Декодировать штрих‑код с изображения с примером считывателя штрих‑кодов на C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
-- [Как создать штрих‑код PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Генерация PDF417 штрих‑кода в C# – руководство по генератору штрих‑кодов](/barcode/net/)
-- [Как сохранять изображения штрих‑кодов в C# – полное руководство](/barcode/net/)
-- [Создание метаданных штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 в C# – Полное руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 с компактными настройками в C#](/barcode/net/)
-- [Как читать PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Как считывать штрих‑коды PDF417 в C# – полное пошаговое руководство](/barcode/net/)
-- [Создать штрих‑код PDF417 с Aspose – Полное руководство](/barcode/net/)
-- [Как читать PDF417 в C# – Полный пример считывателя штрих‑кодов](/barcode/net/)
-- [Как создать штрих‑код PDF417 с Aspose – Полное пошаговое руководство](/barcode/net/)
-- [Как декодировать штрих‑коды PDF417 в C# – пошаговое руководство](/barcode/net/)
-- [Генерировать штрих‑код PDF417 в C# – полное руководство с компактным макетом](/barcode/net/)
-- [Генерация штрих‑кода C# с Macro PDF417 – полный пример](/barcode/net/)
-- [Как создать микро‑pdf417 штрих‑код и сгенерировать PNG в C#](./how-to-create-micro-pdf417-barcode-and-generate-png-in-c/)
-
-
-- [Как создать микро PDF417 штрих‑код в C#](./how-to-create-micro-pdf417-barcode-in-c/)
-
-
-- [Как использовать генератор штрих‑кода C# для Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
-
-### [Как использовать генератор штрих‑кода C# для Macro PDF417](./how-to-use-a-barcode-generator-c-for-macro-pdf417/)
-
-
-### [Как считывать штрих‑коды PDF417 в C# с Aspose – пошаговое руководство](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
-
-- [Как создать штрих‑код – Compact PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Полные учебные материалы и примеры Aspose.BarCode для .NET](/barcode/net/)
-- [Как создать Aztec штрих‑код с коррекцией ошибок в .NET](/barcode/net/aztec-barcode-encoding/aztec-error-level-example/)
-- [Декодировать штрих‑код с изображения с примером считывателя штрих‑кодов на C#](./decode-barcode-from-image-with-a-c-barcode-reader-example/)
-- [Как создать штрих‑код PDF417 с Aspose.BarCode](/barcode/net/compact-pdf417-encoding/compact-pdf417-basic-configuration/)
-- [Генерация PDF417 штрих‑кода в C# – руководство по генератору штрих‑кодов](/barcode/net/)
-- [Как сохранять изображения штрих‑кодов в C# – полное руководство](/barcode/net/)
-- [Создание метаданных штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 в C# – Полное руководство](/barcode/net/)
-- [Генерация штрих‑кода PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
 - [Генерация штрих‑кода PDF417 с компактными настройками в C#](/barcode/net/)
 - [Как читать PDF417 в C# – Полное пошаговое руководство](/barcode/net/)
 - [Как считывать штрих‑коды PDF417 в C# – полное пошаговое руководство](/barcode/net/)
@@ -406,6 +254,8 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 - [Как использовать генератор штрих‑кода C# для Macro PDF417](/barcode/net/)
 
 - [Как создать штрих‑код PDF417 с пользовательским макетом в C#](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
+
+- [Как сохранить штрих‑код как PNG и включить компактный режим в C#](./how-to-save-barcode-as-png-and-enable-compact-mode-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
