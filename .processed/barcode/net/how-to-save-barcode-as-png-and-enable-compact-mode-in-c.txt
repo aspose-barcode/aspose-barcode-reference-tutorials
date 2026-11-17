@@ -1,0 +1,7 @@
+Title: How to save barcode as PNG and enable compact mode in C#
+Slug: how-to-save-barcode-as-png-and-enable-compact-mode-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-11-17T20:07:02.728480
+SourceRepo: AI Search API
+Keywords: how to save barcode, enable compact mode, how to adjust columns, generate pdf417 barcode, how to enable compact mode
+PRNumber: 174
