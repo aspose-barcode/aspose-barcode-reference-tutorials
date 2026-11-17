@@ -146,6 +146,8 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 
 ### [How to create barcode PNG in C# – step‑by‑step guide](./how-to-create-barcode-png-in-c-step-by-step-guide/)
 
+### [How to save barcode as PNG and enable compact mode in C#](./how-to-save-barcode-as-png-and-enable-compact-mode-in-c/)
+
 ### [How to generate PDF417 barcode in C# with Macro‑PDF417 settings](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 
 ### [C# में मैक्रो समर्थन के साथ PDF417 बारकोड कैसे जनरेट करें](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
@@ -156,11 +158,13 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 
 ### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
 
+### [C# में बारकोड जेनरेटर के साथ PDF417 बारकोड कैसे बनाएं](./how-to-create-pdf417-barcode-in-c-with-a-barcode-generator/)
+
 ### [How to create macro PDF417 barcode in C# using Aspose.BarCode](./how-to-create-macro-pdf417-barcode-in-c-using-aspose-barcode/)
 
 ### [How to read PDF417 barcodes in C# – complete step‑by‑step guide](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 
-### [Create macro PDF417 barcode with Aspose.BarCode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
+### [Create macro PDF417 barcode with Aspose.Barcode (C#)](./create-macro-pdf417-barcode-with-aspose-barcode-c/)
 
 ### [How to decode PDF417 barcodes in C# – step‑by‑step guide](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
 
@@ -182,86 +186,6 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 
 ### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
-### [C# में बारकोड इमेज कैसे बनाएं – माइक्रोPDF417 गाइड](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
-
-### [C# में माइक्रो PDF417 बारकोड जनरेट करने की पूर्ण गाइड](./generate-micro-pdf417-barcode-in-c-complete-guide/)
-
-### [C# में माइक्रो PDF417 बारकोड कैसे बनाएं](./how-to-create-micro-pdf417-barcode-in-c/)
-
-### [C# में PDF417 बारकोड मेटाडेटा बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
-
-### [C# में PDF417 बारकोड बनाना – बारकोड जेनरेटर गाइड](./generate-pdf417-barcode-in-c-barcode-generator-guide/)
-
-### [C# में बारकोड इमेज को सहेजना – पूर्ण गाइड](./how-to-save-barcode-images-in-c-complete-guide/)
-
-### [C# में PDF417 बारकोड बनाना – पूर्ण गाइड](./generate-pdf417-barcode-in-c-complete-guide/)
-
-### [C# में PDF417 बारकोड बनाना – पूर्ण चरण‑दर‑चरण गाइड](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 बारकोड बनाना और उसका आकार सेट करना](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में बारकोड इमेज कैसे बनाएं – माइक्रोPDF417 गाइड](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
-
-### [C# में माइक्रो PDF417 बारकोड जनरेट करने की पूर्ण गाइड](./generate-micro-pdf417-barcode-in-c-complete-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
 ### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
 ### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
@@ -279,6 +203,12 @@ Compact PDF417 की उच्च डेटा घनत्व और मजब
 ### [C# में PDF417 पढ़ना – पूर्ण चरण‑दर‑चरण गाइड](./how-to-read-pdf417-in-c-comcomplete-step-by-step-guide/)
 
 ### [C# में कस्टम लेआउट के साथ PDF417 बारकोड कैसे बनाएं](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
+
+### [Aspose.BarCode के साथ C# में PDF417 बारकोड कैसे बनाएं](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
+
+### [PDF417 बारकोड कैसे जेनरेट करें और इसे PNG के रूप में रेंडर करें](./how-to-generate-pdf417-barcode-and-render-it-as-png/)
+
+### [c# बारकोड रीडर ट्यूटोरियल – मैक्रो PDF417 बारकोड पढ़ें चरण‑दर‑चरण](./c-barcode-reader-tutorial-read-macro-pdf417-barcodes-step-by/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
