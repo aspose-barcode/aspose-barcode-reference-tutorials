@@ -1,0 +1,7 @@
+Title: c# barcode reader tutorial – read Macro PDF417 barcodes step by step
+Slug: c-barcode-reader-tutorial-read-macro-pdf417-barcodes-step-by
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-11-17T20:07:08.901420
+SourceRepo: AI Search API
+Keywords: c# barcode reader tutorial
+PRNumber: 174
