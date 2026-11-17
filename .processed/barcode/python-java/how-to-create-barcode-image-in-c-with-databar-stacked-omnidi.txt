@@ -1,0 +1,7 @@
+Title: How to create barcode image in C# with DataBar stacked omnidirectional
+Slug: how-to-create-barcode-image-in-c-with-databar-stacked-omnidi
+Category: general
+ProcessedDate: 2026-11-17T20:22:34.070427
+SourceRepo: AI Search API
+Keywords: create barcode image, barcode generator c#, how to generate databar
+PRNumber: 175
