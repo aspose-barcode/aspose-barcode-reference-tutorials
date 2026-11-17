@@ -1,0 +1,7 @@
+Title: How to generate PDF417 barcode and render it as PNG
+Slug: how-to-generate-pdf417-barcode-and-render-it-as-png
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-11-17T20:07:06.876235
+SourceRepo: AI Search API
+Keywords: generate pdf417 barcode, how to generate pdf417, render barcode to image, how to set barcode size
+PRNumber: 174
