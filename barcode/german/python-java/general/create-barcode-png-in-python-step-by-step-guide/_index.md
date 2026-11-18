@@ -51,22 +51,8 @@ schemas:
       = "output/PlanetBarHeight100.png" barcode_generator.save(output_path, BarCodeImageFormat.Png)
       print(f"Barcode saved to {output_path}") ```'
   - name: 7. Verify the output (optional)
-    text: '```python from PIL import Image'
-  - name: ' ## What Should You Learn Next?
-
-
-      The following tutorials cover closely related topics that build on the techniques
-      demonstrated in this guide. Each resource includes complete working code examples
-      with step-by-step explanations to help you master additional API features and
-      explore alternative implementation approaches in your own projects.
-
-      - [How to Create Barcode Aspose Java - Adjust Image Quality](/barcode/english/java/image-manipulation/adjusting-image-quality-barcode/)
-      - [Generate Barcode Java – Set Image Resolution with Aspose.BarCode](/barcode/english/java/advanced-settings-and-optimization/setting-image-resolution-barcode/)
-      - [How to generate barcode java: Create an Exact Barcode Image](/barcode/english/java/barcode-basics/creating-image-exact-barcode/)
-
-      {{< /blocks/products/pf/tutorial-page-section >}}'
-    text: '{{< /blocks/products/pf/main-container >}} {{< /blocks/products/pf/main-wrap-class
-      >}} {{< blocks/products/products-backtop-button >}}'
+    text: '```python from PIL import Image with Image.open(output_path) as img: img.show()
+      print(f"Image size: {img.size} (width, height)") ```'
   type: HowTo
 tags:
 - barcode
