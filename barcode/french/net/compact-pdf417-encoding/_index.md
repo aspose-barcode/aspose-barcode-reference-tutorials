@@ -479,3 +479,10 @@ A: Aucune police externe n’est requise ; la bibliothèque gère tout le rend
 - [Comment créer un code‑bars PDF417 avec une mise en page personnalisée en C#](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)
 
 - [Comment générer un code‑bars PDF417 et le rendre au format PNG](./how-to-generate-pdf417-barcode-and-render-it-as-png/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
