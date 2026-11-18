@@ -1,22 +1,22 @@
 ---
-date: 2026-07-18
-description: สำรวจวิธีการอ่านบาร์โค้ดจากภาพโดยใช้ Aspose.BarCode for Java – ไลบรารีที่ทรงพลังสำหรับสกัดรายละเอียดพื้นที่บาร์โค้ดอย่างง่ายดายและเพิ่มประสิทธิภาพให้แอปพลิเคชัน
-  Java ของคุณ
+date: 2026-11-18
+description: เรียนรู้วิธีอ่าน barcode ด้วย Aspose.BarCode, ดึงรายละเอียด region ของ
+  barcode อย่างแม่นยำจากรูปภาพ, และรวมการตรวจจับที่เร็วเข้าไปในแอป Java ของคุณ.
+images:
+- /java/advanced-settings-and-optimization/extracting-barcode-region-information/og-image.png
 keywords:
-- read barcode from image
-- how to read barcode
-- detect barcode in image
-- decode barcode image
+- read barcode java
 - java barcode detection library
-lastmod: 2026-07-18
-linktitle: การสกัดข้อมูลพื้นที่บาร์โค้ดจากภาพ
-og_description: อ่านบาร์โค้ดจากภาพโดยใช้ Aspose.BarCode for Java. บทเรียนนี้แสดงวิธีการตรวจจับ,
-  ถอดรหัส, และสกัดข้อมูลพื้นที่บาร์โค้ดที่แม่นยำภายในไม่กี่นาที.
-og_image_alt: Illustration of Java code extracting barcode region using Aspose.BarCode
-og_title: อ่านบาร์โค้ดจากภาพ – คู่มือ Java กับ Aspose.BarCode
+- java barcode reader example
+lastmod: 2026-11-18
+linktitle: การสกัดข้อมูล Barcode Region จากรูปภาพ
+og_description: อ่าน barcode java ด้วย Aspose.BarCode. คู่มือนี้จะแสดงวิธีการ detect,
+  decode, และดึงข้อมูล barcode region ที่แม่นยำจากรูปภาพอย่างรวดเร็ว.
+og_image_alt: Java code example extracting barcode region with Aspose.BarCode
+og_title: อ่าน barcode java – ดึง barcode region จากรูปภาพ
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
+  dateModified: '2026-11-18'
   description: Explore how to read barcode from image using Aspose.BarCode for Java
     – a powerful library to extract barcode region details effortlessly and boost
     your Java applications.
@@ -45,8 +45,8 @@ tags:
 - Aspose.BarCode
 - Java barcode detection
 - barcode region extraction
-- barcode reader tutorial
-title: อ่านบาร์โค้ดจากภาพ – เชี่ยวชาญการสกัดพื้นที่บาร์โค้ดใน Java ด้วย Aspose.BarCode
+- java barcode reader example
+title: วิธีอ่าน barcode ด้วย Java และดึง region จากรูปภาพ
 url: /th/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
@@ -55,36 +55,41 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# อ่านบาร์โค้ดจากภาพใน Java – การเชี่ยวชาญการสกัดพื้นที่บาร์โค้ดด้วย Aspose.BarCode
+# วิธีอ่านบาร์โค้ด Java และสกัดพื้นที่จากภาพ
 
-ในแอปพลิเคชัน Java สมัยใหม่, **การอ่านบาร์โค้ดจากภาพ** เป็นความต้องการที่พบบ่อย—ไม่ว่าจะเป็นการสร้างระบบสินค้าคงคลัง, ตัวตรวจสอบตั๋ว, หรือโซลูชันแบบ mobile‑first. Aspose.BarCode for Java ทำให้ภารกิจนี้ง่ายขึ้น, ให้คุณสกัดข้อมูลพื้นที่บาร์โค้ดที่แม่นยำด้วยเพียงไม่กี่บรรทัดของโค้ด. ในบทแนะนำนี้เราจะเดินผ่าน **java barcode reader example** ฉบับเต็ม, แสดงวิธี **recognize barcode in image**, และอธิบายว่าการสกัดพื้นที่บาร์โค้ดมีความสำคัญต่อการประมวลผลต่อเนื่องอย่างไร.
+ในแอปพลิเคชัน Java สมัยใหม่, **การอ่านบาร์โค้ดจากภาพ** เป็นความต้องการที่พบบ่อย—ไม่ว่าคุณจะสร้างระบบสินค้าคงคลัง, ตัวตรวจสอบตั๋ว, หรือโซลูชันที่เน้นมือถือ Aspose.BarCode for Java ทำให้ภารกิจนี้ง่ายดาย, ให้คุณสกัดข้อมูลพื้นที่ของบาร์โค้ดได้อย่างแม่นยำด้วยเพียงไม่กี่บรรทัดของโค้ด ในบทแนะนำนี้เราจะเดินผ่าน **ตัวอย่าง java barcode reader** อย่างครบถ้วน, แสดงวิธี **recognize barcode in image**, และอธิบายว่าการสกัดพื้นที่ของบาร์โค้ดมีความสำคัญต่อการประมวลผลต่อไปอย่างไร
 
-## คำตอบเร็ว
+## คำตอบสั้น
 - **ควรใช้ไลบรารีอะไร?** Aspose.BarCode for Java.  
-- **ฉันสามารถอ่านบาร์โค้ดจากภาพได้ภายในไม่กี่นาทีหรือไม่?** ใช่ – ตัวอย่างทำงานภายในน้อยกว่า 30 วินาทีบนเครื่องทำงานทั่วไป.  
-- **ต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการผลิต.  
-- **บาร์โค้ดประเภทใดบ้างที่รองรับ?** มากกว่า 50 สัญลักษณ์รวมถึง Code 39, QR, DataMatrix และอื่น ๆ.  
-- **วิธีนี้เป็นเฉพาะ Java หรือไม่?** API ยังมีให้สำหรับ .NET, C++, และ Python แต่คู่มือนี้เน้นที่ Java.
+- **ฉันสามารถอ่านบาร์โค้ด Java ได้ในไม่กี่นาทีหรือไม่?** ใช่ – ตัวอย่างทำงานภายในไม่เกิน 30 วินาทีบนเครื่องทำงานทั่วไป.  
+- **ฉันต้องการใบอนุญาตสำหรับการพัฒนาหรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการประเมิน; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **บาร์โค้ดประเภทใดบ้างที่รองรับ?** รองรับสัญลักษณ์มากกว่า 50 แบบ รวมถึง Code 39, QR, DataMatrix และอื่น ๆ.  
+- **วิธีนี้เป็นเฉพาะ Java หรือไม่?** API นี้ยังมีให้ใช้กับ .NET, C++, และ Python แต่คู่มือนี้เน้นที่ Java.
 
-## การ “อ่านบาร์โค้ดจากภาพ” คืออะไร
-การอ่านบาร์โค้ดจากภาพหมายถึงการสแกนบิตแมพ (PNG, JPEG, ฯลฯ) และถอดรหัสข้อมูลที่เข้ารหัสไว้. Aspose.BarCode ไม่เพียงให้ข้อความที่ถอดรหัสเท่านั้น แต่ยังให้ตำแหน่งที่แน่นอน (พื้นที่) ของบาร์โค้ดภายในภาพ, ซึ่งจำเป็นสำหรับการซ้อนกราฟิก, การครอป, หรือการตรวจสอบความสมบูรณ์ของภาพ.
+## วิธีอ่านบาร์โค้ด Java จากภาพ?
+โหลดภาพ, กำหนดค่าตัวอ่านสำหรับสัญลักษณ์ที่คาดหวัง, และเรียก `readBarCodes()` วิธีนี้สแกนบิตแมพทั้งหมด, คืนค่าบาร์โค้ดที่ตรวจพบทั้งหมด, และให้ทั้งข้อความที่ถอดรหัสและพิกัดสี่มุมที่กำหนดพื้นที่ของบาร์โค้ด การเรียกครั้งเดียวนี้จัดการการหมุน, การปรับขนาด, และสถานการณ์ความคมชัดต่ำโดยอัตโนมัติ, ดังนั้นคุณสามารถมุ่งเน้นที่ตรรกะธุรกิจแทนการเตรียมภาพล่วงหน้า.
 
-## ทำไมต้องใช้ Aspose.BarCode เพื่ออ่านบาร์โค้ดจากภาพ
-Aspose.BarCode มอบโซลูชันครบวงจรและประสิทธิภาพสูงสำหรับการตรวจจับบาร์โค้ดใน Java. มันบรรลุ **>99% detection accuracy** บนภาพความละเอียดต่ำหรือภาพเอียง, ประมวลผล **multi‑hundred‑page documents** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ, และคืนค่า **four corner points** สำหรับแต่ละบาร์โค้ด, ทำให้สามารถซ้อนภาพได้อย่างพิกเซลที่แม่นยำ. ไลบรารีรองรับ **50+ symbologies**, ทำงาน **pure Java** (ไม่มี DLL เนทีฟ), และต้องการเพียงไฟล์ JAR เดียว.
+## “การอ่านบาร์โค้ดจากภาพ” คืออะไร?
+การอ่านบาร์โค้ดจากภาพหมายถึงการสแกนบิตแมพ (PNG, JPEG ฯลฯ) และถอดรหัสข้อมูลที่เข้ารหัสไว้ Aspose.BarCode ไม่เพียงแต่คืนค่าข้อความที่ถอดรหัสเท่านั้น แต่ยังให้ตำแหน่งที่แน่นอน (พื้นที่) ของบาร์โค้ดภายในภาพ ซึ่งสำคัญสำหรับการวางกราฟิก, การครอบภาพ, หรือการตรวจสอบความสมบูรณ์ของภาพ.
 
-### ประโยชน์เชิงปริมาณที่สังเกตได้
+## ทำไมต้องใช้ Aspose.BarCode เพื่ออ่านบาร์โค้ด Java?
+Aspose.BarCode มอบโซลูชันที่ครบถ้วนและมีประสิทธิภาพสูงสำหรับการตรวจจับบาร์โค้ดใน Java มันบรรลุ **ความแม่นยำในการตรวจจับ >99%** บนภาพความละเอียดต่ำหรือเอียง, ประมวลผล **สูงสุด 30 fps** บนฮาร์ดแวร์เดสก์ท็อปมาตรฐาน, และคืนค่า **สี่จุดมุม** สำหรับแต่ละบาร์โค้ด ทำให้สามารถวางกราฟิกได้อย่างพิกเซลที่สมบูรณ์ ไลบรารีรองรับ **สัญลักษณ์กว่า 50 แบบ**, ทำงาน **pure Java** (ไม่มี DLL เนทีฟ), และต้องการเพียงไฟล์ JAR เดียว.
+
+### ประโยชน์เชิงปริมาณที่สังเขป
 - **ประเภทบาร์โค้ดที่รองรับกว่า 50 ประเภท** (เชิงเส้นและ 2‑D).  
-- **ความเร็วสแกนสูงสุดถึง 30 fps** บนฮาร์ดแวร์เดสก์ท็อปมาตรฐาน.  
-- **ประหยัดหน่วยความจำ**: ประมวลผลภาพขนาดใหญ่กว่า 20 MB ด้วยการใช้ heap น้อยกว่า 100 MB.  
-- **ไม่มีการพึ่งพาภายนอก** – เพียงไฟล์ JAR ของ Aspose.BarCode.
+- **ความเร็วการสแกนสูงสุด 30 fps** บนเครื่องทำงานทั่วไป.  
+- **ประหยัดหน่วยความจำ**: ประมวลผลภาพขนาดใหญ่กว่า 20 MB ด้วยการใช้ heap น้อยกว่า 100 MB.  
+- **ไม่มีการพึ่งพาภายนอก** – เพียงแค่ไฟล์ JAR ของ Aspose.BarCode.
 
 ## ข้อกำหนดเบื้องต้น
+ก่อนเริ่ม, ตรวจสอบว่าคุณมี:
+
 - **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือสูงกว่า.  
-- **Aspose.BarCode for Java** – ดาวน์โหลด JAR ล่าสุดจาก [Aspose download page](https://releases.aspose.com/barcode/java/).  
+- **Aspose.BarCode for Java** – ดาวน์โหลด JAR เวอร์ชันล่าสุดจาก [Aspose download page](https://releases.aspose.com/barcode/java/).  
 - **IDE** – Eclipse, IntelliJ IDEA หรือโปรแกรมแก้ไขใด ๆ ที่คุณชอบ.  
 
-## นำเข้า Namespaces
-เพิ่มการนำเข้าที่จำเป็นในคลาส Java ของคุณเพื่อให้สามารถทำงานกับ Aspose.BarCode API ได้.
+## นำเข้า namespace
+The `com.aspose.barcode` package contains all classes you need to work with the Aspose.BarCode API.
 
 ```java
 import java.awt.Point;
@@ -93,84 +98,73 @@ import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าโฟลเดอร์ทรัพยากร
-กำหนดโฟลเดอร์ที่เก็บภาพตัวอย่าง. วิธีนี้ทำให้ตรรกะของเส้นทางสะอาดและนำกลับมาใช้ใหม่ได้.
+## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีทรัพยากร
+Define the folder that holds the sample images. This keeps the path logic clean and reusable.
 
 ```java
 String dataDir = Utils.getDataDir(BarcodeRegionInformationFromTheImage.class) + "BarcodeReader/advanced_features/";
 ```
 
 ## ขั้นตอนที่ 2: โหลดภาพและระบุประเภทบาร์โค้ด
-ที่นี่เราจะ **how to read barcode** จากไฟล์ JPEG ที่มีสัญลักษณ์ Code 39. enum `DecodeType` บอกให้ตัวอ่านรู้ว่าจะมองหาสัญลักษณ์ประเภทใด.
+Here we **read barcode java** from a JPEG that contains a Code 39 symbol. The `DecodeType` enum tells the reader what symbology to look for.
 
 ```java
 String imageFilePath = dataDir + "code39Extended.jpg";
 BarCodeReader reader = new BarCodeReader(imageFilePath, DecodeType.CODE_39_STANDARD);
 ```
 
-## ขั้นตอนที่ 3: จดจำบาร์โค้ดในภาพ
-`BarCodeReader` เป็นคลาสหลักของ Aspose.BarCode ที่สแกนภาพและคืนผลการตรวจจับ. การเรียก `readBarCodes()` ทำให้ไลบรารีสแกนภาพทั้งหมดและรวบรวมบาร์โค้ดทุกตัวที่พบ.
+## ขั้นตอนที่ 3: ตรวจจับบาร์โค้ดในภาพ
+`BarCodeReader` เป็นคลาสหลักของ Aspose.BarCode ที่สแกนภาพและคืนผลการตรวจจับ การเรียก `readBarCodes()` ทำให้ไลบรารีสแกนภาพทั้งหมดและรวบรวมบาร์โค้ดที่พบทั้งหมด.
 
 ```java
 reader.readBarCodes();
 ```
 
 ## ขั้นตอนที่ 4: สกัดข้อมูลพื้นที่
-`BarCodeResult` แสดงผลการตรวจจับหนึ่งรายการและมีทั้งข้อความที่ถอดรหัสและข้อมูลพื้นที่. วนลูปผ่านผลการตรวจจับแต่ละรายการ, ตรวจสอบว่ามีพื้นที่หรือไม่, แล้วพิมพ์พิกัดของสี่มุม. นี่คือหัวใจของ **how to extract barcode** region data.
+`BarCodeResult` แสดงผลการตรวจจับเดียวและมีทั้งข้อความที่ถอดรหัสและข้อมูลพื้นที่ วนลูปผ่านผลการตรวจจับแต่ละรายการ, ตรวจสอบว่ามีพื้นที่หรือไม่, แล้วพิมพ์พิกัดของสี่มุม นี่คือหัวใจของ **วิธีสกัดข้อมูลพื้นที่ของบาร์โค้ด**.
 
-`getRegion()` คืนค่าพอลิกอนขอบเขตของบาร์โค้ดเป็นสี่จุดมุม.
+`getRegion()` คืนค่าโพลิกอนขอบเขตของบาร์โค้ดเป็นสี่จุดมุม.
 
-> **Pro tip:** หากคุณต้องการเพียงข้อความที่ถอดรหัส, ใช้ `result.getCodeText()`. สำหรับข้อมูลพื้นที่, ควรตรวจสอบว่า `result.getRegion()` ไม่เป็น `null` เพื่อหลีกเลี่ยง `NullPointerException`.
+> **เคล็ดลับ:** หากคุณต้องการเพียงข้อความที่ถอดรหัส, ใช้ `result.getCodeText()` สำหรับข้อมูลพื้นที่, ควรตรวจสอบเสมอว่า `result.getRegion()` ไม่เป็น `null` เพื่อหลีกเลี่ยง `NullPointerException`.
 
 ## ปัญหาทั่วไปและวิธีแก้
-`setRotateAngle(double angle)` หมุนภาพตามมุมที่กำหนดก่อนการตรวจจับ.
-
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|--------|--------|
-| ไม่พบบาร์โค้ด | ภาพมืดหรือเบลอ | ทำการประมวลผลล่วงหน้าภาพ (เพิ่มคอนทราสต์, ทำไบนารี) ก่อนส่งให้ `BarCodeReader`. |
+| ไม่พบบาร์โค้ด | ภาพมืดเกินไปหรือเบลอ | ทำการประมวลผลล่วงหน้าภาพ (เพิ่มความคมชัด, ทำไบนารี) ก่อนส่งให้ `BarCodeReader`. |
 | `result.getRegion()` คืนค่า `null` | ประเภทบาร์โค้ดไม่รองรับการสกัดพื้นที่ | ตรวจสอบว่าคุณใช้สัญลักษณ์ที่รองรับข้อมูลพื้นที่ (ส่วนใหญ่ของโค้ด 2‑D รองรับ). |
-| พิกัดไม่ตรงคาด | ภาพถูกหมุน | ใช้ `reader.setRotateAngle()` เพื่อแก้ไขการหมุนก่อนการอ่าน. |
+| พิกัดที่ไม่คาดคิด | ภาพถูกหมุน | ใช้ `reader.setRotateAngle()` เพื่อแก้ไขการหมุนก่อนการอ่าน. |
 
 ## คำถามที่พบบ่อย
 
-**Q: Aspose.BarCode รองรับบาร์โค้ดทุกประเภทหรือไม่?**  
-A: ใช่, รองรับ **50+ symbologies**, รวมถึง Code 39, QR Code, DataMatrix และอื่น ๆ. ดูรายการเต็มใน [documentation](https://reference.aspose.com/barcode/java/).
+**ถาม: Aspose.BarCode รองรับบาร์โค้ดทุกประเภทหรือไม่?**  
+A: ใช่, รองรับ **สัญลักษณ์กว่า 50 แบบ**, รวมถึง Code 39, QR Code, DataMatrix และอื่น ๆ ดูรายการเต็มใน [documentation](https://reference.aspose.com/barcode/java/).
 
-**Q: ฉันสามารถใช้ Aspose.BarCode ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
-A: แน่นอน. จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์. รายละเอียดการซื้อสามารถดูได้ที่ [Aspose purchase page](https://purchase.aspose.com/buy).
+**ถาม: ฉันสามารถใช้ Aspose.BarCode สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?**  
+A: แน่นอน. จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์ รายละเอียดการซื้อสามารถดูได้ที่ [Aspose purchase page](https://purchase.aspose.com/buy).
 
-**Q: จะขอรับการสนับสนุนเมื่อเจอปัญหาควรทำอย่างไร?**  
-A: เยี่ยมชม [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) เพื่อรับความช่วยเหลือจากชุมชน, หรือเปิดตั๋วสนับสนุนผ่านบัญชี Aspose ของคุณ.
+**ถาม: ฉันจะได้รับการสนับสนุนอย่างไรหากเจอปัญหา?**  
+A: เยี่ยมชม [Aspose.BarCode forum](https://forum.aspose.com/c/barcode/13) เพื่อรับความช่วยเหลือจากชุมชน หรือเปิดตั๋วสนับสนุนผ่านบัญชี Aspose ของคุณ.
 
-**Q: มีการทดลองใช้ฟรีที่สามารถทดสอบได้หรือไม่?**  
-A: มี, คุณสามารถดาวน์โหลดรุ่นทดลองที่ทำงานเต็มรูปแบบจาก [Aspose releases page](https://releases.aspose.com/).
+**ถาม: มีการทดลองใช้ฟรีที่ฉันสามารถทดสอบได้หรือไม่?**  
+A: ใช่, คุณสามารถดาวน์โหลดการทดลองใช้เต็มรูปแบบจาก [Aspose releases page](https://releases.aspose.com/).
 
-**Q: จะขอรับไลเซนส์ชั่วคราวสำหรับการประเมินผลได้อย่างไร?**  
-A: ไลเซนส์ชั่วคราวมีให้ผ่าน [temporary‑license page](https://purchase.aspose.com/temporary-license/).
+**ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับการประเมินได้อย่างไร?**  
+A: ใบอนุญาตชั่วคราวจะจัดให้ผ่าน [temporary‑license page](https://purchase.aspose.com/temporary-license/).
 
 ## สรุป
-คุณมี **java barcode reader example** ฉบับเต็มที่แสดงวิธี **read barcode from image**, จดจำบาร์โค้ด, และสกัดพิกัดพื้นที่ที่แม่นยำ. การนำส่วนโค้ดนี้ไปผสานในโปรเจกต์ของคุณจะให้การตรวจจับบาร์โค้ดที่เร็วและเชื่อถือได้โดยไม่ต้องพึ่งเครื่องมือภายนอก. สำรวจคุณสมบัติอื่นของ Aspose.BarCode—เช่นการสร้างบาร์โค้ดและการประมวลผลเป็นชุด—to เพิ่มประสิทธิภาพให้กับแอปพลิเคชัน Java ของคุณต่อไป.
+ตอนนี้คุณมี **ตัวอย่าง java barcode reader** ที่ครบถ้วนซึ่งแสดงวิธี **อ่านบาร์โค้ด Java**, ตรวจจับและสกัดพิกัดพื้นที่ที่แม่นยำ การนำโค้ดส่วนนี้ไปผสานในโครงการของคุณจะให้การตรวจจับบาร์โค้ดที่รวดเร็วและเชื่อถือได้โดยไม่ต้องพึ่งเครื่องมือภายนอก สำรวจคุณสมบัติอื่น ๆ ของ Aspose.BarCode เช่น การสร้างบาร์โค้ดและการประมวลผลแบบชุด เพื่อเพิ่มประสิทธิภาพให้กับแอปพลิเคชัน Java ของคุณ.
 
 ---
 
-**อัปเดตล่าสุด:** 2026-07-18  
+**อัปเดตล่าสุด:** 2026-11-18  
 **ทดสอบด้วย:** Aspose.BarCode for Java 24.12  
 **ผู้เขียน:** Aspose
 
 ## บทแนะนำที่เกี่ยวข้อง
 
-- [Read Barcode Java: High Performance Barcode Reader for Faster Image Processing](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
-- [Java Barcode Reader Library: Detect Barcode Orientation with Aspose.BarCode](/barcode/java/barcode-basics/detecting-barcode-orientation/)
-- [How to read 1D barcodes in Java using Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
+- [อ่านบาร์โค้ด Java: ตัวอ่านบาร์โค้ดประสิทธิภาพสูงสำหรับการประมวลผลภาพที่เร็วขึ้น](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [ไลบรารีอ่านบาร์โค้ด Java: ตรวจจับการวางแนวบาร์โค้ดด้วย Aspose.BarCode](/barcode/java/barcode-basics/detecting-barcode-orientation/)
+- [วิธีอ่านบาร์โค้ด 1D ใน Java ด้วย Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/)
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -183,3 +177,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
     }
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

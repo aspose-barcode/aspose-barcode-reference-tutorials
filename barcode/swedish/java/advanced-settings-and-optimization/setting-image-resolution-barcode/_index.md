@@ -1,25 +1,29 @@
 ---
-date: 2026-08-07
-description: Lär dig hur du ställer in DPI när du genererar barcode Java med Aspose.BarCode,
-  får högkvalitativa barcode‑bilder och åtgärdar suddiga barcode‑problem.
+date: 2026-11-18
+description: Lär dig hur du åtgärdar suddig barcode genom att ställa in DPI när du
+  genererar barcode i Java med Aspose.BarCode, för att uppnå optimal utskriftskvalitet
+  för barcode.
+images:
+- /java/advanced-settings-and-optimization/setting-image-resolution-barcode/og-image.png
 keywords:
-- how to set dpi
-- generate barcode java
-- high quality barcode
+- fix blurry barcode
 - barcode print quality
 - generate barcode png
-lastmod: 2026-08-07
+- barcode image resolution
+- Aspose.BarCode Java
+lastmod: 2026-11-18
 linktitle: Ställa in bildupplösning för barcode
-og_description: Lär dig hur du ställer in DPI när du genererar barcode Java med Aspose.BarCode,
-  får högkvalitativa barcode‑bilder och åtgärdar suddiga barcode‑problem.
+og_description: Lär dig hur du åtgärdar suddig barcode genom att ställa in DPI i Java
+  med Aspose.BarCode, för att säkerställa hög utskriftskvalitet för barcode och tydlig
+  PNG-utdata.
 og_image_alt: Developer guide showing Java code for setting barcode DPI with Aspose.BarCode
-og_title: Hur du ställer in DPI – generera barcode Java med Aspose.BarCode
+og_title: Hur du åtgärdar suddig barcode genom att ställa in DPI i Java
 schemas:
 - author: Aspose
-  dateModified: '2026-08-07'
-  description: Learn how to set DPI when you generate barcode Java with Aspose.BarCode,
-    achieving high‑quality barcode images and fixing blurry barcode issues.
-  headline: How to set DPI – generate barcode Java with Aspose.BarCode
+  dateModified: '2026-11-18'
+  description: Learn how to fix blurry barcode by setting DPI when generating barcodes
+    in Java with Aspose.BarCode, achieving high-quality output.
+  headline: How to fix blurry barcode by setting DPI in Java
   type: TechArticle
 - questions:
   - answer: Yes, Aspose.BarCode provides options for size, color, font, and background
@@ -43,7 +47,8 @@ tags:
 - barcode resolution
 - Aspose.BarCode
 - Java barcode generation
-title: Hur du ställer in DPI – generera barcode Java med Aspose.BarCode
+- fix blurry barcode
+title: Hur du åtgärdar suddig barcode genom att ställa in DPI i Java
 url: /sv/java/advanced-settings-and-optimization/setting-image-resolution-barcode/
 weight: 11
 ---
@@ -52,40 +57,48 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man ställer in DPI – generera streckkod Java med Aspose.BarCode
+# Hur man åtgärdar suddig streckkod genom att ställa in DPI i Java
 
 ## Introduktion
 
-I den här guiden kommer du att lära dig **hur man ställer in DPI** medan du **genererar streckkod Java** med Aspose.BarCode. Att ställa in rätt DPI eliminerar problemet med “suddig streckkod” och ger dig en **streckkod av hög kvalitet** som skannas pålitligt både på skärmar och skrivare. Vi går igenom hur du konfigurerar Aspose streckkodupplösning, sparar bilden som PNG eller JPEG och hanterar vanliga fallgropar.
+I den här guiden kommer du att lära dig **hur man åtgärdar suddig streckkod** genom att ställa in DPI medan du **genererar streckkod Java** med Aspose.BarCode. Att justera bildens upplösning eliminerar problemet med “blurry barcode” och ger dig en **streckkod av hög kvalitet** som skannas pålitligt både på skärmar och skrivare. Vi går igenom hur du konfigurerar Aspose streckkodsupplösning, sparar bilden som PNG eller JPEG och hanterar vanliga fallgropar.
 
 ## Snabba svar
-- **Vad påverkar bildupplösning?** Högre DPI ger skarpare kanter och bättre läsbarhet för skannern.  
-- **Vilken DPI rekommenderas för de flesta utskriftsjobb?** 200 dpi är ett bra standardvärde; du kan gå högre för stora format.  
-- **Behöver jag en licens för att använda Aspose.BarCode?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
-- **Kan jag spara streckkoden i andra format?** Ja—PNG, BMP, GIF och TIFF stöds också.  
-- **Är den här koden kompatibel med Java 8+?** Absolut; biblioteket fungerar med alla moderna Java-versioner.  
+- **Vad påverkar bildupplösning?** Higher DPI yields sharper edges and better scanner readability.  
+- **Vilken DPI rekommenderas för de flesta utskriftsjobb?** 200 dpi is a solid default; you can go higher for large formats.  
+- **Behöver jag en licens för att använda Aspose.BarCode?** A free trial works for development; a commercial license is required for production.  
+- **Kan jag spara streckkoden i andra format?** Yes—PNG, BMP, GIF, and TIFF are also supported.  
+- **Är den här koden kompatibel med Java 8+?** Absolutely; the library works with all modern Java versions.  
 
-## Vad är “generate barcode java” och varför är upplösning viktigt?
+## Vad är “generate barcode java” och varför spelar upplösning roll?
 
-**Direkt svar:** Att generera en streckkod i Java innebär att skapa en visuell representation av data (t.ex. en produktkod) som en bitmap-bild. När du ställer in DPI (dots per inch) till ett högre värde renderas varje stapel och mellanslag med fler pixlar, vilket ger en skarp bild som skannrar kan läsa utan fel. Genom att konfigurera **Aspose streckkodupplösning** säkerställer du pixel‑perfekt precision och levererar en **streckkod av hög kvalitet** som är lämplig både för skärmvisning och hög‑snabbhetsskrivning.
+Att generera en streckkod i Java skapar en bitmap-bild av data såsom en produktkod. Att ställa in en högre DPI renderar varje stapel och mellanslag med fler pixlar, vilket ger en skarp bild som skannrar läser pålitligt. Att konfigurera **Aspose barcode resolution** säkerställer pixel‑perfekt precision och levererar en **streckkod av hög kvalitet** som är lämplig för skärmvisning och hög‑snabbhetsskrivning.
 
 ## Varför ställa in bildupplösning för streckkodsgenerering?
 
-**Direkt svar:** Att ställa in bildupplösning förbättrar skanningspålitlighet, uppfyller tryckeristandarder och ger dig flexibilitet att producera större etiketter utan att förlora klarhet. Högre DPI säkerställer att varje stapel och mellanslag renderas med tillräckligt många pixlar för att kunna särskiljas av skannrar, minskar läsfel och bevarar bildens visuella kvalitet när den skrivs ut i större storlekar eller på högupplösta enheter.
+Att ställa in bildupplösning förbättrar skanningspålitlighet, uppfyller tryckeristandarder och ger dig flexibilitet att producera större etiketter utan att förlora klarhet. Högre DPI säkerställer att varje stapel och mellanslag renderas med tillräckligt många pixlar för att skannrar ska kunna särskilja dem, minskar läsfel och bevarar visuell trohet när bilden skrivs ut i större storlekar eller på högupplösta enheter.  
 
 - **Förbättrad skanningspålitlighet** – skannrar läser skarpa kanter mer exakt, vilket minskar läsfel med upp till 30 % i tester.  
-- **Professionell utskriftskvalitet** – de flesta kommersiella skrivare kräver minst 200 dpi; Aspose.BarCode stödjer upp till 600 dpi för ultra‑skarpt resultat.  
-- **Flexibilitet** – du kan öka DPI för stora etiketter samtidigt som du behåller samma streckkodsdata, vilket undviker extra skalningssteg.
+- **Professionell utskriftskvalitet** – de flesta kommersiella skrivare kräver minst 200 dpi; Aspose.BarCode stöder upp till 600 dpi för ultra‑skarpt resultat.  
+- **Flexibilitet** – du kan öka DPI för storformatsetiketter samtidigt som du behåller samma streckkodsdata, vilket undviker extra skalningssteg.
+
+## Hur påverkar streckkodens bildupplösning utskriftskvaliteten?
+
+Högre streckkodsbildupplösning ger direkt skarpare tryckta linjer, vilka skannrar tolkar mer pålitligt. När DPI är inställt på 200 dpi eller högre behåller de tryckta staplarna sin avsedda bredd och avstånd, vilket minskar distortion orsakad av skrivarnas interpolation. Detta resulterar i en märkbar minskning av felavläsningar, särskilt på hög‑snabbhet produktionslinjer som kräver konsekvent **barcode print quality**.
+
+## Hur genererar man streckkod PNG med anpassad DPI?
+
+Anropa `setResolution(float dpi)` på generatorn och spara sedan bilden med `BarCodeImageFormat.PNG`‑enumet. PNG‑formatet bevarar varje pixel, så den DPI du anger återges exakt i utdatafilen, vilket ger dig en skarp **generate barcode PNG** som ser identisk ut på skärm och papper.
 
 ## Förutsättningar
 
-- Grundläggande förståelse för Java-programmering.  
+- Grundläggande kunskap i Java‑programmering.  
 - **Aspose.BarCode for Java** nedladdad från den officiella webbplatsen — du kan hämta den på [Aspose.BarCode for Java download page](https://releases.aspose.com/barcode/java/).  
-- En Java-IDE (IntelliJ IDEA, Eclipse, VS Code, etc.) med JDK 8 eller nyare installerad.  
+- En Java‑IDE (IntelliJ IDEA, Eclipse, VS Code, etc.) med JDK 8 eller nyare installerad.  
 
 ## Importera namnrymder
 
-Importera de nödvändiga Aspose.BarCode-klasserna såsom `BarcodeGenerator` och `BarCodeImageFormat`.  
+Importera de nödvändiga Aspose.BarCode‑klasserna såsom `BarcodeGenerator` och `BarCodeImageFormat`.  
 *(Kodblocket nedan är oförändrat från den ursprungliga handledningen.)*
 
 ```java
@@ -97,7 +110,7 @@ import com.aspose.barcode.generation.BarcodeGenerator;
 
 ## 1. Ställ in projektet
 
-Skapa ett nytt Java-projekt eller öppna ett befintligt i din föredragna IDE. Lägg till Aspose.BarCode JAR-filen i projektets classpath.
+Skapa ett nytt Java‑projekt eller öppna ett befintligt i din föredragna IDE. Lägg till Aspose.BarCode‑JAR‑filen i projektets klassökväg.
 
 ## 2. Definiera resurskatalogen
 
@@ -106,11 +119,11 @@ Skapa ett nytt Java-projekt eller öppna ett befintligt i din föredragna IDE. L
 String dataDir = "Your Document Directory";
 ```
 
-Byt ut `"Your Document Directory"` mot den absoluta eller relativa sökvägen där du vill att den genererade bilden sparas. Se till att mappen finns; annars kommer sparsteget att misslyckas.
+Byt ut `"Your Document Directory"` mot den absoluta eller relativa sökvägen där du vill att den genererade bilden sparas. Se till att mappen finns; annars misslyckas sparsteget.
 
 ## 3. Instansiera streckkodsgenerator
 
-**Definition:** `BarcodeGenerator` är Aspose.BarCode:s kärnklass som skapar en streckkodsbild från angivna data och symbologi.  
+**Definition anchor:** `BarcodeGenerator` är Aspose.BarCode:s kärnklass som skapar en streckkodsbild från angivna data och symbolik.
 
 ```java
 // Instantiate barcode object, Set the symbology type to code128 and Set the
@@ -118,26 +131,26 @@ Byt ut `"Your Document Directory"` mot den absoluta eller relativa sökvägen d�
 BarcodeGenerator bb = new BarcodeGenerator(EncodeTypes.CODE_128, "1234567");
 ```
 
-Här skapar vi en `BarcodeGenerator`-instans, väljer **CODE_128** (en ofta använd symbologi) och sätter datasträngen `"1234567"`. Detta är kärnan i **barcode generation aspose**.
+Här skapar vi en `BarcodeGenerator`‑instans, väljer **CODE_128** (en ofta använd symbolik), och sätter datasträngen `"1234567"`. Detta är kärnan i **barcode generation aspose**.
 
 ## 4. Anpassa upplösningsinställningar
 
-**Direkt svar:** Anropa `setResolution(float dpi)` på `BarcodeGenerator`‑s `BarCodeImage`‑alternativ för att definiera utdata‑DPI; för de flesta utskriftsjobb använd 200 f, och öka upp till 600 f för stora etiketter.  
+**Direct answer:** Anropa `setResolution(float dpi)` på `BarcodeGenerator`‑s `BarCodeImage`‑alternativ för att definiera utdata‑DPI; för de flesta utskriftsjobb använd 200 f, och öka upp till 600 f för storformatsetiketter.
 
-`setResolution(float dpi)` sätter bildens utdataupplösning i punkter per tum.  
+`setResolution(float dpi)` anger bildens utdataupplösning i punkter per tum.
 
 ```java
 // Customized resolution settings
 bb.getParameters().setResolution(200f);
 ```
 
-Raden ovan sätter **Aspose streckkodupplösning** till **200 dpi**. Justera detta värde högre om du behöver ultra‑skarpt resultat för storformatsskrivning eller för att **fix blurry barcode** problem.
+Raden ovan sätter **Aspose barcode resolution** till **200 dpi**. Justera detta värde högre om du behöver ultra‑skarpt resultat för storformatsskrivning eller för att **fix blurry barcode** problem.
 
 ## 5. Spara bilden
 
-**Direkt svar:** Använd metoden `save(String path, BarCodeImageFormat format)` för att skriva streckkoden till disk; ange `.png` för förlustfri kvalitet eller `.jpeg` för mindre filer.  
+**Direct answer:** Använd `save(String path, BarCodeImageFormat format)`‑metoden för att skriva streckkoden till disk; ange `.png` för förlustfri kvalitet eller `.jpeg` för mindre filer.
 
-`save(String path, BarCodeImageFormat format)` skriver den genererade streckkoden till den angivna filen i det valda bildformatet.  
+`save(String path, BarCodeImageFormat format)` skriver den genererade streckkoden till den angivna filen i det valda bildformatet.
 
 ```java
 // Save the image
@@ -149,15 +162,15 @@ bb.save(dataDir + "barcode-image-resolution.jpg");
 ## Vanliga problem och lösningar
 
 | Problem | Varför det händer | Lösning |
-|---------|-------------------|---------|
+|---------|-------------------|--------|
 | Streckkoden ser suddig ut | Upplösning lämnades på standard (96 dpi) | Anropa `setResolution()` med en högre DPI (t.ex. 200 f). |
-| Bilden sparas inte | `dataDir` pekar på en icke‑existerande mapp | Se till att katalogen finns eller skapa den programmässigt. |
-| Licensundantag | Kör utan en giltig licens i produktion | Applicera din Aspose-licensfil via `License license = new License(); license.setLicense("Aspose.BarCode.Java.lic");` |
+| Bilden sparas inte | `dataDir` pekar på en icke‑existerande mapp | Säkerställ att katalogen finns eller skapa den programmässigt. |
+| Licensundantag | Kör utan en giltig licens i produktion | Applicera din Aspose‑licensfil via `License license = new License(); license.setLicense("Aspose.BarCode.Java.lic");` |
 
 ## Vanliga frågor
 
 **Q: Kan jag anpassa streckkodens utseende ytterligare?**  
-A: Ja, Aspose.BarCode erbjuder alternativ för storlek, färg, teckensnitt och bakgrund för att möta varumärkeskrav.
+A: Ja, Aspose.BarCode erbjuder alternativ för storlek, färg, teckensnitt och bakgrund för att uppfylla varumärkeskrav.
 
 **Q: Är Aspose.BarCode lämplig för kommersiell användning?**  
 A: Absolut! Köp en kommersiell licens [Aspose commercial license page](https://purchase.aspose.com/buy) för obegränsad produktionsdistribution.
@@ -166,7 +179,7 @@ A: Absolut! Köp en kommersiell licens [Aspose commercial license page](https://
 A: Ja, du kan utforska funktionerna genom att ladda ner gratisprovet [Aspose free trial page](https://releases.aspose.com/).
 
 **Q: Hur kan jag få hjälp från communityn?**  
-A: Besök Aspose.BarCode community [forum](https://forum.aspose.com/c/barcode/13) för att ställa frågor och dela erfarenheter.
+A: Besök Aspose.BarCode‑communityns [forum](https://forum.aspose.com/c/barcode/13) för att ställa frågor och dela erfarenheter.
 
 **Q: Vad är en tillfällig licens och när bör jag använda den?**  
 A: En tillfällig licens möjliggör korttidsanvändning för utvärdering eller proof‑of‑concept‑projekt. Skaffa en på [temporary license page](https://purchase.aspose.com/temporary-license/).
@@ -179,15 +192,13 @@ A: Behåll DPI på 200 eller högre och undvik att skala den sparade bilden; l
 
 ## Slutsats
 
-Genom att följa dessa steg vet du nu **hur man ställer in DPI** när du **genererar streckkod Java** med Aspose.BarCode, vilket ger en **streckkod av hög kvalitet** som uppfyller både skärm- och utskriftskrav. Du har också lärt dig hur du **fix blurry barcode** problem, **save barcode png**, och utnyttjar bibliotekets flexibla API för alla Java‑baserade streckkodprojekt. Experimentera med olika symbologier, färger och utdataformat för att fullt utnyttja Aspose.BarCode:s möjligheter.
+Genom att följa dessa steg vet du nu **hur man åtgärdar suddig streckkod** när du **genererar streckkod Java** med Aspose.BarCode, och skapar en **streckkod av hög kvalitet** som uppfyller både skärm‑ och utskriftskrav. Du har också lärt dig hur man **fix blurry barcode** problem, **save barcode png**, och utnyttjar bibliotekets flexibla API för alla Java‑baserade streckkodprojekt. Experimentera med olika symbolik, färger och utdataformat för att fullt utnyttja Aspose.BarCode:s möjligheter.
 
 ---
 
-**Last Updated:** 2026-08-07  
-**Tested With:** Aspose.BarCode for Java 24.10  
-**Author:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
+**Senast uppdaterad:** 2026-11-18  
+**Testad med:** Aspose.BarCode for Java 24.10  
+**Författare:** Aspose  
 
 ## Relaterade handledningar
 
@@ -196,5 +207,8 @@ Genom att följa dessa steg vet du nu **hur man ställer in DPI** när du **gene
 - [Anpassad streckkodsstorlek Java – Avancerade inställningar och optimering](/barcode/java/advanced-settings-and-optimization/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,24 +1,24 @@
 ---
-date: 2026-07-18
-description: Khám phá cách đọc barcode từ hình ảnh bằng Aspose.BarCode cho Java –
-  một thư viện mạnh mẽ để trích xuất chi tiết vùng barcode một cách dễ dàng và nâng
-  cao ứng dụng Java của bạn.
+date: 2026-11-18
+description: Tìm hiểu cách đọc mã vạch Java với Aspose.BarCode, trích xuất chi tiết
+  vùng mã vạch chính xác từ hình ảnh và tích hợp phát hiện nhanh vào các ứng dụng
+  Java của bạn.
+images:
+- /java/advanced-settings-and-optimization/extracting-barcode-region-information/og-image.png
 keywords:
-- read barcode from image
-- how to read barcode
-- detect barcode in image
-- decode barcode image
+- read barcode java
 - java barcode detection library
-lastmod: 2026-07-18
-linktitle: Trích xuất thông tin vùng barcode từ hình ảnh
-og_description: Đọc barcode từ hình ảnh bằng Aspose.BarCode cho Java. Bài hướng dẫn
-  này cho thấy cách phát hiện, giải mã và trích xuất dữ liệu vùng barcode chính xác
-  trong vài phút.
-og_image_alt: Illustration of Java code extracting barcode region using Aspose.BarCode
-og_title: Đọc barcode từ hình ảnh – Hướng dẫn Java với Aspose.BarCode
+- java barcode reader example
+lastmod: 2026-11-18
+linktitle: Trích xuất thông tin vùng mã vạch từ hình ảnh
+og_description: Đọc mã vạch Java bằng Aspose.BarCode. Hướng dẫn này cho bạn biết cách
+  phát hiện, giải mã và nhanh chóng trích xuất dữ liệu vùng mã vạch chính xác từ hình
+  ảnh.
+og_image_alt: Java code example extracting barcode region with Aspose.BarCode
+og_title: Đọc mã vạch Java – trích xuất vùng mã vạch từ hình ảnh
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
+  dateModified: '2026-11-18'
   description: Explore how to read barcode from image using Aspose.BarCode for Java
     – a powerful library to extract barcode region details effortlessly and boost
     your Java applications.
@@ -47,9 +47,8 @@ tags:
 - Aspose.BarCode
 - Java barcode detection
 - barcode region extraction
-- barcode reader tutorial
-title: Đọc barcode từ hình ảnh – Thành thạo việc trích xuất vùng barcode trong Java
-  với Aspose.BarCode
+- java barcode reader example
+title: Cách đọc mã vạch Java và trích xuất vùng từ hình ảnh
 url: /vi/java/advanced-settings-and-optimization/extracting-barcode-region-information/
 weight: 17
 ---
@@ -58,36 +57,44 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đọc Mã vạch từ Hình ảnh trong Java – Thành thạo việc Trích xuất Vùng Mã vạch với Aspose.BarCode
+# Cách đọc mã vạch java và trích xuất vùng từ hình ảnh
 
-Trong các ứng dụng Java hiện đại, **đọc mã vạch từ hình ảnh** là một yêu cầu phổ biến—cho dù bạn đang xây dựng hệ thống quản lý tồn kho, máy kiểm tra vé, hoặc giải pháp ưu tiên di động. Aspose.BarCode cho Java giúp công việc này trở nên đơn giản, cho phép bạn trích xuất thông tin vùng mã vạch chính xác chỉ với vài dòng mã. Trong hướng dẫn này, chúng tôi sẽ đi qua một **ví dụ đọc mã vạch Java đầy đủ**, chỉ cho bạn cách **nhận dạng mã vạch trong hình ảnh**, và giải thích lý do việc trích xuất vùng mã vạch quan trọng cho các quy trình tiếp theo.
+Trong các ứng dụng Java hiện đại, **việc đọc mã vạch từ một hình ảnh** là một yêu cầu phổ biến—bất kể bạn đang xây dựng hệ thống quản lý tồn kho, máy kiểm tra vé, hay các giải pháp mobile‑first. Aspose.BarCode for Java giúp thực hiện nhiệm vụ này một cách đơn giản, cho phép bạn trích xuất thông tin vùng mã vạch một cách chính xác chỉ với vài dòng code. Trong hướng dẫn này, chúng tôi sẽ đi qua một **ví dụ đọc mã vạch java đầy đủ**, chỉ cho bạn cách **nhận dạng mã vạch trong hình ảnh**, và giải thích tại sao việc trích xuất vùng mã vạch lại quan trọng cho các quy trình xử lý tiếp theo.
 
 ## Câu trả lời nhanh
-- **Thư viện nào tôi nên sử dụng?** Aspose.BarCode cho Java.  
-- **Tôi có thể đọc mã vạch từ hình ảnh trong vài phút không?** Có – ví dụ chạy dưới 30 giây trên một máy làm việc tiêu chuẩn.  
-- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Nên dùng thư viện nào?** Aspose.BarCode for Java.  
+- **Tôi có thể đọc mã vạch java trong vài phút không?** Có – ví dụ chạy dưới 30 giây trên một máy làm việc tiêu chuẩn.  
+- **Có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần cho môi trường sản xuất.  
 - **Các loại mã vạch nào được hỗ trợ?** Hơn 50 ký hiệu, bao gồm Code 39, QR, DataMatrix, và nhiều hơn nữa.  
 - **Cách tiếp cận này chỉ dành cho Java?** API cũng có sẵn cho .NET, C++, và Python, nhưng hướng dẫn này tập trung vào Java.
 
-## Đọc mã vạch từ hình ảnh là gì?
-Đọc mã vạch từ một hình ảnh có nghĩa là quét một bitmap (PNG, JPEG, v.v.) và giải mã dữ liệu được mã hoá. Aspose.BarCode không chỉ trả về văn bản đã giải mã mà còn cung cấp vị trí chính xác (vùng) của mã vạch trong hình ảnh, điều này rất quan trọng cho việc chồng đồ họa, cắt ảnh, hoặc xác thực tính toàn vẹn của hình ảnh.
+## Cách đọc mã vạch java từ một hình ảnh?
 
-## Tại sao nên dùng Aspose.BarCode để đọc mã vạch từ hình ảnh?
-Aspose.BarCode cung cấp một giải pháp hoàn chỉnh, hiệu suất cao cho việc phát hiện mã vạch trong Java. Nó đạt **>99% độ chính xác phát hiện** trên các hình ảnh độ phân giải thấp hoặc bị nghiêng, xử lý **tài liệu hàng trăm trang** mà không cần tải toàn bộ tệp vào bộ nhớ, và trả về **bốn điểm góc** cho mỗi mã vạch, cho phép chồng lớp pixel‑perfect. Thư viện hỗ trợ **hơn 50 ký hiệu**, chạy **pure Java** (không có DLL gốc), và chỉ yêu cầu một tệp JAR duy nhất.
+Tải hình ảnh, cấu hình bộ đọc cho ký hiệu mong muốn, và gọi `readBarCodes()`. Phương thức này quét toàn bộ bitmap, trả về mọi mã vạch được phát hiện, và cung cấp cả văn bản đã giải mã và tọa độ bốn góc xác định vùng mã vạch. Lệnh duy nhất này tự động xử lý quay, thu phóng và các trường hợp độ tương phản thấp, giúp bạn tập trung vào logic nghiệp vụ thay vì tiền xử lý hình ảnh.
 
-### Lợi ích định lượng nhanh chóng
-- **Hơn 50 loại mã vạch được hỗ trợ** (đường thẳng và 2‑D).  
-- **Tốc độ quét lên tới 30 khung/giây** trên phần cứng máy tính để bàn tiêu chuẩn.  
-- **Tiết kiệm bộ nhớ**: xử lý ảnh lớn hơn 20 MB với mức sử dụng heap < 100 MB.  
-- **Không phụ thuộc bên ngoài** – chỉ cần tệp JAR của Aspose.BarCode.
+## “Đọc mã vạch từ hình ảnh” là gì?
+
+Đọc mã vạch từ một hình ảnh có nghĩa là quét một bitmap (PNG, JPEG, v.v.) và giải mã dữ liệu được mã hoá. Aspose.BarCode không chỉ trả về văn bản đã giải mã mà còn cung cấp vị trí chính xác (vùng) của mã vạch trong hình ảnh, điều này rất cần thiết để chồng đồ họa, cắt ảnh, hoặc xác thực tính toàn vẹn của hình ảnh.
+
+## Tại sao nên dùng Aspose.BarCode để đọc mã vạch java?
+
+Aspose.BarCode cung cấp một giải pháp hoàn chỉnh, hiệu năng cao cho việc phát hiện mã vạch trong Java. Nó đạt **độ chính xác phát hiện >99%** trên các ảnh độ phân giải thấp hoặc bị nghiêng, xử lý **tới 30 khung hình/giây** trên phần cứng máy tính để bàn tiêu chuẩn, và trả về **bốn điểm góc** cho mỗi mã vạch, cho phép chồng lớp pixel‑perfect. Thư viện hỗ trợ **hơn 50 ký hiệu**, chạy **thuần Java** (không cần DLL gốc), và chỉ yêu cầu một file JAR duy nhất.
+
+### Lợi ích định lượng tại một cái nhìn
+- **Hơn 50 loại mã vạch** được hỗ trợ (linear và 2‑D).  
+- **Tốc độ quét lên tới 30 khung hình/giây** trên một máy làm việc tiêu chuẩn.  
+- **Tiết kiệm bộ nhớ**: xử lý ảnh lớn hơn 20 MB với mức sử dụng heap dưới 100 MB.  
+- **Không phụ thuộc bên ngoài** – chỉ cần JAR Aspose.BarCode.
 
 ## Yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
 - **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
-- **Aspose.BarCode cho Java** – tải JAR mới nhất từ [trang tải xuống Aspose](https://releases.aspose.com/barcode/java/).  
+- **Aspose.BarCode for Java** – tải JAR mới nhất từ [trang tải Aspose](https://releases.aspose.com/barcode/java/).  
 - **IDE** – Eclipse, IntelliJ IDEA, hoặc bất kỳ trình soạn thảo nào bạn thích.  
 
-## Nhập các không gian tên
-Thêm các import cần thiết vào lớp Java của bạn để có thể làm việc với API của Aspose.BarCode.
+## Nhập không gian tên
+Gói `com.aspose.barcode` chứa tất cả các lớp bạn cần để làm việc với API Aspose.BarCode.
 
 ```java
 import java.awt.Point;
@@ -96,84 +103,73 @@ import com.aspose.barcode.barcoderecognition.BarCodeReader;
 import com.aspose.barcode.barcoderecognition.BarCodeResult;
 ```
 
-## Bước 1: Thiết lập Thư mục Tài nguyên
-Xác định thư mục chứa các hình ảnh mẫu. Điều này giúp logic đường dẫn sạch sẽ và có thể tái sử dụng.
+## Bước 1: thiết lập thư mục tài nguyên
+Xác định thư mục chứa các hình ảnh mẫu. Điều này giúp logic đường dẫn sạch sẽ và tái sử dụng được.
 
 ```java
 String dataDir = Utils.getDataDir(BarcodeRegionInformationFromTheImage.class) + "BarcodeReader/advanced_features/";
 ```
 
-## Bước 2: Tải hình ảnh và chỉ định Loại mã vạch
-Ở đây chúng ta **cách đọc mã vạch** từ một tệp JPEG chứa ký hiệu Code 39. Enum `DecodeType` cho trình đọc biết nên tìm kiếm ký hiệu nào.
+## Bước 2: tải hình ảnh và chỉ định loại mã vạch
+Ở đây chúng ta **đọc mã vạch java** từ một file JPEG chứa ký hiệu Code 39. Enum `DecodeType` cho bộ đọc biết cần tìm ký hiệu nào.
 
 ```java
 String imageFilePath = dataDir + "code39Extended.jpg";
 BarCodeReader reader = new BarCodeReader(imageFilePath, DecodeType.CODE_39_STANDARD);
 ```
 
-## Bước 3: Nhận dạng Mã vạch trong Hình ảnh
-`BarCodeReader` là lớp cốt lõi của Aspose.BarCode, quét hình ảnh và trả về kết quả phát hiện. Gọi `readBarCodes()` khiến thư viện quét toàn bộ hình ảnh và thu thập mọi mã vạch mà nó tìm thấy.
+## Bước 3: nhận dạng mã vạch trong hình ảnh
+`BarCodeReader` là lớp cốt lõi của Aspose.BarCode, quét ảnh và trả về kết quả phát hiện. Gọi `readBarCodes()` khiến thư viện quét toàn bộ ảnh và thu thập mọi mã vạch có thể tìm thấy.
 
 ```java
 reader.readBarCodes();
 ```
 
-## Bước 4: Trích xuất Thông tin Vùng
-`BarCodeResult` đại diện cho một kết quả phát hiện duy nhất và chứa cả văn bản đã giải mã và dữ liệu vùng. Lặp qua mỗi kết quả phát hiện, kiểm tra xem vùng có sẵn không, sau đó in ra tọa độ của bốn góc. Đây là cốt lõi của **cách trích xuất vùng mã vạch**.
+## Bước 4: trích xuất thông tin vùng
+`BarCodeResult` đại diện cho một kết quả phát hiện duy nhất và chứa cả văn bản đã giải mã và dữ liệu vùng. Duyệt qua mỗi kết quả, kiểm tra xem vùng có sẵn không, sau đó in ra tọa độ của bốn góc. Đây là phần cốt lõi của **cách trích xuất vùng mã vạch**.
 
 `getRegion()` trả về đa giác bao quanh mã vạch dưới dạng bốn điểm góc.
 
-> **Mẹo chuyên nghiệp:** Nếu bạn chỉ cần văn bản đã giải mã, sử dụng `result.getCodeText()`. Đối với dữ liệu vùng, luôn kiểm tra `result.getRegion()` không phải `null` để tránh `NullPointerException`.
+> **Mẹo:** Nếu bạn chỉ cần văn bản đã giải mã, sử dụng `result.getCodeText()`. Đối với dữ liệu vùng, luôn kiểm tra `result.getRegion()` không phải `null` để tránh `NullPointerException`.
 
-## Các vấn đề thường gặp & Giải pháp
-`setRotateAngle(double angle)` xoay hình ảnh theo góc đã cho trước khi phát hiện.
-
-| Vấn đề | Nguyên nhân | Cách khắc phục |
-|-------|----------------|-----|
-| Không phát hiện được mã vạch | Hình ảnh quá tối hoặc mờ | Tiền xử lý hình ảnh (tăng độ tương phản, nhị phân hóa) trước khi truyền vào `BarCodeReader`. |
-| `result.getRegion()` trả về `null` | Loại mã vạch không hỗ trợ trích xuất vùng | Đảm bảo bạn đang sử dụng ký hiệu hỗ trợ dữ liệu vùng (hầu hết các mã 2‑D đều hỗ trợ). |
-| Tọa độ không mong đợi | Hình ảnh đã bị xoay | Sử dụng `reader.setRotateAngle()` để chỉnh hướng trước khi đọc. |
+## Các vấn đề thường gặp & giải pháp
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|----------|
+| Không phát hiện mã vạch | Hình ảnh quá tối hoặc mờ | Tiền xử lý ảnh (tăng độ tương phản, nhị phân hoá) trước khi truyền cho `BarCodeReader`. |
+| `result.getRegion()` trả về `null` | Loại mã vạch không hỗ trợ trích xuất vùng | Đảm bảo bạn đang dùng ký hiệu hỗ trợ dữ liệu vùng (hầu hết các mã 2‑D đều hỗ trợ). |
+| Tọa độ không mong muốn | Ảnh đã bị quay | Sử dụng `reader.setRotateAngle()` để chỉnh hướng trước khi đọc. |
 
 ## Câu hỏi thường gặp
 
-**H: Aspose.BarCode có tương thích với tất cả các loại mã vạch không?**  
-Đ: Có, nó hỗ trợ **hơn 50 ký hiệu**, bao gồm Code 39, QR Code, DataMatrix, và nhiều hơn nữa. Xem danh sách đầy đủ trong [tài liệu](https://reference.aspose.com/barcode/java/).
+**Q: Aspose.BarCode có tương thích với mọi loại mã vạch không?**  
+A: Có, nó hỗ trợ **hơn 50 ký hiệu**, bao gồm Code 39, QR Code, DataMatrix, và nhiều hơn nữa. Xem danh sách đầy đủ trong [tài liệu](https://reference.aspose.com/barcode/java/).
 
-**H: Tôi có thể sử dụng Aspose.BarCode cho các dự án thương mại không?**  
-Đ: Chắc chắn. Cần có giấy phép thương mại cho việc sử dụng trong môi trường sản xuất. Thông tin mua hàng có sẵn trên [trang mua Aspose](https://purchase.aspose.com/buy).
+**Q: Tôi có thể dùng Aspose.BarCode cho các dự án thương mại không?**  
+A: Chắc chắn. Cần giấy phép thương mại cho môi trường sản xuất. Chi tiết mua hàng có trên [trang mua Aspose](https://purchase.aspose.com/buy).
 
-**H: Tôi có thể nhận hỗ trợ như thế nào nếu gặp vấn đề?**  
-Đ: Truy cập [diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để nhận trợ giúp cộng đồng, hoặc mở ticket hỗ trợ qua tài khoản Aspose của bạn.
+**Q: Làm sao tôi có thể nhận hỗ trợ nếu gặp vấn đề?**  
+A: Truy cập [diễn đàn Aspose.BarCode](https://forum.aspose.com/c/barcode/13) để được cộng đồng giúp đỡ, hoặc mở ticket hỗ trợ qua tài khoản Aspose của bạn.
 
-**H: Có bản dùng thử miễn phí nào để tôi thử không?**  
-Đ: Có, bạn có thể tải bản dùng thử đầy đủ chức năng từ [trang phát hành Aspose](https://releases.aspose.com/).
+**Q: Có bản dùng thử miễn phí để thử không?**  
+A: Có, bạn có thể tải bản dùng thử đầy đủ chức năng từ [trang phát hành Aspose](https://releases.aspose.com/).
 
-**H: Làm thế nào để tôi nhận được giấy phép tạm thời để đánh giá?**  
-Đ: Giấy phép tạm thời được cung cấp qua [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+**Q: Làm sao để lấy giấy phép tạm thời cho việc đánh giá?**  
+A: Giấy phép tạm thời được cung cấp qua [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Kết luận
-Bây giờ bạn đã có một **ví dụ đọc mã vạch Java đầy đủ** cho thấy cách **đọc mã vạch từ hình ảnh**, nhận dạng nó, và trích xuất tọa độ vùng chính xác. Việc tích hợp đoạn mã này vào dự án của bạn sẽ mang lại khả năng phát hiện mã vạch nhanh chóng, đáng tin cậy mà không cần công cụ bên ngoài. Khám phá các tính năng khác của Aspose.BarCode—như tạo mã vạch và xử lý hàng loạt—để nâng cao hơn nữa các ứng dụng Java của bạn.
+Bạn đã có một **ví dụ đọc mã vạch java đầy đủ** cho thấy cách **đọc mã vạch java**, nhận dạng nó, và trích xuất tọa độ vùng chính xác. Việc tích hợp đoạn mã này vào dự án của bạn sẽ mang lại khả năng phát hiện mã vạch nhanh, đáng tin cậy mà không cần công cụ bên ngoài. Khám phá các tính năng khác của Aspose.BarCode—như tạo mã vạch và xử lý hàng loạt—để nâng cao hơn nữa các ứng dụng Java của bạn.
 
 ---
 
-**Cập nhật lần cuối:** 2026-07-18  
-**Kiểm tra với:** Aspose.BarCode for Java 24.12  
+**Cập nhật lần cuối:** 2026-11-18  
+**Được kiểm tra với:** Aspose.BarCode for Java 24.12  
 **Tác giả:** Aspose
 
-## Hướng dẫn liên quan
+## Các hướng dẫn liên quan
 
-- [Đọc Mã vạch Java: Trình Đọc Mã vạch Hiệu Suất Cao cho Xử Lý Hình Ảnh Nhanh Hơn](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
-- [Thư viện Đọc Mã vạch Java: Phát hiện Hướng Mã vạch với Aspose.BarCode](/barcode/java/barcode-basics/detecting-barcode-orientation/)
-- [Cách đọc mã vạch 1D trong Java bằng Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
+- [Read Barcode Java: High Performance Barcode Reader for Faster Image Processing](/barcode/java/advanced-settings-and-optimization/faster-image-processing-barcode-recognition/)
+- [Java Barcode Reader Library: Detect Barcode Orientation with Aspose.BarCode](/barcode/java/barcode-basics/detecting-barcode-orientation/)
+- [How to read 1D barcodes in Java using Aspose.BarCode](/barcode/java/advanced-settings-and-optimization/getting-all-possible-1d-barcodes-image/)
 
 ```java
 for (BarCodeResult result : reader.readBarCodes()) {
@@ -186,3 +182,10 @@ for (BarCodeResult result : reader.readBarCodes()) {
     }
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
