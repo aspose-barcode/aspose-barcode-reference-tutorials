@@ -1,0 +1,7 @@
+Title: How to use ECI in QR code generation with Python
+Slug: how-to-use-eci-in-qr-code-generation-with-python
+Category: general
+ProcessedDate: 2026-11-21T02:03:04.166573
+SourceRepo: AI Search API
+Keywords: how to use eci, generate qr from text, how to clear builder, save qr image, clear qr builder
+PRNumber: 178
