@@ -1,0 +1,7 @@
+Title: How to generate barcode using Aspose.Barcode in C#
+Slug: how-to-generate-barcode-using-aspose-barcode-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-11-21T01:57:41.482379
+SourceRepo: AI Search API
+Keywords: how to generate barcode, create barcode with aspose
+PRNumber: 177
