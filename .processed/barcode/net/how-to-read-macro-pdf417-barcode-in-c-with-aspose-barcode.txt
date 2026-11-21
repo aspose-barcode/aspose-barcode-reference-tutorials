@@ -1,0 +1,7 @@
+Title: How to read macro PDF417 barcode in C# with Aspose.BarCode
+Slug: how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-11-21T01:57:45.338761
+SourceRepo: AI Search API
+Keywords: read macro pdf417 barcode, read barcodes from image c#
+PRNumber: 177
