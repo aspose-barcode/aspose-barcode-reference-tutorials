@@ -129,6 +129,16 @@ Más allá de lo básico, aquí tienes algunos consejos prácticos para optimiza
 
 ### [Tutorial de lector de códigos de barras C# – leer códigos de barras Macro PDF417 paso a paso](./c-barcode-reader-tutorial-read-macro-pdf417-barcodes-step-by/)
 
+### [Cómo generar código de barras PDF417 en C# con BarcodeGenerator](./how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
+
+### [Cómo crear código de barras macro PDF417 con Aspose.BarCode en C#](./how-to-create-macro-pdf417-barcode-with-aspose-barcode-in-c/)
+
+### [Cómo generar código de barras usando Aspose.Barcode en C#](./how-to-generate-barcode-using-aspose-barcode-in-c/)
+
+### [Cómo crear una imagen de código de barras con PDF417 en C# – guía paso a paso](./how-to-create-barcode-image-with-pdf417-in-c-step-by-step-gu/)
+
+### [Cómo leer código de barras macro PDF417 en C# con Aspose.BarCode](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
+
 Aprende a crear un PNG de código de barras PDF417 en C# con una guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
