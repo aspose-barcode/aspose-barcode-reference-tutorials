@@ -32,7 +32,7 @@ schemas:
     text: '```csharp using Aspose.Barcode.Generation;'
   - name: Adjust the X‑dimension (module width)
     text: '```csharp // Step 3: Set the module width in pixels – 2 px yields a clear,
-      print‑ready image generator.Parameters.Barcode.XDimension.Pixels = 2; ```'
+      print‑ready image generator.Parameters.Barcode.XDimension = 2; ```'
   - name: Choose the number of columns for the PDF417 component
     text: '```csharp // Step 4: Define how many columns the PDF417 component should
       use (1‑4 allowed) generator.Parameters.Barcode.Pdf417.Columns = 4; ```'
@@ -117,7 +117,7 @@ BarcodeGenerator generator = new BarcodeGenerator(
 
 ```csharp
 // Step 3: Set the module width in pixels – 2 px yields a clear, print‑ready image
-generator.Parameters.Barcode.XDimension.Pixels = 2;
+generator.Parameters.Barcode.XDimension = 2;
 ```
 
 **Why this matters:** The X‑dimension determines the size of each barcode cell. A value that is too low produces a blurry image; a value that is too high makes the barcode unnecessarily large. Two pixels is a balanced default for most screen and print scenarios.
@@ -167,7 +167,7 @@ namespace BarcodeDemo
                 "Åspóse.Barcóde©");
 
             // Configure visual appearance
-            generator.Parameters.Barcode.XDimension.Pixels = 2;
+            generator.Parameters.Barcode.XDimension = 2;
             generator.Parameters.Barcode.Pdf417.Columns = 4;
 
             // Determine output location (Desktop for easy access)
@@ -242,7 +242,7 @@ You now know **how to generate barcode** using Aspose.Barcode in C#. The tutoria
 Ready to explore further? Try generating QR codes for URL shortening, embed barcodes in PDF reports using Aspose.PDF, or automate batch barcode creation for inventory management. Each new scenario builds on the same core concepts demonstrated here. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

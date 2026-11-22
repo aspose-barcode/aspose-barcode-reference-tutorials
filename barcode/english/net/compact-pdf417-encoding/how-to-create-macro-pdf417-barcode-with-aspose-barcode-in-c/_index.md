@@ -85,19 +85,19 @@ dotnet add package Aspose.BarCode
 
 ## Step 1: Initialize the barcode generator for macro PDF417
 
-The first step is to instantiate a `BarcodeGenerator` with the `EncodeTypes.MacroPdf417` enum value. This tells the library to treat the barcode as a macro PDF417 symbol.
+The first step is to instantiate a `BarcodeGenerator` with the `EncodeTypes.Pdf417` enum value. This tells the library to treat the barcode as a PDF417 symbol, after which macro‑related properties become available.
 
 ```csharp
 using Aspose.BarCode.Generation;
 using Aspose.BarCode;
 
 using (BarcodeGenerator barcodeGenerator = new BarcodeGenerator(
-           EncodeTypes.MacroPdf417, "Åspóse.Barcóde©"))
+           EncodeTypes.Pdf417, "Åspóse.Barcóde©"))
 {
     // The generator is now ready for further configuration.
 ```
 
-*Why this matters*: Selecting `MacroPdf417` enables all macro‑related properties on the `Pdf417` parameter object.
+*Why this matters*: Selecting `Pdf417` enables all macro‑related properties on the `Pdf417` parameter object.
 
 ## Step 2: Set basic visual appearance
 
@@ -189,7 +189,7 @@ namespace MacroPdf417Demo
         {
             // Step 1: Create a macro PDF417 barcode generator.
             using (BarcodeGenerator barcodeGenerator = new BarcodeGenerator(
-                       EncodeTypes.MacroPdf417, "Åspóse.Barcóde©"))
+                       EncodeTypes.Pdf417, "Åspóse.Barcóde©"))
             {
                 // Step 2: Visual appearance.
                 barcodeGenerator.Parameters.Barcode.XDimension.Pixels = 2;
@@ -256,7 +256,7 @@ Next steps include experimenting with different `XDimension` values for higher r
 Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
