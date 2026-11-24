@@ -180,15 +180,6 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 ### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
 
 
-### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
-
-
-### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
-
-
-### [How to set error level in PDF417 barcode – complete guide](./how-to-set-error-level-in-pdf417-barcode-complete-guide/)
-
-
 ### [How to generate PDF417 barcode in C# – compact settings](./generate-pdf417-barcode-with-compact-settings-in-c/)
 
 
@@ -198,13 +189,22 @@ A alta densidade de dados e a robusta correção de erro do Compact PDF417 o tor
 ### [How to generate PDF417 barcode in C# – custom dimensions](./how-to-generate-pdf417-barcode-in-c-with-custom-dimensions/)
 
 
-### [How to generate PDF417 barcode in C# – compact example](./how-to-generate-pdf417-barcode-in-c-compact-example/)
-
-
 ### [How to generate PDF417 barcode in C# – macro example](./how-to-generate-pdf417-barcode-in-c-macro-example/)
 
 
+### [Como usar BarCodeReader em C# para ler códigos de barras de imagens](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
+
+
+### [Gerar código de barras PDF417 com Aspose Barcode Generator – guia C#](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
+
+
+### [Como criar código de barras macro PDF417 em C#](./how-to-create-macro-pdf417-barcode-in-c/)
+
+
 ### [Como criar código de barras macro PDF417 com Aspose.BarCode em C#](./how-to-create-macro-pdf417-barcode-with-aspose-barcode-in-c/)
+
+
+### [Como gerar imagem de código de barras com MacroPdf417 em C#](./how-to-generate-barcode-image-with-macropdf417-in-c/)
 
 
 ### [How to generate PDF417 barcode in C# – metadata example](./how-to-generate-pdf417-barcode-in-c-metadata-example/)

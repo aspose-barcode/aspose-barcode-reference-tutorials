@@ -3,7 +3,7 @@ date: 2026-01-09
 description: 了解如何使用 Aspose.BarCode for .NET 轻松生成 PDF417 条码，涵盖错误纠正、条码示例和生成技术。
 linktitle: Compact PDF417 Encoding
 second_title: Aspose.BarCode .NET API
-title: 如何生成 PDF417 条码 – 紧凑型 PDF417 编码
+title: 如何生成 PDF417 条形码 – 紧凑型 PDF417 编码
 url: /zh/net/compact-pdf417-encoding/
 weight: 29
 ---
@@ -119,6 +119,9 @@ Aspose.BarCode 允许您设置 `Pdf417ErrorCorrectionLevel` 属性（0‑8）。
 
 ### [如何在 C# 中使用宏 PDF417 设置生成 PDF417 条码](./how-to-generate-pdf417-barcode-in-c-with-macro-pdf417-settin/)
 
+### [如何在 C# 中使用 MacroPdf417 生成条形码图像](./how-to-generate-barcode-image-with-macropdf417-in-c/)
+
+### [How to generate PDF417 barcode with Aspose.BarCode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
 ### [How to create PDF417 barcode and save it as PNG in C#](./how-to-create-pdf417-barcode-and-save-it-as-png-in-c/)
 
@@ -204,6 +207,8 @@ Aspose.BarCode 允许您设置 `Pdf417ErrorCorrectionLevel` 属性（0‑8）。
 
 ### [如何在 C# 中读取 PDF417 条码 – 完整指南](./how-to-read-pdf417-barcode-in-c-complete-guide/)
 
+### [使用 Aspose 条码生成器生成 PDF417 条码 – C# 指南](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
+
 演示如何使用 Aspose.BarCode for .NET 在 C# 中读取图像中的条形码。
 
 - [如何在 C# 中使用 Aspose.BarCode 生成 PDF417 条码](./how-to-generate-pdf417-barcodes-in-c-with-aspose-barcode/)
@@ -248,6 +253,8 @@ Aspose.BarCode 允许您设置 `Pdf417ErrorCorrectionLevel` 属性（0‑8）。
 
 ### [如何在 C# 中使用 PDF417 创建条码图像 – 步骤指南](./how-to-create-barcode-image-with-pdf417-in-c-step-by-step-gu/)
 
+### [如何在 C# 中使用 BarCodeReader 从图像读取条形码](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
+
 ## 常见问题解答
 
 提供在 C# 环境下使用 Aspose.BarCode for .NET 生成 PDF417 条码的完整分步教程。
@@ -257,7 +264,7 @@ Aspose.BarCode 允许您设置 `Pdf417ErrorCorrectionLevel` 属性（0‑8）。
 ### [如何将条形码保存为图像 – 完整 C# 指南](./how-to-save-barcode-as-an-image-complete-c-guide/)
 
 提供使用 Aspose.BarCode for .NET 在 C# 中将条形码保存为图像的完整步骤和代码示例。
-### [在 C# 中读取 PDF417 条码 – 条码读取器示例](./read-pdf417-barcode-in-c-barcode-reader-example/)
+### [如何在 C# 中读取 PDF417 条码 – 条码读取器示例](./read-pdf417-barcode-in-c-barcode-reader-example/)
 
 ### [如何在 C# 中解码 PDF417 条码 – 条码读取器示例](./how-to-decode-pdf417-in-c-with-a-barcode-reader-example/)
 

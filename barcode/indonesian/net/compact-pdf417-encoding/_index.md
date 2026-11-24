@@ -216,40 +216,6 @@ Panduan langkah‑demi‑langkah lengkap untuk membuat barcode PDF417 menggunaka
 
 ### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
 
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
-### [Cara mendekode barcode PDF417 di C# – panduan langkah‑per‑langkah](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
-
 ### [How to generate PDF417 barcode in C# – complete programming guide](./how-to-generate-pdf417-barcode-in-c-complete-programming-guide/)
 
 ### [Cara menghasilkan barcode PDF417 di C# dengan BarcodeGenerator](./how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
@@ -259,6 +225,12 @@ Panduan langkah‑demi‑langkah lengkap untuk membuat barcode PDF417 menggunaka
 ### [Cara menghasilkan barcode dengan Aspose.Barcode di C#](./how-to-generate-barcode-using-aspose-barcode-in-c/)
 
 ### [Cara membuat gambar barcode dengan PDF417 di C# – panduan langkah‑demi‑step‑by‑step](./how-to-create-barcode-image-with-pdf417-in-c-step-by-step-gu/)
+
+### [Cara menghasilkan gambar barcode dengan MacroPdf417 di C#](./how-to-generate-barcode-image-with-macropdf417-in-c/)
+
+### [Cara menghasilkan barcode PDF417 dengan Aspose Barcode Generator – Panduan C#](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
+
+### [Cara menggunakan BarCodeReader di C# untuk membaca barcode dari gambar](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
 
 ## Pertanyaan yang Sering Diajukan
 
