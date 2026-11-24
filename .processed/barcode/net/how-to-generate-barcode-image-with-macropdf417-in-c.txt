@@ -1,0 +1,7 @@
+Title: How to generate barcode image with MacroPdf417 in C#
+Slug: how-to-generate-barcode-image-with-macropdf417-in-c
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-11-24T05:13:51.652624
+SourceRepo: AI Search API
+Keywords: how to generate barcode image
+PRNumber: 180
