@@ -1,0 +1,7 @@
+Title: How to use BarCodeReader in C# to read barcodes from images
+Slug: how-to-use-barcodereader-in-c-to-read-barcodes-from-images
+Category: compact-pdf417-encoding
+ProcessedDate: 2026-11-24T05:13:55.819955
+SourceRepo: AI Search API
+Keywords: how to use barcodereader, read barcodes from image c#
+PRNumber: 180
