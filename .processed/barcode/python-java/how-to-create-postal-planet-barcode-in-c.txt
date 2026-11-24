@@ -1,0 +1,7 @@
+Title: How to create postal planet barcode in C#
+Slug: how-to-create-postal-planet-barcode-in-c
+Category: general
+ProcessedDate: 2026-11-24T05:27:39.816605
+SourceRepo: AI Search API
+Keywords: create postal planet barcode, how to generate planet barcode
+PRNumber: 181
