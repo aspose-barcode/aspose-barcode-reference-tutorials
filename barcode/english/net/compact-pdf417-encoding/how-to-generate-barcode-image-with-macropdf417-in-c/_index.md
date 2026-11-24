@@ -1,33 +1,28 @@
 ---
 category: general
 date: 2026-11-23
-description: Learn how to generate barcode image using Aspose.BarCode for .NET with
-  MacroPdf417 metadata in C#. Follow the complete step‑by‑step guide.
+description: Learn how to generate a barcode image with MacroPdf417 metadata in C#. Follow the complete step‑by‑step guide.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to generate barcode image
+- generate barcode image
 - MacroPdf417 barcode
-- Aspose.BarCode for .NET
-- set barcode metadata
+- barcode metadata
 - barcode image format
 - C# barcode generation
 language: en
 lastmod: 2026-11-23
-og_description: How to generate barcode image using Aspose.BarCode for .NET. This
-  tutorial shows MacroPdf417 metadata configuration and C# barcode generation.
+og_description: How to generate a barcode image with MacroPdf417 metadata in C#. This tutorial shows metadata configuration and C# barcode generation.
 og_image_alt: Barcode image generated with MacroPdf417 using C#
 og_title: How to generate barcode image with MacroPdf417 in C#
 schemas:
 - author: Aspose
   dateModified: '2026-11-23'
-  description: Learn how to generate barcode image using Aspose.BarCode for .NET with
-    MacroPdf417 metadata in C#. Follow the complete step‑by‑step guide.
+  description: Learn how to generate a barcode image with MacroPdf417 metadata in C#. Follow the complete step‑by‑step guide.
   headline: How to generate barcode image with MacroPdf417 in C#
   type: TechArticle
-- description: Learn how to generate barcode image using Aspose.BarCode for .NET with
-    MacroPdf417 metadata in C#. Follow the complete step‑by‑step guide.
+- description: Learn how to generate a barcode image with MacroPdf417 metadata in C#. Follow the complete step‑by‑step guide.
   name: How to generate barcode image with MacroPdf417 in C#
   steps:
   - name: Open a terminal or the Package Manager Console in Visual Studio.
@@ -48,7 +43,6 @@ schemas:
 tags:
 - barcode
 - C#
-- Aspose
 - PDF417
 title: How to generate barcode image with MacroPdf417 in C#
 url: /net/compact-pdf417-encoding/how-to-generate-barcode-image-with-macropdf417-in-c/
@@ -188,10 +182,9 @@ using Aspose.BarCode.BarCodeRecognition;
 // ...
 
 using (BarCodeReader reader = new BarCodeReader(outputPath, DecodeType
+```
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
