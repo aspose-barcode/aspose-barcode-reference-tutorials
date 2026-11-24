@@ -242,3 +242,6 @@ Leer hoe je een barcode als PNG-afbeelding genereert in C# met Aspose.BarCode, i
 - [Hoe PDF417-barcode genereren in C# met BarcodeGenerator](./how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
 - [Hoe barcode genereren met Aspose.Barcode in C#](./how-to-generate-barcode-using-aspose-barcode-in-c/)
 - [Hoe een barcode‑afbeelding maken met PDF417 in C# – stapsgewijze gids](./how-to-create-barcode-image-with-pdf417-in-c-step-by-step-gu/)
+- [Hoe een barcode‑afbeelding te genereren met MacroPdf417 in C#](./how-to-generate-barcode-image-with-macropdf417-in-c/)
+- [Genereer PDF417 barcode met Aspose Barcode Generator – C# gids](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
+- [Hoe BarCodeReader te gebruiken in C# om barcodes van afbeeldingen te lezen](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)

@@ -139,6 +139,9 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 - **授權例外：** 在試用環境中，產生的條碼可能會帶有浮水印。套用有效授權即可移除。
 
 ## 緊凑式 PDF417 編碼教學
+### [How to generate barcode image with MacroPdf417 in C#](./how-to-generate-barcode-image-with-macropdf417-in-c/)
+
+
 ### [How to create barcode from text in C# using Aspose.Barcode](./how-to-create-barcode-from-text-in-c-using-aspose-barcode/)
 
 
@@ -523,70 +526,9 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
 
 
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
+### [使用 Aspose 條碼產生器產生 PDF417 條碼 – C# 指南](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
 
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
-
-### [如何在 C+
-
-### [如何在 C# 中使用 Aspose.BarCode 讀取 Macro PDF417 條碼](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)
-
+### [如何在 C# 中使用 BarCodeReader 從圖像讀取條碼](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
