@@ -1,0 +1,7 @@
+Title: Barcode generator tutorial – create a Planet PNG barcode
+Slug: barcode-generator-tutorial-create-a-planet-png-barcode
+Category: general
+ProcessedDate: 2026-11-27T10:17:31.543109
+SourceRepo: AI Search API
+Keywords: barcode generator tutorial, how to generate barcode, change barcode size, create barcode png, create planet barcode
+PRNumber: 184
