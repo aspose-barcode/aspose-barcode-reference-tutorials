@@ -1,0 +1,7 @@
+Title: How to adjust barcode bar height in DataBar Omni‑Directional generator
+Slug: how-to-adjust-barcode-bar-height-in-databar-omni-directional
+Category: general
+ProcessedDate: 2026-11-27T10:17:39.447915
+SourceRepo: AI Search API
+Keywords: adjust barcode bar height
+PRNumber: 184
