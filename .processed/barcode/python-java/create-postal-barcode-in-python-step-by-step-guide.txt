@@ -1,0 +1,7 @@
+Title: Create postal barcode in Python – step‑by‑step guide
+Slug: create-postal-barcode-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-11-27T10:17:37.441732
+SourceRepo: AI Search API
+Keywords: create postal barcode, create barcode from string, how to generate barcode image
+PRNumber: 184
