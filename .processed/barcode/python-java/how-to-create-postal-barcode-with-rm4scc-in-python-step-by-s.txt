@@ -1,0 +1,7 @@
+Title: How to create postal barcode with RM4SCC in Python – step‑by‑step guide
+Slug: how-to-create-postal-barcode-with-rm4scc-in-python-step-by-s
+Category: general
+ProcessedDate: 2026-11-27T10:17:33.603036
+SourceRepo: AI Search API
+Keywords: create postal barcode
+PRNumber: 184
