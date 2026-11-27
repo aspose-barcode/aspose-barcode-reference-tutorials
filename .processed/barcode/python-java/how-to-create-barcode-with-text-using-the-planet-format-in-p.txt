@@ -1,0 +1,7 @@
+Title: How to create barcode with text using the Planet format in Python
+Slug: how-to-create-barcode-with-text-using-the-planet-format-in-p
+Category: general
+ProcessedDate: 2026-11-27T10:17:27.441164
+SourceRepo: AI Search API
+Keywords: create barcode with text, how to generate barcode, generate planet barcode
+PRNumber: 184
