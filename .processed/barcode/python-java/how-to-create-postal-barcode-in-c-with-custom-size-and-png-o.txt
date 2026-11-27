@@ -1,0 +1,7 @@
+Title: How to create postal barcode in C# with custom size and PNG output
+Slug: how-to-create-postal-barcode-in-c-with-custom-size-and-png-o
+Category: general
+ProcessedDate: 2026-11-27T10:17:29.577880
+SourceRepo: AI Search API
+Keywords: create postal barcode, barcode generator c#, barcode image png, how to generate barcode, custom size barcode
+PRNumber: 184
