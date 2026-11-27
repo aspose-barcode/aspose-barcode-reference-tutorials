@@ -143,6 +143,9 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 ### [How to generate PDF417 barcode in C# with BarcodeGenerator](./how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
 
 
+### [Как сгенерировать штрих‑код PDF417 в C# с Aspose.BarCode](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)
+
+
 ### [Generate PDF417 barcode as PNG in C# – step‑by‑step guide](./generate-pdf417-barcode-as-png-in-c-step-by-step-guide/)
 
 
@@ -150,6 +153,8 @@ generator.Save("compact-pdf417.png", BarCodeImageFormat.Png);
 
 
 ### [How to read PDF417 barcode in C# – full barcode reader guide](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
+
+### [Как считать штрих‑код PDF417 в C# – полное руководство по программированию](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
 
 
 ### [Как считать macro PDF417 штрих‑код в C# с Aspose.BarCode](./how-to-read-macro-pdf417-barcode-in-c-with-aspose-barcode/)

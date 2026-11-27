@@ -105,6 +105,12 @@ Scopri come leggere i codici a barre da un'immagine in C# con Aspose.BarCode, pa
 ### [Come salvare il codice a barre come immagine usando Aspose.BarCode per .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Scopri come salvare un codice a barre come immagine in .NET con Aspose.BarCode, passo passo.
 
+### [Crea immagine del codice a barre e salva in formato PNG in C#](./create-barcode-image-and-save-png-format-in-c/)
+Impara a generare un'immagine di codice a barre e salvarla come PNG in C# usando Aspose.BarCode.
+
+### [Genera barcode PNG in C# con Aspose – guida passo‑passo](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Impara a generare un'immagine PNG di un codice a barre in C# usando Aspose.BarCode, passo dopo passo.
+
 ## Conclusione
 
 In questa serie di tutorial, abbiamo approfondito il mondo dei tipi di codici a barre unidimensionali, concentrandoci sulla loro configurazione e personalizzazione. Con Aspose.BarCode per .NET, il processo è reso semplice, garantendo la possibilità di creare codici a barre su misura per le tue esigenze. Quindi, che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questi tutorial ti consentiranno di sfruttare la potenza dei codici a barre unidimensionali nei tuoi progetti .NET. Inizia subito e libera il potenziale della tecnologia dei codici a barre!

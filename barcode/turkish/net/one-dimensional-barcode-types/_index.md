@@ -78,7 +78,7 @@ Aspose.BarCode for .NET ile .NET'te barkod oluşturmayı öğrenin. Bu kapsamlı
 Aspose.BarCode for .NET'i kullanarak tek boyutlu barkodlar oluştururken istisnaları nasıl ele alacağınızı öğrenin. Bu adım adım kılavuz, hataya dayanıklı barkod çözümleri sağlar. Şimdi başla!
 ### [Tek Boyutlu Geniş-Dar Oranlı Yapılandırma](./one-dimensional-wide-narrow-ratio-configuration/)
 Aspose.BarCode for .NET ile özelleştirilmiş barkodları kolayca oluşturun. Tek boyutlu geniş-dar oranlı yapılandırma için adım adım kılavuz.
-### [C#'ta Barkod Ayarlama – Tam Aspose.BarCode Rehberi](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
+### [C'ta Barkod Ayarlama – Tam Aspose.BarCode Rehberi](./how-to-set-barcode-in-c-complete-aspose-barcode-guide/)
 C# ile Aspose.BarCode kullanarak barkod ayarlamayı adım adım öğrenin. Tam rehberde tüm detaylar.
 ### [Görüntüden Barkod Okuma – C# barkod okuyucu örneği](./read-barcode-from-image-c-barcode-reader-example/)
 Aspose.BarCode kullanarak C# ile bir görüntüden barkod okuma örneğini adım adım öğrenin.
@@ -97,6 +97,10 @@ Aspose.BarCode kullanarak C# ile bir görüntüden barkod okuma adımlarını ö
 ### [Aspose.BarCode for .NET ile özel metinle barkod oluşturma](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Aspose.BarCode for .NET kullanarak özel metinle barkod oluşturmayı öğrenin.
 ### [Aspose.BarCode for .NET ile barkodu resim olarak kaydetme](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
+### [C#'ta barkod görüntüsü oluşturma ve PNG formatında kaydetme](./create-barcode-image-and-save-png-format-in-c/)
+Aspose.BarCode kullanarak C# içinde barkod oluşturun ve PNG olarak kaydedin. Adım adım rehber.
+### [C#'ta Aspose ile Barkod PNG Oluşturma – Adım Adım Rehber](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Aspose.BarCode kullanarak C# içinde barkod PNG dosyası oluşturmayı adım adım öğrenin.
 
 ## Çözüm
 

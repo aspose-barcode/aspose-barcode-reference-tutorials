@@ -150,6 +150,9 @@ Compact PDF417:s höga datadensitet och robusta felkorrigering gör den lämplig
 ### [How to generate PDF417 barcode in C# with BarcodeGenerator](./how-to-generate-pdf417-barcode-in-c-with-barcode-generator/)
 
 
+### [Hur du genererar PDF417‑streckkod i C# med Aspose.BarCode](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)
+
+
 ### [How to generate PDF417 barcode and render it as PNG](./how-to-generate-pdf417-barcode-and-render-it-as-png/)
 
 
@@ -222,83 +225,9 @@ Compact PDF417:s höga datadensitet och robusta felkorrigering gör den lämplig
 ### [Hur du läser PDF417‑streckkoder i C# – komplett steg‑för‑steg‑guide](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 
 
-### [Hur man genererar streckkodsbild i C# – MicroPdf417‑guide](./how-to-generate-barcode-image-in-c-micropdf417-guide/)
+### [Hur du läser PDF417‑streckkoder i C# – komplett programmeringsguide](./how-to-read-pdf417-barcodes-in-c-complete-programming-guide/)
 
-
-### [Generera Micro PDF417‑streckkod i C# – Komplett guide](./generate-micro-pdf417-barcode-in-c-complete-guide/)
-
-
-### [Generera PDF417‑streckkod i C# – Komplett programmeringsguide](./generate-pdf417-barcode-in-c-complete-programming-guide/)
-
-
-### [Hur du sparar streckkod i C# – Generera PDF417‑streckkoder](./how-to-save-barcode-in-c-generate-pdf417-barcodes/)
-
-
-- [Hur du sparar streckkod i C# – Generera PDF417‑streckkoder](./how-to-save-barcode-in-c-generate-pdf417-barcodes/)
-
-- [Hur du sparar streckkod som PNG och aktiverar kompakt läge i C#](./how-to-save-barcode-as-png-and-enable-compact-mode-in-c/)
-
-- [Barcode Generator‑handledning: Hur man genererar PDF417‑streckkod i C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
-
-- [Hur du bygger en streckkodsgeneratorhandledning i C# som skapar Compact PDF417‑streckkoder](./how-to-build-a-barcode-generator-tutorial-in-c-that-creates/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
-
-- [Hur du skapar PDF417‑streckkod med Aspose.BarCode – steg‑för‑steg‑guide](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
+### [Hur du läser PDF417‑streckkod i C# – komplett programmeringsguide](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

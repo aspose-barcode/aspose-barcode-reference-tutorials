@@ -104,6 +104,10 @@ url: /zh-hant/net/one-dimensional-barcode-types/
 了解如何使用 Aspose.BarCode for .NET 將條碼保存為圖像檔案。
 ### [如何在 C# 中從圖像讀取條碼 – 步驟說明指南](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
 了解如何在 C# 中從圖像讀取條碼的逐步指南。
+### [在 C# 中建立條碼圖像並儲存為 PNG 格式](./create-barcode-image-and-save-png-format-in-c/)
+了解如何在 C# 中使用 Aspose.BarCode 建立條碼圖像並儲存為 PNG 格式。
+### [在 C# 中使用 Aspose 產生條碼 PNG – 步驟指南](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+了解如何在 C# 中使用 Aspose.BarCode 產生 PNG 格式的條碼，完整的逐步教學。
 
 ## 結論
 

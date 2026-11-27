@@ -104,6 +104,10 @@ Naučte se vytvořit čárový kód s vlastním textem v .NET pomocí Aspose.Bar
 Naučte se, jak uložit vygenerovaný čárový kód jako obrázek pomocí Aspose.BarCode v .NET.
 ### [Jak číst čárové kódy z obrázku v C# – krok za krokem](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
 Kompletní průvodce krok za krokem, jak v C# načíst čárové kódy z obrázku pomocí Aspose.BarCode.
+### [Vytvoření obrázku čárového kódu a uložení ve formátu PNG v C#](./create-barcode-image-and-save-png-format-in-c/)
+Naučte se vytvořit obrázek čárového kódu a uložit jej jako PNG v C# pomocí Aspose.BarCode.
+### [Vygenerujte PNG čárového kódu v C# – krok za krokem](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Naučte se, jak v C# pomocí Aspose.BarCode vytvořit a uložit čárový kód ve formátu PNG.
 
 ## Závěr
 

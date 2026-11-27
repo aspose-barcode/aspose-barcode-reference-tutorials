@@ -104,6 +104,10 @@ Aprenda a gerar códigos de barras com texto personalizado em .NET usando Aspose
 Aprenda a ler códigos de barras de imagens em C# usando Aspose.BarCode, passo a passo.
 ### [Como salvar código de barras como imagem usando Aspose.BarCode para .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Aprenda a salvar códigos de barras como imagens em .NET usando Aspose.BarCode, passo a passo.
+### [Criar imagem de código de barras e salvar em formato PNG em C#](./create-barcode-image-and-save-png-format-in-c/)
+Aprenda a gerar imagens de códigos de barras e salvá‑las como PNG em C# usando Aspose.BarCode.
+### [Gerar PNG de código de barras em C# com Aspose – guia passo a passo](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Aprenda a gerar imagens PNG de códigos de barras em C# usando Aspose.BarCode, passo a passo.
 
 ## Conclusão
 

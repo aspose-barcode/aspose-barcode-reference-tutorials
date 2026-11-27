@@ -104,6 +104,10 @@ url: /ru/net/one-dimensional-barcode-types/
 Узнайте, как генерировать штрих‑коды с особыми символами в C# с помощью Aspose.BarCode.
 ### [Как сохранить штрих‑код как изображение с помощью Aspose.BarCode для .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Узнайте, как сохранить штрих‑код в виде изображения с помощью Aspose.BarCode для .NET.
+### [Создание изображения штрих‑кода и сохранение в формате PNG в C#](./create-barcode-image-and-save-png-format-in-c/)
+Узнайте, как создать изображение штрих‑кода и сохранить его в формате PNG в C#.
+### [Создание PNG‑изображения штрих‑кода в C# с Aspose – пошаговое руководство](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Узнайте, как сгенерировать PNG‑изображение штрих‑кода в C# с помощью Aspose.BarCode, следуя пошаговому руководству.
 
 ## Заключение
 

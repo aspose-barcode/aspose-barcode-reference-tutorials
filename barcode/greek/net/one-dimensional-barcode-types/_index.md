@@ -101,6 +101,12 @@ url: /el/net/one-dimensional-barcode-types/
 ### [Πώς να δημιουργήσετε barcode με προσαρμοσμένο κείμενο χρησιμοποιώντας το Aspose.BarCode για .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Μάθετε πώς να δημιουργήσετε barcode με προσαρμοσμένο κείμενο στο .NET χρησιμοποιώντας το Aspose.BarCode.
 
+### [Δημιουργία εικόνας barcode και αποθήκευση σε μορφή PNG με C#](./create-barcode-image-and-save-png-format-in-c/)
+Μάθετε πώς να δημιουργήσετε εικόνα barcode και να την αποθηκεύσετε σε μορφή PNG με C# χρησιμοποιώντας το Aspose.BarCode.
+
+### [Δημιουργία barcode PNG σε C# με Aspose – βήμα‑βήμα οδηγός](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αρχείο PNG barcode σε C# χρησιμοποιώντας το Aspose.BarCode, ακολουθώντας αναλυτικό βήμα‑βήμα οδηγό.
+
 ### [Πώς να αποθηκεύσετε barcode ως εικόνα χρησιμοποιώντας Aspose.BarCode για .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Μάθετε πώς να αποθηκεύσετε barcode ως αρχείο εικόνας με Aspose.BarCode για .NET, βήμα‑βήμα οδηγός.
 

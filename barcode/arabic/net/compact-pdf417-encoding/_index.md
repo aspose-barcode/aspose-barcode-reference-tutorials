@@ -156,6 +156,8 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 ### [كيفية قراءة PDF417 في C# – مثال كامل لقارئ الباركود](./how-to-read-pdf417-in-c-complete-barcode-reader-example/)
 تعلم كيفية قراءة باركود PDF417 باستخدام C# مع مثال كامل للباركود.
 
+### [كيفية قراءة باركود PDF417 في C# – دليل برمجة كامل](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
+
 - [كيفية إنشاء باركود في C# باستخدام Aspose.BarCode وإضافة بيانات تعريف](./how-to-generate-barcode-in-c-with-aspose-barcode-and-add-met/)
 - [إنشاء باركودات PDF417 المدمجة](./compact-pdf417-basic-configuration/)
 - [إنشاء باركود PDF417 في C# – دليل كامل](./generate-pdf417-barcode-in-c-complete-guide/)
@@ -194,6 +196,8 @@ PDF417 المدمج هو رمز ثنائي الأبعاد عالي السعة ي
 ### [إنشاء باركود PDF417 باستخدام مولد Aspose Barcode – دليل C#](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
 
 ### [كيفية استخدام BarCodeReader في C# لقراءة الباركود من الصور](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
+
+### [كيفية إنشاء باركود PDF417 في C# باستخدام Aspose.BarCode](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -104,7 +104,10 @@ Pelajari cara menghasilkan barcode dengan teks khusus menggunakan Aspose.BarCode
 ### [Cara menghasilkan barcode dengan karakter khusus di C#](./how-to-generate-a-barcode-with-special-characters-in-c/)
 ### [Cara menyimpan barcode sebagai gambar menggunakan Aspose.BarCode untuk .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Pelajari cara menyimpan barcode sebagai file gambar dengan Aspose.BarCode di .NET.
-
+### [Buat gambar barcode dan simpan dalam format PNG di C#](./create-barcode-image-and-save-png-format-in-c/)
+Pelajari cara membuat gambar barcode dan menyimpannya sebagai file PNG menggunakan C# dengan Aspose.BarCode.
+### [Menghasilkan barcode PNG di C# dengan Aspose – panduan langkah demi langkah](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Pelajari cara menghasilkan barcode PNG di C# menggunakan Aspose.BarCode dengan contoh kode lengkap.
 ## Kesimpulan
 
 Dalam seri tutorial ini, kita telah mempelajari dunia tipe barcode satu dimensi, dengan fokus pada konfigurasi dan penyesuaiannya. Dengan Aspose.BarCode untuk .NET, prosesnya menjadi sederhana, memastikan bahwa Anda dapat membuat kode batang yang disesuaikan dengan kebutuhan Anda. Jadi, apakah Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberdayakan Anda untuk memanfaatkan kekuatan kode batang satu dimensi dalam proyek .NET Anda. Mulailah sekarang dan keluarkan potensi teknologi barcode!

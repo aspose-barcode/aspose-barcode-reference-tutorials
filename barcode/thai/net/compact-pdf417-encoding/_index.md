@@ -84,9 +84,9 @@ Aspose.BarCode ให้คุณตั้งค่าคุณสมบัต�
 ## บทแนะนำการเข้ารหัส Compact PDF417
 ### [How to generate PDF417 barcode with Aspose.Barcode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
-### [วิธีสร้างบาร์โค้ด PDF417 ใน C# ด้วย BarcodeGenerator](./how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
+### [วิธีสร้างบาร์โค้ด PDF417 ใน C# ด้วย Aspose.BarCode](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)
 
-เรียนรู้วิธีสร้างบาร์โค้ด PDF417 ใน C# ด้วย BarcodeGenerator ของ Aspose.BarCode
+### [วิธีสร้างบาร์โค้ด PDF417 ใน C# ด้วย BarcodeGenerator](./how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
 
 ### [วิธีสร้างบาร์โค้ด Macro PDF417 ด้วย Aspose.BarCode ใน C#](./how-to-create-macro-pdf417-barcode-with-aspose-barcode-in-c/)
 
@@ -100,7 +100,7 @@ Aspose.BarCode ให้คุณตั้งค่าคุณสมบัต�
 
 ### [How to read PDF417 barcode in C# – full barcode reader guide](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
-... (remaining repeated entries unchanged)
+### [วิธีอ่านบาร์โค้ด PDF417 ใน C# – คู่มือการเขียนโปรแกรมแบบสมบูรณ์](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
 
 ### [สร้างบาร์โค้ด PDF417 ด้วย Aspose Barcode Generator – คำแนะนำ C#](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
 
