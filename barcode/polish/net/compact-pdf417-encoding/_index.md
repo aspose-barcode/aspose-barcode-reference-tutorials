@@ -94,7 +94,11 @@ Poza podstawami, oto kilka praktycznych wskazówek, które usprawnią Twój prze
 
 ### [How to read PDF417 barcode in C# – full barcode reader guide](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
+### [Jak odczytać kod kreskowy PDF417 w C# – kompletny przewodnik programistyczny](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
+
+
 ### [Jak odczytać kod kreskowy PDF417 w C# przy użyciu Aspose – przewodnik krok po kroku](./how-to-read-pdf417-barcode-in-c-with-aspose-step-by-step-gui/)
+
 
 ### [Generate PDF417 barcode and create barcode image C#](./generate-pdf417-barcode-and-create-barcode-image-c/)
 
@@ -255,6 +259,8 @@ Poza podstawami, oto kilka praktycznych wskazówek, które usprawnią Twój prze
 ### [Jak wygenerować obraz kodu kreskowego z MacroPdf417 w C#](./how-to-generate-barcode-image-with-macropdf417-in-c/)
 
 ### [Jak używać BarCodeReader w C# do odczytywania kodów kreskowych z obrazów](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
+
+### [Jak wygenerować kod kreskowy PDF417 w C# przy użyciu Aspose.BarCode](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

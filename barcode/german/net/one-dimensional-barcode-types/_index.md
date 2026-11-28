@@ -92,6 +92,10 @@ Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcodes erstellen – Schritt‑
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes mit eigenem Text erstellen – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man einen Barcode als Bild speichert – Aspose.BarCode für .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Erfahren Sie, wie Sie mit Aspose.BarCode für .NET Barcodes als Bilddatei speichern – Schritt‑für‑Schritt‑Anleitung.
+### [Barcode‑Bild erstellen und im PNG‑Format speichern – C#](./create-barcode-image-and-save-png-format-in-c/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# ein Barcode‑Bild erzeugen und als PNG speichern.
+### [Barcode‑PNG in C# mit Aspose generieren – Schritt‑für‑Schritt‑Anleitung](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.BarCode in C# Barcode‑Bilder im PNG‑Format erstellen – eine einfache Schritt‑für‑Schritt‑Anleitung.
 
 ## Abschluss
 

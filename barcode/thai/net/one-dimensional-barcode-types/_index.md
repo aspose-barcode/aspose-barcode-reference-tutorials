@@ -102,6 +102,10 @@ url: /th/net/one-dimensional-barcode-types/
 เรียนรู้วิธีสร้างบาร์โค้ดด้วยข้อความที่กำหนดเองใน .NET โดยใช้ Aspose.BarCode อย่างง่าย
 ### [วิธีบันทึกบาร์โค้ดเป็นภาพโดยใช้ Aspose.BarCode สำหรับ .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 เรียนรู้วิธีบันทึกบาร์โค้ดเป็นไฟล์ภาพใน .NET ด้วย Aspose.BarCode อย่างง่าย
+### [สร้างภาพบาร์โค้ดและบันทึกเป็นรูปแบบ PNG ใน C#](./create-barcode-image-and-save-png-format-in-c/)
+เรียนรู้วิธีสร้างภาพบาร์โค้ดและบันทึกเป็นไฟล์ PNG ด้วย C# โดยใช้ Aspose.BarCode
+### [สร้างบาร์โค้ด PNG ใน C# ด้วย Aspose – คู่มือขั้นตอนโดยละเอียด](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+เรียนรู้วิธีสร้างบาร์โค้ด PNG ใน C# ด้วย Aspose.BarCode อย่างละเอียดตามขั้นตอน
 ### [วิธีอ่านบาร์โค้ดจากภาพโดยใช้ C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
 เรียนรู้วิธีอ่านบาร์โค้ดจากภาพใน C# อย่างละเอียด
 

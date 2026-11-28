@@ -134,137 +134,21 @@ weight: 29
 
 ### [Πώς να Διαβάσετε PDF417 σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
-### [Πώς να δημιουργήσετε PDF417 barcode σε C# – πλήρης προγραμματιστικός οδηγός](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
-
-### [Πώς να αποθηκεύσετε barcode και να δημιουργήσετε PDF417 με Aspose σε C#](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
-
-### [Οδηγός Γεννήτριας Barcode: Πώς να δημιουργήσετε PDF417 Barcode σε C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
-Μάθετε πώς να χρησιμοποιήσετε το Aspose.BarCode for .NET ώστε να δημιουργήσετε PDF417 barcode...
-
-### [Δημιουργία PDF417 Barcode σε C# – Οδηγός Γεννήτριας Barcode](./create-pdf417-barcode-in-c-barcode-generator-guide/)
-Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# με τη χρήση του Aspose.BarCode Generator.
-
-### [Πώς να αποθηκεύσετε εικόνες barcode σε C# – πλήρης οδηγός](./how-to-save-barcode-images-in-c-complete-guide/)
-
-### [Πώς να Δημιουργήσετε Εικόνα Barcode PDF417 σε C# με το Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
-Μάθετε πώς να δημιουργήσετε εικόνα κώδικα PDF417 σε C# χρησιμοποιώντας το Aspose.
-
-### [Ανάγνωση Πολλαπλών Barcode C# – Πλήρης Οδηγός με PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
-Μάθετε πώς να διαβάζετε πολλαπλούς κωδικούς, συμπεριλαμβανομένου PDF417, σε εφαρμογές C# με το Aspose.BarCode.
-
-### [Δημιουργία Μεταδεδομένων PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός](./generate-pdf417-barcode-in-c-complete-guide/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
-
-### [Δημιουργία PDF417 barcode με συμπαγείς ρυθμίσεις σε C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
+### [How to read PDF417 in C# – complete step‑by‑step guide](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
 ### [Πώς να Διαβάσετε PDF417 σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
 
-### [Πώς να δημιουργήσετε PDF417 barcode σε C# – πλήρης προγραμματιστικός οδηγός](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
+### [How to read PDF417 barcode in C# – complete programming guide](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
 
-### [Πώς να αποθηκεύσετε barcode και να δημιουργήσετε PDF417 με Aspose σε C#](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
+### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 
-### [Οδηγός Γεννήτριας Barcode: Πώς να δημιουργήσετε PDF417 Barcode σε C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
-Μάθετε πώς να χρησιμοποιήσετε το Aspose.BarCode for .NET ώστε να δημιουργήσετε PDF417 barcode...
+### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 
-### [Δημιουργία PDF417 Barcode σε C# – Οδηγός Γεννήτριας Barcode](./create-pdf417-barcode-in-c-barcode-generator-guide/)
-Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# με τη χρήση του Aspose.BarCode Generator.
+### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 
-### [Πώς να αποθηκεύσετε εικόνες barcode σε C# – πλήρης οδηγός](./how-to-save-barcode-images-in-c-complete-guide/)
+### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 
-### [Πώς να Δημιουργήσετε Εικόνα Barcode PDF417 σε C# με το Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
-Μάθετε πώς να δημιουργήσετε εικόνα κώδικα PDF417 σε C# χρησιμοποιώντας το Aspose.
-
-### [Ανάγνωση Πολλαπλών Barcode C# – Πλήρης Οδηγός με PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
-Μάθετε πώς να διαβάζετε πολλαπλούς κωδικούς, συμπεριλαμβανομένου PDF417, σε εφαρμογές C# με το Aspose.BarCode.
-
-### [Δημιουργία Μεταδεδομένων PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός](./generate-pdf417-barcode-in-c-complete-guide/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
-
-### [Δημιουργία PDF417 barcode με συμπαγείς ρυθμίσεις σε C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-### [Πώς να Διαβάσετε PDF417 σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [Πώς να δημιουργήσετε PDF417 barcode σε C# – πλήρης προγραμματιστικός οδηγός](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
-
-### [Πώς να αποθηκεύσετε barcode και να δημιουργήσετε PDF417 με Aspose σε C#](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
-
-### [Οδηγός Γεννήτριας Barcode: Πώς να δημιουργήσετε PDF417 Barcode σε C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
-Μάθετε πώς να χρησιμοποιήσετε το Aspose.BarCode for .NET ώστε να δημιουργήσετε PDF417 barcode...
-
-### [Δημιουργία PDF417 Barcode σε C# – Οδηγός Γεννήτριας Barcode](./create-pdf417-barcode-in-c-barcode-generator-guide/)
-Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# με τη χρήση του Aspose.BarCode Generator.
-
-### [Πώς να αποθηκεύσετε εικόνες barcode σε C# – πλήρης οδηγός](./how-to-save-barcode-images-in-c-complete-guide/)
-
-### [Πώς να Δημιουργήσετε Εικόνα Barcode PDF417 σε C# με το Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
-Μάθετε πώς να δημιουργήσετε εικόνα κώδικα PDF417 σε C# χρησιμοποιώντας το Aspose.
-
-### [Ανάγνωση Πολλαπλών Barcode C# – Πλήρης Οδηγός με PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
-Μάθετε πώς να διαβάζετε πολλαπλούς κωδικούς, συμπεριλαμβανομένου PDF417, σε εφαρμογές C# με το Aspose.BarCode.
-
-### [Δημιουργία Μεταδεδομένων PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός](./generate-pdf417-barcode-in-c-complete-guide/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
-
-### [Δημιουργία PDF417 barcode με συμπαγείς ρυθμίσεις σε C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-### [Πώς να Διαβάσετε PDF417 σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [Πώς να δημιουργήσετε PDF417 barcode σε C# – πλήρης προγραμματιστικός οδηγός](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
-
-### [Πώς να αποθηκεύσετε barcode και να δημιουργήσετε PDF417 με Aspose σε C#](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
-
-### [Οδηγός Γεννήτριας Barcode: Πώς να δημιουργήσετε PDF417 Barcode σε C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
-Μάθετε πώς να χρησιμοποιήσετε το Aspose.BarCode for .NET ώστε να δημιουργήσετε PDF417 barcode...
-
-### [Δημιουργία PDF417 Barcode σε C# – Οδηγός Γεννήτριας Barcode](./create-pdf417-barcode-in-c-barcode-generator-guide/)
-Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# με τη χρήση του Aspose.BarCode Generator.
-
-### [Πώς να αποθηκεύσετε εικόνες barcode σε C# – πλήρης οδηγός](./how-to-save-barcode-images-in-c-complete-guide/)
-
-### [Πώς να Δημιουργήσετε Εικόνα Barcode PDF417 σε C# με το Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
-Μάθετε πώς να δημιουργήσετε εικόνα κώδικα PDF417 σε C# χρησιμοποιώντας το Aspose.
-
-### [Ανάγνωση Πολλαπλών Barcode C# – Πλήρης Οδηγός με PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
-Μάθετε πώς να διαβάζετε πολλαπλούς κωδικούς, συμπεριλαμβανομένου PDF417, σε εφαρμογές C# με το Aspose.BarCode.
-
-### [Δημιουργία Μεταδεδομένων PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./create-pdf417-barcode-metadata-in-c-complete-step-by-step-gu/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός](./generate-pdf417-barcode-in-c-complete-guide/)
-
-### [Δημιουργία PDF417 Barcode σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./generate-pdf417-barcode-in-c-complete-step-by-step-guide/)
-
-### [Δημιουργία PDF417 barcode με συμπαγείς ρυθμίσεις σε C#](./generate-pdf417-barcode-with-compact-settings-in-c/)
-
-### [Πώς να Διαβάσετε PDF417 σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-read-pdf417-in-c-complete-step-by-step-guide/)
-
-### [Πώς να δημιουργήσετε PDF417 barcode σε C# – πλήρης προγραμματιστικός οδηγός](./how-to-generate-pdf417-barcode-in-c-complete-programming-gui/)
-
-### [Πώς να αποθηκεύσετε barcode και να δημιουργήσετε PDF417 με Aspose σε C#](./how-to-save-barcode-and-generate-pdf417-with-aspose-in-c/)
-
-### [Οδηγός Γεννήτριας Barcode: Πώς να δημιουργήσετε PDF417 Barcode σε C#](./barcode-generator-tutorial-how-to-generate-pdf417-barcode-in/)
-Μάθετε πώς να χρησιμοποιήσετε το Aspose.BarCode for .NET ώστε να δημιουργήσετε PDF417 barcode...
-
-### [Δημιουργία PDF417 Barcode σε C# – Οδηγός Γεννήτριας Barcode](./create-pdf417-barcode-in-c-barcode-generator-guide/)
-Μάθετε πώς να δημιουργήσετε PDF417 barcode σε C# με τη χρήση του Aspose.BarCode Generator.
-
-### [Πώς να αποθηκεύσετε εικόνες barcode σε C# – πλήρης οδηγός](./how-to-save-barcode-images-in-c-complete-guide/)
-
-### [Πώς να Δημιουργήσετε Εικόνα Barcode PDF417 σε C# με το Aspose](./how-to-generate-pdf417-barcode-image-in-c-with-aspose/)
-Μάθετε πώς να δημιουργήσετε εικόνα κώδικα PDF417 σε C# χρησιμοποιώντας το Aspose.
-
-### [Ανάγνωση Πολλαπλών Barcode C# – Πλήρης Οδηγός με PDF417](./read-multiple-barcodes-c-complete-guide-with-pdf417/)
-Μάθετε πώς να διαβάζετε πολλαπλούς κωδικούς, συμπεριλαμβανομένου PDF417, σε εφαρμογές C# με το Aspose.BarCode.
-
-### [Δημιουργία PDF417 barcode with Aspose Barcode Generator – οδηγός C#](./generate-pdf417-barcode-with-aspose-barcode-generator-c-guid/)
+### [How to generate PDF417 barcode in C# – step‑by‑step guide](./how-to-generate-pdf417-barcode-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

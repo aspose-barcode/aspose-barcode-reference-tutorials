@@ -104,6 +104,10 @@ Dowiedz się, jak w pełnym przykładzie odczytać obrazy kodów kreskowych w C#
 Dowiedz się, jak tworzyć kody kreskowe z własnym tekstem w .NET przy pomocy Aspose.BarCode.
 ### [Jak zapisać kod kreskowy jako obraz przy użyciu Aspose.BarCode dla .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Dowiedz się, jak zapisać kod kreskowy jako plik obrazu w .NET przy użyciu Aspose.BarCode.
+### [Utwórz obraz kodu kreskowego i zapisz w formacie PNG w C#](./create-barcode-image-and-save-png-format-in-c/)
+Dowiedz się, jak wygenerować obraz kodu kreskowego i zapisać go w formacie PNG w C# przy użyciu Aspose.BarCode.
+### [Generowanie kodu kreskowego PNG w C# przy użyciu Aspose – przewodnik krok po kroku](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Dowiedz się, jak wygenerować kod kreskowy w formacie PNG w C# przy użyciu Aspose.BarCode, krok po kroku.
 
 ## Wniosek
 

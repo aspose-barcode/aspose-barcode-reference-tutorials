@@ -99,10 +99,16 @@ Ismerje meg, hogyan konfigurálhatja a vonalkód beállításait C#-ban az Aspos
 ### [Hogyan generáljunk vonalkódot Aspose-szal C#-ban](./how-to-generate-barcode-with-aspose-in-c/)
 Ismerje meg, hogyan hozhat létre vonalkódot Aspose.BarCode segítségével C#-ban, lépésről lépésre útmutatóval.
 ### [Hogyan olvassuk be a vonalkód képeket C#-ban – teljes példavezető](./how-to-read-barcode-images-in-c-full-example-guide/)
-Ismerje meg, hogyan olvashat be vonalkód képeket C#-ban az Aspose.BarCode segítségével, részletes lépésről-lépésre útmutató.
+Ismerje meg, hogyan olvashat be vonalkód képeket C#-ban az Aspose.BarCode segítségével, részletes lépésről‑lépésre útmutató.
 ### [Hogyan olvassuk be a vonalkódokat képből C#‑ban – lépésről‑lépésre útmutató](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
 Ismerje meg, hogyan olvashat be több vonalkódot képből C#‑ban lépésről‑lépésre útmutatóval.
 ### [Hogyan mentse el a vonalkódot képként az Aspose.BarCode for .NET használatával](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
+
+### [Vonalkód kép létrehozása és PNG formátumban mentése C#-ban](./create-barcode-image-and-save-png-format-in-c/)
+Ismerje meg, hogyan hozhat létre vonalkód képet és mentheti PNG formátumban C#-ban az Aspose.BarCode segítségével.
+
+### [Vonalkód PNG generálása C#-ban Aspose‑szal – lépésről‑lépésre útmutató](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Ismerje meg, hogyan generáljon PNG formátumú vonalkódot C#-ban az Aspose.BarCode segítségével, lépésről‑lépésre.
 
 ## Következtetés
 

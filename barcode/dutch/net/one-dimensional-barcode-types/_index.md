@@ -98,6 +98,10 @@ Leer hoe u barcodes met speciale tekens maakt in C# met Aspose.BarCode.
 Leer hoe u barcode-afbeeldingen in C# kunt lezen met een volledige voorbeeldgids.
 ### [Hoe een barcode opslaan als afbeelding met Aspose.BarCode voor .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Leer hoe u een barcode als afbeelding opslaat met Aspose.BarCode voor .NET.
+### [Barcodeafbeelding maken en opslaan in PNG-formaat in C#](./create-barcode-image-and-save-png-format-in-c/)
+Leer hoe u een barcode-afbeelding maakt en opslaat als PNG in C# met Aspose.BarCode.
+### [Barcode PNG genereren in C# met Aspose – stapsgewijze gids](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Leer hoe u met Aspose.BarCode in C# een barcode als PNG genereert, stap voor stap.
 
 ## Conclusie
 

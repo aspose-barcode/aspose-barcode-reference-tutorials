@@ -98,6 +98,10 @@ url: /ar/net/one-dimensional-barcode-types/
 تعرف على كيفية حفظ الباركود كملف صورة باستخدام Aspose.BarCode في .NET.
 ### [كيفية قراءة الباركود من صورة باستخدام C# – دليل خطوة بخطوة](./how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
 تعلم كيفية قراءة الباركود من صورة باستخدام C# خطوة بخطوة مع Aspose.BarCode.
+### [إنشاء صورة باركود وحفظها بصيغة PNG في C#](./create-barcode-image-and-save-png-format-in-c/)
+تعلم كيفية إنشاء صورة باركود وحفظها بصيغة PNG باستخدام Aspose.BarCode في C# خطوة بخطوة.
+### [إنشاء باركود PNG في C# – دليل خطوة بخطوة](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+تعلم كيفية إنشاء باركود بصيغة PNG في C# باستخدام Aspose خطوة بخطوة.
 
 ## خاتمة
 

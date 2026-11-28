@@ -83,6 +83,9 @@ Az alapok mellett itt van néhány gyakorlati tipp a munkafolyamat egyszerűsít
 - **Verziókezelés:** Tartsa az Aspose.BarCode könyvtár verzióját konzisztensen a fejlesztés, teszt és éles környezetekben.
 
 ## Compact PDF417 kódolási útmutatók
+### [How to read PDF417 barcode in C# – complete programming guide](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
+
+
 ### [How to generate barcode image with MacroPdf417 in C#](./how-to-generate-barcode-image-with-macropdf417-in-c/)
 
 
@@ -356,3 +359,5 @@ A: Nem szükséges külső betűtípus; a könyvtár minden megjelenítést bels
 ### [Hogyan generáljunk vonalkódot az Aspose.Barcode használatával C#‑ban](./how-to-generate-barcode-using-aspose-barcode-in-c/)
 
 ### [Hogyan használjuk a BarCodeReader‑t C#‑ban a vonalkódok képekből történő beolvasásához](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
+
+### [Hogyan generáljunk PDF417 vonalkódot C#‑ban az Aspose.BarCode‑dal](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)

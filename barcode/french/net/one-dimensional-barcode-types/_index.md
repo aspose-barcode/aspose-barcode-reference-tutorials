@@ -86,6 +86,8 @@ Apprenez à lire des codes-barres à partir d'images en C# avec Aspose.BarCode. 
 Apprenez à lire des images de code-barres en C# avec Aspose.BarCode. Guide complet étape par étape.
 ### [Générer un code-barres à partir du texte avec Aspose.BarCode – Guide C#](./generate-barcode-from-text-using-aspose-barcode-c-guide/)
 Apprenez à créer un code-barres à partir de texte en C# avec Aspose.BarCode. Guide étape par étape pour une intégration facile.
+### [Créer une image de code-barres et enregistrer au format PNG en C#](./create-barcode-image-and-save-png-format-in-c/)
+Apprenez à créer une image de code-barres et à l’enregistrer au format PNG en C# avec Aspose.BarCode. Guide étape par étape.
 ### [Comment générer un code-barres avec texte personnalisé en utilisant Aspose.BarCode pour .NET](./how-to-generate-barcode-with-custom-text-using-aspose-barcod/)
 Apprenez à créer un code-barres contenant du texte personnalisé avec Aspose.BarCode pour .NET. Guide étape par étape.
 ### [Comment générer un code-barres en C# – Guide complet de programmation](./how-to-generate-barcode-in-c-complete-programming-guide/)
@@ -104,6 +106,8 @@ Apprenez à créer des codes-barres contenant des caractères spéciaux en C# av
 Apprenez à lire des codes-barres à partir d'images en C# avec Aspose.BarCode. Guide complet étape par étape.
 ### [Comment enregistrer un code-barres en tant qu'image avec Aspose.BarCode pour .NET](./how-to-save-barcode-as-an-image-using-aspose-barcode-for-net/)
 Apprenez à enregistrer un code-barres généré sous forme d'image avec Aspose.BarCode pour .NET. Guide étape par étape.
+### [Générer un code-barres PNG en C# avec Aspose – guide étape par étape](./generate-barcode-png-in-c-with-aspose-step-by-step-guide/)
+Apprenez à créer un code-barres PNG en C# avec Aspose.BarCode grâce à un guide complet étape par étape.
 
 ## Conclusion
 

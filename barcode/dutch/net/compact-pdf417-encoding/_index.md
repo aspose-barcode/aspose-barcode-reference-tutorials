@@ -139,6 +139,9 @@ De hoge gegevensdichtheid en robuuste foutcorrectie van Compact PDF417 maken het
 - **Unreadable Scans:** Zorg voor voldoende contrast tussen voor‑ en achtergrondkleur; vermijd verlopen.  
 - **License Exceptions:** In een proefomgeving kan de gegenereerde barcode een watermerk bevatten. Pas een geldige licentie toe om het te verwijderen.
 
+### [How to generate PDF417 barcode in C# with Aspose.BarCode](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)
+
+
 ### [Create PDF417 barcode in C# using Aspose.BarCode – step‑by‑step guide](./create-pdf417-barcode-in-c-using-aspose-barcode-step-by-step/)
 
 
@@ -225,6 +228,8 @@ Leer hoe je een barcode als PNG-afbeelding genereert in C# met Aspose.BarCode, i
 - [Hoe PDF417-barcode genereren in C# – volledige gids met macro‑ondersteuning](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
 - [Genereer pdf417 barcode in C# met aangepaste kolommen en rijen](./generate-pdf417-barcode-in-c-with-custom-columns-and-rows/)
 - [Hoe PDF417-barcode te lezen in C# – volledige barcode‑lezer gids](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
+- [Hoe PDF417-barcode lezen in C# – volledige programmeergids](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
+- [Hoe PDF417-barcodes te lezen in C# – volledige stap‑voor‑stap gids](./how-to-read-pdf417-barcodes-in-c-complete-step-by-step-guide/)
 - [Hoe PDF417-barcode te genereren met Aspose.BarCode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 - [Hoe PDF417-barcodes te maken met Aspose.BarCode in C#](./how-to-create-pdf417-barcodes-with-aspose-barcode-in-c/)
 - [Hoe PDF417-barcode te maken met aangepaste lay-out in C#](./how-to-create-pdf417-barcode-with-custom-layout-in-c/)

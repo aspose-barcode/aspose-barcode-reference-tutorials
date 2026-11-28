@@ -103,6 +103,7 @@ Temellerin ötesinde, iş akışınızı hızlandıracak bazı pratik ipuçları
 
 ### [How to generate PDF417 barcode with Aspose.BarCode in C#](./how-to-generate-pdf417-barcode-with-aspose-barcode-in-c/)
 
+### [Aspose.BarCode ile C#'ta PDF417 barkodu nasıl oluşturulur](./how-to-generate-pdf417-barcode-in-c-with-aspose-barcode/)
 
 ### [How to generate PDF417 barcode in C# with macro support](./how-to-generate-pdf417-barcode-in-c-with-macro-support/)
 
@@ -122,16 +123,25 @@ Temellerin ötesinde, iş akışınızı hızlandıracak bazı pratik ipuçları
 ### [How to decode PDF417 barcodes in C# with BarCodeReader](./how-to-decode-pdf417-barcodes-in-c-with-barcodereader/)
 
 
-### [C#'ta PDF417 barkodlarını çözme – adım adım rehber](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
+### [C#'ta PDF417 barklarını çözme – adım adım rehber](./how-to-decode-pdf417-barcodes-in-c-step-by-step-guide/)
 
 
-### [C#'ta PDF417 barkodlarını okuma – tam barkod okuyucu rehberi](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
+### [C#'ta PDF417 barklarını okuma – tam barkod okuyucu rehberi](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
 
 ### [Create PDF417 barcode in C# – complete guide](./create-pdf417-barcode-in-c-complete-guide/)
 
 
 ### [How to create PDF417 barcode and set its size in C#](./how-to-create-pdf417-barcode-and-set-its-size-in-c/)
+
+
+### [C#'ta PDF417 barkodu nasıl oluşturulur – tam rehber](./how-to-generate-pdf417-barcode-in-c-complete-guide/)
+
+
+### [C#'ta PDF417 barkodlarını okuma – tam barkod okuyucu rehberi](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
+
+
+### [C#'ta PDF417 barkodlarını okuma – tam barkod okuyucu rehberi](./how-to-read-pdf417-barcode-in-c-full-barcode-reader-guide/)
 
 
 ### [Compact PDF417 Barkodları Oluşturma](./compact-pdf417-basic-configuration/)
@@ -296,6 +306,8 @@ C#'ta Aspose.BarCode ile macro PDF417 barkodunu okuma
 ### [MacroPdf417 ile C#'ta barkod resmi oluşturma](./how-to-generate-barcode-image-with-macropdf417-in-c/)
 
 ### [C#'ta BarCodeReader Kullanarak Görüntülerden Barkod Okuma](./how-to-use-barcodereader-in-c-to-read-barcodes-from-images/)
+
+### [C#'ta PDF417 barkodu okuma – tam programlama rehberi](./how-to-read-pdf417-barcode-in-c-complete-programming-guide/)
 
 ## Sıkça Sorulan Sorular
 
