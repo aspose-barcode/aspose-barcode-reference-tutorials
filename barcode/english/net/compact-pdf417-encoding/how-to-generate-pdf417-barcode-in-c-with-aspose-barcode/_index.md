@@ -219,14 +219,14 @@ Next, you might explore:
 Feel free to experiment with different error‑correction levels, image formats, and data payloads to suit your project’s needs. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to generate PDF417 barcode in C# with Aspose.BarCode BarcodeGenerator](/barcode/english/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
-- [How to generate PDF417 barcode and render it as PNG](/barcode/english/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-and-render-it-as-png/)
-- [How to generate PDF417 barcode in C# and set barcode size](/barcode/english/net/compact-pdf417-encoding/how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
+- [How to generate PDF417 barcode in C# with Aspose.BarCode BarcodeGenerator](../how-to-generate-pdf417-barcode-in-c-with-barcodegenerator/)
+- [How to generate PDF417 barcode and render it as PNG](../how-to-generate-pdf417-barcode-and-render-it-as-png/)
+- [How to generate PDF417 barcode in C# and set barcode size](../how-to-generate-pdf417-barcode-in-c-and-set-barcode-size/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

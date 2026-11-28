@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-27
-description: Create barcode image in C# and save image PNG format with Aspose.BarCode
-  – step‑by‑step guide.
+description: Learn how to create a barcode image in C# and save it in PNG format using Aspose.BarCode – step‑by‑step guide.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,22 +13,20 @@ keywords:
 - barcode generation .NET
 language: en
 lastmod: 2026-11-27
-og_description: Create barcode image in C# and save image PNG format using Aspose.BarCode.
-  Follow this tutorial to generate a Macro PDF417 barcode step by step.
+og_description: Learn how to create a barcode image in C# and save it in PNG format using Aspose.BarCode. Follow this tutorial to generate a Macro PDF417 barcode step by step.
 og_image_alt: Screenshot of a created barcode image saved as PNG
-og_title: Create barcode image and save PNG format in C# – complete guide
+og_title: Create barcode image and save PNG format in C# with Aspose.BarCode – complete guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-27'
-  description: Create barcode image in C# and save image PNG format with Aspose.BarCode
-    – step‑by‑step guide.
+  description: Learn how to create a barcode image in C# and save it in PNG format using Aspose.BarCode – step‑by‑step guide.
   headline: Create barcode image and save PNG format in C#
   type: TechArticle
 tags:
 - barcode
 - C#
 - Aspose
-title: Create barcode image and save PNG format in C#
+title: Create barcode image and save PNG format in C# with Aspose.BarCode
 url: /net/one-dimensional-barcode-types/create-barcode-image-and-save-png-format-in-c/
 ---
 
@@ -197,15 +194,13 @@ Opening `ExtPDF417Meta.png` shows a clear Macro PDF417 barcode ready for scannin
 - **Change the image format** – replace `BarCodeImageFormat.Png` with `Jpeg` or `Bmp` if you need a different file type. Remember that JPEG introduces compression artifacts, which may affect scan reliability.
 - **Adjust resolution** – use
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to create barcode image with Aspose.Barcode in C#](/barcode/english/python-java/general/how-to-create-barcode-image-with-aspose-barcode-in-c/)
-- [How to create PDF417 barcode image in C# with Macro PDF417 options](/barcode/english/net/compact-pdf417-encoding/how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op/)
-- [How to read barcodes from image using C# with Aspose.BarCode – step‑by‑step guide](/barcode/english/net/one-dimensional-barcode-types/how-to-read-barcodes-from-image-using-c-step-by-step-guide/)
+- [How to create barcode image with Aspose.Barcode in C#]({{< relref "barcode/english/python-java/general/how-to-create-barcode-image-with-aspose-barcode-in-c" >}})
+- [How to create PDF417 barcode image in C# with Macro PDF417 options]({{< relref "barcode/english/net/compact-pdf417-encoding/how-to-create-pdf417-barcode-image-in-c-with-macro-pdf417-op" >}})
+- [How to read barcodes from image using C# with Aspose.BarCode – step‑by‑step guide]({{< relref "barcode/english/net/one-dimensional-barcode-types/how-to-read-barcodes-from-image-using-c-step-by-step-guide" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

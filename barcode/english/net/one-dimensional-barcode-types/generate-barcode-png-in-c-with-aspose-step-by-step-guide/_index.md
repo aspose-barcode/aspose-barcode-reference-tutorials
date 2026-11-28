@@ -245,14 +245,14 @@ Next, explore related topics such as **generating barcode with Aspose** for PDF 
 Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to generate barcode set custom size and save image in C#](/barcode/english/python-java/general/how-to-generate-barcode-set-custom-size-and-save-image-in-c/)
-- [Barcode image PNG in C# generate barcodes, change height](/barcode/english/python-java/general/barcode-image-png-in-c-generate-barcodes-change-height/)
-- [How to create barcode PNG in C# using Aspose.Barcode](/barcode/english/python-java/general/how-to-create-barcode-png-in-c-using-aspose-barcode/)
+- [How to generate barcode set custom size and save image in C#]({{< relref "../../../python-java/general/how-to-generate-barcode-set-custom-size-and-save-image-in-c/_index.md" >}})
+- [Barcode image PNG in C# generate barcodes, change height]({{< relref "../../../python-java/general/barcode-image-png-in-c-generate-barcodes-change-height/_index.md" >}})
+- [How to create barcode PNG in C# using Aspose.Barcode]({{< relref "../../../python-java/general/how-to-create-barcode-png-in-c-using-aspose-barcode/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
